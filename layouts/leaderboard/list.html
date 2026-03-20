@@ -1,0 +1,632 @@
+{{ define "title" }}🏆 AI 榜单 | {{ .Site.Title }}{{ end }}
+
+{{ define "extra-head" }}
+<style>
+    .lb-hero {
+        text-align: center;
+        padding: 3rem 1rem;
+        border-bottom: 1px solid var(--neon-green-dim);
+    }
+
+    .lb-title {
+        font-family: 'Orbitron', monospace;
+        font-size: clamp(1.8rem, 4vw, 3rem);
+        color: var(--neon-green);
+        text-shadow: 0 0 20px var(--neon-green-glow);
+        margin-bottom: 1rem;
+    }
+
+    .lb-subtitle {
+        color: var(--text-secondary);
+        font-size: 1.1rem;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    .lb-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 2rem 1rem;
+    }
+
+    .lb-tabs {
+        display: flex;
+        gap: 0.5rem;
+        margin-bottom: 2rem;
+        flex-wrap: wrap;
+        justify-content: center;
+        border-bottom: 1px solid var(--neon-green-dim);
+        padding-bottom: 1rem;
+    }
+
+    .lb-tab {
+        padding: 0.75rem 1.5rem;
+        background: transparent;
+        border: 1px solid var(--neon-green-dim);
+        color: var(--text-secondary);
+        font-family: 'Orbitron', monospace;
+        font-size: 0.9rem;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        border-radius: 8px 8px 0 0;
+    }
+
+    .lb-tab:hover,
+    .lb-tab.active {
+        background: var(--neon-green);
+        color: var(--dark-bg);
+        border-color: var(--neon-green);
+        box-shadow: 0 0 20px var(--neon-green-glow);
+    }
+
+    .lb-content {
+        display: none;
+    }
+
+    .lb-content.active {
+        display: block;
+    }
+
+    .lb-table-wrapper {
+        overflow-x: auto;
+        border: 1px solid var(--neon-green-dim);
+        border-radius: 10px;
+        background: var(--dark-bg-secondary);
+    }
+
+    .lb-table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    .lb-table th,
+    .lb-table td {
+        padding: 1rem;
+        text-align: left;
+        border-bottom: 1px solid var(--neon-green-dim);
+    }
+
+    .lb-table th {
+        background: rgba(0, 255, 65, 0.1);
+        font-family: 'Orbitron', monospace;
+        font-size: 0.85rem;
+        color: var(--neon-green);
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+    }
+
+    .lb-table tr:hover {
+        background: rgba(0, 255, 65, 0.05);
+    }
+
+    .lb-rank {
+        font-family: 'Orbitron', monospace;
+        font-weight: 700;
+        font-size: 1.1rem;
+    }
+
+    .lb-rank.top-1 {
+        color: #ffd700;
+        text-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+    }
+
+    .lb-rank.top-2 {
+        color: #c0c0c0;
+        text-shadow: 0 0 10px rgba(192, 192, 192, 0.5);
+    }
+
+    .lb-rank.top-3 {
+        color: #cd7f32;
+        text-shadow: 0 0 10px rgba(205, 127, 50, 0.5);
+    }
+
+    .lb-model {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+    }
+
+    .lb-model-icon {
+        width: 40px;
+        height: 40px;
+        border-radius: 8px;
+        background: var(--dark-bg-tertiary);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.2rem;
+        border: 1px solid var(--neon-green-dim);
+    }
+
+    .lb-model-name {
+        font-weight: 600;
+        color: var(--text-primary);
+    }
+
+    .lb-model-org {
+        font-size: 0.8rem;
+        color: var(--text-secondary);
+    }
+
+    .lb-score {
+        font-family: 'Orbitron', monospace;
+        font-weight: 700;
+        color: var(--neon-green);
+    }
+
+    .lb-trend {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.25rem;
+        font-size: 0.85rem;
+    }
+
+    .lb-trend.up {
+        color: #00ff88;
+    }
+
+    .lb-trend.down {
+        color: #ff4757;
+    }
+
+    .lb-trend.same {
+        color: var(--text-secondary);
+    }
+
+    .lb-info {
+        background: var(--dark-bg-secondary);
+        border: 1px solid var(--neon-green-dim);
+        border-radius: 10px;
+        padding: 1.5rem;
+        margin-top: 2rem;
+    }
+
+    .lb-info h3 {
+        font-family: 'Orbitron', monospace;
+        color: var(--neon-green);
+        margin-bottom: 1rem;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    .lb-info p {
+        color: var(--text-secondary);
+        line-height: 1.7;
+        margin-bottom: 0.5rem;
+    }
+
+    .lb-info a {
+        color: var(--neon-blue);
+        text-decoration: none;
+    }
+
+    .lb-info a:hover {
+        text-decoration: underline;
+    }
+
+    .lb-update-time {
+        text-align: center;
+        color: var(--text-secondary);
+        font-size: 0.85rem;
+        margin-top: 1rem;
+        font-family: 'Orbitron', monospace;
+    }
+
+    @media (max-width: 768px) {
+        .lb-table th,
+        .lb-table td {
+            padding: 0.75rem 0.5rem;
+            font-size: 0.9rem;
+        }
+
+        .lb-model-icon {
+            width: 32px;
+            height: 32px;
+            font-size: 1rem;
+        }
+    }
+</style>
+{{ end }}
+
+{{ define "main" }}
+<section class="lb-hero">
+    <h1 class="lb-title glitch-text" data-text="AI 榜单">AI 榜单</h1>
+    <p class="lb-subtitle">{{ .Description }}</p>
+</section>
+
+<div class="lb-container">
+    <div class="lb-tabs">
+        <button class="lb-tab active" data-tab="lmsys">LMSYS Arena</button>
+        <button class="lb-tab" data-tab="opencompass">OpenCompass</button>
+        <button class="lb-tab" data-tab="gaia">GAIA</button>
+        <button class="lb-tab" data-tab="mmlu">MMLU Pro</button>
+        <button class="lb-tab" data-tab="code">代码能力</button>
+    </div>
+
+    <!-- LMSYS Chatbot Arena -->
+    <div class="lb-content active" id="tab-lmsys">
+        <div class="lb-table-wrapper">
+            <table class="lb-table">
+                <thead>
+                    <tr>
+                        <th>排名</th>
+                        <th>模型</th>
+                        <th>ELO 分数</th>
+                        <th>趋势</th>
+                        <th> votes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="lb-rank top-1">🥇 1</td>
+                        <td>
+                            <div class="lb-model">
+                                <div class="lb-model-icon">🤖</div>
+                                <div>
+                                    <div class="lb-model-name">Gemini-2.5-Pro</div>
+                                    <div class="lb-model-org">Google</div>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="lb-score">1,432</td>
+                        <td class="lb-trend up">↗️ +12</td>
+                        <td>85,234</td>
+                    </tr>
+                    <tr>
+                        <td class="lb-rank top-2">🥈 2</td>
+                        <td>
+                            <div class="lb-model">
+                                <div class="lb-model-icon">🚀</div>
+                                <div>
+                                    <div class="lb-model-name">GPT-4o</div>
+                                    <div class="lb-model-org">OpenAI</div>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="lb-score">1,418</td>
+                        <td class="lb-trend same">➡️ -</td>
+                        <td>120,543</td>
+                    </tr>
+                    <tr>
+                        <td class="lb-rank top-3">🥉 3</td>
+                        <td>
+                            <div class="lb-model">
+                                <div class="lb-model-icon">⚡</div>
+                                <div>
+                                    <div class="lb-model-name">Claude 3.5 Sonnet</div>
+                                    <div class="lb-model-org">Anthropic</div>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="lb-score">1,405</td>
+                        <td class="lb-trend down">↘️ -3</td>
+                        <td>98,721</td>
+                    </tr>
+                    <tr>
+                        <td class="lb-rank">4</td>
+                        <td>
+                            <div class="lb-model">
+                                <div class="lb-model-icon">🔥</div>
+                                <div>
+                                    <div class="lb-model-name">DeepSeek-V3</div>
+                                    <div class="lb-model-org">DeepSeek</div>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="lb-score">1,389</td>
+                        <td class="lb-trend up">↗️ +8</td>
+                        <td>76,432</td>
+                    </tr>
+                    <tr>
+                        <td class="lb-rank">5</td>
+                        <td>
+                            <div class="lb-model">
+                                <div class="lb-model-icon">🧠</div>
+                                <div>
+                                    <div class="lb-model-name">Llama 3.1 405B</div>
+                                    <div class="lb-model-org">Meta</div>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="lb-score">1,376</td>
+                        <td class="lb-trend same">➡️ -</td>
+                        <td>65,892</td>
+                    </tr>
+                    <tr>
+                        <td class="lb-rank">6</td>
+                        <td>
+                            <div class="lb-model">
+                                <div class="lb-model-icon">🌟</div>
+                                <div>
+                                    <div class="lb-model-name">Qwen2.5-72B</div>
+                                    <div class="lb-model-org">Alibaba</div>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="lb-score">1,365</td>
+                        <td class="lb-trend up">↗️ +5</td>
+                        <td>54,321</td>
+                    </tr>
+                    <tr>
+                        <td class="lb-rank">7</td>
+                        <td>
+                            <div class="lb-model">
+                                <div class="lb-model-icon">💎</div>
+                                <div>
+                                    <div class="lb-model-name">Mixtral 8x22B</div>
+                                    <div class="lb-model-org">Mistral</div>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="lb-score">1,348</td>
+                        <td class="lb-trend same">➡️ -</td>
+                        <td>43,567</td>
+                    </tr>
+                    <tr>
+                        <td class="lb-rank">8</td>
+                        <td>
+                            <div class="lb-model">
+                                <div class="lb-model-icon">🎯</div>
+                                <div>
+                                    <div class="lb-model-name">Yi-Large</div>
+                                    <div class="lb-model-org">01.AI</div>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="lb-score">1,332</td>
+                        <td class="lb-trend down">↘️ -2</td>
+                        <td>38,765</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <p class="lb-update-time">最后更新: 2026-03-20 | 数据来源: <a href="https://chat.lmsys.org" target="_blank" style="color: var(--neon-green);">LMSYS Chatbot Arena</a></p>
+    </div>
+
+    <!-- OpenCompass -->
+    <div class="lb-content" id="tab-opencompass">
+        <div class="lb-table-wrapper">
+            <table class="lb-table">
+                <thead>
+                    <tr>
+                        <th>排名</th>
+                        <th>模型</th>
+                        <th>综合得分</th>
+                        <th>趋势</th>
+                        <th>发布日期</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="lb-rank top-1">🥇 1</td>
+                        <td>
+                            <div class="lb-model">
+                                <div class="lb-model-icon">🤖</div>
+                                <div>
+                                    <div class="lb-model-name">GPT-4o</div>
+                                    <div class="lb-model-org">OpenAI</div>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="lb-score">89.2</td>
+                        <td class="lb-trend same">➡️ -</td>
+                        <td>2024-05</td>
+                    </tr>
+                    <tr>
+                        <td class="lb-rank top-2">🥈 2</td>
+                        <td>
+                            <div class="lb-model">
+                                <div class="lb-model-icon">⚡</div>
+                                <div>
+                                    <div class="lb-model-name">Claude 3.5 Sonnet</div>
+                                    <div class="lb-model-org">Anthropic</div>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="lb-score">87.8</td>
+                        <td class="lb-trend up">↗️ +1.2</td>
+                        <td>2024-06</td>
+                    </tr>
+                    <tr>
+                        <td class="lb-rank top-3">🥉 3</td>
+                        <td>
+                            <div class="lb-model">
+                                <div class="lb-model-icon">🔥</div>
+                                <div>
+                                    <div class="lb-model-name">DeepSeek-V3</div>
+                                    <div class="lb-model-org">DeepSeek</div>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="lb-score">86.5</td>
+                        <td class="lb-trend up">↗️ +3.5</td>
+                        <td>2024-12</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <p class="lb-update-time">最后更新: 2026-03-20 | 数据来源: <a href="https://opencompass.org.cn" target="_blank" style="color: var(--neon-green);">OpenCompass</a></p>
+    </div>
+
+    <!-- GAIA -->
+    <div class="lb-content" id="tab-gaia">
+        <div class="lb-table-wrapper">
+            <table class="lb-table">
+                <thead>
+                    <tr>
+                        <th>排名</th>
+                        <th>模型</th>
+                        <th>Level 1</th>
+                        <th>Level 2</th>
+                        <th>Level 3</th>
+                        <th>平均</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="lb-rank top-1">🥇 1</td>
+                        <td>
+                            <div class="lb-model">
+                                <div class="lb-model-icon">🚀</div>
+                                <div>
+                                    <div class="lb-model-name">GPT-4 + Tools</div>
+                                    <div class="lb-model-org">OpenAI</div>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="lb-score">65.2%</td>
+                        <td>48.7%</td>
+                        <td>22.1%</td>
+                        <td class="lb-score">45.3%</td>
+                    </tr>
+                    <tr>
+                        <td class="lb-rank top-2">🥈 2</td>
+                        <td>
+                            <div class="lb-model">
+                                <div class="lb-model-icon">🤖</div>
+                                <div>
+                                    <div class="lb-model-name">Claude 3 Opus</div>
+                                    <div class="lb-model-org">Anthropic</div>
+                                </div>
+                            </div>
+                        </td>
+                        <td>58.3%</td>
+                        <td>42.1%</td>
+                        <td>18.5%</td>
+                        <td class="lb-score">39.6%</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <p class="lb-update-time">数据来源: <a href="https://gaia-benchmark.github.io" target="_blank" style="color: var(--neon-green);">GAIA Benchmark</a> (通用 AI 助手能力评测)</p>
+    </div>
+
+    <!-- MMLU Pro -->
+    <div class="lb-content" id="tab-mmlu">
+        <div class="lb-table-wrapper">
+            <table class="lb-table">
+                <thead>
+                    <tr>
+                        <th>排名</th>
+                        <th>模型</th>
+                        <th>MMLU Pro</th>
+                        <th>MMLU</th>
+                        <th>趋势</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="lb-rank top-1">🥇 1</td>
+                        <td>
+                            <div class="lb-model">
+                                <div class="lb-model-icon">🤖</div>
+                                <div>
+                                    <div class="lb-model-name">Gemini 1.5 Pro</div>
+                                    <div class="lb-model-org">Google</div>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="lb-score">81.3%</td>
+                        <td>90.2%</td>
+                        <td class="lb-trend up">↗️ New</td>
+                    </tr>
+                    <tr>
+                        <td class="lb-rank top-2">🥈 2</td>
+                        <td>
+                            <div class="lb-model">
+                                <div class="lb-model-icon">🚀</div>
+                                <div>
+                                    <div class="lb-model-name">GPT-4o</div>
+                                    <div class="lb-model-org">OpenAI</div>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="lb-score">78.9%</td>
+                        <td>88.7%</td>
+                        <td class="lb-trend same">➡️ -</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <p class="lb-update-time">数据来源: <a href="https://huggingface.co/datasets/TIGER-Lab/MMLU-Pro" target="_blank" style="color: var(--neon-green);">MMLU-Pro</a> (更严格的多任务语言理解评测)</p>
+    </div>
+
+    <!-- 代码能力 -->
+    <div class="lb-content" id="tab-code">
+        <div class="lb-table-wrapper">
+            <table class="lb-table">
+                <thead>
+                    <tr>
+                        <th>排名</th>
+                        <th>模型</th>
+                        <th>HumanEval</th>
+                        <th>MBPP</th>
+                        <th>LiveCodeBench</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="lb-rank top-1">🥇 1</td>
+                        <td>
+                            <div class="lb-model">
+                                <div class="lb-model-icon">💻</div>
+                                <div>
+                                    <div class="lb-model-name">o3-mini</div>
+                                    <div class="lb-model-org">OpenAI</div>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="lb-score">92.4%</td>
+                        <td>86.7%</td>
+                        <td>79.3%</td>
+                    </tr>
+                    <tr>
+                        <td class="lb-rank top-2">🥈 2</td>
+                        <td>
+                            <div class="lb-model">
+                                <div class="lb-model-icon">🔥</div>
+                                <div>
+                                    <div class="lb-model-name">DeepSeek-Coder-V2</div>
+                                    <div class="lb-model-org">DeepSeek</div>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="lb-score">90.2%</td>
+                        <td>84.5%</td>
+                        <td>75.8%</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <p class="lb-update-time">综合多个代码评测基准</p>
+    </div>
+
+    <div class="lb-info">
+        <h3>📊 关于榜单</h3>
+        <p><strong>LMSYS Chatbot Arena:</strong> 基于人类偏好的众包评测平台，通过盲测对比不同模型的对话能力。ELO 分数反映模型的相对排名。</p>
+        <p><strong>OpenCompass:</strong> 上海 AI Lab 开发的综合性大模型评测体系，覆盖学科知识、语言能力、推理能力等多个维度。</p>
+        <p><strong>GAIA:</strong> 通用 AI 助手基准测试，评估模型在现实世界问题上的推理、多模态理解和工具使用能力。</p>
+        <p><strong>MMLU Pro:</strong> MMLU 的升级版，使用更具挑战性的问题和评估方式，减少猜测准确率。</p>
+    </div>
+</div>
+{{ end }}
+
+{{ define "scripts" }}
+<script>
+    // Tab 切换
+    document.querySelectorAll('.lb-tab').forEach(tab => {
+        tab.addEventListener('click', function() {
+            const targetTab = this.dataset.tab;
+            
+            // 切换 tab 按钮状态
+            document.querySelectorAll('.lb-tab').forEach(t => t.classList.remove('active'));
+            this.classList.add('active');
+            
+            // 切换内容
+            document.querySelectorAll('.lb-content').forEach(c => c.classList.remove('active'));
+            document.getElementById('tab-' + targetTab).classList.add('active');
+        });
+    });
+</script>
+{{ end }}

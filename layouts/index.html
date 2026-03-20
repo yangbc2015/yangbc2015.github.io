@@ -416,13 +416,13 @@
 
 {{ define "main" }}
 <section class="hero-section">
-    <h1 class="glitch-title" data-text="数字花园">数字花园</h1>
-    <p class="subtitle">Digital Garden // 想法与项目的网络</p>
+    <h1 class="glitch-title" data-text="AI 研究站">AI 研究站</h1>
+    <p class="subtitle">AI Research Hub // 探索人工智能的无限可能</p>
 </section>
 
 <section class="graph-section">
     <div id="graph-container">
-        <div class="hint">点击节点探索详情 | 拖拽移动 | 滚轮缩放</div>
+        <div class="hint">点击节点探索 AI 领域 | 拖拽移动 | 滚轮缩放</div>
     </div>
 </section>
 
@@ -481,21 +481,31 @@
     // 如果没有内容数据，使用默认数据
     if (nodesData.length === 0) {
         nodesData.push(
-            { id: 1, label: "AI 研究", icon: "🤖", category: "技术", description: "探索人工智能的前沿领域，包括大语言模型、计算机视觉和强化学习。", tags: ["Python", "PyTorch", "LLM"], link: "#", x: 0, y: 0 },
-            { id: 2, label: "Web3 项目", icon: "⛓️", category: "区块链", description: "去中心化应用开发，智能合约编写，以及 DeFi 协议研究。", tags: ["Solidity", "Rust", "DeFi"], link: "#", x: 0, y: 0 },
-            { id: 3, label: "开源工具", icon: "🛠️", category: "开发", description: "维护多个开源项目，包括 CLI 工具和 VS Code 插件。", tags: ["TypeScript", "Node.js", "CLI"], link: "#", x: 0, y: 0 },
-            { id: 4, label: "设计系统", icon: "🎨", category: "设计", description: "构建可扩展的设计系统和组件库。", tags: ["Figma", "React", "UI/UX"], link: "#", x: 0, y: 0 },
-            { id: 5, label: "技术博客", icon: "✍️", category: "写作", description: "记录学习历程和技术思考，分享编程经验。", tags: ["写作", "分享", "技术"], link: "#", x: 0, y: 0 },
-            { id: 6, label: "数据分析", icon: "📊", category: "数据", description: "数据可视化项目，使用 D3.js 和 Python。", tags: ["D3.js", "Python", "可视化"], link: "#", x: 0, y: 0 }
+            { id: 1, label: "AI 新闻", icon: "📰", category: "资讯", description: "最新 AI 行业动态、技术突破、产品发布", tags: ["新闻", "动态", "行业"], link: "/news/", x: 0, y: 0 },
+            { id: 2, label: "AI 榜单", icon: "🏆", category: "评测", description: "大语言模型排行榜，LMSYS、OpenCompass 等权威评测", tags: ["评测", "排名", "基准测试"], link: "/leaderboard/", x: 0, y: 0 },
+            { id: 3, label: "前沿学术", icon: "🔬", category: "研究", description: "AI 论文解读、ArXiv 精选、会议速递", tags: ["论文", "研究", "学术"], link: "/papers/", x: 0, y: 0 },
+            { id: 4, label: "基础知识", icon: "🎓", category: "教程", description: "AI 入门教程、概念解析、学习路径", tags: ["入门", "教程", "学习"], link: "/tutorials/", x: 0, y: 0 },
+            { id: 5, label: "技术博客", icon: "💻", category: "技术", description: "技术文章、实战教程、代码示例", tags: ["技术", "实战", "代码"], link: "/posts/", x: 0, y: 0 },
+            { id: 6, label: "视频精选", icon: "🎬", category: "资源", description: "AI 技术讲座、课程推荐、会议录像", tags: ["视频", "课程", "讲座"], link: "/videos/", x: 0, y: 0 },
+            { id: 7, label: "工具导航", icon: "🛠️", category: "工具", description: "AI 工具目录、API 聚合、开发资源", tags: ["工具", "API", "资源"], link: "/tools/", x: 0, y: 0 },
+            { id: 8, label: "LLM", icon: "🤖", category: "技术", description: "大语言模型技术、GPT、Claude、开源模型", tags: ["LLM", "ChatGPT", "Claude"], link: "/nodes/ai-research/", x: 0, y: 0 },
+            { id: 9, label: "计算机视觉", icon: "👁️", category: "技术", description: "图像识别、目标检测、生成模型", tags: ["CV", "图像", "生成"], link: "#", x: 0, y: 0 },
+            { id: 10, label: "多模态", icon: "🌈", category: "技术", description: "视觉语言模型、多模态理解、跨模态生成", tags: ["多模态", "VLM", "跨模态"], link: "#", x: 0, y: 0 }
         );
         
         linksData.push(
             { source: 1, target: 2 },
             { source: 1, target: 3 },
-            { source: 3, target: 4 },
             { source: 3, target: 5 },
+            { source: 4, target: 5 },
             { source: 4, target: 6 },
-            { source: 5, target: 1 }
+            { source: 5, target: 7 },
+            { source: 8, target: 1 },
+            { source: 8, target: 2 },
+            { source: 8, target: 3 },
+            { source: 9, target: 3 },
+            { source: 10, target: 8 },
+            { source: 10, target: 9 }
         );
     }
 

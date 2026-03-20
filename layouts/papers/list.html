@@ -1,0 +1,416 @@
+{{ define "title" }}🔬 前沿学术 | {{ .Site.Title }}{{ end }}
+
+{{ define "extra-head" }}
+<style>
+    .papers-hero {
+        text-align: center;
+        padding: 3rem 1rem;
+        border-bottom: 1px solid var(--neon-green-dim);
+    }
+
+    .papers-title {
+        font-family: 'Orbitron', monospace;
+        font-size: clamp(1.8rem, 4vw, 3rem);
+        color: var(--neon-green);
+        text-shadow: 0 0 20px var(--neon-green-glow);
+        margin-bottom: 1rem;
+    }
+
+    .papers-subtitle {
+        color: var(--text-secondary);
+        font-size: 1.1rem;
+        max-width: 700px;
+        margin: 0 auto;
+    }
+
+    .papers-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 2rem 1rem;
+    }
+
+    .papers-section {
+        margin-bottom: 3rem;
+    }
+
+    .section-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 1.5rem;
+        padding-bottom: 0.75rem;
+        border-bottom: 1px solid var(--neon-green-dim);
+    }
+
+    .section-title {
+        font-family: 'Orbitron', monospace;
+        font-size: 1.3rem;
+        color: var(--neon-green);
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    .section-more {
+        color: var(--neon-blue);
+        text-decoration: none;
+        font-size: 0.9rem;
+        transition: all 0.3s ease;
+    }
+
+    .section-more:hover {
+        text-shadow: 0 0 10px rgba(0, 240, 255, 0.5);
+    }
+
+    .papers-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 1.5rem;
+    }
+
+    .paper-card {
+        background: var(--dark-bg-secondary);
+        border: 1px solid var(--neon-green-dim);
+        border-radius: 10px;
+        padding: 1.5rem;
+        transition: all 0.3s ease;
+        position: relative;
+    }
+
+    .paper-card:hover {
+        transform: translateY(-3px);
+        border-color: var(--neon-green);
+        box-shadow: 0 10px 30px rgba(0, 255, 65, 0.1);
+    }
+
+    .paper-badge {
+        display: inline-block;
+        padding: 0.2rem 0.6rem;
+        border-radius: 12px;
+        font-size: 0.75rem;
+        font-family: 'Orbitron', monospace;
+        margin-bottom: 0.75rem;
+    }
+
+    .paper-badge.neurips {
+        background: rgba(255, 0, 255, 0.1);
+        border: 1px solid var(--neon-pink);
+        color: var(--neon-pink);
+    }
+
+    .paper-badge.icml {
+        background: rgba(0, 240, 255, 0.1);
+        border: 1px solid var(--neon-blue);
+        color: var(--neon-blue);
+    }
+
+    .paper-badge.iclr {
+        background: rgba(0, 255, 65, 0.1);
+        border: 1px solid var(--neon-green);
+        color: var(--neon-green);
+    }
+
+    .paper-badge.arxiv {
+        background: rgba(139, 148, 158, 0.1);
+        border: 1px solid var(--text-secondary);
+        color: var(--text-secondary);
+    }
+
+    .paper-title {
+        font-size: 1.1rem;
+        font-weight: 600;
+        line-height: 1.4;
+        margin-bottom: 0.75rem;
+    }
+
+    .paper-title a {
+        color: var(--text-primary);
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+
+    .paper-title a:hover {
+        color: var(--neon-green);
+    }
+
+    .paper-authors {
+        font-size: 0.9rem;
+        color: var(--text-secondary);
+        margin-bottom: 0.5rem;
+    }
+
+    .paper-venue {
+        font-size: 0.85rem;
+        color: var(--neon-blue);
+        font-family: 'Orbitron', monospace;
+        margin-bottom: 0.75rem;
+    }
+
+    .paper-abstract {
+        font-size: 0.9rem;
+        color: var(--text-secondary);
+        line-height: 1.6;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        margin-bottom: 1rem;
+    }
+
+    .paper-links {
+        display: flex;
+        gap: 0.75rem;
+        flex-wrap: wrap;
+    }
+
+    .paper-link {
+        padding: 0.4rem 0.8rem;
+        background: transparent;
+        border: 1px solid var(--neon-green-dim);
+        color: var(--neon-green);
+        text-decoration: none;
+        border-radius: 6px;
+        font-size: 0.8rem;
+        font-family: 'Orbitron', monospace;
+        transition: all 0.3s ease;
+    }
+
+    .paper-link:hover {
+        background: var(--neon-green);
+        color: var(--dark-bg);
+    }
+
+    .conference-timeline {
+        display: flex;
+        gap: 1rem;
+        margin-bottom: 2rem;
+        overflow-x: auto;
+        padding-bottom: 0.5rem;
+    }
+
+    .conf-item {
+        flex-shrink: 0;
+        padding: 1rem 1.5rem;
+        background: var(--dark-bg-secondary);
+        border: 1px solid var(--neon-green-dim);
+        border-radius: 10px;
+        text-align: center;
+        min-width: 140px;
+    }
+
+    .conf-name {
+        font-family: 'Orbitron', monospace;
+        font-size: 1.1rem;
+        color: var(--neon-green);
+        margin-bottom: 0.25rem;
+    }
+
+    .conf-date {
+        font-size: 0.85rem;
+        color: var(--text-secondary);
+    }
+
+    .conf-status {
+        font-size: 0.75rem;
+        padding: 0.2rem 0.5rem;
+        border-radius: 10px;
+        margin-top: 0.5rem;
+        display: inline-block;
+    }
+
+    .conf-status.cfp {
+        background: rgba(0, 255, 65, 0.1);
+        color: var(--neon-green);
+    }
+
+    .conf-status.upcoming {
+        background: rgba(0, 240, 255, 0.1);
+        color: var(--neon-blue);
+    }
+
+    @media (max-width: 768px) {
+        .papers-grid {
+            grid-template-columns: 1fr;
+        }
+    }
+</style>
+{{ end }}
+
+{{ define "main" }}
+<section class="papers-hero">
+    <h1 class="papers-title glitch-text" data-text="前沿学术">前沿学术</h1>
+    <p class="papers-subtitle">{{ .Description }}</p>
+</section>
+
+<div class="papers-container">
+    <!-- 会议时间线 -->
+    <div class="papers-section">
+        <div class="section-header">
+            <h2 class="section-title">📅 重要会议</h2>
+        </div>
+        <div class="conference-timeline">
+            <div class="conf-item">
+                <div class="conf-name">ICML 2026</div>
+                <div class="conf-date">2026年7月</div>
+                <span class="conf-status cfp">征稿中</span>
+            </div>
+            <div class="conf-item">
+                <div class="conf-name">ACL 2026</div>
+                <div class="conf-date">2026年7月</div>
+                <span class="conf-status cfp">征稿中</span>
+            </div>
+            <div class="conf-item">
+                <div class="conf-name">ICCV 2026</div>
+                <div class="conf-date">2026年10月</div>
+                <span class="conf-status upcoming">即将开始</span>
+            </div>
+            <div class="conf-item">
+                <div class="conf-name">NeurIPS 2026</div>
+                <div class="conf-date">2026年12月</div>
+                <span class="conf-status upcoming">即将开始</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- 最新论文 -->
+    <div class="papers-section">
+        <div class="section-header">
+            <h2 class="section-title">🆕 ArXiv 每日精选</h2>
+            <a href="https://arxiv.org/list/cs.AI/recent" target="_blank" class="section-more">查看更多 →</a>
+        </div>
+        <div class="papers-grid">
+            <article class="paper-card">
+                <span class="paper-badge arxiv">arXiv</span>
+                <h3 class="paper-title">
+                    <a href="#">Reasoning with Latent Thoughts: On the Power of Looped Transformers</a>
+                </h3>
+                <p class="paper-authors">John Doe, Jane Smith, et al.</p>
+                <p class="paper-venue">arXiv:2503.xxxxx</p>
+                <p class="paper-abstract">We explore the capability of looped transformers to perform implicit reasoning through latent thought representations...</p>
+                <div class="paper-links">
+                    <a href="#" class="paper-link">📄 PDF</a>
+                    <a href="#" class="paper-link">💻 Code</a>
+                    <a href="#" class="paper-link">🌐 Project</a>
+                </div>
+            </article>
+
+            <article class="paper-card">
+                <span class="paper-badge arxiv">arXiv</span>
+                <h3 class="paper-title">
+                    <a href="#">Scaling Test-Time Compute Without Verification</a>
+                </h3>
+                <p class="paper-authors">Alice Wang, Bob Chen, et al.</p>
+                <p class="paper-venue">arXiv:2503.xxxxx</p>
+                <p class="paper-abstract">A novel approach to scaling test-time computation that achieves better performance without requiring external verification...</p>
+                <div class="paper-links">
+                    <a href="#" class="paper-link">📄 PDF</a>
+                    <a href="#" class="paper-link">💻 Code</a>
+                </div>
+            </article>
+
+            <article class="paper-card">
+                <span class="paper-badge arxiv">arXiv</span>
+                <h3 class="paper-title">
+                    <a href="#">Efficient Large Language Model Training with Minimal Data</a>
+                </h3>
+                <p class="paper-authors">Research Team, DeepSeek</p>
+                <p class="paper-venue">arXiv:2503.xxxxx</p>
+                <p class="paper-abstract">We demonstrate that large language models can be trained effectively with significantly less data through curriculum learning...</p>
+                <div class="paper-links">
+                    <a href="#" class="paper-link">📄 PDF</a>
+                    <a href="#" class="paper-link">💻 Code</a>
+                    <a href="#" class="paper-link">🌐 Project</a>
+                </div>
+            </article>
+        </div>
+    </div>
+
+    <!-- 顶会论文 -->
+    <div class="papers-section">
+        <div class="section-header">
+            <h2 class="section-title">🏆 顶会精选</h2>
+            <a href="#" class="section-more">查看更多 →</a>
+        </div>
+        <div class="papers-grid">
+            <article class="paper-card">
+                <span class="paper-badge neurips">NeurIPS 2025</span>
+                <h3 class="paper-title">
+                    <a href="#">Neural Network Generalization Through Implicit Regularization</a>
+                </h3>
+                <p class="paper-authors">Stanford AI Lab</p>
+                <p class="paper-venue">NeurIPS 2025 (Oral)</p>
+                <p class="paper-abstract">This paper reveals the implicit regularization mechanisms in deep neural networks and their impact on generalization...</p>
+                <div class="paper-links">
+                    <a href="#" class="paper-link">📄 PDF</a>
+                    <a href="#" class="paper-link">📊 Slides</a>
+                </div>
+            </article>
+
+            <article class="paper-card">
+                <span class="paper-badge icml">ICML 2025</span>
+                <h3 class="paper-title">
+                    <a href="#">Reward Hacking in Reinforcement Learning from Human Feedback</a>
+                </h3>
+                <p class="paper-authors">OpenAI Research</p>
+                <p class="paper-venue">ICML 2025</p>
+                <p class="paper-abstract">A comprehensive study of reward hacking phenomena in RLHF training and proposed mitigation strategies...</p>
+                <div class="paper-links">
+                    <a href="#" class="paper-link">📄 PDF</a>
+                    <a href="#" class="paper-link">💻 Code</a>
+                </div>
+            </article>
+
+            <article class="paper-card">
+                <span class="paper-badge iclr">ICLR 2025</span>
+                <h3 class="paper-title">
+                    <a href="#">Understanding Emergence in Large Language Models</a>
+                </h3>
+                <p class="paper-authors">Google DeepMind</p>
+                <p class="paper-venue">ICLR 2025 (Spotlight)</p>
+                <p class="paper-abstract">We investigate the emergence of capabilities in large language models and propose a framework for predicting emergent abilities...</p>
+                <div class="paper-links">
+                    <a href="#" class="paper-link">📄 PDF</a>
+                    <a href="#" class="paper-link">🌐 Blog</a>
+                </div>
+            </article>
+        </div>
+    </div>
+
+    <!-- 论文解读 -->
+    <div class="papers-section">
+        <div class="section-header">
+            <h2 class="section-title">📝 论文深度解读</h2>
+            <a href="#" class="section-more">查看更多 →</a>
+        </div>
+        <div class="papers-grid">
+            <article class="paper-card">
+                <span class="paper-badge" style="background: rgba(255,193,7,0.1); border-color: #ffc107; color: #ffc107;">解读</span>
+                <h3 class="paper-title">
+                    <a href="#">图解 Transformer：从 Attention 到 MoE</a>
+                </h3>
+                <p class="paper-authors">作者: AI研究站</p>
+                <p class="paper-venue">深入浅出系列</p>
+                <p class="paper-abstract">通过可视化方式深入解析 Transformer 架构的演进，从经典 Attention 机制到最新的 Mixture of Experts...</p>
+                <div class="paper-links">
+                    <a href="#" class="paper-link">📖 阅读</a>
+                    <a href="#" class="paper-link">🎬 视频</a>
+                </div>
+            </article>
+
+            <article class="paper-card">
+                <span class="paper-badge" style="background: rgba(255,193,7,0.1); border-color: #ffc107; color: #ffc107;">解读</span>
+                <h3 class="paper-title">
+                    <a href="#">强化学习入门：从 Q-Learning 到 PPO</a>
+                </h3>
+                <p class="paper-authors">作者: AI研究站</p>
+                <p class="paper-venue">基础教程系列</p>
+                <p class="paper-abstract">系统梳理强化学习的核心算法，配合代码实现和可视化，帮助读者建立完整的 RL 知识体系...</p>
+                <div class="paper-links">
+                    <a href="#" class="paper-link">📖 阅读</a>
+                    <a href="#" class="paper-link">💻 Notebook</a>
+                </div>
+            </article>
+        </div>
+    </div>
+</div>
+{{ end }}

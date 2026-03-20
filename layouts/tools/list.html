@@ -1,0 +1,611 @@
+{{ define "title" }}🛠️ 工具导航 | {{ .Site.Title }}{{ end }}
+
+{{ define "extra-head" }}
+<style>
+    .tools-hero {
+        text-align: center;
+        padding: 3rem 1rem;
+        border-bottom: 1px solid var(--neon-green-dim);
+    }
+
+    .tools-title {
+        font-family: 'Orbitron', monospace;
+        font-size: clamp(1.8rem, 4vw, 3rem);
+        color: var(--neon-green);
+        text-shadow: 0 0 20px var(--neon-green-glow);
+        margin-bottom: 1rem;
+    }
+
+    .tools-subtitle {
+        color: var(--text-secondary);
+        font-size: 1.1rem;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    .tools-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 2rem 1rem;
+    }
+
+    .tools-search {
+        max-width: 600px;
+        margin: 0 auto 3rem;
+        position: relative;
+    }
+
+    .tools-search-input {
+        width: 100%;
+        padding: 1rem 1.5rem;
+        padding-left: 3rem;
+        background: var(--dark-bg-secondary);
+        border: 1px solid var(--neon-green-dim);
+        border-radius: 50px;
+        color: var(--text-primary);
+        font-size: 1rem;
+        font-family: 'Noto Sans SC', sans-serif;
+        outline: none;
+        transition: all 0.3s ease;
+    }
+
+    .tools-search-input:focus {
+        border-color: var(--neon-green);
+        box-shadow: 0 0 30px rgba(0, 255, 65, 0.15);
+    }
+
+    .tools-search-icon {
+        position: absolute;
+        left: 1.2rem;
+        top: 50%;
+        transform: translateY(-50%);
+        color: var(--neon-green);
+        font-size: 1.2rem;
+    }
+
+    .tools-categories {
+        display: flex;
+        gap: 0.75rem;
+        margin-bottom: 2rem;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .category-btn {
+        padding: 0.6rem 1.2rem;
+        background: transparent;
+        border: 1px solid var(--neon-green-dim);
+        color: var(--text-secondary);
+        font-family: 'Orbitron', monospace;
+        font-size: 0.85rem;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        border-radius: 25px;
+    }
+
+    .category-btn:hover,
+    .category-btn.active {
+        background: var(--neon-green);
+        color: var(--dark-bg);
+        border-color: var(--neon-green);
+        box-shadow: 0 0 15px var(--neon-green-glow);
+    }
+
+    .tools-section {
+        margin-bottom: 2.5rem;
+    }
+
+    .section-title {
+        font-family: 'Orbitron', monospace;
+        font-size: 1.2rem;
+        color: var(--neon-green);
+        margin-bottom: 1.25rem;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    .tools-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        gap: 1rem;
+    }
+
+    .tool-card {
+        background: var(--dark-bg-secondary);
+        border: 1px solid var(--neon-green-dim);
+        border-radius: 10px;
+        padding: 1.25rem;
+        transition: all 0.3s ease;
+        display: flex;
+        gap: 1rem;
+    }
+
+    .tool-card:hover {
+        transform: translateY(-3px);
+        border-color: var(--neon-green);
+        box-shadow: 0 8px 25px rgba(0, 255, 65, 0.1);
+    }
+
+    .tool-icon {
+        width: 48px;
+        height: 48px;
+        border-radius: 10px;
+        background: var(--dark-bg-tertiary);
+        border: 1px solid var(--neon-green-dim);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5rem;
+        flex-shrink: 0;
+    }
+
+    .tool-info {
+        flex: 1;
+        min-width: 0;
+    }
+
+    .tool-name {
+        font-size: 1rem;
+        font-weight: 600;
+        margin-bottom: 0.25rem;
+    }
+
+    .tool-name a {
+        color: var(--text-primary);
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+
+    .tool-name a:hover {
+        color: var(--neon-green);
+    }
+
+    .tool-desc {
+        font-size: 0.85rem;
+        color: var(--text-secondary);
+        line-height: 1.5;
+        margin-bottom: 0.5rem;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+
+    .tool-tags {
+        display: flex;
+        gap: 0.4rem;
+        flex-wrap: wrap;
+    }
+
+    .tool-tag {
+        padding: 0.15rem 0.5rem;
+        background: rgba(0, 255, 65, 0.08);
+        border: 1px solid var(--neon-green-dim);
+        color: var(--neon-green);
+        border-radius: 12px;
+        font-size: 0.7rem;
+        font-family: 'Orbitron', monospace;
+    }
+
+    .featured-tools {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
+        margin-bottom: 3rem;
+    }
+
+    .featured-tool {
+        background: linear-gradient(135deg, var(--dark-bg-secondary), var(--dark-bg-tertiary));
+        border: 1px solid var(--neon-green-dim);
+        border-radius: 12px;
+        padding: 1.5rem;
+        text-align: center;
+        transition: all 0.3s ease;
+    }
+
+    .featured-tool:hover {
+        transform: translateY(-5px);
+        border-color: var(--neon-green);
+        box-shadow: 0 10px 30px rgba(0, 255, 65, 0.15);
+    }
+
+    .featured-icon {
+        width: 64px;
+        height: 64px;
+        margin: 0 auto 1rem;
+        border-radius: 16px;
+        background: var(--dark-bg);
+        border: 2px solid var(--neon-green);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2rem;
+        box-shadow: 0 0 20px rgba(0, 255, 65, 0.2);
+    }
+
+    .featured-name {
+        font-size: 1.2rem;
+        font-weight: 700;
+        margin-bottom: 0.5rem;
+    }
+
+    .featured-name a {
+        color: var(--neon-green);
+        text-decoration: none;
+    }
+
+    .featured-desc {
+        font-size: 0.9rem;
+        color: var(--text-secondary);
+        margin-bottom: 1rem;
+    }
+
+    .featured-btn {
+        display: inline-block;
+        padding: 0.5rem 1.25rem;
+        background: transparent;
+        border: 1px solid var(--neon-green);
+        color: var(--neon-green);
+        text-decoration: none;
+        border-radius: 20px;
+        font-size: 0.85rem;
+        font-family: 'Orbitron', monospace;
+        transition: all 0.3s ease;
+    }
+
+    .featured-btn:hover {
+        background: var(--neon-green);
+        color: var(--dark-bg);
+    }
+
+    @media (max-width: 768px) {
+        .featured-tools {
+            grid-template-columns: 1fr;
+        }
+
+        .tools-grid {
+            grid-template-columns: 1fr;
+        }
+    }
+</style>
+{{ end }}
+
+{{ define "main" }}
+<section class="tools-hero">
+    <h1 class="tools-title glitch-text" data-text="工具导航">工具导航</h1>
+    <p class="tools-subtitle">{{ .Description }}</p>
+</section>
+
+<div class="tools-container">
+    <!-- 搜索 -->
+    <div class="tools-search">
+        <span class="tools-search-icon">🔍</span>
+        <input type="text" class="tools-search-input" placeholder="搜索 AI 工具..." id="toolSearch">
+    </div>
+
+    <!-- 热门工具 -->
+    <div class="featured-tools">
+        <div class="featured-tool">
+            <div class="featured-icon">🤖</div>
+            <h3 class="featured-name"><a href="https://chat.openai.com" target="_blank">ChatGPT</a></h3>
+            <p class="featured-desc">OpenAI 旗舰对话模型，支持代码、写作、分析等多种任务</p>
+            <a href="https://chat.openai.com" target="_blank" class="featured-btn">访问 →</a>
+        </div>
+        <div class="featured-tool">
+            <div class="featured-icon">🎨</div>
+            <h3 class="featured-name"><a href="https://www.midjourney.com" target="_blank">Midjourney</a></h3>
+            <p class="featured-desc">顶级 AI 图像生成工具，艺术创作首选</p>
+            <a href="https://www.midjourney.com" target="_blank" class="featured-btn">访问 →</a>
+        </div>
+        <div class="featured-tool">
+            <div class="featured-icon">💻</div>
+            <h3 class="featured-name"><a href="https://github.com/features/copilot" target="_blank">GitHub Copilot</a></h3>
+            <p class="featured-desc">AI 编程助手，自动生成代码建议</p>
+            <a href="https://github.com/features/copilot" target="blank" class="featured-btn">访问 →</a>
+        </div>
+    </div>
+
+    <!-- 分类筛选 -->
+    <div class="tools-categories">
+        <button class="category-btn active" data-category="all">全部</button>
+        <button class="category-btn" data-category="llm">大语言模型</button>
+        <button class="category-btn" data-category="image">图像生成</button>
+        <button class="category-btn" data-category="code">代码辅助</button>
+        <button class="category-btn" data-category="dev">开发工具</button>
+        <button class="category-btn" data-category="data">数据处理</button>
+        <button class="category-btn" data-category="api">API 服务</button>
+    </div>
+
+    <!-- 大语言模型 -->
+    <div class="tools-section" data-category="llm">
+        <h2 class="section-title">💬 大语言模型</h2>
+        <div class="tools-grid">
+            <div class="tool-card">
+                <div class="tool-icon">🚀</div>
+                <div class="tool-info">
+                    <h3 class="tool-name"><a href="https://claude.ai" target="_blank">Claude</a></h3>
+                    <p class="tool-desc">Anthropic 开发的 AI 助手，以安全性和推理能力著称</p>
+                    <div class="tool-tags">
+                        <span class="tool-tag">对话</span>
+                        <span class="tool-tag">长文本</span>
+                    </div>
+                </div>
+            </div>
+            <div class="tool-card">
+                <div class="tool-icon">🔥</div>
+                <div class="tool-info">
+                    <h3 class="tool-name"><a href="https://chat.deepseek.com" target="_blank">DeepSeek</a></h3>
+                    <p class="tool-desc">深度求索开发的对话模型，开源且性能优异</p>
+                    <div class="tool-tags">
+                        <span class="tool-tag">开源</span>
+                        <span class="tool-tag">中文</span>
+                    </div>
+                </div>
+            </div>
+            <div class="tool-card">
+                <div class="tool-icon">🌟</div>
+                <div class="tool-info">
+                    <h3 class="tool-name"><a href="https://gemini.google.com" target="_blank">Gemini</a></h3>
+                    <p class="tool-desc">Google 多模态 AI 模型，支持文本、图像、视频理解</p>
+                    <div class="tool-tags">
+                        <span class="tool-tag">多模态</span>
+                        <span class="tool-tag">长上下文</span>
+                    </div>
+                </div>
+            </div>
+            <div class="tool-card">
+                <div class="tool-icon">🐂</div>
+                <div class="tool-info">
+                    <h3 class="tool-name"><a href="https://www.perplexity.ai" target="_blank">Perplexity</a></h3>
+                    <p class="tool-desc">AI 搜索引擎，提供带引用的实时答案</p>
+                    <div class="tool-tags">
+                        <span class="tool-tag">搜索</span>
+                        <span class="tool-tag">引用</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 图像生成 -->
+    <div class="tools-section" data-category="image">
+        <h2 class="section-title">🎨 图像生成</h2>
+        <div class="tools-grid">
+            <div class="tool-card">
+                <div class="tool-icon">🖼️</div>
+                <div class="tool-info">
+                    <h3 class="tool-name"><a href="https://openai.com/dall-e-3" target="_blank">DALL·E 3</a></h3>
+                    <p class="tool-desc">OpenAI 图像生成模型，理解力强，文字渲染优秀</p>
+                    <div class="tool-tags">
+                        <span class="tool-tag">文生图</span>
+                        <span class="tool-tag">高质量</span>
+                    </div>
+                </div>
+            </div>
+            <div class="tool-card">
+                <div class="tool-icon">⚡</div>
+                <div class="tool-info">
+                    <h3 class="tool-name"><a href="https://stability.ai" target="_blank">Stable Diffusion</a></h3>
+                    <p class="tool-desc">开源图像生成模型，社区生态丰富，可本地部署</p>
+                    <div class="tool-tags">
+                        <span class="tool-tag">开源</span>
+                        <span class="tool-tag">本地</span>
+                    </div>
+                </div>
+            </div>
+            <div class="tool-card">
+                <div class="tool-icon">✨</div>
+                <div class="tool-info">
+                    <h3 class="tool-name"><a href="https://firefly.adobe.com" target="_blank">Adobe Firefly</a></h3>
+                    <p class="tool-desc">Adobe 商业安全图像生成工具，支持多种创意功能</p>
+                    <div class="tool-tags">
+                        <span class="tool-tag">商业</span>
+                        <span class="tool-tag">设计</span>
+                    </div>
+                </div>
+            </div>
+            <div class="tool-card">
+                <div class="tool-icon">🎭</div>
+                <div class="tool-info">
+                    <h3 class="tool-name"><a href="https://leonardo.ai" target="_blank">Leonardo.ai</a></h3>
+                    <p class="tool-desc">游戏资产和角色设计专用 AI 工具</p>
+                    <div class="tool-tags">
+                        <span class="tool-tag">游戏</span>
+                        <span class="tool-tag">角色</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 代码辅助 -->
+    <div class="tools-section" data-category="code">
+        <h2 class="section-title">💻 代码辅助</h2>
+        <div class="tools-grid">
+            <div class="tool-card">
+                <div class="tool-icon">🎯</div>
+                <div class="tool-info">
+                    <h3 class="tool-name"><a href="https://www.cursor.com" target="_blank">Cursor</a></h3>
+                    <p class="tool-desc">AI 原生代码编辑器，基于 VS Code，内置 GPT-4</p>
+                    <div class="tool-tags">
+                        <span class="tool-tag">编辑器</span>
+                        <span class="tool-tag">AI编程</span>
+                    </div>
+                </div>
+            </div>
+            <div class="tool-card">
+                <div class="tool-icon">🧠</div>
+                <div class="tool-info">
+                    <h3 class="tool-name"><a href="https://www.anthropic.com/claude-code" target="_blank">Claude Code</a></h3>
+                    <p class="tool-desc">Anthropic 的代码助手，支持命令行和 IDE 集成</p>
+                    <div class="tool-tags">
+                        <span class="tool-tag">命令行</span>
+                        <span class="tool-tag">安全</span>
+                    </div>
+                </div>
+            </div>
+            <div class="tool-card">
+                <div class="tool-icon">⚡</div>
+                <div class="tool-info">
+                    <h3 class="tool-name"><a href="https://v0.dev" target="_blank">v0</a></h3>
+                    <p class="tool-desc">Vercel AI 生成 UI 工具，快速生成 React 组件</p>
+                    <div class="tool-tags">
+                        <span class="tool-tag">前端</span>
+                        <span class="tool-tag">UI</span>
+                    </div>
+                </div>
+            </div>
+            <div class="tool-card">
+                <div class="tool-icon">🔍</div>
+                <div class="tool-info">
+                    <h3 class="tool-name"><a href="https://sourcery.ai" target="_blank">Sourcery</a></h3>
+                    <p class="tool-desc">Python 代码重构和优化工具</p>
+                    <div class="tool-tags">
+                        <span class="tool-tag">重构</span>
+                        <span class="tool-tag">Python</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 开发工具 -->
+    <div class="tools-section" data-category="dev">
+        <h2 class="section-title">🛠️ 开发工具</h2>
+        <div class="tools-grid">
+            <div class="tool-card">
+                <div class="tool-icon">🤗</div>
+                <div class="tool-info">
+                    <h3 class="tool-name"><a href="https://huggingface.co" target="_blank">Hugging Face</a></h3>
+                    <p class="tool-desc">最大的 AI 模型和数据集社区，Transformers 库开发者</p>
+                    <div class="tool-tags">
+                        <span class="tool-tag">模型库</span>
+                        <span class="tool-tag">社区</span>
+                    </div>
+                </div>
+            </div>
+            <div class="tool-card">
+                <div class="tool-icon">📊</div>
+                <div class="tool-info">
+                    <h3 class="tool-name"><a href="https://wandb.ai" target="_blank">Weights & Biases</a></h3>
+                    <p class="tool-desc">ML 实验跟踪和可视化平台</p>
+                    <div class="tool-tags">
+                        <span class="tool-tag">实验管理</span>
+                        <span class="tool-tag">可视化</span>
+                    </div>
+                </div>
+            </div>
+            <div class="tool-card">
+                <div class="tool-icon">📓</div>
+                <div class="tool-info">
+                    <h3 class="tool-name"><a href="https://www.gradio.app" target="_blank">Gradio</a></h3>
+                    <p class="tool-desc">快速构建和分享 ML 模型 Demo 的 Python 库</p>
+                    <div class="tool-tags">
+                        <span class="tool-tag">Demo</span>
+                        <span class="tool-tag">开源</span>
+                    </div>
+                </div>
+            </div>
+            <div class="tool-card">
+                <div class="tool-icon">🌊</div>
+                <div class="tool-info">
+                    <h3 class="tool-name"><a href="https://langchain.com" target="_blank">LangChain</a></h3>
+                    <p class="tool-desc">LLM 应用开发框架，简化复杂 AI 应用构建</p>
+                    <div class="tool-tags">
+                        <span class="tool-tag">框架</span>
+                        <span class="tool-tag">LLM应用</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- API 服务 -->
+    <div class="tools-section" data-category="api">
+        <h2 class="section-title">🔌 API 服务</h2>
+        <div class="tools-grid">
+            <div class="tool-card">
+                <div class="tool-icon">☁️</div>
+                <div class="tool-info">
+                    <h3 class="tool-name"><a href="https://platform.openai.com" target="_blank">OpenAI API</a></h3>
+                    <p class="tool-desc">GPT-4、DALL·E、Whisper 等模型的 API 服务</p>
+                    <div class="tool-tags">
+                        <span class="tool-tag">GPT-4</span>
+                        <span class="tool-tag">稳定</span>
+                    </div>
+                </div>
+            </div>
+            <div class="tool-card">
+                <div class="tool-icon">🔄</div>
+                <div class="tool-info">
+                    <h3 class="tool-name"><a href="https://openrouter.ai" target="_blank">OpenRouter</a></h3>
+                    <p class="tool-desc">统一 API 接口，接入多个模型提供商</p>
+                    <div class="tool-tags">
+                        <span class="tool-tag">聚合</span>
+                        <span class="tool-tag">多模型</span>
+                    </div>
+                </div>
+            </div>
+            <div class="tool-card">
+                <div class="tool-icon">🎯</div>
+                <div class="tool-info">
+                    <h3 class="tool-name"><a href="https://groq.com" target="_blank">Groq</a></h3>
+                    <p class="tool-desc">超高速推理 API，延迟极低</p>
+                    <div class="tool-tags">
+                        <span class="tool-tag">极速</span>
+                        <span class="tool-tag">推理</span>
+                    </div>
+                </div>
+            </div>
+            <div class="tool-card">
+                <div class="tool-icon">🌍</div>
+                <div class="tool-info">
+                    <h3 class="tool-name"><a href="https://www.together.ai" target="_blank">Together AI</a></h3>
+                    <p class="tool-desc">开源模型推理和微调服务平台</p>
+                    <div class="tool-tags">
+                        <span class="tool-tag">开源</span>
+                        <span class="tool-tag">微调</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{{ end }}
+
+{{ define "scripts" }}
+<script>
+    // 分类筛选
+    document.querySelectorAll('.category-btn').forEach(btn => {
+        btn.addEventListener('click', function() {
+            const category = this.dataset.category;
+            
+            document.querySelectorAll('.category-btn').forEach(b => b.classList.remove('active'));
+            this.classList.add('active');
+            
+            document.querySelectorAll('.tools-section').forEach(section => {
+                if (category === 'all' || section.dataset.category === category) {
+                    section.style.display = 'block';
+                } else {
+                    section.style.display = 'none';
+                }
+            });
+        });
+    });
+
+    // 搜索功能
+    document.getElementById('toolSearch').addEventListener('input', function() {
+        const query = this.value.toLowerCase();
+        
+        document.querySelectorAll('.tool-card').forEach(card => {
+            const text = card.textContent.toLowerCase();
+            if (text.includes(query)) {
+                card.style.display = 'flex';
+            } else {
+                card.style.display = 'none';
+            }
+        });
+    });
+</script>
+{{ end }}

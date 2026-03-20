@@ -1,0 +1,336 @@
+{{ define "title" }}📰 AI 新闻 | {{ .Site.Title }}{{ end }}
+
+{{ define "extra-head" }}
+<style>
+    .news-hero {
+        text-align: center;
+        padding: 3rem 1rem;
+        border-bottom: 1px solid var(--neon-green-dim);
+    }
+
+    .news-title {
+        font-family: 'Orbitron', monospace;
+        font-size: clamp(1.8rem, 4vw, 3rem);
+        color: var(--neon-green);
+        text-shadow: 0 0 20px var(--neon-green-glow);
+        margin-bottom: 1rem;
+    }
+
+    .news-subtitle {
+        color: var(--text-secondary);
+        font-size: 1.1rem;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    .news-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 2rem 1rem;
+    }
+
+    .news-filter {
+        display: flex;
+        gap: 1rem;
+        margin-bottom: 2rem;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .filter-btn {
+        padding: 0.5rem 1.2rem;
+        background: transparent;
+        border: 1px solid var(--neon-green-dim);
+        color: var(--text-secondary);
+        font-family: 'Orbitron', monospace;
+        font-size: 0.85rem;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        border-radius: 20px;
+    }
+
+    .filter-btn:hover,
+    .filter-btn.active {
+        background: var(--neon-green);
+        color: var(--dark-bg);
+        border-color: var(--neon-green);
+        box-shadow: 0 0 15px var(--neon-green-glow);
+    }
+
+    .news-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+        gap: 1.5rem;
+    }
+
+    .news-card {
+        background: var(--dark-bg-secondary);
+        border: 1px solid var(--neon-green-dim);
+        border-radius: 10px;
+        padding: 1.5rem;
+        transition: all 0.3s ease;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .news-card::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 3px;
+        height: 100%;
+        background: var(--neon-green);
+        opacity: 0;
+        transition: opacity 0.3s ease;
+    }
+
+    .news-card:hover {
+        transform: translateY(-5px);
+        border-color: var(--neon-green);
+        box-shadow: 0 10px 30px rgba(0, 255, 65, 0.15);
+    }
+
+    .news-card:hover::before {
+        opacity: 1;
+    }
+
+    .news-card.highlight {
+        border-color: var(--neon-pink);
+        box-shadow: 0 0 20px rgba(255, 0, 255, 0.2);
+    }
+
+    .news-card.highlight::before {
+        background: var(--neon-pink);
+        opacity: 1;
+    }
+
+    .news-meta {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 0.75rem;
+        font-size: 0.8rem;
+    }
+
+    .news-date {
+        color: var(--text-secondary);
+        font-family: 'Orbitron', monospace;
+    }
+
+    .news-tag {
+        padding: 0.2rem 0.6rem;
+        background: rgba(0, 255, 65, 0.1);
+        border: 1px solid var(--neon-green-dim);
+        color: var(--neon-green);
+        border-radius: 12px;
+        font-size: 0.75rem;
+        font-family: 'Orbitron', monospace;
+    }
+
+    .news-tag.breakthrough {
+        background: rgba(255, 0, 255, 0.1);
+        border-color: var(--neon-pink);
+        color: var(--neon-pink);
+    }
+
+    .news-card-title {
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin-bottom: 0.75rem;
+        line-height: 1.4;
+    }
+
+    .news-card-title a {
+        color: var(--text-primary);
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+
+    .news-card-title a:hover {
+        color: var(--neon-green);
+    }
+
+    .news-summary {
+        color: var(--text-secondary);
+        font-size: 0.95rem;
+        line-height: 1.6;
+        margin-bottom: 1rem;
+    }
+
+    .news-source {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        font-size: 0.85rem;
+        color: var(--text-secondary);
+    }
+
+    .news-source-icon {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background: var(--dark-bg-tertiary);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.7rem;
+    }
+
+    @media (max-width: 768px) {
+        .news-grid {
+            grid-template-columns: 1fr;
+        }
+    }
+</style>
+{{ end }}
+
+{{ define "main" }}
+<section class="news-hero">
+    <h1 class="news-title glitch-text" data-text="AI 新闻">AI 新闻</h1>
+    <p class="news-subtitle">{{ .Description }}</p>
+</section>
+
+<div class="news-container">
+    <div class="news-filter">
+        <button class="filter-btn active" data-filter="all">全部</button>
+        <button class="filter-btn" data-filter="breakthrough">重大突破</button>
+        <button class="filter-btn" data-filter="product">产品发布</button>
+        <button class="filter-btn" data-filter="research">研究进展</button>
+        <button class="filter-btn" data-filter="industry">行业动态</button>
+    </div>
+
+    <div class="news-grid">
+        {{ range .Pages }}
+        <article class="news-card {{ if eq .Params.type "breakthrough" }}highlight{{ end }}" data-type="{{ .Params.type }}">
+            <div class="news-meta">
+                <span class="news-date">{{ .Date.Format "2006-01-02" }}</span>
+                <span class="news-tag {{ if eq .Params.type "breakthrough" }}breakthrough{{ end }}">
+                    {{ if eq .Params.type "breakthrough" }}🚀 突破{{ else if eq .Params.type "product" }}📦 产品{{ else if eq .Params.type "research" }}🔬 研究{{ else }}🏢 行业{{ end }}
+                </span>
+            </div>
+            <h2 class="news-card-title">
+                <a href="{{ .Params.link | default .RelPermalink }}" target="{{ if .Params.link }}_blank{{ else }}_self{{ end }}">{{ .Title }}</a>
+            </h2>
+            <p class="news-summary">{{ .Summary }}</p>
+            <div class="news-source">
+                <span class="news-source-icon">🔗</span>
+                <span>{{ .Params.source | default "AI研究站" }}</span>
+            </div>
+        </article>
+        {{ else }}
+        <!-- 示例新闻 -->
+        <article class="news-card highlight" data-type="breakthrough">
+            <div class="news-meta">
+                <span class="news-date">2026-03-20</span>
+                <span class="news-tag breakthrough">🚀 突破</span>
+            </div>
+            <h2 class="news-card-title">
+                <a href="#">Gemini 2.5 Pro 发布，代码能力大幅提升</a>
+            </h2>
+            <p class="news-summary">Google 发布 Gemini 2.5 Pro，在多项基准测试中超越 GPT-4，尤其在代码生成和数学推理方面表现突出...</p>
+            <div class="news-source">
+                <span class="news-source-icon">🔗</span>
+                <span>Google DeepMind</span>
+            </div>
+        </article>
+
+        <article class="news-card" data-type="product">
+            <div class="news-meta">
+                <span class="news-date">2026-03-19</span>
+                <span class="news-tag">📦 产品</span>
+            </div>
+            <h2 class="news-card-title">
+                <a href="#">Claude 4 即将发布，Anthropic 确认多模态能力</a>
+            </h2>
+            <p class="news-summary">Anthropic CEO 确认 Claude 4 正在开发中，将具备强大的多模态理解和生成能力...</p>
+            <div class="news-source">
+                <span class="news-source-icon">🔗</span>
+                <span>Anthropic</span>
+            </div>
+        </article>
+
+        <article class="news-card" data-type="research">
+            <div class="news-meta">
+                <span class="news-date">2026-03-18</span>
+                <span class="news-tag">🔬 研究</span>
+            </div>
+            <h2 class="news-card-title">
+                <a href="#">MIT 研究：推理时计算 scaling 的新方法</a>
+            </h2>
+            <p class="news-summary">MIT 研究人员提出新的推理时计算方法，可在不增加模型参数的情况下显著提升推理能力...</p>
+            <div class="news-source">
+                <span class="news-source-icon">🔗</span>
+                <span>MIT CSAIL</span>
+            </div>
+        </article>
+
+        <article class="news-card" data-type="industry">
+            <div class="news-meta">
+                <span class="news-date">2026-03-17</span>
+                <span class="news-tag">🏢 行业</span>
+            </div>
+            <h2 class="news-card-title">
+                <a href="#">OpenAI 完成新一轮融资，估值突破 3000 亿美元</a>
+            </h2>
+            <p class="news-summary">OpenAI 宣布完成新一轮融资，软银领投，公司估值达到 3000 亿美元，成为最有价值的 AI 初创公司...</p>
+            <div class="news-source">
+                <span class="news-source-icon">🔗</span>
+                <span>TechCrunch</span>
+            </div>
+        </article>
+
+        <article class="news-card" data-type="research">
+            <div class="news-meta">
+                <span class="news-date">2026-03-16</span>
+                <span class="news-tag">🔬 研究</span>
+            </div>
+            <h2 class="news-card-title">
+                <a href="#">DeepSeek-V4 技术报告发布：高效 MoE 架构</a>
+            </h2>
+            <p class="news-summary">DeepSeek 发布 V4 技术报告，详细阐述了新的 MoE 架构设计和训练优化策略...</p>
+            <div class="news-source">
+                <span class="news-source-icon">🔗</span>
+                <span>DeepSeek</span>
+            </div>
+        </article>
+
+        <article class="news-card highlight" data-type="breakthrough">
+            <div class="news-meta">
+                <span class="news-date">2026-03-15</span>
+                <span class="news-tag breakthrough">🚀 突破</span>
+            </div>
+            <h2 class="news-card-title">
+                <a href="#">Figure AI 发布新的人形机器人模型 Helix</a>
+            </h2>
+            <p class="news-summary">Figure AI 发布端到端人形机器人控制系统 Helix，实现了自然语言指令到物理动作的直接映射...</p>
+            <div class="news-source">
+                <span class="news-source-icon">🔗</span>
+                <span>Figure AI</span>
+            </div>
+        </article>
+        {{ end }}
+    </div>
+</div>
+{{ end }}
+
+{{ define "scripts" }}
+<script>
+    // 筛选功能
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+        btn.addEventListener('click', function() {
+            document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+            this.classList.add('active');
+            
+            const filter = this.dataset.filter;
+            document.querySelectorAll('.news-card').forEach(card => {
+                if (filter === 'all' || card.dataset.type === filter) {
+                    card.style.display = 'block';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        });
+    });
+</script>
+{{ end }}

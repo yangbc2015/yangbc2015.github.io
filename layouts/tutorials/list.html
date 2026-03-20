@@ -1,0 +1,460 @@
+{{ define "title" }}🎓 基础知识 | {{ .Site.Title }}{{ end }}
+
+{{ define "extra-head" }}
+<style>
+    .tutorial-hero {
+        text-align: center;
+        padding: 3rem 1rem;
+        border-bottom: 1px solid var(--neon-green-dim);
+    }
+
+    .tutorial-title {
+        font-family: 'Orbitron', monospace;
+        font-size: clamp(1.8rem, 4vw, 3rem);
+        color: var(--neon-green);
+        text-shadow: 0 0 20px var(--neon-green-glow);
+        margin-bottom: 1rem;
+    }
+
+    .tutorial-subtitle {
+        color: var(--text-secondary);
+        font-size: 1.1rem;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    .tutorial-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 2rem 1rem;
+    }
+
+    .learning-path {
+        margin-bottom: 3rem;
+    }
+
+    .path-title {
+        font-family: 'Orbitron', monospace;
+        font-size: 1.4rem;
+        color: var(--neon-green);
+        margin-bottom: 1.5rem;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    .path-container {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .path-item {
+        display: flex;
+        align-items: stretch;
+        gap: 1rem;
+    }
+
+    .path-node {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-width: 60px;
+    }
+
+    .path-number {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background: var(--dark-bg-secondary);
+        border: 2px solid var(--neon-green);
+        color: var(--neon-green);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Orbitron', monospace;
+        font-weight: 700;
+        font-size: 1rem;
+    }
+
+    .path-line {
+        flex: 1;
+        width: 2px;
+        background: var(--neon-green-dim);
+        margin: 0.5rem 0;
+    }
+
+    .path-content {
+        flex: 1;
+        background: var(--dark-bg-secondary);
+        border: 1px solid var(--neon-green-dim);
+        border-radius: 10px;
+        padding: 1.25rem;
+        transition: all 0.3s ease;
+    }
+
+    .path-content:hover {
+        border-color: var(--neon-green);
+        box-shadow: 0 5px 20px rgba(0, 255, 65, 0.1);
+    }
+
+    .path-item:last-child .path-line {
+        display: none;
+    }
+
+    .path-content h3 {
+        font-size: 1.1rem;
+        margin-bottom: 0.5rem;
+        color: var(--text-primary);
+    }
+
+    .path-content p {
+        color: var(--text-secondary);
+        font-size: 0.9rem;
+        line-height: 1.5;
+        margin-bottom: 0.75rem;
+    }
+
+    .path-meta {
+        display: flex;
+        gap: 1rem;
+        font-size: 0.8rem;
+        color: var(--text-secondary);
+        font-family: 'Orbitron', monospace;
+    }
+
+    .path-meta span {
+        display: flex;
+        align-items: center;
+        gap: 0.25rem;
+    }
+
+    .tutorial-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        gap: 1.5rem;
+    }
+
+    .tutorial-card {
+        background: var(--dark-bg-secondary);
+        border: 1px solid var(--neon-green-dim);
+        border-radius: 10px;
+        overflow: hidden;
+        transition: all 0.3s ease;
+    }
+
+    .tutorial-card:hover {
+        transform: translateY(-5px);
+        border-color: var(--neon-green);
+        box-shadow: 0 10px 30px rgba(0, 255, 65, 0.1);
+    }
+
+    .tutorial-header {
+        padding: 1.25rem;
+        background: rgba(0, 255, 65, 0.05);
+        border-bottom: 1px solid var(--neon-green-dim);
+    }
+
+    .tutorial-icon {
+        width: 50px;
+        height: 50px;
+        background: var(--dark-bg-tertiary);
+        border: 1px solid var(--neon-green-dim);
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5rem;
+        margin-bottom: 0.75rem;
+    }
+
+    .tutorial-level {
+        display: inline-block;
+        padding: 0.2rem 0.6rem;
+        border-radius: 12px;
+        font-size: 0.75rem;
+        font-family: 'Orbitron', monospace;
+    }
+
+    .tutorial-level.beginner {
+        background: rgba(0, 255, 65, 0.1);
+        border: 1px solid var(--neon-green);
+        color: var(--neon-green);
+    }
+
+    .tutorial-level.intermediate {
+        background: rgba(0, 240, 255, 0.1);
+        border: 1px solid var(--neon-blue);
+        color: var(--neon-blue);
+    }
+
+    .tutorial-level.advanced {
+        background: rgba(255, 0, 255, 0.1);
+        border: 1px solid var(--neon-pink);
+        color: var(--neon-pink);
+    }
+
+    .tutorial-body {
+        padding: 1.25rem;
+    }
+
+    .tutorial-card-title {
+        font-size: 1.1rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .tutorial-card-title a {
+        color: var(--text-primary);
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+
+    .tutorial-card-title a:hover {
+        color: var(--neon-green);
+    }
+
+    .tutorial-desc {
+        color: var(--text-secondary);
+        font-size: 0.9rem;
+        line-height: 1.5;
+        margin-bottom: 1rem;
+    }
+
+    .tutorial-stats {
+        display: flex;
+        gap: 1rem;
+        font-size: 0.8rem;
+        color: var(--text-secondary);
+    }
+
+    .section-divider {
+        height: 1px;
+        background: linear-gradient(90deg, transparent, var(--neon-green-dim), transparent);
+        margin: 3rem 0;
+    }
+
+    @media (max-width: 768px) {
+        .path-item {
+            gap: 0.75rem;
+        }
+
+        .path-node {
+            min-width: 50px;
+        }
+
+        .path-number {
+            width: 36px;
+            height: 36px;
+            font-size: 0.9rem;
+        }
+
+        .tutorial-grid {
+            grid-template-columns: 1fr;
+        }
+    }
+</style>
+{{ end }}
+
+{{ define "main" }}
+<section class="tutorial-hero">
+    <h1 class="tutorial-title glitch-text" data-text="基础知识">基础知识</h1>
+    <p class="tutorial-subtitle">{{ .Description }}</p>
+</section>
+
+<div class="tutorial-container">
+    <!-- 学习路径 -->
+    <div class="learning-path">
+        <h2 class="path-title">🎯 大模型工程师学习路径</h2>
+        <div class="path-container">
+            <div class="path-item">
+                <div class="path-node">
+                    <div class="path-number">01</div>
+                    <div class="path-line"></div>
+                </div>
+                <div class="path-content">
+                    <h3>Python 编程基础</h3>
+                    <p>掌握 Python 核心语法、数据结构、面向对象编程，为 AI 开发打下坚实基础。</p>
+                    <div class="path-meta">
+                        <span>⏱️ 2周</span>
+                        <span>📚 12课时</span>
+                        <span>✅ 入门必学</span>
+                    </div>
+                </div>
+            </div>
+            <div class="path-item">
+                <div class="path-node">
+                    <div class="path-number">02</div>
+                    <div class="path-line"></div>
+                </div>
+                <div class="path-content">
+                    <h3>机器学习基础</h3>
+                    <p>理解监督学习、无监督学习、模型评估指标，掌握 Scikit-learn 核心 API。</p>
+                    <div class="path-meta">
+                        <span>⏱️ 3周</span>
+                        <span>📚 18课时</span>
+                        <span>✅ 核心理论</span>
+                    </div>
+                </div>
+            </div>
+            <div class="path-item">
+                <div class="path-node">
+                    <div class="path-number">03</div>
+                    <div class="path-line"></div>
+                </div>
+                <div class="path-content">
+                    <h3>深度学习与 PyTorch</h3>
+                    <p>神经网络基础、反向传播、PyTorch 框架实战，构建你的第一个神经网络。</p>
+                    <div class="path-meta">
+                        <span>⏱️ 4周</span>
+                        <span>📚 24课时</span>
+                        <span>🔥 热门技能</span>
+                    </div>
+                </div>
+            </div>
+            <div class="path-item">
+                <div class="path-node">
+                    <div class="path-number">04</div>
+                    <div class="path-line"></div>
+                </div>
+                <div class="path-content">
+                    <h3>Transformer 与注意力机制</h3>
+                    <p>深入理解 Self-Attention、Multi-Head Attention，手撕 Transformer 架构。</p>
+                    <div class="path-meta">
+                        <span>⏱️ 3周</span>
+                        <span>📚 15课时</span>
+                        <span>🚀 进阶必备</span>
+                    </div>
+                </div>
+            </div>
+            <div class="path-item">
+                <div class="path-node">
+                    <div class="path-number">05</div>
+                </div>
+                <div class="path-content">
+                    <h3>大语言模型微调与部署</h3>
+                    <p>LoRA、QLoRA 微调技术，模型量化、推理加速，生产环境部署实践。</p>
+                    <div class="path-meta">
+                        <span>⏱️ 4周</span>
+                        <span>📚 20课时</span>
+                        <span>💼 就业导向</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section-divider"></div>
+
+    <!-- 教程分类 -->
+    <h2 class="path-title">📚 热门教程</h2>
+    <div class="tutorial-grid">
+        <article class="tutorial-card">
+            <div class="tutorial-header">
+                <div class="tutorial-icon">🐍</div>
+                <span class="tutorial-level beginner">入门</span>
+            </div>
+            <div class="tutorial-body">
+                <h3 class="tutorial-card-title">
+                    <a href="#">Python for AI 完全指南</a>
+                </h3>
+                <p class="tutorial-desc">从零开始学习 Python，专为 AI 学习者设计的编程入门教程。</p>
+                <div class="tutorial-stats">
+                    <span>👁️ 12.5k</span>
+                    <span>⭐ 4.9</span>
+                    <span>📝 24节</span>
+                </div>
+            </div>
+        </article>
+
+        <article class="tutorial-card">
+            <div class="tutorial-header">
+                <div class="tutorial-icon">🧮</div>
+                <span class="tutorial-level beginner">入门</span>
+            </div>
+            <div class="tutorial-body">
+                <h3 class="tutorial-card-title">
+                    <a href="#">机器学习数学基础</a>
+                </h3>
+                <p class="tutorial-desc">线性代数、微积分、概率统计，AI 必备的数学知识梳理。</p>
+                <div class="tutorial-stats">
+                    <span>👁️ 8.3k</span>
+                    <span>⭐ 4.8</span>
+                    <span>📝 18节</span>
+                </div>
+            </div>
+        </article>
+
+        <article class="tutorial-card">
+            <div class="tutorial-header">
+                <div class="tutorial-icon">🧠</div>
+                <span class="tutorial-level intermediate">进阶</span>
+            </div>
+            <div class="tutorial-body">
+                <h3 class="tutorial-card-title">
+                    <a href="#">深度学习实战：CNN 与 RNN</a>
+                </h3>
+                <p class="tutorial-desc">图像分类、文本生成实战项目，掌握 PyTorch 开发技能。</p>
+                <div class="tutorial-stats">
+                    <span>👁️ 15.2k</span>
+                    <span>⭐ 4.9</span>
+                    <span>📝 32节</span>
+                </div>
+            </div>
+        </article>
+
+        <article class="tutorial-card">
+            <div class="tutorial-header">
+                <div class="tutorial-icon">🤖</div>
+                <span class="tutorial-level intermediate">进阶</span>
+            </div>
+            <div class="tutorial-body">
+                <h3 class="tutorial-card-title">
+                    <a href="#">Transformer 原理详解</a>
+                </h3>
+                <p class="tutorial-desc">Attention is All You Need 深度解读，手撕 Transformer 源码。</p>
+                <div class="tutorial-stats">
+                    <span>👁️ 22.1k</span>
+                    <span>⭐ 5.0</span>
+                    <span>📝 16节</span>
+                </div>
+            </div>
+        </article>
+
+        <article class="tutorial-card">
+            <div class="tutorial-header">
+                <div class="tutorial-icon">⚡</div>
+                <span class="tutorial-level advanced">高级</span>
+            </div>
+            <div class="tutorial-body">
+                <h3 class="tutorial-card-title">
+                    <a href="#">LLM 微调与 RLHF</a>
+                </h3>
+                <p class="tutorial-desc">LoRA、QLoRA 高效微调，ChatGPT 背后的 RLHF 技术详解。</p>
+                <div class="tutorial-stats">
+                    <span>👁️ 9.8k</span>
+                    <span>⭐ 4.9</span>
+                    <span>📝 20节</span>
+                </div>
+            </div>
+        </article>
+
+        <article class="tutorial-card">
+            <div class="tutorial-header">
+                <div class="tutorial-icon">🛠️</div>
+                <span class="tutorial-level advanced">高级</span>
+            </div>
+            <div class="tutorial-body">
+                <h3 class="tutorial-card-title">
+                    <a href="#">RAG 应用开发实战</a>
+                </h3>
+                <p class="tutorial-desc">检索增强生成系统构建，向量数据库、Embedding 模型实战。</p>
+                <div class="tutorial-stats">
+                    <span>👁️ 11.6k</span>
+                    <span>⭐ 4.8</span>
+                    <span>📝 14节</span>
+                </div>
+            </div>
+        </article>
+    </div>
+</div>
+{{ end }}

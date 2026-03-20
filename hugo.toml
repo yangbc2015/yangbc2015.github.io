@@ -1,7 +1,7 @@
 baseURL = 'https://yangbc2015.github.io'
 languageCode = 'zh-CN'
 defaultContentLanguage = 'zh'
-title = '数字花园 | Digital Garden'
+title = 'AI 研究站 | AI Research Hub'
 # 使用自定义布局，不依赖主题
 theme = ''
 
@@ -11,10 +11,10 @@ theme = ''
 
 [params]
   author = "Garden Keeper"
-  description = "一个赛博朋克风格的数字花园，展示想法与项目的网络"
+  description = "专注 AI 领域的研究站，汇聚学术前沿、技术博客、AI 榜单与资源导航"
   favicon = "/favicon.ico"
   site_logo = "/logo.png"
-  mainSections = ["nodes", "posts"]
+  mainSections = ["nodes", "posts", "news", "papers", "tutorials", "videos", "tools"]
   
   # 赛博朋克主题配色
   [params.colors]
@@ -47,11 +47,12 @@ theme = ''
     rss = true
 
   # Giscus 评论配置
+  # 配置指南: https://giscus.app 或查看 GISCUS_SETUP.md
   [params.giscus]
-    repo = ""
-    repoId = ""
+    repo = ""           # 格式: "用户名/仓库名"
+    repoId = ""         # 从 https://giscus.app 获取
     category = "Announcements"
-    categoryId = ""
+    categoryId = ""     # 从 https://giscus.app 获取
     mapping = "pathname"
     reactionsEnabled = "1"
     emitMetadata = "0"
@@ -61,33 +62,45 @@ theme = ''
 # 主菜单
 [menu]
   [[menu.main]]
-    name = '花园'
+    name = '首页'
     url = '/'
     weight = 10
   [[menu.main]]
-    name = '文章'
-    url = '/posts/'
+    name = '📰 AI新闻'
+    url = '/news/'
     weight = 20
   [[menu.main]]
-    name = '节点'
-    url = '/nodes/'
+    name = '🏆 AI榜单'
+    url = '/leaderboard/'
+    weight = 25
+  [[menu.main]]
+    name = '🔬 学术'
+    url = '/papers/'
     weight = 30
   [[menu.main]]
-    name = '归档'
-    url = '/archive/'
+    name = '🎓 教程'
+    url = '/tutorials/'
     weight = 40
   [[menu.main]]
-    name = '标签'
-    url = '/tags/'
+    name = '💻 技术'
+    url = '/posts/'
     weight = 50
   [[menu.main]]
-    name = '友链'
-    url = '/friends/'
+    name = '🛠️ 工具'
+    url = '/tools/'
     weight = 60
   [[menu.main]]
-    name = '关于'
-    url = '/about/'
+    name = '🎬 视频'
+    url = '/videos/'
     weight = 70
+  [[menu.main]]
+    name = '📊 归档'
+    url = '/archive/'
+    weight = 80
+  [[menu.main]]
+    name = '🔗 友链'
+    url = '/friends/'
+    weight = 90
 
 # 页脚菜单
   [[menu.footer]]

@@ -1,0 +1,486 @@
+{{ define "title" }}🎬 视频精选 | {{ .Site.Title }}{{ end }}
+
+{{ define "extra-head" }}
+<style>
+    .video-hero {
+        text-align: center;
+        padding: 3rem 1rem;
+        border-bottom: 1px solid var(--neon-green-dim);
+    }
+
+    .video-title {
+        font-family: 'Orbitron', monospace;
+        font-size: clamp(1.8rem, 4vw, 3rem);
+        color: var(--neon-green);
+        text-shadow: 0 0 20px var(--neon-green-glow);
+        margin-bottom: 1rem;
+    }
+
+    .video-subtitle {
+        color: var(--text-secondary);
+        font-size: 1.1rem;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    .video-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 2rem 1rem;
+    }
+
+    .video-section {
+        margin-bottom: 3rem;
+    }
+
+    .section-title {
+        font-family: 'Orbitron', monospace;
+        font-size: 1.3rem;
+        color: var(--neon-green);
+        margin-bottom: 1.5rem;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    .video-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 1.5rem;
+    }
+
+    .video-card {
+        background: var(--dark-bg-secondary);
+        border: 1px solid var(--neon-green-dim);
+        border-radius: 10px;
+        overflow: hidden;
+        transition: all 0.3s ease;
+    }
+
+    .video-card:hover {
+        transform: translateY(-5px);
+        border-color: var(--neon-green);
+        box-shadow: 0 10px 30px rgba(0, 255, 65, 0.15);
+    }
+
+    .video-thumbnail {
+        position: relative;
+        width: 100%;
+        aspect-ratio: 16/9;
+        background: var(--dark-bg-tertiary);
+        overflow: hidden;
+    }
+
+    .video-thumbnail img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .video-play-btn {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 60px;
+        height: 60px;
+        background: rgba(0, 255, 65, 0.9);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5rem;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        box-shadow: 0 0 30px rgba(0, 255, 65, 0.5);
+    }
+
+    .video-card:hover .video-play-btn {
+        width: 70px;
+        height: 70px;
+        background: var(--neon-green);
+    }
+
+    .video-duration {
+        position: absolute;
+        bottom: 0.5rem;
+        right: 0.5rem;
+        background: rgba(0, 0, 0, 0.8);
+        color: var(--text-primary);
+        padding: 0.2rem 0.5rem;
+        border-radius: 4px;
+        font-size: 0.8rem;
+        font-family: 'Orbitron', monospace;
+    }
+
+    .video-content {
+        padding: 1rem;
+    }
+
+    .video-card-title {
+        font-size: 1rem;
+        font-weight: 600;
+        line-height: 1.4;
+        margin-bottom: 0.5rem;
+    }
+
+    .video-card-title a {
+        color: var(--text-primary);
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+
+    .video-card-title a:hover {
+        color: var(--neon-green);
+    }
+
+    .video-meta {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 0.85rem;
+        color: var(--text-secondary);
+    }
+
+    .video-speaker {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    .video-speaker-avatar {
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        background: var(--dark-bg-tertiary);
+        border: 1px solid var(--neon-green-dim);
+    }
+
+    .video-stats {
+        display: flex;
+        gap: 0.75rem;
+    }
+
+    .featured-video {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 1.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .featured-main {
+        background: var(--dark-bg-secondary);
+        border: 1px solid var(--neon-green-dim);
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    .featured-thumbnail {
+        position: relative;
+        width: 100%;
+        aspect-ratio: 16/9;
+    }
+
+    .featured-thumbnail img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .featured-badge {
+        position: absolute;
+        top: 1rem;
+        left: 1rem;
+        padding: 0.4rem 0.8rem;
+        background: var(--neon-pink);
+        color: var(--dark-bg);
+        font-family: 'Orbitron', monospace;
+        font-size: 0.8rem;
+        font-weight: 700;
+        border-radius: 4px;
+    }
+
+    .featured-content {
+        padding: 1.5rem;
+    }
+
+    .featured-title {
+        font-size: 1.4rem;
+        font-weight: 700;
+        margin-bottom: 0.75rem;
+    }
+
+    .featured-desc {
+        color: var(--text-secondary);
+        line-height: 1.6;
+        margin-bottom: 1rem;
+    }
+
+    .featured-meta {
+        display: flex;
+        gap: 1.5rem;
+        color: var(--text-secondary);
+        font-size: 0.9rem;
+    }
+
+    .featured-sidebar {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .sidebar-item {
+        display: flex;
+        gap: 0.75rem;
+        background: var(--dark-bg-secondary);
+        border: 1px solid var(--neon-green-dim);
+        border-radius: 8px;
+        padding: 0.75rem;
+        transition: all 0.3s ease;
+    }
+
+    .sidebar-item:hover {
+        border-color: var(--neon-green);
+    }
+
+    .sidebar-thumb {
+        width: 100px;
+        aspect-ratio: 16/9;
+        border-radius: 6px;
+        background: var(--dark-bg-tertiary);
+        flex-shrink: 0;
+    }
+
+    .sidebar-info {
+        flex: 1;
+        min-width: 0;
+    }
+
+    .sidebar-title {
+        font-size: 0.9rem;
+        font-weight: 600;
+        margin-bottom: 0.25rem;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .sidebar-meta {
+        font-size: 0.8rem;
+        color: var(--text-secondary);
+    }
+
+    @media (max-width: 768px) {
+        .featured-video {
+            grid-template-columns: 1fr;
+        }
+
+        .video-grid {
+            grid-template-columns: 1fr;
+        }
+    }
+</style>
+{{ end }}
+
+{{ define "main" }}
+<section class="video-hero">
+    <h1 class="video-title glitch-text" data-text="视频精选">视频精选</h1>
+    <p class="video-subtitle">{{ .Description }}</p>
+</section>
+
+<div class="video-container">
+    <!-- 精选视频 -->
+    <div class="video-section">
+        <h2 class="section-title">🔥 本周精选</h2>
+        <div class="featured-video">
+            <div class="featured-main">
+                <div class="featured-thumbnail">
+                    <div style="width: 100%; height: 100%; background: linear-gradient(135deg, var(--dark-bg-tertiary), var(--dark-bg-secondary)); display: flex; align-items: center; justify-content: center; font-size: 4rem;">
+                        🎓
+                    </div>
+                    <span class="featured-badge">精选</span>
+                    <div class="video-play-btn">▶</div>
+                </div>
+                <div class="featured-content">
+                    <h3 class="featured-title">
+                        <a href="#">Andrej Karpathy：深度神经网络入门到精通 (4小时完整版)</a>
+                    </h3>
+                    <p class="featured-desc">前 Tesla AI 总监 Andrej Karpathy 的经典教程，从零开始构建神经网络，深入理解反向传播、激活函数等核心概念。</p>
+                    <div class="featured-meta">
+                        <span>👁️ 2.3M 观看</span>
+                        <span>⏱️ 4:12:35</span>
+                        <span>📅 2024-03</span>
+                    </div>
+                </div>
+            </div>
+            <div class="featured-sidebar">
+                <div class="sidebar-item">
+                    <div class="sidebar-thumb" style="display: flex; align-items: center; justify-content: center; font-size: 1.5rem;">🤖</div>
+                    <div class="sidebar-info">
+                        <div class="sidebar-title">GPT-4 技术原理解析</div>
+                        <div class="sidebar-meta">45:20 · OpenAI</div>
+                    </div>
+                </div>
+                <div class="sidebar-item">
+                    <div class="sidebar-thumb" style="display: flex; align-items: center; justify-content: center; font-size: 1.5rem;">🧠</div>
+                    <div class="sidebar-info">
+                        <div class="sidebar-title">Transformer 注意力机制详解</div>
+                        <div class="sidebar-meta">32:15 · Yannic Kilcher</div>
+                    </div>
+                </div>
+                <div class="sidebar-item">
+                    <div class="sidebar-thumb" style="display: flex; align-items: center; justify-content: center; font-size: 1.5rem;">⚡</div>
+                    <div class="sidebar-info">
+                        <div class="sidebar-title">LoRA 微调技术实战</div>
+                        <div class="sidebar-meta">28:40 · Hugging Face</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 技术讲座 -->
+    <div class="video-section">
+        <h2 class="section-title">🎤 技术讲座</h2>
+        <div class="video-grid">
+            <article class="video-card">
+                <div class="video-thumbnail">
+                    <div style="width: 100%; height: 100%; background: linear-gradient(135deg, #1a1a2e, #16213e); display: flex; align-items: center; justify-content: center; font-size: 3rem;">
+                        🎯
+                    </div>
+                    <div class="video-play-btn">▶</div>
+                    <span class="video-duration">1:23:45</span>
+                </div>
+                <div class="video-content">
+                    <h3 class="video-card-title">
+                        <a href="#">NeurIPS 2025: 大模型推理能力新突破</a>
+                    </h3>
+                    <div class="video-meta">
+                        <span class="video-speaker">
+                            <span class="video-speaker-avatar"></span>
+                            NeurIPS
+                        </span>
+                        <span class="video-stats">👁️ 45K</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="video-card">
+                <div class="video-thumbnail">
+                    <div style="width: 100%; height: 100%; background: linear-gradient(135deg, #0f3460, #16213e); display: flex; align-items: center; justify-content: center; font-size: 3rem;">
+                        🚀
+                    </div>
+                    <div class="video-play-btn">▶</div>
+                    <span class="video-duration">52:10</span>
+                </div>
+                <div class="video-content">
+                    <h3 class="video-card-title">
+                        <a href="#">Google I/O: Gemini 多模态能力展示</a>
+                    </h3>
+                    <div class="video-meta">
+                        <span class="video-speaker">
+                            <span class="video-speaker-avatar"></span>
+                            Google
+                        </span>
+                        <span class="video-stats">👁️ 128K</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="video-card">
+                <div class="video-thumbnail">
+                    <div style="width: 100%; height: 100%; background: linear-gradient(135deg, #533483, #16213e); display: flex; align-items: center; justify-content: center; font-size: 3rem;">
+                        🔬
+                    </div>
+                    <div class="video-play-btn">▶</div>
+                    <span class="video-duration">38:25</span>
+                </div>
+                <div class="video-content">
+                    <h3 class="video-card-title">
+                        <a href="#">MIT 6.5940: 深度学习系统</a>
+                    </h3>
+                    <div class="video-meta">
+                        <span class="video-speaker">
+                            <span class="video-speaker-avatar"></span>
+                            MIT
+                        </span>
+                        <span class="video-stats">👁️ 89K</span>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </div>
+
+    <!-- 课程系列 -->
+    <div class="video-section">
+        <h2 class="section-title">📺 精品课程</h2>
+        <div class="video-grid">
+            <article class="video-card">
+                <div class="video-thumbnail">
+                    <div style="width: 100%; height: 100%; background: linear-gradient(135deg, #e94560, #533483); display: flex; align-items: center; justify-content: center; font-size: 3rem;">
+                        🐍
+                    </div>
+                    <div class="video-play-btn">▶</div>
+                    <span class="video-duration">12:30:00</span>
+                </div>
+                <div class="video-content">
+                    <h3 class="video-card-title">
+                        <a href="#">Fast.ai: 程序员深度学习实战</a>
+                    </h3>
+                    <div class="video-meta">
+                        <span class="video-speaker">
+                            <span class="video-speaker-avatar"></span>
+                            Jeremy Howard
+                        </span>
+                        <span class="video-stats">👁️ 234K</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="video-card">
+                <div class="video-thumbnail">
+                    <div style="width: 100%; height: 100%; background: linear-gradient(135deg, #00d9ff, #0099cc); display: flex; align-items: center; justify-content: center; font-size: 3rem;">
+                        🧮
+                    </div>
+                    <div class="video-play-btn">▶</div>
+                    <span class="video-duration">8:45:20</span>
+                </div>
+                <div class="video-content">
+                    <h3 class="video-card-title">
+                        <a href="#">Stanford CS231n: 卷积神经网络</a>
+                    </h3>
+                    <div class="video-meta">
+                        <span class="video-speaker">
+                            <span class="video-speaker-avatar"></span>
+                            Stanford
+                        </span>
+                        <span class="video-stats">👁️ 567K</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="video-card">
+                <div class="video-thumbnail">
+                    <div style="width: 100%; height: 100%; background: linear-gradient(135deg, #ff6b6b, #ee5a6f); display: flex; align-items: center; justify-content: center; font-size: 3rem;">
+                        🤗
+                    </div>
+                    <div class="video-play-btn">▶</div>
+                    <span class="video-duration">6:20:00</span>
+                </div>
+                <div class="video-content">
+                    <h3 class="video-card-title">
+                        <a href="#">Hugging Face: Transformer 实战教程</a>
+                    </h3>
+                    <div class="video-meta">
+                        <span class="video-speaker">
+                            <span class="video-speaker-avatar"></span>
+                            Hugging Face
+                        </span>
+                        <span class="video-stats">👁️ 178K</span>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </div>
+</div>
+{{ end }}
