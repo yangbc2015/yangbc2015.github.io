@@ -16,6 +16,13 @@
                 </a>
             </li>
             {{ end }}
+            {{ if .Site.Params.features.search }}
+            <li>
+                <button class="search-toggle" id="search-toggle" aria-label="搜索">
+                    🔍 <span>搜索</span>
+                </button>
+            </li>
+            {{ end }}
         </ul>
     </nav>
 </header>

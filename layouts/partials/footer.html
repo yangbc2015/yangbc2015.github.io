@@ -8,16 +8,31 @@
             Built with <a href="https://gohugo.io" style="color: var(--neon-green);">Hugo</a>.
         </p>
         
+        <!-- 页脚菜单 -->
+        {{ if .Site.Menus.footer }}
+        <nav class="footer-menu">
+            {{ range .Site.Menus.footer }}
+            <a href="{{ .URL }}" {{ if strings.HasPrefix .URL "http" }}target="_blank" rel="noopener"{{ end }}>
+                {{ .Name }}
+            </a>
+            {{ end }}
+        </nav>
+        {{ end }}
+        
+        <!-- 社交媒体 -->
         {{ if .Site.Params.social }}
         <div class="footer-social">
             {{ with .Site.Params.social.github }}
-            <a href="{{ . }}" target="_blank" rel="noopener" aria-label="GitHub">🐙</a>
+            <a href="{{ . }}" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub">🐙</a>
             {{ end }}
             {{ with .Site.Params.social.twitter }}
-            <a href="{{ . }}" target="_blank" rel="noopener" aria-label="Twitter">🐦</a>
+            <a href="{{ . }}" target="_blank" rel="noopener" aria-label="Twitter" title="Twitter">🐦</a>
             {{ end }}
             {{ with .Site.Params.social.email }}
-            <a href="{{ . }}" aria-label="Email">✉️</a>
+            <a href="{{ . }}" aria-label="Email" title="Email">✉️</a>
+            {{ end }}
+            {{ if .Site.Params.features.rss }}
+            <a href="{{ "index.xml" | relURL }}" aria-label="RSS Feed" title="RSS">📡</a>
             {{ end }}
         </div>
         {{ end }}

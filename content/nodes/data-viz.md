@@ -1,61 +1,48 @@
 ---
 id: 6
-title: "数据分析"
-date: 2024-03-20T13:00:00+08:00
+title: "数据可视化"
+date: 2024-02-20T13:00:00+08:00
 draft: false
-description: "数据可视化项目，使用 D3.js 和 Python 进行数据分析和展示。专注于复杂数据的可视化表达。"
+description: "数据可视化项目，使用 D3.js 和 Python 创建交互式图表。让数据讲述故事。"
 icon: "📊"
 category: "数据"
-tags: ["D3.js", "Python", "Pandas", "可视化", "数据科学"]
-connections: [1, 8, 12]
+tags: ["D3.js", "Python", "可视化", "数据分析", "图表"]
+connections: [1, 2, 4]
 position:
-  x: 450
-  y: 350
+  x: 350
+  y: 400
 ---
 
 ## 可视化项目
 
-### 1. 网络关系图
-- D3.js 力导向图
-- 交互式探索
-- 动态数据更新
-
-### 2. 时序数据可视化
-- 时间序列分析
-- 趋势预测
-- 异常检测
-
-### 3. 地理空间数据
-- 地图可视化
-- 热力图
-- 轨迹分析
+探索数据可视化的艺术与技术，将复杂数据转化为直观的视觉故事。
 
 ## 技术栈
 
-- **Python**: 数据处理（Pandas, NumPy）
-- **D3.js**: 交互式可视化
-- **Observable Plot**: 快速图表
-- **Apache ECharts**: 复杂图表
+### 前端可视化
+- D3.js - 自定义交互图表
+- ECharts - 商业级图表库
+- Three.js - 3D 可视化
 
-## 示例代码
+### 数据处理
+- Python + Pandas - 数据清洗
+- Jupyter Notebook - 探索性分析
+- Apache ECharts - 报表生成
 
-```python
-import pandas as pd
-import matplotlib.pyplot as plt
+## 项目展示
 
-# 数据加载和清洗
-df = pd.read_csv('data.csv')
-df_clean = df.dropna()
+### 1. 知识图谱
+交互式网络图，展示想法之间的关联。
 
-# 可视化
-plt.figure(figsize=(10, 6))
-df_clean['value'].plot(kind='line')
-plt.title('Data Trend')
-plt.show()
-```
+### 2. 实时数据大屏
+WebSocket 实时数据可视化。
 
-## 应用领域
+### 3. 3D 数据景观
+使用 Three.js 创建沉浸式数据体验。
 
-- 业务数据分析
-- 科学研究可视化
-- 实时监控仪表板
+## 可视化原则
+
+1. **清晰性** - 数据应该易于理解
+2. **诚实性** - 准确呈现数据，不误导
+3. **效率性** - 用最少墨水传递最多信息
+4. **美观性** - 美观的设计更易被接受

@@ -1,13 +1,4 @@
-{{ define "main" }}
-<div class="error-page">
-    <div class="error-code">404</div>
-    <div class="error-message">
-        <span class="glitch" data-text="SYSTEM ERROR">SYSTEM ERROR</span>
-    </div>
-    <p class="error-description">目标节点在数字花园中丢失</p>
-    <a href="{{ "/" | relURL }}" class="cyber-button">返回主页</a>
-</div>
-{{ end }}
+{{ define "title" }}404 | 页面未找到 | {{ .Site.Title }}{{ end }}
 
 {{ define "extra-head" }}
 <style>
@@ -23,31 +14,20 @@
 
     .error-code {
         font-family: 'Orbitron', monospace;
-        font-size: 10rem;
+        font-size: clamp(6rem, 15vw, 12rem);
         font-weight: 900;
         color: var(--neon-green);
         text-shadow: 
             0 0 20px var(--neon-green-glow),
             0 0 40px var(--neon-green-glow),
             0 0 80px var(--neon-green-glow);
+        position: relative;
         animation: glitch 2s infinite;
     }
 
-    .error-message {
-        font-family: 'Orbitron', monospace;
-        font-size: 2rem;
-        color: var(--neon-green);
-        margin: 1rem 0;
-        position: relative;
-    }
-
-    .glitch {
-        position: relative;
-    }
-
-    .glitch::before,
-    .glitch::after {
-        content: attr(data-text);
+    .error-code::before,
+    .error-code::after {
+        content: '404';
         position: absolute;
         top: 0;
         left: 0;
@@ -55,24 +35,61 @@
         height: 100%;
     }
 
-    .glitch::before {
-        animation: glitch-1 1s infinite;
+    .error-code::before {
+        animation: glitch-1 2s infinite;
         color: #ff00ff;
         z-index: -1;
     }
 
-    .glitch::after {
-        animation: glitch-2 1s infinite;
+    .error-code::after {
+        animation: glitch-2 2s infinite;
         color: #00ffff;
         z-index: -2;
     }
 
+    @keyframes glitch {
+        0%, 100% { transform: translate(0); }
+        20% { transform: translate(-3px, 3px); }
+        40% { transform: translate(-3px, -3px); }
+        60% { transform: translate(3px, 3px); }
+        80% { transform: translate(3px, -3px); }
+    }
+
+    @keyframes glitch-1 {
+        0%, 100% { clip-path: inset(0 0 0 0); transform: translate(0); }
+        20% { clip-path: inset(20% 0 60% 0); transform: translate(-5px, 0); }
+        40% { clip-path: inset(40% 0 40% 0); transform: translate(5px, 0); }
+        60% { clip-path: inset(60% 0 20% 0); transform: translate(-5px, 0); }
+        80% { clip-path: inset(80% 0 0% 0); transform: translate(5px, 0); }
+    }
+
+    @keyframes glitch-2 {
+        0%, 100% { clip-path: inset(0 0 0 0); transform: translate(0); }
+        20% { clip-path: inset(60% 0 20% 0); transform: translate(5px, 0); }
+        40% { clip-path: inset(40% 0 40% 0); transform: translate(-5px, 0); }
+        60% { clip-path: inset(20% 0 60% 0); transform: translate(5px, 0); }
+        80% { clip-path: inset(0% 0 80% 0); transform: translate(-5px, 0); }
+    }
+
+    .error-message {
+        font-family: 'Orbitron', monospace;
+        font-size: 1.5rem;
+        color: var(--text-primary);
+        margin: 1.5rem 0;
+    }
+
     .error-description {
         color: var(--text-secondary);
-        font-size: 1.2rem;
-        margin: 2rem 0;
-        font-family: 'Orbitron', monospace;
-        letter-spacing: 0.1em;
+        max-width: 500px;
+        margin-bottom: 2rem;
+        line-height: 1.8;
+    }
+
+    .error-actions {
+        display: flex;
+        gap: 1rem;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
     .cyber-button {
@@ -81,14 +98,15 @@
         border: 2px solid var(--neon-green);
         color: var(--neon-green);
         font-family: 'Orbitron', monospace;
-        font-size: 1rem;
+        font-size: 0.9rem;
         text-transform: uppercase;
         letter-spacing: 0.1em;
         cursor: pointer;
-        text-decoration: none;
-        transition: all 0.3s ease;
         position: relative;
         overflow: hidden;
+        transition: all 0.3s ease;
+        text-decoration: none;
+        display: inline-block;
     }
 
     .cyber-button::before {
@@ -112,37 +130,47 @@
         left: 100%;
     }
 
-    @keyframes glitch {
-        0%, 100% { transform: translate(0); }
-        20% { transform: translate(-2px, 2px); }
-        40% { transform: translate(-2px, -2px); }
-        60% { transform: translate(2px, 2px); }
-        80% { transform: translate(2px, -2px); }
+    .cyber-button.secondary {
+        border-color: var(--neon-blue);
+        color: var(--neon-blue);
     }
 
-    @keyframes glitch-1 {
-        0%, 100% { clip-path: inset(0 0 0 0); transform: translate(0); }
-        20% { clip-path: inset(20% 0 60% 0); transform: translate(-3px, 0); }
-        40% { clip-path: inset(40% 0 40% 0); transform: translate(3px, 0); }
-        60% { clip-path: inset(60% 0 20% 0); transform: translate(-3px, 0); }
-        80% { clip-path: inset(80% 0 0% 0); transform: translate(3px, 0); }
+    .cyber-button.secondary:hover {
+        background: var(--neon-blue);
+        color: var(--dark-bg);
+        box-shadow: 0 0 30px rgba(0, 240, 255, 0.5);
     }
 
-    @keyframes glitch-2 {
-        0%, 100% { clip-path: inset(0 0 0 0); transform: translate(0); }
-        20% { clip-path: inset(60% 0 20% 0); transform: translate(3px, 0); }
-        40% { clip-path: inset(40% 0 40% 0); transform: translate(-3px, 0); }
-        60% { clip-path: inset(20% 0 60% 0); transform: translate(3px, 0); }
-        80% { clip-path: inset(0% 0 80% 0); transform: translate(-3px, 0); }
-    }
-
-    @media (max-width: 768px) {
-        .error-code {
-            font-size: 6rem;
-        }
-        .error-message {
-            font-size: 1.25rem;
-        }
+    .error-ascii {
+        font-family: 'Courier New', monospace;
+        font-size: 0.7rem;
+        color: var(--neon-green-dim);
+        opacity: 0.5;
+        margin-top: 3rem;
+        white-space: pre;
+        line-height: 1.2;
     }
 </style>
+{{ end }}
+
+{{ define "main" }}
+<div class="error-page">
+    <div class="error-code" data-text="404">404</div>
+    <h1 class="error-message">// 系统错误：页面未找到</h1>
+    <p class="error-description">
+        看起来你迷失在了数字花园的深处。<br>
+        这个页面可能不存在，或者已经被移植到其他地方。
+    </p>
+    <div class="error-actions">
+        <a href="{{ "/" | relURL }}" class="cyber-button">返回花园</a>
+        <a href="{{ "/archive/" | relURL }}" class="cyber-button secondary">浏览归档</a>
+    </div>
+    <pre class="error-ascii">
+    ╔══════════════════════════════════════╗
+    ║  [ERROR] Connection Lost             ║
+    ║  [INFO]  Redirecting to home...      ║
+    ║  [STATUS] System operational         ║
+    ╚══════════════════════════════════════╝
+    </pre>
+</div>
 {{ end }}

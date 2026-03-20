@@ -60,6 +60,13 @@
         font-family: 'Orbitron', monospace;
         font-size: 0.8rem;
         text-transform: uppercase;
+        text-decoration: none;
+        transition: all 0.3s ease;
+    }
+
+    .article-category:hover {
+        background: var(--neon-green);
+        color: var(--dark-bg);
     }
 
     .article-date {
@@ -161,7 +168,7 @@
         color: var(--neon-green);
         padding: 0.2rem 0.4rem;
         border-radius: 4px;
-        font-family: 'Consolas', 'Monaco', monospace;
+        font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
         font-size: 0.9em;
     }
 
@@ -172,11 +179,62 @@
         padding: 1.5rem;
         overflow-x: auto;
         margin: 2rem 0;
+        position: relative;
     }
 
     .article-content pre code {
         background: none;
         padding: 0;
+        color: var(--text-primary);
+    }
+
+    /* 代码复制按钮 */
+    .code-block-wrapper {
+        position: relative;
+        margin: 2rem 0;
+    }
+
+    .code-copy-btn {
+        position: absolute;
+        top: 0.5rem;
+        right: 0.5rem;
+        background: var(--dark-bg-tertiary);
+        border: 1px solid var(--neon-green-dim);
+        color: var(--neon-green);
+        padding: 0.4rem 0.8rem;
+        border-radius: 5px;
+        font-size: 0.75rem;
+        font-family: 'Orbitron', monospace;
+        cursor: pointer;
+        opacity: 0;
+        transition: all 0.3s ease;
+        display: flex;
+        align-items: center;
+        gap: 0.3rem;
+    }
+
+    .code-block-wrapper:hover .code-copy-btn {
+        opacity: 1;
+    }
+
+    .code-copy-btn:hover {
+        background: var(--neon-green);
+        color: var(--dark-bg);
+    }
+
+    .code-copy-btn.copied {
+        background: var(--neon-green);
+        color: var(--dark-bg);
+    }
+
+    /* 代码高亮行号 */
+    .highlight {
+        position: relative;
+        margin: 2rem 0;
+    }
+
+    .highlight pre {
+        margin: 0;
     }
 
     .article-content img {
@@ -205,6 +263,7 @@
         font-family: 'Orbitron', monospace;
     }
 
+    /* 文章导航 */
     .article-nav {
         display: flex;
         justify-content: space-between;
@@ -249,6 +308,102 @@
         font-weight: 500;
     }
 
+    /* 分享按钮 */
+    .article-share {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        margin-top: 2rem;
+        padding-top: 2rem;
+        border-top: 1px solid var(--neon-green-dim);
+    }
+
+    .share-btn {
+        padding: 0.5rem 1rem;
+        background: var(--dark-bg-tertiary);
+        border: 1px solid var(--neon-green-dim);
+        border-radius: 20px;
+        color: var(--text-secondary);
+        font-size: 0.85rem;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        display: flex;
+        align-items: center;
+        gap: 0.3rem;
+    }
+
+    .share-btn:hover {
+        border-color: var(--neon-green);
+        color: var(--neon-green);
+        transform: translateY(-2px);
+    }
+
+    /* 评论区 */
+    .comments-section {
+        margin-top: 3rem;
+        padding: 2rem;
+        background: var(--dark-bg-secondary);
+        border: 1px solid var(--neon-green-dim);
+        border-radius: 10px;
+    }
+
+    .comments-title {
+        font-family: 'Orbitron', monospace;
+        font-size: 1.3rem;
+        color: var(--neon-green);
+        margin-bottom: 1.5rem;
+        text-align: center;
+    }
+
+    /* 相关文章 */
+    .related-posts {
+        margin-top: 3rem;
+    }
+
+    .related-title {
+        font-family: 'Orbitron', monospace;
+        font-size: 1.3rem;
+        color: var(--neon-green);
+        margin-bottom: 1.5rem;
+    }
+
+    .related-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 1rem;
+    }
+
+    .related-card {
+        background: var(--dark-bg-secondary);
+        border: 1px solid var(--neon-green-dim);
+        border-radius: 8px;
+        padding: 1rem;
+        text-decoration: none;
+        color: inherit;
+        transition: all 0.3s ease;
+    }
+
+    .related-card:hover {
+        border-color: var(--neon-green);
+        transform: translateY(-3px);
+    }
+
+    .related-card-icon {
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .related-card-title {
+        color: var(--neon-green);
+        font-size: 0.95rem;
+        margin-bottom: 0.3rem;
+    }
+
+    .related-card-date {
+        font-size: 0.75rem;
+        color: var(--text-secondary);
+    }
+
     @media (max-width: 768px) {
         .single-page {
             padding: 1rem;
@@ -269,6 +424,10 @@
         .article-nav {
             flex-direction: column;
         }
+
+        .code-copy-btn {
+            opacity: 1;
+        }
     }
 </style>
 {{ end }}
@@ -281,10 +440,11 @@
         
         <div class="article-meta">
             {{ with .Params.category }}
-            <span class="article-category">{{ . }}</span>
+            <a href="{{ "/categories/" | relURL }}{{ . | urlize }}" class="article-category">{{ . }}</a>
             {{ end }}
             <span class="article-date">{{ .Date.Format "2006-01-02" }}</span>
             <span>{{ .ReadingTime }} 分钟阅读</span>
+            <span>{{ .WordCount }} 字</span>
         </div>
 
         {{ with .Params.tags }}
@@ -300,6 +460,20 @@
         {{ .Content }}
     </div>
 
+    <!-- 分享按钮 -->
+    <div class="article-share">
+        <button class="share-btn" id="share-twitter" title="分享到 Twitter">
+            🐦 Twitter
+        </button>
+        <button class="share-btn" id="share-weibo" title="分享到微博">
+            📱 微博
+        </button>
+        <button class="share-btn" id="share-copy" title="复制链接">
+            📋 复制链接
+        </button>
+    </div>
+
+    <!-- 文章导航 -->
     <nav class="article-nav">
         {{ with .PrevInSection }}
         <a href="{{ .RelPermalink }}" class="article-nav-prev">
@@ -319,5 +493,140 @@
         <span></span>
         {{ end }}
     </nav>
+
+    <!-- 相关文章 -->
+    {{ $related := .Site.RegularPages.Related . | first 3 }}
+    {{ with $related }}
+    <section class="related-posts">
+        <h2 class="related-title">📎 相关文章</h2>
+        <div class="related-grid">
+            {{ range . }}
+            <a href="{{ .RelPermalink }}" class="related-card">
+                <div class="related-card-icon">{{ .Params.icon | default "📝" }}</div>
+                <div class="related-card-title">{{ .Title }}</div>
+                <div class="related-card-date">{{ .Date.Format "2006-01-02" }}</div>
+            </a>
+            {{ end }}
+        </div>
+    </section>
+    {{ end }}
+
+    <!-- 评论区 -->
+    {{ if .Site.Params.features.comments }}
+    <section class="comments-section">
+        <h2 class="comments-title">💬 评论</h2>
+        {{ if .Site.Params.giscus.repo }}
+        <!-- Giscus 评论系统 -->
+        <script src="https://giscus.app/client.js"
+            data-repo="{{ .Site.Params.giscus.repo }}"
+            data-repo-id="{{ .Site.Params.giscus.repoId }}"
+            data-category="{{ .Site.Params.giscus.category }}"
+            data-category-id="{{ .Site.Params.giscus.categoryId }}"
+            data-mapping="{{ .Site.Params.giscus.mapping }}"
+            data-strict="0"
+            data-reactions-enabled="{{ .Site.Params.giscus.reactionsEnabled }}"
+            data-emit-metadata="{{ .Site.Params.giscus.emitMetadata }}"
+            data-input-position="bottom"
+            data-theme="{{ .Site.Params.giscus.theme }}"
+            data-lang="{{ .Site.Params.giscus.lang }}"
+            crossorigin="anonymous"
+            async>
+        </script>
+        {{ else }}
+        <!-- 提示配置 Giscus -->
+        <div style="text-align: center; color: var(--text-secondary); padding: 2rem;">
+            <p>💡 评论区需要配置 Giscus</p>
+            <p style="font-size: 0.85rem; margin-top: 0.5rem;">
+                在 <code>hugo.toml</code> 中配置 <code>params.giscus</code> 以启用评论功能
+            </p>
+        </div>
+        {{ end }}
+    </section>
+    {{ end }}
 </article>
+{{ end }}
+
+{{ define "scripts" }}
+<script>
+    // 代码复制功能
+    {{ if .Site.Params.features.code_copy }}
+    document.querySelectorAll('.article-content pre, .highlight').forEach(block => {
+        const wrapper = document.createElement('div');
+        wrapper.className = 'code-block-wrapper';
+        block.parentNode.insertBefore(wrapper, block);
+        wrapper.appendChild(block);
+
+        const button = document.createElement('button');
+        button.className = 'code-copy-btn';
+        button.innerHTML = '📋 复制';
+        wrapper.appendChild(button);
+
+        button.addEventListener('click', async () => {
+            const code = block.querySelector('code') || block;
+            const text = code.innerText;
+            
+            try {
+                await navigator.clipboard.writeText(text);
+                button.classList.add('copied');
+                button.innerHTML = '✓ 已复制';
+                
+                setTimeout(() => {
+                    button.classList.remove('copied');
+                    button.innerHTML = '📋 复制';
+                }, 2000);
+            } catch (err) {
+                console.error('复制失败:', err);
+                button.innerHTML = '✗ 失败';
+                setTimeout(() => {
+                    button.innerHTML = '📋 复制';
+                }, 2000);
+            }
+        });
+    });
+    {{ end }}
+
+    // 分享功能
+    const shareData = {
+        title: '{{ .Title }} | {{ .Site.Title }}',
+        text: '{{ .Description | default .Summary }}',
+        url: window.location.href
+    };
+
+    // Twitter 分享
+    document.getElementById('share-twitter')?.addEventListener('click', () => {
+        const url = `https://twitter.com/intent/tweet?text=${encodeURIComponent(shareData.title)}&url=${encodeURIComponent(shareData.url)}`;
+        window.open(url, '_blank', 'width=550,height=420');
+    });
+
+    // 微博分享
+    document.getElementById('share-weibo')?.addEventListener('click', () => {
+        const url = `http://service.weibo.com/share/share.php?title=${encodeURIComponent(shareData.title)}&url=${encodeURIComponent(shareData.url)}`;
+        window.open(url, '_blank');
+    });
+
+    // 复制链接
+    document.getElementById('share-copy')?.addEventListener('click', async () => {
+        try {
+            await navigator.clipboard.writeText(shareData.url);
+            const btn = document.getElementById('share-copy');
+            btn.innerHTML = '✓ 已复制';
+            setTimeout(() => {
+                btn.innerHTML = '📋 复制链接';
+            }, 2000);
+        } catch (err) {
+            console.error('复制失败:', err);
+        }
+    });
+
+    // Web Share API（移动端）
+    if (navigator.share) {
+        const shareBtn = document.createElement('button');
+        shareBtn.className = 'share-btn';
+        shareBtn.innerHTML = '🔗 分享';
+        shareBtn.addEventListener('click', () => {
+            navigator.share(shareData);
+        });
+        document.querySelector('.article-share')?.appendChild(shareBtn);
+    }
+</script>
 {{ end }}

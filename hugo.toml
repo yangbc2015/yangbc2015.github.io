@@ -2,7 +2,12 @@ baseURL = 'https://yangbc2015.github.io'
 languageCode = 'zh-CN'
 defaultContentLanguage = 'zh'
 title = '数字花园 | Digital Garden'
-theme = 'ananke'
+# 使用自定义布局，不依赖主题
+theme = ''
+
+# 分页设置
+[pagination]
+  pagerSize = 6
 
 [params]
   author = "Garden Keeper"
@@ -15,6 +20,8 @@ theme = 'ananke'
   [params.colors]
     neon_green = "#00ff41"
     neon_green_dim = "#00cc33"
+    neon_blue = "#00f0ff"
+    neon_pink = "#ff00ff"
     dark_bg = "#0a0a0a"
     dark_bg_secondary = "#0d1117"
     text_primary = "#e6edf3"
@@ -25,25 +32,75 @@ theme = 'ananke'
     github = "https://github.com"
     twitter = "https://twitter.com"
     email = "mailto:hello@example.com"
+    rss = true
 
   # 功能开关
   [params.features]
     graph_visualization = true
     dark_mode = true
     particles = true
+    search = true
+    comments = true
+    reading_progress = true
+    back_to_top = true
+    code_copy = true
+    rss = true
 
+  # Giscus 评论配置
+  [params.giscus]
+    repo = ""
+    repoId = ""
+    category = "Announcements"
+    categoryId = ""
+    mapping = "pathname"
+    reactionsEnabled = "1"
+    emitMetadata = "0"
+    theme = "dark"
+    lang = "zh-CN"
+
+# 主菜单
 [menu]
   [[menu.main]]
     name = '花园'
     url = '/'
     weight = 10
   [[menu.main]]
+    name = '文章'
+    url = '/posts/'
+    weight = 20
+  [[menu.main]]
     name = '节点'
     url = '/nodes/'
-    weight = 20
+    weight = 30
+  [[menu.main]]
+    name = '归档'
+    url = '/archive/'
+    weight = 40
+  [[menu.main]]
+    name = '标签'
+    url = '/tags/'
+    weight = 50
+  [[menu.main]]
+    name = '友链'
+    url = '/friends/'
+    weight = 60
   [[menu.main]]
     name = '关于'
     url = '/about/'
+    weight = 70
+
+# 页脚菜单
+  [[menu.footer]]
+    name = 'RSS'
+    url = '/index.xml'
+    weight = 10
+  [[menu.footer]]
+    name = '统计'
+    url = '/stats/'
+    weight = 20
+  [[menu.footer]]
+    name = 'Sitemap'
+    url = '/sitemap.xml'
     weight = 30
 
 [taxonomies]
@@ -54,6 +111,13 @@ theme = 'ananke'
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+  [markup.highlight]
+    style = "dracula"
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = false
+    codeFences = true
+    guessSyntax = true
 
 [imaging]
   quality = 90
@@ -61,3 +125,13 @@ theme = 'ananke'
 
 [build]
   writeStats = true
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  section = ["HTML", "RSS"]
+
+[outputFormats]
+  [outputFormats.JSON]
+    mediaType = "application/json"
+    baseName = "index"
+    isPlainText = true

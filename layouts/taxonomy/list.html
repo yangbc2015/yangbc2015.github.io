@@ -1,27 +1,8 @@
-{{ define "main" }}
-<div class="list-page">
-    <header class="page-header">
-        <h1 class="page-title">{{ .Title }}</h1>
-        <p class="page-description">共 {{ len .Pages }} 个项目</p>
-    </header>
-
-    <div class="content-grid">
-        {{ range .Pages }}
-        <article class="content-card">
-            <a href="{{ .RelPermalink }}" style="text-decoration: none; color: inherit;">
-                <div class="card-icon">{{ .Params.icon | default "🏷️" }}</div>
-                <h2 class="card-title">{{ .Title }}</h2>
-                <p class="card-description">{{ .Params.description | default (printf "包含 %d 个节点" (len .Pages)) }}</p>
-            </a>
-        </article>
-        {{ end }}
-    </div>
-</div>
-{{ end }}
+{{ define "title" }}{{ .Title }} | {{ .Site.Title }}{{ end }}
 
 {{ define "extra-head" }}
 <style>
-    .list-page {
+    .taxonomy-page {
         max-width: 1200px;
         margin: 0 auto;
         padding: 2rem;
@@ -49,42 +30,261 @@
         font-size: 1.1rem;
     }
 
-    .content-grid {
+    .tag-cloud {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+        padding: 2rem;
+        background: var(--dark-bg-secondary);
+        border: 1px solid var(--neon-green-dim);
+        border-radius: 10px;
+        margin-bottom: 3rem;
+    }
+
+    .tag-cloud-item {
+        display: inline-block;
+        padding: 0.5rem 1rem;
+        background: var(--dark-bg-tertiary);
+        border: 1px solid var(--neon-green-dim);
+        border-radius: 25px;
+        color: var(--text-primary);
+        text-decoration: none;
+        font-family: 'Orbitron', monospace;
+        transition: all 0.3s ease;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .tag-cloud-item::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(90deg, transparent, var(--neon-green-glow), transparent);
+        transition: left 0.5s ease;
+    }
+
+    .tag-cloud-item:hover {
+        background: var(--neon-green);
+        color: var(--dark-bg);
+        border-color: var(--neon-green);
+        transform: scale(1.1) rotate(2deg);
+        box-shadow: 0 0 20px var(--neon-green-glow);
+    }
+
+    .tag-cloud-item:hover::before {
+        left: 100%;
+    }
+
+    .tag-count {
+        font-size: 0.75rem;
+        margin-left: 0.25rem;
+        opacity: 0.7;
+    }
+
+    /* 不同大小的标签 */
+    .tag-size-1 { font-size: 0.8rem; }
+    .tag-size-2 { font-size: 0.9rem; }
+    .tag-size-3 { font-size: 1rem; }
+    .tag-size-4 { font-size: 1.1rem; }
+    .tag-size-5 { font-size: 1.3rem; }
+    .tag-size-6 { font-size: 1.5rem; }
+
+    /* 分类网格 */
+    .category-grid {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
         gap: 1.5rem;
     }
 
-    .content-card {
+    .category-card {
         background: var(--dark-bg-secondary);
         border: 1px solid var(--neon-green-dim);
         border-radius: 10px;
         padding: 1.5rem;
-        text-align: center;
         transition: all 0.3s ease;
+        position: relative;
+        overflow: hidden;
     }
 
-    .content-card:hover {
-        transform: translateY(-5px);
+    .category-card::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 3px;
+        background: linear-gradient(90deg, var(--neon-green), transparent);
+        transform: scaleX(0);
+        transform-origin: left;
+        transition: transform 0.3s ease;
+    }
+
+    .category-card:hover {
         border-color: var(--neon-green);
-        box-shadow: 0 10px 30px rgba(0, 255, 65, 0.2);
+        transform: translateY(-5px);
+        box-shadow: 0 10px 30px rgba(0, 255, 65, 0.15);
     }
 
-    .card-icon {
-        font-size: 3rem;
-        margin-bottom: 1rem;
+    .category-card:hover::before {
+        transform: scaleX(1);
     }
 
-    .card-title {
+    .category-icon {
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .category-name {
         font-family: 'Orbitron', monospace;
         font-size: 1.2rem;
         color: var(--neon-green);
         margin-bottom: 0.5rem;
     }
 
-    .card-description {
+    .category-count {
+        font-size: 0.85rem;
         color: var(--text-secondary);
-        font-size: 0.9rem;
+    }
+
+    /* 标签详情列表 */
+    .content-list {
+        margin-top: 3rem;
+    }
+
+    .content-section {
+        margin-bottom: 2rem;
+    }
+
+    .content-section-title {
+        font-family: 'Orbitron', monospace;
+        font-size: 1.5rem;
+        color: var(--neon-green);
+        margin-bottom: 1rem;
+        padding-bottom: 0.5rem;
+        border-bottom: 1px solid var(--neon-green-dim);
+    }
+
+    .content-grid-small {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 1rem;
+    }
+
+    .content-item {
+        background: var(--dark-bg-secondary);
+        border: 1px solid var(--neon-green-dim);
+        border-radius: 8px;
+        padding: 1rem;
+        transition: all 0.3s ease;
+    }
+
+    .content-item:hover {
+        border-color: var(--neon-green);
+        transform: translateX(5px);
+    }
+
+    .content-item-title {
+        color: var(--text-primary);
+        text-decoration: none;
+        font-weight: 500;
+        display: block;
+        margin-bottom: 0.5rem;
+    }
+
+    .content-item-title:hover {
+        color: var(--neon-green);
+    }
+
+    .content-item-meta {
+        font-size: 0.8rem;
+        color: var(--text-secondary);
+    }
+
+    @media (max-width: 768px) {
+        .taxonomy-page {
+            padding: 1rem;
+        }
+
+        .tag-cloud {
+            padding: 1rem;
+        }
     }
 </style>
+{{ end }}
+
+{{ define "main" }}
+<div class="taxonomy-page">
+    <header class="page-header">
+        <h1 class="page-title">
+            {{ if eq .Data.Plural "tags" }}🏷️ 标签{{ else }}📂 分类{{ end }}
+        </h1>
+        <p class="page-description">
+            共 {{ len .Data.Terms }} 个{{ if eq .Data.Plural "tags" }}标签{{ else }}分类{{ end }}，探索感兴趣的主题
+        </p>
+    </header>
+
+    {{ if eq .Data.Plural "tags" }}
+    <!-- 标签云 -->
+    <div class="tag-cloud">
+        {{ range .Data.Terms.ByCount }}
+            {{ $count := .Count }}
+            {{ $size := 1 }}
+            {{ if ge $count 10 }}{{ $size = 6 }}
+            {{ else if ge $count 7 }}{{ $size = 5 }}
+            {{ else if ge $count 5 }}{{ $size = 4 }}
+            {{ else if ge $count 3 }}{{ $size = 3 }}
+            {{ else if ge $count 2 }}{{ $size = 2 }}
+            {{ end }}
+            <a href="{{ .Page.RelPermalink }}" class="tag-cloud-item tag-size-{{ $size }}">
+                {{ .Page.Title }}
+                <span class="tag-count">({{ $count }})</span>
+            </a>
+        {{ end }}
+    </div>
+    {{ else }}
+    <!-- 分类网格 -->
+    <div class="category-grid">
+        {{ range .Data.Terms.ByCount }}
+        <a href="{{ .Page.RelPermalink }}" class="category-card">
+            <div class="category-icon">📁</div>
+            <h2 class="category-name">{{ .Page.Title }}</h2>
+            <p class="category-count">{{ .Count }} 篇文章</p>
+        </a>
+        {{ end }}
+    </div>
+    {{ end }}
+
+    <!-- 所有内容列表 -->
+    <div class="content-list">
+        {{ range .Data.Terms.ByCount }}
+        <section class="content-section">
+            <h2 class="content-section-title">
+                <a href="{{ .Page.RelPermalink }}" style="color: inherit; text-decoration: none;">
+                    {{ .Page.Title }}
+                </a>
+                <span style="font-size: 0.7rem; color: var(--text-secondary);">({{ .Count }})</span>
+            </h2>
+            <div class="content-grid-small">
+                {{ range first 6 .Pages }}
+                <article class="content-item">
+                    <a href="{{ .RelPermalink }}" class="content-item-title">{{ .Title }}</a>
+                    <div class="content-item-meta">
+                        {{ .Date.Format "2006-01-02" }}
+                    </div>
+                </article>
+                {{ end }}
+                {{ if gt (len .Pages) 6 }}
+                <a href="{{ .Page.RelPermalink }}" class="content-item" style="text-align: center; color: var(--neon-green);">
+                    查看更多...
+                </a>
+                {{ end }}
+            </div>
+        </section>
+        {{ end }}
+    </div>
+</div>
 {{ end }}

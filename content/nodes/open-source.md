@@ -1,52 +1,50 @@
 ---
 id: 3
 title: "开源工具"
-date: 2024-02-20T09:00:00+08:00
+date: 2024-01-25T11:00:00+08:00
 draft: false
-description: "维护多个开源项目，包括 CLI 工具、VS Code 插件和自动化脚本。致力于提高开发者生产力。"
+description: "维护多个开源项目，包括 CLI 工具、VS Code 插件和自动化脚本。致力于让开发更高效。"
 icon: "🛠️"
 category: "开发"
 tags: ["TypeScript", "Node.js", "CLI", "开源", "工具"]
-connections: [1, 4, 5, 7]
+connections: [1, 4, 5]
 position:
-  x: 300
-  y: 400
+  x: 600
+  y: 200
 ---
 
-## 项目列表
+## 项目介绍
 
-### 1. CLI 工具集
-一套用于提高开发效率的命令行工具。
+开发并维护多个开源工具，提升开发效率和工作流自动化。
 
-**特性：**
-- 项目脚手架生成
-- 代码质量检查
-- 自动化部署脚本
+## 主要项目
 
-### 2. VS Code 扩展
-开发效率相关的编辑器插件。
+### CLI 工具
+- 🚀 项目脚手架生成器
+- 📦 依赖管理助手
+- 🔧 配置文件管理器
 
-**功能：**
+### VS Code 扩展
 - 代码片段管理
-- 智能提示增强
-- 主题定制
-
-### 3. GitHub Actions
-可复用的 CI/CD 工作流模板。
+- 主题定制工具
+- 开发辅助插件
 
 ## 贡献统计
 
-- ⭐ 总 Star 数：500+
-- 🍴 总 Fork 数：100+
-- 👥 贡献者：20+
+- GitHub Stars: 500+
+- npm 周下载量: 10k+
+- 贡献者: 20+
 
-## 开源理念
+## 技术亮点
 
-> "开源不仅仅是代码共享，更是一种协作和知识传播的方式。"
+```typescript
+// 示例：CLI 工具核心逻辑
+import { Command } from 'commander';
 
-## 如何参与
+const program = new Command();
 
-1. Fork 项目仓库
-2. 创建特性分支
-3. 提交代码并创建 Pull Request
-4. 等待代码审查和合并
+program
+  .name('cyber-cli')
+  .description('赛博朋克风格 CLI 工具')
+  .version('1.0.0');
+```
