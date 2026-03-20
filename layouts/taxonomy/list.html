@@ -1,0 +1,90 @@
+{{ define "main" }}
+<div class="list-page">
+    <header class="page-header">
+        <h1 class="page-title">{{ .Title }}</h1>
+        <p class="page-description">共 {{ len .Pages }} 个项目</p>
+    </header>
+
+    <div class="content-grid">
+        {{ range .Pages }}
+        <article class="content-card">
+            <a href="{{ .RelPermalink }}" style="text-decoration: none; color: inherit;">
+                <div class="card-icon">{{ .Params.icon | default "🏷️" }}</div>
+                <h2 class="card-title">{{ .Title }}</h2>
+                <p class="card-description">{{ .Params.description | default (printf "包含 %d 个节点" (len .Pages)) }}</p>
+            </a>
+        </article>
+        {{ end }}
+    </div>
+</div>
+{{ end }}
+
+{{ define "extra-head" }}
+<style>
+    .list-page {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 2rem;
+    }
+
+    .page-header {
+        text-align: center;
+        margin-bottom: 3rem;
+        padding: 2rem;
+        background: var(--dark-bg-secondary);
+        border: 1px solid var(--neon-green-dim);
+        border-radius: 10px;
+    }
+
+    .page-title {
+        font-family: 'Orbitron', monospace;
+        font-size: 2.5rem;
+        color: var(--neon-green);
+        text-shadow: 0 0 20px var(--neon-green-glow);
+        margin-bottom: 0.5rem;
+    }
+
+    .page-description {
+        color: var(--text-secondary);
+        font-size: 1.1rem;
+    }
+
+    .content-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 1.5rem;
+    }
+
+    .content-card {
+        background: var(--dark-bg-secondary);
+        border: 1px solid var(--neon-green-dim);
+        border-radius: 10px;
+        padding: 1.5rem;
+        text-align: center;
+        transition: all 0.3s ease;
+    }
+
+    .content-card:hover {
+        transform: translateY(-5px);
+        border-color: var(--neon-green);
+        box-shadow: 0 10px 30px rgba(0, 255, 65, 0.2);
+    }
+
+    .card-icon {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+    }
+
+    .card-title {
+        font-family: 'Orbitron', monospace;
+        font-size: 1.2rem;
+        color: var(--neon-green);
+        margin-bottom: 0.5rem;
+    }
+
+    .card-description {
+        color: var(--text-secondary);
+        font-size: 0.9rem;
+    }
+</style>
+{{ end }}

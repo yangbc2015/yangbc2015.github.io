@@ -1,0 +1,4 @@
+{{ $lang := .Attributes.lang | default .Type }}
+{{ $class := printf "language-%s" $lang }}
+
+<pre class="{{ $class }}"><code class="{{ $class }}">{{ .Inner }}</code></pre>

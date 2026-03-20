@@ -1,0 +1,25 @@
+<footer>
+    <div class="footer-content">
+        <p class="footer-text">
+            CULTIVATED WITH <span>◈</span> IN CYBERSPACE
+        </p>
+        <p style="font-size: 0.75rem; color: var(--text-secondary);">
+            © {{ now.Year }} {{ .Site.Params.author | default .Site.Title }}. 
+            Built with <a href="https://gohugo.io" style="color: var(--neon-green);">Hugo</a>.
+        </p>
+        
+        {{ if .Site.Params.social }}
+        <div class="footer-social">
+            {{ with .Site.Params.social.github }}
+            <a href="{{ . }}" target="_blank" rel="noopener" aria-label="GitHub">🐙</a>
+            {{ end }}
+            {{ with .Site.Params.social.twitter }}
+            <a href="{{ . }}" target="_blank" rel="noopener" aria-label="Twitter">🐦</a>
+            {{ end }}
+            {{ with .Site.Params.social.email }}
+            <a href="{{ . }}" aria-label="Email">✉️</a>
+            {{ end }}
+        </div>
+        {{ end }}
+    </div>
+</footer>

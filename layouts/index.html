@@ -1,0 +1,739 @@
+{{ define "title" }}{{ .Site.Title }}{{ end }}
+
+{{ define "extra-head" }}
+<style>
+    /* Glitch 标题效果 */
+    .glitch-title {
+        font-family: 'Orbitron', monospace;
+        font-size: clamp(2rem, 5vw, 4rem);
+        font-weight: 900;
+        color: var(--neon-green);
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        text-shadow: 
+            0 0 10px var(--neon-green-glow),
+            0 0 20px var(--neon-green-glow),
+            0 0 40px var(--neon-green-glow);
+        position: relative;
+        animation: glitch 3s infinite;
+    }
+
+    .glitch-title::before,
+    .glitch-title::after {
+        content: attr(data-text);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .glitch-title::before {
+        animation: glitch-1 2s infinite;
+        color: #ff00ff;
+        z-index: -1;
+    }
+
+    .glitch-title::after {
+        animation: glitch-2 2s infinite;
+        color: #00ffff;
+        z-index: -2;
+    }
+
+    @keyframes glitch {
+        0%, 100% { transform: translate(0); }
+        20% { transform: translate(-2px, 2px); }
+        40% { transform: translate(-2px, -2px); }
+        60% { transform: translate(2px, 2px); }
+        80% { transform: translate(2px, -2px); }
+    }
+
+    @keyframes glitch-1 {
+        0%, 100% { clip-path: inset(0 0 0 0); transform: translate(0); }
+        20% { clip-path: inset(20% 0 60% 0); transform: translate(-3px, 0); }
+        40% { clip-path: inset(40% 0 40% 0); transform: translate(3px, 0); }
+        60% { clip-path: inset(60% 0 20% 0); transform: translate(-3px, 0); }
+        80% { clip-path: inset(80% 0 0% 0); transform: translate(3px, 0); }
+    }
+
+    @keyframes glitch-2 {
+        0%, 100% { clip-path: inset(0 0 0 0); transform: translate(0); }
+        20% { clip-path: inset(60% 0 20% 0); transform: translate(3px, 0); }
+        40% { clip-path: inset(40% 0 40% 0); transform: translate(-3px, 0); }
+        60% { clip-path: inset(20% 0 60% 0); transform: translate(3px, 0); }
+        80% { clip-path: inset(0% 0 80% 0); transform: translate(-3px, 0); }
+    }
+
+    .subtitle {
+        font-family: 'Orbitron', monospace;
+        font-size: 0.9rem;
+        color: var(--text-secondary);
+        margin-top: 0.5rem;
+        letter-spacing: 0.3em;
+        text-transform: uppercase;
+    }
+
+    /* 主页头部 */
+    .hero-section {
+        padding: 3rem 1rem;
+        text-align: center;
+    }
+
+    /* 网络图容器 */
+    #graph-container {
+        width: 100%;
+        max-width: 1200px;
+        height: 65vh;
+        min-height: 500px;
+        margin: 0 auto;
+        position: relative;
+        background: var(--dark-bg-secondary);
+        border: 1px solid var(--neon-green-dim);
+        border-radius: 10px;
+        box-shadow: 
+            0 0 20px rgba(0, 255, 65, 0.2),
+            inset 0 0 20px rgba(0, 255, 65, 0.05);
+        overflow: hidden;
+    }
+
+    #graph-container::before {
+        content: '';
+        position: absolute;
+        top: -2px;
+        left: -2px;
+        right: -2px;
+        bottom: -2px;
+        background: linear-gradient(45deg, var(--neon-green), transparent, var(--neon-green));
+        border-radius: 12px;
+        z-index: -1;
+        opacity: 0.5;
+        animation: borderGlow 3s ease-in-out infinite;
+    }
+
+    @keyframes borderGlow {
+        0%, 100% { opacity: 0.3; }
+        50% { opacity: 0.7; }
+    }
+
+    /* SVG 样式 */
+    svg {
+        width: 100%;
+        height: 100%;
+    }
+
+    .node {
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+
+    .node-circle {
+        fill: var(--dark-bg-tertiary);
+        stroke: var(--neon-green);
+        stroke-width: 2px;
+        filter: drop-shadow(0 0 8px var(--neon-green-glow));
+        transition: all 0.3s ease;
+    }
+
+    .node:hover .node-circle {
+        fill: var(--neon-green);
+        stroke: var(--text-primary);
+        filter: drop-shadow(0 0 20px var(--neon-green));
+    }
+
+    .node-label {
+        font-family: 'Noto Sans SC', sans-serif;
+        font-size: 12px;
+        fill: var(--text-primary);
+        text-anchor: middle;
+        dominant-baseline: middle;
+        pointer-events: none;
+        font-weight: 500;
+        text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    }
+
+    .node-icon {
+        font-size: 16px;
+        text-anchor: middle;
+        dominant-baseline: middle;
+        pointer-events: none;
+    }
+
+    .link {
+        stroke: var(--neon-green-dim);
+        stroke-opacity: 0.6;
+        stroke-width: 1.5px;
+        transition: all 0.3s ease;
+    }
+
+    .link.active {
+        stroke: var(--neon-green);
+        stroke-opacity: 1;
+        stroke-width: 2.5px;
+        filter: drop-shadow(0 0 5px var(--neon-green));
+    }
+
+    .particle {
+        fill: var(--neon-green);
+        opacity: 0.6;
+    }
+
+    /* 提示信息 */
+    .hint {
+        position: absolute;
+        bottom: 1rem;
+        left: 50%;
+        transform: translateX(-50%);
+        font-family: 'Orbitron', monospace;
+        font-size: 0.75rem;
+        color: var(--text-secondary);
+        background: rgba(0, 0, 0, 0.7);
+        padding: 0.5rem 1rem;
+        border-radius: 20px;
+        border: 1px solid var(--neon-green-dim);
+        pointer-events: none;
+    }
+
+    /* 详情面板 */
+    .detail-panel {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) scale(0);
+        width: 90%;
+        max-width: 600px;
+        max-height: 80vh;
+        background: var(--dark-bg-secondary);
+        border: 2px solid var(--neon-green);
+        border-radius: 15px;
+        padding: 2rem;
+        z-index: 2000;
+        opacity: 0;
+        transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        overflow-y: auto;
+        box-shadow: 
+            0 0 50px rgba(0, 255, 65, 0.3),
+            inset 0 0 50px rgba(0, 255, 65, 0.05);
+    }
+
+    .detail-panel.active {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 1;
+    }
+
+    .detail-panel::before {
+        content: '';
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        right: 10px;
+        bottom: 10px;
+        border: 1px solid rgba(0, 255, 65, 0.3);
+        border-radius: 10px;
+        pointer-events: none;
+    }
+
+    .detail-header {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        margin-bottom: 1.5rem;
+        padding-bottom: 1rem;
+        border-bottom: 1px solid var(--neon-green-dim);
+    }
+
+    .detail-icon {
+        width: 60px;
+        height: 60px;
+        background: var(--dark-bg-tertiary);
+        border: 2px solid var(--neon-green);
+        border-radius: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2rem;
+        box-shadow: 0 0 20px var(--neon-green-glow);
+    }
+
+    .detail-title {
+        font-family: 'Orbitron', monospace;
+        font-size: 1.5rem;
+        color: var(--neon-green);
+        text-shadow: 0 0 10px var(--neon-green-glow);
+    }
+
+    .detail-category {
+        font-size: 0.8rem;
+        color: var(--text-secondary);
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        margin-top: 0.25rem;
+    }
+
+    .detail-content {
+        color: var(--text-primary);
+        line-height: 1.8;
+        font-size: 1rem;
+    }
+
+    .detail-content p {
+        margin-bottom: 1rem;
+    }
+
+    .detail-tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        margin-top: 1.5rem;
+    }
+
+    .tag {
+        background: rgba(0, 255, 65, 0.1);
+        border: 1px solid var(--neon-green-dim);
+        color: var(--neon-green);
+        padding: 0.25rem 0.75rem;
+        border-radius: 20px;
+        font-size: 0.8rem;
+        font-family: 'Orbitron', monospace;
+    }
+
+    .detail-links {
+        display: flex;
+        gap: 1rem;
+        margin-top: 1.5rem;
+    }
+
+    .cyber-button {
+        flex: 1;
+        padding: 0.75rem 1.5rem;
+        background: transparent;
+        border: 2px solid var(--neon-green);
+        color: var(--neon-green);
+        font-family: 'Orbitron', monospace;
+        font-size: 0.9rem;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+        transition: all 0.3s ease;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    .cyber-button::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(90deg, transparent, var(--neon-green-glow), transparent);
+        transition: left 0.5s ease;
+    }
+
+    .cyber-button:hover {
+        background: var(--neon-green);
+        color: var(--dark-bg);
+        box-shadow: 0 0 30px var(--neon-green-glow);
+    }
+
+    .cyber-button:hover::before {
+        left: 100%;
+    }
+
+    .close-btn {
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        width: 40px;
+        height: 40px;
+        background: transparent;
+        border: 2px solid var(--neon-green);
+        color: var(--neon-green);
+        font-size: 1.5rem;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.3s ease;
+    }
+
+    .close-btn:hover {
+        background: var(--neon-green);
+        color: var(--dark-bg);
+        transform: rotate(90deg);
+    }
+
+    /* 遮罩层 */
+    .overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.8);
+        backdrop-filter: blur(5px);
+        z-index: 1999;
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.3s ease;
+    }
+
+    .overlay.active {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    /* 响应式 */
+    @media (max-width: 768px) {
+        .hero-section {
+            padding: 2rem 1rem;
+        }
+
+        #graph-container {
+            height: 55vh;
+            min-height: 400px;
+            margin: 0 1rem;
+            width: calc(100% - 2rem);
+        }
+
+        .detail-panel {
+            width: 95%;
+            padding: 1.5rem;
+        }
+
+        .detail-header {
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .detail-links {
+            flex-direction: column;
+        }
+    }
+</style>
+{{ end }}
+
+{{ define "main" }}
+<section class="hero-section">
+    <h1 class="glitch-title" data-text="数字花园">数字花园</h1>
+    <p class="subtitle">Digital Garden // 想法与项目的网络</p>
+</section>
+
+<section class="graph-section">
+    <div id="graph-container">
+        <div class="hint">点击节点探索详情 | 拖拽移动 | 滚轮缩放</div>
+    </div>
+</section>
+
+<!-- 遮罩层 -->
+<div class="overlay" id="overlay"></div>
+
+<!-- 详情面板 -->
+<div class="detail-panel" id="detail-panel">
+    <button class="close-btn" id="close-btn">×</button>
+    <div class="detail-header">
+        <div class="detail-icon" id="detail-icon">💡</div>
+        <div>
+            <h2 class="detail-title" id="detail-title">标题</h2>
+            <p class="detail-category" id="detail-category">分类</p>
+        </div>
+    </div>
+    <div class="detail-content" id="detail-content">
+        <p>内容描述...</p>
+    </div>
+    <div class="detail-tags" id="detail-tags"></div>
+    <div class="detail-links">
+        <a href="#" class="cyber-button" id="detail-link">查看详情</a>
+        <button class="cyber-button" id="share-btn">分享</button>
+    </div>
+</div>
+{{ end }}
+
+{{ define "scripts" }}
+<script>
+    // 从 Hugo 内容读取节点数据
+    const nodesData = [
+        {{ range where .Site.RegularPages "Section" "nodes" }}
+        {
+            id: {{ .Params.id | default 0 }},
+            label: {{ .Title | jsonify }},
+            icon: {{ .Params.icon | default "💡" | jsonify }},
+            category: {{ .Params.category | default "其他" | jsonify }},
+            description: {{ .Params.description | default .Summary | jsonify }},
+            tags: {{ .Params.tags | default (slice) | jsonify }},
+            link: {{ .RelPermalink | jsonify }},
+            x: {{ .Params.position.x | default 0 }},
+            y: {{ .Params.position.y | default 0 }}
+        },
+        {{ end }}
+    ].filter(n => n.id > 0);
+
+    // 连接关系（可以从 front matter 中读取或动态生成）
+    const linksData = [
+        {{ range where .Site.RegularPages "Section" "nodes" }}
+            {{ range .Params.connections }}
+            { source: {{ $.Params.id }}, target: {{ . }} },
+            {{ end }}
+        {{ end }}
+    ].filter(l => l.source && l.target);
+
+    // 如果没有内容数据，使用默认数据
+    if (nodesData.length === 0) {
+        nodesData.push(
+            { id: 1, label: "AI 研究", icon: "🤖", category: "技术", description: "探索人工智能的前沿领域，包括大语言模型、计算机视觉和强化学习。", tags: ["Python", "PyTorch", "LLM"], link: "#", x: 0, y: 0 },
+            { id: 2, label: "Web3 项目", icon: "⛓️", category: "区块链", description: "去中心化应用开发，智能合约编写，以及 DeFi 协议研究。", tags: ["Solidity", "Rust", "DeFi"], link: "#", x: 0, y: 0 },
+            { id: 3, label: "开源工具", icon: "🛠️", category: "开发", description: "维护多个开源项目，包括 CLI 工具和 VS Code 插件。", tags: ["TypeScript", "Node.js", "CLI"], link: "#", x: 0, y: 0 },
+            { id: 4, label: "设计系统", icon: "🎨", category: "设计", description: "构建可扩展的设计系统和组件库。", tags: ["Figma", "React", "UI/UX"], link: "#", x: 0, y: 0 },
+            { id: 5, label: "技术博客", icon: "✍️", category: "写作", description: "记录学习历程和技术思考，分享编程经验。", tags: ["写作", "分享", "技术"], link: "#", x: 0, y: 0 },
+            { id: 6, label: "数据分析", icon: "📊", category: "数据", description: "数据可视化项目，使用 D3.js 和 Python。", tags: ["D3.js", "Python", "可视化"], link: "#", x: 0, y: 0 }
+        );
+        
+        linksData.push(
+            { source: 1, target: 2 },
+            { source: 1, target: 3 },
+            { source: 3, target: 4 },
+            { source: 3, target: 5 },
+            { source: 4, target: 6 },
+            { source: 5, target: 1 }
+        );
+    }
+
+    // 初始化 D3.js 力导向图
+    function initGraph() {
+        const container = document.getElementById('graph-container');
+        const width = container.clientWidth;
+        const height = container.clientHeight;
+
+        const svg = d3.select('#graph-container')
+            .append('svg')
+            .attr('viewBox', [0, 0, width, height])
+            .attr('width', width)
+            .attr('height', height);
+
+        const defs = svg.append('defs');
+        const filter = defs.append('filter')
+            .attr('id', 'glow')
+            .attr('x', '-50%')
+            .attr('y', '-50%')
+            .attr('width', '200%')
+            .attr('height', '200%');
+
+        filter.append('feGaussianBlur')
+            .attr('stdDeviation', '3')
+            .attr('result', 'coloredBlur');
+
+        const feMerge = filter.append('feMerge');
+        feMerge.append('feMergeNode').attr('in', 'coloredBlur');
+        feMerge.append('feMergeNode').attr('in', 'SourceGraphic');
+
+        const simulation = d3.forceSimulation(nodesData)
+            .force('link', d3.forceLink(linksData).id(d => d.id).distance(100))
+            .force('charge', d3.forceManyBody().strength(-500))
+            .force('center', d3.forceCenter(width / 2, height / 2))
+            .force('collision', d3.forceCollide().radius(45));
+
+        const linkGroup = svg.append('g').attr('class', 'links');
+
+        const links = linkGroup.selectAll('line')
+            .data(linksData)
+            .enter()
+            .append('line')
+            .attr('class', 'link');
+
+        const nodeGroup = svg.append('g').attr('class', 'nodes');
+
+        const nodes = nodeGroup.selectAll('.node')
+            .data(nodesData)
+            .enter()
+            .append('g')
+            .attr('class', 'node')
+            .call(d3.drag()
+                .on('start', dragstarted)
+                .on('drag', dragged)
+                .on('end', dragended));
+
+        nodes.append('circle')
+            .attr('class', 'node-circle')
+            .attr('r', 20);
+
+        nodes.append('text')
+            .attr('class', 'node-icon')
+            .attr('dy', '0.35em')
+            .text(d => d.icon);
+
+        const labels = nodeGroup.selectAll('.node-label')
+            .data(nodesData)
+            .enter()
+            .append('text')
+            .attr('class', 'node-label')
+            .attr('dy', 35)
+            .text(d => d.label)
+            .style('opacity', 0);
+
+        nodes.on('mouseenter', function(event, d) {
+            d3.select(this).select('.node-circle')
+                .transition()
+                .duration(200)
+                .attr('r', 28);
+
+            labels.filter(l => l.id === d.id)
+                .transition()
+                .duration(200)
+                .style('opacity', 1);
+
+            links.classed('active', l => l.source.id === d.id || l.target.id === d.id);
+        })
+        .on('mouseleave', function(event, d) {
+            d3.select(this).select('.node-circle')
+                .transition()
+                .duration(200)
+                .attr('r', 20);
+
+            labels.filter(l => l.id === d.id)
+                .transition()
+                .duration(200)
+                .style('opacity', 0);
+
+            links.classed('active', false);
+        })
+        .on('click', function(event, d) {
+            showDetail(d);
+        });
+
+        simulation.on('tick', () => {
+            links
+                .attr('x1', d => d.source.x)
+                .attr('y1', d => d.source.y)
+                .attr('x2', d => d.target.x)
+                .attr('y2', d => d.target.y);
+
+            nodes.attr('transform', d => `translate(${d.x},${d.y})`);
+
+            labels
+                .attr('x', d => d.x)
+                .attr('y', d => d.y);
+        });
+
+        function dragstarted(event, d) {
+            if (!event.active) simulation.alphaTarget(0.3).restart();
+            d.fx = d.x;
+            d.fy = d.y;
+        }
+
+        function dragged(event, d) {
+            d.fx = event.x;
+            d.fy = event.y;
+        }
+
+        function dragended(event, d) {
+            if (!event.active) simulation.alphaTarget(0);
+            d.fx = null;
+            d.fy = null;
+        }
+
+        // 粒子效果
+        setInterval(() => {
+            if (document.hidden) return;
+            
+            const randomLink = linksData[Math.floor(Math.random() * linksData.length)];
+            if (randomLink) {
+                const particle = svg.append('circle')
+                    .attr('class', 'particle')
+                    .attr('r', 2 + Math.random() * 2);
+                
+                const duration = 2000 + Math.random() * 1000;
+                
+                particle
+                    .attr('cx', randomLink.source.x)
+                    .attr('cy', randomLink.source.y)
+                    .transition()
+                    .duration(duration)
+                    .ease(d3.easeLinear)
+                    .attr('cx', randomLink.target.x)
+                    .attr('cy', randomLink.target.y)
+                    .on('end', function() {
+                        d3.select(this).remove();
+                    });
+            }
+        }, 500);
+
+        // 响应式
+        window.addEventListener('resize', () => {
+            const newWidth = container.clientWidth;
+            const newHeight = container.clientHeight;
+            
+            svg.attr('viewBox', [0, 0, newWidth, newHeight]);
+            simulation.force('center', d3.forceCenter(newWidth / 2, newHeight / 2));
+            simulation.alpha(0.3).restart();
+        });
+
+        // 缩放
+        const zoom = d3.zoom()
+            .scaleExtent([0.5, 3])
+            .on('zoom', (event) => {
+                linkGroup.attr('transform', event.transform);
+                nodeGroup.attr('transform', event.transform);
+                labels.attr('transform', event.transform);
+            });
+
+        svg.call(zoom);
+    }
+
+    // 显示详情
+    function showDetail(data) {
+        const panel = document.getElementById('detail-panel');
+        const overlay = document.getElementById('overlay');
+        
+        document.getElementById('detail-icon').textContent = data.icon || '💡';
+        document.getElementById('detail-title').textContent = data.label;
+        document.getElementById('detail-category').textContent = data.category || '未分类';
+        document.getElementById('detail-content').innerHTML = `<p>${data.description || '暂无描述'}</p>`;
+        document.getElementById('detail-link').href = data.link || '#';
+
+        const tagsContainer = document.getElementById('detail-tags');
+        tagsContainer.innerHTML = (data.tags || [])
+            .map(tag => `<span class="tag">${tag}</span>`)
+            .join('');
+
+        panel.classList.add('active');
+        overlay.classList.add('active');
+    }
+
+    // 关闭详情
+    function closeDetail() {
+        const panel = document.getElementById('detail-panel');
+        const overlay = document.getElementById('overlay');
+        
+        panel.classList.remove('active');
+        overlay.classList.remove('active');
+    }
+
+    document.getElementById('close-btn').addEventListener('click', closeDetail);
+    document.getElementById('overlay').addEventListener('click', closeDetail);
+    document.getElementById('share-btn').addEventListener('click', () => {
+        const title = document.getElementById('detail-title').textContent;
+        
+        if (navigator.share) {
+            navigator.share({
+                title: `数字花园 - ${title}`,
+                text: `来看看这个数字花园中的想法：${title}`,
+                url: window.location.href
+            });
+        } else {
+            navigator.clipboard.writeText(window.location.href).then(() => {
+                const btn = document.getElementById('share-btn');
+                btn.textContent = '已复制!';
+                setTimeout(() => btn.textContent = '分享', 2000);
+            });
+        }
+    });
+
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') closeDetail();
+    });
+
+    // 初始化
+    initGraph();
+</script>
+{{ end }}

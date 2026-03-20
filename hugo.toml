@@ -1,0 +1,63 @@
+baseURL = 'https://yangbc2015.github.io/mentors'
+languageCode = 'zh-CN'
+defaultContentLanguage = 'zh'
+title = '数字花园 | Digital Garden'
+theme = 'ananke'
+
+[params]
+  author = "Garden Keeper"
+  description = "一个赛博朋克风格的数字花园，展示想法与项目的网络"
+  favicon = "/favicon.ico"
+  site_logo = "/logo.png"
+  mainSections = ["nodes", "posts"]
+  
+  # 赛博朋克主题配色
+  [params.colors]
+    neon_green = "#00ff41"
+    neon_green_dim = "#00cc33"
+    dark_bg = "#0a0a0a"
+    dark_bg_secondary = "#0d1117"
+    text_primary = "#e6edf3"
+    text_secondary = "#8b949e"
+
+  # 社交媒体链接
+  [params.social]
+    github = "https://github.com"
+    twitter = "https://twitter.com"
+    email = "mailto:hello@example.com"
+
+  # 功能开关
+  [params.features]
+    graph_visualization = true
+    dark_mode = true
+    particles = true
+
+[menu]
+  [[menu.main]]
+    name = '花园'
+    url = '/'
+    weight = 10
+  [[menu.main]]
+    name = '节点'
+    url = '/nodes/'
+    weight = 20
+  [[menu.main]]
+    name = '关于'
+    url = '/about/'
+    weight = 30
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[imaging]
+  quality = 90
+  resampleFilter = "lanczos"
+
+[build]
+  writeStats = true

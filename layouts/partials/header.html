@@ -1,0 +1,21 @@
+<header class="site-header">
+    <nav class="site-nav" role="navigation" aria-label="主导航">
+        <a href="{{ .Site.BaseURL }}" class="site-logo">
+            🌿 {{ .Site.Title }}
+        </a>
+        
+        <button class="menu-toggle" id="menu-toggle" aria-label="切换菜单">
+            ☰
+        </button>
+        
+        <ul class="site-menu" id="site-menu">
+            {{ range .Site.Menus.main }}
+            <li>
+                <a href="{{ .URL }}" {{ if $.IsMenuCurrent "main" . }}aria-current="page"{{ end }}>
+                    {{ .Name }}
+                </a>
+            </li>
+            {{ end }}
+        </ul>
+    </nav>
+</header>

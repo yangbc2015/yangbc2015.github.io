@@ -1,0 +1,60 @@
+- name: "张教授"
+  title: "博士生导师"
+  field: "人工智能 / 机器学习"
+  email: "zhang@university.edu.cn"
+  office: "科技楼 301"
+  image: "https://via.placeholder.com/150"
+  description: "主要研究方向为深度学习、计算机视觉，主持国家自然科学基金3项。"
+  students: "招收硕士2名、博士1名"
+  requirements: "编程基础好，有项目经验优先"
+
+- name: "李教授"
+  title: "硕士生导师"
+  field: "软件工程 / 系统架构"
+  email: "li@university.edu.cn"
+  office: "科技楼 205"
+  image: "https://via.placeholder.com/150"
+  description: "专注于分布式系统、云计算，与企业合作紧密，实习机会多。"
+  students: "招收硕士3名"
+  requirements: "熟悉Java或Go，对系统开发感兴趣"
+
+- name: "王副教授"
+  title: "硕士生导师"
+  field: "自然语言处理"
+  email: "wang@university.edu.cn"
+  office: "科技楼 408"
+  image: "https://via.placeholder.com/150"
+  description: "研究大语言模型、知识图谱，论文发表顶会多篇。"
+  students: "招收硕士2名"
+  requirements: "数学基础扎实，英语阅读能力强"
+
+- name: "张教授"
+  title: "博士生导师"
+  field: "人工智能 / 机器学习"
+  email: "zhang@university.edu.cn"
+  office: "科技楼 301"
+  image: "https://via.placeholder.com/150"
+  description: "主要研究方向为深度学习、计算机视觉，主持国家自然科学基金3项。"
+  students: "招收硕士2名、博士1名"
+  requirements: "编程基础好，有项目经验优先"
+  # 新增字段
+  homepage: "https://zhanglab.edu.cn"      # 个人主页
+  google scholar: "https://scholar.google.com/citations?user=xxx"  # 论文
+  projects: "国家级项目3项，企业合作5项"     # 项目经历
+  awards: "省科技进步一等奖，CCF优秀博士论文"  # 获奖
+  style: "push型"                          # 指导风格：push型/放养型/平衡型
+  graduation: "平均2年毕业，去向：阿里、腾讯、高校"  # 毕业去向
+
+- name: "李教授"
+  title: "硕士生导师"
+  field: "软件工程 / 系统架构"
+  email: "li@university.edu.cn"
+  office: "科技楼 205"
+  image: "https://via.placeholder.com/150"
+  description: "专注于分布式系统、云计算，与企业合作紧密，实习机会多。"
+  students: "招收硕士3名"
+  requirements: "熟悉Java或Go，对系统开发感兴趣"
+  homepage: "https://li.github.io"
+  projects: "阿里云合作项目，开源社区活跃"
+  style: "放养型"
+  graduation: "实习机会多，去向：字节、美团"

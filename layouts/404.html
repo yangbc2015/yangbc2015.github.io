@@ -1,0 +1,148 @@
+{{ define "main" }}
+<div class="error-page">
+    <div class="error-code">404</div>
+    <div class="error-message">
+        <span class="glitch" data-text="SYSTEM ERROR">SYSTEM ERROR</span>
+    </div>
+    <p class="error-description">目标节点在数字花园中丢失</p>
+    <a href="{{ "/" | relURL }}" class="cyber-button">返回主页</a>
+</div>
+{{ end }}
+
+{{ define "extra-head" }}
+<style>
+    .error-page {
+        min-height: 70vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
+        text-align: center;
+    }
+
+    .error-code {
+        font-family: 'Orbitron', monospace;
+        font-size: 10rem;
+        font-weight: 900;
+        color: var(--neon-green);
+        text-shadow: 
+            0 0 20px var(--neon-green-glow),
+            0 0 40px var(--neon-green-glow),
+            0 0 80px var(--neon-green-glow);
+        animation: glitch 2s infinite;
+    }
+
+    .error-message {
+        font-family: 'Orbitron', monospace;
+        font-size: 2rem;
+        color: var(--neon-green);
+        margin: 1rem 0;
+        position: relative;
+    }
+
+    .glitch {
+        position: relative;
+    }
+
+    .glitch::before,
+    .glitch::after {
+        content: attr(data-text);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .glitch::before {
+        animation: glitch-1 1s infinite;
+        color: #ff00ff;
+        z-index: -1;
+    }
+
+    .glitch::after {
+        animation: glitch-2 1s infinite;
+        color: #00ffff;
+        z-index: -2;
+    }
+
+    .error-description {
+        color: var(--text-secondary);
+        font-size: 1.2rem;
+        margin: 2rem 0;
+        font-family: 'Orbitron', monospace;
+        letter-spacing: 0.1em;
+    }
+
+    .cyber-button {
+        padding: 1rem 2rem;
+        background: transparent;
+        border: 2px solid var(--neon-green);
+        color: var(--neon-green);
+        font-family: 'Orbitron', monospace;
+        font-size: 1rem;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        cursor: pointer;
+        text-decoration: none;
+        transition: all 0.3s ease;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .cyber-button::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(90deg, transparent, var(--neon-green-glow), transparent);
+        transition: left 0.5s ease;
+    }
+
+    .cyber-button:hover {
+        background: var(--neon-green);
+        color: var(--dark-bg);
+        box-shadow: 0 0 30px var(--neon-green-glow);
+    }
+
+    .cyber-button:hover::before {
+        left: 100%;
+    }
+
+    @keyframes glitch {
+        0%, 100% { transform: translate(0); }
+        20% { transform: translate(-2px, 2px); }
+        40% { transform: translate(-2px, -2px); }
+        60% { transform: translate(2px, 2px); }
+        80% { transform: translate(2px, -2px); }
+    }
+
+    @keyframes glitch-1 {
+        0%, 100% { clip-path: inset(0 0 0 0); transform: translate(0); }
+        20% { clip-path: inset(20% 0 60% 0); transform: translate(-3px, 0); }
+        40% { clip-path: inset(40% 0 40% 0); transform: translate(3px, 0); }
+        60% { clip-path: inset(60% 0 20% 0); transform: translate(-3px, 0); }
+        80% { clip-path: inset(80% 0 0% 0); transform: translate(3px, 0); }
+    }
+
+    @keyframes glitch-2 {
+        0%, 100% { clip-path: inset(0 0 0 0); transform: translate(0); }
+        20% { clip-path: inset(60% 0 20% 0); transform: translate(3px, 0); }
+        40% { clip-path: inset(40% 0 40% 0); transform: translate(-3px, 0); }
+        60% { clip-path: inset(20% 0 60% 0); transform: translate(3px, 0); }
+        80% { clip-path: inset(0% 0 80% 0); transform: translate(-3px, 0); }
+    }
+
+    @media (max-width: 768px) {
+        .error-code {
+            font-size: 6rem;
+        }
+        .error-message {
+            font-size: 1.25rem;
+        }
+    }
+</style>
+{{ end }}
