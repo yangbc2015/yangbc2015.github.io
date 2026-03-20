@@ -116,6 +116,12 @@
         color: var(--text-secondary);
     }
 
+    .paper-badge.huggingface {
+        background: rgba(255, 193, 7, 0.1);
+        border: 1px solid #ffc107;
+        color: #ffc107;
+    }
+
     .paper-title {
         font-size: 1.1rem;
         font-weight: 600;
@@ -228,6 +234,21 @@
         color: var(--neon-blue);
     }
 
+    .papers-update-info {
+        text-align: center;
+        color: var(--text-secondary);
+        font-size: 0.85rem;
+        margin-bottom: 1.5rem;
+        padding: 0.5rem;
+        background: rgba(0, 255, 65, 0.05);
+        border-radius: 8px;
+        border: 1px solid var(--neon-green-dim);
+    }
+
+    .papers-update-info::before {
+        content: '🤖 ';
+    }
+
     @media (max-width: 768px) {
         .papers-grid {
             grid-template-columns: 1fr;
@@ -237,12 +258,20 @@
 {{ end }}
 
 {{ define "main" }}
+{{ $papersData := site.Data.papers }}
+
 <section class="papers-hero">
     <h1 class="papers-title glitch-text" data-text="前沿学术">前沿学术</h1>
     <p class="papers-subtitle">{{ .Description }}</p>
 </section>
 
 <div class="papers-container">
+    {{ if $papersData.last_updated }}
+    <div class="papers-update-info">
+        论文数据自动更新于 {{ slicestr $papersData.last_updated 0 10 }} | 共 {{ $papersData.count }} 篇论文
+    </div>
+    {{ end }}
+
     <!-- 会议时间线 -->
     <div class="papers-section">
         <div class="section-header">
@@ -279,49 +308,41 @@
             <a href="https://arxiv.org/list/cs.AI/recent" target="_blank" class="section-more">查看更多 →</a>
         </div>
         <div class="papers-grid">
-            <article class="paper-card">
-                <span class="paper-badge arxiv">arXiv</span>
-                <h3 class="paper-title">
-                    <a href="#">Reasoning with Latent Thoughts: On the Power of Looped Transformers</a>
-                </h3>
-                <p class="paper-authors">John Doe, Jane Smith, et al.</p>
-                <p class="paper-venue">arXiv:2503.xxxxx</p>
-                <p class="paper-abstract">We explore the capability of looped transformers to perform implicit reasoning through latent thought representations...</p>
-                <div class="paper-links">
-                    <a href="#" class="paper-link">📄 PDF</a>
-                    <a href="#" class="paper-link">💻 Code</a>
-                    <a href="#" class="paper-link">🌐 Project</a>
-                </div>
-            </article>
-
-            <article class="paper-card">
-                <span class="paper-badge arxiv">arXiv</span>
-                <h3 class="paper-title">
-                    <a href="#">Scaling Test-Time Compute Without Verification</a>
-                </h3>
-                <p class="paper-authors">Alice Wang, Bob Chen, et al.</p>
-                <p class="paper-venue">arXiv:2503.xxxxx</p>
-                <p class="paper-abstract">A novel approach to scaling test-time computation that achieves better performance without requiring external verification...</p>
-                <div class="paper-links">
-                    <a href="#" class="paper-link">📄 PDF</a>
-                    <a href="#" class="paper-link">💻 Code</a>
-                </div>
-            </article>
-
-            <article class="paper-card">
-                <span class="paper-badge arxiv">arXiv</span>
-                <h3 class="paper-title">
-                    <a href="#">Efficient Large Language Model Training with Minimal Data</a>
-                </h3>
-                <p class="paper-authors">Research Team, DeepSeek</p>
-                <p class="paper-venue">arXiv:2503.xxxxx</p>
-                <p class="paper-abstract">We demonstrate that large language models can be trained effectively with significantly less data through curriculum learning...</p>
-                <div class="paper-links">
-                    <a href="#" class="paper-link">📄 PDF</a>
-                    <a href="#" class="paper-link">💻 Code</a>
-                    <a href="#" class="paper-link">🌐 Project</a>
-                </div>
-            </article>
+            {{ if $papersData.items }}
+                {{ range first 6 $papersData.items }}
+                <article class="paper-card">
+                    <span class="paper-badge {{ .badge }}">{{ .venue }}</span>
+                    <h3 class="paper-title">
+                        <a href="{{ .url }}" target="_blank">{{ .title }}</a>
+                    </h3>
+                    <p class="paper-authors">{{ .authors }}</p>
+                    <p class="paper-venue">{{ .arxiv_id }}</p>
+                    <p class="paper-abstract">{{ .abstract }}</p>
+                    <div class="paper-links">
+                        {{ if .pdf_url }}<a href="{{ .pdf_url }}" class="paper-link" target="_blank">📄 PDF</a>{{ end }}
+                        <a href="{{ .url }}" class="paper-link" target="_blank">🔗 详情</a>
+                        {{ range .categories }}
+                        <span class="paper-link" style="cursor: default;">{{ . }}</span>
+                        {{ end }}
+                    </div>
+                </article>
+                {{ end }}
+            {{ else }}
+                <!-- 默认论文 -->
+                <article class="paper-card">
+                    <span class="paper-badge arxiv">arXiv</span>
+                    <h3 class="paper-title">
+                        <a href="https://arxiv.org/abs/2503.00001" target="_blank">Reasoning with Latent Thoughts: On the Power of Looped Transformers</a>
+                    </h3>
+                    <p class="paper-authors">John Doe, Jane Smith, et al.</p>
+                    <p class="paper-venue">arXiv:2503.00001</p>
+                    <p class="paper-abstract">We explore the capability of looped transformers to perform implicit reasoning through latent thought representations...</p>
+                    <div class="paper-links">
+                        <a href="https://arxiv.org/pdf/2503.00001.pdf" class="paper-link" target="_blank">📄 PDF</a>
+                        <a href="#" class="paper-link">💻 Code</a>
+                    </div>
+                </article>
+            {{ end }}
         </div>
     </div>
 
@@ -329,7 +350,7 @@
     <div class="papers-section">
         <div class="section-header">
             <h2 class="section-title">🏆 顶会精选</h2>
-            <a href="#" class="section-more">查看更多 →</a>
+            <a href="https://papers.nips.cc/" target="_blank" class="section-more">查看更多 →</a>
         </div>
         <div class="papers-grid">
             <article class="paper-card">

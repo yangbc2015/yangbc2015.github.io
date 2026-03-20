@@ -77,6 +77,16 @@
         object-fit: cover;
     }
 
+    .video-thumbnail-placeholder {
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(135deg, var(--dark-bg-tertiary), var(--dark-bg-secondary));
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 3rem;
+    }
+
     .video-play-btn {
         position: absolute;
         top: 50%;
@@ -249,6 +259,10 @@
         border-radius: 6px;
         background: var(--dark-bg-tertiary);
         flex-shrink: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5rem;
     }
 
     .sidebar-info {
@@ -270,6 +284,21 @@
         color: var(--text-secondary);
     }
 
+    .video-update-info {
+        text-align: center;
+        color: var(--text-secondary);
+        font-size: 0.85rem;
+        margin-bottom: 1.5rem;
+        padding: 0.5rem;
+        background: rgba(0, 255, 65, 0.05);
+        border-radius: 8px;
+        border: 1px solid var(--neon-green-dim);
+    }
+
+    .video-update-info::before {
+        content: '🤖 ';
+    }
+
     @media (max-width: 768px) {
         .featured-video {
             grid-template-columns: 1fr;
@@ -283,37 +312,66 @@
 {{ end }}
 
 {{ define "main" }}
+{{ $videosData := site.Data.videos }}
+{{ $featuredVideo := index (where $videosData.items "featured" true | default $videosData.items) 0 }}
+
 <section class="video-hero">
     <h1 class="video-title glitch-text" data-text="视频精选">视频精选</h1>
     <p class="video-subtitle">{{ .Description }}</p>
 </section>
 
 <div class="video-container">
+    {{ if $videosData.last_updated }}
+    <div class="video-update-info">
+        视频数据自动更新于 {{ slicestr $videosData.last_updated 0 10 }} | 共 {{ $videosData.count }} 个视频
+    </div>
+    {{ end }}
+
     <!-- 精选视频 -->
     <div class="video-section">
         <h2 class="section-title">🔥 本周精选</h2>
         <div class="featured-video">
             <div class="featured-main">
                 <div class="featured-thumbnail">
+                    {{ if $featuredVideo.thumbnail }}
+                    <img src="{{ $featuredVideo.thumbnail }}" alt="{{ $featuredVideo.title }}">
+                    {{ else }}
                     <div style="width: 100%; height: 100%; background: linear-gradient(135deg, var(--dark-bg-tertiary), var(--dark-bg-secondary)); display: flex; align-items: center; justify-content: center; font-size: 4rem;">
                         🎓
                     </div>
+                    {{ end }}
                     <span class="featured-badge">精选</span>
-                    <div class="video-play-btn">▶</div>
+                    <a href="{{ $featuredVideo.url }}" target="_blank">
+                        <div class="video-play-btn">▶</div>
+                    </a>
                 </div>
                 <div class="featured-content">
                     <h3 class="featured-title">
-                        <a href="#">Andrej Karpathy：深度神经网络入门到精通 (4小时完整版)</a>
+                        <a href="{{ $featuredVideo.url }}" target="_blank">{{ $featuredVideo.title | default "Andrej Karpathy：深度神经网络入门到精通" }}</a>
                     </h3>
-                    <p class="featured-desc">前 Tesla AI 总监 Andrej Karpathy 的经典教程，从零开始构建神经网络，深入理解反向传播、激活函数等核心概念。</p>
+                    <p class="featured-desc">{{ $featuredVideo.description | default "前 Tesla AI 总监 Andrej Karpathy 的经典教程，从零开始构建神经网络..." }}</p>
                     <div class="featured-meta">
-                        <span>👁️ 2.3M 观看</span>
-                        <span>⏱️ 4:12:35</span>
-                        <span>📅 2024-03</span>
+                        <span>👁️ {{ $featuredVideo.views | default "2.3M" }} 观看</span>
+                        <span>⏱️ {{ $featuredVideo.duration | default "4:12:35" }}</span>
+                        <span>📅 {{ $featuredVideo.date | default "2024-03" }}</span>
                     </div>
                 </div>
             </div>
             <div class="featured-sidebar">
+                {{ range first 3 (after 1 $videosData.items) }}
+                <a href="{{ .url }}" target="_blank" style="text-decoration: none; color: inherit;">
+                    <div class="sidebar-item">
+                        <div class="sidebar-thumb" style="background: linear-gradient(135deg, var(--dark-bg-tertiary), var(--dark-bg-secondary));">
+                            {{ if eq .category "精品课程" }}📚{{ else if eq .category "技术讲座" }}🎤{{ else }}🎬{{ end }}
+                        </div>
+                        <div class="sidebar-info">
+                            <div class="sidebar-title">{{ .title }}</div>
+                            <div class="sidebar-meta">{{ .duration }} · {{ .speaker }}</div>
+                        </div>
+                    </div>
+                </a>
+                {{ else }}
+                <!-- 默认侧边栏内容 -->
                 <div class="sidebar-item">
                     <div class="sidebar-thumb" style="display: flex; align-items: center; justify-content: center; font-size: 1.5rem;">🤖</div>
                     <div class="sidebar-info">
@@ -335,6 +393,7 @@
                         <div class="sidebar-meta">28:40 · Hugging Face</div>
                     </div>
                 </div>
+                {{ end }}
             </div>
         </div>
     </div>
@@ -343,71 +402,59 @@
     <div class="video-section">
         <h2 class="section-title">🎤 技术讲座</h2>
         <div class="video-grid">
-            <article class="video-card">
-                <div class="video-thumbnail">
-                    <div style="width: 100%; height: 100%; background: linear-gradient(135deg, #1a1a2e, #16213e); display: flex; align-items: center; justify-content: center; font-size: 3rem;">
-                        🎯
+            {{ $lectures := where $videosData.items "category" "技术讲座" }}
+            {{ if $lectures }}
+                {{ range first 3 $lectures }}
+                <article class="video-card">
+                    <a href="{{ .url }}" target="_blank" style="text-decoration: none; color: inherit;">
+                        <div class="video-thumbnail">
+                            {{ if .thumbnail }}
+                            <img src="{{ .thumbnail }}" alt="{{ .title }}">
+                            {{ else }}
+                            <div class="video-thumbnail-placeholder">
+                                {{ if eq .type "course" }}📚{{ else }}🎤{{ end }}
+                            </div>
+                            {{ end }}
+                            <div class="video-play-btn">▶</div>
+                            <span class="video-duration">{{ .duration }}</span>
+                        </div>
+                        <div class="video-content">
+                            <h3 class="video-card-title">{{ .title }}</h3>
+                            <div class="video-meta">
+                                <span class="video-speaker">
+                                    <span class="video-speaker-avatar"></span>
+                                    {{ .speaker }}
+                                </span>
+                                <span class="video-stats">👁️ {{ .views }}</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                {{ end }}
+            {{ else }}
+                <!-- 默认讲座内容 -->
+                <article class="video-card">
+                    <div class="video-thumbnail">
+                        <div style="width: 100%; height: 100%; background: linear-gradient(135deg, #1a1a2e, #16213e); display: flex; align-items: center; justify-content: center; font-size: 3rem;">
+                            🎯
+                        </div>
+                        <div class="video-play-btn">▶</div>
+                        <span class="video-duration">1:23:45</span>
                     </div>
-                    <div class="video-play-btn">▶</div>
-                    <span class="video-duration">1:23:45</span>
-                </div>
-                <div class="video-content">
-                    <h3 class="video-card-title">
-                        <a href="#">NeurIPS 2025: 大模型推理能力新突破</a>
-                    </h3>
-                    <div class="video-meta">
-                        <span class="video-speaker">
-                            <span class="video-speaker-avatar"></span>
-                            NeurIPS
-                        </span>
-                        <span class="video-stats">👁️ 45K</span>
+                    <div class="video-content">
+                        <h3 class="video-card-title">
+                            <a href="#">NeurIPS 2025: 大模型推理能力新突破</a>
+                        </h3>
+                        <div class="video-meta">
+                            <span class="video-speaker">
+                                <span class="video-speaker-avatar"></span>
+                                NeurIPS
+                            </span>
+                            <span class="video-stats">👁️ 45K</span>
+                        </div>
                     </div>
-                </div>
-            </article>
-
-            <article class="video-card">
-                <div class="video-thumbnail">
-                    <div style="width: 100%; height: 100%; background: linear-gradient(135deg, #0f3460, #16213e); display: flex; align-items: center; justify-content: center; font-size: 3rem;">
-                        🚀
-                    </div>
-                    <div class="video-play-btn">▶</div>
-                    <span class="video-duration">52:10</span>
-                </div>
-                <div class="video-content">
-                    <h3 class="video-card-title">
-                        <a href="#">Google I/O: Gemini 多模态能力展示</a>
-                    </h3>
-                    <div class="video-meta">
-                        <span class="video-speaker">
-                            <span class="video-speaker-avatar"></span>
-                            Google
-                        </span>
-                        <span class="video-stats">👁️ 128K</span>
-                    </div>
-                </div>
-            </article>
-
-            <article class="video-card">
-                <div class="video-thumbnail">
-                    <div style="width: 100%; height: 100%; background: linear-gradient(135deg, #533483, #16213e); display: flex; align-items: center; justify-content: center; font-size: 3rem;">
-                        🔬
-                    </div>
-                    <div class="video-play-btn">▶</div>
-                    <span class="video-duration">38:25</span>
-                </div>
-                <div class="video-content">
-                    <h3 class="video-card-title">
-                        <a href="#">MIT 6.5940: 深度学习系统</a>
-                    </h3>
-                    <div class="video-meta">
-                        <span class="video-speaker">
-                            <span class="video-speaker-avatar"></span>
-                            MIT
-                        </span>
-                        <span class="video-stats">👁️ 89K</span>
-                    </div>
-                </div>
-            </article>
+                </article>
+            {{ end }}
         </div>
     </div>
 
@@ -415,71 +462,59 @@
     <div class="video-section">
         <h2 class="section-title">📺 精品课程</h2>
         <div class="video-grid">
-            <article class="video-card">
-                <div class="video-thumbnail">
-                    <div style="width: 100%; height: 100%; background: linear-gradient(135deg, #e94560, #533483); display: flex; align-items: center; justify-content: center; font-size: 3rem;">
-                        🐍
+            {{ $courses := where $videosData.items "category" "精品课程" }}
+            {{ if $courses }}
+                {{ range first 3 $courses }}
+                <article class="video-card">
+                    <a href="{{ .url }}" target="_blank" style="text-decoration: none; color: inherit;">
+                        <div class="video-thumbnail">
+                            {{ if .thumbnail }}
+                            <img src="{{ .thumbnail }}" alt="{{ .title }}">
+                            {{ else }}
+                            <div class="video-thumbnail-placeholder">
+                                📚
+                            </div>
+                            {{ end }}
+                            <div class="video-play-btn">▶</div>
+                            <span class="video-duration">{{ .duration }}</span>
+                        </div>
+                        <div class="video-content">
+                            <h3 class="video-card-title">{{ .title }}</h3>
+                            <div class="video-meta">
+                                <span class="video-speaker">
+                                    <span class="video-speaker-avatar"></span>
+                                    {{ .speaker }}
+                                </span>
+                                <span class="video-stats">👁️ {{ .views }}</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                {{ end }}
+            {{ else }}
+                <!-- 默认课程内容 -->
+                <article class="video-card">
+                    <div class="video-thumbnail">
+                        <div style="width: 100%; height: 100%; background: linear-gradient(135deg, #e94560, #533483); display: flex; align-items: center; justify-content: center; font-size: 3rem;">
+                            🐍
+                        </div>
+                        <div class="video-play-btn">▶</div>
+                        <span class="video-duration">12:30:00</span>
                     </div>
-                    <div class="video-play-btn">▶</div>
-                    <span class="video-duration">12:30:00</span>
-                </div>
-                <div class="video-content">
-                    <h3 class="video-card-title">
-                        <a href="#">Fast.ai: 程序员深度学习实战</a>
-                    </h3>
-                    <div class="video-meta">
-                        <span class="video-speaker">
-                            <span class="video-speaker-avatar"></span>
-                            Jeremy Howard
-                        </span>
-                        <span class="video-stats">👁️ 234K</span>
+                    <div class="video-content">
+                        <h3 class="video-card-title">
+                            <a href="#">Fast.ai: 程序员深度学习实战</a>
+                        </h3>
+                        <div class="video-meta">
+                            <span class="video-speaker">
+                                <span class="video-speaker-avatar"></span>
+                                Jeremy Howard
+                            </span>
+                            <span class="video-stats">👁️ 234K</span>
+                        </div>
                     </div>
-                </div>
-            </article>
-
-            <article class="video-card">
-                <div class="video-thumbnail">
-                    <div style="width: 100%; height: 100%; background: linear-gradient(135deg, #00d9ff, #0099cc); display: flex; align-items: center; justify-content: center; font-size: 3rem;">
-                        🧮
-                    </div>
-                    <div class="video-play-btn">▶</div>
-                    <span class="video-duration">8:45:20</span>
-                </div>
-                <div class="video-content">
-                    <h3 class="video-card-title">
-                        <a href="#">Stanford CS231n: 卷积神经网络</a>
-                    </h3>
-                    <div class="video-meta">
-                        <span class="video-speaker">
-                            <span class="video-speaker-avatar"></span>
-                            Stanford
-                        </span>
-                        <span class="video-stats">👁️ 567K</span>
-                    </div>
-                </div>
-            </article>
-
-            <article class="video-card">
-                <div class="video-thumbnail">
-                    <div style="width: 100%; height: 100%; background: linear-gradient(135deg, #ff6b6b, #ee5a6f); display: flex; align-items: center; justify-content: center; font-size: 3rem;">
-                        🤗
-                    </div>
-                    <div class="video-play-btn">▶</div>
-                    <span class="video-duration">6:20:00</span>
-                </div>
-                <div class="video-content">
-                    <h3 class="video-card-title">
-                        <a href="#">Hugging Face: Transformer 实战教程</a>
-                    </h3>
-                    <div class="video-meta">
-                        <span class="video-speaker">
-                            <span class="video-speaker-avatar"></span>
-                            Hugging Face
-                        </span>
-                        <span class="video-stats">👁️ 178K</span>
-                    </div>
-                </div>
-            </article>
+                </article>
+            {{ end }}
         </div>
     </div>
 </div>

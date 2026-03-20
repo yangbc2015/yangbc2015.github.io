@@ -1,0 +1,88 @@
+{
+  "last_updated": "2026-03-20T13:05:50.565799+00:00",
+  "source": "LMSYS Chatbot Arena",
+  "source_url": "https://chat.lmsys.org",
+  "description": "基于人类偏好的众包评测平台，通过盲测对比不同模型的对话能力",
+  "models": [
+    {
+      "rank": 1,
+      "model": "Gemini-2.5-Pro",
+      "organization": "Google",
+      "elo": 1432,
+      "trend": "up",
+      "trend_value": 12,
+      "votes": 85234,
+      "icon": "🤖"
+    },
+    {
+      "rank": 2,
+      "model": "GPT-4o",
+      "organization": "OpenAI",
+      "elo": 1418,
+      "trend": "same",
+      "trend_value": 0,
+      "votes": 120543,
+      "icon": "🚀"
+    },
+    {
+      "rank": 3,
+      "model": "Claude 3.5 Sonnet",
+      "organization": "Anthropic",
+      "elo": 1405,
+      "trend": "down",
+      "trend_value": 3,
+      "votes": 98721,
+      "icon": "⚡"
+    },
+    {
+      "rank": 4,
+      "model": "DeepSeek-V3",
+      "organization": "DeepSeek",
+      "elo": 1389,
+      "trend": "up",
+      "trend_value": 8,
+      "votes": 76432,
+      "icon": "🔥"
+    },
+    {
+      "rank": 5,
+      "model": "Llama 3.1 405B",
+      "organization": "Meta",
+      "elo": 1376,
+      "trend": "same",
+      "trend_value": 0,
+      "votes": 65892,
+      "icon": "🧠"
+    },
+    {
+      "rank": 6,
+      "model": "Qwen2.5-72B",
+      "organization": "Alibaba",
+      "elo": 1365,
+      "trend": "up",
+      "trend_value": 5,
+      "votes": 54321,
+      "icon": "🌟"
+    },
+    {
+      "rank": 7,
+      "model": "Mixtral 8x22B",
+      "organization": "Mistral",
+      "elo": 1348,
+      "trend": "same",
+      "trend_value": 0,
+      "votes": 43567,
+      "icon": "💎"
+    },
+    {
+      "rank": 8,
+      "model": "Yi-Large",
+      "organization": "01.AI",
+      "elo": 1332,
+      "trend": "down",
+      "trend_value": 2,
+      "votes": 38765,
+      "icon": "🎯"
+    }
+  ]
+}

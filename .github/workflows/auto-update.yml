@@ -1,0 +1,93 @@
+name: 🤖 Auto Update AI Data
+
+on:
+  schedule:
+    # 每天北京时间早上 8 点运行 (UTC 00:00)
+    - cron: '0 0 * * *'
+  # 允许手动触发
+  workflow_dispatch:
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+    
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+        cache: 'pip'
+    
+    - name: Install dependencies
+      run: |
+        cd scripts/scraper
+        pip install -r requirements.txt
+    
+    - name: Run scrapers
+      run: |
+        cd scripts/scraper
+        python scraper.py
+    
+    - name: Check for changes
+      id: check_changes
+      run: |
+        if [ -n "$(git status --porcelain)" ]; then
+          echo "has_changes=true" >> $GITHUB_OUTPUT
+        else
+          echo "has_changes=false" >> $GITHUB_OUTPUT
+        fi
+    
+    - name: Commit and push changes
+      if: steps.check_changes.outputs.has_changes == 'true'
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add data/ content/
+        git commit -m "🤖 Auto-update AI data: $(date +'%Y-%m-%d %H:%M'))
+        
+📊 更新内容:
+- AI 新闻
+- AI 榜单 (LMSYS Arena)
+- AI 论文 (arXiv)
+- AI 视频"
+        git push
+    
+    - name: Trigger rebuild
+      if: steps.check_changes.outputs.has_changes == 'true'
+      run: |
+        echo "数据已更新并提交到仓库"
+        echo "如需自动部署到 GitHub Pages，请在仓库设置中配置"
+
+  # 可选：构建并部署 Hugo 站点
+  build-and-deploy:
+    needs: update-data
+    runs-on: ubuntu-latest
+    if: needs.update-data.outputs.has_changes == 'true'
+    
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+    
+    - name: Setup Hugo
+      uses: peaceiris/actions-hugo@v3
+      with:
+        hugo-version: 'latest'
+        extended: true
+    
+    - name: Build
+      run: hugo --minify
+    
+    # 如果需要部署到 GitHub Pages，取消下面的注释
+    # - name: Deploy
+    #   uses: peaceiris/actions-gh-pages@v4
+    #   if: github.ref == 'refs/heads/main'
+    #   with:
+    #     github_token: ${{ secrets.GITHUB_TOKEN }}
+    #     publish_dir: ./public
