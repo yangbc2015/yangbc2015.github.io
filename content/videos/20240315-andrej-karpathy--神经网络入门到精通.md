@@ -6,7 +6,7 @@ duration: '4:12:35'
 views: 2.3M
 platform: youtube
 video_id: VMj-3S1tku0
-url: https://www.youtube.com/watch?v=VMj-3S1tku0
+video_url: https://www.youtube.com/watch?v=VMj-3S1tku0
 thumbnail: https://img.youtube.com/vi/VMj-3S1tku0/mqdefault.jpg
 video_type: course
 category: 精品课程

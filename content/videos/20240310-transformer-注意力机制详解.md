@@ -6,7 +6,7 @@ duration: '32:15'
 views: 1.2M
 platform: youtube
 video_id: iDulhoQ2pro
-url: https://www.youtube.com/watch?v=iDulhoQ2pro
+video_url: https://www.youtube.com/watch?v=iDulhoQ2pro
 thumbnail: https://img.youtube.com/vi/iDulhoQ2pro/mqdefault.jpg
 video_type: lecture
 category: 技术讲座
