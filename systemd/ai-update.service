@@ -1,0 +1,14 @@
+[Unit]
+Description=AI Research Station - Auto Update Data
+After=network.target
+
+[Service]
+Type=oneshot
+User=root
+WorkingDirectory=/root/hugo/mentors
+ExecStart=/root/hugo/mentors/auto-update.sh
+StandardOutput=append:/var/log/ai-update.log
+StandardError=append:/var/log/ai-update.log
+
+[Install]
+WantedBy=multi-user.target

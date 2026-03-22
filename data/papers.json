@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-03-20T13:06:36.677731+00:00",
-  "count": 6,
+  "last_updated": "2026-03-22T13:34:43.084814+00:00",
+  "count": 8,
   "items": [
     {
       "title": "NavTrust: Benchmarking Trustworthiness for Embodied Navigation",
@@ -35,6 +35,41 @@
         "cs.CL"
       ],
       "type": "benchmark",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "FinTradeBench: A Financial Reasoning Benchmark for LLMs",
+      "authors": "Yogesh Agrawal, Aniruddha Dutta, Md Mahadi Hasan et al.",
+      "abstract": "Real-world financial decision-making is a challenging problem that requires reasoning over heterogeneous signals, including company fundamentals derived from regulatory filings and trading signals computed from price dynamics. Recently, with the advancement of Large Language Models (LLMs), financial...",
+      "venue": "arXiv",
+      "date": "2026-03-19",
+      "arxiv_id": "2603.19225v1",
+      "url": "https://arxiv.org/abs/2603.19225v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.19225v1.pdf",
+      "categories": [
+        "cs.CE",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "type": "benchmark",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "F2LLM-v2: Inclusive, Performant, and Efficient Embeddings for a Multilingual World",
+      "authors": "Ziyin Zhang, Zihan Liao, Hang Yu et al.",
+      "abstract": "We present F2LLM-v2, a new family of general-purpose, multilingual embedding models in 8 distinct sizes ranging from 80M to 14B. Trained on a newly curated composite of 60 million publicly available high-quality data samples, F2LLM-v2 supports more than 200 languages, with a particular emphasis on p...",
+      "venue": "arXiv",
+      "date": "2026-03-19",
+      "arxiv_id": "2603.19223v1",
+      "url": "https://arxiv.org/abs/2603.19223v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.19223v1.pdf",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },

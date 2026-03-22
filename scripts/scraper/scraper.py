@@ -16,6 +16,7 @@ from lmsys_scraper import LMSYSScraper
 from news_scraper import NewsScraper
 from papers_scraper import PapersScraper
 from videos_scraper import VideosScraper
+from csdn_scraper import CSDNScraper
 
 # 数据目录
 DATA_DIR = Path(__file__).parent.parent.parent / "data"
@@ -24,6 +25,7 @@ LEADERBOARD_DIR = DATA_DIR / "leaderboard"
 CONTENT_NEWS_DIR = Path(__file__).parent.parent.parent / "content" / "news"
 CONTENT_PAPERS_DIR = Path(__file__).parent.parent.parent / "content" / "papers"
 CONTENT_VIDEOS_DIR = Path(__file__).parent.parent.parent / "content" / "videos"
+CONTENT_TUTORIALS_DIR = Path(__file__).parent.parent.parent / "content" / "tutorials"
 
 
 def ensure_dirs():
@@ -33,6 +35,7 @@ def ensure_dirs():
     CONTENT_NEWS_DIR.mkdir(parents=True, exist_ok=True)
     CONTENT_PAPERS_DIR.mkdir(parents=True, exist_ok=True)
     CONTENT_VIDEOS_DIR.mkdir(parents=True, exist_ok=True)
+    CONTENT_TUTORIALS_DIR.mkdir(parents=True, exist_ok=True)
 
 
 def save_json(data, filepath):
@@ -346,6 +349,133 @@ def create_videos_content_files(videos):
     print(f"  ✓ 创建了 {created_count} 个新视频文件")
 
 
+def update_tutorials():
+    """更新教程数据（从 data/tutorials.json 读取 CSDN 文章数据）"""
+    print("\n" + "="*50)
+    print("📚 开始更新 CSDN 教程数据...")
+    print("="*50)
+    
+    try:
+        # 读取已配置的教程数据
+        tutorials_file = DATA_DIR / "tutorials.json"
+        if tutorials_file.exists():
+            with open(tutorials_file, 'r', encoding='utf-8') as f:
+                tutorials_data = json.load(f)
+            articles = tutorials_data.get("items", [])
+            print(f"\n  ✓ 从配置文件读取 {len(articles)} 篇教程文章")
+        else:
+            # 如果文件不存在，使用备用数据
+            print("\n  ⚠️ 配置文件不存在，使用备用数据")
+            scraper = CSDNScraper('heroybc')
+            articles = scraper.get_fallback_articles()
+            tutorials_data = {
+                "last_updated": datetime.now(timezone.utc).isoformat(),
+                "count": len(articles),
+                "author": "heroybc",
+                "source": "CSDN",
+                "items": articles
+            }
+            save_json(tutorials_data, tutorials_file)
+        
+        # 更新最后更新时间
+        tutorials_data["last_updated"] = datetime.now(timezone.utc).isoformat()
+        save_json(tutorials_data, tutorials_file)
+        
+        # 创建教程内容文件
+        create_tutorial_content_files(articles)
+        
+        return articles
+        
+    except Exception as e:
+        print(f"  ✗ 更新教程失败: {e}")
+        import traceback
+        traceback.print_exc()
+        return []
+
+
+def create_tutorial_content_files(articles):
+    """为教程创建 Hugo 内容文件（链接到外部 CSDN 文章）"""
+    print(f"\n  正在创建教程内容文件...")
+    
+    # 清理旧的教程文件（保留 _index.md 和本地教程）
+    for f in CONTENT_TUTORIALS_DIR.glob("*.md"):
+        if f.name != "_index.md" and "transformer" not in f.name:
+            f.unlink()
+    
+    created_count = 0
+    for article in articles:
+        # 生成文件名
+        title_slug = "".join(c if c.isalnum() else "-" for c in article["title"][:40]).lower()
+        date_str = article["date"].replace("-", "") if article.get("date") else ""
+        filename = f"{date_str}-{title_slug}.md"
+        filepath = CONTENT_TUTORIALS_DIR / filename
+        
+        level = article.get("level", "beginner")
+        category = article.get("category", "技术文章")
+        
+        # 创建 front matter - 设置外部链接
+        front_matter = {
+            "title": article["title"],
+            "date": article["date"],
+            "author": article.get("author", "heroybc"),
+            "source": "CSDN",
+            "original_url": article.get("url", ""),
+            "category": category,
+            "level": level,
+            "views": article.get("views", "0"),
+            "summary": article.get("summary", ""),
+            "tags": [category, "教程", "CSDN", "外部链接"],
+            "external_link": article.get("url", ""),
+        }
+        
+        # 写入文件 - 内容引导到外部链接
+        summary = article.get('summary', '')
+        url = article.get('url', '')
+        views = article.get('views', '0')
+        date = article.get('date', '')
+        
+        content = f"""---
+{yaml.dump(front_matter, allow_unicode=True, sort_keys=False)}---
+
+## 📄 文章简介
+
+{summary}
+
+## 🔗 原文链接
+
+此文章为 **CSDN 精选转载**，点击下方按钮阅读原文：
+
+<p style="margin: 2rem 0;">
+<a href="{url}" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.75rem 1.5rem; background: linear-gradient(135deg, #fc5531, #ff6b35); color: white; text-decoration: none; border-radius: 8px; font-family: 'Orbitron', monospace; font-weight: 600;">
+<svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm0 22c-5.523 0-10-4.477-10-10S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+点击阅读 CSDN 原文 →
+</a>
+</p>
+
+---
+
+## 📊 文章信息
+
+| 项目 | 内容 |
+|------|------|
+| **作者** | heroybc |
+| **分类** | {category} |
+| **难度** | {level} |
+| **阅读量** | {views} |
+| **发布日期** | {date} |
+| **来源** | [CSDN博客](https://blog.csdn.net/heroybc) |
+
+---
+
+*本文内容版权归原作者所有，仅供学习交流使用。*
+"""
+        with open(filepath, 'w', encoding='utf-8') as f:
+            f.write(content)
+        created_count += 1
+    
+    print(f"  ✓ 创建了 {created_count} 个新教程文件")
+
+
 def main():
     """主函数"""
     print("🤖 AI 数据爬虫启动")
@@ -365,6 +495,9 @@ def main():
         
         # 更新视频
         update_videos()
+        
+        # 更新教程（CSDN）
+        update_tutorials()
         
         print("\n" + "="*50)
         print("✅ 所有数据更新完成!")

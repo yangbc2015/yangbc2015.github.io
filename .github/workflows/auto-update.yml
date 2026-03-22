@@ -48,7 +48,7 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add data/ content/
-        git commit -m "🤖 Auto-update AI data: $(date +'%Y-%m-%d %H:%M'))
+        git commit -m "🤖 Auto-update AI data: $(date +'%Y-%m-%d %H:%M')"
         
 📊 更新内容:
 - AI 新闻
