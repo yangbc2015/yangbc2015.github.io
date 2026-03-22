@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-22T13:34:43.088840+00:00",
+  "last_updated": "2026-03-22T15:01:16.456889+00:00",
   "count": 8,
   "items": [
     {
@@ -100,9 +100,9 @@
       "views": "1.8M",
       "date": "2024-01-20",
       "platform": "bilibili",
-      "video_id": "bv1",
+      "video_id": "BV1JE411g7XF",
       "url": "https://www.bilibili.com/video/BV1JE411g7XF",
-      "thumbnail": "",
+      "thumbnail": "https://i2.hdslb.com/bfs/archive/2f1c3f236c76ea199e97388cb9a3f8b0d6fbb70c.jpg",
       "type": "course",
       "category": "精品课程",
       "featured": false
@@ -115,7 +115,7 @@
       "views": "2.1M",
       "date": "2024-02-10",
       "platform": "bilibili",
-      "video_id": "bv2",
+      "video_id": "BV1k64y1Q7wu",
       "url": "https://www.bilibili.com/video/BV1k64y1Q7wu",
       "thumbnail": "",
       "type": "course",

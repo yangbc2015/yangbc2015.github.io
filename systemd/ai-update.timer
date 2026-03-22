@@ -1,9 +1,9 @@
 [Unit]
-Description=Run AI Update every hour
+Description=Run AI Update daily at 3:00 AM
 
 [Timer]
 OnBootSec=5min
-OnUnitActiveSec=1h
+OnCalendar=*-*-* 03:00:00
 Persistent=true
 
 [Install]

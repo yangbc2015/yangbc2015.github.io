@@ -248,11 +248,16 @@
 
 {{ define "main" }}
 {{ $lmsysData := site.Data.leaderboard.lmsys_arena }}
+{{ $aaData := site.Data.leaderboard.artificial_analysis }}
 
 <section class="lb-hero">
     <h1 class="lb-title glitch-text" data-text="AI 榜单">AI 榜单</h1>
     <p class="lb-subtitle">{{ .Description }}</p>
-    {{ if $lmsysData.last_updated }}
+    {{ if $aaData.last_updated }}
+    <div class="lb-auto-update-badge">
+        自动更新于 {{ slicestr $aaData.last_updated 0 10 }}
+    </div>
+    {{ else if $lmsysData.last_updated }}
     <div class="lb-auto-update-badge">
         自动更新于 {{ slicestr $lmsysData.last_updated 0 10 }}
     </div>
@@ -261,15 +266,110 @@
 
 <div class="lb-container">
     <div class="lb-tabs">
-        <button class="lb-tab active" data-tab="lmsys">LMSYS Arena</button>
+        <button class="lb-tab active" data-tab="aa">Artificial Analysis</button>
+        <button class="lb-tab" data-tab="lmsys">LMSYS Arena</button>
         <button class="lb-tab" data-tab="opencompass">OpenCompass</button>
         <button class="lb-tab" data-tab="gaia">GAIA</button>
         <button class="lb-tab" data-tab="mmlu">MMLU Pro</button>
         <button class="lb-tab" data-tab="code">代码能力</button>
     </div>
 
+    <!-- Artificial Analysis -->
+    <div class="lb-content active" id="tab-aa">
+        <div class="lb-table-wrapper">
+            <table class="lb-table">
+                <thead>
+                    <tr>
+                        <th>排名</th>
+                        <th>模型</th>
+                        <th>智能指数</th>
+                        <th>价格 ($/1M tokens)</th>
+                        <th>速度 (tokens/s)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {{ if $aaData.models }}
+                        {{ range $aaData.models }}
+                        <tr>
+                            <td class="lb-rank {{ if eq .rank 1 }}top-1{{ else if eq .rank 2 }}top-2{{ else if eq .rank 3 }}top-3{{ end }}">
+                                {{ if eq .rank 1 }}🥇 {{ else if eq .rank 2 }}🥈 {{ else if eq .rank 3 }}🥉 {{ end }}{{ .rank }}
+                            </td>
+                            <td>
+                                <div class="lb-model">
+                                    <div class="lb-model-icon">{{ .icon | default "🤖" }}</div>
+                                    <div>
+                                        <div class="lb-model-name">{{ .model }}</div>
+                                        <div class="lb-model-org">{{ .organization }}{{ if .is_open_weights }} · 开源{{ end }}</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="lb-score">{{ .intelligence_index }}</td>
+                            <td>${{ .price_per_1m_tokens }}</td>
+                            <td>{{ .speed_tokens_per_sec }}</td>
+                        </tr>
+                        {{ end }}
+                    {{ else }}
+                        <!-- 默认数据 -->
+                        <tr>
+                            <td class="lb-rank top-1">🥇 1</td>
+                            <td>
+                                <div class="lb-model">
+                                    <div class="lb-model-icon">🤖</div>
+                                    <div>
+                                        <div class="lb-model-name">Gemini 2.5 Pro Preview</div>
+                                        <div class="lb-model-org">Google</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="lb-score">57</td>
+                            <td>$1.25</td>
+                            <td>125</td>
+                        </tr>
+                        <tr>
+                            <td class="lb-rank top-2">🥈 2</td>
+                            <td>
+                                <div class="lb-model">
+                                    <div class="lb-model-icon">🚀</div>
+                                    <div>
+                                        <div class="lb-model-name">GPT-4o</div>
+                                        <div class="lb-model-org">OpenAI</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="lb-score">55</td>
+                            <td>$2.50</td>
+                            <td>89</td>
+                        </tr>
+                        <tr>
+                            <td class="lb-rank top-3">🥉 3</td>
+                            <td>
+                                <div class="lb-model">
+                                    <div class="lb-model-icon">⚡</div>
+                                    <div>
+                                        <div class="lb-model-name">Claude 3.5 Sonnet</div>
+                                        <div class="lb-model-org">Anthropic</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="lb-score">54</td>
+                            <td>$3.00</td>
+                            <td>95</td>
+                        </tr>
+                    {{ end }}
+                </tbody>
+            </table>
+        </div>
+        <p class="lb-update-time">
+            {{ if $aaData.last_updated }}
+            最后更新: {{ slicestr $aaData.last_updated 0 10 }} | 
+            {{ end }}
+            数据来源: <a href="{{ $aaData.source_url | default "https://artificialanalysis.ai/leaderboards/models" }}" target="_blank" style="color: var(--neon-green);">Artificial Analysis</a>
+            {{ if $aaData.description }}<br><small style="opacity: 0.7;">{{ $aaData.description }}</small>{{ end }}
+        </p>
+    </div>
+
     <!-- LMSYS Chatbot Arena -->
-    <div class="lb-content active" id="tab-lmsys">
+    <div class="lb-content" id="tab-lmsys">
         <div class="lb-table-wrapper">
             <table class="lb-table">
                 <thead>
@@ -586,6 +686,7 @@
 
     <div class="lb-info">
         <h3>📊 关于榜单</h3>
+        <p><strong>Artificial Analysis:</strong> 综合AI模型性能排行榜，基于智能指数、价格、输出速度、上下文窗口等多维度指标对100+模型进行评测。</p>
         <p><strong>LMSYS Chatbot Arena:</strong> 基于人类偏好的众包评测平台，通过盲测对比不同模型的对话能力。ELO 分数反映模型的相对排名。</p>
         <p><strong>OpenCompass:</strong> 上海 AI Lab 开发的综合性大模型评测体系，覆盖学科知识、语言能力、推理能力等多个维度。</p>
         <p><strong>GAIA:</strong> 通用 AI 助手基准测试，评估模型在现实世界问题上的推理、多模态理解和工具使用能力。</p>

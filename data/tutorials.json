@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-22T13:35:30.909765+00:00",
+  "last_updated": "2026-03-22T15:01:16.462019+00:00",
   "count": 12,
   "author": "heroybc",
   "source": "CSDN",
@@ -8,7 +8,7 @@
     {
       "title": "【AI系统】一文讲完CPU计算与调度机制",
       "summary": "深入讲解 CPU 计算原理与调度机制，包括进程调度、中断处理、上下文切换等核心概念。涵盖操作系统底层的任务调度策略、多核 CPU 的负载均衡、以及 AI 场景下的 CPU 性能优化实践。",
-      "url": "https://blog.csdn.net/heroybc/article/details/144975876",
+      "url": "https://blog.csdn.net/heroybc/article/details/142493629",
       "date": "2025-06-29",
       "views": "1309",
       "category": "AI系统",
@@ -19,7 +19,7 @@
     {
       "title": "【AI系统】一文讲完NPU计算与调度机制",
       "summary": "NPU 架构与调度机制详解，涵盖硬件映射空间、调度灵活性、吞吐量与延迟权衡。深入分析神经网络处理器的计算单元设计、内存层次结构、以及 AI 模型在 NPU 上的部署优化策略。",
-      "url": "https://blog.csdn.net/heroybc/article/details/144844960",
+      "url": "https://blog.csdn.net/heroybc/article/details/142140478",
       "date": "2025-06-19",
       "views": "3263",
       "category": "AI系统",
@@ -30,7 +30,7 @@
     {
       "title": "【AI系统】一文讲完经典的网络模型设计",
       "summary": "BEV（Bird's Eye View）视觉感知技术详解，包括 BEVFormer 架构、多尺度特征提取、环视图像融合。深入讲解自动驾驶场景下的纯视觉 3D 目标检测与语义分割实现。",
-      "url": "https://blog.csdn.net/heroybc/article/details/144785413",
+      "url": "https://blog.csdn.net/heroybc/article/details/144293470",
       "date": "2025-06-14",
       "views": "916",
       "category": "AI系统",
@@ -41,7 +41,7 @@
     {
       "title": "【AI系统】一文讲完多线程多进程计算",
       "summary": "多线程与多进程编程核心概念，包括线程安全、同步机制、线程池实现。深入分析静态变量共享、volatile 关键字、协程特性，提供高性能 C++ 线程池代码实现。",
-      "url": "https://blog.csdn.net/heroybc/article/details/144785371",
+      "url": "https://blog.csdn.net/heroybc/article/details/126957040",
       "date": "2025-06-14",
       "views": "1223",
       "category": "AI系统",
@@ -52,7 +52,7 @@
     {
       "title": "【AI系统】一文讲完AI框架和AI编译器及其优化",
       "summary": "AI 框架与编译器优化技术详解，涵盖 LLVM/MLIR、LTO 链接时优化、ThinLTO 技术。深入讲解算子融合、内存优化、计算图优化等 AI 编译器核心优化策略。",
-      "url": "https://blog.csdn.net/heroybc/article/details/144785322",
+      "url": "https://blog.csdn.net/heroybc/article/details/143430375",
       "date": "2025-06-14",
       "views": "1513",
       "category": "AI系统",
@@ -63,7 +63,7 @@
     {
       "title": "【AI工具链】CNN/LLM模型量化全解-以TensorRT为例",
       "summary": "AI 模型量化技术完全指南，以 TensorRT 为例讲解模型压缩、INT8/FP16 量化、动态范围校准。涵盖 CNN 和 LLM 大模型的量化部署实践与性能优化技巧。",
-      "url": "https://blog.csdn.net/heroybc/article/details/144590449",
+      "url": "https://blog.csdn.net/heroybc/article/details/147847420",
       "date": "2025-05-10",
       "views": "1366",
       "category": "AI工具链",
@@ -74,7 +74,7 @@
     {
       "title": "【高性能计算】Sort排序的CUDA计算优化加速",
       "summary": "CUDA 并行排序算法优化实战，包括冒泡排序、归并排序、双调排序（Bitonic Sort）的 GPU 实现。深入分析 odd-even sort 算法优化、共享内存利用、以及并行排序的时间复杂度分析。",
-      "url": "https://blog.csdn.net/heroybc/article/details/144545629",
+      "url": "https://blog.csdn.net/heroybc/article/details/145472481",
       "date": "2025-05-05",
       "views": "1015",
       "category": "高性能计算",
@@ -85,7 +85,7 @@
     {
       "title": "【高性能计算】内存大小和地址对齐以及异构平台处理手段",
       "summary": "深入讲解 GPU 内存架构、地址对齐原则、内存访问模式优化。分析异构计算平台（CPU+GPU）的内存管理策略、数据传输优化、以及零拷贝技术实践。",
-      "url": "https://blog.csdn.net/heroybc/article/details/144883282",
+      "url": "https://blog.csdn.net/heroybc/article/details/128717886",
       "date": "2025-02-25",
       "views": "1766",
       "category": "高性能计算",
@@ -96,7 +96,7 @@
     {
       "title": "【嵌入式】Linux程序调试工具使用教程",
       "summary": "GDB 调试器深度使用指南，包括断点调试、多线程调试、Core dump 分析、ASAN 内存检测。涵盖嵌入式 Linux 环境下的程序调试技巧与常见问题排查方法。",
-      "url": "https://blog.csdn.net/heroybc/article/details/145619616",
+      "url": "https://blog.csdn.net/heroybc/article/details/133806161",
       "date": "2025-02-15",
       "views": "958",
       "category": "嵌入式",
@@ -107,7 +107,7 @@
     {
       "title": "【机器学习】监督学习算法-二分类/多分类/回归/K邻近",
       "summary": "监督学习核心算法实战，包括二分类、多分类、回归分析、KNN 算法。以威斯康辛乳腺癌分类和波士顿房价预测为实战案例，掌握 Scikit-learn 机器学习流程。",
-      "url": "https://blog.csdn.net/heroybc/article/details/145387626",
+      "url": "https://blog.csdn.net/heroybc/article/details/102711180",
       "date": "2025-01-27",
       "views": "511",
       "category": "机器学习",
@@ -118,7 +118,7 @@
     {
       "title": "【Jetson】初识Jetson Orin Nano Super",
       "summary": "NVIDIA Jetson Orin Nano Super 开发板初体验，介绍硬件规格、环境配置、AI 推理加速。涵盖边缘计算设备选型、功耗优化、以及深度学习模型部署实践。",
-      "url": "https://blog.csdn.net/heroybc/article/details/146345782",
+      "url": "https://blog.csdn.net/heroybc/article/details/147595413",
       "date": "2025-05-13",
       "views": "1257",
       "category": "嵌入式",
@@ -129,7 +129,7 @@
     {
       "title": "【C/C++】一文讲完C++/操作系统核心基础",
       "summary": "C++ 与操作系统核心基础总结，包括大小端模式、内存对齐、struct sizeof 计算、模板编程、多态实现。深入讲解头文件机制、访问控制、友元机制等核心概念。",
-      "url": "https://blog.csdn.net/heroybc/article/details/144785132",
+      "url": "https://blog.csdn.net/heroybc/article/details/143722397",
       "date": "2025-06-14",
       "views": "704",
       "category": "C/C++",

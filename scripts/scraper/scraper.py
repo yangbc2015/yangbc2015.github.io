@@ -17,6 +17,8 @@ from news_scraper import NewsScraper
 from papers_scraper import PapersScraper
 from videos_scraper import VideosScraper
 from csdn_scraper import CSDNScraper
+from artificialanalysis_scraper import ArtificialAnalysisScraper
+from investment_scraper import InvestmentScraper
 
 # 数据目录
 DATA_DIR = Path(__file__).parent.parent.parent / "data"
@@ -26,6 +28,7 @@ CONTENT_NEWS_DIR = Path(__file__).parent.parent.parent / "content" / "news"
 CONTENT_PAPERS_DIR = Path(__file__).parent.parent.parent / "content" / "papers"
 CONTENT_VIDEOS_DIR = Path(__file__).parent.parent.parent / "content" / "videos"
 CONTENT_TUTORIALS_DIR = Path(__file__).parent.parent.parent / "content" / "tutorials"
+CONTENT_INVESTMENT_DIR = Path(__file__).parent.parent.parent / "content" / "investment"
 
 
 def ensure_dirs():
@@ -36,6 +39,7 @@ def ensure_dirs():
     CONTENT_PAPERS_DIR.mkdir(parents=True, exist_ok=True)
     CONTENT_VIDEOS_DIR.mkdir(parents=True, exist_ok=True)
     CONTENT_TUTORIALS_DIR.mkdir(parents=True, exist_ok=True)
+    CONTENT_INVESTMENT_DIR.mkdir(parents=True, exist_ok=True)
 
 
 def save_json(data, filepath):
@@ -51,9 +55,8 @@ def update_leaderboard():
     print("📊 开始更新 AI 榜单数据...")
     print("="*50)
     
-    scraper = LMSYSScraper()
-    
     # 爬取 LMSYS Arena 数据
+    scraper = LMSYSScraper()
     lmsys_data = scraper.fetch_arena_leaderboard()
     if lmsys_data:
         save_json(lmsys_data, LEADERBOARD_DIR / "lmsys_arena.json")
@@ -61,6 +64,18 @@ def update_leaderboard():
         print("⚠️ 未能获取 LMSYS Arena 数据，使用备用数据")
         lmsys_data = scraper.get_fallback_data()
         save_json(lmsys_data, LEADERBOARD_DIR / "lmsys_arena.json")
+    
+    # 爬取 Artificial Analysis 数据
+    print("\n  正在获取 Artificial Analysis 数据...")
+    aa_scraper = ArtificialAnalysisScraper()
+    aa_data = aa_scraper.fetch_leaderboard()
+    if aa_data:
+        save_json(aa_data, LEADERBOARD_DIR / "artificial_analysis.json")
+        print(f"  ✓ 获取了 {len(aa_data.get('models', []))} 个模型数据")
+    else:
+        print("⚠️ 未能获取 Artificial Analysis 数据，使用备用数据")
+        aa_data = aa_scraper.get_fallback_data()
+        save_json(aa_data, LEADERBOARD_DIR / "artificial_analysis.json")
     
     # 创建综合榜单索引
     leaderboard_index = {
@@ -71,12 +86,18 @@ def update_leaderboard():
                 "url": "https://chat.lmsys.org",
                 "description": "基于人类偏好的众包评测平台",
                 "data_file": "leaderboard/lmsys_arena.json"
+            },
+            "artificial_analysis": {
+                "name": "Artificial Analysis",
+                "url": "https://artificialanalysis.ai/leaderboards/models",
+                "description": "综合AI模型性能排行榜，涵盖智能指数、价格、速度等多维度评测",
+                "data_file": "leaderboard/artificial_analysis.json"
             }
         }
     }
     save_json(leaderboard_index, DATA_DIR / "leaderboard.json")
     
-    return lmsys_data
+    return lmsys_data, aa_data
 
 
 def update_news():
@@ -476,6 +497,90 @@ def create_tutorial_content_files(articles):
     print(f"  ✓ 创建了 {created_count} 个新教程文件")
 
 
+def update_investment():
+    """更新投资资讯数据"""
+    print("\n" + "="*50)
+    print("💰 开始更新 AI 投资资讯...")
+    print("="*50)
+    
+    scraper = InvestmentScraper()
+    
+    # 获取投资资讯
+    try:
+        investment_items = scraper.fetch_all_investments()
+        
+        # 保存投资数据
+        investment_data = {
+            "last_updated": datetime.now(timezone.utc).isoformat(),
+            "count": len(investment_items),
+            "items": investment_items
+        }
+        save_json(investment_data, DATA_DIR / "investment.json")
+        
+        # 创建投资内容文件
+        create_investment_content_files(investment_items)
+        
+        return investment_items
+    except Exception as e:
+        print(f"  ✗ 投资资讯更新失败: {e}")
+        import traceback
+        traceback.print_exc()
+        return []
+
+
+def create_investment_content_files(items):
+    """为投资资讯创建 Hugo 内容文件"""
+    print(f"\n  正在创建投资内容文件...")
+    
+    created_count = 0
+    for item in items[:15]:  # 只为前 15 条创建内容文件
+        # 生成文件名
+        title_slug = "".join(c if c.isalnum() else "-" for c in item["title"][:40]).lower()
+        date_str = item["date"].replace("-", "") if item.get("date") else ""
+        filename = f"{date_str}-{title_slug}.md"
+        filepath = CONTENT_INVESTMENT_DIR / filename
+        
+        # 如果文件已存在，跳过
+        if filepath.exists():
+            continue
+        
+        # 创建 front matter
+        front_matter = {
+            "title": item["title"],
+            "date": item["date"],
+            "type": item.get("type", "news"),
+            "source": item.get("source", "AI研究站"),
+            "category": item.get("category", "AI投资"),
+            "link": item.get("url", ""),
+            "summary": item.get("summary", ""),
+            "tags": item.get("tags", ["AI投资"]),
+        }
+        
+        # 写入文件
+        content = f"""---
+{yaml.dump(front_matter, allow_unicode=True, sort_keys=False)}---
+
+## 📊 投资摘要
+
+{item.get('summary', '')}
+
+## 🔗 原文链接
+
+<a href="{item.get('url', '')}" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.75rem 1.5rem; background: linear-gradient(135deg, #ffd700, #ffed4e); color: #000; text-decoration: none; border-radius: 8px; font-family: 'Orbitron', monospace; font-weight: 600;">
+查看详情 →
+</a>
+
+---
+
+*本文仅供参考，不构成投资建议。*
+"""
+        with open(filepath, 'w', encoding='utf-8') as f:
+            f.write(content)
+        created_count += 1
+    
+    print(f"  ✓ 创建了 {created_count} 个新投资文件")
+
+
 def main():
     """主函数"""
     print("🤖 AI 数据爬虫启动")
@@ -498,6 +603,9 @@ def main():
         
         # 更新教程（CSDN）
         update_tutorials()
+        
+        # 更新投资资讯
+        update_investment()
         
         print("\n" + "="*50)
         print("✅ 所有数据更新完成!")

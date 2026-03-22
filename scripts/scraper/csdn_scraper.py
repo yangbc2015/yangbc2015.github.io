@@ -33,7 +33,10 @@ class CSDNScraper:
         """
         获取所有文章列表
         CSDN 使用分页加载，每页大约 20-40 篇文章
+        使用 curl 命令绕过 Cloudflare 防护
         """
+        import subprocess
+        
         print(f"  开始获取用户 '{self.username}' 的博客文章...")
         
         # 尝试不同的分页方式
@@ -47,16 +50,24 @@ class CSDNScraper:
                     url = f"{self.base_url}/article/list/{page}"
                 
                 print(f"    正在获取第 {page} 页...")
-                response = self.session.get(url, timeout=30)
                 
-                if response.status_code != 200:
-                    print(f"    页面 {page} 返回状态码 {response.status_code}，停止获取")
+                # 使用 curl 获取页面（绕过 Cloudflare）
+                result = subprocess.run([
+                    'curl', '-s', '-L',
+                    '-H', 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0',
+                    '-H', 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+                    '--compressed',
+                    url
+                ], capture_output=True, text=True, timeout=30)
+                
+                if result.returncode != 0:
+                    print(f"    页面 {page} 获取失败，停止获取")
                     break
                 
-                soup = BeautifulSoup(response.text, 'html.parser')
+                html = result.stdout
                 
                 # 解析文章列表
-                articles = self._parse_article_list(soup)
+                articles = self._parse_article_list_html(html)
                 
                 if not articles:
                     print(f"    第 {page} 页没有文章，停止获取")
@@ -66,7 +77,7 @@ class CSDNScraper:
                 print(f"    ✓ 第 {page} 页获取到 {len(articles)} 篇文章")
                 
                 # 检查是否有下一页
-                if not self._has_next_page(soup, page):
+                if not self._has_next_page_html(html, page):
                     break
                 
                 page += 1
@@ -78,6 +89,58 @@ class CSDNScraper:
         
         print(f"  ✓ 共获取 {len(self.articles)} 篇文章")
         return self.articles
+    
+    def _parse_article_list_html(self, html):
+        """从HTML字符串解析文章列表"""
+        articles = []
+        
+        # 解析文章列表 - 查找 blog-list-box 结构
+        pattern = r'<article class="blog-list-box"[^>]*>.*?<a href="(https://blog\.csdn\.net/' + self.username + r'/article/details/(\d+))"[^>]*>.*?<h4[^>]*>(.*?)</h4>.*?</article>'
+        matches = re.findall(pattern, html, re.DOTALL)
+        
+        seen_ids = set()
+        for url, article_id, title_html in matches:
+            if article_id in seen_ids:
+                continue
+            seen_ids.add(article_id)
+            
+            # 清理标题
+            title = re.sub(r'<[^>]+>', '', title_html).strip()
+            title = title.replace('&quot;', '"').replace('&amp;', '&')
+            
+            if len(title) > 5:
+                # 从标题提取分类
+                category_match = re.search(r'[【\[](.+?)[】\]]', title)
+                category = category_match.group(1) if category_match else '技术文章'
+                
+                # 设置难度级别
+                level = 'intermediate'
+                if '基础' in title or '入门' in title:
+                    level = 'beginner'
+                elif '优化' in title or '进阶' in title or '高级' in title:
+                    level = 'advanced'
+                
+                articles.append({
+                    'title': title,
+                    'url': url,
+                    'article_id': article_id,
+                    'summary': f'{category}相关技术文章',
+                    'date': datetime.now(timezone.utc).strftime('%Y-%m-%d'),
+                    'views': '0',
+                    'category': category,
+                    'level': level,
+                    'source': 'CSDN',
+                    'author': self.username
+                })
+        
+        return articles
+    
+    def _has_next_page_html(self, html, current_page):
+        """检查HTML中是否有下一页"""
+        # 简单检查：如果页面内容较少，可能是最后一页
+        if len(html) < 50000:
+            return False
+        return True
     
     def _parse_article_list(self, soup):
         """解析文章列表页面"""

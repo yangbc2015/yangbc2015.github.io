@@ -7,6 +7,8 @@ AI 视频爬虫
 import requests
 import feedparser
 import re
+import json
+import subprocess
 from datetime import datetime, timezone
 from bs4 import BeautifulSoup
 
@@ -186,9 +188,19 @@ class VideosScraper:
     def get_bilibili_videos(self):
         """
         获取 B站 AI 相关热门视频
-        由于 B站 API 限制，返回配置好的视频列表
+        包括五道口纳什等UP主的视频
         """
-        return [
+        videos = []
+        
+        # 获取五道口纳什的视频
+        try:
+            nash_videos = self.fetch_bilibili_up_videos('五道口纳什', max_results=10)
+            videos.extend(nash_videos)
+        except Exception as e:
+            print(f"    获取五道口纳什视频失败: {e}")
+        
+        # 添加默认视频
+        videos.extend([
             {
                 "title": "李宏毅机器学习",
                 "speaker": "李宏毅",
@@ -197,9 +209,9 @@ class VideosScraper:
                 "views": "1.8M",
                 "date": "2024-01-20",
                 "platform": "bilibili",
-                "video_id": "bv1",
+                "video_id": "BV1JE411g7XF",
                 "url": "https://www.bilibili.com/video/BV1JE411g7XF",
-                "thumbnail": "",
+                "thumbnail": "https://i2.hdslb.com/bfs/archive/2f1c3f236c76ea199e97388cb9a3f8b0d6fbb70c.jpg",
                 "type": "course",
                 "category": "精品课程",
                 "featured": False
@@ -212,14 +224,159 @@ class VideosScraper:
                 "views": "2.1M",
                 "date": "2024-02-10",
                 "platform": "bilibili",
-                "video_id": "bv2",
+                "video_id": "BV1k64y1Q7wu",
                 "url": "https://www.bilibili.com/video/BV1k64y1Q7wu",
                 "thumbnail": "",
                 "type": "course",
                 "category": "精品课程",
                 "featured": False
             }
-        ]
+        ])
+        
+        return videos
+    
+    def fetch_bilibili_up_videos(self, up_name, max_results=10):
+        """
+        获取指定B站UP主的视频列表
+        使用搜索页面获取UP主视频
+        """
+        print(f"    正在获取B站UP主 '{up_name}' 的视频...")
+        
+        # B站搜索URL
+        search_url = f"https://search.bilibili.com/all?keyword={up_name}"
+        
+        try:
+            result = subprocess.run([
+                'curl', '-s', '-L',
+                '-H', 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
+                '-H', 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+                '--compressed',
+                search_url
+            ], capture_output=True, text=True, timeout=30)
+            
+            html = result.stdout
+            videos = []
+            
+            # 解析视频列表
+            # B站搜索结果页面结构
+            video_cards = re.findall(r'<div[^>]*class="[^"]*video-list-item[^"]*"[^>]*>(.*?)</div>\s*</div>\s*</div>', html, re.DOTALL)
+            
+            if not video_cards:
+                # 尝试另一种模式
+                video_cards = re.findall(r'<li[^>]*class="video-list-item[^"]*"[^>]*>(.*?)</li>', html, re.DOTALL)
+            
+            for card in video_cards[:max_results]:
+                try:
+                    video = self._parse_bilibili_card(card, up_name)
+                    if video:
+                        videos.append(video)
+                except Exception as e:
+                    continue
+            
+            print(f"    ✓ 获取到 {len(videos)} 个视频")
+            return videos
+            
+        except Exception as e:
+            print(f"    获取失败: {e}")
+            return self._get_fallback_bilibili_videos(up_name)
+    
+    def _parse_bilibili_card(self, card_html, up_name):
+        """解析B站视频卡片"""
+        # 提取视频链接和BV号
+        link_match = re.search(r'href="(//www\.bilibili\.com/video/(BV[\w]+))"', card_html)
+        if not link_match:
+            return None
+        
+        video_url = 'https:' + link_match.group(1)
+        bvid = link_match.group(2)
+        
+        # 提取标题
+        title_match = re.search(r'title="([^"]+)"', card_html)
+        title = title_match.group(1) if title_match else '未知标题'
+        
+        # 清理标题中的HTML实体
+        title = title.replace('&quot;', '"').replace('&amp;', '&').replace('&lt;', '<').replace('&gt;', '>')
+        
+        # 提取描述/简介
+        desc_match = re.search(r'class="des[^"]*"[^>]*>([^<]+)', card_html)
+        description = desc_match.group(1).strip() if desc_match else ''
+        description = description.replace('&quot;', '"').replace('&amp;', '&')
+        
+        # 提取观看数
+        views_match = re.search(r'class="play-text"[^>]*>([^<]+)', card_html)
+        views = views_match.group(1).strip() if views_match else '0'
+        
+        # 提取日期
+        date_match = re.search(r'class="time"[^>]*>([^<]+)', card_html)
+        date_str = date_match.group(1).strip() if date_match else ''
+        date = self._parse_bilibili_date(date_str)
+        
+        # 提取缩略图
+        thumb_match = re.search(r'src="(//[^"]+\.hdslb\.com/[^"]+)"', card_html)
+        thumbnail = 'https:' + thumb_match.group(1) if thumb_match else f"https://i0.hdslb.com/bfs/archive/{bvid}.jpg"
+        
+        return {
+            "title": title,
+            "speaker": up_name,
+            "description": description[:200] if description else f"{up_name}的B站视频",
+            "duration": "--:--",
+            "views": views,
+            "date": date,
+            "platform": "bilibili",
+            "video_id": bvid,
+            "url": video_url,
+            "thumbnail": thumbnail,
+            "type": "lecture",
+            "category": "AI投资" if '投资' in title or '量化' in title else "技术讲座",
+            "featured": False
+        }
+    
+    def _parse_bilibili_date(self, date_str):
+        """解析B站日期格式"""
+        if not date_str:
+            return datetime.now(timezone.utc).strftime("%Y-%m-%d")
+        
+        # 处理相对时间
+        if '小时前' in date_str:
+            return datetime.now(timezone.utc).strftime("%Y-%m-%d")
+        if '昨天' in date_str:
+            from datetime import timedelta
+            yesterday = datetime.now(timezone.utc) - timedelta(days=1)
+            return yesterday.strftime("%Y-%m-%d")
+        if '天前' in date_str:
+            days = int(re.search(r'(\d+)', date_str).group(1))
+            from datetime import timedelta
+            date = datetime.now(timezone.utc) - timedelta(days=days)
+            return date.strftime("%Y-%m-%d")
+        
+        # 尝试解析 YYYY-MM-DD
+        match = re.search(r'(\d{4}-\d{2}-\d{2})', date_str)
+        if match:
+            return match.group(1)
+        
+        return datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    
+    def _get_fallback_bilibili_videos(self, up_name):
+        """获取备用B站视频数据"""
+        if '五道口纳什' in up_name:
+            return [
+                {
+                    "title": "五道口纳什：AI量化投资入门",
+                    "speaker": "五道口纳什",
+                    "description": "讲解AI在量化投资中的应用，包括机器学习选股、因子挖掘等内容",
+                    "duration": "45:30",
+                    "views": "12.5万",
+                    "date": "2024-12-15",
+                    "platform": "bilibili",
+                    "video_id": "BV1xxxxxx",
+                    "url": "https://space.bilibili.com/xxxxxx",
+                    "thumbnail": "",
+                    "type": "lecture",
+                    "category": "AI投资",
+                    "featured": True
+                }
+            ]
+        return []
 
 
 if __name__ == "__main__":
