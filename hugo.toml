@@ -102,14 +102,9 @@ theme = ''
     url = '/archive/'
     weight = 80
   [[menu.main]]
-    name = '👤 关于我们'
+    name = '👤 关于我'
     url = '/about/'
     weight = 90
-  [[menu.main]]
-    name = '🔗 友链'
-    url = '/friends/'
-    weight = 91
-    parent = '👤 关于我们'
 
 # 页脚菜单
   [[menu.footer]]

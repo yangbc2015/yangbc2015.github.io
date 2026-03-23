@@ -82,16 +82,16 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add data/ content/
-        git commit -m "🤖 Auto-update AI data: $(date +'%Y-%m-%d %H:%M')
-
-📊 更新内容:
-- AI 新闻
-- AI 榜单 (LMSYS Arena)
-- AI 论文 (arXiv)
-- AI 视频
-- AI 投资资讯
-
-Status: ${{ steps.update_status.outputs.status }}"
+        printf '%s\n\n%s\n%s\n%s\n%s\n%s\n\n%s' \
+          "🤖 Auto-update AI data: $(date +'%Y-%m-%d %H:%M')" \
+          "📊 更新内容:" \
+          "- AI 新闻" \
+          "- AI 榜单 (LMSYS Arena)" \
+          "- AI 论文 (arXiv)" \
+          "- AI 视频" \
+          "- AI 投资资讯" \
+          "Status: ${{ steps.update_status.outputs.status }}" \
+          | git commit -F -
         git push
     
     - name: Summary
