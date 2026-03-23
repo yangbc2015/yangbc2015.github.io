@@ -1,23 +1,23 @@
 {
-  "last_updated": "2026-03-23T19:00:06.843102+00:00",
+  "last_updated": "2026-03-23T20:00:07.460905+00:00",
   "count": 11,
   "items": [
     {
       "title": "Vibe-coding startup Lovable is on the hunt for acquisitions",
       "link": "https://techcrunch.com/2026/03/23/vibe-coding-startup-lovable-is-on-the-hunt-for-acquisitions/",
-      "summary": "Lovable's founder said the fast-growing vibe coding startup is looking for startups and teams to join its company.",
+      "summary": "Lovable's founder said the fast-growing vibe-coding startup is looking for startups and teams to join its company.",
       "source": "TechCrunch",
       "date": "2026-03-24",
       "type": "industry",
       "tags": [
+        "行业动态",
         "代码",
-        "AI",
-        "行业动态"
+        "AI"
       ],
-      "fetched_at": "2026-03-23T19:00:06.842563+00:00"
+      "fetched_at": "2026-03-23T20:00:07.459883+00:00"
     },
     {
-      "title": "Apple sets June date for WWDC 2026, teasing “AI advancements”",
+      "title": "Apple sets June date for WWDC 2026, teasing ‘AI advancements’",
       "link": "https://techcrunch.com/2026/03/23/apple-wwdc-june-8-12-ai-advancements-siri-developers-conference/",
       "summary": "Apple will host its next Worldwide Developers Conference the week of June 8. The company is expected to announce major updates to Siri with advanced AI capabilities.",
       "source": "TechCrunch",
@@ -27,7 +27,7 @@
         "AI",
         "产品发布"
       ],
-      "fetched_at": "2026-03-23T19:00:06.842789+00:00"
+      "fetched_at": "2026-03-23T20:00:07.460331+00:00"
     },
     {
       "title": "Startup Gimlet Labs is solving the AI inference bottleneck in a surprisingly elegant way",
@@ -37,10 +37,10 @@
       "date": "2026-03-24",
       "type": "industry",
       "tags": [
-        "AI",
-        "行业动态"
+        "行业动态",
+        "AI"
       ],
-      "fetched_at": "2026-03-23T19:00:06.842944+00:00"
+      "fetched_at": "2026-03-23T20:00:07.460618+00:00"
     },
     {
       "title": "Claude 4 发布：Anthropic推出新一代AI模型",
@@ -50,11 +50,11 @@
       "date": "2026-03-23",
       "type": "breakthrough",
       "tags": [
-        "AI",
+        "Claude",
         "重大突破",
-        "Claude"
+        "AI"
       ],
-      "fetched_at": "2026-03-23T19:00:05.833196+00:00"
+      "fetched_at": "2026-03-23T20:00:06.410297+00:00"
     },
     {
       "title": "Google Gemini 2.5 Pro开放API访问",
@@ -68,7 +68,7 @@
         "AI",
         "产品发布"
       ],
-      "fetched_at": "2026-03-23T19:00:05.833254+00:00"
+      "fetched_at": "2026-03-23T20:00:06.410327+00:00"
     },
     {
       "title": "OpenAI发布GPT-4.5：更高效的推理架构",
@@ -78,11 +78,11 @@
       "date": "2026-03-23",
       "type": "breakthrough",
       "tags": [
-        "AI",
+        "GPT",
         "重大突破",
-        "GPT"
+        "AI"
       ],
-      "fetched_at": "2026-03-23T19:00:05.833276+00:00"
+      "fetched_at": "2026-03-23T20:00:06.410343+00:00"
     },
     {
       "title": "陶哲轩：我差点江郎才尽，只因在普林斯顿待了一年",
@@ -92,10 +92,10 @@
       "date": "2026-03-23",
       "type": "industry",
       "tags": [
-        "AI",
-        "行业动态"
+        "行业动态",
+        "AI"
       ],
-      "fetched_at": "2026-03-23T19:00:06.084199+00:00"
+      "fetched_at": "2026-03-23T20:00:06.651602+00:00"
     },
     {
       "title": "岚图泰山Ultra启动交付，全新一代896线激光雷达上车",
@@ -105,10 +105,10 @@
       "date": "2026-03-23",
       "type": "industry",
       "tags": [
-        "AI",
-        "行业动态"
+        "行业动态",
+        "AI"
       ],
-      "fetched_at": "2026-03-23T19:00:06.084444+00:00"
+      "fetched_at": "2026-03-23T20:00:06.651871+00:00"
     },
     {
       "title": "Momenta不选VLA选世界模型，大众首发！曹旭东：传感器重要性最后",
@@ -118,10 +118,10 @@
       "date": "2026-03-23",
       "type": "industry",
       "tags": [
-        "AI",
-        "行业动态"
+        "行业动态",
+        "AI"
       ],
-      "fetched_at": "2026-03-23T19:00:06.084609+00:00"
+      "fetched_at": "2026-03-23T20:00:06.652251+00:00"
     },
     {
       "title": "字节版龙虾架构火爆GitHub！开源获35k+ Star，内置Skill全家桶，原生适配飞书",
@@ -131,10 +131,10 @@
       "date": "2026-03-23",
       "type": "industry",
       "tags": [
-        "AI",
-        "行业动态"
+        "行业动态",
+        "AI"
       ],
-      "fetched_at": "2026-03-23T19:00:06.084754+00:00"
+      "fetched_at": "2026-03-23T20:00:06.652436+00:00"
     },
     {
       "title": "寻找最强具身大脑！全球机器人顶会ICRA开启报名，智元全程陪跑带你拿奖",
@@ -144,11 +144,11 @@
       "date": "2026-03-23",
       "type": "industry",
       "tags": [
-        "AI",
         "行业动态",
+        "AI",
         "机器人"
       ],
-      "fetched_at": "2026-03-23T19:00:06.084997+00:00"
+      "fetched_at": "2026-03-23T20:00:06.652615+00:00"
     }
   ]
 }
