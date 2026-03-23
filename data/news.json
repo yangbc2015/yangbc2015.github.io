@@ -1,20 +1,7 @@
 {
-  "last_updated": "2026-03-23T17:00:07.971428+00:00",
+  "last_updated": "2026-03-23T18:00:06.871393+00:00",
   "count": 11,
   "items": [
-    {
-      "title": "Littlebird raises $11M for its AI-assisted ‘recall’ tool that reads your computer screen",
-      "link": "https://techcrunch.com/2026/03/23/littlebird-raises-11m-to-capture-context-from-your-computer-so-you-can-query-your-data/",
-      "summary": "Littlebird is building an AI that reads your screen in real time to capture context, answer questions, and automate tasks, without relying on screenshots.",
-      "source": "TechCrunch",
-      "date": "2026-03-24",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "行业动态"
-      ],
-      "fetched_at": "2026-03-23T17:00:07.968399+00:00"
-    },
     {
       "title": "Startup Gimlet Labs is solving the AI inference bottleneck in a surprisingly elegant way",
       "link": "https://techcrunch.com/2026/03/23/startup-gimlet-labs-is-solving-the-ai-inference-bottleneck-in-a-surprisingly-elegant-way/",
@@ -26,7 +13,20 @@
         "AI",
         "行业动态"
       ],
-      "fetched_at": "2026-03-23T17:00:07.969348+00:00"
+      "fetched_at": "2026-03-23T18:00:06.870795+00:00"
+    },
+    {
+      "title": "Littlebird raises $11M for its AI-assisted ‘recall’ tool that reads your computer screen",
+      "link": "https://techcrunch.com/2026/03/23/littlebird-raises-11m-to-capture-context-from-your-computer-so-you-can-query-your-data/",
+      "summary": "Littlebird is building an AI that reads your screen in real time to capture context, answer questions, and automate tasks, without relying on screenshots.",
+      "source": "TechCrunch",
+      "date": "2026-03-24",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "行业动态"
+      ],
+      "fetched_at": "2026-03-23T18:00:06.871091+00:00"
     },
     {
       "title": "Claude 4 发布：Anthropic推出新一代AI模型",
@@ -36,11 +36,11 @@
       "date": "2026-03-23",
       "type": "breakthrough",
       "tags": [
-        "Claude",
+        "重大突破",
         "AI",
-        "重大突破"
+        "Claude"
       ],
-      "fetched_at": "2026-03-23T17:00:06.007932+00:00"
+      "fetched_at": "2026-03-23T18:00:05.744775+00:00"
     },
     {
       "title": "Google Gemini 2.5 Pro开放API访问",
@@ -51,10 +51,10 @@
       "type": "product",
       "tags": [
         "AI",
-        "产品发布",
-        "Gemini"
+        "Gemini",
+        "产品发布"
       ],
-      "fetched_at": "2026-03-23T17:00:06.007960+00:00"
+      "fetched_at": "2026-03-23T18:00:05.744804+00:00"
     },
     {
       "title": "OpenAI发布GPT-4.5：更高效的推理架构",
@@ -68,7 +68,7 @@
         "AI",
         "GPT"
       ],
-      "fetched_at": "2026-03-23T17:00:06.007974+00:00"
+      "fetched_at": "2026-03-23T18:00:05.744820+00:00"
     },
     {
       "title": "陶哲轩：我差点江郎才尽，只因在普林斯顿待了一年",
@@ -81,7 +81,7 @@
         "AI",
         "行业动态"
       ],
-      "fetched_at": "2026-03-23T17:00:06.214539+00:00"
+      "fetched_at": "2026-03-23T18:00:06.060318+00:00"
     },
     {
       "title": "岚图泰山Ultra启动交付，全新一代896线激光雷达上车",
@@ -94,7 +94,7 @@
         "AI",
         "行业动态"
       ],
-      "fetched_at": "2026-03-23T17:00:06.214793+00:00"
+      "fetched_at": "2026-03-23T18:00:06.060749+00:00"
     },
     {
       "title": "Momenta不选VLA选世界模型，大众首发！曹旭东：传感器重要性最后",
@@ -107,7 +107,7 @@
         "AI",
         "行业动态"
       ],
-      "fetched_at": "2026-03-23T17:00:06.215199+00:00"
+      "fetched_at": "2026-03-23T18:00:06.060915+00:00"
     },
     {
       "title": "字节版龙虾架构火爆GitHub！开源获35k+ Star，内置Skill全家桶，原生适配飞书",
@@ -120,7 +120,7 @@
         "AI",
         "行业动态"
       ],
-      "fetched_at": "2026-03-23T17:00:06.215846+00:00"
+      "fetched_at": "2026-03-23T18:00:06.061063+00:00"
     },
     {
       "title": "寻找最强具身大脑！全球机器人顶会ICRA开启报名，智元全程陪跑带你拿奖",
@@ -134,7 +134,7 @@
         "机器人",
         "行业动态"
       ],
-      "fetched_at": "2026-03-23T17:00:06.216271+00:00"
+      "fetched_at": "2026-03-23T18:00:06.061252+00:00"
     },
     {
       "title": "Elizabeth Warren calls Pentagon’s decision to bar Anthropic ‘retaliation’",
@@ -147,7 +147,7 @@
         "AI",
         "行业动态"
       ],
-      "fetched_at": "2026-03-23T17:00:07.970574+00:00"
+      "fetched_at": "2026-03-23T18:00:06.871259+00:00"
     }
   ]
 }
