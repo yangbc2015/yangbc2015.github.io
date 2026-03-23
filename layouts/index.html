@@ -1419,13 +1419,6 @@ async function loadHeatmap() {
         // 使用模拟数据
         const data = generateMockHeatmapData();
 
-        // 更新统计
-        if (data.stats) {
-            document.getElementById('heatmap-today').textContent = data.stats.today.toLocaleString();
-            document.getElementById('heatmap-week').textContent = data.stats.week.toLocaleString();
-            document.getElementById('heatmap-locations').textContent = data.uniqueLocations;
-        }
-
         // 清空容器
         container.innerHTML = '';
 
