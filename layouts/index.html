@@ -21,8 +21,8 @@
 
     /* ===== Hero 横幅区域 ===== */
     .hero-section {
-        height: 50vh;
-        min-height: 400px;
+        height: 85vh;
+        min-height: 500px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -118,9 +118,14 @@
         font-size: 1.1rem;
     }
 
-    .hero-author-title {
-        font-size: 0.9rem;
-        color: var(--text-muted);
+    .hero-quote-en {
+        font-size: clamp(1rem, 2vw, 1.3rem);
+        font-weight: 400;
+        color: var(--text-secondary);
+        font-style: normal;
+        display: block;
+        margin-top: 1rem;
+        opacity: 0.8;
     }
 
     /* 统计信息 */
@@ -556,14 +561,14 @@
     
     <div class="hero-content">
         <p class="hero-quote">
-            我们只能看到不远的前方，但我们能看到许多需要完成的事情。
+            我们只能看到不远的前方，但我们能看到许多需要完成的事情。<br>
+            <span class="hero-quote-en">We can only see a short distance ahead, but we can see plenty there that needs to be done.</span>
         </p>
         
         <div class="hero-author">
             <div class="hero-avatar">🧠</div>
             <div class="hero-author-info">
                 <div class="hero-author-name">Alan Turing</div>
-                <div class="hero-author-title">计算机科学之父 · 人工智能先驱</div>
             </div>
         </div>
         
