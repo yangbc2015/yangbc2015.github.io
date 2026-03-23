@@ -1,6 +1,6 @@
 #!/bin/bash
 # AI 研究站 - 自动更新脚本
-# 功能：爬取最新数据并构建 Hugo 网站
+# 功能：爬取最新数据、构建 Hugo 网站，并推送到 GitHub 触发部署
 
 set -e  # 遇到错误立即退出
 
@@ -29,7 +29,7 @@ log "${YELLOW}🚀 开始自动更新流程...${NC}"
 cd "$PROJECT_DIR"
 
 # 步骤 1: 运行爬虫
-log "${YELLOW}📡 步骤 1/2: 运行数据爬虫...${NC}"
+log "${YELLOW}📡 步骤 1/3: 运行数据爬虫...${NC}"
 if python3 scripts/scraper/scraper.py >> "$LOG_FILE" 2>&1; then
     log "${GREEN}✅ 数据爬虫执行成功${NC}"
 else
@@ -37,12 +37,38 @@ else
     exit 1
 fi
 
+# 检查是否有数据变更
+if [ -z "$(git status --porcelain data/ content/)" ]; then
+    log "${YELLOW}ℹ️ 没有数据变更，跳过构建和推送${NC}"
+    exit 0
+fi
+
 # 步骤 2: 构建 Hugo 网站
-log "${YELLOW}🔨 步骤 2/2: 构建 Hugo 网站...${NC}"
+log "${YELLOW}🔨 步骤 2/3: 构建 Hugo 网站...${NC}"
 if hugo --minify --gc >> "$LOG_FILE" 2>&1; then
     log "${GREEN}✅ Hugo 构建成功${NC}"
 else
     log "${RED}❌ Hugo 构建失败${NC}"
+    exit 1
+fi
+
+# 步骤 3: 提交并推送到 GitHub（触发 Actions 部署）
+log "${YELLOW}📤 步骤 3/3: 推送到 GitHub 触发部署...${NC}"
+git add data/ content/
+git commit -m "🤖 Auto-update AI data: $(date +'%Y-%m-%d %H:%M')
+
+📊 更新内容:
+- AI 新闻
+- AI 榜单 (LMSYS Arena)
+- AI 论文 (arXiv)
+- AI 视频
+
+🤖 通过服务器自动更新脚本生成" || true
+
+if git push origin main >> "$LOG_FILE" 2>&1; then
+    log "${GREEN}✅ 推送成功，GitHub Actions 将自动部署${NC}"
+else
+    log "${RED}❌ 推送失败，请检查 Git 配置${NC}"
     exit 1
 fi
 

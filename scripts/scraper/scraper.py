@@ -113,6 +113,7 @@ def update_news():
     sources = [
         ("机器之心", scraper.fetch_jiqizhixin),
         ("量子位", scraper.fetch_qbitai),
+        ("TechCrunch", scraper.fetch_techcrunch_ai),
     ]
     
     for source_name, fetch_func in sources:
@@ -123,6 +124,21 @@ def update_news():
             print(f"  ✓ 从 {source_name} 获取了 {len(news)} 条新闻")
         except Exception as e:
             print(f"  ✗ 从 {source_name} 获取失败: {e}")
+    
+    # 去重：基于标题
+    seen_titles = set()
+    unique_news = []
+    for item in all_news:
+        title = item.get("title", "")
+        # 使用标题前30个字符作为去重键
+        title_key = title[:30].lower() if title else ""
+        if title_key and title_key in seen_titles:
+            continue
+        if title_key:
+            seen_titles.add(title_key)
+        unique_news.append(item)
+    
+    all_news = unique_news
     
     # 按日期排序
     all_news.sort(key=lambda x: x.get("date", ""), reverse=True)
@@ -161,6 +177,19 @@ def update_papers():
         print(f"  ✓ 从 arXiv 获取了 {len(arxiv_papers)} 篇论文")
     except Exception as e:
         print(f"  ✗ arXiv 获取失败: {e}")
+    
+    # 去重：基于 arxiv_id
+    seen_arxiv_ids = set()
+    unique_papers = []
+    for paper in all_papers:
+        arxiv_id = paper.get("arxiv_id", "")
+        if arxiv_id and arxiv_id in seen_arxiv_ids:
+            continue
+        if arxiv_id:
+            seen_arxiv_ids.add(arxiv_id)
+        unique_papers.append(paper)
+    
+    all_papers = unique_papers
     
     # 按日期排序
     all_papers.sort(key=lambda x: x.get("date", ""), reverse=True)
@@ -228,14 +257,35 @@ def create_news_content_files(news_items):
     print(f"\n  正在创建新闻内容文件...")
     
     created_count = 0
+    today_str = datetime.now(timezone.utc).strftime("%Y%m%d")
+    
+    # 获取已存在的文章标题（用于去重）
+    existing_titles = set()
+    for f in CONTENT_NEWS_DIR.glob("*.md"):
+        if f.name != "_index.md":
+            try:
+                content = f.read_text(encoding='utf-8')
+                # 从 front matter 中提取标题
+                if 'title:' in content:
+                    title_line = [l for l in content.split('\n') if 'title:' in l][0]
+                    existing_titles.add(title_line.split(':', 1)[1].strip().strip('"\''))
+            except:
+                pass
+    
     for item in news_items[:10]:  # 只为前 10 条创建内容文件
-        # 生成文件名
+        # 去重检查：如果标题已存在，跳过
+        if item["title"] in existing_titles:
+            print(f"    ⏭️ 已存在: {item['title'][:40]}...")
+            continue
+        
+        # 生成文件名：使用当前日期 + 标题slug，确保每天创建新文件
         title_slug = "".join(c if c.isalnum() else "-" for c in item["title"][:30]).lower()
-        date_str = item["date"].replace("-", "") if item.get("date") else ""
-        filename = f"{date_str}-{title_slug}.md"
+        # 添加时间戳确保唯一性
+        timestamp = datetime.now(timezone.utc).strftime("%H%M%S")
+        filename = f"{today_str}-{title_slug}-{timestamp}.md"
         filepath = CONTENT_NEWS_DIR / filename
         
-        # 如果文件已存在，跳过
+        # 如果文件已存在（极端情况），跳过
         if filepath.exists():
             continue
         
@@ -270,15 +320,34 @@ def create_papers_content_files(papers):
     print(f"\n  正在创建论文内容文件...")
     
     created_count = 0
+    today_str = datetime.now(timezone.utc).strftime("%Y%m%d")
+    
+    # 获取已存在的 arxiv_id（用于去重）
+    existing_arxiv_ids = set()
+    for f in CONTENT_PAPERS_DIR.glob("*.md"):
+        if f.name != "_index.md":
+            try:
+                content = f.read_text(encoding='utf-8')
+                if 'arxiv_id:' in content:
+                    arxiv_line = [l for l in content.split('\n') if 'arxiv_id:' in l][0]
+                    existing_arxiv_ids.add(arxiv_line.split(':', 1)[1].strip().strip('"\''))
+            except:
+                pass
+    
     for paper in papers[:8]:  # 只为前 8 篇创建内容文件
-        # 生成文件名
-        title_slug = "".join(c if c.isalnum() else "-" for c in paper["title"][:30]).lower()
-        date_str = paper["date"].replace("-", "") if paper.get("date") else ""
+        # 去重检查：如果 arxiv_id 已存在，跳过
         arxiv_id = paper.get("arxiv_id", "")
-        filename = f"{date_str}-{arxiv_id}-{title_slug}.md"
+        if arxiv_id and arxiv_id in existing_arxiv_ids:
+            print(f"    ⏭️ 已存在: {paper['title'][:40]}...")
+            continue
+        
+        # 生成文件名：使用当前日期 + arxiv_id，确保每天创建新文件
+        title_slug = "".join(c if c.isalnum() else "-" for c in paper["title"][:30]).lower()
+        timestamp = datetime.now(timezone.utc).strftime("%H%M%S")
+        filename = f"{today_str}-{arxiv_id}-{title_slug}-{timestamp}.md"
         filepath = CONTENT_PAPERS_DIR / filename
         
-        # 如果文件已存在，跳过
+        # 如果文件已存在（极端情况），跳过
         if filepath.exists():
             continue
         
@@ -292,7 +361,7 @@ def create_papers_content_files(papers):
             "categories": paper.get("categories", []),
             "paper_type": paper.get("type", "ai"),
             "pdf_url": paper.get("pdf_url", ""),
-            "url": paper.get("url", ""),
+            "arxiv_url": paper.get("url", ""),
             "tags": paper.get("categories", [])[:3] + ["论文"],
         }
         
@@ -323,14 +392,34 @@ def create_videos_content_files(videos):
     print(f"\n  正在创建视频内容文件...")
     
     created_count = 0
+    today_str = datetime.now(timezone.utc).strftime("%Y%m%d")
+    
+    # 获取已存在的视频 URL（用于去重）
+    existing_urls = set()
+    for f in CONTENT_VIDEOS_DIR.glob("*.md"):
+        if f.name != "_index.md":
+            try:
+                content = f.read_text(encoding='utf-8')
+                if 'url:' in content:
+                    url_line = [l for l in content.split('\n') if 'url:' in l and 'original_url' not in l][0]
+                    existing_urls.add(url_line.split(':', 1)[1].strip().strip('"\''))
+            except:
+                pass
+    
     for video in videos[:6]:  # 只为前 6 个创建内容文件
-        # 生成文件名
+        # 去重检查：如果 URL 已存在，跳过
+        video_url = video.get("url", "")
+        if video_url and video_url in existing_urls:
+            print(f"    ⏭️ 已存在: {video['title'][:40]}...")
+            continue
+        
+        # 生成文件名：使用当前日期 + 标题slug，确保每天创建新文件
         title_slug = "".join(c if c.isalnum() else "-" for c in video["title"][:30]).lower()
-        date_str = video["date"].replace("-", "") if video.get("date") else ""
-        filename = f"{date_str}-{title_slug}.md"
+        timestamp = datetime.now(timezone.utc).strftime("%H%M%S")
+        filename = f"{today_str}-{title_slug}-{timestamp}.md"
         filepath = CONTENT_VIDEOS_DIR / filename
         
-        # 如果文件已存在，跳过
+        # 如果文件已存在（极端情况），跳过
         if filepath.exists():
             continue
         

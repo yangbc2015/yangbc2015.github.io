@@ -1,144 +1,125 @@
 {
-  "last_updated": "2026-03-22T15:01:16.225891+00:00",
-  "count": 8,
+  "last_updated": "2026-03-23T02:36:10.450670+00:00",
+  "count": 7,
   "items": [
     {
-      "title": "NavTrust: Benchmarking Trustworthiness for Embodied Navigation",
-      "authors": "Huaide Jiang, Yash Chaudhary, Yuping Wang et al.",
-      "abstract": "There are two major categories of embodied navigation: Vision-Language Navigation (VLN), where agents navigate by following natural language instructions; and Object-Goal Navigation (OGN), where agents navigate to a specified target object. However, existing work primarily evaluates model performanc...",
+      "title": "From Masks to Pixels and Meaning: A New Taxonomy, Benchmark, and Metrics for VLM Image Tampering",
+      "authors": "Xinyi Shang, Yi Tang, Jiacheng Cui et al.",
+      "abstract": "Existing tampering detection benchmarks largely rely on object masks, which severely misalign with the true edit signal: many pixels inside a mask are untouched or only trivially modified, while subtle yet consequential edits outside the mask are treated as natural. We reformulate VLM image tamperin...",
       "venue": "arXiv",
-      "date": "2026-03-19",
-      "arxiv_id": "2603.19229v1",
-      "url": "https://arxiv.org/abs/2603.19229v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.19229v1.pdf",
+      "date": "2026-03-20",
+      "arxiv_id": "2603.20193v1",
+      "url": "https://arxiv.org/abs/2603.20193v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.20193v1.pdf",
       "categories": [
-        "cs.RO",
+        "cs.CV",
         "cs.AI",
-        "cs.CV"
+        "cs.LG"
       ],
-      "type": "benchmark",
+      "type": "survey",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "FinTradeBench: A Financial Reasoning Benchmark for LLMs",
-      "authors": "Yogesh Agrawal, Aniruddha Dutta, Md Mahadi Hasan et al.",
-      "abstract": "Real-world financial decision-making is a challenging problem that requires reasoning over heterogeneous signals, including company fundamentals derived from regulatory filings and trading signals computed from price dynamics. Recently, with the advancement of Large Language Models (LLMs), financial...",
+      "title": "LumosX: Relate Any Identities with Their Attributes for Personalized Video Generation",
+      "authors": "Jiazheng Xing, Fei Du, Hangjie Yuan et al.",
+      "abstract": "Recent advances in diffusion models have significantly improved text-to-video generation, enabling personalized content creation with fine-grained control over both foreground and background elements. However, precise face-attribute alignment across subjects remains challenging, as existing methods ...",
       "venue": "arXiv",
-      "date": "2026-03-19",
-      "arxiv_id": "2603.19225v1",
-      "url": "https://arxiv.org/abs/2603.19225v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.19225v1.pdf",
+      "date": "2026-03-20",
+      "arxiv_id": "2603.20192v1",
+      "url": "https://arxiv.org/abs/2603.20192v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.20192v1.pdf",
       "categories": [
-        "cs.CE",
-        "cs.AI",
-        "cs.CL"
-      ],
-      "type": "benchmark",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "FinTradeBench: A Financial Reasoning Benchmark for LLMs",
-      "authors": "Yogesh Agrawal, Aniruddha Dutta, Md Mahadi Hasan et al.",
-      "abstract": "Real-world financial decision-making is a challenging problem that requires reasoning over heterogeneous signals, including company fundamentals derived from regulatory filings and trading signals computed from price dynamics. Recently, with the advancement of Large Language Models (LLMs), financial...",
-      "venue": "arXiv",
-      "date": "2026-03-19",
-      "arxiv_id": "2603.19225v1",
-      "url": "https://arxiv.org/abs/2603.19225v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.19225v1.pdf",
-      "categories": [
-        "cs.CE",
-        "cs.AI",
-        "cs.CL"
-      ],
-      "type": "benchmark",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "F2LLM-v2: Inclusive, Performant, and Efficient Embeddings for a Multilingual World",
-      "authors": "Ziyin Zhang, Zihan Liao, Hang Yu et al.",
-      "abstract": "We present F2LLM-v2, a new family of general-purpose, multilingual embedding models in 8 distinct sizes ranging from 80M to 14B. Trained on a newly curated composite of 60 million publicly available high-quality data samples, F2LLM-v2 supports more than 200 languages, with a particular emphasis on p...",
-      "venue": "arXiv",
-      "date": "2026-03-19",
-      "arxiv_id": "2603.19223v1",
-      "url": "https://arxiv.org/abs/2603.19223v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.19223v1.pdf",
-      "categories": [
-        "cs.CL",
+        "cs.CV",
         "cs.AI"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "VideoSeek: Long-Horizon Video Agent with Tool-Guided Seeking",
+      "authors": "Jingyang Lin, Jialian Wu, Jiang Liu et al.",
+      "abstract": "Video agentic models have advanced challenging video-language tasks. However, most agentic approaches still heavily rely on greedy parsing over densely sampled video frames, resulting in high computational cost. We present VideoSeek, a long-horizon video agent that leverages video logic flow to acti...",
+      "venue": "arXiv",
+      "date": "2026-03-20",
+      "arxiv_id": "2603.20185v1",
+      "url": "https://arxiv.org/abs/2603.20185v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.20185v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.CL"
       ],
       "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Generation Models Know Space: Unleashing Implicit 3D Priors for Scene Understanding",
-      "authors": "Xianjin Wu, Dingkang Liang, Tianrui Feng et al.",
-      "abstract": "While Multimodal Large Language Models demonstrate impressive semantic capabilities, they often suffer from spatial blindness, struggling with fine-grained geometric reasoning and physical dynamics. Existing solutions typically rely on explicit 3D modalities or complex geometric scaffolding, which a...",
+      "title": "Adaptive Greedy Frame Selection for Long Video Understanding",
+      "authors": "Yuning Huang, Fengqing Zhu",
+      "abstract": "Large vision--language models (VLMs) are increasingly applied to long-video question answering, yet inference is often bottlenecked by the number of input frames and resulting visual tokens. Naive sparse sampling can miss decisive moments, while purely relevance-driven selection frequently collapses...",
       "venue": "arXiv",
-      "date": "2026-03-19",
-      "arxiv_id": "2603.19235v1",
-      "url": "https://arxiv.org/abs/2603.19235v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.19235v1.pdf",
+      "date": "2026-03-20",
+      "arxiv_id": "2603.20180v1",
+      "url": "https://arxiv.org/abs/2603.20180v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.20180v1.pdf",
       "categories": [
         "cs.CV",
-        "cs.RO"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Matryoshka Gaussian Splatting",
-      "authors": "Zhilin Guo, Boqiao Zhang, Hakan Aktas et al.",
-      "abstract": "The ability to render scenes at adjustable fidelity from a single model, known as level of detail (LoD), is crucial for practical deployment of 3D Gaussian Splatting (3DGS). Existing discrete LoD methods expose only a limited set of operating points, while concurrent continuous LoD approaches enable...",
-      "venue": "arXiv",
-      "date": "2026-03-19",
-      "arxiv_id": "2603.19234v1",
-      "url": "https://arxiv.org/abs/2603.19234v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.19234v1.pdf",
-      "categories": [
-        "cs.CV",
-        "cs.GR"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "NavTrust: Benchmarking Trustworthiness for Embodied Navigation",
-      "authors": "Huaide Jiang, Yash Chaudhary, Yuping Wang et al.",
-      "abstract": "There are two major categories of embodied navigation: Vision-Language Navigation (VLN), where agents navigate by following natural language instructions; and Object-Goal Navigation (OGN), where agents navigate to a specified target object. However, existing work primarily evaluates model performanc...",
-      "venue": "arXiv",
-      "date": "2026-03-19",
-      "arxiv_id": "2603.19229v1",
-      "url": "https://arxiv.org/abs/2603.19229v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.19229v1.pdf",
-      "categories": [
-        "cs.RO",
         "cs.AI",
+        "cs.CL"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "MME-CoF-Pro: Evaluating Reasoning Coherence in Video Generative Models with Text and Visual Hints",
+      "authors": "Yu Qi, Xinyi Xu, Ziyu Guo et al.",
+      "abstract": "Video generative models show emerging reasoning behaviors. It is essential to ensure that generated events remain causally consistent across frames for reliable deployment, a property we define as reasoning coherence. To bridge the gap in literature for missing reasoning coherence evaluation, we pro...",
+      "venue": "arXiv",
+      "date": "2026-03-20",
+      "arxiv_id": "2603.20194v1",
+      "url": "https://arxiv.org/abs/2603.20194v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.20194v1.pdf",
+      "categories": [
         "cs.CV"
       ],
-      "type": "benchmark",
+      "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Spectrally-Guided Diffusion Noise Schedules",
-      "authors": "Carlos Esteves, Ameesh Makadia",
-      "abstract": "Denoising diffusion models are widely used for high-quality image and video generation. Their performance depends on noise schedules, which define the distribution of noise levels applied during training and the sequence of noise levels traversed during sampling. Noise schedules are typically handcr...",
+      "title": "Structured Latent Dynamics in Wireless CSI via Homomorphic World Models",
+      "authors": "Salmane Naoumi, Mehdi Bennis, Marwa Chafii",
+      "abstract": "We introduce a self-supervised framework for learning predictive and structured representations of wireless channels by modeling the temporal evolution of channel state information (CSI) in a compact latent space. Our method casts the problem as a world modeling task and leverages the Joint Embeddin...",
       "venue": "arXiv",
-      "date": "2026-03-19",
-      "arxiv_id": "2603.19222v1",
-      "url": "https://arxiv.org/abs/2603.19222v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.19222v1.pdf",
+      "date": "2026-03-20",
+      "arxiv_id": "2603.20048v1",
+      "url": "https://arxiv.org/abs/2603.20048v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.20048v1.pdf",
       "categories": [
-        "cs.CV",
+        "eess.SP",
         "cs.LG"
       ],
-      "type": "vision",
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Federated Hyperdimensional Computing for Resource-Constrained Industrial IoT",
+      "authors": "Nikita Zeulin, Olga Galinina, Nageen Himayat et al.",
+      "abstract": "In the Industrial Internet of Things (IIoT) systems, edge devices often operate under strict constraints in memory, compute capability, and wireless bandwidth. These limitations challenge the deployment of advanced data analytics tasks, such as predictive and prescriptive maintenance. In this work, ...",
+      "venue": "arXiv",
+      "date": "2026-03-20",
+      "arxiv_id": "2603.20037v1",
+      "url": "https://arxiv.org/abs/2603.20037v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.20037v1.pdf",
+      "categories": [
+        "cs.LG",
+        "cs.NI"
+      ],
+      "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     }

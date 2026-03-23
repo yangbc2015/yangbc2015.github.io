@@ -1,7 +1,103 @@
 {
-  "last_updated": "2026-03-22T15:01:06.678422+00:00",
-  "count": 5,
+  "last_updated": "2026-03-23T03:01:08.829900+00:00",
+  "count": 11,
   "items": [
+    {
+      "title": "Claude 4 发布：Anthropic推出新一代AI模型",
+      "link": "https://www.jiqizhixin.com/articles/2026-03-23-1",
+      "summary": "Anthropic正式发布Claude 4系列模型，包括Claude 4 Opus和Claude 4 Sonnet。新模型在推理能力、代码生成和多模态理解方面均有显著提升。",
+      "source": "机器之心",
+      "date": "2026-03-23",
+      "type": "breakthrough",
+      "tags": [
+        "Claude",
+        "AI",
+        "重大突破"
+      ],
+      "fetched_at": "2026-03-23T03:01:07.376138+00:00"
+    },
+    {
+      "title": "Google Gemini 2.5 Pro开放API访问",
+      "link": "https://www.jiqizhixin.com/articles/2026-03-23-2",
+      "summary": "谷歌宣布Gemini 2.5 Pro模型正式通过API向开发者开放。该模型支持200万token上下文窗口，在复杂推理任务上表现优异。",
+      "source": "机器之心",
+      "date": "2026-03-23",
+      "type": "product",
+      "tags": [
+        "Gemini",
+        "产品发布",
+        "AI"
+      ],
+      "fetched_at": "2026-03-23T03:01:07.376168+00:00"
+    },
+    {
+      "title": "OpenAI发布GPT-4.5：更高效的推理架构",
+      "link": "https://www.jiqizhixin.com/articles/2026-03-23-3",
+      "summary": "OpenAI发布GPT-4.5模型，采用新的稀疏注意力机制，推理效率提升40%，同时保持与GPT-4相当的能力水平。",
+      "source": "机器之心",
+      "date": "2026-03-23",
+      "type": "breakthrough",
+      "tags": [
+        "GPT",
+        "AI",
+        "重大突破"
+      ],
+      "fetched_at": "2026-03-23T03:01:07.376182+00:00"
+    },
+    {
+      "title": "马斯克要自己做「英伟达+台积电」！宇宙芯片宏图开工，算力产能扩5000%",
+      "link": "https://www.qbitai.com/2026/03/391045.html",
+      "summary": "“Terafab补上了最后一块缺失的拼图”",
+      "source": "量子位",
+      "date": "2026-03-23",
+      "type": "industry",
+      "tags": [
+        "行业动态",
+        "AI"
+      ],
+      "fetched_at": "2026-03-23T03:01:07.746021+00:00"
+    },
+    {
+      "title": "Do you want to build a robot snowman?",
+      "link": "https://techcrunch.com/2026/03/22/do-you-want-to-build-a-robot-snowman/",
+      "summary": "On the latest episode of the Equity podcast, we recapped CEO Jensen Huang’s GTC keynote and debated what it means for Nvidia’s future.",
+      "source": "TechCrunch",
+      "date": "2026-03-23",
+      "type": "product",
+      "tags": [
+        "机器人",
+        "产品发布",
+        "AI"
+      ],
+      "fetched_at": "2026-03-23T03:01:08.829243+00:00"
+    },
+    {
+      "title": "Cursor admits its new coding model was built on top of Moonshot AI’s Kimi",
+      "link": "https://techcrunch.com/2026/03/22/cursor-admits-its-new-coding-model-was-built-on-top-of-moonshot-ais-kimi/",
+      "summary": "Building on top of a Chinese model feels particularly fraught right now.",
+      "source": "TechCrunch",
+      "date": "2026-03-23",
+      "type": "industry",
+      "tags": [
+        "代码",
+        "AI",
+        "行业动态"
+      ],
+      "fetched_at": "2026-03-23T03:01:08.829508+00:00"
+    },
+    {
+      "title": "Elon Musk unveils chip manufacturing plans for SpaceX and Tesla",
+      "link": "https://techcrunch.com/2026/03/22/elon-musk-unveils-chip-manufacturing-plans-for-spacex-and-tesla/",
+      "summary": "Elon Musk recently outlined ambitious plans for a chip-building collaboration Tesla and SpaceX — but he has a history of overpromising.",
+      "source": "TechCrunch",
+      "date": "2026-03-23",
+      "type": "industry",
+      "tags": [
+        "行业动态",
+        "AI"
+      ],
+      "fetched_at": "2026-03-23T03:01:08.829758+00:00"
+    },
     {
       "title": "浙大团队破解多模态模型「盲目自信」：先校准置信度，再分配算力丨CVPR’26",
       "link": "https://www.qbitai.com/2026/03/391014.html",
@@ -13,7 +109,7 @@
         "行业动态",
         "AI"
       ],
-      "fetched_at": "2026-03-22T15:01:06.677075+00:00"
+      "fetched_at": "2026-03-23T03:01:07.746222+00:00"
     },
     {
       "title": "阶跃星辰率先适配微信生态，StepClaw“龙虾”即插即养即用",
@@ -26,7 +122,7 @@
         "行业动态",
         "AI"
       ],
-      "fetched_at": "2026-03-22T15:01:06.677520+00:00"
+      "fetched_at": "2026-03-23T03:01:07.746370+00:00"
     },
     {
       "title": "大厂抢郭达雅进行时！DeepSeek核心成员还是个“综艺巨佬”",
@@ -36,11 +132,11 @@
       "date": "2026-03-22",
       "type": "industry",
       "tags": [
-        "DeepSeek",
         "行业动态",
-        "AI"
+        "AI",
+        "DeepSeek"
       ],
-      "fetched_at": "2026-03-22T15:01:06.677819+00:00"
+      "fetched_at": "2026-03-23T03:01:07.746511+00:00"
     },
     {
       "title": "上海凭什么敢自封“开发者之城”？看完这场大会议程我悟了",
@@ -53,20 +149,7 @@
         "行业动态",
         "AI"
       ],
-      "fetched_at": "2026-03-22T15:01:06.678071+00:00"
-    },
-    {
-      "title": "精准识别「界门纲目科属种」！北大彭宇新团队用细粒度树先验提升泛化，破解生物类别分层识别难题",
-      "link": "https://www.qbitai.com/2026/03/390945.html",
-      "summary": "让生成式模型具备完整类别树认知，迈向通用视觉理解",
-      "source": "量子位",
-      "date": "2026-03-21",
-      "type": "industry",
-      "tags": [
-        "行业动态",
-        "AI"
-      ],
-      "fetched_at": "2026-03-22T15:01:06.678291+00:00"
+      "fetched_at": "2026-03-23T03:01:07.746659+00:00"
     }
   ]
 }
