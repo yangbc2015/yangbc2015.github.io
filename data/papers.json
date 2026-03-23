@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-03-23T09:02:36.467128+00:00",
-  "count": 3,
+  "last_updated": "2026-03-23T10:01:12.637885+00:00",
+  "count": 6,
   "items": [
     {
       "title": "From Masks to Pixels and Meaning: A New Taxonomy, Benchmark, and Metrics for VLM Image Tampering",
@@ -34,6 +34,58 @@
         "cs.AI"
       ],
       "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "VideoSeek: Long-Horizon Video Agent with Tool-Guided Seeking",
+      "authors": "Jingyang Lin, Jialian Wu, Jiang Liu et al.",
+      "abstract": "Video agentic models have advanced challenging video-language tasks. However, most agentic approaches still heavily rely on greedy parsing over densely sampled video frames, resulting in high computational cost. We present VideoSeek, a long-horizon video agent that leverages video logic flow to acti...",
+      "venue": "arXiv",
+      "date": "2026-03-20",
+      "arxiv_id": "2603.20185v1",
+      "url": "https://arxiv.org/abs/2603.20185v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.20185v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Adaptive Greedy Frame Selection for Long Video Understanding",
+      "authors": "Yuning Huang, Fengqing Zhu",
+      "abstract": "Large vision--language models (VLMs) are increasingly applied to long-video question answering, yet inference is often bottlenecked by the number of input frames and resulting visual tokens. Naive sparse sampling can miss decisive moments, while purely relevance-driven selection frequently collapses...",
+      "venue": "arXiv",
+      "date": "2026-03-20",
+      "arxiv_id": "2603.20180v1",
+      "url": "https://arxiv.org/abs/2603.20180v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.20180v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "MME-CoF-Pro: Evaluating Reasoning Coherence in Video Generative Models with Text and Visual Hints",
+      "authors": "Yu Qi, Xinyi Xu, Ziyu Guo et al.",
+      "abstract": "Video generative models show emerging reasoning behaviors. It is essential to ensure that generated events remain causally consistent across frames for reliable deployment, a property we define as reasoning coherence. To bridge the gap in literature for missing reasoning coherence evaluation, we pro...",
+      "venue": "arXiv",
+      "date": "2026-03-20",
+      "arxiv_id": "2603.20194v1",
+      "url": "https://arxiv.org/abs/2603.20194v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.20194v1.pdf",
+      "categories": [
+        "cs.CV"
+      ],
+      "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },

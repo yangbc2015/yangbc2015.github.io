@@ -1,13 +1,13 @@
 ---
-title: 【嵌入式】Linux程序调试工具使用教程
-date: '2025-02-15'
+title: 【嵌入式】Linux程序调试工具使用教程-GDB\Coredump\多线程调试\ASAN
+date: '2026-03-23'
 author: heroybc
 source: CSDN
 original_url: https://blog.csdn.net/heroybc/article/details/133806161
 category: 嵌入式
 level: intermediate
-views: '958'
-summary: GDB 调试器深度使用指南，包括断点调试、多线程调试、Core dump 分析、ASAN 内存检测。涵盖嵌入式 Linux 环境下的程序调试技巧与常见问题排查方法。
+views: '0'
+summary: 嵌入式相关技术文章
 tags:
 - 嵌入式
 - 教程
@@ -18,7 +18,7 @@ external_link: https://blog.csdn.net/heroybc/article/details/133806161
 
 ## 📄 文章简介
 
-GDB 调试器深度使用指南，包括断点调试、多线程调试、Core dump 分析、ASAN 内存检测。涵盖嵌入式 Linux 环境下的程序调试技巧与常见问题排查方法。
+嵌入式相关技术文章
 
 ## 🔗 原文链接
 
@@ -40,8 +40,8 @@ GDB 调试器深度使用指南，包括断点调试、多线程调试、Core du
 | **作者** | heroybc |
 | **分类** | 嵌入式 |
 | **难度** | intermediate |
-| **阅读量** | 958 |
-| **发布日期** | 2025-02-15 |
+| **阅读量** | 0 |
+| **发布日期** | 2026-03-23 |
 | **来源** | [CSDN博客](https://blog.csdn.net/heroybc) |
 
 ---

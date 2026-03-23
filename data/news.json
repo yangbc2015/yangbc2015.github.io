@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-23T09:01:14.637573+00:00",
+  "last_updated": "2026-03-23T10:01:08.107485+00:00",
   "count": 11,
   "items": [
     {
@@ -10,11 +10,11 @@
       "date": "2026-03-23",
       "type": "breakthrough",
       "tags": [
+        "AI",
         "重大突破",
-        "Claude",
-        "AI"
+        "Claude"
       ],
-      "fetched_at": "2026-03-23T09:01:08.625884+00:00"
+      "fetched_at": "2026-03-23T10:01:06.939380+00:00"
     },
     {
       "title": "Google Gemini 2.5 Pro开放API访问",
@@ -24,11 +24,11 @@
       "date": "2026-03-23",
       "type": "product",
       "tags": [
+        "AI",
         "产品发布",
-        "Gemini",
-        "AI"
+        "Gemini"
       ],
-      "fetched_at": "2026-03-23T09:01:08.625941+00:00"
+      "fetched_at": "2026-03-23T10:01:06.939410+00:00"
     },
     {
       "title": "OpenAI发布GPT-4.5：更高效的推理架构",
@@ -38,11 +38,24 @@
       "date": "2026-03-23",
       "type": "breakthrough",
       "tags": [
-        "重大突破",
         "GPT",
-        "AI"
+        "AI",
+        "重大突破"
       ],
-      "fetched_at": "2026-03-23T09:01:08.625963+00:00"
+      "fetched_at": "2026-03-23T10:01:06.939435+00:00"
+    },
+    {
+      "title": "Momenta不选VLA选世界模型，大众首发！曹旭东：传感器重要性最后",
+      "link": "https://www.qbitai.com/2026/03/391474.html",
+      "summary": "\"VLA好钢没用在刀刃上\"",
+      "source": "量子位",
+      "date": "2026-03-23",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "行业动态"
+      ],
+      "fetched_at": "2026-03-23T10:01:07.242091+00:00"
     },
     {
       "title": "字节版龙虾架构火爆GitHub！开源获35k+ Star，内置Skill全家桶，原生适配飞书",
@@ -52,10 +65,10 @@
       "date": "2026-03-23",
       "type": "industry",
       "tags": [
-        "行业动态",
-        "AI"
+        "AI",
+        "行业动态"
       ],
-      "fetched_at": "2026-03-23T09:01:08.897453+00:00"
+      "fetched_at": "2026-03-23T10:01:07.242278+00:00"
     },
     {
       "title": "寻找最强具身大脑！全球机器人顶会ICRA开启报名，智元全程陪跑带你拿奖",
@@ -65,11 +78,11 @@
       "date": "2026-03-23",
       "type": "industry",
       "tags": [
-        "行业动态",
         "机器人",
-        "AI"
+        "AI",
+        "行业动态"
       ],
-      "fetched_at": "2026-03-23T09:01:08.898201+00:00"
+      "fetched_at": "2026-03-23T10:01:07.242424+00:00"
     },
     {
       "title": "重磅加盟趋境科技，院士+教授领衔，领跑高效能AI Token生产新生态",
@@ -79,10 +92,10 @@
       "date": "2026-03-23",
       "type": "industry",
       "tags": [
-        "行业动态",
-        "AI"
+        "AI",
+        "行业动态"
       ],
-      "fetched_at": "2026-03-23T09:01:08.898438+00:00"
+      "fetched_at": "2026-03-23T10:01:07.242639+00:00"
     },
     {
       "title": "别人都在卷视觉，这家具身公司偏要卷“手感”",
@@ -93,23 +106,10 @@
       "type": "product",
       "tags": [
         "机器人",
-        "产品发布",
-        "AI"
+        "AI",
+        "产品发布"
       ],
-      "fetched_at": "2026-03-23T09:01:08.898727+00:00"
-    },
-    {
-      "title": "千问上线AI打车，一句话搞定选车、选地点、选时间",
-      "link": "https://www.qbitai.com/2026/03/391308.html",
-      "summary": "有1.3亿用户在千问首次体验AI购物",
-      "source": "量子位",
-      "date": "2026-03-23",
-      "type": "product",
-      "tags": [
-        "产品发布",
-        "AI"
-      ],
-      "fetched_at": "2026-03-23T09:01:08.898887+00:00"
+      "fetched_at": "2026-03-23T10:01:07.242841+00:00"
     },
     {
       "title": "Do you want to build a robot snowman?",
@@ -120,10 +120,10 @@
       "type": "product",
       "tags": [
         "机器人",
-        "产品发布",
-        "AI"
+        "AI",
+        "产品发布"
       ],
-      "fetched_at": "2026-03-23T09:01:14.636921+00:00"
+      "fetched_at": "2026-03-23T10:01:08.106704+00:00"
     },
     {
       "title": "Cursor admits its new coding model was built on top of Moonshot AI’s Kimi",
@@ -133,11 +133,11 @@
       "date": "2026-03-23",
       "type": "industry",
       "tags": [
+        "AI",
         "行业动态",
-        "代码",
-        "AI"
+        "代码"
       ],
-      "fetched_at": "2026-03-23T09:01:14.637147+00:00"
+      "fetched_at": "2026-03-23T10:01:08.107157+00:00"
     },
     {
       "title": "Elon Musk unveils chip manufacturing plans for SpaceX and Tesla",
@@ -147,10 +147,10 @@
       "date": "2026-03-23",
       "type": "industry",
       "tags": [
-        "行业动态",
-        "AI"
+        "AI",
+        "行业动态"
       ],
-      "fetched_at": "2026-03-23T09:01:14.637397+00:00"
+      "fetched_at": "2026-03-23T10:01:08.107339+00:00"
     }
   ]
 }

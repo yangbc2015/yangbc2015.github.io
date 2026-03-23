@@ -1,13 +1,13 @@
 ---
-title: 【AI工具链】CNN/LLM模型量化全解-以TensorRT为例
-date: '2025-05-10'
+title: 【AI工具链】CNN\LLM模型量化全解-以TensorRT为例
+date: '2026-03-23'
 author: heroybc
 source: CSDN
 original_url: https://blog.csdn.net/heroybc/article/details/147847420
 category: AI工具链
 level: intermediate
-views: '1366'
-summary: AI 模型量化技术完全指南，以 TensorRT 为例讲解模型压缩、INT8/FP16 量化、动态范围校准。涵盖 CNN 和 LLM 大模型的量化部署实践与性能优化技巧。
+views: '0'
+summary: AI工具链相关技术文章
 tags:
 - AI工具链
 - 教程
@@ -18,7 +18,7 @@ external_link: https://blog.csdn.net/heroybc/article/details/147847420
 
 ## 📄 文章简介
 
-AI 模型量化技术完全指南，以 TensorRT 为例讲解模型压缩、INT8/FP16 量化、动态范围校准。涵盖 CNN 和 LLM 大模型的量化部署实践与性能优化技巧。
+AI工具链相关技术文章
 
 ## 🔗 原文链接
 
@@ -40,8 +40,8 @@ AI 模型量化技术完全指南，以 TensorRT 为例讲解模型压缩、INT8
 | **作者** | heroybc |
 | **分类** | AI工具链 |
 | **难度** | intermediate |
-| **阅读量** | 1366 |
-| **发布日期** | 2025-05-10 |
+| **阅读量** | 0 |
+| **发布日期** | 2026-03-23 |
 | **来源** | [CSDN博客](https://blog.csdn.net/heroybc) |
 
 ---
