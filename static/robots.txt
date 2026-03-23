@@ -1,0 +1,80 @@
+# robots.txt for AI漫游 | AI Wander
+# https://yangbc2015.github.io/robots.txt
+
+# Allow all search engines
+User-agent: *
+
+# Allow access to main content
+Allow: /
+Allow: /news/
+Allow: /papers/
+Allow: /videos/
+Allow: /tutorials/
+Allow: /tools/
+Allow: /leaderboard/
+Allow: /investment/
+Allow: /robotics/
+Allow: /archive/
+Allow: /friends/
+Allow: /stats/
+
+# Sitemap location
+Sitemap: https://yangbc2015.github.io/sitemap.xml
+
+# Crawl-delay for polite crawling
+Crawl-delay: 1
+
+# Specific rules for major search engines
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0.5
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 0.5
+
+User-agent: DuckDuckBot
+Allow: /
+Crawl-delay: 0.5
+
+# AI crawlers (allow with reasonable rate limiting)
+User-agent: ChatGPT-User
+Allow: /
+Crawl-delay: 2
+
+User-agent: GPTBot
+Allow: /
+Crawl-delay: 2
+
+User-agent: Claude-Web
+Allow: /
+Crawl-delay: 2
+
+User-agent: anthropic-ai
+Allow: /
+Crawl-delay: 2
+
+User-agent: PerplexityBot
+Allow: /
+Crawl-delay: 2
+
+User-agent: Applebot
+Allow: /
+Crawl-delay: 2
+
+User-agent: Applebot-Extended
+Allow: /
+Crawl-delay: 2
+
+# Block potentially harmful bots
+User-agent: Baiduspider-image
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /

@@ -6,6 +6,13 @@ on:
     - cron: '0 0 * * *'
   # 允许手动触发
   workflow_dispatch:
+  # 在 push 到 main 分支时也触发（用于测试）
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/auto-update.yml'
+      - 'scripts/scraper/**'
 
 jobs:
   update-data:
@@ -14,10 +21,13 @@ jobs:
       contents: write
     outputs:
       has_changes: ${{ steps.check_changes.outputs.has_changes }}
+      update_status: ${{ steps.update_status.outputs.status }}
     
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
     
     - name: Set up Python
       uses: actions/setup-python@v5
@@ -26,22 +36,44 @@ jobs:
         cache: 'pip'
     
     - name: Install dependencies
+      id: install_deps
       run: |
         cd scripts/scraper
-        pip install -r requirements.txt
+        pip install -r requirements.txt || {
+          echo "::error::Failed to install Python dependencies"
+          exit 1
+        }
     
     - name: Run scrapers
+      id: run_scrapers
+      continue-on-error: true
       run: |
         cd scripts/scraper
         python scraper.py
+        echo "exit_code=$?" >> $GITHUB_OUTPUT
+    
+    - name: Check scraper status
+      id: update_status
+      run: |
+        if [ "${{ steps.run_scrapers.outputs.exit_code }}" == "0" ]; then
+          echo "status=success" >> $GITHUB_OUTPUT
+          echo "✅ Scraper completed successfully"
+        else
+          echo "status=partial" >> $GITHUB_OUTPUT
+          echo "⚠️ Scraper had some errors but continuing..."
+        fi
     
     - name: Check for changes
       id: check_changes
       run: |
-        if [ -n "$(git status --porcelain)" ]; then
+        git status
+        if [ -n "$(git status --porcelain data/ content/)" ]; then
           echo "has_changes=true" >> $GITHUB_OUTPUT
+          echo "📦 Changes detected in data/ or content/"
+          git diff --stat data/ content/ || true
         else
           echo "has_changes=false" >> $GITHUB_OUTPUT
+          echo "ℹ️ No changes to commit"
         fi
     
     - name: Commit and push changes
@@ -56,20 +88,25 @@ jobs:
 - AI 新闻
 - AI 榜单 (LMSYS Arena)
 - AI 论文 (arXiv)
-- AI 视频"
+- AI 视频
+- AI 投资资讯
+
+Status: ${{ steps.update_status.outputs.status }}"
         git push
     
-    - name: Trigger rebuild
-      if: steps.check_changes.outputs.has_changes == 'true'
+    - name: Summary
       run: |
-        echo "数据已更新并提交到仓库"
-        echo "如需自动部署到 GitHub Pages，请在仓库设置中配置"
+        echo "## 🤖 Auto Update Summary" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        echo "- **Status**: ${{ steps.update_status.outputs.status }}" >> $GITHUB_STEP_SUMMARY
+        echo "- **Changes Detected**: ${{ steps.check_changes.outputs.has_changes }}" >> $GITHUB_STEP_SUMMARY
+        echo "- **Time**: $(date +'%Y-%m-%d %H:%M:%S')" >> $GITHUB_STEP_SUMMARY
 
-  # 可选：构建并部署 Hugo 站点
   build-and-deploy:
     needs: update-data
     runs-on: ubuntu-latest
-    if: needs.update-data.outputs.has_changes == 'true'
+    # 只要数据更新成功就构建，不管爬虫是否部分失败
+    if: always() && needs.update-data.outputs.has_changes == 'true'
     
     steps:
     - name: Checkout
@@ -84,7 +121,12 @@ jobs:
         extended: true
     
     - name: Build
-      run: hugo --minify
+      run: hugo --minify --gc
+    
+    - name: Check build output
+      run: |
+        ls -la public/
+        echo "✅ Build completed"
     
     # 如果需要部署到 GitHub Pages，取消下面的注释
     # - name: Deploy

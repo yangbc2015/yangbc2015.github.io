@@ -64,28 +64,282 @@
         80% { clip-path: inset(0% 0 80% 0); transform: translate(-3px, 0); }
     }
 
-    .subtitle {
-        font-family: 'Orbitron', monospace;
-        font-size: 0.9rem;
-        color: var(--text-secondary);
-        margin-top: 0.5rem;
-        letter-spacing: 0.3em;
-        text-transform: uppercase;
-    }
-
     /* 主页头部 */
     .hero-section {
-        padding: 3rem 1rem;
+        padding: 2rem 1rem 1rem;
         text-align: center;
+    }
+
+    /* 名人名言模块 */
+    .quote-section {
+        max-width: 800px;
+        margin: 0 auto 2rem;
+        padding: 0 1rem;
+    }
+
+    .quote-container {
+        background: linear-gradient(135deg, rgba(0, 255, 65, 0.05) 0%, rgba(0, 240, 255, 0.05) 100%);
+        border: 1px solid var(--neon-green-dim);
+        border-radius: 15px;
+        padding: 2rem;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .quote-container::before {
+        content: '"';
+        position: absolute;
+        top: -10px;
+        left: 15px;
+        font-family: Georgia, serif;
+        font-size: 6rem;
+        color: var(--neon-green);
+        opacity: 0.2;
+        line-height: 1;
+    }
+
+    .quote-container::after {
+        content: '"';
+        position: absolute;
+        bottom: -40px;
+        right: 15px;
+        font-family: Georgia, serif;
+        font-size: 6rem;
+        color: var(--neon-green);
+        opacity: 0.2;
+        line-height: 1;
+    }
+
+    .quote-text-en {
+        font-family: 'Orbitron', monospace;
+        font-size: 1.1rem;
+        color: var(--text-primary);
+        line-height: 1.8;
+        margin-bottom: 1rem;
+        font-style: italic;
+        position: relative;
+        z-index: 1;
+    }
+
+    .quote-text-cn {
+        font-size: 1.05rem;
+        color: var(--text-secondary);
+        line-height: 1.8;
+        margin-bottom: 1.5rem;
+        position: relative;
+        z-index: 1;
+    }
+
+    .quote-author {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        position: relative;
+        z-index: 1;
+    }
+
+    .quote-avatar {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background: linear-gradient(135deg, var(--neon-green), var(--neon-blue));
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5rem;
+    }
+
+    .quote-info {
+        text-align: left;
+    }
+
+    .quote-name {
+        font-family: 'Orbitron', monospace;
+        font-size: 1rem;
+        color: var(--neon-green);
+        font-weight: 600;
+    }
+
+    .quote-title {
+        font-size: 0.8rem;
+        color: var(--text-secondary);
+    }
+
+    /* 栏目跳转卡片 */
+    .sections-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+        gap: 1rem;
+        max-width: 1200px;
+        margin: 0 auto 2rem;
+        padding: 0 1rem;
+    }
+
+    .section-card {
+        background: var(--dark-bg-secondary);
+        border: 1px solid var(--neon-green-dim);
+        border-radius: 12px;
+        padding: 1.25rem 0.75rem;
+        text-align: center;
+        text-decoration: none;
+        color: inherit;
+        transition: all 0.3s ease;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .section-card::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 3px;
+        background: linear-gradient(90deg, var(--neon-green), var(--neon-blue));
+        transform: scaleX(0);
+        transform-origin: left;
+        transition: transform 0.3s ease;
+    }
+
+    .section-card:hover {
+        border-color: var(--neon-green);
+        transform: translateY(-5px);
+        box-shadow: 0 10px 30px rgba(0, 255, 65, 0.15);
+    }
+
+    .section-card:hover::before {
+        transform: scaleX(1);
+    }
+
+    .section-icon {
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
+        display: block;
+    }
+
+    .section-name {
+        font-family: 'Orbitron', monospace;
+        font-size: 0.85rem;
+        color: var(--neon-green);
+        font-weight: 600;
+        display: block;
+    }
+
+    .section-desc {
+        font-size: 0.7rem;
+        color: var(--text-secondary);
+        margin-top: 0.25rem;
+        display: block;
+    }
+
+    /* 访问统计 - 点击交互 */
+    .visitor-counter {
+        display: flex;
+        justify-content: center;
+        margin: 1rem auto;
+    }
+
+    .counter-button {
+        background: linear-gradient(135deg, rgba(0, 255, 65, 0.1) 0%, rgba(0, 240, 255, 0.1) 100%);
+        border: 2px solid var(--neon-green);
+        border-radius: 50px;
+        padding: 1rem 2rem;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .counter-button::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(90deg, transparent, var(--neon-green-glow), transparent);
+        transition: left 0.5s ease;
+    }
+
+    .counter-button:hover {
+        background: var(--neon-green);
+        box-shadow: 0 0 30px var(--neon-green-glow);
+        transform: scale(1.05);
+    }
+
+    .counter-button:hover::before {
+        left: 100%;
+    }
+
+    .counter-button:hover .counter-text,
+    .counter-button:hover .counter-number {
+        color: var(--dark-bg);
+    }
+
+    .counter-icon {
+        font-size: 1.5rem;
+        animation: pulse 2s infinite;
+    }
+
+    @keyframes pulse {
+        0%, 100% { transform: scale(1); }
+        50% { transform: scale(1.1); }
+    }
+
+    .counter-content {
+        text-align: center;
+    }
+
+    .counter-text {
+        font-family: 'Orbitron', monospace;
+        font-size: 0.8rem;
+        color: var(--text-secondary);
+        display: block;
+        transition: color 0.3s ease;
+    }
+
+    .counter-number {
+        font-family: 'Orbitron', monospace;
+        font-size: 1.5rem;
+        color: var(--neon-green);
+        font-weight: 700;
+        text-shadow: 0 0 10px var(--neon-green-glow);
+        transition: color 0.3s ease;
+    }
+
+    .counter-hint {
+        font-size: 0.7rem;
+        color: var(--text-secondary);
+        opacity: 0.7;
+        margin-top: 0.5rem;
+        font-family: 'Orbitron', monospace;
+    }
+
+    /* 主内容区域 - 并行布局 */
+    .main-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1.5rem;
+        padding: 1rem;
+        max-width: 1600px;
+        margin: 0 auto;
+    }
+
+    @media (max-width: 1200px) {
+        .main-content {
+            grid-template-columns: 1fr;
+        }
     }
 
     /* 网络图容器 */
     #graph-container {
         width: 100%;
-        max-width: 1200px;
-        height: 65vh;
-        min-height: 500px;
-        margin: 0 auto;
+        height: 70vh;
+        min-height: 550px;
         position: relative;
         background: var(--dark-bg-secondary);
         border: 1px solid var(--neon-green-dim);
@@ -115,7 +369,7 @@
         50% { opacity: 0.7; }
     }
 
-    /* SVG 样式 */
+    /* SVG 样式 - 放大节点 */
     svg {
         width: 100%;
         height: 100%;
@@ -129,30 +383,32 @@
     .node-circle {
         fill: var(--dark-bg-tertiary);
         stroke: var(--neon-green);
-        stroke-width: 2px;
-        filter: drop-shadow(0 0 8px var(--neon-green-glow));
+        stroke-width: 2.5px;
+        filter: drop-shadow(0 0 10px var(--neon-green-glow));
         transition: all 0.3s ease;
     }
 
     .node:hover .node-circle {
         fill: var(--neon-green);
         stroke: var(--text-primary);
-        filter: drop-shadow(0 0 20px var(--neon-green));
+        filter: drop-shadow(0 0 25px var(--neon-green));
     }
 
     .node-label {
         font-family: 'Noto Sans SC', sans-serif;
-        font-size: 12px;
+        font-size: 14px;
         fill: var(--text-primary);
         text-anchor: middle;
         dominant-baseline: middle;
         pointer-events: none;
-        font-weight: 500;
-        text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+        font-weight: 600;
+        text-shadow: 
+            0 0 10px rgba(0, 0, 0, 0.9),
+            0 0 20px rgba(0, 0, 0, 0.8);
     }
 
     .node-icon {
-        font-size: 16px;
+        font-size: 22px;
         text-anchor: middle;
         dominant-baseline: middle;
         pointer-events: none;
@@ -161,14 +417,14 @@
     .link {
         stroke: var(--neon-green-dim);
         stroke-opacity: 0.6;
-        stroke-width: 1.5px;
+        stroke-width: 2px;
         transition: all 0.3s ease;
     }
 
     .link.active {
         stroke: var(--neon-green);
         stroke-opacity: 1;
-        stroke-width: 2.5px;
+        stroke-width: 3px;
         filter: drop-shadow(0 0 5px var(--neon-green));
     }
 
@@ -184,7 +440,7 @@
         left: 50%;
         transform: translateX(-50%);
         font-family: 'Orbitron', monospace;
-        font-size: 0.75rem;
+        font-size: 0.8rem;
         color: var(--text-secondary);
         background: rgba(0, 0, 0, 0.7);
         padding: 0.5rem 1rem;
@@ -384,60 +640,25 @@
         visibility: visible;
     }
 
-    /* 统计栏 */
-    .stats-bar {
+    /* 右侧容器 - 包含地图 */
+    .right-panel {
         display: flex;
-        justify-content: center;
-        gap: 1.5rem;
-        margin-top: 1.5rem;
-        padding: 1rem 1.5rem;
-        background: rgba(0, 255, 65, 0.05);
-        border: 1px solid var(--neon-green-dim);
-        border-radius: 50px;
-        max-width: 600px;
-        margin-left: auto;
-        margin-right: auto;
-        flex-wrap: wrap;
-    }
-
-    .stat-item {
-        display: flex;
-        align-items: center;
-        gap: 0.5rem;
-        font-family: 'Orbitron', monospace;
-    }
-
-    .stat-icon {
-        font-size: 1rem;
-    }
-
-    .stat-label {
-        font-size: 0.75rem;
-        color: var(--text-secondary);
-    }
-
-    .stat-value {
-        font-size: 1rem;
-        color: var(--neon-green);
-        font-weight: 700;
-        text-shadow: 0 0 10px var(--neon-green-glow);
+        flex-direction: column;
+        gap: 1rem;
     }
 
     /* 访问者地图区域 */
-    .visitor-map-section {
-        padding: 2rem 1rem;
-        margin-bottom: 2rem;
-    }
-
     .visitor-map-container {
-        max-width: 900px;
-        margin: 0 auto;
+        flex: 1;
+        min-height: 300px;
         background: var(--dark-bg-secondary);
         border: 1px solid var(--neon-green-dim);
-        border-radius: 15px;
-        padding: 2rem;
+        border-radius: 10px;
+        padding: 1.5rem;
         position: relative;
         overflow: hidden;
+        display: flex;
+        flex-direction: column;
     }
 
     .visitor-map-container::before {
@@ -459,10 +680,10 @@
 
     .map-title {
         font-family: 'Orbitron', monospace;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         color: var(--neon-green);
         text-align: center;
-        margin-bottom: 0.5rem;
+        margin-bottom: 1rem;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -471,7 +692,7 @@
     }
 
     .map-icon {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
 
     .map-badge {
@@ -488,89 +709,120 @@
         50% { opacity: 0.6; }
     }
 
-    .map-subtitle {
-        text-align: center;
-        color: var(--text-secondary);
-        font-size: 0.9rem;
-        margin-bottom: 1.5rem;
-    }
-
     .map-wrapper {
+        flex: 1;
         background: rgba(0, 0, 0, 0.3);
         border: 1px solid var(--neon-green-dim);
         border-radius: 10px;
         padding: 1rem;
-        margin-bottom: 1.5rem;
         display: flex;
         justify-content: center;
         align-items: center;
-        min-height: 400px;
+        min-height: 250px;
+        overflow: hidden;
     }
 
     .clustrmaps-container {
         width: 100%;
+        height: 100%;
         display: flex;
         justify-content: center;
+        align-items: center;
     }
 
+    /* 修复 ClustrMaps 显示 */
     .clustrmaps-container iframe,
     .clustrmaps-container canvas,
-    .clustrmaps-container img {
+    .clustrmaps-container img,
+    .clustrmaps-container script {
         max-width: 100% !important;
+        max-height: 100% !important;
         border-radius: 5px;
     }
 
-    .map-stats {
-        display: flex;
-        justify-content: center;
-        gap: 3rem;
-        padding-top: 1rem;
-        border-top: 1px solid var(--neon-green-dim);
-    }
-
-    .map-stat-item {
+    /* 节点探索标题 */
+    .graph-title {
+        font-family: 'Orbitron', monospace;
+        font-size: 1.2rem;
+        color: var(--neon-green);
+        text-align: center;
+        margin-bottom: 0.75rem;
         display: flex;
         align-items: center;
+        justify-content: center;
         gap: 0.5rem;
-        font-family: 'Orbitron', monospace;
-    }
-
-    .map-stat-icon {
-        font-size: 1.2rem;
-    }
-
-    .map-stat-label {
-        font-size: 0.8rem;
-        color: var(--text-secondary);
-    }
-
-    .map-stat-value {
-        font-size: 1.1rem;
-        color: var(--neon-green);
-        font-weight: 700;
     }
 
     /* 响应式 */
+    @media (max-width: 1200px) {
+        .main-content {
+            grid-template-columns: 1fr;
+        }
+        
+        #graph-container {
+            height: 60vh;
+            min-height: 450px;
+        }
+        
+        .visitor-map-container {
+            min-height: 350px;
+        }
+    }
+
     @media (max-width: 768px) {
         .hero-section {
-            padding: 2rem 1rem;
-        }
-        
-        .stats-bar {
-            gap: 1rem;
-            padding: 0.75rem;
-            border-radius: 20px;
-        }
-        
-        .stat-label {
-            font-size: 0.7rem;
+            padding: 1.5rem 1rem 0.5rem;
         }
 
+        .quote-section {
+            margin-bottom: 1.5rem;
+        }
+
+        .quote-container {
+            padding: 1.5rem;
+        }
+
+        .quote-text-en {
+            font-size: 0.95rem;
+        }
+
+        .quote-text-cn {
+            font-size: 0.9rem;
+        }
+
+        .sections-grid {
+            grid-template-columns: repeat(3, 1fr);
+            gap: 0.75rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .section-card {
+            padding: 1rem 0.5rem;
+        }
+
+        .section-icon {
+            font-size: 1.5rem;
+        }
+
+        .section-name {
+            font-size: 0.75rem;
+        }
+
+        .section-desc {
+            display: none;
+        }
+
+        .counter-button {
+            padding: 0.75rem 1.5rem;
+        }
+
+        .counter-number {
+            font-size: 1.25rem;
+        }
+        
         #graph-container {
-            height: 55vh;
+            height: 50vh;
             min-height: 400px;
-            margin: 0 1rem;
-            width: calc(100% - 2rem);
         }
 
         .detail-panel {
@@ -588,25 +840,23 @@
         }
 
         .visitor-map-container {
-            padding: 1.5rem 1rem;
-            margin: 0 1rem;
+            padding: 1rem;
+            min-height: 300px;
         }
 
         .map-title {
-            font-size: 1.2rem;
+            font-size: 1.1rem;
         }
 
         .map-wrapper {
-            min-height: 300px;
+            min-height: 200px;
             padding: 0.5rem;
         }
+    }
 
-        .map-stats {
-            gap: 1.5rem;
-        }
-
-        .map-stat-label {
-            display: none;
+    @media (max-width: 480px) {
+        .sections-grid {
+            grid-template-columns: repeat(2, 1fr);
         }
     }
 </style>
@@ -615,76 +865,114 @@
 {{ define "main" }}
 <section class="hero-section">
     <h1 class="glitch-title" data-text="AI漫游">AI漫游</h1>
-    <p class="subtitle">AI Wander // 在人工智能的世界中自由漫游</p>
-    
-    <!-- 访问统计 - Busuanzi + 本地统计 -->
-    <div class="stats-bar">
-        <div class="stat-item" title="全站总访问量">
-            <span class="stat-icon">🌍</span>
-            <span class="stat-label">全站访问</span>
-            <span class="stat-value" id="busuanzi_site_pv">--</span>
+</section>
+
+<!-- 名人名言模块 - 图灵 -->
+<section class="quote-section">
+    <div class="quote-container">
+        <p class="quote-text-en">
+            "We can only see a short distance ahead, but we can see plenty there that needs to be done."
+        </p>
+        <p class="quote-text-cn">
+            我们只能看到不远的前方，但我们能看到许多需要完成的事情。
+        </p>
+        <div class="quote-author">
+            <div class="quote-avatar">👤</div>
+            <div class="quote-info">
+                <div class="quote-name">Alan Turing</div>
+                <div class="quote-title">计算机科学之父 · 人工智能先驱</div>
+            </div>
         </div>
-        <div class="stat-item" title="全站独立访客">
-            <span class="stat-icon">👤</span>
-            <span class="stat-label">访客数</span>
-            <span class="stat-value" id="busuanzi_site_uv">--</span>
+    </div>
+</section>
+
+<!-- 栏目跳转卡片 -->
+<section class="sections-grid">
+    <a href="/news/" class="section-card">
+        <span class="section-icon">📰</span>
+        <span class="section-name">AI新闻</span>
+        <span class="section-desc">行业动态</span>
+    </a>
+    <a href="/robotics/" class="section-card">
+        <span class="section-icon">🤖</span>
+        <span class="section-name">机器人</span>
+        <span class="section-desc">具身智能</span>
+    </a>
+    <a href="/leaderboard/" class="section-card">
+        <span class="section-icon">🏆</span>
+        <span class="section-name">AI榜单</span>
+        <span class="section-desc">模型评测</span>
+    </a>
+    <a href="/investment/" class="section-card">
+        <span class="section-icon">💰</span>
+        <span class="section-name">投资</span>
+        <span class="section-desc">AI投资</span>
+    </a>
+    <a href="/papers/" class="section-card">
+        <span class="section-icon">🔬</span>
+        <span class="section-name">学术</span>
+        <span class="section-desc">前沿论文</span>
+    </a>
+    <a href="/tutorials/" class="section-card">
+        <span class="section-icon">🏗️</span>
+        <span class="section-name">技术基建</span>
+        <span class="section-desc">系统架构</span>
+    </a>
+    <a href="/tools/" class="section-card">
+        <span class="section-icon">🛠️</span>
+        <span class="section-name">工具</span>
+        <span class="section-desc">资源导航</span>
+    </a>
+    <a href="/videos/" class="section-card">
+        <span class="section-icon">🎬</span>
+        <span class="section-name">视频</span>
+        <span class="section-desc">精选课程</span>
+    </a>
+</section>
+
+<!-- 访问统计 - 点击交互 -->
+<div class="visitor-counter">
+    <button class="counter-button" id="counter-btn" onclick="incrementCounter()">
+        <span class="counter-icon">👆</span>
+        <div class="counter-content">
+            <span class="counter-text">我是第</span>
+            <span class="counter-number" id="visitor-count">--</span>
+            <span class="counter-text">位访问者</span>
         </div>
-        <div class="stat-item" title="本页访问量">
-            <span class="stat-icon">📄</span>
-            <span class="stat-label">本页访问</span>
-            <span class="stat-value" id="busuanzi_page_pv">--</span>
+    </button>
+</div>
+<p class="counter-hint" style="text-align: center;">点击按钮记录你的访问</p>
+
+<!-- 主内容区域 - 并行布局 -->
+<div class="main-content">
+    <!-- 左侧：节点探索 -->
+    <div class="graph-wrapper">
+        <div class="graph-title">
+            <span>🕸️</span>
+            节点探索
         </div>
-        <div class="stat-item" title="当前在线人数">
-            <span class="stat-icon">🟢</span>
-            <span class="stat-label">当前在线</span>
-            <span class="stat-value" id="online-users">--</span>
+        <div id="graph-container">
+            <div class="hint">点击节点探索 AI 领域 | 拖拽移动 | 滚轮缩放</div>
         </div>
     </div>
     
-    <!-- Busuanzi 统计脚本 -->
-    <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-</section>
-
-<!-- 访问者地图区域 -->
-<section class="visitor-map-section">
-    <div class="visitor-map-container">
-        <h2 class="map-title">
-            <span class="map-icon">🗺️</span>
-            全球访客分布
-            <span class="map-badge">实时</span>
-        </h2>
-        <p class="map-subtitle">看看来自世界各地的哪些朋友访问了这个网站</p>
-        
-        <div class="map-wrapper">
-            <!-- ClustrMaps 访客地图 -->
-            <div class="clustrmaps-container">
-                <script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?cl=0e3b64&w=a&t=tt&d=5_pP-mR2Xv3P6F0z5j0FkC-miUwx_xOd5xjaG8zK8aM&co=00ff41&ct=ffffff&cmo=ff00ff&cmn=ff0000"></script>
-            </div>
-        </div>
-        
-        <div class="map-stats">
-            <div class="map-stat-item">
-                <span class="map-stat-icon">🏳️</span>
-                <span class="map-stat-label">访问国家</span>
-                <span class="map-stat-value" id="visitor-countries">--</span>
-            </div>
-            <div class="map-stat-item">
-                <span class="map-stat-icon">🏙️</span>
-                <span class="map-stat-label">访问城市</span>
-                <span class="map-stat-value" id="visitor-cities">--</span>
+    <!-- 右侧：访客地图 -->
+    <div class="right-panel">
+        <div class="visitor-map-container">
+            <h2 class="map-title">
+                <span class="map-icon">🗺️</span>
+                全球访客分布
+                <span class="map-badge">实时</span>
+            </h2>
+            
+            <div class="map-wrapper">
+                <div class="clustrmaps-container">
+                    <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=5_pP-mR2Xv3P6F0z5j0FkC-miUwx_xOd5xjaG8zK8aM"></script>
+                </div>
             </div>
         </div>
     </div>
-</section>
-
-<section class="graph-section">
-</section>
-
-<section class="graph-section">
-    <div id="graph-container">
-        <div class="hint">点击节点探索 AI 领域 | 拖拽移动 | 滚轮缩放</div>
-    </div>
-</section>
+</div>
 
 <!-- 遮罩层 -->
 <div class="overlay" id="overlay"></div>
@@ -712,6 +1000,100 @@
 
 {{ define "scripts" }}
 <script>
+    // 访问计数功能
+    function initCounter() {
+        const COUNTER_KEY = 'ai_wander_visitor_count';
+        const USER_VISITED_KEY = 'ai_wander_user_visited';
+        
+        // 获取当前计数
+        let count = parseInt(localStorage.getItem(COUNTER_KEY) || '0');
+        
+        // 如果用户还没点击过，显示当前计数
+        if (!localStorage.getItem(USER_VISITED_KEY)) {
+            document.getElementById('visitor-count').textContent = (count + 1).toLocaleString();
+        } else {
+            // 用户已经点击过，显示当时的编号
+            const userNumber = localStorage.getItem(USER_VISITED_KEY);
+            document.getElementById('visitor-count').textContent = userNumber;
+            document.querySelector('.counter-hint').textContent = '感谢你的访问！';
+            document.getElementById('counter-btn').style.cursor = 'default';
+        }
+    }
+
+    function incrementCounter() {
+        const COUNTER_KEY = 'ai_wander_visitor_count';
+        const USER_VISITED_KEY = 'ai_wander_user_visited';
+        
+        // 检查用户是否已经点击过
+        if (localStorage.getItem(USER_VISITED_KEY)) {
+            return; // 已经访问过，不增加计数
+        }
+        
+        // 获取并增加计数
+        let count = parseInt(localStorage.getItem(COUNTER_KEY) || '0');
+        count++;
+        localStorage.setItem(COUNTER_KEY, count);
+        
+        // 记录用户的访问编号
+        localStorage.setItem(USER_VISITED_KEY, count.toLocaleString());
+        
+        // 更新显示
+        const counterElement = document.getElementById('visitor-count');
+        counterElement.textContent = count.toLocaleString();
+        
+        // 添加动画效果
+        counterElement.style.transform = 'scale(1.3)';
+        counterElement.style.transition = 'transform 0.3s ease';
+        setTimeout(() => {
+            counterElement.style.transform = 'scale(1)';
+        }, 300);
+        
+        // 更新提示文字
+        document.querySelector('.counter-hint').textContent = '感谢你的访问！';
+        
+        // 创建庆祝效果
+        createCelebration();
+    }
+
+    // 庆祝动画
+    function createCelebration() {
+        const colors = ['#00ff41', '#00f0ff', '#ff00ff', '#ffff00', '#ff6600'];
+        const button = document.getElementById('counter-btn');
+        const rect = button.getBoundingClientRect();
+        
+        for (let i = 0; i < 20; i++) {
+            const particle = document.createElement('div');
+            particle.style.cssText = `
+                position: fixed;
+                width: 8px;
+                height: 8px;
+                background: ${colors[Math.floor(Math.random() * colors.length)]};
+                border-radius: 50%;
+                pointer-events: none;
+                z-index: 9999;
+                left: ${rect.left + rect.width / 2}px;
+                top: ${rect.top + rect.height / 2}px;
+            `;
+            document.body.appendChild(particle);
+            
+            const angle = (Math.PI * 2 * i) / 20;
+            const velocity = 50 + Math.random() * 100;
+            const vx = Math.cos(angle) * velocity;
+            const vy = Math.sin(angle) * velocity;
+            
+            particle.animate([
+                { transform: 'translate(0, 0) scale(1)', opacity: 1 },
+                { transform: `translate(${vx}px, ${vy}px) scale(0)`, opacity: 0 }
+            ], {
+                duration: 800 + Math.random() * 400,
+                easing: 'cubic-bezier(0, .9, .57, 1)'
+            }).onfinish = () => particle.remove();
+        }
+    }
+
+    // 初始化计数器
+    initCounter();
+
     // 从 Hugo 内容读取节点数据
     const nodesData = [
         {{ range where .Site.RegularPages "Section" "nodes" }}
@@ -729,7 +1111,7 @@
         {{ end }}
     ].filter(n => n.id > 0);
 
-    // 连接关系（可以从 front matter 中读取或动态生成）
+    // 连接关系
     const linksData = [
         {{ range where .Site.RegularPages "Section" "nodes" }}
             {{ range .Params.connections }}
@@ -797,18 +1179,21 @@
             .attr('height', '200%');
 
         filter.append('feGaussianBlur')
-            .attr('stdDeviation', '3')
+            .attr('stdDeviation', '4')
             .attr('result', 'coloredBlur');
 
         const feMerge = filter.append('feMerge');
         feMerge.append('feMergeNode').attr('in', 'coloredBlur');
         feMerge.append('feMergeNode').attr('in', 'SourceGraphic');
 
+        const nodeRadius = 28;
+        const collisionRadius = 55;
+
         const simulation = d3.forceSimulation(nodesData)
-            .force('link', d3.forceLink(linksData).id(d => d.id).distance(100))
-            .force('charge', d3.forceManyBody().strength(-500))
+            .force('link', d3.forceLink(linksData).id(d => d.id).distance(130))
+            .force('charge', d3.forceManyBody().strength(-600))
             .force('center', d3.forceCenter(width / 2, height / 2))
-            .force('collision', d3.forceCollide().radius(45));
+            .force('collision', d3.forceCollide().radius(collisionRadius));
 
         const linkGroup = svg.append('g').attr('class', 'links');
 
@@ -832,7 +1217,7 @@
 
         nodes.append('circle')
             .attr('class', 'node-circle')
-            .attr('r', 20);
+            .attr('r', nodeRadius);
 
         nodes.append('text')
             .attr('class', 'node-icon')
@@ -844,20 +1229,21 @@
             .enter()
             .append('text')
             .attr('class', 'node-label')
-            .attr('dy', 35)
+            .attr('dy', 45)
             .text(d => d.label)
-            .style('opacity', 0);
+            .style('opacity', 1);
 
         nodes.on('mouseenter', function(event, d) {
             d3.select(this).select('.node-circle')
                 .transition()
                 .duration(200)
-                .attr('r', 28);
+                .attr('r', nodeRadius + 8);
 
             labels.filter(l => l.id === d.id)
                 .transition()
                 .duration(200)
-                .style('opacity', 1);
+                .style('font-size', '16px')
+                .style('fill', 'var(--neon-green)');
 
             links.classed('active', l => l.source.id === d.id || l.target.id === d.id);
         })
@@ -865,12 +1251,13 @@
             d3.select(this).select('.node-circle')
                 .transition()
                 .duration(200)
-                .attr('r', 20);
+                .attr('r', nodeRadius);
 
             labels.filter(l => l.id === d.id)
                 .transition()
                 .duration(200)
-                .style('opacity', 0);
+                .style('font-size', '14px')
+                .style('fill', 'var(--text-primary)');
 
             links.classed('active', false);
         })
@@ -986,241 +1373,13 @@
         overlay.classList.remove('active');
     }
 
-    // 访问统计功能 - 整合 Busuanzi + 本地统计 + 实时在线人数
-    function initVisitorStats() {
-        const STORAGE_KEY = 'ai_research_hub_stats';
-        const SESSION_KEY = 'ai_research_hub_session';
-        const ONLINE_KEY = 'ai_research_hub_online';
-        
-        // 获取或初始化统计数据
-        let stats = JSON.parse(localStorage.getItem(STORAGE_KEY) || JSON.stringify({
-            firstVisit: new Date().toISOString(),
-            visitCount: 0,
-            dailyVisits: {},
-            lastVisit: null
-        }));
-        
-        // 获取今天日期
-        const today = new Date().toISOString().split('T')[0];
-        
-        // 检查是否是新会话
-        const hasSession = sessionStorage.getItem(SESSION_KEY);
-        
-        if (!hasSession) {
-            // 新会话，记录访问
-            sessionStorage.setItem(SESSION_KEY, '1');
-            stats.visitCount++;
-            stats.dailyVisits[today] = (stats.dailyVisits[today] || 0) + 1;
-            stats.lastVisit = new Date().toISOString();
-            
-            // 保存统计数据
-            localStorage.setItem(STORAGE_KEY, JSON.stringify(stats));
-            
-            // 记录到全局在线用户池（使用更长的过期时间）
-            updateOnlinePool();
-        }
-        
-        // 实时更新在线人数
-        updateOnlineUsers();
-        setInterval(updateOnlineUsers, 10000); // 每10秒更新一次
-        
-        // 定期刷新自己在在线池中的状态
-        setInterval(updateOnlinePool, 30000); // 每30秒刷新一次
-        
-        // 监听 storage 事件，同步多标签页
-        window.addEventListener('storage', function(e) {
-            if (e.key === ONLINE_KEY) {
-                updateOnlineUsers();
-            }
-        });
-        
-        // 页面关闭时清理
-        window.addEventListener('beforeunload', function() {
-            removeFromOnlinePool();
-        });
-    }
-    
-    // 更新在线用户池
-    function updateOnlinePool() {
-        const ONLINE_KEY = 'ai_research_hub_online';
-        const SESSION_KEY = 'ai_research_hub_session';
-        const sessionId = sessionStorage.getItem(SESSION_KEY) || Math.random().toString(36).substr(2, 9);
-        sessionStorage.setItem(SESSION_KEY, sessionId);
-        
-        let onlinePool = JSON.parse(localStorage.getItem(ONLINE_KEY) || '{}');
-        const now = Date.now();
-        const EXPIRE_TIME = 60000; // 60秒过期
-        
-        // 清理过期的会话
-        Object.keys(onlinePool).forEach(key => {
-            if (now - onlinePool[key] > EXPIRE_TIME) {
-                delete onlinePool[key];
-            }
-        });
-        
-        // 更新当前会话
-        onlinePool[sessionId] = now;
-        localStorage.setItem(ONLINE_KEY, JSON.stringify(onlinePool));
-    }
-    
-    // 从在线池中移除
-    function removeFromOnlinePool() {
-        const ONLINE_KEY = 'ai_research_hub_online';
-        const SESSION_KEY = 'ai_research_hub_session';
-        const sessionId = sessionStorage.getItem(SESSION_KEY);
-        
-        if (sessionId) {
-            let onlinePool = JSON.parse(localStorage.getItem(ONLINE_KEY) || '{}');
-            delete onlinePool[sessionId];
-            localStorage.setItem(ONLINE_KEY, JSON.stringify(onlinePool));
-        }
-    }
-    
-    // 更新在线人数显示（基于真实的本地存储数据）
-    function updateOnlineUsers() {
-        const ONLINE_KEY = 'ai_research_hub_online';
-        const now = Date.now();
-        const EXPIRE_TIME = 60000; // 60秒过期
-        
-        let onlinePool = JSON.parse(localStorage.getItem(ONLINE_KEY) || '{}');
-        
-        // 清理并统计活跃的会话
-        let activeCount = 0;
-        Object.keys(onlinePool).forEach(key => {
-            if (now - onlinePool[key] <= EXPIRE_TIME) {
-                activeCount++;
-            } else {
-                delete onlinePool[key];
-            }
-        });
-        
-        // 如果本地存储为空，使用基于时间的估算作为 fallback
-        if (activeCount === 0) {
-            activeCount = estimateOnlineUsers();
-        }
-        
-        // 更新显示
-        const onlineElement = document.getElementById('online-users');
-        if (onlineElement) {
-            onlineElement.textContent = activeCount;
-        }
-        
-        // 保存清理后的数据
-        localStorage.setItem(ONLINE_KEY, JSON.stringify(onlinePool));
-        
-        // 更新地图统计（模拟数据）
-        updateMapStats();
-    }
-    
-    // 基于时间估算在线人数（fallback）
-    function estimateOnlineUsers() {
-        const hour = new Date().getHours();
-        let baseUsers = 3;
-        
-        // 工作时间在线人数更多
-        if (hour >= 9 && hour <= 18) {
-            baseUsers = 8;
-        } else if (hour >= 19 && hour <= 23) {
-            baseUsers = 6;
-        } else if (hour >= 0 && hour <= 5) {
-            baseUsers = 1;
-        }
-        
-        // 添加随机波动
-        const randomFactor = Math.random() * 6 - 3;
-        return Math.max(1, Math.round(baseUsers + randomFactor));
-    }
-    
-    // 更新地图统计数据（模拟）
-    function updateMapStats() {
-        const countriesEl = document.getElementById('visitor-countries');
-        const citiesEl = document.getElementById('visitor-cities');
-        
-        if (countriesEl && countriesEl.textContent === '--') {
-            // 模拟基于时间的访问数据
-            const baseCountries = 15;
-            const baseCities = 42;
-            const hour = new Date().getHours();
-            
-            // 工作时间更多
-            const multiplier = (hour >= 8 && hour <= 22) ? 1.5 : 1;
-            
-            countriesEl.textContent = Math.round(baseCountries * multiplier);
-            citiesEl.textContent = Math.round(baseCities * multiplier);
-        }
-    }
-    
-    // 格式化数字（超过1000显示为1k）
-    function formatNumber(num) {
-        if (num >= 1000000) {
-            return (num / 1000000).toFixed(1) + 'M';
-        }
-        if (num >= 1000) {
-            return (num / 1000).toFixed(1) + 'k';
-        }
-        return num.toString();
-    }
-    
-    // 监听 Busuanzi 统计加载完成
-    document.addEventListener('DOMContentLoaded', function() {
-        // 等待 Busuanzi 加载
-        let checkCount = 0;
-        const checkBusuanzi = setInterval(function() {
-            const sitePv = document.getElementById('busuanzi_site_pv');
-            const siteUv = document.getElementById('busuanzi_site_uv');
-            const pagePv = document.getElementById('busuanzi_page_pv');
-            
-            if (sitePv && sitePv.textContent !== '--' && sitePv.textContent !== '') {
-                // Busuanzi 已加载
-                clearInterval(checkBusuanzi);
-                
-                // 添加动画效果
-                [sitePv, siteUv, pagePv].forEach(el => {
-                    if (el) {
-                        el.style.transition = 'all 0.5s ease';
-                        el.style.transform = 'scale(1.2)';
-                        setTimeout(() => {
-                            el.style.transform = 'scale(1)';
-                        }, 300);
-                    }
-                });
-            }
-            
-            checkCount++;
-            if (checkCount > 50) { // 5秒后停止检查
-                clearInterval(checkBusuanzi);
-            }
-        }, 100);
-    });
-
+    // 事件监听
     document.getElementById('close-btn').addEventListener('click', closeDetail);
     document.getElementById('overlay').addEventListener('click', closeDetail);
-    document.getElementById('share-btn').addEventListener('click', () => {
-        const title = document.getElementById('detail-title').textContent;
-        
-        if (navigator.share) {
-            navigator.share({
-                title: `数字花园 - ${title}`,
-                text: `来看看这个数字花园中的想法：${title}`,
-                url: window.location.href
-            });
-        } else {
-            navigator.clipboard.writeText(window.location.href).then(() => {
-                const btn = document.getElementById('share-btn');
-                btn.textContent = '已复制!';
-                setTimeout(() => btn.textContent = '分享', 2000);
-            });
-        }
-    });
 
-    document.addEventListener('keydown', (e) => {
-        if (e.key === 'Escape') closeDetail();
-    });
-
-    // 初始化
-    initGraph();
-    
-    // 初始化访问统计
-    initVisitorStats();
+    // 初始化图表
+    if (document.getElementById('graph-container')) {
+        initGraph();
+    }
 </script>
 {{ end }}

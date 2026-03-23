@@ -1,0 +1,17 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "AI漫游",
+  "name_for_model": "ai_wander",
+  "description_for_human": "探索最新的 AI 新闻、论文、视频和工具资源",
+  "description_for_model": "AI漫游是一个 AI 资源导航站，提供最新的 AI 新闻、学术论文、技术视频、工具导航和投资资讯。可以帮助用户发现 AI 领域的前沿动态和学习资源。",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://yangbc2015.github.io/openapi.yaml"
+  },
+  "logo_url": "https://yangbc2015.github.io/favicon.ico",
+  "contact_email": "hello@example.com",
+  "legal_info_url": "https://yangbc2015.github.io/legal"
+}

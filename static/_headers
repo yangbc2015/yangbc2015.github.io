@@ -1,0 +1,48 @@
+# Netlify/Vercel HTTP Headers Configuration
+# https://docs.netlify.com/routing/headers/
+
+/*
+  # Security Headers
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  X-XSS-Protection: 1; mode=block
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: geolocation=(), microphone=(), camera=()
+  
+  # CORS for API endpoints
+  Access-Control-Allow-Origin: *
+  
+  # Cache control for HTML
+  Cache-Control: public, max-age=0, must-revalidate
+
+# Cache static assets
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/*.css
+  Cache-Control: public, max-age=31536000, immutable
+
+/*.js
+  Cache-Control: public, max-age=31536000, immutable
+
+# Image files
+/*.png
+  Cache-Control: public, max-age=2592000
+
+/*.jpg
+  Cache-Control: public, max-age=2592000
+
+/*.svg
+  Cache-Control: public, max-age=2592000
+
+/*.ico
+  Cache-Control: public, max-age=2592000
+
+# JSON data files
+/*.json
+  Cache-Control: public, max-age=3600
+
+# XML files (sitemap, RSS)
+/*.xml
+  Cache-Control: public, max-age=3600
+  Content-Type: application/xml; charset=utf-8
