@@ -1021,6 +1021,12 @@
         g.setAttribute('class', 'planet');
         g.setAttribute('transform', `translate(${x}, ${y})`);
         g.style.animationDelay = `${index * 0.2}s`;
+        g.style.cursor = 'pointer';
+        
+        // 添加 SVG title 元素作为悬停提示
+        const title = document.createElementNS('http://www.w3.org/2000/svg', 'title');
+        title.textContent = `${planet.name} - ${planet.desc}`;
+        g.appendChild(title);
         
         // 星球圆圈
         const circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
