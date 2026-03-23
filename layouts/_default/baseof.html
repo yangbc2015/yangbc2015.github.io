@@ -683,7 +683,7 @@
             font-family: 'Orbitron', monospace;
         }
 
-        /* 响应式设计 */
+        /* 响应式设计 - 移动端 (< 768px) */
         @media (max-width: 768px) {
             .site-nav {
                 padding: 1rem;
@@ -712,6 +712,38 @@
 
             .search-toggle span {
                 display: none;
+            }
+            
+            .site-logo {
+                font-size: 1.1rem;
+            }
+            
+            .container {
+                padding: 0 1rem;
+            }
+        }
+
+        /* 响应式设计 - iPad平板 (768px - 1024px) */
+        @media (min-width: 769px) and (max-width: 1024px) {
+            .site-nav {
+                padding: 1rem 1.5rem;
+            }
+
+            .site-menu {
+                gap: 0.8rem;
+            }
+
+            .site-menu a {
+                font-size: 0.85rem;
+                padding: 0.3rem 0.6rem;
+            }
+            
+            .site-logo {
+                font-size: 1.2rem;
+            }
+            
+            .container {
+                padding: 0 1.5rem;
             }
         }
     </style>
