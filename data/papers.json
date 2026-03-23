@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-03-23T02:36:10.450670+00:00",
-  "count": 7,
+  "last_updated": "2026-03-23T03:01:14.300816+00:00",
+  "count": 6,
   "items": [
     {
       "title": "From Masks to Pixels and Meaning: A New Taxonomy, Benchmark, and Metrics for VLM Image Tampering",
@@ -90,34 +90,18 @@
       "source": "arXiv"
     },
     {
-      "title": "Structured Latent Dynamics in Wireless CSI via Homomorphic World Models",
-      "authors": "Salmane Naoumi, Mehdi Bennis, Marwa Chafii",
-      "abstract": "We introduce a self-supervised framework for learning predictive and structured representations of wireless channels by modeling the temporal evolution of channel state information (CSI) in a compact latent space. Our method casts the problem as a world modeling task and leverages the Joint Embeddin...",
+      "title": "MeanFlow Meets Control: Scaling Sampled-Data Control for Swarms",
+      "authors": "Anqi Dong, Yongxin Chen, Karl H. Johansson et al.",
+      "abstract": "Steering large-scale swarms in only a few control updates is challenging because real systems operate in sampled-data form: control inputs are updated intermittently and applied over finite intervals. In this regime, the natural object is not an instantaneous velocity field, but a finite-window cont...",
       "venue": "arXiv",
       "date": "2026-03-20",
-      "arxiv_id": "2603.20048v1",
-      "url": "https://arxiv.org/abs/2603.20048v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.20048v1.pdf",
-      "categories": [
-        "eess.SP",
-        "cs.LG"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Federated Hyperdimensional Computing for Resource-Constrained Industrial IoT",
-      "authors": "Nikita Zeulin, Olga Galinina, Nageen Himayat et al.",
-      "abstract": "In the Industrial Internet of Things (IIoT) systems, edge devices often operate under strict constraints in memory, compute capability, and wireless bandwidth. These limitations challenge the deployment of advanced data analytics tasks, such as predictive and prescriptive maintenance. In this work, ...",
-      "venue": "arXiv",
-      "date": "2026-03-20",
-      "arxiv_id": "2603.20037v1",
-      "url": "https://arxiv.org/abs/2603.20037v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.20037v1.pdf",
+      "arxiv_id": "2603.20189v1",
+      "url": "https://arxiv.org/abs/2603.20189v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.20189v1.pdf",
       "categories": [
         "cs.LG",
-        "cs.NI"
+        "cs.MA",
+        "cs.RO"
       ],
       "type": "ml",
       "badge": "arxiv",
