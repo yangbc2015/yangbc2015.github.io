@@ -1,7 +1,33 @@
 {
-  "last_updated": "2026-03-23T16:00:07.996768+00:00",
+  "last_updated": "2026-03-23T17:00:07.971428+00:00",
   "count": 11,
   "items": [
+    {
+      "title": "Littlebird raises $11M for its AI-assisted ‘recall’ tool that reads your computer screen",
+      "link": "https://techcrunch.com/2026/03/23/littlebird-raises-11m-to-capture-context-from-your-computer-so-you-can-query-your-data/",
+      "summary": "Littlebird is building an AI that reads your screen in real time to capture context, answer questions, and automate tasks, without relying on screenshots.",
+      "source": "TechCrunch",
+      "date": "2026-03-24",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "行业动态"
+      ],
+      "fetched_at": "2026-03-23T17:00:07.968399+00:00"
+    },
+    {
+      "title": "Startup Gimlet Labs is solving the AI inference bottleneck in a surprisingly elegant way",
+      "link": "https://techcrunch.com/2026/03/23/startup-gimlet-labs-is-solving-the-ai-inference-bottleneck-in-a-surprisingly-elegant-way/",
+      "summary": "Gimlet Labs just raised an $80 million Series A for tech that lets AI run across NVIDIA, AMD, Intel, ARM, Cerebras and d-Matrix chips, simultaneously.",
+      "source": "TechCrunch",
+      "date": "2026-03-24",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "行业动态"
+      ],
+      "fetched_at": "2026-03-23T17:00:07.969348+00:00"
+    },
     {
       "title": "Claude 4 发布：Anthropic推出新一代AI模型",
       "link": "https://www.jiqizhixin.com/articles/2026-03-23-1",
@@ -11,10 +37,10 @@
       "type": "breakthrough",
       "tags": [
         "Claude",
-        "重大突破",
-        "AI"
+        "AI",
+        "重大突破"
       ],
-      "fetched_at": "2026-03-23T16:00:06.525706+00:00"
+      "fetched_at": "2026-03-23T17:00:06.007932+00:00"
     },
     {
       "title": "Google Gemini 2.5 Pro开放API访问",
@@ -24,11 +50,11 @@
       "date": "2026-03-23",
       "type": "product",
       "tags": [
-        "产品发布",
         "AI",
+        "产品发布",
         "Gemini"
       ],
-      "fetched_at": "2026-03-23T16:00:06.525758+00:00"
+      "fetched_at": "2026-03-23T17:00:06.007960+00:00"
     },
     {
       "title": "OpenAI发布GPT-4.5：更高效的推理架构",
@@ -42,7 +68,7 @@
         "AI",
         "GPT"
       ],
-      "fetched_at": "2026-03-23T16:00:06.525781+00:00"
+      "fetched_at": "2026-03-23T17:00:06.007974+00:00"
     },
     {
       "title": "陶哲轩：我差点江郎才尽，只因在普林斯顿待了一年",
@@ -52,10 +78,10 @@
       "date": "2026-03-23",
       "type": "industry",
       "tags": [
-        "行业动态",
-        "AI"
+        "AI",
+        "行业动态"
       ],
-      "fetched_at": "2026-03-23T16:00:06.842779+00:00"
+      "fetched_at": "2026-03-23T17:00:06.214539+00:00"
     },
     {
       "title": "岚图泰山Ultra启动交付，全新一代896线激光雷达上车",
@@ -65,10 +91,10 @@
       "date": "2026-03-23",
       "type": "industry",
       "tags": [
-        "行业动态",
-        "AI"
+        "AI",
+        "行业动态"
       ],
-      "fetched_at": "2026-03-23T16:00:06.843401+00:00"
+      "fetched_at": "2026-03-23T17:00:06.214793+00:00"
     },
     {
       "title": "Momenta不选VLA选世界模型，大众首发！曹旭东：传感器重要性最后",
@@ -78,10 +104,10 @@
       "date": "2026-03-23",
       "type": "industry",
       "tags": [
-        "行业动态",
-        "AI"
+        "AI",
+        "行业动态"
       ],
-      "fetched_at": "2026-03-23T16:00:06.843569+00:00"
+      "fetched_at": "2026-03-23T17:00:06.215199+00:00"
     },
     {
       "title": "字节版龙虾架构火爆GitHub！开源获35k+ Star，内置Skill全家桶，原生适配飞书",
@@ -91,10 +117,10 @@
       "date": "2026-03-23",
       "type": "industry",
       "tags": [
-        "行业动态",
-        "AI"
+        "AI",
+        "行业动态"
       ],
-      "fetched_at": "2026-03-23T16:00:06.843731+00:00"
+      "fetched_at": "2026-03-23T17:00:06.215846+00:00"
     },
     {
       "title": "寻找最强具身大脑！全球机器人顶会ICRA开启报名，智元全程陪跑带你拿奖",
@@ -104,11 +130,11 @@
       "date": "2026-03-23",
       "type": "industry",
       "tags": [
-        "行业动态",
+        "AI",
         "机器人",
-        "AI"
+        "行业动态"
       ],
-      "fetched_at": "2026-03-23T16:00:06.843902+00:00"
+      "fetched_at": "2026-03-23T17:00:06.216271+00:00"
     },
     {
       "title": "Elizabeth Warren calls Pentagon’s decision to bar Anthropic ‘retaliation’",
@@ -118,37 +144,10 @@
       "date": "2026-03-23",
       "type": "industry",
       "tags": [
-        "行业动态",
-        "AI"
+        "AI",
+        "行业动态"
       ],
-      "fetched_at": "2026-03-23T16:00:07.995999+00:00"
-    },
-    {
-      "title": "Sam Altman-backed fusion startup Helion in talks with OpenAI",
-      "link": "https://techcrunch.com/2026/03/23/sam-altman-backed-fusion-startup-helion-in-talks-with-openai/",
-      "summary": "Helion is reportedly negotiating a deal that would see it sell 12.5% of its power output to OpenAI.",
-      "source": "TechCrunch",
-      "date": "2026-03-23",
-      "type": "industry",
-      "tags": [
-        "行业动态",
-        "AI"
-      ],
-      "fetched_at": "2026-03-23T16:00:07.996383+00:00"
-    },
-    {
-      "title": "Do you want to build a robot snowman?",
-      "link": "https://techcrunch.com/2026/03/22/do-you-want-to-build-a-robot-snowman/",
-      "summary": "On the latest episode of the Equity podcast, we recapped CEO Jensen Huang’s GTC keynote and debated what it means for Nvidia’s future.",
-      "source": "TechCrunch",
-      "date": "2026-03-23",
-      "type": "product",
-      "tags": [
-        "产品发布",
-        "机器人",
-        "AI"
-      ],
-      "fetched_at": "2026-03-23T16:00:07.996620+00:00"
+      "fetched_at": "2026-03-23T17:00:07.970574+00:00"
     }
   ]
 }
