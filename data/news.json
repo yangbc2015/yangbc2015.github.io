@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-23T15:00:07.545738+00:00",
+  "last_updated": "2026-03-23T16:00:07.996768+00:00",
   "count": 11,
   "items": [
     {
@@ -10,11 +10,11 @@
       "date": "2026-03-23",
       "type": "breakthrough",
       "tags": [
-        "AI",
+        "Claude",
         "重大突破",
-        "Claude"
+        "AI"
       ],
-      "fetched_at": "2026-03-23T15:00:05.981426+00:00"
+      "fetched_at": "2026-03-23T16:00:06.525706+00:00"
     },
     {
       "title": "Google Gemini 2.5 Pro开放API访问",
@@ -24,11 +24,11 @@
       "date": "2026-03-23",
       "type": "product",
       "tags": [
+        "产品发布",
         "AI",
-        "Gemini",
-        "产品发布"
+        "Gemini"
       ],
-      "fetched_at": "2026-03-23T15:00:05.981464+00:00"
+      "fetched_at": "2026-03-23T16:00:06.525758+00:00"
     },
     {
       "title": "OpenAI发布GPT-4.5：更高效的推理架构",
@@ -38,11 +38,11 @@
       "date": "2026-03-23",
       "type": "breakthrough",
       "tags": [
+        "重大突破",
         "AI",
-        "GPT",
-        "重大突破"
+        "GPT"
       ],
-      "fetched_at": "2026-03-23T15:00:05.981486+00:00"
+      "fetched_at": "2026-03-23T16:00:06.525781+00:00"
     },
     {
       "title": "陶哲轩：我差点江郎才尽，只因在普林斯顿待了一年",
@@ -52,10 +52,10 @@
       "date": "2026-03-23",
       "type": "industry",
       "tags": [
-        "AI",
-        "行业动态"
+        "行业动态",
+        "AI"
       ],
-      "fetched_at": "2026-03-23T15:00:06.202649+00:00"
+      "fetched_at": "2026-03-23T16:00:06.842779+00:00"
     },
     {
       "title": "岚图泰山Ultra启动交付，全新一代896线激光雷达上车",
@@ -65,10 +65,10 @@
       "date": "2026-03-23",
       "type": "industry",
       "tags": [
-        "AI",
-        "行业动态"
+        "行业动态",
+        "AI"
       ],
-      "fetched_at": "2026-03-23T15:00:06.202838+00:00"
+      "fetched_at": "2026-03-23T16:00:06.843401+00:00"
     },
     {
       "title": "Momenta不选VLA选世界模型，大众首发！曹旭东：传感器重要性最后",
@@ -78,10 +78,10 @@
       "date": "2026-03-23",
       "type": "industry",
       "tags": [
-        "AI",
-        "行业动态"
+        "行业动态",
+        "AI"
       ],
-      "fetched_at": "2026-03-23T15:00:06.202996+00:00"
+      "fetched_at": "2026-03-23T16:00:06.843569+00:00"
     },
     {
       "title": "字节版龙虾架构火爆GitHub！开源获35k+ Star，内置Skill全家桶，原生适配飞书",
@@ -91,10 +91,10 @@
       "date": "2026-03-23",
       "type": "industry",
       "tags": [
-        "AI",
-        "行业动态"
+        "行业动态",
+        "AI"
       ],
-      "fetched_at": "2026-03-23T15:00:06.203140+00:00"
+      "fetched_at": "2026-03-23T16:00:06.843731+00:00"
     },
     {
       "title": "寻找最强具身大脑！全球机器人顶会ICRA开启报名，智元全程陪跑带你拿奖",
@@ -104,11 +104,37 @@
       "date": "2026-03-23",
       "type": "industry",
       "tags": [
-        "AI",
         "行业动态",
-        "机器人"
+        "机器人",
+        "AI"
       ],
-      "fetched_at": "2026-03-23T15:00:06.203281+00:00"
+      "fetched_at": "2026-03-23T16:00:06.843902+00:00"
+    },
+    {
+      "title": "Elizabeth Warren calls Pentagon’s decision to bar Anthropic ‘retaliation’",
+      "link": "https://techcrunch.com/2026/03/23/elizabeth-warren-anthropic-pentagon-defense-supply-chain-risk-retaliation/",
+      "summary": "In a letter to Defense Secretary Pete Hegseth, Senator Elizabeth Warren (D-MA) equated the DoD's decision to label Anthropic a \"supply chain risk\" as retaliation, arguing that the Pentagon could simply have terminated its contract with the AI lab.",
+      "source": "TechCrunch",
+      "date": "2026-03-23",
+      "type": "industry",
+      "tags": [
+        "行业动态",
+        "AI"
+      ],
+      "fetched_at": "2026-03-23T16:00:07.995999+00:00"
+    },
+    {
+      "title": "Sam Altman-backed fusion startup Helion in talks with OpenAI",
+      "link": "https://techcrunch.com/2026/03/23/sam-altman-backed-fusion-startup-helion-in-talks-with-openai/",
+      "summary": "Helion is reportedly negotiating a deal that would see it sell 12.5% of its power output to OpenAI.",
+      "source": "TechCrunch",
+      "date": "2026-03-23",
+      "type": "industry",
+      "tags": [
+        "行业动态",
+        "AI"
+      ],
+      "fetched_at": "2026-03-23T16:00:07.996383+00:00"
     },
     {
       "title": "Do you want to build a robot snowman?",
@@ -118,38 +144,11 @@
       "date": "2026-03-23",
       "type": "product",
       "tags": [
-        "AI",
+        "产品发布",
         "机器人",
-        "产品发布"
+        "AI"
       ],
-      "fetched_at": "2026-03-23T15:00:07.544960+00:00"
-    },
-    {
-      "title": "Cursor admits its new coding model was built on top of Moonshot AI’s Kimi",
-      "link": "https://techcrunch.com/2026/03/22/cursor-admits-its-new-coding-model-was-built-on-top-of-moonshot-ais-kimi/",
-      "summary": "Building on top of a Chinese model feels particularly fraught right now.",
-      "source": "TechCrunch",
-      "date": "2026-03-23",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "行业动态",
-        "代码"
-      ],
-      "fetched_at": "2026-03-23T15:00:07.545259+00:00"
-    },
-    {
-      "title": "Elon Musk unveils chip manufacturing plans for SpaceX and Tesla",
-      "link": "https://techcrunch.com/2026/03/22/elon-musk-unveils-chip-manufacturing-plans-for-spacex-and-tesla/",
-      "summary": "Elon Musk recently outlined ambitious plans for a chip-building collaboration Tesla and SpaceX — but he has a history of overpromising.",
-      "source": "TechCrunch",
-      "date": "2026-03-23",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "行业动态"
-      ],
-      "fetched_at": "2026-03-23T15:00:07.545601+00:00"
+      "fetched_at": "2026-03-23T16:00:07.996620+00:00"
     }
   ]
 }
