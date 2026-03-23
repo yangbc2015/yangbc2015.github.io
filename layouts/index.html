@@ -699,7 +699,7 @@
     
     <!-- 背景音乐播放器 -->
     <div class="music-player" id="music-player">
-        <audio id="bg-music" loop>
+        <audio id="bg-music" loop preload="auto" crossorigin="anonymous">
             <source src="/music/bg-music.mp3" type="audio/mpeg">
             您的浏览器不支持音频播放。
         </audio>
@@ -1494,17 +1494,36 @@ function loadScript(src) {
     const musicLabel = document.getElementById('music-label');
     const visualizer = document.getElementById('music-visualizer');
     
-    if (!musicToggle || !bgMusic) return;
+    if (!musicToggle || !bgMusic) {
+        console.log('音乐播放器元素未找到');
+        return;
+    }
     
     let isPlaying = false;
     let hasInteracted = false;
+    let isAudioLoaded = false;
+    
+    // 初始化音频设置
+    bgMusic.volume = 0.5; // 提高音量到50%
+    bgMusic.muted = false;
+    
+    // 监听音频加载状态
+    bgMusic.addEventListener('canplaythrough', function() {
+        console.log('音频加载完成，时长:', bgMusic.duration, '秒');
+        isAudioLoaded = true;
+    });
+    
+    bgMusic.addEventListener('error', function(e) {
+        console.error('音频加载失败:', e);
+        musicLabel.textContent = '加载失败';
+    });
     
     // 更新播放状态UI
     function updateUI(playing) {
         if (playing) {
             musicIcon.style.display = 'flex';
             musicIconPaused.style.display = 'none';
-            musicLabel.textContent = '音乐';
+            musicLabel.textContent = '播放中';
             visualizer.classList.add('active');
             musicToggle.style.background = 'rgba(0, 255, 65, 0.15)';
             musicToggle.style.borderColor = 'var(--neon-green)';
@@ -1522,62 +1541,57 @@ function loadScript(src) {
     
     // 切换播放状态
     function toggleMusic() {
+        console.log('切换音乐状态, 当前:', isPlaying, '加载状态:', isAudioLoaded);
+        
         if (isPlaying) {
             bgMusic.pause();
             isPlaying = false;
+            updateUI(false);
         } else {
+            // 重新设置音量和静音状态
+            bgMusic.volume = 0.5;
+            bgMusic.muted = false;
+            
             bgMusic.play().then(() => {
+                console.log('音乐开始播放');
                 isPlaying = true;
                 hasInteracted = true;
+                updateUI(true);
             }).catch(err => {
-                console.log('音乐播放失败:', err);
+                console.error('音乐播放失败:', err);
+                musicLabel.textContent = '播放失败';
             });
         }
-        updateUI(isPlaying);
     }
     
     // 点击按钮切换
-    musicToggle.addEventListener('click', toggleMusic);
+    musicToggle.addEventListener('click', function(e) {
+        e.stopPropagation(); // 阻止冒泡
+        toggleMusic();
+    });
     
     // 监听音乐事件
     bgMusic.addEventListener('play', () => {
+        console.log('音频事件: play');
         isPlaying = true;
         updateUI(true);
     });
     
     bgMusic.addEventListener('pause', () => {
+        console.log('音频事件: pause');
         isPlaying = false;
         updateUI(false);
     });
     
     bgMusic.addEventListener('ended', () => {
+        console.log('音频事件: ended');
         isPlaying = false;
         updateUI(false);
     });
     
-    // 自动尝试播放（需要用户交互后）
-    function tryAutoPlay() {
-        if (hasInteracted) {
-            bgMusic.play().then(() => {
-                isPlaying = true;
-                updateUI(true);
-            }).catch(() => {
-                // 自动播放被阻止，等待用户点击
-            });
-        }
-    }
-    
-    // 用户首次交互时尝试自动播放
-    document.addEventListener('click', function autoPlayOnFirstInteraction() {
-        if (!hasInteracted) {
-            hasInteracted = true;
-            tryAutoPlay();
-        }
-        document.removeEventListener('click', autoPlayOnFirstInteraction);
-    }, { once: true });
-    
-    // 设置音量
-    bgMusic.volume = 0.3;
+    // 初始化显示
+    updateUI(false);
+    console.log('音乐播放器初始化完成, 音量:', bgMusic.volume, '静音:', bgMusic.muted);
 })();
 
 // 页面加载完成后执行
