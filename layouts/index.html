@@ -70,84 +70,166 @@
         text-align: center;
     }
 
-    /* 名人名言模块 */
+    /* 名人名言横幅 - 大气文艺版 */
     .quote-section {
-        max-width: 800px;
-        margin: 0 auto 2rem;
-        padding: 0 1rem;
-    }
-
-    .quote-container {
-        background: linear-gradient(135deg, rgba(0, 255, 65, 0.05) 0%, rgba(0, 240, 255, 0.05) 100%);
-        border: 1px solid var(--neon-green-dim);
-        border-radius: 15px;
-        padding: 2rem;
+        width: 100%;
+        margin: 0 0 3rem;
+        padding: 4rem 2rem;
+        background: linear-gradient(180deg, 
+            transparent 0%, 
+            rgba(0, 255, 65, 0.03) 20%, 
+            rgba(0, 240, 255, 0.05) 50%,
+            rgba(0, 255, 65, 0.03) 80%, 
+            transparent 100%);
         position: relative;
         overflow: hidden;
     }
 
-    .quote-container::before {
-        content: '"';
+    /* 顶部发光线条 */
+    .quote-section::before {
+        content: '';
         position: absolute;
-        top: -10px;
-        left: 15px;
-        font-family: Georgia, serif;
-        font-size: 6rem;
-        color: var(--neon-green);
-        opacity: 0.2;
-        line-height: 1;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 1px;
+        background: linear-gradient(90deg, 
+            transparent 0%, 
+            var(--neon-green) 20%, 
+            var(--neon-blue) 50%, 
+            var(--neon-green) 80%, 
+            transparent 100%);
+        opacity: 0.6;
+        animation: quoteLinePulse 4s ease-in-out infinite;
     }
 
-    .quote-container::after {
-        content: '"';
+    /* 底部发光线条 */
+    .quote-section::after {
+        content: '';
         position: absolute;
-        bottom: -40px;
-        right: 15px;
-        font-family: Georgia, serif;
-        font-size: 6rem;
-        color: var(--neon-green);
-        opacity: 0.2;
-        line-height: 1;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 1px;
+        background: linear-gradient(90deg, 
+            transparent 0%, 
+            var(--neon-green) 20%, 
+            var(--neon-blue) 50%, 
+            var(--neon-green) 80%, 
+            transparent 100%);
+        opacity: 0.6;
+        animation: quoteLinePulse 4s ease-in-out infinite reverse;
     }
 
+    @keyframes quoteLinePulse {
+        0%, 100% { opacity: 0.3; }
+        50% { opacity: 0.8; }
+    }
+
+    .quote-container {
+        max-width: 1100px;
+        margin: 0 auto;
+        position: relative;
+        text-align: center;
+        padding: 2rem 4rem;
+    }
+
+    /* 装饰性大引号 */
+    .quote-decoration {
+        font-family: 'Georgia', 'Times New Roman', serif;
+        font-size: 18rem;
+        color: var(--neon-green);
+        opacity: 0.06;
+        position: absolute;
+        line-height: 1;
+        user-select: none;
+        pointer-events: none;
+        animation: quoteFloat 6s ease-in-out infinite;
+        font-weight: bold;
+    }
+
+    .quote-decoration.open {
+        top: -4rem;
+        left: -1rem;
+    }
+
+    .quote-decoration.close {
+        bottom: -10rem;
+        right: -1rem;
+        animation-delay: -3s;
+    }
+
+    @keyframes quoteFloat {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-15px); }
+    }
+
+    /* 英文名言 - 大号字体 */
     .quote-text-en {
-        font-family: 'Orbitron', monospace;
-        font-size: 1.1rem;
+        font-family: 'Orbitron', 'Georgia', serif;
+        font-size: 2rem;
         color: var(--text-primary);
         line-height: 1.8;
-        margin-bottom: 1rem;
+        margin-bottom: 1.5rem;
         font-style: italic;
         position: relative;
         z-index: 1;
+        letter-spacing: 0.03em;
+        text-shadow: 0 0 40px rgba(0, 255, 65, 0.25);
+        animation: fadeInUp 1s ease-out;
     }
 
+    /* 中文翻译 */
     .quote-text-cn {
-        font-size: 1.05rem;
+        font-size: 1.5rem;
         color: var(--text-secondary);
-        line-height: 1.8;
-        margin-bottom: 1.5rem;
+        line-height: 2;
+        margin-bottom: 3rem;
         position: relative;
         z-index: 1;
+        font-weight: 300;
+        letter-spacing: 0.08em;
+        animation: fadeInUp 1s ease-out 0.3s both;
     }
 
+    @keyframes fadeInUp {
+        from {
+            opacity: 0;
+            transform: translateY(30px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    /* 作者信息 */
     .quote-author {
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 1rem;
+        gap: 1.5rem;
         position: relative;
         z-index: 1;
+        animation: fadeInUp 1s ease-out 0.6s both;
     }
 
     .quote-avatar {
-        width: 50px;
-        height: 50px;
+        width: 70px;
+        height: 70px;
         border-radius: 50%;
-        background: linear-gradient(135deg, var(--neon-green), var(--neon-blue));
+        background: linear-gradient(135deg, var(--neon-green) 0%, var(--neon-blue) 100%);
         display: flex;
         align-items: center;
         justify-content: center;
-        font-size: 1.5rem;
+        font-size: 2rem;
+        box-shadow: 0 0 30px var(--neon-green-glow), inset 0 0 20px rgba(255,255,255,0.2);
+        animation: avatarGlow 3s ease-in-out infinite;
+    }
+
+    @keyframes avatarGlow {
+        0%, 100% { box-shadow: 0 0 20px var(--neon-green-glow); }
+        50% { box-shadow: 0 0 40px var(--neon-green-glow), 0 0 60px rgba(0, 240, 255, 0.3); }
     }
 
     .quote-info {
@@ -156,14 +238,18 @@
 
     .quote-name {
         font-family: 'Orbitron', monospace;
-        font-size: 1rem;
+        font-size: 1.4rem;
         color: var(--neon-green);
-        font-weight: 600;
+        font-weight: 700;
+        letter-spacing: 0.15em;
+        text-shadow: 0 0 15px var(--neon-green-glow);
     }
 
     .quote-title {
-        font-size: 0.8rem;
+        font-size: 1rem;
         color: var(--text-secondary);
+        margin-top: 0.4rem;
+        letter-spacing: 0.1em;
     }
 
     /* 栏目跳转卡片 */
@@ -775,19 +861,50 @@
         }
 
         .quote-section {
+            padding: 2.5rem 1rem;
             margin-bottom: 1.5rem;
         }
 
         .quote-container {
-            padding: 1.5rem;
+            padding: 1rem 1.5rem;
+        }
+
+        .quote-decoration {
+            font-size: 10rem;
+        }
+
+        .quote-decoration.open {
+            top: -2rem;
+            left: -0.5rem;
+        }
+
+        .quote-decoration.close {
+            bottom: -6rem;
+            right: -0.5rem;
         }
 
         .quote-text-en {
-            font-size: 0.95rem;
+            font-size: 1.15rem;
+            line-height: 1.7;
         }
 
         .quote-text-cn {
-            font-size: 0.9rem;
+            font-size: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .quote-avatar {
+            width: 55px;
+            height: 55px;
+            font-size: 1.5rem;
+        }
+
+        .quote-name {
+            font-size: 1.1rem;
+        }
+
+        .quote-title {
+            font-size: 0.85rem;
         }
 
         .sections-grid {
@@ -867,17 +984,27 @@
     <h1 class="glitch-title" data-text="AI漫游">AI漫游</h1>
 </section>
 
-<!-- 名人名言模块 - 图灵 -->
+<!-- 名人名言横幅 - Alan Turing -->
 <section class="quote-section">
     <div class="quote-container">
+        <!-- 装饰性大引号 -->
+        <span class="quote-decoration open">"</span>
+        <span class="quote-decoration close">"</span>
+        
+        <!-- 英文名言 -->
         <p class="quote-text-en">
-            "We can only see a short distance ahead, but we can see plenty there that needs to be done."
+            We can only see a short distance ahead,<br>
+            but we can see plenty there that needs to be done.
         </p>
+        
+        <!-- 中文翻译 -->
         <p class="quote-text-cn">
             我们只能看到不远的前方，但我们能看到许多需要完成的事情。
         </p>
+        
+        <!-- 作者信息 -->
         <div class="quote-author">
-            <div class="quote-avatar">👤</div>
+            <div class="quote-avatar">🧠</div>
             <div class="quote-info">
                 <div class="quote-name">Alan Turing</div>
                 <div class="quote-title">计算机科学之父 · 人工智能先驱</div>
@@ -930,18 +1057,22 @@
     </a>
 </section>
 
-<!-- 访问统计 - 点击交互 -->
+<!-- 访问统计 - 使用不蒜子全局计数 -->
 <div class="visitor-counter">
-    <button class="counter-button" id="counter-btn" onclick="incrementCounter()">
-        <span class="counter-icon">👆</span>
+    <div class="counter-button" id="counter-btn">
+        <span class="counter-icon">👋</span>
         <div class="counter-content">
-            <span class="counter-text">我是第</span>
-            <span class="counter-number" id="visitor-count">--</span>
+            <span class="counter-text">您是第</span>
+            <span class="counter-number" id="visitor-count">
+                <span id="busuanzi_value_site_pv">--</span>
+            </span>
             <span class="counter-text">位访问者</span>
         </div>
-    </button>
+    </div>
 </div>
-<p class="counter-hint" style="text-align: center;">点击按钮记录你的访问</p>
+<p class="counter-hint" style="text-align: center;">欢迎访问 AI 漫游 🍀</p>
+<!-- 不蒜子计数器脚本 -->
+<script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
 <!-- 主内容区域 - 并行布局 -->
 <div class="main-content">
@@ -1000,99 +1131,27 @@
 
 {{ define "scripts" }}
 <script>
-    // 访问计数功能
-    function initCounter() {
-        const COUNTER_KEY = 'ai_wander_visitor_count';
-        const USER_VISITED_KEY = 'ai_wander_user_visited';
-        
-        // 获取当前计数
-        let count = parseInt(localStorage.getItem(COUNTER_KEY) || '0');
-        
-        // 如果用户还没点击过，显示当前计数
-        if (!localStorage.getItem(USER_VISITED_KEY)) {
-            document.getElementById('visitor-count').textContent = (count + 1).toLocaleString();
-        } else {
-            // 用户已经点击过，显示当时的编号
-            const userNumber = localStorage.getItem(USER_VISITED_KEY);
-            document.getElementById('visitor-count').textContent = userNumber;
-            document.querySelector('.counter-hint').textContent = '感谢你的访问！';
-            document.getElementById('counter-btn').style.cursor = 'default';
+    // 不蒜子计数器加载完成后的动画效果
+    document.addEventListener('DOMContentLoaded', function() {
+        const counterElement = document.getElementById('busuanzi_value_site_pv');
+        if (counterElement) {
+            // 监听内容变化（不蒜子加载完成时会更新内容）
+            const observer = new MutationObserver(function(mutations) {
+                mutations.forEach(function(mutation) {
+                    if (mutation.type === 'childList' || mutation.type === 'characterData') {
+                        // 添加缩放动画
+                        counterElement.style.display = 'inline-block';
+                        counterElement.style.transform = 'scale(1.3)';
+                        counterElement.style.transition = 'transform 0.3s ease';
+                        setTimeout(() => {
+                            counterElement.style.transform = 'scale(1)';
+                        }, 300);
+                    }
+                });
+            });
+            observer.observe(counterElement, { childList: true, characterData: true, subtree: true });
         }
-    }
-
-    function incrementCounter() {
-        const COUNTER_KEY = 'ai_wander_visitor_count';
-        const USER_VISITED_KEY = 'ai_wander_user_visited';
-        
-        // 检查用户是否已经点击过
-        if (localStorage.getItem(USER_VISITED_KEY)) {
-            return; // 已经访问过，不增加计数
-        }
-        
-        // 获取并增加计数
-        let count = parseInt(localStorage.getItem(COUNTER_KEY) || '0');
-        count++;
-        localStorage.setItem(COUNTER_KEY, count);
-        
-        // 记录用户的访问编号
-        localStorage.setItem(USER_VISITED_KEY, count.toLocaleString());
-        
-        // 更新显示
-        const counterElement = document.getElementById('visitor-count');
-        counterElement.textContent = count.toLocaleString();
-        
-        // 添加动画效果
-        counterElement.style.transform = 'scale(1.3)';
-        counterElement.style.transition = 'transform 0.3s ease';
-        setTimeout(() => {
-            counterElement.style.transform = 'scale(1)';
-        }, 300);
-        
-        // 更新提示文字
-        document.querySelector('.counter-hint').textContent = '感谢你的访问！';
-        
-        // 创建庆祝效果
-        createCelebration();
-    }
-
-    // 庆祝动画
-    function createCelebration() {
-        const colors = ['#00ff41', '#00f0ff', '#ff00ff', '#ffff00', '#ff6600'];
-        const button = document.getElementById('counter-btn');
-        const rect = button.getBoundingClientRect();
-        
-        for (let i = 0; i < 20; i++) {
-            const particle = document.createElement('div');
-            particle.style.cssText = `
-                position: fixed;
-                width: 8px;
-                height: 8px;
-                background: ${colors[Math.floor(Math.random() * colors.length)]};
-                border-radius: 50%;
-                pointer-events: none;
-                z-index: 9999;
-                left: ${rect.left + rect.width / 2}px;
-                top: ${rect.top + rect.height / 2}px;
-            `;
-            document.body.appendChild(particle);
-            
-            const angle = (Math.PI * 2 * i) / 20;
-            const velocity = 50 + Math.random() * 100;
-            const vx = Math.cos(angle) * velocity;
-            const vy = Math.sin(angle) * velocity;
-            
-            particle.animate([
-                { transform: 'translate(0, 0) scale(1)', opacity: 1 },
-                { transform: `translate(${vx}px, ${vy}px) scale(0)`, opacity: 0 }
-            ], {
-                duration: 800 + Math.random() * 400,
-                easing: 'cubic-bezier(0, .9, .57, 1)'
-            }).onfinish = () => particle.remove();
-        }
-    }
-
-    // 初始化计数器
-    initCounter();
+    });
 
     // 从 Hugo 内容读取节点数据
     const nodesData = [
