@@ -417,22 +417,21 @@
         font-size: 14px;
         font-weight: 600;
         text-anchor: middle;
-        fill: var(--neon-green);
+        fill: var(--text-primary);
         pointer-events: none;
         opacity: 0;
         transition: all 0.3s ease;
-        text-shadow: 0 0 10px rgba(0, 255, 65, 0.5);
     }
 
     .planet:hover .planet-label {
         opacity: 1;
-        transform: translateY(40px);
+        transform: translateY(35px);
     }
 
     .planet-desc {
-        font-size: 12px;
+        font-size: 11px;
         text-anchor: middle;
-        fill: var(--neon-blue);
+        fill: var(--text-secondary);
         pointer-events: none;
         opacity: 0;
         transition: all 0.3s ease 0.1s;
@@ -440,7 +439,7 @@
 
     .planet:hover .planet-desc {
         opacity: 1;
-        transform: translateY(55px);
+        transform: translateY(50px);
     }
 
     /* 粒子流动效果 */
@@ -1021,12 +1020,10 @@
         const g = document.createElementNS('http://www.w3.org/2000/svg', 'g');
         g.setAttribute('class', 'planet');
         g.setAttribute('transform', `translate(${x}, ${y})`);
-        g.setAttribute('data-name', planet.name);
-        g.setAttribute('data-desc', planet.desc);
         g.style.animationDelay = `${index * 0.2}s`;
         g.style.cursor = 'pointer';
         
-        // 添加 SVG title 元素作为悬停提示（浏览器原生提示）
+        // 添加 SVG title 元素作为悬停提示
         const title = document.createElementNS('http://www.w3.org/2000/svg', 'title');
         title.textContent = `${planet.name} - ${planet.desc}`;
         g.appendChild(title);
