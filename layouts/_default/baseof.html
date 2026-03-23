@@ -123,12 +123,28 @@
     <!-- <meta name="baidu-site-verification" content="YOUR_CODE"> -->
     
     <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
-
-    <!-- D3.js -->
-    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <!-- 字体优先使用系统字体，避免加载外部资源 -->
+    <style>
+        /* 系统字体回退 */
+        @font-face {
+            font-family: 'Orbitron-fallback';
+            src: local('Arial'), local('Helvetica'), local('sans-serif');
+        }
+    </style>
+    <!-- 仅在非中国大陆环境加载 Google Fonts -->
+    <script>
+        (function() {
+            // 检测是否为中国用户（简单检测时区）
+            const offset = new Date().getTimezoneOffset();
+            // 中国时区为 UTC+8，offset = -480
+            if (offset !== -480) {
+                const link = document.createElement('link');
+                link.href = 'https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Noto+Sans+SC:wght@300;400;500;700&display=swap';
+                link.rel = 'stylesheet';
+                document.head.appendChild(link);
+            }
+        })();
+    </script>
 
     {{ block "styles" . }}
     <style>
