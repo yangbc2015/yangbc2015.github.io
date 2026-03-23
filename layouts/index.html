@@ -2,196 +2,526 @@
 
 {{ define "extra-head" }}
 <style>
-    /* Glitch 标题效果 */
-    .glitch-title {
-        font-family: 'Orbitron', monospace;
-        font-size: clamp(2rem, 5vw, 4rem);
-        font-weight: 900;
-        color: var(--neon-green);
-        text-transform: uppercase;
-        letter-spacing: 0.1em;
-        text-shadow: 
-            0 0 10px var(--neon-green-glow),
-            0 0 20px var(--neon-green-glow),
-            0 0 40px var(--neon-green-glow);
-        position: relative;
-        animation: glitch 3s infinite;
+    /* ===== 全局样式变量 ===== */
+    :root {
+        --primary: #1a1a2e;
+        --secondary: #16213e;
+        --accent: #0f3460;
+        --highlight: #e94560;
+        --text-primary: #eaeaea;
+        --text-secondary: #a0a0a0;
+        --text-muted: #6c757d;
+        --gradient-1: #667eea;
+        --gradient-2: #764ba2;
+        --gradient-3: #f093fb;
+        --gradient-4: #f5576c;
+        --glass-bg: rgba(255, 255, 255, 0.03);
+        --glass-border: rgba(255, 255, 255, 0.08);
     }
 
-    .glitch-title::before,
-    .glitch-title::after {
-        content: attr(data-text);
+    /* ===== Hero 区域 ===== */
+    .hero-section {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        overflow: hidden;
+        padding: 2rem;
+    }
+
+    /* 动态背景粒子 */
+    .hero-bg {
         position: absolute;
         top: 0;
         left: 0;
         width: 100%;
         height: 100%;
+        z-index: 0;
     }
 
-    .glitch-title::before {
-        animation: glitch-1 2s infinite;
-        color: #ff00ff;
-        z-index: -1;
+    .hero-bg canvas {
+        width: 100%;
+        height: 100%;
     }
 
-    .glitch-title::after {
-        animation: glitch-2 2s infinite;
-        color: #00ffff;
-        z-index: -2;
+    /* 主标题 - 优雅渐变 */
+    .hero-content {
+        position: relative;
+        z-index: 1;
+        text-align: center;
+        max-width: 900px;
     }
 
-    @keyframes glitch {
-        0%, 100% { transform: translate(0); }
-        20% { transform: translate(-2px, 2px); }
-        40% { transform: translate(-2px, -2px); }
-        60% { transform: translate(2px, 2px); }
-        80% { transform: translate(2px, -2px); }
+    .hero-badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        padding: 0.5rem 1.25rem;
+        background: var(--glass-bg);
+        border: 1px solid var(--glass-border);
+        border-radius: 50px;
+        font-size: 0.85rem;
+        color: var(--text-secondary);
+        margin-bottom: 2rem;
+        backdrop-filter: blur(10px);
+        animation: fadeInDown 1s ease-out;
     }
 
-    @keyframes glitch-1 {
-        0%, 100% { clip-path: inset(0 0 0 0); transform: translate(0); }
-        20% { clip-path: inset(20% 0 60% 0); transform: translate(-3px, 0); }
-        40% { clip-path: inset(40% 0 40% 0); transform: translate(3px, 0); }
-        60% { clip-path: inset(60% 0 20% 0); transform: translate(-3px, 0); }
-        80% { clip-path: inset(80% 0 0% 0); transform: translate(3px, 0); }
+    .hero-badge::before {
+        content: '';
+        width: 8px;
+        height: 8px;
+        background: #10b981;
+        border-radius: 50%;
+        animation: pulse 2s infinite;
     }
 
-    @keyframes glitch-2 {
-        0%, 100% { clip-path: inset(0 0 0 0); transform: translate(0); }
-        20% { clip-path: inset(60% 0 20% 0); transform: translate(3px, 0); }
-        40% { clip-path: inset(40% 0 40% 0); transform: translate(-3px, 0); }
-        60% { clip-path: inset(20% 0 60% 0); transform: translate(3px, 0); }
-        80% { clip-path: inset(0% 0 80% 0); transform: translate(-3px, 0); }
+    .hero-title {
+        font-size: clamp(3rem, 8vw, 6rem);
+        font-weight: 700;
+        line-height: 1.1;
+        margin-bottom: 1.5rem;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 25%, #f093fb 50%, #f5576c 75%, #667eea 100%);
+        background-size: 400% 400%;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        animation: gradientShift 8s ease infinite, fadeInUp 1s ease-out 0.2s both;
     }
 
-    /* 主页头部 */
-    .hero-section {
-        padding: 2rem 1rem 1rem;
+    .hero-subtitle {
+        font-size: clamp(1.1rem, 2.5vw, 1.5rem);
+        color: var(--text-secondary);
+        line-height: 1.8;
+        margin-bottom: 3rem;
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        animation: fadeInUp 1s ease-out 0.4s both;
+    }
+
+    /* 统计信息 */
+    .hero-stats {
+        display: flex;
+        justify-content: center;
+        gap: 3rem;
+        margin-bottom: 3rem;
+        animation: fadeInUp 1s ease-out 0.6s both;
+    }
+
+    .stat-item {
         text-align: center;
     }
 
-    /* 名人名言横幅 - 大气文艺版 */
-    .quote-section {
+    .stat-number {
+        font-size: 2.5rem;
+        font-weight: 700;
+        background: linear-gradient(135deg, var(--gradient-1), var(--gradient-2));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+
+    .stat-label {
+        font-size: 0.9rem;
+        color: var(--text-muted);
+        margin-top: 0.25rem;
+    }
+
+    /* 滚动提示 */
+    .scroll-indicator {
+        position: absolute;
+        bottom: 2rem;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+        color: var(--text-muted);
+        font-size: 0.85rem;
+        animation: fadeInUp 1s ease-out 1s both, bounce 2s infinite;
+        cursor: pointer;
+        z-index: 1;
+    }
+
+    .scroll-indicator svg {
+        width: 24px;
+        height: 24px;
+    }
+
+    /* ===== 星系导航系统 ===== */
+    .galaxy-section {
+        padding: 6rem 2rem;
+        position: relative;
+    }
+
+    .section-header {
+        text-align: center;
+        margin-bottom: 4rem;
+    }
+
+    .section-tag {
+        display: inline-block;
+        padding: 0.35rem 1rem;
+        background: linear-gradient(135deg, rgba(102, 126, 234, 0.1), rgba(118, 75, 162, 0.1));
+        border: 1px solid rgba(102, 126, 234, 0.3);
+        border-radius: 50px;
+        font-size: 0.8rem;
+        color: var(--gradient-1);
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        margin-bottom: 1rem;
+    }
+
+    .section-title {
+        font-size: clamp(2rem, 4vw, 3rem);
+        font-weight: 700;
+        margin-bottom: 1rem;
+        color: var(--text-primary);
+    }
+
+    .section-desc {
+        font-size: 1.1rem;
+        color: var(--text-secondary);
+        max-width: 500px;
+        margin: 0 auto;
+        line-height: 1.7;
+    }
+
+    /* 星系容器 */
+    .galaxy-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        position: relative;
+        height: 700px;
+    }
+
+    #galaxy-svg {
         width: 100%;
-        margin: 0 0 3rem;
+        height: 100%;
+    }
+
+    /* 轨道线 */
+    .orbit {
+        fill: none;
+        stroke: var(--glass-border);
+        stroke-width: 1;
+        stroke-dasharray: 5, 5;
+    }
+
+    /* 连接线 */
+    .connection-line {
+        stroke: url(#lineGradient);
+        stroke-width: 1.5;
+        stroke-opacity: 0.3;
+        transition: stroke-opacity 0.3s ease;
+    }
+
+    /* 星球节点 */
+    .planet {
+        cursor: pointer;
+        transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    }
+
+    .planet-circle {
+        fill: var(--secondary);
+        stroke-width: 2;
+        transition: all 0.4s ease;
+        filter: drop-shadow(0 0 20px rgba(102, 126, 234, 0.3));
+    }
+
+    .planet:hover .planet-circle {
+        filter: drop-shadow(0 0 30px currentColor);
+        transform: scale(1.1);
+    }
+
+    .planet-icon {
+        font-size: 28px;
+        text-anchor: middle;
+        dominant-baseline: central;
+        pointer-events: none;
+        transition: transform 0.3s ease;
+    }
+
+    .planet:hover .planet-icon {
+        transform: scale(1.2);
+    }
+
+    .planet-label {
+        font-size: 14px;
+        font-weight: 600;
+        text-anchor: middle;
+        fill: var(--text-primary);
+        pointer-events: none;
+        opacity: 0;
+        transition: all 0.3s ease;
+    }
+
+    .planet:hover .planet-label {
+        opacity: 1;
+        transform: translateY(35px);
+    }
+
+    .planet-desc {
+        font-size: 11px;
+        text-anchor: middle;
+        fill: var(--text-secondary);
+        pointer-events: none;
+        opacity: 0;
+        transition: all 0.3s ease 0.1s;
+    }
+
+    .planet:hover .planet-desc {
+        opacity: 1;
+        transform: translateY(50px);
+    }
+
+    /* 粒子流动效果 */
+    .flow-particle {
+        fill: var(--gradient-1);
+        filter: drop-shadow(0 0 6px var(--gradient-1));
+    }
+
+    /* 中心太阳 */
+    .sun {
+        cursor: pointer;
+    }
+
+    .sun-core {
+        fill: url(#sunGradient);
+        filter: drop-shadow(0 0 40px rgba(233, 69, 96, 0.5));
+        animation: sunPulse 3s ease-in-out infinite;
+    }
+
+    .sun-glow {
+        fill: url(#sunGlow);
+        opacity: 0.5;
+        animation: sunRotate 20s linear infinite;
+    }
+
+    @keyframes sunPulse {
+        0%, 100% { transform: scale(1); }
+        50% { transform: scale(1.05); }
+    }
+
+    @keyframes sunRotate {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+    }
+
+    /* 提示文字 */
+    .galaxy-hint {
+        position: absolute;
+        bottom: 1rem;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 0.85rem;
+        color: var(--text-muted);
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    .galaxy-hint::before,
+    .galaxy-hint::after {
+        content: '';
+        width: 30px;
+        height: 1px;
+        background: linear-gradient(90deg, transparent, var(--text-muted), transparent);
+    }
+
+    /* ===== 世界地图横幅 ===== */
+    .map-banner {
         padding: 4rem 2rem;
-        background: linear-gradient(180deg, 
-            transparent 0%, 
-            rgba(0, 255, 65, 0.03) 20%, 
-            rgba(0, 240, 255, 0.05) 50%,
-            rgba(0, 255, 65, 0.03) 80%, 
-            transparent 100%);
+        background: linear-gradient(180deg, transparent 0%, rgba(102, 126, 234, 0.03) 50%, transparent 100%);
         position: relative;
         overflow: hidden;
     }
 
-    /* 顶部发光线条 */
-    .quote-section::before {
+    .map-banner::before {
         content: '';
         position: absolute;
         top: 0;
         left: 0;
         right: 0;
         height: 1px;
-        background: linear-gradient(90deg, 
-            transparent 0%, 
-            var(--neon-green) 20%, 
-            var(--neon-blue) 50%, 
-            var(--neon-green) 80%, 
-            transparent 100%);
-        opacity: 0.6;
-        animation: quoteLinePulse 4s ease-in-out infinite;
+        background: linear-gradient(90deg, transparent, var(--gradient-1), transparent);
+        opacity: 0.5;
     }
 
-    /* 底部发光线条 */
-    .quote-section::after {
-        content: '';
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        height: 1px;
-        background: linear-gradient(90deg, 
-            transparent 0%, 
-            var(--neon-green) 20%, 
-            var(--neon-blue) 50%, 
-            var(--neon-green) 80%, 
-            transparent 100%);
-        opacity: 0.6;
-        animation: quoteLinePulse 4s ease-in-out infinite reverse;
+    .map-container {
+        max-width: 1400px;
+        margin: 0 auto;
+        text-align: center;
     }
 
-    @keyframes quoteLinePulse {
-        0%, 100% { opacity: 0.3; }
-        50% { opacity: 0.8; }
+    .map-header {
+        margin-bottom: 2rem;
+    }
+
+    .map-title {
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: var(--text-primary);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.75rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .map-subtitle {
+        font-size: 0.9rem;
+        color: var(--text-muted);
+    }
+
+    /* 2D 世界地图 SVG */
+    .world-map {
+        width: 100%;
+        max-width: 1000px;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .map-land {
+        fill: rgba(102, 126, 234, 0.15);
+        stroke: rgba(102, 126, 234, 0.3);
+        stroke-width: 0.5;
+        transition: all 0.3s ease;
+    }
+
+    .map-land:hover {
+        fill: rgba(102, 126, 234, 0.25);
+    }
+
+    /* 地图上的光点 */
+    .map-point {
+        fill: var(--highlight);
+        filter: drop-shadow(0 0 8px var(--highlight));
+        animation: mapPointPulse 2s ease-in-out infinite;
+    }
+
+    .map-point:nth-child(2n) { animation-delay: 0.3s; }
+    .map-point:nth-child(3n) { animation-delay: 0.6s; }
+    .map-point:nth-child(4n) { animation-delay: 0.9s; }
+
+    @keyframes mapPointPulse {
+        0%, 100% { opacity: 0.6; transform: scale(1); }
+        50% { opacity: 1; transform: scale(1.3); }
+    }
+
+    /* 连接线 */
+    .map-connection {
+        stroke: url(#mapLineGradient);
+        stroke-width: 1;
+        stroke-dasharray: 3, 3;
+        opacity: 0.4;
+        animation: mapLineFlow 3s linear infinite;
+    }
+
+    @keyframes mapLineFlow {
+        to { stroke-dashoffset: -12; }
+    }
+
+    /* 访问统计 */
+    .map-stats {
+        display: flex;
+        justify-content: center;
+        gap: 4rem;
+        margin-top: 2rem;
+        padding-top: 2rem;
+        border-top: 1px solid var(--glass-border);
+    }
+
+    .map-stat {
+        text-align: center;
+    }
+
+    .map-stat-value {
+        font-size: 2rem;
+        font-weight: 700;
+        background: linear-gradient(135deg, var(--highlight), var(--gradient-3));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+
+    .map-stat-label {
+        font-size: 0.85rem;
+        color: var(--text-muted);
+        margin-top: 0.25rem;
+    }
+
+    /* ===== 名言区域 ===== */
+    .quote-section {
+        padding: 6rem 2rem;
+        text-align: center;
+        position: relative;
     }
 
     .quote-container {
-        max-width: 1100px;
+        max-width: 800px;
         margin: 0 auto;
         position: relative;
-        text-align: center;
-        padding: 2rem 4rem;
     }
 
-    /* 装饰性大引号 */
-    .quote-decoration {
-        font-family: 'Georgia', 'Times New Roman', serif;
-        font-size: 18rem;
-        color: var(--neon-green);
-        opacity: 0.06;
+    .quote-mark {
+        font-size: 8rem;
+        color: var(--gradient-1);
+        opacity: 0.1;
         position: absolute;
+        top: -3rem;
+        left: -2rem;
+        font-family: Georgia, serif;
         line-height: 1;
-        user-select: none;
-        pointer-events: none;
-        animation: quoteFloat 6s ease-in-out infinite;
-        font-weight: bold;
     }
 
-    .quote-decoration.open {
-        top: -4rem;
-        left: -1rem;
-    }
-
-    .quote-decoration.close {
-        bottom: -10rem;
-        right: -1rem;
-        animation-delay: -3s;
-    }
-
-    @keyframes quoteFloat {
-        0%, 100% { transform: translateY(0); }
-        50% { transform: translateY(-15px); }
-    }
-
-    /* 英文名言 - 大号字体 */
-    .quote-text-en {
-        font-family: 'Orbitron', 'Georgia', serif;
-        font-size: 2rem;
-        color: var(--text-primary);
-        line-height: 1.8;
-        margin-bottom: 1.5rem;
-        font-style: italic;
-        position: relative;
-        z-index: 1;
-        letter-spacing: 0.03em;
-        text-shadow: 0 0 40px rgba(0, 255, 65, 0.25);
-        animation: fadeInUp 1s ease-out;
-    }
-
-    /* 中文翻译 */
-    .quote-text-cn {
+    .quote-text {
         font-size: 1.5rem;
-        color: var(--text-secondary);
-        line-height: 2;
-        margin-bottom: 3rem;
+        line-height: 1.8;
+        color: var(--text-primary);
+        font-style: italic;
+        margin-bottom: 1.5rem;
         position: relative;
         z-index: 1;
-        font-weight: 300;
-        letter-spacing: 0.08em;
-        animation: fadeInUp 1s ease-out 0.3s both;
     }
 
+    .quote-author {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .quote-avatar {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background: linear-gradient(135deg, var(--gradient-1), var(--gradient-2));
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5rem;
+    }
+
+    .quote-info {
+        text-align: left;
+    }
+
+    .quote-name {
+        font-weight: 600;
+        color: var(--text-primary);
+    }
+
+    .quote-title {
+        font-size: 0.85rem;
+        color: var(--text-muted);
+    }
+
+    /* ===== 动画定义 ===== */
     @keyframes fadeInUp {
         from {
             opacity: 0;
@@ -203,806 +533,317 @@
         }
     }
 
-    /* 作者信息 */
-    .quote-author {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 1.5rem;
-        position: relative;
-        z-index: 1;
-        animation: fadeInUp 1s ease-out 0.6s both;
-    }
-
-    .quote-avatar {
-        width: 70px;
-        height: 70px;
-        border-radius: 50%;
-        background: linear-gradient(135deg, var(--neon-green) 0%, var(--neon-blue) 100%);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 2rem;
-        box-shadow: 0 0 30px var(--neon-green-glow), inset 0 0 20px rgba(255,255,255,0.2);
-        animation: avatarGlow 3s ease-in-out infinite;
-    }
-
-    @keyframes avatarGlow {
-        0%, 100% { box-shadow: 0 0 20px var(--neon-green-glow); }
-        50% { box-shadow: 0 0 40px var(--neon-green-glow), 0 0 60px rgba(0, 240, 255, 0.3); }
-    }
-
-    .quote-info {
-        text-align: left;
-    }
-
-    .quote-name {
-        font-family: 'Orbitron', monospace;
-        font-size: 1.4rem;
-        color: var(--neon-green);
-        font-weight: 700;
-        letter-spacing: 0.15em;
-        text-shadow: 0 0 15px var(--neon-green-glow);
-    }
-
-    .quote-title {
-        font-size: 1rem;
-        color: var(--text-secondary);
-        margin-top: 0.4rem;
-        letter-spacing: 0.1em;
-    }
-
-    /* 栏目跳转卡片 */
-    .sections-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-        gap: 1rem;
-        max-width: 1200px;
-        margin: 0 auto 2rem;
-        padding: 0 1rem;
-    }
-
-    .section-card {
-        background: var(--dark-bg-secondary);
-        border: 1px solid var(--neon-green-dim);
-        border-radius: 12px;
-        padding: 1.25rem 0.75rem;
-        text-align: center;
-        text-decoration: none;
-        color: inherit;
-        transition: all 0.3s ease;
-        position: relative;
-        overflow: hidden;
-    }
-
-    .section-card::before {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 3px;
-        background: linear-gradient(90deg, var(--neon-green), var(--neon-blue));
-        transform: scaleX(0);
-        transform-origin: left;
-        transition: transform 0.3s ease;
-    }
-
-    .section-card:hover {
-        border-color: var(--neon-green);
-        transform: translateY(-5px);
-        box-shadow: 0 10px 30px rgba(0, 255, 65, 0.15);
-    }
-
-    .section-card:hover::before {
-        transform: scaleX(1);
-    }
-
-    .section-icon {
-        font-size: 2rem;
-        margin-bottom: 0.5rem;
-        display: block;
-    }
-
-    .section-name {
-        font-family: 'Orbitron', monospace;
-        font-size: 0.85rem;
-        color: var(--neon-green);
-        font-weight: 600;
-        display: block;
-    }
-
-    .section-desc {
-        font-size: 0.7rem;
-        color: var(--text-secondary);
-        margin-top: 0.25rem;
-        display: block;
-    }
-
-    /* 访问统计 - 点击交互 */
-    .visitor-counter {
-        display: flex;
-        justify-content: center;
-        margin: 1rem auto;
-    }
-
-    .counter-button {
-        background: linear-gradient(135deg, rgba(0, 255, 65, 0.1) 0%, rgba(0, 240, 255, 0.1) 100%);
-        border: 2px solid var(--neon-green);
-        border-radius: 50px;
-        padding: 1rem 2rem;
-        cursor: pointer;
-        transition: all 0.3s ease;
-        display: flex;
-        align-items: center;
-        gap: 0.75rem;
-        position: relative;
-        overflow: hidden;
-    }
-
-    .counter-button::before {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: -100%;
-        width: 100%;
-        height: 100%;
-        background: linear-gradient(90deg, transparent, var(--neon-green-glow), transparent);
-        transition: left 0.5s ease;
-    }
-
-    .counter-button:hover {
-        background: var(--neon-green);
-        box-shadow: 0 0 30px var(--neon-green-glow);
-        transform: scale(1.05);
-    }
-
-    .counter-button:hover::before {
-        left: 100%;
-    }
-
-    .counter-button:hover .counter-text,
-    .counter-button:hover .counter-number {
-        color: var(--dark-bg);
-    }
-
-    .counter-icon {
-        font-size: 1.5rem;
-        animation: pulse 2s infinite;
-    }
-
-    @keyframes pulse {
-        0%, 100% { transform: scale(1); }
-        50% { transform: scale(1.1); }
-    }
-
-    .counter-content {
-        text-align: center;
-    }
-
-    .counter-text {
-        font-family: 'Orbitron', monospace;
-        font-size: 0.8rem;
-        color: var(--text-secondary);
-        display: block;
-        transition: color 0.3s ease;
-    }
-
-    .counter-number {
-        font-family: 'Orbitron', monospace;
-        font-size: 1.5rem;
-        color: var(--neon-green);
-        font-weight: 700;
-        text-shadow: 0 0 10px var(--neon-green-glow);
-        transition: color 0.3s ease;
-    }
-
-    .counter-hint {
-        font-size: 0.7rem;
-        color: var(--text-secondary);
-        opacity: 0.7;
-        margin-top: 0.5rem;
-        font-family: 'Orbitron', monospace;
-    }
-
-    /* 主内容区域 - 并行布局 */
-    .main-content {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 1.5rem;
-        padding: 1rem;
-        max-width: 1600px;
-        margin: 0 auto;
-    }
-
-    @media (max-width: 1200px) {
-        .main-content {
-            grid-template-columns: 1fr;
+    @keyframes fadeInDown {
+        from {
+            opacity: 0;
+            transform: translateY(-20px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
         }
     }
 
-    /* 网络图容器 */
-    #graph-container {
-        width: 100%;
-        height: 70vh;
-        min-height: 550px;
-        position: relative;
-        background: var(--dark-bg-secondary);
-        border: 1px solid var(--neon-green-dim);
-        border-radius: 10px;
-        box-shadow: 
-            0 0 20px rgba(0, 255, 65, 0.2),
-            inset 0 0 20px rgba(0, 255, 65, 0.05);
-        overflow: hidden;
-    }
-
-    #graph-container::before {
-        content: '';
-        position: absolute;
-        top: -2px;
-        left: -2px;
-        right: -2px;
-        bottom: -2px;
-        background: linear-gradient(45deg, var(--neon-green), transparent, var(--neon-green));
-        border-radius: 12px;
-        z-index: -1;
-        opacity: 0.5;
-        animation: borderGlow 3s ease-in-out infinite;
-    }
-
-    @keyframes borderGlow {
-        0%, 100% { opacity: 0.3; }
-        50% { opacity: 0.7; }
-    }
-
-    /* SVG 样式 - 放大节点 */
-    svg {
-        width: 100%;
-        height: 100%;
-    }
-
-    .node {
-        cursor: pointer;
-        transition: all 0.3s ease;
-    }
-
-    .node-circle {
-        fill: var(--dark-bg-tertiary);
-        stroke: var(--neon-green);
-        stroke-width: 2.5px;
-        filter: drop-shadow(0 0 10px var(--neon-green-glow));
-        transition: all 0.3s ease;
-    }
-
-    .node:hover .node-circle {
-        fill: var(--neon-green);
-        stroke: var(--text-primary);
-        filter: drop-shadow(0 0 25px var(--neon-green));
-    }
-
-    .node-label {
-        font-family: 'Noto Sans SC', sans-serif;
-        font-size: 14px;
-        fill: var(--text-primary);
-        text-anchor: middle;
-        dominant-baseline: middle;
-        pointer-events: none;
-        font-weight: 600;
-        text-shadow: 
-            0 0 10px rgba(0, 0, 0, 0.9),
-            0 0 20px rgba(0, 0, 0, 0.8);
-    }
-
-    .node-icon {
-        font-size: 22px;
-        text-anchor: middle;
-        dominant-baseline: middle;
-        pointer-events: none;
-    }
-
-    .link {
-        stroke: var(--neon-green-dim);
-        stroke-opacity: 0.6;
-        stroke-width: 2px;
-        transition: all 0.3s ease;
-    }
-
-    .link.active {
-        stroke: var(--neon-green);
-        stroke-opacity: 1;
-        stroke-width: 3px;
-        filter: drop-shadow(0 0 5px var(--neon-green));
-    }
-
-    .particle {
-        fill: var(--neon-green);
-        opacity: 0.6;
-    }
-
-    /* 提示信息 */
-    .hint {
-        position: absolute;
-        bottom: 1rem;
-        left: 50%;
-        transform: translateX(-50%);
-        font-family: 'Orbitron', monospace;
-        font-size: 0.8rem;
-        color: var(--text-secondary);
-        background: rgba(0, 0, 0, 0.7);
-        padding: 0.5rem 1rem;
-        border-radius: 20px;
-        border: 1px solid var(--neon-green-dim);
-        pointer-events: none;
-    }
-
-    /* 详情面板 */
-    .detail-panel {
-        position: fixed;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%) scale(0);
-        width: 90%;
-        max-width: 600px;
-        max-height: 80vh;
-        background: var(--dark-bg-secondary);
-        border: 2px solid var(--neon-green);
-        border-radius: 15px;
-        padding: 2rem;
-        z-index: 2000;
-        opacity: 0;
-        transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-        overflow-y: auto;
-        box-shadow: 
-            0 0 50px rgba(0, 255, 65, 0.3),
-            inset 0 0 50px rgba(0, 255, 65, 0.05);
-    }
-
-    .detail-panel.active {
-        transform: translate(-50%, -50%) scale(1);
-        opacity: 1;
-    }
-
-    .detail-panel::before {
-        content: '';
-        position: absolute;
-        top: 10px;
-        left: 10px;
-        right: 10px;
-        bottom: 10px;
-        border: 1px solid rgba(0, 255, 65, 0.3);
-        border-radius: 10px;
-        pointer-events: none;
-    }
-
-    .detail-header {
-        display: flex;
-        align-items: center;
-        gap: 1rem;
-        margin-bottom: 1.5rem;
-        padding-bottom: 1rem;
-        border-bottom: 1px solid var(--neon-green-dim);
-    }
-
-    .detail-icon {
-        width: 60px;
-        height: 60px;
-        background: var(--dark-bg-tertiary);
-        border: 2px solid var(--neon-green);
-        border-radius: 12px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 2rem;
-        box-shadow: 0 0 20px var(--neon-green-glow);
-    }
-
-    .detail-title {
-        font-family: 'Orbitron', monospace;
-        font-size: 1.5rem;
-        color: var(--neon-green);
-        text-shadow: 0 0 10px var(--neon-green-glow);
-    }
-
-    .detail-category {
-        font-size: 0.8rem;
-        color: var(--text-secondary);
-        text-transform: uppercase;
-        letter-spacing: 0.1em;
-        margin-top: 0.25rem;
-    }
-
-    .detail-content {
-        color: var(--text-primary);
-        line-height: 1.8;
-        font-size: 1rem;
-    }
-
-    .detail-content p {
-        margin-bottom: 1rem;
-    }
-
-    .detail-tags {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 0.5rem;
-        margin-top: 1.5rem;
-    }
-
-    .tag {
-        background: rgba(0, 255, 65, 0.1);
-        border: 1px solid var(--neon-green-dim);
-        color: var(--neon-green);
-        padding: 0.25rem 0.75rem;
-        border-radius: 20px;
-        font-size: 0.8rem;
-        font-family: 'Orbitron', monospace;
-    }
-
-    .detail-links {
-        display: flex;
-        gap: 1rem;
-        margin-top: 1.5rem;
-    }
-
-    .cyber-button {
-        flex: 1;
-        padding: 0.75rem 1.5rem;
-        background: transparent;
-        border: 2px solid var(--neon-green);
-        color: var(--neon-green);
-        font-family: 'Orbitron', monospace;
-        font-size: 0.9rem;
-        text-transform: uppercase;
-        letter-spacing: 0.1em;
-        cursor: pointer;
-        position: relative;
-        overflow: hidden;
-        transition: all 0.3s ease;
-        text-decoration: none;
-        text-align: center;
-    }
-
-    .cyber-button::before {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: -100%;
-        width: 100%;
-        height: 100%;
-        background: linear-gradient(90deg, transparent, var(--neon-green-glow), transparent);
-        transition: left 0.5s ease;
-    }
-
-    .cyber-button:hover {
-        background: var(--neon-green);
-        color: var(--dark-bg);
-        box-shadow: 0 0 30px var(--neon-green-glow);
-    }
-
-    .cyber-button:hover::before {
-        left: 100%;
-    }
-
-    .close-btn {
-        position: absolute;
-        top: 1rem;
-        right: 1rem;
-        width: 40px;
-        height: 40px;
-        background: transparent;
-        border: 2px solid var(--neon-green);
-        color: var(--neon-green);
-        font-size: 1.5rem;
-        cursor: pointer;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        transition: all 0.3s ease;
-    }
-
-    .close-btn:hover {
-        background: var(--neon-green);
-        color: var(--dark-bg);
-        transform: rotate(90deg);
-    }
-
-    /* 遮罩层 */
-    .overlay {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: rgba(0, 0, 0, 0.8);
-        backdrop-filter: blur(5px);
-        z-index: 1999;
-        opacity: 0;
-        visibility: hidden;
-        transition: all 0.3s ease;
-    }
-
-    .overlay.active {
-        opacity: 1;
-        visibility: visible;
-    }
-
-    /* 右侧容器 - 包含地图 */
-    .right-panel {
-        display: flex;
-        flex-direction: column;
-        gap: 1rem;
-    }
-
-    /* 访问者地图区域 */
-    .visitor-map-container {
-        flex: 1;
-        min-height: 300px;
-        background: var(--dark-bg-secondary);
-        border: 1px solid var(--neon-green-dim);
-        border-radius: 10px;
-        padding: 1.5rem;
-        position: relative;
-        overflow: hidden;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .visitor-map-container::before {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        height: 3px;
-        background: linear-gradient(90deg, var(--neon-green), var(--neon-blue), var(--neon-pink), var(--neon-green));
-        background-size: 300% 100%;
-        animation: gradientShift 3s linear infinite;
-    }
-
     @keyframes gradientShift {
-        0% { background-position: 0% 50%; }
-        100% { background-position: 300% 50%; }
-    }
-
-    .map-title {
-        font-family: 'Orbitron', monospace;
-        font-size: 1.3rem;
-        color: var(--neon-green);
-        text-align: center;
-        margin-bottom: 1rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 0.5rem;
-        flex-wrap: wrap;
-    }
-
-    .map-icon {
-        font-size: 1.5rem;
-    }
-
-    .map-badge {
-        font-size: 0.6rem;
-        background: rgba(255, 0, 0, 0.8);
-        color: white;
-        padding: 0.15rem 0.5rem;
-        border-radius: 10px;
-        animation: pulse 2s infinite;
+        0%, 100% { background-position: 0% 50%; }
+        50% { background-position: 100% 50%; }
     }
 
     @keyframes pulse {
         0%, 100% { opacity: 1; }
-        50% { opacity: 0.6; }
+        50% { opacity: 0.5; }
     }
 
-    .map-wrapper {
-        flex: 1;
-        background: rgba(0, 0, 0, 0.3);
-        border: 1px solid var(--neon-green-dim);
-        border-radius: 10px;
-        padding: 1rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        min-height: 250px;
-        overflow: hidden;
+    @keyframes bounce {
+        0%, 100% { transform: translateX(-50%) translateY(0); }
+        50% { transform: translateX(-50%) translateY(-10px); }
     }
 
-    .clustrmaps-container {
-        width: 100%;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    /* 修复 ClustrMaps 显示 */
-    .clustrmaps-container iframe,
-    .clustrmaps-container canvas,
-    .clustrmaps-container img,
-    .clustrmaps-container script {
-        max-width: 100% !important;
-        max-height: 100% !important;
-        border-radius: 5px;
-    }
-
-    /* 节点探索标题 */
-    .graph-title {
-        font-family: 'Orbitron', monospace;
-        font-size: 1.2rem;
-        color: var(--neon-green);
-        text-align: center;
-        margin-bottom: 0.75rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 0.5rem;
-    }
-
-    /* 响应式 */
-    @media (max-width: 1200px) {
-        .main-content {
-            grid-template-columns: 1fr;
-        }
-        
-        #graph-container {
-            height: 60vh;
-            min-height: 450px;
-        }
-        
-        .visitor-map-container {
-            min-height: 350px;
-        }
-    }
-
+    /* ===== 响应式设计 ===== */
     @media (max-width: 768px) {
         .hero-section {
-            padding: 1.5rem 1rem 0.5rem;
+            min-height: 90vh;
         }
 
-        .quote-section {
-            padding: 2.5rem 1rem;
-            margin-bottom: 1.5rem;
+        .hero-stats {
+            gap: 2rem;
         }
 
-        .quote-container {
-            padding: 1rem 1.5rem;
+        .stat-number {
+            font-size: 2rem;
         }
 
-        .quote-decoration {
-            font-size: 10rem;
+        .galaxy-container {
+            height: 600px;
         }
 
-        .quote-decoration.open {
-            top: -2rem;
-            left: -0.5rem;
+        .planet-icon {
+            font-size: 24px;
         }
 
-        .quote-decoration.close {
-            bottom: -6rem;
-            right: -0.5rem;
+        .planet-label {
+            font-size: 12px;
+            opacity: 1;
+            transform: translateY(30px);
         }
 
-        .quote-text-en {
-            font-size: 1.15rem;
-            line-height: 1.7;
-        }
-
-        .quote-text-cn {
-            font-size: 1rem;
-            margin-bottom: 2rem;
-        }
-
-        .quote-avatar {
-            width: 55px;
-            height: 55px;
-            font-size: 1.5rem;
-        }
-
-        .quote-name {
-            font-size: 1.1rem;
-        }
-
-        .quote-title {
-            font-size: 0.85rem;
-        }
-
-        .sections-grid {
-            grid-template-columns: repeat(3, 1fr);
-            gap: 0.75rem;
-            margin-bottom: 1.5rem;
-        }
-
-        .section-card {
-            padding: 1rem 0.5rem;
-        }
-
-        .section-icon {
-            font-size: 1.5rem;
-        }
-
-        .section-name {
-            font-size: 0.75rem;
-        }
-
-        .section-desc {
+        .planet-desc {
             display: none;
         }
 
-        .counter-button {
-            padding: 0.75rem 1.5rem;
+        .map-stats {
+            gap: 2rem;
         }
 
-        .counter-number {
-            font-size: 1.25rem;
-        }
-        
-        #graph-container {
-            height: 50vh;
-            min-height: 400px;
+        .map-stat-value {
+            font-size: 1.5rem;
         }
 
-        .detail-panel {
-            width: 95%;
-            padding: 1.5rem;
+        .quote-mark {
+            font-size: 5rem;
+            top: -2rem;
+            left: -1rem;
         }
 
-        .detail-header {
-            flex-direction: column;
-            text-align: center;
-        }
-
-        .detail-links {
-            flex-direction: column;
-        }
-
-        .visitor-map-container {
-            padding: 1rem;
-            min-height: 300px;
-        }
-
-        .map-title {
-            font-size: 1.1rem;
-        }
-
-        .map-wrapper {
-            min-height: 200px;
-            padding: 0.5rem;
+        .quote-text {
+            font-size: 1.2rem;
         }
     }
 
     @media (max-width: 480px) {
-        .sections-grid {
-            grid-template-columns: repeat(2, 1fr);
+        .hero-stats {
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        .galaxy-container {
+            height: 500px;
         }
     }
 </style>
 {{ end }}
 
 {{ define "main" }}
-<section class="hero-section">
-    <h1 class="glitch-title" data-text="AI漫游">AI漫游</h1>
+<!-- Hero 区域 -->
+<section class="hero-section" id="hero">
+    <div class="hero-bg">
+        <canvas id="particle-canvas"></canvas>
+    </div>
+    
+    <div class="hero-content">
+        <div class="hero-badge">
+            <span>探索 AI 的无限可能</span>
+        </div>
+        
+        <h1 class="hero-title">AI 漫游</h1>
+        
+        <p class="hero-subtitle">
+            在知识的星空中航行，发现人工智能的璀璨光芒。<br>
+            汇聚前沿资讯、深度技术、精选资源，陪伴你的 AI 探索之旅。
+        </p>
+        
+        <div class="hero-stats">
+            <div class="stat-item">
+                <div class="stat-number">50+</div>
+                <div class="stat-label">精选栏目</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">1k+</div>
+                <div class="stat-label">优质内容</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number" id="visitor-stat">--</div>
+                <div class="stat-label">访问者</div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="scroll-indicator" onclick="document.getElementById('galaxy').scrollIntoView({behavior: 'smooth'})">
+        <span>探索星系</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 5v14M19 12l-7 7-7-7"/>
+        </svg>
+    </div>
 </section>
 
-<!-- 名人名言横幅 - Alan Turing -->
+<!-- 星系导航系统 -->
+<section class="galaxy-section" id="galaxy">
+    <div class="section-header">
+        <span class="section-tag">Navigation</span>
+        <h2 class="section-title">知识星系</h2>
+        <p class="section-desc">
+            每一个星球代表一个知识领域，点击星球开始你的探索之旅
+        </p>
+    </div>
+    
+    <div class="galaxy-container">
+        <svg id="galaxy-svg" viewBox="0 0 1200 700">
+            <defs>
+                <!-- 渐变定义 -->
+                <linearGradient id="lineGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="0%" stop-color="#667eea" stop-opacity="0.1"/>
+                    <stop offset="50%" stop-color="#667eea" stop-opacity="0.5"/>
+                    <stop offset="100%" stop-color="#667eea" stop-opacity="0.1"/>
+                </linearGradient>
+                
+                <radialGradient id="sunGradient">
+                    <stop offset="0%" stop-color="#f093fb"/>
+                    <stop offset="50%" stop-color="#f5576c"/>
+                    <stop offset="100%" stop-color="#e94560"/>
+                </radialGradient>
+                
+                <radialGradient id="sunGlow">
+                    <stop offset="0%" stop-color="#f093fb" stop-opacity="0.3"/>
+                    <stop offset="100%" stop-color="#f5576c" stop-opacity="0"/>
+                </radialGradient>
+
+                <!-- 星球颜色渐变 -->
+                <linearGradient id="planetGradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#667eea"/>
+                    <stop offset="100%" stop-color="#764ba2"/>
+                </linearGradient>
+                
+                <linearGradient id="planetGradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#f093fb"/>
+                    <stop offset="100%" stop-color="#f5576c"/>
+                </linearGradient>
+                
+                <linearGradient id="planetGradient3" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#4facfe"/>
+                    <stop offset="100%" stop-color="#00f2fe"/>
+                </linearGradient>
+                
+                <linearGradient id="planetGradient4" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#43e97b"/>
+                    <stop offset="100%" stop-color="#38f9d7"/>
+                </linearGradient>
+                
+                <linearGradient id="planetGradient5" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#fa709a"/>
+                    <stop offset="100%" stop-color="#fee140"/>
+                </linearGradient>
+                
+                <linearGradient id="planetGradient6" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#a8edea"/>
+                    <stop offset="100%" stop-color="#fed6e3"/>
+                </linearGradient>
+                
+                <linearGradient id="planetGradient7" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#ff9a9e"/>
+                    <stop offset="100%" stop-color="#fecfef"/>
+                </linearGradient>
+                
+                <linearGradient id="planetGradient8" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#ffecd2"/>
+                    <stop offset="100%" stop-color="#fcb69f"/>
+                </linearGradient>
+            </defs>
+            
+            <!-- 轨道 -->
+            <ellipse class="orbit" cx="600" cy="350" rx="450" ry="280"/>
+            <ellipse class="orbit" cx="600" cy="350" rx="350" ry="220"/>
+            <ellipse class="orbit" cx="600" cy="350" rx="250" ry="160"/>
+            
+            <!-- 连接线组 -->
+            <g id="connections"></g>
+            
+            <!-- 中心太阳 -->
+            <g class="sun" transform="translate(600, 350)">
+                <circle class="sun-glow" r="80"/>
+                <circle class="sun-core" r="45"/>
+                <text class="planet-icon" dy="2" fill="white">🍀</text>
+            </g>
+            
+            <!-- 星球组 -->
+            <g id="planets"></g>
+            
+            <!-- 粒子组 -->
+            <g id="particles"></g>
+        </svg>
+        
+        <div class="galaxy-hint">
+            点击星球探索 · 拖拽旋转 · 滚轮缩放
+        </div>
+    </div>
+</section>
+
+<!-- 世界地图横幅 -->
+<section class="map-banner">
+    <div class="map-container">
+        <div class="map-header">
+            <h3 class="map-title">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"/>
+                    <path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+                </svg>
+                全球访客分布
+            </h3>
+            <p class="map-subtitle">来自世界各地的探索者在此汇聚</p>
+        </div>
+        
+        <svg class="world-map" viewBox="0 0 1000 500">
+            <defs>
+                <linearGradient id="mapLineGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="0%" stop-color="#e94560" stop-opacity="0"/>
+                    <stop offset="50%" stop-color="#e94560" stop-opacity="1"/>
+                    <stop offset="100%" stop-color="#e94560" stop-opacity="0"/>
+                </linearGradient>
+            </defs>
+            
+            <!-- 简化的世界地图轮廓 -->
+            <!-- 北美洲 -->
+            <path class="map-land" d="M150,120 L280,100 L320,150 L300,220 L220,280 L180,250 L140,200 L120,150 Z"/>
+            <!-- 南美洲 -->
+            <path class="map-land" d="M220,300 L280,290 L300,350 L280,450 L240,420 L220,350 Z"/>
+            <!-- 欧洲 -->
+            <path class="map-land" d="M480,100 L550,90 L580,130 L560,160 L520,150 L480,130 Z"/>
+            <!-- 非洲 -->
+            <path class="map-land" d="M480,180 L560,170 L580,250 L560,350 L520,380 L480,320 L460,250 Z"/>
+            <!-- 亚洲 -->
+            <path class="map-land" d="M600,80 L850,70 L920,120 L900,200 L800,250 L700,220 L620,180 L580,130 Z"/>
+            <!-- 澳洲 -->
+            <path class="map-land" d="M780,320 L880,310 L900,380 L850,400 L780,380 Z"/>
+            
+            <!-- 连接线 -->
+            <line class="map-connection" x1="200" y1="150" x2="520" y2="130"/>
+            <line class="map-connection" x1="520" y1="130" x2="750" y2="150"/>
+            <line class="map-connection" x1="750" y1="150" x2="830" y2="350"/>
+            <line class="map-connection" x1="200" y1="150" x2="260" y2="350"/>
+            <line class="map-connection" x1="520" y1="280" x2="830" y2="350"/>
+            
+            <!-- 活跃点 -->
+            <circle class="map-point" cx="200" cy="150" r="4"/>
+            <circle class="map-point" cx="520" cy="130" r="4"/>
+            <circle class="map-point" cx="750" cy="150" r="4"/>
+            <circle class="map-point" cx="830" cy="350" r="4"/>
+            <circle class="map-point" cx="260" cy="350" r="4"/>
+            <circle class="map-point" cx="520" cy="280" r="4"/>
+        </svg>
+        
+        <div class="map-stats">
+            <div class="map-stat">
+                <div class="map-stat-value" id="busuanzi_value_site_pv">--</div>
+                <div class="map-stat-label">总访问量</div>
+            </div>
+            <div class="map-stat">
+                <div class="map-stat-value">120+</div>
+                <div class="map-stat-label">覆盖国家</div>
+            </div>
+            <div class="map-stat">
+                <div class="map-stat-value">24/7</div>
+                <div class="map-stat-label">持续在线</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 名言区域 -->
 <section class="quote-section">
     <div class="quote-container">
-        <!-- 装饰性大引号 -->
-        <span class="quote-decoration open">"</span>
-        <span class="quote-decoration close">"</span>
-        
-        <!-- 英文名言 -->
-        <p class="quote-text-en">
-            We can only see a short distance ahead,<br>
-            but we can see plenty there that needs to be done.
-        </p>
-        
-        <!-- 中文翻译 -->
-        <p class="quote-text-cn">
+        <span class="quote-mark">"</span>
+        <p class="quote-text">
             我们只能看到不远的前方，但我们能看到许多需要完成的事情。
         </p>
-        
-        <!-- 作者信息 -->
         <div class="quote-author">
             <div class="quote-avatar">🧠</div>
             <div class="quote-info">
@@ -1012,433 +853,383 @@
         </div>
     </div>
 </section>
-
-<!-- 栏目跳转卡片 -->
-<section class="sections-grid">
-    <a href="/news/" class="section-card">
-        <span class="section-icon">📰</span>
-        <span class="section-name">AI新闻</span>
-        <span class="section-desc">行业动态</span>
-    </a>
-    <a href="/robotics/" class="section-card">
-        <span class="section-icon">🤖</span>
-        <span class="section-name">机器人</span>
-        <span class="section-desc">具身智能</span>
-    </a>
-    <a href="/leaderboard/" class="section-card">
-        <span class="section-icon">🏆</span>
-        <span class="section-name">AI榜单</span>
-        <span class="section-desc">模型评测</span>
-    </a>
-    <a href="/investment/" class="section-card">
-        <span class="section-icon">💰</span>
-        <span class="section-name">投资</span>
-        <span class="section-desc">AI投资</span>
-    </a>
-    <a href="/papers/" class="section-card">
-        <span class="section-icon">🔬</span>
-        <span class="section-name">学术</span>
-        <span class="section-desc">前沿论文</span>
-    </a>
-    <a href="/tutorials/" class="section-card">
-        <span class="section-icon">🏗️</span>
-        <span class="section-name">技术基建</span>
-        <span class="section-desc">系统架构</span>
-    </a>
-    <a href="/tools/" class="section-card">
-        <span class="section-icon">🛠️</span>
-        <span class="section-name">工具</span>
-        <span class="section-desc">资源导航</span>
-    </a>
-    <a href="/videos/" class="section-card">
-        <span class="section-icon">🎬</span>
-        <span class="section-name">视频</span>
-        <span class="section-desc">精选课程</span>
-    </a>
-</section>
-
-<!-- 访问统计 - 使用不蒜子全局计数 -->
-<div class="visitor-counter">
-    <div class="counter-button" id="counter-btn">
-        <span class="counter-icon">👋</span>
-        <div class="counter-content">
-            <span class="counter-text">您是第</span>
-            <span class="counter-number" id="visitor-count">
-                <span id="busuanzi_value_site_pv">--</span>
-            </span>
-            <span class="counter-text">位访问者</span>
-        </div>
-    </div>
-</div>
-<p class="counter-hint" style="text-align: center;">欢迎访问 AI 漫游 🍀</p>
-<!-- 不蒜子计数器脚本 -->
-<script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-
-<!-- 主内容区域 - 并行布局 -->
-<div class="main-content">
-    <!-- 左侧：节点探索 -->
-    <div class="graph-wrapper">
-        <div class="graph-title">
-            <span>🕸️</span>
-            节点探索
-        </div>
-        <div id="graph-container">
-            <div class="hint">点击节点探索 AI 领域 | 拖拽移动 | 滚轮缩放</div>
-        </div>
-    </div>
-    
-    <!-- 右侧：访客地图 -->
-    <div class="right-panel">
-        <div class="visitor-map-container">
-            <h2 class="map-title">
-                <span class="map-icon">🗺️</span>
-                全球访客分布
-                <span class="map-badge">实时</span>
-            </h2>
-            
-            <div class="map-wrapper">
-                <div class="clustrmaps-container">
-                    <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=5_pP-mR2Xv3P6F0z5j0FkC-miUwx_xOd5xjaG8zK8aM"></script>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- 遮罩层 -->
-<div class="overlay" id="overlay"></div>
-
-<!-- 详情面板 -->
-<div class="detail-panel" id="detail-panel">
-    <button class="close-btn" id="close-btn">×</button>
-    <div class="detail-header">
-        <div class="detail-icon" id="detail-icon">💡</div>
-        <div>
-            <h2 class="detail-title" id="detail-title">标题</h2>
-            <p class="detail-category" id="detail-category">分类</p>
-        </div>
-    </div>
-    <div class="detail-content" id="detail-content">
-        <p>内容描述...</p>
-    </div>
-    <div class="detail-tags" id="detail-tags"></div>
-    <div class="detail-links">
-        <a href="#" class="cyber-button" id="detail-link">查看详情</a>
-        <button class="cyber-button" id="share-btn">分享</button>
-    </div>
-</div>
 {{ end }}
 
 {{ define "scripts" }}
+<!-- 不蒜子计数器 -->
+<script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
 <script>
-    // 不蒜子计数器加载完成后的动画效果
-    document.addEventListener('DOMContentLoaded', function() {
-        const counterElement = document.getElementById('busuanzi_value_site_pv');
-        if (counterElement) {
-            // 监听内容变化（不蒜子加载完成时会更新内容）
-            const observer = new MutationObserver(function(mutations) {
-                mutations.forEach(function(mutation) {
-                    if (mutation.type === 'childList' || mutation.type === 'characterData') {
-                        // 添加缩放动画
-                        counterElement.style.display = 'inline-block';
-                        counterElement.style.transform = 'scale(1.3)';
-                        counterElement.style.transition = 'transform 0.3s ease';
-                        setTimeout(() => {
-                            counterElement.style.transform = 'scale(1)';
-                        }, 300);
-                    }
-                });
+// ===== 粒子背景动画 =====
+(function() {
+    const canvas = document.getElementById('particle-canvas');
+    const ctx = canvas.getContext('2d');
+    let particles = [];
+    let animationId;
+    
+    function resize() {
+        canvas.width = canvas.offsetWidth;
+        canvas.height = canvas.offsetHeight;
+    }
+    
+    function createParticles() {
+        particles = [];
+        const count = Math.min(80, Math.floor(canvas.width * canvas.height / 15000));
+        
+        for (let i = 0; i < count; i++) {
+            particles.push({
+                x: Math.random() * canvas.width,
+                y: Math.random() * canvas.height,
+                vx: (Math.random() - 0.5) * 0.5,
+                vy: (Math.random() - 0.5) * 0.5,
+                radius: Math.random() * 2 + 1,
+                opacity: Math.random() * 0.5 + 0.2
             });
-            observer.observe(counterElement, { childList: true, characterData: true, subtree: true });
+        }
+    }
+    
+    function drawParticles() {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        
+        // 绘制连线
+        particles.forEach((p1, i) => {
+            particles.slice(i + 1).forEach(p2 => {
+                const dx = p1.x - p2.x;
+                const dy = p1.y - p2.y;
+                const dist = Math.sqrt(dx * dx + dy * dy);
+                
+                if (dist < 150) {
+                    ctx.beginPath();
+                    ctx.strokeStyle = `rgba(102, 126, 234, ${0.15 * (1 - dist / 150)})`;
+                    ctx.lineWidth = 0.5;
+                    ctx.moveTo(p1.x, p1.y);
+                    ctx.lineTo(p2.x, p2.y);
+                    ctx.stroke();
+                }
+            });
+        });
+        
+        // 绘制粒子
+        particles.forEach(p => {
+            ctx.beginPath();
+            ctx.arc(p.x, p.y, p.radius, 0, Math.PI * 2);
+            ctx.fillStyle = `rgba(102, 126, 234, ${p.opacity})`;
+            ctx.fill();
+            
+            // 更新位置
+            p.x += p.vx;
+            p.y += p.vy;
+            
+            // 边界反弹
+            if (p.x < 0 || p.x > canvas.width) p.vx *= -1;
+            if (p.y < 0 || p.y > canvas.height) p.vy *= -1;
+        });
+        
+        animationId = requestAnimationFrame(drawParticles);
+    }
+    
+    resize();
+    createParticles();
+    drawParticles();
+    
+    window.addEventListener('resize', () => {
+        resize();
+        createParticles();
+    });
+    
+    // 页面不可见时暂停
+    document.addEventListener('visibilitychange', () => {
+        if (document.hidden) {
+            cancelAnimationFrame(animationId);
+        } else {
+            drawParticles();
         }
     });
+})();
 
-    // 从 Hugo 内容读取节点数据
-    const nodesData = [
-        {{ range where .Site.RegularPages "Section" "nodes" }}
-        {
-            id: {{ .Params.id | default 0 }},
-            label: {{ .Title | jsonify }},
-            icon: {{ .Params.icon | default "💡" | jsonify }},
-            category: {{ .Params.category | default "其他" | jsonify }},
-            description: {{ .Params.description | default .Summary | jsonify }},
-            tags: {{ .Params.tags | default (slice) | jsonify }},
-            link: {{ .RelPermalink | jsonify }},
-            x: {{ .Params.position.x | default 0 }},
-            y: {{ .Params.position.y | default 0 }}
-        },
-        {{ end }}
-    ].filter(n => n.id > 0);
-
-    // 连接关系
-    const linksData = [
-        {{ range where .Site.RegularPages "Section" "nodes" }}
-            {{ range .Params.connections }}
-            { source: {{ $.Params.id }}, target: {{ . }} },
-            {{ end }}
-        {{ end }}
-    ].filter(l => l.source && l.target);
-
-    // 如果没有内容数据，使用默认数据
-    if (nodesData.length === 0) {
-        nodesData.push(
-            { id: 1, label: "AI 新闻", icon: "📰", category: "资讯", description: "最新 AI 行业动态、技术突破、产品发布", tags: ["新闻", "动态", "行业"], link: "/news/", x: 0, y: 0 },
-            { id: 2, label: "AI 榜单", icon: "🏆", category: "评测", description: "大语言模型排行榜，LMSYS、OpenCompass 等权威评测", tags: ["评测", "排名", "基准测试"], link: "/leaderboard/", x: 0, y: 0 },
-            { id: 3, label: "前沿学术", icon: "🔬", category: "研究", description: "AI 论文解读、ArXiv 精选、会议速递", tags: ["论文", "研究", "学术"], link: "/papers/", x: 0, y: 0 },
-            { id: 4, label: "技术基建", icon: "🏗️", category: "技术", description: "AI底层技术、系统架构、性能优化与工程实践", tags: ["AI系统", "高性能计算", "模型部署", "技术博客"], link: "/tutorials/", x: 0, y: 0 },
-            { id: 6, label: "视频精选", icon: "🎬", category: "资源", description: "AI 技术讲座、课程推荐、会议录像", tags: ["视频", "课程", "讲座"], link: "/videos/", x: 0, y: 0 },
-            { id: 7, label: "工具导航", icon: "🛠️", category: "工具", description: "AI 工具目录、API 聚合、开发资源", tags: ["工具", "API", "资源"], link: "/tools/", x: 0, y: 0 },
-            { id: 8, label: "AI 投资", icon: "💰", category: "投资", description: "AI投资动态、金融机构研报、科技股分析、房地产市场", tags: ["投资", "研报", "股市", "AI融资"], link: "/investment/", x: 0, y: 0 },
-            { id: 12, label: "机器人", icon: "🤖", category: "具身智能", description: "具身智能、人形机器人、工业自动化、机器人学习", tags: ["机器人", "具身智能", "自动化"], link: "/robotics/", x: 0, y: 0 },
-            { id: 9, label: "LLM", icon: "🍀", category: "技术", description: "大语言模型技术、GPT、Claude、开源模型", tags: ["LLM", "ChatGPT", "Claude"], link: "/nodes/ai-research/", x: 0, y: 0 },
-            { id: 10, label: "计算机视觉", icon: "👁️", category: "技术", description: "图像识别、目标检测、生成模型", tags: ["CV", "图像", "生成"], link: "#", x: 0, y: 0 },
-            { id: 11, label: "多模态", icon: "🌈", category: "技术", description: "视觉语言模型、多模态理解、跨模态生成", tags: ["多模态", "VLM", "跨模态"], link: "#", x: 0, y: 0 }
-        );
+// ===== 星系导航系统 =====
+(function() {
+    // 星球数据 - 与栏目对应
+    const planets = [
+        { id: 1, name: 'AI新闻', icon: '📰', desc: '行业动态', link: '/news/', color: 'url(#planetGradient1)', angle: 0, orbit: 3 },
+        { id: 2, name: '机器人', icon: '🤖', desc: '具身智能', link: '/robotics/', color: 'url(#planetGradient2)', angle: 45, orbit: 2 },
+        { id: 3, name: 'AI榜单', icon: '🏆', desc: '模型评测', link: '/leaderboard/', color: 'url(#planetGradient3)', angle: 90, orbit: 3 },
+        { id: 4, name: '投资', icon: '💰', desc: 'AI投资', link: '/investment/', color: 'url(#planetGradient4)', angle: 135, orbit: 1 },
+        { id: 5, name: '学术', icon: '🔬', desc: '前沿论文', link: '/papers/', color: 'url(#planetGradient5)', angle: 180, orbit: 2 },
+        { id: 6, name: '技术基建', icon: '🏗️', desc: '系统架构', link: '/tutorials/', color: 'url(#planetGradient6)', angle: 225, orbit: 3 },
+        { id: 7, name: '工具', icon: '🛠️', desc: '资源导航', link: '/tools/', color: 'url(#planetGradient7)', angle: 270, orbit: 1 },
+        { id: 8, name: '视频', icon: '🎬', desc: '精选课程', link: '/videos/', color: 'url(#planetGradient8)', angle: 315, orbit: 2 }
+    ];
+    
+    const svg = document.getElementById('galaxy-svg');
+    const planetsGroup = document.getElementById('planets');
+    const connectionsGroup = document.getElementById('connections');
+    const particlesGroup = document.getElementById('particles');
+    
+    const centerX = 600;
+    const centerY = 350;
+    const orbits = [150, 250, 350]; // 轨道半径
+    
+    let currentRotation = 0;
+    let isDragging = false;
+    let lastMouseX = 0;
+    let scale = 1;
+    
+    // 创建星球
+    function createPlanet(planet, index) {
+        const orbitRadius = orbits[planet.orbit - 1];
+        const rad = (planet.angle + currentRotation) * Math.PI / 180;
+        const x = centerX + orbitRadius * Math.cos(rad);
+        const y = centerY + orbitRadius * Math.sin(rad) * 0.6; // 椭圆压缩
         
-        linksData.push(
-            { source: 1, target: 2 },
-            { source: 1, target: 3 },
-            { source: 1, target: 8 },
-            { source: 3, target: 5 },
-            { source: 4, target: 5 },
-            { source: 4, target: 6 },
-            { source: 5, target: 7 },
-            { source: 8, target: 2 },
-            { source: 8, target: 9 },
-            { source: 9, target: 1 },
-            { source: 9, target: 2 },
-            { source: 9, target: 3 },
-            { source: 10, target: 3 },
-            { source: 11, target: 9 },
-            { source: 11, target: 10 },
-            { source: 12, target: 2 },
-            { source: 12, target: 3 },
-            { source: 12, target: 4 }
-        );
+        const g = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+        g.setAttribute('class', 'planet');
+        g.setAttribute('transform', `translate(${x}, ${y})`);
+        g.style.animationDelay = `${index * 0.2}s`;
+        
+        // 星球圆圈
+        const circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+        circle.setAttribute('class', 'planet-circle');
+        circle.setAttribute('r', 35);
+        circle.setAttribute('stroke', planet.color);
+        
+        // 图标
+        const icon = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+        icon.setAttribute('class', 'planet-icon');
+        icon.setAttribute('dy', '2');
+        icon.textContent = planet.icon;
+        
+        // 标签
+        const label = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+        label.setAttribute('class', 'planet-label');
+        label.setAttribute('dy', '55');
+        label.textContent = planet.name;
+        
+        // 描述
+        const desc = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+        desc.setAttribute('class', 'planet-desc');
+        desc.setAttribute('dy', '68');
+        desc.textContent = planet.desc;
+        
+        g.appendChild(circle);
+        g.appendChild(icon);
+        g.appendChild(label);
+        g.appendChild(desc);
+        
+        // 点击事件
+        g.addEventListener('click', () => {
+            window.location.href = planet.link;
+        });
+        
+        // 悬停效果
+        g.addEventListener('mouseenter', () => {
+            createGlowEffect(x, y, planet.color);
+        });
+        
+        return { element: g, data: planet, x, y };
     }
-
-    // 初始化 D3.js 力导向图
-    function initGraph() {
-        const container = document.getElementById('graph-container');
-        const width = container.clientWidth;
-        const height = container.clientHeight;
-
-        const svg = d3.select('#graph-container')
-            .append('svg')
-            .attr('viewBox', [0, 0, width, height])
-            .attr('width', width)
-            .attr('height', height);
-
-        const defs = svg.append('defs');
-        const filter = defs.append('filter')
-            .attr('id', 'glow')
-            .attr('x', '-50%')
-            .attr('y', '-50%')
-            .attr('width', '200%')
-            .attr('height', '200%');
-
-        filter.append('feGaussianBlur')
-            .attr('stdDeviation', '4')
-            .attr('result', 'coloredBlur');
-
-        const feMerge = filter.append('feMerge');
-        feMerge.append('feMergeNode').attr('in', 'coloredBlur');
-        feMerge.append('feMergeNode').attr('in', 'SourceGraphic');
-
-        const nodeRadius = 28;
-        const collisionRadius = 55;
-
-        const simulation = d3.forceSimulation(nodesData)
-            .force('link', d3.forceLink(linksData).id(d => d.id).distance(130))
-            .force('charge', d3.forceManyBody().strength(-600))
-            .force('center', d3.forceCenter(width / 2, height / 2))
-            .force('collision', d3.forceCollide().radius(collisionRadius));
-
-        const linkGroup = svg.append('g').attr('class', 'links');
-
-        const links = linkGroup.selectAll('line')
-            .data(linksData)
-            .enter()
-            .append('line')
-            .attr('class', 'link');
-
-        const nodeGroup = svg.append('g').attr('class', 'nodes');
-
-        const nodes = nodeGroup.selectAll('.node')
-            .data(nodesData)
-            .enter()
-            .append('g')
-            .attr('class', 'node')
-            .call(d3.drag()
-                .on('start', dragstarted)
-                .on('drag', dragged)
-                .on('end', dragended));
-
-        nodes.append('circle')
-            .attr('class', 'node-circle')
-            .attr('r', nodeRadius);
-
-        nodes.append('text')
-            .attr('class', 'node-icon')
-            .attr('dy', '0.35em')
-            .text(d => d.icon);
-
-        const labels = nodeGroup.selectAll('.node-label')
-            .data(nodesData)
-            .enter()
-            .append('text')
-            .attr('class', 'node-label')
-            .attr('dy', 45)
-            .text(d => d.label)
-            .style('opacity', 1);
-
-        nodes.on('mouseenter', function(event, d) {
-            d3.select(this).select('.node-circle')
-                .transition()
-                .duration(200)
-                .attr('r', nodeRadius + 8);
-
-            labels.filter(l => l.id === d.id)
-                .transition()
-                .duration(200)
-                .style('font-size', '16px')
-                .style('fill', 'var(--neon-green)');
-
-            links.classed('active', l => l.source.id === d.id || l.target.id === d.id);
-        })
-        .on('mouseleave', function(event, d) {
-            d3.select(this).select('.node-circle')
-                .transition()
-                .duration(200)
-                .attr('r', nodeRadius);
-
-            labels.filter(l => l.id === d.id)
-                .transition()
-                .duration(200)
-                .style('font-size', '14px')
-                .style('fill', 'var(--text-primary)');
-
-            links.classed('active', false);
-        })
-        .on('click', function(event, d) {
-            showDetail(d);
-        });
-
-        simulation.on('tick', () => {
-            links
-                .attr('x1', d => d.source.x)
-                .attr('y1', d => d.source.y)
-                .attr('x2', d => d.target.x)
-                .attr('y2', d => d.target.y);
-
-            nodes.attr('transform', d => `translate(${d.x},${d.y})`);
-
-            labels
-                .attr('x', d => d.x)
-                .attr('y', d => d.y);
-        });
-
-        function dragstarted(event, d) {
-            if (!event.active) simulation.alphaTarget(0.3).restart();
-            d.fx = d.x;
-            d.fy = d.y;
-        }
-
-        function dragged(event, d) {
-            d.fx = event.x;
-            d.fy = event.y;
-        }
-
-        function dragended(event, d) {
-            if (!event.active) simulation.alphaTarget(0);
-            d.fx = null;
-            d.fy = null;
-        }
-
-        // 粒子效果
-        setInterval(() => {
-            if (document.hidden) return;
+    
+    // 创建发光效果
+    function createGlowEffect(x, y, color) {
+        const glow = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+        glow.setAttribute('cx', x);
+        glow.setAttribute('cy', y);
+        glow.setAttribute('r', 35);
+        glow.setAttribute('fill', 'none');
+        glow.setAttribute('stroke', color);
+        glow.setAttribute('stroke-width', '2');
+        glow.setAttribute('opacity', '0.8');
+        
+        particlesGroup.appendChild(glow);
+        
+        let radius = 35;
+        let opacity = 0.8;
+        
+        function animate() {
+            radius += 2;
+            opacity -= 0.03;
             
-            const randomLink = linksData[Math.floor(Math.random() * linksData.length)];
-            if (randomLink) {
-                const particle = svg.append('circle')
-                    .attr('class', 'particle')
-                    .attr('r', 2 + Math.random() * 2);
-                
-                const duration = 2000 + Math.random() * 1000;
-                
-                particle
-                    .attr('cx', randomLink.source.x)
-                    .attr('cy', randomLink.source.y)
-                    .transition()
-                    .duration(duration)
-                    .ease(d3.easeLinear)
-                    .attr('cx', randomLink.target.x)
-                    .attr('cy', randomLink.target.y)
-                    .on('end', function() {
-                        d3.select(this).remove();
-                    });
+            if (opacity > 0) {
+                glow.setAttribute('r', radius);
+                glow.setAttribute('opacity', opacity);
+                requestAnimationFrame(animate);
+            } else {
+                glow.remove();
             }
-        }, 500);
-
-        // 响应式
-        window.addEventListener('resize', () => {
-            const newWidth = container.clientWidth;
-            const newHeight = container.clientHeight;
+        }
+        
+        animate();
+    }
+    
+    // 创建连接线
+    function createConnections(planetElements) {
+        connectionsGroup.innerHTML = '';
+        
+        for (let i = 0; i < planetElements.length; i++) {
+            for (let j = i + 1; j < planetElements.length; j++) {
+                const p1 = planetElements[i];
+                const p2 = planetElements[j];
+                
+                // 只连接相邻轨道的星球
+                if (Math.abs(p1.data.orbit - p2.data.orbit) <= 1) {
+                    const line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+                    line.setAttribute('class', 'connection-line');
+                    line.setAttribute('x1', p1.x);
+                    line.setAttribute('y1', p1.y);
+                    line.setAttribute('x2', p2.x);
+                    line.setAttribute('y2', p2.y);
+                    connectionsGroup.appendChild(line);
+                }
+            }
+        }
+    }
+    
+    // 流动粒子
+    function createFlowParticles(planetElements) {
+        if (document.hidden || planetElements.length < 2) return;
+        
+        const validPairs = [];
+        for (let i = 0; i < planetElements.length; i++) {
+            for (let j = i + 1; j < planetElements.length; j++) {
+                if (Math.abs(planetElements[i].data.orbit - planetElements[j].data.orbit) <= 1) {
+                    validPairs.push([planetElements[i], planetElements[j]]);
+                }
+            }
+        }
+        
+        if (validPairs.length === 0) return;
+        
+        const [p1, p2] = validPairs[Math.floor(Math.random() * validPairs.length)];
+        
+        const particle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+        particle.setAttribute('class', 'flow-particle');
+        particle.setAttribute('r', 3);
+        particlesGroup.appendChild(particle);
+        
+        let progress = 0;
+        const speed = 0.015;
+        
+        function animate() {
+            progress += speed;
             
-            svg.attr('viewBox', [0, 0, newWidth, newHeight]);
-            simulation.force('center', d3.forceCenter(newWidth / 2, newHeight / 2));
-            simulation.alpha(0.3).restart();
+            if (progress < 1) {
+                const x = p1.x + (p2.x - p1.x) * progress;
+                const y = p1.y + (p2.y - p1.y) * progress;
+                particle.setAttribute('cx', x);
+                particle.setAttribute('cy', y);
+                requestAnimationFrame(animate);
+            } else {
+                particle.remove();
+            }
+        }
+        
+        animate();
+    }
+    
+    // 渲染星系
+    let planetElements = [];
+    
+    function render() {
+        planetsGroup.innerHTML = '';
+        planetElements = [];
+        
+        planets.forEach((planet, index) => {
+            const pe = createPlanet(planet, index);
+            planetsGroup.appendChild(pe.element);
+            planetElements.push(pe);
         });
-
-        // 缩放
-        const zoom = d3.zoom()
-            .scaleExtent([0.5, 3])
-            .on('zoom', (event) => {
-                linkGroup.attr('transform', event.transform);
-                nodeGroup.attr('transform', event.transform);
-                labels.attr('transform', event.transform);
-            });
-
-        svg.call(zoom);
-    }
-
-    // 显示详情
-    function showDetail(data) {
-        const panel = document.getElementById('detail-panel');
-        const overlay = document.getElementById('overlay');
         
-        document.getElementById('detail-icon').textContent = data.icon || '💡';
-        document.getElementById('detail-title').textContent = data.label;
-        document.getElementById('detail-category').textContent = data.category || '未分类';
-        document.getElementById('detail-content').innerHTML = `<p>${data.description || '暂无描述'}</p>`;
-        document.getElementById('detail-link').href = data.link || '#';
-
-        const tagsContainer = document.getElementById('detail-tags');
-        tagsContainer.innerHTML = (data.tags || [])
-            .map(tag => `<span class="tag">${tag}</span>`)
-            .join('');
-
-        panel.classList.add('active');
-        overlay.classList.add('active');
+        createConnections(planetElements);
     }
-
-    // 关闭详情
-    function closeDetail() {
-        const panel = document.getElementById('detail-panel');
-        const overlay = document.getElementById('overlay');
-        
-        panel.classList.remove('active');
-        overlay.classList.remove('active');
+    
+    // 自动旋转
+    function autoRotate() {
+        if (!isDragging) {
+            currentRotation += 0.05;
+            render();
+        }
+        requestAnimationFrame(autoRotate);
     }
+    
+    // 拖拽交互
+    svg.addEventListener('mousedown', (e) => {
+        isDragging = true;
+        lastMouseX = e.clientX;
+        svg.style.cursor = 'grabbing';
+    });
+    
+    document.addEventListener('mousemove', (e) => {
+        if (isDragging) {
+            const delta = e.clientX - lastMouseX;
+            currentRotation += delta * 0.3;
+            lastMouseX = e.clientX;
+            render();
+        }
+    });
+    
+    document.addEventListener('mouseup', () => {
+        isDragging = false;
+        svg.style.cursor = 'grab';
+    });
+    
+    // 滚轮缩放
+    svg.addEventListener('wheel', (e) => {
+        e.preventDefault();
+        const delta = e.deltaY > 0 ? 0.9 : 1.1;
+        scale = Math.max(0.5, Math.min(2, scale * delta));
+        svg.style.transform = `scale(${scale})`;
+    });
+    
+    svg.style.cursor = 'grab';
+    svg.style.transition = 'transform 0.3s ease';
+    
+    // 初始化
+    render();
+    autoRotate();
+    
+    // 定期创建流动粒子
+    setInterval(() => createFlowParticles(planetElements), 800);
+    
+    // 入场动画
+    planets.forEach((_, index) => {
+        setTimeout(() => {
+            const planet = planetElements[index];
+            if (planet) {
+                planet.element.style.animation = 'fadeInUp 0.6s ease-out';
+            }
+        }, index * 100);
+    });
+})();
 
-    // 事件监听
-    document.getElementById('close-btn').addEventListener('click', closeDetail);
-    document.getElementById('overlay').addEventListener('click', closeDetail);
-
-    // 初始化图表
-    if (document.getElementById('graph-container')) {
-        initGraph();
+// ===== 访问者统计动画 =====
+document.addEventListener('DOMContentLoaded', function() {
+    // 监听不蒜子计数器
+    const observer = new MutationObserver(function(mutations) {
+        mutations.forEach(function(mutation) {
+            const pvElement = document.getElementById('busuanzi_value_site_pv');
+            const visitorStat = document.getElementById('visitor-stat');
+            
+            if (pvElement && pvElement.textContent !== '--') {
+                const count = parseInt(pvElement.textContent.replace(/,/g, ''));
+                if (!isNaN(count)) {
+                    // 格式化数字
+                    const formatted = count > 10000 ? 
+                        (count / 10000).toFixed(1) + 'w' : 
+                        count.toLocaleString();
+                    
+                    if (visitorStat) {
+                        visitorStat.textContent = formatted;
+                        visitorStat.style.animation = 'pulse 0.5s ease';
+                    }
+                }
+            }
+        });
+    });
+    
+    const pvElement = document.getElementById('busuanzi_value_site_pv');
+    if (pvElement) {
+        observer.observe(pvElement, { childList: true, characterData: true, subtree: true });
     }
+});
 </script>
 {{ end }}
