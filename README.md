@@ -1,6 +1,6 @@
-# AI 研究站 | AI Research Hub
+# AI漫游 | AI Wander
 
-一个赛博朋克风格的 AI 研究站，使用 Hugo 构建。
+一个赛博朋克风格的 AI 资源导航站，使用 Hugo 构建。
 
 ![AI Research Hub](https://img.shields.io/badge/AI-Research%20Hub-00ff41?style=for-the-badge)
 ![Hugo](https://img.shields.io/badge/Hugo-0.146-00f0ff?style=for-the-badge)
@@ -165,7 +165,7 @@ mentors/
 
 ### 评论功能 (Giscus)
 
-AI 研究站已集成 [Giscus](https://giscus.app) 评论系统，基于 GitHub Discussions。
+AI漫游已集成 [Giscus](https://giscus.app) 评论系统，基于 GitHub Discussions。
 
 #### 快速配置
 

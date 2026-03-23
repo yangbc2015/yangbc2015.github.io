@@ -4,7 +4,7 @@ title: "AI 研究"
 date: 2024-01-15T10:00:00+08:00
 draft: false
 description: "探索人工智能的前沿领域，包括大语言模型、计算机视觉和强化学习。正在研究如何将 AI 技术应用到实际产品中，提升用户体验。"
-icon: "🤖"
+icon: "🍀"
 category: "技术"
 tags: ["Python", "PyTorch", "LLM", "深度学习", "AI"]
 connections: [2, 3, 6]

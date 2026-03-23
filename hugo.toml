@@ -1,7 +1,7 @@
 baseURL = 'https://yangbc2015.github.io'
 languageCode = 'zh-CN'
 defaultContentLanguage = 'zh'
-title = 'AI 研究站 | AI Research Hub'
+title = 'AI漫游 | AI Wander'
 # 使用自定义布局，不依赖主题
 theme = ''
 
@@ -13,7 +13,7 @@ theme = ''
   author = "Garden Keeper"
   description = "专注 AI 领域的研究站，汇聚学术前沿、技术博客、AI 榜单与资源导航"
   favicon = "/favicon.ico"
-  site_logo = "/logo.png"
+  # site_logo = "/logo.png"  # 使用emoji 🍀 作为logo
   mainSections = ["nodes", "posts", "news", "papers", "tutorials", "videos", "tools", "investment"]
   
   # 赛博朋克主题配色
@@ -70,6 +70,10 @@ theme = ''
     url = '/news/'
     weight = 20
   [[menu.main]]
+    name = '🤖 机器人'
+    url = '/robotics/'
+    weight = 22
+  [[menu.main]]
     name = '🏆 AI榜单'
     url = '/leaderboard/'
     weight = 25
@@ -82,13 +86,9 @@ theme = ''
     url = '/papers/'
     weight = 30
   [[menu.main]]
-    name = '🎓 教程'
+    name = '🏗️ 技术基建'
     url = '/tutorials/'
     weight = 40
-  [[menu.main]]
-    name = '💻 技术'
-    url = '/posts/'
-    weight = 50
   [[menu.main]]
     name = '🛠️ 工具'
     url = '/tools/'

@@ -1,16 +1,16 @@
 {
-  "last_updated": "2026-03-23T03:01:03.354211+00:00",
+  "last_updated": "2026-03-23T03:17:58.412486+00:00",
   "sources": {
     "lmsys_arena": {
       "name": "LMSYS Chatbot Arena",
       "url": "https://chat.lmsys.org",
-      "description": "基于人类偏好的众包评测平台",
+      "description": "基于人类偏好的众包评测平台，ELO评分反映模型在盲测中的相对排名",
       "data_file": "leaderboard/lmsys_arena.json"
     },
     "artificial_analysis": {
       "name": "Artificial Analysis",
       "url": "https://artificialanalysis.ai/leaderboards/models",
-      "description": "综合AI模型性能排行榜，涵盖智能指数、价格、速度等多维度评测",
+      "description": "综合AI模型性能排行榜，基于智能指数、价格、速度、上下文窗口等多维度评测",
       "data_file": "leaderboard/artificial_analysis.json"
     }
   }

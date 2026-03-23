@@ -1,0 +1,677 @@
+{{ define "title" }}🤖 机器人 | {{ .Site.Title }}{{ end }}
+
+{{ define "extra-head" }}
+<style>
+    .robotics-hero {
+        text-align: center;
+        padding: 3rem 1rem;
+        border-bottom: 1px solid var(--neon-green-dim);
+        background: linear-gradient(180deg, rgba(0, 255, 65, 0.05) 0%, transparent 100%);
+    }
+
+    .robotics-title {
+        font-family: 'Orbitron', monospace;
+        font-size: clamp(2rem, 5vw, 3.5rem);
+        color: var(--neon-green);
+        text-shadow: 0 0 30px var(--neon-green-glow);
+        margin-bottom: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .robotics-icon {
+        font-size: 1.2em;
+        animation: robotFloat 3s ease-in-out infinite;
+    }
+
+    @keyframes robotFloat {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-10px); }
+    }
+
+    .robotics-subtitle {
+        color: var(--text-secondary);
+        font-size: 1.1rem;
+        max-width: 700px;
+        margin: 0 auto;
+    }
+
+    /* 分类标签 */
+    .category-tabs {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        padding: 1.5rem;
+        flex-wrap: wrap;
+        background: var(--dark-bg-secondary);
+        border-bottom: 1px solid var(--neon-green-dim);
+    }
+
+    .category-tab {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        padding: 0.75rem 1.5rem;
+        background: transparent;
+        border: 1px solid var(--neon-green-dim);
+        border-radius: 25px;
+        color: var(--text-secondary);
+        font-family: 'Orbitron', monospace;
+        font-size: 0.9rem;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+
+    .category-tab:hover,
+    .category-tab.active {
+        background: var(--neon-green);
+        color: var(--dark-bg);
+        border-color: var(--neon-green);
+        box-shadow: 0 0 20px var(--neon-green-glow);
+    }
+
+    /* 内容容器 */
+    .robotics-container {
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 2rem 1rem;
+    }
+
+    /* 板块网格 */
+    .section-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        gap: 2rem;
+        margin-bottom: 3rem;
+    }
+
+    .section-card {
+        background: var(--dark-bg-secondary);
+        border: 1px solid var(--neon-green-dim);
+        border-radius: 15px;
+        overflow: hidden;
+        transition: all 0.3s ease;
+    }
+
+    .section-card:hover {
+        border-color: var(--neon-green);
+        box-shadow: 0 10px 40px rgba(0, 255, 65, 0.15);
+        transform: translateY(-5px);
+    }
+
+    .section-header {
+        padding: 1.25rem 1.5rem;
+        background: rgba(0, 255, 65, 0.05);
+        border-bottom: 1px solid var(--neon-green-dim);
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+    }
+
+    .section-icon {
+        font-size: 1.5rem;
+    }
+
+    .section-title {
+        font-family: 'Orbitron', monospace;
+        font-size: 1.1rem;
+        color: var(--neon-green);
+        margin: 0;
+    }
+
+    .section-badge {
+        margin-left: auto;
+        font-size: 0.7rem;
+        padding: 0.2rem 0.6rem;
+        background: rgba(255, 0, 255, 0.2);
+        color: var(--neon-pink);
+        border: 1px solid var(--neon-pink);
+        border-radius: 10px;
+    }
+
+    .section-content {
+        padding: 1.5rem;
+    }
+
+    /* 文章列表 */
+    .article-list {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .article-item {
+        padding: 1rem;
+        background: rgba(0, 0, 0, 0.2);
+        border: 1px solid transparent;
+        border-radius: 10px;
+        transition: all 0.3s ease;
+        cursor: pointer;
+        text-decoration: none;
+        color: inherit;
+        display: block;
+    }
+
+    .article-item:hover {
+        border-color: var(--neon-green-dim);
+        background: rgba(0, 255, 65, 0.05);
+    }
+
+    .article-header {
+        display: flex;
+        align-items: flex-start;
+        gap: 0.75rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .article-tag {
+        font-size: 0.7rem;
+        padding: 0.15rem 0.5rem;
+        border-radius: 8px;
+        font-family: 'Orbitron', monospace;
+        white-space: nowrap;
+    }
+
+    .article-tag.hot {
+        background: rgba(255, 0, 0, 0.2);
+        color: #ff4757;
+        border: 1px solid #ff4757;
+    }
+
+    .article-tag.new {
+        background: rgba(0, 255, 65, 0.2);
+        color: var(--neon-green);
+        border: 1px solid var(--neon-green);
+    }
+
+    .article-tag.tech {
+        background: rgba(0, 240, 255, 0.2);
+        color: var(--neon-blue);
+        border: 1px solid var(--neon-blue);
+    }
+
+    .article-tag.paper {
+        background: rgba(255, 0, 255, 0.2);
+        color: var(--neon-pink);
+        border: 1px solid var(--neon-pink);
+    }
+
+    .article-title {
+        font-size: 0.95rem;
+        color: var(--text-primary);
+        font-weight: 600;
+        line-height: 1.4;
+        flex: 1;
+    }
+
+    .article-meta {
+        display: flex;
+        gap: 1rem;
+        font-size: 0.8rem;
+        color: var(--text-secondary);
+        font-family: 'Orbitron', monospace;
+    }
+
+    .article-summary {
+        font-size: 0.85rem;
+        color: var(--text-secondary);
+        line-height: 1.5;
+        margin-top: 0.5rem;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+
+    /* 查看更多按钮 */
+    .view-more {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+        padding: 0.75rem;
+        margin-top: 1rem;
+        background: transparent;
+        border: 1px dashed var(--neon-green-dim);
+        border-radius: 8px;
+        color: var(--neon-green);
+        font-family: 'Orbitron', monospace;
+        font-size: 0.85rem;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        text-decoration: none;
+    }
+
+    .view-more:hover {
+        border-color: var(--neon-green);
+        background: rgba(0, 255, 65, 0.1);
+    }
+
+    /* 特色内容区 */
+    .featured-section {
+        background: linear-gradient(135deg, rgba(0, 255, 65, 0.05) 0%, rgba(0, 240, 255, 0.05) 100%);
+        border: 1px solid var(--neon-green-dim);
+        border-radius: 15px;
+        padding: 2rem;
+        margin-bottom: 3rem;
+    }
+
+    .featured-header {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .featured-title {
+        font-family: 'Orbitron', monospace;
+        font-size: 1.3rem;
+        color: var(--neon-green);
+    }
+
+    .featured-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 1.5rem;
+    }
+
+    .featured-item {
+        background: var(--dark-bg);
+        border: 1px solid var(--neon-green-dim);
+        border-radius: 10px;
+        padding: 1.5rem;
+        transition: all 0.3s ease;
+    }
+
+    .featured-item:hover {
+        border-color: var(--neon-blue);
+        transform: translateY(-3px);
+    }
+
+    .featured-item-icon {
+        font-size: 2rem;
+        margin-bottom: 0.75rem;
+    }
+
+    .featured-item-title {
+        font-size: 1rem;
+        color: var(--text-primary);
+        margin-bottom: 0.5rem;
+        font-weight: 600;
+    }
+
+    .featured-item-desc {
+        font-size: 0.85rem;
+        color: var(--text-secondary);
+        line-height: 1.5;
+    }
+
+    /* 公司/产品展示 */
+    .company-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        gap: 1rem;
+    }
+
+    .company-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1.5rem 1rem;
+        background: rgba(0, 0, 0, 0.2);
+        border: 1px solid var(--neon-green-dim);
+        border-radius: 10px;
+        transition: all 0.3s ease;
+        cursor: pointer;
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .company-item:hover {
+        border-color: var(--neon-green);
+        background: rgba(0, 255, 65, 0.05);
+        transform: scale(1.05);
+    }
+
+    .company-logo {
+        font-size: 2.5rem;
+        margin-bottom: 0.75rem;
+    }
+
+    .company-name {
+        font-size: 0.85rem;
+        color: var(--text-primary);
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .company-tag {
+        font-size: 0.7rem;
+        color: var(--text-secondary);
+        margin-top: 0.25rem;
+    }
+
+    /* 响应式 */
+    @media (max-width: 768px) {
+        .robotics-title {
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        .category-tabs {
+            gap: 0.5rem;
+            padding: 1rem;
+        }
+
+        .category-tab {
+            padding: 0.5rem 1rem;
+            font-size: 0.8rem;
+        }
+
+        .section-grid {
+            grid-template-columns: 1fr;
+        }
+
+        .featured-grid {
+            grid-template-columns: 1fr;
+        }
+
+        .company-grid {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+</style>
+{{ end }}
+
+{{ define "main" }}
+<section class="robotics-hero">
+    <h1 class="robotics-title">
+        <span class="robotics-icon">🤖</span>
+        机器人
+        <span class="robotics-icon">⚡</span>
+    </h1>
+    <p class="robotics-subtitle">{{ .Description }}</p>
+</section>
+
+<!-- 分类标签 -->
+<div class="category-tabs">
+    <button class="category-tab active" data-filter="all">
+        <span>🌐</span> 全部
+    </button>
+    <button class="category-tab" data-filter="industry">
+        <span>🏭</span> 行业焦点
+    </button>
+    <button class="category-tab" data-filter="tech">
+        <span>🔧</span> 技术热点
+    </button>
+    <button class="category-tab" data-filter="research">
+        <span>📄</span> 学术前沿
+    </button>
+    <button class="category-tab" data-filter="product">
+        <span>🚀</span> 行业实现
+    </button>
+</div>
+
+<div class="robotics-container">
+    <!-- 热门话题 -->
+    <div class="featured-section">
+        <div class="featured-header">
+            <span style="font-size: 1.5rem;">🔥</span>
+            <h2 class="featured-title">热门话题</h2>
+        </div>
+        <div class="featured-grid">
+            <div class="featured-item">
+                <div class="featured-item-icon">🚶</div>
+                <h3 class="featured-item-title">人形机器人突破</h3>
+                <p class="featured-item-desc">Figure AI、特斯拉Optimus、波士顿电力的Atlas等人形机器人最新进展</p>
+            </div>
+            <div class="featured-item">
+                <div class="featured-item-icon">🧠</div>
+                <h3 class="featured-item-title">具身智能</h3>
+                <p class="featured-item-desc">大模型与机器人结合，VLA模型、世界模型在机器人领域的应用</p>
+            </div>
+            <div class="featured-item">
+                <div class="featured-item-icon">🏭</div>
+                <h3 class="featured-item-title">工业自动化</h3>
+                <p class="featured-item-desc">协作机器人、智能产线、柔性制造系统的发展与应用案例</p>
+            </div>
+            <div class="featured-item">
+                <div class="featured-item-icon">🦾</div>
+                <h3 class="featured-item-title">灵巧操作</h3>
+                <p class="featured-item-desc">机器人手部精细操作、抓取学习、工具使用能力的新突破</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- 四大板块 -->
+    <div class="section-grid">
+        <!-- 行业焦点 -->
+        <div class="section-card" data-category="industry">
+            <div class="section-header">
+                <span class="section-icon">🏭</span>
+                <h2 class="section-title">行业焦点</h2>
+                <span class="section-badge">8篇更新</span>
+            </div>
+            <div class="section-content">
+                <div class="article-list">
+                    <a href="#" class="article-item">
+                        <div class="article-header">
+                            <span class="article-tag hot">HOT</span>
+                            <span class="article-title">Figure AI 发布 Figure 03，人形机器人进入量产阶段</span>
+                        </div>
+                        <div class="article-meta">
+                            <span>📅 2026-03-22</span>
+                            <span>👁️ 3.2k</span>
+                        </div>
+                        <p class="article-summary">Figure AI 正式发布第三代人形机器人 Figure 03，声称已实现全自主生产线部署，年产能规划达10万台...</p>
+                    </a>
+                    <a href="#" class="article-item">
+                        <div class="article-header">
+                            <span class="article-tag new">NEW</span>
+                            <span class="article-title">特斯拉 Optimus Gen 3 工厂测试视频曝光</span>
+                        </div>
+                        <div class="article-meta">
+                            <span>📅 2026-03-20</span>
+                            <span>👁️ 2.8k</span>
+                        </div>
+                        <p class="article-summary">马斯克发布最新视频，展示Optimus在特斯拉超级工厂执行电池组装任务的完整流程...</p>
+                    </a>
+                    <a href="#" class="article-item">
+                        <div class="article-header">
+                            <span class="article-title">波士顿动力 Atlas 学会自主导航复杂地形</span>
+                        </div>
+                        <div class="article-meta">
+                            <span>📅 2026-03-18</span>
+                            <span>👁️ 1.9k</span>
+                        </div>
+                        <p class="article-summary">通过强化学习训练，Atlas现在可以在未见过环境中自主规划路径并完成跑酷动作...</p>
+                    </a>
+                </div>
+                <a href="#" class="view-more">
+                    查看更多 <span>→</span>
+                </a>
+            </div>
+        </div>
+
+        <!-- 技术热点 -->
+        <div class="section-card" data-category="tech">
+            <div class="section-header">
+                <span class="section-icon">🔧</span>
+                <h2 class="section-title">技术热点</h2>
+                <span class="section-badge">12篇更新</span>
+            </div>
+            <div class="section-content">
+                <div class="article-list">
+                    <a href="#" class="article-item">
+                        <div class="article-header">
+                            <span class="article-tag tech">TECH</span>
+                            <span class="article-title">RT-3: 视觉-语言-动作模型的 scaling law</span>
+                        </div>
+                        <div class="article-meta">
+                            <span>📅 2026-03-21</span>
+                            <span>👁️ 2.1k</span>
+                        </div>
+                        <p class="article-summary">Google DeepMind 最新研究表明，VLA模型遵循与LLM类似的scaling规律，数据量扩大10倍带来显著性能提升...</p>
+                    </a>
+                    <a href="#" class="article-item">
+                        <div class="article-header">
+                            <span class="article-tag hot">HOT</span>
+                            <span class="article-title">Sim-to-Real 迁移学习最新进展</span>
+                        </div>
+                        <div class="article-meta">
+                            <span>📅 2026-03-19</span>
+                            <span>👁️ 1.7k</span>
+                        </div>
+                        <p class="article-summary">域随机化、域自适应、世界模型等技术大幅缩小仿真与现实差距，零样本迁移成功率突破85%...</p>
+                    </a>
+                    <a href="#" class="article-item">
+                        <div class="article-header">
+                            <span class="article-title">触觉传感器技术革命：电子皮肤商用化</span>
+                        </div>
+                        <div class="article-meta">
+                            <span>📅 2026-03-17</span>
+                            <span>👁️ 1.5k</span>
+                        </div>
+                        <p class="article-summary">新一代高分辨率触觉传感器成本降至百元级别，为机器人精细操作普及铺平道路...</p>
+                    </a>
+                </div>
+                <a href="#" class="view-more">
+                    查看更多 <span>→</span>
+                </a>
+            </div>
+        </div>
+
+        <!-- 学术前沿 -->
+        <div class="section-card" data-category="research">
+            <div class="section-header">
+                <span class="section-icon">📄</span>
+                <h2 class="section-title">学术前沿</h2>
+                <span class="section-badge">6篇更新</span>
+            </div>
+            <div class="section-content">
+                <div class="article-list">
+                    <a href="#" class="article-item">
+                        <div class="article-header">
+                            <span class="article-tag paper">CoRL</span>
+                            <span class="article-title">Learning to Walk in Minutes: 快速机器人运动学习</span>
+                        </div>
+                        <div class="article-meta">
+                            <span>📅 2026-03-22</span>
+                            <span>👁️ 1.3k</span>
+                        </div>
+                        <p class="article-summary">CoRL 2026 最佳论文，提出一种元强化学习方法，让四足机器人5分钟内学会适应新地形...</p>
+                    </a>
+                    <a href="#" class="article-item">
+                        <div class="article-header">
+                            <span class="article-tag paper">RSS</span>
+                            <span class="article-title">Diffusion Policy 在双臂协作中的应用</span>
+                        </div>
+                        <div class="article-meta">
+                            <span>📅 2026-03-20</span>
+                            <span>👁️ 980</span>
+                        </div>
+                        <p class="article-summary">RSS 2026 论文，展示扩散模型如何生成流畅的双臂协调动作，在装配任务中超越传统方法...</p>
+                    </a>
+                    <a href="#" class="article-item">
+                        <div class="article-header">
+                            <span class="article-tag new">NEW</span>
+                            <span class="article-title">3D 场景理解新框架: OpenScene-Robot</span>
+                        </div>
+                        <div class="article-meta">
+                            <span>📅 2026-03-18</span>
+                            <span>👁️ 850</span>
+                        </div>
+                        <p class="article-summary">结合3D视觉语言模型，实现开放词汇的物体识别与场景理解，无需针对新物体重新训练...</p>
+                    </a>
+                </div>
+                <a href="#" class="view-more">
+                    查看更多 <span>→</span>
+                </a>
+            </div>
+        </div>
+
+        <!-- 行业实现 -->
+        <div class="section-card" data-category="product">
+            <div class="section-header">
+                <span class="section-icon">🚀</span>
+                <h2 class="section-title">行业实现</h2>
+                <span class="section-badge">15家公司</span>
+            </div>
+            <div class="section-content">
+                <div class="company-grid">
+                    <a href="https://figure.ai" target="_blank" class="company-item">
+                        <span class="company-logo">🚶</span>
+                        <span class="company-name">Figure AI</span>
+                        <span class="company-tag">人形机器人</span>
+                    </a>
+                    <a href="https://bostondynamics.com" target="_blank" class="company-item">
+                        <span class="company-logo">🦿</span>
+                        <span class="company-name">波士顿动力</span>
+                        <span class="company-tag">Atlas/Spot</span>
+                    </a>
+                    <a href="https://tesla.com/optimus" target="_blank" class="company-item">
+                        <span class="company-logo">⚡</span>
+                        <span class="company-name">Tesla Optimus</span>
+                        <span class="company-tag">人形机器人</span>
+                    </a>
+                    <a href="https://sanctuary.ai" target="_blank" class="company-item">
+                        <span class="company-logo">🦾</span>
+                        <span class="company-name">Sanctuary AI</span>
+                        <span class="company-tag">Phoenix</span>
+                    </a>
+                    <a href="https://agilityrobotics.com" target="_blank" class="company-item">
+                        <span class="company-logo">🤖</span>
+                        <span class="company-name">Agility</span>
+                        <span class="company-tag">Digit</span>
+                    </a>
+                    <a href="https://unitree.com" target="_blank" class="company-item">
+                        <span class="company-logo">🐕</span>
+                        <span class="company-name">Unitree</span>
+                        <span class="company-tag">Go2</span>
+                    </a>
+                </div>
+                <a href="#" class="view-more">
+                    查看全部 <span>→</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+{{ end }}
+
+{{ define "scripts" }}
+<script>
+    // 分类筛选功能
+    document.querySelectorAll('.category-tab').forEach(tab => {
+        tab.addEventListener('click', function() {
+            const filter = this.dataset.filter;
+            
+            // 更新标签状态
+            document.querySelectorAll('.category-tab').forEach(t => t.classList.remove('active'));
+            this.classList.add('active');
+            
+            // 筛选内容
+            document.querySelectorAll('.section-card').forEach(card => {
+                if (filter === 'all' || card.dataset.category === filter) {
+                    card.style.display = 'block';
+                    card.style.animation = 'fadeIn 0.5s ease';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        });
+    });
+    
+    // 添加淡入动画
+    const style = document.createElement('style');
+    style.textContent = `
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    `;
+    document.head.appendChild(style);
+</script>
+{{ end }}
