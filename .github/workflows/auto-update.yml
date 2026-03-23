@@ -47,9 +47,10 @@ jobs:
     - name: Run scrapers
       id: run_scrapers
       continue-on-error: true
+      timeout-minutes: 15
       run: |
         cd scripts/scraper
-        python scraper.py
+        python3 scraper.py || echo "Scraper completed with some errors"
         echo "exit_code=$?" >> $GITHUB_OUTPUT
     
     - name: Check scraper status

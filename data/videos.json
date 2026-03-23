@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-03-23T10:01:12.917267+00:00",
-  "count": 8,
+  "last_updated": "2026-03-23T10:44:34.452736+00:00",
+  "count": 9,
   "items": [
     {
       "title": "Andrej Karpathy: 神经网络入门到精通",
@@ -93,9 +93,9 @@
       "featured": false
     },
     {
-      "title": "李宏毅机器学习",
+      "title": "李宏毅机器学习完整版",
       "speaker": "李宏毅",
-      "description": "台湾大学教授的机器学习经典课程",
+      "description": "台湾大学教授的机器学习经典课程，深入浅出讲解ML核心概念",
       "duration": "45:00",
       "views": "1.8M",
       "date": "2024-01-20",
@@ -105,7 +105,7 @@
       "thumbnail": "https://i2.hdslb.com/bfs/archive/2f1c3f236c76ea199e97388cb9a3f8b0d6fbb70c.jpg",
       "type": "course",
       "category": "精品课程",
-      "featured": false
+      "featured": true
     },
     {
       "title": "动手学深度学习 PyTorch版",
@@ -121,6 +121,21 @@
       "type": "course",
       "category": "精品课程",
       "featured": false
+    },
+    {
+      "title": "代码随想录 - AI 编程教程",
+      "speaker": "李沐",
+      "description": "从零开始学习AI编程和深度学习",
+      "duration": "30:00",
+      "views": "890K",
+      "date": "2024-03-01",
+      "platform": "bilibili",
+      "video_id": "BV1Xh411Y7mJ",
+      "url": "https://www.bilibili.com/video/BV1Xh411Y7mJ",
+      "thumbnail": "",
+      "type": "course",
+      "category": "AI编程",
+      "featured": true
     }
   ]
 }

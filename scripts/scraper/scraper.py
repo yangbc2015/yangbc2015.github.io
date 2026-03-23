@@ -2,13 +2,14 @@
 """
 AI 数据爬虫主程序
 自动爬取 AI 新闻、榜单、论文和视频数据，更新 Hugo 数据文件
+历史内容保留策略：每日追加新内容，不删除旧内容
 """
 
 import json
 import yaml
 import os
 import sys
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
 # 导入爬虫模块
@@ -19,6 +20,7 @@ from videos_scraper import VideosScraper
 from csdn_scraper import CSDNScraper
 from artificialanalysis_scraper import ArtificialAnalysisScraper
 from investment_scraper import InvestmentScraper
+from llm_leaderboard_scraper import LLMLeaderboardScraper
 
 # 数据目录
 DATA_DIR = Path(__file__).parent.parent.parent / "data"
@@ -50,32 +52,25 @@ def save_json(data, filepath):
 
 
 def update_leaderboard():
-    """更新榜单数据"""
+    """更新榜单数据 - 整合多个数据源"""
     print("\n" + "="*50)
     print("📊 开始更新 AI 榜单数据...")
     print("="*50)
     
-    # 爬取 LMSYS Arena 数据
-    scraper = LMSYSScraper()
-    lmsys_data = scraper.fetch_arena_leaderboard()
-    if lmsys_data:
-        save_json(lmsys_data, LEADERBOARD_DIR / "lmsys_arena.json")
-    else:
-        print("⚠️ 未能获取 LMSYS Arena 数据，使用备用数据")
-        lmsys_data = scraper.get_fallback_data()
-        save_json(lmsys_data, LEADERBOARD_DIR / "lmsys_arena.json")
+    # 使用新的综合榜单爬虫
+    llm_scraper = LLMLeaderboardScraper()
+    all_data = llm_scraper.fetch_all_leaderboards()
     
-    # 爬取 Artificial Analysis 数据
-    print("\n  正在获取 Artificial Analysis 数据...")
-    aa_scraper = ArtificialAnalysisScraper()
-    aa_data = aa_scraper.fetch_leaderboard()
-    if aa_data:
-        save_json(aa_data, LEADERBOARD_DIR / "artificial_analysis.json")
-        print(f"  ✓ 获取了 {len(aa_data.get('models', []))} 个模型数据")
-    else:
-        print("⚠️ 未能获取 Artificial Analysis 数据，使用备用数据")
-        aa_data = aa_scraper.get_fallback_data()
-        save_json(aa_data, LEADERBOARD_DIR / "artificial_analysis.json")
+    # 保存各个榜单
+    save_json(all_data["lmsys_arena"], LEADERBOARD_DIR / "lmsys_arena.json")
+    save_json(all_data["openrouter"], LEADERBOARD_DIR / "openrouter.json")
+    
+    # 获取中文榜单
+    chinese_data = llm_scraper.get_chinese_leaderboards()
+    save_json(chinese_data["superclue"], LEADERBOARD_DIR / "superclue.json")
+    save_json(chinese_data["c_eval"], LEADERBOARD_DIR / "c_eval.json")
+    
+    print(f"  ✓ 已更新 {len(all_data) - 1} 个国际榜单 + 2 个中文榜单")
     
     # 创建综合榜单索引
     leaderboard_index = {
@@ -84,20 +79,32 @@ def update_leaderboard():
             "lmsys_arena": {
                 "name": "LMSYS Chatbot Arena",
                 "url": "https://chat.lmsys.org",
-                "description": "基于人类偏好的众包评测平台",
+                "description": "基于人类偏好的众包评测平台，盲测对比模型对话能力",
                 "data_file": "leaderboard/lmsys_arena.json"
             },
-            "artificial_analysis": {
-                "name": "Artificial Analysis",
-                "url": "https://artificialanalysis.ai/leaderboards/models",
-                "description": "综合AI模型性能排行榜，涵盖智能指数、价格、速度等多维度评测",
-                "data_file": "leaderboard/artificial_analysis.json"
+            "openrouter": {
+                "name": "OpenRouter",
+                "url": "https://openrouter.ai",
+                "description": "API 平台模型使用统计与价格排名",
+                "data_file": "leaderboard/openrouter.json"
+            },
+            "superclue": {
+                "name": "SuperCLUE 中文榜单",
+                "url": "https://www.superclue.ai",
+                "description": "中文通用大模型综合性评测基准",
+                "data_file": "leaderboard/superclue.json"
+            },
+            "c_eval": {
+                "name": "C-Eval 学术评测",
+                "url": "https://cevalbenchmark.com",
+                "description": "中文语言模型多学科综合能力评测",
+                "data_file": "leaderboard/c_eval.json"
             }
         }
     }
     save_json(leaderboard_index, DATA_DIR / "leaderboard.json")
     
-    return lmsys_data, aa_data
+    return all_data
 
 
 def update_news():
@@ -272,7 +279,7 @@ def create_news_content_files(news_items):
             except:
                 pass
     
-    for item in news_items[:10]:  # 只为前 10 条创建内容文件
+    for item in news_items[:20]:  # 为前 20 条创建内容文件（增加覆盖率）
         # 去重检查：如果标题已存在，跳过
         if item["title"] in existing_titles:
             print(f"    ⏭️ 已存在: {item['title'][:40]}...")
@@ -400,13 +407,14 @@ def create_videos_content_files(videos):
         if f.name != "_index.md":
             try:
                 content = f.read_text(encoding='utf-8')
-                if 'url:' in content:
-                    url_line = [l for l in content.split('\n') if 'url:' in l and 'original_url' not in l][0]
+                # 检查 external_url 字段
+                if 'external_url:' in content:
+                    url_line = [l for l in content.split('\n') if 'external_url:' in l][0]
                     existing_urls.add(url_line.split(':', 1)[1].strip().strip('"\''))
             except:
                 pass
     
-    for video in videos[:6]:  # 只为前 6 个创建内容文件
+    for video in videos[:15]:  # 为前 15 个创建内容文件（增加覆盖率）
         # 去重检查：如果 URL 已存在，跳过
         video_url = video.get("url", "")
         if video_url and video_url in existing_urls:
@@ -424,6 +432,7 @@ def create_videos_content_files(videos):
             continue
         
         # 创建 front matter
+        # 注意：Hugo 中 url 字段有特殊含义，使用 external_url 存储视频链接
         front_matter = {
             "title": video["title"],
             "date": video["date"],
@@ -432,7 +441,7 @@ def create_videos_content_files(videos):
             "views": video.get("views", ""),
             "platform": video.get("platform", "youtube"),
             "video_id": video.get("video_id", ""),
-            "url": video.get("url", ""),
+            "external_url": video.get("url", ""),
             "thumbnail": video.get("thumbnail", ""),
             "video_type": video.get("type", "lecture"),
             "category": video.get("category", "技术讲座"),
@@ -460,35 +469,41 @@ def create_videos_content_files(videos):
 
 
 def update_tutorials():
-    """更新教程数据（从 data/tutorials.json 读取 CSDN 文章数据）"""
+    """更新教程数据（爬取 CSDN 文章）"""
     print("\n" + "="*50)
-    print("📚 开始更新 CSDN 教程数据...")
+    print("📚 开始爬取 CSDN 教程数据...")
     print("="*50)
     
     try:
-        # 读取已配置的教程数据
-        tutorials_file = DATA_DIR / "tutorials.json"
-        if tutorials_file.exists():
-            with open(tutorials_file, 'r', encoding='utf-8') as f:
-                tutorials_data = json.load(f)
-            articles = tutorials_data.get("items", [])
-            print(f"\n  ✓ 从配置文件读取 {len(articles)} 篇教程文章")
-        else:
-            # 如果文件不存在，使用备用数据
-            print("\n  ⚠️ 配置文件不存在，使用备用数据")
-            scraper = CSDNScraper('heroybc')
-            articles = scraper.get_fallback_articles()
-            tutorials_data = {
-                "last_updated": datetime.now(timezone.utc).isoformat(),
-                "count": len(articles),
-                "author": "heroybc",
-                "source": "CSDN",
-                "items": articles
-            }
-            save_json(tutorials_data, tutorials_file)
+        # 主动爬取 CSDN 数据
+        print("\n  正在爬取 CSDN 博客文章...")
+        scraper = CSDNScraper('heroybc')
+        articles = scraper.fetch_all_articles(max_pages=20)  # 爬取20页，获取更多文章
         
-        # 更新最后更新时间
-        tutorials_data["last_updated"] = datetime.now(timezone.utc).isoformat()
+        tutorials_file = DATA_DIR / "tutorials.json"
+        
+        tutorials_file = DATA_DIR / "tutorials.json"
+        
+        if not articles:
+            print("\n  ⚠️ 爬取失败，尝试读取已有数据...")
+            if tutorials_file.exists():
+                with open(tutorials_file, 'r', encoding='utf-8') as f:
+                    tutorials_data = json.load(f)
+                articles = tutorials_data.get("items", [])
+                print(f"  ✓ 从已有文件读取 {len(articles)} 篇教程文章")
+            else:
+                print("\n  ⚠️ 使用备用数据")
+                articles = scraper.get_fallback_articles()
+        
+        # 构建数据
+        tutorials_data = {
+            "last_updated": datetime.now(timezone.utc).isoformat(),
+            "count": len(articles),
+            "author": "heroybc",
+            "source": "CSDN",
+            "author_url": "https://blog.csdn.net/heroybc",
+            "items": articles
+        }
         save_json(tutorials_data, tutorials_file)
         
         # 创建教程内容文件

@@ -1,17 +1,29 @@
 {
-  "last_updated": "2026-03-23T10:01:03.380495+00:00",
+  "last_updated": "2026-03-23T10:43:03.673908+00:00",
   "sources": {
     "lmsys_arena": {
       "name": "LMSYS Chatbot Arena",
       "url": "https://chat.lmsys.org",
-      "description": "基于人类偏好的众包评测平台",
+      "description": "基于人类偏好的众包评测平台，盲测对比模型对话能力",
       "data_file": "leaderboard/lmsys_arena.json"
     },
-    "artificial_analysis": {
-      "name": "Artificial Analysis",
-      "url": "https://artificialanalysis.ai/leaderboards/models",
-      "description": "综合AI模型性能排行榜，涵盖智能指数、价格、速度等多维度评测",
-      "data_file": "leaderboard/artificial_analysis.json"
+    "openrouter": {
+      "name": "OpenRouter",
+      "url": "https://openrouter.ai",
+      "description": "API 平台模型使用统计与价格排名",
+      "data_file": "leaderboard/openrouter.json"
+    },
+    "superclue": {
+      "name": "SuperCLUE 中文榜单",
+      "url": "https://www.superclue.ai",
+      "description": "中文通用大模型综合性评测基准",
+      "data_file": "leaderboard/superclue.json"
+    },
+    "c_eval": {
+      "name": "C-Eval 学术评测",
+      "url": "https://cevalbenchmark.com",
+      "description": "中文语言模型多学科综合能力评测",
+      "data_file": "leaderboard/c_eval.json"
     }
   }
 }

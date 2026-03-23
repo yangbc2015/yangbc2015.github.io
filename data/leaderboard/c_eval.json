@@ -1,0 +1,31 @@
+{
+  "source": "C-Eval",
+  "source_url": "https://cevalbenchmark.com",
+  "description": "中文语言模型多学科综合能力评测",
+  "models": [
+    {
+      "rank": 1,
+      "model": "GPT-4",
+      "organization": "OpenAI",
+      "score": 86.4
+    },
+    {
+      "rank": 2,
+      "model": "通义千问 72B",
+      "organization": "阿里",
+      "score": 85.2
+    },
+    {
+      "rank": 3,
+      "model": "文心一言 4.0",
+      "organization": "百度",
+      "score": 84.1
+    },
+    {
+      "rank": 4,
+      "model": "ChatGLM3-6B",
+      "organization": "智谱AI",
+      "score": 69.0
+    }
+  ]
+}

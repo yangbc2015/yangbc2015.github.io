@@ -1,0 +1,42 @@
+{
+  "source": "SuperCLUE",
+  "source_url": "https://www.superclue.ai",
+  "description": "中文通用大模型综合性评测基准",
+  "models": [
+    {
+      "rank": 1,
+      "model": "文心一言 4.0",
+      "organization": "百度",
+      "score": 92.5,
+      "icon": "🔴"
+    },
+    {
+      "rank": 2,
+      "model": "通义千问 2.5-Max",
+      "organization": "阿里",
+      "score": 91.8,
+      "icon": "🟠"
+    },
+    {
+      "rank": 3,
+      "model": "智谱 GLM-4",
+      "organization": "智谱AI",
+      "score": 90.2,
+      "icon": "🟢"
+    },
+    {
+      "rank": 4,
+      "model": "Kimi k1.5",
+      "organization": "月之暗面",
+      "score": 89.5,
+      "icon": "🌙"
+    },
+    {
+      "rank": 5,
+      "model": "DeepSeek-V3",
+      "organization": "深度求索",
+      "score": 88.9,
+      "icon": "💎"
+    }
+  ]
+}

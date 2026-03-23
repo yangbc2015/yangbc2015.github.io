@@ -341,13 +341,13 @@
                     </div>
                     {{ end }}
                     <span class="featured-badge">精选</span>
-                    <a href="{{ $featuredVideo.url }}" target="_blank">
+                    <a href="{{ $featuredVideo.external_url }}" target="_blank">
                         <div class="video-play-btn">▶</div>
                     </a>
                 </div>
                 <div class="featured-content">
                     <h3 class="featured-title">
-                        <a href="{{ $featuredVideo.url }}" target="_blank">{{ $featuredVideo.title | default "Andrej Karpathy：深度神经网络入门到精通" }}</a>
+                        <a href="{{ $featuredVideo.external_url }}" target="_blank">{{ $featuredVideo.title | default "Andrej Karpathy：深度神经网络入门到精通" }}</a>
                     </h3>
                     <p class="featured-desc">{{ $featuredVideo.description | default "前 Tesla AI 总监 Andrej Karpathy 的经典教程，从零开始构建神经网络..." }}</p>
                     <div class="featured-meta">
@@ -359,7 +359,7 @@
             </div>
             <div class="featured-sidebar">
                 {{ range first 3 (after 1 $videosData.items) }}
-                <a href="{{ .url }}" target="_blank" style="text-decoration: none; color: inherit;">
+                <a href="{{ .external_url }}" target="_blank" style="text-decoration: none; color: inherit;">
                     <div class="sidebar-item">
                         <div class="sidebar-thumb" style="background: linear-gradient(135deg, var(--dark-bg-tertiary), var(--dark-bg-secondary));">
                             {{ if eq .category "精品课程" }}📚{{ else if eq .category "技术讲座" }}🎤{{ else }}🎬{{ end }}
@@ -406,7 +406,7 @@
             {{ if $lectures }}
                 {{ range first 3 $lectures }}
                 <article class="video-card">
-                    <a href="{{ .url }}" target="_blank" style="text-decoration: none; color: inherit;">
+                    <a href="{{ .external_url }}" target="_blank" style="text-decoration: none; color: inherit;">
                         <div class="video-thumbnail">
                             {{ if .thumbnail }}
                             <img src="{{ .thumbnail }}" alt="{{ .title }}">
@@ -466,7 +466,7 @@
             {{ if $courses }}
                 {{ range first 3 $courses }}
                 <article class="video-card">
-                    <a href="{{ .url }}" target="_blank" style="text-decoration: none; color: inherit;">
+                    <a href="{{ .external_url }}" target="_blank" style="text-decoration: none; color: inherit;">
                         <div class="video-thumbnail">
                             {{ if .thumbnail }}
                             <img src="{{ .thumbnail }}" alt="{{ .title }}">

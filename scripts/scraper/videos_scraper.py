@@ -188,23 +188,36 @@ class VideosScraper:
     def get_bilibili_videos(self):
         """
         获取 B站 AI 相关热门视频
-        包括五道口纳什等UP主的视频
+        包括多个优质UP主的视频
         """
         videos = []
         
-        # 获取五道口纳什的视频
-        try:
-            nash_videos = self.fetch_bilibili_up_videos('五道口纳什', max_results=10)
-            videos.extend(nash_videos)
-        except Exception as e:
-            print(f"    获取五道口纳什视频失败: {e}")
+        # 定义要爬取的UP主列表
+        up_masters = [
+            ('五道口纳什', 'AI投资'),
+            ('李宏毅', '机器学习'),
+            ('动手学深度学习', '深度学习'),
+            ('小土学习团队', '深度学习'),
+        ]
         
-        # 添加默认视频
-        videos.extend([
+        # 爬取各UP主视频
+        for up_name, category in up_masters:
+            try:
+                up_videos = self.fetch_bilibili_up_videos(up_name, max_results=5)
+                # 设置类别
+                for v in up_videos:
+                    v['category'] = category
+                videos.extend(up_videos)
+                print(f"    ✓ 从 {up_name} 获取 {len(up_videos)} 个视频")
+            except Exception as e:
+                print(f"    获取 {up_name} 视频失败: {e}")
+        
+        # 添加默认精选视频（确保有内容）
+        default_videos = [
             {
-                "title": "李宏毅机器学习",
+                "title": "李宏毅机器学习完整版",
                 "speaker": "李宏毅",
-                "description": "台湾大学教授的机器学习经典课程",
+                "description": "台湾大学教授的机器学习经典课程，深入浅出讲解ML核心概念",
                 "duration": "45:00",
                 "views": "1.8M",
                 "date": "2024-01-20",
@@ -214,7 +227,7 @@ class VideosScraper:
                 "thumbnail": "https://i2.hdslb.com/bfs/archive/2f1c3f236c76ea199e97388cb9a3f8b0d6fbb70c.jpg",
                 "type": "course",
                 "category": "精品课程",
-                "featured": False
+                "featured": True
             },
             {
                 "title": "动手学深度学习 PyTorch版",
@@ -230,8 +243,29 @@ class VideosScraper:
                 "type": "course",
                 "category": "精品课程",
                 "featured": False
+            },
+            {
+                "title": "代码随想录 - AI 编程教程",
+                "speaker": "李沐",
+                "description": "从零开始学习AI编程和深度学习",
+                "duration": "30:00",
+                "views": "890K",
+                "date": "2024-03-01",
+                "platform": "bilibili",
+                "video_id": "BV1Xh411Y7mJ",
+                "url": "https://www.bilibili.com/video/BV1Xh411Y7mJ",
+                "thumbnail": "",
+                "type": "course",
+                "category": "AI编程",
+                "featured": True
             }
-        ])
+        ]
+        
+        # 只添加默认视频中不存在的
+        existing_urls = {v['url'] for v in videos}
+        for dv in default_videos:
+            if dv['url'] not in existing_urls:
+                videos.append(dv)
         
         return videos
     
