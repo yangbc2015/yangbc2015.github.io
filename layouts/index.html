@@ -63,6 +63,7 @@
         line-height: 1.6;
         color: var(--text-primary);
         margin-bottom: 1.5rem;
+        white-space: nowrap;
         font-style: italic;
         position: relative;
         padding: 0 2rem;
@@ -128,46 +129,55 @@
         opacity: 0.8;
     }
 
-    /* 统计信息 */
-    .hero-stats {
+    /* 浮动访客统计组件 */
+    .visitor-float {
+        position: fixed;
+        bottom: 2rem;
+        left: 2rem;
         display: flex;
+        align-items: center;
+        gap: 0.75rem;
+        padding: 0.8rem 1.2rem;
+        background: rgba(10, 10, 10, 0.8);
+        border: 1px solid rgba(0, 255, 65, 0.3);
+        border-radius: 2rem;
+        backdrop-filter: blur(10px);
+        z-index: 100;
+        animation: fadeInUp 1s ease-out 1s both;
+        transition: all 0.3s ease;
+    }
+
+    .visitor-float:hover {
+        border-color: var(--neon-green);
+        box-shadow: 0 0 20px rgba(0, 255, 65, 0.2);
+        transform: translateY(-2px);
+    }
+
+    .visitor-float-icon {
+        display: flex;
+        align-items: center;
         justify-content: center;
-        gap: 3rem;
-        margin-top: 3rem;
-        margin-bottom: 3rem;
-        animation: fadeInUp 1s ease-out 0.6s both;
-    }
-
-    .stat-item {
-        text-align: center;
-    }
-
-    .stat-number {
-        font-size: 2.5rem;
-        font-weight: 700;
-        background: linear-gradient(135deg, var(--gradient-1), var(--gradient-2));
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-    }
-
-    .stat-label {
-        font-size: 0.9rem;
-        color: var(--text-muted);
-        margin-top: 0.25rem;
-    }
-
-    .visitor-greeting {
-        font-size: 1rem;
+        width: 2rem;
+        height: 2rem;
+        background: linear-gradient(135deg, rgba(0, 255, 65, 0.2), rgba(0, 240, 255, 0.2));
+        border-radius: 50%;
         color: var(--neon-green);
-        font-weight: 500;
-        letter-spacing: 0.05em;
     }
 
-    .visitor-greeting #visitor-count {
+    .visitor-float-icon svg {
+        width: 1.2rem;
+        height: 1.2rem;
+    }
+
+    .visitor-float-text {
+        font-size: 0.9rem;
+        color: var(--text-primary);
+        font-weight: 500;
+    }
+
+    .visitor-float-text .visitor-count {
         color: var(--neon-blue);
         font-weight: 700;
-        font-size: 1.1rem;
     }
 
     /* 滚动提示 */
@@ -283,7 +293,7 @@
         }
         
         .music-label {
-            display: none;
+            font-size: 0.75rem;
         }
     }
 
@@ -533,37 +543,6 @@
         background: var(--dark-bg);
     }
 
-    /* 访问统计 */
-    .map-stats {
-        display: flex;
-        justify-content: center;
-        gap: 2rem;
-        margin-top: 2rem;
-        padding-top: 2rem;
-        border-top: 1px solid var(--glass-border);
-        flex-wrap: wrap;
-    }
-
-    .map-stat {
-        text-align: center;
-        min-width: 100px;
-    }
-
-    .map-stat-value {
-        font-size: 2rem;
-        font-weight: 700;
-        background: linear-gradient(135deg, var(--highlight), var(--gradient-3));
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-    }
-
-    .map-stat-label {
-        font-size: 0.85rem;
-        color: var(--text-muted);
-        margin-top: 0.25rem;
-    }
-
     .heatmap-loading {
         display: flex;
         align-items: center;
@@ -617,14 +596,6 @@
             min-height: 90vh;
         }
 
-        .hero-stats {
-            gap: 2rem;
-        }
-
-        .stat-number {
-            font-size: 2rem;
-        }
-
         .galaxy-container {
             height: 600px;
         }
@@ -642,23 +613,26 @@
         .planet-desc {
             display: none;
         }
+    }
 
-        .map-stats {
-            gap: 2rem;
+    @media (max-width: 768px) {
+        .visitor-float {
+            bottom: 1rem;
+            left: 1rem;
+            padding: 0.6rem 1rem;
         }
-
-        .map-stat-value {
-            font-size: 1.5rem;
+        
+        .visitor-float-icon {
+            width: 1.8rem;
+            height: 1.8rem;
         }
-
+        
+        .visitor-float-text {
+            font-size: 0.8rem;
+        }
     }
 
     @media (max-width: 480px) {
-        .hero-stats {
-            flex-direction: column;
-            gap: 1.5rem;
-        }
-
         .galaxy-container {
             height: 500px;
         }
@@ -675,7 +649,7 @@
     
     <div class="hero-content">
         <p class="hero-quote">
-            我们只能看到不远的前方，但我们能看到许多需要完成的事情。<br>
+            <span class="quote-main">我们只能看到不远的前方，但我们能看到许多需要完成的事情。</span>
             <span class="hero-quote-en">We can only see a short distance ahead, but we can see plenty there that needs to be done.</span>
         </p>
         
@@ -683,11 +657,6 @@
             <span class="hero-author-name">— Alan Turing</span>
         </div>
         
-        <div class="hero-stats">
-            <div class="stat-item">
-                <div class="stat-label visitor-greeting">你好！第 <span id="visitor-count">--</span> 位AI漫游者</div>
-            </div>
-        </div>
     </div>
     
     <div class="scroll-indicator" onclick="document.getElementById('galaxy').scrollIntoView({behavior: 'smooth'})">
@@ -717,7 +686,7 @@
                     <rect x="14" y="4" width="4" height="16"></rect>
                 </svg>
             </span>
-            <span class="music-label" id="music-label">音乐</span>
+            <span class="music-label" id="music-label">Return to Earth</span>
         </button>
         <div class="music-visualizer" id="music-visualizer">
             <span></span><span></span><span></span><span></span>
@@ -844,23 +813,21 @@
             <div class="heatmap-loading">正在加载访客分布数据...</div>
         </div>
         
-        <div class="map-stats">
-            <div class="map-stat">
-                <div class="map-stat-value" id="heatmap-today">--</div>
-                <div class="map-stat-label">今日访客</div>
-            </div>
-            <div class="map-stat">
-                <div class="map-stat-value" id="heatmap-week">--</div>
-                <div class="map-stat-label">本周访客</div>
-            </div>
-            <div class="map-stat">
-                <div class="map-stat-value" id="heatmap-locations">--</div>
-                <div class="map-stat-label">覆盖地区</div>
-            </div>
-        </div>
+
     </div>
 </section>
 
+<!-- 浮动访客统计组件 -->
+<div class="visitor-float" id="visitor-float">
+    <div class="visitor-float-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08 1.99 0 5.97 1.09 6 3.08-1.29 1.94-3.5 3.22-6 3.22z"/>
+        </svg>
+    </div>
+    <div class="visitor-float-text">
+        你好！第 <span class="visitor-count" id="visitor-count">--</span> 位AI漫游者
+    </div>
+</div>
 
 {{ end }}
 
@@ -1523,7 +1490,7 @@ function loadScript(src) {
         if (playing) {
             musicIcon.style.display = 'flex';
             musicIconPaused.style.display = 'none';
-            musicLabel.textContent = '播放中';
+            musicLabel.textContent = 'Return to Earth';
             visualizer.classList.add('active');
             musicToggle.style.background = 'rgba(0, 255, 65, 0.15)';
             musicToggle.style.borderColor = 'var(--neon-green)';
@@ -1531,7 +1498,7 @@ function loadScript(src) {
         } else {
             musicIcon.style.display = 'none';
             musicIconPaused.style.display = 'flex';
-            musicLabel.textContent = '已暂停';
+            musicLabel.textContent = 'Return to Earth';
             visualizer.classList.remove('active');
             musicToggle.style.background = 'rgba(0, 240, 255, 0.1)';
             musicToggle.style.borderColor = 'rgba(0, 240, 255, 0.3)';
