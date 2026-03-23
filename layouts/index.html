@@ -187,6 +187,106 @@
         z-index: 1;
     }
 
+    /* ===== 背景音乐播放器 ===== */
+    .music-player {
+        position: absolute;
+        bottom: 2rem;
+        right: 2rem;
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+        z-index: 10;
+        animation: fadeInUp 1s ease-out 1.2s both;
+    }
+
+    .music-toggle {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        padding: 0.6rem 1rem;
+        background: rgba(0, 240, 255, 0.1);
+        border: 1px solid rgba(0, 240, 255, 0.3);
+        border-radius: 2rem;
+        color: var(--neon-blue);
+        font-size: 0.85rem;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        backdrop-filter: blur(10px);
+    }
+
+    .music-toggle:hover {
+        background: rgba(0, 240, 255, 0.2);
+        border-color: var(--neon-blue);
+        box-shadow: 0 0 20px rgba(0, 240, 255, 0.3);
+        transform: translateY(-2px);
+    }
+
+    .music-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 1.2rem;
+        height: 1.2rem;
+    }
+
+    .music-icon svg {
+        width: 100%;
+        height: 100%;
+    }
+
+    .music-label {
+        font-weight: 500;
+        letter-spacing: 0.05em;
+    }
+
+    /* 音乐可视化动画 */
+    .music-visualizer {
+        display: flex;
+        align-items: flex-end;
+        gap: 3px;
+        height: 1.2rem;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+    }
+
+    .music-visualizer.active {
+        opacity: 1;
+    }
+
+    .music-visualizer span {
+        width: 3px;
+        background: linear-gradient(to top, var(--neon-blue), var(--neon-green));
+        border-radius: 2px;
+        animation: music-bar 1s ease-in-out infinite;
+    }
+
+    .music-visualizer span:nth-child(1) { height: 30%; animation-delay: 0s; }
+    .music-visualizer span:nth-child(2) { height: 70%; animation-delay: 0.2s; }
+    .music-visualizer span:nth-child(3) { height: 50%; animation-delay: 0.4s; }
+    .music-visualizer span:nth-child(4) { height: 80%; animation-delay: 0.1s; }
+
+    @keyframes music-bar {
+        0%, 100% { transform: scaleY(0.5); opacity: 0.7; }
+        50% { transform: scaleY(1); opacity: 1; }
+    }
+
+    /* 移动端适配 */
+    @media (max-width: 768px) {
+        .music-player {
+            bottom: 1rem;
+            right: 1rem;
+        }
+        
+        .music-toggle {
+            padding: 0.5rem 0.8rem;
+            font-size: 0.8rem;
+        }
+        
+        .music-label {
+            display: none;
+        }
+    }
+
     .scroll-indicator svg {
         width: 24px;
         height: 24px;
@@ -595,6 +695,33 @@
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
             <path d="M12 5v14M19 12l-7 7-7-7"/>
         </svg>
+    </div>
+    
+    <!-- 背景音乐播放器 -->
+    <div class="music-player" id="music-player">
+        <audio id="bg-music" loop>
+            <source src="/music/bg-music.mp3" type="audio/mpeg">
+            您的浏览器不支持音频播放。
+        </audio>
+        <button class="music-toggle" id="music-toggle" title="播放/暂停音乐">
+            <span class="music-icon playing" id="music-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M9 18V5l12-2v13"></path>
+                    <circle cx="6" cy="18" r="3"></circle>
+                    <circle cx="18" cy="16" r="3"></circle>
+                </svg>
+            </span>
+            <span class="music-icon paused" id="music-icon-paused" style="display:none">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="6" y="4" width="4" height="16"></rect>
+                    <rect x="14" y="4" width="4" height="16"></rect>
+                </svg>
+            </span>
+            <span class="music-label" id="music-label">音乐</span>
+        </button>
+        <div class="music-visualizer" id="music-visualizer">
+            <span></span><span></span><span></span><span></span>
+        </div>
     </div>
 </section>
 
@@ -1357,6 +1484,101 @@ function loadScript(src) {
         document.head.appendChild(script);
     });
 }
+
+// 背景音乐控制
+(function() {
+    const musicToggle = document.getElementById('music-toggle');
+    const bgMusic = document.getElementById('bg-music');
+    const musicIcon = document.getElementById('music-icon');
+    const musicIconPaused = document.getElementById('music-icon-paused');
+    const musicLabel = document.getElementById('music-label');
+    const visualizer = document.getElementById('music-visualizer');
+    
+    if (!musicToggle || !bgMusic) return;
+    
+    let isPlaying = false;
+    let hasInteracted = false;
+    
+    // 更新播放状态UI
+    function updateUI(playing) {
+        if (playing) {
+            musicIcon.style.display = 'flex';
+            musicIconPaused.style.display = 'none';
+            musicLabel.textContent = '音乐';
+            visualizer.classList.add('active');
+            musicToggle.style.background = 'rgba(0, 255, 65, 0.15)';
+            musicToggle.style.borderColor = 'var(--neon-green)';
+            musicToggle.style.color = 'var(--neon-green)';
+        } else {
+            musicIcon.style.display = 'none';
+            musicIconPaused.style.display = 'flex';
+            musicLabel.textContent = '已暂停';
+            visualizer.classList.remove('active');
+            musicToggle.style.background = 'rgba(0, 240, 255, 0.1)';
+            musicToggle.style.borderColor = 'rgba(0, 240, 255, 0.3)';
+            musicToggle.style.color = 'var(--neon-blue)';
+        }
+    }
+    
+    // 切换播放状态
+    function toggleMusic() {
+        if (isPlaying) {
+            bgMusic.pause();
+            isPlaying = false;
+        } else {
+            bgMusic.play().then(() => {
+                isPlaying = true;
+                hasInteracted = true;
+            }).catch(err => {
+                console.log('音乐播放失败:', err);
+            });
+        }
+        updateUI(isPlaying);
+    }
+    
+    // 点击按钮切换
+    musicToggle.addEventListener('click', toggleMusic);
+    
+    // 监听音乐事件
+    bgMusic.addEventListener('play', () => {
+        isPlaying = true;
+        updateUI(true);
+    });
+    
+    bgMusic.addEventListener('pause', () => {
+        isPlaying = false;
+        updateUI(false);
+    });
+    
+    bgMusic.addEventListener('ended', () => {
+        isPlaying = false;
+        updateUI(false);
+    });
+    
+    // 自动尝试播放（需要用户交互后）
+    function tryAutoPlay() {
+        if (hasInteracted) {
+            bgMusic.play().then(() => {
+                isPlaying = true;
+                updateUI(true);
+            }).catch(() => {
+                // 自动播放被阻止，等待用户点击
+            });
+        }
+    }
+    
+    // 用户首次交互时尝试自动播放
+    document.addEventListener('click', function autoPlayOnFirstInteraction() {
+        if (!hasInteracted) {
+            hasInteracted = true;
+            tryAutoPlay();
+        }
+        document.removeEventListener('click', autoPlayOnFirstInteraction);
+    }, { once: true });
+    
+    // 设置音量
+    bgMusic.volume = 0.3;
+})();
 
 // 页面加载完成后执行
 document.addEventListener('DOMContentLoaded', function() {
