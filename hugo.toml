@@ -3,7 +3,7 @@ languageCode = 'zh-CN'
 defaultContentLanguage = 'zh'
 title = 'AI漫游 | AI Wander'
 # 使用自定义布局，不依赖主题
-theme = ''
+# theme = ''
 
 # 分页设置
 [pagination]
