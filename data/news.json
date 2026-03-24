@@ -1,9 +1,38 @@
 {
-  "last_updated": "2026-03-24T21:00:07.554855+00:00",
-  "count": 26,
-  "history_count": 26,
+  "last_updated": "2026-03-24T22:00:07.906361+00:00",
+  "count": 28,
+  "history_count": 28,
   "retention_days": 30,
   "items": [
+    {
+      "title": "Anthropic hands Claude Code more control, but keeps it on a leash",
+      "link": "https://techcrunch.com/2026/03/24/anthropic-hands-claude-code-more-control-but-keeps-it-on-a-leash/",
+      "summary": "Anthropic’s new auto mode for Claude Code lets AI execute tasks with fewer approvals, reflecting a broader shift toward more autonomous tools that balance speed with safety through built-in safeguards.",
+      "source": "TechCrunch",
+      "date": "2026-03-25",
+      "type": "product",
+      "tags": [
+        "Claude",
+        "代码",
+        "AI",
+        "agent",
+        "产品发布"
+      ],
+      "fetched_at": "2026-03-24T22:00:07.905055+00:00"
+    },
+    {
+      "title": "Spotify tests new tool to stop AI slop from being attributed to real artists",
+      "link": "https://techcrunch.com/2026/03/24/spotify-tests-new-tool-to-stop-ai-slop-from-being-attributed-to-real-artists/",
+      "summary": "The idea behind the new tool is to give artists more control over which tracks are associated with their name on Spotify.",
+      "source": "TechCrunch",
+      "date": "2026-03-25",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "行业动态"
+      ],
+      "fetched_at": "2026-03-24T22:00:07.905255+00:00"
+    },
     {
       "title": "Databricks bought two startups to underpin its new AI security product",
       "link": "https://techcrunch.com/2026/03/24/databricks-buys-two-startups-lakewatch-antimatter-siftd-ai-security/",
@@ -15,7 +44,7 @@
         "AI",
         "行业动态"
       ],
-      "fetched_at": "2026-03-24T21:00:07.552730+00:00"
+      "fetched_at": "2026-03-24T22:00:07.905407+00:00"
     },
     {
       "title": "Arm is releasing the first in-house chip in its 35-year history",
@@ -118,11 +147,11 @@
       "date": "2026-03-24",
       "type": "breakthrough",
       "tags": [
-        "重大突破",
         "AI",
+        "重大突破",
         "Claude"
       ],
-      "fetched_at": "2026-03-24T21:00:06.265564+00:00"
+      "fetched_at": "2026-03-24T22:00:06.853215+00:00"
     },
     {
       "title": "Google Gemini 2.5 Pro开放API访问",
@@ -132,11 +161,11 @@
       "date": "2026-03-24",
       "type": "product",
       "tags": [
-        "产品发布",
         "AI",
-        "Gemini"
+        "Gemini",
+        "产品发布"
       ],
-      "fetched_at": "2026-03-24T21:00:06.265594+00:00"
+      "fetched_at": "2026-03-24T22:00:06.853328+00:00"
     },
     {
       "title": "OpenAI发布GPT-4.5：更高效的推理架构",
@@ -146,11 +175,11 @@
       "date": "2026-03-24",
       "type": "breakthrough",
       "tags": [
-        "重大突破",
         "AI",
+        "重大突破",
         "GPT"
       ],
-      "fetched_at": "2026-03-24T21:00:06.265609+00:00"
+      "fetched_at": "2026-03-24T22:00:06.853354+00:00"
     },
     {
       "title": "AI全链路加持！一加15T打造全能小屏，售价4299元起",
@@ -163,7 +192,7 @@
         "AI",
         "行业动态"
       ],
-      "fetched_at": "2026-03-24T21:00:06.736107+00:00"
+      "fetched_at": "2026-03-24T22:00:07.100608+00:00"
     },
     {
       "title": "龙虾爆火之后，AI初创的全球化机会来了吗？｜线下沙龙报名",
@@ -176,7 +205,7 @@
         "AI",
         "行业动态"
       ],
-      "fetched_at": "2026-03-24T21:00:06.737346+00:00"
+      "fetched_at": "2026-03-24T22:00:07.100879+00:00"
     },
     {
       "title": "黄仁勋暴论核弹：AGI已经实现，Ilya错了，程序员有10亿",
@@ -189,7 +218,7 @@
         "AI",
         "行业动态"
       ],
-      "fetched_at": "2026-03-24T21:00:06.738049+00:00"
+      "fetched_at": "2026-03-24T22:00:07.101043+00:00"
     },
     {
       "title": "你的模型真的会”举一反三”吗？RoboChallenge Table30 V2 正式发布，泛化时代开幕",
@@ -199,11 +228,11 @@
       "date": "2026-03-24",
       "type": "breakthrough",
       "tags": [
-        "重大突破",
         "AI",
+        "重大突破",
         "机器人"
       ],
-      "fetched_at": "2026-03-24T21:00:06.738930+00:00"
+      "fetched_at": "2026-03-24T22:00:07.101251+00:00"
     },
     {
       "title": "LeCun的世界模型单GPU就能跑了",
@@ -216,7 +245,7 @@
         "AI",
         "行业动态"
       ],
-      "fetched_at": "2026-03-24T21:00:06.739840+00:00"
+      "fetched_at": "2026-03-24T22:00:07.101645+00:00"
     },
     {
       "title": "Mirage raises $75M to continue building models for its AI video-editing app Captions",
