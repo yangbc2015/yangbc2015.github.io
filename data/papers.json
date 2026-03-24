@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-03-24T03:00:14.794085+00:00",
-  "count": 5,
+  "last_updated": "2026-03-24T04:00:15.425717+00:00",
+  "count": 6,
   "items": [
     {
       "title": "ROM: Real-time Overthinking Mitigation via Streaming Detection and Intervention",
@@ -71,19 +71,38 @@
       "source": "arXiv"
     },
     {
-      "title": "CRPS-Optimal Binning for Conformal Regression",
-      "authors": "Paolo Toccaceli",
-      "abstract": "We propose a method for non-parametric conditional distribution estimation based on partitioning covariate-sorted observations into contiguous bins and using the within-bin empirical CDF as the predictive distribution. Bin boundaries are chosen to minimise the total leave-one-out Continuous Ranked P...",
+      "title": "WorldCache: Content-Aware Caching for Accelerated Video World Models",
+      "authors": "Umair Nawaz, Ahmed Heakl, Ufaq Khan et al.",
+      "abstract": "Diffusion Transformers (DiTs) power high-fidelity video world models but remain computationally expensive due to sequential denoising and costly spatio-temporal attention. Training-free feature caching accelerates inference by reusing intermediate activations across denoising steps; however, existin...",
       "venue": "arXiv",
       "date": "2026-03-23",
-      "arxiv_id": "2603.22000v1",
-      "url": "https://arxiv.org/abs/2603.22000v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.22000v1.pdf",
+      "arxiv_id": "2603.22286v1",
+      "url": "https://arxiv.org/abs/2603.22286v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.22286v1.pdf",
       "categories": [
-        "cs.LG",
-        "stat.ML"
+        "cs.CV",
+        "cs.AI",
+        "cs.CL"
       ],
-      "type": "ml",
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "End-to-End Training for Unified Tokenization and Latent Denoising",
+      "authors": "Shivam Duggal, Xingjian Bai, Zongze Wu et al.",
+      "abstract": "Latent diffusion models (LDMs) enable high-fidelity synthesis by operating in learned latent spaces. However, training state-of-the-art LDMs requires complex staging: a tokenizer must be trained first, before the diffusion model can be trained in the frozen latent space. We propose UNITE - an autoen...",
+      "venue": "arXiv",
+      "date": "2026-03-23",
+      "arxiv_id": "2603.22283v1",
+      "url": "https://arxiv.org/abs/2603.22283v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.22283v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.GR"
+      ],
+      "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     }
