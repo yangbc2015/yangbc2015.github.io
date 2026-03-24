@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-03-24T13:00:12.909734+00:00",
-  "count": 14,
-  "history_count": 14,
+  "last_updated": "2026-03-24T14:00:14.023247+00:00",
+  "count": 17,
+  "history_count": 17,
   "retention_days": 30,
   "items": [
     {
@@ -13,10 +13,10 @@
       "type": "breakthrough",
       "tags": [
         "Claude",
-        "AI",
-        "重大突破"
+        "重大突破",
+        "AI"
       ],
-      "fetched_at": "2026-03-24T13:00:06.846701+00:00"
+      "fetched_at": "2026-03-24T14:00:06.685080+00:00"
     },
     {
       "title": "Google Gemini 2.5 Pro开放API访问",
@@ -30,7 +30,7 @@
         "Gemini",
         "AI"
       ],
-      "fetched_at": "2026-03-24T13:00:06.846733+00:00"
+      "fetched_at": "2026-03-24T14:00:06.685109+00:00"
     },
     {
       "title": "OpenAI发布GPT-4.5：更高效的推理架构",
@@ -44,7 +44,20 @@
         "AI",
         "GPT"
       ],
-      "fetched_at": "2026-03-24T13:00:06.846768+00:00"
+      "fetched_at": "2026-03-24T14:00:06.685124+00:00"
+    },
+    {
+      "title": "龙虾爆火之后，AI初创的全球化机会来了吗？｜线下沙龙报名",
+      "link": "https://www.qbitai.com/2026/03/391760.html",
+      "summary": "周四14:00，欢迎来现场交流！",
+      "source": "量子位",
+      "date": "2026-03-24",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "行业动态"
+      ],
+      "fetched_at": "2026-03-24T14:00:06.972594+00:00"
     },
     {
       "title": "黄仁勋暴论核弹：AGI已经实现，Ilya错了，程序员有10亿",
@@ -57,7 +70,7 @@
         "AI",
         "行业动态"
       ],
-      "fetched_at": "2026-03-24T13:00:07.121617+00:00"
+      "fetched_at": "2026-03-24T14:00:06.972826+00:00"
     },
     {
       "title": "你的模型真的会”举一反三”吗？RoboChallenge Table30 V2 正式发布，泛化时代开幕",
@@ -67,11 +80,11 @@
       "date": "2026-03-24",
       "type": "breakthrough",
       "tags": [
-        "AI",
+        "机器人",
         "重大突破",
-        "机器人"
+        "AI"
       ],
-      "fetched_at": "2026-03-24T13:00:07.122505+00:00"
+      "fetched_at": "2026-03-24T14:00:06.973058+00:00"
     },
     {
       "title": "LeCun的世界模型单GPU就能跑了",
@@ -84,7 +97,7 @@
         "AI",
         "行业动态"
       ],
-      "fetched_at": "2026-03-24T13:00:07.123439+00:00"
+      "fetched_at": "2026-03-24T14:00:06.973218+00:00"
     },
     {
       "title": "又一华为天才少年入局具身创业！用视频生成数据训家用机器人，首个模型登顶具身基模榜单",
@@ -94,12 +107,52 @@
       "date": "2026-03-24",
       "type": "industry",
       "tags": [
+        "机器人",
         "多模态",
         "AI",
-        "行业动态",
-        "机器人"
+        "行业动态"
       ],
-      "fetched_at": "2026-03-24T13:00:07.124474+00:00"
+      "fetched_at": "2026-03-24T14:00:06.973446+00:00"
+    },
+    {
+      "title": "Mirage raises $75M to continue building models for its AI video editing app Captions",
+      "link": "https://techcrunch.com/2026/03/24/mirage-raises-75m-to-continue-building-models-for-its-ai-video-editing-app-captions/",
+      "summary": "Mirage, the maker of video editing app Captions, has raised $75 million in growth financing from General Catalyst's Customer Value Fund (CVF).",
+      "source": "TechCrunch",
+      "date": "2026-03-24",
+      "type": "product",
+      "tags": [
+        "产品发布",
+        "AI"
+      ],
+      "fetched_at": "2026-03-24T14:00:14.022230+00:00"
+    },
+    {
+      "title": "Agile Robots becomes the latest robotics company to partner with Google DeepMind",
+      "link": "https://techcrunch.com/2026/03/24/agile-robots-becomes-the-latest-robotics-company-to-partner-with-google-deepmind/",
+      "summary": "Agile Robots will incorporate Google DeepMind's robotics foundation models into its bots while collecting data for the AI research lab.",
+      "source": "TechCrunch",
+      "date": "2026-03-24",
+      "type": "research",
+      "tags": [
+        "机器人",
+        "研究进展",
+        "AI"
+      ],
+      "fetched_at": "2026-03-24T14:00:14.022418+00:00"
+    },
+    {
+      "title": "Air Street becomes one of the largest solo VCs in Europe with $232M fund",
+      "link": "https://techcrunch.com/2026/03/23/air-street-becomes-one-of-the-largest-solo-vcs-in-europe-with-232m-fund/",
+      "summary": "London’s Air Street Capital has raised a large Fund III with eyes locked on backing early-stage European and North American AI companies.",
+      "source": "TechCrunch",
+      "date": "2026-03-24",
+      "type": "product",
+      "tags": [
+        "产品发布",
+        "AI"
+      ],
+      "fetched_at": "2026-03-24T14:00:14.022576+00:00"
     },
     {
       "title": "阿里在海外上了个“企业级龙虾”，我用它30分钟手搓了一家网店",
@@ -113,19 +166,6 @@
         "行业动态"
       ],
       "fetched_at": "2026-03-24T13:00:07.125114+00:00"
-    },
-    {
-      "title": "Air Street becomes one of the largest solo VCs in Europe with $232M fund",
-      "link": "https://techcrunch.com/2026/03/23/air-street-becomes-one-of-the-largest-solo-vcs-in-europe-with-232m-fund/",
-      "summary": "London’s Air Street Capital has raised a large Fund III with eyes locked on backing early-stage European and North American AI companies.",
-      "source": "TechCrunch",
-      "date": "2026-03-24",
-      "type": "product",
-      "tags": [
-        "AI",
-        "产品发布"
-      ],
-      "fetched_at": "2026-03-24T12:00:08.740357+00:00"
     },
     {
       "title": "Bernie Sanders’ AI ‘gotcha’ video flops, but the memes are great",
