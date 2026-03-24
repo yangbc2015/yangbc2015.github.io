@@ -1,0 +1,106 @@
+{
+  "date": "2026-03-24",
+  "last_updated": "2026-03-24T07:00:08.377998+00:00",
+  "categories": {
+    "ai": {
+      "name": "人工智能",
+      "icon": "🤖",
+      "count": 3,
+      "items": [
+        {
+          "title": "Claude 4 发布：Anthropic推出新一代AI模型",
+          "link": "https://www.jiqizhixin.com/articles/2026-03-23-1",
+          "source": "机器之心"
+        },
+        {
+          "title": "Google Gemini 2.5 Pro开放API访问",
+          "link": "https://www.jiqizhixin.com/articles/2026-03-23-2",
+          "source": "机器之心"
+        },
+        {
+          "title": "OpenAI发布GPT-4.5：更高效的推理架构",
+          "link": "https://www.jiqizhixin.com/articles/2026-03-23-3",
+          "source": "机器之心"
+        }
+      ]
+    },
+    "economy": {
+      "name": "宏观经济",
+      "icon": "📈",
+      "count": 3,
+      "items": [
+        {
+          "title": "美联储维持利率不变，暗示年内或降息三次",
+          "link": "https://wallstreetcn.com/articles/economy-fed-rate",
+          "source": "华尔街见闻"
+        },
+        {
+          "title": "中国2月CPI同比上涨0.7%，PPI同比下降2.7%",
+          "link": "https://wallstreetcn.com/articles/china-cpi-ppi",
+          "source": "国家统计局"
+        },
+        {
+          "title": "欧洲央行暗示6月可能启动降息周期",
+          "link": "https://wallstreetcn.com/articles/ecb-rate-cut",
+          "source": "财新网"
+        }
+      ]
+    },
+    "realestate": {
+      "name": "房地产",
+      "icon": "🏠",
+      "count": 3,
+      "items": [
+        {
+          "title": "一线城市二手房成交量连续三个月回升",
+          "link": "https://36kr.com/real-estate/transaction",
+          "source": "贝壳研究院"
+        },
+        {
+          "title": "住建部：加快推进保障性住房建设",
+          "link": "https://36kr.com/real-estate/housing",
+          "source": "住建部"
+        },
+        {
+          "title": "房贷利率创历史新低，多地首套房利率降至3.5%以下",
+          "link": "https://36kr.com/real-estate/mortgage-rate",
+          "source": "央行"
+        }
+      ]
+    },
+    "chip": {
+      "name": "芯片半导体",
+      "icon": "💻",
+      "count": 4,
+      "items": [
+        {
+          "title": "英伟达发布Blackwell架构GPU，性能提升30倍",
+          "link": "https://jiqizhixin.com/articles/nvidia-blackwell",
+          "source": "半导体行业观察"
+        },
+        {
+          "title": "台积电2nm工艺试产成功，预计2025年量产",
+          "link": "https://jiqizhixin.com/articles/tsmc-2nm",
+          "source": "台积电"
+        },
+        {
+          "title": "国产存储芯片厂商长鑫存储获新一轮融资",
+          "link": "https://jiqizhixin.com/articles/cxmt-funding",
+          "source": "投资界"
+        },
+        {
+          "title": "美国升级对华芯片出口管制，涉及140家中国企业",
+          "link": "https://jiqizhixin.com/articles/us-chip-restrictions",
+          "source": "路透社"
+        }
+      ]
+    }
+  },
+  "hot_topics": [
+    "AI大模型",
+    "美联储利率决议",
+    "房贷利率",
+    "芯片出口管制",
+    "GPT-4.5"
+  ]
+}

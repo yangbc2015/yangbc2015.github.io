@@ -208,6 +208,135 @@
         content: '🤖 ';
     }
 
+    /* 每日新闻总结样式 */
+    .daily-summary {
+        max-width: 1200px;
+        margin: 3rem auto;
+        padding: 0 1rem;
+    }
+    
+    .daily-summary-title {
+        font-family: Orbitron, monospace;
+        font-size: 1.5rem;
+        color: var(--neon-blue);
+        text-align: center;
+        margin-bottom: 1.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+    }
+    
+    .daily-summary-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 1.5rem;
+    }
+    
+    .daily-category {
+        background: var(--dark-bg-secondary);
+        border: 1px solid var(--neon-green-dim);
+        border-radius: 12px;
+        padding: 1.25rem;
+        transition: all 0.3s ease;
+    }
+    
+    .daily-category:hover {
+        border-color: var(--neon-blue);
+        box-shadow: 0 5px 20px rgba(0, 240, 255, 0.1);
+    }
+    
+    .daily-category-header {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        margin-bottom: 1rem;
+        padding-bottom: 0.75rem;
+        border-bottom: 1px solid var(--neon-green-dim);
+    }
+    
+    .daily-category-icon { font-size: 1.5rem; }
+    
+    .daily-category-name {
+        font-family: Orbitron, monospace;
+        font-size: 1.1rem;
+        color: var(--neon-blue);
+    }
+    
+    .daily-category-count {
+        margin-left: auto;
+        font-size: 0.8rem;
+        color: var(--text-secondary);
+        background: rgba(0, 240, 255, 0.1);
+        padding: 0.2rem 0.6rem;
+        border-radius: 10px;
+    }
+    
+    .daily-news-list {
+        display: flex;
+        flex-direction: column;
+        gap: 0.75rem;
+    }
+    
+    .daily-news-item {
+        padding: 0.75rem;
+        background: rgba(0, 255, 65, 0.03);
+        border-radius: 8px;
+        border-left: 3px solid var(--neon-green-dim);
+        transition: all 0.2s ease;
+    }
+    
+    .daily-news-item:hover {
+        background: rgba(0, 255, 65, 0.08);
+        border-left-color: var(--neon-green);
+    }
+    
+    .daily-news-item a {
+        color: var(--text-primary);
+        text-decoration: none;
+        font-size: 0.9rem;
+        line-height: 1.4;
+        display: block;
+    }
+    
+    .daily-news-item a:hover { color: var(--neon-green); }
+    
+    .daily-news-source {
+        font-size: 0.75rem;
+        color: var(--text-secondary);
+        margin-top: 0.25rem;
+    }
+    
+    .daily-hot-topics {
+        max-width: 1200px;
+        margin: 2rem auto;
+        padding: 0 1rem;
+    }
+    
+    .hot-topics-title {
+        font-family: Orbitron, monospace;
+        font-size: 1.2rem;
+        color: var(--neon-pink);
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    
+    .hot-topics-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.75rem;
+        justify-content: center;
+    }
+    
+    .hot-topic-tag {
+        padding: 0.4rem 1rem;
+        background: rgba(255, 0, 255, 0.1);
+        border: 1px solid var(--neon-pink);
+        color: var(--neon-pink);
+        border-radius: 20px;
+        font-size: 0.85rem;
+        font-family: Orbitron, monospace;
+    }
     @media (max-width: 768px) {
         .news-grid {
             grid-template-columns: 1fr;
@@ -329,6 +458,117 @@
         {{ end }}
     </div>
 </div>
+
+
+{{/* 每日新闻总结 */}}
+{{ $dailySummary := site.Data.daily_summary }}
+{{ if $dailySummary }}
+<section class="daily-summary">
+    <h2 class="daily-summary-title">
+        <span>📋</span>
+        <span>每日新闻总结 {{ $dailySummary.date }}</span>
+    </h2>
+    
+    <div class="daily-summary-grid">
+        {{/* AI新闻 */}}
+        {{ with $dailySummary.categories.ai }}
+        {{ if .items }}
+        <div class="daily-category">
+            <div class="daily-category-header">
+                <span class="daily-category-icon">{{ .icon }}</span>
+                <span class="daily-category-name">{{ .name }}</span>
+                <span class="daily-category-count">{{ .count }}条</span>
+            </div>
+            <div class="daily-news-list">
+                {{ range .items }}
+                <div class="daily-news-item">
+                    <a href="{{ .link }}" target="_blank">{{ .title }}</a>
+                    <div class="daily-news-source">{{ .source }}</div>
+                </div>
+                {{ end }}
+            </div>
+        </div>
+        {{ end }}
+        {{ end }}
+        
+        {{/* 经济新闻 */}}
+        {{ with $dailySummary.categories.economy }}
+        {{ if .items }}
+        <div class="daily-category">
+            <div class="daily-category-header">
+                <span class="daily-category-icon">{{ .icon }}</span>
+                <span class="daily-category-name">{{ .name }}</span>
+                <span class="daily-category-count">{{ .count }}条</span>
+            </div>
+            <div class="daily-news-list">
+                {{ range .items }}
+                <div class="daily-news-item">
+                    <a href="{{ .link }}" target="_blank">{{ .title }}</a>
+                    <div class="daily-news-source">{{ .source }}</div>
+                </div>
+                {{ end }}
+            </div>
+        </div>
+        {{ end }}
+        {{ end }}
+        
+        {{/* 地产新闻 */}}
+        {{ with $dailySummary.categories.realestate }}
+        {{ if .items }}
+        <div class="daily-category">
+            <div class="daily-category-header">
+                <span class="daily-category-icon">{{ .icon }}</span>
+                <span class="daily-category-name">{{ .name }}</span>
+                <span class="daily-category-count">{{ .count }}条</span>
+            </div>
+            <div class="daily-news-list">
+                {{ range .items }}
+                <div class="daily-news-item">
+                    <a href="{{ .link }}" target="_blank">{{ .title }}</a>
+                    <div class="daily-news-source">{{ .source }}</div>
+                </div>
+                {{ end }}
+            </div>
+        </div>
+        {{ end }}
+        {{ end }}
+        
+        {{/* 芯片新闻 */}}
+        {{ with $dailySummary.categories.chip }}
+        {{ if .items }}
+        <div class="daily-category">
+            <div class="daily-category-header">
+                <span class="daily-category-icon">{{ .icon }}</span>
+                <span class="daily-category-name">{{ .name }}</span>
+                <span class="daily-category-count">{{ .count }}条</span>
+            </div>
+            <div class="daily-news-list">
+                {{ range .items }}
+                <div class="daily-news-item">
+                    <a href="{{ .link }}" target="_blank">{{ .title }}</a>
+                    <div class="daily-news-source">{{ .source }}</div>
+                </div>
+                {{ end }}
+            </div>
+        </div>
+        {{ end }}
+        {{ end }}
+    </div>
+</section>
+
+{{/* 热点话题 */}}
+{{ if $dailySummary.hot_topics }}
+<section class="daily-hot-topics">
+    <h3 class="hot-topics-title">🔥 今日热点</h3>
+    <div class="hot-topics-list">
+        {{ range $dailySummary.hot_topics }}
+        <span class="hot-topic-tag">{{ . }}</span>
+        {{ end }}
+    </div>
+</section>
+{{ end }}
+{{ end }}
+
 {{ end }}
 
 {{ define "scripts" }}

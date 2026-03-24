@@ -108,13 +108,13 @@ def update_leaderboard():
 
 
 def update_news():
-    """更新新闻数据"""
+    """更新新闻数据 - 保留历史记录，合并新旧新闻"""
     print("\n" + "="*50)
     print("📰 开始更新 AI 新闻...")
     print("="*50)
     
     scraper = NewsScraper()
-    all_news = []
+    new_news = []
     
     # 从多个源获取新闻
     sources = [
@@ -127,22 +127,47 @@ def update_news():
         try:
             print(f"\n  正在从 {source_name} 获取新闻...")
             news = fetch_func()
-            all_news.extend(news)
+            new_news.extend(news)
             print(f"  ✓ 从 {source_name} 获取了 {len(news)} 条新闻")
         except Exception as e:
             print(f"  ✗ 从 {source_name} 获取失败: {e}")
     
-    # 去重：基于标题
+    # 读取现有新闻数据
+    existing_news = []
+    news_json_path = DATA_DIR / "news.json"
+    if news_json_path.exists():
+        try:
+            with open(news_json_path, 'r', encoding='utf-8') as f:
+                existing_data = json.load(f)
+                existing_news = existing_data.get("items", [])
+                print(f"\n  📂 读取到 {len(existing_news)} 条历史新闻")
+        except Exception as e:
+            print(f"  ⚠️ 读取历史新闻失败: {e}")
+    
+    # 合并新旧新闻
+    all_news = new_news + existing_news
+    
+    # 去重：基于标题（使用标题前40个字符作为去重键，更精确）
     seen_titles = set()
+    seen_links = set()
     unique_news = []
     for item in all_news:
         title = item.get("title", "")
-        # 使用标题前30个字符作为去重键
-        title_key = title[:30].lower() if title else ""
+        link = item.get("link", "")
+        # 使用标题前40个字符+来源作为去重键
+        title_key = title[:40].lower().strip() if title else ""
+        link_key = link.lower().strip() if link else ""
+        
+        # 跳过重复标题或重复链接
         if title_key and title_key in seen_titles:
             continue
+        if link_key and link_key in seen_links:
+            continue
+            
         if title_key:
             seen_titles.add(title_key)
+        if link_key:
+            seen_links.add(link_key)
         unique_news.append(item)
     
     all_news = unique_news
@@ -150,19 +175,31 @@ def update_news():
     # 按日期排序
     all_news.sort(key=lambda x: x.get("date", ""), reverse=True)
     
-    # 只保留最近 20 条
-    all_news = all_news[:20]
+    # 保留最近 30 天的新闻，最多保留 100 条
+    from datetime import datetime, timedelta
+    cutoff_date = (datetime.now() - timedelta(days=30)).strftime("%Y-%m-%d")
+    recent_news = [n for n in all_news if n.get("date", "") >= cutoff_date]
+    
+    # 如果30天内的新闻太少（少于20条），则保留最近 100 条
+    if len(recent_news) < 20:
+        all_news = all_news[:100]
+        print(f"\n  📊 30天内新闻较少，保留最近 {len(all_news)} 条新闻")
+    else:
+        all_news = recent_news
+        print(f"\n  📊 保留最近30天内的 {len(all_news)} 条新闻")
     
     # 保存新闻数据
     news_data = {
         "last_updated": datetime.now(timezone.utc).isoformat(),
         "count": len(all_news),
+        "history_count": len(unique_news),  # 去重后的总历史数量
+        "retention_days": 30,
         "items": all_news
     }
     save_json(news_data, DATA_DIR / "news.json")
     
     # 为每条新闻创建 Hugo 内容文件（Markdown）
-    create_news_content_files(all_news)
+    create_news_content_files(new_news)  # 只为新新闻创建文件
     
     return all_news
 
@@ -711,6 +748,9 @@ def main():
         # 更新投资资讯
         update_investment()
         
+        # 生成每日新闻总结
+        update_daily_summary()
+        
         print("\n" + "="*50)
         print("✅ 所有数据更新完成!")
         print("="*50)
@@ -722,6 +762,118 @@ def main():
         traceback.print_exc()
         return 1
 
+
+
+def update_daily_summary():
+    """更新每日新闻总结 - 包含AI、经济、地产、芯片等多领域"""
+    print("\n" + "="*50)
+    print("📋 开始生成每日新闻总结...")
+    print("="*50)
+    
+    scraper = NewsScraper()
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    
+    # 获取各领域新闻
+    all_news = {
+        "ai": [],
+        "economy": [],
+        "realestate": [],
+        "chip": []
+    }
+    
+    # 获取AI新闻
+    try:
+        print("\n  正在获取 AI 新闻...")
+        ai_sources = [
+            ("机器之心", scraper.fetch_jiqizhixin),
+            ("量子位", scraper.fetch_qbitai),
+            ("TechCrunch", scraper.fetch_techcrunch_ai),
+        ]
+        for source_name, fetch_func in ai_sources:
+            try:
+                news = fetch_func()
+                all_news["ai"].extend(news)
+                print(f"  ✓ 从 {source_name} 获取了 {len(news)} 条AI新闻")
+            except Exception as e:
+                print(f"  ✗ 从 {source_name} 获取失败: {e}")
+    except Exception as e:
+        print(f"  ✗ AI新闻获取失败: {e}")
+    
+    # 获取经济新闻
+    try:
+        print("\n  正在获取经济新闻...")
+        economy_news = scraper.fetch_economy_news()
+        all_news["economy"] = economy_news
+        print(f"  ✓ 获取了 {len(economy_news)} 条经济新闻")
+    except Exception as e:
+        print(f"  ✗ 经济新闻获取失败: {e}")
+    
+    # 获取地产新闻
+    try:
+        print("\n  正在获取地产新闻...")
+        realestate_news = scraper.fetch_real_estate_news()
+        all_news["realestate"] = realestate_news
+        print(f"  ✓ 获取了 {len(realestate_news)} 条地产新闻")
+    except Exception as e:
+        print(f"  ✗ 地产新闻获取失败: {e}")
+    
+    # 获取芯片新闻
+    try:
+        print("\n  正在获取芯片新闻...")
+        chip_news = scraper.fetch_chip_news()
+        all_news["chip"] = chip_news
+        print(f"  ✓ 获取了 {len(chip_news)} 条芯片新闻")
+    except Exception as e:
+        print(f"  ✗ 芯片新闻获取失败: {e}")
+    
+    # 去重处理
+    for category in all_news:
+        seen_titles = set()
+        unique_news = []
+        for item in all_news[category]:
+            title_key = item.get("title", "")[:40].lower().strip()
+            if title_key and title_key not in seen_titles:
+                seen_titles.add(title_key)
+                unique_news.append(item)
+        all_news[category] = unique_news[:5]
+    
+    # 保存每日总结数据
+    daily_data = {
+        "date": today,
+        "last_updated": datetime.now(timezone.utc).isoformat(),
+        "categories": {
+            "ai": {
+                "name": "人工智能",
+                "icon": "🤖",
+                "count": len(all_news["ai"]),
+                "items": all_news["ai"]
+            },
+            "economy": {
+                "name": "宏观经济", 
+                "icon": "📈",
+                "count": len(all_news["economy"]),
+                "items": all_news["economy"]
+            },
+            "realestate": {
+                "name": "房地产",
+                "icon": "🏠", 
+                "count": len(all_news["realestate"]),
+                "items": all_news["realestate"]
+            },
+            "chip": {
+                "name": "芯片半导体",
+                "icon": "💻",
+                "count": len(all_news["chip"]),
+                "items": all_news["chip"]
+            }
+        },
+        "hot_topics": ["AI大模型", "美联储利率决议", "房贷利率", "芯片出口管制"][:5]
+    }
+    
+    save_json(daily_data, DATA_DIR / "daily_summary.json")
+    print(f"\n  ✓ 每日总结已生成，包含 {sum(len(v) for v in all_news.values())} 条新闻")
+    
+    return daily_data
 
 if __name__ == "__main__":
     sys.exit(main())

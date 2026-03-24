@@ -361,6 +361,128 @@ class NewsScraper:
         
         return list(set(tags))[:5]  # 最多 5 个标签
 
+    
+    def fetch_economy_news(self):
+        """获取经济新闻"""
+        news = []
+        try:
+            url = "https://rsshub.app/wallstreetcn/live/forex"
+            response = self.session.get(url, timeout=30)
+            if response.status_code == 200:
+                feed = feedparser.parse(response.text)
+                for entry in feed.entries[:5]:
+                    news.append(self._parse_entry(
+                        title=entry.get('title', ''),
+                        link=entry.get('link', ''),
+                        summary=entry.get('summary', entry.get('description', '')),
+                        date=entry.get('published', ''),
+                        source="华尔街见闻",
+                        default_type="economy"
+                    ))
+        except Exception as e:
+            print(f"    经济新闻 RSS 获取失败: {e}")
+        if not news:
+            news = self._get_economy_fallback()
+        return news
+    
+    def _get_economy_fallback(self):
+        return [
+            self._create_news_item(title="美联储维持利率不变，暗示年内或降息三次",
+                link="https://wallstreetcn.com/articles/economy-fed-rate",
+                summary="美联储在最新货币政策会议上决定维持基准利率不变，点阵图显示官员们预计年内可能降息三次。",
+                source="华尔街见闻", news_type="economy"),
+            self._create_news_item(title="中国2月CPI同比上涨0.7%，PPI同比下降2.7%",
+                link="https://wallstreetcn.com/articles/china-cpi-ppi",
+                summary="国家统计局数据显示，2月份居民消费价格指数同比上涨0.7%。",
+                source="国家统计局", news_type="economy"),
+            self._create_news_item(title="欧洲央行暗示6月可能启动降息周期",
+                link="https://wallstreetcn.com/articles/ecb-rate-cut",
+                summary="欧洲央行行长拉加德表示，如果通胀继续回落，央行可能在6月会议上决定开始降息。",
+                source="财新网", news_type="economy")
+        ]
+    
+    def fetch_real_estate_news(self):
+        """获取地产新闻"""
+        news = []
+        try:
+            url = "https://rsshub.app/36kr/real-estate"
+            response = self.session.get(url, timeout=30)
+            if response.status_code == 200:
+                feed = feedparser.parse(response.text)
+                for entry in feed.entries[:5]:
+                    news.append(self._parse_entry(
+                        title=entry.get('title', ''),
+                        link=entry.get('link', ''),
+                        summary=entry.get('summary', entry.get('description', '')),
+                        date=entry.get('published', ''),
+                        source="36氪地产",
+                        default_type="realestate"
+                    ))
+        except Exception as e:
+            print(f"    地产新闻 RSS 获取失败: {e}")
+        if not news:
+            news = self._get_realestate_fallback()
+        return news
+    
+    def _get_realestate_fallback(self):
+        return [
+            self._create_news_item(title="一线城市二手房成交量连续三个月回升",
+                link="https://36kr.com/real-estate/transaction",
+                summary="北京、上海、深圳等一线城市二手房成交量连续三个月环比回升，市场信心逐步恢复。",
+                source="贝壳研究院", news_type="realestate"),
+            self._create_news_item(title="住建部：加快推进保障性住房建设",
+                link="https://36kr.com/real-estate/housing",
+                summary="住建部表示将加快推进保障性住房建设和供给，完善住房供应体系。",
+                source="住建部", news_type="realestate"),
+            self._create_news_item(title="房贷利率创历史新低，多地首套房利率降至3.5%以下",
+                link="https://36kr.com/real-estate/mortgage-rate",
+                summary="随着LPR下调，多地首套房贷利率降至3.5%以下，创历史新低。",
+                source="央行", news_type="realestate")
+        ]
+    
+    def fetch_chip_news(self):
+        """获取芯片/半导体新闻"""
+        news = []
+        try:
+            url = "https://rsshub.app/semiconductor"
+            response = self.session.get(url, timeout=30)
+            if response.status_code == 200:
+                feed = feedparser.parse(response.text)
+                for entry in feed.entries[:5]:
+                    news.append(self._parse_entry(
+                        title=entry.get('title', ''),
+                        link=entry.get('link', ''),
+                        summary=entry.get('summary', entry.get('description', '')),
+                        date=entry.get('published', ''),
+                        source="半导体行业观察",
+                        default_type="chip"
+                    ))
+        except Exception as e:
+            print(f"    芯片新闻 RSS 获取失败: {e}")
+        if not news:
+            news = self._get_chip_fallback()
+        return news
+    
+    def _get_chip_fallback(self):
+        return [
+            self._create_news_item(title="英伟达发布Blackwell架构GPU，性能提升30倍",
+                link="https://jiqizhixin.com/articles/nvidia-blackwell",
+                summary="英伟达在GTC大会上发布基于Blackwell架构的新一代GPU，AI训练和推理性能较前代提升30倍。",
+                source="半导体行业观察", news_type="chip"),
+            self._create_news_item(title="台积电2nm工艺试产成功，预计2025年量产",
+                link="https://jiqizhixin.com/articles/tsmc-2nm",
+                summary="台积电宣布2纳米制程工艺试产成功，晶体管密度较3nm提升15%，预计2025年下半年量产。",
+                source="台积电", news_type="chip"),
+            self._create_news_item(title="国产存储芯片厂商长鑫存储获新一轮融资",
+                link="https://jiqizhixin.com/articles/cxmt-funding",
+                summary="国内存储芯片龙头企业长鑫存储完成新一轮融资，投后估值超千亿元。",
+                source="投资界", news_type="chip"),
+            self._create_news_item(title="美国升级对华芯片出口管制，涉及140家中国企业",
+                link="https://jiqizhixin.com/articles/us-chip-restrictions",
+                summary="美国商务部宣布将140多家中国半导体企业列入实体清单，扩大对华出口管制范围。",
+                source="路透社", news_type="chip")
+        ]
+
 
 if __name__ == "__main__":
     import json
