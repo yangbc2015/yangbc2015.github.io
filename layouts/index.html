@@ -1242,17 +1242,12 @@
     });
 })();
 
-// ===== 访问者统计 - 优先使用不蒜子，备选 localStorage =====
+// ===== 访问者统计 - 优先使用 Worker API，备选不蒜子，最后 localStorage =====
 (function() {
     let countDisplayed = false;
     
-    // 格式化数字显示
-    function formatCount(count) {
-        if (count > 10000) {
-            return (count / 10000).toFixed(1) + 'w';
-        }
-        return count.toLocaleString();
-    }
+    // Worker API 地址 - 请替换为你的实际 Worker URL
+    const WORKER_API = 'https://ai-wander-tracker.your-subdomain.workers.dev';
     
     // 更新显示
     function updateDisplay(count) {
@@ -1260,26 +1255,38 @@
         countDisplayed = true;
         
         const visitorCount = document.getElementById('visitor-count');
-        
         if (visitorCount) {
             visitorCount.textContent = count.toLocaleString();
         }
     }
     
-    // 备选方案：localStorage 计数
-    function useLocalStorage() {
+    // 方案1：使用 Worker API（跨浏览器共享）
+    async function useWorkerAPI() {
         try {
-            let count = parseInt(localStorage.getItem('site_total_visits') || '0');
-            count++;
-            localStorage.setItem('site_total_visits', count.toString());
-            updateDisplay(count);
+            const response = await fetch(`${WORKER_API}/api/counter`, {
+                method: 'GET',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+            });
+            
+            if (!response.ok) {
+                throw new Error('Worker API error');
+            }
+            
+            const data = await response.json();
+            if (data && typeof data.count === 'number') {
+                updateDisplay(data.count);
+                return true;
+            }
+            return false;
         } catch (e) {
-            console.error('localStorage error:', e);
-            updateDisplay(0);
+            console.error('Worker API error:', e);
+            return false;
         }
     }
     
-    // 监听不蒜子计数器
+    // 方案2：监听不蒜子计数器
     function watchBusuanzi() {
         const pvElement = document.getElementById('busuanzi_value_site_pv');
         if (!pvElement) return false;
@@ -1310,12 +1317,32 @@
         return true;
     }
     
-    // 初始化
-    document.addEventListener('DOMContentLoaded', function() {
-        // 尝试使用不蒜子
+    // 方案3：localStorage 计数（浏览器本地）
+    function useLocalStorage() {
+        try {
+            let count = parseInt(localStorage.getItem('site_total_visits') || '0');
+            count++;
+            localStorage.setItem('site_total_visits', count.toString());
+            updateDisplay(count);
+        } catch (e) {
+            console.error('localStorage error:', e);
+            updateDisplay(0);
+        }
+    }
+    
+    // 初始化 - 按优先级尝试
+    document.addEventListener('DOMContentLoaded', async function() {
+        // 首先尝试 Worker API
+        const workerSuccess = await useWorkerAPI();
+        
+        if (workerSuccess) {
+            return; // Worker 成功，不需要其他方案
+        }
+        
+        // Worker 失败，尝试不蒜子
         const busuanziLoaded = watchBusuanzi();
         
-        // 设置超时，如果不蒜子 3 秒内未加载则使用备选
+        // 设置超时，如果不蒜子 3 秒内未加载则使用 localStorage
         setTimeout(function() {
             if (!countDisplayed) {
                 if (busuanziLoaded) {

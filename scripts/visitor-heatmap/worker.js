@@ -49,6 +49,8 @@ export default {
         return await handleHeatmap(request, env, allowedOrigin);
       } else if (url.pathname === '/api/stats') {
         return await handleStats(request, env, allowedOrigin);
+      } else if (url.pathname === '/api/counter') {
+        return await handleCounter(request, env, allowedOrigin);
       }
 
       return jsonResponse({ error: 'Not found' }, 404, allowedOrigin);
@@ -213,6 +215,48 @@ async function getVisitorStats(env) {
     week: weekTotal,
     month: monthTotal,
   };
+}
+
+/**
+ * 处理访问计数请求
+ * 返回累计访问次数，并自动递增
+ */
+async function handleCounter(request, env, allowedOrigin) {
+  // 获取访问者 IP
+  const clientIP = request.headers.get('CF-Connecting-IP') || 
+                   request.headers.get('X-Forwarded-For')?.split(',')[0] || 
+                   'unknown';
+  
+  // 获取当前累计访问次数
+  let totalCount = 0;
+  const counterData = await env.VISITOR_DATA?.get('site_total_counter');
+  if (counterData) {
+    totalCount = parseInt(counterData) || 0;
+  }
+  
+  // 检查是否为新的访问会话（基于 IP + 日期）
+  const today = new Date().toISOString().split('T')[0];
+  const ipHash = await hashIP(clientIP);
+  const sessionKey = `counter_session_${ipHash}_${today}`;
+  
+  const existingSession = await env.VISITOR_DATA?.get(sessionKey);
+  
+  // 如果是新访问者（今天未访问过），则增加计数
+  if (!existingSession && !isBotOrLocal(clientIP)) {
+    totalCount++;
+    await env.VISITOR_DATA?.put('site_total_counter', totalCount.toString(), {
+      expirationTtl: 365 * 24 * 60 * 60, // 1年
+    });
+    // 标记今日已访问
+    await env.VISITOR_DATA?.put(sessionKey, '1', {
+      expirationTtl: 24 * 60 * 60, // 24小时
+    });
+  }
+  
+  return jsonResponse({ 
+    count: totalCount,
+    isNew: !existingSession && !isBotOrLocal(clientIP)
+  }, 200, allowedOrigin);
 }
 
 /**

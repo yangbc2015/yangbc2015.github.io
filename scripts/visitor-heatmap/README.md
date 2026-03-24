@@ -57,19 +57,45 @@
 
 ### 5. 修改网站代码
 
+#### 配置热力图（已有功能）
+
 1. 复制 Worker 的 URL（例如：`https://ai-wander-tracker.your-subdomain.workers.dev`）
 2. 修改 `layouts/index.html` 第 1143 行：
    ```javascript
    const WORKER_API = 'https://ai-wander-tracker.your-subdomain.workers.dev';
    ```
+
+#### 配置访问计数器（新增功能）
+
+修改 `layouts/index.html` 中访问统计部分的 `WORKER_API`：
+
+```javascript
+// 在第 1250 行附近找到并修改
+const WORKER_API = 'https://ai-wander-tracker.your-subdomain.workers.dev';
+```
+
 3. 重新部署网站
 
 ### 6. 验证功能
+
+#### 验证热力图
 
 1. 访问你的网站
 2. 打开浏览器开发者工具 (F12) > Console
 3. 应该能看到：`Visitor tracked: {success: true, ...}`
 4. 滚动到地图区域，应该能看到热力图
+
+#### 验证访问计数器
+
+1. 访问你的网站首页
+2. 查看左下角浮动组件，应该显示：`你好！第 X 位AI漫游者`
+3. 打开浏览器开发者工具 (F12) > Console，可以看到计数器 API 调用
+4. 使用不同浏览器或隐身模式访问，数字应该保持一致（因为是服务器端计数）
+5. 直接访问 Worker API 测试：
+   ```
+   https://ai-wander-tracker.your-subdomain.workers.dev/api/counter
+   ```
+   应该返回：`{"count": X, "isNew": true/false}`
 
 ## 数据说明
 
@@ -96,6 +122,24 @@
 | `/api/track` | POST | 记录当前访问者位置 |
 | `/api/heatmap?days=7` | GET | 获取最近 N 天热力图数据 |
 | `/api/stats` | GET | 获取访问统计 |
+| `/api/counter` | GET | 获取累计访问次数并自动递增 |
+
+### 访问计数器功能
+
+新增的全局访问计数器，可以跨浏览器共享访问数据：
+
+**工作原理：**
+- 每次访问调用 `/api/counter` 接口
+- 基于 IP 地址进行去重（同一 IP 每天只计一次）
+- 使用 KV 存储累计访问次数，数据跨浏览器共享
+- IP 经过哈希处理，保护用户隐私
+
+**存储结构：**
+
+| 键名 | 说明 | 过期时间 |
+|-----|------|---------|
+| `site_total_counter` | 累计访问次数 | 1年 |
+| `counter_session_{hash}_{date}` | 今日访问标记 | 24小时 |
 
 ## 热力图效果
 
@@ -130,6 +174,51 @@ KV 存储免费版：
 
 - 同一 IP 每天只记录一次，这是正常行为
 - 检查 KV 中是否有数据：Cloudflare Dashboard > Workers & Pages > KV > 浏览
+
+### 访问计数器显示为 0 或不更新
+
+1. **检查 Worker URL 配置**
+   - 确认 `layouts/index.html` 中的 `WORKER_API` 地址正确
+   - 确保没有拼写错误或多余的空格
+
+2. **检查 CORS 配置**
+   - 确认 `ALLOWED_ORIGINS` 中包含你的域名（包括 `https://`）
+   - 如果使用自定义域名，需要同时添加自定义域名和默认 workers.dev 域名
+
+3. **检查 KV 绑定**
+   - 确认 Worker 已正确绑定 `VISITOR_DATA` KV namespace
+   - 检查 KV namespace 名称是否为 `VISITOR_DATA`（区分大小写）
+
+4. **本地测试**
+   - 直接访问 `https://your-worker.workers.dev/api/counter`
+   - 如果返回错误，查看 Worker Logs 排查问题
+
+5. **计数器初始值**
+   - 首次部署时计数器从 0 开始
+   - 如需设置初始值，可以在 Cloudflare Dashboard > KV 中手动添加 `site_total_counter` 键
+
+## 从 localStorage 迁移到 Worker 计数器
+
+如果你之前使用 localStorage 统计访问次数，可以按以下步骤迁移：
+
+1. **查看当前 localStorage 数据**
+   - 在浏览器开发者工具 Console 中运行：
+     ```javascript
+     localStorage.getItem('site_total_visits');
+     ```
+
+2. **设置初始值到 Worker**
+   - 在 Cloudflare Dashboard > Workers & Pages > KV > 浏览
+   - 添加键 `site_total_counter`，值为你的当前访问次数
+
+3. **部署新代码**
+   - 更新 `worker.js` 代码
+   - 更新 `layouts/index.html` 中的 `WORKER_API` 地址
+   - 重新部署网站
+
+4. **验证**
+   - 访问网站确认计数器显示正确
+   - 使用不同浏览器测试，确认数字一致
 
 ## 高级配置
 
