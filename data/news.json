@@ -1,9 +1,22 @@
 {
-  "last_updated": "2026-03-24T20:00:06.554069+00:00",
-  "count": 25,
-  "history_count": 25,
+  "last_updated": "2026-03-24T21:00:07.554855+00:00",
+  "count": 26,
+  "history_count": 26,
   "retention_days": 30,
   "items": [
+    {
+      "title": "Databricks bought two startups to underpin its new AI security product",
+      "link": "https://techcrunch.com/2026/03/24/databricks-buys-two-startups-lakewatch-antimatter-siftd-ai-security/",
+      "summary": "With an overflowing war chest from its recent $5 billion raise, Databricks is buying startups and looking for more. It acquired Antimatter and SiftD.ai.",
+      "source": "TechCrunch",
+      "date": "2026-03-25",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "行业动态"
+      ],
+      "fetched_at": "2026-03-24T21:00:07.552730+00:00"
+    },
     {
       "title": "Arm is releasing the first in-house chip in its 35-year history",
       "link": "https://techcrunch.com/2026/03/24/arm-is-releasing-its-first-in-house-chip-in-its-35-year-history/",
@@ -12,24 +25,24 @@
       "date": "2026-03-25",
       "type": "industry",
       "tags": [
-        "行业动态",
-        "AI"
+        "AI",
+        "行业动态"
       ],
-      "fetched_at": "2026-03-24T20:00:06.551859+00:00"
+      "fetched_at": "2026-03-24T21:00:07.553612+00:00"
     },
     {
       "title": "OpenAI’s plans to make ChatGPT more like Amazon aren’t going so well",
       "link": "https://techcrunch.com/2026/03/24/openais-plans-to-make-chatgpt-more-like-amazon-arent-going-so-well/",
-      "summary": "OpenAI says its moving away from Instant Checkout, which allowed users to buy items directly through the ChatGPT interface.",
+      "summary": "OpenAI says it's moving away from Instant Checkout, which allowed users to buy items directly through the ChatGPT interface.",
       "source": "TechCrunch",
       "date": "2026-03-25",
       "type": "industry",
       "tags": [
-        "行业动态",
         "AI",
-        "GPT"
+        "GPT",
+        "行业动态"
       ],
-      "fetched_at": "2026-03-24T20:00:06.552251+00:00"
+      "fetched_at": "2026-03-24T21:00:07.553984+00:00"
     },
     {
       "title": "Google TV’s new Gemini features keep fans updated on sports teams and more",
@@ -105,11 +118,11 @@
       "date": "2026-03-24",
       "type": "breakthrough",
       "tags": [
-        "AI",
         "重大突破",
+        "AI",
         "Claude"
       ],
-      "fetched_at": "2026-03-24T20:00:05.450508+00:00"
+      "fetched_at": "2026-03-24T21:00:06.265564+00:00"
     },
     {
       "title": "Google Gemini 2.5 Pro开放API访问",
@@ -119,11 +132,11 @@
       "date": "2026-03-24",
       "type": "product",
       "tags": [
-        "AI",
         "产品发布",
+        "AI",
         "Gemini"
       ],
-      "fetched_at": "2026-03-24T20:00:05.450559+00:00"
+      "fetched_at": "2026-03-24T21:00:06.265594+00:00"
     },
     {
       "title": "OpenAI发布GPT-4.5：更高效的推理架构",
@@ -133,11 +146,11 @@
       "date": "2026-03-24",
       "type": "breakthrough",
       "tags": [
+        "重大突破",
         "AI",
-        "GPT",
-        "重大突破"
+        "GPT"
       ],
-      "fetched_at": "2026-03-24T20:00:05.450582+00:00"
+      "fetched_at": "2026-03-24T21:00:06.265609+00:00"
     },
     {
       "title": "AI全链路加持！一加15T打造全能小屏，售价4299元起",
@@ -147,10 +160,10 @@
       "date": "2026-03-24",
       "type": "industry",
       "tags": [
-        "行业动态",
-        "AI"
+        "AI",
+        "行业动态"
       ],
-      "fetched_at": "2026-03-24T20:00:05.743750+00:00"
+      "fetched_at": "2026-03-24T21:00:06.736107+00:00"
     },
     {
       "title": "龙虾爆火之后，AI初创的全球化机会来了吗？｜线下沙龙报名",
@@ -160,10 +173,10 @@
       "date": "2026-03-24",
       "type": "industry",
       "tags": [
-        "行业动态",
-        "AI"
+        "AI",
+        "行业动态"
       ],
-      "fetched_at": "2026-03-24T20:00:05.744285+00:00"
+      "fetched_at": "2026-03-24T21:00:06.737346+00:00"
     },
     {
       "title": "黄仁勋暴论核弹：AGI已经实现，Ilya错了，程序员有10亿",
@@ -173,10 +186,10 @@
       "date": "2026-03-24",
       "type": "industry",
       "tags": [
-        "行业动态",
-        "AI"
+        "AI",
+        "行业动态"
       ],
-      "fetched_at": "2026-03-24T20:00:05.744536+00:00"
+      "fetched_at": "2026-03-24T21:00:06.738049+00:00"
     },
     {
       "title": "你的模型真的会”举一反三”吗？RoboChallenge Table30 V2 正式发布，泛化时代开幕",
@@ -186,11 +199,11 @@
       "date": "2026-03-24",
       "type": "breakthrough",
       "tags": [
+        "重大突破",
         "AI",
-        "机器人",
-        "重大突破"
+        "机器人"
       ],
-      "fetched_at": "2026-03-24T20:00:05.744690+00:00"
+      "fetched_at": "2026-03-24T21:00:06.738930+00:00"
     },
     {
       "title": "LeCun的世界模型单GPU就能跑了",
@@ -200,10 +213,10 @@
       "date": "2026-03-24",
       "type": "industry",
       "tags": [
-        "行业动态",
-        "AI"
+        "AI",
+        "行业动态"
       ],
-      "fetched_at": "2026-03-24T20:00:05.744833+00:00"
+      "fetched_at": "2026-03-24T21:00:06.739840+00:00"
     },
     {
       "title": "Mirage raises $75M to continue building models for its AI video-editing app Captions",
