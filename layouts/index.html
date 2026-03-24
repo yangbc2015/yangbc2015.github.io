@@ -1242,12 +1242,9 @@
     });
 })();
 
-// ===== 访问者统计 - 优先使用 Worker API，备选不蒜子，最后 localStorage =====
+// ===== 访问者统计 - 使用不蒜子计数器（跨浏览器共享）=====
 (function() {
     let countDisplayed = false;
-    
-    // Worker API 地址 - 请替换为你的实际 Worker URL
-    const WORKER_API = 'https://ai-wander-tracker.your-subdomain.workers.dev';
     
     // 更新显示
     function updateDisplay(count) {
@@ -1260,36 +1257,13 @@
         }
     }
     
-    // 方案1：使用 Worker API（跨浏览器共享）
-    async function useWorkerAPI() {
-        try {
-            const response = await fetch(`${WORKER_API}/api/counter`, {
-                method: 'GET',
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-            });
-            
-            if (!response.ok) {
-                throw new Error('Worker API error');
-            }
-            
-            const data = await response.json();
-            if (data && typeof data.count === 'number') {
-                updateDisplay(data.count);
-                return true;
-            }
-            return false;
-        } catch (e) {
-            console.error('Worker API error:', e);
-            return false;
-        }
-    }
-    
-    // 方案2：监听不蒜子计数器
+    // 监听不蒜子计数器
     function watchBusuanzi() {
         const pvElement = document.getElementById('busuanzi_value_site_pv');
-        if (!pvElement) return false;
+        if (!pvElement) {
+            console.log('不蒜子元素未找到，将使用 localStorage');
+            return false;
+        }
         
         const observer = new MutationObserver(function(mutations) {
             mutations.forEach(function(mutation) {
@@ -1317,7 +1291,7 @@
         return true;
     }
     
-    // 方案3：localStorage 计数（浏览器本地）
+    // localStorage 计数（浏览器本地，作为备用）
     function useLocalStorage() {
         try {
             let count = parseInt(localStorage.getItem('site_total_visits') || '0');
@@ -1330,19 +1304,12 @@
         }
     }
     
-    // 初始化 - 按优先级尝试
-    document.addEventListener('DOMContentLoaded', async function() {
-        // 首先尝试 Worker API
-        const workerSuccess = await useWorkerAPI();
-        
-        if (workerSuccess) {
-            return; // Worker 成功，不需要其他方案
-        }
-        
-        // Worker 失败，尝试不蒜子
+    // 初始化
+    document.addEventListener('DOMContentLoaded', function() {
+        // 尝试使用不蒜子
         const busuanziLoaded = watchBusuanzi();
         
-        // 设置超时，如果不蒜子 3 秒内未加载则使用 localStorage
+        // 设置超时，如果不蒜子 5 秒内未加载则使用 localStorage
         setTimeout(function() {
             if (!countDisplayed) {
                 if (busuanziLoaded) {
@@ -1351,12 +1318,12 @@
                         if (!countDisplayed) {
                             useLocalStorage();
                         }
-                    }, 2000);
+                    }, 3000);
                 } else {
                     useLocalStorage();
                 }
             }
-        }, 3000);
+        }, 5000);
     });
 })();
 
