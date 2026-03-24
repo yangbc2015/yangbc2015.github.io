@@ -1,75 +1,7 @@
 {
-  "last_updated": "2026-03-24T04:00:15.425717+00:00",
-  "count": 6,
+  "last_updated": "2026-03-24T05:00:17.807018+00:00",
+  "count": 4,
   "items": [
-    {
-      "title": "ROM: Real-time Overthinking Mitigation via Streaming Detection and Intervention",
-      "authors": "Xinyan Wang, Xiaogeng Liu, Chaowei Xiao",
-      "abstract": "Large Reasoning Models (LRMs) achieve strong accuracy on challenging tasks by generating long Chain-of-Thought traces, but suffer from overthinking. Even after reaching the correct answer, they continue generating redundant reasoning steps. This behavior increases latency and compute cost and can al...",
-      "venue": "arXiv",
-      "date": "2026-03-23",
-      "arxiv_id": "2603.22016v1",
-      "url": "https://arxiv.org/abs/2603.22016v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.22016v1.pdf",
-      "categories": [
-        "cs.LG",
-        "cs.AI",
-        "cs.CL"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "SegMaFormer: A Hybrid State-Space and Transformer Model for Efficient Segmentation",
-      "authors": "Duy D. Nguyen, Phat T. Tran-Truong",
-      "abstract": "The advent of Transformer and Mamba-based architectures has significantly advanced 3D medical image segmentation by enabling global contextual modeling, a capability traditionally limited in Convolutional Neural Networks (CNNs). However, state-of-the-art Transformer models often entail substantial c...",
-      "venue": "arXiv",
-      "date": "2026-03-23",
-      "arxiv_id": "2603.22002v1",
-      "url": "https://arxiv.org/abs/2603.22002v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.22002v1.pdf",
-      "categories": [
-        "cs.CV",
-        "cs.AI"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Retrieving Climate Change Disinformation by Narrative",
-      "authors": "Max Upravitelev, Veronika Solopova, Charlott Jakob et al.",
-      "abstract": "Detecting climate disinformation narratives typically relies on fixed taxonomies, which do not accommodate emerging narratives. Thus, we re-frame narrative detection as a retrieval task: given a narrative's core message as a query, rank texts from a corpus by alignment with that narrative. This form...",
-      "venue": "arXiv",
-      "date": "2026-03-23",
-      "arxiv_id": "2603.22015v1",
-      "url": "https://arxiv.org/abs/2603.22015v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.22015v1.pdf",
-      "categories": [
-        "cs.CL"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "6D Robotic OCT Scanning of Curved Tissue Surfaces",
-      "authors": "Suresh Guttikonda, Maximilian Neidhardt, Vidas Raudonis et al.",
-      "abstract": "Optical coherence tomography (OCT) is a non-invasive volumetric imaging modality with high spatial and temporal resolution. For imaging larger tissue structures, OCT probes need to be moved to scan the respective area. For handheld scanning, stitching of the acquired OCT volumes requires overlap to ...",
-      "venue": "arXiv",
-      "date": "2026-03-23",
-      "arxiv_id": "2603.22012v1",
-      "url": "https://arxiv.org/abs/2603.22012v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.22012v1.pdf",
-      "categories": [
-        "cs.CV",
-        "cs.RO"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
     {
       "title": "WorldCache: Content-Aware Caching for Accelerated Video World Models",
       "authors": "Umair Nawaz, Ahmed Heakl, Ufaq Khan et al.",
@@ -101,6 +33,40 @@
         "cs.CV",
         "cs.AI",
         "cs.GR"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "ThinkJEPA: Empowering Latent World Models with Large Vision-Language Reasoning Model",
+      "authors": "Haichao Zhang, Yijiang Li, Shwai He et al.",
+      "abstract": "Recent progress in latent world models (e.g., V-JEPA2) has shown promising capability in forecasting future world states from video observations. Nevertheless, dense prediction from a short observation window limits temporal context and can bias predictors toward local, low-level extrapolation, maki...",
+      "venue": "arXiv",
+      "date": "2026-03-23",
+      "arxiv_id": "2603.22281v1",
+      "url": "https://arxiv.org/abs/2603.22281v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.22281v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "VideoDetective: Clue Hunting via both Extrinsic Query and Intrinsic Relevance for Long Video Understanding",
+      "authors": "Ruoliu Yang, Chu Wu, Caifeng Shan et al.",
+      "abstract": "Long video understanding remains challenging for multimodal large language models (MLLMs) due to limited context windows, which necessitate identifying sparse query-relevant video segments. However, existing methods predominantly localize clues based solely on the query, overlooking the video's intr...",
+      "venue": "arXiv",
+      "date": "2026-03-23",
+      "arxiv_id": "2603.22285v1",
+      "url": "https://arxiv.org/abs/2603.22285v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.22285v1.pdf",
+      "categories": [
+        "cs.CV"
       ],
       "type": "vision",
       "badge": "arxiv",

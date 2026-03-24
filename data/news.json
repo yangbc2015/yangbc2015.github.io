@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-24T04:00:08.937923+00:00",
+  "last_updated": "2026-03-24T05:00:09.150783+00:00",
   "count": 11,
   "items": [
     {
@@ -10,11 +10,11 @@
       "date": "2026-03-24",
       "type": "breakthrough",
       "tags": [
-        "Claude",
+        "重大突破",
         "AI",
-        "重大突破"
+        "Claude"
       ],
-      "fetched_at": "2026-03-24T04:00:06.422942+00:00"
+      "fetched_at": "2026-03-24T05:00:06.130405+00:00"
     },
     {
       "title": "Google Gemini 2.5 Pro开放API访问",
@@ -25,10 +25,10 @@
       "type": "product",
       "tags": [
         "AI",
-        "Gemini",
-        "产品发布"
+        "产品发布",
+        "Gemini"
       ],
-      "fetched_at": "2026-03-24T04:00:06.422973+00:00"
+      "fetched_at": "2026-03-24T05:00:06.130437+00:00"
     },
     {
       "title": "OpenAI发布GPT-4.5：更高效的推理架构",
@@ -38,11 +38,11 @@
       "date": "2026-03-24",
       "type": "breakthrough",
       "tags": [
-        "AI",
         "重大突破",
+        "AI",
         "GPT"
       ],
-      "fetched_at": "2026-03-24T04:00:06.422989+00:00"
+      "fetched_at": "2026-03-24T05:00:06.130452+00:00"
     },
     {
       "title": "OpenClaw逼出Claude最强反击！GUI操控电脑和真人无差别，网友：这得花多少token？",
@@ -52,11 +52,11 @@
       "date": "2026-03-24",
       "type": "industry",
       "tags": [
-        "Claude",
         "行业动态",
-        "AI"
+        "AI",
+        "Claude"
       ],
-      "fetched_at": "2026-03-24T04:00:06.663341+00:00"
+      "fetched_at": "2026-03-24T05:00:06.418898+00:00"
     },
     {
       "title": "龙虾史上最大升级！但接了微信的千万别更",
@@ -69,7 +69,7 @@
         "AI",
         "产品发布"
       ],
-      "fetched_at": "2026-03-24T04:00:06.663622+00:00"
+      "fetched_at": "2026-03-24T05:00:06.419588+00:00"
     },
     {
       "title": "Air Street becomes one of the largest solo VCs in Europe with $232M fund",
@@ -82,7 +82,7 @@
         "AI",
         "产品发布"
       ],
-      "fetched_at": "2026-03-24T04:00:08.937430+00:00"
+      "fetched_at": "2026-03-24T05:00:09.149935+00:00"
     },
     {
       "title": "Bernie Sanders’ AI ‘gotcha’ video flops, but the memes are great",
@@ -92,11 +92,11 @@
       "date": "2026-03-24",
       "type": "industry",
       "tags": [
-        "Claude",
         "行业动态",
-        "AI"
+        "AI",
+        "Claude"
       ],
-      "fetched_at": "2026-03-24T04:00:08.937627+00:00"
+      "fetched_at": "2026-03-24T05:00:09.150208+00:00"
     },
     {
       "title": "Vibe-coding startup Lovable is on the hunt for acquisitions",
@@ -106,11 +106,11 @@
       "date": "2026-03-24",
       "type": "industry",
       "tags": [
-        "行业动态",
         "AI",
-        "代码"
+        "代码",
+        "行业动态"
       ],
-      "fetched_at": "2026-03-24T04:00:08.937776+00:00"
+      "fetched_at": "2026-03-24T05:00:09.150581+00:00"
     },
     {
       "title": "陶哲轩：我差点江郎才尽，只因在普林斯顿待了一年",
@@ -120,10 +120,10 @@
       "date": "2026-03-23",
       "type": "industry",
       "tags": [
-        "行业动态",
-        "AI"
+        "AI",
+        "行业动态"
       ],
-      "fetched_at": "2026-03-24T04:00:06.663935+00:00"
+      "fetched_at": "2026-03-24T05:00:06.420363+00:00"
     },
     {
       "title": "岚图泰山Ultra启动交付，全新一代896线激光雷达上车",
@@ -133,10 +133,10 @@
       "date": "2026-03-23",
       "type": "industry",
       "tags": [
-        "行业动态",
-        "AI"
+        "AI",
+        "行业动态"
       ],
-      "fetched_at": "2026-03-24T04:00:06.664204+00:00"
+      "fetched_at": "2026-03-24T05:00:06.420910+00:00"
     },
     {
       "title": "Momenta不选VLA选世界模型，大众首发！曹旭东：传感器重要性最后",
@@ -146,10 +146,10 @@
       "date": "2026-03-23",
       "type": "industry",
       "tags": [
-        "行业动态",
-        "AI"
+        "AI",
+        "行业动态"
       ],
-      "fetched_at": "2026-03-24T04:00:06.664366+00:00"
+      "fetched_at": "2026-03-24T05:00:06.421391+00:00"
     }
   ]
 }
