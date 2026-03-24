@@ -1,9 +1,50 @@
 {
-  "last_updated": "2026-03-24T19:00:07.680019+00:00",
-  "count": 22,
-  "history_count": 22,
+  "last_updated": "2026-03-24T20:00:06.554069+00:00",
+  "count": 25,
+  "history_count": 25,
   "retention_days": 30,
   "items": [
+    {
+      "title": "Arm is releasing the first in-house chip in its 35-year history",
+      "link": "https://techcrunch.com/2026/03/24/arm-is-releasing-its-first-in-house-chip-in-its-35-year-history/",
+      "summary": "Arm is producing its own CPU for the first time. It developed the CPU with Meta, which is also the chip's first customer.",
+      "source": "TechCrunch",
+      "date": "2026-03-25",
+      "type": "industry",
+      "tags": [
+        "行业动态",
+        "AI"
+      ],
+      "fetched_at": "2026-03-24T20:00:06.551859+00:00"
+    },
+    {
+      "title": "OpenAI’s plans to make ChatGPT more like Amazon aren’t going so well",
+      "link": "https://techcrunch.com/2026/03/24/openais-plans-to-make-chatgpt-more-like-amazon-arent-going-so-well/",
+      "summary": "OpenAI says its moving away from Instant Checkout, which allowed users to buy items directly through the ChatGPT interface.",
+      "source": "TechCrunch",
+      "date": "2026-03-25",
+      "type": "industry",
+      "tags": [
+        "行业动态",
+        "AI",
+        "GPT"
+      ],
+      "fetched_at": "2026-03-24T20:00:06.552251+00:00"
+    },
+    {
+      "title": "Google TV’s new Gemini features keep fans updated on sports teams and more",
+      "link": "https://techcrunch.com/2026/03/24/google-tv-new-gemini-features-keep-fans-updated-on-sports-teams-deep-dives-visual-answers/",
+      "summary": "Three Gemini-powered features are coming to your Google TV. This includes visual responses, deep dives, and sports briefs.",
+      "source": "TechCrunch",
+      "date": "2026-03-25",
+      "type": "industry",
+      "tags": [
+        "行业动态",
+        "AI",
+        "Gemini"
+      ],
+      "fetched_at": "2026-03-24T20:00:06.552879+00:00"
+    },
     {
       "title": "OpenAI adds open source tools to help developers build for teen safety",
       "link": "https://techcrunch.com/2026/03/24/openai-adds-open-source-tools-to-help-developers-build-for-teen-safety/",
@@ -68,7 +109,7 @@
         "重大突破",
         "Claude"
       ],
-      "fetched_at": "2026-03-24T19:00:06.607313+00:00"
+      "fetched_at": "2026-03-24T20:00:05.450508+00:00"
     },
     {
       "title": "Google Gemini 2.5 Pro开放API访问",
@@ -82,7 +123,7 @@
         "产品发布",
         "Gemini"
       ],
-      "fetched_at": "2026-03-24T19:00:06.607343+00:00"
+      "fetched_at": "2026-03-24T20:00:05.450559+00:00"
     },
     {
       "title": "OpenAI发布GPT-4.5：更高效的推理架构",
@@ -96,7 +137,7 @@
         "GPT",
         "重大突破"
       ],
-      "fetched_at": "2026-03-24T19:00:06.607376+00:00"
+      "fetched_at": "2026-03-24T20:00:05.450582+00:00"
     },
     {
       "title": "AI全链路加持！一加15T打造全能小屏，售价4299元起",
@@ -106,10 +147,10 @@
       "date": "2026-03-24",
       "type": "industry",
       "tags": [
-        "AI",
-        "行业动态"
+        "行业动态",
+        "AI"
       ],
-      "fetched_at": "2026-03-24T19:00:06.865624+00:00"
+      "fetched_at": "2026-03-24T20:00:05.743750+00:00"
     },
     {
       "title": "龙虾爆火之后，AI初创的全球化机会来了吗？｜线下沙龙报名",
@@ -119,10 +160,10 @@
       "date": "2026-03-24",
       "type": "industry",
       "tags": [
-        "AI",
-        "行业动态"
+        "行业动态",
+        "AI"
       ],
-      "fetched_at": "2026-03-24T19:00:06.865858+00:00"
+      "fetched_at": "2026-03-24T20:00:05.744285+00:00"
     },
     {
       "title": "黄仁勋暴论核弹：AGI已经实现，Ilya错了，程序员有10亿",
@@ -132,10 +173,10 @@
       "date": "2026-03-24",
       "type": "industry",
       "tags": [
-        "AI",
-        "行业动态"
+        "行业动态",
+        "AI"
       ],
-      "fetched_at": "2026-03-24T19:00:06.866203+00:00"
+      "fetched_at": "2026-03-24T20:00:05.744536+00:00"
     },
     {
       "title": "你的模型真的会”举一反三”吗？RoboChallenge Table30 V2 正式发布，泛化时代开幕",
@@ -149,7 +190,7 @@
         "机器人",
         "重大突破"
       ],
-      "fetched_at": "2026-03-24T19:00:06.866402+00:00"
+      "fetched_at": "2026-03-24T20:00:05.744690+00:00"
     },
     {
       "title": "LeCun的世界模型单GPU就能跑了",
@@ -159,10 +200,10 @@
       "date": "2026-03-24",
       "type": "industry",
       "tags": [
-        "AI",
-        "行业动态"
+        "行业动态",
+        "AI"
       ],
-      "fetched_at": "2026-03-24T19:00:06.866550+00:00"
+      "fetched_at": "2026-03-24T20:00:05.744833+00:00"
     },
     {
       "title": "Mirage raises $75M to continue building models for its AI video-editing app Captions",
