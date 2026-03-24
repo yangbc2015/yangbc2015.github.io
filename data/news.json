@@ -1,9 +1,35 @@
 {
-  "last_updated": "2026-03-24T18:00:07.055537+00:00",
-  "count": 20,
-  "history_count": 20,
+  "last_updated": "2026-03-24T19:00:07.680019+00:00",
+  "count": 22,
+  "history_count": 22,
   "retention_days": 30,
   "items": [
+    {
+      "title": "OpenAI adds open source tools to help developers build for teen safety",
+      "link": "https://techcrunch.com/2026/03/24/openai-adds-open-source-tools-to-help-developers-build-for-teen-safety/",
+      "summary": "Rather than working from scratch to figure out how to make AI safer for teens, developers can use these policies to fortify what they build.",
+      "source": "TechCrunch",
+      "date": "2026-03-25",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "行业动态"
+      ],
+      "fetched_at": "2026-03-24T19:00:07.678165+00:00"
+    },
+    {
+      "title": "Talat’s AI meeting notes stay on your machine, not in the cloud",
+      "link": "https://techcrunch.com/2026/03/24/talats-ai-meeting-notes-stay-on-your-machine-not-in-the-cloud/",
+      "summary": "The subscription-free AI meeting notes app is a local-first twist on notetaking tools like Granola.",
+      "source": "TechCrunch",
+      "date": "2026-03-25",
+      "type": "product",
+      "tags": [
+        "AI",
+        "产品发布"
+      ],
+      "fetched_at": "2026-03-24T19:00:07.678747+00:00"
+    },
     {
       "title": "Doss raises $55M for AI inventory management that plugs into ERP",
       "link": "https://techcrunch.com/2026/03/24/doss-raises-55m-for-ai-inventory-management-that-plugs-into-erp/",
@@ -15,7 +41,7 @@
         "AI",
         "行业动态"
       ],
-      "fetched_at": "2026-03-24T18:00:07.053809+00:00"
+      "fetched_at": "2026-03-24T19:00:07.679083+00:00"
     },
     {
       "title": "Meet the former Apple designer building a new AI interface at Hark",
@@ -39,10 +65,10 @@
       "type": "breakthrough",
       "tags": [
         "AI",
-        "Claude",
-        "重大突破"
+        "重大突破",
+        "Claude"
       ],
-      "fetched_at": "2026-03-24T18:00:05.882861+00:00"
+      "fetched_at": "2026-03-24T19:00:06.607313+00:00"
     },
     {
       "title": "Google Gemini 2.5 Pro开放API访问",
@@ -56,7 +82,7 @@
         "产品发布",
         "Gemini"
       ],
-      "fetched_at": "2026-03-24T18:00:05.882893+00:00"
+      "fetched_at": "2026-03-24T19:00:06.607343+00:00"
     },
     {
       "title": "OpenAI发布GPT-4.5：更高效的推理架构",
@@ -67,10 +93,10 @@
       "type": "breakthrough",
       "tags": [
         "AI",
-        "重大突破",
-        "GPT"
+        "GPT",
+        "重大突破"
       ],
-      "fetched_at": "2026-03-24T18:00:05.882908+00:00"
+      "fetched_at": "2026-03-24T19:00:06.607376+00:00"
     },
     {
       "title": "AI全链路加持！一加15T打造全能小屏，售价4299元起",
@@ -83,7 +109,7 @@
         "AI",
         "行业动态"
       ],
-      "fetched_at": "2026-03-24T18:00:06.140073+00:00"
+      "fetched_at": "2026-03-24T19:00:06.865624+00:00"
     },
     {
       "title": "龙虾爆火之后，AI初创的全球化机会来了吗？｜线下沙龙报名",
@@ -96,7 +122,7 @@
         "AI",
         "行业动态"
       ],
-      "fetched_at": "2026-03-24T18:00:06.140495+00:00"
+      "fetched_at": "2026-03-24T19:00:06.865858+00:00"
     },
     {
       "title": "黄仁勋暴论核弹：AGI已经实现，Ilya错了，程序员有10亿",
@@ -109,7 +135,7 @@
         "AI",
         "行业动态"
       ],
-      "fetched_at": "2026-03-24T18:00:06.140709+00:00"
+      "fetched_at": "2026-03-24T19:00:06.866203+00:00"
     },
     {
       "title": "你的模型真的会”举一反三”吗？RoboChallenge Table30 V2 正式发布，泛化时代开幕",
@@ -123,7 +149,7 @@
         "机器人",
         "重大突破"
       ],
-      "fetched_at": "2026-03-24T18:00:06.140862+00:00"
+      "fetched_at": "2026-03-24T19:00:06.866402+00:00"
     },
     {
       "title": "LeCun的世界模型单GPU就能跑了",
@@ -136,7 +162,7 @@
         "AI",
         "行业动态"
       ],
-      "fetched_at": "2026-03-24T18:00:06.141016+00:00"
+      "fetched_at": "2026-03-24T19:00:06.866550+00:00"
     },
     {
       "title": "Mirage raises $75M to continue building models for its AI video-editing app Captions",
