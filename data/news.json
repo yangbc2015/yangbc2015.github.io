@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-03-24T09:00:07.489899+00:00",
-  "count": 12,
-  "history_count": 12,
+  "last_updated": "2026-03-24T10:00:08.006617+00:00",
+  "count": 14,
+  "history_count": 14,
   "retention_days": 30,
   "items": [
     {
@@ -12,11 +12,11 @@
       "date": "2026-03-24",
       "type": "breakthrough",
       "tags": [
-        "重大突破",
         "AI",
+        "重大突破",
         "Claude"
       ],
-      "fetched_at": "2026-03-24T09:00:06.155598+00:00"
+      "fetched_at": "2026-03-24T10:00:06.850283+00:00"
     },
     {
       "title": "Google Gemini 2.5 Pro开放API访问",
@@ -26,11 +26,11 @@
       "date": "2026-03-24",
       "type": "product",
       "tags": [
-        "Gemini",
+        "AI",
         "产品发布",
-        "AI"
+        "Gemini"
       ],
-      "fetched_at": "2026-03-24T09:00:06.155626+00:00"
+      "fetched_at": "2026-03-24T10:00:06.850312+00:00"
     },
     {
       "title": "OpenAI发布GPT-4.5：更高效的推理架构",
@@ -44,7 +44,34 @@
         "AI",
         "GPT"
       ],
-      "fetched_at": "2026-03-24T09:00:06.155646+00:00"
+      "fetched_at": "2026-03-24T10:00:06.850327+00:00"
+    },
+    {
+      "title": "黄仁勋暴论核弹：AGI已经实现，Ilya错了，程序员有10亿",
+      "link": "https://www.qbitai.com/2026/03/391750.html",
+      "summary": "老黄再次展示了感性的一面",
+      "source": "量子位",
+      "date": "2026-03-24",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "行业动态"
+      ],
+      "fetched_at": "2026-03-24T10:00:07.077895+00:00"
+    },
+    {
+      "title": "你的模型真的会”举一反三”吗？RoboChallenge Table30 V2 正式发布，泛化时代开幕",
+      "link": "https://www.qbitai.com/2026/03/391744.html",
+      "summary": "Table30 V2将为全球具身智能研究者打造了一个精准的“泛化标尺”与公平、开放的真机竞技场",
+      "source": "量子位",
+      "date": "2026-03-24",
+      "type": "breakthrough",
+      "tags": [
+        "AI",
+        "重大突破",
+        "机器人"
+      ],
+      "fetched_at": "2026-03-24T10:00:07.078095+00:00"
     },
     {
       "title": "LeCun的世界模型单GPU就能跑了",
@@ -57,7 +84,7 @@
         "AI",
         "行业动态"
       ],
-      "fetched_at": "2026-03-24T09:00:06.362693+00:00"
+      "fetched_at": "2026-03-24T10:00:07.078243+00:00"
     },
     {
       "title": "又一华为天才少年入局具身创业！用视频生成数据训家用机器人，首个模型登顶具身基模榜单",
@@ -67,12 +94,12 @@
       "date": "2026-03-24",
       "type": "industry",
       "tags": [
-        "AI",
+        "多模态",
         "行业动态",
-        "机器人",
-        "多模态"
+        "AI",
+        "机器人"
       ],
-      "fetched_at": "2026-03-24T09:00:06.363116+00:00"
+      "fetched_at": "2026-03-24T10:00:07.078501+00:00"
     },
     {
       "title": "阿里在海外上了个“企业级龙虾”，我用它30分钟手搓了一家网店",
@@ -85,7 +112,48 @@
         "AI",
         "行业动态"
       ],
-      "fetched_at": "2026-03-24T09:00:06.363305+00:00"
+      "fetched_at": "2026-03-24T10:00:07.078826+00:00"
+    },
+    {
+      "title": "Air Street becomes one of the largest solo VCs in Europe with $232M fund",
+      "link": "https://techcrunch.com/2026/03/23/air-street-becomes-one-of-the-largest-solo-vcs-in-europe-with-232m-fund/",
+      "summary": "London’s Air Street Capital has raised a large Fund III with eyes locked on backing early-stage European and North American AI companies.",
+      "source": "TechCrunch",
+      "date": "2026-03-24",
+      "type": "product",
+      "tags": [
+        "AI",
+        "产品发布"
+      ],
+      "fetched_at": "2026-03-24T10:00:08.005627+00:00"
+    },
+    {
+      "title": "Bernie Sanders’ AI ‘gotcha’ video flops, but the memes are great",
+      "link": "https://techcrunch.com/2026/03/23/bernie-sanders-ai-gotcha-video-flops-but-the-memes-are-great/",
+      "summary": "Sen. Bernie Sanders thinks he's tricked Claude into revealing the AI industry's secrets, but he really just exposed how agreeable chatbots can become.",
+      "source": "TechCrunch",
+      "date": "2026-03-24",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "行业动态",
+        "Claude"
+      ],
+      "fetched_at": "2026-03-24T10:00:08.005863+00:00"
+    },
+    {
+      "title": "Vibe-coding startup Lovable is on the hunt for acquisitions",
+      "link": "https://techcrunch.com/2026/03/23/vibe-coding-startup-lovable-is-on-the-hunt-for-acquisitions/",
+      "summary": "Lovable's founder said the fast-growing vibe-coding startup is looking for startups and teams to join its company.",
+      "source": "TechCrunch",
+      "date": "2026-03-24",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "行业动态",
+        "代码"
+      ],
+      "fetched_at": "2026-03-24T10:00:08.006018+00:00"
     },
     {
       "title": "OpenClaw逼出Claude最强反击！GUI操控电脑和真人无差别，网友：这得花多少token？",
@@ -113,47 +181,6 @@
         "AI"
       ],
       "fetched_at": "2026-03-24T09:00:06.363612+00:00"
-    },
-    {
-      "title": "Air Street becomes one of the largest solo VCs in Europe with $232M fund",
-      "link": "https://techcrunch.com/2026/03/23/air-street-becomes-one-of-the-largest-solo-vcs-in-europe-with-232m-fund/",
-      "summary": "London’s Air Street Capital has raised a large Fund III with eyes locked on backing early-stage European and North American AI companies.",
-      "source": "TechCrunch",
-      "date": "2026-03-24",
-      "type": "product",
-      "tags": [
-        "产品发布",
-        "AI"
-      ],
-      "fetched_at": "2026-03-24T09:00:07.488342+00:00"
-    },
-    {
-      "title": "Bernie Sanders’ AI ‘gotcha’ video flops, but the memes are great",
-      "link": "https://techcrunch.com/2026/03/23/bernie-sanders-ai-gotcha-video-flops-but-the-memes-are-great/",
-      "summary": "Sen. Bernie Sanders thinks he's tricked Claude into revealing the AI industry's secrets, but he really just exposed how agreeable chatbots can become.",
-      "source": "TechCrunch",
-      "date": "2026-03-24",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "行业动态",
-        "Claude"
-      ],
-      "fetched_at": "2026-03-24T09:00:07.488587+00:00"
-    },
-    {
-      "title": "Vibe-coding startup Lovable is on the hunt for acquisitions",
-      "link": "https://techcrunch.com/2026/03/23/vibe-coding-startup-lovable-is-on-the-hunt-for-acquisitions/",
-      "summary": "Lovable's founder said the fast-growing vibe-coding startup is looking for startups and teams to join its company.",
-      "source": "TechCrunch",
-      "date": "2026-03-24",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "行业动态",
-        "代码"
-      ],
-      "fetched_at": "2026-03-24T09:00:07.488751+00:00"
     },
     {
       "title": "陶哲轩：我差点江郎才尽，只因在普林斯顿待了一年",
