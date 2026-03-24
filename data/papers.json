@@ -1,5 +1,143 @@
 {
-  "last_updated": "2026-03-24T00:01:52.403213+00:00",
-  "count": 0,
-  "items": []
+  "last_updated": "2026-03-24T01:00:44.022127+00:00",
+  "count": 8,
+  "items": [
+    {
+      "title": "DMMRL: Disentangled Multi-Modal Representation Learning via Variational Autoencoders for Molecular Property Prediction",
+      "authors": "Long Xu, Junping Guo, Jianbo Zhao et al.",
+      "abstract": "Molecular property prediction constitutes a cornerstone of drug discovery and materials science, necessitating models capable of disentangling complex structure-property relationships across diverse molecular modalities. Existing approaches frequently exhibit entangled representations--conflating st...",
+      "venue": "arXiv",
+      "date": "2026-03-22",
+      "arxiv_id": "2603.21108v1",
+      "url": "https://arxiv.org/abs/2603.21108v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.21108v1.pdf",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Learning Progressive Adaptation for Multi-Modal Tracking",
+      "authors": "He Wang, Tianyang Xu, Zhangyong Tang et al.",
+      "abstract": "Due to the limited availability of paired multi-modal data, multi-modal trackers are typically built by adopting pre-trained RGB models with parameter-efficient fine-tuning modules. However, these fine-tuning methods overlook advanced adaptations for applying RGB pre-trained models and fail to modul...",
+      "venue": "arXiv",
+      "date": "2026-03-22",
+      "arxiv_id": "2603.21100v1",
+      "url": "https://arxiv.org/abs/2603.21100v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.21100v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Mixture of Chapters: Scaling Learnt Memory in Transformers",
+      "authors": "Tasmay Pankaj Tibrewal, Pritish Saha, Ankit Meda et al.",
+      "abstract": "Transformers lack an explicit architectural mechanism for storing and organizing knowledge acquired during training. We introduce learnable sparse memory banks: a set of latent tokens, randomly initialized and trained end-to-end, that transformer layers query via cross-attention to retrieve stored k...",
+      "venue": "arXiv",
+      "date": "2026-03-22",
+      "arxiv_id": "2603.21096v1",
+      "url": "https://arxiv.org/abs/2603.21096v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.21096v1.pdf",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Evaluating Reasoning-Based Scaffolds for Human-AI Co-Annotation: The ReasonAlign Annotation Protocol",
+      "authors": "Smitha Muthya Sudheendra, Jaideep Srivastava",
+      "abstract": "Human annotation is central to NLP evaluation, yet subjective tasks often exhibit substantial variability across annotators. While large language models (LLMs) can provide structured reasoning to support annotation, their influence on human annotation behavior remains unclear. We introduce ReasonAli...",
+      "venue": "arXiv",
+      "date": "2026-03-22",
+      "arxiv_id": "2603.21094v1",
+      "url": "https://arxiv.org/abs/2603.21094v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.21094v1.pdf",
+      "categories": [
+        "cs.CL"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "CVT-Bench: Counterfactual Viewpoint Transformations Reveal Unstable Spatial Representations in Multimodal LLMs",
+      "authors": "Shanmukha Vellamcheti, Uday Kiran Kothapalli, Disharee Bhowmick et al.",
+      "abstract": "Multimodal large language models (MLLMs) achieve strong performance on single-view spatial reasoning tasks, yet it remains unclear whether they maintain stable spatial state representations under counterfactual viewpoint changes. We introduce a controlled diagnostic benchmark that evaluates relation...",
+      "venue": "arXiv",
+      "date": "2026-03-22",
+      "arxiv_id": "2603.21114v1",
+      "url": "https://arxiv.org/abs/2603.21114v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.21114v1.pdf",
+      "categories": [
+        "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Frequency Switching Mechanism for Parameter-E!cient Multi-Task Learning",
+      "authors": "Shih-Wen Liu, Yen-Chang Chen, Wei-Ta Chu et al.",
+      "abstract": "Multi-task learning (MTL) aims to enable a single model to solve multiple tasks efficiently; however, current parameter-efficient fine-tuning (PEFT) methods remain largely limited to single-task adaptation. We introduce \\textbf{Free Sinewich}, a parameter-efficient multi-task learning framework that...",
+      "venue": "arXiv",
+      "date": "2026-03-22",
+      "arxiv_id": "2603.21111v1",
+      "url": "https://arxiv.org/abs/2603.21111v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.21111v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "From Masks to Pixels and Meaning: A New Taxonomy, Benchmark, and Metrics for VLM Image Tampering",
+      "authors": "Xinyi Shang, Yi Tang, Jiacheng Cui et al.",
+      "abstract": "Existing tampering detection benchmarks largely rely on object masks, which severely misalign with the true edit signal: many pixels inside a mask are untouched or only trivially modified, while subtle yet consequential edits outside the mask are treated as natural. We reformulate VLM image tamperin...",
+      "venue": "arXiv",
+      "date": "2026-03-20",
+      "arxiv_id": "2603.20193v1",
+      "url": "https://arxiv.org/abs/2603.20193v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.20193v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "type": "survey",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "MeanFlow Meets Control: Scaling Sampled-Data Control for Swarms",
+      "authors": "Anqi Dong, Yongxin Chen, Karl H. Johansson et al.",
+      "abstract": "Steering large-scale swarms in only a few control updates is challenging because real systems operate in sampled-data form: control inputs are updated intermittently and applied over finite intervals. In this regime, the natural object is not an instantaneous velocity field, but a finite-window cont...",
+      "venue": "arXiv",
+      "date": "2026-03-20",
+      "arxiv_id": "2603.20189v1",
+      "url": "https://arxiv.org/abs/2603.20189v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.20189v1.pdf",
+      "categories": [
+        "cs.LG",
+        "cs.MA",
+        "cs.RO"
+      ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    }
+  ]
 }
