@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-24T06:00:08.127891+00:00",
+  "last_updated": "2026-03-24T07:00:08.377998+00:00",
   "count": 11,
   "items": [
     {
@@ -10,11 +10,11 @@
       "date": "2026-03-24",
       "type": "breakthrough",
       "tags": [
-        "重大突破",
         "AI",
-        "Claude"
+        "Claude",
+        "重大突破"
       ],
-      "fetched_at": "2026-03-24T06:00:07.045206+00:00"
+      "fetched_at": "2026-03-24T07:00:06.814658+00:00"
     },
     {
       "title": "Google Gemini 2.5 Pro开放API访问",
@@ -24,11 +24,11 @@
       "date": "2026-03-24",
       "type": "product",
       "tags": [
-        "产品发布",
+        "AI",
         "Gemini",
-        "AI"
+        "产品发布"
       ],
-      "fetched_at": "2026-03-24T06:00:07.045254+00:00"
+      "fetched_at": "2026-03-24T07:00:06.814700+00:00"
     },
     {
       "title": "OpenAI发布GPT-4.5：更高效的推理架构",
@@ -38,11 +38,39 @@
       "date": "2026-03-24",
       "type": "breakthrough",
       "tags": [
-        "重大突破",
         "AI",
-        "GPT"
+        "GPT",
+        "重大突破"
       ],
-      "fetched_at": "2026-03-24T06:00:07.045280+00:00"
+      "fetched_at": "2026-03-24T07:00:06.814715+00:00"
+    },
+    {
+      "title": "又一华为天才少年入局具身创业！用视频生成数据训家用机器人，首个模型登顶具身基模榜单",
+      "link": "https://www.qbitai.com/2026/03/391668.html",
+      "summary": "最新模型在Embodied Arena登顶",
+      "source": "量子位",
+      "date": "2026-03-24",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "多模态",
+        "行业动态",
+        "机器人"
+      ],
+      "fetched_at": "2026-03-24T07:00:07.085111+00:00"
+    },
+    {
+      "title": "阿里在海外上了个“企业级龙虾”，我用它30分钟手搓了一家网店",
+      "link": "https://www.qbitai.com/2026/03/391584.html",
+      "summary": "一站式配齐选品/建站/运营",
+      "source": "量子位",
+      "date": "2026-03-24",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "行业动态"
+      ],
+      "fetched_at": "2026-03-24T07:00:07.085316+00:00"
     },
     {
       "title": "OpenClaw逼出Claude最强反击！GUI操控电脑和真人无差别，网友：这得花多少token？",
@@ -52,11 +80,11 @@
       "date": "2026-03-24",
       "type": "industry",
       "tags": [
-        "行业动态",
         "AI",
-        "Claude"
+        "Claude",
+        "行业动态"
       ],
-      "fetched_at": "2026-03-24T06:00:07.252904+00:00"
+      "fetched_at": "2026-03-24T07:00:07.085489+00:00"
     },
     {
       "title": "龙虾史上最大升级！但接了微信的千万别更",
@@ -66,10 +94,10 @@
       "date": "2026-03-24",
       "type": "product",
       "tags": [
-        "产品发布",
-        "AI"
+        "AI",
+        "产品发布"
       ],
-      "fetched_at": "2026-03-24T06:00:07.253284+00:00"
+      "fetched_at": "2026-03-24T07:00:07.085733+00:00"
     },
     {
       "title": "Air Street becomes one of the largest solo VCs in Europe with $232M fund",
@@ -79,10 +107,10 @@
       "date": "2026-03-24",
       "type": "product",
       "tags": [
-        "产品发布",
-        "AI"
+        "AI",
+        "产品发布"
       ],
-      "fetched_at": "2026-03-24T06:00:08.126852+00:00"
+      "fetched_at": "2026-03-24T07:00:08.377465+00:00"
     },
     {
       "title": "Bernie Sanders’ AI ‘gotcha’ video flops, but the memes are great",
@@ -92,11 +120,11 @@
       "date": "2026-03-24",
       "type": "industry",
       "tags": [
-        "行业动态",
         "AI",
-        "Claude"
+        "Claude",
+        "行业动态"
       ],
-      "fetched_at": "2026-03-24T06:00:08.127132+00:00"
+      "fetched_at": "2026-03-24T07:00:08.377663+00:00"
     },
     {
       "title": "Vibe-coding startup Lovable is on the hunt for acquisitions",
@@ -106,11 +134,11 @@
       "date": "2026-03-24",
       "type": "industry",
       "tags": [
+        "AI",
         "行业动态",
-        "代码",
-        "AI"
+        "代码"
       ],
-      "fetched_at": "2026-03-24T06:00:08.127550+00:00"
+      "fetched_at": "2026-03-24T07:00:08.377849+00:00"
     },
     {
       "title": "陶哲轩：我差点江郎才尽，只因在普林斯顿待了一年",
@@ -120,36 +148,10 @@
       "date": "2026-03-23",
       "type": "industry",
       "tags": [
-        "行业动态",
-        "AI"
+        "AI",
+        "行业动态"
       ],
-      "fetched_at": "2026-03-24T06:00:07.253505+00:00"
-    },
-    {
-      "title": "岚图泰山Ultra启动交付，全新一代896线激光雷达上车",
-      "link": "https://www.qbitai.com/2026/03/391489.html",
-      "summary": "售价45.99万元",
-      "source": "量子位",
-      "date": "2026-03-23",
-      "type": "industry",
-      "tags": [
-        "行业动态",
-        "AI"
-      ],
-      "fetched_at": "2026-03-24T06:00:07.253828+00:00"
-    },
-    {
-      "title": "Momenta不选VLA选世界模型，大众首发！曹旭东：传感器重要性最后",
-      "link": "https://www.qbitai.com/2026/03/391474.html",
-      "summary": "\"VLA好钢没用在刀刃上\"",
-      "source": "量子位",
-      "date": "2026-03-23",
-      "type": "industry",
-      "tags": [
-        "行业动态",
-        "AI"
-      ],
-      "fetched_at": "2026-03-24T06:00:07.254046+00:00"
+      "fetched_at": "2026-03-24T07:00:07.086249+00:00"
     }
   ]
 }
