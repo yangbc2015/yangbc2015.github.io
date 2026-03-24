@@ -54,6 +54,8 @@ fi
 
 # 步骤 3: 提交并推送到 GitHub（触发 Actions 部署）
 log "${YELLOW}📤 步骤 3/3: 推送到 GitHub 触发部署...${NC}"
+
+# 先提交本地更改
 git add data/ content/
 git commit -m "🤖 Auto-update AI data: $(date +'%Y-%m-%d %H:%M')
 
@@ -65,16 +67,24 @@ git commit -m "🤖 Auto-update AI data: $(date +'%Y-%m-%d %H:%M')
 
 🤖 通过服务器自动更新脚本生成" || true
 
-# 先拉取远程更改，避免推送冲突
+# 获取远程最新状态
 log "${YELLOW}🔄 同步远程更改...${NC}"
-if git pull origin main --no-rebase --no-edit >> "$LOG_FILE" 2>&1; then
+git fetch origin main >> "$LOG_FILE" 2>&1
+
+# 尝试使用 rebase 合并远程更改
+if git rebase origin/main >> "$LOG_FILE" 2>&1; then
     log "${GREEN}✅ 同步成功${NC}"
 else
-    # 如果有冲突，使用本地版本解决
-    log "${YELLOW}⚠️ 检测到冲突，使用本地版本解决...${NC}"
-    git checkout --ours data/*.json >> "$LOG_FILE" 2>&1 || true
-    git add data/*.json >> "$LOG_FILE" 2>&1 || true
-    git commit -m "Resolve merge conflicts, keep local data" >> "$LOG_FILE" 2>&1 || true
+    # rebase 失败，取消并改用 merge
+    log "${YELLOW}⚠️ 同步冲突，尝试合并...${NC}"
+    git rebase --abort >> "$LOG_FILE" 2>&1 || true
+    # 使用 merge，优先保留我们的更改
+    if git merge origin/main --strategy-option=ours --no-edit >> "$LOG_FILE" 2>&1; then
+        log "${GREEN}✅ 合并成功${NC}"
+    else
+        log "${RED}❌ 合并失败，请手动解决冲突${NC}"
+        exit 1
+    fi
 fi
 
 if git push origin main >> "$LOG_FILE" 2>&1; then

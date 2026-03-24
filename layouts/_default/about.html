@@ -239,11 +239,23 @@
         padding: 1.25rem;
         text-align: center;
         transition: all 0.3s ease;
+        cursor: pointer;
     }
 
     .contact-card:hover {
         border-color: var(--neon-green);
         transform: translateY(-3px);
+        box-shadow: 0 5px 20px rgba(0, 255, 65, 0.15);
+    }
+
+    .contact-card-primary {
+        background: linear-gradient(135deg, rgba(0, 255, 65, 0.1) 0%, rgba(0, 240, 255, 0.05) 100%);
+        border-color: var(--neon-green);
+    }
+
+    .contact-card-primary:hover {
+        background: linear-gradient(135deg, rgba(0, 255, 65, 0.15) 0%, rgba(0, 240, 255, 0.1) 100%);
+        box-shadow: 0 5px 25px rgba(0, 255, 65, 0.25);
     }
 
     .contact-icon {
@@ -267,6 +279,27 @@
     .contact-card a {
         color: var(--neon-green);
         text-decoration: none;
+    }
+
+    .contact-card a:hover {
+        text-decoration: underline;
+    }
+
+    /* 评论区 */
+    .comments-section {
+        margin-top: 3rem;
+        padding: 2rem;
+        background: var(--dark-bg-secondary);
+        border: 1px solid var(--neon-green-dim);
+        border-radius: 10px;
+    }
+
+    .comments-title {
+        font-family: 'Orbitron', monospace;
+        font-size: 1.3rem;
+        color: var(--neon-green);
+        margin-bottom: 1rem;
+        text-align: center;
     }
 
     /* 响应式 */
@@ -387,22 +420,83 @@
         <!-- 联系方式卡片 -->
         <h2>📮 联系方式</h2>
         <div class="contact-cards">
-            <div class="contact-card">
-                <div class="contact-icon">📧</div>
-                <div class="contact-label">Email</div>
-                <div class="contact-value"><a href="mailto:hello@example.com">hello@example.com</a></div>
+            <div class="contact-card contact-card-primary" onclick="scrollToComments()">
+                <div class="contact-icon">💬</div>
+                <div class="contact-label">给我留言</div>
+                <div class="contact-value">页面底部评论</div>
             </div>
             <div class="contact-card">
                 <div class="contact-icon">🐙</div>
                 <div class="contact-label">GitHub</div>
-                <div class="contact-value"><a href="https://github.com" target="_blank" rel="noopener">@github</a></div>
+                <div class="contact-value"><a href="https://github.com/yangbc2015" target="_blank" rel="noopener">@yangbc2015</a></div>
             </div>
             <div class="contact-card">
-                <div class="contact-icon">🐦</div>
-                <div class="contact-label">Twitter</div>
-                <div class="contact-value"><a href="https://twitter.com" target="_blank" rel="noopener">@twitter</a></div>
+                <div class="contact-icon">📧</div>
+                <div class="contact-label">GitHub Issue</div>
+                <div class="contact-value"><a href="https://github.com/yangbc2015/yangbc2015.github.io/issues/new" target="_blank" rel="noopener">提交反馈</a></div>
             </div>
         </div>
     </div>
+
+    <!-- 评论区 -->
+    {{ if .Site.Params.features.comments }}
+    <section class="comments-section" id="comments">
+        <h2 class="comments-title">💬 留言板</h2>
+        <p style="text-align: center; color: var(--text-secondary); margin-bottom: 1.5rem;">
+            欢迎在这里留言交流！你也可以直接 <a href="https://github.com/yangbc2015/yangbc2015.github.io/issues/new" target="_blank" rel="noopener" style="color: var(--neon-green);">创建 GitHub Issue</a> 进行反馈
+        </p>
+        {{ if .Site.Params.giscus.repo }}
+        <!-- Giscus 评论系统 -->
+        <script src="https://giscus.app/client.js"
+            data-repo="{{ .Site.Params.giscus.repo }}"
+            data-repo-id="{{ .Site.Params.giscus.repoId }}"
+            data-category="{{ .Site.Params.giscus.category }}"
+            data-category-id="{{ .Site.Params.giscus.categoryId }}"
+            data-mapping="{{ .Site.Params.giscus.mapping }}"
+            data-strict="0"
+            data-reactions-enabled="{{ .Site.Params.giscus.reactionsEnabled }}"
+            data-emit-metadata="{{ .Site.Params.giscus.emitMetadata }}"
+            data-input-position="bottom"
+            data-theme="{{ .Site.Params.giscus.theme }}"
+            data-lang="{{ .Site.Params.giscus.lang }}"
+            crossorigin="anonymous"
+            async>
+        </script>
+        {{ else }}
+        <!-- 提示配置 Giscus -->
+        <div style="text-align: center; color: var(--text-secondary); padding: 2rem;">
+            <p>💡 评论区需要配置 Giscus</p>
+            <p style="font-size: 0.85rem; margin-top: 0.5rem;">
+                在 <code>hugo.toml</code> 中配置 <code>params.giscus</code> 以启用评论功能
+            </p>
+        </div>
+        {{ end }}
+    </section>
+    {{ end }}
 </div>
+
+<script>
+// 滚动到评论区
+function scrollToComments() {
+    const commentsSection = document.getElementById('comments');
+    if (commentsSection) {
+        commentsSection.scrollIntoView({ behavior: 'smooth' });
+        // 添加高亮效果
+        commentsSection.style.animation = 'highlightSection 2s ease';
+        setTimeout(() => {
+            commentsSection.style.animation = '';
+        }, 2000);
+    }
+}
+
+// 添加高亮动画
+const style = document.createElement('style');
+style.textContent = `
+    @keyframes highlightSection {
+        0%, 100% { box-shadow: 0 0 0 transparent; }
+        50% { box-shadow: 0 0 30px rgba(0, 255, 65, 0.3); }
+    }
+`;
+document.head.appendChild(style);
+</script>
 {{ end }}
