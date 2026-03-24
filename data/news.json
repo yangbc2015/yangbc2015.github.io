@@ -1,6 +1,8 @@
 {
-  "last_updated": "2026-03-24T07:00:08.377998+00:00",
-  "count": 11,
+  "last_updated": "2026-03-24T08:00:11.641486+00:00",
+  "count": 12,
+  "history_count": 12,
+  "retention_days": 30,
   "items": [
     {
       "title": "Claude 4 发布：Anthropic推出新一代AI模型",
@@ -10,11 +12,11 @@
       "date": "2026-03-24",
       "type": "breakthrough",
       "tags": [
-        "AI",
+        "重大突破",
         "Claude",
-        "重大突破"
+        "AI"
       ],
-      "fetched_at": "2026-03-24T07:00:06.814658+00:00"
+      "fetched_at": "2026-03-24T08:00:06.962283+00:00"
     },
     {
       "title": "Google Gemini 2.5 Pro开放API访问",
@@ -24,11 +26,11 @@
       "date": "2026-03-24",
       "type": "product",
       "tags": [
+        "产品发布",
         "AI",
-        "Gemini",
-        "产品发布"
+        "Gemini"
       ],
-      "fetched_at": "2026-03-24T07:00:06.814700+00:00"
+      "fetched_at": "2026-03-24T08:00:06.962326+00:00"
     },
     {
       "title": "OpenAI发布GPT-4.5：更高效的推理架构",
@@ -38,11 +40,24 @@
       "date": "2026-03-24",
       "type": "breakthrough",
       "tags": [
-        "AI",
+        "重大突破",
         "GPT",
-        "重大突破"
+        "AI"
       ],
-      "fetched_at": "2026-03-24T07:00:06.814715+00:00"
+      "fetched_at": "2026-03-24T08:00:06.962342+00:00"
+    },
+    {
+      "title": "LeCun的世界模型单GPU就能跑了",
+      "link": "https://www.qbitai.com/2026/03/391698.html",
+      "summary": "速度快到离谱，完整规划仅需1秒",
+      "source": "量子位",
+      "date": "2026-03-24",
+      "type": "industry",
+      "tags": [
+        "行业动态",
+        "AI"
+      ],
+      "fetched_at": "2026-03-24T08:00:07.168398+00:00"
     },
     {
       "title": "又一华为天才少年入局具身创业！用视频生成数据训家用机器人，首个模型登顶具身基模榜单",
@@ -52,12 +67,12 @@
       "date": "2026-03-24",
       "type": "industry",
       "tags": [
-        "AI",
+        "机器人",
         "多模态",
         "行业动态",
-        "机器人"
+        "AI"
       ],
-      "fetched_at": "2026-03-24T07:00:07.085111+00:00"
+      "fetched_at": "2026-03-24T08:00:07.168756+00:00"
     },
     {
       "title": "阿里在海外上了个“企业级龙虾”，我用它30分钟手搓了一家网店",
@@ -67,10 +82,10 @@
       "date": "2026-03-24",
       "type": "industry",
       "tags": [
-        "AI",
-        "行业动态"
+        "行业动态",
+        "AI"
       ],
-      "fetched_at": "2026-03-24T07:00:07.085316+00:00"
+      "fetched_at": "2026-03-24T08:00:07.168928+00:00"
     },
     {
       "title": "OpenClaw逼出Claude最强反击！GUI操控电脑和真人无差别，网友：这得花多少token？",
@@ -80,11 +95,11 @@
       "date": "2026-03-24",
       "type": "industry",
       "tags": [
-        "AI",
+        "行业动态",
         "Claude",
-        "行业动态"
+        "AI"
       ],
-      "fetched_at": "2026-03-24T07:00:07.085489+00:00"
+      "fetched_at": "2026-03-24T08:00:07.169196+00:00"
     },
     {
       "title": "龙虾史上最大升级！但接了微信的千万别更",
@@ -94,10 +109,10 @@
       "date": "2026-03-24",
       "type": "product",
       "tags": [
-        "AI",
-        "产品发布"
+        "产品发布",
+        "AI"
       ],
-      "fetched_at": "2026-03-24T07:00:07.085733+00:00"
+      "fetched_at": "2026-03-24T08:00:07.169360+00:00"
     },
     {
       "title": "Air Street becomes one of the largest solo VCs in Europe with $232M fund",
@@ -107,10 +122,10 @@
       "date": "2026-03-24",
       "type": "product",
       "tags": [
-        "AI",
-        "产品发布"
+        "产品发布",
+        "AI"
       ],
-      "fetched_at": "2026-03-24T07:00:08.377465+00:00"
+      "fetched_at": "2026-03-24T08:00:11.640097+00:00"
     },
     {
       "title": "Bernie Sanders’ AI ‘gotcha’ video flops, but the memes are great",
@@ -120,11 +135,11 @@
       "date": "2026-03-24",
       "type": "industry",
       "tags": [
-        "AI",
+        "行业动态",
         "Claude",
-        "行业动态"
+        "AI"
       ],
-      "fetched_at": "2026-03-24T07:00:08.377663+00:00"
+      "fetched_at": "2026-03-24T08:00:11.640459+00:00"
     },
     {
       "title": "Vibe-coding startup Lovable is on the hunt for acquisitions",
@@ -134,11 +149,11 @@
       "date": "2026-03-24",
       "type": "industry",
       "tags": [
-        "AI",
+        "代码",
         "行业动态",
-        "代码"
+        "AI"
       ],
-      "fetched_at": "2026-03-24T07:00:08.377849+00:00"
+      "fetched_at": "2026-03-24T08:00:11.640850+00:00"
     },
     {
       "title": "陶哲轩：我差点江郎才尽，只因在普林斯顿待了一年",

@@ -1,26 +1,81 @@
 {
   "date": "2026-03-24",
-  "last_updated": "2026-03-24T07:00:08.377998+00:00",
+  "last_updated": "2026-03-24T08:01:58.543565+00:00",
   "categories": {
     "ai": {
       "name": "人工智能",
       "icon": "🤖",
-      "count": 3,
+      "count": 5,
       "items": [
         {
           "title": "Claude 4 发布：Anthropic推出新一代AI模型",
           "link": "https://www.jiqizhixin.com/articles/2026-03-23-1",
-          "source": "机器之心"
+          "summary": "Anthropic正式发布Claude 4系列模型，包括Claude 4 Opus和Claude 4 Sonnet。新模型在推理能力、代码生成和多模态理解方面均有显著提升。",
+          "source": "机器之心",
+          "date": "2026-03-24",
+          "type": "breakthrough",
+          "tags": [
+            "重大突破",
+            "Claude",
+            "AI"
+          ],
+          "fetched_at": "2026-03-24T08:00:25.860779+00:00"
         },
         {
           "title": "Google Gemini 2.5 Pro开放API访问",
           "link": "https://www.jiqizhixin.com/articles/2026-03-23-2",
-          "source": "机器之心"
+          "summary": "谷歌宣布Gemini 2.5 Pro模型正式通过API向开发者开放。该模型支持200万token上下文窗口，在复杂推理任务上表现优异。",
+          "source": "机器之心",
+          "date": "2026-03-24",
+          "type": "product",
+          "tags": [
+            "产品发布",
+            "AI",
+            "Gemini"
+          ],
+          "fetched_at": "2026-03-24T08:00:25.860834+00:00"
         },
         {
           "title": "OpenAI发布GPT-4.5：更高效的推理架构",
           "link": "https://www.jiqizhixin.com/articles/2026-03-23-3",
-          "source": "机器之心"
+          "summary": "OpenAI发布GPT-4.5模型，采用新的稀疏注意力机制，推理效率提升40%，同时保持与GPT-4相当的能力水平。",
+          "source": "机器之心",
+          "date": "2026-03-24",
+          "type": "breakthrough",
+          "tags": [
+            "重大突破",
+            "GPT",
+            "AI"
+          ],
+          "fetched_at": "2026-03-24T08:00:25.860858+00:00"
+        },
+        {
+          "title": "LeCun的世界模型单GPU就能跑了",
+          "link": "https://www.qbitai.com/2026/03/391698.html",
+          "summary": "速度快到离谱，完整规划仅需1秒",
+          "source": "量子位",
+          "date": "2026-03-24",
+          "type": "industry",
+          "tags": [
+            "行业动态",
+            "AI"
+          ],
+          "fetched_at": "2026-03-24T08:00:26.244565+00:00"
+        },
+        {
+          "title": "又一华为天才少年入局具身创业！用视频生成数据训家用机器人，首个模型登顶具身基模榜单",
+          "link": "https://www.qbitai.com/2026/03/391668.html",
+          "summary": "最新模型在Embodied Arena登顶",
+          "source": "量子位",
+          "date": "2026-03-24",
+          "type": "industry",
+          "tags": [
+            "机器人",
+            "多模态",
+            "行业动态",
+            "AI"
+          ],
+          "fetched_at": "2026-03-24T08:00:26.245027+00:00"
         }
       ]
     },
@@ -32,17 +87,38 @@
         {
           "title": "美联储维持利率不变，暗示年内或降息三次",
           "link": "https://wallstreetcn.com/articles/economy-fed-rate",
-          "source": "华尔街见闻"
+          "summary": "美联储在最新货币政策会议上决定维持基准利率不变，点阵图显示官员们预计年内可能降息三次。",
+          "source": "华尔街见闻",
+          "date": "2026-03-24",
+          "type": "economy",
+          "tags": [
+            "AI"
+          ],
+          "fetched_at": "2026-03-24T08:00:58.479055+00:00"
         },
         {
           "title": "中国2月CPI同比上涨0.7%，PPI同比下降2.7%",
           "link": "https://wallstreetcn.com/articles/china-cpi-ppi",
-          "source": "国家统计局"
+          "summary": "国家统计局数据显示，2月份居民消费价格指数同比上涨0.7%。",
+          "source": "国家统计局",
+          "date": "2026-03-24",
+          "type": "economy",
+          "tags": [
+            "AI"
+          ],
+          "fetched_at": "2026-03-24T08:00:58.479080+00:00"
         },
         {
           "title": "欧洲央行暗示6月可能启动降息周期",
           "link": "https://wallstreetcn.com/articles/ecb-rate-cut",
-          "source": "财新网"
+          "summary": "欧洲央行行长拉加德表示，如果通胀继续回落，央行可能在6月会议上决定开始降息。",
+          "source": "财新网",
+          "date": "2026-03-24",
+          "type": "economy",
+          "tags": [
+            "AI"
+          ],
+          "fetched_at": "2026-03-24T08:00:58.479094+00:00"
         }
       ]
     },
@@ -54,17 +130,38 @@
         {
           "title": "一线城市二手房成交量连续三个月回升",
           "link": "https://36kr.com/real-estate/transaction",
-          "source": "贝壳研究院"
+          "summary": "北京、上海、深圳等一线城市二手房成交量连续三个月环比回升，市场信心逐步恢复。",
+          "source": "贝壳研究院",
+          "date": "2026-03-24",
+          "type": "realestate",
+          "tags": [
+            "AI"
+          ],
+          "fetched_at": "2026-03-24T08:01:28.510586+00:00"
         },
         {
           "title": "住建部：加快推进保障性住房建设",
           "link": "https://36kr.com/real-estate/housing",
-          "source": "住建部"
+          "summary": "住建部表示将加快推进保障性住房建设和供给，完善住房供应体系。",
+          "source": "住建部",
+          "date": "2026-03-24",
+          "type": "realestate",
+          "tags": [
+            "AI"
+          ],
+          "fetched_at": "2026-03-24T08:01:28.510626+00:00"
         },
         {
           "title": "房贷利率创历史新低，多地首套房利率降至3.5%以下",
           "link": "https://36kr.com/real-estate/mortgage-rate",
-          "source": "央行"
+          "summary": "随着LPR下调，多地首套房贷利率降至3.5%以下，创历史新低。",
+          "source": "央行",
+          "date": "2026-03-24",
+          "type": "realestate",
+          "tags": [
+            "AI"
+          ],
+          "fetched_at": "2026-03-24T08:01:28.510641+00:00"
         }
       ]
     },
@@ -76,22 +173,50 @@
         {
           "title": "英伟达发布Blackwell架构GPU，性能提升30倍",
           "link": "https://jiqizhixin.com/articles/nvidia-blackwell",
-          "source": "半导体行业观察"
+          "summary": "英伟达在GTC大会上发布基于Blackwell架构的新一代GPU，AI训练和推理性能较前代提升30倍。",
+          "source": "半导体行业观察",
+          "date": "2026-03-24",
+          "type": "chip",
+          "tags": [
+            "AI"
+          ],
+          "fetched_at": "2026-03-24T08:01:58.543461+00:00"
         },
         {
           "title": "台积电2nm工艺试产成功，预计2025年量产",
           "link": "https://jiqizhixin.com/articles/tsmc-2nm",
-          "source": "台积电"
+          "summary": "台积电宣布2纳米制程工艺试产成功，晶体管密度较3nm提升15%，预计2025年下半年量产。",
+          "source": "台积电",
+          "date": "2026-03-24",
+          "type": "chip",
+          "tags": [
+            "AI"
+          ],
+          "fetched_at": "2026-03-24T08:01:58.543495+00:00"
         },
         {
           "title": "国产存储芯片厂商长鑫存储获新一轮融资",
           "link": "https://jiqizhixin.com/articles/cxmt-funding",
-          "source": "投资界"
+          "summary": "国内存储芯片龙头企业长鑫存储完成新一轮融资，投后估值超千亿元。",
+          "source": "投资界",
+          "date": "2026-03-24",
+          "type": "chip",
+          "tags": [
+            "AI"
+          ],
+          "fetched_at": "2026-03-24T08:01:58.543510+00:00"
         },
         {
           "title": "美国升级对华芯片出口管制，涉及140家中国企业",
           "link": "https://jiqizhixin.com/articles/us-chip-restrictions",
-          "source": "路透社"
+          "summary": "美国商务部宣布将140多家中国半导体企业列入实体清单，扩大对华出口管制范围。",
+          "source": "路透社",
+          "date": "2026-03-24",
+          "type": "chip",
+          "tags": [
+            "AI"
+          ],
+          "fetched_at": "2026-03-24T08:01:58.543524+00:00"
         }
       ]
     }
@@ -100,7 +225,6 @@
     "AI大模型",
     "美联储利率决议",
     "房贷利率",
-    "芯片出口管制",
-    "GPT-4.5"
+    "芯片出口管制"
   ]
 }
