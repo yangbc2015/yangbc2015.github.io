@@ -65,6 +65,18 @@ git commit -m "🤖 Auto-update AI data: $(date +'%Y-%m-%d %H:%M')
 
 🤖 通过服务器自动更新脚本生成" || true
 
+# 先拉取远程更改，避免推送冲突
+log "${YELLOW}🔄 同步远程更改...${NC}"
+if git pull origin main --no-rebase --no-edit >> "$LOG_FILE" 2>&1; then
+    log "${GREEN}✅ 同步成功${NC}"
+else
+    # 如果有冲突，使用本地版本解决
+    log "${YELLOW}⚠️ 检测到冲突，使用本地版本解决...${NC}"
+    git checkout --ours data/*.json >> "$LOG_FILE" 2>&1 || true
+    git add data/*.json >> "$LOG_FILE" 2>&1 || true
+    git commit -m "Resolve merge conflicts, keep local data" >> "$LOG_FILE" 2>&1 || true
+fi
+
 if git push origin main >> "$LOG_FILE" 2>&1; then
     log "${GREEN}✅ 推送成功，GitHub Actions 将自动部署${NC}"
 else
