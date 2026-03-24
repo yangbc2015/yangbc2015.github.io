@@ -1,9 +1,22 @@
 {
-  "last_updated": "2026-03-24T16:00:08.177717+00:00",
-  "count": 18,
-  "history_count": 18,
+  "last_updated": "2026-03-24T17:00:17.764992+00:00",
+  "count": 19,
+  "history_count": 19,
   "retention_days": 30,
   "items": [
+    {
+      "title": "Meet the former Apple designer building a new AI interface at Hark",
+      "link": "https://techcrunch.com/2026/03/24/meet-the-former-apple-designer-building-a-new-ai-interface-at-hark/",
+      "summary": "The company said it would design models, hardware, and interfaces in tandem to deliver a \"seamless end-to-end personal intelligence product.\"",
+      "source": "TechCrunch",
+      "date": "2026-03-25",
+      "type": "product",
+      "tags": [
+        "产品发布",
+        "AI"
+      ],
+      "fetched_at": "2026-03-24T17:00:17.763243+00:00"
+    },
     {
       "title": "Claude 4 发布：Anthropic推出新一代AI模型",
       "link": "https://www.jiqizhixin.com/articles/2026-03-23-1",
@@ -16,7 +29,7 @@
         "Claude",
         "AI"
       ],
-      "fetched_at": "2026-03-24T16:00:06.810844+00:00"
+      "fetched_at": "2026-03-24T17:00:15.870780+00:00"
     },
     {
       "title": "Google Gemini 2.5 Pro开放API访问",
@@ -30,7 +43,7 @@
         "Gemini",
         "AI"
       ],
-      "fetched_at": "2026-03-24T16:00:06.810873+00:00"
+      "fetched_at": "2026-03-24T17:00:15.870814+00:00"
     },
     {
       "title": "OpenAI发布GPT-4.5：更高效的推理架构",
@@ -40,11 +53,11 @@
       "date": "2026-03-24",
       "type": "breakthrough",
       "tags": [
+        "GPT",
         "重大突破",
-        "AI",
-        "GPT"
+        "AI"
       ],
-      "fetched_at": "2026-03-24T16:00:06.810888+00:00"
+      "fetched_at": "2026-03-24T17:00:15.870829+00:00"
     },
     {
       "title": "AI全链路加持！一加15T打造全能小屏，售价4299元起",
@@ -57,7 +70,7 @@
         "行业动态",
         "AI"
       ],
-      "fetched_at": "2026-03-24T16:00:07.061270+00:00"
+      "fetched_at": "2026-03-24T17:00:16.090714+00:00"
     },
     {
       "title": "龙虾爆火之后，AI初创的全球化机会来了吗？｜线下沙龙报名",
@@ -70,7 +83,7 @@
         "行业动态",
         "AI"
       ],
-      "fetched_at": "2026-03-24T16:00:07.061517+00:00"
+      "fetched_at": "2026-03-24T17:00:16.090952+00:00"
     },
     {
       "title": "黄仁勋暴论核弹：AGI已经实现，Ilya错了，程序员有10亿",
@@ -83,7 +96,7 @@
         "行业动态",
         "AI"
       ],
-      "fetched_at": "2026-03-24T16:00:07.061672+00:00"
+      "fetched_at": "2026-03-24T17:00:16.091104+00:00"
     },
     {
       "title": "你的模型真的会”举一反三”吗？RoboChallenge Table30 V2 正式发布，泛化时代开幕",
@@ -93,11 +106,11 @@
       "date": "2026-03-24",
       "type": "breakthrough",
       "tags": [
+        "机器人",
         "重大突破",
-        "AI",
-        "机器人"
+        "AI"
       ],
-      "fetched_at": "2026-03-24T16:00:07.061820+00:00"
+      "fetched_at": "2026-03-24T17:00:16.091244+00:00"
     },
     {
       "title": "LeCun的世界模型单GPU就能跑了",
@@ -110,12 +123,12 @@
         "行业动态",
         "AI"
       ],
-      "fetched_at": "2026-03-24T16:00:07.062070+00:00"
+      "fetched_at": "2026-03-24T17:00:16.091393+00:00"
     },
     {
-      "title": "Mirage raises $75M to continue building models for its AI video editing app Captions",
+      "title": "Mirage raises $75M to continue building models for its AI video-editing app Captions",
       "link": "https://techcrunch.com/2026/03/24/mirage-raises-75m-to-continue-building-models-for-its-ai-video-editing-app-captions/",
-      "summary": "Mirage, the maker of video editing app Captions, has raised $75 million in growth financing from General Catalyst's Customer Value Fund (CVF).",
+      "summary": "Mirage, the maker of video-editing app Captions, has raised $75 million in growth financing from General Catalyst's Customer Value Fund (CVF).",
       "source": "TechCrunch",
       "date": "2026-03-24",
       "type": "product",
@@ -123,7 +136,7 @@
         "产品发布",
         "AI"
       ],
-      "fetched_at": "2026-03-24T16:00:08.176678+00:00"
+      "fetched_at": "2026-03-24T17:00:17.763747+00:00"
     },
     {
       "title": "Agile Robots becomes the latest robotics company to partner with Google DeepMind",
@@ -133,11 +146,11 @@
       "date": "2026-03-24",
       "type": "research",
       "tags": [
-        "AI",
+        "机器人",
         "研究进展",
-        "机器人"
+        "AI"
       ],
-      "fetched_at": "2026-03-24T16:00:08.176949+00:00"
+      "fetched_at": "2026-03-24T17:00:17.764297+00:00"
     },
     {
       "title": "Air Street becomes one of the largest solo VCs in Europe with $232M fund",
