@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-03-25T12:01:36.509104+00:00",
-  "count": 7,
+  "last_updated": "2026-03-25T13:01:09.387205+00:00",
+  "count": 6,
   "items": [
     {
       "title": "MedObvious: Exposing the Medical Moravec's Paradox in VLMs via Clinical Triage",
@@ -15,6 +15,24 @@
         "cs.CV",
         "cs.AI",
         "cs.CL"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "VISion On Request: Enhanced VLLM efficiency with sparse, dynamically selected, vision-language interactions",
+      "authors": "Adrian Bulat, Alberto Baldrati, Ioannis Maniadis Metaxas et al.",
+      "abstract": "Existing approaches for improving the efficiency of Large Vision-Language Models (LVLMs) are largely based on the concept of visual token reduction. This approach, however, creates an information bottleneck that impairs performance, especially on challenging tasks that require fine-grained understan...",
+      "venue": "arXiv",
+      "date": "2026-03-24",
+      "arxiv_id": "2603.23495v1",
+      "url": "https://arxiv.org/abs/2603.23495v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.23495v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG"
       ],
       "type": "nlp",
       "badge": "arxiv",
@@ -39,22 +57,6 @@
       "source": "arXiv"
     },
     {
-      "title": "OccAny: Generalized Unconstrained Urban 3D Occupancy",
-      "authors": "Anh-Quan Cao, Tuan-Hung Vu",
-      "abstract": "Relying on in-domain annotations and precise sensor-rig priors, existing 3D occupancy prediction methods are limited in both scalability and out-of-domain generalization. While recent visual geometry foundation models exhibit strong generalization capabilities, they were mainly designed for general ...",
-      "venue": "arXiv",
-      "date": "2026-03-24",
-      "arxiv_id": "2603.23502v1",
-      "url": "https://arxiv.org/abs/2603.23502v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.23502v1.pdf",
-      "categories": [
-        "cs.CV"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
       "title": "Estimating Flow Velocity and Vehicle Angle-of-Attack from Non-invasive Piezoelectric Structural Measurements Using Deep Learning",
       "authors": "Chandler B. Smith, S. Hales Swift, Andrew Steyer et al.",
       "abstract": "Accurate estimation of aerodynamic state variables such as freestream velocity and angle of attack (AoA) is important for aerodynamic load prediction, flight control, and model validation. This work presents a non-intrusive method for estimating vehicle velocity and AoA from structural vibration mea...",
@@ -67,24 +69,6 @@
         "cs.LG"
       ],
       "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "VISion On Request: Enhanced VLLM efficiency with sparse, dynamically selected, vision-language interactions",
-      "authors": "Adrian Bulat, Alberto Baldrati, Ioannis Maniadis Metaxas et al.",
-      "abstract": "Existing approaches for improving the efficiency of Large Vision-Language Models (LVLMs) are largely based on the concept of visual token reduction. This approach, however, creates an information bottleneck that impairs performance, especially on challenging tasks that require fine-grained understan...",
-      "venue": "arXiv",
-      "date": "2026-03-24",
-      "arxiv_id": "2603.23495v1",
-      "url": "https://arxiv.org/abs/2603.23495v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.23495v1.pdf",
-      "categories": [
-        "cs.CV",
-        "cs.AI",
-        "cs.LG"
-      ],
-      "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
