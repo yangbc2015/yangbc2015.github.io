@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-03-25T17:00:22.256991+00:00",
-  "count": 7,
+  "last_updated": "2026-03-25T18:01:00.252732+00:00",
+  "count": 6,
   "items": [
     {
       "title": "MedObvious: Exposing the Medical Moravec's Paradox in VLMs via Clinical Triage",
@@ -33,24 +33,6 @@
         "cs.CV",
         "cs.AI",
         "cs.LG"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Failure of contextual invariance in gender inference with large language models",
-      "authors": "Sagar Kumar, Ariel Flint, Luca Maria Aiello et al.",
-      "abstract": "Standard evaluation practices assume that large language model (LLM) outputs are stable under contextually equivalent formulations of a task. Here, we test this assumption in the setting of gender inference. Using a controlled pronoun selection task, we introduce minimal, theoretically uninformative...",
-      "venue": "arXiv",
-      "date": "2026-03-24",
-      "arxiv_id": "2603.23485v1",
-      "url": "https://arxiv.org/abs/2603.23485v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.23485v1.pdf",
-      "categories": [
-        "cs.CL",
-        "cs.AI",
-        "cs.CY"
       ],
       "type": "nlp",
       "badge": "arxiv",
