@@ -1,9 +1,64 @@
 {
-  "last_updated": "2026-03-24T23:00:07.557446+00:00",
-  "count": 29,
-  "history_count": 29,
+  "last_updated": "2026-03-25T00:00:07.525651+00:00",
+  "count": 30,
+  "history_count": 30,
   "retention_days": 30,
   "items": [
+    {
+      "title": "Claude 4 发布：Anthropic推出新一代AI模型",
+      "link": "https://www.jiqizhixin.com/articles/2026-03-23-1",
+      "summary": "Anthropic正式发布Claude 4系列模型，包括Claude 4 Opus和Claude 4 Sonnet。新模型在推理能力、代码生成和多模态理解方面均有显著提升。",
+      "source": "机器之心",
+      "date": "2026-03-25",
+      "type": "breakthrough",
+      "tags": [
+        "Claude",
+        "重大突破",
+        "AI"
+      ],
+      "fetched_at": "2026-03-25T00:00:06.223907+00:00"
+    },
+    {
+      "title": "Google Gemini 2.5 Pro开放API访问",
+      "link": "https://www.jiqizhixin.com/articles/2026-03-23-2",
+      "summary": "谷歌宣布Gemini 2.5 Pro模型正式通过API向开发者开放。该模型支持200万token上下文窗口，在复杂推理任务上表现优异。",
+      "source": "机器之心",
+      "date": "2026-03-25",
+      "type": "product",
+      "tags": [
+        "Gemini",
+        "产品发布",
+        "AI"
+      ],
+      "fetched_at": "2026-03-25T00:00:06.223935+00:00"
+    },
+    {
+      "title": "OpenAI发布GPT-4.5：更高效的推理架构",
+      "link": "https://www.jiqizhixin.com/articles/2026-03-23-3",
+      "summary": "OpenAI发布GPT-4.5模型，采用新的稀疏注意力机制，推理效率提升40%，同时保持与GPT-4相当的能力水平。",
+      "source": "机器之心",
+      "date": "2026-03-25",
+      "type": "breakthrough",
+      "tags": [
+        "GPT",
+        "重大突破",
+        "AI"
+      ],
+      "fetched_at": "2026-03-25T00:00:06.223950+00:00"
+    },
+    {
+      "title": "OpenAI’s Sora was the creepiest app on your phone — now it’s shutting down",
+      "link": "https://techcrunch.com/2026/03/24/openais-sora-was-the-creepiest-app-on-your-phone-now-its-shutting-down/",
+      "summary": "Though the underlying Sora 2 video- and audio-generation model is scarily impressive, there was not sustained interest in an AI-only social feed.",
+      "source": "TechCrunch",
+      "date": "2026-03-25",
+      "type": "product",
+      "tags": [
+        "产品发布",
+        "AI"
+      ],
+      "fetched_at": "2026-03-25T00:00:07.521451+00:00"
+    },
     {
       "title": "Kentucky woman rejects $26M offer to turn her farm into a data center",
       "link": "https://techcrunch.com/2026/03/24/kentucky-woman-rejects-26-million-offer-to-turn-her-farm-into-a-data-center/",
@@ -12,10 +67,10 @@
       "date": "2026-03-25",
       "type": "industry",
       "tags": [
-        "AI",
-        "行业动态"
+        "行业动态",
+        "AI"
       ],
-      "fetched_at": "2026-03-24T23:00:07.555352+00:00"
+      "fetched_at": "2026-03-25T00:00:07.522569+00:00"
     },
     {
       "title": "Anthropic hands Claude Code more control, but keeps it on a leash",
@@ -25,13 +80,13 @@
       "date": "2026-03-25",
       "type": "product",
       "tags": [
-        "AI",
-        "agent",
-        "代码",
         "Claude",
+        "代码",
+        "agent",
+        "AI",
         "产品发布"
       ],
-      "fetched_at": "2026-03-24T23:00:07.555636+00:00"
+      "fetched_at": "2026-03-25T00:00:07.523509+00:00"
     },
     {
       "title": "Spotify tests new tool to stop AI slop from being attributed to real artists",
@@ -153,48 +208,6 @@
       "fetched_at": "2026-03-24T18:00:07.054042+00:00"
     },
     {
-      "title": "Claude 4 发布：Anthropic推出新一代AI模型",
-      "link": "https://www.jiqizhixin.com/articles/2026-03-23-1",
-      "summary": "Anthropic正式发布Claude 4系列模型，包括Claude 4 Opus和Claude 4 Sonnet。新模型在推理能力、代码生成和多模态理解方面均有显著提升。",
-      "source": "机器之心",
-      "date": "2026-03-24",
-      "type": "breakthrough",
-      "tags": [
-        "Claude",
-        "AI",
-        "重大突破"
-      ],
-      "fetched_at": "2026-03-24T23:00:06.236649+00:00"
-    },
-    {
-      "title": "Google Gemini 2.5 Pro开放API访问",
-      "link": "https://www.jiqizhixin.com/articles/2026-03-23-2",
-      "summary": "谷歌宣布Gemini 2.5 Pro模型正式通过API向开发者开放。该模型支持200万token上下文窗口，在复杂推理任务上表现优异。",
-      "source": "机器之心",
-      "date": "2026-03-24",
-      "type": "product",
-      "tags": [
-        "产品发布",
-        "Gemini",
-        "AI"
-      ],
-      "fetched_at": "2026-03-24T23:00:06.236683+00:00"
-    },
-    {
-      "title": "OpenAI发布GPT-4.5：更高效的推理架构",
-      "link": "https://www.jiqizhixin.com/articles/2026-03-23-3",
-      "summary": "OpenAI发布GPT-4.5模型，采用新的稀疏注意力机制，推理效率提升40%，同时保持与GPT-4相当的能力水平。",
-      "source": "机器之心",
-      "date": "2026-03-24",
-      "type": "breakthrough",
-      "tags": [
-        "重大突破",
-        "AI",
-        "GPT"
-      ],
-      "fetched_at": "2026-03-24T23:00:06.236698+00:00"
-    },
-    {
       "title": "AI全链路加持！一加15T打造全能小屏，售价4299元起",
       "link": "https://www.qbitai.com/2026/03/391775.html",
       "summary": "2025 年实现44%的销量增长",
@@ -202,10 +215,10 @@
       "date": "2026-03-24",
       "type": "industry",
       "tags": [
-        "AI",
-        "行业动态"
+        "行业动态",
+        "AI"
       ],
-      "fetched_at": "2026-03-24T23:00:06.732747+00:00"
+      "fetched_at": "2026-03-25T00:00:06.657474+00:00"
     },
     {
       "title": "龙虾爆火之后，AI初创的全球化机会来了吗？｜线下沙龙报名",
@@ -215,10 +228,10 @@
       "date": "2026-03-24",
       "type": "industry",
       "tags": [
-        "AI",
-        "行业动态"
+        "行业动态",
+        "AI"
       ],
-      "fetched_at": "2026-03-24T23:00:06.734452+00:00"
+      "fetched_at": "2026-03-25T00:00:06.657922+00:00"
     },
     {
       "title": "黄仁勋暴论核弹：AGI已经实现，Ilya错了，程序员有10亿",
@@ -228,10 +241,10 @@
       "date": "2026-03-24",
       "type": "industry",
       "tags": [
-        "AI",
-        "行业动态"
+        "行业动态",
+        "AI"
       ],
-      "fetched_at": "2026-03-24T23:00:06.735665+00:00"
+      "fetched_at": "2026-03-25T00:00:06.658108+00:00"
     },
     {
       "title": "你的模型真的会”举一反三”吗？RoboChallenge Table30 V2 正式发布，泛化时代开幕",
@@ -241,11 +254,11 @@
       "date": "2026-03-24",
       "type": "breakthrough",
       "tags": [
+        "重大突破",
         "机器人",
-        "AI",
-        "重大突破"
+        "AI"
       ],
-      "fetched_at": "2026-03-24T23:00:06.736590+00:00"
+      "fetched_at": "2026-03-25T00:00:06.658327+00:00"
     },
     {
       "title": "LeCun的世界模型单GPU就能跑了",
@@ -255,10 +268,10 @@
       "date": "2026-03-24",
       "type": "industry",
       "tags": [
-        "AI",
-        "行业动态"
+        "行业动态",
+        "AI"
       ],
-      "fetched_at": "2026-03-24T23:00:06.737975+00:00"
+      "fetched_at": "2026-03-25T00:00:06.658509+00:00"
     },
     {
       "title": "Mirage raises $75M to continue building models for its AI video-editing app Captions",
