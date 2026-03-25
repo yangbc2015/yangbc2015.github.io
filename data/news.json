@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-03-25T07:00:08.264794+00:00",
-  "count": 33,
-  "history_count": 33,
+  "last_updated": "2026-03-25T08:00:06.911802+00:00",
+  "count": 37,
+  "history_count": 37,
   "retention_days": 30,
   "items": [
     {
@@ -12,11 +12,11 @@
       "date": "2026-03-25",
       "type": "breakthrough",
       "tags": [
-        "AI",
         "Claude",
+        "AI",
         "重大突破"
       ],
-      "fetched_at": "2026-03-25T07:00:07.139622+00:00"
+      "fetched_at": "2026-03-25T08:00:05.918691+00:00"
     },
     {
       "title": "Google Gemini 2.5 Pro开放API访问",
@@ -26,11 +26,11 @@
       "date": "2026-03-25",
       "type": "product",
       "tags": [
+        "Gemini",
         "AI",
-        "产品发布",
-        "Gemini"
+        "产品发布"
       ],
-      "fetched_at": "2026-03-25T07:00:07.139649+00:00"
+      "fetched_at": "2026-03-25T08:00:05.918775+00:00"
     },
     {
       "title": "OpenAI发布GPT-4.5：更高效的推理架构",
@@ -40,11 +40,105 @@
       "date": "2026-03-25",
       "type": "breakthrough",
       "tags": [
-        "AI",
         "重大突破",
+        "AI",
         "GPT"
       ],
-      "fetched_at": "2026-03-25T07:00:07.139664+00:00"
+      "fetched_at": "2026-03-25T08:00:05.918803+00:00"
+    },
+    {
+      "title": "DeepSeek急招Agent方向！一口气放17个岗位，重度Vibe Coding优先",
+      "link": "https://www.qbitai.com/2026/03/392024.html",
+      "summary": "明显从”基础模型研究”向”Agent产品化”倾斜",
+      "source": "量子位",
+      "date": "2026-03-25",
+      "type": "product",
+      "tags": [
+        "agent",
+        "DeepSeek",
+        "代码",
+        "AI",
+        "产品发布"
+      ],
+      "fetched_at": "2026-03-25T08:00:06.137335+00:00"
+    },
+    {
+      "title": "中国AI音乐，悄悄把全球第一拿走了",
+      "link": "https://www.qbitai.com/2026/03/391839.html",
+      "summary": "还是人声、器乐双料第一",
+      "source": "量子位",
+      "date": "2026-03-25",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "行业动态"
+      ],
+      "fetched_at": "2026-03-25T08:00:06.137565+00:00"
+    },
+    {
+      "title": "WorkBuddy杀疯了？一群AI专家帮我打工，我在微信里当赛博虾工头！",
+      "link": "https://www.qbitai.com/2026/03/391894.html",
+      "summary": "N个龙虾专家组团给我做自媒体了！",
+      "source": "量子位",
+      "date": "2026-03-25",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "行业动态"
+      ],
+      "fetched_at": "2026-03-25T08:00:06.137724+00:00"
+    },
+    {
+      "title": "首个全品类旅行skill来了！飞猪“flyai”上线ClawHub、GitHub",
+      "link": "https://www.qbitai.com/2026/03/391890.html",
+      "summary": "“flyai”还正陆续接入华为、小米、OPPO、荣耀等手机厂商",
+      "source": "量子位",
+      "date": "2026-03-25",
+      "type": "product",
+      "tags": [
+        "AI",
+        "产品发布"
+      ],
+      "fetched_at": "2026-03-25T08:00:06.137899+00:00"
+    },
+    {
+      "title": "With $3.5B in fresh capital, Kleiner Perkins is going all in on AI",
+      "link": "https://techcrunch.com/2026/03/24/with-3-5b-in-fresh-capital-kleiner-perkins-is-going-all-in-on-ai/",
+      "summary": "The fundraise includes $1 billion for investing in early-stage startups, and $2.5 billion for late-stage growth businesses.",
+      "source": "TechCrunch",
+      "date": "2026-03-25",
+      "type": "product",
+      "tags": [
+        "AI",
+        "产品发布"
+      ],
+      "fetched_at": "2026-03-25T08:00:06.910236+00:00"
+    },
+    {
+      "title": "OpenAI’s Sora was the creepiest app on your phone — now it’s shutting down",
+      "link": "https://techcrunch.com/2026/03/24/openais-sora-was-the-creepiest-app-on-your-phone-now-its-shutting-down/",
+      "summary": "Though the underlying Sora 2 video- and audio-generation model is scarily impressive, there was not sustained interest in an AI-only social feed.",
+      "source": "TechCrunch",
+      "date": "2026-03-25",
+      "type": "product",
+      "tags": [
+        "AI",
+        "产品发布"
+      ],
+      "fetched_at": "2026-03-25T08:00:06.910414+00:00"
+    },
+    {
+      "title": "Kentucky woman rejects $26M offer to turn her farm into a data center",
+      "link": "https://techcrunch.com/2026/03/24/kentucky-woman-rejects-26-million-offer-to-turn-her-farm-into-a-data-center/",
+      "summary": "A \"major artificial intelligence company\" reportedly offered a Kentucky family $26 million to build a data center on their farm.",
+      "source": "TechCrunch",
+      "date": "2026-03-25",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "行业动态"
+      ],
+      "fetched_at": "2026-03-25T08:00:06.910939+00:00"
     },
     {
       "title": "阿里云JVS Claw 全面开放 新增语音输入、skill开关等实用功能",
@@ -73,45 +167,6 @@
         "多模态"
       ],
       "fetched_at": "2026-03-25T07:00:07.414100+00:00"
-    },
-    {
-      "title": "With $3.5B in fresh capital, Kleiner Perkins is going all in on AI",
-      "link": "https://techcrunch.com/2026/03/24/with-3-5b-in-fresh-capital-kleiner-perkins-is-going-all-in-on-ai/",
-      "summary": "The fundraise includes $1 billion for investing in early-stage startups, and $2.5 billion for late-stage growth businesses.",
-      "source": "TechCrunch",
-      "date": "2026-03-25",
-      "type": "product",
-      "tags": [
-        "AI",
-        "产品发布"
-      ],
-      "fetched_at": "2026-03-25T07:00:08.261752+00:00"
-    },
-    {
-      "title": "OpenAI’s Sora was the creepiest app on your phone — now it’s shutting down",
-      "link": "https://techcrunch.com/2026/03/24/openais-sora-was-the-creepiest-app-on-your-phone-now-its-shutting-down/",
-      "summary": "Though the underlying Sora 2 video- and audio-generation model is scarily impressive, there was not sustained interest in an AI-only social feed.",
-      "source": "TechCrunch",
-      "date": "2026-03-25",
-      "type": "product",
-      "tags": [
-        "AI",
-        "产品发布"
-      ],
-      "fetched_at": "2026-03-25T07:00:08.262279+00:00"
-    },
-    {
-      "title": "Kentucky woman rejects $26M offer to turn her farm into a data center",
-      "link": "https://techcrunch.com/2026/03/24/kentucky-woman-rejects-26-million-offer-to-turn-her-farm-into-a-data-center/",
-      "summary": "A \"major artificial intelligence company\" reportedly offered a Kentucky family $26 million to build a data center on their farm.",
-      "source": "TechCrunch",
-      "date": "2026-03-25",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "行业动态"
-      ],
-      "fetched_at": "2026-03-25T07:00:08.263141+00:00"
     },
     {
       "title": "Anthropic hands Claude Code more control, but keeps it on a leash",
