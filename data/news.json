@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-25T00:00:07.525651+00:00",
+  "last_updated": "2026-03-25T00:11:14.575509+00:00",
   "count": 30,
   "history_count": 30,
   "retention_days": 30,
@@ -12,11 +12,11 @@
       "date": "2026-03-25",
       "type": "breakthrough",
       "tags": [
+        "AI",
         "Claude",
-        "重大突破",
-        "AI"
+        "重大突破"
       ],
-      "fetched_at": "2026-03-25T00:00:06.223907+00:00"
+      "fetched_at": "2026-03-25T00:11:12.842729+00:00"
     },
     {
       "title": "Google Gemini 2.5 Pro开放API访问",
@@ -26,11 +26,11 @@
       "date": "2026-03-25",
       "type": "product",
       "tags": [
-        "Gemini",
+        "AI",
         "产品发布",
-        "AI"
+        "Gemini"
       ],
-      "fetched_at": "2026-03-25T00:00:06.223935+00:00"
+      "fetched_at": "2026-03-25T00:11:12.842753+00:00"
     },
     {
       "title": "OpenAI发布GPT-4.5：更高效的推理架构",
@@ -40,11 +40,11 @@
       "date": "2026-03-25",
       "type": "breakthrough",
       "tags": [
-        "GPT",
+        "AI",
         "重大突破",
-        "AI"
+        "GPT"
       ],
-      "fetched_at": "2026-03-25T00:00:06.223950+00:00"
+      "fetched_at": "2026-03-25T00:11:12.842767+00:00"
     },
     {
       "title": "OpenAI’s Sora was the creepiest app on your phone — now it’s shutting down",
@@ -54,10 +54,10 @@
       "date": "2026-03-25",
       "type": "product",
       "tags": [
-        "产品发布",
-        "AI"
+        "AI",
+        "产品发布"
       ],
-      "fetched_at": "2026-03-25T00:00:07.521451+00:00"
+      "fetched_at": "2026-03-25T00:11:14.574831+00:00"
     },
     {
       "title": "Kentucky woman rejects $26M offer to turn her farm into a data center",
@@ -67,10 +67,10 @@
       "date": "2026-03-25",
       "type": "industry",
       "tags": [
-        "行业动态",
-        "AI"
+        "AI",
+        "行业动态"
       ],
-      "fetched_at": "2026-03-25T00:00:07.522569+00:00"
+      "fetched_at": "2026-03-25T00:11:14.574981+00:00"
     },
     {
       "title": "Anthropic hands Claude Code more control, but keeps it on a leash",
@@ -81,12 +81,12 @@
       "type": "product",
       "tags": [
         "Claude",
-        "代码",
         "agent",
         "AI",
+        "代码",
         "产品发布"
       ],
-      "fetched_at": "2026-03-25T00:00:07.523509+00:00"
+      "fetched_at": "2026-03-25T00:11:14.575141+00:00"
     },
     {
       "title": "Spotify tests new tool to stop AI slop from being attributed to real artists",
@@ -215,10 +215,10 @@
       "date": "2026-03-24",
       "type": "industry",
       "tags": [
-        "行业动态",
-        "AI"
+        "AI",
+        "行业动态"
       ],
-      "fetched_at": "2026-03-25T00:00:06.657474+00:00"
+      "fetched_at": "2026-03-25T00:11:14.465738+00:00"
     },
     {
       "title": "龙虾爆火之后，AI初创的全球化机会来了吗？｜线下沙龙报名",
@@ -228,10 +228,10 @@
       "date": "2026-03-24",
       "type": "industry",
       "tags": [
-        "行业动态",
-        "AI"
+        "AI",
+        "行业动态"
       ],
-      "fetched_at": "2026-03-25T00:00:06.657922+00:00"
+      "fetched_at": "2026-03-25T00:11:14.465893+00:00"
     },
     {
       "title": "黄仁勋暴论核弹：AGI已经实现，Ilya错了，程序员有10亿",
@@ -241,10 +241,10 @@
       "date": "2026-03-24",
       "type": "industry",
       "tags": [
-        "行业动态",
-        "AI"
+        "AI",
+        "行业动态"
       ],
-      "fetched_at": "2026-03-25T00:00:06.658108+00:00"
+      "fetched_at": "2026-03-25T00:11:14.466047+00:00"
     },
     {
       "title": "你的模型真的会”举一反三”吗？RoboChallenge Table30 V2 正式发布，泛化时代开幕",
@@ -254,11 +254,11 @@
       "date": "2026-03-24",
       "type": "breakthrough",
       "tags": [
+        "AI",
         "重大突破",
-        "机器人",
-        "AI"
+        "机器人"
       ],
-      "fetched_at": "2026-03-25T00:00:06.658327+00:00"
+      "fetched_at": "2026-03-25T00:11:14.466179+00:00"
     },
     {
       "title": "LeCun的世界模型单GPU就能跑了",
@@ -268,10 +268,10 @@
       "date": "2026-03-24",
       "type": "industry",
       "tags": [
-        "行业动态",
-        "AI"
+        "AI",
+        "行业动态"
       ],
-      "fetched_at": "2026-03-25T00:00:06.658509+00:00"
+      "fetched_at": "2026-03-25T00:11:14.466324+00:00"
     },
     {
       "title": "Mirage raises $75M to continue building models for its AI video-editing app Captions",
