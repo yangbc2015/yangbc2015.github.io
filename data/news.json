@@ -80,8 +80,8 @@
       "date": "2026-03-25",
       "type": "industry",
       "tags": [
-        "行业动态",
-        "AI"
+        "AI",
+        "行业动态"
       ],
       "fetched_at": "2026-03-25T01:00:07.757136+00:00"
     },
@@ -94,12 +94,12 @@
       "type": "product",
       "tags": [
         "Claude",
-        "代码",
         "agent",
         "AI",
+        "代码",
         "产品发布"
       ],
-      "fetched_at": "2026-03-25T00:00:07.523509+00:00"
+      "fetched_at": "2026-03-25T00:11:14.575141+00:00"
     },
     {
       "title": "Spotify tests new tool to stop AI slop from being attributed to real artists",
@@ -228,8 +228,8 @@
       "date": "2026-03-24",
       "type": "industry",
       "tags": [
-        "行业动态",
-        "AI"
+        "AI",
+        "行业动态"
       ],
       "fetched_at": "2026-03-25T01:00:06.939745+00:00"
     },
@@ -241,8 +241,8 @@
       "date": "2026-03-24",
       "type": "industry",
       "tags": [
-        "行业动态",
-        "AI"
+        "AI",
+        "行业动态"
       ],
       "fetched_at": "2026-03-25T01:00:06.939957+00:00"
     },
@@ -254,8 +254,8 @@
       "date": "2026-03-24",
       "type": "industry",
       "tags": [
-        "行业动态",
-        "AI"
+        "AI",
+        "行业动态"
       ],
       "fetched_at": "2026-03-25T01:00:06.940420+00:00"
     },
@@ -281,8 +281,8 @@
       "date": "2026-03-24",
       "type": "industry",
       "tags": [
-        "行业动态",
-        "AI"
+        "AI",
+        "行业动态"
       ],
       "fetched_at": "2026-03-25T01:00:06.941040+00:00"
     },
