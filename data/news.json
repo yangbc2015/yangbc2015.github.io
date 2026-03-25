@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-25T02:00:06.830955+00:00",
+  "last_updated": "2026-03-25T03:00:07.769972+00:00",
   "count": 32,
   "history_count": 32,
   "retention_days": 30,
@@ -12,11 +12,11 @@
       "date": "2026-03-25",
       "type": "breakthrough",
       "tags": [
+        "Claude",
         "重大突破",
-        "AI",
-        "Claude"
+        "AI"
       ],
-      "fetched_at": "2026-03-25T02:00:05.713700+00:00"
+      "fetched_at": "2026-03-25T03:00:06.621907+00:00"
     },
     {
       "title": "Google Gemini 2.5 Pro开放API访问",
@@ -30,7 +30,7 @@
         "Gemini",
         "AI"
       ],
-      "fetched_at": "2026-03-25T02:00:05.713872+00:00"
+      "fetched_at": "2026-03-25T03:00:06.621937+00:00"
     },
     {
       "title": "OpenAI发布GPT-4.5：更高效的推理架构",
@@ -40,11 +40,11 @@
       "date": "2026-03-25",
       "type": "breakthrough",
       "tags": [
+        "GPT",
         "重大突破",
-        "AI",
-        "GPT"
+        "AI"
       ],
-      "fetched_at": "2026-03-25T02:00:05.713913+00:00"
+      "fetched_at": "2026-03-25T03:00:06.621951+00:00"
     },
     {
       "title": "OpenAI关停Sora！25个月从封神到退场",
@@ -58,7 +58,7 @@
         "行业动态",
         "AI"
       ],
-      "fetched_at": "2026-03-25T02:00:06.010707+00:00"
+      "fetched_at": "2026-03-25T03:00:06.921105+00:00"
     },
     {
       "title": "With $3.5B in fresh capital, Kleiner Perkins is going all in on AI",
@@ -71,7 +71,7 @@
         "产品发布",
         "AI"
       ],
-      "fetched_at": "2026-03-25T02:00:06.828604+00:00"
+      "fetched_at": "2026-03-25T03:00:07.768538+00:00"
     },
     {
       "title": "OpenAI’s Sora was the creepiest app on your phone — now it’s shutting down",
@@ -84,7 +84,7 @@
         "产品发布",
         "AI"
       ],
-      "fetched_at": "2026-03-25T02:00:06.829231+00:00"
+      "fetched_at": "2026-03-25T03:00:07.768724+00:00"
     },
     {
       "title": "Kentucky woman rejects $26M offer to turn her farm into a data center",
@@ -97,7 +97,7 @@
         "行业动态",
         "AI"
       ],
-      "fetched_at": "2026-03-25T02:00:06.829685+00:00"
+      "fetched_at": "2026-03-25T03:00:07.768930+00:00"
     },
     {
       "title": "Anthropic hands Claude Code more control, but keeps it on a leash",
@@ -245,7 +245,7 @@
         "行业动态",
         "AI"
       ],
-      "fetched_at": "2026-03-25T02:00:06.010961+00:00"
+      "fetched_at": "2026-03-25T03:00:06.921299+00:00"
     },
     {
       "title": "龙虾爆火之后，AI初创的全球化机会来了吗？｜线下沙龙报名",
@@ -258,7 +258,7 @@
         "行业动态",
         "AI"
       ],
-      "fetched_at": "2026-03-25T02:00:06.011115+00:00"
+      "fetched_at": "2026-03-25T03:00:06.921446+00:00"
     },
     {
       "title": "黄仁勋暴论核弹：AGI已经实现，Ilya错了，程序员有10亿",
@@ -271,7 +271,7 @@
         "行业动态",
         "AI"
       ],
-      "fetched_at": "2026-03-25T02:00:06.011268+00:00"
+      "fetched_at": "2026-03-25T03:00:06.921629+00:00"
     },
     {
       "title": "你的模型真的会”举一反三”吗？RoboChallenge Table30 V2 正式发布，泛化时代开幕",
@@ -281,11 +281,11 @@
       "date": "2026-03-24",
       "type": "breakthrough",
       "tags": [
-        "机器人",
         "重大突破",
+        "机器人",
         "AI"
       ],
-      "fetched_at": "2026-03-25T02:00:06.011407+00:00"
+      "fetched_at": "2026-03-25T03:00:06.921932+00:00"
     },
     {
       "title": "LeCun的世界模型单GPU就能跑了",

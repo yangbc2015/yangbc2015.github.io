@@ -1,0 +1,226 @@
+{
+  "last_updated": "2026-03-25T03:00:41.654124+00:00",
+  "count": 16,
+  "items": [
+    {
+      "title": "英伟达发布GR00T项目：为人形机器人提供基础模型",
+      "summary": "英伟达在GTC大会上发布GR00T（Generalist Robot 00 Technology）项目，旨在为通用人形机器人提供基础AI模型支持。",
+      "url": "https://www.google.com/search?q=英伟达+GR00T+人形机器人",
+      "date": "2026-03-25",
+      "source": "英伟达",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "具身智能",
+        "英伟达",
+        "人形机器人"
+      ]
+    },
+    {
+      "title": "微软投资20亿美元建设机器人研发实验室",
+      "summary": "微软宣布将投资20亿美元在美国建立新的机器人与AI研发实验室，专注于具身智能和工业机器人技术研发。",
+      "url": "https://www.google.com/search?q=微软+机器人+投资",
+      "date": "2026-03-25",
+      "source": "微软",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "具身智能",
+        "微软",
+        "投资"
+      ]
+    },
+    {
+      "title": "特斯拉Optimus最新演示：自主行走能力大幅提升",
+      "summary": "特斯拉发布Optimus人形机器人最新视频，展示了更自然的行走姿态和更强的环境适应能力。马斯克表示2026年将开始小规模量产。",
+      "url": "https://www.google.com/search?q=特斯拉Optimus最新演示：自主行走能力大幅提升",
+      "date": "2026-03-25",
+      "source": "特斯拉",
+      "category": "人形机器人",
+      "type": "news",
+      "tags": [
+        "人形机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "Figure AI发布新一代人形机器人Figure 02",
+      "summary": "Figure AI发布Figure 02人形机器人，采用全新的关节设计和更强大的AI系统，目标应用于仓储物流和零售场景。",
+      "url": "https://www.google.com/search?q=Figure+AI发布新一代人形机器人Figure+02",
+      "date": "2026-03-25",
+      "source": "Figure AI",
+      "category": "人形机器人",
+      "type": "news",
+      "tags": [
+        "人形机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "波士顿动力Atlas机器人展示新的体操动作",
+      "summary": "波士顿动力发布视频，展示Atlas人形机器人完成复杂的体操动作，包括后空翻和空中转体，展示了卓越的运动控制能力。",
+      "url": "https://www.google.com/search?q=波士顿动力Atlas机器人展示新的体操动作",
+      "date": "2026-03-25",
+      "source": "波士顿动力",
+      "category": "人形机器人",
+      "type": "news",
+      "tags": [
+        "人形机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "Agility Robotics Digit机器人开始在工厂部署",
+      "summary": "Agility Robotics宣布Digit人形机器人开始在亚马逊仓库进行实际作业测试，主要执行搬运和分拣任务。",
+      "url": "https://www.google.com/search?q=Agility+Robotics+Digit机器人开始在工厂部署",
+      "date": "2026-03-25",
+      "source": "Agility Robotics",
+      "category": "人形机器人",
+      "type": "news",
+      "tags": [
+        "人形机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "中国优必选Walker机器人进入汽车工厂",
+      "summary": "优必选科技与多家汽车制造商达成合作，Walker系列人形机器人将进入汽车生产线，执行质检和装配辅助任务。",
+      "url": "https://www.google.com/search?q=中国优必选Walker机器人进入汽车工厂",
+      "date": "2026-03-25",
+      "source": "优必选",
+      "category": "人形机器人",
+      "type": "news",
+      "tags": [
+        "人形机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "ABB推出新一代协作机器人YuMi 2.0",
+      "summary": "ABB发布新一代双臂协作机器人YuMi 2.0，负载能力提升50%，并集成AI视觉系统，可实现更精准的抓取和装配。",
+      "url": "https://www.google.com/search?q=ABB推出新一代协作机器人YuMi+2.0",
+      "date": "2026-03-25",
+      "source": "ABB",
+      "category": "工业机器人",
+      "type": "news",
+      "tags": [
+        "工业机器人",
+        "制造业"
+      ]
+    },
+    {
+      "title": "发那科工业机器人产量突破100万台",
+      "summary": "发那科宣布全球工业机器人累计产量突破100万台，巩固其作为全球最大工业机器人制造商的地位。",
+      "url": "https://www.google.com/search?q=发那科工业机器人产量突破100万台",
+      "date": "2026-03-25",
+      "source": "发那科",
+      "category": "工业机器人",
+      "type": "news",
+      "tags": [
+        "工业机器人",
+        "制造业"
+      ]
+    },
+    {
+      "title": "库卡机器人与英伟达合作集成AI加速",
+      "summary": "库卡宣布与英伟达达成合作，将在新一代工业机器人中集成Jetson平台，实现边缘AI计算能力。",
+      "url": "https://www.google.com/search?q=库卡机器人与英伟达合作集成AI加速",
+      "date": "2026-03-25",
+      "source": "库卡",
+      "category": "工业机器人",
+      "type": "news",
+      "tags": [
+        "工业机器人",
+        "制造业"
+      ]
+    },
+    {
+      "title": "国产工业机器人市场份额突破50%",
+      "summary": "数据显示，2026年第一季度国产工业机器人市场占有率达到52%，创历史新高。埃斯顿、汇川技术等国产品牌表现亮眼。",
+      "url": "https://www.google.com/search?q=国产工业机器人市场份额突破50%",
+      "date": "2026-03-25",
+      "source": "行业数据",
+      "category": "工业机器人",
+      "type": "news",
+      "tags": [
+        "工业机器人",
+        "制造业"
+      ]
+    },
+    {
+      "title": "VTAM: Video-Tactile-Action Models for Complex Physical Interaction Beyond VLAs",
+      "summary": "Video-Action Models (VAMs) have emerged as a promising framework for embodied intelligence, learning implicit world dynamics from raw video streams to produce temporally consistent action predictions....",
+      "url": "https://arxiv.org/abs/2603.23481v1",
+      "date": "2026-03-24",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2603.23481v1",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Planning over MAPF Agent Dependencies via Multi-Dependency PIBT",
+      "summary": "Modern Multi-Agent Path Finding (MAPF) algorithms must plan for hundreds to thousands of agents in congested environments within a second, requiring highly efficient algorithms. Priority Inheritance w...",
+      "url": "https://arxiv.org/abs/2603.23405v1",
+      "date": "2026-03-24",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2603.23405v1",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Rectify, Don't Regret: Avoiding Pitfalls of Differentiable Simulation in Trajectory Prediction",
+      "summary": "Current open-loop trajectory models struggle in real-world autonomous driving because minor initial deviations often cascade into compounding errors, pushing the agent into out-of-distribution states....",
+      "url": "https://arxiv.org/abs/2603.23393v1",
+      "date": "2026-03-24",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2603.23393v1",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "SIMART: Decomposing Monolithic Meshes into Sim-ready Articulated Assets via MLLM",
+      "summary": "High-quality articulated 3D assets are indispensable for embodied AI and physical simulation, yet 3D generation still focuses on static meshes, leaving a gap in \"sim-ready\" interactive objects. Most r...",
+      "url": "https://arxiv.org/abs/2603.23386v1",
+      "date": "2026-03-24",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2603.23386v1",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "ABot-PhysWorld: Interactive World Foundation Model for Robotic Manipulation with Physics Alignment",
+      "summary": "Video-based world models offer a powerful paradigm for embodied simulation and planning, yet state-of-the-art models often generate physically implausible manipulations - such as object penetration an...",
+      "url": "https://arxiv.org/abs/2603.23376v1",
+      "date": "2026-03-24",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2603.23376v1",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    }
+  ]
+}
