@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-03-25T03:00:39.549743+00:00",
-  "count": 11,
+  "last_updated": "2026-03-25T03:27:46.864464+00:00",
+  "count": 10,
   "items": [
     {
       "title": "OpenAI完成新一轮融资，估值达1500亿美元",
@@ -107,19 +107,6 @@
       "date": "2026-03-25",
       "source": "彭博",
       "category": "股市动态",
-      "type": "stock",
-      "tags": [
-        "科技股",
-        "股市"
-      ]
-    },
-    {
-      "title": "OpenAI完成新一轮融资，估值达1500亿美元",
-      "summary": "OpenAI完成由软银领投的新一轮融资，本轮融资额超过100亿美元。资金将用于AI研发和算力扩张。",
-      "url": "https://www.google.com/search?q=OpenAI完成新一轮融资，估值达1500亿美元",
-      "date": "2026-03-25",
-      "source": "华尔街日报",
-      "category": "AI投资",
       "type": "stock",
       "tags": [
         "科技股",
