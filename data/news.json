@@ -1,9 +1,36 @@
 {
-  "last_updated": "2026-03-25T20:00:07.528375+00:00",
-  "count": 48,
-  "history_count": 48,
+  "last_updated": "2026-03-25T21:00:06.628547+00:00",
+  "count": 50,
+  "history_count": 50,
   "retention_days": 30,
   "items": [
+    {
+      "title": "Google unveils TurboQuant, a new AI memory compression algorithm — and yes, the internet is calling it ‘Pied Piper’",
+      "link": "https://techcrunch.com/2026/03/25/google-turboquant-ai-memory-compression-silicon-valley-pied-piper/",
+      "summary": "Google’s TurboQuant has the internet joking about Pied Piper from HBO's \"Silicon Valley.\" The compression algorithm promises to shrink AI’s “working memory” by up to 6x, but it’s still just a lab experiment for now.",
+      "source": "TechCrunch",
+      "date": "2026-03-26",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "行业动态"
+      ],
+      "fetched_at": "2026-03-25T21:00:06.627047+00:00"
+    },
+    {
+      "title": "Melania Trump wants a robot to homeschool your child",
+      "link": "https://techcrunch.com/2026/03/25/melania-trump-wants-a-robot-to-homeschool-your-child/",
+      "summary": "The first lady sees AI and robotics playing a prominent role in the future of American education.",
+      "source": "TechCrunch",
+      "date": "2026-03-26",
+      "type": "industry",
+      "tags": [
+        "机器人",
+        "AI",
+        "行业动态"
+      ],
+      "fetched_at": "2026-03-25T21:00:06.627348+00:00"
+    },
     {
       "title": "Bernie Sanders and AOC propose a ban on data center construction",
       "link": "https://techcrunch.com/2026/03/25/bernie-sanders-and-aoc-propose-a-ban-on-data-center-construction/",
@@ -15,7 +42,7 @@
         "AI",
         "行业动态"
       ],
-      "fetched_at": "2026-03-25T20:00:07.526536+00:00"
+      "fetched_at": "2026-03-25T21:00:06.627687+00:00"
     },
     {
       "title": "Google launches Lyria 3 Pro music generation model",
@@ -56,7 +83,7 @@
         "Claude",
         "重大突破"
       ],
-      "fetched_at": "2026-03-25T20:00:06.080136+00:00"
+      "fetched_at": "2026-03-25T21:00:05.572872+00:00"
     },
     {
       "title": "Google Gemini 2.5 Pro开放API访问",
@@ -67,10 +94,10 @@
       "type": "product",
       "tags": [
         "AI",
-        "产品发布",
-        "Gemini"
+        "Gemini",
+        "产品发布"
       ],
-      "fetched_at": "2026-03-25T20:00:06.080165+00:00"
+      "fetched_at": "2026-03-25T21:00:05.572901+00:00"
     },
     {
       "title": "OpenAI发布GPT-4.5：更高效的推理架构",
@@ -80,11 +107,11 @@
       "date": "2026-03-25",
       "type": "breakthrough",
       "tags": [
-        "AI",
         "GPT",
+        "AI",
         "重大突破"
       ],
-      "fetched_at": "2026-03-25T20:00:06.080181+00:00"
+      "fetched_at": "2026-03-25T21:00:05.572917+00:00"
     },
     {
       "title": "第一批“首席龙虾官”，月薪6万",
@@ -97,7 +124,7 @@
         "AI",
         "行业动态"
       ],
-      "fetched_at": "2026-03-25T20:00:06.542836+00:00"
+      "fetched_at": "2026-03-25T21:00:05.807883+00:00"
     },
     {
       "title": "睿尔曼“茶艺机器人”亮相2026中关村论坛",
@@ -107,11 +134,11 @@
       "date": "2026-03-25",
       "type": "industry",
       "tags": [
+        "机器人",
         "AI",
-        "行业动态",
-        "机器人"
+        "行业动态"
       ],
-      "fetched_at": "2026-03-25T20:00:06.543901+00:00"
+      "fetched_at": "2026-03-25T21:00:05.808234+00:00"
     },
     {
       "title": "从“被动感知”到“理解接触”，它石智航联合六大机构发布OmniVTA视触觉世界模型",
@@ -124,7 +151,7 @@
         "AI",
         "重大突破"
       ],
-      "fetched_at": "2026-03-25T20:00:06.545668+00:00"
+      "fetched_at": "2026-03-25T21:00:05.808599+00:00"
     },
     {
       "title": "DeepSeek急招Agent方向！一口气放17个岗位，重度Vibe Coding优先",
@@ -134,13 +161,13 @@
       "date": "2026-03-25",
       "type": "product",
       "tags": [
-        "DeepSeek",
         "agent",
         "AI",
+        "DeepSeek",
         "代码",
         "产品发布"
       ],
-      "fetched_at": "2026-03-25T20:00:06.546854+00:00"
+      "fetched_at": "2026-03-25T21:00:05.808784+00:00"
     },
     {
       "title": "Granola raises $125M, hits $1.5B valuation as it expands from meeting notetaker to enterprise AI app",
