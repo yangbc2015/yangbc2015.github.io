@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-03-25T10:00:07.430791+00:00",
-  "count": 37,
-  "history_count": 37,
+  "last_updated": "2026-03-25T11:00:07.453743+00:00",
+  "count": 38,
+  "history_count": 38,
   "retention_days": 30,
   "items": [
     {
@@ -12,11 +12,11 @@
       "date": "2026-03-25",
       "type": "breakthrough",
       "tags": [
+        "AI",
         "Claude",
-        "重大突破",
-        "AI"
+        "重大突破"
       ],
-      "fetched_at": "2026-03-25T10:00:06.202744+00:00"
+      "fetched_at": "2026-03-25T11:00:06.165707+00:00"
     },
     {
       "title": "Google Gemini 2.5 Pro开放API访问",
@@ -26,11 +26,11 @@
       "date": "2026-03-25",
       "type": "product",
       "tags": [
-        "产品发布",
         "Gemini",
-        "AI"
+        "AI",
+        "产品发布"
       ],
-      "fetched_at": "2026-03-25T10:00:06.202773+00:00"
+      "fetched_at": "2026-03-25T11:00:06.165737+00:00"
     },
     {
       "title": "OpenAI发布GPT-4.5：更高效的推理架构",
@@ -40,11 +40,24 @@
       "date": "2026-03-25",
       "type": "breakthrough",
       "tags": [
-        "重大突破",
+        "GPT",
         "AI",
-        "GPT"
+        "重大突破"
       ],
-      "fetched_at": "2026-03-25T10:00:06.202788+00:00"
+      "fetched_at": "2026-03-25T11:00:06.165751+00:00"
+    },
+    {
+      "title": "从“被动感知”到“理解接触”，它石智航联合六大机构发布OmniVTA视触觉世界模型",
+      "link": "https://www.qbitai.com/2026/03/392105.html",
+      "summary": "从“被动感知”到“理解接触”，它石智航联合六大机构发布OmniVTA视触觉世界模型",
+      "source": "量子位",
+      "date": "2026-03-25",
+      "type": "breakthrough",
+      "tags": [
+        "AI",
+        "重大突破"
+      ],
+      "fetched_at": "2026-03-25T11:00:06.375505+00:00"
     },
     {
       "title": "DeepSeek急招Agent方向！一口气放17个岗位，重度Vibe Coding优先",
@@ -54,13 +67,13 @@
       "date": "2026-03-25",
       "type": "product",
       "tags": [
-        "代码",
         "agent",
-        "AI",
+        "代码",
         "DeepSeek",
+        "AI",
         "产品发布"
       ],
-      "fetched_at": "2026-03-25T10:00:06.520654+00:00"
+      "fetched_at": "2026-03-25T11:00:06.375944+00:00"
     },
     {
       "title": "中国AI音乐，悄悄把全球第一拿走了",
@@ -73,7 +86,7 @@
         "行业动态",
         "AI"
       ],
-      "fetched_at": "2026-03-25T10:00:06.520895+00:00"
+      "fetched_at": "2026-03-25T11:00:06.376512+00:00"
     },
     {
       "title": "WorkBuddy杀疯了？一群AI专家帮我打工，我在微信里当赛博虾工头！",
@@ -86,7 +99,46 @@
         "行业动态",
         "AI"
       ],
-      "fetched_at": "2026-03-25T10:00:06.521380+00:00"
+      "fetched_at": "2026-03-25T11:00:06.376757+00:00"
+    },
+    {
+      "title": "With $3.5B in fresh capital, Kleiner Perkins is going all in on AI",
+      "link": "https://techcrunch.com/2026/03/24/with-3-5b-in-fresh-capital-kleiner-perkins-is-going-all-in-on-ai/",
+      "summary": "The fundraise includes $1 billion for investing in early-stage startups, and $2.5 billion for late-stage growth businesses.",
+      "source": "TechCrunch",
+      "date": "2026-03-25",
+      "type": "product",
+      "tags": [
+        "AI",
+        "产品发布"
+      ],
+      "fetched_at": "2026-03-25T11:00:07.452579+00:00"
+    },
+    {
+      "title": "OpenAI’s Sora was the creepiest app on your phone — now it’s shutting down",
+      "link": "https://techcrunch.com/2026/03/24/openais-sora-was-the-creepiest-app-on-your-phone-now-its-shutting-down/",
+      "summary": "Though the underlying Sora 2 video- and audio-generation model is scarily impressive, there was not sustained interest in an AI-only social feed.",
+      "source": "TechCrunch",
+      "date": "2026-03-25",
+      "type": "product",
+      "tags": [
+        "AI",
+        "产品发布"
+      ],
+      "fetched_at": "2026-03-25T11:00:07.452764+00:00"
+    },
+    {
+      "title": "Kentucky woman rejects $26M offer to turn her farm into a data center",
+      "link": "https://techcrunch.com/2026/03/24/kentucky-woman-rejects-26-million-offer-to-turn-her-farm-into-a-data-center/",
+      "summary": "A \"major artificial intelligence company\" reportedly offered a Kentucky family $26 million to build a data center on their farm.",
+      "source": "TechCrunch",
+      "date": "2026-03-25",
+      "type": "industry",
+      "tags": [
+        "行业动态",
+        "AI"
+      ],
+      "fetched_at": "2026-03-25T11:00:07.452923+00:00"
     },
     {
       "title": "首个全品类旅行skill来了！飞猪“flyai”上线ClawHub、GitHub",
@@ -100,45 +152,6 @@
         "AI"
       ],
       "fetched_at": "2026-03-25T10:00:06.521576+00:00"
-    },
-    {
-      "title": "With $3.5B in fresh capital, Kleiner Perkins is going all in on AI",
-      "link": "https://techcrunch.com/2026/03/24/with-3-5b-in-fresh-capital-kleiner-perkins-is-going-all-in-on-ai/",
-      "summary": "The fundraise includes $1 billion for investing in early-stage startups, and $2.5 billion for late-stage growth businesses.",
-      "source": "TechCrunch",
-      "date": "2026-03-25",
-      "type": "product",
-      "tags": [
-        "产品发布",
-        "AI"
-      ],
-      "fetched_at": "2026-03-25T10:00:07.429026+00:00"
-    },
-    {
-      "title": "OpenAI’s Sora was the creepiest app on your phone — now it’s shutting down",
-      "link": "https://techcrunch.com/2026/03/24/openais-sora-was-the-creepiest-app-on-your-phone-now-its-shutting-down/",
-      "summary": "Though the underlying Sora 2 video- and audio-generation model is scarily impressive, there was not sustained interest in an AI-only social feed.",
-      "source": "TechCrunch",
-      "date": "2026-03-25",
-      "type": "product",
-      "tags": [
-        "产品发布",
-        "AI"
-      ],
-      "fetched_at": "2026-03-25T10:00:07.429414+00:00"
-    },
-    {
-      "title": "Kentucky woman rejects $26M offer to turn her farm into a data center",
-      "link": "https://techcrunch.com/2026/03/24/kentucky-woman-rejects-26-million-offer-to-turn-her-farm-into-a-data-center/",
-      "summary": "A \"major artificial intelligence company\" reportedly offered a Kentucky family $26 million to build a data center on their farm.",
-      "source": "TechCrunch",
-      "date": "2026-03-25",
-      "type": "industry",
-      "tags": [
-        "行业动态",
-        "AI"
-      ],
-      "fetched_at": "2026-03-25T10:00:07.429734+00:00"
     },
     {
       "title": "阿里云JVS Claw 全面开放 新增语音输入、skill开关等实用功能",
