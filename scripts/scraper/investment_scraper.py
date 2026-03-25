@@ -51,10 +51,10 @@ class InvestmentScraper:
         except Exception as e:
             print(f"    ✗ 科技股获取失败: {e}")
         
-        # 按日期排序
+        # 按日期排序，返回最新10条（每日更新10条）
         all_items.sort(key=lambda x: x.get('date', ''), reverse=True)
         
-        return all_items[:30]  # 只保留最近30条
+        return all_items[:10]
     
     def fetch_ai_investment_news(self):
         """获取AI投资相关新闻"""

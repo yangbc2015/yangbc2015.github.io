@@ -33,7 +33,7 @@ class NewsScraper:
             
             if response.status_code == 200:
                 feed = feedparser.parse(response.text)
-                for entry in feed.entries[:5]:
+                for entry in feed.entries[:4]:
                     news.append(self._parse_entry(
                         title=entry.get('title', ''),
                         link=entry.get('link', ''),
@@ -63,7 +63,7 @@ class NewsScraper:
             soup = BeautifulSoup(response.text, 'html.parser')
             
             # 查找文章列表
-            articles = soup.find_all('article', limit=5)
+            articles = soup.find_all('article', limit=4)
             for article in articles:
                 title_elem = article.find('h2') or article.find('h3') or article.find('a')
                 if title_elem:
@@ -126,7 +126,7 @@ class NewsScraper:
             
             if response.status_code == 200:
                 feed = feedparser.parse(response.text)
-                for entry in feed.entries[:5]:
+                for entry in feed.entries[:4]:
                     news.append(self._parse_entry(
                         title=entry.get('title', ''),
                         link=entry.get('link', ''),
@@ -156,7 +156,7 @@ class NewsScraper:
             soup = BeautifulSoup(response.text, 'html.parser')
             
             # 查找文章
-            articles = soup.find_all('article', limit=5)
+            articles = soup.find_all('article', limit=3)
             for article in articles:
                 title_elem = article.find('h2') or article.find('h3')
                 if title_elem:
@@ -370,7 +370,7 @@ class NewsScraper:
             response = self.session.get(url, timeout=30)
             if response.status_code == 200:
                 feed = feedparser.parse(response.text)
-                for entry in feed.entries[:5]:
+                for entry in feed.entries[:4]:
                     news.append(self._parse_entry(
                         title=entry.get('title', ''),
                         link=entry.get('link', ''),
@@ -409,7 +409,7 @@ class NewsScraper:
             response = self.session.get(url, timeout=30)
             if response.status_code == 200:
                 feed = feedparser.parse(response.text)
-                for entry in feed.entries[:5]:
+                for entry in feed.entries[:4]:
                     news.append(self._parse_entry(
                         title=entry.get('title', ''),
                         link=entry.get('link', ''),
@@ -448,7 +448,7 @@ class NewsScraper:
             response = self.session.get(url, timeout=30)
             if response.status_code == 200:
                 feed = feedparser.parse(response.text)
-                for entry in feed.entries[:5]:
+                for entry in feed.entries[:4]:
                     news.append(self._parse_entry(
                         title=entry.get('title', ''),
                         link=entry.get('link', ''),

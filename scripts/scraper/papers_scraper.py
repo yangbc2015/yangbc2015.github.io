@@ -22,23 +22,26 @@ class PapersScraper:
     
     def fetch_arxiv_ai(self, max_results=10):
         """
-        从 arXiv 获取 AI 相关论文
+        从 arXiv 获取 AI 相关论文（每日Top10）
         使用 arXiv API: http://export.arxiv.org/api/query
         """
         papers = []
         
-        # arXiv 分类: cs.AI (人工智能), cs.CL (计算语言学), cs.CV (计算机视觉), cs.LG (机器学习)
-        categories = ['cs.AI', 'cs.CL', 'cs.CV', 'cs.LG']
+        # arXiv 分类: cs.AI (人工智能), cs.CL (计算语言学), cs.CV (计算机视觉), cs.LG (机器学习), cs.RO (机器人)
+        categories = ['cs.AI', 'cs.CL', 'cs.CV', 'cs.LG', 'cs.RO']
+        
+        # 每个分类获取2篇，总共约10篇
+        per_category = max(2, max_results // len(categories))
         
         for category in categories:
             try:
-                url = f"http://export.arxiv.org/api/query?search_query=cat:{category}&sortBy=submittedDate&sortOrder=descending&max_results={max_results//len(categories)}"
+                url = f"http://export.arxiv.org/api/query?search_query=cat:{category}&sortBy=submittedDate&sortOrder=descending&max_results={per_category}"
                 response = self.session.get(url, timeout=30)
                 
                 if response.status_code == 200:
                     feed = feedparser.parse(response.text)
                     
-                    for entry in feed.entries[:max_results//len(categories)]:
+                    for entry in feed.entries[:per_category]:
                         paper = self._parse_arxiv_entry(entry)
                         if paper:
                             papers.append(paper)
@@ -46,7 +49,7 @@ class PapersScraper:
             except Exception as e:
                 print(f"    获取 arXiv {category} 失败: {e}")
         
-        # 按日期排序
+        # 按日期排序，返回最新10篇
         papers.sort(key=lambda x: x.get("date", ""), reverse=True)
         return papers[:max_results]
     

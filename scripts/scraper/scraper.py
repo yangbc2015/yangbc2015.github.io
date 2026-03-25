@@ -21,6 +21,7 @@ from csdn_scraper import CSDNScraper
 from artificialanalysis_scraper import ArtificialAnalysisScraper
 from investment_scraper import InvestmentScraper
 from llm_leaderboard_scraper import LLMLeaderboardScraper
+from robotics_scraper import RoboticsScraper
 
 # 数据目录
 DATA_DIR = Path(__file__).parent.parent.parent / "data"
@@ -31,6 +32,7 @@ CONTENT_PAPERS_DIR = Path(__file__).parent.parent.parent / "content" / "papers"
 CONTENT_VIDEOS_DIR = Path(__file__).parent.parent.parent / "content" / "videos"
 CONTENT_TUTORIALS_DIR = Path(__file__).parent.parent.parent / "content" / "tutorials"
 CONTENT_INVESTMENT_DIR = Path(__file__).parent.parent.parent / "content" / "investment"
+CONTENT_ROBOTICS_DIR = Path(__file__).parent.parent.parent / "content" / "robotics"
 
 
 def ensure_dirs():
@@ -42,6 +44,7 @@ def ensure_dirs():
     CONTENT_VIDEOS_DIR.mkdir(parents=True, exist_ok=True)
     CONTENT_TUTORIALS_DIR.mkdir(parents=True, exist_ok=True)
     CONTENT_INVESTMENT_DIR.mkdir(parents=True, exist_ok=True)
+    CONTENT_ROBOTICS_DIR.mkdir(parents=True, exist_ok=True)
 
 
 def save_json(data, filepath):
@@ -175,18 +178,9 @@ def update_news():
     # 按日期排序
     all_news.sort(key=lambda x: x.get("date", ""), reverse=True)
     
-    # 保留最近 30 天的新闻，最多保留 100 条
-    from datetime import datetime, timedelta
-    cutoff_date = (datetime.now() - timedelta(days=30)).strftime("%Y-%m-%d")
-    recent_news = [n for n in all_news if n.get("date", "") >= cutoff_date]
-    
-    # 如果30天内的新闻太少（少于20条），则保留最近 100 条
-    if len(recent_news) < 20:
-        all_news = all_news[:100]
-        print(f"\n  📊 30天内新闻较少，保留最近 {len(all_news)} 条新闻")
-    else:
-        all_news = recent_news
-        print(f"\n  📊 保留最近30天内的 {len(all_news)} 条新闻")
+    # 保留最多200条历史内容
+    all_news = all_news[:200]
+    print(f"\n  📊 保留最新 {len(all_news)} 条新闻（最多200条）")
     
     # 保存新闻数据
     news_data = {
@@ -198,8 +192,8 @@ def update_news():
     }
     save_json(news_data, DATA_DIR / "news.json")
     
-    # 为每条新闻创建 Hugo 内容文件（Markdown）
-    create_news_content_files(new_news)  # 只为新新闻创建文件
+    # 为前10条新闻创建 Hugo 内容文件（Markdown）
+    create_news_content_files(new_news[:10])  # 只为Top10新新闻创建文件
     
     return all_news
 
@@ -216,7 +210,7 @@ def update_papers():
     # 从 arXiv 获取论文
     try:
         print("\n  正在从 arXiv 获取论文...")
-        arxiv_papers = scraper.fetch_arxiv_ai(max_results=10)
+        arxiv_papers = scraper.fetch_arxiv_ai(max_results=10)  # 获取Top10
         all_papers.extend(arxiv_papers)
         print(f"  ✓ 从 arXiv 获取了 {len(arxiv_papers)} 篇论文")
     except Exception as e:
@@ -238,8 +232,8 @@ def update_papers():
     # 按日期排序
     all_papers.sort(key=lambda x: x.get("date", ""), reverse=True)
     
-    # 只保留最近 15 篇
-    all_papers = all_papers[:15]
+    # 保留最多200篇历史论文
+    all_papers = all_papers[:200]
     
     # 保存论文数据
     papers_data = {
@@ -249,8 +243,8 @@ def update_papers():
     }
     save_json(papers_data, DATA_DIR / "papers.json")
     
-    # 创建论文内容文件
-    create_papers_content_files(all_papers)
+    # 为前10篇论文创建内容文件
+    create_papers_content_files(all_papers[:10])
     
     return all_papers
 
@@ -267,7 +261,7 @@ def update_videos():
     # 获取精选视频
     try:
         print("\n  正在获取精选 AI 视频...")
-        featured_videos = scraper.get_featured_videos()
+        featured_videos = scraper.get_featured_videos(max_results=10)
         all_videos.extend(featured_videos)
         print(f"  ✓ 获取了 {len(featured_videos)} 个精选视频")
     except Exception as e:
@@ -276,11 +270,14 @@ def update_videos():
     # 获取 B站视频
     try:
         print("\n  正在获取 B站 AI 视频...")
-        bilibili_videos = scraper.get_bilibili_videos()
+        bilibili_videos = scraper.get_bilibili_videos(max_results=10)
         all_videos.extend(bilibili_videos)
         print(f"  ✓ 获取了 {len(bilibili_videos)} 个 B站视频")
     except Exception as e:
         print(f"  ✗ B站视频获取失败: {e}")
+    
+    # 保留最多200个历史视频
+    all_videos = all_videos[:200]
     
     # 保存视频数据
     videos_data = {
@@ -290,8 +287,8 @@ def update_videos():
     }
     save_json(videos_data, DATA_DIR / "videos.json")
     
-    # 创建视频内容文件
-    create_videos_content_files(all_videos)
+    # 为前10个视频创建内容文件
+    create_videos_content_files(all_videos[:10])
     
     return all_videos
 
@@ -316,7 +313,7 @@ def create_news_content_files(news_items):
             except:
                 pass
     
-    for item in news_items[:20]:  # 为前 20 条创建内容文件（增加覆盖率）
+    for item in news_items[:10]:  # 只为前10条创建内容文件
         # 去重检查：如果标题已存在，跳过
         if item["title"] in existing_titles:
             print(f"    ⏭️ 已存在: {item['title'][:40]}...")
@@ -378,7 +375,7 @@ def create_papers_content_files(papers):
             except:
                 pass
     
-    for paper in papers[:8]:  # 只为前 8 篇创建内容文件
+    for paper in papers[:10]:  # 只为前10篇创建内容文件
         # 去重检查：如果 arxiv_id 已存在，跳过
         arxiv_id = paper.get("arxiv_id", "")
         if arxiv_id and arxiv_id in existing_arxiv_ids:
@@ -451,7 +448,7 @@ def create_videos_content_files(videos):
             except:
                 pass
     
-    for video in videos[:15]:  # 为前 15 个创建内容文件（增加覆盖率）
+    for video in videos[:10]:  # 只为前10个创建内容文件
         # 去重检查：如果 URL 已存在，跳过
         video_url = video.get("url", "")
         if video_url and video_url in existing_urls:
@@ -506,7 +503,7 @@ def create_videos_content_files(videos):
 
 
 def update_tutorials():
-    """更新教程数据（爬取 CSDN 文章）"""
+    """更新教程数据（爬取 CSDN 文章）- 保留200条，每天更新10条"""
     print("\n" + "="*50)
     print("📚 开始爬取 CSDN 教程数据...")
     print("="*50)
@@ -515,38 +512,60 @@ def update_tutorials():
         # 主动爬取 CSDN 数据
         print("\n  正在爬取 CSDN 博客文章...")
         scraper = CSDNScraper('heroybc')
-        articles = scraper.fetch_all_articles(max_pages=20)  # 爬取20页，获取更多文章
+        new_articles = scraper.fetch_all_articles(max_pages=2)  # 爬取最新文章
         
         tutorials_file = DATA_DIR / "tutorials.json"
         
-        tutorials_file = DATA_DIR / "tutorials.json"
-        
-        if not articles:
-            print("\n  ⚠️ 爬取失败，尝试读取已有数据...")
-            if tutorials_file.exists():
+        # 读取现有教程数据
+        existing_articles = []
+        if tutorials_file.exists():
+            try:
                 with open(tutorials_file, 'r', encoding='utf-8') as f:
-                    tutorials_data = json.load(f)
-                articles = tutorials_data.get("items", [])
-                print(f"  ✓ 从已有文件读取 {len(articles)} 篇教程文章")
-            else:
-                print("\n  ⚠️ 使用备用数据")
-                articles = scraper.get_fallback_articles()
+                    existing_data = json.load(f)
+                    existing_articles = existing_data.get("items", [])
+                    print(f"  📂 读取到 {len(existing_articles)} 篇历史教程")
+            except Exception as e:
+                print(f"  ⚠️ 读取历史教程失败: {e}")
+        
+        if not new_articles:
+            print("\n  ⚠️ 爬取失败，使用已有数据...")
+            new_articles = existing_articles if existing_articles else scraper.get_fallback_articles()[:10]
+        
+        # 合并新旧数据
+        all_articles = new_articles + existing_articles
+        
+        # 去重：基于URL
+        seen_urls = set()
+        unique_articles = []
+        for article in all_articles:
+            url = article.get("url", "")
+            if url and url in seen_urls:
+                continue
+            if url:
+                seen_urls.add(url)
+            unique_articles.append(article)
+        
+        # 按日期排序，保留最新200条
+        unique_articles.sort(key=lambda x: x.get("date", ""), reverse=True)
+        all_articles = unique_articles[:200]
+        
+        print(f"  📊 保留最新 {len(all_articles)} 篇教程（最多200篇）")
         
         # 构建数据
         tutorials_data = {
             "last_updated": datetime.now(timezone.utc).isoformat(),
-            "count": len(articles),
+            "count": len(all_articles),
             "author": "heroybc",
             "source": "CSDN",
             "author_url": "https://blog.csdn.net/heroybc",
-            "items": articles
+            "items": all_articles
         }
         save_json(tutorials_data, tutorials_file)
         
-        # 创建教程内容文件
-        create_tutorial_content_files(articles)
+        # 为前10条创建教程内容文件
+        create_tutorial_content_files(all_articles[:10])
         
-        return articles
+        return all_articles
         
     except Exception as e:
         print(f"  ✗ 更新教程失败: {e}")
@@ -639,29 +658,62 @@ def create_tutorial_content_files(articles):
 
 
 def update_investment():
-    """更新投资资讯数据"""
+    """更新投资资讯数据 - 保留200条，每天更新10条"""
     print("\n" + "="*50)
     print("💰 开始更新 AI 投资资讯...")
     print("="*50)
     
     scraper = InvestmentScraper()
     
-    # 获取投资资讯
     try:
-        investment_items = scraper.fetch_all_investments()
+        # 获取最新投资资讯
+        new_items = scraper.fetch_all_investments()
+        
+        investment_file = DATA_DIR / "investment.json"
+        
+        # 读取现有投资数据
+        existing_items = []
+        if investment_file.exists():
+            try:
+                with open(investment_file, 'r', encoding='utf-8') as f:
+                    existing_data = json.load(f)
+                    existing_items = existing_data.get("items", [])
+                    print(f"  📂 读取到 {len(existing_items)} 条历史投资资讯")
+            except Exception as e:
+                print(f"  ⚠️ 读取历史投资资讯失败: {e}")
+        
+        # 合并新旧数据
+        all_items = new_items + existing_items
+        
+        # 去重：基于标题
+        seen_titles = set()
+        unique_items = []
+        for item in all_items:
+            title_key = item.get("title", "")[:40].lower().strip()
+            if title_key and title_key in seen_titles:
+                continue
+            if title_key:
+                seen_titles.add(title_key)
+            unique_items.append(item)
+        
+        # 按日期排序，保留最新200条
+        unique_items.sort(key=lambda x: x.get("date", ""), reverse=True)
+        all_items = unique_items[:200]
+        
+        print(f"  📊 保留最新 {len(all_items)} 条投资资讯（最多200条）")
         
         # 保存投资数据
         investment_data = {
             "last_updated": datetime.now(timezone.utc).isoformat(),
-            "count": len(investment_items),
-            "items": investment_items
+            "count": len(all_items),
+            "items": all_items
         }
-        save_json(investment_data, DATA_DIR / "investment.json")
+        save_json(investment_data, investment_file)
         
-        # 创建投资内容文件
-        create_investment_content_files(investment_items)
+        # 为前10条创建投资内容文件
+        create_investment_content_files(all_items[:10])
         
-        return investment_items
+        return all_items
     except Exception as e:
         print(f"  ✗ 投资资讯更新失败: {e}")
         import traceback
@@ -674,7 +726,7 @@ def create_investment_content_files(items):
     print(f"\n  正在创建投资内容文件...")
     
     created_count = 0
-    for item in items[:15]:  # 只为前 15 条创建内容文件
+    for item in items[:10]:  # 只为前10条创建内容文件
         # 生成文件名
         title_slug = "".join(c if c.isalnum() else "-" for c in item["title"][:40]).lower()
         date_str = item["date"].replace("-", "") if item.get("date") else ""
@@ -722,6 +774,147 @@ def create_investment_content_files(items):
     print(f"  ✓ 创建了 {created_count} 个新投资文件")
 
 
+def update_robotics():
+    """更新机器人领域资讯 - 保留200条，每天更新10条"""
+    print("\n" + "="*50)
+    print("🤖 开始更新机器人领域资讯...")
+    print("="*50)
+    
+    scraper = RoboticsScraper()
+    
+    try:
+        # 获取最新机器人资讯
+        new_items = scraper.fetch_all_robotics()
+        
+        robotics_file = DATA_DIR / "robotics.json"
+        
+        # 读取现有机器人数据
+        existing_items = []
+        if robotics_file.exists():
+            try:
+                with open(robotics_file, 'r', encoding='utf-8') as f:
+                    existing_data = json.load(f)
+                    existing_items = existing_data.get("items", [])
+                    print(f"  📂 读取到 {len(existing_items)} 条历史机器人资讯")
+            except Exception as e:
+                print(f"  ⚠️ 读取历史机器人资讯失败: {e}")
+        
+        # 合并新旧数据
+        all_items = new_items + existing_items
+        
+        # 去重：基于标题
+        seen_titles = set()
+        unique_items = []
+        for item in all_items:
+            title_key = item.get("title", "")[:40].lower().strip()
+            if title_key and title_key in seen_titles:
+                continue
+            if title_key:
+                seen_titles.add(title_key)
+            unique_items.append(item)
+        
+        # 按日期排序，保留最新200条
+        unique_items.sort(key=lambda x: x.get("date", ""), reverse=True)
+        all_items = unique_items[:200]
+        
+        print(f"  📊 保留最新 {len(all_items)} 条机器人资讯（最多200条）")
+        
+        # 保存机器人数据
+        robotics_data = {
+            "last_updated": datetime.now(timezone.utc).isoformat(),
+            "count": len(all_items),
+            "items": all_items
+        }
+        save_json(robotics_data, robotics_file)
+        
+        # 为前10条创建机器人内容文件
+        create_robotics_content_files(all_items[:10])
+        
+        return all_items
+    except Exception as e:
+        print(f"  ✗ 机器人资讯更新失败: {e}")
+        import traceback
+        traceback.print_exc()
+        return []
+
+
+def create_robotics_content_files(items):
+    """为机器人资讯创建 Hugo 内容文件"""
+    print(f"\n  正在创建机器人内容文件...")
+    
+    created_count = 0
+    today_str = datetime.now(timezone.utc).strftime("%Y%m%d")
+    
+    # 获取已存在的标题（用于去重）
+    existing_titles = set()
+    for f in CONTENT_ROBOTICS_DIR.glob("*.md"):
+        if f.name != "_index.md":
+            try:
+                content = f.read_text(encoding='utf-8')
+                if 'title:' in content:
+                    title_line = [l for l in content.split('\n') if 'title:' in l][0]
+                    existing_titles.add(title_line.split(':', 1)[1].strip().strip('"\''))
+            except:
+                pass
+    
+    for item in items[:10]:  # 只为前10条创建内容文件
+        # 去重检查
+        if item["title"] in existing_titles:
+            print(f"    ⏭️ 已存在: {item['title'][:40]}...")
+            continue
+        
+        # 生成文件名
+        title_slug = "".join(c if c.isalnum() else "-" for c in item["title"][:40]).lower()
+        date_str = item["date"].replace("-", "") if item.get("date") else today_str
+        timestamp = datetime.now(timezone.utc).strftime("%H%M%S")
+        filename = f"{date_str}-{title_slug}-{timestamp}.md"
+        filepath = CONTENT_ROBOTICS_DIR / filename
+        
+        # 如果文件已存在，跳过
+        if filepath.exists():
+            continue
+        
+        # 创建 front matter
+        front_matter = {
+            "title": item["title"],
+            "date": item["date"],
+            "type": item.get("type", "news"),
+            "source": item.get("source", "AI漫游"),
+            "category": item.get("category", "机器人"),
+            "link": item.get("url", ""),
+            "summary": item.get("summary", ""),
+            "tags": item.get("tags", ["机器人"]),
+        }
+        
+        # 添加arXiv ID（如果是论文）
+        if item.get("arxiv_id"):
+            front_matter["arxiv_id"] = item["arxiv_id"]
+        
+        # 写入文件
+        content = f"""---
+{yaml.dump(front_matter, allow_unicode=True, sort_keys=False)}---
+
+## 🤖 内容摘要
+
+{item.get('summary', '')}
+
+## 🔗 相关链接
+
+<a href="{item.get('url', '')}" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.75rem 1.5rem; background: linear-gradient(135deg, #00ff41, #00cc33); color: #000; text-decoration: none; border-radius: 8px; font-family: 'Orbitron', monospace; font-weight: 600;">
+查看详情 →
+</a>
+
+---
+
+*追踪机器人领域最新进展* 🤖
+"""
+        with open(filepath, 'w', encoding='utf-8') as f:
+            f.write(content)
+        created_count += 1
+    
+    print(f"  ✓ 创建了 {created_count} 个新机器人文件")
+
+
 def main():
     """主函数"""
     print("🤖 AI 数据爬虫启动")
@@ -747,6 +940,9 @@ def main():
         
         # 更新投资资讯
         update_investment()
+        
+        # 更新机器人资讯
+        update_robotics()
         
         # 生成每日新闻总结
         update_daily_summary()

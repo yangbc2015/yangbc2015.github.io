@@ -90,8 +90,8 @@ class VideosScraper:
         """
         return self.get_featured_videos()
     
-    def get_featured_videos(self):
-        """获取精选 AI 视频（手动维护的热门视频列表）"""
+    def get_featured_videos(self, max_results=10):
+        """获取精选 AI 视频（手动维护的热门视频列表）- 返回Top10"""
         return [
             {
                 "title": "Andrej Karpathy: 神经网络入门到精通",
@@ -183,11 +183,11 @@ class VideosScraper:
                 "category": "技术讲座",
                 "featured": False
             }
-        ]
+        ][:max_results]  # 只返回前max_results个
     
-    def get_bilibili_videos(self):
+    def get_bilibili_videos(self, max_results=10):
         """
-        获取 B站 AI 相关热门视频
+        获取 B站 AI 相关热门视频 - 返回Top10
         包括多个优质UP主的视频
         """
         videos = []
@@ -197,13 +197,12 @@ class VideosScraper:
             ('五道口纳什', 'AI投资'),
             ('李宏毅', '机器学习'),
             ('动手学深度学习', '深度学习'),
-            ('小土学习团队', '深度学习'),
         ]
         
-        # 爬取各UP主视频
+        # 爬取各UP主视频（每个UP主获取3个，总共约9个）
         for up_name, category in up_masters:
             try:
-                up_videos = self.fetch_bilibili_up_videos(up_name, max_results=5)
+                up_videos = self.fetch_bilibili_up_videos(up_name, max_results=3)
                 # 设置类别
                 for v in up_videos:
                     v['category'] = category
@@ -267,7 +266,8 @@ class VideosScraper:
             if dv['url'] not in existing_urls:
                 videos.append(dv)
         
-        return videos
+        # 返回最新10个视频
+        return videos[:max_results]
     
     def fetch_bilibili_up_videos(self, up_name, max_results=10):
         """

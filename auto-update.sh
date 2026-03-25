@@ -64,6 +64,8 @@ git commit -m "🤖 Auto-update AI data: $(date +'%Y-%m-%d %H:%M')
 - AI 榜单 (LMSYS Arena)
 - AI 论文 (arXiv)
 - AI 视频
+- 机器人/具身智能
+- AI 投资资讯
 
 🤖 通过服务器自动更新脚本生成" || true
 
@@ -98,11 +100,15 @@ fi
 PAPERS_COUNT=$(grep -c '"title"' data/papers.json 2>/dev/null || echo "0")
 VIDEOS_COUNT=$(grep -c '"title"' data/videos.json 2>/dev/null || echo "0")
 NEWS_COUNT=$(grep -c '"title"' data/news.json 2>/dev/null || echo "0")
+ROBOTICS_COUNT=$(grep -c '"title"' data/robotics.json 2>/dev/null || echo "0")
+INVESTMENT_COUNT=$(grep -c '"title"' data/investment.json 2>/dev/null || echo "0")
 
 log "${GREEN}🎉 更新完成！当前数据：${NC}"
 log "   📄 论文: $PAPERS_COUNT 篇"
 log "   🎬 视频: $VIDEOS_COUNT 个"
 log "   📰 新闻: $NEWS_COUNT 条"
+log "   🤖 机器人: $ROBOTICS_COUNT 条"
+log "   💰 投资: $INVESTMENT_COUNT 条"
 log "   📁 日志: $LOG_FILE"
 
 exit 0
