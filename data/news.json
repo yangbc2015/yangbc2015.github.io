@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-25T08:00:06.911802+00:00",
+  "last_updated": "2026-03-25T09:00:09.326091+00:00",
   "count": 37,
   "history_count": 37,
   "retention_days": 30,
@@ -12,11 +12,11 @@
       "date": "2026-03-25",
       "type": "breakthrough",
       "tags": [
-        "Claude",
         "AI",
+        "Claude",
         "重大突破"
       ],
-      "fetched_at": "2026-03-25T08:00:05.918691+00:00"
+      "fetched_at": "2026-03-25T09:00:07.941425+00:00"
     },
     {
       "title": "Google Gemini 2.5 Pro开放API访问",
@@ -26,11 +26,11 @@
       "date": "2026-03-25",
       "type": "product",
       "tags": [
-        "Gemini",
         "AI",
+        "Gemini",
         "产品发布"
       ],
-      "fetched_at": "2026-03-25T08:00:05.918775+00:00"
+      "fetched_at": "2026-03-25T09:00:07.941454+00:00"
     },
     {
       "title": "OpenAI发布GPT-4.5：更高效的推理架构",
@@ -40,11 +40,11 @@
       "date": "2026-03-25",
       "type": "breakthrough",
       "tags": [
-        "重大突破",
         "AI",
-        "GPT"
+        "GPT",
+        "重大突破"
       ],
-      "fetched_at": "2026-03-25T08:00:05.918803+00:00"
+      "fetched_at": "2026-03-25T09:00:07.941469+00:00"
     },
     {
       "title": "DeepSeek急招Agent方向！一口气放17个岗位，重度Vibe Coding优先",
@@ -54,13 +54,13 @@
       "date": "2026-03-25",
       "type": "product",
       "tags": [
-        "agent",
-        "DeepSeek",
-        "代码",
         "AI",
-        "产品发布"
+        "代码",
+        "产品发布",
+        "agent",
+        "DeepSeek"
       ],
-      "fetched_at": "2026-03-25T08:00:06.137335+00:00"
+      "fetched_at": "2026-03-25T09:00:08.221396+00:00"
     },
     {
       "title": "中国AI音乐，悄悄把全球第一拿走了",
@@ -73,7 +73,7 @@
         "AI",
         "行业动态"
       ],
-      "fetched_at": "2026-03-25T08:00:06.137565+00:00"
+      "fetched_at": "2026-03-25T09:00:08.221654+00:00"
     },
     {
       "title": "WorkBuddy杀疯了？一群AI专家帮我打工，我在微信里当赛博虾工头！",
@@ -86,7 +86,7 @@
         "AI",
         "行业动态"
       ],
-      "fetched_at": "2026-03-25T08:00:06.137724+00:00"
+      "fetched_at": "2026-03-25T09:00:08.221873+00:00"
     },
     {
       "title": "首个全品类旅行skill来了！飞猪“flyai”上线ClawHub、GitHub",
@@ -99,7 +99,7 @@
         "AI",
         "产品发布"
       ],
-      "fetched_at": "2026-03-25T08:00:06.137899+00:00"
+      "fetched_at": "2026-03-25T09:00:08.222019+00:00"
     },
     {
       "title": "With $3.5B in fresh capital, Kleiner Perkins is going all in on AI",
@@ -112,7 +112,7 @@
         "AI",
         "产品发布"
       ],
-      "fetched_at": "2026-03-25T08:00:06.910236+00:00"
+      "fetched_at": "2026-03-25T09:00:09.324250+00:00"
     },
     {
       "title": "OpenAI’s Sora was the creepiest app on your phone — now it’s shutting down",
@@ -125,7 +125,7 @@
         "AI",
         "产品发布"
       ],
-      "fetched_at": "2026-03-25T08:00:06.910414+00:00"
+      "fetched_at": "2026-03-25T09:00:09.324816+00:00"
     },
     {
       "title": "Kentucky woman rejects $26M offer to turn her farm into a data center",
@@ -138,7 +138,7 @@
         "AI",
         "行业动态"
       ],
-      "fetched_at": "2026-03-25T08:00:06.910939+00:00"
+      "fetched_at": "2026-03-25T09:00:09.325331+00:00"
     },
     {
       "title": "阿里云JVS Claw 全面开放 新增语音输入、skill开关等实用功能",
