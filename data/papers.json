@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-03-25T15:01:17.999725+00:00",
-  "count": 5,
+  "last_updated": "2026-03-25T16:00:30.903972+00:00",
+  "count": 7,
   "items": [
     {
       "title": "MedObvious: Exposing the Medical Moravec's Paradox in VLMs via Clinical Triage",
@@ -85,6 +85,42 @@
         "cs.LG"
       ],
       "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "VTAM: Video-Tactile-Action Models for Complex Physical Interaction Beyond VLAs",
+      "authors": "Haoran Yuan, Weigang Yi, Zhenyu Zhang et al.",
+      "abstract": "Video-Action Models (VAMs) have emerged as a promising framework for embodied intelligence, learning implicit world dynamics from raw video streams to produce temporally consistent action predictions. Although such models demonstrate strong performance on long-horizon tasks through visual reasoning,...",
+      "venue": "arXiv",
+      "date": "2026-03-24",
+      "arxiv_id": "2603.23481v1",
+      "url": "https://arxiv.org/abs/2603.23481v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.23481v1.pdf",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Planning over MAPF Agent Dependencies via Multi-Dependency PIBT",
+      "authors": "Zixiang Jiang, Yulun Zhang, Rishi Veerapaneni et al.",
+      "abstract": "Modern Multi-Agent Path Finding (MAPF) algorithms must plan for hundreds to thousands of agents in congested environments within a second, requiring highly efficient algorithms. Priority Inheritance with Backtracking (PIBT) is a popular algorithm capable of effectively planning in such situations. H...",
+      "venue": "arXiv",
+      "date": "2026-03-24",
+      "arxiv_id": "2603.23405v1",
+      "url": "https://arxiv.org/abs/2603.23405v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.23405v1.pdf",
+      "categories": [
+        "cs.MA",
+        "cs.AI",
+        "cs.RO"
+      ],
+      "type": "ai",
       "badge": "arxiv",
       "source": "arXiv"
     }
