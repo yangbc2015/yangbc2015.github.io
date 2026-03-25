@@ -1,9 +1,22 @@
 {
-  "last_updated": "2026-03-25T21:00:06.628547+00:00",
-  "count": 50,
-  "history_count": 50,
+  "last_updated": "2026-03-25T22:00:07.114850+00:00",
+  "count": 51,
+  "history_count": 51,
   "retention_days": 30,
   "items": [
+    {
+      "title": "The AI skills gap is here, says AI company, and power users are pulling ahead",
+      "link": "https://techcrunch.com/2026/03/25/the-ai-skills-gap-is-here-says-ai-company-and-power-users-are-pulling-ahead/",
+      "summary": "Anthropic finds AI isn’t replacing jobs yet, but early data shows growing inequality as experienced users gain an edge, raising concerns about future displacement and workforce divides.",
+      "source": "TechCrunch",
+      "date": "2026-03-26",
+      "type": "industry",
+      "tags": [
+        "行业动态",
+        "AI"
+      ],
+      "fetched_at": "2026-03-25T22:00:07.112831+00:00"
+    },
     {
       "title": "Google unveils TurboQuant, a new AI memory compression algorithm — and yes, the internet is calling it ‘Pied Piper’",
       "link": "https://techcrunch.com/2026/03/25/google-turboquant-ai-memory-compression-silicon-valley-pied-piper/",
@@ -12,10 +25,10 @@
       "date": "2026-03-26",
       "type": "industry",
       "tags": [
-        "AI",
-        "行业动态"
+        "行业动态",
+        "AI"
       ],
-      "fetched_at": "2026-03-25T21:00:06.627047+00:00"
+      "fetched_at": "2026-03-25T22:00:07.113419+00:00"
     },
     {
       "title": "Melania Trump wants a robot to homeschool your child",
@@ -25,11 +38,11 @@
       "date": "2026-03-26",
       "type": "industry",
       "tags": [
+        "行业动态",
         "机器人",
-        "AI",
-        "行业动态"
+        "AI"
       ],
-      "fetched_at": "2026-03-25T21:00:06.627348+00:00"
+      "fetched_at": "2026-03-25T22:00:07.113657+00:00"
     },
     {
       "title": "Bernie Sanders and AOC propose a ban on data center construction",
@@ -79,11 +92,11 @@
       "date": "2026-03-25",
       "type": "breakthrough",
       "tags": [
-        "AI",
+        "重大突破",
         "Claude",
-        "重大突破"
+        "AI"
       ],
-      "fetched_at": "2026-03-25T21:00:05.572872+00:00"
+      "fetched_at": "2026-03-25T22:00:06.073296+00:00"
     },
     {
       "title": "Google Gemini 2.5 Pro开放API访问",
@@ -93,11 +106,11 @@
       "date": "2026-03-25",
       "type": "product",
       "tags": [
-        "AI",
+        "产品发布",
         "Gemini",
-        "产品发布"
+        "AI"
       ],
-      "fetched_at": "2026-03-25T21:00:05.572901+00:00"
+      "fetched_at": "2026-03-25T22:00:06.073326+00:00"
     },
     {
       "title": "OpenAI发布GPT-4.5：更高效的推理架构",
@@ -107,11 +120,11 @@
       "date": "2026-03-25",
       "type": "breakthrough",
       "tags": [
+        "重大突破",
         "GPT",
-        "AI",
-        "重大突破"
+        "AI"
       ],
-      "fetched_at": "2026-03-25T21:00:05.572917+00:00"
+      "fetched_at": "2026-03-25T22:00:06.073341+00:00"
     },
     {
       "title": "第一批“首席龙虾官”，月薪6万",
@@ -121,10 +134,10 @@
       "date": "2026-03-25",
       "type": "industry",
       "tags": [
-        "AI",
-        "行业动态"
+        "行业动态",
+        "AI"
       ],
-      "fetched_at": "2026-03-25T21:00:05.807883+00:00"
+      "fetched_at": "2026-03-25T22:00:06.304583+00:00"
     },
     {
       "title": "睿尔曼“茶艺机器人”亮相2026中关村论坛",
@@ -134,11 +147,11 @@
       "date": "2026-03-25",
       "type": "industry",
       "tags": [
+        "行业动态",
         "机器人",
-        "AI",
-        "行业动态"
+        "AI"
       ],
-      "fetched_at": "2026-03-25T21:00:05.808234+00:00"
+      "fetched_at": "2026-03-25T22:00:06.304863+00:00"
     },
     {
       "title": "从“被动感知”到“理解接触”，它石智航联合六大机构发布OmniVTA视触觉世界模型",
@@ -148,10 +161,10 @@
       "date": "2026-03-25",
       "type": "breakthrough",
       "tags": [
-        "AI",
-        "重大突破"
+        "重大突破",
+        "AI"
       ],
-      "fetched_at": "2026-03-25T21:00:05.808599+00:00"
+      "fetched_at": "2026-03-25T22:00:06.305122+00:00"
     },
     {
       "title": "DeepSeek急招Agent方向！一口气放17个岗位，重度Vibe Coding优先",
@@ -161,13 +174,13 @@
       "date": "2026-03-25",
       "type": "product",
       "tags": [
-        "agent",
-        "AI",
-        "DeepSeek",
         "代码",
-        "产品发布"
+        "DeepSeek",
+        "agent",
+        "产品发布",
+        "AI"
       ],
-      "fetched_at": "2026-03-25T21:00:05.808784+00:00"
+      "fetched_at": "2026-03-25T22:00:06.305392+00:00"
     },
     {
       "title": "Granola raises $125M, hits $1.5B valuation as it expands from meeting notetaker to enterprise AI app",
