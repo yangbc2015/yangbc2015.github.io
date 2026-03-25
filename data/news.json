@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-03-25T04:00:04.036475+00:00",
-  "count": 32,
-  "history_count": 32,
+  "last_updated": "2026-03-25T05:00:04.676155+00:00",
+  "count": 33,
+  "history_count": 33,
   "retention_days": 30,
   "items": [
     {
@@ -12,11 +12,11 @@
       "date": "2026-03-25",
       "type": "breakthrough",
       "tags": [
-        "Claude",
+        "AI",
         "重大突破",
-        "AI"
+        "Claude"
       ],
-      "fetched_at": "2026-03-25T04:00:02.859803+00:00"
+      "fetched_at": "2026-03-25T05:00:03.311558+00:00"
     },
     {
       "title": "Google Gemini 2.5 Pro开放API访问",
@@ -26,11 +26,11 @@
       "date": "2026-03-25",
       "type": "product",
       "tags": [
+        "AI",
         "产品发布",
-        "Gemini",
-        "AI"
+        "Gemini"
       ],
-      "fetched_at": "2026-03-25T04:00:02.859848+00:00"
+      "fetched_at": "2026-03-25T05:00:03.311590+00:00"
     },
     {
       "title": "OpenAI发布GPT-4.5：更高效的推理架构",
@@ -41,10 +41,24 @@
       "type": "breakthrough",
       "tags": [
         "GPT",
-        "重大突破",
-        "AI"
+        "AI",
+        "重大突破"
       ],
-      "fetched_at": "2026-03-25T04:00:02.859872+00:00"
+      "fetched_at": "2026-03-25T05:00:03.311611+00:00"
+    },
+    {
+      "title": "阿里云JVS Claw 全面开放 新增语音输入、skill开关等实用功能",
+      "link": "https://www.qbitai.com/2026/03/391830.html",
+      "summary": "JVS Claw也荣登App Store“智能体”和“Claw”搜索榜首位",
+      "source": "量子位",
+      "date": "2026-03-25",
+      "type": "product",
+      "tags": [
+        "AI",
+        "产品发布",
+        "agent"
+      ],
+      "fetched_at": "2026-03-25T05:00:03.571166+00:00"
     },
     {
       "title": "OpenAI关停Sora！25个月从封神到退场",
@@ -54,11 +68,11 @@
       "date": "2026-03-25",
       "type": "industry",
       "tags": [
+        "AI",
         "多模态",
-        "行业动态",
-        "AI"
+        "行业动态"
       ],
-      "fetched_at": "2026-03-25T04:00:03.011498+00:00"
+      "fetched_at": "2026-03-25T05:00:03.571510+00:00"
     },
     {
       "title": "With $3.5B in fresh capital, Kleiner Perkins is going all in on AI",
@@ -68,10 +82,10 @@
       "date": "2026-03-25",
       "type": "product",
       "tags": [
-        "产品发布",
-        "AI"
+        "AI",
+        "产品发布"
       ],
-      "fetched_at": "2026-03-25T04:00:04.035059+00:00"
+      "fetched_at": "2026-03-25T05:00:04.673918+00:00"
     },
     {
       "title": "OpenAI’s Sora was the creepiest app on your phone — now it’s shutting down",
@@ -81,10 +95,10 @@
       "date": "2026-03-25",
       "type": "product",
       "tags": [
-        "产品发布",
-        "AI"
+        "AI",
+        "产品发布"
       ],
-      "fetched_at": "2026-03-25T04:00:04.035534+00:00"
+      "fetched_at": "2026-03-25T05:00:04.675041+00:00"
     },
     {
       "title": "Kentucky woman rejects $26M offer to turn her farm into a data center",
@@ -94,10 +108,10 @@
       "date": "2026-03-25",
       "type": "industry",
       "tags": [
-        "行业动态",
-        "AI"
+        "AI",
+        "行业动态"
       ],
-      "fetched_at": "2026-03-25T04:00:04.035742+00:00"
+      "fetched_at": "2026-03-25T05:00:04.675325+00:00"
     },
     {
       "title": "Anthropic hands Claude Code more control, but keeps it on a leash",
@@ -242,10 +256,10 @@
       "date": "2026-03-24",
       "type": "industry",
       "tags": [
-        "行业动态",
-        "AI"
+        "AI",
+        "行业动态"
       ],
-      "fetched_at": "2026-03-25T04:00:03.011953+00:00"
+      "fetched_at": "2026-03-25T05:00:03.571740+00:00"
     },
     {
       "title": "龙虾爆火之后，AI初创的全球化机会来了吗？｜线下沙龙报名",
@@ -255,10 +269,10 @@
       "date": "2026-03-24",
       "type": "industry",
       "tags": [
-        "行业动态",
-        "AI"
+        "AI",
+        "行业动态"
       ],
-      "fetched_at": "2026-03-25T04:00:03.012219+00:00"
+      "fetched_at": "2026-03-25T05:00:03.571913+00:00"
     },
     {
       "title": "黄仁勋暴论核弹：AGI已经实现，Ilya错了，程序员有10亿",
