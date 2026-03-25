@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-03-25T00:00:07.525651+00:00",
-  "count": 30,
-  "history_count": 30,
+  "last_updated": "2026-03-25T01:00:07.758012+00:00",
+  "count": 31,
+  "history_count": 31,
   "retention_days": 30,
   "items": [
     {
@@ -12,11 +12,11 @@
       "date": "2026-03-25",
       "type": "breakthrough",
       "tags": [
-        "Claude",
+        "AI",
         "重大突破",
-        "AI"
+        "Claude"
       ],
-      "fetched_at": "2026-03-25T00:00:06.223907+00:00"
+      "fetched_at": "2026-03-25T01:00:06.438121+00:00"
     },
     {
       "title": "Google Gemini 2.5 Pro开放API访问",
@@ -26,11 +26,11 @@
       "date": "2026-03-25",
       "type": "product",
       "tags": [
-        "Gemini",
+        "AI",
         "产品发布",
-        "AI"
+        "Gemini"
       ],
-      "fetched_at": "2026-03-25T00:00:06.223935+00:00"
+      "fetched_at": "2026-03-25T01:00:06.438149+00:00"
     },
     {
       "title": "OpenAI发布GPT-4.5：更高效的推理架构",
@@ -41,10 +41,23 @@
       "type": "breakthrough",
       "tags": [
         "GPT",
-        "重大突破",
-        "AI"
+        "AI",
+        "重大突破"
       ],
-      "fetched_at": "2026-03-25T00:00:06.223950+00:00"
+      "fetched_at": "2026-03-25T01:00:06.438164+00:00"
+    },
+    {
+      "title": "With $3.5B in fresh capital, Kleiner Perkins is going all in on AI",
+      "link": "https://techcrunch.com/2026/03/24/with-3-5b-in-fresh-capital-kleiner-perkins-is-going-all-in-on-ai/",
+      "summary": "The fundraise includes $1 billion for investing in early-stage startups, and $2.5 billion for late-stage growth businesses.",
+      "source": "TechCrunch",
+      "date": "2026-03-25",
+      "type": "product",
+      "tags": [
+        "AI",
+        "产品发布"
+      ],
+      "fetched_at": "2026-03-25T01:00:07.756425+00:00"
     },
     {
       "title": "OpenAI’s Sora was the creepiest app on your phone — now it’s shutting down",
@@ -54,10 +67,10 @@
       "date": "2026-03-25",
       "type": "product",
       "tags": [
-        "产品发布",
-        "AI"
+        "AI",
+        "产品发布"
       ],
-      "fetched_at": "2026-03-25T00:00:07.521451+00:00"
+      "fetched_at": "2026-03-25T01:00:07.756693+00:00"
     },
     {
       "title": "Kentucky woman rejects $26M offer to turn her farm into a data center",
@@ -70,7 +83,7 @@
         "行业动态",
         "AI"
       ],
-      "fetched_at": "2026-03-25T00:00:07.522569+00:00"
+      "fetched_at": "2026-03-25T01:00:07.757136+00:00"
     },
     {
       "title": "Anthropic hands Claude Code more control, but keeps it on a leash",
@@ -218,7 +231,7 @@
         "行业动态",
         "AI"
       ],
-      "fetched_at": "2026-03-25T00:00:06.657474+00:00"
+      "fetched_at": "2026-03-25T01:00:06.939745+00:00"
     },
     {
       "title": "龙虾爆火之后，AI初创的全球化机会来了吗？｜线下沙龙报名",
@@ -231,7 +244,7 @@
         "行业动态",
         "AI"
       ],
-      "fetched_at": "2026-03-25T00:00:06.657922+00:00"
+      "fetched_at": "2026-03-25T01:00:06.939957+00:00"
     },
     {
       "title": "黄仁勋暴论核弹：AGI已经实现，Ilya错了，程序员有10亿",
@@ -244,7 +257,7 @@
         "行业动态",
         "AI"
       ],
-      "fetched_at": "2026-03-25T00:00:06.658108+00:00"
+      "fetched_at": "2026-03-25T01:00:06.940420+00:00"
     },
     {
       "title": "你的模型真的会”举一反三”吗？RoboChallenge Table30 V2 正式发布，泛化时代开幕",
@@ -254,11 +267,11 @@
       "date": "2026-03-24",
       "type": "breakthrough",
       "tags": [
+        "AI",
         "重大突破",
-        "机器人",
-        "AI"
+        "机器人"
       ],
-      "fetched_at": "2026-03-25T00:00:06.658327+00:00"
+      "fetched_at": "2026-03-25T01:00:06.940602+00:00"
     },
     {
       "title": "LeCun的世界模型单GPU就能跑了",
@@ -271,7 +284,7 @@
         "行业动态",
         "AI"
       ],
-      "fetched_at": "2026-03-25T00:00:06.658509+00:00"
+      "fetched_at": "2026-03-25T01:00:06.941040+00:00"
     },
     {
       "title": "Mirage raises $75M to continue building models for its AI video-editing app Captions",
