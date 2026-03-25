@@ -893,6 +893,10 @@
 {{ define "scripts" }}
 <!-- 不蒜子计数器 -->
 <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<!-- 不蒜子计数元素（隐藏） -->
+<span id="busuanzi_container_site_pv" style="display:none">
+    <span id="busuanzi_value_site_pv">--</span>
+</span>
 
 <script>
 // ===== 粒子背景动画 =====
@@ -1245,6 +1249,8 @@
 // ===== 访问者统计 - 使用不蒜子计数器（跨浏览器共享）=====
 (function() {
     let countDisplayed = false;
+    let retryCount = 0;
+    const MAX_RETRIES = 30; // 最多重试30次（30秒）
     
     // 更新显示
     function updateDisplay(count) {
@@ -1254,76 +1260,97 @@
         const visitorCount = document.getElementById('visitor-count');
         if (visitorCount) {
             visitorCount.textContent = count.toLocaleString();
+            console.log('✅ 访问计数已更新:', count);
         }
     }
     
-    // 监听不蒜子计数器
-    function watchBusuanzi() {
+    // 获取不蒜子数值
+    function getBusuanziValue() {
         const pvElement = document.getElementById('busuanzi_value_site_pv');
         if (!pvElement) {
-            console.log('不蒜子元素未找到，将使用 localStorage');
-            return false;
+            return null;
         }
         
-        const observer = new MutationObserver(function(mutations) {
-            mutations.forEach(function(mutation) {
-                if (pvElement.textContent && pvElement.textContent !== '--') {
-                    const count = parseInt(pvElement.textContent.replace(/,/g, ''));
-                    if (!isNaN(count) && count > 0) {
-                        updateDisplay(count);
-                        observer.disconnect();
-                    }
-                }
-            });
+        const text = pvElement.textContent.trim();
+        if (text && text !== '--' && text !== '') {
+            const count = parseInt(text.replace(/,/g, ''));
+            if (!isNaN(count) && count > 0) {
+                return count;
+            }
+        }
+        return null;
+    }
+    
+    // 轮询检查不蒜子数值
+    function pollBusuanzi() {
+        if (countDisplayed) return;
+        
+        const count = getBusuanziValue();
+        if (count !== null) {
+            updateDisplay(count);
+            return;
+        }
+        
+        retryCount++;
+        if (retryCount < MAX_RETRIES) {
+            setTimeout(pollBusuanzi, 1000); // 每秒检查一次
+        } else {
+            // 超时后显示提示
+            console.log('⏱️ 不蒜子加载超时');
+            const visitorCount = document.getElementById('visitor-count');
+            if (visitorCount) {
+                visitorCount.textContent = '∞';
+            }
+        }
+    }
+    
+    // 使用 MutationObserver 监听不蒜子元素
+    function watchBusuanzi() {
+        // 先尝试直接获取
+        const count = getBusuanziValue();
+        if (count !== null) {
+            updateDisplay(count);
+            return;
+        }
+        
+        // 监听 body 变化，等待不蒜子元素被添加
+        const bodyObserver = new MutationObserver(function(mutations) {
+            const count = getBusuanziValue();
+            if (count !== null) {
+                updateDisplay(count);
+                bodyObserver.disconnect();
+            }
         });
         
-        observer.observe(pvElement, { childList: true, characterData: true, subtree: true });
+        bodyObserver.observe(document.body, { 
+            childList: true, 
+            subtree: true 
+        });
         
-        // 检查当前值
-        if (pvElement.textContent && pvElement.textContent !== '--') {
-            const count = parseInt(pvElement.textContent.replace(/,/g, ''));
-            if (!isNaN(count) && count > 0) {
-                updateDisplay(count);
-                return true;
-            }
-        }
+        // 同时开始轮询
+        pollBusuanzi();
         
-        return true;
-    }
-    
-    // localStorage 计数（浏览器本地，作为备用）
-    function useLocalStorage() {
-        try {
-            let count = parseInt(localStorage.getItem('site_total_visits') || '0');
-            count++;
-            localStorage.setItem('site_total_visits', count.toString());
-            updateDisplay(count);
-        } catch (e) {
-            console.error('localStorage error:', e);
-            updateDisplay(0);
-        }
-    }
-    
-    // 初始化
-    document.addEventListener('DOMContentLoaded', function() {
-        // 尝试使用不蒜子
-        const busuanziLoaded = watchBusuanzi();
-        
-        // 设置超时，如果不蒜子 5 秒内未加载则使用 localStorage
+        // 10秒后停止观察
         setTimeout(function() {
-            if (!countDisplayed) {
-                if (busuanziLoaded) {
-                    // 不蒜子存在但没返回数据，再等待一会
-                    setTimeout(function() {
-                        if (!countDisplayed) {
-                            useLocalStorage();
-                        }
-                    }, 3000);
-                } else {
-                    useLocalStorage();
-                }
+            bodyObserver.disconnect();
+        }, 10000);
+    }
+    
+    // 初始化 - 等待页面完全加载
+    if (document.readyState === 'complete') {
+        watchBusuanzi();
+    } else {
+        window.addEventListener('load', watchBusuanzi);
+    }
+    
+    // 备用：DOMContentLoaded 后也检查一次
+    document.addEventListener('DOMContentLoaded', function() {
+        setTimeout(function() {
+            const count = getBusuanziValue();
+            if (count !== null && !countDisplayed) {
+                updateDisplay(count);
             }
-        }, 5000);
+        }, 2000);
     });
 })();
 
