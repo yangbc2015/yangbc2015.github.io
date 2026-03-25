@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-03-25T13:00:06.889339+00:00",
-  "count": 40,
-  "history_count": 40,
+  "last_updated": "2026-03-25T14:00:08.340533+00:00",
+  "count": 42,
+  "history_count": 42,
   "retention_days": 30,
   "items": [
     {
@@ -12,11 +12,11 @@
       "date": "2026-03-25",
       "type": "breakthrough",
       "tags": [
+        "重大突破",
         "Claude",
-        "AI",
-        "重大突破"
+        "AI"
       ],
-      "fetched_at": "2026-03-25T13:00:05.453648+00:00"
+      "fetched_at": "2026-03-25T14:00:06.733041+00:00"
     },
     {
       "title": "Google Gemini 2.5 Pro开放API访问",
@@ -26,11 +26,11 @@
       "date": "2026-03-25",
       "type": "product",
       "tags": [
-        "产品发布",
+        "Gemini",
         "AI",
-        "Gemini"
+        "产品发布"
       ],
-      "fetched_at": "2026-03-25T13:00:05.453693+00:00"
+      "fetched_at": "2026-03-25T14:00:06.733071+00:00"
     },
     {
       "title": "OpenAI发布GPT-4.5：更高效的推理架构",
@@ -40,11 +40,24 @@
       "date": "2026-03-25",
       "type": "breakthrough",
       "tags": [
-        "AI",
+        "重大突破",
         "GPT",
-        "重大突破"
+        "AI"
       ],
-      "fetched_at": "2026-03-25T13:00:05.453709+00:00"
+      "fetched_at": "2026-03-25T14:00:06.733086+00:00"
+    },
+    {
+      "title": "第一批“首席龙虾官”，月薪6万",
+      "link": "https://www.qbitai.com/2026/03/392128.html",
+      "summary": "猎头开始捕捉养虾达人",
+      "source": "量子位",
+      "date": "2026-03-25",
+      "type": "industry",
+      "tags": [
+        "行业动态",
+        "AI"
+      ],
+      "fetched_at": "2026-03-25T14:00:07.002844+00:00"
     },
     {
       "title": "睿尔曼“茶艺机器人”亮相2026中关村论坛",
@@ -54,11 +67,11 @@
       "date": "2026-03-25",
       "type": "industry",
       "tags": [
-        "AI",
+        "行业动态",
         "机器人",
-        "行业动态"
+        "AI"
       ],
-      "fetched_at": "2026-03-25T13:00:05.784450+00:00"
+      "fetched_at": "2026-03-25T14:00:07.003043+00:00"
     },
     {
       "title": "从“被动感知”到“理解接触”，它石智航联合六大机构发布OmniVTA视触觉世界模型",
@@ -68,10 +81,10 @@
       "date": "2026-03-25",
       "type": "breakthrough",
       "tags": [
-        "AI",
-        "重大突破"
+        "重大突破",
+        "AI"
       ],
-      "fetched_at": "2026-03-25T13:00:05.784688+00:00"
+      "fetched_at": "2026-03-25T14:00:07.003500+00:00"
     },
     {
       "title": "DeepSeek急招Agent方向！一口气放17个岗位，重度Vibe Coding优先",
@@ -83,11 +96,51 @@
       "tags": [
         "agent",
         "AI",
-        "代码",
         "产品发布",
+        "代码",
         "DeepSeek"
       ],
-      "fetched_at": "2026-03-25T13:00:05.785029+00:00"
+      "fetched_at": "2026-03-25T14:00:07.003914+00:00"
+    },
+    {
+      "title": "With Sift Stack, two ex-SpaceX engineers are bringing the software that helped launch rockets to the factory floor",
+      "link": "https://techcrunch.com/2026/03/25/with-sift-stack-two-ex-spacex-engineers-are-bringing-the-software-that-helped-launch-rockets-to-the-factory-floor/",
+      "summary": "Sift is building the data infrastructure for advanced manufacturing.",
+      "source": "TechCrunch",
+      "date": "2026-03-25",
+      "type": "breakthrough",
+      "tags": [
+        "重大突破",
+        "AI"
+      ],
+      "fetched_at": "2026-03-25T14:00:08.338837+00:00"
+    },
+    {
+      "title": "Lucid Bots raises $20M to keep up with demand for its window-washing drones",
+      "link": "https://techcrunch.com/2026/03/25/lucid-bots-raises-20m-to-keep-up-with-demand-for-its-window-washing-drones/",
+      "summary": "Lucid Bots has seen demand accelerate over the last year for its window cleaning drones and power washing robots.",
+      "source": "TechCrunch",
+      "date": "2026-03-25",
+      "type": "industry",
+      "tags": [
+        "行业动态",
+        "机器人",
+        "AI"
+      ],
+      "fetched_at": "2026-03-25T14:00:08.339175+00:00"
+    },
+    {
+      "title": "With $3.5B in fresh capital, Kleiner Perkins is going all in on AI",
+      "link": "https://techcrunch.com/2026/03/24/with-3-5b-in-fresh-capital-kleiner-perkins-is-going-all-in-on-ai/",
+      "summary": "The fundraise includes $1 billion for investing in early-stage startups, and $2.5 billion for late-stage growth businesses.",
+      "source": "TechCrunch",
+      "date": "2026-03-25",
+      "type": "product",
+      "tags": [
+        "AI",
+        "产品发布"
+      ],
+      "fetched_at": "2026-03-25T14:00:08.339472+00:00"
     },
     {
       "title": "中国AI音乐，悄悄把全球第一拿走了",
@@ -101,33 +154,6 @@
         "行业动态"
       ],
       "fetched_at": "2026-03-25T13:00:05.785379+00:00"
-    },
-    {
-      "title": "Lucid Bots raises $20M to keep up with demand for its window-washing drones",
-      "link": "https://techcrunch.com/2026/03/25/lucid-bots-raises-20m-to-keep-up-with-demand-for-its-window-washing-drones/",
-      "summary": "Lucid Bots has seen demand accelerate over the last year for its window cleaning drones and power washing robots.",
-      "source": "TechCrunch",
-      "date": "2026-03-25",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "机器人",
-        "行业动态"
-      ],
-      "fetched_at": "2026-03-25T13:00:06.887710+00:00"
-    },
-    {
-      "title": "With $3.5B in fresh capital, Kleiner Perkins is going all in on AI",
-      "link": "https://techcrunch.com/2026/03/24/with-3-5b-in-fresh-capital-kleiner-perkins-is-going-all-in-on-ai/",
-      "summary": "The fundraise includes $1 billion for investing in early-stage startups, and $2.5 billion for late-stage growth businesses.",
-      "source": "TechCrunch",
-      "date": "2026-03-25",
-      "type": "product",
-      "tags": [
-        "AI",
-        "产品发布"
-      ],
-      "fetched_at": "2026-03-25T13:00:06.888116+00:00"
     },
     {
       "title": "OpenAI’s Sora was the creepiest app on your phone — now it’s shutting down",
