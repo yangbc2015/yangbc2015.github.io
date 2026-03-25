@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-25T18:00:07.609159+00:00",
+  "last_updated": "2026-03-25T19:00:07.453627+00:00",
   "count": 48,
   "history_count": 48,
   "retention_days": 30,
@@ -12,10 +12,10 @@
       "date": "2026-03-26",
       "type": "industry",
       "tags": [
-        "AI",
-        "行业动态"
+        "行业动态",
+        "AI"
       ],
-      "fetched_at": "2026-03-25T18:00:07.607704+00:00"
+      "fetched_at": "2026-03-25T19:00:07.452408+00:00"
     },
     {
       "title": "Google launches Lyria 3 Pro music generation model",
@@ -29,7 +29,7 @@
         "重大突破",
         "Gemini"
       ],
-      "fetched_at": "2026-03-25T18:00:07.607893+00:00"
+      "fetched_at": "2026-03-25T19:00:07.452615+00:00"
     },
     {
       "title": "Reddit takes on the bots with new ‘human verification’ requirements for fishy behavior",
@@ -39,10 +39,10 @@
       "date": "2026-03-26",
       "type": "industry",
       "tags": [
-        "AI",
-        "行业动态"
+        "行业动态",
+        "AI"
       ],
-      "fetched_at": "2026-03-25T18:00:07.608129+00:00"
+      "fetched_at": "2026-03-25T19:00:07.452777+00:00"
     },
     {
       "title": "Claude 4 发布：Anthropic推出新一代AI模型",
@@ -52,11 +52,11 @@
       "date": "2026-03-25",
       "type": "breakthrough",
       "tags": [
+        "Claude",
         "AI",
-        "重大突破",
-        "Claude"
+        "重大突破"
       ],
-      "fetched_at": "2026-03-25T18:00:06.558033+00:00"
+      "fetched_at": "2026-03-25T19:00:05.764748+00:00"
     },
     {
       "title": "Google Gemini 2.5 Pro开放API访问",
@@ -70,7 +70,7 @@
         "产品发布",
         "Gemini"
       ],
-      "fetched_at": "2026-03-25T18:00:06.558083+00:00"
+      "fetched_at": "2026-03-25T19:00:05.765069+00:00"
     },
     {
       "title": "OpenAI发布GPT-4.5：更高效的推理架构",
@@ -80,11 +80,11 @@
       "date": "2026-03-25",
       "type": "breakthrough",
       "tags": [
-        "AI",
         "GPT",
+        "AI",
         "重大突破"
       ],
-      "fetched_at": "2026-03-25T18:00:06.558098+00:00"
+      "fetched_at": "2026-03-25T19:00:05.765086+00:00"
     },
     {
       "title": "第一批“首席龙虾官”，月薪6万",
@@ -94,10 +94,10 @@
       "date": "2026-03-25",
       "type": "industry",
       "tags": [
-        "AI",
-        "行业动态"
+        "行业动态",
+        "AI"
       ],
-      "fetched_at": "2026-03-25T18:00:06.765322+00:00"
+      "fetched_at": "2026-03-25T19:00:06.045023+00:00"
     },
     {
       "title": "睿尔曼“茶艺机器人”亮相2026中关村论坛",
@@ -107,11 +107,11 @@
       "date": "2026-03-25",
       "type": "industry",
       "tags": [
+        "机器人",
         "AI",
-        "行业动态",
-        "机器人"
+        "行业动态"
       ],
-      "fetched_at": "2026-03-25T18:00:06.765677+00:00"
+      "fetched_at": "2026-03-25T19:00:06.045278+00:00"
     },
     {
       "title": "从“被动感知”到“理解接触”，它石智航联合六大机构发布OmniVTA视触觉世界模型",
@@ -124,7 +124,7 @@
         "AI",
         "重大突破"
       ],
-      "fetched_at": "2026-03-25T18:00:06.765907+00:00"
+      "fetched_at": "2026-03-25T19:00:06.045424+00:00"
     },
     {
       "title": "DeepSeek急招Agent方向！一口气放17个岗位，重度Vibe Coding优先",
@@ -134,13 +134,13 @@
       "date": "2026-03-25",
       "type": "product",
       "tags": [
+        "DeepSeek",
+        "代码",
         "agent",
         "AI",
-        "DeepSeek",
-        "产品发布",
-        "代码"
+        "产品发布"
       ],
-      "fetched_at": "2026-03-25T18:00:06.766095+00:00"
+      "fetched_at": "2026-03-25T19:00:06.045638+00:00"
     },
     {
       "title": "Granola raises $125M, hits $1.5B valuation as it expands from meeting notetaker to enterprise AI app",
