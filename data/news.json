@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-03-25T14:00:08.340533+00:00",
-  "count": 42,
-  "history_count": 42,
+  "last_updated": "2026-03-25T15:00:08.062894+00:00",
+  "count": 45,
+  "history_count": 45,
   "retention_days": 30,
   "items": [
     {
@@ -12,11 +12,11 @@
       "date": "2026-03-25",
       "type": "breakthrough",
       "tags": [
-        "重大突破",
         "Claude",
-        "AI"
+        "AI",
+        "重大突破"
       ],
-      "fetched_at": "2026-03-25T14:00:06.733041+00:00"
+      "fetched_at": "2026-03-25T15:00:06.776864+00:00"
     },
     {
       "title": "Google Gemini 2.5 Pro开放API访问",
@@ -30,7 +30,7 @@
         "AI",
         "产品发布"
       ],
-      "fetched_at": "2026-03-25T14:00:06.733071+00:00"
+      "fetched_at": "2026-03-25T15:00:06.776897+00:00"
     },
     {
       "title": "OpenAI发布GPT-4.5：更高效的推理架构",
@@ -40,11 +40,11 @@
       "date": "2026-03-25",
       "type": "breakthrough",
       "tags": [
-        "重大突破",
         "GPT",
-        "AI"
+        "AI",
+        "重大突破"
       ],
-      "fetched_at": "2026-03-25T14:00:06.733086+00:00"
+      "fetched_at": "2026-03-25T15:00:06.776913+00:00"
     },
     {
       "title": "第一批“首席龙虾官”，月薪6万",
@@ -57,7 +57,7 @@
         "行业动态",
         "AI"
       ],
-      "fetched_at": "2026-03-25T14:00:07.002844+00:00"
+      "fetched_at": "2026-03-25T15:00:07.002705+00:00"
     },
     {
       "title": "睿尔曼“茶艺机器人”亮相2026中关村论坛",
@@ -67,11 +67,11 @@
       "date": "2026-03-25",
       "type": "industry",
       "tags": [
-        "行业动态",
         "机器人",
+        "行业动态",
         "AI"
       ],
-      "fetched_at": "2026-03-25T14:00:07.003043+00:00"
+      "fetched_at": "2026-03-25T15:00:07.002890+00:00"
     },
     {
       "title": "从“被动感知”到“理解接触”，它石智航联合六大机构发布OmniVTA视触觉世界模型",
@@ -81,10 +81,10 @@
       "date": "2026-03-25",
       "type": "breakthrough",
       "tags": [
-        "重大突破",
-        "AI"
+        "AI",
+        "重大突破"
       ],
-      "fetched_at": "2026-03-25T14:00:07.003500+00:00"
+      "fetched_at": "2026-03-25T15:00:07.003032+00:00"
     },
     {
       "title": "DeepSeek急招Agent方向！一口气放17个岗位，重度Vibe Coding优先",
@@ -94,13 +94,53 @@
       "date": "2026-03-25",
       "type": "product",
       "tags": [
+        "产品发布",
         "agent",
         "AI",
-        "产品发布",
         "代码",
         "DeepSeek"
       ],
-      "fetched_at": "2026-03-25T14:00:07.003914+00:00"
+      "fetched_at": "2026-03-25T15:00:07.003205+00:00"
+    },
+    {
+      "title": "Granola raises $125M, hits $1.5B valuation as it expands from meeting notetaker to enterprise AI app",
+      "link": "https://techcrunch.com/2026/03/25/granola-raises-125m-hits-1-5b-valuation-as-it-expands-from-meeting-notetaker-to-enterprise-ai-app/",
+      "summary": "Granola's valuation jumped from $250 million to $1.5 billion with this round, and it has added more support for AI agents after users previously complained.",
+      "source": "TechCrunch",
+      "date": "2026-03-25",
+      "type": "product",
+      "tags": [
+        "agent",
+        "AI",
+        "产品发布"
+      ],
+      "fetched_at": "2026-03-25T15:00:08.061316+00:00"
+    },
+    {
+      "title": "Meta launches new initiative to support entrepreneurship, drive AI adoption",
+      "link": "https://techcrunch.com/2026/03/25/meta-launches-new-initiative-to-support-entrepreneurship-drive-ai-adoption/",
+      "summary": "Meta CEO Mark Zuckerberg said in a memo to staff that small businesses have always been a big part of the company's business model, and that while tens of millions of entrepreneurs already use its platforms to grow and connect with customers, the company wants to do more in the space.",
+      "source": "TechCrunch",
+      "date": "2026-03-25",
+      "type": "breakthrough",
+      "tags": [
+        "AI",
+        "重大突破"
+      ],
+      "fetched_at": "2026-03-25T15:00:08.061870+00:00"
+    },
+    {
+      "title": "Meta turns to AI to make shopping easier on Instagram and Facebook",
+      "link": "https://techcrunch.com/2026/03/25/meta-turns-to-ai-to-make-shopping-easier-on-instagram-and-facebook/",
+      "summary": "Meta is using generative AI to provide more product and brand information to consumers when they're shopping in its apps.",
+      "source": "TechCrunch",
+      "date": "2026-03-25",
+      "type": "product",
+      "tags": [
+        "AI",
+        "产品发布"
+      ],
+      "fetched_at": "2026-03-25T15:00:08.062089+00:00"
     },
     {
       "title": "With Sift Stack, two ex-SpaceX engineers are bringing the software that helped launch rockets to the factory floor",
