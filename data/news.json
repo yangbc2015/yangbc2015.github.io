@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-03-25T11:00:07.453743+00:00",
-  "count": 38,
-  "history_count": 38,
+  "last_updated": "2026-03-25T12:00:07.721194+00:00",
+  "count": 39,
+  "history_count": 39,
   "retention_days": 30,
   "items": [
     {
@@ -16,7 +16,7 @@
         "Claude",
         "重大突破"
       ],
-      "fetched_at": "2026-03-25T11:00:06.165707+00:00"
+      "fetched_at": "2026-03-25T12:00:06.343473+00:00"
     },
     {
       "title": "Google Gemini 2.5 Pro开放API访问",
@@ -26,11 +26,11 @@
       "date": "2026-03-25",
       "type": "product",
       "tags": [
-        "Gemini",
         "AI",
+        "Gemini",
         "产品发布"
       ],
-      "fetched_at": "2026-03-25T11:00:06.165737+00:00"
+      "fetched_at": "2026-03-25T12:00:06.343507+00:00"
     },
     {
       "title": "OpenAI发布GPT-4.5：更高效的推理架构",
@@ -40,11 +40,11 @@
       "date": "2026-03-25",
       "type": "breakthrough",
       "tags": [
-        "GPT",
         "AI",
+        "GPT",
         "重大突破"
       ],
-      "fetched_at": "2026-03-25T11:00:06.165751+00:00"
+      "fetched_at": "2026-03-25T12:00:06.343523+00:00"
     },
     {
       "title": "从“被动感知”到“理解接触”，它石智航联合六大机构发布OmniVTA视触觉世界模型",
@@ -57,7 +57,7 @@
         "AI",
         "重大突破"
       ],
-      "fetched_at": "2026-03-25T11:00:06.375505+00:00"
+      "fetched_at": "2026-03-25T12:00:06.640239+00:00"
     },
     {
       "title": "DeepSeek急招Agent方向！一口气放17个岗位，重度Vibe Coding优先",
@@ -67,13 +67,13 @@
       "date": "2026-03-25",
       "type": "product",
       "tags": [
-        "agent",
-        "代码",
-        "DeepSeek",
         "AI",
-        "产品发布"
+        "代码",
+        "产品发布",
+        "agent",
+        "DeepSeek"
       ],
-      "fetched_at": "2026-03-25T11:00:06.375944+00:00"
+      "fetched_at": "2026-03-25T12:00:06.640451+00:00"
     },
     {
       "title": "中国AI音乐，悄悄把全球第一拿走了",
@@ -83,10 +83,10 @@
       "date": "2026-03-25",
       "type": "industry",
       "tags": [
-        "行业动态",
-        "AI"
+        "AI",
+        "行业动态"
       ],
-      "fetched_at": "2026-03-25T11:00:06.376512+00:00"
+      "fetched_at": "2026-03-25T12:00:06.640609+00:00"
     },
     {
       "title": "WorkBuddy杀疯了？一群AI专家帮我打工，我在微信里当赛博虾工头！",
@@ -96,10 +96,24 @@
       "date": "2026-03-25",
       "type": "industry",
       "tags": [
-        "行业动态",
-        "AI"
+        "AI",
+        "行业动态"
       ],
-      "fetched_at": "2026-03-25T11:00:06.376757+00:00"
+      "fetched_at": "2026-03-25T12:00:06.640775+00:00"
+    },
+    {
+      "title": "Lucid Bots raises $20M to keep up with demand for its window-washing drones",
+      "link": "https://techcrunch.com/2026/03/25/lucid-bots-raises-20m-to-keep-up-with-demand-for-its-window-washing-drones/",
+      "summary": "Lucid Bots has seen demand accelerate over the last year for its window cleaning drones and power washing robots.",
+      "source": "TechCrunch",
+      "date": "2026-03-25",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "机器人",
+        "行业动态"
+      ],
+      "fetched_at": "2026-03-25T12:00:07.718997+00:00"
     },
     {
       "title": "With $3.5B in fresh capital, Kleiner Perkins is going all in on AI",
@@ -112,7 +126,7 @@
         "AI",
         "产品发布"
       ],
-      "fetched_at": "2026-03-25T11:00:07.452579+00:00"
+      "fetched_at": "2026-03-25T12:00:07.719326+00:00"
     },
     {
       "title": "OpenAI’s Sora was the creepiest app on your phone — now it’s shutting down",
@@ -125,7 +139,7 @@
         "AI",
         "产品发布"
       ],
-      "fetched_at": "2026-03-25T11:00:07.452764+00:00"
+      "fetched_at": "2026-03-25T12:00:07.720116+00:00"
     },
     {
       "title": "Kentucky woman rejects $26M offer to turn her farm into a data center",
