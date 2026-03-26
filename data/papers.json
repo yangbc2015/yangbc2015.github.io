@@ -1,56 +1,20 @@
 {
-  "last_updated": "2026-03-26T02:42:04.942118+00:00",
-  "count": 8,
+  "last_updated": "2026-03-26T03:00:59.707450+00:00",
+  "count": 7,
   "items": [
     {
-      "title": "Language-Guided Structure-Aware Network for Camouflaged Object Detection",
-      "authors": "Min Zhang",
-      "abstract": "Camouflaged Object Detection (COD) aims to segment objects that are highly integrated with the background in terms of color, texture, and structure, making it a highly challenging task in computer vision. Although existing methods introduce multi-scale fusion and attention mechanisms to alleviate th...",
+      "title": "The Stochastic Gap: A Markovian Framework for Pre-Deployment Reliability and Oversight-Cost Auditing in Agentic Artificial Intelligence",
+      "authors": "Biplab Pal, Santanu Bhattacharya",
+      "abstract": "Agentic artificial intelligence (AI) in organizations is a sequential decision problem constrained by reliability and oversight cost. When deterministic workflows are replaced by stochastic policies over actions and tool calls, the key question is not whether a next step appears plausible, but wheth...",
       "venue": "arXiv",
       "date": "2026-03-25",
-      "arxiv_id": "2603.24355v1",
-      "url": "https://arxiv.org/abs/2603.24355v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.24355v1.pdf",
+      "arxiv_id": "2603.24582v1",
+      "url": "https://arxiv.org/abs/2603.24582v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.24582v1.pdf",
       "categories": [
-        "cs.CV",
         "cs.AI"
       ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Evidence of an Emergent \"Self\" in Continual Robot Learning",
-      "authors": "Adidev Jhunjhunwala, Judah Goldfeder, Hod Lipson",
-      "abstract": "A key challenge to understanding self-awareness has been a principled way of quantifying whether an intelligent system has a concept of a \"self,\" and if so how to differentiate the \"self\" from other cognitive structures. We propose that the \"self\" can be isolated by seeking the invariant portion of ...",
-      "venue": "arXiv",
-      "date": "2026-03-25",
-      "arxiv_id": "2603.24350v1",
-      "url": "https://arxiv.org/abs/2603.24350v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.24350v1.pdf",
-      "categories": [
-        "cs.RO",
-        "cs.AI",
-        "cs.LG"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Comparing Developer and LLM Biases in Code Evaluation",
-      "authors": "Aditya Mittal, Ryan Shar, Zichu Wu et al.",
-      "abstract": "As LLMs are increasingly used as judges in code applications, they should be evaluated in realistic interactive settings that capture partial context and ambiguous intent. We present TRACE (Tool for Rubric Analysis in Code Evaluation), a framework that evaluates LLM judges' ability to predict human ...",
-      "venue": "arXiv",
-      "date": "2026-03-25",
-      "arxiv_id": "2603.24586v1",
-      "url": "https://arxiv.org/abs/2603.24586v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.24586v1.pdf",
-      "categories": [
-        "cs.SE",
-        "cs.CL"
-      ],
-      "type": "benchmark",
+      "type": "ai",
       "badge": "arxiv",
       "source": "arXiv"
     },
@@ -69,6 +33,23 @@
         "cs.CY"
       ],
       "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Comparing Developer and LLM Biases in Code Evaluation",
+      "authors": "Aditya Mittal, Ryan Shar, Zichu Wu et al.",
+      "abstract": "As LLMs are increasingly used as judges in code applications, they should be evaluated in realistic interactive settings that capture partial context and ambiguous intent. We present TRACE (Tool for Rubric Analysis in Code Evaluation), a framework that evaluates LLM judges' ability to predict human ...",
+      "venue": "arXiv",
+      "date": "2026-03-25",
+      "arxiv_id": "2603.24586v1",
+      "url": "https://arxiv.org/abs/2603.24586v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.24586v1.pdf",
+      "categories": [
+        "cs.SE",
+        "cs.CL"
+      ],
+      "type": "benchmark",
       "badge": "arxiv",
       "source": "arXiv"
     },

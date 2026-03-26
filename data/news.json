@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-26T02:42:04.336978+00:00",
+  "last_updated": "2026-03-26T03:00:36.899765+00:00",
   "count": 52,
   "history_count": 52,
   "retention_days": 30,
@@ -12,11 +12,11 @@
       "date": "2026-03-26",
       "type": "breakthrough",
       "tags": [
-        "重大突破",
         "AI",
-        "Claude"
+        "Claude",
+        "重大突破"
       ],
-      "fetched_at": "2026-03-26T02:42:02.966070+00:00"
+      "fetched_at": "2026-03-26T03:00:06.382536+00:00"
     },
     {
       "title": "Google Gemini 2.5 Pro开放API访问",
@@ -27,10 +27,10 @@
       "type": "product",
       "tags": [
         "Gemini",
-        "产品发布",
-        "AI"
+        "AI",
+        "产品发布"
       ],
-      "fetched_at": "2026-03-26T02:42:02.966094+00:00"
+      "fetched_at": "2026-03-26T03:00:06.382569+00:00"
     },
     {
       "title": "OpenAI发布GPT-4.5：更高效的推理架构",
@@ -40,11 +40,11 @@
       "date": "2026-03-26",
       "type": "breakthrough",
       "tags": [
-        "重大突破",
         "AI",
-        "GPT"
+        "GPT",
+        "重大突破"
       ],
-      "fetched_at": "2026-03-26T02:42:02.966107+00:00"
+      "fetched_at": "2026-03-26T03:00:06.382584+00:00"
     },
     {
       "title": "Mercor competitor Deccan AI raises $25M, sources experts from India",
@@ -147,10 +147,10 @@
       "date": "2026-03-25",
       "type": "industry",
       "tags": [
-        "AI",
-        "行业动态"
+        "行业动态",
+        "AI"
       ],
-      "fetched_at": "2026-03-26T02:42:04.245355+00:00"
+      "fetched_at": "2026-03-26T03:00:06.745001+00:00"
     },
     {
       "title": "睿尔曼“茶艺机器人”亮相2026中关村论坛",
@@ -160,11 +160,11 @@
       "date": "2026-03-25",
       "type": "industry",
       "tags": [
-        "AI",
         "机器人",
-        "行业动态"
+        "行业动态",
+        "AI"
       ],
-      "fetched_at": "2026-03-26T02:42:04.245529+00:00"
+      "fetched_at": "2026-03-26T03:00:06.745640+00:00"
     },
     {
       "title": "从“被动感知”到“理解接触”，它石智航联合六大机构发布OmniVTA视触觉世界模型",
@@ -174,10 +174,10 @@
       "date": "2026-03-25",
       "type": "breakthrough",
       "tags": [
-        "重大突破",
-        "AI"
+        "AI",
+        "重大突破"
       ],
-      "fetched_at": "2026-03-26T02:42:04.245672+00:00"
+      "fetched_at": "2026-03-26T03:00:06.745876+00:00"
     },
     {
       "title": "DeepSeek急招Agent方向！一口气放17个岗位，重度Vibe Coding优先",
@@ -187,13 +187,13 @@
       "date": "2026-03-25",
       "type": "product",
       "tags": [
-        "产品发布",
         "代码",
-        "agent",
         "DeepSeek",
+        "agent",
+        "产品发布",
         "AI"
       ],
-      "fetched_at": "2026-03-26T02:42:04.245816+00:00"
+      "fetched_at": "2026-03-26T03:00:06.746037+00:00"
     },
     {
       "title": "Granola raises $125M, hits $1.5B valuation as it expands from meeting notetaker to enterprise AI app",
