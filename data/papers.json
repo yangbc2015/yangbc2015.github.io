@@ -1,85 +1,68 @@
 {
-  "last_updated": "2026-03-26T01:00:27.158661+00:00",
-  "count": 7,
+  "last_updated": "2026-03-26T02:00:33.166956+00:00",
+  "count": 8,
   "items": [
     {
-      "title": "CoordLight: Learning Decentralized Coordination for Network-Wide Traffic Signal Control",
-      "authors": "Yifeng Zhang, Harsh Goel, Peizhuo Li et al.",
-      "abstract": "Adaptive traffic signal control (ATSC) is crucial in alleviating congestion, maximizing throughput and promoting sustainable mobility in ever-expanding cities. Multi-Agent Reinforcement Learning (MARL) has recently shown significant potential in addressing complex traffic dynamics, but the intricaci...",
+      "title": "Language-Guided Structure-Aware Network for Camouflaged Object Detection",
+      "authors": "Min Zhang",
+      "abstract": "Camouflaged Object Detection (COD) aims to segment objects that are highly integrated with the background in terms of color, texture, and structure, making it a highly challenging task in computer vision. Although existing methods introduce multi-scale fusion and attention mechanisms to alleviate th...",
       "venue": "arXiv",
       "date": "2026-03-25",
-      "arxiv_id": "2603.24366v1",
-      "url": "https://arxiv.org/abs/2603.24366v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.24366v1.pdf",
+      "arxiv_id": "2603.24355v1",
+      "url": "https://arxiv.org/abs/2603.24355v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.24355v1.pdf",
       "categories": [
-        "cs.LG",
-        "cs.RO"
+        "cs.CV",
+        "cs.AI"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Evidence of an Emergent \"Self\" in Continual Robot Learning",
+      "authors": "Adidev Jhunjhunwala, Judah Goldfeder, Hod Lipson",
+      "abstract": "A key challenge to understanding self-awareness has been a principled way of quantifying whether an intelligent system has a concept of a \"self,\" and if so how to differentiate the \"self\" from other cognitive structures. We propose that the \"self\" can be isolated by seeking the invariant portion of ...",
+      "venue": "arXiv",
+      "date": "2026-03-25",
+      "arxiv_id": "2603.24350v1",
+      "url": "https://arxiv.org/abs/2603.24350v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.24350v1.pdf",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.LG"
       ],
       "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "LATS: Large Language Model Assisted Teacher-Student Framework for Multi-Agent Reinforcement Learning in Traffic Signal Control",
-      "authors": "Yifeng Zhang, Peizhuo Li, Tingguang Zhou et al.",
-      "abstract": "Adaptive Traffic Signal Control (ATSC) aims to optimize traffic flow and minimize delays by adjusting traffic lights in real time. Recent advances in Multi-agent Reinforcement Learning (MARL) have shown promise for ATSC, yet existing approaches still suffer from limited representational capacity, of...",
+      "title": "Comparing Developer and LLM Biases in Code Evaluation",
+      "authors": "Aditya Mittal, Ryan Shar, Zichu Wu et al.",
+      "abstract": "As LLMs are increasingly used as judges in code applications, they should be evaluated in realistic interactive settings that capture partial context and ambiguous intent. We present TRACE (Tool for Rubric Analysis in Code Evaluation), a framework that evaluates LLM judges' ability to predict human ...",
       "venue": "arXiv",
       "date": "2026-03-25",
-      "arxiv_id": "2603.24361v1",
-      "url": "https://arxiv.org/abs/2603.24361v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.24361v1.pdf",
+      "arxiv_id": "2603.24586v1",
+      "url": "https://arxiv.org/abs/2603.24586v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.24586v1.pdf",
       "categories": [
-        "cs.RO"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "MedObvious: Exposing the Medical Moravec's Paradox in VLMs via Clinical Triage",
-      "authors": "Ufaq Khan, Umair Nawaz, L D M S S Teja et al.",
-      "abstract": "Vision Language Models (VLMs) are increasingly used for tasks like medical report generation and visual question answering. However, fluent diagnostic text does not guarantee safe visual understanding. In clinical practice, interpretation begins with pre-diagnostic sanity checks: verifying that the ...",
-      "venue": "arXiv",
-      "date": "2026-03-24",
-      "arxiv_id": "2603.23501v1",
-      "url": "https://arxiv.org/abs/2603.23501v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.23501v1.pdf",
-      "categories": [
-        "cs.CV",
-        "cs.AI",
+        "cs.SE",
         "cs.CL"
       ],
-      "type": "nlp",
+      "type": "benchmark",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "VISion On Request: Enhanced VLLM efficiency with sparse, dynamically selected, vision-language interactions",
-      "authors": "Adrian Bulat, Alberto Baldrati, Ioannis Maniadis Metaxas et al.",
-      "abstract": "Existing approaches for improving the efficiency of Large Vision-Language Models (LVLMs) are largely based on the concept of visual token reduction. This approach, however, creates an information bottleneck that impairs performance, especially on challenging tasks that require fine-grained understan...",
+      "title": "Retrieval Improvements Do Not Guarantee Better Answers: A Study of RAG for AI Policy QA",
+      "authors": "Saahil Mathur, Ryan David Rittner, Vedant Ajit Thakur et al.",
+      "abstract": "Retrieval-augmented generation (RAG) systems are increasingly used to analyze complex policy documents, but achieving sufficient reliability for expert usage remains challenging in domains characterized by dense legal language and evolving, overlapping regulatory frameworks. We study the application...",
       "venue": "arXiv",
-      "date": "2026-03-24",
-      "arxiv_id": "2603.23495v1",
-      "url": "https://arxiv.org/abs/2603.23495v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.23495v1.pdf",
-      "categories": [
-        "cs.CV",
-        "cs.AI",
-        "cs.LG"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Failure of contextual invariance in gender inference with large language models",
-      "authors": "Sagar Kumar, Ariel Flint, Luca Maria Aiello et al.",
-      "abstract": "Standard evaluation practices assume that large language model (LLM) outputs are stable under contextually equivalent formulations of a task. Here, we test this assumption in the setting of gender inference. Using a controlled pronoun selection task, we introduce minimal, theoretically uninformative...",
-      "venue": "arXiv",
-      "date": "2026-03-24",
-      "arxiv_id": "2603.23485v1",
-      "url": "https://arxiv.org/abs/2603.23485v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.23485v1.pdf",
+      "date": "2026-03-25",
+      "arxiv_id": "2603.24580v1",
+      "url": "https://arxiv.org/abs/2603.24580v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.24580v1.pdf",
       "categories": [
         "cs.CL",
         "cs.AI",
@@ -90,32 +73,69 @@
       "source": "arXiv"
     },
     {
-      "title": "OccAny: Generalized Unconstrained Urban 3D Occupancy",
-      "authors": "Anh-Quan Cao, Tuan-Hung Vu",
-      "abstract": "Relying on in-domain annotations and precise sensor-rig priors, existing 3D occupancy prediction methods are limited in both scalability and out-of-domain generalization. While recent visual geometry foundation models exhibit strong generalization capabilities, they were mainly designed for general ...",
+      "title": "TAG: Target-Agnostic Guidance for Stable Object-Centric Inference in Vision-Language-Action Models",
+      "authors": "Jiaying Zhou, Zhihao Zhan, Ruifeng Zhai et al.",
+      "abstract": "Vision--Language--Action (VLA) policies have shown strong progress in mapping language instructions and visual observations to robotic actions, yet their reliability degrades in cluttered scenes with distractors. By analyzing failure cases, we find that many errors do not arise from infeasible motio...",
       "venue": "arXiv",
-      "date": "2026-03-24",
-      "arxiv_id": "2603.23502v1",
-      "url": "https://arxiv.org/abs/2603.23502v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.23502v1.pdf",
+      "date": "2026-03-25",
+      "arxiv_id": "2603.24584v1",
+      "url": "https://arxiv.org/abs/2603.24584v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.24584v1.pdf",
       "categories": [
-        "cs.CV"
+        "cs.CV",
+        "cs.RO"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Latent-WAM: Latent World Action Modeling for End-to-End Autonomous Driving",
+      "authors": "Linbo Wang, Yupeng Zheng, Qiang Chen et al.",
+      "abstract": "We introduce Latent-WAM, an efficient end-to-end autonomous driving framework that achieves strong trajectory planning through spatially-aware and dynamics-informed latent world representations. Existing world-model-based planners suffer from inadequately compressed representations, limited spatial ...",
+      "venue": "arXiv",
+      "date": "2026-03-25",
+      "arxiv_id": "2603.24581v1",
+      "url": "https://arxiv.org/abs/2603.24581v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.24581v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
       ],
       "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Estimating Flow Velocity and Vehicle Angle-of-Attack from Non-invasive Piezoelectric Structural Measurements Using Deep Learning",
-      "authors": "Chandler B. Smith, S. Hales Swift, Andrew Steyer et al.",
-      "abstract": "Accurate estimation of aerodynamic state variables such as freestream velocity and angle of attack (AoA) is important for aerodynamic load prediction, flight control, and model validation. This work presents a non-intrusive method for estimating vehicle velocity and AoA from structural vibration mea...",
+      "title": "Polynomial Speedup in Diffusion Models with the Multilevel Euler-Maruyama Method",
+      "authors": "Arthur Jacot",
+      "abstract": "We introduce the Multilevel Euler-Maruyama (ML-EM) method compute solutions of SDEs and ODEs using a range of approximators $f^1,\\dots,f^k$ to the drift $f$ with increasing accuracy and computational cost, only requiring a few evaluations of the most accurate $f^k$ and many evaluations of the less c...",
       "venue": "arXiv",
-      "date": "2026-03-24",
-      "arxiv_id": "2603.23496v1",
-      "url": "https://arxiv.org/abs/2603.23496v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.23496v1.pdf",
+      "date": "2026-03-25",
+      "arxiv_id": "2603.24594v1",
+      "url": "https://arxiv.org/abs/2603.24594v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.24594v1.pdf",
       "categories": [
-        "cs.LG"
+        "cs.LG",
+        "math.NA",
+        "stat.ML"
+      ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "DreamerAD: Efficient Reinforcement Learning via Latent World Model for Autonomous Driving",
+      "authors": "Pengxuan Yang, Yupeng Zheng, Deheng Qian et al.",
+      "abstract": "We introduce DreamerAD, the first latent world model framework that enables efficient reinforcement learning for autonomous driving by compressing diffusion sampling from 100 steps to 1 - achieving 80x speedup while maintaining visual interpretability. Training RL policies on real-world driving data...",
+      "venue": "arXiv",
+      "date": "2026-03-25",
+      "arxiv_id": "2603.24587v1",
+      "url": "https://arxiv.org/abs/2603.24587v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.24587v1.pdf",
+      "categories": [
+        "cs.LG",
+        "cs.RO"
       ],
       "type": "ml",
       "badge": "arxiv",
