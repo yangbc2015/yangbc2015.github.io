@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-03-26T00:00:07.553565+00:00",
-  "count": 51,
-  "history_count": 51,
+  "last_updated": "2026-03-26T01:00:07.599952+00:00",
+  "count": 52,
+  "history_count": 52,
   "retention_days": 30,
   "items": [
     {
@@ -12,11 +12,11 @@
       "date": "2026-03-26",
       "type": "breakthrough",
       "tags": [
-        "AI",
         "Claude",
+        "AI",
         "重大突破"
       ],
-      "fetched_at": "2026-03-26T00:00:06.185729+00:00"
+      "fetched_at": "2026-03-26T01:00:06.526487+00:00"
     },
     {
       "title": "Google Gemini 2.5 Pro开放API访问",
@@ -26,11 +26,11 @@
       "date": "2026-03-26",
       "type": "product",
       "tags": [
-        "AI",
         "Gemini",
-        "产品发布"
+        "产品发布",
+        "AI"
       ],
-      "fetched_at": "2026-03-26T00:00:06.185758+00:00"
+      "fetched_at": "2026-03-26T01:00:06.526651+00:00"
     },
     {
       "title": "OpenAI发布GPT-4.5：更高效的推理架构",
@@ -44,7 +44,20 @@
         "AI",
         "重大突破"
       ],
-      "fetched_at": "2026-03-26T00:00:06.185773+00:00"
+      "fetched_at": "2026-03-26T01:00:06.526676+00:00"
+    },
+    {
+      "title": "Mercor competitor Deccan AI raises $25M, sources experts from India",
+      "link": "https://techcrunch.com/2026/03/25/deccan-ai-raises-25m-as-ai-training-push-relies-on-india-based-workforce/",
+      "summary": "Deccan AI concentrates its workforce in India to manage quality in a fast-growing but fragmented AI training market.",
+      "source": "TechCrunch",
+      "date": "2026-03-26",
+      "type": "industry",
+      "tags": [
+        "行业动态",
+        "AI"
+      ],
+      "fetched_at": "2026-03-26T01:00:07.598328+00:00"
     },
     {
       "title": "The AI skills gap is here, says AI company, and power users are pulling ahead",
@@ -54,10 +67,10 @@
       "date": "2026-03-26",
       "type": "industry",
       "tags": [
-        "AI",
-        "行业动态"
+        "行业动态",
+        "AI"
       ],
-      "fetched_at": "2026-03-26T00:00:07.551197+00:00"
+      "fetched_at": "2026-03-26T01:00:07.598517+00:00"
     },
     {
       "title": "Google unveils TurboQuant, a new AI memory compression algorithm — and yes, the internet is calling it ‘Pied Piper’",
@@ -67,10 +80,10 @@
       "date": "2026-03-26",
       "type": "industry",
       "tags": [
-        "AI",
-        "行业动态"
+        "行业动态",
+        "AI"
       ],
-      "fetched_at": "2026-03-26T00:00:07.551915+00:00"
+      "fetched_at": "2026-03-26T01:00:07.598694+00:00"
     },
     {
       "title": "Melania Trump wants a robot to homeschool your child",
@@ -134,10 +147,10 @@
       "date": "2026-03-25",
       "type": "industry",
       "tags": [
-        "AI",
-        "行业动态"
+        "行业动态",
+        "AI"
       ],
-      "fetched_at": "2026-03-26T00:00:06.668675+00:00"
+      "fetched_at": "2026-03-26T01:00:06.767946+00:00"
     },
     {
       "title": "睿尔曼“茶艺机器人”亮相2026中关村论坛",
@@ -147,11 +160,11 @@
       "date": "2026-03-25",
       "type": "industry",
       "tags": [
-        "AI",
         "机器人",
-        "行业动态"
+        "行业动态",
+        "AI"
       ],
-      "fetched_at": "2026-03-26T00:00:06.669010+00:00"
+      "fetched_at": "2026-03-26T01:00:06.768273+00:00"
     },
     {
       "title": "从“被动感知”到“理解接触”，它石智航联合六大机构发布OmniVTA视触觉世界模型",
@@ -164,7 +177,7 @@
         "AI",
         "重大突破"
       ],
-      "fetched_at": "2026-03-26T00:00:06.669206+00:00"
+      "fetched_at": "2026-03-26T01:00:06.768532+00:00"
     },
     {
       "title": "DeepSeek急招Agent方向！一口气放17个岗位，重度Vibe Coding优先",
@@ -174,13 +187,13 @@
       "date": "2026-03-25",
       "type": "product",
       "tags": [
-        "AI",
+        "agent",
+        "产品发布",
         "DeepSeek",
         "代码",
-        "产品发布",
-        "agent"
+        "AI"
       ],
-      "fetched_at": "2026-03-26T00:00:06.669358+00:00"
+      "fetched_at": "2026-03-26T01:00:06.768722+00:00"
     },
     {
       "title": "Granola raises $125M, hits $1.5B valuation as it expands from meeting notetaker to enterprise AI app",

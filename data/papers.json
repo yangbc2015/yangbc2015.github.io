@@ -1,20 +1,37 @@
 {
-  "last_updated": "2026-03-26T00:01:40.520362+00:00",
-  "count": 6,
+  "last_updated": "2026-03-26T01:00:27.158661+00:00",
+  "count": 7,
   "items": [
     {
-      "title": "OccAny: Generalized Unconstrained Urban 3D Occupancy",
-      "authors": "Anh-Quan Cao, Tuan-Hung Vu",
-      "abstract": "Relying on in-domain annotations and precise sensor-rig priors, existing 3D occupancy prediction methods are limited in both scalability and out-of-domain generalization. While recent visual geometry foundation models exhibit strong generalization capabilities, they were mainly designed for general ...",
+      "title": "CoordLight: Learning Decentralized Coordination for Network-Wide Traffic Signal Control",
+      "authors": "Yifeng Zhang, Harsh Goel, Peizhuo Li et al.",
+      "abstract": "Adaptive traffic signal control (ATSC) is crucial in alleviating congestion, maximizing throughput and promoting sustainable mobility in ever-expanding cities. Multi-Agent Reinforcement Learning (MARL) has recently shown significant potential in addressing complex traffic dynamics, but the intricaci...",
       "venue": "arXiv",
-      "date": "2026-03-24",
-      "arxiv_id": "2603.23502v1",
-      "url": "https://arxiv.org/abs/2603.23502v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.23502v1.pdf",
+      "date": "2026-03-25",
+      "arxiv_id": "2603.24366v1",
+      "url": "https://arxiv.org/abs/2603.24366v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.24366v1.pdf",
       "categories": [
-        "cs.CV"
+        "cs.LG",
+        "cs.RO"
       ],
-      "type": "vision",
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "LATS: Large Language Model Assisted Teacher-Student Framework for Multi-Agent Reinforcement Learning in Traffic Signal Control",
+      "authors": "Yifeng Zhang, Peizhuo Li, Tingguang Zhou et al.",
+      "abstract": "Adaptive Traffic Signal Control (ATSC) aims to optimize traffic flow and minimize delays by adjusting traffic lights in real time. Recent advances in Multi-agent Reinforcement Learning (MARL) have shown promise for ATSC, yet existing approaches still suffer from limited representational capacity, of...",
+      "venue": "arXiv",
+      "date": "2026-03-25",
+      "arxiv_id": "2603.24361v1",
+      "url": "https://arxiv.org/abs/2603.24361v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.24361v1.pdf",
+      "categories": [
+        "cs.RO"
+      ],
+      "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
@@ -37,22 +54,6 @@
       "source": "arXiv"
     },
     {
-      "title": "Estimating Flow Velocity and Vehicle Angle-of-Attack from Non-invasive Piezoelectric Structural Measurements Using Deep Learning",
-      "authors": "Chandler B. Smith, S. Hales Swift, Andrew Steyer et al.",
-      "abstract": "Accurate estimation of aerodynamic state variables such as freestream velocity and angle of attack (AoA) is important for aerodynamic load prediction, flight control, and model validation. This work presents a non-intrusive method for estimating vehicle velocity and AoA from structural vibration mea...",
-      "venue": "arXiv",
-      "date": "2026-03-24",
-      "arxiv_id": "2603.23496v1",
-      "url": "https://arxiv.org/abs/2603.23496v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.23496v1.pdf",
-      "categories": [
-        "cs.LG"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
       "title": "VISion On Request: Enhanced VLLM efficiency with sparse, dynamically selected, vision-language interactions",
       "authors": "Adrian Bulat, Alberto Baldrati, Ioannis Maniadis Metaxas et al.",
       "abstract": "Existing approaches for improving the efficiency of Large Vision-Language Models (LVLMs) are largely based on the concept of visual token reduction. This approach, however, creates an information bottleneck that impairs performance, especially on challenging tasks that require fine-grained understan...",
@@ -71,17 +72,33 @@
       "source": "arXiv"
     },
     {
-      "title": "VTAM: Video-Tactile-Action Models for Complex Physical Interaction Beyond VLAs",
-      "authors": "Haoran Yuan, Weigang Yi, Zhenyu Zhang et al.",
-      "abstract": "Video-Action Models (VAMs) have emerged as a promising framework for embodied intelligence, learning implicit world dynamics from raw video streams to produce temporally consistent action predictions. Although such models demonstrate strong performance on long-horizon tasks through visual reasoning,...",
+      "title": "Failure of contextual invariance in gender inference with large language models",
+      "authors": "Sagar Kumar, Ariel Flint, Luca Maria Aiello et al.",
+      "abstract": "Standard evaluation practices assume that large language model (LLM) outputs are stable under contextually equivalent formulations of a task. Here, we test this assumption in the setting of gender inference. Using a controlled pronoun selection task, we introduce minimal, theoretically uninformative...",
       "venue": "arXiv",
       "date": "2026-03-24",
-      "arxiv_id": "2603.23481v1",
-      "url": "https://arxiv.org/abs/2603.23481v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.23481v1.pdf",
+      "arxiv_id": "2603.23485v1",
+      "url": "https://arxiv.org/abs/2603.23485v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.23485v1.pdf",
       "categories": [
-        "cs.RO",
+        "cs.CL",
         "cs.AI",
+        "cs.CY"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "OccAny: Generalized Unconstrained Urban 3D Occupancy",
+      "authors": "Anh-Quan Cao, Tuan-Hung Vu",
+      "abstract": "Relying on in-domain annotations and precise sensor-rig priors, existing 3D occupancy prediction methods are limited in both scalability and out-of-domain generalization. While recent visual geometry foundation models exhibit strong generalization capabilities, they were mainly designed for general ...",
+      "venue": "arXiv",
+      "date": "2026-03-24",
+      "arxiv_id": "2603.23502v1",
+      "url": "https://arxiv.org/abs/2603.23502v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.23502v1.pdf",
+      "categories": [
         "cs.CV"
       ],
       "type": "vision",
@@ -89,20 +106,18 @@
       "source": "arXiv"
     },
     {
-      "title": "Planning over MAPF Agent Dependencies via Multi-Dependency PIBT",
-      "authors": "Zixiang Jiang, Yulun Zhang, Rishi Veerapaneni et al.",
-      "abstract": "Modern Multi-Agent Path Finding (MAPF) algorithms must plan for hundreds to thousands of agents in congested environments within a second, requiring highly efficient algorithms. Priority Inheritance with Backtracking (PIBT) is a popular algorithm capable of effectively planning in such situations. H...",
+      "title": "Estimating Flow Velocity and Vehicle Angle-of-Attack from Non-invasive Piezoelectric Structural Measurements Using Deep Learning",
+      "authors": "Chandler B. Smith, S. Hales Swift, Andrew Steyer et al.",
+      "abstract": "Accurate estimation of aerodynamic state variables such as freestream velocity and angle of attack (AoA) is important for aerodynamic load prediction, flight control, and model validation. This work presents a non-intrusive method for estimating vehicle velocity and AoA from structural vibration mea...",
       "venue": "arXiv",
       "date": "2026-03-24",
-      "arxiv_id": "2603.23405v1",
-      "url": "https://arxiv.org/abs/2603.23405v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.23405v1.pdf",
+      "arxiv_id": "2603.23496v1",
+      "url": "https://arxiv.org/abs/2603.23496v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.23496v1.pdf",
       "categories": [
-        "cs.MA",
-        "cs.AI",
-        "cs.RO"
+        "cs.LG"
       ],
-      "type": "ai",
+      "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     }
