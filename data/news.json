@@ -93,11 +93,11 @@
       "date": "2026-03-26",
       "type": "industry",
       "tags": [
-        "AI",
         "机器人",
+        "AI",
         "行业动态"
       ],
-      "fetched_at": "2026-03-26T00:00:07.552355+00:00"
+      "fetched_at": "2026-03-26T00:13:13.025180+00:00"
     },
     {
       "title": "Bernie Sanders and AOC propose a ban on data center construction",
@@ -190,6 +190,8 @@
         "agent",
         "产品发布",
         "DeepSeek",
+        "agent",
+        "AI",
         "代码",
         "AI"
       ],
