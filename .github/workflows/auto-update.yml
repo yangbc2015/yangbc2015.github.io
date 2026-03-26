@@ -6,13 +6,11 @@ on:
     - cron: '0 0 * * *'
   # 允许手动触发
   workflow_dispatch:
-  # 在 push 到 main 分支时也触发（用于测试）
-  push:
-    branches:
-      - main
-    paths:
-      - '.github/workflows/auto-update.yml'
-      - 'scripts/scraper/**'
+
+# 确保不会与其他部署冲突
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
   update-data:
