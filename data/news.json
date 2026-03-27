@@ -1,9 +1,21 @@
 {
-  "last_updated": "2026-03-27T08:00:09.758934+00:00",
-  "count": 69,
-  "history_count": 69,
+  "last_updated": "2026-03-27T09:00:07.527730+00:00",
+  "count": 70,
+  "history_count": 70,
   "retention_days": 30,
   "items": [
+    {
+      "title": "“个人AI将始于端侧，我们正在迈向以AI和用户为中心的多终端体验”",
+      "link": "https://www.qbitai.com/?s=“个人AI将始于端侧",
+      "summary": "“个人AI将始于端侧，我们正在迈向以AI和用户为中心的多终端体验”...",
+      "date": "2026-03-27",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
     {
       "title": "长文探讨从“推理模型时代的思考”到“智能体时代的思考”的转变。",
       "link": "https://www.qbitai.com/?s=长文探讨从“推理模型",
@@ -53,18 +65,6 @@
       ]
     },
     {
-      "title": "多智能体协同编程，前后端同步开发",
-      "link": "https://www.qbitai.com/?s=多智能体协同编程，前",
-      "summary": "多智能体协同编程，前后端同步开发...",
-      "date": "2026-03-27",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
       "title": "*   [Latest](http://techcrunch.com/latest/)",
       "link": "https://techcrunch.com/category/artificial-intelligence/",
       "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
@@ -74,6 +74,18 @@
       "tags": [
         "AI",
         "Artificial Intelligence"
+      ]
+    },
+    {
+      "title": "多智能体协同编程，前后端同步开发",
+      "link": "https://www.qbitai.com/?s=多智能体协同编程，前",
+      "summary": "多智能体协同编程，前后端同步开发...",
+      "date": "2026-03-27",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
       ]
     },
     {
