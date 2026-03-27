@@ -1,7 +1,43 @@
 {
-  "last_updated": "2026-03-27T20:01:06.027218+00:00",
+  "last_updated": "2026-03-27T21:00:13.783743+00:00",
   "count": 7,
   "items": [
+    {
+      "title": "Vega: Learning to Drive with Natural Language Instructions",
+      "authors": "Sicheng Zuo, Yuxuan Li, Wenzhao Zheng et al.",
+      "abstract": "Vision-language-action models have reshaped autonomous driving to incorporate languages into the decision-making process. However, most existing pipelines only utilize the language modality for scene descriptions or reasoning and lack the flexibility to follow diverse user instructions for personali...",
+      "venue": "arXiv",
+      "date": "2026-03-26",
+      "arxiv_id": "2603.25741v1",
+      "url": "https://arxiv.org/abs/2603.25741v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.25741v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.RO"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Drive My Way: Preference Alignment of Vision-Language-Action Model for Personalized Driving",
+      "authors": "Zehao Wang, Huaide Jiang, Shuaiwu Dong et al.",
+      "abstract": "Human driving behavior is inherently personal, which is shaped by long-term habits and influenced by short-term intentions. Individuals differ in how they accelerate, brake, merge, yield, and overtake across diverse situations. However, existing end-to-end autonomous driving systems either optimize ...",
+      "venue": "arXiv",
+      "date": "2026-03-26",
+      "arxiv_id": "2603.25740v1",
+      "url": "https://arxiv.org/abs/2603.25740v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.25740v1.pdf",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.CV"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
     {
       "title": "Training the Knowledge Base through Evidence Distillation and Write-Back Enrichment",
       "authors": "Yuxing Lu, Xukai Zhao, Wei Wu et al.",
@@ -70,24 +106,6 @@
       "source": "arXiv"
     },
     {
-      "title": "Drive My Way: Preference Alignment of Vision-Language-Action Model for Personalized Driving",
-      "authors": "Zehao Wang, Huaide Jiang, Shuaiwu Dong et al.",
-      "abstract": "Human driving behavior is inherently personal, which is shaped by long-term habits and influenced by short-term intentions. Individuals differ in how they accelerate, brake, merge, yield, and overtake across diverse situations. However, existing end-to-end autonomous driving systems either optimize ...",
-      "venue": "arXiv",
-      "date": "2026-03-26",
-      "arxiv_id": "2603.25740v1",
-      "url": "https://arxiv.org/abs/2603.25740v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.25740v1.pdf",
-      "categories": [
-        "cs.RO",
-        "cs.AI",
-        "cs.CV"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
       "title": "No Hard Negatives Required: Concept Centric Learning Leads to Compositionality without Degrading Zero-shot Capabilities of Contrastive Models",
       "authors": "Hai X. Pham, David T. Hoffmann, Ricardo Guerrero et al.",
       "abstract": "Contrastive vision-language (V&L) models remain a popular choice for various applications. However, several limitations have emerged, most notably the limited ability of V&L models to learn compositional representations. Prior methods often addressed this limitation by generating custom training dat...",
@@ -101,24 +119,6 @@
         "cs.LG"
       ],
       "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Vega: Learning to Drive with Natural Language Instructions",
-      "authors": "Sicheng Zuo, Yuxuan Li, Wenzhao Zheng et al.",
-      "abstract": "Vision-language-action models have reshaped autonomous driving to incorporate languages into the decision-making process. However, most existing pipelines only utilize the language modality for scene descriptions or reasoning and lack the flexibility to follow diverse user instructions for personali...",
-      "venue": "arXiv",
-      "date": "2026-03-26",
-      "arxiv_id": "2603.25741v1",
-      "url": "https://arxiv.org/abs/2603.25741v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.25741v1.pdf",
-      "categories": [
-        "cs.CV",
-        "cs.AI",
-        "cs.RO"
-      ],
-      "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     }
