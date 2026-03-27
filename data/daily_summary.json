@@ -1,12 +1,24 @@
 {
   "date": "2026-03-27",
-  "last_updated": "2026-03-27T19:02:00.392134+00:00",
+  "last_updated": "2026-03-27T20:01:35.224973+00:00",
   "categories": {
     "ai": {
       "name": "人工智能",
       "icon": "🤖",
       "count": 5,
       "items": [
+        {
+          "title": "揭秘硬件高投入≠高效 Token 产出",
+          "link": "https://www.qbitai.com/?s=揭秘硬件高投入≠高效",
+          "summary": "揭秘硬件高投入≠高效 Token 产出...",
+          "date": "2026-03-27",
+          "source": "量子位",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
         {
           "title": "“个人AI将始于端侧，我们正在迈向以AI和用户为中心的多终端体验”",
           "link": "https://www.qbitai.com/?s=“个人AI将始于端侧",
@@ -47,18 +59,6 @@
           "title": "当AI学会替人“组局”，人和人之间，会发生什么？",
           "link": "https://www.qbitai.com/?s=当AI学会替人“组局",
           "summary": "当AI学会替人“组局”，人和人之间，会发生什么？...",
-          "date": "2026-03-27",
-          "source": "量子位",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
-          "title": "在百炼平台上，PixVerse V5.6全面支持文生视频、图文生视频、首尾帧生成及参考生成等多种创作模式，并率先推出按需、按时长计费的灵活模式。",
-          "link": "https://www.qbitai.com/?s=在百炼平台上，Pix",
-          "summary": "在百炼平台上，PixVerse V5.6全面支持文生视频、图文生视频、首尾帧生成及参考生成等多种创作模式，并率先推出按需、按时长计费的灵活模式。...",
           "date": "2026-03-27",
           "source": "量子位",
           "type": "industry",
