@@ -7,8 +7,8 @@
       "rank": 1,
       "model": "reka-edge",
       "organization": "reka",
-      "price_prompt": "0.0000002",
-      "price_completion": "0.0000002",
+      "price_prompt": "0.0000001",
+      "price_completion": "0.0000001",
       "context_length": 16384
     },
     {
