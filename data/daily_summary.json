@@ -1,6 +1,6 @@
 {
   "date": "2026-03-27",
-  "last_updated": "2026-03-27T10:01:50.366619+00:00",
+  "last_updated": "2026-03-27T11:01:35.122887+00:00",
   "categories": {
     "ai": {
       "name": "人工智能",
@@ -11,18 +11,6 @@
           "title": "从模型到现实：具身智能生态的龙岗实践｜技术沙龙精彩回顾",
           "link": "https://www.jiqizhixin.com/search/articles/从模型到现实：具身智能生态的龙",
           "summary": "从模型到现实：具身智能生态的龙岗实践｜技术沙龙精彩回顾...",
-          "date": "2026-03-26",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
-          "title": "糟糕，大佬45年前论文，被判AI生成",
-          "link": "https://www.jiqizhixin.com/search/articles/糟糕，大佬45年前论文，被判A",
-          "summary": "糟糕，大佬45年前论文，被判AI生成...",
           "date": "2026-03-26",
           "source": "机器之心",
           "type": "industry",
@@ -59,6 +47,18 @@
           "title": "远程完成文件整理、数据处理、文档生成等任务。",
           "link": "https://www.qbitai.com/?s=远程完成文件整理、数",
           "summary": "远程完成文件整理、数据处理、文档生成等任务。...",
+          "date": "2026-03-27",
+          "source": "量子位",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "当AI学会替人“组局”，人和人之间，会发生什么？",
+          "link": "https://www.qbitai.com/?s=当AI学会替人“组局",
+          "summary": "当AI学会替人“组局”，人和人之间，会发生什么？...",
           "date": "2026-03-27",
           "source": "量子位",
           "type": "industry",
