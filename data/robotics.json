@@ -1,7 +1,87 @@
 {
-  "last_updated": "2026-03-27T02:36:50.305897+00:00",
-  "count": 21,
+  "last_updated": "2026-03-27T03:00:58.934111+00:00",
+  "count": 30,
   "items": [
+    {
+      "title": "Vega: Learning to Drive with Natural Language Instructions",
+      "summary": "Vision-language-action models have reshaped autonomous driving to incorporate languages into the decision-making process. However, most existing pipelines only utilize the language modality for scene descriptions or reasoning and lack the flexibility...",
+      "url": "https://arxiv.org/abs/2603.25741v1",
+      "date": "2026-03-26",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2603.25741v1",
+      "authors": "Sicheng Zuo, Yuxuan Li et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Drive My Way: Preference Alignment of Vision-Language-Action Model for Personalized Driving",
+      "summary": "Human driving behavior is inherently personal, which is shaped by long-term habits and influenced by short-term intentions. Individuals differ in how they accelerate, brake, merge, yield, and overtake across diverse situations. However, existing end-...",
+      "url": "https://arxiv.org/abs/2603.25740v1",
+      "date": "2026-03-26",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2603.25740v1",
+      "authors": "Zehao Wang, Huaide Jiang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "SoftMimicGen: A Data Generation System for Scalable Robot Learning in Deformable Object Manipulation",
+      "summary": "Large-scale robot datasets have facilitated the learning of a wide range of robot manipulation skills, but these datasets remain difficult to collect and scale further, owing to the intractable amount of human time, effort, and cost required. Simulat...",
+      "url": "https://arxiv.org/abs/2603.25725v1",
+      "date": "2026-03-26",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2603.25725v1",
+      "authors": "Masoud Moghani, Mahdi Azizian et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Intelligent Navigation and Obstacle-Aware Fabrication for Mobile Additive Manufacturing Systems",
+      "summary": "As the demand for mass customization increases, manufacturing systems must become more flexible and adaptable to produce personalized products efficiently. Additive manufacturing (AM) enhances production adaptability by enabling on-demand fabrication...",
+      "url": "https://arxiv.org/abs/2603.25688v1",
+      "date": "2026-03-26",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2603.25688v1",
+      "authors": "Yifei Li, Ruizhe Fu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Persistent Robot World Models: Stabilizing Multi-Step Rollouts via Reinforcement Learning",
+      "summary": "Action-conditioned robot world models generate future video frames of the manipulated scene given a robot action sequence, offering a promising alternative for simulating tasks that are difficult to model with traditional physics engines. However, th...",
+      "url": "https://arxiv.org/abs/2603.25685v1",
+      "date": "2026-03-26",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2603.25685v1",
+      "authors": "Jai Bardhan, Patrik Drozdik et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
     {
       "title": "LILAC: Language-Conditioned Object-Centric Optical Flow for Open-Loop Trajectory Generation",
       "summary": "We address language-conditioned robotic manipulation using flow-based trajectory generation, which enables training on human and web videos of object manipulation and requires only minimal embodiment-specific data. This task is challenging, as object...",
@@ -215,6 +295,19 @@
       ]
     },
     {
+      "title": "还不够赚钱的人形机器人，先迎来了淘汰赛",
+      "summary": "机器人/具身智能动态：还不够赚钱的人形机器人，先迎来了淘汰赛",
+      "url": "http://36kr.com/p/3737800961126912",
+      "date": "2026-03-25",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "人形机器人"
+      ]
+    },
+    {
       "title": "国产工业机器人市场份额突破50%",
       "summary": "数据显示，2026年第一季度国产工业机器人市场占有率达到52%，创历史新高。埃斯顿、汇川技术等国产品牌表现亮眼。",
       "url": "https://www.google.com/search?q=国产工业机器人市场份额突破50%",
@@ -225,6 +318,19 @@
       "tags": [
         "工业机器人",
         "制造业"
+      ]
+    },
+    {
+      "title": "具身智能赛道70天涌入200亿，但收入95%来自非生产场景，产能过剩风险显现。",
+      "summary": "机器人/具身智能动态：具身智能赛道70天涌入200亿，但收入95%来自非生产场景，产能过剩风险显现。",
+      "url": "http://36kr.com/p/3736721774690566",
+      "date": "2026-03-24",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
       ]
     },
     {
@@ -300,6 +406,32 @@
         "机器人学习",
         "研究论文",
         "arXiv"
+      ]
+    },
+    {
+      "title": "想获得下图参考文献《2026年具身智能产业发展研究报告》完整版，欢迎关注「具身万象」公众号，后台回复关键词「具身万象」领取。",
+      "summary": "机器人/具身智能动态：想获得下图参考文献《2026年具身智能产业发展研究报告》完整版，欢迎关注「具身万象」公众号，后台回复关键词「具身万象」领取。",
+      "url": "http://36kr.com/p/3735344485744905",
+      "date": "2026-03-23",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "如何迈过具身智能的ChatGPT时刻",
+      "summary": "机器人/具身智能动态：如何迈过具身智能的ChatGPT时刻",
+      "url": "http://36kr.com/p/3727737524305031",
+      "date": "2026-03-18",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
       ]
     }
   ]

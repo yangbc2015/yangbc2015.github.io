@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-27T02:36:19.771721+00:00",
+  "last_updated": "2026-03-27T03:00:13.799664+00:00",
   "sources": {
     "lmsys_arena": {
       "name": "LMSYS Chatbot Arena",
@@ -12,6 +12,12 @@
       "url": "https://openrouter.ai",
       "description": "API 平台模型使用统计与价格排名",
       "data_file": "leaderboard/openrouter.json"
+    },
+    "artificial_analysis": {
+      "name": "Artificial Analysis",
+      "url": "https://artificialanalysis.ai/leaderboards/models",
+      "description": "综合模型性能、价格与速度的多维榜单",
+      "data_file": "leaderboard/artificial_analysis.json"
     },
     "superclue": {
       "name": "SuperCLUE 中文榜单",
