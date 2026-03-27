@@ -1,24 +1,12 @@
 {
   "date": "2026-03-27",
-  "last_updated": "2026-03-27T03:01:02.439252+00:00",
+  "last_updated": "2026-03-27T04:01:49.130862+00:00",
   "categories": {
     "ai": {
       "name": "人工智能",
       "icon": "🤖",
       "count": 5,
       "items": [
-        {
-          "title": "Markdown Content:",
-          "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-          "summary": "Markdown Content:...",
-          "date": "2026-03-26",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
         {
           "title": "从模型到现实：具身智能生态的龙岗实践｜技术沙龙精彩回顾",
           "link": "https://www.jiqizhixin.com/search/articles/从模型到现实：具身智能生态的龙",
@@ -59,6 +47,18 @@
           "title": "ICLR 2026 Oral | Revela：用语言建模重新定义稠密检索器训练",
           "link": "https://www.jiqizhixin.com/search/articles/ICLR 2026 Oral ",
           "summary": "ICLR 2026 Oral | Revela：用语言建模重新定义稠密检索器训练...",
+          "date": "2026-03-26",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "打破具身世界模型可执行性鸿沟 ！港中深-跨维智能团队提出EVA框架，用强化学习让视频世界模型真正“动”起来",
+          "link": "https://www.jiqizhixin.com/search/articles/打破具身世界模型可执行性鸿沟 ",
+          "summary": "打破具身世界模型可执行性鸿沟 ！港中深-跨维智能团队提出EVA框架，用强化学习让视频世界模型真正“动”起来...",
           "date": "2026-03-26",
           "source": "机器之心",
           "type": "industry",
