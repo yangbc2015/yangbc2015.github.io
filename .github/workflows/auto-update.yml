@@ -48,8 +48,14 @@ jobs:
       timeout-minutes: 15
       run: |
         cd scripts/scraper
-        python3 scraper.py || echo "Scraper completed with some errors"
-        echo "exit_code=$?" >> $GITHUB_OUTPUT
+        set +e
+        python3 scraper.py
+        exit_code=$?
+        set -e
+        if [ "$exit_code" -ne 0 ]; then
+          echo "Scraper completed with some errors"
+        fi
+        echo "exit_code=$exit_code" >> $GITHUB_OUTPUT
     
     - name: Check scraper status
       id: update_status
@@ -81,7 +87,7 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add data/ content/
-        printf '%s\n\n%s\n%s\n%s\n%s\n%s\n\n%s' \
+        printf '%s\n\n%s\n%s\n%s\n%s\n%s\n%s\n\n%s\n' \
           "🤖 Auto-update AI data: $(date +'%Y-%m-%d %H:%M')" \
           "📊 更新内容:" \
           "- AI 新闻" \

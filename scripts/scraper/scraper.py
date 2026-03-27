@@ -63,6 +63,18 @@ def save_json(data, filepath):
     print(f"✓ 已保存: {filepath}")
 
 
+def get_available_scraper_sources(scraper, source_specs):
+    """返回当前爬虫实例可用的数据源方法。"""
+    sources = []
+    for source_name, method_name in source_specs:
+        fetch_func = getattr(scraper, method_name, None)
+        if callable(fetch_func):
+            sources.append((source_name, fetch_func))
+        else:
+            print(f"  ⚠️ 跳过 {source_name}：缺少 {method_name} 方法")
+    return sources
+
+
 def update_leaderboard():
     """更新榜单数据 - 整合多个数据源"""
     print("\n" + "="*50)
@@ -129,11 +141,11 @@ def update_news():
     new_news = []
     
     # 从多个源获取新闻
-    sources = [
-        ("机器之心", scraper.fetch_jiqizhixin),
-        ("量子位", scraper.fetch_qbitai),
-        ("TechCrunch", scraper.fetch_techcrunch_ai),
-    ]
+    sources = get_available_scraper_sources(scraper, [
+        ("机器之心", "fetch_jiqizhixin"),
+        ("量子位", "fetch_qbitai"),
+        ("TechCrunch", "fetch_techcrunch_ai"),
+    ])
     
     for source_name, fetch_func in sources:
         try:
@@ -1007,11 +1019,11 @@ def update_daily_summary():
     # 获取AI新闻
     try:
         print("\n  正在获取 AI 新闻...")
-        ai_sources = [
-            ("机器之心", scraper.fetch_jiqizhixin),
-            ("量子位", scraper.fetch_qbitai),
-            ("TechCrunch", scraper.fetch_techcrunch_ai),
-        ]
+        ai_sources = get_available_scraper_sources(scraper, [
+            ("机器之心", "fetch_jiqizhixin"),
+            ("量子位", "fetch_qbitai"),
+            ("TechCrunch", "fetch_techcrunch_ai"),
+        ])
         for source_name, fetch_func in ai_sources:
             try:
                 news = fetch_func()
@@ -1023,31 +1035,43 @@ def update_daily_summary():
         print(f"  ✗ AI新闻获取失败: {e}")
     
     # 获取经济新闻
-    try:
-        print("\n  正在获取经济新闻...")
-        economy_news = scraper.fetch_economy_news()
-        all_news["economy"] = economy_news
-        print(f"  ✓ 获取了 {len(economy_news)} 条经济新闻")
-    except Exception as e:
-        print(f"  ✗ 经济新闻获取失败: {e}")
+    economy_fetch = getattr(scraper, "fetch_economy_news", None)
+    if callable(economy_fetch):
+        try:
+            print("\n  正在获取经济新闻...")
+            economy_news = economy_fetch()
+            all_news["economy"] = economy_news
+            print(f"  ✓ 获取了 {len(economy_news)} 条经济新闻")
+        except Exception as e:
+            print(f"  ✗ 经济新闻获取失败: {e}")
+    else:
+        print("\n  ⚠️ 跳过经济新闻：缺少 fetch_economy_news 方法")
     
     # 获取地产新闻
-    try:
-        print("\n  正在获取地产新闻...")
-        realestate_news = scraper.fetch_real_estate_news()
-        all_news["realestate"] = realestate_news
-        print(f"  ✓ 获取了 {len(realestate_news)} 条地产新闻")
-    except Exception as e:
-        print(f"  ✗ 地产新闻获取失败: {e}")
+    realestate_fetch = getattr(scraper, "fetch_real_estate_news", None)
+    if callable(realestate_fetch):
+        try:
+            print("\n  正在获取地产新闻...")
+            realestate_news = realestate_fetch()
+            all_news["realestate"] = realestate_news
+            print(f"  ✓ 获取了 {len(realestate_news)} 条地产新闻")
+        except Exception as e:
+            print(f"  ✗ 地产新闻获取失败: {e}")
+    else:
+        print("\n  ⚠️ 跳过地产新闻：缺少 fetch_real_estate_news 方法")
     
     # 获取芯片新闻
-    try:
-        print("\n  正在获取芯片新闻...")
-        chip_news = scraper.fetch_chip_news()
-        all_news["chip"] = chip_news
-        print(f"  ✓ 获取了 {len(chip_news)} 条芯片新闻")
-    except Exception as e:
-        print(f"  ✗ 芯片新闻获取失败: {e}")
+    chip_fetch = getattr(scraper, "fetch_chip_news", None)
+    if callable(chip_fetch):
+        try:
+            print("\n  正在获取芯片新闻...")
+            chip_news = chip_fetch()
+            all_news["chip"] = chip_news
+            print(f"  ✓ 获取了 {len(chip_news)} 条芯片新闻")
+        except Exception as e:
+            print(f"  ✗ 芯片新闻获取失败: {e}")
+    else:
+        print("\n  ⚠️ 跳过芯片新闻：缺少 fetch_chip_news 方法")
     
     # 去重处理
     for category in all_news:
