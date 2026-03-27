@@ -165,6 +165,56 @@ class NewsScraper:
             print(f"    量子位爬取失败: {e}")
         
         return news
+    
+    def fetch_techcrunch_ai(self):
+        """获取 TechCrunch AI 新闻"""
+        news = []
+        try:
+            url = "https://r.jina.ai/http://techcrunch.com/category/artificial-intelligence/"
+            response = self.session.get(url, timeout=30)
+            content = response.text
+            
+            lines = content.split('\n')
+            i = 0
+            
+            while i < len(lines) and len(news) < 5:
+                line = lines[i].strip()
+                
+                # 跳过元数据
+                if not line or line.startswith('Title:') or line.startswith('URL Source:') or line.startswith('Markdown Content:'):
+                    i += 1
+                    continue
+                
+                # 查找标题行
+                if 20 < len(line) < 120 and not line.startswith('[') and not line.startswith('#'):
+                    # 过滤无效内容
+                    if any(skip in line for skip in ['TechCrunch', 'Privacy Policy', 'Terms of', 'Advertise', 'Login', 'Sign up']):
+                        i += 1
+                        continue
+                    
+                    # 查找描述
+                    summary = ''
+                    if i + 1 < len(lines):
+                        next_line = lines[i + 1].strip()
+                        if 20 < len(next_line) < 400 and not next_line.startswith('['):
+                            summary = next_line[:250]
+                    
+                    news.append({
+                        'title': line,
+                        'link': f"https://techcrunch.com/category/artificial-intelligence/",
+                        'summary': summary if summary else f'{line[:80]}...',
+                        'date': datetime.now(timezone.utc).strftime('%Y-%m-%d'),
+                        'source': 'TechCrunch',
+                        'type': 'industry',
+                        'tags': ['AI', 'Artificial Intelligence']
+                    })
+                
+                i += 1
+                    
+        except Exception as e:
+            print(f"    TechCrunch 爬取失败: {e}")
+        
+        return news
 
 
 if __name__ == "__main__":

@@ -1,7 +1,87 @@
 {
-  "last_updated": "2026-03-26T03:01:08.267031+00:00",
-  "count": 16,
+  "last_updated": "2026-03-27T02:16:54.445358+00:00",
+  "count": 21,
   "items": [
+    {
+      "title": "LILAC: Language-Conditioned Object-Centric Optical Flow for Open-Loop Trajectory Generation",
+      "summary": "We address language-conditioned robotic manipulation using flow-based trajectory generation, which enables training on human and web videos of object manipulation and requires only minimal embodiment-specific data. This task is challenging, as object...",
+      "url": "https://arxiv.org/abs/2603.25481v1",
+      "date": "2026-03-26",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2603.25481v1",
+      "authors": "Motonari Kambara, Koki Seno et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Temporally Decoupled Diffusion Planning for Autonomous Driving",
+      "summary": "Motion planning in dynamic urban environments requires balancing immediate safety with long-term goals. While diffusion models effectively capture multi-modal decision-making, existing approaches treat trajectories as monolithic entities, overlooking...",
+      "url": "https://arxiv.org/abs/2603.25462v1",
+      "date": "2026-03-26",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2603.25462v1",
+      "authors": "Xiang Li, Bikun Wang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Visualizing Impedance Control in Augmented Reality for Teleoperation: Design and User Evaluation",
+      "summary": "Teleoperation for contact-rich manipulation remains challenging, especially when using low-cost, motion-only interfaces that provide no haptic feedback. Virtual reality controllers enable intuitive motion control but do not allow operators to directl...",
+      "url": "https://arxiv.org/abs/2603.25418v1",
+      "date": "2026-03-26",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2603.25418v1",
+      "authors": "Gijs van den Brandt, Femke van Beek et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Modernising Reinforcement Learning-Based Navigation for Embodied Semantic Scene Graph Generation",
+      "summary": "Semantic world models enable embodied agents to reason about objects, relations, and spatial context beyond purely geometric representations. In Organic Computing, such models are a key enabler for objective-driven self-adaptation under uncertainty a...",
+      "url": "https://arxiv.org/abs/2603.25415v1",
+      "date": "2026-03-26",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2603.25415v1",
+      "authors": "Roman Kueble, Marco Hueller et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "MMaDA-VLA: Large Diffusion Vision-Language-Action Model with Unified Multi-Modal Instruction and Generation",
+      "summary": "Vision-Language-Action (VLA) models aim to control robots for manipulation from visual observations and natural-language instructions. However, existing hierarchical and autoregressive paradigms often introduce architectural overhead, suffer from tem...",
+      "url": "https://arxiv.org/abs/2603.25406v1",
+      "date": "2026-03-26",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2603.25406v1",
+      "authors": "Yang Liu, Pengxiang Ding et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
     {
       "title": "英伟达发布GR00T项目：为人形机器人提供基础模型",
       "summary": "英伟达在GTC大会上发布GR00T（Generalist Robot 00 Technology）项目，旨在为通用人形机器人提供基础AI模型支持。",

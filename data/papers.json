@@ -1,124 +1,124 @@
 {
-  "last_updated": "2026-03-26T03:00:59.707450+00:00",
+  "last_updated": "2026-03-27T02:16:48.493615+00:00",
   "count": 7,
   "items": [
     {
-      "title": "The Stochastic Gap: A Markovian Framework for Pre-Deployment Reliability and Oversight-Cost Auditing in Agentic Artificial Intelligence",
-      "authors": "Biplab Pal, Santanu Bhattacharya",
-      "abstract": "Agentic artificial intelligence (AI) in organizations is a sequential decision problem constrained by reliability and oversight cost. When deterministic workflows are replaced by stochastic policies over actions and tool calls, the key question is not whether a next step appears plausible, but wheth...",
+      "title": "Vega: Learning to Drive with Natural Language Instructions",
+      "authors": "Sicheng Zuo, Yuxuan Li, Wenzhao Zheng et al.",
+      "abstract": "Vision-language-action models have reshaped autonomous driving to incorporate languages into the decision-making process. However, most existing pipelines only utilize the language modality for scene descriptions or reasoning and lack the flexibility to follow diverse user instructions for personali...",
       "venue": "arXiv",
-      "date": "2026-03-25",
-      "arxiv_id": "2603.24582v1",
-      "url": "https://arxiv.org/abs/2603.24582v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.24582v1.pdf",
+      "date": "2026-03-26",
+      "arxiv_id": "2603.25741v1",
+      "url": "https://arxiv.org/abs/2603.25741v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.25741v1.pdf",
       "categories": [
-        "cs.AI"
+        "cs.CV",
+        "cs.AI",
+        "cs.RO"
       ],
-      "type": "ai",
+      "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Retrieval Improvements Do Not Guarantee Better Answers: A Study of RAG for AI Policy QA",
-      "authors": "Saahil Mathur, Ryan David Rittner, Vedant Ajit Thakur et al.",
-      "abstract": "Retrieval-augmented generation (RAG) systems are increasingly used to analyze complex policy documents, but achieving sufficient reliability for expert usage remains challenging in domains characterized by dense legal language and evolving, overlapping regulatory frameworks. We study the application...",
+      "title": "Drive My Way: Preference Alignment of Vision-Language-Action Model for Personalized Driving",
+      "authors": "Zehao Wang, Huaide Jiang, Shuaiwu Dong et al.",
+      "abstract": "Human driving behavior is inherently personal, which is shaped by long-term habits and influenced by short-term intentions. Individuals differ in how they accelerate, brake, merge, yield, and overtake across diverse situations. However, existing end-to-end autonomous driving systems either optimize ...",
       "venue": "arXiv",
-      "date": "2026-03-25",
-      "arxiv_id": "2603.24580v1",
-      "url": "https://arxiv.org/abs/2603.24580v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.24580v1.pdf",
+      "date": "2026-03-26",
+      "arxiv_id": "2603.25740v1",
+      "url": "https://arxiv.org/abs/2603.25740v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.25740v1.pdf",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.CV"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Training the Knowledge Base through Evidence Distillation and Write-Back Enrichment",
+      "authors": "Yuxing Lu, Xukai Zhao, Wei Wu et al.",
+      "abstract": "The knowledge base in a retrieval-augmented generation (RAG) system is typically assembled once and never revised, even though the facts a query requires are often fragmented across documents and buried in irrelevant content. We argue that the knowledge base should be treated as a trainable componen...",
+      "venue": "arXiv",
+      "date": "2026-03-26",
+      "arxiv_id": "2603.25737v1",
+      "url": "https://arxiv.org/abs/2603.25737v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.25737v1.pdf",
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.IR"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Natural-Language Agent Harnesses",
+      "authors": "Linyue Pan, Lexiao Zou, Shuo Guo et al.",
+      "abstract": "Agent performance increasingly depends on \\emph{harness engineering}, yet harness design is usually buried in controller code and runtime-specific conventions, making it hard to transfer, compare, and study as a scientific object. We ask whether the high-level control logic of an agent harness can i...",
+      "venue": "arXiv",
+      "date": "2026-03-26",
+      "arxiv_id": "2603.25723v1",
+      "url": "https://arxiv.org/abs/2603.25723v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.25723v1.pdf",
       "categories": [
         "cs.CL",
-        "cs.AI",
-        "cs.CY"
+        "cs.AI"
       ],
       "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Comparing Developer and LLM Biases in Code Evaluation",
-      "authors": "Aditya Mittal, Ryan Shar, Zichu Wu et al.",
-      "abstract": "As LLMs are increasingly used as judges in code applications, they should be evaluated in realistic interactive settings that capture partial context and ambiguous intent. We present TRACE (Tool for Rubric Analysis in Code Evaluation), a framework that evaluates LLM judges' ability to predict human ...",
+      "title": "ShotStream: Streaming Multi-Shot Video Generation for Interactive Storytelling",
+      "authors": "Yawen Luo, Xiaoyu Shi, Junhao Zhuang et al.",
+      "abstract": "Multi-shot video generation is crucial for long narrative storytelling, yet current bidirectional architectures suffer from limited interactivity and high latency. We propose ShotStream, a novel causal multi-shot architecture that enables interactive storytelling and efficient on-the-fly frame gener...",
       "venue": "arXiv",
-      "date": "2026-03-25",
-      "arxiv_id": "2603.24586v1",
-      "url": "https://arxiv.org/abs/2603.24586v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.24586v1.pdf",
+      "date": "2026-03-26",
+      "arxiv_id": "2603.25746v1",
+      "url": "https://arxiv.org/abs/2603.25746v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.25746v1.pdf",
       "categories": [
-        "cs.SE",
-        "cs.CL"
-      ],
-      "type": "benchmark",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "TAG: Target-Agnostic Guidance for Stable Object-Centric Inference in Vision-Language-Action Models",
-      "authors": "Jiaying Zhou, Zhihao Zhan, Ruifeng Zhai et al.",
-      "abstract": "Vision--Language--Action (VLA) policies have shown strong progress in mapping language instructions and visual observations to robotic actions, yet their reliability degrades in cluttered scenes with distractors. By analyzing failure cases, we find that many errors do not arise from infeasible motio...",
-      "venue": "arXiv",
-      "date": "2026-03-25",
-      "arxiv_id": "2603.24584v1",
-      "url": "https://arxiv.org/abs/2603.24584v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.24584v1.pdf",
-      "categories": [
-        "cs.CV",
-        "cs.RO"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Latent-WAM: Latent World Action Modeling for End-to-End Autonomous Driving",
-      "authors": "Linbo Wang, Yupeng Zheng, Qiang Chen et al.",
-      "abstract": "We introduce Latent-WAM, an efficient end-to-end autonomous driving framework that achieves strong trajectory planning through spatially-aware and dynamics-informed latent world representations. Existing world-model-based planners suffer from inadequately compressed representations, limited spatial ...",
-      "venue": "arXiv",
-      "date": "2026-03-25",
-      "arxiv_id": "2603.24581v1",
-      "url": "https://arxiv.org/abs/2603.24581v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.24581v1.pdf",
-      "categories": [
-        "cs.CV",
-        "cs.RO"
+        "cs.CV"
       ],
       "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Polynomial Speedup in Diffusion Models with the Multilevel Euler-Maruyama Method",
-      "authors": "Arthur Jacot",
-      "abstract": "We introduce the Multilevel Euler-Maruyama (ML-EM) method compute solutions of SDEs and ODEs using a range of approximators $f^1,\\dots,f^k$ to the drift $f$ with increasing accuracy and computational cost, only requiring a few evaluations of the most accurate $f^k$ and many evaluations of the less c...",
+      "title": "Less Gaussians, Texture More: 4K Feed-Forward Textured Splatting",
+      "authors": "Yixing Lao, Xuyang Bai, Xiaoyang Wu et al.",
+      "abstract": "Existing feed-forward 3D Gaussian Splatting methods predict pixel-aligned primitives, leading to a quadratic growth in primitive count as resolution increases. This fundamentally limits their scalability, making high-resolution synthesis such as 4K intractable. We introduce LGTM (Less Gaussians, Tex...",
       "venue": "arXiv",
-      "date": "2026-03-25",
-      "arxiv_id": "2603.24594v1",
-      "url": "https://arxiv.org/abs/2603.24594v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.24594v1.pdf",
+      "date": "2026-03-26",
+      "arxiv_id": "2603.25745v1",
+      "url": "https://arxiv.org/abs/2603.25745v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.25745v1.pdf",
       "categories": [
-        "cs.LG",
-        "math.NA",
-        "stat.ML"
+        "cs.CV"
       ],
-      "type": "ml",
+      "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "DreamerAD: Efficient Reinforcement Learning via Latent World Model for Autonomous Driving",
-      "authors": "Pengxuan Yang, Yupeng Zheng, Deheng Qian et al.",
-      "abstract": "We introduce DreamerAD, the first latent world model framework that enables efficient reinforcement learning for autonomous driving by compressing diffusion sampling from 100 steps to 1 - achieving 80x speedup while maintaining visual interpretability. Training RL policies on real-world driving data...",
+      "title": "No Hard Negatives Required: Concept Centric Learning Leads to Compositionality without Degrading Zero-shot Capabilities of Contrastive Models",
+      "authors": "Hai X. Pham, David T. Hoffmann, Ricardo Guerrero et al.",
+      "abstract": "Contrastive vision-language (V&L) models remain a popular choice for various applications. However, several limitations have emerged, most notably the limited ability of V&L models to learn compositional representations. Prior methods often addressed this limitation by generating custom training dat...",
       "venue": "arXiv",
-      "date": "2026-03-25",
-      "arxiv_id": "2603.24587v1",
-      "url": "https://arxiv.org/abs/2603.24587v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.24587v1.pdf",
+      "date": "2026-03-26",
+      "arxiv_id": "2603.25722v1",
+      "url": "https://arxiv.org/abs/2603.25722v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.25722v1.pdf",
       "categories": [
-        "cs.LG",
-        "cs.RO"
+        "cs.CV",
+        "cs.LG"
       ],
-      "type": "ml",
+      "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     }
