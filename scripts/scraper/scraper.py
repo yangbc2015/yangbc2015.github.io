@@ -47,6 +47,15 @@ def ensure_dirs():
     CONTENT_ROBOTICS_DIR.mkdir(parents=True, exist_ok=True)
 
 
+def cleanup_old_files(folder: Path, keep_count: int = 30):
+    """清理旧文件，只保留最新的指定数量"""
+    files = [f for f in folder.glob("*.md") if f.name != "_index.md"]
+    if len(files) > keep_count:
+        files.sort(key=lambda x: x.stat().st_mtime, reverse=True)
+        for old_file in files[keep_count:]:
+            old_file.unlink()
+
+
 def save_json(data, filepath):
     """保存数据到 JSON 文件"""
     with open(filepath, 'w', encoding='utf-8') as f:
@@ -297,6 +306,9 @@ def create_news_content_files(news_items):
     """为新闻创建 Hugo 内容文件"""
     print(f"\n  正在创建新闻内容文件...")
     
+    # 清理旧文件，保留最近30个
+    cleanup_old_files(CONTENT_NEWS_DIR, 30)
+    
     created_count = 0
     today_str = datetime.now(timezone.utc).strftime("%Y%m%d")
     
@@ -359,6 +371,9 @@ def create_news_content_files(news_items):
 def create_papers_content_files(papers):
     """为论文创建 Hugo 内容文件"""
     print(f"\n  正在创建论文内容文件...")
+    
+    # 清理旧文件，保留最近30个
+    cleanup_old_files(CONTENT_PAPERS_DIR, 30)
     
     created_count = 0
     today_str = datetime.now(timezone.utc).strftime("%Y%m%d")
@@ -431,6 +446,9 @@ def create_papers_content_files(papers):
 def create_videos_content_files(videos):
     """为视频创建 Hugo 内容文件"""
     print(f"\n  正在创建视频内容文件...")
+    
+    # 清理旧文件，保留最近20个
+    cleanup_old_files(CONTENT_VIDEOS_DIR, 20)
     
     created_count = 0
     today_str = datetime.now(timezone.utc).strftime("%Y%m%d")
@@ -583,6 +601,9 @@ def create_tutorial_content_files(articles):
         if f.name != "_index.md" and "transformer" not in f.name:
             f.unlink()
     
+    # 再清理一次，确保数量不超过20
+    cleanup_old_files(CONTENT_TUTORIALS_DIR, 20)
+    
     created_count = 0
     for article in articles:
         # 生成文件名
@@ -725,6 +746,9 @@ def create_investment_content_files(items):
     """为投资资讯创建 Hugo 内容文件"""
     print(f"\n  正在创建投资内容文件...")
     
+    # 清理旧文件，保留最近30个
+    cleanup_old_files(CONTENT_INVESTMENT_DIR, 30)
+    
     created_count = 0
     for item in items[:10]:  # 只为前10条创建内容文件
         # 生成文件名
@@ -841,6 +865,9 @@ def update_robotics():
 def create_robotics_content_files(items):
     """为机器人资讯创建 Hugo 内容文件"""
     print(f"\n  正在创建机器人内容文件...")
+    
+    # 清理旧文件，保留最近30个
+    cleanup_old_files(CONTENT_ROBOTICS_DIR, 30)
     
     created_count = 0
     today_str = datetime.now(timezone.utc).strftime("%Y%m%d")
