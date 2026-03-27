@@ -84,17 +84,20 @@ def update_leaderboard():
     # 使用新的综合榜单爬虫
     llm_scraper = LLMLeaderboardScraper()
     all_data = llm_scraper.fetch_all_leaderboards()
+    aa_scraper = ArtificialAnalysisScraper()
+    aa_data = aa_scraper.fetch_leaderboard()
     
     # 保存各个榜单
     save_json(all_data["lmsys_arena"], LEADERBOARD_DIR / "lmsys_arena.json")
     save_json(all_data["openrouter"], LEADERBOARD_DIR / "openrouter.json")
+    save_json(aa_data, LEADERBOARD_DIR / "artificial_analysis.json")
     
     # 获取中文榜单
     chinese_data = llm_scraper.get_chinese_leaderboards()
     save_json(chinese_data["superclue"], LEADERBOARD_DIR / "superclue.json")
     save_json(chinese_data["c_eval"], LEADERBOARD_DIR / "c_eval.json")
     
-    print(f"  ✓ 已更新 {len(all_data) - 1} 个国际榜单 + 2 个中文榜单")
+    print(f"  ✓ 已更新 {len(all_data)} 个国际榜单 + 2 个中文榜单")
     
     # 创建综合榜单索引
     leaderboard_index = {
@@ -111,6 +114,12 @@ def update_leaderboard():
                 "url": "https://openrouter.ai",
                 "description": "API 平台模型使用统计与价格排名",
                 "data_file": "leaderboard/openrouter.json"
+            },
+            "artificial_analysis": {
+                "name": "Artificial Analysis",
+                "url": "https://artificialanalysis.ai/leaderboards/models",
+                "description": "综合模型性能、价格与速度的多维榜单",
+                "data_file": "leaderboard/artificial_analysis.json"
             },
             "superclue": {
                 "name": "SuperCLUE 中文榜单",
@@ -715,14 +724,18 @@ def update_investment():
             except Exception as e:
                 print(f"  ⚠️ 读取历史投资资讯失败: {e}")
         
-        # 合并新旧数据
+        # 合并新旧数据，并清洗历史脏数据
         all_items = new_items + existing_items
         
         # 去重：基于标题
         seen_titles = set()
         unique_items = []
         for item in all_items:
-            title_key = item.get("title", "")[:40].lower().strip()
+            title = item.get("title", "").strip()
+            if not scraper._is_valid_investment_title(title):
+                continue
+
+            title_key = title[:40].lower().strip()
             if title_key and title_key in seen_titles:
                 continue
             if title_key:

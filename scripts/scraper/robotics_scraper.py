@@ -7,7 +7,6 @@
 import requests
 import re
 from datetime import datetime, timezone
-from bs4 import BeautifulSoup
 
 
 class RoboticsScraper:
@@ -107,52 +106,86 @@ class RoboticsScraper:
         """从36氪获取机器人新闻"""
         items = []
         try:
-            # 36氪机器人/具身智能频道
-            url = "https://36kr.com/search/articles/%E6%9C%BA%E5%99%A8%E4%BA%BA"
+            url = "https://r.jina.ai/http://36kr.com/search/articles/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD"
             response = self.session.get(url, timeout=30)
-            response.encoding = 'utf-8'
-            
-            # 解析文章列表
-            soup = BeautifulSoup(response.text, 'html.parser')
-            articles = soup.find_all('div', class_=re.compile('article-item|article-card'))
-            
-            for article in articles[:5]:
-                try:
-                    title_elem = article.find('a', class_=re.compile('title')) or article.find('h3')
-                    if not title_elem:
-                        continue
-                    
-                    title = title_elem.get_text().strip()
-                    
-                    # 只保留机器人相关文章
-                    if not any(kw in title for kw in ['机器人', '人形', '具身', '机械臂', '自动化']):
-                        continue
-                    
-                    link_elem = title_elem if title_elem.name == 'a' else article.find('a')
-                    link = link_elem.get('href', '') if link_elem else ''
-                    if link and not link.startswith('http'):
-                        link = 'https://36kr.com' + link
-                    
-                    summary_elem = article.find('p') or article.find(class_=re.compile('summary|desc'))
-                    summary = summary_elem.get_text().strip()[:200] if summary_elem else ""
-                    
-                    items.append({
-                        'title': title,
-                        'summary': summary,
-                        'url': link,
-                        'date': datetime.now(timezone.utc).strftime('%Y-%m-%d'),
-                        'source': '36氪',
-                        'category': '机器人',
-                        'type': 'news',
-                        'tags': ['机器人', '具身智能']
-                    })
-                except:
+            lines = response.text.split('\n')
+            link_pattern = re.compile(r'(?:^\*\s+)?\[(?P<title>.+?)\]\((?P<url>https?://[^)]+)\)\s*(?P<date>\d{4}-\d{2}-\d{2})?$')
+
+            for line in lines:
+                line = line.strip()
+                if not line or line.startswith(('Title:', 'URL Source:', 'Markdown Content:')):
                     continue
+
+                match = link_pattern.search(line)
+                if not match:
+                    continue
+
+                title = match.group('title').strip()
+                article_url = match.group('url').strip()
+                article_date = match.group('date') or datetime.now(timezone.utc).strftime('%Y-%m-%d')
+
+                if not self._is_valid_robotics_title(title):
+                    continue
+
+                items.append({
+                    'title': title,
+                    'summary': f'机器人/具身智能动态：{title[:120]}',
+                    'url': article_url,
+                    'date': article_date,
+                    'source': '36氪',
+                    'category': self._classify_robotics_category(title),
+                    'type': 'news',
+                    'tags': self._build_robotics_tags(title)
+                })
+
+                if len(items) >= 5:
+                    break
                     
         except Exception as e:
             print(f"    36氪爬取失败: {e}")
         
         return items
+
+    def _is_valid_robotics_title(self, title):
+        """过滤无效搜索页标题。"""
+        if len(title) < 12:
+            return False
+
+        excluded_keywords = [
+            'Image', '搜索结果', '登录', '注册', '下载', '打开APP', '首页',
+            '作者', '城市', '推荐', '查看更多'
+        ]
+        if any(keyword in title for keyword in excluded_keywords):
+            return False
+
+        robotics_keywords = ['机器人', '人形', '具身', '机械臂', '自动驾驶', '无人机', '自动化', 'GR00T']
+        return any(keyword in title for keyword in robotics_keywords)
+
+    def _classify_robotics_category(self, title):
+        """推断机器人条目分类。"""
+        if any(keyword in title for keyword in ['论文', 'arXiv', 'VLA', '扩散', '强化学习']):
+            return '机器人学习'
+        if any(keyword in title for keyword in ['人形', '具身', 'GR00T', 'Optimus', 'Figure']):
+            return '具身智能'
+        if any(keyword in title for keyword in ['自动驾驶', '无人机']):
+            return '自主系统'
+        return '机器人'
+
+    def _build_robotics_tags(self, title):
+        """根据标题构造标签。"""
+        tags = ['机器人']
+        keyword_map = {
+            '具身': '具身智能',
+            '人形': '人形机器人',
+            '机械臂': '机械臂',
+            '自动驾驶': '自动驾驶',
+            '无人机': '无人机',
+            'GR00T': 'GR00T',
+        }
+        for keyword, tag in keyword_map.items():
+            if keyword in title and tag not in tags:
+                tags.append(tag)
+        return tags
 
 
 if __name__ == "__main__":
