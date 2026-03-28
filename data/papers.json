@@ -1,78 +1,7 @@
 {
-  "last_updated": "2026-03-28T00:00:26.854463+00:00",
-  "count": 7,
+  "last_updated": "2026-03-28T00:12:03.736233+00:00",
+  "count": 4,
   "items": [
-    {
-      "title": "Vega: Learning to Drive with Natural Language Instructions",
-      "authors": "Sicheng Zuo, Yuxuan Li, Wenzhao Zheng et al.",
-      "abstract": "Vision-language-action models have reshaped autonomous driving to incorporate languages into the decision-making process. However, most existing pipelines only utilize the language modality for scene descriptions or reasoning and lack the flexibility to follow diverse user instructions for personali...",
-      "venue": "arXiv",
-      "date": "2026-03-26",
-      "arxiv_id": "2603.25741v1",
-      "url": "https://arxiv.org/abs/2603.25741v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.25741v1.pdf",
-      "categories": [
-        "cs.CV",
-        "cs.AI",
-        "cs.RO"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Drive My Way: Preference Alignment of Vision-Language-Action Model for Personalized Driving",
-      "authors": "Zehao Wang, Huaide Jiang, Shuaiwu Dong et al.",
-      "abstract": "Human driving behavior is inherently personal, which is shaped by long-term habits and influenced by short-term intentions. Individuals differ in how they accelerate, brake, merge, yield, and overtake across diverse situations. However, existing end-to-end autonomous driving systems either optimize ...",
-      "venue": "arXiv",
-      "date": "2026-03-26",
-      "arxiv_id": "2603.25740v1",
-      "url": "https://arxiv.org/abs/2603.25740v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.25740v1.pdf",
-      "categories": [
-        "cs.RO",
-        "cs.AI",
-        "cs.CV"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Training the Knowledge Base through Evidence Distillation and Write-Back Enrichment",
-      "authors": "Yuxing Lu, Xukai Zhao, Wei Wu et al.",
-      "abstract": "The knowledge base in a retrieval-augmented generation (RAG) system is typically assembled once and never revised, even though the facts a query requires are often fragmented across documents and buried in irrelevant content. We argue that the knowledge base should be treated as a trainable componen...",
-      "venue": "arXiv",
-      "date": "2026-03-26",
-      "arxiv_id": "2603.25737v1",
-      "url": "https://arxiv.org/abs/2603.25737v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.25737v1.pdf",
-      "categories": [
-        "cs.AI",
-        "cs.CL",
-        "cs.IR"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Natural-Language Agent Harnesses",
-      "authors": "Linyue Pan, Lexiao Zou, Shuo Guo et al.",
-      "abstract": "Agent performance increasingly depends on \\emph{harness engineering}, yet harness design is usually buried in controller code and runtime-specific conventions, making it hard to transfer, compare, and study as a scientific object. We ask whether the high-level control logic of an agent harness can i...",
-      "venue": "arXiv",
-      "date": "2026-03-26",
-      "arxiv_id": "2603.25723v1",
-      "url": "https://arxiv.org/abs/2603.25723v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.25723v1.pdf",
-      "categories": [
-        "cs.CL",
-        "cs.AI"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
     {
       "title": "ShotStream: Streaming Multi-Shot Video Generation for Interactive Storytelling",
       "authors": "Yawen Luo, Xiaoyu Shi, Junhao Zhuang et al.",
@@ -99,6 +28,24 @@
       "url": "https://arxiv.org/abs/2603.25745v1",
       "pdf_url": "https://arxiv.org/pdf/2603.25745v1.pdf",
       "categories": [
+        "cs.CV"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Drive My Way: Preference Alignment of Vision-Language-Action Model for Personalized Driving",
+      "authors": "Zehao Wang, Huaide Jiang, Shuaiwu Dong et al.",
+      "abstract": "Human driving behavior is inherently personal, which is shaped by long-term habits and influenced by short-term intentions. Individuals differ in how they accelerate, brake, merge, yield, and overtake across diverse situations. However, existing end-to-end autonomous driving systems either optimize ...",
+      "venue": "arXiv",
+      "date": "2026-03-26",
+      "arxiv_id": "2603.25740v1",
+      "url": "https://arxiv.org/abs/2603.25740v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.25740v1.pdf",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
         "cs.CV"
       ],
       "type": "nlp",
