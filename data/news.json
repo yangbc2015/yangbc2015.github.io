@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-03-28T15:00:10.084320+00:00",
-  "count": 79,
-  "history_count": 79,
+  "last_updated": "2026-03-28T16:00:08.160933+00:00",
+  "count": 80,
+  "history_count": 80,
   "retention_days": 30,
   "items": [
     {
@@ -113,18 +113,6 @@
       ]
     },
     {
-      "title": "Markdown Content:",
-      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-      "summary": "Markdown Content:...",
-      "date": "2026-03-27",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
       "title": "刚刚，一口气连发3个王炸模型、亮出2026年AGI战略，昆仑万维夯爆了",
       "link": "https://www.jiqizhixin.com/search/articles/刚刚，一口气连发3个王炸模型、",
       "summary": "刚刚，一口气连发3个王炸模型、亮出2026年AGI战略，昆仑万维夯爆了...",
@@ -176,6 +164,30 @@
       "title": "深度机智发布全新具身通用智能大模型 给机器人装上“物理常识”",
       "link": "https://www.jiqizhixin.com/search/articles/深度机智发布全新具身通用智能大",
       "summary": "深度机智发布全新具身通用智能大模型 给机器人装上“物理常识”...",
+      "date": "2026-03-27",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "aiX-apply-4B逆袭DeepSeek-V3.2！aiXcoder发布代码变更应用模型，单卡推理提效15倍",
+      "link": "https://www.jiqizhixin.com/search/articles/aiX-apply-4B逆袭D",
+      "summary": "aiX-apply-4B逆袭DeepSeek-V3.2！aiXcoder发布代码变更应用模型，单卡推理提效15倍...",
+      "date": "2026-03-27",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "Markdown Content:",
+      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+      "summary": "Markdown Content:...",
       "date": "2026-03-27",
       "source": "机器之心",
       "type": "industry",
