@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-03-28T11:00:39.098997+00:00",
-  "count": 7,
+  "last_updated": "2026-03-28T12:01:22.251838+00:00",
+  "count": 6,
   "items": [
     {
       "title": "Vega: Learning to Drive with Natural Language Instructions",
@@ -102,23 +102,6 @@
         "cs.CV"
       ],
       "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "No Hard Negatives Required: Concept Centric Learning Leads to Compositionality without Degrading Zero-shot Capabilities of Contrastive Models",
-      "authors": "Hai X. Pham, David T. Hoffmann, Ricardo Guerrero et al.",
-      "abstract": "Contrastive vision-language (V&L) models remain a popular choice for various applications. However, several limitations have emerged, most notably the limited ability of V&L models to learn compositional representations. Prior methods often addressed this limitation by generating custom training dat...",
-      "venue": "arXiv",
-      "date": "2026-03-26",
-      "arxiv_id": "2603.25722v1",
-      "url": "https://arxiv.org/abs/2603.25722v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.25722v1.pdf",
-      "categories": [
-        "cs.CV",
-        "cs.LG"
-      ],
-      "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     }
