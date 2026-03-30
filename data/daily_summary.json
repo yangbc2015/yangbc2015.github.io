@@ -1,12 +1,73 @@
 {
   "date": "2026-03-30",
-  "last_updated": "2026-03-30T00:04:31.156184+00:00",
+  "last_updated": "2026-03-30T00:13:53.843601+00:00",
   "categories": {
     "ai": {
       "name": "人工智能",
       "icon": "🤖",
-      "count": 0,
-      "items": []
+      "count": 5,
+      "items": [
+        {
+          "title": "CVPR 2026｜机器人真的「像人」了吗？我们做了一场只看动作的图灵测试",
+          "link": "https://www.jiqizhixin.com/search/articles/CVPR 2026｜机器人真的",
+          "summary": "CVPR 2026｜机器人真的「像人」了吗？我们做了一场只看动作的图灵测试...",
+          "date": "2026-03-29",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "超越Video Depth Anything！视频深度估计新SOTA来了，163倍数据效率解锁生成式先验",
+          "link": "https://www.jiqizhixin.com/search/articles/超越Video Depth A",
+          "summary": "超越Video Depth Anything！视频深度估计新SOTA来了，163倍数据效率解锁生成式先验...",
+          "date": "2026-03-29",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "钉钉CLI开源！首批开放10项核心产品能力，原生支持ClaudeCode、Cursor、Qoder",
+          "link": "https://www.jiqizhixin.com/search/articles/钉钉CLI开源！首批开放10项",
+          "summary": "钉钉CLI开源！首批开放10项核心产品能力，原生支持ClaudeCode、Cursor、Qoder...",
+          "date": "2026-03-28",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "血洗内存股900亿刀的谷歌AI论文，竟涉嫌学术造假",
+          "link": "https://www.jiqizhixin.com/search/articles/血洗内存股900亿刀的谷歌AI",
+          "summary": "血洗内存股900亿刀的谷歌AI论文，竟涉嫌学术造假...",
+          "date": "2026-03-28",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "151个软件包，暗藏肉眼不可见的恶意代码，AI批量生成的？",
+          "link": "https://www.jiqizhixin.com/search/articles/151个软件包，暗藏肉眼不可见",
+          "summary": "151个软件包，暗藏肉眼不可见的恶意代码，AI批量生成的？...",
+          "date": "2026-03-28",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        }
+      ]
     },
     "economy": {
       "name": "宏观经济",
