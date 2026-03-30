@@ -5,6 +5,22 @@
   "models": [
     {
       "rank": 1,
+      "model": "lyria-3-pro-preview",
+      "organization": "google",
+      "price_prompt": "0",
+      "price_completion": "0",
+      "context_length": 1048576
+    },
+    {
+      "rank": 2,
+      "model": "lyria-3-clip-preview",
+      "organization": "google",
+      "price_prompt": "0",
+      "price_completion": "0",
+      "context_length": 1048576
+    },
+    {
+      "rank": 3,
       "model": "qwen3.6-plus-preview:free",
       "organization": "qwen",
       "price_prompt": "0",
@@ -12,7 +28,7 @@
       "context_length": 1000000
     },
     {
-      "rank": 2,
+      "rank": 4,
       "model": "kat-coder-pro-v2",
       "organization": "kwaipilot",
       "price_prompt": "0.0000003",
@@ -20,7 +36,7 @@
       "context_length": 256000
     },
     {
-      "rank": 3,
+      "rank": 5,
       "model": "reka-edge",
       "organization": "reka",
       "price_prompt": "0.0000001",
@@ -28,7 +44,7 @@
       "context_length": 16384
     },
     {
-      "rank": 4,
+      "rank": 6,
       "model": "mimo-v2-omni",
       "organization": "xiaomi",
       "price_prompt": "0.0000004",
@@ -36,7 +52,7 @@
       "context_length": 262144
     },
     {
-      "rank": 5,
+      "rank": 7,
       "model": "mimo-v2-pro",
       "organization": "xiaomi",
       "price_prompt": "0.000001",
@@ -44,7 +60,7 @@
       "context_length": 1048576
     },
     {
-      "rank": 6,
+      "rank": 8,
       "model": "minimax-m2.7",
       "organization": "minimax",
       "price_prompt": "0.0000003",
@@ -52,7 +68,7 @@
       "context_length": 204800
     },
     {
-      "rank": 7,
+      "rank": 9,
       "model": "gpt-5.4-nano",
       "organization": "openai",
       "price_prompt": "0.0000002",
@@ -60,7 +76,7 @@
       "context_length": 400000
     },
     {
-      "rank": 8,
+      "rank": 10,
       "model": "gpt-5.4-mini",
       "organization": "openai",
       "price_prompt": "0.00000075",
@@ -68,7 +84,7 @@
       "context_length": 400000
     },
     {
-      "rank": 9,
+      "rank": 11,
       "model": "mistral-small-2603",
       "organization": "mistralai",
       "price_prompt": "0.00000015",
@@ -76,7 +92,7 @@
       "context_length": 262144
     },
     {
-      "rank": 10,
+      "rank": 12,
       "model": "glm-5-turbo",
       "organization": "z-ai",
       "price_prompt": "0.0000012",
@@ -84,7 +100,7 @@
       "context_length": 202752
     },
     {
-      "rank": 11,
+      "rank": 13,
       "model": "grok-4.20-multi-agent-beta",
       "organization": "x-ai",
       "price_prompt": "0.000002",
@@ -92,7 +108,7 @@
       "context_length": 2000000
     },
     {
-      "rank": 12,
+      "rank": 14,
       "model": "grok-4.20-beta",
       "organization": "x-ai",
       "price_prompt": "0.000002",
@@ -100,27 +116,11 @@
       "context_length": 2000000
     },
     {
-      "rank": 13,
+      "rank": 15,
       "model": "nemotron-3-super-120b-a12b:free",
       "organization": "nvidia",
       "price_prompt": "0",
       "price_completion": "0",
-      "context_length": 262144
-    },
-    {
-      "rank": 14,
-      "model": "nemotron-3-super-120b-a12b",
-      "organization": "nvidia",
-      "price_prompt": "0.0000001",
-      "price_completion": "0.0000005",
-      "context_length": 262144
-    },
-    {
-      "rank": 15,
-      "model": "seed-2.0-lite",
-      "organization": "bytedance-seed",
-      "price_prompt": "0.00000025",
-      "price_completion": "0.000002",
       "context_length": 262144
     }
   ]

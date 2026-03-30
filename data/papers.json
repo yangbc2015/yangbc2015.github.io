@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-03-30T21:01:37.671961+00:00",
-  "count": 8,
+  "last_updated": "2026-03-30T22:03:07.382413+00:00",
+  "count": 6,
   "items": [
     {
       "title": "Ruka-v2: Tendon Driven Open-Source Dexterous Hand with Wrist and Abduction for Robot Learning",
@@ -99,39 +99,6 @@
         "cs.CV"
       ],
       "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Tunable Soft Equivariance with Guarantees",
-      "authors": "Md Ashiqur Rahman, Lim Jun Hao, Jeremiah Jiang et al.",
-      "abstract": "Equivariance is a fundamental property in computer vision models, yet strict equivariance is rarely satisfied in real-world data, which can limit a model's performance. Controlling the degree of equivariance is therefore desirable. We propose a general framework for constructing soft equivariant mod...",
-      "venue": "arXiv",
-      "date": "2026-03-27",
-      "arxiv_id": "2603.26657v1",
-      "url": "https://arxiv.org/abs/2603.26657v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.26657v1.pdf",
-      "categories": [
-        "cs.CV",
-        "cs.LG"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "VLA-OPD: Bridging Offline SFT and Online RL for Vision-Language-Action Models via On-Policy Distillation",
-      "authors": "Zhide Zhong, Haodong Yan, Junfeng Li et al.",
-      "abstract": "Although pre-trained Vision-Language-Action (VLA) models exhibit impressive generalization in robotic manipulation, post-training remains crucial to ensure reliable performance during deployment. However, standard offline Supervised Fine-Tuning (SFT) suffers from distribution shifts and catastrophic...",
-      "venue": "arXiv",
-      "date": "2026-03-27",
-      "arxiv_id": "2603.26666v1",
-      "url": "https://arxiv.org/abs/2603.26666v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.26666v1.pdf",
-      "categories": [
-        "cs.RO"
-      ],
-      "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     }
