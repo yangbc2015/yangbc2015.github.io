@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-03-30T08:03:32.529685+00:00",
-  "count": 33,
+  "last_updated": "2026-03-30T09:03:45.040483+00:00",
+  "count": 38,
   "items": [
     {
       "title": "](http://36kr.com/p/3740523277517063) [为超百家 _具_ _身_ _智_ _能_ 企业提供核心零部件，「知行机器人」连续完成两轮近亿元融资 | 36氪首发",
@@ -12,6 +12,86 @@
       "type": "news",
       "tags": [
         "机器人"
+      ]
+    },
+    {
+      "title": "VLA-OPD: Bridging Offline SFT and Online RL for Vision-Language-Action Models via On-Policy Distillation",
+      "summary": "Although pre-trained Vision-Language-Action (VLA) models exhibit impressive generalization in robotic manipulation, post-training remains crucial to ensure reliable performance during deployment. However, standard offline Supervised Fine-Tuning (SFT)...",
+      "url": "https://arxiv.org/abs/2603.26666v1",
+      "date": "2026-03-27",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2603.26666v1",
+      "authors": "Zhide Zhong, Haodong Yan et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Ruka-v2: Tendon Driven Open-Source Dexterous Hand with Wrist and Abduction for Robot Learning",
+      "summary": "Lack of accessible and dexterous robot hardware has been a significant bottleneck to achieving human-level dexterity in robots. Last year, we released Ruka, a fully open-sourced, tendon-driven humanoid hand with 11 degrees of freedom - 2 per finger a...",
+      "url": "https://arxiv.org/abs/2603.26660v1",
+      "date": "2026-03-27",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2603.26660v1",
+      "authors": "Xinqi, Liu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Partial Motion Imitation for Learning Cart Pushing with Legged Manipulators",
+      "summary": "Loco-manipulation is a key capability for legged robots to perform practical mobile manipulation tasks, such as transporting and pushing objects, in real-world environments. However, learning robust loco-manipulation skills remains challenging due to...",
+      "url": "https://arxiv.org/abs/2603.26659v1",
+      "date": "2026-03-27",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2603.26659v1",
+      "authors": "Mili Das, Morgan Byrd et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Drive-Through 3D Vehicle Exterior Reconstruction via Dynamic-Scene SfM and Distortion-Aware Gaussian Splatting",
+      "summary": "High-fidelity 3D reconstruction of vehicle exteriors improves buyer confidence in online automotive marketplaces, but generating these models in cluttered dealership drive-throughs presents severe technical challenges. Unlike static-scene photogramme...",
+      "url": "https://arxiv.org/abs/2603.26638v1",
+      "date": "2026-03-27",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2603.26638v1",
+      "authors": "Nitin Kulkarni, Akhil Devarashetti et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Meta-Adaptive Beam Search Planning for Transformer-Based Reinforcement Learning Control of UAVs with Overhead Manipulators under Flight Disturbances",
+      "summary": "Drones equipped with overhead manipulators offer unique capabilities for inspection, maintenance, and contact-based interaction. However, the motion of the drone and its manipulator is tightly linked, and even small attitude changes caused by wind or...",
+      "url": "https://arxiv.org/abs/2603.26612v1",
+      "date": "2026-03-27",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2603.26612v1",
+      "authors": "Hazim Alzorgan, Sayed Pedram Haeri Boroujeni et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
       ]
     },
     {
