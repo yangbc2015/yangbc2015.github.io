@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-03-30T10:01:47.295994+00:00",
-  "count": 8,
+  "last_updated": "2026-03-30T11:02:11.642368+00:00",
+  "count": 6,
   "items": [
     {
       "title": "Ruka-v2: Tendon Driven Open-Source Dexterous Hand with Wrist and Abduction for Robot Learning",
@@ -67,38 +67,6 @@
         "cs.CL"
       ],
       "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Detailed Geometry and Appearance from Opportunistic Motion",
-      "authors": "Ryosuke Hirai, Kohei Yamashita, Antoine Guédon et al.",
-      "abstract": "Reconstructing 3D geometry and appearance from a sparse set of fixed cameras is a foundational task with broad applications, yet it remains fundamentally constrained by the limited viewpoints. We show that this bound can be broken by exploiting opportunistic object motion: as a person manipulates an...",
-      "venue": "arXiv",
-      "date": "2026-03-27",
-      "arxiv_id": "2603.26665v1",
-      "url": "https://arxiv.org/abs/2603.26665v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.26665v1.pdf",
-      "categories": [
-        "cs.CV"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "GaussianGPT: Towards Autoregressive 3D Gaussian Scene Generation",
-      "authors": "Nicolas von Lützow, Barbara Rössle, Katharina Schmid et al.",
-      "abstract": "Most recent advances in 3D generative modeling rely on diffusion or flow-matching formulations. We instead explore a fully autoregressive alternative and introduce GaussianGPT, a transformer-based model that directly generates 3D Gaussians via next-token prediction, thus facilitating full 3D scene g...",
-      "venue": "arXiv",
-      "date": "2026-03-27",
-      "arxiv_id": "2603.26661v1",
-      "url": "https://arxiv.org/abs/2603.26661v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.26661v1.pdf",
-      "categories": [
-        "cs.CV"
-      ],
-      "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     },
