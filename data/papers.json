@@ -1,5 +1,41 @@
 {
-  "last_updated": "2026-03-30T07:02:25.497828+00:00",
-  "count": 0,
-  "items": []
+  "last_updated": "2026-03-30T08:02:27.091610+00:00",
+  "count": 2,
+  "items": [
+    {
+      "title": "Ruka-v2: Tendon Driven Open-Source Dexterous Hand with Wrist and Abduction for Robot Learning",
+      "authors": "Xinqi, Liu, Ruoxi Hu et al.",
+      "abstract": "Lack of accessible and dexterous robot hardware has been a significant bottleneck to achieving human-level dexterity in robots. Last year, we released Ruka, a fully open-sourced, tendon-driven humanoid hand with 11 degrees of freedom - 2 per finger and 3 at the thumb - buildable for under $1,300. It...",
+      "venue": "arXiv",
+      "date": "2026-03-27",
+      "arxiv_id": "2603.26660v1",
+      "url": "https://arxiv.org/abs/2603.26660v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.26660v1.pdf",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "PerceptionComp: A Video Benchmark for Complex Perception-Centric Reasoning",
+      "authors": "Shaoxuan Li, Zhixuan Zhao, Hanze Deng et al.",
+      "abstract": "We introduce PerceptionComp, a manually annotated benchmark for complex, long-horizon, perception-centric video reasoning. PerceptionComp is designed so that no single moment is sufficient: answering each question requires multiple temporally separated pieces of visual evidence and compositional con...",
+      "venue": "arXiv",
+      "date": "2026-03-27",
+      "arxiv_id": "2603.26653v1",
+      "url": "https://arxiv.org/abs/2603.26653v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.26653v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "type": "benchmark",
+      "badge": "arxiv",
+      "source": "arXiv"
+    }
+  ]
 }
