@@ -1,43 +1,7 @@
 {
-  "last_updated": "2026-03-31T14:01:46.184347+00:00",
-  "count": 8,
+  "last_updated": "2026-03-31T15:03:21.533951+00:00",
+  "count": 6,
   "items": [
-    {
-      "title": "Geometry-aware similarity metrics for neural representations on Riemannian and statistical manifolds",
-      "authors": "N Alex Cayco Gajic, Arthur Pellegrino",
-      "abstract": "Similarity measures are widely used to interpret the representational geometries used by neural networks to solve tasks. Yet, because existing methods compare the extrinsic geometry of representations in state space, rather than their intrinsic geometry, they may fail to capture subtle yet crucial d...",
-      "venue": "arXiv",
-      "date": "2026-03-30",
-      "arxiv_id": "2603.28764v1",
-      "url": "https://arxiv.org/abs/2603.28764v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.28764v1.pdf",
-      "categories": [
-        "cs.LG",
-        "cs.AI",
-        "math.DG"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "On-the-fly Repulsion in the Contextual Space for Rich Diversity in Diffusion Transformers",
-      "authors": "Omer Dahary, Benaya Koren, Daniel Garibi et al.",
-      "abstract": "Modern Text-to-Image (T2I) diffusion models have achieved remarkable semantic alignment, yet they often suffer from a significant lack of variety, converging on a narrow set of visual solutions for any given prompt. This typicality bias presents a challenge for creative applications that require a w...",
-      "venue": "arXiv",
-      "date": "2026-03-30",
-      "arxiv_id": "2603.28762v1",
-      "url": "https://arxiv.org/abs/2603.28762v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.28762v1.pdf",
-      "categories": [
-        "cs.CV",
-        "cs.AI",
-        "cs.GR"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
     {
       "title": "Adaptive Block-Scaled Data Types",
       "authors": "Jack Cook, Hyemin S. Lee, Kathryn Le et al.",
@@ -73,34 +37,38 @@
       "source": "arXiv"
     },
     {
-      "title": "Gen-Searcher: Reinforcing Agentic Search for Image Generation",
-      "authors": "Kaituo Feng, Manyuan Zhang, Shuang Chen et al.",
-      "abstract": "Recent image generation models have shown strong capabilities in generating high-fidelity and photorealistic images. However, they are fundamentally constrained by frozen internal knowledge, thus often failing on real-world scenarios that are knowledge-intensive or require up-to-date information. In...",
+      "title": "Geometry-aware similarity metrics for neural representations on Riemannian and statistical manifolds",
+      "authors": "N Alex Cayco Gajic, Arthur Pellegrino",
+      "abstract": "Similarity measures are widely used to interpret the representational geometries used by neural networks to solve tasks. Yet, because existing methods compare the extrinsic geometry of representations in state space, rather than their intrinsic geometry, they may fail to capture subtle yet crucial d...",
       "venue": "arXiv",
       "date": "2026-03-30",
-      "arxiv_id": "2603.28767v1",
-      "url": "https://arxiv.org/abs/2603.28767v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.28767v1.pdf",
+      "arxiv_id": "2603.28764v1",
+      "url": "https://arxiv.org/abs/2603.28764v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.28764v1.pdf",
       "categories": [
-        "cs.CV"
+        "cs.LG",
+        "cs.AI",
+        "math.DG"
       ],
-      "type": "vision",
+      "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "HandX: Scaling Bimanual Motion and Interaction Generation",
-      "authors": "Zimu Zhang, Yucheng Zhang, Xiyan Xu et al.",
-      "abstract": "Synthesizing human motion has advanced rapidly, yet realistic hand motion and bimanual interaction remain underexplored. Whole-body models often miss the fine-grained cues that drive dexterous behavior, finger articulation, contact timing, and inter-hand coordination, and existing resources lack hig...",
+      "title": "On-the-fly Repulsion in the Contextual Space for Rich Diversity in Diffusion Transformers",
+      "authors": "Omer Dahary, Benaya Koren, Daniel Garibi et al.",
+      "abstract": "Modern Text-to-Image (T2I) diffusion models have achieved remarkable semantic alignment, yet they often suffer from a significant lack of variety, converging on a narrow set of visual solutions for any given prompt. This typicality bias presents a challenge for creative applications that require a w...",
       "venue": "arXiv",
       "date": "2026-03-30",
-      "arxiv_id": "2603.28766v1",
-      "url": "https://arxiv.org/abs/2603.28766v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.28766v1.pdf",
+      "arxiv_id": "2603.28762v1",
+      "url": "https://arxiv.org/abs/2603.28762v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.28762v1.pdf",
       "categories": [
-        "cs.CV"
+        "cs.CV",
+        "cs.AI",
+        "cs.GR"
       ],
-      "type": "vision",
+      "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
