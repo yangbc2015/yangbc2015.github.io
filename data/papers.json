@@ -1,67 +1,52 @@
 {
-  "last_updated": "2026-03-31T02:02:23.320752+00:00",
-  "count": 6,
+  "last_updated": "2026-03-31T03:01:40.679517+00:00",
+  "count": 8,
   "items": [
     {
-      "title": "ProgressVLA: Progress-Guided Diffusion Policy for Vision-Language Robotic Manipulation",
-      "authors": "Hongyu Yan, Qiwei Li, Jiaolong Yang et al.",
-      "abstract": "Most existing vision-language-action (VLA) models for robotic manipulation lack progress awareness, typically relying on hand-crafted heuristics for task termination. This limitation is particularly severe in long-horizon tasks involving cascaded sub-goals. In this work, we investigate the estimatio...",
+      "title": "Geometry-aware similarity metrics for neural representations on Riemannian and statistical manifolds",
+      "authors": "N Alex Cayco Gajic, Arthur Pellegrino",
+      "abstract": "Similarity measures are widely used to interpret the representational geometries used by neural networks to solve tasks. Yet, because existing methods compare the extrinsic geometry of representations in state space, rather than their intrinsic geometry, they may fail to capture subtle yet crucial d...",
       "venue": "arXiv",
-      "date": "2026-03-29",
-      "arxiv_id": "2603.27670v1",
-      "url": "https://arxiv.org/abs/2603.27670v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.27670v1.pdf",
+      "date": "2026-03-30",
+      "arxiv_id": "2603.28764v1",
+      "url": "https://arxiv.org/abs/2603.28764v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.28764v1.pdf",
       "categories": [
-        "cs.RO",
-        "cs.AI"
+        "cs.LG",
+        "cs.AI",
+        "math.DG"
+      ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "On-the-fly Repulsion in the Contextual Space for Rich Diversity in Diffusion Transformers",
+      "authors": "Omer Dahary, Benaya Koren, Daniel Garibi et al.",
+      "abstract": "Modern Text-to-Image (T2I) diffusion models have achieved remarkable semantic alignment, yet they often suffer from a significant lack of variety, converging on a narrow set of visual solutions for any given prompt. This typicality bias presents a challenge for creative applications that require a w...",
+      "venue": "arXiv",
+      "date": "2026-03-30",
+      "arxiv_id": "2603.28762v1",
+      "url": "https://arxiv.org/abs/2603.28762v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.28762v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.GR"
       ],
       "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "EvA: An Evidence-First Audio Understanding Paradigm for LALMs",
-      "authors": "Xinyuan Xie, Shunian Chen, Zhiheng Liu et al.",
-      "abstract": "Large Audio Language Models (LALMs) still struggle in complex acoustic scenes because they often fail to preserve task-relevant acoustic evidence before reasoning begins. We call this failure the evidence bottleneck: state-of-the-art systems show larger deficits in evidence extraction than in downst...",
+      "title": "Adaptive Block-Scaled Data Types",
+      "authors": "Jack Cook, Hyemin S. Lee, Kathryn Le et al.",
+      "abstract": "NVFP4 has grown increasingly popular as a 4-bit format for quantizing large language models due to its hardware support and its ability to retain useful information with relatively few bits per parameter. However, the format is not without limitations: recent work has shown that NVFP4 suffers from i...",
       "venue": "arXiv",
-      "date": "2026-03-29",
-      "arxiv_id": "2603.27667v1",
-      "url": "https://arxiv.org/abs/2603.27667v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.27667v1.pdf",
-      "categories": [
-        "cs.SD",
-        "cs.AI"
-      ],
-      "type": "ai",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Learning to Commit: Generating Organic Pull Requests via Online Repository Memory",
-      "authors": "Mo Li, L. H. Xu, Qitai Tan et al.",
-      "abstract": "Large language model (LLM)-based coding agents achieve impressive results on controlled benchmarks yet routinely produce pull requests that real maintainers reject. The root cause is not functional incorrectness but a lack of organicity: generated code ignores project-specific conventions, duplicate...",
-      "venue": "arXiv",
-      "date": "2026-03-27",
-      "arxiv_id": "2603.26664v1",
-      "url": "https://arxiv.org/abs/2603.26664v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.26664v1.pdf",
-      "categories": [
-        "cs.SE",
-        "cs.CL"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Weight Tying Biases Token Embeddings Towards the Output Space",
-      "authors": "Antonio Lopardo, Avyukth Harish, Catherine Arnett et al.",
-      "abstract": "Weight tying, i.e. sharing parameters between input and output embedding matrices, is common practice in language model design, yet its impact on the learned embedding space remains poorly understood. In this paper, we show that tied embedding matrices align more closely with output (unembedding) ma...",
-      "venue": "arXiv",
-      "date": "2026-03-27",
-      "arxiv_id": "2603.26663v1",
-      "url": "https://arxiv.org/abs/2603.26663v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.26663v1.pdf",
+      "date": "2026-03-30",
+      "arxiv_id": "2603.28765v1",
+      "url": "https://arxiv.org/abs/2603.28765v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.28765v1.pdf",
       "categories": [
         "cs.CL"
       ],
@@ -70,14 +55,32 @@
       "source": "arXiv"
     },
     {
-      "title": "Detailed Geometry and Appearance from Opportunistic Motion",
-      "authors": "Ryosuke Hirai, Kohei Yamashita, Antoine Guédon et al.",
-      "abstract": "Reconstructing 3D geometry and appearance from a sparse set of fixed cameras is a foundational task with broad applications, yet it remains fundamentally constrained by the limited viewpoints. We show that this bound can be broken by exploiting opportunistic object motion: as a person manipulates an...",
+      "title": "ParaSpeechCLAP: A Dual-Encoder Speech-Text Model for Rich Stylistic Language-Audio Pretraining",
+      "authors": "Anuj Diwan, Eunsol Choi, David Harwath",
+      "abstract": "We introduce ParaSpeechCLAP, a dual-encoder contrastive model that maps speech and text style captions into a common embedding space, supporting a wide range of intrinsic (speaker-level) and situational (utterance-level) descriptors (such as pitch, texture and emotion) far beyond the narrow set hand...",
       "venue": "arXiv",
-      "date": "2026-03-27",
-      "arxiv_id": "2603.26665v1",
-      "url": "https://arxiv.org/abs/2603.26665v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.26665v1.pdf",
+      "date": "2026-03-30",
+      "arxiv_id": "2603.28737v1",
+      "url": "https://arxiv.org/abs/2603.28737v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.28737v1.pdf",
+      "categories": [
+        "eess.AS",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Gen-Searcher: Reinforcing Agentic Search for Image Generation",
+      "authors": "Kaituo Feng, Manyuan Zhang, Shuang Chen et al.",
+      "abstract": "Recent image generation models have shown strong capabilities in generating high-fidelity and photorealistic images. However, they are fundamentally constrained by frozen internal knowledge, thus often failing on real-world scenarios that are knowledge-intensive or require up-to-date information. In...",
+      "venue": "arXiv",
+      "date": "2026-03-30",
+      "arxiv_id": "2603.28767v1",
+      "url": "https://arxiv.org/abs/2603.28767v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.28767v1.pdf",
       "categories": [
         "cs.CV"
       ],
@@ -86,18 +89,51 @@
       "source": "arXiv"
     },
     {
-      "title": "GaussianGPT: Towards Autoregressive 3D Gaussian Scene Generation",
-      "authors": "Nicolas von Lützow, Barbara Rössle, Katharina Schmid et al.",
-      "abstract": "Most recent advances in 3D generative modeling rely on diffusion or flow-matching formulations. We instead explore a fully autoregressive alternative and introduce GaussianGPT, a transformer-based model that directly generates 3D Gaussians via next-token prediction, thus facilitating full 3D scene g...",
+      "title": "HandX: Scaling Bimanual Motion and Interaction Generation",
+      "authors": "Zimu Zhang, Yucheng Zhang, Xiyan Xu et al.",
+      "abstract": "Synthesizing human motion has advanced rapidly, yet realistic hand motion and bimanual interaction remain underexplored. Whole-body models often miss the fine-grained cues that drive dexterous behavior, finger articulation, contact timing, and inter-hand coordination, and existing resources lack hig...",
       "venue": "arXiv",
-      "date": "2026-03-27",
-      "arxiv_id": "2603.26661v1",
-      "url": "https://arxiv.org/abs/2603.26661v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.26661v1.pdf",
+      "date": "2026-03-30",
+      "arxiv_id": "2603.28766v1",
+      "url": "https://arxiv.org/abs/2603.28766v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.28766v1.pdf",
       "categories": [
         "cs.CV"
       ],
       "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "SHOW3D: Capturing Scenes of 3D Hands and Objects in the Wild",
+      "authors": "Patrick Rim, Kevin Harris, Braden Copple et al.",
+      "abstract": "Accurate 3D understanding of human hands and objects during manipulation remains a significant challenge for egocentric computer vision. Existing hand-object interaction datasets are predominantly captured in controlled studio settings, which limits both environmental diversity and the ability of mo...",
+      "venue": "arXiv",
+      "date": "2026-03-30",
+      "arxiv_id": "2603.28760v1",
+      "url": "https://arxiv.org/abs/2603.28760v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.28760v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "FocusVLA: Focused Visual Utilization for Vision-Language-Action Models",
+      "authors": "Yichi Zhang, Weihao Yuan, Yizhuo Zhang et al.",
+      "abstract": "Vision-Language-Action (VLA) models improve action generation by conditioning policies on rich vision-language information. However, current auto-regressive policies are constrained by three bottlenecks: (1) architectural bias drives models to overlook visual details, (2) an excessive number of visu...",
+      "venue": "arXiv",
+      "date": "2026-03-30",
+      "arxiv_id": "2603.28740v1",
+      "url": "https://arxiv.org/abs/2603.28740v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.28740v1.pdf",
+      "categories": [
+        "cs.RO"
+      ],
+      "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     }
