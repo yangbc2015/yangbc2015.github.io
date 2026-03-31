@@ -1,12 +1,73 @@
 {
   "date": "2026-03-31",
-  "last_updated": "2026-03-31T00:05:32.502567+00:00",
+  "last_updated": "2026-03-31T00:15:49.182110+00:00",
   "categories": {
     "ai": {
       "name": "人工智能",
       "icon": "🤖",
-      "count": 0,
-      "items": []
+      "count": 5,
+      "items": [
+        {
+          "title": "每百万Tokens输入不到0.8元，比Gemini-3.1 Pro的1/10还低。",
+          "link": "https://www.qbitai.com/?s=每百万Tokens输",
+          "summary": "每百万Tokens输入不到0.8元，比Gemini-3.1 Pro的1/10还低。...",
+          "date": "2026-03-31",
+          "source": "量子位",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "Ai2削减开源模型资金，研发人员集体出走",
+          "link": "https://www.qbitai.com/?s=Ai2削减开源模型资",
+          "summary": "Ai2削减开源模型资金，研发人员集体出走...",
+          "date": "2026-03-31",
+          "source": "量子位",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "Elo 1034.2分霸榜，领先Gemini-3.1-Pro、Claude-Opus-4.6",
+          "link": "https://www.qbitai.com/?s=Elo 1034.2",
+          "summary": "Elo 1034.2分霸榜，领先Gemini-3.1-Pro、Claude-Opus-4.6...",
+          "date": "2026-03-31",
+          "source": "量子位",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "以认知建模为核心的教育AGI探索",
+          "link": "https://www.qbitai.com/?s=以认知建模为核心的教",
+          "summary": "以认知建模为核心的教育AGI探索...",
+          "date": "2026-03-31",
+          "source": "量子位",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "在龙虾时代沉默了好久的DeepSeek，似乎在憋个大的",
+          "link": "https://www.qbitai.com/?s=在龙虾时代沉默了好久",
+          "summary": "在龙虾时代沉默了好久的DeepSeek，似乎在憋个大的...",
+          "date": "2026-03-31",
+          "source": "量子位",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        }
+      ]
     },
     "economy": {
       "name": "宏观经济",
