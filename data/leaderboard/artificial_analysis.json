@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-31T11:40:09.006513+00:00",
+  "last_updated": "2026-03-31T12:00:00+00:00",
   "source": "Artificial Analysis",
   "source_url": "https://artificialanalysis.ai/leaderboards/models",
   "description": "综合AI模型性能排行榜，基于智能指数、价格、输出速度、上下文窗口等多维度指标对模型进行评测。智能指数综合衡量模型的推理、知识、代码等能力。",
@@ -13,6 +13,7 @@
       "speed_tokens_per_sec": 95,
       "context_window": 200000,
       "trend": "up",
+      "trend_value": 3,
       "is_open_weights": false,
       "icon": "⚡"
     },
@@ -25,6 +26,7 @@
       "speed_tokens_per_sec": 88,
       "context_window": 128000,
       "trend": "same",
+      "trend_value": 0,
       "is_open_weights": false,
       "icon": "🚀"
     },
@@ -37,6 +39,7 @@
       "speed_tokens_per_sec": 142,
       "context_window": 2000000,
       "trend": "up",
+      "trend_value": 5,
       "is_open_weights": false,
       "icon": "🤖"
     },
@@ -49,6 +52,7 @@
       "speed_tokens_per_sec": 105,
       "context_window": 128000,
       "trend": "up",
+      "trend_value": 8,
       "is_open_weights": true,
       "icon": "💎"
     },
@@ -61,6 +65,7 @@
       "speed_tokens_per_sec": 125,
       "context_window": 256000,
       "trend": "up",
+      "trend_value": 4,
       "is_open_weights": false,
       "icon": "🔥"
     },
@@ -73,6 +78,7 @@
       "speed_tokens_per_sec": 85,
       "context_window": 256000,
       "trend": "up",
+      "trend_value": 6,
       "is_open_weights": true,
       "icon": "🧠"
     },
@@ -85,6 +91,7 @@
       "speed_tokens_per_sec": 135,
       "context_window": 200000,
       "trend": "same",
+      "trend_value": 0,
       "is_open_weights": false,
       "icon": "⚡"
     },
@@ -97,6 +104,7 @@
       "speed_tokens_per_sec": 110,
       "context_window": 128000,
       "trend": "down",
+      "trend_value": -2,
       "is_open_weights": false,
       "icon": "🚀"
     },
@@ -109,6 +117,7 @@
       "speed_tokens_per_sec": 95,
       "context_window": 128000,
       "trend": "up",
+      "trend_value": 7,
       "is_open_weights": true,
       "icon": "🌟"
     },
@@ -121,6 +130,7 @@
       "speed_tokens_per_sec": 115,
       "context_window": 128000,
       "trend": "up",
+      "trend_value": 3,
       "is_open_weights": false,
       "icon": "🎯"
     }

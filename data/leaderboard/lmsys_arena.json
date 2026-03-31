@@ -1,7 +1,8 @@
 {
+  "last_updated": "2026-03-31T12:00:00+00:00",
   "source": "LMSYS Chatbot Arena",
   "source_url": "https://chat.lmsys.org",
-  "description": "基于人类偏好的众包评测平台，通过盲测对比不同模型的对话能力",
+  "description": "基于人类偏好的众包评测平台，通过盲测对比不同模型的对话能力。ELO分数反映模型在盲测中的相对排名，分数越高表示在人类评估中表现越好。",
   "models": [
     {
       "rank": 1,
@@ -9,6 +10,8 @@
       "organization": "Anthropic",
       "elo": 1521,
       "trend": "up",
+      "trend_value": 18,
+      "votes": 125430,
       "icon": "⚡"
     },
     {
@@ -17,6 +20,8 @@
       "organization": "OpenAI",
       "elo": 1518,
       "trend": "same",
+      "trend_value": 0,
+      "votes": 143210,
       "icon": "🚀"
     },
     {
@@ -25,6 +30,8 @@
       "organization": "Google",
       "elo": 1505,
       "trend": "up",
+      "trend_value": 12,
+      "votes": 98760,
       "icon": "🤖"
     },
     {
@@ -33,6 +40,8 @@
       "organization": "xAI",
       "elo": 1480,
       "trend": "up",
+      "trend_value": 35,
+      "votes": 76540,
       "icon": "🔥"
     },
     {
@@ -41,6 +50,8 @@
       "organization": "DeepSeek",
       "elo": 1415,
       "trend": "up",
+      "trend_value": 28,
+      "votes": 89230,
       "icon": "💎"
     },
     {
@@ -49,6 +60,8 @@
       "organization": "Meta",
       "elo": 1392,
       "trend": "up",
+      "trend_value": 15,
+      "votes": 67890,
       "icon": "🧠"
     },
     {
@@ -57,6 +70,8 @@
       "organization": "Anthropic",
       "elo": 1385,
       "trend": "same",
+      "trend_value": 0,
+      "votes": 54320,
       "icon": "⚡"
     },
     {
@@ -65,6 +80,8 @@
       "organization": "OpenAI",
       "elo": 1368,
       "trend": "down",
+      "trend_value": -8,
+      "votes": 156780,
       "icon": "🚀"
     },
     {
@@ -73,6 +90,8 @@
       "organization": "Alibaba",
       "elo": 1352,
       "trend": "up",
+      "trend_value": 22,
+      "votes": 45670,
       "icon": "🌟"
     },
     {
@@ -81,6 +100,8 @@
       "organization": "Moonshot",
       "elo": 1345,
       "trend": "up",
+      "trend_value": 14,
+      "votes": 38920,
       "icon": "🌙"
     }
   ]
