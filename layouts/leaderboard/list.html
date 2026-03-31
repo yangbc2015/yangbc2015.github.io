@@ -77,13 +77,50 @@
     .lb-table {
         width: 100%;
         border-collapse: collapse;
+        table-layout: fixed;
     }
 
     .lb-table th,
     .lb-table td {
-        padding: 1rem;
+        padding: 1rem 0.75rem;
         text-align: left;
         border-bottom: 1px solid var(--neon-green-dim);
+    }
+
+    /* 列宽控制 */
+    .lb-table th:nth-child(1),
+    .lb-table td:nth-child(1) {
+        width: 70px;
+        text-align: center;
+    }
+
+    .lb-table th:nth-child(2),
+    .lb-table td:nth-child(2) {
+        width: auto;
+    }
+
+    .lb-table th:nth-child(3),
+    .lb-table td:nth-child(3) {
+        width: 100px;
+        text-align: center;
+    }
+
+    .lb-table th:nth-child(4),
+    .lb-table td:nth-child(4) {
+        width: 90px;
+        text-align: center;
+    }
+
+    .lb-table th:nth-child(5),
+    .lb-table td:nth-child(5) {
+        width: 100px;
+        text-align: center;
+    }
+
+    .lb-table th:nth-child(6),
+    .lb-table td:nth-child(6) {
+        width: 80px;
+        text-align: center;
     }
 
     .lb-table th {
@@ -159,6 +196,8 @@
         align-items: center;
         gap: 0.25rem;
         font-size: 0.85rem;
+        white-space: nowrap;
+        min-width: 60px;
     }
 
     .lb-trend.up {
@@ -233,8 +272,39 @@
     @media (max-width: 768px) {
         .lb-table th,
         .lb-table td {
-            padding: 0.75rem 0.5rem;
-            font-size: 0.9rem;
+            padding: 0.6rem 0.3rem;
+            font-size: 0.8rem;
+        }
+
+        /* 移动端调整列宽 */
+        .lb-table th:nth-child(1),
+        .lb-table td:nth-child(1) {
+            width: 50px;
+        }
+
+        .lb-table th:nth-child(3),
+        .lb-table td:nth-child(3) {
+            width: 70px;
+        }
+
+        .lb-table th:nth-child(4),
+        .lb-table td:nth-child(4) {
+            width: 70px;
+        }
+
+        .lb-table th:nth-child(5),
+        .lb-table td:nth-child(5) {
+            width: 70px;
+        }
+
+        .lb-table th:nth-child(6),
+        .lb-table td:nth-child(6) {
+            width: 60px;
+        }
+
+        .lb-trend {
+            font-size: 0.75rem;
+            min-width: 45px;
         }
 
         .lb-model-icon {

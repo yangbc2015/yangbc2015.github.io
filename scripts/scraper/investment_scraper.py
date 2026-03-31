@@ -67,12 +67,17 @@ class InvestmentScraper:
                 article_url = match.group('url').strip()
                 article_date = match.group('date') or datetime.now(timezone.utc).strftime('%Y-%m-%d')
 
+                # 清理标题中可能残留的markdown格式字符
+                title = re.sub(r'\]\s*\(', '', title)  # 移除 ]( 
+                title = re.sub(r'http[s]?://\S+', '', title)  # 移除URL
+                title = re.sub(r'\s+', ' ', title).strip()  # 清理多余空格
+                
                 if not self._is_valid_investment_title(title):
                     continue
 
                 items.append({
                     'title': title,
-                    'summary': f'AI投资动态：{title[:100]}',
+                    'summary': f'{title[:120]}',
                     'url': article_url,
                     'date': article_date,
                     'source': '36氪',

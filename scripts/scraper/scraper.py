@@ -773,6 +773,46 @@ def update_investment():
         # 合并新旧数据，并清洗历史脏数据
         all_items = new_items + existing_items
         
+        # 清理标题和摘要中的特殊字符
+        import re
+        for item in all_items:
+            title = item.get("title", "")
+            summary = item.get("summary", "")
+            
+            # 移除 ](http://...)
+            title = re.sub(r'\]\s*\([^)]+\)', '', title)
+            summary = re.sub(r'\]\s*\([^)]+\)', '', summary)
+            # 移除URL
+            title = re.sub(r'http[s]?://\S+', '', title)
+            summary = re.sub(r'http[s]?://\S+', '', summary)
+            # 清理markdown链接格式 [text](url)
+            title = re.sub(r'\[([^\]]+)\]\([^)]+\)', r'\1', title)
+            summary = re.sub(r'\[([^\]]+)\]\([^)]+\)', r'\1', summary)
+            # 清理 _AI_ _融_ _资_ 格式
+            title = re.sub(r'_AI_', 'AI', title)
+            title = re.sub(r'_融_', '融', title)
+            title = re.sub(r'_资_', '资', title)
+            title = re.sub(r'_+', '', title)
+            summary = re.sub(r'_AI_', 'AI', summary)
+            summary = re.sub(r'_融_', '融', summary)
+            summary = re.sub(r'_资_', '资', summary)
+            summary = re.sub(r'_+', '', summary)
+            # 合并分散的 AI 融 资
+            title = re.sub(r'AI\s+融\s+资', 'AI融资', title)
+            summary = re.sub(r'AI\s+融\s+资', 'AI融资', summary)
+            # 清理多余空格
+            title = re.sub(r'\s+', ' ', title).strip()
+            summary = re.sub(r'\s+', ' ', summary).strip()
+            # 移除开头的 ]( 残留
+            title = re.sub(r'^\]\(', '', title)
+            summary = re.sub(r'^\]\(', '', summary)
+            # 移除开头的特殊字符
+            title = re.sub(r'^[\]\*\s]+', '', title)
+            summary = re.sub(r'^[\]\*\s]+', '', summary)
+            
+            item['title'] = title
+            item['summary'] = summary
+        
         # 去重：基于标题
         seen_titles = set()
         unique_items = []
