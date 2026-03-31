@@ -97,3 +97,4 @@ data/
 - **2026-03-31**: 修复AI榜单趋势列换行问题，添加 `white-space: nowrap` 和居中显示
 - **2026-03-31**: 修复机器人栏目标题乱码问题，清理markdown格式和特殊字符
 - **2026-03-31**: 优化AI榜单移动端显示，添加表格横向滚动提示
+- **2026-03-31**: **简化AI榜单，移除无法自动更新的硬编码榜单（OpenCompass/GAIA/MMLU Pro/代码能力），只保留能每日自动更新的 Artificial Analysis 和 LMSYS Arena**
