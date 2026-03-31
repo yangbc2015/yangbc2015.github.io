@@ -1,7 +1,41 @@
 {
-  "last_updated": "2026-03-31T01:02:18.885477+00:00",
-  "count": 4,
+  "last_updated": "2026-03-31T02:02:23.320752+00:00",
+  "count": 6,
   "items": [
+    {
+      "title": "ProgressVLA: Progress-Guided Diffusion Policy for Vision-Language Robotic Manipulation",
+      "authors": "Hongyu Yan, Qiwei Li, Jiaolong Yang et al.",
+      "abstract": "Most existing vision-language-action (VLA) models for robotic manipulation lack progress awareness, typically relying on hand-crafted heuristics for task termination. This limitation is particularly severe in long-horizon tasks involving cascaded sub-goals. In this work, we investigate the estimatio...",
+      "venue": "arXiv",
+      "date": "2026-03-29",
+      "arxiv_id": "2603.27670v1",
+      "url": "https://arxiv.org/abs/2603.27670v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.27670v1.pdf",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "EvA: An Evidence-First Audio Understanding Paradigm for LALMs",
+      "authors": "Xinyuan Xie, Shunian Chen, Zhiheng Liu et al.",
+      "abstract": "Large Audio Language Models (LALMs) still struggle in complex acoustic scenes because they often fail to preserve task-relevant acoustic evidence before reasoning begins. We call this failure the evidence bottleneck: state-of-the-art systems show larger deficits in evidence extraction than in downst...",
+      "venue": "arXiv",
+      "date": "2026-03-29",
+      "arxiv_id": "2603.27667v1",
+      "url": "https://arxiv.org/abs/2603.27667v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.27667v1.pdf",
+      "categories": [
+        "cs.SD",
+        "cs.AI"
+      ],
+      "type": "ai",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
     {
       "title": "Learning to Commit: Generating Organic Pull Requests via Online Repository Memory",
       "authors": "Mo Li, L. H. Xu, Qitai Tan et al.",

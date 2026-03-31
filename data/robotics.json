@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-03-31T01:03:54.096397+00:00",
-  "count": 38,
+  "last_updated": "2026-03-31T02:03:29.525577+00:00",
+  "count": 44,
   "items": [
     {
       "title": "](http://36kr.com/p/3744620824035593) [“龙虾”们正在改造机器人，_具_ _身_ _智_ _能_ 的下一步是什么？",
@@ -12,6 +12,86 @@
       "type": "news",
       "tags": [
         "机器人"
+      ]
+    },
+    {
+      "title": "Serialized Red-Green-Gray: Quicker Heuristic Validation of Edges in Dynamic Roadmap Graphs",
+      "summary": "Motion planning in dynamic environments, such as robotic warehouses, requires fast adaptation to frequent changes in obstacle poses. Traditional roadmap-based methods struggle in such settings, relying on inefficient reconstruction of a roadmap or ex...",
+      "url": "https://arxiv.org/abs/2603.28674v1",
+      "date": "2026-03-30",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2603.28674v1",
+      "authors": "Yulie Arad, Stav Ashur et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Sim-to-Real Fruit Detection Using Synthetic Data: Quantitative Evaluation and Embedded Deployment with Isaac Sim",
+      "summary": "This study investigates the effectiveness of synthetic data for sim-to-real transfer in object detection under constrained data conditions and embedded deployment requirements. Synthetic datasets were generated in NVIDIA Isaac Sim and combined with l...",
+      "url": "https://arxiv.org/abs/2603.28670v1",
+      "date": "2026-03-30",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2603.28670v1",
+      "authors": "Martina Hutter-Mironovova",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Dynamic Lookahead Distance via Reinforcement Learning-Based Pure Pursuit for Autonomous Racing",
+      "summary": "Pure Pursuit (PP) is a widely used path-tracking algorithm in autonomous vehicles due to its simplicity and real-time performance. However, its effectiveness is sensitive to the choice of lookahead distance: shorter values improve cornering but can c...",
+      "url": "https://arxiv.org/abs/2603.28625v1",
+      "date": "2026-03-30",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2603.28625v1",
+      "authors": "Mohamed Elgouhary, Amr S. El-Wakeel",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Detection of Adversarial Attacks in Robotic Perception",
+      "summary": "Deep Neural Networks (DNNs) achieve strong performance in semantic segmentation for robotic perception but remain vulnerable to adversarial attacks, threatening safety-critical applications. While robustness has been studied for image classification,...",
+      "url": "https://arxiv.org/abs/2603.28594v1",
+      "date": "2026-03-30",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2603.28594v1",
+      "authors": "Ziad Sharawy, Mohammad Nakshbandiand et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "A Self-Rotating Tri-Rotor UAV for Field of View Expansion and Autonomous Flight",
+      "summary": "Unmanned Aerial Vehicles (UAVs) perception relies on onboard sensors like cameras and LiDAR, which are limited by the narrow field of view (FoV). We present Self-Perception INertial Navigation Enabled Rotorcraft (SPINNER), a self-rotating tri-rotor U...",
+      "url": "https://arxiv.org/abs/2603.28581v1",
+      "date": "2026-03-30",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2603.28581v1",
+      "authors": "Xiaobin Zhou, Zihao Zheng et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
       ]
     },
     {
