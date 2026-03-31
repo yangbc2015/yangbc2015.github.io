@@ -280,19 +280,19 @@ def update_papers():
 
 
 def update_videos():
-    """更新视频数据"""
+    """更新视频数据 - 保留历史记录，合并新旧视频"""
     print("\n" + "="*50)
     print("🎬 开始更新 AI 视频...")
     print("="*50)
     
     scraper = VideosScraper()
-    all_videos = []
+    new_videos = []
     
     # 获取精选视频
     try:
         print("\n  正在获取精选 AI 视频...")
         featured_videos = scraper.get_featured_videos(max_results=10)
-        all_videos.extend(featured_videos)
+        new_videos.extend(featured_videos)
         print(f"  ✓ 获取了 {len(featured_videos)} 个精选视频")
     except Exception as e:
         print(f"  ✗ 获取精选视频失败: {e}")
@@ -301,24 +301,70 @@ def update_videos():
     try:
         print("\n  正在获取 B站 AI 视频...")
         bilibili_videos = scraper.get_bilibili_videos(max_results=10)
-        all_videos.extend(bilibili_videos)
+        new_videos.extend(bilibili_videos)
         print(f"  ✓ 获取了 {len(bilibili_videos)} 个 B站视频")
     except Exception as e:
         print(f"  ✗ B站视频获取失败: {e}")
     
+    # 获取 YouTube 最新视频
+    try:
+        print("\n  正在获取 YouTube AI 视频...")
+        youtube_videos = scraper.fetch_youtube_ai_videos(max_results=10)
+        new_videos.extend(youtube_videos)
+        print(f"  ✓ 获取了 {len(youtube_videos)} 个 YouTube 视频")
+    except Exception as e:
+        print(f"  ✗ YouTube 视频获取失败: {e}")
+    
+    # 读取现有视频数据
+    existing_videos = []
+    videos_json_path = DATA_DIR / "videos.json"
+    if videos_json_path.exists():
+        try:
+            with open(videos_json_path, 'r', encoding='utf-8') as f:
+                existing_data = json.load(f)
+                existing_videos = existing_data.get("items", [])
+                print(f"\n  📂 读取到 {len(existing_videos)} 个历史视频")
+        except Exception as e:
+            print(f"  ⚠️ 读取历史视频失败: {e}")
+    
+    # 合并新旧视频
+    all_videos = new_videos + existing_videos
+    
+    # 去重：基于 video_id + platform
+    seen_keys = set()
+    unique_videos = []
+    for video in all_videos:
+        video_id = video.get("video_id", "")
+        platform = video.get("platform", "")
+        key = f"{platform}:{video_id}"
+        
+        if key and key in seen_keys:
+            continue
+        if key:
+            seen_keys.add(key)
+        unique_videos.append(video)
+    
+    all_videos = unique_videos
+    
+    # 按日期排序（最新的在前）
+    all_videos.sort(key=lambda x: x.get("date", ""), reverse=True)
+    
     # 保留最多200个历史视频
     all_videos = all_videos[:200]
+    print(f"\n  📊 保留最新 {len(all_videos)} 个视频（最多200个）")
     
     # 保存视频数据
     videos_data = {
         "last_updated": datetime.now(timezone.utc).isoformat(),
         "count": len(all_videos),
+        "history_count": len(unique_videos),
+        "retention_count": 200,
         "items": all_videos
     }
     save_json(videos_data, DATA_DIR / "videos.json")
     
-    # 为前10个视频创建内容文件
-    create_videos_content_files(all_videos[:10])
+    # 为新视频创建内容文件（最多10个新视频）
+    create_videos_content_files(new_videos[:10])
     
     return all_videos
 
