@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-03-31T03:02:45.273459+00:00",
-  "count": 44,
+  "last_updated": "2026-03-31T04:04:08.113005+00:00",
+  "count": 49,
   "items": [
     {
       "title": "](http://36kr.com/p/3744620824035593) [“龙虾”们正在改造机器人，_具_ _身_ _智_ _能_ 的下一步是什么？",
@@ -12,6 +12,86 @@
       "type": "news",
       "tags": [
         "机器人"
+      ]
+    },
+    {
+      "title": "SHOW3D: Capturing Scenes of 3D Hands and Objects in the Wild",
+      "summary": "Accurate 3D understanding of human hands and objects during manipulation remains a significant challenge for egocentric computer vision. Existing hand-object interaction datasets are predominantly captured in controlled studio settings, which limits ...",
+      "url": "https://arxiv.org/abs/2603.28760v1",
+      "date": "2026-03-30",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2603.28760v1",
+      "authors": "Patrick Rim, Kevin Harris et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "FocusVLA: Focused Visual Utilization for Vision-Language-Action Models",
+      "summary": "Vision-Language-Action (VLA) models improve action generation by conditioning policies on rich vision-language information. However, current auto-regressive policies are constrained by three bottlenecks: (1) architectural bias drives models to overlo...",
+      "url": "https://arxiv.org/abs/2603.28740v1",
+      "date": "2026-03-30",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2603.28740v1",
+      "authors": "Yichi Zhang, Weihao Yuan et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Pandora: Articulated 3D Scene Graphs from Egocentric Vision",
+      "summary": "Robotic mapping systems typically approach building metric-semantic scene representations from the robot's own sensors and cameras. However, these \"first person\" maps inherit the robot's own limitations due to its embodiment or skillset, which may le...",
+      "url": "https://arxiv.org/abs/2603.28732v1",
+      "date": "2026-03-30",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2603.28732v1",
+      "authors": "Alan Yu, Yun Chang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "SOLE-R1: Video-Language Reasoning as the Sole Reward for On-Robot Reinforcement Learning",
+      "summary": "Vision-language models (VLMs) have shown impressive capabilities across diverse tasks, motivating efforts to leverage these models to supervise robot learning. However, when used as evaluators in reinforcement learning (RL), today's strongest models ...",
+      "url": "https://arxiv.org/abs/2603.28730v1",
+      "date": "2026-03-30",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2603.28730v1",
+      "authors": "Philip Schroeder, Thomas Weng et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "DRIVE-Nav: Directional Reasoning, Inspection, and Verification for Efficient Open-Vocabulary Navigation",
+      "summary": "Open-Vocabulary Object Navigation (OVON) requires an embodied agent to locate a language-specified target in unknown environments. Existing zero-shot methods often reason over dense frontier points under incomplete observations, causing unstable rout...",
+      "url": "https://arxiv.org/abs/2603.28691v1",
+      "date": "2026-03-30",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2603.28691v1",
+      "authors": "Maoguo Gao, Zejun Zhu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
       ]
     },
     {

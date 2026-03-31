@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-03-31T03:01:40.679517+00:00",
-  "count": 8,
+  "last_updated": "2026-03-31T04:02:37.756148+00:00",
+  "count": 6,
   "items": [
     {
       "title": "Geometry-aware similarity metrics for neural representations on Riemannian and statistical manifolds",
@@ -101,39 +101,6 @@
         "cs.CV"
       ],
       "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "SHOW3D: Capturing Scenes of 3D Hands and Objects in the Wild",
-      "authors": "Patrick Rim, Kevin Harris, Braden Copple et al.",
-      "abstract": "Accurate 3D understanding of human hands and objects during manipulation remains a significant challenge for egocentric computer vision. Existing hand-object interaction datasets are predominantly captured in controlled studio settings, which limits both environmental diversity and the ability of mo...",
-      "venue": "arXiv",
-      "date": "2026-03-30",
-      "arxiv_id": "2603.28760v1",
-      "url": "https://arxiv.org/abs/2603.28760v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.28760v1.pdf",
-      "categories": [
-        "cs.CV",
-        "cs.RO"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "FocusVLA: Focused Visual Utilization for Vision-Language-Action Models",
-      "authors": "Yichi Zhang, Weihao Yuan, Yizhuo Zhang et al.",
-      "abstract": "Vision-Language-Action (VLA) models improve action generation by conditioning policies on rich vision-language information. However, current auto-regressive policies are constrained by three bottlenecks: (1) architectural bias drives models to overlook visual details, (2) an excessive number of visu...",
-      "venue": "arXiv",
-      "date": "2026-03-30",
-      "arxiv_id": "2603.28740v1",
-      "url": "https://arxiv.org/abs/2603.28740v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.28740v1.pdf",
-      "categories": [
-        "cs.RO"
-      ],
-      "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     }
