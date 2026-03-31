@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-03-31T22:01:53.066658+00:00",
-  "count": 8,
+  "last_updated": "2026-03-31T23:02:09.115956+00:00",
+  "count": 6,
   "items": [
     {
       "title": "Geometry-aware similarity metrics for neural representations on Riemannian and statistical manifolds",
@@ -69,38 +69,6 @@
         "cs.CL"
       ],
       "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Gen-Searcher: Reinforcing Agentic Search for Image Generation",
-      "authors": "Kaituo Feng, Manyuan Zhang, Shuang Chen et al.",
-      "abstract": "Recent image generation models have shown strong capabilities in generating high-fidelity and photorealistic images. However, they are fundamentally constrained by frozen internal knowledge, thus often failing on real-world scenarios that are knowledge-intensive or require up-to-date information. In...",
-      "venue": "arXiv",
-      "date": "2026-03-30",
-      "arxiv_id": "2603.28767v1",
-      "url": "https://arxiv.org/abs/2603.28767v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.28767v1.pdf",
-      "categories": [
-        "cs.CV"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "HandX: Scaling Bimanual Motion and Interaction Generation",
-      "authors": "Zimu Zhang, Yucheng Zhang, Xiyan Xu et al.",
-      "abstract": "Synthesizing human motion has advanced rapidly, yet realistic hand motion and bimanual interaction remain underexplored. Whole-body models often miss the fine-grained cues that drive dexterous behavior, finger articulation, contact timing, and inter-hand coordination, and existing resources lack hig...",
-      "venue": "arXiv",
-      "date": "2026-03-30",
-      "arxiv_id": "2603.28766v1",
-      "url": "https://arxiv.org/abs/2603.28766v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.28766v1.pdf",
-      "categories": [
-        "cs.CV"
-      ],
-      "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     },
