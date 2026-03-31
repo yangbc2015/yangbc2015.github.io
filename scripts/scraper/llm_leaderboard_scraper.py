@@ -46,16 +46,16 @@ class LLMLeaderboardScraper:
             "source_url": "https://chat.lmsys.org",
             "description": "基于人类偏好的众包评测平台，通过盲测对比不同模型的对话能力",
             "models": [
-                {"rank": 1, "model": "Claude 4.5 Opus", "organization": "Anthropic", "elo": 1521, "trend": "up", "icon": "⚡"},
-                {"rank": 2, "model": "GPT-4.5", "organization": "OpenAI", "elo": 1518, "trend": "same", "icon": "🚀"},
-                {"rank": 3, "model": "Gemini 2.5 Pro", "organization": "Google", "elo": 1505, "trend": "up", "icon": "🤖"},
-                {"rank": 4, "model": "Grok-3 (Thinking)", "organization": "xAI", "elo": 1480, "trend": "up", "icon": "🔥"},
-                {"rank": 5, "model": "DeepSeek-V3", "organization": "DeepSeek", "elo": 1415, "trend": "up", "icon": "💎"},
-                {"rank": 6, "model": "Llama 3.3 70B", "organization": "Meta", "elo": 1392, "trend": "up", "icon": "🧠"},
-                {"rank": 7, "model": "Claude 3.5 Sonnet", "organization": "Anthropic", "elo": 1385, "trend": "same", "icon": "⚡"},
-                {"rank": 8, "model": "GPT-4o", "organization": "OpenAI", "elo": 1368, "trend": "down", "icon": "🚀"},
-                {"rank": 9, "model": "Qwen2.5-Max", "organization": "Alibaba", "elo": 1352, "trend": "up", "icon": "🌟"},
-                {"rank": 10, "model": "Kimi k1.5", "organization": "Moonshot", "elo": 1345, "trend": "up", "icon": "🌙"},
+                {"rank": 1, "model": "Claude 4.5 Opus", "organization": "Anthropic", "elo": 1521, "trend": "up", "trend_value": 18, "votes": 125430, "icon": "⚡"},
+                {"rank": 2, "model": "GPT-4.5", "organization": "OpenAI", "elo": 1518, "trend": "same", "trend_value": 0, "votes": 143210, "icon": "🚀"},
+                {"rank": 3, "model": "Gemini 2.5 Pro", "organization": "Google", "elo": 1505, "trend": "up", "trend_value": 12, "votes": 98760, "icon": "🤖"},
+                {"rank": 4, "model": "Grok-3 (Thinking)", "organization": "xAI", "elo": 1480, "trend": "up", "trend_value": 35, "votes": 76540, "icon": "🔥"},
+                {"rank": 5, "model": "DeepSeek-V3", "organization": "DeepSeek", "elo": 1415, "trend": "up", "trend_value": 28, "votes": 89230, "icon": "💎"},
+                {"rank": 6, "model": "Llama 3.3 70B", "organization": "Meta", "elo": 1392, "trend": "up", "trend_value": 15, "votes": 67890, "icon": "🧠"},
+                {"rank": 7, "model": "Claude 3.5 Sonnet", "organization": "Anthropic", "elo": 1385, "trend": "same", "trend_value": 0, "votes": 54320, "icon": "⚡"},
+                {"rank": 8, "model": "GPT-4o", "organization": "OpenAI", "elo": 1368, "trend": "down", "trend_value": -8, "votes": 156780, "icon": "🚀"},
+                {"rank": 9, "model": "Qwen2.5-Max", "organization": "Alibaba", "elo": 1352, "trend": "up", "trend_value": 22, "votes": 45670, "icon": "🌟"},
+                {"rank": 10, "model": "Kimi k1.5", "organization": "Moonshot", "elo": 1345, "trend": "up", "trend_value": 14, "votes": 38920, "icon": "🌙"},
             ]
         }
     

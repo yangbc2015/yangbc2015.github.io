@@ -285,6 +285,7 @@
                         <th>智能指数</th>
                         <th>价格 ($/1M tokens)</th>
                         <th>速度 (tokens/s)</th>
+                        <th>趋势</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -306,6 +307,11 @@
                             <td class="lb-score">{{ .intelligence_index }}</td>
                             <td>${{ .price_per_1m_tokens }}</td>
                             <td>{{ .speed_tokens_per_sec }}</td>
+                            <td class="lb-trend {{ .trend }}">
+                                {{ if eq .trend "up" }}↗️ {{ if (eq .trend_value nil) }}上升{{ else }}+{{ .trend_value }}{{ end }}
+                                {{ else if eq .trend "down" }}↘️ {{ if (eq .trend_value nil) }}下降{{ else }}{{ .trend_value }}{{ end }}
+                                {{ else }}➡️ {{ if (eq .trend_value nil) }}持平{{ else }}{{ .trend_value }}{{ end }}{{ end }}
+                            </td>
                         </tr>
                         {{ end }}
                     {{ else }}
@@ -399,9 +405,9 @@
                             </td>
                             <td class="lb-score">{{ .elo | lang.FormatNumber 0 }}</td>
                             <td class="lb-trend {{ .trend }}">
-                                {{ if eq .trend "up" }}↗️ +{{ .trend_value }}
-                                {{ else if eq .trend "down" }}↘️ {{ .trend_value }}
-                                {{ else }}➡️ -{{ end }}
+                                {{ if eq .trend "up" }}↗️ {{ if (eq .trend_value nil) }}上升{{ else }}+{{ .trend_value }}{{ end }}
+                                {{ else if eq .trend "down" }}↘️ {{ if (eq .trend_value nil) }}下降{{ else }}{{ .trend_value }}{{ end }}
+                                {{ else }}➡️ {{ if (eq .trend_value nil) }}持平{{ else }}{{ .trend_value }}{{ end }}{{ end }}
                             </td>
                             <td>{{ .votes | lang.FormatNumber 0 }}</td>
                         </tr>

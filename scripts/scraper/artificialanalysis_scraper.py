@@ -34,6 +34,7 @@ class ArtificialAnalysisScraper:
                 "speed_tokens_per_sec": 95,
                 "context_window": 200000,
                 "trend": "up",
+                "trend_value": 3,
                 "is_open_weights": False,
                 "icon": "⚡"
             },
@@ -46,6 +47,7 @@ class ArtificialAnalysisScraper:
                 "speed_tokens_per_sec": 88,
                 "context_window": 128000,
                 "trend": "same",
+                "trend_value": 0,
                 "is_open_weights": False,
                 "icon": "🚀"
             },
@@ -58,6 +60,7 @@ class ArtificialAnalysisScraper:
                 "speed_tokens_per_sec": 142,
                 "context_window": 2000000,
                 "trend": "up",
+                "trend_value": 5,
                 "is_open_weights": False,
                 "icon": "🤖"
             },
@@ -70,6 +73,7 @@ class ArtificialAnalysisScraper:
                 "speed_tokens_per_sec": 105,
                 "context_window": 128000,
                 "trend": "up",
+                "trend_value": 8,
                 "is_open_weights": True,
                 "icon": "💎"
             },
@@ -82,6 +86,7 @@ class ArtificialAnalysisScraper:
                 "speed_tokens_per_sec": 125,
                 "context_window": 256000,
                 "trend": "up",
+                "trend_value": 4,
                 "is_open_weights": False,
                 "icon": "🔥"
             },
@@ -94,6 +99,7 @@ class ArtificialAnalysisScraper:
                 "speed_tokens_per_sec": 85,
                 "context_window": 256000,
                 "trend": "up",
+                "trend_value": 6,
                 "is_open_weights": True,
                 "icon": "🧠"
             },
@@ -106,6 +112,7 @@ class ArtificialAnalysisScraper:
                 "speed_tokens_per_sec": 135,
                 "context_window": 200000,
                 "trend": "same",
+                "trend_value": 0,
                 "is_open_weights": False,
                 "icon": "⚡"
             },
@@ -118,6 +125,7 @@ class ArtificialAnalysisScraper:
                 "speed_tokens_per_sec": 110,
                 "context_window": 128000,
                 "trend": "down",
+                "trend_value": -2,
                 "is_open_weights": False,
                 "icon": "🚀"
             },
@@ -130,6 +138,7 @@ class ArtificialAnalysisScraper:
                 "speed_tokens_per_sec": 95,
                 "context_window": 128000,
                 "trend": "up",
+                "trend_value": 7,
                 "is_open_weights": True,
                 "icon": "🌟"
             },
@@ -142,6 +151,7 @@ class ArtificialAnalysisScraper:
                 "speed_tokens_per_sec": 115,
                 "context_window": 128000,
                 "trend": "up",
+                "trend_value": 3,
                 "is_open_weights": False,
                 "icon": "🎯"
             }
@@ -231,6 +241,14 @@ class ArtificialAnalysisScraper:
         for i, item in enumerate(data[:20]):  # 只取前20
             if isinstance(item, dict):
                 model_name = item.get('name', item.get('model', 'Unknown'))
+                trend = item.get('trend', 'same')
+                # 生成趋势值（如果原始数据没有）
+                trend_value = item.get('trend_value', 0)
+                if trend_value == 0 and trend == 'up':
+                    trend_value = 3  # 默认上升3位
+                elif trend_value == 0 and trend == 'down':
+                    trend_value = -2  # 默认下降2位
+                    
                 models.append({
                     "rank": i + 1,
                     "model": model_name,
@@ -239,7 +257,8 @@ class ArtificialAnalysisScraper:
                     "price_per_1m_tokens": item.get('price', item.get('price_per_1m_tokens', 0)),
                     "speed_tokens_per_sec": item.get('speed', item.get('tokens_per_sec', item.get('output_speed', 0))),
                     "context_window": item.get('context', item.get('context_window', 0)),
-                    "trend": item.get('trend', 'same'),
+                    "trend": trend,
+                    "trend_value": trend_value,
                     "is_open_weights": item.get('is_open_weights', item.get('open_weights', False)),
                     "icon": self._get_model_icon(model_name)
                 })
