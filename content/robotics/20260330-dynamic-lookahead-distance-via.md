@@ -1,20 +1,15 @@
 ---
-title: Dynamic Lookahead Distance via Reinforcement Learning-Based Pure Pursuit for
-  Autonomous Racing
-date: '2026-03-30'
-type: paper
-source: arXiv
-category: 机器人学习
-link: https://arxiv.org/abs/2603.28625v1
-summary: 'Pure Pursuit (PP) is a widely used path-tracking algorithm in autonomous
-  vehicles due to its simplicity and real-time performance. However, its effectiveness
-  is sensitive to the choice of lookahead distance: shorter values improve cornering
-  but can c...'
+title: "Dynamic Lookahead Distance via Reinforcement Learning-Based Pure Pursuit for Autonomous Racing"
+date: "2026-03-30"
+type: "paper"
+source: "arXiv"
+category: "机器人学习"
+link: "https://arxiv.org/abs/2603.28625v1"
+summary: "Pure Pursuit (PP) is a widely used path-tracking algorithm in autonomous vehicles due to its simplicity and real-time performance. However, its effect"
 tags:
 - 机器人学习
 - 研究论文
 - arXiv
-arxiv_id: 2603.28625v1
 ---
 
 ## 🤖 内容摘要

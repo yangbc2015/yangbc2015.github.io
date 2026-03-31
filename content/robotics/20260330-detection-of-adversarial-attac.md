@@ -1,18 +1,15 @@
 ---
-title: Detection of Adversarial Attacks in Robotic Perception
-date: '2026-03-30'
-type: paper
-source: arXiv
-category: 机器人学习
-link: https://arxiv.org/abs/2603.28594v1
-summary: Deep Neural Networks (DNNs) achieve strong performance in semantic segmentation
-  for robotic perception but remain vulnerable to adversarial attacks, threatening
-  safety-critical applications. While robustness has been studied for image classification,...
+title: "Detection of Adversarial Attacks in Robotic Perception"
+date: "2026-03-30"
+type: "paper"
+source: "arXiv"
+category: "机器人学习"
+link: "https://arxiv.org/abs/2603.28594v1"
+summary: "Deep Neural Networks (DNNs) achieve strong performance in semantic segmentation for robotic perception but remain vulnerable to adversarial attacks, t"
 tags:
 - 机器人学习
 - 研究论文
 - arXiv
-arxiv_id: 2603.28594v1
 ---
 
 ## 🤖 内容摘要

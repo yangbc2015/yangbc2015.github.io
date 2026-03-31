@@ -1,19 +1,15 @@
 ---
-title: 'SHOW3D: Capturing Scenes of 3D Hands and Objects in the Wild'
-date: '2026-03-30'
-type: paper
-source: arXiv
-category: 机器人学习
-link: https://arxiv.org/abs/2603.28760v1
-summary: Accurate 3D understanding of human hands and objects during manipulation
-  remains a significant challenge for egocentric computer vision. Existing hand-object
-  interaction datasets are predominantly captured in controlled studio settings, which
-  limits ...
+title: "SHOW3D: Capturing Scenes of 3D Hands and Objects in the Wild"
+date: "2026-03-30"
+type: "paper"
+source: "arXiv"
+category: "机器人学习"
+link: "https://arxiv.org/abs/2603.28760v1"
+summary: "Accurate 3D understanding of human hands and objects during manipulation remains a significant challenge for egocentric computer vision. Existing hand"
 tags:
 - 机器人学习
 - 研究论文
 - arXiv
-arxiv_id: 2603.28760v1
 ---
 
 ## 🤖 内容摘要

@@ -1,19 +1,15 @@
 ---
-title: 'Pandora: Articulated 3D Scene Graphs from Egocentric Vision'
-date: '2026-03-30'
-type: paper
-source: arXiv
-category: 机器人学习
-link: https://arxiv.org/abs/2603.28732v1
-summary: Robotic mapping systems typically approach building metric-semantic scene
-  representations from the robot's own sensors and cameras. However, these "first
-  person" maps inherit the robot's own limitations due to its embodiment or skillset,
-  which may le...
+title: "Pandora: Articulated 3D Scene Graphs from Egocentric Vision"
+date: "2026-03-30"
+type: "paper"
+source: "arXiv"
+category: "机器人学习"
+link: "https://arxiv.org/abs/2603.28732v1"
+summary: "Robotic mapping systems typically approach building metric-semantic scene representations from the robot's own sensors and cameras. However, these \"f"
 tags:
 - 机器人学习
 - 研究论文
 - arXiv
-arxiv_id: 2603.28732v1
 ---
 
 ## 🤖 内容摘要

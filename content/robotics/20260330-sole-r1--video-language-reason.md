@@ -1,20 +1,15 @@
 ---
-title: 'SOLE-R1: Video-Language Reasoning as the Sole Reward for On-Robot Reinforcement
-  Learning'
-date: '2026-03-30'
-type: paper
-source: arXiv
-category: 机器人学习
-link: https://arxiv.org/abs/2603.28730v1
-summary: Vision-language models (VLMs) have shown impressive capabilities across diverse
-  tasks, motivating efforts to leverage these models to supervise robot learning.
-  However, when used as evaluators in reinforcement learning (RL), today's strongest
-  models ...
+title: "SOLE-R1: Video-Language Reasoning as the Sole Reward for On-Robot Reinforcement Learning"
+date: "2026-03-30"
+type: "paper"
+source: "arXiv"
+category: "机器人学习"
+link: "https://arxiv.org/abs/2603.28730v1"
+summary: "Vision-language models (VLMs) have shown impressive capabilities across diverse tasks, motivating efforts to leverage these models to supervise robot "
 tags:
 - 机器人学习
 - 研究论文
 - arXiv
-arxiv_id: 2603.28730v1
 ---
 
 ## 🤖 内容摘要

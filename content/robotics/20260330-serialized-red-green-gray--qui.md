@@ -1,20 +1,15 @@
 ---
-title: 'Serialized Red-Green-Gray: Quicker Heuristic Validation of Edges in Dynamic
-  Roadmap Graphs'
-date: '2026-03-30'
-type: paper
-source: arXiv
-category: 机器人学习
-link: https://arxiv.org/abs/2603.28674v1
-summary: Motion planning in dynamic environments, such as robotic warehouses, requires
-  fast adaptation to frequent changes in obstacle poses. Traditional roadmap-based
-  methods struggle in such settings, relying on inefficient reconstruction of a roadmap
-  or ex...
+title: "Serialized Red-Green-Gray: Quicker Heuristic Validation of Edges in Dynamic Roadmap Graphs"
+date: "2026-03-30"
+type: "paper"
+source: "arXiv"
+category: "机器人学习"
+link: "https://arxiv.org/abs/2603.28674v1"
+summary: "Motion planning in dynamic environments, such as robotic warehouses, requires fast adaptation to frequent changes in obstacle poses. Traditional roadm"
 tags:
 - 机器人学习
 - 研究论文
 - arXiv
-arxiv_id: 2603.28674v1
 ---
 
 ## 🤖 内容摘要

@@ -72,11 +72,30 @@
         border: 1px solid var(--neon-green-dim);
         border-radius: 10px;
         background: var(--dark-bg-secondary);
+        -webkit-overflow-scrolling: touch;
+    }
+
+    /* 滚动提示 */
+    .lb-table-wrapper::after {
+        content: '← 左右滑动查看更多 →';
+        display: none;
+        text-align: center;
+        padding: 0.5rem;
+        font-size: 0.75rem;
+        color: var(--text-secondary);
+        background: rgba(0, 255, 65, 0.05);
+    }
+
+    @media (max-width: 768px) {
+        .lb-table-wrapper::after {
+            display: block;
+        }
     }
 
     .lb-table {
         width: 100%;
         border-collapse: collapse;
+        min-width: 600px;
     }
 
     .lb-table th,

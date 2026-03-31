@@ -937,6 +937,37 @@ def update_robotics():
         # 合并新旧数据
         all_items = new_items + existing_items
         
+        # 清理标题和摘要中的特殊字符
+        for item in all_items:
+            title = item.get("title", "")
+            summary = item.get("summary", "")
+            
+            # 移除 ](http://...)
+            title = re.sub(r'\]\s*\([^)]+\)', '', title)
+            summary = re.sub(r'\]\s*\([^)]+\)', '', summary)
+            # 移除URL
+            title = re.sub(r'http[s]?://\S+', '', title)
+            summary = re.sub(r'http[s]?://\S+', '', summary)
+            # 清理markdown链接格式
+            title = re.sub(r'\[([^\]]+)\]\([^)]+\)', r'\1', title)
+            summary = re.sub(r'\[([^\]]+)\]\([^)]+\)', r'\1', summary)
+            # 清理 _具_ _身_ 等格式
+            for char in ['具', '身', '智', '能', '机', '器', '人']:
+                title = re.sub(rf'_{char}_', char, title)
+                summary = re.sub(rf'_{char}_', char, summary)
+            title = re.sub(r'_+', '', title)
+            summary = re.sub(r'_+', '', summary)
+            # 清理前缀
+            summary = re.sub(r'^机器人/具身智能动态：\s*', '', summary)
+            # 清理多余空格
+            title = re.sub(r'\s+', ' ', title).strip()
+            summary = re.sub(r'\s+', ' ', summary).strip()
+            title = re.sub(r'^[\]\*\s]+', '', title)
+            summary = re.sub(r'^[\]\*\s]+', '', summary)
+            
+            item['title'] = title
+            item['summary'] = summary
+        
         # 去重：基于标题
         seen_titles = set()
         unique_items = []

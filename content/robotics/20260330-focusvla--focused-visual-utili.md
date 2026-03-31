@@ -1,18 +1,15 @@
 ---
-title: 'FocusVLA: Focused Visual Utilization for Vision-Language-Action Models'
-date: '2026-03-30'
-type: paper
-source: arXiv
-category: 机器人学习
-link: https://arxiv.org/abs/2603.28740v1
-summary: 'Vision-Language-Action (VLA) models improve action generation by conditioning
-  policies on rich vision-language information. However, current auto-regressive policies
-  are constrained by three bottlenecks: (1) architectural bias drives models to overlo...'
+title: "FocusVLA: Focused Visual Utilization for Vision-Language-Action Models"
+date: "2026-03-30"
+type: "paper"
+source: "arXiv"
+category: "机器人学习"
+link: "https://arxiv.org/abs/2603.28740v1"
+summary: "Vision-Language-Action (VLA) models improve action generation by conditioning policies on rich vision-language information. However, current auto-regr"
 tags:
 - 机器人学习
 - 研究论文
 - arXiv
-arxiv_id: 2603.28740v1
 ---
 
 ## 🤖 内容摘要

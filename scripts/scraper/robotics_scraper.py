@@ -124,12 +124,15 @@ class RoboticsScraper:
                 article_url = match.group('url').strip()
                 article_date = match.group('date') or datetime.now(timezone.utc).strftime('%Y-%m-%d')
 
+                # 清理标题中的markdown格式
+                title = self._clean_title(title)
+                
                 if not self._is_valid_robotics_title(title):
                     continue
 
                 items.append({
                     'title': title,
-                    'summary': f'机器人/具身智能动态：{title[:120]}',
+                    'summary': title[:150],
                     'url': article_url,
                     'date': article_date,
                     'source': '36氪',
@@ -145,6 +148,31 @@ class RoboticsScraper:
             print(f"    36氪爬取失败: {e}")
         
         return items
+
+    def _clean_title(self, title):
+        """清理标题中的markdown格式和特殊字符。"""
+        # 移除 ](http://...)
+        title = re.sub(r'\]\s*\([^)]+\)', '', title)
+        # 移除开头的 ](
+        title = re.sub(r'^\]\s*', '', title)
+        # 移除URL
+        title = re.sub(r'http[s]?://\S+', '', title)
+        # 清理markdown链接格式 [text](url)
+        title = re.sub(r'\[([^\]]+)\]\([^)]+\)', r'\1', title)
+        # 清理 _具_ _身_ _智_ _能_ 等格式
+        title = re.sub(r'_具_', '具', title)
+        title = re.sub(r'_身_', '身', title)
+        title = re.sub(r'_智_', '智', title)
+        title = re.sub(r'_能_', '能', title)
+        title = re.sub(r'_机_', '机', title)
+        title = re.sub(r'_器_', '器', title)
+        title = re.sub(r'_人_', '人', title)
+        title = re.sub(r'_+', '', title)
+        # 清理多余空格
+        title = re.sub(r'\s+', ' ', title).strip()
+        # 移除开头的特殊字符
+        title = re.sub(r'^[\]\*\s]+', '', title)
+        return title
 
     def _is_valid_robotics_title(self, title):
         """过滤无效搜索页标题。"""

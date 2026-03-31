@@ -1,20 +1,15 @@
 ---
-title: 'DRIVE-Nav: Directional Reasoning, Inspection, and Verification for Efficient
-  Open-Vocabulary Navigation'
-date: '2026-03-30'
-type: paper
-source: arXiv
-category: 机器人学习
-link: https://arxiv.org/abs/2603.28691v1
-summary: Open-Vocabulary Object Navigation (OVON) requires an embodied agent to locate
-  a language-specified target in unknown environments. Existing zero-shot methods
-  often reason over dense frontier points under incomplete observations, causing unstable
-  rout...
+title: "DRIVE-Nav: Directional Reasoning, Inspection, and Verification for Efficient Open-Vocabulary Navigation"
+date: "2026-03-30"
+type: "paper"
+source: "arXiv"
+category: "机器人学习"
+link: "https://arxiv.org/abs/2603.28691v1"
+summary: "Open-Vocabulary Object Navigation (OVON) requires an embodied agent to locate a language-specified target in unknown environments. Existing zero-shot "
 tags:
 - 机器人学习
 - 研究论文
 - arXiv
-arxiv_id: 2603.28691v1
 ---
 
 ## 🤖 内容摘要
