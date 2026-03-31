@@ -117,11 +117,11 @@
     },
     {
       "rank": 15,
-      "model": "grok-4.20-multi-agent-beta",
-      "organization": "x-ai",
-      "price_prompt": "0.000002",
-      "price_completion": "0.000006",
-      "context_length": 2000000
+      "model": "nemotron-3-super-120b-a12b:free",
+      "organization": "nvidia",
+      "price_prompt": "0",
+      "price_completion": "0",
+      "context_length": 262144
     }
   ]
 }
