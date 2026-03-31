@@ -1,6 +1,6 @@
 ---
 title: 【Linux】Ubuntu(friendlydesktop)输入密码正确但是进不去系统循环输入密码的解决
-date: '2026-03-30'
+date: '2026-03-31'
 author: heroybc
 source: CSDN
 original_url: https://blog.csdn.net/heroybc/article/details/100579898
@@ -41,7 +41,7 @@ Linux相关技术文章
 | **分类** | Linux |
 | **难度** | intermediate |
 | **阅读量** | 0 |
-| **发布日期** | 2026-03-30 |
+| **发布日期** | 2026-03-31 |
 | **来源** | [CSDN博客](https://blog.csdn.net/heroybc) |
 
 ---
