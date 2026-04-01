@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-01T07:02:36.066355+00:00",
-  "count": 2,
+  "last_updated": "2026-04-01T08:00:32.375246+00:00",
+  "count": 8,
   "items": [
     {
       "title": "Automatic Identification of Parallelizable Loops Using Transformer-Based Source Code Representations",
@@ -33,6 +33,106 @@
         "cs.AI"
       ],
       "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Reward-Based Online LLM Routing via NeuralUCB",
+      "authors": "Ming-Hua Tsai, Phat Tran",
+      "abstract": "This study investigates the use of NeuralUCB for cost-aware large language model (LLM) routing. Existing routing approaches can be broadly grouped into supervised routing methods and partial-feedback methods, each with different tradeoffs in efficiency and adaptivity. We implement a NeuralUCB-based ...",
+      "venue": "arXiv",
+      "date": "2026-03-31",
+      "arxiv_id": "2603.30035v1",
+      "url": "https://arxiv.org/abs/2603.30035v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.30035v1.pdf",
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Covertly improving intelligibility with data-driven adaptations of speech timing",
+      "authors": "Paige Tuttösí, Angelica Lim, H. Henny Yeung et al.",
+      "abstract": "Human talkers often address listeners with language-comprehension challenges, such as hard-of-hearing or non-native adults, by globally slowing down their speech. However, it remains unclear whether this strategy actually makes speech more intelligible. Here, we take advantage of recent advancements...",
+      "venue": "arXiv",
+      "date": "2026-03-31",
+      "arxiv_id": "2603.30032v1",
+      "url": "https://arxiv.org/abs/2603.30032v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.30032v1.pdf",
+      "categories": [
+        "cs.CL",
+        "cs.SD"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "OmniRoam: World Wandering via Long-Horizon Panoramic Video Generation",
+      "authors": "Yuheng Liu, Xin Lin, Xinke Li et al.",
+      "abstract": "Modeling scenes using video generation models has garnered growing research interest in recent years. However, most existing approaches rely on perspective video models that synthesize only limited observations of a scene, leading to issues of completeness and global consistency. We propose OmniRoam...",
+      "venue": "arXiv",
+      "date": "2026-03-31",
+      "arxiv_id": "2603.30045v1",
+      "url": "https://arxiv.org/abs/2603.30045v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.30045v1.pdf",
+      "categories": [
+        "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Video Models Reason Early: Exploiting Plan Commitment for Maze Solving",
+      "authors": "Kaleb Newman, Tyler Zhu, Olga Russakovsky",
+      "abstract": "Video diffusion models exhibit emergent reasoning capabilities like solving mazes and puzzles, yet little is understood about how they reason during generation. We take a first step towards understanding this and study the internal planning dynamics of video models using 2D maze solving as a control...",
+      "venue": "arXiv",
+      "date": "2026-03-31",
+      "arxiv_id": "2603.30043v1",
+      "url": "https://arxiv.org/abs/2603.30043v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.30043v1.pdf",
+      "categories": [
+        "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "HapCompass: A Rotational Haptic Device for Contact-Rich Robotic Teleoperation",
+      "authors": "Xiangshan Tan, Jingtian Ji, Tianchong Jiang et al.",
+      "abstract": "The contact-rich nature of manipulation makes it a significant challenge for robotic teleoperation. While haptic feedback is critical for contact-rich tasks, providing intuitive directional cues within wearable teleoperation interfaces remains a bottleneck. Existing solutions, such as non-directiona...",
+      "venue": "arXiv",
+      "date": "2026-03-31",
+      "arxiv_id": "2603.30042v1",
+      "url": "https://arxiv.org/abs/2603.30042v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.30042v1.pdf",
+      "categories": [
+        "cs.RO",
+        "cs.HC"
+      ],
+      "type": "ai",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Hybrid Framework for Robotic Manipulation: Integrating Reinforcement Learning and Large Language Models",
+      "authors": "Md Saad, Sajjad Hussain, Mohd Suhaib",
+      "abstract": "This paper introduces a new hybrid framework that combines Reinforcement Learning (RL) and Large Language Models (LLMs) to improve robotic manipulation tasks. By utilizing RL for accurate low-level control and LLMs for high level task planning and understanding of natural language, the proposed fram...",
+      "venue": "arXiv",
+      "date": "2026-03-31",
+      "arxiv_id": "2603.30022v1",
+      "url": "https://arxiv.org/abs/2603.30022v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.30022v1.pdf",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     }
