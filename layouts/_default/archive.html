@@ -226,7 +226,8 @@
     </header>
 
     {{ $allPages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
-    {{ $posts := $allPages.ByDate.Reverse }}
+    {{ $filteredPages := where $allPages "Type" "!=" "tutorials" }}
+    {{ $posts := $filteredPages.ByDate.Reverse }}
 
     <div class="stats-summary">
         <div class="stat-card">
