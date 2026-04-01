@@ -132,6 +132,10 @@
 {{- else if eq .Kind "section" }}{{ $bodyClass = "page-list" }}
 {{- else if eq .Kind "taxonomy" }}{{ $bodyClass = "page-taxonomy" }}
 {{- end -}}
+{{- if eq .Layout "archive" }}{{ $bodyClass = "page-archive" }}{{ end -}}
+{{- if eq .Layout "friends" }}{{ $bodyClass = "page-friends" }}{{ end -}}
+{{- if eq .Layout "stats" }}{{ $bodyClass = "page-stats" }}{{ end -}}
+{{- if eq .Layout "about" }}{{ $bodyClass = "page-about" }}{{ end -}}
 <body class="{{ $bodyClass }}">
     <!-- Reading Progress -->
     {{ if .Site.Params.features.reading_progress }}
