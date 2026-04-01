@@ -54,7 +54,7 @@
     {
       "rank": 7,
       "model": "reka-edge",
-      "organization": "reka",
+      "organization": "rekaai",
       "price_prompt": "0.0000001",
       "price_completion": "0.0000001",
       "context_length": 16384
