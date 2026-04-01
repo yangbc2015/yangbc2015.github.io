@@ -22,6 +22,7 @@ from artificialanalysis_scraper import ArtificialAnalysisScraper
 from investment_scraper import InvestmentScraper
 from llm_leaderboard_scraper import LLMLeaderboardScraper
 from robotics_scraper import RoboticsScraper
+from datalearner_scraper import DataLearnerScraper
 
 # 数据目录
 DATA_DIR = Path(__file__).parent.parent.parent / "data"
@@ -97,7 +98,17 @@ def update_leaderboard():
     save_json(chinese_data["superclue"], LEADERBOARD_DIR / "superclue.json")
     save_json(chinese_data["c_eval"], LEADERBOARD_DIR / "c_eval.json")
     
-    print(f"  ✓ 已更新 {len(all_data)} 个国际榜单 + 2 个中文榜单")
+    # 获取DataLearner榜单
+    try:
+        print("\n  正在获取 DataLearner 榜单...")
+        dl_scraper = DataLearnerScraper()
+        dl_data = dl_scraper.fetch_leaderboard()
+        save_json(dl_data, LEADERBOARD_DIR / "datalearner.json")
+        print(f"  ✓ 已更新 DataLearner 榜单")
+    except Exception as e:
+        print(f"  ⚠️ DataLearner 榜单获取失败: {e}")
+    
+    print(f"  ✓ 已更新 {len(all_data)} 个国际榜单 + 2 个中文榜单 + DataLearner")
     
     # 创建综合榜单索引
     leaderboard_index = {
@@ -132,6 +143,12 @@ def update_leaderboard():
                 "url": "https://cevalbenchmark.com",
                 "description": "中文语言模型多学科综合能力评测",
                 "data_file": "leaderboard/c_eval.json"
+            },
+            "datalearner": {
+                "name": "DataLearner 中文榜单",
+                "url": "https://www.datalearner.com/leaderboards",
+                "description": "综合AI模型性能排行榜，覆盖MMLU Pro、GPQA Diamond、SWE-bench等主流评测基准",
+                "data_file": "leaderboard/datalearner.json"
             }
         }
     }
