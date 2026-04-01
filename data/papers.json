@@ -1,21 +1,36 @@
 {
-  "last_updated": "2026-04-01T19:01:40.721969+00:00",
-  "count": 8,
+  "last_updated": "2026-04-01T20:01:39.363862+00:00",
+  "count": 6,
   "items": [
     {
-      "title": "Automatic Identification of Parallelizable Loops Using Transformer-Based Source Code Representations",
-      "authors": "Izavan dos S. Correia, Henrique C. T. Santos, Tiago A. E. Ferreira",
-      "abstract": "Automatic parallelization remains a challenging problem in software engineering, particularly in identifying code regions where loops can be safely executed in parallel on modern multi-core architectures. Traditional static analysis techniques, such as dependence analysis and polyhedral models, ofte...",
+      "title": "OmniRoam: World Wandering via Long-Horizon Panoramic Video Generation",
+      "authors": "Yuheng Liu, Xin Lin, Xinke Li et al.",
+      "abstract": "Modeling scenes using video generation models has garnered growing research interest in recent years. However, most existing approaches rely on perspective video models that synthesize only limited observations of a scene, leading to issues of completeness and global consistency. We propose OmniRoam...",
       "venue": "arXiv",
       "date": "2026-03-31",
-      "arxiv_id": "2603.30040v1",
-      "url": "https://arxiv.org/abs/2603.30040v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.30040v1.pdf",
+      "arxiv_id": "2603.30045v1",
+      "url": "https://arxiv.org/abs/2603.30045v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.30045v1.pdf",
       "categories": [
-        "cs.SE",
-        "cs.AI"
+        "cs.CV"
       ],
-      "type": "ai",
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Video Models Reason Early: Exploiting Plan Commitment for Maze Solving",
+      "authors": "Kaleb Newman, Tyler Zhu, Olga Russakovsky",
+      "abstract": "Video diffusion models exhibit emergent reasoning capabilities like solving mazes and puzzles, yet little is understood about how they reason during generation. We take a first step towards understanding this and study the internal planning dynamics of video models using 2D maze solving as a control...",
+      "venue": "arXiv",
+      "date": "2026-03-31",
+      "arxiv_id": "2603.30043v1",
+      "url": "https://arxiv.org/abs/2603.30043v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.30043v1.pdf",
+      "categories": [
+        "cs.CV"
+      ],
+      "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     },
@@ -50,55 +65,6 @@
         "cs.CL"
       ],
       "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Covertly improving intelligibility with data-driven adaptations of speech timing",
-      "authors": "Paige Tuttösí, Angelica Lim, H. Henny Yeung et al.",
-      "abstract": "Human talkers often address listeners with language-comprehension challenges, such as hard-of-hearing or non-native adults, by globally slowing down their speech. However, it remains unclear whether this strategy actually makes speech more intelligible. Here, we take advantage of recent advancements...",
-      "venue": "arXiv",
-      "date": "2026-03-31",
-      "arxiv_id": "2603.30032v1",
-      "url": "https://arxiv.org/abs/2603.30032v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.30032v1.pdf",
-      "categories": [
-        "cs.CL",
-        "cs.SD"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "OmniRoam: World Wandering via Long-Horizon Panoramic Video Generation",
-      "authors": "Yuheng Liu, Xin Lin, Xinke Li et al.",
-      "abstract": "Modeling scenes using video generation models has garnered growing research interest in recent years. However, most existing approaches rely on perspective video models that synthesize only limited observations of a scene, leading to issues of completeness and global consistency. We propose OmniRoam...",
-      "venue": "arXiv",
-      "date": "2026-03-31",
-      "arxiv_id": "2603.30045v1",
-      "url": "https://arxiv.org/abs/2603.30045v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.30045v1.pdf",
-      "categories": [
-        "cs.CV"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Video Models Reason Early: Exploiting Plan Commitment for Maze Solving",
-      "authors": "Kaleb Newman, Tyler Zhu, Olga Russakovsky",
-      "abstract": "Video diffusion models exhibit emergent reasoning capabilities like solving mazes and puzzles, yet little is understood about how they reason during generation. We take a first step towards understanding this and study the internal planning dynamics of video models using 2D maze solving as a control...",
-      "venue": "arXiv",
-      "date": "2026-03-31",
-      "arxiv_id": "2603.30043v1",
-      "url": "https://arxiv.org/abs/2603.30043v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.30043v1.pdf",
-      "categories": [
-        "cs.CV"
-      ],
-      "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     },
