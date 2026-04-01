@@ -50,17 +50,4 @@ layout: "about"
 
 ---
 
-## 🛠️ 技术栈
-
-本网站采用以下技术构建：
-
-- [Hugo](https://gohugo.io/) - 静态网站生成器
-- [D3.js](https://d3js.org/) - 数据可视化
-- Vanilla JavaScript - 交互功能
-- CSS3 - 样式和动画
-
-设计风格：赛博朋克主题，霓虹绿配色，动态网格背景
-
----
-
 *Cultivated with ◈ in Cyberspace*

@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-01T03:04:09.076717+00:00",
-  "count": 59,
+  "last_updated": "2026-04-01T04:03:39.420877+00:00",
+  "count": 63,
   "items": [
     {
       "title": "Figure AI发布新一代人形机器人Figure 02，具备更强的自主学习能力",
@@ -86,6 +86,70 @@
         "机器人",
         "人形机器人",
         "波士顿动力"
+      ]
+    },
+    {
+      "title": "HapCompass: A Rotational Haptic Device for Contact-Rich Robotic Teleoperation",
+      "summary": "The contact-rich nature of manipulation makes it a significant challenge for robotic teleoperation. While haptic feedback is critical for contact-rich tasks, providing intuitive directional cues within wearable teleoperation interfaces remains a bott...",
+      "url": "https://arxiv.org/abs/2603.30042v1",
+      "date": "2026-03-31",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2603.30042v1",
+      "authors": "Xiangshan Tan, Jingtian Ji et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Hybrid Framework for Robotic Manipulation: Integrating Reinforcement Learning and Large Language Models",
+      "summary": "This paper introduces a new hybrid framework that combines Reinforcement Learning (RL) and Large Language Models (LLMs) to improve robotic manipulation tasks. By utilizing RL for accurate low-level control and LLMs for high level task planning and un...",
+      "url": "https://arxiv.org/abs/2603.30022v1",
+      "date": "2026-03-31",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2603.30022v1",
+      "authors": "Md Saad, Sajjad Hussain et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Passive iFIR filters for data-driven velocity control in robotics",
+      "summary": "We present a passive, data-driven velocity control method for nonlinear robotic manipulators that achieves better tracking performance than optimized PID with comparable design complexity. Using only three minutes of probing data, a VRFT-based design...",
+      "url": "https://arxiv.org/abs/2603.29882v1",
+      "date": "2026-03-31",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2603.29882v1",
+      "authors": "Yi Zhang, Zixing Wang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "DIAL: Decoupling Intent and Action via Latent World Modeling for End-to-End VLA",
+      "summary": "The development of Vision-Language-Action (VLA) models has been significantly accelerated by pre-trained Vision-Language Models (VLMs). However, most existing end-to-end VLAs treat the VLM primarily as a multimodal encoder, directly mapping vision-la...",
+      "url": "https://arxiv.org/abs/2603.29844v1",
+      "date": "2026-03-31",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2603.29844v1",
+      "authors": "Yi Chen, Yuying Ge et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
       ]
     },
     {
