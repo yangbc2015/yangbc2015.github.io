@@ -217,6 +217,48 @@
       "featured": true
     },
     {
+      "title": "The subset sum puzzle",
+      "speaker": "3Blue1Brown",
+      "description": "Part of a series of monthly puzzlers. Stay subscribed to see the solution",
+      "duration": "--:--",
+      "views": "--",
+      "date": "2026-03-25",
+      "platform": "youtube",
+      "video_id": "4h5BEALuh44",
+      "url": "https://www.youtube.com/watch?v=4h5BEALuh44",
+      "thumbnail": "https://img.youtube.com/vi/4h5BEALuh44/mqdefault.jpg",
+      "type": "lecture",
+      "category": "技术讲座"
+    },
+    {
+      "title": "Introducing Lyria 3 Pro",
+      "speaker": "Google DeepMind",
+      "description": "Last month, we introduced Lyria 3, featuring custom music generation designed to spark creative expression. Now, we’re bringing our most advanced music generation model to more Google products, and in",
+      "duration": "--:--",
+      "views": "--",
+      "date": "2026-03-25",
+      "platform": "youtube",
+      "video_id": "hv8ZI7foGZk",
+      "url": "https://www.youtube.com/watch?v=hv8ZI7foGZk",
+      "thumbnail": "https://img.youtube.com/vi/hv8ZI7foGZk/mqdefault.jpg",
+      "type": "lecture",
+      "category": "技术讲座"
+    },
+    {
+      "title": "AI Agent 架构设计模式",
+      "speaker": "LangChain",
+      "description": "构建自主 AI 代理的最佳实践",
+      "duration": "42:20",
+      "views": "189K",
+      "platform": "youtube",
+      "video_id": "mFMBb8Xw6yQ",
+      "url": "https://www.youtube.com/watch?v=mFMBb8Xw6yQ",
+      "thumbnail": "https://img.youtube.com/vi/mFMBb8Xw6yQ/mqdefault.jpg",
+      "type": "tutorial",
+      "category": "AI教程",
+      "date": "2026-03-25"
+    },
+    {
       "title": "Vision Transformer 详解",
       "speaker": "Google Research",
       "description": "将 Transformer 应用于计算机视觉",
@@ -229,6 +271,20 @@
       "type": "lecture",
       "category": "技术讲座",
       "date": "2026-03-25"
+    },
+    {
+      "title": "How (and why) to take a logarithm of an image",
+      "speaker": "3Blue1Brown",
+      "description": "Escher's Print Gallery, and the tour of complex analysis it invites.\nCheck out our virtual career fair: 3b1b.co/talent\nJoin channel supporters to see videos early: 3b1b.co/support\nAn equally valuable ",
+      "duration": "--:--",
+      "views": "--",
+      "date": "2026-03-22",
+      "platform": "youtube",
+      "video_id": "ldxFjLJ3rVY",
+      "url": "https://www.youtube.com/watch?v=ldxFjLJ3rVY",
+      "thumbnail": "https://img.youtube.com/vi/ldxFjLJ3rVY/mqdefault.jpg",
+      "type": "lecture",
+      "category": "技术讲座"
     },
     {
       "title": "动手学深度学习 PyTorch版",
@@ -244,6 +300,20 @@
       "type": "course",
       "category": "精品课程",
       "featured": false
+    },
+    {
+      "title": "10 years of AlphaGo: The turning point for AI | Thore Graepel & Pushmeet Kohli",
+      "speaker": "Google DeepMind",
+      "description": "Seoul, March 2016. Two players sit hunched over a 19x19 grid covered in a sea of black and white stones. They are playing the ancient game of Go  - a game of unimaginable complexity long thought impos",
+      "duration": "--:--",
+      "views": "--",
+      "date": "2026-03-10",
+      "platform": "youtube",
+      "video_id": "qoinGjj60Fo",
+      "url": "https://www.youtube.com/watch?v=qoinGjj60Fo",
+      "thumbnail": "https://img.youtube.com/vi/qoinGjj60Fo/mqdefault.jpg",
+      "type": "lecture",
+      "category": "技术讲座"
     },
     {
       "title": "NeurIPS 2025: 大模型推理能力新突破",

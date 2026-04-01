@@ -30,12 +30,6 @@
       "url": "https://cevalbenchmark.com",
       "description": "中文语言模型多学科综合能力评测",
       "data_file": "leaderboard/c_eval.json"
-    },
-    "datalearner": {
-      "name": "DataLearner 中文榜单",
-      "url": "https://www.datalearner.com/leaderboards",
-      "description": "综合AI模型性能排行榜，覆盖MMLU Pro、GPQA Diamond、SWE-bench等主流评测基准",
-      "data_file": "leaderboard/datalearner.json"
     }
   }
 }
