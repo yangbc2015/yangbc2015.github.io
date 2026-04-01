@@ -1,7 +1,157 @@
 {
-  "last_updated": "2026-03-31T12:03:53.968458+00:00",
-  "count": 49,
+  "last_updated": "2026-04-01T03:04:09.076717+00:00",
+  "count": 59,
   "items": [
+    {
+      "title": "Figure AI发布新一代人形机器人Figure 02，具备更强的自主学习能力",
+      "summary": "Figure AI发布新一代人形机器人Figure 02，搭载最新视觉-语言-动作(VLA)模型，在工厂和仓储场景实现更高水平的自主操作。",
+      "url": "https://www.figure.ai",
+      "date": "2026-04-01",
+      "source": "行业动态",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "人形机器人",
+        "Figure"
+      ]
+    },
+    {
+      "title": "特斯拉Optimus人形机器人量产计划加速，预计2025年交付首批产品",
+      "summary": "马斯克表示Optimus人形机器人量产计划正在加速，特斯拉工厂已开始测试机器人执行简单装配任务。",
+      "url": "https://www.tesla.com/optimus",
+      "date": "2026-04-01",
+      "source": "行业动态",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "人形机器人",
+        "Optimus",
+        "特斯拉"
+      ]
+    },
+    {
+      "title": "宇树科技发布Unitree G1人形机器人，价格9.9万元起",
+      "summary": "宇树科技发布新一代人形机器人G1，身高约127cm，体重约35kg，具备23个自由度，面向教育和科研市场。",
+      "url": "https://www.unitree.com",
+      "date": "2026-04-01",
+      "source": "行业动态",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "人形机器人",
+        "宇树科技"
+      ]
+    },
+    {
+      "title": "英伟达发布GR00T人形机器人基础模型，为机器人提供大脑",
+      "summary": "NVIDIA发布人形机器人通用基础模型GR00T，结合Isaac Sim仿真平台，加速人形机器人开发。",
+      "url": "https://developer.nvidia.com/isaac",
+      "date": "2026-04-01",
+      "source": "行业动态",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能",
+        "英伟达",
+        "GR00T"
+      ]
+    },
+    {
+      "title": "智元机器人发布远征A2人形机器人，进入工业场景实测",
+      "summary": "智元机器人发布远征A2人形机器人，已在汽车工厂进行实际生产任务测试，展示零部件装配能力。",
+      "url": "https://www.zhiyuanrobot.com",
+      "date": "2026-04-01",
+      "source": "行业动态",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "人形机器人",
+        "智元机器人"
+      ]
+    },
+    {
+      "title": "波士顿动力Atlas机器人全面升级，电动版展现更强运动能力",
+      "summary": "波士顿动力发布全电动版Atlas机器人，相比液压版本运动更加流畅，可完成后空翻等复杂动作。",
+      "url": "https://bostondynamics.com/atlas",
+      "date": "2026-04-01",
+      "source": "行业动态",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "人形机器人",
+        "波士顿动力"
+      ]
+    },
+    {
+      "title": "SafeDMPs: Integrating Formal Safety with DMPs for Adaptive HRI",
+      "summary": "Robots operating in human-centric environments must be both robust to disturbances and provably safe from collisions. Achieving these properties simultaneously and efficiently remains a central challenge. While Dynamic Movement Primitives (DMPs) offe...",
+      "url": "https://arxiv.org/abs/2603.29708v1",
+      "date": "2026-03-31",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2603.29708v1",
+      "authors": "Soumyodipta Nath, Pranav Tiwari et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Design and Aerodynamic Modeling of MetaMorpher: A Hybrid Rotary andFixed-Wing Morphing UAV",
+      "summary": "In this paper, we present a generalized, comprehensive nonlinear mathematical model and conceptual design for the MetaMorpher, a metamorphic Unmanned Aerial Vehicle (UAV) designed to bridge the gap between vertical takeoff and landing agility and fix...",
+      "url": "https://arxiv.org/abs/2603.29646v1",
+      "date": "2026-03-31",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2603.29646v1",
+      "authors": "Anja Bosak, Dorian Erić et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Semantic Zone-Based Map Management for Stable AI-Integrated Mobile Robots",
+      "summary": "Recent advances in large AI models (VLMs and LLMs) and joint use of the 3D dense maps, enable mobile robots to provide more powerful and interactive services grounded in rich spatial context. However, deploying both heavy AI models and dense maps on ...",
+      "url": "https://arxiv.org/abs/2603.29627v1",
+      "date": "2026-03-31",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2603.29627v1",
+      "authors": "Huichang Yun, Seungho Yoo",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Distributed Predictive Control Barrier Functions: Towards Scalable Safety Certification in Modular Multi-Agent Systems",
+      "summary": "We consider safety-critical multi-agent systems with distributed control architectures and potentially varying network topologies. While learning-based distributed control enables scalability and high performance, a lack of formal safety guarantees i...",
+      "url": "https://arxiv.org/abs/2603.29560v1",
+      "date": "2026-03-31",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2603.29560v1",
+      "authors": "Jonas Ohnemus, Alexandre Didier et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
     {
       "title": "“龙虾”们正在改造机器人，具身智能 的下一步是什么？",
       "summary": "“龙虾”们正在改造机器人，具身智能 的下一步是什么？",
