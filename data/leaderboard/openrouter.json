@@ -1,127 +1,31 @@
 {
   "source": "OpenRouter",
   "source_url": "https://openrouter.ai",
-  "description": "基于实际 API 使用情况的模型统计",
+  "description": "API 调用价格与性能统计",
   "models": [
     {
       "rank": 1,
-      "model": "grok-4.20-multi-agent",
-      "organization": "x-ai",
-      "price_prompt": "0.000002",
-      "price_completion": "0.000006",
-      "context_length": 2000000
+      "model": "claude-3.5-opus",
+      "organization": "anthropic",
+      "price_per_1m": 15.0
     },
     {
       "rank": 2,
-      "model": "grok-4.20",
-      "organization": "x-ai",
-      "price_prompt": "0.000002",
-      "price_completion": "0.000006",
-      "context_length": 2000000
+      "model": "gpt-4o",
+      "organization": "openai",
+      "price_per_1m": 2.5
     },
     {
       "rank": 3,
-      "model": "lyria-3-pro-preview",
-      "organization": "google",
-      "price_prompt": "0",
-      "price_completion": "0",
-      "context_length": 1048576
+      "model": "deepseek-chat",
+      "organization": "deepseek",
+      "price_per_1m": 0.14
     },
     {
       "rank": 4,
-      "model": "lyria-3-clip-preview",
+      "model": "gemini-1.5-pro",
       "organization": "google",
-      "price_prompt": "0",
-      "price_completion": "0",
-      "context_length": 1048576
-    },
-    {
-      "rank": 5,
-      "model": "qwen3.6-plus-preview:free",
-      "organization": "qwen",
-      "price_prompt": "0",
-      "price_completion": "0",
-      "context_length": 1000000
-    },
-    {
-      "rank": 6,
-      "model": "kat-coder-pro-v2",
-      "organization": "kwaipilot",
-      "price_prompt": "0.0000003",
-      "price_completion": "0.0000012",
-      "context_length": 256000
-    },
-    {
-      "rank": 7,
-      "model": "reka-edge",
-      "organization": "reka",
-      "price_prompt": "0.0000001",
-      "price_completion": "0.0000001",
-      "context_length": 16384
-    },
-    {
-      "rank": 8,
-      "model": "mimo-v2-omni",
-      "organization": "xiaomi",
-      "price_prompt": "0.0000004",
-      "price_completion": "0.000002",
-      "context_length": 262144
-    },
-    {
-      "rank": 9,
-      "model": "mimo-v2-pro",
-      "organization": "xiaomi",
-      "price_prompt": "0.000001",
-      "price_completion": "0.000003",
-      "context_length": 1048576
-    },
-    {
-      "rank": 10,
-      "model": "minimax-m2.7",
-      "organization": "minimax",
-      "price_prompt": "0.0000003",
-      "price_completion": "0.0000012",
-      "context_length": 204800
-    },
-    {
-      "rank": 11,
-      "model": "gpt-5.4-nano",
-      "organization": "openai",
-      "price_prompt": "0.0000002",
-      "price_completion": "0.00000125",
-      "context_length": 400000
-    },
-    {
-      "rank": 12,
-      "model": "gpt-5.4-mini",
-      "organization": "openai",
-      "price_prompt": "0.00000075",
-      "price_completion": "0.0000045",
-      "context_length": 400000
-    },
-    {
-      "rank": 13,
-      "model": "mistral-small-2603",
-      "organization": "mistralai",
-      "price_prompt": "0.00000015",
-      "price_completion": "0.0000006",
-      "context_length": 262144
-    },
-    {
-      "rank": 14,
-      "model": "glm-5-turbo",
-      "organization": "z-ai",
-      "price_prompt": "0.0000012",
-      "price_completion": "0.000004",
-      "context_length": 202752
-    },
-    {
-      "rank": 15,
-      "model": "nemotron-3-super-120b-a12b:free",
-      "organization": "nvidia",
-      "price_prompt": "0",
-      "price_completion": "0",
-      "context_length": 262144
+      "price_per_1m": 1.25
     }
   ]
 }

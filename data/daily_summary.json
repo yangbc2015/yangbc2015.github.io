@@ -1,73 +1,12 @@
 {
   "date": "2026-04-01",
-  "last_updated": "2026-04-01T01:05:07.081034+00:00",
+  "last_updated": "2026-04-01T02:02:33.219050+00:00",
   "categories": {
     "ai": {
       "name": "人工智能",
       "icon": "🤖",
-      "count": 5,
-      "items": [
-        {
-          "title": "AI智能体之间真正自主支付的钱包，来了！",
-          "link": "https://www.qbitai.com/?s=AI智能体之间真正自",
-          "summary": "AI智能体之间真正自主支付的钱包，来了！...",
-          "date": "2026-04-01",
-          "source": "量子位",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
-          "title": "能看能听能唠嗑，还能现场vibe coding",
-          "link": "https://www.qbitai.com/?s=能看能听能唠嗑，还能",
-          "summary": "能看能听能唠嗑，还能现场vibe coding...",
-          "date": "2026-04-01",
-          "source": "量子位",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
-          "title": "机器人产业链的竞争，正在从单点技术能力转向系统能力、工程能力和交付能力的综合比拼",
-          "link": "https://www.qbitai.com/?s=机器人产业链的竞争，",
-          "summary": "机器人产业链的竞争，正在从单点技术能力转向系统能力、工程能力和交付能力的综合比拼...",
-          "date": "2026-04-01",
-          "source": "量子位",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
-          "title": "300万对RGB-D数据，专治机器人看不清",
-          "link": "https://www.qbitai.com/?s=300万对RGB-D",
-          "summary": "300万对RGB-D数据，专治机器人看不清...",
-          "date": "2026-04-01",
-          "source": "量子位",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
-          "title": "中国唯一“通用+专用”量子计算并行",
-          "link": "https://www.qbitai.com/?s=中国唯一“通用+专用",
-          "summary": "中国唯一“通用+专用”量子计算并行...",
-          "date": "2026-04-01",
-          "source": "量子位",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        }
-      ]
+      "count": 0,
+      "items": []
     },
     "economy": {
       "name": "宏观经济",
