@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-01T04:02:06.411883+00:00",
-  "count": 3,
+  "last_updated": "2026-04-01T05:03:25.415641+00:00",
+  "count": 2,
   "items": [
     {
       "title": "Reward-Based Online LLM Routing via NeuralUCB",
@@ -33,23 +33,6 @@
         "cs.SD"
       ],
       "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Aligned, Orthogonal or In-conflict: When can we safely optimize Chain-of-Thought?",
-      "authors": "Max Kaufmann, David Lindner, Roland S. Zimmermann et al.",
-      "abstract": "Chain-of-Thought (CoT) monitoring, in which automated systems monitor the CoT of an LLM, is a promising approach for effectively overseeing AI systems. However, the extent to which a model's CoT helps us oversee the model - the monitorability of the CoT - can be affected by training, for instance by...",
-      "venue": "arXiv",
-      "date": "2026-03-31",
-      "arxiv_id": "2603.30036v1",
-      "url": "https://arxiv.org/abs/2603.30036v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.30036v1.pdf",
-      "categories": [
-        "cs.LG",
-        "cs.AI"
-      ],
-      "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     }
