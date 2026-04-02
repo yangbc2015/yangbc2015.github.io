@@ -5,24 +5,53 @@
 {{ end }}
 
 {{ define "main" }}
-<!-- Hero 横幅区域 - 图灵名言 -->
+<!-- Hero 横幅区域 - Premium Design -->
 <section class="hero-section" id="hero">
     <div class="hero-bg">
         <canvas id="particle-canvas"></canvas>
     </div>
     
     <div class="hero-content">
+        <!-- Logo -->
+        <div class="hero-logo">
+            <span class="hero-logo-icon">◈</span>
+            <span class="hero-logo-text">AI WANDER</span>
+        </div>
+        
+        <!-- Premium Quote -->
         <p class="hero-quote">
             <span class="quote-main">我们只能看到不远的前方，但我们能看到许多需要完成的事情。</span>
             <span class="hero-quote-en">We can only see a short distance ahead, but we can see plenty there that needs to be done.</span>
         </p>
         
+        <!-- Author Badge -->
         <div class="hero-author">
-            <span class="hero-author-name">— Alan Turing</span>
+            <div class="hero-author-avatar">🧠</div>
+            <span class="hero-author-name">Alan Turing</span>
         </div>
         
+        <!-- Stats -->
+        <div class="hero-stats">
+            <div class="hero-stat">
+                <div class="hero-stat-value">{{ len .Site.RegularPages }}</div>
+                <div class="hero-stat-label">文章</div>
+            </div>
+            <div class="hero-stat">
+                <div class="hero-stat-value">{{ len .Site.Taxonomies.tags }}</div>
+                <div class="hero-stat-label">标签</div>
+            </div>
+            <div class="hero-stat">
+                <div class="hero-stat-value">8</div>
+                <div class="hero-stat-label">栏目</div>
+            </div>
+            <div class="hero-stat">
+                <div class="hero-stat-value">∞</div>
+                <div class="hero-stat-label">探索</div>
+            </div>
+        </div>
     </div>
     
+    <!-- Scroll Indicator -->
     <div class="scroll-indicator" onclick="document.getElementById('galaxy').scrollIntoView({behavior: 'smooth'})">
         <span>探索星系</span>
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -30,7 +59,7 @@
         </svg>
     </div>
     
-    <!-- 背景音乐播放器 -->
+    <!-- Premium Music Player -->
     <div class="music-player" id="music-player">
         <audio id="bg-music" loop preload="none" crossorigin="anonymous">
             <source src="/music/bg-music.mp3" type="audio/mpeg">
@@ -50,18 +79,17 @@
                     <rect x="14" y="4" width="4" height="16"></rect>
                 </svg>
             </span>
-            <span class="music-label" id="music-label">Return to Earth</span>
+            <div class="music-visualizer" id="music-visualizer">
+                <span></span><span></span><span></span><span></span>
+            </div>
         </button>
-        <div class="music-visualizer" id="music-visualizer">
-            <span></span><span></span><span></span><span></span>
-        </div>
     </div>
 </section>
 
-<!-- 星系导航系统 -->
+<!-- 星系导航系统 - Premium Design -->
 <section class="galaxy-section" id="galaxy">
     <div class="section-header">
-        <span class="section-tag">Navigation</span>
+        <span class="section-tag">Navigation System</span>
         <h2 class="section-title">知识星系</h2>
         <p class="section-desc">
             每一个星球代表一个知识领域，点击星球开始你的探索之旅
@@ -159,7 +187,7 @@
     </div>
 </section>
 
-<!-- 世界地图横幅 -->
+<!-- 世界地图横幅 - Premium Design -->
 <section class="map-banner">
     <div class="map-container">
         <div class="map-header">
@@ -176,12 +204,10 @@
         <div id="visitor-heatmap">
             <div class="heatmap-loading">正在加载访客分布数据...</div>
         </div>
-        
-
     </div>
 </section>
 
-<!-- 浮动访客统计组件 -->
+<!-- 浮动访客统计组件 - Premium Design -->
 <div class="visitor-float" id="visitor-float">
     <div class="visitor-float-icon">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
