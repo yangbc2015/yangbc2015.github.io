@@ -98,7 +98,12 @@
         const connectionsGroup = document.getElementById('connections');
         const particlesGroup = document.getElementById('particles');
         
-        if (!svg) return;
+        if (!svg || !planetsGroup || !connectionsGroup || !particlesGroup) {
+            console.warn('Galaxy elements not found:', { svg, planetsGroup, connectionsGroup, particlesGroup });
+            return;
+        }
+        
+        console.log('Galaxy initialized successfully');
 
         const planets = [
             { id: 1, name: 'AI新闻', icon: '📰', desc: '行业动态', link: '/news/', color: 'url(#planetGradient1)', angle: 0, orbit: 3 },
@@ -132,8 +137,13 @@
             g.setAttribute('class', 'planet');
             g.setAttribute('transform', `translate(${x}, ${y})`);
             g.style.cursor = 'pointer';
+            // Use CSS transition instead of keyframe animation for better compatibility
             g.style.opacity = '0';
-            g.style.animation = `fadeInUp 0.6s ease-out ${index * 0.1}s forwards`;
+            g.style.transition = 'opacity 0.5s ease-out, transform 0.5s ease-out';
+            // Trigger fade in after a small delay
+            setTimeout(() => {
+                g.style.opacity = '1';
+            }, 50 + index * 100);
             
             const title = document.createElementNS('http://www.w3.org/2000/svg', 'title');
             title.textContent = `${planet.name} - ${planet.desc}`;
