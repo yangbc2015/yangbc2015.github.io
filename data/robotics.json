@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-02T02:04:37.514996+00:00",
-  "count": 66,
+  "last_updated": "2026-04-02T03:03:10.636122+00:00",
+  "count": 70,
   "items": [
     {
       "title": "Figure AI发布新一代人形机器人Figure 02，具备更强的自主学习能力",
@@ -86,6 +86,70 @@
         "机器人",
         "人形机器人",
         "波士顿动力"
+      ]
+    },
+    {
+      "title": "Functional Force-Aware Retargeting from Virtual Human Demos to Soft Robot Policies",
+      "summary": "We introduce SoftAct, a framework for teaching soft robot hands to perform human-like manipulation skills by explicitly reasoning about contact forces. Leveraging immersive virtual reality, our system captures rich human demonstrations, including han...",
+      "url": "https://arxiv.org/abs/2604.01224v1",
+      "date": "2026-04-01",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.01224v1",
+      "authors": "Uksang Yoo, Mengjia Zhu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Collaborative Task and Path Planning for Heterogeneous Robotic Teams using Multi-Agent PPO",
+      "summary": "Efficient robotic extraterrestrial exploration requires robots with diverse capabilities, ranging from scientific measurement tools to advanced locomotion. A robotic team enables the distribution of tasks over multiple specialized subsystems, each pr...",
+      "url": "https://arxiv.org/abs/2604.01213v1",
+      "date": "2026-04-01",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.01213v1",
+      "authors": "Matthias Rubio, Julia Richter et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "A ROS 2 Wrapper for Florence-2: Multi-Mode Local Vision-Language Inference for Robotic Systems",
+      "summary": "Foundation vision-language models are becoming increasingly relevant to robotics because they can provide richer semantic perception than narrow task-specific pipelines. However, their practical adoption in robot software stacks still depends on repr...",
+      "url": "https://arxiv.org/abs/2604.01179v1",
+      "date": "2026-04-01",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.01179v1",
+      "authors": "J. E. Domínguez-Vidal",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "SMASH: Mastering Scalable Whole-Body Skills for Humanoid Ping-Pong with Egocentric Vision",
+      "summary": "Existing humanoid table tennis systems remain limited by their reliance on external sensing and their inability to achieve agile whole-body coordination for precise task execution. These limitations stem from two core challenges: achieving low-latenc...",
+      "url": "https://arxiv.org/abs/2604.01158v1",
+      "date": "2026-04-01",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.01158v1",
+      "authors": "Junli Ren, Yinghui Li et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
       ]
     },
     {

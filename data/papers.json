@@ -1,7 +1,42 @@
 {
-  "last_updated": "2026-04-02T02:02:35.616592+00:00",
-  "count": 4,
+  "last_updated": "2026-04-02T03:01:39.754384+00:00",
+  "count": 9,
   "items": [
+    {
+      "title": "HippoCamp: Benchmarking Contextual Agents on Personal Computers",
+      "authors": "Zhe Yang, Shulin Tian, Kairui Hu et al.",
+      "abstract": "We present HippoCamp, a new benchmark designed to evaluate agents' capabilities on multimodal file management. Unlike existing agent benchmarks that focus on tasks like web interaction, tool use, or software automation in generic settings, HippoCamp evaluates agents in user-centric environments to m...",
+      "venue": "arXiv",
+      "date": "2026-04-01",
+      "arxiv_id": "2604.01221v1",
+      "url": "https://arxiv.org/abs/2604.01221v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.01221v1.pdf",
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "type": "benchmark",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "LAtent Phase Inference from Short time sequences using SHallow REcurrent Decoders (LAPIS-SHRED)",
+      "authors": "Yuxuan Bao, Xingyue Zhang, J. Nathan Kutz",
+      "abstract": "Reconstructing full spatio-temporal dynamics from sparse observations in both space and time remains a central challenge in complex systems, as measurements can be spatially incomplete and can be also limited to narrow temporal windows. Yet approximating the complete spatio-temporal trajectory is es...",
+      "venue": "arXiv",
+      "date": "2026-04-01",
+      "arxiv_id": "2604.01216v1",
+      "url": "https://arxiv.org/abs/2604.01216v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.01216v1.pdf",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
     {
       "title": "Uncertainty-Aware Variational Reward Factorization via Probabilistic Preference Bases for LLM Personalization",
       "authors": "Gyuseok Lee, Wonbin Kweon, Zhenrui Yue et al.",
@@ -65,6 +100,57 @@
         "cs.CV"
       ],
       "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "The Recipe Matters More Than the Kitchen:Mathematical Foundations of the AI Weather Prediction Pipeline",
+      "authors": "Piyush Garg, Diana R. Gergel, Andrew E. Shao et al.",
+      "abstract": "AI weather prediction has advanced rapidly, yet no unified mathematical framework explains what determines forecast skill. Existing theory addresses specific architectural choices rather than the learning pipeline as a whole, while operational evidence from 2023-2026 demonstrates that training metho...",
+      "venue": "arXiv",
+      "date": "2026-04-01",
+      "arxiv_id": "2604.01215v1",
+      "url": "https://arxiv.org/abs/2604.01215v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.01215v1.pdf",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "physics.ao-ph"
+      ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Functional Force-Aware Retargeting from Virtual Human Demos to Soft Robot Policies",
+      "authors": "Uksang Yoo, Mengjia Zhu, Evan Pezent et al.",
+      "abstract": "We introduce SoftAct, a framework for teaching soft robot hands to perform human-like manipulation skills by explicitly reasoning about contact forces. Leveraging immersive virtual reality, our system captures rich human demonstrations, including hand kinematics, object motion, dense contact patches...",
+      "venue": "arXiv",
+      "date": "2026-04-01",
+      "arxiv_id": "2604.01224v1",
+      "url": "https://arxiv.org/abs/2604.01224v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.01224v1.pdf",
+      "categories": [
+        "cs.RO"
+      ],
+      "type": "ai",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Collaborative Task and Path Planning for Heterogeneous Robotic Teams using Multi-Agent PPO",
+      "authors": "Matthias Rubio, Julia Richter, Hendrik Kolvenbach et al.",
+      "abstract": "Efficient robotic extraterrestrial exploration requires robots with diverse capabilities, ranging from scientific measurement tools to advanced locomotion. A robotic team enables the distribution of tasks over multiple specialized subsystems, each providing specific expertise to complete the mission...",
+      "venue": "arXiv",
+      "date": "2026-04-01",
+      "arxiv_id": "2604.01213v1",
+      "url": "https://arxiv.org/abs/2604.01213v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.01213v1.pdf",
+      "categories": [
+        "cs.RO",
+        "cs.MA"
+      ],
+      "type": "ai",
       "badge": "arxiv",
       "source": "arXiv"
     }
