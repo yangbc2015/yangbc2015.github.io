@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-02T01:03:53.469000+00:00",
-  "count": 63,
+  "last_updated": "2026-04-02T02:04:37.514996+00:00",
+  "count": 66,
   "items": [
     {
       "title": "Figure AI发布新一代人形机器人Figure 02，具备更强的自主学习能力",
@@ -153,6 +153,22 @@
       ]
     },
     {
+      "title": "Reconfiguration of supernumerary robotic limbs for human augmentation",
+      "summary": "Wearable robots aim to seamlessly adapt to humans and their environment with personalized interactions. Existing supernumerary robotic limbs (SRLs), which enhance the physical capabilities of humans with additional extremities, have thus far been dev...",
+      "url": "https://arxiv.org/abs/2603.29808v1",
+      "date": "2026-03-31",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2603.29808v1",
+      "authors": "Mustafa Mete, Anastasia Bolotnikova et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
       "title": "SafeDMPs: Integrating Formal Safety with DMPs for Adaptive HRI",
       "summary": "Robots operating in human-centric environments must be both robust to disturbances and provably safe from collisions. Achieving these properties simultaneously and efficiently remains a central challenge. While Dynamic Movement Primitives (DMPs) offe...",
       "url": "https://arxiv.org/abs/2603.29708v1",
@@ -226,6 +242,31 @@
       "type": "news",
       "tags": [
         "机器人"
+      ]
+    },
+    {
+      "title": "冰火两重天的机器人行业，再不上市就晚了？",
+      "summary": "冰火两重天的机器人行业，再不上市就晚了？",
+      "url": "http://36kr.com/p/3745085379575815",
+      "date": "2026-03-30",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
+      "title": "当Agent开始接管“身体”，具身智能机器人的核心驱动因素，正在发生怎样的变化？这一轮由Agent引发的重构，究竟会把机器人产业带向哪里？新的竞争，将围绕什么展开？",
+      "summary": "当Agent开始接管“身体”，具身智能机器人的核心驱动因素，正在发生怎样的变化？这一轮由Agent引发的重构，究竟会把机器人产业带向哪里？新的竞争，将围绕什么展开？",
+      "url": "http://36kr.com/p/3744620824035593",
+      "date": "2026-03-30",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
       ]
     },
     {
