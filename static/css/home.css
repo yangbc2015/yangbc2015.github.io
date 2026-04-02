@@ -132,57 +132,49 @@
 }
 
 /* Premium Quote Styling */
+/* ============================================
+   HERO QUOTE - 横幅式醒目展示
+   ============================================ */
+
 .hero-quote {
-    font-size: clamp(1.3rem, 3vw, 2rem);
-    font-weight: 400;
-    line-height: 1.6;
+    font-size: clamp(1.6rem, 4vw, 2.8rem);
+    font-weight: 500;
+    line-height: 1.5;
     color: var(--text-primary);
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
     position: relative;
-    padding: 2rem 3rem;
+    padding: 0;
 }
 
 .quote-main {
     display: block;
-    font-family: 'Noto Sans SC', sans-serif;
-    font-weight: 300;
-    letter-spacing: 0.02em;
+    font-family: 'Noto Serif SC', serif;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    background: linear-gradient(135deg, var(--text-primary) 0%, var(--accent-glow) 50%, var(--text-primary) 100%);
+    background-size: 200% 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    padding-bottom: 0.5rem;
+    animation: textShimmer 4s ease-in-out infinite;
+}
+
+@keyframes textShimmer {
+    0%, 100% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
 }
 
 .hero-quote-en {
     display: block;
-    font-size: 0.7em;
+    font-size: 0.5em;
+    font-weight: 300;
     color: var(--text-muted);
+    letter-spacing: 0.08em;
+    font-family: 'Noto Serif', serif;
     font-style: italic;
-    margin-top: 0.75rem;
-    font-family: Georgia, serif;
     opacity: 0.8;
-}
-
-/* Decorative Quote Marks */
-.hero-quote::before,
-.hero-quote::after {
-    content: '';
-    position: absolute;
-    font-size: 4rem;
-    color: var(--neon-green);
-    opacity: 0.15;
-    font-family: Georgia, serif;
-    line-height: 1;
-    font-weight: 700;
-}
-
-.hero-quote::before {
-    content: '"';
-    top: 0.5rem;
-    left: 1rem;
-}
-
-.hero-quote::after {
-    content: '"';
-    bottom: 0.5rem;
-    right: 1rem;
-    transform: rotate(180deg);
+    margin-top: 0.5rem;
 }
 
 /* Premium Author Badge */
@@ -190,30 +182,39 @@
     display: inline-flex;
     align-items: center;
     gap: 0.75rem;
-    padding: 0.75rem 1.5rem;
+    padding: 0.5rem 1.25rem;
     background: rgba(0, 230, 118, 0.08);
-    border: 1px solid rgba(0, 230, 118, 0.2);
+    border: 1px solid rgba(0, 230, 118, 0.15);
     border-radius: 50px;
     margin-bottom: 2rem;
+    transition: all 0.3s ease;
+}
+
+.hero-author:hover {
+    background: rgba(0, 230, 118, 0.12);
+    border-color: rgba(0, 230, 118, 0.25);
+    box-shadow: 0 0 20px rgba(0, 230, 118, 0.15);
 }
 
 .hero-author-avatar {
-    width: 32px;
-    height: 32px;
+    width: 28px;
+    height: 28px;
     border-radius: 50%;
     background: linear-gradient(135deg, var(--neon-green), var(--neon-blue));
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1rem;
+    font-size: 0.9rem;
+    box-shadow: 0 0 15px rgba(0, 230, 118, 0.3);
 }
 
 .hero-author-name {
     font-weight: 500;
-    color: var(--neon-green);
-    font-size: 0.95rem;
+    color: var(--accent-glow);
+    font-size: 0.9rem;
     font-family: 'Orbitron', monospace;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
 }
 
 /* Hero Stats */
