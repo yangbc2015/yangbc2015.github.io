@@ -1,40 +1,7 @@
 {
-  "last_updated": "2026-04-02T04:02:14.832441+00:00",
-  "count": 7,
+  "last_updated": "2026-04-02",
+  "count": 4,
   "items": [
-    {
-      "title": "Universal YOCO for Efficient Depth Scaling",
-      "authors": "Yutao Sun, Li Dong, Tianzhu Ye et al.",
-      "abstract": "The rise of test-time scaling has remarkably boosted the reasoning and agentic proficiency of Large Language Models (LLMs). Yet, standard Transformers struggle to scale inference-time compute efficiently, as conventional looping strategies suffer from high computational overhead and a KV cache that ...",
-      "venue": "arXiv",
-      "date": "2026-04-01",
-      "arxiv_id": "2604.01220v1",
-      "url": "https://arxiv.org/abs/2604.01220v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.01220v1.pdf",
-      "categories": [
-        "cs.CL"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "$\\texttt{YC-Bench}$: Benchmarking AI Agents for Long-Term Planning and Consistent Execution",
-      "authors": "Muyu He, Adit Jain, Anand Kumar et al.",
-      "abstract": "As LLM agents tackle increasingly complex tasks, a critical question is whether they can maintain strategic coherence over long horizons: planning under uncertainty, learning from delayed feedback, and adapting when early mistakes compound. We introduce $\\texttt{YC-Bench}$, a benchmark that evaluate...",
-      "venue": "arXiv",
-      "date": "2026-04-01",
-      "arxiv_id": "2604.01212v1",
-      "url": "https://arxiv.org/abs/2604.01212v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.01212v1.pdf",
-      "categories": [
-        "cs.CL",
-        "cs.AI"
-      ],
-      "type": "benchmark",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
     {
       "title": "HippoCamp: Benchmarking Contextual Agents on Personal Computers",
       "authors": "Zhe Yang, Shulin Tian, Kairui Hu et al.",
@@ -71,53 +38,35 @@
       "source": "arXiv"
     },
     {
-      "title": "The Recipe Matters More Than the Kitchen:Mathematical Foundations of the AI Weather Prediction Pipeline",
-      "authors": "Piyush Garg, Diana R. Gergel, Andrew E. Shao et al.",
-      "abstract": "AI weather prediction has advanced rapidly, yet no unified mathematical framework explains what determines forecast skill. Existing theory addresses specific architectural choices rather than the learning pipeline as a whole, while operational evidence from 2023-2026 demonstrates that training metho...",
+      "title": "Universal YOCO for Efficient Depth Scaling",
+      "authors": "Yutao Sun, Li Dong, Tianzhu Ye et al.",
+      "abstract": "The rise of test-time scaling has remarkably boosted the reasoning and agentic proficiency of Large Language Models (LLMs). Yet, standard Transformers struggle to scale inference-time compute efficiently, as conventional looping strategies suffer from high computational overhead and a KV cache that ...",
       "venue": "arXiv",
       "date": "2026-04-01",
-      "arxiv_id": "2604.01215v1",
-      "url": "https://arxiv.org/abs/2604.01215v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.01215v1.pdf",
+      "arxiv_id": "2604.01220v1",
+      "url": "https://arxiv.org/abs/2604.01220v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.01220v1.pdf",
       "categories": [
-        "cs.LG",
-        "cs.AI",
-        "physics.ao-ph"
+        "cs.CL"
       ],
-      "type": "ml",
+      "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Functional Force-Aware Retargeting from Virtual Human Demos to Soft Robot Policies",
-      "authors": "Uksang Yoo, Mengjia Zhu, Evan Pezent et al.",
-      "abstract": "We introduce SoftAct, a framework for teaching soft robot hands to perform human-like manipulation skills by explicitly reasoning about contact forces. Leveraging immersive virtual reality, our system captures rich human demonstrations, including hand kinematics, object motion, dense contact patches...",
+      "title": "$\\texttt{YC-Bench}$: Benchmarking AI Agents for Long-Term Planning and Consistent Execution",
+      "authors": "Muyu He, Adit Jain, Anand Kumar et al.",
+      "abstract": "As LLM agents tackle increasingly complex tasks, a critical question is whether they can maintain strategic coherence over long horizons: planning under uncertainty, learning from delayed feedback, and adapting when early mistakes compound. We introduce $\\texttt{YC-Bench}$, a benchmark that evaluate...",
       "venue": "arXiv",
       "date": "2026-04-01",
-      "arxiv_id": "2604.01224v1",
-      "url": "https://arxiv.org/abs/2604.01224v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.01224v1.pdf",
+      "arxiv_id": "2604.01212v1",
+      "url": "https://arxiv.org/abs/2604.01212v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.01212v1.pdf",
       "categories": [
-        "cs.RO"
+        "cs.CL",
+        "cs.AI"
       ],
-      "type": "ai",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Collaborative Task and Path Planning for Heterogeneous Robotic Teams using Multi-Agent PPO",
-      "authors": "Matthias Rubio, Julia Richter, Hendrik Kolvenbach et al.",
-      "abstract": "Efficient robotic extraterrestrial exploration requires robots with diverse capabilities, ranging from scientific measurement tools to advanced locomotion. A robotic team enables the distribution of tasks over multiple specialized subsystems, each providing specific expertise to complete the mission...",
-      "venue": "arXiv",
-      "date": "2026-04-01",
-      "arxiv_id": "2604.01213v1",
-      "url": "https://arxiv.org/abs/2604.01213v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.01213v1.pdf",
-      "categories": [
-        "cs.RO",
-        "cs.MA"
-      ],
-      "type": "ai",
+      "type": "benchmark",
       "badge": "arxiv",
       "source": "arXiv"
     }
