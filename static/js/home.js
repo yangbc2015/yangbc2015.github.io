@@ -92,7 +92,7 @@
     })();
 
     // ===== Galaxy Navigation System =====
-    (function initGalaxy() {
+    function initGalaxy() {
         const svg = document.getElementById('galaxy-svg');
         const planetsGroup = document.getElementById('planets');
         const connectionsGroup = document.getElementById('connections');
@@ -100,7 +100,7 @@
         
         if (!svg || !planetsGroup || !connectionsGroup || !particlesGroup) {
             console.warn('Galaxy elements not found:', { svg, planetsGroup, connectionsGroup, particlesGroup });
-            return;
+            return false;
         }
         
         console.log('Galaxy initialized successfully');
@@ -137,13 +137,8 @@
             g.setAttribute('class', 'planet');
             g.setAttribute('transform', `translate(${x}, ${y})`);
             g.style.cursor = 'pointer';
-            // Use CSS transition instead of keyframe animation for better compatibility
-            g.style.opacity = '0';
-            g.style.transition = 'opacity 0.5s ease-out, transform 0.5s ease-out';
-            // Trigger fade in after a small delay
-            setTimeout(() => {
-                g.style.opacity = '1';
-            }, 50 + index * 100);
+            // Start visible immediately - animation handled by CSS or simple fade
+            g.style.opacity = '1';
             
             const title = document.createElementNS('http://www.w3.org/2000/svg', 'title');
             title.textContent = `${planet.name} - ${planet.desc}`;
@@ -380,7 +375,7 @@
         render();
         autoRotate();
         setInterval(() => createFlowParticles(planetElements), 600);
-    })();
+    }
 
     // ===== Visitor Counter (Busuanzi) =====
     (function initVisitorCounter() {
@@ -647,8 +642,9 @@
         updateUI(false);
     })();
 
-    // Delay heatmap load
+    // Initialize galaxy and delay heatmap load
     document.addEventListener('DOMContentLoaded', () => {
+        initGalaxy();
         setTimeout(loadHeatmap, 1200);
     });
 })();
