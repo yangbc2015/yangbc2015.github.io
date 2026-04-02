@@ -285,32 +285,41 @@
 
 .galaxy-section .section-tag {
     display: inline-block;
-    padding: 0.3rem 0.9rem;
-    background: rgba(102, 126, 234, 0.08);
-    border: 1px solid rgba(102, 126, 234, 0.25);
+    padding: 0.25rem 0.8rem;
+    background: rgba(102, 126, 234, 0.06);
+    border: 1px solid rgba(102, 126, 234, 0.2);
     border-radius: 50px;
-    font-size: 0.75rem;
+    font-size: 0.7rem;
     color: #8899ff;
     text-transform: uppercase;
-    letter-spacing: 0.1em;
-    margin-bottom: 0.75rem;
+    letter-spacing: 0.12em;
+    margin-bottom: 0.5rem;
     font-family: 'Orbitron', monospace;
+    opacity: 0.8;
 }
 
 .galaxy-section .section-title {
-    font-size: clamp(1.8rem, 3.5vw, 2.6rem);
-    font-weight: 700;
+    font-size: clamp(1.4rem, 2.8vw, 2rem);
+    font-weight: 600;
     margin-bottom: 0.75rem;
-    color: var(--text-primary);
     font-family: 'Orbitron', monospace;
+    background: linear-gradient(135deg, #8899ff 0%, #c792ea 50%, #f093fb 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    text-shadow: none;
+    opacity: 0.95;
 }
 
 .galaxy-section .section-desc {
-    font-size: 1rem;
+    font-size: 0.95rem;
     color: var(--text-secondary);
-    max-width: 460px;
+    max-width: 420px;
     margin: 0 auto;
-    line-height: 1.7;
+    line-height: 1.6;
+    opacity: 0.8;
 }
 
 .galaxy-container {
