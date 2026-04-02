@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-02T00:02:49.553320+00:00",
-  "count": 2,
+  "last_updated": "2026-04-02T01:01:54.675715+00:00",
+  "count": 3,
   "items": [
     {
       "title": "Automatic Identification of Parallelizable Loops Using Transformer-Based Source Code Representations",
@@ -33,6 +33,23 @@
         "cs.AI"
       ],
       "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Reward-Based Online LLM Routing via NeuralUCB",
+      "authors": "Ming-Hua Tsai, Phat Tran",
+      "abstract": "This study investigates the use of NeuralUCB for cost-aware large language model (LLM) routing. Existing routing approaches can be broadly grouped into supervised routing methods and partial-feedback methods, each with different tradeoffs in efficiency and adaptivity. We implement a NeuralUCB-based ...",
+      "venue": "arXiv",
+      "date": "2026-03-31",
+      "arxiv_id": "2603.30035v1",
+      "url": "https://arxiv.org/abs/2603.30035v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.30035v1.pdf",
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     }
