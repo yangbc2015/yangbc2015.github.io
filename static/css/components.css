@@ -4961,7 +4961,7 @@
 
 .about-title-name {
     display: block;
-    font-size: clamp(2rem, 5vw, 3rem);
+    font-size: clamp(1.5rem, 3.5vw, 2rem);
     font-weight: 700;
     font-family: 'Orbitron', monospace;
     background: linear-gradient(135deg, var(--neon-green) 0%, var(--neon-blue) 50%, var(--neon-pink) 100%);

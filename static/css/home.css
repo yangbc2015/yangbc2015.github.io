@@ -15,8 +15,9 @@
 
 /* ===== Hero Section - Premium Design ===== */
 .hero-section {
-    height: 100vh;
-    min-height: 600px;
+    height: 70vh;
+    min-height: 500px;
+    max-height: 700px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -82,23 +83,15 @@
     opacity: 0.6;
 }
 
-/* Hero Content - Premium Glass Card */
+/* Hero Content - Clean Full Width Design */
 .hero-content {
     position: relative;
     z-index: 1;
     text-align: left;
-    max-width: 800px;
-    padding: 3rem 3.5rem;
-    background: var(--glass-premium);
-    backdrop-filter: blur(20px) saturate(180%);
-    -webkit-backdrop-filter: blur(20px) saturate(180%);
-    border: 1px solid var(--border-glow);
-    border-radius: 20px;
-    box-shadow: 
-        0 25px 50px -12px rgba(0, 0, 0, 0.5),
-        0 0 0 1px rgba(0, 230, 118, 0.1),
-        inset 0 1px 0 rgba(255, 255, 255, 0.05);
-    animation: fadeInUp 1s ease-out, floatCard 6s ease-in-out infinite;
+    width: 100%;
+    max-width: 1000px;
+    padding: 2rem 3rem;
+    animation: fadeInUp 1s ease-out;
 }
 
 @keyframes floatCard {
@@ -133,46 +126,48 @@
 
 /* Premium Quote Styling */
 /* ============================================
-   HERO QUOTE - 简洁名言展示
+   HERO QUOTE - 大气书法字体展示
    ============================================ */
 
 .hero-quote {
-    text-align: left;
-    max-width: 800px;
+    text-align: center;
+    width: 100%;
     margin: 0;
-    padding: 0;
+    padding: 2rem 0;
 }
 
 .quote-main {
-    font-size: clamp(1.4rem, 3vw, 2.2rem);
-    font-family: 'Noto Serif SC', serif;
-    font-weight: 500;
-    line-height: 1.6;
+    font-size: clamp(1.8rem, 4vw, 3rem);
+    font-family: 'Ma Shan Zheng', 'ZCOOL XiaoWei', 'Noto Serif SC', cursive, serif;
+    font-weight: 400;
+    line-height: 1.8;
     color: var(--text-primary);
-    margin: 0 0 0.75rem 0;
-    letter-spacing: 0.02em;
+    margin: 0 0 1rem 0;
+    letter-spacing: 0.08em;
+    text-shadow: 0 0 40px rgba(0, 230, 118, 0.15);
 }
 
 .hero-quote-en {
-    font-size: clamp(0.9rem, 1.5vw, 1.1rem);
-    font-family: 'Noto Serif', serif;
+    font-size: clamp(1rem, 2vw, 1.3rem);
+    font-family: 'Crimson Text', 'Noto Serif', serif;
     font-weight: 400;
-    line-height: 1.5;
-    color: var(--text-muted);
+    line-height: 1.6;
+    color: var(--text-secondary);
     font-style: italic;
-    margin: 0 0 1.5rem 0;
-    opacity: 0.85;
+    margin: 0 0 2rem 0;
+    opacity: 0.7;
+    letter-spacing: 0.03em;
 }
 
 .hero-author-name {
-    font-size: 0.95rem;
+    font-size: 1rem;
     font-family: 'Orbitron', monospace;
-    font-weight: 400;
+    font-weight: 500;
     color: var(--accent-glow);
-    letter-spacing: 0.05em;
+    letter-spacing: 0.15em;
     text-align: right;
     margin: 0;
-    opacity: 0.9;
+    opacity: 0.85;
 }
 
 /* Hero Stats */
@@ -309,7 +304,7 @@
 
 /* ===== Galaxy Section - Premium Design ===== */
 .galaxy-section {
-    padding: 6rem 1.5rem;
+    padding: 4rem 1.5rem 6rem;
     position: relative;
     background: linear-gradient(180deg, 
         transparent 0%, 
@@ -318,6 +313,41 @@
         rgba(255, 64, 129, 0.02) 80%,
         transparent 100%);
     overflow: hidden;
+}
+
+/* Galaxy Header - 统一风格 */
+.galaxy-header {
+    max-width: 1200px;
+    margin: 0 auto 2rem;
+    padding: 0 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--border-subtle);
+    padding-bottom: 1.25rem;
+}
+
+.galaxy-title {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-family: 'Orbitron', monospace;
+    font-size: 1.25rem;
+    color: var(--neon-green);
+    margin: 0;
+}
+
+.galaxy-title svg {
+    width: 24px;
+    height: 24px;
+    color: var(--neon-green);
+}
+
+.galaxy-subtitle {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    margin: 0;
+    opacity: 0.8;
 }
 
 .galaxy-section::before {
