@@ -1,7 +1,40 @@
 {
-  "last_updated": "2026-04-02T03:01:39.754384+00:00",
-  "count": 9,
+  "last_updated": "2026-04-02T04:02:14.832441+00:00",
+  "count": 7,
   "items": [
+    {
+      "title": "Universal YOCO for Efficient Depth Scaling",
+      "authors": "Yutao Sun, Li Dong, Tianzhu Ye et al.",
+      "abstract": "The rise of test-time scaling has remarkably boosted the reasoning and agentic proficiency of Large Language Models (LLMs). Yet, standard Transformers struggle to scale inference-time compute efficiently, as conventional looping strategies suffer from high computational overhead and a KV cache that ...",
+      "venue": "arXiv",
+      "date": "2026-04-01",
+      "arxiv_id": "2604.01220v1",
+      "url": "https://arxiv.org/abs/2604.01220v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.01220v1.pdf",
+      "categories": [
+        "cs.CL"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "$\\texttt{YC-Bench}$: Benchmarking AI Agents for Long-Term Planning and Consistent Execution",
+      "authors": "Muyu He, Adit Jain, Anand Kumar et al.",
+      "abstract": "As LLM agents tackle increasingly complex tasks, a critical question is whether they can maintain strategic coherence over long horizons: planning under uncertainty, learning from delayed feedback, and adapting when early mistakes compound. We introduce $\\texttt{YC-Bench}$, a benchmark that evaluate...",
+      "venue": "arXiv",
+      "date": "2026-04-01",
+      "arxiv_id": "2604.01212v1",
+      "url": "https://arxiv.org/abs/2604.01212v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.01212v1.pdf",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "type": "benchmark",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
     {
       "title": "HippoCamp: Benchmarking Contextual Agents on Personal Computers",
       "authors": "Zhe Yang, Shulin Tian, Kairui Hu et al.",
@@ -34,72 +67,6 @@
         "cs.CV"
       ],
       "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Uncertainty-Aware Variational Reward Factorization via Probabilistic Preference Bases for LLM Personalization",
-      "authors": "Gyuseok Lee, Wonbin Kweon, Zhenrui Yue et al.",
-      "abstract": "Reward factorization personalizes large language models (LLMs) by decomposing rewards into shared basis functions and user-specific weights. Yet, existing methods estimate user weights from scarce data in isolation and as deterministic points, leading to inaccurate and unreliable inference. We intro...",
-      "venue": "arXiv",
-      "date": "2026-04-01",
-      "arxiv_id": "2604.00997v1",
-      "url": "https://arxiv.org/abs/2604.00997v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.00997v1.pdf",
-      "categories": [
-        "cs.CL"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Multimodal Analysis of State-Funded News Coverage of the Israel-Hamas War on YouTube Shorts",
-      "authors": "Daniel Miehling, Sandra Kuebler",
-      "abstract": "YouTube Shorts have become central to news consumption on the platform, yet research on how geopolitical events are represented in this format remains limited. To address this gap, we present a multimodal pipeline that combines automatic transcription, aspect-based sentiment analysis (ABSA), and sem...",
-      "venue": "arXiv",
-      "date": "2026-04-01",
-      "arxiv_id": "2604.00994v1",
-      "url": "https://arxiv.org/abs/2604.00994v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.00994v1.pdf",
-      "categories": [
-        "cs.CL",
-        "cs.AI",
-        "cs.SI"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Maximizing T2-Only Prostate Cancer Localization from Expected Diffusion Weighted Imaging",
-      "authors": "Weixi Yi, Yipei Wang, Wen Yan et al.",
-      "abstract": "Multiparametric MRI is increasingly recommended as a first-line noninvasive approach to detect and localize prostate cancer, requiring at minimum diffusion-weighted (DWI) and T2-weighted (T2w) MR sequences. Early machine learning attempts using only T2w images have shown promising diagnostic perform...",
-      "venue": "arXiv",
-      "date": "2026-04-01",
-      "arxiv_id": "2604.00985v1",
-      "url": "https://arxiv.org/abs/2604.00985v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.00985v1.pdf",
-      "categories": [
-        "cs.CV"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "ACT Now: Preempting LVLM Hallucinations via Adaptive Context Integration",
-      "authors": "Bei Yan, Yuecong Min, Jie Zhang et al.",
-      "abstract": "Large Vision-Language Models (LVLMs) frequently suffer from severe hallucination issues. Existing mitigation strategies predominantly rely on isolated, single-step states to enhance visual focus or suppress strong linguistic priors. However, these static approaches neglect dynamic context changes ac...",
-      "venue": "arXiv",
-      "date": "2026-04-01",
-      "arxiv_id": "2604.00983v1",
-      "url": "https://arxiv.org/abs/2604.00983v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.00983v1.pdf",
-      "categories": [
-        "cs.CV"
-      ],
-      "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
