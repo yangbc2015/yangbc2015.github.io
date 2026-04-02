@@ -2,118 +2,222 @@
 
 {{ define "main" }}
 <div class="about-page">
-    <header class="about-header">
-        <div class="about-avatar">🍀</div>
-        <h1 class="about-title">关于我</h1>
-        <p class="about-subtitle">AI漫游站长 · 人工智能探索者</p>
-    </header>
-
-    <div class="about-content">
-        {{ .Content }}
-
-        <!-- 友链卡片展示 -->
-        <h2>🌟 精选友链</h2>
-        <div class="friends-grid">
-            <a href="https://www.jiqizhixin.com" target="_blank" rel="noopener" class="friend-card">
-                <div class="friend-header">
-                    <div class="friend-avatar">🧠</div>
-                    <div class="friend-name">机器之心</div>
-                </div>
-                <p class="friend-desc">国内领先的AI媒体，提供前沿AI资讯与深度技术解读。</p>
-                <div class="friend-tags">
-                    <span class="friend-tag">AI媒体</span>
-                </div>
-            </a>
-
-            <a href="https://paperswithcode.com" target="_blank" rel="noopener" class="friend-card">
-                <div class="friend-header">
-                    <div class="friend-avatar">📄</div>
-                    <div class="friend-name">Papers with Code</div>
-                </div>
-                <p class="friend-desc">机器学习论文与代码实现平台，追踪最新研究进展。</p>
-                <div class="friend-tags">
-                    <span class="friend-tag">论文</span>
-                    <span class="friend-tag">代码</span>
-                </div>
-            </a>
-
-            <a href="https://karpathy.ai" target="_blank" rel="noopener" class="friend-card">
-                <div class="friend-header">
-                    <div class="friend-avatar">🚀</div>
-                    <div class="friend-name">Andrej Karpathy</div>
-                </div>
-                <p class="friend-desc">前特斯拉AI总监、OpenAI创始成员，深度学习专家。</p>
-                <div class="friend-tags">
-                    <span class="friend-tag">深度学习</span>
-                </div>
-            </a>
-
-            <a href="https://huggingface.co" target="_blank" rel="noopener" class="friend-card">
-                <div class="friend-header">
-                    <div class="friend-avatar">🤗</div>
-                    <div class="friend-name">Hugging Face</div>
-                </div>
-                <p class="friend-desc">AI模型和数据集社区，AI开发者的GitHub。</p>
-                <div class="friend-tags">
-                    <span class="friend-tag">模型</span>
-                    <span class="friend-tag">社区</span>
-                </div>
-            </a>
-
-            <a href="https://distill.pub" target="_blank" rel="noopener" class="friend-card">
-                <div class="friend-header">
-                    <div class="friend-avatar">✨</div>
-                    <div class="friend-name">Distill</div>
-                </div>
-                <p class="friend-desc">可视化机器学习研究期刊，交互式文章解释AI概念。</p>
-                <div class="friend-tags">
-                    <span class="friend-tag">可视化</span>
-                    <span class="friend-tag">学术</span>
-                </div>
-            </a>
-
-            <a href="https://roadmap.sh" target="_blank" rel="noopener" class="friend-card">
-                <div class="friend-header">
-                    <div class="friend-avatar">🗺️</div>
-                    <div class="friend-name">Developer Roadmaps</div>
-                </div>
-                <p class="friend-desc">开发者学习路线图，涵盖前端、后端、AI等方向。</p>
-                <div class="friend-tags">
-                    <span class="friend-tag">学习路线</span>
-                </div>
-            </a>
+    <!-- Hero 区域 -->
+    <section class="about-hero">
+        <div class="about-hero-bg">
+            <div class="about-hero-grid"></div>
         </div>
-
-        <!-- 联系方式卡片 -->
-        <h2>📮 联系方式</h2>
-        <div class="contact-cards">
-            <div class="contact-card contact-card-primary" onclick="scrollToComments()">
-                <div class="contact-icon">💬</div>
-                <div class="contact-label">给我留言</div>
-                <div class="contact-value">页面底部评论</div>
+        <div class="about-hero-content">
+            <div class="about-avatar-wrapper">
+                <div class="about-avatar-glow"></div>
+                <div class="about-avatar">🍀</div>
+                <div class="about-status" title="在线">●</div>
             </div>
-            <div class="contact-card">
-                <div class="contact-icon">🐙</div>
-                <div class="contact-label">GitHub</div>
-                <div class="contact-value"><a href="https://github.com/yangbc2015" target="_blank" rel="noopener">@yangbc2015</a></div>
-            </div>
-            <div class="contact-card">
-                <div class="contact-icon">📧</div>
-                <div class="contact-label">GitHub Issue</div>
-                <div class="contact-value"><a href="https://github.com/yangbc2015/yangbc2015.github.io/issues/new" target="_blank" rel="noopener">提交反馈</a></div>
+            <h1 class="about-title">
+                <span class="about-title-greeting">Hi, I'm</span>
+                <span class="about-title-name">Garden Keeper</span>
+            </h1>
+            <p class="about-subtitle">AI漫游站长 · 人工智能探索者 · 数字花园园丁</p>
+            <div class="about-tags">
+                <span class="about-tag">🤖 AI 研究者</span>
+                <span class="about-tag">💻 全栈开发者</span>
+                <span class="about-tag">📊 数据爱好者</span>
+                <span class="about-tag">🌱 终身学习者</span>
             </div>
         </div>
-    </div>
+        <div class="about-scroll-hint">
+            <span>向下滚动</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 5v14M19 12l-7 7-7-7"/>
+            </svg>
+        </div>
+    </section>
+
+    <!-- 简介区域 -->
+    <section class="about-section">
+        <div class="about-section-header">
+            <span class="section-number">01</span>
+            <h2 class="section-title">关于本站</h2>
+        </div>
+        <div class="about-intro-cards">
+            <div class="intro-card intro-card-main">
+                <div class="intro-card-icon">🎯</div>
+                <h3>使命</h3>
+                <p>打破 AI 信息孤岛，整合全球前沿资讯，为中文 AI 社区提供高质量的聚合平台。</p>
+            </div>
+            <div class="intro-card">
+                <div class="intro-card-icon">💡</div>
+                <h3>理念</h3>
+                <p>开源、共享、协作。让每个人都能平等地获取 AI 知识。</p>
+            </div>
+            <div class="intro-card">
+                <div class="intro-card-icon">🚀</div>
+                <h3>愿景</h3>
+                <p>构建最全面的中文 AI 资源导航站，连接全球 AI 社区。</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 数据统计 -->
+    <section class="about-section about-stats-section">
+        <div class="about-section-header">
+            <span class="section-number">02</span>
+            <h2 class="section-title">站点数据</h2>
+        </div>
+        <div class="about-stats">
+            <div class="stat-item">
+                <div class="stat-number" data-count="{{ len (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}">{{ len (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}</div>
+                <div class="stat-label">文章总数</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number" data-count="{{ len .Site.Taxonomies.tags }}">{{ len .Site.Taxonomies.tags }}</div>
+                <div class="stat-label">标签数量</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number" data-count="{{ len .Site.Taxonomies.categories }}">{{ len .Site.Taxonomies.categories }}</div>
+                <div class="stat-label">分类数量</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number" data-count="365">365+</div>
+                <div class="stat-label">运营天数</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 核心栏目 -->
+    <section class="about-section">
+        <div class="about-section-header">
+            <span class="section-number">03</span>
+            <h2 class="section-title">核心栏目</h2>
+        </div>
+        <div class="about-features">
+            <a href="/news/" class="feature-card">
+                <div class="feature-icon">📰</div>
+                <h3>AI 新闻</h3>
+                <p>每日更新全球 AI 行业动态与技术突破</p>
+                <span class="feature-link">浏览新闻 →</span>
+            </a>
+            <a href="/leaderboard/" class="feature-card">
+                <div class="feature-icon">🏆</div>
+                <h3>AI 榜单</h3>
+                <p>LMSYS、OpenRouter 等多维度模型评测</p>
+                <span class="feature-link">查看榜单 →</span>
+            </a>
+            <a href="/papers/" class="feature-card">
+                <div class="feature-icon">🔬</div>
+                <h3>前沿学术</h3>
+                <p>arXiv 精选论文与深度解读</p>
+                <span class="feature-link">阅读论文 →</span>
+            </a>
+            <a href="/robotics/" class="feature-card">
+                <div class="feature-icon">🤖</div>
+                <h3>机器人</h3>
+                <p>具身智能、人形机器人、工业自动化</p>
+                <span class="feature-link">探索机器人 →</span>
+            </a>
+            <a href="/investment/" class="feature-card">
+                <div class="feature-icon">💰</div>
+                <h3>AI 投资</h3>
+                <p>AI 领域投资动态与市场分析</p>
+                <span class="feature-link">了解投资 →</span>
+            </a>
+            <a href="/tools/" class="feature-card">
+                <div class="feature-icon">🛠️</div>
+                <h3>工具导航</h3>
+                <p>AI 开发工具、框架、资源精选</p>
+                <span class="feature-link">发现工具 →</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- 友链展示 -->
+    <section class="about-section">
+        <div class="about-section-header">
+            <span class="section-number">04</span>
+            <h2 class="section-title">精选友链</h2>
+        </div>
+        <div class="about-friends">
+            <a href="https://www.jiqizhixin.com" target="_blank" rel="noopener" class="friend-item">
+                <div class="friend-item-avatar" style="background: linear-gradient(135deg, #667eea, #764ba2);">🧠</div>
+                <div class="friend-item-content">
+                    <div class="friend-item-name">机器之心</div>
+                    <div class="friend-item-desc">国内领先的 AI 媒体，提供前沿 AI 资讯与深度技术解读</div>
+                </div>
+                <div class="friend-item-arrow">→</div>
+            </a>
+            <a href="https://paperswithcode.com" target="_blank" rel="noopener" class="friend-item">
+                <div class="friend-item-avatar" style="background: linear-gradient(135deg, #f093fb, #f5576c);">📄</div>
+                <div class="friend-item-content">
+                    <div class="friend-item-name">Papers with Code</div>
+                    <div class="friend-item-desc">机器学习论文与代码实现平台，追踪最新研究进展</div>
+                </div>
+                <div class="friend-item-arrow">→</div>
+            </a>
+            <a href="https://karpathy.ai" target="_blank" rel="noopener" class="friend-item">
+                <div class="friend-item-avatar" style="background: linear-gradient(135deg, #4facfe, #00f2fe);">🚀</div>
+                <div class="friend-item-content">
+                    <div class="friend-item-name">Andrej Karpathy</div>
+                    <div class="friend-item-desc">前 Tesla AI 总监、OpenAI 创始成员，深度学习专家</div>
+                </div>
+                <div class="friend-item-arrow">→</div>
+            </a>
+            <a href="https://huggingface.co" target="_blank" rel="noopener" class="friend-item">
+                <div class="friend-item-avatar" style="background: linear-gradient(135deg, #ffd194, #d1913c);">🤗</div>
+                <div class="friend-item-content">
+                    <div class="friend-item-name">Hugging Face</div>
+                    <div class="friend-item-desc">AI 模型和数据集社区，AI 开发者的 GitHub</div>
+                </div>
+                <div class="friend-item-arrow">→</div>
+            </a>
+        </div>
+        <div class="about-friends-more">
+            <a href="/friends/" class="btn-primary">查看全部友链</a>
+        </div>
+    </section>
+
+    <!-- 联系方式 -->
+    <section class="about-section about-contact-section">
+        <div class="about-section-header">
+            <span class="section-number">05</span>
+            <h2 class="section-title">取得联系</h2>
+        </div>
+        <div class="about-contact">
+            <div class="contact-intro">
+                <p>有问题或建议？欢迎通过以下方式联系我，或者直接在本页底部留言。</p>
+            </div>
+            <div class="contact-grid">
+                <a href="https://github.com/yangbc2015" target="_blank" rel="noopener" class="contact-item contact-github">
+                    <div class="contact-item-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                    </div>
+                    <div class="contact-item-label">GitHub</div>
+                    <div class="contact-item-value">@yangbc2015</div>
+                </a>
+                <div class="contact-item contact-message" onclick="scrollToComments()">
+                    <div class="contact-item-icon">💬</div>
+                    <div class="contact-item-label">留言</div>
+                    <div class="contact-item-value">页面底部评论</div>
+                </div>
+                <a href="https://github.com/yangbc2015/yangbc2015.github.io/issues/new" target="_blank" rel="noopener" class="contact-item contact-issue">
+                    <div class="contact-item-icon">📧</div>
+                    <div class="contact-item-label">反馈</div>
+                    <div class="contact-item-value">GitHub Issue</div>
+                </a>
+            </div>
+        </div>
+    </section>
 
     <!-- 评论区 -->
     {{ if .Site.Params.features.comments }}
-    <section class="comments-section" id="comments">
-        <h2 class="comments-title">💬 留言板</h2>
-        <p style="text-align: center; color: var(--text-secondary); margin-bottom: 1.5rem;">
-            欢迎在这里留言交流！你也可以直接 <a href="https://github.com/yangbc2015/yangbc2015.github.io/issues/new" target="_blank" rel="noopener" style="color: var(--neon-green);">创建 GitHub Issue</a> 进行反馈
-        </p>
+    <section class="about-comments" id="comments">
+        <div class="about-section-header">
+            <span class="section-number">06</span>
+            <h2 class="section-title">留言板</h2>
+        </div>
+        <div class="comments-intro">
+            <p>💬 欢迎在这里留下你的想法、建议或问题。如果你发现了 bug，也可以直接 <a href="https://github.com/yangbc2015/yangbc2015.github.io/issues/new" target="_blank" rel="noopener">创建 GitHub Issue</a>。</p>
+        </div>
         {{ if .Site.Params.giscus.repo }}
-        <!-- Giscus 评论系统 -->
         <script src="https://giscus.app/client.js"
             data-repo="{{ .Site.Params.giscus.repo }}"
             data-repo-id="{{ .Site.Params.giscus.repoId }}"
@@ -130,12 +234,9 @@
             async>
         </script>
         {{ else }}
-        <!-- 提示配置 Giscus -->
-        <div style="text-align: center; color: var(--text-secondary); padding: 2rem;">
+        <div class="comments-placeholder">
             <p>💡 评论区需要配置 Giscus</p>
-            <p style="font-size: 0.85rem; margin-top: 0.5rem;">
-                在 <code>hugo.toml</code> 中配置 <code>params.giscus</code> 以启用评论功能
-            </p>
+            <p style="font-size: 0.85rem; margin-top: 0.5rem;">在 <code>hugo.toml</code> 中配置 <code>params.giscus</code> 以启用评论功能</p>
         </div>
         {{ end }}
     </section>
@@ -148,22 +249,47 @@ function scrollToComments() {
     const commentsSection = document.getElementById('comments');
     if (commentsSection) {
         commentsSection.scrollIntoView({ behavior: 'smooth' });
-        // 添加高亮效果
-        commentsSection.style.animation = 'highlightSection 2s ease';
+        commentsSection.classList.add('highlight');
         setTimeout(() => {
-            commentsSection.style.animation = '';
+            commentsSection.classList.remove('highlight');
         }, 2000);
     }
 }
 
-// 添加高亮动画
-const style = document.createElement('style');
-style.textContent = `
-    @keyframes highlightSection {
-        0%, 100% { box-shadow: 0 0 0 transparent; }
-        50% { box-shadow: 0 0 30px rgba(0, 255, 65, 0.3); }
-    }
-`;
-document.head.appendChild(style);
+// 数字动画
+function animateNumbers() {
+    const numbers = document.querySelectorAll('.stat-number[data-count]');
+    numbers.forEach(num => {
+        const target = parseInt(num.dataset.count) || 0;
+        const duration = 2000;
+        const step = target / (duration / 16);
+        let current = 0;
+        
+        const updateNumber = () => {
+            current += step;
+            if (current < target) {
+                num.textContent = Math.floor(current);
+                requestAnimationFrame(updateNumber);
+            } else {
+                num.textContent = target;
+            }
+        };
+        
+        // 使用 Intersection Observer 触发动画
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    updateNumber();
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.5 });
+        
+        observer.observe(num);
+    });
+}
+
+// 页面加载完成后执行
+document.addEventListener('DOMContentLoaded', animateNumbers);
 </script>
 {{ end }}
