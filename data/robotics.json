@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-04-01T10:03:11.648444+00:00",
-  "count": 63,
+  "last_updated": "2026-04-02T03:03:10.636122+00:00",
+  "count": 70,
   "items": [
     {
       "title": "Figure AI发布新一代人形机器人Figure 02，具备更强的自主学习能力",
       "summary": "Figure AI发布新一代人形机器人Figure 02，搭载最新视觉-语言-动作(VLA)模型，在工厂和仓储场景实现更高水平的自主操作。",
       "url": "https://www.figure.ai",
-      "date": "2026-04-01",
+      "date": "2026-04-02",
       "source": "行业动态",
       "category": "具身智能",
       "type": "news",
@@ -20,7 +20,7 @@
       "title": "特斯拉Optimus人形机器人量产计划加速，预计2025年交付首批产品",
       "summary": "马斯克表示Optimus人形机器人量产计划正在加速，特斯拉工厂已开始测试机器人执行简单装配任务。",
       "url": "https://www.tesla.com/optimus",
-      "date": "2026-04-01",
+      "date": "2026-04-02",
       "source": "行业动态",
       "category": "具身智能",
       "type": "news",
@@ -35,7 +35,7 @@
       "title": "宇树科技发布Unitree G1人形机器人，价格9.9万元起",
       "summary": "宇树科技发布新一代人形机器人G1，身高约127cm，体重约35kg，具备23个自由度，面向教育和科研市场。",
       "url": "https://www.unitree.com",
-      "date": "2026-04-01",
+      "date": "2026-04-02",
       "source": "行业动态",
       "category": "具身智能",
       "type": "news",
@@ -49,7 +49,7 @@
       "title": "英伟达发布GR00T人形机器人基础模型，为机器人提供大脑",
       "summary": "NVIDIA发布人形机器人通用基础模型GR00T，结合Isaac Sim仿真平台，加速人形机器人开发。",
       "url": "https://developer.nvidia.com/isaac",
-      "date": "2026-04-01",
+      "date": "2026-04-02",
       "source": "行业动态",
       "category": "具身智能",
       "type": "news",
@@ -64,7 +64,7 @@
       "title": "智元机器人发布远征A2人形机器人，进入工业场景实测",
       "summary": "智元机器人发布远征A2人形机器人，已在汽车工厂进行实际生产任务测试，展示零部件装配能力。",
       "url": "https://www.zhiyuanrobot.com",
-      "date": "2026-04-01",
+      "date": "2026-04-02",
       "source": "行业动态",
       "category": "具身智能",
       "type": "news",
@@ -78,7 +78,7 @@
       "title": "波士顿动力Atlas机器人全面升级，电动版展现更强运动能力",
       "summary": "波士顿动力发布全电动版Atlas机器人，相比液压版本运动更加流畅，可完成后空翻等复杂动作。",
       "url": "https://bostondynamics.com/atlas",
-      "date": "2026-04-01",
+      "date": "2026-04-02",
       "source": "行业动态",
       "category": "具身智能",
       "type": "news",
@@ -86,6 +86,70 @@
         "机器人",
         "人形机器人",
         "波士顿动力"
+      ]
+    },
+    {
+      "title": "Functional Force-Aware Retargeting from Virtual Human Demos to Soft Robot Policies",
+      "summary": "We introduce SoftAct, a framework for teaching soft robot hands to perform human-like manipulation skills by explicitly reasoning about contact forces. Leveraging immersive virtual reality, our system captures rich human demonstrations, including han...",
+      "url": "https://arxiv.org/abs/2604.01224v1",
+      "date": "2026-04-01",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.01224v1",
+      "authors": "Uksang Yoo, Mengjia Zhu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Collaborative Task and Path Planning for Heterogeneous Robotic Teams using Multi-Agent PPO",
+      "summary": "Efficient robotic extraterrestrial exploration requires robots with diverse capabilities, ranging from scientific measurement tools to advanced locomotion. A robotic team enables the distribution of tasks over multiple specialized subsystems, each pr...",
+      "url": "https://arxiv.org/abs/2604.01213v1",
+      "date": "2026-04-01",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.01213v1",
+      "authors": "Matthias Rubio, Julia Richter et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "A ROS 2 Wrapper for Florence-2: Multi-Mode Local Vision-Language Inference for Robotic Systems",
+      "summary": "Foundation vision-language models are becoming increasingly relevant to robotics because they can provide richer semantic perception than narrow task-specific pipelines. However, their practical adoption in robot software stacks still depends on repr...",
+      "url": "https://arxiv.org/abs/2604.01179v1",
+      "date": "2026-04-01",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.01179v1",
+      "authors": "J. E. Domínguez-Vidal",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "SMASH: Mastering Scalable Whole-Body Skills for Humanoid Ping-Pong with Egocentric Vision",
+      "summary": "Existing humanoid table tennis systems remain limited by their reliance on external sensing and their inability to achieve agile whole-body coordination for precise task execution. These limitations stem from two core challenges: achieving low-latenc...",
+      "url": "https://arxiv.org/abs/2604.01158v1",
+      "date": "2026-04-01",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.01158v1",
+      "authors": "Junli Ren, Yinghui Li et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
       ]
     },
     {
@@ -146,6 +210,22 @@
       "type": "paper",
       "arxiv_id": "2603.29844v1",
       "authors": "Yi Chen, Yuying Ge et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Reconfiguration of supernumerary robotic limbs for human augmentation",
+      "summary": "Wearable robots aim to seamlessly adapt to humans and their environment with personalized interactions. Existing supernumerary robotic limbs (SRLs), which enhance the physical capabilities of humans with additional extremities, have thus far been dev...",
+      "url": "https://arxiv.org/abs/2603.29808v1",
+      "date": "2026-03-31",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2603.29808v1",
+      "authors": "Mustafa Mete, Anastasia Bolotnikova et al.",
       "tags": [
         "机器人学习",
         "研究论文",
@@ -226,6 +306,31 @@
       "type": "news",
       "tags": [
         "机器人"
+      ]
+    },
+    {
+      "title": "冰火两重天的机器人行业，再不上市就晚了？",
+      "summary": "冰火两重天的机器人行业，再不上市就晚了？",
+      "url": "http://36kr.com/p/3745085379575815",
+      "date": "2026-03-30",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
+      "title": "当Agent开始接管“身体”，具身智能机器人的核心驱动因素，正在发生怎样的变化？这一轮由Agent引发的重构，究竟会把机器人产业带向哪里？新的竞争，将围绕什么展开？",
+      "summary": "当Agent开始接管“身体”，具身智能机器人的核心驱动因素，正在发生怎样的变化？这一轮由Agent引发的重构，究竟会把机器人产业带向哪里？新的竞争，将围绕什么展开？",
+      "url": "http://36kr.com/p/3744620824035593",
+      "date": "2026-03-30",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
       ]
     },
     {
