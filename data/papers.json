@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-01T23:03:15.951225+00:00",
-  "count": 4,
+  "last_updated": "2026-04-02T00:02:49.553320+00:00",
+  "count": 2,
   "items": [
     {
       "title": "Automatic Identification of Parallelizable Loops Using Transformer-Based Source Code Representations",
@@ -33,40 +33,6 @@
         "cs.AI"
       ],
       "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Reward-Based Online LLM Routing via NeuralUCB",
-      "authors": "Ming-Hua Tsai, Phat Tran",
-      "abstract": "This study investigates the use of NeuralUCB for cost-aware large language model (LLM) routing. Existing routing approaches can be broadly grouped into supervised routing methods and partial-feedback methods, each with different tradeoffs in efficiency and adaptivity. We implement a NeuralUCB-based ...",
-      "venue": "arXiv",
-      "date": "2026-03-31",
-      "arxiv_id": "2603.30035v1",
-      "url": "https://arxiv.org/abs/2603.30035v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.30035v1.pdf",
-      "categories": [
-        "cs.LG",
-        "cs.CL"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Covertly improving intelligibility with data-driven adaptations of speech timing",
-      "authors": "Paige Tuttösí, Angelica Lim, H. Henny Yeung et al.",
-      "abstract": "Human talkers often address listeners with language-comprehension challenges, such as hard-of-hearing or non-native adults, by globally slowing down their speech. However, it remains unclear whether this strategy actually makes speech more intelligible. Here, we take advantage of recent advancements...",
-      "venue": "arXiv",
-      "date": "2026-03-31",
-      "arxiv_id": "2603.30032v1",
-      "url": "https://arxiv.org/abs/2603.30032v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.30032v1.pdf",
-      "categories": [
-        "cs.CL",
-        "cs.SD"
-      ],
-      "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     }
