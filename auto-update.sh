@@ -1,6 +1,7 @@
 #!/bin/bash
 # AI漫游 - 自动更新脚本
 # 功能：爬取最新数据、构建 Hugo 网站，并推送到 GitHub 触发部署
+# 更新频率：每日一次（已禁用每小时更新）
 
 set -e  # 遇到错误立即退出
 
@@ -14,6 +15,11 @@ NC='\033[0m' # No Color
 PROJECT_DIR="/root/hugo/mentors"
 LOG_DIR="/root/hugo/mentors/logs"
 LOG_FILE="$LOG_DIR/auto-update-$(date +%Y%m%d).log"
+LOCK_FILE="/tmp/ai-update.lock"
+LAST_RUN_FILE="/tmp/ai-update.last"
+
+# 频率限制：最短运行间隔（秒）- 20小时 = 72000秒
+MIN_INTERVAL=72000
 
 # 创建日志目录
 mkdir -p "$LOG_DIR"
@@ -22,6 +28,41 @@ mkdir -p "$LOG_DIR"
 log() {
     echo -e "[$(date '+%Y-%m-%d %H:%M:%S')] $1" | tee -a "$LOG_FILE"
 }
+
+# 检查是否已经在运行
+if [ -f "$LOCK_FILE" ]; then
+    PID=$(cat "$LOCK_FILE" 2>/dev/null || echo "")
+    if [ -n "$PID" ] && kill -0 "$PID" 2>/dev/null; then
+        log "${RED}❌ 另一个更新进程正在运行 (PID: $PID)，退出${NC}"
+        exit 1
+    else
+        rm -f "$LOCK_FILE"
+    fi
+fi
+
+# 检查运行频率
+if [ -f "$LAST_RUN_FILE" ]; then
+    LAST_RUN=$(cat "$LAST_RUN_FILE")
+    CURRENT_TIME=$(date +%s)
+    TIME_DIFF=$((CURRENT_TIME - LAST_RUN))
+    
+    if [ $TIME_DIFF -lt $MIN_INTERVAL ]; then
+        HOURS_AGO=$((TIME_DIFF / 3600))
+        MINUTES_AGO=$(((TIME_DIFF % 3600) / 60))
+        log "${YELLOW}⏱️ 距离上次更新仅 ${HOURS_AGO}小时${MINUTES_AGO}分钟，跳过本次更新${NC}"
+        log "${YELLOW}   （每日只更新一次，如需立即更新请手动运行）${NC}"
+        exit 0
+    fi
+fi
+
+# 创建锁文件
+echo $$ > "$LOCK_FILE"
+
+# 记录本次运行时间
+date +%s > "$LAST_RUN_FILE"
+
+# 确保退出时删除锁文件
+trap 'rm -f "$LOCK_FILE"' EXIT
 
 log "${YELLOW}🚀 开始自动更新流程...${NC}"
 

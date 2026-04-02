@@ -1,8 +1,9 @@
 [Unit]
-Description=Run AI Update daily at 3:00 AM
+Description=AI Update - Daily at 3:00 AM (NOT hourly)
 
 [Timer]
-OnBootSec=5min
+# 每天凌晨 3:00 运行一次（不是每小时！）
+OnCalendar=daily
 OnCalendar=*-*-* 03:00:00
 Persistent=true
 
