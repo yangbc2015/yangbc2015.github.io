@@ -249,7 +249,7 @@
     display: flex;
     align-items: center;
     gap: 0.75rem;
-    padding: 0.75rem 1.25rem;
+    padding: 0.6rem 1rem 0.6rem 0.75rem;
     background: var(--glass-premium);
     backdrop-filter: blur(10px);
     border: 1px solid var(--border-glow);
@@ -259,6 +259,29 @@
     font-size: 0.75rem;
     cursor: pointer;
     transition: all 0.3s ease;
+}
+
+.music-label {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.25rem 0.5rem;
+    background: linear-gradient(135deg, rgba(0, 230, 118, 0.15), rgba(0, 229, 255, 0.1));
+    border-radius: 20px;
+    border: 1px solid rgba(0, 230, 118, 0.2);
+}
+
+.music-label svg {
+    width: 14px;
+    height: 14px;
+    color: var(--neon-green);
+}
+
+.music-text {
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: var(--neon-green);
+    letter-spacing: 0.05em;
 }
 
 .music-toggle:hover {
