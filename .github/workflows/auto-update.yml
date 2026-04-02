@@ -92,7 +92,7 @@ jobs:
         git config --local user.name "GitHub Action"
         git add data/ content/
         printf '%s\n\n%s\n%s\n%s\n%s\n%s\n%s\n\n%s\n' \
-          "🤖 Auto-update AI data: $(date +'%Y-%m-%d %H:%M')" \
+          "🤖 Auto-update AI data: $(date +'%Y-%m-%d')" \
           "📊 更新内容:" \
           "- AI 新闻" \
           "- AI 榜单 (LMSYS Arena)" \

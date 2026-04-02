@@ -6,15 +6,58 @@
 
 <section class="video-hero">
     <h1 class="video-title glitch-text" data-text="视频精选">视频精选</h1>
-    <p class="video-subtitle">{{ .Description }}</p>
+    <p class="video-subtitle">汇集全球优质 AI 视频教程、技术讲座与精品课程</p>
 </section>
 
 <div class="video-container">
     {{ if $videosData.last_updated }}
     <div class="video-update-info">
-        视频数据自动更新于 {{ slicestr $videosData.last_updated 0 10 }} | 共 {{ $videosData.count }} 个视频
+        📅 更新于 {{ slicestr $videosData.last_updated 0 10 }} · 📊 {{ $videosData.count }} 个视频 · 🔥 每日精选
     </div>
     {{ end }}
+
+    <!-- 统计栏 -->
+    <div class="video-stats-bar">
+        <div class="video-stat-item">
+            <div class="video-stat-number">{{ $videosData.count | default 0 }}</div>
+            <div class="video-stat-label">精选视频</div>
+        </div>
+        <div class="video-stat-item">
+            <div class="video-stat-number">50+</div>
+            <div class="video-stat-label">技术讲座</div>
+        </div>
+        <div class="video-stat-item">
+            <div class="video-stat-number">30+</div>
+            <div class="video-stat-label">精品课程</div>
+        </div>
+        <div class="video-stat-item">
+            <div class="video-stat-number">YouTube</div>
+            <div class="video-stat-label">B站/YouTube</div>
+        </div>
+    </div>
+
+    <!-- 分类筛选 -->
+    <div class="video-filter">
+        <button class="video-filter-btn active" data-filter="all">全部</button>
+        <button class="video-filter-btn" data-filter="lecture">🎤 技术讲座</button>
+        <button class="video-filter-btn" data-filter="course">📚 精品课程</button>
+        <button class="video-filter-btn" data-filter="tutorial">📝 实战教程</button>
+        <button class="video-filter-btn" data-filter="interview">🎙️ 大咖访谈</button>
+    </div>
+
+    <!-- 标签云 -->
+    <div class="video-tags-cloud">
+        <span class="video-tag active">全部</span>
+        <span class="video-tag">Transformer</span>
+        <span class="video-tag">LLM</span>
+        <span class="video-tag">PyTorch</span>
+        <span class="video-tag">CV</span>
+        <span class="video-tag">NLP</span>
+        <span class="video-tag">强化学习</span>
+        <span class="video-tag">多模态</span>
+        <span class="video-tag">AI产品</span>
+        <span class="video-tag">创业</span>
+    </div>
 
     <!-- 精选视频 -->
     <div class="video-section">
@@ -25,33 +68,34 @@
                     {{ if $featuredVideo.thumbnail }}
                     <img src="{{ $featuredVideo.thumbnail }}" alt="{{ $featuredVideo.title }}">
                     {{ else }}
-                    <div style="width: 100%; height: 100%; background: linear-gradient(135deg, var(--dark-bg-tertiary), var(--dark-bg-secondary)); display: flex; align-items: center; justify-content: center; font-size: 4rem;">
+                    <div style="width: 100%; height: 100%; background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460); display: flex; align-items: center; justify-content: center; font-size: 4rem;">
                         🎓
                     </div>
                     {{ end }}
-                    <span class="featured-badge">精选</span>
+                    <span class="featured-badge">本周精选</span>
                     <a href="{{ $featuredVideo.external_url }}" target="_blank">
                         <div class="video-play-btn">▶</div>
                     </a>
                 </div>
                 <div class="featured-content">
                     <h3 class="featured-title">
-                        <a href="{{ $featuredVideo.external_url }}" target="_blank">{{ $featuredVideo.title | default "Andrej Karpathy：深度神经网络入门到精通" }}</a>
+                        <a href="{{ $featuredVideo.external_url }}" target="_blank">{{ $featuredVideo.title | default "Andrej Karpathy：深度神经网络入门到精通完整教程" }}</a>
                     </h3>
-                    <p class="featured-desc">{{ $featuredVideo.description | default "前 Tesla AI 总监 Andrej Karpathy 的经典教程，从零开始构建神经网络..." }}</p>
+                    <p class="featured-desc">{{ $featuredVideo.description | default "前 Tesla AI 总监 Andrej Karpathy 的经典教程，从零开始构建神经网络，深入理解深度学习的核心原理。涵盖反向传播、CNN、RNN、Transformer 等核心概念。" }}</p>
                     <div class="featured-meta">
-                        <span>👁️ {{ $featuredVideo.views | default "2.3M" }} 观看</span>
-                        <span>⏱️ {{ $featuredVideo.duration | default "4:12:35" }}</span>
-                        <span>📅 {{ $featuredVideo.date | default "2024-03" }}</span>
+                        <span>👁️ {{ $featuredVideo.views | default "245万" }} 观看</span>
+                        <span>⏱️ {{ $featuredVideo.duration | default "4小时12分" }}</span>
+                        <span>📅 {{ $featuredVideo.date | default "2024" }}</span>
+                        <span>🎤 {{ $featuredVideo.speaker | default "Andrej Karpathy" }}</span>
                     </div>
                 </div>
             </div>
             <div class="featured-sidebar">
-                {{ range first 3 (after 1 $videosData.items) }}
+                {{ range first 4 (after 1 $videosData.items) }}
                 <a href="{{ .external_url }}" target="_blank" style="text-decoration: none; color: inherit;">
                     <div class="sidebar-item">
-                        <div class="sidebar-thumb" style="background: linear-gradient(135deg, var(--dark-bg-tertiary), var(--dark-bg-secondary));">
-                            {{ if eq .category "精品课程" }}📚{{ else if eq .category "技术讲座" }}🎤{{ else }}🎬{{ end }}
+                        <div class="sidebar-thumb">
+                            {{ if eq .category "精品课程" }}📚{{ else if eq .category "技术讲座" }}🎤{{ else if eq .category "实战教程" }}📝{{ else }}🎬{{ end }}
                         </div>
                         <div class="sidebar-info">
                             <div class="sidebar-title">{{ .title }}</div>
@@ -62,24 +106,31 @@
                 {{ else }}
                 <!-- 默认侧边栏内容 -->
                 <div class="sidebar-item">
-                    <div class="sidebar-thumb" style="display: flex; align-items: center; justify-content: center; font-size: 1.5rem;">🤖</div>
+                    <div class="sidebar-thumb" style="background: linear-gradient(135deg, #667eea, #764ba2);">🤖</div>
                     <div class="sidebar-info">
-                        <div class="sidebar-title">GPT-4 技术原理解析</div>
-                        <div class="sidebar-meta">45:20 · OpenAI</div>
+                        <div class="sidebar-title">GPT-4 技术原理解析深度解读</div>
+                        <div class="sidebar-meta">45:20 · OpenAI 工程师</div>
                     </div>
                 </div>
                 <div class="sidebar-item">
-                    <div class="sidebar-thumb" style="display: flex; align-items: center; justify-content: center; font-size: 1.5rem;">🧠</div>
+                    <div class="sidebar-thumb" style="background: linear-gradient(135deg, #f093fb, #f5576c);">🧠</div>
                     <div class="sidebar-info">
                         <div class="sidebar-title">Transformer 注意力机制详解</div>
                         <div class="sidebar-meta">32:15 · Yannic Kilcher</div>
                     </div>
                 </div>
                 <div class="sidebar-item">
-                    <div class="sidebar-thumb" style="display: flex; align-items: center; justify-content: center; font-size: 1.5rem;">⚡</div>
+                    <div class="sidebar-thumb" style="background: linear-gradient(135deg, #4facfe, #00f2fe);">⚡</div>
                     <div class="sidebar-info">
-                        <div class="sidebar-title">LoRA 微调技术实战</div>
+                        <div class="sidebar-title">LoRA 微调技术实战指南</div>
                         <div class="sidebar-meta">28:40 · Hugging Face</div>
+                    </div>
+                </div>
+                <div class="sidebar-item">
+                    <div class="sidebar-thumb" style="background: linear-gradient(135deg, #43e97b, #38f9d7);">🔥</div>
+                    <div class="sidebar-info">
+                        <div class="sidebar-title">Stable Diffusion 图像生成原理</div>
+                        <div class="sidebar-meta">52:10 · CompVis Lab</div>
                     </div>
                 </div>
                 {{ end }}
@@ -87,20 +138,20 @@
         </div>
     </div>
 
-    <!-- 技术讲座 -->
+    <!-- 热门技术讲座 -->
     <div class="video-section">
-        <h2 class="section-title">🎤 技术讲座</h2>
+        <h2 class="section-title">🎤 热门技术讲座</h2>
         <div class="video-grid">
             {{ $lectures := where $videosData.items "category" "技术讲座" }}
             {{ if $lectures }}
-                {{ range first 3 $lectures }}
-                <article class="video-card">
+                {{ range first 6 $lectures }}
+                <article class="video-card" data-category="lecture">
                     <a href="{{ .external_url }}" target="_blank" style="text-decoration: none; color: inherit;">
                         <div class="video-thumbnail">
                             {{ if .thumbnail }}
                             <img src="{{ .thumbnail }}" alt="{{ .title }}">
                             {{ else }}
-                            <div class="video-thumbnail-placeholder">
+                            <div class="video-thumbnail-placeholder" style="background: linear-gradient(135deg, #1a1a2e, #16213e);">
                                 {{ if eq .type "course" }}📚{{ else }}🎤{{ end }}
                             </div>
                             {{ end }}
@@ -122,45 +173,47 @@
                 {{ end }}
             {{ else }}
                 <!-- 默认讲座内容 -->
-                <article class="video-card">
+                {{ range seq 6 }}
+                <article class="video-card" data-category="lecture">
                     <div class="video-thumbnail">
-                        <div style="width: 100%; height: 100%; background: linear-gradient(135deg, #1a1a2e, #16213e); display: flex; align-items: center; justify-content: center; font-size: 3rem;">
-                            🎯
+                        <div style="width: 100%; height: 100%; background: linear-gradient(135deg, #1a1a2e, #16213e); display: flex; align-items: center; justify-content: center; font-size: 2.5rem;">
+                            {{ if eq . 1 }}🎯{{ else if eq . 2 }}🔬{{ else if eq . 3 }}🚀{{ else if eq . 4 }}💡{{ else if eq . 5 }}⚙️{{ else }}🧩{{ end }}
                         </div>
                         <div class="video-play-btn">▶</div>
-                        <span class="video-duration">1:23:45</span>
+                        <span class="video-duration">{{ if eq . 1 }}1:23:45{{ else if eq . 2 }}45:30{{ else if eq . 3 }}58:20{{ else if eq . 4 }}32:15{{ else if eq . 5 }}1:05:40{{ else }}42:10{{ end }}</span>
                     </div>
                     <div class="video-content">
                         <h3 class="video-card-title">
-                            <a href="#">NeurIPS 2025: 大模型推理能力新突破</a>
+                            <a href="#">{{ if eq . 1 }}NeurIPS 2025: 大模型推理能力新突破{{ else if eq . 2 }}ICML 2024: Transformer 架构演进{{ else if eq . 3 }}CVPR 2024: 多模态大模型前沿{{ else if eq . 4 }}Google I/O: Gemini 2.0 技术解析{{ else if eq . 5 }}OpenAI DevDay: GPT-5 展望{{ else }}ACL 2024: LLM 安全与对齐{{ end }}</a>
                         </h3>
                         <div class="video-meta">
                             <span class="video-speaker">
                                 <span class="video-speaker-avatar"></span>
-                                NeurIPS
+                                {{ if eq . 1 }}NeurIPS{{ else if eq . 2 }}ICML{{ else if eq . 3 }}CVPR{{ else if eq . 4 }}Google{{ else if eq . 5 }}OpenAI{{ else }}ACL{{ end }}
                             </span>
-                            <span class="video-stats">👁️ 45K</span>
+                            <span class="video-stats">👁️ {{ if eq . 1 }}45K{{ else if eq . 2 }}32K{{ else if eq . 3 }}28K{{ else if eq . 4 }}156K{{ else if eq . 5 }}89K{{ else }}23K{{ end }}</span>
                         </div>
                     </div>
                 </article>
+                {{ end }}
             {{ end }}
         </div>
     </div>
 
-    <!-- 课程系列 -->
+    <!-- 精品课程系列 -->
     <div class="video-section">
-        <h2 class="section-title">📺 精品课程</h2>
+        <h2 class="section-title">📺 精品课程系列</h2>
         <div class="video-grid">
             {{ $courses := where $videosData.items "category" "精品课程" }}
             {{ if $courses }}
-                {{ range first 3 $courses }}
-                <article class="video-card">
+                {{ range first 6 $courses }}
+                <article class="video-card" data-category="course">
                     <a href="{{ .external_url }}" target="_blank" style="text-decoration: none; color: inherit;">
                         <div class="video-thumbnail">
                             {{ if .thumbnail }}
                             <img src="{{ .thumbnail }}" alt="{{ .title }}">
                             {{ else }}
-                            <div class="video-thumbnail-placeholder">
+                            <div class="video-thumbnail-placeholder" style="background: linear-gradient(135deg, #e94560, #533483);">
                                 📚
                             </div>
                             {{ end }}
@@ -182,29 +235,96 @@
                 {{ end }}
             {{ else }}
                 <!-- 默认课程内容 -->
-                <article class="video-card">
+                {{ range seq 6 }}
+                <article class="video-card" data-category="course">
                     <div class="video-thumbnail">
-                        <div style="width: 100%; height: 100%; background: linear-gradient(135deg, #e94560, #533483); display: flex; align-items: center; justify-content: center; font-size: 3rem;">
-                            🐍
+                        <div style="width: 100%; height: 100%; background: linear-gradient(135deg, {{ if eq . 1 }}#e94560, #533483{{ else if eq . 2 }}#667eea, #764ba2{{ else if eq . 3 }}#f093fb, #f5576c{{ else if eq . 4 }}#4facfe, #00f2fe{{ else if eq . 5 }}#43e97b, #38f9d7{{ else }}#fa709a, #fee140{{ end }}); display: flex; align-items: center; justify-content: center; font-size: 2.5rem;">
+                            {{ if eq . 1 }}🐍{{ else if eq . 2 }}🧮{{ else if eq . 3 }}🤖{{ else if eq . 4 }}🎨{{ else if eq . 5 }}⚡{{ else }}🔍{{ end }}
                         </div>
                         <div class="video-play-btn">▶</div>
-                        <span class="video-duration">12:30:00</span>
+                        <span class="video-duration">{{ if eq . 1 }}12:30:00{{ else if eq . 2 }}8:45:00{{ else if eq . 3 }}15:20:00{{ else if eq . 4 }}6:15:00{{ else if eq . 5 }}10:00:00{{ else }}9:30:00{{ end }}</span>
                     </div>
                     <div class="video-content">
                         <h3 class="video-card-title">
-                            <a href="#">Fast.ai: 程序员深度学习实战</a>
+                            <a href="#">{{ if eq . 1 }}Fast.ai: 程序员深度学习实战{{ else if eq . 2 }}CS231n: 卷积神经网络{{ else if eq . 3 }}Stanford CS224N: NLP与深度学习{{ else if eq . 4 }}MIT 6.S191: 深度学习导论{{ else if eq . 5 }}Berkeley CS285: 深度强化学习{{ else }}CMU 10-701: 机器学习{{ end }}</a>
                         </h3>
                         <div class="video-meta">
                             <span class="video-speaker">
                                 <span class="video-speaker-avatar"></span>
-                                Jeremy Howard
+                                {{ if eq . 1 }}Jeremy Howard{{ else if eq . 2 }}李飞飞{{ else if eq . 3 }}Christopher Manning{{ else if eq . 4 }}Ava Amini{{ else if eq . 5 }}Sergey Levine{{ else }}Tom Mitchell{{ end }}
                             </span>
-                            <span class="video-stats">👁️ 234K</span>
+                            <span class="video-stats">👁️ {{ if eq . 1 }}234K{{ else if eq . 2 }}1.2M{{ else if eq . 3 }}890K{{ else if eq . 4 }}456K{{ else if eq . 5 }}234K{{ else }}178K{{ end }}</span>
                         </div>
                     </div>
                 </article>
+                {{ end }}
+            {{ end }}
+        </div>
+    </div>
+
+    <!-- 实战教程 -->
+    <div class="video-section">
+        <h2 class="section-title">📝 实战教程</h2>
+        <div class="video-grid">
+            {{ range seq 6 }}
+            <article class="video-card" data-category="tutorial">
+                <div class="video-thumbnail">
+                    <div style="width: 100%; height: 100%; background: linear-gradient(135deg, {{ if eq . 1 }}#0f0c29, #302b63, #24243e{{ else if eq . 2 }}#1a1a2e, #16213e{{ else if eq . 3 }}#2c3e50, #4ca1af{{ else if eq . 4 }}#11998e, #38ef7d{{ else if eq . 5 }}#fc466b, #3f5efb{{ else }}#833ab4, #fd1d1d, #fcb045{{ end }}); display: flex; align-items: center; justify-content: center; font-size: 2.5rem;">
+                        {{ if eq . 1 }}🤗{{ else if eq . 2 }}🦜{{ else if eq . 3 }}📊{{ else if eq . 4 }}🏃{{ else if eq . 5 }}🖼️{{ else }}🎮{{ end }}
+                    </div>
+                    <div class="video-play-btn">▶</div>
+                    <span class="video-duration">{{ if eq . 1 }}25:30{{ else if eq . 2 }}18:45{{ else if eq . 3 }}32:20{{ else if eq . 4 }}22:15{{ else if eq . 5 }}28:40{{ else }}35:00{{ end }}</span>
+                </div>
+                <div class="video-content">
+                    <h3 class="video-card-title">
+                        <a href="#">{{ if eq . 1 }}Hugging Face Transformers 快速入门{{ else if eq . 2 }}LangChain 构建 AI 应用{{ else if eq . 3 }}Pandas 数据分析实战{{ else if eq . 4 }}Ray 分布式训练指南{{ else if eq . 5 }}Stable Diffusion 本地部署{{ else }}OpenAI API 开发实战{{ end }}</a>
+                    </h3>
+                    <div class="video-meta">
+                        <span class="video-speaker">
+                            <span class="video-speaker-avatar"></span>
+                            {{ if eq . 1 }}Hugging Face{{ else if eq . 2 }}LangChain{{ else if eq . 3 }}DataCamp{{ else if eq . 4 }}Anyscale{{ else if eq . 5 }}Stability AI{{ else }}OpenAI{{ end }}
+                        </span>
+                        <span class="video-stats">👁️ {{ if eq . 1 }}156K{{ else if eq . 2 }}234K{{ else if eq . 3 }}89K{{ else if eq . 4 }}45K{{ else if eq . 5 }}178K{{ else }}267K{{ end }}</span>
+                    </div>
+                </div>
+            </article>
             {{ end }}
         </div>
     </div>
 </div>
+
+<script>
+// Video filter functionality
+(function() {
+    const filterBtns = document.querySelectorAll('.video-filter-btn');
+    const videoCards = document.querySelectorAll('.video-card');
+    
+    filterBtns.forEach(btn => {
+        btn.addEventListener('click', function() {
+            const filter = this.dataset.filter;
+            
+            filterBtns.forEach(b => b.classList.remove('active'));
+            this.classList.add('active');
+            
+            videoCards.forEach(card => {
+                if (filter === 'all' || card.dataset.category === filter) {
+                    card.style.display = 'block';
+                    card.style.animation = 'fadeInUp 0.5s ease-out';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        });
+    });
+    
+    // Tag cloud
+    const tags = document.querySelectorAll('.video-tag');
+    tags.forEach(tag => {
+        tag.addEventListener('click', function() {
+            tags.forEach(t => t.classList.remove('active'));
+            this.classList.add('active');
+        });
+    });
+})();
+</script>
 {{ end }}

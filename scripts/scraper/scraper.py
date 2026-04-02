@@ -113,7 +113,7 @@ def update_leaderboard():
     
     # 创建综合榜单索引
     leaderboard_index = {
-        "last_updated": datetime.now(timezone.utc).isoformat(),
+        "last_updated": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
         "sources": {
             "lmsys_arena": {
                 "name": "LMSYS Chatbot Arena",
@@ -232,7 +232,7 @@ def update_news():
     
     # 保存新闻数据
     news_data = {
-        "last_updated": datetime.now(timezone.utc).isoformat(),
+        "last_updated": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
         "count": len(all_news),
         "history_count": len(unique_news),  # 去重后的总历史数量
         "retention_days": 30,
@@ -285,7 +285,7 @@ def update_papers():
     
     # 保存论文数据
     papers_data = {
-        "last_updated": datetime.now(timezone.utc).isoformat(),
+        "last_updated": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
         "count": len(all_papers),
         "items": all_papers
     }
@@ -373,7 +373,7 @@ def update_videos():
     
     # 保存视频数据
     videos_data = {
-        "last_updated": datetime.now(timezone.utc).isoformat(),
+        "last_updated": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
         "count": len(all_videos),
         "history_count": len(unique_videos),
         "retention_count": 200,
@@ -656,7 +656,7 @@ def update_tutorials():
         
         # 构建数据
         tutorials_data = {
-            "last_updated": datetime.now(timezone.utc).isoformat(),
+            "last_updated": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
             "count": len(all_articles),
             "author": "heroybc",
             "source": "CSDN",
@@ -854,7 +854,7 @@ def update_investment():
         
         # 保存投资数据
         investment_data = {
-            "last_updated": datetime.now(timezone.utc).isoformat(),
+            "last_updated": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
             "count": len(all_items),
             "items": all_items
         }
@@ -1005,7 +1005,7 @@ def update_robotics():
         
         # 保存机器人数据
         robotics_data = {
-            "last_updated": datetime.now(timezone.utc).isoformat(),
+            "last_updated": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
             "count": len(all_items),
             "items": all_items
         }
@@ -1235,7 +1235,7 @@ def update_daily_summary():
     # 保存每日总结数据
     daily_data = {
         "date": today,
-        "last_updated": datetime.now(timezone.utc).isoformat(),
+        "last_updated": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
         "categories": {
             "ai": {
                 "name": "人工智能",
