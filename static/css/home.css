@@ -344,10 +344,9 @@
 }
 
 .galaxy-subtitle {
+    color: var(--text-muted);
     font-size: 0.9rem;
-    color: var(--text-secondary);
     margin: 0;
-    opacity: 0.8;
 }
 
 .galaxy-section::before {
