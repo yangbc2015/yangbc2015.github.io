@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-01T23:03:15.951225+00:00",
-  "count": 4,
+  "last_updated": "2026-04-02T00:11:56.517761+00:00",
+  "count": 8,
   "items": [
     {
       "title": "Automatic Identification of Parallelizable Loops Using Transformer-Based Source Code Representations",
@@ -65,6 +65,72 @@
       "categories": [
         "cs.CL",
         "cs.SD"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "OmniRoam: World Wandering via Long-Horizon Panoramic Video Generation",
+      "authors": "Yuheng Liu, Xin Lin, Xinke Li et al.",
+      "abstract": "Modeling scenes using video generation models has garnered growing research interest in recent years. However, most existing approaches rely on perspective video models that synthesize only limited observations of a scene, leading to issues of completeness and global consistency. We propose OmniRoam...",
+      "venue": "arXiv",
+      "date": "2026-03-31",
+      "arxiv_id": "2603.30045v1",
+      "url": "https://arxiv.org/abs/2603.30045v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.30045v1.pdf",
+      "categories": [
+        "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Video Models Reason Early: Exploiting Plan Commitment for Maze Solving",
+      "authors": "Kaleb Newman, Tyler Zhu, Olga Russakovsky",
+      "abstract": "Video diffusion models exhibit emergent reasoning capabilities like solving mazes and puzzles, yet little is understood about how they reason during generation. We take a first step towards understanding this and study the internal planning dynamics of video models using 2D maze solving as a control...",
+      "venue": "arXiv",
+      "date": "2026-03-31",
+      "arxiv_id": "2603.30043v1",
+      "url": "https://arxiv.org/abs/2603.30043v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.30043v1.pdf",
+      "categories": [
+        "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "HapCompass: A Rotational Haptic Device for Contact-Rich Robotic Teleoperation",
+      "authors": "Xiangshan Tan, Jingtian Ji, Tianchong Jiang et al.",
+      "abstract": "The contact-rich nature of manipulation makes it a significant challenge for robotic teleoperation. While haptic feedback is critical for contact-rich tasks, providing intuitive directional cues within wearable teleoperation interfaces remains a bottleneck. Existing solutions, such as non-directiona...",
+      "venue": "arXiv",
+      "date": "2026-03-31",
+      "arxiv_id": "2603.30042v1",
+      "url": "https://arxiv.org/abs/2603.30042v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.30042v1.pdf",
+      "categories": [
+        "cs.RO",
+        "cs.HC"
+      ],
+      "type": "ai",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Hybrid Framework for Robotic Manipulation: Integrating Reinforcement Learning and Large Language Models",
+      "authors": "Md Saad, Sajjad Hussain, Mohd Suhaib",
+      "abstract": "This paper introduces a new hybrid framework that combines Reinforcement Learning (RL) and Large Language Models (LLMs) to improve robotic manipulation tasks. By utilizing RL for accurate low-level control and LLMs for high level task planning and understanding of natural language, the proposed fram...",
+      "venue": "arXiv",
+      "date": "2026-03-31",
+      "arxiv_id": "2603.30022v1",
+      "url": "https://arxiv.org/abs/2603.30022v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.30022v1.pdf",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
       ],
       "type": "nlp",
       "badge": "arxiv",
