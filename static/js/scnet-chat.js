@@ -6,7 +6,6 @@
 (function() {
     'use strict';
 
-    // 创建提示元素（HTML，确保在最顶层）
     function createHint() {
         const hint = document.createElement('div');
         hint.id = 'ai-chat-hint';
@@ -30,12 +29,10 @@
                 align-items: center;
                 gap: 4px;
             }
-            
             #ai-chat-hint.visible {
                 opacity: 1;
                 transform: translate(-50%, -100%) scale(1);
             }
-            
             .ai-hint-glow {
                 position: absolute;
                 top: 50%;
@@ -46,7 +43,6 @@
                 background: radial-gradient(ellipse, rgba(0, 230, 118, 0.4) 0%, transparent 70%);
                 pointer-events: none;
             }
-            
             .ai-hint-text {
                 background: linear-gradient(135deg, rgba(0, 230, 118, 0.95), rgba(0, 200, 100, 0.95));
                 color: #000;
@@ -55,21 +51,16 @@
                 font-size: 14px;
                 font-weight: 600;
                 white-space: nowrap;
-                box-shadow: 
-                    0 4px 20px rgba(0, 230, 118, 0.4),
-                    0 0 0 1px rgba(0, 230, 118, 0.5),
-                    inset 0 1px 0 rgba(255, 255, 255, 0.3);
+                box-shadow: 0 4px 20px rgba(0, 230, 118, 0.4), 0 0 0 1px rgba(0, 230, 118, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.3);
                 text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
                 letter-spacing: 0.5px;
             }
-            
             .ai-hint-arrow {
                 color: rgba(0, 230, 118, 0.9);
                 font-size: 12px;
                 animation: ai-hint-bounce 1.5s ease-in-out infinite;
                 text-shadow: 0 0 10px rgba(0, 230, 118, 0.8);
             }
-            
             @keyframes ai-hint-bounce {
                 0%, 100% { transform: translateY(0); opacity: 0.8; }
                 50% { transform: translateY(4px); opacity: 1; }
@@ -80,7 +71,6 @@
         return hint;
     }
 
-    // 创建聊天窗口
     function createChatWidget() {
         const widget = document.createElement('div');
         widget.id = 'ai-chat-widget';
@@ -106,11 +96,15 @@
                     </button>
                 </div>
                 <div class="ai-chat-body">
+                    <div class="ai-chat-loading" id="ai-chat-loading">
+                        <div class="ai-loading-spinner"></div>
+                        <p>正在连接 AI 助手...</p>
+                    </div>
                     <iframe 
-                        src="https://www.scnet.cn/ui/chatbot/" 
+                        src="about:blank"
                         class="ai-chat-iframe"
+                        id="ai-chat-iframe"
                         sandbox="allow-scripts allow-same-origin allow-forms allow-popups"
-                        loading="lazy"
                     ></iframe>
                 </div>
             </div>
@@ -132,12 +126,10 @@
                 visibility: hidden;
                 transition: opacity 0.4s ease, visibility 0.4s ease;
             }
-            
             #ai-chat-widget.active {
                 opacity: 1;
                 visibility: visible;
             }
-            
             .ai-chat-overlay {
                 position: absolute;
                 top: 0;
@@ -148,12 +140,10 @@
                 backdrop-filter: blur(0px);
                 transition: all 0.4s ease;
             }
-            
             #ai-chat-widget.active .ai-chat-overlay {
                 background: rgba(0, 0, 0, 0.75);
                 backdrop-filter: blur(8px);
             }
-            
             .ai-chat-container {
                 position: relative;
                 width: 90vw;
@@ -169,17 +159,12 @@
                 transform: scale(0.9) translateY(30px);
                 opacity: 0;
                 transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
-                box-shadow: 
-                    0 25px 50px rgba(0, 0, 0, 0.6),
-                    0 0 0 1px rgba(0, 230, 118, 0.2),
-                    0 0 60px rgba(0, 230, 118, 0.15);
+                box-shadow: 0 25px 50px rgba(0, 0, 0, 0.6), 0 0 0 1px rgba(0, 230, 118, 0.2), 0 0 60px rgba(0, 230, 118, 0.15);
             }
-            
             #ai-chat-widget.active .ai-chat-container {
                 transform: scale(1) translateY(0);
                 opacity: 1;
             }
-            
             .ai-chat-header {
                 display: flex;
                 align-items: center;
@@ -189,7 +174,6 @@
                 border-bottom: 1px solid rgba(0, 230, 118, 0.2);
                 flex-shrink: 0;
             }
-            
             .ai-chat-avatar {
                 width: 40px;
                 height: 40px;
@@ -201,20 +185,17 @@
                 color: #000;
                 box-shadow: 0 4px 15px rgba(0, 230, 118, 0.35);
             }
-            
             .ai-chat-title-group {
                 flex: 1;
                 display: flex;
                 flex-direction: column;
                 gap: 2px;
             }
-            
             .ai-chat-title {
                 font-size: 15px;
                 font-weight: 600;
                 color: #fff;
             }
-            
             .ai-chat-status {
                 font-size: 11px;
                 color: #00e676;
@@ -222,7 +203,6 @@
                 align-items: center;
                 gap: 4px;
             }
-            
             .ai-chat-close {
                 background: rgba(255, 255, 255, 0.05);
                 border: none;
@@ -236,26 +216,59 @@
                 justify-content: center;
                 transition: all 0.2s;
             }
-            
             .ai-chat-close:hover {
                 background: rgba(255, 64, 129, 0.15);
                 color: #ff4081;
                 transform: rotate(90deg);
             }
-            
             .ai-chat-body {
                 flex: 1;
                 overflow: hidden;
                 position: relative;
+                background: #0d1117;
             }
-            
+            .ai-chat-loading {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap: 1rem;
+                color: rgba(255, 255, 255, 0.6);
+                font-size: 0.9rem;
+                z-index: 5;
+                transition: opacity 0.3s ease, visibility 0.3s ease;
+            }
+            .ai-chat-loading.hidden {
+                opacity: 0;
+                visibility: hidden;
+            }
+            .ai-loading-spinner {
+                width: 40px;
+                height: 40px;
+                border: 3px solid rgba(0, 230, 118, 0.2);
+                border-top-color: #00e676;
+                border-radius: 50%;
+                animation: ai-spinner 1s linear infinite;
+            }
+            @keyframes ai-spinner {
+                to { transform: rotate(360deg); }
+            }
             .ai-chat-iframe {
                 width: 100%;
                 height: 100%;
                 border: none;
                 background: #0d1117;
+                opacity: 0;
+                transition: opacity 0.5s ease;
             }
-            
+            .ai-chat-iframe.loaded {
+                opacity: 1;
+            }
             @media (max-width: 640px) {
                 .ai-chat-container {
                     width: 95vw;
@@ -263,7 +276,6 @@
                     max-height: none;
                     border-radius: 16px;
                 }
-                
                 .ai-chat-header {
                     padding: 12px 16px;
                 }
@@ -283,8 +295,9 @@
         const overlay = widget.querySelector('.ai-chat-overlay');
         const closeBtn = widget.querySelector('.ai-chat-close');
         const trigger = document.getElementById('center-ai-trigger');
+        const loading = document.getElementById('ai-chat-loading');
+        const iframe = document.getElementById('ai-chat-iframe');
 
-        // 提示位置更新
         function updateHintPosition() {
             if (!trigger) return;
             const rect = trigger.getBoundingClientRect();
@@ -298,22 +311,40 @@
             widget.classList.add('active');
             document.body.style.overflow = 'hidden';
             hint.classList.remove('visible');
+            
+            // 显示 loading，隐藏 iframe
+            loading.classList.remove('hidden');
+            iframe.classList.remove('loaded');
+            
+            // 加载 iframe
+            iframe.src = 'https://www.scnet.cn/ui/chatbot/';
+            
+            // iframe 加载完成后隐藏 loading
+            iframe.onload = () => {
+                setTimeout(() => {
+                    loading.classList.add('hidden');
+                    iframe.classList.add('loaded');
+                }, 500);
+            };
         }
 
         function closeChat() {
             widget.classList.remove('active');
             document.body.style.overflow = '';
+            setTimeout(() => {
+                iframe.src = 'about:blank';
+                loading.classList.remove('hidden');
+                iframe.classList.remove('loaded');
+            }, 400);
         }
 
         if (trigger) {
-            // 点击打开
             trigger.addEventListener('click', (e) => {
                 e.preventDefault();
                 e.stopPropagation();
                 openChat();
             });
 
-            // 鼠标悬停显示提示
             trigger.addEventListener('mouseenter', () => {
                 updateHintPosition();
                 trigger.style.filter = 'drop-shadow(0 0 40px rgba(0, 230, 118, 1)) brightness(1.2)';
@@ -325,7 +356,6 @@
                 hint.classList.remove('visible');
             });
 
-            // 初始位置
             updateHintPosition();
             window.addEventListener('resize', updateHintPosition);
             window.addEventListener('scroll', updateHintPosition);
