@@ -4853,21 +4853,12 @@
 .about-header-inner {
     max-width: 900px;
     margin: 0 auto;
-    display: flex;
-    align-items: center;
-    gap: 1rem;
 }
 
-.about-header-icon {
-    font-size: 2rem;
-    width: 50px;
-    height: 50px;
+.about-header-text {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    background: linear-gradient(135deg, var(--neon-green), var(--neon-blue));
-    border-radius: 12px;
-    box-shadow: 0 0 20px rgba(0, 230, 118, 0.2);
+    flex-direction: column;
+    gap: 0.25rem;
 }
 
 .about-header-title {
@@ -4881,7 +4872,7 @@
 .about-header-desc {
     font-size: 0.9rem;
     color: var(--text-secondary);
-    margin: 0.25rem 0 0 0;
+    margin: 0;
 }
 
 /* Section Styling */
@@ -5299,10 +5290,8 @@
         padding: 2rem 1rem 1.5rem;
     }
     
-    .about-header-inner {
-        flex-direction: column;
+    .about-header-text {
         text-align: center;
-        gap: 0.75rem;
     }
     
     .about-header-title {
