@@ -260,9 +260,11 @@
                         <th>排名</th>
                         <th>模型</th>
                         <th>MMLU Pro</th>
-                        <th>GPQA Diamond</th>
+                        <th>GPQA</th>
                         <th>SWE-bench</th>
-                        <th>MATH-500</th>
+                        <th>MATH</th>
+                        <th>AIME</th>
+                        <th>Code</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -276,14 +278,16 @@
                                 <div class="lb-model-icon">{{ .icon | default "🤖" }}</div>
                                 <div>
                                     <div class="lb-model-name">{{ .model }}</div>
-                                    <div class="lb-model-org">{{ .organization }}</div>
+                                    <div class="lb-model-org">{{ .organization }}{{ if .open_source }} · 开源{{ end }}</div>
                                 </div>
                             </div>
                         </td>
                         <td class="lb-score">{{ .mmlu_pro }}</td>
-                        <td class="lb-score">{{ .gpqa_diamond }}</td>
-                        <td class="lb-score">{{ .swe_bench }}</td>
-                        <td class="lb-score">{{ .math_500 }}</td>
+                        <td class="lb-score">{{ if eq .gpqa_diamond 0.0 }}—{{ else }}{{ .gpqa_diamond }}{{ end }}</td>
+                        <td class="lb-score">{{ if eq .swe_bench 0.0 }}—{{ else }}{{ .swe_bench }}{{ end }}</td>
+                        <td class="lb-score">{{ if eq .math_500 0.0 }}—{{ else }}{{ .math_500 }}{{ end }}</td>
+                        <td class="lb-score">{{ if eq .aime_2024 0.0 }}—{{ else }}{{ .aime_2024 }}{{ end }}</td>
+                        <td class="lb-score">{{ if eq .livecodebench 0.0 }}—{{ else }}{{ .livecodebench }}{{ end }}</td>
                     </tr>
                     {{ end }}
                 </tbody>
@@ -303,7 +307,7 @@
         <p><strong>LiveBench:</strong> 持续更新的硬核评测基准，定期更换测试数据防止训练数据污染，更真实反映模型能力。</p>
         <p><strong>OpenRouter:</strong> 基于实际 API 调用情况的模型使用统计排名，反映开发者对模型的真实选择和偏好。</p>
         <p><strong>SuperCLUE:</strong> 中文通用大模型综合性评测基准，覆盖基础能力、中文特性、专业能力等多维度。</p>
-        <p><strong>DataLearner:</strong> 综合AI模型性能排行榜，覆盖MMLU Pro、GPQA Diamond、SWE-bench等主流学术评测基准。</p>
+        <p><strong>DataLearner:</strong> 综合AI模型性能排行榜，覆盖 MMLU Pro、GPQA Diamond、SWE-bench Verified、MATH-500、AIME 2024、LiveCodeBench 等6项主流评测基准。</p>
         <p style="color: var(--neon-pink); margin-top: 1rem;">⚠️ 以上榜单数据每日自动更新</p>
     </div>
 </div>
