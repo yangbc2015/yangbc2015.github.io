@@ -993,3 +993,18 @@ footer {
         font-size: 0.75rem;
     }
 }
+
+/* ===== 不蒜子计数器隐藏 ===== */
+/* 隐藏不蒜子默认显示的计数器 */
+#busuanzi_value_site_pv,
+#busuanzi_value_site_uv,
+#busuanzi_container_site_pv,
+#busuanzi_container_site_uv,
+.busuanzi,
+[id^="busuanzi_"] {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    position: absolute !important;
+    z-index: -9999 !important;
+}
