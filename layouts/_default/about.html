@@ -139,7 +139,7 @@
                 <div class="stat-label" style="font-size: 0.85rem; color: var(--text-secondary);">分类数量</div>
             </div>
             <div class="stat-card" style="text-align: center; padding: 1.25rem; background: var(--dark-bg-secondary); border-radius: var(--radius-md); border: 1px solid var(--border-subtle);">
-                <div class="stat-number" style="font-size: 1.75rem; font-weight: 700; color: var(--neon-green); margin-bottom: 0.25rem;"><span id="busuanzi_value_site_uv">--</span></div>
+                <div class="stat-number" style="font-size: 1.75rem; font-weight: 700; color: var(--neon-green); margin-bottom: 0.25rem;"><span id="visitor-count-about">--</span></div>
                 <div class="stat-label" style="font-size: 0.85rem; color: var(--text-secondary);">访客数</div>
             </div>
         </div>
@@ -202,6 +202,9 @@
 
 <!-- 不蒜子访客统计 -->
 <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<span id="busuanzi_container_site_pv" style="display:none">
+    <span id="busuanzi_value_site_pv">--</span>
+</span>
 
 <script>
 // 提示使用 GitHub Issue
@@ -210,6 +213,60 @@ function showIssueHint() {
     if (useIssue) {
         window.open('https://github.com/yangbc2015/yangbc2015.github.io/issues/new', '_blank');
     }
+}
+
+// 访客数更新（与首页统一）
+function updateVisitorCount() {
+    const visitorCountAbout = document.getElementById('visitor-count-about');
+    if (!visitorCountAbout) return;
+    
+    let countDisplayed = false;
+    
+    function updateDisplay(count) {
+        if (countDisplayed) return;
+        countDisplayed = true;
+        visitorCountAbout.textContent = count.toLocaleString();
+    }
+    
+    function getBusuanziValue() {
+        const pvElement = document.getElementById('busuanzi_value_site_pv');
+        if (!pvElement) return null;
+        const text = pvElement.textContent.trim();
+        if (text && text !== '--' && text !== '') {
+            const count = parseInt(text.replace(/,/g, ''));
+            if (!isNaN(count) && count > 0) return count;
+        }
+        return null;
+    }
+    
+    function pollBusuanzi() {
+        const count = getBusuanziValue();
+        if (count !== null) {
+            updateDisplay(count);
+            return;
+        }
+        
+        if (document.getElementById('busuanzi_value_site_pv')) {
+            setTimeout(pollBusuanzi, 1000);
+        } else {
+            visitorCountAbout.textContent = '∞';
+        }
+    }
+    
+    const observer = new MutationObserver(() => {
+        const count = getBusuanziValue();
+        if (count !== null) {
+            updateDisplay(count);
+            observer.disconnect();
+        }
+    });
+    
+    const pvElement = document.getElementById('busuanzi_value_site_pv');
+    if (pvElement) {
+        observer.observe(pvElement, { childList: true, characterData: true, subtree: true });
+    }
+    
+    pollBusuanzi();
 }
 
 // 数字动画
@@ -246,6 +303,9 @@ function animateNumbers() {
 }
 
 // 页面加载完成后执行
-document.addEventListener('DOMContentLoaded', animateNumbers);
+document.addEventListener('DOMContentLoaded', () => {
+    animateNumbers();
+    updateVisitorCount();
+});
 </script>
 {{ end }}
