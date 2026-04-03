@@ -212,5 +212,8 @@
 </span>
 <script src="{{ "js/home.js" | relURL }}"></script>
 <!-- SCNet AI 聊天组件 -->
+<!-- 如需真实 AI 回复，部署 Cloudflare Worker 后取消下面这行的注释并填入你的 Worker 地址：
+<script>window.SCNET_WORKER_URL = 'https://你的-worker-地址.workers.dev';</script>
+-->
 <script src="{{ "js/scnet-chat.js" | relURL }}"></script>
 {{ end }}
