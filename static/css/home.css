@@ -327,7 +327,7 @@
 
 /* ===== Galaxy Section - Premium Design ===== */
 .galaxy-section {
-    padding: 4rem 1.5rem 6rem;
+    padding: 4rem 1.5rem 2rem;
     position: relative;
     background: linear-gradient(180deg, 
         transparent 0%, 
@@ -587,7 +587,7 @@
 
 /* ===== Map Section - Premium Design ===== */
 .map-banner {
-    padding: 5rem 1.5rem;
+    padding: 2rem 1.5rem 5rem;
     position: relative;
     background: linear-gradient(180deg, 
         transparent 0%, 
