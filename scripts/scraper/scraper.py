@@ -14,7 +14,7 @@ from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
 # 导入爬虫模块
-from lmsys_scraper import LMSYSScraper
+from berkeley_fc_scraper import BerkeleyFunctionCallingScraper
 from news_scraper import NewsScraper
 from papers_scraper import PapersScraper
 from videos_scraper import VideosScraper
@@ -89,8 +89,14 @@ def update_leaderboard():
     aa_scraper = ArtificialAnalysisScraper()
     aa_data = aa_scraper.fetch_leaderboard()
     
-    # 保存各个榜单
-    save_json(all_data["lmsys_arena"], LEADERBOARD_DIR / "lmsys_arena.json")
+    # 使用 Puppeteer 爬虫获取 Berkeley Function-Calling 榜单
+    print("\n  正在获取 Berkeley Function-Calling Leaderboard...")
+    berkeley_scraper = BerkeleyFunctionCallingScraper()
+    berkeley_data = berkeley_scraper.fetch_leaderboard()
+    save_json(berkeley_data, LEADERBOARD_DIR / "berkeley_fc.json")
+    print(f"  ✓ Berkeley Function-Calling 榜单已更新")
+    
+    # 保存其他榜单
     save_json(all_data["openrouter"], LEADERBOARD_DIR / "openrouter.json")
     save_json(aa_data, LEADERBOARD_DIR / "artificial_analysis.json")
     

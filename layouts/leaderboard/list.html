@@ -6,7 +6,7 @@
 
 {{ define "main" }}
 {{ $aaData := site.Data.leaderboard.artificial_analysis }}
-{{ $lmsysData := site.Data.leaderboard.lmsys_arena }}
+{{ $berkeleyData := site.Data.leaderboard.berkeley_fc }}
 {{ $dlData := site.Data.leaderboard.datalearner }}
 {{ $livebenchData := site.Data.leaderboard.livebench }}
 {{ $openrouterData := site.Data.leaderboard.openrouter }}
@@ -23,7 +23,7 @@
     
     <div class="lb-tabs">
         <button class="lb-tab active" data-tab="aa">Artificial Analysis</button>
-        <button class="lb-tab" data-tab="lmsys">LMSYS Arena</button>
+        <button class="lb-tab" data-tab="berkeley">Berkeley FC</button>
         <button class="lb-tab" data-tab="livebench">LiveBench</button>
         <button class="lb-tab" data-tab="openrouter">OpenRouter</button>
         <button class="lb-tab" data-tab="superclue">SuperCLUE</button>
@@ -75,20 +75,23 @@
         </p>
     </div>
 
-    <!-- LMSYS Chatbot Arena -->
-    <div class="lb-content" id="tab-lmsys">
+    <!-- Berkeley Function-Calling -->
+    <div class="lb-content" id="tab-berkeley">
         <div class="lb-table-wrapper">
             <table class="lb-table">
                 <thead>
                     <tr>
                         <th>排名</th>
                         <th>模型</th>
-                        <th>ELO 分数</th>
-                        <th>投票数</th>
+                        <th>综合得分</th>
+                        <th>简单</th>
+                        <th>多函数</th>
+                        <th>并行</th>
+                        <th>并行多函数</th>
                     </tr>
                 </thead>
                 <tbody>
-                    {{ range $lmsysData.models }}
+                    {{ range $berkeleyData.models }}
                     <tr>
                         <td class="lb-rank {{ if eq .rank 1 }}top-1{{ else if eq .rank 2 }}top-2{{ else if eq .rank 3 }}top-3{{ end }}">
                             {{ if eq .rank 1 }}🥇 {{ else if eq .rank 2 }}🥈 {{ else if eq .rank 3 }}🥉 {{ end }}{{ .rank }}
@@ -102,17 +105,20 @@
                                 </div>
                             </div>
                         </td>
-                        <td class="lb-score">{{ .elo | lang.FormatNumber 0 }}</td>
-                        <td>{{ .votes | lang.FormatNumber 0 }}</td>
+                        <td class="lb-score">{{ .overall }}</td>
+                        <td>{{ .simple }}</td>
+                        <td>{{ .multiple }}</td>
+                        <td>{{ .parallel }}</td>
+                        <td>{{ .parallel_multiple }}</td>
                     </tr>
                     {{ end }}
                 </tbody>
             </table>
         </div>
         <p class="lb-update-time">
-            最后更新: {{ slicestr $lmsysData.last_updated 0 10 }} | 
-            数据来源: <a href="{{ $lmsysData.source_url }}" target="_blank" style="color: var(--neon-green);">LMSYS Chatbot Arena</a>
-            <br><small style="opacity: 0.7;">{{ $lmsysData.description }}</small>
+            最后更新: {{ slicestr $berkeleyData.last_updated 0 10 }} | 
+            数据来源: <a href="{{ $berkeleyData.source_url }}" target="_blank" style="color: var(--neon-green);">Berkeley Function-Calling Leaderboard</a>
+            <br><small style="opacity: 0.7;">{{ $berkeleyData.description }}</small>
         </p>
     </div>
 
@@ -307,7 +313,7 @@
     <div class="lb-info">
         <h3>📊 关于榜单</h3>
         <p><strong>Artificial Analysis:</strong> 综合AI模型性能排行榜，基于智能指数、价格、输出速度、上下文窗口等多维度指标对100+模型进行评测。</p>
-        <p><strong>LMSYS Chatbot Arena:</strong> 基于人类偏好的众包评测平台，通过盲测对比不同模型的对话能力。ELO 分数反映模型的相对排名。</p>
+        <p><strong>Berkeley Function-Calling:</strong> 函数调用能力评测榜单，测试模型在API调用、工具使用、多轮对话中的函数调用准确性。</p>
         <p><strong>LiveBench:</strong> 持续更新的硬核评测基准，定期更换测试数据防止训练数据污染，更真实反映模型能力。</p>
         <p><strong>OpenRouter:</strong> 基于实际 API 调用情况的模型使用统计排名，反映开发者对模型的真实选择和偏好。</p>
         <p><strong>SuperCLUE:</strong> 中文通用大模型综合性评测基准，覆盖基础能力、中文特性、专业能力等多维度。</p>

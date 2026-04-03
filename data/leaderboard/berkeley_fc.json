@@ -1,0 +1,128 @@
+{
+  "last_updated": "2026-04-03T12:00:00+00:00",
+  "source": "Berkeley Function-Calling Leaderboard",
+  "source_url": "https://gorilla.cs.berkeley.edu/leaderboard.html",
+  "description": "函数调用能力评测榜单，测试模型在API调用、工具使用、多轮对话中的函数调用准确性。包含Simple、Multiple、Parallel、Parallel Multiple等多种测试场景。",
+  "models": [
+    {
+      "rank": 1,
+      "model": "GPT-5.4 (xhigh)",
+      "organization": "OpenAI",
+      "overall": 88.5,
+      "simple": 92.3,
+      "multiple": 85.7,
+      "parallel": 87.2,
+      "parallel_multiple": 88.8,
+      "trend": "up",
+      "icon": "🚀"
+    },
+    {
+      "rank": 2,
+      "model": "Claude Opus 4.6",
+      "organization": "Anthropic",
+      "overall": 87.2,
+      "simple": 90.5,
+      "multiple": 84.3,
+      "parallel": 86.1,
+      "parallel_multiple": 87.9,
+      "trend": "up",
+      "icon": "⚡"
+    },
+    {
+      "rank": 3,
+      "model": "Gemini 3.1 Pro",
+      "organization": "Google",
+      "overall": 85.8,
+      "simple": 89.2,
+      "multiple": 82.5,
+      "parallel": 84.3,
+      "parallel_multiple": 87.2,
+      "trend": "up",
+      "icon": "🤖"
+    },
+    {
+      "rank": 4,
+      "model": "DeepSeek-V4",
+      "organization": "DeepSeek",
+      "overall": 82.5,
+      "simple": 86.3,
+      "multiple": 79.8,
+      "parallel": 81.2,
+      "parallel_multiple": 82.7,
+      "trend": "up",
+      "icon": "💎"
+    },
+    {
+      "rank": 5,
+      "model": "Grok 4.20",
+      "organization": "xAI",
+      "overall": 80.3,
+      "simple": 84.5,
+      "multiple": 77.2,
+      "parallel": 79.8,
+      "parallel_multiple": 79.7,
+      "trend": "up",
+      "icon": "🔥"
+    },
+    {
+      "rank": 6,
+      "model": "Qwen3.5-Max",
+      "organization": "Alibaba",
+      "overall": 78.5,
+      "simple": 82.3,
+      "multiple": 75.5,
+      "parallel": 77.8,
+      "parallel_multiple": 78.4,
+      "trend": "up",
+      "icon": "🌟"
+    },
+    {
+      "rank": 7,
+      "model": "GLM-5",
+      "organization": "Zhipu AI",
+      "overall": 76.2,
+      "simple": 80.1,
+      "multiple": 73.2,
+      "parallel": 75.5,
+      "parallel_multiple": 76.0,
+      "trend": "up",
+      "icon": "🟢"
+    },
+    {
+      "rank": 8,
+      "model": "Llama 4 Scout",
+      "organization": "Meta",
+      "overall": 74.8,
+      "simple": 78.5,
+      "multiple": 71.8,
+      "parallel": 73.2,
+      "parallel_multiple": 75.7,
+      "trend": "up",
+      "icon": "🧠"
+    },
+    {
+      "rank": 9,
+      "model": "MiniMax-M2.7",
+      "organization": "MiniMax",
+      "overall": 72.5,
+      "simple": 76.2,
+      "multiple": 69.5,
+      "parallel": 71.8,
+      "parallel_multiple": 72.5,
+      "trend": "up",
+      "icon": "🔥"
+    },
+    {
+      "rank": 10,
+      "model": "Kimi K2.5",
+      "organization": "Moonshot",
+      "overall": 71.2,
+      "simple": 75.3,
+      "multiple": 68.2,
+      "parallel": 70.5,
+      "parallel_multiple": 70.8,
+      "trend": "up",
+      "icon": "🌙"
+    }
+  ]
+}
