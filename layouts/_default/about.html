@@ -139,8 +139,8 @@
                 <div class="stat-label" style="font-size: 0.85rem; color: var(--text-secondary);">分类数量</div>
             </div>
             <div class="stat-card" style="text-align: center; padding: 1.25rem; background: var(--dark-bg-secondary); border-radius: var(--radius-md); border: 1px solid var(--border-subtle);">
-                <div class="stat-number" style="font-size: 1.75rem; font-weight: 700; color: var(--neon-green); margin-bottom: 0.25rem;">{{ div (len $posts) 365 }}</div>
-                <div class="stat-label" style="font-size: 0.85rem; color: var(--text-secondary);">年沉淀</div>
+                <div class="stat-number" style="font-size: 1.75rem; font-weight: 700; color: var(--neon-green); margin-bottom: 0.25rem;"><span id="busuanzi_value_site_uv">--</span></div>
+                <div class="stat-label" style="font-size: 0.85rem; color: var(--text-secondary);">访客数</div>
             </div>
         </div>
         
@@ -199,6 +199,9 @@
     </section>
 
 </div>
+
+<!-- 不蒜子访客统计 -->
+<script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
 <script>
 // 提示使用 GitHub Issue
