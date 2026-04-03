@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-04-02",
-  "count": 70,
+  "last_updated": "2026-04-03",
+  "count": 74,
   "items": [
     {
       "title": "Figure AI发布新一代人形机器人Figure 02，具备更强的自主学习能力",
       "summary": "Figure AI发布新一代人形机器人Figure 02，搭载最新视觉-语言-动作(VLA)模型，在工厂和仓储场景实现更高水平的自主操作。",
       "url": "https://www.figure.ai",
-      "date": "2026-04-02",
+      "date": "2026-04-03",
       "source": "行业动态",
       "category": "具身智能",
       "type": "news",
@@ -20,7 +20,7 @@
       "title": "特斯拉Optimus人形机器人量产计划加速，预计2025年交付首批产品",
       "summary": "马斯克表示Optimus人形机器人量产计划正在加速，特斯拉工厂已开始测试机器人执行简单装配任务。",
       "url": "https://www.tesla.com/optimus",
-      "date": "2026-04-02",
+      "date": "2026-04-03",
       "source": "行业动态",
       "category": "具身智能",
       "type": "news",
@@ -35,7 +35,7 @@
       "title": "宇树科技发布Unitree G1人形机器人，价格9.9万元起",
       "summary": "宇树科技发布新一代人形机器人G1，身高约127cm，体重约35kg，具备23个自由度，面向教育和科研市场。",
       "url": "https://www.unitree.com",
-      "date": "2026-04-02",
+      "date": "2026-04-03",
       "source": "行业动态",
       "category": "具身智能",
       "type": "news",
@@ -49,7 +49,7 @@
       "title": "英伟达发布GR00T人形机器人基础模型，为机器人提供大脑",
       "summary": "NVIDIA发布人形机器人通用基础模型GR00T，结合Isaac Sim仿真平台，加速人形机器人开发。",
       "url": "https://developer.nvidia.com/isaac",
-      "date": "2026-04-02",
+      "date": "2026-04-03",
       "source": "行业动态",
       "category": "具身智能",
       "type": "news",
@@ -64,7 +64,7 @@
       "title": "智元机器人发布远征A2人形机器人，进入工业场景实测",
       "summary": "智元机器人发布远征A2人形机器人，已在汽车工厂进行实际生产任务测试，展示零部件装配能力。",
       "url": "https://www.zhiyuanrobot.com",
-      "date": "2026-04-02",
+      "date": "2026-04-03",
       "source": "行业动态",
       "category": "具身智能",
       "type": "news",
@@ -78,7 +78,7 @@
       "title": "波士顿动力Atlas机器人全面升级，电动版展现更强运动能力",
       "summary": "波士顿动力发布全电动版Atlas机器人，相比液压版本运动更加流畅，可完成后空翻等复杂动作。",
       "url": "https://bostondynamics.com/atlas",
-      "date": "2026-04-02",
+      "date": "2026-04-03",
       "source": "行业动态",
       "category": "具身智能",
       "type": "news",
@@ -86,6 +86,70 @@
         "机器人",
         "人形机器人",
         "波士顿动力"
+      ]
+    },
+    {
+      "title": "Stop Wandering: Efficient Vision-Language Navigation via Metacognitive Reasoning",
+      "summary": "Training-free Vision-Language Navigation (VLN) agents powered by foundation models can follow instructions and explore 3D environments. However, existing approaches rely on greedy frontier selection and passive spatial memory, leading to inefficient ...",
+      "url": "https://arxiv.org/abs/2604.02318v1",
+      "date": "2026-04-02",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.02318v1",
+      "authors": "Xueying Li, Feng Lyu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Deep Neural Network Based Roadwork Detection for Autonomous Driving",
+      "summary": "Road construction sites create major challenges for both autonomous vehicles and human drivers due to their highly dynamic and heterogeneous nature. This paper presents a real-time system that detects and localizes roadworks by combining a YOLO neura...",
+      "url": "https://arxiv.org/abs/2604.02282v1",
+      "date": "2026-04-02",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.02282v1",
+      "authors": "Sebastian Wullrich, Nicolai Steinke et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Model-Based Reinforcement Learning for Control under Time-Varying Dynamics",
+      "summary": "Learning-based control methods typically assume stationary system dynamics, an assumption often violated in real-world systems due to drift, wear, or changing operating conditions. We study reinforcement learning for control under time-varying dynami...",
+      "url": "https://arxiv.org/abs/2604.02260v1",
+      "date": "2026-04-02",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.02260v1",
+      "authors": "Klemens Iten, Bruce Lee et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "A virtual-variable-length method for robust inverse kinematics of multi-segment continuum robots",
+      "summary": "This paper proposes a new, robust method to solve the inverse kinematics (IK) of multi-segment continuum manipulators. Conventional Jacobian-based solvers, especially when initialized from neutral/rest configurations, often exhibit slow convergence a...",
+      "url": "https://arxiv.org/abs/2604.02256v1",
+      "date": "2026-04-02",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.02256v1",
+      "authors": "Weiting Feng, Federico Renda et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
       ]
     },
     {

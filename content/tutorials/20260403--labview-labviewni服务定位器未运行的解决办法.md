@@ -1,31 +1,31 @@
 ---
-title: 【AI系统】一文讲完CPU计算与调度机制
-date: '2026-04-02'
+title: 【Labview】LabviewNI服务定位器未运行的解决办法
+date: '2026-04-03'
 author: heroybc
 source: CSDN
-original_url: https://blog.csdn.net/heroybc/article/details/142493629
-category: AI系统
+original_url: https://blog.csdn.net/heroybc/article/details/89286194
+category: Labview
 level: intermediate
 views: '0'
-summary: AI系统相关技术文章
+summary: Labview相关技术文章
 tags:
-- AI系统
+- Labview
 - 教程
 - CSDN
 - 外部链接
-external_link: https://blog.csdn.net/heroybc/article/details/142493629
+external_link: https://blog.csdn.net/heroybc/article/details/89286194
 ---
 
 ## 📄 文章简介
 
-AI系统相关技术文章
+Labview相关技术文章
 
 ## 🔗 原文链接
 
 此文章为 **CSDN 精选转载**，点击下方按钮阅读原文：
 
 <p style="margin: 2rem 0;">
-<a href="https://blog.csdn.net/heroybc/article/details/142493629" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.75rem 1.5rem; background: linear-gradient(135deg, #fc5531, #ff6b35); color: white; text-decoration: none; border-radius: 8px; font-family: 'Orbitron', monospace; font-weight: 600;">
+<a href="https://blog.csdn.net/heroybc/article/details/89286194" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.75rem 1.5rem; background: linear-gradient(135deg, #fc5531, #ff6b35); color: white; text-decoration: none; border-radius: 8px; font-family: 'Orbitron', monospace; font-weight: 600;">
 <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm0 22c-5.523 0-10-4.477-10-10S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
 点击阅读 CSDN 原文 →
 </a>
@@ -38,10 +38,10 @@ AI系统相关技术文章
 | 项目 | 内容 |
 |------|------|
 | **作者** | heroybc |
-| **分类** | AI系统 |
+| **分类** | Labview |
 | **难度** | intermediate |
 | **阅读量** | 0 |
-| **发布日期** | 2026-04-02 |
+| **发布日期** | 2026-04-03 |
 | **来源** | [CSDN博客](https://blog.csdn.net/heroybc) |
 
 ---

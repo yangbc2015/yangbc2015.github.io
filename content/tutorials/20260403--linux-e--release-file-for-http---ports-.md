@@ -1,6 +1,6 @@
 ---
 title: '【Linux】E: Release file for http://ports.ubuntu.comxxInRelease is not valid关于时间设置的问题解决'
-date: '2026-04-02'
+date: '2026-04-03'
 author: heroybc
 source: CSDN
 original_url: https://blog.csdn.net/heroybc/article/details/101227557
@@ -41,7 +41,7 @@ Linux相关技术文章
 | **分类** | Linux |
 | **难度** | intermediate |
 | **阅读量** | 0 |
-| **发布日期** | 2026-04-02 |
+| **发布日期** | 2026-04-03 |
 | **来源** | [CSDN博客](https://blog.csdn.net/heroybc) |
 
 ---
