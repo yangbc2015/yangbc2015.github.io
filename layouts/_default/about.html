@@ -128,10 +128,67 @@
         </div>
     </section>
 
+    <!-- 内容归档 -->
+    <section class="about-section">
+        <div class="about-section-header">
+            <span class="section-number">04</span>
+            <h2 class="section-title">📊 内容归档</h2>
+        </div>
+        
+        {{ $allPages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
+        {{ $filteredPages := where $allPages "Type" "!=" "tutorials" }}
+        {{ $posts := $filteredPages.ByDate.Reverse }}
+        
+        <!-- 统计数据 -->
+        <div class="stats-summary" style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-bottom: 2rem;">
+            <div class="stat-card" style="text-align: center; padding: 1.25rem; background: var(--dark-bg-secondary); border-radius: var(--radius-md); border: 1px solid var(--border-subtle);">
+                <div class="stat-number" style="font-size: 1.75rem; font-weight: 700; color: var(--neon-green); margin-bottom: 0.25rem;" data-count="{{ len $posts }}">{{ len $posts }}</div>
+                <div class="stat-label" style="font-size: 0.85rem; color: var(--text-secondary);">文章总数</div>
+            </div>
+            <div class="stat-card" style="text-align: center; padding: 1.25rem; background: var(--dark-bg-secondary); border-radius: var(--radius-md); border: 1px solid var(--border-subtle);">
+                <div class="stat-number" style="font-size: 1.75rem; font-weight: 700; color: var(--neon-green); margin-bottom: 0.25rem;" data-count="{{ len .Site.Taxonomies.tags }}">{{ len .Site.Taxonomies.tags }}</div>
+                <div class="stat-label" style="font-size: 0.85rem; color: var(--text-secondary);">标签数量</div>
+            </div>
+            <div class="stat-card" style="text-align: center; padding: 1.25rem; background: var(--dark-bg-secondary); border-radius: var(--radius-md); border: 1px solid var(--border-subtle);">
+                <div class="stat-number" style="font-size: 1.75rem; font-weight: 700; color: var(--neon-green); margin-bottom: 0.25rem;" data-count="{{ len .Site.Taxonomies.categories }}">{{ len .Site.Taxonomies.categories }}</div>
+                <div class="stat-label" style="font-size: 0.85rem; color: var(--text-secondary);">分类数量</div>
+            </div>
+            <div class="stat-card" style="text-align: center; padding: 1.25rem; background: var(--dark-bg-secondary); border-radius: var(--radius-md); border: 1px solid var(--border-subtle);">
+                <div class="stat-number" style="font-size: 1.75rem; font-weight: 700; color: var(--neon-green); margin-bottom: 0.25rem;">{{ div (len $posts) 365 }}</div>
+                <div class="stat-label" style="font-size: 0.85rem; color: var(--text-secondary);">年沉淀</div>
+            </div>
+        </div>
+        
+        <!-- 时间线 -->
+        <div class="timeline" style="max-height: 400px; overflow-y: auto; padding-right: 0.5rem;">
+            {{ range $posts.GroupByDate "2006" }}
+            <div class="timeline-year" style="margin-bottom: 1.5rem;">
+                <h3 class="year-title" style="font-size: 1.1rem; color: var(--neon-green); margin-bottom: 0.75rem; padding-bottom: 0.5rem; border-bottom: 1px solid var(--border-subtle);">
+                    {{ .Key }}
+                    <span style="font-size: 0.85rem; color: var(--text-muted); margin-left: 0.5rem;">({{ len .Pages }} 篇)</span>
+                </h3>
+                <ul class="timeline-items" style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 0.5rem;">
+                    {{ range first 5 .Pages }}
+                    <li class="timeline-item" style="display: flex; align-items: baseline; gap: 0.75rem; font-size: 0.9rem;">
+                        <span class="item-date" style="color: var(--text-muted); font-size: 0.8rem; min-width: 45px;">{{ .Date.Format "01-02" }}</span>
+                        <a href="{{ .RelPermalink }}" class="item-link" style="color: var(--text-primary); text-decoration: none; flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">{{ .Title }}</a>
+                    </li>
+                    {{ end }}
+                    {{ if gt (len .Pages) 5 }}
+                    <li style="text-align: center; padding: 0.5rem;">
+                        <a href="/archive/" style="color: var(--neon-green); font-size: 0.85rem; text-decoration: none;">查看全部 {{ len .Pages }} 篇 →</a>
+                    </li>
+                    {{ end }}
+                </ul>
+            </div>
+            {{ end }}
+        </div>
+    </section>
+
     <!-- 联系方式 -->
     <section class="about-section about-contact-section">
         <div class="about-section-header">
-            <span class="section-number">04</span>
+            <span class="section-number">05</span>
             <h2 class="section-title">取得联系</h2>
         </div>
         <div class="about-contact">
