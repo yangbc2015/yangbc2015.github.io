@@ -214,10 +214,12 @@
                     <tr>
                         <th>排名</th>
                         <th>模型</th>
-                        <th>综合得分</th>
-                        <th>推理能力</th>
-                        <th>中文特性</th>
-                        <th>专业能力</th>
+                        <th>综合</th>
+                        <th>中文</th>
+                        <th>基础</th>
+                        <th>推理</th>
+                        <th>代码</th>
+                        <th>数学</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -231,14 +233,16 @@
                                 <div class="lb-model-icon">{{ .icon | default "🤖" }}</div>
                                 <div>
                                     <div class="lb-model-name">{{ .model }}</div>
-                                    <div class="lb-model-org">{{ .organization }}</div>
+                                    <div class="lb-model-org">{{ .organization }}{{ if .open_source }} · 开源{{ end }}</div>
                                 </div>
                             </div>
                         </td>
                         <td class="lb-score">{{ .overall }}</td>
-                        <td>{{ .reasoning }}</td>
                         <td>{{ .chinese }}</td>
-                        <td>{{ .professional }}</td>
+                        <td>{{ .basic }}</td>
+                        <td>{{ .reasoning }}</td>
+                        <td>{{ .coding }}</td>
+                        <td>{{ .math }}</td>
                     </tr>
                     {{ end }}
                 </tbody>
