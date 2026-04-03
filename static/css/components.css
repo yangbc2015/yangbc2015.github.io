@@ -5157,11 +5157,6 @@
     background: linear-gradient(180deg, transparent 0%, rgba(0, 229, 255, 0.02) 50%, transparent 100%);
 }
 
-.contact-intro {
-    text-align: center;
-    color: var(--text-secondary);
-    margin-bottom: 1.5rem;
-}
 
 .contact-grid {
     display: grid;

@@ -161,9 +161,6 @@
             <h2 class="section-title">取得联系</h2>
         </div>
         <div class="about-contact">
-            <div class="contact-intro">
-                <p>有问题或建议？欢迎通过以下方式联系我，或者直接在本页底部留言。</p>
-            </div>
             <div class="contact-grid">
                 <a href="https://github.com/yangbc2015" target="_blank" rel="noopener" class="contact-item contact-github">
                     <div class="contact-item-icon">
@@ -172,10 +169,10 @@
                     <div class="contact-item-label">GitHub</div>
                     <div class="contact-item-value">@yangbc2015</div>
                 </a>
-                <div class="contact-item contact-message" onclick="scrollToComments()">
+                <div class="contact-item contact-message" onclick="showIssueHint()">
                     <div class="contact-item-icon">💬</div>
                     <div class="contact-item-label">留言</div>
-                    <div class="contact-item-value">页面底部评论</div>
+                    <div class="contact-item-value">通过 Issue 反馈</div>
                 </div>
                 <a href="https://github.com/yangbc2015/yangbc2015.github.io/issues/new" target="_blank" rel="noopener" class="contact-item contact-issue">
                     <div class="contact-item-icon">📧</div>
@@ -186,52 +183,14 @@
         </div>
     </section>
 
-    <!-- 评论区 -->
-    {{ if .Site.Params.features.comments }}
-    <section class="about-comments" id="comments">
-        <div class="about-section-header">
-            <span class="section-number">06</span>
-            <h2 class="section-title">留言板</h2>
-        </div>
-        <div class="comments-intro">
-            <p>💬 欢迎在这里留下你的想法、建议或问题。如果你发现了 bug，也可以直接 <a href="https://github.com/yangbc2015/yangbc2015.github.io/issues/new" target="_blank" rel="noopener">创建 GitHub Issue</a>。</p>
-        </div>
-        {{ if .Site.Params.giscus.repo }}
-        <script src="https://giscus.app/client.js"
-            data-repo="{{ .Site.Params.giscus.repo }}"
-            data-repo-id="{{ .Site.Params.giscus.repoId }}"
-            data-category="{{ .Site.Params.giscus.category }}"
-            data-category-id="{{ .Site.Params.giscus.categoryId }}"
-            data-mapping="{{ .Site.Params.giscus.mapping }}"
-            data-strict="0"
-            data-reactions-enabled="{{ .Site.Params.giscus.reactionsEnabled }}"
-            data-emit-metadata="{{ .Site.Params.giscus.emitMetadata }}"
-            data-input-position="bottom"
-            data-theme="{{ .Site.Params.giscus.theme }}"
-            data-lang="{{ .Site.Params.giscus.lang }}"
-            crossorigin="anonymous"
-            async>
-        </script>
-        {{ else }}
-        <div class="comments-placeholder">
-            <p>💡 评论区需要配置 Giscus</p>
-            <p style="font-size: 0.85rem; margin-top: 0.5rem;">在 <code>hugo.toml</code> 中配置 <code>params.giscus</code> 以启用评论功能</p>
-        </div>
-        {{ end }}
-    </section>
-    {{ end }}
 </div>
 
 <script>
-// 滚动到评论区
-function scrollToComments() {
-    const commentsSection = document.getElementById('comments');
-    if (commentsSection) {
-        commentsSection.scrollIntoView({ behavior: 'smooth' });
-        commentsSection.classList.add('highlight');
-        setTimeout(() => {
-            commentsSection.classList.remove('highlight');
-        }, 2000);
+// 提示使用 GitHub Issue
+function showIssueHint() {
+    const useIssue = confirm('💬 页面留言功能暂未开放\n\n是否跳转到 GitHub Issue 提交反馈？');
+    if (useIssue) {
+        window.open('https://github.com/yangbc2015/yangbc2015.github.io/issues/new', '_blank');
     }
 }
 
