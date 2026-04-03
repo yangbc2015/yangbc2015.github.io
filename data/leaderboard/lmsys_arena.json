@@ -1,108 +1,108 @@
 {
+  "last_updated": "2026-04-03T08:51:58.185004+00:00",
   "source": "LMSYS Chatbot Arena",
   "source_url": "https://chat.lmsys.org",
-  "description": "基于人类偏好的众包评测平台，通过盲测对比不同模型的对话能力",
+  "description": "基于人类偏好的众包评测平台，通过盲测对比不同模型的对话能力。ELO分数反映模型在盲测中的相对排名。",
   "models": [
     {
       "rank": 1,
-      "model": "Claude 4.5 Opus",
-      "organization": "Anthropic",
-      "elo": 1521,
-      "trend": "up",
-      "trend_value": 18,
-      "votes": 125430,
-      "icon": "⚡"
-    },
-    {
-      "rank": 2,
-      "model": "GPT-4.5",
-      "organization": "OpenAI",
-      "elo": 1518,
-      "trend": "same",
-      "trend_value": 0,
-      "votes": 143210,
-      "icon": "🚀"
-    },
-    {
-      "rank": 3,
-      "model": "Gemini 2.5 Pro",
+      "model": "Gemini 3.1 Pro Preview",
       "organization": "Google",
-      "elo": 1505,
+      "elo": 1525,
       "trend": "up",
       "trend_value": 12,
       "votes": 98760,
       "icon": "🤖"
     },
     {
-      "rank": 4,
-      "model": "Grok-3 (Thinking)",
-      "organization": "xAI",
-      "elo": 1480,
+      "rank": 2,
+      "model": "GPT-5.4 (xhigh)",
+      "organization": "OpenAI",
+      "elo": 1518,
       "trend": "up",
-      "trend_value": 35,
+      "trend_value": 8,
+      "votes": 120543,
+      "icon": "🚀"
+    },
+    {
+      "rank": 3,
+      "model": "Claude Opus 4.6 (max)",
+      "organization": "Anthropic",
+      "elo": 1508,
+      "trend": "up",
+      "trend_value": 15,
+      "votes": 89230,
+      "icon": "⚡"
+    },
+    {
+      "rank": 4,
+      "model": "Grok 4.20 Beta",
+      "organization": "xAI",
+      "elo": 1485,
+      "trend": "up",
+      "trend_value": 28,
       "votes": 76540,
       "icon": "🔥"
     },
     {
       "rank": 5,
-      "model": "DeepSeek-V3",
-      "organization": "DeepSeek",
-      "elo": 1415,
+      "model": "GPT-5.3 Codex",
+      "organization": "OpenAI",
+      "elo": 1475,
       "trend": "up",
-      "trend_value": 28,
-      "votes": 89230,
-      "icon": "💎"
+      "trend_value": 5,
+      "votes": 105432,
+      "icon": "🚀"
     },
     {
       "rank": 6,
-      "model": "Llama 3.3 70B",
-      "organization": "Meta",
-      "elo": 1392,
+      "model": "DeepSeek-V4",
+      "organization": "DeepSeek",
+      "elo": 1415,
       "trend": "up",
-      "trend_value": 15,
+      "trend_value": 22,
       "votes": 67890,
-      "icon": "🧠"
+      "icon": "💎"
     },
     {
       "rank": 7,
-      "model": "Claude 3.5 Sonnet",
+      "model": "Claude Sonnet 4.6",
       "organization": "Anthropic",
-      "elo": 1385,
-      "trend": "same",
-      "trend_value": 0,
+      "elo": 1405,
+      "trend": "up",
+      "trend_value": 10,
       "votes": 54320,
       "icon": "⚡"
     },
     {
       "rank": 8,
-      "model": "GPT-4o",
-      "organization": "OpenAI",
-      "elo": 1368,
-      "trend": "down",
-      "trend_value": -8,
-      "votes": 156780,
-      "icon": "🚀"
-    },
-    {
-      "rank": 9,
-      "model": "Qwen2.5-Max",
-      "organization": "Alibaba",
-      "elo": 1352,
+      "model": "GLM-5",
+      "organization": "Z AI",
+      "elo": 1385,
       "trend": "up",
-      "trend_value": 22,
+      "trend_value": 18,
       "votes": 45670,
       "icon": "🌟"
     },
     {
-      "rank": 10,
-      "model": "Kimi k1.5",
-      "organization": "Moonshot",
-      "elo": 1345,
+      "rank": 9,
+      "model": "MiniMax-M2.7",
+      "organization": "MiniMax",
+      "elo": 1365,
       "trend": "up",
-      "trend_value": 14,
+      "trend_value": 25,
       "votes": 38920,
-      "icon": "🌙"
+      "icon": "🎯"
+    },
+    {
+      "rank": 10,
+      "model": "GPT-4o",
+      "organization": "OpenAI",
+      "elo": 1345,
+      "trend": "down",
+      "trend_value": -5,
+      "votes": 156780,
+      "icon": "🚀"
     }
-  ],
-  "last_updated": "2026-04-03T08:46:25.606492+00:00"
+  ]
 }
