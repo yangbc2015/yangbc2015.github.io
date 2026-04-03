@@ -373,15 +373,23 @@
     box-shadow: 0 0 20px rgba(0, 230, 118, 0.2);
 }
 
-.music-float-icon {
+.music-icon {
     width: 20px;
     height: 20px;
+    display: none;
+}
+
+.music-icon svg {
+    width: 100%;
+    height: 100%;
+}
+
+.music-icon.playing {
     color: var(--neon-green);
 }
 
-.music-float-icon svg {
-    width: 100%;
-    height: 100%;
+.music-icon.paused {
+    color: var(--neon-blue);
 }
 
 /* ===== Visitor Float ===== */
