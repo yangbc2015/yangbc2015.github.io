@@ -98,10 +98,6 @@ title = 'AI漫游 | AI Wander'
     url = '/videos/'
     weight = 70
   [[menu.main]]
-    name = '📊 归档'
-    url = '/archive/'
-    weight = 80
-  [[menu.main]]
     name = '👤 关于我'
     url = '/about/'
     weight = 90
