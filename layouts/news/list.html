@@ -28,7 +28,7 @@
         {{/* 优先显示爬取的数据 */}}
         {{ if $newsData.items }}
             {{ range $newsData.items }}
-            <article class="news-card {{ if eq .type "breakthrough" }}highlight{{ end }}" data-type="{{ .type }}">
+            <a href="{{ .link }}" target="_blank" rel="noopener noreferrer" class="news-card {{ if eq .type "breakthrough" }}highlight{{ end }}" data-type="{{ .type }}">
                 <div class="news-meta">
                     <span class="news-date">{{ .date }}</span>
                     <span class="news-tag {{ if eq .type "breakthrough" }}breakthrough{{ end }}">
@@ -38,9 +38,7 @@
                         {{ else }}🏢 行业{{ end }}
                     </span>
                 </div>
-                <h2 class="news-card-title">
-                    <a href="{{ .link }}" target="_blank">{{ .title }}</a>
-                </h2>
+                <h2 class="news-card-title">{{ .title }}</h2>
                 <p class="news-summary">{{ .summary }}</p>
                 <div class="news-source">
                     <span class="news-source-icon">🔗</span>
@@ -53,14 +51,14 @@
                     {{ end }}
                 </div>
                 {{ end }}
-            </article>
+            </a>
             {{ end }}
         {{ end }}
         
         {{/* 如果没有爬取的数据，显示 Hugo 内容文件 */}}
         {{ if not $newsData.items }}
             {{ range .Pages }}
-            <article class="news-card {{ if eq .Params.type "breakthrough" }}highlight{{ end }}" data-type="{{ .Params.type }}">
+            <a href="{{ .Params.link | default .RelPermalink }}" target="{{ if .Params.link }}_blank{{ else }}_self{{ end }}" rel="noopener noreferrer" class="news-card {{ if eq .Params.type "breakthrough" }}highlight{{ end }}" data-type="{{ .Params.type }}">
                 <div class="news-meta">
                     <span class="news-date">{{ .Date.Format "2006-01-02" }}</span>
                     <span class="news-tag {{ if eq .Params.type "breakthrough" }}breakthrough{{ end }}">
@@ -70,46 +68,40 @@
                         {{ else }}🏢 行业{{ end }}
                     </span>
                 </div>
-                <h2 class="news-card-title">
-                    <a href="{{ .Params.link | default .RelPermalink }}" target="{{ if .Params.link }}_blank{{ else }}_self{{ end }}">{{ .Title }}</a>
-                </h2>
+                <h2 class="news-card-title">{{ .Title }}</h2>
                 <p class="news-summary">{{ .Summary }}</p>
                 <div class="news-source">
                     <span class="news-source-icon">🔗</span>
                     <span>{{ .Params.source | default "AI漫游" }}</span>
                 </div>
-            </article>
+            </a>
             {{ else }}
             <!-- 示例新闻 -->
-            <article class="news-card highlight" data-type="breakthrough">
+            <a href="https://deepmind.google/technologies/gemini/" target="_blank" rel="noopener noreferrer" class="news-card highlight" data-type="breakthrough">
                 <div class="news-meta">
                     <span class="news-date">2026-03-20</span>
                     <span class="news-tag breakthrough">🚀 突破</span>
                 </div>
-                <h2 class="news-card-title">
-                    <a href="https://deepmind.google/technologies/gemini/" target="_blank">Gemini 2.5 Pro 发布，代码能力大幅提升</a>
-                </h2>
+                <h2 class="news-card-title">Gemini 2.5 Pro 发布，代码能力大幅提升</h2>
                 <p class="news-summary">Google 发布 Gemini 2.5 Pro，在多项基准测试中超越 GPT-4，尤其在代码生成和数学推理方面表现突出...</p>
                 <div class="news-source">
                     <span class="news-source-icon">🔗</span>
                     <span>Google DeepMind</span>
                 </div>
-            </article>
+            </a>
 
-            <article class="news-card" data-type="product">
+            <a href="https://www.anthropic.com/" target="_blank" rel="noopener noreferrer" class="news-card" data-type="product">
                 <div class="news-meta">
                     <span class="news-date">2026-03-19</span>
                     <span class="news-tag">📦 产品</span>
                 </div>
-                <h2 class="news-card-title">
-                    <a href="https://www.anthropic.com/" target="_blank">Claude 4 即将发布，Anthropic 确认多模态能力</a>
-                </h2>
+                <h2 class="news-card-title">Claude 4 即将发布，Anthropic 确认多模态能力</h2>
                 <p class="news-summary">Anthropic CEO 确认 Claude 4 正在开发中，将具备强大的多模态理解和生成能力...</p>
                 <div class="news-source">
                     <span class="news-source-icon">🔗</span>
                     <span>Anthropic</span>
                 </div>
-            </article>
+            </a>
             {{ end }}
         {{ end }}
     </div>

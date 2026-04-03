@@ -1131,6 +1131,10 @@
     transition: all 0.3s ease;
     position: relative;
     overflow: hidden;
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
 }
 
 .news-card::before {
@@ -1200,15 +1204,11 @@
     font-weight: 600;
     margin-bottom: 0.6rem;
     line-height: 1.4;
-}
-
-.news-card-title a {
     color: var(--text-primary);
-    text-decoration: none;
     transition: color 0.3s ease;
 }
 
-.news-card-title a:hover {
+.news-card:hover .news-card-title {
     color: var(--neon-green);
 }
 
