@@ -1,12 +1,73 @@
 {
-  "date": "2026-04-02",
-  "last_updated": "2026-04-02",
+  "date": "2026-04-03",
+  "last_updated": "2026-04-03",
   "categories": {
     "ai": {
       "name": "人工智能",
       "icon": "🤖",
-      "count": 0,
-      "items": []
+      "count": 5,
+      "items": [
+        {
+          "title": "Markdown Content:",
+          "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+          "summary": "Markdown Content:...",
+          "date": "2026-04-02",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "ColaVLA：自动驾驶大模型，不一定非要把「思考过程」写成文字",
+          "link": "https://www.jiqizhixin.com/search/articles/ColaVLA：自动驾驶大模型",
+          "summary": "ColaVLA：自动驾驶大模型，不一定非要把「思考过程」写成文字...",
+          "date": "2026-04-02",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "ICLR 2026｜EgoNight：当天黑下来，第一人称视觉模型 还能“看懂”世界吗？",
+          "link": "https://www.jiqizhixin.com/search/articles/ICLR 2026｜EgoNi",
+          "summary": "ICLR 2026｜EgoNight：当天黑下来，第一人称视觉模型 还能“看懂”世界吗？...",
+          "date": "2026-04-02",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "悟空率先接入国产最强编程模型Qwen3.6-Plus",
+          "link": "https://www.jiqizhixin.com/search/articles/悟空率先接入国产最强编程模型Q",
+          "summary": "悟空率先接入国产最强编程模型Qwen3.6-Plus...",
+          "date": "2026-04-02",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "应对智能体安全风险，蚂蚁集团与清华大学联合开源防御插件ClawAegis",
+          "link": "https://www.jiqizhixin.com/search/articles/应对智能体安全风险，蚂蚁集团与",
+          "summary": "应对智能体安全风险，蚂蚁集团与清华大学联合开源防御插件ClawAegis...",
+          "date": "2026-04-02",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        }
+      ]
     },
     "economy": {
       "name": "宏观经济",

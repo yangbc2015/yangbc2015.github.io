@@ -1,9 +1,66 @@
 {
-  "last_updated": "2026-04-02",
-  "count": 23,
-  "history_count": 23,
+  "last_updated": "2026-04-03",
+  "count": 24,
+  "history_count": 24,
   "retention_count": 200,
   "items": [
+    {
+      "title": "强化学习入门: Q-Learning",
+      "speaker": "Sentdex",
+      "description": "从零开始学习强化学习基础",
+      "duration": "15:30",
+      "views": "456K",
+      "platform": "youtube",
+      "video_id": "yMk_XtIEzH8",
+      "url": "https://www.youtube.com/watch?v=yMk_XtIEzH8",
+      "thumbnail": "https://img.youtube.com/vi/yMk_XtIEzH8/mqdefault.jpg",
+      "type": "tutorial",
+      "category": "AI教程",
+      "date": "2026-04-02"
+    },
+    {
+      "title": "OpenAI GPT-4o 多模态能力解析",
+      "speaker": "OpenAI",
+      "description": "GPT-4o 原生多模态能力的深度解读",
+      "duration": "32:00",
+      "views": "2.1M",
+      "platform": "youtube",
+      "video_id": "M6v8dzV1-7g",
+      "url": "https://www.youtube.com/watch?v=M6v8dzV1-7g",
+      "thumbnail": "https://img.youtube.com/vi/M6v8dzV1-7g/mqdefault.jpg",
+      "type": "lecture",
+      "category": "前沿技术",
+      "date": "2026-04-02"
+    },
+    {
+      "title": "Transformer 注意力机制详解",
+      "speaker": "Yannic Kilcher",
+      "description": "深入解析 Transformer 架构的核心机制",
+      "duration": "32:15",
+      "views": "1.2M",
+      "platform": "youtube",
+      "video_id": "iDulhoQ2pro",
+      "url": "https://www.youtube.com/watch?v=iDulhoQ2pro",
+      "thumbnail": "https://img.youtube.com/vi/iDulhoQ2pro/mqdefault.jpg",
+      "type": "lecture",
+      "category": "技术讲座",
+      "date": "2026-04-01"
+    },
+    {
+      "title": "Andrej Karpathy: 神经网络入门到精通",
+      "speaker": "Andrej Karpathy",
+      "description": "前 Tesla AI 总监的经典教程，从零开始构建神经网络",
+      "duration": "4:12:35",
+      "views": "2.3M",
+      "platform": "youtube",
+      "video_id": "VMj-3S1tku0",
+      "url": "https://www.youtube.com/watch?v=VMj-3S1tku0",
+      "thumbnail": "https://img.youtube.com/vi/VMj-3S1tku0/mqdefault.jpg",
+      "type": "course",
+      "category": "精品课程",
+      "featured": true,
+      "date": "2026-04-01"
+    },
     {
       "title": "Mamba 架构: Transformer 的替代者?",
       "speaker": "Albert Gu",
@@ -31,6 +88,34 @@
       "type": "course",
       "category": "精品课程",
       "date": "2026-04-01"
+    },
+    {
+      "title": "GPT-4 技术原理解析",
+      "speaker": "OpenAI",
+      "description": "深入理解 GPT-4 的架构和训练方法",
+      "duration": "45:20",
+      "views": "890K",
+      "platform": "youtube",
+      "video_id": "SxHRQvJ7P6Y",
+      "url": "https://www.youtube.com/watch?v=SxHRQvJ7P6Y",
+      "thumbnail": "https://img.youtube.com/vi/SxHRQvJ7P6Y/mqdefault.jpg",
+      "type": "lecture",
+      "category": "技术讲座",
+      "date": "2026-03-31"
+    },
+    {
+      "title": "3Blue1Brown: 深度学习之神经网络",
+      "speaker": "3Blue1Brown",
+      "description": "用精美动画解释神经网络的工作原理",
+      "duration": "19:15",
+      "views": "3.1M",
+      "platform": "youtube",
+      "video_id": "aircAruvnKk",
+      "url": "https://www.youtube.com/watch?v=aircAruvnKk",
+      "thumbnail": "https://img.youtube.com/vi/aircAruvnKk/mqdefault.jpg",
+      "type": "lecture",
+      "category": "技术讲座",
+      "date": "2026-03-31"
     },
     {
       "title": "LoRA: 大模型高效微调技术",
@@ -61,20 +146,6 @@
       "date": "2026-03-31"
     },
     {
-      "title": "强化学习入门: Q-Learning",
-      "speaker": "Sentdex",
-      "description": "从零开始学习强化学习基础",
-      "duration": "15:30",
-      "views": "456K",
-      "platform": "youtube",
-      "video_id": "yMk_XtIEzH8",
-      "url": "https://www.youtube.com/watch?v=yMk_XtIEzH8",
-      "thumbnail": "https://img.youtube.com/vi/yMk_XtIEzH8/mqdefault.jpg",
-      "type": "tutorial",
-      "category": "AI教程",
-      "date": "2026-03-31"
-    },
-    {
       "title": "AI Agent 架构设计模式",
       "speaker": "LangChain",
       "description": "构建自主 AI 代理的最佳实践",
@@ -86,7 +157,7 @@
       "thumbnail": "https://img.youtube.com/vi/mFMBb8Xw6yQ/mqdefault.jpg",
       "type": "tutorial",
       "category": "AI教程",
-      "date": "2026-03-31"
+      "date": "2026-03-30"
     },
     {
       "title": "Vision Transformer 详解",
@@ -103,18 +174,18 @@
       "date": "2026-03-30"
     },
     {
-      "title": "GPT-4 技术原理解析",
-      "speaker": "OpenAI",
-      "description": "深入理解 GPT-4 的架构和训练方法",
-      "duration": "45:20",
-      "views": "890K",
+      "title": "Diffusion 模型工作原理",
+      "speaker": "Two Minute Papers",
+      "description": "快速了解扩散模型如何生成图像",
+      "duration": "5:20",
+      "views": "1.5M",
       "platform": "youtube",
-      "video_id": "SxHRQvJ7P6Y",
-      "url": "https://www.youtube.com/watch?v=SxHRQvJ7P6Y",
-      "thumbnail": "https://img.youtube.com/vi/SxHRQvJ7P6Y/mqdefault.jpg",
+      "video_id": "fbLgFrlTnGU",
+      "url": "https://www.youtube.com/watch?v=fbLgFrlTnGU",
+      "thumbnail": "https://img.youtube.com/vi/fbLgFrlTnGU/mqdefault.jpg",
       "type": "lecture",
       "category": "技术讲座",
-      "date": "2026-03-30"
+      "date": "2026-03-29"
     },
     {
       "title": "BERT 模型详解与应用",
@@ -128,21 +199,7 @@
       "thumbnail": "https://img.youtube.com/vi/xI0HHN5XKDo/mqdefault.jpg",
       "type": "lecture",
       "category": "技术讲座",
-      "date": "2026-03-30"
-    },
-    {
-      "title": "Transformer 注意力机制详解",
-      "speaker": "Yannic Kilcher",
-      "description": "深入解析 Transformer 架构的核心机制",
-      "duration": "32:15",
-      "views": "1.2M",
-      "platform": "youtube",
-      "video_id": "iDulhoQ2pro",
-      "url": "https://www.youtube.com/watch?v=iDulhoQ2pro",
-      "thumbnail": "https://img.youtube.com/vi/iDulhoQ2pro/mqdefault.jpg",
-      "type": "lecture",
-      "category": "技术讲座",
-      "date": "2026-03-29"
+      "date": "2026-03-28"
     },
     {
       "title": "Fast.ai: 程序员深度学习实战",
@@ -156,49 +213,7 @@
       "thumbnail": "https://img.youtube.com/vi/8mcTqN1D1-g/mqdefault.jpg",
       "type": "course",
       "category": "精品课程",
-      "date": "2026-03-28"
-    },
-    {
-      "title": "3Blue1Brown: 深度学习之神经网络",
-      "speaker": "3Blue1Brown",
-      "description": "用精美动画解释神经网络的工作原理",
-      "duration": "19:15",
-      "views": "3.1M",
-      "platform": "youtube",
-      "video_id": "aircAruvnKk",
-      "url": "https://www.youtube.com/watch?v=aircAruvnKk",
-      "thumbnail": "https://img.youtube.com/vi/aircAruvnKk/mqdefault.jpg",
-      "type": "lecture",
-      "category": "技术讲座",
       "date": "2026-03-27"
-    },
-    {
-      "title": "Diffusion 模型工作原理",
-      "speaker": "Two Minute Papers",
-      "description": "快速了解扩散模型如何生成图像",
-      "duration": "5:20",
-      "views": "1.5M",
-      "platform": "youtube",
-      "video_id": "fbLgFrlTnGU",
-      "url": "https://www.youtube.com/watch?v=fbLgFrlTnGU",
-      "thumbnail": "https://img.youtube.com/vi/fbLgFrlTnGU/mqdefault.jpg",
-      "type": "lecture",
-      "category": "技术讲座",
-      "date": "2026-03-27"
-    },
-    {
-      "title": "OpenAI GPT-4o 多模态能力解析",
-      "speaker": "OpenAI",
-      "description": "GPT-4o 原生多模态能力的深度解读",
-      "duration": "32:00",
-      "views": "2.1M",
-      "platform": "youtube",
-      "video_id": "M6v8dzV1-7g",
-      "url": "https://www.youtube.com/watch?v=M6v8dzV1-7g",
-      "thumbnail": "https://img.youtube.com/vi/M6v8dzV1-7g/mqdefault.jpg",
-      "type": "lecture",
-      "category": "前沿技术",
-      "date": "2026-03-26"
     },
     {
       "title": "李宏毅机器学习完整版",
@@ -206,7 +221,7 @@
       "description": "台湾大学教授的机器学习经典课程，深入浅出讲解ML核心概念",
       "duration": "45:00",
       "views": "1.8M",
-      "date": "2026-03-26",
+      "date": "2026-03-27",
       "platform": "bilibili",
       "video_id": "BV1JE411g7XF",
       "url": "https://www.bilibili.com/video/BV1JE411g7XF",
@@ -216,19 +231,18 @@
       "featured": true
     },
     {
-      "title": "Andrej Karpathy: 神经网络入门到精通",
-      "speaker": "Andrej Karpathy",
-      "description": "前 Tesla AI 总监的经典教程，从零开始构建神经网络",
-      "duration": "4:12:35",
-      "views": "2.3M",
+      "title": "Escher's most mind-bending piece",
+      "speaker": "3Blue1Brown",
+      "description": "On \"The Print Gallery\", by M.C. Escher\nFull video: https://youtu.be/ldxFjLJ3rVY",
+      "duration": "--:--",
+      "views": "--",
+      "date": "2026-03-27",
       "platform": "youtube",
-      "video_id": "VMj-3S1tku0",
-      "url": "https://www.youtube.com/watch?v=VMj-3S1tku0",
-      "thumbnail": "https://img.youtube.com/vi/VMj-3S1tku0/mqdefault.jpg",
-      "type": "course",
-      "category": "精品课程",
-      "featured": true,
-      "date": "2026-03-26"
+      "video_id": "Y7ImxZ_YhJk",
+      "url": "https://www.youtube.com/watch?v=Y7ImxZ_YhJk",
+      "thumbnail": "https://img.youtube.com/vi/Y7ImxZ_YhJk/mqdefault.jpg",
+      "type": "lecture",
+      "category": "技术讲座"
     },
     {
       "title": "The subset sum puzzle",
@@ -278,7 +292,7 @@
       "description": "AWS 首席科学家李沐的深度学习实战课程",
       "duration": "60:00",
       "views": "2.1M",
-      "date": "2026-03-19",
+      "date": "2026-03-20",
       "platform": "bilibili",
       "video_id": "BV1k64y1Q7wu",
       "url": "https://www.bilibili.com/video/BV1k64y1Q7wu",
