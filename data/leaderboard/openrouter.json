@@ -2,69 +2,166 @@
   "last_updated": "2026-04-03T12:00:00+00:00",
   "source": "OpenRouter",
   "source_url": "https://openrouter.ai/rankings",
-  "description": "基于实际API调用情况的模型使用统计排名，反映开发者对模型的真实选择和偏好",
+  "description": "OpenRouter 模型使用统计排行榜，基于实际 API 调用的 token 量排名，反映开发者的真实使用偏好",
   "models": [
     {
       "rank": 1,
-      "model": "GPT-5.4 (xhigh)",
-      "organization": "OpenAI",
-      "usage_share": 28.5,
-      "requests_per_day": 1250000,
-      "avg_latency": 1250,
-      "icon": "🚀"
+      "model": "MiMo-V2-Pro",
+      "organization": "xiaomi",
+      "tokens": "4.79T",
+      "change": "46%",
+      "icon": "🎯"
     },
     {
       "rank": 2,
-      "model": "Claude 4.5 Opus",
-      "organization": "Anthropic",
-      "usage_share": 22.3,
-      "requests_per_day": 980000,
-      "avg_latency": 1450,
-      "icon": "⚡"
+      "model": "Qwen3.6 Plus Preview (free)",
+      "organization": "qwen",
+      "tokens": "1.64T",
+      "change": "new",
+      "icon": "🌟"
     },
     {
       "rank": 3,
-      "model": "Gemini 3.1 Pro Preview",
-      "organization": "Google",
-      "usage_share": 18.5,
-      "requests_per_day": 820000,
-      "avg_latency": 980,
-      "icon": "🤖"
+      "model": "Step 3.5 Flash (free)",
+      "organization": "stepfun",
+      "tokens": "1.38T",
+      "change": "10%",
+      "icon": "⚡"
     },
     {
       "rank": 4,
-      "model": "DeepSeek-V4",
-      "organization": "DeepSeek",
-      "usage_share": 12.5,
-      "requests_per_day": 550000,
-      "avg_latency": 850,
-      "icon": "💎"
-    },
-    {
-      "rank": 5,
-      "model": "Grok 4.20 Beta",
-      "organization": "xAI",
-      "usage_share": 8.2,
-      "requests_per_day": 360000,
-      "avg_latency": 1100,
+      "model": "MiniMax M2.7",
+      "organization": "minimax",
+      "tokens": "1.34T",
+      "change": "24%",
       "icon": "🔥"
     },
     {
+      "rank": 5,
+      "model": "DeepSeek V3.2",
+      "organization": "deepseek",
+      "tokens": "1.21T",
+      "change": "1%",
+      "icon": "💎"
+    },
+    {
       "rank": 6,
-      "model": "GPT-4o",
-      "organization": "OpenAI",
-      "usage_share": 6.5,
-      "requests_per_day": 285000,
-      "avg_latency": 650,
-      "icon": "🚀"
+      "model": "Claude Opus 4.6",
+      "organization": "anthropic",
+      "tokens": "1.02T",
+      "change": "1%",
+      "icon": "⚡"
     },
     {
       "rank": 7,
-      "model": "Claude 3.5 Sonnet",
-      "organization": "Anthropic",
-      "usage_share": 3.5,
-      "requests_per_day": 155000,
-      "avg_latency": 580,
+      "model": "Claude Sonnet 4.6",
+      "organization": "anthropic",
+      "tokens": "1.01T",
+      "change": "0%",
+      "icon": "⚡"
+    },
+    {
+      "rank": 8,
+      "model": "Gemini 3 Flash Preview",
+      "organization": "google",
+      "tokens": "979B",
+      "change": "3%",
+      "icon": "🤖"
+    },
+    {
+      "rank": 9,
+      "model": "GLM 5 Turbo",
+      "organization": "z-ai",
+      "tokens": "900B",
+      "change": "13%",
+      "icon": "🟢"
+    },
+    {
+      "rank": 10,
+      "model": "Grok 4.1 Fast",
+      "organization": "x-ai",
+      "tokens": "820B",
+      "change": "51%",
+      "icon": "🔥"
+    },
+    {
+      "rank": 11,
+      "model": "MiniMax M2.5",
+      "organization": "minimax",
+      "tokens": "690B",
+      "change": "34%",
+      "icon": "🔥"
+    },
+    {
+      "rank": 12,
+      "model": "MiMo-V2-Omni",
+      "organization": "xiaomi",
+      "tokens": "604B",
+      "change": "26%",
+      "icon": "🎯"
+    },
+    {
+      "rank": 13,
+      "model": "Gemini 2.5 Flash Lite",
+      "organization": "google",
+      "tokens": "527B",
+      "change": "5%",
+      "icon": "🤖"
+    },
+    {
+      "rank": 14,
+      "model": "Nemotron 3 Super (free)",
+      "organization": "nvidia",
+      "tokens": "513B",
+      "change": "5%",
+      "icon": "🟢"
+    },
+    {
+      "rank": 15,
+      "model": "Kimi K2.5",
+      "organization": "moonshotai",
+      "tokens": "512B",
+      "change": "4%",
+      "icon": "🌙"
+    },
+    {
+      "rank": 16,
+      "model": "Gemini 2.5 Flash",
+      "organization": "google",
+      "tokens": "505B",
+      "change": "5%",
+      "icon": "🤖"
+    },
+    {
+      "rank": 17,
+      "model": "gpt-oss-120b",
+      "organization": "openai",
+      "tokens": "464B",
+      "change": "8%",
+      "icon": "🚀"
+    },
+    {
+      "rank": 18,
+      "model": "GLM 5",
+      "organization": "z-ai",
+      "tokens": "401B",
+      "change": "34%",
+      "icon": "🟢"
+    },
+    {
+      "rank": 19,
+      "model": "GPT-5.4",
+      "organization": "openai",
+      "tokens": "338B",
+      "change": "3%",
+      "icon": "🚀"
+    },
+    {
+      "rank": 20,
+      "model": "Claude Sonnet 4.5",
+      "organization": "anthropic",
+      "tokens": "337B",
+      "change": "1%",
       "icon": "⚡"
     }
   ]

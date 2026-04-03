@@ -177,9 +177,8 @@
                     <tr>
                         <th>排名</th>
                         <th>模型</th>
-                        <th>使用占比</th>
-                        <th>日调用量</th>
-                        <th>平均延迟</th>
+                        <th>Token 量</th>
+                        <th>环比</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -197,9 +196,8 @@
                                 </div>
                             </div>
                         </td>
-                        <td class="lb-score">{{ .usage_share }}%</td>
-                        <td>{{ .requests_per_day | lang.FormatNumber 0 }}</td>
-                        <td>{{ div .avg_latency 1000 }}s</td>
+                        <td class="lb-score">{{ .tokens }}</td>
+                        <td>{{ .change }}</td>
                     </tr>
                     {{ end }}
                 </tbody>
