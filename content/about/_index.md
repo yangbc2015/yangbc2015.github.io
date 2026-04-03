@@ -32,11 +32,11 @@ layout: "about"
 
 ## 🤝 友链交换
 
-欢迎交换友链！添加本站后通过 [GitHub Issue](https://github.com/yangbc2015/yangbc2015.github.io/issues/new) 提交申请。
+**本站**：AI漫游 | https://yangbc2015.github.io
 
-**本站信息**：AI漫游 | https://yangbc2015.github.io | 专注AI领域的研究站
+**要求**：AI/技术相关站点，请先添加本站友链
 
-**要求**：AI/技术相关站点，原创内容，已添加本站友链
+**申请**：[提交 GitHub Issue](https://github.com/yangbc2015/yangbc2015.github.io/issues/new)
 
 ---
 
