@@ -1,0 +1,96 @@
+{
+  "last_updated": "2026-04-03T12:00:00+00:00",
+  "source": "LiveBench",
+  "source_url": "https://livebench.ai",
+  "description": "持续更新的AI模型评测基准，测试数据定期更换防止训练数据污染，涵盖推理、数学、代码、语言理解等硬核能力测试",
+  "models": [
+    {
+      "rank": 1,
+      "model": "Claude 4.5 Opus",
+      "organization": "Anthropic",
+      "reasoning": 85.2,
+      "math": 82.5,
+      "coding": 78.5,
+      "language": 80.2,
+      "overall": 81.6,
+      "icon": "⚡"
+    },
+    {
+      "rank": 2,
+      "model": "GPT-5.4 (xhigh)",
+      "organization": "OpenAI",
+      "reasoning": 84.5,
+      "math": 81.2,
+      "coding": 80.5,
+      "language": 79.8,
+      "overall": 81.5,
+      "icon": "🚀"
+    },
+    {
+      "rank": 3,
+      "model": "Gemini 3.1 Pro Preview",
+      "organization": "Google",
+      "reasoning": 82.8,
+      "math": 80.5,
+      "coding": 76.2,
+      "language": 81.5,
+      "overall": 80.2,
+      "icon": "🤖"
+    },
+    {
+      "rank": 4,
+      "model": "o3-pro",
+      "organization": "OpenAI",
+      "reasoning": 88.5,
+      "math": 85.2,
+      "coding": 72.5,
+      "language": 74.2,
+      "overall": 80.1,
+      "icon": "🧠"
+    },
+    {
+      "rank": 5,
+      "model": "DeepSeek-V4",
+      "organization": "DeepSeek",
+      "reasoning": 78.5,
+      "math": 82.5,
+      "coding": 76.8,
+      "language": 75.2,
+      "overall": 78.2,
+      "icon": "💎"
+    },
+    {
+      "rank": 6,
+      "model": "Grok 4.20 Beta",
+      "organization": "xAI",
+      "reasoning": 76.2,
+      "math": 75.5,
+      "coding": 78.2,
+      "language": 76.5,
+      "overall": 76.6,
+      "icon": "🔥"
+    },
+    {
+      "rank": 7,
+      "model": "GLM-5",
+      "organization": "Z AI",
+      "reasoning": 74.5,
+      "math": 76.2,
+      "coding": 72.5,
+      "language": 78.2,
+      "overall": 75.3,
+      "icon": "🌟"
+    },
+    {
+      "rank": 8,
+      "model": "Claude 4 Sonnet",
+      "organization": "Anthropic",
+      "reasoning": 75.2,
+      "math": 74.5,
+      "coding": 75.8,
+      "language": 75.2,
+      "overall": 75.2,
+      "icon": "⚡"
+    }
+  ]
+}

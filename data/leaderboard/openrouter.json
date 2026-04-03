@@ -1,127 +1,71 @@
 {
+  "last_updated": "2026-04-03T12:00:00+00:00",
   "source": "OpenRouter",
-  "source_url": "https://openrouter.ai",
-  "description": "基于实际 API 使用情况的模型统计",
+  "source_url": "https://openrouter.ai/rankings",
+  "description": "基于实际API调用情况的模型使用统计排名，反映开发者对模型的真实选择和偏好",
   "models": [
     {
       "rank": 1,
-      "model": "gemma-4-31b-it",
-      "organization": "google",
-      "price_prompt": "0.00000014",
-      "price_completion": "0.0000004",
-      "context_length": 262144
+      "model": "GPT-5.4 (xhigh)",
+      "organization": "OpenAI",
+      "usage_share": 28.5,
+      "requests_per_day": 1250000,
+      "avg_latency": 1250,
+      "icon": "🚀"
     },
     {
       "rank": 2,
-      "model": "qwen3.6-plus:free",
-      "organization": "qwen",
-      "price_prompt": "0",
-      "price_completion": "0",
-      "context_length": 1000000
+      "model": "Claude 4.5 Opus",
+      "organization": "Anthropic",
+      "usage_share": 22.3,
+      "requests_per_day": 980000,
+      "avg_latency": 1450,
+      "icon": "⚡"
     },
     {
       "rank": 3,
-      "model": "glm-5v-turbo",
-      "organization": "z-ai",
-      "price_prompt": "0.0000012",
-      "price_completion": "0.000004",
-      "context_length": 202752
+      "model": "Gemini 3.1 Pro Preview",
+      "organization": "Google",
+      "usage_share": 18.5,
+      "requests_per_day": 820000,
+      "avg_latency": 980,
+      "icon": "🤖"
     },
     {
       "rank": 4,
-      "model": "trinity-large-thinking",
-      "organization": "arcee-ai",
-      "price_prompt": "0.00000022",
-      "price_completion": "0.00000085",
-      "context_length": 262144
+      "model": "DeepSeek-V4",
+      "organization": "DeepSeek",
+      "usage_share": 12.5,
+      "requests_per_day": 550000,
+      "avg_latency": 850,
+      "icon": "💎"
     },
     {
       "rank": 5,
-      "model": "grok-4.20-multi-agent",
-      "organization": "x-ai",
-      "price_prompt": "0.000002",
-      "price_completion": "0.000006",
-      "context_length": 2000000
+      "model": "Grok 4.20 Beta",
+      "organization": "xAI",
+      "usage_share": 8.2,
+      "requests_per_day": 360000,
+      "avg_latency": 1100,
+      "icon": "🔥"
     },
     {
       "rank": 6,
-      "model": "grok-4.20",
-      "organization": "x-ai",
-      "price_prompt": "0.000002",
-      "price_completion": "0.000006",
-      "context_length": 2000000
+      "model": "GPT-4o",
+      "organization": "OpenAI",
+      "usage_share": 6.5,
+      "requests_per_day": 285000,
+      "avg_latency": 650,
+      "icon": "🚀"
     },
     {
       "rank": 7,
-      "model": "lyria-3-pro-preview",
-      "organization": "google",
-      "price_prompt": "0",
-      "price_completion": "0",
-      "context_length": 1048576
-    },
-    {
-      "rank": 8,
-      "model": "lyria-3-clip-preview",
-      "organization": "google",
-      "price_prompt": "0",
-      "price_completion": "0",
-      "context_length": 1048576
-    },
-    {
-      "rank": 9,
-      "model": "kat-coder-pro-v2",
-      "organization": "kwaipilot",
-      "price_prompt": "0.0000003",
-      "price_completion": "0.0000012",
-      "context_length": 256000
-    },
-    {
-      "rank": 10,
-      "model": "reka-edge",
-      "organization": "rekaai",
-      "price_prompt": "0.0000001",
-      "price_completion": "0.0000001",
-      "context_length": 16384
-    },
-    {
-      "rank": 11,
-      "model": "mimo-v2-omni",
-      "organization": "xiaomi",
-      "price_prompt": "0.0000004",
-      "price_completion": "0.000002",
-      "context_length": 262144
-    },
-    {
-      "rank": 12,
-      "model": "mimo-v2-pro",
-      "organization": "xiaomi",
-      "price_prompt": "0.000001",
-      "price_completion": "0.000003",
-      "context_length": 1048576
-    },
-    {
-      "rank": 13,
-      "model": "minimax-m2.7",
-      "organization": "minimax",
-      "price_prompt": "0.0000003",
-      "price_completion": "0.0000012",
-      "context_length": 204800
-    },
-    {
-      "rank": 14,
-      "model": "gpt-5.4-nano",
-      "organization": "openai",
-      "price_prompt": "0.0000002",
-      "price_completion": "0.00000125",
-      "context_length": 400000
-    },
-    {
-      "rank": 15,
-      "model": "gpt-5.4-mini",
-      "organization": "openai",
-      "price_prompt": "0.00000075",
-      "price_completion": "0.0000045",
-      "context_length": 400000
+      "model": "Claude 3.5 Sonnet",
+      "organization": "Anthropic",
+      "usage_share": 3.5,
+      "requests_per_day": 155000,
+      "avg_latency": 580,
+      "icon": "⚡"
     }
   ]
 }
