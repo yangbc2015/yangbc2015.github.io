@@ -384,6 +384,45 @@
     height: 100%;
 }
 
+/* ===== Visitor Float ===== */
+.visitor-float {
+    position: fixed;
+    bottom: 2rem;
+    left: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.875rem 1.25rem;
+    background: rgba(13, 17, 23, 0.9);
+    border: 1px solid rgba(0, 230, 118, 0.3);
+    border-radius: 50px;
+    color: var(--text-primary);
+    font-size: 0.875rem;
+    backdrop-filter: blur(10px);
+    z-index: 100;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.visitor-float-icon {
+    width: 20px;
+    height: 20px;
+    color: var(--neon-green);
+}
+
+.visitor-float-icon svg {
+    width: 100%;
+    height: 100%;
+}
+
+.visitor-float-text {
+    color: var(--text-secondary);
+}
+
+.visitor-count {
+    color: var(--neon-green);
+    font-weight: 600;
+}
+
 /* ===== AI Chat Widget ===== */
 #scnet-chat-widget {
     position: fixed;
