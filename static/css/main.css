@@ -1026,3 +1026,11 @@ footer {
     opacity: 1;
     text-shadow: 0 0 10px var(--neon-green-glow);
 }
+
+/* ===== 页脚版权信息 ===== */
+.footer-copyright {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    margin-top: 0.5rem;
+    opacity: 0.6;
+}
