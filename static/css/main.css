@@ -457,7 +457,7 @@ footer {
 /* ===== Back to Top ===== */
 .back-to-top {
     position: fixed;
-    bottom: 2rem;
+    bottom: 6rem;
     right: 2rem;
     width: 48px;
     height: 48px;
@@ -973,7 +973,7 @@ footer {
     }
 
     .back-to-top {
-        bottom: 1.2rem;
+        bottom: 5.5rem;
         right: 1.2rem;
         width: 42px;
         height: 42px;
