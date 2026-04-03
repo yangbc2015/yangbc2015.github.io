@@ -13,7 +13,7 @@
             <div class="scnet-chat-overlay"></div>
             <div class="scnet-chat-container">
                 <div class="scnet-chat-header">
-                    <div class="scnet-chat-avatar">🤖</div>
+                    <div class="scnet-chat-avatar">✦</div>
                     <div class="scnet-chat-title-group">
                         <span class="scnet-chat-title">SCNet AI 助手</span>
                         <span class="scnet-chat-subtitle">国家超算互联网平台</span>
@@ -122,7 +122,9 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                font-size: 24px;
+                font-size: 22px;
+                color: #000;
+                font-weight: bold;
                 box-shadow: 0 4px 20px rgba(0, 230, 118, 0.4);
                 flex-shrink: 0;
             }
@@ -214,7 +216,6 @@
         document.body.appendChild(widget);
 
         const overlay = widget.querySelector('.scnet-chat-overlay');
-        const container = widget.querySelector('.scnet-chat-container');
         const closeBtn = widget.querySelector('.scnet-chat-close');
 
         function openChat() {
@@ -229,18 +230,30 @@
 
         // 绑定到中心 AI 图标
         const trigger = document.getElementById('center-ai-trigger');
+        const hintLabel = document.getElementById('ai-hint-label');
+        
         if (trigger) {
+            // 点击打开
             trigger.addEventListener('click', (e) => {
+                e.preventDefault();
                 e.stopPropagation();
                 openChat();
             });
             
-            // 添加悬停效果
+            // 鼠标进入显示提示
             trigger.addEventListener('mouseenter', () => {
-                trigger.style.filter = 'drop-shadow(0 0 20px rgba(0, 230, 118, 0.8))';
+                trigger.style.filter = 'drop-shadow(0 0 30px rgba(0, 230, 118, 1))';
+                if (hintLabel) {
+                    hintLabel.setAttribute('opacity', '1');
+                }
             });
+            
+            // 鼠标离开隐藏提示
             trigger.addEventListener('mouseleave', () => {
                 trigger.style.filter = '';
+                if (hintLabel) {
+                    hintLabel.setAttribute('opacity', '0');
+                }
             });
         }
 
