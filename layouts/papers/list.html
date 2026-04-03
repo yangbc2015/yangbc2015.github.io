@@ -6,15 +6,15 @@
 
 {{ define "main" }}
 {{ $papersData := site.Data.papers }}
+{{ $staticPapers := where .Site.RegularPages "Type" "papers" }}
 
 {{ partial "page-header.html" . }}
 
 <div class="section-container" style="padding-top: 1rem;">
-    {{ if $papersData.last_updated }}
     <div class="papers-update-info">
-        论文数据自动更新于 {{ slicestr $papersData.last_updated 0 10 }} | 共 {{ $papersData.count }} 篇论文
+        {{ if $papersData.last_updated }}数据更新于 {{ slicestr $papersData.last_updated 0 10 }} | {{ end }}
+        共 {{ len $staticPapers }} 篇经典论文 + {{ $papersData.count }} 篇最新论文
     </div>
-    {{ end }}
 
     <!-- 会议时间线 -->
     <div class="papers-section">
@@ -42,6 +42,34 @@
                 <div class="conf-date">2026年12月</div>
                 <span class="conf-status upcoming">即将开始</span>
             </div>
+        </div>
+    </div>
+
+    <!-- 经典论文 -->
+    <div class="papers-section">
+        <div class="section-header">
+            <h2 class="section-title">📚 经典论文</h2>
+            <span class="section-more">{{ len $staticPapers }} 篇</span>
+        </div>
+        <div class="papers-grid">
+            {{ range $staticPapers }}
+            <article class="paper-card">
+                <span class="paper-badge {{ .Params.paper_type }}">{{ .Params.venue }}</span>
+                <h3 class="paper-title">
+                    <a href="{{ .Params.arxiv_url }}" target="_blank">{{ .Title }}</a>
+                </h3>
+                <p class="paper-authors">{{ .Params.authors }}</p>
+                <p class="paper-venue">{{ .Params.arxiv_id }}</p>
+                <p class="paper-abstract">{{ .Summary | plainify | truncate 200 }}</p>
+                <div class="paper-links">
+                    {{ if .Params.pdf_url }}<a href="{{ .Params.pdf_url }}" class="paper-link" target="_blank">📄 PDF</a>{{ end }}
+                    <a href="{{ .Params.arxiv_url }}" class="paper-link" target="_blank">🔗 详情</a>
+                    {{ range .Params.categories }}
+                    <span class="paper-link" style="cursor: default;">{{ . }}</span>
+                    {{ end }}
+                </div>
+            </article>
+            {{ end }}
         </div>
     </div>
 
