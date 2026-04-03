@@ -39,33 +39,73 @@
                 <div class="friend-item-avatar" style="background: linear-gradient(135deg, #667eea, #764ba2);">🧠</div>
                 <div class="friend-item-content">
                     <div class="friend-item-name">机器之心</div>
-                    <div class="friend-item-desc">国内领先的 AI 媒体，提供前沿 AI 资讯与深度技术解读</div>
                 </div>
-                <div class="friend-item-arrow">→</div>
             </a>
             <a href="https://paperswithcode.com" target="_blank" rel="noopener" class="friend-item">
                 <div class="friend-item-avatar" style="background: linear-gradient(135deg, #f093fb, #f5576c);">📄</div>
                 <div class="friend-item-content">
                     <div class="friend-item-name">Papers with Code</div>
-                    <div class="friend-item-desc">机器学习论文与代码实现平台，追踪最新研究进展</div>
                 </div>
-                <div class="friend-item-arrow">→</div>
             </a>
             <a href="https://karpathy.ai" target="_blank" rel="noopener" class="friend-item">
                 <div class="friend-item-avatar" style="background: linear-gradient(135deg, #4facfe, #00f2fe);">🚀</div>
                 <div class="friend-item-content">
                     <div class="friend-item-name">Andrej Karpathy</div>
-                    <div class="friend-item-desc">前 Tesla AI 总监、OpenAI 创始成员，深度学习专家</div>
                 </div>
-                <div class="friend-item-arrow">→</div>
             </a>
             <a href="https://huggingface.co" target="_blank" rel="noopener" class="friend-item">
                 <div class="friend-item-avatar" style="background: linear-gradient(135deg, #ffd194, #d1913c);">🤗</div>
                 <div class="friend-item-content">
                     <div class="friend-item-name">Hugging Face</div>
-                    <div class="friend-item-desc">AI 模型和数据集社区，AI 开发者的 GitHub</div>
                 </div>
-                <div class="friend-item-arrow">→</div>
+            </a>
+            <a href="https://github.com" target="_blank" rel="noopener" class="friend-item">
+                <div class="friend-item-avatar" style="background: linear-gradient(135deg, #333, #666);">🐙</div>
+                <div class="friend-item-content">
+                    <div class="friend-item-name">GitHub</div>
+                </div>
+            </a>
+            <a href="https://openai.com" target="_blank" rel="noopener" class="friend-item">
+                <div class="friend-item-avatar" style="background: linear-gradient(135deg, #10a37f, #0d8c6d);">🤖</div>
+                <div class="friend-item-content">
+                    <div class="friend-item-name">OpenAI</div>
+                </div>
+            </a>
+            <a href="https://www.anthropic.com" target="_blank" rel="noopener" class="friend-item">
+                <div class="friend-item-avatar" style="background: linear-gradient(135deg, #d4a574, #c9956c);">🧩</div>
+                <div class="friend-item-content">
+                    <div class="friend-item-name">Anthropic</div>
+                </div>
+            </a>
+            <a href="https://deepmind.google" target="_blank" rel="noopener" class="friend-item">
+                <div class="friend-item-avatar" style="background: linear-gradient(135deg, #4285f4, #34a853);">🔬</div>
+                <div class="friend-item-content">
+                    <div class="friend-item-name">DeepMind</div>
+                </div>
+            </a>
+            <a href="https://www.nvidia.com" target="_blank" rel="noopener" class="friend-item">
+                <div class="friend-item-avatar" style="background: linear-gradient(135deg, #76b900, #5a8a00);">🎮</div>
+                <div class="friend-item-content">
+                    <div class="friend-item-name">NVIDIA</div>
+                </div>
+            </a>
+            <a href="https://arxiv.org" target="_blank" rel="noopener" class="friend-item">
+                <div class="friend-item-avatar" style="background: linear-gradient(135deg, #b31b1b, #8f1515);">📚</div>
+                <div class="friend-item-content">
+                    <div class="friend-item-name">arXiv</div>
+                </div>
+            </a>
+            <a href="https://pytorch.org" target="_blank" rel="noopener" class="friend-item">
+                <div class="friend-item-avatar" style="background: linear-gradient(135deg, #ee4c2c, #d44428);">🔥</div>
+                <div class="friend-item-content">
+                    <div class="friend-item-name">PyTorch</div>
+                </div>
+            </a>
+            <a href="https://www.tensorflow.org" target="_blank" rel="noopener" class="friend-item">
+                <div class="friend-item-avatar" style="background: linear-gradient(135deg, #ff6f00, #e65100);">📊</div>
+                <div class="friend-item-content">
+                    <div class="friend-item-name">TensorFlow</div>
+                </div>
             </a>
         </div>
         <div class="about-friends-more">
@@ -77,7 +117,7 @@
     <section class="about-section">
         <div class="about-section-header">
             <span class="section-number">03</span>
-            <h2 class="section-title">📊 内容归档</h2>
+            <h2 class="section-title">内容归档</h2>
         </div>
         
         {{ $allPages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
