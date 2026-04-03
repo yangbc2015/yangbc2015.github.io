@@ -1,3 +1,7 @@
+{{ define "extra-head" }}
+<link rel="stylesheet" href="{{ "css/unified-sections.css" | relURL }}">
+{{ end }}
+
 {{ define "main" }}
 {{ $roboticsData := site.Data.robotics }}
 {{ $items := $roboticsData.items | default (slice) }}
@@ -6,13 +10,12 @@
 {{ $embodiedItems := where $items "category" "in" (slice "具身智能" "人形机器人" "自主系统") }}
 
 <div class="robotics-page">
-    <section class="robotics-hero">
-        <h1 class="robotics-title">🤖 机器人</h1>
-        <p class="robotics-subtitle">{{ .Description }}</p>
-        {{ if $roboticsData.last_updated }}
-        <p class="robotics-update">数据更新于 {{ slicestr $roboticsData.last_updated 0 10 }}</p>
-        {{ end }}
-    </section>
+    {{ partial "page-header.html" . }}
+    {{ if $roboticsData.last_updated }}
+    <div class="section-container" style="padding-top: 0; padding-bottom: 0.5rem; font-size: 0.85rem; color: var(--text-muted);">
+        数据更新于 {{ slicestr $roboticsData.last_updated 0 10 }}
+    </div>
+    {{ end }}
 
     <section class="robotics-topics">
         <div class="topic-card">

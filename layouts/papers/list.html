@@ -1,14 +1,15 @@
 {{ define "title" }}🔬 前沿学术 | {{ .Site.Title }}{{ end }}
 
+{{ define "extra-head" }}
+<link rel="stylesheet" href="{{ "css/unified-sections.css" | relURL }}">
+{{ end }}
+
 {{ define "main" }}
 {{ $papersData := site.Data.papers }}
 
-<section class="papers-hero">
-    <h1 class="papers-title glitch-text" data-text="前沿学术">前沿学术</h1>
-    <p class="papers-subtitle">{{ .Description }}</p>
-</section>
+{{ partial "page-header.html" . }}
 
-<div class="papers-container">
+<div class="section-container" style="padding-top: 1rem;">
     {{ if $papersData.last_updated }}
     <div class="papers-update-info">
         论文数据自动更新于 {{ slicestr $papersData.last_updated 0 10 }} | 共 {{ $papersData.count }} 篇论文

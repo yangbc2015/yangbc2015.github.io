@@ -1,25 +1,26 @@
 {{ define "title" }}🏆 AI 榜单 | {{ .Site.Title }}{{ end }}
 
+{{ define "extra-head" }}
+<link rel="stylesheet" href="{{ "css/unified-sections.css" | relURL }}">
+{{ end }}
+
 {{ define "main" }}
 {{ $lmsysData := site.Data.leaderboard.lmsys_arena }}
 {{ $aaData := site.Data.leaderboard.artificial_analysis }}
 {{ $dlData := site.Data.leaderboard.datalearner }}
 
-<section class="lb-hero">
-    <h1 class="lb-title glitch-text" data-text="AI 榜单">AI 榜单</h1>
-    <p class="lb-subtitle">{{ .Description }}</p>
+{{ partial "page-header.html" . }}
+
+<div class="section-container" style="padding-top: 1rem;">
     {{ if $aaData.last_updated }}
-    <div class="lb-auto-update-badge">
+    <div class="update-badge" style="margin-bottom: 1rem; font-size: 0.85rem; color: var(--text-muted);">
         自动更新于 {{ slicestr $aaData.last_updated 0 10 }}
     </div>
     {{ else if $lmsysData.last_updated }}
-    <div class="lb-auto-update-badge">
+    <div class="update-badge" style="margin-bottom: 1rem; font-size: 0.85rem; color: var(--text-muted);">
         自动更新于 {{ slicestr $lmsysData.last_updated 0 10 }}
     </div>
     {{ end }}
-</section>
-
-<div class="lb-container">
     <div class="lb-tabs">
         <button class="lb-tab active" data-tab="aa">Artificial Analysis</button>
         <button class="lb-tab" data-tab="lmsys">LMSYS Arena</button>

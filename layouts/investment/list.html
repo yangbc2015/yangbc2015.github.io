@@ -1,14 +1,15 @@
 {{ define "title" }}💰 AI投资 | {{ .Site.Title }}{{ end }}
 
+{{ define "extra-head" }}
+<link rel="stylesheet" href="{{ "css/unified-sections.css" | relURL }}">
+{{ end }}
+
 {{ define "main" }}
 {{ $investmentData := site.Data.investment }}
 
-<section class="investment-hero">
-    <h1 class="investment-title glitch-text" data-text="AI投资">💰 AI投资</h1>
-    <p class="investment-subtitle">{{ .Description }}</p>
-</section>
+{{ partial "page-header.html" . }}
 
-<div class="investment-container">
+<div class="section-container" style="padding-top: 1rem;">
     {{ if $investmentData.last_updated }}
     <p class="update-time">
         数据更新于 {{ slicestr $investmentData.last_updated 0 10 }}

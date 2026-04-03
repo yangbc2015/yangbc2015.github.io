@@ -1,0 +1,9 @@
+{{/* 统一页面头部组件 */}}
+<header class="page-hero">
+    <div class="page-hero-inner">
+        <h1 class="page-hero-title">{{ .Title }}</h1>
+        {{ with .Params.description }}
+        <p class="page-hero-desc">{{ . }}</p>
+        {{ end }}
+    </div>
+</header>

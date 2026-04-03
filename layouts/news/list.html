@@ -1,14 +1,15 @@
 {{ define "title" }}📰 AI 新闻 | {{ .Site.Title }}{{ end }}
 
+{{ define "extra-head" }}
+<link rel="stylesheet" href="{{ "css/unified-sections.css" | relURL }}">
+{{ end }}
+
 {{ define "main" }}
 {{ $newsData := site.Data.news }}
 
-<section class="news-hero">
-    <h1 class="news-title glitch-text" data-text="AI 新闻">AI 新闻</h1>
-    <p class="news-subtitle">{{ .Description }}</p>
-</section>
+{{ partial "page-header.html" . }}
 
-<div class="news-container">
+<div class="section-container" style="padding-top: 1rem;">
     {{ if $newsData.last_updated }}
     <div class="news-update-info">
         自动更新于 {{ slicestr $newsData.last_updated 0 10 }} | 共 {{ $newsData.count }} 条新闻

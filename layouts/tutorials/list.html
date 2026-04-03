@@ -1,12 +1,13 @@
 {{ define "title" }}🏗️ 技术基建 | {{ .Site.Title }}{{ end }}
 
-{{ define "main" }}
-<section class="tutorial-hero">
-    <h1 class="tutorial-title glitch-text" data-text="技术基建">技术基建</h1>
-    <p class="tutorial-subtitle">{{ .Description }}</p>
-</section>
+{{ define "extra-head" }}
+<link rel="stylesheet" href="{{ "css/unified-sections.css" | relURL }}">
+{{ end }}
 
-<div class="tutorial-container">
+{{ define "main" }}
+{{ partial "page-header.html" . }}
+
+<div class="section-container" style="padding-top: 1rem;">
     {{ $tutorialsData := site.Data.tutorials }}
     
     {{ if $tutorialsData.items }}
