@@ -36,7 +36,7 @@
 }
 
 .article-title {
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     font-size: 2rem;
     color: var(--neon-green);
     text-shadow: 0 0 20px var(--neon-green-glow);
@@ -59,7 +59,7 @@
     color: var(--neon-green);
     padding: 0.25rem 0.8rem;
     border-radius: 20px;
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     font-size: 0.7rem;
     text-transform: uppercase;
     text-decoration: none;
@@ -73,7 +73,7 @@
 }
 
 .article-date {
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
 }
 
 .article-tags {
@@ -112,7 +112,7 @@
 }
 
 .article-content h2 {
-    font-family: 'Noto Sans SC', sans-serif;
+    font-family: var(--font-primary);
     font-weight: 700;
     color: var(--neon-green);
     margin-top: 2.5rem;
@@ -124,7 +124,7 @@
 }
 
 .article-content h3 {
-    font-family: 'Noto Sans SC', sans-serif;
+    font-family: var(--font-primary);
     font-weight: 600;
     color: var(--neon-cyan);
     margin-top: 2rem;
@@ -230,7 +230,7 @@
     padding: 0.35rem 0.7rem;
     border-radius: var(--radius-sm);
     font-size: 0.7rem;
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     cursor: pointer;
     opacity: 0;
     transition: all 0.3s ease;
@@ -290,7 +290,7 @@
 .article-content th {
     background: rgba(0, 230, 118, 0.08);
     color: var(--neon-green);
-    font-family: 'Noto Sans SC', sans-serif;
+    font-family: var(--font-primary);
     font-weight: 600;
 }
 
@@ -329,7 +329,7 @@
     font-size: 0.7rem;
     color: var(--text-muted);
     text-transform: uppercase;
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     margin-bottom: 0.25rem;
     letter-spacing: 0.05em;
 }
@@ -363,7 +363,7 @@
     display: flex;
     align-items: center;
     gap: 0.35rem;
-    font-family: 'Noto Sans SC', sans-serif;
+    font-family: var(--font-primary);
 }
 
 .share-btn:hover {
@@ -382,7 +382,7 @@
 }
 
 .comments-title {
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     font-size: 1.15rem;
     color: var(--neon-green);
     margin-bottom: 1.25rem;
@@ -395,7 +395,7 @@
 }
 
 .related-title {
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     font-size: 1.15rem;
     color: var(--neon-green);
     margin-bottom: 1.25rem;
@@ -437,7 +437,7 @@
 .related-card-date {
     font-size: 0.7rem;
     color: var(--text-secondary);
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
 }
 
 /* ===== List Page ===== */
@@ -493,7 +493,7 @@
 }
 
 .card-title {
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     font-size: 1.1rem;
     color: var(--neon-green);
     margin-bottom: 0.4rem;
@@ -506,7 +506,7 @@
     text-transform: uppercase;
     letter-spacing: 0.08em;
     margin-bottom: 0.6rem;
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
 }
 
 .card-description {
@@ -532,7 +532,7 @@
     padding: 0.15rem 0.5rem;
     border-radius: 12px;
     font-size: 0.7rem;
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     border: 1px solid var(--border-hover);
 }
 
@@ -551,7 +551,7 @@
     border: 1px solid var(--border-subtle);
     color: var(--text-primary);
     text-decoration: none;
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     font-size: 0.8rem;
     transition: all 0.3s ease;
     border-radius: var(--radius-sm);
@@ -610,7 +610,7 @@
 }
 
 .year-title {
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     font-size: 1.3rem;
     color: var(--neon-green);
     margin-bottom: 0.75rem;
@@ -620,7 +620,7 @@
     font-size: 0.75rem;
     color: var(--text-muted);
     margin-left: 0.5rem;
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
 }
 
 .timeline-month {
@@ -629,7 +629,7 @@
 }
 
 .month-title {
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     font-size: 0.9rem;
     color: var(--neon-green-dim);
     margin-bottom: 0.6rem;
@@ -677,7 +677,7 @@
 }
 
 .item-date {
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     font-size: 0.7rem;
     color: var(--text-muted);
     margin-right: 0.5rem;
@@ -703,7 +703,7 @@
     padding: 0.1rem 0.45rem;
     border-radius: 8px;
     margin-left: 0.4rem;
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     border: 1px solid var(--border-hover);
 }
 
@@ -756,7 +756,7 @@
 }
 
 .about-title {
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     font-size: 1.9rem;
     color: var(--neon-green);
     text-shadow: 0 0 15px var(--neon-green-glow);
@@ -774,7 +774,7 @@
 }
 
 .about-content h2 {
-    font-family: 'Noto Sans SC', sans-serif;
+    font-family: var(--font-primary);
     font-weight: 700;
     color: var(--neon-green);
     font-size: 1.3rem;
@@ -874,7 +874,7 @@
 }
 
 .friend-name {
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     font-size: 0.9rem;
     color: var(--neon-green);
     margin: 0;
@@ -906,7 +906,7 @@
     padding: 0.15rem 0.45rem;
     border-radius: 8px;
     font-size: 0.65rem;
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     border: 1px solid var(--border-hover);
 }
 
@@ -952,7 +952,7 @@
 
 .contact-value {
     color: var(--neon-green);
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     font-size: 0.85rem;
     word-break: break-all;
 }
@@ -975,7 +975,7 @@
 }
 
 .error-code {
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     font-size: clamp(5rem, 14vw, 11rem);
     font-weight: 900;
     color: var(--neon-green);
@@ -1019,7 +1019,7 @@
 }
 
 .error-message {
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     font-size: 1.3rem;
     color: var(--text-primary);
     margin: 1.25rem 0;
@@ -1061,7 +1061,7 @@
 }
 
 .section-hero-title {
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     font-size: clamp(1.6rem, 3.5vw, 2.6rem);
     color: var(--neon-green);
     text-shadow: 0 0 20px var(--neon-green-glow);
@@ -1099,7 +1099,7 @@
     background: transparent;
     border: 1px solid var(--border-subtle);
     color: var(--text-secondary);
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     font-size: 0.8rem;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -1176,7 +1176,7 @@
 
 .news-date {
     color: var(--text-muted);
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
 }
 
 .news-tag {
@@ -1186,7 +1186,7 @@
     color: var(--neon-green);
     border-radius: 10px;
     font-size: 0.7rem;
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
 }
 
 .news-tag.breakthrough {
@@ -1288,7 +1288,7 @@
 }
 
 .daily-category-name {
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     font-size: 1rem;
     color: var(--neon-blue);
 }
@@ -1338,7 +1338,7 @@
 }
 
 .hot-topics-title {
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     font-size: 1.1rem;
     color: var(--neon-pink);
     text-align: center;
@@ -1359,7 +1359,7 @@
     color: var(--neon-pink);
     border-radius: 20px;
     font-size: 0.8rem;
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
 }
 
 /* --- Tools Page --- */
@@ -1378,7 +1378,7 @@
     border-radius: 50px;
     color: var(--text-primary);
     font-size: 0.95rem;
-    font-family: 'Noto Sans SC', sans-serif;
+    font-family: var(--font-primary);
     outline: none;
     transition: all 0.3s ease;
 }
@@ -1398,7 +1398,7 @@
 }
 
 .tools-section-title {
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     font-size: 1.05rem;
     color: var(--neon-green);
     margin-bottom: 1rem;
@@ -1481,7 +1481,7 @@
     color: var(--neon-green);
     border-radius: 10px;
     font-size: 0.65rem;
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
 }
 
 .featured-tools {
@@ -1546,7 +1546,7 @@
     text-decoration: none;
     border-radius: 20px;
     font-size: 0.8rem;
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     transition: all 0.3s ease;
 }
 
@@ -1595,7 +1595,7 @@
 
 .lb-table th {
     background: var(--neon-green-subtle);
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     font-size: 0.75rem;
     color: var(--neon-green);
     text-transform: uppercase;
@@ -1607,7 +1607,7 @@
 }
 
 .lb-rank {
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     font-weight: 700;
     font-size: 1rem;
 }
@@ -1646,7 +1646,7 @@
 }
 
 .lb-score {
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     font-weight: 700;
     color: var(--neon-green);
 }
@@ -1660,7 +1660,7 @@
 }
 
 .lb-info h3 {
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     color: var(--neon-green);
     margin-bottom: 0.75rem;
     display: flex;
@@ -1688,7 +1688,7 @@
     color: var(--text-muted);
     font-size: 0.8rem;
     margin-top: 0.75rem;
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
 }
 
 .lb-auto-update-badge {
@@ -1730,7 +1730,7 @@
     background: var(--neon-green-subtle);
     color: var(--neon-green);
     border-radius: 12px;
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     border: 1px solid var(--border-hover);
 }
 
@@ -1755,7 +1755,7 @@
 }
 
 .apply-title {
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     font-size: 1.2rem;
     color: var(--neon-green);
     margin-bottom: 1rem;
@@ -1771,7 +1771,7 @@
 
 .apply-content h3 {
     color: var(--neon-green);
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     font-size: 0.9rem;
     margin: 1.25rem 0 0.5rem 0;
 }
@@ -1803,7 +1803,7 @@
 
 .site-info-label {
     color: var(--text-muted);
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     min-width: 70px;
 }
 
@@ -1894,7 +1894,7 @@
 }
 
 .category-count {
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     font-size: 0.85rem;
     color: var(--neon-green);
     min-width: 26px;
@@ -1929,7 +1929,7 @@
 }
 
 .tag-count {
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     font-size: 0.7rem;
     color: var(--text-muted);
 }
@@ -1983,7 +1983,7 @@
 .recent-date {
     font-size: 0.7rem;
     color: var(--text-muted);
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
 }
 
 .recent-type {
@@ -1992,7 +1992,7 @@
     background: var(--neon-green-subtle);
     padding: 0.1rem 0.4rem;
     border-radius: 8px;
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     border: 1px solid var(--border-hover);
 }
 
@@ -2025,7 +2025,7 @@
 
 .system-value {
     color: var(--neon-green);
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     font-size: 0.8rem;
 }
 
@@ -2042,7 +2042,7 @@
 }
 
 .robotics-title {
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     font-size: 2rem;
     color: var(--neon-green);
     margin-bottom: 0.5rem;
@@ -2057,7 +2057,7 @@
 .robotics-update {
     margin-top: 0.5rem;
     font-size: 0.85rem;
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
 }
 
 .robotics-topics {
@@ -2118,7 +2118,7 @@
 .section-badge {
     color: var(--neon-blue);
     font-size: 0.85rem;
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
 }
 
 .robotics-list {
@@ -2151,7 +2151,7 @@
     margin-bottom: 0.35rem;
     color: var(--text-muted);
     font-size: 0.75rem;
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
 }
 
 .robotics-item-title {
@@ -2311,7 +2311,7 @@
 }
 
 .investment-title {
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     font-size: clamp(1.8rem, 4vw, 3rem);
     color: var(--neon-green);
     text-shadow: 0 0 20px var(--neon-green-glow);
@@ -2400,7 +2400,7 @@
 .investment-source {
     font-size: 0.8rem;
     color: var(--text-secondary);
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
 }
 
 .investment-body {
@@ -2458,7 +2458,7 @@
 }
 
 .disclaimer h3 {
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     color: var(--neon-pink);
     margin-bottom: 0.5rem;
 }
@@ -2473,7 +2473,7 @@
     color: var(--text-secondary);
     font-size: 0.85rem;
     margin-bottom: 2rem;
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
 }
 
 @media (max-width: 768px) {
@@ -2490,7 +2490,7 @@
 }
 
 .papers-title {
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     font-size: clamp(1.8rem, 4vw, 3rem);
     color: var(--neon-green);
     text-shadow: 0 0 20px var(--neon-green-glow);
@@ -2524,7 +2524,7 @@
 }
 
 .section-title {
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     font-size: 1.3rem;
     color: var(--neon-green);
     display: flex;
@@ -2569,7 +2569,7 @@
     padding: 0.2rem 0.6rem;
     border-radius: 12px;
     font-size: 0.75rem;
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     margin-bottom: 0.75rem;
 }
 
@@ -2629,7 +2629,7 @@
 .paper-venue {
     font-size: 0.85rem;
     color: var(--neon-blue);
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     margin-bottom: 0.75rem;
 }
 
@@ -2658,7 +2658,7 @@
     text-decoration: none;
     border-radius: 6px;
     font-size: 0.8rem;
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     transition: all 0.3s ease;
 }
 
@@ -2686,7 +2686,7 @@
 }
 
 .conf-name {
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     font-size: 1.1rem;
     color: var(--neon-green);
     margin-bottom: 0.25rem;
@@ -2744,7 +2744,7 @@
 }
 
 .tutorial-title {
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     font-size: clamp(1.8rem, 4vw, 3rem);
     color: var(--neon-green);
     text-shadow: 0 0 20px var(--neon-green-glow);
@@ -2769,7 +2769,7 @@
 }
 
 .path-title {
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     font-size: 1.4rem;
     color: var(--neon-green);
     margin-bottom: 1.5rem;
@@ -2807,7 +2807,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     font-weight: 700;
     font-size: 1rem;
 }
@@ -2855,7 +2855,7 @@
     gap: 1rem;
     font-size: 0.8rem;
     color: var(--text-secondary);
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
 }
 
 .path-meta span {
@@ -2914,7 +2914,7 @@
     padding: 0.2rem 0.6rem;
     border-radius: 12px;
     font-size: 0.75rem;
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
 }
 
 .tutorial-level.beginner {
@@ -3034,7 +3034,7 @@
 
 .author-details h4 {
     color: var(--neon-green);
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     margin-bottom: 0.25rem;
 }
 
@@ -3071,7 +3071,7 @@
 }
 
 .video-title {
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     font-size: clamp(1.8rem, 4vw, 3rem);
     color: var(--neon-green);
     text-shadow: 0 0 20px var(--neon-green-glow);
@@ -3172,7 +3172,7 @@
     padding: 0.2rem 0.5rem;
     border-radius: 4px;
     font-size: 0.8rem;
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
 }
 
 .video-content {
@@ -3256,7 +3256,7 @@
     padding: 0.4rem 0.8rem;
     background: var(--neon-pink);
     color: var(--dark-bg);
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     font-size: 0.8rem;
     font-weight: 700;
     border-radius: 4px;
@@ -3378,7 +3378,7 @@
 }
 
 .page-title {
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     font-size: 2.5rem;
     color: var(--neon-green);
     text-shadow: 0 0 20px var(--neon-green-glow);
@@ -3410,7 +3410,7 @@
     border-radius: 25px;
     color: var(--text-primary);
     text-decoration: none;
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     transition: all 0.3s ease;
     position: relative;
     overflow: hidden;
@@ -3499,7 +3499,7 @@
 }
 
 .taxonomy-page .category-name {
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     font-size: 1.2rem;
     color: var(--neon-green);
     margin-bottom: 0.5rem;
@@ -3520,7 +3520,7 @@
 }
 
 .content-section-title {
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     font-size: 1.5rem;
     color: var(--neon-green);
     margin-bottom: 1rem;
@@ -3582,7 +3582,7 @@
 }
 
 .news-title {
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     font-size: clamp(1.8rem, 4vw, 3rem);
     color: var(--neon-green);
     text-shadow: 0 0 20px var(--neon-green-glow);
@@ -3615,7 +3615,7 @@
     background: transparent;
     border: 1px solid var(--border-subtle);
     color: var(--text-secondary);
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     font-size: 0.85rem;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -3697,7 +3697,7 @@
 .friend-url {
     font-size: 0.8rem;
     color: var(--text-muted);
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
 }
 
 .section-icon {
@@ -3719,7 +3719,7 @@
     padding: 0.75rem 1.5rem;
     background: var(--neon-green);
     color: var(--dark-bg);
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     font-size: 0.9rem;
     font-weight: 600;
     text-decoration: none;
@@ -3756,7 +3756,7 @@
 }
 
 .daily-summary-title {
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     font-size: 1.5rem;
     color: var(--neon-blue);
     text-align: center;
@@ -3794,7 +3794,7 @@
 }
 
 .daily-category-name {
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     font-size: 1.1rem;
     color: var(--neon-blue);
 }
@@ -3853,7 +3853,7 @@
 }
 
 .hot-topics-title {
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     font-size: 1.2rem;
     color: var(--neon-pink);
     text-align: center;
@@ -3874,7 +3874,7 @@
     color: var(--neon-pink);
     border-radius: 20px;
     font-size: 0.85rem;
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
 }
 
 /* News Source Icon */
@@ -3904,7 +3904,7 @@
 }
 
 .lb-title {
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     font-size: clamp(1.8rem, 4vw, 3rem);
     color: var(--neon-green);
     text-shadow: 0 0 20px var(--neon-green-glow);
@@ -3939,7 +3939,7 @@
     background: transparent;
     border: 1px solid var(--border-subtle);
     color: var(--text-secondary);
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     font-size: 0.9rem;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -3989,7 +3989,7 @@
 }
 
 .tools-title {
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     font-size: clamp(1.8rem, 4vw, 3rem);
     color: var(--neon-green);
     text-shadow: 0 0 20px var(--neon-green-glow);
@@ -4024,7 +4024,7 @@
     border-radius: 50px;
     color: var(--text-primary);
     font-size: 1rem;
-    font-family: 'Noto Sans SC', sans-serif;
+    font-family: var(--font-primary);
     outline: none;
     transition: all 0.3s ease;
 }
@@ -4056,7 +4056,7 @@
     background: transparent;
     border: 1px solid var(--border-subtle);
     color: var(--text-secondary);
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     font-size: 0.85rem;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -4158,7 +4158,7 @@
     text-decoration: none;
     border-radius: 20px;
     font-size: 0.85rem;
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     transition: all 0.3s ease;
 }
 
@@ -4181,7 +4181,7 @@
 }
 
 .tutorial-title {
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     font-size: clamp(1.8rem, 4vw, 3rem);
     color: var(--neon-green);
     text-shadow: 0 0 20px var(--neon-green-glow);
@@ -4210,7 +4210,7 @@
 }
 
 .path-title {
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     font-size: 1.4rem;
     color: var(--neon-green);
     margin-bottom: 1.5rem;
@@ -4248,7 +4248,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     font-weight: 700;
     font-size: 1rem;
 }
@@ -4296,7 +4296,7 @@
     gap: 1rem;
     font-size: 0.8rem;
     color: var(--text-secondary);
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
 }
 
 .path-meta span {
@@ -4355,7 +4355,7 @@
     padding: 0.2rem 0.6rem;
     border-radius: 12px;
     font-size: 0.75rem;
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
 }
 
 .tutorial-level.beginner {
@@ -4434,7 +4434,7 @@
     color: var(--text-secondary);
     font-size: 0.85rem;
     margin-bottom: 2rem;
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
 }
 
 .disclaimer {
@@ -4447,7 +4447,7 @@
 }
 
 .disclaimer h3 {
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     color: var(--neon-pink);
     margin-bottom: 0.5rem;
 }
@@ -4499,7 +4499,7 @@
 }
 
 .stat-number {
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     font-size: 2.5rem;
     color: var(--neon-green);
     text-shadow: 0 0 15px var(--neon-green-glow);
@@ -4548,7 +4548,7 @@
     background: transparent;
     border: 1px solid var(--border-subtle);
     color: var(--text-secondary);
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     font-size: 0.8rem;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -4615,7 +4615,7 @@
     border-radius: 20px;
     font-size: 0.75rem;
     font-weight: 600;
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     text-transform: uppercase;
     letter-spacing: 0.05em;
     box-shadow: 0 4px 15px rgba(255, 64, 129, 0.4);
@@ -4678,7 +4678,7 @@
 .sidebar-meta {
     font-size: 0.75rem;
     color: var(--text-muted);
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
 }
 
 /* Video Tag Cloud */
@@ -4735,7 +4735,7 @@
 }
 
 .video-stat-number {
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     font-size: 1.8rem;
     color: var(--neon-green);
     text-shadow: 0 0 10px var(--neon-green-glow);
@@ -4800,12 +4800,12 @@
     background: var(--neon-green-subtle);
     border: 1px solid var(--border-subtle);
     border-radius: var(--radius-md);
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
 }
 
 /* Section Title Enhanced */
 .video-section .section-title {
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     font-size: 1.3rem;
     color: var(--neon-green);
     margin-bottom: 1.5rem;
@@ -4871,7 +4871,7 @@
 }
 
 .about-header-title {
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     font-size: 1.5rem;
     font-weight: 700;
     color: var(--text-primary);
@@ -4904,7 +4904,7 @@
 }
 
 .section-number {
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     font-size: 0.9rem;
     color: var(--neon-green);
     opacity: 0.6;
@@ -4914,7 +4914,7 @@
     font-size: 1.5rem;
     font-weight: 700;
     color: var(--text-primary);
-    font-family: 'Noto Sans SC', sans-serif;
+    font-family: var(--font-primary);
     position: relative;
 }
 
@@ -5006,7 +5006,7 @@
 }
 
 .stat-number {
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     font-size: 2.5rem;
     font-weight: 700;
     color: var(--neon-green);
@@ -5085,7 +5085,7 @@
 .feature-link {
     font-size: 0.85rem;
     color: var(--neon-green);
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     display: flex;
     align-items: center;
     gap: 0.25rem;
@@ -5225,7 +5225,7 @@
 }
 
 .contact-item-value {
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     font-size: 0.9rem;
     color: var(--neon-green);
 }
@@ -5278,7 +5278,7 @@
     padding: 0.75rem 1.5rem;
     background: linear-gradient(135deg, var(--neon-green), #00c853);
     color: var(--dark-bg);
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     font-size: 0.85rem;
     font-weight: 600;
     text-decoration: none;

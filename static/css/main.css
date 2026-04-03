@@ -40,6 +40,10 @@
     --radius-md: 10px;
     --radius-lg: 16px;
     --radius-xl: 24px;
+    
+    /* Fonts - 统一字体 */
+    --font-primary: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans SC', sans-serif;
+    --font-mono: 'JetBrains Mono', 'Consolas', 'Monaco', monospace;
 }
 
 /* ===== Reset & Base ===== */
@@ -54,7 +58,7 @@ html {
 }
 
 body {
-    font-family: 'Noto Sans SC', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-family: var(--font-primary);
     background: var(--dark-bg);
     color: var(--text-primary);
     min-height: 100vh;
@@ -237,7 +241,7 @@ main {
 }
 
 .logo-en {
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     font-size: 0.9rem;
     font-weight: 700;
     color: var(--text-secondary);
@@ -267,7 +271,7 @@ main {
 .site-menu a {
     color: var(--text-secondary);
     text-decoration: none;
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     font-size: 0.78rem;
     text-transform: uppercase;
     letter-spacing: 0.06em;
@@ -307,7 +311,7 @@ main {
     padding: 0.5rem 1rem;
     border-radius: 24px;
     cursor: pointer;
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     font-size: 0.75rem;
     font-weight: 500;
     letter-spacing: 0.08em;
@@ -357,7 +361,7 @@ main {
     color: var(--neon-green);
     padding: 0.5rem;
     cursor: pointer;
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     border-radius: var(--radius-sm);
 }
 
@@ -377,7 +381,7 @@ footer {
 }
 
 .footer-text {
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     font-size: 0.8rem;
     color: var(--text-secondary);
     letter-spacing: 0.2em;
@@ -532,7 +536,7 @@ footer {
     border-radius: var(--radius-md);
     color: var(--text-primary);
     font-size: 1.1rem;
-    font-family: 'Noto Sans SC', sans-serif;
+    font-family: var(--font-primary);
     outline: none;
     transition: all 0.3s ease;
 }
@@ -588,7 +592,7 @@ footer {
 }
 
 .search-result-title {
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     color: var(--neon-green);
     margin-bottom: 0.3rem;
     font-size: 0.95rem;
@@ -611,7 +615,7 @@ footer {
     padding: 0.2rem 0.5rem;
     border-radius: 4px;
     border: 1px solid var(--border-hover);
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     font-size: 0.75rem;
 }
 
@@ -637,7 +641,7 @@ footer {
 }
 
 .loader-text {
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     font-size: 1.3rem;
     color: var(--neon-green);
     margin-top: 1.2rem;
@@ -664,7 +668,7 @@ footer {
 
 /* ===== Glitch Text ===== */
 .glitch-text {
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     font-size: 2rem;
     font-weight: 700;
     color: var(--neon-green);
@@ -751,7 +755,7 @@ footer {
 }
 
 .page-title {
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     font-size: 2.2rem;
     color: var(--neon-green);
     text-shadow: 0 0 20px var(--neon-green-glow);
@@ -776,7 +780,7 @@ footer {
 }
 
 .section-title {
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     font-size: 1.15rem;
     color: var(--neon-green);
     margin: 0;
@@ -801,7 +805,7 @@ footer {
     background: transparent;
     border: 1.5px solid var(--neon-green);
     color: var(--neon-green);
-    font-family: 'Orbitron', monospace;
+    font-family: var(--font-primary);
     font-size: 0.85rem;
     text-transform: uppercase;
     letter-spacing: 0.1em;
