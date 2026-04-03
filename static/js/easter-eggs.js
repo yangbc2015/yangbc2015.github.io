@@ -2,9 +2,7 @@
  * AI漫游 - 赛博朋克彩蛋系统
  * Cyberpunk Easter Eggs System
  * 
- * 激活方式：
- * - 桌面端：按方向键 ↑↓←→↑↓←→ 触发矩阵雨
- * - 手机端：三指同时点击屏幕触发矩阵雨
+ * 激活方式：Konami 代码 ↑↑↓↓←→←→BA
  */
 
 (function() {
@@ -12,47 +10,22 @@
 
     let matrixActive = false;
 
-    // ===== 桌面端：方向键 ↑↓←→↑↓←→ 触发 =====
-    const easterCode = ['ArrowUp', 'ArrowDown', 'ArrowLeft', 'ArrowRight', 'ArrowUp', 'ArrowDown', 'ArrowLeft', 'ArrowRight'];
+    // ===== Konami 代码触发矩阵雨 =====
+    const konamiCode = ['ArrowUp', 'ArrowUp', 'ArrowDown', 'ArrowDown', 'ArrowLeft', 'ArrowRight', 'ArrowLeft', 'ArrowRight', 'b', 'a'];
     let codeIndex = 0;
 
     document.addEventListener('keydown', (e) => {
-        // 只响应方向键
-        if (!['ArrowUp', 'ArrowDown', 'ArrowLeft', 'ArrowRight'].includes(e.key)) {
-            codeIndex = 0;
-            return;
-        }
-
-        if (e.key === easterCode[codeIndex]) {
+        if (e.key === konamiCode[codeIndex]) {
             codeIndex++;
-            if (codeIndex === easterCode.length) {
+            if (codeIndex === konamiCode.length) {
                 activateMatrixRain();
                 codeIndex = 0;
             }
         } else {
             // 如果按错了，检查是否是序列的第一个键
-            codeIndex = e.key === easterCode[0] ? 1 : 0;
+            codeIndex = e.key === konamiCode[0] ? 1 : 0;
         }
     });
-
-    // ===== 手机端：三指点击触发 =====
-    let lastTouchTime = 0;
-    
-    document.addEventListener('touchstart', (e) => {
-        // 检查是否是三指触摸
-        if (e.touches.length === 3) {
-            const now = Date.now();
-            // 防止短时间内重复触发
-            if (now - lastTouchTime > 2000) {
-                lastTouchTime = now;
-                // 显示提示
-                showEasterEggToast('🎮 检测到三指触摸！');
-                setTimeout(() => {
-                    activateMatrixRain();
-                }, 500);
-            }
-        }
-    }, { passive: true });
 
     function activateMatrixRain() {
         if (matrixActive) return;
@@ -172,16 +145,14 @@
    ╔══════════════════════════════════════════════════════════════╗
    ║  WELCOME TO AI WANDER - CYBERPUNK AI RESOURCE NAVIGATOR      ║
    ║                                                              ║
-   ║  > 发现隐藏彩蛋：                                            ║
-   ║    • 桌面端：按方向键 ↑↓←→↑↓←→ 激活矩阵雨                   ║
-   ║    • 手机端：三指同时点击屏幕激活矩阵雨                     ║
+   ║  > 上上下下左右左右BA                                        ║
    ║                                                              ║
    ║  > GitHub: https://github.com/yangbc2015                     ║
    ╚══════════════════════════════════════════════════════════════╝
         `;
 
         console.log('%c' + ascii, styles);
-        console.log('%c🔍 按 ↑↓←→↑↓←→ 触发彩蛋...', 'color: #00e5ff; font-size: 11px;');
+        console.log('%c🔍 ↑↑↓↓←→←→BA', 'color: #00e5ff; font-size: 11px;');
     }
 
     // 页面加载后打印控制台彩蛋
@@ -237,7 +208,7 @@
 
     // 彩蛋提示（延迟5秒显示，避免打扰）
     setTimeout(() => {
-        console.log('%c💡 提示：桌面端按 ↑↓←→↑↓←→ 或手机端三指点击触发矩阵雨！', 'color: #ffd700; font-size: 11px;');
+        console.log('%c💡 提示：试试经典的 Konami 代码 ↑↑↓↓←→←→BA', 'color: #ffd700; font-size: 11px;');
     }, 5000);
 
 })();

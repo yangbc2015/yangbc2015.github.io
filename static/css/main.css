@@ -1008,3 +1008,21 @@ footer {
     position: absolute !important;
     z-index: -9999 !important;
 }
+
+/* ===== Konami 代码页脚提示 ===== */
+.konami-hint {
+    font-family: var(--font-mono);
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    letter-spacing: 0.1em;
+    opacity: 0.6;
+    transition: all 0.3s ease;
+    cursor: help;
+    user-select: none;
+}
+
+.konami-hint:hover {
+    color: var(--neon-green);
+    opacity: 1;
+    text-shadow: 0 0 10px var(--neon-green-glow);
+}
