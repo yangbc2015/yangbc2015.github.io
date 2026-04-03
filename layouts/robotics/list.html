@@ -1,3 +1,7 @@
+{{ define "extra-head" }}
+<link rel="stylesheet" href="{{ "css/unified-sections.css" | relURL }}">
+{{ end }}
+
 {{ define "main" }}
 {{ $roboticsData := site.Data.robotics }}
 {{ $items := $roboticsData.items | default (slice) }}
@@ -5,111 +9,89 @@
 {{ $researchItems := where $items "type" "paper" }}
 {{ $embodiedItems := where $items "category" "in" (slice "具身智能" "人形机器人" "自主系统") }}
 
-<div class="robotics-page">
-    <section class="robotics-hero">
-        <h1 class="robotics-title">🤖 机器人</h1>
-        <p class="robotics-subtitle">{{ .Description }}</p>
-        {{ if $roboticsData.last_updated }}
-        <p class="robotics-update">数据更新于 {{ slicestr $roboticsData.last_updated 0 10 }}</p>
-        {{ end }}
-    </section>
+{{ partial "page-header.html" . }}
 
-    <section class="robotics-topics">
-        <div class="topic-card">
-            <h3>🦾 人形机器人</h3>
-            <p>追踪 Figure、Optimus、Atlas 等人形机器人量产与落地进展。</p>
-        </div>
-        <div class="topic-card">
-            <h3>🧠 具身智能</h3>
-            <p>聚焦 VLA、世界模型、机器人规划与操作智能的最新进展。</p>
-        </div>
-        <div class="topic-card">
-            <h3>📄 研究前沿</h3>
-            <p>同步 arXiv 最新机器人论文，覆盖操作、导航、模仿学习等方向。</p>
-        </div>
-    </section>
+<div class="section-container">
+    {{ if $roboticsData.last_updated }}
+    <div style="margin-bottom: 1rem; font-size: 0.85rem; color: var(--text-muted);">
+        数据更新于 {{ slicestr $roboticsData.last_updated 0 10 }}
+    </div>
+    {{ end }}
 
-    <section class="robotics-sections">
-        <div class="robotics-card">
-            <div class="section-header">
-                <h2 class="section-title">🏭 行业动态</h2>
-                <span class="section-badge">{{ len $industryItems }} 条</span>
+    <!-- 主题分类 -->
+    <div class="content-grid" style="margin-bottom: 2rem;">
+        <div class="content-card">
+            <div class="content-card-icon">🦾</div>
+            <h3 class="content-card-title">人形机器人</h3>
+            <p class="content-card-desc">追踪 Figure、Optimus、Atlas 等人形机器人量产与落地进展</p>
+        </div>
+        <div class="content-card">
+            <div class="content-card-icon">🧠</div>
+            <h3 class="content-card-title">具身智能</h3>
+            <p class="content-card-desc">聚焦 VLA、世界模型、机器人规划与操作智能的最新进展</p>
+        </div>
+        <div class="content-card">
+            <div class="content-card-icon">📄</div>
+            <h3 class="content-card-title">研究前沿</h3>
+            <p class="content-card-desc">同步 arXiv 最新机器人论文，覆盖操作、导航、模仿学习等方向</p>
+        </div>
+    </div>
+
+    <!-- 内容列表 -->
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.25rem;">
+        <!-- 行业动态 -->
+        <div class="content-card" style="padding: 0; overflow: hidden;">
+            <div class="section-header" style="padding: 1rem 1.25rem; margin: 0; border-bottom: 1px solid var(--border-subtle);">
+                <h2 class="section-header-title">🏭 行业动态</h2>
+                <span style="color: var(--neon-blue); font-size: 0.85rem;">{{ len $industryItems }} 条</span>
             </div>
-            <div class="robotics-list">
-                {{ range first 6 $industryItems }}
-                <a class="robotics-item" href="{{ .url }}" target="_blank" rel="noopener noreferrer">
-                    <div class="robotics-item-meta">
-                        <span>{{ .source }}</span>
-                        <span>{{ .date }}</span>
-                        <span>{{ .category }}</span>
-                    </div>
-                    <h3 class="robotics-item-title">{{ .title }}</h3>
-                    <p class="robotics-item-summary">{{ .summary }}</p>
-                    <div class="robotics-tags">
-                        {{ range first 3 .tags }}
-                        <span class="robotics-tag">{{ . }}</span>
-                        {{ end }}
-                    </div>
+            <div style="padding: 1rem 1.25rem; display: flex; flex-direction: column; gap: 0.75rem;">
+                {{ range first 5 $industryItems }}
+                <a href="{{ .url }}" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit; padding: 0.75rem; background: var(--dark-bg); border-radius: var(--radius-sm); border: 1px solid var(--border-subtle); transition: all 0.3s ease;">
+                    <div style="font-size: 0.75rem; color: var(--text-muted); margin-bottom: 0.25rem;">{{ .source }} · {{ .date }}</div>
+                    <div style="font-weight: 500; color: var(--text-primary); line-height: 1.4;">{{ .title }}</div>
                 </a>
                 {{ else }}
-                <p class="robotics-empty">暂无最新行业动态。</p>
+                <p style="color: var(--text-muted); text-align: center; padding: 2rem 0;">暂无最新行业动态</p>
                 {{ end }}
             </div>
         </div>
 
-        <div class="robotics-card">
-            <div class="section-header">
-                <h2 class="section-title">⚡ 具身智能</h2>
-                <span class="section-badge">{{ len $embodiedItems }} 条</span>
+        <!-- 具身智能 -->
+        <div class="content-card" style="padding: 0; overflow: hidden;">
+            <div class="section-header" style="padding: 1rem 1.25rem; margin: 0; border-bottom: 1px solid var(--border-subtle);">
+                <h2 class="section-header-title">⚡ 具身智能</h2>
+                <span style="color: var(--neon-blue); font-size: 0.85rem;">{{ len $embodiedItems }} 条</span>
             </div>
-            <div class="robotics-list">
-                {{ range first 6 $embodiedItems }}
-                <a class="robotics-item" href="{{ .url }}" target="_blank" rel="noopener noreferrer">
-                    <div class="robotics-item-meta">
-                        <span>{{ .source }}</span>
-                        <span>{{ .date }}</span>
-                        <span>{{ .category }}</span>
-                    </div>
-                    <h3 class="robotics-item-title">{{ .title }}</h3>
-                    <p class="robotics-item-summary">{{ .summary }}</p>
-                    <div class="robotics-tags">
-                        {{ range first 3 .tags }}
-                        <span class="robotics-tag">{{ . }}</span>
-                        {{ end }}
-                    </div>
+            <div style="padding: 1rem 1.25rem; display: flex; flex-direction: column; gap: 0.75rem;">
+                {{ range first 5 $embodiedItems }}
+                <a href="{{ .url }}" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit; padding: 0.75rem; background: var(--dark-bg); border-radius: var(--radius-sm); border: 1px solid var(--border-subtle); transition: all 0.3s ease;">
+                    <div style="font-size: 0.75rem; color: var(--text-muted); margin-bottom: 0.25rem;">{{ .source }} · {{ .date }}</div>
+                    <div style="font-weight: 500; color: var(--text-primary); line-height: 1.4;">{{ .title }}</div>
                 </a>
                 {{ else }}
-                <p class="robotics-empty">暂无最新具身智能内容。</p>
+                <p style="color: var(--text-muted); text-align: center; padding: 2rem 0;">暂无最新具身智能内容</p>
                 {{ end }}
             </div>
         </div>
 
-        <div class="robotics-card">
-            <div class="section-header">
-                <h2 class="section-title">📄 学术前沿</h2>
-                <span class="section-badge">{{ len $researchItems }} 篇</span>
+        <!-- 学术前沿 -->
+        <div class="content-card" style="padding: 0; overflow: hidden;">
+            <div class="section-header" style="padding: 1rem 1.25rem; margin: 0; border-bottom: 1px solid var(--border-subtle);">
+                <h2 class="section-header-title">📄 学术前沿</h2>
+                <span style="color: var(--neon-blue); font-size: 0.85rem;">{{ len $researchItems }} 篇</span>
             </div>
-            <div class="robotics-list">
-                {{ range first 6 $researchItems }}
-                <a class="robotics-item" href="{{ .url }}" target="_blank" rel="noopener noreferrer">
-                    <div class="robotics-item-meta">
-                        <span>{{ .source }}</span>
-                        <span>{{ .date }}</span>
-                        {{ if .authors }}<span>{{ .authors }}</span>{{ end }}
-                    </div>
-                    <h3 class="robotics-item-title">{{ .title }}</h3>
-                    <p class="robotics-item-summary">{{ .summary }}</p>
-                    <div class="robotics-tags">
-                        {{ range first 3 .tags }}
-                        <span class="robotics-tag">{{ . }}</span>
-                        {{ end }}
-                    </div>
+            <div style="padding: 1rem 1.25rem; display: flex; flex-direction: column; gap: 0.75rem;">
+                {{ range first 5 $researchItems }}
+                <a href="{{ .url }}" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit; padding: 0.75rem; background: var(--dark-bg); border-radius: var(--radius-sm); border: 1px solid var(--border-subtle); transition: all 0.3s ease;">
+                    <div style="font-size: 0.75rem; color: var(--text-muted); margin-bottom: 0.25rem;">{{ .source }} · {{ .date }}</div>
+                    <div style="font-weight: 500; color: var(--text-primary); line-height: 1.4;">{{ .title }}</div>
                 </a>
                 {{ else }}
-                <p class="robotics-empty">暂无最新学术内容。</p>
+                <p style="color: var(--text-muted); text-align: center; padding: 2rem 0;">暂无最新学术内容</p>
                 {{ end }}
             </div>
         </div>
-    </section>
+    </div>
 </div>
 {{ end }}

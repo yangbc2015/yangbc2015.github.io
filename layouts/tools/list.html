@@ -1,12 +1,13 @@
 {{ define "title" }}🛠️ 工具导航 | {{ .Site.Title }}{{ end }}
 
-{{ define "main" }}
-<section class="tools-hero">
-    <h1 class="tools-title glitch-text" data-text="工具导航">工具导航</h1>
-    <p class="tools-subtitle">{{ .Description }}</p>
-</section>
+{{ define "extra-head" }}
+<link rel="stylesheet" href="{{ "css/unified-sections.css" | relURL }}">
+{{ end }}
 
-<div class="tools-container">
+{{ define "main" }}
+{{ partial "page-header.html" . }}
+
+<div class="section-container" style="padding-top: 1rem;">
     <!-- 搜索 -->
     <div class="tools-search">
         <span class="tools-search-icon">🔍</span>

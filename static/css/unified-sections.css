@@ -1,0 +1,138 @@
+/* ============================================
+   统一栏目页面样式 - Unified Section Styles
+   ============================================ */
+
+/* ===== 统一页面头部 ===== */
+.page-hero {
+    padding: 3rem 1.5rem 2rem;
+    background: linear-gradient(180deg, 
+        rgba(0, 230, 118, 0.03) 0%, 
+        transparent 100%);
+    border-bottom: 1px solid var(--border-subtle);
+}
+
+.page-hero-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.page-hero-title {
+    font-family: var(--font-primary);
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin: 0 0 0.5rem 0;
+    letter-spacing: -0.02em;
+}
+
+.page-hero-desc {
+    font-size: 1rem;
+    color: var(--text-secondary);
+    margin: 0;
+    max-width: 600px;
+    line-height: 1.6;
+}
+
+/* ===== 统一内容容器 ===== */
+.section-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem;
+}
+
+/* ===== 统一区块头部 ===== */
+.section-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid var(--border-subtle);
+}
+
+.section-header-title {
+    font-family: var(--font-primary);
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--neon-green);
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.section-header-more {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.section-header-more:hover {
+    color: var(--neon-green);
+}
+
+/* ===== 统一卡片网格 ===== */
+.content-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.25rem;
+}
+
+/* ===== 统一卡片样式 ===== */
+.content-card {
+    background: var(--dark-bg-secondary);
+    border: 1px solid var(--border-subtle);
+    border-radius: var(--radius-md);
+    padding: 1.25rem;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.content-card:hover {
+    border-color: var(--neon-green);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(0, 230, 118, 0.1);
+}
+
+.content-card-icon {
+    font-size: 1.75rem;
+    margin-bottom: 0.75rem;
+}
+
+.content-card-title {
+    font-family: var(--font-primary);
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin: 0 0 0.5rem 0;
+    line-height: 1.4;
+}
+
+.content-card-desc {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    line-height: 1.5;
+    margin: 0;
+}
+
+/* ===== 响应式 ===== */
+@media (max-width: 768px) {
+    .page-hero {
+        padding: 2rem 1rem 1.5rem;
+    }
+    
+    .page-hero-title {
+        font-size: 1.5rem;
+    }
+    
+    .section-container {
+        padding: 1.5rem 1rem;
+    }
+    
+    .content-grid {
+        grid-template-columns: 1fr;
+    }
+}

@@ -40,7 +40,7 @@ title = 'AI漫游 | AI Wander'
     dark_mode = true
     particles = true
     search = true
-    comments = true
+    comments = false
     reading_progress = true
     back_to_top = true
     code_copy = true
@@ -97,10 +97,6 @@ title = 'AI漫游 | AI Wander'
     name = '🎬 视频'
     url = '/videos/'
     weight = 70
-  [[menu.main]]
-    name = '📊 归档'
-    url = '/archive/'
-    weight = 80
   [[menu.main]]
     name = '👤 关于我'
     url = '/about/'

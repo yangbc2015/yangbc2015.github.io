@@ -1,15 +1,16 @@
 {{ define "title" }}🎬 视频精选 | {{ .Site.Title }}{{ end }}
 
+{{ define "extra-head" }}
+<link rel="stylesheet" href="{{ "css/unified-sections.css" | relURL }}">
+{{ end }}
+
 {{ define "main" }}
 {{ $videosData := site.Data.videos }}
 {{ $featuredVideo := index (where $videosData.items "featured" true | default $videosData.items) 0 }}
 
-<section class="video-hero">
-    <h1 class="video-title glitch-text" data-text="视频精选">视频精选</h1>
-    <p class="video-subtitle">汇集全球优质 AI 视频教程、技术讲座与精品课程</p>
-</section>
+{{ partial "page-header.html" . }}
 
-<div class="video-container">
+<div class="section-container" style="padding-top: 1rem;">
     {{ if $videosData.last_updated }}
     <div class="video-update-info">
         📅 更新于 {{ slicestr $videosData.last_updated 0 10 }} · 📊 {{ $videosData.count }} 个视频 · 🔥 每日精选

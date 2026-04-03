@@ -217,6 +217,35 @@
       ]
     },
     {
+      "title": "Deep Reinforcement Learning for Robotic Manipulation under Distribution Shift with Bounded Extremum Seeking",
+      "summary": "Reinforcement learning has shown strong performance in robotic manipulation, but learned policies often degrade in performance when test conditions differ from the training distribution. This limitation is especially important in contact-rich tasks s...",
+      "url": "https://arxiv.org/abs/2604.01142v1",
+      "date": "2026-04-01",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.01142v1",
+      "authors": "Shaifalee Saxena, Rafael Fierro et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "科技帮助人类，而非代替者。青心意创想做的，是让雪宝这样大家深爱的角色，以具身智能的形态走进真实生活，在人们感到孤独或空落的时刻，带来一点真实的抚慰。",
+      "summary": "科技帮助人类，而非代替者。青心意创想做的，是让雪宝这样大家深爱的角色，以具身智能的形态走进真实生活，在人们感到孤独或空落的时刻，带来一点真实的抚慰。",
+      "url": "http://36kr.com/p/3747673491636997",
+      "date": "2026-04-01",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
       "title": "HapCompass: A Rotational Haptic Device for Contact-Rich Robotic Teleoperation",
       "summary": "The contact-rich nature of manipulation makes it a significant challenge for robotic teleoperation. While haptic feedback is critical for contact-rich tasks, providing intuitive directional cues within wearable teleoperation interfaces remains a bott...",
       "url": "https://arxiv.org/abs/2603.30042v1",

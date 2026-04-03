@@ -104,20 +104,6 @@
       "date": "2026-03-31"
     },
     {
-      "title": "强化学习入门: Q-Learning",
-      "speaker": "Sentdex",
-      "description": "从零开始学习强化学习基础",
-      "duration": "15:30",
-      "views": "456K",
-      "platform": "youtube",
-      "video_id": "yMk_XtIEzH8",
-      "url": "https://www.youtube.com/watch?v=yMk_XtIEzH8",
-      "thumbnail": "https://img.youtube.com/vi/yMk_XtIEzH8/mqdefault.jpg",
-      "type": "tutorial",
-      "category": "AI教程",
-      "date": "2026-03-31"
-    },
-    {
       "title": "AI Agent 架构设计模式",
       "speaker": "LangChain",
       "description": "构建自主 AI 代理的最佳实践",
@@ -129,7 +115,7 @@
       "thumbnail": "https://img.youtube.com/vi/mFMBb8Xw6yQ/mqdefault.jpg",
       "type": "tutorial",
       "category": "AI教程",
-      "date": "2026-03-31"
+      "date": "2026-03-30"
     },
     {
       "title": "GPT-4 技术原理解析",
@@ -138,12 +124,12 @@
       "duration": "45:20",
       "views": "890K",
       "platform": "youtube",
-      "video_id": "SxHRQvJ7P6Y",
-      "url": "https://www.youtube.com/watch?v=SxHRQvJ7P6Y",
-      "thumbnail": "https://img.youtube.com/vi/SxHRQvJ7P6Y/mqdefault.jpg",
+      "video_id": "fbLgFrlTnGU",
+      "url": "https://www.youtube.com/watch?v=fbLgFrlTnGU",
+      "thumbnail": "https://img.youtube.com/vi/fbLgFrlTnGU/mqdefault.jpg",
       "type": "lecture",
       "category": "技术讲座",
-      "date": "2026-03-30"
+      "date": "2026-03-29"
     },
     {
       "title": "Fast.ai: 程序员深度学习实战",

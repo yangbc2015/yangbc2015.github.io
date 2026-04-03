@@ -2,36 +2,15 @@
 
 {{ define "main" }}
 <div class="about-page">
-    <!-- Hero 区域 -->
-    <section class="about-hero">
-        <div class="about-hero-bg">
-            <div class="about-hero-grid"></div>
-        </div>
-        <div class="about-hero-content">
-            <div class="about-avatar-wrapper">
-                <div class="about-avatar-glow"></div>
-                <div class="about-avatar">🍀</div>
-                <div class="about-status" title="在线">●</div>
-            </div>
-            <h1 class="about-title">
-                <span class="about-title-greeting">Hi, I'm</span>
-                <span class="about-title-name">Garden Keeper</span>
-            </h1>
-            <p class="about-subtitle">AI漫游站长 · 人工智能探索者 · 数字花园园丁</p>
-            <div class="about-tags">
-                <span class="about-tag">🤖 AI 研究者</span>
-                <span class="about-tag">💻 全栈开发者</span>
-                <span class="about-tag">📊 数据爱好者</span>
-                <span class="about-tag">🌱 终身学习者</span>
+    <!-- 简洁页面标题 -->
+    <header class="about-header">
+        <div class="about-header-inner">
+            <div class="about-header-text">
+                <h1 class="about-header-title">关于</h1>
+                <p class="about-header-desc">了解 AI漫游 的故事与使命</p>
             </div>
         </div>
-        <div class="about-scroll-hint">
-            <span>向下滚动</span>
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M12 5v14M19 12l-7 7-7-7"/>
-            </svg>
-        </div>
-    </section>
+    </header>
 
     <!-- 简介区域 -->
     <section class="about-section">
@@ -39,101 +18,20 @@
             <span class="section-number">01</span>
             <h2 class="section-title">关于本站</h2>
         </div>
-        <div class="about-intro-cards">
-            <div class="intro-card intro-card-main">
-                <div class="intro-card-icon">🎯</div>
-                <h3>使命</h3>
-                <p>打破 AI 信息孤岛，整合全球前沿资讯，为中文 AI 社区提供高质量的聚合平台。</p>
-            </div>
-            <div class="intro-card">
-                <div class="intro-card-icon">💡</div>
-                <h3>理念</h3>
-                <p>开源、共享、协作。让每个人都能平等地获取 AI 知识。</p>
-            </div>
-            <div class="intro-card">
-                <div class="intro-card-icon">🚀</div>
-                <h3>愿景</h3>
-                <p>构建最全面的中文 AI 资源导航站，连接全球 AI 社区。</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- 数据统计 -->
-    <section class="about-section about-stats-section">
-        <div class="about-section-header">
-            <span class="section-number">02</span>
-            <h2 class="section-title">站点数据</h2>
-        </div>
-        <div class="about-stats">
-            <div class="stat-item">
-                <div class="stat-number" data-count="{{ len (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}">{{ len (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}</div>
-                <div class="stat-label">文章总数</div>
-            </div>
-            <div class="stat-item">
-                <div class="stat-number" data-count="{{ len .Site.Taxonomies.tags }}">{{ len .Site.Taxonomies.tags }}</div>
-                <div class="stat-label">标签数量</div>
-            </div>
-            <div class="stat-item">
-                <div class="stat-number" data-count="{{ len .Site.Taxonomies.categories }}">{{ len .Site.Taxonomies.categories }}</div>
-                <div class="stat-label">分类数量</div>
-            </div>
-            <div class="stat-item">
-                <div class="stat-number" data-count="365">365+</div>
-                <div class="stat-label">运营天数</div>
-            </div>
-        </div>
-    </section>
-
-    <!-- 核心栏目 -->
-    <section class="about-section">
-        <div class="about-section-header">
-            <span class="section-number">03</span>
-            <h2 class="section-title">核心栏目</h2>
-        </div>
-        <div class="about-features">
-            <a href="/news/" class="feature-card">
-                <div class="feature-icon">📰</div>
-                <h3>AI 新闻</h3>
-                <p>每日更新全球 AI 行业动态与技术突破</p>
-                <span class="feature-link">浏览新闻 →</span>
-            </a>
-            <a href="/leaderboard/" class="feature-card">
-                <div class="feature-icon">🏆</div>
-                <h3>AI 榜单</h3>
-                <p>LMSYS、OpenRouter 等多维度模型评测</p>
-                <span class="feature-link">查看榜单 →</span>
-            </a>
-            <a href="/papers/" class="feature-card">
-                <div class="feature-icon">🔬</div>
-                <h3>前沿学术</h3>
-                <p>arXiv 精选论文与深度解读</p>
-                <span class="feature-link">阅读论文 →</span>
-            </a>
-            <a href="/robotics/" class="feature-card">
-                <div class="feature-icon">🤖</div>
-                <h3>机器人</h3>
-                <p>具身智能、人形机器人、工业自动化</p>
-                <span class="feature-link">探索机器人 →</span>
-            </a>
-            <a href="/investment/" class="feature-card">
-                <div class="feature-icon">💰</div>
-                <h3>AI 投资</h3>
-                <p>AI 领域投资动态与市场分析</p>
-                <span class="feature-link">了解投资 →</span>
-            </a>
-            <a href="/tools/" class="feature-card">
-                <div class="feature-icon">🛠️</div>
-                <h3>工具导航</h3>
-                <p>AI 开发工具、框架、资源精选</p>
-                <span class="feature-link">发现工具 →</span>
-            </a>
+        <p style="color: var(--text-secondary); line-height: 1.8; margin-bottom: 1rem;">
+            <strong>AI漫游</strong> 是一个赛博朋克风格的 AI 资源导航站，汇聚全球最前沿的人工智能资讯、学术研究、技术工具与行业动态。
+        </p>
+        <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+            <span style="padding: 0.4rem 0.8rem; background: rgba(0, 230, 118, 0.1); border: 1px solid rgba(0, 230, 118, 0.2); border-radius: 50px; font-size: 0.85rem; color: var(--neon-green);">🎯 打破信息孤岛</span>
+            <span style="padding: 0.4rem 0.8rem; background: rgba(0, 229, 255, 0.1); border: 1px solid rgba(0, 229, 255, 0.2); border-radius: 50px; font-size: 0.85rem; color: var(--neon-blue);">💡 开源共享</span>
+            <span style="padding: 0.4rem 0.8rem; background: rgba(255, 64, 129, 0.1); border: 1px solid rgba(255, 64, 129, 0.2); border-radius: 50px; font-size: 0.85rem; color: var(--neon-pink);">🚀 技术普惠</span>
         </div>
     </section>
 
     <!-- 友链展示 -->
     <section class="about-section">
         <div class="about-section-header">
-            <span class="section-number">04</span>
+            <span class="section-number">02</span>
             <h2 class="section-title">精选友链</h2>
         </div>
         <div class="about-friends">
@@ -141,33 +39,73 @@
                 <div class="friend-item-avatar" style="background: linear-gradient(135deg, #667eea, #764ba2);">🧠</div>
                 <div class="friend-item-content">
                     <div class="friend-item-name">机器之心</div>
-                    <div class="friend-item-desc">国内领先的 AI 媒体，提供前沿 AI 资讯与深度技术解读</div>
                 </div>
-                <div class="friend-item-arrow">→</div>
             </a>
             <a href="https://paperswithcode.com" target="_blank" rel="noopener" class="friend-item">
                 <div class="friend-item-avatar" style="background: linear-gradient(135deg, #f093fb, #f5576c);">📄</div>
                 <div class="friend-item-content">
                     <div class="friend-item-name">Papers with Code</div>
-                    <div class="friend-item-desc">机器学习论文与代码实现平台，追踪最新研究进展</div>
                 </div>
-                <div class="friend-item-arrow">→</div>
             </a>
             <a href="https://karpathy.ai" target="_blank" rel="noopener" class="friend-item">
                 <div class="friend-item-avatar" style="background: linear-gradient(135deg, #4facfe, #00f2fe);">🚀</div>
                 <div class="friend-item-content">
                     <div class="friend-item-name">Andrej Karpathy</div>
-                    <div class="friend-item-desc">前 Tesla AI 总监、OpenAI 创始成员，深度学习专家</div>
                 </div>
-                <div class="friend-item-arrow">→</div>
             </a>
             <a href="https://huggingface.co" target="_blank" rel="noopener" class="friend-item">
                 <div class="friend-item-avatar" style="background: linear-gradient(135deg, #ffd194, #d1913c);">🤗</div>
                 <div class="friend-item-content">
                     <div class="friend-item-name">Hugging Face</div>
-                    <div class="friend-item-desc">AI 模型和数据集社区，AI 开发者的 GitHub</div>
                 </div>
-                <div class="friend-item-arrow">→</div>
+            </a>
+            <a href="https://github.com" target="_blank" rel="noopener" class="friend-item">
+                <div class="friend-item-avatar" style="background: linear-gradient(135deg, #333, #666);">🐙</div>
+                <div class="friend-item-content">
+                    <div class="friend-item-name">GitHub</div>
+                </div>
+            </a>
+            <a href="https://openai.com" target="_blank" rel="noopener" class="friend-item">
+                <div class="friend-item-avatar" style="background: linear-gradient(135deg, #10a37f, #0d8c6d);">🤖</div>
+                <div class="friend-item-content">
+                    <div class="friend-item-name">OpenAI</div>
+                </div>
+            </a>
+            <a href="https://www.anthropic.com" target="_blank" rel="noopener" class="friend-item">
+                <div class="friend-item-avatar" style="background: linear-gradient(135deg, #d4a574, #c9956c);">🧩</div>
+                <div class="friend-item-content">
+                    <div class="friend-item-name">Anthropic</div>
+                </div>
+            </a>
+            <a href="https://deepmind.google" target="_blank" rel="noopener" class="friend-item">
+                <div class="friend-item-avatar" style="background: linear-gradient(135deg, #4285f4, #34a853);">🔬</div>
+                <div class="friend-item-content">
+                    <div class="friend-item-name">DeepMind</div>
+                </div>
+            </a>
+            <a href="https://www.nvidia.com" target="_blank" rel="noopener" class="friend-item">
+                <div class="friend-item-avatar" style="background: linear-gradient(135deg, #76b900, #5a8a00);">🎮</div>
+                <div class="friend-item-content">
+                    <div class="friend-item-name">NVIDIA</div>
+                </div>
+            </a>
+            <a href="https://arxiv.org" target="_blank" rel="noopener" class="friend-item">
+                <div class="friend-item-avatar" style="background: linear-gradient(135deg, #b31b1b, #8f1515);">📚</div>
+                <div class="friend-item-content">
+                    <div class="friend-item-name">arXiv</div>
+                </div>
+            </a>
+            <a href="https://pytorch.org" target="_blank" rel="noopener" class="friend-item">
+                <div class="friend-item-avatar" style="background: linear-gradient(135deg, #ee4c2c, #d44428);">🔥</div>
+                <div class="friend-item-content">
+                    <div class="friend-item-name">PyTorch</div>
+                </div>
+            </a>
+            <a href="https://www.tensorflow.org" target="_blank" rel="noopener" class="friend-item">
+                <div class="friend-item-avatar" style="background: linear-gradient(135deg, #ff6f00, #e65100);">📊</div>
+                <div class="friend-item-content">
+                    <div class="friend-item-name">TensorFlow</div>
+                </div>
             </a>
         </div>
         <div class="about-friends-more">
@@ -175,16 +113,69 @@
         </div>
     </section>
 
+    <!-- 内容归档 -->
+    <section class="about-section">
+        <div class="about-section-header">
+            <span class="section-number">03</span>
+            <h2 class="section-title">内容归档</h2>
+        </div>
+        
+        {{ $allPages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
+        {{ $filteredPages := where $allPages "Type" "!=" "tutorials" }}
+        {{ $posts := $filteredPages.ByDate.Reverse }}
+        
+        <!-- 统计数据 -->
+        <div class="stats-summary" style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-bottom: 2rem;">
+            <div class="stat-card" style="text-align: center; padding: 1.25rem; background: var(--dark-bg-secondary); border-radius: var(--radius-md); border: 1px solid var(--border-subtle);">
+                <div class="stat-number" style="font-size: 1.75rem; font-weight: 700; color: var(--neon-green); margin-bottom: 0.25rem;" data-count="{{ len $posts }}">{{ len $posts }}</div>
+                <div class="stat-label" style="font-size: 0.85rem; color: var(--text-secondary);">文章总数</div>
+            </div>
+            <div class="stat-card" style="text-align: center; padding: 1.25rem; background: var(--dark-bg-secondary); border-radius: var(--radius-md); border: 1px solid var(--border-subtle);">
+                <div class="stat-number" style="font-size: 1.75rem; font-weight: 700; color: var(--neon-green); margin-bottom: 0.25rem;" data-count="{{ len .Site.Taxonomies.tags }}">{{ len .Site.Taxonomies.tags }}</div>
+                <div class="stat-label" style="font-size: 0.85rem; color: var(--text-secondary);">标签数量</div>
+            </div>
+            <div class="stat-card" style="text-align: center; padding: 1.25rem; background: var(--dark-bg-secondary); border-radius: var(--radius-md); border: 1px solid var(--border-subtle);">
+                <div class="stat-number" style="font-size: 1.75rem; font-weight: 700; color: var(--neon-green); margin-bottom: 0.25rem;" data-count="{{ len .Site.Taxonomies.categories }}">{{ len .Site.Taxonomies.categories }}</div>
+                <div class="stat-label" style="font-size: 0.85rem; color: var(--text-secondary);">分类数量</div>
+            </div>
+            <div class="stat-card" style="text-align: center; padding: 1.25rem; background: var(--dark-bg-secondary); border-radius: var(--radius-md); border: 1px solid var(--border-subtle);">
+                <div class="stat-number" style="font-size: 1.75rem; font-weight: 700; color: var(--neon-green); margin-bottom: 0.25rem;"><span id="visitor-count-about">--</span></div>
+                <div class="stat-label" style="font-size: 0.85rem; color: var(--text-secondary);">访客数</div>
+            </div>
+        </div>
+        
+        <!-- 时间线 -->
+        <div class="timeline" style="max-height: 400px; overflow-y: auto; padding-right: 0.5rem; margin-bottom: 1.5rem;">
+            {{ range $posts.GroupByDate "2006" }}
+            <div class="timeline-year" style="margin-bottom: 1.5rem;">
+                <h3 class="year-title" style="font-size: 1.1rem; color: var(--neon-green); margin-bottom: 0.75rem; padding-bottom: 0.5rem; border-bottom: 1px solid var(--border-subtle);">
+                    {{ .Key }}
+                    <span style="font-size: 0.85rem; color: var(--text-muted); margin-left: 0.5rem;">({{ len .Pages }} 篇)</span>
+                </h3>
+                <ul class="timeline-items" style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 0.5rem;">
+                    {{ range first 5 .Pages }}
+                    <li class="timeline-item" style="display: flex; align-items: baseline; gap: 0.75rem; font-size: 0.9rem;">
+                        <span class="item-date" style="color: var(--text-muted); font-size: 0.8rem; min-width: 45px;">{{ .Date.Format "01-02" }}</span>
+                        <a href="{{ .RelPermalink }}" class="item-link" style="color: var(--text-primary); text-decoration: none; flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">{{ .Title }}</a>
+                    </li>
+                    {{ end }}
+                </ul>
+            </div>
+            {{ end }}
+        </div>
+        
+        <div class="about-archive-more" style="text-align: center;">
+            <a href="/archive/" class="btn-primary">查看全部归档</a>
+        </div>
+    </section>
+
     <!-- 联系方式 -->
     <section class="about-section about-contact-section">
         <div class="about-section-header">
-            <span class="section-number">05</span>
+            <span class="section-number">04</span>
             <h2 class="section-title">取得联系</h2>
         </div>
         <div class="about-contact">
-            <div class="contact-intro">
-                <p>有问题或建议？欢迎通过以下方式联系我，或者直接在本页底部留言。</p>
-            </div>
             <div class="contact-grid">
                 <a href="https://github.com/yangbc2015" target="_blank" rel="noopener" class="contact-item contact-github">
                     <div class="contact-item-icon">
@@ -193,10 +184,10 @@
                     <div class="contact-item-label">GitHub</div>
                     <div class="contact-item-value">@yangbc2015</div>
                 </a>
-                <div class="contact-item contact-message" onclick="scrollToComments()">
+                <div class="contact-item contact-message" onclick="showIssueHint()">
                     <div class="contact-item-icon">💬</div>
                     <div class="contact-item-label">留言</div>
-                    <div class="contact-item-value">页面底部评论</div>
+                    <div class="contact-item-value">通过 Issue 反馈</div>
                 </div>
                 <a href="https://github.com/yangbc2015/yangbc2015.github.io/issues/new" target="_blank" rel="noopener" class="contact-item contact-issue">
                     <div class="contact-item-icon">📧</div>
@@ -207,53 +198,75 @@
         </div>
     </section>
 
-    <!-- 评论区 -->
-    {{ if .Site.Params.features.comments }}
-    <section class="about-comments" id="comments">
-        <div class="about-section-header">
-            <span class="section-number">06</span>
-            <h2 class="section-title">留言板</h2>
-        </div>
-        <div class="comments-intro">
-            <p>💬 欢迎在这里留下你的想法、建议或问题。如果你发现了 bug，也可以直接 <a href="https://github.com/yangbc2015/yangbc2015.github.io/issues/new" target="_blank" rel="noopener">创建 GitHub Issue</a>。</p>
-        </div>
-        {{ if .Site.Params.giscus.repo }}
-        <script src="https://giscus.app/client.js"
-            data-repo="{{ .Site.Params.giscus.repo }}"
-            data-repo-id="{{ .Site.Params.giscus.repoId }}"
-            data-category="{{ .Site.Params.giscus.category }}"
-            data-category-id="{{ .Site.Params.giscus.categoryId }}"
-            data-mapping="{{ .Site.Params.giscus.mapping }}"
-            data-strict="0"
-            data-reactions-enabled="{{ .Site.Params.giscus.reactionsEnabled }}"
-            data-emit-metadata="{{ .Site.Params.giscus.emitMetadata }}"
-            data-input-position="bottom"
-            data-theme="{{ .Site.Params.giscus.theme }}"
-            data-lang="{{ .Site.Params.giscus.lang }}"
-            crossorigin="anonymous"
-            async>
-        </script>
-        {{ else }}
-        <div class="comments-placeholder">
-            <p>💡 评论区需要配置 Giscus</p>
-            <p style="font-size: 0.85rem; margin-top: 0.5rem;">在 <code>hugo.toml</code> 中配置 <code>params.giscus</code> 以启用评论功能</p>
-        </div>
-        {{ end }}
-    </section>
-    {{ end }}
 </div>
 
+<!-- 不蒜子访客统计 -->
+<script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<span id="busuanzi_container_site_pv" style="display:none">
+    <span id="busuanzi_value_site_pv">--</span>
+</span>
+
 <script>
-// 滚动到评论区
-function scrollToComments() {
-    const commentsSection = document.getElementById('comments');
-    if (commentsSection) {
-        commentsSection.scrollIntoView({ behavior: 'smooth' });
-        commentsSection.classList.add('highlight');
-        setTimeout(() => {
-            commentsSection.classList.remove('highlight');
-        }, 2000);
+// 提示使用 GitHub Issue
+function showIssueHint() {
+    const useIssue = confirm('💬 页面留言功能暂未开放\n\n是否跳转到 GitHub Issue 提交反馈？');
+    if (useIssue) {
+        window.open('https://github.com/yangbc2015/yangbc2015.github.io/issues/new', '_blank');
     }
+}
+
+// 访客数更新（与首页统一）
+function updateVisitorCount() {
+    const visitorCountAbout = document.getElementById('visitor-count-about');
+    if (!visitorCountAbout) return;
+    
+    let countDisplayed = false;
+    
+    function updateDisplay(count) {
+        if (countDisplayed) return;
+        countDisplayed = true;
+        visitorCountAbout.textContent = count.toLocaleString();
+    }
+    
+    function getBusuanziValue() {
+        const pvElement = document.getElementById('busuanzi_value_site_pv');
+        if (!pvElement) return null;
+        const text = pvElement.textContent.trim();
+        if (text && text !== '--' && text !== '') {
+            const count = parseInt(text.replace(/,/g, ''));
+            if (!isNaN(count) && count > 0) return count;
+        }
+        return null;
+    }
+    
+    function pollBusuanzi() {
+        const count = getBusuanziValue();
+        if (count !== null) {
+            updateDisplay(count);
+            return;
+        }
+        
+        if (document.getElementById('busuanzi_value_site_pv')) {
+            setTimeout(pollBusuanzi, 1000);
+        } else {
+            visitorCountAbout.textContent = '∞';
+        }
+    }
+    
+    const observer = new MutationObserver(() => {
+        const count = getBusuanziValue();
+        if (count !== null) {
+            updateDisplay(count);
+            observer.disconnect();
+        }
+    });
+    
+    const pvElement = document.getElementById('busuanzi_value_site_pv');
+    if (pvElement) {
+        observer.observe(pvElement, { childList: true, characterData: true, subtree: true });
+    }
+    
+    pollBusuanzi();
 }
 
 // 数字动画
@@ -290,6 +303,9 @@ function animateNumbers() {
 }
 
 // 页面加载完成后执行
-document.addEventListener('DOMContentLoaded', animateNumbers);
+document.addEventListener('DOMContentLoaded', () => {
+    animateNumbers();
+    updateVisitorCount();
+});
 </script>
 {{ end }}

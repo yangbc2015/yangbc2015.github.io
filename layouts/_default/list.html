@@ -1,13 +1,12 @@
 {{ define "title" }}{{ .Title }} | {{ .Site.Title }}{{ end }}
 
+{{ define "extra-head" }}
+<link rel="stylesheet" href="{{ "css/unified-sections.css" | relURL }}">
+{{ end }}
+
 {{ define "main" }}
 <div class="list-page">
-    <header class="page-header">
-        <h1 class="page-title">{{ .Title }}</h1>
-        {{ with .Params.description }}
-        <p class="page-description">{{ . }}</p>
-        {{ end }}
-    </header>
+    {{ partial "page-header.html" . }}
 
     {{ if .Pages }}
     <div class="content-grid">
