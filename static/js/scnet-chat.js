@@ -1,6 +1,10 @@
 /**
  * SCNet AI Chatbot 网页组件
  * 集成国家超算互联网平台 AI 聊天功能
+ * 
+ * 使用说明：
+ * 1. 本地开发：启动 python scripts/scnet_proxy.py
+ * 2. 生产环境：部署到 Vercel/Netlify 使用 Edge Functions
  */
 
 (function() {
@@ -8,20 +12,19 @@
 
     // 配置
     const CONFIG = {
-        // 优先使用本地代理（避免 CORS）
-        PROXY_URL: 'http://localhost:8787/chat',
-        // 直接 API（会被 CORS 阻止）
-        API_BASE: 'https://www.scnet.cn',
-        API_ENDPOINT: '/api/chat/completions',
-        MODEL: 'qwen-turbo',
-        MAX_TOKENS: 2000,
-        TEMPERATURE: 0.7,
+        // 尝试多个代理地址（按优先级排序）
+        PROXY_URLS: [
+            '/api/chat',                    // 同域 API 路由 (Vercel/Netlify)
+            'http://localhost:8787/chat',   // 本地代理
+            'https://scnet-proxy.vercel.app/api/chat', // 公共代理（可选）
+        ],
         REQUEST_INTERVAL: 2000, // 2秒间隔
-        USE_PROXY: true,  // 设为 true 使用代理，false 尝试直接访问
+        TIMEOUT: 30000,         // 30秒超时
     };
 
     let lastRequestTime = 0;
     let isProcessing = false;
+    let currentProxyUrl = null;
 
     /**
      * 检查请求频率
@@ -33,6 +36,34 @@
             return CONFIG.REQUEST_INTERVAL - elapsed;
         }
         return 0;
+    }
+
+    /**
+     * 测试可用的代理地址
+     */
+    async function findWorkingProxy() {
+        for (const url of CONFIG.PROXY_URLS) {
+            try {
+                const controller = new AbortController();
+                const timeoutId = setTimeout(() => controller.abort(), 3000);
+                
+                const response = await fetch(url.replace('/chat', '/health'), {
+                    method: 'GET',
+                    signal: controller.signal,
+                });
+                
+                clearTimeout(timeoutId);
+                
+                if (response.ok) {
+                    currentProxyUrl = url;
+                    console.log('[SCNet] 使用代理:', url);
+                    return url;
+                }
+            } catch (e) {
+                console.log('[SCNet] 代理不可用:', url);
+            }
+        }
+        return null;
     }
 
     /**
@@ -125,6 +156,7 @@
                 font-size: 13px;
                 line-height: 1.5;
                 word-wrap: break-word;
+                white-space: pre-wrap;
             }
             .scnet-chat-message.user {
                 align-self: flex-end;
@@ -137,6 +169,12 @@
                 background: rgba(0, 229, 255, 0.1);
                 border: 1px solid rgba(0, 229, 255, 0.2);
                 color: var(--text-primary, #e6edf3);
+            }
+            .scnet-chat-message.error {
+                align-self: flex-start;
+                background: rgba(255, 64, 129, 0.1);
+                border: 1px solid rgba(255, 64, 129, 0.3);
+                color: var(--neon-pink, #ff4081);
             }
             .scnet-chat-message.loading {
                 color: var(--text-muted, #8b949e);
@@ -218,6 +256,13 @@
                 transform: scale(1.1);
                 box-shadow: 0 6px 20px rgba(0, 230, 118, 0.5);
             }
+            .scnet-chat-code {
+                background: rgba(0, 0, 0, 0.3);
+                padding: 2px 6px;
+                border-radius: 4px;
+                font-family: monospace;
+                font-size: 12px;
+            }
             @media (max-width: 480px) {
                 #scnet-chat-widget {
                     width: calc(100vw - 40px);
@@ -243,84 +288,132 @@
     }
 
     /**
-     * 调用 SCNet API（通过本地代理避免 CORS）
+     * 调用代理 API
      */
-    async function callSCNetAPI(message) {
+    async function callProxyAPI(message, statusCallback) {
         const waitTime = checkRateLimit();
         if (waitTime > 0) {
+            statusCallback(`等待 ${(waitTime/1000).toFixed(1)}s...`);
             await new Promise(r => setTimeout(r, waitTime));
         }
         lastRequestTime = Date.now();
 
-        // 方式 1: 使用本地代理（推荐）
-        if (CONFIG.USE_PROXY) {
-            try {
-                const response = await fetch(CONFIG.PROXY_URL, {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json',
-                    },
-                    body: JSON.stringify({ message: message }),
-                });
-
-                if (!response.ok) {
-                    throw new Error(`Proxy HTTP ${response.status}`);
-                }
-
-                const data = await response.json();
-                if (data.status === 'ok') {
-                    return data.response;
-                } else {
-                    throw new Error(data.error || 'Unknown error');
-                }
-            } catch (error) {
-                console.warn('[SCNet Proxy] 代理调用失败:', error.message);
-                return generateProxyErrorResponse();
+        // 如果没有找到可用代理，尝试查找
+        if (!currentProxyUrl) {
+            statusCallback('寻找可用代理...');
+            const proxy = await findWorkingProxy();
+            if (!proxy) {
+                throw new Error('NO_PROXY');
             }
         }
 
-        // 方式 2: 直接 fetch（会被 CORS 阻止）
-        return generateFallbackResponse(message);
+        const controller = new AbortController();
+        const timeoutId = setTimeout(() => controller.abort(), CONFIG.TIMEOUT);
+
+        try {
+            statusCallback('连接中...');
+            
+            const response = await fetch(currentProxyUrl, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ message: message }),
+                signal: controller.signal,
+            });
+
+            clearTimeout(timeoutId);
+
+            if (!response.ok) {
+                const errorData = await response.json().catch(() => ({}));
+                throw new Error(errorData.error || `HTTP ${response.status}`);
+            }
+
+            const data = await response.json();
+            
+            if (data.status === 'ok') {
+                return data.response;
+            } else if (data.fallback) {
+                // 使用模拟响应
+                return generateSimulatedResponse(message);
+            } else {
+                throw new Error(data.error || 'Unknown error');
+            }
+
+        } catch (error) {
+            clearTimeout(timeoutId);
+            
+            if (error.name === 'AbortError') {
+                throw new Error('请求超时');
+            }
+            
+            // 尝试下一个代理
+            const currentIndex = CONFIG.PROXY_URLS.indexOf(currentProxyUrl);
+            if (currentIndex < CONFIG.PROXY_URLS.length - 1) {
+                currentProxyUrl = CONFIG.PROXY_URLS[currentIndex + 1];
+                statusCallback('尝试备用代理...');
+                return callProxyAPI(message, statusCallback);
+            }
+            
+            throw error;
+        }
     }
 
     /**
-     * 代理未启动时的错误提示
+     * 生成模拟响应（当 API 不可用时）
      */
-    function generateProxyErrorResponse() {
-        return `🤖 SCNet AI 助手
-
-抱歉，无法连接到 AI 服务。
-
-💡 请确保本地代理服务器已启动：
-
-   cd scripts
-   python scnet_proxy.py
-
-或者访问官网直接使用：
-   https://www.scnet.cn/ui/chatbot/`;
-    }
-
-    /**
-     * 生成备用响应（当 API 不可用时）
-     */
-    function generateFallbackResponse(message) {
+    function generateSimulatedResponse(message) {
         const responses = [
-            "抱歉，由于浏览器跨域安全限制 (CORS)，无法直接连接到 SCNet API。",
-            "",
-            "💡 解决方案：",
-            "1. 使用后端代理：部署一个本地服务器转发请求",
-            "2. 使用浏览器扩展：安装 CORS Unblock 扩展",
-            "3. 直接使用：访问 https://www.scnet.cn/ui/chatbot/",
-            "",
-            `📨 您发送的消息："${message}"`
+            `🤖 模拟回复："${message.substring(0, 20)}..."`,
+            '',
+            '⚠️ 当前连接到模拟模式',
+            '',
+            '💡 要使用真实 AI，请：',
+            '1. 本地启动：python scripts/scnet_proxy.py',
+            '2. 或访问官网：https://www.scnet.cn/ui/chatbot/',
+            '',
+            '📝 这是一个演示回复，展示聊天界面功能。'
         ];
         return responses.join('\n');
     }
 
     /**
+     * 生成错误响应
+     */
+    function generateErrorResponse(error) {
+        if (error.message === 'NO_PROXY') {
+            return `🤖 SCNet AI 助手
+
+抱歉，无法连接到 AI 服务。
+
+💡 解决方案：
+
+**方法 1 - 本地代理（推荐）：**
+1. 打开终端
+2. 运行：python scripts/scnet_proxy.py
+3. 刷新页面后重试
+
+**方法 2 - 直接使用官网：**
+访问 https://www.scnet.cn/ui/chatbot/
+
+**方法 3 - 部署到 Vercel：**
+将项目部署到 Vercel 后，Edge Function 会自动处理代理。`;
+        }
+        
+        return `🤖 请求失败
+
+错误：${error.message}
+
+请检查：
+1. 网络连接是否正常
+2. 代理服务器是否运行
+3. 防火墙是否阻止了连接`;
+    }
+
+    /**
      * 初始化聊天组件
      */
-    function init() {
+    async function init() {
         // 只在首页显示
         if (!document.body.classList.contains('page-home')) {
             return;
@@ -336,7 +429,6 @@
         document.body.appendChild(widget);
 
         // DOM 引用
-        const container = widget.querySelector('.scnet-chat-container');
         const messagesEl = widget.querySelector('.scnet-chat-messages');
         const inputEl = widget.querySelector('.scnet-chat-input');
         const sendBtn = widget.querySelector('.scnet-chat-send');
@@ -350,6 +442,8 @@
             toggleBtn.style.display = isVisible ? 'flex' : 'none';
             if (!isVisible) {
                 inputEl.focus();
+                // 预查找代理
+                findWorkingProxy();
             }
         });
 
@@ -385,13 +479,13 @@
 
             isProcessing = true;
             sendBtn.disabled = true;
-            setStatus('正在连接 SCNet AI...');
+            setStatus('准备中...');
 
             // 添加加载消息
-            const loadingMsg = addMessage('思考中...', 'ai loading');
+            const loadingMsg = addMessage('思考中...', 'loading');
 
             try {
-                const response = await callSCNetAPI(text);
+                const response = await callProxyAPI(text, setStatus);
                 
                 // 移除加载消息，添加真实响应
                 loadingMsg.remove();
@@ -400,7 +494,8 @@
 
             } catch (error) {
                 loadingMsg.remove();
-                addMessage(`错误: ${error.message}`, 'ai');
+                const errorMsg = generateErrorResponse(error);
+                addMessage(errorMsg, 'error');
                 setStatus('请求失败');
             } finally {
                 isProcessing = false;
@@ -417,11 +512,11 @@
 
         // 欢迎消息
         setTimeout(() => {
-            const welcomeMsg = CONFIG.USE_PROXY 
-                ? '你好！我是 SCNet AI 助手。🚀 如需使用，请先启动本地代理：python scripts/scnet_proxy.py'
-                : '你好！我是 SCNet AI 助手。';
-            addMessage(welcomeMsg, 'ai');
+            addMessage('你好！我是 SCNet AI 助手。💡 提示：如果连接失败，请运行 python scripts/scnet_proxy.py 启动本地代理。', 'ai');
         }, 500);
+
+        // 预查找代理
+        findWorkingProxy();
     }
 
     // 页面加载完成后初始化
