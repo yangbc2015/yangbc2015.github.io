@@ -2,16 +2,19 @@
  * AI漫游 - 赛博朋克彩蛋系统
  * Cyberpunk Easter Eggs System
  * 
- * 激活方式：按方向键 ↑↓←→↑↓←→ 触发矩阵雨
+ * 激活方式：
+ * - 桌面端：按方向键 ↑↓←→↑↓←→ 触发矩阵雨
+ * - 手机端：三指同时点击屏幕触发矩阵雨
  */
 
 (function() {
     'use strict';
 
-    // ===== 彩蛋：方向键 ↑↓←→↑↓←→ 触发矩阵雨 =====
+    let matrixActive = false;
+
+    // ===== 桌面端：方向键 ↑↓←→↑↓←→ 触发 =====
     const easterCode = ['ArrowUp', 'ArrowDown', 'ArrowLeft', 'ArrowRight', 'ArrowUp', 'ArrowDown', 'ArrowLeft', 'ArrowRight'];
     let codeIndex = 0;
-    let matrixActive = false;
 
     document.addEventListener('keydown', (e) => {
         // 只响应方向键
@@ -31,6 +34,25 @@
             codeIndex = e.key === easterCode[0] ? 1 : 0;
         }
     });
+
+    // ===== 手机端：三指点击触发 =====
+    let lastTouchTime = 0;
+    
+    document.addEventListener('touchstart', (e) => {
+        // 检查是否是三指触摸
+        if (e.touches.length === 3) {
+            const now = Date.now();
+            // 防止短时间内重复触发
+            if (now - lastTouchTime > 2000) {
+                lastTouchTime = now;
+                // 显示提示
+                showEasterEggToast('🎮 检测到三指触摸！');
+                setTimeout(() => {
+                    activateMatrixRain();
+                }, 500);
+            }
+        }
+    }, { passive: true });
 
     function activateMatrixRain() {
         if (matrixActive) return;
@@ -125,7 +147,7 @@
         });
 
         // 显示提示
-        showEasterEggToast('🎮 矩阵模式已激活！点击屏幕或按 ESC 停止');
+        showEasterEggToast('🎮 矩阵模式已激活！点击屏幕停止');
     }
 
     // ===== 控制台赛博朋克 ASCII 艺术 =====
@@ -151,7 +173,8 @@
    ║  WELCOME TO AI WANDER - CYBERPUNK AI RESOURCE NAVIGATOR      ║
    ║                                                              ║
    ║  > 发现隐藏彩蛋：                                            ║
-   ║    • 按方向键 ↑↓←→↑↓←→ 激活矩阵雨模式                       ║
+   ║    • 桌面端：按方向键 ↑↓←→↑↓←→ 激活矩阵雨                   ║
+   ║    • 手机端：三指同时点击屏幕激活矩阵雨                     ║
    ║                                                              ║
    ║  > GitHub: https://github.com/yangbc2015                     ║
    ╚══════════════════════════════════════════════════════════════╝
@@ -214,7 +237,7 @@
 
     // 彩蛋提示（延迟5秒显示，避免打扰）
     setTimeout(() => {
-        console.log('%c💡 提示：尝试按方向键 ↑↓←→↑↓←→ 触发矩阵雨！', 'color: #ffd700; font-size: 11px;');
+        console.log('%c💡 提示：桌面端按 ↑↓←→↑↓←→ 或手机端三指点击触发矩阵雨！', 'color: #ffd700; font-size: 11px;');
     }, 5000);
 
 })();
