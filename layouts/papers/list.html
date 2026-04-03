@@ -2,6 +2,52 @@
 
 {{ define "extra-head" }}
 <link rel="stylesheet" href="{{ "css/unified-sections.css" | relURL }}">
+<style>
+    /* 折叠功能样式 */
+    .papers-collapsed {
+        max-height: 600px;
+        overflow: hidden;
+        position: relative;
+    }
+    .papers-collapsed::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100px;
+        background: linear-gradient(transparent, var(--dark-bg));
+    }
+    .papers-expanded {
+        max-height: none;
+    }
+    .papers-expanded::after {
+        display: none;
+    }
+    .expand-btn {
+        display: block;
+        width: 100%;
+        padding: 1rem;
+        margin-top: 1rem;
+        background: rgba(0, 230, 118, 0.1);
+        border: 1px solid rgba(0, 230, 118, 0.3);
+        border-radius: 8px;
+        color: var(--neon-green);
+        font-size: 0.9rem;
+        cursor: pointer;
+        text-align: center;
+        transition: all 0.3s ease;
+    }
+    .expand-btn:hover {
+        background: rgba(0, 230, 118, 0.2);
+    }
+    .expand-btn::after {
+        content: ' ▼';
+    }
+    .expand-btn.expanded::after {
+        content: ' ▲';
+    }
+</style>
 {{ end }}
 
 {{ define "main" }}
@@ -23,35 +69,55 @@
         </div>
         <div class="conference-timeline">
             <div class="conf-item">
-                <div class="conf-name">ICML 2026</div>
-                <div class="conf-date">2026年7月</div>
-                <span class="conf-status cfp">征稿中</span>
+                <div class="conf-name">ICML</div>
+                <div class="conf-date">机器学习顶会</div>
+                <span class="conf-status cfp">常年征稿</span>
             </div>
             <div class="conf-item">
-                <div class="conf-name">ACL 2026</div>
-                <div class="conf-date">2026年7月</div>
-                <span class="conf-status cfp">征稿中</span>
+                <div class="conf-name">NeurIPS</div>
+                <div class="conf-date">神经信息处理</div>
+                <span class="conf-status cfp">12月召开</span>
             </div>
             <div class="conf-item">
-                <div class="conf-name">ICCV 2026</div>
-                <div class="conf-date">2026年10月</div>
-                <span class="conf-status upcoming">即将开始</span>
+                <div class="conf-name">ICLR</div>
+                <div class="conf-date">表示学习会议</div>
+                <span class="conf-status upcoming">5月召开</span>
             </div>
             <div class="conf-item">
-                <div class="conf-name">NeurIPS 2026</div>
-                <div class="conf-date">2026年12月</div>
-                <span class="conf-status upcoming">即将开始</span>
+                <div class="conf-name">CVPR</div>
+                <div class="conf-date">计算机视觉</div>
+                <span class="conf-status cfp">6月召开</span>
+            </div>
+            <div class="conf-item">
+                <div class="conf-name">ICCV</div>
+                <div class="conf-date">计算机视觉</div>
+                <span class="conf-status upcoming">10月召开</span>
+            </div>
+            <div class="conf-item">
+                <div class="conf-name">ACL</div>
+                <div class="conf-date">计算语言学</div>
+                <span class="conf-status cfp">7月召开</span>
+            </div>
+            <div class="conf-item">
+                <div class="conf-name">EMNLP</div>
+                <div class="conf-date">自然语言处理</div>
+                <span class="conf-status upcoming">11月召开</span>
+            </div>
+            <div class="conf-item">
+                <div class="conf-name">AAAI</div>
+                <div class="conf-date">人工智能协会</div>
+                <span class="conf-status cfp">2月召开</span>
             </div>
         </div>
     </div>
 
-    <!-- 经典论文 -->
+    <!-- 经典论文 - 可折叠 -->
     <div class="papers-section">
         <div class="section-header">
             <h2 class="section-title">📚 经典论文</h2>
             <span class="section-more">{{ len $staticPapers }} 篇</span>
         </div>
-        <div class="papers-grid">
+        <div id="classic-papers-grid" class="papers-grid papers-collapsed">
             {{ range $staticPapers }}
             <article class="paper-card">
                 <span class="paper-badge {{ .Params.paper_type }}">{{ .Params.venue }}</span>
@@ -71,6 +137,9 @@
             </article>
             {{ end }}
         </div>
+        <button class="expand-btn" id="expand-classic-btn" onclick="toggleClassicPapers()">
+            展开全部 {{ len $staticPapers }} 篇经典论文
+        </button>
     </div>
 
     <!-- 最新论文 -->
@@ -81,7 +150,7 @@
         </div>
         <div class="papers-grid">
             {{ if $papersData.items }}
-                {{ range first 6 $papersData.items }}
+                {{ range first 9 $papersData.items }}
                 <article class="paper-card">
                     <span class="paper-badge {{ .badge }}">{{ .venue }}</span>
                     <h3 class="paper-title">
@@ -122,48 +191,90 @@
     <div class="papers-section">
         <div class="section-header">
             <h2 class="section-title">🏆 顶会精选</h2>
-            <a href="https://papers.nips.cc/" target="_blank" class="section-more">查看更多 →</a>
+            <a href="https://papercopilot.com/zh/" target="_blank" class="section-more">查看更多顶会 →</a>
         </div>
         <div class="papers-grid">
             <article class="paper-card">
-                <span class="paper-badge neurips">NeurIPS 2025</span>
+                <span class="paper-badge neurips">NeurIPS</span>
                 <h3 class="paper-title">
-                    <a href="#">Neural Network Generalization Through Implicit Regularization</a>
+                    <a href="https://papers.nips.cc/" target="_blank">Neural Information Processing Systems</a>
                 </h3>
-                <p class="paper-authors">Stanford AI Lab</p>
-                <p class="paper-venue">NeurIPS 2025 (Oral)</p>
-                <p class="paper-abstract">This paper reveals the implicit regularization mechanisms in deep neural networks and their impact on generalization...</p>
+                <p class="paper-authors">机器学习和计算神经科学顶会</p>
+                <p class="paper-venue">NeurIPS 2024</p>
+                <p class="paper-abstract">NeurIPS是机器学习领域的顶级会议，涵盖深度学习、强化学习、优化理论等方向。查看最新论文和录用列表...</p>
                 <div class="paper-links">
-                    <a href="#" class="paper-link">📄 PDF</a>
-                    <a href="#" class="paper-link">📊 Slides</a>
+                    <a href="https://papers.nips.cc/" class="paper-link" target="_blank">📄 论文库</a>
+                    <a href="https://nips.cc/" class="paper-link" target="_blank">🔗 官网</a>
                 </div>
             </article>
 
             <article class="paper-card">
-                <span class="paper-badge icml">ICML 2025</span>
+                <span class="paper-badge icml">ICML</span>
                 <h3 class="paper-title">
-                    <a href="#">Reward Hacking in Reinforcement Learning from Human Feedback</a>
+                    <a href="https://proceedings.mlr.press/" target="_blank">International Conference on Machine Learning</a>
                 </h3>
-                <p class="paper-authors">OpenAI Research</p>
-                <p class="paper-venue">ICML 2025</p>
-                <p class="paper-abstract">A comprehensive study of reward hacking phenomena in RLHF training and proposed mitigation strategies...</p>
+                <p class="paper-authors">国际机器学习大会</p>
+                <p class="paper-venue">ICML 2024</p>
+                <p class="paper-abstract">ICML是机器学习领域最具影响力的会议之一，涵盖算法、理论、应用等各个方面。浏览最新研究成果...</p>
                 <div class="paper-links">
-                    <a href="#" class="paper-link">📄 PDF</a>
-                    <a href="#" class="paper-link">💻 Code</a>
+                    <a href="https://proceedings.mlr.press/" class="paper-link" target="_blank">📄 论文库</a>
+                    <a href="https://icml.cc/" class="paper-link" target="_blank">🔗 官网</a>
                 </div>
             </article>
 
             <article class="paper-card">
-                <span class="paper-badge iclr">ICLR 2025</span>
+                <span class="paper-badge iclr">ICLR</span>
                 <h3 class="paper-title">
-                    <a href="#">Understanding Emergence in Large Language Models</a>
+                    <a href="https://openreview.net/group?id=ICLR.cc" target="_blank">International Conference on Learning Representations</a>
                 </h3>
-                <p class="paper-authors">Google DeepMind</p>
-                <p class="paper-venue">ICLR 2025 (Spotlight)</p>
-                <p class="paper-abstract">We investigate the emergence of capabilities in large language models and propose a framework for predicting emergent abilities...</p>
+                <p class="paper-authors">国际表示学习会议</p>
+                <p class="paper-venue">ICLR 2024</p>
+                <p class="paper-abstract">ICLR专注于表示学习、深度学习理论和方法。采用OpenReview开放评审系统，查看最新论文...</p>
                 <div class="paper-links">
-                    <a href="#" class="paper-link">📄 PDF</a>
-                    <a href="#" class="paper-link">🌐 Blog</a>
+                    <a href="https://openreview.net/group?id=ICLR.cc" class="paper-link" target="_blank">📄 OpenReview</a>
+                    <a href="https://iclr.cc/" class="paper-link" target="_blank">🔗 官网</a>
+                </div>
+            </article>
+
+            <article class="paper-card">
+                <span class="paper-badge cvpr">CVPR</span>
+                <h3 class="paper-title">
+                    <a href="https://openaccess.thecvf.com/" target="_blank">Computer Vision and Pattern Recognition</a>
+                </h3>
+                <p class="paper-authors">计算机视觉与模式识别</p>
+                <p class="paper-venue">CVPR 2024</p>
+                <p class="paper-abstract">CVPR是计算机视觉领域顶级会议，涵盖图像识别、目标检测、生成模型等。浏览开放获取论文...</p>
+                <div class="paper-links">
+                    <a href="https://openaccess.thecvf.com/" class="paper-link" target="_blank">📄 论文库</a>
+                    <a href="https://cvpr.thecvf.com/" class="paper-link" target="_blank">🔗 官网</a>
+                </div>
+            </article>
+
+            <article class="paper-card">
+                <span class="paper-badge acl">ACL</span>
+                <h3 class="paper-title">
+                    <a href="https://aclanthology.org/" target="_blank">Association for Computational Linguistics</a>
+                </h3>
+                <p class="paper-authors">计算语言学协会</p>
+                <p class="paper-venue">ACL 2024</p>
+                <p class="paper-abstract">ACL是自然语言处理领域顶级会议，涵盖NLP各方向最新研究。ACL Anthology提供开放获取论文库...</p>
+                <div class="paper-links">
+                    <a href="https://aclanthology.org/" class="paper-link" target="_blank">📄 Anthology</a>
+                    <a href="https://www.aclweb.org/" class="paper-link" target="_blank">🔗 官网</a>
+                </div>
+            </article>
+
+            <article class="paper-card">
+                <span class="paper-badge aaai">AAAI</span>
+                <h3 class="paper-title">
+                    <a href="https://aaai.org/" target="_blank">AAAI Conference on Artificial Intelligence</a>
+                </h3>
+                <p class="paper-authors">人工智能大会</p>
+                <p class="paper-venue">AAAI 2024</p>
+                <p class="paper-abstract">AAAI是人工智能领域的重要会议，涵盖AI的各个分支。查看最新录用论文和研究趋势...</p>
+                <div class="paper-links">
+                    <a href="https://aaai.org/" class="paper-link" target="_blank">📄 论文库</a>
+                    <a href="https://aaai.org/" class="paper-link" target="_blank">🔗 官网</a>
                 </div>
             </article>
         </div>
@@ -206,4 +317,25 @@
         </div>
     </div>
 </div>
+
+<script>
+    function toggleClassicPapers() {
+        const grid = document.getElementById('classic-papers-grid');
+        const btn = document.getElementById('expand-classic-btn');
+        
+        if (grid.classList.contains('papers-collapsed')) {
+            grid.classList.remove('papers-collapsed');
+            grid.classList.add('papers-expanded');
+            btn.textContent = '收起经典论文';
+            btn.classList.add('expanded');
+        } else {
+            grid.classList.remove('papers-expanded');
+            grid.classList.add('papers-collapsed');
+            btn.textContent = '展开全部 {{ len $staticPapers }} 篇经典论文';
+            btn.classList.remove('expanded');
+            // 滚动到经典论文区域顶部
+            grid.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+    }
+</script>
 {{ end }}
