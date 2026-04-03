@@ -11,11 +11,18 @@
     let matrixActive = false;
 
     // ===== Konami 代码触发矩阵雨 =====
+    // 支持: ↑ ↑ ↓ ↓ ← → ← → B A (不区分大小写)
     const konamiCode = ['ArrowUp', 'ArrowUp', 'ArrowDown', 'ArrowDown', 'ArrowLeft', 'ArrowRight', 'ArrowLeft', 'ArrowRight', 'b', 'a'];
     let codeIndex = 0;
+    
+    console.log('%c🎮 彩蛋系统已加载 - 试试 ↑↑↓↓←→←→BA', 'color: #00e676; font-size: 12px;');
 
     document.addEventListener('keydown', (e) => {
-        if (e.key === konamiCode[codeIndex]) {
+        // 将按键转为小写比较，支持大小写
+        const key = e.key.toLowerCase();
+        const expectedKey = konamiCode[codeIndex].toLowerCase();
+        
+        if (key === expectedKey) {
             codeIndex++;
             if (codeIndex === konamiCode.length) {
                 activateMatrixRain();
@@ -23,7 +30,7 @@
             }
         } else {
             // 如果按错了，检查是否是序列的第一个键
-            codeIndex = e.key === konamiCode[0] ? 1 : 0;
+            codeIndex = key === konamiCode[0].toLowerCase() ? 1 : 0;
         }
     });
 
