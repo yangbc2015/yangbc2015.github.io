@@ -46,7 +46,7 @@
             width: 100%;
             height: 100%;
             z-index: 9999;
-            pointer-events: none;
+            cursor: pointer;
             opacity: 0;
             transition: opacity 0.5s ease;
         `;
@@ -101,17 +101,31 @@
 
         draw();
 
-        // 点击停止
-        canvas.addEventListener('click', () => {
+        // 点击或按 ESC 停止
+        function stopMatrix() {
+            if (!matrixActive) return;
+            matrixActive = false;
             canvas.style.opacity = '0';
             setTimeout(() => {
                 canvas.remove();
-                matrixActive = false;
+            }, 500);
+        }
+        
+        canvas.addEventListener('click', stopMatrix);
+        
+        // ESC 键也能停止
+        const escHandler = (e) => {
+            if (e.key === 'Escape') {
+                stopMatrix();
+                document.removeEventListener('keydown', escHandler);
+            }
+        };
+        document.addEventListener('keydown', escHandler);
             }, 500);
         });
 
         // 显示提示
-        showEasterEggToast('🎮 矩阵模式已激活！点击屏幕停止');
+        showEasterEggToast('🎮 矩阵模式已激活！点击屏幕或按 ESC 停止');
     }
 
     // ===== 控制台赛博朋克 ASCII 艺术 =====
