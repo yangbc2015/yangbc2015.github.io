@@ -15,22 +15,37 @@
     const konamiCode = ['ArrowUp', 'ArrowUp', 'ArrowDown', 'ArrowDown', 'ArrowLeft', 'ArrowRight', 'ArrowLeft', 'ArrowRight', 'b', 'a'];
     let codeIndex = 0;
     
-    console.log('%c🎮 彩蛋系统已加载 - 试试 ↑↑↓↓←→←→BA', 'color: #00e676; font-size: 12px;');
+    console.log('%c🎮 彩蛋系统已加载', 'color: #00e676; font-size: 12px;');
+    console.log('%c使用方法: 在页面上按 ↑↑↓↓←→←→BA 触发矩阵雨', 'color: #00e5ff; font-size: 11px;');
 
+    // 调试模式：设为 true 可在控制台看到按键记录
+    const DEBUG = false;
+    
     document.addEventListener('keydown', (e) => {
+        // 忽略输入框中的按键
+        if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+        
         // 将按键转为小写比较，支持大小写
         const key = e.key.toLowerCase();
         const expectedKey = konamiCode[codeIndex].toLowerCase();
         
+        if (DEBUG) {
+            console.log(`按键: ${key}, 期待: ${expectedKey}, 进度: ${codeIndex}/${konamiCode.length}`);
+        }
+        
         if (key === expectedKey) {
             codeIndex++;
+            if (DEBUG) console.log(`✓ 正确! 进度: ${codeIndex}/${konamiCode.length}`);
+            
             if (codeIndex === konamiCode.length) {
                 activateMatrixRain();
                 codeIndex = 0;
             }
         } else {
             // 如果按错了，检查是否是序列的第一个键
-            codeIndex = key === konamiCode[0].toLowerCase() ? 1 : 0;
+            const isFirstKey = key === konamiCode[0].toLowerCase();
+            codeIndex = isFirstKey ? 1 : 0;
+            if (DEBUG && codeIndex > 0) console.log('从第一个键重新开始');
         }
     });
 
@@ -123,8 +138,6 @@
             }
         };
         document.addEventListener('keydown', escHandler);
-            }, 500);
-        });
 
         // 显示提示
         showEasterEggToast('🎮 矩阵模式已激活！点击屏幕停止');
