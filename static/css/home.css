@@ -468,10 +468,33 @@
     stroke-dasharray: 8, 8;
 }
 
-/* Sun Styling */
+/* Sun Styling - AI Chat Trigger */
 .sun {
     cursor: pointer;
-    filter: drop-shadow(0 0 30px rgba(240, 147, 251, 0.4));
+    filter: drop-shadow(0 0 30px rgba(0, 230, 118, 0.5));
+    transition: all 0.3s ease;
+}
+
+.sun:hover {
+    filter: drop-shadow(0 0 50px rgba(0, 230, 118, 0.8));
+}
+
+#center-ai-trigger {
+    animation: ai-trigger-pulse 2s ease-in-out infinite;
+}
+
+#center-ai-trigger:hover {
+    animation: none;
+    transform: translate(600px, 350px) scale(1.1);
+}
+
+@keyframes ai-trigger-pulse {
+    0%, 100% {
+        filter: drop-shadow(0 0 30px rgba(0, 230, 118, 0.5));
+    }
+    50% {
+        filter: drop-shadow(0 0 60px rgba(0, 230, 118, 0.9));
+    }
 }
 
 .sun-glow {

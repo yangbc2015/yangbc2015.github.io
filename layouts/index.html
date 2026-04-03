@@ -150,11 +150,12 @@
             <!-- 连接线组 -->
             <g id="connections"></g>
             
-            <!-- 中心太阳 -->
-            <g class="sun" transform="translate(600, 350)">
+            <!-- 中心太阳 - AI 聊天入口 -->
+            <g class="sun" id="center-ai-trigger" transform="translate(600, 350)" style="cursor: pointer;">
                 <circle class="sun-glow" r="80"/>
                 <circle class="sun-core" r="45"/>
-                <text class="planet-icon" dy="2" fill="white">🍀</text>
+                <text class="planet-icon" dy="2" fill="white">🤖</text>
+                <title>点击开启 AI 助手</title>
             </g>
             
             <!-- 星球组 -->
@@ -166,7 +167,7 @@
     </div>
     
     <div class="galaxy-hint">
-        点击星球探索 · 拖拽旋转 · 滚轮缩放
+        点击 🤖 开启 AI 助手 · 点击星球探索 · 拖拽旋转 · 滚轮缩放
     </div>
 </section>
 
