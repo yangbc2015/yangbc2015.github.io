@@ -1,25 +1,34 @@
 /**
  * AI漫游 - 赛博朋克彩蛋系统
  * Cyberpunk Easter Eggs System
+ * 
+ * 激活方式：按方向键 ↑↓←→↑↓←→ 触发矩阵雨
  */
 
 (function() {
     'use strict';
 
-    // ===== 彩蛋 1: Konami 代码触发矩阵雨 =====
-    const konamiCode = ['ArrowUp', 'ArrowUp', 'ArrowDown', 'ArrowDown', 'ArrowLeft', 'ArrowRight', 'ArrowLeft', 'ArrowRight', 'b', 'a'];
-    let konamiIndex = 0;
+    // ===== 彩蛋：方向键 ↑↓←→↑↓←→ 触发矩阵雨 =====
+    const easterCode = ['ArrowUp', 'ArrowDown', 'ArrowLeft', 'ArrowRight', 'ArrowUp', 'ArrowDown', 'ArrowLeft', 'ArrowRight'];
+    let codeIndex = 0;
     let matrixActive = false;
 
     document.addEventListener('keydown', (e) => {
-        if (e.key === konamiCode[konamiIndex]) {
-            konamiIndex++;
-            if (konamiIndex === konamiCode.length) {
+        // 只响应方向键
+        if (!['ArrowUp', 'ArrowDown', 'ArrowLeft', 'ArrowRight'].includes(e.key)) {
+            codeIndex = 0;
+            return;
+        }
+
+        if (e.key === easterCode[codeIndex]) {
+            codeIndex++;
+            if (codeIndex === easterCode.length) {
                 activateMatrixRain();
-                konamiIndex = 0;
+                codeIndex = 0;
             }
         } else {
-            konamiIndex = 0;
+            // 如果按错了，检查是否是序列的第一个键
+            codeIndex = e.key === easterCode[0] ? 1 : 0;
         }
     });
 
@@ -105,72 +114,7 @@
         showEasterEggToast('🎮 矩阵模式已激活！点击屏幕停止');
     }
 
-    // ===== 彩蛋 2: 双击 Logo 触发粒子爆炸 =====
-    let logoClickCount = 0;
-    let logoClickTimer = null;
-
-    document.addEventListener('DOMContentLoaded', () => {
-        const logo = document.querySelector('.site-logo');
-        if (logo) {
-            logo.addEventListener('click', (e) => {
-                logoClickCount++;
-                
-                if (logoClickCount === 1) {
-                    logoClickTimer = setTimeout(() => {
-                        logoClickCount = 0;
-                    }, 500);
-                } else if (logoClickCount >= 3) {
-                    clearTimeout(logoClickTimer);
-                    logoClickCount = 0;
-                    createParticleExplosion(e.clientX, e.clientY);
-                    showEasterEggToast('✨ 发现了隐藏彩蛋！');
-                }
-            });
-        }
-    });
-
-    function createParticleExplosion(x, y) {
-        const colors = ['#00e676', '#00e5ff', '#ff4081', '#ffd700', '#fff'];
-        const particleCount = 30;
-
-        for (let i = 0; i < particleCount; i++) {
-            const particle = document.createElement('div');
-            const color = colors[Math.floor(Math.random() * colors.length)];
-            const size = Math.random() * 8 + 4;
-            const angle = (Math.PI * 2 * i) / particleCount;
-            const velocity = Math.random() * 100 + 50;
-
-            particle.style.cssText = `
-                position: fixed;
-                left: ${x}px;
-                top: ${y}px;
-                width: ${size}px;
-                height: ${size}px;
-                background: ${color};
-                border-radius: 50%;
-                pointer-events: none;
-                z-index: 9999;
-                box-shadow: 0 0 10px ${color};
-            `;
-
-            document.body.appendChild(particle);
-
-            const duration = Math.random() * 800 + 600;
-            
-            particle.animate([
-                { transform: 'translate(0, 0) scale(1)', opacity: 1 },
-                { 
-                    transform: `translate(${Math.cos(angle) * velocity}px, ${Math.sin(angle) * velocity}px) scale(0)`,
-                    opacity: 0 
-                }
-            ], {
-                duration: duration,
-                easing: 'cubic-bezier(0, .9, .57, 1)'
-            }).onfinish = () => particle.remove();
-        }
-    }
-
-    // ===== 彩蛋 3: 控制台赛博朋克 ASCII 艺术 =====
+    // ===== 控制台赛博朋克 ASCII 艺术 =====
     function printConsoleEasterEgg() {
         const styles = [
             'color: #00e676',
@@ -193,16 +137,14 @@
    ║  WELCOME TO AI WANDER - CYBERPUNK AI RESOURCE NAVIGATOR      ║
    ║                                                              ║
    ║  > 发现隐藏彩蛋：                                            ║
-   ║    • 输入 Konami 代码 (↑↑↓↓←→←→BA) 激活矩阵模式             ║
-   ║    • 快速点击 Logo 3 次触发粒子爆炸                         ║
-   ║    • 在搜索框输入 "matrix" 有惊喜                           ║
+   ║    • 按方向键 ↑↓←→↑↓←→ 激活矩阵雨模式                       ║
    ║                                                              ║
    ║  > GitHub: https://github.com/yangbc2015                     ║
    ╚══════════════════════════════════════════════════════════════╝
         `;
 
         console.log('%c' + ascii, styles);
-        console.log('%c🔍 寻找更多彩蛋...', 'color: #00e5ff; font-size: 11px;');
+        console.log('%c🔍 按 ↑↓←→↑↓←→ 触发彩蛋...', 'color: #00e5ff; font-size: 11px;');
     }
 
     // 页面加载后打印控制台彩蛋
@@ -211,25 +153,6 @@
     } else {
         printConsoleEasterEgg();
     }
-
-    // ===== 彩蛋 4: 搜索框输入 "matrix" 触发特效 =====
-    document.addEventListener('DOMContentLoaded', () => {
-        const searchInput = document.querySelector('.search-input, input[type="search"]');
-        if (searchInput) {
-            let typingTimer;
-            searchInput.addEventListener('input', (e) => {
-                clearTimeout(typingTimer);
-                const value = e.target.value.toLowerCase();
-                
-                if (value === 'matrix' || value === '黑客帝国') {
-                    typingTimer = setTimeout(() => {
-                        activateMatrixRain();
-                        e.target.value = '';
-                    }, 500);
-                }
-            });
-        }
-    });
 
     // ===== 辅助函数：显示彩蛋提示 =====
     function showEasterEggToast(message) {
@@ -275,9 +198,9 @@
     `;
     document.head.appendChild(style);
 
-    // 彩蛋激活提示（延迟5秒显示，避免打扰）
+    // 彩蛋提示（延迟5秒显示，避免打扰）
     setTimeout(() => {
-        console.log('%c💡 提示：尝试输入 Konami 代码 (↑↑↓↓←→←→BA) 或快速点击 Logo 3 次！', 'color: #ffd700; font-size: 11px;');
+        console.log('%c💡 提示：尝试按方向键 ↑↓←→↑↓←→ 触发矩阵雨！', 'color: #ffd700; font-size: 11px;');
     }, 5000);
 
 })();
