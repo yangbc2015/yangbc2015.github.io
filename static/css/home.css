@@ -374,9 +374,10 @@
 }
 
 .music-icon {
-    width: 20px;
-    height: 20px;
+    width: 24px;
+    height: 24px;
     display: none;
+    position: relative;
 }
 
 .music-icon svg {
@@ -384,12 +385,62 @@
     height: 100%;
 }
 
-.music-icon.playing {
-    color: var(--neon-green);
-}
-
+/* 暂停状态 - 蓝色 */
 .music-icon.paused {
     color: var(--neon-blue);
+    display: flex;
+}
+
+/* 播放状态 - 绿色 + 音量动画 */
+.music-icon.playing {
+    color: var(--neon-green);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* 音量跳动动画 */
+.music-visualizer {
+    position: absolute;
+    right: -2px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: flex-end;
+    gap: 2px;
+    height: 14px;
+}
+
+.music-visualizer span {
+    width: 2px;
+    background: currentColor;
+    border-radius: 1px;
+    opacity: 0;
+}
+
+/* 播放时显示并动画 */
+.music-icon.playing.active .music-visualizer span {
+    opacity: 0.8;
+}
+
+.music-icon.playing.active .music-visualizer span:nth-child(1) {
+    height: 6px;
+    animation: music-bounce 0.6s ease-in-out infinite;
+}
+
+.music-icon.playing.active .music-visualizer span:nth-child(2) {
+    height: 10px;
+    animation: music-bounce 0.5s ease-in-out infinite 0.1s;
+}
+
+.music-icon.playing.active .music-visualizer span:nth-child(3) {
+    height: 8px;
+    animation: music-bounce 0.7s ease-in-out infinite 0.2s;
+}
+
+@keyframes music-bounce {
+    0%, 100% { transform: scaleY(0.6); }
+    50% { transform: scaleY(1.2); }
 }
 
 /* ===== Visitor Float ===== */
