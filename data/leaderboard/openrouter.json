@@ -1,7 +1,8 @@
 {
+  "last_updated": "2026-04-03T12:00:00+00:00",
   "source": "OpenRouter",
-  "source_url": "https://openrouter.ai",
-  "description": "基于实际 API 使用情况的模型统计",
+  "source_url": "https://openrouter.ai/rankings",
+  "description": "OpenRouter 模型使用统计排行榜，基于实际 API 调用的 token 量排名，反映开发者的真实使用偏好",
   "models": [
     {
       "rank": 1,
@@ -23,9 +24,9 @@
       "rank": 3,
       "model": "qwen3.6-plus:free",
       "organization": "qwen",
-      "price_prompt": "0",
-      "price_completion": "0",
-      "context_length": 1000000
+      "tokens": "1.64T",
+      "change": "new",
+      "icon": "🌟"
     },
     {
       "rank": 4,
@@ -71,9 +72,9 @@
       "rank": 9,
       "model": "lyria-3-clip-preview",
       "organization": "google",
-      "price_prompt": "0",
-      "price_completion": "0",
-      "context_length": 1048576
+      "tokens": "979B",
+      "change": "3%",
+      "icon": "🤖"
     },
     {
       "rank": 10,
@@ -103,9 +104,9 @@
       "rank": 13,
       "model": "mimo-v2-pro",
       "organization": "xiaomi",
-      "price_prompt": "0.000001",
-      "price_completion": "0.000003",
-      "context_length": 1048576
+      "tokens": "604B",
+      "change": "26%",
+      "icon": "🎯"
     },
     {
       "rank": 14,

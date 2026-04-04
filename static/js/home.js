@@ -605,19 +605,25 @@
         function updateUI(playing) {
             isPlaying = playing;
             if (playing) {
+                // 显示播放图标（带音量动画），隐藏暂停图标
                 musicIcon.style.display = 'flex';
+                musicIcon.classList.add('active');
                 musicIconPaused.style.display = 'none';
-                if (visualizer) visualizer.classList.add('active');
-                musicToggle.style.background = 'rgba(0, 230, 118, 0.12)';
+                // 按钮样式 - 绿色主题
+                musicToggle.style.background = 'rgba(0, 230, 118, 0.15)';
                 musicToggle.style.borderColor = 'var(--neon-green)';
                 musicToggle.style.color = 'var(--neon-green)';
+                musicToggle.style.boxShadow = '0 0 20px rgba(0, 230, 118, 0.3)';
             } else {
+                // 显示暂停图标，隐藏播放图标
                 musicIcon.style.display = 'none';
+                musicIcon.classList.remove('active');
                 musicIconPaused.style.display = 'flex';
-                if (visualizer) visualizer.classList.remove('active');
+                // 按钮样式 - 蓝色主题
                 musicToggle.style.background = 'rgba(0, 229, 255, 0.08)';
-                musicToggle.style.borderColor = 'rgba(0, 229, 255, 0.25)';
+                musicToggle.style.borderColor = 'rgba(0, 229, 255, 0.3)';
                 musicToggle.style.color = 'var(--neon-blue)';
+                musicToggle.style.boxShadow = 'none';
             }
         }
         
@@ -639,6 +645,7 @@
         bgMusic.addEventListener('pause', () => updateUI(false));
         bgMusic.addEventListener('ended', () => updateUI(false));
         
+        // 初始状态：显示暂停图标
         updateUI(false);
     })();
 

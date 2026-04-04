@@ -5,6 +5,20 @@
 {{ end }}
 
 {{ define "main" }}
+{{ $tools := where .Site.RegularPages "Type" "tools" }}
+{{ $llmTools := where $tools "Params.category" "LLM" }}
+{{ $imageTools := where $tools "Params.category" "Image" }}
+{{ $videoTools := where $tools "Params.category" "Video" }}
+{{ $audioTools := where $tools "Params.category" "Audio" }}
+{{ $codeTools := where $tools "Params.category" "Code" }}
+{{ $productivityTools := where $tools "Params.category" "Productivity" }}
+{{ $platformTools := where $tools "Params.category" "Platform" }}
+{{ $frameworkTools := where $tools "Params.category" "Framework" }}
+{{ $databaseTools := where $tools "Params.category" "Database" }}
+{{ $mlopsTools := where $tools "Params.category" "MLOps" }}
+{{ $dataTools := where $tools "Params.category" "Data" }}
+{{ $automlTools := where $tools "Params.category" "AutoML" }}
+
 {{ partial "page-header.html" . }}
 
 <div class="section-container" style="padding-top: 1rem;">
@@ -14,7 +28,7 @@
         <input type="text" class="tools-search-input" placeholder="搜索 AI 工具..." id="toolSearch">
     </div>
 
-    <!-- 热门工具 -->
+    <!-- 热门工具（前3个） -->
     <div class="featured-tools">
         <div class="featured-tool">
             <div class="featured-icon">🤖</div>
@@ -32,275 +46,289 @@
             <div class="featured-icon">💻</div>
             <h3 class="featured-name"><a href="https://github.com/features/copilot" target="_blank">GitHub Copilot</a></h3>
             <p class="featured-desc">AI 编程助手，自动生成代码建议</p>
-            <a href="https://github.com/features/copilot" target="blank" class="featured-btn">访问 →</a>
+            <a href="https://github.com/features/copilot" target="_blank" class="featured-btn">访问 →</a>
         </div>
     </div>
 
     <!-- 分类筛选 -->
     <div class="tools-categories">
-        <button class="category-btn active" data-category="all">全部</button>
-        <button class="category-btn" data-category="llm">大语言模型</button>
-        <button class="category-btn" data-category="image">图像生成</button>
-        <button class="category-btn" data-category="code">代码辅助</button>
-        <button class="category-btn" data-category="dev">开发工具</button>
-        <button class="category-btn" data-category="data">数据处理</button>
-        <button class="category-btn" data-category="api">API 服务</button>
+        <button class="category-btn active" data-category="all">全部 ({{ len $tools }})</button>
+        {{ if $llmTools }}<button class="category-btn" data-category="llm">大语言模型 ({{ len $llmTools }})</button>{{ end }}
+        {{ if $imageTools }}<button class="category-btn" data-category="image">图像生成 ({{ len $imageTools }})</button>{{ end }}
+        {{ if $videoTools }}<button class="category-btn" data-category="video">视频生成 ({{ len $videoTools }})</button>{{ end }}
+        {{ if $audioTools }}<button class="category-btn" data-category="audio">音频/语音 ({{ len $audioTools }})</button>{{ end }}
+        {{ if $codeTools }}<button class="category-btn" data-category="code">代码辅助 ({{ len $codeTools }})</button>{{ end }}
+        {{ if $productivityTools }}<button class="category-btn" data-category="productivity">生产力 ({{ len $productivityTools }})</button>{{ end }}
+        {{ if $platformTools }}<button class="category-btn" data-category="platform">AI平台 ({{ len $platformTools }})</button>{{ end }}
+        {{ if $frameworkTools }}<button class="category-btn" data-category="framework">开发框架 ({{ len $frameworkTools }})</button>{{ end }}
+        {{ if $databaseTools }}<button class="category-btn" data-category="database">向量数据库 ({{ len $databaseTools }})</button>{{ end }}
+        {{ if $mlopsTools }}<button class="category-btn" data-category="mlops">MLOps ({{ len $mlopsTools }})</button>{{ end }}
     </div>
 
-    <!-- 大语言模型 -->
+    <!-- 动态工具列表 -->
+    {{ if $llmTools }}
     <div class="tools-section" data-category="llm">
-        <h2 class="section-title">💬 大语言模型</h2>
+        <h2 class="section-title">💬 大语言模型 ({{ len $llmTools }})</h2>
         <div class="tools-grid">
+            {{ range $llmTools }}
             <div class="tool-card">
-                <div class="tool-icon">🚀</div>
+                <div class="tool-icon">🤖</div>
                 <div class="tool-info">
-                    <h3 class="tool-name"><a href="https://claude.ai" target="_blank">Claude</a></h3>
-                    <p class="tool-desc">Anthropic 开发的 AI 助手，以安全性和推理能力著称</p>
+                    <h3 class="tool-name"><a href="{{ .Params.url }}" target="_blank">{{ .Title }}</a></h3>
+                    <p class="tool-desc">{{ .Description }}</p>
                     <div class="tool-tags">
-                        <span class="tool-tag">对话</span>
-                        <span class="tool-tag">长文本</span>
+                        {{ range .Params.tags }}
+                        <span class="tool-tag">{{ . }}</span>
+                        {{ end }}
                     </div>
                 </div>
             </div>
-            <div class="tool-card">
-                <div class="tool-icon">🔥</div>
-                <div class="tool-info">
-                    <h3 class="tool-name"><a href="https://chat.deepseek.com" target="_blank">DeepSeek</a></h3>
-                    <p class="tool-desc">深度求索开发的对话模型，开源且性能优异</p>
-                    <div class="tool-tags">
-                        <span class="tool-tag">开源</span>
-                        <span class="tool-tag">中文</span>
-                    </div>
-                </div>
-            </div>
-            <div class="tool-card">
-                <div class="tool-icon">🌟</div>
-                <div class="tool-info">
-                    <h3 class="tool-name"><a href="https://gemini.google.com" target="_blank">Gemini</a></h3>
-                    <p class="tool-desc">Google 多模态 AI 模型，支持文本、图像、视频理解</p>
-                    <div class="tool-tags">
-                        <span class="tool-tag">多模态</span>
-                        <span class="tool-tag">长上下文</span>
-                    </div>
-                </div>
-            </div>
-            <div class="tool-card">
-                <div class="tool-icon">🐂</div>
-                <div class="tool-info">
-                    <h3 class="tool-name"><a href="https://www.perplexity.ai" target="_blank">Perplexity</a></h3>
-                    <p class="tool-desc">AI 搜索引擎，提供带引用的实时答案</p>
-                    <div class="tool-tags">
-                        <span class="tool-tag">搜索</span>
-                        <span class="tool-tag">引用</span>
-                    </div>
-                </div>
-            </div>
+            {{ end }}
         </div>
     </div>
+    {{ end }}
 
-    <!-- 图像生成 -->
+    {{ if $imageTools }}
     <div class="tools-section" data-category="image">
-        <h2 class="section-title">🎨 图像生成</h2>
+        <h2 class="section-title">🎨 图像生成 ({{ len $imageTools }})</h2>
         <div class="tools-grid">
+            {{ range $imageTools }}
             <div class="tool-card">
                 <div class="tool-icon">🖼️</div>
                 <div class="tool-info">
-                    <h3 class="tool-name"><a href="https://openai.com/dall-e-3" target="_blank">DALL·E 3</a></h3>
-                    <p class="tool-desc">OpenAI 图像生成模型，理解力强，文字渲染优秀</p>
+                    <h3 class="tool-name"><a href="{{ .Params.url }}" target="_blank">{{ .Title }}</a></h3>
+                    <p class="tool-desc">{{ .Description }}</p>
                     <div class="tool-tags">
-                        <span class="tool-tag">文生图</span>
-                        <span class="tool-tag">高质量</span>
+                        {{ range .Params.tags }}
+                        <span class="tool-tag">{{ . }}</span>
+                        {{ end }}
                     </div>
                 </div>
             </div>
-            <div class="tool-card">
-                <div class="tool-icon">⚡</div>
-                <div class="tool-info">
-                    <h3 class="tool-name"><a href="https://stability.ai" target="_blank">Stable Diffusion</a></h3>
-                    <p class="tool-desc">开源图像生成模型，社区生态丰富，可本地部署</p>
-                    <div class="tool-tags">
-                        <span class="tool-tag">开源</span>
-                        <span class="tool-tag">本地</span>
-                    </div>
-                </div>
-            </div>
-            <div class="tool-card">
-                <div class="tool-icon">✨</div>
-                <div class="tool-info">
-                    <h3 class="tool-name"><a href="https://firefly.adobe.com" target="_blank">Adobe Firefly</a></h3>
-                    <p class="tool-desc">Adobe 商业安全图像生成工具，支持多种创意功能</p>
-                    <div class="tool-tags">
-                        <span class="tool-tag">商业</span>
-                        <span class="tool-tag">设计</span>
-                    </div>
-                </div>
-            </div>
-            <div class="tool-card">
-                <div class="tool-icon">🎭</div>
-                <div class="tool-info">
-                    <h3 class="tool-name"><a href="https://leonardo.ai" target="_blank">Leonardo.ai</a></h3>
-                    <p class="tool-desc">游戏资产和角色设计专用 AI 工具</p>
-                    <div class="tool-tags">
-                        <span class="tool-tag">游戏</span>
-                        <span class="tool-tag">角色</span>
-                    </div>
-                </div>
-            </div>
+            {{ end }}
         </div>
     </div>
+    {{ end }}
 
-    <!-- 代码辅助 -->
+    {{ if $videoTools }}
+    <div class="tools-section" data-category="video">
+        <h2 class="section-title">🎬 视频生成 ({{ len $videoTools }})</h2>
+        <div class="tools-grid">
+            {{ range $videoTools }}
+            <div class="tool-card">
+                <div class="tool-icon">🎥</div>
+                <div class="tool-info">
+                    <h3 class="tool-name"><a href="{{ .Params.url }}" target="_blank">{{ .Title }}</a></h3>
+                    <p class="tool-desc">{{ .Description }}</p>
+                    <div class="tool-tags">
+                        {{ range .Params.tags }}
+                        <span class="tool-tag">{{ . }}</span>
+                        {{ end }}
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+    {{ end }}
+
+    {{ if $audioTools }}
+    <div class="tools-section" data-category="audio">
+        <h2 class="section-title">🔊 音频/语音 ({{ len $audioTools }})</h2>
+        <div class="tools-grid">
+            {{ range $audioTools }}
+            <div class="tool-card">
+                <div class="tool-icon">🎵</div>
+                <div class="tool-info">
+                    <h3 class="tool-name"><a href="{{ .Params.url }}" target="_blank">{{ .Title }}</a></h3>
+                    <p class="tool-desc">{{ .Description }}</p>
+                    <div class="tool-tags">
+                        {{ range .Params.tags }}
+                        <span class="tool-tag">{{ . }}</span>
+                        {{ end }}
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+    {{ end }}
+
+    {{ if $codeTools }}
     <div class="tools-section" data-category="code">
-        <h2 class="section-title">💻 代码辅助</h2>
+        <h2 class="section-title">💻 代码辅助 ({{ len $codeTools }})</h2>
         <div class="tools-grid">
-            <div class="tool-card">
-                <div class="tool-icon">🎯</div>
-                <div class="tool-info">
-                    <h3 class="tool-name"><a href="https://www.cursor.com" target="_blank">Cursor</a></h3>
-                    <p class="tool-desc">AI 原生代码编辑器，基于 VS Code，内置 GPT-4</p>
-                    <div class="tool-tags">
-                        <span class="tool-tag">编辑器</span>
-                        <span class="tool-tag">AI编程</span>
-                    </div>
-                </div>
-            </div>
-            <div class="tool-card">
-                <div class="tool-icon">🧠</div>
-                <div class="tool-info">
-                    <h3 class="tool-name"><a href="https://www.anthropic.com/claude-code" target="_blank">Claude Code</a></h3>
-                    <p class="tool-desc">Anthropic 的代码助手，支持命令行和 IDE 集成</p>
-                    <div class="tool-tags">
-                        <span class="tool-tag">命令行</span>
-                        <span class="tool-tag">安全</span>
-                    </div>
-                </div>
-            </div>
+            {{ range $codeTools }}
             <div class="tool-card">
                 <div class="tool-icon">⚡</div>
                 <div class="tool-info">
-                    <h3 class="tool-name"><a href="https://v0.dev" target="_blank">v0</a></h3>
-                    <p class="tool-desc">Vercel AI 生成 UI 工具，快速生成 React 组件</p>
+                    <h3 class="tool-name"><a href="{{ .Params.url }}" target="_blank">{{ .Title }}</a></h3>
+                    <p class="tool-desc">{{ .Description }}</p>
                     <div class="tool-tags">
-                        <span class="tool-tag">前端</span>
-                        <span class="tool-tag">UI</span>
+                        {{ range .Params.tags }}
+                        <span class="tool-tag">{{ . }}</span>
+                        {{ end }}
                     </div>
                 </div>
             </div>
-            <div class="tool-card">
-                <div class="tool-icon">🔍</div>
-                <div class="tool-info">
-                    <h3 class="tool-name"><a href="https://sourcery.ai" target="_blank">Sourcery</a></h3>
-                    <p class="tool-desc">Python 代码重构和优化工具</p>
-                    <div class="tool-tags">
-                        <span class="tool-tag">重构</span>
-                        <span class="tool-tag">Python</span>
-                    </div>
-                </div>
-            </div>
+            {{ end }}
         </div>
     </div>
+    {{ end }}
 
-    <!-- 开发工具 -->
-    <div class="tools-section" data-category="dev">
-        <h2 class="section-title">🛠️ 开发工具</h2>
+    {{ if $productivityTools }}
+    <div class="tools-section" data-category="productivity">
+        <h2 class="section-title">✍️ 生产力/写作 ({{ len $productivityTools }})</h2>
         <div class="tools-grid">
+            {{ range $productivityTools }}
             <div class="tool-card">
-                <div class="tool-icon">🤗</div>
+                <div class="tool-icon">📝</div>
                 <div class="tool-info">
-                    <h3 class="tool-name"><a href="https://huggingface.co" target="_blank">Hugging Face</a></h3>
-                    <p class="tool-desc">最大的 AI 模型和数据集社区，Transformers 库开发者</p>
+                    <h3 class="tool-name"><a href="{{ .Params.url }}" target="_blank">{{ .Title }}</a></h3>
+                    <p class="tool-desc">{{ .Description }}</p>
                     <div class="tool-tags">
-                        <span class="tool-tag">模型库</span>
-                        <span class="tool-tag">社区</span>
+                        {{ range .Params.tags }}
+                        <span class="tool-tag">{{ . }}</span>
+                        {{ end }}
                     </div>
                 </div>
             </div>
+            {{ end }}
+        </div>
+    </div>
+    {{ end }}
+
+    {{ if $platformTools }}
+    <div class="tools-section" data-category="platform">
+        <h2 class="section-title">☁️ AI平台/API ({{ len $platformTools }})</h2>
+        <div class="tools-grid">
+            {{ range $platformTools }}
+            <div class="tool-card">
+                <div class="tool-icon">🌐</div>
+                <div class="tool-info">
+                    <h3 class="tool-name"><a href="{{ .Params.url }}" target="_blank">{{ .Title }}</a></h3>
+                    <p class="tool-desc">{{ .Description }}</p>
+                    <div class="tool-tags">
+                        {{ range .Params.tags }}
+                        <span class="tool-tag">{{ . }}</span>
+                        {{ end }}
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+    {{ end }}
+
+    {{ if $frameworkTools }}
+    <div class="tools-section" data-category="framework">
+        <h2 class="section-title">🔧 开发框架 ({{ len $frameworkTools }})</h2>
+        <div class="tools-grid">
+            {{ range $frameworkTools }}
+            <div class="tool-card">
+                <div class="tool-icon">🔨</div>
+                <div class="tool-info">
+                    <h3 class="tool-name"><a href="{{ .Params.url }}" target="_blank">{{ .Title }}</a></h3>
+                    <p class="tool-desc">{{ .Description }}</p>
+                    <div class="tool-tags">
+                        {{ range .Params.tags }}
+                        <span class="tool-tag">{{ . }}</span>
+                        {{ end }}
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+    {{ end }}
+
+    {{ if $databaseTools }}
+    <div class="tools-section" data-category="database">
+        <h2 class="section-title">🗄️ 向量数据库 ({{ len $databaseTools }})</h2>
+        <div class="tools-grid">
+            {{ range $databaseTools }}
+            <div class="tool-card">
+                <div class="tool-icon">💾</div>
+                <div class="tool-info">
+                    <h3 class="tool-name"><a href="{{ .Params.url }}" target="_blank">{{ .Title }}</a></h3>
+                    <p class="tool-desc">{{ .Description }}</p>
+                    <div class="tool-tags">
+                        {{ range .Params.tags }}
+                        <span class="tool-tag">{{ . }}</span>
+                        {{ end }}
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+    {{ end }}
+
+    {{ if $mlopsTools }}
+    <div class="tools-section" data-category="mlops">
+        <h2 class="section-title">🚀 MLOps工具 ({{ len $mlopsTools }})</h2>
+        <div class="tools-grid">
+            {{ range $mlopsTools }}
             <div class="tool-card">
                 <div class="tool-icon">📊</div>
                 <div class="tool-info">
-                    <h3 class="tool-name"><a href="https://wandb.ai" target="_blank">Weights & Biases</a></h3>
-                    <p class="tool-desc">ML 实验跟踪和可视化平台</p>
+                    <h3 class="tool-name"><a href="{{ .Params.url }}" target="_blank">{{ .Title }}</a></h3>
+                    <p class="tool-desc">{{ .Description }}</p>
                     <div class="tool-tags">
-                        <span class="tool-tag">实验管理</span>
-                        <span class="tool-tag">可视化</span>
+                        {{ range .Params.tags }}
+                        <span class="tool-tag">{{ . }}</span>
+                        {{ end }}
                     </div>
                 </div>
             </div>
-            <div class="tool-card">
-                <div class="tool-icon">📓</div>
-                <div class="tool-info">
-                    <h3 class="tool-name"><a href="https://www.gradio.app" target="_blank">Gradio</a></h3>
-                    <p class="tool-desc">快速构建和分享 ML 模型 Demo 的 Python 库</p>
-                    <div class="tool-tags">
-                        <span class="tool-tag">Demo</span>
-                        <span class="tool-tag">开源</span>
-                    </div>
-                </div>
-            </div>
-            <div class="tool-card">
-                <div class="tool-icon">🌊</div>
-                <div class="tool-info">
-                    <h3 class="tool-name"><a href="https://langchain.com" target="_blank">LangChain</a></h3>
-                    <p class="tool-desc">LLM 应用开发框架，简化复杂 AI 应用构建</p>
-                    <div class="tool-tags">
-                        <span class="tool-tag">框架</span>
-                        <span class="tool-tag">LLM应用</span>
-                    </div>
-                </div>
-            </div>
+            {{ end }}
         </div>
     </div>
+    {{ end }}
 
-    <!-- API 服务 -->
-    <div class="tools-section" data-category="api">
-        <h2 class="section-title">🔌 API 服务</h2>
+    {{ if $dataTools }}
+    <div class="tools-section" data-category="data">
+        <h2 class="section-title">📂 数据处理 ({{ len $dataTools }})</h2>
         <div class="tools-grid">
+            {{ range $dataTools }}
             <div class="tool-card">
-                <div class="tool-icon">☁️</div>
+                <div class="tool-icon">📁</div>
                 <div class="tool-info">
-                    <h3 class="tool-name"><a href="https://platform.openai.com" target="_blank">OpenAI API</a></h3>
-                    <p class="tool-desc">GPT-4、DALL·E、Whisper 等模型的 API 服务</p>
+                    <h3 class="tool-name"><a href="{{ .Params.url }}" target="_blank">{{ .Title }}</a></h3>
+                    <p class="tool-desc">{{ .Description }}</p>
                     <div class="tool-tags">
-                        <span class="tool-tag">GPT-4</span>
-                        <span class="tool-tag">稳定</span>
+                        {{ range .Params.tags }}
+                        <span class="tool-tag">{{ . }}</span>
+                        {{ end }}
                     </div>
                 </div>
             </div>
-            <div class="tool-card">
-                <div class="tool-icon">🔄</div>
-                <div class="tool-info">
-                    <h3 class="tool-name"><a href="https://openrouter.ai" target="_blank">OpenRouter</a></h3>
-                    <p class="tool-desc">统一 API 接口，接入多个模型提供商</p>
-                    <div class="tool-tags">
-                        <span class="tool-tag">聚合</span>
-                        <span class="tool-tag">多模型</span>
-                    </div>
-                </div>
-            </div>
+            {{ end }}
+        </div>
+    </div>
+    {{ end }}
+
+    {{ if $automlTools }}
+    <div class="tools-section" data-category="automl">
+        <h2 class="section-title">🤖 AutoML ({{ len $automlTools }})</h2>
+        <div class="tools-grid">
+            {{ range $automlTools }}
             <div class="tool-card">
                 <div class="tool-icon">🎯</div>
                 <div class="tool-info">
-                    <h3 class="tool-name"><a href="https://groq.com" target="_blank">Groq</a></h3>
-                    <p class="tool-desc">超高速推理 API，延迟极低</p>
+                    <h3 class="tool-name"><a href="{{ .Params.url }}" target="_blank">{{ .Title }}</a></h3>
+                    <p class="tool-desc">{{ .Description }}</p>
                     <div class="tool-tags">
-                        <span class="tool-tag">极速</span>
-                        <span class="tool-tag">推理</span>
+                        {{ range .Params.tags }}
+                        <span class="tool-tag">{{ . }}</span>
+                        {{ end }}
                     </div>
                 </div>
             </div>
-            <div class="tool-card">
-                <div class="tool-icon">🌍</div>
-                <div class="tool-info">
-                    <h3 class="tool-name"><a href="https://www.together.ai" target="_blank">Together AI</a></h3>
-                    <p class="tool-desc">开源模型推理和微调服务平台</p>
-                    <div class="tool-tags">
-                        <span class="tool-tag">开源</span>
-                        <span class="tool-tag">微调</span>
-                    </div>
-                </div>
-            </div>
+            {{ end }}
         </div>
     </div>
+    {{ end }}
 </div>
 {{ end }}
 

@@ -5,192 +5,178 @@
 {{ end }}
 
 {{ define "main" }}
-<!-- Hero 横幅区域 - Premium Design -->
-<section class="hero-section" id="hero">
-    <div class="hero-bg">
-        <canvas id="particle-canvas"></canvas>
-    </div>
+<!-- 统一首页区域 - Hero + Galaxy + Map -->
+<div class="unified-home-section">
     
-    <div class="hero-content">
-        <!-- Simple Quote -->
-        <div class="hero-quote">
-            <p class="quote-main">我们只能看到不远的前方，但我们能看到许多需要完成的事情。</p>
-            <p class="hero-quote-en">We can only see a short distance ahead, but we can see plenty there that needs to be done.</p>
-            <p class="hero-author-name">—— Alan Turing</p>
+    <!-- Hero 横幅区域 - 名人名言 -->
+    <section class="hero-section" id="hero">
+        <div class="hero-bg">
+            <canvas id="particle-canvas"></canvas>
         </div>
         
-
-    </div>
-    
-    <!-- Scroll Indicator -->
-    <div class="scroll-indicator" onclick="document.getElementById('galaxy').scrollIntoView({behavior: 'smooth'})">
-        <span>探索星系</span>
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <path d="M12 5v14M19 12l-7 7-7-7"/>
-        </svg>
-    </div>
-    
-</section>
-
-<!-- 浮动音乐播放器 - Floating Design -->
-<div class="music-float" id="music-player">
-    <audio id="bg-music" loop preload="none" crossorigin="anonymous">
-        <source src="/music/bg-music.mp3" type="audio/mpeg">
-        您的浏览器不支持音频播放。
-    </audio>
-    <button class="music-float-btn" id="music-toggle" title="播放/暂停背景音乐">
-        <span class="music-float-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M9 18V5l12-2v13"></path>
-                <circle cx="6" cy="18" r="3"></circle>
-                <circle cx="18" cy="16" r="3"></circle>
-            </svg>
-        </span>
-        <span class="music-float-text">BGM</span>
-        <span class="music-icon playing" id="music-icon" style="display:none">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M9 18V5l12-2v13"></path>
-                <circle cx="6" cy="18" r="3"></circle>
-                <circle cx="18" cy="16" r="3"></circle>
-            </svg>
-        </span>
-        <span class="music-icon paused" id="music-icon-paused" style="display:none">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <rect x="6" y="4" width="4" height="16"></rect>
-                <rect x="14" y="4" width="4" height="16"></rect>
-            </svg>
-        </span>
-        <div class="music-float-visualizer" id="music-visualizer">
-            <span></span><span></span><span></span>
+        <div class="hero-content">
+            <div class="hero-quote">
+                <p class="quote-main">我们只能看到不远的前方，但我们能看到许多需要完成的事情。</p>
+                <p class="hero-quote-en">We can only see a short distance ahead, but we can see plenty there that needs to be done.</p>
+                <p class="hero-author-name">—— Alan Turing</p>
+            </div>
         </div>
-    </button>
+        
+        <div class="scroll-indicator" onclick="document.getElementById('explore').scrollIntoView({behavior: 'smooth'})">
+            <span>探索更多</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 5v14M19 12l-7 7-7-7"/>
+            </svg>
+        </div>
+    </section>
+    
+    <!-- 浮动音乐播放器 -->
+    <div class="music-float" id="music-player">
+        <audio id="bg-music" loop preload="none" crossorigin="anonymous">
+            <source src="/music/bg-music.mp3" type="audio/mpeg">
+            您的浏览器不支持音频播放。
+        </audio>
+        <button class="music-float-btn" id="music-toggle" title="播放/暂停背景音乐">
+            <!-- 暂停状态图标 -->
+            <span class="music-icon paused" id="music-icon-paused">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10" stroke-opacity="0.3"></circle>
+                    <path d="M10 8v8M14 8v8" stroke-width="2.5"></path>
+                </svg>
+            </span>
+            <!-- 播放状态图标 + 音量动画 -->
+            <span class="music-icon playing" id="music-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M9 18V5l12-2v13"></path>
+                    <circle cx="6" cy="18" r="3"></circle>
+                    <circle cx="18" cy="16" r="3"></circle>
+                </svg>
+                <!-- 音量跳动条 -->
+                <span class="music-visualizer" id="music-visualizer">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </span>
+            </span>
+            <span class="music-float-text">BGM</span>
+        </button>
+    </div>
+    
+    <!-- 探索区域 - 知识星系 + 访客分布 -->
+    <div id="explore" class="unified-content">
+        
+        <!-- 知识星系 -->
+        <section class="galaxy-section" id="galaxy">
+            <div class="unified-header">
+                <div class="unified-header-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="10"/>
+                        <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+                    </svg>
+                </div>
+                <h3>知识星系</h3>
+                <p>点击 ✦ 开启 AI 助手 · 点击星球探索 · 拖拽旋转 · 滚轮缩放</p>
+            </div>
+            
+            <div class="galaxy-container">
+                <svg id="galaxy-svg" viewBox="0 0 1200 700">
+                    <defs>
+                        <linearGradient id="lineGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                            <stop offset="0%" stop-color="rgba(0, 230, 118, 0.1)"/>
+                            <stop offset="50%" stop-color="rgba(0, 230, 118, 0.4)"/>
+                            <stop offset="100%" stop-color="rgba(0, 230, 118, 0.1)"/>
+                        </linearGradient>
+                        
+                        <radialGradient id="sunGradient">
+                            <stop offset="0%" stop-color="#00e676"/>
+                            <stop offset="50%" stop-color="#00c853"/>
+                            <stop offset="100%" stop-color="#00b248"/>
+                        </radialGradient>
+                        
+                        <radialGradient id="sunGlow">
+                            <stop offset="0%" stop-color="#00e676" stop-opacity="0.4"/>
+                            <stop offset="100%" stop-color="#00c853" stop-opacity="0"/>
+                        </radialGradient>
+
+                        <linearGradient id="planetGradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#667eea"/>
+                            <stop offset="100%" stop-color="#764ba2"/>
+                        </linearGradient>
+                        
+                        <linearGradient id="planetGradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#f093fb"/>
+                            <stop offset="100%" stop-color="#f5576c"/>
+                        </linearGradient>
+                        
+                        <linearGradient id="planetGradient3" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#4facfe"/>
+                            <stop offset="100%" stop-color="#00f2fe"/>
+                        </linearGradient>
+                        
+                        <linearGradient id="planetGradient4" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#43e97b"/>
+                            <stop offset="100%" stop-color="#38f9d7"/>
+                        </linearGradient>
+                        
+                        <linearGradient id="planetGradient5" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#fa709a"/>
+                            <stop offset="100%" stop-color="#fee140"/>
+                        </linearGradient>
+                        
+                        <linearGradient id="planetGradient6" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#a8edea"/>
+                            <stop offset="100%" stop-color="#fed6e3"/>
+                        </linearGradient>
+                        
+                        <linearGradient id="planetGradient7" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#ff9a9e"/>
+                            <stop offset="100%" stop-color="#fecfef"/>
+                        </linearGradient>
+                        
+                        <linearGradient id="planetGradient8" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#ffecd2"/>
+                            <stop offset="100%" stop-color="#fcb69f"/>
+                        </linearGradient>
+                    </defs>
+                    
+                    <ellipse class="orbit" cx="600" cy="350" rx="450" ry="280"/>
+                    <ellipse class="orbit" cx="600" cy="350" rx="350" ry="220"/>
+                    <ellipse class="orbit" cx="600" cy="350" rx="250" ry="160"/>
+                    
+                    <g id="connections"></g>
+                    
+                    <!-- 中心 AI 入口 -->
+                    <g class="sun" id="center-ai-trigger" transform="translate(600, 350)" style="cursor: pointer;">
+                        <circle class="sun-glow" r="85"/>
+                        <circle class="sun-core" r="48"/>
+                        <g transform="translate(-18, -18) scale(0.07)" fill="white">
+                            <path d="M250 50 L280 150 L390 150 L300 210 L330 310 L250 250 L170 310 L200 210 L110 150 L220 150 Z"/>
+                            <circle cx="250" cy="180" r="40"/>
+                            <circle cx="180" cy="280" r="25"/>
+                            <circle cx="320" cy="280" r="25"/>
+                            <circle cx="250" cy="100" r="25"/>
+                            <line x1="250" y1="180" x2="250" y2="100" stroke="white" stroke-width="8"/>
+                            <line x1="250" y1="180" x2="180" y2="280" stroke="white" stroke-width="8"/>
+                            <line x1="250" y1="180" x2="320" y2="280" stroke="white" stroke-width="8"/>
+                        </g>
+                        <title>点击开启 AI 助手</title>
+                        <!-- AI助手标签 -->
+                        <text x="0" y="70" text-anchor="middle" fill="#00e676" font-size="14" font-weight="600" style="text-shadow: 0 0 10px rgba(0, 230, 118, 0.5);">AI助手</text>
+                    </g>
+                    
+
+                    
+                    <g id="planets"></g>
+                    <g id="particles"></g>
+                </svg>
+            </div>
+        </section>
+        
+    </div>
+    
 </div>
 
-<!-- 星系导航系统 - Premium Design -->
-<section class="galaxy-section" id="galaxy">
-    <div class="galaxy-container">
-        <div class="galaxy-header">
-            <h3 class="galaxy-title">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <circle cx="12" cy="12" r="10"/>
-                    <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
-                </svg>
-                知识星系
-            </h3>
-            <p class="galaxy-subtitle">点击星球探索不同领域的 AI 知识</p>
-        </div>
-        
-        <svg id="galaxy-svg" viewBox="0 0 1200 700">
-            <defs>
-                <!-- 渐变定义 -->
-                <linearGradient id="lineGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-                    <stop offset="0%" stop-color="#667eea" stop-opacity="0.1"/>
-                    <stop offset="50%" stop-color="#667eea" stop-opacity="0.5"/>
-                    <stop offset="100%" stop-color="#667eea" stop-opacity="0.1"/>
-                </linearGradient>
-                
-                <radialGradient id="sunGradient">
-                    <stop offset="0%" stop-color="#f093fb"/>
-                    <stop offset="50%" stop-color="#f5576c"/>
-                    <stop offset="100%" stop-color="#e94560"/>
-                </radialGradient>
-                
-                <radialGradient id="sunGlow">
-                    <stop offset="0%" stop-color="#f093fb" stop-opacity="0.3"/>
-                    <stop offset="100%" stop-color="#f5576c" stop-opacity="0"/>
-                </radialGradient>
-
-                <!-- 星球颜色渐变 -->
-                <linearGradient id="planetGradient1" x1="0%" y1="0%" x2="100%" y2="100%">
-                    <stop offset="0%" stop-color="#667eea"/>
-                    <stop offset="100%" stop-color="#764ba2"/>
-                </linearGradient>
-                
-                <linearGradient id="planetGradient2" x1="0%" y1="0%" x2="100%" y2="100%">
-                    <stop offset="0%" stop-color="#f093fb"/>
-                    <stop offset="100%" stop-color="#f5576c"/>
-                </linearGradient>
-                
-                <linearGradient id="planetGradient3" x1="0%" y1="0%" x2="100%" y2="100%">
-                    <stop offset="0%" stop-color="#4facfe"/>
-                    <stop offset="100%" stop-color="#00f2fe"/>
-                </linearGradient>
-                
-                <linearGradient id="planetGradient4" x1="0%" y1="0%" x2="100%" y2="100%">
-                    <stop offset="0%" stop-color="#43e97b"/>
-                    <stop offset="100%" stop-color="#38f9d7"/>
-                </linearGradient>
-                
-                <linearGradient id="planetGradient5" x1="0%" y1="0%" x2="100%" y2="100%">
-                    <stop offset="0%" stop-color="#fa709a"/>
-                    <stop offset="100%" stop-color="#fee140"/>
-                </linearGradient>
-                
-                <linearGradient id="planetGradient6" x1="0%" y1="0%" x2="100%" y2="100%">
-                    <stop offset="0%" stop-color="#a8edea"/>
-                    <stop offset="100%" stop-color="#fed6e3"/>
-                </linearGradient>
-                
-                <linearGradient id="planetGradient7" x1="0%" y1="0%" x2="100%" y2="100%">
-                    <stop offset="0%" stop-color="#ff9a9e"/>
-                    <stop offset="100%" stop-color="#fecfef"/>
-                </linearGradient>
-                
-                <linearGradient id="planetGradient8" x1="0%" y1="0%" x2="100%" y2="100%">
-                    <stop offset="0%" stop-color="#ffecd2"/>
-                    <stop offset="100%" stop-color="#fcb69f"/>
-                </linearGradient>
-            </defs>
-            
-            <!-- 轨道 -->
-            <ellipse class="orbit" cx="600" cy="350" rx="450" ry="280"/>
-            <ellipse class="orbit" cx="600" cy="350" rx="350" ry="220"/>
-            <ellipse class="orbit" cx="600" cy="350" rx="250" ry="160"/>
-            
-            <!-- 连接线组 -->
-            <g id="connections"></g>
-            
-            <!-- 中心太阳 -->
-            <g class="sun" transform="translate(600, 350)">
-                <circle class="sun-glow" r="80"/>
-                <circle class="sun-core" r="45"/>
-                <text class="planet-icon" dy="2" fill="white">🍀</text>
-            </g>
-            
-            <!-- 星球组 -->
-            <g id="planets"></g>
-            
-            <!-- 粒子组 -->
-            <g id="particles"></g>
-        </svg>
-    </div>
-    
-    <div class="galaxy-hint">
-        点击星球探索 · 拖拽旋转 · 滚轮缩放
-    </div>
-</section>
-
-<!-- 世界地图横幅 - Premium Design -->
-<section class="map-banner">
-    <div class="map-container">
-        <div class="map-header">
-            <h3 class="map-title">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <circle cx="12" cy="12" r="10"/>
-                    <path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
-                </svg>
-                全球访客分布
-            </h3>
-            <p class="map-subtitle">来自世界各地的探索者在此汇聚</p>
-        </div>
-        
-        <div id="visitor-heatmap">
-            <div class="heatmap-loading">正在加载访客分布数据...</div>
-        </div>
-    </div>
-</section>
-
-<!-- 浮动访客统计组件 - Premium Design -->
+<!-- 浮动访客统计 -->
 <div class="visitor-float" id="visitor-float">
     <div class="visitor-float-icon">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -205,10 +191,10 @@
 {{ end }}
 
 {{ define "scripts" }}
-<!-- 不蒜子计数器 -->
 <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 <span id="busuanzi_container_site_pv" style="display:none">
     <span id="busuanzi_value_site_pv">--</span>
 </span>
 <script src="{{ "js/home.js" | relURL }}"></script>
+<script src="{{ "js/scnet-chat.js" | relURL }}"></script>
 {{ end }}
