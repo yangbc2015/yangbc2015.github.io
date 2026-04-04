@@ -5,6 +5,14 @@
   "models": [
     {
       "rank": 1,
+      "model": "gemma-4-26b-a4b-it",
+      "organization": "google",
+      "price_prompt": "0.00000013",
+      "price_completion": "0.0000004",
+      "context_length": 262144
+    },
+    {
+      "rank": 2,
       "model": "gemma-4-31b-it",
       "organization": "google",
       "price_prompt": "0.00000014",
@@ -12,7 +20,7 @@
       "context_length": 262144
     },
     {
-      "rank": 2,
+      "rank": 3,
       "model": "qwen3.6-plus:free",
       "organization": "qwen",
       "price_prompt": "0",
@@ -20,7 +28,7 @@
       "context_length": 1000000
     },
     {
-      "rank": 3,
+      "rank": 4,
       "model": "glm-5v-turbo",
       "organization": "z-ai",
       "price_prompt": "0.0000012",
@@ -28,7 +36,7 @@
       "context_length": 202752
     },
     {
-      "rank": 4,
+      "rank": 5,
       "model": "trinity-large-thinking",
       "organization": "arcee-ai",
       "price_prompt": "0.00000022",
@@ -36,7 +44,7 @@
       "context_length": 262144
     },
     {
-      "rank": 5,
+      "rank": 6,
       "model": "grok-4.20-multi-agent",
       "organization": "x-ai",
       "price_prompt": "0.000002",
@@ -44,7 +52,7 @@
       "context_length": 2000000
     },
     {
-      "rank": 6,
+      "rank": 7,
       "model": "grok-4.20",
       "organization": "x-ai",
       "price_prompt": "0.000002",
@@ -52,7 +60,7 @@
       "context_length": 2000000
     },
     {
-      "rank": 7,
+      "rank": 8,
       "model": "lyria-3-pro-preview",
       "organization": "google",
       "price_prompt": "0",
@@ -60,7 +68,7 @@
       "context_length": 1048576
     },
     {
-      "rank": 8,
+      "rank": 9,
       "model": "lyria-3-clip-preview",
       "organization": "google",
       "price_prompt": "0",
@@ -68,7 +76,7 @@
       "context_length": 1048576
     },
     {
-      "rank": 9,
+      "rank": 10,
       "model": "kat-coder-pro-v2",
       "organization": "kwaipilot",
       "price_prompt": "0.0000003",
@@ -76,7 +84,7 @@
       "context_length": 256000
     },
     {
-      "rank": 10,
+      "rank": 11,
       "model": "reka-edge",
       "organization": "rekaai",
       "price_prompt": "0.0000001",
@@ -84,7 +92,7 @@
       "context_length": 16384
     },
     {
-      "rank": 11,
+      "rank": 12,
       "model": "mimo-v2-omni",
       "organization": "xiaomi",
       "price_prompt": "0.0000004",
@@ -92,7 +100,7 @@
       "context_length": 262144
     },
     {
-      "rank": 12,
+      "rank": 13,
       "model": "mimo-v2-pro",
       "organization": "xiaomi",
       "price_prompt": "0.000001",
@@ -100,7 +108,7 @@
       "context_length": 1048576
     },
     {
-      "rank": 13,
+      "rank": 14,
       "model": "minimax-m2.7",
       "organization": "minimax",
       "price_prompt": "0.0000003",
@@ -108,19 +116,11 @@
       "context_length": 204800
     },
     {
-      "rank": 14,
+      "rank": 15,
       "model": "gpt-5.4-nano",
       "organization": "openai",
       "price_prompt": "0.0000002",
       "price_completion": "0.00000125",
-      "context_length": 400000
-    },
-    {
-      "rank": 15,
-      "model": "gpt-5.4-mini",
-      "organization": "openai",
-      "price_prompt": "0.00000075",
-      "price_completion": "0.0000045",
       "context_length": 400000
     }
   ]

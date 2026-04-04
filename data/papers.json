@@ -1,42 +1,7 @@
 {
-  "last_updated": "2026-04-03",
-  "count": 5,
+  "last_updated": "2026-04-04",
+  "count": 6,
   "items": [
-    {
-      "title": "ActionParty: Multi-Subject Action Binding in Generative Video Games",
-      "authors": "Alexander Pondaven, Ziyi Wu, Igor Gilitschenski et al.",
-      "abstract": "Recent advances in video diffusion have enabled the development of \"world models\" capable of simulating interactive environments. However, these models are largely restricted to single-agent settings, failing to control multiple agents simultaneously in a scene. In this work, we tackle a fundamental...",
-      "venue": "arXiv",
-      "date": "2026-04-02",
-      "arxiv_id": "2604.02330v1",
-      "url": "https://arxiv.org/abs/2604.02330v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.02330v1.pdf",
-      "categories": [
-        "cs.CV",
-        "cs.AI",
-        "cs.LG"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Steerable Visual Representations",
-      "authors": "Jona Ruthardt, Manu Gaur, Deva Ramanan et al.",
-      "abstract": "Pretrained Vision Transformers (ViTs) such as DINOv2 and MAE provide generic image features that can be applied to a variety of downstream tasks such as retrieval, classification, and segmentation. However, such representations tend to focus on the most salient visual cues in the image, with no way ...",
-      "venue": "arXiv",
-      "date": "2026-04-02",
-      "arxiv_id": "2604.02327v1",
-      "url": "https://arxiv.org/abs/2604.02327v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.02327v1.pdf",
-      "categories": [
-        "cs.CV",
-        "cs.AI"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
     {
       "title": "Grounded Token Initialization for New Vocabulary in LMs for Generative Recommendation",
       "authors": "Daiwei Chen, Zhoutong Fu, Chengming Jiang et al.",
@@ -83,6 +48,58 @@
       "url": "https://arxiv.org/abs/2604.02331v1",
       "pdf_url": "https://arxiv.org/pdf/2604.02331v1.pdf",
       "categories": [
+        "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "ActionParty: Multi-Subject Action Binding in Generative Video Games",
+      "authors": "Alexander Pondaven, Ziyi Wu, Igor Gilitschenski et al.",
+      "abstract": "Recent advances in video diffusion have enabled the development of \"world models\" capable of simulating interactive environments. However, these models are largely restricted to single-agent settings, failing to control multiple agents simultaneously in a scene. In this work, we tackle a fundamental...",
+      "venue": "arXiv",
+      "date": "2026-04-02",
+      "arxiv_id": "2604.02330v1",
+      "url": "https://arxiv.org/abs/2604.02330v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.02330v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Stop Wandering: Efficient Vision-Language Navigation via Metacognitive Reasoning",
+      "authors": "Xueying Li, Feng Lyu, Hao Wu et al.",
+      "abstract": "Training-free Vision-Language Navigation (VLN) agents powered by foundation models can follow instructions and explore 3D environments. However, existing approaches rely on greedy frontier selection and passive spatial memory, leading to inefficient behaviors such as local oscillation and redundant ...",
+      "venue": "arXiv",
+      "date": "2026-04-02",
+      "arxiv_id": "2604.02318v1",
+      "url": "https://arxiv.org/abs/2604.02318v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.02318v1.pdf",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Deep Neural Network Based Roadwork Detection for Autonomous Driving",
+      "authors": "Sebastian Wullrich, Nicolai Steinke, Daniel Goehring",
+      "abstract": "Road construction sites create major challenges for both autonomous vehicles and human drivers due to their highly dynamic and heterogeneous nature. This paper presents a real-time system that detects and localizes roadworks by combining a YOLO neural network with LiDAR data. The system identifies i...",
+      "venue": "arXiv",
+      "date": "2026-04-02",
+      "arxiv_id": "2604.02282v1",
+      "url": "https://arxiv.org/abs/2604.02282v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.02282v1.pdf",
+      "categories": [
+        "cs.RO",
         "cs.CV"
       ],
       "type": "vision",
