@@ -1,7 +1,42 @@
 {
   "last_updated": "2026-04-04",
-  "count": 6,
+  "count": 7,
   "items": [
+    {
+      "title": "ActionParty: Multi-Subject Action Binding in Generative Video Games",
+      "authors": "Alexander Pondaven, Ziyi Wu, Igor Gilitschenski et al.",
+      "abstract": "Recent advances in video diffusion have enabled the development of \"world models\" capable of simulating interactive environments. However, these models are largely restricted to single-agent settings, failing to control multiple agents simultaneously in a scene. In this work, we tackle a fundamental...",
+      "venue": "arXiv",
+      "date": "2026-04-02",
+      "arxiv_id": "2604.02330v1",
+      "url": "https://arxiv.org/abs/2604.02330v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.02330v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Steerable Visual Representations",
+      "authors": "Jona Ruthardt, Manu Gaur, Deva Ramanan et al.",
+      "abstract": "Pretrained Vision Transformers (ViTs) such as DINOv2 and MAE provide generic image features that can be applied to a variety of downstream tasks such as retrieval, classification, and segmentation. However, such representations tend to focus on the most salient visual cues in the image, with no way ...",
+      "venue": "arXiv",
+      "date": "2026-04-02",
+      "arxiv_id": "2604.02327v1",
+      "url": "https://arxiv.org/abs/2604.02327v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.02327v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
     {
       "title": "Grounded Token Initialization for New Vocabulary in LMs for Generative Recommendation",
       "authors": "Daiwei Chen, Zhoutong Fu, Chengming Jiang et al.",
@@ -49,24 +84,6 @@
       "pdf_url": "https://arxiv.org/pdf/2604.02331v1.pdf",
       "categories": [
         "cs.CV"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "ActionParty: Multi-Subject Action Binding in Generative Video Games",
-      "authors": "Alexander Pondaven, Ziyi Wu, Igor Gilitschenski et al.",
-      "abstract": "Recent advances in video diffusion have enabled the development of \"world models\" capable of simulating interactive environments. However, these models are largely restricted to single-agent settings, failing to control multiple agents simultaneously in a scene. In this work, we tackle a fundamental...",
-      "venue": "arXiv",
-      "date": "2026-04-02",
-      "arxiv_id": "2604.02330v1",
-      "url": "https://arxiv.org/abs/2604.02330v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.02330v1.pdf",
-      "categories": [
-        "cs.CV",
-        "cs.AI",
-        "cs.LG"
       ],
       "type": "vision",
       "badge": "arxiv",
