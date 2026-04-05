@@ -1,14 +1,38 @@
 {
-  "last_updated": "2026-04-04",
-  "count": 118,
-  "history_count": 118,
+  "last_updated": "2026-04-05",
+  "count": 126,
+  "history_count": 126,
   "retention_days": 30,
   "items": [
+    {
+      "title": "日调用量突破1.4万亿Token",
+      "link": "https://www.qbitai.com/?s=日调用量突破1.4万",
+      "summary": "日调用量突破1.4万亿Token...",
+      "date": "2026-04-05",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "“我的超能力是快速做原型，现在任何人都能做到了。”",
+      "link": "https://www.qbitai.com/?s=“我的超能力是快速做",
+      "summary": "“我的超能力是快速做原型，现在任何人都能做到了。”...",
+      "date": "2026-04-05",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
     {
       "title": "2026 年 4 月 23 日至 24 日，深圳福田会展中心 2 号馆，GTC2026 全球流量大会（深圳）即将拉开帷幕。",
       "link": "https://www.qbitai.com/?s=2026 年 4 月",
       "summary": "2026 年 4 月 23 日至 24 日，深圳福田会展中心 2 号馆，GTC2026 全球流量大会（深圳）即将拉开帷幕。...",
-      "date": "2026-04-04",
+      "date": "2026-04-05",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -20,7 +44,7 @@
       "title": "Seedance 2.0也可以公测了",
       "link": "https://www.qbitai.com/?s=Seedance 2",
       "summary": "Seedance 2.0也可以公测了...",
-      "date": "2026-04-04",
+      "date": "2026-04-05",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -32,12 +56,24 @@
       "title": "毛利率96.5%，谁说AI医疗不赚钱？",
       "link": "https://www.qbitai.com/?s=毛利率96.5%，谁",
       "summary": "毛利率96.5%，谁说AI医疗不赚钱？...",
-      "date": "2026-04-04",
+      "date": "2026-04-05",
       "source": "量子位",
       "type": "industry",
       "tags": [
         "AI",
         "人工智能"
+      ]
+    },
+    {
+      "title": "*   [Latest](http://techcrunch.com/latest/)",
+      "link": "https://techcrunch.com/category/artificial-intelligence/",
+      "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
+      "date": "2026-04-05",
+      "source": "TechCrunch",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "Artificial Intelligence"
       ]
     },
     {
@@ -65,15 +101,75 @@
       ]
     },
     {
-      "title": "*   [Latest](http://techcrunch.com/latest/)",
-      "link": "https://techcrunch.com/category/artificial-intelligence/",
-      "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
-      "date": "2026-04-04",
-      "source": "TechCrunch",
+      "title": "机器人版GPT-3来了：任务成功率99%，「涌现」过后能临场发挥",
+      "link": "https://www.jiqizhixin.com/search/articles/机器人版GPT-3来了：任务成",
+      "summary": "机器人版GPT-3来了：任务成功率99%，「涌现」过后能临场发挥...",
+      "date": "2026-04-03",
+      "source": "机器之心",
       "type": "industry",
       "tags": [
         "AI",
-        "Artificial Intelligence"
+        "人工智能"
+      ]
+    },
+    {
+      "title": "从任务专用到通用智能：基础模型重塑具身导航",
+      "link": "https://www.jiqizhixin.com/search/articles/从任务专用到通用智能：基础模型",
+      "summary": "从任务专用到通用智能：基础模型重塑具身导航...",
+      "date": "2026-04-03",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "天才实习生看过来：Kimi要用「期权时光机」截胡你的顶尖大脑",
+      "link": "https://www.jiqizhixin.com/search/articles/天才实习生看过来：Kimi要用",
+      "summary": "天才实习生看过来：Kimi要用「期权时光机」截胡你的顶尖大脑...",
+      "date": "2026-04-03",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "谷歌开源Gemma 4，干掉了13倍体量的Qwen3.5",
+      "link": "https://www.jiqizhixin.com/search/articles/谷歌开源Gemma 4，干掉了",
+      "summary": "谷歌开源Gemma 4，干掉了13倍体量的Qwen3.5...",
+      "date": "2026-04-03",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "研究分享｜AI 也有“两幅面孔”？复旦 x 创智 x 牛津新研究：高压之下，模型集体“对齐失效”",
+      "link": "https://www.jiqizhixin.com/search/articles/研究分享｜AI 也有“两幅面孔",
+      "summary": "研究分享｜AI 也有“两幅面孔”？复旦 x 创智 x 牛津新研究：高压之下，模型集体“对齐失效”...",
+      "date": "2026-04-03",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "达摩院Lingshu-Cell：离散扩散架构驱动的细胞世界模型",
+      "link": "https://www.jiqizhixin.com/search/articles/达摩院Lingshu-Cell",
+      "summary": "达摩院Lingshu-Cell：离散扩散架构驱动的细胞世界模型...",
+      "date": "2026-04-03",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
       ]
     },
     {

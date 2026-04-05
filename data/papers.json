@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-04",
-  "count": 7,
+  "last_updated": "2026-04-05",
+  "count": 4,
   "items": [
     {
       "title": "ActionParty: Multi-Subject Action Binding in Generative Video Games",
@@ -38,42 +38,6 @@
       "source": "arXiv"
     },
     {
-      "title": "Grounded Token Initialization for New Vocabulary in LMs for Generative Recommendation",
-      "authors": "Daiwei Chen, Zhoutong Fu, Chengming Jiang et al.",
-      "abstract": "Language models (LMs) are increasingly extended with new learnable vocabulary tokens for domain-specific tasks, such as Semantic-ID tokens in generative recommendation. The standard practice initializes these new tokens as the mean of existing vocabulary embeddings, then relies on supervised fine-tu...",
-      "venue": "arXiv",
-      "date": "2026-04-02",
-      "arxiv_id": "2604.02324v1",
-      "url": "https://arxiv.org/abs/2604.02324v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.02324v1.pdf",
-      "categories": [
-        "cs.CL",
-        "cs.AI",
-        "cs.LG"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Batched Contextual Reinforcement: A Task-Scaling Law for Efficient Reasoning",
-      "authors": "Bangji Yang, Hongbo Ma, Jiajun Fan et al.",
-      "abstract": "Large Language Models employing Chain-of-Thought reasoning achieve strong performance but suffer from excessive token consumption that inflates inference costs. Existing efficiency methods such as explicit length penalties, difficulty estimators, or multi-stage curricula either degrade reasoning qua...",
-      "venue": "arXiv",
-      "date": "2026-04-02",
-      "arxiv_id": "2604.02322v1",
-      "url": "https://arxiv.org/abs/2604.02322v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.02322v1.pdf",
-      "categories": [
-        "cs.LG",
-        "cs.AI",
-        "cs.CL"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
       "title": "EventHub: Data Factory for Generalizable Event-Based Stereo Networks without Active Sensors",
       "authors": "Luca Bartolomei, Fabio Tosi, Matteo Poggi et al.",
       "abstract": "We propose EventHub, a novel framework for training deep-event stereo networks without ground truth annotations from costly active sensors, relying instead on standard color images. From these images, we derive either proxy annotations and proxy events through state-of-the-art novel view synthesis t...",
@@ -90,36 +54,20 @@
       "source": "arXiv"
     },
     {
-      "title": "Stop Wandering: Efficient Vision-Language Navigation via Metacognitive Reasoning",
-      "authors": "Xueying Li, Feng Lyu, Hao Wu et al.",
-      "abstract": "Training-free Vision-Language Navigation (VLN) agents powered by foundation models can follow instructions and explore 3D environments. However, existing approaches rely on greedy frontier selection and passive spatial memory, leading to inefficient behaviors such as local oscillation and redundant ...",
+      "title": "Grounded Token Initialization for New Vocabulary in LMs for Generative Recommendation",
+      "authors": "Daiwei Chen, Zhoutong Fu, Chengming Jiang et al.",
+      "abstract": "Language models (LMs) are increasingly extended with new learnable vocabulary tokens for domain-specific tasks, such as Semantic-ID tokens in generative recommendation. The standard practice initializes these new tokens as the mean of existing vocabulary embeddings, then relies on supervised fine-tu...",
       "venue": "arXiv",
       "date": "2026-04-02",
-      "arxiv_id": "2604.02318v1",
-      "url": "https://arxiv.org/abs/2604.02318v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.02318v1.pdf",
+      "arxiv_id": "2604.02324v1",
+      "url": "https://arxiv.org/abs/2604.02324v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.02324v1.pdf",
       "categories": [
-        "cs.RO",
-        "cs.CV"
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
       ],
       "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Deep Neural Network Based Roadwork Detection for Autonomous Driving",
-      "authors": "Sebastian Wullrich, Nicolai Steinke, Daniel Goehring",
-      "abstract": "Road construction sites create major challenges for both autonomous vehicles and human drivers due to their highly dynamic and heterogeneous nature. This paper presents a real-time system that detects and localizes roadworks by combining a YOLO neural network with LiDAR data. The system identifies i...",
-      "venue": "arXiv",
-      "date": "2026-04-02",
-      "arxiv_id": "2604.02282v1",
-      "url": "https://arxiv.org/abs/2604.02282v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.02282v1.pdf",
-      "categories": [
-        "cs.RO",
-        "cs.CV"
-      ],
-      "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     }
