@@ -5,31 +5,17 @@
   "retention_count": 200,
   "items": [
     {
-      "title": "3Blue1Brown: 深度学习之神经网络",
-      "speaker": "3Blue1Brown",
-      "description": "用精美动画解释神经网络的工作原理",
-      "duration": "19:15",
-      "views": "3.1M",
+      "title": "LLaMA 3 开源大模型解读",
+      "speaker": "Yannic Kilcher",
+      "description": "Meta LLaMA 3 架构详解与性能分析",
+      "duration": "45:30",
+      "views": "678K",
       "platform": "youtube",
-      "video_id": "aircAruvnKk",
-      "url": "https://www.youtube.com/watch?v=aircAruvnKk",
-      "thumbnail": "https://img.youtube.com/vi/aircAruvnKk/mqdefault.jpg",
+      "video_id": "K5Vxf8rVGWk",
+      "url": "https://www.youtube.com/watch?v=K5Vxf8rVGWk",
+      "thumbnail": "https://img.youtube.com/vi/K5Vxf8rVGWk/mqdefault.jpg",
       "type": "lecture",
-      "category": "技术讲座",
-      "date": "2026-04-06"
-    },
-    {
-      "title": "AI Agent 架构设计模式",
-      "speaker": "LangChain",
-      "description": "构建自主 AI 代理的最佳实践",
-      "duration": "42:20",
-      "views": "189K",
-      "platform": "youtube",
-      "video_id": "mFMBb8Xw6yQ",
-      "url": "https://www.youtube.com/watch?v=mFMBb8Xw6yQ",
-      "thumbnail": "https://img.youtube.com/vi/mFMBb8Xw6yQ/mqdefault.jpg",
-      "type": "tutorial",
-      "category": "AI教程",
+      "category": "前沿技术",
       "date": "2026-04-06"
     },
     {
@@ -44,6 +30,20 @@
       "thumbnail": "https://img.youtube.com/vi/pRqsifNGFXw/mqdefault.jpg",
       "type": "lecture",
       "category": "技术讲座",
+      "date": "2026-04-06"
+    },
+    {
+      "title": "Stanford CS231n: 卷积神经网络",
+      "speaker": "Stanford",
+      "description": "斯坦福经典计算机视觉课程",
+      "duration": "8:45:20",
+      "views": "567K",
+      "platform": "youtube",
+      "video_id": "vT1JzLTH4G4",
+      "url": "https://www.youtube.com/watch?v=vT1JzLTH4G4",
+      "thumbnail": "https://img.youtube.com/vi/vT1JzLTH4G4/mqdefault.jpg",
+      "type": "course",
+      "category": "精品课程",
       "date": "2026-04-05"
     },
     {
@@ -76,20 +76,6 @@
       "date": "2026-04-05"
     },
     {
-      "title": "LLaMA 3 开源大模型解读",
-      "speaker": "Yannic Kilcher",
-      "description": "Meta LLaMA 3 架构详解与性能分析",
-      "duration": "45:30",
-      "views": "678K",
-      "platform": "youtube",
-      "video_id": "K5Vxf8rVGWk",
-      "url": "https://www.youtube.com/watch?v=K5Vxf8rVGWk",
-      "thumbnail": "https://img.youtube.com/vi/K5Vxf8rVGWk/mqdefault.jpg",
-      "type": "lecture",
-      "category": "前沿技术",
-      "date": "2026-04-04"
-    },
-    {
       "title": "OpenAI GPT-4o 多模态能力解析",
       "speaker": "OpenAI",
       "description": "GPT-4o 原生多模态能力的深度解读",
@@ -104,15 +90,15 @@
       "date": "2026-04-04"
     },
     {
-      "title": "强化学习入门: Q-Learning",
-      "speaker": "Sentdex",
-      "description": "从零开始学习强化学习基础",
-      "duration": "15:30",
-      "views": "456K",
+      "title": "AI Agent 架构设计模式",
+      "speaker": "LangChain",
+      "description": "构建自主 AI 代理的最佳实践",
+      "duration": "42:20",
+      "views": "189K",
       "platform": "youtube",
-      "video_id": "yMk_XtIEzH8",
-      "url": "https://www.youtube.com/watch?v=yMk_XtIEzH8",
-      "thumbnail": "https://img.youtube.com/vi/yMk_XtIEzH8/mqdefault.jpg",
+      "video_id": "mFMBb8Xw6yQ",
+      "url": "https://www.youtube.com/watch?v=mFMBb8Xw6yQ",
+      "thumbnail": "https://img.youtube.com/vi/mFMBb8Xw6yQ/mqdefault.jpg",
       "type": "tutorial",
       "category": "AI教程",
       "date": "2026-04-04"
@@ -132,32 +118,32 @@
       "date": "2026-04-04"
     },
     {
-      "title": "Fast.ai: 程序员深度学习实战",
-      "speaker": "Jeremy Howard",
-      "description": "面向程序员的实用深度学习课程",
-      "duration": "12:30:00",
-      "views": "234K",
+      "title": "3Blue1Brown: 深度学习之神经网络",
+      "speaker": "3Blue1Brown",
+      "description": "用精美动画解释神经网络的工作原理",
+      "duration": "19:15",
+      "views": "3.1M",
       "platform": "youtube",
-      "video_id": "8mcTqN1D1-g",
-      "url": "https://www.youtube.com/watch?v=8mcTqN1D1-g",
-      "thumbnail": "https://img.youtube.com/vi/8mcTqN1D1-g/mqdefault.jpg",
-      "type": "course",
-      "category": "精品课程",
+      "video_id": "aircAruvnKk",
+      "url": "https://www.youtube.com/watch?v=aircAruvnKk",
+      "thumbnail": "https://img.youtube.com/vi/aircAruvnKk/mqdefault.jpg",
+      "type": "lecture",
+      "category": "技术讲座",
       "date": "2026-04-03"
     },
     {
-      "title": "Stanford CS231n: 卷积神经网络",
-      "speaker": "Stanford",
-      "description": "斯坦福经典计算机视觉课程",
-      "duration": "8:45:20",
-      "views": "567K",
+      "title": "强化学习入门: Q-Learning",
+      "speaker": "Sentdex",
+      "description": "从零开始学习强化学习基础",
+      "duration": "15:30",
+      "views": "456K",
       "platform": "youtube",
-      "video_id": "vT1JzLTH4G4",
-      "url": "https://www.youtube.com/watch?v=vT1JzLTH4G4",
-      "thumbnail": "https://img.youtube.com/vi/vT1JzLTH4G4/mqdefault.jpg",
-      "type": "course",
-      "category": "精品课程",
-      "date": "2026-04-03"
+      "video_id": "yMk_XtIEzH8",
+      "url": "https://www.youtube.com/watch?v=yMk_XtIEzH8",
+      "thumbnail": "https://img.youtube.com/vi/yMk_XtIEzH8/mqdefault.jpg",
+      "type": "tutorial",
+      "category": "AI教程",
+      "date": "2026-04-02"
     },
     {
       "title": "LoRA: 大模型高效微调技术",
@@ -171,7 +157,7 @@
       "thumbnail": "https://img.youtube.com/vi/PXc9tFr3Nus/mqdefault.jpg",
       "type": "tutorial",
       "category": "AI教程",
-      "date": "2026-04-02"
+      "date": "2026-04-01"
     },
     {
       "title": "BERT 模型详解与应用",
@@ -188,17 +174,17 @@
       "date": "2026-04-01"
     },
     {
-      "title": "Mamba 架构: Transformer 的替代者?",
-      "speaker": "Albert Gu",
-      "description": "深入解析 Mamba 选择性状态空间模型",
-      "duration": "1:02:30",
+      "title": "Fast.ai: 程序员深度学习实战",
+      "speaker": "Jeremy Howard",
+      "description": "面向程序员的实用深度学习课程",
+      "duration": "12:30:00",
       "views": "234K",
       "platform": "youtube",
-      "video_id": "oHJwJsaWQgE",
-      "url": "https://www.youtube.com/watch?v=oHJwJsaWQgE",
-      "thumbnail": "https://img.youtube.com/vi/oHJwJsaWQgE/mqdefault.jpg",
-      "type": "lecture",
-      "category": "前沿技术",
+      "video_id": "8mcTqN1D1-g",
+      "url": "https://www.youtube.com/watch?v=8mcTqN1D1-g",
+      "thumbnail": "https://img.youtube.com/vi/8mcTqN1D1-g/mqdefault.jpg",
+      "type": "course",
+      "category": "精品课程",
       "date": "2026-03-31"
     },
     {
@@ -215,6 +201,20 @@
       "type": "course",
       "category": "精品课程",
       "featured": true
+    },
+    {
+      "title": "Mamba 架构: Transformer 的替代者?",
+      "speaker": "Albert Gu",
+      "description": "深入解析 Mamba 选择性状态空间模型",
+      "duration": "1:02:30",
+      "views": "234K",
+      "platform": "youtube",
+      "video_id": "oHJwJsaWQgE",
+      "url": "https://www.youtube.com/watch?v=oHJwJsaWQgE",
+      "thumbnail": "https://img.youtube.com/vi/oHJwJsaWQgE/mqdefault.jpg",
+      "type": "lecture",
+      "category": "前沿技术",
+      "date": "2026-03-31"
     },
     {
       "title": "GPT-4 技术原理解析",
