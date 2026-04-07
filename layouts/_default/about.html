@@ -199,8 +199,22 @@
 
 
     <!-- 隐藏简历入口 - 触发区域 -->
-    <div id="resume-trigger" style="text-align: center; padding: 3rem 0 1rem; cursor: default; user-select: none;">
-        <span style="color: rgba(255,255,255,0.03); font-size: 0.7rem; letter-spacing: 2px;">· · ·</span>
+    <div id="resume-trigger" style="text-align: center; padding: 3rem 0 1rem; cursor: pointer; user-select: none;"
+         title="">
+        <div style="display: inline-flex; flex-direction: column; align-items: center; gap: 0.5rem;
+                    padding: 1rem 2rem; border-radius: 8px; transition: all 0.3s ease;"
+             class="resume-trigger-inner">
+            <!-- 锁图标 -->
+            <span id="lock-icon" style="font-size: 1rem; opacity: 0.15; transition: all 0.3s ease; filter: grayscale(100%);">🔒</span>
+            <!-- 提示文字 -->
+            <span style="font-size: 0.7rem; color: rgba(255,255,255,0.08); letter-spacing: 1px; 
+                         transition: all 0.3s ease; font-family: monospace;">
+                系统状态: 待机中
+            </span>
+            <!-- 底部装饰线 -->
+            <span style="width: 30px; height: 1px; background: rgba(255,255,255,0.05); margin-top: 0.3rem;
+                         transition: all 0.3s ease;"></span>
+        </div>
     </div>
 
     <!-- 隐藏输入框 -->
@@ -345,11 +359,38 @@ function animateNumbers() {
 // 隐藏简历功能
 function initSecretResume() {
     const trigger = document.getElementById('resume-trigger');
+    const triggerInner = trigger.querySelector('.resume-trigger-inner');
+    const lockIcon = document.getElementById('lock-icon');
     const inputContainer = document.getElementById('secret-input-container');
     const input = document.getElementById('secret-code');
     const content = document.getElementById('resume-content');
     
     if (!trigger || !input) return;
+    
+    // Hover 效果 - 给招聘方暗示
+    trigger.addEventListener('mouseenter', () => {
+        triggerInner.style.background = 'rgba(0,230,118,0.05)';
+        triggerInner.style.boxShadow = '0 0 20px rgba(0,230,118,0.1)';
+        lockIcon.style.opacity = '0.6';
+        lockIcon.style.filter = 'grayscale(0%) drop-shadow(0 0 5px rgba(0,230,118,0.5))';
+        lockIcon.textContent = '🔓'; // 变成开锁
+        trigger.querySelector('span:nth-child(2)').style.color = 'rgba(0,230,118,0.5)';
+        trigger.querySelector('span:nth-child(2)').textContent = '【需要授权】点击解锁';
+        trigger.querySelector('span:nth-child(3)').style.background = 'rgba(0,230,118,0.3)';
+        trigger.querySelector('span:nth-child(3)').style.width = '60px';
+    });
+    
+    trigger.addEventListener('mouseleave', () => {
+        triggerInner.style.background = 'transparent';
+        triggerInner.style.boxShadow = 'none';
+        lockIcon.style.opacity = '0.15';
+        lockIcon.style.filter = 'grayscale(100%)';
+        lockIcon.textContent = '🔒'; // 恢复锁
+        trigger.querySelector('span:nth-child(2)').style.color = 'rgba(255,255,255,0.08)';
+        trigger.querySelector('span:nth-child(2)').textContent = '系统状态: 待机中';
+        trigger.querySelector('span:nth-child(3)').style.background = 'rgba(255,255,255,0.05)';
+        trigger.querySelector('span:nth-child(3)').style.width = '30px';
+    });
     
     // 点击触发区域显示输入框
     trigger.addEventListener('click', () => {
