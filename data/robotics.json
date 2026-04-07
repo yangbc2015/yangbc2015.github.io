@@ -1,12 +1,36 @@
 {
-  "last_updated": "2026-04-03",
-  "count": 74,
+  "last_updated": "2026-04-07",
+  "count": 86,
   "items": [
+    {
+      "title": "[一场机器人黑客松，让 具 身 智 能 的差距与机会同时显形",
+      "summary": "[一场机器人黑客松，让 具 身 智 能 的差距与机会同时显形",
+      "url": "http://36kr.com/p/3753345845903872",
+      "date": "2026-04-07",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
+      "title": "[英伟达给机器人装上龙虾大脑，具 身 智 能 的Harness来了",
+      "summary": "[英伟达给机器人装上龙虾大脑，具 身 智 能 的Harness来了",
+      "url": "http://36kr.com/p/3749514454057473",
+      "date": "2026-04-07",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
     {
       "title": "Figure AI发布新一代人形机器人Figure 02，具备更强的自主学习能力",
       "summary": "Figure AI发布新一代人形机器人Figure 02，搭载最新视觉-语言-动作(VLA)模型，在工厂和仓储场景实现更高水平的自主操作。",
       "url": "https://www.figure.ai",
-      "date": "2026-04-03",
+      "date": "2026-04-04",
       "source": "行业动态",
       "category": "具身智能",
       "type": "news",
@@ -20,7 +44,7 @@
       "title": "特斯拉Optimus人形机器人量产计划加速，预计2025年交付首批产品",
       "summary": "马斯克表示Optimus人形机器人量产计划正在加速，特斯拉工厂已开始测试机器人执行简单装配任务。",
       "url": "https://www.tesla.com/optimus",
-      "date": "2026-04-03",
+      "date": "2026-04-04",
       "source": "行业动态",
       "category": "具身智能",
       "type": "news",
@@ -35,7 +59,7 @@
       "title": "宇树科技发布Unitree G1人形机器人，价格9.9万元起",
       "summary": "宇树科技发布新一代人形机器人G1，身高约127cm，体重约35kg，具备23个自由度，面向教育和科研市场。",
       "url": "https://www.unitree.com",
-      "date": "2026-04-03",
+      "date": "2026-04-04",
       "source": "行业动态",
       "category": "具身智能",
       "type": "news",
@@ -49,7 +73,7 @@
       "title": "英伟达发布GR00T人形机器人基础模型，为机器人提供大脑",
       "summary": "NVIDIA发布人形机器人通用基础模型GR00T，结合Isaac Sim仿真平台，加速人形机器人开发。",
       "url": "https://developer.nvidia.com/isaac",
-      "date": "2026-04-03",
+      "date": "2026-04-04",
       "source": "行业动态",
       "category": "具身智能",
       "type": "news",
@@ -64,7 +88,7 @@
       "title": "智元机器人发布远征A2人形机器人，进入工业场景实测",
       "summary": "智元机器人发布远征A2人形机器人，已在汽车工厂进行实际生产任务测试，展示零部件装配能力。",
       "url": "https://www.zhiyuanrobot.com",
-      "date": "2026-04-03",
+      "date": "2026-04-04",
       "source": "行业动态",
       "category": "具身智能",
       "type": "news",
@@ -78,7 +102,7 @@
       "title": "波士顿动力Atlas机器人全面升级，电动版展现更强运动能力",
       "summary": "波士顿动力发布全电动版Atlas机器人，相比液压版本运动更加流畅，可完成后空翻等复杂动作。",
       "url": "https://bostondynamics.com/atlas",
-      "date": "2026-04-03",
+      "date": "2026-04-04",
       "source": "行业动态",
       "category": "具身智能",
       "type": "news",
@@ -86,6 +110,98 @@
         "机器人",
         "人形机器人",
         "波士顿动力"
+      ]
+    },
+    {
+      "title": "Safety-Critical Centralized Nonlinear MPC for Cooperative Payload Transportation by Two Quadrupedal Robots",
+      "summary": "This paper presents a safety-critical centralized nonlinear model predictive control (NMPC) framework for cooperative payload transportation by two quadrupedal robots. The interconnected robot-payload system is modeled as a discrete-time nonlinear di...",
+      "url": "https://arxiv.org/abs/2604.03200v1",
+      "date": "2026-04-03",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.03200v1",
+      "authors": "Ruturaj S. Sambhus, Yicheng Zeng et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "The Compression Gap: Why Discrete Tokenization Limits Vision-Language-Action Model Scaling",
+      "summary": "Scaling Vision-Language-Action (VLA) models by upgrading the vision encoder is expected to improve downstream manipulation performance--as it does in vision-language modeling. We show that this expectation fails when actions are represented as discre...",
+      "url": "https://arxiv.org/abs/2604.03191v1",
+      "date": "2026-04-03",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.03191v1",
+      "authors": "Takuya Shiba",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Multi-View Video Diffusion Policy: A 3D Spatio-Temporal-Aware Video Action Model",
+      "summary": "Robotic manipulation requires understanding both the 3D spatial structure of the environment and its temporal evolution, yet most existing policies overlook one or both. They typically rely on 2D visual observations and backbones pretrained on static...",
+      "url": "https://arxiv.org/abs/2604.03181v1",
+      "date": "2026-04-03",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.03181v1",
+      "authors": "Peiyan Li, Yixiang Chen et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "FSUNav: A Cerebrum-Cerebellum Architecture for Fast, Safe, and Universal Zero-Shot Goal-Oriented Navigation",
+      "summary": "Current vision-language navigation methods face substantial bottlenecks regarding heterogeneous robot compatibility, real-time performance, and navigation safety. Furthermore, they struggle to support open-vocabulary semantic generalization and multi...",
+      "url": "https://arxiv.org/abs/2604.03139v1",
+      "date": "2026-04-03",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.03139v1",
+      "authors": "Mingao Tan, Yiyang Li et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Minimal Information Control Invariance via Vector Quantization",
+      "summary": "Safety-critical autonomous systems must satisfy hard state constraints under tight computational and sensing budgets, yet learning-based controllers are often far more complex than safe operation requires. To formalize this gap, we study how many dis...",
+      "url": "https://arxiv.org/abs/2604.03132v1",
+      "date": "2026-04-03",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.03132v1",
+      "authors": "Ege Yuceel, Teodor Tchalakov et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "不用学数据，靠写代码操作机器人",
+      "summary": "不用学数据，靠写代码操作机器人",
+      "url": "http://36kr.com/p/3749514454057473",
+      "date": "2026-04-02",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
       ]
     },
     {
@@ -150,6 +266,35 @@
         "机器人学习",
         "研究论文",
         "arXiv"
+      ]
+    },
+    {
+      "title": "UAV-Track VLA: Embodied Aerial Tracking via Vision-Language-Action Models",
+      "summary": "Embodied visual tracking is crucial for Unmanned Aerial Vehicles (UAVs) executing complex real-world tasks. In dynamic urban scenarios with complex semantic requirements, Vision-Language-Action (VLA) models show great promise due to their cross-modal...",
+      "url": "https://arxiv.org/abs/2604.02241v1",
+      "date": "2026-04-02",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.02241v1",
+      "authors": "Qiyao Zhang, Shuhua Zheng et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "200亿估值将成具身智能“季后赛”入场券",
+      "summary": "200亿估值将成具身智能“季后赛”入场券",
+      "url": "http://36kr.com/p/3749019152548360",
+      "date": "2026-04-02",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
       ]
     },
     {

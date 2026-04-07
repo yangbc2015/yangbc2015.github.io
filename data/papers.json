@@ -1,72 +1,52 @@
 {
-  "last_updated": "2026-04-03",
-  "count": 5,
+  "last_updated": "2026-04-07",
+  "count": 9,
   "items": [
     {
-      "title": "ActionParty: Multi-Subject Action Binding in Generative Video Games",
-      "authors": "Alexander Pondaven, Ziyi Wu, Igor Gilitschenski et al.",
-      "abstract": "Recent advances in video diffusion have enabled the development of \"world models\" capable of simulating interactive environments. However, these models are largely restricted to single-agent settings, failing to control multiple agents simultaneously in a scene. In this work, we tackle a fundamental...",
+      "title": "Enhancing Robustness of Federated Learning via Server Learning",
+      "authors": "Van Sy Mai, Kushal Chakrabarti, Richard J. La et al.",
+      "abstract": "This paper explores the use of server learning for enhancing the robustness of federated learning against malicious attacks even when clients' training data are not independent and identically distributed. We propose a heuristic algorithm that uses server learning and client update filtering in comb...",
       "venue": "arXiv",
-      "date": "2026-04-02",
-      "arxiv_id": "2604.02330v1",
-      "url": "https://arxiv.org/abs/2604.02330v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.02330v1.pdf",
-      "categories": [
-        "cs.CV",
-        "cs.AI",
-        "cs.LG"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Steerable Visual Representations",
-      "authors": "Jona Ruthardt, Manu Gaur, Deva Ramanan et al.",
-      "abstract": "Pretrained Vision Transformers (ViTs) such as DINOv2 and MAE provide generic image features that can be applied to a variety of downstream tasks such as retrieval, classification, and segmentation. However, such representations tend to focus on the most salient visual cues in the image, with no way ...",
-      "venue": "arXiv",
-      "date": "2026-04-02",
-      "arxiv_id": "2604.02327v1",
-      "url": "https://arxiv.org/abs/2604.02327v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.02327v1.pdf",
-      "categories": [
-        "cs.CV",
-        "cs.AI"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Grounded Token Initialization for New Vocabulary in LMs for Generative Recommendation",
-      "authors": "Daiwei Chen, Zhoutong Fu, Chengming Jiang et al.",
-      "abstract": "Language models (LMs) are increasingly extended with new learnable vocabulary tokens for domain-specific tasks, such as Semantic-ID tokens in generative recommendation. The standard practice initializes these new tokens as the mean of existing vocabulary embeddings, then relies on supervised fine-tu...",
-      "venue": "arXiv",
-      "date": "2026-04-02",
-      "arxiv_id": "2604.02324v1",
-      "url": "https://arxiv.org/abs/2604.02324v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.02324v1.pdf",
-      "categories": [
-        "cs.CL",
-        "cs.AI",
-        "cs.LG"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Batched Contextual Reinforcement: A Task-Scaling Law for Efficient Reasoning",
-      "authors": "Bangji Yang, Hongbo Ma, Jiajun Fan et al.",
-      "abstract": "Large Language Models employing Chain-of-Thought reasoning achieve strong performance but suffer from excessive token consumption that inflates inference costs. Existing efficiency methods such as explicit length penalties, difficulty estimators, or multi-stage curricula either degrade reasoning qua...",
-      "venue": "arXiv",
-      "date": "2026-04-02",
-      "arxiv_id": "2604.02322v1",
-      "url": "https://arxiv.org/abs/2604.02322v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.02322v1.pdf",
+      "date": "2026-04-03",
+      "arxiv_id": "2604.03226v1",
+      "url": "https://arxiv.org/abs/2604.03226v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.03226v1.pdf",
       "categories": [
         "cs.LG",
+        "cs.AI"
+      ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "PR3DICTR: A modular AI framework for medical 3D image-based detection and outcome prediction",
+      "authors": "Daniel C. MacRae, Luuk van der Hoek, Robert van der Wal et al.",
+      "abstract": "Three-dimensional medical image data and computer-aided decision making, particularly using deep learning, are becoming increasingly important in the medical field. To aid in these developments we introduce PR3DICTR: Platform for Research in 3D Image Classification and sTandardised tRaining. Built u...",
+      "venue": "arXiv",
+      "date": "2026-04-03",
+      "arxiv_id": "2604.03203v1",
+      "url": "https://arxiv.org/abs/2604.03203v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.03203v1.pdf",
+      "categories": [
+        "cs.CV",
         "cs.AI",
+        "cs.LG"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "BAS: A Decision-Theoretic Approach to Evaluating Large Language Model Confidence",
+      "authors": "Sean Wu, Fredrik K. Gustafsson, Edward Phillips et al.",
+      "abstract": "Large language models (LLMs) often produce confident but incorrect answers in settings where abstention would be safer. Standard evaluation protocols, however, require a response and do not account for how confidence should guide decisions under different risk preferences. To address this gap, we in...",
+      "venue": "arXiv",
+      "date": "2026-04-03",
+      "arxiv_id": "2604.03216v1",
+      "url": "https://arxiv.org/abs/2604.03216v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.03216v1.pdf",
+      "categories": [
         "cs.CL"
       ],
       "type": "nlp",
@@ -74,18 +54,103 @@
       "source": "arXiv"
     },
     {
-      "title": "EventHub: Data Factory for Generalizable Event-Based Stereo Networks without Active Sensors",
-      "authors": "Luca Bartolomei, Fabio Tosi, Matteo Poggi et al.",
-      "abstract": "We propose EventHub, a novel framework for training deep-event stereo networks without ground truth annotations from costly active sensors, relying instead on standard color images. From these images, we derive either proxy annotations and proxy events through state-of-the-art novel view synthesis t...",
+      "title": "Learning the Signature of Memorization in Autoregressive Language Models",
+      "authors": "David Ilić, Kostadin Cvejoski, David Stanojević et al.",
+      "abstract": "All prior membership inference attacks for fine-tuned language models use hand-crafted heuristics (e.g., loss thresholding, Min-K\\%, reference calibration), each bounded by the designer's intuition. We introduce the first transferable learned attack, enabled by the observation that fine-tuning any m...",
       "venue": "arXiv",
-      "date": "2026-04-02",
-      "arxiv_id": "2604.02331v1",
-      "url": "https://arxiv.org/abs/2604.02331v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.02331v1.pdf",
+      "date": "2026-04-03",
+      "arxiv_id": "2604.03199v1",
+      "url": "https://arxiv.org/abs/2604.03199v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.03199v1.pdf",
+      "categories": [
+        "cs.CL",
+        "cs.CR",
+        "cs.LG"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "CoME-VL: Scaling Complementary Multi-Encoder Vision-Language Learning",
+      "authors": "Ankan Deria, Komal Kumar, Xilin He et al.",
+      "abstract": "Recent vision-language models (VLMs) typically rely on a single vision encoder trained with contrastive image-text objectives, such as CLIP-style pretraining. While contrastive encoders are effective for cross-modal alignment and retrieval, self-supervised visual encoders often capture richer dense ...",
+      "venue": "arXiv",
+      "date": "2026-04-03",
+      "arxiv_id": "2604.03231v1",
+      "url": "https://arxiv.org/abs/2604.03231v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.03231v1.pdf",
+      "categories": [
+        "cs.CV"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "VOSR: A Vision-Only Generative Model for Image Super-Resolution",
+      "authors": "Rongyuan Wu, Lingchen Sun, Zhengqiang Zhang et al.",
+      "abstract": "Most of the recent generative image super-resolution (SR) methods rely on adapting large text-to-image (T2I) diffusion models pretrained on web-scale text-image data. While effective, this paradigm starts from a generic T2I generator, despite that SR is fundamentally a low-resolution (LR) input-cond...",
+      "venue": "arXiv",
+      "date": "2026-04-03",
+      "arxiv_id": "2604.03225v1",
+      "url": "https://arxiv.org/abs/2604.03225v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.03225v1.pdf",
       "categories": [
         "cs.CV"
       ],
       "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Hierarchical Planning with Latent World Models",
+      "authors": "Wancong Zhang, Basile Terver, Artem Zholus et al.",
+      "abstract": "Model predictive control (MPC) with learned world models has emerged as a promising paradigm for embodied control, particularly for its ability to generalize zero-shot when deployed in new environments. However, learned world models often struggle with long-horizon control due to the accumulation of...",
+      "venue": "arXiv",
+      "date": "2026-04-03",
+      "arxiv_id": "2604.03208v1",
+      "url": "https://arxiv.org/abs/2604.03208v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.03208v1.pdf",
+      "categories": [
+        "cs.LG"
+      ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Safety-Critical Centralized Nonlinear MPC for Cooperative Payload Transportation by Two Quadrupedal Robots",
+      "authors": "Ruturaj S. Sambhus, Yicheng Zeng, Kapi Ketan Mehta et al.",
+      "abstract": "This paper presents a safety-critical centralized nonlinear model predictive control (NMPC) framework for cooperative payload transportation by two quadrupedal robots. The interconnected robot-payload system is modeled as a discrete-time nonlinear differential-algebraic system, capturing the coupled...",
+      "venue": "arXiv",
+      "date": "2026-04-03",
+      "arxiv_id": "2604.03200v1",
+      "url": "https://arxiv.org/abs/2604.03200v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.03200v1.pdf",
+      "categories": [
+        "cs.RO",
+        "math.OC"
+      ],
+      "type": "ai",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "The Compression Gap: Why Discrete Tokenization Limits Vision-Language-Action Model Scaling",
+      "authors": "Takuya Shiba",
+      "abstract": "Scaling Vision-Language-Action (VLA) models by upgrading the vision encoder is expected to improve downstream manipulation performance--as it does in vision-language modeling. We show that this expectation fails when actions are represented as discrete tokens, and explain why through an information-...",
+      "venue": "arXiv",
+      "date": "2026-04-03",
+      "arxiv_id": "2604.03191v1",
+      "url": "https://arxiv.org/abs/2604.03191v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.03191v1.pdf",
+      "categories": [
+        "cs.RO",
+        "cs.CV",
+        "cs.LG"
+      ],
+      "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     }
