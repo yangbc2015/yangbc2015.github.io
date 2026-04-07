@@ -237,7 +237,7 @@
                     感谢您的关注！这是我的详细简历和作品集。
                 </p>
                 <div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center;">
-                    <a href="/resume.pdf" target="_blank" class="btn-primary" style="display: inline-flex; align-items: center; gap: 0.5rem;">
+                    <a id="resume-link" href="#" target="_blank" class="btn-primary" style="display: inline-flex; align-items: center; gap: 0.5rem;">
                         <span>📄</span> 下载简历 (PDF)
                     </a>
                     <a href="https://github.com/yangbc2015" target="_blank" class="btn-primary" style="display: inline-flex; align-items: center; gap: 0.5rem; background: rgba(0,229,255,0.1); border-color: var(--neon-blue); color: var(--neon-blue);">
@@ -403,11 +403,20 @@ function initSecretResume() {
     input.addEventListener('input', (e) => {
         const value = e.target.value.toUpperCase();
         
-        // 输入正确口令
-        if (value === 'carlos') {
+        // 验证口令（经过混淆处理，避免源码直接暴露）
+        // 提示：使用 atob('Q0FSTE9T') 可得到正确的大写口令
+        const encodedKey = 'Q0FSTE9T'; // Base64 编码的口令
+        if (value === atob(encodedKey)) {
             inputContainer.style.display = 'none';
             content.style.display = 'block';
             content.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            
+            // 解码并设置简历链接（编码的内容只有通过验证才可见）
+            const resumeLink = document.getElementById('resume-link');
+            if (resumeLink) {
+                // L3Jlc3VtZS5wZGY= = /resume.pdf
+                resumeLink.href = atob('L3Jlc3VtZS5wZGY=');
+            }
             
             // 添加进入动画
             content.style.opacity = '0';
