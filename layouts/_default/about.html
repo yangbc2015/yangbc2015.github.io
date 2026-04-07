@@ -225,33 +225,15 @@
                    padding: 0.5rem; outline: none; width: 150px; text-transform: uppercase;">
     </div>
 
-    <!-- 隐藏简历内容 -->
-    <div id="resume-content" style="display: none;">
-        <section class="about-section" style="border: 1px solid var(--neon-green); background: rgba(0,230,118,0.05);">
-            <div class="about-section-header">
-                <span class="section-number">✨</span>
-                <h2 class="section-title">完整作品集</h2>
-            </div>
-            <div style="text-align: center; padding: 2rem;">
-                <p style="color: var(--text-secondary); margin-bottom: 1.5rem; line-height: 1.8;">
-                    感谢您的关注！这是我的详细简历和作品集。
-                </p>
-                <div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center;">
-                    <a id="resume-link" href="#" target="_blank" class="btn-primary" style="display: inline-flex; align-items: center; gap: 0.5rem;">
-                        <span>📄</span> 下载简历 (PDF)
-                    </a>
-                    <a href="https://github.com/yangbc2015" target="_blank" class="btn-primary" style="display: inline-flex; align-items: center; gap: 0.5rem; background: rgba(0,229,255,0.1); border-color: var(--neon-blue); color: var(--neon-blue);">
-                        <span>🐛</span> GitHub 主页
-                    </a>
-                </div>
-                <div style="margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-subtle);">
-                    <p style="color: var(--text-muted); font-size: 0.9rem;">
-                        📧 联系方式: 请通过 GitHub 或邮件联系
-                    </p>
-                </div>
-            </div>
-        </section>
+
+    <!-- 隐藏简历入口提示（解锁后跳转到独立页面） -->
+    <div id="resume-hint" style="display: none; text-align: center; padding: 2rem;">
+        <div style="color: var(--neon-green); font-size: 1.5rem; margin-bottom: 1rem;">✨</div>
+        <p style="color: var(--text-secondary); margin-bottom: 1.5rem;">验证通过，正在进入...</p>
+        <div style="width: 40px; height: 40px; border: 3px solid rgba(0,230,118,0.3); border-top-color: var(--neon-green); border-radius: 50%; margin: 0 auto;
+                    animation: spin 1s linear infinite;"></div>
     </div>
+    <style>@keyframes spin { to { transform: rotate(360deg); } }</style>
 </div>
 
 <!-- 不蒜子访客统计 -->
@@ -363,7 +345,6 @@ function initSecretResume() {
     const lockIcon = document.getElementById('lock-icon');
     const inputContainer = document.getElementById('secret-input-container');
     const input = document.getElementById('secret-code');
-    const content = document.getElementById('resume-content');
     
     if (!trigger || !input) return;
     
@@ -407,25 +388,9 @@ function initSecretResume() {
         // 提示：使用 atob('Q0FSTE9T') 可得到正确的大写口令
         const encodedKey = 'Q0FSTE9T'; // Base64 编码的口令
         if (value === atob(encodedKey)) {
-            inputContainer.style.display = 'none';
-            content.style.display = 'block';
-            content.scrollIntoView({ behavior: 'smooth', block: 'center' });
-            
-            // 解码并设置简历链接（编码的内容只有通过验证才可见）
-            const resumeLink = document.getElementById('resume-link');
-            if (resumeLink) {
-                // L3Jlc3VtZS5wZGY= = /resume.pdf
-                resumeLink.href = atob('L3Jlc3VtZS5wZGY=');
-            }
-            
-            // 添加进入动画
-            content.style.opacity = '0';
-            content.style.transform = 'translateY(20px)';
-            content.style.transition = 'all 0.5s ease';
-            setTimeout(() => {
-                content.style.opacity = '1';
-                content.style.transform = 'translateY(0)';
-            }, 100);
+            // 验证通过，跳转到简历页面（链接经过混淆）
+            // L3Jlc3VtZS8= = /resume/
+            window.location.href = atob('L3Jlc3VtZS8=');
         }
     });
     
