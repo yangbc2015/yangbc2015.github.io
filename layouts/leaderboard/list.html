@@ -17,7 +17,7 @@
 <div class="section-container" style="padding-top: 1rem;">
     {{ if $aaData.last_updated }}
     <div class="update-badge" style="margin-bottom: 1rem; font-size: 0.85rem; color: var(--text-muted);">
-        自动更新于 {{ slicestr $aaData.last_updated 0 10 }}
+        自动更新于 {{ if and $aaData.last_updated (gt (len $aaData.last_updated) 10) }}{{ slicestr $aaData.last_updated 0 10 }}{{ else }}{{ now.Format "2006-01-02" }}{{ end }}
     </div>
     {{ end }}
     
@@ -69,7 +69,7 @@
             </table>
         </div>
         <p class="lb-update-time">
-            最后更新: {{ slicestr $aaData.last_updated 0 10 }} | 
+            最后更新: {{ if and $aaData.last_updated (gt (len $aaData.last_updated) 10) }}{{ slicestr $aaData.last_updated 0 10 }}{{ else }}{{ now.Format "2006-01-02" }}{{ end }} | 
             数据来源: <a href="{{ $aaData.source_url }}" target="_blank" style="color: var(--neon-green);">Artificial Analysis</a>
             <br><small style="opacity: 0.7;">{{ $aaData.description }}</small>
         </p>
@@ -116,7 +116,7 @@
             </table>
         </div>
         <p class="lb-update-time">
-            最后更新: {{ slicestr $berkeleyData.last_updated 0 10 }} | 
+            最后更新: {{ if and $berkeleyData.last_updated (gt (len $berkeleyData.last_updated) 10) }}{{ slicestr $berkeleyData.last_updated 0 10 }}{{ else }}{{ now.Format "2006-01-02" }}{{ end }} | 
             数据来源: <a href="{{ $berkeleyData.source_url }}" target="_blank" style="color: var(--neon-green);">Berkeley Function-Calling Leaderboard</a>
             <br><small style="opacity: 0.7;">{{ $berkeleyData.description }}</small>
         </p>
@@ -163,7 +163,7 @@
             </table>
         </div>
         <p class="lb-update-time">
-            最后更新: {{ slicestr $livebenchData.last_updated 0 10 }} | 
+            最后更新: {{ if and $livebenchData.last_updated (gt (len $livebenchData.last_updated) 10) }}{{ slicestr $livebenchData.last_updated 0 10 }}{{ else }}{{ now.Format "2006-01-02" }}{{ end }} | 
             数据来源: <a href="{{ $livebenchData.source_url }}" target="_blank" style="color: var(--neon-green);">LiveBench</a>
             <br><small style="opacity: 0.7;">{{ $livebenchData.description }}</small>
         </p>
@@ -204,7 +204,7 @@
             </table>
         </div>
         <p class="lb-update-time">
-            最后更新: {{ slicestr $openrouterData.last_updated 0 10 }} | 
+            最后更新: {{ if and $openrouterData.last_updated (gt (len $openrouterData.last_updated) 10) }}{{ slicestr $openrouterData.last_updated 0 10 }}{{ else }}{{ now.Format "2006-01-02" }}{{ end }} | 
             数据来源: <a href="{{ $openrouterData.source_url }}" target="_blank" style="color: var(--neon-green);">OpenRouter</a>
             <br><small style="opacity: 0.7;">{{ $openrouterData.description }}</small>
         </p>
@@ -253,7 +253,7 @@
             </table>
         </div>
         <p class="lb-update-time">
-            最后更新: {{ slicestr $superclueData.last_updated 0 10 }} | 
+            最后更新: {{ if and $superclueData.last_updated (gt (len $superclueData.last_updated) 10) }}{{ slicestr $superclueData.last_updated 0 10 }}{{ else }}{{ now.Format "2006-01-02" }}{{ end }} | 
             数据来源: <a href="{{ $superclueData.source_url }}" target="_blank" style="color: var(--neon-green);">SuperCLUE</a>
             <br><small style="opacity: 0.7;">{{ $superclueData.description }}</small>
         </p>
@@ -302,7 +302,7 @@
             </table>
         </div>
         <p class="lb-update-time">
-            最后更新: {{ slicestr $dlData.last_updated 0 10 }} | 
+            最后更新: {{ if and $dlData.last_updated (gt (len $dlData.last_updated) 10) }}{{ slicestr $dlData.last_updated 0 10 }}{{ else }}{{ now.Format "2006-01-02" }}{{ end }} | 
             数据来源: <a href="{{ $dlData.source_url }}" target="_blank" style="color: var(--neon-green);">DataLearner</a>
             <br><small style="opacity: 0.7;">{{ $dlData.description }}</small>
         </p>

@@ -12,7 +12,7 @@
 <div class="section-container" style="padding-top: 1rem;">
     {{ if $investmentData.last_updated }}
     <p class="update-time">
-        数据更新于 {{ slicestr $investmentData.last_updated 0 10 }}
+        数据更新于 {{ if and $investmentData.last_updated (gt (len $investmentData.last_updated) 10) }}{{ slicestr $investmentData.last_updated 0 10 }}{{ else }}{{ now.Format "2006-01-02" }}{{ end }}
     </p>
     {{ end }}
 

@@ -14,7 +14,7 @@
 <div class="section-container">
     {{ if $roboticsData.last_updated }}
     <div style="margin-bottom: 1rem; font-size: 0.85rem; color: var(--text-muted);">
-        数据更新于 {{ slicestr $roboticsData.last_updated 0 10 }}
+        数据更新于 {{ if and $roboticsData.last_updated (gt (len $roboticsData.last_updated) 10) }}{{ slicestr $roboticsData.last_updated 0 10 }}{{ else }}{{ now.Format "2006-01-02" }}{{ end }}
     </div>
     {{ end }}
 

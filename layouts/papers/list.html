@@ -58,7 +58,7 @@
 
 <div class="section-container" style="padding-top: 1rem;">
     <div class="papers-update-info">
-        {{ if $papersData.last_updated }}数据更新于 {{ slicestr $papersData.last_updated 0 10 }} | {{ end }}
+        {{ if and $papersData.last_updated (gt (len $papersData.last_updated) 10) }}数据更新于 {{ slicestr $papersData.last_updated 0 10 }} | {{ end }}
         共 {{ len $staticPapers }} 篇经典论文 + {{ $papersData.count }} 篇最新论文
     </div>
 
