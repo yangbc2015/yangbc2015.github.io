@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-04-07",
-  "count": 86,
+  "count": 91,
   "items": [
     {
       "title": "[一场机器人黑客松，让 具 身 智 能 的差距与机会同时显形",
@@ -24,6 +24,86 @@
       "type": "news",
       "tags": [
         "机器人"
+      ]
+    },
+    {
+      "title": "Outlier-Robust Nonlinear Moving Horizon Estimation using Adaptive Loss Functions",
+      "summary": "In this work, we propose an adaptive robust loss function framework for MHE, integrating an adaptive robust loss function to reduce the impact of outliers with a regularization term that avoids naive solutions. The proposed approach prioritizes the f...",
+      "url": "https://arxiv.org/abs/2604.04862v1",
+      "date": "2026-04-06",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.04862v1",
+      "authors": "Nestor Deniz, Guido Sanchez et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "E-VLA: Event-Augmented Vision-Language-Action Model for Dark and Blurred Scenes",
+      "summary": "Robotic Vision-Language-Action (VLA) models generalize well for open-ended manipulation, but their perception is fragile under sensing-stage degradations such as extreme low light, motion blur, and black clipping. We present E-VLA, an event-augmented...",
+      "url": "https://arxiv.org/abs/2604.04834v1",
+      "date": "2026-04-06",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.04834v1",
+      "authors": "Jiajun Zhai, Hao Shi et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Efficient Multi-Objective Planning with Weighted Maximization Using Large Neighbourhood Search",
+      "summary": "Autonomous navigation often requires the simultaneous optimization of multiple objectives. The most common approach scalarizes these into a single cost function using a weighted sum, but this method is unable to find all possible trade-offs and can t...",
+      "url": "https://arxiv.org/abs/2604.04826v1",
+      "date": "2026-04-06",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.04826v1",
+      "authors": "Krishna Kalavadia, Shamak Dutta et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "AnyUser: Translating Sketched User Intent into Domestic Robots",
+      "summary": "We introduce AnyUser, a unified robotic instruction system for intuitive domestic task instruction via free-form sketches on camera images, optionally with language. AnyUser interprets multimodal inputs (sketch, vision, language) as spatial-semantic ...",
+      "url": "https://arxiv.org/abs/2604.04811v1",
+      "date": "2026-04-06",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.04811v1",
+      "authors": "Songyuan Yang, Huibin Tan et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Pickalo: Leveraging 6D Pose Estimation for Low-Cost Industrial Bin Picking",
+      "summary": "Bin picking in real industrial environments remains challenging due to severe clutter, occlusions, and the high cost of traditional 3D sensing setups. We present Pickalo, a modular 6D pose-based bin-picking pipeline built entirely on low-cost hardwar...",
+      "url": "https://arxiv.org/abs/2604.04690v1",
+      "date": "2026-04-06",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.04690v1",
+      "authors": "Alessandro Tarsi, Matteo Mastrogiuseppe et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
       ]
     },
     {
