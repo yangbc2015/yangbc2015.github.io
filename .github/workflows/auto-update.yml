@@ -8,10 +8,13 @@ on:
     - cron: '0 */6 * * *'
   # 允许手动触发
   workflow_dispatch:
-  # 每次推送到main分支时也触发更新
+  # 只有修改爬虫代码时才触发（避免无限循环）
   push:
     branches:
       - main
+    paths:
+      - 'scripts/scraper/**'
+      - '.github/workflows/auto-update.yml'
 
 # 确保不会与其他部署冲突
 concurrency:
