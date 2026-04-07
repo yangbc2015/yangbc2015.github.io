@@ -86,8 +86,7 @@ function verifyAccess() {
                 resumeContent.style.transform = 'translateY(0)';
             }, 100);
             
-            // 保存解锁状态到sessionStorage
-            sessionStorage.setItem('resume_unlocked', 'true');
+            // 为了安全，不保存解锁状态，每次访问都需要重新输入密码
             
         } catch (e) {
             console.error('解密失败:', e);
@@ -119,27 +118,6 @@ document.getElementById('access-code').addEventListener('keypress', (e) => {
     if (e.key === 'Enter') verifyAccess();
 });
 
-// 注意：为了安全，每次访问都需要输入密码
-// 如果需要保持登录状态，可以取消下面的注鲤
-/* 保持登录状态的代码（已禁用）
-document.addEventListener('DOMContentLoaded', () => {
-    if (sessionStorage.getItem('resume_unlocked') === 'true') {
-        const authScreen = document.getElementById('auth-screen');
-        const resumeContent = document.getElementById('resume-content');
-        
-        try {
-            let decodedContent = '';
-            encryptedParts.forEach(part => {
-                decodedContent += atob(part);
-            });
-            resumeContent.innerHTML = decodedContent;
-            authScreen.style.display = 'none';
-            resumeContent.style.display = 'block';
-        } catch (e) {
-            console.error('解密失败:', e);
-        }
-    }
-});
-*/
+// 安全提示：每次访问此页面都需要重新输入密码
 </script>
 {{ end }}
