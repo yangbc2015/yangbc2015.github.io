@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-04-06",
-  "count": 81,
+  "last_updated": "2026-04-07",
+  "count": 86,
   "items": [
     {
       "title": "[一场机器人黑客松，让 具 身 智 能 的差距与机会同时显形",
       "summary": "[一场机器人黑客松，让 具 身 智 能 的差距与机会同时显形",
       "url": "http://36kr.com/p/3753345845903872",
-      "date": "2026-04-06",
+      "date": "2026-04-07",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
@@ -18,7 +18,7 @@
       "title": "[英伟达给机器人装上龙虾大脑，具 身 智 能 的Harness来了",
       "summary": "[英伟达给机器人装上龙虾大脑，具 身 智 能 的Harness来了",
       "url": "http://36kr.com/p/3749514454057473",
-      "date": "2026-04-06",
+      "date": "2026-04-07",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
@@ -113,6 +113,98 @@
       ]
     },
     {
+      "title": "Safety-Critical Centralized Nonlinear MPC for Cooperative Payload Transportation by Two Quadrupedal Robots",
+      "summary": "This paper presents a safety-critical centralized nonlinear model predictive control (NMPC) framework for cooperative payload transportation by two quadrupedal robots. The interconnected robot-payload system is modeled as a discrete-time nonlinear di...",
+      "url": "https://arxiv.org/abs/2604.03200v1",
+      "date": "2026-04-03",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.03200v1",
+      "authors": "Ruturaj S. Sambhus, Yicheng Zeng et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "The Compression Gap: Why Discrete Tokenization Limits Vision-Language-Action Model Scaling",
+      "summary": "Scaling Vision-Language-Action (VLA) models by upgrading the vision encoder is expected to improve downstream manipulation performance--as it does in vision-language modeling. We show that this expectation fails when actions are represented as discre...",
+      "url": "https://arxiv.org/abs/2604.03191v1",
+      "date": "2026-04-03",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.03191v1",
+      "authors": "Takuya Shiba",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Multi-View Video Diffusion Policy: A 3D Spatio-Temporal-Aware Video Action Model",
+      "summary": "Robotic manipulation requires understanding both the 3D spatial structure of the environment and its temporal evolution, yet most existing policies overlook one or both. They typically rely on 2D visual observations and backbones pretrained on static...",
+      "url": "https://arxiv.org/abs/2604.03181v1",
+      "date": "2026-04-03",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.03181v1",
+      "authors": "Peiyan Li, Yixiang Chen et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "FSUNav: A Cerebrum-Cerebellum Architecture for Fast, Safe, and Universal Zero-Shot Goal-Oriented Navigation",
+      "summary": "Current vision-language navigation methods face substantial bottlenecks regarding heterogeneous robot compatibility, real-time performance, and navigation safety. Furthermore, they struggle to support open-vocabulary semantic generalization and multi...",
+      "url": "https://arxiv.org/abs/2604.03139v1",
+      "date": "2026-04-03",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.03139v1",
+      "authors": "Mingao Tan, Yiyang Li et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Minimal Information Control Invariance via Vector Quantization",
+      "summary": "Safety-critical autonomous systems must satisfy hard state constraints under tight computational and sensing budgets, yet learning-based controllers are often far more complex than safe operation requires. To formalize this gap, we study how many dis...",
+      "url": "https://arxiv.org/abs/2604.03132v1",
+      "date": "2026-04-03",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.03132v1",
+      "authors": "Ege Yuceel, Teodor Tchalakov et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "不用学数据，靠写代码操作机器人",
+      "summary": "不用学数据，靠写代码操作机器人",
+      "url": "http://36kr.com/p/3749514454057473",
+      "date": "2026-04-02",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
       "title": "Stop Wandering: Efficient Vision-Language Navigation via Metacognitive Reasoning",
       "summary": "Training-free Vision-Language Navigation (VLN) agents powered by foundation models can follow instructions and explore 3D environments. However, existing approaches rely on greedy frontier selection and passive spatial memory, leading to inefficient ...",
       "url": "https://arxiv.org/abs/2604.02318v1",
@@ -190,18 +282,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "不用学数据，靠写代码操作机器人",
-      "summary": "不用学数据，靠写代码操作机器人",
-      "url": "http://36kr.com/p/3749514454057473",
-      "date": "2026-04-02",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
       ]
     },
     {
