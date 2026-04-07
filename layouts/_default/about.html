@@ -197,6 +197,47 @@
         </div>
     </section>
 
+
+    <!-- 隐藏简历入口 - 触发区域 -->
+    <div id="resume-trigger" style="text-align: center; padding: 3rem 0 1rem; cursor: default; user-select: none;">
+        <span style="color: rgba(255,255,255,0.03); font-size: 0.7rem; letter-spacing: 2px;">· · ·</span>
+    </div>
+
+    <!-- 隐藏输入框 -->
+    <div id="secret-input-container" style="display: none; text-align: center; margin-bottom: 2rem;">
+        <input type="text" id="secret-code" placeholder="" maxlength="10" autocomplete="off"
+            style="background: transparent; border: none; border-bottom: 1px solid rgba(0,230,118,0.3); 
+                   color: var(--neon-green); text-align: center; font-size: 1.2rem; letter-spacing: 0.5rem;
+                   padding: 0.5rem; outline: none; width: 150px; text-transform: uppercase;">
+    </div>
+
+    <!-- 隐藏简历内容 -->
+    <div id="resume-content" style="display: none;">
+        <section class="about-section" style="border: 1px solid var(--neon-green); background: rgba(0,230,118,0.05);">
+            <div class="about-section-header">
+                <span class="section-number">✨</span>
+                <h2 class="section-title">完整作品集</h2>
+            </div>
+            <div style="text-align: center; padding: 2rem;">
+                <p style="color: var(--text-secondary); margin-bottom: 1.5rem; line-height: 1.8;">
+                    感谢您的关注！这是我的详细简历和作品集。
+                </p>
+                <div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center;">
+                    <a href="/resume.pdf" target="_blank" class="btn-primary" style="display: inline-flex; align-items: center; gap: 0.5rem;">
+                        <span>📄</span> 下载简历 (PDF)
+                    </a>
+                    <a href="https://github.com/yangbc2015" target="_blank" class="btn-primary" style="display: inline-flex; align-items: center; gap: 0.5rem; background: rgba(0,229,255,0.1); border-color: var(--neon-blue); color: var(--neon-blue);">
+                        <span>🐛</span> GitHub 主页
+                    </a>
+                </div>
+                <div style="margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-subtle);">
+                    <p style="color: var(--text-muted); font-size: 0.9rem;">
+                        📧 联系方式: 请通过 GitHub 或邮件联系
+                    </p>
+                </div>
+            </div>
+        </section>
+    </div>
 </div>
 
 <!-- 不蒜子访客统计 -->
@@ -301,10 +342,67 @@ function animateNumbers() {
     });
 }
 
+// 隐藏简历功能
+function initSecretResume() {
+    const trigger = document.getElementById('resume-trigger');
+    const inputContainer = document.getElementById('secret-input-container');
+    const input = document.getElementById('secret-code');
+    const content = document.getElementById('resume-content');
+    
+    if (!trigger || !input) return;
+    
+    // 点击触发区域显示输入框
+    trigger.addEventListener('click', () => {
+        inputContainer.style.display = 'block';
+        input.focus();
+        trigger.style.display = 'none';
+    });
+    
+    // 监听输入
+    input.addEventListener('input', (e) => {
+        const value = e.target.value.toUpperCase();
+        
+        // 输入正确口令
+        if (value === 'HIRE') {
+            inputContainer.style.display = 'none';
+            content.style.display = 'block';
+            content.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            
+            // 添加进入动画
+            content.style.opacity = '0';
+            content.style.transform = 'translateY(20px)';
+            content.style.transition = 'all 0.5s ease';
+            setTimeout(() => {
+                content.style.opacity = '1';
+                content.style.transform = 'translateY(0)';
+            }, 100);
+        }
+    });
+    
+    // 按 Escape 取消
+    input.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') {
+            inputContainer.style.display = 'none';
+            trigger.style.display = 'block';
+            input.value = '';
+        }
+    });
+    
+    // 点击外部关闭
+    document.addEventListener('click', (e) => {
+        if (!inputContainer.contains(e.target) && !trigger.contains(e.target) && inputContainer.style.display === 'block') {
+            inputContainer.style.display = 'none';
+            trigger.style.display = 'block';
+            input.value = '';
+        }
+    });
+}
+
 // 页面加载完成后执行
 document.addEventListener('DOMContentLoaded', () => {
     animateNumbers();
     updateVisitorCount();
+    initSecretResume();
 });
 </script>
 {{ end }}
