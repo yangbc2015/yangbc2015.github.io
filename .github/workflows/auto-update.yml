@@ -135,10 +135,16 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     
     steps:
+    - name: Wait for git push to sync
+      run: |
+        echo "⏳ 等待git push同步到GitHub..."
+        sleep 10
+    
     - name: Checkout
       uses: actions/checkout@v4
       with:
         fetch-depth: 0
+        ref: main  # 确保检出最新的main分支（包含update-data推送的更改）
     
     - name: Setup Pages
       id: pages
