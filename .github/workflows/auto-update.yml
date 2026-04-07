@@ -4,8 +4,14 @@ on:
   schedule:
     # 每天北京时间早上 8 点运行 (UTC 00:00)
     - cron: '0 0 * * *'
+    # 每6小时运行一次，确保数据及时更新
+    - cron: '0 */6 * * *'
   # 允许手动触发
   workflow_dispatch:
+  # 每次推送到main分支时也触发更新
+  push:
+    branches:
+      - main
 
 # 确保不会与其他部署冲突
 concurrency:
@@ -95,10 +101,11 @@ jobs:
           "🤖 Auto-update AI data: $(date +'%Y-%m-%d')" \
           "📊 更新内容:" \
           "- AI 新闻" \
-          "- AI 榜单 (LMSYS Arena)" \
+          "- AI 榜单 (Artificial Analysis / Berkeley FC / LiveBench / OpenRouter / SuperCLUE / DataLearner)" \
           "- AI 论文 (arXiv)" \
           "- AI 视频" \
           "- AI 投资资讯" \
+          "- 机器人资讯" \
           "Status: ${{ steps.update_status.outputs.status }}" \
           | git commit -F -
         git push
