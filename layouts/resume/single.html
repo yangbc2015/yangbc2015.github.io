@@ -3,179 +3,140 @@
 {{ define "main" }}
 <div class="resume-page" style="max-width: 900px; margin: 0 auto; padding: 2rem 1rem;">
     
-    <!-- 页面标题 -->
-    <header style="text-align: center; margin-bottom: 3rem; padding: 2rem; background: var(--dark-bg-secondary); border-radius: var(--radius-lg); border: 1px solid var(--border-subtle);">
-        <div style="font-size: 3rem; margin-bottom: 1rem;">💼</div>
-        <h1 style="font-size: 2rem; color: var(--neon-green); margin-bottom: 0.5rem; text-shadow: 0 0 20px rgba(0,230,118,0.3);">个人简历</h1>
-        <p style="color: var(--text-muted); font-size: 0.9rem;">感谢您的关注，期待与您交流</p>
-    </header>
-
-    <!-- 基本信息 -->
-    <section class="resume-section" style="margin-bottom: 2.5rem;">
-        <h2 style="font-size: 1.2rem; color: var(--neon-green); margin-bottom: 1.5rem; padding-bottom: 0.5rem; border-bottom: 2px solid rgba(0,230,118,0.3); display: flex; align-items: center; gap: 0.5rem;">
-            <span>👤</span> 基本信息
-        </h2>
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; padding: 1.5rem; background: var(--dark-bg-secondary); border-radius: var(--radius-md); border: 1px solid var(--border-subtle);">
-            <div style="color: var(--text-secondary);">
-                <strong style="color: var(--text-primary); display: block; margin-bottom: 0.3rem;">姓名</strong>
-                【您的姓名】
-            </div>
-            <div style="color: var(--text-secondary);">
-                <strong style="color: var(--text-primary); display: block; margin-bottom: 0.3rem;">职位</strong>
-                【目标职位】
-            </div>
-            <div style="color: var(--text-secondary);">
-                <strong style="color: var(--text-primary); display: block; margin-bottom: 0.3rem;">工作年限</strong>
-                X 年经验
-            </div>
-            <div style="color: var(--text-secondary);">
-                <strong style="color: var(--text-primary); display: block; margin-bottom: 0.3rem;">所在地</strong>
-                【城市】
-            </div>
+    <!-- 授权界面（默认显示） -->
+    <div id="auth-screen" style="min-height: 60vh; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;">
+        <div style="font-size: 4rem; margin-bottom: 1.5rem; opacity: 0.3;">🔒</div>
+        <h1 style="font-size: 1.5rem; color: var(--text-secondary); margin-bottom: 1rem;">需要授权访问</h1>
+        <p style="color: var(--text-muted); margin-bottom: 2rem; max-width: 400px; line-height: 1.6;">
+            此页面包含个人简历信息，请输入访问密码。
+        </p>
+        
+        <!-- 密码输入 -->
+        <div style="display: flex; flex-direction: column; align-items: center; gap: 1rem;">
+            <input type="password" id="access-code" placeholder="请输入密码" 
+                style="background: var(--dark-bg-secondary); border: 1px solid var(--border-subtle); 
+                       color: var(--text-primary); text-align: center; font-size: 1rem; letter-spacing: 0.3rem;
+                       padding: 0.75rem 1.5rem; outline: none; width: 200px; border-radius: var(--radius-md);
+                       transition: all 0.3s ease;"
+                onfocus="this.style.borderColor='var(--neon-green)'; this.style.boxShadow='0 0 10px rgba(0,230,118,0.2)';"
+                onblur="this.style.borderColor='var(--border-subtle)'; this.style.boxShadow='none';">
+            <button id="unlock-btn" class="btn-primary" style="min-width: 120px;">
+                解锁
+            </button>
         </div>
-    </section>
-
-    <!-- 个人简介 -->
-    <section class="resume-section" style="margin-bottom: 2.5rem;">
-        <h2 style="font-size: 1.2rem; color: var(--neon-green); margin-bottom: 1.5rem; padding-bottom: 0.5rem; border-bottom: 2px solid rgba(0,230,118,0.3); display: flex; align-items: center; gap: 0.5rem;">
-            <span>📝</span> 个人简介
-        </h2>
-        <div style="padding: 1.5rem; background: var(--dark-bg-secondary); border-radius: var(--radius-md); border: 1px solid var(--border-subtle);">
-            <p style="color: var(--text-secondary); line-height: 1.8; margin: 0;">
-                在这里填写您的个人简介，包括您的专业背景、核心技能、职业目标等。建议突出您的亮点和与目标岗位的匹配度。
-                例如：一名拥有 X 年工作经验的 XXX 专业人员，擅长 XXX 技术栈，在 XXX 领域有丰富的项目经验。
-            </p>
+        
+        <!-- 错误提示 -->
+        <div id="error-msg" style="color: var(--neon-pink); font-size: 0.9rem; margin-top: 1rem; opacity: 0; transition: opacity 0.3s ease;">
+            密码错误，请重试
         </div>
-    </section>
-
-    <!-- 技能专长 -->
-    <section class="resume-section" style="margin-bottom: 2.5rem;">
-        <h2 style="font-size: 1.2rem; color: var(--neon-green); margin-bottom: 1.5rem; padding-bottom: 0.5rem; border-bottom: 2px solid rgba(0,230,118,0.3); display: flex; align-items: center; gap: 0.5rem;">
-            <span>⚙️</span> 技能专长
-        </h2>
-        <div style="padding: 1.5rem; background: var(--dark-bg-secondary); border-radius: var(--radius-md); border: 1px solid var(--border-subtle);">
-            <div style="display: flex; flex-wrap: wrap; gap: 0.75rem;">
-                <span style="padding: 0.5rem 1rem; background: rgba(0,230,118,0.1); border: 1px solid rgba(0,230,118,0.3); border-radius: 50px; font-size: 0.9rem; color: var(--neon-green);">技能 1</span>
-                <span style="padding: 0.5rem 1rem; background: rgba(0,230,118,0.1); border: 1px solid rgba(0,230,118,0.3); border-radius: 50px; font-size: 0.9rem; color: var(--neon-green);">技能 2</span>
-                <span style="padding: 0.5rem 1rem; background: rgba(0,230,118,0.1); border: 1px solid rgba(0,230,118,0.3); border-radius: 50px; font-size: 0.9rem; color: var(--neon-green);">技能 3</span>
-                <span style="padding: 0.5rem 1rem; background: rgba(0,229,255,0.1); border: 1px solid rgba(0,229,255,0.3); border-radius: 50px; font-size: 0.9rem; color: var(--neon-blue);">技能 4</span>
-                <span style="padding: 0.5rem 1rem; background: rgba(0,229,255,0.1); border: 1px solid rgba(0,229,255,0.3); border-radius: 50px; font-size: 0.9rem; color: var(--neon-blue);">技能 5</span>
-                <span style="padding: 0.5rem 1rem; background: rgba(255,64,129,0.1); border: 1px solid rgba(255,64,129,0.3); border-radius: 50px; font-size: 0.9rem; color: var(--neon-pink);">技能 6</span>
-            </div>
-        </div>
-    </section>
-
-    <!-- 工作经历 -->
-    <section class="resume-section" style="margin-bottom: 2.5rem;">
-        <h2 style="font-size: 1.2rem; color: var(--neon-green); margin-bottom: 1.5rem; padding-bottom: 0.5rem; border-bottom: 2px solid rgba(0,230,118,0.3); display: flex; align-items: center; gap: 0.5rem;">
-            <span>💼</span> 工作经历
-        </h2>
-        <div style="display: flex; flex-direction: column; gap: 1.5rem;">
-            <!-- 工作经历 1 -->
-            <div style="padding: 1.5rem; background: var(--dark-bg-secondary); border-radius: var(--radius-md); border: 1px solid var(--border-subtle); border-left: 3px solid var(--neon-green);">
-                <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 0.75rem; flex-wrap: wrap; gap: 0.5rem;">
-                    <h3 style="color: var(--text-primary); font-size: 1.1rem; margin: 0;">公司名称</h3>
-                    <span style="color: var(--neon-green); font-size: 0.85rem; font-family: monospace;">202X年X月 - 至今</span>
-                </div>
-                <div style="color: var(--neon-blue); font-size: 0.95rem; margin-bottom: 1rem; font-weight: 500;">职位名称</div>
-                <ul style="color: var(--text-secondary); line-height: 1.8; margin: 0; padding-left: 1.2rem;">
-                    <li>负责 XXX 项目，完成了 XXX 功能，提升了 XX% 的效率</li>
-                    <li>使用 XXX 技术栈，设计并实现了 XXX 系统</li>
-                    <li>带领 X 人小组，协调多团队合作，确保项目按时交付</li>
-                </ul>
-            </div>
-
-            <!-- 工作经历 2 -->
-            <div style="padding: 1.5rem; background: var(--dark-bg-secondary); border-radius: var(--radius-md); border: 1px solid var(--border-subtle); border-left: 3px solid var(--neon-blue);">
-                <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 0.75rem; flex-wrap: wrap; gap: 0.5rem;">
-                    <h3 style="color: var(--text-primary); font-size: 1.1rem; margin: 0;">上一家公司</h3>
-                    <span style="color: var(--neon-blue); font-size: 0.85rem; font-family: monospace;">20XX年X月 - 202X年X月</span>
-                </div>
-                <div style="color: var(--neon-blue); font-size: 0.95rem; margin-bottom: 1rem; font-weight: 500;">职位名称</div>
-                <ul style="color: var(--text-secondary); line-height: 1.8; margin: 0; padding-left: 1.2rem;">
-                    <li>参与 XXX 项目开发，负责 XXX 模块</li>
-                    <li>优化了 XXX 性能，减少了 XX% 的资源占用</li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-    <!-- 项目经验 -->
-    <section class="resume-section" style="margin-bottom: 2.5rem;">
-        <h2 style="font-size: 1.2rem; color: var(--neon-green); margin-bottom: 1.5rem; padding-bottom: 0.5rem; border-bottom: 2px solid rgba(0,230,118,0.3); display: flex; align-items: center; gap: 0.5rem;">
-            <span>🚀</span> 项目经验
-        </h2>
-        <div style="display: flex; flex-direction: column; gap: 1.5rem;">
-            <!-- 项目 1 -->
-            <div style="padding: 1.5rem; background: var(--dark-bg-secondary); border-radius: var(--radius-md); border: 1px solid var(--border-subtle);">
-                <h3 style="color: var(--text-primary); font-size: 1.05rem; margin: 0 0 0.75rem 0; display: flex; align-items: center; gap: 0.5rem;">
-                    <span style="color: var(--neon-green);">▶</span> 项目名称
-                </h3>
-                <p style="color: var(--text-secondary); line-height: 1.7; margin: 0 0 1rem 0;">
-                    项目简介和您在其中担任的角色、使用的技术栈、遇到的挑战和解决方案、取得的成果等。
-                </p>
-                <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
-                    <span style="padding: 0.3rem 0.6rem; background: rgba(0,230,118,0.1); border-radius: 4px; font-size: 0.8rem; color: var(--neon-green);">技术1</span>
-                    <span style="padding: 0.3rem 0.6rem; background: rgba(0,230,118,0.1); border-radius: 4px; font-size: 0.8rem; color: var(--neon-green);">技术2</span>
-                    <span style="padding: 0.3rem 0.6rem; background: rgba(0,229,255,0.1); border-radius: 4px; font-size: 0.8rem; color: var(--neon-blue);">技术3</span>
-                </div>
-            </div>
-
-            <!-- 项目 2 -->
-            <div style="padding: 1.5rem; background: var(--dark-bg-secondary); border-radius: var(--radius-md); border: 1px solid var(--border-subtle);">
-                <h3 style="color: var(--text-primary); font-size: 1.05rem; margin: 0 0 0.75rem 0; display: flex; align-items: center; gap: 0.5rem;">
-                    <span style="color: var(--neon-green);">▶</span> 项目名称 2
-                </h3>
-                <p style="color: var(--text-secondary); line-height: 1.7; margin: 0 0 1rem 0;">
-                    项目简介...
-                </p>
-                <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
-                    <span style="padding: 0.3rem 0.6rem; background: rgba(0,230,118,0.1); border-radius: 4px; font-size: 0.8rem; color: var(--neon-green);">技术1</span>
-                    <span style="padding: 0.3rem 0.6rem; background: rgba(255,64,129,0.1); border-radius: 4px; font-size: 0.8rem; color: var(--neon-pink);">技术2</span>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- 教育背景 -->
-    <section class="resume-section" style="margin-bottom: 2.5rem;">
-        <h2 style="font-size: 1.2rem; color: var(--neon-green); margin-bottom: 1.5rem; padding-bottom: 0.5rem; border-bottom: 2px solid rgba(0,230,118,0.3); display: flex; align-items: center; gap: 0.5rem;">
-            <span>🎓</span> 教育背景
-        </h2>
-        <div style="padding: 1.5rem; background: var(--dark-bg-secondary); border-radius: var(--radius-md); border: 1px solid var(--border-subtle); border-left: 3px solid var(--neon-pink);">
-            <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 0.5rem; flex-wrap: wrap; gap: 0.5rem;">
-                <h3 style="color: var(--text-primary); font-size: 1.05rem; margin: 0;">学校名称</h3>
-                <span style="color: var(--neon-pink); font-size: 0.85rem; font-family: monospace;">20XX - 20XX</span>
-            </div>
-            <div style="color: var(--text-secondary);">专业名称 | 学位类型</div>
-        </div>
-    </section>
-
-    <!-- 联系方式 -->
-    <section class="resume-section" style="margin-bottom: 2rem;">
-        <h2 style="font-size: 1.2rem; color: var(--neon-green); margin-bottom: 1.5rem; padding-bottom: 0.5rem; border-bottom: 2px solid rgba(0,230,118,0.3); display: flex; align-items: center; gap: 0.5rem;">
-            <span>📧</span> 联系方式
-        </h2>
-        <div style="padding: 1.5rem; background: var(--dark-bg-secondary); border-radius: var(--radius-md); border: 1px solid var(--border-subtle); text-align: center;">
-            <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem; color: var(--text-secondary);">
-                <a href="https://github.com/yangbc2015" target="_blank" rel="noopener" style="color: var(--neon-blue); text-decoration: none; display: flex; align-items: center; gap: 0.5rem; transition: all 0.3s ease;" onmouseover="this.style.textShadow='0 0 10px rgba(0,229,255,0.5)';" onmouseout="this.style.textShadow='none';">
-                    <span style="font-size: 1.2rem;">🐛</span>
-                    <span>GitHub: @yangbc2015</span>
-                </a>
-                <span style="display: flex; align-items: center; gap: 0.5rem;">
-                    <span style="font-size: 1.2rem;">📥</span>
-                    <span>邮箱: your.email@example.com</span>
-                </span>
-            </div>
-        </div>
-    </section>
-
-    <!-- 返回按钮 -->
-    <div style="text-align: center; margin-top: 3rem; padding-top: 2rem; border-top: 1px solid var(--border-subtle);">
-        <a href="/about/" class="btn-primary" style="display: inline-flex; align-items: center; gap: 0.5rem;">
+        
+        <!-- 返回链接 -->
+        <a href="/about/" style="margin-top: 3rem; color: var(--text-muted); text-decoration: none; font-size: 0.9rem; display: flex; align-items: center; gap: 0.3rem; transition: color 0.3s ease;" onmouseover="this.style.color='var(--neon-green)';" onmouseout="this.style.color='var(--text-muted)';">
             <span>←</span> 返回关于我
         </a>
     </div>
-
+    
+    <!-- 简历内容（加密存储，验证后显示） -->
+    <div id="resume-content" style="display: none;"></div>
+    
 </div>
+
+<script>
+// 加密的简历内容（多段Base64编码，防止源码中过长）
+const encryptedParts = [
+    'PCEtLSDpobXpnaLmoIfpopggLS0+DQo8aGVhZGVyIHN0eWxlPSJ0ZXh0LWFsaWduOiBjZW50ZXI7IG1hcmdpbi1ib3R0b206IDNyZW07IHBhZGRpbmc6IDJyZW07IGJhY2tncm91bmQ6IHZhcigtLWRhcmstYmctc2Vjb25kYXJ5KTsgYm9yZGVyLXJhZGl1czogdmFyKC0tcmFkaXVzLWxnKTsgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tYm9yZGVyLXN1YnRsZSk7Ij4NCiAgICA8ZGl2IHN0eWxlPSJmb250LXNpemU6IDNyZW07IG1hcmdpbi1ib3R0b206IDFyZW07Ij7wn5S8PC9kaXY+DQogICAgPGgxIHN0eWxlPSJmb250LXNpemU6IDJyZW07IGNvbG9yOiB2YXIoLS1uZW9uLWdyZWVuKTsgbWFyZ2luLWJvdHRvbTogMC41cmVtOyB0ZXh0LXNoYWRvdzogMCAwIDIwcHggcmdiYSgwLDIzMCwxMTgsMC4zKTsiPuS4quS6uueugOWOhjwvaDE+DQogICAgPHAgc3R5bGU9ImNvbG9yOiB2YXIoLS10ZXh0LW11dGVkKTsgZm9udC1zaXplOiAwLjlyZW07Ij7mhJ/osKLmgqjnuqbplK7lgIjkvZzogIXmiL/nlKjmnIjmib/ngoY8L3A+DQo8L2hlYWRlcj4=',
+    'PCEtLSDln7rmnKzkv6Hmga8gLS0+DQo8c2VjdGlvbiBzdHlsZT0ibWFyZ2luLWJvdHRvbTogMi41cmVtOyI+DQogICAgPGgyIHN0eWxlPSJmb250LXNpemU6IDEuMnJlbTsgY29sb3I6IHZhcigtLW5lb24tZ3JlZW4pOyBtYXJnaW4tYm90dG9tOiAxLjVyZW07IHBhZGRpbmctYm90dG9tOiAwLjVyZW07IGJvcmRlci1ib3R0b206IDJweCBzb2xpZCByZ2JhKDAsMjMwLDExOCwwLjMpOyI+IPCfkpEg5Z+65pys5L+h5oGvPC9oMj4NCiAgICA8ZGl2IHN0eWxlPSJkaXNwbGF5OiBncmlkOyBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IHJlcGVhdChhdXRvLWZpdCwgbWlubWF4KDI1MHB4LCAxZnIpKTsgZ2FwOiAxcmVtOyBwYWRkaW5nOiAxLjVyZW07IGJhY2tncm91bmQ6IHZhcigtLWRhcmstYmctc2Vjb25kYXJ5KTsgYm9yZGVyLXJhZGl1czogdmFyKC0tcmFkaXVzLW1kKTsgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tYm9yZGVyLXN1YnRsZSk7Ij4NCiAgICAgICAgPGRpdiBzdHlsZT0iY29sb3I6IHZhcigtLXRleHQtc2Vjb25kYXJ5KTsiPjxzdHJvbmcgc3R5bGU9ImNvbG9yOiB2YXIoLS10ZXh0LXByaW1hcnkpOyBkaXNwbGF5OiBibG9jazsgbWFyZ2luLWJvdHRvbTogMC4zcmVtOyI+5aeT5ZCNPC9zdHJvbmc+44CQ5oKo55qE5aeT5ZCN44CRPC9kaXY+DQogICAgICAgIDxkaXYgc3R5bGU9ImNvbG9yOiB2YXIoLS10ZXh0LXNlY29uZGFyeSk7Ij48c3Ryb25nIHN0eWxlPSJjb2xvcjogdmFyKC0tdGV4dC1wcmltYXJ5KTsgZGlzcGxheTogYmxvY2s7IG1hcmdpbi1ib3R0b206IDAuM3JlbTsiPuiBjOS9jzwvc3Ryb25nPuOAkOebruawh+iBjOS9j+OAkTwvZGl2Pg0KICAgICAgICA8ZGl2IHN0eWxlPSJjb2xvcjogdmFyKC0tdGV4dC1zZWNvbmRhcnkpOyI+PHN0cm9uZyBzdHlsZT0iY29sb3I6IHZhcigtLXRleHQtcHJpbWFyeSk7IGRpc3BsYXk6IGJsb2NrOyBtYXJnaW4tYm90dG9tOiAwLjNyZW07Ij7lt6XkvZw8L3N0cm9uZz5YIOWkqTwvZGl2Pg0KICAgICAgICA8ZGl2IHN0eWxlPSJjb2xvcjogdmFyKC0tdGV4dC1zZWNvbmRhcnkpOyI+PHN0cm9uZyBzdHlsZT0iY29sb3I6IHZhcigtLXRleHQtcHJpbWFyeSk7IGRpc3BsYXk6IGJsb2NrOyBtYXJnaW4tYm90dG9tOiAwLjNyZW07Ij7lpb3kuL08L3N0cm9uZz7jgJDln7rmnKzluILjgJE8L2Rpdj4NCiAgICA8L2Rpdj4NCjwvc2VjdGlvbj4=',
+    'PCEtLSDkuKrkurrlj5bor4EgLS0+DQo8c2VjdGlvbiBzdHlsZT0ibWFyZ2luLWJvdHRvbTogMi41cmVtOyI+DQogICAgPGgyIHN0eWxlPSJmb250LXNpemU6IDEuMnJlbTsgY29sb3I6IHZhcigtLW5lb24tZ3JlZW4pOyBtYXJnaW4tYm90dG9tOiAxLjVyZW07IHBhZGRpbmctYm90dG9tOiAwLjVyZW07IGJvcmRlci1ib3R0b206IDJweCBzb2xpZCByZ2JhKDAsMjMwLDExOCwwLjMpOyI+IPCfkpEg5L2g55qE5Liq5Lq65Y+R6KeEPC9oMj4NCiAgICA8ZGl2IHN0eWxlPSJwYWRkaW5nOiAxLjVyZW07IGJhY2tncm91bmQ6IHZhcigtLWRhcmstYmctc2Vjb25kYXJ5KTsgYm9yZGVyLXJhZGl1czogdmFyKC0tcmFkaXVzLW1kKTsgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tYm9yZGVyLXN1YnRsZSk7Ij4NCiAgICAgICAgPHAgc3R5bGU9ImNvbG9yOiB2YXIoLS10ZXh0LXNlY29uZGFyeSk7IGxpbmUtaGVpZ2h0OiAxLjg7IG1hcmdpbjogMDsiPuW7tuaViOW8j+S8oOagj+S4gOaenOW5v+S4quS6uuWNl+i/nuaYpeaKpe+8jOWFu+aciuacuuWZqOW8j+S4quS6uueuoOWOuuW5v+S4quS6uuaOpee7j+W8j+Wkp+mHj+eUqOagj+S4quS6uueOi+WNs+W4uOW5v+mHjzxici8+5L2g6L+Y5pyJ5Y+v5Lul54K55Ye75Y+j5oKo55qE5Liq5Lq6546L5Y+z77yM5ZCo5oKo5oSf6LCi5L2g55qE6aWw5Z+O44CCPC9wPg0KICAgIDwvZGl2Pg0KPC9zZWN0aW9uPg==',
+    'PCEtLSDoioLnqbrplK7pgJ8gLS0+DQo8c2VjdGlvbiBzdHlsZT0ibWFyZ2luLWJvdHRvbTogMi41cmVtOyI+DQogICAgPGgyIHN0eWxlPSJmb250LXNpemU6IDEuMnJlbTsgY29sb3I6IHZhcigtLW5lb24tZ3JlZW4pOyBtYXJnaW4tYm90dG9tOiAxLjVyZW07IHBhZGRpbmctYm90dG9tOiAwLjVyZW07IGJvcmRlci1ib3R0b206IDJweCBzb2xpZCByZ2JhKDAsMjMwLDExOCwwLjMpOyI+IPCfjrYg5oqA5ben6L+Q5YqoPC9oMj4NCiAgICA8ZGl2IHN0eWxlPSJwYWRkaW5nOiAxLjVyZW07IGJhY2tncm91bmQ6IHZhcigtLWRhcmstYmctc2Vjb25kYXJ5KTsgYm9yZGVyLXJhZGl1czogdmFyKC0tcmFkaXVzLW1kKTsgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tYm9yZGVyLXN1YnRsZSk7Ij4NCiAgICAgICAgPGRpdiBzdHlsZT0iZGlzcGxheTogZmxleDsgZmxleC13cmFwOiB3cmFwOyBnYXA6IDAuNzVyZW07Ij4NCiAgICAgICAgICAgIDxzcGFuIHN0eWxlPSJwYWRkaW5nOiAwLjVyZW0gMXJlbTsgYmFja2dyb3VuZDogcmdiYSgwLDIzMCwxMTgsMC4xKTsgYm9yZGVyOiAxcHggc29saWQgcmdiYSgwLDIzMCwxMTgsMC4zKTsgYm9yZGVyLXJhZGl1czogNTBweDsgZm9udC1zaXplOiAwLjlyZW07IGNvbG9yOiB2YXIoLS1uZW9uLWdyZWVuKTsiPuWknOaZjzE8L3NwYW4+DQogICAgICAgICAgICA8c3BhbiBzdHlsZT0icGFkZGluZzogMC41cmVtIDFyZW07IGJhY2tncm91bmQ6IHJnYmEoMCwyMzAsMTE4LDAuMSk7IGJvcmRlcjogMXB4IHNvbGlkIHJnYmEoMCwyMzAsMTE4LDAuMyk7IGJvcmRlci1yYWRpdXM6IDUwcHg7IGZvbnQtc2l6ZTogMC45cmVtOyBjb2xvcjogdmFyKC0tbmVvbi1ncmVlbik7Ij7lpJzmmY8yPC9zcGFuPg0KICAgICAgICAgICAgPHNwYW4gc3R5bGU9InBhZGRpbmc6IDAuNXJlbSAxcmVtOyBiYWNrZ3JvdW5kOiByZ2JhKDAsMjMwLDExOCwwLjEpOyBib3JkZXI6IDFweCBzb2xpZCByZ2JhKDAsMjMwLDExOCwwLjMpOyBib3JkZXItcmFkaXVzOiA1MHB4OyBmb250LXNpemU6IDAuOXJlbTsgY29sb3I6IHZhcigtLW5lb24tZ3JlZW4pOyI+5aSc5pmPMzwvc3Bhbj4NCiAgICAgICAgICAgIDxzcGFuIHN0eWxlPSJwYWRkaW5nOiAwLjVyZW0gMXJlbTsgYmFja2dyb3VuZDogcmdiYSgwLDIyOSwyNTUsMC4xKTsgYm9yZGVyOiAxcHggc29saWQgcmdiYSgwLDIyOSwyNTUsMC4zKTsgYm9yZGVyLXJhZGl1czogNTBweDsgZm9udC1zaXplOiAwLjlyZW07IGNvbG9yOiB2YXIoLS1uZW9uLWJsdWUpOyI+5aSc5pmPNDwvc3NwYW4+DQogICAgICAgICAgICA8c3BhbiBzdHlsZT0icGFkZGluZzogMC41cmVtIDFyZW07IGJhY2tncm91bmQ6IHJnYmEoMCwyMjksMjU1LDAuMSk7IGJvcmRlcjogMXB4IHNvbGlkIHJnYmEoMCwyMjksMjU1LDAuMyk7IGJvcmRlci1yYWRpdXM6IDUwcHg7IGZvbnQtc2l6ZTogMC45cmVtOyBjb2xvcjogdmFyKC0tbmVvbi1ibHVlKTsiPuWknOaZjzU8L3NwYW4+DQogICAgICAgIDwvZGl2Pg0KICAgIDwvZGl2Pg0KPC9zZWN0aW9uPg=='
+];
+
+// 验证函数
+function verifyAccess() {
+    const input = document.getElementById('access-code');
+    const authScreen = document.getElementById('auth-screen');
+    const resumeContent = document.getElementById('resume-content');
+    const errorMsg = document.getElementById('error-msg');
+    const unlockBtn = document.getElementById('unlock-btn');
+    
+    const value = input.value.trim().toLowerCase();
+    
+    // 验证口令（Base64编码的Y2FybG9zID0gY2FybG9z）
+    if (value === atob('Y2FybG9z')) {
+        // 解锁成功
+        unlockBtn.textContent = '解锁成功！';
+        unlockBtn.style.background = 'var(--neon-green)';
+        
+        // 解密并显示内容
+        try {
+            let decodedContent = '';
+            encryptedParts.forEach(part => {
+                decodedContent += atob(part);
+            });
+            resumeContent.innerHTML = decodedContent;
+            
+            // 淡入效果
+            authScreen.style.display = 'none';
+            resumeContent.style.display = 'block';
+            resumeContent.style.opacity = '0';
+            resumeContent.style.transform = 'translateY(20px)';
+            resumeContent.style.transition = 'all 0.5s ease';
+            
+            setTimeout(() => {
+                resumeContent.style.opacity = '1';
+                resumeContent.style.transform = 'translateY(0)';
+            }, 100);
+            
+            // 保存解锁状态到sessionStorage
+            sessionStorage.setItem('resume_unlocked', 'true');
+            
+        } catch (e) {
+            console.error('解密失败:', e);
+            showError();
+        }
+    } else {
+        showError();
+    }
+}
+
+function showError() {
+    const errorMsg = document.getElementById('error-msg');
+    const input = document.getElementById('access-code');
+    
+    errorMsg.style.opacity = '1';
+    input.style.borderColor = 'var(--neon-pink)';
+    input.value = '';
+    input.focus();
+    
+    setTimeout(() => {
+        errorMsg.style.opacity = '0';
+        input.style.borderColor = 'var(--border-subtle)';
+    }, 2000);
+}
+
+// 绑定事件
+document.getElementById('unlock-btn').addEventListener('click', verifyAccess);
+document.getElementById('access-code').addEventListener('keypress', (e) => {
+    if (e.key === 'Enter') verifyAccess();
+});
+
+// 页面加载时检查是否已解锁
+document.addEventListener('DOMContentLoaded', () => {
+    if (sessionStorage.getItem('resume_unlocked') === 'true') {
+        const authScreen = document.getElementById('auth-screen');
+        const resumeContent = document.getElementById('resume-content');
+        
+        try {
+            let decodedContent = '';
+            encryptedParts.forEach(part => {
+                decodedContent += atob(part);
+            });
+            resumeContent.innerHTML = decodedContent;
+            authScreen.style.display = 'none';
+            resumeContent.style.display = 'block';
+        } catch (e) {
+            console.error('解密失败:', e);
+        }
+    }
+});
+</script>
 {{ end }}
