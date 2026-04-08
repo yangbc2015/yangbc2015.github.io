@@ -5,6 +5,20 @@
   "retention_count": 200,
   "items": [
     {
+      "title": "Stanford CS231n: 卷积神经网络",
+      "speaker": "Stanford",
+      "description": "斯坦福经典计算机视觉课程",
+      "duration": "8:45:20",
+      "views": "567K",
+      "platform": "youtube",
+      "video_id": "vT1JzLTH4G4",
+      "url": "https://www.youtube.com/watch?v=vT1JzLTH4G4",
+      "thumbnail": "https://img.youtube.com/vi/vT1JzLTH4G4/mqdefault.jpg",
+      "type": "course",
+      "category": "精品课程",
+      "date": "2026-04-07"
+    },
+    {
       "title": "LLaMA 3 开源大模型解读",
       "speaker": "Yannic Kilcher",
       "description": "Meta LLaMA 3 架构详解与性能分析",
@@ -19,20 +33,6 @@
       "date": "2026-04-07"
     },
     {
-      "title": "Vision Transformer 详解",
-      "speaker": "Google Research",
-      "description": "将 Transformer 应用于计算机视觉",
-      "duration": "38:00",
-      "views": "567K",
-      "platform": "youtube",
-      "video_id": "pRqsifNGFXw",
-      "url": "https://www.youtube.com/watch?v=pRqsifNGFXw",
-      "thumbnail": "https://img.youtube.com/vi/pRqsifNGFXw/mqdefault.jpg",
-      "type": "lecture",
-      "category": "技术讲座",
-      "date": "2026-04-07"
-    },
-    {
       "title": "3Blue1Brown: 深度学习之神经网络",
       "speaker": "3Blue1Brown",
       "description": "用精美动画解释神经网络的工作原理",
@@ -44,34 +44,21 @@
       "thumbnail": "https://img.youtube.com/vi/aircAruvnKk/mqdefault.jpg",
       "type": "lecture",
       "category": "技术讲座",
-      "date": "2026-04-07"
-    },
-    {
-      "title": "Stanford CS231n: 卷积神经网络",
-      "speaker": "Stanford",
-      "description": "斯坦福经典计算机视觉课程",
-      "duration": "8:45:20",
-      "views": "567K",
-      "platform": "youtube",
-      "video_id": "vT1JzLTH4G4",
-      "url": "https://www.youtube.com/watch?v=vT1JzLTH4G4",
-      "thumbnail": "https://img.youtube.com/vi/vT1JzLTH4G4/mqdefault.jpg",
-      "type": "course",
-      "category": "精品课程",
       "date": "2026-04-06"
     },
     {
-      "title": "BERT 模型详解与应用",
-      "speaker": "Yannic Kilcher",
-      "description": "深入理解 BERT 预训练模型及其应用",
-      "duration": "28:45",
-      "views": "890K",
+      "title": "Andrej Karpathy: 神经网络入门到精通",
+      "speaker": "Andrej Karpathy",
+      "description": "前 Tesla AI 总监的经典教程，从零开始构建神经网络",
+      "duration": "4:12:35",
+      "views": "2.3M",
       "platform": "youtube",
-      "video_id": "xI0HHN5XKDo",
-      "url": "https://www.youtube.com/watch?v=xI0HHN5XKDo",
-      "thumbnail": "https://img.youtube.com/vi/xI0HHN5XKDo/mqdefault.jpg",
-      "type": "lecture",
-      "category": "技术讲座",
+      "video_id": "VMj-3S1tku0",
+      "url": "https://www.youtube.com/watch?v=VMj-3S1tku0",
+      "thumbnail": "https://img.youtube.com/vi/VMj-3S1tku0/mqdefault.jpg",
+      "type": "course",
+      "category": "精品课程",
+      "featured": true,
       "date": "2026-04-06"
     },
     {
@@ -86,7 +73,21 @@
       "thumbnail": "https://img.youtube.com/vi/yMk_XtIEzH8/mqdefault.jpg",
       "type": "tutorial",
       "category": "AI教程",
-      "date": "2026-04-06"
+      "date": "2026-04-05"
+    },
+    {
+      "title": "Mamba 架构: Transformer 的替代者?",
+      "speaker": "Albert Gu",
+      "description": "深入解析 Mamba 选择性状态空间模型",
+      "duration": "1:02:30",
+      "views": "234K",
+      "platform": "youtube",
+      "video_id": "oHJwJsaWQgE",
+      "url": "https://www.youtube.com/watch?v=oHJwJsaWQgE",
+      "thumbnail": "https://img.youtube.com/vi/oHJwJsaWQgE/mqdefault.jpg",
+      "type": "lecture",
+      "category": "前沿技术",
+      "date": "2026-04-05"
     },
     {
       "title": "AI Agent 架构设计模式",
@@ -131,18 +132,18 @@
       "date": "2026-04-05"
     },
     {
-      "title": "Mamba 架构: Transformer 的替代者?",
-      "speaker": "Albert Gu",
-      "description": "深入解析 Mamba 选择性状态空间模型",
-      "duration": "1:02:30",
-      "views": "234K",
+      "title": "BERT 模型详解与应用",
+      "speaker": "Yannic Kilcher",
+      "description": "深入理解 BERT 预训练模型及其应用",
+      "duration": "28:45",
+      "views": "890K",
       "platform": "youtube",
-      "video_id": "oHJwJsaWQgE",
-      "url": "https://www.youtube.com/watch?v=oHJwJsaWQgE",
-      "thumbnail": "https://img.youtube.com/vi/oHJwJsaWQgE/mqdefault.jpg",
+      "video_id": "xI0HHN5XKDo",
+      "url": "https://www.youtube.com/watch?v=xI0HHN5XKDo",
+      "thumbnail": "https://img.youtube.com/vi/xI0HHN5XKDo/mqdefault.jpg",
       "type": "lecture",
-      "category": "前沿技术",
-      "date": "2026-04-05"
+      "category": "技术讲座",
+      "date": "2026-04-04"
     },
     {
       "title": "OpenAI GPT-4o 多模态能力解析",
@@ -159,15 +160,15 @@
       "date": "2026-04-04"
     },
     {
-      "title": "Diffusion 模型工作原理",
-      "speaker": "Two Minute Papers",
-      "description": "快速了解扩散模型如何生成图像",
-      "duration": "5:20",
-      "views": "1.5M",
+      "title": "Vision Transformer 详解",
+      "speaker": "Google Research",
+      "description": "将 Transformer 应用于计算机视觉",
+      "duration": "38:00",
+      "views": "567K",
       "platform": "youtube",
-      "video_id": "fbLgFrlTnGU",
-      "url": "https://www.youtube.com/watch?v=fbLgFrlTnGU",
-      "thumbnail": "https://img.youtube.com/vi/fbLgFrlTnGU/mqdefault.jpg",
+      "video_id": "pRqsifNGFXw",
+      "url": "https://www.youtube.com/watch?v=pRqsifNGFXw",
+      "thumbnail": "https://img.youtube.com/vi/pRqsifNGFXw/mqdefault.jpg",
       "type": "lecture",
       "category": "技术讲座",
       "date": "2026-04-03"
@@ -187,21 +188,6 @@
       "date": "2026-04-03"
     },
     {
-      "title": "Andrej Karpathy: 神经网络入门到精通",
-      "speaker": "Andrej Karpathy",
-      "description": "前 Tesla AI 总监的经典教程，从零开始构建神经网络",
-      "duration": "4:12:35",
-      "views": "2.3M",
-      "platform": "youtube",
-      "video_id": "VMj-3S1tku0",
-      "url": "https://www.youtube.com/watch?v=VMj-3S1tku0",
-      "thumbnail": "https://img.youtube.com/vi/VMj-3S1tku0/mqdefault.jpg",
-      "type": "course",
-      "category": "精品课程",
-      "featured": true,
-      "date": "2026-04-02"
-    },
-    {
       "title": "Fast.ai: 程序员深度学习实战",
       "speaker": "Jeremy Howard",
       "description": "面向程序员的实用深度学习课程",
@@ -213,6 +199,20 @@
       "thumbnail": "https://img.youtube.com/vi/8mcTqN1D1-g/mqdefault.jpg",
       "type": "course",
       "category": "精品课程",
+      "date": "2026-04-02"
+    },
+    {
+      "title": "Diffusion 模型工作原理",
+      "speaker": "Two Minute Papers",
+      "description": "快速了解扩散模型如何生成图像",
+      "duration": "5:20",
+      "views": "1.5M",
+      "platform": "youtube",
+      "video_id": "fbLgFrlTnGU",
+      "url": "https://www.youtube.com/watch?v=fbLgFrlTnGU",
+      "thumbnail": "https://img.youtube.com/vi/fbLgFrlTnGU/mqdefault.jpg",
+      "type": "lecture",
+      "category": "技术讲座",
       "date": "2026-04-01"
     },
     {
