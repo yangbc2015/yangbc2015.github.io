@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-08T06:32:57.906681+00:00",
+  "last_updated": "2026-04-08T12:19:26.790341+00:00",
   "source": "Artificial Analysis",
   "source_url": "https://artificialanalysis.ai/leaderboards/models",
   "description": "综合AI模型性能排行榜，基于智能指数、价格、输出速度、上下文窗口等多维度指标对模型进行评测。",
@@ -41,7 +41,7 @@
       "icon": "⚡"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "model": "Claude Opus 4.5",
       "organization": "Anthropic",
       "intelligence_index": 0,
@@ -53,7 +53,7 @@
       "icon": "⚡"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "model": "MiniMax-M2.7",
       "organization": "Unknown",
       "intelligence_index": 0,
@@ -65,7 +65,7 @@
       "icon": "🤖"
     },
     {
-      "rank": 13,
+      "rank": 15,
       "model": "MiMo-V2-Pro",
       "organization": "Unknown",
       "intelligence_index": 0,
@@ -77,7 +77,7 @@
       "icon": "🤖"
     },
     {
-      "rank": 16,
+      "rank": 18,
       "model": "Gemini 3 Pro Preview",
       "organization": "Google",
       "intelligence_index": 0,
