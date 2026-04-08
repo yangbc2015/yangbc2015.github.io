@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-04-08",
-  "count": 2,
+  "count": 3,
   "items": [
     {
       "title": "Early Stopping for Large Reasoning Models via Confidence Dynamics",
@@ -34,6 +34,22 @@
         "cs.AI"
       ],
       "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Beyond the Final Actor: Modeling the Dual Roles of Creator and Editor for Fine-Grained LLM-Generated Text Detection",
+      "authors": "Yang Li, Qiang Sheng, Zhengjia Wang et al.",
+      "abstract": "The misuse of large language models (LLMs) requires precise detection of synthetic text. Existing works mainly follow binary or ternary classification settings, which can only distinguish pure human/LLM text or collaborative text at best. This remains insufficient for the nuanced regulation, as the ...",
+      "venue": "arXiv",
+      "date": "2026-04-06",
+      "arxiv_id": "2604.04932v1",
+      "url": "https://arxiv.org/abs/2604.04932v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.04932v1.pdf",
+      "categories": [
+        "cs.CL"
+      ],
+      "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     }
