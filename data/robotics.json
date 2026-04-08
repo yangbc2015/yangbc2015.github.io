@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-04-08",
-  "count": 91,
+  "count": 96,
   "items": [
     {
       "title": "[一场机器人黑客松，让 具 身 智 能 的差距与机会同时显形",
@@ -24,6 +24,86 @@
       "type": "news",
       "tags": [
         "机器人"
+      ]
+    },
+    {
+      "title": "Action Images: End-to-End Policy Learning via Multiview Video Generation",
+      "summary": "World action models (WAMs) have emerged as a promising direction for robot policy learning, as they can leverage powerful video backbones to model the future states. However, existing approaches often rely on separate action modules, or use action re...",
+      "url": "https://arxiv.org/abs/2604.06168v1",
+      "date": "2026-04-07",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.06168v1",
+      "authors": "Haoyu Zhen, Zixian Gao et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Delta6: A Low-Cost, 6-DOF Force-Sensing Flexible End-Effector",
+      "summary": "This paper presents Delta6, a low-cost, six-degree-of-freedom (6-DOF) force/torque end-effector that combines antagonistic springs with magnetic encoders to deliver accurate wrench sensing while remaining as simple to assemble as flat-pack furniture....",
+      "url": "https://arxiv.org/abs/2604.06150v1",
+      "date": "2026-04-07",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.06150v1",
+      "authors": "Yue Feng, Weicheng Huang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Learning-Guided Force-Feedback Model Predictive Control with Obstacle Avoidance for Robotic Deburring",
+      "summary": "Model Predictive Control (MPC) is widely used for torque-controlled robots, but classical formulations often neglect real-time force feedback and struggle with contact-rich industrial tasks under collision constraints. Deburring in particular require...",
+      "url": "https://arxiv.org/abs/2604.06133v1",
+      "date": "2026-04-07",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.06133v1",
+      "authors": "Krzysztof Wojciechowski, Ege Gursoy et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "eVTOL Aircraft Energy Overhead Estimation under Conflict Resolution in High-Density Airspaces",
+      "summary": "Electric vertical takeoff and landing (eVTOL) aircraft operating in high-density urban airspace must maintain safe separation through tactical conflict resolution, yet the energy cost of such maneuvers has not been systematically quantified. This pap...",
+      "url": "https://arxiv.org/abs/2604.06093v1",
+      "date": "2026-04-07",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.06093v1",
+      "authors": "Alex Zongo, Peng Wei",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Intuitive Human-Robot Interaction: Development and Evaluation of a Gesture-Based User Interface for Object Selection",
+      "summary": "Gestures are a natural form of communication between humans and can also be leveraged for human-robot interaction. This work presents a gesture-based user interface for object selection using pointing and click gestures. An experiment with 20 partici...",
+      "url": "https://arxiv.org/abs/2604.06073v1",
+      "date": "2026-04-07",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.06073v1",
+      "authors": "Bijan Kavousian, Oliver Petrovic et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
       ]
     },
     {

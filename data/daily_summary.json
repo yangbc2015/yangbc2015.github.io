@@ -8,18 +8,6 @@
       "count": 5,
       "items": [
         {
-          "title": "Markdown Content:",
-          "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-          "summary": "Markdown Content:...",
-          "date": "2026-04-07",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
           "title": "Claude Code一周份额，一天就烧完一半？有人逆向工程发现了7个bug",
           "link": "https://www.jiqizhixin.com/search/articles/Claude Code一周份额",
           "summary": "Claude Code一周份额，一天就烧完一半？有人逆向工程发现了7个bug...",
@@ -44,11 +32,11 @@
           ]
         },
         {
-          "title": "烧Token成KPI，8.5万Meta员工狂刷60万亿Token，争榜一大哥",
-          "link": "https://www.jiqizhixin.com/search/articles/烧Token成KPI，8.5万",
-          "summary": "烧Token成KPI，8.5万Meta员工狂刷60万亿Token，争榜一大哥...",
-          "date": "2026-04-07",
-          "source": "机器之心",
+          "title": "DeepSeek V4真的要来了？",
+          "link": "https://www.qbitai.com/?s=DeepSeek V",
+          "summary": "DeepSeek V4真的要来了？...",
+          "date": "2026-04-08",
+          "source": "量子位",
           "type": "industry",
           "tags": [
             "AI",
@@ -56,11 +44,23 @@
           ]
         },
         {
-          "title": "面壁智能完成新一轮融资，26年累计融资超10亿，跻身基模独角兽行列",
-          "link": "https://www.jiqizhixin.com/search/articles/面壁智能完成新一轮融资，26年",
-          "summary": "面壁智能完成新一轮融资，26年累计融资超10亿，跻身基模独角兽行列...",
-          "date": "2026-04-07",
-          "source": "机器之心",
+          "title": "Claude Mythos官宣！性能碾压Opus 4.6，因太危险遭「囚禁」",
+          "link": "https://www.qbitai.com/?s=Claude Myt",
+          "summary": "Claude Mythos官宣！性能碾压Opus 4.6，因太危险遭「囚禁」...",
+          "date": "2026-04-08",
+          "source": "量子位",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "榜一大哥平均每天用掉93.6亿Token",
+          "link": "https://www.qbitai.com/?s=榜一大哥平均每天用掉",
+          "summary": "榜一大哥平均每天用掉93.6亿Token...",
+          "date": "2026-04-08",
+          "source": "量子位",
           "type": "industry",
           "tags": [
             "AI",

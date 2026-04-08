@@ -1,19 +1,87 @@
 {
   "last_updated": "2026-04-08",
-  "count": 3,
+  "count": 7,
   "items": [
     {
-      "title": "Early Stopping for Large Reasoning Models via Confidence Dynamics",
-      "authors": "Parsa Hosseini, Sumit Nawathe, Mahdi Salmani et al.",
-      "abstract": "Large reasoning models rely on long chain-of-thought generation to solve complex problems, but extended reasoning often incurs substantial computational cost and can even degrade performance due to overthinking. A key challenge is determining when the model should stop reasoning and produce the fina...",
+      "title": "In-Place Test-Time Training",
+      "authors": "Guhao Feng, Shengjie Luo, Kai Hua et al.",
+      "abstract": "The static ``train then deploy\" paradigm fundamentally limits Large Language Models (LLMs) from dynamically adapting their weights in response to continuous streams of new information inherent in real-world tasks. Test-Time Training (TTT) offers a compelling alternative by updating a subset of model...",
       "venue": "arXiv",
-      "date": "2026-04-06",
-      "arxiv_id": "2604.04930v1",
-      "url": "https://arxiv.org/abs/2604.04930v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.04930v1.pdf",
+      "date": "2026-04-07",
+      "arxiv_id": "2604.06169v1",
+      "url": "https://arxiv.org/abs/2604.06169v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.06169v1.pdf",
       "categories": [
-        "cs.CL",
+        "cs.LG",
         "cs.AI",
+        "cs.CL"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "DiffHDR: Re-Exposing LDR Videos with Video Diffusion Models",
+      "authors": "Zhengming Yu, Li Ma, Mingming He et al.",
+      "abstract": "Most digital videos are stored in 8-bit low dynamic range (LDR) formats, where much of the original high dynamic range (HDR) scene radiance is lost due to saturation and quantization. This loss of highlight and shadow detail precludes mapping accurate luminance to HDR displays and limits meaningful ...",
+      "venue": "arXiv",
+      "date": "2026-04-07",
+      "arxiv_id": "2604.06161v1",
+      "url": "https://arxiv.org/abs/2604.06161v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.06161v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.GR"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Paper Circle: An Open-source Multi-agent Research Discovery and Analysis Framework",
+      "authors": "Komal Kumar, Aman Chadha, Salman Khan et al.",
+      "abstract": "The rapid growth of scientific literature has made it increasingly difficult for researchers to efficiently discover, evaluate, and synthesize relevant work. Recent advances in multi-agent large language models (LLMs) have demonstrated strong potential for understanding user intent and are being tra...",
+      "venue": "arXiv",
+      "date": "2026-04-07",
+      "arxiv_id": "2604.06170v1",
+      "url": "https://arxiv.org/abs/2604.06170v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.06170v1.pdf",
+      "categories": [
+        "cs.CL"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Action Images: End-to-End Policy Learning via Multiview Video Generation",
+      "authors": "Haoyu Zhen, Zixian Gao, Qiao Sun et al.",
+      "abstract": "World action models (WAMs) have emerged as a promising direction for robot policy learning, as they can leverage powerful video backbones to model the future states. However, existing approaches often rely on separate action modules, or use action representations that are not pixel-grounded, making ...",
+      "venue": "arXiv",
+      "date": "2026-04-07",
+      "arxiv_id": "2604.06168v1",
+      "url": "https://arxiv.org/abs/2604.06168v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.06168v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "HaloProbe: Bayesian Detection and Mitigation of Object Hallucinations in Vision-Language Models",
+      "authors": "Reihaneh Zohrabi, Hosein Hasani, Akshita Gupta et al.",
+      "abstract": "Large vision-language models can produce object hallucinations in image descriptions, highlighting the need for effective detection and mitigation strategies. Prior work commonly relies on the model's attention weights on visual tokens as a detection signal. We reveal that coarse-grained attention-b...",
+      "venue": "arXiv",
+      "date": "2026-04-07",
+      "arxiv_id": "2604.06165v1",
+      "url": "https://arxiv.org/abs/2604.06165v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.06165v1.pdf",
+      "categories": [
+        "cs.CV",
         "cs.LG"
       ],
       "type": "nlp",
@@ -21,35 +89,35 @@
       "source": "arXiv"
     },
     {
-      "title": "Your Pre-trained Diffusion Model Secretly Knows Restoration",
-      "authors": "Sudarshan Rajagopalan, Vishal M. Patel",
-      "abstract": "Pre-trained diffusion models have enabled significant advancements in All-in-One Restoration (AiOR), offering improved perceptual quality and generalization. However, diffusion-based restoration methods primarily rely on fine-tuning or Control-Net style modules to leverage the pre-trained diffusion ...",
+      "title": "Topological Characterization of Churn Flow and Unsupervised Correction to the Wu Flow-Regime Map in Small-Diameter Vertical Pipes",
+      "authors": "Brady Koenig, Sushovan Majhi, Atish Mitra et al.",
+      "abstract": "Churn flow-the chaotic, oscillatory regime in vertical two-phase flow-has lacked a quantitative mathematical definition for over $40$ years. We introduce the first topology-based characterization using Euler Characteristic Surfaces (ECS). We formulate unsupervised regime discovery as Multiple Kernel...",
       "venue": "arXiv",
-      "date": "2026-04-06",
-      "arxiv_id": "2604.04924v1",
-      "url": "https://arxiv.org/abs/2604.04924v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.04924v1.pdf",
+      "date": "2026-04-07",
+      "arxiv_id": "2604.06167v1",
+      "url": "https://arxiv.org/abs/2604.06167v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.06167v1.pdf",
       "categories": [
-        "cs.CV",
-        "cs.AI"
+        "cs.LG",
+        "math.AT"
       ],
-      "type": "vision",
+      "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Beyond the Final Actor: Modeling the Dual Roles of Creator and Editor for Fine-Grained LLM-Generated Text Detection",
-      "authors": "Yang Li, Qiang Sheng, Zhengjia Wang et al.",
-      "abstract": "The misuse of large language models (LLMs) requires precise detection of synthetic text. Existing works mainly follow binary or ternary classification settings, which can only distinguish pure human/LLM text or collaborative text at best. This remains insufficient for the nuanced regulation, as the ...",
+      "title": "Delta6: A Low-Cost, 6-DOF Force-Sensing Flexible End-Effector",
+      "authors": "Yue Feng, Weicheng Huang, Chen Qiu et al.",
+      "abstract": "This paper presents Delta6, a low-cost, six-degree-of-freedom (6-DOF) force/torque end-effector that combines antagonistic springs with magnetic encoders to deliver accurate wrench sensing while remaining as simple to assemble as flat-pack furniture. A fully 3D-printed prototype, assembled entirely ...",
       "venue": "arXiv",
-      "date": "2026-04-06",
-      "arxiv_id": "2604.04932v1",
-      "url": "https://arxiv.org/abs/2604.04932v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.04932v1.pdf",
+      "date": "2026-04-07",
+      "arxiv_id": "2604.06150v1",
+      "url": "https://arxiv.org/abs/2604.06150v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.06150v1.pdf",
       "categories": [
-        "cs.CL"
+        "cs.RO"
       ],
-      "type": "nlp",
+      "type": "ai",
       "badge": "arxiv",
       "source": "arXiv"
     }
