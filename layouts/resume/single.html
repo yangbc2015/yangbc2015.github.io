@@ -14,12 +14,14 @@
         <!-- 密码输入 -->
         <div style="display: flex; flex-direction: column; align-items: center; gap: 1rem;">
             <input type="password" id="access-code" placeholder="请输入密码" 
+                autocomplete="off" 
+                readonly
+                onfocus="this.removeAttribute('readonly'); this.style.borderColor='var(--neon-green)'; this.style.boxShadow='0 0 10px rgba(0,230,118,0.2)';"
+                onblur="this.style.borderColor='var(--border-subtle)'; this.style.boxShadow='none';"
                 style="background: var(--dark-bg-secondary); border: 1px solid var(--border-subtle); 
                        color: var(--text-primary); text-align: center; font-size: 1rem; letter-spacing: 0.3rem;
                        padding: 0.75rem 1.5rem; outline: none; width: 200px; border-radius: var(--radius-md);
-                       transition: all 0.3s ease;"
-                onfocus="this.style.borderColor='var(--neon-green)'; this.style.boxShadow='0 0 10px rgba(0,230,118,0.2)';"
-                onblur="this.style.borderColor='var(--border-subtle)'; this.style.boxShadow='none';">
+                       transition: all 0.3s ease;">
             <button id="unlock-btn" class="btn-primary" style="min-width: 120px;">
                 解锁
             </button>
@@ -44,6 +46,24 @@
 <script>
 // 强制清除可能存在的旧解锁状态（确保每次都需要输入密码）
 sessionStorage.removeItem('resume_unlocked');
+sessionStorage.removeItem('resume_access_time');
+
+// 页面加载时立即隐藏简历内容（防止任何缓存状态）
+document.addEventListener('DOMContentLoaded', function() {
+    const authScreen = document.getElementById('auth-screen');
+    const resumeContent = document.getElementById('resume-content');
+    
+    // 强制显示授权界面，隐藏简历内容
+    if (authScreen) authScreen.style.display = 'flex';
+    if (resumeContent) {
+        resumeContent.style.display = 'none';
+        resumeContent.innerHTML = '';
+    }
+    
+    // 清空输入框（防止自动填充）
+    const input = document.getElementById('access-code');
+    if (input) input.value = '';
+});
 
 // 加密的简历内容（多段Base64编码，防止源码中过长）
 const encryptedParts = [
@@ -115,11 +135,29 @@ function showError() {
     }, 2000);
 }
 
-// 绑定事件
-document.getElementById('unlock-btn').addEventListener('click', verifyAccess);
+// 绑定事件 - 使用包装后的验证函数
+document.getElementById('unlock-btn').addEventListener('click', () => window.verifyAccess());
 document.getElementById('access-code').addEventListener('keypress', (e) => {
-    if (e.key === 'Enter') verifyAccess();
+    if (e.key === 'Enter') window.verifyAccess();
 });
+
+// 防止浏览器自动填充后立即解锁 - 延迟启用解锁功能
+let unlockEnabled = false;
+setTimeout(() => {
+    unlockEnabled = true;
+    // 清空可能已被自动填充的内容
+    document.getElementById('access-code').value = '';
+}, 500);
+
+// 包装验证函数，增加用户交互确认
+const originalVerifyAccess = verifyAccess;
+window.verifyAccess = function() {
+    if (!unlockEnabled) {
+        console.log('解锁功能尚未启用，请稍后再试');
+        return;
+    }
+    originalVerifyAccess();
+};
 
 // 安全提示：每次访问此页面都需要重新输入密码
 </script>
