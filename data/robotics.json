@@ -1,7 +1,87 @@
 {
   "last_updated": "2026-04-09",
-  "count": 96,
+  "count": 101,
   "items": [
+    {
+      "title": "MoRight: Motion Control Done Right",
+      "summary": "Generating motion-controlled videos--where user-specified actions drive physically plausible scene dynamics under freely chosen viewpoints--demands two capabilities: (1) disentangled motion control, allowing users to separately control the object mot...",
+      "url": "https://arxiv.org/abs/2604.07348v1",
+      "date": "2026-04-08",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.07348v1",
+      "authors": "Shaowei Liu, Xuanchi Ren et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "TAMEn: Tactile-Aware Manipulation Engine for Closed-Loop Data Collection in Contact-Rich Tasks",
+      "summary": "Handheld paradigms offer an efficient and intuitive way for collecting large-scale demonstration of robot manipulation. However, achieving contact-rich bimanual manipulation through these methods remains a pivotal challenge, which is substantially hi...",
+      "url": "https://arxiv.org/abs/2604.07335v1",
+      "date": "2026-04-08",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.07335v1",
+      "authors": "Longyan Wu, Jieji Ren et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "RoSHI: A Versatile Robot-oriented Suit for Human Data In-the-Wild",
+      "summary": "Scaling up robot learning will likely require human data containing rich and long-horizon interactions in the wild. Existing approaches for collecting such data trade off portability, robustness to occlusion, and global consistency. We introduce RoSH...",
+      "url": "https://arxiv.org/abs/2604.07331v1",
+      "date": "2026-04-08",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.07331v1",
+      "authors": "Wenjing Margaret Mao, Jefferson Ng et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Robots that learn to evaluate models of collective behavior",
+      "summary": "Understanding and modeling animal behavior is essential for studying collective motion, decision-making, and bio-inspired robotics. Yet, evaluating the accuracy of behavioral models still often relies on offline comparisons to static trajectory stati...",
+      "url": "https://arxiv.org/abs/2604.07303v1",
+      "date": "2026-04-08",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.07303v1",
+      "authors": "Mathis Hocke, Andreas Gerken et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "CADENCE: Context-Adaptive Depth Estimation for Navigation and Computational Efficiency",
+      "summary": "Autonomous vehicles deployed in remote environments typically rely on embedded processors, compact batteries, and lightweight sensors. These hardware limitations conflict with the need to derive robust representations of the environment, which often ...",
+      "url": "https://arxiv.org/abs/2604.07286v1",
+      "date": "2026-04-08",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.07286v1",
+      "authors": "Timothy K Johnsen, Marco Levorato",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
     {
       "title": "[一场机器人黑客松，让 具 身 智 能 的差距与机会同时显形",
       "summary": "[一场机器人黑客松，让 具 身 智 能 的差距与机会同时显形",
