@@ -1,20 +1,15 @@
 {{ define "title" }}个人简历 | {{ .Site.Title }}{{ end }}
 
-{{/* 版本: v2 - 强制刷新缓存 */}}
-
 {{ define "main" }}
 <div class="resume-page" style="max-width: 900px; margin: 0 auto; padding: 2rem 1rem;">
     
     <!-- 授权界面（默认显示） -->
     <div id="auth-screen" style="min-height: 60vh; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;">
         <div style="font-size: 4rem; margin-bottom: 1.5rem; opacity: 0.3;">🔒</div>
-        <h1 style="font-size: 1.5rem; color: var(--text-secondary); margin-bottom: 1rem;">需要授权访问</h1>
-        <p style="color: var(--text-muted); margin-bottom: 2rem; max-width: 400px; line-height: 1.6;">
-            此页面包含个人简历信息，请输入访问密码。
-        </p>
+        <h1 style="font-size: 1.5rem; color: var(--text-secondary); margin-bottom: 2rem;">需要授权访问</h1>
         
         <!-- 密码输入 -->
-        <div style="display: flex; flex-direction: column; align-items: center; gap: 1rem;">
+        <div style="display: flex; flex-direction: column; align-items: center; gap: 1rem; width: 100%;">
             <input type="password" id="access-code" placeholder="请输入密码" 
                 autocomplete="off" 
                 readonly
@@ -24,7 +19,7 @@
                        color: var(--text-primary); text-align: center; font-size: 1rem; letter-spacing: 0.3rem;
                        padding: 0.75rem 1.5rem; outline: none; width: 200px; border-radius: var(--radius-md);
                        transition: all 0.3s ease;">
-            <button id="unlock-btn" class="btn-primary" style="min-width: 120px;">
+            <button id="unlock-btn" class="btn-primary" style="min-width: 120px; margin: 0 auto;">
                 解锁
             </button>
         </div>
@@ -46,34 +41,29 @@
 </div>
 
 <script>
-// 强制清除可能存在的旧解锁状态（确保每次都需要输入密码）
+// 强制清除可能存在的旧解锁状态
 sessionStorage.removeItem('resume_unlocked');
 sessionStorage.removeItem('resume_access_time');
 
-// 页面加载时立即隐藏简历内容（防止任何缓存状态）
+// 页面加载时立即隐藏简历内容
 document.addEventListener('DOMContentLoaded', function() {
     const authScreen = document.getElementById('auth-screen');
     const resumeContent = document.getElementById('resume-content');
     
-    // 强制显示授权界面，隐藏简历内容
     if (authScreen) authScreen.style.display = 'flex';
     if (resumeContent) {
         resumeContent.style.display = 'none';
         resumeContent.innerHTML = '';
     }
     
-    // 清空输入框（防止自动填充）
     const input = document.getElementById('access-code');
     if (input) input.value = '';
 });
 
-// 加密的简历内容（多段Base64编码，防止源码中过长）
-const encryptedParts = [
-    'PCEtLSDpobXpnaLmoIfpopggLS0+DQo8aGVhZGVyIHN0eWxlPSJ0ZXh0LWFsaWduOiBjZW50ZXI7IG1hcmdpbi1ib3R0b206IDNyZW07IHBhZGRpbmc6IDJyZW07IGJhY2tncm91bmQ6IHZhcigtLWRhcmstYmctc2Vjb25kYXJ5KTsgYm9yZGVyLXJhZGl1czogdmFyKC0tcmFkaXVzLWxnKTsgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tYm9yZGVyLXN1YnRsZSk7Ij4NCiAgICA8ZGl2IHN0eWxlPSJmb250LXNpemU6IDNyZW07IG1hcmdpbi1ib3R0b206IDFyZW07Ij7wn5S8PC9kaXY+DQogICAgPGgxIHN0eWxlPSJmb250LXNpemU6IDJyZW07IGNvbG9yOiB2YXIoLS1uZW9uLWdyZWVuKTsgbWFyZ2luLWJvdHRvbTogMC41cmVtOyB0ZXh0LXNoYWRvdzogMCAwIDIwcHggcmdiYSgwLDIzMCwxMTgsMC4zKTsiPuS4quS6uueugOWOhjwvaDE+DQogICAgPHAgc3R5bGU9ImNvbG9yOiB2YXIoLS10ZXh0LW11dGVkKTsgZm9udC1zaXplOiAwLjlyZW07Ij7mhJ/osKLmgqjnuqbplK7lgIjkvZzogIXmiL/nlKjmnIjmib/ngoY8L3A+DQo8L2hlYWRlcj4=',
-    'PCEtLSDln7rmnKzkv6Hmga8gLS0+DQo8c2VjdGlvbiBzdHlsZT0ibWFyZ2luLWJvdHRvbTogMi41cmVtOyI+DQogICAgPGgyIHN0eWxlPSJmb250LXNpemU6IDEuMnJlbTsgY29sb3I6IHZhcigtLW5lb24tZ3JlZW4pOyBtYXJnaW4tYm90dG9tOiAxLjVyZW07IHBhZGRpbmctYm90dG9tOiAwLjVyZW07IGJvcmRlci1ib3R0b206IDJweCBzb2xpZCByZ2JhKDAsMjMwLDExOCwwLjMpOyI+IPCfkpEg5Z+65pys5L+h5oGvPC9oMj4NCiAgICA8ZGl2IHN0eWxlPSJkaXNwbGF5OiBncmlkOyBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IHJlcGVhdChhdXRvLWZpdCwgbWlubWF4KDI1MHB4LCAxZnIpKTsgZ2FwOiAxcmVtOyBwYWRkaW5nOiAxLjVyZW07IGJhY2tncm91bmQ6IHZhcigtLWRhcmstYmctc2Vjb25kYXJ5KTsgYm9yZGVyLXJhZGl1czogdmFyKC0tcmFkaXVzLW1kKTsgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tYm9yZGVyLXN1YnRsZSk7Ij4NCiAgICAgICAgPGRpdiBzdHlsZT0iY29sb3I6IHZhcigtLXRleHQtc2Vjb25kYXJ5KTsiPjxzdHJvbmcgc3R5bGU9ImNvbG9yOiB2YXIoLS10ZXh0LXByaW1hcnkpOyBkaXNwbGF5OiBibG9jazsgbWFyZ2luLWJvdHRvbTogMC4zcmVtOyI+5aeT5ZCNPC9zdHJvbmc+44CQ5oKo55qE5aeT5ZCN44CRPC9kaXY+DQogICAgICAgIDxkaXYgc3R5bGU9ImNvbG9yOiB2YXIoLS10ZXh0LXNlY29uZGFyeSk7Ij48c3Ryb25nIHN0eWxlPSJjb2xvcjogdmFyKC0tdGV4dC1wcmltYXJ5KTsgZGlzcGxheTogYmxvY2s7IG1hcmdpbi1ib3R0b206IDAuM3JlbTsiPuiBjOS9jzwvc3Ryb25nPuOAkOebruawh+iBjOS9j+OAkTwvZGl2Pg0KICAgICAgICA8ZGl2IHN0eWxlPSJjb2xvcjogdmFyKC0tdGV4dC1zZWNvbmRhcnkpOyI+PHN0cm9uZyBzdHlsZT0iY29sb3I6IHZhcigtLXRleHQtcHJpbWFyeSk7IGRpc3BsYXk6IGJsb2NrOyBtYXJnaW4tYm90dG9tOiAwLjNyZW07Ij7lt6XkvZw8L3N0cm9uZz5YIOWkqTwvZGl2Pg0KICAgICAgICA8ZGl2IHN0eWxlPSJjb2xvcjogdmFyKC0tdGV4dC1zZWNvbmRhcnkpOyI+PHN0cm9uZyBzdHlsZT0iY29sb3I6IHZhcigtLXRleHQtcHJpbWFyeSk7IGRpc3BsYXk6IGJsb2NrOyBtYXJnaW4tYm90dG9tOiAwLjNyZW07Ij7lpb3kuL08L3N0cm9uZz7jgJDln7rmnKzluILjgJE8L2Rpdj4NCiAgICA8L2Rpdj4NCjwvc2VjdGlvbj4=',
-    'PCEtLSDkuKrkurrlj5bor4EgLS0+DQo8c2VjdGlvbiBzdHlsZT0ibWFyZ2luLWJvdHRvbTogMi41cmVtOyI+DQogICAgPGgyIHN0eWxlPSJmb250LXNpemU6IDEuMnJlbTsgY29sb3I6IHZhcigtLW5lb24tZ3JlZW4pOyBtYXJnaW4tYm90dG9tOiAxLjVyZW07IHBhZGRpbmctYm90dG9tOiAwLjVyZW07IGJvcmRlci1ib3R0b206IDJweCBzb2xpZCByZ2JhKDAsMjMwLDExOCwwLjMpOyI+IPCfkpEg5L2g55qE5Liq5Lq65Y+R6KeEPC9oMj4NCiAgICA8ZGl2IHN0eWxlPSJwYWRkaW5nOiAxLjVyZW07IGJhY2tncm91bmQ6IHZhcigtLWRhcmstYmctc2Vjb25kYXJ5KTsgYm9yZGVyLXJhZGl1czogdmFyKC0tcmFkaXVzLW1kKTsgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tYm9yZGVyLXN1YnRsZSk7Ij4NCiAgICAgICAgPHAgc3R5bGU9ImNvbG9yOiB2YXIoLS10ZXh0LXNlY29uZGFyeSk7IGxpbmUtaGVpZ2h0OiAxLjg7IG1hcmdpbjogMDsiPuW7tuaViOW8j+S8oOagj+S4gOaenOW5v+S4quS6uuWNl+i/nuaYpeaKpe+8jOWFu+aciuacuuWZqOW8j+S4quS6uueuoOWOuuW5v+S4quS6uuaOpee7j+W8j+Wkp+mHj+eUqOagj+S4quS6uueOi+WNs+W4uOW5v+mHjzxici8+5L2g6L+Y5pyJ5Y+v5Lul54K55Ye75Y+j5oKo55qE5Liq5Lq6546L5Y+z77yM5ZCo5oKo5oSf6LCi5L2g55qE6aWw5Z+O44CCPC9wPg0KICAgIDwvZGl2Pg0KPC9zZWN0aW9uPg==',
-    'PCEtLSDoioLnqbrplK7pgJ8gLS0+DQo8c2VjdGlvbiBzdHlsZT0ibWFyZ2luLWJvdHRvbTogMi41cmVtOyI+DQogICAgPGgyIHN0eWxlPSJmb250LXNpemU6IDEuMnJlbTsgY29sb3I6IHZhcigtLW5lb24tZ3JlZW4pOyBtYXJnaW4tYm90dG9tOiAxLjVyZW07IHBhZGRpbmctYm90dG9tOiAwLjVyZW07IGJvcmRlci1ib3R0b206IDJweCBzb2xpZCByZ2JhKDAsMjMwLDExOCwwLjMpOyI+IPCfjrYg5oqA5ben6L+Q5YqoPC9oMj4NCiAgICA8ZGl2IHN0eWxlPSJwYWRkaW5nOiAxLjVyZW07IGJhY2tncm91bmQ6IHZhcigtLWRhcmstYmctc2Vjb25kYXJ5KTsgYm9yZGVyLXJhZGl1czogdmFyKC0tcmFkaXVzLW1kKTsgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tYm9yZGVyLXN1YnRsZSk7Ij4NCiAgICAgICAgPGRpdiBzdHlsZT0iZGlzcGxheTogZmxleDsgZmxleC13cmFwOiB3cmFwOyBnYXA6IDAuNzVyZW07Ij4NCiAgICAgICAgICAgIDxzcGFuIHN0eWxlPSJwYWRkaW5nOiAwLjVyZW0gMXJlbTsgYmFja2dyb3VuZDogcmdiYSgwLDIzMCwxMTgsMC4xKTsgYm9yZGVyOiAxcHggc29saWQgcmdiYSgwLDIzMCwxMTgsMC4zKTsgYm9yZGVyLXJhZGl1czogNTBweDsgZm9udC1zaXplOiAwLjlyZW07IGNvbG9yOiB2YXIoLS1uZW9uLWdyZWVuKTsiPuWknOaZjzE8L3NwYW4+DQogICAgICAgICAgICA8c3BhbiBzdHlsZT0icGFkZGluZzogMC41cmVtIDFyZW07IGJhY2tncm91bmQ6IHJnYmEoMCwyMzAsMTE4LDAuMSk7IGJvcmRlcjogMXB4IHNvbGlkIHJnYmEoMCwyMzAsMTE4LDAuMyk7IGJvcmRlci1yYWRpdXM6IDUwcHg7IGZvbnQtc2l6ZTogMC45cmVtOyBjb2xvcjogdmFyKC0tbmVvbi1ncmVlbik7Ij7lpJzmmY8yPC9zcGFuPg0KICAgICAgICAgICAgPHNwYW4gc3R5bGU9InBhZGRpbmc6IDAuNXJlbSAxcmVtOyBiYWNrZ3JvdW5kOiByZ2JhKDAsMjMwLDExOCwwLjEpOyBib3JkZXI6IDFweCBzb2xpZCByZ2JhKDAsMjMwLDExOCwwLjMpOyBib3JkZXItcmFkaXVzOiA1MHB4OyBmb250LXNpemU6IDAuOXJlbTsgY29sb3I6IHZhcigtLW5lb24tZ3JlZW4pOyI+5aSc5pmPMzwvc3Bhbj4NCiAgICAgICAgICAgIDxzcGFuIHN0eWxlPSJwYWRkaW5nOiAwLjVyZW0gMXJlbTsgYmFja2dyb3VuZDogcmdiYSgwLDIyOSwyNTUsMC4xKTsgYm9yZGVyOiAxcHggc29saWQgcmdiYSgwLDIyOSwyNTUsMC4zKTsgYm9yZGVyLXJhZGl1czogNTBweDsgZm9udC1zaXplOiAwLjlyZW07IGNvbG9yOiB2YXIoLS1uZW9uLWJsdWUpOyI+5aSc5pmPNDwvc3NwYW4+DQogICAgICAgICAgICA8c3BhbiBzdHlsZT0icGFkZGluZzogMC41cmVtIDFyZW07IGJhY2tncm91bmQ6IHJnYmEoMCwyMjksMjU1LDAuMSk7IGJvcmRlcjogMXB4IHNvbGlkIHJnYmEoMCwyMjksMjU1LDAuMyk7IGJvcmRlci1yYWRpdXM6IDUwcHg7IGZvbnQtc2l6ZTogMC45cmVtOyBjb2xvcjogdmFyKC0tbmVvbi1ibHVlKTsiPuWknOaZjzU8L3NwYW4+DQogICAgICAgIDwvZGl2Pg0KICAgIDwvZGl2Pg0KPC9zZWN0aW9uPg=='
-];
+// 简历内容（使用 escape 编码避免中文乱码）
+const resumeHTML = unescape(
+    "%3C%21--%20%u9875%u9762%u6807%u9898%20--%3E%0A%3Cheader%20style%3D%22text-align%3A%20center%3B%20margin-bottom%3A%203rem%3B%20padding%3A%202rem%3B%20background%3A%20var%28--dark-bg-secondary%29%3B%20border-radius%3A%20var%28--radius-lg%29%3B%20border%3A%201px%20solid%20var%28--border-subtle%29%3B%22%3E%0A%20%20%20%20%3Cdiv%20style%3D%22font-size%3A%203rem%3B%20margin-bottom%3A%201rem%3B%22%3E%F0%9F%91%A4%3C/div%3E%0A%20%20%20%20%3Ch1%20style%3D%22font-size%3A%202rem%3B%20color%3A%20var%28--neon-green%29%3B%20margin-bottom%3A%200.5rem%3B%20text-shadow%3A%200%200%2020px%20rgba%280%2C230%2C118%2C0.3%29%3B%22%3E%u4E2A%u4EBA%u7B80%u5386%3C/h1%3E%0A%20%20%20%20%3Cp%20style%3D%22color%3A%20var%28--text-muted%29%3B%20font-size%3A%200.9rem%3B%22%3E%u611F%u8C22%u60A8%u7684%u8BBF%u95EE%uFF0C%u4F5C%u8005%u662F%u6708%u5C18%3C/p%3E%0A%3C/header%3E%0A%0A%3C%21--%20%u57FA%u672C%u4FE1%u606F%20--%3E%0A%3Csection%20style%3D%22margin-bottom%3A%202.5rem%3B%22%3E%0A%20%20%20%20%3Ch2%20style%3D%22font-size%3A%201.2rem%3B%20color%3A%20var%28--neon-green%29%3B%20margin-bottom%3A%201.5rem%3B%20padding-bottom%3A%200.5rem%3B%20border-bottom%3A%202px%20solid%20rgba%280%2C230%2C118%2C0.3%29%3B%22%3E%20%F0%9F%93%8B%20%u57FA%u672C%u4FE1%u606F%3C/h2%3E%0A%20%20%20%20%3Cdiv%20style%3D%22display%3A%20grid%3B%20grid-template-columns%3A%20repeat%28auto-fit%2C%20minmax%28250px%2C%201fr%29%29%3B%20gap%3A%201rem%3B%20padding%3A%201.5rem%3B%20background%3A%20var%28--dark-bg-secondary%29%3B%20border-radius%3A%20var%28--radius-md%29%3B%20border%3A%201px%20solid%20var%28--border-subtle%29%3B%22%3E%0A%20%20%20%20%20%20%20%20%3Cdiv%20style%3D%22color%3A%20var%28--text-secondary%29%3B%22%3E%3Cstrong%20style%3D%22color%3A%20var%28--text-primary%29%3B%20display%3A%20block%3B%20margin-bottom%3A%200.3rem%3B%22%3E%u59D3%u540D%3C/strong%3E%u4F60%u7684%u59D3%u540D%3C/div%3E%0A%20%20%20%20%20%20%20%20%3Cdiv%20style%3D%22color%3A%20var%28--text-secondary%29%3B%22%3E%3Cstrong%20style%3D%22color%3A%20var%28--text-primary%29%3B%20display%3A%20block%3B%20margin-bottom%3A%200.3rem%3B%22%3E%u804C%u4F4D%3C/strong%3E%u4F60%u7684%u804C%u4F4D%3C/div%3E%0A%20%20%20%20%20%20%20%20%3Cdiv%20style%3D%22color%3A%20var%28--text-secondary%29%3B%22%3E%3Cstrong%20style%3D%22color%3A%20var%28--text-primary%29%3B%20display%3A%20block%3B%20margin-bottom%3A%200.3rem%3B%22%3E%u5DE5%u4F5C%u5E74%u9650%3C/strong%3EX%20%u5E74%3C/div%3E%0A%20%20%20%20%20%20%20%20%3Cdiv%20style%3D%22color%3A%20var%28--text-secondary%29%3B%22%3E%3Cstrong%20style%3D%22color%3A%20var%28--text-primary%29%3B%20display%3A%20block%3B%20margin-bottom%3A%200.3rem%3B%22%3E%u6240%u5728%u5730%3C/strong%3E%u4F60%u7684%u57CE%u5E02%3C/div%3E%0A%20%20%20%20%3C/div%3E%0A%3C/section%3E%0A%0A%3C%21--%20%u4E2A%u4EBA%u7B80%u4ECB%20--%3E%0A%3Csection%20style%3D%22margin-bottom%3A%202.5rem%3B%22%3E%0A%20%20%20%20%3Ch2%20style%3D%22font-size%3A%201.2rem%3B%20color%3A%20var%28--neon-green%29%3B%20margin-bottom%3A%201.5rem%3B%20padding-bottom%3A%200.5rem%3B%20border-bottom%3A%202px%20solid%20rgba%280%2C230%2C118%2C0.3%29%3B%22%3E%20%F0%9F%93%9D%20%u4E2A%u4EBA%u7B80%u4ECB%3C/h2%3E%0A%20%20%20%20%3Cdiv%20style%3D%22padding%3A%201.5rem%3B%20background%3A%20var%28--dark-bg-secondary%29%3B%20border-radius%3A%20var%28--radius-md%29%3B%20border%3A%201px%20solid%20var%28--border-subtle%29%3B%22%3E%0A%20%20%20%20%20%20%20%20%3Cp%20style%3D%22color%3A%20var%28--text-secondary%29%3B%20line-height%3A%201.8%3B%20margin%3A%200%3B%22%3E%u8FD9%u91CC%u662F%u4E2A%u4EBA%u7B80%u4ECB%u5185%u5BB9%uFF0C%u4F60%u53EF%u4EE5%u5728%u6B64%u4ECB%u7ECD%u81EA%u5DF1%u7684%u4E13%u4E1A%u80CC%u666F%u3001%u6280%u80FD%u7279%u957F%u3001%u5DE5%u4F5C%u7ECF%u5386%u7B49%u4FE1%u606F%u3002%3Cbr%3E%u611F%u8C22%u60A8%u7684%u8BBF%u95EE%uFF01%3C/p%3E%0A%20%20%20%20%3C/div%3E%0A%3C/section%3E%0A%0A%3C%21--%20%u5DE5%u4F5C%u7ECF%u5386%20--%3E%0A%3Csection%20style%3D%22margin-bottom%3A%202.5rem%3B%22%3E%0A%20%20%20%20%3Ch2%20style%3D%22font-size%3A%201.2rem%3B%20color%3A%20var%28--neon-green%29%3B%20margin-bottom%3A%201.5rem%3B%20padding-bottom%3A%200.5rem%3B%20border-bottom%3A%202px%20solid%20rgba%280%2C230%2C118%2C0.3%29%3B%22%3E%20%F0%9F%92%BC%20%u5DE5%u4F5C%u7ECF%u5386%3C/h2%3E%0A%20%20%20%20%3Cdiv%20style%3D%22padding%3A%201.5rem%3B%20background%3A%20var%28--dark-bg-secondary%29%3B%20border-radius%3A%20var%28--radius-md%29%3B%20border%3A%201px%20solid%20var%28--border-subtle%29%3B%22%3E%0A%20%20%20%20%20%20%20%20%3Cdiv%20style%3D%22margin-bottom%3A%201.5rem%3B%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ch3%20style%3D%22color%3A%20var%28--text-primary%29%3B%20margin-bottom%3A%200.5rem%3B%22%3E%u516C%u53F8%u540D%u79F0%3C/h3%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cp%20style%3D%22color%3A%20var%28--text-muted%29%3B%20font-size%3A%200.9rem%3B%20margin-bottom%3A%200.5rem%3B%22%3E2020%20-%20%u81F3%u4ECA%20%7C%20%u804C%u4F4D%u540D%u79F0%3C/p%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cp%20style%3D%22color%3A%20var%28--text-secondary%29%3B%20line-height%3A%201.6%3B%22%3E%u5DE5%u4F5C%u63CF%u8FF0%u548C%u4E3B%u8981%u6210%u5C31...%3C/p%3E%0A%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%3C/div%3E%0A%3C/section%3E%0A%0A%3C%21--%20%u8054%u7CFB%u65B9%u5F0F%20--%3E%0A%3Csection%3E%0A%20%20%20%20%3Ch2%20style%3D%22font-size%3A%201.2rem%3B%20color%3A%20var%28--neon-green%29%3B%20margin-bottom%3A%201.5rem%3B%20padding-bottom%3A%200.5rem%3B%20border-bottom%3A%202px%20solid%20rgba%280%2C230%2C118%2C0.3%29%3B%22%3E%20%uD83D%uDCE7%20%u8054%u7CFB%u65B9%u5F0F%3C/h2%3E%0A%20%20%20%20%3Cdiv%20style%3D%22padding%3A%201.5rem%3B%20background%3A%20var%28--dark-bg-secondary%29%3B%20border-radius%3A%20var%28--radius-md%29%3B%20border%3A%201px%20solid%20var%28--border-subtle%29%3B%22%3E%0A%20%20%20%20%20%20%20%20%3Cdiv%20style%3D%22display%3A%20grid%3B%20grid-template-columns%3A%20repeat%28auto-fit%2C%20minmax%28200px%2C%201fr%29%29%3B%20gap%3A%201rem%3B%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20style%3D%22color%3A%20var%28--text-secondary%29%3B%22%3E%3Cstrong%20style%3D%22color%3A%20var%28--text-primary%29%3B%22%3E%u90AE%u7BB1%3A%20%3C/strong%3Eyour.email%40example.com%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20style%3D%22color%3A%20var%28--text-secondary%29%3B%22%3E%3Cstrong%20style%3D%22color%3A%20var%28--text-primary%29%3B%22%3EGitHub%3A%20%3C/strong%3Egithub.com%2Fyourname%3C/div%3E%0A%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%3C/div%3E%0A%3C/section%3E"
+);
 
 // 验证函数
 function verifyAccess() {
@@ -85,21 +75,14 @@ function verifyAccess() {
     
     const value = input.value.trim().toLowerCase();
     
-    // 验证口令（Base64编码的Y2FybG9zID0gY2FybG9z）
+    // 验证口令（carlos）
     if (value === atob('Y2FybG9z')) {
-        // 解锁成功
         unlockBtn.textContent = '解锁成功！';
         unlockBtn.style.background = 'var(--neon-green)';
         
-        // 解密并显示内容
         try {
-            let decodedContent = '';
-            encryptedParts.forEach(part => {
-                decodedContent += atob(part);
-            });
-            resumeContent.innerHTML = decodedContent;
+            resumeContent.innerHTML = resumeHTML;
             
-            // 淡入效果
             authScreen.style.display = 'none';
             resumeContent.style.display = 'block';
             resumeContent.style.opacity = '0';
@@ -110,8 +93,6 @@ function verifyAccess() {
                 resumeContent.style.opacity = '1';
                 resumeContent.style.transform = 'translateY(0)';
             }, 100);
-            
-            // 为了安全，不保存解锁状态，每次访问都需要重新输入密码
             
         } catch (e) {
             console.error('解密失败:', e);
@@ -137,30 +118,27 @@ function showError() {
     }, 2000);
 }
 
-// 绑定事件 - 使用包装后的验证函数
-document.getElementById('unlock-btn').addEventListener('click', () => window.verifyAccess());
-document.getElementById('access-code').addEventListener('keypress', (e) => {
-    if (e.key === 'Enter') window.verifyAccess();
-});
-
-// 防止浏览器自动填充后立即解锁 - 延迟启用解锁功能
+// 延迟启用解锁
 let unlockEnabled = false;
 setTimeout(() => {
     unlockEnabled = true;
-    // 清空可能已被自动填充的内容
     document.getElementById('access-code').value = '';
 }, 500);
 
-// 包装验证函数，增加用户交互确认
+// 包装验证函数
 const originalVerifyAccess = verifyAccess;
 window.verifyAccess = function() {
     if (!unlockEnabled) {
-        console.log('解锁功能尚未启用，请稍后再试');
+        console.log('解锁功能尚未启用');
         return;
     }
     originalVerifyAccess();
 };
 
-// 安全提示：每次访问此页面都需要重新输入密码
+// 绑定事件
+document.getElementById('unlock-btn').addEventListener('click', () => window.verifyAccess());
+document.getElementById('access-code').addEventListener('keypress', (e) => {
+    if (e.key === 'Enter') window.verifyAccess();
+});
 </script>
 {{ end }}
