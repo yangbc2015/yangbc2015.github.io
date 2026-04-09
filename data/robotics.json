@@ -1,12 +1,92 @@
 {
-  "last_updated": "2026-04-07",
-  "count": 91,
+  "last_updated": "2026-04-09",
+  "count": 101,
   "items": [
+    {
+      "title": "MoRight: Motion Control Done Right",
+      "summary": "Generating motion-controlled videos--where user-specified actions drive physically plausible scene dynamics under freely chosen viewpoints--demands two capabilities: (1) disentangled motion control, allowing users to separately control the object mot...",
+      "url": "https://arxiv.org/abs/2604.07348v1",
+      "date": "2026-04-08",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.07348v1",
+      "authors": "Shaowei Liu, Xuanchi Ren et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "TAMEn: Tactile-Aware Manipulation Engine for Closed-Loop Data Collection in Contact-Rich Tasks",
+      "summary": "Handheld paradigms offer an efficient and intuitive way for collecting large-scale demonstration of robot manipulation. However, achieving contact-rich bimanual manipulation through these methods remains a pivotal challenge, which is substantially hi...",
+      "url": "https://arxiv.org/abs/2604.07335v1",
+      "date": "2026-04-08",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.07335v1",
+      "authors": "Longyan Wu, Jieji Ren et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "RoSHI: A Versatile Robot-oriented Suit for Human Data In-the-Wild",
+      "summary": "Scaling up robot learning will likely require human data containing rich and long-horizon interactions in the wild. Existing approaches for collecting such data trade off portability, robustness to occlusion, and global consistency. We introduce RoSH...",
+      "url": "https://arxiv.org/abs/2604.07331v1",
+      "date": "2026-04-08",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.07331v1",
+      "authors": "Wenjing Margaret Mao, Jefferson Ng et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Robots that learn to evaluate models of collective behavior",
+      "summary": "Understanding and modeling animal behavior is essential for studying collective motion, decision-making, and bio-inspired robotics. Yet, evaluating the accuracy of behavioral models still often relies on offline comparisons to static trajectory stati...",
+      "url": "https://arxiv.org/abs/2604.07303v1",
+      "date": "2026-04-08",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.07303v1",
+      "authors": "Mathis Hocke, Andreas Gerken et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "CADENCE: Context-Adaptive Depth Estimation for Navigation and Computational Efficiency",
+      "summary": "Autonomous vehicles deployed in remote environments typically rely on embedded processors, compact batteries, and lightweight sensors. These hardware limitations conflict with the need to derive robust representations of the environment, which often ...",
+      "url": "https://arxiv.org/abs/2604.07286v1",
+      "date": "2026-04-08",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.07286v1",
+      "authors": "Timothy K Johnsen, Marco Levorato",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
     {
       "title": "[一场机器人黑客松，让 具 身 智 能 的差距与机会同时显形",
       "summary": "[一场机器人黑客松，让 具 身 智 能 的差距与机会同时显形",
       "url": "http://36kr.com/p/3753345845903872",
-      "date": "2026-04-07",
+      "date": "2026-04-08",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
@@ -18,12 +98,92 @@
       "title": "[英伟达给机器人装上龙虾大脑，具 身 智 能 的Harness来了",
       "summary": "[英伟达给机器人装上龙虾大脑，具 身 智 能 的Harness来了",
       "url": "http://36kr.com/p/3749514454057473",
-      "date": "2026-04-07",
+      "date": "2026-04-08",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
       "tags": [
         "机器人"
+      ]
+    },
+    {
+      "title": "Action Images: End-to-End Policy Learning via Multiview Video Generation",
+      "summary": "World action models (WAMs) have emerged as a promising direction for robot policy learning, as they can leverage powerful video backbones to model the future states. However, existing approaches often rely on separate action modules, or use action re...",
+      "url": "https://arxiv.org/abs/2604.06168v1",
+      "date": "2026-04-07",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.06168v1",
+      "authors": "Haoyu Zhen, Zixian Gao et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Delta6: A Low-Cost, 6-DOF Force-Sensing Flexible End-Effector",
+      "summary": "This paper presents Delta6, a low-cost, six-degree-of-freedom (6-DOF) force/torque end-effector that combines antagonistic springs with magnetic encoders to deliver accurate wrench sensing while remaining as simple to assemble as flat-pack furniture....",
+      "url": "https://arxiv.org/abs/2604.06150v1",
+      "date": "2026-04-07",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.06150v1",
+      "authors": "Yue Feng, Weicheng Huang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Learning-Guided Force-Feedback Model Predictive Control with Obstacle Avoidance for Robotic Deburring",
+      "summary": "Model Predictive Control (MPC) is widely used for torque-controlled robots, but classical formulations often neglect real-time force feedback and struggle with contact-rich industrial tasks under collision constraints. Deburring in particular require...",
+      "url": "https://arxiv.org/abs/2604.06133v1",
+      "date": "2026-04-07",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.06133v1",
+      "authors": "Krzysztof Wojciechowski, Ege Gursoy et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "eVTOL Aircraft Energy Overhead Estimation under Conflict Resolution in High-Density Airspaces",
+      "summary": "Electric vertical takeoff and landing (eVTOL) aircraft operating in high-density urban airspace must maintain safe separation through tactical conflict resolution, yet the energy cost of such maneuvers has not been systematically quantified. This pap...",
+      "url": "https://arxiv.org/abs/2604.06093v1",
+      "date": "2026-04-07",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.06093v1",
+      "authors": "Alex Zongo, Peng Wei",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Intuitive Human-Robot Interaction: Development and Evaluation of a Gesture-Based User Interface for Object Selection",
+      "summary": "Gestures are a natural form of communication between humans and can also be leveraged for human-robot interaction. This work presents a gesture-based user interface for object selection using pointing and click gestures. An experiment with 20 partici...",
+      "url": "https://arxiv.org/abs/2604.06073v1",
+      "date": "2026-04-07",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.06073v1",
+      "authors": "Bijan Kavousian, Oliver Petrovic et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
       ]
     },
     {

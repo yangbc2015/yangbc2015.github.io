@@ -1,19 +1,54 @@
 {
-  "last_updated": "2026-04-07",
-  "count": 8,
+  "last_updated": "2026-04-09",
+  "count": 6,
   "items": [
     {
-      "title": "Early Stopping for Large Reasoning Models via Confidence Dynamics",
-      "authors": "Parsa Hosseini, Sumit Nawathe, Mahdi Salmani et al.",
-      "abstract": "Large reasoning models rely on long chain-of-thought generation to solve complex problems, but extended reasoning often incurs substantial computational cost and can even degrade performance due to overthinking. A key challenge is determining when the model should stop reasoning and produce the fina...",
+      "title": "Toward a Tractability Frontier for Exact Relevance Certification",
+      "authors": "Tristan Simas",
+      "abstract": "Exact relevance certification asks which coordinates are necessary to determine the optimal action in a coordinate-structured decision problem. The tractable families treated here admit a finite primitive basis, but optimizer-quotient realizability is maximal, so quotient shape alone cannot characte...",
       "venue": "arXiv",
-      "date": "2026-04-06",
-      "arxiv_id": "2604.04930v1",
-      "url": "https://arxiv.org/abs/2604.04930v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.04930v1.pdf",
+      "date": "2026-04-08",
+      "arxiv_id": "2604.07349v1",
+      "url": "https://arxiv.org/abs/2604.07349v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.07349v1.pdf",
+      "categories": [
+        "cs.CC",
+        "cs.AI",
+        "cs.LO"
+      ],
+      "type": "ai",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "MoRight: Motion Control Done Right",
+      "authors": "Shaowei Liu, Xuanchi Ren, Tianchang Shen et al.",
+      "abstract": "Generating motion-controlled videos--where user-specified actions drive physically plausible scene dynamics under freely chosen viewpoints--demands two capabilities: (1) disentangled motion control, allowing users to separately control the object motion and adjust camera viewpoint; and (2) motion ca...",
+      "venue": "arXiv",
+      "date": "2026-04-08",
+      "arxiv_id": "2604.07348v1",
+      "url": "https://arxiv.org/abs/2604.07348v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.07348v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.GR"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Personalized RewardBench: Evaluating Reward Models with Human Aligned Personalization",
+      "authors": "Qiyao Ma, Dechen Gao, Rui Cai et al.",
+      "abstract": "Pluralistic alignment has emerged as a critical frontier in the development of Large Language Models (LLMs), with reward models (RMs) serving as a central mechanism for capturing diverse human values. While benchmarks for general response quality are prevalent, evaluating how well reward models acco...",
+      "venue": "arXiv",
+      "date": "2026-04-08",
+      "arxiv_id": "2604.07343v1",
+      "url": "https://arxiv.org/abs/2604.07343v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.07343v1.pdf",
       "categories": [
         "cs.CL",
-        "cs.AI",
         "cs.LG"
       ],
       "type": "nlp",
@@ -21,119 +56,54 @@
       "source": "arXiv"
     },
     {
-      "title": "Your Pre-trained Diffusion Model Secretly Knows Restoration",
-      "authors": "Sudarshan Rajagopalan, Vishal M. Patel",
-      "abstract": "Pre-trained diffusion models have enabled significant advancements in All-in-One Restoration (AiOR), offering improved perceptual quality and generalization. However, diffusion-based restoration methods primarily rely on fine-tuning or Control-Net style modules to leverage the pre-trained diffusion ...",
+      "title": "Appear2Meaning: A Cross-Cultural Benchmark for Structured Cultural Metadata Inference from Images",
+      "authors": "Yuechen Jiang, Enze Zhang, Md Mohsinul Kabir et al.",
+      "abstract": "Recent advances in vision-language models (VLMs) have improved image captioning for cultural heritage. However, inferring structured cultural metadata (e.g., creator, origin, period) from visual input remains underexplored. We introduce a multi-category, cross-cultural benchmark for this task and ev...",
       "venue": "arXiv",
-      "date": "2026-04-06",
-      "arxiv_id": "2604.04924v1",
-      "url": "https://arxiv.org/abs/2604.04924v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.04924v1.pdf",
+      "date": "2026-04-08",
+      "arxiv_id": "2604.07338v1",
+      "url": "https://arxiv.org/abs/2604.07338v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.07338v1.pdf",
       "categories": [
         "cs.CV",
-        "cs.AI"
+        "cs.CL",
+        "cs.MM"
+      ],
+      "type": "benchmark",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Fast Spatial Memory with Elastic Test-Time Training",
+      "authors": "Ziqiao Ma, Xueyang Yu, Haoyu Zhen et al.",
+      "abstract": "Large Chunk Test-Time Training (LaCT) has shown strong performance on long-context 3D reconstruction, but its fully plastic inference-time updates remain vulnerable to catastrophic forgetting and overfitting. As a result, LaCT is typically instantiated with a single large chunk spanning the full inp...",
+      "venue": "arXiv",
+      "date": "2026-04-08",
+      "arxiv_id": "2604.07350v1",
+      "url": "https://arxiv.org/abs/2604.07350v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.07350v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.GR",
+        "cs.LG"
       ],
       "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Beyond the Final Actor: Modeling the Dual Roles of Creator and Editor for Fine-Grained LLM-Generated Text Detection",
-      "authors": "Yang Li, Qiang Sheng, Zhengjia Wang et al.",
-      "abstract": "The misuse of large language models (LLMs) requires precise detection of synthetic text. Existing works mainly follow binary or ternary classification settings, which can only distinguish pure human/LLM text or collaborative text at best. This remains insufficient for the nuanced regulation, as the ...",
+      "title": "TAMEn: Tactile-Aware Manipulation Engine for Closed-Loop Data Collection in Contact-Rich Tasks",
+      "authors": "Longyan Wu, Jieji Ren, Chenghang Jiang et al.",
+      "abstract": "Handheld paradigms offer an efficient and intuitive way for collecting large-scale demonstration of robot manipulation. However, achieving contact-rich bimanual manipulation through these methods remains a pivotal challenge, which is substantially hindered by hardware adaptability and data efficacy....",
       "venue": "arXiv",
-      "date": "2026-04-06",
-      "arxiv_id": "2604.04932v1",
-      "url": "https://arxiv.org/abs/2604.04932v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.04932v1.pdf",
-      "categories": [
-        "cs.CL"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Vanast: Virtual Try-On with Human Image Animation via Synthetic Triplet Supervision",
-      "authors": "Hyunsoo Cha, Wonjung Woo, Byungjun Kim et al.",
-      "abstract": "We present Vanast, a unified framework that generates garment-transferred human animation videos directly from a single human image, garment images, and a pose guidance video. Conventional two-stage pipelines treat image-based virtual try-on and pose-driven animation as separate processes, which oft...",
-      "venue": "arXiv",
-      "date": "2026-04-06",
-      "arxiv_id": "2604.04934v1",
-      "url": "https://arxiv.org/abs/2604.04934v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.04934v1.pdf",
-      "categories": [
-        "cs.CV"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "PointTPA: Dynamic Network Parameter Adaptation for 3D Scene Understanding",
-      "authors": "Siyuan Liu, Chaoqun Zheng, Xin Zhou et al.",
-      "abstract": "Scene-level point cloud understanding remains challenging due to diverse geometries, imbalanced category distributions, and highly varied spatial layouts. Existing methods improve object-level performance but rely on static network parameters during inference, limiting their adaptability to dynamic ...",
-      "venue": "arXiv",
-      "date": "2026-04-06",
-      "arxiv_id": "2604.04933v1",
-      "url": "https://arxiv.org/abs/2604.04933v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.04933v1.pdf",
-      "categories": [
-        "cs.CV"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Stratifying Reinforcement Learning with Signal Temporal Logic",
-      "authors": "Justin Curry, Alberto Speranzon",
-      "abstract": "In this paper, we develop a stratification-based semantics for Signal Temporal Logic (STL) in which each atomic predicate is interpreted as a membership test in a stratified space. This perspective reveals a novel correspondence principle between stratification theory and STL, showing that most STL ...",
-      "venue": "arXiv",
-      "date": "2026-04-06",
-      "arxiv_id": "2604.04923v1",
-      "url": "https://arxiv.org/abs/2604.04923v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.04923v1.pdf",
-      "categories": [
-        "cs.LG",
-        "cs.LO",
-        "eess.SY"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Outlier-Robust Nonlinear Moving Horizon Estimation using Adaptive Loss Functions",
-      "authors": "Nestor Deniz, Guido Sanchez, Fernando Auat Cheein et al.",
-      "abstract": "In this work, we propose an adaptive robust loss function framework for MHE, integrating an adaptive robust loss function to reduce the impact of outliers with a regularization term that avoids naive solutions. The proposed approach prioritizes the fitting of uncontaminated data and downweights the ...",
-      "venue": "arXiv",
-      "date": "2026-04-06",
-      "arxiv_id": "2604.04862v1",
-      "url": "https://arxiv.org/abs/2604.04862v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.04862v1.pdf",
+      "date": "2026-04-08",
+      "arxiv_id": "2604.07335v1",
+      "url": "https://arxiv.org/abs/2604.07335v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.07335v1.pdf",
       "categories": [
         "cs.RO"
       ],
       "type": "ai",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "E-VLA: Event-Augmented Vision-Language-Action Model for Dark and Blurred Scenes",
-      "authors": "Jiajun Zhai, Hao Shi, Shangwei Guo et al.",
-      "abstract": "Robotic Vision-Language-Action (VLA) models generalize well for open-ended manipulation, but their perception is fragile under sensing-stage degradations such as extreme low light, motion blur, and black clipping. We present E-VLA, an event-augmented VLA framework that improves manipulation robustne...",
-      "venue": "arXiv",
-      "date": "2026-04-06",
-      "arxiv_id": "2604.04834v1",
-      "url": "https://arxiv.org/abs/2604.04834v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.04834v1.pdf",
-      "categories": [
-        "cs.CV",
-        "cs.MM",
-        "cs.RO"
-      ],
-      "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     }
