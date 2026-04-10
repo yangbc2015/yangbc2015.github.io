@@ -31,7 +31,7 @@
       "rank": 4,
       "model": "gemma-4-26b-a4b-it",
       "organization": "google",
-      "price_prompt": "0.00000013",
+      "price_prompt": "0.00000012",
       "price_completion": "0.0000004",
       "context_length": 262144
     },
