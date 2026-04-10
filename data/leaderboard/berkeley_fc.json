@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-09T06:33:36.249108+00:00",
+  "last_updated": "2026-04-10T00:24:08.644894+00:00",
   "source": "Berkeley Function-Calling Leaderboard",
   "source_url": "https://gorilla.cs.berkeley.edu/leaderboard.html",
   "description": "函数调用能力评测榜单，测试模型在API调用、工具使用、多轮对话中的函数调用准确性。",
