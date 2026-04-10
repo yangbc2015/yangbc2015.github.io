@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-04-10",
-  "count": 101,
+  "count": 106,
   "items": [
     {
       "title": "[一场机器人黑客松，让 具 身 智 能 的差距与机会同时显形",
@@ -24,6 +24,86 @@
       "type": "news",
       "tags": [
         "机器人"
+      ]
+    },
+    {
+      "title": "SIM1: Physics-Aligned Simulator as Zero-Shot Data Scaler in Deformable Worlds",
+      "summary": "Robotic manipulation with deformable objects represents a data-intensive regime in embodied learning, where shape, contact, and topology co-evolve in ways that far exceed the variability of rigids. Although simulation promises relief from the cost of...",
+      "url": "https://arxiv.org/abs/2604.08544v1",
+      "date": "2026-04-09",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.08544v1",
+      "authors": "Yunsong Zhou, Hangxu Liu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Fail2Drive: Benchmarking Closed-Loop Driving Generalization",
+      "summary": "Generalization under distribution shift remains a central bottleneck for closed-loop autonomous driving. Although simulators like CARLA enable safe and scalable testing, existing benchmarks rarely measure true generalization: they typically reuse tra...",
+      "url": "https://arxiv.org/abs/2604.08535v1",
+      "date": "2026-04-09",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.08535v1",
+      "authors": "Simon Gerstenecker, Andreas Geiger et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "ActiveGlasses: Learning Manipulation with Active Vision from Ego-centric Human Demonstration",
+      "summary": "Large-scale real-world robot data collection is a prerequisite for bringing robots into everyday deployment. However, existing pipelines often rely on specialized handheld devices to bridge the embodiment gap, which not only increases operator burden...",
+      "url": "https://arxiv.org/abs/2604.08534v1",
+      "date": "2026-04-09",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.08534v1",
+      "authors": "Yanwen Zou, Chenyang Shi et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "A-SLIP: Acoustic Sensing for Continuous In-hand Slip Estimation",
+      "summary": "Reliable in-hand manipulation requires accurate real-time estimation of slip between a gripper and a grasped object. Existing tactile sensing approaches based on vision, capacitance, or force-torque measurements face fundamental trade-offs in form fa...",
+      "url": "https://arxiv.org/abs/2604.08528v1",
+      "date": "2026-04-09",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.08528v1",
+      "authors": "Uksang Yoo, Yuemin Mao et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Visually-grounded Humanoid Agents",
+      "summary": "Digital human generation has been studied for decades and supports a wide range of real-world applications. However, most existing systems are passively animated, relying on privileged state or scripted control, which limits scalability to novel envi...",
+      "url": "https://arxiv.org/abs/2604.08509v1",
+      "date": "2026-04-09",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.08509v1",
+      "authors": "Hang Ye, Xiaoxuan Ma et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
       ]
     },
     {
