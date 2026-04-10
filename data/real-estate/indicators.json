@@ -1,0 +1,333 @@
+{
+  "metadata": {
+    "city": "上海",
+    "lastUpdate": "2026-04-09",
+    "nextUpdate": "2026-04-16",
+    "dataSource": "综合多个公开数据源"
+  },
+  "market": {
+    "title": "市场交易指标",
+    "indicators": [
+      {
+        "id": "transaction_price",
+        "name": "二手房成交均价",
+        "unit": "元/㎡",
+        "current": 68500,
+        "previous": 69200,
+        "change": -1.01,
+        "trend": "down",
+        "period": "周度",
+        "threshold": {
+          "bull": "连续3月环比上涨",
+          "bear": "连续3月环比下跌"
+        },
+        "history": [71200, 70800, 70500, 70200, 69800, 69500, 69200, 68500],
+        "dates": ["2026-02-12", "2026-02-19", "2026-02-26", "2026-03-05", "2026-03-12", "2026-03-19", "2026-03-26", "2026-04-09"],
+        "source": "链家研究院",
+        "sourceUrl": "https://www.lianjia.com/fangjia/"
+      },
+      {
+        "id": "destock_cycle",
+        "name": "库存去化周期",
+        "unit": "月",
+        "current": 14.5,
+        "previous": 13.8,
+        "change": 5.07,
+        "trend": "up",
+        "period": "月度",
+        "threshold": {
+          "bull": "<6个月",
+          "neutral": "6-18个月",
+          "bear": ">18个月"
+        },
+        "history": [11.2, 11.8, 12.3, 12.9, 13.5, 13.8, 14.5],
+        "dates": ["2025-10", "2025-11", "2025-12", "2026-01", "2026-02", "2026-03", "2026-04"],
+        "source": "克而瑞",
+        "sourceUrl": "https://www.cricchina.com/"
+      },
+      {
+        "id": "inventory",
+        "name": "二手房挂牌量",
+        "unit": "万套",
+        "current": 18.2,
+        "previous": 17.8,
+        "change": 2.25,
+        "trend": "up",
+        "period": "日度",
+        "threshold": {
+          "bull": "<15万套",
+          "neutral": "15-20万套",
+          "bear": ">20万套"
+        },
+        "history": [15.8, 16.2, 16.5, 16.9, 17.3, 17.8, 18.2],
+        "dates": ["2026-02-20", "2026-03-01", "2026-03-10", "2026-03-20", "2026-03-26", "2026-04-02", "2026-04-09"],
+        "source": "冰山指数",
+        "sourceUrl": "http://www.bingshanchart.com/"
+      },
+      {
+        "id": "supply_demand_ratio",
+        "name": "供需比",
+        "unit": "",
+        "current": 1.35,
+        "previous": 1.28,
+        "change": 5.47,
+        "trend": "up",
+        "period": "周度",
+        "threshold": {
+          "bull": "<1:1",
+          "neutral": "1:1 至 1.5:1",
+          "bear": ">1.5:1"
+        },
+        "history": [1.05, 1.08, 1.12, 1.18, 1.22, 1.28, 1.35],
+        "dates": ["2026-02-20", "2026-03-01", "2026-03-10", "2026-03-20", "2026-03-26", "2026-04-02", "2026-04-09"],
+        "source": "贝壳研究院",
+        "sourceUrl": "https://research.ke.com/"
+      },
+      {
+        "id": "negotiation_space",
+        "name": "二手房议价空间",
+        "unit": "%",
+        "current": 6.8,
+        "previous": 6.2,
+        "change": 9.68,
+        "trend": "up",
+        "period": "周度",
+        "threshold": {
+          "bull": "<3%",
+          "neutral": "3%-8%",
+          "bear": ">8%"
+        },
+        "history": [3.2, 3.8, 4.5, 5.1, 5.6, 6.2, 6.8],
+        "dates": ["2026-02-20", "2026-03-01", "2026-03-10", "2026-03-20", "2026-03-26", "2026-04-02", "2026-04-09"],
+        "source": "链家",
+        "sourceUrl": "https://www.lianjia.com/"
+      }
+    ]
+  },
+  "foreclosure": {
+    "title": "法拍与不良资产",
+    "indicators": [
+      {
+        "id": "foreclosure_count",
+        "name": "法拍房数量",
+        "unit": "套/月",
+        "current": 420,
+        "previous": 385,
+        "change": 9.09,
+        "trend": "up",
+        "period": "周度",
+        "threshold": {
+          "bull": "<300套",
+          "neutral": "300-500套",
+          "bear": ">500套"
+        },
+        "history": [280, 295, 320, 340, 365, 385, 420],
+        "dates": ["2026-02", "2026-02-1", "2026-02-2", "2026-03", "2026-03-1", "2026-03-2", "2026-04"],
+        "source": "阿里拍卖",
+        "sourceUrl": "https://sf.taobao.com/"
+      },
+      {
+        "id": "foreclosure_discount",
+        "name": "法拍房平均折扣率",
+        "unit": "%",
+        "current": 78,
+        "previous": 80,
+        "change": -2.50,
+        "trend": "down",
+        "period": "周度",
+        "threshold": {
+          "bull": ">85%",
+          "neutral": "70%-85%",
+          "bear": "<70%"
+        },
+        "history": [88, 86, 84, 83, 82, 80, 78],
+        "dates": ["2026-02", "2026-02-1", "2026-02-2", "2026-03", "2026-03-1", "2026-03-2", "2026-04"],
+        "source": "京东拍卖",
+        "sourceUrl": "https://auction.jd.com/"
+      }
+    ]
+  },
+  "monetary": {
+    "title": "货币与金融指标",
+    "indicators": [
+      {
+        "id": "m2_growth",
+        "name": "M2同比增速",
+        "unit": "%",
+        "current": 9.2,
+        "previous": 8.9,
+        "change": 3.37,
+        "trend": "up",
+        "period": "月度",
+        "threshold": {
+          "bull": ">10%",
+          "neutral": "8%-10%",
+          "bear": "<8%"
+        },
+        "history": [10.1, 9.8, 9.5, 9.1, 8.9, 9.2],
+        "dates": ["2025-11", "2025-12", "2026-01", "2026-02", "2026-03", "2026-04"],
+        "source": "央行",
+        "sourceUrl": "http://www.pbc.gov.cn/"
+      },
+      {
+        "id": "credit_quota",
+        "name": "房贷放款周期",
+        "unit": "天",
+        "current": 25,
+        "previous": 22,
+        "change": 13.64,
+        "trend": "up",
+        "period": "月度",
+        "threshold": {
+          "bull": "<15天",
+          "neutral": "15-30天",
+          "bear": ">30天"
+        },
+        "history": [18, 19, 20, 21, 22, 25],
+        "dates": ["2025-11", "2025-12", "2026-01", "2026-02", "2026-03", "2026-04"],
+        "source": "融360",
+        "sourceUrl": "https://www.rong360.com/"
+      },
+      {
+        "id": "household_leverage",
+        "name": "居民杠杆率",
+        "unit": "%",
+        "current": 63.5,
+        "previous": 63.2,
+        "change": 0.47,
+        "trend": "up",
+        "period": "季度",
+        "threshold": {
+          "bull": "<60%",
+          "neutral": "60%-70%",
+          "bear": ">70%"
+        },
+        "history": [61.2, 61.8, 62.4, 62.9, 63.2, 63.5],
+        "dates": ["2025-Q2", "2025-Q3", "2025-Q4", "2026-Q1-1", "2026-Q1-2", "2026-Q1-3"],
+        "source": "国家金融与发展实验室",
+        "sourceUrl": "http://www.nifd.cn/"
+      },
+      {
+        "id": "debt_income_ratio",
+        "name": "偿债收入比",
+        "unit": "%",
+        "current": 38.5,
+        "previous": 37.8,
+        "change": 1.85,
+        "trend": "up",
+        "period": "季度",
+        "threshold": {
+          "bull": "<35%",
+          "neutral": "35%-40%",
+          "bear": ">40%"
+        },
+        "history": [35.2, 35.8, 36.5, 37.2, 37.8, 38.5],
+        "dates": ["2025-Q2", "2025-Q3", "2025-Q4", "2026-Q1-1", "2026-Q1-2", "2026-Q1-3"],
+        "source": "央行储户调查",
+        "sourceUrl": "http://www.pbc.gov.cn/"
+      },
+      {
+        "id": "inflation_expectation",
+        "name": "CPI同比",
+        "unit": "%",
+        "current": 0.8,
+        "previous": 0.5,
+        "change": 60.00,
+        "trend": "up",
+        "period": "月度",
+        "threshold": {
+          "bull": "2%-3%",
+          "neutral": "1%-2%",
+          "bear": "<1%"
+        },
+        "history": [0.2, 0.3, 0.4, 0.5, 0.6, 0.8],
+        "dates": ["2025-11", "2025-12", "2026-01", "2026-02", "2026-03", "2026-04"],
+        "source": "国家统计局",
+        "sourceUrl": "http://www.stats.gov.cn/"
+      }
+    ]
+  },
+  "sentiment": {
+    "title": "情绪与微观指标",
+    "indicators": [
+      {
+        "id": "listing_growth",
+        "name": "挂牌量7日增速",
+        "unit": "%",
+        "current": 2.8,
+        "previous": 2.2,
+        "change": 27.27,
+        "trend": "up",
+        "period": "日度",
+        "threshold": {
+          "bull": "<0%",
+          "neutral": "0%-3%",
+          "bear": ">3%"
+        },
+        "history": [-0.5, 0.2, 0.8, 1.5, 2.0, 2.2, 2.8],
+        "dates": ["2026-04-03", "2026-04-04", "2026-04-05", "2026-04-06", "2026-04-07", "2026-04-08", "2026-04-09"],
+        "source": "冰山指数",
+        "sourceUrl": "http://www.bingshanchart.com/"
+      },
+      {
+        "id": "agent_confidence",
+        "name": "中介信心指数",
+        "unit": "",
+        "current": 42,
+        "previous": 45,
+        "change": -6.67,
+        "trend": "down",
+        "period": "月度",
+        "threshold": {
+          "bull": ">50",
+          "neutral": "40-50",
+          "bear": "<40"
+        },
+        "history": [58, 55, 52, 48, 45, 42],
+        "dates": ["2025-11", "2025-12", "2026-01", "2026-02", "2026-03", "2026-04"],
+        "source": "贝壳研究院",
+        "sourceUrl": "https://research.ke.com/"
+      },
+      {
+        "id": "urgent_listing_ratio",
+        "name": "VIP急售房源占比",
+        "unit": "%",
+        "current": 15.5,
+        "previous": 13.2,
+        "change": 17.42,
+        "trend": "up",
+        "period": "周度",
+        "threshold": {
+          "bull": "<8%",
+          "neutral": "8%-15%",
+          "bear": ">15%"
+        },
+        "history": [8.5, 9.2, 10.5, 11.8, 13.2, 15.5],
+        "dates": ["2026-03-05", "2026-03-12", "2026-03-19", "2026-03-26", "2026-04-02", "2026-04-09"],
+        "source": "链家",
+        "sourceUrl": "https://www.lianjia.com/"
+      }
+    ]
+  },
+  "trendAnalysis": {
+    "overallScore": 35,
+    "overallTrend": "bearish",
+    "trendLabel": "偏空",
+    "summary": "当前市场呈现明显的买方市场特征，多项指标指向调整期。议价空间扩大、挂牌量持续增加、中介信心下降，建议谨慎观望。",
+    "factors": {
+      "bullish": ["M2增速略有回升", "CPI温和上涨"],
+      "bearish": [
+        "二手房成交价连续下跌",
+        "库存去化周期延长至14.5个月",
+        "挂牌量持续增加已达18.2万套",
+        "议价空间扩大至6.8%",
+        "法拍房数量上升至420套",
+        "中介信心指数降至42",
+        "VIP急售房源占比升至15.5%"
+      ],
+      "neutral": ["居民杠杆率相对稳定", "偿债收入比尚在可控范围"]
+    },
+    "recommendation": "观望为主，刚需可关注核心区域议价空间>10%的优质房源，投资需谨慎。",
+    "lastAnalysis": "2026-04-09"
+  }
+}
