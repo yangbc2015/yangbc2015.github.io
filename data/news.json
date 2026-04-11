@@ -1,9 +1,21 @@
 {
   "last_updated": "2026-04-11",
-  "count": 180,
-  "history_count": 180,
+  "count": 181,
+  "history_count": 181,
   "retention_days": 30,
   "items": [
+    {
+      "title": "滴滴自动驾驶与广汽埃安联手打造的新一代Robotaxi车型R2",
+      "link": "https://www.qbitai.com/?s=滴滴自动驾驶与广汽埃",
+      "summary": "滴滴自动驾驶与广汽埃安联手打造的新一代Robotaxi车型R2...",
+      "date": "2026-04-11",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
     {
       "title": "广泛的数据是视觉推理强化学习Scaling的主要驱动力",
       "link": "https://www.qbitai.com/?s=广泛的数据是视觉推理",
@@ -53,6 +65,18 @@
       ]
     },
     {
+      "title": "*   [Latest](http://techcrunch.com/latest/)",
+      "link": "https://techcrunch.com/category/artificial-intelligence/",
+      "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
+      "date": "2026-04-11",
+      "source": "TechCrunch",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "Artificial Intelligence"
+      ]
+    },
+    {
       "title": "开源平替GitHub迅速揽获2.6k Star",
       "link": "https://www.qbitai.com/?s=开源平替GitHub",
       "summary": "开源平替GitHub迅速揽获2.6k Star...",
@@ -86,18 +110,6 @@
       "tags": [
         "AI",
         "人工智能"
-      ]
-    },
-    {
-      "title": "*   [Latest](http://techcrunch.com/latest/)",
-      "link": "https://techcrunch.com/category/artificial-intelligence/",
-      "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
-      "date": "2026-04-11",
-      "source": "TechCrunch",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "Artificial Intelligence"
       ]
     },
     {
