@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-04-11",
-  "count": 181,
-  "history_count": 181,
+  "last_updated": "2026-04-12",
+  "count": 187,
+  "history_count": 187,
   "retention_days": 30,
   "items": [
     {
       "title": "滴滴自动驾驶与广汽埃安联手打造的新一代Robotaxi车型R2",
       "link": "https://www.qbitai.com/?s=滴滴自动驾驶与广汽埃",
       "summary": "滴滴自动驾驶与广汽埃安联手打造的新一代Robotaxi车型R2...",
-      "date": "2026-04-11",
+      "date": "2026-04-12",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -20,7 +20,7 @@
       "title": "广泛的数据是视觉推理强化学习Scaling的主要驱动力",
       "link": "https://www.qbitai.com/?s=广泛的数据是视觉推理",
       "summary": "广泛的数据是视觉推理强化学习Scaling的主要驱动力...",
-      "date": "2026-04-11",
+      "date": "2026-04-12",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -32,7 +32,7 @@
       "title": "首个跑通端到端闭环，全模态安全脱敏",
       "link": "https://www.qbitai.com/?s=首个跑通端到端闭环，",
       "summary": "首个跑通端到端闭环，全模态安全脱敏...",
-      "date": "2026-04-11",
+      "date": "2026-04-12",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -44,7 +44,7 @@
       "title": "Grok 4.2总参数量0.5T",
       "link": "https://www.qbitai.com/?s=Grok 4.2总参",
       "summary": "Grok 4.2总参数量0.5T...",
-      "date": "2026-04-11",
+      "date": "2026-04-12",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -56,7 +56,7 @@
       "title": "全球首个消费级AI Agent Harness冲上热搜",
       "link": "https://www.qbitai.com/?s=全球首个消费级AI ",
       "summary": "全球首个消费级AI Agent Harness冲上热搜...",
-      "date": "2026-04-11",
+      "date": "2026-04-12",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -68,12 +68,84 @@
       "title": "*   [Latest](http://techcrunch.com/latest/)",
       "link": "https://techcrunch.com/category/artificial-intelligence/",
       "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
-      "date": "2026-04-11",
+      "date": "2026-04-12",
       "source": "TechCrunch",
       "type": "industry",
       "tags": [
         "AI",
         "Artificial Intelligence"
+      ]
+    },
+    {
+      "title": "直播预约 | 世界模型，点燃下一个AI爆点",
+      "link": "https://www.jiqizhixin.com/search/articles/直播预约 | 世界模型，点燃下",
+      "summary": "直播预约 | 世界模型，点燃下一个AI爆点...",
+      "date": "2026-04-11",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "上周「封杀」OpenClaw，这次直接「封杀」创始人？Anthropic：误会，已解封！",
+      "link": "https://www.jiqizhixin.com/search/articles/上周「封杀」OpenClaw，",
+      "summary": "上周「封杀」OpenClaw，这次直接「封杀」创始人？Anthropic：误会，已解封！...",
+      "date": "2026-04-11",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "ICRA 2026｜NUS邵林团队提出T(R,O) Grasp：刷新跨智能体灵巧抓取SOTA，实现5FPS动态环境交互",
+      "link": "https://www.jiqizhixin.com/search/articles/ICRA 2026｜NUS邵林",
+      "summary": "ICRA 2026｜NUS邵林团队提出T(R,O) Grasp：刷新跨智能体灵巧抓取SOTA，实现5FPS动态环境交互...",
+      "date": "2026-04-11",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "刷榜风波惊动OpenAI后，这家中国团队拿回Agent硬核榜单第一",
+      "link": "https://www.jiqizhixin.com/search/articles/刷榜风波惊动OpenAI后，这",
+      "summary": "刷榜风波惊动OpenAI后，这家中国团队拿回Agent硬核榜单第一...",
+      "date": "2026-04-11",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "Claude Mythos其实没那么神？AI发现bug其实早已是寻常",
+      "link": "https://www.jiqizhixin.com/search/articles/Claude Mythos其实",
+      "summary": "Claude Mythos其实没那么神？AI发现bug其实早已是寻常...",
+      "date": "2026-04-11",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "开创VLA的那帮人，正在抛弃VLA",
+      "link": "https://www.jiqizhixin.com/search/articles/开创VLA的那帮人，正在抛弃V",
+      "summary": "开创VLA的那帮人，正在抛弃VLA...",
+      "date": "2026-04-11",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
       ]
     },
     {
