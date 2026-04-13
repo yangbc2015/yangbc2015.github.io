@@ -16,6 +16,7 @@ from pathlib import Path
 # 导入爬虫模块
 from berkeley_fc_scraper import BerkeleyFunctionCallingScraper
 from news_scraper import NewsScraper
+from news_scraper_v2 import NewsScraperV2, cleanup_old_news_files
 from papers_scraper import PapersScraper
 from videos_scraper import VideosScraper
 from csdn_scraper import CSDNScraper
