@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-04-13",
-  "count": 108,
+  "count": 113,
   "items": [
     {
       "title": "[一场机器人黑客松，让 具 身 智 能 的差距与机会同时显形",
@@ -12,6 +12,86 @@
       "type": "news",
       "tags": [
         "机器人"
+      ]
+    },
+    {
+      "title": "Physics-Informed Reinforcement Learning of Spatial Density Velocity Potentials for Map-Free Racing",
+      "summary": "Autonomous racing without prebuilt maps is a grand challenge for embedded robotics that requires kinodynamic planning from instantaneous sensor data at the acceleration and tire friction limits. Out-Of-Distribution (OOD) generalization to various rac...",
+      "url": "https://arxiv.org/abs/2604.09499v1",
+      "date": "2026-04-10",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.09499v1",
+      "authors": "Shathushan Sivashangaran, Apoorva Khairnar et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Sim-to-Real Transfer for Muscle-Actuated Robots via Generalized Actuator Networks",
+      "summary": "Tendon drives paired with soft muscle actuation enable faster and safer robots while potentially accelerating skill acquisition. Still, these systems are rarely used in practice due to inherent nonlinearities, friction, and hysteresis, which complica...",
+      "url": "https://arxiv.org/abs/2604.09487v1",
+      "date": "2026-04-10",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.09487v1",
+      "authors": "Jan Schneider, Mridul Mahajan et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Incremental Semantics-Aided Meshing from LiDAR-Inertial Odometry and RGB Direct Label Transfer",
+      "summary": "Geometric high-fidelity mesh reconstruction from LiDAR-inertial scans remains challenging in large, complex indoor environments -- such as cultural buildings -- where point cloud sparsity, geometric drift, and fixed fusion parameters produce holes, o...",
+      "url": "https://arxiv.org/abs/2604.09478v1",
+      "date": "2026-04-10",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.09478v1",
+      "authors": "Muhammad Affan, Ville Lehtola et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "SafeMind: A Risk-Aware Differentiable Control Framework for Adaptive and Safe Quadruped Locomotion",
+      "summary": "Learning-based quadruped controllers achieve impressive agility but typically lack formal safety guarantees under model uncertainty, perception noise, and unstructured contact conditions. We introduce SafeMind, a differentiable stochastic safety-cont...",
+      "url": "https://arxiv.org/abs/2604.09474v1",
+      "date": "2026-04-10",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.09474v1",
+      "authors": "Zukun Zhang, Kai Shu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Adaptor: Advancing Assistive Teleoperation with Few-Shot Learning and Cross-Operator Generalization",
+      "summary": "Assistive teleoperation enhances efficiency via shared control, yet inter-operator variability, stemming from diverse habits and expertise, induces highly heterogeneous trajectory distributions that undermine intent recognition stability. We present ...",
+      "url": "https://arxiv.org/abs/2604.09462v1",
+      "date": "2026-04-10",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.09462v1",
+      "authors": "Yu Liu, Yihang Yin et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
       ]
     },
     {
@@ -37,6 +117,19 @@
       "type": "news",
       "tags": [
         "机器人"
+      ]
+    },
+    {
+      "title": "具身智能上市潮也快来了。",
+      "summary": "具身智能上市潮也快来了。",
+      "url": "http://36kr.com/p/3759245771424258",
+      "date": "2026-04-09",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
       ]
     },
     {
@@ -117,19 +210,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "具身智能上市潮也快来了。",
-      "summary": "具身智能上市潮也快来了。",
-      "url": "http://36kr.com/p/3759245771424258",
-      "date": "2026-04-09",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
       ]
     },
     {
