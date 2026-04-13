@@ -14,7 +14,7 @@ title = 'AI漫游 | AI Wander'
   description = "专注 AI 领域的研究站，汇聚学术前沿、技术博客、AI 榜单与资源导航"
   favicon = "/favicon.ico"
   # site_logo = "/logo.png"  # 使用emoji 🍀 作为logo
-  mainSections = ["nodes", "posts", "news", "papers", "tutorials", "videos", "tools", "investment", "real-estate"]
+  mainSections = ["nodes", "posts", "news", "papers", "tutorials", "videos", "tools", "investment"]
   
   # 赛博朋克主题配色
   [params.colors]
@@ -81,10 +81,6 @@ title = 'AI漫游 | AI Wander'
     name = '💰 投资'
     url = '/investment/'
     weight = 28
-  [[menu.main]]
-    name = '🏠 房地产'
-    url = '/real-estate/'
-    weight = 29
   [[menu.main]]
     name = '🔬 学术'
     url = '/papers/'
