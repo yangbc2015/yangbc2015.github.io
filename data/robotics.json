@@ -15,19 +15,6 @@
       ]
     },
     {
-      "title": "深朴智能获数亿元融资，专注具身机器人研发。",
-      "summary": "深朴智能获数亿元融资，专注具身机器人研发。",
-      "url": "http://36kr.com/p/3760467120276231",
-      "date": "2026-04-10",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
       "title": "Physics-Informed Reinforcement Learning of Spatial Density Velocity Potentials for Map-Free Racing",
       "summary": "Autonomous racing without prebuilt maps is a grand challenge for embedded robotics that requires kinodynamic planning from instantaneous sensor data at the acceleration and tire friction limits. Out-Of-Distribution (OOD) generalization to various rac...",
       "url": "https://arxiv.org/abs/2604.09499v1",
@@ -105,6 +92,19 @@
         "机器人学习",
         "研究论文",
         "arXiv"
+      ]
+    },
+    {
+      "title": "深朴智能获数亿元融资，专注具身机器人研发。",
+      "summary": "深朴智能获数亿元融资，专注具身机器人研发。",
+      "url": "http://36kr.com/p/3760467120276231",
+      "date": "2026-04-10",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
       ]
     },
     {
