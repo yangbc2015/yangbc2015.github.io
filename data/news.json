@@ -1,15 +1,159 @@
 {
-  "last_updated": "2026-04-10",
-  "count": 171,
-  "history_count": 171,
+  "last_updated": "2026-04-13",
+  "count": 188,
+  "history_count": 188,
   "retention_days": 30,
   "items": [
+    {
+      "title": "滴滴自动驾驶与广汽埃安联手打造的新一代Robotaxi车型R2",
+      "link": "https://www.qbitai.com/?s=滴滴自动驾驶与广汽埃",
+      "summary": "滴滴自动驾驶与广汽埃安联手打造的新一代Robotaxi车型R2...",
+      "date": "2026-04-13",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "10万小时数据集，00后创业灵初智能一战成名",
+      "link": "https://www.qbitai.com/?s=10万小时数据集，0",
+      "summary": "10万小时数据集，00后创业灵初智能一战成名...",
+      "date": "2026-04-13",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "广泛的数据是视觉推理强化学习Scaling的主要驱动力",
+      "link": "https://www.qbitai.com/?s=广泛的数据是视觉推理",
+      "summary": "广泛的数据是视觉推理强化学习Scaling的主要驱动力...",
+      "date": "2026-04-13",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "首个跑通端到端闭环，全模态安全脱敏",
+      "link": "https://www.qbitai.com/?s=首个跑通端到端闭环，",
+      "summary": "首个跑通端到端闭环，全模态安全脱敏...",
+      "date": "2026-04-13",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
     {
       "title": "Grok 4.2总参数量0.5T",
       "link": "https://www.qbitai.com/?s=Grok 4.2总参",
       "summary": "Grok 4.2总参数量0.5T...",
-      "date": "2026-04-10",
+      "date": "2026-04-13",
       "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "*   [Latest](http://techcrunch.com/latest/)",
+      "link": "https://techcrunch.com/category/artificial-intelligence/",
+      "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
+      "date": "2026-04-13",
+      "source": "TechCrunch",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "Artificial Intelligence"
+      ]
+    },
+    {
+      "title": "全球首个消费级AI Agent Harness冲上热搜",
+      "link": "https://www.qbitai.com/?s=全球首个消费级AI ",
+      "summary": "全球首个消费级AI Agent Harness冲上热搜...",
+      "date": "2026-04-12",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "直播预约 | 世界模型，点燃下一个AI爆点",
+      "link": "https://www.jiqizhixin.com/search/articles/直播预约 | 世界模型，点燃下",
+      "summary": "直播预约 | 世界模型，点燃下一个AI爆点...",
+      "date": "2026-04-11",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "上周「封杀」OpenClaw，这次直接「封杀」创始人？Anthropic：误会，已解封！",
+      "link": "https://www.jiqizhixin.com/search/articles/上周「封杀」OpenClaw，",
+      "summary": "上周「封杀」OpenClaw，这次直接「封杀」创始人？Anthropic：误会，已解封！...",
+      "date": "2026-04-11",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "ICRA 2026｜NUS邵林团队提出T(R,O) Grasp：刷新跨智能体灵巧抓取SOTA，实现5FPS动态环境交互",
+      "link": "https://www.jiqizhixin.com/search/articles/ICRA 2026｜NUS邵林",
+      "summary": "ICRA 2026｜NUS邵林团队提出T(R,O) Grasp：刷新跨智能体灵巧抓取SOTA，实现5FPS动态环境交互...",
+      "date": "2026-04-11",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "刷榜风波惊动OpenAI后，这家中国团队拿回Agent硬核榜单第一",
+      "link": "https://www.jiqizhixin.com/search/articles/刷榜风波惊动OpenAI后，这",
+      "summary": "刷榜风波惊动OpenAI后，这家中国团队拿回Agent硬核榜单第一...",
+      "date": "2026-04-11",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "Claude Mythos其实没那么神？AI发现bug其实早已是寻常",
+      "link": "https://www.jiqizhixin.com/search/articles/Claude Mythos其实",
+      "summary": "Claude Mythos其实没那么神？AI发现bug其实早已是寻常...",
+      "date": "2026-04-11",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "开创VLA的那帮人，正在抛弃VLA",
+      "link": "https://www.jiqizhixin.com/search/articles/开创VLA的那帮人，正在抛弃V",
+      "summary": "开创VLA的那帮人，正在抛弃VLA...",
+      "date": "2026-04-11",
+      "source": "机器之心",
       "type": "industry",
       "tags": [
         "AI",
@@ -20,7 +164,7 @@
       "title": "开源平替GitHub迅速揽获2.6k Star",
       "link": "https://www.qbitai.com/?s=开源平替GitHub",
       "summary": "开源平替GitHub迅速揽获2.6k Star...",
-      "date": "2026-04-10",
+      "date": "2026-04-11",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -32,7 +176,7 @@
       "title": "可通过OpenClaw等Agent产品一键安装",
       "link": "https://www.qbitai.com/?s=可通过OpenCla",
       "summary": "可通过OpenClaw等Agent产品一键安装...",
-      "date": "2026-04-10",
+      "date": "2026-04-11",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -44,8 +188,80 @@
       "title": "用上“记忆宫殿”，检索提升34%",
       "link": "https://www.qbitai.com/?s=用上“记忆宫殿”，检",
       "summary": "用上“记忆宫殿”，检索提升34%...",
-      "date": "2026-04-10",
+      "date": "2026-04-11",
       "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "刚刚，MiniMax新模型接管「音乐圈」！20秒出歌Cover全风格",
+      "link": "https://www.jiqizhixin.com/search/articles/刚刚，MiniMax新模型接管",
+      "summary": "刚刚，MiniMax新模型接管「音乐圈」！20秒出歌Cover全风格...",
+      "date": "2026-04-10",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "AdaGen: 让图像生成模型学会自适应策略",
+      "link": "https://www.jiqizhixin.com/search/articles/AdaGen: 让图像生成模型",
+      "summary": "AdaGen: 让图像生成模型学会自适应策略...",
+      "date": "2026-04-10",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "Generalist爆火背后：具身智能真正的竞争，已不在模型",
+      "link": "https://www.jiqizhixin.com/search/articles/Generalist爆火背后：",
+      "summary": "Generalist爆火背后：具身智能真正的竞争，已不在模型...",
+      "date": "2026-04-10",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "龙虾连Gemma 4，只需三步，谷歌官方教程出炉，不再花钱买token",
+      "link": "https://www.jiqizhixin.com/search/articles/龙虾连Gemma 4，只需三步",
+      "summary": "龙虾连Gemma 4，只需三步，谷歌官方教程出炉，不再花钱买token...",
+      "date": "2026-04-10",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "CVPR 2026 | 20步也能稳住画质，这个扩散加速方法不一样",
+      "link": "https://www.jiqizhixin.com/search/articles/CVPR 2026 | 20步",
+      "summary": "CVPR 2026 | 20步也能稳住画质，这个扩散加速方法不一样...",
+      "date": "2026-04-10",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "豆包APP实时语音通话升级全双工模型 抗干扰与低时延能力提升",
+      "link": "https://www.jiqizhixin.com/search/articles/豆包APP实时语音通话升级全双",
+      "summary": "豆包APP实时语音通话升级全双工模型 抗干扰与低时延能力提升...",
+      "date": "2026-04-10",
+      "source": "机器之心",
       "type": "industry",
       "tags": [
         "AI",
@@ -86,18 +302,6 @@
       "tags": [
         "AI",
         "人工智能"
-      ]
-    },
-    {
-      "title": "*   [Latest](http://techcrunch.com/latest/)",
-      "link": "https://techcrunch.com/category/artificial-intelligence/",
-      "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
-      "date": "2026-04-10",
-      "source": "TechCrunch",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "Artificial Intelligence"
       ]
     },
     {
