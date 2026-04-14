@@ -5,6 +5,18 @@
   "retention_days": 30,
   "items": [
     {
+      "title": "首创“养虾本”，荣耀AI PC迈入3.0时代",
+      "link": "https://www.qbitai.com/?s=首创“养虾本”，荣耀",
+      "summary": "首创“养虾本”，荣耀AI PC迈入3.0时代...",
+      "date": "2026-04-14",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
       "title": "推进人工智能人才培养和应用创新，统筹谋划基础环境和创新生态建设，系统构建智能时代的教育体系。",
       "link": "https://www.qbitai.com/?s=推进人工智能人才培养",
       "summary": "推进人工智能人才培养和应用创新，统筹谋划基础环境和创新生态建设，系统构建智能时代的教育体系。...",
@@ -53,6 +65,18 @@
       ]
     },
     {
+      "title": "*   [Latest](http://techcrunch.com/latest/)",
+      "link": "https://techcrunch.com/category/artificial-intelligence/",
+      "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
+      "date": "2026-04-14",
+      "source": "TechCrunch",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "Artificial Intelligence"
+      ]
+    },
+    {
       "title": "可能是最有想象力的灵巧手公司之一",
       "link": "https://www.qbitai.com/?s=可能是最有想象力的灵",
       "summary": "可能是最有想象力的灵巧手公司之一...",
@@ -86,18 +110,6 @@
       "tags": [
         "AI",
         "人工智能"
-      ]
-    },
-    {
-      "title": "*   [Latest](http://techcrunch.com/latest/)",
-      "link": "https://techcrunch.com/category/artificial-intelligence/",
-      "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
-      "date": "2026-04-14",
-      "source": "TechCrunch",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "Artificial Intelligence"
       ]
     },
     {
@@ -2466,19 +2478,6 @@
         "Claude"
       ],
       "fetched_at": "2026-03-24T09:00:06.363455+00:00"
-    },
-    {
-      "title": "龙虾史上最大升级！但接了微信的千万别更",
-      "link": "https://www.qbitai.com/2026/03/391520.html",
-      "summary": "微信和WhatsApp双双断连",
-      "source": "量子位",
-      "date": "2026-03-24",
-      "type": "product",
-      "tags": [
-        "产品发布",
-        "AI"
-      ],
-      "fetched_at": "2026-03-24T09:00:06.363612+00:00"
     }
   ]
 }
