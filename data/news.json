@@ -1,9 +1,33 @@
 {
   "last_updated": "2026-04-14",
-  "count": 199,
-  "history_count": 199,
+  "count": 200,
+  "history_count": 201,
   "retention_days": 30,
   "items": [
+    {
+      "title": "推进人工智能人才培养和应用创新，统筹谋划基础环境和创新生态建设，系统构建智能时代的教育体系。",
+      "link": "https://www.qbitai.com/?s=推进人工智能人才培养",
+      "summary": "推进人工智能人才培养和应用创新，统筹谋划基础环境和创新生态建设，系统构建智能时代的教育体系。...",
+      "date": "2026-04-14",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "手机电脑全打通，随时随地大白话改表格",
+      "link": "https://www.qbitai.com/?s=手机电脑全打通，随时",
+      "summary": "手机电脑全打通，随时随地大白话改表格...",
+      "date": "2026-04-14",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
     {
       "title": "支持从对话直接生成、编辑Excel文件",
       "link": "https://www.qbitai.com/?s=支持从对话直接生成、",
@@ -2455,19 +2479,6 @@
         "AI"
       ],
       "fetched_at": "2026-03-24T09:00:06.363612+00:00"
-    },
-    {
-      "title": "陶哲轩：我差点江郎才尽，只因在普林斯顿待了一年",
-      "link": "https://www.qbitai.com/2026/03/391515.html",
-      "summary": "“故事”是科学里永远属于人类的一面",
-      "source": "量子位",
-      "date": "2026-03-23",
-      "type": "industry",
-      "tags": [
-        "行业动态",
-        "AI"
-      ],
-      "fetched_at": "2026-03-24T07:36:42.240103+00:00"
     }
   ]
 }
