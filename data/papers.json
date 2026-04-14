@@ -3,66 +3,65 @@
   "count": 7,
   "items": [
     {
-      "title": "Large Language Models Generate Harmful Content Using a Distinct, Unified Mechanism",
-      "authors": "Hadas Orgad, Boyi Wei, Kaden Zheng et al.",
-      "abstract": "Large language models (LLMs) undergo alignment training to avoid harmful behaviors, yet the resulting safeguards remain brittle: jailbreaks routinely bypass them, and fine-tuning on narrow domains can induce ``emergent misalignment'' that generalizes broadly. Whether this brittleness reflects a fund...",
+      "title": "Physics-Informed State Space Models for Reliable Solar Irradiance Forecasting in Off-Grid Systems",
+      "authors": "Mohammed Ezzaldin Babiker Abdullah",
+      "abstract": "The stable operation of autonomous off-grid photovoltaic systems dictates reliance on solar forecasting algorithms that respect atmospheric thermodynamics. Contemporary deep learning models consistently exhibit critical anomalies, primarily severe temporal phase lags during cloud transients and phys...",
       "venue": "arXiv",
-      "date": "2026-04-10",
-      "arxiv_id": "2604.09544v1",
-      "url": "https://arxiv.org/abs/2604.09544v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.09544v1.pdf",
+      "date": "2026-04-13",
+      "arxiv_id": "2604.11807v1",
+      "url": "https://arxiv.org/abs/2604.11807v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.11807v1.pdf",
       "categories": [
-        "cs.CL",
+        "cs.LG",
         "cs.AI",
-        "cs.LG"
+        "eess.SY"
       ],
-      "type": "nlp",
+      "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Case-Grounded Evidence Verification: A Framework for Constructing Evidence-Sensitive Supervision",
-      "authors": "Soroosh Tayebi Arasteh, Mehdi Joodaki, Mahshad Lotfinia et al.",
-      "abstract": "Evidence-grounded reasoning requires more than attaching retrieved text to a prediction: a model should make decisions that depend on whether the provided evidence supports the target claim. In practice, this often fails because supervision is weak, evidence is only loosely tied to the claim, and ev...",
+      "title": "Detecting Safety Violations Across Many Agent Traces",
+      "authors": "Adam Stein, Davis Brown, Hamed Hassani et al.",
+      "abstract": "To identify safety violations, auditors often search over large sets of agent traces. This search is difficult because failures are often rare, complex, and sometimes even adversarially hidden and only detectable when multiple traces are analyzed together. These challenges arise in diverse settings ...",
       "venue": "arXiv",
-      "date": "2026-04-10",
-      "arxiv_id": "2604.09537v1",
-      "url": "https://arxiv.org/abs/2604.09537v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.09537v1.pdf",
+      "date": "2026-04-13",
+      "arxiv_id": "2604.11806v1",
+      "url": "https://arxiv.org/abs/2604.11806v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.11806v1.pdf",
       "categories": [
-        "cs.CL",
         "cs.AI",
-        "cs.IR"
+        "cs.CL"
       ],
       "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Tango: Taming Visual Signals for Efficient Video Large Language Models",
-      "authors": "Shukang Yin, Sirui Zhao, Hanchao Wang et al.",
-      "abstract": "Token pruning has emerged as a mainstream approach for developing efficient Video Large Language Models (Video LLMs). This work revisits and advances the two predominant token-pruning paradigms: attention-based selection and similarity-based clustering. Our study reveals two critical limitations in ...",
+      "title": "Saar-Voice: A Multi-Speaker Saarbrücken Dialect Speech Corpus",
+      "authors": "Lena S. Oberkircher, Jesujoba O. Alabi, Dietrich Klakow et al.",
+      "abstract": "Natural language processing (NLP) and speech technologies have made significant progress in recent years; however, they remain largely focused on standardized language varieties. Dialects, despite their cultural significance and widespread use, are underrepresented in linguistic resources and comput...",
       "venue": "arXiv",
-      "date": "2026-04-10",
-      "arxiv_id": "2604.09547v1",
-      "url": "https://arxiv.org/abs/2604.09547v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.09547v1.pdf",
+      "date": "2026-04-13",
+      "arxiv_id": "2604.11803v1",
+      "url": "https://arxiv.org/abs/2604.11803v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.11803v1.pdf",
       "categories": [
-        "cs.CV"
+        "cs.CL"
       ],
       "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "EgoTL: Egocentric Think-Aloud Chains for Long-Horizon Tasks",
-      "authors": "Lulin Liu, Dayou Li, Yiqing Liang et al.",
-      "abstract": "Large foundation models have made significant advances in embodied intelligence, enabling synthesis and reasoning over egocentric input for household tasks. However, VLM-based auto-labeling is often noisy because the primary data sources lack accurate human action labels, chain-of-thought (CoT), and...",
+      "title": "Who Handles Orientation? Investigating Invariance in Feature Matching",
+      "authors": "David Nordström, Johan Edstedt, Fredrik Kahl et al.",
+      "abstract": "Finding matching keypoints between images is a core problem in 3D computer vision. However, modern matchers struggle with large in-plane rotations. A straightforward mitigation is to learn rotation invariance via data augmentation. However, it remains unclear at which stage rotation invariance shoul...",
       "venue": "arXiv",
-      "date": "2026-04-10",
-      "arxiv_id": "2604.09535v1",
-      "url": "https://arxiv.org/abs/2604.09535v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.09535v1.pdf",
+      "date": "2026-04-13",
+      "arxiv_id": "2604.11809v1",
+      "url": "https://arxiv.org/abs/2604.11809v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.11809v1.pdf",
       "categories": [
         "cs.CV"
       ],
@@ -71,51 +70,52 @@
       "source": "arXiv"
     },
     {
-      "title": "ANTIC: Adaptive Neural Temporal In-situ Compressor",
-      "authors": "Sandeep S. Cranganore, Andrei Bodnar, Gianluca Galleti et al.",
-      "abstract": "The persistent storage requirements for high-resolution, spatiotemporally evolving fields governed by large-scale and high-dimensional partial differential equations (PDEs) have reached the petabyte-to-exabyte scale. Transient simulations modeling Navier-Stokes equations, magnetohydrodynamics, plasm...",
+      "title": "Pair2Scene: Learning Local Object Relations for Procedural Scene Generation",
+      "authors": "Xingjian Ran, Shujie Zhang, Weipeng Zhong et al.",
+      "abstract": "Generating high-fidelity 3D indoor scenes remains a significant challenge due to data scarcity and the complexity of modeling intricate spatial relations. Current methods often struggle to scale beyond training distribution to dense scenes or rely on LLMs/VLMs that lack the ability for precise spati...",
       "venue": "arXiv",
-      "date": "2026-04-10",
-      "arxiv_id": "2604.09543v1",
-      "url": "https://arxiv.org/abs/2604.09543v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.09543v1.pdf",
+      "date": "2026-04-13",
+      "arxiv_id": "2604.11808v1",
+      "url": "https://arxiv.org/abs/2604.11808v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.11808v1.pdf",
       "categories": [
-        "cs.LG"
+        "cs.CV"
       ],
-      "type": "ml",
+      "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Physics-Informed Reinforcement Learning of Spatial Density Velocity Potentials for Map-Free Racing",
-      "authors": "Shathushan Sivashangaran, Apoorva Khairnar, Sepideh Gohari et al.",
-      "abstract": "Autonomous racing without prebuilt maps is a grand challenge for embedded robotics that requires kinodynamic planning from instantaneous sensor data at the acceleration and tire friction limits. Out-Of-Distribution (OOD) generalization to various racetrack configurations utilizes Machine Learning (M...",
+      "title": "Solving Physics Olympiad via Reinforcement Learning on Physics Simulators",
+      "authors": "Mihir Prabhudesai, Aryan Satpathy, Yangmin Li et al.",
+      "abstract": "We have witnessed remarkable advances in LLM reasoning capabilities with the advent of DeepSeek-R1. However, much of this progress has been fueled by the abundance of internet question-answer (QA) pairs, a major bottleneck going forward, since such data is limited in scale and concentrated mainly in...",
       "venue": "arXiv",
-      "date": "2026-04-10",
-      "arxiv_id": "2604.09499v1",
-      "url": "https://arxiv.org/abs/2604.09499v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.09499v1.pdf",
+      "date": "2026-04-13",
+      "arxiv_id": "2604.11805v1",
+      "url": "https://arxiv.org/abs/2604.11805v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.11805v1.pdf",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Disentangled Point Diffusion for Precise Object Placement",
+      "authors": "Lyuxing He, Eric Cai, Shobhit Aggarwal et al.",
+      "abstract": "Recent advances in robotic manipulation have highlighted the effectiveness of learning from demonstration. However, while end-to-end policies excel in expressivity and flexibility, they struggle both in generalizing to novel object geometries and in attaining a high degree of precision. An alternati...",
+      "venue": "arXiv",
+      "date": "2026-04-13",
+      "arxiv_id": "2604.11793v1",
+      "url": "https://arxiv.org/abs/2604.11793v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.11793v1.pdf",
       "categories": [
         "cs.RO"
       ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Sim-to-Real Transfer for Muscle-Actuated Robots via Generalized Actuator Networks",
-      "authors": "Jan Schneider, Mridul Mahajan, Le Chen et al.",
-      "abstract": "Tendon drives paired with soft muscle actuation enable faster and safer robots while potentially accelerating skill acquisition. Still, these systems are rarely used in practice due to inherent nonlinearities, friction, and hysteresis, which complicate modeling and control. So far, these challenges ...",
-      "venue": "arXiv",
-      "date": "2026-04-10",
-      "arxiv_id": "2604.09487v1",
-      "url": "https://arxiv.org/abs/2604.09487v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.09487v1.pdf",
-      "categories": [
-        "cs.RO",
-        "cs.LG"
-      ],
-      "type": "ml",
+      "type": "ai",
       "badge": "arxiv",
       "source": "arXiv"
     }

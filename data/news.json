@@ -1,9 +1,21 @@
 {
   "last_updated": "2026-04-14",
-  "count": 198,
-  "history_count": 198,
+  "count": 199,
+  "history_count": 199,
   "retention_days": 30,
   "items": [
+    {
+      "title": "支持从对话直接生成、编辑Excel文件",
+      "link": "https://www.qbitai.com/?s=支持从对话直接生成、",
+      "summary": "支持从对话直接生成、编辑Excel文件...",
+      "date": "2026-04-14",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
     {
       "title": "概念来自字节Seed团队与多个高校合作的一篇论文，Yoshua Bengio也参与其中",
       "link": "https://www.qbitai.com/?s=概念来自字节Seed",
@@ -53,18 +65,6 @@
       ]
     },
     {
-      "title": "广泛的数据是视觉推理强化学习Scaling的主要驱动力",
-      "link": "https://www.qbitai.com/?s=广泛的数据是视觉推理",
-      "summary": "广泛的数据是视觉推理强化学习Scaling的主要驱动力...",
-      "date": "2026-04-14",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
       "title": "*   [Latest](http://techcrunch.com/latest/)",
       "link": "https://techcrunch.com/category/artificial-intelligence/",
       "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
@@ -74,6 +74,18 @@
       "tags": [
         "AI",
         "Artificial Intelligence"
+      ]
+    },
+    {
+      "title": "广泛的数据是视觉推理强化学习Scaling的主要驱动力",
+      "link": "https://www.qbitai.com/?s=广泛的数据是视觉推理",
+      "summary": "广泛的数据是视觉推理强化学习Scaling的主要驱动力...",
+      "date": "2026-04-14",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
       ]
     },
     {

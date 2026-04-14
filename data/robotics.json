@@ -1,7 +1,87 @@
 {
   "last_updated": "2026-04-14",
-  "count": 113,
+  "count": 118,
   "items": [
+    {
+      "title": "Solving Physics Olympiad via Reinforcement Learning on Physics Simulators",
+      "summary": "We have witnessed remarkable advances in LLM reasoning capabilities with the advent of DeepSeek-R1. However, much of this progress has been fueled by the abundance of internet question-answer (QA) pairs, a major bottleneck going forward, since such d...",
+      "url": "https://arxiv.org/abs/2604.11805v1",
+      "date": "2026-04-13",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.11805v1",
+      "authors": "Mihir Prabhudesai, Aryan Satpathy et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Disentangled Point Diffusion for Precise Object Placement",
+      "summary": "Recent advances in robotic manipulation have highlighted the effectiveness of learning from demonstration. However, while end-to-end policies excel in expressivity and flexibility, they struggle both in generalizing to novel object geometries and in ...",
+      "url": "https://arxiv.org/abs/2604.11793v1",
+      "date": "2026-04-13",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.11793v1",
+      "authors": "Lyuxing He, Eric Cai et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Identifying Inductive Biases for Robot Co-Design",
+      "summary": "Co-designing a robot's morphology and control can ensure synergistic interactions between them, prevalent in biological organisms. However, co-design is a high-dimensional search problem. To make this search tractable, we need a systematic method for...",
+      "url": "https://arxiv.org/abs/2604.11768v1",
+      "date": "2026-04-13",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.11768v1",
+      "authors": "Apoorv Vaish, Oliver Brock",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "StarVLA-$α$: Reducing Complexity in Vision-Language-Action Systems",
+      "summary": "Vision-Language-Action (VLA) models have recently emerged as a promising paradigm for building general-purpose robotic agents. However, the VLA landscape remains highly fragmented and complex: as existing approaches vary substantially in architecture...",
+      "url": "https://arxiv.org/abs/2604.11757v1",
+      "date": "2026-04-13",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.11757v1",
+      "authors": "Jinhui Ye, Ning Gao et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Angle-based Localization and Rigidity Maintenance Control for Multi-Robot Networks",
+      "summary": "In this work, we study angle-based localization and rigidity maintenance control for multi-robot networks under sensing constraints. We establish the first equivalence between angle rigidity and bearing rigidity considering \\textit{directed} sensing ...",
+      "url": "https://arxiv.org/abs/2604.11754v1",
+      "date": "2026-04-13",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.11754v1",
+      "authors": "J. Francisco Presenza, Leonardo J. Colombo et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
     {
       "title": "[一场机器人黑客松，让 具 身 智 能 的差距与机会同时显形",
       "summary": "[一场机器人黑客松，让 具 身 智 能 的差距与机会同时显形",
@@ -12,6 +92,19 @@
       "type": "news",
       "tags": [
         "机器人"
+      ]
+    },
+    {
+      "title": "深朴智能获数亿元融资，专注具身机器人研发。",
+      "summary": "深朴智能获数亿元融资，专注具身机器人研发。",
+      "url": "http://36kr.com/p/3760467120276231",
+      "date": "2026-04-10",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
       ]
     },
     {
@@ -92,19 +185,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "深朴智能获数亿元融资，专注具身机器人研发。",
-      "summary": "深朴智能获数亿元融资，专注具身机器人研发。",
-      "url": "http://36kr.com/p/3760467120276231",
-      "date": "2026-04-10",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
       ]
     },
     {
