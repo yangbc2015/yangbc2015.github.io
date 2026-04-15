@@ -1,7 +1,31 @@
 {
   "last_updated": "2026-04-15",
-  "count": 123,
+  "count": 125,
   "items": [
+    {
+      "title": "[具 身 智 能 走向规模化的关键：左星星解读“让机器人读懂空间”",
+      "summary": "[具 身 智 能 走向规模化的关键：左星星解读“让机器人读懂空间”",
+      "url": "http://36kr.com/p/3767534639760131",
+      "date": "2026-04-15",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
+      "title": "[又一 具 身 智 能 企业入住港股，全链条机器人企业为何扎堆赴港？",
+      "summary": "[又一 具 身 智 能 企业入住港股，全链条机器人企业为何扎堆赴港？",
+      "url": "http://36kr.com/p/3767334565987077",
+      "date": "2026-04-15",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
     {
       "title": "Learning Versatile Humanoid Manipulation with Touch Dreaming",
       "summary": "Humanoid robots promise general-purpose assistance, yet real-world humanoid loco-manipulation remains challenging because it requires whole-body stability, dexterous hands, and contact-aware perception under frequent contact changes. In this work, we...",
