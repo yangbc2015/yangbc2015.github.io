@@ -1,7 +1,87 @@
 {
   "last_updated": "2026-04-15",
-  "count": 118,
+  "count": 123,
   "items": [
+    {
+      "title": "Learning Versatile Humanoid Manipulation with Touch Dreaming",
+      "summary": "Humanoid robots promise general-purpose assistance, yet real-world humanoid loco-manipulation remains challenging because it requires whole-body stability, dexterous hands, and contact-aware perception under frequent contact changes. In this work, we...",
+      "url": "https://arxiv.org/abs/2604.13015v1",
+      "date": "2026-04-14",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.13015v1",
+      "authors": "Yaru Niu, Zhenlong Fang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "XRZero-G0: Pushing the Frontier of Dexterous Robotic Manipulation with Interfaces, Quality and Ratios",
+      "summary": "The acquisition of high-quality, action-aligned demonstration data remains a fundamental bottleneck in scaling foundation models for dexterous robot manipulation. Although robot-free human demonstrations (e.g., the UMI paradigm) offer a scalable alte...",
+      "url": "https://arxiv.org/abs/2604.13001v1",
+      "date": "2026-04-14",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.13001v1",
+      "authors": "Junming Wang, Teng Pu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "RMGS-SLAM: Real-time Multi-sensor Gaussian Splatting SLAM",
+      "summary": "Real-time 3D Gaussian splatting (3DGS)-based Simultaneous Localization and Mapping (SLAM) in large-scale real-world environments remains challenging, as existing methods often struggle to jointly achieve low-latency pose estimation, 3D Gaussian recon...",
+      "url": "https://arxiv.org/abs/2604.12942v1",
+      "date": "2026-04-14",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.12942v1",
+      "authors": "Dongen Li, Yi Liu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "DINO-Explorer: Active Underwater Discovery via Ego-Motion Compensated Semantic Predictive Coding",
+      "summary": "Marine ecosystem degradation necessitates continuous, scientifically selective underwater monitoring. However, most autonomous underwater vehicles (AUVs) operate as passive data loggers, capturing exhaustive video for offline review and frequently mi...",
+      "url": "https://arxiv.org/abs/2604.12933v1",
+      "date": "2026-04-14",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.12933v1",
+      "authors": "Yuhan Jin, Nayari Marie Lessa et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "E2E-Fly: An Integrated Training-to-Deployment System for End-to-End Quadrotor Autonomy",
+      "summary": "Training and transferring learning-based policies for quadrotors from simulation to reality remains challenging due to inefficient visual rendering, physical modeling inaccuracies, unmodeled sensor discrepancies, and the absence of a unified platform...",
+      "url": "https://arxiv.org/abs/2604.12916v1",
+      "date": "2026-04-14",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.12916v1",
+      "authors": "Fangyu Sun, Fanxing Li et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
     {
       "title": "Solving Physics Olympiad via Reinforcement Learning on Physics Simulators",
       "summary": "We have witnessed remarkable advances in LLM reasoning capabilities with the advent of DeepSeek-R1. However, much of this progress has been fueled by the abundance of internet question-answer (QA) pairs, a major bottleneck going forward, since such d...",

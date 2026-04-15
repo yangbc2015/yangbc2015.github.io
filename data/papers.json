@@ -1,117 +1,150 @@
 {
   "last_updated": "2026-04-15",
-  "count": 7,
+  "count": 9,
   "items": [
     {
-      "title": "Physics-Informed State Space Models for Reliable Solar Irradiance Forecasting in Off-Grid Systems",
-      "authors": "Mohammed Ezzaldin Babiker Abdullah",
-      "abstract": "The stable operation of autonomous off-grid photovoltaic systems dictates reliance on solar forecasting algorithms that respect atmospheric thermodynamics. Contemporary deep learning models consistently exhibit critical anomalies, primarily severe temporal phase lags during cloud transients and phys...",
+      "title": "Visual Preference Optimization with Rubric Rewards",
+      "authors": "Ya-Qi Yu, Fangyu Hong, Xiangyang Qu et al.",
+      "abstract": "The effectiveness of Direct Preference Optimization (DPO) depends on preference data that reflect the quality differences that matter in multimodal tasks. Existing pipelines often rely on off-policy perturbations or coarse outcome-based signals, which are not well suited to fine-grained visual reaso...",
       "venue": "arXiv",
-      "date": "2026-04-13",
-      "arxiv_id": "2604.11807v1",
-      "url": "https://arxiv.org/abs/2604.11807v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.11807v1.pdf",
+      "date": "2026-04-14",
+      "arxiv_id": "2604.13029v1",
+      "url": "https://arxiv.org/abs/2604.13029v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.13029v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Representation geometry shapes task performance in vision-language modeling for CT enterography",
+      "authors": "Cristian Minoccheri, Emily Wittrup, Kayvan Najarian et al.",
+      "abstract": "Computed tomography (CT) enterography is a primary imaging modality for assessing inflammatory bowel disease (IBD), yet the representational choices that best support automated analysis of this modality are unknown. We present the first study of vision-language transfer learning on abdominal CT ente...",
+      "venue": "arXiv",
+      "date": "2026-04-14",
+      "arxiv_id": "2604.13021v1",
+      "url": "https://arxiv.org/abs/2604.13021v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.13021v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "SceneCritic: A Symbolic Evaluator for 3D Indoor Scene Synthesis",
+      "authors": "Kathakoli Sengupta, Kai Ao, Paola Cascante-Bonilla",
+      "abstract": "Large Language Models (LLMs) and Vision-Language Models (VLMs) increasingly generate indoor scenes through intermediate structures such as layouts and scene graphs, yet evaluation still relies on LLM or VLM judges that score rendered views, making judgments sensitive to viewpoint, prompt phrasing, a...",
+      "venue": "arXiv",
+      "date": "2026-04-14",
+      "arxiv_id": "2604.13035v1",
+      "url": "https://arxiv.org/abs/2604.13035v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.13035v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.CL"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Toward Autonomous Long-Horizon Engineering for ML Research",
+      "authors": "Guoxin Chen, Jie Chen, Lei Chen et al.",
+      "abstract": "Autonomous AI research has advanced rapidly, but long-horizon ML research engineering remains difficult: agents must sustain coherent progress across task comprehension, environment setup, implementation, experimentation, and debugging over hours or days. We introduce AiScientist, a system for auton...",
+      "venue": "arXiv",
+      "date": "2026-04-14",
+      "arxiv_id": "2604.13018v1",
+      "url": "https://arxiv.org/abs/2604.13018v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.13018v1.pdf",
+      "categories": [
+        "cs.CL"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Lyra 2.0: Explorable Generative 3D Worlds",
+      "authors": "Tianchang Shen, Sherwin Bahmani, Kai He et al.",
+      "abstract": "Recent advances in video generation enable a new paradigm for 3D scene creation: generating camera-controlled videos that simulate scene walkthroughs, then lifting them to 3D via feed-forward reconstruction techniques. This generative reconstruction approach combines the visual fidelity and creative...",
+      "venue": "arXiv",
+      "date": "2026-04-14",
+      "arxiv_id": "2604.13036v1",
+      "url": "https://arxiv.org/abs/2604.13036v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.13036v1.pdf",
+      "categories": [
+        "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "CLAD: Efficient Log Anomaly Detection Directly on Compressed Representations",
+      "authors": "Benzhao Tang, Shiyu Yang",
+      "abstract": "The explosive growth of system logs makes streaming compression essential, yet existing log anomaly detection (LAD) methods incur severe pre-processing overhead by requiring full decompression and parsing. We introduce CLAD, the first deep learning framework to perform LAD directly on compressed byt...",
+      "venue": "arXiv",
+      "date": "2026-04-14",
+      "arxiv_id": "2604.13024v1",
+      "url": "https://arxiv.org/abs/2604.13024v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.13024v1.pdf",
       "categories": [
         "cs.LG",
-        "cs.AI",
-        "eess.SY"
+        "cs.DB"
       ],
       "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Detecting Safety Violations Across Many Agent Traces",
-      "authors": "Adam Stein, Davis Brown, Hamed Hassani et al.",
-      "abstract": "To identify safety violations, auditors often search over large sets of agent traces. This search is difficult because failures are often rare, complex, and sometimes even adversarially hidden and only detectable when multiple traces are analyzed together. These challenges arise in diverse settings ...",
+      "title": "Classical and Quantum Speedups for Non-Convex Optimization via Energy Conserving Descent",
+      "authors": "Yihang Sun, Huaijin Wang, Patrick Hayden et al.",
+      "abstract": "The Energy Conserving Descent (ECD) algorithm was recently proposed (De Luca & Silverstein, 2022) as a global non-convex optimization method. Unlike gradient descent, appropriately configured ECD dynamics escape strict local minima and converge to a global minimum, making it appealing for machine le...",
       "venue": "arXiv",
-      "date": "2026-04-13",
-      "arxiv_id": "2604.11806v1",
-      "url": "https://arxiv.org/abs/2604.11806v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.11806v1.pdf",
+      "date": "2026-04-14",
+      "arxiv_id": "2604.13022v1",
+      "url": "https://arxiv.org/abs/2604.13022v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.13022v1.pdf",
       "categories": [
-        "cs.AI",
-        "cs.CL"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Saar-Voice: A Multi-Speaker Saarbrücken Dialect Speech Corpus",
-      "authors": "Lena S. Oberkircher, Jesujoba O. Alabi, Dietrich Klakow et al.",
-      "abstract": "Natural language processing (NLP) and speech technologies have made significant progress in recent years; however, they remain largely focused on standardized language varieties. Dialects, despite their cultural significance and widespread use, are underrepresented in linguistic resources and comput...",
-      "venue": "arXiv",
-      "date": "2026-04-13",
-      "arxiv_id": "2604.11803v1",
-      "url": "https://arxiv.org/abs/2604.11803v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.11803v1.pdf",
-      "categories": [
-        "cs.CL"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Who Handles Orientation? Investigating Invariance in Feature Matching",
-      "authors": "David Nordström, Johan Edstedt, Fredrik Kahl et al.",
-      "abstract": "Finding matching keypoints between images is a core problem in 3D computer vision. However, modern matchers struggle with large in-plane rotations. A straightforward mitigation is to learn rotation invariance via data augmentation. However, it remains unclear at which stage rotation invariance shoul...",
-      "venue": "arXiv",
-      "date": "2026-04-13",
-      "arxiv_id": "2604.11809v1",
-      "url": "https://arxiv.org/abs/2604.11809v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.11809v1.pdf",
-      "categories": [
-        "cs.CV"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Pair2Scene: Learning Local Object Relations for Procedural Scene Generation",
-      "authors": "Xingjian Ran, Shujie Zhang, Weipeng Zhong et al.",
-      "abstract": "Generating high-fidelity 3D indoor scenes remains a significant challenge due to data scarcity and the complexity of modeling intricate spatial relations. Current methods often struggle to scale beyond training distribution to dense scenes or rely on LLMs/VLMs that lack the ability for precise spati...",
-      "venue": "arXiv",
-      "date": "2026-04-13",
-      "arxiv_id": "2604.11808v1",
-      "url": "https://arxiv.org/abs/2604.11808v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.11808v1.pdf",
-      "categories": [
-        "cs.CV"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Solving Physics Olympiad via Reinforcement Learning on Physics Simulators",
-      "authors": "Mihir Prabhudesai, Aryan Satpathy, Yangmin Li et al.",
-      "abstract": "We have witnessed remarkable advances in LLM reasoning capabilities with the advent of DeepSeek-R1. However, much of this progress has been fueled by the abundance of internet question-answer (QA) pairs, a major bottleneck going forward, since such data is limited in scale and concentrated mainly in...",
-      "venue": "arXiv",
-      "date": "2026-04-13",
-      "arxiv_id": "2604.11805v1",
-      "url": "https://arxiv.org/abs/2604.11805v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.11805v1.pdf",
-      "categories": [
+        "quant-ph",
         "cs.LG",
-        "cs.AI",
-        "cs.CV"
+        "math.OC"
       ],
-      "type": "vision",
+      "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Disentangled Point Diffusion for Precise Object Placement",
-      "authors": "Lyuxing He, Eric Cai, Shobhit Aggarwal et al.",
-      "abstract": "Recent advances in robotic manipulation have highlighted the effectiveness of learning from demonstration. However, while end-to-end policies excel in expressivity and flexibility, they struggle both in generalizing to novel object geometries and in attaining a high degree of precision. An alternati...",
+      "title": "Learning Versatile Humanoid Manipulation with Touch Dreaming",
+      "authors": "Yaru Niu, Zhenlong Fang, Binghong Chen et al.",
+      "abstract": "Humanoid robots promise general-purpose assistance, yet real-world humanoid loco-manipulation remains challenging because it requires whole-body stability, dexterous hands, and contact-aware perception under frequent contact changes. In this work, we study dexterous, contact-rich humanoid loco-manip...",
       "venue": "arXiv",
-      "date": "2026-04-13",
-      "arxiv_id": "2604.11793v1",
-      "url": "https://arxiv.org/abs/2604.11793v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.11793v1.pdf",
+      "date": "2026-04-14",
+      "arxiv_id": "2604.13015v1",
+      "url": "https://arxiv.org/abs/2604.13015v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.13015v1.pdf",
+      "categories": [
+        "cs.RO"
+      ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "XRZero-G0: Pushing the Frontier of Dexterous Robotic Manipulation with Interfaces, Quality and Ratios",
+      "authors": "Junming Wang, Teng Pu, Wingmun Fung et al.",
+      "abstract": "The acquisition of high-quality, action-aligned demonstration data remains a fundamental bottleneck in scaling foundation models for dexterous robot manipulation. Although robot-free human demonstrations (e.g., the UMI paradigm) offer a scalable alternative to traditional teleoperation, current syst...",
+      "venue": "arXiv",
+      "date": "2026-04-14",
+      "arxiv_id": "2604.13001v1",
+      "url": "https://arxiv.org/abs/2604.13001v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.13001v1.pdf",
       "categories": [
         "cs.RO"
       ],
