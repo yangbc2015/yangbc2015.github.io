@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-04-15",
+  "last_updated": "2026-04-16",
   "count": 200,
-  "history_count": 200,
+  "history_count": 206,
   "retention_days": 30,
   "items": [
     {
       "title": "一次性获取百度智能云的全栈技术图谱",
       "link": "https://www.qbitai.com/?s=一次性获取百度智能云",
       "summary": "一次性获取百度智能云的全栈技术图谱...",
-      "date": "2026-04-15",
+      "date": "2026-04-16",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -20,7 +20,7 @@
       "title": "立足全球AI创新核心趋势，筑牢国芯AI发展根基",
       "link": "https://www.qbitai.com/?s=立足全球AI创新核心",
       "summary": "立足全球AI创新核心趋势，筑牢国芯AI发展根基...",
-      "date": "2026-04-15",
+      "date": "2026-04-16",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -32,7 +32,7 @@
       "title": "以智算为支撑，开启校企协同新篇章",
       "link": "https://www.qbitai.com/?s=以智算为支撑，开启校",
       "summary": "以智算为支撑，开启校企协同新篇章...",
-      "date": "2026-04-15",
+      "date": "2026-04-16",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -44,7 +44,7 @@
       "title": "“AI会是量子计算机的操作系统”",
       "link": "https://www.qbitai.com/?s=“AI会是量子计算机",
       "summary": "“AI会是量子计算机的操作系统”...",
-      "date": "2026-04-15",
+      "date": "2026-04-16",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -56,7 +56,7 @@
       "title": "Anthropic年化收入掺水80亿",
       "link": "https://www.qbitai.com/?s=Anthropic年",
       "summary": "Anthropic年化收入掺水80亿...",
-      "date": "2026-04-15",
+      "date": "2026-04-16",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -68,12 +68,84 @@
       "title": "*   [Latest](http://techcrunch.com/latest/)",
       "link": "https://techcrunch.com/category/artificial-intelligence/",
       "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
-      "date": "2026-04-15",
+      "date": "2026-04-16",
       "source": "TechCrunch",
       "type": "industry",
       "tags": [
         "AI",
         "Artificial Intelligence"
+      ]
+    },
+    {
+      "title": "2026具身智能数据赛道，卷出了一匹「黑马」",
+      "link": "https://www.jiqizhixin.com/search/articles/2026具身智能数据赛道，卷出",
+      "summary": "2026具身智能数据赛道，卷出了一匹「黑马」...",
+      "date": "2026-04-15",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "从「片段生成」到「长视频漫游」：OmniRoam探索轨迹可控的长视频生成新范式",
+      "link": "https://www.jiqizhixin.com/search/articles/从「片段生成」到「长视频漫游」",
+      "summary": "从「片段生成」到「长视频漫游」：OmniRoam探索轨迹可控的长视频生成新范式...",
+      "date": "2026-04-15",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "阿里ATH发布AI开发工具Meoo，可一键开发一键部署",
+      "link": "https://www.jiqizhixin.com/search/articles/阿里ATH发布AI开发工具Me",
+      "summary": "阿里ATH发布AI开发工具Meoo，可一键开发一键部署...",
+      "date": "2026-04-15",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "构建跨越时空的微观实验室：KIMMDY 仿真器实现秒级生物化学反应的动态模拟",
+      "link": "https://www.jiqizhixin.com/search/articles/构建跨越时空的微观实验室：KI",
+      "summary": "构建跨越时空的微观实验室：KIMMDY 仿真器实现秒级生物化学反应的动态模拟...",
+      "date": "2026-04-15",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "实测参考生之王Vidu Q3：这已经不叫AI生成了，这叫AI驱动整个剧组",
+      "link": "https://www.jiqizhixin.com/search/articles/实测参考生之王Vidu Q3：",
+      "summary": "实测参考生之王Vidu Q3：这已经不叫AI生成了，这叫AI驱动整个剧组...",
+      "date": "2026-04-15",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "刚刚，李飞飞世界模型开源了个渲染神器",
+      "link": "https://www.jiqizhixin.com/search/articles/刚刚，李飞飞世界模型开源了个渲",
+      "summary": "刚刚，李飞飞世界模型开源了个渲染神器...",
+      "date": "2026-04-15",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
       ]
     },
     {
@@ -2386,85 +2458,6 @@
         "产品发布"
       ],
       "fetched_at": "2026-03-24T18:00:07.054042+00:00"
-    },
-    {
-      "title": "AI全链路加持！一加15T打造全能小屏，售价4299元起",
-      "link": "https://www.qbitai.com/2026/03/391775.html",
-      "summary": "2025 年实现44%的销量增长",
-      "source": "量子位",
-      "date": "2026-03-24",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "行业动态"
-      ],
-      "fetched_at": "2026-03-25T07:00:07.414325+00:00"
-    },
-    {
-      "title": "龙虾爆火之后，AI初创的全球化机会来了吗？｜线下沙龙报名",
-      "link": "https://www.qbitai.com/2026/03/391760.html",
-      "summary": "周四14:00，欢迎来现场交流！",
-      "source": "量子位",
-      "date": "2026-03-24",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "行业动态"
-      ],
-      "fetched_at": "2026-03-25T07:00:07.414487+00:00"
-    },
-    {
-      "title": "黄仁勋暴论核弹：AGI已经实现，Ilya错了，程序员有10亿",
-      "link": "https://www.qbitai.com/2026/03/391750.html",
-      "summary": "老黄再次展示了感性的一面",
-      "source": "量子位",
-      "date": "2026-03-24",
-      "type": "industry",
-      "tags": [
-        "行业动态",
-        "AI"
-      ],
-      "fetched_at": "2026-03-25T04:00:03.012437+00:00"
-    },
-    {
-      "title": "你的模型真的会”举一反三”吗？RoboChallenge Table30 V2 正式发布，泛化时代开幕",
-      "link": "https://www.qbitai.com/2026/03/391744.html",
-      "summary": "Table30 V2将为全球具身智能研究者打造了一个精准的“泛化标尺”与公平、开放的真机竞技场",
-      "source": "量子位",
-      "date": "2026-03-24",
-      "type": "breakthrough",
-      "tags": [
-        "重大突破",
-        "机器人",
-        "AI"
-      ],
-      "fetched_at": "2026-03-25T03:00:06.921932+00:00"
-    },
-    {
-      "title": "LeCun的世界模型单GPU就能跑了",
-      "link": "https://www.qbitai.com/2026/03/391698.html",
-      "summary": "速度快到离谱，完整规划仅需1秒",
-      "source": "量子位",
-      "date": "2026-03-24",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "行业动态"
-      ],
-      "fetched_at": "2026-03-25T01:00:06.941040+00:00"
-    },
-    {
-      "title": "Mirage raises $75M to continue building models for its AI video-editing app Captions",
-      "link": "https://techcrunch.com/2026/03/24/mirage-raises-75m-to-continue-building-models-for-its-ai-video-editing-app-captions/",
-      "summary": "Mirage, the maker of video-editing app Captions, has raised $75 million in growth financing from General Catalyst's Customer Value Fund (CVF).",
-      "source": "TechCrunch",
-      "date": "2026-03-24",
-      "type": "product",
-      "tags": [
-        "AI",
-        "产品发布"
-      ],
-      "fetched_at": "2026-03-24T18:00:07.054909+00:00"
     }
   ]
 }
