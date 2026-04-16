@@ -1,9 +1,21 @@
 {
   "last_updated": "2026-04-16",
   "count": 200,
-  "history_count": 200,
+  "history_count": 201,
   "retention_days": 30,
   "items": [
+    {
+      "title": "手捏多位科技公司CEO及投资者“死亡名单”",
+      "link": "https://www.qbitai.com/?s=手捏多位科技公司CE",
+      "summary": "手捏多位科技公司CEO及投资者“死亡名单”...",
+      "date": "2026-04-16",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
     {
       "title": "一次性获取百度智能云的全栈技术图谱",
       "link": "https://www.qbitai.com/?s=一次性获取百度智能云",
@@ -53,18 +65,6 @@
       ]
     },
     {
-      "title": "Anthropic年化收入掺水80亿",
-      "link": "https://www.qbitai.com/?s=Anthropic年",
-      "summary": "Anthropic年化收入掺水80亿...",
-      "date": "2026-04-16",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
       "title": "*   [Latest](http://techcrunch.com/latest/)",
       "link": "https://techcrunch.com/category/artificial-intelligence/",
       "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
@@ -74,6 +74,18 @@
       "tags": [
         "AI",
         "Artificial Intelligence"
+      ]
+    },
+    {
+      "title": "Anthropic年化收入掺水80亿",
+      "link": "https://www.qbitai.com/?s=Anthropic年",
+      "summary": "Anthropic年化收入掺水80亿...",
+      "date": "2026-04-16",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
       ]
     },
     {
@@ -2445,19 +2457,6 @@
         "行业动态"
       ],
       "fetched_at": "2026-03-24T19:00:07.679083+00:00"
-    },
-    {
-      "title": "Meet the former Apple designer building a new AI interface at Hark",
-      "link": "https://techcrunch.com/2026/03/24/meet-the-former-apple-designer-building-a-new-ai-interface-at-hark/",
-      "summary": "The company said it would design models, hardware, and interfaces in tandem to deliver a \"seamless end-to-end personal intelligence product.\"",
-      "source": "TechCrunch",
-      "date": "2026-03-25",
-      "type": "product",
-      "tags": [
-        "AI",
-        "产品发布"
-      ],
-      "fetched_at": "2026-03-24T18:00:07.054042+00:00"
     }
   ]
 }

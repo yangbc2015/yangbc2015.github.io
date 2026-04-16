@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-04-16",
-  "count": 125,
+  "count": 130,
   "items": [
     {
       "title": "[具 身 智 能 走向规模化的关键：左星星解读“让机器人读懂空间”",
@@ -24,6 +24,86 @@
       "type": "news",
       "tags": [
         "机器人"
+      ]
+    },
+    {
+      "title": "HiVLA: A Visual-Grounded-Centric Hierarchical Embodied Manipulation System",
+      "summary": "While end-to-end Vision-Language-Action (VLA) models offer a promising paradigm for robotic manipulation, fine-tuning them on narrow control data often compromises the profound reasoning capabilities inherited from their base Vision-Language Models (...",
+      "url": "https://arxiv.org/abs/2604.14125v1",
+      "date": "2026-04-15",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.14125v1",
+      "authors": "Tianshuo Yang, Guanyu Chen et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "UMI-3D: Extending Universal Manipulation Interface from Vision-Limited to 3D Spatial Perception",
+      "summary": "We present UMI-3D, a multimodal extension of the Universal Manipulation Interface (UMI) for robust and scalable data collection in embodied manipulation. While UMI enables portable, wrist-mounted data acquisition, its reliance on monocular visual SLA...",
+      "url": "https://arxiv.org/abs/2604.14089v1",
+      "date": "2026-04-15",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.14089v1",
+      "authors": "Ziming Wang",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Scale-Invariant Sampling in Multi-Arm Bandit Motion Planning for Object Extraction",
+      "summary": "Object extraction tasks often occur in disassembly problems, where bolts, screws, or pins have to be removed from tight, narrow spaces. In such problems, the distance to the environment is often on the millimeter scale. Sampling-based planners can so...",
+      "url": "https://arxiv.org/abs/2604.14026v1",
+      "date": "2026-04-15",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.14026v1",
+      "authors": "Servet B. Bayraktar, Andreas Orthey et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Neuromorphic Spiking Ring Attractor for Proprioceptive Joint-State Estimation",
+      "summary": "Maintaining stable internal representations of continuous variables is fundamental for effective robotic control. Continuous attractor networks provide a biologically inspired mechanism for encoding such variables, yet neuromorphic realizations have ...",
+      "url": "https://arxiv.org/abs/2604.14021v1",
+      "date": "2026-04-15",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.14021v1",
+      "authors": "Federica Ferrari, Flavia Davidhi et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Towards Multi-Object-Tracking with Radar on a Fast Moving Vehicle: On the Potential of Processing Radar in the Frequency Domain",
+      "summary": "We promote in this paper the processing of radar data in the frequency domain to achieve higher robustness against noise and structural errors, especially in comparison to feature-based methods. This holds also for high dynamics in the scene, i.e., e...",
+      "url": "https://arxiv.org/abs/2604.14013v1",
+      "date": "2026-04-15",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.14013v1",
+      "authors": "Tim Hansen, Arturo Gomez-Chavez et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
       ]
     },
     {
