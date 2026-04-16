@@ -5,6 +5,18 @@
   "retention_days": 30,
   "items": [
     {
+      "title": "创下中国具身智能有史以来最高单轮融资纪录，仅用一年时间成功领跑具身智能行业第一梯队。",
+      "link": "https://www.qbitai.com/?s=创下中国具身智能有史",
+      "summary": "创下中国具身智能有史以来最高单轮融资纪录，仅用一年时间成功领跑具身智能行业第一梯队。...",
+      "date": "2026-04-16",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
       "title": "手捏多位科技公司CEO及投资者“死亡名单”",
       "link": "https://www.qbitai.com/?s=手捏多位科技公司CE",
       "summary": "手捏多位科技公司CEO及投资者“死亡名单”...",
@@ -53,18 +65,6 @@
       ]
     },
     {
-      "title": "“AI会是量子计算机的操作系统”",
-      "link": "https://www.qbitai.com/?s=“AI会是量子计算机",
-      "summary": "“AI会是量子计算机的操作系统”...",
-      "date": "2026-04-16",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
       "title": "*   [Latest](http://techcrunch.com/latest/)",
       "link": "https://techcrunch.com/category/artificial-intelligence/",
       "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
@@ -74,6 +74,18 @@
       "tags": [
         "AI",
         "Artificial Intelligence"
+      ]
+    },
+    {
+      "title": "“AI会是量子计算机的操作系统”",
+      "link": "https://www.qbitai.com/?s=“AI会是量子计算机",
+      "summary": "“AI会是量子计算机的操作系统”...",
+      "date": "2026-04-16",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
       ]
     },
     {
@@ -2444,19 +2456,6 @@
         "产品发布"
       ],
       "fetched_at": "2026-03-24T19:00:07.678747+00:00"
-    },
-    {
-      "title": "Doss raises $55M for AI inventory management that plugs into ERP",
-      "link": "https://techcrunch.com/2026/03/24/doss-raises-55m-for-ai-inventory-management-that-plugs-into-erp/",
-      "summary": "Doss's AI-powered inventory management system integrates with existing ERP systems. The Series B round was co-led by Madrona and Premji Invest.",
-      "source": "TechCrunch",
-      "date": "2026-03-25",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "行业动态"
-      ],
-      "fetched_at": "2026-03-24T19:00:07.679083+00:00"
     }
   ]
 }
