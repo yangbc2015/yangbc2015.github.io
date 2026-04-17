@@ -3,16 +3,16 @@
   "count": 7,
   "items": [
     {
-      "title": "From $P(y|x)$ to $P(y)$: Investigating Reinforcement Learning in Pre-train Space",
-      "authors": "Yuqiao Tan, Minzheng Wang, Bo Liu et al.",
-      "abstract": "While reinforcement learning with verifiable rewards (RLVR) significantly enhances LLM reasoning by optimizing the conditional distribution P(y|x), its potential is fundamentally bounded by the base model's existing output distribution. Optimizing the marginal distribution P(y) in the Pre-train Spac...",
+      "title": "MM-WebAgent: A Hierarchical Multimodal Web Agent for Webpage Generation",
+      "authors": "Yan Li, Zezi Zeng, Yifan Yang et al.",
+      "abstract": "The rapid progress of Artificial Intelligence Generated Content (AIGC) tools enables images, videos, and visualizations to be created on demand for webpage design, offering a flexible and increasingly adopted paradigm for modern UI/UX. However, directly integrating such tools into automated webpage ...",
       "venue": "arXiv",
-      "date": "2026-04-15",
-      "arxiv_id": "2604.14142v1",
-      "url": "https://arxiv.org/abs/2604.14142v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.14142v1.pdf",
+      "date": "2026-04-16",
+      "arxiv_id": "2604.15309v1",
+      "url": "https://arxiv.org/abs/2604.15309v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.15309v1.pdf",
       "categories": [
-        "cs.LG",
+        "cs.CV",
         "cs.AI",
         "cs.CL"
       ],
@@ -21,48 +21,49 @@
       "source": "arXiv"
     },
     {
-      "title": "LongCoT: Benchmarking Long-Horizon Chain-of-Thought Reasoning",
-      "authors": "Sumeet Ramesh Motwani, Daniel Nichols, Charles London et al.",
-      "abstract": "As language models are increasingly deployed for complex autonomous tasks, their ability to reason accurately over longer horizons becomes critical. An essential component of this ability is planning and managing a long, complex chain-of-thought (CoT). We introduce LongCoT, a scalable benchmark of 2...",
+      "title": "Generalization in LLM Problem Solving: The Case of the Shortest Path",
+      "authors": "Yao Tong, Jiayuan Ye, Anastasia Borovykh et al.",
+      "abstract": "Whether language models can systematically generalize remains actively debated. Yet empirical performance is jointly shaped by multiple factors such as training data, training paradigms, and inference-time strategies, making failures difficult to interpret. We introduce a controlled synthetic enviro...",
       "venue": "arXiv",
-      "date": "2026-04-15",
-      "arxiv_id": "2604.14140v1",
-      "url": "https://arxiv.org/abs/2604.14140v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.14140v1.pdf",
+      "date": "2026-04-16",
+      "arxiv_id": "2604.15306v1",
+      "url": "https://arxiv.org/abs/2604.15306v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.15306v1.pdf",
       "categories": [
-        "cs.LG",
-        "cs.AI"
+        "cs.AI",
+        "cs.LG"
       ],
-      "type": "benchmark",
+      "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "SpatialEvo: Self-Evolving Spatial Intelligence via Deterministic Geometric Environments",
-      "authors": "Dinging Li, Yingxiu Zhao, Xinrui Cheng et al.",
-      "abstract": "Spatial reasoning over three-dimensional scenes is a core capability for embodied intelligence, yet continuous model improvement remains bottlenecked by the cost of geometric annotation. The self-evolving paradigm offers a promising path, but its reliance on model consensus to construct pseudo-label...",
+      "title": "Diagnosing LLM Judge Reliability: Conformal Prediction Sets and Transitivity Violations",
+      "authors": "Manan Gupta, Dhruv Kumar",
+      "abstract": "LLM-as-judge frameworks are increasingly used for automatic NLG evaluation, yet their per-instance reliability remains poorly understood. We present a two-pronged diagnostic toolkit applied to SummEval: $\\textbf{(1)}$ a transitivity analysis that reveals widespread per-input inconsistency masked by ...",
       "venue": "arXiv",
-      "date": "2026-04-15",
-      "arxiv_id": "2604.14144v1",
-      "url": "https://arxiv.org/abs/2604.14144v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.14144v1.pdf",
+      "date": "2026-04-16",
+      "arxiv_id": "2604.15302v1",
+      "url": "https://arxiv.org/abs/2604.15302v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.15302v1.pdf",
       "categories": [
-        "cs.CV",
-        "cs.CL"
+        "cs.AI",
+        "cs.CL",
+        "cs.LG"
       ],
       "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "One Token per Highly Selective Frame: Towards Extreme Compression for Long Video Understanding",
-      "authors": "Zheyu Zhang, Ziqi Pang, Shixing Chen et al.",
-      "abstract": "Long video understanding is inherently challenging for vision-language models (VLMs) because of the extensive number of frames. With each video frame typically expanding into tens or hundreds of tokens, the limited context length of large language models (LLMs) forces the VLMs to perceive the frames...",
+      "title": "Bidirectional Cross-Modal Prompting for Event-Frame Asymmetric Stereo",
+      "authors": "Ninghui Xu, Fabio Tosi, Lihui Wang et al.",
+      "abstract": "Conventional frame-based cameras capture rich contextual information but suffer from limited temporal resolution and motion blur in dynamic scenes. Event cameras offer an alternative visual representation with higher dynamic range free from such limitations. The complementary characteristics of the ...",
       "venue": "arXiv",
-      "date": "2026-04-15",
-      "arxiv_id": "2604.14149v1",
-      "url": "https://arxiv.org/abs/2604.14149v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.14149v1.pdf",
+      "date": "2026-04-16",
+      "arxiv_id": "2604.15312v1",
+      "url": "https://arxiv.org/abs/2604.15312v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.15312v1.pdf",
       "categories": [
         "cs.CV"
       ],
@@ -71,14 +72,14 @@
       "source": "arXiv"
     },
     {
-      "title": "Seedance 2.0: Advancing Video Generation for World Complexity",
-      "authors": "Team Seedance, De Chen, Liyang Chen et al.",
-      "abstract": "Seedance 2.0 is a new native multi-modal audio-video generation model, officially released in China in early February 2026. Compared with its predecessors, Seedance 1.0 and 1.5 Pro, Seedance 2.0 adopts a unified, highly efficient, and large-scale architecture for multi-modal audio-video joint genera...",
+      "title": "LeapAlign: Post-Training Flow Matching Models at Any Generation Step by Building Two-Step Trajectories",
+      "authors": "Zhanhao Liang, Tao Yang, Jie Wu et al.",
+      "abstract": "This paper focuses on the alignment of flow matching models with human preferences. A promising way is fine-tuning by directly backpropagating reward gradients through the differentiable generation process of flow matching. However, backpropagating through long trajectories results in prohibitive me...",
       "venue": "arXiv",
-      "date": "2026-04-15",
-      "arxiv_id": "2604.14148v1",
-      "url": "https://arxiv.org/abs/2604.14148v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.14148v1.pdf",
+      "date": "2026-04-16",
+      "arxiv_id": "2604.15311v1",
+      "url": "https://arxiv.org/abs/2604.15311v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.15311v1.pdf",
       "categories": [
         "cs.CV"
       ],
@@ -87,35 +88,33 @@
       "source": "arXiv"
     },
     {
-      "title": "HiVLA: A Visual-Grounded-Centric Hierarchical Embodied Manipulation System",
-      "authors": "Tianshuo Yang, Guanyu Chen, Yutian Chen et al.",
-      "abstract": "While end-to-end Vision-Language-Action (VLA) models offer a promising paradigm for robotic manipulation, fine-tuning them on narrow control data often compromises the profound reasoning capabilities inherited from their base Vision-Language Models (VLMs). To resolve this fundamental trade-off, we p...",
+      "title": "Abstract Sim2Real through Approximate Information States",
+      "authors": "Yunfu Deng, Yuhao Li, Josiah P. Hanna",
+      "abstract": "In recent years, reinforcement learning (RL) has shown remarkable success in robotics when a fast and accurate simulator is available for a given task. When using RL and simulation, more simulator realism is generally beneficial but becomes harder to obtain as robots are deployed in increasingly com...",
       "venue": "arXiv",
-      "date": "2026-04-15",
-      "arxiv_id": "2604.14125v1",
-      "url": "https://arxiv.org/abs/2604.14125v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.14125v1.pdf",
+      "date": "2026-04-16",
+      "arxiv_id": "2604.15289v1",
+      "url": "https://arxiv.org/abs/2604.15289v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.15289v1.pdf",
       "categories": [
-        "cs.CV",
-        "cs.AI",
         "cs.RO"
       ],
-      "type": "vision",
+      "type": "ai",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "UMI-3D: Extending Universal Manipulation Interface from Vision-Limited to 3D Spatial Perception",
-      "authors": "Ziming Wang",
-      "abstract": "We present UMI-3D, a multimodal extension of the Universal Manipulation Interface (UMI) for robust and scalable data collection in embodied manipulation. While UMI enables portable, wrist-mounted data acquisition, its reliance on monocular visual SLAM makes it vulnerable to occlusions, dynamic scene...",
+      "title": "R3D: Revisiting 3D Policy Learning",
+      "authors": "Zhengdong Hong, Shenrui Wu, Haozhe Cui et al.",
+      "abstract": "3D policy learning promises superior generalization and cross-embodiment transfer, but progress has been hindered by training instabilities and severe overfitting, precluding the adoption of powerful 3D perception models. In this work, we systematically diagnose these failures, identifying the omiss...",
       "venue": "arXiv",
-      "date": "2026-04-15",
-      "arxiv_id": "2604.14089v1",
-      "url": "https://arxiv.org/abs/2604.14089v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.14089v1.pdf",
+      "date": "2026-04-16",
+      "arxiv_id": "2604.15281v1",
+      "url": "https://arxiv.org/abs/2604.15281v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.15281v1.pdf",
       "categories": [
-        "cs.RO",
-        "cs.AI"
+        "cs.CV",
+        "cs.RO"
       ],
       "type": "vision",
       "badge": "arxiv",

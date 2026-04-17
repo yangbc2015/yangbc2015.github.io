@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-04-17",
-  "count": 132,
+  "count": 137,
   "items": [
     {
       "title": "[具 身 智 能 走向规模化的关键：左星星解读“让机器人读懂空间”",
@@ -19,6 +19,110 @@
       "summary": "[又一 具 身 智 能 企业入住港股，全链条机器人企业为何扎堆赴港？",
       "url": "http://36kr.com/p/3767334565987077",
       "date": "2026-04-17",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
+      "title": "Abstract Sim2Real through Approximate Information States",
+      "summary": "In recent years, reinforcement learning (RL) has shown remarkable success in robotics when a fast and accurate simulator is available for a given task. When using RL and simulation, more simulator realism is generally beneficial but becomes harder to...",
+      "url": "https://arxiv.org/abs/2604.15289v1",
+      "date": "2026-04-16",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.15289v1",
+      "authors": "Yunfu Deng, Yuhao Li et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "R3D: Revisiting 3D Policy Learning",
+      "summary": "3D policy learning promises superior generalization and cross-embodiment transfer, but progress has been hindered by training instabilities and severe overfitting, precluding the adoption of powerful 3D perception models. In this work, we systematica...",
+      "url": "https://arxiv.org/abs/2604.15281v1",
+      "date": "2026-04-16",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.15281v1",
+      "authors": "Zhengdong Hong, Shenrui Wu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Vision-Based Safe Human-Robot Collaboration with Uncertainty Guarantees",
+      "summary": "We propose a framework for vision-based human pose estimation and motion prediction that gives conformal prediction guarantees for certifiably safe human-robot collaboration. Our framework combines aleatoric uncertainty estimation with OOD detection ...",
+      "url": "https://arxiv.org/abs/2604.15221v1",
+      "date": "2026-04-16",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.15221v1",
+      "authors": "Jakob Thumm, Marian Frei et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "A Hierarchical Spatiotemporal Action Tokenizer for In-Context Imitation Learning in Robotics",
+      "summary": "We present a novel hierarchical spatiotemporal action tokenizer for in-context imitation learning. We first propose a hierarchical approach, which consists of two successive levels of vector quantization. In particular, the lower level assigns input ...",
+      "url": "https://arxiv.org/abs/2604.15215v1",
+      "date": "2026-04-16",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.15215v1",
+      "authors": "Fawad Javed Fateh, Ali Shah Ali et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Benchmarking Classical Coverage Path Planning Heuristics on Irregular Hexagonal Grids for Maritime Coverage Scenarios",
+      "summary": "Coverage path planning on irregular hexagonal grids is relevant to maritime surveillance, search and rescue and environmental monitoring, yet classical methods are often compared on small ad hoc examples or on rectangular grids. This paper presents a...",
+      "url": "https://arxiv.org/abs/2604.15202v1",
+      "date": "2026-04-16",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.15202v1",
+      "authors": "Carlos S. Sepúlveda, Gonzalo A. Ruz",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "宸境科技推LooperRobotics，以空间智能助机器人理解现实世界。",
+      "summary": "宸境科技推LooperRobotics，以空间智能助机器人理解现实世界。",
+      "url": "http://36kr.com/p/3767534639760131",
+      "date": "2026-04-15",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
+      "title": "2026年A+H股机器人资本热潮，港股成全球化融资枢纽。",
+      "summary": "2026年A+H股机器人资本热潮，港股成全球化融资枢纽。",
+      "url": "http://36kr.com/p/3767334565987077",
+      "date": "2026-04-15",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
@@ -104,30 +208,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "宸境科技推LooperRobotics，以空间智能助机器人理解现实世界。",
-      "summary": "宸境科技推LooperRobotics，以空间智能助机器人理解现实世界。",
-      "url": "http://36kr.com/p/3767534639760131",
-      "date": "2026-04-15",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
-      ]
-    },
-    {
-      "title": "2026年A+H股机器人资本热潮，港股成全球化融资枢纽。",
-      "summary": "2026年A+H股机器人资本热潮，港股成全球化融资枢纽。",
-      "url": "http://36kr.com/p/3767334565987077",
-      "date": "2026-04-15",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
       ]
     },
     {
