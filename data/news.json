@@ -1,9 +1,21 @@
 {
   "last_updated": "2026-04-19",
   "count": 200,
-  "history_count": 200,
+  "history_count": 201,
   "retention_days": 30,
   "items": [
+    {
+      "title": "魏建军回应“接地气”：我农民出身",
+      "link": "https://www.qbitai.com/?s=魏建军回应“接地气”",
+      "summary": "魏建军回应“接地气”：我农民出身...",
+      "date": "2026-04-19",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
     {
       "title": "自然语言控制设备，零编程编排流程",
       "link": "https://www.qbitai.com/?s=自然语言控制设备，零",
@@ -53,18 +65,6 @@
       ]
     },
     {
-      "title": "推动具身智能从实验室研发迈向规模化商业落地，打造“具身智能超级供应链”。",
-      "link": "https://www.qbitai.com/?s=推动具身智能从实验室",
-      "summary": "推动具身智能从实验室研发迈向规模化商业落地，打造“具身智能超级供应链”。...",
-      "date": "2026-04-19",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
       "title": "*   [Latest](http://techcrunch.com/latest/)",
       "link": "https://techcrunch.com/category/artificial-intelligence/",
       "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
@@ -74,6 +74,18 @@
       "tags": [
         "AI",
         "Artificial Intelligence"
+      ]
+    },
+    {
+      "title": "推动具身智能从实验室研发迈向规模化商业落地，打造“具身智能超级供应链”。",
+      "link": "https://www.qbitai.com/?s=推动具身智能从实验室",
+      "summary": "推动具身智能从实验室研发迈向规模化商业落地，打造“具身智能超级供应链”。...",
+      "date": "2026-04-19",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
       ]
     },
     {
@@ -2409,19 +2421,6 @@
         "AI"
       ],
       "fetched_at": "2026-03-26T03:00:06.745640+00:00"
-    },
-    {
-      "title": "从“被动感知”到“理解接触”，它石智航联合六大机构发布OmniVTA视触觉世界模型",
-      "link": "https://www.qbitai.com/2026/03/392105.html",
-      "summary": "从“被动感知”到“理解接触”，它石智航联合六大机构发布OmniVTA视触觉世界模型",
-      "source": "量子位",
-      "date": "2026-03-25",
-      "type": "breakthrough",
-      "tags": [
-        "AI",
-        "重大突破"
-      ],
-      "fetched_at": "2026-03-26T03:00:06.745876+00:00"
     }
   ]
 }
