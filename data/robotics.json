@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-04-20",
-  "count": 145,
+  "count": 147,
   "items": [
     {
       "title": "[科氪 | 享刻智能：不追人形机器人，深耕餐饮场景做 具 身 智 能 落地派",
@@ -25,6 +25,38 @@
       "type": "news",
       "tags": [
         "机器人"
+      ]
+    },
+    {
+      "title": "FineCog-Nav: Integrating Fine-grained Cognitive Modules for Zero-shot Multimodal UAV Navigation",
+      "summary": "UAV vision-language navigation (VLN) requires an agent to navigate complex 3D environments from an egocentric perspective while following ambiguous multi-step instructions over long horizons. Existing zero-shot methods remain limited, as they often r...",
+      "url": "https://arxiv.org/abs/2604.16298v1",
+      "date": "2026-04-17",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.16298v1",
+      "authors": "Dian Shao, Zhengzheng Xu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Semantic Area Graph Reasoning for Multi-Robot Language-Guided Search",
+      "summary": "Coordinating multi-robot systems (MRS) to search in unknown environments is particularly challenging for tasks that require semantic reasoning beyond geometric exploration. Classical coordination strategies rely on frontier coverage or information ga...",
+      "url": "https://arxiv.org/abs/2604.16263v1",
+      "date": "2026-04-17",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.16263v1",
+      "authors": "Ruiyang Wang, Hao-Lun Hsu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
       ]
     },
     {
@@ -76,6 +108,19 @@
       ]
     },
     {
+      "title": "享刻智能获1.5亿融资，聚焦餐饮场景推动具身智能商业化。",
+      "summary": "享刻智能获1.5亿融资，聚焦餐饮场景推动具身智能商业化。",
+      "url": "http://36kr.com/p/3770651778761481",
+      "date": "2026-04-17",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
       "title": "A Reconfigurable Pneumatic Joint Enabling Localized Selective Stiffening and Shape Locking in Vine-Inspired Robots",
       "summary": "Vine-inspired robots achieve large workspace coverage through tip eversion, enabling safe navigation in confined and cluttered environments. However, their deployment in free space is fundamentally limited by low axial stiffness, poor load-bearing ca...",
       "url": "https://arxiv.org/abs/2604.15907v1",
@@ -105,19 +150,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "享刻智能获1.5亿融资，聚焦餐饮场景推动具身智能商业化。",
-      "summary": "享刻智能获1.5亿融资，聚焦餐饮场景推动具身智能商业化。",
-      "url": "http://36kr.com/p/3770651778761481",
-      "date": "2026-04-17",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
       ]
     },
     {

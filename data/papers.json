@@ -3,34 +3,31 @@
   "count": 9,
   "items": [
     {
-      "title": "\"Taking Stock at FAccT\": Using Participatory Design to Co-Create a Vision for the Fairness, Accountability and Transparency Community",
-      "authors": "Shiran Dudy, Jan Simson, Yanan Long",
-      "abstract": "As a relatively new forum, ACM FAccT has become a key space for activists and scholars to critically examine emerging AI and ML technologies. It brings together academics, civil society members, and government representatives from diverse fields to explore the broader societal impacts of both deploy...",
+      "title": "ASMR-Bench: Auditing for Sabotage in ML Research",
+      "authors": "Eric Gan, Aryan Bhatt, Buck Shlegeris et al.",
+      "abstract": "As AI systems are increasingly used to conduct research autonomously, misaligned systems could introduce subtle flaws that produce misleading results while evading detection. We introduce ASMR-Bench (Auditing for Sabotage in ML Research), a benchmark for evaluating the ability of auditors to detect ...",
       "venue": "arXiv",
       "date": "2026-04-17",
-      "arxiv_id": "2604.16224v1",
-      "url": "https://arxiv.org/abs/2604.16224v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.16224v1.pdf",
+      "arxiv_id": "2604.16286v1",
+      "url": "https://arxiv.org/abs/2604.16286v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.16286v1.pdf",
       "categories": [
-        "cs.HC",
-        "cs.AI",
-        "cs.CY"
+        "cs.AI"
       ],
-      "type": "vision",
+      "type": "ai",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Beyond Surface Statistics: Robust Conformal Prediction for LLMs via Internal Representations",
-      "authors": "Yanli Wang, Peng Kuang, Xiaoyu Han et al.",
-      "abstract": "Large language models are increasingly deployed in settings where reliability matters, yet output-level uncertainty signals such as token probabilities, entropy, and self-consistency can become brittle under calibration--deployment mismatch. Conformal prediction provides finite-sample validity under...",
+      "title": "Using Large Language Models and Knowledge Graphs to Improve the Interpretability of Machine Learning Models in Manufacturing",
+      "authors": "Thomas Bayer, Alexander Lohr, Sarah Weiß et al.",
+      "abstract": "Explaining Machine Learning (ML) results in a transparent and user-friendly manner remains a challenging task of Explainable Artificial Intelligence (XAI). In this paper, we present a method to enhance the interpretability of ML models by using a Knowledge Graph (KG). We store domain-specific data a...",
       "venue": "arXiv",
       "date": "2026-04-17",
-      "arxiv_id": "2604.16217v1",
-      "url": "https://arxiv.org/abs/2604.16217v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.16217v1.pdf",
+      "arxiv_id": "2604.16280v1",
+      "url": "https://arxiv.org/abs/2604.16280v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.16280v1.pdf",
       "categories": [
-        "cs.CL",
         "cs.AI"
       ],
       "type": "nlp",
@@ -38,17 +35,33 @@
       "source": "arXiv"
     },
     {
-      "title": "JumpLoRA: Sparse Adapters for Continual Learning in Large Language Models",
-      "authors": "Alexandra Dragomir, Ioana Pintilie, Antonio Barbalau et al.",
-      "abstract": "Adapter-based methods have become a cost-effective approach to continual learning (CL) for Large Language Models (LLMs), by sequentially learning a low-rank update matrix for each task. To mitigate catastrophic forgetting, state-of-the-art approaches impose constraints on new adapters with respect t...",
+      "title": "Learning to Reason with Insight for Informal Theorem Proving",
+      "authors": "Yunhe Li, Hao Shi, Bowen Deng et al.",
+      "abstract": "Although most of the automated theorem-proving approaches depend on formal proof systems, informal theorem proving can align better with large language models' (LLMs) strength in natural language processing. In this work, we identify a primary bottleneck in informal theorem proving as a lack of insi...",
       "venue": "arXiv",
       "date": "2026-04-17",
-      "arxiv_id": "2604.16171v1",
-      "url": "https://arxiv.org/abs/2604.16171v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.16171v1.pdf",
+      "arxiv_id": "2604.16278v1",
+      "url": "https://arxiv.org/abs/2604.16278v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.16278v1.pdf",
       "categories": [
-        "cs.LG",
         "cs.AI",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "No Universal Courtesy: A Cross-Linguistic, Multi-Model Study of Politeness Effects on LLMs Using the PLUM Corpus",
+      "authors": "Hitesh Mehta, Arjit Saxena, Garima Chhikara et al.",
+      "abstract": "This paper explores the response of Large Language Models (LLMs) to user prompts with different degrees of politeness and impoliteness. The Politeness Theory by Brown and Levinson and the Impoliteness Framework by Culpeper form the basis of experiments conducted across three languages (English, Hind...",
+      "venue": "arXiv",
+      "date": "2026-04-17",
+      "arxiv_id": "2604.16275v1",
+      "url": "https://arxiv.org/abs/2604.16275v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.16275v1.pdf",
+      "categories": [
         "cs.CL"
       ],
       "type": "nlp",
@@ -56,101 +69,86 @@
       "source": "arXiv"
     },
     {
-      "title": "GAViD: A Large-Scale Multimodal Dataset for Context-Aware Group Affect Recognition from Videos",
-      "authors": "Deepak Kumar, Abhishek Pratap Singh, Puneet Kumar et al.",
-      "abstract": "Understanding affective dynamics in real-world social systems is fundamental to modeling and analyzing human-human interactions in complex environments. Group affect emerges from intertwined human-human interactions, contextual influences, and behavioral cues, making its quantitative modeling a chal...",
+      "title": "Repurposing 3D Generative Model for Autoregressive Layout Generation",
+      "authors": "Haoran Feng, Yifan Niu, Zehuan Huang et al.",
+      "abstract": "We introduce LaviGen, a framework that repurposes 3D generative models for 3D layout generation. Unlike previous methods that infer object layouts from textual descriptions, LaviGen operates directly in the native 3D space, formulating layout generation as an autoregressive process that explicitly m...",
       "venue": "arXiv",
       "date": "2026-04-17",
-      "arxiv_id": "2604.16214v1",
-      "url": "https://arxiv.org/abs/2604.16214v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.16214v1.pdf",
+      "arxiv_id": "2604.16299v1",
+      "url": "https://arxiv.org/abs/2604.16299v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.16299v1.pdf",
       "categories": [
         "cs.CV"
-      ],
-      "type": "benchmark",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "AIFIND: Artifact-Aware Interpreting Fine-Grained Alignment for Incremental Face Forgery Detection",
-      "authors": "Hao Wang, Beichen Zhang, Yanpei Gong et al.",
-      "abstract": "As forgery types continue to emerge consistently, Incremental Face Forgery Detection (IFFD) has become a crucial paradigm. However, existing methods typically rely on data replay or coarse binary supervision, which fails to explicitly constrain the feature space, leading to severe feature drift and ...",
-      "venue": "arXiv",
-      "date": "2026-04-17",
-      "arxiv_id": "2604.16207v1",
-      "url": "https://arxiv.org/abs/2604.16207v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.16207v1.pdf",
-      "categories": [
-        "cs.CV",
-        "cs.AI"
       ],
       "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "OT on the Map: Quantifying Domain Shifts in Geographic Space",
-      "authors": "Haoran Zhang, Livia Betti, Konstantin Klemmer et al.",
-      "abstract": "In computer vision and machine learning for geographic data, out-of-domain generalization is a pervasive challenge, arising from uneven global data coverage and distribution shifts across geographic regions. Though models are frequently trained in one region and deployed in another, there is no prin...",
+      "title": "FineCog-Nav: Integrating Fine-grained Cognitive Modules for Zero-shot Multimodal UAV Navigation",
+      "authors": "Dian Shao, Zhengzheng Xu, Peiyang Wang et al.",
+      "abstract": "UAV vision-language navigation (VLN) requires an agent to navigate complex 3D environments from an egocentric perspective while following ambiguous multi-step instructions over long horizons. Existing zero-shot methods remain limited, as they often rely on large base models, generic prompts, and loo...",
       "venue": "arXiv",
       "date": "2026-04-17",
-      "arxiv_id": "2604.16220v1",
-      "url": "https://arxiv.org/abs/2604.16220v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.16220v1.pdf",
+      "arxiv_id": "2604.16298v1",
+      "url": "https://arxiv.org/abs/2604.16298v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.16298v1.pdf",
       "categories": [
-        "cs.LG"
+        "cs.CV",
+        "cs.RO"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Geometric regularization of autoencoders via observed stochastic dynamics",
+      "authors": "Sean Hill, Felix X. -F. Ye",
+      "abstract": "Stochastic dynamical systems with slow or metastable behavior evolve, on long time scales, on an unknown low-dimensional manifold in high-dimensional ambient space. Building a reduced simulator from short-burst ambient ensembles is a long-standing problem: local-chart methods like ATLAS suffer from ...",
+      "venue": "arXiv",
+      "date": "2026-04-17",
+      "arxiv_id": "2604.16282v1",
+      "url": "https://arxiv.org/abs/2604.16282v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.16282v1.pdf",
+      "categories": [
+        "cs.LG",
+        "math.DS",
+        "math.PR"
       ],
       "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Sketching the Readout of Large Language Models for Scalable Data Attribution and Valuation",
-      "authors": "Yide Ran, Jianwen Xie, Minghui Wang et al.",
-      "abstract": "Data attribution and valuation are critical for understanding data-model synergy for Large Language Models (LLMs), yet existing gradient-based methods suffer from scalability challenges on LLMs. Inspired by human cognition, where decision making relies on a focused readout of relevant memories rathe...",
+      "title": "Evaluating the Progression of Large Language Model Capabilities for Small-Molecule Drug Design",
+      "authors": "Shriram Chennakesavalu, Kirill Shmilovich, Hayley Weir et al.",
+      "abstract": "Large Language Models (LLMs) have the potential to accelerate small molecule drug design due to their ability to reason about information from diverse sources and formats. However, their practical utility remains unclear due to the lack of benchmarks that reflect real-world scenarios. In this work, ...",
       "venue": "arXiv",
       "date": "2026-04-17",
-      "arxiv_id": "2604.16197v1",
-      "url": "https://arxiv.org/abs/2604.16197v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.16197v1.pdf",
+      "arxiv_id": "2604.16279v1",
+      "url": "https://arxiv.org/abs/2604.16279v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.16279v1.pdf",
       "categories": [
-        "cs.LG"
+        "cs.LG",
+        "physics.chem-ph"
       ],
       "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "DENALI: A Dataset Enabling Non-Line-of-Sight Spatial Reasoning with Low-Cost LiDARs",
-      "authors": "Nikhil Behari, Diego Rivero, Luke Apostolides et al.",
-      "abstract": "Consumer LiDARs in mobile devices and robots typically output a single depth value per pixel. Yet internally, they record full time-resolved histograms containing direct and multi-bounce light returns; these multi-bounce returns encode rich non-line-of-sight (NLOS) cues that can enable perception of...",
+      "title": "Semantic Area Graph Reasoning for Multi-Robot Language-Guided Search",
+      "authors": "Ruiyang Wang, Hao-Lun Hsu, Jiwoo Kim et al.",
+      "abstract": "Coordinating multi-robot systems (MRS) to search in unknown environments is particularly challenging for tasks that require semantic reasoning beyond geometric exploration. Classical coordination strategies rely on frontier coverage or information gain and cannot incorporate high-level task intent, ...",
       "venue": "arXiv",
       "date": "2026-04-17",
-      "arxiv_id": "2604.16201v1",
-      "url": "https://arxiv.org/abs/2604.16201v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.16201v1.pdf",
+      "arxiv_id": "2604.16263v1",
+      "url": "https://arxiv.org/abs/2604.16263v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.16263v1.pdf",
       "categories": [
-        "cs.RO",
-        "cs.CV"
-      ],
-      "type": "benchmark",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "SENSE: Stereo OpEN Vocabulary SEmantic Segmentation",
-      "authors": "Thomas Campagnolo, Ezio Malis, Philippe Martinet et al.",
-      "abstract": "Open-vocabulary semantic segmentation enables models to segment objects or image regions beyond fixed class sets, offering flexibility in dynamic environments. However, existing methods often rely on single-view images and struggle with spatial precision, especially under occlusions and near object ...",
-      "venue": "arXiv",
-      "date": "2026-04-17",
-      "arxiv_id": "2604.15946v1",
-      "url": "https://arxiv.org/abs/2604.15946v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.15946v1.pdf",
-      "categories": [
-        "cs.CV",
         "cs.RO"
       ],
-      "type": "vision",
+      "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     }
