@@ -1,9 +1,33 @@
 {
   "last_updated": "2026-04-20",
   "count": 200,
-  "history_count": 200,
+  "history_count": 202,
   "retention_days": 30,
   "items": [
+    {
+      "title": "整合了公开研究和目前对Claude Mythos架构的主流推测",
+      "link": "https://www.qbitai.com/?s=整合了公开研究和目前",
+      "summary": "整合了公开研究和目前对Claude Mythos架构的主流推测...",
+      "date": "2026-04-20",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "联合发布全球最大规模含触觉全模态物理世界数据集 Daimon Infinit。",
+      "link": "https://www.qbitai.com/?s=联合发布全球最大规模",
+      "summary": "联合发布全球最大规模含触觉全模态物理世界数据集 Daimon Infinit。...",
+      "date": "2026-04-20",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
     {
       "title": "打造出全球首个面向AGI的全栈具身技术体系。",
       "link": "https://www.qbitai.com/?s=打造出全球首个面向A",
@@ -41,6 +65,18 @@
       ]
     },
     {
+      "title": "*   [Latest](http://techcrunch.com/latest/)",
+      "link": "https://techcrunch.com/category/artificial-intelligence/",
+      "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
+      "date": "2026-04-20",
+      "source": "TechCrunch",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "Artificial Intelligence"
+      ]
+    },
+    {
       "title": "全栈大脑会成为具身智能下一阶段竞赛的胜负手",
       "link": "https://www.qbitai.com/?s=全栈大脑会成为具身智",
       "summary": "全栈大脑会成为具身智能下一阶段竞赛的胜负手...",
@@ -62,18 +98,6 @@
       "tags": [
         "AI",
         "人工智能"
-      ]
-    },
-    {
-      "title": "*   [Latest](http://techcrunch.com/latest/)",
-      "link": "https://techcrunch.com/category/artificial-intelligence/",
-      "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
-      "date": "2026-04-20",
-      "source": "TechCrunch",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "Artificial Intelligence"
       ]
     },
     {
@@ -2383,33 +2407,6 @@
         "产品发布"
       ],
       "fetched_at": "2026-03-26T03:00:06.382569+00:00"
-    },
-    {
-      "title": "OpenAI发布GPT-4.5：更高效的推理架构",
-      "link": "https://www.jiqizhixin.com/articles/2026-03-23-3",
-      "summary": "OpenAI发布GPT-4.5模型，采用新的稀疏注意力机制，推理效率提升40%，同时保持与GPT-4相当的能力水平。",
-      "source": "机器之心",
-      "date": "2026-03-26",
-      "type": "breakthrough",
-      "tags": [
-        "AI",
-        "GPT",
-        "重大突破"
-      ],
-      "fetched_at": "2026-03-26T03:00:06.382584+00:00"
-    },
-    {
-      "title": "Mercor competitor Deccan AI raises $25M, sources experts from India",
-      "link": "https://techcrunch.com/2026/03/25/deccan-ai-raises-25m-as-ai-training-push-relies-on-india-based-workforce/",
-      "summary": "Deccan AI concentrates its workforce in India to manage quality in a fast-growing but fragmented AI training market.",
-      "source": "TechCrunch",
-      "date": "2026-03-26",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "行业动态"
-      ],
-      "fetched_at": "2026-03-26T02:42:04.336245+00:00"
     }
   ]
 }
