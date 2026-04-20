@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-04-19",
-  "count": 140,
+  "last_updated": "2026-04-20",
+  "count": 145,
   "items": [
     {
       "title": "[科氪 | 享刻智能：不追人形机器人，深耕餐饮场景做 具 身 智 能 落地派",
       "summary": "[科氪 | 享刻智能：不追人形机器人，深耕餐饮场景做 具 身 智 能 落地派",
       "url": "http://36kr.com/p/3770651778761481",
-      "date": "2026-04-19",
+      "date": "2026-04-20",
       "source": "36氪",
       "category": "具身智能",
       "type": "news",
@@ -19,12 +19,92 @@
       "title": "[具 身 智 能 走向规模化的关键：左星星解读“让机器人读懂空间”",
       "summary": "[具 身 智 能 走向规模化的关键：左星星解读“让机器人读懂空间”",
       "url": "http://36kr.com/p/3767534639760131",
-      "date": "2026-04-19",
+      "date": "2026-04-20",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
       "tags": [
         "机器人"
+      ]
+    },
+    {
+      "title": "DENALI: A Dataset Enabling Non-Line-of-Sight Spatial Reasoning with Low-Cost LiDARs",
+      "summary": "Consumer LiDARs in mobile devices and robots typically output a single depth value per pixel. Yet internally, they record full time-resolved histograms containing direct and multi-bounce light returns; these multi-bounce returns encode rich non-line-...",
+      "url": "https://arxiv.org/abs/2604.16201v1",
+      "date": "2026-04-17",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.16201v1",
+      "authors": "Nikhil Behari, Diego Rivero et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "SENSE: Stereo OpEN Vocabulary SEmantic Segmentation",
+      "summary": "Open-vocabulary semantic segmentation enables models to segment objects or image regions beyond fixed class sets, offering flexibility in dynamic environments. However, existing methods often rely on single-view images and struggle with spatial preci...",
+      "url": "https://arxiv.org/abs/2604.15946v1",
+      "date": "2026-04-17",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.15946v1",
+      "authors": "Thomas Campagnolo, Ezio Malis et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "VADF: Vision-Adaptive Diffusion Policy Framework for Efficient Robotic Manipulation",
+      "summary": "Diffusion policies are becoming mainstream in robotic manipulation but suffer from hard negative class imbalance due to uniform sampling and lack of sample difficulty awareness, leading to slow training convergence and frequent inference timeout fail...",
+      "url": "https://arxiv.org/abs/2604.15938v1",
+      "date": "2026-04-17",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.15938v1",
+      "authors": "Xinglei Yu, Zhenyang Liu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "A Reconfigurable Pneumatic Joint Enabling Localized Selective Stiffening and Shape Locking in Vine-Inspired Robots",
+      "summary": "Vine-inspired robots achieve large workspace coverage through tip eversion, enabling safe navigation in confined and cluttered environments. However, their deployment in free space is fundamentally limited by low axial stiffness, poor load-bearing ca...",
+      "url": "https://arxiv.org/abs/2604.15907v1",
+      "date": "2026-04-17",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.15907v1",
+      "authors": "Ayodele James Oyejide, Ustaz A. Yaqub et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Robust Fleet Sizing for Multi-UAV Inspection Missions under Synchronized Replacement Demand",
+      "summary": "Multi-UAV inspection missions require spare drones to replace active drones during recharging cycles. Existing fleet-sizing approaches often assume steady-state operating conditions that do not apply to finite-horizon missions, or they treat replacem...",
+      "url": "https://arxiv.org/abs/2604.15890v1",
+      "date": "2026-04-17",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.15890v1",
+      "authors": "Vishal Ramesh, Antony Thomas",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
       ]
     },
     {
@@ -50,6 +130,19 @@
       "type": "news",
       "tags": [
         "机器人"
+      ]
+    },
+    {
+      "title": "前华为自动驾驶CTO、天才少年创办。",
+      "summary": "前华为自动驾驶CTO、天才少年创办。",
+      "url": "http://36kr.com/p/3768920808391176",
+      "date": "2026-04-16",
+      "source": "36氪",
+      "category": "自主系统",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "自动驾驶"
       ]
     },
     {
@@ -130,19 +223,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "前华为自动驾驶CTO、天才少年创办。",
-      "summary": "前华为自动驾驶CTO、天才少年创办。",
-      "url": "http://36kr.com/p/3768920808391176",
-      "date": "2026-04-16",
-      "source": "36氪",
-      "category": "自主系统",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "自动驾驶"
       ]
     },
     {

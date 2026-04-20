@@ -1,6 +1,6 @@
 {
-  "date": "2026-04-19",
-  "last_updated": "2026-04-19",
+  "date": "2026-04-20",
+  "last_updated": "2026-04-20",
   "categories": {
     "ai": {
       "name": "人工智能",
@@ -8,59 +8,59 @@
       "count": 5,
       "items": [
         {
-          "title": "游戏行业不缺AI工具，缺什么？腾讯游戏用一场大赛给出答案",
-          "link": "https://www.jiqizhixin.com/search/articles/游戏行业不缺AI工具，缺什么？",
-          "summary": "游戏行业不缺AI工具，缺什么？腾讯游戏用一场大赛给出答案...",
-          "date": "2026-04-18",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
-          "title": "终于，Claude革了设计行业的命：Figma、Adobe股价重挫",
-          "link": "https://www.jiqizhixin.com/search/articles/终于，Claude革了设计行业",
-          "summary": "终于，Claude革了设计行业的命：Figma、Adobe股价重挫...",
-          "date": "2026-04-18",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
-          "title": "谷歌向左、李飞飞往右，阿里世界模型「快乐生蚝」杀出第三条路",
-          "link": "https://www.jiqizhixin.com/search/articles/谷歌向左、李飞飞往右，阿里世界",
-          "summary": "谷歌向左、李飞飞往右，阿里世界模型「快乐生蚝」杀出第三条路...",
-          "date": "2026-04-18",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
-          "title": "Claude Code新功能Auto Mode能否替代人工审核？首个压力测试来了",
-          "link": "https://www.jiqizhixin.com/search/articles/Claude Code新功能A",
-          "summary": "Claude Code新功能Auto Mode能否替代人工审核？首个压力测试来了...",
-          "date": "2026-04-18",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
-          "title": "打造出全球首个面向AGI的全栈具身技术体系。",
-          "link": "https://www.qbitai.com/?s=打造出全球首个面向A",
-          "summary": "打造出全球首个面向AGI的全栈具身技术体系。...",
+          "title": "更新越频繁，Claude Code与Codex越像",
+          "link": "https://www.jiqizhixin.com/search/articles/更新越频繁，Claude Co",
+          "summary": "更新越频繁，Claude Code与Codex越像...",
           "date": "2026-04-19",
-          "source": "量子位",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "世界引擎：Post-Training开启Physical AGI新纪元",
+          "link": "https://www.jiqizhixin.com/search/articles/世界引擎：Post-Train",
+          "summary": "世界引擎：Post-Training开启Physical AGI新纪元...",
+          "date": "2026-04-19",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "你以为在举报AI烂片？谷歌：这招，我用验证码玩了15年",
+          "link": "https://www.jiqizhixin.com/search/articles/你以为在举报AI烂片？谷歌：这",
+          "summary": "你以为在举报AI烂片？谷歌：这招，我用验证码玩了15年...",
+          "date": "2026-04-19",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "高德全自主具身机器人炸场亦庄马拉松，拿下「导盲」这道硬核考题",
+          "link": "https://www.jiqizhixin.com/search/articles/高德全自主具身机器人炸场亦庄马",
+          "summary": "高德全自主具身机器人炸场亦庄马拉松，拿下「导盲」这道硬核考题...",
+          "date": "2026-04-19",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "内存不够用这件事，可能要持续到2030年",
+          "link": "https://www.jiqizhixin.com/search/articles/内存不够用这件事，可能要持续到",
+          "summary": "内存不够用这件事，可能要持续到2030年...",
+          "date": "2026-04-19",
+          "source": "机器之心",
           "type": "industry",
           "tags": [
             "AI",

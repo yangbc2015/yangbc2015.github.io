@@ -1,18 +1,53 @@
 {
-  "last_updated": "2026-04-19",
-  "count": 7,
+  "last_updated": "2026-04-20",
+  "count": 9,
   "items": [
     {
-      "title": "MM-WebAgent: A Hierarchical Multimodal Web Agent for Webpage Generation",
-      "authors": "Yan Li, Zezi Zeng, Yifan Yang et al.",
-      "abstract": "The rapid progress of Artificial Intelligence Generated Content (AIGC) tools enables images, videos, and visualizations to be created on demand for webpage design, offering a flexible and increasingly adopted paradigm for modern UI/UX. However, directly integrating such tools into automated webpage ...",
+      "title": "\"Taking Stock at FAccT\": Using Participatory Design to Co-Create a Vision for the Fairness, Accountability and Transparency Community",
+      "authors": "Shiran Dudy, Jan Simson, Yanan Long",
+      "abstract": "As a relatively new forum, ACM FAccT has become a key space for activists and scholars to critically examine emerging AI and ML technologies. It brings together academics, civil society members, and government representatives from diverse fields to explore the broader societal impacts of both deploy...",
       "venue": "arXiv",
-      "date": "2026-04-16",
-      "arxiv_id": "2604.15309v1",
-      "url": "https://arxiv.org/abs/2604.15309v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.15309v1.pdf",
+      "date": "2026-04-17",
+      "arxiv_id": "2604.16224v1",
+      "url": "https://arxiv.org/abs/2604.16224v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.16224v1.pdf",
       "categories": [
-        "cs.CV",
+        "cs.HC",
+        "cs.AI",
+        "cs.CY"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Beyond Surface Statistics: Robust Conformal Prediction for LLMs via Internal Representations",
+      "authors": "Yanli Wang, Peng Kuang, Xiaoyu Han et al.",
+      "abstract": "Large language models are increasingly deployed in settings where reliability matters, yet output-level uncertainty signals such as token probabilities, entropy, and self-consistency can become brittle under calibration--deployment mismatch. Conformal prediction provides finite-sample validity under...",
+      "venue": "arXiv",
+      "date": "2026-04-17",
+      "arxiv_id": "2604.16217v1",
+      "url": "https://arxiv.org/abs/2604.16217v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.16217v1.pdf",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "JumpLoRA: Sparse Adapters for Continual Learning in Large Language Models",
+      "authors": "Alexandra Dragomir, Ioana Pintilie, Antonio Barbalau et al.",
+      "abstract": "Adapter-based methods have become a cost-effective approach to continual learning (CL) for Large Language Models (LLMs), by sequentially learning a low-rank update matrix for each task. To mitigate catastrophic forgetting, state-of-the-art approaches impose constraints on new adapters with respect t...",
+      "venue": "arXiv",
+      "date": "2026-04-17",
+      "arxiv_id": "2604.16171v1",
+      "url": "https://arxiv.org/abs/2604.16171v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.16171v1.pdf",
+      "categories": [
+        "cs.LG",
         "cs.AI",
         "cs.CL"
       ],
@@ -21,16 +56,48 @@
       "source": "arXiv"
     },
     {
-      "title": "Generalization in LLM Problem Solving: The Case of the Shortest Path",
-      "authors": "Yao Tong, Jiayuan Ye, Anastasia Borovykh et al.",
-      "abstract": "Whether language models can systematically generalize remains actively debated. Yet empirical performance is jointly shaped by multiple factors such as training data, training paradigms, and inference-time strategies, making failures difficult to interpret. We introduce a controlled synthetic enviro...",
+      "title": "GAViD: A Large-Scale Multimodal Dataset for Context-Aware Group Affect Recognition from Videos",
+      "authors": "Deepak Kumar, Abhishek Pratap Singh, Puneet Kumar et al.",
+      "abstract": "Understanding affective dynamics in real-world social systems is fundamental to modeling and analyzing human-human interactions in complex environments. Group affect emerges from intertwined human-human interactions, contextual influences, and behavioral cues, making its quantitative modeling a chal...",
       "venue": "arXiv",
-      "date": "2026-04-16",
-      "arxiv_id": "2604.15306v1",
-      "url": "https://arxiv.org/abs/2604.15306v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.15306v1.pdf",
+      "date": "2026-04-17",
+      "arxiv_id": "2604.16214v1",
+      "url": "https://arxiv.org/abs/2604.16214v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.16214v1.pdf",
       "categories": [
-        "cs.AI",
+        "cs.CV"
+      ],
+      "type": "benchmark",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "AIFIND: Artifact-Aware Interpreting Fine-Grained Alignment for Incremental Face Forgery Detection",
+      "authors": "Hao Wang, Beichen Zhang, Yanpei Gong et al.",
+      "abstract": "As forgery types continue to emerge consistently, Incremental Face Forgery Detection (IFFD) has become a crucial paradigm. However, existing methods typically rely on data replay or coarse binary supervision, which fails to explicitly constrain the feature space, leading to severe feature drift and ...",
+      "venue": "arXiv",
+      "date": "2026-04-17",
+      "arxiv_id": "2604.16207v1",
+      "url": "https://arxiv.org/abs/2604.16207v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.16207v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "OT on the Map: Quantifying Domain Shifts in Geographic Space",
+      "authors": "Haoran Zhang, Livia Betti, Konstantin Klemmer et al.",
+      "abstract": "In computer vision and machine learning for geographic data, out-of-domain generalization is a pervasive challenge, arising from uneven global data coverage and distribution shifts across geographic regions. Though models are frequently trained in one region and deployed in another, there is no prin...",
+      "venue": "arXiv",
+      "date": "2026-04-17",
+      "arxiv_id": "2604.16220v1",
+      "url": "https://arxiv.org/abs/2604.16220v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.16220v1.pdf",
+      "categories": [
         "cs.LG"
       ],
       "type": "ml",
@@ -38,17 +105,15 @@
       "source": "arXiv"
     },
     {
-      "title": "Diagnosing LLM Judge Reliability: Conformal Prediction Sets and Transitivity Violations",
-      "authors": "Manan Gupta, Dhruv Kumar",
-      "abstract": "LLM-as-judge frameworks are increasingly used for automatic NLG evaluation, yet their per-instance reliability remains poorly understood. We present a two-pronged diagnostic toolkit applied to SummEval: $\\textbf{(1)}$ a transitivity analysis that reveals widespread per-input inconsistency masked by ...",
+      "title": "Sketching the Readout of Large Language Models for Scalable Data Attribution and Valuation",
+      "authors": "Yide Ran, Jianwen Xie, Minghui Wang et al.",
+      "abstract": "Data attribution and valuation are critical for understanding data-model synergy for Large Language Models (LLMs), yet existing gradient-based methods suffer from scalability challenges on LLMs. Inspired by human cognition, where decision making relies on a focused readout of relevant memories rathe...",
       "venue": "arXiv",
-      "date": "2026-04-16",
-      "arxiv_id": "2604.15302v1",
-      "url": "https://arxiv.org/abs/2604.15302v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.15302v1.pdf",
+      "date": "2026-04-17",
+      "arxiv_id": "2604.16197v1",
+      "url": "https://arxiv.org/abs/2604.16197v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.16197v1.pdf",
       "categories": [
-        "cs.AI",
-        "cs.CL",
         "cs.LG"
       ],
       "type": "nlp",
@@ -56,62 +121,31 @@
       "source": "arXiv"
     },
     {
-      "title": "Bidirectional Cross-Modal Prompting for Event-Frame Asymmetric Stereo",
-      "authors": "Ninghui Xu, Fabio Tosi, Lihui Wang et al.",
-      "abstract": "Conventional frame-based cameras capture rich contextual information but suffer from limited temporal resolution and motion blur in dynamic scenes. Event cameras offer an alternative visual representation with higher dynamic range free from such limitations. The complementary characteristics of the ...",
+      "title": "DENALI: A Dataset Enabling Non-Line-of-Sight Spatial Reasoning with Low-Cost LiDARs",
+      "authors": "Nikhil Behari, Diego Rivero, Luke Apostolides et al.",
+      "abstract": "Consumer LiDARs in mobile devices and robots typically output a single depth value per pixel. Yet internally, they record full time-resolved histograms containing direct and multi-bounce light returns; these multi-bounce returns encode rich non-line-of-sight (NLOS) cues that can enable perception of...",
       "venue": "arXiv",
-      "date": "2026-04-16",
-      "arxiv_id": "2604.15312v1",
-      "url": "https://arxiv.org/abs/2604.15312v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.15312v1.pdf",
+      "date": "2026-04-17",
+      "arxiv_id": "2604.16201v1",
+      "url": "https://arxiv.org/abs/2604.16201v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.16201v1.pdf",
       "categories": [
+        "cs.RO",
         "cs.CV"
       ],
-      "type": "vision",
+      "type": "benchmark",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "LeapAlign: Post-Training Flow Matching Models at Any Generation Step by Building Two-Step Trajectories",
-      "authors": "Zhanhao Liang, Tao Yang, Jie Wu et al.",
-      "abstract": "This paper focuses on the alignment of flow matching models with human preferences. A promising way is fine-tuning by directly backpropagating reward gradients through the differentiable generation process of flow matching. However, backpropagating through long trajectories results in prohibitive me...",
+      "title": "SENSE: Stereo OpEN Vocabulary SEmantic Segmentation",
+      "authors": "Thomas Campagnolo, Ezio Malis, Philippe Martinet et al.",
+      "abstract": "Open-vocabulary semantic segmentation enables models to segment objects or image regions beyond fixed class sets, offering flexibility in dynamic environments. However, existing methods often rely on single-view images and struggle with spatial precision, especially under occlusions and near object ...",
       "venue": "arXiv",
-      "date": "2026-04-16",
-      "arxiv_id": "2604.15311v1",
-      "url": "https://arxiv.org/abs/2604.15311v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.15311v1.pdf",
-      "categories": [
-        "cs.CV"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Abstract Sim2Real through Approximate Information States",
-      "authors": "Yunfu Deng, Yuhao Li, Josiah P. Hanna",
-      "abstract": "In recent years, reinforcement learning (RL) has shown remarkable success in robotics when a fast and accurate simulator is available for a given task. When using RL and simulation, more simulator realism is generally beneficial but becomes harder to obtain as robots are deployed in increasingly com...",
-      "venue": "arXiv",
-      "date": "2026-04-16",
-      "arxiv_id": "2604.15289v1",
-      "url": "https://arxiv.org/abs/2604.15289v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.15289v1.pdf",
-      "categories": [
-        "cs.RO"
-      ],
-      "type": "ai",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "R3D: Revisiting 3D Policy Learning",
-      "authors": "Zhengdong Hong, Shenrui Wu, Haozhe Cui et al.",
-      "abstract": "3D policy learning promises superior generalization and cross-embodiment transfer, but progress has been hindered by training instabilities and severe overfitting, precluding the adoption of powerful 3D perception models. In this work, we systematically diagnose these failures, identifying the omiss...",
-      "venue": "arXiv",
-      "date": "2026-04-16",
-      "arxiv_id": "2604.15281v1",
-      "url": "https://arxiv.org/abs/2604.15281v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.15281v1.pdf",
+      "date": "2026-04-17",
+      "arxiv_id": "2604.15946v1",
+      "url": "https://arxiv.org/abs/2604.15946v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.15946v1.pdf",
       "categories": [
         "cs.CV",
         "cs.RO"

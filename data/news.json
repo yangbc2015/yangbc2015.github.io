@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-04-19",
+  "last_updated": "2026-04-20",
   "count": 200,
-  "history_count": 200,
+  "history_count": 206,
   "retention_days": 30,
   "items": [
     {
       "title": "打造出全球首个面向AGI的全栈具身技术体系。",
       "link": "https://www.qbitai.com/?s=打造出全球首个面向A",
       "summary": "打造出全球首个面向AGI的全栈具身技术体系。...",
-      "date": "2026-04-19",
+      "date": "2026-04-20",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -20,7 +20,7 @@
       "title": "魏建军回应“接地气”：我农民出身",
       "link": "https://www.qbitai.com/?s=魏建军回应“接地气”",
       "summary": "魏建军回应“接地气”：我农民出身...",
-      "date": "2026-04-19",
+      "date": "2026-04-20",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -32,7 +32,7 @@
       "title": "自然语言控制设备，零编程编排流程",
       "link": "https://www.qbitai.com/?s=自然语言控制设备，零",
       "summary": "自然语言控制设备，零编程编排流程...",
-      "date": "2026-04-19",
+      "date": "2026-04-20",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -44,7 +44,7 @@
       "title": "全栈大脑会成为具身智能下一阶段竞赛的胜负手",
       "link": "https://www.qbitai.com/?s=全栈大脑会成为具身智",
       "summary": "全栈大脑会成为具身智能下一阶段竞赛的胜负手...",
-      "date": "2026-04-19",
+      "date": "2026-04-20",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -56,7 +56,7 @@
       "title": "Gemini Robotics主打空间推理的第三代模型。",
       "link": "https://www.qbitai.com/?s=Gemini Rob",
       "summary": "Gemini Robotics主打空间推理的第三代模型。...",
-      "date": "2026-04-19",
+      "date": "2026-04-20",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -68,12 +68,84 @@
       "title": "*   [Latest](http://techcrunch.com/latest/)",
       "link": "https://techcrunch.com/category/artificial-intelligence/",
       "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
-      "date": "2026-04-19",
+      "date": "2026-04-20",
       "source": "TechCrunch",
       "type": "industry",
       "tags": [
         "AI",
         "Artificial Intelligence"
+      ]
+    },
+    {
+      "title": "更新越频繁，Claude Code与Codex越像",
+      "link": "https://www.jiqizhixin.com/search/articles/更新越频繁，Claude Co",
+      "summary": "更新越频繁，Claude Code与Codex越像...",
+      "date": "2026-04-19",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "世界引擎：Post-Training开启Physical AGI新纪元",
+      "link": "https://www.jiqizhixin.com/search/articles/世界引擎：Post-Train",
+      "summary": "世界引擎：Post-Training开启Physical AGI新纪元...",
+      "date": "2026-04-19",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "你以为在举报AI烂片？谷歌：这招，我用验证码玩了15年",
+      "link": "https://www.jiqizhixin.com/search/articles/你以为在举报AI烂片？谷歌：这",
+      "summary": "你以为在举报AI烂片？谷歌：这招，我用验证码玩了15年...",
+      "date": "2026-04-19",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "高德全自主具身机器人炸场亦庄马拉松，拿下「导盲」这道硬核考题",
+      "link": "https://www.jiqizhixin.com/search/articles/高德全自主具身机器人炸场亦庄马",
+      "summary": "高德全自主具身机器人炸场亦庄马拉松，拿下「导盲」这道硬核考题...",
+      "date": "2026-04-19",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "内存不够用这件事，可能要持续到2030年",
+      "link": "https://www.jiqizhixin.com/search/articles/内存不够用这件事，可能要持续到",
+      "summary": "内存不够用这件事，可能要持续到2030年...",
+      "date": "2026-04-19",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "新一代记忆智能体框架MIA：让智能体告别「失忆式工作」，在持续进化中变强",
+      "link": "https://www.jiqizhixin.com/search/articles/新一代记忆智能体框架MIA：让",
+      "summary": "新一代记忆智能体框架MIA：让智能体告别「失忆式工作」，在持续进化中变强...",
+      "date": "2026-04-19",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
       ]
     },
     {
@@ -2338,86 +2410,6 @@
         "行业动态"
       ],
       "fetched_at": "2026-03-26T02:42:04.336245+00:00"
-    },
-    {
-      "title": "The AI skills gap is here, says AI company, and power users are pulling ahead",
-      "link": "https://techcrunch.com/2026/03/25/the-ai-skills-gap-is-here-says-ai-company-and-power-users-are-pulling-ahead/",
-      "summary": "Anthropic finds AI isn’t replacing jobs yet, but early data shows growing inequality as experienced users gain an edge, raising concerns about future displacement and workforce divides.",
-      "source": "TechCrunch",
-      "date": "2026-03-26",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "行业动态"
-      ],
-      "fetched_at": "2026-03-26T02:42:04.336415+00:00"
-    },
-    {
-      "title": "Google unveils TurboQuant, a new AI memory compression algorithm — and yes, the internet is calling it ‘Pied Piper’",
-      "link": "https://techcrunch.com/2026/03/25/google-turboquant-ai-memory-compression-silicon-valley-pied-piper/",
-      "summary": "Google’s TurboQuant has the internet joking about Pied Piper from HBO's \"Silicon Valley.\" The compression algorithm promises to shrink AI’s “working memory” by up to 6x, but it’s still just a lab experiment for now.",
-      "source": "TechCrunch",
-      "date": "2026-03-26",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "行业动态"
-      ],
-      "fetched_at": "2026-03-26T02:42:04.336566+00:00"
-    },
-    {
-      "title": "Melania Trump wants a robot to homeschool your child",
-      "link": "https://techcrunch.com/2026/03/25/melania-trump-wants-a-robot-to-homeschool-your-child/",
-      "summary": "The first lady sees AI and robotics playing a prominent role in the future of American education.",
-      "source": "TechCrunch",
-      "date": "2026-03-26",
-      "type": "industry",
-      "tags": [
-        "机器人",
-        "AI",
-        "行业动态"
-      ],
-      "fetched_at": "2026-03-26T00:13:13.025180+00:00"
-    },
-    {
-      "title": "Bernie Sanders and AOC propose a ban on data center construction",
-      "link": "https://techcrunch.com/2026/03/25/bernie-sanders-and-aoc-propose-a-ban-on-data-center-construction/",
-      "summary": "Senator Bernie Sanders and Rep. Alexandria Ocasio-Cortez introduced companion legislation to halt construction on new data centers until Congress passes comprehensive AI regulation.",
-      "source": "TechCrunch",
-      "date": "2026-03-26",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "行业动态"
-      ],
-      "fetched_at": "2026-03-25T21:00:06.627687+00:00"
-    },
-    {
-      "title": "Google launches Lyria 3 Pro music generation model",
-      "link": "https://techcrunch.com/2026/03/25/google-launches-lyria-3-pro-music-generation-model/",
-      "summary": "Google is launching Lyria 3 Pro, an upgraded music model that generates longer, more customizable tracks, as it expands AI music tools across Gemini, enterprise products, and other services.",
-      "source": "TechCrunch",
-      "date": "2026-03-26",
-      "type": "breakthrough",
-      "tags": [
-        "重大突破",
-        "AI",
-        "Gemini"
-      ],
-      "fetched_at": "2026-03-25T20:00:07.526837+00:00"
-    },
-    {
-      "title": "Reddit takes on the bots with new ‘human verification’ requirements for fishy behavior",
-      "link": "https://techcrunch.com/2026/03/25/reddit-bots-new-human-verification-requirements/",
-      "summary": "Reddit will require suspected automated accounts to verify they’re human, as it ramps up efforts to curb bot-driven spam and manipulation.",
-      "source": "TechCrunch",
-      "date": "2026-03-26",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "行业动态"
-      ],
-      "fetched_at": "2026-03-25T20:00:07.527110+00:00"
     }
   ]
 }
