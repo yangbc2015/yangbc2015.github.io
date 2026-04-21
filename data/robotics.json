@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-04-21",
-  "count": 147,
+  "count": 152,
   "items": [
     {
       "title": "[科氪 | 享刻智能：不追人形机器人，深耕餐饮场景做 具 身 智 能 落地派",
@@ -25,6 +25,86 @@
       "type": "news",
       "tags": [
         "机器人"
+      ]
+    },
+    {
+      "title": "OneVL: One-Step Latent Reasoning and Planning with Vision-Language Explanation",
+      "summary": "Chain-of-Thought (CoT) reasoning has become a powerful driver of trajectory prediction in VLA-based autonomous driving, yet its autoregressive nature imposes a latency cost that is prohibitive for real-time deployment. Latent CoT methods attempt to c...",
+      "url": "https://arxiv.org/abs/2604.18486v1",
+      "date": "2026-04-20",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.18486v1",
+      "authors": "Jinghui Lu, Jiayi Guan et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "XEmbodied: A Foundation Model with Enhanced Geometric and Physical Cues for Large-Scale Embodied Environments",
+      "summary": "Vision-Language-Action (VLA) models drive next-generation autonomous systems, but training them requires scalable, high-quality annotations from complex environments. Current cloud pipelines rely on generic vision-language models (VLMs) that lack geo...",
+      "url": "https://arxiv.org/abs/2604.18484v1",
+      "date": "2026-04-20",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.18484v1",
+      "authors": "Kangan Qian, ChuChu Xie et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Safe Control using Learned Safety Filters and Adaptive Conformal Inference",
+      "summary": "Safety filters have been shown to be effective tools to ensure the safety of control systems with unsafe nominal policies. To address scalability challenges in traditional synthesis methods, learning-based approaches have been proposed for designing ...",
+      "url": "https://arxiv.org/abs/2604.18482v1",
+      "date": "2026-04-20",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.18482v1",
+      "authors": "Sacha Huriot, Ihab Tabbara et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Using large language models for embodied planning introduces systematic safety risks",
+      "summary": "Large language models are increasingly used as planners for robotic systems, yet how safely they plan remains an open question. To evaluate safe planning systematically, we introduce DESPITE, a benchmark of 12,279 tasks spanning physical and normativ...",
+      "url": "https://arxiv.org/abs/2604.18463v1",
+      "date": "2026-04-20",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.18463v1",
+      "authors": "Tao Zhang, Kaixian Qu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "DAG-STL: A Hierarchical Framework for Zero-Shot Trajectory Planning under Signal Temporal Logic Specifications",
+      "summary": "Signal Temporal Logic (STL) is a powerful language for specifying temporally structured robotic tasks. Planning executable trajectories under STL constraints remains difficult when system dynamics and environment structure are not analytically availa...",
+      "url": "https://arxiv.org/abs/2604.18343v1",
+      "date": "2026-04-20",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.18343v1",
+      "authors": "Ruijia Liu, Ancheng Hou et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
       ]
     },
     {

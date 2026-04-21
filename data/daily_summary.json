@@ -8,18 +8,6 @@
       "count": 5,
       "items": [
         {
-          "title": "Markdown Content:",
-          "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-          "summary": "Markdown Content:...",
-          "date": "2026-04-20",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
           "title": "ICLR发了Oral又反悔，理由是查到了制裁名单？",
           "link": "https://www.jiqizhixin.com/search/articles/ICLR发了Oral又反悔，理",
           "summary": "ICLR发了Oral又反悔，理由是查到了制裁名单？...",
@@ -59,6 +47,18 @@
           "title": "具身智能“图灵测试”来了，ATEC2026真实世界极限挑战全球招募启动",
           "link": "https://www.jiqizhixin.com/search/articles/具身智能“图灵测试”来了，AT",
           "summary": "具身智能“图灵测试”来了，ATEC2026真实世界极限挑战全球招募启动...",
+          "date": "2026-04-20",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "让AI从论文走到实验室：人大高瓴提出长程研究工程系统AiScientist",
+          "link": "https://www.jiqizhixin.com/search/articles/让AI从论文走到实验室：人大高",
+          "summary": "让AI从论文走到实验室：人大高瓴提出长程研究工程系统AiScientist...",
           "date": "2026-04-20",
           "source": "机器之心",
           "type": "industry",
