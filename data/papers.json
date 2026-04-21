@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-04-21",
-  "count": 6,
+  "count": 7,
   "items": [
     {
       "title": "MathNet: a Global Multimodal Benchmark for Mathematical Reasoning and Retrieval",
@@ -29,6 +29,24 @@
       "arxiv_id": "2604.18580v1",
       "url": "https://arxiv.org/abs/2604.18580v1",
       "pdf_url": "https://arxiv.org/pdf/2604.18580v1.pdf",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "A multimodal and temporal foundation model for virtual patient representations at healthcare system scale",
+      "authors": "Andrew Zhang, Tong Ding, Sophia J. Wagner et al.",
+      "abstract": "Modern medicine generates vast multimodal data across siloed systems, yet no existing model integrates the full breadth and temporal depth of the clinical record into a unified patient representation. We introduce Apollo, a multimodal temporal foundation model trained and evaluated on over three dec...",
+      "venue": "arXiv",
+      "date": "2026-04-20",
+      "arxiv_id": "2604.18570v1",
+      "url": "https://arxiv.org/abs/2604.18570v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.18570v1.pdf",
       "categories": [
         "cs.LG",
         "cs.AI",
