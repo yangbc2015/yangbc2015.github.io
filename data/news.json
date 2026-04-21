@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-04-20",
+  "last_updated": "2026-04-21",
   "count": 200,
-  "history_count": 200,
+  "history_count": 205,
   "retention_days": 30,
   "items": [
     {
       "title": "整合了公开研究和目前对Claude Mythos架构的主流推测",
       "link": "https://www.qbitai.com/?s=整合了公开研究和目前",
       "summary": "整合了公开研究和目前对Claude Mythos架构的主流推测...",
-      "date": "2026-04-20",
+      "date": "2026-04-21",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -20,7 +20,7 @@
       "title": "联合发布全球最大规模含触觉全模态物理世界数据集 Daimon Infinit。",
       "link": "https://www.qbitai.com/?s=联合发布全球最大规模",
       "summary": "联合发布全球最大规模含触觉全模态物理世界数据集 Daimon Infinit。...",
-      "date": "2026-04-20",
+      "date": "2026-04-21",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -32,7 +32,7 @@
       "title": "打造出全球首个面向AGI的全栈具身技术体系。",
       "link": "https://www.qbitai.com/?s=打造出全球首个面向A",
       "summary": "打造出全球首个面向AGI的全栈具身技术体系。...",
-      "date": "2026-04-20",
+      "date": "2026-04-21",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -44,7 +44,7 @@
       "title": "魏建军回应“接地气”：我农民出身",
       "link": "https://www.qbitai.com/?s=魏建军回应“接地气”",
       "summary": "魏建军回应“接地气”：我农民出身...",
-      "date": "2026-04-20",
+      "date": "2026-04-21",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -56,7 +56,7 @@
       "title": "自然语言控制设备，零编程编排流程",
       "link": "https://www.qbitai.com/?s=自然语言控制设备，零",
       "summary": "自然语言控制设备，零编程编排流程...",
-      "date": "2026-04-20",
+      "date": "2026-04-21",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -68,12 +68,84 @@
       "title": "*   [Latest](http://techcrunch.com/latest/)",
       "link": "https://techcrunch.com/category/artificial-intelligence/",
       "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
-      "date": "2026-04-20",
+      "date": "2026-04-21",
       "source": "TechCrunch",
       "type": "industry",
       "tags": [
         "AI",
         "Artificial Intelligence"
+      ]
+    },
+    {
+      "title": "Markdown Content:",
+      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+      "summary": "Markdown Content:...",
+      "date": "2026-04-20",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "ICLR发了Oral又反悔，理由是查到了制裁名单？",
+      "link": "https://www.jiqizhixin.com/search/articles/ICLR发了Oral又反悔，理",
+      "summary": "ICLR发了Oral又反悔，理由是查到了制裁名单？...",
+      "date": "2026-04-20",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "一张图生成「能动」的3D资产：VAST+香港大学AniGen把AIGC推向动画、游戏、仿真与具身智能 (SIGGRAPH 2026 TOG)",
+      "link": "https://www.jiqizhixin.com/search/articles/一张图生成「能动」的3D资产：",
+      "summary": "一张图生成「能动」的3D资产：VAST+香港大学AniGen把AIGC推向动画、游戏、仿真与具身智能 (SIGGRAPH 2026 TOG)...",
+      "date": "2026-04-20",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "阿里发布Qwen3.6-Max预览版，登顶最佳国产模型",
+      "link": "https://www.jiqizhixin.com/search/articles/阿里发布Qwen3.6-Max",
+      "summary": "阿里发布Qwen3.6-Max预览版，登顶最佳国产模型...",
+      "date": "2026-04-20",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "具身智能“图灵测试”来了，ATEC2026真实世界极限挑战全球招募启动",
+      "link": "https://www.jiqizhixin.com/search/articles/具身智能“图灵测试”来了，AT",
+      "summary": "具身智能“图灵测试”来了，ATEC2026真实世界极限挑战全球招募启动...",
+      "date": "2026-04-20",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "让AI从论文走到实验室：人大高瓴提出长程研究工程系统AiScientist",
+      "link": "https://www.jiqizhixin.com/search/articles/让AI从论文走到实验室：人大高",
+      "summary": "让AI从论文走到实验室：人大高瓴提出长程研究工程系统AiScientist...",
+      "date": "2026-04-20",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
       ]
     },
     {
@@ -416,18 +488,6 @@
       "title": "当AI迈入Harness时代：以MiniMax为样本看智能体云端新基建",
       "link": "https://www.jiqizhixin.com/search/articles/当AI迈入Harness时代：",
       "summary": "当AI迈入Harness时代：以MiniMax为样本看智能体云端新基建...",
-      "date": "2026-04-16",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Markdown Content:",
-      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-      "summary": "Markdown Content:...",
       "date": "2026-04-16",
       "source": "机器之心",
       "type": "industry",
@@ -2343,70 +2403,6 @@
         "AI",
         "人工智能"
       ]
-    },
-    {
-      "title": "ICLR 2026 Oral | Revela：用语言建模重新定义稠密检索器训练",
-      "link": "https://www.jiqizhixin.com/search/articles/ICLR 2026 Oral ",
-      "summary": "ICLR 2026 Oral | Revela：用语言建模重新定义稠密检索器训练...",
-      "date": "2026-03-26",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "打破具身世界模型可执行性鸿沟 ！港中深-跨维智能团队提出EVA框架，用强化学习让视频世界模型真正“动”起来",
-      "link": "https://www.jiqizhixin.com/search/articles/打破具身世界模型可执行性鸿沟 ",
-      "summary": "打破具身世界模型可执行性鸿沟 ！港中深-跨维智能团队提出EVA框架，用强化学习让视频世界模型真正“动”起来...",
-      "date": "2026-03-26",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "AI写CUDA算子准确率92%，到国产芯片只剩4%？上交方法直线拉升，DeepSeek也适用",
-      "link": "https://www.jiqizhixin.com/search/articles/AI写CUDA算子准确率92%",
-      "summary": "AI写CUDA算子准确率92%，到国产芯片只剩4%？上交方法直线拉升，DeepSeek也适用...",
-      "date": "2026-03-26",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Claude 4 发布：Anthropic推出新一代AI模型",
-      "link": "https://www.jiqizhixin.com/articles/2026-03-23-1",
-      "summary": "Anthropic正式发布Claude 4系列模型，包括Claude 4 Opus和Claude 4 Sonnet。新模型在推理能力、代码生成和多模态理解方面均有显著提升。",
-      "source": "机器之心",
-      "date": "2026-03-26",
-      "type": "breakthrough",
-      "tags": [
-        "AI",
-        "Claude",
-        "重大突破"
-      ],
-      "fetched_at": "2026-03-26T03:00:06.382536+00:00"
-    },
-    {
-      "title": "Google Gemini 2.5 Pro开放API访问",
-      "link": "https://www.jiqizhixin.com/articles/2026-03-23-2",
-      "summary": "谷歌宣布Gemini 2.5 Pro模型正式通过API向开发者开放。该模型支持200万token上下文窗口，在复杂推理任务上表现优异。",
-      "source": "机器之心",
-      "date": "2026-03-26",
-      "type": "product",
-      "tags": [
-        "Gemini",
-        "AI",
-        "产品发布"
-      ],
-      "fetched_at": "2026-03-26T03:00:06.382569+00:00"
     }
   ]
 }
