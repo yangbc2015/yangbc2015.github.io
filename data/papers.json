@@ -1,5 +1,72 @@
 {
   "last_updated": "2026-04-21",
-  "count": 0,
-  "items": []
+  "count": 4,
+  "items": [
+    {
+      "title": "DORA Explorer: Improving the Exploration Ability of LLMs Without Training",
+      "authors": "Priya Gurjar, Md Farhan Ishmam, Kenneth Marino",
+      "abstract": "Despite the rapid progress, LLMs for sequential decision-making (i.e., LLM agents) still struggle to produce diverse outputs. This leads to insufficient exploration, convergence to sub-optimal solutions, and becoming stuck in loops. Such limitations can be problematic in environments that require ac...",
+      "venue": "arXiv",
+      "date": "2026-04-19",
+      "arxiv_id": "2604.17244v1",
+      "url": "https://arxiv.org/abs/2604.17244v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.17244v1.pdf",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Safe and Policy-Compliant Multi-Agent Orchestration for Enterprise AI",
+      "authors": "Vinil Pasupuleti, Shyalendar Reddy Allala, Siva Rama Krishna Varma Bayyavarapu et al.",
+      "abstract": "Enterprise AI systems increasingly deploy multiple intelligent agents across mission-critical workflows that must satisfy hard policy constraints, bounded risk exposure, and comprehensive auditability (SOX, HIPAA, GDPR). Existing coordination methods - cooperative MARL, consensus protocols, and cent...",
+      "venue": "arXiv",
+      "date": "2026-04-19",
+      "arxiv_id": "2604.17240v1",
+      "url": "https://arxiv.org/abs/2604.17240v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.17240v1.pdf",
+      "categories": [
+        "cs.AI"
+      ],
+      "type": "ai",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "RemoteShield: Enable Robust Multimodal Large Language Models for Earth Observation",
+      "authors": "Rui Min, Liang Yao, Shiyu Miao et al.",
+      "abstract": "A robust Multimodal Large Language Model (MLLM) for Earth Observation should maintain consistent interpretation and reasoning under realistic input variations. However, current Remote Sensing MLLMs fail to meet this requirement. Trained on carefully curated clean datasets, they learn brittle mapping...",
+      "venue": "arXiv",
+      "date": "2026-04-19",
+      "arxiv_id": "2604.17243v1",
+      "url": "https://arxiv.org/abs/2604.17243v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.17243v1.pdf",
+      "categories": [
+        "cs.CV"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Enhancing Zero-shot Personalized Image Aesthetics Assessment with Profile-aware Multimodal LLM",
+      "authors": "Chun Wang, Chenfeng Wei, Chenyang Liu et al.",
+      "abstract": "Personalized image aesthetics assessment (PIAA) aims to predict an individual user's subjective rating of an image, which requires modeling user-specific aesthetic preferences. Existing methods rely on historical user ratings for this modeling and therefore struggle when such data are unavailable. W...",
+      "venue": "arXiv",
+      "date": "2026-04-19",
+      "arxiv_id": "2604.17233v1",
+      "url": "https://arxiv.org/abs/2604.17233v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.17233v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    }
+  ]
 }
