@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-04-22",
-  "count": 152,
+  "count": 157,
   "items": [
     {
       "title": "[科氪 | 享刻智能：不追人形机器人，深耕餐饮场景做 具 身 智 能 落地派",
@@ -13,6 +13,86 @@
       "tags": [
         "机器人",
         "人形机器人"
+      ]
+    },
+    {
+      "title": "UniT: Toward a Unified Physical Language for Human-to-Humanoid Policy Learning and World Modeling",
+      "summary": "Scaling humanoid foundation models is bottlenecked by the scarcity of robotic data. While massive egocentric human data offers a scalable alternative, bridging the cross-embodiment chasm remains a fundamental challenge due to kinematic mismatches. We...",
+      "url": "https://arxiv.org/abs/2604.19734v1",
+      "date": "2026-04-21",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.19734v1",
+      "authors": "Boyu Chen, Yi Chen et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "VLA Foundry: A Unified Framework for Training Vision-Language-Action Models",
+      "summary": "We present VLA Foundry, an open-source framework that unifies LLM, VLM, and VLA training in a single codebase. Most open-source VLA efforts specialize on the action training stage, often stitching together incompatible pretraining pipelines. VLA Foun...",
+      "url": "https://arxiv.org/abs/2604.19728v1",
+      "date": "2026-04-21",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.19728v1",
+      "authors": "Jean Mercat, Sedrick Keh et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Mask World Model: Predicting What Matters for Robust Robot Policy Learning",
+      "summary": "World models derived from large-scale video generative pre-training have emerged as a promising paradigm for generalist robot policy learning. However, standard approaches often focus on high-fidelity RGB video prediction, this can result in overfitt...",
+      "url": "https://arxiv.org/abs/2604.19683v1",
+      "date": "2026-04-21",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.19683v1",
+      "authors": "Yunfan Lou, Xiaowei Chi et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Learning Hybrid-Control Policies for High-Precision In-Contact Manipulation Under Uncertainty",
+      "summary": "Reinforcement learning-based control policies have been frequently demonstrated to be more effective than analytical techniques for many manipulation tasks. Commonly, these methods learn neural control policies that predict end-effector pose changes ...",
+      "url": "https://arxiv.org/abs/2604.19677v1",
+      "date": "2026-04-21",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.19677v1",
+      "authors": "Hunter L. Brown, Geoffrey Hollinger et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Multi-Cycle Spatio-Temporal Adaptation in Human-Robot Teaming",
+      "summary": "Effective human-robot teaming is crucial for the practical deployment of robots in human workspaces. However, optimizing joint human-robot plans remains a challenge due to the difficulty of modeling individualized human capabilities and preferences. ...",
+      "url": "https://arxiv.org/abs/2604.19670v1",
+      "date": "2026-04-21",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.19670v1",
+      "authors": "Alex Cuellar, Michael Hagenow et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
       ]
     },
     {

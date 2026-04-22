@@ -1,5 +1,142 @@
 {
   "last_updated": "2026-04-22",
-  "count": 0,
-  "items": []
+  "count": 8,
+  "items": [
+    {
+      "title": "Generalization at the Edge of Stability",
+      "authors": "Mario Tuci, Caner Korkmaz, Umut Şimşekli et al.",
+      "abstract": "Training modern neural networks often relies on large learning rates, operating at the edge of stability, where the optimization dynamics exhibit oscillatory and chaotic behavior. Empirically, this regime often yields improved generalization performance, yet the underlying mechanism remains poorly u...",
+      "venue": "arXiv",
+      "date": "2026-04-21",
+      "arxiv_id": "2604.19740v1",
+      "url": "https://arxiv.org/abs/2604.19740v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.19740v1.pdf",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "UniT: Toward a Unified Physical Language for Human-to-Humanoid Policy Learning and World Modeling",
+      "authors": "Boyu Chen, Yi Chen, Lu Qiu et al.",
+      "abstract": "Scaling humanoid foundation models is bottlenecked by the scarcity of robotic data. While massive egocentric human data offers a scalable alternative, bridging the cross-embodiment chasm remains a fundamental challenge due to kinematic mismatches. We introduce UniT (Unified Latent Action Tokenizer v...",
+      "venue": "arXiv",
+      "date": "2026-04-21",
+      "arxiv_id": "2604.19734v1",
+      "url": "https://arxiv.org/abs/2604.19734v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.19734v1.pdf",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Discovering a Shared Logical Subspace: Steering LLM Logical Reasoning via Alignment of Natural-Language and Symbolic Views",
+      "authors": "Feihao Fang, My T. Thai, Yuanyuan Lei",
+      "abstract": "Large Language Models (LLMs) still struggle with multi-step logical reasoning. Existing approaches either purely refine the reasoning chain in natural language form or attach a symbolic solver as an external module. In this work, we instead ask whether LLMs contain a shared internal logical subspace...",
+      "venue": "arXiv",
+      "date": "2026-04-21",
+      "arxiv_id": "2604.19716v1",
+      "url": "https://arxiv.org/abs/2604.19716v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.19716v1.pdf",
+      "categories": [
+        "cs.CL"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Epistemic orientation in parliamentary discourse is associated with deliberative democracy",
+      "authors": "Segun Aroyehun, Stephan Lewandowsky, David Garcia",
+      "abstract": "The pursuit of truth is central to democratic deliberation and governance, yet political discourse reflects varying epistemic orientations, ranging from evidence-based reasoning grounded in verifiable information to intuition-based reasoning rooted in beliefs and subjective interpretation. We introd...",
+      "venue": "arXiv",
+      "date": "2026-04-21",
+      "arxiv_id": "2604.19699v1",
+      "url": "https://arxiv.org/abs/2604.19699v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.19699v1.pdf",
+      "categories": [
+        "cs.CL",
+        "cs.CY"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Tstars-Tryon 1.0: Robust and Realistic Virtual Try-On for Diverse Fashion Items",
+      "authors": "Mengting Chen, Zhengrui Chen, Yongchao Du et al.",
+      "abstract": "Recent advances in image generation and editing have opened new opportunities for virtual try-on. However, existing methods still struggle to meet complex real-world demands. We present Tstars-Tryon 1.0, a commercial-scale virtual try-on system that is robust, realistic, versatile, and highly effici...",
+      "venue": "arXiv",
+      "date": "2026-04-21",
+      "arxiv_id": "2604.19748v1",
+      "url": "https://arxiv.org/abs/2604.19748v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.19748v1.pdf",
+      "categories": [
+        "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "AnyRecon: Arbitrary-View 3D Reconstruction with Video Diffusion Model",
+      "authors": "Yutian Chen, Shi Guo, Renbiao Jin et al.",
+      "abstract": "Sparse-view 3D reconstruction is essential for modeling scenes from casual captures, but remain challenging for non-generative reconstruction. Existing diffusion-based approaches mitigates this issues by synthesizing novel views, but they often condition on only one or two capture frames, which rest...",
+      "venue": "arXiv",
+      "date": "2026-04-21",
+      "arxiv_id": "2604.19747v1",
+      "url": "https://arxiv.org/abs/2604.19747v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.19747v1.pdf",
+      "categories": [
+        "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Phase Transitions in the Fluctuations of Functionals of Random Neural Networks",
+      "authors": "Simmaco Di Lillo, Leonardo Maini, Domenico Marinucci",
+      "abstract": "We establish central and non-central limit theorems for sequences of functionals of the Gaussian output of an infinitely-wide random neural network on the d-dimensional sphere . We show that the asymptotic behaviour of these functionals as the depth of the network increases depends crucially on the ...",
+      "venue": "arXiv",
+      "date": "2026-04-21",
+      "arxiv_id": "2604.19738v1",
+      "url": "https://arxiv.org/abs/2604.19738v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.19738v1.pdf",
+      "categories": [
+        "math.PR",
+        "cs.LG",
+        "stat.ML"
+      ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "VLA Foundry: A Unified Framework for Training Vision-Language-Action Models",
+      "authors": "Jean Mercat, Sedrick Keh, Kushal Arora et al.",
+      "abstract": "We present VLA Foundry, an open-source framework that unifies LLM, VLM, and VLA training in a single codebase. Most open-source VLA efforts specialize on the action training stage, often stitching together incompatible pretraining pipelines. VLA Foundry instead provides a shared training stack with ...",
+      "venue": "arXiv",
+      "date": "2026-04-21",
+      "arxiv_id": "2604.19728v1",
+      "url": "https://arxiv.org/abs/2604.19728v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.19728v1.pdf",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.CV"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    }
+  ]
 }
