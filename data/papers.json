@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-21",
-  "count": 4,
+  "last_updated": "2026-04-22",
+  "count": 7,
   "items": [
     {
       "title": "MathNet: a Global Multimodal Benchmark for Mathematical Reasoning and Retrieval",
@@ -35,6 +35,56 @@
         "cs.CL"
       ],
       "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "A multimodal and temporal foundation model for virtual patient representations at healthcare system scale",
+      "authors": "Andrew Zhang, Tong Ding, Sophia J. Wagner et al.",
+      "abstract": "Modern medicine generates vast multimodal data across siloed systems, yet no existing model integrates the full breadth and temporal depth of the clinical record into a unified patient representation. We introduce Apollo, a multimodal temporal foundation model trained and evaluated on over three dec...",
+      "venue": "arXiv",
+      "date": "2026-04-20",
+      "arxiv_id": "2604.18570v1",
+      "url": "https://arxiv.org/abs/2604.18570v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.18570v1.pdf",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "MUA: Mobile Ultra-detailed Animatable Avatars",
+      "authors": "Heming Zhu, Guoxing Sun, Marc Habermann",
+      "abstract": "Building photorealistic, animatable full-body digital humans remains a longstanding challenge in computer graphics and vision. Recent advances in animatable avatar modeling have largely progressed along two directions: improving the fidelity of dynamic geometry and appearance, or reducing computatio...",
+      "venue": "arXiv",
+      "date": "2026-04-20",
+      "arxiv_id": "2604.18583v1",
+      "url": "https://arxiv.org/abs/2604.18583v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.18583v1.pdf",
+      "categories": [
+        "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "ReCap: Lightweight Referential Grounding for Coherent Story Visualization",
+      "authors": "Aditya Arora, Akshita Gupta, Pau Rodriguez et al.",
+      "abstract": "Story Visualization aims to generate a sequence of images that faithfully depicts a textual narrative that preserve character identity, spatial configuration, and stylistic coherence as the narratives unfold. Maintaining such cross-frame consistency has traditionally relied on explicit memory banks,...",
+      "venue": "arXiv",
+      "date": "2026-04-20",
+      "arxiv_id": "2604.18575v1",
+      "url": "https://arxiv.org/abs/2604.18575v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.18575v1.pdf",
+      "categories": [
+        "cs.CV"
+      ],
+      "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     },
