@@ -55,7 +55,7 @@
       "rank": 7,
       "model": "kimi-k2.6",
       "organization": "moonshotai",
-      "price_prompt": "0.0000008",
+      "price_prompt": "0.00000075",
       "price_completion": "0.0000035",
       "context_length": 262144
     },
@@ -96,7 +96,7 @@
       "model": "gemma-4-26b-a4b-it",
       "organization": "google",
       "price_prompt": "0.00000007",
-      "price_completion": "0.00000035",
+      "price_completion": "0.00000034",
       "context_length": 262144
     },
     {
