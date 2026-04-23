@@ -1,7 +1,7 @@
 {
   "last_updated": "2026-04-23",
   "count": 200,
-  "history_count": 202,
+  "history_count": 200,
   "retention_days": 30,
   "items": [
     {
@@ -41,6 +41,18 @@
       ]
     },
     {
+      "title": "*   [Latest](http://techcrunch.com/latest/)",
+      "link": "https://techcrunch.com/category/artificial-intelligence/",
+      "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
+      "date": "2026-04-23",
+      "source": "TechCrunch",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "Artificial Intelligence"
+      ]
+    },
+    {
       "title": "不做Robotaxi，专攻机场的L4公司要IPO了",
       "link": "https://www.qbitai.com/?s=不做Robotaxi",
       "summary": "不做Robotaxi，专攻机场的L4公司要IPO了...",
@@ -62,18 +74,6 @@
       "tags": [
         "AI",
         "人工智能"
-      ]
-    },
-    {
-      "title": "*   [Latest](http://techcrunch.com/latest/)",
-      "link": "https://techcrunch.com/category/artificial-intelligence/",
-      "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
-      "date": "2026-04-23",
-      "source": "TechCrunch",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "Artificial Intelligence"
       ]
     },
     {
