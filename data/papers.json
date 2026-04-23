@@ -3,49 +3,50 @@
   "count": 8,
   "items": [
     {
-      "title": "Generalization at the Edge of Stability",
-      "authors": "Mario Tuci, Caner Korkmaz, Umut Şimşekli et al.",
-      "abstract": "Training modern neural networks often relies on large learning rates, operating at the edge of stability, where the optimization dynamics exhibit oscillatory and chaotic behavior. Empirically, this regime often yields improved generalization performance, yet the underlying mechanism remains poorly u...",
+      "title": "SpeechParaling-Bench: A Comprehensive Benchmark for Paralinguistic-Aware Speech Generation",
+      "authors": "Ruohan Liu, Shukang Yin, Tao Wang et al.",
+      "abstract": "Paralinguistic cues are essential for natural human-computer interaction, yet their evaluation in Large Audio-Language Models (LALMs) remains limited by coarse feature coverage and the inherent subjectivity of assessment. To address these challenges, we introduce SpeechParaling-Bench, a comprehensiv...",
       "venue": "arXiv",
-      "date": "2026-04-21",
-      "arxiv_id": "2604.19740v1",
-      "url": "https://arxiv.org/abs/2604.19740v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.19740v1.pdf",
+      "date": "2026-04-22",
+      "arxiv_id": "2604.20842v1",
+      "url": "https://arxiv.org/abs/2604.20842v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.20842v1.pdf",
       "categories": [
-        "cs.LG",
+        "cs.CL",
         "cs.AI",
-        "cs.CV"
+        "cs.SD"
       ],
-      "type": "vision",
+      "type": "benchmark",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "UniT: Toward a Unified Physical Language for Human-to-Humanoid Policy Learning and World Modeling",
-      "authors": "Boyu Chen, Yi Chen, Lu Qiu et al.",
-      "abstract": "Scaling humanoid foundation models is bottlenecked by the scarcity of robotic data. While massive egocentric human data offers a scalable alternative, bridging the cross-embodiment chasm remains a fundamental challenge due to kinematic mismatches. We introduce UniT (Unified Latent Action Tokenizer v...",
+      "title": "AVISE: Framework for Evaluating the Security of AI Systems",
+      "authors": "Mikko Lempinen, Joni Kemppainen, Niklas Raesalmi",
+      "abstract": "As artificial intelligence (AI) systems are increasingly deployed across critical domains, their security vulnerabilities pose growing risks of high-profile exploits and consequential system failures. Yet systematic approaches to evaluating AI security remain underdeveloped. In this paper, we introd...",
       "venue": "arXiv",
-      "date": "2026-04-21",
-      "arxiv_id": "2604.19734v1",
-      "url": "https://arxiv.org/abs/2604.19734v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.19734v1.pdf",
+      "date": "2026-04-22",
+      "arxiv_id": "2604.20833v1",
+      "url": "https://arxiv.org/abs/2604.20833v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.20833v1.pdf",
       "categories": [
-        "cs.RO",
-        "cs.AI"
+        "cs.CR",
+        "cs.AI",
+        "cs.CL"
       ],
       "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Discovering a Shared Logical Subspace: Steering LLM Logical Reasoning via Alignment of Natural-Language and Symbolic Views",
-      "authors": "Feihao Fang, My T. Thai, Yuanyuan Lei",
-      "abstract": "Large Language Models (LLMs) still struggle with multi-step logical reasoning. Existing approaches either purely refine the reasoning chain in natural language form or attach a symbolic solver as an external module. In this work, we instead ask whether LLMs contain a shared internal logical subspace...",
+      "title": "Parallel-SFT: Improving Zero-Shot Cross-Programming-Language Transfer for Code RL",
+      "authors": "Zhaofeng Wu, Shiqi Wang, Boya Peng et al.",
+      "abstract": "Modern language models demonstrate impressive coding capabilities in common programming languages (PLs), such as C++ and Python, but their performance in lower-resource PLs is often limited by training data availability. In principle, however, most programming skills are universal across PLs, so the...",
       "venue": "arXiv",
-      "date": "2026-04-21",
-      "arxiv_id": "2604.19716v1",
-      "url": "https://arxiv.org/abs/2604.19716v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.19716v1.pdf",
+      "date": "2026-04-22",
+      "arxiv_id": "2604.20835v1",
+      "url": "https://arxiv.org/abs/2604.20835v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.20835v1.pdf",
       "categories": [
         "cs.CL"
       ],
@@ -54,31 +55,14 @@
       "source": "arXiv"
     },
     {
-      "title": "Epistemic orientation in parliamentary discourse is associated with deliberative democracy",
-      "authors": "Segun Aroyehun, Stephan Lewandowsky, David Garcia",
-      "abstract": "The pursuit of truth is central to democratic deliberation and governance, yet political discourse reflects varying epistemic orientations, ranging from evidence-based reasoning grounded in verifiable information to intuition-based reasoning rooted in beliefs and subjective interpretation. We introd...",
+      "title": "DeVI: Physics-based Dexterous Human-Object Interaction via Synthetic Video Imitation",
+      "authors": "Hyeonwoo Kim, Jeonghwan Kim, Kyungwon Cho et al.",
+      "abstract": "Recent advances in video generative models enable the synthesis of realistic human-object interaction videos across a wide range of scenarios and object categories, including complex dexterous manipulations that are difficult to capture with motion capture systems. While the rich interaction knowled...",
       "venue": "arXiv",
-      "date": "2026-04-21",
-      "arxiv_id": "2604.19699v1",
-      "url": "https://arxiv.org/abs/2604.19699v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.19699v1.pdf",
-      "categories": [
-        "cs.CL",
-        "cs.CY"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Tstars-Tryon 1.0: Robust and Realistic Virtual Try-On for Diverse Fashion Items",
-      "authors": "Mengting Chen, Zhengrui Chen, Yongchao Du et al.",
-      "abstract": "Recent advances in image generation and editing have opened new opportunities for virtual try-on. However, existing methods still struggle to meet complex real-world demands. We present Tstars-Tryon 1.0, a commercial-scale virtual try-on system that is robust, realistic, versatile, and highly effici...",
-      "venue": "arXiv",
-      "date": "2026-04-21",
-      "arxiv_id": "2604.19748v1",
-      "url": "https://arxiv.org/abs/2604.19748v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.19748v1.pdf",
+      "date": "2026-04-22",
+      "arxiv_id": "2604.20841v1",
+      "url": "https://arxiv.org/abs/2604.20841v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.20841v1.pdf",
       "categories": [
         "cs.CV"
       ],
@@ -87,54 +71,69 @@
       "source": "arXiv"
     },
     {
-      "title": "AnyRecon: Arbitrary-View 3D Reconstruction with Video Diffusion Model",
-      "authors": "Yutian Chen, Shi Guo, Renbiao Jin et al.",
-      "abstract": "Sparse-view 3D reconstruction is essential for modeling scenes from casual captures, but remain challenging for non-generative reconstruction. Existing diffusion-based approaches mitigates this issues by synthesizing novel views, but they often condition on only one or two capture frames, which rest...",
+      "title": "FedSIR: Spectral Client Identification and Relabeling for Federated Learning with Noisy Labels",
+      "authors": "Sina Gholami, Abdulmoneam Ali, Tania Haghighi et al.",
+      "abstract": "Federated learning (FL) enables collaborative model training without sharing raw data; however, the presence of noisy labels across distributed clients can severely degrade the learning performance. In this paper, we propose FedSIR, a multi-stage framework for robust FL under noisy labels. Different...",
       "venue": "arXiv",
-      "date": "2026-04-21",
-      "arxiv_id": "2604.19747v1",
-      "url": "https://arxiv.org/abs/2604.19747v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.19747v1.pdf",
+      "date": "2026-04-22",
+      "arxiv_id": "2604.20825v1",
+      "url": "https://arxiv.org/abs/2604.20825v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.20825v1.pdf",
       "categories": [
-        "cs.CV"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Phase Transitions in the Fluctuations of Functionals of Random Neural Networks",
-      "authors": "Simmaco Di Lillo, Leonardo Maini, Domenico Marinucci",
-      "abstract": "We establish central and non-central limit theorems for sequences of functionals of the Gaussian output of an infinitely-wide random neural network on the d-dimensional sphere . We show that the asymptotic behaviour of these functionals as the depth of the network increases depends crucially on the ...",
-      "venue": "arXiv",
-      "date": "2026-04-21",
-      "arxiv_id": "2604.19738v1",
-      "url": "https://arxiv.org/abs/2604.19738v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.19738v1.pdf",
-      "categories": [
-        "math.PR",
         "cs.LG",
-        "stat.ML"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "VLA Foundry: A Unified Framework for Training Vision-Language-Action Models",
-      "authors": "Jean Mercat, Sedrick Keh, Kushal Arora et al.",
-      "abstract": "We present VLA Foundry, an open-source framework that unifies LLM, VLM, and VLA training in a single codebase. Most open-source VLA efforts specialize on the action training stage, often stitching together incompatible pretraining pipelines. VLA Foundry instead provides a shared training stack with ...",
-      "venue": "arXiv",
-      "date": "2026-04-21",
-      "arxiv_id": "2604.19728v1",
-      "url": "https://arxiv.org/abs/2604.19728v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.19728v1.pdf",
-      "categories": [
-        "cs.RO",
         "cs.AI",
         "cs.CV"
       ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Closing the Domain Gap in Biomedical Imaging by In-Context Control Samples",
+      "authors": "Ana Sanchez-Fernandez, Thomas Pinetz, Werner Zellinger et al.",
+      "abstract": "The central problem in biomedical imaging are batch effects: systematic technical variations unrelated to the biological signal of interest. These batch effects critically undermine experimental reproducibility and are the primary cause of failure of deep learning systems on new experimental batches...",
+      "venue": "arXiv",
+      "date": "2026-04-22",
+      "arxiv_id": "2604.20824v1",
+      "url": "https://arxiv.org/abs/2604.20824v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.20824v1.pdf",
+      "categories": [
+        "cs.LG",
+        "q-bio.QM"
+      ],
       "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "PokeVLA: Empowering Pocket-Sized Vision-Language-Action Model with Comprehensive World Knowledge Guidance",
+      "authors": "Yupeng Zheng, Xiang Li, Songen Gu et al.",
+      "abstract": "Recent advances in Vision-Language-Action (VLA) models have opened new avenues for robot manipulation, yet existing methods exhibit limited efficiency and a lack of high-level knowledge and spatial awareness. To address these challenges, we propose PokeVLA, a lightweight yet powerful foundation mode...",
+      "venue": "arXiv",
+      "date": "2026-04-22",
+      "arxiv_id": "2604.20834v1",
+      "url": "https://arxiv.org/abs/2604.20834v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.20834v1.pdf",
+      "categories": [
+        "cs.RO"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "A Hough transform approach to safety-aware scalar field mapping using Gaussian Processes",
+      "authors": "Muzaffar Qureshi, Trivikram Satharasi, Tochukwu E. Ogri et al.",
+      "abstract": "This paper presents a framework for mapping unknown scalar fields using a sensor-equipped autonomous robot operating in unsafe environments. The unsafe regions are defined as regions of high-intensity, where the field value exceeds a predefined safety threshold. For safe and efficient mapping of the...",
+      "venue": "arXiv",
+      "date": "2026-04-22",
+      "arxiv_id": "2604.20799v1",
+      "url": "https://arxiv.org/abs/2604.20799v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.20799v1.pdf",
+      "categories": [
+        "cs.RO"
+      ],
+      "type": "ai",
       "badge": "arxiv",
       "source": "arXiv"
     }

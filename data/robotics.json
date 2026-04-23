@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-04-23",
-  "count": 157,
+  "count": 162,
   "items": [
     {
       "title": "[科氪 | 享刻智能：不追人形机器人，深耕餐饮场景做 具 身 智 能 落地派",
@@ -13,6 +13,86 @@
       "tags": [
         "机器人",
         "人形机器人"
+      ]
+    },
+    {
+      "title": "PokeVLA: Empowering Pocket-Sized Vision-Language-Action Model with Comprehensive World Knowledge Guidance",
+      "summary": "Recent advances in Vision-Language-Action (VLA) models have opened new avenues for robot manipulation, yet existing methods exhibit limited efficiency and a lack of high-level knowledge and spatial awareness. To address these challenges, we propose P...",
+      "url": "https://arxiv.org/abs/2604.20834v1",
+      "date": "2026-04-22",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.20834v1",
+      "authors": "Yupeng Zheng, Xiang Li et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "A Hough transform approach to safety-aware scalar field mapping using Gaussian Processes",
+      "summary": "This paper presents a framework for mapping unknown scalar fields using a sensor-equipped autonomous robot operating in unsafe environments. The unsafe regions are defined as regions of high-intensity, where the field value exceeds a predefined safet...",
+      "url": "https://arxiv.org/abs/2604.20799v1",
+      "date": "2026-04-22",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.20799v1",
+      "authors": "Muzaffar Qureshi, Trivikram Satharasi et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "AAC: Admissible-by-Architecture Differentiable Landmark Compression for ALT",
+      "summary": "We introduce \\textbf{AAC} (Architecturally Admissible Compressor), a differentiable landmark-selection module for ALT (A*, Landmarks, and Triangle inequality) shortest-path heuristics whose outputs are admissible by construction: each forward pass is...",
+      "url": "https://arxiv.org/abs/2604.20744v1",
+      "date": "2026-04-22",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.20744v1",
+      "authors": "An T. Le, Vien Ngo",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "ALAS: Adaptive Long-Horizon Action Synthesis via Async-pathway Stream Disentanglement",
+      "summary": "Long-Horizon (LH) tasks in Human-Scene Interaction (HSI) are complex multi-step tasks that require continuous planning, sequential decision-making, and extended execution across domains to achieve the final goal. However, existing methods heavily rel...",
+      "url": "https://arxiv.org/abs/2604.20721v1",
+      "date": "2026-04-22",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.20721v1",
+      "authors": "Yutong Shen, Hangxu Liu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Visual-Tactile Peg-in-Hole Assembly Learning from Peg-out-of-Hole Disassembly",
+      "summary": "Peg-in-hole (PiH) assembly is a fundamental yet challenging robotic manipulation task. While reinforcement learning (RL) has shown promise in tackling such tasks, it requires extensive exploration. In this paper, we propose a novel visual-tactile ski...",
+      "url": "https://arxiv.org/abs/2604.20712v1",
+      "date": "2026-04-22",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.20712v1",
+      "authors": "Yongqiang Zhao, Xuyang Zhang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
       ]
     },
     {
