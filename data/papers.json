@@ -1,68 +1,85 @@
 {
   "last_updated": "2026-04-24",
-  "count": 8,
+  "count": 9,
   "items": [
     {
-      "title": "SpeechParaling-Bench: A Comprehensive Benchmark for Paralinguistic-Aware Speech Generation",
-      "authors": "Ruohan Liu, Shukang Yin, Tao Wang et al.",
-      "abstract": "Paralinguistic cues are essential for natural human-computer interaction, yet their evaluation in Large Audio-Language Models (LALMs) remains limited by coarse feature coverage and the inherent subjectivity of assessment. To address these challenges, we introduce SpeechParaling-Bench, a comprehensiv...",
+      "title": "Seeing Fast and Slow: Learning the Flow of Time in Videos",
+      "authors": "Yen-Siang Wu, Rundong Luo, Jingsen Zhu et al.",
+      "abstract": "How can we tell whether a video has been sped up or slowed down? How can we generate videos at different speeds? Although videos have been central to modern computer vision research, little attention has been paid to perceiving and controlling the passage of time. In this paper, we study time as a l...",
       "venue": "arXiv",
-      "date": "2026-04-22",
-      "arxiv_id": "2604.20842v1",
-      "url": "https://arxiv.org/abs/2604.20842v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.20842v1.pdf",
+      "date": "2026-04-23",
+      "arxiv_id": "2604.21931v1",
+      "url": "https://arxiv.org/abs/2604.21931v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.21931v1.pdf",
       "categories": [
-        "cs.CL",
+        "cs.CV",
         "cs.AI",
-        "cs.SD"
+        "cs.GR"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "When Prompts Override Vision: Prompt-Induced Hallucinations in LVLMs",
+      "authors": "Pegah Khayatan, Jayneel Parekh, Arnaud Dapogny et al.",
+      "abstract": "Despite impressive progress in capabilities of large vision-language models (LVLMs), these systems remain vulnerable to hallucinations, i.e., outputs that are not grounded in the visual input. Prior work has attributed hallucinations in LVLMs to factors such as limitations of the vision backbone or ...",
+      "venue": "arXiv",
+      "date": "2026-04-23",
+      "arxiv_id": "2604.21911v1",
+      "url": "https://arxiv.org/abs/2604.21911v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.21911v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Evaluation of Automatic Speech Recognition Using Generative Large Language Models",
+      "authors": "Thibault Bañeras-Roux, Shashi Kumar, Driss Khalil et al.",
+      "abstract": "Automatic Speech Recognition (ASR) is traditionally evaluated using Word Error Rate (WER), a metric that is insensitive to meaning. Embedding-based semantic metrics are better correlated with human perception, but decoder-based Large Language Models (LLMs) remain underexplored for this task. This pa...",
+      "venue": "arXiv",
+      "date": "2026-04-23",
+      "arxiv_id": "2604.21928v1",
+      "url": "https://arxiv.org/abs/2604.21928v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.21928v1.pdf",
+      "categories": [
+        "cs.CL"
       ],
       "type": "benchmark",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "AVISE: Framework for Evaluating the Security of AI Systems",
-      "authors": "Mikko Lempinen, Joni Kemppainen, Niklas Raesalmi",
-      "abstract": "As artificial intelligence (AI) systems are increasingly deployed across critical domains, their security vulnerabilities pose growing risks of high-profile exploits and consequential system failures. Yet systematic approaches to evaluating AI security remain underdeveloped. In this paper, we introd...",
+      "title": "MathDuels: Evaluating LLMs as Problem Posers and Solvers",
+      "authors": "Zhiqiu Xu, Shibo Jin, Shreya Arya et al.",
+      "abstract": "As frontier language models attain near-ceiling performance on static mathematical benchmarks, existing evaluations are increasingly unable to differentiate model capabilities, largely because they cast models solely as solvers of fixed problem sets. We introduce MathDuels, a self-play benchmark in ...",
       "venue": "arXiv",
-      "date": "2026-04-22",
-      "arxiv_id": "2604.20833v1",
-      "url": "https://arxiv.org/abs/2604.20833v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.20833v1.pdf",
+      "date": "2026-04-23",
+      "arxiv_id": "2604.21916v1",
+      "url": "https://arxiv.org/abs/2604.21916v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.21916v1.pdf",
       "categories": [
-        "cs.CR",
-        "cs.AI",
-        "cs.CL"
+        "cs.CL",
+        "cs.SE"
       ],
       "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Parallel-SFT: Improving Zero-Shot Cross-Programming-Language Transfer for Code RL",
-      "authors": "Zhaofeng Wu, Shiqi Wang, Boya Peng et al.",
-      "abstract": "Modern language models demonstrate impressive coding capabilities in common programming languages (PLs), such as C++ and Python, but their performance in lower-resource PLs is often limited by training data availability. In principle, however, most programming skills are universal across PLs, so the...",
+      "title": "Seeing Without Eyes: 4D Human-Scene Understanding from Wearable IMUs",
+      "authors": "Hao-Yu Hsu, Tianhang Cheng, Jing Wen et al.",
+      "abstract": "Understanding human activities and their surrounding environments typically relies on visual perception, yet cameras pose persistent challenges in privacy, safety, energy efficiency, and scalability. We explore an alternative: 4D perception without vision. Its goal is to reconstruct human motion and...",
       "venue": "arXiv",
-      "date": "2026-04-22",
-      "arxiv_id": "2604.20835v1",
-      "url": "https://arxiv.org/abs/2604.20835v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.20835v1.pdf",
-      "categories": [
-        "cs.CL"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "DeVI: Physics-based Dexterous Human-Object Interaction via Synthetic Video Imitation",
-      "authors": "Hyeonwoo Kim, Jeonghwan Kim, Kyungwon Cho et al.",
-      "abstract": "Recent advances in video generative models enable the synthesis of realistic human-object interaction videos across a wide range of scenarios and object categories, including complex dexterous manipulations that are difficult to capture with motion capture systems. While the rich interaction knowled...",
-      "venue": "arXiv",
-      "date": "2026-04-22",
-      "arxiv_id": "2604.20841v1",
-      "url": "https://arxiv.org/abs/2604.20841v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.20841v1.pdf",
+      "date": "2026-04-23",
+      "arxiv_id": "2604.21926v1",
+      "url": "https://arxiv.org/abs/2604.21926v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.21926v1.pdf",
       "categories": [
         "cs.CV"
       ],
@@ -71,65 +88,62 @@
       "source": "arXiv"
     },
     {
-      "title": "FedSIR: Spectral Client Identification and Relabeling for Federated Learning with Noisy Labels",
-      "authors": "Sina Gholami, Abdulmoneam Ali, Tania Haghighi et al.",
-      "abstract": "Federated learning (FL) enables collaborative model training without sharing raw data; however, the presence of noisy labels across distributed clients can severely degrade the learning performance. In this paper, we propose FedSIR, a multi-stage framework for robust FL under noisy labels. Different...",
+      "title": "Temporal Taskification in Streaming Continual Learning: A Source of Evaluation Instability",
+      "authors": "Nicolae Filat, Ahmed Hussain, Konstantinos Kalogiannis et al.",
+      "abstract": "Streaming Continual Learning (CL) typically converts a continuous stream into a sequence of discrete tasks through temporal partitioning. We argue that this temporal taskification step is not a neutral preprocessing choice, but a structural component of evaluation: different valid splits of the same...",
       "venue": "arXiv",
-      "date": "2026-04-22",
-      "arxiv_id": "2604.20825v1",
-      "url": "https://arxiv.org/abs/2604.20825v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.20825v1.pdf",
+      "date": "2026-04-23",
+      "arxiv_id": "2604.21930v1",
+      "url": "https://arxiv.org/abs/2604.21930v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.21930v1.pdf",
       "categories": [
-        "cs.LG",
-        "cs.AI",
-        "cs.CV"
+        "cs.LG"
       ],
-      "type": "vision",
+      "type": "benchmark",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Closing the Domain Gap in Biomedical Imaging by In-Context Control Samples",
-      "authors": "Ana Sanchez-Fernandez, Thomas Pinetz, Werner Zellinger et al.",
-      "abstract": "The central problem in biomedical imaging are batch effects: systematic technical variations unrelated to the biological signal of interest. These batch effects critically undermine experimental reproducibility and are the primary cause of failure of deep learning systems on new experimental batches...",
+      "title": "Fine-Tuning Regimes Define Distinct Continual Learning Problems",
+      "authors": "Paul-Tiberiu Iordache, Elena Burceanu",
+      "abstract": "Continual learning (CL) studies how models acquire tasks sequentially while retaining previously learned knowledge. Despite substantial progress in benchmarking CL methods, comparative evaluations typically keep the fine-tuning regime fixed. In this paper, we argue that the fine-tuning regime, defin...",
       "venue": "arXiv",
-      "date": "2026-04-22",
-      "arxiv_id": "2604.20824v1",
-      "url": "https://arxiv.org/abs/2604.20824v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.20824v1.pdf",
+      "date": "2026-04-23",
+      "arxiv_id": "2604.21927v1",
+      "url": "https://arxiv.org/abs/2604.21927v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.21927v1.pdf",
       "categories": [
-        "cs.LG",
-        "q-bio.QM"
+        "cs.LG"
       ],
-      "type": "nlp",
+      "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "PokeVLA: Empowering Pocket-Sized Vision-Language-Action Model with Comprehensive World Knowledge Guidance",
-      "authors": "Yupeng Zheng, Xiang Li, Songen Gu et al.",
-      "abstract": "Recent advances in Vision-Language-Action (VLA) models have opened new avenues for robot manipulation, yet existing methods exhibit limited efficiency and a lack of high-level knowledge and spatial awareness. To address these challenges, we propose PokeVLA, a lightweight yet powerful foundation mode...",
+      "title": "Long-Horizon Manipulation via Trace-Conditioned VLA Planning",
+      "authors": "Isabella Liu, An-Chieh Cheng, Rui Yan et al.",
+      "abstract": "Long-horizon manipulation remains challenging for vision-language-action (VLA) policies: real tasks are multi-step, progress-dependent, and brittle to compounding execution errors. We present LoHo-Manip, a modular framework that scales short-horizon VLA execution to long-horizon instruction followin...",
       "venue": "arXiv",
-      "date": "2026-04-22",
-      "arxiv_id": "2604.20834v1",
-      "url": "https://arxiv.org/abs/2604.20834v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.20834v1.pdf",
+      "date": "2026-04-23",
+      "arxiv_id": "2604.21924v1",
+      "url": "https://arxiv.org/abs/2604.21924v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.21924v1.pdf",
       "categories": [
         "cs.RO"
       ],
-      "type": "nlp",
+      "type": "ai",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "A Hough transform approach to safety-aware scalar field mapping using Gaussian Processes",
-      "authors": "Muzaffar Qureshi, Trivikram Satharasi, Tochukwu E. Ogri et al.",
-      "abstract": "This paper presents a framework for mapping unknown scalar fields using a sensor-equipped autonomous robot operating in unsafe environments. The unsafe regions are defined as regions of high-intensity, where the field value exceeds a predefined safety threshold. For safe and efficient mapping of the...",
+      "title": "VistaBot: View-Robust Robot Manipulation via Spatiotemporal-Aware View Synthesis",
+      "authors": "Songen Gu, Yuhang Zheng, Weize Li et al.",
+      "abstract": "Recently, end-to-end robotic manipulation models have gained significant attention for their generalizability and scalability. However, they often suffer from limited robustness to camera viewpoint changes when training with a fixed camera. In this paper, we propose VistaBot, a novel framework that ...",
       "venue": "arXiv",
-      "date": "2026-04-22",
-      "arxiv_id": "2604.20799v1",
-      "url": "https://arxiv.org/abs/2604.20799v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.20799v1.pdf",
+      "date": "2026-04-23",
+      "arxiv_id": "2604.21914v1",
+      "url": "https://arxiv.org/abs/2604.21914v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.21914v1.pdf",
       "categories": [
         "cs.RO"
       ],

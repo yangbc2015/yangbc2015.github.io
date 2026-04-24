@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-04-24",
-  "count": 164,
+  "count": 169,
   "items": [
     {
       "title": "[从机器人马拉松破纪录，看中国 具 身 智 能",
@@ -24,6 +24,86 @@
       "type": "news",
       "tags": [
         "机器人"
+      ]
+    },
+    {
+      "title": "Long-Horizon Manipulation via Trace-Conditioned VLA Planning",
+      "summary": "Long-horizon manipulation remains challenging for vision-language-action (VLA) policies: real tasks are multi-step, progress-dependent, and brittle to compounding execution errors. We present LoHo-Manip, a modular framework that scales short-horizon ...",
+      "url": "https://arxiv.org/abs/2604.21924v1",
+      "date": "2026-04-23",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.21924v1",
+      "authors": "Isabella Liu, An-Chieh Cheng et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "VistaBot: View-Robust Robot Manipulation via Spatiotemporal-Aware View Synthesis",
+      "summary": "Recently, end-to-end robotic manipulation models have gained significant attention for their generalizability and scalability. However, they often suffer from limited robustness to camera viewpoint changes when training with a fixed camera. In this p...",
+      "url": "https://arxiv.org/abs/2604.21914v1",
+      "date": "2026-04-23",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.21914v1",
+      "authors": "Songen Gu, Yuhang Zheng et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Task-Driven Co-Design of Heterogeneous Multi-Robot Systems",
+      "summary": "Designing multi-agent robotic systems requires reasoning across tightly coupled decisions spanning heterogeneous domains, including robot design, fleet composition, and planning. Much effort has been devoted to isolated improvements in these domains,...",
+      "url": "https://arxiv.org/abs/2604.21894v1",
+      "date": "2026-04-23",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.21894v1",
+      "authors": "Maximilian Stralz, Meshal Alharbi et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Hi-WM: Human-in-the-World-Model for Scalable Robot Post-Training",
+      "summary": "Post-training is essential for turning pretrained generalist robot policies into reliable task-specific controllers, but existing human-in-the-loop pipelines remain tied to physical execution: each correction requires robot time, scene setup, resets,...",
+      "url": "https://arxiv.org/abs/2604.21741v1",
+      "date": "2026-04-23",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.21741v1",
+      "authors": "Yaxuan Li, Zhongyi Zhou et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "A Case Study in Recovery of Drones using Discrete-Event Systems",
+      "summary": "Discrete-event systems and supervisory control theory provide a rigorous framework for specifying correct-by-construction behavior. However, their practical application to swarm robotics remains largely underexplored. In this paper, we investigate a ...",
+      "url": "https://arxiv.org/abs/2604.21740v1",
+      "date": "2026-04-23",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.21740v1",
+      "authors": "Liam P. Burns, Dayse M. Cavalcanti et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
       ]
     },
     {
