@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-24T12:21:41.403423+00:00",
+  "last_updated": "2026-04-24T18:15:26.260751+00:00",
   "source": "Artificial Analysis",
   "source_url": "https://artificialanalysis.ai/leaderboards/models",
   "description": "综合AI模型性能排行榜，基于智能指数、价格、输出速度、上下文窗口等多维度指标对模型进行评测。",
@@ -77,16 +77,28 @@
       "icon": "⚡"
     },
     {
-      "rank": 20,
-      "model": "MiniMax-M2.7",
-      "organization": "Unknown",
+      "rank": 16,
+      "model": "DeepSeek V4 Pro",
+      "organization": "DeepSeek",
       "intelligence_index": 0,
       "price_per_1m_tokens": 0,
       "speed_tokens_per_sec": 0,
       "context_window": 0,
       "trend": "same",
       "is_open_weights": false,
-      "icon": "🤖"
+      "icon": "💎"
+    },
+    {
+      "rank": 20,
+      "model": "DeepSeek V4 Pro",
+      "organization": "DeepSeek",
+      "intelligence_index": 0,
+      "price_per_1m_tokens": 0,
+      "speed_tokens_per_sec": 0,
+      "context_window": 0,
+      "trend": "same",
+      "is_open_weights": false,
+      "icon": "💎"
     }
   ]
 }
