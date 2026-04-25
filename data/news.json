@@ -1,9 +1,33 @@
 {
   "last_updated": "2026-04-25",
   "count": 200,
-  "history_count": 201,
+  "history_count": 202,
   "retention_days": 30,
   "items": [
+    {
+      "title": "一家低调的视觉大模型公司，浮出水面",
+      "link": "https://www.qbitai.com/?s=一家低调的视觉大模型",
+      "summary": "一家低调的视觉大模型公司，浮出水面...",
+      "date": "2026-04-25",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "想做一台真正能兼顾商用、越野、通勤和户外生活的新能源皮卡。",
+      "link": "https://www.qbitai.com/?s=想做一台真正能兼顾商",
+      "summary": "想做一台真正能兼顾商用、越野、通勤和户外生活的新能源皮卡。...",
+      "date": "2026-04-25",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
     {
       "title": "业界首个面向多Agent协作的标准化能力包规范",
       "link": "https://www.qbitai.com/?s=业界首个面向多Age",
@@ -26,6 +50,18 @@
       "tags": [
         "AI",
         "人工智能"
+      ]
+    },
+    {
+      "title": "*   [Latest](http://techcrunch.com/latest/)",
+      "link": "https://techcrunch.com/category/artificial-intelligence/",
+      "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
+      "date": "2026-04-25",
+      "source": "TechCrunch",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "Artificial Intelligence"
       ]
     },
     {
@@ -62,18 +98,6 @@
       "tags": [
         "AI",
         "人工智能"
-      ]
-    },
-    {
-      "title": "*   [Latest](http://techcrunch.com/latest/)",
-      "link": "https://techcrunch.com/category/artificial-intelligence/",
-      "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
-      "date": "2026-04-25",
-      "source": "TechCrunch",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "Artificial Intelligence"
       ]
     },
     {
@@ -2373,30 +2397,6 @@
       "link": "https://www.qbitai.com/?s=以认知建模为核心的教",
       "summary": "以认知建模为核心的教育AGI探索...",
       "date": "2026-03-31",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "在龙虾时代沉默了好久的DeepSeek，似乎在憋个大的",
-      "link": "https://www.qbitai.com/?s=在龙虾时代沉默了好久",
-      "summary": "在龙虾时代沉默了好久的DeepSeek，似乎在憋个大的...",
-      "date": "2026-03-31",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "相关能力已远超人们预期，且正在指数级增长",
-      "link": "https://www.qbitai.com/?s=相关能力已远超人们预",
-      "summary": "相关能力已远超人们预期，且正在指数级增长...",
-      "date": "2026-03-30",
       "source": "量子位",
       "type": "industry",
       "tags": [
