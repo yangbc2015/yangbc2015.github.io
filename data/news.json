@@ -1,13 +1,25 @@
 {
   "last_updated": "2026-04-25",
   "count": 200,
-  "history_count": 200,
+  "history_count": 201,
   "retention_days": 30,
   "items": [
     {
       "title": "业界首个面向多Agent协作的标准化能力包规范",
       "link": "https://www.qbitai.com/?s=业界首个面向多Age",
       "summary": "业界首个面向多Agent协作的标准化能力包规范...",
+      "date": "2026-04-25",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "在Agent能力、世界知识和推理性能上均实现国内与开源领域的领先。",
+      "link": "https://www.qbitai.com/?s=在Agent能力、世",
+      "summary": "在Agent能力、世界知识和推理性能上均实现国内与开源领域的领先。...",
       "date": "2026-04-25",
       "source": "量子位",
       "type": "industry",
@@ -2384,18 +2396,6 @@
       "title": "相关能力已远超人们预期，且正在指数级增长",
       "link": "https://www.qbitai.com/?s=相关能力已远超人们预",
       "summary": "相关能力已远超人们预期，且正在指数级增长...",
-      "date": "2026-03-30",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "用34条经验破解现代代码模型训练瓶颈",
-      "link": "https://www.qbitai.com/?s=用34条经验破解现代",
-      "summary": "用34条经验破解现代代码模型训练瓶颈...",
       "date": "2026-03-30",
       "source": "量子位",
       "type": "industry",
