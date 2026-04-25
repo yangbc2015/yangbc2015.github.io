@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-04-24",
+  "last_updated": "2026-04-25",
   "count": 200,
-  "history_count": 200,
+  "history_count": 206,
   "retention_days": 30,
   "items": [
     {
       "title": "业界首个面向多Agent协作的标准化能力包规范",
       "link": "https://www.qbitai.com/?s=业界首个面向多Age",
       "summary": "业界首个面向多Agent协作的标准化能力包规范...",
-      "date": "2026-04-24",
+      "date": "2026-04-25",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -20,7 +20,7 @@
       "title": "半马冠军荣耀机器人“闪电”惊喜亮相",
       "link": "https://www.qbitai.com/?s=半马冠军荣耀机器人“",
       "summary": "半马冠军荣耀机器人“闪电”惊喜亮相...",
-      "date": "2026-04-24",
+      "date": "2026-04-25",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -32,7 +32,7 @@
       "title": "与上个版本GPT5.4相比，新模型在代码、知识工作、科学研究三个领域全部拉开身位",
       "link": "https://www.qbitai.com/?s=与上个版本GPT5.",
       "summary": "与上个版本GPT5.4相比，新模型在代码、知识工作、科学研究三个领域全部拉开身位...",
-      "date": "2026-04-24",
+      "date": "2026-04-25",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -44,7 +44,7 @@
       "title": "面向全球创作者的AI视频作品征集同步开启",
       "link": "https://www.qbitai.com/?s=面向全球创作者的AI",
       "summary": "面向全球创作者的AI视频作品征集同步开启...",
-      "date": "2026-04-24",
+      "date": "2026-04-25",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -56,12 +56,84 @@
       "title": "*   [Latest](http://techcrunch.com/latest/)",
       "link": "https://techcrunch.com/category/artificial-intelligence/",
       "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
-      "date": "2026-04-24",
+      "date": "2026-04-25",
       "source": "TechCrunch",
       "type": "industry",
       "tags": [
         "AI",
         "Artificial Intelligence"
+      ]
+    },
+    {
+      "title": "芯驰科技北京车展首发4nm AI座舱芯片，剑指汽车+具身智能双赛道",
+      "link": "https://www.jiqizhixin.com/search/articles/芯驰科技北京车展首发4nm A",
+      "summary": "芯驰科技北京车展首发4nm AI座舱芯片，剑指汽车+具身智能双赛道...",
+      "date": "2026-04-24",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "机器人马拉松超越人类之后：本体走到尽头，智能成为下半场",
+      "link": "https://www.jiqizhixin.com/search/articles/机器人马拉松超越人类之后：本体",
+      "summary": "机器人马拉松超越人类之后：本体走到尽头，智能成为下半场...",
+      "date": "2026-04-24",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "Anthropic实锤Claude Code「降智」：就是这三个Bug造成的",
+      "link": "https://www.jiqizhixin.com/search/articles/Anthropic实锤Clau",
+      "summary": "Anthropic实锤Claude Code「降智」：就是这三个Bug造成的...",
+      "date": "2026-04-24",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "记得住、答得快、用得省：HERMES 让流式视频理解实时响应提速10倍",
+      "link": "https://www.jiqizhixin.com/search/articles/记得住、答得快、用得省：HER",
+      "summary": "记得住、答得快、用得省：HERMES 让流式视频理解实时响应提速10倍...",
+      "date": "2026-04-24",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "DeepSeek-V4正式发布，多家企业已通过华为云接入",
+      "link": "https://www.jiqizhixin.com/search/articles/DeepSeek-V4正式发布",
+      "summary": "DeepSeek-V4正式发布，多家企业已通过华为云接入...",
+      "date": "2026-04-24",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "PPIO首批上线DeepSeek-V4预览版，1M超长上下文能力开箱即用",
+      "link": "https://www.jiqizhixin.com/search/articles/PPIO首批上线DeepSee",
+      "summary": "PPIO首批上线DeepSeek-V4预览版，1M超长上下文能力开箱即用...",
+      "date": "2026-04-24",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
       ]
     },
     {
@@ -2325,78 +2397,6 @@
       "link": "https://www.qbitai.com/?s=用34条经验破解现代",
       "summary": "用34条经验破解现代代码模型训练瓶颈...",
       "date": "2026-03-30",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "为数字经济繁荣与AI时代信息文明建设贡献更大力量。",
-      "link": "https://www.qbitai.com/?s=为数字经济繁荣与AI",
-      "summary": "为数字经济繁荣与AI时代信息文明建设贡献更大力量。...",
-      "date": "2026-03-30",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "郑纬民院士领衔解读Token服务新趋势",
-      "link": "https://www.qbitai.com/?s=郑纬民院士领衔解读T",
-      "summary": "郑纬民院士领衔解读Token服务新趋势...",
-      "date": "2026-03-30",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "中关村论坛“AI2026：向人立心，向实立命”特邀闭门会在中关村国际创新中心举行",
-      "link": "https://www.qbitai.com/?s=中关村论坛“AI20",
-      "summary": "中关村论坛“AI2026：向人立心，向实立命”特邀闭门会在中关村国际创新中心举行...",
-      "date": "2026-03-30",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "CVPR 2026｜机器人真的「像人」了吗？我们做了一场只看动作的图灵测试",
-      "link": "https://www.jiqizhixin.com/search/articles/CVPR 2026｜机器人真的",
-      "summary": "CVPR 2026｜机器人真的「像人」了吗？我们做了一场只看动作的图灵测试...",
-      "date": "2026-03-29",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "超越Video Depth Anything！视频深度估计新SOTA来了，163倍数据效率解锁生成式先验",
-      "link": "https://www.jiqizhixin.com/search/articles/超越Video Depth A",
-      "summary": "超越Video Depth Anything！视频深度估计新SOTA来了，163倍数据效率解锁生成式先验...",
-      "date": "2026-03-29",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "在编程能力上相比上一代GLM-5直接飙升近10分",
-      "link": "https://www.qbitai.com/?s=在编程能力上相比上一",
-      "summary": "在编程能力上相比上一代GLM-5直接飙升近10分...",
-      "date": "2026-03-29",
       "source": "量子位",
       "type": "industry",
       "tags": [
