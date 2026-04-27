@@ -1,85 +1,83 @@
 {
   "last_updated": "2026-04-27",
-  "count": 9,
+  "count": 10,
   "items": [
     {
-      "title": "Seeing Fast and Slow: Learning the Flow of Time in Videos",
-      "authors": "Yen-Siang Wu, Rundong Luo, Jingsen Zhu et al.",
-      "abstract": "How can we tell whether a video has been sped up or slowed down? How can we generate videos at different speeds? Although videos have been central to modern computer vision research, little attention has been paid to perceiving and controlling the passage of time. In this paper, we study time as a l...",
+      "title": "Agentic World Modeling: Foundations, Capabilities, Laws, and Beyond",
+      "authors": "Meng Chu, Xuan Billy Zhang, Kevin Qinghong Lin et al.",
+      "abstract": "As AI systems move from generating text to accomplishing goals through sustained interaction, the ability to model environment dynamics becomes a central bottleneck. Agents that manipulate objects, navigate software, coordinate with others, or design experiments require predictive environment models...",
       "venue": "arXiv",
-      "date": "2026-04-23",
-      "arxiv_id": "2604.21931v1",
-      "url": "https://arxiv.org/abs/2604.21931v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.21931v1.pdf",
+      "date": "2026-04-24",
+      "arxiv_id": "2604.22748v1",
+      "url": "https://arxiv.org/abs/2604.22748v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.22748v1.pdf",
       "categories": [
-        "cs.CV",
-        "cs.AI",
-        "cs.GR"
+        "cs.AI"
       ],
-      "type": "vision",
+      "type": "ai",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "When Prompts Override Vision: Prompt-Induced Hallucinations in LVLMs",
-      "authors": "Pegah Khayatan, Jayneel Parekh, Arnaud Dapogny et al.",
-      "abstract": "Despite impressive progress in capabilities of large vision-language models (LVLMs), these systems remain vulnerable to hallucinations, i.e., outputs that are not grounded in the visual input. Prior work has attributed hallucinations in LVLMs to factors such as limitations of the vision backbone or ...",
+      "title": "An Undecidability Proof for the Plan Existence Problem",
+      "authors": "Antonis Achilleos",
+      "abstract": "The plan existence problem asks, given a goal in the form of a formula in modal logic, an initial epistemic state (a pointed Kripke model), and a set of epistemic actions, whether there exists a sequence of actions that can be applied to reach the goal. We prove that even in the case where the preco...",
       "venue": "arXiv",
-      "date": "2026-04-23",
-      "arxiv_id": "2604.21911v1",
-      "url": "https://arxiv.org/abs/2604.21911v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.21911v1.pdf",
+      "date": "2026-04-24",
+      "arxiv_id": "2604.22736v1",
+      "url": "https://arxiv.org/abs/2604.22736v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.22736v1.pdf",
       "categories": [
-        "cs.CV",
-        "cs.AI",
-        "cs.CL"
+        "cs.LO",
+        "cs.AI"
       ],
-      "type": "nlp",
+      "type": "ai",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Evaluation of Automatic Speech Recognition Using Generative Large Language Models",
-      "authors": "Thibault Bañeras-Roux, Shashi Kumar, Driss Khalil et al.",
-      "abstract": "Automatic Speech Recognition (ASR) is traditionally evaluated using Word Error Rate (WER), a metric that is insensitive to meaning. Embedding-based semantic metrics are better correlated with human perception, but decoder-based Large Language Models (LLMs) remain underexplored for this task. This pa...",
+      "title": "How Do AI Agents Spend Your Money? Analyzing and Predicting Token Consumption in Agentic Coding Tasks",
+      "authors": "Longju Bai, Zhemin Huang, Xingyao Wang et al.",
+      "abstract": "The wide adoption of AI agents in complex human workflows is driving rapid growth in LLM token consumption. When agents are deployed on tasks that require a significant amount of tokens, three questions naturally arise: (1) Where do AI agents spend the tokens? (2) Which models are more token-efficie...",
       "venue": "arXiv",
-      "date": "2026-04-23",
-      "arxiv_id": "2604.21928v1",
-      "url": "https://arxiv.org/abs/2604.21928v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.21928v1.pdf",
-      "categories": [
-        "cs.CL"
-      ],
-      "type": "benchmark",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "MathDuels: Evaluating LLMs as Problem Posers and Solvers",
-      "authors": "Zhiqiu Xu, Shibo Jin, Shreya Arya et al.",
-      "abstract": "As frontier language models attain near-ceiling performance on static mathematical benchmarks, existing evaluations are increasingly unable to differentiate model capabilities, largely because they cast models solely as solvers of fixed problem sets. We introduce MathDuels, a self-play benchmark in ...",
-      "venue": "arXiv",
-      "date": "2026-04-23",
-      "arxiv_id": "2604.21916v1",
-      "url": "https://arxiv.org/abs/2604.21916v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.21916v1.pdf",
+      "date": "2026-04-24",
+      "arxiv_id": "2604.22750v1",
+      "url": "https://arxiv.org/abs/2604.22750v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.22750v1.pdf",
       "categories": [
         "cs.CL",
-        "cs.SE"
+        "cs.CY",
+        "cs.HC"
       ],
       "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Seeing Without Eyes: 4D Human-Scene Understanding from Wearable IMUs",
-      "authors": "Hao-Yu Hsu, Tianhang Cheng, Jing Wen et al.",
-      "abstract": "Understanding human activities and their surrounding environments typically relies on visual perception, yet cameras pose persistent challenges in privacy, safety, energy efficiency, and scalability. We explore an alternative: 4D perception without vision. Its goal is to reconstruct human motion and...",
+      "title": "Representational Harms in LLM-Generated Narratives Against Global Majority Nationalities",
+      "authors": "Ilana Nguyen, Harini Suresh, Thema Monroe-White et al.",
+      "abstract": "Large language models (LLMs) are increasingly used for text generation tasks from everyday use to high-stakes enterprise and government applications, including simulated interviews with asylum seekers. While many works highlight the new potential applications of LLMs, there are risks of LLMs encodin...",
       "venue": "arXiv",
-      "date": "2026-04-23",
-      "arxiv_id": "2604.21926v1",
-      "url": "https://arxiv.org/abs/2604.21926v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.21926v1.pdf",
+      "date": "2026-04-24",
+      "arxiv_id": "2604.22749v1",
+      "url": "https://arxiv.org/abs/2604.22749v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.22749v1.pdf",
+      "categories": [
+        "cs.CL"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Inter-Stance: A Dyadic Multimodal Corpus for Conversational Stance Analysis",
+      "authors": "Xiang Zhang, Xiaotian Li, Taoyue Wang et al.",
+      "abstract": "Social interactions dominate our perceptions of the world and shape our daily behavior by attaching social meaning to acts as simple and spontaneous as gestures, facial expressions, voice, and speech. People mimic and otherwise respond to each other's postures, facial expressions, mannerisms, and ot...",
+      "venue": "arXiv",
+      "date": "2026-04-24",
+      "arxiv_id": "2604.22739v1",
+      "url": "https://arxiv.org/abs/2604.22739v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.22739v1.pdf",
       "categories": [
         "cs.CV"
       ],
@@ -88,30 +86,30 @@
       "source": "arXiv"
     },
     {
-      "title": "Temporal Taskification in Streaming Continual Learning: A Source of Evaluation Instability",
-      "authors": "Nicolae Filat, Ahmed Hussain, Konstantinos Kalogiannis et al.",
-      "abstract": "Streaming Continual Learning (CL) typically converts a continuous stream into a sequence of discrete tasks through temporal partitioning. We argue that this temporal taskification step is not a neutral preprocessing choice, but a structural component of evaluation: different valid splits of the same...",
+      "title": "Long-tail Internet photo reconstruction",
+      "authors": "Yuan Li, Yuanbo Xiangli, Hadar Averbuch-Elor et al.",
+      "abstract": "Internet photo collections exhibit an extremely long-tailed distribution: a few famous landmarks are densely photographed and easily reconstructed in 3D, while most real-world sites are represented with sparse, noisy, uneven imagery beyond the capabilities of both classical and learned 3D methods. W...",
       "venue": "arXiv",
-      "date": "2026-04-23",
-      "arxiv_id": "2604.21930v1",
-      "url": "https://arxiv.org/abs/2604.21930v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.21930v1.pdf",
+      "date": "2026-04-24",
+      "arxiv_id": "2604.22714v1",
+      "url": "https://arxiv.org/abs/2604.22714v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.22714v1.pdf",
       "categories": [
-        "cs.LG"
+        "cs.CV"
       ],
-      "type": "benchmark",
+      "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Fine-Tuning Regimes Define Distinct Continual Learning Problems",
-      "authors": "Paul-Tiberiu Iordache, Elena Burceanu",
-      "abstract": "Continual learning (CL) studies how models acquire tasks sequentially while retaining previously learned knowledge. Despite substantial progress in benchmarking CL methods, comparative evaluations typically keep the fine-tuning regime fixed. In this paper, we argue that the fine-tuning regime, defin...",
+      "title": "Spend Less, Fit Better: Budget-Efficient Scaling Law Fitting via Active Experiment Selection",
+      "authors": "Sijie Li, Shanda Li, Haowei Lin et al.",
+      "abstract": "Scaling laws are used to plan multi-million-dollar training runs, but fitting those laws can itself cost millions. In modern large-scale workflows, assembling a sufficiently informative set of pilot experiments is already a major budget-allocation problem rather than a routine preprocessing step. We...",
       "venue": "arXiv",
-      "date": "2026-04-23",
-      "arxiv_id": "2604.21927v1",
-      "url": "https://arxiv.org/abs/2604.21927v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.21927v1.pdf",
+      "date": "2026-04-24",
+      "arxiv_id": "2604.22753v1",
+      "url": "https://arxiv.org/abs/2604.22753v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.22753v1.pdf",
       "categories": [
         "cs.LG"
       ],
@@ -120,34 +118,52 @@
       "source": "arXiv"
     },
     {
-      "title": "Long-Horizon Manipulation via Trace-Conditioned VLA Planning",
-      "authors": "Isabella Liu, An-Chieh Cheng, Rui Yan et al.",
-      "abstract": "Long-horizon manipulation remains challenging for vision-language-action (VLA) policies: real tasks are multi-step, progress-dependent, and brittle to compounding execution errors. We present LoHo-Manip, a modular framework that scales short-horizon VLA execution to long-horizon instruction followin...",
+      "title": "Relaxation-Informed Training of Neural Network Surrogate Models",
+      "authors": "Calvin Tsay",
+      "abstract": "ReLU neural networks trained as surrogate models can be embedded exactly in mixed-integer linear programs (MILPs), enabling global optimization over the learned function. The tractability of the resulting MILP depends on structural properties of the network, i.e., the number of binary variables in a...",
       "venue": "arXiv",
-      "date": "2026-04-23",
-      "arxiv_id": "2604.21924v1",
-      "url": "https://arxiv.org/abs/2604.21924v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.21924v1.pdf",
+      "date": "2026-04-24",
+      "arxiv_id": "2604.22746v1",
+      "url": "https://arxiv.org/abs/2604.22746v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.22746v1.pdf",
       "categories": [
-        "cs.RO"
+        "math.OC",
+        "cs.LG"
       ],
-      "type": "ai",
+      "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "VistaBot: View-Robust Robot Manipulation via Spatiotemporal-Aware View Synthesis",
-      "authors": "Songen Gu, Yuhang Zheng, Weize Li et al.",
-      "abstract": "Recently, end-to-end robotic manipulation models have gained significant attention for their generalizability and scalability. However, they often suffer from limited robustness to camera viewpoint changes when training with a fixed camera. In this paper, we propose VistaBot, a novel framework that ...",
+      "title": "GCImOpt: Learning efficient goal-conditioned policies by imitating optimal trajectories",
+      "authors": "Jon Goikoetxea, Jesús F. Palacián",
+      "abstract": "Imitation learning is a well-established approach for machine-learning-based control. However, its applicability depends on having access to demonstrations, which are often expensive to collect and/or suboptimal for solving the task. In this work, we present GCImOpt, an approach to learn efficient g...",
       "venue": "arXiv",
-      "date": "2026-04-23",
-      "arxiv_id": "2604.21914v1",
-      "url": "https://arxiv.org/abs/2604.21914v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.21914v1.pdf",
+      "date": "2026-04-24",
+      "arxiv_id": "2604.22724v1",
+      "url": "https://arxiv.org/abs/2604.22724v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.22724v1.pdf",
+      "categories": [
+        "cs.RO",
+        "eess.SY"
+      ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "ATRS: Adaptive Trajectory Re-splitting via a Shared Neural Policy for Parallel Optimization",
+      "authors": "Jiajun Yu, Guodong Liu, Li Wang et al.",
+      "abstract": "Parallel trajectory optimization via the Alternating Direction Method of Multipliers (ADMM) has emerged as a scalable approach to long-horizon motion planning. However, existing frameworks typically decompose the problem into parallel subproblems based on a predefined fixed structure. Such structura...",
+      "venue": "arXiv",
+      "date": "2026-04-24",
+      "arxiv_id": "2604.22715v1",
+      "url": "https://arxiv.org/abs/2604.22715v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.22715v1.pdf",
       "categories": [
         "cs.RO"
       ],
-      "type": "ai",
+      "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     }

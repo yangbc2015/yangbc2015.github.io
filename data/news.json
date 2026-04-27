@@ -1,9 +1,57 @@
 {
   "last_updated": "2026-04-27",
   "count": 200,
-  "history_count": 200,
+  "history_count": 210,
   "retention_days": 30,
   "items": [
+    {
+      "title": "机器人从“能思考”走向“能干活”",
+      "link": "https://www.qbitai.com/?s=机器人从“能思考”走",
+      "summary": "机器人从“能思考”走向“能干活”...",
+      "date": "2026-04-27",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "一张照片，一部手机，你就能在AI造的世界里漫步。",
+      "link": "https://www.qbitai.com/?s=一张照片，一部手机，",
+      "summary": "一张照片，一部手机，你就能在AI造的世界里漫步。...",
+      "date": "2026-04-27",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "由陶哲轩联合多位诺奖、图灵奖得主共同创立",
+      "link": "https://www.qbitai.com/?s=由陶哲轩联合多位诺奖",
+      "summary": "由陶哲轩联合多位诺奖、图灵奖得主共同创立...",
+      "date": "2026-04-27",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "‘研-产-供-销-服’全价值链自主掌控",
+      "link": "https://www.qbitai.com/?s=‘研-产-供-销-服",
+      "summary": "‘研-产-供-销-服’全价值链自主掌控...",
+      "date": "2026-04-27",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
     {
       "title": "“做好自动驾驶， 海量数据的作用只占10%”",
       "link": "https://www.qbitai.com/?s=“做好自动驾驶， 海",
@@ -14,6 +62,18 @@
       "tags": [
         "AI",
         "人工智能"
+      ]
+    },
+    {
+      "title": "*   [Latest](http://techcrunch.com/latest/)",
+      "link": "https://techcrunch.com/category/artificial-intelligence/",
+      "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
+      "date": "2026-04-27",
+      "source": "TechCrunch",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "Artificial Intelligence"
       ]
     },
     {
@@ -53,15 +113,75 @@
       ]
     },
     {
-      "title": "*   [Latest](http://techcrunch.com/latest/)",
-      "link": "https://techcrunch.com/category/artificial-intelligence/",
-      "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
-      "date": "2026-04-27",
-      "source": "TechCrunch",
+      "title": "AI管AI！OpenClaw官方维护机器人上线：一天横扫4000 issues",
+      "link": "https://www.jiqizhixin.com/search/articles/AI管AI！OpenClaw官",
+      "summary": "AI管AI！OpenClaw官方维护机器人上线：一天横扫4000 issues...",
+      "date": "2026-04-26",
+      "source": "机器之心",
       "type": "industry",
       "tags": [
         "AI",
-        "Artificial Intelligence"
+        "人工智能"
+      ]
+    },
+    {
+      "title": "超越Claude Mythos和GPT-5.5！斯坦福推出Agent验证框架「LLM-as-a-Verifier」",
+      "link": "https://www.jiqizhixin.com/search/articles/超越Claude Mythos",
+      "summary": "超越Claude Mythos和GPT-5.5！斯坦福推出Agent验证框架「LLM-as-a-Verifier」...",
+      "date": "2026-04-26",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "终于，学界找到了深度学习的「牛顿定律」",
+      "link": "https://www.jiqizhixin.com/search/articles/终于，学界找到了深度学习的「牛",
+      "summary": "终于，学界找到了深度学习的「牛顿定律」...",
+      "date": "2026-04-26",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "剪映上线AI助手，熬夜剪片的苦日子终于到头了",
+      "link": "https://www.jiqizhixin.com/search/articles/剪映上线AI助手，熬夜剪片的苦",
+      "summary": "剪映上线AI助手，熬夜剪片的苦日子终于到头了...",
+      "date": "2026-04-26",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "大模型高效推理新答案：ICLR 2026提出Balanced Thinking，精度提升10.0的同时，推理长度直降35.4%",
+      "link": "https://www.jiqizhixin.com/search/articles/大模型高效推理新答案：ICLR",
+      "summary": "大模型高效推理新答案：ICLR 2026提出Balanced Thinking，精度提升10.0的同时，推理长度直降35.4%...",
+      "date": "2026-04-26",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "刚刚，OpenClaw大更新：正式接入DeepSeek V4",
+      "link": "https://www.jiqizhixin.com/search/articles/刚刚，OpenClaw大更新：",
+      "summary": "刚刚，OpenClaw大更新：正式接入DeepSeek V4...",
+      "date": "2026-04-26",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
       ]
     },
     {
@@ -2277,126 +2397,6 @@
       "link": "https://www.qbitai.com/?s=“我们不只是在找一个",
       "summary": "“我们不只是在找一个名字，我们是在勾勒一家企业背后的决策链条。”...",
       "date": "2026-04-03",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "ColaVLA：自动驾驶大模型，不一定非要把「思考过程」写成文字",
-      "link": "https://www.jiqizhixin.com/search/articles/ColaVLA：自动驾驶大模型",
-      "summary": "ColaVLA：自动驾驶大模型，不一定非要把「思考过程」写成文字...",
-      "date": "2026-04-02",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "ICLR 2026｜EgoNight：当天黑下来，第一人称视觉模型 还能“看懂”世界吗？",
-      "link": "https://www.jiqizhixin.com/search/articles/ICLR 2026｜EgoNi",
-      "summary": "ICLR 2026｜EgoNight：当天黑下来，第一人称视觉模型 还能“看懂”世界吗？...",
-      "date": "2026-04-02",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "悟空率先接入国产最强编程模型Qwen3.6-Plus",
-      "link": "https://www.jiqizhixin.com/search/articles/悟空率先接入国产最强编程模型Q",
-      "summary": "悟空率先接入国产最强编程模型Qwen3.6-Plus...",
-      "date": "2026-04-02",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "应对智能体安全风险，蚂蚁集团与清华大学联合开源防御插件ClawAegis",
-      "link": "https://www.jiqizhixin.com/search/articles/应对智能体安全风险，蚂蚁集团与",
-      "summary": "应对智能体安全风险，蚂蚁集团与清华大学联合开源防御插件ClawAegis...",
-      "date": "2026-04-02",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "锚定混合式AI主航道，联想中国新财年加速「个人与企业智能」双轮驱动",
-      "link": "https://www.jiqizhixin.com/search/articles/锚定混合式AI主航道，联想中国",
-      "summary": "锚定混合式AI主航道，联想中国新财年加速「个人与企业智能」双轮驱动...",
-      "date": "2026-04-02",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "美图旗下RoboNeo成跨境创作新利器",
-      "link": "https://www.qbitai.com/?s=美图旗下RoboNe",
-      "summary": "美图旗下RoboNeo成跨境创作新利器...",
-      "date": "2026-04-02",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "具备文生图、图生组图、图像指令编辑和交互式编辑等全链路能力",
-      "link": "https://www.qbitai.com/?s=具备文生图、图生组图",
-      "summary": "具备文生图、图生组图、图像指令编辑和交互式编辑等全链路能力...",
-      "date": "2026-04-02",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "这两天的Claude Code，已经接近“不可用”的状态。",
-      "link": "https://www.qbitai.com/?s=这两天的Claude",
-      "summary": "这两天的Claude Code，已经接近“不可用”的状态。...",
-      "date": "2026-04-02",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "理想前智驾一号位和阿里前副总裁携手创业",
-      "link": "https://www.qbitai.com/?s=理想前智驾一号位和阿",
-      "summary": "理想前智驾一号位和阿里前副总裁携手创业...",
-      "date": "2026-04-02",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "AI智能体之间真正自主支付的钱包，来了！",
-      "link": "https://www.qbitai.com/?s=AI智能体之间真正自",
-      "summary": "AI智能体之间真正自主支付的钱包，来了！...",
-      "date": "2026-04-02",
       "source": "量子位",
       "type": "industry",
       "tags": [
