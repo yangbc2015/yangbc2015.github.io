@@ -1,83 +1,101 @@
 {
   "last_updated": "2026-04-28",
-  "count": 10,
+  "count": 9,
   "items": [
     {
-      "title": "Agentic World Modeling: Foundations, Capabilities, Laws, and Beyond",
-      "authors": "Meng Chu, Xuan Billy Zhang, Kevin Qinghong Lin et al.",
-      "abstract": "As AI systems move from generating text to accomplishing goals through sustained interaction, the ability to model environment dynamics becomes a central bottleneck. Agents that manipulate objects, navigate software, coordinate with others, or design experiments require predictive environment models...",
+      "title": "Personalized Worked Example Generation from Student Code Submissions using Pattern-based Knowledge Components",
+      "authors": "Griffin Pitts, Muntasir Hoq, Peter Brusilovsky et al.",
+      "abstract": "Adaptive programming practice often relies on fixed libraries of worked examples and practice problems, which require substantial authoring effort and may not correspond well to the logical errors and partial solutions students produce while writing code. As a result, students may receive learning c...",
       "venue": "arXiv",
-      "date": "2026-04-24",
-      "arxiv_id": "2604.22748v1",
-      "url": "https://arxiv.org/abs/2604.22748v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.22748v1.pdf",
+      "date": "2026-04-27",
+      "arxiv_id": "2604.24758v1",
+      "url": "https://arxiv.org/abs/2604.24758v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.24758v1.pdf",
       "categories": [
-        "cs.AI"
+        "cs.HC",
+        "cs.AI",
+        "cs.CY"
       ],
-      "type": "ai",
+      "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "An Undecidability Proof for the Plan Existence Problem",
-      "authors": "Antonis Achilleos",
-      "abstract": "The plan existence problem asks, given a goal in the form of a formula in modal logic, an initial epistemic state (a pointed Kripke model), and a set of epistemic actions, whether there exists a sequence of actions that can be applied to reach the goal. We prove that even in the case where the preco...",
+      "title": "Learning to Think from Multiple Thinkers",
+      "authors": "Nirmit Joshi, Roey Magen, Nathan Srebro et al.",
+      "abstract": "We study learning with Chain-of-Thought (CoT) supervision from multiple thinkers, all of whom provide correct but possibly systematically different solutions, e.g., step-by-step solutions to math problems written by different thinkers, or step-by-step execution traces of different programs solving t...",
       "venue": "arXiv",
-      "date": "2026-04-24",
-      "arxiv_id": "2604.22736v1",
-      "url": "https://arxiv.org/abs/2604.22736v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.22736v1.pdf",
+      "date": "2026-04-27",
+      "arxiv_id": "2604.24737v1",
+      "url": "https://arxiv.org/abs/2604.24737v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.24737v1.pdf",
       "categories": [
-        "cs.LO",
-        "cs.AI"
+        "cs.LG",
+        "cs.AI",
+        "cs.CC"
       ],
-      "type": "ai",
+      "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "How Do AI Agents Spend Your Money? Analyzing and Predicting Token Consumption in Agentic Coding Tasks",
-      "authors": "Longju Bai, Zhemin Huang, Xingyao Wang et al.",
-      "abstract": "The wide adoption of AI agents in complex human workflows is driving rapid growth in LLM token consumption. When agents are deployed on tasks that require a significant amount of tokens, three questions naturally arise: (1) Where do AI agents spend the tokens? (2) Which models are more token-efficie...",
+      "title": "Sentiment and Emotion Classification of Indonesian E-Commerce Reviews via Multi-Task BiLSTM and AutoML Benchmarking",
+      "authors": "Hermawan Manurung, Ibrahim Al-Kahfi, Ahmad Rizqi et al.",
+      "abstract": "Indonesian marketplace reviews mix standard vocabulary with slang, regional loanwords, numeric shorthands, and emoji, making lexicon-based sentiment tools unreliable in practice. This paper describes a two-track classification pipeline applied to the PRDECT-ID dataset, which contains 5,400 product r...",
       "venue": "arXiv",
-      "date": "2026-04-24",
-      "arxiv_id": "2604.22750v1",
-      "url": "https://arxiv.org/abs/2604.22750v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.22750v1.pdf",
-      "categories": [
-        "cs.CL",
-        "cs.CY",
-        "cs.HC"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Representational Harms in LLM-Generated Narratives Against Global Majority Nationalities",
-      "authors": "Ilana Nguyen, Harini Suresh, Thema Monroe-White et al.",
-      "abstract": "Large language models (LLMs) are increasingly used for text generation tasks from everyday use to high-stakes enterprise and government applications, including simulated interviews with asylum seekers. While many works highlight the new potential applications of LLMs, there are risks of LLMs encodin...",
-      "venue": "arXiv",
-      "date": "2026-04-24",
-      "arxiv_id": "2604.22749v1",
-      "url": "https://arxiv.org/abs/2604.22749v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.22749v1.pdf",
+      "date": "2026-04-27",
+      "arxiv_id": "2604.24720v1",
+      "url": "https://arxiv.org/abs/2604.24720v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.24720v1.pdf",
       "categories": [
         "cs.CL"
       ],
+      "type": "survey",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Long-Context Aware Upcycling: A New Frontier for Hybrid LLM Scaling",
+      "authors": "Parsa Ashrafi Fashi, Utkarsh Saxena, Mehdi Rezagholizadeh et al.",
+      "abstract": "Hybrid sequence models that combine efficient Transformer components with linear sequence modeling blocks are a promising alternative to pure Transformers, but most are still pretrained from scratch and therefore fail to reuse existing Transformer checkpoints. We study upcycling as a practical path ...",
+      "venue": "arXiv",
+      "date": "2026-04-27",
+      "arxiv_id": "2604.24715v1",
+      "url": "https://arxiv.org/abs/2604.24715v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.24715v1.pdf",
+      "categories": [
+        "cs.CL",
+        "cs.LG"
+      ],
       "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Inter-Stance: A Dyadic Multimodal Corpus for Conversational Stance Analysis",
-      "authors": "Xiang Zhang, Xiaotian Li, Taoyue Wang et al.",
-      "abstract": "Social interactions dominate our perceptions of the world and shape our daily behavior by attaching social meaning to acts as simple and spontaneous as gestures, facial expressions, voice, and speech. People mimic and otherwise respond to each other's postures, facial expressions, mannerisms, and ot...",
+      "title": "World-R1: Reinforcing 3D Constraints for Text-to-Video Generation",
+      "authors": "Weijie Wang, Xiaoxuan He, Youping Gu et al.",
+      "abstract": "Recent video foundation models demonstrate impressive visual synthesis but frequently suffer from geometric inconsistencies. While existing methods attempt to inject 3D priors via architectural modifications, they often incur high computational costs and limit scalability. We propose World-R1, a fra...",
       "venue": "arXiv",
-      "date": "2026-04-24",
-      "arxiv_id": "2604.22739v1",
-      "url": "https://arxiv.org/abs/2604.22739v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.22739v1.pdf",
+      "date": "2026-04-27",
+      "arxiv_id": "2604.24764v1",
+      "url": "https://arxiv.org/abs/2604.24764v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.24764v1.pdf",
+      "categories": [
+        "cs.CV"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Tuna-2: Pixel Embeddings Beat Vision Encoders for Multimodal Understanding and Generation",
+      "authors": "Zhiheng Liu, Weiming Ren, Xiaoke Huang et al.",
+      "abstract": "Unified multimodal models typically rely on pretrained vision encoders and use separate visual representations for understanding and generation, creating misalignment between the two tasks and preventing fully end-to-end optimization from raw pixels. We introduce Tuna-2, a native unified multimodal ...",
+      "venue": "arXiv",
+      "date": "2026-04-27",
+      "arxiv_id": "2604.24763v1",
+      "url": "https://arxiv.org/abs/2604.24763v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.24763v1.pdf",
       "categories": [
         "cs.CV"
       ],
@@ -86,81 +104,50 @@
       "source": "arXiv"
     },
     {
-      "title": "Long-tail Internet photo reconstruction",
-      "authors": "Yuan Li, Yuanbo Xiangli, Hadar Averbuch-Elor et al.",
-      "abstract": "Internet photo collections exhibit an extremely long-tailed distribution: a few famous landmarks are densely photographed and easily reconstructed in 3D, while most real-world sites are represented with sparse, noisy, uneven imagery beyond the capabilities of both classical and learned 3D methods. W...",
+      "title": "The Optimal Sample Complexity of Multiclass and List Learning",
+      "authors": "Chirag Pabbaraju",
+      "abstract": "While the optimal sample complexity of binary classification in terms of the VC dimension is well-established, determining the optimal sample complexity of multiclass classification has remained open. The appropriate complexity parameter for multiclass classification is the DS dimension, and despite...",
       "venue": "arXiv",
-      "date": "2026-04-24",
-      "arxiv_id": "2604.22714v1",
-      "url": "https://arxiv.org/abs/2604.22714v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.22714v1.pdf",
+      "date": "2026-04-27",
+      "arxiv_id": "2604.24749v1",
+      "url": "https://arxiv.org/abs/2604.24749v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.24749v1.pdf",
       "categories": [
-        "cs.CV"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Spend Less, Fit Better: Budget-Efficient Scaling Law Fitting via Active Experiment Selection",
-      "authors": "Sijie Li, Shanda Li, Haowei Lin et al.",
-      "abstract": "Scaling laws are used to plan multi-million-dollar training runs, but fitting those laws can itself cost millions. In modern large-scale workflows, assembling a sufficiently informative set of pilot experiments is already a major budget-allocation problem rather than a routine preprocessing step. We...",
-      "venue": "arXiv",
-      "date": "2026-04-24",
-      "arxiv_id": "2604.22753v1",
-      "url": "https://arxiv.org/abs/2604.22753v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.22753v1.pdf",
-      "categories": [
-        "cs.LG"
+        "cs.LG",
+        "stat.ML"
       ],
       "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Relaxation-Informed Training of Neural Network Surrogate Models",
-      "authors": "Calvin Tsay",
-      "abstract": "ReLU neural networks trained as surrogate models can be embedded exactly in mixed-integer linear programs (MILPs), enabling global optimization over the learned function. The tractability of the resulting MILP depends on structural properties of the network, i.e., the number of binary variables in a...",
+      "title": "Passage-Aware Structural Mapping for RGB-D Visual SLAM",
+      "authors": "Ali Tourani, Miguel Fernandez-Cortizas, Saad Ejaz et al.",
+      "abstract": "Doorways and passages are critical structural elements for indoor robot navigation, yet they remain underexplored in modern Visual SLAM (VSLAM) frameworks. This paper presents a passage-aware structural mapping approach for RGB-D VSLAM that detects doors and traversable openings by jointly fusing ge...",
       "venue": "arXiv",
-      "date": "2026-04-24",
-      "arxiv_id": "2604.22746v1",
-      "url": "https://arxiv.org/abs/2604.22746v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.22746v1.pdf",
+      "date": "2026-04-27",
+      "arxiv_id": "2604.24707v1",
+      "url": "https://arxiv.org/abs/2604.24707v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.24707v1.pdf",
       "categories": [
-        "math.OC",
-        "cs.LG"
+        "cs.RO"
       ],
-      "type": "ml",
+      "type": "ai",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "GCImOpt: Learning efficient goal-conditioned policies by imitating optimal trajectories",
-      "authors": "Jon Goikoetxea, Jesús F. Palacián",
-      "abstract": "Imitation learning is a well-established approach for machine-learning-based control. However, its applicability depends on having access to demonstrations, which are often expensive to collect and/or suboptimal for solving the task. In this work, we present GCImOpt, an approach to learn efficient g...",
+      "title": "Exploiting Differential Flatness for Efficient Learning-based Model Predictive Control of Constrained Multi-Input Control Affine Systems",
+      "authors": "Tobias A. Farger, Adam W. Hall, Angela P. Schoellig",
+      "abstract": "Learning-based control techniques use data from past trajectories to control systems with uncertain dynamics. However, learning-based controllers are often computationally inefficient, limiting their practicality. To address this limitation, we propose a learning-based controller that exploits diffe...",
       "venue": "arXiv",
-      "date": "2026-04-24",
-      "arxiv_id": "2604.22724v1",
-      "url": "https://arxiv.org/abs/2604.22724v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.22724v1.pdf",
+      "date": "2026-04-27",
+      "arxiv_id": "2604.24706v1",
+      "url": "https://arxiv.org/abs/2604.24706v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.24706v1.pdf",
       "categories": [
-        "cs.RO",
-        "eess.SY"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "ATRS: Adaptive Trajectory Re-splitting via a Shared Neural Policy for Parallel Optimization",
-      "authors": "Jiajun Yu, Guodong Liu, Li Wang et al.",
-      "abstract": "Parallel trajectory optimization via the Alternating Direction Method of Multipliers (ADMM) has emerged as a scalable approach to long-horizon motion planning. However, existing frameworks typically decompose the problem into parallel subproblems based on a predefined fixed structure. Such structura...",
-      "venue": "arXiv",
-      "date": "2026-04-24",
-      "arxiv_id": "2604.22715v1",
-      "url": "https://arxiv.org/abs/2604.22715v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.22715v1.pdf",
-      "categories": [
+        "eess.SY",
+        "cs.LG",
         "cs.RO"
       ],
       "type": "ml",

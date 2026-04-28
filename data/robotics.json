@@ -1,12 +1,12 @@
 {
   "last_updated": "2026-04-28",
-  "count": 178,
+  "count": 183,
   "items": [
     {
       "title": "[从机器人马拉松破纪录，看中国 具 身 智 能",
       "summary": "[从机器人马拉松破纪录，看中国 具 身 智 能",
       "url": "http://36kr.com/p/3778896668439299",
-      "date": "2026-04-27",
+      "date": "2026-04-28",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
@@ -18,12 +18,92 @@
       "title": "[最前线｜2025年全年营收超64亿，海康机器人表示将继续推进AI融合与 具 身 智 能 布局",
       "summary": "[最前线｜2025年全年营收超64亿，海康机器人表示将继续推进AI融合与 具 身 智 能 布局",
       "url": "http://36kr.com/p/3782137908403457",
-      "date": "2026-04-27",
+      "date": "2026-04-28",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
       "tags": [
         "机器人"
+      ]
+    },
+    {
+      "title": "Passage-Aware Structural Mapping for RGB-D Visual SLAM",
+      "summary": "Doorways and passages are critical structural elements for indoor robot navigation, yet they remain underexplored in modern Visual SLAM (VSLAM) frameworks. This paper presents a passage-aware structural mapping approach for RGB-D VSLAM that detects d...",
+      "url": "https://arxiv.org/abs/2604.24707v1",
+      "date": "2026-04-27",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.24707v1",
+      "authors": "Ali Tourani, Miguel Fernandez-Cortizas et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Exploiting Differential Flatness for Efficient Learning-based Model Predictive Control of Constrained Multi-Input Control Affine Systems",
+      "summary": "Learning-based control techniques use data from past trajectories to control systems with uncertain dynamics. However, learning-based controllers are often computationally inefficient, limiting their practicality. To address this limitation, we propo...",
+      "url": "https://arxiv.org/abs/2604.24706v1",
+      "date": "2026-04-27",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.24706v1",
+      "authors": "Tobias A. Farger, Adam W. Hall et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Learning Human-Intention Priors from Large-Scale Human Demonstrations for Robotic Manipulation",
+      "summary": "Human videos contain rich manipulation priors, but using them for robot learning remains difficult because raw observations entangle scene understanding, human motion, and embodiment-specific action. We introduce MoT-HRA, a hierarchical vision-langua...",
+      "url": "https://arxiv.org/abs/2604.24681v1",
+      "date": "2026-04-27",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.24681v1",
+      "authors": "Yifan Xie, YuAn Wang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Pushing Radar Odometry Beyond the Pavement: Current Capabilities and Challenges",
+      "summary": "Radar offers unique advantages for localization in unstructured environments, including robustness to weather, lighting, and airborne particulates. While most prior work has studied radar odometry in urban, largely planar settings, its performance in...",
+      "url": "https://arxiv.org/abs/2604.24674v1",
+      "date": "2026-04-27",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.24674v1",
+      "authors": "Shaunak Kolhe, Peng Jiang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Agent-Centric Visual Reinforcement Learning under Dynamic Perturbations",
+      "summary": "Visual reinforcement learning aims to empower an agent to learn policies from visual observations, yet it remains vulnerable to dynamic visual perturbations, such as unpredictable shifts in corruption types. To systematically study this, we introduce...",
+      "url": "https://arxiv.org/abs/2604.24661v1",
+      "date": "2026-04-27",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.24661v1",
+      "authors": "Zhengru Fang, Yu Guo et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
       ]
     },
     {
