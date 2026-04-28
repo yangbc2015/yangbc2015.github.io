@@ -1,6 +1,6 @@
 ---
 title: 【Jetson】一、初识Jetson Orin Nano Super 老黄带给我们惊喜了？
-date: '2026-04-27'
+date: '2026-04-28'
 author: heroybc
 source: CSDN
 original_url: https://blog.csdn.net/heroybc/article/details/147595413
@@ -41,7 +41,7 @@ Jetson相关技术文章
 | **分类** | Jetson |
 | **难度** | intermediate |
 | **阅读量** | 0 |
-| **发布日期** | 2026-04-27 |
+| **发布日期** | 2026-04-28 |
 | **来源** | [CSDN博客](https://blog.csdn.net/heroybc) |
 
 ---
