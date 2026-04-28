@@ -87,17 +87,17 @@
       "rank": 11,
       "model": "qwen3.6-max-preview",
       "organization": "qwen",
-      "price_prompt": "0.0000013",
-      "price_completion": "0.0000078",
+      "price_prompt": "0.00000104",
+      "price_completion": "0.00000624",
       "context_length": 262144
     },
     {
       "rank": 12,
       "model": "qwen3.6-27b",
       "organization": "qwen",
-      "price_prompt": "0.0000005",
-      "price_completion": "0.000002",
-      "context_length": 262144
+      "price_prompt": "0.000000325",
+      "price_completion": "0.00000325",
+      "context_length": 256000
     },
     {
       "rank": 13,
