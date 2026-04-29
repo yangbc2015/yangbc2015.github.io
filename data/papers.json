@@ -1,69 +1,18 @@
 {
   "last_updated": "2026-04-29",
-  "count": 9,
+  "count": 6,
   "items": [
     {
-      "title": "Personalized Worked Example Generation from Student Code Submissions using Pattern-based Knowledge Components",
-      "authors": "Griffin Pitts, Muntasir Hoq, Peter Brusilovsky et al.",
-      "abstract": "Adaptive programming practice often relies on fixed libraries of worked examples and practice problems, which require substantial authoring effort and may not correspond well to the logical errors and partial solutions students produce while writing code. As a result, students may receive learning c...",
+      "title": "Recursive Multi-Agent Systems",
+      "authors": "Xiyuan Yang, Jiaru Zou, Rui Pan et al.",
+      "abstract": "Recursive or looped language models have recently emerged as a new scaling axis by iteratively refining the same model computation over latent states to deepen reasoning. We extend such scaling principle from a single model to multi-agent systems, and ask: Can agent collaboration itself be scaled th...",
       "venue": "arXiv",
-      "date": "2026-04-27",
-      "arxiv_id": "2604.24758v1",
-      "url": "https://arxiv.org/abs/2604.24758v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.24758v1.pdf",
+      "date": "2026-04-28",
+      "arxiv_id": "2604.25917v1",
+      "url": "https://arxiv.org/abs/2604.25917v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.25917v1.pdf",
       "categories": [
-        "cs.HC",
         "cs.AI",
-        "cs.CY"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Learning to Think from Multiple Thinkers",
-      "authors": "Nirmit Joshi, Roey Magen, Nathan Srebro et al.",
-      "abstract": "We study learning with Chain-of-Thought (CoT) supervision from multiple thinkers, all of whom provide correct but possibly systematically different solutions, e.g., step-by-step solutions to math problems written by different thinkers, or step-by-step execution traces of different programs solving t...",
-      "venue": "arXiv",
-      "date": "2026-04-27",
-      "arxiv_id": "2604.24737v1",
-      "url": "https://arxiv.org/abs/2604.24737v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.24737v1.pdf",
-      "categories": [
-        "cs.LG",
-        "cs.AI",
-        "cs.CC"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Sentiment and Emotion Classification of Indonesian E-Commerce Reviews via Multi-Task BiLSTM and AutoML Benchmarking",
-      "authors": "Hermawan Manurung, Ibrahim Al-Kahfi, Ahmad Rizqi et al.",
-      "abstract": "Indonesian marketplace reviews mix standard vocabulary with slang, regional loanwords, numeric shorthands, and emoji, making lexicon-based sentiment tools unreliable in practice. This paper describes a two-track classification pipeline applied to the PRDECT-ID dataset, which contains 5,400 product r...",
-      "venue": "arXiv",
-      "date": "2026-04-27",
-      "arxiv_id": "2604.24720v1",
-      "url": "https://arxiv.org/abs/2604.24720v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.24720v1.pdf",
-      "categories": [
-        "cs.CL"
-      ],
-      "type": "survey",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Long-Context Aware Upcycling: A New Frontier for Hybrid LLM Scaling",
-      "authors": "Parsa Ashrafi Fashi, Utkarsh Saxena, Mehdi Rezagholizadeh et al.",
-      "abstract": "Hybrid sequence models that combine efficient Transformer components with linear sequence modeling blocks are a promising alternative to pure Transformers, but most are still pretrained from scratch and therefore fail to reuse existing Transformer checkpoints. We study upcycling as a practical path ...",
-      "venue": "arXiv",
-      "date": "2026-04-27",
-      "arxiv_id": "2604.24715v1",
-      "url": "https://arxiv.org/abs/2604.24715v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.24715v1.pdf",
-      "categories": [
         "cs.CL",
         "cs.LG"
       ],
@@ -72,30 +21,47 @@
       "source": "arXiv"
     },
     {
-      "title": "World-R1: Reinforcing 3D Constraints for Text-to-Video Generation",
-      "authors": "Weijie Wang, Xiaoxuan He, Youping Gu et al.",
-      "abstract": "Recent video foundation models demonstrate impressive visual synthesis but frequently suffer from geometric inconsistencies. While existing methods attempt to inject 3D priors via architectural modifications, they often incur high computational costs and limit scalability. We propose World-R1, a fra...",
+      "title": "How Fast Should a Model Commit to Supervision? Training Reasoning Models on the Tsallis Loss Continuum",
+      "authors": "Chu-Cheng Lin, Eugene Ie",
+      "abstract": "Adapting reasoning models to new tasks during post-training with only output-level supervision stalls under reinforcement learning from verifiable rewards (RLVR) when the initial success probability $p_0$ is small. Using the Tsallis $q$-logarithm, we define a loss family $J_Q$ that interpolates betw...",
       "venue": "arXiv",
-      "date": "2026-04-27",
-      "arxiv_id": "2604.24764v1",
-      "url": "https://arxiv.org/abs/2604.24764v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.24764v1.pdf",
+      "date": "2026-04-28",
+      "arxiv_id": "2604.25907v1",
+      "url": "https://arxiv.org/abs/2604.25907v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.25907v1.pdf",
       "categories": [
-        "cs.CV"
+        "cs.LG",
+        "cs.AI"
       ],
-      "type": "nlp",
+      "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Tuna-2: Pixel Embeddings Beat Vision Encoders for Multimodal Understanding and Generation",
-      "authors": "Zhiheng Liu, Weiming Ren, Xiaoke Huang et al.",
-      "abstract": "Unified multimodal models typically rely on pretrained vision encoders and use separate visual representations for understanding and generation, creating misalignment between the two tasks and preventing fully end-to-end optimization from raw pixels. We introduce Tuna-2, a native unified multimodal ...",
+      "title": "DV-World: Benchmarking Data Visualization Agents in Real-World Scenarios",
+      "authors": "Jinxiang Meng, Shaoping Huang, Fangyu Lei et al.",
+      "abstract": "Real-world data visualization (DV) requires native environmental grounding, cross-platform evolution, and proactive intent alignment. Yet, existing benchmarks often suffer from code-sandbox confinement, single-language creation-only tasks, and assumption of perfect intent. To bridge these gaps, we i...",
       "venue": "arXiv",
-      "date": "2026-04-27",
-      "arxiv_id": "2604.24763v1",
-      "url": "https://arxiv.org/abs/2604.24763v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.24763v1.pdf",
+      "date": "2026-04-28",
+      "arxiv_id": "2604.25914v1",
+      "url": "https://arxiv.org/abs/2604.25914v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.25914v1.pdf",
+      "categories": [
+        "cs.CL"
+      ],
+      "type": "benchmark",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Robust Deepfake Detection: Mitigating Spatial Attention Drift via Calibrated Complementary Ensembles",
+      "authors": "Minh-Khoa Le-Phan, Minh-Hoang Le, Trong-Le Do et al.",
+      "abstract": "Current deepfake detection models achieve state-of-the-art performance on pristine academic datasets but suffer severe spatial attention drift under real-world compound degradations, such as blurring and severe lossy compression. To address this vulnerability, we propose a foundation-driven forensic...",
+      "venue": "arXiv",
+      "date": "2026-04-28",
+      "arxiv_id": "2604.25889v1",
+      "url": "https://arxiv.org/abs/2604.25889v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.25889v1.pdf",
       "categories": [
         "cs.CV"
       ],
@@ -104,51 +70,36 @@
       "source": "arXiv"
     },
     {
-      "title": "The Optimal Sample Complexity of Multiclass and List Learning",
-      "authors": "Chirag Pabbaraju",
-      "abstract": "While the optimal sample complexity of binary classification in terms of the VC dimension is well-established, determining the optimal sample complexity of multiclass classification has remained open. The appropriate complexity parameter for multiclass classification is the DS dimension, and despite...",
+      "title": "No Pedestrian Left Behind: Real-Time Detection and Tracking of Vulnerable Road Users for Adaptive Traffic Signal Control",
+      "authors": "Anas Gamal Aly, Hala ElAarag",
+      "abstract": "Current pedestrian crossing signals operate on fixed timing without adjustment to pedestrian behavior, which can leave vulnerable road users (VRUs) such as the elderly, disabled, or distracted pedestrians stranded when the light changes. We introduce No Pedestrian Left Behind (NPLB), a real-time ada...",
       "venue": "arXiv",
-      "date": "2026-04-27",
-      "arxiv_id": "2604.24749v1",
-      "url": "https://arxiv.org/abs/2604.24749v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.24749v1.pdf",
+      "date": "2026-04-28",
+      "arxiv_id": "2604.25887v1",
+      "url": "https://arxiv.org/abs/2604.25887v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.25887v1.pdf",
       "categories": [
-        "cs.LG",
-        "stat.ML"
+        "cs.CV",
+        "cs.AI",
+        "cs.RO"
       ],
-      "type": "ml",
+      "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Passage-Aware Structural Mapping for RGB-D Visual SLAM",
-      "authors": "Ali Tourani, Miguel Fernandez-Cortizas, Saad Ejaz et al.",
-      "abstract": "Doorways and passages are critical structural elements for indoor robot navigation, yet they remain underexplored in modern Visual SLAM (VSLAM) frameworks. This paper presents a passage-aware structural mapping approach for RGB-D VSLAM that detects doors and traversable openings by jointly fusing ge...",
+      "title": "Variational Neural Belief Parameterizations for Robust Dexterous Grasping under Multimodal Uncertainty",
+      "authors": "Clinton Enwerem, Shreya Kalyanaraman, John S. Baras et al.",
+      "abstract": "Contact variability, sensing uncertainty, and external disturbances make grasp execution stochastic. Expected-quality objectives ignore tail outcomes and often select grasps that fail under adverse contact realizations. Risk-sensitive POMDPs address this failure mode, but many use particle-filter be...",
       "venue": "arXiv",
-      "date": "2026-04-27",
-      "arxiv_id": "2604.24707v1",
-      "url": "https://arxiv.org/abs/2604.24707v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.24707v1.pdf",
+      "date": "2026-04-28",
+      "arxiv_id": "2604.25897v1",
+      "url": "https://arxiv.org/abs/2604.25897v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.25897v1.pdf",
       "categories": [
-        "cs.RO"
-      ],
-      "type": "ai",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Exploiting Differential Flatness for Efficient Learning-based Model Predictive Control of Constrained Multi-Input Control Affine Systems",
-      "authors": "Tobias A. Farger, Adam W. Hall, Angela P. Schoellig",
-      "abstract": "Learning-based control techniques use data from past trajectories to control systems with uncertain dynamics. However, learning-based controllers are often computationally inefficient, limiting their practicality. To address this limitation, we propose a learning-based controller that exploits diffe...",
-      "venue": "arXiv",
-      "date": "2026-04-27",
-      "arxiv_id": "2604.24706v1",
-      "url": "https://arxiv.org/abs/2604.24706v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.24706v1.pdf",
-      "categories": [
-        "eess.SY",
+        "cs.RO",
         "cs.LG",
-        "cs.RO"
+        "eess.SY"
       ],
       "type": "ml",
       "badge": "arxiv",

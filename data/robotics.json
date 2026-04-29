@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-04-29",
-  "count": 183,
+  "count": 188,
   "items": [
     {
       "title": "[从机器人马拉松破纪录，看中国 具 身 智 能",
@@ -12,6 +12,86 @@
       "type": "news",
       "tags": [
         "机器人"
+      ]
+    },
+    {
+      "title": "Variational Neural Belief Parameterizations for Robust Dexterous Grasping under Multimodal Uncertainty",
+      "summary": "Contact variability, sensing uncertainty, and external disturbances make grasp execution stochastic. Expected-quality objectives ignore tail outcomes and often select grasps that fail under adverse contact realizations. Risk-sensitive POMDPs address ...",
+      "url": "https://arxiv.org/abs/2604.25897v1",
+      "date": "2026-04-28",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.25897v1",
+      "authors": "Clinton Enwerem, Shreya Kalyanaraman et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "No Pedestrian Left Behind: Real-Time Detection and Tracking of Vulnerable Road Users for Adaptive Traffic Signal Control",
+      "summary": "Current pedestrian crossing signals operate on fixed timing without adjustment to pedestrian behavior, which can leave vulnerable road users (VRUs) such as the elderly, disabled, or distracted pedestrians stranded when the light changes. We introduce...",
+      "url": "https://arxiv.org/abs/2604.25887v1",
+      "date": "2026-04-28",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.25887v1",
+      "authors": "Anas Gamal Aly, Hala ElAarag",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Privileged Foresight Distillation: Zero-Cost Future Correction for World Action Models",
+      "summary": "World action models jointly predict future video and action during training, raising an open question about what role the future-prediction branch actually plays. A recent finding shows that this branch can be removed at inference with little to no l...",
+      "url": "https://arxiv.org/abs/2604.25859v1",
+      "date": "2026-04-28",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.25859v1",
+      "authors": "Pengcheng Fang, Hongli Chen et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "KinDER: A Physical Reasoning Benchmark for Robot Learning and Planning",
+      "summary": "Robotic systems that interact with the physical world must reason about kinematic and dynamic constraints imposed by their own embodiment, their environment, and the task at hand. We introduce KinDER, a benchmark for Kinematic and Dynamic Embodied Re...",
+      "url": "https://arxiv.org/abs/2604.25788v1",
+      "date": "2026-04-28",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.25788v1",
+      "authors": "Yixuan Huang, Bowen Li et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "EOS-Bench: A Comprehensive Benchmark for Earth Observation Satellite Scheduling",
+      "summary": "Earth observation satellite imaging scheduling is a challenging NP-hard combinatorial optimisation problem central to space mission operations. While next-generation agile Earth observation satellites (EOS) increase operational flexibility, they also...",
+      "url": "https://arxiv.org/abs/2604.25782v1",
+      "date": "2026-04-28",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2604.25782v1",
+      "authors": "Qian Yin, Jiaxing Li et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
       ]
     },
     {
