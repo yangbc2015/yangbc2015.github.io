@@ -1,0 +1,25 @@
+---
+title: '[AI模型和Agent创新，倒逼AI Infra产生了哪些创业机会？'
+date: '2026-04-29'
+type: news
+source: 36氪
+category: AI投资
+link: http://36kr.com/p/3787679275441413
+summary: '[AI模型和Agent创新，倒逼AI Infra产生了哪些创业机会？'
+tags:
+- AI投资
+---
+
+## 📊 投资摘要
+
+[AI模型和Agent创新，倒逼AI Infra产生了哪些创业机会？
+
+## 🔗 原文链接
+
+<a href="http://36kr.com/p/3787679275441413" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.75rem 1.5rem; background: linear-gradient(135deg, #ffd700, #ffed4e); color: #000; text-decoration: none; border-radius: 8px; font-family: 'Orbitron', monospace; font-weight: 600;">
+查看详情 →
+</a>
+
+---
+
+*本文仅供参考，不构成投资建议。*

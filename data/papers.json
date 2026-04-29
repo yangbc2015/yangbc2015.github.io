@@ -1,40 +1,5 @@
 {
   "last_updated": "2026-04-29",
-  "count": 2,
-  "items": [
-    {
-      "title": "Robust Deepfake Detection: Mitigating Spatial Attention Drift via Calibrated Complementary Ensembles",
-      "authors": "Minh-Khoa Le-Phan, Minh-Hoang Le, Trong-Le Do et al.",
-      "abstract": "Current deepfake detection models achieve state-of-the-art performance on pristine academic datasets but suffer severe spatial attention drift under real-world compound degradations, such as blurring and severe lossy compression. To address this vulnerability, we propose a foundation-driven forensic...",
-      "venue": "arXiv",
-      "date": "2026-04-28",
-      "arxiv_id": "2604.25889v1",
-      "url": "https://arxiv.org/abs/2604.25889v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.25889v1.pdf",
-      "categories": [
-        "cs.CV"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "No Pedestrian Left Behind: Real-Time Detection and Tracking of Vulnerable Road Users for Adaptive Traffic Signal Control",
-      "authors": "Anas Gamal Aly, Hala ElAarag",
-      "abstract": "Current pedestrian crossing signals operate on fixed timing without adjustment to pedestrian behavior, which can leave vulnerable road users (VRUs) such as the elderly, disabled, or distracted pedestrians stranded when the light changes. We introduce No Pedestrian Left Behind (NPLB), a real-time ada...",
-      "venue": "arXiv",
-      "date": "2026-04-28",
-      "arxiv_id": "2604.25887v1",
-      "url": "https://arxiv.org/abs/2604.25887v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.25887v1.pdf",
-      "categories": [
-        "cs.CV",
-        "cs.AI",
-        "cs.RO"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    }
-  ]
+  "count": 0,
+  "items": []
 }
