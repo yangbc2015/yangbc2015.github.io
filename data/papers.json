@@ -1,5 +1,109 @@
 {
-  "last_updated": "2026-04-29",
-  "count": 0,
-  "items": []
+  "last_updated": "2026-04-30",
+  "count": 6,
+  "items": [
+    {
+      "title": "Recursive Multi-Agent Systems",
+      "authors": "Xiyuan Yang, Jiaru Zou, Rui Pan et al.",
+      "abstract": "Recursive or looped language models have recently emerged as a new scaling axis by iteratively refining the same model computation over latent states to deepen reasoning. We extend such scaling principle from a single model to multi-agent systems, and ask: Can agent collaboration itself be scaled th...",
+      "venue": "arXiv",
+      "date": "2026-04-28",
+      "arxiv_id": "2604.25917v1",
+      "url": "https://arxiv.org/abs/2604.25917v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.25917v1.pdf",
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "How Fast Should a Model Commit to Supervision? Training Reasoning Models on the Tsallis Loss Continuum",
+      "authors": "Chu-Cheng Lin, Eugene Ie",
+      "abstract": "Adapting reasoning models to new tasks during post-training with only output-level supervision stalls under reinforcement learning from verifiable rewards (RLVR) when the initial success probability $p_0$ is small. Using the Tsallis $q$-logarithm, we define a loss family $J_Q$ that interpolates betw...",
+      "venue": "arXiv",
+      "date": "2026-04-28",
+      "arxiv_id": "2604.25907v1",
+      "url": "https://arxiv.org/abs/2604.25907v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.25907v1.pdf",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "DV-World: Benchmarking Data Visualization Agents in Real-World Scenarios",
+      "authors": "Jinxiang Meng, Shaoping Huang, Fangyu Lei et al.",
+      "abstract": "Real-world data visualization (DV) requires native environmental grounding, cross-platform evolution, and proactive intent alignment. Yet, existing benchmarks often suffer from code-sandbox confinement, single-language creation-only tasks, and assumption of perfect intent. To bridge these gaps, we i...",
+      "venue": "arXiv",
+      "date": "2026-04-28",
+      "arxiv_id": "2604.25914v1",
+      "url": "https://arxiv.org/abs/2604.25914v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.25914v1.pdf",
+      "categories": [
+        "cs.CL"
+      ],
+      "type": "benchmark",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Robust Deepfake Detection: Mitigating Spatial Attention Drift via Calibrated Complementary Ensembles",
+      "authors": "Minh-Khoa Le-Phan, Minh-Hoang Le, Trong-Le Do et al.",
+      "abstract": "Current deepfake detection models achieve state-of-the-art performance on pristine academic datasets but suffer severe spatial attention drift under real-world compound degradations, such as blurring and severe lossy compression. To address this vulnerability, we propose a foundation-driven forensic...",
+      "venue": "arXiv",
+      "date": "2026-04-28",
+      "arxiv_id": "2604.25889v1",
+      "url": "https://arxiv.org/abs/2604.25889v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.25889v1.pdf",
+      "categories": [
+        "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "No Pedestrian Left Behind: Real-Time Detection and Tracking of Vulnerable Road Users for Adaptive Traffic Signal Control",
+      "authors": "Anas Gamal Aly, Hala ElAarag",
+      "abstract": "Current pedestrian crossing signals operate on fixed timing without adjustment to pedestrian behavior, which can leave vulnerable road users (VRUs) such as the elderly, disabled, or distracted pedestrians stranded when the light changes. We introduce No Pedestrian Left Behind (NPLB), a real-time ada...",
+      "venue": "arXiv",
+      "date": "2026-04-28",
+      "arxiv_id": "2604.25887v1",
+      "url": "https://arxiv.org/abs/2604.25887v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.25887v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.RO"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Variational Neural Belief Parameterizations for Robust Dexterous Grasping under Multimodal Uncertainty",
+      "authors": "Clinton Enwerem, Shreya Kalyanaraman, John S. Baras et al.",
+      "abstract": "Contact variability, sensing uncertainty, and external disturbances make grasp execution stochastic. Expected-quality objectives ignore tail outcomes and often select grasps that fail under adverse contact realizations. Risk-sensitive POMDPs address this failure mode, but many use particle-filter be...",
+      "venue": "arXiv",
+      "date": "2026-04-28",
+      "arxiv_id": "2604.25897v1",
+      "url": "https://arxiv.org/abs/2604.25897v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.25897v1.pdf",
+      "categories": [
+        "cs.RO",
+        "cs.LG",
+        "eess.SY"
+      ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    }
+  ]
 }
