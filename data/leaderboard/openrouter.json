@@ -5,6 +5,14 @@
   "models": [
     {
       "rank": 1,
+      "model": "owl-alpha",
+      "organization": "openrouter",
+      "price_prompt": "0",
+      "price_completion": "0",
+      "context_length": 1048756
+    },
+    {
+      "rank": 2,
       "model": "nemotron-3-nano-omni-30b-a3b-reasoning:free",
       "organization": "nvidia",
       "price_prompt": "0",
@@ -12,7 +20,7 @@
       "context_length": 256000
     },
     {
-      "rank": 2,
+      "rank": 3,
       "model": "laguna-xs.2:free",
       "organization": "poolside",
       "price_prompt": "0",
@@ -20,7 +28,7 @@
       "context_length": 131072
     },
     {
-      "rank": 3,
+      "rank": 4,
       "model": "laguna-m.1:free",
       "organization": "poolside",
       "price_prompt": "0",
@@ -28,7 +36,7 @@
       "context_length": 131072
     },
     {
-      "rank": 4,
+      "rank": 5,
       "model": "claude-haiku-latest",
       "organization": "~anthropic",
       "price_prompt": "0.000001",
@@ -36,7 +44,7 @@
       "context_length": 200000
     },
     {
-      "rank": 5,
+      "rank": 6,
       "model": "gpt-mini-latest",
       "organization": "~openai",
       "price_prompt": "0.00000075",
@@ -44,7 +52,7 @@
       "context_length": 400000
     },
     {
-      "rank": 6,
+      "rank": 7,
       "model": "gemini-pro-latest",
       "organization": "~google",
       "price_prompt": "0.000002",
@@ -52,15 +60,15 @@
       "context_length": 1048576
     },
     {
-      "rank": 7,
+      "rank": 8,
       "model": "kimi-latest",
       "organization": "~moonshotai",
-      "price_prompt": "0.00000075",
-      "price_completion": "0.0000035",
-      "context_length": 262144
+      "price_prompt": "0.00000074",
+      "price_completion": "0.00000349",
+      "context_length": 262142
     },
     {
-      "rank": 8,
+      "rank": 9,
       "model": "gemini-flash-latest",
       "organization": "~google",
       "price_prompt": "0.0000005",
@@ -68,7 +76,7 @@
       "context_length": 1048576
     },
     {
-      "rank": 9,
+      "rank": 10,
       "model": "claude-sonnet-latest",
       "organization": "~anthropic",
       "price_prompt": "0.000003",
@@ -76,7 +84,7 @@
       "context_length": 1000000
     },
     {
-      "rank": 10,
+      "rank": 11,
       "model": "gpt-latest",
       "organization": "~openai",
       "price_prompt": "0.000005",
@@ -84,7 +92,7 @@
       "context_length": 1050000
     },
     {
-      "rank": 11,
+      "rank": 12,
       "model": "qwen3.5-plus-20260420",
       "organization": "qwen",
       "price_prompt": "0.0000004",
@@ -92,7 +100,7 @@
       "context_length": 1000000
     },
     {
-      "rank": 12,
+      "rank": 13,
       "model": "qwen3.6-flash",
       "organization": "qwen",
       "price_prompt": "0.00000025",
@@ -100,7 +108,7 @@
       "context_length": 1000000
     },
     {
-      "rank": 13,
+      "rank": 14,
       "model": "qwen3.6-35b-a3b",
       "organization": "qwen",
       "price_prompt": "0.0000001612",
@@ -108,20 +116,12 @@
       "context_length": 262144
     },
     {
-      "rank": 14,
+      "rank": 15,
       "model": "qwen3.6-max-preview",
       "organization": "qwen",
       "price_prompt": "0.00000104",
       "price_completion": "0.00000624",
       "context_length": 262144
-    },
-    {
-      "rank": 15,
-      "model": "qwen3.6-27b",
-      "organization": "qwen",
-      "price_prompt": "0.000000325",
-      "price_completion": "0.00000325",
-      "context_length": 256000
     }
   ]
 }

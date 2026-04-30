@@ -3,6 +3,18 @@
   "count": 193,
   "items": [
     {
+      "title": "[从机器人马拉松破纪录，看中国 具 身 智 能",
+      "summary": "[从机器人马拉松破纪录，看中国 具 身 智 能",
+      "url": "http://36kr.com/p/3778896668439299",
+      "date": "2026-04-30",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
       "title": "Three-Step Nav: A Hierarchical Global-Local Planner for Zero-Shot Vision-and-Language Navigation",
       "summary": "Breakthrough progress in vision-based navigation through unknown environments has been achieved by using multimodal large language models (MLLMs). These models can plan a sequence of motions by evaluating the current view at each time step against th...",
       "url": "https://arxiv.org/abs/2604.26946v1",
@@ -80,18 +92,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "[从机器人马拉松破纪录，看中国 具 身 智 能",
-      "summary": "[从机器人马拉松破纪录，看中国 具 身 智 能",
-      "url": "http://36kr.com/p/3778896668439299",
-      "date": "2026-04-29",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
       ]
     },
     {
