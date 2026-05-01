@@ -1,6 +1,6 @@
 ---
 title: '[30万被引的AlphaGo之父，创业4个月融资近百亿元，笃信RL实现ASI'
-date: '2026-04-30'
+date: '2026-05-01'
 type: news
 source: 36氪
 category: AI投资

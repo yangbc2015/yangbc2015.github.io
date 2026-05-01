@@ -1,7 +1,7 @@
 {
   "last_updated": "2026-05-01",
   "count": 200,
-  "history_count": 200,
+  "history_count": 205,
   "retention_days": 30,
   "items": [
     {
@@ -74,6 +74,78 @@
       "tags": [
         "AI",
         "Artificial Intelligence"
+      ]
+    },
+    {
+      "title": "Markdown Content:",
+      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+      "summary": "Markdown Content:...",
+      "date": "2026-04-30",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "刚刚，DeepSeek多模态技术范式公布，以视觉原语思考",
+      "link": "https://www.jiqizhixin.com/search/articles/刚刚，DeepSeek多模态技",
+      "summary": "刚刚，DeepSeek多模态技术范式公布，以视觉原语思考...",
+      "date": "2026-04-30",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "GPT-5系列咋都爱说「哥布林」？原因找到了",
+      "link": "https://www.jiqizhixin.com/search/articles/GPT-5系列咋都爱说「哥布林",
+      "summary": "GPT-5系列咋都爱说「哥布林」？原因找到了...",
+      "date": "2026-04-30",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "为智能体可信协作提供新方案 蚂蚁数科登顶以太坊全球基准评测",
+      "link": "https://www.jiqizhixin.com/search/articles/为智能体可信协作提供新方案 蚂",
+      "summary": "为智能体可信协作提供新方案 蚂蚁数科登顶以太坊全球基准评测...",
+      "date": "2026-04-30",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "不只是DeepSeek V4，还有个万亿级大模型，训推全程国产芯片",
+      "link": "https://www.jiqizhixin.com/search/articles/不只是DeepSeek V4，",
+      "summary": "不只是DeepSeek V4，还有个万亿级大模型，训推全程国产芯片...",
+      "date": "2026-04-30",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "CVPR 2026｜用互联网视频替代3D标注：通研院团队打造SceneVerse++「最大规模」真实3D场景数据",
+      "link": "https://www.jiqizhixin.com/search/articles/CVPR 2026｜用互联网视",
+      "summary": "CVPR 2026｜用互联网视频替代3D标注：通研院团队打造SceneVerse++「最大规模」真实3D场景数据...",
+      "date": "2026-04-30",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
       ]
     },
     {
@@ -212,18 +284,6 @@
       "title": "DR-Venus开源：仅用10K开放数据，4B小模型挑战深度研究Agent前沿",
       "link": "https://www.jiqizhixin.com/search/articles/DR-Venus开源：仅用10",
       "summary": "DR-Venus开源：仅用10K开放数据，4B小模型挑战深度研究Agent前沿...",
-      "date": "2026-04-29",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Markdown Content:",
-      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-      "summary": "Markdown Content:...",
       "date": "2026-04-29",
       "source": "机器之心",
       "type": "industry",
@@ -2338,66 +2398,6 @@
       "summary": "零配置开箱即用，一个命令生成完整知识图谱...",
       "date": "2026-04-08",
       "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "在OpenRouter上霸榜多日",
-      "link": "https://www.qbitai.com/?s=在OpenRoute",
-      "summary": "在OpenRouter上霸榜多日...",
-      "date": "2026-04-08",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "性能更强的旗舰模型Qwen3.6-Max也将发布",
-      "link": "https://www.qbitai.com/?s=性能更强的旗舰模型Q",
-      "summary": "性能更强的旗舰模型Qwen3.6-Max也将发布...",
-      "date": "2026-04-08",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Claude Code一周份额，一天就烧完一半？有人逆向工程发现了7个bug",
-      "link": "https://www.jiqizhixin.com/search/articles/Claude Code一周份额",
-      "summary": "Claude Code一周份额，一天就烧完一半？有人逆向工程发现了7个bug...",
-      "date": "2026-04-07",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "关于具身智能「触觉」，你想知道的都在这篇综述里了",
-      "link": "https://www.jiqizhixin.com/search/articles/关于具身智能「触觉」，你想知道",
-      "summary": "关于具身智能「触觉」，你想知道的都在这篇综述里了...",
-      "date": "2026-04-07",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "烧Token成KPI，8.5万Meta员工狂刷60万亿Token，争榜一大哥",
-      "link": "https://www.jiqizhixin.com/search/articles/烧Token成KPI，8.5万",
-      "summary": "烧Token成KPI，8.5万Meta员工狂刷60万亿Token，争榜一大哥...",
-      "date": "2026-04-07",
-      "source": "机器之心",
       "type": "industry",
       "tags": [
         "AI",
