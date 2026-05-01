@@ -1,19 +1,37 @@
 {
   "last_updated": "2026-05-01",
-  "count": 7,
+  "count": 6,
   "items": [
     {
-      "title": "Turning the TIDE: Cross-Architecture Distillation for Diffusion Large Language Models",
-      "authors": "Gongbo Zhang, Wen Wang, Ye Tian et al.",
-      "abstract": "Diffusion large language models (dLLMs) offer parallel decoding and bidirectional context, but state-of-the-art dLLMs require billions of parameters for competitive performance. While existing distillation methods for dLLMs reduce inference steps within a single architecture, none address cross-arch...",
+      "title": "Computing Equilibrium beyond Unilateral Deviation",
+      "authors": "Mingyang Liu, Gabriele Farina, Asuman Ozdaglar",
+      "abstract": "Most familiar equilibrium concepts, such as Nash and correlated equilibrium, guarantee only that no single player can improve their utility by deviating unilaterally. They offer no guarantees against profitable coordinated deviations by coalitions. Although the literature proposes solution concepts ...",
       "venue": "arXiv",
-      "date": "2026-04-29",
-      "arxiv_id": "2604.26951v1",
-      "url": "https://arxiv.org/abs/2604.26951v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.26951v1.pdf",
+      "date": "2026-04-30",
+      "arxiv_id": "2604.28186v1",
+      "url": "https://arxiv.org/abs/2604.28186v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.28186v1.pdf",
       "categories": [
-        "cs.CL",
+        "cs.GT",
         "cs.AI",
+        "cs.CC"
+      ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Synthetic Computers at Scale for Long-Horizon Productivity Simulation",
+      "authors": "Tao Ge, Baolin Peng, Hao Cheng et al.",
+      "abstract": "Realistic long-horizon productivity work is strongly conditioned on user-specific computer environments, where much of the work context is stored and organized through directory structures and content-rich artifacts. To scale synthetic data creation for such productivity scenarios, we introduce Synt...",
+      "venue": "arXiv",
+      "date": "2026-04-30",
+      "arxiv_id": "2604.28181v1",
+      "url": "https://arxiv.org/abs/2604.28181v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.28181v1.pdf",
+      "categories": [
+        "cs.AI",
+        "cs.CL",
         "cs.LG"
       ],
       "type": "nlp",
@@ -21,33 +39,16 @@
       "source": "arXiv"
     },
     {
-      "title": "Causal Learning with Neural Assemblies",
-      "authors": "Evangelia Kopadi, Dimitris Kalles",
-      "abstract": "Can Neural Assemblies -- groups of neurons that fire together and strengthen through co-activation -- learn the direction of causal influence between variables? While established as a computationally general substrate for classification, parsing, and planning, neural assemblies have not yet been sho...",
+      "title": "Exploration Hacking: Can LLMs Learn to Resist RL Training?",
+      "authors": "Eyon Jang, Damon Falck, Joschka Braun et al.",
+      "abstract": "Reinforcement learning (RL) has become essential to the post-training of large language models (LLMs) for reasoning, agentic capabilities and alignment. Successful RL relies on sufficient exploration of diverse actions by the model during training, which creates a potential failure mode: a model cou...",
       "venue": "arXiv",
-      "date": "2026-04-29",
-      "arxiv_id": "2604.26919v1",
-      "url": "https://arxiv.org/abs/2604.26919v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.26919v1.pdf",
+      "date": "2026-04-30",
+      "arxiv_id": "2604.28182v1",
+      "url": "https://arxiv.org/abs/2604.28182v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.28182v1.pdf",
       "categories": [
         "cs.LG",
-        "cs.AI",
-        "cs.NE"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Select to Think: Unlocking SLM Potential with Local Sufficiency",
-      "authors": "Wenxuan Ye, Yangyang Zhang, Xueli An et al.",
-      "abstract": "Small language models (SLMs) offer computational efficiency for scalable deployment, yet they often fall short of the reasoning power exhibited by their larger counterparts (LLMs). To mitigate this gap, current approaches invoke an LLM to generate tokens at points of reasoning divergence, but these ...",
-      "venue": "arXiv",
-      "date": "2026-04-29",
-      "arxiv_id": "2604.26940v1",
-      "url": "https://arxiv.org/abs/2604.26940v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.26940v1.pdf",
-      "categories": [
         "cs.CL"
       ],
       "type": "nlp",
@@ -55,31 +56,14 @@
       "source": "arXiv"
     },
     {
-      "title": "Three-Step Nav: A Hierarchical Global-Local Planner for Zero-Shot Vision-and-Language Navigation",
-      "authors": "Wanrong Zheng, Yunhao Ge, Laurent Itti",
-      "abstract": "Breakthrough progress in vision-based navigation through unknown environments has been achieved by using multimodal large language models (MLLMs). These models can plan a sequence of motions by evaluating the current view at each time step against the task and goal given to the agent. However, curre...",
+      "title": "HERMES++: Toward a Unified Driving World Model for 3D Scene Understanding and Generation",
+      "authors": "Xin Zhou, Dingkang Liang, Xiwu Chen et al.",
+      "abstract": "Driving world models serve as a pivotal technology for autonomous driving by simulating environmental dynamics. However, existing approaches predominantly focus on future scene generation, often overlooking comprehensive 3D scene understanding. Conversely, while Large Language Models (LLMs) demonstr...",
       "venue": "arXiv",
-      "date": "2026-04-29",
-      "arxiv_id": "2604.26946v1",
-      "url": "https://arxiv.org/abs/2604.26946v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.26946v1.pdf",
-      "categories": [
-        "cs.CV",
-        "cs.RO"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "ProcFunc: Function-Oriented Abstractions for Procedural 3D Generation in Python",
-      "authors": "Alexander Raistrick, Karhan Kayan, Jack Nugent et al.",
-      "abstract": "We introduce ProcFunc, a library for Blender-based procedural 3D generation in Python. ProcFunc provides a library of easy-to-use Python functions, which streamline creating, combining, analyzing, and executing procedural generation code. ProcFunc makes it easy to create large-scale diverse training...",
-      "venue": "arXiv",
-      "date": "2026-04-29",
-      "arxiv_id": "2604.26943v1",
-      "url": "https://arxiv.org/abs/2604.26943v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.26943v1.pdf",
+      "date": "2026-04-30",
+      "arxiv_id": "2604.28196v1",
+      "url": "https://arxiv.org/abs/2604.28196v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.28196v1.pdf",
       "categories": [
         "cs.CV"
       ],
@@ -88,36 +72,36 @@
       "source": "arXiv"
     },
     {
-      "title": "Hyper Input Convex Neural Networks for Shape Constrained Learning and Optimal Transport",
-      "authors": "Shayan Hundrieser, Insung Kong, Johannes Schmidt-Hieber",
-      "abstract": "We introduce Hyper Input Convex Neural Networks (HyCNNs), a novel neural network architecture designed for learning convex functions. HyCNNs combine the principles of Maxout networks with input convex neural networks (ICNNs) to create a neural network that is always convex in the input, theoreticall...",
+      "title": "OmniRobotHome: A Multi-Camera Platform for Real-Time Multiadic Human-Robot Interaction",
+      "authors": "Junyoung Lee, Sookwan Han, Jeonghwan Kim et al.",
+      "abstract": "Human-robot collaboration has been studied primarily in dyadic or sequential settings. However, real homes require multiadic collaboration, where multiple humans and robots share a workspace, acting concurrently on interleaved subtasks with tight spatial and temporal coupling. This regime remains un...",
       "venue": "arXiv",
-      "date": "2026-04-29",
-      "arxiv_id": "2604.26942v1",
-      "url": "https://arxiv.org/abs/2604.26942v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.26942v1.pdf",
+      "date": "2026-04-30",
+      "arxiv_id": "2604.28197v1",
+      "url": "https://arxiv.org/abs/2604.28197v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.28197v1.pdf",
       "categories": [
-        "cs.LG",
-        "math.ST",
-        "q-bio.GN"
+        "cs.RO",
+        "cs.CV"
       ],
-      "type": "ml",
+      "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Bi-Level Optimization for Contact and Motion Planning in Rope-Assisted Legged Robots",
-      "authors": "Ruben Malacarne, Ioannis Tsikelis, Enrico Mingo Hoffman et al.",
-      "abstract": "This paper presents a planning pipeline framework for locomotion in rope-assisted robots climbing vertical surfaces. The proposed framework is formulated as a bi-level optimization scheme that addresses a mixed-integer problem: selecting feasible terrain regions for landing while simultaneously opti...",
+      "title": "LaST-R1: Reinforcing Action via Adaptive Physical Latent Reasoning for VLA Models",
+      "authors": "Hao Chen, Jiaming Liu, Zhonghao Yan et al.",
+      "abstract": "Vision-Language-Action (VLA) models have increasingly incorporated reasoning mechanisms for complex robotic manipulation. However, existing approaches share a critical limitation: whether employing explicit linguistic reasoning that suffers from latency and discretization, or utilizing more expressi...",
       "venue": "arXiv",
-      "date": "2026-04-29",
-      "arxiv_id": "2604.26910v1",
-      "url": "https://arxiv.org/abs/2604.26910v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.26910v1.pdf",
+      "date": "2026-04-30",
+      "arxiv_id": "2604.28192v1",
+      "url": "https://arxiv.org/abs/2604.28192v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.28192v1.pdf",
       "categories": [
-        "cs.RO"
+        "cs.RO",
+        "cs.CV"
       ],
-      "type": "ml",
+      "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     }
