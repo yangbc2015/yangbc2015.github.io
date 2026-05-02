@@ -1,6 +1,6 @@
 {
-  "date": "2026-05-01",
-  "last_updated": "2026-05-01",
+  "date": "2026-05-02",
+  "last_updated": "2026-05-02",
   "categories": {
     "ai": {
       "name": "人工智能",
@@ -8,59 +8,59 @@
       "count": 5,
       "items": [
         {
-          "title": "刚刚，DeepSeek多模态技术范式公布，以视觉原语思考",
-          "link": "https://www.jiqizhixin.com/search/articles/刚刚，DeepSeek多模态技",
-          "summary": "刚刚，DeepSeek多模态技术范式公布，以视觉原语思考...",
-          "date": "2026-04-30",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
-          "title": "GPT-5系列咋都爱说「哥布林」？原因找到了",
-          "link": "https://www.jiqizhixin.com/search/articles/GPT-5系列咋都爱说「哥布林",
-          "summary": "GPT-5系列咋都爱说「哥布林」？原因找到了...",
-          "date": "2026-04-30",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
-          "title": "为智能体可信协作提供新方案 蚂蚁数科登顶以太坊全球基准评测",
-          "link": "https://www.jiqizhixin.com/search/articles/为智能体可信协作提供新方案 蚂",
-          "summary": "为智能体可信协作提供新方案 蚂蚁数科登顶以太坊全球基准评测...",
-          "date": "2026-04-30",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
-          "title": "不只是DeepSeek V4，还有个万亿级大模型，训推全程国产芯片",
-          "link": "https://www.jiqizhixin.com/search/articles/不只是DeepSeek V4，",
-          "summary": "不只是DeepSeek V4，还有个万亿级大模型，训推全程国产芯片...",
-          "date": "2026-04-30",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
-          "title": "牵引中国汽车“走出去”、“走上去”",
-          "link": "https://www.qbitai.com/?s=牵引中国汽车“走出去",
-          "summary": "牵引中国汽车“走出去”、“走上去”...",
+          "title": "不可思议！400B大模型在iPhone上跑起来了",
+          "link": "https://www.jiqizhixin.com/search/articles/不可思议！400B大模型在iP",
+          "summary": "不可思议！400B大模型在iPhone上跑起来了...",
           "date": "2026-05-01",
-          "source": "量子位",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "Karpathy：很多App就不该出生、人类唯一护城河只剩理解、CPU将沦为配角",
+          "link": "https://www.jiqizhixin.com/search/articles/Karpathy：很多App就",
+          "summary": "Karpathy：很多App就不该出生、人类唯一护城河只剩理解、CPU将沦为配角...",
+          "date": "2026-05-01",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "让大模型自己写代码、自己进化，GIM和港大这篇ACL主会，把量化因子挖掘重做了一遍",
+          "link": "https://www.jiqizhixin.com/search/articles/让大模型自己写代码、自己进化，",
+          "summary": "让大模型自己写代码、自己进化，GIM和港大这篇ACL主会，把量化因子挖掘重做了一遍...",
+          "date": "2026-05-01",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "有人只用API就猜出了GPT、Claude、Gemini的参数量？社区吵翻了",
+          "link": "https://www.jiqizhixin.com/search/articles/有人只用API就猜出了GPT、",
+          "summary": "有人只用API就猜出了GPT、Claude、Gemini的参数量？社区吵翻了...",
+          "date": "2026-05-01",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "强化学习的进化：从PPO到MaxRL，LLM推理训练的算法演进史",
+          "link": "https://www.jiqizhixin.com/search/articles/强化学习的进化：从PPO到Ma",
+          "summary": "强化学习的进化：从PPO到MaxRL，LLM推理训练的算法演进史...",
+          "date": "2026-05-01",
+          "source": "机器之心",
           "type": "industry",
           "tags": [
             "AI",
