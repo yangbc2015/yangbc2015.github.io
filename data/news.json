@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-05-02",
+  "last_updated": "2026-05-03",
   "count": 200,
-  "history_count": 200,
+  "history_count": 203,
   "retention_days": 30,
   "items": [
     {
       "title": "牵引中国汽车“走出去”、“走上去”",
       "link": "https://www.qbitai.com/?s=牵引中国汽车“走出去",
       "summary": "牵引中国汽车“走出去”、“走上去”...",
-      "date": "2026-05-02",
+      "date": "2026-05-03",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -20,7 +20,7 @@
       "title": "Stripe推出由 Link 驱动的智能体钱包",
       "link": "https://www.qbitai.com/?s=Stripe推出由 ",
       "summary": "Stripe推出由 Link 驱动的智能体钱包...",
-      "date": "2026-05-02",
+      "date": "2026-05-03",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -32,7 +32,7 @@
       "title": "从算力时代到智能时代，三大结构性变化",
       "link": "https://www.qbitai.com/?s=从算力时代到智能时代",
       "summary": "从算力时代到智能时代，三大结构性变化...",
-      "date": "2026-05-02",
+      "date": "2026-05-03",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -44,7 +44,7 @@
       "title": "根据自身业务流程定制专属数字员工",
       "link": "https://www.qbitai.com/?s=根据自身业务流程定制",
       "summary": "根据自身业务流程定制专属数字员工...",
-      "date": "2026-05-02",
+      "date": "2026-05-03",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -56,7 +56,7 @@
       "title": "搭载当代旗舰芯天玑9500移动平台",
       "link": "https://www.qbitai.com/?s=搭载当代旗舰芯天玑9",
       "summary": "搭载当代旗舰芯天玑9500移动平台...",
-      "date": "2026-05-02",
+      "date": "2026-05-03",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -68,12 +68,48 @@
       "title": "*   [Latest](http://techcrunch.com/latest/)",
       "link": "https://techcrunch.com/category/artificial-intelligence/",
       "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
-      "date": "2026-05-02",
+      "date": "2026-05-03",
       "source": "TechCrunch",
       "type": "industry",
       "tags": [
         "AI",
         "Artificial Intelligence"
+      ]
+    },
+    {
+      "title": "这套题，GPT-5.5、Opus 4.7加起来没考到「1分」，人类却拿了满分100？",
+      "link": "https://www.jiqizhixin.com/search/articles/这套题，GPT-5.5、Opu",
+      "summary": "这套题，GPT-5.5、Opus 4.7加起来没考到「1分」，人类却拿了满分100？...",
+      "date": "2026-05-02",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "ACL 2026 | RouteMoA：无需预推理的动态路由，实现高效多智能体混合",
+      "link": "https://www.jiqizhixin.com/search/articles/ACL 2026 | Rout",
+      "summary": "ACL 2026 | RouteMoA：无需预推理的动态路由，实现高效多智能体混合...",
+      "date": "2026-05-02",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "刚刚，小扎买了一家机器人公司，要做人形机器人的「安卓平台」",
+      "link": "https://www.jiqizhixin.com/search/articles/刚刚，小扎买了一家机器人公司，",
+      "summary": "刚刚，小扎买了一家机器人公司，要做人形机器人的「安卓平台」...",
+      "date": "2026-05-02",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
       ]
     },
     {
@@ -2362,42 +2398,6 @@
       "summary": "AI语言模型揭示细菌免疫的「隐藏防御机制」——85%的抗噬菌体蛋白家族从未被描述...",
       "date": "2026-04-09",
       "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Claude Mythos官宣！性能碾压Opus 4.6，因太危险遭「囚禁」",
-      "link": "https://www.qbitai.com/?s=Claude Myt",
-      "summary": "Claude Mythos官宣！性能碾压Opus 4.6，因太危险遭「囚禁」...",
-      "date": "2026-04-09",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "榜一大哥平均每天用掉93.6亿Token",
-      "link": "https://www.qbitai.com/?s=榜一大哥平均每天用掉",
-      "summary": "榜一大哥平均每天用掉93.6亿Token...",
-      "date": "2026-04-09",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "修图师正在从“操作者”变成“管理者”，从“技术执行者”变成“创意决策者”。",
-      "link": "https://www.qbitai.com/?s=修图师正在从“操作者",
-      "summary": "修图师正在从“操作者”变成“管理者”，从“技术执行者”变成“创意决策者”。...",
-      "date": "2026-04-09",
-      "source": "量子位",
       "type": "industry",
       "tags": [
         "AI",
