@@ -1,5 +1,141 @@
 {
   "last_updated": "2026-05-04",
-  "count": 0,
-  "items": []
+  "count": 8,
+  "items": [
+    {
+      "title": "Persistent Visual Memory: Sustaining Perception for Deep Generation in LVLMs",
+      "authors": "Siyuan Huang, Xiaoye Qu, Yafu Li et al.",
+      "abstract": "While autoregressive Large Vision-Language Models (LVLMs) demonstrate remarkable proficiency in multimodal tasks, they face a \"Visual Signal Dilution\" phenomenon, where the accumulation of textual history expands the attention partition function, causing visual attention to decay inversely with gene...",
+      "venue": "arXiv",
+      "date": "2026-05-01",
+      "arxiv_id": "2605.00814v1",
+      "url": "https://arxiv.org/abs/2605.00814v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.00814v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Can Coding Agents Reproduce Findings in Computational Materials Science?",
+      "authors": "Ziyang Huang, Yi Cao, Ali K. Shargh et al.",
+      "abstract": "Large language models are increasingly deployed as autonomous coding agents and have achieved remarkably strong performance on software engineering benchmarks. However, it is unclear whether such success transfers to computational scientific workflows, where tasks require not only strong coding abil...",
+      "venue": "arXiv",
+      "date": "2026-05-01",
+      "arxiv_id": "2605.00803v1",
+      "url": "https://arxiv.org/abs/2605.00803v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.00803v1.pdf",
+      "categories": [
+        "cs.SE",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "When LLMs Stop Following Steps: A Diagnostic Study of Procedural Execution in Language Models",
+      "authors": "Sailesh Panda, Pritam Kadasi, Abhishek Upperwal et al.",
+      "abstract": "Large language models (LLMs) often achieve strong performance on reasoning benchmarks, but final-answer accuracy alone does not show whether they faithfully execute the procedure specified in a prompt. We study this question through a controlled diagnostic benchmark for procedural execution, where m...",
+      "venue": "arXiv",
+      "date": "2026-05-01",
+      "arxiv_id": "2605.00817v1",
+      "url": "https://arxiv.org/abs/2605.00817v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.00817v1.pdf",
+      "categories": [
+        "cs.CL"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Posterior Augmented Flow Matching",
+      "authors": "George Stoica, Sayak Paul, Matthew Wallingford et al.",
+      "abstract": "Flow matching (FM) trains a time-dependent vector field that transports samples from a simple prior to a complex data distribution. However, for high-dimensional images, each training sample supervises only a single trajectory and intermediate point, yielding an extremely sparse and high-variance tr...",
+      "venue": "arXiv",
+      "date": "2026-05-01",
+      "arxiv_id": "2605.00825v1",
+      "url": "https://arxiv.org/abs/2605.00825v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.00825v1.pdf",
+      "categories": [
+        "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "HyCOP: Hybrid Composition Operators for Interpretable Learning of PDEs",
+      "authors": "Jinpai Zhao, Nishant Panda, Yen Ting Lin et al.",
+      "abstract": "We introduce HyCOP, a modular framework that learns parametric PDE solution operators by composing simple modules (advection, diffusion, learned closures, boundary handling) in a query-conditioned way. Rather than learning a monolithic map, HyCOP learns a policy over short programs - which module to...",
+      "venue": "arXiv",
+      "date": "2026-05-01",
+      "arxiv_id": "2605.00820v1",
+      "url": "https://arxiv.org/abs/2605.00820v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.00820v1.pdf",
+      "categories": [
+        "cs.CE",
+        "cs.LG",
+        "math.NA"
+      ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Generating Statistical Charts with Validation-Driven LLM Workflows",
+      "authors": "Pavlin G. Poličar, Andraž Pevcin, Blaž Zupan",
+      "abstract": "Generating diverse, readable statistical charts from tabular data remains challenging for LLMs, as many failures become apparent after rendering and are not detectable from data or code alone. Existing chart datasets also rarely provide fully aligned artifacts, such as executable code, dataset conte...",
+      "venue": "arXiv",
+      "date": "2026-05-01",
+      "arxiv_id": "2605.00800v1",
+      "url": "https://arxiv.org/abs/2605.00800v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.00800v1.pdf",
+      "categories": [
+        "cs.LG"
+      ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Affordance Agent Harness: Verification-Gated Skill Orchestration",
+      "authors": "Haojian Huang, Jiahao Shi, Yinchuan Li et al.",
+      "abstract": "Affordance grounding requires identifying where and how an agent should interact in open-world scenes, where actionable regions are often small, occluded, reflective, and visually ambiguous. Recent systems therefore combine multiple skills (e.g., detection, segmentation, interaction-imagination), ye...",
+      "venue": "arXiv",
+      "date": "2026-05-01",
+      "arxiv_id": "2605.00663v1",
+      "url": "https://arxiv.org/abs/2605.00663v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.00663v1.pdf",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Paired-CSLiDAR: Height-Stratified Registration for Cross-Source Aerial-Ground LiDAR Pose Refinement",
+      "authors": "Montana Hoover, Jing Liang, Tianrui Guan et al.",
+      "abstract": "We introduce Paired-CSLiDAR (CSLiDAR), a cross-source aerial-ground LiDAR benchmark for single-scan pose refinement: refining a ground-scan pose within a 50 m-radius aerial crop. The benchmark contains 12,683 ground-aerial pairs across 6 evaluation sites and per-scan reference 6-DoF alignments for s...",
+      "venue": "arXiv",
+      "date": "2026-05-01",
+      "arxiv_id": "2605.00634v1",
+      "url": "https://arxiv.org/abs/2605.00634v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.00634v1.pdf",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    }
+  ]
 }
