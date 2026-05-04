@@ -15,6 +15,124 @@
       ]
     },
     {
+      "title": "Affordance Agent Harness: Verification-Gated Skill Orchestration",
+      "summary": "Affordance grounding requires identifying where and how an agent should interact in open-world scenes, where actionable regions are often small, occluded, reflective, and visually ambiguous. Recent systems therefore combine multiple skills (e.g., det...",
+      "url": "https://arxiv.org/abs/2605.00663v1",
+      "date": "2026-05-01",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2605.00663v1",
+      "authors": "Haojian Huang, Jiahao Shi et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Paired-CSLiDAR: Height-Stratified Registration for Cross-Source Aerial-Ground LiDAR Pose Refinement",
+      "summary": "We introduce Paired-CSLiDAR (CSLiDAR), a cross-source aerial-ground LiDAR benchmark for single-scan pose refinement: refining a ground-scan pose within a 50 m-radius aerial crop. The benchmark contains 12,683 ground-aerial pairs across 6 evaluation s...",
+      "url": "https://arxiv.org/abs/2605.00634v1",
+      "date": "2026-05-01",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2605.00634v1",
+      "authors": "Montana Hoover, Jing Liang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Recovering Hidden Reward in Diffusion-Based Policies",
+      "summary": "This paper introduces EnergyFlow, a framework that unifies generative action modeling with inverse reinforcement learning by parameterizing a scalar energy function whose gradient is the denoising field. We establish that under maximum-entropy optima...",
+      "url": "https://arxiv.org/abs/2605.00623v1",
+      "date": "2026-05-01",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2605.00623v1",
+      "authors": "Yanbiao Ji, Qiuchang Li et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Robust Fusion of Object-Level V2X for Learned 3D Object Detection",
+      "summary": "Perception for automated driving is largely based on onboard environmental sensors, such as cameras and radar, which are cost-effective but limited by line-of-sight and field-of-view constraints. These inherent limitations may cause onboard perceptio...",
+      "url": "https://arxiv.org/abs/2605.00595v1",
+      "date": "2026-05-01",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2605.00595v1",
+      "authors": "Lukas Ostendorf, Lennart Reiher et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Linking Behaviour and Perception to Evaluate Meaningful Human Control over Partially Automated Driving",
+      "summary": "Partial driving automation creates a tension: drivers remain legally responsible for vehicle behaviour, yet their active control is significantly reduced. This reduction undermines the engagement and sense of agency needed to intervene safely. Meanin...",
+      "url": "https://arxiv.org/abs/2605.00556v1",
+      "date": "2026-05-01",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2605.00556v1",
+      "authors": "Ashwin George, Lucas Elbert Suryana et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "跨界具身智能，以柔性仿真破训练难题。",
+      "summary": "跨界具身智能，以柔性仿真破训练难题。",
+      "url": "http://36kr.com/p/3788704783801607",
+      "date": "2026-04-30",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "追觅硅谷发布NAVO AI视觉机器人。",
+      "summary": "追觅硅谷发布NAVO AI视觉机器人。",
+      "url": "http://36kr.com/p/3789162434616329",
+      "date": "2026-04-30",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
+      "title": "成功完成新一轮数亿元Pre-A融资，再度获得资本市场高度认可，并同步正式发布新一代工规级具身智能通用机器人— LDB01 。",
+      "summary": "成功完成新一轮数亿元Pre-A融资，再度获得资本市场高度认可，并同步正式发布新一代工规级具身智能通用机器人— LDB01 。",
+      "url": "http://36kr.com/p/3787913951059207",
+      "date": "2026-04-30",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
       "title": "OmniRobotHome: A Multi-Camera Platform for Real-Time Multiadic Human-Robot Interaction",
       "summary": "Human-robot collaboration has been studied primarily in dyadic or sequential settings. However, real homes require multiadic collaboration, where multiple humans and robots share a workspace, acting concurrently on interleaved subtasks with tight spa...",
       "url": "https://arxiv.org/abs/2604.28197v1",
@@ -92,44 +210,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "跨界具身智能，以柔性仿真破训练难题。",
-      "summary": "跨界具身智能，以柔性仿真破训练难题。",
-      "url": "http://36kr.com/p/3788704783801607",
-      "date": "2026-04-30",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "追觅硅谷发布NAVO AI视觉机器人。",
-      "summary": "追觅硅谷发布NAVO AI视觉机器人。",
-      "url": "http://36kr.com/p/3789162434616329",
-      "date": "2026-04-30",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
-      ]
-    },
-    {
-      "title": "成功完成新一轮数亿元Pre-A融资，再度获得资本市场高度认可，并同步正式发布新一代工规级具身智能通用机器人— LDB01 。",
-      "summary": "成功完成新一轮数亿元Pre-A融资，再度获得资本市场高度认可，并同步正式发布新一代工规级具身智能通用机器人— LDB01 。",
-      "url": "http://36kr.com/p/3787913951059207",
-      "date": "2026-04-30",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
       ]
     },
     {
@@ -2971,77 +3051,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "Rectify, Don't Regret: Avoiding Pitfalls of Differentiable Simulation in Trajectory Prediction",
-      "summary": "Current open-loop trajectory models struggle in real-world autonomous driving because minor initial deviations often cascade into compounding errors, pushing the agent into out-of-distribution states....",
-      "url": "https://arxiv.org/abs/2603.23393v1",
-      "date": "2026-03-24",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2603.23393v1",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "SIMART: Decomposing Monolithic Meshes into Sim-ready Articulated Assets via MLLM",
-      "summary": "High-quality articulated 3D assets are indispensable for embodied AI and physical simulation, yet 3D generation still focuses on static meshes, leaving a gap in \"sim-ready\" interactive objects. Most r...",
-      "url": "https://arxiv.org/abs/2603.23386v1",
-      "date": "2026-03-24",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2603.23386v1",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "ABot-PhysWorld: Interactive World Foundation Model for Robotic Manipulation with Physics Alignment",
-      "summary": "Video-based world models offer a powerful paradigm for embodied simulation and planning, yet state-of-the-art models often generate physically implausible manipulations - such as object penetration an...",
-      "url": "https://arxiv.org/abs/2603.23376v1",
-      "date": "2026-03-24",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2603.23376v1",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "想获得下图参考文献《2026年具身智能产业发展研究报告》完整版，欢迎关注「具身万象」公众号，后台回复关键词「具身万象」领取。",
-      "summary": "想获得下图参考文献《2026年具身智能产业发展研究报告》完整版，欢迎关注「具身万象」公众号，后台回复关键词「具身万象」领取。",
-      "url": "http://36kr.com/p/3735344485744905",
-      "date": "2026-03-23",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "如何迈过具身智能的ChatGPT时刻",
-      "summary": "如何迈过具身智能的ChatGPT时刻",
-      "url": "http://36kr.com/p/3727737524305031",
-      "date": "2026-03-18",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
       ]
     }
   ]
