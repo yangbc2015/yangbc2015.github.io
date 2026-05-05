@@ -15,6 +15,86 @@
       ]
     },
     {
+      "title": "MolmoAct2: Action Reasoning Models for Real-world Deployment",
+      "summary": "Vision-Language-Action (VLA) models aim to provide a single generalist controller for robots, but today's systems fall short on the criteria that matter for real-world deployment. Frontier models are closed, open-weight alternatives are tied to expen...",
+      "url": "https://arxiv.org/abs/2605.02881v1",
+      "date": "2026-05-04",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2605.02881v1",
+      "authors": "Haoquan Fang, Jiafei Duan et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Enhancing RL Generalizability in Robotics through SHAP Analysis of Algorithms and Hyperparameters",
+      "summary": "Despite significant advances in Reinforcement Learning (RL), model performance remains highly sensitive to algorithm and hyperparameter configurations, while generalization gaps across environments complicate real-world deployment. Although prior wor...",
+      "url": "https://arxiv.org/abs/2605.02867v1",
+      "date": "2026-05-04",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2605.02867v1",
+      "authors": "Lingxiao Kong, Cong Yang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Semantic Risk-Aware Heuristic Planning for Robotic Navigation in Dynamic Environments: An LLM-Inspired Approach",
+      "summary": "The integration of Large Language Model (LLM) reasoning principles into classical robot path planning represents a rapidly emerging research direction. In this paper, we propose a Semantic Risk-Aware Heuristic (SRAH) planner that encodes LLM-inspired...",
+      "url": "https://arxiv.org/abs/2605.02862v1",
+      "date": "2026-05-04",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2605.02862v1",
+      "authors": "Hamza Ahmed Durrani, Rafay Suleman Durrani",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "LiDAR Teach, Radar Repeat: Robust Cross-Modal Navigation in Degenerate and Varying Environments",
+      "summary": "Long-term autonomy requires robust navigation in environments subject to dynamic and static changes, as well as adverse weather conditions. Teach-and-Repeat (T\\&R) navigation offers a reliable and cost-effective solution by avoiding the need for cons...",
+      "url": "https://arxiv.org/abs/2605.02809v1",
+      "date": "2026-05-04",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2605.02809v1",
+      "authors": "Renxiang Xiao, Yichen Chen et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "DynoSLAM: Dynamic SLAM with Generative Graph Neural Networks for Real-World Social Navigation",
+      "summary": "Traditional Simultaneous Localization and Mapping (SLAM) algorithms rely heavily on the static environment assumption, which severely limits their applicability in real-world spaces populated by moving entities, such as pedestrians. In this work, we ...",
+      "url": "https://arxiv.org/abs/2605.02759v1",
+      "date": "2026-05-04",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2605.02759v1",
+      "authors": "Danil Tokhchukov, Veronika Morozova et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
       "title": "Affordance Agent Harness: Verification-Gated Skill Orchestration",
       "summary": "Affordance grounding requires identifying where and how an agent should interact in open-world scenes, where actionable regions are often small, occluded, reflective, and visually ambiguous. Recent systems therefore combine multiple skills (e.g., det...",
       "url": "https://arxiv.org/abs/2605.00663v1",
@@ -2982,75 +3062,6 @@
       "tags": [
         "工业机器人",
         "制造业"
-      ]
-    },
-    {
-      "title": "还不够赚钱的人形机器人，先迎来了淘汰赛",
-      "summary": "还不够赚钱的人形机器人，先迎来了淘汰赛",
-      "url": "http://36kr.com/p/3737800961126912",
-      "date": "2026-03-25",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "人形机器人"
-      ]
-    },
-    {
-      "title": "国产工业机器人市场份额突破50%",
-      "summary": "数据显示，2026年第一季度国产工业机器人市场占有率达到52%，创历史新高。埃斯顿、汇川技术等国产品牌表现亮眼。",
-      "url": "https://www.google.com/search?q=国产工业机器人市场份额突破50%",
-      "date": "2026-03-25",
-      "source": "行业数据",
-      "category": "工业机器人",
-      "type": "news",
-      "tags": [
-        "工业机器人",
-        "制造业"
-      ]
-    },
-    {
-      "title": "具身智能赛道70天涌入200亿，但收入95%来自非生产场景，产能过剩风险显现。",
-      "summary": "具身智能赛道70天涌入200亿，但收入95%来自非生产场景，产能过剩风险显现。",
-      "url": "http://36kr.com/p/3736721774690566",
-      "date": "2026-03-24",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "VTAM: Video-Tactile-Action Models for Complex Physical Interaction Beyond VLAs",
-      "summary": "Video-Action Models (VAMs) have emerged as a promising framework for embodied intelligence, learning implicit world dynamics from raw video streams to produce temporally consistent action predictions....",
-      "url": "https://arxiv.org/abs/2603.23481v1",
-      "date": "2026-03-24",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2603.23481v1",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Planning over MAPF Agent Dependencies via Multi-Dependency PIBT",
-      "summary": "Modern Multi-Agent Path Finding (MAPF) algorithms must plan for hundreds to thousands of agents in congested environments within a second, requiring highly efficient algorithms. Priority Inheritance w...",
-      "url": "https://arxiv.org/abs/2603.23405v1",
-      "date": "2026-03-24",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2603.23405v1",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
       ]
     }
   ]

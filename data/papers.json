@@ -1,35 +1,18 @@
 {
   "last_updated": "2026-05-05",
-  "count": 8,
+  "count": 7,
   "items": [
     {
-      "title": "Persistent Visual Memory: Sustaining Perception for Deep Generation in LVLMs",
-      "authors": "Siyuan Huang, Xiaoye Qu, Yafu Li et al.",
-      "abstract": "While autoregressive Large Vision-Language Models (LVLMs) demonstrate remarkable proficiency in multimodal tasks, they face a \"Visual Signal Dilution\" phenomenon, where the accumulation of textual history expands the attention partition function, causing visual attention to decay inversely with gene...",
+      "title": "SpecKV: Adaptive Speculative Decoding with Compression-Aware Gamma Selection",
+      "authors": "Shikhar Shukla",
+      "abstract": "Speculative decoding accelerates large language model (LLM) inference by using a small draft model to propose candidate tokens that a larger target model verifies. A critical hyperparameter in this process is the speculation length~$γ$, which determines how many tokens the draft model proposes per s...",
       "venue": "arXiv",
-      "date": "2026-05-01",
-      "arxiv_id": "2605.00814v1",
-      "url": "https://arxiv.org/abs/2605.00814v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.00814v1.pdf",
+      "date": "2026-05-04",
+      "arxiv_id": "2605.02888v1",
+      "url": "https://arxiv.org/abs/2605.02888v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.02888v1.pdf",
       "categories": [
-        "cs.CV",
-        "cs.AI"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Can Coding Agents Reproduce Findings in Computational Materials Science?",
-      "authors": "Ziyang Huang, Yi Cao, Ali K. Shargh et al.",
-      "abstract": "Large language models are increasingly deployed as autonomous coding agents and have achieved remarkably strong performance on software engineering benchmarks. However, it is unclear whether such success transfers to computational scientific workflows, where tasks require not only strong coding abil...",
-      "venue": "arXiv",
-      "date": "2026-05-01",
-      "arxiv_id": "2605.00803v1",
-      "url": "https://arxiv.org/abs/2605.00803v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.00803v1.pdf",
-      "categories": [
-        "cs.SE",
+        "cs.LG",
         "cs.AI",
         "cs.CL"
       ],
@@ -38,14 +21,32 @@
       "source": "arXiv"
     },
     {
-      "title": "When LLMs Stop Following Steps: A Diagnostic Study of Procedural Execution in Language Models",
-      "authors": "Sailesh Panda, Pritam Kadasi, Abhishek Upperwal et al.",
-      "abstract": "Large language models (LLMs) often achieve strong performance on reasoning benchmarks, but final-answer accuracy alone does not show whether they faithfully execute the procedure specified in a prompt. We study this question through a controlled diagnostic benchmark for procedural execution, where m...",
+      "title": "Enhancing RL Generalizability in Robotics through SHAP Analysis of Algorithms and Hyperparameters",
+      "authors": "Lingxiao Kong, Cong Yang, Oya Deniz Beyan et al.",
+      "abstract": "Despite significant advances in Reinforcement Learning (RL), model performance remains highly sensitive to algorithm and hyperparameter configurations, while generalization gaps across environments complicate real-world deployment. Although prior work has studied RL generalization, the relative cont...",
       "venue": "arXiv",
-      "date": "2026-05-01",
-      "arxiv_id": "2605.00817v1",
-      "url": "https://arxiv.org/abs/2605.00817v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.00817v1.pdf",
+      "date": "2026-05-04",
+      "arxiv_id": "2605.02867v1",
+      "url": "https://arxiv.org/abs/2605.02867v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.02867v1.pdf",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.RO"
+      ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "FlexSQL: Flexible Exploration and Execution Make Better Text-to-SQL Agents",
+      "authors": "Quang Hieu Pham, Yang He, Ping Nie et al.",
+      "abstract": "Text-to-SQL over large analytical databases requires navigating complex schemas, resolving ambiguous queries, and grounding decisions in actual data. Most current systems follow a fixed pipeline where schema elements are retrieved once upfront and the database is only revisited for post-hoc repair, ...",
+      "venue": "arXiv",
+      "date": "2026-05-04",
+      "arxiv_id": "2605.02815v1",
+      "url": "https://arxiv.org/abs/2605.02815v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.02815v1.pdf",
       "categories": [
         "cs.CL"
       ],
@@ -54,14 +55,31 @@
       "source": "arXiv"
     },
     {
-      "title": "Posterior Augmented Flow Matching",
-      "authors": "George Stoica, Sayak Paul, Matthew Wallingford et al.",
-      "abstract": "Flow matching (FM) trains a time-dependent vector field that transports samples from a simple prior to a complex data distribution. However, for high-dimensional images, each training sample supervises only a single trajectory and intermediate point, yielding an extremely sparse and high-variance tr...",
+      "title": "AlbumFill: Album-Guided Reasoning and Retrieval for Personalized Image Completion",
+      "authors": "Yu-Ju Tsai, Brian Price, Qing Liu et al.",
+      "abstract": "Personalized image completion aims to restore occluded regions in personal photos while preserving identity and appearance. Existing methods either rely on generic inpainting models that often fail to maintain identity consistency, or assume that suitable reference images are explicitly provided. In...",
       "venue": "arXiv",
-      "date": "2026-05-01",
-      "arxiv_id": "2605.00825v1",
-      "url": "https://arxiv.org/abs/2605.00825v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.00825v1.pdf",
+      "date": "2026-05-04",
+      "arxiv_id": "2605.02892v1",
+      "url": "https://arxiv.org/abs/2605.02892v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.02892v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.IR"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Laplacian Frequency Interaction Network for Rural Thematic Road Extraction",
+      "authors": "Baiyan Chen, Weixin Zhai",
+      "abstract": "Rural thematic road network construction aims to extract topological road structures from movement trajectory images of agricultural machinery. However, this task faces challenges where downsampling methods commonly used in existing studies tend to blur the sparse high-frequency road structures, and...",
+      "venue": "arXiv",
+      "date": "2026-05-04",
+      "arxiv_id": "2605.02866v1",
+      "url": "https://arxiv.org/abs/2605.02866v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.02866v1.pdf",
       "categories": [
         "cs.CV"
       ],
@@ -70,32 +88,14 @@
       "source": "arXiv"
     },
     {
-      "title": "HyCOP: Hybrid Composition Operators for Interpretable Learning of PDEs",
-      "authors": "Jinpai Zhao, Nishant Panda, Yen Ting Lin et al.",
-      "abstract": "We introduce HyCOP, a modular framework that learns parametric PDE solution operators by composing simple modules (advection, diffusion, learned closures, boundary handling) in a query-conditioned way. Rather than learning a monolithic map, HyCOP learns a policy over short programs - which module to...",
+      "title": "Unsupervised Machine Learning for Detecting Structural Anomalies in European Regional Statistics",
+      "authors": "Bogdan Oancea",
+      "abstract": "Ensuring the coherence of regional socio-economic statistics is a central task for national statistical institutes. Traditional validation tools, such as range edits, ratio checks, or univariate outlier detection, are effective for identifying extreme values in individual series but are less suited ...",
       "venue": "arXiv",
-      "date": "2026-05-01",
-      "arxiv_id": "2605.00820v1",
-      "url": "https://arxiv.org/abs/2605.00820v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.00820v1.pdf",
-      "categories": [
-        "cs.CE",
-        "cs.LG",
-        "math.NA"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Generating Statistical Charts with Validation-Driven LLM Workflows",
-      "authors": "Pavlin G. Poličar, Andraž Pevcin, Blaž Zupan",
-      "abstract": "Generating diverse, readable statistical charts from tabular data remains challenging for LLMs, as many failures become apparent after rendering and are not detectable from data or code alone. Existing chart datasets also rarely provide fully aligned artifacts, such as executable code, dataset conte...",
-      "venue": "arXiv",
-      "date": "2026-05-01",
-      "arxiv_id": "2605.00800v1",
-      "url": "https://arxiv.org/abs/2605.00800v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.00800v1.pdf",
+      "date": "2026-05-04",
+      "arxiv_id": "2605.02884v1",
+      "url": "https://arxiv.org/abs/2605.02884v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.02884v1.pdf",
       "categories": [
         "cs.LG"
       ],
@@ -104,36 +104,18 @@
       "source": "arXiv"
     },
     {
-      "title": "Affordance Agent Harness: Verification-Gated Skill Orchestration",
-      "authors": "Haojian Huang, Jiahao Shi, Yinchuan Li et al.",
-      "abstract": "Affordance grounding requires identifying where and how an agent should interact in open-world scenes, where actionable regions are often small, occluded, reflective, and visually ambiguous. Recent systems therefore combine multiple skills (e.g., detection, segmentation, interaction-imagination), ye...",
+      "title": "MolmoAct2: Action Reasoning Models for Real-world Deployment",
+      "authors": "Haoquan Fang, Jiafei Duan, Donovan Clay et al.",
+      "abstract": "Vision-Language-Action (VLA) models aim to provide a single generalist controller for robots, but today's systems fall short on the criteria that matter for real-world deployment. Frontier models are closed, open-weight alternatives are tied to expensive hardware, reasoning-augmented policies pay pr...",
       "venue": "arXiv",
-      "date": "2026-05-01",
-      "arxiv_id": "2605.00663v1",
-      "url": "https://arxiv.org/abs/2605.00663v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.00663v1.pdf",
+      "date": "2026-05-04",
+      "arxiv_id": "2605.02881v1",
+      "url": "https://arxiv.org/abs/2605.02881v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.02881v1.pdf",
       "categories": [
-        "cs.RO",
-        "cs.CV"
+        "cs.RO"
       ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Paired-CSLiDAR: Height-Stratified Registration for Cross-Source Aerial-Ground LiDAR Pose Refinement",
-      "authors": "Montana Hoover, Jing Liang, Tianrui Guan et al.",
-      "abstract": "We introduce Paired-CSLiDAR (CSLiDAR), a cross-source aerial-ground LiDAR benchmark for single-scan pose refinement: refining a ground-scan pose within a 50 m-radius aerial crop. The benchmark contains 12,683 ground-aerial pairs across 6 evaluation sites and per-scan reference 6-DoF alignments for s...",
-      "venue": "arXiv",
-      "date": "2026-05-01",
-      "arxiv_id": "2605.00634v1",
-      "url": "https://arxiv.org/abs/2605.00634v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.00634v1.pdf",
-      "categories": [
-        "cs.RO",
-        "cs.CV"
-      ],
-      "type": "vision",
+      "type": "ai",
       "badge": "arxiv",
       "source": "arXiv"
     }
