@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-05-05",
+  "last_updated": "2026-05-06",
   "count": 200,
-  "history_count": 200,
+  "history_count": 205,
   "retention_days": 30,
   "items": [
     {
       "title": "牵引中国汽车“走出去”、“走上去”",
       "link": "https://www.qbitai.com/?s=牵引中国汽车“走出去",
       "summary": "牵引中国汽车“走出去”、“走上去”...",
-      "date": "2026-05-05",
+      "date": "2026-05-06",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -20,7 +20,7 @@
       "title": "Stripe推出由 Link 驱动的智能体钱包",
       "link": "https://www.qbitai.com/?s=Stripe推出由 ",
       "summary": "Stripe推出由 Link 驱动的智能体钱包...",
-      "date": "2026-05-05",
+      "date": "2026-05-06",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -32,7 +32,7 @@
       "title": "从算力时代到智能时代，三大结构性变化",
       "link": "https://www.qbitai.com/?s=从算力时代到智能时代",
       "summary": "从算力时代到智能时代，三大结构性变化...",
-      "date": "2026-05-05",
+      "date": "2026-05-06",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -44,7 +44,7 @@
       "title": "根据自身业务流程定制专属数字员工",
       "link": "https://www.qbitai.com/?s=根据自身业务流程定制",
       "summary": "根据自身业务流程定制专属数字员工...",
-      "date": "2026-05-05",
+      "date": "2026-05-06",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -56,7 +56,7 @@
       "title": "搭载当代旗舰芯天玑9500移动平台",
       "link": "https://www.qbitai.com/?s=搭载当代旗舰芯天玑9",
       "summary": "搭载当代旗舰芯天玑9500移动平台...",
-      "date": "2026-05-05",
+      "date": "2026-05-06",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -65,15 +65,87 @@
       ]
     },
     {
-      "title": "*   [Latest](http://techcrunch.com/latest/)",
+      "title": "**Second Disrupt Pass 50% Off This Week**",
       "link": "https://techcrunch.com/category/artificial-intelligence/",
-      "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
-      "date": "2026-05-05",
+      "summary": "**Second Disrupt Pass 50% Off This Week**...",
+      "date": "2026-05-06",
       "source": "TechCrunch",
       "type": "industry",
       "tags": [
         "AI",
         "Artificial Intelligence"
+      ]
+    },
+    {
+      "title": "Markdown Content:",
+      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+      "summary": "Markdown Content:...",
+      "date": "2026-05-05",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "Anthropic联创定下deadline：2028年AI实现自我进化，没有人类了",
+      "link": "https://www.jiqizhixin.com/search/articles/Anthropic联创定下de",
+      "summary": "Anthropic联创定下deadline：2028年AI实现自我进化，没有人类了...",
+      "date": "2026-05-05",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "大型挂机现场：马斯克的55万英伟达GPU，利用率才11%",
+      "link": "https://www.jiqizhixin.com/search/articles/大型挂机现场：马斯克的55万英",
+      "summary": "大型挂机现场：马斯克的55万英伟达GPU，利用率才11%...",
+      "date": "2026-05-05",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "Agent-World：扩展真实世界环境，让智能体与环境协同进化！",
+      "link": "https://www.jiqizhixin.com/search/articles/Agent-World：扩展真",
+      "summary": "Agent-World：扩展真实世界环境，让智能体与环境协同进化！...",
+      "date": "2026-05-05",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "计算机科学专业第三次大衰退？原因：AI",
+      "link": "https://www.jiqizhixin.com/search/articles/计算机科学专业第三次大衰退？原",
+      "summary": "计算机科学专业第三次大衰退？原因：AI...",
+      "date": "2026-05-05",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "CVPR 2026 Oral｜横扫室内3D场景，港科大（广州）打造单目开放词汇占据预测新SOTA",
+      "link": "https://www.jiqizhixin.com/search/articles/CVPR 2026 Oral｜",
+      "summary": "CVPR 2026 Oral｜横扫室内3D场景，港科大（广州）打造单目开放词汇占据预测新SOTA...",
+      "date": "2026-05-05",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
       ]
     },
     {
@@ -224,18 +296,6 @@
       "title": "不只是DeepSeek V4，还有个万亿级大模型，训推全程国产芯片",
       "link": "https://www.jiqizhixin.com/search/articles/不只是DeepSeek V4，",
       "summary": "不只是DeepSeek V4，还有个万亿级大模型，训推全程国产芯片...",
-      "date": "2026-04-30",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Markdown Content:",
-      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-      "summary": "Markdown Content:...",
       "date": "2026-04-30",
       "source": "机器之心",
       "type": "industry",
@@ -2338,66 +2398,6 @@
       "summary": "DeepSeek V4真的要来了？...",
       "date": "2026-04-10",
       "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "顶会论文抢先看！机器之心ICLR 2026论文分享会，下周六北京见",
-      "link": "https://www.jiqizhixin.com/search/articles/顶会论文抢先看！机器之心ICL",
-      "summary": "顶会论文抢先看！机器之心ICLR 2026论文分享会，下周六北京见...",
-      "date": "2026-04-09",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "4步生图封神，GenEval从61%狂拉到92%，全面超越GPT-4o的TDM-R1模型来了",
-      "link": "https://www.jiqizhixin.com/search/articles/4步生图封神，GenEval从",
-      "summary": "4步生图封神，GenEval从61%狂拉到92%，全面超越GPT-4o的TDM-R1模型来了...",
-      "date": "2026-04-09",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "让你「鞭打」Claude，被Anthropic直接发「律师函」了吧",
-      "link": "https://www.jiqizhixin.com/search/articles/让你「鞭打」Claude，被A",
-      "summary": "让你「鞭打」Claude，被Anthropic直接发「律师函」了吧...",
-      "date": "2026-04-09",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "告别直接生成，文生图进入Agent时代：港中文联合伯克利开源Gen-Searcher",
-      "link": "https://www.jiqizhixin.com/search/articles/告别直接生成，文生图进入Age",
-      "summary": "告别直接生成，文生图进入Agent时代：港中文联合伯克利开源Gen-Searcher...",
-      "date": "2026-04-09",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "AI语言模型揭示细菌免疫的「隐藏防御机制」——85%的抗噬菌体蛋白家族从未被描述",
-      "link": "https://www.jiqizhixin.com/search/articles/AI语言模型揭示细菌免疫的「隐",
-      "summary": "AI语言模型揭示细菌免疫的「隐藏防御机制」——85%的抗噬菌体蛋白家族从未被描述...",
-      "date": "2026-04-09",
-      "source": "机器之心",
       "type": "industry",
       "tags": [
         "AI",
