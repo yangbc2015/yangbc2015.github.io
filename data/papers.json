@@ -3,16 +3,33 @@
   "count": 7,
   "items": [
     {
-      "title": "SpecKV: Adaptive Speculative Decoding with Compression-Aware Gamma Selection",
-      "authors": "Shikhar Shukla",
-      "abstract": "Speculative decoding accelerates large language model (LLM) inference by using a small draft model to propose candidate tokens that a larger target model verifies. A critical hyperparameter in this process is the speculation length~$γ$, which determines how many tokens the draft model proposes per s...",
+      "title": "Safety and accuracy follow different scaling laws in clinical large language models",
+      "authors": "Sebastian Wind, Tri-Thien Nguyen, Jeta Sopa et al.",
+      "abstract": "Clinical LLMs are often scaled by increasing model size, context length, retrieval complexity, or inference-time compute, with the implicit expectation that higher accuracy implies safer behavior. This assumption is incomplete in medicine, where a few confident, high-risk, or evidence-contradicting ...",
       "venue": "arXiv",
-      "date": "2026-05-04",
-      "arxiv_id": "2605.02888v1",
-      "url": "https://arxiv.org/abs/2605.02888v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.02888v1.pdf",
+      "date": "2026-05-05",
+      "arxiv_id": "2605.04039v1",
+      "url": "https://arxiv.org/abs/2605.04039v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.04039v1.pdf",
       "categories": [
-        "cs.LG",
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "OpenSeeker-v2: Pushing the Limits of Search Agents with Informative and High-Difficulty Trajectories",
+      "authors": "Yuwen Du, Rui Ye, Shuo Tang et al.",
+      "abstract": "Deep search capabilities have become an indispensable competency for frontier Large Language Model (LLM) agents, yet their development remains dominated by industrial giants. The typical industry recipe involves a highly resource-intensive pipeline spanning pre-training, continual pre-training (CPT)...",
+      "venue": "arXiv",
+      "date": "2026-05-05",
+      "arxiv_id": "2605.04036v1",
+      "url": "https://arxiv.org/abs/2605.04036v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.04036v1.pdf",
+      "categories": [
         "cs.AI",
         "cs.CL"
       ],
@@ -21,65 +38,14 @@
       "source": "arXiv"
     },
     {
-      "title": "Enhancing RL Generalizability in Robotics through SHAP Analysis of Algorithms and Hyperparameters",
-      "authors": "Lingxiao Kong, Cong Yang, Oya Deniz Beyan et al.",
-      "abstract": "Despite significant advances in Reinforcement Learning (RL), model performance remains highly sensitive to algorithm and hyperparameter configurations, while generalization gaps across environments complicate real-world deployment. Although prior work has studied RL generalization, the relative cont...",
+      "title": "Audio-Visual Intelligence in Large Foundation Models",
+      "authors": "You Qin, Kai Liu, Shengqiong Wu et al.",
+      "abstract": "Audio-Visual Intelligence (AVI) has emerged as a central frontier in artificial intelligence, bridging auditory and visual modalities to enable machines that can perceive, generate, and interact in the multimodal real world. In the era of large foundation models, joint modeling of audio and vision h...",
       "venue": "arXiv",
-      "date": "2026-05-04",
-      "arxiv_id": "2605.02867v1",
-      "url": "https://arxiv.org/abs/2605.02867v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.02867v1.pdf",
-      "categories": [
-        "cs.LG",
-        "cs.AI",
-        "cs.RO"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "FlexSQL: Flexible Exploration and Execution Make Better Text-to-SQL Agents",
-      "authors": "Quang Hieu Pham, Yang He, Ping Nie et al.",
-      "abstract": "Text-to-SQL over large analytical databases requires navigating complex schemas, resolving ambiguous queries, and grounding decisions in actual data. Most current systems follow a fixed pipeline where schema elements are retrieved once upfront and the database is only revisited for post-hoc repair, ...",
-      "venue": "arXiv",
-      "date": "2026-05-04",
-      "arxiv_id": "2605.02815v1",
-      "url": "https://arxiv.org/abs/2605.02815v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.02815v1.pdf",
-      "categories": [
-        "cs.CL"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "AlbumFill: Album-Guided Reasoning and Retrieval for Personalized Image Completion",
-      "authors": "Yu-Ju Tsai, Brian Price, Qing Liu et al.",
-      "abstract": "Personalized image completion aims to restore occluded regions in personal photos while preserving identity and appearance. Existing methods either rely on generic inpainting models that often fail to maintain identity consistency, or assume that suitable reference images are explicitly provided. In...",
-      "venue": "arXiv",
-      "date": "2026-05-04",
-      "arxiv_id": "2605.02892v1",
-      "url": "https://arxiv.org/abs/2605.02892v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.02892v1.pdf",
-      "categories": [
-        "cs.CV",
-        "cs.IR"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Laplacian Frequency Interaction Network for Rural Thematic Road Extraction",
-      "authors": "Baiyan Chen, Weixin Zhai",
-      "abstract": "Rural thematic road network construction aims to extract topological road structures from movement trajectory images of agricultural machinery. However, this task faces challenges where downsampling methods commonly used in existing studies tend to blur the sparse high-frequency road structures, and...",
-      "venue": "arXiv",
-      "date": "2026-05-04",
-      "arxiv_id": "2605.02866v1",
-      "url": "https://arxiv.org/abs/2605.02866v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.02866v1.pdf",
+      "date": "2026-05-05",
+      "arxiv_id": "2605.04045v1",
+      "url": "https://arxiv.org/abs/2605.04045v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.04045v1.pdf",
       "categories": [
         "cs.CV"
       ],
@@ -88,30 +54,64 @@
       "source": "arXiv"
     },
     {
-      "title": "Unsupervised Machine Learning for Detecting Structural Anomalies in European Regional Statistics",
-      "authors": "Bogdan Oancea",
-      "abstract": "Ensuring the coherence of regional socio-economic statistics is a central task for national statistical institutes. Traditional validation tools, such as range edits, ratio checks, or univariate outlier detection, are effective for identifying extreme values in individual series but are less suited ...",
+      "title": "UniCorrn: Unified Correspondence Transformer Across 2D and 3D",
+      "authors": "Prajnan Goswami, Tianye Ding, Feng Liu et al.",
+      "abstract": "Visual correspondence across image-to-image (2D-2D), image-to-point cloud (2D-3D), and point cloud-to-point cloud (3D-3D) geometric matching forms the foundation for numerous 3D vision tasks. Despite sharing a similar problem structure, current methods use task-specific designs with separate models ...",
       "venue": "arXiv",
-      "date": "2026-05-04",
-      "arxiv_id": "2605.02884v1",
-      "url": "https://arxiv.org/abs/2605.02884v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.02884v1.pdf",
+      "date": "2026-05-05",
+      "arxiv_id": "2605.04044v1",
+      "url": "https://arxiv.org/abs/2605.04044v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.04044v1.pdf",
       "categories": [
-        "cs.LG"
+        "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "A Closed-Form Adaptive-Landmark Kernel for Certified Point-Cloud and Graph Classification",
+      "authors": "Sushovan Majhi, Atish Mitra, Žiga Virk et al.",
+      "abstract": "We introduce PALACE (Persistence Adaptive-Landmark Analytic Classification Engine), the data-adaptive companion to PLACE, paying a small cross-validation tier on three knobs (budget, radii, bandwidth; $\\leq 5$ choices each). A cover-theoretic core (Lebesgue-number criterion on the landmark cover) yi...",
+      "venue": "arXiv",
+      "date": "2026-05-05",
+      "arxiv_id": "2605.04046v1",
+      "url": "https://arxiv.org/abs/2605.04046v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.04046v1.pdf",
+      "categories": [
+        "cs.LG",
+        "math.AT"
       ],
       "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "MolmoAct2: Action Reasoning Models for Real-world Deployment",
-      "authors": "Haoquan Fang, Jiafei Duan, Donovan Clay et al.",
-      "abstract": "Vision-Language-Action (VLA) models aim to provide a single generalist controller for robots, but today's systems fall short on the criteria that matter for real-world deployment. Frontier models are closed, open-weight alternatives are tied to expensive hardware, reasoning-augmented policies pay pr...",
+      "title": "Task-Aware Scanning Parameter Configuration for Robotic Inspection Using Vision Language Embeddings and Hyperdimensional Computing",
+      "authors": "Zhiling Chen, David Gorsich, Matthew P. Castanier et al.",
+      "abstract": "Robotic laser profiling is widely used for dimensional verification and surface inspection, yet measurement fidelity is often dominated by sensor configuration rather than robot motion. Industrial profilers expose multiple coupled parameters, including sampling frequency, measurement range, exposure...",
       "venue": "arXiv",
-      "date": "2026-05-04",
-      "arxiv_id": "2605.02881v1",
-      "url": "https://arxiv.org/abs/2605.02881v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.02881v1.pdf",
+      "date": "2026-05-05",
+      "arxiv_id": "2605.03909v1",
+      "url": "https://arxiv.org/abs/2605.03909v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.03909v1.pdf",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Evaluating Generative Models as Interactive Emergent Representations of Human-Like Collaborative Behavior",
+      "authors": "Shinas Shaji, Teena Chakkalayil Hassan, Sebastian Houben et al.",
+      "abstract": "Human-AI collaboration requires AI agents to understand human behavior for effective coordination. While advances in foundation models show promising capabilities in understanding and showing human-like behavior, their application in embodied collaborative settings needs further investigation. This ...",
+      "venue": "arXiv",
+      "date": "2026-05-05",
+      "arxiv_id": "2605.03855v1",
+      "url": "https://arxiv.org/abs/2605.03855v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.03855v1.pdf",
       "categories": [
         "cs.RO"
       ],

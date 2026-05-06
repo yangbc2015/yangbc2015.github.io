@@ -1,7 +1,7 @@
 {
   "last_updated": "2026-05-06",
   "count": 200,
-  "history_count": 201,
+  "history_count": 200,
   "retention_days": 30,
   "items": [
     {
@@ -89,18 +89,6 @@
       ]
     },
     {
-      "title": "Markdown Content:",
-      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-      "summary": "Markdown Content:...",
-      "date": "2026-05-05",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
       "title": "Anthropic联创定下deadline：2028年AI实现自我进化，没有人类了",
       "link": "https://www.jiqizhixin.com/search/articles/Anthropic联创定下de",
       "summary": "Anthropic联创定下deadline：2028年AI实现自我进化，没有人类了...",
@@ -128,6 +116,18 @@
       "title": "Agent-World：扩展真实世界环境，让智能体与环境协同进化！",
       "link": "https://www.jiqizhixin.com/search/articles/Agent-World：扩展真",
       "summary": "Agent-World：扩展真实世界环境，让智能体与环境协同进化！...",
+      "date": "2026-05-05",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "Markdown Content:",
+      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+      "summary": "Markdown Content:...",
       "date": "2026-05-05",
       "source": "机器之心",
       "type": "industry",

@@ -3,6 +3,86 @@
   "count": 200,
   "items": [
     {
+      "title": "Task-Aware Scanning Parameter Configuration for Robotic Inspection Using Vision Language Embeddings and Hyperdimensional Computing",
+      "summary": "Robotic laser profiling is widely used for dimensional verification and surface inspection, yet measurement fidelity is often dominated by sensor configuration rather than robot motion. Industrial profilers expose multiple coupled parameters, includi...",
+      "url": "https://arxiv.org/abs/2605.03909v1",
+      "date": "2026-05-05",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2605.03909v1",
+      "authors": "Zhiling Chen, David Gorsich et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Evaluating Generative Models as Interactive Emergent Representations of Human-Like Collaborative Behavior",
+      "summary": "Human-AI collaboration requires AI agents to understand human behavior for effective coordination. While advances in foundation models show promising capabilities in understanding and showing human-like behavior, their application in embodied collabo...",
+      "url": "https://arxiv.org/abs/2605.03855v1",
+      "date": "2026-05-05",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2605.03855v1",
+      "authors": "Shinas Shaji, Teena Chakkalayil Hassan et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "SigLoMa: Learning Open-World Quadrupedal Loco-Manipulation from Ego-Centric Vision",
+      "summary": "Designing an open-world quadrupedal loco-manipulation system is highly challenging. Traditional reinforcement learning frameworks utilizing exteroception often suffer from extreme sample inefficiency and massive sim-to-real gaps. Furthermore, the inh...",
+      "url": "https://arxiv.org/abs/2605.03846v1",
+      "date": "2026-05-05",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2605.03846v1",
+      "authors": "Shiyi Chen, Haiyi Liu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "SOAR: Real-Time Joint Optimization of Order Allocation and Robot Scheduling in Robotic Mobile Fulfillment Systems",
+      "summary": "Robotic Mobile Fulfillment Systems (RMFS) rely on mobile robots for automated inventory transportation, coordinating order allocation and robot scheduling to enhance warehousing efficiency. However, optimizing RMFS is challenging due to strict real-t...",
+      "url": "https://arxiv.org/abs/2605.03842v1",
+      "date": "2026-05-05",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2605.03842v1",
+      "authors": "Yibang Tang, Yifan Yang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "RoboAlign-R1: Distilled Multimodal Reward Alignment for Robot Video World Models",
+      "summary": "Existing robot video world models are typically trained with low-level objectives such as reconstruction and perceptual similarity, which are poorly aligned with the capabilities that matter most for robot decision making, including instruction follo...",
+      "url": "https://arxiv.org/abs/2605.03821v1",
+      "date": "2026-05-05",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2605.03821v1",
+      "authors": "Hao Wu, Yuqi Li et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
       "title": "[从机器人马拉松破纪录，看中国 具 身 智 能",
       "summary": "[从机器人马拉松破纪录，看中国 具 身 智 能",
       "url": "http://36kr.com/p/3778896668439299",
@@ -2997,71 +3077,6 @@
       "tags": [
         "人形机器人",
         "具身智能"
-      ]
-    },
-    {
-      "title": "Agility Robotics Digit机器人开始在工厂部署",
-      "summary": "Agility Robotics宣布Digit人形机器人开始在亚马逊仓库进行实际作业测试，主要执行搬运和分拣任务。",
-      "url": "https://www.google.com/search?q=Agility+Robotics+Digit机器人开始在工厂部署",
-      "date": "2026-03-26",
-      "source": "Agility Robotics",
-      "category": "人形机器人",
-      "type": "news",
-      "tags": [
-        "人形机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "中国优必选Walker机器人进入汽车工厂",
-      "summary": "优必选科技与多家汽车制造商达成合作，Walker系列人形机器人将进入汽车生产线，执行质检和装配辅助任务。",
-      "url": "https://www.google.com/search?q=中国优必选Walker机器人进入汽车工厂",
-      "date": "2026-03-26",
-      "source": "优必选",
-      "category": "人形机器人",
-      "type": "news",
-      "tags": [
-        "人形机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "ABB推出新一代协作机器人YuMi 2.0",
-      "summary": "ABB发布新一代双臂协作机器人YuMi 2.0，负载能力提升50%，并集成AI视觉系统，可实现更精准的抓取和装配。",
-      "url": "https://www.google.com/search?q=ABB推出新一代协作机器人YuMi+2.0",
-      "date": "2026-03-26",
-      "source": "ABB",
-      "category": "工业机器人",
-      "type": "news",
-      "tags": [
-        "工业机器人",
-        "制造业"
-      ]
-    },
-    {
-      "title": "发那科工业机器人产量突破100万台",
-      "summary": "发那科宣布全球工业机器人累计产量突破100万台，巩固其作为全球最大工业机器人制造商的地位。",
-      "url": "https://www.google.com/search?q=发那科工业机器人产量突破100万台",
-      "date": "2026-03-26",
-      "source": "发那科",
-      "category": "工业机器人",
-      "type": "news",
-      "tags": [
-        "工业机器人",
-        "制造业"
-      ]
-    },
-    {
-      "title": "库卡机器人与英伟达合作集成AI加速",
-      "summary": "库卡宣布与英伟达达成合作，将在新一代工业机器人中集成Jetson平台，实现边缘AI计算能力。",
-      "url": "https://www.google.com/search?q=库卡机器人与英伟达合作集成AI加速",
-      "date": "2026-03-26",
-      "source": "库卡",
-      "category": "工业机器人",
-      "type": "news",
-      "tags": [
-        "工业机器人",
-        "制造业"
       ]
     }
   ]
