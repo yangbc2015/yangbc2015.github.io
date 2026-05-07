@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-05-07",
-  "count": 6,
+  "count": 8,
   "items": [
     {
       "title": "Taming Outlier Tokens in Diffusion Transformers",
@@ -101,6 +101,40 @@
         "stat.ML",
         "cs.IT",
         "cs.LG"
+      ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "A Closed-Form Dual-Barrier CBF Safety Filter for Holonomic Robots on Incrementally Built Occupancy Grid Maps",
+      "authors": "Himanshu Paudel, Basanta Joshi, Dhirendra Raj Madai et al.",
+      "abstract": "We present a dual-barrier control barrier function (CBF) safety filter for real-time, safety-critical velocity control of holonomic robots operating in incrementally built occupancy grid maps. As a robot explores an unknown environment, unmapped regions introduce irreducible uncertainty, since obsta...",
+      "venue": "arXiv",
+      "date": "2026-05-06",
+      "arxiv_id": "2605.05182v1",
+      "url": "https://arxiv.org/abs/2605.05182v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.05182v1.pdf",
+      "categories": [
+        "cs.RO",
+        "eess.SY"
+      ],
+      "type": "ai",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "When Life Gives You BC, Make Q-functions: Extracting Q-values from Behavior Cloning for On-Robot Reinforcement Learning",
+      "authors": "Lakshita Dodeja, Ondrej Biza, Shivam Vats et al.",
+      "abstract": "Behavior Cloning (BC) has emerged as a highly effective paradigm for robot learning. However, BC lacks a self-guided mechanism for online improvement after demonstrations have been collected. Existing offline-to-online learning methods often cause policies to replace previously learned good actions ...",
+      "venue": "arXiv",
+      "date": "2026-05-06",
+      "arxiv_id": "2605.05172v1",
+      "url": "https://arxiv.org/abs/2605.05172v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.05172v1.pdf",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
       ],
       "type": "ml",
       "badge": "arxiv",
