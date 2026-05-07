@@ -3,6 +3,86 @@
   "count": 200,
   "items": [
     {
+      "title": "A Closed-Form Dual-Barrier CBF Safety Filter for Holonomic Robots on Incrementally Built Occupancy Grid Maps",
+      "summary": "We present a dual-barrier control barrier function (CBF) safety filter for real-time, safety-critical velocity control of holonomic robots operating in incrementally built occupancy grid maps. As a robot explores an unknown environment, unmapped regi...",
+      "url": "https://arxiv.org/abs/2605.05182v1",
+      "date": "2026-05-06",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2605.05182v1",
+      "authors": "Himanshu Paudel, Basanta Joshi et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "When Life Gives You BC, Make Q-functions: Extracting Q-values from Behavior Cloning for On-Robot Reinforcement Learning",
+      "summary": "Behavior Cloning (BC) has emerged as a highly effective paradigm for robot learning. However, BC lacks a self-guided mechanism for online improvement after demonstrations have been collected. Existing offline-to-online learning methods often cause po...",
+      "url": "https://arxiv.org/abs/2605.05172v1",
+      "date": "2026-05-06",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2605.05172v1",
+      "authors": "Lakshita Dodeja, Ondrej Biza et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "ConsisVLA-4D: Advancing Spatiotemporal Consistency in Efficient 3D-Perception and 4D-Reasoning for Robotic Manipulation",
+      "summary": "Current Vision-Language-Action (VLA) models primarily focus on mapping 2D observations to actions, but exhibit notable limitations in spatiotemporal perception and reasoning: 1) spatial representations often rely on additional sensors, introducing su...",
+      "url": "https://arxiv.org/abs/2605.05126v1",
+      "date": "2026-05-06",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2605.05126v1",
+      "authors": "Wei Li, Jizhihui Liu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "LineRides: Line-Guided Reinforcement Learning for Bicycle Robot Stunts",
+      "summary": "Designing reward functions for agile robotic maneuvers in reinforcement learning remains difficult, and demonstration-based approaches often require reference motions that are unavailable for novel platforms or extreme stunts. We present LineRides, a...",
+      "url": "https://arxiv.org/abs/2605.05110v1",
+      "date": "2026-05-06",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2605.05110v1",
+      "authors": "Seungeun Rho, Shamel Fahmi et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Driver-WM: A Driver-Centric Traffic-Conditioned Latent World Model for In-Cabin Dynamics Rollout",
+      "summary": "Safe L2/L3 driving automation requires anticipating human-in-the-loop reactions during shared-control transitions. While most driving world models forecast the external environment, in-cabin intelligence remains strictly recognition-oriented and lack...",
+      "url": "https://arxiv.org/abs/2605.05092v1",
+      "date": "2026-05-06",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2605.05092v1",
+      "authors": "Haozhuang Chi, Daosheng Qiu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
       "title": "Task-Aware Scanning Parameter Configuration for Robotic Inspection Using Vision Language Embeddings and Hyperdimensional Computing",
       "summary": "Robotic laser profiling is widely used for dimensional verification and surface inspection, yet measurement fidelity is often dominated by sensor configuration rather than robot motion. Industrial profilers expose multiple coupled parameters, includi...",
       "url": "https://arxiv.org/abs/2605.03909v1",
@@ -3010,73 +3090,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "英伟达发布GR00T项目：为人形机器人提供基础模型",
-      "summary": "英伟达在GTC大会上发布GR00T（Generalist Robot 00 Technology）项目，旨在为通用人形机器人提供基础AI模型支持。",
-      "url": "https://www.google.com/search?q=英伟达+GR00T+人形机器人",
-      "date": "2026-03-26",
-      "source": "英伟达",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "具身智能",
-        "英伟达",
-        "人形机器人"
-      ]
-    },
-    {
-      "title": "微软投资20亿美元建设机器人研发实验室",
-      "summary": "微软宣布将投资20亿美元在美国建立新的机器人与AI研发实验室，专注于具身智能和工业机器人技术研发。",
-      "url": "https://www.google.com/search?q=微软+机器人+投资",
-      "date": "2026-03-26",
-      "source": "微软",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "具身智能",
-        "微软",
-        "投资"
-      ]
-    },
-    {
-      "title": "特斯拉Optimus最新演示：自主行走能力大幅提升",
-      "summary": "特斯拉发布Optimus人形机器人最新视频，展示了更自然的行走姿态和更强的环境适应能力。马斯克表示2026年将开始小规模量产。",
-      "url": "https://www.google.com/search?q=特斯拉Optimus最新演示：自主行走能力大幅提升",
-      "date": "2026-03-26",
-      "source": "特斯拉",
-      "category": "人形机器人",
-      "type": "news",
-      "tags": [
-        "人形机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "Figure AI发布新一代人形机器人Figure 02",
-      "summary": "Figure AI发布Figure 02人形机器人，采用全新的关节设计和更强大的AI系统，目标应用于仓储物流和零售场景。",
-      "url": "https://www.google.com/search?q=Figure+AI发布新一代人形机器人Figure+02",
-      "date": "2026-03-26",
-      "source": "Figure AI",
-      "category": "人形机器人",
-      "type": "news",
-      "tags": [
-        "人形机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "波士顿动力Atlas机器人展示新的体操动作",
-      "summary": "波士顿动力发布视频，展示Atlas人形机器人完成复杂的体操动作，包括后空翻和空中转体，展示了卓越的运动控制能力。",
-      "url": "https://www.google.com/search?q=波士顿动力Atlas机器人展示新的体操动作",
-      "date": "2026-03-26",
-      "source": "波士顿动力",
-      "category": "人形机器人",
-      "type": "news",
-      "tags": [
-        "人形机器人",
-        "具身智能"
       ]
     }
   ]

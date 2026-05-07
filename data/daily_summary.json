@@ -8,18 +8,6 @@
       "count": 5,
       "items": [
         {
-          "title": "Markdown Content:",
-          "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-          "summary": "Markdown Content:...",
-          "date": "2026-05-06",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
           "title": "TRAE SOLO移动端上线，手机也能干活了，随时随地Vibe Working",
           "link": "https://www.jiqizhixin.com/search/articles/TRAE SOLO移动端上线，",
           "summary": "TRAE SOLO移动端上线，手机也能干活了，随时随地Vibe Working...",
@@ -61,6 +49,18 @@
           "summary": "领先于Transformer！新架构首个1200万上下文模型SubQ，成本仅Opus的5%...",
           "date": "2026-05-06",
           "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "1亿美元种子轮团队出手，单个模型解锁单手打蛋解魔方弹钢琴",
+          "link": "https://www.qbitai.com/?s=1亿美元种子轮团队出",
+          "summary": "1亿美元种子轮团队出手，单个模型解锁单手打蛋解魔方弹钢琴...",
+          "date": "2026-05-07",
+          "source": "量子位",
           "type": "industry",
           "tags": [
             "AI",

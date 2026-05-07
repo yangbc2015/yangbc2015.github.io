@@ -1,6 +1,6 @@
 ---
 title: '**Second Disrupt Pass 50% Off This Week**'
-date: '2026-05-06'
+date: '2026-05-07'
 type: industry
 source: TechCrunch
 link: https://techcrunch.com/category/artificial-intelligence/
