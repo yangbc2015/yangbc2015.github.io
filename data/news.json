@@ -1,9 +1,21 @@
 {
   "last_updated": "2026-05-08",
   "count": 200,
-  "history_count": 203,
+  "history_count": 201,
   "retention_days": 30,
   "items": [
+    {
+      "title": "Mac上就能本地跑deepseek",
+      "link": "https://www.qbitai.com/?s=Mac上就能本地跑d",
+      "summary": "Mac上就能本地跑deepseek...",
+      "date": "2026-05-08",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
     {
       "title": "原来Claude早就识破了人类的套路（doge）",
       "link": "https://www.qbitai.com/?s=原来Claude早就",
@@ -2386,18 +2398,6 @@
       "summary": "CVPR 2026 | 摆脱相机依赖！M4Human推动毫米波人体感知迈向新阶段...",
       "date": "2026-04-12",
       "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "全球首个消费级AI Agent Harness冲上热搜",
-      "link": "https://www.qbitai.com/?s=全球首个消费级AI ",
-      "summary": "全球首个消费级AI Agent Harness冲上热搜...",
-      "date": "2026-04-12",
-      "source": "量子位",
       "type": "industry",
       "tags": [
         "AI",

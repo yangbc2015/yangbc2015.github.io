@@ -1,7 +1,42 @@
 {
   "last_updated": "2026-05-08",
-  "count": 6,
+  "count": 7,
   "items": [
+    {
+      "title": "ActCam: Zero-Shot Joint Camera and 3D Motion Control for Video Generation",
+      "authors": "Omar El Khalifi, Thomas Rossi, Oscar Fossey et al.",
+      "abstract": "For artistic applications, video generation requires fine-grained control over both performance and cinematography, i.e., the actor's motion and the camera trajectory. We present ActCam, a zero-shot method for video generation that jointly transfers character motion from a driving video into a new s...",
+      "venue": "arXiv",
+      "date": "2026-05-07",
+      "arxiv_id": "2605.06667v1",
+      "url": "https://arxiv.org/abs/2605.06667v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.06667v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "UniPool: A Globally Shared Expert Pool for Mixture-of-Experts",
+      "authors": "Minbin Huang, Han Shi, Chuanyang Zheng et al.",
+      "abstract": "Modern Mixture-of-Experts (MoE) architectures allocate expert capacity through a rigid per-layer rule: each transformer layer owns a separate expert set. This convention couples depth scaling with linear expert-parameter growth and assumes that every layer needs isolated expert capacity. However, re...",
+      "venue": "arXiv",
+      "date": "2026-05-07",
+      "arxiv_id": "2605.06665v1",
+      "url": "https://arxiv.org/abs/2605.06665v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.06665v1.pdf",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
     {
       "title": "EMO: Pretraining Mixture of Experts for Emergent Modularity",
       "authors": "Ryan Wang, Akshita Bhagia, Sewon Min",
@@ -37,37 +72,19 @@
       "source": "arXiv"
     },
     {
-      "title": "ActCam: Zero-Shot Joint Camera and 3D Motion Control for Video Generation",
-      "authors": "Omar El Khalifi, Thomas Rossi, Oscar Fossey et al.",
-      "abstract": "For artistic applications, video generation requires fine-grained control over both performance and cinematography, i.e., the actor's motion and the camera trajectory. We present ActCam, a zero-shot method for video generation that jointly transfers character motion from a driving video into a new s...",
+      "title": "BAMI: Training-Free Bias Mitigation in GUI Grounding",
+      "authors": "Borui Zhang, Bo Zhang, Bo Wang et al.",
+      "abstract": "GUI grounding is a critical capability for enabling GUI agents to execute tasks such as clicking and dragging. However, in complex scenarios like the ScreenSpot-Pro benchmark, existing models often suffer from suboptimal performance. Utilizing the proposed \\textbf{Masked Prediction Distribution (MPD...",
       "venue": "arXiv",
       "date": "2026-05-07",
-      "arxiv_id": "2605.06667v1",
-      "url": "https://arxiv.org/abs/2605.06667v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.06667v1.pdf",
+      "arxiv_id": "2605.06664v1",
+      "url": "https://arxiv.org/abs/2605.06664v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.06664v1.pdf",
       "categories": [
         "cs.CV",
-        "cs.AI",
-        "cs.LG"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "UniPool: A Globally Shared Expert Pool for Mixture-of-Experts",
-      "authors": "Minbin Huang, Han Shi, Chuanyang Zheng et al.",
-      "abstract": "Modern Mixture-of-Experts (MoE) architectures allocate expert capacity through a rigid per-layer rule: each transformer layer owns a separate expert set. This convention couples depth scaling with linear expert-parameter growth and assumes that every layer needs isolated expert capacity. However, re...",
-      "venue": "arXiv",
-      "date": "2026-05-07",
-      "arxiv_id": "2605.06665v1",
-      "url": "https://arxiv.org/abs/2605.06665v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.06665v1.pdf",
-      "categories": [
-        "cs.LG",
         "cs.AI"
       ],
-      "type": "ml",
+      "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     },

@@ -3,6 +3,86 @@
   "count": 200,
   "items": [
     {
+      "title": "Multi-Robot Coordination in V2X Environments",
+      "summary": "This paper presents a Vehicle-to-Everything (V2X) communication framework that enables decentralized cooperation among social robots operating in complex urban traffic environments. Building on ETSI Cooperative Awareness and Maneuver Coordination ser...",
+      "url": "https://arxiv.org/abs/2605.06662v1",
+      "date": "2026-05-07",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2605.06662v1",
+      "authors": "John Pravin Arockiasamy, Alexey Vinel",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Cross-Modal Navigation with Multi-Agent Reinforcement Learning",
+      "summary": "Robust embodied navigation relies on complementary sensory cues. However, high-quality and well-aligned multi-modal data is often difficult to obtain in practice. Training a monolithic model is also challenging as rich multi-modal inputs induce compl...",
+      "url": "https://arxiv.org/abs/2605.06595v1",
+      "date": "2026-05-07",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2605.06595v1",
+      "authors": "Shuo Liu, Xinzichen Li et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "ReActor: Reinforcement Learning for Physics-Aware Motion Retargeting",
+      "summary": "Retargeting human kinematic reference motion onto a robot's morphology remains a formidable challenge. Existing methods often produce physical inconsistencies, such as foot sliding, self-collisions, or dynamically infeasible motions, which hinder dow...",
+      "url": "https://arxiv.org/abs/2605.06593v1",
+      "date": "2026-05-07",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2605.06593v1",
+      "authors": "David Müller, Agon Serifi et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Lie Group Formulation of Recursive Dynamics Algorithms of Higher Order for Floating-Base Robots",
+      "summary": "In this paper, we describe procedures for computing higher-order time derivatives of the Lie-group Newton-Euler, Articulated-Body Inertia, and hybrid dynamics algorithms for floating-base trees, where the base configuration evolves on SE(3) and the a...",
+      "url": "https://arxiv.org/abs/2605.06498v1",
+      "date": "2026-05-07",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2605.06498v1",
+      "authors": "Ahmed Ali, Chiara Gabellieri et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "OA-WAM: Object-Addressable World Action Model for Robust Robot Manipulation",
+      "summary": "World Action Models (WAMs) enhance Vision-Language-Action policies by jointly predicting scene evolution and robot actions, but existing methods usually represent the predicted world as holistic images, video tokens, or global latents. These represen...",
+      "url": "https://arxiv.org/abs/2605.06481v1",
+      "date": "2026-05-07",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2605.06481v1",
+      "authors": "Yushan Liu, Peibo Sun et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
       "title": "A Closed-Form Dual-Barrier CBF Safety Filter for Holonomic Robots on Incrementally Built Occupancy Grid Maps",
       "summary": "We present a dual-barrier control barrier function (CBF) safety filter for real-time, safety-critical velocity control of holonomic robots operating in incrementally built occupancy grid maps. As a robot explores an unknown environment, unmapped regi...",
       "url": "https://arxiv.org/abs/2605.05182v1",
@@ -3006,86 +3086,6 @@
       "type": "paper",
       "arxiv_id": "2603.25685v1",
       "authors": "Jai Bardhan, Patrik Drozdik et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "LILAC: Language-Conditioned Object-Centric Optical Flow for Open-Loop Trajectory Generation",
-      "summary": "We address language-conditioned robotic manipulation using flow-based trajectory generation, which enables training on human and web videos of object manipulation and requires only minimal embodiment-specific data. This task is challenging, as object...",
-      "url": "https://arxiv.org/abs/2603.25481v1",
-      "date": "2026-03-26",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2603.25481v1",
-      "authors": "Motonari Kambara, Koki Seno et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Temporally Decoupled Diffusion Planning for Autonomous Driving",
-      "summary": "Motion planning in dynamic urban environments requires balancing immediate safety with long-term goals. While diffusion models effectively capture multi-modal decision-making, existing approaches treat trajectories as monolithic entities, overlooking...",
-      "url": "https://arxiv.org/abs/2603.25462v1",
-      "date": "2026-03-26",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2603.25462v1",
-      "authors": "Xiang Li, Bikun Wang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Visualizing Impedance Control in Augmented Reality for Teleoperation: Design and User Evaluation",
-      "summary": "Teleoperation for contact-rich manipulation remains challenging, especially when using low-cost, motion-only interfaces that provide no haptic feedback. Virtual reality controllers enable intuitive motion control but do not allow operators to directl...",
-      "url": "https://arxiv.org/abs/2603.25418v1",
-      "date": "2026-03-26",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2603.25418v1",
-      "authors": "Gijs van den Brandt, Femke van Beek et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Modernising Reinforcement Learning-Based Navigation for Embodied Semantic Scene Graph Generation",
-      "summary": "Semantic world models enable embodied agents to reason about objects, relations, and spatial context beyond purely geometric representations. In Organic Computing, such models are a key enabler for objective-driven self-adaptation under uncertainty a...",
-      "url": "https://arxiv.org/abs/2603.25415v1",
-      "date": "2026-03-26",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2603.25415v1",
-      "authors": "Roman Kueble, Marco Hueller et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "MMaDA-VLA: Large Diffusion Vision-Language-Action Model with Unified Multi-Modal Instruction and Generation",
-      "summary": "Vision-Language-Action (VLA) models aim to control robots for manipulation from visual observations and natural-language instructions. However, existing hierarchical and autoregressive paradigms often introduce architectural overhead, suffer from tem...",
-      "url": "https://arxiv.org/abs/2603.25406v1",
-      "date": "2026-03-26",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2603.25406v1",
-      "authors": "Yang Liu, Pengxiang Ding et al.",
       "tags": [
         "机器人学习",
         "研究论文",
