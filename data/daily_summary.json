@@ -8,18 +8,6 @@
       "count": 5,
       "items": [
         {
-          "title": "Markdown Content:",
-          "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-          "summary": "Markdown Content:...",
-          "date": "2026-05-07",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
           "title": "DeepMind入股硬核网游EVE，要让AI学「黑暗森林」",
           "link": "https://www.jiqizhixin.com/search/articles/DeepMind入股硬核网游E",
           "summary": "DeepMind入股硬核网游EVE，要让AI学「黑暗森林」...",
@@ -59,6 +47,18 @@
           "title": "英伟达力荐，小团队两个月开源一款「光速级」智能体推理引擎",
           "link": "https://www.jiqizhixin.com/search/articles/英伟达力荐，小团队两个月开源一",
           "summary": "英伟达力荐，小团队两个月开源一款「光速级」智能体推理引擎...",
+          "date": "2026-05-07",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "CVPR 2026 Oral｜告别模型合并冲突！南大等提出OrthoReg：极简正交正则化，揭开任务算术的底层机制",
+          "link": "https://www.jiqizhixin.com/search/articles/CVPR 2026 Oral｜",
+          "summary": "CVPR 2026 Oral｜告别模型合并冲突！南大等提出OrthoReg：极简正交正则化，揭开任务算术的底层机制...",
           "date": "2026-05-07",
           "source": "机器之心",
           "type": "industry",

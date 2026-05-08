@@ -1,9 +1,33 @@
 {
   "last_updated": "2026-05-08",
   "count": 200,
-  "history_count": 200,
+  "history_count": 203,
   "retention_days": 30,
   "items": [
+    {
+      "title": "原来Claude早就识破了人类的套路（doge）",
+      "link": "https://www.qbitai.com/?s=原来Claude早就",
+      "summary": "原来Claude早就识破了人类的套路（doge）...",
+      "date": "2026-05-08",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "OpenAI上新三款实时语音模型",
+      "link": "https://www.qbitai.com/?s=OpenAI上新三款",
+      "summary": "OpenAI上新三款实时语音模型...",
+      "date": "2026-05-08",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
     {
       "title": "低提示词，挑战主流模型的交互逻辑",
       "link": "https://www.qbitai.com/?s=低提示词，挑战主流模",
@@ -77,18 +101,6 @@
       ]
     },
     {
-      "title": "Markdown Content:",
-      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-      "summary": "Markdown Content:...",
-      "date": "2026-05-07",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
       "title": "DeepMind入股硬核网游EVE，要让AI学「黑暗森林」",
       "link": "https://www.jiqizhixin.com/search/articles/DeepMind入股硬核网游E",
       "summary": "DeepMind入股硬核网游EVE，要让AI学「黑暗森林」...",
@@ -140,6 +152,30 @@
       "title": "CVPR 2026 Oral｜告别模型合并冲突！南大等提出OrthoReg：极简正交正则化，揭开任务算术的底层机制",
       "link": "https://www.jiqizhixin.com/search/articles/CVPR 2026 Oral｜",
       "summary": "CVPR 2026 Oral｜告别模型合并冲突！南大等提出OrthoReg：极简正交正则化，揭开任务算术的底层机制...",
+      "date": "2026-05-07",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "蛰伏一年，周衔团队带来首个具身基础模型，烹饪做实验弹琴，效果炸场",
+      "link": "https://www.jiqizhixin.com/search/articles/蛰伏一年，周衔团队带来首个具身",
+      "summary": "蛰伏一年，周衔团队带来首个具身基础模型，烹饪做实验弹琴，效果炸场...",
+      "date": "2026-05-07",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "Markdown Content:",
+      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+      "summary": "Markdown Content:...",
       "date": "2026-05-07",
       "source": "机器之心",
       "type": "industry",
@@ -2362,42 +2398,6 @@
       "summary": "全球首个消费级AI Agent Harness冲上热搜...",
       "date": "2026-04-12",
       "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "直播预约 | 世界模型，点燃下一个AI爆点",
-      "link": "https://www.jiqizhixin.com/search/articles/直播预约 | 世界模型，点燃下",
-      "summary": "直播预约 | 世界模型，点燃下一个AI爆点...",
-      "date": "2026-04-11",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "上周「封杀」OpenClaw，这次直接「封杀」创始人？Anthropic：误会，已解封！",
-      "link": "https://www.jiqizhixin.com/search/articles/上周「封杀」OpenClaw，",
-      "summary": "上周「封杀」OpenClaw，这次直接「封杀」创始人？Anthropic：误会，已解封！...",
-      "date": "2026-04-11",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "ICRA 2026｜NUS邵林团队提出T(R,O) Grasp：刷新跨智能体灵巧抓取SOTA，实现5FPS动态环境交互",
-      "link": "https://www.jiqizhixin.com/search/articles/ICRA 2026｜NUS邵林",
-      "summary": "ICRA 2026｜NUS邵林团队提出T(R,O) Grasp：刷新跨智能体灵巧抓取SOTA，实现5FPS动态环境交互...",
-      "date": "2026-04-11",
-      "source": "机器之心",
       "type": "industry",
       "tags": [
         "AI",

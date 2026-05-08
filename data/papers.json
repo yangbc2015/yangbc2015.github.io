@@ -1,16 +1,50 @@
 {
   "last_updated": "2026-05-08",
-  "count": 8,
+  "count": 6,
   "items": [
     {
-      "title": "Taming Outlier Tokens in Diffusion Transformers",
-      "authors": "Xiaoyu Wu, Yifei Wang, Tsu-Jui Fu et al.",
-      "abstract": "We study outlier tokens in Diffusion Transformers (DiTs) for image generation. Prior work has shown that Vision Transformers (ViTs) can produce a small number of high-norm tokens that attract disproportionate attention while carrying limited local information, but their role in generative models rem...",
+      "title": "EMO: Pretraining Mixture of Experts for Emergent Modularity",
+      "authors": "Ryan Wang, Akshita Bhagia, Sewon Min",
+      "abstract": "Large language models are typically deployed as monolithic systems, requiring the full model even when applications need only a narrow subset of capabilities, e.g., code, math, or domain-specific knowledge. Mixture-of-Experts (MoEs) seemingly offer a potential alternative by activating only a subset...",
       "venue": "arXiv",
-      "date": "2026-05-06",
-      "arxiv_id": "2605.05206v1",
-      "url": "https://arxiv.org/abs/2605.05206v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.05206v1.pdf",
+      "date": "2026-05-07",
+      "arxiv_id": "2605.06663v1",
+      "url": "https://arxiv.org/abs/2605.06663v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.06663v1.pdf",
+      "categories": [
+        "cs.CL"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Verifier-Backed Hard Problem Generation for Mathematical Reasoning",
+      "authors": "Yuhang Lai, Jiazhan Feng, Yee Whye Teh et al.",
+      "abstract": "Large Language Models (LLMs) demonstrate strong capabilities for solving scientific and mathematical problems, yet they struggle to produce valid, challenging, and novel problems - an essential component for advancing LLM training and enabling autonomous scientific research. Existing problem generat...",
+      "venue": "arXiv",
+      "date": "2026-05-07",
+      "arxiv_id": "2605.06660v1",
+      "url": "https://arxiv.org/abs/2605.06660v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.06660v1.pdf",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "ActCam: Zero-Shot Joint Camera and 3D Motion Control for Video Generation",
+      "authors": "Omar El Khalifi, Thomas Rossi, Oscar Fossey et al.",
+      "abstract": "For artistic applications, video generation requires fine-grained control over both performance and cinematography, i.e., the actor's motion and the camera trajectory. We present ActCam, a zero-shot method for video generation that jointly transfers character motion from a driving video into a new s...",
+      "venue": "arXiv",
+      "date": "2026-05-07",
+      "arxiv_id": "2605.06667v1",
+      "url": "https://arxiv.org/abs/2605.06667v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.06667v1.pdf",
       "categories": [
         "cs.CV",
         "cs.AI",
@@ -21,120 +55,51 @@
       "source": "arXiv"
     },
     {
-      "title": "Grokability in five inequalities",
-      "authors": "Paata Ivanisvili, Xinyuan Xie",
-      "abstract": "In this note, we report five mathematical discoveries made in collaboration with Grok, all of which have been subsequently verified by the authors. These include an improved lower bound on the maximal Gaussian perimeter of convex sets in $\\mathbb{R}^n$, sharper $L_2$-$L_1$ moment comparison inequali...",
+      "title": "UniPool: A Globally Shared Expert Pool for Mixture-of-Experts",
+      "authors": "Minbin Huang, Han Shi, Chuanyang Zheng et al.",
+      "abstract": "Modern Mixture-of-Experts (MoE) architectures allocate expert capacity through a rigid per-layer rule: each transformer layer owns a separate expert set. This convention couples depth scaling with linear expert-parameter growth and assumes that every layer needs isolated expert capacity. However, re...",
       "venue": "arXiv",
-      "date": "2026-05-06",
-      "arxiv_id": "2605.05193v1",
-      "url": "https://arxiv.org/abs/2605.05193v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.05193v1.pdf",
+      "date": "2026-05-07",
+      "arxiv_id": "2605.06665v1",
+      "url": "https://arxiv.org/abs/2605.06665v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.06665v1.pdf",
       "categories": [
-        "math.PR",
-        "cs.AI",
-        "math.AP"
-      ],
-      "type": "ai",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Implicit Representations of Grammaticality in Language Models",
-      "authors": "Yingshan Susan Wang, Linlu Qiu, Zhaofeng Wu et al.",
-      "abstract": "Grammaticality and likelihood are distinct notions in human language. Pretrained language models (LMs), which are probabilistic models of language fitted to maximize corpus likelihood, generate grammatically well-formed text and discriminate well between grammatical and ungrammatical sentences in ti...",
-      "venue": "arXiv",
-      "date": "2026-05-06",
-      "arxiv_id": "2605.05197v1",
-      "url": "https://arxiv.org/abs/2605.05197v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.05197v1.pdf",
-      "categories": [
-        "cs.CL"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "MRI-Eval: A Tiered Benchmark for Evaluating LLM Performance on MRI Physics and GE Scanner Operations Knowledge",
-      "authors": "Perry E. Radau",
-      "abstract": "Background: Existing MRI LLM benchmarks rely mainly on review-book multiple-choice questions, where top proprietary models already score highly, limiting discrimination. No systematic benchmark has evaluated vendor-specific scanner operational knowledge central to research MRI practice. Purpose: We ...",
-      "venue": "arXiv",
-      "date": "2026-05-06",
-      "arxiv_id": "2605.05175v1",
-      "url": "https://arxiv.org/abs/2605.05175v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.05175v1.pdf",
-      "categories": [
-        "eess.IV",
-        "cs.CL",
-        "physics.med-ph"
-      ],
-      "type": "benchmark",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Syn4D: A Multiview Synthetic 4D Dataset",
-      "authors": "Zeren Jiang, Yushi Lan, Yihang Luo et al.",
-      "abstract": "Dense 3D reconstruction and tracking of dynamic scenes from monocular video remains an important open challenge in computer vision. Progress in this area has been constrained by the scarcity of high-quality datasets with dense, complete, and accurate geometric annotations. To address this limitation...",
-      "venue": "arXiv",
-      "date": "2026-05-06",
-      "arxiv_id": "2605.05207v1",
-      "url": "https://arxiv.org/abs/2605.05207v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.05207v1.pdf",
-      "categories": [
-        "cs.CV"
-      ],
-      "type": "benchmark",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Sharp Capacity Thresholds in Linear Associative Memory: From Winner-Take-All to Listwise Retrieval",
-      "authors": "Nicholas Barnfield, Juno Kim, Eshaan Nichani et al.",
-      "abstract": "How many key-value associations can a $d\\times d$ linear memory store? We show that the answer depends not only on the $d^2$ degrees of freedom in the memory matrix, but also on the retrieval criterion. In an isotropic Gaussian model for the stored pairs, we show that top-1 retrieval, where every si...",
-      "venue": "arXiv",
-      "date": "2026-05-06",
-      "arxiv_id": "2605.05189v1",
-      "url": "https://arxiv.org/abs/2605.05189v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.05189v1.pdf",
-      "categories": [
-        "stat.ML",
-        "cs.IT",
-        "cs.LG"
+        "cs.LG",
+        "cs.AI"
       ],
       "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "A Closed-Form Dual-Barrier CBF Safety Filter for Holonomic Robots on Incrementally Built Occupancy Grid Maps",
-      "authors": "Himanshu Paudel, Basanta Joshi, Dhirendra Raj Madai et al.",
-      "abstract": "We present a dual-barrier control barrier function (CBF) safety filter for real-time, safety-critical velocity control of holonomic robots operating in incrementally built occupancy grid maps. As a robot explores an unknown environment, unmapped regions introduce irreducible uncertainty, since obsta...",
+      "title": "Multi-Robot Coordination in V2X Environments",
+      "authors": "John Pravin Arockiasamy, Alexey Vinel",
+      "abstract": "This paper presents a Vehicle-to-Everything (V2X) communication framework that enables decentralized cooperation among social robots operating in complex urban traffic environments. Building on ETSI Cooperative Awareness and Maneuver Coordination services, the framework introduces two robot-centric ...",
       "venue": "arXiv",
-      "date": "2026-05-06",
-      "arxiv_id": "2605.05182v1",
-      "url": "https://arxiv.org/abs/2605.05182v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.05182v1.pdf",
+      "date": "2026-05-07",
+      "arxiv_id": "2605.06662v1",
+      "url": "https://arxiv.org/abs/2605.06662v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.06662v1.pdf",
       "categories": [
-        "cs.RO",
-        "eess.SY"
+        "cs.RO"
       ],
       "type": "ai",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "When Life Gives You BC, Make Q-functions: Extracting Q-values from Behavior Cloning for On-Robot Reinforcement Learning",
-      "authors": "Lakshita Dodeja, Ondrej Biza, Shivam Vats et al.",
-      "abstract": "Behavior Cloning (BC) has emerged as a highly effective paradigm for robot learning. However, BC lacks a self-guided mechanism for online improvement after demonstrations have been collected. Existing offline-to-online learning methods often cause policies to replace previously learned good actions ...",
+      "title": "Cross-Modal Navigation with Multi-Agent Reinforcement Learning",
+      "authors": "Shuo Liu, Xinzichen Li, Christopher Amato",
+      "abstract": "Robust embodied navigation relies on complementary sensory cues. However, high-quality and well-aligned multi-modal data is often difficult to obtain in practice. Training a monolithic model is also challenging as rich multi-modal inputs induce complex representations and substantially enlarge the p...",
       "venue": "arXiv",
-      "date": "2026-05-06",
-      "arxiv_id": "2605.05172v1",
-      "url": "https://arxiv.org/abs/2605.05172v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.05172v1.pdf",
+      "date": "2026-05-07",
+      "arxiv_id": "2605.06595v1",
+      "url": "https://arxiv.org/abs/2605.06595v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.06595v1.pdf",
       "categories": [
         "cs.RO",
-        "cs.AI"
+        "cs.AI",
+        "cs.LG"
       ],
       "type": "ml",
       "badge": "arxiv",
