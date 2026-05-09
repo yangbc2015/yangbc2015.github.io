@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-05-08",
+  "last_updated": "2026-05-09",
   "count": 200,
-  "history_count": 200,
+  "history_count": 205,
   "retention_days": 30,
   "items": [
     {
       "title": "Mac上就能本地跑deepseek",
       "link": "https://www.qbitai.com/?s=Mac上就能本地跑d",
       "summary": "Mac上就能本地跑deepseek...",
-      "date": "2026-05-08",
+      "date": "2026-05-09",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -20,7 +20,7 @@
       "title": "原来Claude早就识破了人类的套路（doge）",
       "link": "https://www.qbitai.com/?s=原来Claude早就",
       "summary": "原来Claude早就识破了人类的套路（doge）...",
-      "date": "2026-05-08",
+      "date": "2026-05-09",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -32,7 +32,7 @@
       "title": "OpenAI上新三款实时语音模型",
       "link": "https://www.qbitai.com/?s=OpenAI上新三款",
       "summary": "OpenAI上新三款实时语音模型...",
-      "date": "2026-05-08",
+      "date": "2026-05-09",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -44,7 +44,7 @@
       "title": "低提示词，挑战主流模型的交互逻辑",
       "link": "https://www.qbitai.com/?s=低提示词，挑战主流模",
       "summary": "低提示词，挑战主流模型的交互逻辑...",
-      "date": "2026-05-08",
+      "date": "2026-05-09",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -56,7 +56,7 @@
       "title": "1亿美元种子轮团队出手，单个模型解锁单手打蛋解魔方弹钢琴",
       "link": "https://www.qbitai.com/?s=1亿美元种子轮团队出",
       "summary": "1亿美元种子轮团队出手，单个模型解锁单手打蛋解魔方弹钢琴...",
-      "date": "2026-05-08",
+      "date": "2026-05-09",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -68,12 +68,84 @@
       "title": "**Second Disrupt Pass 50% Off This Week**",
       "link": "https://techcrunch.com/category/artificial-intelligence/",
       "summary": "**Second Disrupt Pass 50% Off This Week**...",
-      "date": "2026-05-08",
+      "date": "2026-05-09",
       "source": "TechCrunch",
       "type": "industry",
       "tags": [
         "AI",
         "Artificial Intelligence"
+      ]
+    },
+    {
+      "title": "Markdown Content:",
+      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+      "summary": "Markdown Content:...",
+      "date": "2026-05-08",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "直播预约 | 数据引擎：具身智能的下一个决胜局",
+      "link": "https://www.jiqizhixin.com/search/articles/直播预约 | 数据引擎：具身智",
+      "summary": "直播预约 | 数据引擎：具身智能的下一个决胜局...",
+      "date": "2026-05-08",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "CVPR 2026 Highlight | 清华打破多模态音频生成的「通才困境」：Omni2Sound 音频基础模型开源！",
+      "link": "https://www.jiqizhixin.com/search/articles/CVPR 2026 Highl",
+      "summary": "CVPR 2026 Highlight | 清华打破多模态音频生成的「通才困境」：Omni2Sound 音频基础模型开源！...",
+      "date": "2026-05-08",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "拿下1亿美元种子轮！SGLang团队创立RadixArk，打造下一代开放AI基础设施",
+      "link": "https://www.jiqizhixin.com/search/articles/拿下1亿美元种子轮！SGLan",
+      "summary": "拿下1亿美元种子轮！SGLang团队创立RadixArk，打造下一代开放AI基础设施...",
+      "date": "2026-05-08",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "OpenAI官方CLI上线，跟复杂的SDK说拜拜",
+      "link": "https://www.jiqizhixin.com/search/articles/OpenAI官方CLI上线，跟",
+      "summary": "OpenAI官方CLI上线，跟复杂的SDK说拜拜...",
+      "date": "2026-05-08",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "ICLR 2026 I 英伟达 & 普渡大学用agent闭环实现文生3D",
+      "link": "https://www.jiqizhixin.com/search/articles/ICLR 2026 I 英伟达",
+      "summary": "ICLR 2026 I 英伟达 & 普渡大学用agent闭环实现文生3D...",
+      "date": "2026-05-08",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
       ]
     },
     {
@@ -176,18 +248,6 @@
       "title": "蛰伏一年，周衔团队带来首个具身基础模型，烹饪做实验弹琴，效果炸场",
       "link": "https://www.jiqizhixin.com/search/articles/蛰伏一年，周衔团队带来首个具身",
       "summary": "蛰伏一年，周衔团队带来首个具身基础模型，烹饪做实验弹琴，效果炸场...",
-      "date": "2026-05-07",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Markdown Content:",
-      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-      "summary": "Markdown Content:...",
       "date": "2026-05-07",
       "source": "机器之心",
       "type": "industry",
@@ -2337,66 +2397,6 @@
       "link": "https://www.jiqizhixin.com/search/articles/全球第一，13个SOTA！我们",
       "summary": "全球第一，13个SOTA！我们找到了龙虾界掌管GUI的神...",
       "date": "2026-04-13",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "国内首个！加入六维力的全感知数采，让VLA模型进化出力触觉",
-      "link": "https://www.jiqizhixin.com/search/articles/国内首个！加入六维力的全感知数",
-      "summary": "国内首个！加入六维力的全感知数采，让VLA模型进化出力触觉...",
-      "date": "2026-04-13",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "首个跑通端到端闭环，全模态安全脱敏",
-      "link": "https://www.qbitai.com/?s=首个跑通端到端闭环，",
-      "summary": "首个跑通端到端闭环，全模态安全脱敏...",
-      "date": "2026-04-13",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Grok 4.2总参数量0.5T",
-      "link": "https://www.qbitai.com/?s=Grok 4.2总参",
-      "summary": "Grok 4.2总参数量0.5T...",
-      "date": "2026-04-13",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Openclaw 龙虾五天五连，24小时两更，火力全开！到底更新了些什么？",
-      "link": "https://www.jiqizhixin.com/search/articles/Openclaw 龙虾五天五连",
-      "summary": "Openclaw 龙虾五天五连，24小时两更，火力全开！到底更新了些什么？...",
-      "date": "2026-04-12",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "CVPR 2026 | 摆脱相机依赖！M4Human推动毫米波人体感知迈向新阶段",
-      "link": "https://www.jiqizhixin.com/search/articles/CVPR 2026 | 摆脱相",
-      "summary": "CVPR 2026 | 摆脱相机依赖！M4Human推动毫米波人体感知迈向新阶段...",
-      "date": "2026-04-12",
       "source": "机器之心",
       "type": "industry",
       "tags": [
