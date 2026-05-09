@@ -1,9 +1,33 @@
 {
   "last_updated": "2026-05-09",
   "count": 200,
-  "history_count": 203,
+  "history_count": 202,
   "retention_days": 30,
   "items": [
+    {
+      "title": "围绕电力交易、能源调度、智能预测与决策等场景探索AI应用落地",
+      "link": "https://www.qbitai.com/?s=围绕电力交易、能源调",
+      "summary": "围绕电力交易、能源调度、智能预测与决策等场景探索AI应用落地...",
+      "date": "2026-05-09",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "谷歌AI for Math迈出最新一步",
+      "link": "https://www.qbitai.com/?s=谷歌AI for M",
+      "summary": "谷歌AI for Math迈出最新一步...",
+      "date": "2026-05-09",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
     {
       "title": "搜索、知识、Agent 能力全面提升",
       "link": "https://www.qbitai.com/?s=搜索、知识、Agen",
@@ -2374,30 +2398,6 @@
       "summary": "广泛的数据是视觉推理强化学习Scaling的主要驱动力...",
       "date": "2026-04-14",
       "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "养虾「不可能三角」：好用、好玩、安全，复旦这个「00后」团队做到了！",
-      "link": "https://www.jiqizhixin.com/search/articles/养虾「不可能三角」：好用、好玩",
-      "summary": "养虾「不可能三角」：好用、好玩、安全，复旦这个「00后」团队做到了！...",
-      "date": "2026-04-13",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "上海交大DENG Lab提出「LatentUM」：Unified Model的真正「战场」在视觉推理与世界模型",
-      "link": "https://www.jiqizhixin.com/search/articles/上海交大DENG Lab提出「",
-      "summary": "上海交大DENG Lab提出「LatentUM」：Unified Model的真正「战场」在视觉推理与世界模型...",
-      "date": "2026-04-13",
-      "source": "机器之心",
       "type": "industry",
       "tags": [
         "AI",
