@@ -5,6 +5,62 @@
   "retention_count": 200,
   "items": [
     {
+      "title": "3Blue1Brown: 深度学习之神经网络",
+      "speaker": "3Blue1Brown",
+      "description": "用精美动画解释神经网络的工作原理",
+      "duration": "19:15",
+      "views": "3.1M",
+      "platform": "youtube",
+      "video_id": "aircAruvnKk",
+      "url": "https://www.youtube.com/watch?v=aircAruvnKk",
+      "thumbnail": "https://img.youtube.com/vi/aircAruvnKk/mqdefault.jpg",
+      "type": "lecture",
+      "category": "技术讲座",
+      "date": "2026-05-08"
+    },
+    {
+      "title": "BERT 模型详解与应用",
+      "speaker": "Yannic Kilcher",
+      "description": "深入理解 BERT 预训练模型及其应用",
+      "duration": "28:45",
+      "views": "890K",
+      "platform": "youtube",
+      "video_id": "xI0HHN5XKDo",
+      "url": "https://www.youtube.com/watch?v=xI0HHN5XKDo",
+      "thumbnail": "https://img.youtube.com/vi/xI0HHN5XKDo/mqdefault.jpg",
+      "type": "lecture",
+      "category": "技术讲座",
+      "date": "2026-05-08"
+    },
+    {
+      "title": "Transformer 注意力机制详解",
+      "speaker": "Yannic Kilcher",
+      "description": "深入解析 Transformer 架构的核心机制",
+      "duration": "32:15",
+      "views": "1.2M",
+      "platform": "youtube",
+      "video_id": "iDulhoQ2pro",
+      "url": "https://www.youtube.com/watch?v=iDulhoQ2pro",
+      "thumbnail": "https://img.youtube.com/vi/iDulhoQ2pro/mqdefault.jpg",
+      "type": "lecture",
+      "category": "技术讲座",
+      "date": "2026-05-07"
+    },
+    {
+      "title": "强化学习入门: Q-Learning",
+      "speaker": "Sentdex",
+      "description": "从零开始学习强化学习基础",
+      "duration": "15:30",
+      "views": "456K",
+      "platform": "youtube",
+      "video_id": "yMk_XtIEzH8",
+      "url": "https://www.youtube.com/watch?v=yMk_XtIEzH8",
+      "thumbnail": "https://img.youtube.com/vi/yMk_XtIEzH8/mqdefault.jpg",
+      "type": "tutorial",
+      "category": "AI教程",
+      "date": "2026-05-07"
+    },
+    {
       "title": "OpenAI GPT-4o 多模态能力解析",
       "speaker": "OpenAI",
       "description": "GPT-4o 原生多模态能力的深度解读",
@@ -16,7 +72,7 @@
       "thumbnail": "https://img.youtube.com/vi/M6v8dzV1-7g/mqdefault.jpg",
       "type": "lecture",
       "category": "前沿技术",
-      "date": "2026-05-08"
+      "date": "2026-05-06"
     },
     {
       "title": "Mamba 架构: Transformer 的替代者?",
@@ -30,35 +86,7 @@
       "thumbnail": "https://img.youtube.com/vi/oHJwJsaWQgE/mqdefault.jpg",
       "type": "lecture",
       "category": "前沿技术",
-      "date": "2026-05-08"
-    },
-    {
-      "title": "AI Agent 架构设计模式",
-      "speaker": "LangChain",
-      "description": "构建自主 AI 代理的最佳实践",
-      "duration": "42:20",
-      "views": "189K",
-      "platform": "youtube",
-      "video_id": "mFMBb8Xw6yQ",
-      "url": "https://www.youtube.com/watch?v=mFMBb8Xw6yQ",
-      "thumbnail": "https://img.youtube.com/vi/mFMBb8Xw6yQ/mqdefault.jpg",
-      "type": "tutorial",
-      "category": "AI教程",
-      "date": "2026-05-07"
-    },
-    {
-      "title": "Diffusion 模型工作原理",
-      "speaker": "Two Minute Papers",
-      "description": "快速了解扩散模型如何生成图像",
-      "duration": "5:20",
-      "views": "1.5M",
-      "platform": "youtube",
-      "video_id": "fbLgFrlTnGU",
-      "url": "https://www.youtube.com/watch?v=fbLgFrlTnGU",
-      "thumbnail": "https://img.youtube.com/vi/fbLgFrlTnGU/mqdefault.jpg",
-      "type": "lecture",
-      "category": "技术讲座",
-      "date": "2026-05-07"
+      "date": "2026-05-06"
     },
     {
       "title": "LoRA: 大模型高效微调技术",
@@ -75,20 +103,6 @@
       "date": "2026-05-06"
     },
     {
-      "title": "Stanford CS231n: 卷积神经网络",
-      "speaker": "Stanford",
-      "description": "斯坦福经典计算机视觉课程",
-      "duration": "8:45:20",
-      "views": "567K",
-      "platform": "youtube",
-      "video_id": "vT1JzLTH4G4",
-      "url": "https://www.youtube.com/watch?v=vT1JzLTH4G4",
-      "thumbnail": "https://img.youtube.com/vi/vT1JzLTH4G4/mqdefault.jpg",
-      "type": "course",
-      "category": "精品课程",
-      "date": "2026-05-06"
-    },
-    {
       "title": "GPT-4 技术原理解析",
       "speaker": "OpenAI",
       "description": "深入理解 GPT-4 的架构和训练方法",
@@ -101,20 +115,6 @@
       "type": "lecture",
       "category": "技术讲座",
       "date": "2026-05-06"
-    },
-    {
-      "title": "强化学习入门: Q-Learning",
-      "speaker": "Sentdex",
-      "description": "从零开始学习强化学习基础",
-      "duration": "15:30",
-      "views": "456K",
-      "platform": "youtube",
-      "video_id": "yMk_XtIEzH8",
-      "url": "https://www.youtube.com/watch?v=yMk_XtIEzH8",
-      "thumbnail": "https://img.youtube.com/vi/yMk_XtIEzH8/mqdefault.jpg",
-      "type": "tutorial",
-      "category": "AI教程",
-      "date": "2026-05-05"
     },
     {
       "title": "Fast.ai: 程序员深度学习实战",
@@ -145,18 +145,32 @@
       "date": "2026-05-05"
     },
     {
-      "title": "Transformer 注意力机制详解",
-      "speaker": "Yannic Kilcher",
-      "description": "深入解析 Transformer 架构的核心机制",
-      "duration": "32:15",
-      "views": "1.2M",
+      "title": "Diffusion 模型工作原理",
+      "speaker": "Two Minute Papers",
+      "description": "快速了解扩散模型如何生成图像",
+      "duration": "5:20",
+      "views": "1.5M",
       "platform": "youtube",
-      "video_id": "iDulhoQ2pro",
-      "url": "https://www.youtube.com/watch?v=iDulhoQ2pro",
-      "thumbnail": "https://img.youtube.com/vi/iDulhoQ2pro/mqdefault.jpg",
+      "video_id": "fbLgFrlTnGU",
+      "url": "https://www.youtube.com/watch?v=fbLgFrlTnGU",
+      "thumbnail": "https://img.youtube.com/vi/fbLgFrlTnGU/mqdefault.jpg",
       "type": "lecture",
       "category": "技术讲座",
       "date": "2026-05-04"
+    },
+    {
+      "title": "AI Agent 架构设计模式",
+      "speaker": "LangChain",
+      "description": "构建自主 AI 代理的最佳实践",
+      "duration": "42:20",
+      "views": "189K",
+      "platform": "youtube",
+      "video_id": "mFMBb8Xw6yQ",
+      "url": "https://www.youtube.com/watch?v=mFMBb8Xw6yQ",
+      "thumbnail": "https://img.youtube.com/vi/mFMBb8Xw6yQ/mqdefault.jpg",
+      "type": "tutorial",
+      "category": "AI教程",
+      "date": "2026-05-03"
     },
     {
       "title": "LLaMA 3 开源大模型解读",
@@ -173,17 +187,17 @@
       "date": "2026-05-03"
     },
     {
-      "title": "BERT 模型详解与应用",
-      "speaker": "Yannic Kilcher",
-      "description": "深入理解 BERT 预训练模型及其应用",
-      "duration": "28:45",
-      "views": "890K",
+      "title": "Stanford CS231n: 卷积神经网络",
+      "speaker": "Stanford",
+      "description": "斯坦福经典计算机视觉课程",
+      "duration": "8:45:20",
+      "views": "567K",
       "platform": "youtube",
-      "video_id": "xI0HHN5XKDo",
-      "url": "https://www.youtube.com/watch?v=xI0HHN5XKDo",
-      "thumbnail": "https://img.youtube.com/vi/xI0HHN5XKDo/mqdefault.jpg",
-      "type": "lecture",
-      "category": "技术讲座",
+      "video_id": "vT1JzLTH4G4",
+      "url": "https://www.youtube.com/watch?v=vT1JzLTH4G4",
+      "thumbnail": "https://img.youtube.com/vi/vT1JzLTH4G4/mqdefault.jpg",
+      "type": "course",
+      "category": "精品课程",
       "date": "2026-05-02"
     },
     {
@@ -214,20 +228,6 @@
       "type": "course",
       "category": "精品课程",
       "featured": true,
-      "date": "2026-05-02"
-    },
-    {
-      "title": "3Blue1Brown: 深度学习之神经网络",
-      "speaker": "3Blue1Brown",
-      "description": "用精美动画解释神经网络的工作原理",
-      "duration": "19:15",
-      "views": "3.1M",
-      "platform": "youtube",
-      "video_id": "aircAruvnKk",
-      "url": "https://www.youtube.com/watch?v=aircAruvnKk",
-      "thumbnail": "https://img.youtube.com/vi/aircAruvnKk/mqdefault.jpg",
-      "type": "lecture",
-      "category": "技术讲座",
       "date": "2026-05-02"
     },
     {
