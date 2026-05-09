@@ -8,18 +8,6 @@
       "count": 5,
       "items": [
         {
-          "title": "Markdown Content:",
-          "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-          "summary": "Markdown Content:...",
-          "date": "2026-05-08",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
           "title": "直播预约 | 数据引擎：具身智能的下一个决胜局",
           "link": "https://www.jiqizhixin.com/search/articles/直播预约 | 数据引擎：具身智",
           "summary": "直播预约 | 数据引擎：具身智能的下一个决胜局...",
@@ -56,11 +44,23 @@
           ]
         },
         {
-          "title": "OpenAI官方CLI上线，跟复杂的SDK说拜拜",
-          "link": "https://www.jiqizhixin.com/search/articles/OpenAI官方CLI上线，跟",
-          "summary": "OpenAI官方CLI上线，跟复杂的SDK说拜拜...",
-          "date": "2026-05-08",
-          "source": "机器之心",
+          "title": "搜索、知识、Agent 能力全面提升",
+          "link": "https://www.qbitai.com/?s=搜索、知识、Agen",
+          "summary": "搜索、知识、Agent 能力全面提升...",
+          "date": "2026-05-09",
+          "source": "量子位",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "智会心研面向个人用户免费开放高级检索与 AI 深度分析核心功能，涵盖专利 AI 检索、AI 伴读、图表分析及多智能体协作，助力研发与情报分析高效完成，降低技术创新门槛。",
+          "link": "https://www.qbitai.com/?s=智会心研面向个人用户",
+          "summary": "智会心研面向个人用户免费开放高级检索与 AI 深度分析核心功能，涵盖专利 AI 检索、AI 伴读、图表分析及多智能体协作，助力研发与情报分析高效完成，降低技术创...",
+          "date": "2026-05-09",
+          "source": "量子位",
           "type": "industry",
           "tags": [
             "AI",

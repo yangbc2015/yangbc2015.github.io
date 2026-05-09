@@ -1,9 +1,45 @@
 {
   "last_updated": "2026-05-09",
   "count": 200,
-  "history_count": 200,
+  "history_count": 203,
   "retention_days": 30,
   "items": [
+    {
+      "title": "搜索、知识、Agent 能力全面提升",
+      "link": "https://www.qbitai.com/?s=搜索、知识、Agen",
+      "summary": "搜索、知识、Agent 能力全面提升...",
+      "date": "2026-05-09",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "智会心研面向个人用户免费开放高级检索与 AI 深度分析核心功能，涵盖专利 AI 检索、AI 伴读、图表分析及多智能体协作，助力研发与情报分析高效完成，降低技术创新门槛。",
+      "link": "https://www.qbitai.com/?s=智会心研面向个人用户",
+      "summary": "智会心研面向个人用户免费开放高级检索与 AI 深度分析核心功能，涵盖专利 AI 检索、AI 伴读、图表分析及多智能体协作，助力研发与情报分析高效完成，降低技术创...",
+      "date": "2026-05-09",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "如果最终落地，这会是中国大模型公司有史以来最大的一轮融资",
+      "link": "https://www.qbitai.com/?s=如果最终落地，这会是",
+      "summary": "如果最终落地，这会是中国大模型公司有史以来最大的一轮融资...",
+      "date": "2026-05-09",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
     {
       "title": "Mac上就能本地跑deepseek",
       "link": "https://www.qbitai.com/?s=Mac上就能本地跑d",
@@ -77,18 +113,6 @@
       ]
     },
     {
-      "title": "Markdown Content:",
-      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-      "summary": "Markdown Content:...",
-      "date": "2026-05-08",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
       "title": "直播预约 | 数据引擎：具身智能的下一个决胜局",
       "link": "https://www.jiqizhixin.com/search/articles/直播预约 | 数据引擎：具身智",
       "summary": "直播预约 | 数据引擎：具身智能的下一个决胜局...",
@@ -116,6 +140,18 @@
       "title": "拿下1亿美元种子轮！SGLang团队创立RadixArk，打造下一代开放AI基础设施",
       "link": "https://www.jiqizhixin.com/search/articles/拿下1亿美元种子轮！SGLan",
       "summary": "拿下1亿美元种子轮！SGLang团队创立RadixArk，打造下一代开放AI基础设施...",
+      "date": "2026-05-08",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "Markdown Content:",
+      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+      "summary": "Markdown Content:...",
       "date": "2026-05-08",
       "source": "机器之心",
       "type": "industry",
@@ -2360,42 +2396,6 @@
       "title": "上海交大DENG Lab提出「LatentUM」：Unified Model的真正「战场」在视觉推理与世界模型",
       "link": "https://www.jiqizhixin.com/search/articles/上海交大DENG Lab提出「",
       "summary": "上海交大DENG Lab提出「LatentUM」：Unified Model的真正「战场」在视觉推理与世界模型...",
-      "date": "2026-04-13",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "荣耀发布自研龙虾AI智能体YOYO Claw技术 开创“养虾本”新品类",
-      "link": "https://www.jiqizhixin.com/search/articles/荣耀发布自研龙虾AI智能体YO",
-      "summary": "荣耀发布自研龙虾AI智能体YOYO Claw技术 开创“养虾本”新品类...",
-      "date": "2026-04-13",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "13 个榜单 SOTA！明略科技正式开源GUI-VLA 模型Mano-P 1.0",
-      "link": "https://www.jiqizhixin.com/search/articles/13 个榜单 SOTA！明略科",
-      "summary": "13 个榜单 SOTA！明略科技正式开源GUI-VLA 模型Mano-P 1.0...",
-      "date": "2026-04-13",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "全球第一，13个SOTA！我们找到了龙虾界掌管GUI的神",
-      "link": "https://www.jiqizhixin.com/search/articles/全球第一，13个SOTA！我们",
-      "summary": "全球第一，13个SOTA！我们找到了龙虾界掌管GUI的神...",
       "date": "2026-04-13",
       "source": "机器之心",
       "type": "industry",
