@@ -1,7 +1,7 @@
 {
   "last_updated": "2026-05-10",
   "count": 200,
-  "history_count": 200,
+  "history_count": 201,
   "retention_days": 30,
   "items": [
     {
@@ -77,18 +77,6 @@
       ]
     },
     {
-      "title": "Markdown Content:",
-      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-      "summary": "Markdown Content:...",
-      "date": "2026-05-09",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
       "title": "神仙打架的2026，我们到底该看什么？CVPR线下分享会即将开启",
       "link": "https://www.jiqizhixin.com/search/articles/神仙打架的2026，我们到底该",
       "summary": "神仙打架的2026，我们到底该看什么？CVPR线下分享会即将开启...",
@@ -140,6 +128,30 @@
       "title": "波士顿动力和谷歌DeepMind为机器人带来具身AI推理",
       "link": "https://www.jiqizhixin.com/search/articles/波士顿动力和谷歌DeepMin",
       "summary": "波士顿动力和谷歌DeepMind为机器人带来具身AI推理...",
+      "date": "2026-05-09",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "OpenAI翁家翌：梯度之外，下一个AI训练范式有着落了？",
+      "link": "https://www.jiqizhixin.com/search/articles/OpenAI翁家翌：梯度之外，",
+      "summary": "OpenAI翁家翌：梯度之外，下一个AI训练范式有着落了？...",
+      "date": "2026-05-09",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "Markdown Content:",
+      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+      "summary": "Markdown Content:...",
       "date": "2026-05-09",
       "source": "机器之心",
       "type": "industry",
@@ -2386,18 +2398,6 @@
       "summary": "概念来自字节Seed团队与多个高校合作的一篇论文，Yoshua Bengio也参与其中...",
       "date": "2026-04-15",
       "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "速来！巴西不仅有足球，也有蚂蚁的ICLR 2026学术派对",
-      "link": "https://www.jiqizhixin.com/search/articles/速来！巴西不仅有足球，也有蚂蚁",
-      "summary": "速来！巴西不仅有足球，也有蚂蚁的ICLR 2026学术派对...",
-      "date": "2026-04-14",
-      "source": "机器之心",
       "type": "industry",
       "tags": [
         "AI",
