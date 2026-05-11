@@ -3,6 +3,18 @@
   "count": 200,
   "items": [
     {
+      "title": "[从机器人马拉松破纪录，看中国 具 身 智 能",
+      "summary": "[从机器人马拉松破纪录，看中国 具 身 智 能",
+      "url": "http://36kr.com/p/3778896668439299",
+      "date": "2026-05-11",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
       "title": "Figure AI发布新一代人形机器人Figure 02，具备更强的自主学习能力",
       "summary": "Figure AI发布新一代人形机器人Figure 02，搭载最新视觉-语言-动作(VLA)模型，在工厂和仓储场景实现更高水平的自主操作。",
       "url": "https://www.figure.ai",
@@ -89,15 +101,83 @@
       ]
     },
     {
-      "title": "[从机器人马拉松破纪录，看中国 具 身 智 能",
-      "summary": "[从机器人马拉松破纪录，看中国 具 身 智 能",
-      "url": "http://36kr.com/p/3778896668439299",
-      "date": "2026-05-09",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
+      "title": "123D: Unifying Multi-Modal Autonomous Driving Data at Scale",
+      "summary": "The pursuit of autonomous driving has produced one of the richest sensor data collections in all of robotics. However, its scale and diversity remain largely untapped. Each dataset adopts different 2D and 3D modalities, such as cameras, lidar, ego st...",
+      "url": "https://arxiv.org/abs/2605.08084v1",
+      "date": "2026-05-08",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2605.08084v1",
+      "authors": "Daniel Dauner, Valentin Charraut et al.",
       "tags": [
-        "机器人"
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "6D Pose Estimation via Keypoint Heatmap Regression with RGB-D Residual Neural Networks",
+      "summary": "In this paper, we propose a modular framework for 6D pose estimation based on keypoint heatmap regression. Our approach combines YOLOv10m for object detection with a ResNet18-based network that predicts 2D heatmaps from RGB images. Keypoints extracte...",
+      "url": "https://arxiv.org/abs/2605.08059v1",
+      "date": "2026-05-08",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2605.08059v1",
+      "authors": "Ismail Aljosevic, Amir Masoud Almasi et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Active Embodiment Identification with Reinforcement Learning for Legged Robots",
+      "summary": "We present an active embodiment identification method for legged robots that jointly learns information-seeking behavior and explicit embodiment prediction. Using a history-augmented URMA architecture, the method infers joint-level and global embodim...",
+      "url": "https://arxiv.org/abs/2605.08020v1",
+      "date": "2026-05-08",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2605.08020v1",
+      "authors": "Nico Bohlinger, Jan Peters",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Evaluation of an Actuated Spine in Agile Quadruped Locomotion",
+      "summary": "The spine plays a crucial role in the dynamic locomotion of quadrupedal animals, improving the stability, speed, and efficiency of their gait, especially for fast-paced and highly agile movements. Therefore, the spine is also a promising and natural ...",
+      "url": "https://arxiv.org/abs/2605.07988v1",
+      "date": "2026-05-08",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2605.07988v1",
+      "authors": "Nico Bohlinger, Piotr Kicki et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "TAVIS: A Benchmark for Egocentric Active Vision and Anticipatory Gaze in Imitation Learning",
+      "summary": "Active vision -- where a policy controls its own gaze during manipulation -- has emerged as a key capability for imitation learning, with multiple independent systems demonstrating its benefits in the past year. Yet there is no shared benchmark to co...",
+      "url": "https://arxiv.org/abs/2605.07943v1",
+      "date": "2026-05-08",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2605.07943v1",
+      "authors": "Giacomo Spigler",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
       ]
     },
     {
@@ -3005,83 +3085,6 @@
       "type": "paper",
       "arxiv_id": "2603.26612v1",
       "authors": "Hazim Alzorgan, Sayed Pedram Haeri Boroujeni et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "甜心皮皮6个月破百店，具身智能茶饮反周期增长",
-      "summary": "甜心皮皮6个月破百店，具身智能茶饮反周期增长",
-      "url": "http://36kr.com/p/3739675732836610",
-      "date": "2026-03-26",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "Vega: Learning to Drive with Natural Language Instructions",
-      "summary": "Vision-language-action models have reshaped autonomous driving to incorporate languages into the decision-making process. However, most existing pipelines only utilize the language modality for scene descriptions or reasoning and lack the flexibility...",
-      "url": "https://arxiv.org/abs/2603.25741v1",
-      "date": "2026-03-26",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2603.25741v1",
-      "authors": "Sicheng Zuo, Yuxuan Li et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Drive My Way: Preference Alignment of Vision-Language-Action Model for Personalized Driving",
-      "summary": "Human driving behavior is inherently personal, which is shaped by long-term habits and influenced by short-term intentions. Individuals differ in how they accelerate, brake, merge, yield, and overtake across diverse situations. However, existing end-...",
-      "url": "https://arxiv.org/abs/2603.25740v1",
-      "date": "2026-03-26",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2603.25740v1",
-      "authors": "Zehao Wang, Huaide Jiang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "SoftMimicGen: A Data Generation System for Scalable Robot Learning in Deformable Object Manipulation",
-      "summary": "Large-scale robot datasets have facilitated the learning of a wide range of robot manipulation skills, but these datasets remain difficult to collect and scale further, owing to the intractable amount of human time, effort, and cost required. Simulat...",
-      "url": "https://arxiv.org/abs/2603.25725v1",
-      "date": "2026-03-26",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2603.25725v1",
-      "authors": "Masoud Moghani, Mahdi Azizian et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Intelligent Navigation and Obstacle-Aware Fabrication for Mobile Additive Manufacturing Systems",
-      "summary": "As the demand for mass customization increases, manufacturing systems must become more flexible and adaptable to produce personalized products efficiently. Additive manufacturing (AM) enhances production adaptability by enabling on-demand fabrication...",
-      "url": "https://arxiv.org/abs/2603.25688v1",
-      "date": "2026-03-26",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2603.25688v1",
-      "authors": "Yifei Li, Ruizhe Fu et al.",
       "tags": [
         "机器人学习",
         "研究论文",
