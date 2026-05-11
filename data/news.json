@@ -1,9 +1,33 @@
 {
   "last_updated": "2026-05-11",
   "count": 200,
-  "history_count": 200,
+  "history_count": 203,
   "retention_days": 30,
   "items": [
+    {
+      "title": "自曝创业至暗时刻，飞日本求世嘉CEO救命",
+      "link": "https://www.qbitai.com/?s=自曝创业至暗时刻，飞",
+      "summary": "自曝创业至暗时刻，飞日本求世嘉CEO救命...",
+      "date": "2026-05-11",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "真正学会了在隐空间里进行“物理思考”",
+      "link": "https://www.qbitai.com/?s=真正学会了在隐空间里",
+      "summary": "真正学会了在隐空间里进行“物理思考”...",
+      "date": "2026-05-11",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
     {
       "title": "围绕电力交易、能源调度、智能预测与决策等场景探索AI应用落地",
       "link": "https://www.qbitai.com/?s=围绕电力交易、能源调",
@@ -77,18 +101,6 @@
       ]
     },
     {
-      "title": "Markdown Content:",
-      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-      "summary": "Markdown Content:...",
-      "date": "2026-05-10",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
       "title": "具身智能来时路：谷歌RT1、2，SayCan作者Ted Xiao复盘机器人学习三大时代",
       "link": "https://www.jiqizhixin.com/search/articles/具身智能来时路：谷歌RT1、2",
       "summary": "具身智能来时路：谷歌RT1、2，SayCan作者Ted Xiao复盘机器人学习三大时代...",
@@ -140,6 +152,30 @@
       "title": "别再把长文切碎了，HiLight让AI直接在原文里划重点",
       "link": "https://www.jiqizhixin.com/search/articles/别再把长文切碎了，HiLigh",
       "summary": "别再把长文切碎了，HiLight让AI直接在原文里划重点...",
+      "date": "2026-05-10",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "业界首个视觉世界模型综述：迈向更高智能的视觉范式",
+      "link": "https://www.jiqizhixin.com/search/articles/业界首个视觉世界模型综述：迈向",
+      "summary": "业界首个视觉世界模型综述：迈向更高智能的视觉范式...",
+      "date": "2026-05-10",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "Markdown Content:",
+      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+      "summary": "Markdown Content:...",
       "date": "2026-05-10",
       "source": "机器之心",
       "type": "industry",
@@ -2360,42 +2396,6 @@
       "title": "阿里ATH发布AI开发工具Meoo，可一键开发一键部署",
       "link": "https://www.jiqizhixin.com/search/articles/阿里ATH发布AI开发工具Me",
       "summary": "阿里ATH发布AI开发工具Meoo，可一键开发一键部署...",
-      "date": "2026-04-15",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "构建跨越时空的微观实验室：KIMMDY 仿真器实现秒级生物化学反应的动态模拟",
-      "link": "https://www.jiqizhixin.com/search/articles/构建跨越时空的微观实验室：KI",
-      "summary": "构建跨越时空的微观实验室：KIMMDY 仿真器实现秒级生物化学反应的动态模拟...",
-      "date": "2026-04-15",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "实测参考生之王Vidu Q3：这已经不叫AI生成了，这叫AI驱动整个剧组",
-      "link": "https://www.jiqizhixin.com/search/articles/实测参考生之王Vidu Q3：",
-      "summary": "实测参考生之王Vidu Q3：这已经不叫AI生成了，这叫AI驱动整个剧组...",
-      "date": "2026-04-15",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "刚刚，李飞飞世界模型开源了个渲染神器",
-      "link": "https://www.jiqizhixin.com/search/articles/刚刚，李飞飞世界模型开源了个渲",
-      "summary": "刚刚，李飞飞世界模型开源了个渲染神器...",
       "date": "2026-04-15",
       "source": "机器之心",
       "type": "industry",

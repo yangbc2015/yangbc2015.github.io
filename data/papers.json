@@ -1,85 +1,16 @@
 {
   "last_updated": "2026-05-11",
-  "count": 7,
+  "count": 4,
   "items": [
     {
-      "title": "ActCam: Zero-Shot Joint Camera and 3D Motion Control for Video Generation",
-      "authors": "Omar El Khalifi, Thomas Rossi, Oscar Fossey et al.",
-      "abstract": "For artistic applications, video generation requires fine-grained control over both performance and cinematography, i.e., the actor's motion and the camera trajectory. We present ActCam, a zero-shot method for video generation that jointly transfers character motion from a driving video into a new s...",
+      "title": "EmambaIR: Efficient Visual State Space Model for Event-guided Image Reconstruction",
+      "authors": "Wei Yu, Yunhang Qian",
+      "abstract": "Recent event-based image reconstruction methods predominantly rely on Convolutional Neural Networks (CNNs) and Vision Transformers (ViTs) to process complementary event information. However, these architectures face fundamental limitations: CNNs often fail to capture global feature correlations, whe...",
       "venue": "arXiv",
-      "date": "2026-05-07",
-      "arxiv_id": "2605.06667v1",
-      "url": "https://arxiv.org/abs/2605.06667v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.06667v1.pdf",
-      "categories": [
-        "cs.CV",
-        "cs.AI",
-        "cs.LG"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "UniPool: A Globally Shared Expert Pool for Mixture-of-Experts",
-      "authors": "Minbin Huang, Han Shi, Chuanyang Zheng et al.",
-      "abstract": "Modern Mixture-of-Experts (MoE) architectures allocate expert capacity through a rigid per-layer rule: each transformer layer owns a separate expert set. This convention couples depth scaling with linear expert-parameter growth and assumes that every layer needs isolated expert capacity. However, re...",
-      "venue": "arXiv",
-      "date": "2026-05-07",
-      "arxiv_id": "2605.06665v1",
-      "url": "https://arxiv.org/abs/2605.06665v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.06665v1.pdf",
-      "categories": [
-        "cs.LG",
-        "cs.AI"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "EMO: Pretraining Mixture of Experts for Emergent Modularity",
-      "authors": "Ryan Wang, Akshita Bhagia, Sewon Min",
-      "abstract": "Large language models are typically deployed as monolithic systems, requiring the full model even when applications need only a narrow subset of capabilities, e.g., code, math, or domain-specific knowledge. Mixture-of-Experts (MoEs) seemingly offer a potential alternative by activating only a subset...",
-      "venue": "arXiv",
-      "date": "2026-05-07",
-      "arxiv_id": "2605.06663v1",
-      "url": "https://arxiv.org/abs/2605.06663v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.06663v1.pdf",
-      "categories": [
-        "cs.CL"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Verifier-Backed Hard Problem Generation for Mathematical Reasoning",
-      "authors": "Yuhang Lai, Jiazhan Feng, Yee Whye Teh et al.",
-      "abstract": "Large Language Models (LLMs) demonstrate strong capabilities for solving scientific and mathematical problems, yet they struggle to produce valid, challenging, and novel problems - an essential component for advancing LLM training and enabling autonomous scientific research. Existing problem generat...",
-      "venue": "arXiv",
-      "date": "2026-05-07",
-      "arxiv_id": "2605.06660v1",
-      "url": "https://arxiv.org/abs/2605.06660v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.06660v1.pdf",
-      "categories": [
-        "cs.LG",
-        "cs.AI",
-        "cs.CL"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "BAMI: Training-Free Bias Mitigation in GUI Grounding",
-      "authors": "Borui Zhang, Bo Zhang, Bo Wang et al.",
-      "abstract": "GUI grounding is a critical capability for enabling GUI agents to execute tasks such as clicking and dragging. However, in complex scenarios like the ScreenSpot-Pro benchmark, existing models often suffer from suboptimal performance. Utilizing the proposed \\textbf{Masked Prediction Distribution (MPD...",
-      "venue": "arXiv",
-      "date": "2026-05-07",
-      "arxiv_id": "2605.06664v1",
-      "url": "https://arxiv.org/abs/2605.06664v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.06664v1.pdf",
+      "date": "2026-05-08",
+      "arxiv_id": "2605.08073v1",
+      "url": "https://arxiv.org/abs/2605.08073v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.08073v1.pdf",
       "categories": [
         "cs.CV",
         "cs.AI"
@@ -89,36 +20,52 @@
       "source": "arXiv"
     },
     {
-      "title": "Multi-Robot Coordination in V2X Environments",
-      "authors": "John Pravin Arockiasamy, Alexey Vinel",
-      "abstract": "This paper presents a Vehicle-to-Everything (V2X) communication framework that enables decentralized cooperation among social robots operating in complex urban traffic environments. Building on ETSI Cooperative Awareness and Maneuver Coordination services, the framework introduces two robot-centric ...",
+      "title": "VecCISC: Improving Confidence-Informed Self-Consistency with Reasoning Trace Clustering and Candidate Answer Selection",
+      "authors": "James Petullo, Sonny George, Dylan Cashman et al.",
+      "abstract": "A standard technique for scaling inference-time reasoning is Self-Consistency, whereby multiple candidate answers are sampled from an LLM and the most common answer is selected. More recently, it has been shown that weighted majority voting (e.g. Confidence-Informed Self Consistency (CISC)), which a...",
       "venue": "arXiv",
-      "date": "2026-05-07",
-      "arxiv_id": "2605.06662v1",
-      "url": "https://arxiv.org/abs/2605.06662v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.06662v1.pdf",
+      "date": "2026-05-08",
+      "arxiv_id": "2605.08070v1",
+      "url": "https://arxiv.org/abs/2605.08070v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.08070v1.pdf",
       "categories": [
-        "cs.RO"
+        "cs.AI"
       ],
       "type": "ai",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Cross-Modal Navigation with Multi-Agent Reinforcement Learning",
-      "authors": "Shuo Liu, Xinzichen Li, Christopher Amato",
-      "abstract": "Robust embodied navigation relies on complementary sensory cues. However, high-quality and well-aligned multi-modal data is often difficult to obtain in practice. Training a monolithic model is also challenging as rich multi-modal inputs induce complex representations and substantially enlarge the p...",
+      "title": "123D: Unifying Multi-Modal Autonomous Driving Data at Scale",
+      "authors": "Daniel Dauner, Valentin Charraut, Bastian Berle et al.",
+      "abstract": "The pursuit of autonomous driving has produced one of the richest sensor data collections in all of robotics. However, its scale and diversity remain largely untapped. Each dataset adopts different 2D and 3D modalities, such as cameras, lidar, ego states, annotations, traffic lights, and HD maps, wi...",
       "venue": "arXiv",
-      "date": "2026-05-07",
-      "arxiv_id": "2605.06595v1",
-      "url": "https://arxiv.org/abs/2605.06595v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.06595v1.pdf",
+      "date": "2026-05-08",
+      "arxiv_id": "2605.08084v1",
+      "url": "https://arxiv.org/abs/2605.08084v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.08084v1.pdf",
       "categories": [
         "cs.RO",
-        "cs.AI",
+        "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Normalizing Trajectory Models",
+      "authors": "Jiatao Gu, Tianrong Chen, Ying Shen et al.",
+      "abstract": "Diffusion-based models decompose sampling into many small Gaussian denoising steps -- an assumption that breaks down when generation is compressed to a few coarse transitions. Existing few-step methods address this through distillation, consistency training, or adversarial objectives, but sacrifice ...",
+      "venue": "arXiv",
+      "date": "2026-05-08",
+      "arxiv_id": "2605.08078v1",
+      "url": "https://arxiv.org/abs/2605.08078v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.08078v1.pdf",
+      "categories": [
+        "cs.CV",
         "cs.LG"
       ],
-      "type": "ml",
+      "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     }
