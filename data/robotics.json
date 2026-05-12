@@ -3,6 +3,18 @@
   "count": 200,
   "items": [
     {
+      "title": "[从机器人马拉松破纪录，看中国 具 身 智 能",
+      "summary": "[从机器人马拉松破纪录，看中国 具 身 智 能",
+      "url": "http://36kr.com/p/3778896668439299",
+      "date": "2026-05-12",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
       "title": "HarmoWAM: Harmonizing Generalizable and Precise Manipulation via Adaptive World Action Models",
       "summary": "World Action Models (WAMs) have emerged as a promising paradigm for robot control by modeling physical dynamics. Current WAMs generally follow two paradigms: the \"Imagine-then-Execute\" approach, which uses video prediction to infer actions via invers...",
       "url": "https://arxiv.org/abs/2605.10942v1",
@@ -80,18 +92,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "[从机器人马拉松破纪录，看中国 具 身 智 能",
-      "summary": "[从机器人马拉松破纪录，看中国 具 身 智 能",
-      "url": "http://36kr.com/p/3778896668439299",
-      "date": "2026-05-11",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
       ]
     },
     {

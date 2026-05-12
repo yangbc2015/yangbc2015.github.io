@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-05-12",
-  "count": 5,
+  "count": 6,
   "items": [
     {
       "title": "ELF: Embedded Language Flows",
@@ -84,6 +84,22 @@
         "cs.CV"
       ],
       "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "HarmoWAM: Harmonizing Generalizable and Precise Manipulation via Adaptive World Action Models",
+      "authors": "Qiuxuan Feng, Jiale Yu, Jiaming Liu et al.",
+      "abstract": "World Action Models (WAMs) have emerged as a promising paradigm for robot control by modeling physical dynamics. Current WAMs generally follow two paradigms: the \"Imagine-then-Execute\" approach, which uses video prediction to infer actions via inverse dynamics, and the \"Joint Modeling\" approach, whi...",
+      "venue": "arXiv",
+      "date": "2026-05-11",
+      "arxiv_id": "2605.10942v1",
+      "url": "https://arxiv.org/abs/2605.10942v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.10942v1.pdf",
+      "categories": [
+        "cs.RO"
+      ],
+      "type": "ai",
       "badge": "arxiv",
       "source": "arXiv"
     }
