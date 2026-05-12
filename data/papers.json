@@ -1,83 +1,37 @@
 {
   "last_updated": "2026-05-12",
-  "count": 8,
+  "count": 5,
   "items": [
     {
-      "title": "EmambaIR: Efficient Visual State Space Model for Event-guided Image Reconstruction",
-      "authors": "Wei Yu, Yunhang Qian",
-      "abstract": "Recent event-based image reconstruction methods predominantly rely on Convolutional Neural Networks (CNNs) and Vision Transformers (ViTs) to process complementary event information. However, these architectures face fundamental limitations: CNNs often fail to capture global feature correlations, whe...",
+      "title": "ELF: Embedded Language Flows",
+      "authors": "Keya Hu, Linlu Qiu, Yiyang Lu et al.",
+      "abstract": "Diffusion and flow-based models have become the de facto approaches for generating continuous data, e.g., in domains such as images and videos. Their success has attracted growing interest in applying them to language modeling. Unlike their image-domain counterparts, today's leading diffusion langua...",
       "venue": "arXiv",
-      "date": "2026-05-08",
-      "arxiv_id": "2605.08073v1",
-      "url": "https://arxiv.org/abs/2605.08073v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.08073v1.pdf",
+      "date": "2026-05-11",
+      "arxiv_id": "2605.10938v1",
+      "url": "https://arxiv.org/abs/2605.10938v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.10938v1.pdf",
       "categories": [
-        "cs.CV",
-        "cs.AI"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "VecCISC: Improving Confidence-Informed Self-Consistency with Reasoning Trace Clustering and Candidate Answer Selection",
-      "authors": "James Petullo, Sonny George, Dylan Cashman et al.",
-      "abstract": "A standard technique for scaling inference-time reasoning is Self-Consistency, whereby multiple candidate answers are sampled from an LLM and the most common answer is selected. More recently, it has been shown that weighted majority voting (e.g. Confidence-Informed Self Consistency (CISC)), which a...",
-      "venue": "arXiv",
-      "date": "2026-05-08",
-      "arxiv_id": "2605.08070v1",
-      "url": "https://arxiv.org/abs/2605.08070v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.08070v1.pdf",
-      "categories": [
-        "cs.AI"
-      ],
-      "type": "ai",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "LLMs Improving LLMs: Agentic Discovery for Test-Time Scaling",
-      "authors": "Tong Zheng, Haolin Liu, Chengsong Huang et al.",
-      "abstract": "Test-time scaling (TTS) has become an effective approach for improving large language model performance by allocating additional computation during inference. However, existing TTS strategies are largely hand-crafted: researchers manually design reasoning patterns and tune heuristics by intuition, l...",
-      "venue": "arXiv",
-      "date": "2026-05-08",
-      "arxiv_id": "2605.08083v1",
-      "url": "https://arxiv.org/abs/2605.08083v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.08083v1.pdf",
-      "categories": [
-        "cs.CL"
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
       ],
       "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Conformal Path Reasoning: Trustworthy Knowledge Graph Question Answering via Path-Level Calibration",
-      "authors": "Shuhang Lin, Chuhao Zhou, Xiao Lin et al.",
-      "abstract": "Knowledge Graph Question Answering (KGQA) has shown promise for grounded and interpretable reasoning, yet existing approaches often fail to provide reliable coverage guarantees over retrieved answers. While Conformal Prediction (CP) offers a principled framework for producing prediction sets with st...",
+      "title": "Variational Inference for Lévy Process-Driven SDEs via Neural Tilting",
+      "authors": "Yaman Kindap, Manfred Opper, Benjamin Dupuis et al.",
+      "abstract": "Modelling extreme events and heavy-tailed phenomena is central to building reliable predictive systems in domains such as finance, climate science, and safety-critical AI. While Lévy processes provide a natural mathematical framework for capturing jumps and heavy tails, Bayesian inference for Lévy-d...",
       "venue": "arXiv",
-      "date": "2026-05-08",
-      "arxiv_id": "2605.08077v1",
-      "url": "https://arxiv.org/abs/2605.08077v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.08077v1.pdf",
+      "date": "2026-05-11",
+      "arxiv_id": "2605.10934v1",
+      "url": "https://arxiv.org/abs/2605.10934v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.10934v1.pdf",
       "categories": [
-        "cs.CL"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "123D: Unifying Multi-Modal Autonomous Driving Data at Scale",
-      "authors": "Daniel Dauner, Valentin Charraut, Bastian Berle et al.",
-      "abstract": "The pursuit of autonomous driving has produced one of the richest sensor data collections in all of robotics. However, its scale and diversity remain largely untapped. Each dataset adopts different 2D and 3D modalities, such as cameras, lidar, ego states, annotations, traffic lights, and HD maps, wi...",
-      "venue": "arXiv",
-      "date": "2026-05-08",
-      "arxiv_id": "2605.08084v1",
-      "url": "https://arxiv.org/abs/2605.08084v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.08084v1.pdf",
-      "categories": [
-        "cs.RO",
+        "cs.LG",
+        "cs.AI",
         "cs.CV"
       ],
       "type": "vision",
@@ -85,53 +39,51 @@
       "source": "arXiv"
     },
     {
-      "title": "Normalizing Trajectory Models",
-      "authors": "Jiatao Gu, Tianrong Chen, Ying Shen et al.",
-      "abstract": "Diffusion-based models decompose sampling into many small Gaussian denoising steps -- an assumption that breaks down when generation is compressed to a few coarse transitions. Existing few-step methods address this through distillation, consistency training, or adversarial objectives, but sacrifice ...",
+      "title": "DECO: Sparse Mixture-of-Experts with Dense-Comparable Performance on End-Side Devices",
+      "authors": "Chenyang Song, Weilin Zhao, Xu Han et al.",
+      "abstract": "While Mixture-of-Experts (MoE) scales model capacity without proportionally increasing computation, its massive total parameter footprint creates significant storage and memory-access bottlenecks, which hinder efficient end-side deployment that simultaneously requires high performance, low computati...",
       "venue": "arXiv",
-      "date": "2026-05-08",
-      "arxiv_id": "2605.08078v1",
-      "url": "https://arxiv.org/abs/2605.08078v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.08078v1.pdf",
-      "categories": [
-        "cs.CV",
-        "cs.LG"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Zero-Shot Imagined Speech Decoding via Imagined-to-Listened MEG Mapping",
-      "authors": "Maryam Maghsoudi, Shihab Shamma",
-      "abstract": "Decoding imagined speech from non-invasive brain recordings is challenging because imagined datasets are scarce and difficult to align temporally across subjects and sessions In this work, we propose a new approach to the decoding of imagined speech that leverages the richer and more reliably labele...",
-      "venue": "arXiv",
-      "date": "2026-05-08",
-      "arxiv_id": "2605.08075v1",
-      "url": "https://arxiv.org/abs/2605.08075v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.08075v1.pdf",
+      "date": "2026-05-11",
+      "arxiv_id": "2605.10933v1",
+      "url": "https://arxiv.org/abs/2605.10933v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.10933v1.pdf",
       "categories": [
         "cs.LG",
-        "eess.AS"
+        "cs.CL"
       ],
-      "type": "ml",
+      "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "6D Pose Estimation via Keypoint Heatmap Regression with RGB-D Residual Neural Networks",
-      "authors": "Ismail Aljosevic, Amir Masoud Almasi, Ana Parovic et al.",
-      "abstract": "In this paper, we propose a modular framework for 6D pose estimation based on keypoint heatmap regression. Our approach combines YOLOv10m for object detection with a ResNet18-based network that predicts 2D heatmaps from RGB images. Keypoints extracted from these heatmaps are used to estimate the 6D ...",
+      "title": "Power Reinforcement Post-Training of Text-to-Image Models with Super-Linear Advantage Shaping",
+      "authors": "Haoyuan Sun, Jing Wang, Yuxin Song et al.",
+      "abstract": "Recently, post-training methods based on reinforcement learning, with a particular focus on Group Relative Policy Optimization (GRPO), have emerged as the robust paradigm for further advancement of text-to-image (T2I) models. However, these methods are often prone to reward hacking, wherein models e...",
       "venue": "arXiv",
-      "date": "2026-05-08",
-      "arxiv_id": "2605.08059v1",
-      "url": "https://arxiv.org/abs/2605.08059v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.08059v1.pdf",
+      "date": "2026-05-11",
+      "arxiv_id": "2605.10937v1",
+      "url": "https://arxiv.org/abs/2605.10937v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.10937v1.pdf",
       "categories": [
-        "cs.CV",
-        "cs.RO"
+        "cs.CV"
       ],
-      "type": "vision",
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Personal Visual Context Learning in Large Multimodal Models",
+      "authors": "Zihui Xue, Ami Baid, Sangho Kim et al.",
+      "abstract": "As wearable devices like smart glasses integrate Large Multimodal Models (LMMs) into the continuous first-person visual streams of individual users, the evolution of these models into true personal assistants hinges on visual personalization: the ability to reason over visual information unique to t...",
+      "venue": "arXiv",
+      "date": "2026-05-11",
+      "arxiv_id": "2605.10936v1",
+      "url": "https://arxiv.org/abs/2605.10936v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.10936v1.pdf",
+      "categories": [
+        "cs.CV"
+      ],
+      "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     }
