@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-05-12",
+  "last_updated": "2026-05-13",
   "count": 200,
-  "history_count": 200,
+  "history_count": 205,
   "retention_days": 30,
   "items": [
     {
       "title": "打造“一人多面”的具身智能便利店",
       "link": "https://www.qbitai.com/?s=打造“一人多面”的具",
       "summary": "打造“一人多面”的具身智能便利店...",
-      "date": "2026-05-12",
+      "date": "2026-05-13",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -20,7 +20,7 @@
       "title": "OpenClaw 不缺掌声了，它缺的是一个能长期生长的硬件生态。",
       "link": "https://www.qbitai.com/?s=OpenClaw 不",
       "summary": "OpenClaw 不缺掌声了，它缺的是一个能长期生长的硬件生态。...",
-      "date": "2026-05-12",
+      "date": "2026-05-13",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -32,7 +32,7 @@
       "title": "快手，可能要亲手拆出第二家“快手”了。",
       "link": "https://www.qbitai.com/?s=快手，可能要亲手拆出",
       "summary": "快手，可能要亲手拆出第二家“快手”了。...",
-      "date": "2026-05-12",
+      "date": "2026-05-13",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -44,7 +44,7 @@
       "title": "让AI agent看到屏幕，也能操作鼠标键盘",
       "link": "https://www.qbitai.com/?s=让AI agent看",
       "summary": "让AI agent看到屏幕，也能操作鼠标键盘...",
-      "date": "2026-05-12",
+      "date": "2026-05-13",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -56,8 +56,92 @@
       "title": "AI时代最贵的东西，已经不是模型了",
       "link": "https://www.qbitai.com/?s=AI时代最贵的东西，",
       "summary": "AI时代最贵的东西，已经不是模型了...",
-      "date": "2026-05-12",
+      "date": "2026-05-13",
       "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "**Bring Your Colleague to Disrupt for 50% Off**",
+      "link": "https://techcrunch.com/category/artificial-intelligence/",
+      "summary": "**Bring Your Colleague to Disrupt for 50% Off**...",
+      "date": "2026-05-13",
+      "source": "TechCrunch",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "Artificial Intelligence"
+      ]
+    },
+    {
+      "title": "Markdown Content:",
+      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+      "summary": "Markdown Content:...",
+      "date": "2026-05-12",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "OpenAI 前 CTO 的创业模型首秀，与面壁智能「撞车」了",
+      "link": "https://www.jiqizhixin.com/search/articles/OpenAI 前 CTO 的创",
+      "summary": "OpenAI 前 CTO 的创业模型首秀，与面壁智能「撞车」了...",
+      "date": "2026-05-12",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "光轮智能与谷歌、英伟达共同定义物理AI仿真标准",
+      "link": "https://www.jiqizhixin.com/search/articles/光轮智能与谷歌、英伟达共同定义",
+      "summary": "光轮智能与谷歌、英伟达共同定义物理AI仿真标准...",
+      "date": "2026-05-12",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "宇树造了款民用高达！390万元起",
+      "link": "https://www.jiqizhixin.com/search/articles/宇树造了款民用高达！390万元",
+      "summary": "宇树造了款民用高达！390万元起...",
+      "date": "2026-05-12",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "告别云端依赖！字节开源新作DreamLite让手机秒变 AI 画板",
+      "link": "https://www.jiqizhixin.com/search/articles/告别云端依赖！字节开源新作Dr",
+      "summary": "告别云端依赖！字节开源新作DreamLite让手机秒变 AI 画板...",
+      "date": "2026-05-12",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "当蛋白质AI开始「黑箱化」：下一代生物模型该如何被真正理解与控制",
+      "link": "https://www.jiqizhixin.com/search/articles/当蛋白质AI开始「黑箱化」：下",
+      "summary": "当蛋白质AI开始「黑箱化」：下一代生物模型该如何被真正理解与控制...",
+      "date": "2026-05-12",
+      "source": "机器之心",
       "type": "industry",
       "tags": [
         "AI",
@@ -86,18 +170,6 @@
       "tags": [
         "AI",
         "人工智能"
-      ]
-    },
-    {
-      "title": "**Two Passes. More Coverage. Better Decisions.**",
-      "link": "https://techcrunch.com/category/artificial-intelligence/",
-      "summary": "**Two Passes. More Coverage. Better Decisions.**...",
-      "date": "2026-05-12",
-      "source": "TechCrunch",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "Artificial Intelligence"
       ]
     },
     {
@@ -284,18 +356,6 @@
       "title": "业界首个视觉世界模型综述：迈向更高智能的视觉范式",
       "link": "https://www.jiqizhixin.com/search/articles/业界首个视觉世界模型综述：迈向",
       "summary": "业界首个视觉世界模型综述：迈向更高智能的视觉范式...",
-      "date": "2026-05-10",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Markdown Content:",
-      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-      "summary": "Markdown Content:...",
       "date": "2026-05-10",
       "source": "机器之心",
       "type": "industry",
@@ -2337,66 +2397,6 @@
       "link": "https://www.jiqizhixin.com/search/articles/SIGIR'26｜DPPMG ",
       "summary": "SIGIR'26｜DPPMG 首创个性化多模态生成新范式：图文一致更懂你...",
       "date": "2026-04-17",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "从高端制造到多元公共服务，智平方×西子联合开启具身智能“全场景闭环”新纪元",
-      "link": "https://www.jiqizhixin.com/search/articles/从高端制造到多元公共服务，智平",
-      "summary": "从高端制造到多元公共服务，智平方×西子联合开启具身智能“全场景闭环”新纪元...",
-      "date": "2026-04-17",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "手捏多位科技公司CEO及投资者“死亡名单”",
-      "link": "https://www.qbitai.com/?s=手捏多位科技公司CE",
-      "summary": "手捏多位科技公司CEO及投资者“死亡名单”...",
-      "date": "2026-04-17",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "一次性获取百度智能云的全栈技术图谱",
-      "link": "https://www.qbitai.com/?s=一次性获取百度智能云",
-      "summary": "一次性获取百度智能云的全栈技术图谱...",
-      "date": "2026-04-17",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "立足全球AI创新核心趋势，筑牢国芯AI发展根基",
-      "link": "https://www.qbitai.com/?s=立足全球AI创新核心",
-      "summary": "立足全球AI创新核心趋势，筑牢国芯AI发展根基...",
-      "date": "2026-04-17",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "打造全球领先“具身智能超级供应链”，京东发布行业首个具身数据全链路基础设施",
-      "link": "https://www.jiqizhixin.com/search/articles/打造全球领先“具身智能超级供应",
-      "summary": "打造全球领先“具身智能超级供应链”，京东发布行业首个具身数据全链路基础设施...",
-      "date": "2026-04-16",
       "source": "机器之心",
       "type": "industry",
       "tags": [
