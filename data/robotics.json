@@ -15,6 +15,86 @@
       ]
     },
     {
+      "title": "SafeManip: A Property-Driven Benchmark for Temporal Safety Evaluation in Robotic Manipulation",
+      "summary": "Robotic manipulation is typically evaluated by task success, but successful completion does not guarantee safe execution. Many safety failures are temporal: a robot may touch a clean surface after contamination or release an object before it is fully...",
+      "url": "https://arxiv.org/abs/2605.12386v1",
+      "date": "2026-05-12",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2605.12386v1",
+      "authors": "Chengyue Huang, Khang Vo Huynh et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "GuidedVLA: Specifying Task-Relevant Factors via Plug-and-Play Action Attention Specialization",
+      "summary": "Vision-Language-Action (VLA) models aim for general robot learning by aligning action as a modality within powerful Vision-Language Models (VLMs). Existing VLAs rely on end-to-end supervision to implicitly enable the action decoding process to learn ...",
+      "url": "https://arxiv.org/abs/2605.12369v1",
+      "date": "2026-05-12",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2605.12369v1",
+      "authors": "Xiaosong Jia, Bowen Yang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Real-Time Whole-Body Teleoperation of a Humanoid Robot Using IMU-Based Motion Capture with Sim2Sim and Sim2Real Validation",
+      "summary": "Stable, low-latency whole-body teleoperation of humanoid robots is an open research challenge, complicated by kinematic mismatches between human and robot morphologies, accumulated inertial sensor noise, non-trivial control latency, and persistent si...",
+      "url": "https://arxiv.org/abs/2605.12347v1",
+      "date": "2026-05-12",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2605.12347v1",
+      "authors": "Hamza Ahmed Durrani, Suleman Khan",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "EgoEV-HandPose: Egocentric 3D Hand Pose Estimation and Gesture Recognition with Stereo Event Cameras",
+      "summary": "Egocentric 3D hand pose estimation and gesture recognition are essential for immersive augmented/virtual reality, human-computer interaction, and robotics. However, conventional frame-based cameras suffer from motion blur and limited dynamic range, w...",
+      "url": "https://arxiv.org/abs/2605.12297v1",
+      "date": "2026-05-12",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2605.12297v1",
+      "authors": "Luming Wang, Hao Shi et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "SI-Diff: A Framework for Learning Search and High-Precision Insertion with a Force-Domain Diffusion Policy",
+      "summary": "Contact-rich assembly is fundamental in robotics but poses significant challenges due to uncertainties in relative poses, such as misalignments and small clearances in peg-in-hole tasks. Existing approaches typically address search and high-precision...",
+      "url": "https://arxiv.org/abs/2605.12247v1",
+      "date": "2026-05-12",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2605.12247v1",
+      "authors": "Yibo Liu, Stanko Oparnica et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
       "title": "HarmoWAM: Harmonizing Generalizable and Precise Manipulation via Adaptive World Action Models",
       "summary": "World Action Models (WAMs) have emerged as a promising paradigm for robot control by modeling physical dynamics. Current WAMs generally follow two paradigms: the \"Imagine-then-Execute\" approach, which uses video prediction to infer actions via invers...",
       "url": "https://arxiv.org/abs/2605.10942v1",
@@ -3013,82 +3093,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "Sim-to-Real Fruit Detection Using Synthetic Data: Quantitative Evaluation and Embedded Deployment with Isaac Sim",
-      "summary": "This study investigates the effectiveness of synthetic data for sim-to-real transfer in object detection under constrained data conditions and embedded deployment requirements. Synthetic datasets were generated in NVIDIA Isaac Sim and combined with l...",
-      "url": "https://arxiv.org/abs/2603.28670v1",
-      "date": "2026-03-30",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2603.28670v1",
-      "authors": "Martina Hutter-Mironovova",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Dynamic Lookahead Distance via Reinforcement Learning-Based Pure Pursuit for Autonomous Racing",
-      "summary": "Pure Pursuit (PP) is a widely used path-tracking algorithm in autonomous vehicles due to its simplicity and real-time performance. However, its effectiveness is sensitive to the choice of lookahead distance: shorter values improve cornering but can c...",
-      "url": "https://arxiv.org/abs/2603.28625v1",
-      "date": "2026-03-30",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2603.28625v1",
-      "authors": "Mohamed Elgouhary, Amr S. El-Wakeel",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Detection of Adversarial Attacks in Robotic Perception",
-      "summary": "Deep Neural Networks (DNNs) achieve strong performance in semantic segmentation for robotic perception but remain vulnerable to adversarial attacks, threatening safety-critical applications. While robustness has been studied for image classification,...",
-      "url": "https://arxiv.org/abs/2603.28594v1",
-      "date": "2026-03-30",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2603.28594v1",
-      "authors": "Ziad Sharawy, Mohammad Nakshbandiand et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "A Self-Rotating Tri-Rotor UAV for Field of View Expansion and Autonomous Flight",
-      "summary": "Unmanned Aerial Vehicles (UAVs) perception relies on onboard sensors like cameras and LiDAR, which are limited by the narrow field of view (FoV). We present Self-Perception INertial Navigation Enabled Rotorcraft (SPINNER), a self-rotating tri-rotor U...",
-      "url": "https://arxiv.org/abs/2603.28581v1",
-      "date": "2026-03-30",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2603.28581v1",
-      "authors": "Xiaobin Zhou, Zihao Zheng et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "为超百家 具身智能 企业提供核心零部件，「知行机器人」连续完成两轮近亿元融资 | 36氪首发",
-      "summary": "为超百家 具身智能 企业提供核心零部件，「知行机器人」连续完成两轮近亿元融资 | 36氪首发",
-      "url": "http://36kr.com/p/3740523277517063",
-      "date": "2026-03-28",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
       ]
     }
   ]
