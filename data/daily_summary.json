@@ -8,30 +8,6 @@
       "count": 5,
       "items": [
         {
-          "title": "Markdown Content:",
-          "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-          "summary": "Markdown Content:...",
-          "date": "2026-05-12",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
-          "title": "OpenAI 前 CTO 的创业模型首秀，与面壁智能「撞车」了",
-          "link": "https://www.jiqizhixin.com/search/articles/OpenAI 前 CTO 的创",
-          "summary": "OpenAI 前 CTO 的创业模型首秀，与面壁智能「撞车」了...",
-          "date": "2026-05-12",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
           "title": "光轮智能与谷歌、英伟达共同定义物理AI仿真标准",
           "link": "https://www.jiqizhixin.com/search/articles/光轮智能与谷歌、英伟达共同定义",
           "summary": "光轮智能与谷歌、英伟达共同定义物理AI仿真标准...",
@@ -61,6 +37,30 @@
           "summary": "告别云端依赖！字节开源新作DreamLite让手机秒变 AI 画板...",
           "date": "2026-05-12",
           "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "打造“一人多面”的具身智能便利店",
+          "link": "https://www.qbitai.com/?s=打造“一人多面”的具",
+          "summary": "打造“一人多面”的具身智能便利店...",
+          "date": "2026-05-13",
+          "source": "量子位",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "OpenClaw 不缺掌声了，它缺的是一个能长期生长的硬件生态。",
+          "link": "https://www.qbitai.com/?s=OpenClaw 不",
+          "summary": "OpenClaw 不缺掌声了，它缺的是一个能长期生长的硬件生态。...",
+          "date": "2026-05-13",
+          "source": "量子位",
           "type": "industry",
           "tags": [
             "AI",

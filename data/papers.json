@@ -1,105 +1,39 @@
 {
   "last_updated": "2026-05-13",
-  "count": 6,
+  "count": 2,
   "items": [
     {
-      "title": "ELF: Embedded Language Flows",
-      "authors": "Keya Hu, Linlu Qiu, Yiyang Lu et al.",
-      "abstract": "Diffusion and flow-based models have become the de facto approaches for generating continuous data, e.g., in domains such as images and videos. Their success has attracted growing interest in applying them to language modeling. Unlike their image-domain counterparts, today's leading diffusion langua...",
+      "title": "AlphaGRPO: Unlocking Self-Reflective Multimodal Generation in UMMs via Decompositional Verifiable Reward",
+      "authors": "Runhui Huang, Jie Wu, Rui Yang et al.",
+      "abstract": "In this paper, we propose AlphaGRPO, a novel framework that applies Group Relative Policy Optimization (GRPO) to AR-Diffusion Unified Multimodal Models (UMMs) to enhance multimodal generation capabilities without an additional cold-start stage. Our approach unlocks the model's intrinsic potential to...",
       "venue": "arXiv",
-      "date": "2026-05-11",
-      "arxiv_id": "2605.10938v1",
-      "url": "https://arxiv.org/abs/2605.10938v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.10938v1.pdf",
+      "date": "2026-05-12",
+      "arxiv_id": "2605.12495v1",
+      "url": "https://arxiv.org/abs/2605.12495v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.12495v1.pdf",
       "categories": [
-        "cs.CL",
+        "cs.CV",
         "cs.AI",
         "cs.LG"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Variational Inference for Lévy Process-Driven SDEs via Neural Tilting",
-      "authors": "Yaman Kindap, Manfred Opper, Benjamin Dupuis et al.",
-      "abstract": "Modelling extreme events and heavy-tailed phenomena is central to building reliable predictive systems in domains such as finance, climate science, and safety-critical AI. While Lévy processes provide a natural mathematical framework for capturing jumps and heavy tails, Bayesian inference for Lévy-d...",
-      "venue": "arXiv",
-      "date": "2026-05-11",
-      "arxiv_id": "2605.10934v1",
-      "url": "https://arxiv.org/abs/2605.10934v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.10934v1.pdf",
-      "categories": [
-        "cs.LG",
-        "cs.AI",
-        "cs.CV"
       ],
       "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "DECO: Sparse Mixture-of-Experts with Dense-Comparable Performance on End-Side Devices",
-      "authors": "Chenyang Song, Weilin Zhao, Xu Han et al.",
-      "abstract": "While Mixture-of-Experts (MoE) scales model capacity without proportionally increasing computation, its massive total parameter footprint creates significant storage and memory-access bottlenecks, which hinder efficient end-side deployment that simultaneously requires high performance, low computati...",
+      "title": "Pion: A Spectrum-Preserving Optimizer via Orthogonal Equivalence Transformation",
+      "authors": "Kexuan Shi, Hanxuan Li, Zeju Qiu et al.",
+      "abstract": "We introduce Pion, a spectrum-preserving optimizer for large language model (LLM) training based on orthogonal equivalence transformation. Unlike additive optimizers such as Adam and Muon, Pion updates each weight matrix through left and right orthogonal transformations, preserving its singular valu...",
       "venue": "arXiv",
-      "date": "2026-05-11",
-      "arxiv_id": "2605.10933v1",
-      "url": "https://arxiv.org/abs/2605.10933v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.10933v1.pdf",
+      "date": "2026-05-12",
+      "arxiv_id": "2605.12492v1",
+      "url": "https://arxiv.org/abs/2605.12492v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.12492v1.pdf",
       "categories": [
         "cs.LG",
-        "cs.CL"
+        "stat.ML"
       ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Power Reinforcement Post-Training of Text-to-Image Models with Super-Linear Advantage Shaping",
-      "authors": "Haoyuan Sun, Jing Wang, Yuxin Song et al.",
-      "abstract": "Recently, post-training methods based on reinforcement learning, with a particular focus on Group Relative Policy Optimization (GRPO), have emerged as the robust paradigm for further advancement of text-to-image (T2I) models. However, these methods are often prone to reward hacking, wherein models e...",
-      "venue": "arXiv",
-      "date": "2026-05-11",
-      "arxiv_id": "2605.10937v1",
-      "url": "https://arxiv.org/abs/2605.10937v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.10937v1.pdf",
-      "categories": [
-        "cs.CV"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Personal Visual Context Learning in Large Multimodal Models",
-      "authors": "Zihui Xue, Ami Baid, Sangho Kim et al.",
-      "abstract": "As wearable devices like smart glasses integrate Large Multimodal Models (LMMs) into the continuous first-person visual streams of individual users, the evolution of these models into true personal assistants hinges on visual personalization: the ability to reason over visual information unique to t...",
-      "venue": "arXiv",
-      "date": "2026-05-11",
-      "arxiv_id": "2605.10936v1",
-      "url": "https://arxiv.org/abs/2605.10936v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.10936v1.pdf",
-      "categories": [
-        "cs.CV"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "HarmoWAM: Harmonizing Generalizable and Precise Manipulation via Adaptive World Action Models",
-      "authors": "Qiuxuan Feng, Jiale Yu, Jiaming Liu et al.",
-      "abstract": "World Action Models (WAMs) have emerged as a promising paradigm for robot control by modeling physical dynamics. Current WAMs generally follow two paradigms: the \"Imagine-then-Execute\" approach, which uses video prediction to infer actions via inverse dynamics, and the \"Joint Modeling\" approach, whi...",
-      "venue": "arXiv",
-      "date": "2026-05-11",
-      "arxiv_id": "2605.10942v1",
-      "url": "https://arxiv.org/abs/2605.10942v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.10942v1.pdf",
-      "categories": [
-        "cs.RO"
-      ],
-      "type": "ai",
+      "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     }
