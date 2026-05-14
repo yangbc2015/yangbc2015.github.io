@@ -8,18 +8,6 @@
       "count": 5,
       "items": [
         {
-          "title": "Markdown Content:",
-          "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-          "summary": "Markdown Content:...",
-          "date": "2026-05-13",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
           "title": "8岁小孩哥「聊出」操作系统，一部手机、几句话，原生App直接生成",
           "link": "https://www.jiqizhixin.com/search/articles/8岁小孩哥「聊出」操作系统，一",
           "summary": "8岁小孩哥「聊出」操作系统，一部手机、几句话，原生App直接生成...",
@@ -61,6 +49,18 @@
           "summary": "突发！林俊旸被曝创业：新AI Lab估值20亿美元...",
           "date": "2026-05-13",
           "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "云端基模蒸馏上车，用语言对齐世界模型",
+          "link": "https://www.qbitai.com/?s=云端基模蒸馏上车，用",
+          "summary": "云端基模蒸馏上车，用语言对齐世界模型...",
+          "date": "2026-05-14",
+          "source": "量子位",
           "type": "industry",
           "tags": [
             "AI",

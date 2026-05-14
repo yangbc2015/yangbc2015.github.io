@@ -3,15 +3,40 @@
   "count": 200,
   "items": [
     {
-      "title": "[从机器人马拉松破纪录，看中国 具 身 智 能",
-      "summary": "[从机器人马拉松破纪录，看中国 具 身 智 能",
-      "url": "http://36kr.com/p/3778896668439299",
-      "date": "2026-05-13",
+      "title": "[深耕“具 身 智 能+建筑大模型”底座，重构万亿建筑业，「方石机器人」完成近亿元A轮融资 | 36氪首发",
+      "summary": "[深耕“具 身 智 能+建筑大模型”底座，重构万亿建筑业，「方石机器人」完成近亿元A轮融资 | 36氪首发",
+      "url": "http://36kr.com/p/3807039782116865",
+      "date": "2026-05-14",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
       "tags": [
         "机器人"
+      ]
+    },
+    {
+      "title": "[从机器人马拉松破纪录，看中国 具 身 智 能",
+      "summary": "[从机器人马拉松破纪录，看中国 具 身 智 能",
+      "url": "http://36kr.com/p/3778896668439299",
+      "date": "2026-05-14",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
+      "title": "具身智能要找到高价值落地场景。",
+      "summary": "具身智能要找到高价值落地场景。",
+      "url": "http://36kr.com/p/3806080665935368",
+      "date": "2026-05-12",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
       ]
     },
     {
@@ -92,19 +117,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "具身智能要找到高价值落地场景。",
-      "summary": "具身智能要找到高价值落地场景。",
-      "url": "http://36kr.com/p/3806080665935368",
-      "date": "2026-05-12",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
       ]
     },
     {
@@ -3070,22 +3082,6 @@
       "type": "paper",
       "arxiv_id": "2603.28730v1",
       "authors": "Philip Schroeder, Thomas Weng et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "DRIVE-Nav: Directional Reasoning, Inspection, and Verification for Efficient Open-Vocabulary Navigation",
-      "summary": "Open-Vocabulary Object Navigation (OVON) requires an embodied agent to locate a language-specified target in unknown environments. Existing zero-shot methods often reason over dense frontier points under incomplete observations, causing unstable rout...",
-      "url": "https://arxiv.org/abs/2603.28691v1",
-      "date": "2026-03-30",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2603.28691v1",
-      "authors": "Maoguo Gao, Zejun Zhu et al.",
       "tags": [
         "机器人学习",
         "研究论文",
