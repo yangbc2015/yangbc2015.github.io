@@ -1,9 +1,21 @@
 {
   "last_updated": "2026-05-14",
   "count": 200,
-  "history_count": 202,
+  "history_count": 201,
   "retention_days": 30,
   "items": [
+    {
+      "title": "Agent时代的数据库，怎么跑通商业化？",
+      "link": "https://www.qbitai.com/?s=Agent时代的数据",
+      "summary": "Agent时代的数据库，怎么跑通商业化？...",
+      "date": "2026-05-14",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
     {
       "title": "阿里 AI 在模型、云基础设施和应用各层实现加速突破",
       "link": "https://www.qbitai.com/?s=阿里 AI 在模型、",
@@ -2384,18 +2396,6 @@
       "title": "游戏行业不缺AI工具，缺什么？腾讯游戏用一场大赛给出答案",
       "link": "https://www.jiqizhixin.com/search/articles/游戏行业不缺AI工具，缺什么？",
       "summary": "游戏行业不缺AI工具，缺什么？腾讯游戏用一场大赛给出答案...",
-      "date": "2026-04-18",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "终于，Claude革了设计行业的命：Figma、Adobe股价重挫",
-      "link": "https://www.jiqizhixin.com/search/articles/终于，Claude革了设计行业",
-      "summary": "终于，Claude革了设计行业的命：Figma、Adobe股价重挫...",
       "date": "2026-04-18",
       "source": "机器之心",
       "type": "industry",
