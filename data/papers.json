@@ -1,5 +1,127 @@
 {
   "last_updated": "2026-05-14",
-  "count": 0,
-  "items": []
+  "count": 7,
+  "items": [
+    {
+      "title": "WARDEN: Endangered Indigenous Language Transcription and Translation with 6 Hours of Training Data",
+      "authors": "Ziheng Zhang, Yunzhong Hou, Naijing Liu et al.",
+      "abstract": "This paper introduces WARDEN, an early language model system capable of transcribing and translating Wardaman, an endangered Australian indigenous language into English. The significant challenge we face is the lack of large-scale training data: in fact, we only have 6 hours of annotated audio. Ther...",
+      "venue": "arXiv",
+      "date": "2026-05-13",
+      "arxiv_id": "2605.13846v1",
+      "url": "https://arxiv.org/abs/2605.13846v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.13846v1.pdf",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "EVA-Bench: A New End-to-end Framework for Evaluating Voice Agents",
+      "authors": "Tara Bogavelli, Gabrielle Gauthier Melançon, Katrina Stankiewicz et al.",
+      "abstract": "Voice agents, artificial intelligence systems that conduct spoken conversations to complete tasks, are increasingly deployed across enterprise applications. However, no existing benchmark jointly addresses two core evaluation challenges: generating realistic simulated conversations, and measuring qu...",
+      "venue": "arXiv",
+      "date": "2026-05-13",
+      "arxiv_id": "2605.13841v1",
+      "url": "https://arxiv.org/abs/2605.13841v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.13841v1.pdf",
+      "categories": [
+        "cs.SD",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "R-DMesh: Video-Guided 3D Animation via Rectified Dynamic Mesh Flow",
+      "authors": "Zijie Wu, Lixin Xu, Puhua Jiang et al.",
+      "abstract": "Video-guided 3D animation holds immense potential for content creation, offering intuitive and precise control over dynamic assets. However, practical deployment faces a critical yet frequently overlooked hurdle: the pose misalignment dilemma. In real-world scenarios, the initial pose of a user-prov...",
+      "venue": "arXiv",
+      "date": "2026-05-13",
+      "arxiv_id": "2605.13838v1",
+      "url": "https://arxiv.org/abs/2605.13838v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.13838v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.GR",
+        "cs.LG"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Unlocking Patch-Level Features for CLIP-Based Class-Incremental Learning",
+      "authors": "Hao Sun, Zi-Jun Ding, Da-Wei Zhou",
+      "abstract": "Class-Incremental Learning (CIL) enables models to continuously integrate new knowledge while mitigating catastrophic forgetting. Driven by the remarkable generalization of CLIP, leveraging pre-trained vision-language models has become a dominant paradigm in CIL. However, current work primarily focu...",
+      "venue": "arXiv",
+      "date": "2026-05-13",
+      "arxiv_id": "2605.13835v1",
+      "url": "https://arxiv.org/abs/2605.13835v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.13835v1.pdf",
+      "categories": [
+        "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "What is Learnable in Valiant's Theory of the Learnable?",
+      "authors": "Steve Hanneke, Anay Mehrotra, Grigoris Velegkas et al.",
+      "abstract": "Valiant's 1984 paper is widely credited with introducing the PAC learning model, but it, in fact, introduced a different model: unlike PAC learning, the learner receives only positives, may issue membership queries, and must output a hypothesis with no false positives. Prior work characterized varia...",
+      "venue": "arXiv",
+      "date": "2026-05-13",
+      "arxiv_id": "2605.13840v1",
+      "url": "https://arxiv.org/abs/2605.13840v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.13840v1.pdf",
+      "categories": [
+        "stat.ML",
+        "cs.DS",
+        "cs.LG"
+      ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Loiter UAV Reinsertion Guidance for Fixed-wing UAV Corridors",
+      "authors": "Pradeep J, Kedarisetty Siddhardha, Ashwini Ratnoo",
+      "abstract": "This paper considers fixed-wing unmanned aerial vehicle (UAV) corridors comprising a main lane, a circular loiter lane for managing traffic congestion, and transit lanes connecting the two. In particular, we address the problem of conflict-free reinsertion of UAVs from the loiter lane back into the ...",
+      "venue": "arXiv",
+      "date": "2026-05-13",
+      "arxiv_id": "2605.13822v1",
+      "url": "https://arxiv.org/abs/2605.13822v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.13822v1.pdf",
+      "categories": [
+        "cs.RO",
+        "eess.SY"
+      ],
+      "type": "ai",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "OmniLiDAR: A Unified Diffusion Framework for Multi-Domain 3D LiDAR Generation",
+      "authors": "Youquan Liu, Weidong Yang, Ao Liang et al.",
+      "abstract": "LiDAR scene generation is increasingly important for scalable simulation and synthetic data creation, especially under diverse sensing conditions that are costly to capture at scale. Typically, diffusion-based LiDAR generators are developed under single-domain settings, requiring separate models for...",
+      "venue": "arXiv",
+      "date": "2026-05-13",
+      "arxiv_id": "2605.13815v1",
+      "url": "https://arxiv.org/abs/2605.13815v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.13815v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    }
+  ]
 }
