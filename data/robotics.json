@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-13",
+  "last_updated": "2026-05-14",
   "count": 200,
   "items": [
     {
@@ -92,6 +92,19 @@
         "机器人学习",
         "研究论文",
         "arXiv"
+      ]
+    },
+    {
+      "title": "具身智能要找到高价值落地场景。",
+      "summary": "具身智能要找到高价值落地场景。",
+      "url": "http://36kr.com/p/3806080665935368",
+      "date": "2026-05-12",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
       ]
     },
     {
@@ -3073,22 +3086,6 @@
       "type": "paper",
       "arxiv_id": "2603.28691v1",
       "authors": "Maoguo Gao, Zejun Zhu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Serialized Red-Green-Gray: Quicker Heuristic Validation of Edges in Dynamic Roadmap Graphs",
-      "summary": "Motion planning in dynamic environments, such as robotic warehouses, requires fast adaptation to frequent changes in obstacle poses. Traditional roadmap-based methods struggle in such settings, relying on inefficient reconstruction of a roadmap or ex...",
-      "url": "https://arxiv.org/abs/2603.28674v1",
-      "date": "2026-03-30",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2603.28674v1",
-      "authors": "Yulie Arad, Stav Ashur et al.",
       "tags": [
         "机器人学习",
         "研究论文",
