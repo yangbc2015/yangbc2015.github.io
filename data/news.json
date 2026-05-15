@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-05-14",
+  "last_updated": "2026-05-15",
   "count": 200,
-  "history_count": 201,
+  "history_count": 205,
   "retention_days": 30,
   "items": [
     {
       "title": "Agent时代的数据库，怎么跑通商业化？",
       "link": "https://www.qbitai.com/?s=Agent时代的数据",
       "summary": "Agent时代的数据库，怎么跑通商业化？...",
-      "date": "2026-05-14",
+      "date": "2026-05-15",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -20,7 +20,7 @@
       "title": "阿里 AI 在模型、云基础设施和应用各层实现加速突破",
       "link": "https://www.qbitai.com/?s=阿里 AI 在模型、",
       "summary": "阿里 AI 在模型、云基础设施和应用各层实现加速突破...",
-      "date": "2026-05-14",
+      "date": "2026-05-15",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -32,7 +32,7 @@
       "title": "谷歌GV、Greycroft联合领投这轮早期融资，英伟达、AMD等也参与其中",
       "link": "https://www.qbitai.com/?s=谷歌GV、Greyc",
       "summary": "谷歌GV、Greycroft联合领投这轮早期融资，英伟达、AMD等也参与其中...",
-      "date": "2026-05-14",
+      "date": "2026-05-15",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -44,7 +44,7 @@
       "title": "云端基模蒸馏上车，用语言对齐世界模型",
       "link": "https://www.qbitai.com/?s=云端基模蒸馏上车，用",
       "summary": "云端基模蒸馏上车，用语言对齐世界模型...",
-      "date": "2026-05-14",
+      "date": "2026-05-15",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -56,8 +56,80 @@
       "title": "对于一家还没发产品的中国AI初创公司而言，这一估值，几乎没有先例。但相比林俊旸之前同台竞速的硅谷同行，不算贵。",
       "link": "https://www.qbitai.com/?s=对于一家还没发产品的",
       "summary": "对于一家还没发产品的中国AI初创公司而言，这一估值，几乎没有先例。但相比林俊旸之前同台竞速的硅谷同行，不算贵。...",
-      "date": "2026-05-14",
+      "date": "2026-05-15",
       "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "Markdown Content:",
+      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+      "summary": "Markdown Content:...",
+      "date": "2026-05-14",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "3 小时打造\"演唱会搭子\"：淘天金码奖收官，AI Native 成亮点",
+      "link": "https://www.jiqizhixin.com/search/articles/3 小时打造\"演唱会搭子\"：淘",
+      "summary": "3 小时打造\"演唱会搭子\"：淘天金码奖收官，AI Native 成亮点...",
+      "date": "2026-05-14",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "商汤SenseNova U1深度拆解，原生统一架构终结缝合时代",
+      "link": "https://www.jiqizhixin.com/search/articles/商汤SenseNova U1深",
+      "summary": "商汤SenseNova U1深度拆解，原生统一架构终结缝合时代...",
+      "date": "2026-05-14",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "训练数据枯竭怎么办？首篇「数据价值密度」综述理清思路",
+      "link": "https://www.jiqizhixin.com/search/articles/训练数据枯竭怎么办？首篇「数据",
+      "summary": "训练数据枯竭怎么办？首篇「数据价值密度」综述理清思路...",
+      "date": "2026-05-14",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "国产GPU首获全球顶级推理框架「原生门票」：MUSA合入SGLang主线",
+      "link": "https://www.jiqizhixin.com/search/articles/国产GPU首获全球顶级推理框架",
+      "summary": "国产GPU首获全球顶级推理框架「原生门票」：MUSA合入SGLang主线...",
+      "date": "2026-05-14",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "首创TTFA指标！港大团队开源FASTER，让VLA模型真正实现「即刻响应」",
+      "link": "https://www.jiqizhixin.com/search/articles/首创TTFA指标！港大团队开源",
+      "summary": "首创TTFA指标！港大团队开源FASTER，让VLA模型真正实现「即刻响应」...",
+      "date": "2026-05-14",
+      "source": "机器之心",
       "type": "industry",
       "tags": [
         "AI",
@@ -152,18 +224,6 @@
       "title": "突发！林俊旸被曝创业：新AI Lab估值20亿美元",
       "link": "https://www.jiqizhixin.com/search/articles/突发！林俊旸被曝创业：新AI ",
       "summary": "突发！林俊旸被曝创业：新AI Lab估值20亿美元...",
-      "date": "2026-05-13",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Markdown Content:",
-      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-      "summary": "Markdown Content:...",
       "date": "2026-05-13",
       "source": "机器之心",
       "type": "industry",
@@ -2337,66 +2397,6 @@
       "link": "https://www.jiqizhixin.com/search/articles/内存不够用这件事，可能要持续到",
       "summary": "内存不够用这件事，可能要持续到2030年...",
       "date": "2026-04-19",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "新一代记忆智能体框架MIA：让智能体告别「失忆式工作」，在持续进化中变强",
-      "link": "https://www.jiqizhixin.com/search/articles/新一代记忆智能体框架MIA：让",
-      "summary": "新一代记忆智能体框架MIA：让智能体告别「失忆式工作」，在持续进化中变强...",
-      "date": "2026-04-19",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "π0.7：具有涌现能力的可控模型",
-      "link": "https://www.qbitai.com/?s=π0.7：具有涌现能",
-      "summary": "π0.7：具有涌现能力的可控模型...",
-      "date": "2026-04-19",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "RoboChallenge 正式完成第二批生态扩容，星动纪元、极佳视界、地平线、光轮智能、生数科技、中移杭研、长虹、算力自由8 家顶尖企业重磅入驻",
-      "link": "https://www.qbitai.com/?s=RoboChalle",
-      "summary": "RoboChallenge 正式完成第二批生态扩容，星动纪元、极佳视界、地平线、光轮智能、生数科技、中移杭研、长虹、算力自由8 家顶尖企业重磅入驻...",
-      "date": "2026-04-19",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "推动具身智能从实验室研发迈向规模化商业落地，打造“具身智能超级供应链”。",
-      "link": "https://www.qbitai.com/?s=推动具身智能从实验室",
-      "summary": "推动具身智能从实验室研发迈向规模化商业落地，打造“具身智能超级供应链”。...",
-      "date": "2026-04-19",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "游戏行业不缺AI工具，缺什么？腾讯游戏用一场大赛给出答案",
-      "link": "https://www.jiqizhixin.com/search/articles/游戏行业不缺AI工具，缺什么？",
-      "summary": "游戏行业不缺AI工具，缺什么？腾讯游戏用一场大赛给出答案...",
-      "date": "2026-04-18",
       "source": "机器之心",
       "type": "industry",
       "tags": [
