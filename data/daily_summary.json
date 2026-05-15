@@ -8,18 +8,6 @@
       "count": 5,
       "items": [
         {
-          "title": "Markdown Content:",
-          "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-          "summary": "Markdown Content:...",
-          "date": "2026-05-14",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
           "title": "3 小时打造\"演唱会搭子\"：淘天金码奖收官，AI Native 成亮点",
           "link": "https://www.jiqizhixin.com/search/articles/3 小时打造\"演唱会搭子\"：淘",
           "summary": "3 小时打造\"演唱会搭子\"：淘天金码奖收官，AI Native 成亮点...",
@@ -56,11 +44,23 @@
           ]
         },
         {
-          "title": "国产GPU首获全球顶级推理框架「原生门票」：MUSA合入SGLang主线",
-          "link": "https://www.jiqizhixin.com/search/articles/国产GPU首获全球顶级推理框架",
-          "summary": "国产GPU首获全球顶级推理框架「原生门票」：MUSA合入SGLang主线...",
-          "date": "2026-05-14",
-          "source": "机器之心",
+          "title": "“两人薪资评定全程与其父黄仁勋无关”",
+          "link": "https://www.qbitai.com/?s=“两人薪资评定全程与",
+          "summary": "“两人薪资评定全程与其父黄仁勋无关”...",
+          "date": "2026-05-15",
+          "source": "量子位",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "Agent时代的数据库，怎么跑通商业化？",
+          "link": "https://www.qbitai.com/?s=Agent时代的数据",
+          "summary": "Agent时代的数据库，怎么跑通商业化？...",
+          "date": "2026-05-15",
+          "source": "量子位",
           "type": "industry",
           "tags": [
             "AI",

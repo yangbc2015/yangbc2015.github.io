@@ -1,9 +1,21 @@
 {
   "last_updated": "2026-05-15",
   "count": 200,
-  "history_count": 200,
+  "history_count": 201,
   "retention_days": 30,
   "items": [
+    {
+      "title": "“两人薪资评定全程与其父黄仁勋无关”",
+      "link": "https://www.qbitai.com/?s=“两人薪资评定全程与",
+      "summary": "“两人薪资评定全程与其父黄仁勋无关”...",
+      "date": "2026-05-15",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
     {
       "title": "Agent时代的数据库，怎么跑通商业化？",
       "link": "https://www.qbitai.com/?s=Agent时代的数据",
@@ -65,18 +77,6 @@
       ]
     },
     {
-      "title": "Markdown Content:",
-      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-      "summary": "Markdown Content:...",
-      "date": "2026-05-14",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
       "title": "3 小时打造\"演唱会搭子\"：淘天金码奖收官，AI Native 成亮点",
       "link": "https://www.jiqizhixin.com/search/articles/3 小时打造\"演唱会搭子\"：淘",
       "summary": "3 小时打造\"演唱会搭子\"：淘天金码奖收官，AI Native 成亮点...",
@@ -104,6 +104,18 @@
       "title": "训练数据枯竭怎么办？首篇「数据价值密度」综述理清思路",
       "link": "https://www.jiqizhixin.com/search/articles/训练数据枯竭怎么办？首篇「数据",
       "summary": "训练数据枯竭怎么办？首篇「数据价值密度」综述理清思路...",
+      "date": "2026-05-14",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "Markdown Content:",
+      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+      "summary": "Markdown Content:...",
       "date": "2026-05-14",
       "source": "机器之心",
       "type": "industry",
@@ -2384,18 +2396,6 @@
       "title": "高德全自主具身机器人炸场亦庄马拉松，拿下「导盲」这道硬核考题",
       "link": "https://www.jiqizhixin.com/search/articles/高德全自主具身机器人炸场亦庄马",
       "summary": "高德全自主具身机器人炸场亦庄马拉松，拿下「导盲」这道硬核考题...",
-      "date": "2026-04-19",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "内存不够用这件事，可能要持续到2030年",
-      "link": "https://www.jiqizhixin.com/search/articles/内存不够用这件事，可能要持续到",
-      "summary": "内存不够用这件事，可能要持续到2030年...",
       "date": "2026-04-19",
       "source": "机器之心",
       "type": "industry",
