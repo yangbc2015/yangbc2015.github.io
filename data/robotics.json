@@ -15,6 +15,86 @@
       ]
     },
     {
+      "title": "Articraft: An Agentic System for Scalable Articulated 3D Asset Generation",
+      "summary": "A bottleneck in learning to understand articulated 3D objects is the lack of large and diverse datasets. In this paper, we propose to leverage large language models (LLMs) to close this gap and generate articulated assets at scale. We reduce the prob...",
+      "url": "https://arxiv.org/abs/2605.15187v1",
+      "date": "2026-05-14",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2605.15187v1",
+      "authors": "Matt Zhou, Ruining Li et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Hand-in-the-Loop: Improving Dexterous VLA via Seamless Interventional Correction",
+      "summary": "Vision-Language-Action (VLA) models are prone to compounding errors in dexterous manipulation, where high-dimensional action spaces and contact-rich dynamics amplify small policy deviations over long horizons. While Interactive Imitation Learning (II...",
+      "url": "https://arxiv.org/abs/2605.15157v1",
+      "date": "2026-05-14",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2605.15157v1",
+      "authors": "Zhuohang Li, Liqun Huang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Pelican-Unified 1.0: A Unified Embodied Intelligence Model for Understanding, Reasoning, Imagination and Action",
+      "summary": "We present Pelican-Unified 1.0, the first embodied foundation model trained according to the principle of unification. Pelican-Unified 1.0 uses a single VLM as a unified understanding module, mapping scenes, instructions, visual contexts, and action ...",
+      "url": "https://arxiv.org/abs/2605.15153v1",
+      "date": "2026-05-14",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2605.15153v1",
+      "authors": "Yi Zhang, Yinda Chen et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "CoCo-InEKF: State Estimation with Learned Contact Covariances in Dynamic, Contact-Rich Scenarios",
+      "summary": "Robust state estimation for highly dynamic motion of legged robots remains challenging, especially in dynamic, contact-rich scenarios. Traditional approaches often rely on binary contact states that fail to capture the nuances of partial contact or d...",
+      "url": "https://arxiv.org/abs/2605.15122v1",
+      "date": "2026-05-14",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2605.15122v1",
+      "authors": "Michael Baumgartner, David Müller et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "CLOVER: Closed-Loop Value Estimation \\& Ranking for End-to-End Autonomous Driving Planning",
+      "summary": "End-to-end autonomous driving planners are commonly trained by imitating a single logged trajectory, yet evaluated by rule-based planning metrics that measure safety, feasibility, progress, and comfort. This creates a training--evaluation mismatch: t...",
+      "url": "https://arxiv.org/abs/2605.15120v1",
+      "date": "2026-05-14",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2605.15120v1",
+      "authors": "Sining Ang, Yuguang Yang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
       "title": "[从机器人马拉松破纪录，看中国 具 身 智 能",
       "summary": "[从机器人马拉松破纪录，看中国 具 身 智 能",
       "url": "http://36kr.com/p/3778896668439299",
@@ -3006,86 +3086,6 @@
       "type": "paper",
       "arxiv_id": "2603.29844v1",
       "authors": "Yi Chen, Yuying Ge et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Reconfiguration of supernumerary robotic limbs for human augmentation",
-      "summary": "Wearable robots aim to seamlessly adapt to humans and their environment with personalized interactions. Existing supernumerary robotic limbs (SRLs), which enhance the physical capabilities of humans with additional extremities, have thus far been dev...",
-      "url": "https://arxiv.org/abs/2603.29808v1",
-      "date": "2026-03-31",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2603.29808v1",
-      "authors": "Mustafa Mete, Anastasia Bolotnikova et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "SafeDMPs: Integrating Formal Safety with DMPs for Adaptive HRI",
-      "summary": "Robots operating in human-centric environments must be both robust to disturbances and provably safe from collisions. Achieving these properties simultaneously and efficiently remains a central challenge. While Dynamic Movement Primitives (DMPs) offe...",
-      "url": "https://arxiv.org/abs/2603.29708v1",
-      "date": "2026-03-31",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2603.29708v1",
-      "authors": "Soumyodipta Nath, Pranav Tiwari et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Design and Aerodynamic Modeling of MetaMorpher: A Hybrid Rotary andFixed-Wing Morphing UAV",
-      "summary": "In this paper, we present a generalized, comprehensive nonlinear mathematical model and conceptual design for the MetaMorpher, a metamorphic Unmanned Aerial Vehicle (UAV) designed to bridge the gap between vertical takeoff and landing agility and fix...",
-      "url": "https://arxiv.org/abs/2603.29646v1",
-      "date": "2026-03-31",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2603.29646v1",
-      "authors": "Anja Bosak, Dorian Erić et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Semantic Zone-Based Map Management for Stable AI-Integrated Mobile Robots",
-      "summary": "Recent advances in large AI models (VLMs and LLMs) and joint use of the 3D dense maps, enable mobile robots to provide more powerful and interactive services grounded in rich spatial context. However, deploying both heavy AI models and dense maps on ...",
-      "url": "https://arxiv.org/abs/2603.29627v1",
-      "date": "2026-03-31",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2603.29627v1",
-      "authors": "Huichang Yun, Seungho Yoo",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Distributed Predictive Control Barrier Functions: Towards Scalable Safety Certification in Modular Multi-Agent Systems",
-      "summary": "We consider safety-critical multi-agent systems with distributed control architectures and potentially varying network topologies. While learning-based distributed control enables scalability and high performance, a lack of formal safety guarantees i...",
-      "url": "https://arxiv.org/abs/2603.29560v1",
-      "date": "2026-03-31",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2603.29560v1",
-      "authors": "Jonas Ohnemus, Alexandre Didier et al.",
       "tags": [
         "机器人学习",
         "研究论文",
