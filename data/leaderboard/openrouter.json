@@ -21,10 +21,10 @@
     },
     {
       "rank": 3,
-      "model": "ring-2.6-1t:free",
+      "model": "ring-2.6-1t",
       "organization": "inclusionai",
-      "price_prompt": "0",
-      "price_completion": "0",
+      "price_prompt": "0.000000075",
+      "price_completion": "0.000000625",
       "context_length": 262144
     },
     {
