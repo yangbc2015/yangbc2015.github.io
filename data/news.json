@@ -1,9 +1,21 @@
 {
   "last_updated": "2026-05-16",
   "count": 200,
-  "history_count": 200,
+  "history_count": 201,
   "retention_days": 30,
   "items": [
+    {
+      "title": "5月19日至20日，带上你的需求。带上你的方案，我们在亦庄，不见不散。",
+      "link": "https://www.qbitai.com/?s=5月19日至20日，",
+      "summary": "5月19日至20日，带上你的需求。带上你的方案，我们在亦庄，不见不散。...",
+      "date": "2026-05-16",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
     {
       "title": "该平台以 AI Agent 为核心",
       "link": "https://www.qbitai.com/?s=该平台以 AI Ag",
@@ -2384,18 +2396,6 @@
       "title": "阿里发布Qwen3.6-Max预览版，登顶最佳国产模型",
       "link": "https://www.jiqizhixin.com/search/articles/阿里发布Qwen3.6-Max",
       "summary": "阿里发布Qwen3.6-Max预览版，登顶最佳国产模型...",
-      "date": "2026-04-20",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "具身智能“图灵测试”来了，ATEC2026真实世界极限挑战全球招募启动",
-      "link": "https://www.jiqizhixin.com/search/articles/具身智能“图灵测试”来了，AT",
-      "summary": "具身智能“图灵测试”来了，ATEC2026真实世界极限挑战全球招募启动...",
       "date": "2026-04-20",
       "source": "机器之心",
       "type": "industry",
