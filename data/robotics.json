@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-05-15",
+  "last_updated": "2026-05-16",
   "count": 200,
   "items": [
     {
       "title": "[深耕“具 身 智 能+建筑大模型”底座，重构万亿建筑业，「方石机器人」完成近亿元A轮融资 | 36氪首发",
       "summary": "[深耕“具 身 智 能+建筑大模型”底座，重构万亿建筑业，「方石机器人」完成近亿元A轮融资 | 36氪首发",
       "url": "http://36kr.com/p/3807039782116865",
-      "date": "2026-05-15",
+      "date": "2026-05-16",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
@@ -92,6 +92,18 @@
         "机器人学习",
         "研究论文",
         "arXiv"
+      ]
+    },
+    {
+      "title": "为全球机器人公司与场景方提供从大脑到躯干一站式解决方案",
+      "summary": "为全球机器人公司与场景方提供从大脑到躯干一站式解决方案",
+      "url": "http://36kr.com/p/3808501368856583",
+      "date": "2026-05-14",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
       ]
     },
     {
@@ -3070,22 +3082,6 @@
       "type": "paper",
       "arxiv_id": "2603.29882v1",
       "authors": "Yi Zhang, Zixing Wang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "DIAL: Decoupling Intent and Action via Latent World Modeling for End-to-End VLA",
-      "summary": "The development of Vision-Language-Action (VLA) models has been significantly accelerated by pre-trained Vision-Language Models (VLMs). However, most existing end-to-end VLAs treat the VLM primarily as a multimodal encoder, directly mapping vision-la...",
-      "url": "https://arxiv.org/abs/2603.29844v1",
-      "date": "2026-03-31",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2603.29844v1",
-      "authors": "Yi Chen, Yuying Ge et al.",
       "tags": [
         "机器人学习",
         "研究论文",

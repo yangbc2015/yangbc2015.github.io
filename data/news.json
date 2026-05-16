@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-05-15",
+  "last_updated": "2026-05-16",
   "count": 200,
-  "history_count": 200,
+  "history_count": 205,
   "retention_days": 30,
   "items": [
     {
       "title": "该平台以 AI Agent 为核心",
       "link": "https://www.qbitai.com/?s=该平台以 AI Ag",
       "summary": "该平台以 AI Agent 为核心...",
-      "date": "2026-05-15",
+      "date": "2026-05-16",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -20,7 +20,7 @@
       "title": "AIME 26 得分 95.83",
       "link": "https://www.qbitai.com/?s=AIME 26 得分",
       "summary": "AIME 26 得分 95.83...",
-      "date": "2026-05-15",
+      "date": "2026-05-16",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -32,7 +32,7 @@
       "title": "“两人薪资评定全程与其父黄仁勋无关”",
       "link": "https://www.qbitai.com/?s=“两人薪资评定全程与",
       "summary": "“两人薪资评定全程与其父黄仁勋无关”...",
-      "date": "2026-05-15",
+      "date": "2026-05-16",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -44,7 +44,7 @@
       "title": "Agent时代的数据库，怎么跑通商业化？",
       "link": "https://www.qbitai.com/?s=Agent时代的数据",
       "summary": "Agent时代的数据库，怎么跑通商业化？...",
-      "date": "2026-05-15",
+      "date": "2026-05-16",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -56,8 +56,80 @@
       "title": "阿里 AI 在模型、云基础设施和应用各层实现加速突破",
       "link": "https://www.qbitai.com/?s=阿里 AI 在模型、",
       "summary": "阿里 AI 在模型、云基础设施和应用各层实现加速突破...",
-      "date": "2026-05-15",
+      "date": "2026-05-16",
       "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "Markdown Content:",
+      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+      "summary": "Markdown Content:...",
+      "date": "2026-05-15",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "50.98万元开售：具身智能旗舰SUV理想L9 Livis来了",
+      "link": "https://www.jiqizhixin.com/search/articles/50.98万元开售：具身智能旗",
+      "summary": "50.98万元开售：具身智能旗舰SUV理想L9 Livis来了...",
+      "date": "2026-05-15",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "吴恩达炮轰「AI就业末日论」：贩卖失业焦虑，其实就是一门生意",
+      "link": "https://www.jiqizhixin.com/search/articles/吴恩达炮轰「AI就业末日论」：",
+      "summary": "吴恩达炮轰「AI就业末日论」：贩卖失业焦虑，其实就是一门生意...",
+      "date": "2026-05-15",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "从智能体到赛博员工，生产力智能涌现",
+      "link": "https://www.jiqizhixin.com/search/articles/从智能体到赛博员工，生产力智能",
+      "summary": "从智能体到赛博员工，生产力智能涌现...",
+      "date": "2026-05-15",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "百灵开源旗舰推理模型 Ring-2.6-1T，“双档”推理强度可按需切换",
+      "link": "https://www.jiqizhixin.com/search/articles/百灵开源旗舰推理模型 Ring",
+      "summary": "百灵开源旗舰推理模型 Ring-2.6-1T，“双档”推理强度可按需切换...",
+      "date": "2026-05-15",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "成立一年，从行业非共识到舞台中心，自主具身大模型跑出中国速度",
+      "link": "https://www.jiqizhixin.com/search/articles/成立一年，从行业非共识到舞台中",
+      "summary": "成立一年，从行业非共识到舞台中心，自主具身大模型跑出中国速度...",
+      "date": "2026-05-15",
+      "source": "机器之心",
       "type": "industry",
       "tags": [
         "AI",
@@ -128,18 +200,6 @@
       "title": "训练数据枯竭怎么办？首篇「数据价值密度」综述理清思路",
       "link": "https://www.jiqizhixin.com/search/articles/训练数据枯竭怎么办？首篇「数据",
       "summary": "训练数据枯竭怎么办？首篇「数据价值密度」综述理清思路...",
-      "date": "2026-05-14",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Markdown Content:",
-      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-      "summary": "Markdown Content:...",
       "date": "2026-05-14",
       "source": "机器之心",
       "type": "industry",
@@ -2337,66 +2397,6 @@
       "link": "https://www.jiqizhixin.com/search/articles/让AI从论文走到实验室：人大高",
       "summary": "让AI从论文走到实验室：人大高瓴提出长程研究工程系统AiScientist...",
       "date": "2026-04-20",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "手撕、翻滚、暴力砸地！最「扛造」的灵巧手来了",
-      "link": "https://www.jiqizhixin.com/search/articles/手撕、翻滚、暴力砸地！最「扛造",
-      "summary": "手撕、翻滚、暴力砸地！最「扛造」的灵巧手来了...",
-      "date": "2026-04-20",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "全栈大脑会成为具身智能下一阶段竞赛的胜负手",
-      "link": "https://www.qbitai.com/?s=全栈大脑会成为具身智",
-      "summary": "全栈大脑会成为具身智能下一阶段竞赛的胜负手...",
-      "date": "2026-04-20",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Gemini Robotics主打空间推理的第三代模型。",
-      "link": "https://www.qbitai.com/?s=Gemini Rob",
-      "summary": "Gemini Robotics主打空间推理的第三代模型。...",
-      "date": "2026-04-20",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "更新越频繁，Claude Code与Codex越像",
-      "link": "https://www.jiqizhixin.com/search/articles/更新越频繁，Claude Co",
-      "summary": "更新越频繁，Claude Code与Codex越像...",
-      "date": "2026-04-19",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "世界引擎：Post-Training开启Physical AGI新纪元",
-      "link": "https://www.jiqizhixin.com/search/articles/世界引擎：Post-Train",
-      "summary": "世界引擎：Post-Training开启Physical AGI新纪元...",
-      "date": "2026-04-19",
       "source": "机器之心",
       "type": "industry",
       "tags": [
