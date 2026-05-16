@@ -1,7 +1,7 @@
 {
   "last_updated": "2026-05-16",
   "count": 200,
-  "history_count": 200,
+  "history_count": 201,
   "retention_days": 30,
   "items": [
     {
@@ -32,6 +32,18 @@
       "title": "“两人薪资评定全程与其父黄仁勋无关”",
       "link": "https://www.qbitai.com/?s=“两人薪资评定全程与",
       "summary": "“两人薪资评定全程与其父黄仁勋无关”...",
+      "date": "2026-05-16",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "具身智能正在经历一场静默但深刻的路线转变",
+      "link": "https://www.qbitai.com/?s=具身智能正在经历一场",
+      "summary": "具身智能正在经历一场静默但深刻的路线转变...",
       "date": "2026-05-16",
       "source": "量子位",
       "type": "industry",
@@ -2384,18 +2396,6 @@
       "title": "具身智能“图灵测试”来了，ATEC2026真实世界极限挑战全球招募启动",
       "link": "https://www.jiqizhixin.com/search/articles/具身智能“图灵测试”来了，AT",
       "summary": "具身智能“图灵测试”来了，ATEC2026真实世界极限挑战全球招募启动...",
-      "date": "2026-04-20",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "让AI从论文走到实验室：人大高瓴提出长程研究工程系统AiScientist",
-      "link": "https://www.jiqizhixin.com/search/articles/让AI从论文走到实验室：人大高",
-      "summary": "让AI从论文走到实验室：人大高瓴提出长程研究工程系统AiScientist...",
       "date": "2026-04-20",
       "source": "机器之心",
       "type": "industry",
