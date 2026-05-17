@@ -3,23 +3,6 @@
   "count": 3,
   "items": [
     {
-      "title": "EntityBench: Towards Entity-Consistent Long-Range Multi-Shot Video Generation",
-      "authors": "Ruozhen He, Meng Wei, Ziyan Yang et al.",
-      "abstract": "Multi-shot video generation extends single-shot generation to coherent visual narratives, yet maintaining consistent characters, objects, and locations across shots remains a challenge over long sequences. Existing evaluations typically use independently generated prompt sets with limited entity cov...",
-      "venue": "arXiv",
-      "date": "2026-05-14",
-      "arxiv_id": "2605.15199v1",
-      "url": "https://arxiv.org/abs/2605.15199v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.15199v1.pdf",
-      "categories": [
-        "cs.CV",
-        "cs.AI"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
       "title": "ATLAS: Agentic or Latent Visual Reasoning? One Word is Enough for Both",
       "authors": "Ziyu Guo, Rain Liu, Xinyan Chen et al.",
       "abstract": "Visual reasoning, often interleaved with intermediate visual states, has emerged as a promising direction in the field. A straightforward approach is to directly generate images via unified models during reasoning, but this is computationally expensive and architecturally non-trivial. Recent alterna...",
@@ -52,6 +35,23 @@
         "cs.CL"
       ],
       "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "RefDecoder: Enhancing Visual Generation with Conditional Video Decoding",
+      "authors": "Xiang Fan, Yuheng Wang, Bohan Fang et al.",
+      "abstract": "Video generation powers a vast array of downstream applications. However, while the de facto standard, i.e., latent diffusion models, typically employ heavily conditioned denoising networks, their decoders often remain unconditional. We observe that this architectural asymmetry leads to significant ...",
+      "venue": "arXiv",
+      "date": "2026-05-14",
+      "arxiv_id": "2605.15196v1",
+      "url": "https://arxiv.org/abs/2605.15196v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.15196v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     }
