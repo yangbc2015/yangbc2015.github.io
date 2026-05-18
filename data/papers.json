@@ -1,89 +1,19 @@
 {
   "last_updated": "2026-05-18",
-  "count": 6,
+  "count": 5,
   "items": [
     {
-      "title": "ATLAS: Agentic or Latent Visual Reasoning? One Word is Enough for Both",
-      "authors": "Ziyu Guo, Rain Liu, Xinyan Chen et al.",
-      "abstract": "Visual reasoning, often interleaved with intermediate visual states, has emerged as a promising direction in the field. A straightforward approach is to directly generate images via unified models during reasoning, but this is computationally expensive and architecturally non-trivial. Recent alterna...",
+      "title": "IVGT: Implicit Visual Geometry Transformer for Neural Scene Representation",
+      "authors": "Yuqi Wu, Tianyu Hu, Wenzhao Zheng et al.",
+      "abstract": "Reconstructing coherent 3D geometry and appearance from unposed multi-view images is a fundamental yet challenging problem in computer vision. Most existing visual geometry foundation models predict explicit geometry by regressing pixel-aligned pointmaps, often suffering from redundancy and limited ...",
       "venue": "arXiv",
-      "date": "2026-05-14",
-      "arxiv_id": "2605.15198v1",
-      "url": "https://arxiv.org/abs/2605.15198v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.15198v1.pdf",
+      "date": "2026-05-15",
+      "arxiv_id": "2605.16258v1",
+      "url": "https://arxiv.org/abs/2605.16258v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.16258v1.pdf",
       "categories": [
         "cs.CV",
         "cs.AI",
-        "cs.CL"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "FutureSim: Replaying World Events to Evaluate Adaptive Agents",
-      "authors": "Shashwat Goel, Nikhil Chandak, Arvindh Arun et al.",
-      "abstract": "AI agents are being increasingly deployed in dynamic, open-ended environments that require adapting to new information as it arrives. To efficiently measure this capability for realistic use-cases, we propose building grounded simulations that replay real-world events in the order they occurred. We ...",
-      "venue": "arXiv",
-      "date": "2026-05-14",
-      "arxiv_id": "2605.15188v1",
-      "url": "https://arxiv.org/abs/2605.15188v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.15188v1.pdf",
-      "categories": [
-        "cs.LG",
-        "cs.AI",
-        "cs.CL"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "EntityBench: Towards Entity-Consistent Long-Range Multi-Shot Video Generation",
-      "authors": "Ruozhen He, Meng Wei, Ziyan Yang et al.",
-      "abstract": "Multi-shot video generation extends single-shot generation to coherent visual narratives, yet maintaining consistent characters, objects, and locations across shots remains a challenge over long sequences. Existing evaluations typically use independently generated prompt sets with limited entity cov...",
-      "venue": "arXiv",
-      "date": "2026-05-14",
-      "arxiv_id": "2605.15199v1",
-      "url": "https://arxiv.org/abs/2605.15199v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.15199v1.pdf",
-      "categories": [
-        "cs.CV",
-        "cs.AI"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "RefDecoder: Enhancing Visual Generation with Conditional Video Decoding",
-      "authors": "Xiang Fan, Yuheng Wang, Bohan Fang et al.",
-      "abstract": "Video generation powers a vast array of downstream applications. However, while the de facto standard, i.e., latent diffusion models, typically employ heavily conditioned denoising networks, their decoders often remain unconditional. We observe that this architectural asymmetry leads to significant ...",
-      "venue": "arXiv",
-      "date": "2026-05-14",
-      "arxiv_id": "2605.15196v1",
-      "url": "https://arxiv.org/abs/2605.15196v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.15196v1.pdf",
-      "categories": [
-        "cs.CV",
-        "cs.LG"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Articraft: An Agentic System for Scalable Articulated 3D Asset Generation",
-      "authors": "Matt Zhou, Ruining Li, Xiaoyang Lyu et al.",
-      "abstract": "A bottleneck in learning to understand articulated 3D objects is the lack of large and diverse datasets. In this paper, we propose to leverage large language models (LLMs) to close this gap and generate articulated assets at scale. We reduce the problem of generating an articulated 3D asset to that ...",
-      "venue": "arXiv",
-      "date": "2026-05-14",
-      "arxiv_id": "2605.15187v1",
-      "url": "https://arxiv.org/abs/2605.15187v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.15187v1.pdf",
-      "categories": [
-        "cs.CV",
-        "cs.GR",
         "cs.RO"
       ],
       "type": "vision",
@@ -91,19 +21,72 @@
       "source": "arXiv"
     },
     {
-      "title": "Hand-in-the-Loop: Improving Dexterous VLA via Seamless Interventional Correction",
-      "authors": "Zhuohang Li, Liqun Huang, Wei Xu et al.",
-      "abstract": "Vision-Language-Action (VLA) models are prone to compounding errors in dexterous manipulation, where high-dimensional action spaces and contact-rich dynamics amplify small policy deviations over long horizons. While Interactive Imitation Learning (IIL) can refine policies through human takeover data...",
+      "title": "Designing Datacenter Power Delivery Hierarchies for the AI Era",
+      "authors": "Grant Wilkins, Fiodar Kazhamiaka, Alok Gautam Kumbhare et al.",
+      "abstract": "Demand for AI accelerators is rapidly increasing rack power density, with projections approaching 1MW per deployment by 2027. This poses a major challenge for datacenter power delivery designers. As power densities increase, a datacenter designed for a different target density may strand power, i.e....",
       "venue": "arXiv",
-      "date": "2026-05-14",
-      "arxiv_id": "2605.15157v1",
-      "url": "https://arxiv.org/abs/2605.15157v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.15157v1.pdf",
+      "date": "2026-05-15",
+      "arxiv_id": "2605.16255v1",
+      "url": "https://arxiv.org/abs/2605.16255v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.16255v1.pdf",
       "categories": [
-        "cs.RO",
-        "cs.LG"
+        "cs.DC",
+        "cs.AI"
       ],
-      "type": "ml",
+      "type": "ai",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "A Generative AI Framework for Intelligent Utility Billing CO 2 Analytics and Sustainable Resource Optimisation",
+      "authors": "Pavan Manjunath, Thomas Pruefer",
+      "abstract": "Distribution utilities are now expected to deliver bills that customers can actually read attach a defensible carbon number to every kWh sold and schedule load against grid stress and emissions constraints We propose an end-to-end framework that unifies four production-grade capabilities under one a...",
+      "venue": "arXiv",
+      "date": "2026-05-15",
+      "arxiv_id": "2605.16250v1",
+      "url": "https://arxiv.org/abs/2605.16250v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.16250v1.pdf",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.DB"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "AI-Mediated Communication Can Steer Collective Opinion",
+      "authors": "Stratis Tsirtsis, Kai Rawal, Chris Russell et al.",
+      "abstract": "Generative artificial intelligence (AI) is increasingly integrated into the online platforms where humans exchange opinions; large language models (LLMs) now polish users' posts on LinkedIn and provide context for content shared on X. While prior work has shown that AI can express biased opinions an...",
+      "venue": "arXiv",
+      "date": "2026-05-15",
+      "arxiv_id": "2605.16245v1",
+      "url": "https://arxiv.org/abs/2605.16245v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.16245v1.pdf",
+      "categories": [
+        "cs.CY",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Offline Semantic Guidance for Efficient Vision-Language-Action Policy Distillation",
+      "authors": "Jin Shi, Brady Zhang, Yishun Lu",
+      "abstract": "Billion-parameter Vision-Language-Action (VLA) policies have recently shown impressive performance in robotic manipulation, yet their size and inference cost remain major obstacles for real-time closed-loop control. We introduce \\textbf{VLA-AD}, a distillation framework that uses a Vision-Language M...",
+      "venue": "arXiv",
+      "date": "2026-05-15",
+      "arxiv_id": "2605.16241v1",
+      "url": "https://arxiv.org/abs/2605.16241v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.16241v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     }

@@ -15,6 +15,98 @@
       ]
     },
     {
+      "title": "IVGT: Implicit Visual Geometry Transformer for Neural Scene Representation",
+      "summary": "Reconstructing coherent 3D geometry and appearance from unposed multi-view images is a fundamental yet challenging problem in computer vision. Most existing visual geometry foundation models predict explicit geometry by regressing pixel-aligned point...",
+      "url": "https://arxiv.org/abs/2605.16258v1",
+      "date": "2026-05-15",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2605.16258v1",
+      "authors": "Yuqi Wu, Tianyu Hu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "DexJoCo: A Benchmark and Toolkit for Task-Oriented Dexterous Manipulation on MuJoCo",
+      "summary": "Achieving human-level manipulation requires dexterous robotic hands capable of complex object interactions. Advancing such capabilities further demands standardized benchmarks for systematic evaluation. However, existing dexterous benchmarks lack tas...",
+      "url": "https://arxiv.org/abs/2605.16257v1",
+      "date": "2026-05-15",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2605.16257v1",
+      "authors": "Hanwen Wang, Weizhi Zhao et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Learn Where Outcomes Diverge: Efficient VLA RL via Probabilistic Chunk Masking",
+      "summary": "Reinforcement learning (RL) allows vision-language-action (VLA) policies to generalize beyond their training distribution by optimizing directly for task success, but post-training is computationally expensive. A natural response has been to speed ro...",
+      "url": "https://arxiv.org/abs/2605.16154v1",
+      "date": "2026-05-15",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2605.16154v1",
+      "authors": "Vaidehi Bagaria, Nikshep Grampurohit et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "STABLE: Simulation-Ready Tabletop Layout Generation via a Semantics-Physics Dual System",
+      "summary": "Generating simulation-ready tabletop scenes from task instructions is an intriguing and promising research direction in the field of Embodied AI. However, existing task-to-scene generation methods rely exclusively on large language models (LLMs) to p...",
+      "url": "https://arxiv.org/abs/2605.16137v1",
+      "date": "2026-05-15",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2605.16137v1",
+      "authors": "Zhen Luo, Yixuan Yang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Beyond Collision Avoidance: Multi-Robot Yielding and Spatial Affordance in Emergency Evacuations",
+      "summary": "As mobile service robots increasingly coexist with pedestrians, ensuring passively safe behaviour during confined emergency evacuations is critical. Existing multi-robot yielding strategies often focus solely on collision avoidance and macroscopic fl...",
+      "url": "https://arxiv.org/abs/2605.16115v1",
+      "date": "2026-05-15",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2605.16115v1",
+      "authors": "Ning Zhou, Edmund R. Hunt et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "为全球机器人公司与场景方提供从大脑到躯干一站式解决方案",
+      "summary": "为全球机器人公司与场景方提供从大脑到躯干一站式解决方案",
+      "url": "http://36kr.com/p/3808501368856583",
+      "date": "2026-05-14",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
       "title": "Articraft: An Agentic System for Scalable Articulated 3D Asset Generation",
       "summary": "A bottleneck in learning to understand articulated 3D objects is the lack of large and diverse datasets. In this paper, we propose to leverage large language models (LLMs) to close this gap and generate articulated assets at scale. We reduce the prob...",
       "url": "https://arxiv.org/abs/2605.15187v1",
@@ -92,18 +184,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "为全球机器人公司与场景方提供从大脑到躯干一站式解决方案",
-      "summary": "为全球机器人公司与场景方提供从大脑到躯干一站式解决方案",
-      "url": "http://36kr.com/p/3808501368856583",
-      "date": "2026-05-14",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
       ]
     },
     {
@@ -3005,83 +3085,6 @@
       "type": "paper",
       "arxiv_id": "2604.01158v1",
       "authors": "Junli Ren, Yinghui Li et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Deep Reinforcement Learning for Robotic Manipulation under Distribution Shift with Bounded Extremum Seeking",
-      "summary": "Reinforcement learning has shown strong performance in robotic manipulation, but learned policies often degrade in performance when test conditions differ from the training distribution. This limitation is especially important in contact-rich tasks s...",
-      "url": "https://arxiv.org/abs/2604.01142v1",
-      "date": "2026-04-01",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2604.01142v1",
-      "authors": "Shaifalee Saxena, Rafael Fierro et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "科技帮助人类，而非代替者。青心意创想做的，是让雪宝这样大家深爱的角色，以具身智能的形态走进真实生活，在人们感到孤独或空落的时刻，带来一点真实的抚慰。",
-      "summary": "科技帮助人类，而非代替者。青心意创想做的，是让雪宝这样大家深爱的角色，以具身智能的形态走进真实生活，在人们感到孤独或空落的时刻，带来一点真实的抚慰。",
-      "url": "http://36kr.com/p/3747673491636997",
-      "date": "2026-04-01",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "HapCompass: A Rotational Haptic Device for Contact-Rich Robotic Teleoperation",
-      "summary": "The contact-rich nature of manipulation makes it a significant challenge for robotic teleoperation. While haptic feedback is critical for contact-rich tasks, providing intuitive directional cues within wearable teleoperation interfaces remains a bott...",
-      "url": "https://arxiv.org/abs/2603.30042v1",
-      "date": "2026-03-31",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2603.30042v1",
-      "authors": "Xiangshan Tan, Jingtian Ji et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Hybrid Framework for Robotic Manipulation: Integrating Reinforcement Learning and Large Language Models",
-      "summary": "This paper introduces a new hybrid framework that combines Reinforcement Learning (RL) and Large Language Models (LLMs) to improve robotic manipulation tasks. By utilizing RL for accurate low-level control and LLMs for high level task planning and un...",
-      "url": "https://arxiv.org/abs/2603.30022v1",
-      "date": "2026-03-31",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2603.30022v1",
-      "authors": "Md Saad, Sajjad Hussain et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Passive iFIR filters for data-driven velocity control in robotics",
-      "summary": "We present a passive, data-driven velocity control method for nonlinear robotic manipulators that achieves better tracking performance than optimized PID with comparable design complexity. Using only three minutes of probing data, a VRFT-based design...",
-      "url": "https://arxiv.org/abs/2603.29882v1",
-      "date": "2026-03-31",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2603.29882v1",
-      "authors": "Yi Zhang, Zixing Wang et al.",
       "tags": [
         "机器人学习",
         "研究论文",
