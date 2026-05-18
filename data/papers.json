@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-05-18",
-  "count": 5,
+  "count": 6,
   "items": [
     {
       "title": "IVGT: Implicit Visual Geometry Transformer for Neural Scene Representation",
@@ -87,6 +87,22 @@
         "cs.AI"
       ],
       "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "DexJoCo: A Benchmark and Toolkit for Task-Oriented Dexterous Manipulation on MuJoCo",
+      "authors": "Hanwen Wang, Weizhi Zhao, Xiangyu Wang et al.",
+      "abstract": "Achieving human-level manipulation requires dexterous robotic hands capable of complex object interactions. Advancing such capabilities further demands standardized benchmarks for systematic evaluation. However, existing dexterous benchmarks lack tasks that reflect the unique manipulation capabiliti...",
+      "venue": "arXiv",
+      "date": "2026-05-15",
+      "arxiv_id": "2605.16257v1",
+      "url": "https://arxiv.org/abs/2605.16257v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.16257v1.pdf",
+      "categories": [
+        "cs.RO"
+      ],
+      "type": "benchmark",
       "badge": "arxiv",
       "source": "arXiv"
     }

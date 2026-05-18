@@ -8,42 +8,6 @@
       "count": 5,
       "items": [
         {
-          "title": "大语言模型为什么能像人一样说话和思考？",
-          "link": "https://www.jiqizhixin.com/search/articles/大语言模型为什么能像人一样说话",
-          "summary": "大语言模型为什么能像人一样说话和思考？...",
-          "date": "2026-05-17",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
-          "title": "人造劳动力，离普通家庭还有多远？",
-          "link": "https://www.qbitai.com/?s=人造劳动力，离普通家",
-          "summary": "人造劳动力，离普通家庭还有多远？...",
-          "date": "2026-05-18",
-          "source": "量子位",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
-          "title": "全球规模最大、参与人数最多的大学生超算赛事",
-          "link": "https://www.qbitai.com/?s=全球规模最大、参与人",
-          "summary": "全球规模最大、参与人数最多的大学生超算赛事...",
-          "date": "2026-05-18",
-          "source": "量子位",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
           "title": "5月19日至20日，带上你的需求。带上你的方案，我们在亦庄，不见不散。",
           "link": "https://www.qbitai.com/?s=5月19日至20日，",
           "summary": "5月19日至20日，带上你的需求。带上你的方案，我们在亦庄，不见不散。...",
@@ -56,15 +20,51 @@
           ]
         },
         {
-          "title": "说明需求，Qoder就能帮你实现",
-          "link": "https://www.qbitai.com/?s=说明需求，Qoder",
-          "summary": "说明需求，Qoder就能帮你实现...",
+          "title": "联发科正在成为智能体化体验落地的全栈赋能者",
+          "link": "https://www.qbitai.com/?s=联发科正在成为智能体",
+          "summary": "联发科正在成为智能体化体验落地的全栈赋能者...",
           "date": "2026-05-18",
           "source": "量子位",
           "type": "industry",
           "tags": [
             "AI",
             "人工智能"
+          ]
+        },
+        {
+          "title": "*   [Latest](http://techcrunch.com/latest/)",
+          "link": "https://techcrunch.com/category/artificial-intelligence/",
+          "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
+          "date": "2026-05-18",
+          "source": "TechCrunch",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "Artificial Intelligence"
+          ]
+        },
+        {
+          "title": "*   [Startups](http://techcrunch.com/category/startups/)",
+          "link": "https://techcrunch.com/category/artificial-intelligence/",
+          "summary": "*   [Venture](http://techcrunch.com/category/venture/)",
+          "date": "2026-05-18",
+          "source": "TechCrunch",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "Artificial Intelligence"
+          ]
+        },
+        {
+          "title": "*   [Venture](http://techcrunch.com/category/venture/)",
+          "link": "https://techcrunch.com/category/artificial-intelligence/",
+          "summary": "*   [Apple](http://techcrunch.com/tag/apple/)",
+          "date": "2026-05-18",
+          "source": "TechCrunch",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "Artificial Intelligence"
           ]
         }
       ]
