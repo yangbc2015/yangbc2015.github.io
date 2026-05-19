@@ -8,18 +8,6 @@
       "count": 5,
       "items": [
         {
-          "title": "Markdown Content:",
-          "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-          "summary": "Markdown Content:...",
-          "date": "2026-05-18",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
           "title": "王云鹤眼中的Harness：复杂优化问题，AGI灵魂争夺之战",
           "link": "https://www.jiqizhixin.com/search/articles/王云鹤眼中的Harness：复",
           "summary": "王云鹤眼中的Harness：复杂优化问题，AGI灵魂争夺之战...",
@@ -59,6 +47,18 @@
           "title": "ICML 2026 ｜让大模型边想边说：这篇文章把「何时开口」变成可学习策略",
           "link": "https://www.jiqizhixin.com/search/articles/ICML 2026 ｜让大模型",
           "summary": "ICML 2026 ｜让大模型边想边说：这篇文章把「何时开口」变成可学习策略...",
+          "date": "2026-05-18",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "瞄准空间智能核心资源：如祺出行发布AI数据版图，以高价值场景数据切入世界模型训练",
+          "link": "https://www.jiqizhixin.com/search/articles/瞄准空间智能核心资源：如祺出行",
+          "summary": "瞄准空间智能核心资源：如祺出行发布AI数据版图，以高价值场景数据切入世界模型训练...",
           "date": "2026-05-18",
           "source": "机器之心",
           "type": "industry",

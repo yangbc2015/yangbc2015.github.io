@@ -3,6 +3,86 @@
   "count": 200,
   "items": [
     {
+      "title": "ESI-Bench: Towards Embodied Spatial Intelligence that Closes the Perception-Action Loop",
+      "summary": "Spatial intelligence unfolds through a perception-action loop: agents act to acquire observations, and reason about how observations vary as a function of action. Rather than passively processing what is seen, they actively uncover what is unseen - o...",
+      "url": "https://arxiv.org/abs/2605.18746v1",
+      "date": "2026-05-18",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2605.18746v1",
+      "authors": "Yining Hong, Jiageng Liu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Robo-Cortex: A Self-Evolving Embodied Agent via Dual-Grain Cognitive Memory and Autonomous Knowledge Induction",
+      "summary": "The ability to navigate and interact with complex environments is central to real-world embodied agents, yet navigation in unseen environments remains challenging due to \"experiential amnesia,\" where existing trajectory-driven or reactive policies fa...",
+      "url": "https://arxiv.org/abs/2605.18729v1",
+      "date": "2026-05-18",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2605.18729v1",
+      "authors": "Nga Teng Chan, Yi Zhang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "DexHoldem: Playing Texas Hold'em with Dexterous Embodied System",
+      "summary": "Evaluating embodied systems on real dexterous hardware requires more than isolated primitive skills: an agent must perceive a changing tabletop scene, choose a context-appropriate action, execute it with a dexterous hand, and leave the scene usable f...",
+      "url": "https://arxiv.org/abs/2605.18727v1",
+      "date": "2026-05-18",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2605.18727v1",
+      "authors": "Feng Chen, Tianzhe Chu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Dexora: Open-source VLA for High-DoF Bimanual Dexterity",
+      "summary": "Vision-Language-Action (VLA) models have recently become a central direction in embodied AI, but current systems are restricted to either dual-gripper control or single-arm dexterous hand manipulation. While low-dimensional gripper control can often ...",
+      "url": "https://arxiv.org/abs/2605.18722v1",
+      "date": "2026-05-18",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2605.18722v1",
+      "authors": "Zongzheng Zhang, Jingrui Pang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Data-Driven Dynamic Modeling of a Tendon-Actuated Continuum Robot",
+      "summary": "Developing dynamic models for tendon-driven continuum robots is challenging due to their nonlinear, high-dimensional, and friction-dominated dynamics. This paper presents a comparative study of data-driven system identification methods, including N4S...",
+      "url": "https://arxiv.org/abs/2605.18720v1",
+      "date": "2026-05-18",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2605.18720v1",
+      "authors": "Harald Minde Hansen, Bjørn Kåre Sæbø et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
       "title": "[深耕“具 身 智 能+建筑大模型”底座，重构万亿建筑业，「方石机器人」完成近亿元A轮融资 | 36氪首发",
       "summary": "[深耕“具 身 智 能+建筑大模型”底座，重构万亿建筑业，「方石机器人」完成近亿元A轮融资 | 36氪首发",
       "url": "http://36kr.com/p/3807039782116865",
@@ -3005,86 +3085,6 @@
       "type": "paper",
       "arxiv_id": "2604.02256v1",
       "authors": "Weiting Feng, Federico Renda et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "UAV-Track VLA: Embodied Aerial Tracking via Vision-Language-Action Models",
-      "summary": "Embodied visual tracking is crucial for Unmanned Aerial Vehicles (UAVs) executing complex real-world tasks. In dynamic urban scenarios with complex semantic requirements, Vision-Language-Action (VLA) models show great promise due to their cross-modal...",
-      "url": "https://arxiv.org/abs/2604.02241v1",
-      "date": "2026-04-02",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2604.02241v1",
-      "authors": "Qiyao Zhang, Shuhua Zheng et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Functional Force-Aware Retargeting from Virtual Human Demos to Soft Robot Policies",
-      "summary": "We introduce SoftAct, a framework for teaching soft robot hands to perform human-like manipulation skills by explicitly reasoning about contact forces. Leveraging immersive virtual reality, our system captures rich human demonstrations, including han...",
-      "url": "https://arxiv.org/abs/2604.01224v1",
-      "date": "2026-04-01",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2604.01224v1",
-      "authors": "Uksang Yoo, Mengjia Zhu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Collaborative Task and Path Planning for Heterogeneous Robotic Teams using Multi-Agent PPO",
-      "summary": "Efficient robotic extraterrestrial exploration requires robots with diverse capabilities, ranging from scientific measurement tools to advanced locomotion. A robotic team enables the distribution of tasks over multiple specialized subsystems, each pr...",
-      "url": "https://arxiv.org/abs/2604.01213v1",
-      "date": "2026-04-01",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2604.01213v1",
-      "authors": "Matthias Rubio, Julia Richter et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "A ROS 2 Wrapper for Florence-2: Multi-Mode Local Vision-Language Inference for Robotic Systems",
-      "summary": "Foundation vision-language models are becoming increasingly relevant to robotics because they can provide richer semantic perception than narrow task-specific pipelines. However, their practical adoption in robot software stacks still depends on repr...",
-      "url": "https://arxiv.org/abs/2604.01179v1",
-      "date": "2026-04-01",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2604.01179v1",
-      "authors": "J. E. Domínguez-Vidal",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "SMASH: Mastering Scalable Whole-Body Skills for Humanoid Ping-Pong with Egocentric Vision",
-      "summary": "Existing humanoid table tennis systems remain limited by their reliance on external sensing and their inability to achieve agile whole-body coordination for precise task execution. These limitations stem from two core challenges: achieving low-latenc...",
-      "url": "https://arxiv.org/abs/2604.01158v1",
-      "date": "2026-04-01",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2604.01158v1",
-      "authors": "Junli Ren, Yinghui Li et al.",
       "tags": [
         "机器人学习",
         "研究论文",
