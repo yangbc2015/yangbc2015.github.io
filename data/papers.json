@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-05-19",
-  "count": 7,
+  "count": 3,
   "items": [
     {
       "title": "DashAttention: Differentiable and Adaptive Sparse Hierarchical Attention",
@@ -38,39 +38,6 @@
       "source": "arXiv"
     },
     {
-      "title": "Can These Views Be One Scene? Evaluating Multiview 3D Consistency when 3D Foundation Models Hallucinate",
-      "authors": "Soumava Paul, Prakhar Kaushik, Alan Yuille",
-      "abstract": "Multiview 3D evaluation assumes that the images being scored are observations of one static 3D scene. This assumption can fail in NVS and sparse-view reconstruction: inputs or generated outputs may contain artifacts, outlier frames, repeated views, or noise, yet still receive high 3D consistency sco...",
-      "venue": "arXiv",
-      "date": "2026-05-18",
-      "arxiv_id": "2605.18754v1",
-      "url": "https://arxiv.org/abs/2605.18754v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.18754v1.pdf",
-      "categories": [
-        "cs.CV"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "WavFlow: Audio Generation in Waveform Space",
-      "authors": "Feiyan Zhou, Luyuan Wang, Shoufa Chen et al.",
-      "abstract": "Modern audio generation predominantly relies on latent-space compression, introducing additional complexity and potential information loss. In this work, we challenge this paradigm with WavFlow, a framework that generates high-fidelity audio directly in raw waveform space without intermediate repres...",
-      "venue": "arXiv",
-      "date": "2026-05-18",
-      "arxiv_id": "2605.18749v1",
-      "url": "https://arxiv.org/abs/2605.18749v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.18749v1.pdf",
-      "categories": [
-        "cs.SD",
-        "cs.CV"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
       "title": "A Readiness-Driven Runtime for Pipeline-Parallel Training under Runtime Variability",
       "authors": "Ruitao Liu, Xinyang Tian, Shuo Chen et al.",
       "abstract": "Pipeline parallelism is a key technique for scaling large-model training, but modern workloads exhibit runtime variability in computation and communication. Existing pipeline systems typically consume static, profiled, or adaptively generated schedules as pre-committed execution orders. When realize...",
@@ -84,41 +51,6 @@
         "cs.LG"
       ],
       "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "ESI-Bench: Towards Embodied Spatial Intelligence that Closes the Perception-Action Loop",
-      "authors": "Yining Hong, Jiageng Liu, Han Yin et al.",
-      "abstract": "Spatial intelligence unfolds through a perception-action loop: agents act to acquire observations, and reason about how observations vary as a function of action. Rather than passively processing what is seen, they actively uncover what is unseen - occluded structure, dynamics, containment, and func...",
-      "venue": "arXiv",
-      "date": "2026-05-18",
-      "arxiv_id": "2605.18746v1",
-      "url": "https://arxiv.org/abs/2605.18746v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.18746v1.pdf",
-      "categories": [
-        "cs.CV",
-        "cs.AI",
-        "cs.CL"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Robo-Cortex: A Self-Evolving Embodied Agent via Dual-Grain Cognitive Memory and Autonomous Knowledge Induction",
-      "authors": "Nga Teng Chan, Yi Zhang, Yechi Liu et al.",
-      "abstract": "The ability to navigate and interact with complex environments is central to real-world embodied agents, yet navigation in unseen environments remains challenging due to \"experiential amnesia,\" where existing trajectory-driven or reactive policies fail to synthesize generalizable strategies from pas...",
-      "venue": "arXiv",
-      "date": "2026-05-18",
-      "arxiv_id": "2605.18729v1",
-      "url": "https://arxiv.org/abs/2605.18729v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.18729v1.pdf",
-      "categories": [
-        "cs.RO",
-        "cs.CV"
-      ],
-      "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     }
