@@ -1,42 +1,7 @@
 {
   "last_updated": "2026-05-19",
-  "count": 6,
+  "count": 5,
   "items": [
-    {
-      "title": "IVGT: Implicit Visual Geometry Transformer for Neural Scene Representation",
-      "authors": "Yuqi Wu, Tianyu Hu, Wenzhao Zheng et al.",
-      "abstract": "Reconstructing coherent 3D geometry and appearance from unposed multi-view images is a fundamental yet challenging problem in computer vision. Most existing visual geometry foundation models predict explicit geometry by regressing pixel-aligned pointmaps, often suffering from redundancy and limited ...",
-      "venue": "arXiv",
-      "date": "2026-05-15",
-      "arxiv_id": "2605.16258v1",
-      "url": "https://arxiv.org/abs/2605.16258v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.16258v1.pdf",
-      "categories": [
-        "cs.CV",
-        "cs.AI",
-        "cs.RO"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Designing Datacenter Power Delivery Hierarchies for the AI Era",
-      "authors": "Grant Wilkins, Fiodar Kazhamiaka, Alok Gautam Kumbhare et al.",
-      "abstract": "Demand for AI accelerators is rapidly increasing rack power density, with projections approaching 1MW per deployment by 2027. This poses a major challenge for datacenter power delivery designers. As power densities increase, a datacenter designed for a different target density may strand power, i.e....",
-      "venue": "arXiv",
-      "date": "2026-05-15",
-      "arxiv_id": "2605.16255v1",
-      "url": "https://arxiv.org/abs/2605.16255v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.16255v1.pdf",
-      "categories": [
-        "cs.DC",
-        "cs.AI"
-      ],
-      "type": "ai",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
     {
       "title": "A Generative AI Framework for Intelligent Utility Billing CO 2 Analytics and Sustainable Resource Optimisation",
       "authors": "Pavan Manjunath, Thomas Pruefer",
@@ -70,6 +35,24 @@
         "cs.CL"
       ],
       "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "IVGT: Implicit Visual Geometry Transformer for Neural Scene Representation",
+      "authors": "Yuqi Wu, Tianyu Hu, Wenzhao Zheng et al.",
+      "abstract": "Reconstructing coherent 3D geometry and appearance from unposed multi-view images is a fundamental yet challenging problem in computer vision. Most existing visual geometry foundation models predict explicit geometry by regressing pixel-aligned pointmaps, often suffering from redundancy and limited ...",
+      "venue": "arXiv",
+      "date": "2026-05-15",
+      "arxiv_id": "2605.16258v1",
+      "url": "https://arxiv.org/abs/2605.16258v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.16258v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.RO"
+      ],
+      "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     },
