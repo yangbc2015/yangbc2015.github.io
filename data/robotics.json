@@ -3,6 +3,86 @@
   "count": 200,
   "items": [
     {
+      "title": "Hamilton--Jacobi Reachability for Spacecraft Collision Avoidance",
+      "summary": "This article presents a Hamilton--Jacobi (HJ) reachability framework for a two--satellite collision avoidance problem operating in the same circular orbit, where relative motion is modeled in the radial--tangential--normal (RTN) frame using planar Hi...",
+      "url": "https://arxiv.org/abs/2605.20138v1",
+      "date": "2026-05-19",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2605.20138v1",
+      "authors": "Larry Hui, Jordan Kam et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Topology-Optimized Pneumatic Soft Actuator: Design and Experimental Validation",
+      "summary": "This paper demonstrates the computational design of soft elastomeric pneumatic actuators using nonlinear topology optimization. An existing density- and porohyperelasticity-based topology optimization framework was extended from 2D to 3D and used to ...",
+      "url": "https://arxiv.org/abs/2605.20101v1",
+      "date": "2026-05-19",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2605.20101v1",
+      "authors": "Sumit Mehta, Konstantinos Poulios",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Probing Embodied LLMs: When Higher Observation Fidelity Hurts Problem Solving",
+      "summary": "Large Language Models are increasingly proposed as cognitive components for robotic systems, yet their opaque decision processes make it difficult to explain success or failure in closed-loop embodied tasks. Following an empirical AI methodology, we ...",
+      "url": "https://arxiv.org/abs/2605.20072v1",
+      "date": "2026-05-19",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2605.20072v1",
+      "authors": "Oussama Zenkri, Oliver Brock",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Towards LLM-Assisted Architecture Recovery for Real-World ROS~2 Systems: An Agent-Based Multi-Level Approach to Hierarchical Structural Architecture Reconstruction",
+      "summary": "Explicit software architecture models are essential artifacts for communicating, analyzing, and evolving complex software-intensive systems. In ROS~2-based robotic systems, however, structural (de-)composition and integration semantics are often only...",
+      "url": "https://arxiv.org/abs/2605.20055v1",
+      "date": "2026-05-19",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2605.20055v1",
+      "authors": "Dominique Briechle, Raj Chanchad et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Minimalist Visual Inertial Odometry",
+      "summary": "Visual-Inertial Odometry(VIO), which is critical to mobile robot navigation, uses cameras with a large number of pixels. Capturing and processing camera images requires significant resources. This work presents a minimalist approach to planar odometr...",
+      "url": "https://arxiv.org/abs/2605.19990v1",
+      "date": "2026-05-19",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2605.19990v1",
+      "authors": "Francesco Pasti, Jeremy Klotz et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
       "title": "ESI-Bench: Towards Embodied Spatial Intelligence that Closes the Perception-Action Loop",
       "summary": "Spatial intelligence unfolds through a perception-action loop: agents act to acquire observations, and reason about how observations vary as a function of action. Rather than passively processing what is seen, they actively uncover what is unseen - o...",
       "url": "https://arxiv.org/abs/2605.18746v1",
@@ -3013,82 +3093,6 @@
       "tags": [
         "机器人",
         "具身智能"
-      ]
-    },
-    {
-      "title": "不用学数据，靠写代码操作机器人",
-      "summary": "不用学数据，靠写代码操作机器人",
-      "url": "http://36kr.com/p/3749514454057473",
-      "date": "2026-04-02",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
-      ]
-    },
-    {
-      "title": "Stop Wandering: Efficient Vision-Language Navigation via Metacognitive Reasoning",
-      "summary": "Training-free Vision-Language Navigation (VLN) agents powered by foundation models can follow instructions and explore 3D environments. However, existing approaches rely on greedy frontier selection and passive spatial memory, leading to inefficient ...",
-      "url": "https://arxiv.org/abs/2604.02318v1",
-      "date": "2026-04-02",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2604.02318v1",
-      "authors": "Xueying Li, Feng Lyu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Deep Neural Network Based Roadwork Detection for Autonomous Driving",
-      "summary": "Road construction sites create major challenges for both autonomous vehicles and human drivers due to their highly dynamic and heterogeneous nature. This paper presents a real-time system that detects and localizes roadworks by combining a YOLO neura...",
-      "url": "https://arxiv.org/abs/2604.02282v1",
-      "date": "2026-04-02",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2604.02282v1",
-      "authors": "Sebastian Wullrich, Nicolai Steinke et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Model-Based Reinforcement Learning for Control under Time-Varying Dynamics",
-      "summary": "Learning-based control methods typically assume stationary system dynamics, an assumption often violated in real-world systems due to drift, wear, or changing operating conditions. We study reinforcement learning for control under time-varying dynami...",
-      "url": "https://arxiv.org/abs/2604.02260v1",
-      "date": "2026-04-02",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2604.02260v1",
-      "authors": "Klemens Iten, Bruce Lee et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "A virtual-variable-length method for robust inverse kinematics of multi-segment continuum robots",
-      "summary": "This paper proposes a new, robust method to solve the inverse kinematics (IK) of multi-segment continuum manipulators. Conventional Jacobian-based solvers, especially when initialized from neutral/rest configurations, often exhibit slow convergence a...",
-      "url": "https://arxiv.org/abs/2604.02256v1",
-      "date": "2026-04-02",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2604.02256v1",
-      "authors": "Weiting Feng, Federico Renda et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
       ]
     }
   ]

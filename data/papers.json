@@ -1,5 +1,156 @@
 {
   "last_updated": "2026-05-20",
-  "count": 0,
-  "items": []
+  "count": 9,
+  "items": [
+    {
+      "title": "Atoms of Thought: Universal EEG Representation Learning with Microstates",
+      "authors": "Xinyang Tian, Ruitao Liu, Ziyi Ye et al.",
+      "abstract": "Learning universal representations from electroencephalogram (EEG) signals is a cutting-edge approach in the field of neuroinformatics and brain-computer interfaces (BCIs). Conventionally, EEG is treated as a multivariate temporal signal, where time- or frequency-domain features are extracted for re...",
+      "venue": "arXiv",
+      "date": "2026-05-19",
+      "arxiv_id": "2605.20182v1",
+      "url": "https://arxiv.org/abs/2605.20182v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.20182v1.pdf",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "A Methodology for Selecting and Composing Runtime Architecture Patterns for Production LLM Agents",
+      "authors": "Vasundra Srinivasan",
+      "abstract": "Production LLM agents combine stochastic model outputs with deterministic software systems, yet the boundary between the two is rarely treated as a first-class architectural object. This paper names that boundary the stochastic-deterministic boundary (SDB): a four-part contract among a proposer, ver...",
+      "venue": "arXiv",
+      "date": "2026-05-19",
+      "arxiv_id": "2605.20173v1",
+      "url": "https://arxiv.org/abs/2605.20173v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.20173v1.pdf",
+      "categories": [
+        "cs.AI",
+        "cs.SE"
+      ],
+      "type": "ai",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "TIDE: Efficient and Lossless MoE Diffusion LLM Inference with I/O-aware Expert Offload",
+      "authors": "Zhiben Chen, Youpeng Zhao, Yang Sui et al.",
+      "abstract": "Diffusion Large Language Models (dLLMs) have emerged as a competitive alternative to autoregressive (AR) models, offering better hardware utilization and bidirectional context through parallel block-level decoding. However, as dLLMs continue to scale up with mixture-of-experts (MoE) architectures, t...",
+      "venue": "arXiv",
+      "date": "2026-05-19",
+      "arxiv_id": "2605.20179v1",
+      "url": "https://arxiv.org/abs/2605.20179v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.20179v1.pdf",
+      "categories": [
+        "cs.CL"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "From Seeing to Thinking: Decoupling Perception and Reasoning Improves Post-Training of Vision-Language Models",
+      "authors": "Juncheng Wu, Hardy Chen, Haoqin Tu et al.",
+      "abstract": "Recent advances in vision-language models (VLMs) emphasize long chain-of-thought reasoning; yet, we find that their performance on visual tasks is primarily limited by a lack of visual perception as opposed to reasoning itself. In this work, we systematically study the interplay between perception a...",
+      "venue": "arXiv",
+      "date": "2026-05-19",
+      "arxiv_id": "2605.20177v1",
+      "url": "https://arxiv.org/abs/2605.20177v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.20177v1.pdf",
+      "categories": [
+        "cs.CL",
+        "cs.CV"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "PiG-Avatar: Hierarchical Neural-Field-Guided Gaussian Avatars",
+      "authors": "Julian Kaltheuner, Jan Spindler, Sina Kitz et al.",
+      "abstract": "Existing Gaussian avatar methods typically parameterize geometry on a body-template surface, which entangles the avatar's representation space with the template's deformation space and limits the capture of layered, off-body, and non-rigid clothing geometry. We present PiG-Avatar, which addresses th...",
+      "venue": "arXiv",
+      "date": "2026-05-19",
+      "arxiv_id": "2605.20185v1",
+      "url": "https://arxiv.org/abs/2605.20185v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.20185v1.pdf",
+      "categories": [
+        "cs.GR",
+        "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "MSAVBench: Towards Comprehensive and Reliable Evaluation of Multi-Shot Audio-Video Generation",
+      "authors": "Yujie Wei, Yujin Han, Zhekai Chen et al.",
+      "abstract": "Video generation is rapidly evolving from single-shot synthesis to complex multi-shot audio-video (MSAV) narratives to meet real-world demands. However, evaluating such frontier models remains a fundamental challenge. Existing benchmarks are limited in scope and data diversity, and rely on rigid eva...",
+      "venue": "arXiv",
+      "date": "2026-05-19",
+      "arxiv_id": "2605.20183v1",
+      "url": "https://arxiv.org/abs/2605.20183v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.20183v1.pdf",
+      "categories": [
+        "cs.CV"
+      ],
+      "type": "benchmark",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Multi-axis Analysis of Image Manipulation Localization",
+      "authors": "Keanu Nichols, Divya Appapogu, Giscard Biamby et al.",
+      "abstract": "Advanced image editing software enables easy creation of highly convincing image manipulations, which has been made even more accessible in recent years due to advances in generative AI. Manipulated images, while often harmless, could spread misinformation, create false narratives, and influence peo...",
+      "venue": "arXiv",
+      "date": "2026-05-19",
+      "arxiv_id": "2605.20174v1",
+      "url": "https://arxiv.org/abs/2605.20174v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.20174v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Hamilton--Jacobi Reachability for Spacecraft Collision Avoidance",
+      "authors": "Larry Hui, Jordan Kam, William Su et al.",
+      "abstract": "This article presents a Hamilton--Jacobi (HJ) reachability framework for a two--satellite collision avoidance problem operating in the same circular orbit, where relative motion is modeled in the radial--tangential--normal (RTN) frame using planar Hill--Clohessy--Wiltshire (HCW) dynamics. We define ...",
+      "venue": "arXiv",
+      "date": "2026-05-19",
+      "arxiv_id": "2605.20138v1",
+      "url": "https://arxiv.org/abs/2605.20138v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.20138v1.pdf",
+      "categories": [
+        "cs.RO",
+        "eess.SY"
+      ],
+      "type": "ai",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Topology-Optimized Pneumatic Soft Actuator: Design and Experimental Validation",
+      "authors": "Sumit Mehta, Konstantinos Poulios",
+      "abstract": "This paper demonstrates the computational design of soft elastomeric pneumatic actuators using nonlinear topology optimization. An existing density- and porohyperelasticity-based topology optimization framework was extended from 2D to 3D and used to generate two manufacturable actuator designs, whic...",
+      "venue": "arXiv",
+      "date": "2026-05-19",
+      "arxiv_id": "2605.20101v1",
+      "url": "https://arxiv.org/abs/2605.20101v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.20101v1.pdf",
+      "categories": [
+        "cs.RO"
+      ],
+      "type": "ai",
+      "badge": "arxiv",
+      "source": "arXiv"
+    }
+  ]
 }
