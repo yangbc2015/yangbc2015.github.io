@@ -3,6 +3,86 @@
   "count": 200,
   "items": [
     {
+      "title": "HITL-D: Human In The Loop Diffusion Assisted Shared Control",
+      "summary": "Autonomous manipulation systems have achieved remarkable capabilities, yet the integration of human expertise with diffusion-based policies in shared control remains relatively unexplored. In this paper, we propose Human-In-The-Loop Diffusion (HITL-D...",
+      "url": "https://arxiv.org/abs/2605.21460v1",
+      "date": "2026-05-20",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2605.21460v1",
+      "authors": "Riley Zilka, Sergey Khlynovskiy et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Lost in Fog: Sensor Perturbations Expose Reasoning Fragility in Driving VLAs",
+      "summary": "Interpretable autonomous driving planners depend not only on generating explanations, but also on those explanations remaining reliable under real-world sensor degradation. In this paper we present a controlled perturbation study of Vision-Language-A...",
+      "url": "https://arxiv.org/abs/2605.21446v1",
+      "date": "2026-05-20",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2605.21446v1",
+      "authors": "Abhinaw Priyadershi, Jelena Frtunikj",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Fully Actuated Manifold Constraint Based Output Feedback Control for Input-Constrained Uncertain Nonlinear Systems",
+      "summary": "This paper presents a low-complexity, model-free, output-feedback controller for a class of unknown time-varying nonlinear systems with unknown input constraints. The controller achieves the preset control accuracy when the actuator is not saturated ...",
+      "url": "https://arxiv.org/abs/2605.21439v1",
+      "date": "2026-05-20",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2605.21439v1",
+      "authors": "Dianrui Mu, Changchun Hua et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "roto 2.0: The Robot Tactile Olympiad",
+      "summary": "Tactile-based reinforcement learning (RL) is currently hindered by fragmented research and a focus on over-saturated orientation tasks. We introduce v2 of the Robot Tactile Olympiad (\\texttt{roto 2.0}), a GPU-parallelised benchmark designed to standa...",
+      "url": "https://arxiv.org/abs/2605.21429v1",
+      "date": "2026-05-20",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2605.21429v1",
+      "authors": "Elle Miller, Jayaram Reddy et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "PointACT: Vision-Language-Action Models with Multi-Scale Point-Action Interaction",
+      "summary": "Vision-Language-Action (VLA) models have shown strong potential for general-purpose robotic manipulation by leveraging large pretrained vision-language backbones. However, most existing VLAs rely primarily on 2D visual representations, which limit th...",
+      "url": "https://arxiv.org/abs/2605.21414v1",
+      "date": "2026-05-20",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2605.21414v1",
+      "authors": "Shizhe Chen, Paul Pacaud et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
       "title": "[具 身 智 能 规模化元年，人形机器人“卖不动、租得火”",
       "summary": "[具 身 智 能 规模化元年，人形机器人“卖不动、租得火”",
       "url": "http://36kr.com/p/3815911066099457",
@@ -13,6 +93,32 @@
       "tags": [
         "机器人",
         "人形机器人"
+      ]
+    },
+    {
+      "title": "租赁是门好生意，没有租赁，具身智能的规模化和未来的C端普及便无从谈起，租赁一定不是具身智能的终点，但却是其绕不开的起点。",
+      "summary": "租赁是门好生意，没有租赁，具身智能的规模化和未来的C端普及便无从谈起，租赁一定不是具身智能的终点，但却是其绕不开的起点。",
+      "url": "http://36kr.com/p/3815911066099457",
+      "date": "2026-05-19",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "\"这一波具身智能创业，主力是清华教授，赢家是英诺\"",
+      "summary": "\"这一波具身智能创业，主力是清华教授，赢家是英诺\"",
+      "url": "http://36kr.com/p/3815612556075013",
+      "date": "2026-05-19",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
       ]
     },
     {
@@ -93,32 +199,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "租赁是门好生意，没有租赁，具身智能的规模化和未来的C端普及便无从谈起，租赁一定不是具身智能的终点，但却是其绕不开的起点。",
-      "summary": "租赁是门好生意，没有租赁，具身智能的规模化和未来的C端普及便无从谈起，租赁一定不是具身智能的终点，但却是其绕不开的起点。",
-      "url": "http://36kr.com/p/3815911066099457",
-      "date": "2026-05-19",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "\"这一波具身智能创业，主力是清华教授，赢家是英诺\"",
-      "summary": "\"这一波具身智能创业，主力是清华教授，赢家是英诺\"",
-      "url": "http://36kr.com/p/3815612556075013",
-      "date": "2026-05-19",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
       ]
     },
     {
@@ -3003,86 +3083,6 @@
       "type": "paper",
       "arxiv_id": "2604.04826v1",
       "authors": "Krishna Kalavadia, Shamak Dutta et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "AnyUser: Translating Sketched User Intent into Domestic Robots",
-      "summary": "We introduce AnyUser, a unified robotic instruction system for intuitive domestic task instruction via free-form sketches on camera images, optionally with language. AnyUser interprets multimodal inputs (sketch, vision, language) as spatial-semantic ...",
-      "url": "https://arxiv.org/abs/2604.04811v1",
-      "date": "2026-04-06",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2604.04811v1",
-      "authors": "Songyuan Yang, Huibin Tan et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Pickalo: Leveraging 6D Pose Estimation for Low-Cost Industrial Bin Picking",
-      "summary": "Bin picking in real industrial environments remains challenging due to severe clutter, occlusions, and the high cost of traditional 3D sensing setups. We present Pickalo, a modular 6D pose-based bin-picking pipeline built entirely on low-cost hardwar...",
-      "url": "https://arxiv.org/abs/2604.04690v1",
-      "date": "2026-04-06",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2604.04690v1",
-      "authors": "Alessandro Tarsi, Matteo Mastrogiuseppe et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Safety-Critical Centralized Nonlinear MPC for Cooperative Payload Transportation by Two Quadrupedal Robots",
-      "summary": "This paper presents a safety-critical centralized nonlinear model predictive control (NMPC) framework for cooperative payload transportation by two quadrupedal robots. The interconnected robot-payload system is modeled as a discrete-time nonlinear di...",
-      "url": "https://arxiv.org/abs/2604.03200v1",
-      "date": "2026-04-03",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2604.03200v1",
-      "authors": "Ruturaj S. Sambhus, Yicheng Zeng et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "The Compression Gap: Why Discrete Tokenization Limits Vision-Language-Action Model Scaling",
-      "summary": "Scaling Vision-Language-Action (VLA) models by upgrading the vision encoder is expected to improve downstream manipulation performance--as it does in vision-language modeling. We show that this expectation fails when actions are represented as discre...",
-      "url": "https://arxiv.org/abs/2604.03191v1",
-      "date": "2026-04-03",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2604.03191v1",
-      "authors": "Takuya Shiba",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Multi-View Video Diffusion Policy: A 3D Spatio-Temporal-Aware Video Action Model",
-      "summary": "Robotic manipulation requires understanding both the 3D spatial structure of the environment and its temporal evolution, yet most existing policies overlook one or both. They typically rely on 2D visual observations and backbones pretrained on static...",
-      "url": "https://arxiv.org/abs/2604.03181v1",
-      "date": "2026-04-03",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2604.03181v1",
-      "authors": "Peiyan Li, Yixiang Chen et al.",
       "tags": [
         "机器人学习",
         "研究论文",

@@ -1,9 +1,21 @@
 {
   "last_updated": "2026-05-21",
   "count": 200,
-  "history_count": 200,
+  "history_count": 201,
   "retention_days": 30,
   "items": [
+    {
+      "title": "RoboChallenge榜首易主，清华系玩家加冕。",
+      "link": "https://www.qbitai.com/?s=RoboChalle",
+      "summary": "RoboChallenge榜首易主，清华系玩家加冕。...",
+      "date": "2026-05-21",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
     {
       "title": "智会心研 PLUS 开启公测，免费开放高阶研发 AI 能力，完善资料、邀友可领会员，助力大众低成本搞技术创新。",
       "link": "https://www.qbitai.com/?s=智会心研 PLUS ",
@@ -26,18 +38,6 @@
       "tags": [
         "AI",
         "Artificial Intelligence"
-      ]
-    },
-    {
-      "title": "Markdown Content:",
-      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-      "summary": "Markdown Content:...",
-      "date": "2026-05-20",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
       ]
     },
     {
@@ -92,6 +92,18 @@
       "title": "火山引擎携Seedance 2.0亮相戛纳，中国AI视频技术走向全球",
       "link": "https://www.jiqizhixin.com/search/articles/火山引擎携Seedance 2",
       "summary": "火山引擎携Seedance 2.0亮相戛纳，中国AI视频技术走向全球...",
+      "date": "2026-05-20",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "Markdown Content:",
+      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+      "summary": "Markdown Content:...",
       "date": "2026-05-20",
       "source": "机器之心",
       "type": "industry",
@@ -2384,18 +2396,6 @@
       "title": "姚顺雨带队、Hy3 preview上线！腾讯现在适合上车吗？",
       "link": "https://www.jiqizhixin.com/search/articles/姚顺雨带队、Hy3 previ",
       "summary": "姚顺雨带队、Hy3 preview上线！腾讯现在适合上车吗？...",
-      "date": "2026-04-23",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "刚刚，DeepSeek开始频繁更新：Tile Kernels、DeepEP V2",
-      "link": "https://www.jiqizhixin.com/search/articles/刚刚，DeepSeek开始频繁",
-      "summary": "刚刚，DeepSeek开始频繁更新：Tile Kernels、DeepEP V2...",
       "date": "2026-04-23",
       "source": "机器之心",
       "type": "industry",
