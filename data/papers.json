@@ -1,5 +1,40 @@
 {
   "last_updated": "2026-05-21",
-  "count": 0,
-  "items": []
+  "count": 2,
+  "items": [
+    {
+      "title": "Variance Reduction for Expectations with Diffusion Teachers",
+      "authors": "Jesse Bettencourt, Xindi Wu, Matan Atzmon et al.",
+      "abstract": "Pretrained diffusion models serve as frozen teachers feeding downstream pipelines such as text-to-3D, single-step distillation, and data attribution. The teacher gradients these pipelines consume are Monte Carlo (MC) expectations over noise levels and Gaussian noise samples; their estimator variance...",
+      "venue": "arXiv",
+      "date": "2026-05-20",
+      "arxiv_id": "2605.21489v1",
+      "url": "https://arxiv.org/abs/2605.21489v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.21489v1.pdf",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Equilibrium Reasoners: Learning Attractors Enables Scalable Reasoning",
+      "authors": "Benhao Huang, Zhengyang Geng, Zico Kolter",
+      "abstract": "Scaling test-time compute by iteratively updating a latent state has emerged as a powerful paradigm for reasoning. Yet the internal mechanisms that enable these iterative models to generalize beyond memorized patterns remain unclear. We hypothesize that generalizable reasoning arises from learning t...",
+      "venue": "arXiv",
+      "date": "2026-05-20",
+      "arxiv_id": "2605.21488v1",
+      "url": "https://arxiv.org/abs/2605.21488v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.21488v1.pdf",
+      "categories": [
+        "cs.LG"
+      ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    }
+  ]
 }
