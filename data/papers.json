@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-05-22",
-  "count": 2,
+  "count": 8,
   "items": [
     {
       "title": "Vector Policy Optimization: Training for Diversity Improves Test-Time Search",
@@ -35,6 +35,105 @@
         "stat.ML"
       ],
       "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Tokenisation via Convex Relaxations",
+      "authors": "Jan Tempus, Philip Whittington, Craig W. Schmidt et al.",
+      "abstract": "Tokenisation is an integral part of the current NLP pipeline. Current tokenisation algorithms such as BPE and Unigram are greedy algorithms -- they make locally optimal decisions without considering the resulting vocabulary as a whole. We instead formulate tokeniser construction as a linear program ...",
+      "venue": "arXiv",
+      "date": "2026-05-21",
+      "arxiv_id": "2605.22821v1",
+      "url": "https://arxiv.org/abs/2605.22821v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.22821v1.pdf",
+      "categories": [
+        "cs.CL",
+        "cs.LG"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Which Way Did It Move? Diagnosing and Overcoming Directional Motion Blindness in Video-LLMs",
+      "authors": "Jongseo Lee, Hyuntak Lee, Sunghun Kim et al.",
+      "abstract": "Video Large Language Models (Video-LLMs) have made rapid progress on temporal video understanding, yet many fail at a basic perceptual primitive: signed image-plane motion direction. On simple videos of a single object moving left, right, up, or down, most Video-LLMs perform near chance, with above-...",
+      "venue": "arXiv",
+      "date": "2026-05-21",
+      "arxiv_id": "2605.22823v1",
+      "url": "https://arxiv.org/abs/2605.22823v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.22823v1.pdf",
+      "categories": [
+        "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Cambrian-P: Pose-Grounded Video Understanding",
+      "authors": "Jihan Yang, Zifan Zhao, Xichen Pan et al.",
+      "abstract": "Camera pose matters. The position and orientation of each viewpoint define a shared spatial coordinate frame that relates observations across video frames. Yet this signal is largely absent from multimodal LLMs (MLLMs) for video understanding, which process frames as isolated 2D snapshots, instead o...",
+      "venue": "arXiv",
+      "date": "2026-05-21",
+      "arxiv_id": "2605.22819v1",
+      "url": "https://arxiv.org/abs/2605.22819v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.22819v1.pdf",
+      "categories": [
+        "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Integrable Elasticity via Neural Demand Potentials",
+      "authors": "Carlos Heredia, Daniel Roncel",
+      "abstract": "We propose the Integrable Context-Dependent Demand Network (ICDN), a demand-first neural model for multiproduct retail demand. The model learns log-demand as a smooth, context-conditioned function of log-prices, allowing elasticities to be derived exactly from the learned demand surface. On the Domi...",
+      "venue": "arXiv",
+      "date": "2026-05-21",
+      "arxiv_id": "2605.22820v1",
+      "url": "https://arxiv.org/abs/2605.22820v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.22820v1.pdf",
+      "categories": [
+        "cs.LG"
+      ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "AwareVLN: Reasoning with Self-awareness for Vision-Language Navigation",
+      "authors": "Wenxuan Guo, Xiuwei Xu, Yichen Liu et al.",
+      "abstract": "Vision-and-Language Navigation (VLN) requires an agent to ground language instructions to its own movement within a visual environment. While state-of-the-art methods leverage the reasoning capabilities of Vision-Language Models (VLMs) for end-to-end action prediction, they often lack an explicit an...",
+      "venue": "arXiv",
+      "date": "2026-05-21",
+      "arxiv_id": "2605.22816v1",
+      "url": "https://arxiv.org/abs/2605.22816v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.22816v1.pdf",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "GesVLA: Gesture-Aware Vision-Language-Action Model Embedded Representations",
+      "authors": "Wenxuan Guo, Ziyuan Li, Meng Zhang et al.",
+      "abstract": "Vision-Language-Action (VLA) models have shown strong potential for general-purpose robot manipulation by unifying perception and action. However, existing VLA systems primarily rely on textual instructions and struggle to resolve spatial ambiguity in complex scenes with multiple similar objects. To...",
+      "venue": "arXiv",
+      "date": "2026-05-21",
+      "arxiv_id": "2605.22812v1",
+      "url": "https://arxiv.org/abs/2605.22812v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.22812v1.pdf",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     }
