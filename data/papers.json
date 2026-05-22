@@ -1,72 +1,19 @@
 {
   "last_updated": "2026-05-22",
-  "count": 8,
+  "count": 2,
   "items": [
     {
-      "title": "Variance Reduction for Expectations with Diffusion Teachers",
-      "authors": "Jesse Bettencourt, Xindi Wu, Matan Atzmon et al.",
-      "abstract": "Pretrained diffusion models serve as frozen teachers feeding downstream pipelines such as text-to-3D, single-step distillation, and data attribution. The teacher gradients these pipelines consume are Monte Carlo (MC) expectations over noise levels and Gaussian noise samples; their estimator variance...",
+      "title": "Vector Policy Optimization: Training for Diversity Improves Test-Time Search",
+      "authors": "Ryan Bahlous-Boldi, Isha Puri, Idan Shenfeld et al.",
+      "abstract": "Language models must now generalize out of the box to novel environments and work inside inference-scaling search procedures, such as AlphaEvolve, that select rollouts with a variety of task-specific reward functions. Unfortunately, the standard paradigm of LLM post-training optimizes a pre-specifie...",
       "venue": "arXiv",
-      "date": "2026-05-20",
-      "arxiv_id": "2605.21489v1",
-      "url": "https://arxiv.org/abs/2605.21489v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.21489v1.pdf",
+      "date": "2026-05-21",
+      "arxiv_id": "2605.22817v1",
+      "url": "https://arxiv.org/abs/2605.22817v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.22817v1.pdf",
       "categories": [
         "cs.LG",
         "cs.AI",
-        "cs.CV"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Quantifying Hyperparameter Transfer and the Importance of Embedding Layer Learning Rate",
-      "authors": "Dayal Singh Kalra, Maissam Barkeshli",
-      "abstract": "Hyperparameter transfer allows extrapolating optimal optimization hyperparameters from small to large scales, making it critical for training large language models (LLMs). This is done either by fitting a scaling law to the hyperparameters or by a judicious choice of parameterization, such as Maxima...",
-      "venue": "arXiv",
-      "date": "2026-05-20",
-      "arxiv_id": "2605.21486v1",
-      "url": "https://arxiv.org/abs/2605.21486v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.21486v1.pdf",
-      "categories": [
-        "cs.LG",
-        "cond-mat.dis-nn",
-        "cs.AI"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "AiraXiv: An AI-Driven Open-Access Platform for Human and AI Scientists",
-      "authors": "Junshu Pan, Panzhong Lu, Yixuan Weng et al.",
-      "abstract": "Recent advances in artificial intelligence (AI) have accelerated the growth of both human-authored and AI-generated research outputs, placing increasing strain on traditional academic publishing systems and challenging the scalability of conference- and journal-centered paradigms amid rising submiss...",
-      "venue": "arXiv",
-      "date": "2026-05-20",
-      "arxiv_id": "2605.21481v1",
-      "url": "https://arxiv.org/abs/2605.21481v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.21481v1.pdf",
-      "categories": [
-        "cs.AI",
-        "cs.CL",
-        "cs.LG"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "You Only Need Minimal RLVR Training: Extrapolating LLMs via Rank-1 Trajectories",
-      "authors": "Zhepei Wei, Xinyu Zhu, Wei-Lin Chen et al.",
-      "abstract": "Reinforcement learning with verifiable rewards (RLVR) has become a dominant paradigm for improving reasoning in large language models (LLMs), yet the underlying geometry of the resulting parameter trajectories remains underexplored. In this work, we demonstrate that RLVR weight trajectories are extr...",
-      "venue": "arXiv",
-      "date": "2026-05-20",
-      "arxiv_id": "2605.21468v1",
-      "url": "https://arxiv.org/abs/2605.21468v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.21468v1.pdf",
-      "categories": [
-        "cs.LG",
         "cs.CL"
       ],
       "type": "nlp",
@@ -74,69 +21,20 @@
       "source": "arXiv"
     },
     {
-      "title": "Uni-Edit: Intelligent Editing Is A General Task For Unified Model Tuning",
-      "authors": "Dian Zheng, Manyuan Zhang, Hongyu Li et al.",
-      "abstract": "Currently, enhancing Unified Multimodal Models (UMMs) with image understanding, generation, and editing capabilities mainly relies on mixed multi-task training. Due to inherent task conflicts, such strategy requires complex multi-stage pipelines, massive data mixing, and balancing tricks, merely res...",
+      "title": "The Matching Principle: A Geometric Theory of Loss Functions for Nuisance-Robust Representation Learning",
+      "authors": "Vishal Rajput",
+      "abstract": "Robustness, domain adaptation, photometric and occlusion invariance, compositional generalisation, temporal robustness, alignment safety, and classical anisotropic regularisation are usually treated as separate problems with separate method families. This paper argues that much of their shared struc...",
       "venue": "arXiv",
-      "date": "2026-05-20",
-      "arxiv_id": "2605.21487v1",
-      "url": "https://arxiv.org/abs/2605.21487v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.21487v1.pdf",
+      "date": "2026-05-21",
+      "arxiv_id": "2605.22800v1",
+      "url": "https://arxiv.org/abs/2605.22800v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.22800v1.pdf",
       "categories": [
-        "cs.CV"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Equilibrium Reasoners: Learning Attractors Enables Scalable Reasoning",
-      "authors": "Benhao Huang, Zhengyang Geng, Zico Kolter",
-      "abstract": "Scaling test-time compute by iteratively updating a latent state has emerged as a powerful paradigm for reasoning. Yet the internal mechanisms that enable these iterative models to generalize beyond memorized patterns remain unclear. We hypothesize that generalizable reasoning arises from learning t...",
-      "venue": "arXiv",
-      "date": "2026-05-20",
-      "arxiv_id": "2605.21488v1",
-      "url": "https://arxiv.org/abs/2605.21488v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.21488v1.pdf",
-      "categories": [
-        "cs.LG"
+        "cs.LG",
+        "cs.AI",
+        "stat.ML"
       ],
       "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "HITL-D: Human In The Loop Diffusion Assisted Shared Control",
-      "authors": "Riley Zilka, Sergey Khlynovskiy, Allie Wang et al.",
-      "abstract": "Autonomous manipulation systems have achieved remarkable capabilities, yet the integration of human expertise with diffusion-based policies in shared control remains relatively unexplored. In this paper, we propose Human-In-The-Loop Diffusion (HITL-D), a shared control framework that enhances user p...",
-      "venue": "arXiv",
-      "date": "2026-05-20",
-      "arxiv_id": "2605.21460v1",
-      "url": "https://arxiv.org/abs/2605.21460v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.21460v1.pdf",
-      "categories": [
-        "cs.RO",
-        "cs.AI",
-        "cs.HC"
-      ],
-      "type": "ai",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Lost in Fog: Sensor Perturbations Expose Reasoning Fragility in Driving VLAs",
-      "authors": "Abhinaw Priyadershi, Jelena Frtunikj",
-      "abstract": "Interpretable autonomous driving planners depend not only on generating explanations, but also on those explanations remaining reliable under real-world sensor degradation. In this paper we present a controlled perturbation study of Vision-Language-Action (VLA) robustness in autonomous driving, eval...",
-      "venue": "arXiv",
-      "date": "2026-05-20",
-      "arxiv_id": "2605.21446v1",
-      "url": "https://arxiv.org/abs/2605.21446v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.21446v1.pdf",
-      "categories": [
-        "cs.RO",
-        "cs.AI"
-      ],
-      "type": "ai",
       "badge": "arxiv",
       "source": "arXiv"
     }
