@@ -8,18 +8,6 @@
       "count": 5,
       "items": [
         {
-          "title": "Markdown Content:",
-          "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-          "summary": "Markdown Content:...",
-          "date": "2026-05-22",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
           "title": "对话原子尺度：解密MatterChat如何赋予大模型理解、预测与设计微观物质的多模态能力",
           "link": "https://www.jiqizhixin.com/search/articles/对话原子尺度：解密Matter",
           "summary": "对话原子尺度：解密MatterChat如何赋予大模型理解、预测与设计微观物质的多模态能力...",
@@ -59,6 +47,18 @@
           "title": "ICML 2026 | 打破「回音室」效应！人大孟澄团队&华为提出集成剪枝视角下的MoE新架构",
           "link": "https://www.jiqizhixin.com/search/articles/ICML 2026 | 打破「",
           "summary": "ICML 2026 | 打破「回音室」效应！人大孟澄团队&华为提出集成剪枝视角下的MoE新架构...",
+          "date": "2026-05-22",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "CVPR 2026，来北京，听论文作者拆解真技术",
+          "link": "https://www.jiqizhixin.com/search/articles/CVPR 2026，来北京，听",
+          "summary": "CVPR 2026，来北京，听论文作者拆解真技术...",
           "date": "2026-05-22",
           "source": "机器之心",
           "type": "industry",
