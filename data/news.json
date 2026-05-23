@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-05-22",
+  "last_updated": "2026-05-23",
   "count": 200,
-  "history_count": 202,
+  "history_count": 205,
   "retention_days": 30,
   "items": [
     {
       "title": "一个专门用来评测具身空间智能的新基准",
       "link": "https://www.qbitai.com/?s=一个专门用来评测具身",
       "summary": "一个专门用来评测具身空间智能的新基准...",
-      "date": "2026-05-22",
+      "date": "2026-05-23",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -20,7 +20,7 @@
       "title": "DeepSeek Code is Coming",
       "link": "https://www.qbitai.com/?s=DeepSeek C",
       "summary": "DeepSeek Code is Coming...",
-      "date": "2026-05-22",
+      "date": "2026-05-23",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -32,7 +32,7 @@
       "title": "提效数十倍，Token消耗直降70%",
       "link": "https://www.qbitai.com/?s=提效数十倍，Toke",
       "summary": "提效数十倍，Token消耗直降70%...",
-      "date": "2026-05-22",
+      "date": "2026-05-23",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -44,7 +44,7 @@
       "title": "AI会放大“自嗨”，解药只有交付结果",
       "link": "https://www.qbitai.com/?s=AI会放大“自嗨”，",
       "summary": "AI会放大“自嗨”，解药只有交付结果...",
-      "date": "2026-05-22",
+      "date": "2026-05-23",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -56,8 +56,80 @@
       "title": "Qwen3.7-Max即将上线阿里云百炼对外提供API服务",
       "link": "https://www.qbitai.com/?s=Qwen3.7-Ma",
       "summary": "Qwen3.7-Max即将上线阿里云百炼对外提供API服务...",
-      "date": "2026-05-22",
+      "date": "2026-05-23",
       "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "Markdown Content:",
+      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+      "summary": "Markdown Content:...",
+      "date": "2026-05-22",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "对话原子尺度：解密MatterChat如何赋予大模型理解、预测与设计微观物质的多模态能力",
+      "link": "https://www.jiqizhixin.com/search/articles/对话原子尺度：解密Matter",
+      "summary": "对话原子尺度：解密MatterChat如何赋予大模型理解、预测与设计微观物质的多模态能力...",
+      "date": "2026-05-22",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "加速AI规模化落地：华为发布AI DC数据基础设施全栈方案",
+      "link": "https://www.jiqizhixin.com/search/articles/加速AI规模化落地：华为发布A",
+      "summary": "加速AI规模化落地：华为发布AI DC数据基础设施全栈方案...",
+      "date": "2026-05-22",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "微软：Claude Code的token，我也烧不起了",
+      "link": "https://www.jiqizhixin.com/search/articles/微软：Claude Code的",
+      "summary": "微软：Claude Code的token，我也烧不起了...",
+      "date": "2026-05-22",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "ICML 2026 | 打破「回音室」效应！人大孟澄团队&华为提出集成剪枝视角下的MoE新架构",
+      "link": "https://www.jiqizhixin.com/search/articles/ICML 2026 | 打破「",
+      "summary": "ICML 2026 | 打破「回音室」效应！人大孟澄团队&华为提出集成剪枝视角下的MoE新架构...",
+      "date": "2026-05-22",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "CVPR 2026，来北京，听论文作者拆解真技术",
+      "link": "https://www.jiqizhixin.com/search/articles/CVPR 2026，来北京，听",
+      "summary": "CVPR 2026，来北京，听论文作者拆解真技术...",
+      "date": "2026-05-22",
+      "source": "机器之心",
       "type": "industry",
       "tags": [
         "AI",
@@ -188,18 +260,6 @@
       "title": "大模型也会想太多？清华等提出TaH：跳过93%无效迭代，准确率反而提升",
       "link": "https://www.jiqizhixin.com/search/articles/大模型也会想太多？清华等提出T",
       "summary": "大模型也会想太多？清华等提出TaH：跳过93%无效迭代，准确率反而提升...",
-      "date": "2026-05-21",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Markdown Content:",
-      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-      "summary": "Markdown Content:...",
       "date": "2026-05-21",
       "source": "机器之心",
       "type": "industry",
@@ -2338,66 +2398,6 @@
       "summary": "在Agent能力、世界知识和推理性能上均实现国内与开源领域的领先。...",
       "date": "2026-04-26",
       "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "在OpenAI把Chronicle做成订阅功能48小时后，一群00后把它开源了",
-      "link": "https://www.jiqizhixin.com/search/articles/在OpenAI把Chronic",
-      "summary": "在OpenAI把Chronicle做成订阅功能48小时后，一群00后把它开源了...",
-      "date": "2026-04-25",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "ACL 2026 | 不训练LLM也能支持未见语言问答？中科院计算所团队让多语言能力「外挂式」加载",
-      "link": "https://www.jiqizhixin.com/search/articles/ACL 2026 | 不训练L",
-      "summary": "ACL 2026 | 不训练LLM也能支持未见语言问答？中科院计算所团队让多语言能力「外挂式」加载...",
-      "date": "2026-04-25",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "翻完DeepSeek报告，我们发现了中国AI的默契",
-      "link": "https://www.jiqizhixin.com/search/articles/翻完DeepSeek报告，我们",
-      "summary": "翻完DeepSeek报告，我们发现了中国AI的默契...",
-      "date": "2026-04-25",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "开源模型横扫21个科学发现任务！宽德Will联手斯坦福清北，把试错变成武器",
-      "link": "https://www.jiqizhixin.com/search/articles/开源模型横扫21个科学发现任务",
-      "summary": "开源模型横扫21个科学发现任务！宽德Will联手斯坦福清北，把试错变成武器...",
-      "date": "2026-04-25",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "ICLR 2026获奖论文揭晓：两篇杰出论文，大神Alec Radford经典工作获时间检验奖",
-      "link": "https://www.jiqizhixin.com/search/articles/ICLR 2026获奖论文揭晓",
-      "summary": "ICLR 2026获奖论文揭晓：两篇杰出论文，大神Alec Radford经典工作获时间检验奖...",
-      "date": "2026-04-25",
-      "source": "机器之心",
       "type": "industry",
       "tags": [
         "AI",
