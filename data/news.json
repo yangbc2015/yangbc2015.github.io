@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-05-23",
+  "last_updated": "2026-05-24",
   "count": 200,
-  "history_count": 200,
+  "history_count": 205,
   "retention_days": 30,
   "items": [
     {
       "title": "RoboChallenge榜首易主，清华系玩家加冕。",
       "link": "https://www.qbitai.com/?s=RoboChalle",
       "summary": "RoboChallenge榜首易主，清华系玩家加冕。...",
-      "date": "2026-05-23",
+      "date": "2026-05-24",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -20,12 +20,84 @@
       "title": "*   [Latest](http://techcrunch.com/latest/)",
       "link": "https://techcrunch.com/category/artificial-intelligence/",
       "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
-      "date": "2026-05-23",
+      "date": "2026-05-24",
       "source": "TechCrunch",
       "type": "industry",
       "tags": [
         "AI",
         "Artificial Intelligence"
+      ]
+    },
+    {
+      "title": "Markdown Content:",
+      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+      "summary": "Markdown Content:...",
+      "date": "2026-05-23",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "没有大模型、没有自有流量、股价一度跌成废墟，他靠什么把广告投放炼成千亿金矿？",
+      "link": "https://www.jiqizhixin.com/search/articles/没有大模型、没有自有流量、股价",
+      "summary": "没有大模型、没有自有流量、股价一度跌成废墟，他靠什么把广告投放炼成千亿金矿？...",
+      "date": "2026-05-23",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "Bengio新论文刷新递归推理上限，并行轨迹碾压串行推理",
+      "link": "https://www.jiqizhixin.com/search/articles/Bengio新论文刷新递归推理",
+      "summary": "Bengio新论文刷新递归推理上限，并行轨迹碾压串行推理...",
+      "date": "2026-05-23",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "22.9倍加速！FlashAR：仅用0.05%数据，让预训练好的自回归图像模型飞起来",
+      "link": "https://www.jiqizhixin.com/search/articles/22.9倍加速！FlashAR",
+      "summary": "22.9倍加速！FlashAR：仅用0.05%数据，让预训练好的自回归图像模型飞起来...",
+      "date": "2026-05-23",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "谷歌搜索智能体大升级，AI却直接「罢工」了？",
+      "link": "https://www.jiqizhixin.com/search/articles/谷歌搜索智能体大升级，AI却直",
+      "summary": "谷歌搜索智能体大升级，AI却直接「罢工」了？...",
+      "date": "2026-05-23",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "融资700亿元的DeepSeek，API价格直降3/4",
+      "link": "https://www.jiqizhixin.com/search/articles/融资700亿元的DeepSee",
+      "summary": "融资700亿元的DeepSeek，API价格直降3/4...",
+      "date": "2026-05-23",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
       ]
     },
     {
@@ -152,18 +224,6 @@
       "title": "首个三模式大语言模型：4倍token吞吐量，长文本秒级时代要来了？",
       "link": "https://www.jiqizhixin.com/search/articles/首个三模式大语言模型：4倍to",
       "summary": "首个三模式大语言模型：4倍token吞吐量，长文本秒级时代要来了？...",
-      "date": "2026-05-22",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Markdown Content:",
-      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-      "summary": "Markdown Content:...",
       "date": "2026-05-22",
       "source": "机器之心",
       "type": "industry",
@@ -2338,66 +2398,6 @@
       "summary": "超越Claude Mythos和GPT-5.5！斯坦福推出Agent验证框架「LLM-as-a-Verifier」...",
       "date": "2026-04-26",
       "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "终于，学界找到了深度学习的「牛顿定律」",
-      "link": "https://www.jiqizhixin.com/search/articles/终于，学界找到了深度学习的「牛",
-      "summary": "终于，学界找到了深度学习的「牛顿定律」...",
-      "date": "2026-04-26",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "剪映上线AI助手，熬夜剪片的苦日子终于到头了",
-      "link": "https://www.jiqizhixin.com/search/articles/剪映上线AI助手，熬夜剪片的苦",
-      "summary": "剪映上线AI助手，熬夜剪片的苦日子终于到头了...",
-      "date": "2026-04-26",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "大模型高效推理新答案：ICLR 2026提出Balanced Thinking，精度提升10.0的同时，推理长度直降35.4%",
-      "link": "https://www.jiqizhixin.com/search/articles/大模型高效推理新答案：ICLR",
-      "summary": "大模型高效推理新答案：ICLR 2026提出Balanced Thinking，精度提升10.0的同时，推理长度直降35.4%...",
-      "date": "2026-04-26",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "刚刚，OpenClaw大更新：正式接入DeepSeek V4",
-      "link": "https://www.jiqizhixin.com/search/articles/刚刚，OpenClaw大更新：",
-      "summary": "刚刚，OpenClaw大更新：正式接入DeepSeek V4...",
-      "date": "2026-04-26",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "业界首个面向多Agent协作的标准化能力包规范",
-      "link": "https://www.qbitai.com/?s=业界首个面向多Age",
-      "summary": "业界首个面向多Agent协作的标准化能力包规范...",
-      "date": "2026-04-26",
-      "source": "量子位",
       "type": "industry",
       "tags": [
         "AI",

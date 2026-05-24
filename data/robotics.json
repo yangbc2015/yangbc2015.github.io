@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-23",
+  "last_updated": "2026-05-24",
   "count": 200,
   "items": [
     {
@@ -13,6 +13,19 @@
       "tags": [
         "机器人",
         "人形机器人"
+      ]
+    },
+    {
+      "title": "具身智能落地需高质量结构化数据，建五层数据编译管线构建生态",
+      "summary": "具身智能落地需高质量结构化数据，建五层数据编译管线构建生态",
+      "url": "http://36kr.com/p/3819884983226497",
+      "date": "2026-05-22",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
       ]
     },
     {
@@ -3067,22 +3080,6 @@
       "type": "paper",
       "arxiv_id": "2604.06150v1",
       "authors": "Yue Feng, Weicheng Huang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Learning-Guided Force-Feedback Model Predictive Control with Obstacle Avoidance for Robotic Deburring",
-      "summary": "Model Predictive Control (MPC) is widely used for torque-controlled robots, but classical formulations often neglect real-time force feedback and struggle with contact-rich industrial tasks under collision constraints. Deburring in particular require...",
-      "url": "https://arxiv.org/abs/2604.06133v1",
-      "date": "2026-04-07",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2604.06133v1",
-      "authors": "Krzysztof Wojciechowski, Ege Gursoy et al.",
       "tags": [
         "机器人学习",
         "研究论文",
