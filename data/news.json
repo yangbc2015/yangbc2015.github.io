@@ -1,9 +1,69 @@
 {
   "last_updated": "2026-05-24",
   "count": 200,
-  "history_count": 200,
+  "history_count": 202,
   "retention_days": 30,
   "items": [
+    {
+      "title": "搜索25年来最大改版，但谷歌还不敢一脚切到AI",
+      "link": "https://www.qbitai.com/?s=搜索25年来最大改版",
+      "summary": "搜索25年来最大改版，但谷歌还不敢一脚切到AI...",
+      "date": "2026-05-24",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "技术创新只是起点，产业整合速度才是AI落地的真正竞争力",
+      "link": "https://www.qbitai.com/?s=技术创新只是起点，产",
+      "summary": "技术创新只是起点，产业整合速度才是AI落地的真正竞争力...",
+      "date": "2026-05-24",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "一个专门用来评测具身空间智能的新基准",
+      "link": "https://www.qbitai.com/?s=一个专门用来评测具身",
+      "summary": "一个专门用来评测具身空间智能的新基准...",
+      "date": "2026-05-24",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "DeepSeek Code is Coming",
+      "link": "https://www.qbitai.com/?s=DeepSeek C",
+      "summary": "DeepSeek Code is Coming...",
+      "date": "2026-05-24",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "提效数十倍，Token消耗直降70%",
+      "link": "https://www.qbitai.com/?s=提效数十倍，Toke",
+      "summary": "提效数十倍，Token消耗直降70%...",
+      "date": "2026-05-24",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
     {
       "title": "RoboChallenge榜首易主，清华系玩家加冕。",
       "link": "https://www.qbitai.com/?s=RoboChalle",
@@ -94,42 +154,6 @@
       "summary": "融资700亿元的DeepSeek，API价格直降3/4...",
       "date": "2026-05-23",
       "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "一个专门用来评测具身空间智能的新基准",
-      "link": "https://www.qbitai.com/?s=一个专门用来评测具身",
-      "summary": "一个专门用来评测具身空间智能的新基准...",
-      "date": "2026-05-23",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "DeepSeek Code is Coming",
-      "link": "https://www.qbitai.com/?s=DeepSeek C",
-      "summary": "DeepSeek Code is Coming...",
-      "date": "2026-05-23",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "提效数十倍，Token消耗直降70%",
-      "link": "https://www.qbitai.com/?s=提效数十倍，Toke",
-      "summary": "提效数十倍，Token消耗直降70%...",
-      "date": "2026-05-23",
-      "source": "量子位",
       "type": "industry",
       "tags": [
         "AI",
@@ -2374,30 +2398,6 @@
       "summary": "想做一台真正能兼顾商用、越野、通勤和户外生活的新能源皮卡。...",
       "date": "2026-04-27",
       "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "AI管AI！OpenClaw官方维护机器人上线：一天横扫4000 issues",
-      "link": "https://www.jiqizhixin.com/search/articles/AI管AI！OpenClaw官",
-      "summary": "AI管AI！OpenClaw官方维护机器人上线：一天横扫4000 issues...",
-      "date": "2026-04-26",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "超越Claude Mythos和GPT-5.5！斯坦福推出Agent验证框架「LLM-as-a-Verifier」",
-      "link": "https://www.jiqizhixin.com/search/articles/超越Claude Mythos",
-      "summary": "超越Claude Mythos和GPT-5.5！斯坦福推出Agent验证框架「LLM-as-a-Verifier」...",
-      "date": "2026-04-26",
-      "source": "机器之心",
       "type": "industry",
       "tags": [
         "AI",
