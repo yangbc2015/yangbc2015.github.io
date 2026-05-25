@@ -16,6 +16,86 @@
       ]
     },
     {
+      "title": "Good Token Hunting: A Hitchhiker's Guide to Token Selection for Visual Geometry Transformers",
+      "summary": "Visual geometry transformers have become powerful architectures for multi-view 3D reconstruction, enabling joint prediction of multiple 3D attributes in a feed-forward manner. However, their computational cost grows quadratically with the input seque...",
+      "url": "https://arxiv.org/abs/2605.23892v1",
+      "date": "2026-05-22",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2605.23892v1",
+      "authors": "Shuhong Zheng, Michael Oechsle et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Robotic Strawberry Harvesting with Robust Vision and Deep Reinforcement Learning based Sim-to-Real Control",
+      "summary": "This study presents a closed-loop robotic strawberry harvesting system that combines a robust vision module, simulation-trained deep reinforcement learning (DRL) control, and ROS-based realrobot execution. For perception, we propose HRAttnEdge-YOLO26...",
+      "url": "https://arxiv.org/abs/2605.23863v1",
+      "date": "2026-05-22",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2605.23863v1",
+      "authors": "Al Bashir, Shao-Yang Chang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Point Tracking Improves World Action Models",
+      "summary": "Robot policy learning benefits from world-action models that capture environment dynamics, but pixel-level prediction entangles dynamics with nuisance factors such as lighting and texture, making learned representations vulnerable to task-irrelevant ...",
+      "url": "https://arxiv.org/abs/2605.23856v1",
+      "date": "2026-05-22",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2605.23856v1",
+      "authors": "Jiarui Guan, Wenshuai Zhao et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Instrumentation for Imitation Learning: Enhancing Training Datasets for Clothes Hanger Insertion",
+      "summary": "Large behaviour models have transformed the field of robotic manipulation, but prohibitive data requirements have thus far prevented a revolution similar to vision language models. We believe that instrumentation, i.e. sensor integration in objects, ...",
+      "url": "https://arxiv.org/abs/2605.23847v1",
+      "date": "2026-05-22",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2605.23847v1",
+      "authors": "Remko Proesmans, Thomas Lips et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "SFG-ROS: A Resource-Aware Framework for Dense Multi-Agent Perception",
+      "summary": "Deploying heterogeneous multi-agent robot fleets for collaborative perception requires robust data exchange and scalable software architectures. However, standard ROS 2 implementations often suffer from network saturation, namespace collisions, and s...",
+      "url": "https://arxiv.org/abs/2605.23832v1",
+      "date": "2026-05-22",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2605.23832v1",
+      "authors": "Constantin Blessing, Elias Geiger et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
       "title": "具身智能落地需高质量结构化数据，建五层数据编译管线构建生态",
       "summary": "具身智能落地需高质量结构化数据，建五层数据编译管线构建生态",
       "url": "http://36kr.com/p/3819884983226497",
@@ -3000,86 +3080,6 @@
       "type": "paper",
       "arxiv_id": "2604.07335v1",
       "authors": "Longyan Wu, Jieji Ren et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "RoSHI: A Versatile Robot-oriented Suit for Human Data In-the-Wild",
-      "summary": "Scaling up robot learning will likely require human data containing rich and long-horizon interactions in the wild. Existing approaches for collecting such data trade off portability, robustness to occlusion, and global consistency. We introduce RoSH...",
-      "url": "https://arxiv.org/abs/2604.07331v1",
-      "date": "2026-04-08",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2604.07331v1",
-      "authors": "Wenjing Margaret Mao, Jefferson Ng et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Robots that learn to evaluate models of collective behavior",
-      "summary": "Understanding and modeling animal behavior is essential for studying collective motion, decision-making, and bio-inspired robotics. Yet, evaluating the accuracy of behavioral models still often relies on offline comparisons to static trajectory stati...",
-      "url": "https://arxiv.org/abs/2604.07303v1",
-      "date": "2026-04-08",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2604.07303v1",
-      "authors": "Mathis Hocke, Andreas Gerken et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "CADENCE: Context-Adaptive Depth Estimation for Navigation and Computational Efficiency",
-      "summary": "Autonomous vehicles deployed in remote environments typically rely on embedded processors, compact batteries, and lightweight sensors. These hardware limitations conflict with the need to derive robust representations of the environment, which often ...",
-      "url": "https://arxiv.org/abs/2604.07286v1",
-      "date": "2026-04-08",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2604.07286v1",
-      "authors": "Timothy K Johnsen, Marco Levorato",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Action Images: End-to-End Policy Learning via Multiview Video Generation",
-      "summary": "World action models (WAMs) have emerged as a promising direction for robot policy learning, as they can leverage powerful video backbones to model the future states. However, existing approaches often rely on separate action modules, or use action re...",
-      "url": "https://arxiv.org/abs/2604.06168v1",
-      "date": "2026-04-07",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2604.06168v1",
-      "authors": "Haoyu Zhen, Zixian Gao et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Delta6: A Low-Cost, 6-DOF Force-Sensing Flexible End-Effector",
-      "summary": "This paper presents Delta6, a low-cost, six-degree-of-freedom (6-DOF) force/torque end-effector that combines antagonistic springs with magnetic encoders to deliver accurate wrench sensing while remaining as simple to assemble as flat-pack furniture....",
-      "url": "https://arxiv.org/abs/2604.06150v1",
-      "date": "2026-04-07",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2604.06150v1",
-      "authors": "Yue Feng, Weicheng Huang et al.",
       "tags": [
         "机器人学习",
         "研究论文",

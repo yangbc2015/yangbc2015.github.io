@@ -3,16 +3,15 @@
   "count": 8,
   "items": [
     {
-      "title": "Vector Policy Optimization: Training for Diversity Improves Test-Time Search",
-      "authors": "Ryan Bahlous-Boldi, Isha Puri, Idan Shenfeld et al.",
-      "abstract": "Language models must now generalize out of the box to novel environments and work inside inference-scaling search procedures, such as AlphaEvolve, that select rollouts with a variety of task-specific reward functions. Unfortunately, the standard paradigm of LLM post-training optimizes a pre-specifie...",
+      "title": "SkillOpt: Executive Strategy for Self-Evolving Agent Skills",
+      "authors": "Yifan Yang, Ziyang Gong, Weiquan Huang et al.",
+      "abstract": "Agent skills today are hand-crafted, generated one-shot, or evolved through loosely controlled self-revision, none of which behaves like a deep-learning optimizer for the skill, and none of which reliably improves over its starting point under feedback. We argue the skill should instead be trained a...",
       "venue": "arXiv",
-      "date": "2026-05-21",
-      "arxiv_id": "2605.22817v1",
-      "url": "https://arxiv.org/abs/2605.22817v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.22817v1.pdf",
+      "date": "2026-05-22",
+      "arxiv_id": "2605.23904v1",
+      "url": "https://arxiv.org/abs/2605.23904v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.23904v1.pdf",
       "categories": [
-        "cs.LG",
         "cs.AI",
         "cs.CL"
       ],
@@ -21,49 +20,50 @@
       "source": "arXiv"
     },
     {
-      "title": "The Matching Principle: A Geometric Theory of Loss Functions for Nuisance-Robust Representation Learning",
-      "authors": "Vishal Rajput",
-      "abstract": "Robustness, domain adaptation, photometric and occlusion invariance, compositional generalisation, temporal robustness, alignment safety, and classical anisotropic regularisation are usually treated as separate problems with separate method families. This paper argues that much of their shared struc...",
+      "title": "LLMs as Noisy Channels: A Shannon Perspective on Model Capacity and Scaling Laws",
+      "authors": "Xu Ouyang, Deyi Liu, Yuhang Cai et al.",
+      "abstract": "Existing scaling laws for Large Language Models (LLMs), predominantly monotonic power laws, fail to explain emerging non-monotonic phenomena such as catastrophic overtraining and quantization-induced degradation, where performance deteriorates despite increased compute. We propose the Shannon Scalin...",
       "venue": "arXiv",
-      "date": "2026-05-21",
-      "arxiv_id": "2605.22800v1",
-      "url": "https://arxiv.org/abs/2605.22800v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.22800v1.pdf",
+      "date": "2026-05-22",
+      "arxiv_id": "2605.23901v1",
+      "url": "https://arxiv.org/abs/2605.23901v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.23901v1.pdf",
       "categories": [
         "cs.LG",
         "cs.AI",
-        "stat.ML"
+        "cs.IT"
       ],
       "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Tokenisation via Convex Relaxations",
-      "authors": "Jan Tempus, Philip Whittington, Craig W. Schmidt et al.",
-      "abstract": "Tokenisation is an integral part of the current NLP pipeline. Current tokenisation algorithms such as BPE and Unigram are greedy algorithms -- they make locally optimal decisions without considering the resulting vocabulary as a whole. We instead formulate tokeniser construction as a linear program ...",
+      "title": "ETCHR: Editing To Clarify and Harness Reasoning",
+      "authors": "Beichen Zhang, Yuhong Liu, Jinsong Li et al.",
+      "abstract": "Multimodal Large Language Models have advanced visual reasoning, yet a purely textual chain of thought remains a bottleneck for questions that require fine-grained focus or view transformations. The ''think with images'' paradigm narrows this gap, but existing approaches are either constrained by fi...",
       "venue": "arXiv",
-      "date": "2026-05-21",
-      "arxiv_id": "2605.22821v1",
-      "url": "https://arxiv.org/abs/2605.22821v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.22821v1.pdf",
+      "date": "2026-05-22",
+      "arxiv_id": "2605.23897v1",
+      "url": "https://arxiv.org/abs/2605.23897v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.23897v1.pdf",
       "categories": [
-        "cs.CL",
-        "cs.LG"
+        "cs.CV",
+        "cs.AI",
+        "cs.CL"
       ],
       "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Which Way Did It Move? Diagnosing and Overcoming Directional Motion Blindness in Video-LLMs",
-      "authors": "Jongseo Lee, Hyuntak Lee, Sunghun Kim et al.",
-      "abstract": "Video Large Language Models (Video-LLMs) have made rapid progress on temporal video understanding, yet many fail at a basic perceptual primitive: signed image-plane motion direction. On simple videos of a single object moving left, right, up, or down, most Video-LLMs perform near chance, with above-...",
+      "title": "Geo-Align: Video Generation Alignment via Metric Geometry Reward",
+      "authors": "Zizun Li, Haoyu Guo, Runzhe Teng et al.",
+      "abstract": "Camera-controlled video generation has achieved remarkable progress in recent years. However, existing video-to-video re-rendering methods primarily rely on Supervised Fine-Tuning using synthetic datasets. At present, there is an extreme scarcity of synchronized, multi-view real-world video data. Co...",
       "venue": "arXiv",
-      "date": "2026-05-21",
-      "arxiv_id": "2605.22823v1",
-      "url": "https://arxiv.org/abs/2605.22823v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.22823v1.pdf",
+      "date": "2026-05-22",
+      "arxiv_id": "2605.23903v1",
+      "url": "https://arxiv.org/abs/2605.23903v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.23903v1.pdf",
       "categories": [
         "cs.CV"
       ],
@@ -72,14 +72,14 @@
       "source": "arXiv"
     },
     {
-      "title": "Cambrian-P: Pose-Grounded Video Understanding",
-      "authors": "Jihan Yang, Zifan Zhao, Xichen Pan et al.",
-      "abstract": "Camera pose matters. The position and orientation of each viewpoint define a shared spatial coordinate frame that relates observations across video frames. Yet this signal is largely absent from multimodal LLMs (MLLMs) for video understanding, which process frames as isolated 2D snapshots, instead o...",
+      "title": "PiD: Fast and High-Resolution Latent Decoding with Pixel Diffusion",
+      "authors": "Yifan Lu, Qi Wu, Jay Zhangjie Wu et al.",
+      "abstract": "Most practical high-resolution text-to-image systems, including latent diffusion and autoregressive models, perform generation in a compact latent space, and a decoder maps the generated latents back to pixels. Yet the latent-to-pixel decoder is reconstruction-oriented, optimized to invert the encod...",
       "venue": "arXiv",
-      "date": "2026-05-21",
-      "arxiv_id": "2605.22819v1",
-      "url": "https://arxiv.org/abs/2605.22819v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.22819v1.pdf",
+      "date": "2026-05-22",
+      "arxiv_id": "2605.23902v1",
+      "url": "https://arxiv.org/abs/2605.23902v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.23902v1.pdf",
       "categories": [
         "cs.CV"
       ],
@@ -88,14 +88,14 @@
       "source": "arXiv"
     },
     {
-      "title": "Integrable Elasticity via Neural Demand Potentials",
-      "authors": "Carlos Heredia, Daniel Roncel",
-      "abstract": "We propose the Integrable Context-Dependent Demand Network (ICDN), a demand-first neural model for multiproduct retail demand. The model learns log-demand as a smooth, context-conditioned function of log-prices, allowing elasticities to be derived exactly from the learned demand surface. On the Domi...",
+      "title": "Complete-muE: Optimal Hyperparameter Transfer and Scaling for MoE Models",
+      "authors": "Hongwu Peng, Ohiremen Dibua, Yuanjun Xiong et al.",
+      "abstract": "We propose Complete-muE, a framework which targets hyperparameter transfer across dense FFN and any Mixture-of-Experts (MoE) setups in transformer blocks. Existing tools such as $μ$P (requires fixed architectue) or SDE (requires fixed per-step token count) cannot directly solve the hyperparameter tr...",
       "venue": "arXiv",
-      "date": "2026-05-21",
-      "arxiv_id": "2605.22820v1",
-      "url": "https://arxiv.org/abs/2605.22820v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.22820v1.pdf",
+      "date": "2026-05-22",
+      "arxiv_id": "2605.23893v1",
+      "url": "https://arxiv.org/abs/2605.23893v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.23893v1.pdf",
       "categories": [
         "cs.LG"
       ],
@@ -104,36 +104,36 @@
       "source": "arXiv"
     },
     {
-      "title": "AwareVLN: Reasoning with Self-awareness for Vision-Language Navigation",
-      "authors": "Wenxuan Guo, Xiuwei Xu, Yichen Liu et al.",
-      "abstract": "Vision-and-Language Navigation (VLN) requires an agent to ground language instructions to its own movement within a visual environment. While state-of-the-art methods leverage the reasoning capabilities of Vision-Language Models (VLMs) for end-to-end action prediction, they often lack an explicit an...",
+      "title": "Good Token Hunting: A Hitchhiker's Guide to Token Selection for Visual Geometry Transformers",
+      "authors": "Shuhong Zheng, Michael Oechsle, Erik Sandström et al.",
+      "abstract": "Visual geometry transformers have become powerful architectures for multi-view 3D reconstruction, enabling joint prediction of multiple 3D attributes in a feed-forward manner. However, their computational cost grows quadratically with the input sequence length due to the global attention layers insi...",
       "venue": "arXiv",
-      "date": "2026-05-21",
-      "arxiv_id": "2605.22816v1",
-      "url": "https://arxiv.org/abs/2605.22816v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.22816v1.pdf",
+      "date": "2026-05-22",
+      "arxiv_id": "2605.23892v1",
+      "url": "https://arxiv.org/abs/2605.23892v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.23892v1.pdf",
       "categories": [
-        "cs.RO",
-        "cs.CV"
+        "cs.CV",
+        "cs.AI",
+        "cs.GR"
       ],
-      "type": "nlp",
+      "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "GesVLA: Gesture-Aware Vision-Language-Action Model Embedded Representations",
-      "authors": "Wenxuan Guo, Ziyuan Li, Meng Zhang et al.",
-      "abstract": "Vision-Language-Action (VLA) models have shown strong potential for general-purpose robot manipulation by unifying perception and action. However, existing VLA systems primarily rely on textual instructions and struggle to resolve spatial ambiguity in complex scenes with multiple similar objects. To...",
+      "title": "Robotic Strawberry Harvesting with Robust Vision and Deep Reinforcement Learning based Sim-to-Real Control",
+      "authors": "Al Bashir, Shao-Yang Chang, Partho Ghose et al.",
+      "abstract": "This study presents a closed-loop robotic strawberry harvesting system that combines a robust vision module, simulation-trained deep reinforcement learning (DRL) control, and ROS-based realrobot execution. For perception, we propose HRAttnEdge-YOLO26-seg, a modified YOLO26-seg architecture that inco...",
       "venue": "arXiv",
-      "date": "2026-05-21",
-      "arxiv_id": "2605.22812v1",
-      "url": "https://arxiv.org/abs/2605.22812v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.22812v1.pdf",
+      "date": "2026-05-22",
+      "arxiv_id": "2605.23863v1",
+      "url": "https://arxiv.org/abs/2605.23863v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.23863v1.pdf",
       "categories": [
-        "cs.RO",
-        "cs.CV"
+        "cs.RO"
       ],
-      "type": "nlp",
+      "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     }
