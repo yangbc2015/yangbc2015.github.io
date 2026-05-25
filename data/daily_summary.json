@@ -1,6 +1,6 @@
 {
-  "date": "2026-05-24",
-  "last_updated": "2026-05-24",
+  "date": "2026-05-25",
+  "last_updated": "2026-05-25",
   "categories": {
     "ai": {
       "name": "人工智能",
@@ -8,10 +8,10 @@
       "count": 5,
       "items": [
         {
-          "title": "没有大模型、没有自有流量、股价一度跌成废墟，他靠什么把广告投放炼成千亿金矿？",
-          "link": "https://www.jiqizhixin.com/search/articles/没有大模型、没有自有流量、股价",
-          "summary": "没有大模型、没有自有流量、股价一度跌成废墟，他靠什么把广告投放炼成千亿金矿？...",
-          "date": "2026-05-23",
+          "title": "Markdown Content:",
+          "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+          "summary": "Markdown Content:...",
+          "date": "2026-05-24",
           "source": "机器之心",
           "type": "industry",
           "tags": [
@@ -20,10 +20,10 @@
           ]
         },
         {
-          "title": "Bengio新论文刷新递归推理上限，并行轨迹碾压串行推理",
-          "link": "https://www.jiqizhixin.com/search/articles/Bengio新论文刷新递归推理",
-          "summary": "Bengio新论文刷新递归推理上限，并行轨迹碾压串行推理...",
-          "date": "2026-05-23",
+          "title": "还在手写CUDA内核？CODA来了！LLM和新手也能让Transformer跑出光速",
+          "link": "https://www.jiqizhixin.com/search/articles/还在手写CUDA内核？CODA",
+          "summary": "还在手写CUDA内核？CODA来了！LLM和新手也能让Transformer跑出光速...",
+          "date": "2026-05-24",
           "source": "机器之心",
           "type": "industry",
           "tags": [
@@ -32,10 +32,10 @@
           ]
         },
         {
-          "title": "22.9倍加速！FlashAR：仅用0.05%数据，让预训练好的自回归图像模型飞起来",
-          "link": "https://www.jiqizhixin.com/search/articles/22.9倍加速！FlashAR",
-          "summary": "22.9倍加速！FlashAR：仅用0.05%数据，让预训练好的自回归图像模型飞起来...",
-          "date": "2026-05-23",
+          "title": "RSS 2026｜机器人别等失败了才补救，AgentChord让恢复动作提前写进任务图",
+          "link": "https://www.jiqizhixin.com/search/articles/RSS 2026｜机器人别等失",
+          "summary": "RSS 2026｜机器人别等失败了才补救，AgentChord让恢复动作提前写进任务图...",
+          "date": "2026-05-24",
           "source": "机器之心",
           "type": "industry",
           "tags": [
@@ -44,10 +44,10 @@
           ]
         },
         {
-          "title": "谷歌搜索智能体大升级，AI却直接「罢工」了？",
-          "link": "https://www.jiqizhixin.com/search/articles/谷歌搜索智能体大升级，AI却直",
-          "summary": "谷歌搜索智能体大升级，AI却直接「罢工」了？...",
-          "date": "2026-05-23",
+          "title": "Meta大裁员的「幸存者」 们，正在经历进退两难...",
+          "link": "https://www.jiqizhixin.com/search/articles/Meta大裁员的「幸存者」 们",
+          "summary": "Meta大裁员的「幸存者」 们，正在经历进退两难......",
+          "date": "2026-05-24",
           "source": "机器之心",
           "type": "industry",
           "tags": [
@@ -56,10 +56,10 @@
           ]
         },
         {
-          "title": "融资700亿元的DeepSeek，API价格直降3/4",
-          "link": "https://www.jiqizhixin.com/search/articles/融资700亿元的DeepSee",
-          "summary": "融资700亿元的DeepSeek，API价格直降3/4...",
-          "date": "2026-05-23",
+          "title": "ICML 2026｜首个视觉语言模型并行思考框架，一文解析内在机制",
+          "link": "https://www.jiqizhixin.com/search/articles/ICML 2026｜首个视觉语",
+          "summary": "ICML 2026｜首个视觉语言模型并行思考框架，一文解析内在机制...",
+          "date": "2026-05-24",
           "source": "机器之心",
           "type": "industry",
           "tags": [

@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-05-24",
+  "last_updated": "2026-05-25",
   "count": 200,
-  "history_count": 200,
+  "history_count": 205,
   "retention_days": 30,
   "items": [
     {
       "title": "大厂集体下场后，创业公司还有哪些机会？",
       "link": "https://www.qbitai.com/?s=大厂集体下场后，创业",
       "summary": "大厂集体下场后，创业公司还有哪些机会？...",
-      "date": "2026-05-24",
+      "date": "2026-05-25",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -20,7 +20,7 @@
       "title": "搜索25年来最大改版，但谷歌还不敢一脚切到AI",
       "link": "https://www.qbitai.com/?s=搜索25年来最大改版",
       "summary": "搜索25年来最大改版，但谷歌还不敢一脚切到AI...",
-      "date": "2026-05-24",
+      "date": "2026-05-25",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -32,7 +32,7 @@
       "title": "技术创新只是起点，产业整合速度才是AI落地的真正竞争力",
       "link": "https://www.qbitai.com/?s=技术创新只是起点，产",
       "summary": "技术创新只是起点，产业整合速度才是AI落地的真正竞争力...",
-      "date": "2026-05-24",
+      "date": "2026-05-25",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -44,7 +44,7 @@
       "title": "一个专门用来评测具身空间智能的新基准",
       "link": "https://www.qbitai.com/?s=一个专门用来评测具身",
       "summary": "一个专门用来评测具身空间智能的新基准...",
-      "date": "2026-05-24",
+      "date": "2026-05-25",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -56,8 +56,80 @@
       "title": "DeepSeek Code is Coming",
       "link": "https://www.qbitai.com/?s=DeepSeek C",
       "summary": "DeepSeek Code is Coming...",
-      "date": "2026-05-24",
+      "date": "2026-05-25",
       "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "Markdown Content:",
+      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+      "summary": "Markdown Content:...",
+      "date": "2026-05-24",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "还在手写CUDA内核？CODA来了！LLM和新手也能让Transformer跑出光速",
+      "link": "https://www.jiqizhixin.com/search/articles/还在手写CUDA内核？CODA",
+      "summary": "还在手写CUDA内核？CODA来了！LLM和新手也能让Transformer跑出光速...",
+      "date": "2026-05-24",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "RSS 2026｜机器人别等失败了才补救，AgentChord让恢复动作提前写进任务图",
+      "link": "https://www.jiqizhixin.com/search/articles/RSS 2026｜机器人别等失",
+      "summary": "RSS 2026｜机器人别等失败了才补救，AgentChord让恢复动作提前写进任务图...",
+      "date": "2026-05-24",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "Meta大裁员的「幸存者」 们，正在经历进退两难...",
+      "link": "https://www.jiqizhixin.com/search/articles/Meta大裁员的「幸存者」 们",
+      "summary": "Meta大裁员的「幸存者」 们，正在经历进退两难......",
+      "date": "2026-05-24",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "ICML 2026｜首个视觉语言模型并行思考框架，一文解析内在机制",
+      "link": "https://www.jiqizhixin.com/search/articles/ICML 2026｜首个视觉语",
+      "summary": "ICML 2026｜首个视觉语言模型并行思考框架，一文解析内在机制...",
+      "date": "2026-05-24",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "离谱！辅导班教学员刷开源项目PR给简历「镀金」，vLLM险些中招",
+      "link": "https://www.jiqizhixin.com/search/articles/离谱！辅导班教学员刷开源项目P",
+      "summary": "离谱！辅导班教学员刷开源项目PR给简历「镀金」，vLLM险些中招...",
+      "date": "2026-05-24",
+      "source": "机器之心",
       "type": "industry",
       "tags": [
         "AI",
@@ -152,18 +224,6 @@
       "title": "融资700亿元的DeepSeek，API价格直降3/4",
       "link": "https://www.jiqizhixin.com/search/articles/融资700亿元的DeepSee",
       "summary": "融资700亿元的DeepSeek，API价格直降3/4...",
-      "date": "2026-05-23",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Markdown Content:",
-      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-      "summary": "Markdown Content:...",
       "date": "2026-05-23",
       "source": "机器之心",
       "type": "industry",
@@ -2338,66 +2398,6 @@
       "summary": "芒果传媒与爱诗科技达成战略合作，全栈AI视频能力接入芒果内容生态...",
       "date": "2026-04-27",
       "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "由陶哲轩联合多位诺奖、图灵奖得主共同创立",
-      "link": "https://www.qbitai.com/?s=由陶哲轩联合多位诺奖",
-      "summary": "由陶哲轩联合多位诺奖、图灵奖得主共同创立...",
-      "date": "2026-04-27",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "‘研-产-供-销-服’全价值链自主掌控",
-      "link": "https://www.qbitai.com/?s=‘研-产-供-销-服",
-      "summary": "‘研-产-供-销-服’全价值链自主掌控...",
-      "date": "2026-04-27",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "“做好自动驾驶， 海量数据的作用只占10%”",
-      "link": "https://www.qbitai.com/?s=“做好自动驾驶， 海",
-      "summary": "“做好自动驾驶， 海量数据的作用只占10%”...",
-      "date": "2026-04-27",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "模型降智属实，所有使用额度均已重置。",
-      "link": "https://www.qbitai.com/?s=模型降智属实，所有使",
-      "summary": "模型降智属实，所有使用额度均已重置。...",
-      "date": "2026-04-27",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "一家低调的视觉大模型公司，浮出水面",
-      "link": "https://www.qbitai.com/?s=一家低调的视觉大模型",
-      "summary": "一家低调的视觉大模型公司，浮出水面...",
-      "date": "2026-04-27",
-      "source": "量子位",
       "type": "industry",
       "tags": [
         "AI",
