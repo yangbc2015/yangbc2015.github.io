@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-05-25",
-  "count": 8,
+  "count": 5,
   "items": [
     {
       "title": "SkillOpt: Executive Strategy for Self-Evolving Agent Skills",
@@ -34,24 +34,6 @@
         "cs.IT"
       ],
       "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "ETCHR: Editing To Clarify and Harness Reasoning",
-      "authors": "Beichen Zhang, Yuhong Liu, Jinsong Li et al.",
-      "abstract": "Multimodal Large Language Models have advanced visual reasoning, yet a purely textual chain of thought remains a bottleneck for questions that require fine-grained focus or view transformations. The ''think with images'' paradigm narrows this gap, but existing approaches are either constrained by fi...",
-      "venue": "arXiv",
-      "date": "2026-05-22",
-      "arxiv_id": "2605.23897v1",
-      "url": "https://arxiv.org/abs/2605.23897v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.23897v1.pdf",
-      "categories": [
-        "cs.CV",
-        "cs.AI",
-        "cs.CL"
-      ],
-      "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
@@ -100,40 +82,6 @@
         "cs.LG"
       ],
       "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Good Token Hunting: A Hitchhiker's Guide to Token Selection for Visual Geometry Transformers",
-      "authors": "Shuhong Zheng, Michael Oechsle, Erik Sandström et al.",
-      "abstract": "Visual geometry transformers have become powerful architectures for multi-view 3D reconstruction, enabling joint prediction of multiple 3D attributes in a feed-forward manner. However, their computational cost grows quadratically with the input sequence length due to the global attention layers insi...",
-      "venue": "arXiv",
-      "date": "2026-05-22",
-      "arxiv_id": "2605.23892v1",
-      "url": "https://arxiv.org/abs/2605.23892v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.23892v1.pdf",
-      "categories": [
-        "cs.CV",
-        "cs.AI",
-        "cs.GR"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Robotic Strawberry Harvesting with Robust Vision and Deep Reinforcement Learning based Sim-to-Real Control",
-      "authors": "Al Bashir, Shao-Yang Chang, Partho Ghose et al.",
-      "abstract": "This study presents a closed-loop robotic strawberry harvesting system that combines a robust vision module, simulation-trained deep reinforcement learning (DRL) control, and ROS-based realrobot execution. For perception, we propose HRAttnEdge-YOLO26-seg, a modified YOLO26-seg architecture that inco...",
-      "venue": "arXiv",
-      "date": "2026-05-22",
-      "arxiv_id": "2605.23863v1",
-      "url": "https://arxiv.org/abs/2605.23863v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.23863v1.pdf",
-      "categories": [
-        "cs.RO"
-      ],
-      "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     }
