@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-05-25",
+  "last_updated": "2026-05-26",
   "count": 200,
-  "history_count": 200,
+  "history_count": 205,
   "retention_days": 30,
   "items": [
     {
       "title": "硬件不该让人适应，它应该主动适应你",
       "link": "https://www.qbitai.com/?s=硬件不该让人适应，它",
       "summary": "硬件不该让人适应，它应该主动适应你...",
-      "date": "2026-05-25",
+      "date": "2026-05-26",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -20,7 +20,7 @@
       "title": "获得了国际机器人研究共同体的高度认可",
       "link": "https://www.qbitai.com/?s=获得了国际机器人研究",
       "summary": "获得了国际机器人研究共同体的高度认可...",
-      "date": "2026-05-25",
+      "date": "2026-05-26",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -32,7 +32,7 @@
       "title": "UniPat AI 发布 SaaS-Bench 评测，Claude 等主流大模型在真实办公任务中完全通过率最高仅 3.8%，AI 全自动办公远未落地。",
       "link": "https://www.qbitai.com/?s=UniPat AI ",
       "summary": "UniPat AI 发布 SaaS-Bench 评测，Claude 等主流大模型在真实办公任务中完全通过率最高仅 3.8%，AI 全自动办公远未落地。...",
-      "date": "2026-05-25",
+      "date": "2026-05-26",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -44,7 +44,7 @@
       "title": "大厂集体下场后，创业公司还有哪些机会？",
       "link": "https://www.qbitai.com/?s=大厂集体下场后，创业",
       "summary": "大厂集体下场后，创业公司还有哪些机会？...",
-      "date": "2026-05-25",
+      "date": "2026-05-26",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -56,7 +56,7 @@
       "title": "搜索25年来最大改版，但谷歌还不敢一脚切到AI",
       "link": "https://www.qbitai.com/?s=搜索25年来最大改版",
       "summary": "搜索25年来最大改版，但谷歌还不敢一脚切到AI...",
-      "date": "2026-05-25",
+      "date": "2026-05-26",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -68,12 +68,84 @@
       "title": "*   [Latest](http://techcrunch.com/latest/)",
       "link": "https://techcrunch.com/category/artificial-intelligence/",
       "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
-      "date": "2026-05-25",
+      "date": "2026-05-26",
       "source": "TechCrunch",
       "type": "industry",
       "tags": [
         "AI",
         "Artificial Intelligence"
+      ]
+    },
+    {
+      "title": "Markdown Content:",
+      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+      "summary": "Markdown Content:...",
+      "date": "2026-05-25",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "并购激励金都不要了？全程踩中AI Coding，Windsurf核心工程师离开DeepMind",
+      "link": "https://www.jiqizhixin.com/search/articles/并购激励金都不要了？全程踩中A",
+      "summary": "并购激励金都不要了？全程踩中AI Coding，Windsurf核心工程师离开DeepMind...",
+      "date": "2026-05-25",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "解码加速15倍！EdgeRazor助推大模型在PC/移动端“狂飙”",
+      "link": "https://www.jiqizhixin.com/search/articles/解码加速15倍！EdgeRaz",
+      "summary": "解码加速15倍！EdgeRazor助推大模型在PC/移动端“狂飙”...",
+      "date": "2026-05-25",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "一个问题几百美元，DeepMind智能体一次搞定了9个Erdős问题",
+      "link": "https://www.jiqizhixin.com/search/articles/一个问题几百美元，DeepMi",
+      "summary": "一个问题几百美元，DeepMind智能体一次搞定了9个Erdős问题...",
+      "date": "2026-05-25",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "VeRL-Omni：面向扩散和全模态生成模型的通用RL后训练框架",
+      "link": "https://www.jiqizhixin.com/search/articles/VeRL-Omni：面向扩散和",
+      "summary": "VeRL-Omni：面向扩散和全模态生成模型的通用RL后训练框架...",
+      "date": "2026-05-25",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "性能超越李飞飞，他们把10亿高斯点的3D世界装进浏览器",
+      "link": "https://www.jiqizhixin.com/search/articles/性能超越李飞飞，他们把10亿高",
+      "summary": "性能超越李飞飞，他们把10亿高斯点的3D世界装进浏览器...",
+      "date": "2026-05-25",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
       ]
     },
     {
@@ -164,18 +236,6 @@
       "title": "离谱！辅导班教学员刷开源项目PR给简历「镀金」，vLLM险些中招",
       "link": "https://www.jiqizhixin.com/search/articles/离谱！辅导班教学员刷开源项目P",
       "summary": "离谱！辅导班教学员刷开源项目PR给简历「镀金」，vLLM险些中招...",
-      "date": "2026-05-24",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Markdown Content:",
-      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-      "summary": "Markdown Content:...",
       "date": "2026-05-24",
       "source": "机器之心",
       "type": "industry",
@@ -2338,66 +2398,6 @@
       "summary": "AI视频技术能力进入产业应用阶段...",
       "date": "2026-04-28",
       "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "机器人从“能思考”走向“能干活”",
-      "link": "https://www.qbitai.com/?s=机器人从“能思考”走",
-      "summary": "机器人从“能思考”走向“能干活”...",
-      "date": "2026-04-28",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "一张照片，一部手机，你就能在AI造的世界里漫步。",
-      "link": "https://www.qbitai.com/?s=一张照片，一部手机，",
-      "summary": "一张照片，一部手机，你就能在AI造的世界里漫步。...",
-      "date": "2026-04-28",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "阿里视频模型 HappyHorse 开启灰测，悟空已率先接入",
-      "link": "https://www.jiqizhixin.com/search/articles/阿里视频模型 HappyHor",
-      "summary": "阿里视频模型 HappyHorse 开启灰测，悟空已率先接入...",
-      "date": "2026-04-27",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "刚刚，阿里「欢乐马」正式上线，抢先实测这匹「黑马」",
-      "link": "https://www.jiqizhixin.com/search/articles/刚刚，阿里「欢乐马」正式上线，",
-      "summary": "刚刚，阿里「欢乐马」正式上线，抢先实测这匹「黑马」...",
-      "date": "2026-04-27",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "AI「看不懂」、「做不好」视频的问题，混元用「MTSS」解决了",
-      "link": "https://www.jiqizhixin.com/search/articles/AI「看不懂」、「做不好」视频",
-      "summary": "AI「看不懂」、「做不好」视频的问题，混元用「MTSS」解决了...",
-      "date": "2026-04-27",
-      "source": "机器之心",
       "type": "industry",
       "tags": [
         "AI",

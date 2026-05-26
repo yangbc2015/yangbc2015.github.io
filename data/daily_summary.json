@@ -1,6 +1,6 @@
 {
-  "date": "2026-05-25",
-  "last_updated": "2026-05-25",
+  "date": "2026-05-26",
+  "last_updated": "2026-05-26",
   "categories": {
     "ai": {
       "name": "人工智能",
@@ -8,10 +8,10 @@
       "count": 5,
       "items": [
         {
-          "title": "还在手写CUDA内核？CODA来了！LLM和新手也能让Transformer跑出光速",
-          "link": "https://www.jiqizhixin.com/search/articles/还在手写CUDA内核？CODA",
-          "summary": "还在手写CUDA内核？CODA来了！LLM和新手也能让Transformer跑出光速...",
-          "date": "2026-05-24",
+          "title": "Markdown Content:",
+          "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+          "summary": "Markdown Content:...",
+          "date": "2026-05-25",
           "source": "机器之心",
           "type": "industry",
           "tags": [
@@ -20,11 +20,11 @@
           ]
         },
         {
-          "title": "硬件不该让人适应，它应该主动适应你",
-          "link": "https://www.qbitai.com/?s=硬件不该让人适应，它",
-          "summary": "硬件不该让人适应，它应该主动适应你...",
+          "title": "并购激励金都不要了？全程踩中AI Coding，Windsurf核心工程师离开DeepMind",
+          "link": "https://www.jiqizhixin.com/search/articles/并购激励金都不要了？全程踩中A",
+          "summary": "并购激励金都不要了？全程踩中AI Coding，Windsurf核心工程师离开DeepMind...",
           "date": "2026-05-25",
-          "source": "量子位",
+          "source": "机器之心",
           "type": "industry",
           "tags": [
             "AI",
@@ -32,11 +32,11 @@
           ]
         },
         {
-          "title": "获得了国际机器人研究共同体的高度认可",
-          "link": "https://www.qbitai.com/?s=获得了国际机器人研究",
-          "summary": "获得了国际机器人研究共同体的高度认可...",
+          "title": "解码加速15倍！EdgeRazor助推大模型在PC/移动端“狂飙”",
+          "link": "https://www.jiqizhixin.com/search/articles/解码加速15倍！EdgeRaz",
+          "summary": "解码加速15倍！EdgeRazor助推大模型在PC/移动端“狂飙”...",
           "date": "2026-05-25",
-          "source": "量子位",
+          "source": "机器之心",
           "type": "industry",
           "tags": [
             "AI",
@@ -44,11 +44,11 @@
           ]
         },
         {
-          "title": "UniPat AI 发布 SaaS-Bench 评测，Claude 等主流大模型在真实办公任务中完全通过率最高仅 3.8%，AI 全自动办公远未落地。",
-          "link": "https://www.qbitai.com/?s=UniPat AI ",
-          "summary": "UniPat AI 发布 SaaS-Bench 评测，Claude 等主流大模型在真实办公任务中完全通过率最高仅 3.8%，AI 全自动办公远未落地。...",
+          "title": "一个问题几百美元，DeepMind智能体一次搞定了9个Erdős问题",
+          "link": "https://www.jiqizhixin.com/search/articles/一个问题几百美元，DeepMi",
+          "summary": "一个问题几百美元，DeepMind智能体一次搞定了9个Erdős问题...",
           "date": "2026-05-25",
-          "source": "量子位",
+          "source": "机器之心",
           "type": "industry",
           "tags": [
             "AI",
@@ -56,11 +56,11 @@
           ]
         },
         {
-          "title": "大厂集体下场后，创业公司还有哪些机会？",
-          "link": "https://www.qbitai.com/?s=大厂集体下场后，创业",
-          "summary": "大厂集体下场后，创业公司还有哪些机会？...",
+          "title": "VeRL-Omni：面向扩散和全模态生成模型的通用RL后训练框架",
+          "link": "https://www.jiqizhixin.com/search/articles/VeRL-Omni：面向扩散和",
+          "summary": "VeRL-Omni：面向扩散和全模态生成模型的通用RL后训练框架...",
           "date": "2026-05-25",
-          "source": "量子位",
+          "source": "机器之心",
           "type": "industry",
           "tags": [
             "AI",
