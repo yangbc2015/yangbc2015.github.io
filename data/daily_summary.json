@@ -8,18 +8,6 @@
       "count": 5,
       "items": [
         {
-          "title": "Markdown Content:",
-          "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-          "summary": "Markdown Content:...",
-          "date": "2026-05-25",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
           "title": "并购激励金都不要了？全程踩中AI Coding，Windsurf核心工程师离开DeepMind",
           "link": "https://www.jiqizhixin.com/search/articles/并购激励金都不要了？全程踩中A",
           "summary": "并购激励金都不要了？全程踩中AI Coding，Windsurf核心工程师离开DeepMind...",
@@ -59,6 +47,18 @@
           "title": "VeRL-Omni：面向扩散和全模态生成模型的通用RL后训练框架",
           "link": "https://www.jiqizhixin.com/search/articles/VeRL-Omni：面向扩散和",
           "summary": "VeRL-Omni：面向扩散和全模态生成模型的通用RL后训练框架...",
+          "date": "2026-05-25",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "性能超越李飞飞，他们把10亿高斯点的3D世界装进浏览器",
+          "link": "https://www.jiqizhixin.com/search/articles/性能超越李飞飞，他们把10亿高",
+          "summary": "性能超越李飞飞，他们把10亿高斯点的3D世界装进浏览器...",
           "date": "2026-05-25",
           "source": "机器之心",
           "type": "industry",

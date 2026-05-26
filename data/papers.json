@@ -1,16 +1,16 @@
 {
   "last_updated": "2026-05-26",
-  "count": 8,
+  "count": 7,
   "items": [
     {
-      "title": "SkillOpt: Executive Strategy for Self-Evolving Agent Skills",
-      "authors": "Yifan Yang, Ziyang Gong, Weiquan Huang et al.",
-      "abstract": "Agent skills today are hand-crafted, generated one-shot, or evolved through loosely controlled self-revision, none of which behaves like a deep-learning optimizer for the skill, and none of which reliably improves over its starting point under feedback. We argue the skill should instead be trained a...",
+      "title": "MobileGym: A Verifiable and Highly Parallel Simulation Platform for Mobile GUI Agent Research",
+      "authors": "Dingbang Wu, Rui Hao, Haiyang Wang et al.",
+      "abstract": "We present MobileGym, a browser-hosted, lightweight, fully controllable environment for everyday mobile use, targeting interaction fidelity without replicating proprietary backends. It enables two capabilities previously out of reach for everyday apps: verifiable outcome signals through deterministi...",
       "venue": "arXiv",
-      "date": "2026-05-22",
-      "arxiv_id": "2605.23904v1",
-      "url": "https://arxiv.org/abs/2605.23904v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.23904v1.pdf",
+      "date": "2026-05-25",
+      "arxiv_id": "2605.26114v1",
+      "url": "https://arxiv.org/abs/2605.26114v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.26114v1.pdf",
       "categories": [
         "cs.AI",
         "cs.CL"
@@ -20,83 +20,16 @@
       "source": "arXiv"
     },
     {
-      "title": "LLMs as Noisy Channels: A Shannon Perspective on Model Capacity and Scaling Laws",
-      "authors": "Xu Ouyang, Deyi Liu, Yuhang Cai et al.",
-      "abstract": "Existing scaling laws for Large Language Models (LLMs), predominantly monotonic power laws, fail to explain emerging non-monotonic phenomena such as catastrophic overtraining and quantization-induced degradation, where performance deteriorates despite increased compute. We propose the Shannon Scalin...",
+      "title": "From Model Scaling to System Scaling: Scaling the Harness in Agentic AI",
+      "authors": "Shangding Gu",
+      "abstract": "This paper studies the next major bottleneck in agentic AI as system scaling, not only model scaling: the design of auditable, persistent, modular, and verifiable architectures around foundation models. We refer to this shift as scaling the harness: treating the structured execution layer around a f...",
       "venue": "arXiv",
-      "date": "2026-05-22",
-      "arxiv_id": "2605.23901v1",
-      "url": "https://arxiv.org/abs/2605.23901v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.23901v1.pdf",
+      "date": "2026-05-25",
+      "arxiv_id": "2605.26112v1",
+      "url": "https://arxiv.org/abs/2605.26112v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.26112v1.pdf",
       "categories": [
-        "cs.LG",
         "cs.AI",
-        "cs.IT"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "ETCHR: Editing To Clarify and Harness Reasoning",
-      "authors": "Beichen Zhang, Yuhong Liu, Jinsong Li et al.",
-      "abstract": "Multimodal Large Language Models have advanced visual reasoning, yet a purely textual chain of thought remains a bottleneck for questions that require fine-grained focus or view transformations. The ''think with images'' paradigm narrows this gap, but existing approaches are either constrained by fi...",
-      "venue": "arXiv",
-      "date": "2026-05-22",
-      "arxiv_id": "2605.23897v1",
-      "url": "https://arxiv.org/abs/2605.23897v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.23897v1.pdf",
-      "categories": [
-        "cs.CV",
-        "cs.AI",
-        "cs.CL"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Geo-Align: Video Generation Alignment via Metric Geometry Reward",
-      "authors": "Zizun Li, Haoyu Guo, Runzhe Teng et al.",
-      "abstract": "Camera-controlled video generation has achieved remarkable progress in recent years. However, existing video-to-video re-rendering methods primarily rely on Supervised Fine-Tuning using synthetic datasets. At present, there is an extreme scarcity of synchronized, multi-view real-world video data. Co...",
-      "venue": "arXiv",
-      "date": "2026-05-22",
-      "arxiv_id": "2605.23903v1",
-      "url": "https://arxiv.org/abs/2605.23903v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.23903v1.pdf",
-      "categories": [
-        "cs.CV"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "PiD: Fast and High-Resolution Latent Decoding with Pixel Diffusion",
-      "authors": "Yifan Lu, Qi Wu, Jay Zhangjie Wu et al.",
-      "abstract": "Most practical high-resolution text-to-image systems, including latent diffusion and autoregressive models, perform generation in a compact latent space, and a decoder maps the generated latents back to pixels. Yet the latent-to-pixel decoder is reconstruction-oriented, optimized to invert the encod...",
-      "venue": "arXiv",
-      "date": "2026-05-22",
-      "arxiv_id": "2605.23902v1",
-      "url": "https://arxiv.org/abs/2605.23902v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.23902v1.pdf",
-      "categories": [
-        "cs.CV"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Complete-muE: Optimal Hyperparameter Transfer and Scaling for MoE Models",
-      "authors": "Hongwu Peng, Ohiremen Dibua, Yuanjun Xiong et al.",
-      "abstract": "We propose Complete-muE, a framework which targets hyperparameter transfer across dense FFN and any Mixture-of-Experts (MoE) setups in transformer blocks. Existing tools such as $μ$P (requires fixed architectue) or SDE (requires fixed per-step token count) cannot directly solve the hyperparameter tr...",
-      "venue": "arXiv",
-      "date": "2026-05-22",
-      "arxiv_id": "2605.23893v1",
-      "url": "https://arxiv.org/abs/2605.23893v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.23893v1.pdf",
-      "categories": [
         "cs.LG"
       ],
       "type": "ml",
@@ -104,36 +37,89 @@
       "source": "arXiv"
     },
     {
-      "title": "Good Token Hunting: A Hitchhiker's Guide to Token Selection for Visual Geometry Transformers",
-      "authors": "Shuhong Zheng, Michael Oechsle, Erik Sandström et al.",
-      "abstract": "Visual geometry transformers have become powerful architectures for multi-view 3D reconstruction, enabling joint prediction of multiple 3D attributes in a feed-forward manner. However, their computational cost grows quadratically with the input sequence length due to the global attention layers insi...",
+      "title": "Prism: A Plug-in Reproducible Infrastructure for Scalable Multimodal Continual Instruction Tuning",
+      "authors": "Jun-Tao Tang, Yu-Cheng Shi, Zhen-Hao Xie et al.",
+      "abstract": "Multimodal Large Language Models (MLLMs) achieve versatility by reformulating diverse tasks into a unified instruction-following framework via instruction tuning. However, real-world deployment requires continuous adaptation to emerging tasks, motivating Multimodal Continual Instruction Tuning (MCIT...",
       "venue": "arXiv",
-      "date": "2026-05-22",
-      "arxiv_id": "2605.23892v1",
-      "url": "https://arxiv.org/abs/2605.23892v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.23892v1.pdf",
+      "date": "2026-05-25",
+      "arxiv_id": "2605.26110v1",
+      "url": "https://arxiv.org/abs/2605.26110v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.26110v1.pdf",
       "categories": [
-        "cs.CV",
-        "cs.AI",
-        "cs.GR"
+        "cs.LG",
+        "cs.CL",
+        "cs.CV"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "TriSplat: Simulation-Ready Feed-Forward 3D Scene Reconstruction",
+      "authors": "Weijie Wang, Zimu Li, Jinchuan Shi et al.",
+      "abstract": "Sparse-view 3D reconstruction is increasingly addressed with feed-forward splatting networks that predict explicit primitives directly from images. Yet most existing methods remain centered on Gaussian primitives and expose surfaces only indirectly: extracting a usable mesh for downstream simulation...",
+      "venue": "arXiv",
+      "date": "2026-05-25",
+      "arxiv_id": "2605.26115v1",
+      "url": "https://arxiv.org/abs/2605.26115v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.26115v1.pdf",
+      "categories": [
+        "cs.CV"
       ],
       "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Robotic Strawberry Harvesting with Robust Vision and Deep Reinforcement Learning based Sim-to-Real Control",
-      "authors": "Al Bashir, Shao-Yang Chang, Partho Ghose et al.",
-      "abstract": "This study presents a closed-loop robotic strawberry harvesting system that combines a robust vision module, simulation-trained deep reinforcement learning (DRL) control, and ROS-based realrobot execution. For perception, we propose HRAttnEdge-YOLO26-seg, a modified YOLO26-seg architecture that inco...",
+      "title": "AnyScene: Towards Highly Controllable Driving Scene Generation at Anywhere and Beyond",
+      "authors": "Haiming Zhang, Junfei Zhou, Feng Jiang et al.",
+      "abstract": "Generating high-fidelity and controllable synthetic data is critical for advancing end-to-end autonomous driving, particularly for addressing the long tail of rare safety-critical scenarios. Existing occupancy-guided methods typically rely on shallow conditioning mechanisms and reference-frame-depen...",
       "venue": "arXiv",
-      "date": "2026-05-22",
-      "arxiv_id": "2605.23863v1",
-      "url": "https://arxiv.org/abs/2605.23863v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.23863v1.pdf",
+      "date": "2026-05-25",
+      "arxiv_id": "2605.26113v1",
+      "url": "https://arxiv.org/abs/2605.26113v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.26113v1.pdf",
       "categories": [
-        "cs.RO"
+        "cs.RO",
+        "cs.CV"
       ],
       "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Squeezing Capacity from Multimodal Large Language Models for Subject-driven Generation",
+      "authors": "Shuhong Zheng, Aashish Kumar Misraa, Yu-Teng Li et al.",
+      "abstract": "Subject-driven image generation aims to synthesize new images that preserve the identity of the given subject while following textual instructions. Existing approaches often encode text and reference images separately. This limits cross-modal reasoning abilities and causes copy-paste artifacts. Rece...",
+      "venue": "arXiv",
+      "date": "2026-05-25",
+      "arxiv_id": "2605.26111v1",
+      "url": "https://arxiv.org/abs/2605.26111v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.26111v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.GR"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "MIND: Multi-Scale Intent Diffusion for Text-Driven Physics-Based Humanoid Control",
+      "authors": "Bin Li, Ruichi Zhang, Han Liang et al.",
+      "abstract": "Enabling physics-based humanoids to execute diverse behaviors from high-level textual commands remains a significant challenge. Existing methods typically follow either a two-stage paradigm that combines kinematic motion generation with physics-based tracking, or an end-to-end imitation-learning par...",
+      "venue": "arXiv",
+      "date": "2026-05-25",
+      "arxiv_id": "2605.26006v1",
+      "url": "https://arxiv.org/abs/2605.26006v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.26006v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.GR",
+        "cs.RO"
+      ],
+      "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     }
