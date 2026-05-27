@@ -1,9 +1,21 @@
 {
   "last_updated": "2026-05-27",
   "count": 200,
-  "history_count": 203,
+  "history_count": 201,
   "retention_days": 30,
   "items": [
+    {
+      "title": "曾在Salesforce干了13年营销",
+      "link": "https://www.qbitai.com/?s=曾在Salesfor",
+      "summary": "曾在Salesforce干了13年营销...",
+      "date": "2026-05-27",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
     {
       "title": "复旦系具身新星，想让机器人真正会“触摸”",
       "link": "https://www.qbitai.com/?s=复旦系具身新星，想让",
@@ -53,6 +65,18 @@
       ]
     },
     {
+      "title": "*   [Latest](http://techcrunch.com/latest/)",
+      "link": "https://techcrunch.com/category/artificial-intelligence/",
+      "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
+      "date": "2026-05-27",
+      "source": "TechCrunch",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "Artificial Intelligence"
+      ]
+    },
+    {
       "title": "硬件不该让人适应，它应该主动适应你",
       "link": "https://www.qbitai.com/?s=硬件不该让人适应，它",
       "summary": "硬件不该让人适应，它应该主动适应你...",
@@ -86,18 +110,6 @@
       "tags": [
         "AI",
         "人工智能"
-      ]
-    },
-    {
-      "title": "*   [Latest](http://techcrunch.com/latest/)",
-      "link": "https://techcrunch.com/category/artificial-intelligence/",
-      "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
-      "date": "2026-05-27",
-      "source": "TechCrunch",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "Artificial Intelligence"
       ]
     },
     {
@@ -2384,18 +2396,6 @@
       "title": "腾讯开源手机端离线翻译模型，仅0.4G，支持33种语言",
       "link": "https://www.jiqizhixin.com/search/articles/腾讯开源手机端离线翻译模型，仅",
       "summary": "腾讯开源手机端离线翻译模型，仅0.4G，支持33种语言...",
-      "date": "2026-04-29",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "SentiPulse 发布 SentiCat：当 Agent开始“建立关系” ，AI进入下一阶段",
-      "link": "https://www.jiqizhixin.com/search/articles/SentiPulse 发布 S",
-      "summary": "SentiPulse 发布 SentiCat：当 Agent开始“建立关系” ，AI进入下一阶段...",
       "date": "2026-04-29",
       "source": "机器之心",
       "type": "industry",
