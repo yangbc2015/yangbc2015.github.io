@@ -1,24 +1,7 @@
 {
-  "last_updated": "2026-05-26",
-  "count": 7,
+  "last_updated": "2026-05-27",
+  "count": 2,
   "items": [
-    {
-      "title": "MobileGym: A Verifiable and Highly Parallel Simulation Platform for Mobile GUI Agent Research",
-      "authors": "Dingbang Wu, Rui Hao, Haiyang Wang et al.",
-      "abstract": "We present MobileGym, a browser-hosted, lightweight, fully controllable environment for everyday mobile use, targeting interaction fidelity without replicating proprietary backends. It enables two capabilities previously out of reach for everyday apps: verifiable outcome signals through deterministi...",
-      "venue": "arXiv",
-      "date": "2026-05-25",
-      "arxiv_id": "2605.26114v1",
-      "url": "https://arxiv.org/abs/2605.26114v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.26114v1.pdf",
-      "categories": [
-        "cs.AI",
-        "cs.CL"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
     {
       "title": "From Model Scaling to System Scaling: Scaling the Harness in Agentic AI",
       "authors": "Shangding Gu",
@@ -37,57 +20,6 @@
       "source": "arXiv"
     },
     {
-      "title": "Prism: A Plug-in Reproducible Infrastructure for Scalable Multimodal Continual Instruction Tuning",
-      "authors": "Jun-Tao Tang, Yu-Cheng Shi, Zhen-Hao Xie et al.",
-      "abstract": "Multimodal Large Language Models (MLLMs) achieve versatility by reformulating diverse tasks into a unified instruction-following framework via instruction tuning. However, real-world deployment requires continuous adaptation to emerging tasks, motivating Multimodal Continual Instruction Tuning (MCIT...",
-      "venue": "arXiv",
-      "date": "2026-05-25",
-      "arxiv_id": "2605.26110v1",
-      "url": "https://arxiv.org/abs/2605.26110v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.26110v1.pdf",
-      "categories": [
-        "cs.LG",
-        "cs.CL",
-        "cs.CV"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "TriSplat: Simulation-Ready Feed-Forward 3D Scene Reconstruction",
-      "authors": "Weijie Wang, Zimu Li, Jinchuan Shi et al.",
-      "abstract": "Sparse-view 3D reconstruction is increasingly addressed with feed-forward splatting networks that predict explicit primitives directly from images. Yet most existing methods remain centered on Gaussian primitives and expose surfaces only indirectly: extracting a usable mesh for downstream simulation...",
-      "venue": "arXiv",
-      "date": "2026-05-25",
-      "arxiv_id": "2605.26115v1",
-      "url": "https://arxiv.org/abs/2605.26115v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.26115v1.pdf",
-      "categories": [
-        "cs.CV"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "AnyScene: Towards Highly Controllable Driving Scene Generation at Anywhere and Beyond",
-      "authors": "Haiming Zhang, Junfei Zhou, Feng Jiang et al.",
-      "abstract": "Generating high-fidelity and controllable synthetic data is critical for advancing end-to-end autonomous driving, particularly for addressing the long tail of rare safety-critical scenarios. Existing occupancy-guided methods typically rely on shallow conditioning mechanisms and reference-frame-depen...",
-      "venue": "arXiv",
-      "date": "2026-05-25",
-      "arxiv_id": "2605.26113v1",
-      "url": "https://arxiv.org/abs/2605.26113v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.26113v1.pdf",
-      "categories": [
-        "cs.RO",
-        "cs.CV"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
       "title": "Squeezing Capacity from Multimodal Large Language Models for Subject-driven Generation",
       "authors": "Shuhong Zheng, Aashish Kumar Misraa, Yu-Teng Li et al.",
       "abstract": "Subject-driven image generation aims to synthesize new images that preserve the identity of the given subject while following textual instructions. Existing approaches often encode text and reference images separately. This limits cross-modal reasoning abilities and causes copy-paste artifacts. Rece...",
@@ -100,24 +32,6 @@
         "cs.CV",
         "cs.AI",
         "cs.GR"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "MIND: Multi-Scale Intent Diffusion for Text-Driven Physics-Based Humanoid Control",
-      "authors": "Bin Li, Ruichi Zhang, Han Liang et al.",
-      "abstract": "Enabling physics-based humanoids to execute diverse behaviors from high-level textual commands remains a significant challenge. Existing methods typically follow either a two-stage paradigm that combines kinematic motion generation with physics-based tracking, or an end-to-end imitation-learning par...",
-      "venue": "arXiv",
-      "date": "2026-05-25",
-      "arxiv_id": "2605.26006v1",
-      "url": "https://arxiv.org/abs/2605.26006v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.26006v1.pdf",
-      "categories": [
-        "cs.CV",
-        "cs.GR",
-        "cs.RO"
       ],
       "type": "nlp",
       "badge": "arxiv",

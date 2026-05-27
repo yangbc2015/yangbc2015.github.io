@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-05-26",
+  "last_updated": "2026-05-27",
   "count": 200,
-  "history_count": 200,
+  "history_count": 205,
   "retention_days": 30,
   "items": [
     {
       "title": "MTS（技术员工） @Anthropic",
       "link": "https://www.qbitai.com/?s=MTS（技术员工） ",
       "summary": "MTS（技术员工） @Anthropic...",
-      "date": "2026-05-26",
+      "date": "2026-05-27",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -20,7 +20,7 @@
       "title": "独特“幸运星”ID设计，打造数字系列史上最精致外观",
       "link": "https://www.qbitai.com/?s=独特“幸运星”ID设",
       "summary": "独特“幸运星”ID设计，打造数字系列史上最精致外观...",
-      "date": "2026-05-26",
+      "date": "2026-05-27",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -32,7 +32,7 @@
       "title": "硬件不该让人适应，它应该主动适应你",
       "link": "https://www.qbitai.com/?s=硬件不该让人适应，它",
       "summary": "硬件不该让人适应，它应该主动适应你...",
-      "date": "2026-05-26",
+      "date": "2026-05-27",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -44,7 +44,7 @@
       "title": "获得了国际机器人研究共同体的高度认可",
       "link": "https://www.qbitai.com/?s=获得了国际机器人研究",
       "summary": "获得了国际机器人研究共同体的高度认可...",
-      "date": "2026-05-26",
+      "date": "2026-05-27",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -56,7 +56,7 @@
       "title": "原本4亿+token、61美元的账单，直降至12美元",
       "link": "https://www.qbitai.com/?s=原本4亿+token",
       "summary": "原本4亿+token、61美元的账单，直降至12美元...",
-      "date": "2026-05-26",
+      "date": "2026-05-27",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -68,12 +68,84 @@
       "title": "*   [Latest](http://techcrunch.com/latest/)",
       "link": "https://techcrunch.com/category/artificial-intelligence/",
       "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
-      "date": "2026-05-26",
+      "date": "2026-05-27",
       "source": "TechCrunch",
       "type": "industry",
       "tags": [
         "AI",
         "Artificial Intelligence"
+      ]
+    },
+    {
+      "title": "Markdown Content:",
+      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+      "summary": "Markdown Content:...",
+      "date": "2026-05-26",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "「AI 医疗新范式」学术论坛在清华召开,多位院士共议AI与医疗新进展与未来",
+      "link": "https://www.jiqizhixin.com/search/articles/「AI 医疗新范式」学术论坛在",
+      "summary": "「AI 医疗新范式」学术论坛在清华召开,多位院士共议AI与医疗新进展与未来...",
+      "date": "2026-05-26",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "CVPR丹佛之约｜上海AI Lab“北极星X星启”交流会盛邀全球AI英才",
+      "link": "https://www.jiqizhixin.com/search/articles/CVPR丹佛之约｜上海AI L",
+      "summary": "CVPR丹佛之约｜上海AI Lab“北极星X星启”交流会盛邀全球AI英才...",
+      "date": "2026-05-26",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "从OpenAI AI Phone到Gemini on Android：AI手机时代需要怎样的Agent Harness？",
+      "link": "https://www.jiqizhixin.com/search/articles/从OpenAI AI Phon",
+      "summary": "从OpenAI AI Phone到Gemini on Android：AI手机时代需要怎样的Agent Harness？...",
+      "date": "2026-05-26",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "3亿笔AI付，支持95%通用智能体：全球首个大规模商用AI原生支付基建诞生",
+      "link": "https://www.jiqizhixin.com/search/articles/3亿笔AI付，支持95%通用智",
+      "summary": "3亿笔AI付，支持95%通用智能体：全球首个大规模商用AI原生支付基建诞生...",
+      "date": "2026-05-26",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "安卓开发被Vibe Coding接管了？谷歌把搓App门槛彻底打下来，一周搓出25万个",
+      "link": "https://www.jiqizhixin.com/search/articles/安卓开发被Vibe Codin",
+      "summary": "安卓开发被Vibe Coding接管了？谷歌把搓App门槛彻底打下来，一周搓出25万个...",
+      "date": "2026-05-26",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
       ]
     },
     {
@@ -176,18 +248,6 @@
       "title": "告别多奖励跷跷板：Flow-OPD将多教师OPD带入图像生成",
       "link": "https://www.jiqizhixin.com/search/articles/告别多奖励跷跷板：Flow-O",
       "summary": "告别多奖励跷跷板：Flow-OPD将多教师OPD带入图像生成...",
-      "date": "2026-05-25",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Markdown Content:",
-      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-      "summary": "Markdown Content:...",
       "date": "2026-05-25",
       "source": "机器之心",
       "type": "industry",
@@ -2338,66 +2398,6 @@
       "summary": "跑通AI盈利正循环，还教你躺着用Agent赚钱。...",
       "date": "2026-04-29",
       "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "为期三天的第20届中国投资年会·年度峰会圆满落幕",
-      "link": "https://www.qbitai.com/?s=为期三天的第20届中",
-      "summary": "为期三天的第20届中国投资年会·年度峰会圆满落幕...",
-      "date": "2026-04-29",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "大会首日入场总人数 16000+，当日入场总人次 25000+。",
-      "link": "https://www.qbitai.com/?s=大会首日入场总人数 ",
-      "summary": "大会首日入场总人数 16000+，当日入场总人次 25000+。...",
-      "date": "2026-04-29",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "做具身别着急“堆数据”，先想透这些问题",
-      "link": "https://www.qbitai.com/?s=做具身别着急“堆数据",
-      "summary": "做具身别着急“堆数据”，先想透这些问题...",
-      "date": "2026-04-29",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "原生理解生成统一：商汤开源SenseNova U1，用统一架构终结「缝合怪」多模态",
-      "link": "https://www.jiqizhixin.com/search/articles/原生理解生成统一：商汤开源Se",
-      "summary": "原生理解生成统一：商汤开源SenseNova U1，用统一架构终结「缝合怪」多模态...",
-      "date": "2026-04-28",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "LangFlow: 挑战离散扩散，探索下一代语言模型新范式",
-      "link": "https://www.jiqizhixin.com/search/articles/LangFlow: 挑战离散扩",
-      "summary": "LangFlow: 挑战离散扩散，探索下一代语言模型新范式...",
-      "date": "2026-04-28",
-      "source": "机器之心",
       "type": "industry",
       "tags": [
         "AI",
