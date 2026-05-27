@@ -3,6 +3,86 @@
   "count": 200,
   "items": [
     {
+      "title": "LocateAnything: Fast and High-Quality Vision-Language Grounding with Parallel Box Decoding",
+      "summary": "Vision-language models (VLMs) commonly formulate visual grounding and detection as a coordinate-token generation problem, serializing each 2D box into multiple 1D tokens that are learned and decoded largely independently. This token-by-token decoding...",
+      "url": "https://arxiv.org/abs/2605.27365v1",
+      "date": "2026-05-26",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2605.27365v1",
+      "authors": "Shihao Wang, Shilong Liu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Riding the Shifting Potential: When Reactive Control Suffices for Multi-Goal Behavior",
+      "summary": "Reactive control is often considered insufficient for multi-objective tasks because conflicting objectives give rise to local minima. We argue this limitation is not inherent but arises from static encodings that fail to reflect how objectives curren...",
+      "url": "https://arxiv.org/abs/2605.27314v1",
+      "date": "2026-05-26",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2605.27314v1",
+      "authors": "Vito Mengers, Oliver Brock",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "FineVLA: Fine-Grained Instruction Alignment for Steerable Vision-Language-Action Policies",
+      "summary": "Vision-Language-Action (VLA) models are increasingly expected to not only complete robot tasks, but also follow human instructions about how those tasks should be executed. However, existing robot datasets usually pair trajectories with coarse goal-l...",
+      "url": "https://arxiv.org/abs/2605.27284v1",
+      "date": "2026-05-26",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2605.27284v1",
+      "authors": "Xintong Hu, Xuhong Huang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Towards Drone-based Mapping of Volcanic Gases using Gas Tomography",
+      "summary": "Volcanoes emit large amounts of CO2, directly influencing human lives. Mapping volcanic gas emissions helps to forecast eruptions and understand the impact of volcanoes on climate and the environment. Drone-based gas sensing significantly reduces ris...",
+      "url": "https://arxiv.org/abs/2605.27180v1",
+      "date": "2026-05-26",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2605.27180v1",
+      "authors": "Marius Schaab, Niklas Karbach et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "FoundObj: Self-supervised Foundation Models as Rewards for Label-free 3D Object Segmentation",
+      "summary": "We address the challenging task of 3D object segmentation in complex scene point clouds without relying on any scene-level human annotations during training. Existing methods are typically constrained to identifying simple objects, primarily due to i...",
+      "url": "https://arxiv.org/abs/2605.27178v1",
+      "date": "2026-05-26",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2605.27178v1",
+      "authors": "Zihui Zhang, Zhixuan Sun et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
       "title": "[具 身 智 能 规模化元年，人形机器人“卖不动、租得火”",
       "summary": "[具 身 智 能 规模化元年，人形机器人“卖不动、租得火”",
       "url": "http://36kr.com/p/3815911066099457",
@@ -3007,79 +3087,6 @@
       "type": "paper",
       "arxiv_id": "2604.09474v1",
       "authors": "Zukun Zhang, Kai Shu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Adaptor: Advancing Assistive Teleoperation with Few-Shot Learning and Cross-Operator Generalization",
-      "summary": "Assistive teleoperation enhances efficiency via shared control, yet inter-operator variability, stemming from diverse habits and expertise, induces highly heterogeneous trajectory distributions that undermine intent recognition stability. We present ...",
-      "url": "https://arxiv.org/abs/2604.09462v1",
-      "date": "2026-04-10",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2604.09462v1",
-      "authors": "Yu Liu, Yihang Yin et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "[英伟达给机器人装上龙虾大脑，具 身 智 能 的Harness来了",
-      "summary": "[英伟达给机器人装上龙虾大脑，具 身 智 能 的Harness来了",
-      "url": "http://36kr.com/p/3749514454057473",
-      "date": "2026-04-10",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
-      ]
-    },
-    {
-      "title": "具身智能上市潮也快来了。",
-      "summary": "具身智能上市潮也快来了。",
-      "url": "http://36kr.com/p/3759245771424258",
-      "date": "2026-04-09",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "SIM1: Physics-Aligned Simulator as Zero-Shot Data Scaler in Deformable Worlds",
-      "summary": "Robotic manipulation with deformable objects represents a data-intensive regime in embodied learning, where shape, contact, and topology co-evolve in ways that far exceed the variability of rigids. Although simulation promises relief from the cost of...",
-      "url": "https://arxiv.org/abs/2604.08544v1",
-      "date": "2026-04-09",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2604.08544v1",
-      "authors": "Yunsong Zhou, Hangxu Liu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Fail2Drive: Benchmarking Closed-Loop Driving Generalization",
-      "summary": "Generalization under distribution shift remains a central bottleneck for closed-loop autonomous driving. Although simulators like CARLA enable safe and scalable testing, existing benchmarks rarely measure true generalization: they typically reuse tra...",
-      "url": "https://arxiv.org/abs/2604.08535v1",
-      "date": "2026-04-09",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2604.08535v1",
-      "authors": "Simon Gerstenecker, Andreas Geiger et al.",
       "tags": [
         "机器人学习",
         "研究论文",

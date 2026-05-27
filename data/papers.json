@@ -1,41 +1,5 @@
 {
   "last_updated": "2026-05-27",
-  "count": 2,
-  "items": [
-    {
-      "title": "From Model Scaling to System Scaling: Scaling the Harness in Agentic AI",
-      "authors": "Shangding Gu",
-      "abstract": "This paper studies the next major bottleneck in agentic AI as system scaling, not only model scaling: the design of auditable, persistent, modular, and verifiable architectures around foundation models. We refer to this shift as scaling the harness: treating the structured execution layer around a f...",
-      "venue": "arXiv",
-      "date": "2026-05-25",
-      "arxiv_id": "2605.26112v1",
-      "url": "https://arxiv.org/abs/2605.26112v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.26112v1.pdf",
-      "categories": [
-        "cs.AI",
-        "cs.LG"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Squeezing Capacity from Multimodal Large Language Models for Subject-driven Generation",
-      "authors": "Shuhong Zheng, Aashish Kumar Misraa, Yu-Teng Li et al.",
-      "abstract": "Subject-driven image generation aims to synthesize new images that preserve the identity of the given subject while following textual instructions. Existing approaches often encode text and reference images separately. This limits cross-modal reasoning abilities and causes copy-paste artifacts. Rece...",
-      "venue": "arXiv",
-      "date": "2026-05-25",
-      "arxiv_id": "2605.26111v1",
-      "url": "https://arxiv.org/abs/2605.26111v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.26111v1.pdf",
-      "categories": [
-        "cs.CV",
-        "cs.AI",
-        "cs.GR"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    }
-  ]
+  "count": 0,
+  "items": []
 }

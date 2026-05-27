@@ -121,7 +121,7 @@
       "organization": "poolside",
       "price_prompt": "0",
       "price_completion": "0",
-      "context_length": 131072
+      "context_length": 262144
     }
   ]
 }
