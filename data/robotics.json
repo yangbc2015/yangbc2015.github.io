@@ -3,6 +3,19 @@
   "count": 200,
   "items": [
     {
+      "title": "[具 身 智 能 规模化元年，人形机器人“卖不动、租得火”",
+      "summary": "[具 身 智 能 规模化元年，人形机器人“卖不动、租得火”",
+      "url": "http://36kr.com/p/3815911066099457",
+      "date": "2026-05-27",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "人形机器人"
+      ]
+    },
+    {
       "title": "LocateAnything: Fast and High-Quality Vision-Language Grounding with Parallel Box Decoding",
       "summary": "Vision-language models (VLMs) commonly formulate visual grounding and detection as a coordinate-token generation problem, serializing each 2D box into multiple 1D tokens that are learned and decoded largely independently. This token-by-token decoding...",
       "url": "https://arxiv.org/abs/2605.27365v1",
@@ -80,19 +93,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "[具 身 智 能 规模化元年，人形机器人“卖不动、租得火”",
-      "summary": "[具 身 智 能 规模化元年，人形机器人“卖不动、租得火”",
-      "url": "http://36kr.com/p/3815911066099457",
-      "date": "2026-05-26",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "人形机器人"
       ]
     },
     {
