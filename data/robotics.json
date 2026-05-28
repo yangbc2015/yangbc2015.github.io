@@ -16,6 +16,86 @@
       ]
     },
     {
+      "title": "Beyond Binary: Sim-to-Real Dexterous Manipulation with Physics-Grounded Contact Representation",
+      "summary": "A primary bottleneck in contact-rich manipulation is the difficulty of collecting real-world data. Sim-to-real reinforcement learning offers a scalable alternative, but the simulation-reality gap prevents information-dense modalities like touch from ...",
+      "url": "https://arxiv.org/abs/2605.28812v1",
+      "date": "2026-05-27",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2605.28812v1",
+      "authors": "Jiahe Pan, Stelian Coros et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Imitation Learning for Robot Assistance in Open Surgery: A Multi-Policy Evaluation on Suture Following",
+      "summary": "This study presents the first evaluation of general-purpose imitation learning for surgeon-robot collaborative assistance in open surgery, targeting suture following: the grab-pull-release motion an assistant performs at every stitch. We collect 160 ...",
+      "url": "https://arxiv.org/abs/2605.28736v1",
+      "date": "2026-05-27",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2605.28736v1",
+      "authors": "Xucheng Wang, Zhizhou Yang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "How VLAs Fail Differently: Black-Box Action Monitoring Reveals Architecture-Specific Failure Signatures",
+      "summary": "We discover that VLA architectures fail in fundamentally different, predictable ways at the motor-command level. Running VQ-BeT, Diffusion Policy, and ACT on identical evaluation protocols (n=450 episodes across PushT and ALOHA 14-DOF bimanual manipu...",
+      "url": "https://arxiv.org/abs/2605.28726v1",
+      "date": "2026-05-27",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2605.28726v1",
+      "authors": "Krishnam Gupta",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Integrated Exploration-Aware UAV Route Optimization and Path Planning",
+      "summary": "Uncrewed aerial vehicles (UAVs) are increasingly used for exploration-driven monitoring in hazardous environments such as disaster zones, contaminated sites, wildfire areas, and damaged infrastructure, where limited flight endurance must be allocated...",
+      "url": "https://arxiv.org/abs/2605.28654v1",
+      "date": "2026-05-27",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2605.28654v1",
+      "authors": "Jimin Choi, Grant Stagg et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "PrimitiveVLA: Learning Reusable Motion Primitives for Efficient and Generalizable Robotic Manipulation",
+      "summary": "Vision-Language-Action (VLA) models offer a promising paradigm for generalist robotic policies, yet their adaptation is hindered by data inefficiency and poor generalization. We argue that these bottlenecks stem from the prevailing Direct Instruction...",
+      "url": "https://arxiv.org/abs/2605.28634v1",
+      "date": "2026-05-27",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2605.28634v1",
+      "authors": "Yutai Li, Shaohui Peng et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
       "title": "LocateAnything: Fast and High-Quality Vision-Language Grounding with Parallel Box Decoding",
       "summary": "Vision-language models (VLMs) commonly formulate visual grounding and detection as a coordinate-token generation problem, serializing each 2D box into multiple 1D tokens that are learned and decoded largely independently. This token-by-token decoding...",
       "url": "https://arxiv.org/abs/2605.27365v1",
@@ -3014,83 +3094,6 @@
       "type": "news",
       "tags": [
         "机器人"
-      ]
-    },
-    {
-      "title": "深朴智能获数亿元融资，专注具身机器人研发。",
-      "summary": "深朴智能获数亿元融资，专注具身机器人研发。",
-      "url": "http://36kr.com/p/3760467120276231",
-      "date": "2026-04-10",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "Physics-Informed Reinforcement Learning of Spatial Density Velocity Potentials for Map-Free Racing",
-      "summary": "Autonomous racing without prebuilt maps is a grand challenge for embedded robotics that requires kinodynamic planning from instantaneous sensor data at the acceleration and tire friction limits. Out-Of-Distribution (OOD) generalization to various rac...",
-      "url": "https://arxiv.org/abs/2604.09499v1",
-      "date": "2026-04-10",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2604.09499v1",
-      "authors": "Shathushan Sivashangaran, Apoorva Khairnar et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Sim-to-Real Transfer for Muscle-Actuated Robots via Generalized Actuator Networks",
-      "summary": "Tendon drives paired with soft muscle actuation enable faster and safer robots while potentially accelerating skill acquisition. Still, these systems are rarely used in practice due to inherent nonlinearities, friction, and hysteresis, which complica...",
-      "url": "https://arxiv.org/abs/2604.09487v1",
-      "date": "2026-04-10",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2604.09487v1",
-      "authors": "Jan Schneider, Mridul Mahajan et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Incremental Semantics-Aided Meshing from LiDAR-Inertial Odometry and RGB Direct Label Transfer",
-      "summary": "Geometric high-fidelity mesh reconstruction from LiDAR-inertial scans remains challenging in large, complex indoor environments -- such as cultural buildings -- where point cloud sparsity, geometric drift, and fixed fusion parameters produce holes, o...",
-      "url": "https://arxiv.org/abs/2604.09478v1",
-      "date": "2026-04-10",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2604.09478v1",
-      "authors": "Muhammad Affan, Ville Lehtola et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "SafeMind: A Risk-Aware Differentiable Control Framework for Adaptive and Safe Quadruped Locomotion",
-      "summary": "Learning-based quadruped controllers achieve impressive agility but typically lack formal safety guarantees under model uncertainty, perception noise, and unstructured contact conditions. We introduce SafeMind, a differentiable stochastic safety-cont...",
-      "url": "https://arxiv.org/abs/2604.09474v1",
-      "date": "2026-04-10",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2604.09474v1",
-      "authors": "Zukun Zhang, Kai Shu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
       ]
     }
   ]
