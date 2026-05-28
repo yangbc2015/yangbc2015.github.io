@@ -8,18 +8,6 @@
       "count": 5,
       "items": [
         {
-          "title": "Markdown Content:",
-          "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-          "summary": "Markdown Content:...",
-          "date": "2026-05-27",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
           "title": "AI离爱因斯坦还有多远？诺奖得主Demis Hassabis谈AI时代的科学终极追问",
           "link": "https://www.jiqizhixin.com/search/articles/AI离爱因斯坦还有多远？诺奖得",
           "summary": "AI离爱因斯坦还有多远？诺奖得主Demis Hassabis谈AI时代的科学终极追问...",
@@ -59,6 +47,18 @@
           "title": "你要做旁观者，还是定义者？中关村两院全球寻找「AI时代架构师」",
           "link": "https://www.jiqizhixin.com/search/articles/你要做旁观者，还是定义者？中关",
           "summary": "你要做旁观者，还是定义者？中关村两院全球寻找「AI时代架构师」...",
+          "date": "2026-05-27",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "具身智能迈入下半场，RoboMemArena全面评测机器人记忆系统",
+          "link": "https://www.jiqizhixin.com/search/articles/具身智能迈入下半场，RoboM",
+          "summary": "具身智能迈入下半场，RoboMemArena全面评测机器人记忆系统...",
           "date": "2026-05-27",
           "source": "机器之心",
           "type": "industry",
