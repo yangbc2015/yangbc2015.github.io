@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-05-28",
-  "count": 3,
+  "count": 7,
   "items": [
     {
       "title": "Beyond Binary: Sim-to-Real Dexterous Manipulation with Physics-Grounded Contact Representation",
@@ -50,6 +50,71 @@
         "cs.CL"
       ],
       "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "VLMs May Not Globally Enhance Human Alignment over LLMs During Natural Reading",
+      "authors": "Jinzhou Wu, Zhengwu Ma, Jixing Li et al.",
+      "abstract": "Large language models (LLMs) have become increasingly useful computational models of human language processing, but it remains unclear whether vision-language learning makes text representations more human-like during natural reading. Here, we address this question by comparing tightly matched LLM a...",
+      "venue": "arXiv",
+      "date": "2026-05-27",
+      "arxiv_id": "2605.28818v1",
+      "url": "https://arxiv.org/abs/2605.28818v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.28818v1.pdf",
+      "categories": [
+        "cs.CL",
+        "q-bio.NC"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "From Pixels to Words -- Towards Native One-Vision Models at Scale",
+      "authors": "Haiwen Diao, Jiahao Wang, Penghao Wu et al.",
+      "abstract": "Current vision-language models (VLMs) typically stitch together separate image encoders and language decoders via multi-stage alignment, a modular framework that inevitably fragments pixel-level signals across frames and scatters early pixel-word interactions. In parallel, native VLMs, despite impre...",
+      "venue": "arXiv",
+      "date": "2026-05-27",
+      "arxiv_id": "2605.28820v1",
+      "url": "https://arxiv.org/abs/2605.28820v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.28820v1.pdf",
+      "categories": [
+        "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Gamma-World: Generative Multi-Agent World Modeling Beyond Two Players",
+      "authors": "Fangfu Liu, Kai He, Tianchang Shen et al.",
+      "abstract": "World models for interactive video generation have largely focused on single-agent settings, where future observations are generated from a single control signal. However, many generated environments require multi-agent interaction: multiple players, robots, or embodied agents act simultaneously wit...",
+      "venue": "arXiv",
+      "date": "2026-05-27",
+      "arxiv_id": "2605.28816v1",
+      "url": "https://arxiv.org/abs/2605.28816v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.28816v1.pdf",
+      "categories": [
+        "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Imitation Learning for Robot Assistance in Open Surgery: A Multi-Policy Evaluation on Suture Following",
+      "authors": "Xucheng Wang, Zhizhou Yang, Xiaoman Zhang et al.",
+      "abstract": "This study presents the first evaluation of general-purpose imitation learning for surgeon-robot collaborative assistance in open surgery, targeting suture following: the grab-pull-release motion an assistant performs at every stitch. We collect 160 teleoperated demonstrations (32,374 frames) on an ...",
+      "venue": "arXiv",
+      "date": "2026-05-27",
+      "arxiv_id": "2605.28736v1",
+      "url": "https://arxiv.org/abs/2605.28736v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.28736v1.pdf",
+      "categories": [
+        "cs.RO"
+      ],
+      "type": "benchmark",
       "badge": "arxiv",
       "source": "arXiv"
     }
