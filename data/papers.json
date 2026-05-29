@@ -1,36 +1,87 @@
 {
   "last_updated": "2026-05-29",
-  "count": 2,
+  "count": 5,
   "items": [
     {
-      "title": "PEFT-Arena: Understanding Parameter-Efficient Finetuning from a Stability-Plasticity Perspective",
-      "authors": "Yangyi Huang, Ruotian Peng, Zeju Qiu et al.",
-      "abstract": "Parameter-efficient finetuning (PEFT) has become the standard approach for adapting large language models, yet evaluations largely emphasize downstream accuracy while overlooking the retention of pretrained capabilities. We argue that PEFT should be assessed through the stability-plasticity dilemma:...",
+      "title": "LLMSurgeon: Diagnosing Data Mixture of Large Language Models",
+      "authors": "Yaxin Luo, Jiacheng Cui, Xiaohan Zhao et al.",
+      "abstract": "The pretraining data mixture of Large Language Models (LLMs) constitutes their \"digital DNA\", shaping model behaviors, capabilities, and failure modes. Yet this composition is rarely disclosed, making post-hoc auditing of data combination or provenance difficult. In this work, we formalize $\\textbf{...",
       "venue": "arXiv",
-      "date": "2026-05-27",
-      "arxiv_id": "2605.28819v1",
-      "url": "https://arxiv.org/abs/2605.28819v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.28819v1.pdf",
+      "date": "2026-05-28",
+      "arxiv_id": "2605.30348v1",
+      "url": "https://arxiv.org/abs/2605.30348v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.30348v1.pdf",
       "categories": [
-        "cs.LG",
-        "cs.CL"
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
       ],
       "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Beyond Binary: Sim-to-Real Dexterous Manipulation with Physics-Grounded Contact Representation",
-      "authors": "Jiahe Pan, Stelian Coros, Jitendra Malik et al.",
-      "abstract": "A primary bottleneck in contact-rich manipulation is the difficulty of collecting real-world data. Sim-to-real reinforcement learning offers a scalable alternative, but the simulation-reality gap prevents information-dense modalities like touch from being effectively used. Existing sim-to-real metho...",
+      "title": "SchGen: PCB Schematic Generation with Semantic-Grounded Code Representations",
+      "authors": "Qinpei Luo, Ruichun Ma, Xinyu Zhang et al.",
+      "abstract": "Printed circuit board (PCB) schematic design defines nearly all electronic hardware, but it remains manual and expertise-intensive. While generative AI has advanced digital and analog IC design, PCB schematic generation from natural-language intent is largely unexplored. This paper presents SchGen, ...",
       "venue": "arXiv",
-      "date": "2026-05-27",
-      "arxiv_id": "2605.28812v1",
-      "url": "https://arxiv.org/abs/2605.28812v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.28812v1.pdf",
+      "date": "2026-05-28",
+      "arxiv_id": "2605.30345v1",
+      "url": "https://arxiv.org/abs/2605.30345v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.30345v1.pdf",
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "GMOS: Grounding Moving Object Segmentation in 3D Space and Time",
+      "authors": "Junyu Xie, Tengda Han, Weidi Xie et al.",
+      "abstract": "Moving Object Segmentation (MOS) aims to discover, segment, and track objects that move independently of the camera. Current MOS methods, however, exhibit two fundamental limitations: they rely on pre-computed 2D auxiliary modalities such as optical flow or point trajectories that lack 3D geometric ...",
+      "venue": "arXiv",
+      "date": "2026-05-28",
+      "arxiv_id": "2605.30352v1",
+      "url": "https://arxiv.org/abs/2605.30352v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.30352v1.pdf",
+      "categories": [
+        "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "VideoMLA: Low-Rank Latent KV Cache for Minute-Scale Autoregressive Video Diffusion",
+      "authors": "Hidir Yesiltepe, Jiazhen Hu, Tuna Han Salih Meral et al.",
+      "abstract": "Long-rollout causal video diffusion has converged on a fixed-size sliding-window KV cache, with recent progress innovating within this layout by changing which tokens occupy the window or how their positions are encoded. The per-head KV layout itself, a dominant contributor to streaming memory and l...",
+      "venue": "arXiv",
+      "date": "2026-05-28",
+      "arxiv_id": "2605.30351v1",
+      "url": "https://arxiv.org/abs/2605.30351v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.30351v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "DynaFLIP: Rethinking Robotics Perception via Tri-Modal-Dynamics Guided Representation",
+      "authors": "Jusuk Lee, Seungjae Lee, Jonghun Shin et al.",
+      "abstract": "Robot manipulation critically depends on perception that preserves the action-relevant aspects of a scene. Yet most robot learning pipelines are built upon visual encoders pre-trained for static recognition or vision-language alignment, leaving motion understanding to downstream policies. We introdu...",
+      "venue": "arXiv",
+      "date": "2026-05-28",
+      "arxiv_id": "2605.30350v1",
+      "url": "https://arxiv.org/abs/2605.30350v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.30350v1.pdf",
       "categories": [
         "cs.RO",
-        "cs.AI",
         "cs.LG"
       ],
       "type": "ml",
