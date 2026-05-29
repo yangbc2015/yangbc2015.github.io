@@ -1,5 +1,41 @@
 {
   "last_updated": "2026-05-29",
-  "count": 0,
-  "items": []
+  "count": 2,
+  "items": [
+    {
+      "title": "PEFT-Arena: Understanding Parameter-Efficient Finetuning from a Stability-Plasticity Perspective",
+      "authors": "Yangyi Huang, Ruotian Peng, Zeju Qiu et al.",
+      "abstract": "Parameter-efficient finetuning (PEFT) has become the standard approach for adapting large language models, yet evaluations largely emphasize downstream accuracy while overlooking the retention of pretrained capabilities. We argue that PEFT should be assessed through the stability-plasticity dilemma:...",
+      "venue": "arXiv",
+      "date": "2026-05-27",
+      "arxiv_id": "2605.28819v1",
+      "url": "https://arxiv.org/abs/2605.28819v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.28819v1.pdf",
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Beyond Binary: Sim-to-Real Dexterous Manipulation with Physics-Grounded Contact Representation",
+      "authors": "Jiahe Pan, Stelian Coros, Jitendra Malik et al.",
+      "abstract": "A primary bottleneck in contact-rich manipulation is the difficulty of collecting real-world data. Sim-to-real reinforcement learning offers a scalable alternative, but the simulation-reality gap prevents information-dense modalities like touch from being effectively used. Existing sim-to-real metho...",
+      "venue": "arXiv",
+      "date": "2026-05-27",
+      "arxiv_id": "2605.28812v1",
+      "url": "https://arxiv.org/abs/2605.28812v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.28812v1.pdf",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    }
+  ]
 }
