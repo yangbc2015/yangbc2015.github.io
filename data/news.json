@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-05-28",
+  "last_updated": "2026-05-29",
   "count": 200,
-  "history_count": 201,
+  "history_count": 205,
   "retention_days": 30,
   "items": [
     {
       "title": "12个月冲击物理AGI的“GPT-3时刻”",
       "link": "https://www.qbitai.com/?s=12个月冲击物理AG",
       "summary": "12个月冲击物理AGI的“GPT-3时刻”...",
-      "date": "2026-05-28",
+      "date": "2026-05-29",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -20,7 +20,7 @@
       "title": "实现AI技术从“能力”到“价值”的转化",
       "link": "https://www.qbitai.com/?s=实现AI技术从“能力",
       "summary": "实现AI技术从“能力”到“价值”的转化...",
-      "date": "2026-05-28",
+      "date": "2026-05-29",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -32,7 +32,7 @@
       "title": "8篇由同一个系统生成或形式化证明的数学论文",
       "link": "https://www.qbitai.com/?s=8篇由同一个系统生成",
       "summary": "8篇由同一个系统生成或形式化证明的数学论文...",
-      "date": "2026-05-28",
+      "date": "2026-05-29",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -44,7 +44,7 @@
       "title": "医学AI Agent到了关键拐点",
       "link": "https://www.qbitai.com/?s=医学AI Agent",
       "summary": "医学AI Agent到了关键拐点...",
-      "date": "2026-05-28",
+      "date": "2026-05-29",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -56,8 +56,80 @@
       "title": "曾在Salesforce干了13年营销",
       "link": "https://www.qbitai.com/?s=曾在Salesfor",
       "summary": "曾在Salesforce干了13年营销...",
-      "date": "2026-05-28",
+      "date": "2026-05-29",
       "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "Markdown Content:",
+      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+      "summary": "Markdown Content:...",
+      "date": "2026-05-28",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "全球首发 | SLAI基于国产算力集群完成DeepSeek-V4-Pro全参数后训练",
+      "link": "https://www.jiqizhixin.com/search/articles/全球首发 | SLAI基于国产",
+      "summary": "全球首发 | SLAI基于国产算力集群完成DeepSeek-V4-Pro全参数后训练...",
+      "date": "2026-05-28",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "国产超算生成式压缩模型训练性能突破2.16 EFLOP/s，支撑全球遥感数据万倍级压缩",
+      "link": "https://www.jiqizhixin.com/search/articles/国产超算生成式压缩模型训练性能",
+      "summary": "国产超算生成式压缩模型训练性能突破2.16 EFLOP/s，支撑全球遥感数据万倍级压缩...",
+      "date": "2026-05-28",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "别在CVPR独自社恐了！来丹佛AI Talent Meetup，只聊你听得懂的技术与理想",
+      "link": "https://www.jiqizhixin.com/search/articles/别在CVPR独自社恐了！来丹佛",
+      "summary": "别在CVPR独自社恐了！来丹佛AI Talent Meetup，只聊你听得懂的技术与理想...",
+      "date": "2026-05-28",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "重塑人机对话理解范式，Google新数据集首次大规模捕捉用户「未言明的想法」",
+      "link": "https://www.jiqizhixin.com/search/articles/重塑人机对话理解范式，Goog",
+      "summary": "重塑人机对话理解范式，Google新数据集首次大规模捕捉用户「未言明的想法」...",
+      "date": "2026-05-28",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "刚刚，国产预训练具身大模型开源了，让后训练不再是必选项！",
+      "link": "https://www.jiqizhixin.com/search/articles/刚刚，国产预训练具身大模型开源",
+      "summary": "刚刚，国产预训练具身大模型开源了，让后训练不再是必选项！...",
+      "date": "2026-05-28",
+      "source": "机器之心",
       "type": "industry",
       "tags": [
         "AI",
@@ -188,18 +260,6 @@
       "title": "具身智能迈入下半场，RoboMemArena全面评测机器人记忆系统",
       "link": "https://www.jiqizhixin.com/search/articles/具身智能迈入下半场，RoboM",
       "summary": "具身智能迈入下半场，RoboMemArena全面评测机器人记忆系统...",
-      "date": "2026-05-27",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Markdown Content:",
-      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-      "summary": "Markdown Content:...",
       "date": "2026-05-27",
       "source": "机器之心",
       "type": "industry",
@@ -2337,66 +2397,6 @@
       "link": "https://www.jiqizhixin.com/search/articles/腾讯混元CL-bench续作发",
       "summary": "腾讯混元CL-bench续作发布，让大模型读懂你的日常生活...",
       "date": "2026-05-01",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "刚刚，DeepSeek多模态技术范式公布，以视觉原语思考",
-      "link": "https://www.jiqizhixin.com/search/articles/刚刚，DeepSeek多模态技",
-      "summary": "刚刚，DeepSeek多模态技术范式公布，以视觉原语思考...",
-      "date": "2026-04-30",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "GPT-5系列咋都爱说「哥布林」？原因找到了",
-      "link": "https://www.jiqizhixin.com/search/articles/GPT-5系列咋都爱说「哥布林",
-      "summary": "GPT-5系列咋都爱说「哥布林」？原因找到了...",
-      "date": "2026-04-30",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "为智能体可信协作提供新方案 蚂蚁数科登顶以太坊全球基准评测",
-      "link": "https://www.jiqizhixin.com/search/articles/为智能体可信协作提供新方案 蚂",
-      "summary": "为智能体可信协作提供新方案 蚂蚁数科登顶以太坊全球基准评测...",
-      "date": "2026-04-30",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "不只是DeepSeek V4，还有个万亿级大模型，训推全程国产芯片",
-      "link": "https://www.jiqizhixin.com/search/articles/不只是DeepSeek V4，",
-      "summary": "不只是DeepSeek V4，还有个万亿级大模型，训推全程国产芯片...",
-      "date": "2026-04-30",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "CVPR 2026｜用互联网视频替代3D标注：通研院团队打造SceneVerse++「最大规模」真实3D场景数据",
-      "link": "https://www.jiqizhixin.com/search/articles/CVPR 2026｜用互联网视",
-      "summary": "CVPR 2026｜用互联网视频替代3D标注：通研院团队打造SceneVerse++「最大规模」真实3D场景数据...",
-      "date": "2026-04-30",
       "source": "机器之心",
       "type": "industry",
       "tags": [
