@@ -1,9 +1,81 @@
 {
   "last_updated": "2026-05-30",
   "count": 200,
-  "history_count": 201,
+  "history_count": 205,
   "retention_days": 30,
   "items": [
+    {
+      "title": "Markdown Content:",
+      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+      "summary": "Markdown Content:...",
+      "date": "2026-05-31",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "DeepSeek陈德里AI论文第二弹：从6分到8分，DeliAutoResearch SKILL又进化了",
+      "link": "https://www.jiqizhixin.com/search/articles/DeepSeek陈德里AI论文",
+      "summary": "DeepSeek陈德里AI论文第二弹：从6分到8分，DeliAutoResearch SKILL又进化了...",
+      "date": "2026-05-31",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "LeetCode C++近满分！Autogenesis要给智能体装上「自进化操作系统」",
+      "link": "https://www.jiqizhixin.com/search/articles/LeetCode C++近满分",
+      "summary": "LeetCode C++近满分！Autogenesis要给智能体装上「自进化操作系统」...",
+      "date": "2026-05-31",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "只需几个抽象符号替代思维链，就能将推理成本压缩11倍",
+      "link": "https://www.jiqizhixin.com/search/articles/只需几个抽象符号替代思维链，就",
+      "summary": "只需几个抽象符号替代思维链，就能将推理成本压缩11倍...",
+      "date": "2026-05-31",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "李飞飞造了ImageNet，现在她又带人超越了它",
+      "link": "https://www.jiqizhixin.com/search/articles/李飞飞造了ImageNet，现",
+      "summary": "李飞飞造了ImageNet，现在她又带人超越了它...",
+      "date": "2026-05-31",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "超越单体智能｜多智能体系统的协作、归因与自我演化综述",
+      "link": "https://www.jiqizhixin.com/search/articles/超越单体智能｜多智能体系统的协",
+      "summary": "超越单体智能｜多智能体系统的协作、归因与自我演化综述...",
+      "date": "2026-05-31",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
     {
       "title": "（可能是）大模型圈里最会弹钢琴的人",
       "link": "https://www.qbitai.com/?s=（可能是）大模型圈里",
@@ -152,18 +224,6 @@
       "title": "DiffusionOPD：复旦联合通义万相提出扩散模型「在线策略蒸馏」新范式，让学⽣模型同时学会构图、⽂字与美学",
       "link": "https://www.jiqizhixin.com/search/articles/DiffusionOPD：复旦",
       "summary": "DiffusionOPD：复旦联合通义万相提出扩散模型「在线策略蒸馏」新范式，让学⽣模型同时学会构图、⽂字与美学...",
-      "date": "2026-05-29",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Markdown Content:",
-      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-      "summary": "Markdown Content:...",
       "date": "2026-05-29",
       "source": "机器之心",
       "type": "industry",
@@ -2338,66 +2398,6 @@
       "summary": "根据自身业务流程定制专属数字员工...",
       "date": "2026-05-06",
       "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "搭载当代旗舰芯天玑9500移动平台",
-      "link": "https://www.qbitai.com/?s=搭载当代旗舰芯天玑9",
-      "summary": "搭载当代旗舰芯天玑9500移动平台...",
-      "date": "2026-05-06",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Anthropic联创定下deadline：2028年AI实现自我进化，没有人类了",
-      "link": "https://www.jiqizhixin.com/search/articles/Anthropic联创定下de",
-      "summary": "Anthropic联创定下deadline：2028年AI实现自我进化，没有人类了...",
-      "date": "2026-05-05",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "大型挂机现场：马斯克的55万英伟达GPU，利用率才11%",
-      "link": "https://www.jiqizhixin.com/search/articles/大型挂机现场：马斯克的55万英",
-      "summary": "大型挂机现场：马斯克的55万英伟达GPU，利用率才11%...",
-      "date": "2026-05-05",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Agent-World：扩展真实世界环境，让智能体与环境协同进化！",
-      "link": "https://www.jiqizhixin.com/search/articles/Agent-World：扩展真",
-      "summary": "Agent-World：扩展真实世界环境，让智能体与环境协同进化！...",
-      "date": "2026-05-05",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "计算机科学专业第三次大衰退？原因：AI",
-      "link": "https://www.jiqizhixin.com/search/articles/计算机科学专业第三次大衰退？原",
-      "summary": "计算机科学专业第三次大衰退？原因：AI...",
-      "date": "2026-05-05",
-      "source": "机器之心",
       "type": "industry",
       "tags": [
         "AI",
