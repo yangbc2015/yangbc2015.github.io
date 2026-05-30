@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-05-29",
+  "last_updated": "2026-05-30",
   "count": 200,
   "items": [
     {
       "title": "[喜获 CR 认证！聆动通用成为全国首个工业级 具 身 智 能 机器人获证企业",
       "summary": "[喜获 CR 认证！聆动通用成为全国首个工业级 具 身 智 能 机器人获证企业",
       "url": "http://36kr.com/p/3828653712380552",
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
@@ -18,7 +18,7 @@
       "title": "[具 身 智 能 规模化元年，人形机器人“卖不动、租得火”",
       "summary": "[具 身 智 能 规模化元年，人形机器人“卖不动、租得火”",
       "url": "http://36kr.com/p/3815911066099457",
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "source": "36氪",
       "category": "具身智能",
       "type": "news",
@@ -105,6 +105,19 @@
         "机器人学习",
         "研究论文",
         "arXiv"
+      ]
+    },
+    {
+      "title": "本次CR 证书成功颁发，标志着聆动通用的具身智能通用机器人在安全性、可靠性、性能指标方面已超国家标准。",
+      "summary": "本次CR 证书成功颁发，标志着聆动通用的具身智能通用机器人在安全性、可靠性、性能指标方面已超国家标准。",
+      "url": "http://36kr.com/p/3828653712380552",
+      "date": "2026-05-28",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
       ]
     },
     {
@@ -3074,22 +3087,6 @@
       "type": "paper",
       "arxiv_id": "2604.12933v1",
       "authors": "Yuhan Jin, Nayari Marie Lessa et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "E2E-Fly: An Integrated Training-to-Deployment System for End-to-End Quadrotor Autonomy",
-      "summary": "Training and transferring learning-based policies for quadrotors from simulation to reality remains challenging due to inefficient visual rendering, physical modeling inaccuracies, unmodeled sensor discrepancies, and the absence of a unified platform...",
-      "url": "https://arxiv.org/abs/2604.12916v1",
-      "date": "2026-04-14",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2604.12916v1",
-      "authors": "Fangyu Sun, Fanxing Li et al.",
       "tags": [
         "机器人学习",
         "研究论文",
