@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-05-30",
-  "count": 3,
+  "count": 7,
   "items": [
     {
       "title": "Physics Is All You Need? A Case Study in Physicist-Supervised AI Development of Scientific Software",
@@ -38,6 +38,42 @@
       "source": "arXiv"
     },
     {
+      "title": "LLMSurgeon: Diagnosing Data Mixture of Large Language Models",
+      "authors": "Yaxin Luo, Jiacheng Cui, Xiaohan Zhao et al.",
+      "abstract": "The pretraining data mixture of Large Language Models (LLMs) constitutes their \"digital DNA\", shaping model behaviors, capabilities, and failure modes. Yet this composition is rarely disclosed, making post-hoc auditing of data combination or provenance difficult. In this work, we formalize $\\textbf{...",
+      "venue": "arXiv",
+      "date": "2026-05-28",
+      "arxiv_id": "2605.30348v1",
+      "url": "https://arxiv.org/abs/2605.30348v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.30348v1.pdf",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "SchGen: PCB Schematic Generation with Semantic-Grounded Code Representations",
+      "authors": "Qinpei Luo, Ruichun Ma, Xinyu Zhang et al.",
+      "abstract": "Printed circuit board (PCB) schematic design defines nearly all electronic hardware, but it remains manual and expertise-intensive. While generative AI has advanced digital and analog IC design, PCB schematic generation from natural-language intent is largely unexplored. This paper presents SchGen, ...",
+      "venue": "arXiv",
+      "date": "2026-05-28",
+      "arxiv_id": "2605.30345v1",
+      "url": "https://arxiv.org/abs/2605.30345v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.30345v1.pdf",
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
       "title": "GMOS: Grounding Moving Object Segmentation in 3D Space and Time",
       "authors": "Junyu Xie, Tengda Han, Weidi Xie et al.",
       "abstract": "Moving Object Segmentation (MOS) aims to discover, segment, and track objects that move independently of the camera. Current MOS methods, however, exhibit two fundamental limitations: they rely on pre-computed 2D auxiliary modalities such as optical flow or point trajectories that lack 3D geometric ...",
@@ -48,6 +84,40 @@
       "pdf_url": "https://arxiv.org/pdf/2605.30352v1.pdf",
       "categories": [
         "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "DynaFLIP: Rethinking Robotics Perception via Tri-Modal-Dynamics Guided Representation",
+      "authors": "Jusuk Lee, Seungjae Lee, Jonghun Shin et al.",
+      "abstract": "Robot manipulation critically depends on perception that preserves the action-relevant aspects of a scene. Yet most robot learning pipelines are built upon visual encoders pre-trained for static recognition or vision-language alignment, leaving motion understanding to downstream policies. We introdu...",
+      "venue": "arXiv",
+      "date": "2026-05-28",
+      "arxiv_id": "2605.30350v1",
+      "url": "https://arxiv.org/abs/2605.30350v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.30350v1.pdf",
+      "categories": [
+        "cs.RO",
+        "cs.LG"
+      ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Uncertainty-driven 3D Gaussian Splatting Active Mapping via Anisotropic Visibility Field",
+      "authors": "Shangjie Xue, Jesse Dill, Dhruv Ahuja et al.",
+      "abstract": "We present Gaussian Splatting Anisotropic Visibility Field (GAVIS), a novel framework for uncertainty quantification and active mapping in 3DGS. Our key insight is that regions unseen from the training views yield unreliable predictions from the 3DGS. To address this, we introduce a principled and e...",
+      "venue": "arXiv",
+      "date": "2026-05-28",
+      "arxiv_id": "2605.30342v1",
+      "url": "https://arxiv.org/abs/2605.30342v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.30342v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
       ],
       "type": "vision",
       "badge": "arxiv",
