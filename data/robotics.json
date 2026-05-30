@@ -28,6 +28,19 @@
       ]
     },
     {
+      "title": "本次CR 证书成功颁发，标志着聆动通用的具身智能通用机器人在安全性、可靠性、性能指标方面已超国家标准。",
+      "summary": "本次CR 证书成功颁发，标志着聆动通用的具身智能通用机器人在安全性、可靠性、性能指标方面已超国家标准。",
+      "url": "http://36kr.com/p/3828653712380552",
+      "date": "2026-05-28",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
       "title": "DynaFLIP: Rethinking Robotics Perception via Tri-Modal-Dynamics Guided Representation",
       "summary": "Robot manipulation critically depends on perception that preserves the action-relevant aspects of a scene. Yet most robot learning pipelines are built upon visual encoders pre-trained for static recognition or vision-language alignment, leaving motio...",
       "url": "https://arxiv.org/abs/2605.30350v1",
@@ -105,19 +118,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "本次CR 证书成功颁发，标志着聆动通用的具身智能通用机器人在安全性、可靠性、性能指标方面已超国家标准。",
-      "summary": "本次CR 证书成功颁发，标志着聆动通用的具身智能通用机器人在安全性、可靠性、性能指标方面已超国家标准。",
-      "url": "http://36kr.com/p/3828653712380552",
-      "date": "2026-05-28",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
       ]
     },
     {
