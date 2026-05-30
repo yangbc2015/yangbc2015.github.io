@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-05-30",
-  "count": 2,
+  "count": 3,
   "items": [
     {
       "title": "Physics Is All You Need? A Case Study in Physicist-Supervised AI Development of Scientific Software",
@@ -32,6 +32,22 @@
       "categories": [
         "cs.CV",
         "cs.AI"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "GMOS: Grounding Moving Object Segmentation in 3D Space and Time",
+      "authors": "Junyu Xie, Tengda Han, Weidi Xie et al.",
+      "abstract": "Moving Object Segmentation (MOS) aims to discover, segment, and track objects that move independently of the camera. Current MOS methods, however, exhibit two fundamental limitations: they rely on pre-computed 2D auxiliary modalities such as optical flow or point trajectories that lack 3D geometric ...",
+      "venue": "arXiv",
+      "date": "2026-05-28",
+      "arxiv_id": "2605.30352v1",
+      "url": "https://arxiv.org/abs/2605.30352v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.30352v1.pdf",
+      "categories": [
+        "cs.CV"
       ],
       "type": "vision",
       "badge": "arxiv",
