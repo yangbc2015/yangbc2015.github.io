@@ -1,51 +1,33 @@
 {
   "last_updated": "2026-06-01",
-  "count": 7,
+  "count": 4,
   "items": [
     {
-      "title": "Physics Is All You Need? A Case Study in Physicist-Supervised AI Development of Scientific Software",
-      "authors": "Nhat-Minh Nguyen",
-      "abstract": "Are AI agents tools, co-authors, or researchers? We present a quantified case study ($N=1$): a physicist supervising an AI coding agent (Claude Code, Sonnet and Opus models) over 12 work days and 57 sessions to build CLAX-PT, a differentiable one-loop perturbation theory module in JAX. We documented...",
+      "title": "Language Models Learn Constructional Semantics, Not To Mention Syntax: Investigating LM Understanding of Paired-Focus Constructions",
+      "authors": "Wesley Scivetti, Ethan Wilcox, Nathan Schneider et al.",
+      "abstract": "Grasping the semantics of rare constructions (form-meaning pairings) has been shown to be a challenging problem that has currently only been solved by the largest LLMs. It remains an open question if open-source models have robust constructional understanding, and if so, what learning dynamics under...",
       "venue": "arXiv",
-      "date": "2026-05-28",
-      "arxiv_id": "2605.30353v1",
-      "url": "https://arxiv.org/abs/2605.30353v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.30353v1.pdf",
+      "date": "2026-05-29",
+      "arxiv_id": "2605.31586v1",
+      "url": "https://arxiv.org/abs/2605.31586v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.31586v1.pdf",
       "categories": [
-        "cs.AI",
-        "astro-ph.CO",
-        "cs.HC"
-      ],
-      "type": "ai",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "VideoMLA: Low-Rank Latent KV Cache for Minute-Scale Autoregressive Video Diffusion",
-      "authors": "Hidir Yesiltepe, Jiazhen Hu, Tuna Han Salih Meral et al.",
-      "abstract": "Long-rollout causal video diffusion has converged on a fixed-size sliding-window KV cache, with recent progress innovating within this layout by changing which tokens occupy the window or how their positions are encoded. The per-head KV layout itself, a dominant contributor to streaming memory and l...",
-      "venue": "arXiv",
-      "date": "2026-05-28",
-      "arxiv_id": "2605.30351v1",
-      "url": "https://arxiv.org/abs/2605.30351v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.30351v1.pdf",
-      "categories": [
-        "cs.CV",
+        "cs.CL",
         "cs.AI"
       ],
-      "type": "vision",
+      "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "LLMSurgeon: Diagnosing Data Mixture of Large Language Models",
-      "authors": "Yaxin Luo, Jiacheng Cui, Xiaohan Zhao et al.",
-      "abstract": "The pretraining data mixture of Large Language Models (LLMs) constitutes their \"digital DNA\", shaping model behaviors, capabilities, and failure modes. Yet this composition is rarely disclosed, making post-hoc auditing of data combination or provenance difficult. In this work, we formalize $\\textbf{...",
+      "title": "LongTraceRL: Learning Long-Context Reasoning from Search Agent Trajectories with Rubric Rewards",
+      "authors": "Nianyi Lin, Jiajie Zhang, Lei Hou et al.",
+      "abstract": "Long-context reasoning remains a central challenge for large language models, which often fail to locate and integrate key information in extensive distracting content. Reinforcement learning with verifiable rewards (RLVR) has shown promise for this task, yet existing methods are limited by low-conf...",
       "venue": "arXiv",
-      "date": "2026-05-28",
-      "arxiv_id": "2605.30348v1",
-      "url": "https://arxiv.org/abs/2605.30348v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.30348v1.pdf",
+      "date": "2026-05-29",
+      "arxiv_id": "2605.31584v1",
+      "url": "https://arxiv.org/abs/2605.31584v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.31584v1.pdf",
       "categories": [
         "cs.CL",
         "cs.AI",
@@ -56,70 +38,36 @@
       "source": "arXiv"
     },
     {
-      "title": "SchGen: PCB Schematic Generation with Semantic-Grounded Code Representations",
-      "authors": "Qinpei Luo, Ruichun Ma, Xinyu Zhang et al.",
-      "abstract": "Printed circuit board (PCB) schematic design defines nearly all electronic hardware, but it remains manual and expertise-intensive. While generative AI has advanced digital and analog IC design, PCB schematic generation from natural-language intent is largely unexplored. This paper presents SchGen, ...",
+      "title": "KLIP: localized distribution shift detection via KL-divergence with diffusion priors in Inverse Problems",
+      "authors": "Alireza Kheirandish, Jihoon Hong, Sara Fridovich-Keil",
+      "abstract": "Diffusion models have shown promising performance as data-driven priors for computational imaging, as well as some capacity to detect out-of-distribution (OOD) images. However, existing approaches to OOD detection often require some knowledge of the shifted distribution, fail to detect subtle or loc...",
       "venue": "arXiv",
-      "date": "2026-05-28",
-      "arxiv_id": "2605.30345v1",
-      "url": "https://arxiv.org/abs/2605.30345v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.30345v1.pdf",
-      "categories": [
-        "cs.AI",
-        "cs.CL",
-        "cs.LG"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "GMOS: Grounding Moving Object Segmentation in 3D Space and Time",
-      "authors": "Junyu Xie, Tengda Han, Weidi Xie et al.",
-      "abstract": "Moving Object Segmentation (MOS) aims to discover, segment, and track objects that move independently of the camera. Current MOS methods, however, exhibit two fundamental limitations: they rely on pre-computed 2D auxiliary modalities such as optical flow or point trajectories that lack 3D geometric ...",
-      "venue": "arXiv",
-      "date": "2026-05-28",
-      "arxiv_id": "2605.30352v1",
-      "url": "https://arxiv.org/abs/2605.30352v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.30352v1.pdf",
-      "categories": [
-        "cs.CV"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "DynaFLIP: Rethinking Robotics Perception via Tri-Modal-Dynamics Guided Representation",
-      "authors": "Jusuk Lee, Seungjae Lee, Jonghun Shin et al.",
-      "abstract": "Robot manipulation critically depends on perception that preserves the action-relevant aspects of a scene. Yet most robot learning pipelines are built upon visual encoders pre-trained for static recognition or vision-language alignment, leaving motion understanding to downstream policies. We introdu...",
-      "venue": "arXiv",
-      "date": "2026-05-28",
-      "arxiv_id": "2605.30350v1",
-      "url": "https://arxiv.org/abs/2605.30350v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.30350v1.pdf",
-      "categories": [
-        "cs.RO",
-        "cs.LG"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Uncertainty-driven 3D Gaussian Splatting Active Mapping via Anisotropic Visibility Field",
-      "authors": "Shangjie Xue, Jesse Dill, Dhruv Ahuja et al.",
-      "abstract": "We present Gaussian Splatting Anisotropic Visibility Field (GAVIS), a novel framework for uncertainty quantification and active mapping in 3DGS. Our key insight is that regions unseen from the training views yield unreliable predictions from the 3DGS. To address this, we introduce a principled and e...",
-      "venue": "arXiv",
-      "date": "2026-05-28",
-      "arxiv_id": "2605.30342v1",
-      "url": "https://arxiv.org/abs/2605.30342v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.30342v1.pdf",
+      "date": "2026-05-29",
+      "arxiv_id": "2605.31596v1",
+      "url": "https://arxiv.org/abs/2605.31596v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.31596v1.pdf",
       "categories": [
         "cs.CV",
-        "cs.RO"
+        "cs.LG"
       ],
       "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "A Tight Theory of Error Feedback Algorithms in Distributed Optimization",
+      "authors": "Daniel Berg Thomsen, Adrien Taylor, Aymeric Dieuleveut",
+      "abstract": "Communication costs are a major bottleneck in distributed learning and first-order optimization. A common approach to alleviate this issue is to compress the gradient information exchanged between agents. However, such compression typically degrades the convergence guarantees of gradient-based metho...",
+      "venue": "arXiv",
+      "date": "2026-05-29",
+      "arxiv_id": "2605.31594v1",
+      "url": "https://arxiv.org/abs/2605.31594v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.31594v1.pdf",
+      "categories": [
+        "cs.LG",
+        "math.OC"
+      ],
+      "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     }

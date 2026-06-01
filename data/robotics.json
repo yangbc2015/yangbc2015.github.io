@@ -3,6 +3,18 @@
   "count": 200,
   "items": [
     {
+      "title": "[蚂蚁、滴滴、德联领投，简智机器人完成数亿元多轮融资，领跑 具 身 智 能 无本体数据赛道",
+      "summary": "[蚂蚁、滴滴、德联领投，简智机器人完成数亿元多轮融资，领跑 具 身 智 能 无本体数据赛道",
+      "url": "http://36kr.com/p/3834105574270600",
+      "date": "2026-06-01",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
       "title": "[喜获 CR 认证！聆动通用成为全国首个工业级 具 身 智 能 机器人获证企业",
       "summary": "[喜获 CR 认证！聆动通用成为全国首个工业级 具 身 智 能 机器人获证企业",
       "url": "http://36kr.com/p/3828653712380552",
@@ -25,6 +37,99 @@
       "tags": [
         "机器人",
         "人形机器人"
+      ]
+    },
+    {
+      "title": "Learning Controlled Separation of Small Objects Between Two Fingers with a Tactile Skin",
+      "summary": "We introduce and solve the novel task of controlled separation of small objects with two fingers of a multi-purpose robotic hand: after grasping into a box of small objects, the task is to drop as many of them until a desired number remains between t...",
+      "url": "https://arxiv.org/abs/2605.31486v1",
+      "date": "2026-05-29",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2605.31486v1",
+      "authors": "Ulf Kasolowsky, Berthold Bäuml",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Batched Differentiable Rigid Body Dynamics in PyTorch for GPU-Accelerated Robot Learning",
+      "summary": "As robot control shifts toward large-scale reinforcement learning with in-loop dynamics computation, the community's reliance on CPU-bound libraries such as Pinocchio creates a throughput bottleneck in GPU-based training pipelines. We present BARD (B...",
+      "url": "https://arxiv.org/abs/2605.31481v1",
+      "date": "2026-05-29",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2605.31481v1",
+      "authors": "Yue Wang, Yanran Xu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "IDOL: Inverse-Dynamics-Guided Future Prediction for End-to-End Autonomous Driving",
+      "summary": "End-to-end autonomous driving has emerged as a compelling paradigm for learning planning directly from sensor observations, while recent world-model-based approaches further enrich this paradigm by enabling explicit reasoning about how the scene may ...",
+      "url": "https://arxiv.org/abs/2605.31476v1",
+      "date": "2026-05-29",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2605.31476v1",
+      "authors": "Chenghao Zhang, Timin Li et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "On-Device Robotic Planning: Eliminating Inference Redundancy for Efficient Decision-Making",
+      "summary": "Reasoning-based robotic policies using large language and vision-language models achieve strong semantic planning capabilities but mostly suffer from a high inference latency that limits practical real-time deployment. In this work, we observe that r...",
+      "url": "https://arxiv.org/abs/2605.31460v1",
+      "date": "2026-05-29",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2605.31460v1",
+      "authors": "Joonhee Lee, Hyunseung Shin et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Actuator-Aware Inverse Kinematics with Joint-Limit Admissibility for Torque-Controlled Redundant Robots",
+      "summary": "This paper proposes actuator-aware inverse kinematics for torque-controlled redundant robots under joint-limit constraints. In the considered architecture, the inverse-kinematic output is not merely a purely kinematic joint-velocity command; it is th...",
+      "url": "https://arxiv.org/abs/2605.31436v1",
+      "date": "2026-05-29",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2605.31436v1",
+      "authors": "Mohammad Dastranj, Mahdi Hejrati et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "本次CR 证书成功颁发，标志着聆动通用的具身智能通用机器人在安全性、可靠性、性能指标方面已超国家标准。",
+      "summary": "本次CR 证书成功颁发，标志着聆动通用的具身智能通用机器人在安全性、可靠性、性能指标方面已超国家标准。",
+      "url": "http://36kr.com/p/3828653712380552",
+      "date": "2026-05-28",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
       ]
     },
     {
@@ -105,19 +210,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "本次CR 证书成功颁发，标志着聆动通用的具身智能通用机器人在安全性、可靠性、性能指标方面已超国家标准。",
-      "summary": "本次CR 证书成功颁发，标志着聆动通用的具身智能通用机器人在安全性、可靠性、性能指标方面已超国家标准。",
-      "url": "http://36kr.com/p/3828653712380552",
-      "date": "2026-05-28",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
       ]
     },
     {
@@ -2991,102 +3083,6 @@
       "type": "paper",
       "arxiv_id": "2604.14026v1",
       "authors": "Servet B. Bayraktar, Andreas Orthey et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Neuromorphic Spiking Ring Attractor for Proprioceptive Joint-State Estimation",
-      "summary": "Maintaining stable internal representations of continuous variables is fundamental for effective robotic control. Continuous attractor networks provide a biologically inspired mechanism for encoding such variables, yet neuromorphic realizations have ...",
-      "url": "https://arxiv.org/abs/2604.14021v1",
-      "date": "2026-04-15",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2604.14021v1",
-      "authors": "Federica Ferrari, Flavia Davidhi et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Towards Multi-Object-Tracking with Radar on a Fast Moving Vehicle: On the Potential of Processing Radar in the Frequency Domain",
-      "summary": "We promote in this paper the processing of radar data in the frequency domain to achieve higher robustness against noise and structural errors, especially in comparison to feature-based methods. This holds also for high dynamics in the scene, i.e., e...",
-      "url": "https://arxiv.org/abs/2604.14013v1",
-      "date": "2026-04-15",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2604.14013v1",
-      "authors": "Tim Hansen, Arturo Gomez-Chavez et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Learning Versatile Humanoid Manipulation with Touch Dreaming",
-      "summary": "Humanoid robots promise general-purpose assistance, yet real-world humanoid loco-manipulation remains challenging because it requires whole-body stability, dexterous hands, and contact-aware perception under frequent contact changes. In this work, we...",
-      "url": "https://arxiv.org/abs/2604.13015v1",
-      "date": "2026-04-14",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2604.13015v1",
-      "authors": "Yaru Niu, Zhenlong Fang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "XRZero-G0: Pushing the Frontier of Dexterous Robotic Manipulation with Interfaces, Quality and Ratios",
-      "summary": "The acquisition of high-quality, action-aligned demonstration data remains a fundamental bottleneck in scaling foundation models for dexterous robot manipulation. Although robot-free human demonstrations (e.g., the UMI paradigm) offer a scalable alte...",
-      "url": "https://arxiv.org/abs/2604.13001v1",
-      "date": "2026-04-14",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2604.13001v1",
-      "authors": "Junming Wang, Teng Pu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "RMGS-SLAM: Real-time Multi-sensor Gaussian Splatting SLAM",
-      "summary": "Real-time 3D Gaussian splatting (3DGS)-based Simultaneous Localization and Mapping (SLAM) in large-scale real-world environments remains challenging, as existing methods often struggle to jointly achieve low-latency pose estimation, 3D Gaussian recon...",
-      "url": "https://arxiv.org/abs/2604.12942v1",
-      "date": "2026-04-14",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2604.12942v1",
-      "authors": "Dongen Li, Yi Liu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "DINO-Explorer: Active Underwater Discovery via Ego-Motion Compensated Semantic Predictive Coding",
-      "summary": "Marine ecosystem degradation necessitates continuous, scientifically selective underwater monitoring. However, most autonomous underwater vehicles (AUVs) operate as passive data loggers, capturing exhaustive video for offline review and frequently mi...",
-      "url": "https://arxiv.org/abs/2604.12933v1",
-      "date": "2026-04-14",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2604.12933v1",
-      "authors": "Yuhan Jin, Nayari Marie Lessa et al.",
       "tags": [
         "机器人学习",
         "研究论文",
