@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-05-31",
+  "last_updated": "2026-06-01",
   "count": 200,
-  "history_count": 200,
+  "history_count": 205,
   "retention_days": 30,
   "items": [
     {
       "title": "（可能是）大模型圈里最会弹钢琴的人",
       "link": "https://www.qbitai.com/?s=（可能是）大模型圈里",
       "summary": "（可能是）大模型圈里最会弹钢琴的人...",
-      "date": "2026-05-31",
+      "date": "2026-06-01",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -20,7 +20,7 @@
       "title": "从按帧学动作，到按「事件」理解世界",
       "link": "https://www.qbitai.com/?s=从按帧学动作，到按「",
       "summary": "从按帧学动作，到按「事件」理解世界...",
-      "date": "2026-05-31",
+      "date": "2026-06-01",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -32,7 +32,7 @@
       "title": "可以长时间执行任务，人类不用经常回来检查它的工作",
       "link": "https://www.qbitai.com/?s=可以长时间执行任务，",
       "summary": "可以长时间执行任务，人类不用经常回来检查它的工作...",
-      "date": "2026-05-31",
+      "date": "2026-06-01",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -44,7 +44,7 @@
       "title": "12个月冲击物理AGI的“GPT-3时刻”",
       "link": "https://www.qbitai.com/?s=12个月冲击物理AG",
       "summary": "12个月冲击物理AGI的“GPT-3时刻”...",
-      "date": "2026-05-31",
+      "date": "2026-06-01",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -56,8 +56,80 @@
       "title": "实现AI技术从“能力”到“价值”的转化",
       "link": "https://www.qbitai.com/?s=实现AI技术从“能力",
       "summary": "实现AI技术从“能力”到“价值”的转化...",
-      "date": "2026-05-31",
+      "date": "2026-06-01",
       "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "Markdown Content:",
+      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+      "summary": "Markdown Content:...",
+      "date": "2026-05-31",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "小学生画了撇胡子骗过AI年龄验证，硅谷工程师沉默了",
+      "link": "https://www.jiqizhixin.com/search/articles/小学生画了撇胡子骗过AI年龄验",
+      "summary": "小学生画了撇胡子骗过AI年龄验证，硅谷工程师沉默了...",
+      "date": "2026-05-31",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "一周3.3k star，微软开启Skills自我进化！像训练神经网络一样训练技能",
+      "link": "https://www.jiqizhixin.com/search/articles/一周3.3k star，微软开",
+      "summary": "一周3.3k star，微软开启Skills自我进化！像训练神经网络一样训练技能...",
+      "date": "2026-05-31",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "Rubrics综述：Agent时代，如何定义一个「好答案」？",
+      "link": "https://www.jiqizhixin.com/search/articles/Rubrics综述：Agent",
+      "summary": "Rubrics综述：Agent时代，如何定义一个「好答案」？...",
+      "date": "2026-05-31",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "开源编程语言Zig，向AI代码说「不」",
+      "link": "https://www.jiqizhixin.com/search/articles/开源编程语言Zig，向AI代码",
+      "summary": "开源编程语言Zig，向AI代码说「不」...",
+      "date": "2026-05-31",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "ICML 2026 | 清华姚权铭团队提出LMNet，让语言模型学会自己「组网」",
+      "link": "https://www.jiqizhixin.com/search/articles/ICML 2026 | 清华姚",
+      "summary": "ICML 2026 | 清华姚权铭团队提出LMNet，让语言模型学会自己「组网」...",
+      "date": "2026-05-31",
+      "source": "机器之心",
       "type": "industry",
       "tags": [
         "AI",
@@ -74,18 +146,6 @@
       "tags": [
         "AI",
         "Artificial Intelligence"
-      ]
-    },
-    {
-      "title": "Markdown Content:",
-      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-      "summary": "Markdown Content:...",
-      "date": "2026-05-31",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
       ]
     },
     {
@@ -2338,66 +2398,6 @@
       "summary": "Stripe推出由 Link 驱动的智能体钱包...",
       "date": "2026-05-07",
       "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "从算力时代到智能时代，三大结构性变化",
-      "link": "https://www.qbitai.com/?s=从算力时代到智能时代",
-      "summary": "从算力时代到智能时代，三大结构性变化...",
-      "date": "2026-05-07",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "TRAE SOLO移动端上线，手机也能干活了，随时随地Vibe Working",
-      "link": "https://www.jiqizhixin.com/search/articles/TRAE SOLO移动端上线，",
-      "summary": "TRAE SOLO移动端上线，手机也能干活了，随时随地Vibe Working...",
-      "date": "2026-05-06",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "GRPO遭遇瓶颈？G²RPO-A让自适应指导为小模型推理能力「开外挂」",
-      "link": "https://www.jiqizhixin.com/search/articles/GRPO遭遇瓶颈？G²RPO-",
-      "summary": "GRPO遭遇瓶颈？G²RPO-A让自适应指导为小模型推理能力「开外挂」...",
-      "date": "2026-05-06",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Luma Uni-1.1 API开放，图像模型榜单第三，文字渲染直逼GPT image 2",
-      "link": "https://www.jiqizhixin.com/search/articles/Luma Uni-1.1 AP",
-      "summary": "Luma Uni-1.1 API开放，图像模型榜单第三，文字渲染直逼GPT image 2...",
-      "date": "2026-05-06",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "领先于Transformer！新架构首个1200万上下文模型SubQ，成本仅Opus的5%",
-      "link": "https://www.jiqizhixin.com/search/articles/领先于Transformer！",
-      "summary": "领先于Transformer！新架构首个1200万上下文模型SubQ，成本仅Opus的5%...",
-      "date": "2026-05-06",
-      "source": "机器之心",
       "type": "industry",
       "tags": [
         "AI",
