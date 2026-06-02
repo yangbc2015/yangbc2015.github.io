@@ -1,9 +1,21 @@
 {
   "last_updated": "2026-06-02",
   "count": 200,
-  "history_count": 202,
+  "history_count": 201,
   "retention_days": 30,
   "items": [
+    {
+      "title": "已上线 PaddleOCR 官网，支持网页端和API调用",
+      "link": "https://www.qbitai.com/?s=已上线 Paddle",
+      "summary": "已上线 PaddleOCR 官网，支持网页端和API调用...",
+      "date": "2026-06-02",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
     {
       "title": "Qwen3.7-Plus已上线阿里云百炼",
       "link": "https://www.qbitai.com/?s=Qwen3.7-Pl",
@@ -53,6 +65,18 @@
       ]
     },
     {
+      "title": "*   [Latest](http://techcrunch.com/latest/)",
+      "link": "https://techcrunch.com/category/artificial-intelligence/",
+      "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
+      "date": "2026-06-02",
+      "source": "TechCrunch",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "Artificial Intelligence"
+      ]
+    },
+    {
       "title": "叠加LLM“训练buff”，材料AI终于学会了“物理直觉”",
       "link": "https://www.qbitai.com/?s=叠加LLM“训练bu",
       "summary": "叠加LLM“训练buff”，材料AI终于学会了“物理直觉”...",
@@ -86,18 +110,6 @@
       "tags": [
         "AI",
         "人工智能"
-      ]
-    },
-    {
-      "title": "*   [Latest](http://techcrunch.com/latest/)",
-      "link": "https://techcrunch.com/category/artificial-intelligence/",
-      "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
-      "date": "2026-06-02",
-      "source": "TechCrunch",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "Artificial Intelligence"
       ]
     },
     {
@@ -2386,18 +2398,6 @@
       "summary": "ICLR 2026 I 英伟达 & 普渡大学用agent闭环实现文生3D...",
       "date": "2026-05-08",
       "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "推动医疗保障体系迈入数智化新阶段",
-      "link": "https://www.qbitai.com/?s=推动医疗保障体系迈入",
-      "summary": "推动医疗保障体系迈入数智化新阶段...",
-      "date": "2026-05-08",
-      "source": "量子位",
       "type": "industry",
       "tags": [
         "AI",

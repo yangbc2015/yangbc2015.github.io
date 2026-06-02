@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-06-02",
-  "count": 4,
+  "count": 8,
   "items": [
     {
       "title": "Mitigating Perceptual Judgment Bias in Multimodal LLM-as-a-Judge via Perceptual Perturbation and Reward Modeling",
@@ -38,6 +38,40 @@
       "source": "arXiv"
     },
     {
+      "title": "ClinEnv: An Interactive Multi-Stage Long Horizon EHR Environment for Agents",
+      "authors": "Yuxing Lu, Yushuhong Lin, Wenqi Shi et al.",
+      "abstract": "Clinical practice is not the selection of an answer from enumerated options: a physician gathers heterogeneous information incrementally and commits to sequential, irreversible decisions under uncertainty. Static benchmarks cannot probe and existing interactive medical benchmarks each compromise on ...",
+      "venue": "arXiv",
+      "date": "2026-06-01",
+      "arxiv_id": "2606.02568v1",
+      "url": "https://arxiv.org/abs/2606.02568v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.02568v1.pdf",
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.ET"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Thinking in Blender: Staged Executable Inverse Graphics with Vision-Language Models",
+      "authors": "Guangzhao He, Rundong Luo, Wei-Chiu Ma et al.",
+      "abstract": "Inverse graphics is a longstanding and highly underconstrained problem that seeks to reconstruct images as editable 3D scenes which can be rendered, relit, and manipulated. In this work, we investigate whether pretrained vision-language models (VLMs) can perform executable inverse graphics directly ...",
+      "venue": "arXiv",
+      "date": "2026-06-01",
+      "arxiv_id": "2606.02580v1",
+      "url": "https://arxiv.org/abs/2606.02580v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.02580v1.pdf",
+      "categories": [
+        "cs.CV"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
       "title": "ProtoAda: Prototype-Guided Adaptive Adapter Expansion and Geometric Consolidation for Multimodal Continual Instruction Tuning",
       "authors": "Yu-Cheng Shi, Zhen-Hao Xie, Jun-Tao Tang et al.",
       "abstract": "Multimodal Large Language Models (MLLMs) achieve strong performance through instruction tuning, but real-world deployment requires them to continually acquire new vision-language capabilities, making Multimodal Continual Instruction Tuning (MCIT) essential. To reduce inter-task interference and prom...",
@@ -67,6 +101,41 @@
         "cs.LG",
         "cs.CR",
         "cs.DC"
+      ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "RoboDream: Compositional World Models for Scalable Robot Data Synthesis",
+      "authors": "Junjie Ye, Rong Xue, Basile Van Hoorick et al.",
+      "abstract": "Scaling robot learning requires large-scale, diverse demonstrations, yet real-world data collection via teleoperation remains prohibitively expensive and time-consuming. While video diffusion models offer a promising avenue for data scaling, existing generative approaches are often limited to superf...",
+      "venue": "arXiv",
+      "date": "2026-06-01",
+      "arxiv_id": "2606.02577v1",
+      "url": "https://arxiv.org/abs/2606.02577v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.02577v1.pdf",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Permissive Safety Through Trusted Inference: Verifiable Belief-Space Neural Safety Filters for Assured Interactive Robotics",
+      "authors": "Haimin Hu",
+      "abstract": "Autonomous robots that interact with people must make safe and efficient decisions under human-induced uncertainty, such as their preferences, goals, competency, and willingness to cooperate. Safety filters are a popular approach for ensuring safety in interactive robotics, since their modular desig...",
+      "venue": "arXiv",
+      "date": "2026-06-01",
+      "arxiv_id": "2606.02562v1",
+      "url": "https://arxiv.org/abs/2606.02562v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.02562v1.pdf",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.LG"
       ],
       "type": "ml",
       "badge": "arxiv",

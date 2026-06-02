@@ -40,6 +40,86 @@
       ]
     },
     {
+      "title": "RoboDream: Compositional World Models for Scalable Robot Data Synthesis",
+      "summary": "Scaling robot learning requires large-scale, diverse demonstrations, yet real-world data collection via teleoperation remains prohibitively expensive and time-consuming. While video diffusion models offer a promising avenue for data scaling, existing...",
+      "url": "https://arxiv.org/abs/2606.02577v1",
+      "date": "2026-06-01",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.02577v1",
+      "authors": "Junjie Ye, Rong Xue et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Permissive Safety Through Trusted Inference: Verifiable Belief-Space Neural Safety Filters for Assured Interactive Robotics",
+      "summary": "Autonomous robots that interact with people must make safe and efficient decisions under human-induced uncertainty, such as their preferences, goals, competency, and willingness to cooperate. Safety filters are a popular approach for ensuring safety ...",
+      "url": "https://arxiv.org/abs/2606.02562v1",
+      "date": "2026-06-01",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.02562v1",
+      "authors": "Haimin Hu",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "AFUN: Towards an Affordance Foundation Model for Functionality Understanding",
+      "summary": "Affordance understanding bridges visual perception and physical action, serving as an explainable interface for robot manipulation in open and unstructured real-world environments. Yet, building an affordance foundation model that not only understand...",
+      "url": "https://arxiv.org/abs/2606.02551v1",
+      "date": "2026-06-01",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.02551v1",
+      "authors": "Zhaoning Wang, Yi Zhong et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "IMAC-AgriVLN: Can Agricultural Vision-and-Language Navigation Agents be Aware of Instruction Mistakes?",
+      "summary": "Agricultural robots are serving as powerful assistants across a wide range of agricultural tasks, nevertheless, still heavily relying on manual operations or railway systems for movement. The AgriVLN method and the A2A benchmark pioneeringly extended...",
+      "url": "https://arxiv.org/abs/2606.02519v1",
+      "date": "2026-06-01",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.02519v1",
+      "authors": "Xiaobei Zhao, Xingqi Lyu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Not All Points Are Equal: Uncertainty-Aware 4D LiDAR Scene Synthesis",
+      "summary": "Constructing faithful 4D worlds from LiDAR-acquired sequences is crucial for embodied AI, yet current generative frameworks apply uniform modeling capacity across all spatial regions. This ignores that perceptual difficulty varies dramatically within...",
+      "url": "https://arxiv.org/abs/2606.02510v1",
+      "date": "2026-06-01",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.02510v1",
+      "authors": "Xiang Xu, Alan Liang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
       "title": "Learning Controlled Separation of Small Objects Between Two Fingers with a Tactile Skin",
       "summary": "We introduce and solve the novel task of controlled separation of small objects with two fingers of a multi-purpose robotic hand: after grasping into a box of small objects, the task is to drop as many of them until a desired number remains between t...",
       "url": "https://arxiv.org/abs/2605.31486v1",
@@ -3011,78 +3091,6 @@
       "type": "paper",
       "arxiv_id": "2604.15202v1",
       "authors": "Carlos S. Sepúlveda, Gonzalo A. Ruz",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "宸境科技推LooperRobotics，以空间智能助机器人理解现实世界。",
-      "summary": "宸境科技推LooperRobotics，以空间智能助机器人理解现实世界。",
-      "url": "http://36kr.com/p/3767534639760131",
-      "date": "2026-04-15",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
-      ]
-    },
-    {
-      "title": "2026年A+H股机器人资本热潮，港股成全球化融资枢纽。",
-      "summary": "2026年A+H股机器人资本热潮，港股成全球化融资枢纽。",
-      "url": "http://36kr.com/p/3767334565987077",
-      "date": "2026-04-15",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
-      ]
-    },
-    {
-      "title": "HiVLA: A Visual-Grounded-Centric Hierarchical Embodied Manipulation System",
-      "summary": "While end-to-end Vision-Language-Action (VLA) models offer a promising paradigm for robotic manipulation, fine-tuning them on narrow control data often compromises the profound reasoning capabilities inherited from their base Vision-Language Models (...",
-      "url": "https://arxiv.org/abs/2604.14125v1",
-      "date": "2026-04-15",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2604.14125v1",
-      "authors": "Tianshuo Yang, Guanyu Chen et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "UMI-3D: Extending Universal Manipulation Interface from Vision-Limited to 3D Spatial Perception",
-      "summary": "We present UMI-3D, a multimodal extension of the Universal Manipulation Interface (UMI) for robust and scalable data collection in embodied manipulation. While UMI enables portable, wrist-mounted data acquisition, its reliance on monocular visual SLA...",
-      "url": "https://arxiv.org/abs/2604.14089v1",
-      "date": "2026-04-15",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2604.14089v1",
-      "authors": "Ziming Wang",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Scale-Invariant Sampling in Multi-Arm Bandit Motion Planning for Object Extraction",
-      "summary": "Object extraction tasks often occur in disassembly problems, where bolts, screws, or pins have to be removed from tight, narrow spaces. In such problems, the distance to the environment is often on the millimeter scale. Sampling-based planners can so...",
-      "url": "https://arxiv.org/abs/2604.14026v1",
-      "date": "2026-04-15",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2604.14026v1",
-      "authors": "Servet B. Bayraktar, Andreas Orthey et al.",
       "tags": [
         "机器人学习",
         "研究论文",
