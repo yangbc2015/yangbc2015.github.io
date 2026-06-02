@@ -3,6 +3,18 @@
   "count": 200,
   "items": [
     {
+      "title": "[具 身 智 能 8小时被攻破，机器人“肉身”安全风险亟待补课",
+      "summary": "[具 身 智 能 8小时被攻破，机器人“肉身”安全风险亟待补课",
+      "url": "http://36kr.com/p/3835902318361221",
+      "date": "2026-06-02",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
       "title": "[蚂蚁、滴滴、德联领投，简智机器人完成数亿元多轮融资，领跑 具 身 智 能 无本体数据赛道",
       "summary": "[蚂蚁、滴滴、德联领投，简智机器人完成数亿元多轮融资，领跑 具 身 智 能 无本体数据赛道",
       "url": "http://36kr.com/p/3834105574270600",
@@ -3075,22 +3087,6 @@
       "type": "paper",
       "arxiv_id": "2604.15215v1",
       "authors": "Fawad Javed Fateh, Ali Shah Ali et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Benchmarking Classical Coverage Path Planning Heuristics on Irregular Hexagonal Grids for Maritime Coverage Scenarios",
-      "summary": "Coverage path planning on irregular hexagonal grids is relevant to maritime surveillance, search and rescue and environmental monitoring, yet classical methods are often compared on small ad hoc examples or on rectangular grids. This paper presents a...",
-      "url": "https://arxiv.org/abs/2604.15202v1",
-      "date": "2026-04-16",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2604.15202v1",
-      "authors": "Carlos S. Sepúlveda, Gonzalo A. Ruz",
       "tags": [
         "机器人学习",
         "研究论文",

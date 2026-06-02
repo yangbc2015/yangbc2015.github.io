@@ -79,8 +79,8 @@
       "rank": 10,
       "model": "ring-2.6-1t",
       "organization": "inclusionai",
-      "price_prompt": "0.0000003",
-      "price_completion": "0.0000025",
+      "price_prompt": "0.000000075",
+      "price_completion": "0.000000625",
       "context_length": 262144
     },
     {
