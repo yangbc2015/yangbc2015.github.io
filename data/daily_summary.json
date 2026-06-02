@@ -1,6 +1,6 @@
 {
-  "date": "2026-06-01",
-  "last_updated": "2026-06-01",
+  "date": "2026-06-02",
+  "last_updated": "2026-06-02",
   "categories": {
     "ai": {
       "name": "人工智能",
@@ -8,10 +8,10 @@
       "count": 5,
       "items": [
         {
-          "title": "小学生画了撇胡子骗过AI年龄验证，硅谷工程师沉默了",
-          "link": "https://www.jiqizhixin.com/search/articles/小学生画了撇胡子骗过AI年龄验",
-          "summary": "小学生画了撇胡子骗过AI年龄验证，硅谷工程师沉默了...",
-          "date": "2026-05-31",
+          "title": "Markdown Content:",
+          "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+          "summary": "Markdown Content:...",
+          "date": "2026-06-01",
           "source": "机器之心",
           "type": "industry",
           "tags": [
@@ -20,11 +20,11 @@
           ]
         },
         {
-          "title": "已经投资了数个世界领先的AI科技公司",
-          "link": "https://www.qbitai.com/?s=已经投资了数个世界领",
-          "summary": "已经投资了数个世界领先的AI科技公司...",
+          "title": "死脑筋的达里奥，这次把OpenAI干翻了",
+          "link": "https://www.jiqizhixin.com/search/articles/死脑筋的达里奥，这次把Open",
+          "summary": "死脑筋的达里奥，这次把OpenAI干翻了...",
           "date": "2026-06-01",
-          "source": "量子位",
+          "source": "机器之心",
           "type": "industry",
           "tags": [
             "AI",
@@ -32,11 +32,11 @@
           ]
         },
         {
-          "title": "Demo从来都不难做，难的是让它在企业生产环境里真正跑起来",
-          "link": "https://www.qbitai.com/?s=Demo从来都不难做",
-          "summary": "Demo从来都不难做，难的是让它在企业生产环境里真正跑起来...",
+          "title": "扣子 3.0 正式上线，开启Agent 团队协作新方式",
+          "link": "https://www.jiqizhixin.com/search/articles/扣子 3.0 正式上线，开启A",
+          "summary": "扣子 3.0 正式上线，开启Agent 团队协作新方式...",
           "date": "2026-06-01",
-          "source": "量子位",
+          "source": "机器之心",
           "type": "industry",
           "tags": [
             "AI",
@@ -44,11 +44,11 @@
           ]
         },
         {
-          "title": "叠加LLM“训练buff”，材料AI终于学会了“物理直觉”",
-          "link": "https://www.qbitai.com/?s=叠加LLM“训练bu",
-          "summary": "叠加LLM“训练buff”，材料AI终于学会了“物理直觉”...",
+          "title": "机器人自回归的创新，让星海图横扫了7大具身评测基准",
+          "link": "https://www.jiqizhixin.com/search/articles/机器人自回归的创新，让星海图横",
+          "summary": "机器人自回归的创新，让星海图横扫了7大具身评测基准...",
           "date": "2026-06-01",
-          "source": "量子位",
+          "source": "机器之心",
           "type": "industry",
           "tags": [
             "AI",
@@ -56,11 +56,11 @@
           ]
         },
         {
-          "title": "（可能是）大模型圈里最会弹钢琴的人",
-          "link": "https://www.qbitai.com/?s=（可能是）大模型圈里",
-          "summary": "（可能是）大模型圈里最会弹钢琴的人...",
+          "title": "GUI Agent「记与学」双修，长程任务有了专属记忆增强型自进化框架",
+          "link": "https://www.jiqizhixin.com/search/articles/GUI Agent「记与学」双",
+          "summary": "GUI Agent「记与学」双修，长程任务有了专属记忆增强型自进化框架...",
           "date": "2026-06-01",
-          "source": "量子位",
+          "source": "机器之心",
           "type": "industry",
           "tags": [
             "AI",
