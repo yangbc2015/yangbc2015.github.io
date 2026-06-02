@@ -3,14 +3,14 @@
   "count": 4,
   "items": [
     {
-      "title": "Lumos-Nexus: Efficient Frequency Bridging with Homogeneous Latent Space for Video Unified Models",
-      "authors": "Jiazheng Xing, Hangjie Yuan, Lingling Cai et al.",
-      "abstract": "Connector-based video unified models have demonstrated strong capability in instruction-grounded video synthesis, but integrating a large high-fidelity generator into the unified training loop is computationally prohibitive, limiting achievable visual quality. We therefore propose Lumos-Nexus, a tra...",
+      "title": "Mitigating Perceptual Judgment Bias in Multimodal LLM-as-a-Judge via Perceptual Perturbation and Reward Modeling",
+      "authors": "Seojeong Park, Jiho Choi, Junyong Kang et al.",
+      "abstract": "Recent multimodal large language models have demonstrated strong reasoning ability, yet their reliability as automated evaluators remains limited by a critical weakness: when visual evidence conflicts with textual cues, MLLM judges tend to reward plausible narratives over perceptually correct answer...",
       "venue": "arXiv",
-      "date": "2026-05-29",
-      "arxiv_id": "2605.31603v1",
-      "url": "https://arxiv.org/abs/2605.31603v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.31603v1.pdf",
+      "date": "2026-06-01",
+      "arxiv_id": "2606.02578v1",
+      "url": "https://arxiv.org/abs/2606.02578v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.02578v1.pdf",
       "categories": [
         "cs.CV",
         "cs.AI"
@@ -20,49 +20,53 @@
       "source": "arXiv"
     },
     {
-      "title": "Stateful Online Monitoring Catches Distributed Agent Attacks",
-      "authors": "Davis Brown, Samarth Bhargav, Arav Santhanam et al.",
-      "abstract": "Language models can find thousands of severe software vulnerabilities, and agents are increasingly being misused for cyberattacks. To avoid detection, attackers frequently distribute their misuse, splitting a harmful task across many user accounts so each individual transcript looks benign. Because ...",
+      "title": "AdaCodec: A Predictive Visual Code for Video MLLMs",
+      "authors": "Haowen Hou, Zhen Huang, Zheming Liang et al.",
+      "abstract": "Video is temporally redundant: adjacent frames usually share most objects, background, and layout. Yet existing video multimodal large language models (video MLLMs) usually encode each sampled frame as an independent RGB image, causing visual tokens to repeat content already present in earlier frame...",
       "venue": "arXiv",
-      "date": "2026-05-29",
-      "arxiv_id": "2605.31593v1",
-      "url": "https://arxiv.org/abs/2605.31593v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.31593v1.pdf",
+      "date": "2026-06-01",
+      "arxiv_id": "2606.02569v1",
+      "url": "https://arxiv.org/abs/2606.02569v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.02569v1.pdf",
       "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "ProtoAda: Prototype-Guided Adaptive Adapter Expansion and Geometric Consolidation for Multimodal Continual Instruction Tuning",
+      "authors": "Yu-Cheng Shi, Zhen-Hao Xie, Jun-Tao Tang et al.",
+      "abstract": "Multimodal Large Language Models (MLLMs) achieve strong performance through instruction tuning, but real-world deployment requires them to continually acquire new vision-language capabilities, making Multimodal Continual Instruction Tuning (MCIT) essential. To reduce inter-task interference and prom...",
+      "venue": "arXiv",
+      "date": "2026-06-01",
+      "arxiv_id": "2606.02576v1",
+      "url": "https://arxiv.org/abs/2606.02576v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.02576v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "IntraShuffler: A Privacy Preserving Framework for Heterogeneous DP Federated Learning",
+      "authors": "Farhin Farhad Riya, Olivera Kotevska, Jinyuan Stella Sun",
+      "abstract": "Heterogeneous Differential Privacy (HDP) in Federated Learning (FL) allows clients to select individual privacy budgets ($\\varepsilon_i$) according to institutional policies and data sensitivity. In practice, many HDP-FL systems employ $\\varepsilon$-aware server aggregation to improve model utility ...",
+      "venue": "arXiv",
+      "date": "2026-06-01",
+      "arxiv_id": "2606.02563v1",
+      "url": "https://arxiv.org/abs/2606.02563v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.02563v1.pdf",
+      "categories": [
+        "cs.LG",
         "cs.CR",
-        "cs.AI"
-      ],
-      "type": "ai",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Learning Controlled Separation of Small Objects Between Two Fingers with a Tactile Skin",
-      "authors": "Ulf Kasolowsky, Berthold Bäuml",
-      "abstract": "We introduce and solve the novel task of controlled separation of small objects with two fingers of a multi-purpose robotic hand: after grasping into a box of small objects, the task is to drop as many of them until a desired number remains between the fingers. The objects are small compared to the ...",
-      "venue": "arXiv",
-      "date": "2026-05-29",
-      "arxiv_id": "2605.31486v1",
-      "url": "https://arxiv.org/abs/2605.31486v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.31486v1.pdf",
-      "categories": [
-        "cs.RO"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Batched Differentiable Rigid Body Dynamics in PyTorch for GPU-Accelerated Robot Learning",
-      "authors": "Yue Wang, Yanran Xu, Wenbo Wu et al.",
-      "abstract": "As robot control shifts toward large-scale reinforcement learning with in-loop dynamics computation, the community's reliance on CPU-bound libraries such as Pinocchio creates a throughput bottleneck in GPU-based training pipelines. We present BARD (Batched Articulated Rigid-body Dynamics), a self-co...",
-      "venue": "arXiv",
-      "date": "2026-05-29",
-      "arxiv_id": "2605.31481v1",
-      "url": "https://arxiv.org/abs/2605.31481v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.31481v1.pdf",
-      "categories": [
-        "cs.RO"
+        "cs.DC"
       ],
       "type": "ml",
       "badge": "arxiv",
