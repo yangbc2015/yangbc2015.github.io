@@ -52,6 +52,19 @@
       ]
     },
     {
+      "title": "加码具身智能数据研发布局。",
+      "summary": "加码具身智能数据研发布局。",
+      "url": "http://36kr.com/p/3834105574270600",
+      "date": "2026-06-01",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
       "title": "RoboDream: Compositional World Models for Scalable Robot Data Synthesis",
       "summary": "Scaling robot learning requires large-scale, diverse demonstrations, yet real-world data collection via teleoperation remains prohibitively expensive and time-consuming. While video diffusion models offer a promising avenue for data scaling, existing...",
       "url": "https://arxiv.org/abs/2606.02577v1",
@@ -129,19 +142,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "加码具身智能数据研发布局。",
-      "summary": "加码具身智能数据研发布局。",
-      "url": "http://36kr.com/p/3834105574270600",
-      "date": "2026-06-01",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
       ]
     },
     {
