@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-06-02",
+  "last_updated": "2026-06-03",
   "count": 200,
-  "history_count": 200,
+  "history_count": 205,
   "retention_days": 30,
   "items": [
     {
       "title": "已上线 PaddleOCR 官网，支持网页端和API调用",
       "link": "https://www.qbitai.com/?s=已上线 Paddle",
       "summary": "已上线 PaddleOCR 官网，支持网页端和API调用...",
-      "date": "2026-06-02",
+      "date": "2026-06-03",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -20,7 +20,7 @@
       "title": "Qwen3.7-Plus已上线阿里云百炼",
       "link": "https://www.qbitai.com/?s=Qwen3.7-Pl",
       "summary": "Qwen3.7-Plus已上线阿里云百炼...",
-      "date": "2026-06-02",
+      "date": "2026-06-03",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -32,7 +32,7 @@
       "title": "从仿真到多形态真机，具身模型如何落地复杂家庭柔性物体操作？",
       "link": "https://www.qbitai.com/?s=从仿真到多形态真机，",
       "summary": "从仿真到多形态真机，具身模型如何落地复杂家庭柔性物体操作？...",
-      "date": "2026-06-02",
+      "date": "2026-06-03",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -44,7 +44,7 @@
       "title": "已经投资了数个世界领先的AI科技公司",
       "link": "https://www.qbitai.com/?s=已经投资了数个世界领",
       "summary": "已经投资了数个世界领先的AI科技公司...",
-      "date": "2026-06-02",
+      "date": "2026-06-03",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -56,7 +56,7 @@
       "title": "Demo从来都不难做，难的是让它在企业生产环境里真正跑起来",
       "link": "https://www.qbitai.com/?s=Demo从来都不难做",
       "summary": "Demo从来都不难做，难的是让它在企业生产环境里真正跑起来...",
-      "date": "2026-06-02",
+      "date": "2026-06-03",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -68,12 +68,84 @@
       "title": "*   [Latest](http://techcrunch.com/latest/)",
       "link": "https://techcrunch.com/category/artificial-intelligence/",
       "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
-      "date": "2026-06-02",
+      "date": "2026-06-03",
       "source": "TechCrunch",
       "type": "industry",
       "tags": [
         "AI",
         "Artificial Intelligence"
+      ]
+    },
+    {
+      "title": "Markdown Content:",
+      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+      "summary": "Markdown Content:...",
+      "date": "2026-06-02",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "黄仁勋在台北吹的哨，最先惊醒了卷云端的人，也彻底验证了明略科技的端侧棋局！",
+      "link": "https://www.jiqizhixin.com/search/articles/黄仁勋在台北吹的哨，最先惊醒了",
+      "summary": "黄仁勋在台北吹的哨，最先惊醒了卷云端的人，也彻底验证了明略科技的端侧棋局！...",
+      "date": "2026-06-02",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "字节AI大牛顾全全宣布离职，或投身AI4S创业",
+      "link": "https://www.jiqizhixin.com/search/articles/字节AI大牛顾全全宣布离职，或",
+      "summary": "字节AI大牛顾全全宣布离职，或投身AI4S创业...",
+      "date": "2026-06-02",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "CVPR一线｜预约周末这两场直播，直击视觉与具身智能的技术临界点",
+      "link": "https://www.jiqizhixin.com/search/articles/CVPR一线｜预约周末这两场直",
+      "summary": "CVPR一线｜预约周末这两场直播，直击视觉与具身智能的技术临界点...",
+      "date": "2026-06-02",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "英伟达一通发布，物理AI全都智能体化了",
+      "link": "https://www.jiqizhixin.com/search/articles/英伟达一通发布，物理AI全都智",
+      "summary": "英伟达一通发布，物理AI全都智能体化了...",
+      "date": "2026-06-02",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "ACL 2026｜大模型指导化学合成实验？上海交大ChemReason-Bench揭示AI「做实验」的逻辑短板",
+      "link": "https://www.jiqizhixin.com/search/articles/ACL 2026｜大模型指导化",
+      "summary": "ACL 2026｜大模型指导化学合成实验？上海交大ChemReason-Bench揭示AI「做实验」的逻辑短板...",
+      "date": "2026-06-02",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
       ]
     },
     {
@@ -128,18 +200,6 @@
       "title": "扣子 3.0 正式上线，开启Agent 团队协作新方式",
       "link": "https://www.jiqizhixin.com/search/articles/扣子 3.0 正式上线，开启A",
       "summary": "扣子 3.0 正式上线，开启Agent 团队协作新方式...",
-      "date": "2026-06-01",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Markdown Content:",
-      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-      "summary": "Markdown Content:...",
       "date": "2026-06-01",
       "source": "机器之心",
       "type": "industry",
@@ -2338,66 +2398,6 @@
       "summary": "1亿美元种子轮团队出手，单个模型解锁单手打蛋解魔方弹钢琴...",
       "date": "2026-05-09",
       "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "直播预约 | 数据引擎：具身智能的下一个决胜局",
-      "link": "https://www.jiqizhixin.com/search/articles/直播预约 | 数据引擎：具身智",
-      "summary": "直播预约 | 数据引擎：具身智能的下一个决胜局...",
-      "date": "2026-05-08",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "CVPR 2026 Highlight | 清华打破多模态音频生成的「通才困境」：Omni2Sound 音频基础模型开源！",
-      "link": "https://www.jiqizhixin.com/search/articles/CVPR 2026 Highl",
-      "summary": "CVPR 2026 Highlight | 清华打破多模态音频生成的「通才困境」：Omni2Sound 音频基础模型开源！...",
-      "date": "2026-05-08",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "拿下1亿美元种子轮！SGLang团队创立RadixArk，打造下一代开放AI基础设施",
-      "link": "https://www.jiqizhixin.com/search/articles/拿下1亿美元种子轮！SGLan",
-      "summary": "拿下1亿美元种子轮！SGLang团队创立RadixArk，打造下一代开放AI基础设施...",
-      "date": "2026-05-08",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "OpenAI官方CLI上线，跟复杂的SDK说拜拜",
-      "link": "https://www.jiqizhixin.com/search/articles/OpenAI官方CLI上线，跟",
-      "summary": "OpenAI官方CLI上线，跟复杂的SDK说拜拜...",
-      "date": "2026-05-08",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "ICLR 2026 I 英伟达 & 普渡大学用agent闭环实现文生3D",
-      "link": "https://www.jiqizhixin.com/search/articles/ICLR 2026 I 英伟达",
-      "summary": "ICLR 2026 I 英伟达 & 普渡大学用agent闭环实现文生3D...",
-      "date": "2026-05-08",
-      "source": "机器之心",
       "type": "industry",
       "tags": [
         "AI",

@@ -69,6 +69,14 @@
     },
     {
       "rank": 9,
+      "model": "fusion",
+      "organization": "openrouter",
+      "price_prompt": "-1",
+      "price_completion": "-1",
+      "context_length": 128000
+    },
+    {
+      "rank": 10,
       "model": "perceptron-mk1",
       "organization": "perceptron",
       "price_prompt": "0.00000015",
@@ -76,7 +84,7 @@
       "context_length": 32768
     },
     {
-      "rank": 10,
+      "rank": 11,
       "model": "ring-2.6-1t",
       "organization": "inclusionai",
       "price_prompt": "0.000000075",
@@ -84,7 +92,7 @@
       "context_length": 262144
     },
     {
-      "rank": 11,
+      "rank": 12,
       "model": "gemini-3.1-flash-lite",
       "organization": "google",
       "price_prompt": "0.00000025",
@@ -92,7 +100,7 @@
       "context_length": 1048576
     },
     {
-      "rank": 12,
+      "rank": 13,
       "model": "gpt-chat-latest",
       "organization": "openai",
       "price_prompt": "0.000005",
@@ -100,7 +108,7 @@
       "context_length": 400000
     },
     {
-      "rank": 13,
+      "rank": 14,
       "model": "grok-4.3",
       "organization": "x-ai",
       "price_prompt": "0.00000125",
@@ -108,20 +116,12 @@
       "context_length": 1000000
     },
     {
-      "rank": 14,
+      "rank": 15,
       "model": "granite-4.1-8b",
       "organization": "ibm-granite",
       "price_prompt": "0.00000005",
       "price_completion": "0.0000001",
       "context_length": 131072
-    },
-    {
-      "rank": 15,
-      "model": "mistral-medium-3-5",
-      "organization": "mistralai",
-      "price_prompt": "0.0000015",
-      "price_completion": "0.0000075",
-      "context_length": 262144
     }
   ]
 }

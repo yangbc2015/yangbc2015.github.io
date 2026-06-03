@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-06-02",
+  "last_updated": "2026-06-03",
   "count": 200,
   "items": [
     {
       "title": "[具 身 智 能 8小时被攻破，机器人“肉身”安全风险亟待补课",
       "summary": "[具 身 智 能 8小时被攻破，机器人“肉身”安全风险亟待补课",
       "url": "http://36kr.com/p/3835902318361221",
-      "date": "2026-06-02",
+      "date": "2026-06-03",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
@@ -18,7 +18,7 @@
       "title": "[蚂蚁、滴滴、德联领投，简智机器人完成数亿元多轮融资，领跑 具 身 智 能 无本体数据赛道",
       "summary": "[蚂蚁、滴滴、德联领投，简智机器人完成数亿元多轮融资，领跑 具 身 智 能 无本体数据赛道",
       "url": "http://36kr.com/p/3834105574270600",
-      "date": "2026-06-02",
+      "date": "2026-06-03",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
@@ -30,7 +30,7 @@
       "title": "[喜获 CR 认证！聆动通用成为全国首个工业级 具 身 智 能 机器人获证企业",
       "summary": "[喜获 CR 认证！聆动通用成为全国首个工业级 具 身 智 能 机器人获证企业",
       "url": "http://36kr.com/p/3828653712380552",
-      "date": "2026-06-02",
+      "date": "2026-06-03",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
@@ -129,6 +129,19 @@
         "机器人学习",
         "研究论文",
         "arXiv"
+      ]
+    },
+    {
+      "title": "加码具身智能数据研发布局。",
+      "summary": "加码具身智能数据研发布局。",
+      "url": "http://36kr.com/p/3834105574270600",
+      "date": "2026-06-01",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
       ]
     },
     {
@@ -3071,22 +3084,6 @@
       "type": "paper",
       "arxiv_id": "2604.15221v1",
       "authors": "Jakob Thumm, Marian Frei et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "A Hierarchical Spatiotemporal Action Tokenizer for In-Context Imitation Learning in Robotics",
-      "summary": "We present a novel hierarchical spatiotemporal action tokenizer for in-context imitation learning. We first propose a hierarchical approach, which consists of two successive levels of vector quantization. In particular, the lower level assigns input ...",
-      "url": "https://arxiv.org/abs/2604.15215v1",
-      "date": "2026-04-16",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2604.15215v1",
-      "authors": "Fawad Javed Fateh, Ali Shah Ali et al.",
       "tags": [
         "机器人学习",
         "研究论文",
