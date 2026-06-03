@@ -39,6 +39,86 @@
       ]
     },
     {
+      "title": "Exploring Easy Boosts for Lidar Semantic Scene Completion",
+      "summary": "This paper investigates \"free lunch\" strategies to boost the performance of lidar semantic scene completion (SSC) without requiring complex architectural redesigns. We first demonstrate that endowing input point clouds with semantic pseudo-labels fro...",
+      "url": "https://arxiv.org/abs/2606.03992v1",
+      "date": "2026-06-02",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.03992v1",
+      "authors": "Tetiana Martyniuk, Jonathan Seele et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "SimuScene: Simulation-Ready Compositional 3D Scene Reconstruction from a Single Image",
+      "summary": "Reconstructing interactive, simulation-ready 3D scenes from a single image is a critical bottleneck for robotic manipulation. While recent single-image lifters recover plausible per-object shapes, composing them yields scenes that collapse under phys...",
+      "url": "https://arxiv.org/abs/2606.03994v1",
+      "date": "2026-06-02",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.03994v1",
+      "authors": "Inhee Lee, Sangwon Baik et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Humanoid-GPT: Scaling Data and Structure for Zero-Shot Motion Tracking",
+      "summary": "We introduce Humanoid-GPT, a GPT-style Transformer with causal attention trained on a billion-scale motion corpus for whole-body control. Unlike prior shallow MLP trackers constrained by scarce data and an agility-generalization trade-off, Humanoid-G...",
+      "url": "https://arxiv.org/abs/2606.03985v1",
+      "date": "2026-06-02",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.03985v1",
+      "authors": "Zekun Qi, Xuchuan Chen et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Self-Refining Agentic Reinforcement Learning for Vision-Conditioned UAV Navigation",
+      "summary": "Deep reinforcement learning has shown strong potential for enabling autonomous robots to learn complex navigational tasks. However, its practical use still depends heavily on human designed reward functions and repeated manual fine tuning, which is t...",
+      "url": "https://arxiv.org/abs/2606.03963v1",
+      "date": "2026-06-02",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.03963v1",
+      "authors": "Roohan Ahmed Khan, Yasheerah Yaqoot et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "VLESA: Vision-Language Embodied Safety Agent for Human Activity Monitoring",
+      "summary": "As AI systems increasingly assist humans in physical tasks, ensuring safety becomes paramount -- physical actions carry immediate and irreversible consequences that digital errors do not. We introduce the Vision-Language Embodied Safety Agent (VLESA)...",
+      "url": "https://arxiv.org/abs/2606.03954v1",
+      "date": "2026-06-02",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.03954v1",
+      "authors": "Hanjiang Hu, Yiyuan Pan et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
       "title": "[具 身 智 能 规模化元年，人形机器人“卖不动、租得火”",
       "summary": "[具 身 智 能 规模化元年，人形机器人“卖不动、租得火”",
       "url": "http://36kr.com/p/3815911066099457",
@@ -3011,79 +3091,6 @@
       "type": "paper",
       "arxiv_id": "2604.15890v1",
       "authors": "Vishal Ramesh, Antony Thomas",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "[又一 具 身 智 能 企业入住港股，全链条机器人企业为何扎堆赴港？",
-      "summary": "[又一 具 身 智 能 企业入住港股，全链条机器人企业为何扎堆赴港？",
-      "url": "http://36kr.com/p/3767334565987077",
-      "date": "2026-04-17",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
-      ]
-    },
-    {
-      "title": "前华为自动驾驶CTO、天才少年创办。",
-      "summary": "前华为自动驾驶CTO、天才少年创办。",
-      "url": "http://36kr.com/p/3768920808391176",
-      "date": "2026-04-16",
-      "source": "36氪",
-      "category": "自主系统",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "自动驾驶"
-      ]
-    },
-    {
-      "title": "Abstract Sim2Real through Approximate Information States",
-      "summary": "In recent years, reinforcement learning (RL) has shown remarkable success in robotics when a fast and accurate simulator is available for a given task. When using RL and simulation, more simulator realism is generally beneficial but becomes harder to...",
-      "url": "https://arxiv.org/abs/2604.15289v1",
-      "date": "2026-04-16",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2604.15289v1",
-      "authors": "Yunfu Deng, Yuhao Li et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "R3D: Revisiting 3D Policy Learning",
-      "summary": "3D policy learning promises superior generalization and cross-embodiment transfer, but progress has been hindered by training instabilities and severe overfitting, precluding the adoption of powerful 3D perception models. In this work, we systematica...",
-      "url": "https://arxiv.org/abs/2604.15281v1",
-      "date": "2026-04-16",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2604.15281v1",
-      "authors": "Zhengdong Hong, Shenrui Wu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Vision-Based Safe Human-Robot Collaboration with Uncertainty Guarantees",
-      "summary": "We propose a framework for vision-based human pose estimation and motion prediction that gives conformal prediction guarantees for certifiably safe human-robot collaboration. Our framework combines aleatoric uncertainty estimation with OOD detection ...",
-      "url": "https://arxiv.org/abs/2604.15221v1",
-      "date": "2026-04-16",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2604.15221v1",
-      "authors": "Jakob Thumm, Marian Frei et al.",
       "tags": [
         "机器人学习",
         "研究论文",

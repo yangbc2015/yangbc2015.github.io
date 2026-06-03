@@ -1,5 +1,125 @@
 {
   "last_updated": "2026-06-03",
-  "count": 0,
-  "items": []
+  "count": 7,
+  "items": [
+    {
+      "title": "Imaginative Perception Tokens Enhance Spatial Reasoning in Multimodal Language Models",
+      "authors": "Mahtab Bigverdi, Lindsey Li, Weikai Huang et al.",
+      "abstract": "Vision language models (VLMs) excel at many tasks but still struggle with spatial reasoning when critical information is not directly observable. Many such problems require imaginative perception: inferring what would be seen from an unseen viewpoint, tracing paths through occluded spaces, or integr...",
+      "venue": "arXiv",
+      "date": "2026-06-02",
+      "arxiv_id": "2606.03988v1",
+      "url": "https://arxiv.org/abs/2606.03988v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.03988v1.pdf",
+      "categories": [
+        "cs.AI"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Humanoid-GPT: Scaling Data and Structure for Zero-Shot Motion Tracking",
+      "authors": "Zekun Qi, Xuchuan Chen, Dairu Liu et al.",
+      "abstract": "We introduce Humanoid-GPT, a GPT-style Transformer with causal attention trained on a billion-scale motion corpus for whole-body control. Unlike prior shallow MLP trackers constrained by scarce data and an agility-generalization trade-off, Humanoid-GPT is pre-trained on a 2B-frame retargeted corpus ...",
+      "venue": "arXiv",
+      "date": "2026-06-02",
+      "arxiv_id": "2606.03985v1",
+      "url": "https://arxiv.org/abs/2606.03985v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.03985v1.pdf",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Neuron Populations Exhibit Divergent Selectivity with Scale",
+      "authors": "Amil Dravid, Yasaman Bahri, Alexei A. Efros et al.",
+      "abstract": "We investigate whether neuron populations within neural networks evolve predictably with scale, extending scaling laws beyond macroscopic observables such as loss. To probe this question, we study Rosetta Neurons, a previously characterized class of neurons whose activation patterns are similar acro...",
+      "venue": "arXiv",
+      "date": "2026-06-02",
+      "arxiv_id": "2606.03990v1",
+      "url": "https://arxiv.org/abs/2606.03990v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.03990v1.pdf",
+      "categories": [
+        "cs.LG",
+        "cs.CL",
+        "cs.CV"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Language Models Compare Quantities Using Number-specific and Unit-specific Heuristics",
+      "authors": "Mutsumi Sasaki, Go kamoda, Ryosuke Takahashi et al.",
+      "abstract": "Quantities with measurement units, such as 110 cm and 1.2 m, require language models (LMs) to combine a numeral with a symbolic unit scale. Here, we study how LMs compare such quantities in controlled settings spanning several unit systems. We find that accuracy degrades near the comparison boundary...",
+      "venue": "arXiv",
+      "date": "2026-06-02",
+      "arxiv_id": "2606.03982v1",
+      "url": "https://arxiv.org/abs/2606.03982v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.03982v1.pdf",
+      "categories": [
+        "cs.CL"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Exploring Easy Boosts for Lidar Semantic Scene Completion",
+      "authors": "Tetiana Martyniuk, Jonathan Seele, Alexandre Boulch et al.",
+      "abstract": "This paper investigates \"free lunch\" strategies to boost the performance of lidar semantic scene completion (SSC) without requiring complex architectural redesigns. We first demonstrate that endowing input point clouds with semantic pseudo-labels from off-the-shelf segmentors significantly improves ...",
+      "venue": "arXiv",
+      "date": "2026-06-02",
+      "arxiv_id": "2606.03992v1",
+      "url": "https://arxiv.org/abs/2606.03992v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.03992v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "SimuScene: Simulation-Ready Compositional 3D Scene Reconstruction from a Single Image",
+      "authors": "Inhee Lee, Sangwon Baik, Sungjoo Kim et al.",
+      "abstract": "Reconstructing interactive, simulation-ready 3D scenes from a single image is a critical bottleneck for robotic manipulation. While recent single-image lifters recover plausible per-object shapes, composing them yields scenes that collapse under physical simulation due to interpenetrating, hovering,...",
+      "venue": "arXiv",
+      "date": "2026-06-02",
+      "arxiv_id": "2606.03994v1",
+      "url": "https://arxiv.org/abs/2606.03994v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.03994v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Skill-RM: Unifying Heterogeneous Evaluation Criteria via Agent Skill",
+      "authors": "Tao Chen, Gangwei Jiang, Pengyu Cheng et al.",
+      "abstract": "Reward models (RMs) provide critical feedback signals for LLM post-training, notably in reinforced fine-tuning (RFT) and reinforcement learning (RL) pipelines. However, current reward evaluation relies on heterogeneous criteria such as rule-based verifiers, ground-truth references, procedural checkl...",
+      "venue": "arXiv",
+      "date": "2026-06-02",
+      "arxiv_id": "2606.03980v1",
+      "url": "https://arxiv.org/abs/2606.03980v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.03980v1.pdf",
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "type": "benchmark",
+      "badge": "arxiv",
+      "source": "arXiv"
+    }
+  ]
 }
