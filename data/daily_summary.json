@@ -5,7 +5,7 @@
     "ai": {
       "name": "人工智能",
       "icon": "🤖",
-      "count": 2,
+      "count": 5,
       "items": [
         {
           "title": "硅谷科技公司Q1裁员同比增长40%",
@@ -29,6 +29,42 @@
           "tags": [
             "AI",
             "人工智能"
+          ]
+        },
+        {
+          "title": "*   [Latest](http://techcrunch.com/latest/)",
+          "link": "https://techcrunch.com/category/artificial-intelligence/",
+          "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
+          "date": "2026-06-04",
+          "source": "TechCrunch",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "Artificial Intelligence"
+          ]
+        },
+        {
+          "title": "*   [Startups](http://techcrunch.com/category/startups/)",
+          "link": "https://techcrunch.com/category/artificial-intelligence/",
+          "summary": "*   [Venture](http://techcrunch.com/category/venture/)",
+          "date": "2026-06-04",
+          "source": "TechCrunch",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "Artificial Intelligence"
+          ]
+        },
+        {
+          "title": "*   [Venture](http://techcrunch.com/category/venture/)",
+          "link": "https://techcrunch.com/category/artificial-intelligence/",
+          "summary": "*   [Apple](http://techcrunch.com/tag/apple/)",
+          "date": "2026-06-04",
+          "source": "TechCrunch",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "Artificial Intelligence"
           ]
         }
       ]

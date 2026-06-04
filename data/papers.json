@@ -1,19 +1,20 @@
 {
   "last_updated": "2026-06-04",
-  "count": 2,
+  "count": 8,
   "items": [
     {
-      "title": "STRIDE: Training Data Attribution via Sparse Recovery from Subset Perturbations",
-      "authors": "Rishit Dagli, Abir Harrasse, Luke Zhang et al.",
-      "abstract": "Training Data Attribution (TDA) seeks to trace a model's predictions back to its training data. The gold standard for TDA relies on causal interventions, observing how a model changes when data is added or removed, but repeated retraining is computationally challenging for Large Language Models (LLM...",
+      "title": "Streaming Communication in Multi-Agent Reasoning",
+      "authors": "Zhen Yang, Xiaogang Xu, Wen Wang et al.",
+      "abstract": "Multi-agent reasoning systems adopt a \"generate-then-transfer\" paradigm that forces end-to-end latency to scale linearly with pipeline depth. We introduce StreamMA, a multi-agent reasoning system that streams each reasoning step to downstream agents as soon as it is generated, pipelining adjacent ag...",
       "venue": "arXiv",
       "date": "2026-06-03",
-      "arxiv_id": "2606.05165v1",
-      "url": "https://arxiv.org/abs/2606.05165v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.05165v1.pdf",
+      "arxiv_id": "2606.05158v1",
+      "url": "https://arxiv.org/abs/2606.05158v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.05158v1.pdf",
       "categories": [
-        "cs.LG",
-        "cs.CL"
+        "cs.CL",
+        "cs.AI",
+        "cs.MA"
       ],
       "type": "nlp",
       "badge": "arxiv",
@@ -34,6 +35,106 @@
         "cs.CL"
       ],
       "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "STRIDE: Training Data Attribution via Sparse Recovery from Subset Perturbations",
+      "authors": "Rishit Dagli, Abir Harrasse, Luke Zhang et al.",
+      "abstract": "Training Data Attribution (TDA) seeks to trace a model's predictions back to its training data. The gold standard for TDA relies on causal interventions, observing how a model changes when data is added or removed, but repeated retraining is computationally challenging for Large Language Models (LLM...",
+      "venue": "arXiv",
+      "date": "2026-06-03",
+      "arxiv_id": "2606.05165v1",
+      "url": "https://arxiv.org/abs/2606.05165v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.05165v1.pdf",
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Beyond Text Following: Repairable Arbitration Reversals in Audio-Language Models",
+      "authors": "Yichen Gao, Yiqun Zhang, Zijing Wang et al.",
+      "abstract": "Audio-language models (ALMs) often follow text that conflicts with audio, even when the audio evidence is clear. This raises a basic question: is the audio-supported answer unavailable, or is it represented but overridden by the conflicting text? We examine this question using a same-audio counterfa...",
+      "venue": "arXiv",
+      "date": "2026-06-03",
+      "arxiv_id": "2606.05161v1",
+      "url": "https://arxiv.org/abs/2606.05161v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.05161v1.pdf",
+      "categories": [
+        "cs.SD",
+        "cs.CL"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Controllable Dynamic 3D Shape Generation via 3D Trajectories and Text",
+      "authors": "Jaeyeong Kim, Ines Kim, Jahyeok Koo et al.",
+      "abstract": "We introduce T2Mo, a feed-forward framework for controllable dynamic 3D shape generation conditioned on 3D trajectories and text. Due to the inherent ambiguity of language, generating precisely intended motions using text alone remains challenging. To address this, we adopt 3D trajectories as contro...",
+      "venue": "arXiv",
+      "date": "2026-06-03",
+      "arxiv_id": "2606.05162v1",
+      "url": "https://arxiv.org/abs/2606.05162v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.05162v1.pdf",
+      "categories": [
+        "cs.CV"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "An Open-Source Two-Stage Computer Vision Pipeline for Fine-Grained Vehicle Classification using Vision Transformers",
+      "authors": "Gandhimathi Padmanaban, Fred Feng",
+      "abstract": "Vehicle body type is a significant determinant of cyclist injury severity in overtaking crashes, yet automated tools for classifying vehicles into injury-risk-relevant categories from naturalistic roadway video do not exist in the open literature. Standard object detection benchmarks provide only co...",
+      "venue": "arXiv",
+      "date": "2026-06-03",
+      "arxiv_id": "2606.05149v1",
+      "url": "https://arxiv.org/abs/2606.05149v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.05149v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.LG",
+        "eess.IV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "GRAIL: Generating Humanoid Loco-Manipulation from 3D Assets and Video Priors",
+      "authors": "Tianyi Xie, Haotian Zhang, Jinhyung Park et al.",
+      "abstract": "Scaling humanoid loco-manipulation requires robot-compatible demonstrations across diverse objects, whole-body motions, and scene geometries, but teleoperation and motion capture are difficult to scale because each collection depends on physical setups, instrumented actors, and robot operation. We p...",
+      "venue": "arXiv",
+      "date": "2026-06-03",
+      "arxiv_id": "2606.05160v1",
+      "url": "https://arxiv.org/abs/2606.05160v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.05160v1.pdf",
+      "categories": [
+        "cs.RO"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "X4Val: Learning Neural Surrogates for Variance-Reduced Policy Evaluation",
+      "authors": "Rachel Luo, Michael Watson, Apoorva Sharma et al.",
+      "abstract": "Rigorous evaluation of learning-based robotic systems is an essential prerequisite for deployment. However, real-world test data is expensive to gather; moreover, in a typical iterative development context, data gathered from the latest policy is necessarily limited in scale. This motivates evaluati...",
+      "venue": "arXiv",
+      "date": "2026-06-03",
+      "arxiv_id": "2606.05159v1",
+      "url": "https://arxiv.org/abs/2606.05159v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.05159v1.pdf",
+      "categories": [
+        "cs.RO"
+      ],
+      "type": "benchmark",
       "badge": "arxiv",
       "source": "arXiv"
     }
