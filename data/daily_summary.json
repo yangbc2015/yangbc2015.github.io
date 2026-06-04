@@ -5,14 +5,14 @@
     "ai": {
       "name": "人工智能",
       "icon": "🤖",
-      "count": 5,
+      "count": 2,
       "items": [
         {
-          "title": "OpenClaw 入驻 Windows 背后，明略科技的 Agent 基础设施正在跨平台生长",
-          "link": "https://www.jiqizhixin.com/search/articles/OpenClaw 入驻 Win",
-          "summary": "OpenClaw 入驻 Windows 背后，明略科技的 Agent 基础设施正在跨平台生长...",
-          "date": "2026-06-03",
-          "source": "机器之心",
+          "title": "硅谷科技公司Q1裁员同比增长40%",
+          "link": "https://www.qbitai.com/?s=硅谷科技公司Q1裁员",
+          "summary": "硅谷科技公司Q1裁员同比增长40%...",
+          "date": "2026-06-04",
+          "source": "量子位",
           "type": "industry",
           "tags": [
             "AI",
@@ -20,47 +20,11 @@
           ]
         },
         {
-          "title": "当Token飙到天文数字，高通用「计算连续体」重搭智能体新基建",
-          "link": "https://www.jiqizhixin.com/search/articles/当Token飙到天文数字，高通",
-          "summary": "当Token飙到天文数字，高通用「计算连续体」重搭智能体新基建...",
-          "date": "2026-06-03",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
-          "title": "RSS 2026｜蚂蚁灵波提出首个自回归因果世界模型，50条数据解锁通用机器人操控",
-          "link": "https://www.jiqizhixin.com/search/articles/RSS 2026｜蚂蚁灵波提出",
-          "summary": "RSS 2026｜蚂蚁灵波提出首个自回归因果世界模型，50条数据解锁通用机器人操控...",
-          "date": "2026-06-03",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
-          "title": "吃透大模型SFT底层机理：终结实践争议，规避无效算力",
-          "link": "https://www.jiqizhixin.com/search/articles/吃透大模型SFT底层机理：终结",
-          "summary": "吃透大模型SFT底层机理：终结实践争议，规避无效算力...",
-          "date": "2026-06-03",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
-          "title": "从头开始合成细胞：中国科学院携手亚洲百余课题组公布十年路线图",
-          "link": "https://www.jiqizhixin.com/search/articles/从头开始合成细胞：中国科学院携",
-          "summary": "从头开始合成细胞：中国科学院携手亚洲百余课题组公布十年路线图...",
-          "date": "2026-06-03",
-          "source": "机器之心",
+          "title": "渲染、模拟、规划，三大功能的边界正在消融",
+          "link": "https://www.qbitai.com/?s=渲染、模拟、规划，三",
+          "summary": "渲染、模拟、规划，三大功能的边界正在消融...",
+          "date": "2026-06-04",
+          "source": "量子位",
           "type": "industry",
           "tags": [
             "AI",
