@@ -3,6 +3,86 @@
   "count": 200,
   "items": [
     {
+      "title": "GRAIL: Generating Humanoid Loco-Manipulation from 3D Assets and Video Priors",
+      "summary": "Scaling humanoid loco-manipulation requires robot-compatible demonstrations across diverse objects, whole-body motions, and scene geometries, but teleoperation and motion capture are difficult to scale because each collection depends on physical setu...",
+      "url": "https://arxiv.org/abs/2606.05160v1",
+      "date": "2026-06-03",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.05160v1",
+      "authors": "Tianyi Xie, Haotian Zhang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "X4Val: Learning Neural Surrogates for Variance-Reduced Policy Evaluation",
+      "summary": "Rigorous evaluation of learning-based robotic systems is an essential prerequisite for deployment. However, real-world test data is expensive to gather; moreover, in a typical iterative development context, data gathered from the latest policy is nec...",
+      "url": "https://arxiv.org/abs/2606.05159v1",
+      "date": "2026-06-03",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.05159v1",
+      "authors": "Rachel Luo, Michael Watson et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "HORIZON: Recoverability-Governed Curriculum for Physical-Domain Scaling",
+      "summary": "Scaling robust robot policies requires more than broader randomization, because physical-domain experience must remain organized and learnable throughout training. We study when a policy can benefit from harder physics and identify recoverability as ...",
+      "url": "https://arxiv.org/abs/2606.05143v1",
+      "date": "2026-06-03",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.05143v1",
+      "authors": "Chenhao Bai, Liqin Lu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Generalization of World Models under Environmental Variability for Vision-based Quadrotor Navigation",
+      "summary": "World models, learned generative models that predict how an environment evolves, have become a promising tool for sample-efficient robot learning. Yet how robust they are to environmental variability remains poorly understood. To address this, we con...",
+      "url": "https://arxiv.org/abs/2606.05015v1",
+      "date": "2026-06-03",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.05015v1",
+      "authors": "Luca Zanatta, Grzegorz Malczyk et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "CIPER: A Unified Framework for Cross-view Image-retrieval and Pose-estimation",
+      "summary": "Cross-view geo-localization estimates the geographic location of a ground image by matching it against an aerial image database. Existing methods tackle this through either large-scale retrieval or precise pose estimation, but not both: retrieval-bas...",
+      "url": "https://arxiv.org/abs/2606.05011v1",
+      "date": "2026-06-03",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.05011v1",
+      "authors": "Yurim Jeon, Dongseong Seo et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
       "title": "[具 身 智 能 8小时被攻破，机器人“肉身”安全风险亟待补课",
       "summary": "[具 身 智 能 8小时被攻破，机器人“肉身”安全风险亟待补课",
       "url": "http://36kr.com/p/3835902318361221",
@@ -36,6 +116,19 @@
       "type": "news",
       "tags": [
         "机器人"
+      ]
+    },
+    {
+      "title": "目前的具身智能的产业化浪潮势不可挡，但安全短板依然愈发明显。",
+      "summary": "目前的具身智能的产业化浪潮势不可挡，但安全短板依然愈发明显。",
+      "url": "http://36kr.com/p/3835902318361221",
+      "date": "2026-06-02",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
       ]
     },
     {
@@ -116,19 +209,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "目前的具身智能的产业化浪潮势不可挡，但安全短板依然愈发明显。",
-      "summary": "目前的具身智能的产业化浪潮势不可挡，但安全短板依然愈发明显。",
-      "url": "http://36kr.com/p/3835902318361221",
-      "date": "2026-06-02",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
       ]
     },
     {
@@ -3008,86 +3088,6 @@
       "type": "paper",
       "arxiv_id": "2604.16298v1",
       "authors": "Dian Shao, Zhengzheng Xu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Semantic Area Graph Reasoning for Multi-Robot Language-Guided Search",
-      "summary": "Coordinating multi-robot systems (MRS) to search in unknown environments is particularly challenging for tasks that require semantic reasoning beyond geometric exploration. Classical coordination strategies rely on frontier coverage or information ga...",
-      "url": "https://arxiv.org/abs/2604.16263v1",
-      "date": "2026-04-17",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2604.16263v1",
-      "authors": "Ruiyang Wang, Hao-Lun Hsu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "DENALI: A Dataset Enabling Non-Line-of-Sight Spatial Reasoning with Low-Cost LiDARs",
-      "summary": "Consumer LiDARs in mobile devices and robots typically output a single depth value per pixel. Yet internally, they record full time-resolved histograms containing direct and multi-bounce light returns; these multi-bounce returns encode rich non-line-...",
-      "url": "https://arxiv.org/abs/2604.16201v1",
-      "date": "2026-04-17",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2604.16201v1",
-      "authors": "Nikhil Behari, Diego Rivero et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "SENSE: Stereo OpEN Vocabulary SEmantic Segmentation",
-      "summary": "Open-vocabulary semantic segmentation enables models to segment objects or image regions beyond fixed class sets, offering flexibility in dynamic environments. However, existing methods often rely on single-view images and struggle with spatial preci...",
-      "url": "https://arxiv.org/abs/2604.15946v1",
-      "date": "2026-04-17",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2604.15946v1",
-      "authors": "Thomas Campagnolo, Ezio Malis et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "VADF: Vision-Adaptive Diffusion Policy Framework for Efficient Robotic Manipulation",
-      "summary": "Diffusion policies are becoming mainstream in robotic manipulation but suffer from hard negative class imbalance due to uniform sampling and lack of sample difficulty awareness, leading to slow training convergence and frequent inference timeout fail...",
-      "url": "https://arxiv.org/abs/2604.15938v1",
-      "date": "2026-04-17",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2604.15938v1",
-      "authors": "Xinglei Yu, Zhenyang Liu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "A Reconfigurable Pneumatic Joint Enabling Localized Selective Stiffening and Shape Locking in Vine-Inspired Robots",
-      "summary": "Vine-inspired robots achieve large workspace coverage through tip eversion, enabling safe navigation in confined and cluttered environments. However, their deployment in free space is fundamentally limited by low axial stiffness, poor load-bearing ca...",
-      "url": "https://arxiv.org/abs/2604.15907v1",
-      "date": "2026-04-17",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2604.15907v1",
-      "authors": "Ayodele James Oyejide, Ustaz A. Yaqub et al.",
       "tags": [
         "机器人学习",
         "研究论文",

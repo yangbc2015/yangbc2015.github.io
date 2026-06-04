@@ -1,9 +1,33 @@
 {
   "last_updated": "2026-06-04",
   "count": 200,
-  "history_count": 200,
+  "history_count": 203,
   "retention_days": 30,
   "items": [
+    {
+      "title": "”隐空间世界模型很难，但我们一定要做“",
+      "link": "https://www.qbitai.com/?s=”隐空间世界模型很难",
+      "summary": "”隐空间世界模型很难，但我们一定要做“...",
+      "date": "2026-06-04",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "渲染、模拟、规划，三大功能的边界正在消融",
+      "link": "https://www.qbitai.com/?s=渲染、模拟、规划，三",
+      "summary": "渲染、模拟、规划，三大功能的边界正在消融...",
+      "date": "2026-06-04",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
     {
       "title": "日均订单刷新历史纪录至3940万单",
       "link": "https://www.qbitai.com/?s=日均订单刷新历史纪录",
@@ -41,6 +65,18 @@
       ]
     },
     {
+      "title": "*   [Latest](http://techcrunch.com/latest/)",
+      "link": "https://techcrunch.com/category/artificial-intelligence/",
+      "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
+      "date": "2026-06-04",
+      "source": "TechCrunch",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "Artificial Intelligence"
+      ]
+    },
+    {
       "title": "从仿真到多形态真机，具身模型如何落地复杂家庭柔性物体操作？",
       "link": "https://www.qbitai.com/?s=从仿真到多形态真机，",
       "summary": "从仿真到多形态真机，具身模型如何落地复杂家庭柔性物体操作？...",
@@ -58,18 +94,6 @@
       "summary": "已经投资了数个世界领先的AI科技公司...",
       "date": "2026-06-04",
       "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Markdown Content:",
-      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-      "summary": "Markdown Content:...",
-      "date": "2026-06-03",
-      "source": "机器之心",
       "type": "industry",
       "tags": [
         "AI",
@@ -137,15 +161,27 @@
       ]
     },
     {
-      "title": "*   [Latest](http://techcrunch.com/latest/)",
-      "link": "https://techcrunch.com/category/artificial-intelligence/",
-      "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
+      "title": "世界模型榜首易主！跨维智能登顶WorldArena",
+      "link": "https://www.jiqizhixin.com/search/articles/世界模型榜首易主！跨维智能登顶",
+      "summary": "世界模型榜首易主！跨维智能登顶WorldArena...",
       "date": "2026-06-03",
-      "source": "TechCrunch",
+      "source": "机器之心",
       "type": "industry",
       "tags": [
         "AI",
-        "Artificial Intelligence"
+        "人工智能"
+      ]
+    },
+    {
+      "title": "Markdown Content:",
+      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+      "summary": "Markdown Content:...",
+      "date": "2026-06-03",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
       ]
     },
     {
@@ -2360,42 +2396,6 @@
       "title": "OpenClaw太贵？QuantClaw帮你挑精度，成本砍掉21%，还能提速15%",
       "link": "https://www.jiqizhixin.com/search/articles/OpenClaw太贵？Quan",
       "summary": "OpenClaw太贵？QuantClaw帮你挑精度，成本砍掉21%，还能提速15%...",
-      "date": "2026-05-09",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "活久见，时代少年团给大模型上了一课",
-      "link": "https://www.jiqizhixin.com/search/articles/活久见，时代少年团给大模型上了",
-      "summary": "活久见，时代少年团给大模型上了一课...",
-      "date": "2026-05-09",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "价值模型不是没用，是架构不对！生成式Critic重新定义LLM强化学习信用分配",
-      "link": "https://www.jiqizhixin.com/search/articles/价值模型不是没用，是架构不对！",
-      "summary": "价值模型不是没用，是架构不对！生成式Critic重新定义LLM强化学习信用分配...",
-      "date": "2026-05-09",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "波士顿动力和谷歌DeepMind为机器人带来具身AI推理",
-      "link": "https://www.jiqizhixin.com/search/articles/波士顿动力和谷歌DeepMin",
-      "summary": "波士顿动力和谷歌DeepMind为机器人带来具身AI推理...",
       "date": "2026-05-09",
       "source": "机器之心",
       "type": "industry",
