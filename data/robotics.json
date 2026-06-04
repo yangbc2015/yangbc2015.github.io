@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-03",
+  "last_updated": "2026-06-04",
   "count": 200,
   "items": [
     {
@@ -116,6 +116,19 @@
         "机器人学习",
         "研究论文",
         "arXiv"
+      ]
+    },
+    {
+      "title": "目前的具身智能的产业化浪潮势不可挡，但安全短板依然愈发明显。",
+      "summary": "目前的具身智能的产业化浪潮势不可挡，但安全短板依然愈发明显。",
+      "url": "http://36kr.com/p/3835902318361221",
+      "date": "2026-06-02",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
       ]
     },
     {
@@ -3075,22 +3088,6 @@
       "type": "paper",
       "arxiv_id": "2604.15907v1",
       "authors": "Ayodele James Oyejide, Ustaz A. Yaqub et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Robust Fleet Sizing for Multi-UAV Inspection Missions under Synchronized Replacement Demand",
-      "summary": "Multi-UAV inspection missions require spare drones to replace active drones during recharging cycles. Existing fleet-sizing approaches often assume steady-state operating conditions that do not apply to finite-horizon missions, or they treat replacem...",
-      "url": "https://arxiv.org/abs/2604.15890v1",
-      "date": "2026-04-17",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2604.15890v1",
-      "authors": "Vishal Ramesh, Antony Thomas",
       "tags": [
         "机器人学习",
         "研究论文",
