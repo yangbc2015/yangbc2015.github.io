@@ -1,5 +1,38 @@
 {
   "last_updated": "2026-06-05",
-  "count": 0,
-  "items": []
+  "count": 2,
+  "items": [
+    {
+      "title": "GRAIL: Generating Humanoid Loco-Manipulation from 3D Assets and Video Priors",
+      "authors": "Tianyi Xie, Haotian Zhang, Jinhyung Park et al.",
+      "abstract": "Scaling humanoid loco-manipulation requires robot-compatible demonstrations across diverse objects, whole-body motions, and scene geometries, but teleoperation and motion capture are difficult to scale because each collection depends on physical setups, instrumented actors, and robot operation. We p...",
+      "venue": "arXiv",
+      "date": "2026-06-03",
+      "arxiv_id": "2606.05160v1",
+      "url": "https://arxiv.org/abs/2606.05160v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.05160v1.pdf",
+      "categories": [
+        "cs.RO"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "X4Val: Learning Neural Surrogates for Variance-Reduced Policy Evaluation",
+      "authors": "Rachel Luo, Michael Watson, Apoorva Sharma et al.",
+      "abstract": "Rigorous evaluation of learning-based robotic systems is an essential prerequisite for deployment. However, real-world test data is expensive to gather; moreover, in a typical iterative development context, data gathered from the latest policy is necessarily limited in scale. This motivates evaluati...",
+      "venue": "arXiv",
+      "date": "2026-06-03",
+      "arxiv_id": "2606.05159v1",
+      "url": "https://arxiv.org/abs/2606.05159v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.05159v1.pdf",
+      "categories": [
+        "cs.RO"
+      ],
+      "type": "benchmark",
+      "badge": "arxiv",
+      "source": "arXiv"
+    }
+  ]
 }
