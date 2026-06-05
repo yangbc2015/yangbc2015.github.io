@@ -3,6 +3,86 @@
   "count": 200,
   "items": [
     {
+      "title": "HANDOFF: Humanoid Agentic Task-Space Whole-Body Control via Distilled Complementary Teachers",
+      "summary": "For a humanoid robot to be deployed in the real world, the choice of command space (i.e., the interface between task planning and whole-body control) is crucial. Existing whole-body controllers typically demand dense kinematic or spatial references t...",
+      "url": "https://arxiv.org/abs/2606.06493v1",
+      "date": "2026-06-04",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.06493v1",
+      "authors": "Lizhi Yang, Junheng Li et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "TempoVLA: Learning Speed-Controllable Vision-Language-Action Policies",
+      "summary": "Robot manipulation alternates between low-risk transit phases that call for fast execution and high-risk contact stages that demand slow, precise motion. Yet existing Vision-Language-Action models (VLAs) only inherit a single fixed speed from trainin...",
+      "url": "https://arxiv.org/abs/2606.06491v1",
+      "date": "2026-06-04",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.06491v1",
+      "authors": "Dong Jing, Jingchen Nie et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Flow-based Policy Adaptation without Policy Updates",
+      "summary": "Leveraging prior knowledge from pretrained policies, foundation models, or human operators offers an efficient alternative to learning robot skills from scratch. However, these agents often provide actions that are suboptimal, noisy, or misaligned wi...",
+      "url": "https://arxiv.org/abs/2606.06461v1",
+      "date": "2026-06-04",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.06461v1",
+      "authors": "Luzhe Sun, Jingtian Ji et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "RiskFlow: Fast and Faithful Safety-Critical Traffic Scenario Generation",
+      "summary": "Safety-critical traffic scenario generation is essential for evaluating autonomous driving systems under rare but high-risk interactions. Existing diffusion-based methods offer strong controllability in closed-loop generation, but their iterative den...",
+      "url": "https://arxiv.org/abs/2606.06423v1",
+      "date": "2026-06-04",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.06423v1",
+      "authors": "Qi Lan, Yining Tang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Ensuring Interaction Safety in Multitask Exoskeleton Control: A Simulation-Trained Variable Impedance Framework",
+      "summary": "Wearable exoskeletons can augment human phys ical capabilities during complex activities. However, ensuring adaptation across diverse tasks while guaranteeing interaction safety remains a critical challenge. To address this, a simulation trained vari...",
+      "url": "https://arxiv.org/abs/2606.06370v1",
+      "date": "2026-06-04",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.06370v1",
+      "authors": "Muyuan Ma, Houcheng Li et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
       "title": "[具 身 智 能 8小时被攻破，机器人“肉身”安全风险亟待补课",
       "summary": "[具 身 智 能 8小时被攻破，机器人“肉身”安全风险亟待补课",
       "url": "http://36kr.com/p/3835902318361221",
@@ -3011,83 +3091,6 @@
       "type": "paper",
       "arxiv_id": "2604.18484v1",
       "authors": "Kangan Qian, ChuChu Xie et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Safe Control using Learned Safety Filters and Adaptive Conformal Inference",
-      "summary": "Safety filters have been shown to be effective tools to ensure the safety of control systems with unsafe nominal policies. To address scalability challenges in traditional synthesis methods, learning-based approaches have been proposed for designing ...",
-      "url": "https://arxiv.org/abs/2604.18482v1",
-      "date": "2026-04-20",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2604.18482v1",
-      "authors": "Sacha Huriot, Ihab Tabbara et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Using large language models for embodied planning introduces systematic safety risks",
-      "summary": "Large language models are increasingly used as planners for robotic systems, yet how safely they plan remains an open question. To evaluate safe planning systematically, we introduce DESPITE, a benchmark of 12,279 tasks spanning physical and normativ...",
-      "url": "https://arxiv.org/abs/2604.18463v1",
-      "date": "2026-04-20",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2604.18463v1",
-      "authors": "Tao Zhang, Kaixian Qu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "DAG-STL: A Hierarchical Framework for Zero-Shot Trajectory Planning under Signal Temporal Logic Specifications",
-      "summary": "Signal Temporal Logic (STL) is a powerful language for specifying temporally structured robotic tasks. Planning executable trajectories under STL constraints remains difficult when system dynamics and environment structure are not analytically availa...",
-      "url": "https://arxiv.org/abs/2604.18343v1",
-      "date": "2026-04-20",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2604.18343v1",
-      "authors": "Ruijia Liu, Ancheng Hou et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "享刻智能获1.5亿融资，聚焦餐饮场景推动具身智能商业化。",
-      "summary": "享刻智能获1.5亿融资，聚焦餐饮场景推动具身智能商业化。",
-      "url": "http://36kr.com/p/3770651778761481",
-      "date": "2026-04-17",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "FineCog-Nav: Integrating Fine-grained Cognitive Modules for Zero-shot Multimodal UAV Navigation",
-      "summary": "UAV vision-language navigation (VLN) requires an agent to navigate complex 3D environments from an egocentric perspective while following ambiguous multi-step instructions over long horizons. Existing zero-shot methods remain limited, as they often r...",
-      "url": "https://arxiv.org/abs/2604.16298v1",
-      "date": "2026-04-17",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2604.16298v1",
-      "authors": "Dian Shao, Zhengzheng Xu et al.",
       "tags": [
         "机器人学习",
         "研究论文",

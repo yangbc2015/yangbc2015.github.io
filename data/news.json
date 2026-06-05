@@ -1,9 +1,21 @@
 {
   "last_updated": "2026-06-05",
   "count": 200,
-  "history_count": 200,
+  "history_count": 202,
   "retention_days": 30,
   "items": [
+    {
+      "title": "所有通用技术，最后都要回到消费市场。",
+      "link": "https://www.qbitai.com/?s=所有通用技术，最后都",
+      "summary": "所有通用技术，最后都要回到消费市场。...",
+      "date": "2026-06-05",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
     {
       "title": "硅谷科技公司Q1裁员同比增长40%",
       "link": "https://www.qbitai.com/?s=硅谷科技公司Q1裁员",
@@ -41,9 +53,9 @@
       ]
     },
     {
-      "title": "Markdown Content:",
-      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-      "summary": "Markdown Content:...",
+      "title": "集成GPT-5.5能力、更省token，OpenAI升级「生命科学版GPT」，将合作诺和诺德",
+      "link": "https://www.jiqizhixin.com/search/articles/集成GPT-5.5能力、更省t",
+      "summary": "集成GPT-5.5能力、更省token，OpenAI升级「生命科学版GPT」，将合作诺和诺德...",
       "date": "2026-06-04",
       "source": "机器之心",
       "type": "industry",
@@ -68,6 +80,18 @@
       "title": "告别盲盒筛选！分子之心发布MMDesign，抗体发现迈入可编程生物工程时代",
       "link": "https://www.jiqizhixin.com/search/articles/告别盲盒筛选！分子之心发布MM",
       "summary": "告别盲盒筛选！分子之心发布MMDesign，抗体发现迈入可编程生物工程时代...",
+      "date": "2026-06-04",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "Markdown Content:",
+      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+      "summary": "Markdown Content:...",
       "date": "2026-06-04",
       "source": "机器之心",
       "type": "industry",
@@ -2374,30 +2398,6 @@
       "summary": "如果最终落地，这会是中国大模型公司有史以来最大的一轮融资...",
       "date": "2026-05-11",
       "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "具身智能来时路：谷歌RT1、2，SayCan作者Ted Xiao复盘机器人学习三大时代",
-      "link": "https://www.jiqizhixin.com/search/articles/具身智能来时路：谷歌RT1、2",
-      "summary": "具身智能来时路：谷歌RT1、2，SayCan作者Ted Xiao复盘机器人学习三大时代...",
-      "date": "2026-05-10",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "图灵奖得主Sutton新作：用一个1967年的公式，解决流式强化学习一大缺陷",
-      "link": "https://www.jiqizhixin.com/search/articles/图灵奖得主Sutton新作：用",
-      "summary": "图灵奖得主Sutton新作：用一个1967年的公式，解决流式强化学习一大缺陷...",
-      "date": "2026-05-10",
-      "source": "机器之心",
       "type": "industry",
       "tags": [
         "AI",

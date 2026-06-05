@@ -3,34 +3,36 @@
   "count": 2,
   "items": [
     {
-      "title": "GRAIL: Generating Humanoid Loco-Manipulation from 3D Assets and Video Priors",
-      "authors": "Tianyi Xie, Haotian Zhang, Jinhyung Park et al.",
-      "abstract": "Scaling humanoid loco-manipulation requires robot-compatible demonstrations across diverse objects, whole-body motions, and scene geometries, but teleoperation and motion capture are difficult to scale because each collection depends on physical setups, instrumented actors, and robot operation. We p...",
+      "title": "TailLoR: Protecting Principal Components in Parameter-Efficient Continual Learning",
+      "authors": "Marius Dragoi, Ioana Pintilie, Alexandra Dragomir et al.",
+      "abstract": "Parameter-efficient finetuning methods based on spectral decomposition have enabled progress in Continual Learning. In this paper we introduce TailLoR, which utilizes the singular bases U and V of the pre-trained weights as a fixed reference frame to learn a low-rank update applied to the singular v...",
       "venue": "arXiv",
-      "date": "2026-06-03",
-      "arxiv_id": "2606.05160v1",
-      "url": "https://arxiv.org/abs/2606.05160v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.05160v1.pdf",
+      "date": "2026-06-04",
+      "arxiv_id": "2606.06494v1",
+      "url": "https://arxiv.org/abs/2606.06494v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.06494v1.pdf",
       "categories": [
-        "cs.RO"
+        "cs.LG"
       ],
-      "type": "vision",
+      "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "X4Val: Learning Neural Surrogates for Variance-Reduced Policy Evaluation",
-      "authors": "Rachel Luo, Michael Watson, Apoorva Sharma et al.",
-      "abstract": "Rigorous evaluation of learning-based robotic systems is an essential prerequisite for deployment. However, real-world test data is expensive to gather; moreover, in a typical iterative development context, data gathered from the latest policy is necessarily limited in scale. This motivates evaluati...",
+      "title": "HANDOFF: Humanoid Agentic Task-Space Whole-Body Control via Distilled Complementary Teachers",
+      "authors": "Lizhi Yang, Junheng Li, Nehar Poddar et al.",
+      "abstract": "For a humanoid robot to be deployed in the real world, the choice of command space (i.e., the interface between task planning and whole-body control) is crucial. Existing whole-body controllers typically demand dense kinematic or spatial references that planners struggle to synthesize from task sema...",
       "venue": "arXiv",
-      "date": "2026-06-03",
-      "arxiv_id": "2606.05159v1",
-      "url": "https://arxiv.org/abs/2606.05159v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.05159v1.pdf",
+      "date": "2026-06-04",
+      "arxiv_id": "2606.06493v1",
+      "url": "https://arxiv.org/abs/2606.06493v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.06493v1.pdf",
       "categories": [
-        "cs.RO"
+        "cs.RO",
+        "cs.AI",
+        "cs.LG"
       ],
-      "type": "benchmark",
+      "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     }
