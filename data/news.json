@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-06-05",
+  "last_updated": "2026-06-06",
   "count": 200,
-  "history_count": 201,
+  "history_count": 205,
   "retention_days": 30,
   "items": [
     {
       "title": "Agentic AI的算力焦虑，英特尔给来了一剂「猛药」",
       "link": "https://www.qbitai.com/?s=Agentic AI",
       "summary": "Agentic AI的算力焦虑，英特尔给来了一剂「猛药」...",
-      "date": "2026-06-05",
+      "date": "2026-06-06",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -20,8 +20,80 @@
       "title": "硅谷科技公司Q1裁员同比增长40%",
       "link": "https://www.qbitai.com/?s=硅谷科技公司Q1裁员",
       "summary": "硅谷科技公司Q1裁员同比增长40%...",
-      "date": "2026-06-05",
+      "date": "2026-06-06",
       "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "Markdown Content:",
+      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+      "summary": "Markdown Content:...",
+      "date": "2026-06-05",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "Claude的双面人生：在Anthropic内部卷生卷死，在用户面前躺平摆烂",
+      "link": "https://www.jiqizhixin.com/search/articles/Claude的双面人生：在An",
+      "summary": "Claude的双面人生：在Anthropic内部卷生卷死，在用户面前躺平摆烂...",
+      "date": "2026-06-05",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "首字延迟降低3.6倍！腾讯混元提出Stem稀疏注意力算法，长文推理加速新SOTA",
+      "link": "https://www.jiqizhixin.com/search/articles/首字延迟降低3.6倍！腾讯混元",
+      "summary": "首字延迟降低3.6倍！腾讯混元提出Stem稀疏注意力算法，长文推理加速新SOTA...",
+      "date": "2026-06-05",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "进家大战已经打响，第一个跑出来的不是人形",
+      "link": "https://www.jiqizhixin.com/search/articles/进家大战已经打响，第一个跑出来",
+      "summary": "进家大战已经打响，第一个跑出来的不是人形...",
+      "date": "2026-06-05",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "模型也需要「睡觉」？CMU新论文让LLM在梦中「巩固记忆」",
+      "link": "https://www.jiqizhixin.com/search/articles/模型也需要「睡觉」？CMU新论",
+      "summary": "模型也需要「睡觉」？CMU新论文让LLM在梦中「巩固记忆」...",
+      "date": "2026-06-05",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "刺破成功率幻象，直面具身智能的「真灵巧」，机器人精细操作评测新范式来了！",
+      "link": "https://www.jiqizhixin.com/search/articles/刺破成功率幻象，直面具身智能的",
+      "summary": "刺破成功率幻象，直面具身智能的「真灵巧」，机器人精细操作评测新范式来了！...",
+      "date": "2026-06-05",
+      "source": "机器之心",
       "type": "industry",
       "tags": [
         "AI",
@@ -128,18 +200,6 @@
       "title": "告别盲盒筛选！分子之心发布MMDesign，抗体发现迈入可编程生物工程时代",
       "link": "https://www.jiqizhixin.com/search/articles/告别盲盒筛选！分子之心发布MM",
       "summary": "告别盲盒筛选！分子之心发布MMDesign，抗体发现迈入可编程生物工程时代...",
-      "date": "2026-06-04",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Markdown Content:",
-      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-      "summary": "Markdown Content:...",
       "date": "2026-06-04",
       "source": "机器之心",
       "type": "industry",
@@ -2337,66 +2397,6 @@
       "link": "https://www.qbitai.com/?s=围绕电力交易、能源调",
       "summary": "围绕电力交易、能源调度、智能预测与决策等场景探索AI应用落地...",
       "date": "2026-05-12",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "鹿明机器人完成数亿元A1及A2轮融资，产业巨头深度参与，累计融资近10亿元",
-      "link": "https://www.jiqizhixin.com/search/articles/鹿明机器人完成数亿元A1及A2",
-      "summary": "鹿明机器人完成数亿元A1及A2轮融资，产业巨头深度参与，累计融资近10亿元...",
-      "date": "2026-05-11",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "打不过AI就加入？他辍学MIT，要把人类意识装进芯片，创造「数字生命」",
-      "link": "https://www.jiqizhixin.com/search/articles/打不过AI就加入？他辍学MIT",
-      "summary": "打不过AI就加入？他辍学MIT，要把人类意识装进芯片，创造「数字生命」...",
-      "date": "2026-05-11",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Siggraph 26 | 视频版Vision-Banana来了？大一统框架UniVidX刷新多项视频任务SOTA",
-      "link": "https://www.jiqizhixin.com/search/articles/Siggraph 26 | 视",
-      "summary": "Siggraph 26 | 视频版Vision-Banana来了？大一统框架UniVidX刷新多项视频任务SOTA...",
-      "date": "2026-05-11",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Suno不再是唯一答案，企业开始选择这个国产AI音乐",
-      "link": "https://www.jiqizhixin.com/search/articles/Suno不再是唯一答案，企业开",
-      "summary": "Suno不再是唯一答案，企业开始选择这个国产AI音乐...",
-      "date": "2026-05-11",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "谷歌AI for Math迈出最新一步",
-      "link": "https://www.qbitai.com/?s=谷歌AI for M",
-      "summary": "谷歌AI for Math迈出最新一步...",
-      "date": "2026-05-11",
       "source": "量子位",
       "type": "industry",
       "tags": [

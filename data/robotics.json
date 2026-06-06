@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-05",
+  "last_updated": "2026-06-06",
   "count": 200,
   "items": [
     {
@@ -116,6 +116,19 @@
         "机器人学习",
         "研究论文",
         "arXiv"
+      ]
+    },
+    {
+      "title": "星灿智能构筑了空间智能+场景化数据闭环+专属具身大模型的独家核心壁垒。",
+      "summary": "星灿智能构筑了空间智能+场景化数据闭环+专属具身大模型的独家核心壁垒。",
+      "url": "http://36kr.com/p/3838659889711618",
+      "date": "2026-06-04",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
       ]
     },
     {
@@ -3075,22 +3088,6 @@
       "type": "paper",
       "arxiv_id": "2604.18486v1",
       "authors": "Jinghui Lu, Jiayi Guan et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "XEmbodied: A Foundation Model with Enhanced Geometric and Physical Cues for Large-Scale Embodied Environments",
-      "summary": "Vision-Language-Action (VLA) models drive next-generation autonomous systems, but training them requires scalable, high-quality annotations from complex environments. Current cloud pipelines rely on generic vision-language models (VLMs) that lack geo...",
-      "url": "https://arxiv.org/abs/2604.18484v1",
-      "date": "2026-04-20",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2604.18484v1",
-      "authors": "Kangan Qian, ChuChu Xie et al.",
       "tags": [
         "机器人学习",
         "研究论文",
