@@ -1,7 +1,7 @@
 {
   "last_updated": "2026-06-06",
   "count": 200,
-  "history_count": 200,
+  "history_count": 201,
   "retention_days": 30,
   "items": [
     {
@@ -22,18 +22,6 @@
       "summary": "硅谷科技公司Q1裁员同比增长40%...",
       "date": "2026-06-06",
       "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Markdown Content:",
-      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-      "summary": "Markdown Content:...",
-      "date": "2026-06-05",
-      "source": "机器之心",
       "type": "industry",
       "tags": [
         "AI",
@@ -92,6 +80,30 @@
       "title": "刺破成功率幻象，直面具身智能的「真灵巧」，机器人精细操作评测新范式来了！",
       "link": "https://www.jiqizhixin.com/search/articles/刺破成功率幻象，直面具身智能的",
       "summary": "刺破成功率幻象，直面具身智能的「真灵巧」，机器人精细操作评测新范式来了！...",
+      "date": "2026-06-05",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "全球领先！许锦波团队率先跑通低通量de novo，11大靶点上实现90%成功率！",
+      "link": "https://www.jiqizhixin.com/search/articles/全球领先！许锦波团队率先跑通低",
+      "summary": "全球领先！许锦波团队率先跑通低通量de novo，11大靶点上实现90%成功率！...",
+      "date": "2026-06-05",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "Markdown Content:",
+      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+      "summary": "Markdown Content:...",
       "date": "2026-06-05",
       "source": "机器之心",
       "type": "industry",
@@ -2384,18 +2396,6 @@
       "title": "真正学会了在隐空间里进行“物理思考”",
       "link": "https://www.qbitai.com/?s=真正学会了在隐空间里",
       "summary": "真正学会了在隐空间里进行“物理思考”...",
-      "date": "2026-05-12",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "围绕电力交易、能源调度、智能预测与决策等场景探索AI应用落地",
-      "link": "https://www.qbitai.com/?s=围绕电力交易、能源调",
-      "summary": "围绕电力交易、能源调度、智能预测与决策等场景探索AI应用落地...",
       "date": "2026-05-12",
       "source": "量子位",
       "type": "industry",
