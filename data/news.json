@@ -1,9 +1,21 @@
 {
   "last_updated": "2026-06-07",
   "count": 200,
-  "history_count": 200,
+  "history_count": 202,
   "retention_days": 30,
   "items": [
+    {
+      "title": "帮OpenAI从零造出第一颗芯片的人，转投Anthropic了",
+      "link": "https://www.qbitai.com/?s=帮OpenAI从零造",
+      "summary": "帮OpenAI从零造出第一颗芯片的人，转投Anthropic了...",
+      "date": "2026-06-07",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
     {
       "title": "Agentic AI的算力焦虑，英特尔给来了一剂「猛药」",
       "link": "https://www.qbitai.com/?s=Agentic AI",
@@ -29,15 +41,15 @@
       ]
     },
     {
-      "title": "Markdown Content:",
-      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-      "summary": "Markdown Content:...",
-      "date": "2026-06-06",
-      "source": "机器之心",
+      "title": "*   [Latest](http://techcrunch.com/latest/)",
+      "link": "https://techcrunch.com/category/artificial-intelligence/",
+      "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
+      "date": "2026-06-07",
+      "source": "TechCrunch",
       "type": "industry",
       "tags": [
         "AI",
-        "人工智能"
+        "Artificial Intelligence"
       ]
     },
     {
@@ -101,15 +113,27 @@
       ]
     },
     {
-      "title": "![Image 1](https://ads.jetpackdigital.com/sites/_uploads/1776357949bg_1600x350.avif)",
-      "link": "https://techcrunch.com/category/artificial-intelligence/",
-      "summary": "![Image 1](https://ads.jetpackdigital.com/sites/_uploads/1776357949bg_1600x350.a...",
+      "title": "刚刚，何恺明ResNet、YOLO获时间检验奖！CVPR 2026奖项出炉",
+      "link": "https://www.jiqizhixin.com/search/articles/刚刚，何恺明ResNet、YO",
+      "summary": "刚刚，何恺明ResNet、YOLO获时间检验奖！CVPR 2026奖项出炉...",
       "date": "2026-06-06",
-      "source": "TechCrunch",
+      "source": "机器之心",
       "type": "industry",
       "tags": [
         "AI",
-        "Artificial Intelligence"
+        "人工智能"
+      ]
+    },
+    {
+      "title": "Markdown Content:",
+      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+      "summary": "Markdown Content:...",
+      "date": "2026-06-06",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
       ]
     },
     {
@@ -2372,30 +2396,6 @@
       "title": "光轮智能与谷歌、英伟达共同定义物理AI仿真标准",
       "link": "https://www.jiqizhixin.com/search/articles/光轮智能与谷歌、英伟达共同定义",
       "summary": "光轮智能与谷歌、英伟达共同定义物理AI仿真标准...",
-      "date": "2026-05-12",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "宇树造了款民用高达！390万元起",
-      "link": "https://www.jiqizhixin.com/search/articles/宇树造了款民用高达！390万元",
-      "summary": "宇树造了款民用高达！390万元起...",
-      "date": "2026-05-12",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "告别云端依赖！字节开源新作DreamLite让手机秒变 AI 画板",
-      "link": "https://www.jiqizhixin.com/search/articles/告别云端依赖！字节开源新作Dr",
-      "summary": "告别云端依赖！字节开源新作DreamLite让手机秒变 AI 画板...",
       "date": "2026-05-12",
       "source": "机器之心",
       "type": "industry",

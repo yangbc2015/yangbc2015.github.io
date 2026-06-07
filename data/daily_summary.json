@@ -8,18 +8,6 @@
       "count": 5,
       "items": [
         {
-          "title": "Markdown Content:",
-          "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-          "summary": "Markdown Content:...",
-          "date": "2026-06-06",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
           "title": "大三本科生，一块老泰坦，拿下CVPR最佳学生论文提名",
           "link": "https://www.jiqizhixin.com/search/articles/大三本科生，一块老泰坦，拿下C",
           "summary": "大三本科生，一块老泰坦，拿下CVPR最佳学生论文提名...",
@@ -59,6 +47,18 @@
           "title": "DeepSeek V4做数学证明，500倍成本优势：智能体系统刷新多项纪录",
           "link": "https://www.jiqizhixin.com/search/articles/DeepSeek V4做数学证",
           "summary": "DeepSeek V4做数学证明，500倍成本优势：智能体系统刷新多项纪录...",
+          "date": "2026-06-06",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "大晓机器人联合南洋理工打通Physical AI全链路！PhysX-Omni补齐物理AI基建",
+          "link": "https://www.jiqizhixin.com/search/articles/大晓机器人联合南洋理工打通Ph",
+          "summary": "大晓机器人联合南洋理工打通Physical AI全链路！PhysX-Omni补齐物理AI基建...",
           "date": "2026-06-06",
           "source": "机器之心",
           "type": "industry",
