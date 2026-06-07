@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-06-06",
-  "count": 2,
+  "last_updated": "2026-06-07",
+  "count": 7,
   "items": [
     {
       "title": "HANDOFF: Humanoid Agentic Task-Space Whole-Body Control via Distilled Complementary Teachers",
@@ -14,6 +14,90 @@
       "categories": [
         "cs.RO",
         "cs.AI",
+        "cs.LG"
+      ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Code2LoRA: Hypernetwork-Generated Adapters for Code Language Models under Software Evolution",
+      "authors": "Liliana Hotsko, Yinxi Li, Yuntian Deng et al.",
+      "abstract": "Code language models need repository-level context to resolve imports, APIs, and project conventions. Existing methods inject this knowledge as long inputs (retrieved through RAG or dependency analysis) or through per-repository fine-tuning and LoRA -- costly at repository scale and brittle to evolv...",
+      "venue": "arXiv",
+      "date": "2026-06-04",
+      "arxiv_id": "2606.06492v1",
+      "url": "https://arxiv.org/abs/2606.06492v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.06492v1.pdf",
+      "categories": [
+        "cs.SE",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Operation-Guided Progressive Human-to-AI Text Transformation Benchmark for Multi-Granularity AI-Text Detection",
+      "authors": "Sondos Mahmoud Bsharat, Jiacheng Liu, Xiaohan Zhao et al.",
+      "abstract": "As AI writing assistants become increasingly integrated into real-world drafting and revision workflows, many documents are no longer purely human-written or AI-generated, but instead result from progressive human-AI co-editing. However, existing AI-text detection benchmarks largely focus on final o...",
+      "venue": "arXiv",
+      "date": "2026-06-04",
+      "arxiv_id": "2606.06481v1",
+      "url": "https://arxiv.org/abs/2606.06481v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.06481v1.pdf",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "type": "benchmark",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "PAR3D: A Unified 3D-MLLM with Part-Aware Representation for Scene Understanding",
+      "authors": "Shaohui Dai, Yansong Qu, You Shen et al.",
+      "abstract": "Recent advances in 3D multimodal large language models (3D-MLLMs) have enabled unified solutions for 3D scene understanding tasks, including visual question answering, captioning, and referring segmentation. However, existing 3D-MLLMs remain largely object-centric, limiting their ability to model fi...",
+      "venue": "arXiv",
+      "date": "2026-06-04",
+      "arxiv_id": "2606.06485v1",
+      "url": "https://arxiv.org/abs/2606.06485v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.06485v1.pdf",
+      "categories": [
+        "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Complexity-Balanced Diffusion Splitting",
+      "authors": "Noam Issachar, Dani Lischinski, Raanan Fattal",
+      "abstract": "Standard continuous-time generative models rely on monolithic architectures that must navigate vastly different signal regimes, from isotropic noise to intricate data distributions. While scaling model capacity improves performance, deploying a massive network uniformly across the entire generative ...",
+      "venue": "arXiv",
+      "date": "2026-06-04",
+      "arxiv_id": "2606.06477v1",
+      "url": "https://arxiv.org/abs/2606.06477v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.06477v1.pdf",
+      "categories": [
+        "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "TailLoR: Protecting Principal Components in Parameter-Efficient Continual Learning",
+      "authors": "Marius Dragoi, Ioana Pintilie, Alexandra Dragomir et al.",
+      "abstract": "Parameter-efficient finetuning methods based on spectral decomposition have enabled progress in Continual Learning. In this paper we introduce TailLoR, which utilizes the singular bases U and V of the pre-trained weights as a fixed reference frame to learn a low-rank update applied to the singular v...",
+      "venue": "arXiv",
+      "date": "2026-06-04",
+      "arxiv_id": "2606.06494v1",
+      "url": "https://arxiv.org/abs/2606.06494v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.06494v1.pdf",
+      "categories": [
         "cs.LG"
       ],
       "type": "ml",

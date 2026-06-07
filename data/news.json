@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-06-06",
+  "last_updated": "2026-06-07",
   "count": 200,
-  "history_count": 200,
+  "history_count": 205,
   "retention_days": 30,
   "items": [
     {
       "title": "Agentic AI的算力焦虑，英特尔给来了一剂「猛药」",
       "link": "https://www.qbitai.com/?s=Agentic AI",
       "summary": "Agentic AI的算力焦虑，英特尔给来了一剂「猛药」...",
-      "date": "2026-06-06",
+      "date": "2026-06-07",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -20,8 +20,80 @@
       "title": "硅谷科技公司Q1裁员同比增长40%",
       "link": "https://www.qbitai.com/?s=硅谷科技公司Q1裁员",
       "summary": "硅谷科技公司Q1裁员同比增长40%...",
-      "date": "2026-06-06",
+      "date": "2026-06-07",
       "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "Markdown Content:",
+      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+      "summary": "Markdown Content:...",
+      "date": "2026-06-06",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "大三本科生，一块老泰坦，拿下CVPR最佳学生论文提名",
+      "link": "https://www.jiqizhixin.com/search/articles/大三本科生，一块老泰坦，拿下C",
+      "summary": "大三本科生，一块老泰坦，拿下CVPR最佳学生论文提名...",
+      "date": "2026-06-06",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "CVPR 2026｜LLM会写3D视觉代码吗？清华联合智源用GeoCodeBench给出答案",
+      "link": "https://www.jiqizhixin.com/search/articles/CVPR 2026｜LLM会写",
+      "summary": "CVPR 2026｜LLM会写3D视觉代码吗？清华联合智源用GeoCodeBench给出答案...",
+      "date": "2026-06-06",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "视频AI卷向5分钟：全量开源，一次生成，正式告别「盲盒抽卡」",
+      "link": "https://www.jiqizhixin.com/search/articles/视频AI卷向5分钟：全量开源，",
+      "summary": "视频AI卷向5分钟：全量开源，一次生成，正式告别「盲盒抽卡」...",
+      "date": "2026-06-06",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "DeepSeek V4做数学证明，500倍成本优势：智能体系统刷新多项纪录",
+      "link": "https://www.jiqizhixin.com/search/articles/DeepSeek V4做数学证",
+      "summary": "DeepSeek V4做数学证明，500倍成本优势：智能体系统刷新多项纪录...",
+      "date": "2026-06-06",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "大晓机器人联合南洋理工打通Physical AI全链路！PhysX-Omni补齐物理AI基建",
+      "link": "https://www.jiqizhixin.com/search/articles/大晓机器人联合南洋理工打通Ph",
+      "summary": "大晓机器人联合南洋理工打通Physical AI全链路！PhysX-Omni补齐物理AI基建...",
+      "date": "2026-06-06",
+      "source": "机器之心",
       "type": "industry",
       "tags": [
         "AI",
@@ -104,18 +176,6 @@
       "title": "全球领先！许锦波团队率先跑通低通量de novo，11大靶点上实现90%成功率！",
       "link": "https://www.jiqizhixin.com/search/articles/全球领先！许锦波团队率先跑通低",
       "summary": "全球领先！许锦波团队率先跑通低通量de novo，11大靶点上实现90%成功率！...",
-      "date": "2026-06-05",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Markdown Content:",
-      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-      "summary": "Markdown Content:...",
       "date": "2026-06-05",
       "source": "机器之心",
       "type": "industry",
@@ -2338,66 +2398,6 @@
       "summary": "告别云端依赖！字节开源新作DreamLite让手机秒变 AI 画板...",
       "date": "2026-05-12",
       "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "OpenAI 前 CTO 的创业模型首秀，与面壁智能「撞车」了",
-      "link": "https://www.jiqizhixin.com/search/articles/OpenAI 前 CTO 的创",
-      "summary": "OpenAI 前 CTO 的创业模型首秀，与面壁智能「撞车」了...",
-      "date": "2026-05-12",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "当蛋白质AI开始「黑箱化」：下一代生物模型该如何被真正理解与控制",
-      "link": "https://www.jiqizhixin.com/search/articles/当蛋白质AI开始「黑箱化」：下",
-      "summary": "当蛋白质AI开始「黑箱化」：下一代生物模型该如何被真正理解与控制...",
-      "date": "2026-05-12",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Cerebras预计本周公布定价",
-      "link": "https://www.qbitai.com/?s=Cerebras预计",
-      "summary": "Cerebras预计本周公布定价...",
-      "date": "2026-05-12",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "自曝创业至暗时刻，飞日本求世嘉CEO救命",
-      "link": "https://www.qbitai.com/?s=自曝创业至暗时刻，飞",
-      "summary": "自曝创业至暗时刻，飞日本求世嘉CEO救命...",
-      "date": "2026-05-12",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "真正学会了在隐空间里进行“物理思考”",
-      "link": "https://www.qbitai.com/?s=真正学会了在隐空间里",
-      "summary": "真正学会了在隐空间里进行“物理思考”...",
-      "date": "2026-05-12",
-      "source": "量子位",
       "type": "industry",
       "tags": [
         "AI",
