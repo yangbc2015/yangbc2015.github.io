@@ -1,9 +1,21 @@
 {
   "last_updated": "2026-06-07",
   "count": 200,
-  "history_count": 202,
+  "history_count": 201,
   "retention_days": 30,
   "items": [
+    {
+      "title": "「放任」人才外流的反常操作，只是格局使然吗？",
+      "link": "https://www.qbitai.com/?s=「放任」人才外流的反",
+      "summary": "「放任」人才外流的反常操作，只是格局使然吗？...",
+      "date": "2026-06-07",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
     {
       "title": "帮OpenAI从零造出第一颗芯片的人，转投Anthropic了",
       "link": "https://www.qbitai.com/?s=帮OpenAI从零造",
@@ -29,18 +41,6 @@
       ]
     },
     {
-      "title": "硅谷科技公司Q1裁员同比增长40%",
-      "link": "https://www.qbitai.com/?s=硅谷科技公司Q1裁员",
-      "summary": "硅谷科技公司Q1裁员同比增长40%...",
-      "date": "2026-06-07",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
       "title": "*   [Latest](http://techcrunch.com/latest/)",
       "link": "https://techcrunch.com/category/artificial-intelligence/",
       "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
@@ -50,6 +50,18 @@
       "tags": [
         "AI",
         "Artificial Intelligence"
+      ]
+    },
+    {
+      "title": "硅谷科技公司Q1裁员同比增长40%",
+      "link": "https://www.qbitai.com/?s=硅谷科技公司Q1裁员",
+      "summary": "硅谷科技公司Q1裁员同比增长40%...",
+      "date": "2026-06-07",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
       ]
     },
     {
@@ -2386,18 +2398,6 @@
       "summary": "AI时代最贵的东西，已经不是模型了...",
       "date": "2026-05-13",
       "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "光轮智能与谷歌、英伟达共同定义物理AI仿真标准",
-      "link": "https://www.jiqizhixin.com/search/articles/光轮智能与谷歌、英伟达共同定义",
-      "summary": "光轮智能与谷歌、英伟达共同定义物理AI仿真标准...",
-      "date": "2026-05-12",
-      "source": "机器之心",
       "type": "industry",
       "tags": [
         "AI",
