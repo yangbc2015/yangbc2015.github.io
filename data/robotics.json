@@ -126,6 +126,86 @@
       ]
     },
     {
+      "title": "Affordance-Based Hierarchical Reinforcement Learning for Quadruped Pedipulation",
+      "summary": "The object manipulation capabilities of quadruped robots is an open research challenge. While previous studies have focused on low-level policy learning, task execution still relies on expert-designed high-level trajectories. Autonomous selection of ...",
+      "url": "https://arxiv.org/abs/2606.07506v1",
+      "date": "2026-06-05",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.07506v1",
+      "authors": "Tuba Girgin, Jose Castelblanco et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Physiologically Constrained Musculoskeletal Neural Network for Multi-DoF Joint Kinematics Estimation from Partially Observed sEMG",
+      "summary": "This paper investigates multi-degrees of freedom (DoF) joint kinematics estimation under partially observed surface electromyography (sEMG), where only a subset of task-relevant muscles can be measured due to anatomical inaccessibility or sensor cons...",
+      "url": "https://arxiv.org/abs/2606.07476v1",
+      "date": "2026-06-05",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.07476v1",
+      "authors": "Wending Heng, Mingming Zhang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Planning-aligned Token Compression for Long-Context Autonomous Driving",
+      "summary": "Monolithic vision-action models represent an emerging paradigm in autonomous driving. However, this architecture produces token sequences that quickly exceed real-time computational budgets when encoding extended temporal context for complex interact...",
+      "url": "https://arxiv.org/abs/2606.07464v1",
+      "date": "2026-06-05",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.07464v1",
+      "authors": "Zhixuan Liang, Yuxiao Chen et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "On orbital stabilization of a circular motion primitive for a dynamic extension of the Dubins car model",
+      "summary": "This paper addresses orbital stabilization of a circular motion primitive for a dynamic extension of the Dubins car model within a transverse-linearization framework. We show that the corresponding transverse linearization is unstable and not stabili...",
+      "url": "https://arxiv.org/abs/2606.07449v1",
+      "date": "2026-06-05",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.07449v1",
+      "authors": "Artem Angelchev-Shiryaev, Pavel E. Aleshin et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Re-imagining ISO 26262 in the Age of Autonomous Vehicles: Enhancing Controllability through Transferability and Predictability",
+      "summary": "The ISO 26262 standard defines functional safety for road vehicles through risk assessments based on Severity, Exposure, and Controllability, grounded in a human-driven vehicle paradigm. In the context of autonomous vehicles (AVs), the absence of a h...",
+      "url": "https://arxiv.org/abs/2606.07437v1",
+      "date": "2026-06-05",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.07437v1",
+      "authors": "Chaitanya Shinde, Hadi Hajieghrary et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
       "title": "[喜获 CR 认证！聆动通用成为全国首个工业级 具 身 智 能 机器人获证企业",
       "summary": "[喜获 CR 认证！聆动通用成为全国首个工业级 具 身 智 能 机器人获证企业",
       "url": "http://36kr.com/p/3828653712380552",
@@ -135,6 +215,19 @@
       "type": "news",
       "tags": [
         "机器人"
+      ]
+    },
+    {
+      "title": "星灿智能构筑了空间智能+场景化数据闭环+专属具身大模型的独家核心壁垒。",
+      "summary": "星灿智能构筑了空间智能+场景化数据闭环+专属具身大模型的独家核心壁垒。",
+      "url": "http://36kr.com/p/3838659889711618",
+      "date": "2026-06-04",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
       ]
     },
     {
@@ -215,19 +308,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "星灿智能构筑了空间智能+场景化数据闭环+专属具身大模型的独家核心壁垒。",
-      "summary": "星灿智能构筑了空间智能+场景化数据闭环+专属具身大模型的独家核心壁垒。",
-      "url": "http://36kr.com/p/3838659889711618",
-      "date": "2026-06-04",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
       ]
     },
     {
@@ -3012,82 +3092,6 @@
       "type": "paper",
       "arxiv_id": "2604.19728v1",
       "authors": "Jean Mercat, Sedrick Keh et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Mask World Model: Predicting What Matters for Robust Robot Policy Learning",
-      "summary": "World models derived from large-scale video generative pre-training have emerged as a promising paradigm for generalist robot policy learning. However, standard approaches often focus on high-fidelity RGB video prediction, this can result in overfitt...",
-      "url": "https://arxiv.org/abs/2604.19683v1",
-      "date": "2026-04-21",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2604.19683v1",
-      "authors": "Yunfan Lou, Xiaowei Chi et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Learning Hybrid-Control Policies for High-Precision In-Contact Manipulation Under Uncertainty",
-      "summary": "Reinforcement learning-based control policies have been frequently demonstrated to be more effective than analytical techniques for many manipulation tasks. Commonly, these methods learn neural control policies that predict end-effector pose changes ...",
-      "url": "https://arxiv.org/abs/2604.19677v1",
-      "date": "2026-04-21",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2604.19677v1",
-      "authors": "Hunter L. Brown, Geoffrey Hollinger et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Multi-Cycle Spatio-Temporal Adaptation in Human-Robot Teaming",
-      "summary": "Effective human-robot teaming is crucial for the practical deployment of robots in human workspaces. However, optimizing joint human-robot plans remains a challenge due to the difficulty of modeling individualized human capabilities and preferences. ...",
-      "url": "https://arxiv.org/abs/2604.19670v1",
-      "date": "2026-04-21",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2604.19670v1",
-      "authors": "Alex Cuellar, Michael Hagenow et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "[具 身 智 能 走向规模化的关键：左星星解读“让机器人读懂空间”",
-      "summary": "[具 身 智 能 走向规模化的关键：左星星解读“让机器人读懂空间”",
-      "url": "http://36kr.com/p/3767534639760131",
-      "date": "2026-04-21",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
-      ]
-    },
-    {
-      "title": "OneVL: One-Step Latent Reasoning and Planning with Vision-Language Explanation",
-      "summary": "Chain-of-Thought (CoT) reasoning has become a powerful driver of trajectory prediction in VLA-based autonomous driving, yet its autoregressive nature imposes a latency cost that is prohibitive for real-time deployment. Latent CoT methods attempt to c...",
-      "url": "https://arxiv.org/abs/2604.18486v1",
-      "date": "2026-04-20",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2604.18486v1",
-      "authors": "Jinghui Lu, Jiayi Guan et al.",
       "tags": [
         "机器人学习",
         "研究论文",
