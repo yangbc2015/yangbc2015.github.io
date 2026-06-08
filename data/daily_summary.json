@@ -1,6 +1,6 @@
 {
-  "date": "2026-06-07",
-  "last_updated": "2026-06-07",
+  "date": "2026-06-08",
+  "last_updated": "2026-06-08",
   "categories": {
     "ai": {
       "name": "人工智能",
@@ -8,59 +8,59 @@
       "count": 5,
       "items": [
         {
-          "title": "大三本科生，一块老泰坦，拿下CVPR最佳学生论文提名",
-          "link": "https://www.jiqizhixin.com/search/articles/大三本科生，一块老泰坦，拿下C",
-          "summary": "大三本科生，一块老泰坦，拿下CVPR最佳学生论文提名...",
-          "date": "2026-06-06",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
-          "title": "CVPR 2026｜LLM会写3D视觉代码吗？清华联合智源用GeoCodeBench给出答案",
-          "link": "https://www.jiqizhixin.com/search/articles/CVPR 2026｜LLM会写",
-          "summary": "CVPR 2026｜LLM会写3D视觉代码吗？清华联合智源用GeoCodeBench给出答案...",
-          "date": "2026-06-06",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
-          "title": "视频AI卷向5分钟：全量开源，一次生成，正式告别「盲盒抽卡」",
-          "link": "https://www.jiqizhixin.com/search/articles/视频AI卷向5分钟：全量开源，",
-          "summary": "视频AI卷向5分钟：全量开源，一次生成，正式告别「盲盒抽卡」...",
-          "date": "2026-06-06",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
-          "title": "DeepSeek V4做数学证明，500倍成本优势：智能体系统刷新多项纪录",
-          "link": "https://www.jiqizhixin.com/search/articles/DeepSeek V4做数学证",
-          "summary": "DeepSeek V4做数学证明，500倍成本优势：智能体系统刷新多项纪录...",
-          "date": "2026-06-06",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
-          "title": "「放任」人才外流的反常操作，只是格局使然吗？",
-          "link": "https://www.qbitai.com/?s=「放任」人才外流的反",
-          "summary": "「放任」人才外流的反常操作，只是格局使然吗？...",
+          "title": "Markdown Content:",
+          "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+          "summary": "Markdown Content:...",
           "date": "2026-06-07",
-          "source": "量子位",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "Claude Code之父：「品味」不是人类护城河；当工程师不再写代码，招聘看什么？",
+          "link": "https://www.jiqizhixin.com/search/articles/Claude Code之父：「",
+          "summary": "Claude Code之父：「品味」不是人类护城河；当工程师不再写代码，招聘看什么？...",
+          "date": "2026-06-07",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "灵巧手的第一份高难度考卷，中科院自动化所发布DexJoCo",
+          "link": "https://www.jiqizhixin.com/search/articles/灵巧手的第一份高难度考卷，中科",
+          "summary": "灵巧手的第一份高难度考卷，中科院自动化所发布DexJoCo...",
+          "date": "2026-06-07",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "ChatGPT正在生成一些非常诡异的图片......",
+          "link": "https://www.jiqizhixin.com/search/articles/ChatGPT正在生成一些非常",
+          "summary": "ChatGPT正在生成一些非常诡异的图片.........",
+          "date": "2026-06-07",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "ICML 2026｜让 Agent 真正协同作战：GoS 为多智能体推理构建共享信念状态",
+          "link": "https://www.jiqizhixin.com/search/articles/ICML 2026｜让 Age",
+          "summary": "ICML 2026｜让 Agent 真正协同作战：GoS 为多智能体推理构建共享信念状态...",
+          "date": "2026-06-07",
+          "source": "机器之心",
           "type": "industry",
           "tags": [
             "AI",
