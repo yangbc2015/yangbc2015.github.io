@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-06-08",
+  "last_updated": "2026-06-09",
   "count": 200,
-  "history_count": 200,
+  "history_count": 205,
   "retention_days": 30,
   "items": [
     {
       "title": "协助用户与商家判断智能体可信赖程度",
       "link": "https://www.qbitai.com/?s=协助用户与商家判断智",
       "summary": "协助用户与商家判断智能体可信赖程度...",
-      "date": "2026-06-08",
+      "date": "2026-06-09",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -20,7 +20,7 @@
       "title": "ABot-Earth0.5正式开放内测",
       "link": "https://www.qbitai.com/?s=ABot-Earth",
       "summary": "ABot-Earth0.5正式开放内测...",
-      "date": "2026-06-08",
+      "date": "2026-06-09",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -32,7 +32,7 @@
       "title": "黄仁勋要算一万步，这家公司的芯片只需一步",
       "link": "https://www.qbitai.com/?s=黄仁勋要算一万步，这",
       "summary": "黄仁勋要算一万步，这家公司的芯片只需一步...",
-      "date": "2026-06-08",
+      "date": "2026-06-09",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -44,7 +44,7 @@
       "title": "文远知行携L2++ 一段式端到端方案WRD 3.0参展",
       "link": "https://www.qbitai.com/?s=文远知行携L2++ ",
       "summary": "文远知行携L2++ 一段式端到端方案WRD 3.0参展...",
-      "date": "2026-06-08",
+      "date": "2026-06-09",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -56,8 +56,80 @@
       "title": "「放任」人才外流的反常操作，只是格局使然吗？",
       "link": "https://www.qbitai.com/?s=「放任」人才外流的反",
       "summary": "「放任」人才外流的反常操作，只是格局使然吗？...",
-      "date": "2026-06-08",
+      "date": "2026-06-09",
       "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "Markdown Content:",
+      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+      "summary": "Markdown Content:...",
+      "date": "2026-06-08",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "我们把ACL 2026最具启发性的论文作者请到了北京",
+      "link": "https://www.jiqizhixin.com/search/articles/我们把ACL 2026最具启发",
+      "summary": "我们把ACL 2026最具启发性的论文作者请到了北京...",
+      "date": "2026-06-08",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "ICML 2026｜文生图模型也会「忘词」？复旦创智等提出Prompt Reinjection，无需训练提升文生图指令遵循能力",
+      "link": "https://www.jiqizhixin.com/search/articles/ICML 2026｜文生图模型",
+      "summary": "ICML 2026｜文生图模型也会「忘词」？复旦创智等提出Prompt Reinjection，无需训练提升文生图指令遵循能力...",
+      "date": "2026-06-08",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "腾讯打出企业Agent新底牌：WorkBuddy企业版抢占AI办公统一入口",
+      "link": "https://www.jiqizhixin.com/search/articles/腾讯打出企业Agent新底牌：",
+      "summary": "腾讯打出企业Agent新底牌：WorkBuddy企业版抢占AI办公统一入口...",
+      "date": "2026-06-08",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "「Token末日」来了！AI正迎来一场定价海啸",
+      "link": "https://www.jiqizhixin.com/search/articles/「Token末日」来了！AI正",
+      "summary": "「Token末日」来了！AI正迎来一场定价海啸...",
+      "date": "2026-06-08",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "ICML 2026 | 从「试错」走向「AI精准预测」，德睿智药合作提出全原子多肽设计模型PepFGLD",
+      "link": "https://www.jiqizhixin.com/search/articles/ICML 2026 | 从「试",
+      "summary": "ICML 2026 | 从「试错」走向「AI精准预测」，德睿智药合作提出全原子多肽设计模型PepFGLD...",
+      "date": "2026-06-08",
+      "source": "机器之心",
       "type": "industry",
       "tags": [
         "AI",
@@ -152,18 +224,6 @@
       "title": "ICML 2026｜让 Agent 真正协同作战：GoS 为多智能体推理构建共享信念状态",
       "link": "https://www.jiqizhixin.com/search/articles/ICML 2026｜让 Age",
       "summary": "ICML 2026｜让 Agent 真正协同作战：GoS 为多智能体推理构建共享信念状态...",
-      "date": "2026-06-07",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Markdown Content:",
-      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-      "summary": "Markdown Content:...",
       "date": "2026-06-07",
       "source": "机器之心",
       "type": "industry",
@@ -2338,66 +2398,6 @@
       "summary": "3 小时打造\"演唱会搭子\"：淘天金码奖收官，AI Native 成亮点...",
       "date": "2026-05-14",
       "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "商汤SenseNova U1深度拆解，原生统一架构终结缝合时代",
-      "link": "https://www.jiqizhixin.com/search/articles/商汤SenseNova U1深",
-      "summary": "商汤SenseNova U1深度拆解，原生统一架构终结缝合时代...",
-      "date": "2026-05-14",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "训练数据枯竭怎么办？首篇「数据价值密度」综述理清思路",
-      "link": "https://www.jiqizhixin.com/search/articles/训练数据枯竭怎么办？首篇「数据",
-      "summary": "训练数据枯竭怎么办？首篇「数据价值密度」综述理清思路...",
-      "date": "2026-05-14",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "国产GPU首获全球顶级推理框架「原生门票」：MUSA合入SGLang主线",
-      "link": "https://www.jiqizhixin.com/search/articles/国产GPU首获全球顶级推理框架",
-      "summary": "国产GPU首获全球顶级推理框架「原生门票」：MUSA合入SGLang主线...",
-      "date": "2026-05-14",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "首创TTFA指标！港大团队开源FASTER，让VLA模型真正实现「即刻响应」",
-      "link": "https://www.jiqizhixin.com/search/articles/首创TTFA指标！港大团队开源",
-      "summary": "首创TTFA指标！港大团队开源FASTER，让VLA模型真正实现「即刻响应」...",
-      "date": "2026-05-14",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "谷歌把Gemini塞进了Android",
-      "link": "https://www.qbitai.com/?s=谷歌把Gemini塞",
-      "summary": "谷歌把Gemini塞进了Android...",
-      "date": "2026-05-14",
-      "source": "量子位",
       "type": "industry",
       "tags": [
         "AI",
