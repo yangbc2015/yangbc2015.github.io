@@ -3,34 +3,67 @@
   "count": 8,
   "items": [
     {
-      "title": "How reliable are LLMs when it comes to playing dice?",
-      "authors": "Luca Avena, Gianmarco Bet, Bernardo Busoni",
-      "abstract": "We investigate the probabilistic reasoning capabilities of large language models through a controlled benchmarking study on discrete probability problems. We constructed two datasets, respectively a set of standard exercises and a set of counterintuitive exercises, designed to trigger heuristic reas...",
+      "title": "OmniGameArena: A Unified UE5 Benchmark for VLM Game Agents with Improvement Dynamics",
+      "authors": "Mingxian Lin, Shengju Qian, Yuqi Liu et al.",
+      "abstract": "Vision-language model (VLM) agents are increasingly deployed in interactive game environments. Yet game benchmarks for VLM agents typically report a single first-attempt score per (agent, game) pair, focus on single-agent Solo play, and lack unified protocols for evaluating heterogeneous agent class...",
       "venue": "arXiv",
-      "date": "2026-06-05",
-      "arxiv_id": "2606.07515v1",
-      "url": "https://arxiv.org/abs/2606.07515v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.07515v1.pdf",
-      "categories": [
-        "cs.CL",
-        "cs.AI",
-        "cs.HC"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "MemDreamer: Decoupling Perception and Reasoning for Long Video Understanding via Hierarchical Graph Memory and Agentic Retrieval Mechanism",
-      "authors": "Cong Chen, Guo Gan, Kaixiang Ji et al.",
-      "abstract": "Current Vision-Language Models struggle with hours-long videos because processing full-length visual sequences induces prohibitive token explosion and attention dilution. To overcome this, we introduce MemDreamer to decouple perception and reasoning, shifting long-video understanding into an agentic...",
-      "venue": "arXiv",
-      "date": "2026-06-05",
-      "arxiv_id": "2606.07512v1",
-      "url": "https://arxiv.org/abs/2606.07512v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.07512v1.pdf",
+      "date": "2026-06-08",
+      "arxiv_id": "2606.09826v1",
+      "url": "https://arxiv.org/abs/2606.09826v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.09826v1.pdf",
       "categories": [
         "cs.CV",
+        "cs.AI"
+      ],
+      "type": "benchmark",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "An Agency-Transferring Model-Free Policy Enhancement Technique",
+      "authors": "Anton Bolychev, Georgiy Malaniya, Sinan Ibrahim et al.",
+      "abstract": "Training reinforcement learning (RL) policies from scratch is costly: it requires careful reward and environment design, extensive tuning, and substantial computation. Yet many control problems already have a functional but suboptimal policy available as a baseline. This paper proposes a method for ...",
+      "venue": "arXiv",
+      "date": "2026-06-08",
+      "arxiv_id": "2606.09825v1",
+      "url": "https://arxiv.org/abs/2606.09825v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.09825v1.pdf",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "eess.SY"
+      ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Causally Evaluating the Learnability of Formal Language Tasks",
+      "authors": "Vésteinn Snæbjarnarson, Anej Svete, Josef Valvoda et al.",
+      "abstract": "Language models, as multi-task learners, acquire a wide range of abilities during training. A fundamental question is how much task-specific data is needed to learn a given task. Answering this for natural language is difficult: tasks are hard to delineate and can confound one another. To rigorously...",
+      "venue": "arXiv",
+      "date": "2026-06-08",
+      "arxiv_id": "2606.09822v1",
+      "url": "https://arxiv.org/abs/2606.09822v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.09822v1.pdf",
+      "categories": [
+        "cs.CL",
+        "cs.FL"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "SIGA: Self-Evolving Coding-Agent Adapters for Scientific Simulation",
+      "authors": "Matthew Ho, Brian Liu, Jixuan Chen et al.",
+      "abstract": "Advanced scientific simulators expose specialized input languages that turn simulation goals into executable configurations, but learning them can cost domain scientists hours to days. We study simulator setup as a problem of agent-tool interface grounding: what minimal simulator-specific adaptation...",
+      "venue": "arXiv",
+      "date": "2026-06-08",
+      "arxiv_id": "2606.09774v1",
+      "url": "https://arxiv.org/abs/2606.09774v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.09774v1.pdf",
+      "categories": [
         "cs.AI",
         "cs.CL"
       ],
@@ -39,30 +72,14 @@
       "source": "arXiv"
     },
     {
-      "title": "Agentopia: Long-Term Life Simulation and Learning in Agent Societies",
-      "authors": "Xintao Wang, Sirui Zheng, Hongqiu Wu et al.",
-      "abstract": "Humans learn from social life. Simulating this process with LLM-powered agents represents a promising research direction, raising a natural question: whether LLMs can learn from such simulated social experience to better understand and replicate human behavior. However, prior agent society simulatio...",
+      "title": "Latent Spatial Memory for Video World Models",
+      "authors": "Weijie Wang, Haoyu Zhao, Yifan Yang et al.",
+      "abstract": "Video world models that maintain 3D spatial consistency across generated frames typically rely on explicit point cloud memory constructed in RGB space. This design is both computationally expensive, requiring repeated rendering and VAE encoding, and inherently lossy, as the round trip through pixel ...",
       "venue": "arXiv",
-      "date": "2026-06-05",
-      "arxiv_id": "2606.07513v1",
-      "url": "https://arxiv.org/abs/2606.07513v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.07513v1.pdf",
-      "categories": [
-        "cs.CL"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "UniSHARP: Universal Sharp Monocular View Synthesis",
-      "authors": "Meixi Song, Dizhe Zhang, Hao Ren et al.",
-      "abstract": "In this work, we focus on extending SHARP, the popular photorealistic view synthesis method, for universal monocular rendering across a continuum of camera systems, from conventional perspective cameras to wide-field-of-view, fisheye and omnidirectional panoramic settings. To overcome the pinhole-sp...",
-      "venue": "arXiv",
-      "date": "2026-06-05",
-      "arxiv_id": "2606.07514v1",
-      "url": "https://arxiv.org/abs/2606.07514v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.07514v1.pdf",
+      "date": "2026-06-08",
+      "arxiv_id": "2606.09828v1",
+      "url": "https://arxiv.org/abs/2606.09828v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.09828v1.pdf",
       "categories": [
         "cs.CV"
       ],
@@ -71,70 +88,52 @@
       "source": "arXiv"
     },
     {
-      "title": "Sparse Subspace-to-Expert Sharing for Task-Agnostic Continual Learning",
-      "authors": "Fatema Siddika, Md Anwar Hossen, Tanwi Mallick et al.",
-      "abstract": "Continual learning in Large Language Models (LLMs) is hindered by the plasticity-stability dilemma, where acquiring new capabilities often leads to catastrophic forgetting of previous knowledge. Existing methods typically treat parameters uniformly, failing to distinguish between specific task knowl...",
+      "title": "MemoryVLA++: Temporal Modeling via Memory and Imagination in Vision-Language-Action Models",
+      "authors": "Hao Shi, Weiye Li, Bin Xie et al.",
+      "abstract": "Temporal modeling is essential for robotic manipulation, as effective control requires both memory of past interactions and imagination of future states. However, most VLA models rely primarily on the current observation and therefore struggle with long-horizon, temporally dependent tasks. Cognitive...",
       "venue": "arXiv",
-      "date": "2026-06-05",
-      "arxiv_id": "2606.07500v1",
-      "url": "https://arxiv.org/abs/2606.07500v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.07500v1.pdf",
+      "date": "2026-06-08",
+      "arxiv_id": "2606.09827v1",
+      "url": "https://arxiv.org/abs/2606.09827v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.09827v1.pdf",
       "categories": [
-        "cs.LG",
-        "cs.AI"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Accelerated Decentralized Stochastic Gradient Descent for Strongly Convex Optimization",
-      "authors": "Ming Sun, Kun Yuan",
-      "abstract": "Decentralized stochastic optimization is a fundamental paradigm for large-scale learning over networks, where agents communicate only with their neighbors and no central coordinator is required. For strongly convex problems, communication efficiency is mainly determined by the condition number \\(κ=L...",
-      "venue": "arXiv",
-      "date": "2026-06-05",
-      "arxiv_id": "2606.07496v1",
-      "url": "https://arxiv.org/abs/2606.07496v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.07496v1.pdf",
-      "categories": [
-        "cs.LG",
-        "math.OC"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Affordance-Based Hierarchical Reinforcement Learning for Quadruped Pedipulation",
-      "authors": "Tuba Girgin, Jose Castelblanco, Gabriel Rodriguez et al.",
-      "abstract": "The object manipulation capabilities of quadruped robots is an open research challenge. While previous studies have focused on low-level policy learning, task execution still relies on expert-designed high-level trajectories. Autonomous selection of both an affordable interaction point on the target...",
-      "venue": "arXiv",
-      "date": "2026-06-05",
-      "arxiv_id": "2606.07506v1",
-      "url": "https://arxiv.org/abs/2606.07506v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.07506v1.pdf",
-      "categories": [
-        "cs.RO"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Physiologically Constrained Musculoskeletal Neural Network for Multi-DoF Joint Kinematics Estimation from Partially Observed sEMG",
-      "authors": "Wending Heng, Mingming Zhang, Glen Cooper et al.",
-      "abstract": "This paper investigates multi-degrees of freedom (DoF) joint kinematics estimation under partially observed surface electromyography (sEMG), where only a subset of task-relevant muscles can be measured due to anatomical inaccessibility or sensor constraints. A novel musculoskeletal neural network (M...",
-      "venue": "arXiv",
-      "date": "2026-06-05",
-      "arxiv_id": "2606.07476v1",
-      "url": "https://arxiv.org/abs/2606.07476v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.07476v1.pdf",
-      "categories": [
-        "eess.SY",
         "cs.RO",
-        "eess.SP"
+        "cs.CV"
       ],
-      "type": "ai",
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Rethinking the Divergence Regularization in LLM RL",
+      "authors": "Jiarui Yao, Xiangxin Zhou, Penghui Qi et al.",
+      "abstract": "Reinforcement learning (RL) has become a key component of post-training large language models (LLMs). In practice, LLM RL is often off-policy because of training-inference mismatch and policy staleness, making trust-region control essential for stable optimization. Mainstream methods such as PPO and...",
+      "venue": "arXiv",
+      "date": "2026-06-08",
+      "arxiv_id": "2606.09821v1",
+      "url": "https://arxiv.org/abs/2606.09821v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.09821v1.pdf",
+      "categories": [
+        "cs.LG"
+      ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "iMaC: Translating Actions into Motion and Contact Images for Embodied World Models",
+      "authors": "Zhenyu Wu, Xiuwei Xu, Yukun Zhou et al.",
+      "abstract": "Embodied world models have emerged as a pivotal paradigm for visual robotic decision-making and interactive environment simulation. However, conventional embodied frameworks rely on low-dimensional structured action vectors (e.g., joint angles and end-effector poses), which suffer from limited expre...",
+      "venue": "arXiv",
+      "date": "2026-06-08",
+      "arxiv_id": "2606.09813v1",
+      "url": "https://arxiv.org/abs/2606.09813v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.09813v1.pdf",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     }
