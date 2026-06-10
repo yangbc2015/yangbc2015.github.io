@@ -3,67 +3,16 @@
   "count": 8,
   "items": [
     {
-      "title": "OmniGameArena: A Unified UE5 Benchmark for VLM Game Agents with Improvement Dynamics",
-      "authors": "Mingxian Lin, Shengju Qian, Yuqi Liu et al.",
-      "abstract": "Vision-language model (VLM) agents are increasingly deployed in interactive game environments. Yet game benchmarks for VLM agents typically report a single first-attempt score per (agent, game) pair, focus on single-agent Solo play, and lack unified protocols for evaluating heterogeneous agent class...",
+      "title": "A Unifying Lens on Supervised Fine-Tuning Through Target Distribution Design",
+      "authors": "Tong Xie, Yuanhao Ban, Yunqi Hong et al.",
+      "abstract": "Supervised fine-tuning (SFT) typically maximizes the likelihood of every token in a demonstrated trajectory. However, an observed token can be non-unique, noisy, or misaligned with the model prior. Strictly fitting toward this one-hot target may be suboptimal, especially when the pretrained model en...",
       "venue": "arXiv",
-      "date": "2026-06-08",
-      "arxiv_id": "2606.09826v1",
-      "url": "https://arxiv.org/abs/2606.09826v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.09826v1.pdf",
-      "categories": [
-        "cs.CV",
-        "cs.AI"
-      ],
-      "type": "benchmark",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "An Agency-Transferring Model-Free Policy Enhancement Technique",
-      "authors": "Anton Bolychev, Georgiy Malaniya, Sinan Ibrahim et al.",
-      "abstract": "Training reinforcement learning (RL) policies from scratch is costly: it requires careful reward and environment design, extensive tuning, and substantial computation. Yet many control problems already have a functional but suboptimal policy available as a baseline. This paper proposes a method for ...",
-      "venue": "arXiv",
-      "date": "2026-06-08",
-      "arxiv_id": "2606.09825v1",
-      "url": "https://arxiv.org/abs/2606.09825v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.09825v1.pdf",
+      "date": "2026-06-09",
+      "arxiv_id": "2606.11189v1",
+      "url": "https://arxiv.org/abs/2606.11189v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.11189v1.pdf",
       "categories": [
         "cs.LG",
-        "cs.AI",
-        "eess.SY"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Causally Evaluating the Learnability of Formal Language Tasks",
-      "authors": "Vésteinn Snæbjarnarson, Anej Svete, Josef Valvoda et al.",
-      "abstract": "Language models, as multi-task learners, acquire a wide range of abilities during training. A fundamental question is how much task-specific data is needed to learn a given task. Answering this for natural language is difficult: tasks are hard to delineate and can confound one another. To rigorously...",
-      "venue": "arXiv",
-      "date": "2026-06-08",
-      "arxiv_id": "2606.09822v1",
-      "url": "https://arxiv.org/abs/2606.09822v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.09822v1.pdf",
-      "categories": [
-        "cs.CL",
-        "cs.FL"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "SIGA: Self-Evolving Coding-Agent Adapters for Scientific Simulation",
-      "authors": "Matthew Ho, Brian Liu, Jixuan Chen et al.",
-      "abstract": "Advanced scientific simulators expose specialized input languages that turn simulation goals into executable configurations, but learning them can cost domain scientists hours to days. We study simulator setup as a problem of agent-tool interface grounding: what minimal simulator-specific adaptation...",
-      "venue": "arXiv",
-      "date": "2026-06-08",
-      "arxiv_id": "2606.09774v1",
-      "url": "https://arxiv.org/abs/2606.09774v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.09774v1.pdf",
-      "categories": [
         "cs.AI",
         "cs.CL"
       ],
@@ -72,14 +21,49 @@
       "source": "arXiv"
     },
     {
-      "title": "Latent Spatial Memory for Video World Models",
-      "authors": "Weijie Wang, Haoyu Zhao, Yifan Yang et al.",
-      "abstract": "Video world models that maintain 3D spatial consistency across generated frames typically rely on explicit point cloud memory constructed in RGB space. This design is both computationally expensive, requiring repeated rendering and VAE encoding, and inherently lossy, as the round trip through pixel ...",
+      "title": "EEVEE: Towards Test-time Prompt Learning in the Real World for Self-Improving Agents",
+      "authors": "Weixian Xu, Shilong Liu, Mengdi Wang",
+      "abstract": "In this paper, we propose EEVEE, the first multi-dataset test-time prompt learning framework for LLM agents, enabling test-time prompt learning under real-world task streams. Existing methods are largely designed for single-dataset settings, while real-world applications require models to handle het...",
       "venue": "arXiv",
-      "date": "2026-06-08",
-      "arxiv_id": "2606.09828v1",
-      "url": "https://arxiv.org/abs/2606.09828v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.09828v1.pdf",
+      "date": "2026-06-09",
+      "arxiv_id": "2606.11182v1",
+      "url": "https://arxiv.org/abs/2606.11182v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.11182v1.pdf",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Data Journalist Agent: Transforming Data into Verifiable Multimodal Stories",
+      "authors": "Kevin Qinghong Lin, Batu EI, Yuhong Shi et al.",
+      "abstract": "Data tells stories that shape society; the data journalist's job is to turn raw information into stories non-experts can trust. A high-quality news feature takes a newsroom team weeks: hunting for context, running statistics, choosing an angle, and designing visuals. Recent agents handle individual ...",
+      "venue": "arXiv",
+      "date": "2026-06-09",
+      "arxiv_id": "2606.11176v1",
+      "url": "https://arxiv.org/abs/2606.11176v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.11176v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.CL",
+        "cs.CY"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "ARM: An AutoRegressive Large Multimodal Model with Unified Discrete Representations",
+      "authors": "Junke Wang, Xiao Wang, Jiacheng Pan et al.",
+      "abstract": "This paper introduces ARM, a discrete representation-based AutoRegressive Model that unifies image understanding, generation, and editing within a next-token prediction framework. ARM is built on three efforts: first, we train a discrete semantic visual tokenizer that maps images into compact token ...",
+      "venue": "arXiv",
+      "date": "2026-06-09",
+      "arxiv_id": "2606.11188v1",
+      "url": "https://arxiv.org/abs/2606.11188v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.11188v1.pdf",
       "categories": [
         "cs.CV"
       ],
@@ -88,31 +72,30 @@
       "source": "arXiv"
     },
     {
-      "title": "MemoryVLA++: Temporal Modeling via Memory and Imagination in Vision-Language-Action Models",
-      "authors": "Hao Shi, Weiye Li, Bin Xie et al.",
-      "abstract": "Temporal modeling is essential for robotic manipulation, as effective control requires both memory of past interactions and imagination of future states. However, most VLA models rely primarily on the current observation and therefore struggle with long-horizon, temporally dependent tasks. Cognitive...",
+      "title": "Next Forcing: Causal World Modeling with Multi-Chunk Prediction",
+      "authors": "Gangwei Xu, Qihang Zhang, Jiaming Zhou et al.",
+      "abstract": "Autoregressive video generation has emerged as a powerful paradigm for World Action Models (WAMs). However, existing approaches suffer from slow training convergence and limited converged accuracy, particularly at high frame rates, as the training supervision is confined to the current chunk without...",
       "venue": "arXiv",
-      "date": "2026-06-08",
-      "arxiv_id": "2606.09827v1",
-      "url": "https://arxiv.org/abs/2606.09827v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.09827v1.pdf",
+      "date": "2026-06-09",
+      "arxiv_id": "2606.11187v1",
+      "url": "https://arxiv.org/abs/2606.11187v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.11187v1.pdf",
       "categories": [
-        "cs.RO",
         "cs.CV"
       ],
-      "type": "nlp",
+      "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Rethinking the Divergence Regularization in LLM RL",
-      "authors": "Jiarui Yao, Xiangxin Zhou, Penghui Qi et al.",
-      "abstract": "Reinforcement learning (RL) has become a key component of post-training large language models (LLMs). In practice, LLM RL is often off-policy because of training-inference mismatch and policy staleness, making trust-region control essential for stable optimization. Mainstream methods such as PPO and...",
+      "title": "When to Align, When to Predict: A Phase Diagram for Multimodal Learning",
+      "authors": "Ilay Kamai, Hugues Van Assel, Aviv Regev et al.",
+      "abstract": "Cross-modal alignment (CA) and cross-modal prediction (CP) are the dominant paradigms for multimodal representation learning, yet there is no systematic understanding of when each succeeds, when each fails, and when cross-modal training helps at all -- a gap that leaves practitioners, especially in ...",
       "venue": "arXiv",
-      "date": "2026-06-08",
-      "arxiv_id": "2606.09821v1",
-      "url": "https://arxiv.org/abs/2606.09821v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.09821v1.pdf",
+      "date": "2026-06-09",
+      "arxiv_id": "2606.11190v1",
+      "url": "https://arxiv.org/abs/2606.11190v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.11190v1.pdf",
       "categories": [
         "cs.LG"
       ],
@@ -121,19 +104,34 @@
       "source": "arXiv"
     },
     {
-      "title": "iMaC: Translating Actions into Motion and Contact Images for Embodied World Models",
-      "authors": "Zhenyu Wu, Xiuwei Xu, Yukun Zhou et al.",
-      "abstract": "Embodied world models have emerged as a pivotal paradigm for visual robotic decision-making and interactive environment simulation. However, conventional embodied frameworks rely on low-dimensional structured action vectors (e.g., joint angles and end-effector poses), which suffer from limited expre...",
+      "title": "TacForeSight: Force-Guided Tactile World Model for Contact-Rich Manipulation",
+      "authors": "Yujie Zang, Yuhang Zheng, Xian Nie et al.",
+      "abstract": "Contact-rich manipulation requires robots to continuously perceive and regulate evolving physical interactions under dynamic contact transitions or complex surface geometries. Recent imitation learning methods improve contact-aware control by incorporating tactile or force feedback, but they rarely ...",
       "venue": "arXiv",
-      "date": "2026-06-08",
-      "arxiv_id": "2606.09813v1",
-      "url": "https://arxiv.org/abs/2606.09813v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.09813v1.pdf",
+      "date": "2026-06-09",
+      "arxiv_id": "2606.11184v1",
+      "url": "https://arxiv.org/abs/2606.11184v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.11184v1.pdf",
       "categories": [
-        "cs.RO",
-        "cs.CV"
+        "cs.RO"
       ],
-      "type": "vision",
+      "type": "ai",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "JOIN: Anchor-Grasp-Conditioned Joining via Opposition, Inference, and Navigation for Bimanual Assistive Manipulation",
+      "authors": "Drake Moore, Matt Cheng, Xiang Zhi Tan et al.",
+      "abstract": "Assistive mobility and manipulation platforms have received increasing attention as a means of restoring independence to individuals with disabilities. While effective for many basic activities of daily living (ADLs), a significant percentage of everyday tasks such as opening a jar, pouring a liquid...",
+      "venue": "arXiv",
+      "date": "2026-06-09",
+      "arxiv_id": "2606.11151v1",
+      "url": "https://arxiv.org/abs/2606.11151v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.11151v1.pdf",
+      "categories": [
+        "cs.RO"
+      ],
+      "type": "ai",
       "badge": "arxiv",
       "source": "arXiv"
     }

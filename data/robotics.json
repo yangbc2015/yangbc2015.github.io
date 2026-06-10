@@ -3,6 +3,19 @@
   "count": 200,
   "items": [
     {
+      "title": "[具 身 智 能 规模化元年，人形机器人“卖不动、租得火”",
+      "summary": "[具 身 智 能 规模化元年，人形机器人“卖不动、租得火”",
+      "url": "http://36kr.com/p/3815911066099457",
+      "date": "2026-06-10",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "人形机器人"
+      ]
+    },
+    {
       "title": "[具 身 智 能 8小时被攻破，机器人“肉身”安全风险亟待补课",
       "summary": "[具 身 智 能 8小时被攻破，机器人“肉身”安全风险亟待补课",
       "url": "http://36kr.com/p/3835902318361221",
@@ -15,16 +28,83 @@
       ]
     },
     {
-      "title": "[具 身 智 能 规模化元年，人形机器人“卖不动、租得火”",
-      "summary": "[具 身 智 能 规模化元年，人形机器人“卖不动、租得火”",
-      "url": "http://36kr.com/p/3815911066099457",
-      "date": "2026-06-10",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
+      "title": "TacForeSight: Force-Guided Tactile World Model for Contact-Rich Manipulation",
+      "summary": "Contact-rich manipulation requires robots to continuously perceive and regulate evolving physical interactions under dynamic contact transitions or complex surface geometries. Recent imitation learning methods improve contact-aware control by incorpo...",
+      "url": "https://arxiv.org/abs/2606.11184v1",
+      "date": "2026-06-09",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.11184v1",
+      "authors": "Yujie Zang, Yuhang Zheng et al.",
       "tags": [
-        "机器人",
-        "人形机器人"
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "JOIN: Anchor-Grasp-Conditioned Joining via Opposition, Inference, and Navigation for Bimanual Assistive Manipulation",
+      "summary": "Assistive mobility and manipulation platforms have received increasing attention as a means of restoring independence to individuals with disabilities. While effective for many basic activities of daily living (ADLs), a significant percentage of ever...",
+      "url": "https://arxiv.org/abs/2606.11151v1",
+      "date": "2026-06-09",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.11151v1",
+      "authors": "Drake Moore, Matt Cheng et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "EM-Fall: Embodied mmWave Sensing for Day-and-Night Fall Detection on Humanoid Robots",
+      "summary": "Falls are one of the leading causes of injury and hospitalization among elderly individuals, making reliable fall awareness an essential capability for safety monitoring in residential environments. However, existing fall detection systems often rely...",
+      "url": "https://arxiv.org/abs/2606.11109v1",
+      "date": "2026-06-09",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.11109v1",
+      "authors": "Yanshuo Lu, Yuxuan Hu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "RoboNaldo: Accurate, Stable and Powerful Humanoid Soccer Shooting via Motion-Guided Curriculum Reinforcement Learning",
+      "summary": "Elite humanoid soccer shooting requires whole-body stability, high-impulse whole-body interactions, and accuracy to targets. Motion tracking-driven reinforcement learning (RL) provides stability in whole-body movement coordination, but a fixed refere...",
+      "url": "https://arxiv.org/abs/2606.11092v1",
+      "date": "2026-06-09",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.11092v1",
+      "authors": "Yichao Zhong, Yidan Lu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "A Distributed Multi-UGV Exploration Framework With Loop-Aware Planning and Descriptor-Aided Localization in Resource-Limited Environments",
+      "summary": "Robust and efficient cooperative exploration with multiple unmanned ground vehicles (UGVs) in unknown, GPSdenied, and bandwidth-limited environments without prior maps remains challenging, as localization drift degrades map consistency and induces re...",
+      "url": "https://arxiv.org/abs/2606.11088v1",
+      "date": "2026-06-09",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.11088v1",
+      "authors": "Zhiwei Li, Haiou Liu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
       ]
     },
     {
@@ -3012,86 +3092,6 @@
       "type": "paper",
       "arxiv_id": "2604.21914v1",
       "authors": "Songen Gu, Yuhang Zheng et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Task-Driven Co-Design of Heterogeneous Multi-Robot Systems",
-      "summary": "Designing multi-agent robotic systems requires reasoning across tightly coupled decisions spanning heterogeneous domains, including robot design, fleet composition, and planning. Much effort has been devoted to isolated improvements in these domains,...",
-      "url": "https://arxiv.org/abs/2604.21894v1",
-      "date": "2026-04-23",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2604.21894v1",
-      "authors": "Maximilian Stralz, Meshal Alharbi et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Hi-WM: Human-in-the-World-Model for Scalable Robot Post-Training",
-      "summary": "Post-training is essential for turning pretrained generalist robot policies into reliable task-specific controllers, but existing human-in-the-loop pipelines remain tied to physical execution: each correction requires robot time, scene setup, resets,...",
-      "url": "https://arxiv.org/abs/2604.21741v1",
-      "date": "2026-04-23",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2604.21741v1",
-      "authors": "Yaxuan Li, Zhongyi Zhou et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "A Case Study in Recovery of Drones using Discrete-Event Systems",
-      "summary": "Discrete-event systems and supervisory control theory provide a rigorous framework for specifying correct-by-construction behavior. However, their practical application to swarm robotics remains largely underexplored. In this paper, we investigate a ...",
-      "url": "https://arxiv.org/abs/2604.21740v1",
-      "date": "2026-04-23",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2604.21740v1",
-      "authors": "Liam P. Burns, Dayse M. Cavalcanti et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "PokeVLA: Empowering Pocket-Sized Vision-Language-Action Model with Comprehensive World Knowledge Guidance",
-      "summary": "Recent advances in Vision-Language-Action (VLA) models have opened new avenues for robot manipulation, yet existing methods exhibit limited efficiency and a lack of high-level knowledge and spatial awareness. To address these challenges, we propose P...",
-      "url": "https://arxiv.org/abs/2604.20834v1",
-      "date": "2026-04-22",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2604.20834v1",
-      "authors": "Yupeng Zheng, Xiang Li et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "A Hough transform approach to safety-aware scalar field mapping using Gaussian Processes",
-      "summary": "This paper presents a framework for mapping unknown scalar fields using a sensor-equipped autonomous robot operating in unsafe environments. The unsafe regions are defined as regions of high-intensity, where the field value exceeds a predefined safet...",
-      "url": "https://arxiv.org/abs/2604.20799v1",
-      "date": "2026-04-22",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2604.20799v1",
-      "authors": "Muzaffar Qureshi, Trivikram Satharasi et al.",
       "tags": [
         "机器人学习",
         "研究论文",
