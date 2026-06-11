@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-06-10",
+  "last_updated": "2026-06-11",
   "count": 200,
   "items": [
     {
       "title": "[工信部、国资委启动2026年度人形机器人与 具 身 智 能 实景实训专项行动",
       "summary": "[工信部、国资委启动2026年度人形机器人与 具 身 智 能 实景实训专项行动",
       "url": "http://36kr.com/p/3846712950934022",
-      "date": "2026-06-10",
+      "date": "2026-06-11",
       "source": "36氪",
       "category": "具身智能",
       "type": "news",
@@ -19,7 +19,7 @@
       "title": "[具 身 智 能 8小时被攻破，机器人“肉身”安全风险亟待补课",
       "summary": "[具 身 智 能 8小时被攻破，机器人“肉身”安全风险亟待补课",
       "url": "http://36kr.com/p/3835902318361221",
-      "date": "2026-06-10",
+      "date": "2026-06-11",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
@@ -118,6 +118,19 @@
         "机器人学习",
         "研究论文",
         "arXiv"
+      ]
+    },
+    {
+      "title": "具身智能真正的护城河是那片能自我造血的“物理底座”。",
+      "summary": "具身智能真正的护城河是那片能自我造血的“物理底座”。",
+      "url": "http://36kr.com/p/3845718430238983",
+      "date": "2026-06-09",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
       ]
     },
     {
@@ -3077,22 +3090,6 @@
       "type": "news",
       "tags": [
         "机器人"
-      ]
-    },
-    {
-      "title": "Long-Horizon Manipulation via Trace-Conditioned VLA Planning",
-      "summary": "Long-horizon manipulation remains challenging for vision-language-action (VLA) policies: real tasks are multi-step, progress-dependent, and brittle to compounding execution errors. We present LoHo-Manip, a modular framework that scales short-horizon ...",
-      "url": "https://arxiv.org/abs/2604.21924v1",
-      "date": "2026-04-23",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2604.21924v1",
-      "authors": "Isabella Liu, An-Chieh Cheng et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
       ]
     }
   ]
