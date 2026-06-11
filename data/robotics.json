@@ -3,19 +3,6 @@
   "count": 200,
   "items": [
     {
-      "title": "[具 身 智 能 规模化元年，人形机器人“卖不动、租得火”",
-      "summary": "[具 身 智 能 规模化元年，人形机器人“卖不动、租得火”",
-      "url": "http://36kr.com/p/3815911066099457",
-      "date": "2026-06-11",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "人形机器人"
-      ]
-    },
-    {
       "title": "[工信部、国资委启动2026年度人形机器人与 具 身 智 能 实景实训专项行动",
       "summary": "[工信部、国资委启动2026年度人形机器人与 具 身 智 能 实景实训专项行动",
       "url": "http://36kr.com/p/3846712950934022",
@@ -38,6 +25,112 @@
       "type": "news",
       "tags": [
         "机器人"
+      ]
+    },
+    {
+      "title": "[具 身 智 能 规模化元年，人形机器人“卖不动、租得火”",
+      "summary": "[具 身 智 能 规模化元年，人形机器人“卖不动、租得火”",
+      "url": "http://36kr.com/p/3815911066099457",
+      "date": "2026-06-11",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "人形机器人"
+      ]
+    },
+    {
+      "title": "FACTR 2: Learning External Force Sensing for Commodity Robot Arms Improves Policy Learning",
+      "summary": "Contact-rich manipulation requires force sensitivity, but many robot arms lack dedicated force sensors due to their high cost. We present Neural External Torque Estimation (NEXT), a data-driven method that estimates external joint torques without nee...",
+      "url": "https://arxiv.org/abs/2606.12406v1",
+      "date": "2026-06-10",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.12406v1",
+      "authors": "Steven Oh, Jason Jingzhou Liu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "World Pilot: Steering Vision-Language-Action Models with World-Action Priors",
+      "summary": "Vision-Language-Action (VLA) models inherit semantic grounding from large-scale pretraining and perform competently across in-distribution manipulation tasks. This grounding, however, is built on static image-text pairs, whereas manipulation is a con...",
+      "url": "https://arxiv.org/abs/2606.12403v1",
+      "date": "2026-06-10",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.12403v1",
+      "authors": "Zefu Lin, Rongxu Cui et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "DIRECT: When and Where Should You Allocate Test-Time Compute in Embodied Planners?",
+      "summary": "Vision-Language Models (VLMs) are increasingly deployed as high-level planners for embodied agents, with an emerging strategy of scaling test-time compute to improve capability. However, we observe that doing so increases latency, token usage, and FL...",
+      "url": "https://arxiv.org/abs/2606.12402v1",
+      "date": "2026-06-10",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.12402v1",
+      "authors": "Jadelynn Dao, Milan Ganai et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "VLGA: Vision-Language-Geometry-Action Models for Autonomous Driving",
+      "summary": "Vision-language-action (VLA) models can describe scenes and reason about them in language, yet still struggle to ground their actions in the dense 3D world around them. Existing approaches either inject features from a frozen 3D foundation model with...",
+      "url": "https://arxiv.org/abs/2606.12396v1",
+      "date": "2026-06-10",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.12396v1",
+      "authors": "Jin Yao, Dhruva Dixith Kurra et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Semantically-Aware Diver Activity Recognition Framework for Effective Underwater Multi-Human-Robot Collaboration",
+      "summary": "Effective multi-human-robot collaboration is essential for expanding human-led operations in the challenging and high-risk underwater environment. For autonomous underwater vehicles (AUVs) to become true teammates, they must be able to comprehend the...",
+      "url": "https://arxiv.org/abs/2606.12374v1",
+      "date": "2026-06-10",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.12374v1",
+      "authors": "Sadman Sakib Enan, Junaed Sattar",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "具身智能真正的护城河是那片能自我造血的“物理底座”。",
+      "summary": "具身智能真正的护城河是那片能自我造血的“物理底座”。",
+      "url": "http://36kr.com/p/3845718430238983",
+      "date": "2026-06-09",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
       ]
     },
     {
@@ -118,19 +211,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "具身智能真正的护城河是那片能自我造血的“物理底座”。",
-      "summary": "具身智能真正的护城河是那片能自我造血的“物理底座”。",
-      "url": "http://36kr.com/p/3845718430238983",
-      "date": "2026-06-09",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
       ]
     },
     {
@@ -3025,71 +3105,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "QDTraj: Exploration of Diverse Trajectory Primitives for Articulated Objects Robotic Manipulation",
-      "summary": "Thanks to the latest advances in learning and robotics, domestic robots are beginning to enter homes, aiming to execute household chores autonomously. However, robots still struggle to perform autonomous manipulation tasks in open-ended environments....",
-      "url": "https://arxiv.org/abs/2604.22551v1",
-      "date": "2026-04-24",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2604.22551v1",
-      "authors": "Mathilde Kappel, Mahdi Khoramshahi et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "[36氪首发 | 电磁零部件厂商获数千万元融资，产品已规模化上车，同时布局 具 身 智 能 机器人",
-      "summary": "[36氪首发 | 电磁零部件厂商获数千万元融资，产品已规模化上车，同时布局 具 身 智 能 机器人",
-      "url": "http://36kr.com/p/3778732502095106",
-      "date": "2026-04-24",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
-      ]
-    },
-    {
-      "title": "[科氪 | 享刻智能：不追人形机器人，深耕餐饮场景做 具 身 智 能 落地派",
-      "summary": "[科氪 | 享刻智能：不追人形机器人，深耕餐饮场景做 具 身 智 能 落地派",
-      "url": "http://36kr.com/p/3770651778761481",
-      "date": "2026-04-24",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "人形机器人"
-      ]
-    },
-    {
-      "title": "技术竞争从云到AI，再到机器人，对于头部的企业来说几乎是一脉相承。",
-      "summary": "技术竞争从云到AI，再到机器人，对于头部的企业来说几乎是一脉相承。",
-      "url": "http://36kr.com/p/3778896124948992",
-      "date": "2026-04-23",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
-      ]
-    },
-    {
-      "title": "荣耀机器人马拉松夺冠，冲击行业格局。",
-      "summary": "荣耀机器人马拉松夺冠，冲击行业格局。",
-      "url": "http://36kr.com/p/3778796399858953",
-      "date": "2026-04-23",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
       ]
     }
   ]
