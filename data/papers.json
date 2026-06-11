@@ -1,42 +1,7 @@
 {
   "last_updated": "2026-06-11",
-  "count": 6,
+  "count": 2,
   "items": [
-    {
-      "title": "Reroute, Don't Remove: Recoverable Visual Token Routing for Vision-Language Models",
-      "authors": "Cheng-Yu Yang, Shao-Yuan Lo, Yu-Lun Liu",
-      "abstract": "Vision-language models (VLMs) project images into hundreds to thousands of visual tokens, making decoder inference expensive in both attention computation and KV-cache memory. Existing visual-token reduction methods largely follow a rank-and-remove paradigm: they score visual tokens, keep a compact ...",
-      "venue": "arXiv",
-      "date": "2026-06-10",
-      "arxiv_id": "2606.12412v1",
-      "url": "https://arxiv.org/abs/2606.12412v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.12412v1.pdf",
-      "categories": [
-        "cs.CV",
-        "cs.AI"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "FACTR 2: Learning External Force Sensing for Commodity Robot Arms Improves Policy Learning",
-      "authors": "Steven Oh, Jason Jingzhou Liu, Tony Tao et al.",
-      "abstract": "Contact-rich manipulation requires force sensitivity, but many robot arms lack dedicated force sensors due to their high cost. We present Neural External Torque Estimation (NEXT), a data-driven method that estimates external joint torques without needing any dedicated force sensors. NEXT trains in 1...",
-      "venue": "arXiv",
-      "date": "2026-06-10",
-      "arxiv_id": "2606.12406v1",
-      "url": "https://arxiv.org/abs/2606.12406v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.12406v1.pdf",
-      "categories": [
-        "cs.RO",
-        "cs.AI",
-        "cs.LG"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
     {
       "title": "Context-Driven Incremental Compression for Multi-Turn Dialogue Generation",
       "authors": "Yeongseo Jung, Jaehyeok Kim, Eunseo Jung et al.",
@@ -66,38 +31,6 @@
       "categories": [
         "cs.CL",
         "cs.IR"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "How Seemingly Inconsequential Design Choices Dictate Performance of LLMs in Pathology",
-      "authors": "Kian R. Weihrauch, Thomas A. Buckley, William Lotter et al.",
-      "abstract": "General-purpose large language models (LLMs) are routinely used as baselines when evaluating specialized pathology models on whole-slide images (WSIs). Because WSIs exceed contemporary model context limits, LLM baselines routinely use small, high-magnification patches processed independently via maj...",
-      "venue": "arXiv",
-      "date": "2026-06-10",
-      "arxiv_id": "2606.12407v1",
-      "url": "https://arxiv.org/abs/2606.12407v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.12407v1.pdf",
-      "categories": [
-        "cs.CV"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "World Pilot: Steering Vision-Language-Action Models with World-Action Priors",
-      "authors": "Zefu Lin, Rongxu Cui, Junjia Xu et al.",
-      "abstract": "Vision-Language-Action (VLA) models inherit semantic grounding from large-scale pretraining and perform competently across in-distribution manipulation tasks. This grounding, however, is built on static image-text pairs, whereas manipulation is a continuous, contact-rich process whose dynamics this ...",
-      "venue": "arXiv",
-      "date": "2026-06-10",
-      "arxiv_id": "2606.12403v1",
-      "url": "https://arxiv.org/abs/2606.12403v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.12403v1.pdf",
-      "categories": [
-        "cs.RO"
       ],
       "type": "nlp",
       "badge": "arxiv",
