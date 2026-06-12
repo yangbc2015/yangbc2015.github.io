@@ -3,16 +3,16 @@
   "count": 6,
   "items": [
     {
-      "title": "Reroute, Don't Remove: Recoverable Visual Token Routing for Vision-Language Models",
-      "authors": "Cheng-Yu Yang, Shao-Yuan Lo, Yu-Lun Liu",
-      "abstract": "Vision-language models (VLMs) project images into hundreds to thousands of visual tokens, making decoder inference expensive in both attention computation and KV-cache memory. Existing visual-token reduction methods largely follow a rank-and-remove paradigm: they score visual tokens, keep a compact ...",
+      "title": "Learning to Reason by Analogy via Retrieval-Augmented Reinforcement Fine-Tuning",
+      "authors": "Zilin Xiao, Qi Ma, Chun-cheng Jason Chen et al.",
+      "abstract": "Retrieval-augmented generation (RAG) has become a standard mechanism for grounding language models in external knowledge, yet conventional retrieval based on lexical or semantic similarity is poorly suited for complex reasoning tasks: a semantically similar problem may demand an entirely different s...",
       "venue": "arXiv",
-      "date": "2026-06-10",
-      "arxiv_id": "2606.12412v1",
-      "url": "https://arxiv.org/abs/2606.12412v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.12412v1.pdf",
+      "date": "2026-06-11",
+      "arxiv_id": "2606.13680v1",
+      "url": "https://arxiv.org/abs/2606.13680v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.13680v1.pdf",
       "categories": [
-        "cs.CV",
+        "cs.CL",
         "cs.AI"
       ],
       "type": "nlp",
@@ -20,66 +20,48 @@
       "source": "arXiv"
     },
     {
-      "title": "FACTR 2: Learning External Force Sensing for Commodity Robot Arms Improves Policy Learning",
-      "authors": "Steven Oh, Jason Jingzhou Liu, Tony Tao et al.",
-      "abstract": "Contact-rich manipulation requires force sensitivity, but many robot arms lack dedicated force sensors due to their high cost. We present Neural External Torque Estimation (NEXT), a data-driven method that estimates external joint torques without needing any dedicated force sensors. NEXT trains in 1...",
+      "title": "Mana: Dexterous Manipulation of Articulated Tools",
+      "authors": "Zhao-Heng Yin, Guanya Shi, Pieter Abbeel et al.",
+      "abstract": "Articulated tool manipulation remains a major challenge in dexterous robotics due to the need to coordinate internal degrees of freedom and contact-rich interactions. While prior work has largely focused on rigid objects, articulated tool use remains underexplored because of its physical complexity ...",
       "venue": "arXiv",
-      "date": "2026-06-10",
-      "arxiv_id": "2606.12406v1",
-      "url": "https://arxiv.org/abs/2606.12406v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.12406v1.pdf",
+      "date": "2026-06-11",
+      "arxiv_id": "2606.13677v1",
+      "url": "https://arxiv.org/abs/2606.13677v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.13677v1.pdf",
       "categories": [
         "cs.RO",
         "cs.AI",
-        "cs.LG"
+        "cs.CV"
       ],
-      "type": "ml",
+      "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Context-Driven Incremental Compression for Multi-Turn Dialogue Generation",
-      "authors": "Yeongseo Jung, Jaehyeok Kim, Eunseo Jung et al.",
-      "abstract": "Modern conversational agents condition on an ever-growing dialogue history at each turn, incurring redundant attention and encoding costs that grow with conversation length. Naive truncation or summarization degrades fidelity, while existing context compressors lack cross-turn memory sharing or revi...",
+      "title": "EvoArena: Tracking Memory Evolution for Robust LLM Agents in Dynamic Environments",
+      "authors": "Jundong Xu, Qingchuan Li, Jiaying Wu et al.",
+      "abstract": "Large language model (LLM) agents have achieved strong performance on a wide range of benchmarks, yet most evaluations assume static environments. In contrast, real-world deployment is inherently dynamic, requiring agents to continually align their knowledge, skills, and behavior with changing envir...",
       "venue": "arXiv",
-      "date": "2026-06-10",
-      "arxiv_id": "2606.12411v1",
-      "url": "https://arxiv.org/abs/2606.12411v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.12411v1.pdf",
+      "date": "2026-06-11",
+      "arxiv_id": "2606.13681v1",
+      "url": "https://arxiv.org/abs/2606.13681v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.13681v1.pdf",
       "categories": [
-        "cs.CL",
-        "cs.LG"
+        "cs.CL"
       ],
       "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Doc-to-Atom: Learning to Compile and Compose Memory Atoms",
-      "authors": "Xingjian Diao, Wenbo Li, Yashas Malur Saidutta et al.",
-      "abstract": "Long input sequences are central to document understanding and multi-step reasoning in Large Language Models, yet the quadratic cost of attention makes inference both memory-intensive and slow. Context distillation mitigates this by compressing contextual information into model parameters, and recen...",
+      "title": "InterleaveThinker: Reinforcing Agentic Interleaved Generation",
+      "authors": "Dian Zheng, Harry Lee, Manyuan Zhang et al.",
+      "abstract": "Recent image generators have demonstrated impressive photorealism and instruction-following capabilities in single-image generation and editing. However, constrained by their architectures, they cannot achieve interleaved generation (text-image sequence), which has crucial applications in visual nar...",
       "venue": "arXiv",
-      "date": "2026-06-10",
-      "arxiv_id": "2606.12400v1",
-      "url": "https://arxiv.org/abs/2606.12400v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.12400v1.pdf",
-      "categories": [
-        "cs.CL",
-        "cs.IR"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "How Seemingly Inconsequential Design Choices Dictate Performance of LLMs in Pathology",
-      "authors": "Kian R. Weihrauch, Thomas A. Buckley, William Lotter et al.",
-      "abstract": "General-purpose large language models (LLMs) are routinely used as baselines when evaluating specialized pathology models on whole-slide images (WSIs). Because WSIs exceed contemporary model context limits, LLM baselines routinely use small, high-magnification patches processed independently via maj...",
-      "venue": "arXiv",
-      "date": "2026-06-10",
-      "arxiv_id": "2606.12407v1",
-      "url": "https://arxiv.org/abs/2606.12407v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.12407v1.pdf",
+      "date": "2026-06-11",
+      "arxiv_id": "2606.13679v1",
+      "url": "https://arxiv.org/abs/2606.13679v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.13679v1.pdf",
       "categories": [
         "cs.CV"
       ],
@@ -88,18 +70,34 @@
       "source": "arXiv"
     },
     {
-      "title": "World Pilot: Steering Vision-Language-Action Models with World-Action Priors",
-      "authors": "Zefu Lin, Rongxu Cui, Junjia Xu et al.",
-      "abstract": "Vision-Language-Action (VLA) models inherit semantic grounding from large-scale pretraining and perform competently across in-distribution manipulation tasks. This grounding, however, is built on static image-text pairs, whereas manipulation is a continuous, contact-rich process whose dynamics this ...",
+      "title": "Understanding Truncated Positional Encodings for Graph Neural Networks",
+      "authors": "James Flora, Mitchell Black, Weng-Keen Wong et al.",
+      "abstract": "Positional encodings (PEs) enhance the power of graph neural networks (GNNs), both theoretically and empirically. Two of the most popular families of PEs - spectral (e.g., Laplacian eigenspaces, effective resistance) and walk-based (polynomials of the adjacency matrix) - are theoretically equivalent...",
       "venue": "arXiv",
-      "date": "2026-06-10",
-      "arxiv_id": "2606.12403v1",
-      "url": "https://arxiv.org/abs/2606.12403v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.12403v1.pdf",
+      "date": "2026-06-11",
+      "arxiv_id": "2606.13671v1",
+      "url": "https://arxiv.org/abs/2606.13671v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.13671v1.pdf",
+      "categories": [
+        "cs.LG"
+      ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Improving Robotic Generalist Policies via Flow Reversal Steering",
+      "authors": "Andy Tang, William Chen, Andrew Wagenmaker et al.",
+      "abstract": "Generalist policies can learn a wide range of skills from diverse robot datasets. In order to solve or improve on challenging news tasks, we need a way to infer and invoke the appropriate actions from the policy's rich behavioral prior, especially when directly commanding the policy fails. We focus ...",
+      "venue": "arXiv",
+      "date": "2026-06-11",
+      "arxiv_id": "2606.13675v1",
+      "url": "https://arxiv.org/abs/2606.13675v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.13675v1.pdf",
       "categories": [
         "cs.RO"
       ],
-      "type": "nlp",
+      "type": "ai",
       "badge": "arxiv",
       "source": "arXiv"
     }
