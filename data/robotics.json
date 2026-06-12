@@ -3,6 +3,43 @@
   "count": 200,
   "items": [
     {
+      "title": "[BEV 杀入 具 身 智 能：跨维把机器人数据带上 Scaling 快车道",
+      "summary": "[BEV 杀入 具 身 智 能：跨维把机器人数据带上 Scaling 快车道",
+      "url": "http://36kr.com/p/3849567168959753",
+      "date": "2026-06-12",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
+      "title": "[工信部、国资委启动2026年度人形机器人与 具 身 智 能 实景实训专项行动",
+      "summary": "[工信部、国资委启动2026年度人形机器人与 具 身 智 能 实景实训专项行动",
+      "url": "http://36kr.com/p/3846712950934022",
+      "date": "2026-06-12",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "人形机器人"
+      ]
+    },
+    {
+      "title": "[具 身 智 能 8小时被攻破，机器人“肉身”安全风险亟待补课",
+      "summary": "[具 身 智 能 8小时被攻破，机器人“肉身”安全风险亟待补课",
+      "url": "http://36kr.com/p/3835902318361221",
+      "date": "2026-06-12",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
       "title": "Figure AI发布新一代人形机器人Figure 02，具备更强的自主学习能力",
       "summary": "Figure AI发布新一代人形机器人Figure 02，搭载最新视觉-语言-动作(VLA)模型，在工厂和仓储场景实现更高水平的自主操作。",
       "url": "https://www.figure.ai",
@@ -153,6 +190,22 @@
       ]
     },
     {
+      "title": "LabVLA: Grounding Vision-Language-Action Models in Scientific Laboratories",
+      "summary": "Scientific laboratories increasingly rely on AI systems to reason about experiments, but the physical act of doing science remains largely outside their reach. AI can help read literature, generate hypotheses, and plan protocols, yet the execution of...",
+      "url": "https://arxiv.org/abs/2606.13578v1",
+      "date": "2026-06-11",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.13578v1",
+      "authors": "Baochang Ren, Xinjie Liu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
       "title": "[具 身 智 能 规模化元年，人形机器人“卖不动、租得火”",
       "summary": "[具 身 智 能 规模化元年，人形机器人“卖不动、租得火”",
       "url": "http://36kr.com/p/3815911066099457",
@@ -166,28 +219,17 @@
       ]
     },
     {
-      "title": "[工信部、国资委启动2026年度人形机器人与 具 身 智 能 实景实训专项行动",
-      "summary": "[工信部、国资委启动2026年度人形机器人与 具 身 智 能 实景实训专项行动",
+      "title": "两部委启动2026人形机器人与具身智能实景实训专项行动",
+      "summary": "两部委启动2026人形机器人与具身智能实景实训专项行动",
       "url": "http://36kr.com/p/3846712950934022",
-      "date": "2026-06-11",
+      "date": "2026-06-10",
       "source": "36氪",
       "category": "具身智能",
       "type": "news",
       "tags": [
         "机器人",
+        "具身智能",
         "人形机器人"
-      ]
-    },
-    {
-      "title": "[具 身 智 能 8小时被攻破，机器人“肉身”安全风险亟待补课",
-      "summary": "[具 身 智 能 8小时被攻破，机器人“肉身”安全风险亟待补课",
-      "url": "http://36kr.com/p/3835902318361221",
-      "date": "2026-06-11",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
       ]
     },
     {
@@ -268,20 +310,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "两部委启动2026人形机器人与具身智能实景实训专项行动",
-      "summary": "两部委启动2026人形机器人与具身智能实景实训专项行动",
-      "url": "http://36kr.com/p/3846712950934022",
-      "date": "2026-06-10",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能",
-        "人形机器人"
       ]
     },
     {
@@ -3070,38 +3098,6 @@
       "type": "paper",
       "arxiv_id": "2604.24681v1",
       "authors": "Yifan Xie, YuAn Wang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Pushing Radar Odometry Beyond the Pavement: Current Capabilities and Challenges",
-      "summary": "Radar offers unique advantages for localization in unstructured environments, including robustness to weather, lighting, and airborne particulates. While most prior work has studied radar odometry in urban, largely planar settings, its performance in...",
-      "url": "https://arxiv.org/abs/2604.24674v1",
-      "date": "2026-04-27",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2604.24674v1",
-      "authors": "Shaunak Kolhe, Peng Jiang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Agent-Centric Visual Reinforcement Learning under Dynamic Perturbations",
-      "summary": "Visual reinforcement learning aims to empower an agent to learn policies from visual observations, yet it remains vulnerable to dynamic visual perturbations, such as unpredictable shifts in corruption types. To systematically study this, we introduce...",
-      "url": "https://arxiv.org/abs/2604.24661v1",
-      "date": "2026-04-27",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2604.24661v1",
-      "authors": "Zhengru Fang, Yu Guo et al.",
       "tags": [
         "机器人学习",
         "研究论文",
