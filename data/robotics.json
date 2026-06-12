@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-11",
+  "last_updated": "2026-06-12",
   "count": 200,
   "items": [
     {
@@ -118,6 +118,20 @@
         "机器人学习",
         "研究论文",
         "arXiv"
+      ]
+    },
+    {
+      "title": "两部委启动2026人形机器人与具身智能实景实训专项行动",
+      "summary": "两部委启动2026人形机器人与具身智能实景实训专项行动",
+      "url": "http://36kr.com/p/3846712950934022",
+      "date": "2026-06-10",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能",
+        "人形机器人"
       ]
     },
     {
@@ -3085,22 +3099,6 @@
       "type": "paper",
       "arxiv_id": "2604.22615v1",
       "authors": "Chengyang Li, Kaiyi Xiong et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "RedVLA: Physical Red Teaming for Vision-Language-Action Models",
-      "summary": "The real-world deployment of Vision-Language-Action (VLA) models remains limited by the risk of unpredictable and irreversible physical harm. However, we currently lack effective mechanisms to proactively detect these physical safety risks before dep...",
-      "url": "https://arxiv.org/abs/2604.22591v1",
-      "date": "2026-04-24",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2604.22591v1",
-      "authors": "Yuhao Zhang, Borong Zhang et al.",
       "tags": [
         "机器人学习",
         "研究论文",

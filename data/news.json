@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-06-11",
+  "last_updated": "2026-06-12",
   "count": 200,
-  "history_count": 200,
+  "history_count": 205,
   "retention_days": 30,
   "items": [
     {
       "title": "聪明人总能花最少的钱办最好的事，AI也一样。",
       "link": "https://www.qbitai.com/?s=聪明人总能花最少的钱",
       "summary": "聪明人总能花最少的钱办最好的事，AI也一样。...",
-      "date": "2026-06-11",
+      "date": "2026-06-12",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -20,7 +20,7 @@
       "title": "Claude刚刚发布的新模型Fable 5，很多人可能压根就用不上！",
       "link": "https://www.qbitai.com/?s=Claude刚刚发布",
       "summary": "Claude刚刚发布的新模型Fable 5，很多人可能压根就用不上！...",
-      "date": "2026-06-11",
+      "date": "2026-06-12",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -32,7 +32,7 @@
       "title": "看12位抖音创作者如何”翻译“AI",
       "link": "https://www.qbitai.com/?s=看12位抖音创作者如",
       "summary": "看12位抖音创作者如何”翻译“AI...",
-      "date": "2026-06-11",
+      "date": "2026-06-12",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -44,7 +44,7 @@
       "title": "本文为量子位获授权转载，观点仅为原作者所有。",
       "link": "https://www.qbitai.com/?s=本文为量子位获授权转",
       "summary": "本文为量子位获授权转载，观点仅为原作者所有。...",
-      "date": "2026-06-11",
+      "date": "2026-06-12",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -56,8 +56,92 @@
       "title": "AI创作新时代，英特尔锐炫™ Pro B70 GPU 释放专业算力潜能",
       "link": "https://www.qbitai.com/?s=AI创作新时代，英特",
       "summary": "AI创作新时代，英特尔锐炫™ Pro B70 GPU 释放专业算力潜能...",
-      "date": "2026-06-11",
+      "date": "2026-06-12",
       "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "*   [Latest](http://techcrunch.com/latest/)",
+      "link": "https://techcrunch.com/category/artificial-intelligence/",
+      "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
+      "date": "2026-06-12",
+      "source": "TechCrunch",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "Artificial Intelligence"
+      ]
+    },
+    {
+      "title": "Markdown Content:",
+      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+      "summary": "Markdown Content:...",
+      "date": "2026-06-11",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "ACM博士论文奖出炉：纽约大学刘书亮，曾是三届IMO金牌得主",
+      "link": "https://www.jiqizhixin.com/search/articles/ACM博士论文奖出炉：纽约大学",
+      "summary": "ACM博士论文奖出炉：纽约大学刘书亮，曾是三届IMO金牌得主...",
+      "date": "2026-06-11",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "NEWTON:从「等物理涌现」到「请牛顿进工具箱」，Agent 驱动的视频生成新范式",
+      "link": "https://www.jiqizhixin.com/search/articles/NEWTON:从「等物理涌现」",
+      "summary": "NEWTON:从「等物理涌现」到「请牛顿进工具箱」，Agent 驱动的视频生成新范式...",
+      "date": "2026-06-11",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "通向AGI的关键拼图！首篇多模态大模型「音频推理」综述出炉，万字拆解四大前沿路径",
+      "link": "https://www.jiqizhixin.com/search/articles/通向AGI的关键拼图！首篇多模",
+      "summary": "通向AGI的关键拼图！首篇多模态大模型「音频推理」综述出炉，万字拆解四大前沿路径...",
+      "date": "2026-06-11",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "WAIC 连接 | 告别大海捞针！WAIC 2026专业采购团招募，让供需精准咬合",
+      "link": "https://www.jiqizhixin.com/search/articles/WAIC 连接 | 告别大海捞",
+      "summary": "WAIC 连接 | 告别大海捞针！WAIC 2026专业采购团招募，让供需精准咬合...",
+      "date": "2026-06-11",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "Anthropic宣告「递归自我提升」时代到来，LLM如何实现自我进化？全景综述带你一探究竟",
+      "link": "https://www.jiqizhixin.com/search/articles/Anthropic宣告「递归自",
+      "summary": "Anthropic宣告「递归自我提升」时代到来，LLM如何实现自我进化？全景综述带你一探究竟...",
+      "date": "2026-06-11",
+      "source": "机器之心",
       "type": "industry",
       "tags": [
         "AI",
@@ -74,18 +158,6 @@
       "tags": [
         "AI",
         "人工智能"
-      ]
-    },
-    {
-      "title": "*   [Latest](http://techcrunch.com/latest/)",
-      "link": "https://techcrunch.com/category/artificial-intelligence/",
-      "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
-      "date": "2026-06-11",
-      "source": "TechCrunch",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "Artificial Intelligence"
       ]
     },
     {
@@ -140,18 +212,6 @@
       "title": "AI交互新基准！蚂蚁提出MiniAppBench并入选ICML 2026 Spotlight",
       "link": "https://www.jiqizhixin.com/search/articles/AI交互新基准！蚂蚁提出Min",
       "summary": "AI交互新基准！蚂蚁提出MiniAppBench并入选ICML 2026 Spotlight...",
-      "date": "2026-06-10",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Markdown Content:",
-      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-      "summary": "Markdown Content:...",
       "date": "2026-06-10",
       "source": "机器之心",
       "type": "industry",
@@ -2338,66 +2398,6 @@
       "summary": "联发科正在成为智能体化体验落地的全栈赋能者...",
       "date": "2026-05-19",
       "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "王云鹤眼中的Harness：复杂优化问题，AGI灵魂争夺之战",
-      "link": "https://www.jiqizhixin.com/search/articles/王云鹤眼中的Harness：复",
-      "summary": "王云鹤眼中的Harness：复杂优化问题，AGI灵魂争夺之战...",
-      "date": "2026-05-18",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "ICML 2026 | 只用少量Thinking Tokens，大模型依然能深度思考",
-      "link": "https://www.jiqizhixin.com/search/articles/ICML 2026 | 只用少",
-      "summary": "ICML 2026 | 只用少量Thinking Tokens，大模型依然能深度思考...",
-      "date": "2026-05-18",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "断崖第一！深度机智Z-WM再夺WorldArena冠军",
-      "link": "https://www.jiqizhixin.com/search/articles/断崖第一！深度机智Z-WM再夺",
-      "summary": "断崖第一！深度机智Z-WM再夺WorldArena冠军...",
-      "date": "2026-05-18",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "ICML 2026 ｜让大模型边想边说：这篇文章把「何时开口」变成可学习策略",
-      "link": "https://www.jiqizhixin.com/search/articles/ICML 2026 ｜让大模型",
-      "summary": "ICML 2026 ｜让大模型边想边说：这篇文章把「何时开口」变成可学习策略...",
-      "date": "2026-05-18",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "瞄准空间智能核心资源：如祺出行发布AI数据版图，以高价值场景数据切入世界模型训练",
-      "link": "https://www.jiqizhixin.com/search/articles/瞄准空间智能核心资源：如祺出行",
-      "summary": "瞄准空间智能核心资源：如祺出行发布AI数据版图，以高价值场景数据切入世界模型训练...",
-      "date": "2026-05-18",
-      "source": "机器之心",
       "type": "industry",
       "tags": [
         "AI",
