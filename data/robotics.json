@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-06-13",
+  "last_updated": "2026-06-14",
   "count": 200,
   "items": [
     {
       "title": "[BEV 杀入 具 身 智 能：跨维把机器人数据带上 Scaling 快车道",
       "summary": "[BEV 杀入 具 身 智 能：跨维把机器人数据带上 Scaling 快车道",
       "url": "http://36kr.com/p/3849567168959753",
-      "date": "2026-06-13",
+      "date": "2026-06-14",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
@@ -18,7 +18,7 @@
       "title": "[工信部、国资委启动2026年度人形机器人与 具 身 智 能 实景实训专项行动",
       "summary": "[工信部、国资委启动2026年度人形机器人与 具 身 智 能 实景实训专项行动",
       "url": "http://36kr.com/p/3846712950934022",
-      "date": "2026-06-13",
+      "date": "2026-06-14",
       "source": "36氪",
       "category": "具身智能",
       "type": "news",
@@ -32,6 +32,18 @@
       "summary": "[具 身 智 能 8小时被攻破，机器人“肉身”安全风险亟待补课",
       "url": "http://36kr.com/p/3835902318361221",
       "date": "2026-06-13",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
+      "title": "把视觉输入、机器人状态和目标动作，对齐到同一个参考系里，让机器人数据第一次真正具备可规模化训练的空间底座。",
+      "summary": "把视觉输入、机器人状态和目标动作，对齐到同一个参考系里，让机器人数据第一次真正具备可规模化训练的空间底座。",
+      "url": "http://36kr.com/p/3849567168959753",
+      "date": "2026-06-12",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
@@ -3082,22 +3094,6 @@
       "type": "paper",
       "arxiv_id": "2604.24706v1",
       "authors": "Tobias A. Farger, Adam W. Hall et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Learning Human-Intention Priors from Large-Scale Human Demonstrations for Robotic Manipulation",
-      "summary": "Human videos contain rich manipulation priors, but using them for robot learning remains difficult because raw observations entangle scene understanding, human motion, and embodiment-specific action. We introduce MoT-HRA, a hierarchical vision-langua...",
-      "url": "https://arxiv.org/abs/2604.24681v1",
-      "date": "2026-04-27",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2604.24681v1",
-      "authors": "Yifan Xie, YuAn Wang et al.",
       "tags": [
         "机器人学习",
         "研究论文",
