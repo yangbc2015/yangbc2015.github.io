@@ -1,6 +1,6 @@
 {
-  "date": "2026-06-14",
-  "last_updated": "2026-06-14",
+  "date": "2026-06-15",
+  "last_updated": "2026-06-15",
   "categories": {
     "ai": {
       "name": "人工智能",
@@ -8,10 +8,10 @@
       "count": 5,
       "items": [
         {
-          "title": "突发！美国政府禁止外国人使用Claude Fable 5",
-          "link": "https://www.jiqizhixin.com/search/articles/突发！美国政府禁止外国人使用C",
-          "summary": "突发！美国政府禁止外国人使用Claude Fable 5...",
-          "date": "2026-06-13",
+          "title": "Markdown Content:",
+          "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+          "summary": "Markdown Content:...",
+          "date": "2026-06-14",
           "source": "机器之心",
           "type": "industry",
           "tags": [
@@ -20,10 +20,10 @@
           ]
         },
         {
-          "title": "交白卷也排第一？Fable 5二百题全部拒答，却登顶最严AI编程基准",
-          "link": "https://www.jiqizhixin.com/search/articles/交白卷也排第一？Fable 5",
-          "summary": "交白卷也排第一？Fable 5二百题全部拒答，却登顶最严AI编程基准...",
-          "date": "2026-06-13",
+          "title": "Claude Fable 5四日惊魂",
+          "link": "https://www.jiqizhixin.com/search/articles/Claude Fable 5四",
+          "summary": "Claude Fable 5四日惊魂...",
+          "date": "2026-06-14",
           "source": "机器之心",
           "type": "industry",
           "tags": [
@@ -32,11 +32,11 @@
           ]
         },
         {
-          "title": "马斯克成人类历史首位万亿美金富豪",
-          "link": "https://www.qbitai.com/?s=马斯克成人类历史首位",
-          "summary": "马斯克成人类历史首位万亿美金富豪...",
+          "title": "BudgetMem：给Runtime Agent Memory装上「预算路由器」，让记忆系统学会按需分配运行成本",
+          "link": "https://www.jiqizhixin.com/search/articles/BudgetMem：给Runt",
+          "summary": "BudgetMem：给Runtime Agent Memory装上「预算路由器」，让记忆系统学会按需分配运行成本...",
           "date": "2026-06-14",
-          "source": "量子位",
+          "source": "机器之心",
           "type": "industry",
           "tags": [
             "AI",
@@ -44,11 +44,11 @@
           ]
         },
         {
-          "title": "聪明人总能花最少的钱办最好的事，AI也一样。",
-          "link": "https://www.qbitai.com/?s=聪明人总能花最少的钱",
-          "summary": "聪明人总能花最少的钱办最好的事，AI也一样。...",
+          "title": "AI圈懵了：一家巴西市政IT公司开源的大模型，杀进了全球第一梯队",
+          "link": "https://www.jiqizhixin.com/search/articles/AI圈懵了：一家巴西市政IT公",
+          "summary": "AI圈懵了：一家巴西市政IT公司开源的大模型，杀进了全球第一梯队...",
           "date": "2026-06-14",
-          "source": "量子位",
+          "source": "机器之心",
           "type": "industry",
           "tags": [
             "AI",
@@ -56,11 +56,11 @@
           ]
         },
         {
-          "title": "Claude刚刚发布的新模型Fable 5，很多人可能压根就用不上！",
-          "link": "https://www.qbitai.com/?s=Claude刚刚发布",
-          "summary": "Claude刚刚发布的新模型Fable 5，很多人可能压根就用不上！...",
+          "title": "图片越糊越危险？西湖大学发现多模态大模型「攻击舒适区」",
+          "link": "https://www.jiqizhixin.com/search/articles/图片越糊越危险？西湖大学发现多",
+          "summary": "图片越糊越危险？西湖大学发现多模态大模型「攻击舒适区」...",
           "date": "2026-06-14",
-          "source": "量子位",
+          "source": "机器之心",
           "type": "industry",
           "tags": [
             "AI",
