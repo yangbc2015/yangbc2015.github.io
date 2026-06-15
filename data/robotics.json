@@ -40,6 +40,86 @@
       ]
     },
     {
+      "title": "Instruct-Particulate: Scaling Feed-Forward 3D Object Articulation with Kinematic Control",
+      "summary": "Reconstructing articulated 3D objects is important for animation, gaming, and robotic simulations. Recent neural networks can estimate the articulated structure of 3D objects, but their generalization remains limited by the scarcity of annotated data...",
+      "url": "https://arxiv.org/abs/2606.14699v1",
+      "date": "2026-06-12",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.14699v1",
+      "authors": "Ruining Li, Yuxin Yao et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "EgoGuide: Egocentric Guidance for Efficient Robot-Free Demonstration Collection and Learning",
+      "summary": "Robot learning from real-world demonstrations is currently constrained by data scaling. Universal Manipulation Interface (UMI) provides an efficient robot-free data collection interface, yet current UMI-style pipelines often collect redundant demonst...",
+      "url": "https://arxiv.org/abs/2606.14665v1",
+      "date": "2026-06-12",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.14665v1",
+      "authors": "Yue Xu, Mingtao Nie et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Whole-Body Impedance Model Predictive Control for Safe Physical Human--Robot Interaction on Floating-Base Platforms",
+      "summary": "Floating-base robots must balance under rigid contact constraints while interacting safely with humans. Existing whole-body control~(WBC) frameworks allocate the full joint space to locomotion or rely on fixed-gain impedance feedback that accumulates...",
+      "url": "https://arxiv.org/abs/2606.14617v1",
+      "date": "2026-06-12",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.14617v1",
+      "authors": "Yongyan Cao",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Safe Reinforcement Learning of Autonomous Highway Driving: A Unified Framework for Safety and Efficiency",
+      "summary": "Deep reinforcement learning (DRL) offers a compelling route to decision-making for advanced autonomous vehicles (AVs), yet its trial-and-error nature makes it difficult to guarantee safety during training and to achieve both safety and efficiency at ...",
+      "url": "https://arxiv.org/abs/2606.14609v1",
+      "date": "2026-06-12",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.14609v1",
+      "authors": "Chufei Yan, Zhihao Cui et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Impedance MPC with Disturbance Estimation for Dexterous Hand Control",
+      "summary": "Dexterous hands must simultaneously track precise finger trajectories and maintain safe, compliant contact -- objectives in tension for any fixed-gain controller. We present an actuator-agnostic Impedance Model Predictive Control (Impedance MPC) fram...",
+      "url": "https://arxiv.org/abs/2606.14606v1",
+      "date": "2026-06-12",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.14606v1",
+      "authors": "Yongyan Cao",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
       "title": "把视觉输入、机器人状态和目标动作，对齐到同一个参考系里，让机器人数据第一次真正具备可规模化训练的空间底座。",
       "summary": "把视觉输入、机器人状态和目标动作，对齐到同一个参考系里，让机器人数据第一次真正具备可规模化训练的空间底座。",
       "url": "http://36kr.com/p/3849567168959753",
@@ -3018,82 +3098,6 @@
       "type": "paper",
       "arxiv_id": "2604.25859v1",
       "authors": "Pengcheng Fang, Hongli Chen et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "KinDER: A Physical Reasoning Benchmark for Robot Learning and Planning",
-      "summary": "Robotic systems that interact with the physical world must reason about kinematic and dynamic constraints imposed by their own embodiment, their environment, and the task at hand. We introduce KinDER, a benchmark for Kinematic and Dynamic Embodied Re...",
-      "url": "https://arxiv.org/abs/2604.25788v1",
-      "date": "2026-04-28",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2604.25788v1",
-      "authors": "Yixuan Huang, Bowen Li et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "EOS-Bench: A Comprehensive Benchmark for Earth Observation Satellite Scheduling",
-      "summary": "Earth observation satellite imaging scheduling is a challenging NP-hard combinatorial optimisation problem central to space mission operations. While next-generation agile Earth observation satellites (EOS) increase operational flexibility, they also...",
-      "url": "https://arxiv.org/abs/2604.25782v1",
-      "date": "2026-04-28",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2604.25782v1",
-      "authors": "Qian Yin, Jiaxing Li et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "[最前线｜2025年全年营收超64亿，海康机器人表示将继续推进AI融合与 具 身 智 能 布局",
-      "summary": "[最前线｜2025年全年营收超64亿，海康机器人表示将继续推进AI融合与 具 身 智 能 布局",
-      "url": "http://36kr.com/p/3782137908403457",
-      "date": "2026-04-28",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
-      ]
-    },
-    {
-      "title": "Passage-Aware Structural Mapping for RGB-D Visual SLAM",
-      "summary": "Doorways and passages are critical structural elements for indoor robot navigation, yet they remain underexplored in modern Visual SLAM (VSLAM) frameworks. This paper presents a passage-aware structural mapping approach for RGB-D VSLAM that detects d...",
-      "url": "https://arxiv.org/abs/2604.24707v1",
-      "date": "2026-04-27",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2604.24707v1",
-      "authors": "Ali Tourani, Miguel Fernandez-Cortizas et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Exploiting Differential Flatness for Efficient Learning-based Model Predictive Control of Constrained Multi-Input Control Affine Systems",
-      "summary": "Learning-based control techniques use data from past trajectories to control systems with uncertain dynamics. However, learning-based controllers are often computationally inefficient, limiting their practicality. To address this limitation, we propo...",
-      "url": "https://arxiv.org/abs/2604.24706v1",
-      "date": "2026-04-27",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2604.24706v1",
-      "authors": "Tobias A. Farger, Adam W. Hall et al.",
       "tags": [
         "机器人学习",
         "研究论文",

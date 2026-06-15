@@ -1,52 +1,87 @@
 {
   "last_updated": "2026-06-15",
-  "count": 6,
+  "count": 7,
   "items": [
     {
-      "title": "Learning to Reason by Analogy via Retrieval-Augmented Reinforcement Fine-Tuning",
-      "authors": "Zilin Xiao, Qi Ma, Chun-cheng Jason Chen et al.",
-      "abstract": "Retrieval-augmented generation (RAG) has become a standard mechanism for grounding language models in external knowledge, yet conventional retrieval based on lexical or semantic similarity is poorly suited for complex reasoning tasks: a semantically similar problem may demand an entirely different s...",
+      "title": "ClinHallu: A Benchmark for Diagnosing Stage-Wise Hallucinations in Medical MLLM Reasoning",
+      "authors": "Sicheng Yang, Hangjie Yuan, Wenjun Zhang et al.",
+      "abstract": "Building trustworthy medical multimodal large language models (MLLMs) is critical for reliable clinical decision support. Existing medical hallucination benchmarks mainly focus on data collection, but often ignore where hallucinations originate within the reasoning process. We find that hallucinatio...",
       "venue": "arXiv",
-      "date": "2026-06-11",
-      "arxiv_id": "2606.13680v1",
-      "url": "https://arxiv.org/abs/2606.13680v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.13680v1.pdf",
+      "date": "2026-06-12",
+      "arxiv_id": "2606.14697v1",
+      "url": "https://arxiv.org/abs/2606.14697v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.14697v1.pdf",
       "categories": [
-        "cs.CL",
+        "cs.CV",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "type": "benchmark",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning",
+      "authors": "Pengxin Wang, Lihao Guo, Yi Xie et al.",
+      "abstract": "Cooperative multi-objective multi-agent reinforcement learning (MOMARL) models team decision making under multiple, potentially conflicting objectives. In this setting, conflicts arise not only across objectives but also across agents with different observations, roles, and contributions. We propose...",
+      "venue": "arXiv",
+      "date": "2026-06-12",
+      "arxiv_id": "2606.14693v1",
+      "url": "https://arxiv.org/abs/2606.14693v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.14693v1.pdf",
+      "categories": [
+        "cs.MA",
         "cs.AI"
+      ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Gaze Heads: How VLMs Look at What They Describe",
+      "authors": "Rohit Gandikota, David Bau",
+      "abstract": "How a vision-language model internally solves the task of describing an image is far from obvious. We find that the model develops a specific mechanism for this: a small set of attention heads in its language-model backbone, which we call gaze heads, whose attention tracks the image region the model...",
+      "venue": "arXiv",
+      "date": "2026-06-12",
+      "arxiv_id": "2606.14703v1",
+      "url": "https://arxiv.org/abs/2606.14703v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.14703v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.CL",
+        "cs.LG"
       ],
       "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Mana: Dexterous Manipulation of Articulated Tools",
-      "authors": "Zhao-Heng Yin, Guanya Shi, Pieter Abbeel et al.",
-      "abstract": "Articulated tool manipulation remains a major challenge in dexterous robotics due to the need to coordinate internal degrees of freedom and contact-rich interactions. While prior work has largely focused on rigid objects, articulated tool use remains underexplored because of its physical complexity ...",
+      "title": "OmniVideo-100K: A Dataset for Audio-Visual Reasoning through Structured Scripts and Evidence Chains",
+      "authors": "Xinyue Cai, Chaoyou Fu, Yi-Fan Zhang et al.",
+      "abstract": "Current automated pipelines for audio-visual Question Answering (QA) generally adopt a ``video-caption-QA'' paradigm. However, these methods typically segment videos into short clips and generate separate descriptions for audio and visual modalities. This decoupled processing severs inherent associa...",
       "venue": "arXiv",
-      "date": "2026-06-11",
-      "arxiv_id": "2606.13677v1",
-      "url": "https://arxiv.org/abs/2606.13677v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.13677v1.pdf",
+      "date": "2026-06-12",
+      "arxiv_id": "2606.14702v1",
+      "url": "https://arxiv.org/abs/2606.14702v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.14702v1.pdf",
       "categories": [
-        "cs.RO",
-        "cs.AI",
         "cs.CV"
       ],
-      "type": "vision",
+      "type": "benchmark",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "EvoArena: Tracking Memory Evolution for Robust LLM Agents in Dynamic Environments",
-      "authors": "Jundong Xu, Qingchuan Li, Jiaying Wu et al.",
-      "abstract": "Large language model (LLM) agents have achieved strong performance on a wide range of benchmarks, yet most evaluations assume static environments. In contrast, real-world deployment is inherently dynamic, requiring agents to continually align their knowledge, skills, and behavior with changing envir...",
+      "title": "Persona-Pruner: Sculpting Lightweight Models for Role-Playing",
+      "authors": "Jinsu Kim, Jihoon Tack, Noah Lee et al.",
+      "abstract": "Language Models (LMs) have shown remarkable potential as role-playing chatbots, delivering consistent, stylized interactions when given a specification of a character or user persona. However, applying these capabilities to real-world applications (e.g., ecosystems with numerous NPCs interacting sim...",
       "venue": "arXiv",
-      "date": "2026-06-11",
-      "arxiv_id": "2606.13681v1",
-      "url": "https://arxiv.org/abs/2606.13681v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.13681v1.pdf",
+      "date": "2026-06-12",
+      "arxiv_id": "2606.14695v1",
+      "url": "https://arxiv.org/abs/2606.14695v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.14695v1.pdf",
       "categories": [
+        "cs.LG",
         "cs.CL"
       ],
       "type": "nlp",
@@ -54,50 +89,36 @@
       "source": "arXiv"
     },
     {
-      "title": "InterleaveThinker: Reinforcing Agentic Interleaved Generation",
-      "authors": "Dian Zheng, Harry Lee, Manyuan Zhang et al.",
-      "abstract": "Recent image generators have demonstrated impressive photorealism and instruction-following capabilities in single-image generation and editing. However, constrained by their architectures, they cannot achieve interleaved generation (text-image sequence), which has crucial applications in visual nar...",
+      "title": "Instruct-Particulate: Scaling Feed-Forward 3D Object Articulation with Kinematic Control",
+      "authors": "Ruining Li, Yuxin Yao, Matt Zhou et al.",
+      "abstract": "Reconstructing articulated 3D objects is important for animation, gaming, and robotic simulations. Recent neural networks can estimate the articulated structure of 3D objects, but their generalization remains limited by the scarcity of annotated data for this task. To address this gap, we introduce ...",
       "venue": "arXiv",
-      "date": "2026-06-11",
-      "arxiv_id": "2606.13679v1",
-      "url": "https://arxiv.org/abs/2606.13679v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.13679v1.pdf",
+      "date": "2026-06-12",
+      "arxiv_id": "2606.14699v1",
+      "url": "https://arxiv.org/abs/2606.14699v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.14699v1.pdf",
       "categories": [
-        "cs.CV"
+        "cs.CV",
+        "cs.GR",
+        "cs.RO"
       ],
       "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Understanding Truncated Positional Encodings for Graph Neural Networks",
-      "authors": "James Flora, Mitchell Black, Weng-Keen Wong et al.",
-      "abstract": "Positional encodings (PEs) enhance the power of graph neural networks (GNNs), both theoretically and empirically. Two of the most popular families of PEs - spectral (e.g., Laplacian eigenspaces, effective resistance) and walk-based (polynomials of the adjacency matrix) - are theoretically equivalent...",
+      "title": "EgoGuide: Egocentric Guidance for Efficient Robot-Free Demonstration Collection and Learning",
+      "authors": "Yue Xu, Mingtao Nie, Tianle Li et al.",
+      "abstract": "Robot learning from real-world demonstrations is currently constrained by data scaling. Universal Manipulation Interface (UMI) provides an efficient robot-free data collection interface, yet current UMI-style pipelines often collect redundant demonstrations and lack global scene context. To improve ...",
       "venue": "arXiv",
-      "date": "2026-06-11",
-      "arxiv_id": "2606.13671v1",
-      "url": "https://arxiv.org/abs/2606.13671v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.13671v1.pdf",
-      "categories": [
-        "cs.LG"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Improving Robotic Generalist Policies via Flow Reversal Steering",
-      "authors": "Andy Tang, William Chen, Andrew Wagenmaker et al.",
-      "abstract": "Generalist policies can learn a wide range of skills from diverse robot datasets. In order to solve or improve on challenging news tasks, we need a way to infer and invoke the appropriate actions from the policy's rich behavioral prior, especially when directly commanding the policy fails. We focus ...",
-      "venue": "arXiv",
-      "date": "2026-06-11",
-      "arxiv_id": "2606.13675v1",
-      "url": "https://arxiv.org/abs/2606.13675v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.13675v1.pdf",
+      "date": "2026-06-12",
+      "arxiv_id": "2606.14665v1",
+      "url": "https://arxiv.org/abs/2606.14665v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.14665v1.pdf",
       "categories": [
         "cs.RO"
       ],
-      "type": "ai",
+      "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     }
