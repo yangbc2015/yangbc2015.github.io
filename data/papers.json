@@ -1,124 +1,157 @@
 {
   "last_updated": "2026-06-16",
-  "count": 7,
+  "count": 9,
   "items": [
     {
-      "title": "ClinHallu: A Benchmark for Diagnosing Stage-Wise Hallucinations in Medical MLLM Reasoning",
-      "authors": "Sicheng Yang, Hangjie Yuan, Wenjun Zhang et al.",
-      "abstract": "Building trustworthy medical multimodal large language models (MLLMs) is critical for reliable clinical decision support. Existing medical hallucination benchmarks mainly focus on data collection, but often ignore where hallucinations originate within the reasoning process. We find that hallucinatio...",
+      "title": "The Importance of Phase in Neural Representations: An Internal Oppenheim-Lim Test of Image Classifiers",
+      "authors": "Alper Yıldırım",
+      "abstract": "Oppenheim and Lim (1981) showed that natural images stay recognizable when reconstructed from their Fourier phase alone, while the magnitude carries little of their identity. We ask whether trained image classifiers reproduce this asymmetry inside their hidden layers, and we test it causally: given ...",
       "venue": "arXiv",
-      "date": "2026-06-12",
-      "arxiv_id": "2606.14697v1",
-      "url": "https://arxiv.org/abs/2606.14697v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.14697v1.pdf",
+      "date": "2026-06-15",
+      "arxiv_id": "2606.17037v1",
+      "url": "https://arxiv.org/abs/2606.17037v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.17037v1.pdf",
       "categories": [
         "cs.CV",
         "cs.AI",
-        "cs.CL"
-      ],
-      "type": "benchmark",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning",
-      "authors": "Pengxin Wang, Lihao Guo, Yi Xie et al.",
-      "abstract": "Cooperative multi-objective multi-agent reinforcement learning (MOMARL) models team decision making under multiple, potentially conflicting objectives. In this setting, conflicts arise not only across objectives but also across agents with different observations, roles, and contributions. We propose...",
-      "venue": "arXiv",
-      "date": "2026-06-12",
-      "arxiv_id": "2606.14693v1",
-      "url": "https://arxiv.org/abs/2606.14693v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.14693v1.pdf",
-      "categories": [
-        "cs.MA",
-        "cs.AI"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Gaze Heads: How VLMs Look at What They Describe",
-      "authors": "Rohit Gandikota, David Bau",
-      "abstract": "How a vision-language model internally solves the task of describing an image is far from obvious. We find that the model develops a specific mechanism for this: a small set of attention heads in its language-model backbone, which we call gaze heads, whose attention tracks the image region the model...",
-      "venue": "arXiv",
-      "date": "2026-06-12",
-      "arxiv_id": "2606.14703v1",
-      "url": "https://arxiv.org/abs/2606.14703v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.14703v1.pdf",
-      "categories": [
-        "cs.CV",
-        "cs.CL",
         "cs.LG"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "OmniVideo-100K: A Dataset for Audio-Visual Reasoning through Structured Scripts and Evidence Chains",
-      "authors": "Xinyue Cai, Chaoyou Fu, Yi-Fan Zhang et al.",
-      "abstract": "Current automated pipelines for audio-visual Question Answering (QA) generally adopt a ``video-caption-QA'' paradigm. However, these methods typically segment videos into short clips and generate separate descriptions for audio and visual modalities. This decoupled processing severs inherent associa...",
-      "venue": "arXiv",
-      "date": "2026-06-12",
-      "arxiv_id": "2606.14702v1",
-      "url": "https://arxiv.org/abs/2606.14702v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.14702v1.pdf",
-      "categories": [
-        "cs.CV"
-      ],
-      "type": "benchmark",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Persona-Pruner: Sculpting Lightweight Models for Role-Playing",
-      "authors": "Jinsu Kim, Jihoon Tack, Noah Lee et al.",
-      "abstract": "Language Models (LMs) have shown remarkable potential as role-playing chatbots, delivering consistent, stylized interactions when given a specification of a character or user persona. However, applying these capabilities to real-world applications (e.g., ecosystems with numerous NPCs interacting sim...",
-      "venue": "arXiv",
-      "date": "2026-06-12",
-      "arxiv_id": "2606.14695v1",
-      "url": "https://arxiv.org/abs/2606.14695v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.14695v1.pdf",
-      "categories": [
-        "cs.LG",
-        "cs.CL"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Instruct-Particulate: Scaling Feed-Forward 3D Object Articulation with Kinematic Control",
-      "authors": "Ruining Li, Yuxin Yao, Matt Zhou et al.",
-      "abstract": "Reconstructing articulated 3D objects is important for animation, gaming, and robotic simulations. Recent neural networks can estimate the articulated structure of 3D objects, but their generalization remains limited by the scarcity of annotated data for this task. To address this gap, we introduce ...",
-      "venue": "arXiv",
-      "date": "2026-06-12",
-      "arxiv_id": "2606.14699v1",
-      "url": "https://arxiv.org/abs/2606.14699v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.14699v1.pdf",
-      "categories": [
-        "cs.CV",
-        "cs.GR",
-        "cs.RO"
       ],
       "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "EgoGuide: Egocentric Guidance for Efficient Robot-Free Demonstration Collection and Learning",
-      "authors": "Yue Xu, Mingtao Nie, Tianle Li et al.",
-      "abstract": "Robot learning from real-world demonstrations is currently constrained by data scaling. Universal Manipulation Interface (UMI) provides an efficient robot-free data collection interface, yet current UMI-style pipelines often collect redundant demonstrations and lack global scene context. To improve ...",
+      "title": "HAMON: Passive Optical Sequence Mixing for Long-Horizon Forecasting",
+      "authors": "Alper Yıldırım",
+      "abstract": "Simple linear and frequency-domain models remain surprisingly competitive in long-horizon time-series forecasting, and recent mechanistic evidence suggests that standard forecasting benchmarks may not require the dense superposed representations that make transformers powerful in other domains. This...",
       "venue": "arXiv",
-      "date": "2026-06-12",
-      "arxiv_id": "2606.14665v1",
-      "url": "https://arxiv.org/abs/2606.14665v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.14665v1.pdf",
+      "date": "2026-06-15",
+      "arxiv_id": "2606.17028v1",
+      "url": "https://arxiv.org/abs/2606.17028v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.17028v1.pdf",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.AR"
+      ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "The Value Axis: Language Models Encode Whether They're on the Right Track",
+      "authors": "Nick Jiang, Isaac Kauvar, Jack Lindsey",
+      "abstract": "We investigate whether language models internally track the value of their current trajectory, defined as the likelihood that their ongoing strategy will achieve their goals. Using synthetic, in-context reinforcement learning data, we construct a \"value\" axis for Qwen3-8B. We find that activations a...",
+      "venue": "arXiv",
+      "date": "2026-06-15",
+      "arxiv_id": "2606.17056v1",
+      "url": "https://arxiv.org/abs/2606.17056v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.17056v1.pdf",
+      "categories": [
+        "cs.CL"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Context-Aware RL for Agentic and Multimodal LLMs",
+      "authors": "Peiyang Xu, Bangzheng Li, Sijia Liu et al.",
+      "abstract": "Large language models (LLMs) often fail when answering requires identifying a small but decisive piece of evidence within a long or complex context, such as a single line in a tool trace or a subtle detail in an image. We propose ContextRL, a context-aware reinforcement learning (RL) method that imp...",
+      "venue": "arXiv",
+      "date": "2026-06-15",
+      "arxiv_id": "2606.17053v1",
+      "url": "https://arxiv.org/abs/2606.17053v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.17053v1.pdf",
+      "categories": [
+        "cs.CL",
+        "cs.CV"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "BRDFusion: Physics Meets Generation for Urban Scene Inverse Rendering",
+      "authors": "Yi-Ruei Liu, Jie-Ying Lee, Zheng-Hui Huang et al.",
+      "abstract": "Inverse rendering of urban scenes from captured videos enables numerous applications, including content creation and autonomous driving simulation. Physically-based rendering methods follow and control lighting physics, but suffer from reconstruction and rendering artifacts. While generative models ...",
+      "venue": "arXiv",
+      "date": "2026-06-15",
+      "arxiv_id": "2606.17049v1",
+      "url": "https://arxiv.org/abs/2606.17049v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.17049v1.pdf",
+      "categories": [
+        "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Exact Posterior Score Estimation for Solving Linear Inverse Problems",
+      "authors": "Abbas Mammadov, Ozgur Kara, Kaan Oktay et al.",
+      "abstract": "Diffusion and flow-based models learn powerful data priors by training a denoiser to reverse Gaussian corruption. To use this prior to solve a linear inverse problem, one needs to sample from the posterior, but the score that the prior provides is the unconditional score, not the posterior score. Ex...",
+      "venue": "arXiv",
+      "date": "2026-06-15",
+      "arxiv_id": "2606.17048v1",
+      "url": "https://arxiv.org/abs/2606.17048v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.17048v1.pdf",
+      "categories": [
+        "cs.LG",
+        "cs.CV",
+        "stat.ML"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Geometric Action Model for Robot Policy Learning",
+      "authors": "Jisang Han, Seonghu Jeon, Jaewoo Jung et al.",
+      "abstract": "Generalist robot policies must follow user instructions while reasoning about how objects, cameras, and robot actions interact in the 3D physical world. Recent vision-language-action models (VLAs) and video world-action models (WAMs) inherit strong semantic or temporal priors from large-scale founda...",
+      "venue": "arXiv",
+      "date": "2026-06-15",
+      "arxiv_id": "2606.17046v1",
+      "url": "https://arxiv.org/abs/2606.17046v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.17046v1.pdf",
+      "categories": [
+        "cs.RO",
+        "cs.CV",
+        "cs.LG"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "T-Rex: Tactile-Reactive Dexterous Manipulation",
+      "authors": "Dantong Niu, Zhuoyang Liu, Zekai Wang et al.",
+      "abstract": "The ability to react dynamically to tactile signals has long been considered crucial to agile human-level dexterity. Yet contemporary learning-based Vision-Language-Action (VLA) models for robotic manipulation generally either overlook the tactile modality or are limited to encoders with static cues...",
+      "venue": "arXiv",
+      "date": "2026-06-15",
+      "arxiv_id": "2606.17055v1",
+      "url": "https://arxiv.org/abs/2606.17055v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.17055v1.pdf",
       "categories": [
         "cs.RO"
       ],
-      "type": "ml",
+      "type": "ai",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Human Universal Grasping",
+      "authors": "Kevin Yuanbo Wu, Tianxing Zhou, Isaac Tu et al.",
+      "abstract": "Humans can grasp objects effortlessly, whereas multi-fingered robots are far from this level of generality. We argue that the most natural source of robot grasping data is from humans, who pick up thousands of objects every day. We present HUG, a flow-matching model that generates diverse human gras...",
+      "venue": "arXiv",
+      "date": "2026-06-15",
+      "arxiv_id": "2606.17054v1",
+      "url": "https://arxiv.org/abs/2606.17054v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.17054v1.pdf",
+      "categories": [
+        "cs.RO"
+      ],
+      "type": "ai",
       "badge": "arxiv",
       "source": "arXiv"
     }

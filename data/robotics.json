@@ -6,7 +6,7 @@
       "title": "[BEV 杀入 具 身 智 能：跨维把机器人数据带上 Scaling 快车道",
       "summary": "[BEV 杀入 具 身 智 能：跨维把机器人数据带上 Scaling 快车道",
       "url": "http://36kr.com/p/3849567168959753",
-      "date": "2026-06-15",
+      "date": "2026-06-16",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
@@ -18,7 +18,7 @@
       "title": "[工信部、国资委启动2026年度人形机器人与 具 身 智 能 实景实训专项行动",
       "summary": "[工信部、国资委启动2026年度人形机器人与 具 身 智 能 实景实训专项行动",
       "url": "http://36kr.com/p/3846712950934022",
-      "date": "2026-06-15",
+      "date": "2026-06-16",
       "source": "36氪",
       "category": "具身智能",
       "type": "news",
@@ -28,10 +28,102 @@
       ]
     },
     {
+      "title": "T-Rex: Tactile-Reactive Dexterous Manipulation",
+      "summary": "The ability to react dynamically to tactile signals has long been considered crucial to agile human-level dexterity. Yet contemporary learning-based Vision-Language-Action (VLA) models for robotic manipulation generally either overlook the tactile mo...",
+      "url": "https://arxiv.org/abs/2606.17055v1",
+      "date": "2026-06-15",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.17055v1",
+      "authors": "Dantong Niu, Zhuoyang Liu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Human Universal Grasping",
+      "summary": "Humans can grasp objects effortlessly, whereas multi-fingered robots are far from this level of generality. We argue that the most natural source of robot grasping data is from humans, who pick up thousands of objects every day. We present HUG, a flo...",
+      "url": "https://arxiv.org/abs/2606.17054v1",
+      "date": "2026-06-15",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.17054v1",
+      "authors": "Kevin Yuanbo Wu, Tianxing Zhou et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Geometric Action Model for Robot Policy Learning",
+      "summary": "Generalist robot policies must follow user instructions while reasoning about how objects, cameras, and robot actions interact in the 3D physical world. Recent vision-language-action models (VLAs) and video world-action models (WAMs) inherit strong s...",
+      "url": "https://arxiv.org/abs/2606.17046v1",
+      "date": "2026-06-15",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.17046v1",
+      "authors": "Jisang Han, Seonghu Jeon et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Hierarchical Advantage Weighting for Online RL Fine-Tuning of VLAs from Sparse Episode Outcomes",
+      "summary": "When pretrained VLA policies are fine-tuned through online RL, each rollout episode produces only a single binary outcome (success or failure), yet the actor update requires per-transition supervision. Existing approaches commonly reduce this sparse ...",
+      "url": "https://arxiv.org/abs/2606.17043v1",
+      "date": "2026-06-15",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.17043v1",
+      "authors": "Tongyan Fang, Siyuan Huang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "R2RDreamer: 3D-aware Data Augmentation for Spatially-generalized 2D Manipulation Policies",
+      "summary": "Spatial generalization is critical for imitation-learned manipulation policies, but achieving it typically requires scaling demonstrations across diverse object poses, robot configurations, and camera viewpoints. Data augmentation from a few source d...",
+      "url": "https://arxiv.org/abs/2606.17040v1",
+      "date": "2026-06-15",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.17040v1",
+      "authors": "Xiuwei Xu, Haowen Sun et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
       "title": "[具 身 智 能 8小时被攻破，机器人“肉身”安全风险亟待补课",
       "summary": "[具 身 智 能 8小时被攻破，机器人“肉身”安全风险亟待补课",
       "url": "http://36kr.com/p/3835902318361221",
       "date": "2026-06-13",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
+      "title": "把视觉输入、机器人状态和目标动作，对齐到同一个参考系里，让机器人数据第一次真正具备可规模化训练的空间底座。",
+      "summary": "把视觉输入、机器人状态和目标动作，对齐到同一个参考系里，让机器人数据第一次真正具备可规模化训练的空间底座。",
+      "url": "http://36kr.com/p/3849567168959753",
+      "date": "2026-06-12",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
@@ -117,18 +209,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "把视觉输入、机器人状态和目标动作，对齐到同一个参考系里，让机器人数据第一次真正具备可规模化训练的空间底座。",
-      "summary": "把视觉输入、机器人状态和目标动作，对齐到同一个参考系里，让机器人数据第一次真正具备可规模化训练的空间底座。",
-      "url": "http://36kr.com/p/3849567168959753",
-      "date": "2026-06-12",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
       ]
     },
     {
@@ -3018,86 +3098,6 @@
       "type": "paper",
       "arxiv_id": "2604.26899v1",
       "authors": "Omanshu Thapliyal, Malarvizhi Sankaranarayanasamy et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Stochastic Entanglement of Deterministic Origami Tentacles For Universal Robotic Gripping",
-      "summary": "Origami-inspired robotic grippers have shown promising potential for object manipulation tasks due to their compact volume and mechanical flexibility. However, robust capture of objects with random shapes in dynamic working environments often comes a...",
-      "url": "https://arxiv.org/abs/2604.26897v1",
-      "date": "2026-04-29",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2604.26897v1",
-      "authors": "Alec Boron, Bokun Zheng et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Edge AI for Automotive Vulnerable Road User Safety: Deployable Detection via Knowledge Distillation",
-      "summary": "Deploying accurate object detection for Vulnerable Road User (VRU) safety on edge hardware requires balancing model capacity against computational constraints. Large models achieve high accuracy but fail under INT8 quantization required for edge depl...",
-      "url": "https://arxiv.org/abs/2604.26857v1",
-      "date": "2026-04-29",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2604.26857v1",
-      "authors": "Akshay Karjol, Darrin M. Hanna",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Variational Neural Belief Parameterizations for Robust Dexterous Grasping under Multimodal Uncertainty",
-      "summary": "Contact variability, sensing uncertainty, and external disturbances make grasp execution stochastic. Expected-quality objectives ignore tail outcomes and often select grasps that fail under adverse contact realizations. Risk-sensitive POMDPs address ...",
-      "url": "https://arxiv.org/abs/2604.25897v1",
-      "date": "2026-04-28",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2604.25897v1",
-      "authors": "Clinton Enwerem, Shreya Kalyanaraman et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "No Pedestrian Left Behind: Real-Time Detection and Tracking of Vulnerable Road Users for Adaptive Traffic Signal Control",
-      "summary": "Current pedestrian crossing signals operate on fixed timing without adjustment to pedestrian behavior, which can leave vulnerable road users (VRUs) such as the elderly, disabled, or distracted pedestrians stranded when the light changes. We introduce...",
-      "url": "https://arxiv.org/abs/2604.25887v1",
-      "date": "2026-04-28",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2604.25887v1",
-      "authors": "Anas Gamal Aly, Hala ElAarag",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Privileged Foresight Distillation: Zero-Cost Future Correction for World Action Models",
-      "summary": "World action models jointly predict future video and action during training, raising an open question about what role the future-prediction branch actually plays. A recent finding shows that this branch can be removed at inference with little to no l...",
-      "url": "https://arxiv.org/abs/2604.25859v1",
-      "date": "2026-04-28",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2604.25859v1",
-      "authors": "Pengcheng Fang, Hongli Chen et al.",
       "tags": [
         "机器人学习",
         "研究论文",
