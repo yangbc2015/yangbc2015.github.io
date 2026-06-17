@@ -72,7 +72,7 @@
       "model": "nemotron-3-ultra-550b-a55b",
       "organization": "nvidia",
       "price_prompt": "0.0000005",
-      "price_completion": "0.0000025",
+      "price_completion": "0.0000022",
       "context_length": 1000000
     },
     {

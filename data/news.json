@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-06-16",
+  "last_updated": "2026-06-17",
   "count": 200,
-  "history_count": 200,
+  "history_count": 205,
   "retention_days": 30,
   "items": [
     {
       "title": "本文为量子位获授权转载，观点仅为原作者所有。",
       "link": "https://www.qbitai.com/?s=本文为量子位获授权转",
       "summary": "本文为量子位获授权转载，观点仅为原作者所有。...",
-      "date": "2026-06-16",
+      "date": "2026-06-17",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -20,8 +20,80 @@
       "title": "过去两年，具身智能行业最热的关键词是人形机器人。但未来几年，更重要的关键词或许会变成另一件事：智能生产力。",
       "link": "https://www.qbitai.com/?s=过去两年，具身智能行",
       "summary": "过去两年，具身智能行业最热的关键词是人形机器人。但未来几年，更重要的关键词或许会变成另一件事：智能生产力。...",
-      "date": "2026-06-16",
+      "date": "2026-06-17",
       "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "Markdown Content:",
+      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+      "summary": "Markdown Content:...",
+      "date": "2026-06-16",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "今天，半个具身智能产业链都在亦庄",
+      "link": "https://www.jiqizhixin.com/search/articles/今天，半个具身智能产业链都在亦",
+      "summary": "今天，半个具身智能产业链都在亦庄...",
+      "date": "2026-06-16",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "600亿美元，Cursor归马斯克了",
+      "link": "https://www.jiqizhixin.com/search/articles/600亿美元，Cursor归马",
+      "summary": "600亿美元，Cursor归马斯克了...",
+      "date": "2026-06-16",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "从贝叶斯到大语言模型：一文详解「时序点过程」近年进展",
+      "link": "https://www.jiqizhixin.com/search/articles/从贝叶斯到大语言模型：一文详解",
+      "summary": "从贝叶斯到大语言模型：一文详解「时序点过程」近年进展...",
+      "date": "2026-06-16",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "DeepSeek首次融资落地：募集超500亿，估值超3300亿元",
+      "link": "https://www.jiqizhixin.com/search/articles/DeepSeek首次融资落地：",
+      "summary": "DeepSeek首次融资落地：募集超500亿，估值超3300亿元...",
+      "date": "2026-06-16",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "AI时代论文到底该怎么写？XtraGPT重新定义「AI学术写作」",
+      "link": "https://www.jiqizhixin.com/search/articles/AI时代论文到底该怎么写？Xt",
+      "summary": "AI时代论文到底该怎么写？XtraGPT重新定义「AI学术写作」...",
+      "date": "2026-06-16",
+      "source": "机器之心",
       "type": "industry",
       "tags": [
         "AI",
@@ -70,18 +142,6 @@
       "summary": "聪明人总能花最少的钱办最好的事，AI也一样。...",
       "date": "2026-06-16",
       "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Markdown Content:",
-      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-      "summary": "Markdown Content:...",
-      "date": "2026-06-15",
-      "source": "机器之心",
       "type": "industry",
       "tags": [
         "AI",
@@ -2337,66 +2397,6 @@
       "link": "https://www.jiqizhixin.com/search/articles/CVPR 2026，来北京，听",
       "summary": "CVPR 2026，来北京，听论文作者拆解真技术...",
       "date": "2026-05-22",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "首个三模式大语言模型：4倍token吞吐量，长文本秒级时代要来了？",
-      "link": "https://www.jiqizhixin.com/search/articles/首个三模式大语言模型：4倍to",
-      "summary": "首个三模式大语言模型：4倍token吞吐量，长文本秒级时代要来了？...",
-      "date": "2026-05-22",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "智会心研 PLUS 开启公测，免费开放高阶研发 AI 能力，完善资料、邀友可领会员，助力大众低成本搞技术创新。",
-      "link": "https://www.qbitai.com/?s=智会心研 PLUS ",
-      "summary": "智会心研 PLUS 开启公测，免费开放高阶研发 AI 能力，完善资料、邀友可领会员，助力大众低成本搞技术创新。...",
-      "date": "2026-05-22",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "全场景数据、全链条服务助力AI大模型高效迭代",
-      "link": "https://www.qbitai.com/?s=全场景数据、全链条服",
-      "summary": "全场景数据、全链条服务助力AI大模型高效迭代...",
-      "date": "2026-05-22",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "AI产业正在进入新一轮高强度算力周期",
-      "link": "https://www.qbitai.com/?s=AI产业正在进入新一",
-      "summary": "AI产业正在进入新一轮高强度算力周期...",
-      "date": "2026-05-22",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "38.99万起，小米YU7 GT刷新纽北SUV记录后，正式开售",
-      "link": "https://www.jiqizhixin.com/search/articles/38.99万起，小米YU7 G",
-      "summary": "38.99万起，小米YU7 GT刷新纽北SUV记录后，正式开售...",
-      "date": "2026-05-21",
       "source": "机器之心",
       "type": "industry",
       "tags": [
