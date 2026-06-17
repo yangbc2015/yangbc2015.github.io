@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-17T00:46:49.998137+00:00",
+  "last_updated": "2026-06-17T07:50:05.573653+00:00",
   "source": "Artificial Analysis",
   "source_url": "https://artificialanalysis.ai/leaderboards/models",
   "description": "综合AI模型性能排行榜，基于智能指数、价格、输出速度、上下文窗口等多维度指标对模型进行评测。",
@@ -29,7 +29,7 @@
       "icon": "⚡"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "model": "Claude Sonnet 4.6",
       "organization": "Anthropic",
       "intelligence_index": 0,
@@ -41,7 +41,7 @@
       "icon": "⚡"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "model": "Gemini 3.1 Pro Preview",
       "organization": "Google",
       "intelligence_index": 0,
@@ -53,7 +53,7 @@
       "icon": "🤖"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "model": "Qwen3.7 Max",
       "organization": "Alibaba",
       "intelligence_index": 0,
@@ -65,7 +65,7 @@
       "icon": "🌟"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "model": "MiniMax-M3",
       "organization": "Unknown",
       "intelligence_index": 0,
@@ -77,7 +77,7 @@
       "icon": "🤖"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "model": "DeepSeek V4 Pro",
       "organization": "DeepSeek",
       "intelligence_index": 0,
@@ -89,7 +89,7 @@
       "icon": "💎"
     },
     {
-      "rank": 19,
+      "rank": 20,
       "model": "Claude Opus 4.7",
       "organization": "Anthropic",
       "intelligence_index": 0,
@@ -99,18 +99,6 @@
       "trend": "same",
       "is_open_weights": false,
       "icon": "⚡"
-    },
-    {
-      "rank": 20,
-      "model": "MiMo-V2.5-Pro",
-      "organization": "Unknown",
-      "intelligence_index": 0,
-      "price_per_1m_tokens": 0,
-      "speed_tokens_per_sec": 0,
-      "context_window": 0,
-      "trend": "same",
-      "is_open_weights": false,
-      "icon": "🤖"
     }
   ]
 }

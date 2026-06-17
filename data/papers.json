@@ -1,52 +1,51 @@
 {
   "last_updated": "2026-06-17",
-  "count": 9,
+  "count": 7,
   "items": [
     {
-      "title": "The Importance of Phase in Neural Representations: An Internal Oppenheim-Lim Test of Image Classifiers",
-      "authors": "Alper Yıldırım",
-      "abstract": "Oppenheim and Lim (1981) showed that natural images stay recognizable when reconstructed from their Fourier phase alone, while the magnitude carries little of their identity. We ask whether trained image classifiers reproduce this asymmetry inside their hidden layers, and we test it causally: given ...",
+      "title": "Visual Verification Enables Inference-time Steering and Autonomous Policy Improvement",
+      "authors": "Mingtong Zhang, Dhruv Shah",
+      "abstract": "Robots deployed in the real world should learn from their experience and improve over time. This requires a mechanism of practicing and learning from feedback. In this paper, we propose VERITAS, a generator-verifier framework for generalist robot policies for inference-time policy steering and self-...",
       "venue": "arXiv",
-      "date": "2026-06-15",
-      "arxiv_id": "2606.17037v1",
-      "url": "https://arxiv.org/abs/2606.17037v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.17037v1.pdf",
+      "date": "2026-06-16",
+      "arxiv_id": "2606.18247v1",
+      "url": "https://arxiv.org/abs/2606.18247v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.18247v1.pdf",
       "categories": [
-        "cs.CV",
+        "cs.RO",
+        "cs.AI"
+      ],
+      "type": "ai",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "ReproRepo: Scaling Reproducibility Audits with GitHub Repository Issues",
+      "authors": "Shanda Li, Qiuhong Anna Wei, Jingwu Tang et al.",
+      "abstract": "Reproducing research results from papers and released code is central to scientific progress. Existing works have introduced benchmarks to evaluate whether LLM agents can assist with reproducibility, but they are difficult to scale due to their reliance on substantial manual effort for data curation...",
+      "venue": "arXiv",
+      "date": "2026-06-16",
+      "arxiv_id": "2606.18237v1",
+      "url": "https://arxiv.org/abs/2606.18237v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.18237v1.pdf",
+      "categories": [
+        "cs.CL",
         "cs.AI",
         "cs.LG"
       ],
-      "type": "vision",
+      "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "HAMON: Passive Optical Sequence Mixing for Long-Horizon Forecasting",
-      "authors": "Alper Yıldırım",
-      "abstract": "Simple linear and frequency-domain models remain surprisingly competitive in long-horizon time-series forecasting, and recent mechanistic evidence suggests that standard forecasting benchmarks may not require the dense superposed representations that make transformers powerful in other domains. This...",
+      "title": "Variable-Width Transformers",
+      "authors": "Zhaofeng Wu, Oliver Sieberling, Shawn Tan et al.",
+      "abstract": "Scaling model size, specifically depth and width, has driven significant progress in transformer-based language models. However, most architectures maintain a constant width across all layers, allocating a fixed parameter and computation budget evenly despite different layers potentially playing dis...",
       "venue": "arXiv",
-      "date": "2026-06-15",
-      "arxiv_id": "2606.17028v1",
-      "url": "https://arxiv.org/abs/2606.17028v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.17028v1.pdf",
-      "categories": [
-        "cs.LG",
-        "cs.AI",
-        "cs.AR"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "The Value Axis: Language Models Encode Whether They're on the Right Track",
-      "authors": "Nick Jiang, Isaac Kauvar, Jack Lindsey",
-      "abstract": "We investigate whether language models internally track the value of their current trajectory, defined as the likelihood that their ongoing strategy will achieve their goals. Using synthetic, in-context reinforcement learning data, we construct a \"value\" axis for Qwen3-8B. We find that activations a...",
-      "venue": "arXiv",
-      "date": "2026-06-15",
-      "arxiv_id": "2606.17056v1",
-      "url": "https://arxiv.org/abs/2606.17056v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.17056v1.pdf",
+      "date": "2026-06-16",
+      "arxiv_id": "2606.18246v1",
+      "url": "https://arxiv.org/abs/2606.18246v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.18246v1.pdf",
       "categories": [
         "cs.CL"
       ],
@@ -55,16 +54,31 @@
       "source": "arXiv"
     },
     {
-      "title": "Context-Aware RL for Agentic and Multimodal LLMs",
-      "authors": "Peiyang Xu, Bangzheng Li, Sijia Liu et al.",
-      "abstract": "Large language models (LLMs) often fail when answering requires identifying a small but decisive piece of evidence within a long or complex context, such as a single line in a tool trace or a subtle detail in an image. We propose ContextRL, a context-aware reinforcement learning (RL) method that imp...",
+      "title": "Future Dynamic 3D Reconstruction: A 3D World Model with Disentangled Ego-Motion",
+      "authors": "Nils Morbitzer, Jonathan Evers, Artem Savkin et al.",
+      "abstract": "Forecasting the evolution of dynamic environments is crucial for autonomous agents. While generative world models have recently achieved high photorealism in 2D video synthesis by mixing ego-motion and environmental dynamics within the image plane, they exhibit physical inconsistencies, such as morp...",
       "venue": "arXiv",
-      "date": "2026-06-15",
-      "arxiv_id": "2606.17053v1",
-      "url": "https://arxiv.org/abs/2606.17053v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.17053v1.pdf",
+      "date": "2026-06-16",
+      "arxiv_id": "2606.18250v1",
+      "url": "https://arxiv.org/abs/2606.18250v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.18250v1.pdf",
       "categories": [
-        "cs.CL",
+        "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Unified Multimodal Autoregressive Modeling with Shared Context-Visual Tokenizer is Key to Unification",
+      "authors": "Wujian Peng, Lingchen Meng, Yuxuan Cai et al.",
+      "abstract": "Unified Multimodal Modeling aims to integrate visual understanding and generation within a single system. However, existing approaches typically rely on two disparate visual tokenizers, which splits the representation space and hinders truly unified modeling. We propose UniAR, a unified autoregressi...",
+      "venue": "arXiv",
+      "date": "2026-06-16",
+      "arxiv_id": "2606.18249v1",
+      "url": "https://arxiv.org/abs/2606.18249v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.18249v1.pdf",
+      "categories": [
         "cs.CV"
       ],
       "type": "nlp",
@@ -72,86 +86,37 @@
       "source": "arXiv"
     },
     {
-      "title": "BRDFusion: Physics Meets Generation for Urban Scene Inverse Rendering",
-      "authors": "Yi-Ruei Liu, Jie-Ying Lee, Zheng-Hui Huang et al.",
-      "abstract": "Inverse rendering of urban scenes from captured videos enables numerous applications, including content creation and autonomous driving simulation. Physically-based rendering methods follow and control lighting physics, but suffer from reconstruction and rendering artifacts. While generative models ...",
+      "title": "Sign-Rank, Index, and List Replicability: Connections and Separations",
+      "authors": "Ari Blondal, Hamed Hatami, Pooya Hatami et al.",
+      "abstract": "In learning theory, the sign rank of a binary concept class captures the smallest dimension in which it can be represented by points and halfspaces. Despite tremendous interest, lower bounds on sign rank are notoriously difficult to come by. Two recent approaches to the problem establish lower bound...",
       "venue": "arXiv",
-      "date": "2026-06-15",
-      "arxiv_id": "2606.17049v1",
-      "url": "https://arxiv.org/abs/2606.17049v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.17049v1.pdf",
-      "categories": [
-        "cs.CV"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Exact Posterior Score Estimation for Solving Linear Inverse Problems",
-      "authors": "Abbas Mammadov, Ozgur Kara, Kaan Oktay et al.",
-      "abstract": "Diffusion and flow-based models learn powerful data priors by training a denoiser to reverse Gaussian corruption. To use this prior to solve a linear inverse problem, one needs to sample from the posterior, but the score that the prior provides is the unconditional score, not the posterior score. Ex...",
-      "venue": "arXiv",
-      "date": "2026-06-15",
-      "arxiv_id": "2606.17048v1",
-      "url": "https://arxiv.org/abs/2606.17048v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.17048v1.pdf",
+      "date": "2026-06-16",
+      "arxiv_id": "2606.18236v1",
+      "url": "https://arxiv.org/abs/2606.18236v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.18236v1.pdf",
       "categories": [
         "cs.LG",
-        "cs.CV",
-        "stat.ML"
+        "cs.IT"
       ],
-      "type": "vision",
+      "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Geometric Action Model for Robot Policy Learning",
-      "authors": "Jisang Han, Seonghu Jeon, Jaewoo Jung et al.",
-      "abstract": "Generalist robot policies must follow user instructions while reasoning about how objects, cameras, and robot actions interact in the 3D physical world. Recent vision-language-action models (VLAs) and video world-action models (WAMs) inherit strong semantic or temporal priors from large-scale founda...",
+      "title": "MOCHI: Motion Enhancement of Collaborative Human-object Interactions",
+      "authors": "Jiye Lee, Yonghun Choi, Jungdam Won",
+      "abstract": "Collaborative human-object interaction shows dynamic and complex movements that require mutual anticipation and continuous adjustment between participants and the shared object. Modeling such collaborative multi-human object interaction (MHOI) scenarios requires high-quality data acquisition as a fo...",
       "venue": "arXiv",
-      "date": "2026-06-15",
-      "arxiv_id": "2606.17046v1",
-      "url": "https://arxiv.org/abs/2606.17046v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.17046v1.pdf",
+      "date": "2026-06-16",
+      "arxiv_id": "2606.18243v1",
+      "url": "https://arxiv.org/abs/2606.18243v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.18243v1.pdf",
       "categories": [
-        "cs.RO",
         "cs.CV",
-        "cs.LG"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "T-Rex: Tactile-Reactive Dexterous Manipulation",
-      "authors": "Dantong Niu, Zhuoyang Liu, Zekai Wang et al.",
-      "abstract": "The ability to react dynamically to tactile signals has long been considered crucial to agile human-level dexterity. Yet contemporary learning-based Vision-Language-Action (VLA) models for robotic manipulation generally either overlook the tactile modality or are limited to encoders with static cues...",
-      "venue": "arXiv",
-      "date": "2026-06-15",
-      "arxiv_id": "2606.17055v1",
-      "url": "https://arxiv.org/abs/2606.17055v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.17055v1.pdf",
-      "categories": [
+        "cs.GR",
         "cs.RO"
       ],
-      "type": "ai",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Human Universal Grasping",
-      "authors": "Kevin Yuanbo Wu, Tianxing Zhou, Isaac Tu et al.",
-      "abstract": "Humans can grasp objects effortlessly, whereas multi-fingered robots are far from this level of generality. We argue that the most natural source of robot grasping data is from humans, who pick up thousands of objects every day. We present HUG, a flow-matching model that generates diverse human gras...",
-      "venue": "arXiv",
-      "date": "2026-06-15",
-      "arxiv_id": "2606.17054v1",
-      "url": "https://arxiv.org/abs/2606.17054v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.17054v1.pdf",
-      "categories": [
-        "cs.RO"
-      ],
-      "type": "ai",
+      "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     }

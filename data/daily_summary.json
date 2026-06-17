@@ -8,18 +8,6 @@
       "count": 5,
       "items": [
         {
-          "title": "Markdown Content:",
-          "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-          "summary": "Markdown Content:...",
-          "date": "2026-06-16",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
           "title": "今天，半个具身智能产业链都在亦庄",
           "link": "https://www.jiqizhixin.com/search/articles/今天，半个具身智能产业链都在亦",
           "summary": "今天，半个具身智能产业链都在亦庄...",
@@ -61,6 +49,18 @@
           "summary": "DeepSeek首次融资落地：募集超500亿，估值超3300亿元...",
           "date": "2026-06-16",
           "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "用户可以在与智能体的对话中提出消费需求",
+          "link": "https://www.qbitai.com/?s=用户可以在与智能体的",
+          "summary": "用户可以在与智能体的对话中提出消费需求...",
+          "date": "2026-06-17",
+          "source": "量子位",
           "type": "industry",
           "tags": [
             "AI",

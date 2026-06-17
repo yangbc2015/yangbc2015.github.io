@@ -3,15 +3,16 @@
   "count": 200,
   "items": [
     {
-      "title": "[具 身 智 能 8小时被攻破，机器人“肉身”安全风险亟待补课",
-      "summary": "[具 身 智 能 8小时被攻破，机器人“肉身”安全风险亟待补课",
-      "url": "http://36kr.com/p/3835902318361221",
+      "title": "[火热的 具 身 智 能，藏着半个自动驾驶圈",
+      "summary": "[火热的 具 身 智 能，藏着半个自动驾驶圈",
+      "url": "http://36kr.com/p/3856635996158851",
       "date": "2026-06-17",
       "source": "36氪",
-      "category": "机器人",
+      "category": "自主系统",
       "type": "news",
       "tags": [
-        "机器人"
+        "机器人",
+        "自动驾驶"
       ]
     },
     {
@@ -37,6 +38,98 @@
       "tags": [
         "机器人",
         "人形机器人"
+      ]
+    },
+    {
+      "title": "[具 身 智 能 8小时被攻破，机器人“肉身”安全风险亟待补课",
+      "summary": "[具 身 智 能 8小时被攻破，机器人“肉身”安全风险亟待补课",
+      "url": "http://36kr.com/p/3835902318361221",
+      "date": "2026-06-17",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
+      "title": "Visual Verification Enables Inference-time Steering and Autonomous Policy Improvement",
+      "summary": "Robots deployed in the real world should learn from their experience and improve over time. This requires a mechanism of practicing and learning from feedback. In this paper, we propose VERITAS, a generator-verifier framework for generalist robot pol...",
+      "url": "https://arxiv.org/abs/2606.18247v1",
+      "date": "2026-06-16",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.18247v1",
+      "authors": "Mingtong Zhang, Dhruv Shah",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "MOCHI: Motion Enhancement of Collaborative Human-object Interactions",
+      "summary": "Collaborative human-object interaction shows dynamic and complex movements that require mutual anticipation and continuous adjustment between participants and the shared object. Modeling such collaborative multi-human object interaction (MHOI) scenar...",
+      "url": "https://arxiv.org/abs/2606.18243v1",
+      "date": "2026-06-16",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.18243v1",
+      "authors": "Jiye Lee, Yonghun Choi et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "EBench: Elemental Diagnosis of Generalist Mobile Manipulation Policies",
+      "summary": "We present EBench, a simulation benchmark that diagnoses generalist mobile manipulation policies beyond a single success-rate scalar. EBench comprises 26 diverse and challenging manipulation tasks annotated along 5 capability dimensions and 4 general...",
+      "url": "https://arxiv.org/abs/2606.18239v1",
+      "date": "2026-06-16",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.18239v1",
+      "authors": "Ning Gao, Jinliang Zheng et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Adaptive Volumetric Mechanical Property Fields Invariant to Resolution",
+      "summary": "Accurate mechanical properties (or materials) Young's modulus ($E$), Poisson's ratio ($ν$) and density ($ρ$) are essential for reliable physics simulation of digital worlds, but most 3D assets lack this information. We propose AdaVoMP, a method for p...",
+      "url": "https://arxiv.org/abs/2606.18231v1",
+      "date": "2026-06-16",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.18231v1",
+      "authors": "Rishit Dagli, Donglai Xiang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Beyond Failure Recovery: An Engagement-Aware Human-in-the-loop Framework for Robotic Systems",
+      "summary": "Conventional human-in-the-loop approaches typically involve users only when a robot encounters failure or uncertainty, treating humans primarily as tools for improving robot performance. However, in many human-centered robotics settings, interaction ...",
+      "url": "https://arxiv.org/abs/2606.18189v1",
+      "date": "2026-06-16",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.18189v1",
+      "authors": "Jiaying Fang, Joyce Yang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
       ]
     },
     {
@@ -3002,102 +3095,6 @@
       "type": "paper",
       "arxiv_id": "2604.28192v1",
       "authors": "Hao Chen, Jiaming Liu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "RopeDreamer: A Kinematic Recurrent State Space Model for Dynamics of Flexible Deformable Linear Objects",
-      "summary": "The robotic manipulation of Deformable Linear Objects (DLOs) is a fundamental challenge due to the high-dimensional, non-linear dynamics of flexible structures and the complexity of maintaining topological integrity during contact-rich tasks. While r...",
-      "url": "https://arxiv.org/abs/2604.28161v1",
-      "date": "2026-04-30",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2604.28161v1",
-      "authors": "Tim Missal, Lucas Domingues et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "FlexiTac: A Low-Cost, Open-Source, Scalable Tactile Sensing Solution for Robotic Systems",
-      "summary": "We present FlexiTac, a low-cost, open-source, and scalable piezoresistive tactile sensing solution designed for robotic end-effectors. FlexiTac is a practical \"plug-in\" module consisting of (i) thin, flexible tactile sensor pads that provide dense ta...",
-      "url": "https://arxiv.org/abs/2604.28156v1",
-      "date": "2026-04-30",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2604.28156v1",
-      "authors": "Binghao Huang, Yunzhu Li",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Design and Characteristics of a Thin-Film ThermoMesh for the Efficient Embedded Sensing of a Spatio-Temporally Sparse Heat Source",
-      "summary": "This work presents ThermoMesh, a passive thin-film thermoelectric mesh sensor designed to detect and characterize spatio-temporally sparse heat sources through conduction-based thermal imaging. The device integrates thermoelectric junctions with line...",
-      "url": "https://arxiv.org/abs/2604.28148v1",
-      "date": "2026-04-30",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2604.28148v1",
-      "authors": "Sajjad Boorghan Farahan, Ahmed Alajlouni et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Three-Step Nav: A Hierarchical Global-Local Planner for Zero-Shot Vision-and-Language Navigation",
-      "summary": "Breakthrough progress in vision-based navigation through unknown environments has been achieved by using multimodal large language models (MLLMs). These models can plan a sequence of motions by evaluating the current view at each time step against th...",
-      "url": "https://arxiv.org/abs/2604.26946v1",
-      "date": "2026-04-29",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2604.26946v1",
-      "authors": "Wanrong Zheng, Yunhao Ge et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Bi-Level Optimization for Contact and Motion Planning in Rope-Assisted Legged Robots",
-      "summary": "This paper presents a planning pipeline framework for locomotion in rope-assisted robots climbing vertical surfaces. The proposed framework is formulated as a bi-level optimization scheme that addresses a mixed-integer problem: selecting feasible ter...",
-      "url": "https://arxiv.org/abs/2604.26910v1",
-      "date": "2026-04-29",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2604.26910v1",
-      "authors": "Ruben Malacarne, Ioannis Tsikelis et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Safe Navigation using Neural Radiance Fields via Reachable Sets",
-      "summary": "Safe navigation in cluttered environments is an important challenge for autonomous systems. Robots navigating through obstacle ridden scenarios need to be able to navigate safely in the presence of obstacles, goals, and ego objects of varying geometr...",
-      "url": "https://arxiv.org/abs/2604.26899v1",
-      "date": "2026-04-29",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2604.26899v1",
-      "authors": "Omanshu Thapliyal, Malarvizhi Sankaranarayanasamy et al.",
       "tags": [
         "机器人学习",
         "研究论文",
