@@ -28,6 +28,86 @@
       ]
     },
     {
+      "title": "Zero-Shot Long-Horizon Dexterous Manipulation via Multi-View 3D-Grounded VLM Reasoning",
+      "summary": "We present a zero-shot framework for long-horizon dexterous manipulation that grounds language instructions into executable 3D task plans from calibrated multi-view RGB images. Rather than training an end-to-end policy, our system uses a vision-langu...",
+      "url": "https://arxiv.org/abs/2606.19340v1",
+      "date": "2026-06-17",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.19340v1",
+      "authors": "Jisoo Kim, Sangwon Baik et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Do as I Do: Dexterous Manipulation Data from Everyday Human Videos",
+      "summary": "How can we scalably generate data for robotic manipulation, especially on human-like platforms such as dexterous multi-fingered hands? Learning from human videos has recently emerged as a likely answer to this question. However, difficulties in estim...",
+      "url": "https://arxiv.org/abs/2606.19333v1",
+      "date": "2026-06-17",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.19333v1",
+      "authors": "Bhawna Paliwal, Haritheja Etukuru et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "UBP2: Uncertainty-Balanced Preference Planning for Efficient Preference-based Reinforcement Learning",
+      "summary": "Preference-based RL provides an approach to learning reward models from pairwise comparisons of behaviors, bypassing the need for explicit reward design. However, existing methods typically rely on passive data collection and suffer from poor sample ...",
+      "url": "https://arxiv.org/abs/2606.19328v1",
+      "date": "2026-06-17",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.19328v1",
+      "authors": "Mohamed Nabail, Leo Cheng et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Modeling Branches for Active Manipulation using Iterative Parameter Estimation",
+      "summary": "This study presents a method for modeling diverse plant branches by iteratively estimating material parameters to support delicate branch manipulation. Branch manipulation is necessary in agricultural robotics for plant repositioning, stabilizing, an...",
+      "url": "https://arxiv.org/abs/2606.19314v1",
+      "date": "2026-06-17",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.19314v1",
+      "authors": "Madhav Rijal, Rashik Shrestha et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Observability and Consistency Analysis for Visual-Inertial Navigation with Anchored Feature Parameterizations",
+      "summary": "This paper presents an analysis of the observability and consistency properties of filtering-based visual-inertial navigation systems (VINS) that utilize anchored feature representations. The unobservable subspace of VINS with anchored landmark param...",
+      "url": "https://arxiv.org/abs/2606.19307v1",
+      "date": "2026-06-17",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.19307v1",
+      "authors": "Mitchell Cohen, Vassili Korotkine et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
       "title": "[工信部、国资委启动2026年度人形机器人与 具 身 智 能 实景实训专项行动",
       "summary": "[工信部、国资委启动2026年度人形机器人与 具 身 智 能 实景实训专项行动",
       "url": "http://36kr.com/p/3846712950934022",
@@ -50,6 +130,32 @@
       "type": "news",
       "tags": [
         "机器人"
+      ]
+    },
+    {
+      "title": "具身智能：钱流向头部，但不流向未来",
+      "summary": "具身智能：钱流向头部，但不流向未来",
+      "url": "http://36kr.com/p/3855438649070857",
+      "date": "2026-06-16",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "2026年，已然成为“具身智能数据规模化元年”。",
+      "summary": "2026年，已然成为“具身智能数据规模化元年”。",
+      "url": "http://36kr.com/p/3855538404988167",
+      "date": "2026-06-16",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
       ]
     },
     {
@@ -130,32 +236,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "具身智能：钱流向头部，但不流向未来",
-      "summary": "具身智能：钱流向头部，但不流向未来",
-      "url": "http://36kr.com/p/3855438649070857",
-      "date": "2026-06-16",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "2026年，已然成为“具身智能数据规模化元年”。",
-      "summary": "2026年，已然成为“具身智能数据规模化元年”。",
-      "url": "http://36kr.com/p/3855538404988167",
-      "date": "2026-06-16",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
       ]
     },
     {
@@ -3023,76 +3103,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "Robust Fusion of Object-Level V2X for Learned 3D Object Detection",
-      "summary": "Perception for automated driving is largely based on onboard environmental sensors, such as cameras and radar, which are cost-effective but limited by line-of-sight and field-of-view constraints. These inherent limitations may cause onboard perceptio...",
-      "url": "https://arxiv.org/abs/2605.00595v1",
-      "date": "2026-05-01",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.00595v1",
-      "authors": "Lukas Ostendorf, Lennart Reiher et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Linking Behaviour and Perception to Evaluate Meaningful Human Control over Partially Automated Driving",
-      "summary": "Partial driving automation creates a tension: drivers remain legally responsible for vehicle behaviour, yet their active control is significantly reduced. This reduction undermines the engagement and sense of agency needed to intervene safely. Meanin...",
-      "url": "https://arxiv.org/abs/2605.00556v1",
-      "date": "2026-05-01",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.00556v1",
-      "authors": "Ashwin George, Lucas Elbert Suryana et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "跨界具身智能，以柔性仿真破训练难题。",
-      "summary": "跨界具身智能，以柔性仿真破训练难题。",
-      "url": "http://36kr.com/p/3788704783801607",
-      "date": "2026-04-30",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "追觅硅谷发布NAVO AI视觉机器人。",
-      "summary": "追觅硅谷发布NAVO AI视觉机器人。",
-      "url": "http://36kr.com/p/3789162434616329",
-      "date": "2026-04-30",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
-      ]
-    },
-    {
-      "title": "成功完成新一轮数亿元Pre-A融资，再度获得资本市场高度认可，并同步正式发布新一代工规级具身智能通用机器人— LDB01 。",
-      "summary": "成功完成新一轮数亿元Pre-A融资，再度获得资本市场高度认可，并同步正式发布新一代工规级具身智能通用机器人— LDB01 。",
-      "url": "http://36kr.com/p/3787913951059207",
-      "date": "2026-04-30",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
       ]
     }
   ]
