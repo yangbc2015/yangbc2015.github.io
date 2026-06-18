@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-06-17",
+  "last_updated": "2026-06-18",
   "count": 200,
   "items": [
     {
       "title": "[火热的 具 身 智 能，藏着半个自动驾驶圈",
       "summary": "[火热的 具 身 智 能，藏着半个自动驾驶圈",
       "url": "http://36kr.com/p/3856635996158851",
-      "date": "2026-06-17",
+      "date": "2026-06-18",
       "source": "36氪",
       "category": "自主系统",
       "type": "news",
@@ -19,7 +19,7 @@
       "title": "[BEV 杀入 具 身 智 能：跨维把机器人数据带上 Scaling 快车道",
       "summary": "[BEV 杀入 具 身 智 能：跨维把机器人数据带上 Scaling 快车道",
       "url": "http://36kr.com/p/3849567168959753",
-      "date": "2026-06-17",
+      "date": "2026-06-18",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
@@ -130,6 +130,32 @@
         "机器人学习",
         "研究论文",
         "arXiv"
+      ]
+    },
+    {
+      "title": "具身智能：钱流向头部，但不流向未来",
+      "summary": "具身智能：钱流向头部，但不流向未来",
+      "url": "http://36kr.com/p/3855438649070857",
+      "date": "2026-06-16",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "2026年，已然成为“具身智能数据规模化元年”。",
+      "summary": "2026年，已然成为“具身智能数据规模化元年”。",
+      "url": "http://36kr.com/p/3855538404988167",
+      "date": "2026-06-16",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
       ]
     },
     {
@@ -3067,38 +3093,6 @@
       "tags": [
         "机器人",
         "具身智能"
-      ]
-    },
-    {
-      "title": "OmniRobotHome: A Multi-Camera Platform for Real-Time Multiadic Human-Robot Interaction",
-      "summary": "Human-robot collaboration has been studied primarily in dyadic or sequential settings. However, real homes require multiadic collaboration, where multiple humans and robots share a workspace, acting concurrently on interleaved subtasks with tight spa...",
-      "url": "https://arxiv.org/abs/2604.28197v1",
-      "date": "2026-04-30",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2604.28197v1",
-      "authors": "Junyoung Lee, Sookwan Han et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "LaST-R1: Reinforcing Action via Adaptive Physical Latent Reasoning for VLA Models",
-      "summary": "Vision-Language-Action (VLA) models have increasingly incorporated reasoning mechanisms for complex robotic manipulation. However, existing approaches share a critical limitation: whether employing explicit linguistic reasoning that suffers from late...",
-      "url": "https://arxiv.org/abs/2604.28192v1",
-      "date": "2026-04-30",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2604.28192v1",
-      "authors": "Hao Chen, Jiaming Liu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
       ]
     }
   ]
