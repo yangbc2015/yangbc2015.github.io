@@ -32,7 +32,7 @@
       "model": "glm-5.2",
       "organization": "z-ai",
       "price_prompt": "0.0000012",
-      "price_completion": "0.0000042",
+      "price_completion": "0.0000041",
       "context_length": 1048576
     },
     {

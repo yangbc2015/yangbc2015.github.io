@@ -1,34 +1,50 @@
 {
-  "last_updated": "2026-06-18",
+  "last_updated": "2026-06-19",
   "count": 9,
   "items": [
     {
-      "title": "UBP2: Uncertainty-Balanced Preference Planning for Efficient Preference-based Reinforcement Learning",
-      "authors": "Mohamed Nabail, Leo Cheng, Jingmin Wang et al.",
-      "abstract": "Preference-based RL provides an approach to learning reward models from pairwise comparisons of behaviors, bypassing the need for explicit reward design. However, existing methods typically rely on passive data collection and suffer from poor sample efficiency, especially during the early stages of ...",
+      "title": "How Transparent is DiffusionGemma?",
+      "authors": "Joshua Engels, Callum McDougall, Bilal Chughtai et al.",
+      "abstract": "LLM reasoning transparency is a critical affordance for understanding model decisions, mitigating misuse and misalignment, and debugging surprising model behaviors. However, DiffusionGemma performs a larger fraction of its computation in a continuous latent space; does this make its reasoning less t...",
       "venue": "arXiv",
-      "date": "2026-06-17",
-      "arxiv_id": "2606.19328v1",
-      "url": "https://arxiv.org/abs/2606.19328v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.19328v1.pdf",
+      "date": "2026-06-18",
+      "arxiv_id": "2606.20560v1",
+      "url": "https://arxiv.org/abs/2606.20560v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.20560v1.pdf",
       "categories": [
         "cs.LG",
-        "cs.AI",
-        "cs.RO"
+        "cs.AI"
       ],
       "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Rethinking Reward Supervision: Rubric-Conditioned Self-Distillation",
-      "authors": "Siyi Gu, Jialin Chen, Sophia Zhou et al.",
-      "abstract": "Post-training of reasoning language models is commonly driven by supervised distillation and reinforcement learning with verifiable rewards. Distillation often relies on chain-of-thought annotations that are expensive to obtain and may themselves be noisy, incomplete, or partially incorrect; even wh...",
+      "title": "Structuring and Tokenizing Distributed User Interest Context for Generative Recommendation",
+      "authors": "Ruizhong Qiu, Yinglong Xia, Dongqi Fu et al.",
+      "abstract": "Generative recommendation is an emerging paradigm that has shown promise in industrial recommendation systems, aiming to predict users' next interactions from their historical behaviors. At the core of generative recommendation lies item tokenization, which bridges item semantics and recommendation ...",
       "venue": "arXiv",
-      "date": "2026-06-17",
-      "arxiv_id": "2606.19327v1",
-      "url": "https://arxiv.org/abs/2606.19327v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.19327v1.pdf",
+      "date": "2026-06-18",
+      "arxiv_id": "2606.20554v1",
+      "url": "https://arxiv.org/abs/2606.20554v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.20554v1.pdf",
+      "categories": [
+        "cs.IR",
+        "cs.AI"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "LedgerAgent: Structured State for Policy-Adherent Tool-Calling Agents",
+      "authors": "Md Nayem Uddin, Amir Saeidi, Eduardo Blanco et al.",
+      "abstract": "Policy-adherent tool-calling agents in customer-service domains must maintain task states across turns while calling tools and obeying domain policies. Task states consist of relevant facts, identifiers, constraints, and conditions observed through user interaction and tool calls. In standard agents...",
+      "venue": "arXiv",
+      "date": "2026-06-18",
+      "arxiv_id": "2606.20529v1",
+      "url": "https://arxiv.org/abs/2606.20529v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.20529v1.pdf",
       "categories": [
         "cs.AI",
         "cs.CL"
@@ -38,49 +54,16 @@
       "source": "arXiv"
     },
     {
-      "title": "Native Active Perception as Reasoning for Omni-Modal Understanding",
-      "authors": "Zhenghao Xing, Ruiyang Xu, Yuxuan Wang et al.",
-      "abstract": "Passive models for long video understanding typically rely on a \"watch-it-all\" paradigm, processing frames uniformly regardless of query difficulty, causing computational cost to grow with video duration. Although interactive frameworks have emerged, they often rely on global pre-scanning, and their...",
+      "title": "StylisticBias: A Few Human Visual Cues Drive Most Social Biases in MLLMs",
+      "authors": "Shaghayegh Kolli, Timo Cavelius, Nafiseh Nikeghbal et al.",
+      "abstract": "Multimodal large language models (MLLMs) are increasingly deployed in personally and societally consequential settings, yet the visual cues that shape how these models judge people remain poorly understood. Prior work often compares different (groups of) individuals, making it difficult to separate ...",
       "venue": "arXiv",
-      "date": "2026-06-17",
-      "arxiv_id": "2606.19341v1",
-      "url": "https://arxiv.org/abs/2606.19341v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.19341v1.pdf",
+      "date": "2026-06-18",
+      "arxiv_id": "2606.20527v1",
+      "url": "https://arxiv.org/abs/2606.20527v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.20527v1.pdf",
       "categories": [
-        "cs.CV",
         "cs.CL",
-        "cs.SD"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Learning User Simulators with Turing Rewards",
-      "authors": "Yingshan Susan Wang, Cedegao E. Zhang, Linlu Qiu et al.",
-      "abstract": "Learning to simulate human users in interactive settings could advance the training of agent assistants, evaluation of personalization systems, research in the social sciences, and more. Existing approaches generally do so by training a large language model (LLM) to match a single ground truth respo...",
-      "venue": "arXiv",
-      "date": "2026-06-17",
-      "arxiv_id": "2606.19336v1",
-      "url": "https://arxiv.org/abs/2606.19336v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.19336v1.pdf",
-      "categories": [
-        "cs.CL"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Beyond the Current Observation: Evaluating Multimodal Large Language Models in Controllable Non-Markov Games",
-      "authors": "Shengyuan Ding, Xilin Wei, Xinyu Fang et al.",
-      "abstract": "Deploying multimodal foundation models as closed-loop policies increasingly requires conditioning actions on observations that are no longer visible. However, existing benchmarks either expose the full state, conflate hidden-state reconstruction with other agent skills, or test recall only after an ...",
-      "venue": "arXiv",
-      "date": "2026-06-17",
-      "arxiv_id": "2606.19338v1",
-      "url": "https://arxiv.org/abs/2606.19338v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.19338v1.pdf",
-      "categories": [
         "cs.CV"
       ],
       "type": "nlp",
@@ -88,49 +71,63 @@
       "source": "arXiv"
     },
     {
-      "title": "Freeing the Law with LOCUS: A Local Ordinance Corpus for the United States",
-      "authors": "Denis Peskoff, Joe Barrow, Christopher Vu et al.",
-      "abstract": "Progress in legal AI increasingly depends on access to authoritative legal text at scale. Yet one of the most consequential layers of American law remains largely absent from existing machine-readable corpora: local ordinances. Local codes govern zoning, housing, business licensing, public health, n...",
+      "title": "JanusMesh: Fast and Zero-Shot 3D Visual Illusion Generation via Cross-Space Denoising",
+      "authors": "Siang-Ling Zhang, Huai-Hsun Cheng, Tsung-Ju Yang et al.",
+      "abstract": "Creating 3D visual illusions, a single 3D mesh that reveals entirely different semantics from various viewing angles, is a fascinating but tough challenge. Existing optimization-based methods are slow and can produce oversaturated colors. In contrast, naive stitching approaches fail to produce geome...",
       "venue": "arXiv",
-      "date": "2026-06-17",
-      "arxiv_id": "2606.19334v1",
-      "url": "https://arxiv.org/abs/2606.19334v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.19334v1.pdf",
+      "date": "2026-06-18",
+      "arxiv_id": "2606.20563v1",
+      "url": "https://arxiv.org/abs/2606.20563v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.20563v1.pdf",
       "categories": [
-        "cs.CL",
-        "cs.CY",
-        "cs.LG"
+        "cs.CV"
       ],
-      "type": "nlp",
+      "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "The Chandra-Gaia Catalog of Counterparts: Resolving ambiguous Gaia matches to X-ray sources in the Chandra Source Catalog using Machine Learning",
-      "authors": "V. Samuel Pérez-Díaz, Vinay L. Kashyap, Joshua D. Ingram et al.",
-      "abstract": "We present a framework to cross-match sources from the Chandra Source Catalog (CSC v2.1) with optical sources from Gaia Data Release 3. Unlike purely spatial approaches, we use source properties such as magnitudes, colors, and distances to identify true counterparts, detect chance coincidences, and ...",
+      "title": "TimeProVe: Propose, then Verify for Efficient Long Video Temporal Reasoning in Activities of Daily Living",
+      "authors": "Arkaprava Sinha, Dominick Reilly, Siddharth Krishnan et al.",
+      "abstract": "Long Video Question Answering (LVQA) requires identifying sparse, query-relevant evidence within hours-long untrimmed videos. Existing approaches either process videos densely with large vision-language models (VLMs), incurring prohibitive computational cost, or rely on sparse caption-based reasonin...",
       "venue": "arXiv",
-      "date": "2026-06-17",
-      "arxiv_id": "2606.19329v1",
-      "url": "https://arxiv.org/abs/2606.19329v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.19329v1.pdf",
+      "date": "2026-06-18",
+      "arxiv_id": "2606.20561v1",
+      "url": "https://arxiv.org/abs/2606.20561v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.20561v1.pdf",
       "categories": [
-        "astro-ph.IM",
-        "cs.LG"
+        "cs.CV"
       ],
-      "type": "ml",
+      "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Zero-Shot Long-Horizon Dexterous Manipulation via Multi-View 3D-Grounded VLM Reasoning",
-      "authors": "Jisoo Kim, Sangwon Baik, Taeksoo Kim et al.",
-      "abstract": "We present a zero-shot framework for long-horizon dexterous manipulation that grounds language instructions into executable 3D task plans from calibrated multi-view RGB images. Rather than training an end-to-end policy, our system uses a vision-language model (VLM) to produce reference-frame task gr...",
+      "title": "UNIEGO: Proxies as Mediators for Unified Egocentric Video Representation Learning",
+      "authors": "Wenhao Chi, Arkaprava Sinha, Dominick Reilly et al.",
+      "abstract": "Egocentric video understanding is inherently limited by the narrow perspective of wearable cameras: a single viewpoint, a single modality, a single model cannot capture the full richness of human action. We argue that a truly expressive egocentric representation must subsume complementary knowledge ...",
       "venue": "arXiv",
-      "date": "2026-06-17",
-      "arxiv_id": "2606.19340v1",
-      "url": "https://arxiv.org/abs/2606.19340v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.19340v1.pdf",
+      "date": "2026-06-18",
+      "arxiv_id": "2606.20559v1",
+      "url": "https://arxiv.org/abs/2606.20559v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.20559v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "MemoryWAM: Efficient World Action Modeling with Persistent Memory",
+      "authors": "Sizhe Yang, Juncheng Mu, Tianming Wei et al.",
+      "abstract": "Robust robotic manipulation in the real world requires not only an understanding of the current observation, but also memory and dynamics modeling. World action models (WAMs) possess these capabilities by jointly modeling visual foresight and actions conditioned on both current and historical observ...",
+      "venue": "arXiv",
+      "date": "2026-06-18",
+      "arxiv_id": "2606.20562v1",
+      "url": "https://arxiv.org/abs/2606.20562v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.20562v1.pdf",
       "categories": [
         "cs.RO"
       ],
@@ -139,19 +136,18 @@
       "source": "arXiv"
     },
     {
-      "title": "Do as I Do: Dexterous Manipulation Data from Everyday Human Videos",
-      "authors": "Bhawna Paliwal, Haritheja Etukuru, William Liang et al.",
-      "abstract": "How can we scalably generate data for robotic manipulation, especially on human-like platforms such as dexterous multi-fingered hands? Learning from human videos has recently emerged as a likely answer to this question. However, difficulties in estimating hand-object interaction and crossing the hum...",
+      "title": "Generating Robot Hands from Human Demonstrations",
+      "authors": "Sha Yi, Nicklas Hansen, Xueqian Bai et al.",
+      "abstract": "Robot learning has advanced rapidly in learning control, but learning the physical body of a robot remains much more difficult because jointly searching over design and control creates a very large combinatorial problem. Here, we present a data-driven framework for generating robot hands from human ...",
       "venue": "arXiv",
-      "date": "2026-06-17",
-      "arxiv_id": "2606.19333v1",
-      "url": "https://arxiv.org/abs/2606.19333v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.19333v1.pdf",
+      "date": "2026-06-18",
+      "arxiv_id": "2606.20549v1",
+      "url": "https://arxiv.org/abs/2606.20549v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.20549v1.pdf",
       "categories": [
-        "cs.RO",
-        "cs.CV"
+        "cs.RO"
       ],
-      "type": "vision",
+      "type": "ai",
       "badge": "arxiv",
       "source": "arXiv"
     }
