@@ -28,6 +28,86 @@
       ]
     },
     {
+      "title": "MemoryWAM: Efficient World Action Modeling with Persistent Memory",
+      "summary": "Robust robotic manipulation in the real world requires not only an understanding of the current observation, but also memory and dynamics modeling. World action models (WAMs) possess these capabilities by jointly modeling visual foresight and actions...",
+      "url": "https://arxiv.org/abs/2606.20562v1",
+      "date": "2026-06-18",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.20562v1",
+      "authors": "Sizhe Yang, Juncheng Mu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Generating Robot Hands from Human Demonstrations",
+      "summary": "Robot learning has advanced rapidly in learning control, but learning the physical body of a robot remains much more difficult because jointly searching over design and control creates a very large combinatorial problem. Here, we present a data-drive...",
+      "url": "https://arxiv.org/abs/2606.20549v1",
+      "date": "2026-06-18",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.20549v1",
+      "authors": "Sha Yi, Nicklas Hansen et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "The Token Is a Group Element: On Lie-Algebra Attention over Matrix Lie Groups",
+      "summary": "We place the attention token on the group: a token is an element $gi$ of a matrix Lie group $G$ -- a bare transformation, with no feature payload and no external action $ρ(g)$ carrying it. To our knowledge this is the first attention construction wh...",
+      "url": "https://arxiv.org/abs/2606.20547v1",
+      "date": "2026-06-18",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.20547v1",
+      "authors": "Przemyslaw Musialski",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Increasing Resilience of Continuum Robots via Motion Planning Algorithms",
+      "summary": "This paper presents an experimental study of motion planning for resilient continuum robots. In this study we mainly focused on multi-criteria decision-making, its application for path-planning algorithms, impact on the generated path and execution t...",
+      "url": "https://arxiv.org/abs/2606.20495v1",
+      "date": "2026-06-18",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.20495v1",
+      "authors": "Oxana Shamilyan, Ievgen Kabin et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Fast Human Attention Prediction for Fixation-guided Active Perception in Autonomous Navigation",
+      "summary": "Human visual attention relies on structured scanpaths to efficiently process scenes, yet instilling this behavior into robot autonomy is in its infancy and hindered by the high,computational costs of existing predictive models. To address this, we in...",
+      "url": "https://arxiv.org/abs/2606.20491v1",
+      "date": "2026-06-18",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.20491v1",
+      "authors": "Fatma Youssef Mohammed, Grzegorz Malczyk et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
       "title": "An Infrastructure-less, Control-Independent Solution to Relative Localisation of a Team of Mobile Robots using Ranging Measurements",
       "summary": "The ability to localise teams of robots is essential for applications ranging from robotic fleets in unstructured environments to cooperative control and navigation tasks. In such contexts, fixed infrastructure is often unavailable, deployments must ...",
       "url": "https://arxiv.org/abs/2606.20365v1",
@@ -3019,86 +3099,6 @@
       "type": "paper",
       "arxiv_id": "2605.03846v1",
       "authors": "Shiyi Chen, Haiyi Liu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "SOAR: Real-Time Joint Optimization of Order Allocation and Robot Scheduling in Robotic Mobile Fulfillment Systems",
-      "summary": "Robotic Mobile Fulfillment Systems (RMFS) rely on mobile robots for automated inventory transportation, coordinating order allocation and robot scheduling to enhance warehousing efficiency. However, optimizing RMFS is challenging due to strict real-t...",
-      "url": "https://arxiv.org/abs/2605.03842v1",
-      "date": "2026-05-05",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.03842v1",
-      "authors": "Yibang Tang, Yifan Yang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "RoboAlign-R1: Distilled Multimodal Reward Alignment for Robot Video World Models",
-      "summary": "Existing robot video world models are typically trained with low-level objectives such as reconstruction and perceptual similarity, which are poorly aligned with the capabilities that matter most for robot decision making, including instruction follo...",
-      "url": "https://arxiv.org/abs/2605.03821v1",
-      "date": "2026-05-05",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.03821v1",
-      "authors": "Hao Wu, Yuqi Li et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "MolmoAct2: Action Reasoning Models for Real-world Deployment",
-      "summary": "Vision-Language-Action (VLA) models aim to provide a single generalist controller for robots, but today's systems fall short on the criteria that matter for real-world deployment. Frontier models are closed, open-weight alternatives are tied to expen...",
-      "url": "https://arxiv.org/abs/2605.02881v1",
-      "date": "2026-05-04",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.02881v1",
-      "authors": "Haoquan Fang, Jiafei Duan et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Enhancing RL Generalizability in Robotics through SHAP Analysis of Algorithms and Hyperparameters",
-      "summary": "Despite significant advances in Reinforcement Learning (RL), model performance remains highly sensitive to algorithm and hyperparameter configurations, while generalization gaps across environments complicate real-world deployment. Although prior wor...",
-      "url": "https://arxiv.org/abs/2605.02867v1",
-      "date": "2026-05-04",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.02867v1",
-      "authors": "Lingxiao Kong, Cong Yang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Semantic Risk-Aware Heuristic Planning for Robotic Navigation in Dynamic Environments: An LLM-Inspired Approach",
-      "summary": "The integration of Large Language Model (LLM) reasoning principles into classical robot path planning represents a rapidly emerging research direction. In this paper, we propose a Semantic Risk-Aware Heuristic (SRAH) planner that encodes LLM-inspired...",
-      "url": "https://arxiv.org/abs/2605.02862v1",
-      "date": "2026-05-04",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.02862v1",
-      "authors": "Hamza Ahmed Durrani, Rafay Suleman Durrani",
       "tags": [
         "机器人学习",
         "研究论文",
