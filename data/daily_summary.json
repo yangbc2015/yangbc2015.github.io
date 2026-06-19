@@ -8,18 +8,6 @@
       "count": 5,
       "items": [
         {
-          "title": "Markdown Content:",
-          "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-          "summary": "Markdown Content:...",
-          "date": "2026-06-18",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
           "title": "DeepSeek识图模式全量上线，却认不出自家老板梁文锋",
           "link": "https://www.jiqizhixin.com/search/articles/DeepSeek识图模式全量上",
           "summary": "DeepSeek识图模式全量上线，却认不出自家老板梁文锋...",
@@ -61,6 +49,18 @@
           "summary": "人形机器人不再「走走停停」：Current Robotics发布全身灵巧操作模型Curr-0...",
           "date": "2026-06-18",
           "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "AI实现药物全自动研发，还远吗？",
+          "link": "https://www.qbitai.com/?s=AI实现药物全自动研",
+          "summary": "AI实现药物全自动研发，还远吗？...",
+          "date": "2026-06-19",
+          "source": "量子位",
           "type": "industry",
           "tags": [
             "AI",
