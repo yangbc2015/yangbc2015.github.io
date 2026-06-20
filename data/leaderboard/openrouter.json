@@ -47,8 +47,8 @@
       "rank": 6,
       "model": "kimi-k2.7-code",
       "organization": "moonshotai",
-      "price_prompt": "0.00000068",
-      "price_completion": "0.00000341",
+      "price_prompt": "0.000000612",
+      "price_completion": "0.000003069",
       "context_length": 262144
     },
     {

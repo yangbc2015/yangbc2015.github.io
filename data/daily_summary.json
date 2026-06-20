@@ -1,6 +1,6 @@
 {
-  "date": "2026-06-19",
-  "last_updated": "2026-06-19",
+  "date": "2026-06-20",
+  "last_updated": "2026-06-20",
   "categories": {
     "ai": {
       "name": "人工智能",
@@ -8,59 +8,59 @@
       "count": 5,
       "items": [
         {
-          "title": "DeepSeek识图模式全量上线，却认不出自家老板梁文锋",
-          "link": "https://www.jiqizhixin.com/search/articles/DeepSeek识图模式全量上",
-          "summary": "DeepSeek识图模式全量上线，却认不出自家老板梁文锋...",
-          "date": "2026-06-18",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
-          "title": "比英伟达早，比李飞飞强，大晓Kairos原生一体化世界模型定义物理AI新路线",
-          "link": "https://www.jiqizhixin.com/search/articles/比英伟达早，比李飞飞强，大晓K",
-          "summary": "比英伟达早，比李飞飞强，大晓Kairos原生一体化世界模型定义物理AI新路线...",
-          "date": "2026-06-18",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
-          "title": "GPT‑5.4+化学智能体，OpenAI让AI自主优化药物反应，同步上线生命科学基准LifeSciBench",
-          "link": "https://www.jiqizhixin.com/search/articles/GPT‑5.4+化学智能体，O",
-          "summary": "GPT‑5.4+化学智能体，OpenAI让AI自主优化药物反应，同步上线生命科学基准LifeSciBench...",
-          "date": "2026-06-18",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
-          "title": "人形机器人不再「走走停停」：Current Robotics发布全身灵巧操作模型Curr-0",
-          "link": "https://www.jiqizhixin.com/search/articles/人形机器人不再「走走停停」：C",
-          "summary": "人形机器人不再「走走停停」：Current Robotics发布全身灵巧操作模型Curr-0...",
-          "date": "2026-06-18",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
-          "title": "AI实现药物全自动研发，还远吗？",
-          "link": "https://www.qbitai.com/?s=AI实现药物全自动研",
-          "summary": "AI实现药物全自动研发，还远吗？...",
+          "title": "Markdown Content:",
+          "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+          "summary": "Markdown Content:...",
           "date": "2026-06-19",
-          "source": "量子位",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "马斯克说明年Q1，唐杰说用不了那么久，谁在闷头做中国的Mythos？",
+          "link": "https://www.jiqizhixin.com/search/articles/马斯克说明年Q1，唐杰说用不了",
+          "summary": "马斯克说明年Q1，唐杰说用不了那么久，谁在闷头做中国的Mythos？...",
+          "date": "2026-06-19",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "Claude Code史诗级更新，突破终端，把工作实时变成网页看板",
+          "link": "https://www.jiqizhixin.com/search/articles/Claude Code史诗级更",
+          "summary": "Claude Code史诗级更新，突破终端，把工作实时变成网页看板...",
+          "date": "2026-06-19",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "GLM-5.2全球免费6小时，马斯克点赞，HuggingFace掏钱",
+          "link": "https://www.jiqizhixin.com/search/articles/GLM-5.2全球免费6小时，",
+          "summary": "GLM-5.2全球免费6小时，马斯克点赞，HuggingFace掏钱...",
+          "date": "2026-06-19",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "ICML 2026｜Agent通讯的「运营商」哪家强？UIUC团队发布ProtocolBench",
+          "link": "https://www.jiqizhixin.com/search/articles/ICML 2026｜Agent",
+          "summary": "ICML 2026｜Agent通讯的「运营商」哪家强？UIUC团队发布ProtocolBench...",
+          "date": "2026-06-19",
+          "source": "机器之心",
           "type": "industry",
           "tags": [
             "AI",
