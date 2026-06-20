@@ -1,7 +1,7 @@
 {
   "last_updated": "2026-06-20",
   "count": 200,
-  "history_count": 203,
+  "history_count": 200,
   "retention_days": 30,
   "items": [
     {
@@ -65,9 +65,9 @@
       ]
     },
     {
-      "title": "Published Time: Wed, 01 Apr 2026 16:06:33 GMT",
+      "title": "Published Time: Thu, 08 May 2025 23:15:48 GMT",
       "link": "https://techcrunch.com/category/artificial-intelligence/",
-      "summary": "Published Time: Wed, 01 Apr 2026 16:06:33 GMT...",
+      "summary": "Published Time: Thu, 08 May 2025 23:15:48 GMT...",
       "date": "2026-06-20",
       "source": "TechCrunch",
       "type": "industry",
@@ -106,18 +106,6 @@
       "summary": "砸2亿只为“喂”数据？星海图在WDC上扔出三个信号弹。...",
       "date": "2026-06-20",
       "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Markdown Content:",
-      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-      "summary": "Markdown Content:...",
-      "date": "2026-06-19",
-      "source": "机器之心",
       "type": "industry",
       "tags": [
         "AI",
@@ -176,6 +164,18 @@
       "title": "超越SONIC！人形机器人「小脑」的GPT时刻来了，还有史上最大动捕数据，整整20亿帧",
       "link": "https://www.jiqizhixin.com/search/articles/超越SONIC！人形机器人「小",
       "summary": "超越SONIC！人形机器人「小脑」的GPT时刻来了，还有史上最大动捕数据，整整20亿帧...",
+      "date": "2026-06-19",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "Markdown Content:",
+      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+      "summary": "Markdown Content:...",
       "date": "2026-06-19",
       "source": "机器之心",
       "type": "industry",
