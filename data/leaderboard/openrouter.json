@@ -17,7 +17,7 @@
       "organization": "google",
       "price_prompt": "0.000002",
       "price_completion": "0.000012",
-      "context_length": 131072
+      "context_length": 65536
     },
     {
       "rank": 3,
