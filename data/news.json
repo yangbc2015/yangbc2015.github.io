@@ -1,7 +1,7 @@
 {
   "last_updated": "2026-06-21",
   "count": 200,
-  "history_count": 200,
+  "history_count": 201,
   "retention_days": 30,
   "items": [
     {
@@ -65,27 +65,15 @@
       ]
     },
     {
-      "title": "*   [Latest](http://techcrunch.com/latest/)",
+      "title": "Published Time: Thu, 08 May 2025 23:15:48 GMT",
       "link": "https://techcrunch.com/category/artificial-intelligence/",
-      "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
+      "summary": "Published Time: Thu, 08 May 2025 23:15:48 GMT...",
       "date": "2026-06-21",
       "source": "TechCrunch",
       "type": "industry",
       "tags": [
         "AI",
         "Artificial Intelligence"
-      ]
-    },
-    {
-      "title": "Markdown Content:",
-      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-      "summary": "Markdown Content:...",
-      "date": "2026-06-20",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
       ]
     },
     {
@@ -140,6 +128,30 @@
       "title": "AI接管数字世界！华为Claw-Anything：面向跨设备、跨时间、跨服务的Claw评测与数据引擎",
       "link": "https://www.jiqizhixin.com/search/articles/AI接管数字世界！华为Claw",
       "summary": "AI接管数字世界！华为Claw-Anything：面向跨设备、跨时间、跨服务的Claw评测与数据引擎...",
+      "date": "2026-06-20",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "诺奖得主出走：AlphaFold核心缔造者告别谷歌，投奔Anthropic",
+      "link": "https://www.jiqizhixin.com/search/articles/诺奖得主出走：AlphaFol",
+      "summary": "诺奖得主出走：AlphaFold核心缔造者告别谷歌，投奔Anthropic...",
+      "date": "2026-06-20",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "Markdown Content:",
+      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+      "summary": "Markdown Content:...",
       "date": "2026-06-20",
       "source": "机器之心",
       "type": "industry",
@@ -2384,18 +2396,6 @@
       "title": "CVPR丹佛之约｜上海AI Lab“北极星X星启”交流会盛邀全球AI英才",
       "link": "https://www.jiqizhixin.com/search/articles/CVPR丹佛之约｜上海AI L",
       "summary": "CVPR丹佛之约｜上海AI Lab“北极星X星启”交流会盛邀全球AI英才...",
-      "date": "2026-05-26",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "从OpenAI AI Phone到Gemini on Android：AI手机时代需要怎样的Agent Harness？",
-      "link": "https://www.jiqizhixin.com/search/articles/从OpenAI AI Phon",
-      "summary": "从OpenAI AI Phone到Gemini on Android：AI手机时代需要怎样的Agent Harness？...",
       "date": "2026-05-26",
       "source": "机器之心",
       "type": "industry",

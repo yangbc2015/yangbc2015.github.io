@@ -8,18 +8,6 @@
       "count": 5,
       "items": [
         {
-          "title": "Markdown Content:",
-          "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-          "summary": "Markdown Content:...",
-          "date": "2026-06-20",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
           "title": "哈？改个URL就行！alphaXiv甩出论文复现神器，单卡也能跑",
           "link": "https://www.jiqizhixin.com/search/articles/哈？改个URL就行！alpha",
           "summary": "哈？改个URL就行！alphaXiv甩出论文复现神器，单卡也能跑...",
@@ -59,6 +47,18 @@
           "title": "沿着何恺明团队「漂移模型」再走一步：奖励只需排名，单步文生图偏好优化提速3.51倍",
           "link": "https://www.jiqizhixin.com/search/articles/沿着何恺明团队「漂移模型」再走",
           "summary": "沿着何恺明团队「漂移模型」再走一步：奖励只需排名，单步文生图偏好优化提速3.51倍...",
+          "date": "2026-06-20",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "AI接管数字世界！华为Claw-Anything：面向跨设备、跨时间、跨服务的Claw评测与数据引擎",
+          "link": "https://www.jiqizhixin.com/search/articles/AI接管数字世界！华为Claw",
+          "summary": "AI接管数字世界！华为Claw-Anything：面向跨设备、跨时间、跨服务的Claw评测与数据引擎...",
           "date": "2026-06-20",
           "source": "机器之心",
           "type": "industry",
