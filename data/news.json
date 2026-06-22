@@ -1,7 +1,7 @@
 {
   "last_updated": "2026-06-22",
   "count": 200,
-  "history_count": 205,
+  "history_count": 201,
   "retention_days": 30,
   "items": [
     {
@@ -77,18 +77,6 @@
       ]
     },
     {
-      "title": "Markdown Content:",
-      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-      "summary": "Markdown Content:...",
-      "date": "2026-06-21",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
       "title": "经典之作PPO算法：曾被NeurIPS拒了",
       "link": "https://www.jiqizhixin.com/search/articles/经典之作PPO算法：曾被Neu",
       "summary": "经典之作PPO算法：曾被NeurIPS拒了...",
@@ -140,6 +128,30 @@
       "title": "ICML 2026 | 大模型越训越自信，却越采不到新解？LED给LRM找回探索上限",
       "link": "https://www.jiqizhixin.com/search/articles/ICML 2026 | 大模型",
       "summary": "ICML 2026 | 大模型越训越自信，却越采不到新解？LED给LRM找回探索上限...",
+      "date": "2026-06-21",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "ICML 2026｜从「鉴伪」到「修复」，AI图像取证进入闭环时代",
+      "link": "https://www.jiqizhixin.com/search/articles/ICML 2026｜从「鉴伪」",
+      "summary": "ICML 2026｜从「鉴伪」到「修复」，AI图像取证进入闭环时代...",
+      "date": "2026-06-21",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "Markdown Content:",
+      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+      "summary": "Markdown Content:...",
       "date": "2026-06-21",
       "source": "机器之心",
       "type": "industry",
@@ -2384,18 +2396,6 @@
       "title": "你要做旁观者，还是定义者？中关村两院全球寻找「AI时代架构师」",
       "link": "https://www.jiqizhixin.com/search/articles/你要做旁观者，还是定义者？中关",
       "summary": "你要做旁观者，还是定义者？中关村两院全球寻找「AI时代架构师」...",
-      "date": "2026-05-27",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "具身智能迈入下半场，RoboMemArena全面评测机器人记忆系统",
-      "link": "https://www.jiqizhixin.com/search/articles/具身智能迈入下半场，RoboM",
-      "summary": "具身智能迈入下半场，RoboMemArena全面评测机器人记忆系统...",
       "date": "2026-05-27",
       "source": "机器之心",
       "type": "industry",
