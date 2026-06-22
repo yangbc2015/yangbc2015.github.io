@@ -1,6 +1,6 @@
 {
-  "date": "2026-06-21",
-  "last_updated": "2026-06-21",
+  "date": "2026-06-22",
+  "last_updated": "2026-06-22",
   "categories": {
     "ai": {
       "name": "人工智能",
@@ -8,59 +8,59 @@
       "count": 5,
       "items": [
         {
-          "title": "哈？改个URL就行！alphaXiv甩出论文复现神器，单卡也能跑",
-          "link": "https://www.jiqizhixin.com/search/articles/哈？改个URL就行！alpha",
-          "summary": "哈？改个URL就行！alphaXiv甩出论文复现神器，单卡也能跑...",
-          "date": "2026-06-20",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
-          "title": "CameraSquad：精准运镜，多视角一致——视频世界模型的空间智能新范式",
-          "link": "https://www.jiqizhixin.com/search/articles/CameraSquad：精准运",
-          "summary": "CameraSquad：精准运镜，多视角一致——视频世界模型的空间智能新范式...",
-          "date": "2026-06-20",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
-          "title": "谷歌：我手握最多诺奖得主，为啥就留不住他们？",
-          "link": "https://www.jiqizhixin.com/search/articles/谷歌：我手握最多诺奖得主，为啥",
-          "summary": "谷歌：我手握最多诺奖得主，为啥就留不住他们？...",
-          "date": "2026-06-20",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
-          "title": "沿着何恺明团队「漂移模型」再走一步：奖励只需排名，单步文生图偏好优化提速3.51倍",
-          "link": "https://www.jiqizhixin.com/search/articles/沿着何恺明团队「漂移模型」再走",
-          "summary": "沿着何恺明团队「漂移模型」再走一步：奖励只需排名，单步文生图偏好优化提速3.51倍...",
-          "date": "2026-06-20",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
-          "title": "为了让你烧token，英伟达已经卷到机器人身上了",
-          "link": "https://www.qbitai.com/?s=为了让你烧token",
-          "summary": "为了让你烧token，英伟达已经卷到机器人身上了...",
+          "title": "Markdown Content:",
+          "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+          "summary": "Markdown Content:...",
           "date": "2026-06-21",
-          "source": "量子位",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "经典之作PPO算法：曾被NeurIPS拒了",
+          "link": "https://www.jiqizhixin.com/search/articles/经典之作PPO算法：曾被Neu",
+          "summary": "经典之作PPO算法：曾被NeurIPS拒了...",
+          "date": "2026-06-21",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "「机器学习之父」Jordan：Hinton等「思想领袖们」正在伤害年轻一代",
+          "link": "https://www.jiqizhixin.com/search/articles/「机器学习之父」Jordan：",
+          "summary": "「机器学习之父」Jordan：Hinton等「思想领袖们」正在伤害年轻一代...",
+          "date": "2026-06-21",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "靠零食和黑客松，能重振Meta士气吗？",
+          "link": "https://www.jiqizhixin.com/search/articles/靠零食和黑客松，能重振Meta",
+          "summary": "靠零食和黑客松，能重振Meta士气吗？...",
+          "date": "2026-06-21",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "强化学习之父Sutton联手毁灭战士之父Carmack：让机器人进入真实世界打游戏",
+          "link": "https://www.jiqizhixin.com/search/articles/强化学习之父Sutton联手毁",
+          "summary": "强化学习之父Sutton联手毁灭战士之父Carmack：让机器人进入真实世界打游戏...",
+          "date": "2026-06-21",
+          "source": "机器之心",
           "type": "industry",
           "tags": [
             "AI",

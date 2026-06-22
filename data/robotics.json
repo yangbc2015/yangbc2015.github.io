@@ -1,12 +1,24 @@
 {
-  "last_updated": "2026-06-21",
+  "last_updated": "2026-06-22",
   "count": 200,
   "items": [
+    {
+      "title": "[具 身 智 能 的“大广告”时代：伴侣机器人，可能是唯一出路",
+      "summary": "[具 身 智 能 的“大广告”时代：伴侣机器人，可能是唯一出路",
+      "url": "http://36kr.com/p/3863035260992389",
+      "date": "2026-06-22",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
     {
       "title": "[火热的 具 身 智 能，藏着半个自动驾驶圈",
       "summary": "[火热的 具 身 智 能，藏着半个自动驾驶圈",
       "url": "http://36kr.com/p/3856635996158851",
-      "date": "2026-06-21",
+      "date": "2026-06-22",
       "source": "36氪",
       "category": "自主系统",
       "type": "news",
@@ -19,7 +31,7 @@
       "title": "[BEV 杀入 具 身 智 能：跨维把机器人数据带上 Scaling 快车道",
       "summary": "[BEV 杀入 具 身 智 能：跨维把机器人数据带上 Scaling 快车道",
       "url": "http://36kr.com/p/3849567168959753",
-      "date": "2026-06-21",
+      "date": "2026-06-22",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
@@ -3083,22 +3095,6 @@
       "type": "paper",
       "arxiv_id": "2605.03855v1",
       "authors": "Shinas Shaji, Teena Chakkalayil Hassan et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "SigLoMa: Learning Open-World Quadrupedal Loco-Manipulation from Ego-Centric Vision",
-      "summary": "Designing an open-world quadrupedal loco-manipulation system is highly challenging. Traditional reinforcement learning frameworks utilizing exteroception often suffer from extreme sample inefficiency and massive sim-to-real gaps. Furthermore, the inh...",
-      "url": "https://arxiv.org/abs/2605.03846v1",
-      "date": "2026-05-05",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.03846v1",
-      "authors": "Shiyi Chen, Haiyi Liu et al.",
       "tags": [
         "机器人学习",
         "研究论文",

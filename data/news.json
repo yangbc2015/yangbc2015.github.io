@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-06-21",
+  "last_updated": "2026-06-22",
   "count": 200,
-  "history_count": 200,
+  "history_count": 205,
   "retention_days": 30,
   "items": [
     {
       "title": "为了让你烧token，英伟达已经卷到机器人身上了",
       "link": "https://www.qbitai.com/?s=为了让你烧token",
       "summary": "为了让你烧token，英伟达已经卷到机器人身上了...",
-      "date": "2026-06-21",
+      "date": "2026-06-22",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -20,7 +20,7 @@
       "title": "抢人最猛的Meta，似乎先从内部裂开了",
       "link": "https://www.qbitai.com/?s=抢人最猛的Meta，",
       "summary": "抢人最猛的Meta，似乎先从内部裂开了...",
-      "date": "2026-06-21",
+      "date": "2026-06-22",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -32,7 +32,7 @@
       "title": "AI实现药物全自动研发，还远吗？",
       "link": "https://www.qbitai.com/?s=AI实现药物全自动研",
       "summary": "AI实现药物全自动研发，还远吗？...",
-      "date": "2026-06-21",
+      "date": "2026-06-22",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -44,7 +44,7 @@
       "title": "人形机器人正式迈入“GPT时代”",
       "link": "https://www.qbitai.com/?s=人形机器人正式迈入“",
       "summary": "人形机器人正式迈入“GPT时代”...",
-      "date": "2026-06-21",
+      "date": "2026-06-22",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -56,7 +56,7 @@
       "title": "能够直接导入Unity、Unreal Engine等主流引擎进行交互开发",
       "link": "https://www.qbitai.com/?s=能够直接导入Unit",
       "summary": "能够直接导入Unity、Unreal Engine等主流引擎进行交互开发...",
-      "date": "2026-06-21",
+      "date": "2026-06-22",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -68,12 +68,84 @@
       "title": "Published Time: Thu, 08 May 2025 23:15:48 GMT",
       "link": "https://techcrunch.com/category/artificial-intelligence/",
       "summary": "Published Time: Thu, 08 May 2025 23:15:48 GMT...",
-      "date": "2026-06-21",
+      "date": "2026-06-22",
       "source": "TechCrunch",
       "type": "industry",
       "tags": [
         "AI",
         "Artificial Intelligence"
+      ]
+    },
+    {
+      "title": "Markdown Content:",
+      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+      "summary": "Markdown Content:...",
+      "date": "2026-06-21",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "经典之作PPO算法：曾被NeurIPS拒了",
+      "link": "https://www.jiqizhixin.com/search/articles/经典之作PPO算法：曾被Neu",
+      "summary": "经典之作PPO算法：曾被NeurIPS拒了...",
+      "date": "2026-06-21",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "「机器学习之父」Jordan：Hinton等「思想领袖们」正在伤害年轻一代",
+      "link": "https://www.jiqizhixin.com/search/articles/「机器学习之父」Jordan：",
+      "summary": "「机器学习之父」Jordan：Hinton等「思想领袖们」正在伤害年轻一代...",
+      "date": "2026-06-21",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "靠零食和黑客松，能重振Meta士气吗？",
+      "link": "https://www.jiqizhixin.com/search/articles/靠零食和黑客松，能重振Meta",
+      "summary": "靠零食和黑客松，能重振Meta士气吗？...",
+      "date": "2026-06-21",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "强化学习之父Sutton联手毁灭战士之父Carmack：让机器人进入真实世界打游戏",
+      "link": "https://www.jiqizhixin.com/search/articles/强化学习之父Sutton联手毁",
+      "summary": "强化学习之父Sutton联手毁灭战士之父Carmack：让机器人进入真实世界打游戏...",
+      "date": "2026-06-21",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "ICML 2026 | 大模型越训越自信，却越采不到新解？LED给LRM找回探索上限",
+      "link": "https://www.jiqizhixin.com/search/articles/ICML 2026 | 大模型",
+      "summary": "ICML 2026 | 大模型越训越自信，却越采不到新解？LED给LRM找回探索上限...",
+      "date": "2026-06-21",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
       ]
     },
     {
@@ -140,18 +212,6 @@
       "title": "诺奖得主出走：AlphaFold核心缔造者告别谷歌，投奔Anthropic",
       "link": "https://www.jiqizhixin.com/search/articles/诺奖得主出走：AlphaFol",
       "summary": "诺奖得主出走：AlphaFold核心缔造者告别谷歌，投奔Anthropic...",
-      "date": "2026-06-20",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Markdown Content:",
-      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-      "summary": "Markdown Content:...",
       "date": "2026-06-20",
       "source": "机器之心",
       "type": "industry",
@@ -2337,66 +2397,6 @@
       "link": "https://www.jiqizhixin.com/search/articles/具身智能迈入下半场，RoboM",
       "summary": "具身智能迈入下半场，RoboMemArena全面评测机器人记忆系统...",
       "date": "2026-05-27",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "硬件不该让人适应，它应该主动适应你",
-      "link": "https://www.qbitai.com/?s=硬件不该让人适应，它",
-      "summary": "硬件不该让人适应，它应该主动适应你...",
-      "date": "2026-05-27",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "获得了国际机器人研究共同体的高度认可",
-      "link": "https://www.qbitai.com/?s=获得了国际机器人研究",
-      "summary": "获得了国际机器人研究共同体的高度认可...",
-      "date": "2026-05-27",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "原本4亿+token、61美元的账单，直降至12美元",
-      "link": "https://www.qbitai.com/?s=原本4亿+token",
-      "summary": "原本4亿+token、61美元的账单，直降至12美元...",
-      "date": "2026-05-27",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "「AI 医疗新范式」学术论坛在清华召开,多位院士共议AI与医疗新进展与未来",
-      "link": "https://www.jiqizhixin.com/search/articles/「AI 医疗新范式」学术论坛在",
-      "summary": "「AI 医疗新范式」学术论坛在清华召开,多位院士共议AI与医疗新进展与未来...",
-      "date": "2026-05-26",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "CVPR丹佛之约｜上海AI Lab“北极星X星启”交流会盛邀全球AI英才",
-      "link": "https://www.jiqizhixin.com/search/articles/CVPR丹佛之约｜上海AI L",
-      "summary": "CVPR丹佛之约｜上海AI Lab“北极星X星启”交流会盛邀全球AI英才...",
-      "date": "2026-05-26",
       "source": "机器之心",
       "type": "industry",
       "tags": [
