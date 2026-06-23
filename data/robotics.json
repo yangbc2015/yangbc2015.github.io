@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-06-22",
+  "last_updated": "2026-06-23",
   "count": 200,
   "items": [
     {
       "title": "[具 身 智 能 的“大广告”时代：伴侣机器人，可能是唯一出路",
       "summary": "[具 身 智 能 的“大广告”时代：伴侣机器人，可能是唯一出路",
       "url": "http://36kr.com/p/3863035260992389",
-      "date": "2026-06-22",
+      "date": "2026-06-23",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
@@ -18,7 +18,7 @@
       "title": "[火热的 具 身 智 能，藏着半个自动驾驶圈",
       "summary": "[火热的 具 身 智 能，藏着半个自动驾驶圈",
       "url": "http://36kr.com/p/3856635996158851",
-      "date": "2026-06-22",
+      "date": "2026-06-23",
       "source": "36氪",
       "category": "自主系统",
       "type": "news",
@@ -31,12 +31,92 @@
       "title": "[BEV 杀入 具 身 智 能：跨维把机器人数据带上 Scaling 快车道",
       "summary": "[BEV 杀入 具 身 智 能：跨维把机器人数据带上 Scaling 快车道",
       "url": "http://36kr.com/p/3849567168959753",
-      "date": "2026-06-22",
+      "date": "2026-06-23",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
       "tags": [
         "机器人"
+      ]
+    },
+    {
+      "title": "Conflict-Aware Switching for CBF-CLF-Based Multi-Goal Navigation",
+      "summary": "Quadratic programs (QPs) using Control Barrier Functions (CBFs) and Control Lyapunov Functions (CLFs) are widely used for safe control in reach-and-avoid navigation. However, the inherently conflicting nature of CBF and CLF constraints can lead to pe...",
+      "url": "https://arxiv.org/abs/2606.21577v1",
+      "date": "2026-06-19",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.21577v1",
+      "authors": "Rohan Walia, Kevin Leahy",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Robot Critics that Sweat the Small Stuff",
+      "summary": "Large vision-language models contain several priors about the world and object interactions, making them useful critics during inference to steer robot policies towards success. However, closed-loop robot manipulation requires judging small visual di...",
+      "url": "https://arxiv.org/abs/2606.21572v1",
+      "date": "2026-06-19",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.21572v1",
+      "authors": "Sruthi Sudhakar, Junbang Liang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "LOGOS: LiDAR-Only Gaussian Elevation Splatting for Unified Tiny Obstacle Segmentation",
+      "summary": "Robust obstacle segmentation is essential for the safety of intelligent robots, where LiDAR-based perception systems play a fundamental role in the robot-environment interaction. While extensive LiDAR-based approaches have demonstrated high performan...",
+      "url": "https://arxiv.org/abs/2606.21527v1",
+      "date": "2026-06-19",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.21527v1",
+      "authors": "Nan Ming, Yeqiang Qian et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "A Stitch in Time Saves Nine: Preserving Policy Compatibility Under Perception Updates in End-to-End Autonomous Driving",
+      "summary": "End-to-end autonomous driving systems tightly couple perception and decision-making through latent representations. Consequently, updates to perception models can alter these representations and degrade the performance of downstream policies that rem...",
+      "url": "https://arxiv.org/abs/2606.21509v1",
+      "date": "2026-06-19",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.21509v1",
+      "authors": "Yueyuan Li, Yifei Xiao et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "UniviewVLA: A Unified Multiview Vision-Language-Action Model with World Modeling",
+      "summary": "Occluded tasks remain a bottleneck in robot manipulation. Existing solutions either deploy additional physical cameras requiring training-inference camera parity, or rely on explicit 3D reconstruction with high computational cost. Moreover, both appr...",
+      "url": "https://arxiv.org/abs/2606.21501v1",
+      "date": "2026-06-19",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.21501v1",
+      "authors": "Tao Xu, Runhao Zhang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
       ]
     },
     {
@@ -3015,86 +3095,6 @@
       "type": "paper",
       "arxiv_id": "2605.05172v1",
       "authors": "Lakshita Dodeja, Ondrej Biza et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "ConsisVLA-4D: Advancing Spatiotemporal Consistency in Efficient 3D-Perception and 4D-Reasoning for Robotic Manipulation",
-      "summary": "Current Vision-Language-Action (VLA) models primarily focus on mapping 2D observations to actions, but exhibit notable limitations in spatiotemporal perception and reasoning: 1) spatial representations often rely on additional sensors, introducing su...",
-      "url": "https://arxiv.org/abs/2605.05126v1",
-      "date": "2026-05-06",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.05126v1",
-      "authors": "Wei Li, Jizhihui Liu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "LineRides: Line-Guided Reinforcement Learning for Bicycle Robot Stunts",
-      "summary": "Designing reward functions for agile robotic maneuvers in reinforcement learning remains difficult, and demonstration-based approaches often require reference motions that are unavailable for novel platforms or extreme stunts. We present LineRides, a...",
-      "url": "https://arxiv.org/abs/2605.05110v1",
-      "date": "2026-05-06",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.05110v1",
-      "authors": "Seungeun Rho, Shamel Fahmi et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Driver-WM: A Driver-Centric Traffic-Conditioned Latent World Model for In-Cabin Dynamics Rollout",
-      "summary": "Safe L2/L3 driving automation requires anticipating human-in-the-loop reactions during shared-control transitions. While most driving world models forecast the external environment, in-cabin intelligence remains strictly recognition-oriented and lack...",
-      "url": "https://arxiv.org/abs/2605.05092v1",
-      "date": "2026-05-06",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.05092v1",
-      "authors": "Haozhuang Chi, Daosheng Qiu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Task-Aware Scanning Parameter Configuration for Robotic Inspection Using Vision Language Embeddings and Hyperdimensional Computing",
-      "summary": "Robotic laser profiling is widely used for dimensional verification and surface inspection, yet measurement fidelity is often dominated by sensor configuration rather than robot motion. Industrial profilers expose multiple coupled parameters, includi...",
-      "url": "https://arxiv.org/abs/2605.03909v1",
-      "date": "2026-05-05",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.03909v1",
-      "authors": "Zhiling Chen, David Gorsich et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Evaluating Generative Models as Interactive Emergent Representations of Human-Like Collaborative Behavior",
-      "summary": "Human-AI collaboration requires AI agents to understand human behavior for effective coordination. While advances in foundation models show promising capabilities in understanding and showing human-like behavior, their application in embodied collabo...",
-      "url": "https://arxiv.org/abs/2605.03855v1",
-      "date": "2026-05-05",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.03855v1",
-      "authors": "Shinas Shaji, Teena Chakkalayil Hassan et al.",
       "tags": [
         "机器人学习",
         "研究论文",
