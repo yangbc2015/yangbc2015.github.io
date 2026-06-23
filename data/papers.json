@@ -1,156 +1,137 @@
 {
   "last_updated": "2026-06-23",
-  "count": 9,
+  "count": 8,
   "items": [
     {
-      "title": "PaperClaw: Harnessing Agents for Autonomous Research and Human-in-the-Loop Refinement",
-      "authors": "Weiwei Ye, Hangchen Liu, Dongyuan Li et al.",
-      "abstract": "Large language models have become capable reasoners and tool users that write and run code and search the literature, which makes automating the research process itself a realistic goal. We present PAPERCLAW, a harnessed multi-agent system that carries a project autonomously, from a field of study t...",
+      "title": "CoorDex: Coordinating Body and Hand Priors for Continuous Dexterous Humanoid Loco-Manipulation",
+      "authors": "Sikai Li, Shuning Li, Zhenyu Wei et al.",
+      "abstract": "Humanoid loco-manipulation is often simplified into a stop-and-go process: walking to an object, stopping to manipulate it, and then resuming locomotion. It also commonly relies on low degree-of-freedom (DoF) end effectors that behave like an open-close grasp primitive. We introduce CoorDex, a learn...",
       "venue": "arXiv",
-      "date": "2026-06-21",
-      "arxiv_id": "2606.22610v1",
-      "url": "https://arxiv.org/abs/2606.22610v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.22610v1.pdf",
+      "date": "2026-06-22",
+      "arxiv_id": "2606.23680v1",
+      "url": "https://arxiv.org/abs/2606.23680v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.23680v1.pdf",
       "categories": [
-        "cs.AI"
-      ],
-      "type": "ai",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "On the Position Bias of On-Policy Distillation",
-      "authors": "Yan Xie, Sijie Zhu, Tiansheng Wen et al.",
-      "abstract": "On-Policy Distillation (OPD) improves the learning efficiency of standard reinforcement learning through dense, token-level supervision from teachers. In the standard KL objective of OPD, token-level losses are uniformly averaged, implying equal weights for all tokens. However, we discover that not ...",
-      "venue": "arXiv",
-      "date": "2026-06-21",
-      "arxiv_id": "2606.22600v1",
-      "url": "https://arxiv.org/abs/2606.22600v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.22600v1.pdf",
-      "categories": [
-        "cs.LG",
-        "cs.AI"
+        "cs.RO",
+        "cs.AI",
+        "cs.LG"
       ],
       "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Automated sign detection across the Electronic Babylonian Library: A large-scale dataset and end-to-end cuneiform OCR pipeline",
-      "authors": "Wentao Che, Esteban Garcés Arias, Asim Niaz et al.",
-      "abstract": "Learning to read cuneiform tablets is an extremely demanding task; consequently, of the roughly half million excavated tablets, only a small fraction has been analysed by Assyriologists. Computer vision offers a promising avenue for decipherment but requires large, densely annotated datasets. To add...",
+      "title": "Semantic Browsing: Controllable Diversity for Image Generation",
+      "authors": "Sara Dorfman, Maya Vishnevsky, Omer Dahary et al.",
+      "abstract": "Modern text-to-image models excel in visual fidelity and prompt adherence. However, this strict adherence comes at the cost of diversity: generated samples tend to collapse into a single visual interpretation. Existing methods to improve diversity produce outputs driven by incidental variations rath...",
       "venue": "arXiv",
-      "date": "2026-06-21",
-      "arxiv_id": "2606.22608v1",
-      "url": "https://arxiv.org/abs/2606.22608v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.22608v1.pdf",
+      "date": "2026-06-22",
+      "arxiv_id": "2606.23679v1",
+      "url": "https://arxiv.org/abs/2606.23679v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.23679v1.pdf",
       "categories": [
         "cs.CV",
-        "cs.CL"
+        "cs.AI",
+        "cs.GR"
       ],
-      "type": "benchmark",
+      "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Sub-Billion, Super-Frontier: Small Language Models Rival Zero-Shot Frontier LLMs on General and Literary Relation Extraction",
-      "authors": "Despina Christou, Grigorios Tsoumakas",
-      "abstract": "Large language models (LLMs) achieve strong relation extraction (RE), but their computational demands and reliance on proprietary APIs limit deployment in resource-constrained or privacy-sensitive settings. We investigate how far small language models (SLMs) can close this gap across general-domain ...",
+      "title": "Randomized YaRN Improves Length Generalization for Long-Context Reasoning",
+      "authors": "Manas Mehta, Fangcong Yin, Greg Durrett",
+      "abstract": "Large language models (LLMs) are typically pretrained on short sequences and then extended to work on longer sequences with additional training. However, such LLMs still struggle to further generalize to very long sequences. We propose Randomized YaRN, a training method that improves length generali...",
       "venue": "arXiv",
-      "date": "2026-06-21",
-      "arxiv_id": "2606.22606v1",
-      "url": "https://arxiv.org/abs/2606.22606v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.22606v1.pdf",
+      "date": "2026-06-22",
+      "arxiv_id": "2606.23687v1",
+      "url": "https://arxiv.org/abs/2606.23687v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.23687v1.pdf",
       "categories": [
-        "cs.CL",
-        "cs.LG"
+        "cs.CL"
       ],
       "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "MapReason-OSM: Can Vision-Language Models Make Graph-Verifiable Mobility Decisions from Street Maps ?",
-      "authors": "Srinivas Venkatanarayanan, Clement Pakkam Isaac",
-      "abstract": "Vision-language models (VLMs) are increasingly used to read maps for logistics, delivery, and accessible navigation, where the output is an actionable decision (a route, a pin, a parking choice) that must respect the road network. Yet most map benchmarks grade free-text or multiple-choice answers th...",
+      "title": "Can LLMs Reliably Self-Report Adversarial Prefills, and How?",
+      "authors": "Quang Minh Nguyen, Uzair Ahmed, Taegyoon Kim",
+      "abstract": "Prior work shows that large language models (LLMs) exhibit introspective capability on benign tasks. We extend the question to safety contexts and examine how reliably a model can recognize that its own prior response was elicited by an adversarial prefill attack. Across ten open-weight instruction-...",
       "venue": "arXiv",
-      "date": "2026-06-21",
-      "arxiv_id": "2606.22597v1",
-      "url": "https://arxiv.org/abs/2606.22597v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.22597v1.pdf",
+      "date": "2026-06-22",
+      "arxiv_id": "2606.23671v1",
+      "url": "https://arxiv.org/abs/2606.23671v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.23671v1.pdf",
+      "categories": [
+        "cs.CL"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Lift4D: Harmonizing Single-View 3D Estimation for 4D Reconstruction In-the-Wild",
+      "authors": "Yehonathan Litman, Xiaoxuan Ma, Manan Shah et al.",
+      "abstract": "Reconstructing dynamic non-rigid objects from monocular video requires integrating visual cues from direct observations with data-driven priors over geometry and appearance. Prior approaches either learn to directly predict 4D representations from visual input or initialize a 3D representation that ...",
+      "venue": "arXiv",
+      "date": "2026-06-22",
+      "arxiv_id": "2606.23688v1",
+      "url": "https://arxiv.org/abs/2606.23688v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.23688v1.pdf",
       "categories": [
         "cs.CV"
       ],
-      "type": "nlp",
+      "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Line Drawings using LightBenders: Authoring and Illuminating",
-      "authors": "Hamed Alimohammadzadeh, Shahram Ghandeharizadeh",
-      "abstract": "This study presents the hardware and software architecture of a transformative system for illuminating line drawings and letterforms. These mid-air illuminations are indoors and might be animated. The hardware contribution is a drone equipped with servo-actuated rod joints and a dense, addressable L...",
+      "title": "Keep The Essentials: Efficient Reference Conditioned Generation via Token Dropping",
+      "authors": "Rishubh Parihar, Ayush Raina, R. Venkatesh Babu et al.",
+      "abstract": "Reference-based diffusion models enable highly controllable image generation by leveraging elements from input images to guide prompt-driven synthesis. However, these models are computationally expensive in runtime, and their cost scales severely with the number of input references. While the effici...",
       "venue": "arXiv",
-      "date": "2026-06-21",
-      "arxiv_id": "2606.22499v1",
-      "url": "https://arxiv.org/abs/2606.22499v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.22499v1.pdf",
+      "date": "2026-06-22",
+      "arxiv_id": "2606.23682v1",
+      "url": "https://arxiv.org/abs/2606.23682v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.23682v1.pdf",
       "categories": [
-        "cs.GR",
-        "cs.MM",
-        "cs.RO"
+        "cs.CV"
       ],
-      "type": "ai",
+      "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "PenduMorph: Development and Motion Analysis of Pendulum-Actuated Rolling Reconfigurable Spherical Robot with Magnetic-Coupling",
-      "authors": "Aung Myat, Peter Noyce, May Forgan et al.",
-      "abstract": "This paper presents \"PenduMorph\", a wireless reconfigurable rolling spherical robot designed as a modular platform for enclosed locomotion and inter-module interaction in challenging environments. The proposed robot extends our previous pendulum-actuated rolling disk concept to a fully enclosed sphe...",
+      "title": "AutoDex: An Automated Real-World System for Dexterous Grasping Data Collection",
+      "authors": "Mingi Choi, Gunhee Kim, Jisoo Kim et al.",
+      "abstract": "Learning robust dexterous grasping requires real-world data that records the physical outcomes of grasp attempts. Such data is hard to obtain at scale: teleoperation yields valid physical outcomes but is slow and operator-biased, while simulation-based generation is cheap and scalable but cannot cer...",
       "venue": "arXiv",
-      "date": "2026-06-21",
-      "arxiv_id": "2606.22491v1",
-      "url": "https://arxiv.org/abs/2606.22491v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.22491v1.pdf",
+      "date": "2026-06-22",
+      "arxiv_id": "2606.23689v1",
+      "url": "https://arxiv.org/abs/2606.23689v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.23689v1.pdf",
       "categories": [
-        "cs.RO"
-      ],
-      "type": "ai",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "FAST: A Framework for Aligned Sampling and Training in Parallel Reinforcement Learning for Autonomous Driving",
-      "authors": "Bonan Wang, Letian Tao, Bin Shuai et al.",
-      "abstract": "Deep reinforcement learning is pivotal for closed-loop autonomous driving yet remains constrained by severe bottlenecks in sampling efficiency. Standard parallel sampling mitigates this but suffers from the straggler effect, where the premature termination of a single environment necessitates a sync...",
-      "venue": "arXiv",
-      "date": "2026-06-19",
-      "arxiv_id": "2606.21587v1",
-      "url": "https://arxiv.org/abs/2606.21587v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.21587v1.pdf",
-      "categories": [
-        "cs.LG",
-        "cs.AI"
+        "cs.RO",
+        "cs.LG"
       ],
       "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "The Cost Geometry of Belief: finite-resource inference under noisy observation",
-      "authors": "Laurent Caraffa",
-      "abstract": "We equip the space of beliefs with a cost geometry (what it costs to pass from one belief to another): optimal transport in Wasserstein space, reweighted conformally by Fisher information (the price of the precision at stake), distinct from the Fisher-Rao metric. In the setting we consider, a finite...",
+      "title": "LIBERO-Safety: A Comprehensive Benchmark for Physical and Semantic Safety in Vision-Language-Action Models",
+      "authors": "Rongxu Cui, Zongzheng Zhang, Jingrui Pang et al.",
+      "abstract": "Despite the impressive manipulation capabilities of Vision-Language-Action (VLA) models, their operational safety under strict constraints remains largely unverified. To address this, we introduce a parametric safety benchmark to procedurally generate safety-critical scenarios with comprehensive sto...",
       "venue": "arXiv",
-      "date": "2026-06-19",
-      "arxiv_id": "2606.21585v1",
-      "url": "https://arxiv.org/abs/2606.21585v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.21585v1.pdf",
+      "date": "2026-06-22",
+      "arxiv_id": "2606.23686v1",
+      "url": "https://arxiv.org/abs/2606.23686v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.23686v1.pdf",
       "categories": [
-        "cs.LG",
-        "cs.IT",
-        "math.DG"
+        "cs.RO"
       ],
-      "type": "ml",
+      "type": "benchmark",
       "badge": "arxiv",
       "source": "arXiv"
     }

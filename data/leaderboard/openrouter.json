@@ -47,8 +47,8 @@
       "rank": 6,
       "model": "kimi-k2.7-code",
       "organization": "moonshotai",
-      "price_prompt": "0.000000612",
-      "price_completion": "0.000003069",
+      "price_prompt": "0.00000068",
+      "price_completion": "0.00000341",
       "context_length": 262144
     },
     {
@@ -71,8 +71,8 @@
       "rank": 9,
       "model": "nex-n2-pro",
       "organization": "nex-agi",
-      "price_prompt": "0.0000005",
-      "price_completion": "0.0000025",
+      "price_prompt": "0.00000025",
+      "price_completion": "0.000001",
       "context_length": 262144
     },
     {

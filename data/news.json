@@ -1,9 +1,33 @@
 {
   "last_updated": "2026-06-23",
   "count": 200,
-  "history_count": 200,
+  "history_count": 202,
   "retention_days": 30,
   "items": [
+    {
+      "title": "24小时在线，2秒回话，陪你聊球",
+      "link": "https://www.qbitai.com/?s=24小时在线，2秒回",
+      "summary": "24小时在线，2秒回话，陪你聊球...",
+      "date": "2026-06-23",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "英伟达：不造机器人，但要帮具身企业造好机器人",
+      "link": "https://www.qbitai.com/?s=英伟达：不造机器人，",
+      "summary": "英伟达：不造机器人，但要帮具身企业造好机器人...",
+      "date": "2026-06-23",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
     {
       "title": "Meta这团乱麻，几顿零食是搞不定了",
       "link": "https://www.qbitai.com/?s=Meta这团乱麻，几",
@@ -41,6 +65,18 @@
       ]
     },
     {
+      "title": "*   [Latest](http://techcrunch.com/latest/)",
+      "link": "https://techcrunch.com/category/artificial-intelligence/",
+      "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
+      "date": "2026-06-23",
+      "source": "TechCrunch",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "Artificial Intelligence"
+      ]
+    },
+    {
       "title": "抢人最猛的Meta，似乎先从内部裂开了",
       "link": "https://www.qbitai.com/?s=抢人最猛的Meta，",
       "summary": "抢人最猛的Meta，似乎先从内部裂开了...",
@@ -62,18 +98,6 @@
       "tags": [
         "AI",
         "人工智能"
-      ]
-    },
-    {
-      "title": "*   [Latest](http://techcrunch.com/latest/)",
-      "link": "https://techcrunch.com/category/artificial-intelligence/",
-      "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
-      "date": "2026-06-23",
-      "source": "TechCrunch",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "Artificial Intelligence"
       ]
     },
     {
@@ -2374,30 +2398,6 @@
       "summary": "刚刚，国产预训练具身大模型开源了，让后训练不再是必选项！...",
       "date": "2026-05-28",
       "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "复旦系具身新星，想让机器人真正会“触摸”",
-      "link": "https://www.qbitai.com/?s=复旦系具身新星，想让",
-      "summary": "复旦系具身新星，想让机器人真正会“触摸”...",
-      "date": "2026-05-28",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "“1%是我写的，99%是Agent写的。”",
-      "link": "https://www.qbitai.com/?s=“1%是我写的，99",
-      "summary": "“1%是我写的，99%是Agent写的。”...",
-      "date": "2026-05-28",
-      "source": "量子位",
       "type": "industry",
       "tags": [
         "AI",

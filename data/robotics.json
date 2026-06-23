@@ -40,6 +40,86 @@
       ]
     },
     {
+      "title": "AutoDex: An Automated Real-World System for Dexterous Grasping Data Collection",
+      "summary": "Learning robust dexterous grasping requires real-world data that records the physical outcomes of grasp attempts. Such data is hard to obtain at scale: teleoperation yields valid physical outcomes but is slow and operator-biased, while simulation-bas...",
+      "url": "https://arxiv.org/abs/2606.23689v1",
+      "date": "2026-06-22",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.23689v1",
+      "authors": "Mingi Choi, Gunhee Kim et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "LIBERO-Safety: A Comprehensive Benchmark for Physical and Semantic Safety in Vision-Language-Action Models",
+      "summary": "Despite the impressive manipulation capabilities of Vision-Language-Action (VLA) models, their operational safety under strict constraints remains largely unverified. To address this, we introduce a parametric safety benchmark to procedurally generat...",
+      "url": "https://arxiv.org/abs/2606.23686v1",
+      "date": "2026-06-22",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.23686v1",
+      "authors": "Rongxu Cui, Zongzheng Zhang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "LaST-HD: Learning Latent Physical Reasoning from Scalable Human Data for Robot Manipulation",
+      "summary": "Human-hand demonstrations provide a direct and scalable source of physical interaction data for robot learning. While manual retargeting is indispensable for establishing kinematic action correspondence across different morphologies, robust transfer ...",
+      "url": "https://arxiv.org/abs/2606.23685v1",
+      "date": "2026-06-22",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.23685v1",
+      "authors": "Jiaming Liu, Yinxi Wang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "CoorDex: Coordinating Body and Hand Priors for Continuous Dexterous Humanoid Loco-Manipulation",
+      "summary": "Humanoid loco-manipulation is often simplified into a stop-and-go process: walking to an object, stopping to manipulate it, and then resuming locomotion. It also commonly relies on low degree-of-freedom (DoF) end effectors that behave like an open-cl...",
+      "url": "https://arxiv.org/abs/2606.23680v1",
+      "date": "2026-06-22",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.23680v1",
+      "authors": "Sikai Li, Shuning Li et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "A Reduced Order Model for Emergent Mechanics in Woven Systems",
+      "summary": "Woven structures exhibit rich mechanical behaviors including anisotropic stiffness, shear-induced locking, and crimp interchange that emerge purely from the geometric arrangement of individual weavers rather than from constituent material properties....",
+      "url": "https://arxiv.org/abs/2606.23658v1",
+      "date": "2026-06-22",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.23658v1",
+      "authors": "Anvay A. Pradhan, Evgueni T. Filipov et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
       "title": "Line Drawings using LightBenders: Authoring and Illuminating",
       "summary": "This study presents the hardware and software architecture of a transformative system for illuminating line drawings and letterforms. These mid-air illuminations are indoors and might be animated. The hardware contribution is a drone equipped with se...",
       "url": "https://arxiv.org/abs/2606.22499v1",
@@ -3019,82 +3099,6 @@
       "type": "paper",
       "arxiv_id": "2605.08020v1",
       "authors": "Nico Bohlinger, Jan Peters",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Evaluation of an Actuated Spine in Agile Quadruped Locomotion",
-      "summary": "The spine plays a crucial role in the dynamic locomotion of quadrupedal animals, improving the stability, speed, and efficiency of their gait, especially for fast-paced and highly agile movements. Therefore, the spine is also a promising and natural ...",
-      "url": "https://arxiv.org/abs/2605.07988v1",
-      "date": "2026-05-08",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.07988v1",
-      "authors": "Nico Bohlinger, Piotr Kicki et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "TAVIS: A Benchmark for Egocentric Active Vision and Anticipatory Gaze in Imitation Learning",
-      "summary": "Active vision -- where a policy controls its own gaze during manipulation -- has emerged as a key capability for imitation learning, with multiple independent systems demonstrating its benefits in the past year. Yet there is no shared benchmark to co...",
-      "url": "https://arxiv.org/abs/2605.07943v1",
-      "date": "2026-05-08",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.07943v1",
-      "authors": "Giacomo Spigler",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "机器人线性增长，减速器指数增长",
-      "summary": "机器人线性增长，减速器指数增长",
-      "url": "http://36kr.com/p/3798002109411845",
-      "date": "2026-05-07",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
-      ]
-    },
-    {
-      "title": "Multi-Robot Coordination in V2X Environments",
-      "summary": "This paper presents a Vehicle-to-Everything (V2X) communication framework that enables decentralized cooperation among social robots operating in complex urban traffic environments. Building on ETSI Cooperative Awareness and Maneuver Coordination ser...",
-      "url": "https://arxiv.org/abs/2605.06662v1",
-      "date": "2026-05-07",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.06662v1",
-      "authors": "John Pravin Arockiasamy, Alexey Vinel",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Cross-Modal Navigation with Multi-Agent Reinforcement Learning",
-      "summary": "Robust embodied navigation relies on complementary sensory cues. However, high-quality and well-aligned multi-modal data is often difficult to obtain in practice. Training a monolithic model is also challenging as rich multi-modal inputs induce compl...",
-      "url": "https://arxiv.org/abs/2605.06595v1",
-      "date": "2026-05-07",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.06595v1",
-      "authors": "Shuo Liu, Xinzichen Li et al.",
       "tags": [
         "机器人学习",
         "研究论文",
