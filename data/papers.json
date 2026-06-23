@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-06-23",
-  "count": 6,
+  "count": 9,
   "items": [
     {
       "title": "PaperClaw: Harnessing Agents for Autonomous Research and Human-in-the-Loop Refinement",
@@ -53,6 +53,23 @@
       "source": "arXiv"
     },
     {
+      "title": "Sub-Billion, Super-Frontier: Small Language Models Rival Zero-Shot Frontier LLMs on General and Literary Relation Extraction",
+      "authors": "Despina Christou, Grigorios Tsoumakas",
+      "abstract": "Large language models (LLMs) achieve strong relation extraction (RE), but their computational demands and reliance on proprietary APIs limit deployment in resource-constrained or privacy-sensitive settings. We investigate how far small language models (SLMs) can close this gap across general-domain ...",
+      "venue": "arXiv",
+      "date": "2026-06-21",
+      "arxiv_id": "2606.22606v1",
+      "url": "https://arxiv.org/abs/2606.22606v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.22606v1.pdf",
+      "categories": [
+        "cs.CL",
+        "cs.LG"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
       "title": "MapReason-OSM: Can Vision-Language Models Make Graph-Verifiable Mobility Decisions from Street Maps ?",
       "authors": "Srinivas Venkatanarayanan, Clement Pakkam Isaac",
       "abstract": "Vision-language models (VLMs) are increasingly used to read maps for logistics, delivery, and accessible navigation, where the output is an actionable decision (a route, a pin, a parking choice) that must respect the road network. Yet most map benchmarks grade free-text or multiple-choice answers th...",
@@ -65,6 +82,40 @@
         "cs.CV"
       ],
       "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Line Drawings using LightBenders: Authoring and Illuminating",
+      "authors": "Hamed Alimohammadzadeh, Shahram Ghandeharizadeh",
+      "abstract": "This study presents the hardware and software architecture of a transformative system for illuminating line drawings and letterforms. These mid-air illuminations are indoors and might be animated. The hardware contribution is a drone equipped with servo-actuated rod joints and a dense, addressable L...",
+      "venue": "arXiv",
+      "date": "2026-06-21",
+      "arxiv_id": "2606.22499v1",
+      "url": "https://arxiv.org/abs/2606.22499v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.22499v1.pdf",
+      "categories": [
+        "cs.GR",
+        "cs.MM",
+        "cs.RO"
+      ],
+      "type": "ai",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "PenduMorph: Development and Motion Analysis of Pendulum-Actuated Rolling Reconfigurable Spherical Robot with Magnetic-Coupling",
+      "authors": "Aung Myat, Peter Noyce, May Forgan et al.",
+      "abstract": "This paper presents \"PenduMorph\", a wireless reconfigurable rolling spherical robot designed as a modular platform for enclosed locomotion and inter-module interaction in challenging environments. The proposed robot extends our previous pendulum-actuated rolling disk concept to a fully enclosed sphe...",
+      "venue": "arXiv",
+      "date": "2026-06-21",
+      "arxiv_id": "2606.22491v1",
+      "url": "https://arxiv.org/abs/2606.22491v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.22491v1.pdf",
+      "categories": [
+        "cs.RO"
+      ],
+      "type": "ai",
       "badge": "arxiv",
       "source": "arXiv"
     },

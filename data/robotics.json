@@ -40,6 +40,86 @@
       ]
     },
     {
+      "title": "Line Drawings using LightBenders: Authoring and Illuminating",
+      "summary": "This study presents the hardware and software architecture of a transformative system for illuminating line drawings and letterforms. These mid-air illuminations are indoors and might be animated. The hardware contribution is a drone equipped with se...",
+      "url": "https://arxiv.org/abs/2606.22499v1",
+      "date": "2026-06-21",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.22499v1",
+      "authors": "Hamed Alimohammadzadeh, Shahram Ghandeharizadeh",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "PenduMorph: Development and Motion Analysis of Pendulum-Actuated Rolling Reconfigurable Spherical Robot with Magnetic-Coupling",
+      "summary": "This paper presents \"PenduMorph\", a wireless reconfigurable rolling spherical robot designed as a modular platform for enclosed locomotion and inter-module interaction in challenging environments. The proposed robot extends our previous pendulum-actu...",
+      "url": "https://arxiv.org/abs/2606.22491v1",
+      "date": "2026-06-21",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.22491v1",
+      "authors": "Aung Myat, Peter Noyce et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "ARP: Enhancing Quantized Skill Abstractions via Visual Alignment and Iterative Refinement for Robotic Manipulation",
+      "summary": "Learning visuomotor policies for long-horizon manipulation remains a fundamental challenge. Recent skill-based imitation learning methods based on discrete quantization have shown promising results by representing complex behaviors as temporally exte...",
+      "url": "https://arxiv.org/abs/2606.22480v1",
+      "date": "2026-06-21",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.22480v1",
+      "authors": "Yuntian Wang, Zesheng Jia et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Scalable Multi-Task Data Generation via Reinforcement Learning for Language-Conditioned Bimanual Dexterous Manipulation",
+      "summary": "A key bottleneck in training generalist policies for bimanual dexterous manipulation is the lack of large-scale, high-quality datasets. Synthetic data generation in simulation provides a scalable alternative to human video demonstrations by overcomin...",
+      "url": "https://arxiv.org/abs/2606.22471v1",
+      "date": "2026-06-21",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.22471v1",
+      "authors": "Zechu Li, Yufeng Jin et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "BLENDS: Bayesian Learning-Enhanced Deep Smoothing for GNSS-Denied Environments",
+      "summary": "Maintaining accurate navigation during GNSS outages remains a significant challenge for autonomous systems relying on low-cost inertial sensors. While classical smoothing methods, such as the two-filter smoother and Rauch-Tung-Striebel smoother, expl...",
+      "url": "https://arxiv.org/abs/2606.22456v1",
+      "date": "2026-06-21",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.22456v1",
+      "authors": "Nadav Cohen, Itzik Klein",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
       "title": "Conflict-Aware Switching for CBF-CLF-Based Multi-Goal Navigation",
       "summary": "Quadratic programs (QPs) using Control Barrier Functions (CBFs) and Control Lyapunov Functions (CLFs) are widely used for safe control in reach-and-avoid navigation. However, the inherently conflicting nature of CBF and CLF constraints can lead to pe...",
       "url": "https://arxiv.org/abs/2606.21577v1",
@@ -3015,86 +3095,6 @@
       "type": "paper",
       "arxiv_id": "2605.06595v1",
       "authors": "Shuo Liu, Xinzichen Li et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "ReActor: Reinforcement Learning for Physics-Aware Motion Retargeting",
-      "summary": "Retargeting human kinematic reference motion onto a robot's morphology remains a formidable challenge. Existing methods often produce physical inconsistencies, such as foot sliding, self-collisions, or dynamically infeasible motions, which hinder dow...",
-      "url": "https://arxiv.org/abs/2605.06593v1",
-      "date": "2026-05-07",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.06593v1",
-      "authors": "David Müller, Agon Serifi et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Lie Group Formulation of Recursive Dynamics Algorithms of Higher Order for Floating-Base Robots",
-      "summary": "In this paper, we describe procedures for computing higher-order time derivatives of the Lie-group Newton-Euler, Articulated-Body Inertia, and hybrid dynamics algorithms for floating-base trees, where the base configuration evolves on SE(3) and the a...",
-      "url": "https://arxiv.org/abs/2605.06498v1",
-      "date": "2026-05-07",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.06498v1",
-      "authors": "Ahmed Ali, Chiara Gabellieri et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "OA-WAM: Object-Addressable World Action Model for Robust Robot Manipulation",
-      "summary": "World Action Models (WAMs) enhance Vision-Language-Action policies by jointly predicting scene evolution and robot actions, but existing methods usually represent the predicted world as holistic images, video tokens, or global latents. These represen...",
-      "url": "https://arxiv.org/abs/2605.06481v1",
-      "date": "2026-05-07",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.06481v1",
-      "authors": "Yushan Liu, Peibo Sun et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "A Closed-Form Dual-Barrier CBF Safety Filter for Holonomic Robots on Incrementally Built Occupancy Grid Maps",
-      "summary": "We present a dual-barrier control barrier function (CBF) safety filter for real-time, safety-critical velocity control of holonomic robots operating in incrementally built occupancy grid maps. As a robot explores an unknown environment, unmapped regi...",
-      "url": "https://arxiv.org/abs/2605.05182v1",
-      "date": "2026-05-06",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.05182v1",
-      "authors": "Himanshu Paudel, Basanta Joshi et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "When Life Gives You BC, Make Q-functions: Extracting Q-values from Behavior Cloning for On-Robot Reinforcement Learning",
-      "summary": "Behavior Cloning (BC) has emerged as a highly effective paradigm for robot learning. However, BC lacks a self-guided mechanism for online improvement after demonstrations have been collected. Existing offline-to-online learning methods often cause po...",
-      "url": "https://arxiv.org/abs/2605.05172v1",
-      "date": "2026-05-06",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.05172v1",
-      "authors": "Lakshita Dodeja, Ondrej Biza et al.",
       "tags": [
         "机器人学习",
         "研究论文",
