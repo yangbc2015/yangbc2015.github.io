@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-06-23",
+  "last_updated": "2026-06-24",
   "count": 200,
-  "history_count": 200,
+  "history_count": 205,
   "retention_days": 30,
   "items": [
     {
       "title": "以“数据—模型—基础设施”系统性协同通往物理智能",
       "link": "https://www.qbitai.com/?s=以“数据—模型—基础",
       "summary": "以“数据—模型—基础设施”系统性协同通往物理智能...",
-      "date": "2026-06-23",
+      "date": "2026-06-24",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -20,7 +20,7 @@
       "title": "24小时在线，2秒回话，陪你聊球",
       "link": "https://www.qbitai.com/?s=24小时在线，2秒回",
       "summary": "24小时在线，2秒回话，陪你聊球...",
-      "date": "2026-06-23",
+      "date": "2026-06-24",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -32,7 +32,7 @@
       "title": "英伟达：不造机器人，但要帮具身企业造好机器人",
       "link": "https://www.qbitai.com/?s=英伟达：不造机器人，",
       "summary": "英伟达：不造机器人，但要帮具身企业造好机器人...",
-      "date": "2026-06-23",
+      "date": "2026-06-24",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -44,7 +44,7 @@
       "title": "Meta这团乱麻，几顿零食是搞不定了",
       "link": "https://www.qbitai.com/?s=Meta这团乱麻，几",
       "summary": "Meta这团乱麻，几顿零食是搞不定了...",
-      "date": "2026-06-23",
+      "date": "2026-06-24",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -56,7 +56,7 @@
       "title": "同时拿下天猫、抖音、京东三大平台 AI 录音设备销量第一",
       "link": "https://www.qbitai.com/?s=同时拿下天猫、抖音、",
       "summary": "同时拿下天猫、抖音、京东三大平台 AI 录音设备销量第一...",
-      "date": "2026-06-23",
+      "date": "2026-06-24",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -68,12 +68,84 @@
       "title": "*   [Latest](http://techcrunch.com/latest/)",
       "link": "https://techcrunch.com/category/artificial-intelligence/",
       "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
-      "date": "2026-06-23",
+      "date": "2026-06-24",
       "source": "TechCrunch",
       "type": "industry",
       "tags": [
         "AI",
         "Artificial Intelligence"
+      ]
+    },
+    {
+      "title": "Markdown Content:",
+      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+      "summary": "Markdown Content:...",
+      "date": "2026-06-23",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "刚刚，豆包大模型2.1发布，又一次跨越生产级质变点",
+      "link": "https://www.jiqizhixin.com/search/articles/刚刚，豆包大模型2.1发布，又",
+      "summary": "刚刚，豆包大模型2.1发布，又一次跨越生产级质变点...",
+      "date": "2026-06-23",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "LeCun、谢赛宁转发的世界模型与VLA共融方案：中关村学院ECCV2026—VLA-JEPA",
+      "link": "https://www.jiqizhixin.com/search/articles/LeCun、谢赛宁转发的世界模",
+      "summary": "LeCun、谢赛宁转发的世界模型与VLA共融方案：中关村学院ECCV2026—VLA-JEPA...",
+      "date": "2026-06-23",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "Science子刊丨从分子生成到验证，AI与药用化学家的双轨优化策略",
+      "link": "https://www.jiqizhixin.com/search/articles/Science子刊丨从分子生成",
+      "summary": "Science子刊丨从分子生成到验证，AI与药用化学家的双轨优化策略...",
+      "date": "2026-06-23",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "百度开源无限OCR，跑通长程解析，核心作者YY疑是来自DeepSeek",
+      "link": "https://www.jiqizhixin.com/search/articles/百度开源无限OCR，跑通长程解",
+      "summary": "百度开源无限OCR，跑通长程解析，核心作者YY疑是来自DeepSeek...",
+      "date": "2026-06-23",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "真机强化学习如何保证安全性？清华团队提出安全探索均衡机制",
+      "link": "https://www.jiqizhixin.com/search/articles/真机强化学习如何保证安全性？清",
+      "summary": "真机强化学习如何保证安全性？清华团队提出安全探索均衡机制...",
+      "date": "2026-06-23",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
       ]
     },
     {
@@ -106,18 +178,6 @@
       "summary": "AI实现药物全自动研发，还远吗？...",
       "date": "2026-06-23",
       "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Markdown Content:",
-      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-      "summary": "Markdown Content:...",
-      "date": "2026-06-22",
-      "source": "机器之心",
       "type": "industry",
       "tags": [
         "AI",
@@ -2338,66 +2398,6 @@
       "summary": "医学AI Agent到了关键拐点...",
       "date": "2026-05-29",
       "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "曾在Salesforce干了13年营销",
-      "link": "https://www.qbitai.com/?s=曾在Salesfor",
-      "summary": "曾在Salesforce干了13年营销...",
-      "date": "2026-05-29",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "全球首发 | SLAI基于国产算力集群完成DeepSeek-V4-Pro全参数后训练",
-      "link": "https://www.jiqizhixin.com/search/articles/全球首发 | SLAI基于国产",
-      "summary": "全球首发 | SLAI基于国产算力集群完成DeepSeek-V4-Pro全参数后训练...",
-      "date": "2026-05-28",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "国产超算生成式压缩模型训练性能突破2.16 EFLOP/s，支撑全球遥感数据万倍级压缩",
-      "link": "https://www.jiqizhixin.com/search/articles/国产超算生成式压缩模型训练性能",
-      "summary": "国产超算生成式压缩模型训练性能突破2.16 EFLOP/s，支撑全球遥感数据万倍级压缩...",
-      "date": "2026-05-28",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "别在CVPR独自社恐了！来丹佛AI Talent Meetup，只聊你听得懂的技术与理想",
-      "link": "https://www.jiqizhixin.com/search/articles/别在CVPR独自社恐了！来丹佛",
-      "summary": "别在CVPR独自社恐了！来丹佛AI Talent Meetup，只聊你听得懂的技术与理想...",
-      "date": "2026-05-28",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "重塑人机对话理解范式，Google新数据集首次大规模捕捉用户「未言明的想法」",
-      "link": "https://www.jiqizhixin.com/search/articles/重塑人机对话理解范式，Goog",
-      "summary": "重塑人机对话理解范式，Google新数据集首次大规模捕捉用户「未言明的想法」...",
-      "date": "2026-05-28",
-      "source": "机器之心",
       "type": "industry",
       "tags": [
         "AI",

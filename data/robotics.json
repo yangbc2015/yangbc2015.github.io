@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-06-23",
+  "last_updated": "2026-06-24",
   "count": 200,
   "items": [
     {
       "title": "[具 身 智 能 的“大广告”时代：伴侣机器人，可能是唯一出路",
       "summary": "[具 身 智 能 的“大广告”时代：伴侣机器人，可能是唯一出路",
       "url": "http://36kr.com/p/3863035260992389",
-      "date": "2026-06-23",
+      "date": "2026-06-24",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
@@ -18,7 +18,7 @@
       "title": "[火热的 具 身 智 能，藏着半个自动驾驶圈",
       "summary": "[火热的 具 身 智 能，藏着半个自动驾驶圈",
       "url": "http://36kr.com/p/3856635996158851",
-      "date": "2026-06-23",
+      "date": "2026-06-24",
       "source": "36氪",
       "category": "自主系统",
       "type": "news",
@@ -31,12 +31,92 @@
       "title": "[BEV 杀入 具 身 智 能：跨维把机器人数据带上 Scaling 快车道",
       "summary": "[BEV 杀入 具 身 智 能：跨维把机器人数据带上 Scaling 快车道",
       "url": "http://36kr.com/p/3849567168959753",
-      "date": "2026-06-23",
+      "date": "2026-06-24",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
       "tags": [
         "机器人"
+      ]
+    },
+    {
+      "title": "Beyond Monotonic Progress: Retry-Supervised Value Learning for Robot Imitation",
+      "summary": "Human demonstrations for robot imitation learning often contain mistakes and corrective behaviors, such as imprecise grasps, object misalignment, unstable contact, and repeated attempts. While these segments are commonly treated as noisy or suboptima...",
+      "url": "https://arxiv.org/abs/2606.24633v1",
+      "date": "2026-06-23",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.24633v1",
+      "authors": "Xinyao Qin, Junjie Lu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Parallel Dynamic Programming for Conic Linear Quadratic Control",
+      "summary": "Linear Quadratic (LQ) control problems are at the heart of linear control theory and Model Predictive Control (MPC). While performant, standard approaches to solving such problems are inherently serial, limiting real-time scalability despite the para...",
+      "url": "https://arxiv.org/abs/2606.24632v1",
+      "date": "2026-06-23",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.24632v1",
+      "authors": "Luyao Zhang, Gabriel Bravo-Palacios et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Optimization-based Safe Trajectory Planning for Autonomous Ground Vehicle in Multi-Floor Scenarios",
+      "summary": "The development of trajectory planning strategies for autonomous ground vehicles (AGVs) represents a prevailing research interest within the domain of intelligent transportation systems. This paper introduces a trajectory planning framework tailored ...",
+      "url": "https://arxiv.org/abs/2606.24631v1",
+      "date": "2026-06-23",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.24631v1",
+      "authors": "Zishang Xiang, Runda Zhang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "ArtiTwinSplat: Interactable Digital Twin Reconstruction via Gaussian Splatting from RGB-D videos",
+      "summary": "Deploying robots in unstructured real-world environments needs accurate, interactive models of the objects. Constructing these models at scale remains a critical bottleneck for robotic system integration. We present ArtiTwinSplat, a framework that au...",
+      "url": "https://arxiv.org/abs/2606.24628v1",
+      "date": "2026-06-23",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.24628v1",
+      "authors": "Pranjal Mishra, René Zurbrügg et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Enabling Robust Cloth Manipulation via Inference-Time Simulator-in-the-Loop Refinement",
+      "summary": "Simulator-in-the-loop optimization offers a promising inference-time mechanism for robot manipulation. It uses a physical simulator as a backend rollout engine to evaluate candidate trajectories in parallel and refine nominal actions online, a paradi...",
+      "url": "https://arxiv.org/abs/2606.24552v1",
+      "date": "2026-06-23",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.24552v1",
+      "authors": "Xin Liu, Yulin Li et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
       ]
     },
     {
@@ -3019,86 +3099,6 @@
       "type": "paper",
       "arxiv_id": "2605.10925v1",
       "authors": "Xinyu Guo, Bin Xie et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "RoboMemArena: A Comprehensive and Challenging Robotic Memory Benchmark",
-      "summary": "Memory is a critical component of robotic intelligence, as robots must rely on past observations and actions to accomplish long-horizon tasks in partially observable environments. However, existing robotic memory benchmarks still lack multimodal anno...",
-      "url": "https://arxiv.org/abs/2605.10921v1",
-      "date": "2026-05-11",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.10921v1",
-      "authors": "Huashuo Lei, Wenxuan Song et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Optimal and Scalable MAPF via Multi-Marginal Optimal Transport and Schrödinger Bridges",
-      "summary": "We consider anonymous multi-agent path finding (MAPF) where a set of robots is tasked to travel to a set of targets on a finite, connected graph. We show that MAPF can be cast as a special class of multi-marginal optimal transport (MMOT) problems wit...",
-      "url": "https://arxiv.org/abs/2605.10917v1",
-      "date": "2026-05-11",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.10917v1",
-      "authors": "Usman A. Khan, Joseph W. Durham",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "123D: Unifying Multi-Modal Autonomous Driving Data at Scale",
-      "summary": "The pursuit of autonomous driving has produced one of the richest sensor data collections in all of robotics. However, its scale and diversity remain largely untapped. Each dataset adopts different 2D and 3D modalities, such as cameras, lidar, ego st...",
-      "url": "https://arxiv.org/abs/2605.08084v1",
-      "date": "2026-05-08",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.08084v1",
-      "authors": "Daniel Dauner, Valentin Charraut et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "6D Pose Estimation via Keypoint Heatmap Regression with RGB-D Residual Neural Networks",
-      "summary": "In this paper, we propose a modular framework for 6D pose estimation based on keypoint heatmap regression. Our approach combines YOLOv10m for object detection with a ResNet18-based network that predicts 2D heatmaps from RGB images. Keypoints extracte...",
-      "url": "https://arxiv.org/abs/2605.08059v1",
-      "date": "2026-05-08",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.08059v1",
-      "authors": "Ismail Aljosevic, Amir Masoud Almasi et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Active Embodiment Identification with Reinforcement Learning for Legged Robots",
-      "summary": "We present an active embodiment identification method for legged robots that jointly learns information-seeking behavior and explicit embodiment prediction. Using a history-augmented URMA architecture, the method infers joint-level and global embodim...",
-      "url": "https://arxiv.org/abs/2605.08020v1",
-      "date": "2026-05-08",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.08020v1",
-      "authors": "Nico Bohlinger, Jan Peters",
       "tags": [
         "机器人学习",
         "研究论文",
