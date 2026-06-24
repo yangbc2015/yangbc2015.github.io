@@ -53,6 +53,86 @@
       ]
     },
     {
+      "title": "InSight: Self-Guided Skill Acquisition via Steerable VLAs",
+      "summary": "Vision-language-action (VLA) models can learn manipulation skills from demonstrations, but their capabilities are bounded by the skills in the training data. We present InSight, a framework that unlocks autonomous skill acquisition by rendering VLAs ...",
+      "url": "https://arxiv.org/abs/2606.24884v1",
+      "date": "2026-06-23",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.24884v1",
+      "authors": "Maggie Wang, Lars Osterberg et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Vision-Language Model Reasoning for Contextual Semantic Mapping in Intralogistics",
+      "summary": "Autonomous mobile robots operating in intralogistics environments rely on geometric maps for localization and navigation, but lack semantic understanding of objects and their contextual properties. We present a contextual semantic mapping pipeline th...",
+      "url": "https://arxiv.org/abs/2606.24814v1",
+      "date": "2026-06-23",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.24814v1",
+      "authors": "Marvin Rüdt, Hao Pang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Compact Object-Level Representations with Open-Vocabulary Understanding for Indoor Visual Relocalization",
+      "summary": "Indoor visual relocalization plays a critical role in emerging spatial and embodied AI applications. However, prior research was predominantly devoted to low-level vision schemes, struggling to perceive scene semantics and compositions, which limits ...",
+      "url": "https://arxiv.org/abs/2606.24767v1",
+      "date": "2026-06-23",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.24767v1",
+      "authors": "Zhaopeng Cui, Jiarui Hu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "World Value Models for Robotic Manipulation",
+      "summary": "Generalist value models play a pivotal role in scaling robotic policy learning from large-scale, mixed-quality data. Mathematically, accurate value estimation demands deep temporal understanding, requiring models to both ground the current belief usi...",
+      "url": "https://arxiv.org/abs/2606.24742v1",
+      "date": "2026-06-23",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.24742v1",
+      "authors": "Zhihao Wang, Jianxiong Li et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "TACTFUL: Tactile-Driven Exploration For Object Localization and Identification in Confined Environments",
+      "summary": "Humans effortlessly locate and identify objects by touch alone, even without vision. In contrast, robotic systems rely heavily on vision and struggle with autonomous tactile exploration and object identification. We present TACTFUL, a vision-free tac...",
+      "url": "https://arxiv.org/abs/2606.24712v1",
+      "date": "2026-06-23",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.24712v1",
+      "authors": "Shivani Kamtikar, Chung Hee Kim et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
       "title": "Beyond Monotonic Progress: Retry-Supervised Value Learning for Robot Imitation",
       "summary": "Human demonstrations for robot imitation learning often contain mistakes and corrective behaviors, such as imprecise grasps, object misalignment, unstable contact, and repeated attempts. While these segments are commonly treated as noisy or suboptima...",
       "url": "https://arxiv.org/abs/2606.24633v1",
@@ -3019,86 +3099,6 @@
       "type": "paper",
       "arxiv_id": "2605.12347v1",
       "authors": "Hamza Ahmed Durrani, Suleman Khan",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "EgoEV-HandPose: Egocentric 3D Hand Pose Estimation and Gesture Recognition with Stereo Event Cameras",
-      "summary": "Egocentric 3D hand pose estimation and gesture recognition are essential for immersive augmented/virtual reality, human-computer interaction, and robotics. However, conventional frame-based cameras suffer from motion blur and limited dynamic range, w...",
-      "url": "https://arxiv.org/abs/2605.12297v1",
-      "date": "2026-05-12",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.12297v1",
-      "authors": "Luming Wang, Hao Shi et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "SI-Diff: A Framework for Learning Search and High-Precision Insertion with a Force-Domain Diffusion Policy",
-      "summary": "Contact-rich assembly is fundamental in robotics but poses significant challenges due to uncertainties in relative poses, such as misalignments and small clearances in peg-in-hole tasks. Existing approaches typically address search and high-precision...",
-      "url": "https://arxiv.org/abs/2605.12247v1",
-      "date": "2026-05-12",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.12247v1",
-      "authors": "Yibo Liu, Stanko Oparnica et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "HarmoWAM: Harmonizing Generalizable and Precise Manipulation via Adaptive World Action Models",
-      "summary": "World Action Models (WAMs) have emerged as a promising paradigm for robot control by modeling physical dynamics. Current WAMs generally follow two paradigms: the \"Imagine-then-Execute\" approach, which uses video prediction to infer actions via invers...",
-      "url": "https://arxiv.org/abs/2605.10942v1",
-      "date": "2026-05-11",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.10942v1",
-      "authors": "Qiuxuan Feng, Jiale Yu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Variational Inference for Lévy Process-Driven SDEs via Neural Tilting",
-      "summary": "Modelling extreme events and heavy-tailed phenomena is central to building reliable predictive systems in domains such as finance, climate science, and safety-critical AI. While Lévy processes provide a natural mathematical framework for capturing ju...",
-      "url": "https://arxiv.org/abs/2605.10934v1",
-      "date": "2026-05-11",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.10934v1",
-      "authors": "Yaman Kindap, Manfred Opper et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "PriorVLA: Prior-Preserving Adaptation for Vision-Language-Action Models",
-      "summary": "Large-scale pretraining has made Vision-Language-Action (VLA) models promising foundations for generalist robot manipulation, yet adapting them to downstream tasks remains necessary. However, the common practice of full fine-tuning treats pretraining...",
-      "url": "https://arxiv.org/abs/2605.10925v1",
-      "date": "2026-05-11",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.10925v1",
-      "authors": "Xinyu Guo, Bin Xie et al.",
       "tags": [
         "机器人学习",
         "研究论文",

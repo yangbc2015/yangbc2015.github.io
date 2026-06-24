@@ -1,9 +1,45 @@
 {
   "last_updated": "2026-06-24",
   "count": 200,
-  "history_count": 200,
+  "history_count": 203,
   "retention_days": 30,
   "items": [
+    {
+      "title": "开源项目GitHub狂揽4.2k Star",
+      "link": "https://www.qbitai.com/?s=开源项目GitHub",
+      "summary": "开源项目GitHub狂揽4.2k Star...",
+      "date": "2026-06-24",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "涵盖QoderWork、Qoder Desktop等",
+      "link": "https://www.qbitai.com/?s=涵盖QoderWor",
+      "summary": "涵盖QoderWork、Qoder Desktop等...",
+      "date": "2026-06-24",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "目前A社约65%的产品代码已经由Claude Tag参与完成",
+      "link": "https://www.qbitai.com/?s=目前A社约65%的产",
+      "summary": "目前A社约65%的产品代码已经由Claude Tag参与完成...",
+      "date": "2026-06-24",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
     {
       "title": "以“数据—模型—基础设施”系统性协同通往物理智能",
       "link": "https://www.qbitai.com/?s=以“数据—模型—基础",
@@ -26,6 +62,18 @@
       "tags": [
         "AI",
         "人工智能"
+      ]
+    },
+    {
+      "title": "*   [Latest](http://techcrunch.com/latest/)",
+      "link": "https://techcrunch.com/category/artificial-intelligence/",
+      "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
+      "date": "2026-06-24",
+      "source": "TechCrunch",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "Artificial Intelligence"
       ]
     },
     {
@@ -65,30 +113,6 @@
       ]
     },
     {
-      "title": "Published Time: Thu, 13 Mar 2025 04:28:00 GMT",
-      "link": "https://techcrunch.com/category/artificial-intelligence/",
-      "summary": "Published Time: Thu, 13 Mar 2025 04:28:00 GMT...",
-      "date": "2026-06-24",
-      "source": "TechCrunch",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "Artificial Intelligence"
-      ]
-    },
-    {
-      "title": "Markdown Content:",
-      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-      "summary": "Markdown Content:...",
-      "date": "2026-06-23",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
       "title": "刚刚，豆包大模型2.1发布，又一次跨越生产级质变点",
       "link": "https://www.jiqizhixin.com/search/articles/刚刚，豆包大模型2.1发布，又",
       "summary": "刚刚，豆包大模型2.1发布，又一次跨越生产级质变点...",
@@ -104,6 +128,18 @@
       "title": "LeCun、谢赛宁转发的世界模型与VLA共融方案：中关村学院ECCV2026—VLA-JEPA",
       "link": "https://www.jiqizhixin.com/search/articles/LeCun、谢赛宁转发的世界模",
       "summary": "LeCun、谢赛宁转发的世界模型与VLA共融方案：中关村学院ECCV2026—VLA-JEPA...",
+      "date": "2026-06-23",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "Markdown Content:",
+      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+      "summary": "Markdown Content:...",
       "date": "2026-06-23",
       "source": "机器之心",
       "type": "industry",
@@ -2362,42 +2398,6 @@
       "summary": "清智系企业亮相 BEYOND Expo 2026 并斩获多项大奖，岑浩辉、贺一诚莅临观展...",
       "date": "2026-05-29",
       "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "阶跃发布Step 3.7 Flash：一款为「烧钱时代」准备的Agent模型",
-      "link": "https://www.jiqizhixin.com/search/articles/阶跃发布Step 3.7 Fl",
-      "summary": "阶跃发布Step 3.7 Flash：一款为「烧钱时代」准备的Agent模型...",
-      "date": "2026-05-29",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "DiffusionOPD：复旦联合通义万相提出扩散模型「在线策略蒸馏」新范式，让学⽣模型同时学会构图、⽂字与美学",
-      "link": "https://www.jiqizhixin.com/search/articles/DiffusionOPD：复旦",
-      "summary": "DiffusionOPD：复旦联合通义万相提出扩散模型「在线策略蒸馏」新范式，让学⽣模型同时学会构图、⽂字与美学...",
-      "date": "2026-05-29",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "医学AI Agent到了关键拐点",
-      "link": "https://www.qbitai.com/?s=医学AI Agent",
-      "summary": "医学AI Agent到了关键拐点...",
-      "date": "2026-05-29",
-      "source": "量子位",
       "type": "industry",
       "tags": [
         "AI",
