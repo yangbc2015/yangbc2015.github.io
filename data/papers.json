@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-06-24",
-  "count": 5,
+  "count": 8,
   "items": [
     {
       "title": "InSight: Self-Guided Skill Acquisition via Steerable VLAs",
@@ -34,6 +34,39 @@
         "cs.AI"
       ],
       "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Matching Tasks to Objectives: Fine-Tuning and Prompt-Tuning Strategies for Encoder-Decoder Pre-trained Language Models",
+      "authors": "Ahmad Pouramini, Hesham Faili",
+      "abstract": "Prompt-based learning has emerged as a dominant paradigm in natural language processing. This study explores the impact of diverse pre-training objectives on the performance of encoder-decoder pre-trained language models across generation and question answering tasks, with a focus on commonsense kno...",
+      "venue": "arXiv",
+      "date": "2026-06-23",
+      "arxiv_id": "2606.24841v1",
+      "url": "https://arxiv.org/abs/2606.24841v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.24841v1.pdf",
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Less is More: Quality-Aware Training Data Selection for Scientific Summarization",
+      "authors": "Maria Nefeli Paraskevopoulou, Tatiana Passali, Grigorios Tsoumakas",
+      "abstract": "Scientific long-document summarization datasets commonly treat author-written abstracts as gold reference summaries, although their quality and alignment with the source article vary. At the same time, publicly available scientific summarization datasets remain limited in scale and structure for mod...",
+      "venue": "arXiv",
+      "date": "2026-06-23",
+      "arxiv_id": "2606.24828v1",
+      "url": "https://arxiv.org/abs/2606.24828v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.24828v1.pdf",
+      "categories": [
+        "cs.CL"
+      ],
+      "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
@@ -83,6 +116,22 @@
         "cs.LG"
       ],
       "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Vision-Language Model Reasoning for Contextual Semantic Mapping in Intralogistics",
+      "authors": "Marvin Rüdt, Hao Pang, Constantin Enke et al.",
+      "abstract": "Autonomous mobile robots operating in intralogistics environments rely on geometric maps for localization and navigation, but lack semantic understanding of objects and their contextual properties. We present a contextual semantic mapping pipeline that combines SLAM-based geometric mapping, SAM-base...",
+      "venue": "arXiv",
+      "date": "2026-06-23",
+      "arxiv_id": "2606.24814v1",
+      "url": "https://arxiv.org/abs/2606.24814v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.24814v1.pdf",
+      "categories": [
+        "cs.RO"
+      ],
+      "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     }
