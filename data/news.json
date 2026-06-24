@@ -1,9 +1,21 @@
 {
   "last_updated": "2026-06-24",
   "count": 200,
-  "history_count": 203,
+  "history_count": 201,
   "retention_days": 30,
   "items": [
+    {
+      "title": "已率先完成智谱GLM-5.2适配",
+      "link": "https://www.qbitai.com/?s=已率先完成智谱GLM",
+      "summary": "已率先完成智谱GLM-5.2适配...",
+      "date": "2026-06-24",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
     {
       "title": "开源项目GitHub狂揽4.2k Star",
       "link": "https://www.qbitai.com/?s=开源项目GitHub",
@@ -53,18 +65,6 @@
       ]
     },
     {
-      "title": "24小时在线，2秒回话，陪你聊球",
-      "link": "https://www.qbitai.com/?s=24小时在线，2秒回",
-      "summary": "24小时在线，2秒回话，陪你聊球...",
-      "date": "2026-06-24",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
       "title": "*   [Latest](http://techcrunch.com/latest/)",
       "link": "https://techcrunch.com/category/artificial-intelligence/",
       "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
@@ -74,6 +74,18 @@
       "tags": [
         "AI",
         "Artificial Intelligence"
+      ]
+    },
+    {
+      "title": "24小时在线，2秒回话，陪你聊球",
+      "link": "https://www.qbitai.com/?s=24小时在线，2秒回",
+      "summary": "24小时在线，2秒回话，陪你聊球...",
+      "date": "2026-06-24",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
       ]
     },
     {
@@ -2384,18 +2396,6 @@
       "title": "面壁智能「开源周」：一场定义端侧 AI 终局的系统性「亮剑」",
       "link": "https://www.jiqizhixin.com/search/articles/面壁智能「开源周」：一场定义端",
       "summary": "面壁智能「开源周」：一场定义端侧 AI 终局的系统性「亮剑」...",
-      "date": "2026-05-29",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "清智系企业亮相 BEYOND Expo 2026 并斩获多项大奖，岑浩辉、贺一诚莅临观展",
-      "link": "https://www.jiqizhixin.com/search/articles/清智系企业亮相 BEYOND ",
-      "summary": "清智系企业亮相 BEYOND Expo 2026 并斩获多项大奖，岑浩辉、贺一诚莅临观展...",
       "date": "2026-05-29",
       "source": "机器之心",
       "type": "industry",
