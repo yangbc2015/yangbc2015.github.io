@@ -3,6 +3,31 @@
   "count": 200,
   "items": [
     {
+      "title": "[BEV 杀入 具 身 智 能：跨维把机器人数据带上 Scaling 快车道",
+      "summary": "[BEV 杀入 具 身 智 能：跨维把机器人数据带上 Scaling 快车道",
+      "url": "http://36kr.com/p/3849567168959753",
+      "date": "2026-06-25",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
+      "title": "[工信部、国资委启动2026年度人形机器人与 具 身 智 能 实景实训专项行动",
+      "summary": "[工信部、国资委启动2026年度人形机器人与 具 身 智 能 实景实训专项行动",
+      "url": "http://36kr.com/p/3846712950934022",
+      "date": "2026-06-25",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "人形机器人"
+      ]
+    },
+    {
       "title": "[具 身 智 能 的“大广告”时代：伴侣机器人，可能是唯一出路",
       "summary": "[具 身 智 能 的“大广告”时代：伴侣机器人，可能是唯一出路",
       "url": "http://36kr.com/p/3863035260992389",
@@ -28,15 +53,83 @@
       ]
     },
     {
-      "title": "[BEV 杀入 具 身 智 能：跨维把机器人数据带上 Scaling 快车道",
-      "summary": "[BEV 杀入 具 身 智 能：跨维把机器人数据带上 Scaling 快车道",
-      "url": "http://36kr.com/p/3849567168959753",
-      "date": "2026-06-25",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
+      "title": "Learning Action Priors for Cross-embodiment Robot Manipulation",
+      "summary": "Most Vision-Language-Action (VLA) models build on a Vision-Language Model (VLM) backbone by attaching an action module and optimizing the full policy jointly. This design inherits strong visual and linguistic priors from the VLM, but leaves the actio...",
+      "url": "https://arxiv.org/abs/2606.26095v1",
+      "date": "2026-06-24",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.26095v1",
+      "authors": "Dong Jing, Tianqi Zhang et al.",
       "tags": [
-        "机器人"
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "ForceBand: Learning Forceful Manipulation with sEMG",
+      "summary": "Human demonstrations are a scalable data source for learning robot manipulation policies. However, common sources of human demonstration data, such as motion-capture trajectories and internet videos, capture mostly motion and appearance while missing...",
+      "url": "https://arxiv.org/abs/2606.26093v1",
+      "date": "2026-06-24",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.26093v1",
+      "authors": "Botao He, Zhi Wang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Deep Reinforcement Learning-Enhanced Event-Triggered Data-Driven Predictive Control for a 3D Cable-Driven Soft Robotic Arm",
+      "summary": "Soft robots are challenging to control due to their nonlinear and time-varying dynamics. Data-enabled predictive control (DeePC) offers a model-free alternative by directly leveraging measured input-output trajectories to construct a predictive contr...",
+      "url": "https://arxiv.org/abs/2606.26048v1",
+      "date": "2026-06-24",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.26048v1",
+      "authors": "Cheng Ouyang, Moeen Ul Islam et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Learning Robot Visual Navigation in Crowds via Intention-Aware Scene Representations",
+      "summary": "Robot crowd navigation requires the ability to infer human intentions while accounting for the structural constraints of the environment. Currently, deep reinforcement learning (DRL) provides a promising method for learning navigation policies that u...",
+      "url": "https://arxiv.org/abs/2606.26047v1",
+      "date": "2026-06-24",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.26047v1",
+      "authors": "Han Bao, Bingyi Xia et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "RoboAtlas: Contextual Active SLAM",
+      "summary": "We present RoboAtlas, a contextual Active SLAM framework that adaptively balances geometric exploration and semantic reasoning using a scalable 3D semantic mapping system, OpenRoboVox. RoboAtlas integrates frontier exploration, global semantic-map re...",
+      "url": "https://arxiv.org/abs/2606.26046v1",
+      "date": "2026-06-24",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.26046v1",
+      "authors": "Alexander Schperberg, Shivam K. Panda et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
       ]
     },
     {
@@ -123,19 +216,6 @@
         "机器人",
         "人形机器人",
         "波士顿动力"
-      ]
-    },
-    {
-      "title": "[工信部、国资委启动2026年度人形机器人与 具 身 智 能 实景实训专项行动",
-      "summary": "[工信部、国资委启动2026年度人形机器人与 具 身 智 能 实景实训专项行动",
-      "url": "http://36kr.com/p/3846712950934022",
-      "date": "2026-06-24",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "人形机器人"
       ]
     },
     {
@@ -3022,83 +3102,6 @@
       "type": "paper",
       "arxiv_id": "2605.13778v1",
       "authors": "Jiahui Niu, Kefan Gu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "RoboEvolve: Co-Evolving Planner-Simulator for Robotic Manipulation with Limited Data",
-      "summary": "The scalability of robotic manipulation is fundamentally bottlenecked by the scarcity of task-aligned physical interaction data. While vision-language models (VLMs) and video generation models (VGMs) hold promise for autonomous data synthesis, they s...",
-      "url": "https://arxiv.org/abs/2605.13775v1",
-      "date": "2026-05-13",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.13775v1",
-      "authors": "Harold Haodong Chen, Sirui Chen et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "具身智能要找到高价值落地场景。",
-      "summary": "具身智能要找到高价值落地场景。",
-      "url": "http://36kr.com/p/3806080665935368",
-      "date": "2026-05-12",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "SafeManip: A Property-Driven Benchmark for Temporal Safety Evaluation in Robotic Manipulation",
-      "summary": "Robotic manipulation is typically evaluated by task success, but successful completion does not guarantee safe execution. Many safety failures are temporal: a robot may touch a clean surface after contamination or release an object before it is fully...",
-      "url": "https://arxiv.org/abs/2605.12386v1",
-      "date": "2026-05-12",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.12386v1",
-      "authors": "Chengyue Huang, Khang Vo Huynh et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "GuidedVLA: Specifying Task-Relevant Factors via Plug-and-Play Action Attention Specialization",
-      "summary": "Vision-Language-Action (VLA) models aim for general robot learning by aligning action as a modality within powerful Vision-Language Models (VLMs). Existing VLAs rely on end-to-end supervision to implicitly enable the action decoding process to learn ...",
-      "url": "https://arxiv.org/abs/2605.12369v1",
-      "date": "2026-05-12",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.12369v1",
-      "authors": "Xiaosong Jia, Bowen Yang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Real-Time Whole-Body Teleoperation of a Humanoid Robot Using IMU-Based Motion Capture with Sim2Sim and Sim2Real Validation",
-      "summary": "Stable, low-latency whole-body teleoperation of humanoid robots is an open research challenge, complicated by kinematic mismatches between human and robot morphologies, accumulated inertial sensor noise, non-trivial control latency, and persistent si...",
-      "url": "https://arxiv.org/abs/2605.12347v1",
-      "date": "2026-05-12",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.12347v1",
-      "authors": "Hamza Ahmed Durrani, Suleman Khan",
       "tags": [
         "机器人学习",
         "研究论文",

@@ -1,6 +1,6 @@
 ---
 title: 涵盖QoderWork、Qoder Desktop等
-date: '2026-06-24'
+date: '2026-06-25'
 type: industry
 source: 量子位
 link: https://www.qbitai.com/?s=涵盖QoderWor

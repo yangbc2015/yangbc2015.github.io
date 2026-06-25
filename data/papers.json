@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-06-25",
-  "count": 4,
+  "count": 9,
   "items": [
     {
       "title": "Enhancing Brain MRI Anomaly Detection and Reasoning with ROI Rethink and Synthetic Data",
@@ -37,6 +37,41 @@
       "source": "arXiv"
     },
     {
+      "title": "Real-Time Voice AI Hears but Does Not Listen",
+      "authors": "Martijn Bartelds, Federico Bianchi, James Zou",
+      "abstract": "Speech conveys information through both words and vocal delivery. We evaluate four leading production realtime voice systems-OpenAI's GPT Realtime 2, Google's Gemini 3.1 Flash Live, and Alibaba's Qwen3.5 Omni Plus and Omni Flash-on tasks where the words and the delivery patterns both convey meaningf...",
+      "venue": "arXiv",
+      "date": "2026-06-24",
+      "arxiv_id": "2606.26083v1",
+      "url": "https://arxiv.org/abs/2606.26083v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.26083v1.pdf",
+      "categories": [
+        "cs.CL",
+        "eess.AS"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Same Evidence, Different Answer: Auditing Order Sensitivity in Multimodal Large Language Models",
+      "authors": "Akshay Paruchuri, Sanmi Koyejo, Ehsan Adeli",
+      "abstract": "Standard benchmarks for multimodal large language models (MLLMs) score each item on one canonical ordering and miss whether order-irrelevant shuffling changes the answer, a baseline reliability property called for by emerging AI evaluation guidelines. We introduce Facet-Probe, a five-facet audit (op...",
+      "venue": "arXiv",
+      "date": "2026-06-24",
+      "arxiv_id": "2606.26079v1",
+      "url": "https://arxiv.org/abs/2606.26079v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.26079v1.pdf",
+      "categories": [
+        "cs.CL",
+        "cs.CV",
+        "cs.LG"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
       "title": "Learning Action Priors for Cross-embodiment Robot Manipulation",
       "authors": "Dong Jing, Tianqi Zhang, Jiaqi Liu et al.",
       "abstract": "Most Vision-Language-Action (VLA) models build on a Vision-Language Model (VLM) backbone by attaching an action module and optimizing the full policy jointly. This design inherits strong visual and linguistic priors from the VLM, but leaves the action module to learn physical motion almost from scra...",
@@ -67,6 +102,55 @@
         "cs.CV"
       ],
       "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "RevengeBench: Reverse Engineering Code-Space Policies from Behavioral Experiments",
+      "authors": "Babak Rahmani, Sebastian Dziadzio, Joschka Strüber et al.",
+      "abstract": "For most of scientific history, researchers studying behavior could only infer hidden mechanisms from outward actions: an inverse problem that becomes more tractable when observation is augmented by targeted intervention. We pose a computational analogue: given only behavioral traces of an agent in ...",
+      "venue": "arXiv",
+      "date": "2026-06-24",
+      "arxiv_id": "2606.26094v1",
+      "url": "https://arxiv.org/abs/2606.26094v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.26094v1.pdf",
+      "categories": [
+        "cs.LG"
+      ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "On-Policy Self-Distillation with Sampled Demonstrations Reduces Output Diversity",
+      "authors": "Andrei Liviu Nicolicioiu, Mohammad Pezeshki, Aaron Courville",
+      "abstract": "On-policy self-distillation achieves strong pass@1 accuracy by using a single model as both teacher and student, with the teacher conditioned on a correct demonstration to provide dense token-level feedback. We show that this could come at a hidden cost: rollout diversity decreases and pass@k curves...",
+      "venue": "arXiv",
+      "date": "2026-06-24",
+      "arxiv_id": "2606.26091v1",
+      "url": "https://arxiv.org/abs/2606.26091v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.26091v1.pdf",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "ForceBand: Learning Forceful Manipulation with sEMG",
+      "authors": "Botao He, Zhi Wang, Linna Kuang et al.",
+      "abstract": "Human demonstrations are a scalable data source for learning robot manipulation policies. However, common sources of human demonstration data, such as motion-capture trajectories and internet videos, capture mostly motion and appearance while missing the contact forces that are critical for force-se...",
+      "venue": "arXiv",
+      "date": "2026-06-24",
+      "arxiv_id": "2606.26093v1",
+      "url": "https://arxiv.org/abs/2606.26093v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.26093v1.pdf",
+      "categories": [
+        "cs.RO"
+      ],
+      "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     }
