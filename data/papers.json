@@ -1,34 +1,16 @@
 {
-  "last_updated": "2026-06-24",
-  "count": 8,
+  "last_updated": "2026-06-25",
+  "count": 4,
   "items": [
     {
-      "title": "InSight: Self-Guided Skill Acquisition via Steerable VLAs",
-      "authors": "Maggie Wang, Lars Osterberg, Stephen Tian et al.",
-      "abstract": "Vision-language-action (VLA) models can learn manipulation skills from demonstrations, but their capabilities are bounded by the skills in the training data. We present InSight, a framework that unlocks autonomous skill acquisition by rendering VLAs steerable at the primitive-action level (e.g., \"mo...",
+      "title": "Enhancing Brain MRI Anomaly Detection and Reasoning with ROI Rethink and Synthetic Data",
+      "authors": "Shangkun Li, Jie Xu, Yi Guo et al.",
+      "abstract": "Medical vision-language models typically generate diagnoses through single-pass inference without indicating which image regions support their conclusions. This lack of spatial grounding limits clinical utility: outputs cannot be audited, and models may hallucinate findings on normal scans. We prese...",
       "venue": "arXiv",
-      "date": "2026-06-23",
-      "arxiv_id": "2606.24884v1",
-      "url": "https://arxiv.org/abs/2606.24884v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.24884v1.pdf",
-      "categories": [
-        "cs.RO",
-        "cs.AI",
-        "cs.LG"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "FLUX3D: High-Fidelity 3D Gaussian Generation with Diffusion-Aligned Sparse Representation",
-      "authors": "Haorui Ji, Weizhe Liu, Hongdong Li et al.",
-      "abstract": "Sparse voxel representation has emerged as a scalable foundation for image-to-3D Gaussian Splatting (3DGS) generation, yet current methods struggle to preserve high-frequency visual details of input images due to two structural bottlenecks. First, they adopt discriminative 2D features optimized for ...",
-      "venue": "arXiv",
-      "date": "2026-06-23",
-      "arxiv_id": "2606.24874v1",
-      "url": "https://arxiv.org/abs/2606.24874v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.24874v1.pdf",
+      "date": "2026-06-24",
+      "arxiv_id": "2606.25894v1",
+      "url": "https://arxiv.org/abs/2606.25894v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.25894v1.pdf",
       "categories": [
         "cs.CV",
         "cs.AI"
@@ -38,100 +20,53 @@
       "source": "arXiv"
     },
     {
-      "title": "Matching Tasks to Objectives: Fine-Tuning and Prompt-Tuning Strategies for Encoder-Decoder Pre-trained Language Models",
-      "authors": "Ahmad Pouramini, Hesham Faili",
-      "abstract": "Prompt-based learning has emerged as a dominant paradigm in natural language processing. This study explores the impact of diverse pre-training objectives on the performance of encoder-decoder pre-trained language models across generation and question answering tasks, with a focus on commonsense kno...",
+      "title": "AI-Assisted Computational Reproducibility on the FABRIC Testbed",
+      "authors": "Komal Thareja, Paul Ruth, Berent Aldikacti et al.",
+      "abstract": "Computational reproducibility remains difficult despite being central to scientific research. In this paper, we show how the international FABRIC testbed, combined with large language model (LLM) coding assistants through LoomAI, can simplify reproducing published experiments across multiple domains...",
       "venue": "arXiv",
-      "date": "2026-06-23",
-      "arxiv_id": "2606.24841v1",
-      "url": "https://arxiv.org/abs/2606.24841v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.24841v1.pdf",
+      "date": "2026-06-24",
+      "arxiv_id": "2606.25879v1",
+      "url": "https://arxiv.org/abs/2606.25879v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.25879v1.pdf",
       "categories": [
+        "cs.DC",
+        "cs.AI"
+      ],
+      "type": "ai",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Learning Action Priors for Cross-embodiment Robot Manipulation",
+      "authors": "Dong Jing, Tianqi Zhang, Jiaqi Liu et al.",
+      "abstract": "Most Vision-Language-Action (VLA) models build on a Vision-Language Model (VLM) backbone by attaching an action module and optimizing the full policy jointly. This design inherits strong visual and linguistic priors from the VLM, but leaves the action module to learn physical motion almost from scra...",
+      "venue": "arXiv",
+      "date": "2026-06-24",
+      "arxiv_id": "2606.26095v1",
+      "url": "https://arxiv.org/abs/2606.26095v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.26095v1.pdf",
+      "categories": [
+        "cs.RO",
         "cs.AI",
-        "cs.CL"
+        "cs.CV"
       ],
-      "type": "nlp",
+      "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Less is More: Quality-Aware Training Data Selection for Scientific Summarization",
-      "authors": "Maria Nefeli Paraskevopoulou, Tatiana Passali, Grigorios Tsoumakas",
-      "abstract": "Scientific long-document summarization datasets commonly treat author-written abstracts as gold reference summaries, although their quality and alignment with the source article vary. At the same time, publicly available scientific summarization datasets remain limited in scale and structure for mod...",
+      "title": "TryOnCrafter: Unleashing Camera Trajectories for Realistic Video Virtual Try-on via a Renderable 4D Try-on Proxy",
+      "authors": "Hao Sun, Hao Yan, Mengting Chen et al.",
+      "abstract": "While Video Virtual Try-on (VVT) has achieved remarkable progress in synthesizing realistic garment overlays on dynamic subjects, existing paradigms remains fundamentally constrained by a passive dependency on source camera trajectories, failing to accommodate the requisite interactive freedom for o...",
       "venue": "arXiv",
-      "date": "2026-06-23",
-      "arxiv_id": "2606.24828v1",
-      "url": "https://arxiv.org/abs/2606.24828v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.24828v1.pdf",
-      "categories": [
-        "cs.CL"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "DiffusionBench: On Holistic Evaluation of Diffusion Transformers",
-      "authors": "Xingjian Leng, Jaskirat Singh, Zhanhao Liang et al.",
-      "abstract": "Diffusion transformer (DiT) research on image generation has converged to a single evaluation setup: class-conditional generation on ImageNet. While methods improve the FID and related metrics, it is increasingly unclear whether they reflect real progress in generative modeling. The natural alternat...",
-      "venue": "arXiv",
-      "date": "2026-06-23",
-      "arxiv_id": "2606.24888v1",
-      "url": "https://arxiv.org/abs/2606.24888v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.24888v1.pdf",
+      "date": "2026-06-24",
+      "arxiv_id": "2606.26092v1",
+      "url": "https://arxiv.org/abs/2606.26092v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.26092v1.pdf",
       "categories": [
         "cs.CV"
       ],
-      "type": "benchmark",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "BenchX: Benchmarking AI Models for Cancer Detection and Localization with Demographic and Protocol Biases",
-      "authors": "Qi Chen, Wenxuan Li, Pedro R. A. S. Bassi et al.",
-      "abstract": "Artificial intelligence (AI) has achieved remarkable success in medical imaging, but it is widely recognized that these models often perform inconsistently across real-world clinical settings. Such inconsistencies occur when patient demographics and imaging protocols vary, for example, in detecting ...",
-      "venue": "arXiv",
-      "date": "2026-06-23",
-      "arxiv_id": "2606.24883v1",
-      "url": "https://arxiv.org/abs/2606.24883v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.24883v1.pdf",
-      "categories": [
-        "cs.CV"
-      ],
-      "type": "benchmark",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "New Bounds for the Last Iterate of the Stochastic subGradient Method",
-      "authors": "Guglielmo Beretta, Tommaso Cesari, Roberto Colomboni et al.",
-      "abstract": "We study the last iterate of the stochastic subgradient method for one-dimensional convex Lipschitz objectives. For a fixed horizon $n$, we consider the standard fixed stepsizes $η=Θ(1/\\sqrt n)$. We prove that, for such stepsize policies, under additive i.i.d. subgradient noise with uniformly bounde...",
-      "venue": "arXiv",
-      "date": "2026-06-23",
-      "arxiv_id": "2606.24879v1",
-      "url": "https://arxiv.org/abs/2606.24879v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.24879v1.pdf",
-      "categories": [
-        "math.OC",
-        "cs.LG"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Vision-Language Model Reasoning for Contextual Semantic Mapping in Intralogistics",
-      "authors": "Marvin Rüdt, Hao Pang, Constantin Enke et al.",
-      "abstract": "Autonomous mobile robots operating in intralogistics environments rely on geometric maps for localization and navigation, but lack semantic understanding of objects and their contextual properties. We present a contextual semantic mapping pipeline that combines SLAM-based geometric mapping, SAM-base...",
-      "venue": "arXiv",
-      "date": "2026-06-23",
-      "arxiv_id": "2606.24814v1",
-      "url": "https://arxiv.org/abs/2606.24814v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.24814v1.pdf",
-      "categories": [
-        "cs.RO"
-      ],
-      "type": "nlp",
+      "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     }
