@@ -1,9 +1,45 @@
 {
   "last_updated": "2026-06-25",
   "count": 200,
-  "history_count": 200,
+  "history_count": 203,
   "retention_days": 30,
   "items": [
+    {
+      "title": "Claude已经，俨然成为了新一代电子老公。",
+      "link": "https://www.qbitai.com/?s=Claude已经，俨",
+      "summary": "Claude已经，俨然成为了新一代电子老公。...",
+      "date": "2026-06-25",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "中国AI应用公司并没有停留在追赶全球浪潮",
+      "link": "https://www.qbitai.com/?s=中国AI应用公司并没",
+      "summary": "中国AI应用公司并没有停留在追赶全球浪潮...",
+      "date": "2026-06-25",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "谁将定义下一代算力基础设施？谁又能在Token时代占据产业制高点？",
+      "link": "https://www.qbitai.com/?s=谁将定义下一代算力基",
+      "summary": "谁将定义下一代算力基础设施？谁又能在Token时代占据产业制高点？...",
+      "date": "2026-06-25",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
     {
       "title": "已率先完成智谱GLM-5.2适配",
       "link": "https://www.qbitai.com/?s=已率先完成智谱GLM",
@@ -26,6 +62,18 @@
       "tags": [
         "AI",
         "人工智能"
+      ]
+    },
+    {
+      "title": "Published Time: Tue, 23 Jun 2026 02:06:19 GMT",
+      "link": "https://techcrunch.com/category/artificial-intelligence/",
+      "summary": "Published Time: Tue, 23 Jun 2026 02:06:19 GMT...",
+      "date": "2026-06-25",
+      "source": "TechCrunch",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "Artificial Intelligence"
       ]
     },
     {
@@ -62,18 +110,6 @@
       "tags": [
         "AI",
         "人工智能"
-      ]
-    },
-    {
-      "title": "Published Time: Thu, 08 May 2025 23:15:48 GMT",
-      "link": "https://techcrunch.com/category/artificial-intelligence/",
-      "summary": "Published Time: Thu, 08 May 2025 23:15:48 GMT...",
-      "date": "2026-06-25",
-      "source": "TechCrunch",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "Artificial Intelligence"
       ]
     },
     {
@@ -2360,42 +2396,6 @@
       "title": "DeepSeek陈德里AI论文第二弹：从6分到8分，DeliAutoResearch SKILL又进化了",
       "link": "https://www.jiqizhixin.com/search/articles/DeepSeek陈德里AI论文",
       "summary": "DeepSeek陈德里AI论文第二弹：从6分到8分，DeliAutoResearch SKILL又进化了...",
-      "date": "2026-05-31",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "LeetCode C++近满分！Autogenesis要给智能体装上「自进化操作系统」",
-      "link": "https://www.jiqizhixin.com/search/articles/LeetCode C++近满分",
-      "summary": "LeetCode C++近满分！Autogenesis要给智能体装上「自进化操作系统」...",
-      "date": "2026-05-31",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "只需几个抽象符号替代思维链，就能将推理成本压缩11倍",
-      "link": "https://www.jiqizhixin.com/search/articles/只需几个抽象符号替代思维链，就",
-      "summary": "只需几个抽象符号替代思维链，就能将推理成本压缩11倍...",
-      "date": "2026-05-31",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "李飞飞造了ImageNet，现在她又带人超越了它",
-      "link": "https://www.jiqizhixin.com/search/articles/李飞飞造了ImageNet，现",
-      "summary": "李飞飞造了ImageNet，现在她又带人超越了它...",
       "date": "2026-05-31",
       "source": "机器之心",
       "type": "industry",

@@ -1,38 +1,39 @@
 {
   "last_updated": "2026-06-25",
-  "count": 9,
+  "count": 7,
   "items": [
     {
-      "title": "Enhancing Brain MRI Anomaly Detection and Reasoning with ROI Rethink and Synthetic Data",
-      "authors": "Shangkun Li, Jie Xu, Yi Guo et al.",
-      "abstract": "Medical vision-language models typically generate diagnoses through single-pass inference without indicating which image regions support their conclusions. This lack of spatial grounding limits clinical utility: outputs cannot be audited, and models may hallucinate findings on normal scans. We prese...",
+      "title": "Learning Action Priors for Cross-embodiment Robot Manipulation",
+      "authors": "Dong Jing, Tianqi Zhang, Jiaqi Liu et al.",
+      "abstract": "Most Vision-Language-Action (VLA) models build on a Vision-Language Model (VLM) backbone by attaching an action module and optimizing the full policy jointly. This design inherits strong visual and linguistic priors from the VLM, but leaves the action module to learn physical motion almost from scra...",
       "venue": "arXiv",
       "date": "2026-06-24",
-      "arxiv_id": "2606.25894v1",
-      "url": "https://arxiv.org/abs/2606.25894v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.25894v1.pdf",
+      "arxiv_id": "2606.26095v1",
+      "url": "https://arxiv.org/abs/2606.26095v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.26095v1.pdf",
       "categories": [
-        "cs.CV",
-        "cs.AI"
+        "cs.RO",
+        "cs.AI",
+        "cs.CV"
       ],
       "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "AI-Assisted Computational Reproducibility on the FABRIC Testbed",
-      "authors": "Komal Thareja, Paul Ruth, Berent Aldikacti et al.",
-      "abstract": "Computational reproducibility remains difficult despite being central to scientific research. In this paper, we show how the international FABRIC testbed, combined with large language model (LLM) coding assistants through LoomAI, can simplify reproducing published experiments across multiple domains...",
+      "title": "On-Policy Self-Distillation with Sampled Demonstrations Reduces Output Diversity",
+      "authors": "Andrei Liviu Nicolicioiu, Mohammad Pezeshki, Aaron Courville",
+      "abstract": "On-policy self-distillation achieves strong pass@1 accuracy by using a single model as both teacher and student, with the teacher conditioned on a correct demonstration to provide dense token-level feedback. We show that this could come at a hidden cost: rollout diversity decreases and pass@k curves...",
       "venue": "arXiv",
       "date": "2026-06-24",
-      "arxiv_id": "2606.25879v1",
-      "url": "https://arxiv.org/abs/2606.25879v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.25879v1.pdf",
+      "arxiv_id": "2606.26091v1",
+      "url": "https://arxiv.org/abs/2606.26091v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.26091v1.pdf",
       "categories": [
-        "cs.DC",
+        "cs.LG",
         "cs.AI"
       ],
-      "type": "ai",
+      "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     },
@@ -72,24 +73,6 @@
       "source": "arXiv"
     },
     {
-      "title": "Learning Action Priors for Cross-embodiment Robot Manipulation",
-      "authors": "Dong Jing, Tianqi Zhang, Jiaqi Liu et al.",
-      "abstract": "Most Vision-Language-Action (VLA) models build on a Vision-Language Model (VLM) backbone by attaching an action module and optimizing the full policy jointly. This design inherits strong visual and linguistic priors from the VLM, but leaves the action module to learn physical motion almost from scra...",
-      "venue": "arXiv",
-      "date": "2026-06-24",
-      "arxiv_id": "2606.26095v1",
-      "url": "https://arxiv.org/abs/2606.26095v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.26095v1.pdf",
-      "categories": [
-        "cs.RO",
-        "cs.AI",
-        "cs.CV"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
       "title": "TryOnCrafter: Unleashing Camera Trajectories for Realistic Video Virtual Try-on via a Renderable 4D Try-on Proxy",
       "authors": "Hao Sun, Hao Yan, Mengting Chen et al.",
       "abstract": "While Video Virtual Try-on (VVT) has achieved remarkable progress in synthesizing realistic garment overlays on dynamic subjects, existing paradigms remains fundamentally constrained by a passive dependency on source camera trajectories, failing to accommodate the requisite interactive freedom for o...",
@@ -116,23 +99,6 @@
       "pdf_url": "https://arxiv.org/pdf/2606.26094v1.pdf",
       "categories": [
         "cs.LG"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "On-Policy Self-Distillation with Sampled Demonstrations Reduces Output Diversity",
-      "authors": "Andrei Liviu Nicolicioiu, Mohammad Pezeshki, Aaron Courville",
-      "abstract": "On-policy self-distillation achieves strong pass@1 accuracy by using a single model as both teacher and student, with the teacher conditioned on a correct demonstration to provide dense token-level feedback. We show that this could come at a hidden cost: rollout diversity decreases and pass@k curves...",
-      "venue": "arXiv",
-      "date": "2026-06-24",
-      "arxiv_id": "2606.26091v1",
-      "url": "https://arxiv.org/abs/2606.26091v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.26091v1.pdf",
-      "categories": [
-        "cs.LG",
-        "cs.AI"
       ],
       "type": "ml",
       "badge": "arxiv",
