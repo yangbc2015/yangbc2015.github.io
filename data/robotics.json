@@ -3,18 +3,6 @@
   "count": 200,
   "items": [
     {
-      "title": "[BEV 杀入 具 身 智 能：跨维把机器人数据带上 Scaling 快车道",
-      "summary": "[BEV 杀入 具 身 智 能：跨维把机器人数据带上 Scaling 快车道",
-      "url": "http://36kr.com/p/3849567168959753",
-      "date": "2026-06-26",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
-      ]
-    },
-    {
       "title": "[具 身 智 能 的“大广告”时代：伴侣机器人，可能是唯一出路",
       "summary": "[具 身 智 能 的“大广告”时代：伴侣机器人，可能是唯一出路",
       "url": "http://36kr.com/p/3863035260992389",
@@ -37,6 +25,98 @@
       "tags": [
         "机器人",
         "自动驾驶"
+      ]
+    },
+    {
+      "title": "[BEV 杀入 具 身 智 能：跨维把机器人数据带上 Scaling 快车道",
+      "summary": "[BEV 杀入 具 身 智 能：跨维把机器人数据带上 Scaling 快车道",
+      "url": "http://36kr.com/p/3849567168959753",
+      "date": "2026-06-26",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
+      "title": "Scalable Behavior Cloning with Open Data, Training, and Evaluation",
+      "summary": "We introduce ABC, a fully open-source stack for manipulation with behavior cloning. At its core is ABC-130K: the largest open-source teleoperation dataset to date, featuring 3,500 hours of data spanning over 130K episodes across 195 diverse tasks. Fu...",
+      "url": "https://arxiv.org/abs/2606.27375v1",
+      "date": "2026-06-25",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.27375v1",
+      "authors": "Arthur Allshire, Himanshu Gaurav Singh et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "World Action Models Enable Continual Imitation Learning with Recurrent Generative Replays",
+      "summary": "Going beyond predicting robot actions, World Action Models (WAMs) can also generate future visual observations. We build on this generative capability to propose Recurrent Generative Replay (REGEN), a continual imitation learning framework that synth...",
+      "url": "https://arxiv.org/abs/2606.27374v1",
+      "date": "2026-06-25",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.27374v1",
+      "authors": "Manish Kumar Govind, Dominick Reilly et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "RouterVLA: Turning Smoke Tests into Supervision for Heterogeneous VLA Selection",
+      "summary": "We study whether pre-deployment evaluation rollouts can be reused to supervise policy selection. Robot teams routinely smoke test candidate vision-language-action (VLA) policies, then compress those trials into a global winner. RouterVLA evaluates th...",
+      "url": "https://arxiv.org/abs/2606.27355v1",
+      "date": "2026-06-25",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.27355v1",
+      "authors": "Xingyu Ren, Chugang Yi et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Continual Robot Policy Learning via Variational Neural Dynamics",
+      "summary": "Robots deployed in the real world rarely operate under a single fixed dynamics model: wind changes, payloads vary, batteries drain, contacts shift, and hardware wears. Yet most learning-based controllers are trained once and deployed as if learning w...",
+      "url": "https://arxiv.org/abs/2606.27353v1",
+      "date": "2026-06-25",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.27353v1",
+      "authors": "Jiaxu Xing, Zhiyuan Zhu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Bridging Performance and Generalization in Reinforcement Learning for Agile Flight",
+      "summary": "Autonomous drone racing is a fundamentally challenging regime for autonomous aerial robots, requiring time-optimal control while operating under persistent actuation saturation. While reinforcement learning (RL) has achieved human-level performance i...",
+      "url": "https://arxiv.org/abs/2606.27348v1",
+      "date": "2026-06-25",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.27348v1",
+      "authors": "Jonathan Green, Jiaxu Xing et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
       ]
     },
     {
@@ -3033,82 +3113,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "Hand-in-the-Loop: Improving Dexterous VLA via Seamless Interventional Correction",
-      "summary": "Vision-Language-Action (VLA) models are prone to compounding errors in dexterous manipulation, where high-dimensional action spaces and contact-rich dynamics amplify small policy deviations over long horizons. While Interactive Imitation Learning (II...",
-      "url": "https://arxiv.org/abs/2605.15157v1",
-      "date": "2026-05-14",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.15157v1",
-      "authors": "Zhuohang Li, Liqun Huang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Pelican-Unified 1.0: A Unified Embodied Intelligence Model for Understanding, Reasoning, Imagination and Action",
-      "summary": "We present Pelican-Unified 1.0, the first embodied foundation model trained according to the principle of unification. Pelican-Unified 1.0 uses a single VLM as a unified understanding module, mapping scenes, instructions, visual contexts, and action ...",
-      "url": "https://arxiv.org/abs/2605.15153v1",
-      "date": "2026-05-14",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.15153v1",
-      "authors": "Yi Zhang, Yinda Chen et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "CoCo-InEKF: State Estimation with Learned Contact Covariances in Dynamic, Contact-Rich Scenarios",
-      "summary": "Robust state estimation for highly dynamic motion of legged robots remains challenging, especially in dynamic, contact-rich scenarios. Traditional approaches often rely on binary contact states that fail to capture the nuances of partial contact or d...",
-      "url": "https://arxiv.org/abs/2605.15122v1",
-      "date": "2026-05-14",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.15122v1",
-      "authors": "Michael Baumgartner, David Müller et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "CLOVER: Closed-Loop Value Estimation \\& Ranking for End-to-End Autonomous Driving Planning",
-      "summary": "End-to-end autonomous driving planners are commonly trained by imitating a single logged trajectory, yet evaluated by rule-based planning metrics that measure safety, feasibility, progress, and comfort. This creates a training--evaluation mismatch: t...",
-      "url": "https://arxiv.org/abs/2605.15120v1",
-      "date": "2026-05-14",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.15120v1",
-      "authors": "Sining Ang, Yuguang Yang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "[从机器人马拉松破纪录，看中国 具 身 智 能",
-      "summary": "[从机器人马拉松破纪录，看中国 具 身 智 能",
-      "url": "http://36kr.com/p/3778896668439299",
-      "date": "2026-05-14",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
       ]
     }
   ]

@@ -1,9 +1,33 @@
 {
   "last_updated": "2026-06-26",
   "count": 200,
-  "history_count": 200,
+  "history_count": 202,
   "retention_days": 30,
   "items": [
+    {
+      "title": "共建工业物理智能“数据底座与智能大脑”",
+      "link": "https://www.qbitai.com/?s=共建工业物理智能“数",
+      "summary": "共建工业物理智能“数据底座与智能大脑”...",
+      "date": "2026-06-26",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "在Transformers v5的基础上，增加了专家并行、DeepEP和TransformerEngine",
+      "link": "https://www.qbitai.com/?s=在Transform",
+      "summary": "在Transformers v5的基础上，增加了专家并行、DeepEP和TransformerEngine...",
+      "date": "2026-06-26",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
     {
       "title": "Claude已经，俨然成为了新一代电子老公。",
       "link": "https://www.qbitai.com/?s=Claude已经，俨",
@@ -41,6 +65,18 @@
       ]
     },
     {
+      "title": "Published Time: Thu, 08 May 2025 23:15:48 GMT",
+      "link": "https://techcrunch.com/category/artificial-intelligence/",
+      "summary": "Published Time: Thu, 08 May 2025 23:15:48 GMT...",
+      "date": "2026-06-26",
+      "source": "TechCrunch",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "Artificial Intelligence"
+      ]
+    },
+    {
       "title": "已率先完成智谱GLM-5.2适配",
       "link": "https://www.qbitai.com/?s=已率先完成智谱GLM",
       "summary": "已率先完成智谱GLM-5.2适配...",
@@ -62,18 +98,6 @@
       "tags": [
         "AI",
         "人工智能"
-      ]
-    },
-    {
-      "title": "*   [Latest](http://techcrunch.com/latest/)",
-      "link": "https://techcrunch.com/category/artificial-intelligence/",
-      "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
-      "date": "2026-06-26",
-      "source": "TechCrunch",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "Artificial Intelligence"
       ]
     },
     {
@@ -2374,30 +2398,6 @@
       "summary": "实现AI技术从“能力”到“价值”的转化...",
       "date": "2026-06-01",
       "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "小学生画了撇胡子骗过AI年龄验证，硅谷工程师沉默了",
-      "link": "https://www.jiqizhixin.com/search/articles/小学生画了撇胡子骗过AI年龄验",
-      "summary": "小学生画了撇胡子骗过AI年龄验证，硅谷工程师沉默了...",
-      "date": "2026-05-31",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "一周3.3k star，微软开启Skills自我进化！像训练神经网络一样训练技能",
-      "link": "https://www.jiqizhixin.com/search/articles/一周3.3k star，微软开",
-      "summary": "一周3.3k star，微软开启Skills自我进化！像训练神经网络一样训练技能...",
-      "date": "2026-05-31",
-      "source": "机器之心",
       "type": "industry",
       "tags": [
         "AI",
