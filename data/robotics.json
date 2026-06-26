@@ -1,7 +1,112 @@
 {
-  "last_updated": "2026-06-25",
+  "last_updated": "2026-06-26",
   "count": 200,
   "items": [
+    {
+      "title": "[具 身 智 能 的“大广告”时代：伴侣机器人，可能是唯一出路",
+      "summary": "[具 身 智 能 的“大广告”时代：伴侣机器人，可能是唯一出路",
+      "url": "http://36kr.com/p/3863035260992389",
+      "date": "2026-06-26",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
+      "title": "[火热的 具 身 智 能，藏着半个自动驾驶圈",
+      "summary": "[火热的 具 身 智 能，藏着半个自动驾驶圈",
+      "url": "http://36kr.com/p/3856635996158851",
+      "date": "2026-06-26",
+      "source": "36氪",
+      "category": "自主系统",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "自动驾驶"
+      ]
+    },
+    {
+      "title": "Automating Potential-based Reward Shaping with Vision Language Model Guidance",
+      "summary": "Sparse rewards are inherently challenging for reinforcement learning agents as they lack intermediate feedback to guide exploration and to correctly attribute the sparse success rewards to relevant parts of the trajectory. Naive reward shaping can in...",
+      "url": "https://arxiv.org/abs/2606.27180v1",
+      "date": "2026-06-25",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.27180v1",
+      "authors": "Henrik Müller, Daniel Kudenko",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Learning to Fold: prizewinning solution at LeHome Challenge 2026 (1st place online, 2nd offline)",
+      "summary": "I describe my solution to the LeHome Challenge 2026, an ICRA 2026 competition on bimanual garment folding. The system placed 1st of 62 teams in the online (simulation) round and 2nd in the real-world final. It improves a vision-language-action (VLA) ...",
+      "url": "https://arxiv.org/abs/2606.27163v1",
+      "date": "2026-06-25",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.27163v1",
+      "authors": "Ilia Larchenko",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "PhysReflect-VLA: Physical Feasibility and Self-Reflective Regulation for Reliable Vision-Language-Action Policies",
+      "summary": "Long-horizon robotic manipulation is highly sensitive to physically infeasible transitions, contact-induced disturbances, and the lack of effective self-correction during execution. Although Vision-Language-Action (VLA) models provide strong task gro...",
+      "url": "https://arxiv.org/abs/2606.27146v1",
+      "date": "2026-06-25",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.27146v1",
+      "authors": "Jiayu Yang, Tao Yang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "PAMAE: Phase-Aware-MoE Action Experts Towards Reliable Flow-Matching Vision-Language-Action Policies",
+      "summary": "Reliable action generation for multi-stage robotic manipulation remains challenging for Vision-Language-Action (VLA) models. While existing flow-matching VLA policies offer strong multimodal grounding and generalization, they typically employ a singl...",
+      "url": "https://arxiv.org/abs/2606.27144v1",
+      "date": "2026-06-25",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.27144v1",
+      "authors": "Jiayu Yang, Tao Yang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "FlameVQA: A Physically-Grounded UAV Wildfire VQA Benchmark with Radiometric Thermal Supervision",
+      "summary": "Wildfire monitoring from UAVs requires reliable reasoning over complex aerial scenes, where smoke, scale variation, and occlusions often limit RGB-only interpretation. We introduce FlameVQA, a multiple-choice visual question answering benchmark for U...",
+      "url": "https://arxiv.org/abs/2606.27128v1",
+      "date": "2026-06-25",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.27128v1",
+      "authors": "Mobin Habibpour, John Spodnik et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
     {
       "title": "[BEV 杀入 具 身 智 能：跨维把机器人数据带上 Scaling 快车道",
       "summary": "[BEV 杀入 具 身 智 能：跨维把机器人数据带上 Scaling 快车道",
@@ -28,28 +133,15 @@
       ]
     },
     {
-      "title": "[具 身 智 能 的“大广告”时代：伴侣机器人，可能是唯一出路",
-      "summary": "[具 身 智 能 的“大广告”时代：伴侣机器人，可能是唯一出路",
-      "url": "http://36kr.com/p/3863035260992389",
-      "date": "2026-06-25",
+      "title": "让外骨骼机器人像冲锋衣一样流行起来。",
+      "summary": "让外骨骼机器人像冲锋衣一样流行起来。",
+      "url": "http://36kr.com/p/3866388558058753",
+      "date": "2026-06-24",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
       "tags": [
         "机器人"
-      ]
-    },
-    {
-      "title": "[火热的 具 身 智 能，藏着半个自动驾驶圈",
-      "summary": "[火热的 具 身 智 能，藏着半个自动驾驶圈",
-      "url": "http://36kr.com/p/3856635996158851",
-      "date": "2026-06-25",
-      "source": "36氪",
-      "category": "自主系统",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "自动驾驶"
       ]
     },
     {
@@ -3017,95 +3109,6 @@
       "type": "news",
       "tags": [
         "机器人"
-      ]
-    },
-    {
-      "title": "PuduAgent为物理世界而生，为具身智能而立",
-      "summary": "PuduAgent为物理世界而生，为具身智能而立",
-      "url": "http://36kr.com/p/3807534532582916",
-      "date": "2026-05-13",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "电力央企联手机器人企业，推进算电协同双向赋能。",
-      "summary": "电力央企联手机器人企业，推进算电协同双向赋能。",
-      "url": "http://36kr.com/p/3806940627410441",
-      "date": "2026-05-13",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
-      ]
-    },
-    {
-      "title": "Loiter UAV Reinsertion Guidance for Fixed-wing UAV Corridors",
-      "summary": "This paper considers fixed-wing unmanned aerial vehicle (UAV) corridors comprising a main lane, a circular loiter lane for managing traffic congestion, and transit lanes connecting the two. In particular, we address the problem of conflict-free reins...",
-      "url": "https://arxiv.org/abs/2605.13822v1",
-      "date": "2026-05-13",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.13822v1",
-      "authors": "Pradeep J, Kedarisetty Siddhardha et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "OmniLiDAR: A Unified Diffusion Framework for Multi-Domain 3D LiDAR Generation",
-      "summary": "LiDAR scene generation is increasingly important for scalable simulation and synthetic data creation, especially under diverse sensing conditions that are costly to capture at scale. Typically, diffusion-based LiDAR generators are developed under sin...",
-      "url": "https://arxiv.org/abs/2605.13815v1",
-      "date": "2026-05-13",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.13815v1",
-      "authors": "Youquan Liu, Weidong Yang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "LMPath: Language-Mediated Priors and Path Generation for Aerial Exploration",
-      "summary": "Traditional autonomous UAV search missions rely on geometric coverage patterns that ignore the semantic context of the target, leading to significant time waste in large-scale environments. In this paper we present LMPath, a pipeline for generating l...",
-      "url": "https://arxiv.org/abs/2605.13782v1",
-      "date": "2026-05-13",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.13782v1",
-      "authors": "Jonathan A. Diller, Fernando Cladera et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Realtime-VLA FLASH: Speculative Inference Framework for Diffusion-based VLAs",
-      "summary": "Diffusion-based vision-language-action models (dVLAs) are promising for embodied intelligence but are fundamentally limited in real-time deployment by the high latency of full inference. We propose Realtime-VLA FLASH, a speculative inference framewor...",
-      "url": "https://arxiv.org/abs/2605.13778v1",
-      "date": "2026-05-13",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.13778v1",
-      "authors": "Jiahui Niu, Kefan Gu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
       ]
     }
   ]

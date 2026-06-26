@@ -1,34 +1,16 @@
 {
-  "last_updated": "2026-06-25",
-  "count": 7,
+  "last_updated": "2026-06-26",
+  "count": 9,
   "items": [
     {
-      "title": "Learning Action Priors for Cross-embodiment Robot Manipulation",
-      "authors": "Dong Jing, Tianqi Zhang, Jiaqi Liu et al.",
-      "abstract": "Most Vision-Language-Action (VLA) models build on a Vision-Language Model (VLM) backbone by attaching an action module and optimizing the full policy jointly. This design inherits strong visual and linguistic priors from the VLM, but leaves the action module to learn physical motion almost from scra...",
+      "title": "Autoregressive Boltzmann Generators",
+      "authors": "Danyal Rehman, Charlie B. Tan, Yoshua Bengio et al.",
+      "abstract": "Efficient sampling of molecular systems at thermodynamic equilibrium is a hallmark challenge in statistical physics. This challenge has driven the development of Boltzmann Generators (BGs), which allow rapid generation of uncorrelated equilibrium samples by combining a generative model with exact li...",
       "venue": "arXiv",
-      "date": "2026-06-24",
-      "arxiv_id": "2606.26095v1",
-      "url": "https://arxiv.org/abs/2606.26095v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.26095v1.pdf",
-      "categories": [
-        "cs.RO",
-        "cs.AI",
-        "cs.CV"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "On-Policy Self-Distillation with Sampled Demonstrations Reduces Output Diversity",
-      "authors": "Andrei Liviu Nicolicioiu, Mohammad Pezeshki, Aaron Courville",
-      "abstract": "On-policy self-distillation achieves strong pass@1 accuracy by using a single model as both teacher and student, with the teacher conditioned on a correct demonstration to provide dense token-level feedback. We show that this could come at a hidden cost: rollout diversity decreases and pass@k curves...",
-      "venue": "arXiv",
-      "date": "2026-06-24",
-      "arxiv_id": "2606.26091v1",
-      "url": "https://arxiv.org/abs/2606.26091v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.26091v1.pdf",
+      "date": "2026-06-25",
+      "arxiv_id": "2606.27361v1",
+      "url": "https://arxiv.org/abs/2606.27361v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.27361v1.pdf",
       "categories": [
         "cs.LG",
         "cs.AI"
@@ -38,34 +20,68 @@
       "source": "arXiv"
     },
     {
-      "title": "Real-Time Voice AI Hears but Does Not Listen",
-      "authors": "Martijn Bartelds, Federico Bianchi, James Zou",
-      "abstract": "Speech conveys information through both words and vocal delivery. We evaluate four leading production realtime voice systems-OpenAI's GPT Realtime 2, Google's Gemini 3.1 Flash Live, and Alibaba's Qwen3.5 Omni Plus and Omni Flash-on tasks where the words and the delivery patterns both convey meaningf...",
+      "title": "Error-Conditioned Neural Solvers",
+      "authors": "Haina Jiang, Liam Wang, Peng-Chen Chen et al.",
+      "abstract": "Neural surrogate models offer fast approximate mappings from PDE parameters to solutions, but they typically treat solving as a purely statistical task: once trained, they struggle to correct their own constraint violations and extrapolate beyond the training distribution. Recent hybrid methods prom...",
       "venue": "arXiv",
-      "date": "2026-06-24",
-      "arxiv_id": "2606.26083v1",
-      "url": "https://arxiv.org/abs/2606.26083v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.26083v1.pdf",
+      "date": "2026-06-25",
+      "arxiv_id": "2606.27354v1",
+      "url": "https://arxiv.org/abs/2606.27354v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.27354v1.pdf",
       "categories": [
-        "cs.CL",
-        "eess.AS"
+        "cs.LG",
+        "cs.AI",
+        "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Ask, Don't Judge: Binary Questions for Interpretable LLM Evaluation and Self-Improvement",
+      "authors": "Sangwoo Cho, Kushal Chawla, Pengshan Cai et al.",
+      "abstract": "Evaluating LLM outputs remains a major bottleneck in NLP: human evaluation is expensive and slow, lexical metrics correlate poorly with human judgments on open-ended generation, and holistic LLM judges often produce opaque scores that are hard to debug. We propose BINEVAL, a framework that decompose...",
+      "venue": "arXiv",
+      "date": "2026-06-25",
+      "arxiv_id": "2606.27226v1",
+      "url": "https://arxiv.org/abs/2606.27226v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.27226v1.pdf",
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "type": "benchmark",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Paved with True Intents: Intent-Aware Training Improves LLM Safety Classification Across Training Regimes",
+      "authors": "Jeremias Ferrao, Niclas Müller-Hof, Iustin Sîrbu et al.",
+      "abstract": "We argue that safety classifiers should model user intent as an explicit signal between the prompt and the final label. To study this, we introduce AIMS, a human-annotated dataset of 1,724 difficult safety prompts, each paired with an intent description and harm label. We use AIMS to evaluate intent...",
+      "venue": "arXiv",
+      "date": "2026-06-25",
+      "arxiv_id": "2606.27210v1",
+      "url": "https://arxiv.org/abs/2606.27210v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.27210v1.pdf",
+      "categories": [
+        "cs.CL"
       ],
       "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Same Evidence, Different Answer: Auditing Order Sensitivity in Multimodal Large Language Models",
-      "authors": "Akshay Paruchuri, Sanmi Koyejo, Ehsan Adeli",
-      "abstract": "Standard benchmarks for multimodal large language models (MLLMs) score each item on one canonical ordering and miss whether order-irrelevant shuffling changes the answer, a baseline reliability property called for by emerging AI evaluation guidelines. We introduce Facet-Probe, a five-facet audit (op...",
+      "title": "DanceOPD: On-Policy Generative Field Distillation",
+      "authors": "Wei Zhou, Xiongwei Zhu, Zelin Xu et al.",
+      "abstract": "Modern image generation demands a single model that unifies diverse capabilities, including text-to-image (T2I), local editing, and global editing. However, these capabilities are rarely naturally aligned and often conflict. For instance, editing tends to degrade T2I performance, while global and lo...",
       "venue": "arXiv",
-      "date": "2026-06-24",
-      "arxiv_id": "2606.26079v1",
-      "url": "https://arxiv.org/abs/2606.26079v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.26079v1.pdf",
+      "date": "2026-06-25",
+      "arxiv_id": "2606.27377v1",
+      "url": "https://arxiv.org/abs/2606.27377v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.27377v1.pdf",
       "categories": [
-        "cs.CL",
         "cs.CV",
+        "cs.CL",
         "cs.LG"
       ],
       "type": "nlp",
@@ -73,14 +89,14 @@
       "source": "arXiv"
     },
     {
-      "title": "TryOnCrafter: Unleashing Camera Trajectories for Realistic Video Virtual Try-on via a Renderable 4D Try-on Proxy",
-      "authors": "Hao Sun, Hao Yan, Mengting Chen et al.",
-      "abstract": "While Video Virtual Try-on (VVT) has achieved remarkable progress in synthesizing realistic garment overlays on dynamic subjects, existing paradigms remains fundamentally constrained by a passive dependency on source camera trajectories, failing to accommodate the requisite interactive freedom for o...",
+      "title": "Ask, Solve, Generate: Self-Evolving Unified Multimodal Understanding and Generation via Self-Consistency Rewards",
+      "authors": "Ritesh Thawkar, Shravan Venkatraman, Omkar Thawakar et al.",
+      "abstract": "Most unified large multimodal models (LMMs) that support both visual understanding and image generation still rely on curated post-training supervision, such as human annotations, preference labels, or external reward models. We ask whether a unified LMM can improve both abilities autonomously using...",
       "venue": "arXiv",
-      "date": "2026-06-24",
-      "arxiv_id": "2606.26092v1",
-      "url": "https://arxiv.org/abs/2606.26092v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.26092v1.pdf",
+      "date": "2026-06-25",
+      "arxiv_id": "2606.27376v1",
+      "url": "https://arxiv.org/abs/2606.27376v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.27376v1.pdf",
       "categories": [
         "cs.CV"
       ],
@@ -89,14 +105,14 @@
       "source": "arXiv"
     },
     {
-      "title": "RevengeBench: Reverse Engineering Code-Space Policies from Behavioral Experiments",
-      "authors": "Babak Rahmani, Sebastian Dziadzio, Joschka Strüber et al.",
-      "abstract": "For most of scientific history, researchers studying behavior could only infer hidden mechanisms from outward actions: an inverse problem that becomes more tractable when observation is augmented by targeted intervention. We pose a computational analogue: given only behavioral traces of an agent in ...",
+      "title": "Reinforcement Learning without Ground-Truth Solutions can Improve LLMs",
+      "authors": "Yingyu Lin, Qiyue Gao, Nikki Lijing Kuang et al.",
+      "abstract": "Reinforcement learning with verifiable rewards (RLVR) for training LLMs typically rely on ground-truth answers to assign rewards, limiting their applicability to tasks where the ground-truth solution is unknown. We introduce a \\textbf{R}anking-\\textbf{i}nduced \\textbf{VER}ifiable framework (RiVER) t...",
       "venue": "arXiv",
-      "date": "2026-06-24",
-      "arxiv_id": "2606.26094v1",
-      "url": "https://arxiv.org/abs/2606.26094v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.26094v1.pdf",
+      "date": "2026-06-25",
+      "arxiv_id": "2606.27369v1",
+      "url": "https://arxiv.org/abs/2606.27369v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.27369v1.pdf",
       "categories": [
         "cs.LG"
       ],
@@ -105,18 +121,35 @@
       "source": "arXiv"
     },
     {
-      "title": "ForceBand: Learning Forceful Manipulation with sEMG",
-      "authors": "Botao He, Zhi Wang, Linna Kuang et al.",
-      "abstract": "Human demonstrations are a scalable data source for learning robot manipulation policies. However, common sources of human demonstration data, such as motion-capture trajectories and internet videos, capture mostly motion and appearance while missing the contact forces that are critical for force-se...",
+      "title": "Scalable Behavior Cloning with Open Data, Training, and Evaluation",
+      "authors": "Arthur Allshire, Himanshu Gaurav Singh, Ritvik Singh et al.",
+      "abstract": "We introduce ABC, a fully open-source stack for manipulation with behavior cloning. At its core is ABC-130K: the largest open-source teleoperation dataset to date, featuring 3,500 hours of data spanning over 130K episodes across 195 diverse tasks. Furthermore, we open-source our accessible hardware ...",
       "venue": "arXiv",
-      "date": "2026-06-24",
-      "arxiv_id": "2606.26093v1",
-      "url": "https://arxiv.org/abs/2606.26093v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.26093v1.pdf",
+      "date": "2026-06-25",
+      "arxiv_id": "2606.27375v1",
+      "url": "https://arxiv.org/abs/2606.27375v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.27375v1.pdf",
       "categories": [
         "cs.RO"
       ],
-      "type": "ml",
+      "type": "benchmark",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "World Action Models Enable Continual Imitation Learning with Recurrent Generative Replays",
+      "authors": "Manish Kumar Govind, Dominick Reilly, Smit Patel et al.",
+      "abstract": "Going beyond predicting robot actions, World Action Models (WAMs) can also generate future visual observations. We build on this generative capability to propose Recurrent Generative Replay (REGEN), a continual imitation learning framework that synthesizes pseudo-replay trajectories, enabling a robo...",
+      "venue": "arXiv",
+      "date": "2026-06-25",
+      "arxiv_id": "2606.27374v1",
+      "url": "https://arxiv.org/abs/2606.27374v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.27374v1.pdf",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     }
