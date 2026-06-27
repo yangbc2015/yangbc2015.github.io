@@ -1,24 +1,12 @@
 {
-  "last_updated": "2026-06-26",
+  "last_updated": "2026-06-27",
   "count": 200,
   "items": [
-    {
-      "title": "[BEV 杀入 具 身 智 能：跨维把机器人数据带上 Scaling 快车道",
-      "summary": "[BEV 杀入 具 身 智 能：跨维把机器人数据带上 Scaling 快车道",
-      "url": "http://36kr.com/p/3849567168959753",
-      "date": "2026-06-26",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
-      ]
-    },
     {
       "title": "[具 身 智 能 的“大广告”时代：伴侣机器人，可能是唯一出路",
       "summary": "[具 身 智 能 的“大广告”时代：伴侣机器人，可能是唯一出路",
       "url": "http://36kr.com/p/3863035260992389",
-      "date": "2026-06-26",
+      "date": "2026-06-27",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
@@ -30,13 +18,25 @@
       "title": "[火热的 具 身 智 能，藏着半个自动驾驶圈",
       "summary": "[火热的 具 身 智 能，藏着半个自动驾驶圈",
       "url": "http://36kr.com/p/3856635996158851",
-      "date": "2026-06-26",
+      "date": "2026-06-27",
       "source": "36氪",
       "category": "自主系统",
       "type": "news",
       "tags": [
         "机器人",
         "自动驾驶"
+      ]
+    },
+    {
+      "title": "[BEV 杀入 具 身 智 能：跨维把机器人数据带上 Scaling 快车道",
+      "summary": "[BEV 杀入 具 身 智 能：跨维把机器人数据带上 Scaling 快车道",
+      "url": "http://36kr.com/p/3849567168959753",
+      "date": "2026-06-26",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
       ]
     },
     {
@@ -117,6 +117,19 @@
         "机器人学习",
         "研究论文",
         "arXiv"
+      ]
+    },
+    {
+      "title": "星工聚将：走差异化通用工业具身智能落地路线",
+      "summary": "星工聚将：走差异化通用工业具身智能落地路线",
+      "url": "http://36kr.com/p/3866994375283970",
+      "date": "2026-06-25",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
       ]
     },
     {
@@ -3097,22 +3110,6 @@
       "type": "news",
       "tags": [
         "机器人"
-      ]
-    },
-    {
-      "title": "Articraft: An Agentic System for Scalable Articulated 3D Asset Generation",
-      "summary": "A bottleneck in learning to understand articulated 3D objects is the lack of large and diverse datasets. In this paper, we propose to leverage large language models (LLMs) to close this gap and generate articulated assets at scale. We reduce the prob...",
-      "url": "https://arxiv.org/abs/2605.15187v1",
-      "date": "2026-05-14",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.15187v1",
-      "authors": "Matt Zhou, Ruining Li et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
       ]
     }
   ]
