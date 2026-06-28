@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-06-28",
-  "count": 8,
+  "count": 7,
   "items": [
     {
       "title": "Autoregressive Boltzmann Generators",
@@ -50,22 +50,6 @@
         "cs.CV",
         "cs.CL",
         "cs.LG"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Mapping Political-Elite Networks in Europe with a Multilingual Joint Entity-Relation Extraction Pipeline",
-      "authors": "Kirill Solovev, Jana Lasser",
-      "abstract": "Whether political elites organise into rent-seeking coalitions that capture public resources or civic networks that sustain governance is a central question in comparative politics. Yet observing these complex, informal, and adversarial ties at scale has historically required intensive manual coding...",
-      "venue": "arXiv",
-      "date": "2026-06-25",
-      "arxiv_id": "2606.27347v1",
-      "url": "https://arxiv.org/abs/2606.27347v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.27347v1.pdf",
-      "categories": [
-        "cs.CL"
       ],
       "type": "nlp",
       "badge": "arxiv",
