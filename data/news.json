@@ -1,7 +1,7 @@
 {
   "last_updated": "2026-06-28",
   "count": 200,
-  "history_count": 201,
+  "history_count": 200,
   "retention_days": 30,
   "items": [
     {
@@ -65,9 +65,9 @@
       ]
     },
     {
-      "title": "Published Time: Thu, 13 Mar 2025 04:28:00 GMT",
+      "title": "*   [Latest](http://techcrunch.com/latest/)",
       "link": "https://techcrunch.com/category/artificial-intelligence/",
-      "summary": "Published Time: Thu, 13 Mar 2025 04:28:00 GMT...",
+      "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
       "date": "2026-06-28",
       "source": "TechCrunch",
       "type": "industry",
@@ -82,18 +82,6 @@
       "summary": "谁将定义下一代算力基础设施？谁又能在Token时代占据产业制高点？...",
       "date": "2026-06-28",
       "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Markdown Content:",
-      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-      "summary": "Markdown Content:...",
-      "date": "2026-06-27",
-      "source": "机器之心",
       "type": "industry",
       "tags": [
         "AI",
@@ -152,6 +140,18 @@
       "title": "首个通用触觉基础模型FTP-1来了！Sharpa 联合清华大学等高校，用一套策略打通21种传感器与多类具身形态",
       "link": "https://www.jiqizhixin.com/search/articles/首个通用触觉基础模型FTP-1",
       "summary": "首个通用触觉基础模型FTP-1来了！Sharpa 联合清华大学等高校，用一套策略打通21种传感器与多类具身形态...",
+      "date": "2026-06-27",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "Markdown Content:",
+      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+      "summary": "Markdown Content:...",
       "date": "2026-06-27",
       "source": "机器之心",
       "type": "industry",
