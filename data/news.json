@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-06-27",
+  "last_updated": "2026-06-28",
   "count": 200,
-  "history_count": 200,
+  "history_count": 205,
   "retention_days": 30,
   "items": [
     {
       "title": "在Transformers v5的基础上，增加了专家并行、DeepEP和TransformerEngine",
       "link": "https://www.qbitai.com/?s=在Transform",
       "summary": "在Transformers v5的基础上，增加了专家并行、DeepEP和TransformerEngine...",
-      "date": "2026-06-27",
+      "date": "2026-06-28",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -20,7 +20,7 @@
       "title": "谁将定义下一代算力基础设施？谁又能在Token时代占据产业制高点？",
       "link": "https://www.qbitai.com/?s=谁将定义下一代算力基",
       "summary": "谁将定义下一代算力基础设施？谁又能在Token时代占据产业制高点？...",
-      "date": "2026-06-27",
+      "date": "2026-06-28",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -29,15 +29,87 @@
       ]
     },
     {
-      "title": "*   [Latest](http://techcrunch.com/latest/)",
+      "title": "Published Time: Thu, 08 May 2025 23:15:48 GMT",
       "link": "https://techcrunch.com/category/artificial-intelligence/",
-      "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
-      "date": "2026-06-27",
+      "summary": "Published Time: Thu, 08 May 2025 23:15:48 GMT...",
+      "date": "2026-06-28",
       "source": "TechCrunch",
       "type": "industry",
       "tags": [
         "AI",
         "Artificial Intelligence"
+      ]
+    },
+    {
+      "title": "Markdown Content:",
+      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+      "summary": "Markdown Content:...",
+      "date": "2026-06-27",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "刚刚，DeepSeek V4更新DSpark，推理速度提升80%",
+      "link": "https://www.jiqizhixin.com/search/articles/刚刚，DeepSeek V4更",
+      "summary": "刚刚，DeepSeek V4更新DSpark，推理速度提升80%...",
+      "date": "2026-06-27",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "大神Karpathy用Claude的方式，原来是这样的？",
+      "link": "https://www.jiqizhixin.com/search/articles/大神Karpathy用Clau",
+      "summary": "大神Karpathy用Claude的方式，原来是这样的？...",
+      "date": "2026-06-27",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "陈天奇新书上线：面向ML系统的现代GPU编程",
+      "link": "https://www.jiqizhixin.com/search/articles/陈天奇新书上线：面向ML系统的",
+      "summary": "陈天奇新书上线：面向ML系统的现代GPU编程...",
+      "date": "2026-06-27",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "ECCV 2026 | 视频生成模型真的会「推理」吗？303道题全面揭示世界模型的推理短板",
+      "link": "https://www.jiqizhixin.com/search/articles/ECCV 2026 | 视频生",
+      "summary": "ECCV 2026 | 视频生成模型真的会「推理」吗？303道题全面揭示世界模型的推理短板...",
+      "date": "2026-06-27",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "首个通用触觉基础模型FTP-1来了！Sharpa 联合清华大学等高校，用一套策略打通21种传感器与多类具身形态",
+      "link": "https://www.jiqizhixin.com/search/articles/首个通用触觉基础模型FTP-1",
+      "summary": "首个通用触觉基础模型FTP-1来了！Sharpa 联合清华大学等高校，用一套策略打通21种传感器与多类具身形态...",
+      "date": "2026-06-27",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
       ]
     },
     {
@@ -152,18 +224,6 @@
       "title": "计算机安全第一人宋晓冬，加入Meta",
       "link": "https://www.jiqizhixin.com/search/articles/计算机安全第一人宋晓冬，加入M",
       "summary": "计算机安全第一人宋晓冬，加入Meta...",
-      "date": "2026-06-26",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Markdown Content:",
-      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-      "summary": "Markdown Content:...",
       "date": "2026-06-26",
       "source": "机器之心",
       "type": "industry",
@@ -2337,66 +2397,6 @@
       "link": "https://www.jiqizhixin.com/search/articles/英伟达一通发布，物理AI全都智",
       "summary": "英伟达一通发布，物理AI全都智能体化了...",
       "date": "2026-06-02",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "ACL 2026｜大模型指导化学合成实验？上海交大ChemReason-Bench揭示AI「做实验」的逻辑短板",
-      "link": "https://www.jiqizhixin.com/search/articles/ACL 2026｜大模型指导化",
-      "summary": "ACL 2026｜大模型指导化学合成实验？上海交大ChemReason-Bench揭示AI「做实验」的逻辑短板...",
-      "date": "2026-06-02",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "叠加LLM“训练buff”，材料AI终于学会了“物理直觉”",
-      "link": "https://www.qbitai.com/?s=叠加LLM“训练bu",
-      "summary": "叠加LLM“训练buff”，材料AI终于学会了“物理直觉”...",
-      "date": "2026-06-02",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "（可能是）大模型圈里最会弹钢琴的人",
-      "link": "https://www.qbitai.com/?s=（可能是）大模型圈里",
-      "summary": "（可能是）大模型圈里最会弹钢琴的人...",
-      "date": "2026-06-02",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "从按帧学动作，到按「事件」理解世界",
-      "link": "https://www.qbitai.com/?s=从按帧学动作，到按「",
-      "summary": "从按帧学动作，到按「事件」理解世界...",
-      "date": "2026-06-02",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "死脑筋的达里奥，这次把OpenAI干翻了",
-      "link": "https://www.jiqizhixin.com/search/articles/死脑筋的达里奥，这次把Open",
-      "summary": "死脑筋的达里奥，这次把OpenAI干翻了...",
-      "date": "2026-06-01",
       "source": "机器之心",
       "type": "industry",
       "tags": [
