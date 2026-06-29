@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-06-28",
+  "last_updated": "2026-06-29",
   "count": 200,
   "items": [
     {
       "title": "[具 身 智 能 的“大广告”时代：伴侣机器人，可能是唯一出路",
       "summary": "[具 身 智 能 的“大广告”时代：伴侣机器人，可能是唯一出路",
       "url": "http://36kr.com/p/3863035260992389",
-      "date": "2026-06-28",
+      "date": "2026-06-29",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
@@ -18,7 +18,7 @@
       "title": "[火热的 具 身 智 能，藏着半个自动驾驶圈",
       "summary": "[火热的 具 身 智 能，藏着半个自动驾驶圈",
       "url": "http://36kr.com/p/3856635996158851",
-      "date": "2026-06-28",
+      "date": "2026-06-29",
       "source": "36氪",
       "category": "自主系统",
       "type": "news",
@@ -37,6 +37,99 @@
       "type": "news",
       "tags": [
         "机器人"
+      ]
+    },
+    {
+      "title": "SimFoundry: Modular and Automated Scene Generation for Policy Learning and Evaluation",
+      "summary": "Training and evaluating robot policies in the real world is costly and difficult to scale. We introduce SimFoundry, a modular and automated system for zero-shot real-to-sim scene construction from a video. SimFoundry generates sim-ready digital twins...",
+      "url": "https://arxiv.org/abs/2606.28276v1",
+      "date": "2026-06-26",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.28276v1",
+      "authors": "Nadun Ranawaka, Josiah Wong et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Unleashing Infinite Motion: Scaling Expressive Quadrupedal Motion via Generative Video Priors",
+      "summary": "Quadruped robots have achieved remarkable locomotion, yet their behavioral repertoire remains confined to a few gaits--far from the expressive, companion-like presence long envisioned for them. Attempts to import the humanoid recipe of large-scale mo...",
+      "url": "https://arxiv.org/abs/2606.28237v1",
+      "date": "2026-06-26",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.28237v1",
+      "authors": "Youzhi Liu, Li Gao et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Learning Stable In-Grasp Manipulation in a Non-Dropping Action Space",
+      "summary": "Traditionally, dexterous manipulation controllers are designed using analytic models constrained by strong assumptions about the hand and the objects being manipulated. Reinforcement learning (RL) has become another common approach in which skills ar...",
+      "url": "https://arxiv.org/abs/2606.28196v1",
+      "date": "2026-06-26",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.28196v1",
+      "authors": "Ha Thang Long Doan, Hikaru Arita et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "PA-BiCoop: A Primary-Auxiliary Cooperative Framework for General Bimanual Manipulation",
+      "summary": "Bimanual manipulation is essential for advanced robotic systems because it offers higher efficiency and flexibility compared to single-arm configurations. However, existing approaches either lack inter-arm interaction or ignore the need for a dynamic...",
+      "url": "https://arxiv.org/abs/2606.28192v1",
+      "date": "2026-06-26",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.28192v1",
+      "authors": "Bai Qicheng, Wang Ziru et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "LLawCo: Learning Laws of Cooperation for Modeling Embodied Multi-Agent Behavior",
+      "summary": "Embodied agents operating in decentralized and partially observable environments have attracted growing attention in recent years. However, existing large language model (LLM)-based agents often exhibit behaviors that are misaligned with their partne...",
+      "url": "https://arxiv.org/abs/2606.28182v1",
+      "date": "2026-06-26",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.28182v1",
+      "authors": "Qinhong Zhou, Chuang Gan et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "星工聚将：走差异化通用工业具身智能落地路线",
+      "summary": "星工聚将：走差异化通用工业具身智能落地路线",
+      "url": "http://36kr.com/p/3866994375283970",
+      "date": "2026-06-25",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
       ]
     },
     {
@@ -117,19 +210,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "星工聚将：走差异化通用工业具身智能落地路线",
-      "summary": "星工聚将：走差异化通用工业具身智能落地路线",
-      "url": "http://36kr.com/p/3866994375283970",
-      "date": "2026-06-25",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
       ]
     },
     {
@@ -3034,82 +3114,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "DexJoCo: A Benchmark and Toolkit for Task-Oriented Dexterous Manipulation on MuJoCo",
-      "summary": "Achieving human-level manipulation requires dexterous robotic hands capable of complex object interactions. Advancing such capabilities further demands standardized benchmarks for systematic evaluation. However, existing dexterous benchmarks lack tas...",
-      "url": "https://arxiv.org/abs/2605.16257v1",
-      "date": "2026-05-15",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.16257v1",
-      "authors": "Hanwen Wang, Weizhi Zhao et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Learn Where Outcomes Diverge: Efficient VLA RL via Probabilistic Chunk Masking",
-      "summary": "Reinforcement learning (RL) allows vision-language-action (VLA) policies to generalize beyond their training distribution by optimizing directly for task success, but post-training is computationally expensive. A natural response has been to speed ro...",
-      "url": "https://arxiv.org/abs/2605.16154v1",
-      "date": "2026-05-15",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.16154v1",
-      "authors": "Vaidehi Bagaria, Nikshep Grampurohit et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "STABLE: Simulation-Ready Tabletop Layout Generation via a Semantics-Physics Dual System",
-      "summary": "Generating simulation-ready tabletop scenes from task instructions is an intriguing and promising research direction in the field of Embodied AI. However, existing task-to-scene generation methods rely exclusively on large language models (LLMs) to p...",
-      "url": "https://arxiv.org/abs/2605.16137v1",
-      "date": "2026-05-15",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.16137v1",
-      "authors": "Zhen Luo, Yixuan Yang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Beyond Collision Avoidance: Multi-Robot Yielding and Spatial Affordance in Emergency Evacuations",
-      "summary": "As mobile service robots increasingly coexist with pedestrians, ensuring passively safe behaviour during confined emergency evacuations is critical. Existing multi-robot yielding strategies often focus solely on collision avoidance and macroscopic fl...",
-      "url": "https://arxiv.org/abs/2605.16115v1",
-      "date": "2026-05-15",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.16115v1",
-      "authors": "Ning Zhou, Edmund R. Hunt et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "为全球机器人公司与场景方提供从大脑到躯干一站式解决方案",
-      "summary": "为全球机器人公司与场景方提供从大脑到躯干一站式解决方案",
-      "url": "http://36kr.com/p/3808501368856583",
-      "date": "2026-05-14",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
       ]
     }
   ]

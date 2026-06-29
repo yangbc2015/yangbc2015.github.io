@@ -1,35 +1,18 @@
 {
-  "last_updated": "2026-06-28",
-  "count": 8,
+  "last_updated": "2026-06-29",
+  "count": 7,
   "items": [
     {
-      "title": "Autoregressive Boltzmann Generators",
-      "authors": "Danyal Rehman, Charlie B. Tan, Yoshua Bengio et al.",
-      "abstract": "Efficient sampling of molecular systems at thermodynamic equilibrium is a hallmark challenge in statistical physics. This challenge has driven the development of Boltzmann Generators (BGs), which allow rapid generation of uncorrelated equilibrium samples by combining a generative model with exact li...",
+      "title": "DexCompose: Reusing Dexterous Policies for Multi-Task Manipulation with a Single Hand",
+      "authors": "Dihong Huang, Zhenyu Wei, Zhuxiu Xu et al.",
+      "abstract": "Dexterous manipulation policies can solve individual skills, but composing them to perform multiple tasks with a single hand remains challenging. Adding a new task on top of an existing manipulation skill often imposes conflicting demands on overlapping fingers and contact modes, causing destructive...",
       "venue": "arXiv",
-      "date": "2026-06-25",
-      "arxiv_id": "2606.27361v1",
-      "url": "https://arxiv.org/abs/2606.27361v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.27361v1.pdf",
+      "date": "2026-06-26",
+      "arxiv_id": "2606.28323v1",
+      "url": "https://arxiv.org/abs/2606.28323v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.28323v1.pdf",
       "categories": [
-        "cs.LG",
-        "cs.AI"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Error-Conditioned Neural Solvers",
-      "authors": "Haina Jiang, Liam Wang, Peng-Chen Chen et al.",
-      "abstract": "Neural surrogate models offer fast approximate mappings from PDE parameters to solutions, but they typically treat solving as a purely statistical task: once trained, they struggle to correct their own constraint violations and extrapolate beyond the training distribution. Recent hybrid methods prom...",
-      "venue": "arXiv",
-      "date": "2026-06-25",
-      "arxiv_id": "2606.27354v1",
-      "url": "https://arxiv.org/abs/2606.27354v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.27354v1.pdf",
-      "categories": [
-        "cs.LG",
+        "cs.RO",
         "cs.AI",
         "cs.CV"
       ],
@@ -38,32 +21,50 @@
       "source": "arXiv"
     },
     {
-      "title": "DanceOPD: On-Policy Generative Field Distillation",
-      "authors": "Wei Zhou, Xiongwei Zhu, Zelin Xu et al.",
-      "abstract": "Modern image generation demands a single model that unifies diverse capabilities, including text-to-image (T2I), local editing, and global editing. However, these capabilities are rarely naturally aligned and often conflict. For instance, editing tends to degrade T2I performance, while global and lo...",
+      "title": "Which Nash Equilibrium? Solver-Dependent Selection on Zero-Sum Nash Polytopes",
+      "authors": "Luis Leal",
+      "abstract": "Many two-player zero-sum games admit not a unique Nash equilibrium but a convex set of them: a polytope of profiles that all share the minimax value V* yet prescribe different behaviour. Standard solvers each converge to some equilibrium and are treated as interchangeable. We ask whether they instea...",
       "venue": "arXiv",
-      "date": "2026-06-25",
-      "arxiv_id": "2606.27377v1",
-      "url": "https://arxiv.org/abs/2606.27377v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.27377v1.pdf",
+      "date": "2026-06-26",
+      "arxiv_id": "2606.28308v1",
+      "url": "https://arxiv.org/abs/2606.28308v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.28308v1.pdf",
       "categories": [
-        "cs.CV",
-        "cs.CL",
+        "cs.GT",
+        "cs.AI",
         "cs.LG"
       ],
-      "type": "nlp",
+      "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Mapping Political-Elite Networks in Europe with a Multilingual Joint Entity-Relation Extraction Pipeline",
-      "authors": "Kirill Solovev, Jana Lasser",
-      "abstract": "Whether political elites organise into rent-seeking coalitions that capture public resources or civic networks that sustain governance is a central question in comparative politics. Yet observing these complex, informal, and adversarial ties at scale has historically required intensive manual coding...",
+      "title": "Towards Automating Scientific Review with Google's Paper Assistant Tool",
+      "authors": "Rajesh Jayaram, Drew Tyler, David Woodruff et al.",
+      "abstract": "Artificial intelligence is driving a revolution in scientific discovery, accelerating everything from hypothesis generation to mathematical theorem proving. However, this rapid acceleration is creating a systemic challenge: traditional human peer review cannot scale to match the influx of AI-assiste...",
       "venue": "arXiv",
-      "date": "2026-06-25",
-      "arxiv_id": "2606.27347v1",
-      "url": "https://arxiv.org/abs/2606.27347v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.27347v1.pdf",
+      "date": "2026-06-26",
+      "arxiv_id": "2606.28277v1",
+      "url": "https://arxiv.org/abs/2606.28277v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.28277v1.pdf",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "type": "survey",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Vision-Default, Prior-Override: Causal Mechanisms of Perception-Knowledge Conflict in Vision-Language Models",
+      "authors": "Niclas Lietzow, Danielle Bitterman, Carsten Eickhoff et al.",
+      "abstract": "Vision-language models must reconcile visual evidence with memorized world knowledge when the two conflict. How they resolve this conflict shapes the reliability of multimodal systems, yet prior work characterizes it behaviorally without a component-level causal account. We combine activation patchi...",
+      "venue": "arXiv",
+      "date": "2026-06-26",
+      "arxiv_id": "2606.28273v1",
+      "url": "https://arxiv.org/abs/2606.28273v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.28273v1.pdf",
       "categories": [
         "cs.CL"
       ],
@@ -72,67 +73,52 @@
       "source": "arXiv"
     },
     {
-      "title": "Ask, Solve, Generate: Self-Evolving Unified Multimodal Understanding and Generation via Self-Consistency Rewards",
-      "authors": "Ritesh Thawkar, Shravan Venkatraman, Omkar Thawakar et al.",
-      "abstract": "Most unified large multimodal models (LMMs) that support both visual understanding and image generation still rely on curated post-training supervision, such as human annotations, preference labels, or external reward models. We ask whether a unified LMM can improve both abilities autonomously using...",
+      "title": "PerceptionRubrics: Calibrating Multimodal Evaluation to Human Perception",
+      "authors": "Yana Wei, Hongbo Peng, Yanlin Lai et al.",
+      "abstract": "We introduce PerceptionRubrics, a rubric-based evaluation framework that addresses the gap between saturated benchmark scores and real-world brittleness. Shifting evaluation from holistic semantic matching to rigorous atomic auditing, PerceptionRubrics pairs 1,038 information-dense images with over ...",
       "venue": "arXiv",
-      "date": "2026-06-25",
-      "arxiv_id": "2606.27376v1",
-      "url": "https://arxiv.org/abs/2606.27376v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.27376v1.pdf",
+      "date": "2026-06-26",
+      "arxiv_id": "2606.28322v1",
+      "url": "https://arxiv.org/abs/2606.28322v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.28322v1.pdf",
       "categories": [
         "cs.CV"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Reinforcement Learning without Ground-Truth Solutions can Improve LLMs",
-      "authors": "Yingyu Lin, Qiyue Gao, Nikki Lijing Kuang et al.",
-      "abstract": "Reinforcement learning with verifiable rewards (RLVR) for training LLMs typically rely on ground-truth answers to assign rewards, limiting their applicability to tasks where the ground-truth solution is unknown. We introduce a \\textbf{R}anking-\\textbf{i}nduced \\textbf{VER}ifiable framework (RiVER) t...",
-      "venue": "arXiv",
-      "date": "2026-06-25",
-      "arxiv_id": "2606.27369v1",
-      "url": "https://arxiv.org/abs/2606.27369v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.27369v1.pdf",
-      "categories": [
-        "cs.LG"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Scalable Behavior Cloning with Open Data, Training, and Evaluation",
-      "authors": "Arthur Allshire, Himanshu Gaurav Singh, Ritvik Singh et al.",
-      "abstract": "We introduce ABC, a fully open-source stack for manipulation with behavior cloning. At its core is ABC-130K: the largest open-source teleoperation dataset to date, featuring 3,500 hours of data spanning over 130K episodes across 195 diverse tasks. Furthermore, we open-source our accessible hardware ...",
-      "venue": "arXiv",
-      "date": "2026-06-25",
-      "arxiv_id": "2606.27375v1",
-      "url": "https://arxiv.org/abs/2606.27375v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.27375v1.pdf",
-      "categories": [
-        "cs.RO"
       ],
       "type": "benchmark",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "World Action Models Enable Continual Imitation Learning with Recurrent Generative Replays",
-      "authors": "Manish Kumar Govind, Dominick Reilly, Smit Patel et al.",
-      "abstract": "Going beyond predicting robot actions, World Action Models (WAMs) can also generate future visual observations. We build on this generative capability to propose Recurrent Generative Replay (REGEN), a continual imitation learning framework that synthesizes pseudo-replay trajectories, enabling a robo...",
+      "title": "Surprises in Proper Positive-Only Learning",
+      "authors": "Shai Ben-David, Farnam Mansouri, Anay Mehrotra et al.",
+      "abstract": "Binary classification from positive-only samples is a variant of PAC learning in which the learner receives i.i.d. samples from the positive region of an unknown target concept, but is evaluated under the original distribution (which places mass on both positive and negative regions). This model dat...",
       "venue": "arXiv",
-      "date": "2026-06-25",
-      "arxiv_id": "2606.27374v1",
-      "url": "https://arxiv.org/abs/2606.27374v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.27374v1.pdf",
+      "date": "2026-06-26",
+      "arxiv_id": "2606.28309v1",
+      "url": "https://arxiv.org/abs/2606.28309v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.28309v1.pdf",
       "categories": [
-        "cs.RO",
-        "cs.CV"
+        "stat.ML",
+        "cs.LG",
+        "math.ST"
       ],
-      "type": "vision",
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "WARP-RM: A Warp-Augmented Relative Progress Reward Model for Data Curation",
+      "authors": "Justin Yu, Andrew Goldberg, Kavish Kondap et al.",
+      "abstract": "Scaling imitation learning requires large datasets, yet human teleoperation inevitably produces mixed-quality demonstrations containing hesitations and recoveries. Prior frame-level progress reward models supervise on absolute temporal progress proxies that suffer from label noise, or require costly...",
+      "venue": "arXiv",
+      "date": "2026-06-26",
+      "arxiv_id": "2606.28320v1",
+      "url": "https://arxiv.org/abs/2606.28320v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.28320v1.pdf",
+      "categories": [
+        "cs.RO"
+      ],
+      "type": "ai",
       "badge": "arxiv",
       "source": "arXiv"
     }
