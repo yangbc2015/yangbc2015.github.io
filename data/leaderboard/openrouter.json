@@ -39,7 +39,7 @@
       "rank": 5,
       "model": "glm-5.2",
       "organization": "z-ai",
-      "price_prompt": "0.00000095",
+      "price_prompt": "0.00000094",
       "price_completion": "0.000003",
       "context_length": 1048576
     },
