@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-06-29",
-  "count": 5,
+  "count": 7,
   "items": [
     {
       "title": "DexCompose: Reusing Dexterous Policies for Multi-Task Manipulation with a Single Hand",
@@ -35,6 +35,40 @@
         "cs.LG"
       ],
       "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Towards Automating Scientific Review with Google's Paper Assistant Tool",
+      "authors": "Rajesh Jayaram, Drew Tyler, David Woodruff et al.",
+      "abstract": "Artificial intelligence is driving a revolution in scientific discovery, accelerating everything from hypothesis generation to mathematical theorem proving. However, this rapid acceleration is creating a systemic challenge: traditional human peer review cannot scale to match the influx of AI-assiste...",
+      "venue": "arXiv",
+      "date": "2026-06-26",
+      "arxiv_id": "2606.28277v1",
+      "url": "https://arxiv.org/abs/2606.28277v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.28277v1.pdf",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "type": "survey",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Vision-Default, Prior-Override: Causal Mechanisms of Perception-Knowledge Conflict in Vision-Language Models",
+      "authors": "Niclas Lietzow, Danielle Bitterman, Carsten Eickhoff et al.",
+      "abstract": "Vision-language models must reconcile visual evidence with memorized world knowledge when the two conflict. How they resolve this conflict shapes the reliability of multimodal systems, yet prior work characterizes it behaviorally without a component-level causal account. We combine activation patchi...",
+      "venue": "arXiv",
+      "date": "2026-06-26",
+      "arxiv_id": "2606.28273v1",
+      "url": "https://arxiv.org/abs/2606.28273v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.28273v1.pdf",
+      "categories": [
+        "cs.CL"
+      ],
+      "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
