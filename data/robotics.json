@@ -3,15 +3,16 @@
   "count": 200,
   "items": [
     {
-      "title": "[BEV 杀入 具 身 智 能：跨维把机器人数据带上 Scaling 快车道",
-      "summary": "[BEV 杀入 具 身 智 能：跨维把机器人数据带上 Scaling 快车道",
-      "url": "http://36kr.com/p/3849567168959753",
+      "title": "[人形机器人降至万元级，上半年 具 身 智 能 融资超460亿元",
+      "summary": "[人形机器人降至万元级，上半年 具 身 智 能 融资超460亿元",
+      "url": "http://36kr.com/p/3871216256455938",
       "date": "2026-06-29",
       "source": "36氪",
-      "category": "机器人",
+      "category": "具身智能",
       "type": "news",
       "tags": [
-        "机器人"
+        "机器人",
+        "人形机器人"
       ]
     },
     {
@@ -37,6 +38,18 @@
       "tags": [
         "机器人",
         "自动驾驶"
+      ]
+    },
+    {
+      "title": "[BEV 杀入 具 身 智 能：跨维把机器人数据带上 Scaling 快车道",
+      "summary": "[BEV 杀入 具 身 智 能：跨维把机器人数据带上 Scaling 快车道",
+      "url": "http://36kr.com/p/3849567168959753",
+      "date": "2026-06-29",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
       ]
     },
     {
@@ -3098,22 +3111,6 @@
       "type": "paper",
       "arxiv_id": "2605.18727v1",
       "authors": "Feng Chen, Tianzhe Chu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Dexora: Open-source VLA for High-DoF Bimanual Dexterity",
-      "summary": "Vision-Language-Action (VLA) models have recently become a central direction in embodied AI, but current systems are restricted to either dual-gripper control or single-arm dexterous hand manipulation. While low-dimensional gripper control can often ...",
-      "url": "https://arxiv.org/abs/2605.18722v1",
-      "date": "2026-05-18",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.18722v1",
-      "authors": "Zongzheng Zhang, Jingrui Pang et al.",
       "tags": [
         "机器人学习",
         "研究论文",

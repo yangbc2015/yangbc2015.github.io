@@ -8,18 +8,6 @@
       "count": 5,
       "items": [
         {
-          "title": "Markdown Content:",
-          "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-          "summary": "Markdown Content:...",
-          "date": "2026-06-28",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
           "title": "一句「你确定吗」，大模型集体暴露「讨好型人格」？",
           "link": "https://www.jiqizhixin.com/search/articles/一句「你确定吗」，大模型集体暴",
           "summary": "一句「你确定吗」，大模型集体暴露「讨好型人格」？...",
@@ -61,6 +49,18 @@
           "summary": "ICML 2026 Oral｜大模型的能力从哪些训练数据来？北大&智源提出「机理数据归因」...",
           "date": "2026-06-28",
           "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "DeepSeek不储备弹药根本没法打下去了",
+          "link": "https://www.qbitai.com/?s=DeepSeek不储",
+          "summary": "DeepSeek不储备弹药根本没法打下去了...",
+          "date": "2026-06-29",
+          "source": "量子位",
           "type": "industry",
           "tags": [
             "AI",
