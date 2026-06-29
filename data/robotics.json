@@ -3,6 +3,18 @@
   "count": 200,
   "items": [
     {
+      "title": "[BEV 杀入 具 身 智 能：跨维把机器人数据带上 Scaling 快车道",
+      "summary": "[BEV 杀入 具 身 智 能：跨维把机器人数据带上 Scaling 快车道",
+      "url": "http://36kr.com/p/3849567168959753",
+      "date": "2026-06-29",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
       "title": "[具 身 智 能 的“大广告”时代：伴侣机器人，可能是唯一出路",
       "summary": "[具 身 智 能 的“大广告”时代：伴侣机器人，可能是唯一出路",
       "url": "http://36kr.com/p/3863035260992389",
@@ -28,15 +40,51 @@
       ]
     },
     {
-      "title": "[BEV 杀入 具 身 智 能：跨维把机器人数据带上 Scaling 快车道",
-      "summary": "[BEV 杀入 具 身 智 能：跨维把机器人数据带上 Scaling 快车道",
-      "url": "http://36kr.com/p/3849567168959753",
-      "date": "2026-06-28",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
+      "title": "DexCompose: Reusing Dexterous Policies for Multi-Task Manipulation with a Single Hand",
+      "summary": "Dexterous manipulation policies can solve individual skills, but composing them to perform multiple tasks with a single hand remains challenging. Adding a new task on top of an existing manipulation skill often imposes conflicting demands on overlapp...",
+      "url": "https://arxiv.org/abs/2606.28323v1",
+      "date": "2026-06-26",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.28323v1",
+      "authors": "Dihong Huang, Zhenyu Wei et al.",
       "tags": [
-        "机器人"
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "WARP-RM: A Warp-Augmented Relative Progress Reward Model for Data Curation",
+      "summary": "Scaling imitation learning requires large datasets, yet human teleoperation inevitably produces mixed-quality demonstrations containing hesitations and recoveries. Prior frame-level progress reward models supervise on absolute temporal progress proxi...",
+      "url": "https://arxiv.org/abs/2606.28320v1",
+      "date": "2026-06-26",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.28320v1",
+      "authors": "Justin Yu, Andrew Goldberg et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "CacheMPC: Certified Cached Model Predictive Control for Quadruped Locomotion",
+      "summary": "Model Predictive Control (MPC) is the standard predictive layer in hierarchical quadruped controllers, but the per-cycle QP solve limits the update rate achievable on embedded processors. Because legged gaits revisit a bounded region of state space, ...",
+      "url": "https://arxiv.org/abs/2606.28300v1",
+      "date": "2026-06-26",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.28300v1",
+      "authors": "Nimesh Khandelwal, Mehul Anand et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
       ]
     },
     {
@@ -3066,50 +3114,6 @@
       "type": "paper",
       "arxiv_id": "2605.18722v1",
       "authors": "Zongzheng Zhang, Jingrui Pang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Data-Driven Dynamic Modeling of a Tendon-Actuated Continuum Robot",
-      "summary": "Developing dynamic models for tendon-driven continuum robots is challenging due to their nonlinear, high-dimensional, and friction-dominated dynamics. This paper presents a comparative study of data-driven system identification methods, including N4S...",
-      "url": "https://arxiv.org/abs/2605.18720v1",
-      "date": "2026-05-18",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.18720v1",
-      "authors": "Harald Minde Hansen, Bjørn Kåre Sæbø et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "[深耕“具 身 智 能+建筑大模型”底座，重构万亿建筑业，「方石机器人」完成近亿元A轮融资 | 36氪首发",
-      "summary": "[深耕“具 身 智 能+建筑大模型”底座，重构万亿建筑业，「方石机器人」完成近亿元A轮融资 | 36氪首发",
-      "url": "http://36kr.com/p/3807039782116865",
-      "date": "2026-05-16",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
-      ]
-    },
-    {
-      "title": "IVGT: Implicit Visual Geometry Transformer for Neural Scene Representation",
-      "summary": "Reconstructing coherent 3D geometry and appearance from unposed multi-view images is a fundamental yet challenging problem in computer vision. Most existing visual geometry foundation models predict explicit geometry by regressing pixel-aligned point...",
-      "url": "https://arxiv.org/abs/2605.16258v1",
-      "date": "2026-05-15",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.16258v1",
-      "authors": "Yuqi Wu, Tianyu Hu et al.",
       "tags": [
         "机器人学习",
         "研究论文",
