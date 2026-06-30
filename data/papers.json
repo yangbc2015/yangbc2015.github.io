@@ -1,71 +1,85 @@
 {
-  "last_updated": "2026-06-29",
-  "count": 7,
+  "last_updated": "2026-06-30",
+  "count": 10,
   "items": [
     {
-      "title": "DexCompose: Reusing Dexterous Policies for Multi-Task Manipulation with a Single Hand",
-      "authors": "Dihong Huang, Zhenyu Wei, Zhuxiu Xu et al.",
-      "abstract": "Dexterous manipulation policies can solve individual skills, but composing them to perform multiple tasks with a single hand remains challenging. Adding a new task on top of an existing manipulation skill often imposes conflicting demands on overlapping fingers and contact modes, causing destructive...",
+      "title": "MCP Server Architecture Patterns for LLM-Integrated Applications",
+      "authors": "Carson Rodrigues, Oysturn Vas",
+      "abstract": "The Model Context Protocol (MCP), introduced by Anthropic in November 2024, defines a standardized interface for connecting large language models (LLMs) to external tools, data sources, and services. Within months of release, hundreds of community-built MCP servers appeared on GitHub, but no softwar...",
       "venue": "arXiv",
-      "date": "2026-06-26",
-      "arxiv_id": "2606.28323v1",
-      "url": "https://arxiv.org/abs/2606.28323v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.28323v1.pdf",
+      "date": "2026-06-29",
+      "arxiv_id": "2606.30317v1",
+      "url": "https://arxiv.org/abs/2606.30317v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.30317v1.pdf",
       "categories": [
-        "cs.RO",
-        "cs.AI",
-        "cs.CV"
+        "cs.SE",
+        "cs.AI"
       ],
-      "type": "vision",
+      "type": "ai",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Which Nash Equilibrium? Solver-Dependent Selection on Zero-Sum Nash Polytopes",
-      "authors": "Luis Leal",
-      "abstract": "Many two-player zero-sum games admit not a unique Nash equilibrium but a convex set of them: a polytope of profiles that all share the minimax value V* yet prescribe different behaviour. Standard solvers each converge to some equilibrium and are treated as interchangeable. We ask whether they instea...",
+      "title": "Always-OnAgents:A Survey of Persistent Memory, State, and Governance in LLMAgents",
+      "authors": "Tianyu Ding, Aditya Nannapaneni, Bingfan Liu et al.",
+      "abstract": "Always-on agents are systems whose future behavior depends on durable state accumulated across earlier interactions. We treat them as persistent-state systems: the operative system includes retrievable memories, but also task ledgers, permissions, credentials, commitments, provenance and audit recor...",
       "venue": "arXiv",
-      "date": "2026-06-26",
-      "arxiv_id": "2606.28308v1",
-      "url": "https://arxiv.org/abs/2606.28308v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.28308v1.pdf",
+      "date": "2026-06-29",
+      "arxiv_id": "2606.30306v1",
+      "url": "https://arxiv.org/abs/2606.30306v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.30306v1.pdf",
       "categories": [
-        "cs.GT",
-        "cs.AI",
-        "cs.LG"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Towards Automating Scientific Review with Google's Paper Assistant Tool",
-      "authors": "Rajesh Jayaram, Drew Tyler, David Woodruff et al.",
-      "abstract": "Artificial intelligence is driving a revolution in scientific discovery, accelerating everything from hypothesis generation to mathematical theorem proving. However, this rapid acceleration is creating a systemic challenge: traditional human peer review cannot scale to match the influx of AI-assiste...",
-      "venue": "arXiv",
-      "date": "2026-06-26",
-      "arxiv_id": "2606.28277v1",
-      "url": "https://arxiv.org/abs/2606.28277v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.28277v1.pdf",
-      "categories": [
-        "cs.LG",
-        "cs.AI",
-        "cs.CL"
+        "cs.MA",
+        "cs.AI"
       ],
       "type": "survey",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Vision-Default, Prior-Override: Causal Mechanisms of Perception-Knowledge Conflict in Vision-Language Models",
-      "authors": "Niclas Lietzow, Danielle Bitterman, Carsten Eickhoff et al.",
-      "abstract": "Vision-language models must reconcile visual evidence with memorized world knowledge when the two conflict. How they resolve this conflict shapes the reliability of multimodal systems, yet prior work characterizes it behaviorally without a component-level causal account. We combine activation patchi...",
+      "title": "Chronos: A Physics-Informed Full-History Framework for Non-Markovian Long-Horizon Manipulation",
+      "authors": "Yulin Zhou, Yimeng Wang, Nengyu Wang et al.",
+      "abstract": "General-purpose robot policies should be modeled as dynamical systems, yet many VLA and generative imitation policies still rely on present observations or short windows. This Markovian shortcut fails in memory-dependent manipulation: identical observations can demand different actions after differe...",
       "venue": "arXiv",
-      "date": "2026-06-26",
-      "arxiv_id": "2606.28273v1",
-      "url": "https://arxiv.org/abs/2606.28273v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.28273v1.pdf",
+      "date": "2026-06-29",
+      "arxiv_id": "2606.30318v1",
+      "url": "https://arxiv.org/abs/2606.30318v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.30318v1.pdf",
       "categories": [
+        "cs.RO"
+      ],
+      "type": "ai",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "CSAR: Containerized System Architecture for Robotics",
+      "authors": "Ambrosio-Cestero, Gregorio, Galindo Andrades et al.",
+      "abstract": "Robotic applications increasingly rely on distributed computational infrastructures that combine embedded devices, edge servers, and cloud resources. This evolution, together with the collaborative nature of robotics projects, has made the development, integration, deployment, and long-term operatio...",
+      "venue": "arXiv",
+      "date": "2026-06-29",
+      "arxiv_id": "2606.30293v1",
+      "url": "https://arxiv.org/abs/2606.30293v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.30293v1.pdf",
+      "categories": [
+        "cs.RO"
+      ],
+      "type": "ai",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Deterministic Decisions for High-Stakes AI. A Zero-Egress Pipeline with the Deployability of RAG and the Accuracy of Machine Learning",
+      "authors": "Craig Atkinson",
+      "abstract": "We identify intervention bias as a previously unquantified failure mode of zero-shot large-language-model (LLM) educational advisory agents: without task-specific training, they recommend action when a hindsight-optimal oracle policy mandates inaction. In a six-arm ablation on the Open University Le...",
+      "venue": "arXiv",
+      "date": "2026-06-28",
+      "arxiv_id": "2606.29280v1",
+      "url": "https://arxiv.org/abs/2606.29280v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.29280v1.pdf",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
         "cs.CL"
       ],
       "type": "nlp",
@@ -73,52 +87,86 @@
       "source": "arXiv"
     },
     {
-      "title": "PerceptionRubrics: Calibrating Multimodal Evaluation to Human Perception",
-      "authors": "Yana Wei, Hongbo Peng, Yanlin Lai et al.",
-      "abstract": "We introduce PerceptionRubrics, a rubric-based evaluation framework that addresses the gap between saturated benchmark scores and real-world brittleness. Shifting evaluation from holistic semantic matching to rigorous atomic auditing, PerceptionRubrics pairs 1,038 information-dense images with over ...",
+      "title": "Manufactured Confidence: How Memory Consolidation Turns Hearsay into Confident Facts",
+      "authors": "Alex Kwon",
+      "abstract": "LLM agents carry conclusions across steps and sessions in compressed memory, and memory products (e.g., mem0, LangMem) rewrite conversation into stored \"facts\" that later steps trust. We show this rewriting manufactures confidence: across our constructed agent settings, a casual, hedged remark becom...",
       "venue": "arXiv",
-      "date": "2026-06-26",
-      "arxiv_id": "2606.28322v1",
-      "url": "https://arxiv.org/abs/2606.28322v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.28322v1.pdf",
+      "date": "2026-06-28",
+      "arxiv_id": "2606.29279v1",
+      "url": "https://arxiv.org/abs/2606.29279v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.29279v1.pdf",
       "categories": [
-        "cs.CV"
+        "cs.CR",
+        "cs.AI",
+        "cs.CL"
       ],
-      "type": "benchmark",
+      "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Surprises in Proper Positive-Only Learning",
-      "authors": "Shai Ben-David, Farnam Mansouri, Anay Mehrotra et al.",
-      "abstract": "Binary classification from positive-only samples is a variant of PAC learning in which the learner receives i.i.d. samples from the positive region of an unknown target concept, but is evaluated under the original distribution (which places mass on both positive and negative regions). This model dat...",
+      "title": "W4A4 Quantization for Inference on Wan2.2-I2V-A14B",
+      "authors": "Yidong Chen, Chengyu Shi, Jiahao Liu",
+      "abstract": "We summarize our submission to Sub-Challenge 1: W4A4 Quantization for Inference (HiF4 / MXFP4) of the ICME 2026 Low-Bit-width Large-Model Quantization Challenge. The sub-challenge targets 4-bit weight and 4-bit activation inference on Wan-AI/Wan2.2-I2V-A14B under HiF4 or MXFP4 numerical formats. We ...",
       "venue": "arXiv",
-      "date": "2026-06-26",
-      "arxiv_id": "2606.28309v1",
-      "url": "https://arxiv.org/abs/2606.28309v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.28309v1.pdf",
+      "date": "2026-06-28",
+      "arxiv_id": "2606.29337v1",
+      "url": "https://arxiv.org/abs/2606.29337v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.29337v1.pdf",
       "categories": [
-        "stat.ML",
+        "cs.CV",
+        "cs.DC"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Multi-scale Object-Aware Gaze Estimation via Geometric Reasoning",
+      "authors": "Jiajie Mi, Xinyu Liu, Mengke Song et al.",
+      "abstract": "Gaze target estimation aims to predict the semantic object an observer fixates upon within an image, a task deeply rooted in the object-oriented nature of human gaze. Observers tend to select a specific semantic entity as the attentional target, rather than responding randomly across arbitrary regio...",
+      "venue": "arXiv",
+      "date": "2026-06-28",
+      "arxiv_id": "2606.29334v1",
+      "url": "https://arxiv.org/abs/2606.29334v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.29334v1.pdf",
+      "categories": [
+        "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Adaptive Financial Transformer with Regime-Gated Attention for Stock Return Prediction",
+      "authors": "Dishan Sarkar",
+      "abstract": "Adaptive Financial Transformer (AFT) is proposed for stock return prediction under non-stationary financial markets. The model incorporates a Market Regime Encoder, an Adaptive Gate Network, and an Adaptive Financial Context module to dynamically bias self-attention based on semantic relationships b...",
+      "venue": "arXiv",
+      "date": "2026-06-28",
+      "arxiv_id": "2606.29347v1",
+      "url": "https://arxiv.org/abs/2606.29347v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.29347v1.pdf",
+      "categories": [
         "cs.LG",
-        "math.ST"
+        "cs.AI"
       ],
       "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "WARP-RM: A Warp-Augmented Relative Progress Reward Model for Data Curation",
-      "authors": "Justin Yu, Andrew Goldberg, Kavish Kondap et al.",
-      "abstract": "Scaling imitation learning requires large datasets, yet human teleoperation inevitably produces mixed-quality demonstrations containing hesitations and recoveries. Prior frame-level progress reward models supervise on absolute temporal progress proxies that suffer from label noise, or require costly...",
+      "title": "Reliability, Faithfulness, and the Limits of Post-hoc Explanations of Opaque Scientific Models",
+      "authors": "Nick Oh, Helen Jin",
+      "abstract": "Post-hoc explanation methods are routinely used to interpret scientific machine learning models, with the deliverable understood to be insight into the phenomenon the model has been trained on. The transition may be taken to be secured once the model is reliable enough and the explanation faithful e...",
       "venue": "arXiv",
-      "date": "2026-06-26",
-      "arxiv_id": "2606.28320v1",
-      "url": "https://arxiv.org/abs/2606.28320v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.28320v1.pdf",
+      "date": "2026-06-28",
+      "arxiv_id": "2606.29346v1",
+      "url": "https://arxiv.org/abs/2606.29346v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.29346v1.pdf",
       "categories": [
-        "cs.RO"
+        "cs.LG"
       ],
-      "type": "ai",
+      "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     }

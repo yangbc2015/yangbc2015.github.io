@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-06-29",
+  "last_updated": "2026-06-30",
   "count": 200,
   "items": [
     {
       "title": "[人形机器人降至万元级，上半年 具 身 智 能 融资超460亿元",
       "summary": "[人形机器人降至万元级，上半年 具 身 智 能 融资超460亿元",
       "url": "http://36kr.com/p/3871216256455938",
-      "date": "2026-06-29",
+      "date": "2026-06-30",
       "source": "36氪",
       "category": "具身智能",
       "type": "news",
@@ -19,7 +19,7 @@
       "title": "[具 身 智 能 的“大广告”时代：伴侣机器人，可能是唯一出路",
       "summary": "[具 身 智 能 的“大广告”时代：伴侣机器人，可能是唯一出路",
       "url": "http://36kr.com/p/3863035260992389",
-      "date": "2026-06-29",
+      "date": "2026-06-30",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
@@ -31,7 +31,7 @@
       "title": "[火热的 具 身 智 能，藏着半个自动驾驶圈",
       "summary": "[火热的 具 身 智 能，藏着半个自动驾驶圈",
       "url": "http://36kr.com/p/3856635996158851",
-      "date": "2026-06-29",
+      "date": "2026-06-30",
       "source": "36氪",
       "category": "自主系统",
       "type": "news",
@@ -50,6 +50,86 @@
       "type": "news",
       "tags": [
         "机器人"
+      ]
+    },
+    {
+      "title": "Robust Extended Kalman Filter for Land Navigation Using Massive Array of MEMS IMUs",
+      "summary": "We propose a robust Extended Kalman Filter (EKF) architecture for land navigation using an array of hundreds of low-cost micro-electromechanical systems (MEMS) inertial sensors. The main challenges in this setting are bursty sensor-specific bias erro...",
+      "url": "https://arxiv.org/abs/2606.29271v1",
+      "date": "2026-06-28",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.29271v1",
+      "authors": "Omer Hanani, Alon Kipnis",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "PL-LIT: A LiDAR-Inertial-Thermal SLAM Using Point-Line Features and Thermographic Mapping",
+      "summary": "Thermal imaging is resilient to adverse conditions, such as intense illumination, low-light operation, and fog, and can therefore mitigate odometry degradation when visible-spectrum imagery becomes unreliable. Nevertheless, most thermal cameras emplo...",
+      "url": "https://arxiv.org/abs/2606.29259v1",
+      "date": "2026-06-28",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.29259v1",
+      "authors": "Jiawei Xia, Yixiao Feng et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "MoPe: Motion Permanence for Robust Monocular Gaussian Mapping in Dynamic Environments",
+      "summary": "Robust robot autonomy depends on scene representations that remain stable enough to support localization, navigation, and downstream decision making in dynamic environments. Monocular Gaussian Splatting SLAM provides high-fidelity mapping, but curren...",
+      "url": "https://arxiv.org/abs/2606.29237v1",
+      "date": "2026-06-28",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.29237v1",
+      "authors": "Qixin Xiao",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "CORE Planner: Contextual-memory Oriented Reinforcement-learning in Unknown Environments for Robot Navigation",
+      "summary": "Autonomous navigation in unknown environments requires a robot to efficiently reach a predefined goal while exploring without prior maps. Although progress has been made in this area, most existing works still rely on traditional planning methods wit...",
+      "url": "https://arxiv.org/abs/2606.29222v1",
+      "date": "2026-06-28",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.29222v1",
+      "authors": "Jintao Kong, Zhihao Zhang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "AnyBody: Free-Form Whole-Body Humanoid Control from Arbitrary Keypoint Guidance",
+      "summary": "We present AnyBody, a unified whole-body humanoid controller driven by an arbitrary subset of body keypoints chosen at deploy time. Prior physics-based trackers either rely on expensive full-body motion capture and error-prone trajectory retargeting,...",
+      "url": "https://arxiv.org/abs/2606.29209v1",
+      "date": "2026-06-28",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.29209v1",
+      "authors": "Shuning Li, Sikai Li et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
       ]
     },
     {
@@ -3031,86 +3111,6 @@
       "type": "paper",
       "arxiv_id": "2605.20072v1",
       "authors": "Oussama Zenkri, Oliver Brock",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Towards LLM-Assisted Architecture Recovery for Real-World ROS~2 Systems: An Agent-Based Multi-Level Approach to Hierarchical Structural Architecture Reconstruction",
-      "summary": "Explicit software architecture models are essential artifacts for communicating, analyzing, and evolving complex software-intensive systems. In ROS~2-based robotic systems, however, structural (de-)composition and integration semantics are often only...",
-      "url": "https://arxiv.org/abs/2605.20055v1",
-      "date": "2026-05-19",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.20055v1",
-      "authors": "Dominique Briechle, Raj Chanchad et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Minimalist Visual Inertial Odometry",
-      "summary": "Visual-Inertial Odometry(VIO), which is critical to mobile robot navigation, uses cameras with a large number of pixels. Capturing and processing camera images requires significant resources. This work presents a minimalist approach to planar odometr...",
-      "url": "https://arxiv.org/abs/2605.19990v1",
-      "date": "2026-05-19",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.19990v1",
-      "authors": "Francesco Pasti, Jeremy Klotz et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "ESI-Bench: Towards Embodied Spatial Intelligence that Closes the Perception-Action Loop",
-      "summary": "Spatial intelligence unfolds through a perception-action loop: agents act to acquire observations, and reason about how observations vary as a function of action. Rather than passively processing what is seen, they actively uncover what is unseen - o...",
-      "url": "https://arxiv.org/abs/2605.18746v1",
-      "date": "2026-05-18",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.18746v1",
-      "authors": "Yining Hong, Jiageng Liu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Robo-Cortex: A Self-Evolving Embodied Agent via Dual-Grain Cognitive Memory and Autonomous Knowledge Induction",
-      "summary": "The ability to navigate and interact with complex environments is central to real-world embodied agents, yet navigation in unseen environments remains challenging due to \"experiential amnesia,\" where existing trajectory-driven or reactive policies fa...",
-      "url": "https://arxiv.org/abs/2605.18729v1",
-      "date": "2026-05-18",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.18729v1",
-      "authors": "Nga Teng Chan, Yi Zhang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "DexHoldem: Playing Texas Hold'em with Dexterous Embodied System",
-      "summary": "Evaluating embodied systems on real dexterous hardware requires more than isolated primitive skills: an agent must perceive a changing tabletop scene, choose a context-appropriate action, execute it with a dexterous hand, and leave the scene usable f...",
-      "url": "https://arxiv.org/abs/2605.18727v1",
-      "date": "2026-05-18",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.18727v1",
-      "authors": "Feng Chen, Tianzhe Chu et al.",
       "tags": [
         "机器人学习",
         "研究论文",
