@@ -3,6 +3,18 @@
   "count": 200,
   "items": [
     {
+      "title": "[BEV 杀入 具 身 智 能：跨维把机器人数据带上 Scaling 快车道",
+      "summary": "[BEV 杀入 具 身 智 能：跨维把机器人数据带上 Scaling 快车道",
+      "url": "http://36kr.com/p/3849567168959753",
+      "date": "2026-06-30",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
       "title": "[人形机器人降至万元级，上半年 具 身 智 能 融资超460亿元",
       "summary": "[人形机器人降至万元级，上半年 具 身 智 能 融资超460亿元",
       "url": "http://36kr.com/p/3871216256455938",
@@ -41,15 +53,83 @@
       ]
     },
     {
-      "title": "[BEV 杀入 具 身 智 能：跨维把机器人数据带上 Scaling 快车道",
-      "summary": "[BEV 杀入 具 身 智 能：跨维把机器人数据带上 Scaling 快车道",
-      "url": "http://36kr.com/p/3849567168959753",
+      "title": "Chronos: A Physics-Informed Full-History Framework for Non-Markovian Long-Horizon Manipulation",
+      "summary": "General-purpose robot policies should be modeled as dynamical systems, yet many VLA and generative imitation policies still rely on present observations or short windows. This Markovian shortcut fails in memory-dependent manipulation: identical obser...",
+      "url": "https://arxiv.org/abs/2606.30318v1",
       "date": "2026-06-29",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.30318v1",
+      "authors": "Yulin Zhou, Yimeng Wang et al.",
       "tags": [
-        "机器人"
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "CSAR: Containerized System Architecture for Robotics",
+      "summary": "Robotic applications increasingly rely on distributed computational infrastructures that combine embedded devices, edge servers, and cloud resources. This evolution, together with the collaborative nature of robotics projects, has made the developmen...",
+      "url": "https://arxiv.org/abs/2606.30293v1",
+      "date": "2026-06-29",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.30293v1",
+      "authors": "Ambrosio-Cestero, Gregorio et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "X-Morph: Human Motion Priors for Scalable Robot Learning Across Morphologies",
+      "summary": "Recent progress in humanoid behavior models has been driven in large part by abundant human motion data, but comparable motion data is scarce for non-humanoid legged robots such as quadrupeds, hexapods, and quadruped manipulators. A promising alterna...",
+      "url": "https://arxiv.org/abs/2606.30290v1",
+      "date": "2026-06-29",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.30290v1",
+      "authors": "Ritwik Sharma, Shivam Sood et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "ActiveVital: Geometry-Aware Embodied Vital Signs Monitoring for Home Healthcare Robots",
+      "summary": "Home robots require reliable vital signs monitoring to support long-term companionship and safety in daily environments, yet obtaining respiration and heart rate without physical contact remains challenging in unconstrained home settings. Millimeter-...",
+      "url": "https://arxiv.org/abs/2606.30275v1",
+      "date": "2026-06-29",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.30275v1",
+      "authors": "Yuxuan Hu, Shihao Li et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "ConCent: Contact-Centric Real-to-Sim-to-Real Learning from One Demonstration",
+      "summary": "Sim-to-real policy transfer -- deploying policies trained in simulation in the real world -- is a promising paradigm for scaling robot manipulation without large-scale real-world data. However, transferring simulation-trained policies remains challen...",
+      "url": "https://arxiv.org/abs/2606.30268v1",
+      "date": "2026-06-29",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.30268v1",
+      "authors": "Heecheol Kim, Namiko Saito et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
       ]
     },
     {
@@ -3037,80 +3117,6 @@
       "type": "paper",
       "arxiv_id": "2605.21414v1",
       "authors": "Shizhe Chen, Paul Pacaud et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "\"这一波具身智能创业，主力是清华教授，赢家是英诺\"",
-      "summary": "\"这一波具身智能创业，主力是清华教授，赢家是英诺\"",
-      "url": "http://36kr.com/p/3815612556075013",
-      "date": "2026-05-19",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "租赁是门好生意，没有租赁，具身智能的规模化和未来的C端普及便无从谈起，租赁一定不是具身智能的终点，但却是其绕不开的起点。",
-      "summary": "租赁是门好生意，没有租赁，具身智能的规模化和未来的C端普及便无从谈起，租赁一定不是具身智能的终点，但却是其绕不开的起点。",
-      "url": "http://36kr.com/p/3815911066099457",
-      "date": "2026-05-19",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "Hamilton--Jacobi Reachability for Spacecraft Collision Avoidance",
-      "summary": "This article presents a Hamilton--Jacobi (HJ) reachability framework for a two--satellite collision avoidance problem operating in the same circular orbit, where relative motion is modeled in the radial--tangential--normal (RTN) frame using planar Hi...",
-      "url": "https://arxiv.org/abs/2605.20138v1",
-      "date": "2026-05-19",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.20138v1",
-      "authors": "Larry Hui, Jordan Kam et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Topology-Optimized Pneumatic Soft Actuator: Design and Experimental Validation",
-      "summary": "This paper demonstrates the computational design of soft elastomeric pneumatic actuators using nonlinear topology optimization. An existing density- and porohyperelasticity-based topology optimization framework was extended from 2D to 3D and used to ...",
-      "url": "https://arxiv.org/abs/2605.20101v1",
-      "date": "2026-05-19",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.20101v1",
-      "authors": "Sumit Mehta, Konstantinos Poulios",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Probing Embodied LLMs: When Higher Observation Fidelity Hurts Problem Solving",
-      "summary": "Large Language Models are increasingly proposed as cognitive components for robotic systems, yet their opaque decision processes make it difficult to explain success or failure in closed-loop embodied tasks. Following an empirical AI methodology, we ...",
-      "url": "https://arxiv.org/abs/2605.20072v1",
-      "date": "2026-05-19",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.20072v1",
-      "authors": "Oussama Zenkri, Oliver Brock",
       "tags": [
         "机器人学习",
         "研究论文",
