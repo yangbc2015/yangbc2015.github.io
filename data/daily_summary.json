@@ -8,18 +8,6 @@
       "count": 5,
       "items": [
         {
-          "title": "Markdown Content:",
-          "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-          "summary": "Markdown Content:...",
-          "date": "2026-06-29",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
           "title": "百亿真实数据，首个面向AI Infra的运维智能体评测基准正式开源",
           "link": "https://www.jiqizhixin.com/search/articles/百亿真实数据，首个面向AI I",
           "summary": "百亿真实数据，首个面向AI Infra的运维智能体评测基准正式开源...",
@@ -61,6 +49,18 @@
           "summary": "登顶权威榜单！无界动力发布全球首个「长时序双向物理因果链」隐空间世界模型 MWA™...",
           "date": "2026-06-29",
           "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "AI时代：认知＞格局＞技术＞管理。",
+          "link": "https://www.qbitai.com/?s=AI时代：认知＞格局",
+          "summary": "AI时代：认知＞格局＞技术＞管理。...",
+          "date": "2026-06-30",
+          "source": "量子位",
           "type": "industry",
           "tags": [
             "AI",

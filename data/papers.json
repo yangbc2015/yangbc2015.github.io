@@ -1,84 +1,84 @@
 {
   "last_updated": "2026-06-30",
-  "count": 9,
+  "count": 8,
   "items": [
     {
-      "title": "MCP Server Architecture Patterns for LLM-Integrated Applications",
-      "authors": "Carson Rodrigues, Oysturn Vas",
-      "abstract": "The Model Context Protocol (MCP), introduced by Anthropic in November 2024, defines a standardized interface for connecting large language models (LLMs) to external tools, data sources, and services. Within months of release, hundreds of community-built MCP servers appeared on GitHub, but no softwar...",
+      "title": "VLK: Learning Humanoid Loco-Manipulation from Synthetic Interactions in Reconstructed Scenes",
+      "authors": "Yen-Jen Wang, Jiaman Li, Sirui Chen et al.",
+      "abstract": "Perception-based humanoid loco-manipulation requires connecting egocentric observations and task instructions to whole-body motion. Learning this mapping requires synchronized egocentric images, language commands, and robot-compatible kinematic trajectories, yet no existing data source provides this...",
       "venue": "arXiv",
       "date": "2026-06-29",
-      "arxiv_id": "2606.30317v1",
-      "url": "https://arxiv.org/abs/2606.30317v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.30317v1.pdf",
+      "arxiv_id": "2606.30645v1",
+      "url": "https://arxiv.org/abs/2606.30645v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.30645v1.pdf",
       "categories": [
-        "cs.SE",
-        "cs.AI"
+        "cs.RO",
+        "cs.AI",
+        "cs.GR"
       ],
-      "type": "ai",
+      "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Always-OnAgents:A Survey of Persistent Memory, State, and Governance in LLMAgents",
-      "authors": "Tianyu Ding, Aditya Nannapaneni, Bingfan Liu et al.",
-      "abstract": "Always-on agents are systems whose future behavior depends on durable state accumulated across earlier interactions. We treat them as persistent-state systems: the operative system includes retrievable memories, but also task ledgers, permissions, credentials, commitments, provenance and audit recor...",
+      "title": "LeVo 2: Stable and Melodious Song Generation via Hierarchical Representation Modeling and Progressive Post-Training",
+      "authors": "Shun Lei, Huaicheng Zhang, Dapeng Wu et al.",
+      "abstract": "Full-length song generation must preserve coherence and musicality, render detailed vocal and accompaniment acoustics, and follow lyrics and prompts. Existing language model-based systems face a structural trade-off: mixed-token modeling preserves vocal-instrument coordination but obscures track-spe...",
       "venue": "arXiv",
       "date": "2026-06-29",
-      "arxiv_id": "2606.30306v1",
-      "url": "https://arxiv.org/abs/2606.30306v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.30306v1.pdf",
+      "arxiv_id": "2606.30642v1",
+      "url": "https://arxiv.org/abs/2606.30642v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.30642v1.pdf",
       "categories": [
-        "cs.MA",
+        "cs.SD",
         "cs.AI"
       ],
-      "type": "survey",
+      "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "DialogPII: A multilingual dataset of synthetic dialog transcripts to detect personal information",
-      "authors": "Roland Roller, Vera Czehmann, Derya Erman et al.",
-      "abstract": "Conversational data collected in domains such as healthcare or social sciences is a valuable resource for research and automated analysis. However, responsible data sharing requires the detection and removal of personally identifiable and sensitive information to protect individual privacy. To suppo...",
+      "title": "Self-Evolving World Models for LLM Agent Planning",
+      "authors": "Xuan Zhang, Wenxuan Zhang, See-Kiong Ng et al.",
+      "abstract": "World models offer a principled way to equip long-horizon LLM agents with foresight: predictions of action consequences before execution. However, unreliable foresight can be ignored, misused, or even degrade downstream decision-making. In this paper, we introduce WorldEvolver, a self-evolving world...",
       "venue": "arXiv",
       "date": "2026-06-29",
-      "arxiv_id": "2606.30312v1",
-      "url": "https://arxiv.org/abs/2606.30312v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.30312v1.pdf",
+      "arxiv_id": "2606.30639v1",
+      "url": "https://arxiv.org/abs/2606.30639v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.30639v1.pdf",
       "categories": [
+        "cs.AI",
         "cs.CL"
-      ],
-      "type": "benchmark",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "When Is a Draft Accepted? A Theory of Acceptance in Speculative Decoding",
-      "authors": "Aaryam Sharma",
-      "abstract": "Speculative decoding accelerates language model inference by using a fast drafter to propose candidate tokens that are then verified by a larger target model. Existing theory largely studies the stochastic, distribution-preserving setting, where the goal is to exactly sample from the target distribu...",
-      "venue": "arXiv",
-      "date": "2026-06-29",
-      "arxiv_id": "2606.30265v1",
-      "url": "https://arxiv.org/abs/2606.30265v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.30265v1.pdf",
-      "categories": [
-        "cs.LG",
-        "cs.CL",
-        "stat.ML"
       ],
       "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Optimizing Image Preparation and Compression for Face Recognition within 1024 Bytes",
-      "authors": "Paul Andreas, Torsten Schlett, Christoph Busch",
-      "abstract": "ICAO-compliant machine readable travel documents enable automated biometric face verification. The biometric reference is stored on an RFID chip included in form of a JPEG or JPEG 2000 compressed facial image. In contrast, temporary travel documents lack of machine readability, which excludes the ow...",
+      "title": "Scaling the Horizon, Not the Parameters: Reaching Trillion-Parameter Performance with a 35B Agent",
+      "authors": "Lei Bai, Zongsheng Cao, Yang Chen et al.",
+      "abstract": "We introduce Agents-A1, a 35B Mixture-of-Experts Agentic Model that reaches trillion-parameter-level performance by scaling the agent horizon. We investigate agent-horizon scaling from two perspectives: scaling long-horizon trajectories and scaling heterogeneous agent abilities. To support this goal...",
       "venue": "arXiv",
       "date": "2026-06-29",
-      "arxiv_id": "2606.30321v1",
-      "url": "https://arxiv.org/abs/2606.30321v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.30321v1.pdf",
+      "arxiv_id": "2606.30616v1",
+      "url": "https://arxiv.org/abs/2606.30616v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.30616v1.pdf",
+      "categories": [
+        "cs.CL"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Open-Vocabulary and Referring Segmentation for 3D Gaussians Using 2D Detectors",
+      "authors": "Jameel Hassan, Yasiru Ranasinghe, Vishal Patel",
+      "abstract": "3D Gaussian Splatting (3DGS) has emerged at the forefront of 3D scene reconstruction. Extending 3DGS with language-driven, open-vocabulary understanding has gained significant attention for real-world applications such as embodied AI. Recent methods achieve this by learning an instance feature attri...",
+      "venue": "arXiv",
+      "date": "2026-06-29",
+      "arxiv_id": "2606.30638v1",
+      "url": "https://arxiv.org/abs/2606.30638v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.30638v1.pdf",
       "categories": [
         "cs.CV"
       ],
@@ -87,68 +87,54 @@
       "source": "arXiv"
     },
     {
-      "title": "BrainJanus: A Unified Model for Understanding and Generation across Brain, Vision, and Language",
-      "authors": "Haitao Wu, Qirui Zhang, Zhouheng Yao et al.",
-      "abstract": "Modeling the bidirectional correspondence between external sensory stimuli and internal neural activity has emerged as a critical frontier in neuroscience. However, existing approaches predominantly treat brain encoding and decoding as isolated tasks, relying heavily on unimodal alignment and extern...",
+      "title": "GROW$^2$: Grounding Which and Where for Robot Tool Use",
+      "authors": "Yuhong Deng, Yuyao Liu, David Hsu",
+      "abstract": "Can the robot use a plate to cut a cake if no knife is available? Tool use greatly expands robot capabilities, but to use tools creatively beyond their intended functions, the robot faces the challenge of $\\textit{open-world affordance grounding}$: select an open-category object to act as a tool and...",
       "venue": "arXiv",
       "date": "2026-06-29",
-      "arxiv_id": "2606.30319v1",
-      "url": "https://arxiv.org/abs/2606.30319v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.30319v1.pdf",
+      "arxiv_id": "2606.30632v1",
+      "url": "https://arxiv.org/abs/2606.30632v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.30632v1.pdf",
       "categories": [
-        "cs.CV",
-        "cs.LG"
+        "cs.RO",
+        "cs.AI",
+        "cs.CV"
       ],
-      "type": "nlp",
+      "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Hybrid Active-Online Learning Framework for Label-Efficient Concept Drift Adaptation in Optical Network Failure Detection",
-      "authors": "Yousuf Moiz Ali, Jaroslaw E. Prilepsky, João Pedro et al.",
-      "abstract": "We propose a hybrid active-online learning framework for label-efficient concept drift adaptation in optical network failure detection. Using margin-based selective labeling, our method achieves nearceiling accuracy and AUC scores while querying only 3.4% of streaming samples, with negligible latenc...",
+      "title": "One-Step Gradient Delay is Not a Barrier for Large-Scale Asynchronous Pipeline Parallel LLM Pretraining",
+      "authors": "Philip Zmushko, Egor Petrov, Nursultan Abdullaev et al.",
+      "abstract": "Modern large-scale LLM pretraining benefits from utilizing Pipeline Parallelism; however, synchronous implementations leave GPUs idle during pipeline bubbles, wasting computational resources. Asynchronous Pipeline Parallelism eliminates these bubbles, maximizing throughput at the cost of gradient st...",
       "venue": "arXiv",
       "date": "2026-06-29",
-      "arxiv_id": "2606.30322v1",
-      "url": "https://arxiv.org/abs/2606.30322v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.30322v1.pdf",
+      "arxiv_id": "2606.30634v1",
+      "url": "https://arxiv.org/abs/2606.30634v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.30634v1.pdf",
       "categories": [
-        "cs.LG",
-        "eess.SP"
+        "cs.LG"
       ],
       "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Chronos: A Physics-Informed Full-History Framework for Non-Markovian Long-Horizon Manipulation",
-      "authors": "Yulin Zhou, Yimeng Wang, Nengyu Wang et al.",
-      "abstract": "General-purpose robot policies should be modeled as dynamical systems, yet many VLA and generative imitation policies still rely on present observations or short windows. This Markovian shortcut fails in memory-dependent manipulation: identical observations can demand different actions after differe...",
+      "title": "Pessimism's Paradox: Conservative Offline Training Amplifies Reward Hacking During Online Adaptation in Reasoning Models",
+      "authors": "Subramanyam Sahoo, Aman Chadha, Vinija Jain et al.",
+      "abstract": "Conservative offline training is widely advocated as a safe foundation for subsequent online adaptation: if a policy stays close to well-supported behaviour, the argument goes, it is less likely to exploit imperfections in a learned reward model. We challenge this intuition empirically and mechanist...",
       "venue": "arXiv",
       "date": "2026-06-29",
-      "arxiv_id": "2606.30318v1",
-      "url": "https://arxiv.org/abs/2606.30318v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.30318v1.pdf",
+      "arxiv_id": "2606.30627v1",
+      "url": "https://arxiv.org/abs/2606.30627v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.30627v1.pdf",
       "categories": [
-        "cs.RO"
+        "cs.LG",
+        "cs.AI",
+        "stat.ML"
       ],
-      "type": "ai",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "CSAR: Containerized System Architecture for Robotics",
-      "authors": "Ambrosio-Cestero, Gregorio, Galindo Andrades et al.",
-      "abstract": "Robotic applications increasingly rely on distributed computational infrastructures that combine embedded devices, edge servers, and cloud resources. This evolution, together with the collaborative nature of robotics projects, has made the development, integration, deployment, and long-term operatio...",
-      "venue": "arXiv",
-      "date": "2026-06-29",
-      "arxiv_id": "2606.30293v1",
-      "url": "https://arxiv.org/abs/2606.30293v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.30293v1.pdf",
-      "categories": [
-        "cs.RO"
-      ],
-      "type": "ai",
+      "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     }

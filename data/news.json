@@ -1,9 +1,21 @@
 {
   "last_updated": "2026-06-30",
   "count": 200,
-  "history_count": 200,
+  "history_count": 202,
   "retention_days": 30,
   "items": [
+    {
+      "title": "AI时代：认知＞格局＞技术＞管理。",
+      "link": "https://www.qbitai.com/?s=AI时代：认知＞格局",
+      "summary": "AI时代：认知＞格局＞技术＞管理。...",
+      "date": "2026-06-30",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
     {
       "title": "刚融了2亿美元，冲到了具身榜单第一",
       "link": "https://www.qbitai.com/?s=刚融了2亿美元，冲到",
@@ -41,6 +53,30 @@
       ]
     },
     {
+      "title": "为全球开源 AI 发展贡献更多中国力量。",
+      "link": "https://www.qbitai.com/?s=为全球开源 AI 发",
+      "summary": "为全球开源 AI 发展贡献更多中国力量。...",
+      "date": "2026-06-30",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "Published Time: Thu, 08 May 2025 23:15:48 GMT",
+      "link": "https://techcrunch.com/category/artificial-intelligence/",
+      "summary": "Published Time: Thu, 08 May 2025 23:15:48 GMT...",
+      "date": "2026-06-30",
+      "source": "TechCrunch",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "Artificial Intelligence"
+      ]
+    },
+    {
       "title": "有人盯上的不是钱，而是 Token",
       "link": "https://www.qbitai.com/?s=有人盯上的不是钱，而",
       "summary": "有人盯上的不是钱，而是 Token...",
@@ -58,30 +94,6 @@
       "summary": "人类一次录制，Agent就能模拟...",
       "date": "2026-06-30",
       "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "*   [Latest](http://techcrunch.com/latest/)",
-      "link": "https://techcrunch.com/category/artificial-intelligence/",
-      "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
-      "date": "2026-06-30",
-      "source": "TechCrunch",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "Artificial Intelligence"
-      ]
-    },
-    {
-      "title": "Markdown Content:",
-      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-      "summary": "Markdown Content:...",
-      "date": "2026-06-29",
-      "source": "机器之心",
       "type": "industry",
       "tags": [
         "AI",
@@ -128,6 +140,18 @@
       "title": "登顶权威榜单！无界动力发布全球首个「长时序双向物理因果链」隐空间世界模型 MWA™",
       "link": "https://www.jiqizhixin.com/search/articles/登顶权威榜单！无界动力发布全球",
       "summary": "登顶权威榜单！无界动力发布全球首个「长时序双向物理因果链」隐空间世界模型 MWA™...",
+      "date": "2026-06-29",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "Markdown Content:",
+      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+      "summary": "Markdown Content:...",
       "date": "2026-06-29",
       "source": "机器之心",
       "type": "industry",
@@ -2372,30 +2396,6 @@
       "title": "告别盲盒筛选！分子之心发布MMDesign，抗体发现迈入可编程生物工程时代",
       "link": "https://www.jiqizhixin.com/search/articles/告别盲盒筛选！分子之心发布MM",
       "summary": "告别盲盒筛选！分子之心发布MMDesign，抗体发现迈入可编程生物工程时代...",
-      "date": "2026-06-04",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "120亿参数跑在16G笔记本上，谷歌Gemma 4新成员杀来了",
-      "link": "https://www.jiqizhixin.com/search/articles/120亿参数跑在16G笔记本上",
-      "summary": "120亿参数跑在16G笔记本上，谷歌Gemma 4新成员杀来了...",
-      "date": "2026-06-04",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "小鹏三登CVPR：自动驾驶下一步，不是VLA与世界模型二选一",
-      "link": "https://www.jiqizhixin.com/search/articles/小鹏三登CVPR：自动驾驶下一",
-      "summary": "小鹏三登CVPR：自动驾驶下一步，不是VLA与世界模型二选一...",
       "date": "2026-06-04",
       "source": "机器之心",
       "type": "industry",

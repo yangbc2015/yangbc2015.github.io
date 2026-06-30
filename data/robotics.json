@@ -3,18 +3,6 @@
   "count": 200,
   "items": [
     {
-      "title": "[BEV 杀入 具 身 智 能：跨维把机器人数据带上 Scaling 快车道",
-      "summary": "[BEV 杀入 具 身 智 能：跨维把机器人数据带上 Scaling 快车道",
-      "url": "http://36kr.com/p/3849567168959753",
-      "date": "2026-06-30",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
-      ]
-    },
-    {
       "title": "[人形机器人降至万元级，上半年 具 身 智 能 融资超460亿元",
       "summary": "[人形机器人降至万元级，上半年 具 身 智 能 融资超460亿元",
       "url": "http://36kr.com/p/3871216256455938",
@@ -50,6 +38,98 @@
       "tags": [
         "机器人",
         "自动驾驶"
+      ]
+    },
+    {
+      "title": "[BEV 杀入 具 身 智 能：跨维把机器人数据带上 Scaling 快车道",
+      "summary": "[BEV 杀入 具 身 智 能：跨维把机器人数据带上 Scaling 快车道",
+      "url": "http://36kr.com/p/3849567168959753",
+      "date": "2026-06-30",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
+      "title": "VLK: Learning Humanoid Loco-Manipulation from Synthetic Interactions in Reconstructed Scenes",
+      "summary": "Perception-based humanoid loco-manipulation requires connecting egocentric observations and task instructions to whole-body motion. Learning this mapping requires synchronized egocentric images, language commands, and robot-compatible kinematic traje...",
+      "url": "https://arxiv.org/abs/2606.30645v1",
+      "date": "2026-06-29",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.30645v1",
+      "authors": "Yen-Jen Wang, Jiaman Li et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "GROW$^2$: Grounding Which and Where for Robot Tool Use",
+      "summary": "Can the robot use a plate to cut a cake if no knife is available? Tool use greatly expands robot capabilities, but to use tools creatively beyond their intended functions, the robot faces the challenge of $\\textit{open-world affordance grounding}$: s...",
+      "url": "https://arxiv.org/abs/2606.30632v1",
+      "date": "2026-06-29",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.30632v1",
+      "authors": "Yuhong Deng, Yuyao Liu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Sequential Planning via Anchored Robotic Keypoints",
+      "summary": "We present Sequential Planning via Anchored Robotic Keypoints, SPARK, a training-free neurosymbolic manipulation system that reaches 43.7% on six LIBERO-PRO position \\& task cells, more than doubling CaP-Agent0 and Vision-Language-Action (VLA) baseli...",
+      "url": "https://arxiv.org/abs/2606.30613v1",
+      "date": "2026-06-29",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.30613v1",
+      "authors": "Bryce Grant, Aryeh Rothenberg et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Realtime Wind Estimation using Low Cost Quadrotor Uncrewed Aerial Vehicles",
+      "summary": "In environmental monitoring as well as emergency response applications such as wildfires, wind velocity measurement is essential. Quadrotor UAVs have become popular platforms for wind velocity estimation due to their maneuverability, compact size, an...",
+      "url": "https://arxiv.org/abs/2606.30581v1",
+      "date": "2026-06-29",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.30581v1",
+      "authors": "Hiranya Udagedara, Mahdis Bisheban",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "MOAR Planner: Multi-Objective and Adaptive Risk-Aware Path Planning for Infrastructure Inspection with a UAV",
+      "summary": "The problem of autonomous navigation for UAV inspection remains challenging as it requires effectively navigating in close proximity to obstacles, while accounting for dynamic risk factors such as weather conditions, communication reliability, and ba...",
+      "url": "https://arxiv.org/abs/2606.30575v1",
+      "date": "2026-06-29",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.30575v1",
+      "authors": "Louis Petit, Alexis Lussier Desbiens",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
       ]
     },
     {
@@ -3037,86 +3117,6 @@
       "type": "paper",
       "arxiv_id": "2605.22709v1",
       "authors": "Eric Yocam, Varghese Vaidyan",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "HITL-D: Human In The Loop Diffusion Assisted Shared Control",
-      "summary": "Autonomous manipulation systems have achieved remarkable capabilities, yet the integration of human expertise with diffusion-based policies in shared control remains relatively unexplored. In this paper, we propose Human-In-The-Loop Diffusion (HITL-D...",
-      "url": "https://arxiv.org/abs/2605.21460v1",
-      "date": "2026-05-20",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.21460v1",
-      "authors": "Riley Zilka, Sergey Khlynovskiy et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Lost in Fog: Sensor Perturbations Expose Reasoning Fragility in Driving VLAs",
-      "summary": "Interpretable autonomous driving planners depend not only on generating explanations, but also on those explanations remaining reliable under real-world sensor degradation. In this paper we present a controlled perturbation study of Vision-Language-A...",
-      "url": "https://arxiv.org/abs/2605.21446v1",
-      "date": "2026-05-20",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.21446v1",
-      "authors": "Abhinaw Priyadershi, Jelena Frtunikj",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Fully Actuated Manifold Constraint Based Output Feedback Control for Input-Constrained Uncertain Nonlinear Systems",
-      "summary": "This paper presents a low-complexity, model-free, output-feedback controller for a class of unknown time-varying nonlinear systems with unknown input constraints. The controller achieves the preset control accuracy when the actuator is not saturated ...",
-      "url": "https://arxiv.org/abs/2605.21439v1",
-      "date": "2026-05-20",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.21439v1",
-      "authors": "Dianrui Mu, Changchun Hua et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "roto 2.0: The Robot Tactile Olympiad",
-      "summary": "Tactile-based reinforcement learning (RL) is currently hindered by fragmented research and a focus on over-saturated orientation tasks. We introduce v2 of the Robot Tactile Olympiad (\\texttt{roto 2.0}), a GPU-parallelised benchmark designed to standa...",
-      "url": "https://arxiv.org/abs/2605.21429v1",
-      "date": "2026-05-20",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.21429v1",
-      "authors": "Elle Miller, Jayaram Reddy et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "PointACT: Vision-Language-Action Models with Multi-Scale Point-Action Interaction",
-      "summary": "Vision-Language-Action (VLA) models have shown strong potential for general-purpose robotic manipulation by leveraging large pretrained vision-language backbones. However, most existing VLAs rely primarily on 2D visual representations, which limit th...",
-      "url": "https://arxiv.org/abs/2605.21414v1",
-      "date": "2026-05-20",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.21414v1",
-      "authors": "Shizhe Chen, Paul Pacaud et al.",
       "tags": [
         "机器人学习",
         "研究论文",
