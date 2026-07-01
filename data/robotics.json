@@ -16,6 +16,86 @@
       ]
     },
     {
+      "title": "DVG-WM: Disentangled Video Generation Enables Efficient Embodied World Model for Robotic Manipulation",
+      "summary": "Video-based embodied world models provide an appealing substrate for robotic manipulation by predicting future states, yet current approaches remain limited by a fundamental entanglement: accurately modeling dynamics typically requires low-level temp...",
+      "url": "https://arxiv.org/abs/2606.32028v1",
+      "date": "2026-06-30",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.32028v1",
+      "authors": "Ziyu Shan, Zhenyu Wu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Freeform Preference Learning for Robotic Manipulation",
+      "summary": "Reward design remains a central bottleneck for autonomous robot policy improvement, especially in long-horizon manipulation tasks where sparse success labels provide too little signal and binary preferences collapse many competing notions of quality ...",
+      "url": "https://arxiv.org/abs/2606.32027v1",
+      "date": "2026-06-30",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.32027v1",
+      "authors": "Marcel Torne, Anubha Mahajan et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Human-as-Humanoid: Enabling Zero-Shot Humanoid Learning from Ego-Exo Human Videos with Human-Aligned Embodiments",
+      "summary": "Vision-language-action (VLA) models across robot embodiments require high-quality observation--action supervision to learn deployable action distributions, yet scaling such robot data remains difficult, especially for high-DoF humanoids. Teleoperatio...",
+      "url": "https://arxiv.org/abs/2606.32009v1",
+      "date": "2026-06-30",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.32009v1",
+      "authors": "Xiaopeng Lin, Ruoqi Yang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "OopsieVerse: A Safety Benchmark with Damage-Aware Simulation for Robot Manipulation",
+      "summary": "While robotic manipulation capabilities have advanced rapidly, physical safety remains a major barrier to deploying household robots: task success is insufficient if the robot damages itself or its surroundings. Simulation offers a harm-free alternat...",
+      "url": "https://arxiv.org/abs/2606.31993v1",
+      "date": "2026-06-30",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.31993v1",
+      "authors": "Arnav Balaji, Arpit Bahety et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Adapting Generalist Robot Policies with Semantic Reinforcement Learning",
+      "summary": "Generalist robot policies learn a diverse repertoire of behaviors from large-scale pretraining. In principle, this makes them excellent priors for downstream adaptation via reinforcement learning (RL). In practice, however, standard RL methods levera...",
+      "url": "https://arxiv.org/abs/2606.31958v1",
+      "date": "2026-06-30",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2606.31958v1",
+      "authors": "Jagdeep Singh Bhatia, Andrew Wagenmaker et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
       "title": "DynFly: Dynamic-Aware Continuous Trajectory Generation for UAV Vision-Language Navigation in Urban Environments",
       "summary": "Recent advances in multimodal large models have significantly improved UAV vision-language navigation (UAV-VLN) by enhancing high-level perception and reasoning. However, existing methods mainly focus on predicting discrete actions, local targets, or...",
       "url": "https://arxiv.org/abs/2606.31654v1",
@@ -3033,86 +3113,6 @@
       "type": "paper",
       "arxiv_id": "2605.25901v1",
       "authors": "Cuong Huynh, Maxim Popov et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "RePlan-Bot: Multi-Level Replanning for Embodied Instruction Following",
-      "summary": "Embodied instruction following (EIF) requires agents to understand and execute complex natural language commands within interactive 3D environments. Despite recent advances, existing methods often fail in long-horizon planning and handling irreversib...",
-      "url": "https://arxiv.org/abs/2605.25851v1",
-      "date": "2026-05-25",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.25851v1",
-      "authors": "Xicheng Gong, Guozheng Sun et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Good Token Hunting: A Hitchhiker's Guide to Token Selection for Visual Geometry Transformers",
-      "summary": "Visual geometry transformers have become powerful architectures for multi-view 3D reconstruction, enabling joint prediction of multiple 3D attributes in a feed-forward manner. However, their computational cost grows quadratically with the input seque...",
-      "url": "https://arxiv.org/abs/2605.23892v1",
-      "date": "2026-05-22",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.23892v1",
-      "authors": "Shuhong Zheng, Michael Oechsle et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Robotic Strawberry Harvesting with Robust Vision and Deep Reinforcement Learning based Sim-to-Real Control",
-      "summary": "This study presents a closed-loop robotic strawberry harvesting system that combines a robust vision module, simulation-trained deep reinforcement learning (DRL) control, and ROS-based realrobot execution. For perception, we propose HRAttnEdge-YOLO26...",
-      "url": "https://arxiv.org/abs/2605.23863v1",
-      "date": "2026-05-22",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.23863v1",
-      "authors": "Al Bashir, Shao-Yang Chang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Point Tracking Improves World Action Models",
-      "summary": "Robot policy learning benefits from world-action models that capture environment dynamics, but pixel-level prediction entangles dynamics with nuisance factors such as lighting and texture, making learned representations vulnerable to task-irrelevant ...",
-      "url": "https://arxiv.org/abs/2605.23856v1",
-      "date": "2026-05-22",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.23856v1",
-      "authors": "Jiarui Guan, Wenshuai Zhao et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Instrumentation for Imitation Learning: Enhancing Training Datasets for Clothes Hanger Insertion",
-      "summary": "Large behaviour models have transformed the field of robotic manipulation, but prohibitive data requirements have thus far prevented a revolution similar to vision language models. We believe that instrumentation, i.e. sensor integration in objects, ...",
-      "url": "https://arxiv.org/abs/2605.23847v1",
-      "date": "2026-05-22",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.23847v1",
-      "authors": "Remko Proesmans, Thomas Lips et al.",
       "tags": [
         "机器人学习",
         "研究论文",
