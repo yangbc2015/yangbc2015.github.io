@@ -3,9 +3,9 @@
   "count": 200,
   "items": [
     {
-      "title": "[具 身 智 能 的“大广告”时代：伴侣机器人，可能是唯一出路",
-      "summary": "[具 身 智 能 的“大广告”时代：伴侣机器人，可能是唯一出路",
-      "url": "http://36kr.com/p/3863035260992389",
+      "title": "[上纬新材CEO田华首谈 具 身 智 能：要造所有人买得起的个人机器人",
+      "summary": "[上纬新材CEO田华首谈 具 身 智 能：要造所有人买得起的个人机器人",
+      "url": "http://36kr.com/p/3877003233898501",
       "date": "2026-07-01",
       "source": "36氪",
       "category": "机器人",
@@ -37,6 +37,18 @@
       "tags": [
         "机器人",
         "人形机器人"
+      ]
+    },
+    {
+      "title": "[具 身 智 能 的“大广告”时代：伴侣机器人，可能是唯一出路",
+      "summary": "[具 身 智 能 的“大广告”时代：伴侣机器人，可能是唯一出路",
+      "url": "http://36kr.com/p/3863035260992389",
+      "date": "2026-07-01",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
       ]
     },
     {
@@ -3093,22 +3105,6 @@
       "type": "paper",
       "arxiv_id": "2605.26006v1",
       "authors": "Bin Li, Ruichi Zhang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "LRDDv3: High-Resolution Long-Range Drone Detection Dataset with Range Information and Thermal Data",
-      "summary": "Unmanned Aerial Vehicles (UAVs) have quickly become common in various airspaces, representing a wide range of applications from recreation flying to commercial photography and package delivery. With the increasing prevalence of UAVs, it becomes criti...",
-      "url": "https://arxiv.org/abs/2605.25942v1",
-      "date": "2026-05-25",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.25942v1",
-      "authors": "Knut Peterson, Zaid Mayers et al.",
       "tags": [
         "机器人学习",
         "研究论文",
