@@ -8,18 +8,6 @@
       "count": 5,
       "items": [
         {
-          "title": "Markdown Content:",
-          "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-          "summary": "Markdown Content:...",
-          "date": "2026-06-30",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
           "title": "普朗克被撤稿了？量子之父竟被算法绊了一跤",
           "link": "https://www.jiqizhixin.com/search/articles/普朗克被撤稿了？量子之父竟被算",
           "summary": "普朗克被撤稿了？量子之父竟被算法绊了一跤...",
@@ -44,11 +32,11 @@
           ]
         },
         {
-          "title": "不只DeepSeek，阶跃等开源JetSpec：大模型解码提速近10倍",
-          "link": "https://www.jiqizhixin.com/search/articles/不只DeepSeek，阶跃等开",
-          "summary": "不只DeepSeek，阶跃等开源JetSpec：大模型解码提速近10倍...",
-          "date": "2026-06-30",
-          "source": "机器之心",
+          "title": "OpenSquilla 上线后数周内 GitHub star 增至数千量级",
+          "link": "https://www.qbitai.com/?s=OpenSquill",
+          "summary": "OpenSquilla 上线后数周内 GitHub star 增至数千量级...",
+          "date": "2026-07-01",
+          "source": "量子位",
           "type": "industry",
           "tags": [
             "AI",
@@ -56,11 +44,23 @@
           ]
         },
         {
-          "title": "LiveWorld：视频世界模型新范式，让镜头之外的世界继续演化",
-          "link": "https://www.jiqizhixin.com/search/articles/LiveWorld：视频世界模",
-          "summary": "LiveWorld：视频世界模型新范式，让镜头之外的世界继续演化...",
-          "date": "2026-06-30",
-          "source": "机器之心",
+          "title": "Gemni 3.5 Pro到底啥时候来啊！！！",
+          "link": "https://www.qbitai.com/?s=Gemni 3.5 ",
+          "summary": "Gemni 3.5 Pro到底啥时候来啊！！！...",
+          "date": "2026-07-01",
+          "source": "量子位",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "谁能把这个空间高质量地数字化，谁就掌握了下一阶段机器智能的入口。",
+          "link": "https://www.qbitai.com/?s=谁能把这个空间高质量",
+          "summary": "谁能把这个空间高质量地数字化，谁就掌握了下一阶段机器智能的入口。...",
+          "date": "2026-07-01",
+          "source": "量子位",
           "type": "industry",
           "tags": [
             "AI",

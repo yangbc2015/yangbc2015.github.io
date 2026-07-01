@@ -3,6 +3,31 @@
   "count": 200,
   "items": [
     {
+      "title": "[具 身 智 能 和移动机器人，为什么今年都在工厂上强度",
+      "summary": "[具 身 智 能 和移动机器人，为什么今年都在工厂上强度",
+      "url": "http://36kr.com/p/3876567144706312",
+      "date": "2026-07-01",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
+      "title": "[人形机器人降至万元级，上半年 具 身 智 能 融资超460亿元",
+      "summary": "[人形机器人降至万元级，上半年 具 身 智 能 融资超460亿元",
+      "url": "http://36kr.com/p/3871216256455938",
+      "date": "2026-07-01",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "人形机器人"
+      ]
+    },
+    {
       "title": "[火热的 具 身 智 能，藏着半个自动驾驶圈",
       "summary": "[火热的 具 身 智 能，藏着半个自动驾驶圈",
       "url": "http://36kr.com/p/3856635996158851",
@@ -173,19 +198,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "[人形机器人降至万元级，上半年 具 身 智 能 融资超460亿元",
-      "summary": "[人形机器人降至万元级，上半年 具 身 智 能 融资超460亿元",
-      "url": "http://36kr.com/p/3871216256455938",
-      "date": "2026-06-30",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "人形机器人"
       ]
     },
     {
@@ -3097,22 +3109,6 @@
       "type": "paper",
       "arxiv_id": "2605.25942v1",
       "authors": "Knut Peterson, Zaid Mayers et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "AgentGrounder: Zero-Shot 3D Visual Pointcloud Grounding using Multimodal Language Models",
-      "summary": "3D Visual Grounding (3DVG) is an essential capability for embodied AI, requiring agents to localize objects in 3D scenes based on natural language descriptions. Recent zero-shot methods leverage 2D vision-language models (LVLMs). However, they often ...",
-      "url": "https://arxiv.org/abs/2605.25901v1",
-      "date": "2026-05-25",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.25901v1",
-      "authors": "Cuong Huynh, Maxim Popov et al.",
       "tags": [
         "机器人学习",
         "研究论文",
