@@ -1,6 +1,6 @@
 {
-  "date": "2026-06-30",
-  "last_updated": "2026-06-30",
+  "date": "2026-07-01",
+  "last_updated": "2026-07-01",
   "categories": {
     "ai": {
       "name": "人工智能",
@@ -8,10 +8,10 @@
       "count": 5,
       "items": [
         {
-          "title": "百亿真实数据，首个面向AI Infra的运维智能体评测基准正式开源",
-          "link": "https://www.jiqizhixin.com/search/articles/百亿真实数据，首个面向AI I",
-          "summary": "百亿真实数据，首个面向AI Infra的运维智能体评测基准正式开源...",
-          "date": "2026-06-29",
+          "title": "Markdown Content:",
+          "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+          "summary": "Markdown Content:...",
+          "date": "2026-06-30",
           "source": "机器之心",
           "type": "industry",
           "tags": [
@@ -20,11 +20,11 @@
           ]
         },
         {
-          "title": "谁能把这个空间高质量地数字化，谁就掌握了下一阶段机器智能的入口。",
-          "link": "https://www.qbitai.com/?s=谁能把这个空间高质量",
-          "summary": "谁能把这个空间高质量地数字化，谁就掌握了下一阶段机器智能的入口。...",
+          "title": "普朗克被撤稿了？量子之父竟被算法绊了一跤",
+          "link": "https://www.jiqizhixin.com/search/articles/普朗克被撤稿了？量子之父竟被算",
+          "summary": "普朗克被撤稿了？量子之父竟被算法绊了一跤...",
           "date": "2026-06-30",
-          "source": "量子位",
+          "source": "机器之心",
           "type": "industry",
           "tags": [
             "AI",
@@ -32,11 +32,11 @@
           ]
         },
         {
-          "title": "AI进入生物制造，真正缺的不是更聪明的大脑，而是连接数字与物理世界的接口。",
-          "link": "https://www.qbitai.com/?s=AI进入生物制造，真",
-          "summary": "AI进入生物制造，真正缺的不是更聪明的大脑，而是连接数字与物理世界的接口。...",
+          "title": "登上Nature子刊！Meta脑机接口重大阶段性进展，超高实时解码准确率",
+          "link": "https://www.jiqizhixin.com/search/articles/登上Nature子刊！Meta",
+          "summary": "登上Nature子刊！Meta脑机接口重大阶段性进展，超高实时解码准确率...",
           "date": "2026-06-30",
-          "source": "量子位",
+          "source": "机器之心",
           "type": "industry",
           "tags": [
             "AI",
@@ -44,11 +44,11 @@
           ]
         },
         {
-          "title": "AI时代：认知＞格局＞技术＞管理。",
-          "link": "https://www.qbitai.com/?s=AI时代：认知＞格局",
-          "summary": "AI时代：认知＞格局＞技术＞管理。...",
+          "title": "不只DeepSeek，阶跃等开源JetSpec：大模型解码提速近10倍",
+          "link": "https://www.jiqizhixin.com/search/articles/不只DeepSeek，阶跃等开",
+          "summary": "不只DeepSeek，阶跃等开源JetSpec：大模型解码提速近10倍...",
           "date": "2026-06-30",
-          "source": "量子位",
+          "source": "机器之心",
           "type": "industry",
           "tags": [
             "AI",
@@ -56,11 +56,11 @@
           ]
         },
         {
-          "title": "刚融了2亿美元，冲到了具身榜单第一",
-          "link": "https://www.qbitai.com/?s=刚融了2亿美元，冲到",
-          "summary": "刚融了2亿美元，冲到了具身榜单第一...",
+          "title": "LiveWorld：视频世界模型新范式，让镜头之外的世界继续演化",
+          "link": "https://www.jiqizhixin.com/search/articles/LiveWorld：视频世界模",
+          "summary": "LiveWorld：视频世界模型新范式，让镜头之外的世界继续演化...",
           "date": "2026-06-30",
-          "source": "量子位",
+          "source": "机器之心",
           "type": "industry",
           "tags": [
             "AI",

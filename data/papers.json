@@ -1,138 +1,104 @@
 {
-  "last_updated": "2026-06-30",
-  "count": 8,
+  "last_updated": "2026-07-01",
+  "count": 6,
   "items": [
     {
-      "title": "VLK: Learning Humanoid Loco-Manipulation from Synthetic Interactions in Reconstructed Scenes",
-      "authors": "Yen-Jen Wang, Jiaman Li, Sirui Chen et al.",
-      "abstract": "Perception-based humanoid loco-manipulation requires connecting egocentric observations and task instructions to whole-body motion. Learning this mapping requires synchronized egocentric images, language commands, and robot-compatible kinematic trajectories, yet no existing data source provides this...",
+      "title": "Introspective Coupling: Self-Explanation Training Tracks Behavioral Change Despite Fixed Supervision",
+      "authors": "Zifan Carl Guo, Laura Ruis, Jacob Andreas et al.",
+      "abstract": "When does training language models (LMs) to generate explanations of their predictions yield faithful introspection, rather than superficial imitation? We study LMs trained to explain which features of their inputs influenced their behavior, using models' counterfactual behavior on modified inputs a...",
       "venue": "arXiv",
-      "date": "2026-06-29",
-      "arxiv_id": "2606.30645v1",
-      "url": "https://arxiv.org/abs/2606.30645v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.30645v1.pdf",
+      "date": "2026-06-30",
+      "arxiv_id": "2606.32038v1",
+      "url": "https://arxiv.org/abs/2606.32038v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.32038v1.pdf",
       "categories": [
-        "cs.RO",
+        "cs.CL",
         "cs.AI",
-        "cs.GR"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "LeVo 2: Stable and Melodious Song Generation via Hierarchical Representation Modeling and Progressive Post-Training",
-      "authors": "Shun Lei, Huaicheng Zhang, Dapeng Wu et al.",
-      "abstract": "Full-length song generation must preserve coherence and musicality, render detailed vocal and accompaniment acoustics, and follow lyrics and prompts. Existing language model-based systems face a structural trade-off: mixed-token modeling preserves vocal-instrument coordination but obscures track-spe...",
-      "venue": "arXiv",
-      "date": "2026-06-29",
-      "arxiv_id": "2606.30642v1",
-      "url": "https://arxiv.org/abs/2606.30642v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.30642v1.pdf",
-      "categories": [
-        "cs.SD",
-        "cs.AI"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Self-Evolving World Models for LLM Agent Planning",
-      "authors": "Xuan Zhang, Wenxuan Zhang, See-Kiong Ng et al.",
-      "abstract": "World models offer a principled way to equip long-horizon LLM agents with foresight: predictions of action consequences before execution. However, unreliable foresight can be ignored, misused, or even degrade downstream decision-making. In this paper, we introduce WorldEvolver, a self-evolving world...",
-      "venue": "arXiv",
-      "date": "2026-06-29",
-      "arxiv_id": "2606.30639v1",
-      "url": "https://arxiv.org/abs/2606.30639v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.30639v1.pdf",
-      "categories": [
-        "cs.AI",
-        "cs.CL"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Scaling the Horizon, Not the Parameters: Reaching Trillion-Parameter Performance with a 35B Agent",
-      "authors": "Lei Bai, Zongsheng Cao, Yang Chen et al.",
-      "abstract": "We introduce Agents-A1, a 35B Mixture-of-Experts Agentic Model that reaches trillion-parameter-level performance by scaling the agent horizon. We investigate agent-horizon scaling from two perspectives: scaling long-horizon trajectories and scaling heterogeneous agent abilities. To support this goal...",
-      "venue": "arXiv",
-      "date": "2026-06-29",
-      "arxiv_id": "2606.30616v1",
-      "url": "https://arxiv.org/abs/2606.30616v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.30616v1.pdf",
-      "categories": [
-        "cs.CL"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Open-Vocabulary and Referring Segmentation for 3D Gaussians Using 2D Detectors",
-      "authors": "Jameel Hassan, Yasiru Ranasinghe, Vishal Patel",
-      "abstract": "3D Gaussian Splatting (3DGS) has emerged at the forefront of 3D scene reconstruction. Extending 3DGS with language-driven, open-vocabulary understanding has gained significant attention for real-world applications such as embodied AI. Recent methods achieve this by learning an instance feature attri...",
-      "venue": "arXiv",
-      "date": "2026-06-29",
-      "arxiv_id": "2606.30638v1",
-      "url": "https://arxiv.org/abs/2606.30638v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.30638v1.pdf",
-      "categories": [
-        "cs.CV"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "GROW$^2$: Grounding Which and Where for Robot Tool Use",
-      "authors": "Yuhong Deng, Yuyao Liu, David Hsu",
-      "abstract": "Can the robot use a plate to cut a cake if no knife is available? Tool use greatly expands robot capabilities, but to use tools creatively beyond their intended functions, the robot faces the challenge of $\\textit{open-world affordance grounding}$: select an open-category object to act as a tool and...",
-      "venue": "arXiv",
-      "date": "2026-06-29",
-      "arxiv_id": "2606.30632v1",
-      "url": "https://arxiv.org/abs/2606.30632v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.30632v1.pdf",
-      "categories": [
-        "cs.RO",
-        "cs.AI",
-        "cs.CV"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "One-Step Gradient Delay is Not a Barrier for Large-Scale Asynchronous Pipeline Parallel LLM Pretraining",
-      "authors": "Philip Zmushko, Egor Petrov, Nursultan Abdullaev et al.",
-      "abstract": "Modern large-scale LLM pretraining benefits from utilizing Pipeline Parallelism; however, synchronous implementations leave GPUs idle during pipeline bubbles, wasting computational resources. Asynchronous Pipeline Parallelism eliminates these bubbles, maximizing throughput at the cost of gradient st...",
-      "venue": "arXiv",
-      "date": "2026-06-29",
-      "arxiv_id": "2606.30634v1",
-      "url": "https://arxiv.org/abs/2606.30634v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.30634v1.pdf",
-      "categories": [
         "cs.LG"
       ],
-      "type": "ml",
+      "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Pessimism's Paradox: Conservative Offline Training Amplifies Reward Hacking During Online Adaptation in Reasoning Models",
-      "authors": "Subramanyam Sahoo, Aman Chadha, Vinija Jain et al.",
-      "abstract": "Conservative offline training is widely advocated as a safe foundation for subsequent online adaptation: if a policy stays close to well-supported behaviour, the argument goes, it is less likely to exploit imperfections in a learned reward model. We challenge this intuition empirically and mechanist...",
+      "title": "QVal: Cheaply Evaluating Dense Supervision Signals for Long-Horizon LLM Agents",
+      "authors": "Sergio Hernández-Gutiérrez, Matteo Merler, Ilze Amanda Auzina et al.",
+      "abstract": "LLM agents increasingly act over long horizons, where a single trajectory can contain hundreds or thousands of actions. In these settings, outcome-only rewards provide too sparse guidance, failing to inform the model about the goodness of intermediate actions. Dense supervision methods aim to solve ...",
       "venue": "arXiv",
-      "date": "2026-06-29",
-      "arxiv_id": "2606.30627v1",
-      "url": "https://arxiv.org/abs/2606.30627v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.30627v1.pdf",
+      "date": "2026-06-30",
+      "arxiv_id": "2606.32034v1",
+      "url": "https://arxiv.org/abs/2606.32034v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.32034v1.pdf",
       "categories": [
         "cs.LG",
         "cs.AI",
-        "stat.ML"
+        "cs.CL"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "FaceMoE: Mixture of Experts for Low-Resolution Face Recognition",
+      "authors": "Kartik Narayan, Vishal M. Patel",
+      "abstract": "Low-resolution face recognition (LR-FR) remains a challenging task due to poor feature extraction and aggregation, as probe images often contain limited identity information resulting from extreme degradations such as blur, occlusion, and low contrast. Additionally, the domain gap between high-resol...",
+      "venue": "arXiv",
+      "date": "2026-06-30",
+      "arxiv_id": "2606.32040v1",
+      "url": "https://arxiv.org/abs/2606.32040v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.32040v1.pdf",
+      "categories": [
+        "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "GEAR: Guided End-to-End AutoRegression for Image Synthesis",
+      "authors": "Bin Lin, Zheyuan Liu, Chenguo Lin et al.",
+      "abstract": "Visual generative models are typically trained in two stages. A tokenizer is first trained for reconstruction and then frozen, after which a generator is trained on its discrete indices or continuous latents. This decoupling leaves the tokenizer unaware of what the generator finds easy to model. We ...",
+      "venue": "arXiv",
+      "date": "2026-06-30",
+      "arxiv_id": "2606.32039v1",
+      "url": "https://arxiv.org/abs/2606.32039v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.32039v1.pdf",
+      "categories": [
+        "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "DVG-WM: Disentangled Video Generation Enables Efficient Embodied World Model for Robotic Manipulation",
+      "authors": "Ziyu Shan, Zhenyu Wu, Xiaofeng Wang et al.",
+      "abstract": "Video-based embodied world models provide an appealing substrate for robotic manipulation by predicting future states, yet current approaches remain limited by a fundamental entanglement: accurately modeling dynamics typically requires low-level temporal reasoning, while producing high-resolution fr...",
+      "venue": "arXiv",
+      "date": "2026-06-30",
+      "arxiv_id": "2606.32028v1",
+      "url": "https://arxiv.org/abs/2606.32028v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.32028v1.pdf",
+      "categories": [
+        "cs.RO"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Freeform Preference Learning for Robotic Manipulation",
+      "authors": "Marcel Torne, Anubha Mahajan, Abhijnya Bhat et al.",
+      "abstract": "Reward design remains a central bottleneck for autonomous robot policy improvement, especially in long-horizon manipulation tasks where sparse success labels provide too little signal and binary preferences collapse many competing notions of quality into one ambiguous signal. We introduce Freeform P...",
+      "venue": "arXiv",
+      "date": "2026-06-30",
+      "arxiv_id": "2606.32027v1",
+      "url": "https://arxiv.org/abs/2606.32027v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.32027v1.pdf",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.LG"
       ],
       "type": "ml",
       "badge": "arxiv",
