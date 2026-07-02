@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-07-02",
-  "count": 9,
+  "count": 7,
   "items": [
     {
       "title": "Measuring the Gap Between Human and LLM Research Ideas",
@@ -82,40 +82,6 @@
         "cs.CV"
       ],
       "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Group-invariant Coresets for Data-efficient Active Learning",
-      "authors": "L. C. Ayres, J. C. M. Bermudez, S. J. M. de Almeida et al.",
-      "abstract": "Active learning reduces labeling cost by querying the most informative unlabeled samples, but standard coreset methods ignore known data symmetries and can waste budget on transformed versions of the same instance. We propose GRINCO, a group-invariant coreset framework that performs acquisition in t...",
-      "venue": "arXiv",
-      "date": "2026-07-01",
-      "arxiv_id": "2607.01089v1",
-      "url": "https://arxiv.org/abs/2607.01089v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.01089v1.pdf",
-      "categories": [
-        "eess.IV",
-        "cs.LG"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Staleness-Learning Rate Scaling Laws for Asynchronous RLHF",
-      "authors": "Jingwei Song, Haofeng Xu, Jie Xiao et al.",
-      "abstract": "High-throughput RLHF systems often decouple rollout generation from policy optimization, leading to the use of stale rollouts during learner updates. In this work, we study the effect of such staleness in asynchronous GRPO. We make the behavior policy explicit in the GRPO surrogate objective and dis...",
-      "venue": "arXiv",
-      "date": "2026-07-01",
-      "arxiv_id": "2607.01083v1",
-      "url": "https://arxiv.org/abs/2607.01083v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.01083v1.pdf",
-      "categories": [
-        "cs.LG",
-        "cs.AI"
-      ],
-      "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     },
