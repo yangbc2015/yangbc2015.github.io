@@ -1,37 +1,52 @@
 {
-  "last_updated": "2026-07-01",
-  "count": 6,
+  "last_updated": "2026-07-02",
+  "count": 9,
   "items": [
     {
-      "title": "Introspective Coupling: Self-Explanation Training Tracks Behavioral Change Despite Fixed Supervision",
-      "authors": "Zifan Carl Guo, Laura Ruis, Jacob Andreas et al.",
-      "abstract": "When does training language models (LMs) to generate explanations of their predictions yield faithful introspection, rather than superficial imitation? We study LMs trained to explain which features of their inputs influenced their behavior, using models' counterfactual behavior on modified inputs a...",
+      "title": "Measuring the Gap Between Human and LLM Research Ideas",
+      "authors": "Ziyu Chen, Yilun Zhao, Arman Cohan",
+      "abstract": "LLMs are increasingly used to brainstorm research ideas, but existing evaluations mostly judge individual ideas by novelty, feasibility, or expert preference. We instead ask: how far are current LLM-generated ideas from human researchers? To characterize this gap, we build a large-scale evaluation f...",
       "venue": "arXiv",
-      "date": "2026-06-30",
-      "arxiv_id": "2606.32038v1",
-      "url": "https://arxiv.org/abs/2606.32038v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.32038v1.pdf",
+      "date": "2026-07-01",
+      "arxiv_id": "2607.01233v1",
+      "url": "https://arxiv.org/abs/2607.01233v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.01233v1.pdf",
       "categories": [
         "cs.CL",
-        "cs.AI",
-        "cs.LG"
+        "cs.AI"
       ],
       "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "QVal: Cheaply Evaluating Dense Supervision Signals for Long-Horizon LLM Agents",
-      "authors": "Sergio Hernández-Gutiérrez, Matteo Merler, Ilze Amanda Auzina et al.",
-      "abstract": "LLM agents increasingly act over long horizons, where a single trajectory can contain hundreds or thousands of actions. In these settings, outcome-only rewards provide too sparse guidance, failing to inform the model about the goodness of intermediate actions. Dense supervision methods aim to solve ...",
+      "title": "Language-Critique Imitation Learning from Suboptimal Demonstrations",
+      "authors": "Chih-Han Yang, Dai-Jie Wu, Yun-Ping Huang et al.",
+      "abstract": "Prior work on imitation learning from suboptimal demonstrations typically relies on compressed supervision signals such as confidence estimates, discriminator scores, or importance weights. These scalar signals are inherently limited, as they cannot explicitly express intermediate reasoning about ta...",
       "venue": "arXiv",
-      "date": "2026-06-30",
-      "arxiv_id": "2606.32034v1",
-      "url": "https://arxiv.org/abs/2606.32034v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.32034v1.pdf",
+      "date": "2026-07-01",
+      "arxiv_id": "2607.01225v1",
+      "url": "https://arxiv.org/abs/2607.01225v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.01225v1.pdf",
       "categories": [
         "cs.LG",
-        "cs.AI",
+        "cs.AI"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Is One Layer Enough? Training A Single Transformer Layer Can Match Full-Parameter RL Training",
+      "authors": "Zijian Zhang, Rizhen Hu, Athanasios Glentis et al.",
+      "abstract": "Reinforcement learning (RL) has become a central component of post-training large language models (LLMs), yet little is understood about how RL adaptation is distributed across transformer layers. Existing approaches typically update all model parameters uniformly, implicitly assuming that every lay...",
+      "venue": "arXiv",
+      "date": "2026-07-01",
+      "arxiv_id": "2607.01232v1",
+      "url": "https://arxiv.org/abs/2607.01232v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.01232v1.pdf",
+      "categories": [
+        "cs.LG",
         "cs.CL"
       ],
       "type": "nlp",
@@ -39,14 +54,30 @@
       "source": "arXiv"
     },
     {
-      "title": "FaceMoE: Mixture of Experts for Low-Resolution Face Recognition",
-      "authors": "Kartik Narayan, Vishal M. Patel",
-      "abstract": "Low-resolution face recognition (LR-FR) remains a challenging task due to poor feature extraction and aggregation, as probe images often contain limited identity information resulting from extreme degradations such as blur, occlusion, and low contrast. Additionally, the domain gap between high-resol...",
+      "title": "Ink3D: Sculpting 3D Assets with Extremely Complex Textures via Video Generative Models",
+      "authors": "Yue Han, Chong Li, Zhening Liu et al.",
+      "abstract": "Recent 3D generative models can synthesize high-quality geometry but often struggle to reproduce intricate textures from reference images, largely due to the scarcity of large-scale 3D training data with rich surface appearance. In contrast, visual generative models are trained on datasets several o...",
       "venue": "arXiv",
-      "date": "2026-06-30",
-      "arxiv_id": "2606.32040v1",
-      "url": "https://arxiv.org/abs/2606.32040v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.32040v1.pdf",
+      "date": "2026-07-01",
+      "arxiv_id": "2607.01222v1",
+      "url": "https://arxiv.org/abs/2607.01222v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.01222v1.pdf",
+      "categories": [
+        "cs.CV"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Linkify: Learning from Interface-Augmented Assembly Graphs",
+      "authors": "Anushrut Jignasu, Daniele Grandi",
+      "abstract": "We present Linkify, a framework for learning from interface-augmented assembly graphs to enable context-aware part retrieval in mechanical assemblies. While recent generative AI methods for CAD have focused largely on isolated parts or monolithic assemblies, the rich geometric information at the int...",
+      "venue": "arXiv",
+      "date": "2026-07-01",
+      "arxiv_id": "2607.01205v1",
+      "url": "https://arxiv.org/abs/2607.01205v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.01205v1.pdf",
       "categories": [
         "cs.CV"
       ],
@@ -55,48 +86,67 @@
       "source": "arXiv"
     },
     {
-      "title": "GEAR: Guided End-to-End AutoRegression for Image Synthesis",
-      "authors": "Bin Lin, Zheyuan Liu, Chenguo Lin et al.",
-      "abstract": "Visual generative models are typically trained in two stages. A tokenizer is first trained for reconstruction and then frozen, after which a generator is trained on its discrete indices or continuous latents. This decoupling leaves the tokenizer unaware of what the generator finds easy to model. We ...",
+      "title": "Group-invariant Coresets for Data-efficient Active Learning",
+      "authors": "L. C. Ayres, J. C. M. Bermudez, S. J. M. de Almeida et al.",
+      "abstract": "Active learning reduces labeling cost by querying the most informative unlabeled samples, but standard coreset methods ignore known data symmetries and can waste budget on transformed versions of the same instance. We propose GRINCO, a group-invariant coreset framework that performs acquisition in t...",
       "venue": "arXiv",
-      "date": "2026-06-30",
-      "arxiv_id": "2606.32039v1",
-      "url": "https://arxiv.org/abs/2606.32039v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.32039v1.pdf",
+      "date": "2026-07-01",
+      "arxiv_id": "2607.01089v1",
+      "url": "https://arxiv.org/abs/2607.01089v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.01089v1.pdf",
       "categories": [
-        "cs.CV"
+        "eess.IV",
+        "cs.LG"
       ],
-      "type": "vision",
+      "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "DVG-WM: Disentangled Video Generation Enables Efficient Embodied World Model for Robotic Manipulation",
-      "authors": "Ziyu Shan, Zhenyu Wu, Xiaofeng Wang et al.",
-      "abstract": "Video-based embodied world models provide an appealing substrate for robotic manipulation by predicting future states, yet current approaches remain limited by a fundamental entanglement: accurately modeling dynamics typically requires low-level temporal reasoning, while producing high-resolution fr...",
+      "title": "Staleness-Learning Rate Scaling Laws for Asynchronous RLHF",
+      "authors": "Jingwei Song, Haofeng Xu, Jie Xiao et al.",
+      "abstract": "High-throughput RLHF systems often decouple rollout generation from policy optimization, leading to the use of stale rollouts during learner updates. In this work, we study the effect of such staleness in asynchronous GRPO. We make the behavior policy explicit in the GRPO surrogate objective and dis...",
       "venue": "arXiv",
-      "date": "2026-06-30",
-      "arxiv_id": "2606.32028v1",
-      "url": "https://arxiv.org/abs/2606.32028v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.32028v1.pdf",
+      "date": "2026-07-01",
+      "arxiv_id": "2607.01083v1",
+      "url": "https://arxiv.org/abs/2607.01083v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.01083v1.pdf",
       "categories": [
-        "cs.RO"
+        "cs.LG",
+        "cs.AI"
       ],
-      "type": "vision",
+      "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Freeform Preference Learning for Robotic Manipulation",
-      "authors": "Marcel Torne, Anubha Mahajan, Abhijnya Bhat et al.",
-      "abstract": "Reward design remains a central bottleneck for autonomous robot policy improvement, especially in long-horizon manipulation tasks where sparse success labels provide too little signal and binary preferences collapse many competing notions of quality into one ambiguous signal. We introduce Freeform P...",
+      "title": "FurnitureVLA: Learning Long-Horizon Bimanual Furniture Assembly with Vision-Language-Action Model",
+      "authors": "Chenyang Ma, Yue Yang, Radu Corcodel et al.",
+      "abstract": "Current work on robot furniture assembly mostly focuses on toy-scale settings or single-arm manipulation. We introduce FurnitureVLA, the first systematic study of real-scale bimanual furniture assembly using Vision-Language-Action models (VLAs). We formalize the task, develop a scalable simulation p...",
       "venue": "arXiv",
-      "date": "2026-06-30",
-      "arxiv_id": "2606.32027v1",
-      "url": "https://arxiv.org/abs/2606.32027v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.32027v1.pdf",
+      "date": "2026-07-01",
+      "arxiv_id": "2607.01212v1",
+      "url": "https://arxiv.org/abs/2607.01212v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.01212v1.pdf",
       "categories": [
         "cs.RO",
+        "cs.AI"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "GPU-Parallel Linearization Error Bounds for Real-Time Robust Optimal Control of Nonlinear and Neural Network Dynamics",
+      "authors": "Jeffrey Fang, Keyi Shen, Anutam Srinivasan et al.",
+      "abstract": "This paper studies real-time robust optimal control for uncertain nonlinear systems, where linear time-varying (LTV) approximations make planning tractable but require sound linearization error bounds (LEBs) to guarantee robust constraint satisfaction. We develop tight, differentiable, GPU-parallel ...",
+      "venue": "arXiv",
+      "date": "2026-07-01",
+      "arxiv_id": "2607.01203v1",
+      "url": "https://arxiv.org/abs/2607.01203v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.01203v1.pdf",
+      "categories": [
+        "eess.SY",
         "cs.AI",
         "cs.LG"
       ],

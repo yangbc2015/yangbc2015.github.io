@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-07-01",
+  "last_updated": "2026-07-02",
   "count": 200,
   "items": [
     {
       "title": "[上纬新材CEO田华首谈 具 身 智 能：要造所有人买得起的个人机器人",
       "summary": "[上纬新材CEO田华首谈 具 身 智 能：要造所有人买得起的个人机器人",
       "url": "http://36kr.com/p/3877003233898501",
-      "date": "2026-07-01",
+      "date": "2026-07-02",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
@@ -18,7 +18,7 @@
       "title": "[具 身 智 能 和移动机器人，为什么今年都在工厂上强度",
       "summary": "[具 身 智 能 和移动机器人，为什么今年都在工厂上强度",
       "url": "http://36kr.com/p/3876567144706312",
-      "date": "2026-07-01",
+      "date": "2026-07-02",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
@@ -30,13 +30,93 @@
       "title": "[人形机器人降至万元级，上半年 具 身 智 能 融资超460亿元",
       "summary": "[人形机器人降至万元级，上半年 具 身 智 能 融资超460亿元",
       "url": "http://36kr.com/p/3871216256455938",
-      "date": "2026-07-01",
+      "date": "2026-07-02",
       "source": "36氪",
       "category": "具身智能",
       "type": "news",
       "tags": [
         "机器人",
         "人形机器人"
+      ]
+    },
+    {
+      "title": "ROSA: A Robotics Foundation Model Serving System for Robot Factories",
+      "summary": "Robotics foundation models (RFMs) are making general-purpose robots increasingly practical for factory deployments. While RFM serving systems are central to this vision, existing systems are largely shaped by a single-robot, single-model assumption: ...",
+      "url": "https://arxiv.org/abs/2607.01088v1",
+      "date": "2026-07-01",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2607.01088v1",
+      "authors": "Wenqi Jiang, Jason Clemons et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Where Am I? Semantic Map Grounding via Vision-Language Models for Multi-Modal Localization",
+      "summary": "We address robot localization in GPS-denied indoor environments by reframing it as a semantic reasoning task rather than a geometric estimation problem. Motivated by how humans localize using object-level cues and labeled maps, we ask whether a visio...",
+      "url": "https://arxiv.org/abs/2607.01079v1",
+      "date": "2026-07-01",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2607.01079v1",
+      "authors": "Suraj Borate, Aarav Shah et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Human-Centric Transferable Tactile Pre-Training for Dexterous Robotic Manipulation",
+      "summary": "As an essential modality for dexterous and contact-rich tasks, tactile sensing provides precise force feedback that cannot be reliably inferred from vision. However, limited by hardware and data collection systems, existing datasets with tactility re...",
+      "url": "https://arxiv.org/abs/2607.01067v1",
+      "date": "2026-07-01",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2607.01067v1",
+      "authors": "Chi Zhang, Penglin Cai et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "RoboWorld: Fast and Reliable Neural Simulators for Generalist Robot Policy Evaluation",
+      "summary": "Video world models are emerging as a scalable alternative for evaluating generalist robot policies, bypassing the physical constraints and engineering burdens of real-world deployment. However, evaluating policies with video world models remains chal...",
+      "url": "https://arxiv.org/abs/2607.01060v1",
+      "date": "2026-07-01",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2607.01060v1",
+      "authors": "Byeongguk Jeon, Seonghyeon Ye et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "AutoSpeed: Annotation-Free Stage-Adaptive Motion Speed Learning for Robot Manipulation",
+      "summary": "Different stages of manipulation tasks exhibit varying levels of difficulty, suggesting stage-dependent motion speeds and temporal prediction horizons. However, existing IL-based visuomotor policies typically imitate the execution speed of expert dem...",
+      "url": "https://arxiv.org/abs/2607.01051v1",
+      "date": "2026-07-01",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2607.01051v1",
+      "authors": "Qingda Hu, Ziheng Qiu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
       ]
     },
     {
@@ -62,6 +142,19 @@
       "tags": [
         "机器人",
         "自动驾驶"
+      ]
+    },
+    {
+      "title": "优艾智合通过具身智能系统全栈布局，率先跑通“技术－产品－商业”的闭环，将为行业规模化落地提供成熟范式。",
+      "summary": "优艾智合通过具身智能系统全栈布局，率先跑通“技术－产品－商业”的闭环，将为行业规模化落地提供成熟范式。",
+      "url": "http://36kr.com/p/3875046492165381",
+      "date": "2026-06-30",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
       ]
     },
     {
@@ -3009,102 +3102,6 @@
       "type": "paper",
       "arxiv_id": "2605.27365v1",
       "authors": "Shihao Wang, Shilong Liu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Riding the Shifting Potential: When Reactive Control Suffices for Multi-Goal Behavior",
-      "summary": "Reactive control is often considered insufficient for multi-objective tasks because conflicting objectives give rise to local minima. We argue this limitation is not inherent but arises from static encodings that fail to reflect how objectives curren...",
-      "url": "https://arxiv.org/abs/2605.27314v1",
-      "date": "2026-05-26",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.27314v1",
-      "authors": "Vito Mengers, Oliver Brock",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "FineVLA: Fine-Grained Instruction Alignment for Steerable Vision-Language-Action Policies",
-      "summary": "Vision-Language-Action (VLA) models are increasingly expected to not only complete robot tasks, but also follow human instructions about how those tasks should be executed. However, existing robot datasets usually pair trajectories with coarse goal-l...",
-      "url": "https://arxiv.org/abs/2605.27284v1",
-      "date": "2026-05-26",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.27284v1",
-      "authors": "Xintong Hu, Xuhong Huang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Towards Drone-based Mapping of Volcanic Gases using Gas Tomography",
-      "summary": "Volcanoes emit large amounts of CO2, directly influencing human lives. Mapping volcanic gas emissions helps to forecast eruptions and understand the impact of volcanoes on climate and the environment. Drone-based gas sensing significantly reduces ris...",
-      "url": "https://arxiv.org/abs/2605.27180v1",
-      "date": "2026-05-26",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.27180v1",
-      "authors": "Marius Schaab, Niklas Karbach et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "FoundObj: Self-supervised Foundation Models as Rewards for Label-free 3D Object Segmentation",
-      "summary": "We address the challenging task of 3D object segmentation in complex scene point clouds without relying on any scene-level human annotations during training. Existing methods are typically constrained to identifying simple objects, primarily due to i...",
-      "url": "https://arxiv.org/abs/2605.27178v1",
-      "date": "2026-05-26",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.27178v1",
-      "authors": "Zihui Zhang, Zhixuan Sun et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "AnyScene: Towards Highly Controllable Driving Scene Generation at Anywhere and Beyond",
-      "summary": "Generating high-fidelity and controllable synthetic data is critical for advancing end-to-end autonomous driving, particularly for addressing the long tail of rare safety-critical scenarios. Existing occupancy-guided methods typically rely on shallow...",
-      "url": "https://arxiv.org/abs/2605.26113v1",
-      "date": "2026-05-25",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.26113v1",
-      "authors": "Haiming Zhang, Junfei Zhou et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "MIND: Multi-Scale Intent Diffusion for Text-Driven Physics-Based Humanoid Control",
-      "summary": "Enabling physics-based humanoids to execute diverse behaviors from high-level textual commands remains a significant challenge. Existing methods typically follow either a two-stage paradigm that combines kinematic motion generation with physics-based...",
-      "url": "https://arxiv.org/abs/2605.26006v1",
-      "date": "2026-05-25",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.26006v1",
-      "authors": "Bin Li, Ruichi Zhang et al.",
       "tags": [
         "机器人学习",
         "研究论文",

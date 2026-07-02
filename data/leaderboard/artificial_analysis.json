@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-01T19:45:43.591102+00:00",
+  "last_updated": "2026-07-02T02:10:32.168517+00:00",
   "source": "Artificial Analysis",
   "source_url": "https://artificialanalysis.ai/leaderboards/models",
   "description": "综合AI模型性能排行榜，基于智能指数、价格、输出速度、上下文窗口等多维度指标对模型进行评测。",
@@ -42,18 +42,6 @@
     },
     {
       "rank": 12,
-      "model": "Claude Sonnet 4.6",
-      "organization": "Anthropic",
-      "intelligence_index": 0,
-      "price_per_1m_tokens": 0,
-      "speed_tokens_per_sec": 0,
-      "context_window": 0,
-      "trend": "same",
-      "is_open_weights": false,
-      "icon": "⚡"
-    },
-    {
-      "rank": 13,
       "model": "Gemini 3.1 Pro Preview",
       "organization": "Google",
       "intelligence_index": 0,
@@ -65,7 +53,7 @@
       "icon": "🤖"
     },
     {
-      "rank": 14,
+      "rank": 13,
       "model": "Qwen3.7 Max",
       "organization": "Alibaba",
       "intelligence_index": 0,
@@ -77,7 +65,7 @@
       "icon": "🌟"
     },
     {
-      "rank": 16,
+      "rank": 15,
       "model": "MiniMax-M3",
       "organization": "Unknown",
       "intelligence_index": 0,
@@ -89,7 +77,7 @@
       "icon": "🤖"
     },
     {
-      "rank": 17,
+      "rank": 16,
       "model": "DeepSeek V4 Pro",
       "organization": "DeepSeek",
       "intelligence_index": 0,
