@@ -27,6 +27,86 @@
       ]
     },
     {
+      "title": "HEFT: Heavy-Payload Full-size Humanoid Teleoperation with Privileged Motion Guidance and Windowed Payload Curriculum",
+      "summary": "General motion tracking and teleoperation offer a promising path to scalable humanoid skill acquisition, yet most existing frameworks are validated on compact platforms or without real payload interaction, leaving full-size humanoids with real payloa...",
+      "url": "https://arxiv.org/abs/2607.02332v1",
+      "date": "2026-07-02",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2607.02332v1",
+      "authors": "Chenxin Liu, Qingzhou Lu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "The Moving Eye: Enhancing VLA Spatial Generalization via Hybrid Dynamic Data Collection",
+      "summary": "Vision-Language-Action (VLA) models have shown remarkable promise in generalized robotic manipulation. However, their spatial generalization remains fragile. We argue that simply increasing the number of viewpoints is insufficient. Models often fall ...",
+      "url": "https://arxiv.org/abs/2607.02322v1",
+      "date": "2026-07-02",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2607.02322v1",
+      "authors": "Jincheng Tang, Yilong Zhu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Real-Time Visual Intelligence on Low-Cost UAVs: A Modular Approach for Tracking, Scanning, and Navigation",
+      "summary": "Autonomous drones are rapidly transforming modern warfare and civil applications alike. This paper presents the development of an integrated intelligent drone system designed to serve as a personal assistant. Leveraging the DJI Tello drone platform, ...",
+      "url": "https://arxiv.org/abs/2607.02298v1",
+      "date": "2026-07-02",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2607.02298v1",
+      "authors": "Andrei-Marian Ungureanu, Stelian Spînu",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "NEUROSYMLAND: Neuro-Symbolic Landing-Site Assessment for Robust and Edge-Deployable UAV Autonomy",
+      "summary": "Safe landing-site assessment in unstructured environments remains a key challenge for autonomous UAV deployment, as vision-only learning approaches often degrade under terrain variability and provide limited transparency in safety decisions. We prese...",
+      "url": "https://arxiv.org/abs/2607.02277v1",
+      "date": "2026-07-02",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2607.02277v1",
+      "authors": "Weixian Qian, Tianyi Yang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "CoFL-S: Spatially Queryable Sector Flow Fields for Local Language-Conditioned Navigation",
+      "summary": "Vision-Language Navigation has increasingly emphasized high-level instruction reasoning, memory, global map construction, and instruction decomposition, while the low-level action representation remains comparatively underexplored. We propose CoFL-S,...",
+      "url": "https://arxiv.org/abs/2607.02222v1",
+      "date": "2026-07-02",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2607.02222v1",
+      "authors": "Haokun Liu, Zhaoqi Ma et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
       "title": "[人形机器人降至万元级，上半年 具 身 智 能 融资超460亿元",
       "summary": "[人形机器人降至万元级，上半年 具 身 智 能 融资超460亿元",
       "url": "http://36kr.com/p/3871216256455938",
@@ -37,6 +117,19 @@
       "tags": [
         "机器人",
         "人形机器人"
+      ]
+    },
+    {
+      "title": "具身智能，看中了移动机器人的最大场景。",
+      "summary": "具身智能，看中了移动机器人的最大场景。",
+      "url": "http://36kr.com/p/3876567144706312",
+      "date": "2026-07-01",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
       ]
     },
     {
@@ -117,19 +210,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "具身智能，看中了移动机器人的最大场景。",
-      "summary": "具身智能，看中了移动机器人的最大场景。",
-      "url": "http://36kr.com/p/3876567144706312",
-      "date": "2026-07-01",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
       ]
     },
     {
@@ -3023,86 +3103,6 @@
       "tags": [
         "机器人",
         "具身智能"
-      ]
-    },
-    {
-      "title": "DynaFLIP: Rethinking Robotics Perception via Tri-Modal-Dynamics Guided Representation",
-      "summary": "Robot manipulation critically depends on perception that preserves the action-relevant aspects of a scene. Yet most robot learning pipelines are built upon visual encoders pre-trained for static recognition or vision-language alignment, leaving motio...",
-      "url": "https://arxiv.org/abs/2605.30350v1",
-      "date": "2026-05-28",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.30350v1",
-      "authors": "Jusuk Lee, Seungjae Lee et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Uncertainty-driven 3D Gaussian Splatting Active Mapping via Anisotropic Visibility Field",
-      "summary": "We present Gaussian Splatting Anisotropic Visibility Field (GAVIS), a novel framework for uncertainty quantification and active mapping in 3DGS. Our key insight is that regions unseen from the training views yield unreliable predictions from the 3DGS...",
-      "url": "https://arxiv.org/abs/2605.30342v1",
-      "date": "2026-05-28",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.30342v1",
-      "authors": "Shangjie Xue, Jesse Dill et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "RoboWits: Unexpected Challenges for Robotic Creative Problem Solving",
-      "summary": "The ability to reason, adapt, and creatively solve problems under unexpected challenges is essential for robots operating in real-world environments. However, current robotic benchmarks primarily emphasize skill-level execution and provide limited in...",
-      "url": "https://arxiv.org/abs/2605.30326v1",
-      "date": "2026-05-28",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.30326v1",
-      "authors": "Chunru Lin, Hongxin Zhang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "A Heterogeneous Architecture for Robot RL Beyond GPU-Dominant Paradigms",
-      "summary": "Simulation-based RL for contemporary robot control is increasingly organized around GPU-resident simulation: physics, rollout collection, and learning are placed on a single GPU-centric execution path. This paradigm has greatly improved training spee...",
-      "url": "https://arxiv.org/abs/2605.30313v1",
-      "date": "2026-05-28",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.30313v1",
-      "authors": "Yufei Jia, Zhanxiang Cao et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Gaze2Act: Gaze-Conditioned Vision-Language-Action Policies for Interactive Robot Manipulation",
-      "summary": "Vision-Language-Action (VLA) models have recently shown strong potential for robot learning by following language instructions. However, in practice, language alone is often insufficient to precisely convey human intent. It is difficult to describe w...",
-      "url": "https://arxiv.org/abs/2605.30282v1",
-      "date": "2026-05-28",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.30282v1",
-      "authors": "Kuangji Zuo, Gen Li et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
       ]
     }
   ]
