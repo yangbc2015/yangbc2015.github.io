@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-07-02",
+  "last_updated": "2026-07-03",
   "count": 200,
   "items": [
     {
       "title": "[上纬新材CEO田华首谈 具 身 智 能：要造所有人买得起的个人机器人",
       "summary": "[上纬新材CEO田华首谈 具 身 智 能：要造所有人买得起的个人机器人",
       "url": "http://36kr.com/p/3877003233898501",
-      "date": "2026-07-02",
+      "date": "2026-07-03",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
@@ -18,7 +18,7 @@
       "title": "[具 身 智 能 和移动机器人，为什么今年都在工厂上强度",
       "summary": "[具 身 智 能 和移动机器人，为什么今年都在工厂上强度",
       "url": "http://36kr.com/p/3876567144706312",
-      "date": "2026-07-02",
+      "date": "2026-07-03",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
@@ -117,6 +117,19 @@
         "机器人学习",
         "研究论文",
         "arXiv"
+      ]
+    },
+    {
+      "title": "具身智能，看中了移动机器人的最大场景。",
+      "summary": "具身智能，看中了移动机器人的最大场景。",
+      "url": "http://36kr.com/p/3876567144706312",
+      "date": "2026-07-01",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
       ]
     },
     {
@@ -3086,22 +3099,6 @@
       "type": "paper",
       "arxiv_id": "2605.30282v1",
       "authors": "Kuangji Zuo, Gen Li et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Beyond Binary: Sim-to-Real Dexterous Manipulation with Physics-Grounded Contact Representation",
-      "summary": "A primary bottleneck in contact-rich manipulation is the difficulty of collecting real-world data. Sim-to-real reinforcement learning offers a scalable alternative, but the simulation-reality gap prevents information-dense modalities like touch from ...",
-      "url": "https://arxiv.org/abs/2605.28812v1",
-      "date": "2026-05-27",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.28812v1",
-      "authors": "Jiahe Pan, Stelian Coros et al.",
       "tags": [
         "机器人学习",
         "研究论文",

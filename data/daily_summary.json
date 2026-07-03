@@ -1,6 +1,6 @@
 {
-  "date": "2026-07-02",
-  "last_updated": "2026-07-02",
+  "date": "2026-07-03",
+  "last_updated": "2026-07-03",
   "categories": {
     "ai": {
       "name": "人工智能",
@@ -8,11 +8,11 @@
       "count": 5,
       "items": [
         {
-          "title": "AI 硬件的终局不是比拼参数，而是比拼背后有没有一个真正的企业级 AI 协作平台",
-          "link": "https://www.qbitai.com/?s=AI 硬件的终局不是",
-          "summary": "AI 硬件的终局不是比拼参数，而是比拼背后有没有一个真正的企业级 AI 协作平台...",
+          "title": "Markdown Content:",
+          "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+          "summary": "Markdown Content:...",
           "date": "2026-07-02",
-          "source": "量子位",
+          "source": "机器之心",
           "type": "industry",
           "tags": [
             "AI",
@@ -20,11 +20,11 @@
           ]
         },
         {
-          "title": "OpenSquilla 上线后数周内 GitHub star 增至数千量级",
-          "link": "https://www.qbitai.com/?s=OpenSquill",
-          "summary": "OpenSquilla 上线后数周内 GitHub star 增至数千量级...",
+          "title": "行业智能体时代来临：出行、货运率先破局",
+          "link": "https://www.jiqizhixin.com/search/articles/行业智能体时代来临：出行、货运",
+          "summary": "行业智能体时代来临：出行、货运率先破局...",
           "date": "2026-07-02",
-          "source": "量子位",
+          "source": "机器之心",
           "type": "industry",
           "tags": [
             "AI",
@@ -32,39 +32,39 @@
           ]
         },
         {
-          "title": "Published Time: Thu, 08 May 2025 23:15:48 GMT",
-          "link": "https://techcrunch.com/category/artificial-intelligence/",
-          "summary": "Published Time: Thu, 08 May 2025 23:15:48 GMT...",
+          "title": "天工AI业务ARR突破8亿美元，向中国首个非BAT10亿美元ARR的AI公司迈进",
+          "link": "https://www.jiqizhixin.com/search/articles/天工AI业务ARR突破8亿美元",
+          "summary": "天工AI业务ARR突破8亿美元，向中国首个非BAT10亿美元ARR的AI公司迈进...",
           "date": "2026-07-02",
-          "source": "TechCrunch",
+          "source": "机器之心",
           "type": "industry",
           "tags": [
             "AI",
-            "Artificial Intelligence"
+            "人工智能"
           ]
         },
         {
-          "title": "*   [Latest](http://techcrunch.com/latest/)",
-          "link": "https://techcrunch.com/category/artificial-intelligence/",
-          "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
+          "title": "满分的「差」，Qwen与复旦等揭示编程智能体奖励设计的结构性困境",
+          "link": "https://www.jiqizhixin.com/search/articles/满分的「差」，Qwen与复旦等",
+          "summary": "满分的「差」，Qwen与复旦等揭示编程智能体奖励设计的结构性困境...",
           "date": "2026-07-02",
-          "source": "TechCrunch",
+          "source": "机器之心",
           "type": "industry",
           "tags": [
             "AI",
-            "Artificial Intelligence"
+            "人工智能"
           ]
         },
         {
-          "title": "*   [Startups](http://techcrunch.com/category/startups/)",
-          "link": "https://techcrunch.com/category/artificial-intelligence/",
-          "summary": "*   [Venture](http://techcrunch.com/category/venture/)",
+          "title": "怎么量化机器人数据价值？ATHENA将影响函数扩展到十亿参数VLA，313×加速筛选高价值数据",
+          "link": "https://www.jiqizhixin.com/search/articles/怎么量化机器人数据价值？ATH",
+          "summary": "怎么量化机器人数据价值？ATHENA将影响函数扩展到十亿参数VLA，313×加速筛选高价值数据...",
           "date": "2026-07-02",
-          "source": "TechCrunch",
+          "source": "机器之心",
           "type": "industry",
           "tags": [
             "AI",
-            "Artificial Intelligence"
+            "人工智能"
           ]
         }
       ]

@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-07-02",
+  "last_updated": "2026-07-03",
   "count": 200,
-  "history_count": 200,
+  "history_count": 205,
   "retention_days": 30,
   "items": [
     {
       "title": "AI 硬件的终局不是比拼参数，而是比拼背后有没有一个真正的企业级 AI 协作平台",
       "link": "https://www.qbitai.com/?s=AI 硬件的终局不是",
       "summary": "AI 硬件的终局不是比拼参数，而是比拼背后有没有一个真正的企业级 AI 协作平台...",
-      "date": "2026-07-02",
+      "date": "2026-07-03",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -20,7 +20,7 @@
       "title": "OpenSquilla 上线后数周内 GitHub star 增至数千量级",
       "link": "https://www.qbitai.com/?s=OpenSquill",
       "summary": "OpenSquilla 上线后数周内 GitHub star 增至数千量级...",
-      "date": "2026-07-02",
+      "date": "2026-07-03",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -32,12 +32,84 @@
       "title": "Published Time: Thu, 08 May 2025 23:15:48 GMT",
       "link": "https://techcrunch.com/category/artificial-intelligence/",
       "summary": "Published Time: Thu, 08 May 2025 23:15:48 GMT...",
-      "date": "2026-07-02",
+      "date": "2026-07-03",
       "source": "TechCrunch",
       "type": "industry",
       "tags": [
         "AI",
         "Artificial Intelligence"
+      ]
+    },
+    {
+      "title": "Markdown Content:",
+      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+      "summary": "Markdown Content:...",
+      "date": "2026-07-02",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "行业智能体时代来临：出行、货运率先破局",
+      "link": "https://www.jiqizhixin.com/search/articles/行业智能体时代来临：出行、货运",
+      "summary": "行业智能体时代来临：出行、货运率先破局...",
+      "date": "2026-07-02",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "天工AI业务ARR突破8亿美元，向中国首个非BAT10亿美元ARR的AI公司迈进",
+      "link": "https://www.jiqizhixin.com/search/articles/天工AI业务ARR突破8亿美元",
+      "summary": "天工AI业务ARR突破8亿美元，向中国首个非BAT10亿美元ARR的AI公司迈进...",
+      "date": "2026-07-02",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "满分的「差」，Qwen与复旦等揭示编程智能体奖励设计的结构性困境",
+      "link": "https://www.jiqizhixin.com/search/articles/满分的「差」，Qwen与复旦等",
+      "summary": "满分的「差」，Qwen与复旦等揭示编程智能体奖励设计的结构性困境...",
+      "date": "2026-07-02",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "怎么量化机器人数据价值？ATHENA将影响函数扩展到十亿参数VLA，313×加速筛选高价值数据",
+      "link": "https://www.jiqizhixin.com/search/articles/怎么量化机器人数据价值？ATH",
+      "summary": "怎么量化机器人数据价值？ATHENA将影响函数扩展到十亿参数VLA，313×加速筛选高价值数据...",
+      "date": "2026-07-02",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "UC伯克利麻了：生源太差，得从小学乘法开始教，微积分课被迫暂停",
+      "link": "https://www.jiqizhixin.com/search/articles/UC伯克利麻了：生源太差，得从",
+      "summary": "UC伯克利麻了：生源太差，得从小学乘法开始教，微积分课被迫暂停...",
+      "date": "2026-07-02",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
       ]
     },
     {
@@ -116,18 +188,6 @@
       "title": "从1.16万个项目中脱颖而出！智平方斩获广东“众创杯”第一名！彰显大湾区具身智能名片领跑实力",
       "link": "https://www.jiqizhixin.com/search/articles/从1.16万个项目中脱颖而出！",
       "summary": "从1.16万个项目中脱颖而出！智平方斩获广东“众创杯”第一名！彰显大湾区具身智能名片领跑实力...",
-      "date": "2026-07-01",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Markdown Content:",
-      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-      "summary": "Markdown Content:...",
       "date": "2026-07-01",
       "source": "机器之心",
       "type": "industry",
@@ -2338,66 +2398,6 @@
       "summary": "硅谷科技公司Q1裁员同比增长40%...",
       "date": "2026-06-07",
       "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "大三本科生，一块老泰坦，拿下CVPR最佳学生论文提名",
-      "link": "https://www.jiqizhixin.com/search/articles/大三本科生，一块老泰坦，拿下C",
-      "summary": "大三本科生，一块老泰坦，拿下CVPR最佳学生论文提名...",
-      "date": "2026-06-06",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "CVPR 2026｜LLM会写3D视觉代码吗？清华联合智源用GeoCodeBench给出答案",
-      "link": "https://www.jiqizhixin.com/search/articles/CVPR 2026｜LLM会写",
-      "summary": "CVPR 2026｜LLM会写3D视觉代码吗？清华联合智源用GeoCodeBench给出答案...",
-      "date": "2026-06-06",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "视频AI卷向5分钟：全量开源，一次生成，正式告别「盲盒抽卡」",
-      "link": "https://www.jiqizhixin.com/search/articles/视频AI卷向5分钟：全量开源，",
-      "summary": "视频AI卷向5分钟：全量开源，一次生成，正式告别「盲盒抽卡」...",
-      "date": "2026-06-06",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "DeepSeek V4做数学证明，500倍成本优势：智能体系统刷新多项纪录",
-      "link": "https://www.jiqizhixin.com/search/articles/DeepSeek V4做数学证",
-      "summary": "DeepSeek V4做数学证明，500倍成本优势：智能体系统刷新多项纪录...",
-      "date": "2026-06-06",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "大晓机器人联合南洋理工打通Physical AI全链路！PhysX-Omni补齐物理AI基建",
-      "link": "https://www.jiqizhixin.com/search/articles/大晓机器人联合南洋理工打通Ph",
-      "summary": "大晓机器人联合南洋理工打通Physical AI全链路！PhysX-Omni补齐物理AI基建...",
-      "date": "2026-06-06",
-      "source": "机器之心",
       "type": "industry",
       "tags": [
         "AI",
