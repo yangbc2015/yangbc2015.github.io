@@ -27,6 +27,86 @@
       ]
     },
     {
+      "title": "VT-WAM: Visual-Tactile World Action Model for Contact-Rich Manipulation",
+      "summary": "Contact-rich manipulation requires policies to react to local deformation, pressure, slip, and friction, yet these cues are temporally sparse and often invisible in visual observations. Existing visual-tactile policies usually feed tactile observatio...",
+      "url": "https://arxiv.org/abs/2607.02503v1",
+      "date": "2026-07-02",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2607.02503v1",
+      "authors": "Shuai Tian, Yupeng Zheng et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Embodied.cpp: A Portable Inference Runtime of Embodied AI Models on Heterogeneous Robots",
+      "summary": "Embodied AI models now span vision-language-action (VLA) models and world-action models (WAMs), but practical deployment remains fragmented across model-specific Python stacks, backend assumptions, and robot-side glue code, especially on heterogeneou...",
+      "url": "https://arxiv.org/abs/2607.02501v1",
+      "date": "2026-07-02",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2607.02501v1",
+      "authors": "Ling Xu, Chuyu Han et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Controllable Sim Agents with Behavior Latents",
+      "summary": "Realistic traffic simulation requires agents that imitate logged behavior and can also be steered along interpretable axes. Such controllability enables engineers to isolate variables, reproduce specific edge cases, and test autonomous systems withou...",
+      "url": "https://arxiv.org/abs/2607.02496v1",
+      "date": "2026-07-02",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2607.02496v1",
+      "authors": "Juanwu Lu, Junyu Zhu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "QuadRocket: An Aerial Robotic Testbed for Adaptive Thrust-Vector Control of Rocket-Like Vehicles",
+      "summary": "This paper presents QuadRocket, a quadrotor-based rocket prototype that provides a low-cost, low-risk platform for validating advanced thrust-vector control strategies for launch vehicle-type systems. The prototype consists of a cylindrical main body...",
+      "url": "https://arxiv.org/abs/2607.02474v1",
+      "date": "2026-07-02",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2607.02474v1",
+      "authors": "Pedro Santos, Joel Reis et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Learning Agile Intruder Interception using Differentiable Quadrotor Dynamics",
+      "summary": "This paper presents a methodology for learning a control policy to intercept an intruder using the 3D direction unit vector to the intruder and the interceptor state. Prior deep reinforcement learning approaches assume either relative position or dis...",
+      "url": "https://arxiv.org/abs/2607.02472v1",
+      "date": "2026-07-02",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2607.02472v1",
+      "authors": "Michael Anoruo, Xiaoyu Tian et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
       "title": "HEFT: Heavy-Payload Full-size Humanoid Teleoperation with Privileged Motion Guidance and Windowed Payload Curriculum",
       "summary": "General motion tracking and teleoperation offer a promising path to scalable humanoid skill acquisition, yet most existing frameworks are validated on compact platforms or without real payload interaction, leaving full-size humanoids with real payloa...",
       "url": "https://arxiv.org/abs/2607.02332v1",
@@ -3026,83 +3106,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "Batched Differentiable Rigid Body Dynamics in PyTorch for GPU-Accelerated Robot Learning",
-      "summary": "As robot control shifts toward large-scale reinforcement learning with in-loop dynamics computation, the community's reliance on CPU-bound libraries such as Pinocchio creates a throughput bottleneck in GPU-based training pipelines. We present BARD (B...",
-      "url": "https://arxiv.org/abs/2605.31481v1",
-      "date": "2026-05-29",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.31481v1",
-      "authors": "Yue Wang, Yanran Xu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "IDOL: Inverse-Dynamics-Guided Future Prediction for End-to-End Autonomous Driving",
-      "summary": "End-to-end autonomous driving has emerged as a compelling paradigm for learning planning directly from sensor observations, while recent world-model-based approaches further enrich this paradigm by enabling explicit reasoning about how the scene may ...",
-      "url": "https://arxiv.org/abs/2605.31476v1",
-      "date": "2026-05-29",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.31476v1",
-      "authors": "Chenghao Zhang, Timin Li et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "On-Device Robotic Planning: Eliminating Inference Redundancy for Efficient Decision-Making",
-      "summary": "Reasoning-based robotic policies using large language and vision-language models achieve strong semantic planning capabilities but mostly suffer from a high inference latency that limits practical real-time deployment. In this work, we observe that r...",
-      "url": "https://arxiv.org/abs/2605.31460v1",
-      "date": "2026-05-29",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.31460v1",
-      "authors": "Joonhee Lee, Hyunseung Shin et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Actuator-Aware Inverse Kinematics with Joint-Limit Admissibility for Torque-Controlled Redundant Robots",
-      "summary": "This paper proposes actuator-aware inverse kinematics for torque-controlled redundant robots under joint-limit constraints. In the considered architecture, the inverse-kinematic output is not merely a purely kinematic joint-velocity command; it is th...",
-      "url": "https://arxiv.org/abs/2605.31436v1",
-      "date": "2026-05-29",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.31436v1",
-      "authors": "Mohammad Dastranj, Mahdi Hejrati et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "本次CR 证书成功颁发，标志着聆动通用的具身智能通用机器人在安全性、可靠性、性能指标方面已超国家标准。",
-      "summary": "本次CR 证书成功颁发，标志着聆动通用的具身智能通用机器人在安全性、可靠性、性能指标方面已超国家标准。",
-      "url": "http://36kr.com/p/3828653712380552",
-      "date": "2026-05-28",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
       ]
     }
   ]

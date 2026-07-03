@@ -8,18 +8,6 @@
       "count": 5,
       "items": [
         {
-          "title": "Markdown Content:",
-          "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-          "summary": "Markdown Content:...",
-          "date": "2026-07-02",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
           "title": "行业智能体时代来临：出行、货运率先破局",
           "link": "https://www.jiqizhixin.com/search/articles/行业智能体时代来临：出行、货运",
           "summary": "行业智能体时代来临：出行、货运率先破局...",
@@ -59,6 +47,18 @@
           "title": "怎么量化机器人数据价值？ATHENA将影响函数扩展到十亿参数VLA，313×加速筛选高价值数据",
           "link": "https://www.jiqizhixin.com/search/articles/怎么量化机器人数据价值？ATH",
           "summary": "怎么量化机器人数据价值？ATHENA将影响函数扩展到十亿参数VLA，313×加速筛选高价值数据...",
+          "date": "2026-07-02",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "UC伯克利麻了：生源太差，得从小学乘法开始教，微积分课被迫暂停",
+          "link": "https://www.jiqizhixin.com/search/articles/UC伯克利麻了：生源太差，得从",
+          "summary": "UC伯克利麻了：生源太差，得从小学乘法开始教，微积分课被迫暂停...",
           "date": "2026-07-02",
           "source": "机器之心",
           "type": "industry",

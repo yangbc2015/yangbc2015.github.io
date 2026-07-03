@@ -1,52 +1,53 @@
 {
   "last_updated": "2026-07-03",
-  "count": 5,
+  "count": 7,
   "items": [
     {
-      "title": "Measuring the Gap Between Human and LLM Research Ideas",
-      "authors": "Ziyu Chen, Yilun Zhao, Arman Cohan",
-      "abstract": "LLMs are increasingly used to brainstorm research ideas, but existing evaluations mostly judge individual ideas by novelty, feasibility, or expert preference. We instead ask: how far are current LLM-generated ideas from human researchers? To characterize this gap, we build a large-scale evaluation f...",
+      "title": "Distributed Attacks in Persistent-State AI Control",
+      "authors": "Josh Hills, Ida Caspary, Asa Cooper Stickland",
+      "abstract": "As AI coding agents become more autonomous, they increasingly ship code iteratively, with the codebase persisting across sessions. This persistence creates a new attack surface: a misaligned or prompt-injected agent can distribute attacks across pull requests (PRs) and time its payload for the PR wi...",
       "venue": "arXiv",
-      "date": "2026-07-01",
-      "arxiv_id": "2607.01233v1",
-      "url": "https://arxiv.org/abs/2607.01233v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.01233v1.pdf",
+      "date": "2026-07-02",
+      "arxiv_id": "2607.02514v1",
+      "url": "https://arxiv.org/abs/2607.02514v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.02514v1.pdf",
+      "categories": [
+        "cs.AI"
+      ],
+      "type": "ai",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "LACUNA: A Testbed for Evaluating Localization Precision for LLM Unlearning",
+      "authors": "Matteo Boglioni, Thibault Rousset, Siva Reddy et al.",
+      "abstract": "LLMs memorize sensitive training data, including personally identifiable information (PII), creating a pressing need for reliable post hoc removal methods. Unlearning has emerged as a promising solution, with state-of-the-art(SOTA) methods often following a localize-first, unlearn-second paradigm th...",
+      "venue": "arXiv",
+      "date": "2026-07-02",
+      "arxiv_id": "2607.02513v1",
+      "url": "https://arxiv.org/abs/2607.02513v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.02513v1.pdf",
       "categories": [
         "cs.CL",
-        "cs.AI"
+        "cs.AI",
+        "cs.LG"
       ],
       "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Language-Critique Imitation Learning from Suboptimal Demonstrations",
-      "authors": "Chih-Han Yang, Dai-Jie Wu, Yun-Ping Huang et al.",
-      "abstract": "Prior work on imitation learning from suboptimal demonstrations typically relies on compressed supervision signals such as confidence estimates, discriminator scores, or importance weights. These scalar signals are inherently limited, as they cannot explicitly express intermediate reasoning about ta...",
+      "title": "Program-as-Weights: A Programming Paradigm for Fuzzy Functions",
+      "authors": "Wentao Zhang, Liliana Hotsko, Woojeong Kim et al.",
+      "abstract": "Many everyday programming tasks resist clean rule-based implementation, such as alerting on important log lines, repairing malformed JSON, or ranking search results by intent, and are increasingly outsourced to large language model APIs at the cost of locality, reproducibility, and price. We propose...",
       "venue": "arXiv",
-      "date": "2026-07-01",
-      "arxiv_id": "2607.01225v1",
-      "url": "https://arxiv.org/abs/2607.01225v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.01225v1.pdf",
+      "date": "2026-07-02",
+      "arxiv_id": "2607.02512v1",
+      "url": "https://arxiv.org/abs/2607.02512v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.02512v1.pdf",
       "categories": [
         "cs.LG",
-        "cs.AI"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Is One Layer Enough? Training A Single Transformer Layer Can Match Full-Parameter RL Training",
-      "authors": "Zijian Zhang, Rizhen Hu, Athanasios Glentis et al.",
-      "abstract": "Reinforcement learning (RL) has become a central component of post-training large language models (LLMs), yet little is understood about how RL adaptation is distributed across transformer layers. Existing approaches typically update all model parameters uniformly, implicitly assuming that every lay...",
-      "venue": "arXiv",
-      "date": "2026-07-01",
-      "arxiv_id": "2607.01232v1",
-      "url": "https://arxiv.org/abs/2607.01232v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.01232v1.pdf",
-      "categories": [
-        "cs.LG",
+        "cs.AI",
         "cs.CL"
       ],
       "type": "nlp",
@@ -54,32 +55,66 @@
       "source": "arXiv"
     },
     {
-      "title": "Ink3D: Sculpting 3D Assets with Extremely Complex Textures via Video Generative Models",
-      "authors": "Yue Han, Chong Li, Zhening Liu et al.",
-      "abstract": "Recent 3D generative models can synthesize high-quality geometry but often struggle to reproduce intricate textures from reference images, largely due to the scarcity of large-scale 3D training data with rich surface appearance. In contrast, visual generative models are trained on datasets several o...",
+      "title": "WorldDirector: Building Controllable World Simulators with Persistent Dynamic Memory",
+      "authors": "Hanlin Wang, Hao Ouyang, Qiuyu Wang et al.",
+      "abstract": "We present WorldDirector, a highly controllable video world model framework designed for persistent dynamic object memory and unrestricted viewpoint exploration. Unlike existing world models that entangle physical dynamics with pixel rendering and rely on continuous visual observation to sustain mot...",
       "venue": "arXiv",
-      "date": "2026-07-01",
-      "arxiv_id": "2607.01222v1",
-      "url": "https://arxiv.org/abs/2607.01222v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.01222v1.pdf",
+      "date": "2026-07-02",
+      "arxiv_id": "2607.02517v1",
+      "url": "https://arxiv.org/abs/2607.02517v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.02517v1.pdf",
       "categories": [
         "cs.CV"
       ],
-      "type": "nlp",
+      "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Linkify: Learning from Interface-Augmented Assembly Graphs",
-      "authors": "Anushrut Jignasu, Daniele Grandi",
-      "abstract": "We present Linkify, a framework for learning from interface-augmented assembly graphs to enable context-aware part retrieval in mechanical assemblies. While recent generative AI methods for CAD have focused largely on isolated parts or monolithic assemblies, the rich geometric information at the int...",
+      "title": "Alignment Is All You Need For X-to-4D Generation",
+      "authors": "Qiaowei Miao, Kehan Li, Yawei Luo et al.",
+      "abstract": "Generative diffusion models excel at synthesizing high-quality images, videos, and 3D content under multimodal control. However, arbitrary user-defined modality-to-4D (X-to-4D) generation remains challenging due to the high cost of constructing diverse datasets and the limited scalability of existin...",
       "venue": "arXiv",
-      "date": "2026-07-01",
-      "arxiv_id": "2607.01205v1",
-      "url": "https://arxiv.org/abs/2607.01205v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.01205v1.pdf",
+      "date": "2026-07-02",
+      "arxiv_id": "2607.02516v1",
+      "url": "https://arxiv.org/abs/2607.02516v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.02516v1.pdf",
       "categories": [
         "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "VT-WAM: Visual-Tactile World Action Model for Contact-Rich Manipulation",
+      "authors": "Shuai Tian, Yupeng Zheng, Yuhang Zheng et al.",
+      "abstract": "Contact-rich manipulation requires policies to react to local deformation, pressure, slip, and friction, yet these cues are temporally sparse and often invisible in visual observations. Existing visual-tactile policies usually feed tactile observations directly into action prediction, but rarely mod...",
+      "venue": "arXiv",
+      "date": "2026-07-02",
+      "arxiv_id": "2607.02503v1",
+      "url": "https://arxiv.org/abs/2607.02503v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.02503v1.pdf",
+      "categories": [
+        "cs.RO"
+      ],
+      "type": "ai",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Embodied.cpp: A Portable Inference Runtime of Embodied AI Models on Heterogeneous Robots",
+      "authors": "Ling Xu, Chuyu Han, Borui Li et al.",
+      "abstract": "Embodied AI models now span vision-language-action (VLA) models and world-action models (WAMs), but practical deployment remains fragmented across model-specific Python stacks, backend assumptions, and robot-side glue code, especially on heterogeneous edge devices. Existing inference runtimes are de...",
+      "venue": "arXiv",
+      "date": "2026-07-02",
+      "arxiv_id": "2607.02501v1",
+      "url": "https://arxiv.org/abs/2607.02501v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.02501v1.pdf",
+      "categories": [
+        "cs.RO",
+        "cs.CV",
+        "cs.OS"
       ],
       "type": "vision",
       "badge": "arxiv",
