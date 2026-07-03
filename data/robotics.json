@@ -3,6 +3,18 @@
   "count": 200,
   "items": [
     {
+      "title": "[三年死磕 具 身 智 能 大脑，若愚科技把机器人送进危险角落",
+      "summary": "[三年死磕 具 身 智 能 大脑，若愚科技把机器人送进危险角落",
+      "url": "http://36kr.com/p/3879575583322370",
+      "date": "2026-07-03",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
       "title": "[上纬新材CEO田华首谈 具 身 智 能：要造所有人买得起的个人机器人",
       "summary": "[上纬新材CEO田华首谈 具 身 智 能：要造所有人买得起的个人机器人",
       "url": "http://36kr.com/p/3877003233898501",
@@ -3086,22 +3098,6 @@
       "type": "paper",
       "arxiv_id": "2606.02510v1",
       "authors": "Xiang Xu, Alan Liang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Learning Controlled Separation of Small Objects Between Two Fingers with a Tactile Skin",
-      "summary": "We introduce and solve the novel task of controlled separation of small objects with two fingers of a multi-purpose robotic hand: after grasping into a box of small objects, the task is to drop as many of them until a desired number remains between t...",
-      "url": "https://arxiv.org/abs/2605.31486v1",
-      "date": "2026-05-29",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2605.31486v1",
-      "authors": "Ulf Kasolowsky, Berthold Bäuml",
       "tags": [
         "机器人学习",
         "研究论文",
