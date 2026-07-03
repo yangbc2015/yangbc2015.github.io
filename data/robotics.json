@@ -3,6 +3,18 @@
   "count": 200,
   "items": [
     {
+      "title": "[亮相上海国际 具 身 智 能 产业博览会，「女娲农业科技」发布新一代畜牧 具 身 智 能 机器人ELR",
+      "summary": "[亮相上海国际 具 身 智 能 产业博览会，「女娲农业科技」发布新一代畜牧 具 身 智 能 机器人ELR",
+      "url": "http://36kr.com/p/3879961980875015",
+      "date": "2026-07-03",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
       "title": "[三年死磕 具 身 智 能 大脑，若愚科技把机器人送进危险角落",
       "summary": "[三年死磕 具 身 智 能 大脑，若愚科技把机器人送进危险角落",
       "url": "http://36kr.com/p/3879575583322370",
@@ -3082,22 +3094,6 @@
       "type": "paper",
       "arxiv_id": "2606.02519v1",
       "authors": "Xiaobei Zhao, Xingqi Lyu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Not All Points Are Equal: Uncertainty-Aware 4D LiDAR Scene Synthesis",
-      "summary": "Constructing faithful 4D worlds from LiDAR-acquired sequences is crucial for embodied AI, yet current generative frameworks apply uniform modeling capacity across all spatial regions. This ignores that perceptual difficulty varies dramatically within...",
-      "url": "https://arxiv.org/abs/2606.02510v1",
-      "date": "2026-06-01",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.02510v1",
-      "authors": "Xiang Xu, Alan Liang et al.",
       "tags": [
         "机器人学习",
         "研究论文",
