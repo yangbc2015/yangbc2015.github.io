@@ -1,7 +1,23 @@
 {
   "last_updated": "2026-07-04",
-  "count": 2,
+  "count": 7,
   "items": [
+    {
+      "title": "Distributed Attacks in Persistent-State AI Control",
+      "authors": "Josh Hills, Ida Caspary, Asa Cooper Stickland",
+      "abstract": "As AI coding agents become more autonomous, they increasingly ship code iteratively, with the codebase persisting across sessions. This persistence creates a new attack surface: a misaligned or prompt-injected agent can distribute attacks across pull requests (PRs) and time its payload for the PR wi...",
+      "venue": "arXiv",
+      "date": "2026-07-02",
+      "arxiv_id": "2607.02514v1",
+      "url": "https://arxiv.org/abs/2607.02514v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.02514v1.pdf",
+      "categories": [
+        "cs.AI"
+      ],
+      "type": "ai",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
     {
       "title": "LACUNA: A Testbed for Evaluating Localization Precision for LLM Unlearning",
       "authors": "Matteo Boglioni, Thibault Rousset, Siva Reddy et al.",
@@ -35,6 +51,72 @@
         "cs.CL"
       ],
       "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "WorldDirector: Building Controllable World Simulators with Persistent Dynamic Memory",
+      "authors": "Hanlin Wang, Hao Ouyang, Qiuyu Wang et al.",
+      "abstract": "We present WorldDirector, a highly controllable video world model framework designed for persistent dynamic object memory and unrestricted viewpoint exploration. Unlike existing world models that entangle physical dynamics with pixel rendering and rely on continuous visual observation to sustain mot...",
+      "venue": "arXiv",
+      "date": "2026-07-02",
+      "arxiv_id": "2607.02517v1",
+      "url": "https://arxiv.org/abs/2607.02517v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.02517v1.pdf",
+      "categories": [
+        "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Alignment Is All You Need For X-to-4D Generation",
+      "authors": "Qiaowei Miao, Kehan Li, Yawei Luo et al.",
+      "abstract": "Generative diffusion models excel at synthesizing high-quality images, videos, and 3D content under multimodal control. However, arbitrary user-defined modality-to-4D (X-to-4D) generation remains challenging due to the high cost of constructing diverse datasets and the limited scalability of existin...",
+      "venue": "arXiv",
+      "date": "2026-07-02",
+      "arxiv_id": "2607.02516v1",
+      "url": "https://arxiv.org/abs/2607.02516v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.02516v1.pdf",
+      "categories": [
+        "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "VT-WAM: Visual-Tactile World Action Model for Contact-Rich Manipulation",
+      "authors": "Shuai Tian, Yupeng Zheng, Yuhang Zheng et al.",
+      "abstract": "Contact-rich manipulation requires policies to react to local deformation, pressure, slip, and friction, yet these cues are temporally sparse and often invisible in visual observations. Existing visual-tactile policies usually feed tactile observations directly into action prediction, but rarely mod...",
+      "venue": "arXiv",
+      "date": "2026-07-02",
+      "arxiv_id": "2607.02503v1",
+      "url": "https://arxiv.org/abs/2607.02503v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.02503v1.pdf",
+      "categories": [
+        "cs.RO"
+      ],
+      "type": "ai",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Embodied.cpp: A Portable Inference Runtime of Embodied AI Models on Heterogeneous Robots",
+      "authors": "Ling Xu, Chuyu Han, Borui Li et al.",
+      "abstract": "Embodied AI models now span vision-language-action (VLA) models and world-action models (WAMs), but practical deployment remains fragmented across model-specific Python stacks, backend assumptions, and robot-side glue code, especially on heterogeneous edge devices. Existing inference runtimes are de...",
+      "venue": "arXiv",
+      "date": "2026-07-02",
+      "arxiv_id": "2607.02501v1",
+      "url": "https://arxiv.org/abs/2607.02501v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.02501v1.pdf",
+      "categories": [
+        "cs.RO",
+        "cs.CV",
+        "cs.OS"
+      ],
+      "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     }
