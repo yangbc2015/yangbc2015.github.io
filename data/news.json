@@ -1,13 +1,37 @@
 {
   "last_updated": "2026-07-05",
   "count": 200,
-  "history_count": 200,
+  "history_count": 201,
   "retention_days": 30,
   "items": [
     {
       "title": "四年前LeCun提出JEPA时，大概不会想到，这套架构有一天会被用来理解：一颗细胞。",
       "link": "https://www.qbitai.com/?s=四年前LeCun提出",
       "summary": "四年前LeCun提出JEPA时，大概不会想到，这套架构有一天会被用来理解：一颗细胞。...",
+      "date": "2026-07-05",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "第三方测评超越OpenAI最强旗舰GPT-5.6 Sol",
+      "link": "https://www.qbitai.com/?s=第三方测评超越Ope",
+      "summary": "第三方测评超越OpenAI最强旗舰GPT-5.6 Sol...",
+      "date": "2026-07-05",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "与社区共同推进自演进智能体生态发展",
+      "link": "https://www.qbitai.com/?s=与社区共同推进自演进",
+      "summary": "与社区共同推进自演进智能体生态发展...",
       "date": "2026-07-05",
       "source": "量子位",
       "type": "industry",
@@ -118,18 +142,6 @@
       "summary": "GTC四大天王：成为黄仁勋座上宾的四位90后华人青年...",
       "date": "2026-07-03",
       "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "与社区共同推进自演进智能体生态发展",
-      "link": "https://www.qbitai.com/?s=与社区共同推进自演进",
-      "summary": "与社区共同推进自演进智能体生态发展...",
-      "date": "2026-07-03",
-      "source": "量子位",
       "type": "industry",
       "tags": [
         "AI",
@@ -2384,18 +2396,6 @@
       "title": "ICML 2026｜文生图模型也会「忘词」？复旦创智等提出Prompt Reinjection，无需训练提升文生图指令遵循能力",
       "link": "https://www.jiqizhixin.com/search/articles/ICML 2026｜文生图模型",
       "summary": "ICML 2026｜文生图模型也会「忘词」？复旦创智等提出Prompt Reinjection，无需训练提升文生图指令遵循能力...",
-      "date": "2026-06-08",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "腾讯打出企业Agent新底牌：WorkBuddy企业版抢占AI办公统一入口",
-      "link": "https://www.jiqizhixin.com/search/articles/腾讯打出企业Agent新底牌：",
-      "summary": "腾讯打出企业Agent新底牌：WorkBuddy企业版抢占AI办公统一入口...",
       "date": "2026-06-08",
       "source": "机器之心",
       "type": "industry",
