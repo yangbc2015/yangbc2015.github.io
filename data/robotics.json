@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-07-04",
+  "last_updated": "2026-07-05",
   "count": 200,
   "items": [
     {
       "title": "[亮相上海国际 具 身 智 能 产业博览会，「女娲农业科技」发布新一代畜牧 具 身 智 能 机器人ELR",
       "summary": "[亮相上海国际 具 身 智 能 产业博览会，「女娲农业科技」发布新一代畜牧 具 身 智 能 机器人ELR",
       "url": "http://36kr.com/p/3879961980875015",
-      "date": "2026-07-04",
+      "date": "2026-07-05",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
@@ -18,7 +18,7 @@
       "title": "[三年死磕 具 身 智 能 大脑，若愚科技把机器人送进危险角落",
       "summary": "[三年死磕 具 身 智 能 大脑，若愚科技把机器人送进危险角落",
       "url": "http://36kr.com/p/3879575583322370",
-      "date": "2026-07-04",
+      "date": "2026-07-05",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
@@ -55,6 +55,32 @@
       "summary": "[人形机器人降至万元级，上半年 具 身 智 能 融资超460亿元",
       "url": "http://36kr.com/p/3871216256455938",
       "date": "2026-07-04",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "人形机器人"
+      ]
+    },
+    {
+      "title": "具身智能的真正价值，是要成为人类能力的延伸。",
+      "summary": "具身智能的真正价值，是要成为人类能力的延伸。",
+      "url": "http://36kr.com/p/3879575583322370",
+      "date": "2026-07-03",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "将成为A股首家人形机器人上市公司。",
+      "summary": "将成为A股首家人形机器人上市公司。",
+      "url": "http://36kr.com/p/3879158039834629",
+      "date": "2026-07-03",
       "source": "36氪",
       "category": "具身智能",
       "type": "news",
@@ -3059,38 +3085,6 @@
       "type": "paper",
       "arxiv_id": "2606.02577v1",
       "authors": "Junjie Ye, Rong Xue et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Permissive Safety Through Trusted Inference: Verifiable Belief-Space Neural Safety Filters for Assured Interactive Robotics",
-      "summary": "Autonomous robots that interact with people must make safe and efficient decisions under human-induced uncertainty, such as their preferences, goals, competency, and willingness to cooperate. Safety filters are a popular approach for ensuring safety ...",
-      "url": "https://arxiv.org/abs/2606.02562v1",
-      "date": "2026-06-01",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.02562v1",
-      "authors": "Haimin Hu",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "AFUN: Towards an Affordance Foundation Model for Functionality Understanding",
-      "summary": "Affordance understanding bridges visual perception and physical action, serving as an explainable interface for robot manipulation in open and unstructured real-world environments. Yet, building an affordance foundation model that not only understand...",
-      "url": "https://arxiv.org/abs/2606.02551v1",
-      "date": "2026-06-01",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.02551v1",
-      "authors": "Zhaoning Wang, Yi Zhong et al.",
       "tags": [
         "机器人学习",
         "研究论文",
