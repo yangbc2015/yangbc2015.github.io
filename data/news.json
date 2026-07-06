@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-07-05",
+  "last_updated": "2026-07-06",
   "count": 200,
-  "history_count": 201,
+  "history_count": 205,
   "retention_days": 30,
   "items": [
     {
       "title": "四年前LeCun提出JEPA时，大概不会想到，这套架构有一天会被用来理解：一颗细胞。",
       "link": "https://www.qbitai.com/?s=四年前LeCun提出",
       "summary": "四年前LeCun提出JEPA时，大概不会想到，这套架构有一天会被用来理解：一颗细胞。...",
-      "date": "2026-07-05",
+      "date": "2026-07-06",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -20,7 +20,7 @@
       "title": "第三方测评超越OpenAI最强旗舰GPT-5.6 Sol",
       "link": "https://www.qbitai.com/?s=第三方测评超越Ope",
       "summary": "第三方测评超越OpenAI最强旗舰GPT-5.6 Sol...",
-      "date": "2026-07-05",
+      "date": "2026-07-06",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -32,7 +32,7 @@
       "title": "与社区共同推进自演进智能体生态发展",
       "link": "https://www.qbitai.com/?s=与社区共同推进自演进",
       "summary": "与社区共同推进自演进智能体生态发展...",
-      "date": "2026-07-05",
+      "date": "2026-07-06",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -44,7 +44,7 @@
       "title": "7月2日，2026科大讯飞智能交互生态发布会在深圳举行。",
       "link": "https://www.qbitai.com/?s=7月2日，2026科",
       "summary": "7月2日，2026科大讯飞智能交互生态发布会在深圳举行。...",
-      "date": "2026-07-05",
+      "date": "2026-07-06",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -56,7 +56,7 @@
       "title": "AI 硬件的终局不是比拼参数，而是比拼背后有没有一个真正的企业级 AI 协作平台",
       "link": "https://www.qbitai.com/?s=AI 硬件的终局不是",
       "summary": "AI 硬件的终局不是比拼参数，而是比拼背后有没有一个真正的企业级 AI 协作平台...",
-      "date": "2026-07-05",
+      "date": "2026-07-06",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -68,12 +68,84 @@
       "title": "Published Time: Thu, 08 May 2025 23:15:48 GMT",
       "link": "https://techcrunch.com/category/artificial-intelligence/",
       "summary": "Published Time: Thu, 08 May 2025 23:15:48 GMT...",
-      "date": "2026-07-05",
+      "date": "2026-07-06",
       "source": "TechCrunch",
       "type": "industry",
       "tags": [
         "AI",
         "Artificial Intelligence"
+      ]
+    },
+    {
+      "title": "Markdown Content:",
+      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+      "summary": "Markdown Content:...",
+      "date": "2026-07-05",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "Claude工程师终于交出Fable 5焚诀！教你打破和模型之间的信息差",
+      "link": "https://www.jiqizhixin.com/search/articles/Claude工程师终于交出Fa",
+      "summary": "Claude工程师终于交出Fable 5焚诀！教你打破和模型之间的信息差...",
+      "date": "2026-07-05",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "告别「碎片化」记忆：中科院开源轻量级内存原生Agent记忆系统Mandol",
+      "link": "https://www.jiqizhixin.com/search/articles/告别「碎片化」记忆：中科院开源",
+      "summary": "告别「碎片化」记忆：中科院开源轻量级内存原生Agent记忆系统Mandol...",
+      "date": "2026-07-05",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "清华特奖获得者顾煜贤，加入DeepSeek",
+      "link": "https://www.jiqizhixin.com/search/articles/清华特奖获得者顾煜贤，加入De",
+      "summary": "清华特奖获得者顾煜贤，加入DeepSeek...",
+      "date": "2026-07-05",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "Codex、ChatGPT为何合体？Codex未来何去何从？OpenAI核心leader回应一切",
+      "link": "https://www.jiqizhixin.com/search/articles/Codex、ChatGPT为何",
+      "summary": "Codex、ChatGPT为何合体？Codex未来何去何从？OpenAI核心leader回应一切...",
+      "date": "2026-07-05",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "ACL 2026｜块越大，推理越差？扩散语言模型的新难题被T*破解了",
+      "link": "https://www.jiqizhixin.com/search/articles/ACL 2026｜块越大，推理",
+      "summary": "ACL 2026｜块越大，推理越差？扩散语言模型的新难题被T*破解了...",
+      "date": "2026-07-05",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
       ]
     },
     {
@@ -104,18 +176,6 @@
       "title": "Fable 5解题解到破防，一句「啊啊啊」刷屏了",
       "link": "https://www.jiqizhixin.com/search/articles/Fable 5解题解到破防，一",
       "summary": "Fable 5解题解到破防，一句「啊啊啊」刷屏了...",
-      "date": "2026-07-03",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Markdown Content:",
-      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-      "summary": "Markdown Content:...",
       "date": "2026-07-03",
       "source": "机器之心",
       "type": "industry",
@@ -2337,66 +2397,6 @@
       "link": "https://www.jiqizhixin.com/search/articles/OpenAI科学家Noam B",
       "summary": "OpenAI科学家Noam Brown：AI的真正上限，可能根本没人测得起...",
       "date": "2026-06-09",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "当线性注意力学会「写入前思考」：并行化的多步记忆写入",
-      "link": "https://www.jiqizhixin.com/search/articles/当线性注意力学会「写入前思考」",
-      "summary": "当线性注意力学会「写入前思考」：并行化的多步记忆写入...",
-      "date": "2026-06-09",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "与爱为舞亮相腾讯云AI产业应用大会，深耕教育大模型，打造下一代学习Agent",
-      "link": "https://www.jiqizhixin.com/search/articles/与爱为舞亮相腾讯云AI产业应用",
-      "summary": "与爱为舞亮相腾讯云AI产业应用大会，深耕教育大模型，打造下一代学习Agent...",
-      "date": "2026-06-09",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "合合信息获 CVPR 2026 NTIRE“反光去除”赛道全球冠军",
-      "link": "https://www.jiqizhixin.com/search/articles/合合信息获 CVPR 2026",
-      "summary": "合合信息获 CVPR 2026 NTIRE“反光去除”赛道全球冠军...",
-      "date": "2026-06-09",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "我们把ACL 2026最具启发性的论文作者请到了北京",
-      "link": "https://www.jiqizhixin.com/search/articles/我们把ACL 2026最具启发",
-      "summary": "我们把ACL 2026最具启发性的论文作者请到了北京...",
-      "date": "2026-06-08",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "ICML 2026｜文生图模型也会「忘词」？复旦创智等提出Prompt Reinjection，无需训练提升文生图指令遵循能力",
-      "link": "https://www.jiqizhixin.com/search/articles/ICML 2026｜文生图模型",
-      "summary": "ICML 2026｜文生图模型也会「忘词」？复旦创智等提出Prompt Reinjection，无需训练提升文生图指令遵循能力...",
-      "date": "2026-06-08",
       "source": "机器之心",
       "type": "industry",
       "tags": [
