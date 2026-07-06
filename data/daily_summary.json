@@ -8,18 +8,6 @@
       "count": 5,
       "items": [
         {
-          "title": "Markdown Content:",
-          "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-          "summary": "Markdown Content:...",
-          "date": "2026-07-05",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
           "title": "Claude工程师终于交出Fable 5焚诀！教你打破和模型之间的信息差",
           "link": "https://www.jiqizhixin.com/search/articles/Claude工程师终于交出Fa",
           "summary": "Claude工程师终于交出Fable 5焚诀！教你打破和模型之间的信息差...",
@@ -59,6 +47,18 @@
           "title": "Codex、ChatGPT为何合体？Codex未来何去何从？OpenAI核心leader回应一切",
           "link": "https://www.jiqizhixin.com/search/articles/Codex、ChatGPT为何",
           "summary": "Codex、ChatGPT为何合体？Codex未来何去何从？OpenAI核心leader回应一切...",
+          "date": "2026-07-05",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "ACL 2026｜块越大，推理越差？扩散语言模型的新难题被T*破解了",
+          "link": "https://www.jiqizhixin.com/search/articles/ACL 2026｜块越大，推理",
+          "summary": "ACL 2026｜块越大，推理越差？扩散语言模型的新难题被T*破解了...",
           "date": "2026-07-05",
           "source": "机器之心",
           "type": "industry",
