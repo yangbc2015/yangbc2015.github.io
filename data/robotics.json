@@ -3,15 +3,16 @@
   "count": 200,
   "items": [
     {
-      "title": "[具 身 智 能 和移动机器人，为什么今年都在工厂上强度",
-      "summary": "[具 身 智 能 和移动机器人，为什么今年都在工厂上强度",
-      "url": "http://36kr.com/p/3876567144706312",
+      "title": "[征程赶超｜WAIC 2026 具 身 智 能：万台量产、路线归一，解码具身三大产业命题",
+      "summary": "[征程赶超｜WAIC 2026 具 身 智 能：万台量产、路线归一，解码具身三大产业命题",
+      "url": "http://36kr.com/p/3883529657462790",
       "date": "2026-07-06",
       "source": "36氪",
-      "category": "机器人",
+      "category": "具身智能",
       "type": "news",
       "tags": [
-        "机器人"
+        "机器人",
+        "具身智能"
       ]
     },
     {
@@ -30,6 +31,18 @@
       "title": "[三年死磕 具 身 智 能 大脑，若愚科技把机器人送进危险角落",
       "summary": "[三年死磕 具 身 智 能 大脑，若愚科技把机器人送进危险角落",
       "url": "http://36kr.com/p/3879575583322370",
+      "date": "2026-07-06",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
+      "title": "[具 身 智 能 和移动机器人，为什么今年都在工厂上强度",
+      "summary": "[具 身 智 能 和移动机器人，为什么今年都在工厂上强度",
+      "url": "http://36kr.com/p/3876567144706312",
       "date": "2026-07-06",
       "source": "36氪",
       "category": "机器人",
@@ -3073,22 +3086,6 @@
       "tags": [
         "机器人",
         "具身智能"
-      ]
-    },
-    {
-      "title": "RoboDream: Compositional World Models for Scalable Robot Data Synthesis",
-      "summary": "Scaling robot learning requires large-scale, diverse demonstrations, yet real-world data collection via teleoperation remains prohibitively expensive and time-consuming. While video diffusion models offer a promising avenue for data scaling, existing...",
-      "url": "https://arxiv.org/abs/2606.02577v1",
-      "date": "2026-06-01",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.02577v1",
-      "authors": "Junjie Ye, Rong Xue et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
       ]
     }
   ]

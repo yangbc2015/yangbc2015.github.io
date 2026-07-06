@@ -1,9 +1,21 @@
 {
   "last_updated": "2026-07-06",
   "count": 200,
-  "history_count": 200,
+  "history_count": 201,
   "retention_days": 30,
   "items": [
+    {
+      "title": "70年前，香农就拥有了端侧私人定制大语言模型",
+      "link": "https://www.qbitai.com/?s=70年前，香农就拥有",
+      "summary": "70年前，香农就拥有了端侧私人定制大语言模型...",
+      "date": "2026-07-06",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
     {
       "title": "四年前LeCun提出JEPA时，大概不会想到，这套架构有一天会被用来理解：一颗细胞。",
       "link": "https://www.qbitai.com/?s=四年前LeCun提出",
@@ -17,6 +29,18 @@
       ]
     },
     {
+      "title": "*   [Latest](http://techcrunch.com/latest/)",
+      "link": "https://techcrunch.com/category/artificial-intelligence/",
+      "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
+      "date": "2026-07-06",
+      "source": "TechCrunch",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "Artificial Intelligence"
+      ]
+    },
+    {
       "title": "7月2日，2026科大讯飞智能交互生态发布会在深圳举行。",
       "link": "https://www.qbitai.com/?s=7月2日，2026科",
       "summary": "7月2日，2026科大讯飞智能交互生态发布会在深圳举行。...",
@@ -26,18 +50,6 @@
       "tags": [
         "AI",
         "人工智能"
-      ]
-    },
-    {
-      "title": "Published Time: Thu, 08 May 2025 23:15:48 GMT",
-      "link": "https://techcrunch.com/category/artificial-intelligence/",
-      "summary": "Published Time: Thu, 08 May 2025 23:15:48 GMT...",
-      "date": "2026-07-06",
-      "source": "TechCrunch",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "Artificial Intelligence"
       ]
     },
     {
@@ -2384,18 +2396,6 @@
       "title": "完成亿元天使系列融资，华超神控BCI-Sonics加速打造新一代AI超声脑机接口平台",
       "link": "https://www.jiqizhixin.com/search/articles/完成亿元天使系列融资，华超神控",
       "summary": "完成亿元天使系列融资，华超神控BCI-Sonics加速打造新一代AI超声脑机接口平台...",
-      "date": "2026-06-09",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "OpenAI科学家Noam Brown：AI的真正上限，可能根本没人测得起",
-      "link": "https://www.jiqizhixin.com/search/articles/OpenAI科学家Noam B",
-      "summary": "OpenAI科学家Noam Brown：AI的真正上限，可能根本没人测得起...",
       "date": "2026-06-09",
       "source": "机器之心",
       "type": "industry",
