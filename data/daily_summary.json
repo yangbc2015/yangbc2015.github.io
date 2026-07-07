@@ -8,6 +8,18 @@
       "count": 5,
       "items": [
         {
+          "title": "Published Time: Thu, 08 May 2025 23:15:48 GMT",
+          "link": "https://techcrunch.com/category/artificial-intelligence/",
+          "summary": "Published Time: Thu, 08 May 2025 23:15:48 GMT...",
+          "date": "2026-07-07",
+          "source": "TechCrunch",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "Artificial Intelligence"
+          ]
+        },
+        {
           "title": "*   [Latest](http://techcrunch.com/latest/)",
           "link": "https://techcrunch.com/category/artificial-intelligence/",
           "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
@@ -47,18 +59,6 @@
           "title": "*   [Apple](http://techcrunch.com/tag/apple/)",
           "link": "https://techcrunch.com/category/artificial-intelligence/",
           "summary": "*   [Security](http://techcrunch.com/category/security/)",
-          "date": "2026-07-07",
-          "source": "TechCrunch",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "Artificial Intelligence"
-          ]
-        },
-        {
-          "title": "*   [Security](http://techcrunch.com/category/security/)",
-          "link": "https://techcrunch.com/category/artificial-intelligence/",
-          "summary": "*   [AI](http://techcrunch.com/category/artificial-intelligence/)",
           "date": "2026-07-07",
           "source": "TechCrunch",
           "type": "industry",
