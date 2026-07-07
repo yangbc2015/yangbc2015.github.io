@@ -5,6 +5,20 @@
   "retention_count": 200,
   "items": [
     {
+      "title": "3Blue1Brown: 深度学习之神经网络",
+      "speaker": "3Blue1Brown",
+      "description": "用精美动画解释神经网络的工作原理",
+      "duration": "19:15",
+      "views": "3.1M",
+      "platform": "youtube",
+      "video_id": "aircAruvnKk",
+      "url": "https://www.youtube.com/watch?v=aircAruvnKk",
+      "thumbnail": "https://img.youtube.com/vi/aircAruvnKk/mqdefault.jpg",
+      "type": "lecture",
+      "category": "技术讲座",
+      "date": "2026-07-06"
+    },
+    {
       "title": "GPT-4 技术原理解析",
       "speaker": "OpenAI",
       "description": "深入理解 GPT-4 的架构和训练方法",
@@ -31,7 +45,7 @@
       "type": "course",
       "category": "精品课程",
       "featured": true,
-      "date": "2026-07-06"
+      "date": "2026-07-05"
     },
     {
       "title": "AI Agent 架构设计模式",
@@ -45,7 +59,7 @@
       "thumbnail": "https://img.youtube.com/vi/mFMBb8Xw6yQ/mqdefault.jpg",
       "type": "tutorial",
       "category": "AI教程",
-      "date": "2026-07-06"
+      "date": "2026-07-05"
     },
     {
       "title": "Vision Transformer 详解",
@@ -76,31 +90,31 @@
       "date": "2026-07-05"
     },
     {
-      "title": "LLaMA 3 开源大模型解读",
+      "title": "BERT 模型详解与应用",
       "speaker": "Yannic Kilcher",
-      "description": "Meta LLaMA 3 架构详解与性能分析",
-      "duration": "45:30",
-      "views": "678K",
+      "description": "深入理解 BERT 预训练模型及其应用",
+      "duration": "28:45",
+      "views": "890K",
       "platform": "youtube",
-      "video_id": "K5Vxf8rVGWk",
-      "url": "https://www.youtube.com/watch?v=K5Vxf8rVGWk",
-      "thumbnail": "https://img.youtube.com/vi/K5Vxf8rVGWk/mqdefault.jpg",
+      "video_id": "xI0HHN5XKDo",
+      "url": "https://www.youtube.com/watch?v=xI0HHN5XKDo",
+      "thumbnail": "https://img.youtube.com/vi/xI0HHN5XKDo/mqdefault.jpg",
       "type": "lecture",
-      "category": "前沿技术",
+      "category": "技术讲座",
       "date": "2026-07-04"
     },
     {
-      "title": "强化学习入门: Q-Learning",
-      "speaker": "Sentdex",
-      "description": "从零开始学习强化学习基础",
-      "duration": "15:30",
-      "views": "456K",
+      "title": "Transformer 注意力机制详解",
+      "speaker": "Yannic Kilcher",
+      "description": "深入解析 Transformer 架构的核心机制",
+      "duration": "32:15",
+      "views": "1.2M",
       "platform": "youtube",
-      "video_id": "yMk_XtIEzH8",
-      "url": "https://www.youtube.com/watch?v=yMk_XtIEzH8",
-      "thumbnail": "https://img.youtube.com/vi/yMk_XtIEzH8/mqdefault.jpg",
-      "type": "tutorial",
-      "category": "AI教程",
+      "video_id": "iDulhoQ2pro",
+      "url": "https://www.youtube.com/watch?v=iDulhoQ2pro",
+      "thumbnail": "https://img.youtube.com/vi/iDulhoQ2pro/mqdefault.jpg",
+      "type": "lecture",
+      "category": "技术讲座",
       "date": "2026-07-04"
     },
     {
@@ -118,17 +132,17 @@
       "date": "2026-07-04"
     },
     {
-      "title": "BERT 模型详解与应用",
+      "title": "LLaMA 3 开源大模型解读",
       "speaker": "Yannic Kilcher",
-      "description": "深入理解 BERT 预训练模型及其应用",
-      "duration": "28:45",
-      "views": "890K",
+      "description": "Meta LLaMA 3 架构详解与性能分析",
+      "duration": "45:30",
+      "views": "678K",
       "platform": "youtube",
-      "video_id": "xI0HHN5XKDo",
-      "url": "https://www.youtube.com/watch?v=xI0HHN5XKDo",
-      "thumbnail": "https://img.youtube.com/vi/xI0HHN5XKDo/mqdefault.jpg",
+      "video_id": "K5Vxf8rVGWk",
+      "url": "https://www.youtube.com/watch?v=K5Vxf8rVGWk",
+      "thumbnail": "https://img.youtube.com/vi/K5Vxf8rVGWk/mqdefault.jpg",
       "type": "lecture",
-      "category": "技术讲座",
+      "category": "前沿技术",
       "date": "2026-07-03"
     },
     {
@@ -160,18 +174,18 @@
       "date": "2026-07-02"
     },
     {
-      "title": "Transformer 注意力机制详解",
-      "speaker": "Yannic Kilcher",
-      "description": "深入解析 Transformer 架构的核心机制",
-      "duration": "32:15",
-      "views": "1.2M",
+      "title": "强化学习入门: Q-Learning",
+      "speaker": "Sentdex",
+      "description": "从零开始学习强化学习基础",
+      "duration": "15:30",
+      "views": "456K",
       "platform": "youtube",
-      "video_id": "iDulhoQ2pro",
-      "url": "https://www.youtube.com/watch?v=iDulhoQ2pro",
-      "thumbnail": "https://img.youtube.com/vi/iDulhoQ2pro/mqdefault.jpg",
-      "type": "lecture",
-      "category": "技术讲座",
-      "date": "2026-07-02"
+      "video_id": "yMk_XtIEzH8",
+      "url": "https://www.youtube.com/watch?v=yMk_XtIEzH8",
+      "thumbnail": "https://img.youtube.com/vi/yMk_XtIEzH8/mqdefault.jpg",
+      "type": "tutorial",
+      "category": "AI教程",
+      "date": "2026-07-01"
     },
     {
       "title": "LoRA: 大模型高效微调技术",
@@ -229,20 +243,6 @@
       "thumbnail": "https://img.youtube.com/vi/AgpeggCsRH4/mqdefault.jpg",
       "type": "lecture",
       "category": "技术讲座"
-    },
-    {
-      "title": "3Blue1Brown: 深度学习之神经网络",
-      "speaker": "3Blue1Brown",
-      "description": "用精美动画解释神经网络的工作原理",
-      "duration": "19:15",
-      "views": "3.1M",
-      "platform": "youtube",
-      "video_id": "aircAruvnKk",
-      "url": "https://www.youtube.com/watch?v=aircAruvnKk",
-      "thumbnail": "https://img.youtube.com/vi/aircAruvnKk/mqdefault.jpg",
-      "type": "lecture",
-      "category": "技术讲座",
-      "date": "2026-06-30"
     },
     {
       "title": "动手学深度学习 PyTorch版",
