@@ -3,18 +3,6 @@
   "count": 200,
   "items": [
     {
-      "title": "[具 身 智 能 和移动机器人，为什么今年都在工厂上强度",
-      "summary": "[具 身 智 能 和移动机器人，为什么今年都在工厂上强度",
-      "url": "http://36kr.com/p/3876567144706312",
-      "date": "2026-07-07",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
-      ]
-    },
-    {
       "title": "[征程赶超｜WAIC 2026 具 身 智 能：万台量产、路线归一，解码具身三大产业命题",
       "summary": "[征程赶超｜WAIC 2026 具 身 智 能：万台量产、路线归一，解码具身三大产业命题",
       "url": "http://36kr.com/p/3883529657462790",
@@ -49,6 +37,98 @@
       "type": "news",
       "tags": [
         "机器人"
+      ]
+    },
+    {
+      "title": "[具 身 智 能 和移动机器人，为什么今年都在工厂上强度",
+      "summary": "[具 身 智 能 和移动机器人，为什么今年都在工厂上强度",
+      "url": "http://36kr.com/p/3876567144706312",
+      "date": "2026-07-07",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
+      "title": "From Fixed to Free Cameras: Calibration-Free View-Robust Vision-Language-Action Model",
+      "summary": "Real-world robot deployment rarely maintains the training-stage camera setup, where cameras often experience repositioning or remounting depending on actual scenarios. Existing view-robust Vision-Language-Action (VLA) policies tolerate such camera va...",
+      "url": "https://arxiv.org/abs/2607.05396v1",
+      "date": "2026-07-06",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2607.05396v1",
+      "authors": "Wenhao Li, Xueying Jiang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "LLM-as-a-Verifier: A General-Purpose Verification Framework",
+      "summary": "Scaling pre-training, post-training, and test-time compute have become the central paradigms for improving the capabilities of LLMs. In this work, we identify verification, the ability to determine the correctness of a solution, as a new scaling axis...",
+      "url": "https://arxiv.org/abs/2607.05391v1",
+      "date": "2026-07-06",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2607.05391v1",
+      "authors": "Jacky Kwok, Shulu Li et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Deform360: A Massive Multi-view Visuotactile Dataset for Deformable World Models",
+      "summary": "Predicting object dynamics (i.e., world modeling) is a fundamental challenge for robotic manipulation, and modeling deformable objects presents a particularly difficult case due to their high-dimensional state spaces and complex material properties. ...",
+      "url": "https://arxiv.org/abs/2607.05390v1",
+      "date": "2026-07-06",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2607.05390v1",
+      "authors": "Hongyu Li, Wanjia Fu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Cortex: A Bidirectionally Aligned Embodied Agent Framework for Long-horizon Manipulation",
+      "summary": "While recent Vision-Language-Action (VLA) models show promise toward generalist manipulation policies, they struggle with long-horizon tasks due to their Markovian nature-relying solely on current observations. Hierarchical dual-system methods addres...",
+      "url": "https://arxiv.org/abs/2607.05377v1",
+      "date": "2026-07-06",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2607.05377v1",
+      "authors": "Jiaqi Peng, Xiqian Yu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "GaP: A Graph-as-Policy Multi-Agent Self-Learning Harness For Variational Automation Tasks",
+      "summary": "For robots to work reliably in commercial and industrial applications, can recent advances in agentic coding systems combine interpretable robot programming with the open-world adaptability of model-free policies? We focus on \"Variational Automation\"...",
+      "url": "https://arxiv.org/abs/2607.05369v1",
+      "date": "2026-07-06",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2607.05369v1",
+      "authors": "Kaiyuan Chen, Shuangyu Xie et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
       ]
     },
     {
@@ -3009,83 +3089,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "SimuScene: Simulation-Ready Compositional 3D Scene Reconstruction from a Single Image",
-      "summary": "Reconstructing interactive, simulation-ready 3D scenes from a single image is a critical bottleneck for robotic manipulation. While recent single-image lifters recover plausible per-object shapes, composing them yields scenes that collapse under phys...",
-      "url": "https://arxiv.org/abs/2606.03994v1",
-      "date": "2026-06-02",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.03994v1",
-      "authors": "Inhee Lee, Sangwon Baik et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Humanoid-GPT: Scaling Data and Structure for Zero-Shot Motion Tracking",
-      "summary": "We introduce Humanoid-GPT, a GPT-style Transformer with causal attention trained on a billion-scale motion corpus for whole-body control. Unlike prior shallow MLP trackers constrained by scarce data and an agility-generalization trade-off, Humanoid-G...",
-      "url": "https://arxiv.org/abs/2606.03985v1",
-      "date": "2026-06-02",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.03985v1",
-      "authors": "Zekun Qi, Xuchuan Chen et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Self-Refining Agentic Reinforcement Learning for Vision-Conditioned UAV Navigation",
-      "summary": "Deep reinforcement learning has shown strong potential for enabling autonomous robots to learn complex navigational tasks. However, its practical use still depends heavily on human designed reward functions and repeated manual fine tuning, which is t...",
-      "url": "https://arxiv.org/abs/2606.03963v1",
-      "date": "2026-06-02",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.03963v1",
-      "authors": "Roohan Ahmed Khan, Yasheerah Yaqoot et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "VLESA: Vision-Language Embodied Safety Agent for Human Activity Monitoring",
-      "summary": "As AI systems increasingly assist humans in physical tasks, ensuring safety becomes paramount -- physical actions carry immediate and irreversible consequences that digital errors do not. We introduce the Vision-Language Embodied Safety Agent (VLESA)...",
-      "url": "https://arxiv.org/abs/2606.03954v1",
-      "date": "2026-06-02",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.03954v1",
-      "authors": "Hanjiang Hu, Yiyuan Pan et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "加码具身智能数据研发布局。",
-      "summary": "加码具身智能数据研发布局。",
-      "url": "http://36kr.com/p/3834105574270600",
-      "date": "2026-06-01",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
       ]
     }
   ]

@@ -1,34 +1,18 @@
 {
   "last_updated": "2026-07-07",
-  "count": 7,
+  "count": 4,
   "items": [
     {
-      "title": "Distributed Attacks in Persistent-State AI Control",
-      "authors": "Josh Hills, Ida Caspary, Asa Cooper Stickland",
-      "abstract": "As AI coding agents become more autonomous, they increasingly ship code iteratively, with the codebase persisting across sessions. This persistence creates a new attack surface: a misaligned or prompt-injected agent can distribute attacks across pull requests (PRs) and time its payload for the PR wi...",
+      "title": "From Fixed to Free Cameras: Calibration-Free View-Robust Vision-Language-Action Model",
+      "authors": "Wenhao Li, Xueying Jiang, Quanhao Qian et al.",
+      "abstract": "Real-world robot deployment rarely maintains the training-stage camera setup, where cameras often experience repositioning or remounting depending on actual scenarios. Existing view-robust Vision-Language-Action (VLA) policies tolerate such camera variations only when the camera extrinsics are expli...",
       "venue": "arXiv",
-      "date": "2026-07-02",
-      "arxiv_id": "2607.02514v1",
-      "url": "https://arxiv.org/abs/2607.02514v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.02514v1.pdf",
+      "date": "2026-07-06",
+      "arxiv_id": "2607.05396v1",
+      "url": "https://arxiv.org/abs/2607.05396v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.05396v1.pdf",
       "categories": [
-        "cs.AI"
-      ],
-      "type": "ai",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "LACUNA: A Testbed for Evaluating Localization Precision for LLM Unlearning",
-      "authors": "Matteo Boglioni, Thibault Rousset, Siva Reddy et al.",
-      "abstract": "LLMs memorize sensitive training data, including personally identifiable information (PII), creating a pressing need for reliable post hoc removal methods. Unlearning has emerged as a promising solution, with state-of-the-art(SOTA) methods often following a localize-first, unlearn-second paradigm th...",
-      "venue": "arXiv",
-      "date": "2026-07-02",
-      "arxiv_id": "2607.02513v1",
-      "url": "https://arxiv.org/abs/2607.02513v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.02513v1.pdf",
-      "categories": [
-        "cs.CL",
+        "cs.CV",
         "cs.AI",
         "cs.LG"
       ],
@@ -37,14 +21,14 @@
       "source": "arXiv"
     },
     {
-      "title": "Program-as-Weights: A Programming Paradigm for Fuzzy Functions",
-      "authors": "Wentao Zhang, Liliana Hotsko, Woojeong Kim et al.",
-      "abstract": "Many everyday programming tasks resist clean rule-based implementation, such as alerting on important log lines, repairing malformed JSON, or ranking search results by intent, and are increasingly outsourced to large language model APIs at the cost of locality, reproducibility, and price. We propose...",
+      "title": "Weak-to-Strong Generalization via Direct On-Policy Distillation",
+      "authors": "Shiyuan Feng, Huan-ang Gao, Haohan Chi et al.",
+      "abstract": "Reinforcement learning with verifiable rewards (RLVR) is a powerful recipe for improving language-model reasoning, but it is expensive to repeat on every new strong model because the target model must generate many rollouts during training. As models scale, post-training itself becomes a bottleneck....",
       "venue": "arXiv",
-      "date": "2026-07-02",
-      "arxiv_id": "2607.02512v1",
-      "url": "https://arxiv.org/abs/2607.02512v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.02512v1.pdf",
+      "date": "2026-07-06",
+      "arxiv_id": "2607.05394v1",
+      "url": "https://arxiv.org/abs/2607.05394v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.05394v1.pdf",
       "categories": [
         "cs.LG",
         "cs.AI",
@@ -55,66 +39,34 @@
       "source": "arXiv"
     },
     {
-      "title": "WorldDirector: Building Controllable World Simulators with Persistent Dynamic Memory",
-      "authors": "Hanlin Wang, Hao Ouyang, Qiuyu Wang et al.",
-      "abstract": "We present WorldDirector, a highly controllable video world model framework designed for persistent dynamic object memory and unrestricted viewpoint exploration. Unlike existing world models that entangle physical dynamics with pixel rendering and rely on continuous visual observation to sustain mot...",
+      "title": "LLM-as-a-Verifier: A General-Purpose Verification Framework",
+      "authors": "Jacky Kwok, Shulu Li, Pranav Atreya et al.",
+      "abstract": "Scaling pre-training, post-training, and test-time compute have become the central paradigms for improving the capabilities of LLMs. In this work, we identify verification, the ability to determine the correctness of a solution, as a new scaling axis. To unlock this and demonstrate its effectiveness...",
       "venue": "arXiv",
-      "date": "2026-07-02",
-      "arxiv_id": "2607.02517v1",
-      "url": "https://arxiv.org/abs/2607.02517v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.02517v1.pdf",
+      "date": "2026-07-06",
+      "arxiv_id": "2607.05391v1",
+      "url": "https://arxiv.org/abs/2607.05391v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.05391v1.pdf",
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "SynCity 3000: Bootstrapping Scene-Scale 3D Diffusion",
+      "authors": "Paul Engstler, Iro Laina, Christian Rupprecht et al.",
+      "abstract": "We present SynCity 3000, a framework for generating 3D scenes that are globally coherent while enabling fine-grained layout control. Building on the ability of current image-to-3D generators to produce complex 3D assets from a single image, we extend this capability to the scale of entire scenes by ...",
+      "venue": "arXiv",
+      "date": "2026-07-06",
+      "arxiv_id": "2607.05392v1",
+      "url": "https://arxiv.org/abs/2607.05392v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.05392v1.pdf",
       "categories": [
         "cs.CV"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Alignment Is All You Need For X-to-4D Generation",
-      "authors": "Qiaowei Miao, Kehan Li, Yawei Luo et al.",
-      "abstract": "Generative diffusion models excel at synthesizing high-quality images, videos, and 3D content under multimodal control. However, arbitrary user-defined modality-to-4D (X-to-4D) generation remains challenging due to the high cost of constructing diverse datasets and the limited scalability of existin...",
-      "venue": "arXiv",
-      "date": "2026-07-02",
-      "arxiv_id": "2607.02516v1",
-      "url": "https://arxiv.org/abs/2607.02516v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.02516v1.pdf",
-      "categories": [
-        "cs.CV"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "VT-WAM: Visual-Tactile World Action Model for Contact-Rich Manipulation",
-      "authors": "Shuai Tian, Yupeng Zheng, Yuhang Zheng et al.",
-      "abstract": "Contact-rich manipulation requires policies to react to local deformation, pressure, slip, and friction, yet these cues are temporally sparse and often invisible in visual observations. Existing visual-tactile policies usually feed tactile observations directly into action prediction, but rarely mod...",
-      "venue": "arXiv",
-      "date": "2026-07-02",
-      "arxiv_id": "2607.02503v1",
-      "url": "https://arxiv.org/abs/2607.02503v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.02503v1.pdf",
-      "categories": [
-        "cs.RO"
-      ],
-      "type": "ai",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Embodied.cpp: A Portable Inference Runtime of Embodied AI Models on Heterogeneous Robots",
-      "authors": "Ling Xu, Chuyu Han, Borui Li et al.",
-      "abstract": "Embodied AI models now span vision-language-action (VLA) models and world-action models (WAMs), but practical deployment remains fragmented across model-specific Python stacks, backend assumptions, and robot-side glue code, especially on heterogeneous edge devices. Existing inference runtimes are de...",
-      "venue": "arXiv",
-      "date": "2026-07-02",
-      "arxiv_id": "2607.02501v1",
-      "url": "https://arxiv.org/abs/2607.02501v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.02501v1.pdf",
-      "categories": [
-        "cs.RO",
-        "cs.CV",
-        "cs.OS"
       ],
       "type": "vision",
       "badge": "arxiv",

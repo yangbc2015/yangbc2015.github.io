@@ -8,18 +8,6 @@
       "count": 5,
       "items": [
         {
-          "title": "Markdown Content:",
-          "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-          "summary": "Markdown Content:...",
-          "date": "2026-07-06",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
           "title": "征程赶超｜WAIC 2026理论突破：以数理双向赋能为钥，开启AI范式革新新征程",
           "link": "https://www.jiqizhixin.com/search/articles/征程赶超｜WAIC 2026理",
           "summary": "征程赶超｜WAIC 2026理论突破：以数理双向赋能为钥，开启AI范式革新新征程...",
@@ -61,6 +49,18 @@
           "summary": "WWW时间检验奖颁给唐建博士：图神经网络的十年远征与AI制药的底层逻辑...",
           "date": "2026-07-06",
           "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "70年前，香农就拥有了端侧私人定制大语言模型",
+          "link": "https://www.qbitai.com/?s=70年前，香农就拥有",
+          "summary": "70年前，香农就拥有了端侧私人定制大语言模型...",
+          "date": "2026-07-07",
+          "source": "量子位",
           "type": "industry",
           "tags": [
             "AI",
