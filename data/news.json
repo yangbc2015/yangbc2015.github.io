@@ -1,19 +1,91 @@
 {
-  "last_updated": "2026-07-07",
+  "last_updated": "2026-07-08",
   "count": 200,
-  "history_count": 200,
+  "history_count": 205,
   "retention_days": 30,
   "items": [
     {
-      "title": "Published Time: Thu, 08 May 2025 23:15:48 GMT",
+      "title": "*   [Latest](http://techcrunch.com/latest/)",
       "link": "https://techcrunch.com/category/artificial-intelligence/",
-      "summary": "Published Time: Thu, 08 May 2025 23:15:48 GMT...",
-      "date": "2026-07-07",
+      "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
+      "date": "2026-07-08",
       "source": "TechCrunch",
       "type": "industry",
       "tags": [
         "AI",
         "Artificial Intelligence"
+      ]
+    },
+    {
+      "title": "Markdown Content:",
+      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+      "summary": "Markdown Content:...",
+      "date": "2026-07-07",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "AI 只好看不好用？金山办公给出 “三通一平” 实战落地方法论",
+      "link": "https://www.jiqizhixin.com/search/articles/AI 只好看不好用？金山办公给",
+      "summary": "AI 只好看不好用？金山办公给出 “三通一平” 实战落地方法论...",
+      "date": "2026-07-07",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "世界模型的DeepSeek时刻！魔芯Flash World Model降本70%，跑出50FPS实时交互",
+      "link": "https://www.jiqizhixin.com/search/articles/世界模型的DeepSeek时刻",
+      "summary": "世界模型的DeepSeek时刻！魔芯Flash World Model降本70%，跑出50FPS实时交互...",
+      "date": "2026-07-07",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "刚刚，翁荔博客又上新：通过Harness工程实现AI自我提升",
+      "link": "https://www.jiqizhixin.com/search/articles/刚刚，翁荔博客又上新：通过Ha",
+      "summary": "刚刚，翁荔博客又上新：通过Harness工程实现AI自我提升...",
+      "date": "2026-07-07",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "智源悟界·RoboBrain Orca：AI进入Next State Prediction时代",
+      "link": "https://www.jiqizhixin.com/search/articles/智源悟界·RoboBrain ",
+      "summary": "智源悟界·RoboBrain Orca：AI进入Next State Prediction时代...",
+      "date": "2026-07-07",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "70亿级参数模型BetaDescribe，实现从氨基酸序列到功能描述的智能转换",
+      "link": "https://www.jiqizhixin.com/search/articles/70亿级参数模型BetaDes",
+      "summary": "70亿级参数模型BetaDescribe，实现从氨基酸序列到功能描述的智能转换...",
+      "date": "2026-07-07",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
       ]
     },
     {
@@ -80,18 +152,6 @@
       "title": "WWW时间检验奖颁给唐建博士：图神经网络的十年远征与AI制药的底层逻辑",
       "link": "https://www.jiqizhixin.com/search/articles/WWW时间检验奖颁给唐建博士：",
       "summary": "WWW时间检验奖颁给唐建博士：图神经网络的十年远征与AI制药的底层逻辑...",
-      "date": "2026-07-06",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Markdown Content:",
-      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-      "summary": "Markdown Content:...",
       "date": "2026-07-06",
       "source": "机器之心",
       "type": "industry",
@@ -2338,66 +2398,6 @@
       "summary": "协助用户与商家判断智能体可信赖程度...",
       "date": "2026-06-11",
       "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "ABot-Earth0.5正式开放内测",
-      "link": "https://www.qbitai.com/?s=ABot-Earth",
-      "summary": "ABot-Earth0.5正式开放内测...",
-      "date": "2026-06-11",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "黄仁勋要算一万步，这家公司的芯片只需一步",
-      "link": "https://www.qbitai.com/?s=黄仁勋要算一万步，这",
-      "summary": "黄仁勋要算一万步，这家公司的芯片只需一步...",
-      "date": "2026-06-11",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "阿里搞了个免费报志愿Agent，40万AI考生提前把坑踩完了",
-      "link": "https://www.jiqizhixin.com/search/articles/阿里搞了个免费报志愿Agent",
-      "summary": "阿里搞了个免费报志愿Agent，40万AI考生提前把坑踩完了...",
-      "date": "2026-06-10",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "AI交互新基准！蚂蚁提出MiniAppBench并入选ICML 2026 Spotlight",
-      "link": "https://www.jiqizhixin.com/search/articles/AI交互新基准！蚂蚁提出Min",
-      "summary": "AI交互新基准！蚂蚁提出MiniAppBench并入选ICML 2026 Spotlight...",
-      "date": "2026-06-10",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "突破还是炒作？2000余位学者签署《人工智能与数学莱顿宣言》，警示AI对基础科学的「利用」与「局限」",
-      "link": "https://www.jiqizhixin.com/search/articles/突破还是炒作？2000余位学者",
-      "summary": "突破还是炒作？2000余位学者签署《人工智能与数学莱顿宣言》，警示AI对基础科学的「利用」与「局限」...",
-      "date": "2026-06-10",
-      "source": "机器之心",
       "type": "industry",
       "tags": [
         "AI",

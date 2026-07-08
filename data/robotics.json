@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-07-07",
+  "last_updated": "2026-07-08",
   "count": 200,
   "items": [
     {
       "title": "[征程赶超｜WAIC 2026 具 身 智 能：万台量产、路线归一，解码具身三大产业命题",
       "summary": "[征程赶超｜WAIC 2026 具 身 智 能：万台量产、路线归一，解码具身三大产业命题",
       "url": "http://36kr.com/p/3883529657462790",
-      "date": "2026-07-07",
+      "date": "2026-07-08",
       "source": "36氪",
       "category": "具身智能",
       "type": "news",
@@ -19,7 +19,7 @@
       "title": "[亮相上海国际 具 身 智 能 产业博览会，「女娲农业科技」发布新一代畜牧 具 身 智 能 机器人ELR",
       "summary": "[亮相上海国际 具 身 智 能 产业博览会，「女娲农业科技」发布新一代畜牧 具 身 智 能 机器人ELR",
       "url": "http://36kr.com/p/3879961980875015",
-      "date": "2026-07-07",
+      "date": "2026-07-08",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
@@ -129,6 +129,44 @@
         "机器人学习",
         "研究论文",
         "arXiv"
+      ]
+    },
+    {
+      "title": "动易科技任晓雨谈具身智能产业发展与路径判断",
+      "summary": "动易科技任晓雨谈具身智能产业发展与路径判断",
+      "url": "http://36kr.com/p/3883672214026889",
+      "date": "2026-07-06",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "WAIC 2026：中国具身智能进入工业化落地新阶段",
+      "summary": "WAIC 2026：中国具身智能进入工业化落地新阶段",
+      "url": "http://36kr.com/p/3883529657462790",
+      "date": "2026-07-06",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "「能歌善舞」的机器人，何时能够「柴米油盐」？",
+      "summary": "「能歌善舞」的机器人，何时能够「柴米油盐」？",
+      "url": "http://36kr.com/p/3882813413603975",
+      "date": "2026-07-06",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
       ]
     },
     {
@@ -3040,51 +3078,6 @@
       "type": "paper",
       "arxiv_id": "2606.05015v1",
       "authors": "Luca Zanatta, Grzegorz Malczyk et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "CIPER: A Unified Framework for Cross-view Image-retrieval and Pose-estimation",
-      "summary": "Cross-view geo-localization estimates the geographic location of a ground image by matching it against an aerial image database. Existing methods tackle this through either large-scale retrieval or precise pose estimation, but not both: retrieval-bas...",
-      "url": "https://arxiv.org/abs/2606.05011v1",
-      "date": "2026-06-03",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.05011v1",
-      "authors": "Yurim Jeon, Dongseong Seo et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "目前的具身智能的产业化浪潮势不可挡，但安全短板依然愈发明显。",
-      "summary": "目前的具身智能的产业化浪潮势不可挡，但安全短板依然愈发明显。",
-      "url": "http://36kr.com/p/3835902318361221",
-      "date": "2026-06-02",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "Exploring Easy Boosts for Lidar Semantic Scene Completion",
-      "summary": "This paper investigates \"free lunch\" strategies to boost the performance of lidar semantic scene completion (SSC) without requiring complex architectural redesigns. We first demonstrate that endowing input point clouds with semantic pseudo-labels fro...",
-      "url": "https://arxiv.org/abs/2606.03992v1",
-      "date": "2026-06-02",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.03992v1",
-      "authors": "Tetiana Martyniuk, Jonathan Seele et al.",
       "tags": [
         "机器人学习",
         "研究论文",
