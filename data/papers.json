@@ -1,36 +1,52 @@
 {
   "last_updated": "2026-07-08",
-  "count": 4,
+  "count": 6,
   "items": [
     {
-      "title": "From Fixed to Free Cameras: Calibration-Free View-Robust Vision-Language-Action Model",
-      "authors": "Wenhao Li, Xueying Jiang, Quanhao Qian et al.",
-      "abstract": "Real-world robot deployment rarely maintains the training-stage camera setup, where cameras often experience repositioning or remounting depending on actual scenarios. Existing view-robust Vision-Language-Action (VLA) policies tolerate such camera variations only when the camera extrinsics are expli...",
+      "title": "ELSA3D: Elastic Semantic Anchoring for Unified 3D Understanding and Generation",
+      "authors": "Tianjiao Yu, Xinzhuo Li, Yifan Shen et al.",
+      "abstract": "Unified 3D foundation models aspire to generate 3D assets and reason about them in language within a single backbone, but their text-3D interaction remains largely implicit. Existing methods concatenate text and 3D tokens into a flat sequence and rely on self-attention, collapsing coarse structural ...",
       "venue": "arXiv",
-      "date": "2026-07-06",
-      "arxiv_id": "2607.05396v1",
-      "url": "https://arxiv.org/abs/2607.05396v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.05396v1.pdf",
+      "date": "2026-07-07",
+      "arxiv_id": "2607.06565v1",
+      "url": "https://arxiv.org/abs/2607.06565v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.06565v1.pdf",
       "categories": [
         "cs.CV",
         "cs.AI",
         "cs.LG"
       ],
-      "type": "nlp",
+      "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Weak-to-Strong Generalization via Direct On-Policy Distillation",
-      "authors": "Shiyuan Feng, Huan-ang Gao, Haohan Chi et al.",
-      "abstract": "Reinforcement learning with verifiable rewards (RLVR) is a powerful recipe for improving language-model reasoning, but it is expensive to repeat on every new strong model because the target model must generate many rollouts during training. As models scale, post-training itself becomes a bottleneck....",
+      "title": "Graph Convolutional Attention: A Spectral Perspective on Graph Denoising and Diffusion",
+      "authors": "Shervin Khalafi, Igor Krawczuk, Sergio Rozada et al.",
+      "abstract": "Denoising graphs is a fundamental problem in graph learning and the core operation of graph diffusion models. Attention-based architectures like graph transformers have recently shown promise in denoising graphs. However, our principled understanding of attention-based graph denoising remains limite...",
       "venue": "arXiv",
-      "date": "2026-07-06",
-      "arxiv_id": "2607.05394v1",
-      "url": "https://arxiv.org/abs/2607.05394v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.05394v1.pdf",
+      "date": "2026-07-07",
+      "arxiv_id": "2607.06546v1",
+      "url": "https://arxiv.org/abs/2607.06546v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.06546v1.pdf",
       "categories": [
         "cs.LG",
+        "cs.AI"
+      ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Rethinking Indic AI from a Lens of Cultural Heritage Preservation",
+      "authors": "Aparna Madva, Sharath Srivatsa, Srinath Srinivasa et al.",
+      "abstract": "As Artificial Intelligence (AI) makes inroads into different parts of the Indian subcontinent, there is significant interest in studying how AI impacts the linguistic and cultural foundations of this civilization. AI is seen as a ''double-edged sword'' where on the one hand, it can enable access and...",
+      "venue": "arXiv",
+      "date": "2026-07-07",
+      "arxiv_id": "2607.06544v1",
+      "url": "https://arxiv.org/abs/2607.06544v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.06544v1.pdf",
+      "categories": [
         "cs.AI",
         "cs.CL"
       ],
@@ -39,36 +55,51 @@
       "source": "arXiv"
     },
     {
-      "title": "LLM-as-a-Verifier: A General-Purpose Verification Framework",
-      "authors": "Jacky Kwok, Shulu Li, Pranav Atreya et al.",
-      "abstract": "Scaling pre-training, post-training, and test-time compute have become the central paradigms for improving the capabilities of LLMs. In this work, we identify verification, the ability to determine the correctness of a solution, as a new scaling axis. To unlock this and demonstrate its effectiveness...",
+      "title": "On the feasibility of dependency parsing of non-human sequences without a gold standard. Is evaluation possible in other species?",
+      "authors": "Ramon Ferrer-i-Cancho, Catherine Hobaiter, Thore Bergman et al.",
+      "abstract": "Dependency parsing consists of finding a tree representation for a sequence. Unsupervised dependency parsing aims to develop parsing methods without a gold standard during model training. In human languages, an unsupervised parser can be evaluated because some gold standard is usually available or c...",
       "venue": "arXiv",
-      "date": "2026-07-06",
-      "arxiv_id": "2607.05391v1",
-      "url": "https://arxiv.org/abs/2607.05391v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.05391v1.pdf",
+      "date": "2026-07-07",
+      "arxiv_id": "2607.06542v1",
+      "url": "https://arxiv.org/abs/2607.06542v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.06542v1.pdf",
       "categories": [
-        "cs.AI",
-        "cs.CL",
-        "cs.LG"
+        "cs.CL"
       ],
-      "type": "nlp",
+      "type": "benchmark",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "SynCity 3000: Bootstrapping Scene-Scale 3D Diffusion",
-      "authors": "Paul Engstler, Iro Laina, Christian Rupprecht et al.",
-      "abstract": "We present SynCity 3000, a framework for generating 3D scenes that are globally coherent while enabling fine-grained layout control. Building on the ability of current image-to-3D generators to produce complex 3D assets from a single image, we extend this capability to the scale of entire scenes by ...",
+      "title": "Lift3D-VLA: Lifting VLA Models to 3D Geometry and Dynamics-Aware Manipulation",
+      "authors": "Jiaming Liu, Qingpo Wuwu, Nuowei Han et al.",
+      "abstract": "Recently, Vision-Language-Action (VLA) models have demonstrated strong generalization across diverse tasks. However, effective robotic manipulation in physical environments fundamentally requires geometric understanding and spatial reasoning. While some VLA approaches attempt to incorporate 3D infor...",
       "venue": "arXiv",
-      "date": "2026-07-06",
-      "arxiv_id": "2607.05392v1",
-      "url": "https://arxiv.org/abs/2607.05392v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.05392v1.pdf",
+      "date": "2026-07-07",
+      "arxiv_id": "2607.06564v1",
+      "url": "https://arxiv.org/abs/2607.06564v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.06564v1.pdf",
       "categories": [
+        "cs.RO",
         "cs.CV"
       ],
       "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Embodied Human-Robot Interaction via Acoustics: A MARL Approach with AcoustoBots for Spatial Data Physicalization",
+      "authors": "Shiqi Liu, Narsimlu Kemsaram, Prateek Mittal et al.",
+      "abstract": "Traditional data physicalization is often static and disconnected from real environments, limiting its ability to convey embodied spatial dynamics and engage users. To address this limitation, we present AcoustoBots, a mobile acoustophoretic data-physicalization platform in which TurtleBot3 robots c...",
+      "venue": "arXiv",
+      "date": "2026-07-07",
+      "arxiv_id": "2607.06563v1",
+      "url": "https://arxiv.org/abs/2607.06563v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.06563v1.pdf",
+      "categories": [
+        "cs.RO"
+      ],
+      "type": "ai",
       "badge": "arxiv",
       "source": "arXiv"
     }

@@ -28,6 +28,86 @@
       ]
     },
     {
+      "title": "Lift3D-VLA: Lifting VLA Models to 3D Geometry and Dynamics-Aware Manipulation",
+      "summary": "Recently, Vision-Language-Action (VLA) models have demonstrated strong generalization across diverse tasks. However, effective robotic manipulation in physical environments fundamentally requires geometric understanding and spatial reasoning. While s...",
+      "url": "https://arxiv.org/abs/2607.06564v1",
+      "date": "2026-07-07",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2607.06564v1",
+      "authors": "Jiaming Liu, Qingpo Wuwu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Embodied Human-Robot Interaction via Acoustics: A MARL Approach with AcoustoBots for Spatial Data Physicalization",
+      "summary": "Traditional data physicalization is often static and disconnected from real environments, limiting its ability to convey embodied spatial dynamics and engage users. To address this limitation, we present AcoustoBots, a mobile acoustophoretic data-phy...",
+      "url": "https://arxiv.org/abs/2607.06563v1",
+      "date": "2026-07-07",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2607.06563v1",
+      "authors": "Shiqi Liu, Narsimlu Kemsaram et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "RynnWorld-4D: 4D Embodied World Models for Robotic Manipulation",
+      "summary": "Robotic manipulation in the open world requires not only recognizing what a scene looks like, but also anticipating how its 3D structure moves under interaction. We argue that synchronized RGB, depth, and optical flow, namely RGB-DF, provide a physic...",
+      "url": "https://arxiv.org/abs/2607.06559v1",
+      "date": "2026-07-07",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2607.06559v1",
+      "authors": "Haoyu Zhao, Xingyue Zhao et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "RynnWorld-Teleop: An Action-Conditioned World Model for Digital Teleoperation",
+      "summary": "Scaling robot learning requires massive, diverse trajectory data, yet collection is currently bottlenecked by physical teleoperation, where every demonstration binds operator time to specific hardware and workspaces. We introduce digital teleoperatio...",
+      "url": "https://arxiv.org/abs/2607.06558v1",
+      "date": "2026-07-07",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2607.06558v1",
+      "authors": "Haoyu Zhao, Xingyue Zhao et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "UniLM-Nav: A Unified Framework for Zero-Shot Last-Mile Navigation",
+      "summary": "Mobile manipulation requires a robot to navigate to a target object or receptacle and then perform intended manipulation. However, reaching the vicinity of the target does not guarantee a manipulation-ready base pose, a problem known as last-mile nav...",
+      "url": "https://arxiv.org/abs/2607.06537v1",
+      "date": "2026-07-07",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2607.06537v1",
+      "authors": "Zhuofan Zhang, Tianxu Wang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
       "title": "[三年死磕 具 身 智 能 大脑，若愚科技把机器人送进危险角落",
       "summary": "[三年死磕 具 身 智 能 大脑，若愚科技把机器人送进危险角落",
       "url": "http://36kr.com/p/3879575583322370",
@@ -44,6 +124,44 @@
       "summary": "[具 身 智 能 和移动机器人，为什么今年都在工厂上强度",
       "url": "http://36kr.com/p/3876567144706312",
       "date": "2026-07-07",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
+      "title": "动易科技任晓雨谈具身智能产业发展与路径判断",
+      "summary": "动易科技任晓雨谈具身智能产业发展与路径判断",
+      "url": "http://36kr.com/p/3883672214026889",
+      "date": "2026-07-06",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "WAIC 2026：中国具身智能进入工业化落地新阶段",
+      "summary": "WAIC 2026：中国具身智能进入工业化落地新阶段",
+      "url": "http://36kr.com/p/3883529657462790",
+      "date": "2026-07-06",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "「能歌善舞」的机器人，何时能够「柴米油盐」？",
+      "summary": "「能歌善舞」的机器人，何时能够「柴米油盐」？",
+      "url": "http://36kr.com/p/3882813413603975",
+      "date": "2026-07-06",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
@@ -129,44 +247,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "动易科技任晓雨谈具身智能产业发展与路径判断",
-      "summary": "动易科技任晓雨谈具身智能产业发展与路径判断",
-      "url": "http://36kr.com/p/3883672214026889",
-      "date": "2026-07-06",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "WAIC 2026：中国具身智能进入工业化落地新阶段",
-      "summary": "WAIC 2026：中国具身智能进入工业化落地新阶段",
-      "url": "http://36kr.com/p/3883529657462790",
-      "date": "2026-07-06",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "「能歌善舞」的机器人，何时能够「柴米油盐」？",
-      "summary": "「能歌善舞」的机器人，何时能够「柴米油盐」？",
-      "url": "http://36kr.com/p/3882813413603975",
-      "date": "2026-07-06",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
       ]
     },
     {
@@ -2998,86 +3078,6 @@
       "type": "paper",
       "arxiv_id": "2606.06423v1",
       "authors": "Qi Lan, Yining Tang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Ensuring Interaction Safety in Multitask Exoskeleton Control: A Simulation-Trained Variable Impedance Framework",
-      "summary": "Wearable exoskeletons can augment human phys ical capabilities during complex activities. However, ensuring adaptation across diverse tasks while guaranteeing interaction safety remains a critical challenge. To address this, a simulation trained vari...",
-      "url": "https://arxiv.org/abs/2606.06370v1",
-      "date": "2026-06-04",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.06370v1",
-      "authors": "Muyuan Ma, Houcheng Li et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "GRAIL: Generating Humanoid Loco-Manipulation from 3D Assets and Video Priors",
-      "summary": "Scaling humanoid loco-manipulation requires robot-compatible demonstrations across diverse objects, whole-body motions, and scene geometries, but teleoperation and motion capture are difficult to scale because each collection depends on physical setu...",
-      "url": "https://arxiv.org/abs/2606.05160v1",
-      "date": "2026-06-03",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.05160v1",
-      "authors": "Tianyi Xie, Haotian Zhang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "X4Val: Learning Neural Surrogates for Variance-Reduced Policy Evaluation",
-      "summary": "Rigorous evaluation of learning-based robotic systems is an essential prerequisite for deployment. However, real-world test data is expensive to gather; moreover, in a typical iterative development context, data gathered from the latest policy is nec...",
-      "url": "https://arxiv.org/abs/2606.05159v1",
-      "date": "2026-06-03",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.05159v1",
-      "authors": "Rachel Luo, Michael Watson et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "HORIZON: Recoverability-Governed Curriculum for Physical-Domain Scaling",
-      "summary": "Scaling robust robot policies requires more than broader randomization, because physical-domain experience must remain organized and learnable throughout training. We study when a policy can benefit from harder physics and identify recoverability as ...",
-      "url": "https://arxiv.org/abs/2606.05143v1",
-      "date": "2026-06-03",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.05143v1",
-      "authors": "Chenhao Bai, Liqin Lu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Generalization of World Models under Environmental Variability for Vision-based Quadrotor Navigation",
-      "summary": "World models, learned generative models that predict how an environment evolves, have become a promising tool for sample-efficient robot learning. Yet how robust they are to environmental variability remains poorly understood. To address this, we con...",
-      "url": "https://arxiv.org/abs/2606.05015v1",
-      "date": "2026-06-03",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.05015v1",
-      "authors": "Luca Zanatta, Grzegorz Malczyk et al.",
       "tags": [
         "机器人学习",
         "研究论文",
