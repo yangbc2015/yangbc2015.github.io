@@ -5,6 +5,54 @@
   "models": [
     {
       "rank": 1,
+      "model": "gpt-5.6-luna-pro",
+      "organization": "openai",
+      "price_prompt": "0.000001",
+      "price_completion": "0.000006",
+      "context_length": 1050000
+    },
+    {
+      "rank": 2,
+      "model": "gpt-5.6-luna",
+      "organization": "openai",
+      "price_prompt": "0.000001",
+      "price_completion": "0.000006",
+      "context_length": 1050000
+    },
+    {
+      "rank": 3,
+      "model": "gpt-5.6-terra-pro",
+      "organization": "openai",
+      "price_prompt": "0.0000025",
+      "price_completion": "0.000015",
+      "context_length": 1050000
+    },
+    {
+      "rank": 4,
+      "model": "gpt-5.6-terra",
+      "organization": "openai",
+      "price_prompt": "0.0000025",
+      "price_completion": "0.000015",
+      "context_length": 1050000
+    },
+    {
+      "rank": 5,
+      "model": "gpt-5.6-sol-pro",
+      "organization": "openai",
+      "price_prompt": "0.000005",
+      "price_completion": "0.00003",
+      "context_length": 1050000
+    },
+    {
+      "rank": 6,
+      "model": "gpt-5.6-sol",
+      "organization": "openai",
+      "price_prompt": "0.000005",
+      "price_completion": "0.00003",
+      "context_length": 1050000
+    },
+    {
+      "rank": 7,
       "model": "grok-4.5",
       "organization": "x-ai",
       "price_prompt": "0.000002",
@@ -12,7 +60,7 @@
       "context_length": 500000
     },
     {
-      "rank": 2,
+      "rank": 8,
       "model": "grok-latest",
       "organization": "~x-ai",
       "price_prompt": "0.000002",
@@ -20,7 +68,7 @@
       "context_length": 500000
     },
     {
-      "rank": 3,
+      "rank": 9,
       "model": "aion-3.0-mini",
       "organization": "aion-labs",
       "price_prompt": "0.0000007",
@@ -28,7 +76,7 @@
       "context_length": 131072
     },
     {
-      "rank": 4,
+      "rank": 10,
       "model": "aion-3.0",
       "organization": "aion-labs",
       "price_prompt": "0.000003",
@@ -36,7 +84,7 @@
       "context_length": 131072
     },
     {
-      "rank": 5,
+      "rank": 11,
       "model": "hy3:free",
       "organization": "tencent",
       "price_prompt": "0",
@@ -44,7 +92,7 @@
       "context_length": 262144
     },
     {
-      "rank": 6,
+      "rank": 12,
       "model": "hy3",
       "organization": "tencent",
       "price_prompt": "0.00000014",
@@ -52,7 +100,7 @@
       "context_length": 262144
     },
     {
-      "rank": 7,
+      "rank": 13,
       "model": "laguna-xs-2.1:free",
       "organization": "poolside",
       "price_prompt": "0",
@@ -60,7 +108,7 @@
       "context_length": 262144
     },
     {
-      "rank": 8,
+      "rank": 14,
       "model": "laguna-xs-2.1",
       "organization": "poolside",
       "price_prompt": "0.00000006",
@@ -68,60 +116,12 @@
       "context_length": 262144
     },
     {
-      "rank": 9,
+      "rank": 15,
       "model": "claude-sonnet-5",
       "organization": "anthropic",
       "price_prompt": "0.000002",
       "price_completion": "0.00001",
       "context_length": 1000000
-    },
-    {
-      "rank": 10,
-      "model": "gemini-3.1-flash-lite-image",
-      "organization": "google",
-      "price_prompt": "0.00000025",
-      "price_completion": "0.0000015",
-      "context_length": 65536
-    },
-    {
-      "rank": 11,
-      "model": "nex-n2-mini",
-      "organization": "nex-agi",
-      "price_prompt": "0.000000025",
-      "price_completion": "0.0000001",
-      "context_length": 262144
-    },
-    {
-      "rank": 12,
-      "model": "fugu-ultra",
-      "organization": "sakana",
-      "price_prompt": "0.000005",
-      "price_completion": "0.00003",
-      "context_length": 1000000
-    },
-    {
-      "rank": 13,
-      "model": "gemini-3.1-flash-image",
-      "organization": "google",
-      "price_prompt": "0.0000005",
-      "price_completion": "0.000003",
-      "context_length": 131072
-    },
-    {
-      "rank": 14,
-      "model": "gemini-3-pro-image",
-      "organization": "google",
-      "price_prompt": "0.000002",
-      "price_completion": "0.000012",
-      "context_length": 65536
-    },
-    {
-      "rank": 15,
-      "model": "north-mini-code:free",
-      "organization": "cohere",
-      "price_prompt": "0",
-      "price_completion": "0",
-      "context_length": 256000
     }
   ]
 }
