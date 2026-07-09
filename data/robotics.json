@@ -28,6 +28,86 @@
       ]
     },
     {
+      "title": "Continuous and large-scale: ELEANOR, the soft architected arm inspired by the elephant trunk",
+      "summary": "The elephant trunk is a dexterous and versatile manipulator whose performance is still unmatched in robotics. In previous works, modularity was prioritized and relatively small-scale continuum robots were built. We take the natural proboscis of the *...",
+      "url": "https://arxiv.org/abs/2607.07622v1",
+      "date": "2026-07-08",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2607.07622v1",
+      "authors": "Giovanna A. Naselli, Anderson B. Nardin et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Dual Latent Memory in Vision-Language-Action Models for Robotic Manipulation",
+      "summary": "Mainstream Vision-Language-Action (VLA) models predict actions primarily from the current observation under a Markovian assumption, thus struggling with long-horizon, temporally dependent tasks. Existing memory-augmented VLAs either expand the observ...",
+      "url": "https://arxiv.org/abs/2607.07608v1",
+      "date": "2026-07-08",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2607.07608v1",
+      "authors": "Hongyu Qu, Jianzhe Gao et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "CARLA-GS: Decoupling Representation, Reasoning, and Physics Simulation for Autonomous Driving Corner-Case Synthesis",
+      "summary": "Safety evaluation for autonomous driving is dominated by rare, safety-critical interactions, motivating simulators that can deliberately synthesize corner cases with photorealistic observations. Corner-case generation is inherently a multi-source pro...",
+      "url": "https://arxiv.org/abs/2607.07601v1",
+      "date": "2026-07-08",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2607.07601v1",
+      "authors": "Kaicong Huang, Meng Ma et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Context-Aware Force Estimation for Deformable Tool Manipulation in Robotic Environmental Swabbing via Few-Shot Continual Adaptation",
+      "summary": "Robotic surface swabbing requires sustained interaction between a compliant tool and heterogeneous environments, where accurate estimation of tip-level contact force is critical for consistent sampling performance. However, deformable tool dynamics i...",
+      "url": "https://arxiv.org/abs/2607.07574v1",
+      "date": "2026-07-08",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2607.07574v1",
+      "authors": "Siavash Mahmoudi, Chaitainya Kuppar Reddy et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "SonoRank: Towards Calibration-Free Real-Time Finger Flexion Detection from Forearm Ultrasound Sequences",
+      "summary": "Powered prosthetic hands are frequently abandoned, largely due to the limited functionality of current devices that rely on surface electromyography (sEMG). Sonomyography (ultrasound) has emerged as a promising alternative, owing to its ability to ob...",
+      "url": "https://arxiv.org/abs/2607.07542v1",
+      "date": "2026-07-08",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2607.07542v1",
+      "authors": "Dean Zadok, Alon Wolf et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
       "title": "Lift3D-VLA: Lifting VLA Models to 3D Geometry and Dynamics-Aware Manipulation",
       "summary": "Recently, Vision-Language-Action (VLA) models have demonstrated strong generalization across diverse tasks. However, effective robotic manipulation in physical environments fundamentally requires geometric understanding and spatial reasoning. While s...",
       "url": "https://arxiv.org/abs/2607.06564v1",
@@ -3005,83 +3085,6 @@
       "type": "news",
       "tags": [
         "机器人"
-      ]
-    },
-    {
-      "title": "星灿智能构筑了空间智能+场景化数据闭环+专属具身大模型的独家核心壁垒。",
-      "summary": "星灿智能构筑了空间智能+场景化数据闭环+专属具身大模型的独家核心壁垒。",
-      "url": "http://36kr.com/p/3838659889711618",
-      "date": "2026-06-04",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "HANDOFF: Humanoid Agentic Task-Space Whole-Body Control via Distilled Complementary Teachers",
-      "summary": "For a humanoid robot to be deployed in the real world, the choice of command space (i.e., the interface between task planning and whole-body control) is crucial. Existing whole-body controllers typically demand dense kinematic or spatial references t...",
-      "url": "https://arxiv.org/abs/2606.06493v1",
-      "date": "2026-06-04",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.06493v1",
-      "authors": "Lizhi Yang, Junheng Li et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "TempoVLA: Learning Speed-Controllable Vision-Language-Action Policies",
-      "summary": "Robot manipulation alternates between low-risk transit phases that call for fast execution and high-risk contact stages that demand slow, precise motion. Yet existing Vision-Language-Action models (VLAs) only inherit a single fixed speed from trainin...",
-      "url": "https://arxiv.org/abs/2606.06491v1",
-      "date": "2026-06-04",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.06491v1",
-      "authors": "Dong Jing, Jingchen Nie et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Flow-based Policy Adaptation without Policy Updates",
-      "summary": "Leveraging prior knowledge from pretrained policies, foundation models, or human operators offers an efficient alternative to learning robot skills from scratch. However, these agents often provide actions that are suboptimal, noisy, or misaligned wi...",
-      "url": "https://arxiv.org/abs/2606.06461v1",
-      "date": "2026-06-04",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.06461v1",
-      "authors": "Luzhe Sun, Jingtian Ji et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "RiskFlow: Fast and Faithful Safety-Critical Traffic Scenario Generation",
-      "summary": "Safety-critical traffic scenario generation is essential for evaluating autonomous driving systems under rare but high-risk interactions. Existing diffusion-based methods offer strong controllability in closed-loop generation, but their iterative den...",
-      "url": "https://arxiv.org/abs/2606.06423v1",
-      "date": "2026-06-04",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.06423v1",
-      "authors": "Qi Lan, Yining Tang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
       ]
     }
   ]

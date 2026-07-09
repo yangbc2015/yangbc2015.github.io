@@ -3,84 +3,53 @@
   "count": 6,
   "items": [
     {
-      "title": "ELSA3D: Elastic Semantic Anchoring for Unified 3D Understanding and Generation",
-      "authors": "Tianjiao Yu, Xinzhuo Li, Yifan Shen et al.",
-      "abstract": "Unified 3D foundation models aspire to generate 3D assets and reason about them in language within a single backbone, but their text-3D interaction remains largely implicit. Existing methods concatenate text and 3D tokens into a flat sequence and rely on self-attention, collapsing coarse structural ...",
+      "title": "Accurate, Interdisciplinary and Transparent Structure-property Understanding with Deep Native Structural Reasoning",
+      "authors": "Chen Tang, Yizhou Wang, Jianyu Wu et al.",
+      "abstract": "Structure-property relationships are foundational to biology, chemistry and materials science, where function, reactivity and physical response emerge from spatial, chemical and periodic organization. Mechanistically explaining these relationships requires interpreting structural evidence through sc...",
       "venue": "arXiv",
-      "date": "2026-07-07",
-      "arxiv_id": "2607.06565v1",
-      "url": "https://arxiv.org/abs/2607.06565v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.06565v1.pdf",
+      "date": "2026-07-08",
+      "arxiv_id": "2607.07708v1",
+      "url": "https://arxiv.org/abs/2607.07708v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.07708v1.pdf",
       "categories": [
-        "cs.CV",
+        "cs.CL",
         "cs.AI",
-        "cs.LG"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Graph Convolutional Attention: A Spectral Perspective on Graph Denoising and Diffusion",
-      "authors": "Shervin Khalafi, Igor Krawczuk, Sergio Rozada et al.",
-      "abstract": "Denoising graphs is a fundamental problem in graph learning and the core operation of graph diffusion models. Attention-based architectures like graph transformers have recently shown promise in denoising graphs. However, our principled understanding of attention-based graph denoising remains limite...",
-      "venue": "arXiv",
-      "date": "2026-07-07",
-      "arxiv_id": "2607.06546v1",
-      "url": "https://arxiv.org/abs/2607.06546v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.06546v1.pdf",
-      "categories": [
-        "cs.LG",
-        "cs.AI"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Rethinking Indic AI from a Lens of Cultural Heritage Preservation",
-      "authors": "Aparna Madva, Sharath Srivatsa, Srinath Srinivasa et al.",
-      "abstract": "As Artificial Intelligence (AI) makes inroads into different parts of the Indian subcontinent, there is significant interest in studying how AI impacts the linguistic and cultural foundations of this civilization. AI is seen as a ''double-edged sword'' where on the one hand, it can enable access and...",
-      "venue": "arXiv",
-      "date": "2026-07-07",
-      "arxiv_id": "2607.06544v1",
-      "url": "https://arxiv.org/abs/2607.06544v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.06544v1.pdf",
-      "categories": [
-        "cs.AI",
-        "cs.CL"
+        "cs.CE"
       ],
       "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "On the feasibility of dependency parsing of non-human sequences without a gold standard. Is evaluation possible in other species?",
-      "authors": "Ramon Ferrer-i-Cancho, Catherine Hobaiter, Thore Bergman et al.",
-      "abstract": "Dependency parsing consists of finding a tree representation for a sequence. Unsupervised dependency parsing aims to develop parsing methods without a gold standard during model training. In human languages, an unsupervised parser can be evaluated because some gold standard is usually available or c...",
+      "title": "Co-LMLM: Continuous-Query Limited Memory Language Models",
+      "authors": "Yair Feldman, Linxi Zhao, Nathan Godey et al.",
+      "abstract": "Limited memory language models (LMLMs) externalize factual knowledge during pretraining to a knowledge base (KB), rather than memorizing it in their weights. During generation, the model then fetches knowledge from the KB as needed. This recently introduced paradigm provides multiple advantages, inc...",
       "venue": "arXiv",
-      "date": "2026-07-07",
-      "arxiv_id": "2607.06542v1",
-      "url": "https://arxiv.org/abs/2607.06542v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.06542v1.pdf",
+      "date": "2026-07-08",
+      "arxiv_id": "2607.07707v1",
+      "url": "https://arxiv.org/abs/2607.07707v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.07707v1.pdf",
       "categories": [
-        "cs.CL"
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
       ],
-      "type": "benchmark",
+      "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Lift3D-VLA: Lifting VLA Models to 3D Geometry and Dynamics-Aware Manipulation",
-      "authors": "Jiaming Liu, Qingpo Wuwu, Nuowei Han et al.",
-      "abstract": "Recently, Vision-Language-Action (VLA) models have demonstrated strong generalization across diverse tasks. However, effective robotic manipulation in physical environments fundamentally requires geometric understanding and spatial reasoning. While some VLA approaches attempt to incorporate 3D infor...",
+      "title": "Selective Timestep Weighting and Advantage-Based Replay for Sample-Efficient Diffusion RLHF",
+      "authors": "Eric Zhu, Abhinav Shrivastava, Soumik Mukhopadhyay",
+      "abstract": "Reinforcement learning from human feedback (RLHF) has emerged as a powerful paradigm for aligning generative models with human preferences. However, applying RLHF to diffusion models remains highly feedback inefficient, as existing approaches typically require large amounts of human or reward model ...",
       "venue": "arXiv",
-      "date": "2026-07-07",
-      "arxiv_id": "2607.06564v1",
-      "url": "https://arxiv.org/abs/2607.06564v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.06564v1.pdf",
+      "date": "2026-07-08",
+      "arxiv_id": "2607.07693v1",
+      "url": "https://arxiv.org/abs/2607.07693v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.07693v1.pdf",
       "categories": [
-        "cs.RO",
+        "cs.LG",
+        "cs.AI",
         "cs.CV"
       ],
       "type": "vision",
@@ -88,18 +57,51 @@
       "source": "arXiv"
     },
     {
-      "title": "Embodied Human-Robot Interaction via Acoustics: A MARL Approach with AcoustoBots for Spatial Data Physicalization",
-      "authors": "Shiqi Liu, Narsimlu Kemsaram, Prateek Mittal et al.",
-      "abstract": "Traditional data physicalization is often static and disconnected from real environments, limiting its ability to convey embodied spatial dynamics and engage users. To address this limitation, we present AcoustoBots, a mobile acoustophoretic data-physicalization platform in which TurtleBot3 robots c...",
+      "title": "Scaling Mixture-of-Experts Video Pretraining for Embodied Intelligence",
+      "authors": "Shuailei Ma, Jiaqi Liao, Xinyang Wang et al.",
+      "abstract": "Despite the recent promise in robot control, video generative models suffer from a domain mismatch due to their primary focus on content creation. For example, their design inherently prioritizes visual fidelity and creativity over computational efficiency and physical realism. In this work, we pres...",
       "venue": "arXiv",
-      "date": "2026-07-07",
-      "arxiv_id": "2607.06563v1",
-      "url": "https://arxiv.org/abs/2607.06563v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.06563v1.pdf",
+      "date": "2026-07-08",
+      "arxiv_id": "2607.07675v1",
+      "url": "https://arxiv.org/abs/2607.07675v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.07675v1.pdf",
+      "categories": [
+        "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Continuous and large-scale: ELEANOR, the soft architected arm inspired by the elephant trunk",
+      "authors": "Giovanna A. Naselli, Anderson B. Nardin, Seonggun Joe et al.",
+      "abstract": "The elephant trunk is a dexterous and versatile manipulator whose performance is still unmatched in robotics. In previous works, modularity was prioritized and relatively small-scale continuum robots were built. We take the natural proboscis of the *Loxodonta africana* species as a model and propose...",
+      "venue": "arXiv",
+      "date": "2026-07-08",
+      "arxiv_id": "2607.07622v1",
+      "url": "https://arxiv.org/abs/2607.07622v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.07622v1.pdf",
       "categories": [
         "cs.RO"
       ],
       "type": "ai",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Dual Latent Memory in Vision-Language-Action Models for Robotic Manipulation",
+      "authors": "Hongyu Qu, Jianzhe Gao, Xiaobin Hu et al.",
+      "abstract": "Mainstream Vision-Language-Action (VLA) models predict actions primarily from the current observation under a Markovian assumption, thus struggling with long-horizon, temporally dependent tasks. Existing memory-augmented VLAs either expand the observation window or retrieve history from the memory b...",
+      "venue": "arXiv",
+      "date": "2026-07-08",
+      "arxiv_id": "2607.07608v1",
+      "url": "https://arxiv.org/abs/2607.07608v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.07608v1.pdf",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     }
