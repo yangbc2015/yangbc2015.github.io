@@ -3,6 +3,44 @@
   "count": 200,
   "items": [
     {
+      "title": "[他山科技联合图灵奖得主萨顿共建“机器人幼儿园”，具 身 智 能 从“模仿时代”迈向“经验时代”",
+      "summary": "[他山科技联合图灵奖得主萨顿共建“机器人幼儿园”，具 身 智 能 从“模仿时代”迈向“经验时代”",
+      "url": "http://36kr.com/p/3889294775958276",
+      "date": "2026-07-10",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
+      "title": "[自研焊接具身大脑模型，以“智能焊工”切入工业制造 具 身 智 能 赛道，「昇视唯盛」完成数亿元B轮融资｜36氪首发",
+      "summary": "[自研焊接具身大脑模型，以“智能焊工”切入工业制造 具 身 智 能 赛道，「昇视唯盛」完成数亿元B轮融资｜36氪首发",
+      "url": "http://36kr.com/p/3887871679347208",
+      "date": "2026-07-10",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "[征程赶超｜WAIC 2026 具 身 智 能：万台量产、路线归一，解码具身三大产业命题",
+      "summary": "[征程赶超｜WAIC 2026 具 身 智 能：万台量产、路线归一，解码具身三大产业命题",
+      "url": "http://36kr.com/p/3883529657462790",
+      "date": "2026-07-10",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
       "title": "[亮相上海国际 具 身 智 能 产业博览会，「女娲农业科技」发布新一代畜牧 具 身 智 能 机器人ELR",
       "summary": "[亮相上海国际 具 身 智 能 产业博览会，「女娲农业科技」发布新一代畜牧 具 身 智 能 机器人ELR",
       "url": "http://36kr.com/p/3879961980875015",
@@ -104,32 +142,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "[自研焊接具身大脑模型，以“智能焊工”切入工业制造 具 身 智 能 赛道，「昇视唯盛」完成数亿元B轮融资｜36氪首发",
-      "summary": "[自研焊接具身大脑模型，以“智能焊工”切入工业制造 具 身 智 能 赛道，「昇视唯盛」完成数亿元B轮融资｜36氪首发",
-      "url": "http://36kr.com/p/3887871679347208",
-      "date": "2026-07-09",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "[征程赶超｜WAIC 2026 具 身 智 能：万台量产、路线归一，解码具身三大产业命题",
-      "summary": "[征程赶超｜WAIC 2026 具 身 智 能：万台量产、路线归一，解码具身三大产业命题",
-      "url": "http://36kr.com/p/3883529657462790",
-      "date": "2026-07-09",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
       ]
     },
     {
@@ -3067,22 +3079,6 @@
       "type": "paper",
       "arxiv_id": "2606.09798v1",
       "authors": "Yanming Shao, Zanxin Chen et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "AetheRock: An Arm-Worn Robot Teaching System for Force-Guided Vision-Tactile Learning",
-      "summary": "Force and tactile sensing are indispensable in contact-rich manipulation. However, force-aware robot learning faces critical challenges due to the incompatible assembly of tactile and force sensors in handheld or wearable devices. To address these li...",
-      "url": "https://arxiv.org/abs/2606.09777v1",
-      "date": "2026-06-08",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.09777v1",
-      "authors": "Hong Li, Yue Xu et al.",
       "tags": [
         "机器人学习",
         "研究论文",
