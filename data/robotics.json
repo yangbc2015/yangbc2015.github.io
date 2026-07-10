@@ -3,6 +3,98 @@
   "count": 200,
   "items": [
     {
+      "title": "[三年死磕 具 身 智 能 大脑，若愚科技把机器人送进危险角落",
+      "summary": "[三年死磕 具 身 智 能 大脑，若愚科技把机器人送进危险角落",
+      "url": "http://36kr.com/p/3879575583322370",
+      "date": "2026-07-10",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
+      "title": "DexVerse: A Modular Benchmark for Multi-Task, Multi-Embodiment Dexterous Manipulation",
+      "summary": "Building general-purpose dexterous manipulation policies requires benchmarks that go beyond isolated tasks to systematically evaluate policies across diverse interaction modes, sensory conditions, and robot embodiments. However, existing benchmarks r...",
+      "url": "https://arxiv.org/abs/2607.08751v1",
+      "date": "2026-07-09",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2607.08751v1",
+      "authors": "Yunchao Yao, Zhuxiu Xu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "ContactMimic: Humanoid Object Interaction via Contact Control",
+      "summary": "Keypoint tracking alone is insufficient for object interaction tasks such as sitting on a chair, wiping a board, or pushing furniture, where the robot can reach the correct pose without making meaningful physical contact with the object. We present C...",
+      "url": "https://arxiv.org/abs/2607.08742v1",
+      "date": "2026-07-09",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2607.08742v1",
+      "authors": "Xinyao Li, Xialin He et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "ARDY: Autoregressive Diffusion with Hybrid Representation for Interactive Human Motion Generation",
+      "summary": "Generating realistic 3D human motions in real-time within interactive applications is key for animation, simulation, and humanoid robotics. While recent offline motion generation approaches offer precise control via text and kinematic constraints, th...",
+      "url": "https://arxiv.org/abs/2607.08741v1",
+      "date": "2026-07-09",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2607.08741v1",
+      "authors": "Kaifeng Zhao, Mathis Petrovich et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Learning Adaptive Solvers for Distributed Factor Graph Optimization on Matrix Lie Groups",
+      "summary": "Modern robotic perception increasingly involves large-scale geometric optimization problems distributed across multiple robots or sessions. However, existing distributed solvers often depend on brittle hand tuning and primarily target rigid body pose...",
+      "url": "https://arxiv.org/abs/2607.08735v1",
+      "date": "2026-07-09",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2607.08735v1",
+      "authors": "Jaeho Shin, Maani Ghaffari et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Latent Memory Palace: Reasoning for Control as Autoregressive Variational Inference",
+      "summary": "Human decision-making is highly flexible -- some actions are taken immediately; others require longer deliberation. Language models have exhibited a similar capacity for adaptive \"reasoning.\" However, transferring this capability to continuous contro...",
+      "url": "https://arxiv.org/abs/2607.08724v1",
+      "date": "2026-07-09",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2607.08724v1",
+      "authors": "Chuning Zhu, Eva Xu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
       "title": "[自研焊接具身大脑模型，以“智能焊工”切入工业制造 具 身 智 能 赛道，「昇视唯盛」完成数亿元B轮融资｜36氪首发",
       "summary": "[自研焊接具身大脑模型，以“智能焊工”切入工业制造 具 身 智 能 赛道，「昇视唯盛」完成数亿元B轮融资｜36氪首发",
       "url": "http://36kr.com/p/3887871679347208",
@@ -38,6 +130,19 @@
       "type": "news",
       "tags": [
         "机器人"
+      ]
+    },
+    {
+      "title": "具身评测界的珠峰来了：RoboDojo",
+      "summary": "具身评测界的珠峰来了：RoboDojo",
+      "url": "http://36kr.com/p/3886887316500745",
+      "date": "2026-07-08",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
       ]
     },
     {
@@ -121,19 +226,6 @@
       ]
     },
     {
-      "title": "具身评测界的珠峰来了：RoboDojo",
-      "summary": "具身评测界的珠峰来了：RoboDojo",
-      "url": "http://36kr.com/p/3886887316500745",
-      "date": "2026-07-08",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
       "title": "Lift3D-VLA: Lifting VLA Models to 3D Geometry and Dynamics-Aware Manipulation",
       "summary": "Recently, Vision-Language-Action (VLA) models have demonstrated strong generalization across diverse tasks. However, effective robotic manipulation in physical environments fundamentally requires geometric understanding and spatial reasoning. While s...",
       "url": "https://arxiv.org/abs/2607.06564v1",
@@ -211,18 +303,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "[三年死磕 具 身 智 能 大脑，若愚科技把机器人送进危险角落",
-      "summary": "[三年死磕 具 身 智 能 大脑，若愚科技把机器人送进危险角落",
-      "url": "http://36kr.com/p/3879575583322370",
-      "date": "2026-07-07",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
       ]
     },
     {
@@ -3003,82 +3083,6 @@
       "type": "paper",
       "arxiv_id": "2606.09777v1",
       "authors": "Hong Li, Yue Xu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "[蚂蚁、滴滴、德联领投，简智机器人完成数亿元多轮融资，领跑 具 身 智 能 无本体数据赛道",
-      "summary": "[蚂蚁、滴滴、德联领投，简智机器人完成数亿元多轮融资，领跑 具 身 智 能 无本体数据赛道",
-      "url": "http://36kr.com/p/3834105574270600",
-      "date": "2026-06-07",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
-      ]
-    },
-    {
-      "title": "Affordance-Based Hierarchical Reinforcement Learning for Quadruped Pedipulation",
-      "summary": "The object manipulation capabilities of quadruped robots is an open research challenge. While previous studies have focused on low-level policy learning, task execution still relies on expert-designed high-level trajectories. Autonomous selection of ...",
-      "url": "https://arxiv.org/abs/2606.07506v1",
-      "date": "2026-06-05",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.07506v1",
-      "authors": "Tuba Girgin, Jose Castelblanco et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Physiologically Constrained Musculoskeletal Neural Network for Multi-DoF Joint Kinematics Estimation from Partially Observed sEMG",
-      "summary": "This paper investigates multi-degrees of freedom (DoF) joint kinematics estimation under partially observed surface electromyography (sEMG), where only a subset of task-relevant muscles can be measured due to anatomical inaccessibility or sensor cons...",
-      "url": "https://arxiv.org/abs/2606.07476v1",
-      "date": "2026-06-05",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.07476v1",
-      "authors": "Wending Heng, Mingming Zhang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Planning-aligned Token Compression for Long-Context Autonomous Driving",
-      "summary": "Monolithic vision-action models represent an emerging paradigm in autonomous driving. However, this architecture produces token sequences that quickly exceed real-time computational budgets when encoding extended temporal context for complex interact...",
-      "url": "https://arxiv.org/abs/2606.07464v1",
-      "date": "2026-06-05",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.07464v1",
-      "authors": "Zhixuan Liang, Yuxiao Chen et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "On orbital stabilization of a circular motion primitive for a dynamic extension of the Dubins car model",
-      "summary": "This paper addresses orbital stabilization of a circular motion primitive for a dynamic extension of the Dubins car model within a transverse-linearization framework. We show that the corresponding transverse linearization is unstable and not stabili...",
-      "url": "https://arxiv.org/abs/2606.07449v1",
-      "date": "2026-06-05",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.07449v1",
-      "authors": "Artem Angelchev-Shiryaev, Pavel E. Aleshin et al.",
       "tags": [
         "机器人学习",
         "研究论文",

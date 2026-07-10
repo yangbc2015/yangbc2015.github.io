@@ -1,107 +1,170 @@
 {
   "last_updated": "2026-07-10",
-  "count": 6,
+  "count": 10,
   "items": [
     {
-      "title": "Accurate, Interdisciplinary and Transparent Structure-property Understanding with Deep Native Structural Reasoning",
-      "authors": "Chen Tang, Yizhou Wang, Jianyu Wu et al.",
-      "abstract": "Structure-property relationships are foundational to biology, chemistry and materials science, where function, reactivity and physical response emerge from spatial, chemical and periodic organization. Mechanistically explaining these relationships requires interpreting structural evidence through sc...",
+      "title": "OpenCoF: Learning to Reason Through Video Generation",
+      "authors": "Xinyan Chen, Ziyu Guo, Renrui Zhang et al.",
+      "abstract": "Reasoning has become a core capability for large models, especially when reliable decisions require understanding logical consequences. Recent video generation models offer a reasoning path distinct from previous Chain-of-Thought (CoT): reasoning can unfold through temporally connected frames, known...",
       "venue": "arXiv",
-      "date": "2026-07-08",
-      "arxiv_id": "2607.07708v1",
-      "url": "https://arxiv.org/abs/2607.07708v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.07708v1.pdf",
+      "date": "2026-07-09",
+      "arxiv_id": "2607.08763v1",
+      "url": "https://arxiv.org/abs/2607.08763v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.08763v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Ideas Have Genomes: Benchmarking Scientific Lineage Reasoning and Lineage-Grounded Idea Generation",
+      "authors": "Yifan Zhou, Qihao Yang, Yan Li et al.",
+      "abstract": "Scientific ideas rarely start from a blank page. They inherit mechanisms, repair known limitations, and recombine pieces of earlier work, much like biological genomes. Current benchmarks still say little about whether AI systems can follow this inheritance structure. We present IdeaGene-Bench (IG-Be...",
+      "venue": "arXiv",
+      "date": "2026-07-09",
+      "arxiv_id": "2607.08758v1",
+      "url": "https://arxiv.org/abs/2607.08758v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.08758v1.pdf",
+      "categories": [
+        "cs.AI"
+      ],
+      "type": "benchmark",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "UniClawBench: A Universal Benchmark for Proactive Agents on Real-World Tasks",
+      "authors": "Zhekai Chen, Chengqi Duan, Kaiyue Sun et al.",
+      "abstract": "The rapid development of large language models and multimodal large language models has accelerated the emergence of proactive agents capable of operating everyday tools and assisting users in real-world environments. However, existing benchmarks struggle to evaluate such agents effectively, as they...",
+      "venue": "arXiv",
+      "date": "2026-07-09",
+      "arxiv_id": "2607.08768v1",
+      "url": "https://arxiv.org/abs/2607.08768v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.08768v1.pdf",
+      "categories": [
+        "cs.CL"
+      ],
+      "type": "benchmark",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Validity of LLMs as data annotators: AMALIA on authority",
+      "authors": "Manuel Pita",
+      "abstract": "A national language model offers a linguistic community its own instrument for measuring what its citizens say and value. Portugal's AMALIA, a publicly funded 9B-parameter model for European Portuguese, appears competitive on agreement alone: asked to code the moral foundation of authority, it agree...",
+      "venue": "arXiv",
+      "date": "2026-07-09",
+      "arxiv_id": "2607.08731v1",
+      "url": "https://arxiv.org/abs/2607.08731v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.08731v1.pdf",
       "categories": [
         "cs.CL",
         "cs.AI",
-        "cs.CE"
+        "cs.CY"
       ],
       "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Co-LMLM: Continuous-Query Limited Memory Language Models",
-      "authors": "Yair Feldman, Linxi Zhao, Nathan Godey et al.",
-      "abstract": "Limited memory language models (LMLMs) externalize factual knowledge during pretraining to a knowledge base (KB), rather than memorizing it in their weights. During generation, the model then fetches knowledge from the KB as needed. This recently introduced paradigm provides multiple advantages, inc...",
+      "title": "Wat3R: Underwater 3D Geometry Learning without Annotations",
+      "authors": "Jiangwei Ren, Xingyu Jiang, Zijie Song et al.",
+      "abstract": "Estimating 3D geometry in underwater environments presents unique challenges due to light attenuation, scattering, and the absence of large-scale, high-quality 3D annotations. Pioneering methods rely on massive dense annotations that are impractical in underwater settings. In this paper, we propose ...",
       "venue": "arXiv",
-      "date": "2026-07-08",
-      "arxiv_id": "2607.07707v1",
-      "url": "https://arxiv.org/abs/2607.07707v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.07707v1.pdf",
+      "date": "2026-07-09",
+      "arxiv_id": "2607.08772v1",
+      "url": "https://arxiv.org/abs/2607.08772v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.08772v1.pdf",
       "categories": [
-        "cs.CL",
-        "cs.AI",
+        "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "ZipDepth: Bringing Lightweight Zero-Shot Monocular Depth Anywhere, on Any Device",
+      "authors": "Fabio Tosi, Luca Bartolomei, Matteo Poggi et al.",
+      "abstract": "Monocular depth estimation has seen remarkable progress through foundation models achieving robust zero-shot generalization, yet their computational demands place them far beyond the reach of embedded and mobile platforms. Lightweight alternatives exist, but have been developed almost exclusively wi...",
+      "venue": "arXiv",
+      "date": "2026-07-09",
+      "arxiv_id": "2607.08771v1",
+      "url": "https://arxiv.org/abs/2607.08771v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.08771v1.pdf",
+      "categories": [
+        "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Score Accuracy Along the Forward Diffusion Does Not Certify Numerical Stability in Diffusion Sampling",
+      "authors": "Yiwei Zhou",
+      "abstract": "Score matching controls average error under the forward marginals, but a discretized reverse-time sampler evaluates the learned score along its own trajectory. We show that small forward-marginal error does not guarantee numerical stability. We construct a single smooth score field with arbitrarily ...",
+      "venue": "arXiv",
+      "date": "2026-07-09",
+      "arxiv_id": "2607.08757v1",
+      "url": "https://arxiv.org/abs/2607.08757v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.08757v1.pdf",
+      "categories": [
+        "stat.ML",
+        "cs.LG",
+        "math.NA"
+      ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "MulTTiPop: A Multitrack Transcription Dataset for Pop Music",
+      "authors": "Nathan Pruyne, Benjamin Stoler, William Chen et al.",
+      "abstract": "We present MulTTiPop, a dataset of pop music segments and their associated multitrack MIDI recordings for the evaluation of automatic music transcription models. MulTTiPop contains 572 segments of popular music totaling 3.5 hours of audio, and contains songs from diverse genres and decades from the ...",
+      "venue": "arXiv",
+      "date": "2026-07-09",
+      "arxiv_id": "2607.08756v1",
+      "url": "https://arxiv.org/abs/2607.08756v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.08756v1.pdf",
+      "categories": [
+        "cs.SD",
         "cs.LG"
       ],
-      "type": "nlp",
+      "type": "benchmark",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Selective Timestep Weighting and Advantage-Based Replay for Sample-Efficient Diffusion RLHF",
-      "authors": "Eric Zhu, Abhinav Shrivastava, Soumik Mukhopadhyay",
-      "abstract": "Reinforcement learning from human feedback (RLHF) has emerged as a powerful paradigm for aligning generative models with human preferences. However, applying RLHF to diffusion models remains highly feedback inefficient, as existing approaches typically require large amounts of human or reward model ...",
+      "title": "DexVerse: A Modular Benchmark for Multi-Task, Multi-Embodiment Dexterous Manipulation",
+      "authors": "Yunchao Yao, Zhuxiu Xu, Tianqi Zhang et al.",
+      "abstract": "Building general-purpose dexterous manipulation policies requires benchmarks that go beyond isolated tasks to systematically evaluate policies across diverse interaction modes, sensory conditions, and robot embodiments. However, existing benchmarks remain limited in task and data diversity, embodime...",
       "venue": "arXiv",
-      "date": "2026-07-08",
-      "arxiv_id": "2607.07693v1",
-      "url": "https://arxiv.org/abs/2607.07693v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.07693v1.pdf",
+      "date": "2026-07-09",
+      "arxiv_id": "2607.08751v1",
+      "url": "https://arxiv.org/abs/2607.08751v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.08751v1.pdf",
       "categories": [
-        "cs.LG",
-        "cs.AI",
-        "cs.CV"
+        "cs.RO"
       ],
-      "type": "vision",
+      "type": "benchmark",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Scaling Mixture-of-Experts Video Pretraining for Embodied Intelligence",
-      "authors": "Shuailei Ma, Jiaqi Liao, Xinyang Wang et al.",
-      "abstract": "Despite the recent promise in robot control, video generative models suffer from a domain mismatch due to their primary focus on content creation. For example, their design inherently prioritizes visual fidelity and creativity over computational efficiency and physical realism. In this work, we pres...",
+      "title": "ContactMimic: Humanoid Object Interaction via Contact Control",
+      "authors": "Xinyao Li, Xialin He, Runpei Dong et al.",
+      "abstract": "Keypoint tracking alone is insufficient for object interaction tasks such as sitting on a chair, wiping a board, or pushing furniture, where the robot can reach the correct pose without making meaningful physical contact with the object. We present CONTACTMIMIC, a learning framework that tracks expl...",
       "venue": "arXiv",
-      "date": "2026-07-08",
-      "arxiv_id": "2607.07675v1",
-      "url": "https://arxiv.org/abs/2607.07675v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.07675v1.pdf",
-      "categories": [
-        "cs.CV"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Continuous and large-scale: ELEANOR, the soft architected arm inspired by the elephant trunk",
-      "authors": "Giovanna A. Naselli, Anderson B. Nardin, Seonggun Joe et al.",
-      "abstract": "The elephant trunk is a dexterous and versatile manipulator whose performance is still unmatched in robotics. In previous works, modularity was prioritized and relatively small-scale continuum robots were built. We take the natural proboscis of the *Loxodonta africana* species as a model and propose...",
-      "venue": "arXiv",
-      "date": "2026-07-08",
-      "arxiv_id": "2607.07622v1",
-      "url": "https://arxiv.org/abs/2607.07622v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.07622v1.pdf",
+      "date": "2026-07-09",
+      "arxiv_id": "2607.08742v1",
+      "url": "https://arxiv.org/abs/2607.08742v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.08742v1.pdf",
       "categories": [
         "cs.RO"
       ],
       "type": "ai",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Dual Latent Memory in Vision-Language-Action Models for Robotic Manipulation",
-      "authors": "Hongyu Qu, Jianzhe Gao, Xiaobin Hu et al.",
-      "abstract": "Mainstream Vision-Language-Action (VLA) models predict actions primarily from the current observation under a Markovian assumption, thus struggling with long-horizon, temporally dependent tasks. Existing memory-augmented VLAs either expand the observation window or retrieve history from the memory b...",
-      "venue": "arXiv",
-      "date": "2026-07-08",
-      "arxiv_id": "2607.07608v1",
-      "url": "https://arxiv.org/abs/2607.07608v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.07608v1.pdf",
-      "categories": [
-        "cs.RO",
-        "cs.CV"
-      ],
-      "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     }
