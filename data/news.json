@@ -1,7 +1,7 @@
 {
   "last_updated": "2026-07-10",
   "count": 200,
-  "history_count": 205,
+  "history_count": 200,
   "retention_days": 30,
   "items": [
     {
@@ -41,9 +41,9 @@
       ]
     },
     {
-      "title": "*   [Latest](http://techcrunch.com/latest/)",
+      "title": "Published Time: Fri, 26 Jun 2026 17:16:11 GMT",
       "link": "https://techcrunch.com/category/artificial-intelligence/",
-      "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
+      "summary": "Published Time: Fri, 26 Jun 2026 17:16:11 GMT...",
       "date": "2026-07-10",
       "source": "TechCrunch",
       "type": "industry",
