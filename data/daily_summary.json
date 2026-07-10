@@ -1,6 +1,6 @@
 {
-  "date": "2026-07-09",
-  "last_updated": "2026-07-09",
+  "date": "2026-07-10",
+  "last_updated": "2026-07-10",
   "categories": {
     "ai": {
       "name": "人工智能",
@@ -8,11 +8,11 @@
       "count": 5,
       "items": [
         {
-          "title": "具身测评界的珠峰来了：RoboDojo",
-          "link": "https://www.qbitai.com/?s=具身测评界的珠峰来了",
-          "summary": "具身测评界的珠峰来了：RoboDojo...",
+          "title": "Markdown Content:",
+          "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+          "summary": "Markdown Content:...",
           "date": "2026-07-09",
-          "source": "量子位",
+          "source": "机器之心",
           "type": "industry",
           "tags": [
             "AI",
@@ -20,11 +20,11 @@
           ]
         },
         {
-          "title": "Hugging Face论文月榜第一",
-          "link": "https://www.qbitai.com/?s=Hugging Fa",
-          "summary": "Hugging Face论文月榜第一...",
+          "title": "Zero-Shot、长记忆、抗干扰，DM0.5把VLA带进真实世界",
+          "link": "https://www.jiqizhixin.com/search/articles/Zero-Shot、长记忆、抗",
+          "summary": "Zero-Shot、长记忆、抗干扰，DM0.5把VLA带进真实世界...",
           "date": "2026-07-09",
-          "source": "量子位",
+          "source": "机器之心",
           "type": "industry",
           "tags": [
             "AI",
@@ -32,11 +32,11 @@
           ]
         },
         {
-          "title": "已与芯片设计公司、晶圆代工厂和存储器供应商展开接洽",
-          "link": "https://www.qbitai.com/?s=已与芯片设计公司、晶",
-          "summary": "已与芯片设计公司、晶圆代工厂和存储器供应商展开接洽...",
+          "title": "不用人工标注，GUI Agent跑起「数据飞轮」：快手、浙大开源MobileForge",
+          "link": "https://www.jiqizhixin.com/search/articles/不用人工标注，GUI Agen",
+          "summary": "不用人工标注，GUI Agent跑起「数据飞轮」：快手、浙大开源MobileForge...",
           "date": "2026-07-09",
-          "source": "量子位",
+          "source": "机器之心",
           "type": "industry",
           "tags": [
             "AI",
@@ -44,27 +44,27 @@
           ]
         },
         {
-          "title": "Published Time: Tue, 23 Jun 2026 02:06:19 GMT",
-          "link": "https://techcrunch.com/category/artificial-intelligence/",
-          "summary": "Published Time: Tue, 23 Jun 2026 02:06:19 GMT...",
+          "title": "AI 一路狂飙，详细盘点国内这些 「AI for Science」高校、公司、机构",
+          "link": "https://www.jiqizhixin.com/search/articles/AI 一路狂飙，详细盘点国内这",
+          "summary": "AI 一路狂飙，详细盘点国内这些 「AI for Science」高校、公司、机构...",
           "date": "2026-07-09",
-          "source": "TechCrunch",
+          "source": "机器之心",
           "type": "industry",
           "tags": [
             "AI",
-            "Artificial Intelligence"
+            "人工智能"
           ]
         },
         {
-          "title": "*   [Latest](http://techcrunch.com/latest/)",
-          "link": "https://techcrunch.com/category/artificial-intelligence/",
-          "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
+          "title": "最适合机器人的视频基座模型，被中国团队开源了",
+          "link": "https://www.jiqizhixin.com/search/articles/最适合机器人的视频基座模型，被",
+          "summary": "最适合机器人的视频基座模型，被中国团队开源了...",
           "date": "2026-07-09",
-          "source": "TechCrunch",
+          "source": "机器之心",
           "type": "industry",
           "tags": [
             "AI",
-            "Artificial Intelligence"
+            "人工智能"
           ]
         }
       ]

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-09",
+  "last_updated": "2026-07-10",
   "count": 200,
   "items": [
     {
@@ -118,6 +118,19 @@
         "机器人学习",
         "研究论文",
         "arXiv"
+      ]
+    },
+    {
+      "title": "具身评测界的珠峰来了：RoboDojo",
+      "summary": "具身评测界的珠峰来了：RoboDojo",
+      "url": "http://36kr.com/p/3886887316500745",
+      "date": "2026-07-08",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
       ]
     },
     {
@@ -3066,22 +3079,6 @@
       "type": "paper",
       "arxiv_id": "2606.07449v1",
       "authors": "Artem Angelchev-Shiryaev, Pavel E. Aleshin et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Re-imagining ISO 26262 in the Age of Autonomous Vehicles: Enhancing Controllability through Transferability and Predictability",
-      "summary": "The ISO 26262 standard defines functional safety for road vehicles through risk assessments based on Severity, Exposure, and Controllability, grounded in a human-driven vehicle paradigm. In the context of autonomous vehicles (AVs), the absence of a h...",
-      "url": "https://arxiv.org/abs/2606.07437v1",
-      "date": "2026-06-05",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.07437v1",
-      "authors": "Chaitanya Shinde, Hadi Hajieghrary et al.",
       "tags": [
         "机器人学习",
         "研究论文",

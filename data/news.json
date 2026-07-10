@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-07-09",
+  "last_updated": "2026-07-10",
   "count": 200,
-  "history_count": 200,
+  "history_count": 205,
   "retention_days": 30,
   "items": [
     {
       "title": "具身测评界的珠峰来了：RoboDojo",
       "link": "https://www.qbitai.com/?s=具身测评界的珠峰来了",
       "summary": "具身测评界的珠峰来了：RoboDojo...",
-      "date": "2026-07-09",
+      "date": "2026-07-10",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -20,7 +20,7 @@
       "title": "Hugging Face论文月榜第一",
       "link": "https://www.qbitai.com/?s=Hugging Fa",
       "summary": "Hugging Face论文月榜第一...",
-      "date": "2026-07-09",
+      "date": "2026-07-10",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -32,7 +32,7 @@
       "title": "已与芯片设计公司、晶圆代工厂和存储器供应商展开接洽",
       "link": "https://www.qbitai.com/?s=已与芯片设计公司、晶",
       "summary": "已与芯片设计公司、晶圆代工厂和存储器供应商展开接洽...",
-      "date": "2026-07-09",
+      "date": "2026-07-10",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -41,15 +41,87 @@
       ]
     },
     {
-      "title": "Published Time: Tue, 23 Jun 2026 02:06:19 GMT",
+      "title": "*   [Latest](http://techcrunch.com/latest/)",
       "link": "https://techcrunch.com/category/artificial-intelligence/",
-      "summary": "Published Time: Tue, 23 Jun 2026 02:06:19 GMT...",
-      "date": "2026-07-09",
+      "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
+      "date": "2026-07-10",
       "source": "TechCrunch",
       "type": "industry",
       "tags": [
         "AI",
         "Artificial Intelligence"
+      ]
+    },
+    {
+      "title": "Markdown Content:",
+      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+      "summary": "Markdown Content:...",
+      "date": "2026-07-09",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "Zero-Shot、长记忆、抗干扰，DM0.5把VLA带进真实世界",
+      "link": "https://www.jiqizhixin.com/search/articles/Zero-Shot、长记忆、抗",
+      "summary": "Zero-Shot、长记忆、抗干扰，DM0.5把VLA带进真实世界...",
+      "date": "2026-07-09",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "不用人工标注，GUI Agent跑起「数据飞轮」：快手、浙大开源MobileForge",
+      "link": "https://www.jiqizhixin.com/search/articles/不用人工标注，GUI Agen",
+      "summary": "不用人工标注，GUI Agent跑起「数据飞轮」：快手、浙大开源MobileForge...",
+      "date": "2026-07-09",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "AI 一路狂飙，详细盘点国内这些 「AI for Science」高校、公司、机构",
+      "link": "https://www.jiqizhixin.com/search/articles/AI 一路狂飙，详细盘点国内这",
+      "summary": "AI 一路狂飙，详细盘点国内这些 「AI for Science」高校、公司、机构...",
+      "date": "2026-07-09",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "最适合机器人的视频基座模型，被中国团队开源了",
+      "link": "https://www.jiqizhixin.com/search/articles/最适合机器人的视频基座模型，被",
+      "summary": "最适合机器人的视频基座模型，被中国团队开源了...",
+      "date": "2026-07-09",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "你的自教师模型还在用参考解吗？马普所联合清华大学推出d-OPSD，第一个针对扩散语言模型的在线自蒸馏学习",
+      "link": "https://www.jiqizhixin.com/search/articles/你的自教师模型还在用参考解吗？",
+      "summary": "你的自教师模型还在用参考解吗？马普所联合清华大学推出d-OPSD，第一个针对扩散语言模型的在线自蒸馏学习...",
+      "date": "2026-07-09",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
       ]
     },
     {
@@ -68,18 +140,6 @@
       "title": "蒸馏效果起飞！DOPD破解「特权幻觉」，让在线策略蒸馏更有效",
       "link": "https://www.jiqizhixin.com/search/articles/蒸馏效果起飞！DOPD破解「特",
       "summary": "蒸馏效果起飞！DOPD破解「特权幻觉」，让在线策略蒸馏更有效...",
-      "date": "2026-07-08",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Markdown Content:",
-      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-      "summary": "Markdown Content:...",
       "date": "2026-07-08",
       "source": "机器之心",
       "type": "industry",
@@ -2337,66 +2397,6 @@
       "link": "https://www.jiqizhixin.com/search/articles/30分钟人类第一人称视频，零样",
       "summary": "30分钟人类第一人称视频，零样本教会机器人双臂操作｜马里兰大学提出HumanEgo...",
       "date": "2026-06-13",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "AI创作新时代，英特尔锐炫™ Pro B70 GPU 释放专业算力潜能",
-      "link": "https://www.qbitai.com/?s=AI创作新时代，英特",
-      "summary": "AI创作新时代，英特尔锐炫™ Pro B70 GPU 释放专业算力潜能...",
-      "date": "2026-06-13",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "2026智源大会：一场技术硬核的AI年度盛会",
-      "link": "https://www.jiqizhixin.com/search/articles/2026智源大会：一场技术硬核",
-      "summary": "2026智源大会：一场技术硬核的AI年度盛会...",
-      "date": "2026-06-12",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Claude Fable 5最难档零分！智能体的最后考试来了",
-      "link": "https://www.jiqizhixin.com/search/articles/Claude Fable 5最",
-      "summary": "Claude Fable 5最难档零分！智能体的最后考试来了...",
-      "date": "2026-06-12",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "入围CVPR 2026最佳论文决选，ViT³用「测试时训练」突破Transformer复杂度瓶颈",
-      "link": "https://www.jiqizhixin.com/search/articles/入围CVPR 2026最佳论文",
-      "summary": "入围CVPR 2026最佳论文决选，ViT³用「测试时训练」突破Transformer复杂度瓶颈...",
-      "date": "2026-06-12",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "5秒攻破，仅需1次对话：Fable 5最强安全机制被华人团队破解",
-      "link": "https://www.jiqizhixin.com/search/articles/5秒攻破，仅需1次对话：Fab",
-      "summary": "5秒攻破，仅需1次对话：Fable 5最强安全机制被华人团队破解...",
-      "date": "2026-06-12",
       "source": "机器之心",
       "type": "industry",
       "tags": [
