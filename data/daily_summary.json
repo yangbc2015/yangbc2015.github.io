@@ -8,18 +8,6 @@
       "count": 5,
       "items": [
         {
-          "title": "Markdown Content:",
-          "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-          "summary": "Markdown Content:...",
-          "date": "2026-07-10",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
           "title": "刚刚，百度搭子全面升级，要让Agent接住人类90%以上的活",
           "link": "https://www.jiqizhixin.com/search/articles/刚刚，百度搭子全面升级，要让A",
           "summary": "刚刚，百度搭子全面升级，要让Agent接住人类90%以上的活...",
@@ -61,6 +49,18 @@
           "summary": "今天，具身智能大模型迈入「具身原生」的新阶段！...",
           "date": "2026-07-10",
           "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "从FP64到INT8，全精度覆盖。",
+          "link": "https://www.qbitai.com/?s=从FP64到INT8",
+          "summary": "从FP64到INT8，全精度覆盖。...",
+          "date": "2026-07-11",
+          "source": "量子位",
           "type": "industry",
           "tags": [
             "AI",
