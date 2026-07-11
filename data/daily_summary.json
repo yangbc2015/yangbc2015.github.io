@@ -1,6 +1,6 @@
 {
-  "date": "2026-07-10",
-  "last_updated": "2026-07-10",
+  "date": "2026-07-11",
+  "last_updated": "2026-07-11",
   "categories": {
     "ai": {
       "name": "人工智能",
@@ -8,10 +8,10 @@
       "count": 5,
       "items": [
         {
-          "title": "Zero-Shot、长记忆、抗干扰，DM0.5把VLA带进真实世界",
-          "link": "https://www.jiqizhixin.com/search/articles/Zero-Shot、长记忆、抗",
-          "summary": "Zero-Shot、长记忆、抗干扰，DM0.5把VLA带进真实世界...",
-          "date": "2026-07-09",
+          "title": "Markdown Content:",
+          "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+          "summary": "Markdown Content:...",
+          "date": "2026-07-10",
           "source": "机器之心",
           "type": "industry",
           "tags": [
@@ -20,10 +20,10 @@
           ]
         },
         {
-          "title": "不用人工标注，GUI Agent跑起「数据飞轮」：快手、浙大开源MobileForge",
-          "link": "https://www.jiqizhixin.com/search/articles/不用人工标注，GUI Agen",
-          "summary": "不用人工标注，GUI Agent跑起「数据飞轮」：快手、浙大开源MobileForge...",
-          "date": "2026-07-09",
+          "title": "刚刚，百度搭子全面升级，要让Agent接住人类90%以上的活",
+          "link": "https://www.jiqizhixin.com/search/articles/刚刚，百度搭子全面升级，要让A",
+          "summary": "刚刚，百度搭子全面升级，要让Agent接住人类90%以上的活...",
+          "date": "2026-07-10",
           "source": "机器之心",
           "type": "industry",
           "tags": [
@@ -32,11 +32,11 @@
           ]
         },
         {
-          "title": "视频生成的下一站，或是机器人大脑",
-          "link": "https://www.qbitai.com/?s=视频生成的下一站，或",
-          "summary": "视频生成的下一站，或是机器人大脑...",
+          "title": "「十万卡时代」，谁在定义新标准？",
+          "link": "https://www.jiqizhixin.com/search/articles/「十万卡时代」，谁在定义新标准",
+          "summary": "「十万卡时代」，谁在定义新标准？...",
           "date": "2026-07-10",
-          "source": "量子位",
+          "source": "机器之心",
           "type": "industry",
           "tags": [
             "AI",
@@ -44,11 +44,11 @@
           ]
         },
         {
-          "title": "具身测评界的珠峰来了：RoboDojo",
-          "link": "https://www.qbitai.com/?s=具身测评界的珠峰来了",
-          "summary": "具身测评界的珠峰来了：RoboDojo...",
+          "title": "ICML 2026 | 图像编辑进入「交互理解」时代，北大提出HOI-Edit基准与SCPE自纠错框架",
+          "link": "https://www.jiqizhixin.com/search/articles/ICML 2026 | 图像编",
+          "summary": "ICML 2026 | 图像编辑进入「交互理解」时代，北大提出HOI-Edit基准与SCPE自纠错框架...",
           "date": "2026-07-10",
-          "source": "量子位",
+          "source": "机器之心",
           "type": "industry",
           "tags": [
             "AI",
@@ -56,15 +56,15 @@
           ]
         },
         {
-          "title": "Published Time: Thu, 08 May 2025 23:15:48 GMT",
-          "link": "https://techcrunch.com/category/artificial-intelligence/",
-          "summary": "Published Time: Thu, 08 May 2025 23:15:48 GMT...",
+          "title": "今天，具身智能大模型迈入「具身原生」的新阶段！",
+          "link": "https://www.jiqizhixin.com/search/articles/今天，具身智能大模型迈入「具身",
+          "summary": "今天，具身智能大模型迈入「具身原生」的新阶段！...",
           "date": "2026-07-10",
-          "source": "TechCrunch",
+          "source": "机器之心",
           "type": "industry",
           "tags": [
             "AI",
-            "Artificial Intelligence"
+            "人工智能"
           ]
         }
       ]
