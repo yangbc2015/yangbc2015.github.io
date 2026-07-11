@@ -3,9 +3,9 @@
   "count": 200,
   "items": [
     {
-      "title": "[亮相上海国际 具 身 智 能 产业博览会，「女娲农业科技」发布新一代畜牧 具 身 智 能 机器人ELR",
-      "summary": "[亮相上海国际 具 身 智 能 产业博览会，「女娲农业科技」发布新一代畜牧 具 身 智 能 机器人ELR",
-      "url": "http://36kr.com/p/3879961980875015",
+      "title": "[36氪首发 | 三个月融三轮，上交大00后博士让 具 身 智 能 仿生扑翼机器人理解并驾驭流体",
+      "summary": "[36氪首发 | 三个月融三轮，上交大00后博士让 具 身 智 能 仿生扑翼机器人理解并驾驭流体",
+      "url": "http://36kr.com/p/3889516712065799",
       "date": "2026-07-11",
       "source": "36氪",
       "category": "机器人",
@@ -37,6 +37,18 @@
       "tags": [
         "机器人",
         "具身智能"
+      ]
+    },
+    {
+      "title": "[亮相上海国际 具 身 智 能 产业博览会，「女娲农业科技」发布新一代畜牧 具 身 智 能 机器人ELR",
+      "summary": "[亮相上海国际 具 身 智 能 产业博览会，「女娲农业科技」发布新一代畜牧 具 身 智 能 机器人ELR",
+      "url": "http://36kr.com/p/3879961980875015",
+      "date": "2026-07-11",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
       ]
     },
     {
@@ -3063,22 +3075,6 @@
       "type": "paper",
       "arxiv_id": "2606.09811v1",
       "authors": "Jisong Cai, Long Ling et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "SynManDex: Synthesizing Human-like Dexterous Grasps from Synthetic Human Pre-Grasps",
-      "summary": "Human hand-object interactions encode functional intent, but direct transfer to robotic hands often fails under morphology, contact, and reachability constraints. We present SynManDex, a synthetic pipeline that uses generated human pre-grasps as affo...",
-      "url": "https://arxiv.org/abs/2606.09798v1",
-      "date": "2026-06-08",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.09798v1",
-      "authors": "Yanming Shao, Zanxin Chen et al.",
       "tags": [
         "机器人学习",
         "研究论文",

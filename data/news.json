@@ -1,9 +1,21 @@
 {
   "last_updated": "2026-07-11",
   "count": 200,
-  "history_count": 200,
+  "history_count": 201,
   "retention_days": 30,
   "items": [
+    {
+      "title": "从FP64到INT8，全精度覆盖。",
+      "link": "https://www.qbitai.com/?s=从FP64到INT8",
+      "summary": "从FP64到INT8，全精度覆盖。...",
+      "date": "2026-07-11",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
     {
       "title": "视频生成的下一站，或是机器人大脑",
       "link": "https://www.qbitai.com/?s=视频生成的下一站，或",
@@ -2384,18 +2396,6 @@
       "title": "AI圈懵了：一家巴西市政IT公司开源的大模型，杀进了全球第一梯队",
       "link": "https://www.jiqizhixin.com/search/articles/AI圈懵了：一家巴西市政IT公",
       "summary": "AI圈懵了：一家巴西市政IT公司开源的大模型，杀进了全球第一梯队...",
-      "date": "2026-06-14",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "图片越糊越危险？西湖大学发现多模态大模型「攻击舒适区」",
-      "link": "https://www.jiqizhixin.com/search/articles/图片越糊越危险？西湖大学发现多",
-      "summary": "图片越糊越危险？西湖大学发现多模态大模型「攻击舒适区」...",
       "date": "2026-06-14",
       "source": "机器之心",
       "type": "industry",
