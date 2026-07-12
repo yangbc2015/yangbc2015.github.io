@@ -1,9 +1,33 @@
 {
   "last_updated": "2026-07-12",
   "count": 200,
-  "history_count": 200,
+  "history_count": 202,
   "retention_days": 30,
   "items": [
+    {
+      "title": "老黄在ComputeX发布的“超级芯片”，已经在真机中落地了",
+      "link": "https://www.qbitai.com/?s=老黄在Compute",
+      "summary": "老黄在ComputeX发布的“超级芯片”，已经在真机中落地了...",
+      "date": "2026-07-12",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "为了帮你看清具身数据行业，我们总结了以下十个行业现状",
+      "link": "https://www.qbitai.com/?s=为了帮你看清具身数据",
+      "summary": "为了帮你看清具身数据行业，我们总结了以下十个行业现状...",
+      "date": "2026-07-12",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
     {
       "title": "从FP64到INT8，全精度覆盖。",
       "link": "https://www.qbitai.com/?s=从FP64到INT8",
@@ -29,9 +53,9 @@
       ]
     },
     {
-      "title": "Published Time: Thu, 08 May 2025 23:15:48 GMT",
+      "title": "*   [Latest](http://techcrunch.com/latest/)",
       "link": "https://techcrunch.com/category/artificial-intelligence/",
-      "summary": "Published Time: Thu, 08 May 2025 23:15:48 GMT...",
+      "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
       "date": "2026-07-12",
       "source": "TechCrunch",
       "type": "industry",
@@ -2372,30 +2396,6 @@
       "title": "2026年玩AI必备技能：不是提示词，是循环工程",
       "link": "https://www.jiqizhixin.com/search/articles/2026年玩AI必备技能：不是",
       "summary": "2026年玩AI必备技能：不是提示词，是循环工程...",
-      "date": "2026-06-15",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "给音视频生成打草稿！复旦&腾讯提出Bat：首创语音蓝图指引，实现音画逻辑精准同步",
-      "link": "https://www.jiqizhixin.com/search/articles/给音视频生成打草稿！复旦&腾讯",
-      "summary": "给音视频生成打草稿！复旦&腾讯提出Bat：首创语音蓝图指引，实现音画逻辑精准同步...",
-      "date": "2026-06-15",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "腾讯Robotics X开源HyVLA-0.5：基于亚毫米级指套UMI与真机强化，摆脱繁重遥操",
-      "link": "https://www.jiqizhixin.com/search/articles/腾讯Robotics X开源H",
-      "summary": "腾讯Robotics X开源HyVLA-0.5：基于亚毫米级指套UMI与真机强化，摆脱繁重遥操...",
       "date": "2026-06-15",
       "source": "机器之心",
       "type": "industry",
