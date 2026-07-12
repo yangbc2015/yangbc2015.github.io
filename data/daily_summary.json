@@ -1,6 +1,6 @@
 {
-  "date": "2026-07-11",
-  "last_updated": "2026-07-11",
+  "date": "2026-07-12",
+  "last_updated": "2026-07-12",
   "categories": {
     "ai": {
       "name": "人工智能",
@@ -8,59 +8,59 @@
       "count": 5,
       "items": [
         {
-          "title": "刚刚，百度搭子全面升级，要让Agent接住人类90%以上的活",
-          "link": "https://www.jiqizhixin.com/search/articles/刚刚，百度搭子全面升级，要让A",
-          "summary": "刚刚，百度搭子全面升级，要让Agent接住人类90%以上的活...",
-          "date": "2026-07-10",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
-          "title": "「十万卡时代」，谁在定义新标准？",
-          "link": "https://www.jiqizhixin.com/search/articles/「十万卡时代」，谁在定义新标准",
-          "summary": "「十万卡时代」，谁在定义新标准？...",
-          "date": "2026-07-10",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
-          "title": "ICML 2026 | 图像编辑进入「交互理解」时代，北大提出HOI-Edit基准与SCPE自纠错框架",
-          "link": "https://www.jiqizhixin.com/search/articles/ICML 2026 | 图像编",
-          "summary": "ICML 2026 | 图像编辑进入「交互理解」时代，北大提出HOI-Edit基准与SCPE自纠错框架...",
-          "date": "2026-07-10",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
-          "title": "今天，具身智能大模型迈入「具身原生」的新阶段！",
-          "link": "https://www.jiqizhixin.com/search/articles/今天，具身智能大模型迈入「具身",
-          "summary": "今天，具身智能大模型迈入「具身原生」的新阶段！...",
-          "date": "2026-07-10",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
-          "title": "从FP64到INT8，全精度覆盖。",
-          "link": "https://www.qbitai.com/?s=从FP64到INT8",
-          "summary": "从FP64到INT8，全精度覆盖。...",
+          "title": "Markdown Content:",
+          "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+          "summary": "Markdown Content:...",
           "date": "2026-07-11",
-          "source": "量子位",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "用同一套语言读懂分子、蛋白与文本，BioMatrix推动生物大模型走向原生统一建模",
+          "link": "https://www.jiqizhixin.com/search/articles/用同一套语言读懂分子、蛋白与文",
+          "summary": "用同一套语言读懂分子、蛋白与文本，BioMatrix推动生物大模型走向原生统一建模...",
+          "date": "2026-07-11",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "100+小时干湿闭环直播：把idea交给「科研工厂」，让科学发现像调用云服务一样简单",
+          "link": "https://www.jiqizhixin.com/search/articles/100+小时干湿闭环直播：把i",
+          "summary": "100+小时干湿闭环直播：把idea交给「科研工厂」，让科学发现像调用云服务一样简单...",
+          "date": "2026-07-11",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "顶会Poster整活大赛：我的NeurIPS论文中了ICML",
+          "link": "https://www.jiqizhixin.com/search/articles/顶会Poster整活大赛：我的",
+          "summary": "顶会Poster整活大赛：我的NeurIPS论文中了ICML...",
+          "date": "2026-07-11",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "ECCV 2026 | 实时导演多镜头长视频! 港中文&快手可灵发布ShotStream",
+          "link": "https://www.jiqizhixin.com/search/articles/ECCV 2026 | 实时导",
+          "summary": "ECCV 2026 | 实时导演多镜头长视频! 港中文&快手可灵发布ShotStream...",
+          "date": "2026-07-11",
+          "source": "机器之心",
           "type": "industry",
           "tags": [
             "AI",
