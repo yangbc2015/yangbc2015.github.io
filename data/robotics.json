@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-07-12",
+  "last_updated": "2026-07-13",
   "count": 200,
   "items": [
     {
       "title": "[36氪首发 | 三个月融三轮，上交大00后博士让 具 身 智 能 仿生扑翼机器人理解并驾驭流体",
       "summary": "[36氪首发 | 三个月融三轮，上交大00后博士让 具 身 智 能 仿生扑翼机器人理解并驾驭流体",
       "url": "http://36kr.com/p/3889516712065799",
-      "date": "2026-07-12",
+      "date": "2026-07-13",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
@@ -18,7 +18,7 @@
       "title": "[他山科技联合图灵奖得主萨顿共建“机器人幼儿园”，具 身 智 能 从“模仿时代”迈向“经验时代”",
       "summary": "[他山科技联合图灵奖得主萨顿共建“机器人幼儿园”，具 身 智 能 从“模仿时代”迈向“经验时代”",
       "url": "http://36kr.com/p/3889294775958276",
-      "date": "2026-07-12",
+      "date": "2026-07-13",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
@@ -37,6 +37,18 @@
       "tags": [
         "机器人",
         "具身智能"
+      ]
+    },
+    {
+      "title": "让机器人实现从借助流体飞行到驾驭流体飞行",
+      "summary": "让机器人实现从借助流体飞行到驾驭流体飞行",
+      "url": "http://36kr.com/p/3889516712065799",
+      "date": "2026-07-11",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
       ]
     },
     {
@@ -3052,22 +3064,6 @@
       "type": "paper",
       "arxiv_id": "2606.11088v1",
       "authors": "Zhiwei Li, Haiou Liu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "MemoryVLA++: Temporal Modeling via Memory and Imagination in Vision-Language-Action Models",
-      "summary": "Temporal modeling is essential for robotic manipulation, as effective control requires both memory of past interactions and imagination of future states. However, most VLA models rely primarily on the current observation and therefore struggle with l...",
-      "url": "https://arxiv.org/abs/2606.09827v1",
-      "date": "2026-06-08",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.09827v1",
-      "authors": "Hao Shi, Weiye Li et al.",
       "tags": [
         "机器人学习",
         "研究论文",
