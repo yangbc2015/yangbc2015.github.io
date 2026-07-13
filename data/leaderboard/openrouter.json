@@ -85,14 +85,6 @@
     },
     {
       "rank": 11,
-      "model": "hy3:free",
-      "organization": "tencent",
-      "price_prompt": "0",
-      "price_completion": "0",
-      "context_length": 262144
-    },
-    {
-      "rank": 12,
       "model": "hy3",
       "organization": "tencent",
       "price_prompt": "0.00000014",
@@ -100,19 +92,27 @@
       "context_length": 262144
     },
     {
-      "rank": 13,
-      "model": "laguna-xs-2.1:free",
-      "organization": "poolside",
+      "rank": 12,
+      "model": "hy3:free",
+      "organization": "tencent",
       "price_prompt": "0",
       "price_completion": "0",
       "context_length": 262144
     },
     {
-      "rank": 14,
+      "rank": 13,
       "model": "laguna-xs-2.1",
       "organization": "poolside",
       "price_prompt": "0.00000006",
       "price_completion": "0.00000012",
+      "context_length": 262144
+    },
+    {
+      "rank": 14,
+      "model": "laguna-xs-2.1:free",
+      "organization": "poolside",
+      "price_prompt": "0",
+      "price_completion": "0",
       "context_length": 262144
     },
     {
