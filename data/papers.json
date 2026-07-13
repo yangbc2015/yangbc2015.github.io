@@ -1,170 +1,140 @@
 {
   "last_updated": "2026-07-13",
-  "count": 10,
+  "count": 8,
   "items": [
     {
-      "title": "OpenCoF: Learning to Reason Through Video Generation",
-      "authors": "Xinyan Chen, Ziyu Guo, Renrui Zhang et al.",
-      "abstract": "Reasoning has become a core capability for large models, especially when reliable decisions require understanding logical consequences. Recent video generation models offer a reasoning path distinct from previous Chain-of-Thought (CoT): reasoning can unfold through temporally connected frames, known...",
+      "title": "PHINN-EEG: Topological Time-Series Analysis of Dream-State EEG -- Dynamic Betti Curves for Dream Content Classification and Topology-Conditioned Neural Signal Synthesis",
+      "authors": "Ren Takahashi, Emre Yusuf, Jayabrata Bhaduri",
+      "abstract": "Current electroencephalography (EEG)-based dream detection relies on power spectral density (PSD) and statistical moment features, achieving a state-of-the-art area under the receiver operating characteristic curve (AUC) of approximately 0.70 on the DREAM database (Wong et al., 2025, Nature Communic...",
       "venue": "arXiv",
-      "date": "2026-07-09",
-      "arxiv_id": "2607.08763v1",
-      "url": "https://arxiv.org/abs/2607.08763v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.08763v1.pdf",
+      "date": "2026-07-10",
+      "arxiv_id": "2607.09662v1",
+      "url": "https://arxiv.org/abs/2607.09662v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.09662v1.pdf",
       "categories": [
-        "cs.CV",
-        "cs.AI"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Ideas Have Genomes: Benchmarking Scientific Lineage Reasoning and Lineage-Grounded Idea Generation",
-      "authors": "Yifan Zhou, Qihao Yang, Yan Li et al.",
-      "abstract": "Scientific ideas rarely start from a blank page. They inherit mechanisms, repair known limitations, and recombine pieces of earlier work, much like biological genomes. Current benchmarks still say little about whether AI systems can follow this inheritance structure. We present IdeaGene-Bench (IG-Be...",
-      "venue": "arXiv",
-      "date": "2026-07-09",
-      "arxiv_id": "2607.08758v1",
-      "url": "https://arxiv.org/abs/2607.08758v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.08758v1.pdf",
-      "categories": [
-        "cs.AI"
-      ],
-      "type": "benchmark",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "UniClawBench: A Universal Benchmark for Proactive Agents on Real-World Tasks",
-      "authors": "Zhekai Chen, Chengqi Duan, Kaiyue Sun et al.",
-      "abstract": "The rapid development of large language models and multimodal large language models has accelerated the emergence of proactive agents capable of operating everyday tools and assisting users in real-world environments. However, existing benchmarks struggle to evaluate such agents effectively, as they...",
-      "venue": "arXiv",
-      "date": "2026-07-09",
-      "arxiv_id": "2607.08768v1",
-      "url": "https://arxiv.org/abs/2607.08768v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.08768v1.pdf",
-      "categories": [
-        "cs.CL"
-      ],
-      "type": "benchmark",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Validity of LLMs as data annotators: AMALIA on authority",
-      "authors": "Manuel Pita",
-      "abstract": "A national language model offers a linguistic community its own instrument for measuring what its citizens say and value. Portugal's AMALIA, a publicly funded 9B-parameter model for European Portuguese, appears competitive on agreement alone: asked to code the moral foundation of authority, it agree...",
-      "venue": "arXiv",
-      "date": "2026-07-09",
-      "arxiv_id": "2607.08731v1",
-      "url": "https://arxiv.org/abs/2607.08731v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.08731v1.pdf",
-      "categories": [
-        "cs.CL",
+        "q-bio.NC",
         "cs.AI",
-        "cs.CY"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Wat3R: Underwater 3D Geometry Learning without Annotations",
-      "authors": "Jiangwei Ren, Xingyu Jiang, Zijie Song et al.",
-      "abstract": "Estimating 3D geometry in underwater environments presents unique challenges due to light attenuation, scattering, and the absence of large-scale, high-quality 3D annotations. Pioneering methods rely on massive dense annotations that are impractical in underwater settings. In this paper, we propose ...",
-      "venue": "arXiv",
-      "date": "2026-07-09",
-      "arxiv_id": "2607.08772v1",
-      "url": "https://arxiv.org/abs/2607.08772v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.08772v1.pdf",
-      "categories": [
-        "cs.CV"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "ZipDepth: Bringing Lightweight Zero-Shot Monocular Depth Anywhere, on Any Device",
-      "authors": "Fabio Tosi, Luca Bartolomei, Matteo Poggi et al.",
-      "abstract": "Monocular depth estimation has seen remarkable progress through foundation models achieving robust zero-shot generalization, yet their computational demands place them far beyond the reach of embedded and mobile platforms. Lightweight alternatives exist, but have been developed almost exclusively wi...",
-      "venue": "arXiv",
-      "date": "2026-07-09",
-      "arxiv_id": "2607.08771v1",
-      "url": "https://arxiv.org/abs/2607.08771v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.08771v1.pdf",
-      "categories": [
-        "cs.CV"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Score Accuracy Along the Forward Diffusion Does Not Certify Numerical Stability in Diffusion Sampling",
-      "authors": "Yiwei Zhou",
-      "abstract": "Score matching controls average error under the forward marginals, but a discretized reverse-time sampler evaluates the learned score along its own trajectory. We show that small forward-marginal error does not guarantee numerical stability. We construct a single smooth score field with arbitrarily ...",
-      "venue": "arXiv",
-      "date": "2026-07-09",
-      "arxiv_id": "2607.08757v1",
-      "url": "https://arxiv.org/abs/2607.08757v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.08757v1.pdf",
-      "categories": [
-        "stat.ML",
-        "cs.LG",
-        "math.NA"
+        "cs.LG"
       ],
       "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "MulTTiPop: A Multitrack Transcription Dataset for Pop Music",
-      "authors": "Nathan Pruyne, Benjamin Stoler, William Chen et al.",
-      "abstract": "We present MulTTiPop, a dataset of pop music segments and their associated multitrack MIDI recordings for the evaluation of automatic music transcription models. MulTTiPop contains 572 segments of popular music totaling 3.5 hours of audio, and contains songs from diverse genres and decades from the ...",
+      "title": "Scalable Visual Pretraining for Language Intelligence",
+      "authors": "Yiming Zhang, Zhonghan Zhao, Wenwei Zhang et al.",
+      "abstract": "The rapid progress of large foundation models has been driven predominantly by pretraining on large-scale text corpora. However, many forms of knowledge are conveyed through visual representations, where figures, typeset equations, and page layouts carry rich information that cannot be faithfully or...",
       "venue": "arXiv",
-      "date": "2026-07-09",
-      "arxiv_id": "2607.08756v1",
-      "url": "https://arxiv.org/abs/2607.08756v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.08756v1.pdf",
+      "date": "2026-07-10",
+      "arxiv_id": "2607.09657v1",
+      "url": "https://arxiv.org/abs/2607.09657v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.09657v1.pdf",
       "categories": [
-        "cs.SD",
-        "cs.LG"
+        "cs.CV",
+        "cs.AI",
+        "cs.MM"
       ],
-      "type": "benchmark",
+      "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "DexVerse: A Modular Benchmark for Multi-Task, Multi-Embodiment Dexterous Manipulation",
-      "authors": "Yunchao Yao, Zhuxiu Xu, Tianqi Zhang et al.",
-      "abstract": "Building general-purpose dexterous manipulation policies requires benchmarks that go beyond isolated tasks to systematically evaluate policies across diverse interaction modes, sensory conditions, and robot embodiments. However, existing benchmarks remain limited in task and data diversity, embodime...",
+      "title": "Task-Specific Multimodal Question Answering Agents via Confidence Calibration and Incremental Reasoning for QANTA 2026",
+      "authors": "Nirjhar Das, Md. Al-Mamun Provath",
+      "abstract": "We present our submission to the QANTA 2026 shared challenge at the ICML 2026 Workshop on Efficient Multimodal Question Answering (EMM-QA). Quanta evaluates multimodal quizbowl systems that answer pyramid-style questions from incrementally revealed text and accompanying images while operating under ...",
       "venue": "arXiv",
-      "date": "2026-07-09",
-      "arxiv_id": "2607.08751v1",
-      "url": "https://arxiv.org/abs/2607.08751v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.08751v1.pdf",
+      "date": "2026-07-10",
+      "arxiv_id": "2607.09623v1",
+      "url": "https://arxiv.org/abs/2607.09623v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.09623v1.pdf",
       "categories": [
-        "cs.RO"
+        "cs.CL",
+        "cs.AI"
       ],
-      "type": "benchmark",
+      "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "ContactMimic: Humanoid Object Interaction via Contact Control",
-      "authors": "Xinyao Li, Xialin He, Runpei Dong et al.",
-      "abstract": "Keypoint tracking alone is insufficient for object interaction tasks such as sitting on a chair, wiping a board, or pushing furniture, where the robot can reach the correct pose without making meaningful physical contact with the object. We present CONTACTMIMIC, a learning framework that tracks expl...",
+      "title": "Toward Real-Time Sentence-Level Sign Language Translation",
+      "authors": "Thanh-Hoang Nguyen Doan",
+      "abstract": "Most sign language understanding systems operate at the level of isolated signs, limiting their usefulness in natural communication. We study sentence-level sign language translation (SLT) with the primary goal of real-time deployment rather than proposing a new translation architecture. We fine-tun...",
       "venue": "arXiv",
-      "date": "2026-07-09",
-      "arxiv_id": "2607.08742v1",
-      "url": "https://arxiv.org/abs/2607.08742v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.08742v1.pdf",
+      "date": "2026-07-10",
+      "arxiv_id": "2607.09611v1",
+      "url": "https://arxiv.org/abs/2607.09611v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.09611v1.pdf",
+      "categories": [
+        "cs.CL"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "PanoWorld: Real-World Panoramic Generation",
+      "authors": "Haoyuan Li, Dizhe Zhang, Yuemei Zhou et al.",
+      "abstract": "In this work, we aim to address the challenge of long-range memory in panoramic world models by exploiting the rotation-equivariant property of omnidirectional representations, where rotation can be treated as an implicit geometric transformation.Building on this insight, we propose PanoWorld, which...",
+      "venue": "arXiv",
+      "date": "2026-07-10",
+      "arxiv_id": "2607.09661v1",
+      "url": "https://arxiv.org/abs/2607.09661v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.09661v1.pdf",
+      "categories": [
+        "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Deep Gaussian Processes on Directed Acyclic Graphs",
+      "authors": "Federico L. Perlino, Oliver Hamelijnck, Adam M. Johansen et al.",
+      "abstract": "Many real-world processes can be represented as compositions of functions along a directed acyclic graph (DAG). In causal modelling, these correspond to the underlying mechanisms; in engineering, to multiple fidelity levels; and in gene-regulatory networks, to transcription factors. These functions ...",
+      "venue": "arXiv",
+      "date": "2026-07-10",
+      "arxiv_id": "2607.09645v1",
+      "url": "https://arxiv.org/abs/2607.09645v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.09645v1.pdf",
+      "categories": [
+        "stat.ML",
+        "cs.LG",
+        "math.ST"
+      ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "B-spline Policy: Accelerating Manipulation Policies via B-spline Action Representations",
+      "authors": "Xiaoshen Han, Haoyu Xiong, Haonan Chen et al.",
+      "abstract": "In this work, we present B-spline Policy (BSP), an action representation designed for accelerating robot manipulation policies. Rather than predicting discrete-time action chunks, BSP parameterizes actions as continuous B-spline curves defined by a set of knots and control points. This representatio...",
+      "venue": "arXiv",
+      "date": "2026-07-10",
+      "arxiv_id": "2607.09648v1",
+      "url": "https://arxiv.org/abs/2607.09648v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.09648v1.pdf",
       "categories": [
         "cs.RO"
       ],
       "type": "ai",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "PAC-ACT: Post-training Actor-Critic for Action Chunking Transformers",
+      "authors": "Yujie Pang, Zudong Li",
+      "abstract": "Precision industrial contact manipulation requires reliable robot policies under pose perturbations and contact-force constraints. Vision-language-action models offer broad generalization but often introduce high inference latency and GPU-memory cost, while vision-action chunking policies are more s...",
+      "venue": "arXiv",
+      "date": "2026-07-10",
+      "arxiv_id": "2607.09590v1",
+      "url": "https://arxiv.org/abs/2607.09590v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.09590v1.pdf",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     }
