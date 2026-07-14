@@ -8,18 +8,6 @@
       "count": 5,
       "items": [
         {
-          "title": "Agent携上百个Skills助我当大导演",
-          "link": "https://www.qbitai.com/?s=Agent携上百个S",
-          "summary": "Agent携上百个Skills助我当大导演...",
-          "date": "2026-07-14",
-          "source": "量子位",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
           "title": "机器人应该掌握什么技能，并不只取决于模型够不够强，而取决于构建这个技能产生的商业价值是否大于它所要数据的成本。",
           "link": "https://www.qbitai.com/?s=机器人应该掌握什么技",
           "summary": "机器人应该掌握什么技能，并不只取决于模型够不够强，而取决于构建这个技能产生的商业价值是否大于它所要数据的成本。...",
@@ -44,27 +32,39 @@
           ]
         },
         {
-          "title": "有人因为token用不完就连续工作，把自己整医院里去了",
-          "link": "https://www.qbitai.com/?s=有人因为token用",
-          "summary": "有人因为token用不完就连续工作，把自己整医院里去了...",
+          "title": "Published Time: Thu, 08 May 2025 23:15:48 GMT",
+          "link": "https://techcrunch.com/category/artificial-intelligence/",
+          "summary": "Published Time: Thu, 08 May 2025 23:15:48 GMT...",
           "date": "2026-07-14",
-          "source": "量子位",
+          "source": "TechCrunch",
           "type": "industry",
           "tags": [
             "AI",
-            "人工智能"
+            "Artificial Intelligence"
           ]
         },
         {
-          "title": "从人类认知范式，构建Physical AGI",
-          "link": "https://www.qbitai.com/?s=从人类认知范式，构建",
-          "summary": "从人类认知范式，构建Physical AGI...",
+          "title": "*   [Latest](http://techcrunch.com/latest/)",
+          "link": "https://techcrunch.com/category/artificial-intelligence/",
+          "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
           "date": "2026-07-14",
-          "source": "量子位",
+          "source": "TechCrunch",
           "type": "industry",
           "tags": [
             "AI",
-            "人工智能"
+            "Artificial Intelligence"
+          ]
+        },
+        {
+          "title": "*   [Startups](http://techcrunch.com/category/startups/)",
+          "link": "https://techcrunch.com/category/artificial-intelligence/",
+          "summary": "*   [Venture](http://techcrunch.com/category/venture/)",
+          "date": "2026-07-14",
+          "source": "TechCrunch",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "Artificial Intelligence"
           ]
         }
       ]
