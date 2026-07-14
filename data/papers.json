@@ -3,50 +3,14 @@
   "count": 8,
   "items": [
     {
-      "title": "PHINN-EEG: Topological Time-Series Analysis of Dream-State EEG -- Dynamic Betti Curves for Dream Content Classification and Topology-Conditioned Neural Signal Synthesis",
-      "authors": "Ren Takahashi, Emre Yusuf, Jayabrata Bhaduri",
-      "abstract": "Current electroencephalography (EEG)-based dream detection relies on power spectral density (PSD) and statistical moment features, achieving a state-of-the-art area under the receiver operating characteristic curve (AUC) of approximately 0.70 on the DREAM database (Wong et al., 2025, Nature Communic...",
+      "title": "Metacognition in LLMs: Foundations, Progress, and Opportunities",
+      "authors": "Gabrielle Kaili-May Liu, Areeb Gani, Jacqueline Lu et al.",
+      "abstract": "Metacognition is a foundational component of intelligence critical to effective learning, problem solving, decision-making, communication, and more. In recent years, it has become increasingly recognized as a cornerstone of capable, transparent AI systems. Yet while LLMs have made significant progre...",
       "venue": "arXiv",
-      "date": "2026-07-10",
-      "arxiv_id": "2607.09662v1",
-      "url": "https://arxiv.org/abs/2607.09662v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.09662v1.pdf",
-      "categories": [
-        "q-bio.NC",
-        "cs.AI",
-        "cs.LG"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Scalable Visual Pretraining for Language Intelligence",
-      "authors": "Yiming Zhang, Zhonghan Zhao, Wenwei Zhang et al.",
-      "abstract": "The rapid progress of large foundation models has been driven predominantly by pretraining on large-scale text corpora. However, many forms of knowledge are conveyed through visual representations, where figures, typeset equations, and page layouts carry rich information that cannot be faithfully or...",
-      "venue": "arXiv",
-      "date": "2026-07-10",
-      "arxiv_id": "2607.09657v1",
-      "url": "https://arxiv.org/abs/2607.09657v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.09657v1.pdf",
-      "categories": [
-        "cs.CV",
-        "cs.AI",
-        "cs.MM"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Task-Specific Multimodal Question Answering Agents via Confidence Calibration and Incremental Reasoning for QANTA 2026",
-      "authors": "Nirjhar Das, Md. Al-Mamun Provath",
-      "abstract": "We present our submission to the QANTA 2026 shared challenge at the ICML 2026 Workshop on Efficient Multimodal Question Answering (EMM-QA). Quanta evaluates multimodal quizbowl systems that answer pyramid-style questions from incrementally revealed text and accompanying images while operating under ...",
-      "venue": "arXiv",
-      "date": "2026-07-10",
-      "arxiv_id": "2607.09623v1",
-      "url": "https://arxiv.org/abs/2607.09623v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.09623v1.pdf",
+      "date": "2026-07-13",
+      "arxiv_id": "2607.11881v1",
+      "url": "https://arxiv.org/abs/2607.11881v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.11881v1.pdf",
       "categories": [
         "cs.CL",
         "cs.AI"
@@ -56,64 +20,97 @@
       "source": "arXiv"
     },
     {
-      "title": "Toward Real-Time Sentence-Level Sign Language Translation",
-      "authors": "Thanh-Hoang Nguyen Doan",
-      "abstract": "Most sign language understanding systems operate at the level of isolated signs, limiting their usefulness in natural communication. We study sentence-level sign language translation (SLT) with the primary goal of real-time deployment rather than proposing a new translation architecture. We fine-tun...",
+      "title": "Invariant Learning Dynamics of Transformers in Inductive Reasoning Tasks",
+      "authors": "Tiberiu Musat, Tiago Pimentel, Nicholas Zucchet et al.",
+      "abstract": "We present a theoretical framework to explain the emergence of inductive reasoning abilities in Transformer language models. While previous works on Transformer learning dynamics have so far been mostly tied to specific tasks, we study a generalized class of inductive tasks that unifies several synt...",
       "venue": "arXiv",
-      "date": "2026-07-10",
-      "arxiv_id": "2607.09611v1",
-      "url": "https://arxiv.org/abs/2607.09611v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.09611v1.pdf",
+      "date": "2026-07-13",
+      "arxiv_id": "2607.11875v1",
+      "url": "https://arxiv.org/abs/2607.11875v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.11875v1.pdf",
       "categories": [
-        "cs.CL"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "PanoWorld: Real-World Panoramic Generation",
-      "authors": "Haoyuan Li, Dizhe Zhang, Yuemei Zhou et al.",
-      "abstract": "In this work, we aim to address the challenge of long-range memory in panoramic world models by exploiting the rotation-equivariant property of omnidirectional representations, where rotation can be treated as an implicit geometric transformation.Building on this insight, we propose PanoWorld, which...",
-      "venue": "arXiv",
-      "date": "2026-07-10",
-      "arxiv_id": "2607.09661v1",
-      "url": "https://arxiv.org/abs/2607.09661v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.09661v1.pdf",
-      "categories": [
-        "cs.CV"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Deep Gaussian Processes on Directed Acyclic Graphs",
-      "authors": "Federico L. Perlino, Oliver Hamelijnck, Adam M. Johansen et al.",
-      "abstract": "Many real-world processes can be represented as compositions of functions along a directed acyclic graph (DAG). In causal modelling, these correspond to the underlying mechanisms; in engineering, to multiple fidelity levels; and in gene-regulatory networks, to transcription factors. These functions ...",
-      "venue": "arXiv",
-      "date": "2026-07-10",
-      "arxiv_id": "2607.09645v1",
-      "url": "https://arxiv.org/abs/2607.09645v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.09645v1.pdf",
-      "categories": [
-        "stat.ML",
         "cs.LG",
-        "math.ST"
+        "cs.AI"
       ],
       "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "B-spline Policy: Accelerating Manipulation Policies via B-spline Action Representations",
-      "authors": "Xiaoshen Han, Haoyu Xiong, Haonan Chen et al.",
-      "abstract": "In this work, we present B-spline Policy (BSP), an action representation designed for accelerating robot manipulation policies. Rather than predicting discrete-time action chunks, BSP parameterizes actions as continuous B-spline curves defined by a set of knots and control points. This representatio...",
+      "title": "A Durability and Cross-Language Transfer Benchmark for a Validated Teaching-Feedback Classification Protocol",
+      "authors": "Esteban U. Vega Barajas",
+      "abstract": "Institutions collect far more open-ended teaching-evaluation feedback than they read. A prior study introduced a validated protocol for classifying such comments by thematic category and sentiment, built from a documented annotation guide, an intra-annotator reliability measurement, stratified cross...",
       "venue": "arXiv",
-      "date": "2026-07-10",
-      "arxiv_id": "2607.09648v1",
-      "url": "https://arxiv.org/abs/2607.09648v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.09648v1.pdf",
+      "date": "2026-07-13",
+      "arxiv_id": "2607.11873v1",
+      "url": "https://arxiv.org/abs/2607.11873v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.11873v1.pdf",
+      "categories": [
+        "cs.CL",
+        "cs.LG"
+      ],
+      "type": "benchmark",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Read It Back: Pretrained MLLMs Are Zero-Shot Reward Models for Text-to-Image Generation",
+      "authors": "Runhui Huang, Qihui Zhang, Zhe Liu et al.",
+      "abstract": "In this paper, we propose SpectraReward, a training-free reward function that turns pretrained MLLMs into off-the-shelf reward models for image-generation reinforcement learning. Instead of asking the MLLM to judge a generated image or answer decomposed verification questions, SpectraReward measures...",
+      "venue": "arXiv",
+      "date": "2026-07-13",
+      "arxiv_id": "2607.11886v1",
+      "url": "https://arxiv.org/abs/2607.11886v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.11886v1.pdf",
+      "categories": [
+        "cs.CV"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Latent-Identity Tuning in Text-to-Image Personalization Models",
+      "authors": "Daniel Garibi, Ronen Kamenetsky, Hadar Averbuch-Elor et al.",
+      "abstract": "Generating and editing a person's face demands high precision, as even minor modifications can significantly alter a subject's perceived identity. Current personalization and editing methods built on general-purpose text-to-image models, however, often lack the precision required for fine-grained fa...",
+      "venue": "arXiv",
+      "date": "2026-07-13",
+      "arxiv_id": "2607.11885v1",
+      "url": "https://arxiv.org/abs/2607.11885v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.11885v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.GR"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Requential Coding: Pushing the Limits of Model Compression with Self-Generated Training Data",
+      "authors": "Shikai Qiu, Marc Finzi, Yujia Zheng et al.",
+      "abstract": "Compression is fundamental to intelligence. A model that can represent its training data as a short code has discovered regularities that enable generalization. Large neural networks may learn functions far simpler than their parameter counts suggest, but it is challenging to construct codes that re...",
+      "venue": "arXiv",
+      "date": "2026-07-13",
+      "arxiv_id": "2607.11883v1",
+      "url": "https://arxiv.org/abs/2607.11883v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.11883v1.pdf",
+      "categories": [
+        "cs.LG"
+      ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Mixture of Frames Policy: Multi-Frame Action Denoising for Bimanual Mobile Manipulation",
+      "authors": "Dian Wang, Jisang Park, Xiaomeng Xu et al.",
+      "abstract": "Robotic manipulation is inherently multi-frame: local actions may be simple in an end-effector frame, while transport, upright-object handling, and whole-body coordination are better represented in a base-aligned frame. However, modern diffusion-based visuomotor policies typically commit to a single...",
+      "venue": "arXiv",
+      "date": "2026-07-13",
+      "arxiv_id": "2607.11884v1",
+      "url": "https://arxiv.org/abs/2607.11884v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.11884v1.pdf",
       "categories": [
         "cs.RO"
       ],
@@ -122,17 +119,18 @@
       "source": "arXiv"
     },
     {
-      "title": "PAC-ACT: Post-training Actor-Critic for Action Chunking Transformers",
-      "authors": "Yujie Pang, Zudong Li",
-      "abstract": "Precision industrial contact manipulation requires reliable robot policies under pose perturbations and contact-force constraints. Vision-language-action models offer broad generalization but often introduce high inference latency and GPU-memory cost, while vision-action chunking policies are more s...",
+      "title": "A Minimalist Retargeting-Guided Reinforcement Learning Recipe for Dexterous Manipulation",
+      "authors": "Yunhai Feng, Natalie Leung, Jiaxuan Wang et al.",
+      "abstract": "Recent work in humanoid whole-body control has found success with a simple recipe: retarget human motion to robot kinematic references, then train policies via reinforcement learning (RL) to track them. But how does this recipe transfer to dexterous manipulation? The answer is not obvious, as manipu...",
       "venue": "arXiv",
-      "date": "2026-07-10",
-      "arxiv_id": "2607.09590v1",
-      "url": "https://arxiv.org/abs/2607.09590v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.09590v1.pdf",
+      "date": "2026-07-13",
+      "arxiv_id": "2607.11874v1",
+      "url": "https://arxiv.org/abs/2607.11874v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.11874v1.pdf",
       "categories": [
         "cs.RO",
-        "cs.AI"
+        "cs.AI",
+        "cs.LG"
       ],
       "type": "ml",
       "badge": "arxiv",

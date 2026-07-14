@@ -8,18 +8,6 @@
       "count": 5,
       "items": [
         {
-          "title": "Markdown Content:",
-          "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-          "summary": "Markdown Content:...",
-          "date": "2026-07-13",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
           "title": "创投伙伴｜【赛博刷街】今天只玩真实的！Future Tech创新孵化馆沉浸式打卡指南！",
           "link": "https://www.jiqizhixin.com/search/articles/创投伙伴｜【赛博刷街】今天只玩",
           "summary": "创投伙伴｜【赛博刷街】今天只玩真实的！Future Tech创新孵化馆沉浸式打卡指南！...",
@@ -56,11 +44,23 @@
           ]
         },
         {
-          "title": "全球首款半人马机器人问世，润科具能开启具身智能新形态",
-          "link": "https://www.jiqizhixin.com/search/articles/全球首款半人马机器人问世，润科",
-          "summary": "全球首款半人马机器人问世，润科具能开启具身智能新形态...",
-          "date": "2026-07-13",
-          "source": "机器之心",
+          "title": "Agent携上百个Skills助我当大导演",
+          "link": "https://www.qbitai.com/?s=Agent携上百个S",
+          "summary": "Agent携上百个Skills助我当大导演...",
+          "date": "2026-07-14",
+          "source": "量子位",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "机器人应该掌握什么技能，并不只取决于模型够不够强，而取决于构建这个技能产生的商业价值是否大于它所要数据的成本。",
+          "link": "https://www.qbitai.com/?s=机器人应该掌握什么技",
+          "summary": "机器人应该掌握什么技能，并不只取决于模型够不够强，而取决于构建这个技能产生的商业价值是否大于它所要数据的成本。...",
+          "date": "2026-07-14",
+          "source": "量子位",
           "type": "industry",
           "tags": [
             "AI",

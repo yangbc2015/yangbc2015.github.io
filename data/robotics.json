@@ -27,6 +27,86 @@
       ]
     },
     {
+      "title": "Mixture of Frames Policy: Multi-Frame Action Denoising for Bimanual Mobile Manipulation",
+      "summary": "Robotic manipulation is inherently multi-frame: local actions may be simple in an end-effector frame, while transport, upright-object handling, and whole-body coordination are better represented in a base-aligned frame. However, modern diffusion-base...",
+      "url": "https://arxiv.org/abs/2607.11884v1",
+      "date": "2026-07-13",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2607.11884v1",
+      "authors": "Dian Wang, Jisang Park et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "A Minimalist Retargeting-Guided Reinforcement Learning Recipe for Dexterous Manipulation",
+      "summary": "Recent work in humanoid whole-body control has found success with a simple recipe: retarget human motion to robot kinematic references, then train policies via reinforcement learning (RL) to track them. But how does this recipe transfer to dexterous ...",
+      "url": "https://arxiv.org/abs/2607.11874v1",
+      "date": "2026-07-13",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2607.11874v1",
+      "authors": "Yunhai Feng, Natalie Leung et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Robust bipedal locomotion on flowable slopes via foot-driven terrain manipulation",
+      "summary": "Bipedal robots are challenging to control because they operate close to instability, where small variations in foot-terrain contact can rapidly destabilize locomotion. On rigid terrain, bipedal robots mitigate this fragility by using well-established...",
+      "url": "https://arxiv.org/abs/2607.11855v1",
+      "date": "2026-07-13",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2607.11855v1",
+      "authors": "Deniz Kerimoglu, Junnosuke Kamohara et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Active Noise Floor Estimation for Reliability-Optimal POMDPs: A Value-of-Noise-Information Approach",
+      "summary": "Finite Reliability Representations (FRR) certify when a cell-constant policy is sufficient for reliable decision-making in a partially observed system with a known physical noise floor. In practice, however, sensing and execution noise can be latent ...",
+      "url": "https://arxiv.org/abs/2607.11822v1",
+      "date": "2026-07-13",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2607.11822v1",
+      "authors": "Hyung-Jin Yoon",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Casting Everything to Online API Services? A Survey of Integrating Localized Speech Recognition Models in Robotic Systems",
+      "summary": "Automatic speech recognition (ASR) has become a critical component of modern robotic systems because it is one of the most natural and intuitive ways for humans to interact with robots. A commonly used method is to directly use API services online. B...",
+      "url": "https://arxiv.org/abs/2607.11792v1",
+      "date": "2026-07-13",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2607.11792v1",
+      "authors": "Sheng Li, Jing Li et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
       "title": "[自研焊接具身大脑模型，以“智能焊工”切入工业制造 具 身 智 能 赛道，「昇视唯盛」完成数亿元B轮融资｜36氪首发",
       "summary": "[自研焊接具身大脑模型，以“智能焊工”切入工业制造 具 身 智 能 赛道，「昇视唯盛」完成数亿元B轮融资｜36氪首发",
       "url": "http://36kr.com/p/3887871679347208",
@@ -74,6 +154,31 @@
       "tags": [
         "机器人",
         "具身智能"
+      ]
+    },
+    {
+      "title": "具身智能缺真实数据，具身训练场靠众包做数据供应",
+      "summary": "具身智能缺真实数据，具身训练场靠众包做数据供应",
+      "url": "http://36kr.com/p/3889410697050633",
+      "date": "2026-07-10",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "6月29日，北京首钢园，“触碰真实·自主进化——机器人幼儿园启幕大会”隆重举行。",
+      "summary": "6月29日，北京首钢园，“触碰真实·自主进化——机器人幼儿园启幕大会”隆重举行。",
+      "url": "http://36kr.com/p/3889294775958276",
+      "date": "2026-07-10",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
       ]
     },
     {
@@ -154,31 +259,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "具身智能缺真实数据，具身训练场靠众包做数据供应",
-      "summary": "具身智能缺真实数据，具身训练场靠众包做数据供应",
-      "url": "http://36kr.com/p/3889410697050633",
-      "date": "2026-07-10",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "6月29日，北京首钢园，“触碰真实·自主进化——机器人幼儿园启幕大会”隆重举行。",
-      "summary": "6月29日，北京首钢园，“触碰真实·自主进化——机器人幼儿园启幕大会”隆重举行。",
-      "url": "http://36kr.com/p/3889294775958276",
-      "date": "2026-07-10",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
       ]
     },
     {
@@ -2991,83 +3071,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "World Pilot: Steering Vision-Language-Action Models with World-Action Priors",
-      "summary": "Vision-Language-Action (VLA) models inherit semantic grounding from large-scale pretraining and perform competently across in-distribution manipulation tasks. This grounding, however, is built on static image-text pairs, whereas manipulation is a con...",
-      "url": "https://arxiv.org/abs/2606.12403v1",
-      "date": "2026-06-10",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.12403v1",
-      "authors": "Zefu Lin, Rongxu Cui et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "DIRECT: When and Where Should You Allocate Test-Time Compute in Embodied Planners?",
-      "summary": "Vision-Language Models (VLMs) are increasingly deployed as high-level planners for embodied agents, with an emerging strategy of scaling test-time compute to improve capability. However, we observe that doing so increases latency, token usage, and FL...",
-      "url": "https://arxiv.org/abs/2606.12402v1",
-      "date": "2026-06-10",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.12402v1",
-      "authors": "Jadelynn Dao, Milan Ganai et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "VLGA: Vision-Language-Geometry-Action Models for Autonomous Driving",
-      "summary": "Vision-language-action (VLA) models can describe scenes and reason about them in language, yet still struggle to ground their actions in the dense 3D world around them. Existing approaches either inject features from a frozen 3D foundation model with...",
-      "url": "https://arxiv.org/abs/2606.12396v1",
-      "date": "2026-06-10",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.12396v1",
-      "authors": "Jin Yao, Dhruva Dixith Kurra et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Semantically-Aware Diver Activity Recognition Framework for Effective Underwater Multi-Human-Robot Collaboration",
-      "summary": "Effective multi-human-robot collaboration is essential for expanding human-led operations in the challenging and high-risk underwater environment. For autonomous underwater vehicles (AUVs) to become true teammates, they must be able to comprehend the...",
-      "url": "https://arxiv.org/abs/2606.12374v1",
-      "date": "2026-06-10",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.12374v1",
-      "authors": "Sadman Sakib Enan, Junaed Sattar",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "具身智能真正的护城河是那片能自我造血的“物理底座”。",
-      "summary": "具身智能真正的护城河是那片能自我造血的“物理底座”。",
-      "url": "http://36kr.com/p/3845718430238983",
-      "date": "2026-06-09",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
       ]
     }
   ]
