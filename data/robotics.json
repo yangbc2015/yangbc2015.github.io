@@ -6,7 +6,7 @@
       "title": "[36氪首发 | 三个月融三轮，上交大00后博士让 具 身 智 能 仿生扑翼机器人理解并驾驭流体",
       "summary": "[36氪首发 | 三个月融三轮，上交大00后博士让 具 身 智 能 仿生扑翼机器人理解并驾驭流体",
       "url": "http://36kr.com/p/3889516712065799",
-      "date": "2026-07-14",
+      "date": "2026-07-15",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
@@ -18,12 +18,92 @@
       "title": "[他山科技联合图灵奖得主萨顿共建“机器人幼儿园”，具 身 智 能 从“模仿时代”迈向“经验时代”",
       "summary": "[他山科技联合图灵奖得主萨顿共建“机器人幼儿园”，具 身 智 能 从“模仿时代”迈向“经验时代”",
       "url": "http://36kr.com/p/3889294775958276",
-      "date": "2026-07-14",
+      "date": "2026-07-15",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
       "tags": [
         "机器人"
+      ]
+    },
+    {
+      "title": "DenseReward: Dense Reward Learning via Failure Synthesis for Robotic Manipulation",
+      "summary": "Reinforcement learning holds great promise for improving robot policies beyond the limits of imitation learning. However, its practical adoption remains bottlenecked by the lack of reliable vision-language reward models that provide dense and informa...",
+      "url": "https://arxiv.org/abs/2607.13033v1",
+      "date": "2026-07-14",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2607.13033v1",
+      "authors": "Yu Fang, Wanxi Dong et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "TerraZero: Procedural Driving Simulation for Zero-Demonstration Self-Play at Scale",
+      "summary": "Training robust autonomous driving agents requires a simulator that is fast enough for reinforcement learning at scale, realistic enough to ground behavior in real-world map structure, and diverse enough to cover the safety-critical long tail that lo...",
+      "url": "https://arxiv.org/abs/2607.13028v1",
+      "date": "2026-07-14",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2607.13028v1",
+      "authors": "Zhouchonghao Wu, Akshay Rangesh et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "FlowWAM: Optical Flow as a Unified Action Representation for World Action Models",
+      "summary": "World Action Models (WAMs) are able to leverage pretrained video generators for both world modeling and action prediction. However, directly leveraging such video generators for control raises a new challenge: how to represent actions in a suitable f...",
+      "url": "https://arxiv.org/abs/2607.13017v1",
+      "date": "2026-07-14",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2607.13017v1",
+      "authors": "Yixiang Chen, Peiyan Li et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "ChunkFlow: Towards Continuity-Consistent Chunked Policy Learning",
+      "summary": "Vision-language action (VLA) models increasingly adopt chunked action heads to satisfy real-time constraints; however, this introduces boundary jitter: overlapping regions between consecutive chunks often yield inconsistent predictions, degrading tem...",
+      "url": "https://arxiv.org/abs/2607.12992v1",
+      "date": "2026-07-14",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2607.12992v1",
+      "authors": "Zhao Yang, Yinan Shi et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "MAMMOTH: A Multi-Modal End-to-End Policy for Off-Road Mobility Robust to Missing Modality",
+      "summary": "Reliable autonomous navigation in unstructured off-road environments remains a critical unsolved challenge due to extreme terrain diversity, drastic illumination variations and acute sensor degradation. Recent developments have approached the problem...",
+      "url": "https://arxiv.org/abs/2607.12965v1",
+      "date": "2026-07-14",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2607.12965v1",
+      "authors": "Ahaan Kotian, Shivani Subramanyan et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
       ]
     },
     {
@@ -2992,81 +3072,6 @@
       "type": "paper",
       "arxiv_id": "2606.13672v1",
       "authors": "Arnav Kumar Jain, Yilin Wu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "MCR-Bionic Hand: Anatomical Structural Priors for Dexterous Manipulation",
-      "summary": "Dexterous robotic hands are usually formulated as high dimensional active control systems governed by degrees of freedom, actuation, and algorithms. Human hand dexterity, however, is partly encoded in the physical architecture of bones, ligaments, te...",
-      "url": "https://arxiv.org/abs/2606.13601v1",
-      "date": "2026-06-11",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.13601v1",
-      "authors": "Haosen Yang, Guowu Wei",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "LabVLA: Grounding Vision-Language-Action Models in Scientific Laboratories",
-      "summary": "Scientific laboratories increasingly rely on AI systems to reason about experiments, but the physical act of doing science remains largely outside their reach. AI can help read literature, generate hypotheses, and plan protocols, yet the execution of...",
-      "url": "https://arxiv.org/abs/2606.13578v1",
-      "date": "2026-06-11",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.13578v1",
-      "authors": "Baochang Ren, Xinjie Liu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "[具 身 智 能 规模化元年，人形机器人“卖不动、租得火”",
-      "summary": "[具 身 智 能 规模化元年，人形机器人“卖不动、租得火”",
-      "url": "http://36kr.com/p/3815911066099457",
-      "date": "2026-06-11",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "人形机器人"
-      ]
-    },
-    {
-      "title": "两部委启动2026人形机器人与具身智能实景实训专项行动",
-      "summary": "两部委启动2026人形机器人与具身智能实景实训专项行动",
-      "url": "http://36kr.com/p/3846712950934022",
-      "date": "2026-06-10",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能",
-        "人形机器人"
-      ]
-    },
-    {
-      "title": "FACTR 2: Learning External Force Sensing for Commodity Robot Arms Improves Policy Learning",
-      "summary": "Contact-rich manipulation requires force sensitivity, but many robot arms lack dedicated force sensors due to their high cost. We present Neural External Torque Estimation (NEXT), a data-driven method that estimates external joint torques without nee...",
-      "url": "https://arxiv.org/abs/2606.12406v1",
-      "date": "2026-06-10",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.12406v1",
-      "authors": "Steven Oh, Jason Jingzhou Liu et al.",
       "tags": [
         "机器人学习",
         "研究论文",

@@ -1,136 +1,105 @@
 {
   "last_updated": "2026-07-15",
-  "count": 8,
+  "count": 6,
   "items": [
     {
-      "title": "Metacognition in LLMs: Foundations, Progress, and Opportunities",
-      "authors": "Gabrielle Kaili-May Liu, Areeb Gani, Jacqueline Lu et al.",
-      "abstract": "Metacognition is a foundational component of intelligence critical to effective learning, problem solving, decision-making, communication, and more. In recent years, it has become increasingly recognized as a cornerstone of capable, transparent AI systems. Yet while LLMs have made significant progre...",
+      "title": "Do AI Agents Know When a Task Is Simple? Toward Complexity-Aware Reasoning and Execution",
+      "authors": "Junjie Yin, Xinyu Feng",
+      "abstract": "Large language model (LLM) agents increasingly automate multi-step engineering and informatics workflows, yet they rarely ask how much effort a task actually requires. They often follow a maximum-context-first strategy--re-reading files and dependencies they have already seen--turning a one-line edi...",
       "venue": "arXiv",
-      "date": "2026-07-13",
-      "arxiv_id": "2607.11881v1",
-      "url": "https://arxiv.org/abs/2607.11881v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.11881v1.pdf",
+      "date": "2026-07-14",
+      "arxiv_id": "2607.13034v1",
+      "url": "https://arxiv.org/abs/2607.13034v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.13034v1.pdf",
       "categories": [
+        "cs.AI",
         "cs.CL",
-        "cs.AI"
+        "cs.SE"
       ],
       "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Invariant Learning Dynamics of Transformers in Inductive Reasoning Tasks",
-      "authors": "Tiberiu Musat, Tiago Pimentel, Nicholas Zucchet et al.",
-      "abstract": "We present a theoretical framework to explain the emergence of inductive reasoning abilities in Transformer language models. While previous works on Transformer learning dynamics have so far been mostly tied to specific tasks, we study a generalized class of inductive tasks that unifies several synt...",
+      "title": "TerraZero: Procedural Driving Simulation for Zero-Demonstration Self-Play at Scale",
+      "authors": "Zhouchonghao Wu, Akshay Rangesh, Weixin Li et al.",
+      "abstract": "Training robust autonomous driving agents requires a simulator that is fast enough for reinforcement learning at scale, realistic enough to ground behavior in real-world map structure, and diverse enough to cover the safety-critical long tail that logged data rarely contains. We present TerraZero, a...",
       "venue": "arXiv",
-      "date": "2026-07-13",
-      "arxiv_id": "2607.11875v1",
-      "url": "https://arxiv.org/abs/2607.11875v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.11875v1.pdf",
+      "date": "2026-07-14",
+      "arxiv_id": "2607.13028v1",
+      "url": "https://arxiv.org/abs/2607.13028v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.13028v1.pdf",
       "categories": [
         "cs.LG",
-        "cs.AI"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "A Durability and Cross-Language Transfer Benchmark for a Validated Teaching-Feedback Classification Protocol",
-      "authors": "Esteban U. Vega Barajas",
-      "abstract": "Institutions collect far more open-ended teaching-evaluation feedback than they read. A prior study introduced a validated protocol for classifying such comments by thematic category and sentiment, built from a documented annotation guide, an intra-annotator reliability measurement, stratified cross...",
-      "venue": "arXiv",
-      "date": "2026-07-13",
-      "arxiv_id": "2607.11873v1",
-      "url": "https://arxiv.org/abs/2607.11873v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.11873v1.pdf",
-      "categories": [
-        "cs.CL",
-        "cs.LG"
-      ],
-      "type": "benchmark",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Read It Back: Pretrained MLLMs Are Zero-Shot Reward Models for Text-to-Image Generation",
-      "authors": "Runhui Huang, Qihui Zhang, Zhe Liu et al.",
-      "abstract": "In this paper, we propose SpectraReward, a training-free reward function that turns pretrained MLLMs into off-the-shelf reward models for image-generation reinforcement learning. Instead of asking the MLLM to judge a generated image or answer decomposed verification questions, SpectraReward measures...",
-      "venue": "arXiv",
-      "date": "2026-07-13",
-      "arxiv_id": "2607.11886v1",
-      "url": "https://arxiv.org/abs/2607.11886v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.11886v1.pdf",
-      "categories": [
-        "cs.CV"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Latent-Identity Tuning in Text-to-Image Personalization Models",
-      "authors": "Daniel Garibi, Ronen Kamenetsky, Hadar Averbuch-Elor et al.",
-      "abstract": "Generating and editing a person's face demands high precision, as even minor modifications can significantly alter a subject's perceived identity. Current personalization and editing methods built on general-purpose text-to-image models, however, often lack the precision required for fine-grained fa...",
-      "venue": "arXiv",
-      "date": "2026-07-13",
-      "arxiv_id": "2607.11885v1",
-      "url": "https://arxiv.org/abs/2607.11885v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.11885v1.pdf",
-      "categories": [
-        "cs.CV",
-        "cs.GR"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Requential Coding: Pushing the Limits of Model Compression with Self-Generated Training Data",
-      "authors": "Shikai Qiu, Marc Finzi, Yujia Zheng et al.",
-      "abstract": "Compression is fundamental to intelligence. A model that can represent its training data as a short code has discovered regularities that enable generalization. Large neural networks may learn functions far simpler than their parameter counts suggest, but it is challenging to construct codes that re...",
-      "venue": "arXiv",
-      "date": "2026-07-13",
-      "arxiv_id": "2607.11883v1",
-      "url": "https://arxiv.org/abs/2607.11883v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.11883v1.pdf",
-      "categories": [
-        "cs.LG"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Mixture of Frames Policy: Multi-Frame Action Denoising for Bimanual Mobile Manipulation",
-      "authors": "Dian Wang, Jisang Park, Xiaomeng Xu et al.",
-      "abstract": "Robotic manipulation is inherently multi-frame: local actions may be simple in an end-effector frame, while transport, upright-object handling, and whole-body coordination are better represented in a base-aligned frame. However, modern diffusion-based visuomotor policies typically commit to a single...",
-      "venue": "arXiv",
-      "date": "2026-07-13",
-      "arxiv_id": "2607.11884v1",
-      "url": "https://arxiv.org/abs/2607.11884v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.11884v1.pdf",
-      "categories": [
+        "cs.AI",
         "cs.RO"
       ],
-      "type": "ai",
+      "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "A Minimalist Retargeting-Guided Reinforcement Learning Recipe for Dexterous Manipulation",
-      "authors": "Yunhai Feng, Natalie Leung, Jiaxuan Wang et al.",
-      "abstract": "Recent work in humanoid whole-body control has found success with a simple recipe: retarget human motion to robot kinematic references, then train policies via reinforcement learning (RL) to track them. But how does this recipe transfer to dexterous manipulation? The answer is not obvious, as manipu...",
+      "title": "PalmClaw: A Native On-Device Agent Framework for Mobile Phones",
+      "authors": "Hongru Cai, Yongqi Li, Ran Wei et al.",
+      "abstract": "Large Language Model (LLM) agents have moved beyond generating responses to executing multi-step tasks by calling tools, observing the results, and iteratively deciding the next action. Most agent systems run on desktops or servers, which support tool use and task automation. Mobile devices are also...",
       "venue": "arXiv",
-      "date": "2026-07-13",
-      "arxiv_id": "2607.11874v1",
-      "url": "https://arxiv.org/abs/2607.11874v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.11874v1.pdf",
+      "date": "2026-07-14",
+      "arxiv_id": "2607.13027v1",
+      "url": "https://arxiv.org/abs/2607.13027v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.13027v1.pdf",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "The Seriality Gap in Video Diffusion Models",
+      "authors": "Jorge Diaz Chao, Konpat Preechakul, Yuxi Liu et al.",
+      "abstract": "When one ball strikes another, then another, video models should predict the consequences of each bounce. In controlled experiments on multi-ball hard-sphere dynamics, we find that the performance of standard bidirectional video diffusion degrades as the causal chain lengthens, even when provided mo...",
+      "venue": "arXiv",
+      "date": "2026-07-14",
+      "arxiv_id": "2607.13031v1",
+      "url": "https://arxiv.org/abs/2607.13031v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.13031v1.pdf",
+      "categories": [
+        "cs.LG",
+        "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "FlowWAM: Optical Flow as a Unified Action Representation for World Action Models",
+      "authors": "Yixiang Chen, Peiyan Li, Yuan Xu et al.",
+      "abstract": "World Action Models (WAMs) are able to leverage pretrained video generators for both world modeling and action prediction. However, directly leveraging such video generators for control raises a new challenge: how to represent actions in a suitable form that aligns with pretrained video generators w...",
+      "venue": "arXiv",
+      "date": "2026-07-14",
+      "arxiv_id": "2607.13017v1",
+      "url": "https://arxiv.org/abs/2607.13017v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.13017v1.pdf",
       "categories": [
         "cs.RO",
-        "cs.AI",
-        "cs.LG"
+        "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "DenseReward: Dense Reward Learning via Failure Synthesis for Robotic Manipulation",
+      "authors": "Yu Fang, Wanxi Dong, Jiaqi Liu et al.",
+      "abstract": "Reinforcement learning holds great promise for improving robot policies beyond the limits of imitation learning. However, its practical adoption remains bottlenecked by the lack of reliable vision-language reward models that provide dense and informative feedback. Two key challenges remain: acquirin...",
+      "venue": "arXiv",
+      "date": "2026-07-14",
+      "arxiv_id": "2607.13033v1",
+      "url": "https://arxiv.org/abs/2607.13033v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.13033v1.pdf",
+      "categories": [
+        "cs.RO"
       ],
       "type": "ml",
       "badge": "arxiv",

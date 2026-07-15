@@ -103,8 +103,8 @@
       "rank": 13,
       "model": "hy3",
       "organization": "tencent",
-      "price_prompt": "0.00000014",
-      "price_completion": "0.00000058",
+      "price_prompt": "0.0000002",
+      "price_completion": "0.0000008",
       "context_length": 262144
     },
     {
