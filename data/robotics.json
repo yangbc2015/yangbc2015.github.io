@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-15",
+  "last_updated": "2026-07-16",
   "count": 200,
   "items": [
     {
@@ -104,6 +104,19 @@
         "机器人学习",
         "研究论文",
         "arXiv"
+      ]
+    },
+    {
+      "title": "具身智能，路漫漫其修远兮。",
+      "summary": "具身智能，路漫漫其修远兮。",
+      "url": "http://36kr.com/p/3893816015878664",
+      "date": "2026-07-14",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
       ]
     },
     {
@@ -3056,22 +3069,6 @@
       "type": "paper",
       "arxiv_id": "2606.13675v1",
       "authors": "Andy Tang, William Chen et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "$\\texttt{WEAVER}$, Better, Faster, Longer: An Effective World Model for Robotic Manipulation",
-      "summary": "The potential impacts of world models (WMs, i.e., learned simulators) on robotics are far-reaching -- policy evaluation, policy improvement, and test-time planning -- all with limited real-world interaction. To unlock these downstream capabilities, a...",
-      "url": "https://arxiv.org/abs/2606.13672v1",
-      "date": "2026-06-11",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.13672v1",
-      "authors": "Arnav Kumar Jain, Yilin Wu et al.",
       "tags": [
         "机器人学习",
         "研究论文",

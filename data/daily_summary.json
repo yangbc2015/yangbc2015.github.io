@@ -1,6 +1,6 @@
 {
-  "date": "2026-07-15",
-  "last_updated": "2026-07-15",
+  "date": "2026-07-16",
+  "last_updated": "2026-07-16",
   "categories": {
     "ai": {
       "name": "人工智能",
@@ -8,11 +8,11 @@
       "count": 5,
       "items": [
         {
-          "title": "FSD、Robotaxi共用一套模型",
-          "link": "https://www.qbitai.com/?s=FSD、Robota",
-          "summary": "FSD、Robotaxi共用一套模型...",
+          "title": "Markdown Content:",
+          "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+          "summary": "Markdown Content:...",
           "date": "2026-07-15",
-          "source": "量子位",
+          "source": "机器之心",
           "type": "industry",
           "tags": [
             "AI",
@@ -20,11 +20,11 @@
           ]
         },
         {
-          "title": "Agent携上百个Skills助我当大导演",
-          "link": "https://www.qbitai.com/?s=Agent携上百个S",
-          "summary": "Agent携上百个Skills助我当大导演...",
+          "title": "腾讯发布两大具身智能基座模型，VLM&RxBrain让机器人更懂现实世界",
+          "link": "https://www.jiqizhixin.com/search/articles/腾讯发布两大具身智能基座模型，",
+          "summary": "腾讯发布两大具身智能基座模型，VLM&RxBrain让机器人更懂现实世界...",
           "date": "2026-07-15",
-          "source": "量子位",
+          "source": "机器之心",
           "type": "industry",
           "tags": [
             "AI",
@@ -32,11 +32,11 @@
           ]
         },
         {
-          "title": "机器人应该掌握什么技能，并不只取决于模型够不够强，而取决于构建这个技能产生的商业价值是否大于它所要数据的成本。",
-          "link": "https://www.qbitai.com/?s=机器人应该掌握什么技",
-          "summary": "机器人应该掌握什么技能，并不只取决于模型够不够强，而取决于构建这个技能产生的商业价值是否大于它所要数据的成本。...",
+          "title": "世界模型迎来「真考场」：WorldArena 2.0 Challenge正式启动",
+          "link": "https://www.jiqizhixin.com/search/articles/世界模型迎来「真考场」：Wor",
+          "summary": "世界模型迎来「真考场」：WorldArena 2.0 Challenge正式启动...",
           "date": "2026-07-15",
-          "source": "量子位",
+          "source": "机器之心",
           "type": "industry",
           "tags": [
             "AI",
@@ -44,27 +44,27 @@
           ]
         },
         {
-          "title": "*   [Latest](http://techcrunch.com/latest/)",
-          "link": "https://techcrunch.com/category/artificial-intelligence/",
-          "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
+          "title": "主论坛丨WAIC 2026主论坛（下午场）重磅揭晓！",
+          "link": "https://www.jiqizhixin.com/search/articles/主论坛丨WAIC 2026主论",
+          "summary": "主论坛丨WAIC 2026主论坛（下午场）重磅揭晓！...",
           "date": "2026-07-15",
-          "source": "TechCrunch",
+          "source": "机器之心",
           "type": "industry",
           "tags": [
             "AI",
-            "Artificial Intelligence"
+            "人工智能"
           ]
         },
         {
-          "title": "*   [Startups](http://techcrunch.com/category/startups/)",
-          "link": "https://techcrunch.com/category/artificial-intelligence/",
-          "summary": "*   [Venture](http://techcrunch.com/category/venture/)",
+          "title": "干湿闭环实战6倍活性提升！上智院提出催化模型CatEmb，从2D分子图读懂3D电子效应",
+          "link": "https://www.jiqizhixin.com/search/articles/干湿闭环实战6倍活性提升！上智",
+          "summary": "干湿闭环实战6倍活性提升！上智院提出催化模型CatEmb，从2D分子图读懂3D电子效应...",
           "date": "2026-07-15",
-          "source": "TechCrunch",
+          "source": "机器之心",
           "type": "industry",
           "tags": [
             "AI",
-            "Artificial Intelligence"
+            "人工智能"
           ]
         }
       ]
