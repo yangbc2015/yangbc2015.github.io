@@ -3,6 +3,156 @@
   "count": 200,
   "items": [
     {
+      "title": "Figure AI发布新一代人形机器人Figure 02，具备更强的自主学习能力",
+      "summary": "Figure AI发布新一代人形机器人Figure 02，搭载最新视觉-语言-动作(VLA)模型，在工厂和仓储场景实现更高水平的自主操作。",
+      "url": "https://www.figure.ai",
+      "date": "2026-07-16",
+      "source": "行业动态",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "人形机器人",
+        "Figure"
+      ]
+    },
+    {
+      "title": "特斯拉Optimus人形机器人量产计划加速，预计2025年交付首批产品",
+      "summary": "马斯克表示Optimus人形机器人量产计划正在加速，特斯拉工厂已开始测试机器人执行简单装配任务。",
+      "url": "https://www.tesla.com/optimus",
+      "date": "2026-07-16",
+      "source": "行业动态",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "人形机器人",
+        "Optimus",
+        "特斯拉"
+      ]
+    },
+    {
+      "title": "宇树科技发布Unitree G1人形机器人，价格9.9万元起",
+      "summary": "宇树科技发布新一代人形机器人G1，身高约127cm，体重约35kg，具备23个自由度，面向教育和科研市场。",
+      "url": "https://www.unitree.com",
+      "date": "2026-07-16",
+      "source": "行业动态",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "人形机器人",
+        "宇树科技"
+      ]
+    },
+    {
+      "title": "英伟达发布GR00T人形机器人基础模型，为机器人提供大脑",
+      "summary": "NVIDIA发布人形机器人通用基础模型GR00T，结合Isaac Sim仿真平台，加速人形机器人开发。",
+      "url": "https://developer.nvidia.com/isaac",
+      "date": "2026-07-16",
+      "source": "行业动态",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能",
+        "英伟达",
+        "GR00T"
+      ]
+    },
+    {
+      "title": "智元机器人发布远征A2人形机器人，进入工业场景实测",
+      "summary": "智元机器人发布远征A2人形机器人，已在汽车工厂进行实际生产任务测试，展示零部件装配能力。",
+      "url": "https://www.zhiyuanrobot.com",
+      "date": "2026-07-16",
+      "source": "行业动态",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "人形机器人",
+        "智元机器人"
+      ]
+    },
+    {
+      "title": "波士顿动力Atlas机器人全面升级，电动版展现更强运动能力",
+      "summary": "波士顿动力发布全电动版Atlas机器人，相比液压版本运动更加流畅，可完成后空翻等复杂动作。",
+      "url": "https://bostondynamics.com/atlas",
+      "date": "2026-07-16",
+      "source": "行业动态",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "人形机器人",
+        "波士顿动力"
+      ]
+    },
+    {
+      "title": "PhysClaw-0: A Symbiotic Agentic System for Robot Autonomy via Language Corrections",
+      "summary": "Autonomous data collection governs the volume and quality of real-world trajectories for manipulation policy learning. Existing pipelines reduce human effort via self-resetting, VLM verification, or language-guided correction, yet episode-scoped fixe...",
+      "url": "https://arxiv.org/abs/2607.14047v1",
+      "date": "2026-07-15",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2607.14047v1",
+      "authors": "Boyuan Wang, Zhenyuan Zhang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Industrial Dexterity Benchmark: A Hardware-Software Benchmarking Platform for Industrial Dexterous Manipulation",
+      "summary": "Dexterous manipulation remains a critical bottleneck in industrial automation; tasks such as cable routing, connector insertion, and precision assembly still rely heavily on manual labor despite decades of robotics research. This work presents a prog...",
+      "url": "https://arxiv.org/abs/2607.14021v1",
+      "date": "2026-07-15",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2607.14021v1",
+      "authors": "Honglu He, Jacob Laufer et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "AeroMap3D: Anchoring Monocular UAV 6-DoF Localization to Visual-Geometric-Semantic Map Priors",
+      "summary": "We present AeroMap3D, a monocular 6-DoF UAV localization system that anchors onboard imagery to visual, geometric, and semantic map priors for GNSS-denied navigation. AeroMap3D addresses two fundamental challenges in map-referenced aerial localizatio...",
+      "url": "https://arxiv.org/abs/2607.14009v1",
+      "date": "2026-07-15",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2607.14009v1",
+      "authors": "Zhiyun Deng, Luis Sentis",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "M$^\\text{4}$World: A Multi-view Multimodal Driving World Model for Interactive Object Manipulation and Minute-long Streaming",
+      "summary": "Driving-world generation has emerged as a core capability for scalable autonomous-driving simulation, yet existing methods remain limited in object-level controllability and long-horizon stability. We present M$^\\text{4}$World, a Multi-view and Multi...",
+      "url": "https://arxiv.org/abs/2607.14005v1",
+      "date": "2026-07-15",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2607.14005v1",
+      "authors": "Ke Cheng, Hanqiao Ye et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
       "title": "[36氪首发 | 三个月融三轮，上交大00后博士让 具 身 智 能 仿生扑翼机器人理解并驾驭流体",
       "summary": "[36氪首发 | 三个月融三轮，上交大00后博士让 具 身 智 能 仿生扑翼机器人理解并驾驭流体",
       "url": "http://36kr.com/p/3889516712065799",
@@ -2028,92 +2178,6 @@
       ]
     },
     {
-      "title": "Figure AI发布新一代人形机器人Figure 02，具备更强的自主学习能力",
-      "summary": "Figure AI发布新一代人形机器人Figure 02，搭载最新视觉-语言-动作(VLA)模型，在工厂和仓储场景实现更高水平的自主操作。",
-      "url": "https://www.figure.ai",
-      "date": "2026-06-24",
-      "source": "行业动态",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "人形机器人",
-        "Figure"
-      ]
-    },
-    {
-      "title": "特斯拉Optimus人形机器人量产计划加速，预计2025年交付首批产品",
-      "summary": "马斯克表示Optimus人形机器人量产计划正在加速，特斯拉工厂已开始测试机器人执行简单装配任务。",
-      "url": "https://www.tesla.com/optimus",
-      "date": "2026-06-24",
-      "source": "行业动态",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "人形机器人",
-        "Optimus",
-        "特斯拉"
-      ]
-    },
-    {
-      "title": "宇树科技发布Unitree G1人形机器人，价格9.9万元起",
-      "summary": "宇树科技发布新一代人形机器人G1，身高约127cm，体重约35kg，具备23个自由度，面向教育和科研市场。",
-      "url": "https://www.unitree.com",
-      "date": "2026-06-24",
-      "source": "行业动态",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "人形机器人",
-        "宇树科技"
-      ]
-    },
-    {
-      "title": "英伟达发布GR00T人形机器人基础模型，为机器人提供大脑",
-      "summary": "NVIDIA发布人形机器人通用基础模型GR00T，结合Isaac Sim仿真平台，加速人形机器人开发。",
-      "url": "https://developer.nvidia.com/isaac",
-      "date": "2026-06-24",
-      "source": "行业动态",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能",
-        "英伟达",
-        "GR00T"
-      ]
-    },
-    {
-      "title": "智元机器人发布远征A2人形机器人，进入工业场景实测",
-      "summary": "智元机器人发布远征A2人形机器人，已在汽车工厂进行实际生产任务测试，展示零部件装配能力。",
-      "url": "https://www.zhiyuanrobot.com",
-      "date": "2026-06-24",
-      "source": "行业动态",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "人形机器人",
-        "智元机器人"
-      ]
-    },
-    {
-      "title": "波士顿动力Atlas机器人全面升级，电动版展现更强运动能力",
-      "summary": "波士顿动力发布全电动版Atlas机器人，相比液压版本运动更加流畅，可完成后空翻等复杂动作。",
-      "url": "https://bostondynamics.com/atlas",
-      "date": "2026-06-24",
-      "source": "行业动态",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "人形机器人",
-        "波士顿动力"
-      ]
-    },
-    {
       "title": "InSight: Self-Guided Skill Acquisition via Steerable VLAs",
       "summary": "Vision-language-action (VLA) models can learn manipulation skills from demonstrations, but their capabilities are bounded by the skills in the training data. We present InSight, a framework that unlocks autonomous skill acquisition by rendering VLAs ...",
       "url": "https://arxiv.org/abs/2606.24884v1",
@@ -3005,70 +3069,6 @@
       "type": "paper",
       "arxiv_id": "2606.14617v1",
       "authors": "Yongyan Cao",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Safe Reinforcement Learning of Autonomous Highway Driving: A Unified Framework for Safety and Efficiency",
-      "summary": "Deep reinforcement learning (DRL) offers a compelling route to decision-making for advanced autonomous vehicles (AVs), yet its trial-and-error nature makes it difficult to guarantee safety during training and to achieve both safety and efficiency at ...",
-      "url": "https://arxiv.org/abs/2606.14609v1",
-      "date": "2026-06-12",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.14609v1",
-      "authors": "Chufei Yan, Zhihao Cui et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Impedance MPC with Disturbance Estimation for Dexterous Hand Control",
-      "summary": "Dexterous hands must simultaneously track precise finger trajectories and maintain safe, compliant contact -- objectives in tension for any fixed-gain controller. We present an actuator-agnostic Impedance Model Predictive Control (Impedance MPC) fram...",
-      "url": "https://arxiv.org/abs/2606.14606v1",
-      "date": "2026-06-12",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.14606v1",
-      "authors": "Yongyan Cao",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Mana: Dexterous Manipulation of Articulated Tools",
-      "summary": "Articulated tool manipulation remains a major challenge in dexterous robotics due to the need to coordinate internal degrees of freedom and contact-rich interactions. While prior work has largely focused on rigid objects, articulated tool use remains...",
-      "url": "https://arxiv.org/abs/2606.13677v1",
-      "date": "2026-06-11",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.13677v1",
-      "authors": "Zhao-Heng Yin, Guanya Shi et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Improving Robotic Generalist Policies via Flow Reversal Steering",
-      "summary": "Generalist policies can learn a wide range of skills from diverse robot datasets. In order to solve or improve on challenging news tasks, we need a way to infer and invoke the appropriate actions from the policy's rich behavioral prior, especially wh...",
-      "url": "https://arxiv.org/abs/2606.13675v1",
-      "date": "2026-06-11",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.13675v1",
-      "authors": "Andy Tang, William Chen et al.",
       "tags": [
         "机器人学习",
         "研究论文",

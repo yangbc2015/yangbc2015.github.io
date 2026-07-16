@@ -1,107 +1,168 @@
 {
   "last_updated": "2026-07-16",
-  "count": 6,
+  "count": 10,
   "items": [
     {
-      "title": "Do AI Agents Know When a Task Is Simple? Toward Complexity-Aware Reasoning and Execution",
-      "authors": "Junjie Yin, Xinyu Feng",
-      "abstract": "Large language model (LLM) agents increasingly automate multi-step engineering and informatics workflows, yet they rarely ask how much effort a task actually requires. They often follow a maximum-context-first strategy--re-reading files and dependencies they have already seen--turning a one-line edi...",
+      "title": "Deep Interaction: An Efficient Human-AI Interaction Method for Large Reasoning Models",
+      "authors": "Hefeng Zhou, Jinxuan Zhang, Jiong Lou et al.",
+      "abstract": "The emergence of Chain-of-Thought (CoT) reasoning has significantly enhanced the ability of large language models (LLMs) to tackle complex, multi-step tasks. However, when errors occur, current interaction approaches typically involve re-generating another response that may make mistakes again, or u...",
       "venue": "arXiv",
-      "date": "2026-07-14",
-      "arxiv_id": "2607.13034v1",
-      "url": "https://arxiv.org/abs/2607.13034v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.13034v1.pdf",
+      "date": "2026-07-15",
+      "arxiv_id": "2607.14049v1",
+      "url": "https://arxiv.org/abs/2607.14049v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.14049v1.pdf",
       "categories": [
-        "cs.AI",
-        "cs.CL",
-        "cs.SE"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "TerraZero: Procedural Driving Simulation for Zero-Demonstration Self-Play at Scale",
-      "authors": "Zhouchonghao Wu, Akshay Rangesh, Weixin Li et al.",
-      "abstract": "Training robust autonomous driving agents requires a simulator that is fast enough for reinforcement learning at scale, realistic enough to ground behavior in real-world map structure, and diverse enough to cover the safety-critical long tail that logged data rarely contains. We present TerraZero, a...",
-      "venue": "arXiv",
-      "date": "2026-07-14",
-      "arxiv_id": "2607.13028v1",
-      "url": "https://arxiv.org/abs/2607.13028v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.13028v1.pdf",
-      "categories": [
-        "cs.LG",
-        "cs.AI",
-        "cs.RO"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "PalmClaw: A Native On-Device Agent Framework for Mobile Phones",
-      "authors": "Hongru Cai, Yongqi Li, Ran Wei et al.",
-      "abstract": "Large Language Model (LLM) agents have moved beyond generating responses to executing multi-step tasks by calling tools, observing the results, and iteratively deciding the next action. Most agent systems run on desktops or servers, which support tool use and task automation. Mobile devices are also...",
-      "venue": "arXiv",
-      "date": "2026-07-14",
-      "arxiv_id": "2607.13027v1",
-      "url": "https://arxiv.org/abs/2607.13027v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.13027v1.pdf",
-      "categories": [
-        "cs.CL",
         "cs.AI"
       ],
+      "type": "ai",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Earthquaker-AI: A Retrieval-Augmented Generation Framework with Rubric-Based Assessment for Primary School Earthquake Education",
+      "authors": "Xanthi Kokkinou, Chaido Mizeli, Nafsika Koulaxidou et al.",
+      "abstract": "This paper presents Earthquaker-AI, a hybrid educational framework building upon a previously implemented educational robotics project by integrating a conversational AI assistant based on Retrieval-Augmented Generation. It aims to enhance earthquake preparedness and conscious action among primary-s...",
+      "venue": "arXiv",
+      "date": "2026-07-15",
+      "arxiv_id": "2607.14046v1",
+      "url": "https://arxiv.org/abs/2607.14046v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.14046v1.pdf",
+      "categories": [
+        "cs.AI"
+      ],
+      "type": "ai",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Hindcast: Replaying Prediction Markets to Evaluate LLM Forecasters",
+      "authors": "Xiao Ye, Jacob Dineen, Evan Zhu et al.",
+      "abstract": "Forecasters are evaluated by backtesting, which replays resolved questions and grades the probability the system would have assigned before the outcome was known. For LLMs, two channels leak the answer into this test. A model that retrieves can surface reports written after the event, turning foreca...",
+      "venue": "arXiv",
+      "date": "2026-07-15",
+      "arxiv_id": "2607.14051v1",
+      "url": "https://arxiv.org/abs/2607.14051v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.14051v1.pdf",
+      "categories": [
+        "cs.CL"
+      ],
       "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "The Seriality Gap in Video Diffusion Models",
-      "authors": "Jorge Diaz Chao, Konpat Preechakul, Yuxi Liu et al.",
-      "abstract": "When one ball strikes another, then another, video models should predict the consequences of each bounce. In controlled experiments on multi-ball hard-sphere dynamics, we find that the performance of standard bidirectional video diffusion degrades as the causal chain lengthens, even when provided mo...",
+      "title": "Can an Old Dog Be Taught New Tricks? Taking LLMs Beyond Sentence Level Translation",
+      "authors": "Alaina Brandt",
+      "abstract": "Automatic translation systems, from CAT tools to MT, overwhelmingly treat translation as a sentence-by-sentence act. This paper asks whether LLMs can be moved beyond that paradigm through whole-document, corpus-informed translation. We present PAT (Pragmatic Auto-Translator), a RAG-based system that...",
       "venue": "arXiv",
-      "date": "2026-07-14",
-      "arxiv_id": "2607.13031v1",
-      "url": "https://arxiv.org/abs/2607.13031v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.13031v1.pdf",
+      "date": "2026-07-15",
+      "arxiv_id": "2607.14040v1",
+      "url": "https://arxiv.org/abs/2607.14040v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.14040v1.pdf",
+      "categories": [
+        "cs.CL"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "VideoRAE: Taming Video Foundation Models for Generative Modeling via Representation Autoencoders",
+      "authors": "Zhihao Xie, Junfeng Wu, Xinting Hu et al.",
+      "abstract": "Video generative models commonly rely on latent spaces learned by 3D Variational Autoencoders (3D-VAEs). However, conventional 3D-VAEs are mainly optimized for pixel-level reconstruction, which can limit the semantic and spatio-temporal structure captured by their latents. Meanwhile, Video Foundatio...",
+      "venue": "arXiv",
+      "date": "2026-07-15",
+      "arxiv_id": "2607.14088v1",
+      "url": "https://arxiv.org/abs/2607.14088v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.14088v1.pdf",
+      "categories": [
+        "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "From Pixels to States: Rethinking Interactive World Models as Game Engines",
+      "authors": "Zhen Li, Zian Meng, Shuwei Shi et al.",
+      "abstract": "Building interactive worlds that respond coherently to player actions has long been a shared goal of computer graphics, games, and artificial intelligence. Recent video generative models provide a data-driven route toward this goal by predicting future observations conditioned on user actions, and a...",
+      "venue": "arXiv",
+      "date": "2026-07-15",
+      "arxiv_id": "2607.14076v1",
+      "url": "https://arxiv.org/abs/2607.14076v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.14076v1.pdf",
+      "categories": [
+        "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Leveraging unlabelled data for generalizable neural population decoding",
+      "authors": "Ximeng Mao, Nanda H. Krishna, Avery Hee-Woon Ryoo et al.",
+      "abstract": "Robust and accurate neural decoders are integral to neurotechnologies such as brain-computer interfaces and closed-loop experiments. Recent work has shown that tokenizing neural data at the spike level facilitates multi-session pretraining and delivers state-of-the-art decoding performance. However,...",
+      "venue": "arXiv",
+      "date": "2026-07-15",
+      "arxiv_id": "2607.14086v1",
+      "url": "https://arxiv.org/abs/2607.14086v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.14086v1.pdf",
       "categories": [
         "cs.LG",
-        "cs.CV"
+        "q-bio.NC"
       ],
-      "type": "vision",
+      "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "FlowWAM: Optical Flow as a Unified Action Representation for World Action Models",
-      "authors": "Yixiang Chen, Peiyan Li, Yuan Xu et al.",
-      "abstract": "World Action Models (WAMs) are able to leverage pretrained video generators for both world modeling and action prediction. However, directly leveraging such video generators for control raises a new challenge: how to represent actions in a suitable form that aligns with pretrained video generators w...",
+      "title": "Linear Independent Component Analysis via Optimal Transport",
+      "authors": "Ashutosh Jha, Michel Besserve, Simon Buchholz",
+      "abstract": "Linear Independent Component Analysis (ICA) recovers jointly independent source signals from their linear mixtures. To achieve this, classical ICA algorithms attempt to maximize non-Gaussianity, measured by negentropy, which is linked to independence by information theory. Because exact negentropy o...",
       "venue": "arXiv",
-      "date": "2026-07-14",
-      "arxiv_id": "2607.13017v1",
-      "url": "https://arxiv.org/abs/2607.13017v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.13017v1.pdf",
+      "date": "2026-07-15",
+      "arxiv_id": "2607.14081v1",
+      "url": "https://arxiv.org/abs/2607.14081v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.14081v1.pdf",
+      "categories": [
+        "cs.LG",
+        "stat.ML"
+      ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "PhysClaw-0: A Symbiotic Agentic System for Robot Autonomy via Language Corrections",
+      "authors": "Boyuan Wang, Zhenyuan Zhang, Zhiqin Yang et al.",
+      "abstract": "Autonomous data collection governs the volume and quality of real-world trajectories for manipulation policy learning. Existing pipelines reduce human effort via self-resetting, VLM verification, or language-guided correction, yet episode-scoped fixes must be reissued whenever the same failure recur...",
+      "venue": "arXiv",
+      "date": "2026-07-15",
+      "arxiv_id": "2607.14047v1",
+      "url": "https://arxiv.org/abs/2607.14047v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.14047v1.pdf",
       "categories": [
         "cs.RO",
-        "cs.CV"
+        "cs.HC",
+        "eess.SY"
       ],
-      "type": "vision",
+      "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "DenseReward: Dense Reward Learning via Failure Synthesis for Robotic Manipulation",
-      "authors": "Yu Fang, Wanxi Dong, Jiaqi Liu et al.",
-      "abstract": "Reinforcement learning holds great promise for improving robot policies beyond the limits of imitation learning. However, its practical adoption remains bottlenecked by the lack of reliable vision-language reward models that provide dense and informative feedback. Two key challenges remain: acquirin...",
+      "title": "Industrial Dexterity Benchmark: A Hardware-Software Benchmarking Platform for Industrial Dexterous Manipulation",
+      "authors": "Honglu He, Jacob Laufer, Zhiwu Zheng et al.",
+      "abstract": "Dexterous manipulation remains a critical bottleneck in industrial automation; tasks such as cable routing, connector insertion, and precision assembly still rely heavily on manual labor despite decades of robotics research. This work presents a progression from classical, modular robotics pipelines...",
       "venue": "arXiv",
-      "date": "2026-07-14",
-      "arxiv_id": "2607.13033v1",
-      "url": "https://arxiv.org/abs/2607.13033v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.13033v1.pdf",
+      "date": "2026-07-15",
+      "arxiv_id": "2607.14021v1",
+      "url": "https://arxiv.org/abs/2607.14021v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.14021v1.pdf",
       "categories": [
         "cs.RO"
       ],
-      "type": "ml",
+      "type": "benchmark",
       "badge": "arxiv",
       "source": "arXiv"
     }
