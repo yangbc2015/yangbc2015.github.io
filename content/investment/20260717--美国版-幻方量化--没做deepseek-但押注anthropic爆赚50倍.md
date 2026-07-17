@@ -1,6 +1,6 @@
 ---
 title: '[美国版「幻方量化」，没做DeepSeek，但押注Anthropic爆赚50倍'
-date: '2026-07-13'
+date: '2026-07-17'
 type: news
 source: 36氪
 category: AI投资
