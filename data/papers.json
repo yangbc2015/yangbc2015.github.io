@@ -1,168 +1,105 @@
 {
   "last_updated": "2026-07-17",
-  "count": 10,
+  "count": 6,
   "items": [
     {
-      "title": "Deep Interaction: An Efficient Human-AI Interaction Method for Large Reasoning Models",
-      "authors": "Hefeng Zhou, Jinxuan Zhang, Jiong Lou et al.",
-      "abstract": "The emergence of Chain-of-Thought (CoT) reasoning has significantly enhanced the ability of large language models (LLMs) to tackle complex, multi-step tasks. However, when errors occur, current interaction approaches typically involve re-generating another response that may make mistakes again, or u...",
+      "title": "RoboTTT: Context Scaling for Robot Policies",
+      "authors": "Yunfan Jiang, Yevgen Chebotar, Ruijie Zheng et al.",
+      "abstract": "Recent robot foundation models operate with single-step or short-history visuomotor context. We introduce Test-Time-Training Robot Policies (RoboTTT), a robot model and training recipe that scale visuomotor context to 8K timesteps, three orders of magnitude beyond state-of-the-art policies, without ...",
       "venue": "arXiv",
-      "date": "2026-07-15",
-      "arxiv_id": "2607.14049v1",
-      "url": "https://arxiv.org/abs/2607.14049v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.14049v1.pdf",
-      "categories": [
-        "cs.AI"
-      ],
-      "type": "ai",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Earthquaker-AI: A Retrieval-Augmented Generation Framework with Rubric-Based Assessment for Primary School Earthquake Education",
-      "authors": "Xanthi Kokkinou, Chaido Mizeli, Nafsika Koulaxidou et al.",
-      "abstract": "This paper presents Earthquaker-AI, a hybrid educational framework building upon a previously implemented educational robotics project by integrating a conversational AI assistant based on Retrieval-Augmented Generation. It aims to enhance earthquake preparedness and conscious action among primary-s...",
-      "venue": "arXiv",
-      "date": "2026-07-15",
-      "arxiv_id": "2607.14046v1",
-      "url": "https://arxiv.org/abs/2607.14046v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.14046v1.pdf",
-      "categories": [
-        "cs.AI"
-      ],
-      "type": "ai",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Hindcast: Replaying Prediction Markets to Evaluate LLM Forecasters",
-      "authors": "Xiao Ye, Jacob Dineen, Evan Zhu et al.",
-      "abstract": "Forecasters are evaluated by backtesting, which replays resolved questions and grades the probability the system would have assigned before the outcome was known. For LLMs, two channels leak the answer into this test. A model that retrieves can surface reports written after the event, turning foreca...",
-      "venue": "arXiv",
-      "date": "2026-07-15",
-      "arxiv_id": "2607.14051v1",
-      "url": "https://arxiv.org/abs/2607.14051v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.14051v1.pdf",
-      "categories": [
-        "cs.CL"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Can an Old Dog Be Taught New Tricks? Taking LLMs Beyond Sentence Level Translation",
-      "authors": "Alaina Brandt",
-      "abstract": "Automatic translation systems, from CAT tools to MT, overwhelmingly treat translation as a sentence-by-sentence act. This paper asks whether LLMs can be moved beyond that paradigm through whole-document, corpus-informed translation. We present PAT (Pragmatic Auto-Translator), a RAG-based system that...",
-      "venue": "arXiv",
-      "date": "2026-07-15",
-      "arxiv_id": "2607.14040v1",
-      "url": "https://arxiv.org/abs/2607.14040v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.14040v1.pdf",
-      "categories": [
-        "cs.CL"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "VideoRAE: Taming Video Foundation Models for Generative Modeling via Representation Autoencoders",
-      "authors": "Zhihao Xie, Junfeng Wu, Xinting Hu et al.",
-      "abstract": "Video generative models commonly rely on latent spaces learned by 3D Variational Autoencoders (3D-VAEs). However, conventional 3D-VAEs are mainly optimized for pixel-level reconstruction, which can limit the semantic and spatio-temporal structure captured by their latents. Meanwhile, Video Foundatio...",
-      "venue": "arXiv",
-      "date": "2026-07-15",
-      "arxiv_id": "2607.14088v1",
-      "url": "https://arxiv.org/abs/2607.14088v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.14088v1.pdf",
-      "categories": [
-        "cs.CV"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "From Pixels to States: Rethinking Interactive World Models as Game Engines",
-      "authors": "Zhen Li, Zian Meng, Shuwei Shi et al.",
-      "abstract": "Building interactive worlds that respond coherently to player actions has long been a shared goal of computer graphics, games, and artificial intelligence. Recent video generative models provide a data-driven route toward this goal by predicting future observations conditioned on user actions, and a...",
-      "venue": "arXiv",
-      "date": "2026-07-15",
-      "arxiv_id": "2607.14076v1",
-      "url": "https://arxiv.org/abs/2607.14076v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.14076v1.pdf",
-      "categories": [
-        "cs.CV"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Leveraging unlabelled data for generalizable neural population decoding",
-      "authors": "Ximeng Mao, Nanda H. Krishna, Avery Hee-Woon Ryoo et al.",
-      "abstract": "Robust and accurate neural decoders are integral to neurotechnologies such as brain-computer interfaces and closed-loop experiments. Recent work has shown that tokenizing neural data at the spike level facilitates multi-session pretraining and delivers state-of-the-art decoding performance. However,...",
-      "venue": "arXiv",
-      "date": "2026-07-15",
-      "arxiv_id": "2607.14086v1",
-      "url": "https://arxiv.org/abs/2607.14086v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.14086v1.pdf",
-      "categories": [
-        "cs.LG",
-        "q-bio.NC"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Linear Independent Component Analysis via Optimal Transport",
-      "authors": "Ashutosh Jha, Michel Besserve, Simon Buchholz",
-      "abstract": "Linear Independent Component Analysis (ICA) recovers jointly independent source signals from their linear mixtures. To achieve this, classical ICA algorithms attempt to maximize non-Gaussianity, measured by negentropy, which is linked to independence by information theory. Because exact negentropy o...",
-      "venue": "arXiv",
-      "date": "2026-07-15",
-      "arxiv_id": "2607.14081v1",
-      "url": "https://arxiv.org/abs/2607.14081v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.14081v1.pdf",
-      "categories": [
-        "cs.LG",
-        "stat.ML"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "PhysClaw-0: A Symbiotic Agentic System for Robot Autonomy via Language Corrections",
-      "authors": "Boyuan Wang, Zhenyuan Zhang, Zhiqin Yang et al.",
-      "abstract": "Autonomous data collection governs the volume and quality of real-world trajectories for manipulation policy learning. Existing pipelines reduce human effort via self-resetting, VLM verification, or language-guided correction, yet episode-scoped fixes must be reissued whenever the same failure recur...",
-      "venue": "arXiv",
-      "date": "2026-07-15",
-      "arxiv_id": "2607.14047v1",
-      "url": "https://arxiv.org/abs/2607.14047v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.14047v1.pdf",
+      "date": "2026-07-16",
+      "arxiv_id": "2607.15275v1",
+      "url": "https://arxiv.org/abs/2607.15275v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.15275v1.pdf",
       "categories": [
         "cs.RO",
-        "cs.HC",
-        "eess.SY"
+        "cs.AI",
+        "cs.LG"
       ],
       "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Industrial Dexterity Benchmark: A Hardware-Software Benchmarking Platform for Industrial Dexterous Manipulation",
-      "authors": "Honglu He, Jacob Laufer, Zhiwu Zheng et al.",
-      "abstract": "Dexterous manipulation remains a critical bottleneck in industrial automation; tasks such as cable routing, connector insertion, and precision assembly still rely heavily on manual labor despite decades of robotics research. This work presents a progression from classical, modular robotics pipelines...",
+      "title": "SciDiagramEdit: Learning to Edit Scientific Diagrams from Paper Revisions",
+      "authors": "Yasheng Sun, Zezi Zeng, Yifan Yang et al.",
+      "abstract": "Editing the figures in a research paper is a routine and time-consuming part of everyday research practice: authors relabel components, rearrange panels, and restyle visuals as they revise their manuscripts. Automating this editing workflow under a natural-language instruction, however, is challengi...",
       "venue": "arXiv",
-      "date": "2026-07-15",
-      "arxiv_id": "2607.14021v1",
-      "url": "https://arxiv.org/abs/2607.14021v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.14021v1.pdf",
+      "date": "2026-07-16",
+      "arxiv_id": "2607.15272v1",
+      "url": "https://arxiv.org/abs/2607.15272v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.15272v1.pdf",
       "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Partition, Prompt, Aggregate: Statistical Self-Consistency in Language Models",
+      "authors": "Patrik Wolf, Thomas Kleine Buening, Andreas Krause et al.",
+      "abstract": "In-context learning is commonly interpreted as a form of conditional inference, in which the prompt specifies a context and the model's output is treated as an estimate of the corresponding conditional distribution. If this interpretation holds, then LLM estimates should satisfy basic probabilistic ...",
+      "venue": "arXiv",
+      "date": "2026-07-16",
+      "arxiv_id": "2607.15277v1",
+      "url": "https://arxiv.org/abs/2607.15277v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.15277v1.pdf",
+      "categories": [
+        "cs.CL"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Hierarchical Denoising For Multi-Step Visual Reasoning",
+      "authors": "Zezhong Qian, Xiaowei Chi, Chak-Wing Mak et al.",
+      "abstract": "Video models are evolving into vision foundation models, yet they still lack human-like multi-step reasoning. Streaming autoregressive diffusion models are efficient but limited in reasoning, while bidirectional diffusion enables global revision with high inference costs due to dense frame-level den...",
+      "venue": "arXiv",
+      "date": "2026-07-16",
+      "arxiv_id": "2607.15278v1",
+      "url": "https://arxiv.org/abs/2607.15278v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.15278v1.pdf",
+      "categories": [
+        "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "MeanFlowNFT: Bringing Forward-Process RL to Average-Velocity Generators",
+      "authors": "Yushi Huang, Xiangxin Zhou, Jun Zhang et al.",
+      "abstract": "MeanFlow generators achieve fast few-step sampling by predicting average velocities over time intervals, making them attractive for efficient generation. Reinforcement learning (RL) has become a powerful way to align diffusion and flow models with human preferences and task-specific objectives. In p...",
+      "venue": "arXiv",
+      "date": "2026-07-16",
+      "arxiv_id": "2607.15273v1",
+      "url": "https://arxiv.org/abs/2607.15273v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.15273v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "BadWAM: When World-Action Models Dream Right but Act Wrong",
+      "authors": "Qi Li, Xingyi Yang, Xinchao Wang",
+      "abstract": "World-action models (WAMs) are emerging as a promising foundation for embodied control: rather than predicting actions alone, they learn representations that couple action generation with future world prediction. This coupling is often viewed as a source of robustness, interpretability, and safety, ...",
+      "venue": "arXiv",
+      "date": "2026-07-16",
+      "arxiv_id": "2607.15207v1",
+      "url": "https://arxiv.org/abs/2607.15207v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.15207v1.pdf",
+      "categories": [
+        "cs.LG",
         "cs.RO"
       ],
-      "type": "benchmark",
+      "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     }

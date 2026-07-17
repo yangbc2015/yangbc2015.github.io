@@ -27,6 +27,86 @@
       ]
     },
     {
+      "title": "RoboTTT: Context Scaling for Robot Policies",
+      "summary": "Recent robot foundation models operate with single-step or short-history visuomotor context. We introduce Test-Time-Training Robot Policies (RoboTTT), a robot model and training recipe that scale visuomotor context to 8K timesteps, three orders of ma...",
+      "url": "https://arxiv.org/abs/2607.15275v1",
+      "date": "2026-07-16",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2607.15275v1",
+      "authors": "Yunfan Jiang, Yevgen Chebotar et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "BadWAM: When World-Action Models Dream Right but Act Wrong",
+      "summary": "World-action models (WAMs) are emerging as a promising foundation for embodied control: rather than predicting actions alone, they learn representations that couple action generation with future world prediction. This coupling is often viewed as a so...",
+      "url": "https://arxiv.org/abs/2607.15207v1",
+      "date": "2026-07-16",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2607.15207v1",
+      "authors": "Qi Li, Xingyi Yang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Stigmergic Graph Memory: An Environment-Aware Approach for Many-to-Many Multi-Agent Pickup and Delivery",
+      "summary": "Automated fulfillment warehouses must continuously assign and execute pickup-and-delivery work while avoiding congestion. In many-to-many Multi-Agent Pickup and Delivery (MAPD), a request specifies a stock-keeping unit rather than fixed endpoints, re...",
+      "url": "https://arxiv.org/abs/2607.15182v1",
+      "date": "2026-07-16",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2607.15182v1",
+      "authors": "Aditya Dutta, Joon-Seok Kim",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "AHEAD: Anticipatory Hand-Driven Teleoperation via Human Intent Prediction",
+      "summary": "Direct hand-driven teleoperation maps an operator's hand motion to robot end-effector commands at every frame, enabling precise control, but it requires constant monitoring and correction during approach, grasp, and placement, which can be slow and f...",
+      "url": "https://arxiv.org/abs/2607.15172v1",
+      "date": "2026-07-16",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2607.15172v1",
+      "authors": "Seok Joon Kim, Junho Lee et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Scaling Behavior Foundation Model for Humanoid Robots",
+      "summary": "Humanoid control requires natural whole-body coordination, precise real-time responses to control signals, and robust generalization across diverse environmental contexts, making it a cornerstone for generalist embodied agents. Behavior Foundation Mo...",
+      "url": "https://arxiv.org/abs/2607.15163v1",
+      "date": "2026-07-16",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2607.15163v1",
+      "authors": "Weishuai Zeng, Kangning Yin et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
       "title": "Figure AI发布新一代人形机器人Figure 02，具备更强的自主学习能力",
       "summary": "Figure AI发布新一代人形机器人Figure 02，搭载最新视觉-语言-动作(VLA)模型，在工厂和仓储场景实现更高水平的自主操作。",
       "url": "https://www.figure.ai",
@@ -2989,82 +3069,6 @@
       "type": "paper",
       "arxiv_id": "2606.17054v1",
       "authors": "Kevin Yuanbo Wu, Tianxing Zhou et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Geometric Action Model for Robot Policy Learning",
-      "summary": "Generalist robot policies must follow user instructions while reasoning about how objects, cameras, and robot actions interact in the 3D physical world. Recent vision-language-action models (VLAs) and video world-action models (WAMs) inherit strong s...",
-      "url": "https://arxiv.org/abs/2606.17046v1",
-      "date": "2026-06-15",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.17046v1",
-      "authors": "Jisang Han, Seonghu Jeon et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Hierarchical Advantage Weighting for Online RL Fine-Tuning of VLAs from Sparse Episode Outcomes",
-      "summary": "When pretrained VLA policies are fine-tuned through online RL, each rollout episode produces only a single binary outcome (success or failure), yet the actor update requires per-transition supervision. Existing approaches commonly reduce this sparse ...",
-      "url": "https://arxiv.org/abs/2606.17043v1",
-      "date": "2026-06-15",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.17043v1",
-      "authors": "Tongyan Fang, Siyuan Huang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "R2RDreamer: 3D-aware Data Augmentation for Spatially-generalized 2D Manipulation Policies",
-      "summary": "Spatial generalization is critical for imitation-learned manipulation policies, but achieving it typically requires scaling demonstrations across diverse object poses, robot configurations, and camera viewpoints. Data augmentation from a few source d...",
-      "url": "https://arxiv.org/abs/2606.17040v1",
-      "date": "2026-06-15",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.17040v1",
-      "authors": "Xiuwei Xu, Haowen Sun et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "把视觉输入、机器人状态和目标动作，对齐到同一个参考系里，让机器人数据第一次真正具备可规模化训练的空间底座。",
-      "summary": "把视觉输入、机器人状态和目标动作，对齐到同一个参考系里，让机器人数据第一次真正具备可规模化训练的空间底座。",
-      "url": "http://36kr.com/p/3849567168959753",
-      "date": "2026-06-12",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
-      ]
-    },
-    {
-      "title": "Instruct-Particulate: Scaling Feed-Forward 3D Object Articulation with Kinematic Control",
-      "summary": "Reconstructing articulated 3D objects is important for animation, gaming, and robotic simulations. Recent neural networks can estimate the articulated structure of 3D objects, but their generalization remains limited by the scarcity of annotated data...",
-      "url": "https://arxiv.org/abs/2606.14699v1",
-      "date": "2026-06-12",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.14699v1",
-      "authors": "Ruining Li, Yuxin Yao et al.",
       "tags": [
         "机器人学习",
         "研究论文",
