@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-18",
+  "last_updated": "2026-07-19",
   "count": 200,
   "items": [
     {
@@ -31,6 +31,32 @@
       "summary": "[自研焊接具身大脑模型，以“智能焊工”切入工业制造 具 身 智 能 赛道，「昇视唯盛」完成数亿元B轮融资｜36氪首发",
       "url": "http://36kr.com/p/3887871679347208",
       "date": "2026-07-18",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "具身智能的下一个拐点，不在身体而在大脑。",
+      "summary": "具身智能的下一个拐点，不在身体而在大脑。",
+      "url": "http://36kr.com/p/3899248113158023",
+      "date": "2026-07-17",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "WAIC 2026多款新品抢先看：从具身智能到算力基础设施",
+      "summary": "WAIC 2026多款新品抢先看：从具身智能到算力基础设施",
+      "url": "http://36kr.com/p/3898343171687813",
+      "date": "2026-07-17",
       "source": "36氪",
       "category": "具身智能",
       "type": "news",
@@ -3037,38 +3063,6 @@
       "type": "paper",
       "arxiv_id": "2606.18189v1",
       "authors": "Jiaying Fang, Joyce Yang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "T-Rex: Tactile-Reactive Dexterous Manipulation",
-      "summary": "The ability to react dynamically to tactile signals has long been considered crucial to agile human-level dexterity. Yet contemporary learning-based Vision-Language-Action (VLA) models for robotic manipulation generally either overlook the tactile mo...",
-      "url": "https://arxiv.org/abs/2606.17055v1",
-      "date": "2026-06-15",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.17055v1",
-      "authors": "Dantong Niu, Zhuoyang Liu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Human Universal Grasping",
-      "summary": "Humans can grasp objects effortlessly, whereas multi-fingered robots are far from this level of generality. We argue that the most natural source of robot grasping data is from humans, who pick up thousands of objects every day. We present HUG, a flo...",
-      "url": "https://arxiv.org/abs/2606.17054v1",
-      "date": "2026-06-15",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.17054v1",
-      "authors": "Kevin Yuanbo Wu, Tianxing Zhou et al.",
       "tags": [
         "机器人学习",
         "研究论文",
