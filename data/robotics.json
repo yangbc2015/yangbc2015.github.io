@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-07-19",
+  "last_updated": "2026-07-20",
   "count": 200,
   "items": [
     {
       "title": "[科沃斯首款开源机器人线下空间揭牌，具 身 智 能 生态布局再进一步",
       "summary": "[科沃斯首款开源机器人线下空间揭牌，具 身 智 能 生态布局再进一步",
       "url": "http://36kr.com/p/3898008022877828",
-      "date": "2026-07-19",
+      "date": "2026-07-20",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
@@ -24,6 +24,19 @@
       "type": "news",
       "tags": [
         "机器人"
+      ]
+    },
+    {
+      "title": "具身智能进入下半场，赢家拼的不再只是机器人。",
+      "summary": "具身智能进入下半场，赢家拼的不再只是机器人。",
+      "url": "http://36kr.com/p/3900610713175938",
+      "date": "2026-07-18",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
       ]
     },
     {
@@ -3047,22 +3060,6 @@
       "type": "paper",
       "arxiv_id": "2606.18231v1",
       "authors": "Rishit Dagli, Donglai Xiang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Beyond Failure Recovery: An Engagement-Aware Human-in-the-loop Framework for Robotic Systems",
-      "summary": "Conventional human-in-the-loop approaches typically involve users only when a robot encounters failure or uncertainty, treating humans primarily as tools for improving robot performance. However, in many human-centered robotics settings, interaction ...",
-      "url": "https://arxiv.org/abs/2606.18189v1",
-      "date": "2026-06-16",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.18189v1",
-      "authors": "Jiaying Fang, Joyce Yang et al.",
       "tags": [
         "机器人学习",
         "研究论文",
