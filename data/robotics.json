@@ -3,9 +3,9 @@
   "count": 200,
   "items": [
     {
-      "title": "[科沃斯首款开源机器人线下空间揭牌，具 身 智 能 生态布局再进一步",
-      "summary": "[科沃斯首款开源机器人线下空间揭牌，具 身 智 能 生态布局再进一步",
-      "url": "http://36kr.com/p/3898008022877828",
+      "title": "[36氪首发 | 三个月融三轮，上交大00后博士让 具 身 智 能 仿生扑翼机器人理解并驾驭流体",
+      "summary": "[36氪首发 | 三个月融三轮，上交大00后博士让 具 身 智 能 仿生扑翼机器人理解并驾驭流体",
+      "url": "http://36kr.com/p/3889516712065799",
       "date": "2026-07-20",
       "source": "36氪",
       "category": "机器人",
@@ -15,10 +15,10 @@
       ]
     },
     {
-      "title": "[36氪首发 | 三个月融三轮，上交大00后博士让 具 身 智 能 仿生扑翼机器人理解并驾驭流体",
-      "summary": "[36氪首发 | 三个月融三轮，上交大00后博士让 具 身 智 能 仿生扑翼机器人理解并驾驭流体",
-      "url": "http://36kr.com/p/3889516712065799",
-      "date": "2026-07-19",
+      "title": "[科沃斯首款开源机器人线下空间揭牌，具 身 智 能 生态布局再进一步",
+      "summary": "[科沃斯首款开源机器人线下空间揭牌，具 身 智 能 生态布局再进一步",
+      "url": "http://36kr.com/p/3898008022877828",
+      "date": "2026-07-20",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
@@ -50,6 +50,86 @@
       "tags": [
         "机器人",
         "具身智能"
+      ]
+    },
+    {
+      "title": "Handroid: Bridging Dexterous Hand and Humanoid",
+      "summary": "Dexterous hands and humanoid robots are typically developed as distinct embodiments: the former enable contact-rich manipulation at the object scale, whereas the latter provide mobility and whole-body interaction in human-centered environments. We in...",
+      "url": "https://arxiv.org/abs/2607.16187v1",
+      "date": "2026-07-17",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2607.16187v1",
+      "authors": "Ruogu Li, Chenyang Ma et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Vision-Language-Motion Maps: An Open-Vocabulary, Uncertainty-Aware, Queryable Motion Attribute for 3D Scene Maps",
+      "summary": "Open-vocabulary 3D maps let robots answer language queries about what and where, but they assume a static world and cannot answer queries about how scene elements behave. We introduce Vision-Language-Motion Maps (VLMM), an open-vocabulary, natural-la...",
+      "url": "https://arxiv.org/abs/2607.16173v1",
+      "date": "2026-07-17",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2607.16173v1",
+      "authors": "Dibyendu Ghosh, Ayushi Shakya",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "VTLoc: Learning-based Tactile Contact Localization in Visual Point Clouds",
+      "summary": "Vision and touch are complementary modalities essential for robotic perception and manipulation. While vision provides global object context, touch offers precise local information at contact points. Integrating these modalities for contact localizat...",
+      "url": "https://arxiv.org/abs/2607.16146v1",
+      "date": "2026-07-17",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2607.16146v1",
+      "authors": "Zhiyuan Wu, Zhuo Chen et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "A New Implementation of NeoSLAM and a Comparative Evaluation with RatSLAM",
+      "summary": "This paper presents a new implementation of the NeoSLAM algorithm. The proposed version is a complete rewrite of NeoSLAM into a modular architecture using modern frameworks that, together, enable real-time execution with minimal discarding of input d...",
+      "url": "https://arxiv.org/abs/2607.16143v1",
+      "date": "2026-07-17",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2607.16143v1",
+      "authors": "Joao Victor T. Borges, Fabio Coelho et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "BayesContact: Uncertain Pose Estimation via Visuo-Tactile Proposals and Simulation-based Inference",
+      "summary": "Contact-rich manipulation requires pose estimates that are often more accurate than what depth-only sensing provides. Existing methods, relying on vision and contact, employ costly offline training procedures that need to be retrained for new environ...",
+      "url": "https://arxiv.org/abs/2607.16123v1",
+      "date": "2026-07-17",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2607.16123v1",
+      "authors": "Aditya Kamireddypalli, Matias Mattamala et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
       ]
     },
     {
@@ -2987,83 +3067,6 @@
       "tags": [
         "机器人",
         "具身智能"
-      ]
-    },
-    {
-      "title": "2026年，已然成为“具身智能数据规模化元年”。",
-      "summary": "2026年，已然成为“具身智能数据规模化元年”。",
-      "url": "http://36kr.com/p/3855538404988167",
-      "date": "2026-06-16",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "Visual Verification Enables Inference-time Steering and Autonomous Policy Improvement",
-      "summary": "Robots deployed in the real world should learn from their experience and improve over time. This requires a mechanism of practicing and learning from feedback. In this paper, we propose VERITAS, a generator-verifier framework for generalist robot pol...",
-      "url": "https://arxiv.org/abs/2606.18247v1",
-      "date": "2026-06-16",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.18247v1",
-      "authors": "Mingtong Zhang, Dhruv Shah",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "MOCHI: Motion Enhancement of Collaborative Human-object Interactions",
-      "summary": "Collaborative human-object interaction shows dynamic and complex movements that require mutual anticipation and continuous adjustment between participants and the shared object. Modeling such collaborative multi-human object interaction (MHOI) scenar...",
-      "url": "https://arxiv.org/abs/2606.18243v1",
-      "date": "2026-06-16",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.18243v1",
-      "authors": "Jiye Lee, Yonghun Choi et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "EBench: Elemental Diagnosis of Generalist Mobile Manipulation Policies",
-      "summary": "We present EBench, a simulation benchmark that diagnoses generalist mobile manipulation policies beyond a single success-rate scalar. EBench comprises 26 diverse and challenging manipulation tasks annotated along 5 capability dimensions and 4 general...",
-      "url": "https://arxiv.org/abs/2606.18239v1",
-      "date": "2026-06-16",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.18239v1",
-      "authors": "Ning Gao, Jinliang Zheng et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Adaptive Volumetric Mechanical Property Fields Invariant to Resolution",
-      "summary": "Accurate mechanical properties (or materials) Young's modulus ($E$), Poisson's ratio ($ν$) and density ($ρ$) are essential for reliable physics simulation of digital worlds, but most 3D assets lack this information. We propose AdaVoMP, a method for p...",
-      "url": "https://arxiv.org/abs/2606.18231v1",
-      "date": "2026-06-16",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.18231v1",
-      "authors": "Rishit Dagli, Donglai Xiang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
       ]
     }
   ]
