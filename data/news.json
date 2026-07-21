@@ -1,7 +1,7 @@
 {
   "last_updated": "2026-07-21",
   "count": 200,
-  "history_count": 204,
+  "history_count": 200,
   "retention_days": 30,
   "items": [
     {
@@ -29,18 +29,6 @@
       ]
     },
     {
-      "title": "面壁智能发布MiniCPM-Robot系列模型",
-      "link": "https://www.qbitai.com/?s=面壁智能发布Mini",
-      "summary": "面壁智能发布MiniCPM-Robot系列模型...",
-      "date": "2026-07-21",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
       "title": "Published Time: Thu, 08 May 2025 23:15:48 GMT",
       "link": "https://techcrunch.com/category/artificial-intelligence/",
       "summary": "Published Time: Thu, 08 May 2025 23:15:48 GMT...",
@@ -50,6 +38,18 @@
       "tags": [
         "AI",
         "Artificial Intelligence"
+      ]
+    },
+    {
+      "title": "面壁智能发布MiniCPM-Robot系列模型",
+      "link": "https://www.qbitai.com/?s=面壁智能发布Mini",
+      "summary": "面壁智能发布MiniCPM-Robot系列模型...",
+      "date": "2026-07-21",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
       ]
     },
     {
