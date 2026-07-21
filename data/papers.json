@@ -1,68 +1,16 @@
 {
   "last_updated": "2026-07-21",
-  "count": 10,
+  "count": 6,
   "items": [
     {
-      "title": "Evaluating Open-Weight LLMs for Generating Structured Threat Information for Autonomous Vehicle Vulnerabilities",
-      "authors": "Md Erfan, Ahmed Ryan, Md Kamal Hossain Chowdhury et al.",
-      "abstract": "Connected and Autonomous Vehicles (CAVs) rely on interconnected software and hardware components, including sensors, Electronic Control Units, in-vehicle infotainment systems, and telematics units, where vulnerabilities can compromise assets, users, and vehicle operations. These vulnerabilities are ...",
+      "title": "Automated Discovery Has No Universally Superior Harness",
+      "authors": "Akshat Gupta, Jermaine Lei, Alexander Lu et al.",
+      "abstract": "Autonomous discovery systems such as OpenEvolve and TTT-Discover are often used as general-purpose harnesses. However, in practice these are composite systems combining several design choices about archives, parent selection, exploration, and budget allocation into a single recipe. Because discovery...",
       "venue": "arXiv",
-      "date": "2026-07-17",
-      "arxiv_id": "2607.16175v1",
-      "url": "https://arxiv.org/abs/2607.16175v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.16175v1.pdf",
-      "categories": [
-        "cs.CR",
-        "cs.AI"
-      ],
-      "type": "ai",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "When Does Muon Help Agentic Reinforcement Learning?",
-      "authors": "Kai Ruan, Jinghao Lin, Zihe Huang et al.",
-      "abstract": "Muon is competitive with AdamW in large-scale pre-training, but its value for reinforcement-learning (RL) post-training remains unclear. We study vanilla Muon in sparse-reward agentic RL through matched single-seed comparisons with AdamW on ALFWorld using Qwen2.5-0.5B-Instruct. Under Group-in-Group ...",
-      "venue": "arXiv",
-      "date": "2026-07-17",
-      "arxiv_id": "2607.16169v1",
-      "url": "https://arxiv.org/abs/2607.16169v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.16169v1.pdf",
-      "categories": [
-        "cs.LG",
-        "cs.AI"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "An Exam for Active Observers",
-      "authors": "Jiarui Zhang, Muzi Tao, Shangshang Wang et al.",
-      "abstract": "Human vision is a closed loop: gaze is continuously redirected by intermediate hypotheses rather than a single snapshot. Decades of psychophysics and cognitive science have argued that this active observation is essential for a wide range of tasks. Whether today's multimodal large language models (M...",
-      "venue": "arXiv",
-      "date": "2026-07-17",
-      "arxiv_id": "2607.16165v1",
-      "url": "https://arxiv.org/abs/2607.16165v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.16165v1.pdf",
-      "categories": [
-        "cs.CV",
-        "cs.AI",
-        "cs.CL"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "ToolSciVer: Multimodal Scientific Claim Verification with Visual Tool Augmented Reinforcement Learning",
-      "authors": "Binglin Zhou, Peng Shi, Ryo Kamoi et al.",
-      "abstract": "Multimodal Scientific Claim Verification (MSCV) requires models to verify scientific claims using visually grounded evidence from papers, including figures, tables, charts, and textual context. However, existing methods often fail because they struggle to locate decisive visual evidence, accurately ...",
-      "venue": "arXiv",
-      "date": "2026-07-17",
-      "arxiv_id": "2607.16131v1",
-      "url": "https://arxiv.org/abs/2607.16131v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.16131v1.pdf",
+      "date": "2026-07-20",
+      "arxiv_id": "2607.18235v1",
+      "url": "https://arxiv.org/abs/2607.18235v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.18235v1.pdf",
       "categories": [
         "cs.CL",
         "cs.AI"
@@ -72,47 +20,66 @@
       "source": "arXiv"
     },
     {
-      "title": "Knowing the Self, Understanding the World: A Dual-Cognition Benchmark for UAV Spatio-temporal Reasoning with MLLMs",
-      "authors": "Like Liu, Zhengzheng Xu, Haitao He et al.",
-      "abstract": "Multimodal large language models have achieved strong performance across diverse vision-language tasks, yet their capabilities in UAV scenarios remain insufficiently explored. Recent UAV-oriented benchmarks have begun to evaluate MLLMs in aerial scenarios, but they typically focus on scene understan...",
+      "title": "Simple Domain Generalization for Strong Pixel-Level Image Tampering Detection in Modern VLMs",
+      "authors": "Yi Tang, Xinyi Shang, Jiacheng Cui et al.",
+      "abstract": "Modern vision-language models (VLMs) have significantly improved image generation and editing capabilities, making pixel-level image tampering detection increasingly important yet challenging under cross-model and out-of-distribution shifts. This work studies domain generalization for pixel-level im...",
       "venue": "arXiv",
-      "date": "2026-07-17",
-      "arxiv_id": "2607.16193v1",
-      "url": "https://arxiv.org/abs/2607.16193v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.16193v1.pdf",
+      "date": "2026-07-20",
+      "arxiv_id": "2607.18230v1",
+      "url": "https://arxiv.org/abs/2607.18230v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.18230v1.pdf",
       "categories": [
-        "cs.CV"
-      ],
-      "type": "benchmark",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "MotionForesight: Re-purposing Video Models for Future 3D Scene-Flow Prediction",
-      "authors": "Homanga Bharadhwaj, Yash Jangir",
-      "abstract": "Humans can infer how objects are likely to move from passive observation: a cup may be lifted, a drawer may slide, and a lid may rotate shut. Such predictions expose the physical consequences of interaction needed to act in the real world. We study how to learn this anticipation from ordinary monocu...",
-      "venue": "arXiv",
-      "date": "2026-07-17",
-      "arxiv_id": "2607.16192v1",
-      "url": "https://arxiv.org/abs/2607.16192v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.16192v1.pdf",
-      "categories": [
-        "cs.CV"
+        "cs.CV",
+        "cs.AI"
       ],
       "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "PagedWeight: Efficient MoE LLM Serving with Dynamic Quality-Aware Weight Quantization",
-      "authors": "Yuchen Yang, Yifan Zhao, Anisha Dasgupta et al.",
-      "abstract": "Mixture-of-Experts (MoE) is a popular class of large language models (LLMs), offering high efficiency and accuracy. However, in KV-cache-intensive serving scenarios, MoEs often exhibit a tension between the GPU memory requirements of the model weights and the growing KV cache. We propose PagedWeight...",
+      "title": "It's Not What You Say, It's How You Say It: Evaluating LLM Responses to Expressions of Belief",
+      "authors": "Kevin Du, Clara Kümpel, Michelle Wastl et al.",
+      "abstract": "Users frequently express their beliefs to large language models (LLMs). In some situations, the LLM should accept these contextual beliefs as true. In others, they should stick to their prior knowledge. Notably, users' expressions of belief (EoBs) can take linguistically diverse forms - using presup...",
       "venue": "arXiv",
-      "date": "2026-07-17",
-      "arxiv_id": "2607.16184v1",
-      "url": "https://arxiv.org/abs/2607.16184v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.16184v1.pdf",
+      "date": "2026-07-20",
+      "arxiv_id": "2607.18232v1",
+      "url": "https://arxiv.org/abs/2607.18232v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.18232v1.pdf",
       "categories": [
+        "cs.CL"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "The Many Senses of Visual Similarity: A Text-Prompted Image Perceptual Metric",
+      "authors": "Sheng-Yu Wang, Yotam Nitzan, Aaron Hertzmann et al.",
+      "abstract": "Human visual similarity judgments are context-dependent. For example, two images may be similar in shape but distinct in color. Existing perceptual similarity metrics, however, collapse these nuances into a single scalar value, offering no mechanism to condition on specific aspects. To bridge this g...",
+      "venue": "arXiv",
+      "date": "2026-07-20",
+      "arxiv_id": "2607.18237v1",
+      "url": "https://arxiv.org/abs/2607.18237v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.18237v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Patch Policy: Efficient Embodied Control via Dense Visual Representations",
+      "authors": "Gaoyue Zhou, Zichen Jeff Cui, Ada Langford et al.",
+      "abstract": "Pretrained dense visual features from Vision Transformers (ViTs) are powerful yet have been underutilized in robot learning. Modern robot policies either compress each observation into a single global token, or rely on visual backbones trained from scratch, sacrificing both fine-grained spatial deta...",
+      "venue": "arXiv",
+      "date": "2026-07-20",
+      "arxiv_id": "2607.18236v1",
+      "url": "https://arxiv.org/abs/2607.18236v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.18236v1.pdf",
+      "categories": [
+        "cs.RO",
         "cs.LG"
       ],
       "type": "ml",
@@ -120,48 +87,14 @@
       "source": "arXiv"
     },
     {
-      "title": "A Blueprint for Equilibrium-Based Differentiable Continuous-Variable Thermodynamic Computing",
-      "authors": "Owen Lockwood, Jérémy Béjanin, Joost Bus et al.",
-      "abstract": "To address the escalating energy and latency demands of machine-learning workloads, we introduce a blueprint for an energy-efficient and fast thermodynamic computing stack that leverages stochastic analog processes in physical hardware. In this work, we focus on energy-based thermodynamic computing ...",
+      "title": "FM-VLA: Force-based Memory for Vision-Language-Action Models in Contact-Rich Manipulation",
+      "authors": "Ruicheng Li, Qixiu Li, Ruichun Ma et al.",
+      "abstract": "Vision-language-action (VLA) models have achieved impressive generalization in robotic manipulation, and recent memory-augmented VLAs have relaxed the Markovian assumption by conditioning on past images or language summaries. Vision-based memory approaches address this by conditioning on sampled pas...",
       "venue": "arXiv",
-      "date": "2026-07-17",
-      "arxiv_id": "2607.16183v1",
-      "url": "https://arxiv.org/abs/2607.16183v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.16183v1.pdf",
-      "categories": [
-        "cs.LG",
-        "cs.ET",
-        "physics.app-ph"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Handroid: Bridging Dexterous Hand and Humanoid",
-      "authors": "Ruogu Li, Chenyang Ma, Sikai Li et al.",
-      "abstract": "Dexterous hands and humanoid robots are typically developed as distinct embodiments: the former enable contact-rich manipulation at the object scale, whereas the latter provide mobility and whole-body interaction in human-centered environments. We introduce \\textbf{Handroid}, a desktop-scale dual-em...",
-      "venue": "arXiv",
-      "date": "2026-07-17",
-      "arxiv_id": "2607.16187v1",
-      "url": "https://arxiv.org/abs/2607.16187v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.16187v1.pdf",
-      "categories": [
-        "cs.RO"
-      ],
-      "type": "ai",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Vision-Language-Motion Maps: An Open-Vocabulary, Uncertainty-Aware, Queryable Motion Attribute for 3D Scene Maps",
-      "authors": "Dibyendu Ghosh, Ayushi Shakya",
-      "abstract": "Open-vocabulary 3D maps let robots answer language queries about what and where, but they assume a static world and cannot answer queries about how scene elements behave. We introduce Vision-Language-Motion Maps (VLMM), an open-vocabulary, natural-language-queryable 3D map in which each element carr...",
-      "venue": "arXiv",
-      "date": "2026-07-17",
-      "arxiv_id": "2607.16173v1",
-      "url": "https://arxiv.org/abs/2607.16173v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.16173v1.pdf",
+      "date": "2026-07-20",
+      "arxiv_id": "2607.18231v1",
+      "url": "https://arxiv.org/abs/2607.18231v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.18231v1.pdf",
       "categories": [
         "cs.RO"
       ],

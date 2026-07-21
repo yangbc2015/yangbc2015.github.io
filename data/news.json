@@ -1,7 +1,7 @@
 {
   "last_updated": "2026-07-21",
   "count": 200,
-  "history_count": 200,
+  "history_count": 204,
   "retention_days": 30,
   "items": [
     {
@@ -41,15 +41,63 @@
       ]
     },
     {
-      "title": "*   [Latest](http://techcrunch.com/latest/)",
+      "title": "Published Time: Thu, 08 May 2025 23:15:48 GMT",
       "link": "https://techcrunch.com/category/artificial-intelligence/",
-      "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
+      "summary": "Published Time: Thu, 08 May 2025 23:15:48 GMT...",
       "date": "2026-07-21",
       "source": "TechCrunch",
       "type": "industry",
       "tags": [
         "AI",
         "Artificial Intelligence"
+      ]
+    },
+    {
+      "title": "把张益唐坑苦的雅可比猜想，被Fable 5证伪了？",
+      "link": "https://www.jiqizhixin.com/search/articles/把张益唐坑苦的雅可比猜想，被F",
+      "summary": "把张益唐坑苦的雅可比猜想，被Fable 5证伪了？...",
+      "date": "2026-07-20",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "浙江人形亮相 WAIC：具身智能驱动 NAVIAI 与 AMR 实现集群调度作业",
+      "link": "https://www.jiqizhixin.com/search/articles/浙江人形亮相 WAIC：具身智",
+      "summary": "浙江人形亮相 WAIC：具身智能驱动 NAVIAI 与 AMR 实现集群调度作业...",
+      "date": "2026-07-20",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "跨集群异构PD分离WAIC首发，专访无问芯穹李秀红，探秘Token工厂「超级管线」的落地路径",
+      "link": "https://www.jiqizhixin.com/search/articles/跨集群异构PD分离WAIC首发",
+      "summary": "跨集群异构PD分离WAIC首发，专访无问芯穹李秀红，探秘Token工厂「超级管线」的落地路径...",
+      "date": "2026-07-20",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "GPU挤爆了！Kimi K3暂停新用户订阅，月之暗面准备IPO",
+      "link": "https://www.jiqizhixin.com/search/articles/GPU挤爆了！Kimi K3暂",
+      "summary": "GPU挤爆了！Kimi K3暂停新用户订阅，月之暗面准备IPO...",
+      "date": "2026-07-20",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
       ]
     },
     {
@@ -2350,54 +2398,6 @@
       "summary": "ICML 2026｜让AI自动发现前沿风险：创智×复旦×牛津发布AutoControl-Arena...",
       "date": "2026-06-24",
       "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "AI已成科研「标配」？搁置三年的免疫学谜题，GPT-5解开了",
-      "link": "https://www.jiqizhixin.com/search/articles/AI已成科研「标配」？搁置三年",
-      "summary": "AI已成科研「标配」？搁置三年的免疫学谜题，GPT-5解开了...",
-      "date": "2026-06-24",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "以“数据—模型—基础设施”系统性协同通往物理智能",
-      "link": "https://www.qbitai.com/?s=以“数据—模型—基础",
-      "summary": "以“数据—模型—基础设施”系统性协同通往物理智能...",
-      "date": "2026-06-24",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "24小时在线，2秒回话，陪你聊球",
-      "link": "https://www.qbitai.com/?s=24小时在线，2秒回",
-      "summary": "24小时在线，2秒回话，陪你聊球...",
-      "date": "2026-06-24",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "英伟达：不造机器人，但要帮具身企业造好机器人",
-      "link": "https://www.qbitai.com/?s=英伟达：不造机器人，",
-      "summary": "英伟达：不造机器人，但要帮具身企业造好机器人...",
-      "date": "2026-06-24",
-      "source": "量子位",
       "type": "industry",
       "tags": [
         "AI",

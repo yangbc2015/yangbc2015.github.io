@@ -3,6 +3,18 @@
   "count": 200,
   "items": [
     {
+      "title": "[科沃斯首款开源机器人线下空间揭牌，具 身 智 能 生态布局再进一步",
+      "summary": "[科沃斯首款开源机器人线下空间揭牌，具 身 智 能 生态布局再进一步",
+      "url": "http://36kr.com/p/3898008022877828",
+      "date": "2026-07-21",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
       "title": "[36氪首发 | 三个月融三轮，上交大00后博士让 具 身 智 能 仿生扑翼机器人理解并驾驭流体",
       "summary": "[36氪首发 | 三个月融三轮，上交大00后博士让 具 身 智 能 仿生扑翼机器人理解并驾驭流体",
       "url": "http://36kr.com/p/3889516712065799",
@@ -39,15 +51,83 @@
       ]
     },
     {
-      "title": "[科沃斯首款开源机器人线下空间揭牌，具 身 智 能 生态布局再进一步",
-      "summary": "[科沃斯首款开源机器人线下空间揭牌，具 身 智 能 生态布局再进一步",
-      "url": "http://36kr.com/p/3898008022877828",
+      "title": "Patch Policy: Efficient Embodied Control via Dense Visual Representations",
+      "summary": "Pretrained dense visual features from Vision Transformers (ViTs) are powerful yet have been underutilized in robot learning. Modern robot policies either compress each observation into a single global token, or rely on visual backbones trained from s...",
+      "url": "https://arxiv.org/abs/2607.18236v1",
       "date": "2026-07-20",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2607.18236v1",
+      "authors": "Gaoyue Zhou, Zichen Jeff Cui et al.",
       "tags": [
-        "机器人"
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "FM-VLA: Force-based Memory for Vision-Language-Action Models in Contact-Rich Manipulation",
+      "summary": "Vision-language-action (VLA) models have achieved impressive generalization in robotic manipulation, and recent memory-augmented VLAs have relaxed the Markovian assumption by conditioning on past images or language summaries. Vision-based memory appr...",
+      "url": "https://arxiv.org/abs/2607.18231v1",
+      "date": "2026-07-20",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2607.18231v1",
+      "authors": "Ruicheng Li, Qixiu Li et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Optimization of sim-to-real transfer in the humanoid robot NICO",
+      "summary": "Robotic grasping requires accurate coordination between visual perception, object localization, inverse kinematics, and hand control. However, when movements planned in simulation are executed on a physical robot, the sim-to-real gap can cause small ...",
+      "url": "https://arxiv.org/abs/2607.18210v1",
+      "date": "2026-07-20",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2607.18210v1",
+      "authors": "Juraj Gavura, Igor Farkaš",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Learning Adaptive Safety Margins for Visual Navigation",
+      "summary": "Robots in cluttered indoor spaces often fail not because they cannot generate collision-free paths, but because a fixed safety margin is mis-calibrated: conservative margins cause detours and timeouts, while permissive margins lead to near-boundary s...",
+      "url": "https://arxiv.org/abs/2607.18200v1",
+      "date": "2026-07-20",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2607.18200v1",
+      "authors": "Junyi Hu, Shuaihang Yuan et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Imitation of Arm Gestures by the Semi-Humanoid Robot NICO",
+      "summary": "Seamless human-robot interaction (HRI) requires a number of perceptual and motor abilities from the robot, one of them being the imitation of human gestures. Humanoid robots have an advantage in HRI thanks to their anthropomorphic features. In this w...",
+      "url": "https://arxiv.org/abs/2607.18197v1",
+      "date": "2026-07-20",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2607.18197v1",
+      "authors": "Anastasiya Ihnatovich, Igor Farkaš",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
       ]
     },
     {
@@ -68,6 +148,32 @@
       "summary": "[自研焊接具身大脑模型，以“智能焊工”切入工业制造 具 身 智 能 赛道，「昇视唯盛」完成数亿元B轮融资｜36氪首发",
       "url": "http://36kr.com/p/3887871679347208",
       "date": "2026-07-18",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "具身智能的下一个拐点，不在身体而在大脑。",
+      "summary": "具身智能的下一个拐点，不在身体而在大脑。",
+      "url": "http://36kr.com/p/3899248113158023",
+      "date": "2026-07-17",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "WAIC 2026多款新品抢先看：从具身智能到算力基础设施",
+      "summary": "WAIC 2026多款新品抢先看：从具身智能到算力基础设施",
+      "url": "http://36kr.com/p/3898343171687813",
+      "date": "2026-07-17",
       "source": "36氪",
       "category": "具身智能",
       "type": "news",
@@ -154,32 +260,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "具身智能的下一个拐点，不在身体而在大脑。",
-      "summary": "具身智能的下一个拐点，不在身体而在大脑。",
-      "url": "http://36kr.com/p/3899248113158023",
-      "date": "2026-07-17",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "WAIC 2026多款新品抢先看：从具身智能到算力基础设施",
-      "summary": "WAIC 2026多款新品抢先看：从具身智能到算力基础设施",
-      "url": "http://36kr.com/p/3898343171687813",
-      "date": "2026-07-17",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
       ]
     },
     {
@@ -2982,86 +3062,6 @@
       "type": "paper",
       "arxiv_id": "2606.20272v1",
       "authors": "Paul Koch, Vivek Chavan et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Zero-Shot Long-Horizon Dexterous Manipulation via Multi-View 3D-Grounded VLM Reasoning",
-      "summary": "We present a zero-shot framework for long-horizon dexterous manipulation that grounds language instructions into executable 3D task plans from calibrated multi-view RGB images. Rather than training an end-to-end policy, our system uses a vision-langu...",
-      "url": "https://arxiv.org/abs/2606.19340v1",
-      "date": "2026-06-17",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.19340v1",
-      "authors": "Jisoo Kim, Sangwon Baik et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Do as I Do: Dexterous Manipulation Data from Everyday Human Videos",
-      "summary": "How can we scalably generate data for robotic manipulation, especially on human-like platforms such as dexterous multi-fingered hands? Learning from human videos has recently emerged as a likely answer to this question. However, difficulties in estim...",
-      "url": "https://arxiv.org/abs/2606.19333v1",
-      "date": "2026-06-17",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.19333v1",
-      "authors": "Bhawna Paliwal, Haritheja Etukuru et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "UBP2: Uncertainty-Balanced Preference Planning for Efficient Preference-based Reinforcement Learning",
-      "summary": "Preference-based RL provides an approach to learning reward models from pairwise comparisons of behaviors, bypassing the need for explicit reward design. However, existing methods typically rely on passive data collection and suffer from poor sample ...",
-      "url": "https://arxiv.org/abs/2606.19328v1",
-      "date": "2026-06-17",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.19328v1",
-      "authors": "Mohamed Nabail, Leo Cheng et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Modeling Branches for Active Manipulation using Iterative Parameter Estimation",
-      "summary": "This study presents a method for modeling diverse plant branches by iteratively estimating material parameters to support delicate branch manipulation. Branch manipulation is necessary in agricultural robotics for plant repositioning, stabilizing, an...",
-      "url": "https://arxiv.org/abs/2606.19314v1",
-      "date": "2026-06-17",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.19314v1",
-      "authors": "Madhav Rijal, Rashik Shrestha et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Observability and Consistency Analysis for Visual-Inertial Navigation with Anchored Feature Parameterizations",
-      "summary": "This paper presents an analysis of the observability and consistency properties of filtering-based visual-inertial navigation systems (VINS) that utilize anchored feature representations. The unobservable subspace of VINS with anchored landmark param...",
-      "url": "https://arxiv.org/abs/2606.19307v1",
-      "date": "2026-06-17",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.19307v1",
-      "authors": "Mitchell Cohen, Vassili Korotkine et al.",
       "tags": [
         "机器人学习",
         "研究论文",
