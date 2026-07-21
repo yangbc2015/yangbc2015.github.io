@@ -1,6 +1,6 @@
 ---
 title: '*   [Apple](http://techcrunch.com/tag/apple/)'
-date: '2026-07-20'
+date: '2026-07-21'
 type: industry
 source: TechCrunch
 link: https://techcrunch.com/category/artificial-intelligence/
