@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-07-21",
+  "last_updated": "2026-07-22",
   "count": 200,
   "items": [
     {
       "title": "[亮相WAIC2026：从核心部件到场景方案，华沿机器人秀出“具 身 智 能”硬实力",
       "summary": "[亮相WAIC2026：从核心部件到场景方案，华沿机器人秀出“具 身 智 能”硬实力",
       "url": "http://36kr.com/p/3903593981626240",
-      "date": "2026-07-21",
+      "date": "2026-07-22",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
@@ -18,7 +18,7 @@
       "title": "[从第一视角到全身操作：简智机器人构建面向 具 身 智 能 的 Human Data 底座",
       "summary": "[从第一视角到全身操作：简智机器人构建面向 具 身 智 能 的 Human Data 底座",
       "url": "http://36kr.com/p/3903858284086913",
-      "date": "2026-07-21",
+      "date": "2026-07-22",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
@@ -30,7 +30,7 @@
       "title": "[WAIC现场直击：优理奇机器人多场景“上岗”，展现中国 具 身 智 能 硬实力",
       "summary": "[WAIC现场直击：优理奇机器人多场景“上岗”，展现中国 具 身 智 能 硬实力",
       "url": "http://36kr.com/p/3903859237341058",
-      "date": "2026-07-21",
+      "date": "2026-07-22",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
@@ -140,6 +140,32 @@
         "机器人学习",
         "研究论文",
         "arXiv"
+      ]
+    },
+    {
+      "title": "“具身智能夜话”在沪顺利举办。",
+      "summary": "“具身智能夜话”在沪顺利举办。",
+      "url": "http://36kr.com/p/3903909048321928",
+      "date": "2026-07-20",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "WAIC 2026简智展出Human Data方案，赋能具身智能。",
+      "summary": "WAIC 2026简智展出Human Data方案，赋能具身智能。",
+      "url": "http://36kr.com/p/3903858284086913",
+      "date": "2026-07-20",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
       ]
     },
     {
@@ -3026,38 +3052,6 @@
       "type": "paper",
       "arxiv_id": "2606.20336v1",
       "authors": "Taha Bouzid, Shuhao Qi et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Towards 3D karst underwater scene reconstruction from rotating sonar data",
-      "summary": "Karst aquifers provide critical freshwater resources but pose significant hazards due to their complex and poorly understood subsurface geometry. Mapping these environments is challenging because sonar data from underwater exploration is sparse and n...",
-      "url": "https://arxiv.org/abs/2606.20322v1",
-      "date": "2026-06-18",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.20322v1",
-      "authors": "Georgios Evangelos Margaritis, Lionel Lapierre et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Co-VLA: Coordination-Aware Structured Action Modeling for Dual-Arm Vision-Language-Action Systems",
-      "summary": "Vision-language-action (VLA) models show strong capabilities in single and dual-arm robotic manipulation. Prior works show coordinated bimanual behaviors can emerge from end-to-end learning, leveraging large vision-language backbones with continuous ...",
-      "url": "https://arxiv.org/abs/2606.20285v1",
-      "date": "2026-06-18",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.20285v1",
-      "authors": "Yandong Wang, Jiaqian Yu et al.",
       "tags": [
         "机器人学习",
         "研究论文",
