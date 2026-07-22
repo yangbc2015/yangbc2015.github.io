@@ -169,6 +169,43 @@
       ]
     },
     {
+      "title": "优理奇正在推动机器人从单点技能走向长程任务，从固定程序走向自主组织，从实验室验证走向真实场景应用。",
+      "summary": "优理奇正在推动机器人从单点技能走向长程任务，从固定程序走向自主组织，从实验室验证走向真实场景应用。",
+      "url": "http://36kr.com/p/3903859237341058",
+      "date": "2026-07-20",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
+      "title": "机器人的视觉战争：一家中国公司的具身智能基建野心。",
+      "summary": "机器人的视觉战争：一家中国公司的具身智能基建野心。",
+      "url": "http://36kr.com/p/3903409360209799",
+      "date": "2026-07-20",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "数据墙，是高质量真实交互数据昂贵且稀缺；表征墙，是不同任务、场景和机器人本体之间，尚未形成足够统一的物理表征；闭环墙，则是真实世界中的试错速度慢、成本高，一次失败可能带来零部件损坏，甚至影响整台机器。",
+      "summary": "数据墙，是高质量真实交互数据昂贵且稀缺；表征墙，是不同任务、场景和机器人本体之间，尚未形成足够统一的物理表征；闭环墙，则是真实世界中的试错速度慢、成本高，一次失败可能带来零部件损坏，甚至影响整台机器。",
+      "url": "http://36kr.com/p/3902490934740101",
+      "date": "2026-07-20",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
       "title": "具身智能进入下半场，赢家拼的不再只是机器人。",
       "summary": "具身智能进入下半场，赢家拼的不再只是机器人。",
       "url": "http://36kr.com/p/3900610713175938",
@@ -3004,54 +3041,6 @@
       "type": "paper",
       "arxiv_id": "2606.20495v1",
       "authors": "Oxana Shamilyan, Ievgen Kabin et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Fast Human Attention Prediction for Fixation-guided Active Perception in Autonomous Navigation",
-      "summary": "Human visual attention relies on structured scanpaths to efficiently process scenes, yet instilling this behavior into robot autonomy is in its infancy and hindered by the high,computational costs of existing predictive models. To address this, we in...",
-      "url": "https://arxiv.org/abs/2606.20491v1",
-      "date": "2026-06-18",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.20491v1",
-      "authors": "Fatma Youssef Mohammed, Grzegorz Malczyk et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "An Infrastructure-less, Control-Independent Solution to Relative Localisation of a Team of Mobile Robots using Ranging Measurements",
-      "summary": "The ability to localise teams of robots is essential for applications ranging from robotic fleets in unstructured environments to cooperative control and navigation tasks. In such contexts, fixed infrastructure is often unavailable, deployments must ...",
-      "url": "https://arxiv.org/abs/2606.20365v1",
-      "date": "2026-06-18",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.20365v1",
-      "authors": "Paolo Golinelli, Tommaso Faraci et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Autonomous Driving with Priority-Ordered STL Specifications Under Multimodal Uncertainty",
-      "summary": "Autonomous vehicles must plan trajectories that satisfy a multitude of requirements on safety, passenger comfort, and compliance with traffic rules. However, in safety-critical scenarios, it is not always possible to satisfy all requirements simultan...",
-      "url": "https://arxiv.org/abs/2606.20336v1",
-      "date": "2026-06-18",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.20336v1",
-      "authors": "Taha Bouzid, Shuhao Qi et al.",
       "tags": [
         "机器人学习",
         "研究论文",
