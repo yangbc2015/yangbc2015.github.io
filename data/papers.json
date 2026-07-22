@@ -1,16 +1,16 @@
 {
   "last_updated": "2026-07-22",
-  "count": 6,
+  "count": 7,
   "items": [
     {
-      "title": "Automated Discovery Has No Universally Superior Harness",
-      "authors": "Akshat Gupta, Jermaine Lei, Alexander Lu et al.",
-      "abstract": "Autonomous discovery systems such as OpenEvolve and TTT-Discover are often used as general-purpose harnesses. However, in practice these are composite systems combining several design choices about archives, parent selection, exploration, and budget allocation into a single recipe. Because discovery...",
+      "title": "Copy Less, Ground More: Overcoming Repetitive Copying in Long-Context Reasoning via Evidence-Aware Reinforcement Learning",
+      "authors": "Lizhe Fang, Weizhou Shen, Tianyi Tang et al.",
+      "abstract": "Large language models that generate step-by-step reasoning traces have achieved strong performance on complex tasks, and extending them to long-context settings has emerged as an important frontier. However, we identify a critical failure mode in this regime: \\emph{repetitive copying}, where models ...",
       "venue": "arXiv",
-      "date": "2026-07-20",
-      "arxiv_id": "2607.18235v1",
-      "url": "https://arxiv.org/abs/2607.18235v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.18235v1.pdf",
+      "date": "2026-07-21",
+      "arxiv_id": "2607.19345v1",
+      "url": "https://arxiv.org/abs/2607.19345v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.19345v1.pdf",
       "categories": [
         "cs.CL",
         "cs.AI"
@@ -20,32 +20,34 @@
       "source": "arXiv"
     },
     {
-      "title": "Simple Domain Generalization for Strong Pixel-Level Image Tampering Detection in Modern VLMs",
-      "authors": "Yi Tang, Xinyi Shang, Jiacheng Cui et al.",
-      "abstract": "Modern vision-language models (VLMs) have significantly improved image generation and editing capabilities, making pixel-level image tampering detection increasingly important yet challenging under cross-model and out-of-distribution shifts. This work studies domain generalization for pixel-level im...",
+      "title": "Appearance Pointers -- Multimodal Region Control of Diffusion Transformers",
+      "authors": "Rahul Sajnani, Yulia Gryaditskaya, Radomír Měch et al.",
+      "abstract": "Controllable image generation remains challenging for creative professionals, who often require precise regional control over materials, object identities, and spatial arrangements that cannot be reliably achieved through text prompting alone. Diffusion Transformers (DiTs) can natively ingest hetero...",
       "venue": "arXiv",
-      "date": "2026-07-20",
-      "arxiv_id": "2607.18230v1",
-      "url": "https://arxiv.org/abs/2607.18230v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.18230v1.pdf",
+      "date": "2026-07-21",
+      "arxiv_id": "2607.19344v1",
+      "url": "https://arxiv.org/abs/2607.19344v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.19344v1.pdf",
       "categories": [
         "cs.CV",
-        "cs.AI"
+        "cs.AI",
+        "cs.GR"
       ],
       "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "It's Not What You Say, It's How You Say It: Evaluating LLM Responses to Expressions of Belief",
-      "authors": "Kevin Du, Clara Kümpel, Michelle Wastl et al.",
-      "abstract": "Users frequently express their beliefs to large language models (LLMs). In some situations, the LLM should accept these contextual beliefs as true. In others, they should stick to their prior knowledge. Notably, users' expressions of belief (EoBs) can take linguistically diverse forms - using presup...",
+      "title": "Agents in the Wild: Where Research Meets Deployment",
+      "authors": "Grace Hui Yang, Pranav N. Venkit, Hooman Sedghamiz et al.",
+      "abstract": "Agentic systems large language model (LLM) based architectures capable of reasoning, planning, acting, and coordinating with tools and other agents are rapidly transitioning from research prototypes to production scale deployments across domains such as software engineering, scientific discovery, an...",
       "venue": "arXiv",
-      "date": "2026-07-20",
-      "arxiv_id": "2607.18232v1",
-      "url": "https://arxiv.org/abs/2607.18232v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.18232v1.pdf",
+      "date": "2026-07-21",
+      "arxiv_id": "2607.19336v1",
+      "url": "https://arxiv.org/abs/2607.19336v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.19336v1.pdf",
       "categories": [
+        "cs.AI",
         "cs.CL"
       ],
       "type": "nlp",
@@ -53,33 +55,33 @@
       "source": "arXiv"
     },
     {
-      "title": "The Many Senses of Visual Similarity: A Text-Prompted Image Perceptual Metric",
-      "authors": "Sheng-Yu Wang, Yotam Nitzan, Aaron Hertzmann et al.",
-      "abstract": "Human visual similarity judgments are context-dependent. For example, two images may be similar in shape but distinct in color. Existing perceptual similarity metrics, however, collapse these nuances into a single scalar value, offering no mechanism to condition on specific aspects. To bridge this g...",
+      "title": "Masked Visual Actions for Unified World Modeling",
+      "authors": "Hadi Alzayer, Wenlong Huang, Haonan Chen et al.",
+      "abstract": "Video models absorb rich priors over how the visual world moves, interacts, and responds to contact, making them promising substrates for robotic world modeling. The central challenge is how to communicate action to such models in a form aligned with the visual space in which they learned these inte...",
       "venue": "arXiv",
-      "date": "2026-07-20",
-      "arxiv_id": "2607.18237v1",
-      "url": "https://arxiv.org/abs/2607.18237v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.18237v1.pdf",
+      "date": "2026-07-21",
+      "arxiv_id": "2607.19343v1",
+      "url": "https://arxiv.org/abs/2607.19343v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.19343v1.pdf",
       "categories": [
         "cs.CV",
-        "cs.LG"
+        "cs.RO"
       ],
-      "type": "nlp",
+      "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Patch Policy: Efficient Embodied Control via Dense Visual Representations",
-      "authors": "Gaoyue Zhou, Zichen Jeff Cui, Ada Langford et al.",
-      "abstract": "Pretrained dense visual features from Vision Transformers (ViTs) are powerful yet have been underutilized in robot learning. Modern robot policies either compress each observation into a single global token, or rely on visual backbones trained from scratch, sacrificing both fine-grained spatial deta...",
+      "title": "1-Lipschitz Neural Networks on Hadamard Manifolds",
+      "authors": "Davide Murari, Marta Ghirardelli, Ben Adcock et al.",
+      "abstract": "Controlling the Lipschitz constant of a neural network is a standard way to promote robustness and stability. Most existing constraining strategies are designed for Euclidean spaces. In this work, we construct and analyze a class of 1-Lipschitz neural networks on Hadamard manifolds. Our layers are o...",
       "venue": "arXiv",
-      "date": "2026-07-20",
-      "arxiv_id": "2607.18236v1",
-      "url": "https://arxiv.org/abs/2607.18236v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.18236v1.pdf",
+      "date": "2026-07-21",
+      "arxiv_id": "2607.19335v1",
+      "url": "https://arxiv.org/abs/2607.19335v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.19335v1.pdf",
       "categories": [
-        "cs.RO",
+        "math.NA",
         "cs.LG"
       ],
       "type": "ml",
@@ -87,18 +89,38 @@
       "source": "arXiv"
     },
     {
-      "title": "FM-VLA: Force-based Memory for Vision-Language-Action Models in Contact-Rich Manipulation",
-      "authors": "Ruicheng Li, Qixiu Li, Ruichun Ma et al.",
-      "abstract": "Vision-language-action (VLA) models have achieved impressive generalization in robotic manipulation, and recent memory-augmented VLAs have relaxed the Markovian assumption by conditioning on past images or language summaries. Vision-based memory approaches address this by conditioning on sampled pas...",
+      "title": "Fundamental limits of distributed multiclass classification from simple binary decisions",
+      "authors": "Ioannis Papageorgiou, Srinivas Nomula, Ayalvadi Ganesh et al.",
+      "abstract": "We consider the problem of constructing a $K$-class classifier from the combination of $O(\\log K)$ simple binary classifiers -- this is a natural paradigm to construct a sophisticated classifier in a distributed manner with each agent performing a relatively straightforward task. We study the fundam...",
       "venue": "arXiv",
-      "date": "2026-07-20",
-      "arxiv_id": "2607.18231v1",
-      "url": "https://arxiv.org/abs/2607.18231v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.18231v1.pdf",
+      "date": "2026-07-21",
+      "arxiv_id": "2607.19334v1",
+      "url": "https://arxiv.org/abs/2607.19334v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.19334v1.pdf",
       "categories": [
-        "cs.RO"
+        "stat.ML",
+        "cs.IT",
+        "cs.LG"
       ],
-      "type": "nlp",
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "From Distances to Trajectories: Real-Time Signed Distance Function Mapping and Distance-Accelerated Motion Planning for UAVs",
+      "authors": "Jason Stanley, Zhirui Dai, Qihao Qian et al.",
+      "abstract": "Autonomous flight in cluttered environments requires a robot to build a geometric map of its surroundings and plan safe, dynamically feasible trajectories, all onboard and in real time. Conventional approaches treat mapping and planning as separate stages and often rely on binary occupancy for colli...",
+      "venue": "arXiv",
+      "date": "2026-07-21",
+      "arxiv_id": "2607.19306v1",
+      "url": "https://arxiv.org/abs/2607.19306v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.19306v1.pdf",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.CV"
+      ],
+      "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     }

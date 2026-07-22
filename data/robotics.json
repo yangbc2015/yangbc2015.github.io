@@ -39,6 +39,86 @@
       ]
     },
     {
+      "title": "Masked Visual Actions for Unified World Modeling",
+      "summary": "Video models absorb rich priors over how the visual world moves, interacts, and responds to contact, making them promising substrates for robotic world modeling. The central challenge is how to communicate action to such models in a form aligned with...",
+      "url": "https://arxiv.org/abs/2607.19343v1",
+      "date": "2026-07-21",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2607.19343v1",
+      "authors": "Hadi Alzayer, Wenlong Huang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "From Distances to Trajectories: Real-Time Signed Distance Function Mapping and Distance-Accelerated Motion Planning for UAVs",
+      "summary": "Autonomous flight in cluttered environments requires a robot to build a geometric map of its surroundings and plan safe, dynamically feasible trajectories, all onboard and in real time. Conventional approaches treat mapping and planning as separate s...",
+      "url": "https://arxiv.org/abs/2607.19306v1",
+      "date": "2026-07-21",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2607.19306v1",
+      "authors": "Jason Stanley, Zhirui Dai et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "No Training, Better Flights: Test-Time Scaled VLMs for UAV Navigation",
+      "summary": "Test-time scaling offers a promising method to improve the inference performance of Vision-Language Models (VLMs) without additional training. Existing approaches to vision-language navigation (VLN) for Unmanned Aerial Vehicle (UAV) typically relies ...",
+      "url": "https://arxiv.org/abs/2607.19288v1",
+      "date": "2026-07-21",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2607.19288v1",
+      "authors": "Feinan Cheng, Dongliang Xu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Stochastic Multi-Objective Kinodynamic Planning Against Adversaries",
+      "summary": "This paper addresses multi-objective kinodynamic planning in environments with stochastic hybrid adversaries that probabilistically transition to adversarial modes based on the ego state. The goal is to construct the Pareto-front of paths that trade ...",
+      "url": "https://arxiv.org/abs/2607.19284v1",
+      "date": "2026-07-21",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2607.19284v1",
+      "authors": "Thomas Marshall Vielmetti, Daniel Cherenson et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Eversion-based robots can enable safe access,steering and endoscopic imaging within the spinal subarachnoid space",
+      "summary": "Safe navigation within the spinal subarachnoid space is constrained by its narrow, compliant, and delicate anatomy. Conventional catheters and continuum robots rely on proximal pushing, generating friction and shear along the tissue device interface ...",
+      "url": "https://arxiv.org/abs/2607.19274v1",
+      "date": "2026-07-21",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2607.19274v1",
+      "authors": "Zicong Wu, Panagiotis Kalozoumis et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
       "title": "[科沃斯首款开源机器人线下空间揭牌，具 身 智 能 生态布局再进一步",
       "summary": "[科沃斯首款开源机器人线下空间揭牌，具 身 智 能 生态布局再进一步",
       "url": "http://36kr.com/p/3898008022877828",
@@ -55,6 +135,69 @@
       "summary": "[36氪首发 | 三个月融三轮，上交大00后博士让 具 身 智 能 仿生扑翼机器人理解并驾驭流体",
       "url": "http://36kr.com/p/3889516712065799",
       "date": "2026-07-21",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
+      "title": "“具身智能夜话”在沪顺利举办。",
+      "summary": "“具身智能夜话”在沪顺利举办。",
+      "url": "http://36kr.com/p/3903909048321928",
+      "date": "2026-07-20",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "WAIC 2026简智展出Human Data方案，赋能具身智能。",
+      "summary": "WAIC 2026简智展出Human Data方案，赋能具身智能。",
+      "url": "http://36kr.com/p/3903858284086913",
+      "date": "2026-07-20",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "优理奇正在推动机器人从单点技能走向长程任务，从固定程序走向自主组织，从实验室验证走向真实场景应用。",
+      "summary": "优理奇正在推动机器人从单点技能走向长程任务，从固定程序走向自主组织，从实验室验证走向真实场景应用。",
+      "url": "http://36kr.com/p/3903859237341058",
+      "date": "2026-07-20",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
+      "title": "机器人的视觉战争：一家中国公司的具身智能基建野心。",
+      "summary": "机器人的视觉战争：一家中国公司的具身智能基建野心。",
+      "url": "http://36kr.com/p/3903409360209799",
+      "date": "2026-07-20",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "数据墙，是高质量真实交互数据昂贵且稀缺；表征墙，是不同任务、场景和机器人本体之间，尚未形成足够统一的物理表征；闭环墙，则是真实世界中的试错速度慢、成本高，一次失败可能带来零部件损坏，甚至影响整台机器。",
+      "summary": "数据墙，是高质量真实交互数据昂贵且稀缺；表征墙，是不同任务、场景和机器人本体之间，尚未形成足够统一的物理表征；闭环墙，则是真实世界中的试错速度慢、成本高，一次失败可能带来零部件损坏，甚至影响整台机器。",
+      "url": "http://36kr.com/p/3902490934740101",
+      "date": "2026-07-20",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
@@ -140,69 +283,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "“具身智能夜话”在沪顺利举办。",
-      "summary": "“具身智能夜话”在沪顺利举办。",
-      "url": "http://36kr.com/p/3903909048321928",
-      "date": "2026-07-20",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "WAIC 2026简智展出Human Data方案，赋能具身智能。",
-      "summary": "WAIC 2026简智展出Human Data方案，赋能具身智能。",
-      "url": "http://36kr.com/p/3903858284086913",
-      "date": "2026-07-20",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "优理奇正在推动机器人从单点技能走向长程任务，从固定程序走向自主组织，从实验室验证走向真实场景应用。",
-      "summary": "优理奇正在推动机器人从单点技能走向长程任务，从固定程序走向自主组织，从实验室验证走向真实场景应用。",
-      "url": "http://36kr.com/p/3903859237341058",
-      "date": "2026-07-20",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
-      ]
-    },
-    {
-      "title": "机器人的视觉战争：一家中国公司的具身智能基建野心。",
-      "summary": "机器人的视觉战争：一家中国公司的具身智能基建野心。",
-      "url": "http://36kr.com/p/3903409360209799",
-      "date": "2026-07-20",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "数据墙，是高质量真实交互数据昂贵且稀缺；表征墙，是不同任务、场景和机器人本体之间，尚未形成足够统一的物理表征；闭环墙，则是真实世界中的试错速度慢、成本高，一次失败可能带来零部件损坏，甚至影响整台机器。",
-      "summary": "数据墙，是高质量真实交互数据昂贵且稀缺；表征墙，是不同任务、场景和机器人本体之间，尚未形成足够统一的物理表征；闭环墙，则是真实世界中的试错速度慢、成本高，一次失败可能带来零部件损坏，甚至影响整台机器。",
-      "url": "http://36kr.com/p/3902490934740101",
-      "date": "2026-07-20",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
       ]
     },
     {
@@ -2961,86 +3041,6 @@
       "type": "paper",
       "arxiv_id": "2606.21509v1",
       "authors": "Yueyuan Li, Yifei Xiao et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "UniviewVLA: A Unified Multiview Vision-Language-Action Model with World Modeling",
-      "summary": "Occluded tasks remain a bottleneck in robot manipulation. Existing solutions either deploy additional physical cameras requiring training-inference camera parity, or rely on explicit 3D reconstruction with high computational cost. Moreover, both appr...",
-      "url": "https://arxiv.org/abs/2606.21501v1",
-      "date": "2026-06-19",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.21501v1",
-      "authors": "Tao Xu, Runhao Zhang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "MemoryWAM: Efficient World Action Modeling with Persistent Memory",
-      "summary": "Robust robotic manipulation in the real world requires not only an understanding of the current observation, but also memory and dynamics modeling. World action models (WAMs) possess these capabilities by jointly modeling visual foresight and actions...",
-      "url": "https://arxiv.org/abs/2606.20562v1",
-      "date": "2026-06-18",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.20562v1",
-      "authors": "Sizhe Yang, Juncheng Mu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Generating Robot Hands from Human Demonstrations",
-      "summary": "Robot learning has advanced rapidly in learning control, but learning the physical body of a robot remains much more difficult because jointly searching over design and control creates a very large combinatorial problem. Here, we present a data-drive...",
-      "url": "https://arxiv.org/abs/2606.20549v1",
-      "date": "2026-06-18",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.20549v1",
-      "authors": "Sha Yi, Nicklas Hansen et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "The Token Is a Group Element: On Lie-Algebra Attention over Matrix Lie Groups",
-      "summary": "We place the attention token on the group: a token is an element $gi$ of a matrix Lie group $G$ -- a bare transformation, with no feature payload and no external action $ρ(g)$ carrying it. To our knowledge this is the first attention construction wh...",
-      "url": "https://arxiv.org/abs/2606.20547v1",
-      "date": "2026-06-18",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.20547v1",
-      "authors": "Przemyslaw Musialski",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Increasing Resilience of Continuum Robots via Motion Planning Algorithms",
-      "summary": "This paper presents an experimental study of motion planning for resilient continuum robots. In this study we mainly focused on multi-criteria decision-making, its application for path-planning algorithms, impact on the generated path and execution t...",
-      "url": "https://arxiv.org/abs/2606.20495v1",
-      "date": "2026-06-18",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.20495v1",
-      "authors": "Oxana Shamilyan, Ievgen Kabin et al.",
       "tags": [
         "机器人学习",
         "研究论文",
