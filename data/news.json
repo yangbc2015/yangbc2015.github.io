@@ -1,21 +1,9 @@
 {
   "last_updated": "2026-07-23",
   "count": 200,
-  "history_count": 202,
+  "history_count": 200,
   "retention_days": 30,
   "items": [
-    {
-      "title": "具身智能正在从「参数竞赛」进入「架构竞赛」。",
-      "link": "https://www.qbitai.com/?s=具身智能正在从「参数",
-      "summary": "具身智能正在从「参数竞赛」进入「架构竞赛」。...",
-      "date": "2026-07-23",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
     {
       "title": "美图产品挑战赛（Meitu Hatch Catch）火热报名中",
       "link": "https://www.qbitai.com/?s=美图产品挑战赛（Me",
@@ -53,15 +41,27 @@
       ]
     },
     {
-      "title": "Published Time: Thu, 08 May 2025 23:15:48 GMT",
+      "title": "*   [Latest](http://techcrunch.com/latest/)",
       "link": "https://techcrunch.com/category/artificial-intelligence/",
-      "summary": "Published Time: Thu, 08 May 2025 23:15:48 GMT...",
+      "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
       "date": "2026-07-23",
       "source": "TechCrunch",
       "type": "industry",
       "tags": [
         "AI",
         "Artificial Intelligence"
+      ]
+    },
+    {
+      "title": "具身智能正在从「参数竞赛」进入「架构竞赛」。",
+      "link": "https://www.qbitai.com/?s=具身智能正在从「参数",
+      "summary": "具身智能正在从「参数竞赛」进入「架构竞赛」。...",
+      "date": "2026-07-23",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
       ]
     },
     {
