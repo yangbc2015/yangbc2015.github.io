@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-07-22",
+  "last_updated": "2026-07-23",
   "count": 200,
   "items": [
     {
       "title": "[亮相WAIC2026：从核心部件到场景方案，华沿机器人秀出“具 身 智 能”硬实力",
       "summary": "[亮相WAIC2026：从核心部件到场景方案，华沿机器人秀出“具 身 智 能”硬实力",
       "url": "http://36kr.com/p/3903593981626240",
-      "date": "2026-07-22",
+      "date": "2026-07-23",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
@@ -116,6 +116,45 @@
         "机器人学习",
         "研究论文",
         "arXiv"
+      ]
+    },
+    {
+      "title": "在这波AI和具身智能的融资大潮中，最早的入场券，可能比任何轮次都值钱。",
+      "summary": "在这波AI和具身智能的融资大潮中，最早的入场券，可能比任何轮次都值钱。",
+      "url": "http://36kr.com/p/3905030384879234",
+      "date": "2026-07-21",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "凭借在电机、关节模组、伺服驱动器、运动控制算法等机器人核心技术领域20多年的技术积淀，完成从最底层电机/关节模组到协作机器人整机、再到具身智能机器人相关产品的全链路深度布局。",
+      "summary": "凭借在电机、关节模组、伺服驱动器、运动控制算法等机器人核心技术领域20多年的技术积淀，完成从最底层电机/关节模组到协作机器人整机、再到具身智能机器人相关产品的全链路深度布局。",
+      "url": "http://36kr.com/p/3903593981626240",
+      "date": "2026-07-21",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "西湖机器人携西湖o1亮相2026 WAIC，推国产具身智能落地",
+      "summary": "西湖机器人携西湖o1亮相2026 WAIC，推国产具身智能落地",
+      "url": "http://36kr.com/p/3904819424413313",
+      "date": "2026-07-21",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
       ]
     },
     {
@@ -2993,54 +3032,6 @@
       "type": "paper",
       "arxiv_id": "2606.21577v1",
       "authors": "Rohan Walia, Kevin Leahy",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Robot Critics that Sweat the Small Stuff",
-      "summary": "Large vision-language models contain several priors about the world and object interactions, making them useful critics during inference to steer robot policies towards success. However, closed-loop robot manipulation requires judging small visual di...",
-      "url": "https://arxiv.org/abs/2606.21572v1",
-      "date": "2026-06-19",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.21572v1",
-      "authors": "Sruthi Sudhakar, Junbang Liang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "LOGOS: LiDAR-Only Gaussian Elevation Splatting for Unified Tiny Obstacle Segmentation",
-      "summary": "Robust obstacle segmentation is essential for the safety of intelligent robots, where LiDAR-based perception systems play a fundamental role in the robot-environment interaction. While extensive LiDAR-based approaches have demonstrated high performan...",
-      "url": "https://arxiv.org/abs/2606.21527v1",
-      "date": "2026-06-19",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.21527v1",
-      "authors": "Nan Ming, Yeqiang Qian et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "A Stitch in Time Saves Nine: Preserving Policy Compatibility Under Perception Updates in End-to-End Autonomous Driving",
-      "summary": "End-to-end autonomous driving systems tightly couple perception and decision-making through latent representations. Consequently, updates to perception models can alter these representations and degrade the performance of downstream policies that rem...",
-      "url": "https://arxiv.org/abs/2606.21509v1",
-      "date": "2026-06-19",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.21509v1",
-      "authors": "Yueyuan Li, Yifei Xiao et al.",
       "tags": [
         "机器人学习",
         "研究论文",

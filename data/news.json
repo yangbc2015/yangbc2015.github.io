@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-07-22",
+  "last_updated": "2026-07-23",
   "count": 200,
-  "history_count": 201,
+  "history_count": 205,
   "retention_days": 30,
   "items": [
     {
       "title": "美图产品挑战赛（Meitu Hatch Catch）火热报名中",
       "link": "https://www.qbitai.com/?s=美图产品挑战赛（Me",
       "summary": "美图产品挑战赛（Meitu Hatch Catch）火热报名中...",
-      "date": "2026-07-22",
+      "date": "2026-07-23",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -20,7 +20,7 @@
       "title": "按照规划，日冕和远图将首先在服务器制造场景验证超级工站能力，随后向更多生产环节扩展。2027年完成百台级部署，未来实现万台级具身智能产品部署。",
       "link": "https://www.qbitai.com/?s=按照规划，日冕和远图",
       "summary": "按照规划，日冕和远图将首先在服务器制造场景验证超级工站能力，随后向更多生产环节扩展。2027年完成百台级部署，未来实现万台级具身智能产品部署。...",
-      "date": "2026-07-22",
+      "date": "2026-07-23",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -32,7 +32,7 @@
       "title": "机器人真正需要的世界模型，并不是单一物理世界模型，而是物理世界模型与人类社会世界模型的统一",
       "link": "https://www.qbitai.com/?s=机器人真正需要的世界",
       "summary": "机器人真正需要的世界模型，并不是单一物理世界模型，而是物理世界模型与人类社会世界模型的统一...",
-      "date": "2026-07-22",
+      "date": "2026-07-23",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -44,12 +44,84 @@
       "title": "*   [Latest](http://techcrunch.com/latest/)",
       "link": "https://techcrunch.com/category/artificial-intelligence/",
       "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
-      "date": "2026-07-22",
+      "date": "2026-07-23",
       "source": "TechCrunch",
       "type": "industry",
       "tags": [
         "AI",
         "Artificial Intelligence"
+      ]
+    },
+    {
+      "title": "Markdown Content:",
+      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+      "summary": "Markdown Content:...",
+      "date": "2026-07-22",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "行业纷纷涌向世界模型之际，Video Rebirth选择了「视频原生」这条路",
+      "link": "https://www.jiqizhixin.com/search/articles/行业纷纷涌向世界模型之际，Vi",
+      "summary": "行业纷纷涌向世界模型之际，Video Rebirth选择了「视频原生」这条路...",
+      "date": "2026-07-22",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "Gemini 3.5 Pro继续跳票，谷歌端上三款Flash模型强行交作业",
+      "link": "https://www.jiqizhixin.com/search/articles/Gemini 3.5 Pro继",
+      "summary": "Gemini 3.5 Pro继续跳票，谷歌端上三款Flash模型强行交作业...",
+      "date": "2026-07-22",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "高德ABot全栈升级，以自进化体系让机器人身随眼动、手脚并用、过目不忘",
+      "link": "https://www.jiqizhixin.com/search/articles/高德ABot全栈升级，以自进化",
+      "summary": "高德ABot全栈升级，以自进化体系让机器人身随眼动、手脚并用、过目不忘...",
+      "date": "2026-07-22",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "外滩大会发起全民AI编程赛，国内AI Coding平台迎来首次大集结",
+      "link": "https://www.jiqizhixin.com/search/articles/外滩大会发起全民AI编程赛，国",
+      "summary": "外滩大会发起全民AI编程赛，国内AI Coding平台迎来首次大集结...",
+      "date": "2026-07-22",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "360获颁首批智能体身份码节点 深度参编智能体互联系列国家标准",
+      "link": "https://www.jiqizhixin.com/search/articles/360获颁首批智能体身份码节点",
+      "summary": "360获颁首批智能体身份码节点 深度参编智能体互联系列国家标准...",
+      "date": "2026-07-22",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
       ]
     },
     {
@@ -404,18 +476,6 @@
       "title": "蚂蚁大安全CTO陈亮：智能体越强，信任风险越不容忽视",
       "link": "https://www.jiqizhixin.com/search/articles/蚂蚁大安全CTO陈亮：智能体越",
       "summary": "蚂蚁大安全CTO陈亮：智能体越强，信任风险越不容忽视...",
-      "date": "2026-07-18",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Markdown Content:",
-      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-      "summary": "Markdown Content:...",
       "date": "2026-07-18",
       "source": "机器之心",
       "type": "industry",
@@ -2338,66 +2398,6 @@
       "summary": "WAIC UP!｜AI圈都在聊参数，我们偏不...",
       "date": "2026-06-25",
       "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "读博最后一年转方向，拿到OpenAI offer：我的面试之路充满「意外」",
-      "link": "https://www.jiqizhixin.com/search/articles/读博最后一年转方向，拿到Ope",
-      "summary": "读博最后一年转方向，拿到OpenAI offer：我的面试之路充满「意外」...",
-      "date": "2026-06-25",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Fable 5要回来了？「怪人」Dario Amodei被撤下谈判桌",
-      "link": "https://www.jiqizhixin.com/search/articles/Fable 5要回来了？「怪人",
-      "summary": "Fable 5要回来了？「怪人」Dario Amodei被撤下谈判桌...",
-      "date": "2026-06-25",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "开源项目GitHub狂揽4.2k Star",
-      "link": "https://www.qbitai.com/?s=开源项目GitHub",
-      "summary": "开源项目GitHub狂揽4.2k Star...",
-      "date": "2026-06-25",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "涵盖QoderWork、Qoder Desktop等",
-      "link": "https://www.qbitai.com/?s=涵盖QoderWor",
-      "summary": "涵盖QoderWork、Qoder Desktop等...",
-      "date": "2026-06-25",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "目前A社约65%的产品代码已经由Claude Tag参与完成",
-      "link": "https://www.qbitai.com/?s=目前A社约65%的产",
-      "summary": "目前A社约65%的产品代码已经由Claude Tag参与完成...",
-      "date": "2026-06-25",
-      "source": "量子位",
       "type": "industry",
       "tags": [
         "AI",
