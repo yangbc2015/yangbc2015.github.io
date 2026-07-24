@@ -1,9 +1,81 @@
 {
   "last_updated": "2026-07-24",
   "count": 200,
-  "history_count": 200,
+  "history_count": 210,
   "retention_days": 30,
   "items": [
+    {
+      "title": "“看得懂、定得准”的智能运维底座",
+      "link": "https://www.qbitai.com/?s=“看得懂、定得准”的",
+      "summary": "“看得懂、定得准”的智能运维底座...",
+      "date": "2026-07-24",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "他的学生刚用Fable 5推翻87年悬案",
+      "link": "https://www.qbitai.com/?s=他的学生刚用Fabl",
+      "summary": "他的学生刚用Fable 5推翻87年悬案...",
+      "date": "2026-07-24",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "具身智能正在从「参数竞赛」进入「架构竞赛」。",
+      "link": "https://www.qbitai.com/?s=具身智能正在从「参数",
+      "summary": "具身智能正在从「参数竞赛」进入「架构竞赛」。...",
+      "date": "2026-07-24",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "开源AI软件栈SAIL，260+框架即开即用",
+      "link": "https://www.qbitai.com/?s=开源AI软件栈SAI",
+      "summary": "开源AI软件栈SAIL，260+框架即开即用...",
+      "date": "2026-07-24",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "为科研OPC创业者铺就“最后一公里”",
+      "link": "https://www.qbitai.com/?s=为科研OPC创业者铺",
+      "summary": "为科研OPC创业者铺就“最后一公里”...",
+      "date": "2026-07-24",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "Published Time: Thu, 08 May 2025 23:15:48 GMT",
+      "link": "https://techcrunch.com/category/artificial-intelligence/",
+      "summary": "Published Time: Thu, 08 May 2025 23:15:48 GMT...",
+      "date": "2026-07-24",
+      "source": "TechCrunch",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "Artificial Intelligence"
+      ]
+    },
     {
       "title": "美图产品挑战赛（Meitu Hatch Catch）火热报名中",
       "link": "https://www.qbitai.com/?s=美图产品挑战赛（Me",
@@ -41,23 +113,71 @@
       ]
     },
     {
-      "title": "*   [Latest](http://techcrunch.com/latest/)",
-      "link": "https://techcrunch.com/category/artificial-intelligence/",
-      "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
-      "date": "2026-07-24",
-      "source": "TechCrunch",
+      "title": "一周多狂揽1000+Star！金融Agent开始进入真实工作流",
+      "link": "https://www.jiqizhixin.com/search/articles/一周多狂揽1000+Star！",
+      "summary": "一周多狂揽1000+Star！金融Agent开始进入真实工作流...",
+      "date": "2026-07-23",
+      "source": "机器之心",
       "type": "industry",
       "tags": [
         "AI",
-        "Artificial Intelligence"
+        "人工智能"
       ]
     },
     {
-      "title": "具身智能正在从「参数竞赛」进入「架构竞赛」。",
-      "link": "https://www.qbitai.com/?s=具身智能正在从「参数",
-      "summary": "具身智能正在从「参数竞赛」进入「架构竞赛」。...",
+      "title": "Workflow Gym：告别仿真测试，抹平Agent落地鸿沟",
+      "link": "https://www.jiqizhixin.com/search/articles/Workflow Gym：告别",
+      "summary": "Workflow Gym：告别仿真测试，抹平Agent落地鸿沟...",
       "date": "2026-07-23",
-      "source": "量子位",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "独立AI原生的办公助手，治好了我的打工焦虑",
+      "link": "https://www.jiqizhixin.com/search/articles/独立AI原生的办公助手，治好了",
+      "summary": "独立AI原生的办公助手，治好了我的打工焦虑...",
+      "date": "2026-07-23",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "把动作「画」给视频世界模型，跨本体双向推演，李飞飞参与",
+      "link": "https://www.jiqizhixin.com/search/articles/把动作「画」给视频世界模型，跨",
+      "summary": "把动作「画」给视频世界模型，跨本体双向推演，李飞飞参与...",
+      "date": "2026-07-23",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "让Agent学会「如何演化」：清华、华为提出层次化技能元演化框架HiSME",
+      "link": "https://www.jiqizhixin.com/search/articles/让Agent学会「如何演化」：",
+      "summary": "让Agent学会「如何演化」：清华、华为提出层次化技能元演化框架HiSME...",
+      "date": "2026-07-23",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "全球首发技术路线 + 全域联盟双轮破局，AI for ADANES释放先进核能新质生产力",
+      "link": "https://www.jiqizhixin.com/search/articles/全球首发技术路线 + 全域联盟",
+      "summary": "全球首发技术路线 + 全域联盟双轮破局，AI for ADANES释放先进核能新质生产力...",
+      "date": "2026-07-23",
+      "source": "机器之心",
       "type": "industry",
       "tags": [
         "AI",
@@ -2277,126 +2397,6 @@
       "link": "https://www.jiqizhixin.com/search/articles/首个通用触觉基础模型FTP-1",
       "summary": "首个通用触觉基础模型FTP-1来了！Sharpa 联合清华大学等高校，用一套策略打通21种传感器与多类具身形态...",
       "date": "2026-06-27",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "助力上海“全球电竞之都”“游戏创新之城”建设",
-      "link": "https://www.qbitai.com/?s=助力上海“全球电竞之",
-      "summary": "助力上海“全球电竞之都”“游戏创新之城”建设...",
-      "date": "2026-06-27",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "中国AI应用公司并没有停留在追赶全球浪潮",
-      "link": "https://www.qbitai.com/?s=中国AI应用公司并没",
-      "summary": "中国AI应用公司并没有停留在追赶全球浪潮...",
-      "date": "2026-06-27",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "全国I卷数学「唯一」满分：CMO金牌得主、清华预录取",
-      "link": "https://www.jiqizhixin.com/search/articles/全国I卷数学「唯一」满分：CM",
-      "summary": "全国I卷数学「唯一」满分：CMO金牌得主、清华预录取...",
-      "date": "2026-06-26",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "第一个用物理做计算原语的大规模生成模型Un-0来了，或将AI能耗降低1000倍？",
-      "link": "https://www.jiqizhixin.com/search/articles/第一个用物理做计算原语的大规模",
-      "summary": "第一个用物理做计算原语的大规模生成模型Un-0来了，或将AI能耗降低1000倍？...",
-      "date": "2026-06-26",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "脑机接口学会顺着大脑的路走：训练效率与真实落地的双重突破正在同时发生",
-      "link": "https://www.jiqizhixin.com/search/articles/脑机接口学会顺着大脑的路走：训",
-      "summary": "脑机接口学会顺着大脑的路走：训练效率与真实落地的双重突破正在同时发生...",
-      "date": "2026-06-26",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "国产AI高考708分，这款模型靠什么成为「屏蔽生」？",
-      "link": "https://www.jiqizhixin.com/search/articles/国产AI高考708分，这款模型",
-      "summary": "国产AI高考708分，这款模型靠什么成为「屏蔽生」？...",
-      "date": "2026-06-26",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "计算机安全第一人宋晓冬，加入Meta",
-      "link": "https://www.jiqizhixin.com/search/articles/计算机安全第一人宋晓冬，加入M",
-      "summary": "计算机安全第一人宋晓冬，加入Meta...",
-      "date": "2026-06-26",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "已率先完成智谱GLM-5.2适配",
-      "link": "https://www.qbitai.com/?s=已率先完成智谱GLM",
-      "summary": "已率先完成智谱GLM-5.2适配...",
-      "date": "2026-06-26",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "现在仅需几分钟，就能生成一份志愿报告",
-      "link": "https://www.qbitai.com/?s=现在仅需几分钟，就能",
-      "summary": "现在仅需几分钟，就能生成一份志愿报告...",
-      "date": "2026-06-26",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "ACL 2026圣地亚哥现场，上海AI实验室北极星 X 星启交流会（报名开启）",
-      "link": "https://www.jiqizhixin.com/search/articles/ACL 2026圣地亚哥现场，",
-      "summary": "ACL 2026圣地亚哥现场，上海AI实验室北极星 X 星启交流会（报名开启）...",
-      "date": "2026-06-25",
       "source": "机器之心",
       "type": "industry",
       "tags": [

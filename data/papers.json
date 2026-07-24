@@ -1,49 +1,51 @@
 {
   "last_updated": "2026-07-24",
-  "count": 9,
+  "count": 8,
   "items": [
     {
-      "title": "SoftReason: A Fully Differentiable Neuro-Soft-Symbolic Deductive Reasoning Architecture over High-Dimensional Perceptual Data",
-      "authors": "Wael AbdAlmageed",
-      "abstract": "In many reasoning problems, the premises are not observed as discrete symbols, but must be inferred from high-dimensional inputs. Further, the predicate vocabulary, argument structure, and trusted evidence are supplied by a Knowledge Graph (KG), or rule definitions. Classical neuro-symbolic pipeline...",
+      "title": "3D-Aware VLMs with Implicit and Explicit Geometries",
+      "authors": "Wenhao Li, Xueying Jiang, Quanhao Qian et al.",
+      "abstract": "Despite rapid progress, most existing vision-language models (VLMs) built from 2D visual inputs often struggle when handling various 3D tasks that require fine-grained spatial understanding and reasoning. To bridge this gap, we present VLM-IE3D, a unified framework that enhances the 3D spatial aware...",
       "venue": "arXiv",
-      "date": "2026-07-22",
-      "arxiv_id": "2607.20402v1",
-      "url": "https://arxiv.org/abs/2607.20402v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.20402v1.pdf",
+      "date": "2026-07-23",
+      "arxiv_id": "2607.21595v1",
+      "url": "https://arxiv.org/abs/2607.21595v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.21595v1.pdf",
       "categories": [
-        "cs.AI"
+        "cs.CV",
+        "cs.AI",
+        "cs.LG"
       ],
-      "type": "ai",
+      "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Persian Pixel: A large-scale synthetic OCR dataset for Persian language",
-      "authors": "Pouria Mahdi, Haq Nawaz Malik",
-      "abstract": "Optical Character Recognition (OCR) for Persian remains substantially less mature than for Latin-script languages despite Persian being spoken by more than 110 million people across multiple countries. This gap arises from two fundamental challenges: the intrinsic complexity of the Perso-Arabic writ...",
+      "title": "GraphVid: Interactive Graph-Controllable Video Generation",
+      "authors": "Vedant Shah, Onkar Susladkar, Tushar Prakash et al.",
+      "abstract": "Controllable video generation remains challenging due to the difficulty of specifying precise multi-object interactions using text prompts or motion-control inputs that primarily constrain pixel movement. In practice, trajectory-based control often requires users to draw accurate tracks for multiple...",
       "venue": "arXiv",
-      "date": "2026-07-22",
-      "arxiv_id": "2607.20385v1",
-      "url": "https://arxiv.org/abs/2607.20385v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.20385v1.pdf",
+      "date": "2026-07-23",
+      "arxiv_id": "2607.21580v1",
+      "url": "https://arxiv.org/abs/2607.21580v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.21580v1.pdf",
       "categories": [
         "cs.CV",
         "cs.AI"
       ],
-      "type": "benchmark",
+      "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "LKValues: Aligning Large Language Models with Sri Lankan Societal Values",
-      "authors": "Nethmi Muthugala, Supryadi, Surangika Ranathunga et al.",
-      "abstract": "Value alignment of Large Language Models (LLMs) has been shown to be culturally biased toward Western norms. This results in the mishandling of local values in multilingual societies such as Sri Lanka that have their unique cultural dynamics. Existing benchmarks overlook Sri Lankan-contextualized va...",
+      "title": "Surprisal Theory is Tautological (without Rational Grounding)",
+      "authors": "Ryan Cotterell",
+      "abstract": "Surprisal theory holds that the human processing difficulty of a linguistic unit in context is an affine function of its surprisal under some language model. I argue this claim is a tautology without further constraint: for any non-negative difficulty measure over units in context, there exists a la...",
       "venue": "arXiv",
-      "date": "2026-07-22",
-      "arxiv_id": "2607.20410v1",
-      "url": "https://arxiv.org/abs/2607.20410v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.20410v1.pdf",
+      "date": "2026-07-23",
+      "arxiv_id": "2607.21574v1",
+      "url": "https://arxiv.org/abs/2607.21574v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.21574v1.pdf",
       "categories": [
         "cs.CL"
       ],
@@ -52,31 +54,31 @@
       "source": "arXiv"
     },
     {
-      "title": "Train the Model, Not the Reader: Decodability Supervision for Verifiable Activation Explanations",
-      "authors": "Hiskias Dingeto",
-      "abstract": "Natural-language autoencoders score explanations of hidden activations by reconstruction: an explanation is deemed faithful if the activation can be regenerated from it. The test is structurally insensitive to individual false claims: if flipping a claim does not change the reconstruction, the claim...",
+      "title": "MedGame: Storytelling Gamification Empowered by Large Language Models for Medical Education",
+      "authors": "Qian Wu, Xinrong Zhou, Zizhan Ma et al.",
+      "abstract": "Large Language Models (LLMs) show promise for medical education, but most existing systems focus on localized interactions such as question answering or single-turn feedback, rather than organizing an entire clinical case into a decision-centered learning trajectory. We introduce \\textit{MedGame}, a...",
       "venue": "arXiv",
-      "date": "2026-07-22",
-      "arxiv_id": "2607.20379v1",
-      "url": "https://arxiv.org/abs/2607.20379v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.20379v1.pdf",
+      "date": "2026-07-23",
+      "arxiv_id": "2607.21570v1",
+      "url": "https://arxiv.org/abs/2607.21570v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.21570v1.pdf",
       "categories": [
-        "cs.AI",
-        "cs.CL"
+        "cs.CL",
+        "cs.HC"
       ],
       "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "ATSplat: Compact Feed-forward 3D Gaussian Splatting with Adaptive Token Expansion",
-      "authors": "Cho In, Jeonghwan Cho, Mijin Yoo et al.",
-      "abstract": "3D Gaussian Splatting (3DGS) achieves high-quality novel-view synthesis by optimizing freely placed primitives in 3D and adaptively densifying them in under-reconstructed regions. However, this scene-adaptive capacity allocation is largely lost in existing feed-forward 3DGS methods, which commonly r...",
+      "title": "Streaming Multi-Agent Autoregressive Diffusion Model with World State Registers",
+      "authors": "Sicheng Mo, Yuheng Li, Ziyang Leng et al.",
+      "abstract": "Multi-agent interactive world models should not only generate consistent observations, but also maintain world states that persist across agents and evolve across views. Existing autoregressive video diffusion pipelines carry forward observation history as conditioning context, which makes shared st...",
       "venue": "arXiv",
-      "date": "2026-07-22",
-      "arxiv_id": "2607.20417v1",
-      "url": "https://arxiv.org/abs/2607.20417v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.20417v1.pdf",
+      "date": "2026-07-23",
+      "arxiv_id": "2607.21594v1",
+      "url": "https://arxiv.org/abs/2607.21594v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.21594v1.pdf",
       "categories": [
         "cs.CV"
       ],
@@ -85,51 +87,15 @@
       "source": "arXiv"
     },
     {
-      "title": "PercepCap: Video Captioner with Structured Spatio-Temporal Perception",
-      "authors": "Yifan Xu, Zihao Wang, Zhixiao Wang et al.",
-      "abstract": "Video captioning requires fine-grained spatio-temporal understanding of videos, including spatial perception of where objects are located and temporal perception of when events occur. Existing MLLMs usually generate captions directly from video inputs without exposing the perceptual evidence behind ...",
+      "title": "Expanding Flow Maps",
+      "authors": "Sophia Tang, Pranam Chatterjee",
+      "abstract": "Flow-based generative models have enabled remarkable progress in fast and controllable generation across continuous and discrete state spaces, yet existing parameterizations are constrained to fixed dimensions or fixed sequence lengths. Here, we introduce Expanding Generative Flows (EFlows), which d...",
       "venue": "arXiv",
-      "date": "2026-07-22",
-      "arxiv_id": "2607.20389v1",
-      "url": "https://arxiv.org/abs/2607.20389v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.20389v1.pdf",
+      "date": "2026-07-23",
+      "arxiv_id": "2607.21585v1",
+      "url": "https://arxiv.org/abs/2607.21585v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.21585v1.pdf",
       "categories": [
-        "cs.CV"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Lipschitzian SLLNs for random functions",
-      "authors": "Lai Tian, Johannes O. Royset",
-      "abstract": "We prove strong laws of large numbers for locally Lipschitz functions in the Lipschitz pseudometric. Our results hold under either a topological or a model-theoretic condition, with the latter encompassing functions jointly definable in o-minimal structures but extending substantially beyond this cl...",
-      "venue": "arXiv",
-      "date": "2026-07-22",
-      "arxiv_id": "2607.20411v1",
-      "url": "https://arxiv.org/abs/2607.20411v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.20411v1.pdf",
-      "categories": [
-        "math.OC",
-        "cs.LG",
-        "math.ST"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Towards Miniature Humanoid Tele-Loco-Manipulation Using Virtual Reality and Reinforcement Learning",
-      "authors": "Nicolas Kosanovic, Jordan Dowdy, Jean Chagas Vaz",
-      "abstract": "Full-sized humanoid robot capabilities have grown exponentially in recent years, aiming towards general-purpose deployment in human environments. A popular control method used by manufacturers utilizes Virtual Reality for upper-body teleoperation and Reinforcement Learning for lower-body balance and...",
-      "venue": "arXiv",
-      "date": "2026-07-22",
-      "arxiv_id": "2607.20399v1",
-      "url": "https://arxiv.org/abs/2607.20399v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.20399v1.pdf",
-      "categories": [
-        "cs.RO",
-        "cs.HC",
         "cs.LG"
       ],
       "type": "ml",
@@ -137,18 +103,35 @@
       "source": "arXiv"
     },
     {
-      "title": "Distributed Acoustic Localization Array Deployed Using a Soft Everting Vine Robot",
-      "authors": "Sebastian Lorca Godoy, Ciera McFarland, Michael Val et al.",
-      "abstract": "Soft robot exteroception is increasingly being explored for a variety of field applications. In this work, we present a sound-based system for localizing disaster victims in confined and unstructured environments, based on a distributed acoustic sensing architecture embedded along the body of a soft...",
+      "title": "AXIS: A Growable Community-Driven Data Engine for Scalable Robot Manipulation",
+      "authors": "Mengfei Zhao, Dihong Huang, Yikai Tang et al.",
+      "abstract": "Learning effective robot manipulation policies requires diverse, high-quality demonstrations, yet existing data pipelines are often difficult to scale because they rely on specialized hardware, centralized operators, or fixed task suites. We present AXIS, a growable community-driven data engine and ...",
       "venue": "arXiv",
-      "date": "2026-07-22",
-      "arxiv_id": "2607.20392v1",
-      "url": "https://arxiv.org/abs/2607.20392v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.20392v1.pdf",
+      "date": "2026-07-23",
+      "arxiv_id": "2607.21588v1",
+      "url": "https://arxiv.org/abs/2607.21588v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.21588v1.pdf",
       "categories": [
         "cs.RO"
       ],
       "type": "ai",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Scale Up Strategically: Learning Compositional Generalization via Bias-Aware Evaluation and Data Collection for Robotic Manipulation",
+      "authors": "Yu Qi, Zhang Ye, Xinyi Xu et al.",
+      "abstract": "Compositional generalization is essential for robot to follow diverse instructions. However, pretrained policies are known to take shortcuts, deferring to salient cues rather than grounding language. We introduce a diagnostic framework that localizes this failure to individual \\textit{instruction fa...",
+      "venue": "arXiv",
+      "date": "2026-07-23",
+      "arxiv_id": "2607.21582v1",
+      "url": "https://arxiv.org/abs/2607.21582v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.21582v1.pdf",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "type": "benchmark",
       "badge": "arxiv",
       "source": "arXiv"
     }
