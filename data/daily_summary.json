@@ -8,18 +8,6 @@
       "count": 5,
       "items": [
         {
-          "title": "Markdown Content:",
-          "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-          "summary": "Markdown Content:...",
-          "date": "2026-07-24",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
           "title": "世界级编程大师：AI写的代码，我一行都不看",
           "link": "https://www.jiqizhixin.com/search/articles/世界级编程大师：AI写的代码，",
           "summary": "世界级编程大师：AI写的代码，我一行都不看...",
@@ -59,6 +47,18 @@
           "title": "大卫贝克团队用AI构建可编程荧光标签，利用生成式蛋白实现高精度多目标荧光成像",
           "link": "https://www.jiqizhixin.com/search/articles/大卫贝克团队用AI构建可编程荧",
           "summary": "大卫贝克团队用AI构建可编程荧光标签，利用生成式蛋白实现高精度多目标荧光成像...",
+          "date": "2026-07-24",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "多模态大模型训练的显存与吞吐困局，被小红书开源的BigMac打破了",
+          "link": "https://www.jiqizhixin.com/search/articles/多模态大模型训练的显存与吞吐困",
+          "summary": "多模态大模型训练的显存与吞吐困局，被小红书开源的BigMac打破了...",
           "date": "2026-07-24",
           "source": "机器之心",
           "type": "industry",
