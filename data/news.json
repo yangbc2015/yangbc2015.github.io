@@ -1,7 +1,7 @@
 {
   "last_updated": "2026-07-25",
   "count": 200,
-  "history_count": 202,
+  "history_count": 201,
   "retention_days": 30,
   "items": [
     {
@@ -41,6 +41,18 @@
       ]
     },
     {
+      "title": "菲尔兹奖得主王虹、邓煜创造中国历史！这是他们的故事。",
+      "link": "https://www.qbitai.com/?s=菲尔兹奖得主王虹、邓",
+      "summary": "菲尔兹奖得主王虹、邓煜创造中国历史！这是他们的故事。...",
+      "date": "2026-07-25",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
       "title": "他的学生刚用Fable 5推翻87年悬案",
       "link": "https://www.qbitai.com/?s=他的学生刚用Fabl",
       "summary": "他的学生刚用Fable 5推翻87年悬案...",
@@ -53,6 +65,18 @@
       ]
     },
     {
+      "title": "*   [Latest](http://techcrunch.com/latest/)",
+      "link": "https://techcrunch.com/category/artificial-intelligence/",
+      "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
+      "date": "2026-07-25",
+      "source": "TechCrunch",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "Artificial Intelligence"
+      ]
+    },
+    {
       "title": "具身智能正在从「参数竞赛」进入「架构竞赛」。",
       "link": "https://www.qbitai.com/?s=具身智能正在从「参数",
       "summary": "具身智能正在从「参数竞赛」进入「架构竞赛」。...",
@@ -62,18 +86,6 @@
       "tags": [
         "AI",
         "人工智能"
-      ]
-    },
-    {
-      "title": "Published Time: Thu, 08 May 2025 23:15:48 GMT",
-      "link": "https://techcrunch.com/category/artificial-intelligence/",
-      "summary": "Published Time: Thu, 08 May 2025 23:15:48 GMT...",
-      "date": "2026-07-25",
-      "source": "TechCrunch",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "Artificial Intelligence"
       ]
     },
     {
@@ -2384,18 +2396,6 @@
       "title": "Dwarkesh Patel：下一代AI，可能是干活干出来的",
       "link": "https://www.jiqizhixin.com/search/articles/Dwarkesh Patel：",
       "summary": "Dwarkesh Patel：下一代AI，可能是干活干出来的...",
-      "date": "2026-06-28",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "最强模型每次都在「重新学上网」？这个开源项目实现「人类点一遍，Agent永久复用」",
-      "link": "https://www.jiqizhixin.com/search/articles/最强模型每次都在「重新学上网」",
-      "summary": "最强模型每次都在「重新学上网」？这个开源项目实现「人类点一遍，Agent永久复用」...",
       "date": "2026-06-28",
       "source": "机器之心",
       "type": "industry",
