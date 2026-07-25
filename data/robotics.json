@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-24",
+  "last_updated": "2026-07-25",
   "count": 200,
   "items": [
     {
@@ -92,6 +92,19 @@
         "机器人学习",
         "研究论文",
         "arXiv"
+      ]
+    },
+    {
+      "title": "制造业具身智能分工落地，补充柔性作业缺口，价值显现。",
+      "summary": "制造业具身智能分工落地，补充柔性作业缺口，价值显现。",
+      "url": "http://36kr.com/p/3907973263595394",
+      "date": "2026-07-23",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
       ]
     },
     {
@@ -3016,22 +3029,6 @@
       "type": "paper",
       "arxiv_id": "2606.24552v1",
       "authors": "Xin Liu, Yulin Li et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "AutoDex: An Automated Real-World System for Dexterous Grasping Data Collection",
-      "summary": "Learning robust dexterous grasping requires real-world data that records the physical outcomes of grasp attempts. Such data is hard to obtain at scale: teleoperation yields valid physical outcomes but is slow and operator-biased, while simulation-bas...",
-      "url": "https://arxiv.org/abs/2606.23689v1",
-      "date": "2026-06-22",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.23689v1",
-      "authors": "Mingi Choi, Gunhee Kim et al.",
       "tags": [
         "机器人学习",
         "研究论文",

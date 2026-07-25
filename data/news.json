@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-07-24",
+  "last_updated": "2026-07-25",
   "count": 200,
-  "history_count": 200,
+  "history_count": 205,
   "retention_days": 30,
   "items": [
     {
       "title": "AI抢跑期，我们看见了全球化新品牌的下一程",
       "link": "https://www.qbitai.com/?s=AI抢跑期，我们看见",
       "summary": "AI抢跑期，我们看见了全球化新品牌的下一程...",
-      "date": "2026-07-24",
+      "date": "2026-07-25",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -20,7 +20,7 @@
       "title": "“看得懂、定得准”的智能运维底座",
       "link": "https://www.qbitai.com/?s=“看得懂、定得准”的",
       "summary": "“看得懂、定得准”的智能运维底座...",
-      "date": "2026-07-24",
+      "date": "2026-07-25",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -32,7 +32,7 @@
       "title": "他的学生刚用Fable 5推翻87年悬案",
       "link": "https://www.qbitai.com/?s=他的学生刚用Fabl",
       "summary": "他的学生刚用Fable 5推翻87年悬案...",
-      "date": "2026-07-24",
+      "date": "2026-07-25",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -44,7 +44,7 @@
       "title": "具身智能正在从「参数竞赛」进入「架构竞赛」。",
       "link": "https://www.qbitai.com/?s=具身智能正在从「参数",
       "summary": "具身智能正在从「参数竞赛」进入「架构竞赛」。...",
-      "date": "2026-07-24",
+      "date": "2026-07-25",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -56,7 +56,7 @@
       "title": "开源AI软件栈SAIL，260+框架即开即用",
       "link": "https://www.qbitai.com/?s=开源AI软件栈SAI",
       "summary": "开源AI软件栈SAIL，260+框架即开即用...",
-      "date": "2026-07-24",
+      "date": "2026-07-25",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -68,12 +68,84 @@
       "title": "Published Time: Thu, 08 May 2025 23:15:48 GMT",
       "link": "https://techcrunch.com/category/artificial-intelligence/",
       "summary": "Published Time: Thu, 08 May 2025 23:15:48 GMT...",
-      "date": "2026-07-24",
+      "date": "2026-07-25",
       "source": "TechCrunch",
       "type": "industry",
       "tags": [
         "AI",
         "Artificial Intelligence"
+      ]
+    },
+    {
+      "title": "Markdown Content:",
+      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+      "summary": "Markdown Content:...",
+      "date": "2026-07-24",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "世界级编程大师：AI写的代码，我一行都不看",
+      "link": "https://www.jiqizhixin.com/search/articles/世界级编程大师：AI写的代码，",
+      "summary": "世界级编程大师：AI写的代码，我一行都不看...",
+      "date": "2026-07-24",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "当「变大」不再是唯一的路，又一国产模型开源了",
+      "link": "https://www.jiqizhixin.com/search/articles/当「变大」不再是唯一的路，又一",
+      "summary": "当「变大」不再是唯一的路，又一国产模型开源了...",
+      "date": "2026-07-24",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "刚拿到菲尔兹奖，他现场宣布加入OpenAI",
+      "link": "https://www.jiqizhixin.com/search/articles/刚拿到菲尔兹奖，他现场宣布加入",
+      "summary": "刚拿到菲尔兹奖，他现场宣布加入OpenAI...",
+      "date": "2026-07-24",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "大卫贝克团队用AI构建可编程荧光标签，利用生成式蛋白实现高精度多目标荧光成像",
+      "link": "https://www.jiqizhixin.com/search/articles/大卫贝克团队用AI构建可编程荧",
+      "summary": "大卫贝克团队用AI构建可编程荧光标签，利用生成式蛋白实现高精度多目标荧光成像...",
+      "date": "2026-07-24",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "多模态大模型训练的显存与吞吐困局，被小红书开源的BigMac打破了",
+      "link": "https://www.jiqizhixin.com/search/articles/多模态大模型训练的显存与吞吐困",
+      "summary": "多模态大模型训练的显存与吞吐困局，被小红书开源的BigMac打破了...",
+      "date": "2026-07-24",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
       ]
     },
     {
@@ -260,18 +332,6 @@
       "title": "百度文心助手任务 Agent 登顶国际权威榜单，超越 Claude、GPT 拿下全球智能体冠军",
       "link": "https://www.jiqizhixin.com/search/articles/百度文心助手任务 Agent ",
       "summary": "百度文心助手任务 Agent 登顶国际权威榜单，超越 Claude、GPT 拿下全球智能体冠军...",
-      "date": "2026-07-22",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Markdown Content:",
-      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-      "summary": "Markdown Content:...",
       "date": "2026-07-22",
       "source": "机器之心",
       "type": "industry",
@@ -2337,66 +2397,6 @@
       "link": "https://www.jiqizhixin.com/search/articles/Transformer的八个爹",
       "summary": "Transformer的八个爹妈，如今都在哪？...",
       "date": "2026-06-28",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "谁将定义下一代算力基础设施？谁又能在Token时代占据产业制高点？",
-      "link": "https://www.qbitai.com/?s=谁将定义下一代算力基",
-      "summary": "谁将定义下一代算力基础设施？谁又能在Token时代占据产业制高点？...",
-      "date": "2026-06-28",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "刚刚，DeepSeek V4更新DSpark，推理速度提升80%",
-      "link": "https://www.jiqizhixin.com/search/articles/刚刚，DeepSeek V4更",
-      "summary": "刚刚，DeepSeek V4更新DSpark，推理速度提升80%...",
-      "date": "2026-06-27",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "大神Karpathy用Claude的方式，原来是这样的？",
-      "link": "https://www.jiqizhixin.com/search/articles/大神Karpathy用Clau",
-      "summary": "大神Karpathy用Claude的方式，原来是这样的？...",
-      "date": "2026-06-27",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "陈天奇新书上线：面向ML系统的现代GPU编程",
-      "link": "https://www.jiqizhixin.com/search/articles/陈天奇新书上线：面向ML系统的",
-      "summary": "陈天奇新书上线：面向ML系统的现代GPU编程...",
-      "date": "2026-06-27",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "ECCV 2026 | 视频生成模型真的会「推理」吗？303道题全面揭示世界模型的推理短板",
-      "link": "https://www.jiqizhixin.com/search/articles/ECCV 2026 | 视频生",
-      "summary": "ECCV 2026 | 视频生成模型真的会「推理」吗？303道题全面揭示世界模型的推理短板...",
-      "date": "2026-06-27",
       "source": "机器之心",
       "type": "industry",
       "tags": [
