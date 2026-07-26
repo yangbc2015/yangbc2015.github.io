@@ -1,7 +1,7 @@
 {
   "last_updated": "2026-07-26",
   "count": 200,
-  "history_count": 200,
+  "history_count": 201,
   "retention_days": 30,
   "items": [
     {
@@ -77,18 +77,6 @@
       ]
     },
     {
-      "title": "Markdown Content:",
-      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-      "summary": "Markdown Content:...",
-      "date": "2026-07-25",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
       "title": "一夜之间，Claude Code删掉了80%系统提示词",
       "link": "https://www.jiqizhixin.com/search/articles/一夜之间，Claude Cod",
       "summary": "一夜之间，Claude Code删掉了80%系统提示词...",
@@ -140,6 +128,30 @@
       "title": "JiuwenSwarm开源统一工作台来了，引领智能体人机协同新范式！",
       "link": "https://www.jiqizhixin.com/search/articles/JiuwenSwarm开源统一",
       "summary": "JiuwenSwarm开源统一工作台来了，引领智能体人机协同新范式！...",
+      "date": "2026-07-25",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "开盒网暴、诈骗刷单，Fable5等8款模型操作真实手机「成功作案」！",
+      "link": "https://www.jiqizhixin.com/search/articles/开盒网暴、诈骗刷单，Fable",
+      "summary": "开盒网暴、诈骗刷单，Fable5等8款模型操作真实手机「成功作案」！...",
+      "date": "2026-07-25",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "Markdown Content:",
+      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+      "summary": "Markdown Content:...",
       "date": "2026-07-25",
       "source": "机器之心",
       "type": "industry",
@@ -2384,18 +2396,6 @@
       "title": "一口气端出三款GPT 5.6系列模型",
       "link": "https://www.qbitai.com/?s=一口气端出三款GPT",
       "summary": "一口气端出三款GPT 5.6系列模型...",
-      "date": "2026-06-29",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "共建工业物理智能“数据底座与智能大脑”",
-      "link": "https://www.qbitai.com/?s=共建工业物理智能“数",
-      "summary": "共建工业物理智能“数据底座与智能大脑”...",
       "date": "2026-06-29",
       "source": "量子位",
       "type": "industry",
