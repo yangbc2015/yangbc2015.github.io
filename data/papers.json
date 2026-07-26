@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-07-25",
-  "count": 5,
+  "last_updated": "2026-07-26",
+  "count": 8,
   "items": [
     {
       "title": "3D-Aware VLMs with Implicit and Explicit Geometries",
@@ -17,6 +17,56 @@
         "cs.LG"
       ],
       "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "GraphVid: Interactive Graph-Controllable Video Generation",
+      "authors": "Vedant Shah, Onkar Susladkar, Tushar Prakash et al.",
+      "abstract": "Controllable video generation remains challenging due to the difficulty of specifying precise multi-object interactions using text prompts or motion-control inputs that primarily constrain pixel movement. In practice, trajectory-based control often requires users to draw accurate tracks for multiple...",
+      "venue": "arXiv",
+      "date": "2026-07-23",
+      "arxiv_id": "2607.21580v1",
+      "url": "https://arxiv.org/abs/2607.21580v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.21580v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Surprisal Theory is Tautological (without Rational Grounding)",
+      "authors": "Ryan Cotterell",
+      "abstract": "Surprisal theory holds that the human processing difficulty of a linguistic unit in context is an affine function of its surprisal under some language model. I argue this claim is a tautology without further constraint: for any non-negative difficulty measure over units in context, there exists a la...",
+      "venue": "arXiv",
+      "date": "2026-07-23",
+      "arxiv_id": "2607.21574v1",
+      "url": "https://arxiv.org/abs/2607.21574v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.21574v1.pdf",
+      "categories": [
+        "cs.CL"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "MedGame: Storytelling Gamification Empowered by Large Language Models for Medical Education",
+      "authors": "Qian Wu, Xinrong Zhou, Zizhan Ma et al.",
+      "abstract": "Large Language Models (LLMs) show promise for medical education, but most existing systems focus on localized interactions such as question answering or single-turn feedback, rather than organizing an entire clinical case into a decision-centered learning trajectory. We introduce \\textit{MedGame}, a...",
+      "venue": "arXiv",
+      "date": "2026-07-23",
+      "arxiv_id": "2607.21570v1",
+      "url": "https://arxiv.org/abs/2607.21570v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.21570v1.pdf",
+      "categories": [
+        "cs.CL",
+        "cs.HC"
+      ],
+      "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
