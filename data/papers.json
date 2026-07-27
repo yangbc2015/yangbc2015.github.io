@@ -1,5 +1,126 @@
 {
   "last_updated": "2026-07-27",
-  "count": 0,
-  "items": []
+  "count": 7,
+  "items": [
+    {
+      "title": "SM4RT: Learning Structured Motion Geometry for 4D Reconstruction",
+      "authors": "Shing Ho J. Lin, Wenzhao Zheng, Dong Zhuo et al.",
+      "abstract": "Geometry Foundation Models (GFMs) have substantially advanced monocular 3D reconstruction, yet extending this capability to 4D dynamic understanding remains a fundamental challenge. Most existing motion perception methods (e.g., sparse tracking, dense point-wise flow) treat motion as independent poi...",
+      "venue": "arXiv",
+      "date": "2026-07-24",
+      "arxiv_id": "2607.22534v1",
+      "url": "https://arxiv.org/abs/2607.22534v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.22534v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.RO"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Explainable Reinforcement Learning for assisting Air Traffic Controllers",
+      "authors": "Anduel Mehmeti, Gabriella Gigante, Salvatore Venticinque",
+      "abstract": "To effectively integrate AI into high-stakes, critical environments such as healthcare, autonomous driving, and aviation--and to advance toward higher levels of automation and seamless human-AI collaboration--building trust in AI-driven solutions is essential. Trust, in turn, is closely linked to th...",
+      "venue": "arXiv",
+      "date": "2026-07-24",
+      "arxiv_id": "2607.22525v1",
+      "url": "https://arxiv.org/abs/2607.22525v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.22525v1.pdf",
+      "categories": [
+        "cs.AI"
+      ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Skill Self-Play: Pushing the Frontier of LLM Capability with Co-Evolving Skills",
+      "authors": "Siyuan Huang, Pengyu Cheng, Haotian Liu et al.",
+      "abstract": "LLM training is shifting from manual design and annotation to interaction-driven self-evolution. However, existing self-evolutionary methods face a fundamental dilemma between task diversity and verification reliability: environment-bound methods obtain precise feedback but confine learning to narro...",
+      "venue": "arXiv",
+      "date": "2026-07-24",
+      "arxiv_id": "2607.22529v1",
+      "url": "https://arxiv.org/abs/2607.22529v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.22529v1.pdf",
+      "categories": [
+        "cs.CL"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Opaque Epistemic Mediation: How LLM Deployment Configurations Shape the Validation of Pseudo-Science",
+      "authors": "Davide Scarso, Hugo Noronha de Almeida, Joaquim Pina",
+      "abstract": "Commercial large language models are increasingly used as knowledge references, yet their stance on contested scientific claims is neither stable nor transparent. We tested how four major LLM families (Claude, Grok, GPT, Gemini) evaluate ethnonationalist pseudo-science derived from Frank Salter's bi...",
+      "venue": "arXiv",
+      "date": "2026-07-24",
+      "arxiv_id": "2607.22513v1",
+      "url": "https://arxiv.org/abs/2607.22513v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.22513v1.pdf",
+      "categories": [
+        "cs.CY",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Robot-Factored World Models via Robot Rendering",
+      "authors": "Byungjun Kim, Taeksoo Kim, Hyunsoo Cha et al.",
+      "abstract": "Action-conditioned video world models predict future observations from an initial observation and an action signal. In robotics, actions influence future observations through two distinct processes: they are first realized into robot motion by the robot body and controller, and the scene then respon...",
+      "venue": "arXiv",
+      "date": "2026-07-24",
+      "arxiv_id": "2607.22535v1",
+      "url": "https://arxiv.org/abs/2607.22535v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.22535v1.pdf",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "PinEqualizer: Full Funnel Content Exploration and Debiasing System at Pinterest",
+      "authors": "Olafur Gudmundsson, Bo Zhao, Huayi Liao et al.",
+      "abstract": "In this paper, we propose a new solution for addressing the content cold-start problem in industry-scale search and recommender systems. Compared to prior approaches, we have made the following new contributions: 1) our solution spans the entire multi-stage funnel and generalizes well for both searc...",
+      "venue": "arXiv",
+      "date": "2026-07-24",
+      "arxiv_id": "2607.22518v1",
+      "url": "https://arxiv.org/abs/2607.22518v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.22518v1.pdf",
+      "categories": [
+        "cs.IR",
+        "cs.LG"
+      ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Quantum Spectral Model: Data Reuploading with Input-Conditioned Frequency Support",
+      "authors": "Peiyong Wang, Udaya Parampalli, Casey R. Myers",
+      "abstract": "A central design principle in modern machine learning and artificial intelligence is to align a model's inductive bias with the structure of its input data. For matrix-valued inputs, relevant matrix-level relationships can be characterised through spectral values and spectral subspaces; however, com...",
+      "venue": "arXiv",
+      "date": "2026-07-24",
+      "arxiv_id": "2607.22516v1",
+      "url": "https://arxiv.org/abs/2607.22516v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.22516v1.pdf",
+      "categories": [
+        "quant-ph",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    }
+  ]
 }

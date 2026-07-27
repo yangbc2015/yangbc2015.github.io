@@ -15,6 +15,86 @@
       ]
     },
     {
+      "title": "Robot-Factored World Models via Robot Rendering",
+      "summary": "Action-conditioned video world models predict future observations from an initial observation and an action signal. In robotics, actions influence future observations through two distinct processes: they are first realized into robot motion by the ro...",
+      "url": "https://arxiv.org/abs/2607.22535v1",
+      "date": "2026-07-24",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2607.22535v1",
+      "authors": "Byungjun Kim, Taeksoo Kim et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "SM4RT: Learning Structured Motion Geometry for 4D Reconstruction",
+      "summary": "Geometry Foundation Models (GFMs) have substantially advanced monocular 3D reconstruction, yet extending this capability to 4D dynamic understanding remains a fundamental challenge. Most existing motion perception methods (e.g., sparse tracking, dens...",
+      "url": "https://arxiv.org/abs/2607.22534v1",
+      "date": "2026-07-24",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2607.22534v1",
+      "authors": "Shing Ho J. Lin, Wenzhao Zheng et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "ViTacWorld: Scaling Visuo-Tactile World Models for Contact-Rich Robot Manipulation",
+      "summary": "Contact-rich robot manipulation requires physical interaction cues that are often invisible to cameras, making tactile sensing essential for robust control. However, scaling visuo-tactile robot learning remains difficult because real tactile interact...",
+      "url": "https://arxiv.org/abs/2607.22530v1",
+      "date": "2026-07-24",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2607.22530v1",
+      "authors": "Yunao Huang, Shiyu Sang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Plug, Play, and Comply: A Modular Framework for Online Variable Impedance with Arbitrarily Oriented Compliance Axes",
+      "summary": "The paper proposes a robot-agnostic compliant-control framework that extends the ROS control ecosystem with standardized joint and Cartesian command interfaces. It addresses a key limitation of existing control software: no reusable infrastructure fo...",
+      "url": "https://arxiv.org/abs/2607.22483v1",
+      "date": "2026-07-24",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2607.22483v1",
+      "authors": "Mihael Simonič, Xiaocong Li",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Robot Learning to Communicate through Projected Visual Abstractions",
+      "summary": "Humans routinely communicate through abstractions of their bodies, including shadows, silhouettes, and reflections. Yet robots remain largely confined to expressing themselves through their physical morphology. Enabling robots to communicate through ...",
+      "url": "https://arxiv.org/abs/2607.22434v1",
+      "date": "2026-07-24",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2607.22434v1",
+      "authors": "Danyang Yan, Boyuan Wang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
       "title": "制造业具身智能分工落地，补充柔性作业缺口，价值显现。",
       "summary": "制造业具身智能分工落地，补充柔性作业缺口，价值显现。",
       "url": "http://36kr.com/p/3907973263595394",
@@ -2949,86 +3029,6 @@
       "type": "paper",
       "arxiv_id": "2606.24712v1",
       "authors": "Shivani Kamtikar, Chung Hee Kim et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Beyond Monotonic Progress: Retry-Supervised Value Learning for Robot Imitation",
-      "summary": "Human demonstrations for robot imitation learning often contain mistakes and corrective behaviors, such as imprecise grasps, object misalignment, unstable contact, and repeated attempts. While these segments are commonly treated as noisy or suboptima...",
-      "url": "https://arxiv.org/abs/2606.24633v1",
-      "date": "2026-06-23",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.24633v1",
-      "authors": "Xinyao Qin, Junjie Lu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Parallel Dynamic Programming for Conic Linear Quadratic Control",
-      "summary": "Linear Quadratic (LQ) control problems are at the heart of linear control theory and Model Predictive Control (MPC). While performant, standard approaches to solving such problems are inherently serial, limiting real-time scalability despite the para...",
-      "url": "https://arxiv.org/abs/2606.24632v1",
-      "date": "2026-06-23",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.24632v1",
-      "authors": "Luyao Zhang, Gabriel Bravo-Palacios et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Optimization-based Safe Trajectory Planning for Autonomous Ground Vehicle in Multi-Floor Scenarios",
-      "summary": "The development of trajectory planning strategies for autonomous ground vehicles (AGVs) represents a prevailing research interest within the domain of intelligent transportation systems. This paper introduces a trajectory planning framework tailored ...",
-      "url": "https://arxiv.org/abs/2606.24631v1",
-      "date": "2026-06-23",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.24631v1",
-      "authors": "Zishang Xiang, Runda Zhang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "ArtiTwinSplat: Interactable Digital Twin Reconstruction via Gaussian Splatting from RGB-D videos",
-      "summary": "Deploying robots in unstructured real-world environments needs accurate, interactive models of the objects. Constructing these models at scale remains a critical bottleneck for robotic system integration. We present ArtiTwinSplat, a framework that au...",
-      "url": "https://arxiv.org/abs/2606.24628v1",
-      "date": "2026-06-23",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.24628v1",
-      "authors": "Pranjal Mishra, René Zurbrügg et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Enabling Robust Cloth Manipulation via Inference-Time Simulator-in-the-Loop Refinement",
-      "summary": "Simulator-in-the-loop optimization offers a promising inference-time mechanism for robot manipulation. It uses a physical simulator as a backend rollout engine to evaluate candidate trajectories in parallel and refine nominal actions online, a paradi...",
-      "url": "https://arxiv.org/abs/2606.24552v1",
-      "date": "2026-06-23",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.24552v1",
-      "authors": "Xin Liu, Yulin Li et al.",
       "tags": [
         "机器人学习",
         "研究论文",
