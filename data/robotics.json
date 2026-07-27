@@ -3,6 +3,19 @@
   "count": 200,
   "items": [
     {
+      "title": "[工业和信息化部人形机器人与 具 身 智 能 标准化技术委员会2026年度全体会议暨“标准周”活动在浙江绍兴召开",
+      "summary": "[工业和信息化部人形机器人与 具 身 智 能 标准化技术委员会2026年度全体会议暨“标准周”活动在浙江绍兴召开",
+      "url": "http://36kr.com/p/3913754106516865",
+      "date": "2026-07-27",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "人形机器人"
+      ]
+    },
+    {
       "title": "[亮相WAIC2026：从核心部件到场景方案，华沿机器人秀出“具 身 智 能”硬实力",
       "summary": "[亮相WAIC2026：从核心部件到场景方案，华沿机器人秀出“具 身 智 能”硬实力",
       "url": "http://36kr.com/p/3903593981626240",
@@ -3013,22 +3026,6 @@
       "type": "paper",
       "arxiv_id": "2606.24742v1",
       "authors": "Zhihao Wang, Jianxiong Li et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "TACTFUL: Tactile-Driven Exploration For Object Localization and Identification in Confined Environments",
-      "summary": "Humans effortlessly locate and identify objects by touch alone, even without vision. In contrast, robotic systems rely heavily on vision and struggle with autonomous tactile exploration and object identification. We present TACTFUL, a vision-free tac...",
-      "url": "https://arxiv.org/abs/2606.24712v1",
-      "date": "2026-06-23",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.24712v1",
-      "authors": "Shivani Kamtikar, Chung Hee Kim et al.",
       "tags": [
         "机器人学习",
         "研究论文",
