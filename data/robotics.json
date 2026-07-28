@@ -6,7 +6,7 @@
       "title": "[工业和信息化部人形机器人与 具 身 智 能 标准化技术委员会2026年度全体会议暨“标准周”活动在浙江绍兴召开",
       "summary": "[工业和信息化部人形机器人与 具 身 智 能 标准化技术委员会2026年度全体会议暨“标准周”活动在浙江绍兴召开",
       "url": "http://36kr.com/p/3913754106516865",
-      "date": "2026-07-27",
+      "date": "2026-07-28",
       "source": "36氪",
       "category": "具身智能",
       "type": "news",
@@ -19,12 +19,92 @@
       "title": "[亮相WAIC2026：从核心部件到场景方案，华沿机器人秀出“具 身 智 能”硬实力",
       "summary": "[亮相WAIC2026：从核心部件到场景方案，华沿机器人秀出“具 身 智 能”硬实力",
       "url": "http://36kr.com/p/3903593981626240",
-      "date": "2026-07-27",
+      "date": "2026-07-28",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
       "tags": [
         "机器人"
+      ]
+    },
+    {
+      "title": "Data Pyramid for Embodied Manipulation",
+      "summary": "Multimodal foundation models learned to see and to speak by consuming the whole internet. Embodied agents admit no such shortcut, since they require data that couple observations with physical states and actions. These signals can be provided, to var...",
+      "url": "https://arxiv.org/abs/2607.24744v1",
+      "date": "2026-07-27",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2607.24744v1",
+      "authors": "Yifan Ye, Yankai Fu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Development of a Handheld Actuation Mechanism for a Tendon-driven Robotically Steered Guidewire",
+      "summary": "An endovascular intervention begins with a skilled clinician manually navigating a long, slender wire, called a guidewire, to the target location within the vasculature. Due to factors, such as vessel tortuosity and lack of steerability at the guidew...",
+      "url": "https://arxiv.org/abs/2607.24629v1",
+      "date": "2026-07-27",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2607.24629v1",
+      "authors": "Saima Chavenet, Timothy A. Brumfiel et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "NEO: NeRF It Once, Edit It Many Times for Continuous Object Manipulation",
+      "summary": "In this paper, we present NEO, a unified framework providing language-guided NeRF editing for robotic manipulation. Our paper introduces (i) a language-guided object removal that combines neural field resampling with multiview-consistent progressive ...",
+      "url": "https://arxiv.org/abs/2607.24538v1",
+      "date": "2026-07-27",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2607.24538v1",
+      "authors": "Mikołaj Zieliński, David Hall et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "KAI: A Kinematic-Aware Interface for Data-Efficient Articulated Object Manipulation",
+      "summary": "Articulated object manipulation requires an understanding of kinematic structure that is difficult and costly to learn from robot demonstrations alone. We introduce the Kinematic-Aware Articulation Interface (KAI), a structured intermediate represent...",
+      "url": "https://arxiv.org/abs/2607.24493v1",
+      "date": "2026-07-27",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2607.24493v1",
+      "authors": "Yaping Li, Zhaxizhuoma et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "τ: Learning Touch-Augmented Vision-Language-Action Models from Future Visual Supervision",
+      "summary": "Learning the informative tactile representation while effectively adapting it to pretrained Vision-Language-Action (VLA) models remains challenging at both the data and modeling levels. At the data level, limited task-specific demonstrations constrai...",
+      "url": "https://arxiv.org/abs/2607.24485v1",
+      "date": "2026-07-27",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2607.24485v1",
+      "authors": "Ning Cheng, Jinan Xu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
       ]
     },
     {
@@ -2946,86 +3026,6 @@
       "type": "paper",
       "arxiv_id": "2606.26047v1",
       "authors": "Han Bao, Bingyi Xia et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "RoboAtlas: Contextual Active SLAM",
-      "summary": "We present RoboAtlas, a contextual Active SLAM framework that adaptively balances geometric exploration and semantic reasoning using a scalable 3D semantic mapping system, OpenRoboVox. RoboAtlas integrates frontier exploration, global semantic-map re...",
-      "url": "https://arxiv.org/abs/2606.26046v1",
-      "date": "2026-06-24",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.26046v1",
-      "authors": "Alexander Schperberg, Shivam K. Panda et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "InSight: Self-Guided Skill Acquisition via Steerable VLAs",
-      "summary": "Vision-language-action (VLA) models can learn manipulation skills from demonstrations, but their capabilities are bounded by the skills in the training data. We present InSight, a framework that unlocks autonomous skill acquisition by rendering VLAs ...",
-      "url": "https://arxiv.org/abs/2606.24884v1",
-      "date": "2026-06-23",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.24884v1",
-      "authors": "Maggie Wang, Lars Osterberg et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Vision-Language Model Reasoning for Contextual Semantic Mapping in Intralogistics",
-      "summary": "Autonomous mobile robots operating in intralogistics environments rely on geometric maps for localization and navigation, but lack semantic understanding of objects and their contextual properties. We present a contextual semantic mapping pipeline th...",
-      "url": "https://arxiv.org/abs/2606.24814v1",
-      "date": "2026-06-23",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.24814v1",
-      "authors": "Marvin Rüdt, Hao Pang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Compact Object-Level Representations with Open-Vocabulary Understanding for Indoor Visual Relocalization",
-      "summary": "Indoor visual relocalization plays a critical role in emerging spatial and embodied AI applications. However, prior research was predominantly devoted to low-level vision schemes, struggling to perceive scene semantics and compositions, which limits ...",
-      "url": "https://arxiv.org/abs/2606.24767v1",
-      "date": "2026-06-23",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.24767v1",
-      "authors": "Zhaopeng Cui, Jiarui Hu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "World Value Models for Robotic Manipulation",
-      "summary": "Generalist value models play a pivotal role in scaling robotic policy learning from large-scale, mixed-quality data. Mathematically, accurate value estimation demands deep temporal understanding, requiring models to both ground the current belief usi...",
-      "url": "https://arxiv.org/abs/2606.24742v1",
-      "date": "2026-06-23",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.24742v1",
-      "authors": "Zhihao Wang, Jianxiong Li et al.",
       "tags": [
         "机器人学习",
         "研究论文",

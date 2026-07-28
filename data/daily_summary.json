@@ -8,18 +8,6 @@
       "count": 5,
       "items": [
         {
-          "title": "Markdown Content:",
-          "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-          "summary": "Markdown Content:...",
-          "date": "2026-07-27",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
           "title": "用AI重新设计赋予蛋白酶进化更高的起点，改造天然序列解锁超过79倍特异性提升",
           "link": "https://www.jiqizhixin.com/search/articles/用AI重新设计赋予蛋白酶进化更",
           "summary": "用AI重新设计赋予蛋白酶进化更高的起点，改造天然序列解锁超过79倍特异性提升...",
@@ -61,6 +49,18 @@
           "summary": "搜索智能体也需要「操作系统」：SearchOS 开源多智能体协作框架...",
           "date": "2026-07-27",
           "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "Denny’s和英伟达，有一项核心业务高度重叠",
+          "link": "https://www.qbitai.com/?s=Denny’s和英伟",
+          "summary": "Denny’s和英伟达，有一项核心业务高度重叠...",
+          "date": "2026-07-28",
+          "source": "量子位",
           "type": "industry",
           "tags": [
             "AI",
