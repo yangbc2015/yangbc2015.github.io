@@ -29,14 +29,6 @@
     },
     {
       "rank": 4,
-      "model": "claude-opus-5:batch",
-      "organization": "anthropic",
-      "price_prompt": "0.0000025",
-      "price_completion": "0.0000125",
-      "context_length": 1000000
-    },
-    {
-      "rank": 5,
       "model": "ling-3.0-flash:free",
       "organization": "inclusionai",
       "price_prompt": "0",
@@ -44,7 +36,7 @@
       "context_length": 262144
     },
     {
-      "rank": 6,
+      "rank": 5,
       "model": "laguna-s-2.1",
       "organization": "poolside",
       "price_prompt": "0.0000001",
@@ -52,7 +44,7 @@
       "context_length": 1048576
     },
     {
-      "rank": 7,
+      "rank": 6,
       "model": "laguna-s-2.1:free",
       "organization": "poolside",
       "price_prompt": "0",
@@ -60,7 +52,7 @@
       "context_length": 262144
     },
     {
-      "rank": 8,
+      "rank": 7,
       "model": "gemini-3.6-flash",
       "organization": "google",
       "price_prompt": "0.0000015",
@@ -68,7 +60,7 @@
       "context_length": 1048576
     },
     {
-      "rank": 9,
+      "rank": 8,
       "model": "gemini-3.6-flash:batch",
       "organization": "google",
       "price_prompt": "0.00000075",
@@ -76,7 +68,7 @@
       "context_length": 1048576
     },
     {
-      "rank": 10,
+      "rank": 9,
       "model": "gemini-3.5-flash-lite",
       "organization": "google",
       "price_prompt": "0.0000003",
@@ -84,7 +76,7 @@
       "context_length": 1048576
     },
     {
-      "rank": 11,
+      "rank": 10,
       "model": "gemini-3.5-flash-lite:batch",
       "organization": "google",
       "price_prompt": "0.00000015",
@@ -92,7 +84,7 @@
       "context_length": 1048576
     },
     {
-      "rank": 12,
+      "rank": 11,
       "model": "longcat-2.0",
       "organization": "meituan",
       "price_prompt": "0.0000003",
@@ -100,7 +92,7 @@
       "context_length": 1048756
     },
     {
-      "rank": 13,
+      "rank": 12,
       "model": "inkling",
       "organization": "thinkingmachines",
       "price_prompt": "0.000001",
@@ -108,7 +100,7 @@
       "context_length": 1048576
     },
     {
-      "rank": 14,
+      "rank": 13,
       "model": "auto-beta",
       "organization": "openrouter",
       "price_prompt": "-1",
@@ -116,11 +108,19 @@
       "context_length": 2000000
     },
     {
-      "rank": 15,
+      "rank": 14,
       "model": "kimi-k3",
       "organization": "moonshotai",
       "price_prompt": "0.000003",
       "price_completion": "0.000015",
+      "context_length": 1048576
+    },
+    {
+      "rank": 15,
+      "model": "muse-spark-1.1",
+      "organization": "meta",
+      "price_prompt": "0.00000125",
+      "price_completion": "0.00000425",
       "context_length": 1048576
     }
   ]
