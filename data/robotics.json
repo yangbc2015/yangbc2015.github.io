@@ -3,6 +3,18 @@
   "count": 200,
   "items": [
     {
+      "title": "[凯联资本出席36氪WAVES 2026大会：穿透 具 身 智 能 泡沫，探寻机器人商业化落地之锚",
+      "summary": "[凯联资本出席36氪WAVES 2026大会：穿透 具 身 智 能 泡沫，探寻机器人商业化落地之锚",
+      "url": "http://36kr.com/p/3917775654590345",
+      "date": "2026-07-30",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
       "title": "[工业和信息化部人形机器人与 具 身 智 能 标准化技术委员会2026年度全体会议暨“标准周”活动在浙江绍兴召开",
       "summary": "[工业和信息化部人形机器人与 具 身 智 能 标准化技术委员会2026年度全体会议暨“标准周”活动在浙江绍兴召开",
       "url": "http://36kr.com/p/3913754106516865",
@@ -3011,22 +3023,6 @@
       "type": "paper",
       "arxiv_id": "2606.27355v1",
       "authors": "Xingyu Ren, Chugang Yi et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Continual Robot Policy Learning via Variational Neural Dynamics",
-      "summary": "Robots deployed in the real world rarely operate under a single fixed dynamics model: wind changes, payloads vary, batteries drain, contacts shift, and hardware wears. Yet most learning-based controllers are trained once and deployed as if learning w...",
-      "url": "https://arxiv.org/abs/2606.27353v1",
-      "date": "2026-06-25",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.27353v1",
-      "authors": "Jiaxu Xing, Zhiyuan Zhu et al.",
       "tags": [
         "机器人学习",
         "研究论文",
