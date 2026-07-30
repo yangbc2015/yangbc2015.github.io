@@ -8,18 +8,6 @@
       "count": 5,
       "items": [
         {
-          "title": "Markdown Content:",
-          "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-          "summary": "Markdown Content:...",
-          "date": "2026-07-29",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
           "title": "300 微秒调平 MoE 专家负载！小红书 UltraEP 逼近 94.3% 理想训推吞吐",
           "link": "https://www.jiqizhixin.com/search/articles/300 微秒调平 MoE 专家",
           "summary": "300 微秒调平 MoE 专家负载！小红书 UltraEP 逼近 94.3% 理想训推吞吐...",
@@ -59,6 +47,18 @@
           "title": "告别「小道消息」与研发黑盒！上海AI实验室探索「全开放预训练」开源模式",
           "link": "https://www.jiqizhixin.com/search/articles/告别「小道消息」与研发黑盒！上",
           "summary": "告别「小道消息」与研发黑盒！上海AI实验室探索「全开放预训练」开源模式...",
+          "date": "2026-07-29",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "86.3%，突围CyberGym！超越OpenAI、Anthropic的竟是一家中国AI公司",
+          "link": "https://www.jiqizhixin.com/search/articles/86.3%，突围CyberGy",
+          "summary": "86.3%，突围CyberGym！超越OpenAI、Anthropic的竟是一家中国AI公司...",
           "date": "2026-07-29",
           "source": "机器之心",
           "type": "industry",

@@ -3,34 +3,17 @@
   "count": 7,
   "items": [
     {
-      "title": "Pass the Baton: Trajectory-Relayed On-Policy Distillation",
-      "authors": "Haolei Xu, Xiaowen Xu, Haiwen Hong et al.",
-      "abstract": "On-policy distillation (OPD) grounds token-level supervision in the student's own trajectory, yet suffers from prefix failure: once the student commits to a wrong reasoning direction, all subsequent generation builds on this deviation, producing misdirected continuations that elicit unreliable super...",
+      "title": "Can AI agents conduct open-ended AI research? Early evidence from two case studies",
+      "authors": "Peter Kirgis, Sayash Kapoor, Andrew Schwartz et al.",
+      "abstract": "Forecasts of explosive AI progress hinge on AI agents automating AI research. But evidence on whether agents can carry out open-ended AI research is thin. Current evaluations either test agents on narrow, verifiable tasks, which excludes open-ended research, or submit AI-generated papers to blind pe...",
       "venue": "arXiv",
-      "date": "2026-07-28",
-      "arxiv_id": "2607.26057v1",
-      "url": "https://arxiv.org/abs/2607.26057v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.26057v1.pdf",
+      "date": "2026-07-29",
+      "arxiv_id": "2607.27191v1",
+      "url": "https://arxiv.org/abs/2607.27191v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.27191v1.pdf",
       "categories": [
-        "cs.CL",
-        "cs.AI"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "$π\\mathbf{R}^2$: Reactive Real-time Flow Policies",
-      "authors": "Sungjae Park, Shubham Tulsiani",
-      "abstract": "Generalist manipulation policies increasingly take the form of action-chunking flow policies built on large pretrained backbones. Such chunks run open-loop, so the policy cannot react to sensory input arriving mid-execution, sacrificing \\emph{reactivity}. Replanning more often would restore it, but ...",
-      "venue": "arXiv",
-      "date": "2026-07-28",
-      "arxiv_id": "2607.26055v1",
-      "url": "https://arxiv.org/abs/2607.26055v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.26055v1.pdf",
-      "categories": [
-        "cs.RO",
         "cs.AI",
+        "cs.CY",
         "cs.LG"
       ],
       "type": "ml",
@@ -38,14 +21,32 @@
       "source": "arXiv"
     },
     {
-      "title": "UniMem: Complementary Episodic-to-Parametric Memory for Boundary-Agnostic Task Streams",
-      "authors": "Siyu Xia, Chenheng Zhang, Yanting Wu et al.",
-      "abstract": "Memory is essential for LLM agents to accumulate task experience and reuse task-specific execution strategies. However, real-world deployment over boundary-agnostic and evolving task streams exposes a fundamental stability-plasticity dilemma. External retrieval-based memory can rapidly absorb new ev...",
+      "title": "APEX-Accounting",
+      "authors": "Julien Benchek, Austin Bennett, Jasmin Kern et al.",
+      "abstract": "We introduce APEX-Accounting, a benchmark built by Mercor in partnership with Ramp, to assess whether frontier models can do the real work of accountants. Tasks include reconciling accounts, accruing expenses, posting transactions, and producing reports. The private eval set comprises 160 tasks, spl...",
       "venue": "arXiv",
-      "date": "2026-07-28",
-      "arxiv_id": "2607.26017v1",
-      "url": "https://arxiv.org/abs/2607.26017v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.26017v1.pdf",
+      "date": "2026-07-29",
+      "arxiv_id": "2607.27189v1",
+      "url": "https://arxiv.org/abs/2607.27189v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.27189v1.pdf",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.HC"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Mental World Modeling",
+      "authors": "Hao Fei, Yiran Zhao",
+      "abstract": "World models enable a predictive substrate for planning and action, yet existing formulations merely answer a physical question: what/where it is, and how will it evolve. Human behavior, however, is driven by hidden mental state (what a person believes, wants, intends, feels, and considers socially ...",
+      "venue": "arXiv",
+      "date": "2026-07-29",
+      "arxiv_id": "2607.27201v1",
+      "url": "https://arxiv.org/abs/2607.27201v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.27201v1.pdf",
       "categories": [
         "cs.CL"
       ],
@@ -54,48 +55,48 @@
       "source": "arXiv"
     },
     {
-      "title": "VetClaw: An Edge-Cloud Multimodal Agentic System for Veterinary Disease Screening",
-      "authors": "Syed Mhamudul Hasan, Anas AlSobeh, Hussein Zangoti et al.",
-      "abstract": "We present VetClaw, an edge-cloud multimodal agentic system for early veterinary disease screening. VetClaw uses a camera module as an edge sensing device and sends captured images, together with optional symptom descriptions, to a server-hosted vision-language model for zero-shot disease classifica...",
+      "title": "TurboVLA: Real-Time Vision-Language-Action Model at 32 Hz on an RTX 4090 with <1 GB VRAM",
+      "authors": "Hengyi Xie, Chenfei Yao, Xianjin Wu et al.",
+      "abstract": "Vision-language-action (VLA) models commonly adopt an LLM-centric $V \\to L \\to A$ pathway, where visual observations are projected into the representation space of a large language model before being decoded into robot actions. Although effective, this design incurs substantial computation and memor...",
       "venue": "arXiv",
-      "date": "2026-07-28",
-      "arxiv_id": "2607.26042v1",
-      "url": "https://arxiv.org/abs/2607.26042v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.26042v1.pdf",
+      "date": "2026-07-29",
+      "arxiv_id": "2607.27205v1",
+      "url": "https://arxiv.org/abs/2607.27205v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.27205v1.pdf",
       "categories": [
         "cs.CV",
-        "cs.LG"
+        "cs.RO"
       ],
-      "type": "vision",
+      "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Desktop-Delta Bench: Do Computer-Use Models Understand Desktop GUI Transitions?",
-      "authors": "Abhishek Pillai, Samir Kumar Nayak, Yuan Chen",
-      "abstract": "Computer-use agents (CUAs) increasingly act through desktop GUIs to complete long-horizon tasks. Current benchmarks primarily measure end-task success or single-frame grounding. Neither isolates whether a model can reconstruct the causal, task-relevant transition produced by an action- crucial for r...",
+      "title": "VidMap: Exploiting Temporal Structure for Video-Based Structure-from-Motion",
+      "authors": "Zador Pataki, Paul-Edouard Sarlin, Marc Pollefeys",
+      "abstract": "Accurately recovering the camera's calibration and metric poses for any unconstrained video would unlock large-scale training data for navigation and scene understanding. The dominant approaches to this problem are severely limited: Simultaneous Localization and Mapping (SLAM) is sensitive to initia...",
       "venue": "arXiv",
-      "date": "2026-07-28",
-      "arxiv_id": "2607.26041v1",
-      "url": "https://arxiv.org/abs/2607.26041v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.26041v1.pdf",
+      "date": "2026-07-29",
+      "arxiv_id": "2607.27194v1",
+      "url": "https://arxiv.org/abs/2607.27194v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.27194v1.pdf",
       "categories": [
-        "cs.AI",
-        "cs.CV"
+        "cs.CV",
+        "cs.RO"
       ],
       "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Spend Experts Where You Are Unsure: Confidence-Adaptive Routing for Mixture-of-Experts LoRA",
-      "authors": "Tom Saliencro, Rohan Desai, Priya Nair et al.",
-      "abstract": "Mixture-of-Experts (MoE) variants of Low-Rank Adaptation (LoRA) route every token to a fixed number of experts $k$. Tokens differ in how uncertain the model is about them, so a single k over-spends on easy tokens and under-serves hard ones. We observe that the router's output distribution is already...",
+      "title": "Do You Really Need to Pretrain Q-Functions for Online RL Fine-Tuning?",
+      "authors": "Perry Dong, Ron Polonsky, Dorsa Sadigh et al.",
+      "abstract": "Pre-training followed by fine-tuning has become the dominant recipe for learning performant policies, and in value-based reinforcement learning (RL) this raises a natural question: given a pretrained policy, should the Q-function be pretrained on offline data too? Conventional wisdom suggests it sho...",
       "venue": "arXiv",
-      "date": "2026-07-28",
-      "arxiv_id": "2607.26052v1",
-      "url": "https://arxiv.org/abs/2607.26052v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.26052v1.pdf",
+      "date": "2026-07-29",
+      "arxiv_id": "2607.27203v1",
+      "url": "https://arxiv.org/abs/2607.27203v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.27203v1.pdf",
       "categories": [
         "cs.LG"
       ],
@@ -104,16 +105,17 @@
       "source": "arXiv"
     },
     {
-      "title": "INTACT: Isomorphic Intent-to-Action Learning for Search-Free World Models",
-      "authors": "Junhan Sun, Hao Zhao, Guofeng Zhang",
-      "abstract": "Forward latent world models predict how actions change a scene, but recover actions for a desired change only through expensive test-time search. We introduce INTACT (INtent-To-ACTion), an end-to-end JEPA that turns action-labeled, reward-free trajectories into a deployable intent-to-action interfac...",
+      "title": "From Classification to Regression: Using a Fruitfly to Solve Equations",
+      "authors": "Shady E. Ahmed, Panos Stinis",
+      "abstract": "We present a novel approach to regression tasks using classification which is motivated by the mechanism used by fruitflies to sense their environment. Specifically, we formulate a general framework for learning nonlinear input-output relationships by replacing complex global surrogate models with a...",
       "venue": "arXiv",
-      "date": "2026-07-28",
-      "arxiv_id": "2607.26056v1",
-      "url": "https://arxiv.org/abs/2607.26056v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.26056v1.pdf",
+      "date": "2026-07-29",
+      "arxiv_id": "2607.27196v1",
+      "url": "https://arxiv.org/abs/2607.27196v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.27196v1.pdf",
       "categories": [
-        "cs.RO"
+        "cs.LG",
+        "math.NA"
       ],
       "type": "ml",
       "badge": "arxiv",
