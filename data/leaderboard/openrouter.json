@@ -39,8 +39,8 @@
       "rank": 5,
       "model": "laguna-s-2.1",
       "organization": "poolside",
-      "price_prompt": "0.0000001",
-      "price_completion": "0.0000002",
+      "price_prompt": "0.00000009",
+      "price_completion": "0.00000018",
       "context_length": 1048576
     },
     {
