@@ -1,43 +1,7 @@
 {
   "last_updated": "2026-07-31",
-  "count": 7,
+  "count": 4,
   "items": [
-    {
-      "title": "Learning to Trace Seiberg Dualities",
-      "authors": "Jonathan J. Heckman, Shani Meynet, Alessandro Mininno et al.",
-      "abstract": "Dualities play an important role in establishing both microscopic and emergent phenomena in a wide range of physical systems. In practice, though, it can often be computationally challenging to establish when two systems are dual, even when all of the \"rules of the game\" are well-known. Said differe...",
-      "venue": "arXiv",
-      "date": "2026-07-30",
-      "arxiv_id": "2607.28628v1",
-      "url": "https://arxiv.org/abs/2607.28628v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.28628v1.pdf",
-      "categories": [
-        "hep-th",
-        "cs.AI",
-        "cs.LG"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "ReToken: One Token to Improve Vision-Language Models for Visual Retrieval",
-      "authors": "Yao Xiao, Reuben Tan, Zhen Zhu et al.",
-      "abstract": "Long visual context poses a challenge for vision-language models: performance degrades as the number of distractors grows, and processing all tokens at once is computationally infeasible under GPU memory constraints. We present ReToken, a single learnable embedding trained as an explicit retrieval t...",
-      "venue": "arXiv",
-      "date": "2026-07-30",
-      "arxiv_id": "2607.28627v1",
-      "url": "https://arxiv.org/abs/2607.28627v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.28627v1.pdf",
-      "categories": [
-        "cs.CV",
-        "cs.AI",
-        "cs.LG"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
     {
       "title": "AskChem: Claim-Centered Infrastructure for Chemistry Literature Synthesis",
       "authors": "Bing Yan, Gregory Wolfe, Stefano Martiniani et al.",
@@ -75,6 +39,24 @@
       "source": "arXiv"
     },
     {
+      "title": "ReToken: One Token to Improve Vision-Language Models for Visual Retrieval",
+      "authors": "Yao Xiao, Reuben Tan, Zhen Zhu et al.",
+      "abstract": "Long visual context poses a challenge for vision-language models: performance degrades as the number of distractors grows, and processing all tokens at once is computationally infeasible under GPU memory constraints. We present ReToken, a single learnable embedding trained as an explicit retrieval t...",
+      "venue": "arXiv",
+      "date": "2026-07-30",
+      "arxiv_id": "2607.28627v1",
+      "url": "https://arxiv.org/abs/2607.28627v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.28627v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
       "title": "ACE-Data-0: Human-Centric Ambient Capture as Embodied Data Engine",
       "authors": "Yukang Cao, Haozhe Xie, Beichen Wen et al.",
       "abstract": "Embodied intelligence faces a fundamental data bottleneck. Models must capture how first-person perception, whole-body motion, dexterous manipulation, object state, sound, and touch evolve together as humans pursue goals over time. Existing datasets fragment this experience across viewpoints, modali...",
@@ -87,39 +69,6 @@
         "cs.CV"
       ],
       "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "PAC-MAN: Perception-Aware CBF-RL for Whole-Body Safety in Humanoid Dodgeball",
-      "authors": "Lizhi Yang, Junheng Li, Aaron D. Ames",
-      "abstract": "We present PAC-MAN, a perception-aware CBF-RL framework that couples control-barrier safety with deployment-realistic onboard sensing for whole-body humanoid dodgeball. The deployed policy sees the ball only as segmentation-masked depth from a head-mounted camera, while training-time CBF guidance re...",
-      "venue": "arXiv",
-      "date": "2026-07-30",
-      "arxiv_id": "2607.28623v1",
-      "url": "https://arxiv.org/abs/2607.28623v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.28623v1.pdf",
-      "categories": [
-        "cs.RO",
-        "cs.AI"
-      ],
-      "type": "ai",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "FA-RDP: A Frequency-Adaptive Reactive Diffusion Policy for Contact-Rich Manipulation",
-      "authors": "Lifeng Zhuo, Wendi Chen, Han Xue et al.",
-      "abstract": "In contact-rich manipulation, action multimodality and reactivity dominate different stages of a single episode. Before contact, multiple trajectories might be equally valid, making it important to preserve diverse action modes. After contact, geometric constraints and force limits narrow the soluti...",
-      "venue": "arXiv",
-      "date": "2026-07-30",
-      "arxiv_id": "2607.28596v1",
-      "url": "https://arxiv.org/abs/2607.28596v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.28596v1.pdf",
-      "categories": [
-        "cs.RO"
-      ],
-      "type": "ai",
       "badge": "arxiv",
       "source": "arXiv"
     }
