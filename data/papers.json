@@ -3,17 +3,17 @@
   "count": 7,
   "items": [
     {
-      "title": "Can AI agents conduct open-ended AI research? Early evidence from two case studies",
-      "authors": "Peter Kirgis, Sayash Kapoor, Andrew Schwartz et al.",
-      "abstract": "Forecasts of explosive AI progress hinge on AI agents automating AI research. But evidence on whether agents can carry out open-ended AI research is thin. Current evaluations either test agents on narrow, verifiable tasks, which excludes open-ended research, or submit AI-generated papers to blind pe...",
+      "title": "Learning to Trace Seiberg Dualities",
+      "authors": "Jonathan J. Heckman, Shani Meynet, Alessandro Mininno et al.",
+      "abstract": "Dualities play an important role in establishing both microscopic and emergent phenomena in a wide range of physical systems. In practice, though, it can often be computationally challenging to establish when two systems are dual, even when all of the \"rules of the game\" are well-known. Said differe...",
       "venue": "arXiv",
-      "date": "2026-07-29",
-      "arxiv_id": "2607.27191v1",
-      "url": "https://arxiv.org/abs/2607.27191v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.27191v1.pdf",
+      "date": "2026-07-30",
+      "arxiv_id": "2607.28628v1",
+      "url": "https://arxiv.org/abs/2607.28628v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.28628v1.pdf",
       "categories": [
+        "hep-th",
         "cs.AI",
-        "cs.CY",
         "cs.LG"
       ],
       "type": "ml",
@@ -21,103 +21,105 @@
       "source": "arXiv"
     },
     {
-      "title": "APEX-Accounting",
-      "authors": "Julien Benchek, Austin Bennett, Jasmin Kern et al.",
-      "abstract": "We introduce APEX-Accounting, a benchmark built by Mercor in partnership with Ramp, to assess whether frontier models can do the real work of accountants. Tasks include reconciling accounts, accruing expenses, posting transactions, and producing reports. The private eval set comprises 160 tasks, spl...",
+      "title": "ReToken: One Token to Improve Vision-Language Models for Visual Retrieval",
+      "authors": "Yao Xiao, Reuben Tan, Zhen Zhu et al.",
+      "abstract": "Long visual context poses a challenge for vision-language models: performance degrades as the number of distractors grows, and processing all tokens at once is computationally infeasible under GPU memory constraints. We present ReToken, a single learnable embedding trained as an explicit retrieval t...",
       "venue": "arXiv",
-      "date": "2026-07-29",
-      "arxiv_id": "2607.27189v1",
-      "url": "https://arxiv.org/abs/2607.27189v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.27189v1.pdf",
+      "date": "2026-07-30",
+      "arxiv_id": "2607.28627v1",
+      "url": "https://arxiv.org/abs/2607.28627v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.28627v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "AskChem: Claim-Centered Infrastructure for Chemistry Literature Synthesis",
+      "authors": "Bing Yan, Gregory Wolfe, Stefano Martiniani et al.",
+      "abstract": "Chemistry literature synthesis often requires assembling specific findings scattered across many publications, yet existing literature-search systems primarily return ranked document lists. As a result, scientists and AI agents need to locate relevant information, verify their provenance, and assemb...",
+      "venue": "arXiv",
+      "date": "2026-07-30",
+      "arxiv_id": "2607.28618v1",
+      "url": "https://arxiv.org/abs/2607.28618v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.28618v1.pdf",
       "categories": [
         "cs.CL",
         "cs.AI",
-        "cs.HC"
+        "cs.IR"
       ],
       "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Mental World Modeling",
-      "authors": "Hao Fei, Yiran Zhao",
-      "abstract": "World models enable a predictive substrate for planning and action, yet existing formulations merely answer a physical question: what/where it is, and how will it evolve. Human behavior, however, is driven by hidden mental state (what a person believes, wants, intends, feels, and considers socially ...",
+      "title": "AISPA: User-Centric System Prompt Auditing for Large Language Model Applications",
+      "authors": "Xiangning Lin, Shenzhe Zhu, Shu Yang et al.",
+      "abstract": "System prompts are instructions configured by developers to govern the behaviors of foundation models in AI applications. They are used throughout commercial AI products, but are rarely disclosed to the public or regulators, creating a serious trust and accountability gap in the wide deployment of A...",
       "venue": "arXiv",
-      "date": "2026-07-29",
-      "arxiv_id": "2607.27201v1",
-      "url": "https://arxiv.org/abs/2607.27201v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.27201v1.pdf",
+      "date": "2026-07-30",
+      "arxiv_id": "2607.28617v1",
+      "url": "https://arxiv.org/abs/2607.28617v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.28617v1.pdf",
       "categories": [
-        "cs.CL"
+        "cs.AI",
+        "cs.CL",
+        "cs.CY"
       ],
       "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "TurboVLA: Real-Time Vision-Language-Action Model at 32 Hz on an RTX 4090 with <1 GB VRAM",
-      "authors": "Hengyi Xie, Chenfei Yao, Xianjin Wu et al.",
-      "abstract": "Vision-language-action (VLA) models commonly adopt an LLM-centric $V \\to L \\to A$ pathway, where visual observations are projected into the representation space of a large language model before being decoded into robot actions. Although effective, this design incurs substantial computation and memor...",
+      "title": "ACE-Data-0: Human-Centric Ambient Capture as Embodied Data Engine",
+      "authors": "Yukang Cao, Haozhe Xie, Beichen Wen et al.",
+      "abstract": "Embodied intelligence faces a fundamental data bottleneck. Models must capture how first-person perception, whole-body motion, dexterous manipulation, object state, sound, and touch evolve together as humans pursue goals over time. Existing datasets fragment this experience across viewpoints, modali...",
       "venue": "arXiv",
-      "date": "2026-07-29",
-      "arxiv_id": "2607.27205v1",
-      "url": "https://arxiv.org/abs/2607.27205v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.27205v1.pdf",
+      "date": "2026-07-30",
+      "arxiv_id": "2607.28625v1",
+      "url": "https://arxiv.org/abs/2607.28625v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.28625v1.pdf",
       "categories": [
-        "cs.CV",
-        "cs.RO"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "VidMap: Exploiting Temporal Structure for Video-Based Structure-from-Motion",
-      "authors": "Zador Pataki, Paul-Edouard Sarlin, Marc Pollefeys",
-      "abstract": "Accurately recovering the camera's calibration and metric poses for any unconstrained video would unlock large-scale training data for navigation and scene understanding. The dominant approaches to this problem are severely limited: Simultaneous Localization and Mapping (SLAM) is sensitive to initia...",
-      "venue": "arXiv",
-      "date": "2026-07-29",
-      "arxiv_id": "2607.27194v1",
-      "url": "https://arxiv.org/abs/2607.27194v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.27194v1.pdf",
-      "categories": [
-        "cs.CV",
-        "cs.RO"
+        "cs.CV"
       ],
       "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Do You Really Need to Pretrain Q-Functions for Online RL Fine-Tuning?",
-      "authors": "Perry Dong, Ron Polonsky, Dorsa Sadigh et al.",
-      "abstract": "Pre-training followed by fine-tuning has become the dominant recipe for learning performant policies, and in value-based reinforcement learning (RL) this raises a natural question: given a pretrained policy, should the Q-function be pretrained on offline data too? Conventional wisdom suggests it sho...",
+      "title": "PAC-MAN: Perception-Aware CBF-RL for Whole-Body Safety in Humanoid Dodgeball",
+      "authors": "Lizhi Yang, Junheng Li, Aaron D. Ames",
+      "abstract": "We present PAC-MAN, a perception-aware CBF-RL framework that couples control-barrier safety with deployment-realistic onboard sensing for whole-body humanoid dodgeball. The deployed policy sees the ball only as segmentation-masked depth from a head-mounted camera, while training-time CBF guidance re...",
       "venue": "arXiv",
-      "date": "2026-07-29",
-      "arxiv_id": "2607.27203v1",
-      "url": "https://arxiv.org/abs/2607.27203v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.27203v1.pdf",
+      "date": "2026-07-30",
+      "arxiv_id": "2607.28623v1",
+      "url": "https://arxiv.org/abs/2607.28623v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.28623v1.pdf",
       "categories": [
-        "cs.LG"
+        "cs.RO",
+        "cs.AI"
       ],
-      "type": "ml",
+      "type": "ai",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "From Classification to Regression: Using a Fruitfly to Solve Equations",
-      "authors": "Shady E. Ahmed, Panos Stinis",
-      "abstract": "We present a novel approach to regression tasks using classification which is motivated by the mechanism used by fruitflies to sense their environment. Specifically, we formulate a general framework for learning nonlinear input-output relationships by replacing complex global surrogate models with a...",
+      "title": "FA-RDP: A Frequency-Adaptive Reactive Diffusion Policy for Contact-Rich Manipulation",
+      "authors": "Lifeng Zhuo, Wendi Chen, Han Xue et al.",
+      "abstract": "In contact-rich manipulation, action multimodality and reactivity dominate different stages of a single episode. Before contact, multiple trajectories might be equally valid, making it important to preserve diverse action modes. After contact, geometric constraints and force limits narrow the soluti...",
       "venue": "arXiv",
-      "date": "2026-07-29",
-      "arxiv_id": "2607.27196v1",
-      "url": "https://arxiv.org/abs/2607.27196v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.27196v1.pdf",
+      "date": "2026-07-30",
+      "arxiv_id": "2607.28596v1",
+      "url": "https://arxiv.org/abs/2607.28596v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.28596v1.pdf",
       "categories": [
-        "cs.LG",
-        "math.NA"
+        "cs.RO"
       ],
-      "type": "ml",
+      "type": "ai",
       "badge": "arxiv",
       "source": "arXiv"
     }
