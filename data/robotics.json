@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-08-01",
   "count": 200,
   "items": [
     {
@@ -117,6 +117,32 @@
         "机器人学习",
         "研究论文",
         "arXiv"
+      ]
+    },
+    {
+      "title": "砍掉低毛率业务，押注具身智能。",
+      "summary": "砍掉低毛率业务，押注具身智能。",
+      "url": "http://36kr.com/p/3918034895957637",
+      "date": "2026-07-30",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "工业具身智能产业发展及落地路径分析",
+      "summary": "工业具身智能产业发展及落地路径分析",
+      "url": "http://36kr.com/p/3917382643330691",
+      "date": "2026-07-30",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
       ]
     },
     {
@@ -2994,38 +3020,6 @@
       "type": "paper",
       "arxiv_id": "2606.28237v1",
       "authors": "Youzhi Liu, Li Gao et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Learning Stable In-Grasp Manipulation in a Non-Dropping Action Space",
-      "summary": "Traditionally, dexterous manipulation controllers are designed using analytic models constrained by strong assumptions about the hand and the objects being manipulated. Reinforcement learning (RL) has become another common approach in which skills ar...",
-      "url": "https://arxiv.org/abs/2606.28196v1",
-      "date": "2026-06-26",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.28196v1",
-      "authors": "Ha Thang Long Doan, Hikaru Arita et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "PA-BiCoop: A Primary-Auxiliary Cooperative Framework for General Bimanual Manipulation",
-      "summary": "Bimanual manipulation is essential for advanced robotic systems because it offers higher efficiency and flexibility compared to single-arm configurations. However, existing approaches either lack inter-arm interaction or ignore the need for a dynamic...",
-      "url": "https://arxiv.org/abs/2606.28192v1",
-      "date": "2026-06-26",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.28192v1",
-      "authors": "Bai Qicheng, Wang Ziru et al.",
       "tags": [
         "机器人学习",
         "研究论文",
