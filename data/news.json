@@ -1,9 +1,81 @@
 {
   "last_updated": "2026-08-01",
   "count": 200,
-  "history_count": 200,
+  "history_count": 205,
   "retention_days": 30,
   "items": [
+    {
+      "title": "开源项目GitHub狂揽8000+Star",
+      "link": "https://www.qbitai.com/?s=开源项目GitHub",
+      "summary": "开源项目GitHub狂揽8000+Star...",
+      "date": "2026-08-01",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "AI for Science方向",
+      "link": "https://www.qbitai.com/?s=AI for Sci",
+      "summary": "AI for Science方向...",
+      "date": "2026-08-01",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "Claude code之父：大模型是有机生物，做好AI产品疏胜于堵",
+      "link": "https://www.qbitai.com/?s=Claude cod",
+      "summary": "Claude code之父：大模型是有机生物，做好AI产品疏胜于堵...",
+      "date": "2026-08-01",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "靠“堆参数换销量”的逻辑，不再管用了",
+      "link": "https://www.qbitai.com/?s=靠“堆参数换销量”的",
+      "summary": "靠“堆参数换销量”的逻辑，不再管用了...",
+      "date": "2026-08-01",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "OpenAI的RSI焚诀，它来了！",
+      "link": "https://www.qbitai.com/?s=OpenAI的RSI",
+      "summary": "OpenAI的RSI焚诀，它来了！...",
+      "date": "2026-08-01",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "Published Time: Thu, 08 May 2025 23:15:48 GMT",
+      "link": "https://techcrunch.com/category/artificial-intelligence/",
+      "summary": "Published Time: Thu, 08 May 2025 23:15:48 GMT...",
+      "date": "2026-08-01",
+      "source": "TechCrunch",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "Artificial Intelligence"
+      ]
+    },
     {
       "title": "李飞飞老师的World Labs，补了块关键拼图",
       "link": "https://www.qbitai.com/?s=李飞飞老师的Worl",
@@ -26,18 +98,6 @@
       "tags": [
         "AI",
         "人工智能"
-      ]
-    },
-    {
-      "title": "Published Time: Thu, 08 May 2025 23:15:48 GMT",
-      "link": "https://techcrunch.com/category/artificial-intelligence/",
-      "summary": "Published Time: Thu, 08 May 2025 23:15:48 GMT...",
-      "date": "2026-08-01",
-      "source": "TechCrunch",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "Artificial Intelligence"
       ]
     },
     {
@@ -2337,66 +2397,6 @@
       "link": "https://www.jiqizhixin.com/search/articles/ACL 2026｜块越大，推理",
       "summary": "ACL 2026｜块越大，推理越差？扩散语言模型的新难题被T*破解了...",
       "date": "2026-07-05",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "刚刚，Vidu S1 重磅来袭，视频生成迈入实时交互时代！",
-      "link": "https://www.jiqizhixin.com/search/articles/刚刚，Vidu S1 重磅来袭",
-      "summary": "刚刚，Vidu S1 重磅来袭，视频生成迈入实时交互时代！...",
-      "date": "2026-07-03",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "把Agent丢入1000+文件：人大CoDA-Bench揭示Code Agent瓶颈",
-      "link": "https://www.jiqizhixin.com/search/articles/把Agent丢入1000+文件",
-      "summary": "把Agent丢入1000+文件：人大CoDA-Bench揭示Code Agent瓶颈...",
-      "date": "2026-07-03",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Fable 5解题解到破防，一句「啊啊啊」刷屏了",
-      "link": "https://www.jiqizhixin.com/search/articles/Fable 5解题解到破防，一",
-      "summary": "Fable 5解题解到破防，一句「啊啊啊」刷屏了...",
-      "date": "2026-07-03",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "AI Agent为什么总是不稳定？终于有了一个系统性基准来拆解",
-      "link": "https://www.jiqizhixin.com/search/articles/AI Agent为什么总是不稳",
-      "summary": "AI Agent为什么总是不稳定？终于有了一个系统性基准来拆解...",
-      "date": "2026-07-03",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "GTC四大天王：成为黄仁勋座上宾的四位90后华人青年",
-      "link": "https://www.jiqizhixin.com/search/articles/GTC四大天王：成为黄仁勋座上",
-      "summary": "GTC四大天王：成为黄仁勋座上宾的四位90后华人青年...",
-      "date": "2026-07-03",
       "source": "机器之心",
       "type": "industry",
       "tags": [
