@@ -1,15 +1,15 @@
 ---
-title: '*   [Apple](http://techcrunch.com/tag/apple/)'
+title: '*   [Latest](http://techcrunch.com/latest/)'
 date: '2026-08-01'
 type: industry
 source: TechCrunch
 link: https://techcrunch.com/category/artificial-intelligence/
-summary: '*   [Security](http://techcrunch.com/category/security/)'
+summary: '*   [Startups](http://techcrunch.com/category/startups/)'
 tags:
 - AI
 - Artificial Intelligence
 ---
 
-*   [Security](http://techcrunch.com/category/security/)
+*   [Startups](http://techcrunch.com/category/startups/)
 
 <!-- 来源: TechCrunch -->

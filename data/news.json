@@ -1,7 +1,7 @@
 {
   "last_updated": "2026-08-01",
   "count": 200,
-  "history_count": 205,
+  "history_count": 200,
   "retention_days": 30,
   "items": [
     {
@@ -65,9 +65,9 @@
       ]
     },
     {
-      "title": "Published Time: Thu, 08 May 2025 23:15:48 GMT",
+      "title": "*   [Latest](http://techcrunch.com/latest/)",
       "link": "https://techcrunch.com/category/artificial-intelligence/",
-      "summary": "Published Time: Thu, 08 May 2025 23:15:48 GMT...",
+      "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
       "date": "2026-08-01",
       "source": "TechCrunch",
       "type": "industry",
@@ -94,18 +94,6 @@
       "summary": "WorkBuddy已成为国内最受欢迎的效率智能体工具之一...",
       "date": "2026-08-01",
       "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Markdown Content:",
-      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-      "summary": "Markdown Content:...",
-      "date": "2026-07-31",
-      "source": "机器之心",
       "type": "industry",
       "tags": [
         "AI",
@@ -140,6 +128,18 @@
       "title": "MiniMax H3来了！花式「华强买瓜」不用愁 ，1秒仅需5毛钱",
       "link": "https://www.jiqizhixin.com/search/articles/MiniMax H3来了！花式",
       "summary": "MiniMax H3来了！花式「华强买瓜」不用愁 ，1秒仅需5毛钱...",
+      "date": "2026-07-31",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "Markdown Content:",
+      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+      "summary": "Markdown Content:...",
       "date": "2026-07-31",
       "source": "机器之心",
       "type": "industry",
