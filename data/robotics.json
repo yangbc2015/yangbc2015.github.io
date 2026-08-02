@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-08-01",
+  "last_updated": "2026-08-02",
   "count": 200,
   "items": [
     {
       "title": "[凯联资本出席36氪WAVES 2026大会：穿透 具 身 智 能 泡沫，探寻机器人商业化落地之锚",
       "summary": "[凯联资本出席36氪WAVES 2026大会：穿透 具 身 智 能 泡沫，探寻机器人商业化落地之锚",
       "url": "http://36kr.com/p/3917775654590345",
-      "date": "2026-08-01",
+      "date": "2026-08-02",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
@@ -25,6 +25,31 @@
       "tags": [
         "机器人",
         "人形机器人"
+      ]
+    },
+    {
+      "title": "“可信赖”可能是具身最后的分水岭。",
+      "summary": "“可信赖”可能是具身最后的分水岭。",
+      "url": "http://36kr.com/p/3919211242575497",
+      "date": "2026-07-31",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "谁不想应聘机器人毛娘师？",
+      "summary": "谁不想应聘机器人毛娘师？",
+      "url": "http://36kr.com/p/3918365710276483",
+      "date": "2026-07-31",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
       ]
     },
     {
@@ -2988,38 +3013,6 @@
       "type": "paper",
       "arxiv_id": "2606.28300v1",
       "authors": "Nimesh Khandelwal, Mehul Anand et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "SimFoundry: Modular and Automated Scene Generation for Policy Learning and Evaluation",
-      "summary": "Training and evaluating robot policies in the real world is costly and difficult to scale. We introduce SimFoundry, a modular and automated system for zero-shot real-to-sim scene construction from a video. SimFoundry generates sim-ready digital twins...",
-      "url": "https://arxiv.org/abs/2606.28276v1",
-      "date": "2026-06-26",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.28276v1",
-      "authors": "Nadun Ranawaka, Josiah Wong et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Unleashing Infinite Motion: Scaling Expressive Quadrupedal Motion via Generative Video Priors",
-      "summary": "Quadruped robots have achieved remarkable locomotion, yet their behavioral repertoire remains confined to a few gaits--far from the expressive, companion-like presence long envisioned for them. Attempts to import the humanoid recipe of large-scale mo...",
-      "url": "https://arxiv.org/abs/2606.28237v1",
-      "date": "2026-06-26",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.28237v1",
-      "authors": "Youzhi Liu, Li Gao et al.",
       "tags": [
         "机器人学习",
         "研究论文",
