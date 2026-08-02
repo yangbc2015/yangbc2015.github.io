@@ -1,7 +1,7 @@
 {
   "last_updated": "2026-08-02",
   "count": 200,
-  "history_count": 200,
+  "history_count": 205,
   "retention_days": 30,
   "items": [
     {
@@ -77,6 +77,78 @@
       ]
     },
     {
+      "title": "Markdown Content:",
+      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+      "summary": "Markdown Content:...",
+      "date": "2026-08-01",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "DIY一个暗物质探测器？用一个简单的射电望远镜能发现这个宇宙谜团吗？",
+      "link": "https://www.jiqizhixin.com/search/articles/DIY一个暗物质探测器？用一个",
+      "summary": "DIY一个暗物质探测器？用一个简单的射电望远镜能发现这个宇宙谜团吗？...",
+      "date": "2026-08-01",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "每人最多20篇？ICLR新规遭DeepMind研究者「反讽」请愿",
+      "link": "https://www.jiqizhixin.com/search/articles/每人最多20篇？ICLR新规遭",
+      "summary": "每人最多20篇？ICLR新规遭DeepMind研究者「反讽」请愿...",
+      "date": "2026-08-01",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "生成模型也能端到端训练了？核心竟是一个for循环",
+      "link": "https://www.jiqizhixin.com/search/articles/生成模型也能端到端训练了？核心",
+      "summary": "生成模型也能端到端训练了？核心竟是一个for循环...",
+      "date": "2026-08-01",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "刚刚，OpenAI全新模型Astra曝光！",
+      "link": "https://www.jiqizhixin.com/search/articles/刚刚，OpenAI全新模型As",
+      "summary": "刚刚，OpenAI全新模型Astra曝光！...",
+      "date": "2026-08-01",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "一台Mac也能跑Kimi K3！128GB内存硬塞1.6TB权重",
+      "link": "https://www.jiqizhixin.com/search/articles/一台Mac也能跑Kimi K3",
+      "summary": "一台Mac也能跑Kimi K3！128GB内存硬塞1.6TB权重...",
+      "date": "2026-08-01",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
       "title": "李飞飞老师的World Labs，补了块关键拼图",
       "link": "https://www.qbitai.com/?s=李飞飞老师的Worl",
       "summary": "李飞飞老师的World Labs，补了块关键拼图...",
@@ -128,18 +200,6 @@
       "title": "MiniMax H3来了！花式「华强买瓜」不用愁 ，1秒仅需5毛钱",
       "link": "https://www.jiqizhixin.com/search/articles/MiniMax H3来了！花式",
       "summary": "MiniMax H3来了！花式「华强买瓜」不用愁 ，1秒仅需5毛钱...",
-      "date": "2026-07-31",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Markdown Content:",
-      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-      "summary": "Markdown Content:...",
       "date": "2026-07-31",
       "source": "机器之心",
       "type": "industry",
@@ -2338,66 +2398,6 @@
       "summary": "AI 硬件的终局不是比拼参数，而是比拼背后有没有一个真正的企业级 AI 协作平台...",
       "date": "2026-07-06",
       "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Claude工程师终于交出Fable 5焚诀！教你打破和模型之间的信息差",
-      "link": "https://www.jiqizhixin.com/search/articles/Claude工程师终于交出Fa",
-      "summary": "Claude工程师终于交出Fable 5焚诀！教你打破和模型之间的信息差...",
-      "date": "2026-07-05",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "告别「碎片化」记忆：中科院开源轻量级内存原生Agent记忆系统Mandol",
-      "link": "https://www.jiqizhixin.com/search/articles/告别「碎片化」记忆：中科院开源",
-      "summary": "告别「碎片化」记忆：中科院开源轻量级内存原生Agent记忆系统Mandol...",
-      "date": "2026-07-05",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "清华特奖获得者顾煜贤，加入DeepSeek",
-      "link": "https://www.jiqizhixin.com/search/articles/清华特奖获得者顾煜贤，加入De",
-      "summary": "清华特奖获得者顾煜贤，加入DeepSeek...",
-      "date": "2026-07-05",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Codex、ChatGPT为何合体？Codex未来何去何从？OpenAI核心leader回应一切",
-      "link": "https://www.jiqizhixin.com/search/articles/Codex、ChatGPT为何",
-      "summary": "Codex、ChatGPT为何合体？Codex未来何去何从？OpenAI核心leader回应一切...",
-      "date": "2026-07-05",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "ACL 2026｜块越大，推理越差？扩散语言模型的新难题被T*破解了",
-      "link": "https://www.jiqizhixin.com/search/articles/ACL 2026｜块越大，推理",
-      "summary": "ACL 2026｜块越大，推理越差？扩散语言模型的新难题被T*破解了...",
-      "date": "2026-07-05",
-      "source": "机器之心",
       "type": "industry",
       "tags": [
         "AI",
