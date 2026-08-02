@@ -1,9 +1,21 @@
 {
   "last_updated": "2026-08-02",
   "count": 200,
-  "history_count": 205,
+  "history_count": 200,
   "retention_days": 30,
   "items": [
+    {
+      "title": "*   [Latest](http://techcrunch.com/latest/)",
+      "link": "https://techcrunch.com/category/artificial-intelligence/",
+      "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
+      "date": "2026-08-02",
+      "source": "TechCrunch",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "Artificial Intelligence"
+      ]
+    },
     {
       "title": "开源项目GitHub狂揽8000+Star",
       "link": "https://www.qbitai.com/?s=开源项目GitHub",
@@ -62,18 +74,6 @@
       "tags": [
         "AI",
         "人工智能"
-      ]
-    },
-    {
-      "title": "Published Time: Thu, 08 May 2025 23:15:48 GMT",
-      "link": "https://techcrunch.com/category/artificial-intelligence/",
-      "summary": "Published Time: Thu, 08 May 2025 23:15:48 GMT...",
-      "date": "2026-08-02",
-      "source": "TechCrunch",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "Artificial Intelligence"
       ]
     },
     {
