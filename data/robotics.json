@@ -3,6 +3,18 @@
   "count": 200,
   "items": [
     {
+      "title": "[具 身 智 能 挤满「修路人」，机器人还没普及，12270家服务商先打起来了",
+      "summary": "[具 身 智 能 挤满「修路人」，机器人还没普及，12270家服务商先打起来了",
+      "url": "http://36kr.com/p/3923585549031297",
+      "date": "2026-08-03",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
       "title": "[凯联资本出席36氪WAVES 2026大会：穿透 具 身 智 能 泡沫，探寻机器人商业化落地之锚",
       "summary": "[凯联资本出席36氪WAVES 2026大会：穿透 具 身 智 能 泡沫，探寻机器人商业化落地之锚",
       "url": "http://36kr.com/p/3917775654590345",
@@ -2997,22 +3009,6 @@
       "type": "paper",
       "arxiv_id": "2606.29259v1",
       "authors": "Jiawei Xia, Yixiao Feng et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "MoPe: Motion Permanence for Robust Monocular Gaussian Mapping in Dynamic Environments",
-      "summary": "Robust robot autonomy depends on scene representations that remain stable enough to support localization, navigation, and downstream decision making in dynamic environments. Monocular Gaussian Splatting SLAM provides high-fidelity mapping, but curren...",
-      "url": "https://arxiv.org/abs/2606.29237v1",
-      "date": "2026-06-28",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.29237v1",
-      "authors": "Qixin Xiao",
       "tags": [
         "机器人学习",
         "研究论文",

@@ -1,7 +1,7 @@
 {
   "last_updated": "2026-08-03",
-  "count": 200,
-  "history_count": 201,
+  "count": 199,
+  "history_count": 199,
   "retention_days": 30,
   "items": [
     {
@@ -65,9 +65,9 @@
       ]
     },
     {
-      "title": "Published Time: Thu, 08 May 2025 23:15:48 GMT",
+      "title": "upstream connect error or disconnect/reset before headers. reset reason: connection termination",
       "link": "https://techcrunch.com/category/artificial-intelligence/",
-      "summary": "Published Time: Thu, 08 May 2025 23:15:48 GMT...",
+      "summary": "upstream connect error or disconnect/reset before headers. reset reason: connect...",
       "date": "2026-08-03",
       "source": "TechCrunch",
       "type": "industry",
@@ -658,18 +658,6 @@
       "summary": "Codex、Claude Code等AI应用可直接发布到灵光！灵光APP上线“一键部署”功能...",
       "date": "2026-07-27",
       "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "upstream connect error or disconnect/reset before headers. reset reason: connection termination",
-      "link": "https://www.qbitai.com/?s=upstream c",
-      "summary": "upstream connect error or disconnect/reset before headers. reset reason: connect...",
-      "date": "2026-07-27",
-      "source": "量子位",
       "type": "industry",
       "tags": [
         "AI",
