@@ -28,6 +28,86 @@
       ]
     },
     {
+      "title": "Diagnosing Compositional Generalization in Sequential Robot Tasks",
+      "summary": "Sequential robot manipulation requires policies to execute novel combinations of familiar instruction components. However, collecting demonstrations for all possible instruction tuples is combinatorially expensive, while sparsely covered datasets oft...",
+      "url": "https://arxiv.org/abs/2607.29687v1",
+      "date": "2026-07-31",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2607.29687v1",
+      "authors": "Yixiao Wang, Cheng-En Wu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Bootstrapping Self-Supervised Learning of Binary Classification Using Error Bounds: A Case Study on a Robotic Insertion Task",
+      "summary": "Flexible manufacturing requires rapid deployment of solutions and minimal setup time to remain competitive. An essential attribute is the ability to control error levels, as failures can range from minor performance degradation to severe equipment da...",
+      "url": "https://arxiv.org/abs/2607.29640v1",
+      "date": "2026-07-31",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2607.29640v1",
+      "authors": "Zebin Duan, Norbert Krüger et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Balancing of Humanoid with Object Mass: Trade-off Analyses and Lifting Control",
+      "summary": "The demand for humanoid loco-manipulation tasks with an object has recently increased, and most existing control approaches for stability in such tasks rely on heuristics or machine-learning techniques. This study rigorously analyzes and exploits the...",
+      "url": "https://arxiv.org/abs/2607.29625v1",
+      "date": "2026-07-31",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2607.29625v1",
+      "authors": "Hyunjong Song, William Z. Peng et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "RayViT: Ray-Conditioned Visual Representations for Viewpoint-Robust Imitation Learning",
+      "summary": "Visual imitation learning enables robots to acquire visuomotor skills directly from images, yet RGB observations lack explicit geometric cues, making learned policies brittle to camera perturbations. To address this, we propose \\textbf{Ray-conditione...",
+      "url": "https://arxiv.org/abs/2607.29622v1",
+      "date": "2026-07-31",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2607.29622v1",
+      "authors": "Qian Wang, Longrui Chen et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "WCM: A World Critic Model for Vision-Language-Action Reinforcement Learning",
+      "summary": "Reinforcement learning (RL) post-training of Vision-Language-Action (VLA) models has shown strong promise for robotic manipulation. Among RL methods, critic-based approaches rely on a value estimator that predominantly operates on single-frame observ...",
+      "url": "https://arxiv.org/abs/2607.29613v1",
+      "date": "2026-07-31",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2607.29613v1",
+      "authors": "Senyu Fei, Xiaopeng Yu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
       "title": "“可信赖”可能是具身最后的分水岭。",
       "summary": "“可信赖”可能是具身最后的分水岭。",
       "url": "http://36kr.com/p/3919211242575497",
@@ -62,6 +142,32 @@
       "type": "news",
       "tags": [
         "机器人"
+      ]
+    },
+    {
+      "title": "砍掉低毛率业务，押注具身智能。",
+      "summary": "砍掉低毛率业务，押注具身智能。",
+      "url": "http://36kr.com/p/3918034895957637",
+      "date": "2026-07-30",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "工业具身智能产业发展及落地路径分析",
+      "summary": "工业具身智能产业发展及落地路径分析",
+      "url": "http://36kr.com/p/3917382643330691",
+      "date": "2026-07-30",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
       ]
     },
     {
@@ -142,32 +248,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "砍掉低毛率业务，押注具身智能。",
-      "summary": "砍掉低毛率业务，押注具身智能。",
-      "url": "http://36kr.com/p/3918034895957637",
-      "date": "2026-07-30",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "工业具身智能产业发展及落地路径分析",
-      "summary": "工业具身智能产业发展及落地路径分析",
-      "url": "http://36kr.com/p/3917382643330691",
-      "date": "2026-07-30",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
       ]
     },
     {
@@ -2933,86 +3013,6 @@
       "type": "paper",
       "arxiv_id": "2606.29237v1",
       "authors": "Qixin Xiao",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "CORE Planner: Contextual-memory Oriented Reinforcement-learning in Unknown Environments for Robot Navigation",
-      "summary": "Autonomous navigation in unknown environments requires a robot to efficiently reach a predefined goal while exploring without prior maps. Although progress has been made in this area, most existing works still rely on traditional planning methods wit...",
-      "url": "https://arxiv.org/abs/2606.29222v1",
-      "date": "2026-06-28",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.29222v1",
-      "authors": "Jintao Kong, Zhihao Zhang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "AnyBody: Free-Form Whole-Body Humanoid Control from Arbitrary Keypoint Guidance",
-      "summary": "We present AnyBody, a unified whole-body humanoid controller driven by an arbitrary subset of body keypoints chosen at deploy time. Prior physics-based trackers either rely on expensive full-body motion capture and error-prone trajectory retargeting,...",
-      "url": "https://arxiv.org/abs/2606.29209v1",
-      "date": "2026-06-28",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.29209v1",
-      "authors": "Shuning Li, Sikai Li et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "DexCompose: Reusing Dexterous Policies for Multi-Task Manipulation with a Single Hand",
-      "summary": "Dexterous manipulation policies can solve individual skills, but composing them to perform multiple tasks with a single hand remains challenging. Adding a new task on top of an existing manipulation skill often imposes conflicting demands on overlapp...",
-      "url": "https://arxiv.org/abs/2606.28323v1",
-      "date": "2026-06-26",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.28323v1",
-      "authors": "Dihong Huang, Zhenyu Wei et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "WARP-RM: A Warp-Augmented Relative Progress Reward Model for Data Curation",
-      "summary": "Scaling imitation learning requires large datasets, yet human teleoperation inevitably produces mixed-quality demonstrations containing hesitations and recoveries. Prior frame-level progress reward models supervise on absolute temporal progress proxi...",
-      "url": "https://arxiv.org/abs/2606.28320v1",
-      "date": "2026-06-26",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.28320v1",
-      "authors": "Justin Yu, Andrew Goldberg et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "CacheMPC: Certified Cached Model Predictive Control for Quadruped Locomotion",
-      "summary": "Model Predictive Control (MPC) is the standard predictive layer in hierarchical quadruped controllers, but the per-cycle QP solve limits the update rate achievable on embedded processors. Because legged gaits revisit a bounded region of state space, ...",
-      "url": "https://arxiv.org/abs/2606.28300v1",
-      "date": "2026-06-26",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.28300v1",
-      "authors": "Nimesh Khandelwal, Mehul Anand et al.",
       "tags": [
         "机器人学习",
         "研究论文",

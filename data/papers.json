@@ -1,88 +1,82 @@
 {
   "last_updated": "2026-08-03",
-  "count": 7,
+  "count": 10,
   "items": [
     {
-      "title": "Learning to Trace Seiberg Dualities",
-      "authors": "Jonathan J. Heckman, Shani Meynet, Alessandro Mininno et al.",
-      "abstract": "Dualities play an important role in establishing both microscopic and emergent phenomena in a wide range of physical systems. In practice, though, it can often be computationally challenging to establish when two systems are dual, even when all of the \"rules of the game\" are well-known. Said differe...",
+      "title": "ExtractBench: A Benchmark for Schema-Guided Enterprise Document Extraction",
+      "authors": "Boyang Zhang, Adrian Lyjak, Eli Stewart et al.",
+      "abstract": "Enterprise workflows increasingly rely on agents for \\emph{schema-guided extraction}: given a document and a user-defined schema, the agent faithfully follows the schema to produce the correct output with source evidence as grounding metadata. We present ExtractBench, a benchmark for schema-guided e...",
       "venue": "arXiv",
-      "date": "2026-07-30",
-      "arxiv_id": "2607.28628v1",
-      "url": "https://arxiv.org/abs/2607.28628v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.28628v1.pdf",
+      "date": "2026-07-31",
+      "arxiv_id": "2607.29677v1",
+      "url": "https://arxiv.org/abs/2607.29677v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.29677v1.pdf",
       "categories": [
-        "hep-th",
-        "cs.AI",
-        "cs.LG"
+        "cs.AI"
       ],
-      "type": "ml",
+      "type": "benchmark",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "ReToken: One Token to Improve Vision-Language Models for Visual Retrieval",
-      "authors": "Yao Xiao, Reuben Tan, Zhen Zhu et al.",
-      "abstract": "Long visual context poses a challenge for vision-language models: performance degrades as the number of distractors grows, and processing all tokens at once is computationally infeasible under GPU memory constraints. We present ReToken, a single learnable embedding trained as an explicit retrieval t...",
+      "title": "Development of FDD-ON: an Ontology for VAV HVAC System Fault Detection and Diagnostics",
+      "authors": "Yimin Chen, Brian Fricke, Bo Shen et al.",
+      "abstract": "Fault detection and diagnosis (FDD) technology is essential for improving HVAC system reliability, energy efficiency, and maintenance effectiveness. However, effective deployment of FDD solutions in buildings requires structured domain knowledge that can bridge heterogeneous data sources, diverse eq...",
       "venue": "arXiv",
-      "date": "2026-07-30",
-      "arxiv_id": "2607.28627v1",
-      "url": "https://arxiv.org/abs/2607.28627v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.28627v1.pdf",
+      "date": "2026-07-31",
+      "arxiv_id": "2607.29657v1",
+      "url": "https://arxiv.org/abs/2607.29657v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.29657v1.pdf",
       "categories": [
-        "cs.CV",
-        "cs.AI",
-        "cs.LG"
+        "cs.AI"
       ],
-      "type": "nlp",
+      "type": "ai",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "AskChem: Claim-Centered Infrastructure for Chemistry Literature Synthesis",
-      "authors": "Bing Yan, Gregory Wolfe, Stefano Martiniani et al.",
-      "abstract": "Chemistry literature synthesis often requires assembling specific findings scattered across many publications, yet existing literature-search systems primarily return ranked document lists. As a result, scientists and AI agents need to locate relevant information, verify their provenance, and assemb...",
+      "title": "TokTier: Exact Stateful Tokenization for Agentic LLM Serving",
+      "authors": "Zhenyu Zhang, Zhichao Cao",
+      "abstract": "LLM serving systems cache prompt KV state, yet most front ends still re-tokenize the full request text on every call. The cost lands on coding agents, which resubmit a long transcript after each small tool result, and reuse is hard because even a short append can change token boundaries near the end...",
       "venue": "arXiv",
-      "date": "2026-07-30",
-      "arxiv_id": "2607.28618v1",
-      "url": "https://arxiv.org/abs/2607.28618v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.28618v1.pdf",
+      "date": "2026-07-31",
+      "arxiv_id": "2607.29678v1",
+      "url": "https://arxiv.org/abs/2607.29678v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.29678v1.pdf",
       "categories": [
         "cs.CL",
-        "cs.AI",
-        "cs.IR"
+        "cs.DC",
+        "cs.PF"
       ],
       "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "AISPA: User-Centric System Prompt Auditing for Large Language Model Applications",
-      "authors": "Xiangning Lin, Shenzhe Zhu, Shu Yang et al.",
-      "abstract": "System prompts are instructions configured by developers to govern the behaviors of foundation models in AI applications. They are used throughout commercial AI products, but are rarely disclosed to the public or regulators, creating a serious trust and accountability gap in the wide deployment of A...",
+      "title": "Evolving language compositionality in a frequency-structured meaning space",
+      "authors": "Fabio De Ponte, Eloise Gaines-White, Conor Houghton et al.",
+      "abstract": "The iterated learning model was introduced to investigate language evolution: the way in which the characteristic properties of human languages have been shaped, at least partly, by repeated transmission from one language user to another. The key finding is that language compositionality can arise s...",
       "venue": "arXiv",
-      "date": "2026-07-30",
-      "arxiv_id": "2607.28617v1",
-      "url": "https://arxiv.org/abs/2607.28617v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.28617v1.pdf",
+      "date": "2026-07-31",
+      "arxiv_id": "2607.29642v1",
+      "url": "https://arxiv.org/abs/2607.29642v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.29642v1.pdf",
       "categories": [
-        "cs.AI",
-        "cs.CL",
-        "cs.CY"
+        "cs.CL"
       ],
       "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "ACE-Data-0: Human-Centric Ambient Capture as Embodied Data Engine",
-      "authors": "Yukang Cao, Haozhe Xie, Beichen Wen et al.",
-      "abstract": "Embodied intelligence faces a fundamental data bottleneck. Models must capture how first-person perception, whole-body motion, dexterous manipulation, object state, sound, and touch evolve together as humans pursue goals over time. Existing datasets fragment this experience across viewpoints, modali...",
+      "title": "Toward Robust and 3D-Aware RGB-NIR Imaging in the Dark",
+      "authors": "Muyao Niu, Mingze Ma, Yifan Zhan et al.",
+      "abstract": "Robust low-light imaging remains challenging for the community. Recent studies have explored fusing Near-Infrared (NIR) with noisy RGB to achieve improved enhancement, yet most methods depend on carefully curated training data pairs, with limited robustness under different scenarios. This paper offe...",
       "venue": "arXiv",
-      "date": "2026-07-30",
-      "arxiv_id": "2607.28625v1",
-      "url": "https://arxiv.org/abs/2607.28625v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.28625v1.pdf",
+      "date": "2026-07-31",
+      "arxiv_id": "2607.29684v1",
+      "url": "https://arxiv.org/abs/2607.29684v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.29684v1.pdf",
       "categories": [
         "cs.CV"
       ],
@@ -91,35 +85,85 @@
       "source": "arXiv"
     },
     {
-      "title": "PAC-MAN: Perception-Aware CBF-RL for Whole-Body Safety in Humanoid Dodgeball",
-      "authors": "Lizhi Yang, Junheng Li, Aaron D. Ames",
-      "abstract": "We present PAC-MAN, a perception-aware CBF-RL framework that couples control-barrier safety with deployment-realistic onboard sensing for whole-body humanoid dodgeball. The deployed policy sees the ball only as segmentation-masked depth from a head-mounted camera, while training-time CBF guidance re...",
+      "title": "Scaling Properties of Text Conditioning in Visual Generation",
+      "authors": "Zilong Chen, Chaorui Deng, Kunchang Li et al.",
+      "abstract": "We study empirical scaling properties for text conditioning in visual generation. Such properties have rarely been measured because diffusion loss does not scale with the number of tokens in natural-language prompts. Surprisingly, we find that the converged diffusion loss scales with the amount of s...",
       "venue": "arXiv",
-      "date": "2026-07-30",
-      "arxiv_id": "2607.28623v1",
-      "url": "https://arxiv.org/abs/2607.28623v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.28623v1.pdf",
+      "date": "2026-07-31",
+      "arxiv_id": "2607.29679v1",
+      "url": "https://arxiv.org/abs/2607.29679v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.29679v1.pdf",
       "categories": [
-        "cs.RO",
-        "cs.AI"
+        "cs.CV"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Differentially Private Nonparametric Modal Learning with Applications to Regression and Clustering",
+      "authors": "Arkajyoti Bhattacharjee, Arnab Auddy",
+      "abstract": "Density modes provide a localized and interpretable summary of multimodal distributions, but their estimation under rigorous differential privacy constraints remains largely unexplored. We study differentially private recovery of density modes for multivariate distributions under local smoothness, c...",
+      "venue": "arXiv",
+      "date": "2026-07-31",
+      "arxiv_id": "2607.29675v1",
+      "url": "https://arxiv.org/abs/2607.29675v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.29675v1.pdf",
+      "categories": [
+        "math.ST",
+        "cs.LG",
+        "stat.ME"
+      ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Sign compression for Muon: SignMuon, MuonSign, and the Limits of Error Feedback",
+      "authors": "Maria Smirnova, Alexey Kravatskiy",
+      "abstract": "SignMuon compresses the Muon update to one bit per parameter by taking its elementwise sign, providing the most direct way to run a matrix-aware optimizer under an extremely low communication budget. It outperforms SignSGD in practice, yet it can ascend even on a linear function. Signing the gradien...",
+      "venue": "arXiv",
+      "date": "2026-07-31",
+      "arxiv_id": "2607.29674v1",
+      "url": "https://arxiv.org/abs/2607.29674v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.29674v1.pdf",
+      "categories": [
+        "math.OC",
+        "cs.LG"
+      ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Diagnosing Compositional Generalization in Sequential Robot Tasks",
+      "authors": "Yixiao Wang, Cheng-En Wu, Lingfeng Sun et al.",
+      "abstract": "Sequential robot manipulation requires policies to execute novel combinations of familiar instruction components. However, collecting demonstrations for all possible instruction tuples is combinatorially expensive, while sparsely covered datasets often fail under out-of-distribution recombination. T...",
+      "venue": "arXiv",
+      "date": "2026-07-31",
+      "arxiv_id": "2607.29687v1",
+      "url": "https://arxiv.org/abs/2607.29687v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.29687v1.pdf",
+      "categories": [
+        "cs.RO"
       ],
       "type": "ai",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "FA-RDP: A Frequency-Adaptive Reactive Diffusion Policy for Contact-Rich Manipulation",
-      "authors": "Lifeng Zhuo, Wendi Chen, Han Xue et al.",
-      "abstract": "In contact-rich manipulation, action multimodality and reactivity dominate different stages of a single episode. Before contact, multiple trajectories might be equally valid, making it important to preserve diverse action modes. After contact, geometric constraints and force limits narrow the soluti...",
+      "title": "Bootstrapping Self-Supervised Learning of Binary Classification Using Error Bounds: A Case Study on a Robotic Insertion Task",
+      "authors": "Zebin Duan, Norbert Krüger, Juan Heredia et al.",
+      "abstract": "Flexible manufacturing requires rapid deployment of solutions and minimal setup time to remain competitive. An essential attribute is the ability to control error levels, as failures can range from minor performance degradation to severe equipment damage. However, conventional deployment often invol...",
       "venue": "arXiv",
-      "date": "2026-07-30",
-      "arxiv_id": "2607.28596v1",
-      "url": "https://arxiv.org/abs/2607.28596v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.28596v1.pdf",
+      "date": "2026-07-31",
+      "arxiv_id": "2607.29640v1",
+      "url": "https://arxiv.org/abs/2607.29640v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.29640v1.pdf",
       "categories": [
         "cs.RO"
       ],
-      "type": "ai",
+      "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     }
