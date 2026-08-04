@@ -1,9 +1,21 @@
 {
   "last_updated": "2026-08-04",
   "count": 200,
-  "history_count": 200,
+  "history_count": 202,
   "retention_days": 30,
   "items": [
+    {
+      "title": "8月，中国科技产业智库甲子光年将在北京举办“激流——2026甲子引力X科技产业投资大会”，共同探讨中国科技投资的新变化与新答案。",
+      "link": "https://www.qbitai.com/?s=8月，中国科技产业智",
+      "summary": "8月，中国科技产业智库甲子光年将在北京举办“激流——2026甲子引力X科技产业投资大会”，共同探讨中国科技投资的新变化与新答案。...",
+      "date": "2026-08-04",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
     {
       "title": "电工短缺已经成为我们在美国扩建数据中心的头号障碍",
       "link": "https://www.qbitai.com/?s=电工短缺已经成为我们",
@@ -53,18 +65,6 @@
       ]
     },
     {
-      "title": "阿里巴巴旗下“千问办公”（QwenWork）开启公测，个人和企业用户均可体验。用户可在“千问办公”体验阿里最新旗舰模型Qwen3.8。",
-      "link": "https://www.qbitai.com/?s=阿里巴巴旗下“千问办",
-      "summary": "阿里巴巴旗下“千问办公”（QwenWork）开启公测，个人和企业用户均可体验。用户可在“千问办公”体验阿里最新旗舰模型Qwen3.8。...",
-      "date": "2026-08-04",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
       "title": "Published Time: Thu, 08 May 2025 23:15:48 GMT",
       "link": "https://techcrunch.com/category/artificial-intelligence/",
       "summary": "Published Time: Thu, 08 May 2025 23:15:48 GMT...",
@@ -77,11 +77,11 @@
       ]
     },
     {
-      "title": "Markdown Content:",
-      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-      "summary": "Markdown Content:...",
-      "date": "2026-08-03",
-      "source": "机器之心",
+      "title": "阿里巴巴旗下“千问办公”（QwenWork）开启公测，个人和企业用户均可体验。用户可在“千问办公”体验阿里最新旗舰模型Qwen3.8。",
+      "link": "https://www.qbitai.com/?s=阿里巴巴旗下“千问办",
+      "summary": "阿里巴巴旗下“千问办公”（QwenWork）开启公测，个人和企业用户均可体验。用户可在“千问办公”体验阿里最新旗舰模型Qwen3.8。...",
+      "date": "2026-08-04",
+      "source": "量子位",
       "type": "industry",
       "tags": [
         "AI",
@@ -140,6 +140,30 @@
       "title": "两个小时，10美元，Karpathy做了一个《指环王》3D游戏",
       "link": "https://www.jiqizhixin.com/search/articles/两个小时，10美元，Karpa",
       "summary": "两个小时，10美元，Karpathy做了一个《指环王》3D游戏...",
+      "date": "2026-08-03",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "机器人是具身大模型的「用户」：超维动力如何打通从人类经验到机器人行动？",
+      "link": "https://www.jiqizhixin.com/search/articles/机器人是具身大模型的「用户」：",
+      "summary": "机器人是具身大模型的「用户」：超维动力如何打通从人类经验到机器人行动？...",
+      "date": "2026-08-03",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "Markdown Content:",
+      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+      "summary": "Markdown Content:...",
       "date": "2026-08-03",
       "source": "机器之心",
       "type": "industry",
@@ -2374,30 +2398,6 @@
       "summary": "当AI开始重写自己：EverMind的自进化智能体框架Raven，正在定义数字生命的下一个形态...",
       "date": "2026-07-08",
       "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "DeepSeek被曝自研AI推理芯片",
-      "link": "https://www.jiqizhixin.com/search/articles/DeepSeek被曝自研AI推",
-      "summary": "DeepSeek被曝自研AI推理芯片...",
-      "date": "2026-07-08",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "大模型越来越强，为什么企业没有跟着变强",
-      "link": "https://www.qbitai.com/?s=大模型越来越强，为什",
-      "summary": "大模型越来越强，为什么企业没有跟着变强...",
-      "date": "2026-07-08",
-      "source": "量子位",
       "type": "industry",
       "tags": [
         "AI",
