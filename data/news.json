@@ -1,9 +1,21 @@
 {
   "last_updated": "2026-08-04",
   "count": 200,
-  "history_count": 204,
+  "history_count": 201,
   "retention_days": 30,
   "items": [
+    {
+      "title": "北京大学&元空AI Agent联合实验室",
+      "link": "https://www.qbitai.com/?s=北京大学&元空AI ",
+      "summary": "北京大学&元空AI Agent联合实验室...",
+      "date": "2026-08-04",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
     {
       "title": "第二天，就有一篇人类论文回应：AI提出的反例不成立",
       "link": "https://www.qbitai.com/?s=第二天，就有一篇人类",
@@ -53,6 +65,18 @@
       ]
     },
     {
+      "title": "*   [Latest](http://techcrunch.com/latest/)",
+      "link": "https://techcrunch.com/category/artificial-intelligence/",
+      "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
+      "date": "2026-08-04",
+      "source": "TechCrunch",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "Artificial Intelligence"
+      ]
+    },
+    {
       "title": "8月，中国科技产业智库甲子光年将在北京举办“激流——2026甲子引力X科技产业投资大会”，共同探讨中国科技投资的新变化与新答案。",
       "link": "https://www.qbitai.com/?s=8月，中国科技产业智",
       "summary": "8月，中国科技产业智库甲子光年将在北京举办“激流——2026甲子引力X科技产业投资大会”，共同探讨中国科技投资的新变化与新答案。...",
@@ -62,18 +86,6 @@
       "tags": [
         "AI",
         "人工智能"
-      ]
-    },
-    {
-      "title": "Published Time: Thu, 08 May 2025 23:15:48 GMT",
-      "link": "https://techcrunch.com/category/artificial-intelligence/",
-      "summary": "Published Time: Thu, 08 May 2025 23:15:48 GMT...",
-      "date": "2026-08-04",
-      "source": "TechCrunch",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "Artificial Intelligence"
       ]
     },
     {
@@ -2384,18 +2396,6 @@
       "title": "最适合机器人的视频基座模型，被中国团队开源了",
       "link": "https://www.jiqizhixin.com/search/articles/最适合机器人的视频基座模型，被",
       "summary": "最适合机器人的视频基座模型，被中国团队开源了...",
-      "date": "2026-07-09",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "你的自教师模型还在用参考解吗？马普所联合清华大学推出d-OPSD，第一个针对扩散语言模型的在线自蒸馏学习",
-      "link": "https://www.jiqizhixin.com/search/articles/你的自教师模型还在用参考解吗？",
-      "summary": "你的自教师模型还在用参考解吗？马普所联合清华大学推出d-OPSD，第一个针对扩散语言模型的在线自蒸馏学习...",
       "date": "2026-07-09",
       "source": "机器之心",
       "type": "industry",
