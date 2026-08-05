@@ -1,22 +1,22 @@
 {
-  "last_updated": "2026-08-04",
+  "last_updated": "2026-08-05",
   "count": 54,
   "history_count": 54,
   "retention_count": 200,
   "items": [
     {
-      "title": "3Blue1Brown: 深度学习之神经网络",
-      "speaker": "3Blue1Brown",
-      "description": "用精美动画解释神经网络的工作原理",
-      "duration": "19:15",
-      "views": "3.1M",
+      "title": "Transformer 注意力机制详解",
+      "speaker": "Yannic Kilcher",
+      "description": "深入解析 Transformer 架构的核心机制",
+      "duration": "32:15",
+      "views": "1.2M",
       "platform": "youtube",
-      "video_id": "aircAruvnKk",
-      "url": "https://www.youtube.com/watch?v=aircAruvnKk",
-      "thumbnail": "https://img.youtube.com/vi/aircAruvnKk/mqdefault.jpg",
+      "video_id": "iDulhoQ2pro",
+      "url": "https://www.youtube.com/watch?v=iDulhoQ2pro",
+      "thumbnail": "https://img.youtube.com/vi/iDulhoQ2pro/mqdefault.jpg",
       "type": "lecture",
       "category": "技术讲座",
-      "date": "2026-08-03"
+      "date": "2026-08-04"
     },
     {
       "title": "Diffusion 模型工作原理",
@@ -30,6 +30,34 @@
       "thumbnail": "https://img.youtube.com/vi/fbLgFrlTnGU/mqdefault.jpg",
       "type": "lecture",
       "category": "技术讲座",
+      "date": "2026-08-04"
+    },
+    {
+      "title": "Vision Transformer 详解",
+      "speaker": "Google Research",
+      "description": "将 Transformer 应用于计算机视觉",
+      "duration": "38:00",
+      "views": "567K",
+      "platform": "youtube",
+      "video_id": "pRqsifNGFXw",
+      "url": "https://www.youtube.com/watch?v=pRqsifNGFXw",
+      "thumbnail": "https://img.youtube.com/vi/pRqsifNGFXw/mqdefault.jpg",
+      "type": "lecture",
+      "category": "技术讲座",
+      "date": "2026-08-03"
+    },
+    {
+      "title": "LoRA: 大模型高效微调技术",
+      "speaker": "Edward Hu",
+      "description": "低秩适应技术在 LLM 微调中的应用",
+      "duration": "25:15",
+      "views": "345K",
+      "platform": "youtube",
+      "video_id": "PXc9tFr3Nus",
+      "url": "https://www.youtube.com/watch?v=PXc9tFr3Nus",
+      "thumbnail": "https://img.youtube.com/vi/PXc9tFr3Nus/mqdefault.jpg",
+      "type": "tutorial",
+      "category": "AI教程",
       "date": "2026-08-03"
     },
     {
@@ -47,6 +75,34 @@
       "date": "2026-08-03"
     },
     {
+      "title": "OpenAI GPT-4o 多模态能力解析",
+      "speaker": "OpenAI",
+      "description": "GPT-4o 原生多模态能力的深度解读",
+      "duration": "32:00",
+      "views": "2.1M",
+      "platform": "youtube",
+      "video_id": "M6v8dzV1-7g",
+      "url": "https://www.youtube.com/watch?v=M6v8dzV1-7g",
+      "thumbnail": "https://img.youtube.com/vi/M6v8dzV1-7g/mqdefault.jpg",
+      "type": "lecture",
+      "category": "前沿技术",
+      "date": "2026-08-02"
+    },
+    {
+      "title": "Fast.ai: 程序员深度学习实战",
+      "speaker": "Jeremy Howard",
+      "description": "面向程序员的实用深度学习课程",
+      "duration": "12:30:00",
+      "views": "234K",
+      "platform": "youtube",
+      "video_id": "8mcTqN1D1-g",
+      "url": "https://www.youtube.com/watch?v=8mcTqN1D1-g",
+      "thumbnail": "https://img.youtube.com/vi/8mcTqN1D1-g/mqdefault.jpg",
+      "type": "course",
+      "category": "精品课程",
+      "date": "2026-08-02"
+    },
+    {
       "title": "AI Agent 架构设计模式",
       "speaker": "LangChain",
       "description": "构建自主 AI 代理的最佳实践",
@@ -58,20 +114,6 @@
       "thumbnail": "https://img.youtube.com/vi/mFMBb8Xw6yQ/mqdefault.jpg",
       "type": "tutorial",
       "category": "AI教程",
-      "date": "2026-08-02"
-    },
-    {
-      "title": "Transformer 注意力机制详解",
-      "speaker": "Yannic Kilcher",
-      "description": "深入解析 Transformer 架构的核心机制",
-      "duration": "32:15",
-      "views": "1.2M",
-      "platform": "youtube",
-      "video_id": "iDulhoQ2pro",
-      "url": "https://www.youtube.com/watch?v=iDulhoQ2pro",
-      "thumbnail": "https://img.youtube.com/vi/iDulhoQ2pro/mqdefault.jpg",
-      "type": "lecture",
-      "category": "技术讲座",
       "date": "2026-08-02"
     },
     {
@@ -89,34 +131,6 @@
       "date": "2026-08-02"
     },
     {
-      "title": "LoRA: 大模型高效微调技术",
-      "speaker": "Edward Hu",
-      "description": "低秩适应技术在 LLM 微调中的应用",
-      "duration": "25:15",
-      "views": "345K",
-      "platform": "youtube",
-      "video_id": "PXc9tFr3Nus",
-      "url": "https://www.youtube.com/watch?v=PXc9tFr3Nus",
-      "thumbnail": "https://img.youtube.com/vi/PXc9tFr3Nus/mqdefault.jpg",
-      "type": "tutorial",
-      "category": "AI教程",
-      "date": "2026-08-01"
-    },
-    {
-      "title": "Vision Transformer 详解",
-      "speaker": "Google Research",
-      "description": "将 Transformer 应用于计算机视觉",
-      "duration": "38:00",
-      "views": "567K",
-      "platform": "youtube",
-      "video_id": "pRqsifNGFXw",
-      "url": "https://www.youtube.com/watch?v=pRqsifNGFXw",
-      "thumbnail": "https://img.youtube.com/vi/pRqsifNGFXw/mqdefault.jpg",
-      "type": "lecture",
-      "category": "技术讲座",
-      "date": "2026-08-01"
-    },
-    {
       "title": "Andrej Karpathy: 神经网络入门到精通",
       "speaker": "Andrej Karpathy",
       "description": "前 Tesla AI 总监的经典教程，从零开始构建神经网络",
@@ -129,6 +143,20 @@
       "type": "course",
       "category": "精品课程",
       "featured": true,
+      "date": "2026-08-01"
+    },
+    {
+      "title": "LLaMA 3 开源大模型解读",
+      "speaker": "Yannic Kilcher",
+      "description": "Meta LLaMA 3 架构详解与性能分析",
+      "duration": "45:30",
+      "views": "678K",
+      "platform": "youtube",
+      "video_id": "K5Vxf8rVGWk",
+      "url": "https://www.youtube.com/watch?v=K5Vxf8rVGWk",
+      "thumbnail": "https://img.youtube.com/vi/K5Vxf8rVGWk/mqdefault.jpg",
+      "type": "lecture",
+      "category": "前沿技术",
       "date": "2026-07-31"
     },
     {
@@ -157,20 +185,6 @@
       "thumbnail": "https://img.youtube.com/vi/yMk_XtIEzH8/mqdefault.jpg",
       "type": "tutorial",
       "category": "AI教程",
-      "date": "2026-07-31"
-    },
-    {
-      "title": "Fast.ai: 程序员深度学习实战",
-      "speaker": "Jeremy Howard",
-      "description": "面向程序员的实用深度学习课程",
-      "duration": "12:30:00",
-      "views": "234K",
-      "platform": "youtube",
-      "video_id": "8mcTqN1D1-g",
-      "url": "https://www.youtube.com/watch?v=8mcTqN1D1-g",
-      "thumbnail": "https://img.youtube.com/vi/8mcTqN1D1-g/mqdefault.jpg",
-      "type": "course",
-      "category": "精品课程",
       "date": "2026-07-30"
     },
     {
@@ -216,20 +230,6 @@
       "date": "2026-07-30"
     },
     {
-      "title": "OpenAI GPT-4o 多模态能力解析",
-      "speaker": "OpenAI",
-      "description": "GPT-4o 原生多模态能力的深度解读",
-      "duration": "32:00",
-      "views": "2.1M",
-      "platform": "youtube",
-      "video_id": "M6v8dzV1-7g",
-      "url": "https://www.youtube.com/watch?v=M6v8dzV1-7g",
-      "thumbnail": "https://img.youtube.com/vi/M6v8dzV1-7g/mqdefault.jpg",
-      "type": "lecture",
-      "category": "前沿技术",
-      "date": "2026-07-30"
-    },
-    {
       "title": "Tough dexterity tasks with Gemini Robotics 2",
       "speaker": "Google DeepMind",
       "description": "To be genuinely useful in our homes and workplaces, robots need finesse. Gemini Robotics 2 unlocks a new level of physical dexterity across different end effectors, whether a robot is using hands or g",
@@ -244,18 +244,33 @@
       "category": "技术讲座"
     },
     {
-      "title": "LLaMA 3 开源大模型解读",
-      "speaker": "Yannic Kilcher",
-      "description": "Meta LLaMA 3 架构详解与性能分析",
-      "duration": "45:30",
-      "views": "678K",
+      "title": "3Blue1Brown: 深度学习之神经网络",
+      "speaker": "3Blue1Brown",
+      "description": "用精美动画解释神经网络的工作原理",
+      "duration": "19:15",
+      "views": "3.1M",
       "platform": "youtube",
-      "video_id": "K5Vxf8rVGWk",
-      "url": "https://www.youtube.com/watch?v=K5Vxf8rVGWk",
-      "thumbnail": "https://img.youtube.com/vi/K5Vxf8rVGWk/mqdefault.jpg",
+      "video_id": "aircAruvnKk",
+      "url": "https://www.youtube.com/watch?v=aircAruvnKk",
+      "thumbnail": "https://img.youtube.com/vi/aircAruvnKk/mqdefault.jpg",
       "type": "lecture",
-      "category": "前沿技术",
+      "category": "技术讲座",
       "date": "2026-07-29"
+    },
+    {
+      "title": "李宏毅机器学习完整版",
+      "speaker": "李宏毅",
+      "description": "台湾大学教授的机器学习经典课程，深入浅出讲解ML核心概念",
+      "duration": "45:00",
+      "views": "1.8M",
+      "date": "2026-07-29",
+      "platform": "bilibili",
+      "video_id": "BV1JE411g7XF",
+      "url": "https://www.bilibili.com/video/BV1JE411g7XF",
+      "thumbnail": "https://i2.hdslb.com/bfs/archive/2f1c3f236c76ea199e97388cb9a3f8b0d6fbb70c.jpg",
+      "type": "course",
+      "category": "精品课程",
+      "featured": true
     },
     {
       "title": "BERT 模型详解与应用",
@@ -272,21 +287,6 @@
       "date": "2026-07-28"
     },
     {
-      "title": "李宏毅机器学习完整版",
-      "speaker": "李宏毅",
-      "description": "台湾大学教授的机器学习经典课程，深入浅出讲解ML核心概念",
-      "duration": "45:00",
-      "views": "1.8M",
-      "date": "2026-07-28",
-      "platform": "bilibili",
-      "video_id": "BV1JE411g7XF",
-      "url": "https://www.bilibili.com/video/BV1JE411g7XF",
-      "thumbnail": "https://i2.hdslb.com/bfs/archive/2f1c3f236c76ea199e97388cb9a3f8b0d6fbb70c.jpg",
-      "type": "course",
-      "category": "精品课程",
-      "featured": true
-    },
-    {
       "title": "The 64 sugar cubes puzzle",
       "speaker": "3Blue1Brown",
       "description": "See all monthly puzzles: https://momath.org/mindbenders/",
@@ -301,6 +301,21 @@
       "category": "技术讲座"
     },
     {
+      "title": "动手学深度学习 PyTorch版",
+      "speaker": "李沐",
+      "description": "AWS 首席科学家李沐的深度学习实战课程",
+      "duration": "60:00",
+      "views": "2.1M",
+      "date": "2026-07-22",
+      "platform": "bilibili",
+      "video_id": "BV1k64y1Q7wu",
+      "url": "https://www.bilibili.com/video/BV1k64y1Q7wu",
+      "thumbnail": "",
+      "type": "course",
+      "category": "精品课程",
+      "featured": false
+    },
+    {
       "title": "OpenAI hacked HuggingFace",
       "speaker": "sentdex",
       "description": "HuggingFace's writeup of the incident: https://huggingface.co/blog/security-incident-july-2026\n\nOpenAI's writeup of the incident: https://openai.com/index/hugging-face-model-evaluation-security-incide",
@@ -313,21 +328,6 @@
       "thumbnail": "https://img.youtube.com/vi/IY3b4HTxpgU/mqdefault.jpg",
       "type": "lecture",
       "category": "技术讲座"
-    },
-    {
-      "title": "动手学深度学习 PyTorch版",
-      "speaker": "李沐",
-      "description": "AWS 首席科学家李沐的深度学习实战课程",
-      "duration": "60:00",
-      "views": "2.1M",
-      "date": "2026-07-21",
-      "platform": "bilibili",
-      "video_id": "BV1k64y1Q7wu",
-      "url": "https://www.bilibili.com/video/BV1k64y1Q7wu",
-      "thumbnail": "",
-      "type": "course",
-      "category": "精品课程",
-      "featured": false
     },
     {
       "title": "You Can Just Download More Tokens/Sec",

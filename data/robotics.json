@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-04",
+  "last_updated": "2026-08-05",
   "count": 200,
   "items": [
     {
@@ -117,6 +117,32 @@
         "机器人学习",
         "研究论文",
         "arXiv"
+      ]
+    },
+    {
+      "title": "具身智能修路人，先迎来了淘汰赛。",
+      "summary": "具身智能修路人，先迎来了淘汰赛。",
+      "url": "http://36kr.com/p/3923585549031297",
+      "date": "2026-08-03",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "2026具身智能50人夏季峰会在京举办，共探产业发展路径",
+      "summary": "2026具身智能50人夏季峰会在京举办，共探产业发展路径",
+      "url": "http://36kr.com/p/3923587449892229",
+      "date": "2026-08-03",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
       ]
     },
     {
@@ -2977,38 +3003,6 @@
       "type": "paper",
       "arxiv_id": "2606.30575v1",
       "authors": "Louis Petit, Alexis Lussier Desbiens",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Chronos: A Physics-Informed Full-History Framework for Non-Markovian Long-Horizon Manipulation",
-      "summary": "General-purpose robot policies should be modeled as dynamical systems, yet many VLA and generative imitation policies still rely on present observations or short windows. This Markovian shortcut fails in memory-dependent manipulation: identical obser...",
-      "url": "https://arxiv.org/abs/2606.30318v1",
-      "date": "2026-06-29",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.30318v1",
-      "authors": "Yulin Zhou, Yimeng Wang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "CSAR: Containerized System Architecture for Robotics",
-      "summary": "Robotic applications increasingly rely on distributed computational infrastructures that combine embedded devices, edge servers, and cloud resources. This evolution, together with the collaborative nature of robotics projects, has made the developmen...",
-      "url": "https://arxiv.org/abs/2606.30293v1",
-      "date": "2026-06-29",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.30293v1",
-      "authors": "Ambrosio-Cestero, Gregorio et al.",
       "tags": [
         "机器人学习",
         "研究论文",

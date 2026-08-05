@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-04",
-  "last_updated": "2026-08-04",
+  "date": "2026-08-05",
+  "last_updated": "2026-08-05",
   "categories": {
     "ai": {
       "name": "人工智能",
@@ -8,10 +8,10 @@
       "count": 5,
       "items": [
         {
-          "title": "原生统一多模态进阶！SenseNova U1.5-Lite-Preview开源，生成编辑能力再进化",
-          "link": "https://www.jiqizhixin.com/search/articles/原生统一多模态进阶！Sense",
-          "summary": "原生统一多模态进阶！SenseNova U1.5-Lite-Preview开源，生成编辑能力再进化...",
-          "date": "2026-08-03",
+          "title": "Markdown Content:",
+          "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+          "summary": "Markdown Content:...",
+          "date": "2026-08-04",
           "source": "机器之心",
           "type": "industry",
           "tags": [
@@ -20,10 +20,10 @@
           ]
         },
         {
-          "title": "OpenAI新模型让数学家集体破防？一场关于数学未来的精神危机",
-          "link": "https://www.jiqizhixin.com/search/articles/OpenAI新模型让数学家集体",
-          "summary": "OpenAI新模型让数学家集体破防？一场关于数学未来的精神危机...",
-          "date": "2026-08-03",
+          "title": "Anthropic CEO担心：招来的人只认钱不在乎使命，百万年薪的反噬？",
+          "link": "https://www.jiqizhixin.com/search/articles/Anthropic CEO担心",
+          "summary": "Anthropic CEO担心：招来的人只认钱不在乎使命，百万年薪的反噬？...",
+          "date": "2026-08-04",
           "source": "机器之心",
           "type": "industry",
           "tags": [
@@ -32,11 +32,11 @@
           ]
         },
         {
-          "title": "北京大学&元空AI Agent联合实验室",
-          "link": "https://www.qbitai.com/?s=北京大学&元空AI ",
-          "summary": "北京大学&元空AI Agent联合实验室...",
+          "title": "北大等联合发布Data Pyramid：用五层数据金字塔系统回答「机器人应该从什么数据中学习？」",
+          "link": "https://www.jiqizhixin.com/search/articles/北大等联合发布Data Pyr",
+          "summary": "北大等联合发布Data Pyramid：用五层数据金字塔系统回答「机器人应该从什么数据中学习？」...",
           "date": "2026-08-04",
-          "source": "量子位",
+          "source": "机器之心",
           "type": "industry",
           "tags": [
             "AI",
@@ -44,11 +44,11 @@
           ]
         },
         {
-          "title": "第二天，就有一篇人类论文回应：AI提出的反例不成立",
-          "link": "https://www.qbitai.com/?s=第二天，就有一篇人类",
-          "summary": "第二天，就有一篇人类论文回应：AI提出的反例不成立...",
+          "title": "腾讯混元Hy ASR 3.0 preview发布：通用识别、方言覆盖、场景鲁棒性全面提升",
+          "link": "https://www.jiqizhixin.com/search/articles/腾讯混元Hy ASR 3.0 ",
+          "summary": "腾讯混元Hy ASR 3.0 preview发布：通用识别、方言覆盖、场景鲁棒性全面提升...",
           "date": "2026-08-04",
-          "source": "量子位",
+          "source": "机器之心",
           "type": "industry",
           "tags": [
             "AI",
@@ -56,11 +56,11 @@
           ]
         },
         {
-          "title": "Skill和Agent也能被封装调用",
-          "link": "https://www.qbitai.com/?s=Skill和Agen",
-          "summary": "Skill和Agent也能被封装调用...",
+          "title": "KDD 2026｜快手PlatformBid：从单广告主最优到平台全局共赢",
+          "link": "https://www.jiqizhixin.com/search/articles/KDD 2026｜快手Plat",
+          "summary": "KDD 2026｜快手PlatformBid：从单广告主最优到平台全局共赢...",
           "date": "2026-08-04",
-          "source": "量子位",
+          "source": "机器之心",
           "type": "industry",
           "tags": [
             "AI",
