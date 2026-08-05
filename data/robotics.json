@@ -3,6 +3,98 @@
   "count": 200,
   "items": [
     {
+      "title": "[具 身 智 能 挤满「修路人」，机器人还没普及，12270家服务商先打起来了",
+      "summary": "[具 身 智 能 挤满「修路人」，机器人还没普及，12270家服务商先打起来了",
+      "url": "http://36kr.com/p/3923585549031297",
+      "date": "2026-08-05",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
+      "title": "GORDON: Graph-based Object-centric Rewards for Decomposition of Long-Horizon Manipulation",
+      "summary": "Learning long-horizon manipulation skills with reinforcement learning remains challenging due to the complexity of reward design, the limited guidance of sparse rewards, and the high cost of manual subtask annotation. Visual demonstrations can provid...",
+      "url": "https://arxiv.org/abs/2608.03753v1",
+      "date": "2026-08-04",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.03753v1",
+      "authors": "Andrea Protopapa, Davide Buoso et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Track4Action: Distilling World-Centric 3D Tracker into Vision-Language-Action Policies",
+      "summary": "Action labels tell a vision-language-action (VLA) policy which robot commands to imitate, but not how those commands change the 3D world. The aligned demonstration clip contains this missing supervision because its $K$ frame transitions record the ge...",
+      "url": "https://arxiv.org/abs/2608.03727v1",
+      "date": "2026-08-04",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.03727v1",
+      "authors": "Chenyi Wang, Xinkai Wang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "LiLa-WAM: Lightweight Latent Reasoning World-Action Model for Robotic Manipulation",
+      "summary": "World-action modeling has emerged as a promising paradigm for robotic control, as it empowers models to go beyond reacting to observations and anticipate how a scene will evolve. However, existing WAMs often incur substantial computational overhead. ...",
+      "url": "https://arxiv.org/abs/2608.03701v1",
+      "date": "2026-08-04",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.03701v1",
+      "authors": "Fan Yang, Yuting Su et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "PhyAI: Real-Time Physical AI at the Edge, Scalable Rollouts in the Cloud",
+      "summary": "Physical AI policies require inference throughout their lifecycle, including model evaluation, cloud reinforcement learning rollout, edge GPU serving, and onboard deployment. Although these settings share the same checkpoint and action semantics, the...",
+      "url": "https://arxiv.org/abs/2608.03682v1",
+      "date": "2026-08-04",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.03682v1",
+      "authors": "Chenghua Wang, Daliang Xu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Active Stiffness Control of a Supportive Continuum Robot",
+      "summary": "Supportive continuum robots (SCRs) enhance the load-bearing capability of an operative continuum robot by mechanically coupling it with a supportive arm. However, their passive stiffness is determined by the mechanical configuration and cannot be adj...",
+      "url": "https://arxiv.org/abs/2608.03677v1",
+      "date": "2026-08-04",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.03677v1",
+      "authors": "Rana Danesh, Farrokh Janabi-Sharifi et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
       "title": "[工业和信息化部人形机器人与 具 身 智 能 标准化技术委员会2026年度全体会议暨“标准周”活动在浙江绍兴召开",
       "summary": "[工业和信息化部人形机器人与 具 身 智 能 标准化技术委员会2026年度全体会议暨“标准周”活动在浙江绍兴召开",
       "url": "http://36kr.com/p/3913754106516865",
@@ -16,18 +108,6 @@
       ]
     },
     {
-      "title": "[具 身 智 能 挤满「修路人」，机器人还没普及，12270家服务商先打起来了",
-      "summary": "[具 身 智 能 挤满「修路人」，机器人还没普及，12270家服务商先打起来了",
-      "url": "http://36kr.com/p/3923585549031297",
-      "date": "2026-08-04",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
-      ]
-    },
-    {
       "title": "[凯联资本出席36氪WAVES 2026大会：穿透 具 身 智 能 泡沫，探寻机器人商业化落地之锚",
       "summary": "[凯联资本出席36氪WAVES 2026大会：穿透 具 身 智 能 泡沫，探寻机器人商业化落地之锚",
       "url": "http://36kr.com/p/3917775654590345",
@@ -37,6 +117,32 @@
       "type": "news",
       "tags": [
         "机器人"
+      ]
+    },
+    {
+      "title": "具身智能修路人，先迎来了淘汰赛。",
+      "summary": "具身智能修路人，先迎来了淘汰赛。",
+      "url": "http://36kr.com/p/3923585549031297",
+      "date": "2026-08-03",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "2026具身智能50人夏季峰会在京举办，共探产业发展路径",
+      "summary": "2026具身智能50人夏季峰会在京举办，共探产业发展路径",
+      "url": "http://36kr.com/p/3923587449892229",
+      "date": "2026-08-03",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
       ]
     },
     {
@@ -117,32 +223,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "具身智能修路人，先迎来了淘汰赛。",
-      "summary": "具身智能修路人，先迎来了淘汰赛。",
-      "url": "http://36kr.com/p/3923585549031297",
-      "date": "2026-08-03",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "2026具身智能50人夏季峰会在京举办，共探产业发展路径",
-      "summary": "2026具身智能50人夏季峰会在京举办，共探产业发展路径",
-      "url": "http://36kr.com/p/3923587449892229",
-      "date": "2026-08-03",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
       ]
     },
     {
@@ -2927,86 +3007,6 @@
       "type": "news",
       "tags": [
         "机器人"
-      ]
-    },
-    {
-      "title": "VLK: Learning Humanoid Loco-Manipulation from Synthetic Interactions in Reconstructed Scenes",
-      "summary": "Perception-based humanoid loco-manipulation requires connecting egocentric observations and task instructions to whole-body motion. Learning this mapping requires synchronized egocentric images, language commands, and robot-compatible kinematic traje...",
-      "url": "https://arxiv.org/abs/2606.30645v1",
-      "date": "2026-06-29",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.30645v1",
-      "authors": "Yen-Jen Wang, Jiaman Li et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "GROW$^2$: Grounding Which and Where for Robot Tool Use",
-      "summary": "Can the robot use a plate to cut a cake if no knife is available? Tool use greatly expands robot capabilities, but to use tools creatively beyond their intended functions, the robot faces the challenge of $\\textit{open-world affordance grounding}$: s...",
-      "url": "https://arxiv.org/abs/2606.30632v1",
-      "date": "2026-06-29",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.30632v1",
-      "authors": "Yuhong Deng, Yuyao Liu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Sequential Planning via Anchored Robotic Keypoints",
-      "summary": "We present Sequential Planning via Anchored Robotic Keypoints, SPARK, a training-free neurosymbolic manipulation system that reaches 43.7% on six LIBERO-PRO position \\& task cells, more than doubling CaP-Agent0 and Vision-Language-Action (VLA) baseli...",
-      "url": "https://arxiv.org/abs/2606.30613v1",
-      "date": "2026-06-29",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.30613v1",
-      "authors": "Bryce Grant, Aryeh Rothenberg et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Realtime Wind Estimation using Low Cost Quadrotor Uncrewed Aerial Vehicles",
-      "summary": "In environmental monitoring as well as emergency response applications such as wildfires, wind velocity measurement is essential. Quadrotor UAVs have become popular platforms for wind velocity estimation due to their maneuverability, compact size, an...",
-      "url": "https://arxiv.org/abs/2606.30581v1",
-      "date": "2026-06-29",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.30581v1",
-      "authors": "Hiranya Udagedara, Mahdis Bisheban",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "MOAR Planner: Multi-Objective and Adaptive Risk-Aware Path Planning for Infrastructure Inspection with a UAV",
-      "summary": "The problem of autonomous navigation for UAV inspection remains challenging as it requires effectively navigating in close proximity to obstacles, while accounting for dynamic risk factors such as weather conditions, communication reliability, and ba...",
-      "url": "https://arxiv.org/abs/2606.30575v1",
-      "date": "2026-06-29",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.30575v1",
-      "authors": "Louis Petit, Alexis Lussier Desbiens",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
       ]
     }
   ]
