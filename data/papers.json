@@ -3,32 +3,14 @@
   "count": 8,
   "items": [
     {
-      "title": "Computing Actual Causes for Neural Network Predictions under Structured Causal Inputs",
-      "authors": "Jannick Strobel, Muqsit Azeem, Stefan Leue",
-      "abstract": "Explaining the predictions of neural networks is a central challenge in trustworthy AI. Existing explanation methods, such as those based on feature attribution or minimal sufficient sets, typically treat input features as independent, which can yield misleading explanations when inputs exhibit stru...",
+      "title": "TurnSight: Turn-Level Hindsight Self-Distillation for Tool-Integrated Reasoning",
+      "authors": "Changle Qu, Sunhao Dai, Hengyi Cai et al.",
+      "abstract": "Tool-Integrated Reasoning (TIR) enables LLMs to solve complex tasks through iterative tool interactions. However, existing reinforcement learning methods often rely on trajectory-level supervision, limiting fine-grained credit assignment in long-horizon TIR scenarios. On-policy self-distillation off...",
       "venue": "arXiv",
       "date": "2026-08-04",
-      "arxiv_id": "2608.03772v1",
-      "url": "https://arxiv.org/abs/2608.03772v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.03772v1.pdf",
-      "categories": [
-        "cs.AI",
-        "cs.LG",
-        "cs.LO"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "MDLMPE: Distribution Aware Positional Encoding for Masked Diffusion Language Models",
-      "authors": "Tong Ling, Hang Lei, Feng Xiao et al.",
-      "abstract": "Masked diffusion language models (MDLMs) enable parallel generation and bidirectional context modeling, but their positional context differs fundamentally from that of autoregressive (AR) models. Whereas AR decoding exposes a contiguous prefix, MDLM denoising produces dynamic, non-contiguous configu...",
-      "venue": "arXiv",
-      "date": "2026-08-04",
-      "arxiv_id": "2608.03769v1",
-      "url": "https://arxiv.org/abs/2608.03769v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.03769v1.pdf",
+      "arxiv_id": "2608.04007v1",
+      "url": "https://arxiv.org/abs/2608.04007v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.04007v1.pdf",
       "categories": [
         "cs.CL",
         "cs.AI"
@@ -38,16 +20,33 @@
       "source": "arXiv"
     },
     {
-      "title": "Risky Business: Measuring The Faithfulness-Safety Tension",
-      "authors": "Dominik Meier, Luca Joshua Francis, Marco Bernhard Kaiser et al.",
-      "abstract": "Chain-of-Thought (CoT) reasoning offers a promising window into model monitoring. However, monitoring relies on faithfulness, i.e., the model output strictly derives from its reasoning trace. We identify an alignment tension where a model must be faithful enough to be monitored, yet robust enough to...",
+      "title": "Test-Time Scaling in Reasoning LLMs: Inference Regimes, Evaluation, and Reproducibility",
+      "authors": "Mohsen Hariri, Weicong Chen, Nahal Shahini et al.",
+      "abstract": "Large language models can solve substantially harder reasoning problems with more inference-time compute. The term \"test-time scaling,\" however, now covers diverse inference algorithms that extend deliberation along a single trajectory, sample completed candidates and aggregate them through voting o...",
       "venue": "arXiv",
       "date": "2026-08-04",
-      "arxiv_id": "2608.03745v1",
-      "url": "https://arxiv.org/abs/2608.03745v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.03745v1.pdf",
+      "arxiv_id": "2608.04001v1",
+      "url": "https://arxiv.org/abs/2608.04001v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.04001v1.pdf",
       "categories": [
-        "cs.AI",
+        "cs.LG",
+        "cs.AI"
+      ],
+      "type": "benchmark",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "ParVL: Parallel Scaling and Expandable Compute Allocation for Multimodal LLMs",
+      "authors": "Yang Yang, Qinyu Zhao, Mouxiang Chen et al.",
+      "abstract": "Existing scaling strategies for Multimodal Large Language Models (MLLMs) typically expand either model parameters or sequential inference computation, incurring substantial memory or latency overhead. More importantly, most existing methods fail to alter the rigid, fixed computation allocation betwe...",
+      "venue": "arXiv",
+      "date": "2026-08-04",
+      "arxiv_id": "2608.04010v1",
+      "url": "https://arxiv.org/abs/2608.04010v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.04010v1.pdf",
+      "categories": [
+        "cs.CV",
         "cs.CL"
       ],
       "type": "nlp",
@@ -55,14 +54,30 @@
       "source": "arXiv"
     },
     {
-      "title": "TDVR: Joint Text Disambiguation and Viewpoint Reasoning for Zero-Shot 3D Visual Grounding",
-      "authors": "Qingxi Du, Junbo Wang, Yuke Li et al.",
-      "abstract": "Zero-shot 3D visual grounding aims to localize specific objects based on textual descriptions and 3D visual input. However, the effectiveness of existing methods is significantly hindered by the ambiguous query text and deficient viewpoints. To address these issues, we propose TDVR, a training-free ...",
+      "title": "SocietyBench: Forecasting Counterfactual Social-World Evolution",
+      "authors": "Zhenran Wang, Zhonghan Bian, Jinsong Li et al.",
+      "abstract": "Large language models (LLMs), and the agents built on top of them, are now benchmarked heavily on whether they can finish a task -- fix a bug, drive a browser, operate a GUI. A complementary social ability, namely how well a model understands and forecasts the way real social events unfold, has bare...",
       "venue": "arXiv",
       "date": "2026-08-04",
-      "arxiv_id": "2608.03763v1",
-      "url": "https://arxiv.org/abs/2608.03763v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.03763v1.pdf",
+      "arxiv_id": "2608.04009v1",
+      "url": "https://arxiv.org/abs/2608.04009v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.04009v1.pdf",
+      "categories": [
+        "cs.CL"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Perceptual Anchoring: Prototype-Guided Text Calibration for Training-free Open-Vocabulary Semantic Segmentation",
+      "authors": "Wanli Ma, Jiangwen Lu, Qinmu Peng et al.",
+      "abstract": "Training-free open-vocabulary semantic segmentation (OVSS) partitions an image into semantically distinct regions based on arbitrary text descriptions, without learning any additional parameters. However, existing methods typically focus on improving visual representations while treating text embedd...",
+      "venue": "arXiv",
+      "date": "2026-08-04",
+      "arxiv_id": "2608.03991v1",
+      "url": "https://arxiv.org/abs/2608.03991v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.03991v1.pdf",
       "categories": [
         "cs.CV"
       ],
@@ -71,69 +86,51 @@
       "source": "arXiv"
     },
     {
-      "title": "Unsupervised Adversarial Domain Adaptation for Uterine layer Segmentation: From Labeled Cine to Unlabeled Dynamic EPI MRI",
-      "authors": "Smiti Tripathy, Milauni Desai, Jordina Aviles Verdera et al.",
-      "abstract": "Uterine peristalsis is a key physiological phenomenon responsible for various functions across the menstrual cycle, intimately linked to uterine wall microstructure. Alterations in uterine motion and tissue properties are implicated in the etiology of gynecological diseases, yet these processes have...",
+      "title": "Assessment of Conditional Diffusion Model for Synthetic Histopathology Image Generation",
+      "authors": "Seyed Kahaki, Shijie Li, Weijie Chen et al.",
+      "abstract": "Synthetic histopathology image generation has emerged as an approach that may address data scarcity in computational pathology, yet current evaluation methodologies may not fully assess synthetic data quality for medical applications. This work investigates and addresses limitations in existing eval...",
       "venue": "arXiv",
       "date": "2026-08-04",
-      "arxiv_id": "2608.03762v1",
-      "url": "https://arxiv.org/abs/2608.03762v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.03762v1.pdf",
+      "arxiv_id": "2608.03990v1",
+      "url": "https://arxiv.org/abs/2608.03990v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.03990v1.pdf",
       "categories": [
-        "eess.IV",
-        "cs.CV"
+        "cs.LG"
       ],
       "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Can LLMs Test Terminal User Interfaces?",
-      "authors": "Chao Peng, Ruida Hu, Ajitha Rajan et al.",
-      "abstract": "Terminal User Interfaces (TUIs) combine the stateful, screen-oriented behaviour of GUIs with terminal deployment and are now common in developer tools. Yet they lack a dedicated testing methodology. We survey 197 real-world TUI applications: only 12% of test code exercises the interface, and 45% of ...",
+      "title": "Stochastic Multiple Shooting Trajectory Optimization via Sequential Local Policy Evaluation",
+      "authors": "Ashwin Gupta, Joseph Moore",
+      "abstract": "Stochastic single shooting trajectory optimization methods such as Model Predictive Path Integral control (MPPI) have been widely adopted in robotics due to their ability to reason about probabilistic dynamics and provide solutions where model gradients are noisy, costly to evaluate, or unavailable....",
       "venue": "arXiv",
       "date": "2026-08-04",
-      "arxiv_id": "2608.03743v1",
-      "url": "https://arxiv.org/abs/2608.03743v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.03743v1.pdf",
+      "arxiv_id": "2608.03978v1",
+      "url": "https://arxiv.org/abs/2608.03978v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.03978v1.pdf",
       "categories": [
-        "cs.SE",
-        "cs.AI",
-        "cs.LG"
+        "cs.RO"
       ],
-      "type": "ml",
+      "type": "benchmark",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "GORDON: Graph-based Object-centric Rewards for Decomposition of Long-Horizon Manipulation",
-      "authors": "Andrea Protopapa, Davide Buoso, Francesca Pistilli et al.",
-      "abstract": "Learning long-horizon manipulation skills with reinforcement learning remains challenging due to the complexity of reward design, the limited guidance of sparse rewards, and the high cost of manual subtask annotation. Visual demonstrations can provide supervision for reward learning, but rewards lea...",
+      "title": "Bimanual Manipulation Within an 8 GB Budget: Zero-Copy Sensing and Quantized ACT on an Entry-Level Jetson",
+      "authors": "Ekansh Singh, Eva Samuel, Alessandra Reneau et al.",
+      "abstract": "Bimanual manipulation policies trained with imitation learning are typically evaluated on workstation or datacenter-class GPUs, leaving the cost of deploying them on embedded hardware largely uncharacterized. We present a bimanual SO-101 system running entirely on an NVIDIA Jetson Orin Nano Super (8...",
       "venue": "arXiv",
       "date": "2026-08-04",
-      "arxiv_id": "2608.03753v1",
-      "url": "https://arxiv.org/abs/2608.03753v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.03753v1.pdf",
+      "arxiv_id": "2608.03938v1",
+      "url": "https://arxiv.org/abs/2608.03938v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.03938v1.pdf",
       "categories": [
-        "cs.RO"
+        "cs.RO",
+        "eess.SY"
       ],
       "type": "ai",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Track4Action: Distilling World-Centric 3D Tracker into Vision-Language-Action Policies",
-      "authors": "Chenyi Wang, Xinkai Wang, Bokai Lin et al.",
-      "abstract": "Action labels tell a vision-language-action (VLA) policy which robot commands to imitate, but not how those commands change the 3D world. The aligned demonstration clip contains this missing supervision because its $K$ frame transitions record the geometry, motion, visibility, and camera change prod...",
-      "venue": "arXiv",
-      "date": "2026-08-04",
-      "arxiv_id": "2608.03727v1",
-      "url": "https://arxiv.org/abs/2608.03727v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.03727v1.pdf",
-      "categories": [
-        "cs.RO"
-      ],
-      "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     }

@@ -8,18 +8,6 @@
       "count": 5,
       "items": [
         {
-          "title": "Markdown Content:",
-          "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-          "summary": "Markdown Content:...",
-          "date": "2026-08-04",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
           "title": "Anthropic CEO担心：招来的人只认钱不在乎使命，百万年薪的反噬？",
           "link": "https://www.jiqizhixin.com/search/articles/Anthropic CEO担心",
           "summary": "Anthropic CEO担心：招来的人只认钱不在乎使命，百万年薪的反噬？...",
@@ -59,6 +47,18 @@
           "title": "KDD 2026｜快手PlatformBid：从单广告主最优到平台全局共赢",
           "link": "https://www.jiqizhixin.com/search/articles/KDD 2026｜快手Plat",
           "summary": "KDD 2026｜快手PlatformBid：从单广告主最优到平台全局共赢...",
+          "date": "2026-08-04",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "无本体数据直达真机，深朴智能拔掉机器人后训练的「真机数据锚点」",
+          "link": "https://www.jiqizhixin.com/search/articles/无本体数据直达真机，深朴智能拔",
+          "summary": "无本体数据直达真机，深朴智能拔掉机器人后训练的「真机数据锚点」...",
           "date": "2026-08-04",
           "source": "机器之心",
           "type": "industry",

@@ -1,7 +1,7 @@
 {
   "last_updated": "2026-08-05",
   "count": 200,
-  "history_count": 200,
+  "history_count": 201,
   "retention_days": 30,
   "items": [
     {
@@ -77,18 +77,6 @@
       ]
     },
     {
-      "title": "Markdown Content:",
-      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-      "summary": "Markdown Content:...",
-      "date": "2026-08-04",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
       "title": "Anthropic CEO担心：招来的人只认钱不在乎使命，百万年薪的反噬？",
       "link": "https://www.jiqizhixin.com/search/articles/Anthropic CEO担心",
       "summary": "Anthropic CEO担心：招来的人只认钱不在乎使命，百万年薪的反噬？...",
@@ -140,6 +128,30 @@
       "title": "无本体数据直达真机，深朴智能拔掉机器人后训练的「真机数据锚点」",
       "link": "https://www.jiqizhixin.com/search/articles/无本体数据直达真机，深朴智能拔",
       "summary": "无本体数据直达真机，深朴智能拔掉机器人后训练的「真机数据锚点」...",
+      "date": "2026-08-04",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "16张B200才能跑的Kimi K3，8张AMD就装下了",
+      "link": "https://www.jiqizhixin.com/search/articles/16张B200才能跑的Kimi",
+      "summary": "16张B200才能跑的Kimi K3，8张AMD就装下了...",
+      "date": "2026-08-04",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "Markdown Content:",
+      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+      "summary": "Markdown Content:...",
       "date": "2026-08-04",
       "source": "机器之心",
       "type": "industry",
@@ -2386,18 +2398,6 @@
       "summary": "ACL 2026 | 用图异常检测抓出多智能体网络中的内鬼！XG-Guard：首个无监督、可解释、细粒度的MAS安全防线...",
       "date": "2026-07-10",
       "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Hugging Face论文月榜第一",
-      "link": "https://www.qbitai.com/?s=Hugging Fa",
-      "summary": "Hugging Face论文月榜第一...",
-      "date": "2026-07-10",
-      "source": "量子位",
       "type": "industry",
       "tags": [
         "AI",
