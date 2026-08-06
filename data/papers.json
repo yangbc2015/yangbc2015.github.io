@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-08-06",
-  "count": 4,
+  "count": 8,
   "items": [
     {
       "title": "Argus: A General-Purpose Agentic Runtime for Long-Horizon Reasoning",
@@ -33,6 +33,71 @@
         "cs.SE"
       ],
       "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Reasoning Core: Designing Broad Procedural Data for Completion-Supervised Reasoning Training",
+      "authors": "Damien Sileo, Valentin Lacombe, Dimitri Kachler",
+      "abstract": "Procedural generators produce useful verifiable reasoning problems at scale, but have received less attention as data for completion-supervised fine-tuning. We introduce Reasoning Core, a collection of 50 generators spanning mathematics, logic, planning, state tracking, formal languages, structured ...",
+      "venue": "arXiv",
+      "date": "2026-08-05",
+      "arxiv_id": "2608.05148v1",
+      "url": "https://arxiv.org/abs/2608.05148v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.05148v1.pdf",
+      "categories": [
+        "cs.CL"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Toward Skill-Native LLMs: Skill Entropy for Benchmarking and Training Long-Horizon Reasoning",
+      "authors": "Yinghui He, Ling Yang, Jiarui Liu et al.",
+      "abstract": "Long-horizon reasoning in recent LLMs demands that the model switch between distinct skills inside a reasoning chain, such as first doing a math derivation, then using the result to plan a schedule. We call such problems cross-skill long-horizon tasks: multi-step tasks whose steps require different ...",
+      "venue": "arXiv",
+      "date": "2026-08-05",
+      "arxiv_id": "2608.05139v1",
+      "url": "https://arxiv.org/abs/2608.05139v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.05139v1.pdf",
+      "categories": [
+        "cs.CL",
+        "cs.LG"
+      ],
+      "type": "benchmark",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "CoCo-IR: Contextual Composed Image Retrieval",
+      "authors": "Shengcao Cao, Tanmaya Shekhar Dabral, Zhongli Ding et al.",
+      "abstract": "Current instruction-based image retrieval systems are powerful but limited to single-turn interactions, failing to capture the iterative nature of complex, real-world visual searches. To overcome this limitation, we introduce Contextual Composed Image Retrieval (CoCo-IR), a novel task that enables u...",
+      "venue": "arXiv",
+      "date": "2026-08-05",
+      "arxiv_id": "2608.05149v1",
+      "url": "https://arxiv.org/abs/2608.05149v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.05149v1.pdf",
+      "categories": [
+        "cs.CV"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Objects as Audio-Visual Modal Sound Fields",
+      "authors": "Zisen Shao, Zihao Wei, Derong Jin et al.",
+      "abstract": "While modern 3D reconstruction excels at modeling object geometry and appearance, it largely ignores the rich acoustic cues revealed through physical interaction. Object impact sounds convey material, stiffness, and structural properties that complement vision, yet existing impact sound modeling app...",
+      "venue": "arXiv",
+      "date": "2026-08-05",
+      "arxiv_id": "2608.05145v1",
+      "url": "https://arxiv.org/abs/2608.05145v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.05145v1.pdf",
+      "categories": [
+        "cs.CV"
+      ],
+      "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     },
