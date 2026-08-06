@@ -69,6 +69,14 @@
     },
     {
       "rank": 9,
+      "model": "claude-opus-5:batch",
+      "organization": "anthropic",
+      "price_prompt": "0.0000025",
+      "price_completion": "0.0000125",
+      "context_length": 1000000
+    },
+    {
+      "rank": 10,
       "model": "ling-3.0-flash",
       "organization": "inclusionai",
       "price_prompt": "0.000000075",
@@ -76,7 +84,7 @@
       "context_length": 131072
     },
     {
-      "rank": 10,
+      "rank": 11,
       "model": "ling-3.0-flash:free",
       "organization": "inclusionai",
       "price_prompt": "0",
@@ -84,7 +92,7 @@
       "context_length": 262144
     },
     {
-      "rank": 11,
+      "rank": 12,
       "model": "laguna-s-2.1",
       "organization": "poolside",
       "price_prompt": "0.00000009",
@@ -92,7 +100,7 @@
       "context_length": 1048576
     },
     {
-      "rank": 12,
+      "rank": 13,
       "model": "laguna-s-2.1:free",
       "organization": "poolside",
       "price_prompt": "0",
@@ -100,7 +108,7 @@
       "context_length": 262144
     },
     {
-      "rank": 13,
+      "rank": 14,
       "model": "gemini-3.6-flash",
       "organization": "google",
       "price_prompt": "0.0000015",
@@ -108,20 +116,12 @@
       "context_length": 1048576
     },
     {
-      "rank": 14,
-      "model": "gemini-3.5-flash-lite",
-      "organization": "google",
-      "price_prompt": "0.0000003",
-      "price_completion": "0.0000025",
-      "context_length": 1048576
-    },
-    {
       "rank": 15,
-      "model": "longcat-2.0",
-      "organization": "meituan",
-      "price_prompt": "0.0000003",
-      "price_completion": "0.0000012",
-      "context_length": 1048756
+      "model": "gemini-3.6-flash:batch",
+      "organization": "google",
+      "price_prompt": "0.00000075",
+      "price_completion": "0.00000375",
+      "context_length": 1048576
     }
   ]
 }
