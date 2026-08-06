@@ -1,9 +1,21 @@
 {
   "last_updated": "2026-08-06",
   "count": 200,
-  "history_count": 200,
+  "history_count": 203,
   "retention_days": 30,
   "items": [
+    {
+      "title": "Jeff Dean用大脑挖比特币",
+      "link": "https://www.qbitai.com/?s=Jeff Dean用",
+      "summary": "Jeff Dean用大脑挖比特币...",
+      "date": "2026-08-06",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
     {
       "title": "与此同时，哈萨比斯卸任谷歌DeepMind CEO",
       "link": "https://www.qbitai.com/?s=与此同时，哈萨比斯卸",
@@ -53,18 +65,6 @@
       ]
     },
     {
-      "title": "北京大学&元空AI Agent联合实验室",
-      "link": "https://www.qbitai.com/?s=北京大学&元空AI ",
-      "summary": "北京大学&元空AI Agent联合实验室...",
-      "date": "2026-08-06",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
       "title": "*   [Latest](http://techcrunch.com/latest/)",
       "link": "https://techcrunch.com/category/artificial-intelligence/",
       "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
@@ -77,9 +77,33 @@
       ]
     },
     {
-      "title": "Markdown Content:",
-      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-      "summary": "Markdown Content:...",
+      "title": "北京大学&元空AI Agent联合实验室",
+      "link": "https://www.qbitai.com/?s=北京大学&元空AI ",
+      "summary": "北京大学&元空AI Agent联合实验室...",
+      "date": "2026-08-06",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "AI4S智能体「井喷」，这个智能体登顶多项评测榜单，实现产业落地",
+      "link": "https://www.jiqizhixin.com/search/articles/AI4S智能体「井喷」，这个智",
+      "summary": "AI4S智能体「井喷」，这个智能体登顶多项评测榜单，实现产业落地...",
+      "date": "2026-08-05",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "ECCV 2026 | 北大团队提出 Atomic Dance：基于原子动作的可解释音乐舞蹈生成框架",
+      "link": "https://www.jiqizhixin.com/search/articles/ECCV 2026 | 北大团",
+      "summary": "ECCV 2026 | 北大团队提出 Atomic Dance：基于原子动作的可解释音乐舞蹈生成框架...",
       "date": "2026-08-05",
       "source": "机器之心",
       "type": "industry",
@@ -104,6 +128,18 @@
       "title": "Transformer上限触顶，Mobius能否引发下一代模型架构的革命？",
       "link": "https://www.jiqizhixin.com/search/articles/Transformer上限触顶",
       "summary": "Transformer上限触顶，Mobius能否引发下一代模型架构的革命？...",
+      "date": "2026-08-05",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "Markdown Content:",
+      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+      "summary": "Markdown Content:...",
       "date": "2026-08-05",
       "source": "机器之心",
       "type": "industry",
@@ -2362,42 +2398,6 @@
       "summary": "视频生成的下一站，或是机器人大脑...",
       "date": "2026-07-13",
       "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "人机伙伴｜硬核看展+趣味体验+全城漫游，WAIC 2026的打开方式不止一种",
-      "link": "https://www.jiqizhixin.com/search/articles/人机伙伴｜硬核看展+趣味体验+",
-      "summary": "人机伙伴｜硬核看展+趣味体验+全城漫游，WAIC 2026的打开方式不止一种...",
-      "date": "2026-07-12",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "用同一套语言读懂分子、蛋白与文本，BioMatrix推动生物大模型走向原生统一建模",
-      "link": "https://www.jiqizhixin.com/search/articles/用同一套语言读懂分子、蛋白与文",
-      "summary": "用同一套语言读懂分子、蛋白与文本，BioMatrix推动生物大模型走向原生统一建模...",
-      "date": "2026-07-11",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "100+小时干湿闭环直播：把idea交给「科研工厂」，让科学发现像调用云服务一样简单",
-      "link": "https://www.jiqizhixin.com/search/articles/100+小时干湿闭环直播：把i",
-      "summary": "100+小时干湿闭环直播：把idea交给「科研工厂」，让科学发现像调用云服务一样简单...",
-      "date": "2026-07-11",
-      "source": "机器之心",
       "type": "industry",
       "tags": [
         "AI",

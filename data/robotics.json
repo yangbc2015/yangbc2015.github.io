@@ -15,6 +15,86 @@
       ]
     },
     {
+      "title": "AI-based single-shot structured-light depth reconstruction for real-time laparoscopic surgical guidance",
+      "summary": "Significance. Accurate intraoperative depth perception is important for autonomous and semi-autonomous robotic laparoscopic surgery. Conventional fringe projection profilometry can achieve millimeter-scale accuracy but often requires multi-shot acqui...",
+      "url": "https://arxiv.org/abs/2608.05109v1",
+      "date": "2026-08-05",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.05109v1",
+      "authors": "Wayne Wonseok Rodgers, Xiangyi Le et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Learning When to Stop: Prefix-Optimal Dynamic Diffusion Policies for Continuous Control",
+      "summary": "Diffusion policies are a powerful policy class for continuous control, but their iterative denoising process creates a substantial computational bottleneck. Reducing this cost requires adapting the number of denoising steps to the difficulty of each ...",
+      "url": "https://arxiv.org/abs/2608.05084v1",
+      "date": "2026-08-05",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.05084v1",
+      "authors": "Rohit Kumar Salla, Manoj Saravanan et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "SpikingNav: Robust Embodied Navigation with Spiking Neural Policies",
+      "summary": "Embodied navigation requires an agent to make sequential decisions from egocentric observations in a physical environment. Existing Artificial Neural Network (ANN)-based navigation models have achieved strong performance, yet they often rely on dense...",
+      "url": "https://arxiv.org/abs/2608.05078v1",
+      "date": "2026-08-05",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.05078v1",
+      "authors": "Jiahong Zhang, Sijun Shen et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Exact Model-Free Policy Iteration for Co-safe LTL Planning",
+      "summary": "This work studies model-free reinforcement learning for co-safe linear temporal logic (sc-LTL) objectives in finite Markov decision processes, which can be reduced to maximal reachability objectives via the standard product construction. For this pro...",
+      "url": "https://arxiv.org/abs/2608.05047v1",
+      "date": "2026-08-05",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.05047v1",
+      "authors": "Zetong Xuan, Yu Wang",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "BridgeVLA++: A Data-Efficient, Generalizable, and Memory-Augmented Vision-Language-Action Framework for 3D Manipulation",
+      "summary": "Leveraging pre-trained vision-language models (VLMs) to construct vision-language-action (VLA) models has emerged as a promising paradigm for 3D robot manipulation. However, existing 3D VLA methods remain data-hungry, exhibit limited generalization u...",
+      "url": "https://arxiv.org/abs/2608.05042v1",
+      "date": "2026-08-05",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.05042v1",
+      "authors": "Peiyan Li, Yuze Zhu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
       "title": "具身智能仰望星空的AI梦想，终究需要AIoT在物理世界铺设的轨道来承载。",
       "summary": "具身智能仰望星空的AI梦想，终究需要AIoT在物理世界铺设的轨道来承载。",
       "url": "http://36kr.com/p/3924990112839813",
@@ -2928,86 +3008,6 @@
       "type": "paper",
       "arxiv_id": "2606.32028v1",
       "authors": "Ziyu Shan, Zhenyu Wu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Freeform Preference Learning for Robotic Manipulation",
-      "summary": "Reward design remains a central bottleneck for autonomous robot policy improvement, especially in long-horizon manipulation tasks where sparse success labels provide too little signal and binary preferences collapse many competing notions of quality ...",
-      "url": "https://arxiv.org/abs/2606.32027v1",
-      "date": "2026-06-30",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.32027v1",
-      "authors": "Marcel Torne, Anubha Mahajan et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Human-as-Humanoid: Enabling Zero-Shot Humanoid Learning from Ego-Exo Human Videos with Human-Aligned Embodiments",
-      "summary": "Vision-language-action (VLA) models across robot embodiments require high-quality observation--action supervision to learn deployable action distributions, yet scaling such robot data remains difficult, especially for high-DoF humanoids. Teleoperatio...",
-      "url": "https://arxiv.org/abs/2606.32009v1",
-      "date": "2026-06-30",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.32009v1",
-      "authors": "Xiaopeng Lin, Ruoqi Yang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "OopsieVerse: A Safety Benchmark with Damage-Aware Simulation for Robot Manipulation",
-      "summary": "While robotic manipulation capabilities have advanced rapidly, physical safety remains a major barrier to deploying household robots: task success is insufficient if the robot damages itself or its surroundings. Simulation offers a harm-free alternat...",
-      "url": "https://arxiv.org/abs/2606.31993v1",
-      "date": "2026-06-30",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.31993v1",
-      "authors": "Arnav Balaji, Arpit Bahety et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Adapting Generalist Robot Policies with Semantic Reinforcement Learning",
-      "summary": "Generalist robot policies learn a diverse repertoire of behaviors from large-scale pretraining. In principle, this makes them excellent priors for downstream adaptation via reinforcement learning (RL). In practice, however, standard RL methods levera...",
-      "url": "https://arxiv.org/abs/2606.31958v1",
-      "date": "2026-06-30",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.31958v1",
-      "authors": "Jagdeep Singh Bhatia, Andrew Wagenmaker et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "DynFly: Dynamic-Aware Continuous Trajectory Generation for UAV Vision-Language Navigation in Urban Environments",
-      "summary": "Recent advances in multimodal large models have significantly improved UAV vision-language navigation (UAV-VLN) by enhancing high-level perception and reasoning. However, existing methods mainly focus on predicting discrete actions, local targets, or...",
-      "url": "https://arxiv.org/abs/2606.31654v1",
-      "date": "2026-06-30",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.31654v1",
-      "authors": "Wen Jiang, Hanfang Liang et al.",
       "tags": [
         "机器人学习",
         "研究论文",
