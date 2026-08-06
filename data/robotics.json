@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-08-05",
+  "last_updated": "2026-08-06",
   "count": 200,
   "items": [
     {
       "title": "[具 身 智 能 挤满「修路人」，机器人还没普及，12270家服务商先打起来了",
       "summary": "[具 身 智 能 挤满「修路人」，机器人还没普及，12270家服务商先打起来了",
       "url": "http://36kr.com/p/3923585549031297",
-      "date": "2026-08-05",
+      "date": "2026-08-06",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
@@ -92,6 +92,32 @@
         "机器人学习",
         "研究论文",
         "arXiv"
+      ]
+    },
+    {
+      "title": "具身智能仰望星空的AI梦想，终究需要AIoT在物理世界铺设的轨道来承载。",
+      "summary": "具身智能仰望星空的AI梦想，终究需要AIoT在物理世界铺设的轨道来承载。",
+      "url": "http://36kr.com/p/3924990112839813",
+      "date": "2026-08-04",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "风火轮萤图获3000万融资，研发主动交互具身大脑",
+      "summary": "风火轮萤图获3000万融资，研发主动交互具身大脑",
+      "url": "http://36kr.com/p/3923260535221634",
+      "date": "2026-08-04",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
       ]
     },
     {
@@ -2982,38 +3008,6 @@
       "type": "paper",
       "arxiv_id": "2606.31654v1",
       "authors": "Wen Jiang, Hanfang Liang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Robust Autonomous UAV Landing on Maritime Platforms via Multimodal Agentic AI and Active Wave Compensation",
-      "summary": "Autonomous aerial inspection of marine infrastructure is frequently compromised by stochastic sea states, introducing risks of high-kinetic impacts, post-landing toppling, and sensory occlusion. This paper proposes a decoupled, multi-vehicle landing ...",
-      "url": "https://arxiv.org/abs/2606.31613v1",
-      "date": "2026-06-30",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.31613v1",
-      "authors": "Francisco S. Neves, Pedro N. Pereira et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Stabilization Learning: A Paradigm Transition Bridging Control Theory and Machine Learning",
-      "summary": "Stabilization learning is an interdisciplinary paradigm that bridges control theory and machine learning. Its core idea is to enable systems to adjust their policies under perturbations or environmental changes through real-time feedback and adaptive...",
-      "url": "https://arxiv.org/abs/2606.31562v1",
-      "date": "2026-06-30",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2606.31562v1",
-      "authors": "Quan Quan",
       "tags": [
         "机器人学习",
         "研究论文",

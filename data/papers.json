@@ -1,21 +1,136 @@
 {
-  "last_updated": "2026-08-05",
-  "count": 8,
+  "last_updated": "2026-08-06",
+  "count": 10,
   "items": [
     {
-      "title": "TurnSight: Turn-Level Hindsight Self-Distillation for Tool-Integrated Reasoning",
-      "authors": "Changle Qu, Sunhao Dai, Hengyi Cai et al.",
-      "abstract": "Tool-Integrated Reasoning (TIR) enables LLMs to solve complex tasks through iterative tool interactions. However, existing reinforcement learning methods often rely on trajectory-level supervision, limiting fine-grained credit assignment in long-horizon TIR scenarios. On-policy self-distillation off...",
+      "title": "From Score Matrices to Football-Aware Match-State Simulation: An Auditable LLM Harness for Exact-Score Reranking",
+      "authors": "Shaopeng Liang",
+      "abstract": "Football score forecasting combines a strong statistical core with a difficult contextual edge. Dynamic Poisson-family models estimate team strength, expected goals, and coherent score probabilities, but do not directly understand roles, tactical matchups, motivation, or how a first goal changes beh...",
       "venue": "arXiv",
-      "date": "2026-08-04",
-      "arxiv_id": "2608.04007v1",
-      "url": "https://arxiv.org/abs/2608.04007v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.04007v1.pdf",
+      "date": "2026-08-05",
+      "arxiv_id": "2608.05030v1",
+      "url": "https://arxiv.org/abs/2608.05030v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.05030v1.pdf",
       "categories": [
-        "cs.CL",
         "cs.AI"
       ],
+      "type": "ai",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "ArtAnno: Annotating Implicit Semantics in Artworks through LLM Agent-Driven Bidirectional Human-AI Augmentation",
+      "authors": "Xiaoyan Gu, Yifang Wang, Wenqing Zheng et al.",
+      "abstract": "High-quality annotation of artworks is essential for computational art research, yet extracting implicit semantics remains challenging due to the reliance on culturally grounded meanings and deep contextual knowledge behind the images. Current AI-assisted annotation tools often lack assistance or re...",
+      "venue": "arXiv",
+      "date": "2026-08-05",
+      "arxiv_id": "2608.05026v1",
+      "url": "https://arxiv.org/abs/2608.05026v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.05026v1.pdf",
+      "categories": [
+        "cs.HC",
+        "cs.AI"
+      ],
+      "type": "ai",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Language Models Generalize to Human-like Word Order Preferences",
+      "authors": "Amanda Popadich, Shane Steinert-Threlkeld",
+      "abstract": "A central question in language acquisition is whether linguistic biases can emerge from general learning mechanisms operating over underdetermined input. Artificial Language Learning (ALL) studies have shown that human learners reliably generalize beyond the evidence provided, including by preferrin...",
+      "venue": "arXiv",
+      "date": "2026-08-05",
+      "arxiv_id": "2608.05028v1",
+      "url": "https://arxiv.org/abs/2608.05028v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.05028v1.pdf",
+      "categories": [
+        "cs.CL"
+      ],
       "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "DelusionEval: Measuring Delusion-Linked Behaviors in AI Chatbots",
+      "authors": "Jared Moore, Andrea Mock, Yifan Mai et al.",
+      "abstract": "Mental health professionals have raised concerns about risks of psychological harm from interaction with large language models (LLMs), including \"delusional spirals\" in which concerning human and LLM behaviors reinforce each other over time. With growing public use of LLM-powered chatbots, there is ...",
+      "venue": "arXiv",
+      "date": "2026-08-05",
+      "arxiv_id": "2608.05004v1",
+      "url": "https://arxiv.org/abs/2608.05004v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.05004v1.pdf",
+      "categories": [
+        "cs.CL"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Towards Physics of Multimodal Pretraining: Knowledge Flow, Modality Synergy, Early Unification, and Recipes",
+      "authors": "Junlin Han, Shengbang Tong, David Fan et al.",
+      "abstract": "Vision offers a critical axis for advancing foundation models, driving a shift towards natively unified multimodal pretraining. Despite this momentum, the design space and the fundamental mechanisms of how modalities interact during unified training remain underexplored. We provide empirical clarity...",
+      "venue": "arXiv",
+      "date": "2026-08-05",
+      "arxiv_id": "2608.05000v1",
+      "url": "https://arxiv.org/abs/2608.05000v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.05000v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.LG",
+        "cs.MM"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Promptable Animal Pose Tracking Across Species",
+      "authors": "Le Li, Daniela Ivanova, Nicolas Pugeault",
+      "abstract": "Animal pose estimation and tracking is important for wildlife monitoring and conservation research, and with limited expert time for labelling automated approaches are imperative. While human pose estimation and tracking has seen rapid progress thanks to large annotated datasets, animal pose remain ...",
+      "venue": "arXiv",
+      "date": "2026-08-05",
+      "arxiv_id": "2608.04995v1",
+      "url": "https://arxiv.org/abs/2608.04995v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.04995v1.pdf",
+      "categories": [
+        "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Optimal Constrained sc-LTL Planning in MDPs via Switching Policies",
+      "authors": "Zetong Xuan, Yu Wang",
+      "abstract": "We study the synthesis of optimal policies for planning problems on Markov decision processes with both objectives and safety constraints specified in co-safe linear temporal logic (sc-LTL). Our problems are inherently non-Markovian due to the complexity of the sc-LTL specification and may require p...",
+      "venue": "arXiv",
+      "date": "2026-08-05",
+      "arxiv_id": "2608.05021v1",
+      "url": "https://arxiv.org/abs/2608.05021v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.05021v1.pdf",
+      "categories": [
+        "cs.RO",
+        "eess.SY"
+      ],
+      "type": "ai",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "DreamWAM: Beyond RGB Future Prediction for World Action Models",
+      "authors": "Shanglin Yuan, Weiheng Zhao, Xin Shi et al.",
+      "abstract": "World Action Models (WAMs) learn action-relevant representations by predicting how the observed world will evolve. Most existing WAMs define this future in RGB space, where task-relevant state transitions are entangled with nuisance variations in texture, illumination, background, and viewpoint. We ...",
+      "venue": "arXiv",
+      "date": "2026-08-05",
+      "arxiv_id": "2608.04996v1",
+      "url": "https://arxiv.org/abs/2608.04996v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.04996v1.pdf",
+      "categories": [
+        "cs.RO"
+      ],
+      "type": "ai",
       "badge": "arxiv",
       "source": "arXiv"
     },
@@ -37,55 +152,6 @@
       "source": "arXiv"
     },
     {
-      "title": "ParVL: Parallel Scaling and Expandable Compute Allocation for Multimodal LLMs",
-      "authors": "Yang Yang, Qinyu Zhao, Mouxiang Chen et al.",
-      "abstract": "Existing scaling strategies for Multimodal Large Language Models (MLLMs) typically expand either model parameters or sequential inference computation, incurring substantial memory or latency overhead. More importantly, most existing methods fail to alter the rigid, fixed computation allocation betwe...",
-      "venue": "arXiv",
-      "date": "2026-08-04",
-      "arxiv_id": "2608.04010v1",
-      "url": "https://arxiv.org/abs/2608.04010v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.04010v1.pdf",
-      "categories": [
-        "cs.CV",
-        "cs.CL"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "SocietyBench: Forecasting Counterfactual Social-World Evolution",
-      "authors": "Zhenran Wang, Zhonghan Bian, Jinsong Li et al.",
-      "abstract": "Large language models (LLMs), and the agents built on top of them, are now benchmarked heavily on whether they can finish a task -- fix a bug, drive a browser, operate a GUI. A complementary social ability, namely how well a model understands and forecasts the way real social events unfold, has bare...",
-      "venue": "arXiv",
-      "date": "2026-08-04",
-      "arxiv_id": "2608.04009v1",
-      "url": "https://arxiv.org/abs/2608.04009v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.04009v1.pdf",
-      "categories": [
-        "cs.CL"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Perceptual Anchoring: Prototype-Guided Text Calibration for Training-free Open-Vocabulary Semantic Segmentation",
-      "authors": "Wanli Ma, Jiangwen Lu, Qinmu Peng et al.",
-      "abstract": "Training-free open-vocabulary semantic segmentation (OVSS) partitions an image into semantically distinct regions based on arbitrary text descriptions, without learning any additional parameters. However, existing methods typically focus on improving visual representations while treating text embedd...",
-      "venue": "arXiv",
-      "date": "2026-08-04",
-      "arxiv_id": "2608.03991v1",
-      "url": "https://arxiv.org/abs/2608.03991v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.03991v1.pdf",
-      "categories": [
-        "cs.CV"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
       "title": "Assessment of Conditional Diffusion Model for Synthetic Histopathology Image Generation",
       "authors": "Seyed Kahaki, Shijie Li, Weijie Chen et al.",
       "abstract": "Synthetic histopathology image generation has emerged as an approach that may address data scarcity in computational pathology, yet current evaluation methodologies may not fully assess synthetic data quality for medical applications. This work investigates and addresses limitations in existing eval...",
@@ -98,39 +164,6 @@
         "cs.LG"
       ],
       "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Stochastic Multiple Shooting Trajectory Optimization via Sequential Local Policy Evaluation",
-      "authors": "Ashwin Gupta, Joseph Moore",
-      "abstract": "Stochastic single shooting trajectory optimization methods such as Model Predictive Path Integral control (MPPI) have been widely adopted in robotics due to their ability to reason about probabilistic dynamics and provide solutions where model gradients are noisy, costly to evaluate, or unavailable....",
-      "venue": "arXiv",
-      "date": "2026-08-04",
-      "arxiv_id": "2608.03978v1",
-      "url": "https://arxiv.org/abs/2608.03978v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.03978v1.pdf",
-      "categories": [
-        "cs.RO"
-      ],
-      "type": "benchmark",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Bimanual Manipulation Within an 8 GB Budget: Zero-Copy Sensing and Quantized ACT on an Entry-Level Jetson",
-      "authors": "Ekansh Singh, Eva Samuel, Alessandra Reneau et al.",
-      "abstract": "Bimanual manipulation policies trained with imitation learning are typically evaluated on workstation or datacenter-class GPUs, leaving the cost of deploying them on embedded hardware largely uncharacterized. We present a bimanual SO-101 system running entirely on an NVIDIA Jetson Orin Nano Super (8...",
-      "venue": "arXiv",
-      "date": "2026-08-04",
-      "arxiv_id": "2608.03938v1",
-      "url": "https://arxiv.org/abs/2608.03938v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.03938v1.pdf",
-      "categories": [
-        "cs.RO",
-        "eess.SY"
-      ],
-      "type": "ai",
       "badge": "arxiv",
       "source": "arXiv"
     }
