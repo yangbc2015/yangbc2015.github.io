@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-08-06",
-  "count": 10,
+  "count": 6,
   "items": [
     {
       "title": "From Score Matrices to Football-Aware Match-State Simulation: An Auditable LLM Harness for Exact-Score Reranking",
@@ -68,40 +68,6 @@
       "source": "arXiv"
     },
     {
-      "title": "Towards Physics of Multimodal Pretraining: Knowledge Flow, Modality Synergy, Early Unification, and Recipes",
-      "authors": "Junlin Han, Shengbang Tong, David Fan et al.",
-      "abstract": "Vision offers a critical axis for advancing foundation models, driving a shift towards natively unified multimodal pretraining. Despite this momentum, the design space and the fundamental mechanisms of how modalities interact during unified training remain underexplored. We provide empirical clarity...",
-      "venue": "arXiv",
-      "date": "2026-08-05",
-      "arxiv_id": "2608.05000v1",
-      "url": "https://arxiv.org/abs/2608.05000v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.05000v1.pdf",
-      "categories": [
-        "cs.CV",
-        "cs.LG",
-        "cs.MM"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Promptable Animal Pose Tracking Across Species",
-      "authors": "Le Li, Daniela Ivanova, Nicolas Pugeault",
-      "abstract": "Animal pose estimation and tracking is important for wildlife monitoring and conservation research, and with limited expert time for labelling automated approaches are imperative. While human pose estimation and tracking has seen rapid progress thanks to large annotated datasets, animal pose remain ...",
-      "venue": "arXiv",
-      "date": "2026-08-05",
-      "arxiv_id": "2608.04995v1",
-      "url": "https://arxiv.org/abs/2608.04995v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.04995v1.pdf",
-      "categories": [
-        "cs.CV"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
       "title": "Optimal Constrained sc-LTL Planning in MDPs via Switching Policies",
       "authors": "Zetong Xuan, Yu Wang",
       "abstract": "We study the synthesis of optimal policies for planning problems on Markov decision processes with both objectives and safety constraints specified in co-safe linear temporal logic (sc-LTL). Our problems are inherently non-Markovian due to the complexity of the sc-LTL specification and may require p...",
@@ -131,39 +97,6 @@
         "cs.RO"
       ],
       "type": "ai",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Test-Time Scaling in Reasoning LLMs: Inference Regimes, Evaluation, and Reproducibility",
-      "authors": "Mohsen Hariri, Weicong Chen, Nahal Shahini et al.",
-      "abstract": "Large language models can solve substantially harder reasoning problems with more inference-time compute. The term \"test-time scaling,\" however, now covers diverse inference algorithms that extend deliberation along a single trajectory, sample completed candidates and aggregate them through voting o...",
-      "venue": "arXiv",
-      "date": "2026-08-04",
-      "arxiv_id": "2608.04001v1",
-      "url": "https://arxiv.org/abs/2608.04001v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.04001v1.pdf",
-      "categories": [
-        "cs.LG",
-        "cs.AI"
-      ],
-      "type": "benchmark",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Assessment of Conditional Diffusion Model for Synthetic Histopathology Image Generation",
-      "authors": "Seyed Kahaki, Shijie Li, Weijie Chen et al.",
-      "abstract": "Synthetic histopathology image generation has emerged as an approach that may address data scarcity in computational pathology, yet current evaluation methodologies may not fully assess synthetic data quality for medical applications. This work investigates and addresses limitations in existing eval...",
-      "venue": "arXiv",
-      "date": "2026-08-04",
-      "arxiv_id": "2608.03990v1",
-      "url": "https://arxiv.org/abs/2608.03990v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.03990v1.pdf",
-      "categories": [
-        "cs.LG"
-      ],
-      "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     }
