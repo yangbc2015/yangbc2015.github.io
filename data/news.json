@@ -1,9 +1,21 @@
 {
   "last_updated": "2026-08-07",
   "count": 200,
-  "history_count": 203,
+  "history_count": 201,
   "retention_days": 30,
   "items": [
+    {
+      "title": "AI语音“听、说、创”一站式满足",
+      "link": "https://www.qbitai.com/?s=AI语音“听、说、创",
+      "summary": "AI语音“听、说、创”一站式满足...",
+      "date": "2026-08-07",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
     {
       "title": "8月6日，阿里巴巴视频生成大模型Wan 3.0开启公测",
       "link": "https://www.qbitai.com/?s=8月6日，阿里巴巴视",
@@ -53,6 +65,18 @@
       ]
     },
     {
+      "title": "Published Time: Thu, 08 May 2025 23:15:48 GMT",
+      "link": "https://techcrunch.com/category/artificial-intelligence/",
+      "summary": "Published Time: Thu, 08 May 2025 23:15:48 GMT...",
+      "date": "2026-08-07",
+      "source": "TechCrunch",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "Artificial Intelligence"
+      ]
+    },
+    {
       "title": "正式公开了安卓液态玻璃设计的完整技术底座",
       "link": "https://www.qbitai.com/?s=正式公开了安卓液态玻",
       "summary": "正式公开了安卓液态玻璃设计的完整技术底座...",
@@ -62,18 +86,6 @@
       "tags": [
         "AI",
         "人工智能"
-      ]
-    },
-    {
-      "title": "*   [Latest](http://techcrunch.com/latest/)",
-      "link": "https://techcrunch.com/category/artificial-intelligence/",
-      "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
-      "date": "2026-08-07",
-      "source": "TechCrunch",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "Artificial Intelligence"
       ]
     },
     {
@@ -2384,18 +2396,6 @@
       "title": "ACL 2026 SAC Highlight｜机器学习Agent的真正瓶颈，不是写代码，而是判断哪个实验值得跑",
       "link": "https://www.jiqizhixin.com/search/articles/ACL 2026 SAC Hi",
       "summary": "ACL 2026 SAC Highlight｜机器学习Agent的真正瓶颈，不是写代码，而是判断哪个实验值得跑...",
-      "date": "2026-07-14",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "整合105个科研工具与59个专业数据库：Biomni让AI进入生命科学发现全过程",
-      "link": "https://www.jiqizhixin.com/search/articles/整合105个科研工具与59个专",
-      "summary": "整合105个科研工具与59个专业数据库：Biomni让AI进入生命科学发现全过程...",
       "date": "2026-07-14",
       "source": "机器之心",
       "type": "industry",

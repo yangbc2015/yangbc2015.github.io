@@ -3,6 +3,43 @@
   "count": 200,
   "items": [
     {
+      "title": "[黎曼动力携手光轮智能与诺亦腾机器人，剑指2026年百万小时 具 身 智 能 数据建设",
+      "summary": "[黎曼动力携手光轮智能与诺亦腾机器人，剑指2026年百万小时 具 身 智 能 数据建设",
+      "url": "http://36kr.com/p/3929174402203014",
+      "date": "2026-08-07",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
+      "title": "[具 身 智 能 下一场竞争是数据？还是“具身 o1时刻”？",
+      "summary": "[具 身 智 能 下一场竞争是数据？还是“具身 o1时刻”？",
+      "url": "http://36kr.com/p/3927764916950919",
+      "date": "2026-08-07",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "[融资首发｜获力鼎光电、卧安机器人两大上市公司押注，真觉万象要造 具 身 智 能“数据地基”",
+      "summary": "[融资首发｜获力鼎光电、卧安机器人两大上市公司押注，真觉万象要造 具 身 智 能“数据地基”",
+      "url": "http://36kr.com/p/3927737997457797",
+      "date": "2026-08-07",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
       "title": "$ω$-0: A Latent Predictive World Action Model for Concurrent Humanoid Loco-Manipulation",
       "summary": "Humanoid household tasks often require concurrent loco-manipulation, where the robot must move, adjust posture, maintain balance, and manipulate objects as a single coordinated behavior. Yet existing humanoid policies typically decompose locomotion a...",
       "url": "https://arxiv.org/abs/2608.06375v1",
@@ -144,31 +181,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "[具 身 智 能 下一场竞争是数据？还是“具身 o1时刻”？",
-      "summary": "[具 身 智 能 下一场竞争是数据？还是“具身 o1时刻”？",
-      "url": "http://36kr.com/p/3927764916950919",
-      "date": "2026-08-06",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "[融资首发｜获力鼎光电、卧安机器人两大上市公司押注，真觉万象要造 具 身 智 能“数据地基”",
-      "summary": "[融资首发｜获力鼎光电、卧安机器人两大上市公司押注，真觉万象要造 具 身 智 能“数据地基”",
-      "url": "http://36kr.com/p/3927737997457797",
-      "date": "2026-08-06",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
       ]
     },
     {
@@ -2995,22 +3007,6 @@
       "type": "paper",
       "arxiv_id": "2607.01203v1",
       "authors": "Jeffrey Fang, Keyi Shen et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Sensorless Four-Channel Control Architecture Using Inverse Dynamics Modeling for Human-Scale Bilateral Teleoperation",
-      "summary": "The four-channel teleoperation architecture is a well-established framework for achieving transparency in bilateral systems. However, its performance in human-scale teleoperation is limited by high inertia, modeling challenges, and reliance on noisy ...",
-      "url": "https://arxiv.org/abs/2607.01201v1",
-      "date": "2026-07-01",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.01201v1",
-      "authors": "Amir Noohian, Dylan Miller et al.",
       "tags": [
         "机器人学习",
         "研究论文",
