@@ -1,23 +1,9 @@
 {
-  "last_updated": "2026-08-06",
+  "last_updated": "2026-08-07",
   "count": 54,
   "history_count": 54,
   "retention_count": 200,
   "items": [
-    {
-      "title": "Stanford CS231n: 卷积神经网络",
-      "speaker": "Stanford",
-      "description": "斯坦福经典计算机视觉课程",
-      "duration": "8:45:20",
-      "views": "567K",
-      "platform": "youtube",
-      "video_id": "vT1JzLTH4G4",
-      "url": "https://www.youtube.com/watch?v=vT1JzLTH4G4",
-      "thumbnail": "https://img.youtube.com/vi/vT1JzLTH4G4/mqdefault.jpg",
-      "type": "course",
-      "category": "精品课程",
-      "date": "2026-08-05"
-    },
     {
       "title": "LoRA: 大模型高效微调技术",
       "speaker": "Edward Hu",
@@ -30,6 +16,34 @@
       "thumbnail": "https://img.youtube.com/vi/PXc9tFr3Nus/mqdefault.jpg",
       "type": "tutorial",
       "category": "AI教程",
+      "date": "2026-08-06"
+    },
+    {
+      "title": "LLaMA 3 开源大模型解读",
+      "speaker": "Yannic Kilcher",
+      "description": "Meta LLaMA 3 架构详解与性能分析",
+      "duration": "45:30",
+      "views": "678K",
+      "platform": "youtube",
+      "video_id": "K5Vxf8rVGWk",
+      "url": "https://www.youtube.com/watch?v=K5Vxf8rVGWk",
+      "thumbnail": "https://img.youtube.com/vi/K5Vxf8rVGWk/mqdefault.jpg",
+      "type": "lecture",
+      "category": "前沿技术",
+      "date": "2026-08-06"
+    },
+    {
+      "title": "BERT 模型详解与应用",
+      "speaker": "Yannic Kilcher",
+      "description": "深入理解 BERT 预训练模型及其应用",
+      "duration": "28:45",
+      "views": "890K",
+      "platform": "youtube",
+      "video_id": "xI0HHN5XKDo",
+      "url": "https://www.youtube.com/watch?v=xI0HHN5XKDo",
+      "thumbnail": "https://img.youtube.com/vi/xI0HHN5XKDo/mqdefault.jpg",
+      "type": "lecture",
+      "category": "技术讲座",
       "date": "2026-08-05"
     },
     {
@@ -45,6 +59,34 @@
       "type": "lecture",
       "category": "技术讲座",
       "date": "2026-08-05"
+    },
+    {
+      "title": "Stanford CS231n: 卷积神经网络",
+      "speaker": "Stanford",
+      "description": "斯坦福经典计算机视觉课程",
+      "duration": "8:45:20",
+      "views": "567K",
+      "platform": "youtube",
+      "video_id": "vT1JzLTH4G4",
+      "url": "https://www.youtube.com/watch?v=vT1JzLTH4G4",
+      "thumbnail": "https://img.youtube.com/vi/vT1JzLTH4G4/mqdefault.jpg",
+      "type": "course",
+      "category": "精品课程",
+      "date": "2026-08-04"
+    },
+    {
+      "title": "OpenAI GPT-4o 多模态能力解析",
+      "speaker": "OpenAI",
+      "description": "GPT-4o 原生多模态能力的深度解读",
+      "duration": "32:00",
+      "views": "2.1M",
+      "platform": "youtube",
+      "video_id": "M6v8dzV1-7g",
+      "url": "https://www.youtube.com/watch?v=M6v8dzV1-7g",
+      "thumbnail": "https://img.youtube.com/vi/M6v8dzV1-7g/mqdefault.jpg",
+      "type": "lecture",
+      "category": "前沿技术",
+      "date": "2026-08-04"
     },
     {
       "title": "3Blue1Brown: 深度学习之神经网络",
@@ -89,17 +131,17 @@
       "date": "2026-08-04"
     },
     {
-      "title": "Diffusion 模型工作原理",
-      "speaker": "Two Minute Papers",
-      "description": "快速了解扩散模型如何生成图像",
-      "duration": "5:20",
-      "views": "1.5M",
+      "title": "强化学习入门: Q-Learning",
+      "speaker": "Sentdex",
+      "description": "从零开始学习强化学习基础",
+      "duration": "15:30",
+      "views": "456K",
       "platform": "youtube",
-      "video_id": "fbLgFrlTnGU",
-      "url": "https://www.youtube.com/watch?v=fbLgFrlTnGU",
-      "thumbnail": "https://img.youtube.com/vi/fbLgFrlTnGU/mqdefault.jpg",
-      "type": "lecture",
-      "category": "技术讲座",
+      "video_id": "yMk_XtIEzH8",
+      "url": "https://www.youtube.com/watch?v=yMk_XtIEzH8",
+      "thumbnail": "https://img.youtube.com/vi/yMk_XtIEzH8/mqdefault.jpg",
+      "type": "tutorial",
+      "category": "AI教程",
       "date": "2026-08-03"
     },
     {
@@ -132,18 +174,18 @@
       "date": "2026-08-02"
     },
     {
-      "title": "Vision Transformer 详解",
-      "speaker": "Google Research",
-      "description": "将 Transformer 应用于计算机视觉",
-      "duration": "38:00",
-      "views": "567K",
+      "title": "Diffusion 模型工作原理",
+      "speaker": "Two Minute Papers",
+      "description": "快速了解扩散模型如何生成图像",
+      "duration": "5:20",
+      "views": "1.5M",
       "platform": "youtube",
-      "video_id": "pRqsifNGFXw",
-      "url": "https://www.youtube.com/watch?v=pRqsifNGFXw",
-      "thumbnail": "https://img.youtube.com/vi/pRqsifNGFXw/mqdefault.jpg",
+      "video_id": "fbLgFrlTnGU",
+      "url": "https://www.youtube.com/watch?v=fbLgFrlTnGU",
+      "thumbnail": "https://img.youtube.com/vi/fbLgFrlTnGU/mqdefault.jpg",
       "type": "lecture",
       "category": "技术讲座",
-      "date": "2026-08-02"
+      "date": "2026-08-01"
     },
     {
       "title": "Mamba 架构: Transformer 的替代者?",
@@ -160,18 +202,33 @@
       "date": "2026-08-01"
     },
     {
-      "title": "强化学习入门: Q-Learning",
-      "speaker": "Sentdex",
-      "description": "从零开始学习强化学习基础",
-      "duration": "15:30",
-      "views": "456K",
+      "title": "Vision Transformer 详解",
+      "speaker": "Google Research",
+      "description": "将 Transformer 应用于计算机视觉",
+      "duration": "38:00",
+      "views": "567K",
       "platform": "youtube",
-      "video_id": "yMk_XtIEzH8",
-      "url": "https://www.youtube.com/watch?v=yMk_XtIEzH8",
-      "thumbnail": "https://img.youtube.com/vi/yMk_XtIEzH8/mqdefault.jpg",
-      "type": "tutorial",
-      "category": "AI教程",
+      "video_id": "pRqsifNGFXw",
+      "url": "https://www.youtube.com/watch?v=pRqsifNGFXw",
+      "thumbnail": "https://img.youtube.com/vi/pRqsifNGFXw/mqdefault.jpg",
+      "type": "lecture",
+      "category": "技术讲座",
       "date": "2026-07-31"
+    },
+    {
+      "title": "李宏毅机器学习完整版",
+      "speaker": "李宏毅",
+      "description": "台湾大学教授的机器学习经典课程，深入浅出讲解ML核心概念",
+      "duration": "45:00",
+      "views": "1.8M",
+      "date": "2026-07-31",
+      "platform": "bilibili",
+      "video_id": "BV1JE411g7XF",
+      "url": "https://www.bilibili.com/video/BV1JE411g7XF",
+      "thumbnail": "https://i2.hdslb.com/bfs/archive/2f1c3f236c76ea199e97388cb9a3f8b0d6fbb70c.jpg",
+      "type": "course",
+      "category": "精品课程",
+      "featured": true
     },
     {
       "title": "This is Gemini Robotics 2 🤖",
@@ -186,35 +243,6 @@
       "thumbnail": "https://img.youtube.com/vi/OEmEfobzodE/mqdefault.jpg",
       "type": "lecture",
       "category": "技术讲座"
-    },
-    {
-      "title": "LLaMA 3 开源大模型解读",
-      "speaker": "Yannic Kilcher",
-      "description": "Meta LLaMA 3 架构详解与性能分析",
-      "duration": "45:30",
-      "views": "678K",
-      "platform": "youtube",
-      "video_id": "K5Vxf8rVGWk",
-      "url": "https://www.youtube.com/watch?v=K5Vxf8rVGWk",
-      "thumbnail": "https://img.youtube.com/vi/K5Vxf8rVGWk/mqdefault.jpg",
-      "type": "lecture",
-      "category": "前沿技术",
-      "date": "2026-07-30"
-    },
-    {
-      "title": "李宏毅机器学习完整版",
-      "speaker": "李宏毅",
-      "description": "台湾大学教授的机器学习经典课程，深入浅出讲解ML核心概念",
-      "duration": "45:00",
-      "views": "1.8M",
-      "date": "2026-07-30",
-      "platform": "bilibili",
-      "video_id": "BV1JE411g7XF",
-      "url": "https://www.bilibili.com/video/BV1JE411g7XF",
-      "thumbnail": "https://i2.hdslb.com/bfs/archive/2f1c3f236c76ea199e97388cb9a3f8b0d6fbb70c.jpg",
-      "type": "course",
-      "category": "精品课程",
-      "featured": true
     },
     {
       "title": "Robots working together with Gemini Robotics 2",
@@ -245,34 +273,6 @@
       "category": "技术讲座"
     },
     {
-      "title": "OpenAI GPT-4o 多模态能力解析",
-      "speaker": "OpenAI",
-      "description": "GPT-4o 原生多模态能力的深度解读",
-      "duration": "32:00",
-      "views": "2.1M",
-      "platform": "youtube",
-      "video_id": "M6v8dzV1-7g",
-      "url": "https://www.youtube.com/watch?v=M6v8dzV1-7g",
-      "thumbnail": "https://img.youtube.com/vi/M6v8dzV1-7g/mqdefault.jpg",
-      "type": "lecture",
-      "category": "前沿技术",
-      "date": "2026-07-30"
-    },
-    {
-      "title": "BERT 模型详解与应用",
-      "speaker": "Yannic Kilcher",
-      "description": "深入理解 BERT 预训练模型及其应用",
-      "duration": "28:45",
-      "views": "890K",
-      "platform": "youtube",
-      "video_id": "xI0HHN5XKDo",
-      "url": "https://www.youtube.com/watch?v=xI0HHN5XKDo",
-      "thumbnail": "https://img.youtube.com/vi/xI0HHN5XKDo/mqdefault.jpg",
-      "type": "lecture",
-      "category": "技术讲座",
-      "date": "2026-07-30"
-    },
-    {
       "title": "Tough dexterity tasks with Gemini Robotics 2",
       "speaker": "Google DeepMind",
       "description": "To be genuinely useful in our homes and workplaces, robots need finesse. Gemini Robotics 2 unlocks a new level of physical dexterity across different end effectors, whether a robot is using hands or g",
@@ -287,6 +287,21 @@
       "category": "技术讲座"
     },
     {
+      "title": "动手学深度学习 PyTorch版",
+      "speaker": "李沐",
+      "description": "AWS 首席科学家李沐的深度学习实战课程",
+      "duration": "60:00",
+      "views": "2.1M",
+      "date": "2026-07-24",
+      "platform": "bilibili",
+      "video_id": "BV1k64y1Q7wu",
+      "url": "https://www.bilibili.com/video/BV1k64y1Q7wu",
+      "thumbnail": "",
+      "type": "course",
+      "category": "精品课程",
+      "featured": false
+    },
+    {
       "title": "The 64 sugar cubes puzzle",
       "speaker": "3Blue1Brown",
       "description": "See all monthly puzzles: https://momath.org/mindbenders/",
@@ -299,21 +314,6 @@
       "thumbnail": "https://img.youtube.com/vi/6XPlmCDNLNc/mqdefault.jpg",
       "type": "lecture",
       "category": "技术讲座"
-    },
-    {
-      "title": "动手学深度学习 PyTorch版",
-      "speaker": "李沐",
-      "description": "AWS 首席科学家李沐的深度学习实战课程",
-      "duration": "60:00",
-      "views": "2.1M",
-      "date": "2026-07-23",
-      "platform": "bilibili",
-      "video_id": "BV1k64y1Q7wu",
-      "url": "https://www.bilibili.com/video/BV1k64y1Q7wu",
-      "thumbnail": "",
-      "type": "course",
-      "category": "精品课程",
-      "featured": false
     },
     {
       "title": "OpenAI hacked HuggingFace",

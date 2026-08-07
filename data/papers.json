@@ -1,50 +1,50 @@
 {
-  "last_updated": "2026-08-06",
-  "count": 8,
+  "last_updated": "2026-08-07",
+  "count": 7,
   "items": [
     {
-      "title": "Argus: A General-Purpose Agentic Runtime for Long-Horizon Reasoning",
-      "authors": "Boxiu Li, Zimo Wen, Yijia Fan et al.",
-      "abstract": "Long-horizon reasoning requires an agentic runtime that can persist when evidence supports its current approach and pivot when measurements reveal failure, hidden constraints, or a misspecified objective. We present Argus, a persistent, self-evolving runtime in which Manager, Planner, Engineer, and ...",
+      "title": "The Illusion of Visual Tool-Use: A Causal Audit of Thinking with Images",
+      "authors": "Zhiheng Wang, Bo Peng, Lai Wei et al.",
+      "abstract": "The \"thinking-with-images\" paradigm equips multimodal LLMs with active visual operations such as crop-and-zoom. However, models using these operations often achieve only marginal or negative gains over direct inference at substantially higher token cost. They may also repeatedly crop irrelevant regi...",
       "venue": "arXiv",
-      "date": "2026-08-05",
-      "arxiv_id": "2608.05144v1",
-      "url": "https://arxiv.org/abs/2608.05144v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.05144v1.pdf",
+      "date": "2026-08-06",
+      "arxiv_id": "2608.06270v1",
+      "url": "https://arxiv.org/abs/2608.06270v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.06270v1.pdf",
       "categories": [
         "cs.AI"
       ],
-      "type": "ai",
+      "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "OctoLong: Mid-Training On Cross-Repository Code Contexts Enhances Long-Context Modeling",
-      "authors": "Indraneil Paul, Falko Helm, Goran Glavaš et al.",
-      "abstract": "Context lengths of language models (LMs) have dramatically increased, driven by the demands for in-context learning, self-improvement, and long-horizon agentic workflows. Existing long-context corpora, however, are dominated by books, academic articles, and code repositories, which are finite resour...",
+      "title": "Improving the Realism of Synthetic Clinical Benchmarks Under Utility Constraints",
+      "authors": "Omid Bazgir, Md Nasir, Jacob Hoffman et al.",
+      "abstract": "Synthetic clinical benchmarks for enterprise AI agents can pass existing utility checks and still remain structurally unrealistic, especially in privacy-sensitive healthcare settings where operational data are hard to access. We study how to improve such benchmarks without breaking the downstream ut...",
       "venue": "arXiv",
-      "date": "2026-08-05",
-      "arxiv_id": "2608.05141v1",
-      "url": "https://arxiv.org/abs/2608.05141v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.05141v1.pdf",
+      "date": "2026-08-06",
+      "arxiv_id": "2608.06265v1",
+      "url": "https://arxiv.org/abs/2608.06265v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.06265v1.pdf",
       "categories": [
         "cs.AI",
-        "cs.LG",
-        "cs.SE"
+        "cs.DB",
+        "cs.LG"
       ],
-      "type": "nlp",
+      "type": "benchmark",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Reasoning Core: Designing Broad Procedural Data for Completion-Supervised Reasoning Training",
-      "authors": "Damien Sileo, Valentin Lacombe, Dimitri Kachler",
-      "abstract": "Procedural generators produce useful verifiable reasoning problems at scale, but have received less attention as data for completion-supervised fine-tuning. We introduce Reasoning Core, a collection of 50 generators spanning mathematics, logic, planning, state tracking, formal languages, structured ...",
+      "title": "Routing Is Least Learnable Where It Is Most Valuable: Bounds on Representation Routing for Web Agents",
+      "authors": "Jiaming Wei, Zekun Wu, Adriano Koshiyama et al.",
+      "abstract": "Web agents observe a browser through text, pixels, or both, and the choice is usually fixed once for all tasks. We measure six observation modes across eight site-model combinations (cells) on VisualWebArena and WebArena and ask what choosing per task would buy. The modes are complementary: each sol...",
       "venue": "arXiv",
-      "date": "2026-08-05",
-      "arxiv_id": "2608.05148v1",
-      "url": "https://arxiv.org/abs/2608.05148v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.05148v1.pdf",
+      "date": "2026-08-06",
+      "arxiv_id": "2608.06171v1",
+      "url": "https://arxiv.org/abs/2608.06171v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.06171v1.pdf",
       "categories": [
         "cs.CL"
       ],
@@ -53,84 +53,70 @@
       "source": "arXiv"
     },
     {
-      "title": "Toward Skill-Native LLMs: Skill Entropy for Benchmarking and Training Long-Horizon Reasoning",
-      "authors": "Yinghui He, Ling Yang, Jiarui Liu et al.",
-      "abstract": "Long-horizon reasoning in recent LLMs demands that the model switch between distinct skills inside a reasoning chain, such as first doing a math derivation, then using the result to plan a schedule. We call such problems cross-skill long-horizon tasks: multi-step tasks whose steps require different ...",
+      "title": "Schema-Guided Hierarchical Information Extraction and Semantic Evaluation Using Generative AI",
+      "authors": "Modhurita Mitra, Jan-Willem Versteeg, Maarten D. Schermer et al.",
+      "abstract": "We present a schema-based framework for extracting complex, structured information from unstructured text documents using generative AI, followed by automated semantic evaluation of the extracted information against a gold standard. The schema, serving as an information model encoding domain knowled...",
       "venue": "arXiv",
-      "date": "2026-08-05",
-      "arxiv_id": "2608.05139v1",
-      "url": "https://arxiv.org/abs/2608.05139v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.05139v1.pdf",
+      "date": "2026-08-06",
+      "arxiv_id": "2608.06167v1",
+      "url": "https://arxiv.org/abs/2608.06167v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.06167v1.pdf",
       "categories": [
-        "cs.CL",
-        "cs.LG"
+        "cs.AI",
+        "cs.CL"
       ],
       "type": "benchmark",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "CoCo-IR: Contextual Composed Image Retrieval",
-      "authors": "Shengcao Cao, Tanmaya Shekhar Dabral, Zhongli Ding et al.",
-      "abstract": "Current instruction-based image retrieval systems are powerful but limited to single-turn interactions, failing to capture the iterative nature of complex, real-world visual searches. To overcome this limitation, we introduce Contextual Composed Image Retrieval (CoCo-IR), a novel task that enables u...",
+      "title": "TLNM: Externally Validated Tooth Detection, Numbering and Segmentation from Smartphone Photographs Using Mask R-CNN",
+      "authors": "Arash Nedaei, Henna Tiensuu, Elina Väyrynen et al.",
+      "abstract": "Oral health issues affect billions globally, but the cost and limited access to professional dental care hinder preventive oral healthcare. Research relies on clinical-grade radiographs or intraoral camera images, unavailable for public self-screening. This study introduces a tooth localisation and ...",
       "venue": "arXiv",
-      "date": "2026-08-05",
-      "arxiv_id": "2608.05149v1",
-      "url": "https://arxiv.org/abs/2608.05149v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.05149v1.pdf",
+      "date": "2026-08-06",
+      "arxiv_id": "2608.06275v1",
+      "url": "https://arxiv.org/abs/2608.06275v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.06275v1.pdf",
       "categories": [
-        "cs.CV"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Objects as Audio-Visual Modal Sound Fields",
-      "authors": "Zisen Shao, Zihao Wei, Derong Jin et al.",
-      "abstract": "While modern 3D reconstruction excels at modeling object geometry and appearance, it largely ignores the rich acoustic cues revealed through physical interaction. Object impact sounds convey material, stiffness, and structural properties that complement vision, yet existing impact sound modeling app...",
-      "venue": "arXiv",
-      "date": "2026-08-05",
-      "arxiv_id": "2608.05145v1",
-      "url": "https://arxiv.org/abs/2608.05145v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.05145v1.pdf",
-      "categories": [
-        "cs.CV"
+        "cs.CV",
+        "eess.IV"
       ],
       "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "AI-based single-shot structured-light depth reconstruction for real-time laparoscopic surgical guidance",
-      "authors": "Wayne Wonseok Rodgers, Xiangyi Le, Seonghoon Jang et al.",
-      "abstract": "Significance. Accurate intraoperative depth perception is important for autonomous and semi-autonomous robotic laparoscopic surgery. Conventional fringe projection profilometry can achieve millimeter-scale accuracy but often requires multi-shot acquisition, digital-micromirror-device projection, and...",
+      "title": "OTLesMix: Wasserstein Barycenter and Optimal Transport Map for Synthetic Lesion Generation with Diverse Shapes and Locations",
+      "authors": "Robin Trombetta, Carole Lartizien",
+      "abstract": "The development of deep learning over the past decade has revolutionized medical imaging segmentation, allowing the extraction of precise descriptors from large volumes to characterize pathologies. Data augmentation is a technique widely regarded as a way to improve model training. It includes simpl...",
       "venue": "arXiv",
-      "date": "2026-08-05",
-      "arxiv_id": "2608.05109v1",
-      "url": "https://arxiv.org/abs/2608.05109v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.05109v1.pdf",
+      "date": "2026-08-06",
+      "arxiv_id": "2608.06264v1",
+      "url": "https://arxiv.org/abs/2608.06264v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.06264v1.pdf",
       "categories": [
-        "eess.IV",
-        "cs.RO",
-        "physics.optics"
+        "cs.CV",
+        "cs.LG",
+        "eess.IV"
       ],
-      "type": "ai",
+      "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Learning When to Stop: Prefix-Optimal Dynamic Diffusion Policies for Continuous Control",
-      "authors": "Rohit Kumar Salla, Manoj Saravanan, Simon Stepputtis",
-      "abstract": "Diffusion policies are a powerful policy class for continuous control, but their iterative denoising process creates a substantial computational bottleneck. Reducing this cost requires adapting the number of denoising steps to the difficulty of each action while preserving task performance. We intro...",
+      "title": "Stochastic Dynamics on Persistence Diagram Space via Reinforcement Learning",
+      "authors": "Farzana Nasrin",
+      "abstract": "Persistence diagrams (PDs) provide stable and interpretable summaries of multiscale topological structure. While substantial progress has been made in the statistical analysis of PDs, existing literature often treats diagrams as static objects and provide limited frameworks for probabilistic modelin...",
       "venue": "arXiv",
-      "date": "2026-08-05",
-      "arxiv_id": "2608.05084v1",
-      "url": "https://arxiv.org/abs/2608.05084v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.05084v1.pdf",
+      "date": "2026-08-06",
+      "arxiv_id": "2608.06276v1",
+      "url": "https://arxiv.org/abs/2608.06276v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.06276v1.pdf",
       "categories": [
+        "stat.ML",
         "cs.LG",
-        "cs.RO"
+        "math.AT"
       ],
       "type": "ml",
       "badge": "arxiv",

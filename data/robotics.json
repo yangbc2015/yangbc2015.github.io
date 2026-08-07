@@ -1,7 +1,87 @@
 {
-  "last_updated": "2026-08-06",
+  "last_updated": "2026-08-07",
   "count": 200,
   "items": [
+    {
+      "title": "Robot Learning from Human Demonstrations: Handwritten Alphabet Trajectories and Human-Likeness Evaluation",
+      "summary": "Learning from demonstration (LfD) provides a developmental framework through which robots can develop motor skills by observing and imitating human dynamics, reducing reliance on explicit programming to teach a skill to a robot. The resulting human-l...",
+      "url": "https://arxiv.org/abs/2608.06221v1",
+      "date": "2026-08-06",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.06221v1",
+      "authors": "Alperen Kenan, Paul Bremner et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Design and Evaluation of a Touchscreen-Based Teleoperation Interface for Robotic Manipulators",
+      "summary": "Intuitive teleoperation interfaces are crucial for the safe and effective operation of robotic manipulators in challenging environments. In the nuclear industry, surface contact tasks such as swab sampling require precise path and force tracking, obs...",
+      "url": "https://arxiv.org/abs/2608.06219v1",
+      "date": "2026-08-06",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.06219v1",
+      "authors": "Juan José García Cárdenas, Alperen Kenan et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "VIDP: Variable Impedance Diffusion Policy for Compliant Robot Manipulation from Diverse Demonstrations",
+      "summary": "Contact-rich manipulation requires precise tracking and mechanical compliance, where variable impedance control can improve robustness in task success, whereas static compliance cannot adapt to varying contact constraints. Variable impedance skills c...",
+      "url": "https://arxiv.org/abs/2608.06210v1",
+      "date": "2026-08-06",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.06210v1",
+      "authors": "Hisham Khalil, Neil Fernandes et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "ErgoSurf: Ergodic Control for the Coverage of Unknown Surfaces",
+      "summary": "Contact-centric tasks on surfaces, ranging from inspection and cleaning to sanding and polishing, require robots to systematically cover the surface while maintaining stable contact. Ergodic control generates trajectories that spend time at a locatio...",
+      "url": "https://arxiv.org/abs/2608.06208v1",
+      "date": "2026-08-06",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.06208v1",
+      "authors": "Stefan Schneyer, Timo Bachmann et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Prior-SG: Task and Prior Driven Region Segmentation for Scene Graphs in Arbitrarily-Structured Environments",
+      "summary": "Hierarchical 3D scene graphs are a promising representation for high-level spatial reasoning in autonomous mobile platforms. However, existing extraction frameworks typically rely on purely local visual clustering or strict geometric heuristics, such...",
+      "url": "https://arxiv.org/abs/2608.06170v1",
+      "date": "2026-08-06",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.06170v1",
+      "authors": "Giorgio Tonetti, Laurent Kneip et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
     {
       "title": "[具 身 智 能 下一场竞争是数据？还是“具身 o1时刻”？",
       "summary": "[具 身 智 能 下一场竞争是数据？还是“具身 o1时刻”？",
@@ -2935,79 +3015,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "Human-Centric Transferable Tactile Pre-Training for Dexterous Robotic Manipulation",
-      "summary": "As an essential modality for dexterous and contact-rich tasks, tactile sensing provides precise force feedback that cannot be reliably inferred from vision. However, limited by hardware and data collection systems, existing datasets with tactility re...",
-      "url": "https://arxiv.org/abs/2607.01067v1",
-      "date": "2026-07-01",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.01067v1",
-      "authors": "Chi Zhang, Penglin Cai et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "RoboWorld: Fast and Reliable Neural Simulators for Generalist Robot Policy Evaluation",
-      "summary": "Video world models are emerging as a scalable alternative for evaluating generalist robot policies, bypassing the physical constraints and engineering burdens of real-world deployment. However, evaluating policies with video world models remains chal...",
-      "url": "https://arxiv.org/abs/2607.01060v1",
-      "date": "2026-07-01",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.01060v1",
-      "authors": "Byeongguk Jeon, Seonghyeon Ye et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "AutoSpeed: Annotation-Free Stage-Adaptive Motion Speed Learning for Robot Manipulation",
-      "summary": "Different stages of manipulation tasks exhibit varying levels of difficulty, suggesting stage-dependent motion speeds and temporal prediction horizons. However, existing IL-based visuomotor policies typically imitate the execution speed of expert dem...",
-      "url": "https://arxiv.org/abs/2607.01051v1",
-      "date": "2026-07-01",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.01051v1",
-      "authors": "Qingda Hu, Ziheng Qiu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "[具 身 智 能 的“大广告”时代：伴侣机器人，可能是唯一出路",
-      "summary": "[具 身 智 能 的“大广告”时代：伴侣机器人，可能是唯一出路",
-      "url": "http://36kr.com/p/3863035260992389",
-      "date": "2026-07-01",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
-      ]
-    },
-    {
-      "title": "[火热的 具 身 智 能，藏着半个自动驾驶圈",
-      "summary": "[火热的 具 身 智 能，藏着半个自动驾驶圈",
-      "url": "http://36kr.com/p/3856635996158851",
-      "date": "2026-07-01",
-      "source": "36氪",
-      "category": "自主系统",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "自动驾驶"
       ]
     }
   ]
