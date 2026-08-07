@@ -3,48 +3,49 @@
   "count": 7,
   "items": [
     {
-      "title": "The Illusion of Visual Tool-Use: A Causal Audit of Thinking with Images",
-      "authors": "Zhiheng Wang, Bo Peng, Lai Wei et al.",
-      "abstract": "The \"thinking-with-images\" paradigm equips multimodal LLMs with active visual operations such as crop-and-zoom. However, models using these operations often achieve only marginal or negative gains over direct inference at substantially higher token cost. They may also repeatedly crop irrelevant regi...",
+      "title": "Learning When to Trust via Selective Context Preference Optimization",
+      "authors": "Xian Sun, Wei Chow, Yingshuo Wang et al.",
+      "abstract": "Language models increasingly condition their answers on external signals, and a single misleading one can turn a correct answer wrong. The obvious remedy, training models to resist such signals, hides a failure mode: a model that ignores all context looks robust yet is useless when the context is wo...",
       "venue": "arXiv",
       "date": "2026-08-06",
-      "arxiv_id": "2608.06270v1",
-      "url": "https://arxiv.org/abs/2608.06270v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.06270v1.pdf",
+      "arxiv_id": "2608.06377v1",
+      "url": "https://arxiv.org/abs/2608.06377v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.06377v1.pdf",
       "categories": [
-        "cs.AI"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Improving the Realism of Synthetic Clinical Benchmarks Under Utility Constraints",
-      "authors": "Omid Bazgir, Md Nasir, Jacob Hoffman et al.",
-      "abstract": "Synthetic clinical benchmarks for enterprise AI agents can pass existing utility checks and still remain structurally unrealistic, especially in privacy-sensitive healthcare settings where operational data are hard to access. We study how to improve such benchmarks without breaking the downstream ut...",
-      "venue": "arXiv",
-      "date": "2026-08-06",
-      "arxiv_id": "2608.06265v1",
-      "url": "https://arxiv.org/abs/2608.06265v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.06265v1.pdf",
-      "categories": [
+        "cs.CL",
         "cs.AI",
-        "cs.DB",
         "cs.LG"
       ],
-      "type": "benchmark",
+      "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Routing Is Least Learnable Where It Is Most Valuable: Bounds on Representation Routing for Web Agents",
-      "authors": "Jiaming Wei, Zekun Wu, Adriano Koshiyama et al.",
-      "abstract": "Web agents observe a browser through text, pixels, or both, and the choice is usually fixed once for all tasks. We measure six observation modes across eight site-model combinations (cells) on VisualWebArena and WebArena and ask what choosing per task would buy. The modes are complementary: each sol...",
+      "title": "Tracing the Heart: An Evidence-Linked Pipeline for Heart-Failure Feature Engineering",
+      "authors": "Soorya Ram Shimgekar, Michelle Hu, Dorisa Shehi et al.",
+      "abstract": "Electronic health record (EHR) feature engineering is a major bottleneck in clinical research and AI, accounting for 39-45% of data scientists' workload. This is especially pronounced in heart failure, which affects an estimated 6.7 million U.S. adults and requires integrating fragmented EHR data wi...",
       "venue": "arXiv",
       "date": "2026-08-06",
-      "arxiv_id": "2608.06171v1",
-      "url": "https://arxiv.org/abs/2608.06171v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.06171v1.pdf",
+      "arxiv_id": "2608.06366v1",
+      "url": "https://arxiv.org/abs/2608.06366v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.06366v1.pdf",
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "The Bitter Lesson of Tool Calling",
+      "authors": "Ishan Patel, Sahil Sen, Elias Lumer et al.",
+      "abstract": "Tool use transforms LLMs into agents that act beyond their training data, and for code-capable models, programmatic tool calling extends this further by replacing rigid JSON calls with scripts that chain and parallelize naturally. However, a systematic evaluation of tools as code on an established b...",
+      "venue": "arXiv",
+      "date": "2026-08-06",
+      "arxiv_id": "2608.06370v1",
+      "url": "https://arxiv.org/abs/2608.06370v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.06370v1.pdf",
       "categories": [
         "cs.CL"
       ],
@@ -53,70 +54,65 @@
       "source": "arXiv"
     },
     {
-      "title": "Schema-Guided Hierarchical Information Extraction and Semantic Evaluation Using Generative AI",
-      "authors": "Modhurita Mitra, Jan-Willem Versteeg, Maarten D. Schermer et al.",
-      "abstract": "We present a schema-based framework for extracting complex, structured information from unstructured text documents using generative AI, followed by automated semantic evaluation of the extracted information against a gold standard. The schema, serving as an information model encoding domain knowled...",
+      "title": "Does FLAIR super-resolution erase or hallucinate small white-matter lesions?",
+      "authors": "Zahra Khodakarami, Yue Li, Pulkit Khandelwal et al.",
+      "abstract": "White matter hyperintensities (WMH), bright regions on Fluid-attenuated Inversion Recovery (FLAIR) scans are associated with cerebrovascular pathology and neurodegeneration. FLAIR is usually acquired with thick slices in clinical settings, giving it poor through-plane resolution. Super-resolution (S...",
       "venue": "arXiv",
       "date": "2026-08-06",
-      "arxiv_id": "2608.06167v1",
-      "url": "https://arxiv.org/abs/2608.06167v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.06167v1.pdf",
-      "categories": [
-        "cs.AI",
-        "cs.CL"
-      ],
-      "type": "benchmark",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "TLNM: Externally Validated Tooth Detection, Numbering and Segmentation from Smartphone Photographs Using Mask R-CNN",
-      "authors": "Arash Nedaei, Henna Tiensuu, Elina Väyrynen et al.",
-      "abstract": "Oral health issues affect billions globally, but the cost and limited access to professional dental care hinder preventive oral healthcare. Research relies on clinical-grade radiographs or intraoral camera images, unavailable for public self-screening. This study introduces a tooth localisation and ...",
-      "venue": "arXiv",
-      "date": "2026-08-06",
-      "arxiv_id": "2608.06275v1",
-      "url": "https://arxiv.org/abs/2608.06275v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.06275v1.pdf",
+      "arxiv_id": "2608.06311v1",
+      "url": "https://arxiv.org/abs/2608.06311v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.06311v1.pdf",
       "categories": [
         "cs.CV",
-        "eess.IV"
+        "cs.AI"
       ],
       "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "OTLesMix: Wasserstein Barycenter and Optimal Transport Map for Synthetic Lesion Generation with Diverse Shapes and Locations",
-      "authors": "Robin Trombetta, Carole Lartizien",
-      "abstract": "The development of deep learning over the past decade has revolutionized medical imaging segmentation, allowing the extraction of precise descriptors from large volumes to characterize pathologies. Data augmentation is a technique widely regarded as a way to improve model training. It includes simpl...",
+      "title": "UQ-Loc: Uncertainty-Aware LiDAR Scene Coordinate Regression",
+      "authors": "Jacek Komorowski",
+      "abstract": "LiDAR-based Scene Coordinate Regression (SCR) maps point clouds directly to 3D scene coordinates, enabling precise 6-DoF localisation without explicit map retrieval. However, existing methods produce deterministic predictions, discarding aleatoric uncertainty that could improve robustness and downst...",
       "venue": "arXiv",
       "date": "2026-08-06",
-      "arxiv_id": "2608.06264v1",
-      "url": "https://arxiv.org/abs/2608.06264v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.06264v1.pdf",
+      "arxiv_id": "2608.06307v1",
+      "url": "https://arxiv.org/abs/2608.06307v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.06307v1.pdf",
       "categories": [
-        "cs.CV",
-        "cs.LG",
-        "eess.IV"
+        "cs.CV"
       ],
       "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Stochastic Dynamics on Persistence Diagram Space via Reinforcement Learning",
-      "authors": "Farzana Nasrin",
-      "abstract": "Persistence diagrams (PDs) provide stable and interpretable summaries of multiscale topological structure. While substantial progress has been made in the statistical analysis of PDs, existing literature often treats diagrams as static objects and provide limited frameworks for probabilistic modelin...",
+      "title": "$ω$-0: A Latent Predictive World Action Model for Concurrent Humanoid Loco-Manipulation",
+      "authors": "Zhe Li, Zhenzhe Zhang, Yangyang Wei et al.",
+      "abstract": "Humanoid household tasks often require concurrent loco-manipulation, where the robot must move, adjust posture, maintain balance, and manipulate objects as a single coordinated behavior. Yet existing humanoid policies typically decompose locomotion and manipulation, while recent world-action models ...",
       "venue": "arXiv",
       "date": "2026-08-06",
-      "arxiv_id": "2608.06276v1",
-      "url": "https://arxiv.org/abs/2608.06276v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.06276v1.pdf",
+      "arxiv_id": "2608.06375v1",
+      "url": "https://arxiv.org/abs/2608.06375v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.06375v1.pdf",
       "categories": [
-        "stat.ML",
-        "cs.LG",
-        "math.AT"
+        "cs.RO"
+      ],
+      "type": "ai",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "DyPES-VLA: Learning Shared Dynamics Priors and Embodiment-Specific Control for Cross-Embodiment Manipulation",
+      "authors": "Junfeng Li, Junjie He, Zhide Zhong et al.",
+      "abstract": "Vision-Language-Action (VLA) models have become a powerful paradigm for robot manipulation, but training a single generalist policy for heterogeneous robot embodiments remains an open problem. Existing methods have two main limitations. First, they underuse dynamics priors shared across diverse visu...",
+      "venue": "arXiv",
+      "date": "2026-08-06",
+      "arxiv_id": "2608.06374v1",
+      "url": "https://arxiv.org/abs/2608.06374v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.06374v1.pdf",
+      "categories": [
+        "cs.RO"
       ],
       "type": "ml",
       "badge": "arxiv",

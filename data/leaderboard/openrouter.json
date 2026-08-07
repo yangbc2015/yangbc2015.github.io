@@ -47,7 +47,7 @@
       "rank": 6,
       "model": "inkling-small",
       "organization": "thinkingmachines",
-      "price_prompt": "0.0000005",
+      "price_prompt": "0.00000045",
       "price_completion": "0.0000012",
       "context_length": 524288
     },

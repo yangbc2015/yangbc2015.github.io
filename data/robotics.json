@@ -3,6 +3,70 @@
   "count": 200,
   "items": [
     {
+      "title": "$ω$-0: A Latent Predictive World Action Model for Concurrent Humanoid Loco-Manipulation",
+      "summary": "Humanoid household tasks often require concurrent loco-manipulation, where the robot must move, adjust posture, maintain balance, and manipulate objects as a single coordinated behavior. Yet existing humanoid policies typically decompose locomotion a...",
+      "url": "https://arxiv.org/abs/2608.06375v1",
+      "date": "2026-08-06",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.06375v1",
+      "authors": "Zhe Li, Zhenzhe Zhang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "DyPES-VLA: Learning Shared Dynamics Priors and Embodiment-Specific Control for Cross-Embodiment Manipulation",
+      "summary": "Vision-Language-Action (VLA) models have become a powerful paradigm for robot manipulation, but training a single generalist policy for heterogeneous robot embodiments remains an open problem. Existing methods have two main limitations. First, they u...",
+      "url": "https://arxiv.org/abs/2608.06374v1",
+      "date": "2026-08-06",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.06374v1",
+      "authors": "Junfeng Li, Junjie He et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "A Master-Salve Robot Manipulator for Needle-Based Teleoperation in MRI Chamber",
+      "summary": "We present a MR safe, master-slave robot manipulator for abdominal interventions in the MRI chamber. A human operated 2+1-DoF master controller manipulator transmits motion and force to a 2+1-DoF slave manipulator via fluid transmission. Jointly, a d...",
+      "url": "https://arxiv.org/abs/2608.06354v1",
+      "date": "2026-08-06",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.06354v1",
+      "authors": "Omar Curiel, Jing-Yuan Huang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "GeniWorld: A Generalizable Interactive World Model for Robotic Manipulation via Visual Actions",
+      "summary": "Generalist robot policies exhibit strong capabilities, but their robustness in complex and unseen environments remains limited. Scaling robot learning and evaluation in diverse real-world environments remains costly and challenging. Action-conditione...",
+      "url": "https://arxiv.org/abs/2608.06332v1",
+      "date": "2026-08-06",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.06332v1",
+      "authors": "Chenghao Gu, Hanyang Yu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
       "title": "Robot Learning from Human Demonstrations: Handwritten Alphabet Trajectories and Human-Likeness Evaluation",
       "summary": "Learning from demonstration (LfD) provides a developmental framework through which robots can develop motor skills by observing and imitating human dynamics, reducing reliance on explicit programming to teach a skill to a robot. The resulting human-l...",
       "url": "https://arxiv.org/abs/2608.06221v1",
@@ -2947,70 +3011,6 @@
       "type": "paper",
       "arxiv_id": "2607.01201v1",
       "authors": "Amir Noohian, Dylan Miller et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "FastBridge: Closing the Model-Based Realization Gap in Safety Filters on 3D Gaussian Splatting for Fast Quadrotor Flight",
-      "summary": "Fast quadrotor flight requires safe obstacle avoidance under tight onboard compute limits. While 3D Gaussian Splatting (3DGS) provides a continuous, geometry-aware scene representation for perception-driven navigation, existing 3DGS safety filters us...",
-      "url": "https://arxiv.org/abs/2607.01200v1",
-      "date": "2026-07-01",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.01200v1",
-      "authors": "Tscholl Dario, Nakka Yashwanth Kumar et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Structured 4D Latent Predictive Model for Robot Planning",
-      "summary": "Video predictive models are emerging as a powerful paradigm in robotics, offering a promising path toward task generalization, long-horizon planning, and flexible decision-making. However, prevailing approaches often operate on 2D video sequences, in...",
-      "url": "https://arxiv.org/abs/2607.01166v1",
-      "date": "2026-07-01",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.01166v1",
-      "authors": "Zhiyi Li, Peilin Wu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "ROSA: A Robotics Foundation Model Serving System for Robot Factories",
-      "summary": "Robotics foundation models (RFMs) are making general-purpose robots increasingly practical for factory deployments. While RFM serving systems are central to this vision, existing systems are largely shaped by a single-robot, single-model assumption: ...",
-      "url": "https://arxiv.org/abs/2607.01088v1",
-      "date": "2026-07-01",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.01088v1",
-      "authors": "Wenqi Jiang, Jason Clemons et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Where Am I? Semantic Map Grounding via Vision-Language Models for Multi-Modal Localization",
-      "summary": "We address robot localization in GPS-denied indoor environments by reframing it as a semantic reasoning task rather than a geometric estimation problem. Motivated by how humans localize using object-level cues and labeled maps, we ask whether a visio...",
-      "url": "https://arxiv.org/abs/2607.01079v1",
-      "date": "2026-07-01",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.01079v1",
-      "authors": "Suraj Borate, Aarav Shah et al.",
       "tags": [
         "机器人学习",
         "研究论文",
