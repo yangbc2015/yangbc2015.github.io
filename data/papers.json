@@ -1,7 +1,40 @@
 {
   "last_updated": "2026-08-08",
-  "count": 7,
+  "count": 6,
   "items": [
+    {
+      "title": "Does FLAIR super-resolution erase or hallucinate small white-matter lesions?",
+      "authors": "Zahra Khodakarami, Yue Li, Pulkit Khandelwal et al.",
+      "abstract": "White matter hyperintensities (WMH), bright regions on Fluid-attenuated Inversion Recovery (FLAIR) scans are associated with cerebrovascular pathology and neurodegeneration. FLAIR is usually acquired with thick slices in clinical settings, giving it poor through-plane resolution. Super-resolution (S...",
+      "venue": "arXiv",
+      "date": "2026-08-06",
+      "arxiv_id": "2608.06311v1",
+      "url": "https://arxiv.org/abs/2608.06311v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.06311v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "UQ-Loc: Uncertainty-Aware LiDAR Scene Coordinate Regression",
+      "authors": "Jacek Komorowski",
+      "abstract": "LiDAR-based Scene Coordinate Regression (SCR) maps point clouds directly to 3D scene coordinates, enabling precise 6-DoF localisation without explicit map retrieval. However, existing methods produce deterministic predictions, discarding aleatoric uncertainty that could improve robustness and downst...",
+      "venue": "arXiv",
+      "date": "2026-08-06",
+      "arxiv_id": "2608.06307v1",
+      "url": "https://arxiv.org/abs/2608.06307v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.06307v1.pdf",
+      "categories": [
+        "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
     {
       "title": "Learning When to Trust via Selective Context Preference Optimization",
       "authors": "Xian Sun, Wei Chow, Yingshuo Wang et al.",
@@ -34,55 +67,6 @@
         "cs.LG"
       ],
       "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "The Bitter Lesson of Tool Calling",
-      "authors": "Ishan Patel, Sahil Sen, Elias Lumer et al.",
-      "abstract": "Tool use transforms LLMs into agents that act beyond their training data, and for code-capable models, programmatic tool calling extends this further by replacing rigid JSON calls with scripts that chain and parallelize naturally. However, a systematic evaluation of tools as code on an established b...",
-      "venue": "arXiv",
-      "date": "2026-08-06",
-      "arxiv_id": "2608.06370v1",
-      "url": "https://arxiv.org/abs/2608.06370v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.06370v1.pdf",
-      "categories": [
-        "cs.CL"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Does FLAIR super-resolution erase or hallucinate small white-matter lesions?",
-      "authors": "Zahra Khodakarami, Yue Li, Pulkit Khandelwal et al.",
-      "abstract": "White matter hyperintensities (WMH), bright regions on Fluid-attenuated Inversion Recovery (FLAIR) scans are associated with cerebrovascular pathology and neurodegeneration. FLAIR is usually acquired with thick slices in clinical settings, giving it poor through-plane resolution. Super-resolution (S...",
-      "venue": "arXiv",
-      "date": "2026-08-06",
-      "arxiv_id": "2608.06311v1",
-      "url": "https://arxiv.org/abs/2608.06311v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.06311v1.pdf",
-      "categories": [
-        "cs.CV",
-        "cs.AI"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "UQ-Loc: Uncertainty-Aware LiDAR Scene Coordinate Regression",
-      "authors": "Jacek Komorowski",
-      "abstract": "LiDAR-based Scene Coordinate Regression (SCR) maps point clouds directly to 3D scene coordinates, enabling precise 6-DoF localisation without explicit map retrieval. However, existing methods produce deterministic predictions, discarding aleatoric uncertainty that could improve robustness and downst...",
-      "venue": "arXiv",
-      "date": "2026-08-06",
-      "arxiv_id": "2608.06307v1",
-      "url": "https://arxiv.org/abs/2608.06307v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.06307v1.pdf",
-      "categories": [
-        "cs.CV"
-      ],
-      "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     },
