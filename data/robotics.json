@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-08-07",
+  "last_updated": "2026-08-08",
   "count": 200,
   "items": [
     {
       "title": "[黎曼动力携手光轮智能与诺亦腾机器人，剑指2026年百万小时 具 身 智 能 数据建设",
       "summary": "[黎曼动力携手光轮智能与诺亦腾机器人，剑指2026年百万小时 具 身 智 能 数据建设",
       "url": "http://36kr.com/p/3929174402203014",
-      "date": "2026-08-07",
+      "date": "2026-08-08",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
@@ -18,7 +18,7 @@
       "title": "[具 身 智 能 下一场竞争是数据？还是“具身 o1时刻”？",
       "summary": "[具 身 智 能 下一场竞争是数据？还是“具身 o1时刻”？",
       "url": "http://36kr.com/p/3927764916950919",
-      "date": "2026-08-07",
+      "date": "2026-08-08",
       "source": "36氪",
       "category": "具身智能",
       "type": "news",
@@ -31,7 +31,7 @@
       "title": "[融资首发｜获力鼎光电、卧安机器人两大上市公司押注，真觉万象要造 具 身 智 能“数据地基”",
       "summary": "[融资首发｜获力鼎光电、卧安机器人两大上市公司押注，真觉万象要造 具 身 智 能“数据地基”",
       "url": "http://36kr.com/p/3927737997457797",
-      "date": "2026-08-07",
+      "date": "2026-08-08",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
@@ -117,6 +117,32 @@
         "机器人学习",
         "研究论文",
         "arXiv"
+      ]
+    },
+    {
+      "title": "被投变投资：具身智能赛道浮现三层投资传导链",
+      "summary": "被投变投资：具身智能赛道浮现三层投资传导链",
+      "url": "http://36kr.com/p/3927800839436419",
+      "date": "2026-08-06",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "2026年真觉万象获天使轮融资，做具身智能物理数据基建",
+      "summary": "2026年真觉万象获天使轮融资，做具身智能物理数据基建",
+      "url": "http://36kr.com/p/3927737997457797",
+      "date": "2026-08-06",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
       ]
     },
     {
@@ -2979,38 +3005,6 @@
       "tags": [
         "机器人",
         "具身智能"
-      ]
-    },
-    {
-      "title": "FurnitureVLA: Learning Long-Horizon Bimanual Furniture Assembly with Vision-Language-Action Model",
-      "summary": "Current work on robot furniture assembly mostly focuses on toy-scale settings or single-arm manipulation. We introduce FurnitureVLA, the first systematic study of real-scale bimanual furniture assembly using Vision-Language-Action models (VLAs). We f...",
-      "url": "https://arxiv.org/abs/2607.01212v1",
-      "date": "2026-07-01",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.01212v1",
-      "authors": "Chenyang Ma, Yue Yang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "GPU-Parallel Linearization Error Bounds for Real-Time Robust Optimal Control of Nonlinear and Neural Network Dynamics",
-      "summary": "This paper studies real-time robust optimal control for uncertain nonlinear systems, where linear time-varying (LTV) approximations make planning tractable but require sound linearization error bounds (LEBs) to guarantee robust constraint satisfactio...",
-      "url": "https://arxiv.org/abs/2607.01203v1",
-      "date": "2026-07-01",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.01203v1",
-      "authors": "Jeffrey Fang, Keyi Shen et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
       ]
     }
   ]
