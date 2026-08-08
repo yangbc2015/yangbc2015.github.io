@@ -8,18 +8,6 @@
       "count": 5,
       "items": [
         {
-          "title": "Markdown Content:",
-          "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-          "summary": "Markdown Content:...",
-          "date": "2026-08-07",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
           "title": "离谱！Dario雇专人调查自家员工，当代「锦衣卫」？",
           "link": "https://www.jiqizhixin.com/search/articles/离谱！Dario雇专人调查自家",
           "summary": "离谱！Dario雇专人调查自家员工，当代「锦衣卫」？...",
@@ -56,11 +44,23 @@
           ]
         },
         {
-          "title": "天工短剧工作台接入Seedance 2.5模型！定价打三折，刷新市场公开最低价",
-          "link": "https://www.jiqizhixin.com/search/articles/天工短剧工作台接入Seedan",
-          "summary": "天工短剧工作台接入Seedance 2.5模型！定价打三折，刷新市场公开最低价...",
-          "date": "2026-08-07",
-          "source": "机器之心",
+          "title": "海外团队纷纷下注，NeoLab浪潮狂飙",
+          "link": "https://www.qbitai.com/?s=海外团队纷纷下注，N",
+          "summary": "海外团队纷纷下注，NeoLab浪潮狂飙...",
+          "date": "2026-08-08",
+          "source": "量子位",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "AI语音“听、说、创”一站式满足",
+          "link": "https://www.qbitai.com/?s=AI语音“听、说、创",
+          "summary": "AI语音“听、说、创”一站式满足...",
+          "date": "2026-08-08",
+          "source": "量子位",
           "type": "industry",
           "tags": [
             "AI",

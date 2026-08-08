@@ -1,7 +1,7 @@
 {
   "last_updated": "2026-08-08",
   "count": 200,
-  "history_count": 201,
+  "history_count": 200,
   "retention_days": 30,
   "items": [
     {
@@ -65,9 +65,9 @@
       ]
     },
     {
-      "title": "*   [Latest](http://techcrunch.com/latest/)",
+      "title": "Published Time: Tue, 23 Jun 2026 02:06:19 GMT",
       "link": "https://techcrunch.com/category/artificial-intelligence/",
-      "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
+      "summary": "Published Time: Tue, 23 Jun 2026 02:06:19 GMT...",
       "date": "2026-08-08",
       "source": "TechCrunch",
       "type": "industry",
@@ -82,18 +82,6 @@
       "summary": "此后模型、算力、数据中心都在合作范围内...",
       "date": "2026-08-08",
       "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Markdown Content:",
-      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-      "summary": "Markdown Content:...",
-      "date": "2026-08-07",
-      "source": "机器之心",
       "type": "industry",
       "tags": [
         "AI",
@@ -128,6 +116,18 @@
       "title": "谷歌DeepMind让AI提前一天看见超级风暴：WeatherNext融合全球气象数据，实现领先级强度预测",
       "link": "https://www.jiqizhixin.com/search/articles/谷歌DeepMind让AI提前",
       "summary": "谷歌DeepMind让AI提前一天看见超级风暴：WeatherNext融合全球气象数据，实现领先级强度预测...",
+      "date": "2026-08-07",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "Markdown Content:",
+      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+      "summary": "Markdown Content:...",
       "date": "2026-08-07",
       "source": "机器之心",
       "type": "industry",
