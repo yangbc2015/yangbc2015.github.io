@@ -8,18 +8,6 @@
       "count": 5,
       "items": [
         {
-          "title": "Markdown Content:",
-          "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-          "summary": "Markdown Content:...",
-          "date": "2026-08-08",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
           "title": "AI走进实验室：从设计材料到执行实验，科学发现迎来新伙伴",
           "link": "https://www.jiqizhixin.com/search/articles/AI走进实验室：从设计材料到执",
           "summary": "AI走进实验室：从设计材料到执行实验，科学发现迎来新伙伴...",
@@ -59,6 +47,18 @@
           "title": "贵57.1倍的Claude Opus 4.8五项全输，赢它的不是模型，是Harness",
           "link": "https://www.jiqizhixin.com/search/articles/贵57.1倍的Claude O",
           "summary": "贵57.1倍的Claude Opus 4.8五项全输，赢它的不是模型，是Harness...",
+          "date": "2026-08-08",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "谷歌AI重组：创始人布林亲自盯Gemini，哈萨比斯交权",
+          "link": "https://www.jiqizhixin.com/search/articles/谷歌AI重组：创始人布林亲自盯",
+          "summary": "谷歌AI重组：创始人布林亲自盯Gemini，哈萨比斯交权...",
           "date": "2026-08-08",
           "source": "机器之心",
           "type": "industry",
