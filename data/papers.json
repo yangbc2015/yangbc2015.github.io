@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-08-10",
-  "count": 7,
+  "count": 6,
   "items": [
     {
       "title": "Learning When to Trust via Selective Context Preference Optimization",
@@ -34,22 +34,6 @@
         "cs.LG"
       ],
       "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "The Bitter Lesson of Tool Calling",
-      "authors": "Ishan Patel, Sahil Sen, Elias Lumer et al.",
-      "abstract": "Tool use transforms LLMs into agents that act beyond their training data, and for code-capable models, programmatic tool calling extends this further by replacing rigid JSON calls with scripts that chain and parallelize naturally. However, a systematic evaluation of tools as code on an established b...",
-      "venue": "arXiv",
-      "date": "2026-08-06",
-      "arxiv_id": "2608.06370v1",
-      "url": "https://arxiv.org/abs/2608.06370v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.06370v1.pdf",
-      "categories": [
-        "cs.CL"
-      ],
-      "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
