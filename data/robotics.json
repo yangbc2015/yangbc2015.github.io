@@ -40,10 +40,103 @@
       ]
     },
     {
+      "title": "Depth-Wise Probing and Pruning of the Planning Token in a Driving Vision-Language-Action Model",
+      "summary": "Vision-language-action (VLA) models route driving decisions through a deep language model, but it is unclear how much of that depth the action itself requires. We study a representative driving VLA whose entire plan is carried by a single planning to...",
+      "url": "https://arxiv.org/abs/2608.07361v1",
+      "date": "2026-08-07",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.07361v1",
+      "authors": "Harisankar Babu, Benjamin Coors et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Learning Fault-Tolerant Locomotion with Adaptive Gait Timing",
+      "summary": "Hardware failures require legged robots to rapidly reorganize coordination and gait timing to maintain stability and mobility. This is particularly challenging for larger quadrupeds, where increased mass and tighter actuation limits reduce the feasib...",
+      "url": "https://arxiv.org/abs/2608.07328v1",
+      "date": "2026-08-07",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.07328v1",
+      "authors": "Giovanbattista Gravina, Luca Rossini et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "TEMPO: Semantic-Action Decoupled RL Post-Training for Vision-Language-Action Models",
+      "summary": "Vision-language-action (VLA) models are commonly adapted to downstream manipulation tasks via supervised fine-tuning (SFT) or online reinforcement learning (RL) post-training. SFT is prone to distribution mismatch, and existing RL approaches typicall...",
+      "url": "https://arxiv.org/abs/2608.07314v1",
+      "date": "2026-08-07",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.07314v1",
+      "authors": "Ziheng Liu, Quantao Yang",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "WNM-3D: A World Navigation Model with 3D Scene Conditioning for Closed-Loop VLN",
+      "summary": "Recent vision-language navigation (VLN) systems increasingly adapt pretrained vision-language models (VLMs) into vision-language-action (VLA) policies that map egocentric observations and language instructions directly to navigation actions. Although...",
+      "url": "https://arxiv.org/abs/2608.07267v1",
+      "date": "2026-08-07",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.07267v1",
+      "authors": "Yuehao Huang, Yunzi Wu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Representation Handoffs for OpenArm-Based Laboratory Mobile Manipulation",
+      "summary": "Open-source robotics and foundation models have lowered the barrier to embodied AI, yet language-guided laboratory automation still requires reliable alignment from instructions and observations to safe actions. This field report presents an OpenArm-...",
+      "url": "https://arxiv.org/abs/2608.07154v1",
+      "date": "2026-08-07",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.07154v1",
+      "authors": "Yang Shen, Chonghao Cheng et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
       "title": "黎曼动力联合两家企业，共建百万小时具身智能数据闭环",
       "summary": "黎曼动力联合两家企业，共建百万小时具身智能数据闭环",
       "url": "http://36kr.com/p/3929174402203014",
       "date": "2026-08-07",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "被投变投资：具身智能赛道浮现三层投资传导链",
+      "summary": "被投变投资：具身智能赛道浮现三层投资传导链",
+      "url": "http://36kr.com/p/3927800839436419",
+      "date": "2026-08-06",
       "source": "36氪",
       "category": "具身智能",
       "type": "news",
@@ -130,19 +223,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "被投变投资：具身智能赛道浮现三层投资传导链",
-      "summary": "被投变投资：具身智能赛道浮现三层投资传导链",
-      "url": "http://36kr.com/p/3927800839436419",
-      "date": "2026-08-06",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
       ]
     },
     {
@@ -2925,86 +3005,6 @@
       "tags": [
         "机器人",
         "具身智能"
-      ]
-    },
-    {
-      "title": "HEFT: Heavy-Payload Full-size Humanoid Teleoperation with Privileged Motion Guidance and Windowed Payload Curriculum",
-      "summary": "General motion tracking and teleoperation offer a promising path to scalable humanoid skill acquisition, yet most existing frameworks are validated on compact platforms or without real payload interaction, leaving full-size humanoids with real payloa...",
-      "url": "https://arxiv.org/abs/2607.02332v1",
-      "date": "2026-07-02",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.02332v1",
-      "authors": "Chenxin Liu, Qingzhou Lu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "The Moving Eye: Enhancing VLA Spatial Generalization via Hybrid Dynamic Data Collection",
-      "summary": "Vision-Language-Action (VLA) models have shown remarkable promise in generalized robotic manipulation. However, their spatial generalization remains fragile. We argue that simply increasing the number of viewpoints is insufficient. Models often fall ...",
-      "url": "https://arxiv.org/abs/2607.02322v1",
-      "date": "2026-07-02",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.02322v1",
-      "authors": "Jincheng Tang, Yilong Zhu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Real-Time Visual Intelligence on Low-Cost UAVs: A Modular Approach for Tracking, Scanning, and Navigation",
-      "summary": "Autonomous drones are rapidly transforming modern warfare and civil applications alike. This paper presents the development of an integrated intelligent drone system designed to serve as a personal assistant. Leveraging the DJI Tello drone platform, ...",
-      "url": "https://arxiv.org/abs/2607.02298v1",
-      "date": "2026-07-02",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.02298v1",
-      "authors": "Andrei-Marian Ungureanu, Stelian Spînu",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "NEUROSYMLAND: Neuro-Symbolic Landing-Site Assessment for Robust and Edge-Deployable UAV Autonomy",
-      "summary": "Safe landing-site assessment in unstructured environments remains a key challenge for autonomous UAV deployment, as vision-only learning approaches often degrade under terrain variability and provide limited transparency in safety decisions. We prese...",
-      "url": "https://arxiv.org/abs/2607.02277v1",
-      "date": "2026-07-02",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.02277v1",
-      "authors": "Weixian Qian, Tianyi Yang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "CoFL-S: Spatially Queryable Sector Flow Fields for Local Language-Conditioned Navigation",
-      "summary": "Vision-Language Navigation has increasingly emphasized high-level instruction reasoning, memory, global map construction, and instruction decomposition, while the low-level action representation remains comparatively underexplored. We propose CoFL-S,...",
-      "url": "https://arxiv.org/abs/2607.02222v1",
-      "date": "2026-07-02",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.02222v1",
-      "authors": "Haokun Liu, Zhaoqi Ma et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
       ]
     }
   ]
