@@ -3,104 +3,103 @@
   "count": 6,
   "items": [
     {
-      "title": "CreativeInstruct: Scalably Teaching LLMs to Balance Quality, Creativity, and Diversity",
-      "authors": "Ananya Sahu, Mohit Bansal, Elias Stengel-Eskin",
-      "abstract": "While post-training improves the capabilities of large language models (LLMs), it generally lowers their output diversity and creativity, negatively impacting tasks that explicitly require creativity (e.g., story generation) as well as those that require it implicitly, e.g., reinforcement learning (...",
+      "title": "Beyond Naturalness: Probing Automated Text-To-Speech Evaluators on Linguistically Grounded Dimensions",
+      "authors": "Oluwanifemi Bamgbose, Simon Rosen, Jash Shah et al.",
+      "abstract": "Automated Text-to-Speech (TTS) evaluation methods (Mean Opinion Score (MOS) predictors and Audio Large Language Models (Audio-LLM) judges) are expected to reflect human perception, yet it is unclear how well they capture the distinct aspects of speech that listeners actually perceive. We deconstruct...",
       "venue": "arXiv",
-      "date": "2026-08-07",
-      "arxiv_id": "2608.07460v1",
-      "url": "https://arxiv.org/abs/2608.07460v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.07460v1.pdf",
+      "date": "2026-08-10",
+      "arxiv_id": "2608.09930v1",
+      "url": "https://arxiv.org/abs/2608.09930v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.09930v1.pdf",
       "categories": [
-        "cs.CL",
-        "cs.AI"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "CoinRAG: Contextualized Information Nugget KV Cache Reuse for Long-Context RAG",
-      "authors": "Gyuwan Kim, Cheoneum Park, Tao Yang",
-      "abstract": "Recent optimization studies on Retrieval-Augmented Generation (RAG) have exploited chunk-level KV cache reuse to avoid processing long retrieved contexts for higher efficiency, while significant information redundancy and noise still remain in the coarse-grained chunks. This paper optimizes the Pare...",
-      "venue": "arXiv",
-      "date": "2026-08-07",
-      "arxiv_id": "2608.07458v1",
-      "url": "https://arxiv.org/abs/2608.07458v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.07458v1.pdf",
-      "categories": [
-        "cs.CL",
+        "cs.SD",
         "cs.AI",
-        "cs.IR"
+        "cs.CL"
       ],
       "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "SimWAM: A Simple World Action Model for End-to-End Autonomous Driving",
-      "authors": "Zongchuang Zhao, Xin Zhou, Tianyang Xu et al.",
-      "abstract": "World-Action Models (WAMs) improve end-to-end autonomous driving by transferring video dynamics priors to action prediction, but existing methods require costly future generation at inference. We present SimWAM, a simple yet effective WAM that uses video generation purely as a training signal. It co...",
+      "title": "Multimodal Model Diffing for Feature Discovery and Control",
+      "authors": "Hunar Batra, Lachin Naghashyar, Ashkan Khakzar et al.",
+      "abstract": "Multimodal Large Language Models (MLLMs) exhibit strong visual understanding, yet the internal features that cause these behaviors remain difficult to identify, audit, or control. While applicable to post-hoc inspection, hidden states that are decomposed into interpretable feature directions using s...",
       "venue": "arXiv",
-      "date": "2026-08-07",
-      "arxiv_id": "2608.07468v1",
-      "url": "https://arxiv.org/abs/2608.07468v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.07468v1.pdf",
-      "categories": [
-        "cs.CV"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "MirrorWorld: Taming Video Diffusion Models for Mirror Reflection Generation",
-      "authors": "Youjun Zhao, Alex Warren, Gary K. L. Tam et al.",
-      "abstract": "Recent advances in video diffusion models (VDMs) have enabled high-fidelity video synthesis. However, generating mirror reflections remains challenging because the content within a mirror must remain consistent with the surrounding scene. Existing VDMs are not specifically designed to model scene-to...",
-      "venue": "arXiv",
-      "date": "2026-08-07",
-      "arxiv_id": "2608.07463v1",
-      "url": "https://arxiv.org/abs/2608.07463v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.07463v1.pdf",
+      "date": "2026-08-10",
+      "arxiv_id": "2608.09928v1",
+      "url": "https://arxiv.org/abs/2608.09928v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.09928v1.pdf",
       "categories": [
         "cs.CV",
-        "cs.LG"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Depth-Wise Probing and Pruning of the Planning Token in a Driving Vision-Language-Action Model",
-      "authors": "Harisankar Babu, Benjamin Coors, Christopher Lang et al.",
-      "abstract": "Vision-language-action (VLA) models route driving decisions through a deep language model, but it is unclear how much of that depth the action itself requires. We study a representative driving VLA whose entire plan is carried by a single planning token that a generative planner decodes into a traje...",
-      "venue": "arXiv",
-      "date": "2026-08-07",
-      "arxiv_id": "2608.07361v1",
-      "url": "https://arxiv.org/abs/2608.07361v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.07361v1.pdf",
-      "categories": [
-        "cs.RO",
-        "cs.CV"
+        "cs.AI",
+        "cs.CL"
       ],
       "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Learning Fault-Tolerant Locomotion with Adaptive Gait Timing",
-      "authors": "Giovanbattista Gravina, Luca Rossini, Carlo Rizzardo et al.",
-      "abstract": "Hardware failures require legged robots to rapidly reorganize coordination and gait timing to maintain stability and mobility. This is particularly challenging for larger quadrupeds, where increased mass and tighter actuation limits reduce the feasibility of aggressive, high-frequency compensation s...",
+      "title": "Perception Before Supervision: Self-Contained Visual Distillation from Counterfactual Blind Spots",
+      "authors": "Shravan Venkatraman, Omkar Thawakar, Ritesh Thawkar et al.",
+      "abstract": "Self-improvement for multimodal large language models (MLLMs) is typically driven by reward-based methods that provide only coarse scalar feedback. Distillation offers a richer alternative through dense token-level supervision, but in the visual domain it usually depends on privileged context constr...",
       "venue": "arXiv",
-      "date": "2026-08-07",
-      "arxiv_id": "2608.07328v1",
-      "url": "https://arxiv.org/abs/2608.07328v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.07328v1.pdf",
+      "date": "2026-08-10",
+      "arxiv_id": "2608.09931v1",
+      "url": "https://arxiv.org/abs/2608.09931v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.09931v1.pdf",
       "categories": [
-        "cs.RO",
-        "cs.LG"
+        "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Fairness in Link Prediction Beyond Demographic Parity: A Reproducibility Study",
+      "authors": "Valentijn Oldenburg, Floris de Kam, Stef de Wildt et al.",
+      "abstract": "In fair ranked link prediction, demographic parity ($Δ_\\mathrm{DP}$) is a common fairness metric. Yet, Mattos et al. (2025) argue that it fails to detect exposure bias because it ignores where links appear in the ranking. In this study, we reproduce this claim by showing that $Δ_\\mathrm{DP}$ can ind...",
+      "venue": "arXiv",
+      "date": "2026-08-10",
+      "arxiv_id": "2608.09899v1",
+      "url": "https://arxiv.org/abs/2608.09899v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.09899v1.pdf",
+      "categories": [
+        "cs.LG",
+        "cs.SI"
       ],
       "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "XPolicyLab: A Unified Standard and Open Ecosystem for Robot Policy Evaluation and Deployment",
+      "authors": "XPolicyLab Community, Tianxing Chen, Yue Chen et al.",
+      "abstract": "Robot policy evaluation and deployment remain fragmented by model-specific software dependencies, data representations, and runtime interfaces, so that connecting N policies to M evaluation environments requires O(NM) separate integrations. We present XPolicyLab, a unified standard and open ecosyste...",
+      "venue": "arXiv",
+      "date": "2026-08-10",
+      "arxiv_id": "2608.09892v1",
+      "url": "https://arxiv.org/abs/2608.09892v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.09892v1.pdf",
+      "categories": [
+        "cs.RO"
+      ],
+      "type": "benchmark",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "RoSE: A Robotic Soft Esophagus for Endoprosthetic Stent Testing",
+      "authors": "Dipankar Bhattacharya, Sherine Jesna V. A., Leo K. Cheng et al.",
+      "abstract": "Soft robotic systems are well suited for developing devices for biomedical applications. A bio-mimicking robotic soft esophagus (RoSE) is developed as an in vitro testing device of endoprosthetic stents for dysphagia management. Endoprosthetic stent placement is an immediate and cost-effective thera...",
+      "venue": "arXiv",
+      "date": "2026-08-10",
+      "arxiv_id": "2608.09891v1",
+      "url": "https://arxiv.org/abs/2608.09891v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.09891v1.pdf",
+      "categories": [
+        "cs.RO"
+      ],
+      "type": "ai",
       "badge": "arxiv",
       "source": "arXiv"
     }

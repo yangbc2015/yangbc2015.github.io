@@ -3,6 +3,86 @@
   "count": 200,
   "items": [
     {
+      "title": "XPolicyLab: A Unified Standard and Open Ecosystem for Robot Policy Evaluation and Deployment",
+      "summary": "Robot policy evaluation and deployment remain fragmented by model-specific software dependencies, data representations, and runtime interfaces, so that connecting N policies to M evaluation environments requires O(NM) separate integrations. We presen...",
+      "url": "https://arxiv.org/abs/2608.09892v1",
+      "date": "2026-08-10",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.09892v1",
+      "authors": "XPolicyLab Community, Tianxing Chen et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "RoSE: A Robotic Soft Esophagus for Endoprosthetic Stent Testing",
+      "summary": "Soft robotic systems are well suited for developing devices for biomedical applications. A bio-mimicking robotic soft esophagus (RoSE) is developed as an in vitro testing device of endoprosthetic stents for dysphagia management. Endoprosthetic stent ...",
+      "url": "https://arxiv.org/abs/2608.09891v1",
+      "date": "2026-08-10",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.09891v1",
+      "authors": "Dipankar Bhattacharya, Sherine Jesna V. A. et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Energy-Structured Latent World Models with Neural Time Fields for Physically Constistent Open-World Motion Planning",
+      "summary": "Physically consistent motion planning remains a fundamental challenge in embodied AI, as generated trajectories must strictly conform to real-world execution dynamics. While latent world models offer a promising approach by predicting these dynamics,...",
+      "url": "https://arxiv.org/abs/2608.09876v1",
+      "date": "2026-08-10",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.09876v1",
+      "authors": "Yapeng Liu, Yuanzhao Zhai et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Entanglement-Free Trajectory Planning for Tethered Mobile Robots with a Slack Tether",
+      "summary": "In motion planning algorithms for tethered mobile robots, the entanglement state of the tether is a critical aspect to consider during the planning phase. This is particularly important in case of a slack tether, where the shape of the tether is not ...",
+      "url": "https://arxiv.org/abs/2608.09860v1",
+      "date": "2026-08-10",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.09860v1",
+      "authors": "Gianpietro Battocletti, Dimitris Boskos et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Agentic Harnesses: LLM-Driven Verification Layers for Robot Autonomy",
+      "summary": "Advances in advanced artificial intelligence tools have sparked research in robot autonomy, but the development of such systems has largely focused on execution rather than verifying the feasibility actions planning models propose. Like general-purpo...",
+      "url": "https://arxiv.org/abs/2608.09857v1",
+      "date": "2026-08-10",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.09857v1",
+      "authors": "Rohan Bhagra, Mahantesh Halapannavar et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
       "title": "[黎曼动力携手光轮智能与诺亦腾机器人，剑指2026年百万小时 具 身 智 能 数据建设",
       "summary": "[黎曼动力携手光轮智能与诺亦腾机器人，剑指2026年百万小时 具 身 智 能 数据建设",
       "url": "http://36kr.com/p/3929174402203014",
@@ -37,6 +117,19 @@
       "type": "news",
       "tags": [
         "机器人"
+      ]
+    },
+    {
+      "title": "黎曼动力联合两家企业，共建百万小时具身智能数据闭环",
+      "summary": "黎曼动力联合两家企业，共建百万小时具身智能数据闭环",
+      "url": "http://36kr.com/p/3929174402203014",
+      "date": "2026-08-07",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
       ]
     },
     {
@@ -117,19 +210,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "黎曼动力联合两家企业，共建百万小时具身智能数据闭环",
-      "summary": "黎曼动力联合两家企业，共建百万小时具身智能数据闭环",
-      "url": "http://36kr.com/p/3929174402203014",
-      "date": "2026-08-07",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
       ]
     },
     {
@@ -2928,83 +3008,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "Embodied.cpp: A Portable Inference Runtime of Embodied AI Models on Heterogeneous Robots",
-      "summary": "Embodied AI models now span vision-language-action (VLA) models and world-action models (WAMs), but practical deployment remains fragmented across model-specific Python stacks, backend assumptions, and robot-side glue code, especially on heterogeneou...",
-      "url": "https://arxiv.org/abs/2607.02501v1",
-      "date": "2026-07-02",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.02501v1",
-      "authors": "Ling Xu, Chuyu Han et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Controllable Sim Agents with Behavior Latents",
-      "summary": "Realistic traffic simulation requires agents that imitate logged behavior and can also be steered along interpretable axes. Such controllability enables engineers to isolate variables, reproduce specific edge cases, and test autonomous systems withou...",
-      "url": "https://arxiv.org/abs/2607.02496v1",
-      "date": "2026-07-02",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.02496v1",
-      "authors": "Juanwu Lu, Junyu Zhu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "QuadRocket: An Aerial Robotic Testbed for Adaptive Thrust-Vector Control of Rocket-Like Vehicles",
-      "summary": "This paper presents QuadRocket, a quadrotor-based rocket prototype that provides a low-cost, low-risk platform for validating advanced thrust-vector control strategies for launch vehicle-type systems. The prototype consists of a cylindrical main body...",
-      "url": "https://arxiv.org/abs/2607.02474v1",
-      "date": "2026-07-02",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.02474v1",
-      "authors": "Pedro Santos, Joel Reis et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Learning Agile Intruder Interception using Differentiable Quadrotor Dynamics",
-      "summary": "This paper presents a methodology for learning a control policy to intercept an intruder using the 3D direction unit vector to the intruder and the interceptor state. Prior deep reinforcement learning approaches assume either relative position or dis...",
-      "url": "https://arxiv.org/abs/2607.02472v1",
-      "date": "2026-07-02",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.02472v1",
-      "authors": "Michael Anoruo, Xiaoyu Tian et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "打造立足大湾区、联动全国、接轨APEC平台的国家级具身智能行业盛会。",
-      "summary": "打造立足大湾区、联动全国、接轨APEC平台的国家级具身智能行业盛会。",
-      "url": "http://36kr.com/p/3878035262418950",
-      "date": "2026-07-02",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
       ]
     }
   ]
