@@ -1,57 +1,90 @@
 {
   "last_updated": "2026-08-12",
-  "count": 3,
+  "count": 5,
   "items": [
     {
-      "title": "Beyond Naturalness: Probing Automated Text-To-Speech Evaluators on Linguistically Grounded Dimensions",
-      "authors": "Oluwanifemi Bamgbose, Simon Rosen, Jash Shah et al.",
-      "abstract": "Automated Text-to-Speech (TTS) evaluation methods (Mean Opinion Score (MOS) predictors and Audio Large Language Models (Audio-LLM) judges) are expected to reflect human perception, yet it is unclear how well they capture the distinct aspects of speech that listeners actually perceive. We deconstruct...",
+      "title": "Surgical WAM: A World-Action Model for Data-Efficient Surgical Robot Learning",
+      "authors": "Wenrui Bao, Tianyun Jiang, Zhiben Chen et al.",
+      "abstract": "Learning reliable surgical manipulation policies is bottlenecked by the scarcity of action-labeled demonstrations: teleoperated surgical robot (e.g., dVRK) trajectories with synchronized kinematics are costly to collect, while surgical tasks demand precise contact handling, long-horizon reasoning, a...",
       "venue": "arXiv",
-      "date": "2026-08-10",
-      "arxiv_id": "2608.09930v1",
-      "url": "https://arxiv.org/abs/2608.09930v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.09930v1.pdf",
+      "date": "2026-08-11",
+      "arxiv_id": "2608.11204v1",
+      "url": "https://arxiv.org/abs/2608.11204v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.11204v1.pdf",
       "categories": [
-        "cs.SD",
+        "cs.RO",
         "cs.AI",
-        "cs.CL"
+        "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "ConVAWG: A Retrieval-Grounded Framework for Controlled Synthetic Dialogue Generation in Violence Against Women and Girls",
+      "authors": "Chen Lyu, Xingwei Tan, Simon Cullen et al.",
+      "abstract": "Synthetic dialogue generation offers a way to study conversational dynamics in sensitive domains where real data are difficult to access, release, or annotate. The underlying abuse may occur online or offline: threats and coercion can appear directly in messages, while behaviours such as surveillanc...",
+      "venue": "arXiv",
+      "date": "2026-08-11",
+      "arxiv_id": "2608.11200v1",
+      "url": "https://arxiv.org/abs/2608.11200v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.11200v1.pdf",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
       ],
       "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Multimodal Model Diffing for Feature Discovery and Control",
-      "authors": "Hunar Batra, Lachin Naghashyar, Ashkan Khakzar et al.",
-      "abstract": "Multimodal Large Language Models (MLLMs) exhibit strong visual understanding, yet the internal features that cause these behaviors remain difficult to identify, audit, or control. While applicable to post-hoc inspection, hidden states that are decomposed into interpretable feature directions using s...",
+      "title": "Beyond a Bag of Features: Set-Level Instability in Sparse Autoencoders",
+      "authors": "Nikolai Bolik, Lennart Stöpler, Artur Andrzejak",
+      "abstract": "Shani et al. (2026) show that LLM representations broadly recover human category boundaries, while failing to reflect fine-grained typicality structure. Their analysis uses cosine similarity over dense model representations. We revisit their approach using overlap over active sparse autoencoder (SAE...",
       "venue": "arXiv",
-      "date": "2026-08-10",
-      "arxiv_id": "2608.09928v1",
-      "url": "https://arxiv.org/abs/2608.09928v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.09928v1.pdf",
-      "categories": [
-        "cs.CV",
-        "cs.AI",
-        "cs.CL"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Fairness in Link Prediction Beyond Demographic Parity: A Reproducibility Study",
-      "authors": "Valentijn Oldenburg, Floris de Kam, Stef de Wildt et al.",
-      "abstract": "In fair ranked link prediction, demographic parity ($Δ_\\mathrm{DP}$) is a common fairness metric. Yet, Mattos et al. (2025) argue that it fails to detect exposure bias because it ignores where links appear in the ranking. In this study, we reproduce this claim by showing that $Δ_\\mathrm{DP}$ can ind...",
-      "venue": "arXiv",
-      "date": "2026-08-10",
-      "arxiv_id": "2608.09899v1",
-      "url": "https://arxiv.org/abs/2608.09899v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.09899v1.pdf",
+      "date": "2026-08-11",
+      "arxiv_id": "2608.11197v1",
+      "url": "https://arxiv.org/abs/2608.11197v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.11197v1.pdf",
       "categories": [
         "cs.LG",
-        "cs.SI"
+        "cs.CL"
       ],
-      "type": "ml",
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "AdvFD: Boosting Visual Generation via Adversarial Fr'echet Distance Loss",
+      "authors": "Mingju Gao, Jingkai Zhou, Kun Gai et al.",
+      "abstract": "Fréchet distance has recently emerged as an effective distribution-level objective for generator post-training, complementing the conventional sample-level diffusion and flow-matching losses. However, directly optimizing Fréchet objectives can cause Fréchet hacking. The target metrics keep improving...",
+      "venue": "arXiv",
+      "date": "2026-08-11",
+      "arxiv_id": "2608.11205v1",
+      "url": "https://arxiv.org/abs/2608.11205v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.11205v1.pdf",
+      "categories": [
+        "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Risk-Aware Kinodynamic Motion Planning Under Uncertainty For Safe Navigation on Planetary Environments",
+      "authors": "Sachin Sunil Kelkar, Tanmay Dokania, Yashwanth Kumar Nakka",
+      "abstract": "For autonomous space exploration, robotic agents need to perform motion planning in which environmental interactions may be unknown. Learning these interactions, such as terrain mechanics for wheeled robots, can introduce uncertainties that lead to risky motion plans and potentially hazardous operat...",
+      "venue": "arXiv",
+      "date": "2026-08-11",
+      "arxiv_id": "2608.11175v1",
+      "url": "https://arxiv.org/abs/2608.11175v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.11175v1.pdf",
+      "categories": [
+        "cs.RO",
+        "eess.SY"
+      ],
+      "type": "ai",
       "badge": "arxiv",
       "source": "arXiv"
     }

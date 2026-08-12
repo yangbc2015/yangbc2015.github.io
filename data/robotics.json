@@ -15,6 +15,86 @@
       ]
     },
     {
+      "title": "Surgical WAM: A World-Action Model for Data-Efficient Surgical Robot Learning",
+      "summary": "Learning reliable surgical manipulation policies is bottlenecked by the scarcity of action-labeled demonstrations: teleoperated surgical robot (e.g., dVRK) trajectories with synchronized kinematics are costly to collect, while surgical tasks demand p...",
+      "url": "https://arxiv.org/abs/2608.11204v1",
+      "date": "2026-08-11",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.11204v1",
+      "authors": "Wenrui Bao, Tianyun Jiang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Risk-Aware Kinodynamic Motion Planning Under Uncertainty For Safe Navigation on Planetary Environments",
+      "summary": "For autonomous space exploration, robotic agents need to perform motion planning in which environmental interactions may be unknown. Learning these interactions, such as terrain mechanics for wheeled robots, can introduce uncertainties that lead to r...",
+      "url": "https://arxiv.org/abs/2608.11175v1",
+      "date": "2026-08-11",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.11175v1",
+      "authors": "Sachin Sunil Kelkar, Tanmay Dokania et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "VIScore: Diagnosing Planning-Relevant Quality in Latent World Models",
+      "summary": "Regulating the latent space to an isotropic Gaussian distribution provides a stable and information-maximized landscape for world model planning. However, the latent space property and successful planning remain disconnected. We first study this by c...",
+      "url": "https://arxiv.org/abs/2608.11174v1",
+      "date": "2026-08-11",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.11174v1",
+      "authors": "Haiyu Wu, Randall Balestriero et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Deployment Is Not Destiny: Robot Recomposition in the Field with Unseen Software, Hardware, and Compute Payloads",
+      "summary": "The tight coupling of subsystems in most robots, though a natural consequence of their complexity, leads to monolithic designs that are time-consuming and difficult to adapt after initial deployment. To address this challenge, we present a framework ...",
+      "url": "https://arxiv.org/abs/2608.11063v1",
+      "date": "2026-08-11",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.11063v1",
+      "authors": "Steven Swanbeck, Jonathan Salfity et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Seeing above the waves: A modular sensing framework for data acquisition at sea",
+      "summary": "Advancing autonomy for surface vessels requires systematic evaluation of their sensing and perception subsystems. Yet, maritime environments impose unique challenges: sensor installation is constrained by vessel layout, environmental conditions such ...",
+      "url": "https://arxiv.org/abs/2608.10997v1",
+      "date": "2026-08-11",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.10997v1",
+      "authors": "Jonathan E. Schmidt, Julius Wirbel et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
       "title": "[具 身 智 能 下一场竞争是数据？还是“具身 o1时刻”？",
       "summary": "[具 身 智 能 下一场竞争是数据？还是“具身 o1时刻”？",
       "url": "http://36kr.com/p/3927764916950919",
@@ -37,6 +117,32 @@
       "type": "news",
       "tags": [
         "机器人"
+      ]
+    },
+    {
+      "title": "从资本到市场，再到产业链、政策支持，这是具身智能厂商最好的时间窗口，也是弯道超车的机会。宇树科技的上市，是具身智能阶段性的高潮，也意味着行业竞争即将进入更残酷的阶段。",
+      "summary": "从资本到市场，再到产业链、政策支持，这是具身智能厂商最好的时间窗口，也是弯道超车的机会。宇树科技的上市，是具身智能阶段性的高潮，也意味着行业竞争即将进入更残酷的阶段。",
+      "url": "http://36kr.com/p/3933035851470470",
+      "date": "2026-08-10",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "具身智能200亿俱乐部，一文看懂5家公司",
+      "summary": "具身智能200亿俱乐部，一文看懂5家公司",
+      "url": "http://36kr.com/p/3932950970449027",
+      "date": "2026-08-10",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
       ]
     },
     {
@@ -117,32 +223,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "从资本到市场，再到产业链、政策支持，这是具身智能厂商最好的时间窗口，也是弯道超车的机会。宇树科技的上市，是具身智能阶段性的高潮，也意味着行业竞争即将进入更残酷的阶段。",
-      "summary": "从资本到市场，再到产业链、政策支持，这是具身智能厂商最好的时间窗口，也是弯道超车的机会。宇树科技的上市，是具身智能阶段性的高潮，也意味着行业竞争即将进入更残酷的阶段。",
-      "url": "http://36kr.com/p/3933035851470470",
-      "date": "2026-08-10",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "具身智能200亿俱乐部，一文看懂5家公司",
-      "summary": "具身智能200亿俱乐部，一文看懂5家公司",
-      "url": "http://36kr.com/p/3932950970449027",
-      "date": "2026-08-10",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
       ]
     },
     {
@@ -2935,76 +3015,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "Cortex: A Bidirectionally Aligned Embodied Agent Framework for Long-horizon Manipulation",
-      "summary": "While recent Vision-Language-Action (VLA) models show promise toward generalist manipulation policies, they struggle with long-horizon tasks due to their Markovian nature-relying solely on current observations. Hierarchical dual-system methods addres...",
-      "url": "https://arxiv.org/abs/2607.05377v1",
-      "date": "2026-07-06",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.05377v1",
-      "authors": "Jiaqi Peng, Xiqian Yu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "GaP: A Graph-as-Policy Multi-Agent Self-Learning Harness For Variational Automation Tasks",
-      "summary": "For robots to work reliably in commercial and industrial applications, can recent advances in agentic coding systems combine interpretable robot programming with the open-world adaptability of model-free policies? We focus on \"Variational Automation\"...",
-      "url": "https://arxiv.org/abs/2607.05369v1",
-      "date": "2026-07-06",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.05369v1",
-      "authors": "Kaiyuan Chen, Shuangyu Xie et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "[上纬新材CEO田华首谈 具 身 智 能：要造所有人买得起的个人机器人",
-      "summary": "[上纬新材CEO田华首谈 具 身 智 能：要造所有人买得起的个人机器人",
-      "url": "http://36kr.com/p/3877003233898501",
-      "date": "2026-07-04",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
-      ]
-    },
-    {
-      "title": "[人形机器人降至万元级，上半年 具 身 智 能 融资超460亿元",
-      "summary": "[人形机器人降至万元级，上半年 具 身 智 能 融资超460亿元",
-      "url": "http://36kr.com/p/3871216256455938",
-      "date": "2026-07-04",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "人形机器人"
-      ]
-    },
-    {
-      "title": "具身智能的真正价值，是要成为人类能力的延伸。",
-      "summary": "具身智能的真正价值，是要成为人类能力的延伸。",
-      "url": "http://36kr.com/p/3879575583322370",
-      "date": "2026-07-03",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
       ]
     }
   ]
