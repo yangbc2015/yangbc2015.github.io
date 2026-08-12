@@ -1,9 +1,21 @@
 {
   "last_updated": "2026-08-12",
   "count": 200,
-  "history_count": 201,
+  "history_count": 203,
   "retention_days": 30,
   "items": [
+    {
+      "title": "2026年7月29日—30日，由融中财经和秦创原科技创新投资集团主办的2026中国科创投资夏季峰会暨陕西科创产业生态大会圆满落幕。",
+      "link": "https://www.qbitai.com/?s=2026年7月29日",
+      "summary": "2026年7月29日—30日，由融中财经和秦创原科技创新投资集团主办的2026中国科创投资夏季峰会暨陕西科创产业生态大会圆满落幕。...",
+      "date": "2026-08-12",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
     {
       "title": "从柔性本体走向跨本体基础智能，让任务与世界知识延续",
       "link": "https://www.qbitai.com/?s=从柔性本体走向跨本体",
@@ -14,6 +26,42 @@
       "tags": [
         "AI",
         "人工智能"
+      ]
+    },
+    {
+      "title": "全球AI安全实战化测评，中国方案DoGNAVY位列前三",
+      "link": "https://www.qbitai.com/?s=全球AI安全实战化测",
+      "summary": "全球AI安全实战化测评，中国方案DoGNAVY位列前三...",
+      "date": "2026-08-12",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "从面向个人的AI创作工具，扩展为可供组织使用的生产力平台",
+      "link": "https://www.qbitai.com/?s=从面向个人的AI创作",
+      "summary": "从面向个人的AI创作工具，扩展为可供组织使用的生产力平台...",
+      "date": "2026-08-12",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "Published Time: Thu, 08 May 2025 23:15:48 GMT",
+      "link": "https://techcrunch.com/category/artificial-intelligence/",
+      "summary": "Published Time: Thu, 08 May 2025 23:15:48 GMT...",
+      "date": "2026-08-12",
+      "source": "TechCrunch",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "Artificial Intelligence"
       ]
     },
     {
@@ -50,18 +98,6 @@
       "tags": [
         "AI",
         "人工智能"
-      ]
-    },
-    {
-      "title": "*   [Latest](http://techcrunch.com/latest/)",
-      "link": "https://techcrunch.com/category/artificial-intelligence/",
-      "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
-      "date": "2026-08-12",
-      "source": "TechCrunch",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "Artificial Intelligence"
       ]
     },
     {
@@ -2360,42 +2396,6 @@
       "title": "极佳视界通用世界模型成WAIC焦点：从生成到行动，这才是物理AGI的最佳打开方式",
       "link": "https://www.jiqizhixin.com/search/articles/极佳视界通用世界模型成WAIC",
       "summary": "极佳视界通用世界模型成WAIC焦点：从生成到行动，这才是物理AGI的最佳打开方式...",
-      "date": "2026-07-18",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "ECCV 2026｜当RGB变成不可靠变量：InfraNet用非对称学习重构RGB-IR检测",
-      "link": "https://www.jiqizhixin.com/search/articles/ECCV 2026｜当RGB变",
-      "summary": "ECCV 2026｜当RGB变成不可靠变量：InfraNet用非对称学习重构RGB-IR检测...",
-      "date": "2026-07-18",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "PPIO亮相WAIC 2026：发布智能模型网关，打造面向Agent时代的智能Token工厂",
-      "link": "https://www.jiqizhixin.com/search/articles/PPIO亮相WAIC 2026",
-      "summary": "PPIO亮相WAIC 2026：发布智能模型网关，打造面向Agent时代的智能Token工厂...",
-      "date": "2026-07-18",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "让智能体拥有原生语言，蚂蚁密算WAIC发布HOP 3.0",
-      "link": "https://www.jiqizhixin.com/search/articles/让智能体拥有原生语言，蚂蚁密算",
-      "summary": "让智能体拥有原生语言，蚂蚁密算WAIC发布HOP 3.0...",
       "date": "2026-07-18",
       "source": "机器之心",
       "type": "industry",
