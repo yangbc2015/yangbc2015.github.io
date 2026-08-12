@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-08-11",
+  "last_updated": "2026-08-12",
   "count": 200,
   "items": [
     {
       "title": "[黎曼动力携手光轮智能与诺亦腾机器人，剑指2026年百万小时 具 身 智 能 数据建设",
       "summary": "[黎曼动力携手光轮智能与诺亦腾机器人，剑指2026年百万小时 具 身 智 能 数据建设",
       "url": "http://36kr.com/p/3929174402203014",
-      "date": "2026-08-11",
+      "date": "2026-08-12",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
@@ -117,6 +117,32 @@
         "机器人学习",
         "研究论文",
         "arXiv"
+      ]
+    },
+    {
+      "title": "从资本到市场，再到产业链、政策支持，这是具身智能厂商最好的时间窗口，也是弯道超车的机会。宇树科技的上市，是具身智能阶段性的高潮，也意味着行业竞争即将进入更残酷的阶段。",
+      "summary": "从资本到市场，再到产业链、政策支持，这是具身智能厂商最好的时间窗口，也是弯道超车的机会。宇树科技的上市，是具身智能阶段性的高潮，也意味着行业竞争即将进入更残酷的阶段。",
+      "url": "http://36kr.com/p/3933035851470470",
+      "date": "2026-08-10",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "具身智能200亿俱乐部，一文看懂5家公司",
+      "summary": "具身智能200亿俱乐部，一文看懂5家公司",
+      "url": "http://36kr.com/p/3932950970449027",
+      "date": "2026-08-10",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
       ]
     },
     {
@@ -2979,35 +3005,6 @@
       "tags": [
         "机器人",
         "具身智能"
-      ]
-    },
-    {
-      "title": "将成为A股首家人形机器人上市公司。",
-      "summary": "将成为A股首家人形机器人上市公司。",
-      "url": "http://36kr.com/p/3879158039834629",
-      "date": "2026-07-03",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "人形机器人"
-      ]
-    },
-    {
-      "title": "VT-WAM: Visual-Tactile World Action Model for Contact-Rich Manipulation",
-      "summary": "Contact-rich manipulation requires policies to react to local deformation, pressure, slip, and friction, yet these cues are temporally sparse and often invisible in visual observations. Existing visual-tactile policies usually feed tactile observatio...",
-      "url": "https://arxiv.org/abs/2607.02503v1",
-      "date": "2026-07-02",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.02503v1",
-      "authors": "Shuai Tian, Yupeng Zheng et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
       ]
     }
   ]

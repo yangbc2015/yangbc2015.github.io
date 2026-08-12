@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-08-11",
+  "last_updated": "2026-08-12",
   "count": 200,
-  "history_count": 200,
+  "history_count": 205,
   "retention_days": 30,
   "items": [
     {
       "title": "全球灵巧手企业约50%在中国，且绝大多数将筹码押在了「五指」上。",
       "link": "https://www.qbitai.com/?s=全球灵巧手企业约50",
       "summary": "全球灵巧手企业约50%在中国，且绝大多数将筹码押在了「五指」上。...",
-      "date": "2026-08-11",
+      "date": "2026-08-12",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -20,7 +20,7 @@
       "title": "需求、资本和创业者正在快速推动，但从技术成熟、规模化量产到商业落地，中间仍隔着巨大的工程鸿沟。",
       "link": "https://www.qbitai.com/?s=需求、资本和创业者正",
       "summary": "需求、资本和创业者正在快速推动，但从技术成熟、规模化量产到商业落地，中间仍隔着巨大的工程鸿沟。...",
-      "date": "2026-08-11",
+      "date": "2026-08-12",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -32,7 +32,7 @@
       "title": "从云计算到云原生，产业真正的跃迁从来不是简单堆算力，而是找到更适合新世界的架构。",
       "link": "https://www.qbitai.com/?s=从云计算到云原生，产",
       "summary": "从云计算到云原生，产业真正的跃迁从来不是简单堆算力，而是找到更适合新世界的架构。...",
-      "date": "2026-08-11",
+      "date": "2026-08-12",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -41,15 +41,87 @@
       ]
     },
     {
-      "title": "Published Time: Thu, 08 May 2025 23:15:48 GMT",
+      "title": "*   [Latest](http://techcrunch.com/latest/)",
       "link": "https://techcrunch.com/category/artificial-intelligence/",
-      "summary": "Published Time: Thu, 08 May 2025 23:15:48 GMT...",
-      "date": "2026-08-11",
+      "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
+      "date": "2026-08-12",
       "source": "TechCrunch",
       "type": "industry",
       "tags": [
         "AI",
         "Artificial Intelligence"
+      ]
+    },
+    {
+      "title": "Markdown Content:",
+      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+      "summary": "Markdown Content:...",
+      "date": "2026-08-11",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "清华天眸芯团队再登Nature系列期刊封面，类脑互补视觉范式重塑AI感知世界的方式",
+      "link": "https://www.jiqizhixin.com/search/articles/清华天眸芯团队再登Nature",
+      "summary": "清华天眸芯团队再登Nature系列期刊封面，类脑互补视觉范式重塑AI感知世界的方式...",
+      "date": "2026-08-11",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "16个月后Meta杀回开源，小扎力挺蒸馏",
+      "link": "https://www.jiqizhixin.com/search/articles/16个月后Meta杀回开源，小",
+      "summary": "16个月后Meta杀回开源，小扎力挺蒸馏...",
+      "date": "2026-08-11",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "揭示扩散语言模型扩展定律，人大高瓴团队与蚂蚁集团发布LLaDA MoE v2",
+      "link": "https://www.jiqizhixin.com/search/articles/揭示扩散语言模型扩展定律，人大",
+      "summary": "揭示扩散语言模型扩展定律，人大高瓴团队与蚂蚁集团发布LLaDA MoE v2...",
+      "date": "2026-08-11",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "简单指令驱动原子模拟，开源多智能体框架赋能材料科学",
+      "link": "https://www.jiqizhixin.com/search/articles/简单指令驱动原子模拟，开源多智",
+      "summary": "简单指令驱动原子模拟，开源多智能体框架赋能材料科学...",
+      "date": "2026-08-11",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "4个月融进1亿美元、建齐3座「数据发电厂」，这家TechBio要造一个生物世界模型",
+      "link": "https://www.jiqizhixin.com/search/articles/4个月融进1亿美元、建齐3座「",
+      "summary": "4个月融进1亿美元、建齐3座「数据发电厂」，这家TechBio要造一个生物世界模型...",
+      "date": "2026-08-11",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
       ]
     },
     {
@@ -92,18 +164,6 @@
       "title": "RIP：只活了292天的Atlas",
       "link": "https://www.jiqizhixin.com/search/articles/RIP：只活了292天的Atl",
       "summary": "RIP：只活了292天的Atlas...",
-      "date": "2026-08-10",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Markdown Content:",
-      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-      "summary": "Markdown Content:...",
       "date": "2026-08-10",
       "source": "机器之心",
       "type": "industry",
@@ -2336,66 +2396,6 @@
       "title": "蚂蚁大安全CTO陈亮：智能体越强，信任风险越不容忽视",
       "link": "https://www.jiqizhixin.com/search/articles/蚂蚁大安全CTO陈亮：智能体越",
       "summary": "蚂蚁大安全CTO陈亮：智能体越强，信任风险越不容忽视...",
-      "date": "2026-07-18",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "打造AIDC绿电直连能源运营操作系统",
-      "link": "https://www.qbitai.com/?s=打造AIDC绿电直连",
-      "summary": "打造AIDC绿电直连能源运营操作系统...",
-      "date": "2026-07-18",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "北电数智带来AI赋能民生的真实答卷",
-      "link": "https://www.qbitai.com/?s=北电数智带来AI赋能",
-      "summary": "北电数智带来AI赋能民生的真实答卷...",
-      "date": "2026-07-18",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "采用非Transformer架构“Mobius”，不做泛化通用问答",
-      "link": "https://www.qbitai.com/?s=采用非Transfo",
-      "summary": "采用非Transformer架构“Mobius”，不做泛化通用问答...",
-      "date": "2026-07-18",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "模型、Harness Engineering与产品的持续进化",
-      "link": "https://www.qbitai.com/?s=模型、Harness",
-      "summary": "模型、Harness Engineering与产品的持续进化...",
-      "date": "2026-07-18",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "2026 WAIC商汤展区直击：“未来实验室”火爆亮相，四大主题“感知未来”",
-      "link": "https://www.jiqizhixin.com/search/articles/2026 WAIC商汤展区直击",
-      "summary": "2026 WAIC商汤展区直击：“未来实验室”火爆亮相，四大主题“感知未来”...",
       "date": "2026-07-18",
       "source": "机器之心",
       "type": "industry",
