@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-08-12",
+  "last_updated": "2026-08-13",
   "count": 200,
   "items": [
     {
       "title": "[黎曼动力携手光轮智能与诺亦腾机器人，剑指2026年百万小时 具 身 智 能 数据建设",
       "summary": "[黎曼动力携手光轮智能与诺亦腾机器人，剑指2026年百万小时 具 身 智 能 数据建设",
       "url": "http://36kr.com/p/3929174402203014",
-      "date": "2026-08-12",
+      "date": "2026-08-13",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
@@ -92,6 +92,18 @@
         "机器人学习",
         "研究论文",
         "arXiv"
+      ]
+    },
+    {
+      "title": "离开地平线的人，都去造机器人了",
+      "summary": "离开地平线的人，都去造机器人了",
+      "url": "http://36kr.com/p/3933745971255168",
+      "date": "2026-08-11",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
       ]
     },
     {
@@ -2995,22 +3007,6 @@
       "type": "paper",
       "arxiv_id": "2607.05391v1",
       "authors": "Jacky Kwok, Shulu Li et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Deform360: A Massive Multi-view Visuotactile Dataset for Deformable World Models",
-      "summary": "Predicting object dynamics (i.e., world modeling) is a fundamental challenge for robotic manipulation, and modeling deformable objects presents a particularly difficult case due to their high-dimensional state spaces and complex material properties. ...",
-      "url": "https://arxiv.org/abs/2607.05390v1",
-      "date": "2026-07-06",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.05390v1",
-      "authors": "Hongyu Li, Wanjia Fu et al.",
       "tags": [
         "机器人学习",
         "研究论文",

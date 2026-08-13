@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-08-12",
-  "count": 5,
+  "last_updated": "2026-08-13",
+  "count": 3,
   "items": [
     {
       "title": "Surgical WAM: A World-Action Model for Data-Efficient Surgical Robot Learning",
@@ -52,39 +52,6 @@
         "cs.CL"
       ],
       "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "AdvFD: Boosting Visual Generation via Adversarial Fr'echet Distance Loss",
-      "authors": "Mingju Gao, Jingkai Zhou, Kun Gai et al.",
-      "abstract": "Fréchet distance has recently emerged as an effective distribution-level objective for generator post-training, complementing the conventional sample-level diffusion and flow-matching losses. However, directly optimizing Fréchet objectives can cause Fréchet hacking. The target metrics keep improving...",
-      "venue": "arXiv",
-      "date": "2026-08-11",
-      "arxiv_id": "2608.11205v1",
-      "url": "https://arxiv.org/abs/2608.11205v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.11205v1.pdf",
-      "categories": [
-        "cs.CV"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Risk-Aware Kinodynamic Motion Planning Under Uncertainty For Safe Navigation on Planetary Environments",
-      "authors": "Sachin Sunil Kelkar, Tanmay Dokania, Yashwanth Kumar Nakka",
-      "abstract": "For autonomous space exploration, robotic agents need to perform motion planning in which environmental interactions may be unknown. Learning these interactions, such as terrain mechanics for wheeled robots, can introduce uncertainties that lead to risky motion plans and potentially hazardous operat...",
-      "venue": "arXiv",
-      "date": "2026-08-11",
-      "arxiv_id": "2608.11175v1",
-      "url": "https://arxiv.org/abs/2608.11175v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.11175v1.pdf",
-      "categories": [
-        "cs.RO",
-        "eess.SY"
-      ],
-      "type": "ai",
       "badge": "arxiv",
       "source": "arXiv"
     }

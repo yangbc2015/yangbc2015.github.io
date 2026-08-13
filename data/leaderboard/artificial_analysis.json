@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-12T18:54:17.260595+00:00",
+  "last_updated": "2026-08-13T01:03:13.504224+00:00",
   "source": "Artificial Analysis",
   "source_url": "https://artificialanalysis.ai/leaderboards/models",
   "description": "综合AI模型性能排行榜，基于智能指数、价格、输出速度、上下文窗口等多维度指标对模型进行评测。",
@@ -75,6 +75,18 @@
       "trend": "same",
       "is_open_weights": false,
       "icon": "⚡"
+    },
+    {
+      "rank": 19,
+      "model": "DeepSeek V4 Pro 0813",
+      "organization": "DeepSeek",
+      "intelligence_index": 0,
+      "price_per_1m_tokens": 0,
+      "speed_tokens_per_sec": 0,
+      "context_window": 0,
+      "trend": "same",
+      "is_open_weights": false,
+      "icon": "💎"
     }
   ]
 }
