@@ -1,19 +1,69 @@
 {
   "last_updated": "2026-08-13",
-  "count": 3,
+  "count": 7,
   "items": [
     {
-      "title": "Surgical WAM: A World-Action Model for Data-Efficient Surgical Robot Learning",
-      "authors": "Wenrui Bao, Tianyun Jiang, Zhiben Chen et al.",
-      "abstract": "Learning reliable surgical manipulation policies is bottlenecked by the scarcity of action-labeled demonstrations: teleoperated surgical robot (e.g., dVRK) trajectories with synchronized kinematics are costly to collect, while surgical tasks demand precise contact handling, long-horizon reasoning, a...",
+      "title": "DreamFly: Causal Memory and Receding-Horizon Diffusion Planning for Aerial Vision-Language Navigation",
+      "authors": "Yan Deng, Fei Xu",
+      "abstract": "Aerial vision-language navigation (VLN) requires an embodied agent to integrate visual evidence over time, plan future actions, and determine when it has reached a navigation goal under partial observability. Although recent VLA models offer a promising perception-to-action paradigm, adapting them t...",
       "venue": "arXiv",
-      "date": "2026-08-11",
-      "arxiv_id": "2608.11204v1",
-      "url": "https://arxiv.org/abs/2608.11204v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.11204v1.pdf",
+      "date": "2026-08-12",
+      "arxiv_id": "2608.12308v1",
+      "url": "https://arxiv.org/abs/2608.12308v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.12308v1.pdf",
       "categories": [
-        "cs.RO",
+        "cs.CV",
+        "cs.AI"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "AI4AI at Test-Time: Strong-to-Weak Capability Transfer via Harnesses",
+      "authors": "Cheng Qian, Wenting Zhao, Liangwei Yang et al.",
+      "abstract": "Recent work on distillation transfers the capabilities of large models to smaller ones often by updating the latter's parameters, through teacher forcing, on-policy distillation, and related training-time methods. In this paper, we ask whether such transfer can instead occur at test time. We study s...",
+      "venue": "arXiv",
+      "date": "2026-08-12",
+      "arxiv_id": "2608.12307v1",
+      "url": "https://arxiv.org/abs/2608.12307v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.12307v1.pdf",
+      "categories": [
+        "cs.LG",
         "cs.AI",
+        "cs.CL"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "AVA-Encoder: Towards Agent-Native Video Representation Learning",
+      "authors": "Chuyue Li, Jinpeng Yu, Haozhe Wang et al.",
+      "abstract": "Creative agents still lack an effective way to learn from high-quality human films, limiting their ability to produce cinematic-grade videos. A key challenge is the absence of a structured video representation that is both faithful to film content and directly usable for agentic reasoning and manipu...",
+      "venue": "arXiv",
+      "date": "2026-08-12",
+      "arxiv_id": "2608.12313v1",
+      "url": "https://arxiv.org/abs/2608.12313v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.12313v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.CL"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "StateFlow: Building, Evolving, and Accessing 3D World States for Previsualization",
+      "authors": "Yuyang Yin, Zixiang Li, Longxuan Deng et al.",
+      "abstract": "Previsualization is an intermediate layer between ideas and production in film, games, architecture, and urban design. It lets creators iteratively refine scenes, actions, cameras, and spatial-temporal dynamics. Yet existing generative methods rely on simple prompts to jointly control all of these f...",
+      "venue": "arXiv",
+      "date": "2026-08-12",
+      "arxiv_id": "2608.12314v1",
+      "url": "https://arxiv.org/abs/2608.12314v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.12314v1.pdf",
+      "categories": [
         "cs.CV"
       ],
       "type": "vision",
@@ -21,37 +71,54 @@
       "source": "arXiv"
     },
     {
-      "title": "ConVAWG: A Retrieval-Grounded Framework for Controlled Synthetic Dialogue Generation in Violence Against Women and Girls",
-      "authors": "Chen Lyu, Xingwei Tan, Simon Cullen et al.",
-      "abstract": "Synthetic dialogue generation offers a way to study conversational dynamics in sensitive domains where real data are difficult to access, release, or annotate. The underlying abuse may occur online or offline: threats and coercion can appear directly in messages, while behaviours such as surveillanc...",
+      "title": "Redistribution-based Cost Inference Improves Sparse Safe Offline RL",
+      "authors": "Ebenezer Gelo, Geraud Nangue Tasse, Steven James et al.",
+      "abstract": "Safe offline RL typically assumes access to dense per-step cost annotations, but in practice supervisors provide only trajectory-level stop-feedback: a binary signal at the first unsafe transition, with no per-step attribution. We frame this as a temporal credit assignment problem and propose the Re...",
       "venue": "arXiv",
-      "date": "2026-08-11",
-      "arxiv_id": "2608.11200v1",
-      "url": "https://arxiv.org/abs/2608.11200v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.11200v1.pdf",
+      "date": "2026-08-12",
+      "arxiv_id": "2608.12306v1",
+      "url": "https://arxiv.org/abs/2608.12306v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.12306v1.pdf",
       "categories": [
-        "cs.CL",
-        "cs.AI",
-        "cs.LG"
+        "cs.LG",
+        "cs.AI"
       ],
-      "type": "nlp",
+      "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Beyond a Bag of Features: Set-Level Instability in Sparse Autoencoders",
-      "authors": "Nikolai Bolik, Lennart Stöpler, Artur Andrzejak",
-      "abstract": "Shani et al. (2026) show that LLM representations broadly recover human category boundaries, while failing to reflect fine-grained typicality structure. Their analysis uses cosine similarity over dense model representations. We revisit their approach using overlap over active sparse autoencoder (SAE...",
+      "title": "Learning-Based Behavior Planning for Automated Driving: Real-World Integration and Deployment",
+      "authors": "Jean-Pierre Busch, Guido Linden, Jan Bergmann et al.",
+      "abstract": "Recent research in machine and deep learning has shown the potential of learningbased motion planning approaches to improve the driving behavior of automated vehicles, especially in complex environments. However, their complex nature and lack of transparency can hinder explainability and trustworthi...",
       "venue": "arXiv",
-      "date": "2026-08-11",
-      "arxiv_id": "2608.11197v1",
-      "url": "https://arxiv.org/abs/2608.11197v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.11197v1.pdf",
+      "date": "2026-08-12",
+      "arxiv_id": "2608.12198v1",
+      "url": "https://arxiv.org/abs/2608.12198v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.12198v1.pdf",
       "categories": [
-        "cs.LG",
-        "cs.CL"
+        "cs.RO",
+        "cs.AI",
+        "cs.LG"
       ],
-      "type": "nlp",
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "HandEdit: A Unified Benchmark for Egocentric Human-to-Robot Dexterous Hand Image Editing",
+      "authors": "Zhenjie Yang, Xingyu Jiao, Guopeng Zhong et al.",
+      "abstract": "Robotic manipulation with dexterous hands is a cornerstone of Embodied AI, yet its progress is stifled by the high cost of collecting embodiment-aware teleoperation data. While abundant egocentric videos of human hands offer a scalable alternative, the profound discrepancies in appearance, articulat...",
+      "venue": "arXiv",
+      "date": "2026-08-12",
+      "arxiv_id": "2608.12122v1",
+      "url": "https://arxiv.org/abs/2608.12122v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.12122v1.pdf",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "type": "benchmark",
       "badge": "arxiv",
       "source": "arXiv"
     }

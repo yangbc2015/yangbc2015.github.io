@@ -15,6 +15,98 @@
       ]
     },
     {
+      "title": "Learning-Based Behavior Planning for Automated Driving: Real-World Integration and Deployment",
+      "summary": "Recent research in machine and deep learning has shown the potential of learningbased motion planning approaches to improve the driving behavior of automated vehicles, especially in complex environments. However, their complex nature and lack of tran...",
+      "url": "https://arxiv.org/abs/2608.12198v1",
+      "date": "2026-08-12",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.12198v1",
+      "authors": "Jean-Pierre Busch, Guido Linden et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "HandEdit: A Unified Benchmark for Egocentric Human-to-Robot Dexterous Hand Image Editing",
+      "summary": "Robotic manipulation with dexterous hands is a cornerstone of Embodied AI, yet its progress is stifled by the high cost of collecting embodiment-aware teleoperation data. While abundant egocentric videos of human hands offer a scalable alternative, t...",
+      "url": "https://arxiv.org/abs/2608.12122v1",
+      "date": "2026-08-12",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.12122v1",
+      "authors": "Zhenjie Yang, Xingyu Jiao et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Learning Loco-Manipulation From SMPC Demonstrations With Sparse Offline-to-Online RL",
+      "summary": "Integrating locomotion and manipulation is essential for robot autonomy, but scaling standard Reinforcement Learning (RL) to complex tasks is severely bottlenecked by the slow, manual process of dense reward shaping. To bypass this limitation, we lev...",
+      "url": "https://arxiv.org/abs/2608.12063v1",
+      "date": "2026-08-12",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.12063v1",
+      "authors": "Martin Schuck, Maks Sorokin et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "DaViNCi: A Dataset Towards Outdoor Vision-and-Language Navigation with Continuous Actions and Dynamic Elements",
+      "summary": "Vision-and-Language Navigation (VLN) has progressively expanded from indoor to outdoor environments. However, existing outdoor VLN datasets still rely on fixed discrete topological graphs for construction. It fails to align with the rapidly changing ...",
+      "url": "https://arxiv.org/abs/2608.11901v1",
+      "date": "2026-08-12",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.11901v1",
+      "authors": "Zihao Xie, Pingrui Lai et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Scalable Multi-Agent Maze Traversal with Local Communication",
+      "summary": "Cave networks, pipe systems, and similar maze-like environments pose significant challenges for multi-agent navigation in unknown settings with limited communication. We propose a distributed algorithm that enables agents to collectively traverse an ...",
+      "url": "https://arxiv.org/abs/2608.11895v1",
+      "date": "2026-08-12",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.11895v1",
+      "authors": "Julian Rau, Jahir Argote-Gerald et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "离开地平线的人，都去造机器人了",
+      "summary": "离开地平线的人，都去造机器人了",
+      "url": "http://36kr.com/p/3933745971255168",
+      "date": "2026-08-11",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
       "title": "Surgical WAM: A World-Action Model for Data-Efficient Surgical Robot Learning",
       "summary": "Learning reliable surgical manipulation policies is bottlenecked by the scarcity of action-labeled demonstrations: teleoperated surgical robot (e.g., dVRK) trajectories with synchronized kinematics are costly to collect, while surgical tasks demand p...",
       "url": "https://arxiv.org/abs/2608.11204v1",
@@ -92,18 +184,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "离开地平线的人，都去造机器人了",
-      "summary": "离开地平线的人，都去造机器人了",
-      "url": "http://36kr.com/p/3933745971255168",
-      "date": "2026-08-11",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
       ]
     },
     {
@@ -2941,76 +3021,6 @@
       "type": "news",
       "tags": [
         "机器人"
-      ]
-    },
-    {
-      "title": "动易科技任晓雨谈具身智能产业发展与路径判断",
-      "summary": "动易科技任晓雨谈具身智能产业发展与路径判断",
-      "url": "http://36kr.com/p/3883672214026889",
-      "date": "2026-07-06",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "WAIC 2026：中国具身智能进入工业化落地新阶段",
-      "summary": "WAIC 2026：中国具身智能进入工业化落地新阶段",
-      "url": "http://36kr.com/p/3883529657462790",
-      "date": "2026-07-06",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "「能歌善舞」的机器人，何时能够「柴米油盐」？",
-      "summary": "「能歌善舞」的机器人，何时能够「柴米油盐」？",
-      "url": "http://36kr.com/p/3882813413603975",
-      "date": "2026-07-06",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
-      ]
-    },
-    {
-      "title": "From Fixed to Free Cameras: Calibration-Free View-Robust Vision-Language-Action Model",
-      "summary": "Real-world robot deployment rarely maintains the training-stage camera setup, where cameras often experience repositioning or remounting depending on actual scenarios. Existing view-robust Vision-Language-Action (VLA) policies tolerate such camera va...",
-      "url": "https://arxiv.org/abs/2607.05396v1",
-      "date": "2026-07-06",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.05396v1",
-      "authors": "Wenhao Li, Xueying Jiang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "LLM-as-a-Verifier: A General-Purpose Verification Framework",
-      "summary": "Scaling pre-training, post-training, and test-time compute have become the central paradigms for improving the capabilities of LLMs. In this work, we identify verification, the ability to determine the correctness of a solution, as a new scaling axis...",
-      "url": "https://arxiv.org/abs/2607.05391v1",
-      "date": "2026-07-06",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.05391v1",
-      "authors": "Jacky Kwok, Shulu Li et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
       ]
     }
   ]
