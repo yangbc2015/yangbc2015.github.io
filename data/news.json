@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-08-13",
+  "last_updated": "2026-08-14",
   "count": 200,
-  "history_count": 200,
+  "history_count": 205,
   "retention_days": 30,
   "items": [
     {
       "title": "马斯克版Workbuddy也来了",
       "link": "https://www.qbitai.com/?s=马斯克版Workbu",
       "summary": "马斯克版Workbuddy也来了...",
-      "date": "2026-08-13",
+      "date": "2026-08-14",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -20,7 +20,7 @@
       "title": "当季实现营收1834亿元人民币，同比猛增43%，创历史新高",
       "link": "https://www.qbitai.com/?s=当季实现营收1834",
       "summary": "当季实现营收1834亿元人民币，同比猛增43%，创历史新高...",
-      "date": "2026-08-13",
+      "date": "2026-08-14",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -32,7 +32,7 @@
       "title": "现在调用V4 Pro，能直接用上完全体",
       "link": "https://www.qbitai.com/?s=现在调用V4 Pro",
       "summary": "现在调用V4 Pro，能直接用上完全体...",
-      "date": "2026-08-13",
+      "date": "2026-08-14",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -44,7 +44,7 @@
       "title": "《知识就是力量》杂志社携手360科技集团举行“知力·纳米 科普科幻AI大片创作平台”发布暨AI创作交流活动",
       "link": "https://www.qbitai.com/?s=《知识就是力量》杂志",
       "summary": "《知识就是力量》杂志社携手360科技集团举行“知力·纳米 科普科幻AI大片创作平台”发布暨AI创作交流活动...",
-      "date": "2026-08-13",
+      "date": "2026-08-14",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -56,7 +56,7 @@
       "title": "具身模型一小时狂拣1816件异形包裹",
       "link": "https://www.qbitai.com/?s=具身模型一小时狂拣1",
       "summary": "具身模型一小时狂拣1816件异形包裹...",
-      "date": "2026-08-13",
+      "date": "2026-08-14",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -68,12 +68,84 @@
       "title": "Published Time: Thu, 08 May 2025 23:15:48 GMT",
       "link": "https://techcrunch.com/category/artificial-intelligence/",
       "summary": "Published Time: Thu, 08 May 2025 23:15:48 GMT...",
-      "date": "2026-08-13",
+      "date": "2026-08-14",
       "source": "TechCrunch",
       "type": "industry",
       "tags": [
         "AI",
         "Artificial Intelligence"
+      ]
+    },
+    {
+      "title": "Markdown Content:",
+      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+      "summary": "Markdown Content:...",
+      "date": "2026-08-13",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "财报里的AI医生「大为」，撬动京东健康价值重估",
+      "link": "https://www.jiqizhixin.com/search/articles/财报里的AI医生「大为」，撬动",
+      "summary": "财报里的AI医生「大为」，撬动京东健康价值重估...",
+      "date": "2026-08-13",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "谢尔盖・布林再次进入「创始人模式」？Google押注「AI自我进化」",
+      "link": "https://www.jiqizhixin.com/search/articles/谢尔盖・布林再次进入「创始人模",
+      "summary": "谢尔盖・布林再次进入「创始人模式」？Google押注「AI自我进化」...",
+      "date": "2026-08-13",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "「AI生成的内容全部加水印」OpenAI、Anthropic、Google都签了",
+      "link": "https://www.jiqizhixin.com/search/articles/「AI生成的内容全部加水印」O",
+      "summary": "「AI生成的内容全部加水印」OpenAI、Anthropic、Google都签了...",
+      "date": "2026-08-13",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "2.4万亿参数Qwen3.8首日实现九芯适配,众智Flag OS释放多元算力产业价值",
+      "link": "https://www.jiqizhixin.com/search/articles/2.4万亿参数Qwen3.8首",
+      "summary": "2.4万亿参数Qwen3.8首日实现九芯适配,众智Flag OS释放多元算力产业价值...",
+      "date": "2026-08-13",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "刚刚，DeepSeek Harness震撼开源：一切皆插件",
+      "link": "https://www.jiqizhixin.com/search/articles/刚刚，DeepSeek Har",
+      "summary": "刚刚，DeepSeek Harness震撼开源：一切皆插件...",
+      "date": "2026-08-13",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
       ]
     },
     {
@@ -176,18 +248,6 @@
       "title": "Agentic RL 后训练资源怎么分？港中文、恒生大学提出 Libra，吞吐最高提升 3 倍",
       "link": "https://www.jiqizhixin.com/search/articles/Agentic RL 后训练资",
       "summary": "Agentic RL 后训练资源怎么分？港中文、恒生大学提出 Libra，吞吐最高提升 3 倍...",
-      "date": "2026-08-12",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Markdown Content:",
-      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-      "summary": "Markdown Content:...",
       "date": "2026-08-12",
       "source": "机器之心",
       "type": "industry",
@@ -2338,66 +2398,6 @@
       "summary": "奇异摩尔首次亮相WAIC 2026...",
       "date": "2026-07-20",
       "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "黎曼动力正式发布Rienmann-1.0",
-      "link": "https://www.qbitai.com/?s=黎曼动力正式发布Ri",
-      "summary": "黎曼动力正式发布Rienmann-1.0...",
-      "date": "2026-07-20",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Harness本身也可以被搜索、验证和迭代",
-      "link": "https://www.qbitai.com/?s=Harness本身也",
-      "summary": "Harness本身也可以被搜索、验证和迭代...",
-      "date": "2026-07-20",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "PuduFM+PuduAgent，一并在不同本体上持续落地，共同构成了普渡机器人的顶层战略「一脑多形」。",
-      "link": "https://www.qbitai.com/?s=PuduFM+Pud",
-      "summary": "PuduFM+PuduAgent，一并在不同本体上持续落地，共同构成了普渡机器人的顶层战略「一脑多形」。...",
-      "date": "2026-07-20",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "WAIC 2026｜从车载智能看物理AI落地：感知、决策和控制",
-      "link": "https://www.jiqizhixin.com/search/articles/WAIC 2026｜从车载智能",
-      "summary": "WAIC 2026｜从车载智能看物理AI落地：感知、决策和控制...",
-      "date": "2026-07-19",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "定义世界的年轻人 | 2026 WAIC 云帆奖得主揭晓",
-      "link": "https://www.jiqizhixin.com/search/articles/定义世界的年轻人 | 2026",
-      "summary": "定义世界的年轻人 | 2026 WAIC 云帆奖得主揭晓...",
-      "date": "2026-07-19",
-      "source": "机器之心",
       "type": "industry",
       "tags": [
         "AI",

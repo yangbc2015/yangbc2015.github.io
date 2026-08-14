@@ -33,7 +33,7 @@
       "organization": "qwen",
       "price_prompt": "0.000002",
       "price_completion": "0.000006",
-      "context_length": 1000000
+      "context_length": 1010000
     },
     {
       "rank": 5,
@@ -73,7 +73,7 @@
       "organization": "nvidia",
       "price_prompt": "0.0000001",
       "price_completion": "0.00000025",
-      "context_length": 1048576
+      "context_length": 1000000
     },
     {
       "rank": 10,

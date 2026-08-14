@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-08-13",
-  "count": 7,
+  "last_updated": "2026-08-14",
+  "count": 2,
   "items": [
     {
       "title": "DreamFly: Causal Memory and Receding-Horizon Diffusion Planning for Aerial Vision-Language Navigation",
@@ -34,91 +34,6 @@
         "cs.CL"
       ],
       "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "AVA-Encoder: Towards Agent-Native Video Representation Learning",
-      "authors": "Chuyue Li, Jinpeng Yu, Haozhe Wang et al.",
-      "abstract": "Creative agents still lack an effective way to learn from high-quality human films, limiting their ability to produce cinematic-grade videos. A key challenge is the absence of a structured video representation that is both faithful to film content and directly usable for agentic reasoning and manipu...",
-      "venue": "arXiv",
-      "date": "2026-08-12",
-      "arxiv_id": "2608.12313v1",
-      "url": "https://arxiv.org/abs/2608.12313v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.12313v1.pdf",
-      "categories": [
-        "cs.CV",
-        "cs.CL"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "StateFlow: Building, Evolving, and Accessing 3D World States for Previsualization",
-      "authors": "Yuyang Yin, Zixiang Li, Longxuan Deng et al.",
-      "abstract": "Previsualization is an intermediate layer between ideas and production in film, games, architecture, and urban design. It lets creators iteratively refine scenes, actions, cameras, and spatial-temporal dynamics. Yet existing generative methods rely on simple prompts to jointly control all of these f...",
-      "venue": "arXiv",
-      "date": "2026-08-12",
-      "arxiv_id": "2608.12314v1",
-      "url": "https://arxiv.org/abs/2608.12314v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.12314v1.pdf",
-      "categories": [
-        "cs.CV"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Redistribution-based Cost Inference Improves Sparse Safe Offline RL",
-      "authors": "Ebenezer Gelo, Geraud Nangue Tasse, Steven James et al.",
-      "abstract": "Safe offline RL typically assumes access to dense per-step cost annotations, but in practice supervisors provide only trajectory-level stop-feedback: a binary signal at the first unsafe transition, with no per-step attribution. We frame this as a temporal credit assignment problem and propose the Re...",
-      "venue": "arXiv",
-      "date": "2026-08-12",
-      "arxiv_id": "2608.12306v1",
-      "url": "https://arxiv.org/abs/2608.12306v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.12306v1.pdf",
-      "categories": [
-        "cs.LG",
-        "cs.AI"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Learning-Based Behavior Planning for Automated Driving: Real-World Integration and Deployment",
-      "authors": "Jean-Pierre Busch, Guido Linden, Jan Bergmann et al.",
-      "abstract": "Recent research in machine and deep learning has shown the potential of learningbased motion planning approaches to improve the driving behavior of automated vehicles, especially in complex environments. However, their complex nature and lack of transparency can hinder explainability and trustworthi...",
-      "venue": "arXiv",
-      "date": "2026-08-12",
-      "arxiv_id": "2608.12198v1",
-      "url": "https://arxiv.org/abs/2608.12198v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.12198v1.pdf",
-      "categories": [
-        "cs.RO",
-        "cs.AI",
-        "cs.LG"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "HandEdit: A Unified Benchmark for Egocentric Human-to-Robot Dexterous Hand Image Editing",
-      "authors": "Zhenjie Yang, Xingyu Jiao, Guopeng Zhong et al.",
-      "abstract": "Robotic manipulation with dexterous hands is a cornerstone of Embodied AI, yet its progress is stifled by the high cost of collecting embodiment-aware teleoperation data. While abundant egocentric videos of human hands offer a scalable alternative, the profound discrepancies in appearance, articulat...",
-      "venue": "arXiv",
-      "date": "2026-08-12",
-      "arxiv_id": "2608.12122v1",
-      "url": "https://arxiv.org/abs/2608.12122v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.12122v1.pdf",
-      "categories": [
-        "cs.RO",
-        "cs.CV"
-      ],
-      "type": "benchmark",
       "badge": "arxiv",
       "source": "arXiv"
     }
