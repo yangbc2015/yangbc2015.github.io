@@ -1,39 +1,124 @@
 {
   "last_updated": "2026-08-14",
-  "count": 2,
+  "count": 7,
   "items": [
     {
-      "title": "DreamFly: Causal Memory and Receding-Horizon Diffusion Planning for Aerial Vision-Language Navigation",
-      "authors": "Yan Deng, Fei Xu",
-      "abstract": "Aerial vision-language navigation (VLN) requires an embodied agent to integrate visual evidence over time, plan future actions, and determine when it has reached a navigation goal under partial observability. Although recent VLA models offer a promising perception-to-action paradigm, adapting them t...",
+      "title": "AutoDesign: Meta-Harness Optimization for Long-Horizon Agentic Design",
+      "authors": "Yaxin Luo, Haobin Jiang, Jialv Zou et al.",
+      "abstract": "Transforming multimodal sources into condensed and structured media outputs can be fundamentally conceptualized as a long-horizon agentic process centered on a model-harness system. While an ideal harness system should align with human design priors and accumulate reusable experience through empiric...",
       "venue": "arXiv",
-      "date": "2026-08-12",
-      "arxiv_id": "2608.12308v1",
-      "url": "https://arxiv.org/abs/2608.12308v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.12308v1.pdf",
+      "date": "2026-08-13",
+      "arxiv_id": "2608.13560v1",
+      "url": "https://arxiv.org/abs/2608.13560v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.13560v1.pdf",
       "categories": [
         "cs.CV",
-        "cs.AI"
+        "cs.AI",
+        "cs.CL"
       ],
       "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "AI4AI at Test-Time: Strong-to-Weak Capability Transfer via Harnesses",
-      "authors": "Cheng Qian, Wenting Zhao, Liangwei Yang et al.",
-      "abstract": "Recent work on distillation transfers the capabilities of large models to smaller ones often by updating the latter's parameters, through teacher forcing, on-policy distillation, and related training-time methods. In this paper, we ask whether such transfer can instead occur at test time. We study s...",
+      "title": "OmniScientist: An Omni-Modal Omni-Discipline AI Scientist",
+      "authors": "Bobo Li, Hao Fei, Tianjie Ju et al.",
+      "abstract": "Recent advances in foundation models have enabled AI scientists to automate increasingly complete research workflows, from hypothesis generation and code execution to manuscript preparation. Yet workflow coverage alone does not provide access to the full evidence on which scientific discovery depend...",
       "venue": "arXiv",
-      "date": "2026-08-12",
-      "arxiv_id": "2608.12307v1",
-      "url": "https://arxiv.org/abs/2608.12307v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.12307v1.pdf",
+      "date": "2026-08-13",
+      "arxiv_id": "2608.13558v1",
+      "url": "https://arxiv.org/abs/2608.13558v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.13558v1.pdf",
       "categories": [
-        "cs.LG",
         "cs.AI",
         "cs.CL"
       ],
       "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "V-RAE: Rethinking Video Latent Spaces for Generation",
+      "authors": "Minghui Guo, Shengqiong Wu, Hao Fei",
+      "abstract": "Latent video generation relies on autoencoders to define a compact space in which generative models operate. Although video autoencoder architectures have evolved substantially, their latent spaces are still optimized primarily for pixel-level reconstruction and provide limited high-level semantic o...",
+      "venue": "arXiv",
+      "date": "2026-08-13",
+      "arxiv_id": "2608.13556v1",
+      "url": "https://arxiv.org/abs/2608.13556v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.13556v1.pdf",
+      "categories": [
+        "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Defensive Boosting for Online Probabilistic Forecasting",
+      "authors": "Georgy Noarov, Aaron Roth",
+      "abstract": "We study online probabilistic forecasting of binary outcomes chosen by an adaptive adversary. Given an online learning algorithm for a weak hypothesis class $H$, we would like to efficiently obtain two incomparable guarantees that existing online boosting techniques provide separately. Online gradie...",
+      "venue": "arXiv",
+      "date": "2026-08-13",
+      "arxiv_id": "2608.13554v1",
+      "url": "https://arxiv.org/abs/2608.13554v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.13554v1.pdf",
+      "categories": [
+        "cs.LG",
+        "cs.CC",
+        "cs.DS"
+      ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Exponential Convex Calibration Dimension for the Multi-Label Jaccard Measure",
+      "authors": "Mingyuan Zhang",
+      "abstract": "The per-instance Jaccard score, or intersection over union (IoU), is standard in multi-label classification and binary segmentation. With $s$ labels, its loss matrix has $2^s$ outcomes and reports. Under the convention $\\mathrm{Jac}(\\varnothing,\\varnothing)=1$, we prove that the Jaccard score, shift...",
+      "venue": "arXiv",
+      "date": "2026-08-13",
+      "arxiv_id": "2608.13549v1",
+      "url": "https://arxiv.org/abs/2608.13549v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.13549v1.pdf",
+      "categories": [
+        "cs.LG",
+        "stat.ML"
+      ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "HumanTracker: Towards Comprehensive and Human-Aligned Motion Tracking Benchmark",
+      "authors": "Dairu Liu, Zekun Qi, Jiayu Zeng et al.",
+      "abstract": "Humanoid motion tracking is central to teleoperation and whole-body imitation, yet evaluation often disagrees with what people perceive in videos. Kinematic errors average per-frame pose differences but miss the physical artifacts that matter most, particularly unstable support and incorrect contact...",
+      "venue": "arXiv",
+      "date": "2026-08-13",
+      "arxiv_id": "2608.13555v1",
+      "url": "https://arxiv.org/abs/2608.13555v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.13555v1.pdf",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.CV"
+      ],
+      "type": "benchmark",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "A Browser-Native Digital Test Range for Benchmarking 4D Ocean-Glider Planning Algorithms",
+      "authors": "Edward Holmberg, Elias Ioup, Mahdi Abdelguerfi",
+      "abstract": "Repeated in-situ evaluation of ocean-glider planners requires scarce vehicles, operators, deployment and recovery resources, and ocean conditions that cannot be reset for competing algorithms. We present a guided, installation-free browser-native digital test range that transforms a selected region ...",
+      "venue": "arXiv",
+      "date": "2026-08-13",
+      "arxiv_id": "2608.13511v1",
+      "url": "https://arxiv.org/abs/2608.13511v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.13511v1.pdf",
+      "categories": [
+        "cs.RO"
+      ],
+      "type": "benchmark",
       "badge": "arxiv",
       "source": "arXiv"
     }

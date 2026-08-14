@@ -15,6 +15,86 @@
       ]
     },
     {
+      "title": "HumanTracker: Towards Comprehensive and Human-Aligned Motion Tracking Benchmark",
+      "summary": "Humanoid motion tracking is central to teleoperation and whole-body imitation, yet evaluation often disagrees with what people perceive in videos. Kinematic errors average per-frame pose differences but miss the physical artifacts that matter most, p...",
+      "url": "https://arxiv.org/abs/2608.13555v1",
+      "date": "2026-08-13",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.13555v1",
+      "authors": "Dairu Liu, Zekun Qi et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "A Browser-Native Digital Test Range for Benchmarking 4D Ocean-Glider Planning Algorithms",
+      "summary": "Repeated in-situ evaluation of ocean-glider planners requires scarce vehicles, operators, deployment and recovery resources, and ocean conditions that cannot be reset for competing algorithms. We present a guided, installation-free browser-native dig...",
+      "url": "https://arxiv.org/abs/2608.13511v1",
+      "date": "2026-08-13",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.13511v1",
+      "authors": "Edward Holmberg, Elias Ioup et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "DreamX-Phi 1.0: Action-Conditioned Video World Model for Robotic Manipulation",
+      "summary": "We present \\textbf{DreamX-Phi 1.0}, an action-conditioned video world model for robotic manipulation that, given an observed frame, a language instruction, and a prescribed action sequence comprising end-effector poses and gripper states, predicts th...",
+      "url": "https://arxiv.org/abs/2608.13489v1",
+      "date": "2026-08-13",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.13489v1",
+      "authors": "DreamX Team, Rui Chen et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Decoding Task Progress from VLA Representations",
+      "summary": "Vision-language-action models (VLAs) are moving rapidly towards deployment as general-purpose manipulation policies, but we currently lack basic tools for understanding what these models represent internally or for monitoring them at runtime. Leverag...",
+      "url": "https://arxiv.org/abs/2608.13474v1",
+      "date": "2026-08-13",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.13474v1",
+      "authors": "Atiksh Bhardwaj, Edward Weiyi Duan et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Mind the Context: Continual Learning of Socially Appropriate Robot Actions via Environmental-Social Disentanglement",
+      "summary": "Social robots are expected to operate across diverse environments, where similar arrangements can imply different socially appropriate actions, e.g., starting a conversation may be acceptable in a crowded home but disruptive in an office meeting. Bec...",
+      "url": "https://arxiv.org/abs/2608.13448v1",
+      "date": "2026-08-13",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.13448v1",
+      "authors": "Rafal Robert Karpinski, Fethiye Irmak Dogan et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
       "title": "Learning-Based Behavior Planning for Automated Driving: Real-World Integration and Deployment",
       "summary": "Recent research in machine and deep learning has shown the potential of learningbased motion planning approaches to improve the driving behavior of automated vehicles, especially in complex environments. However, their complex nature and lack of tran...",
       "url": "https://arxiv.org/abs/2608.12198v1",
@@ -2945,82 +3025,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "Embodied Human-Robot Interaction via Acoustics: A MARL Approach with AcoustoBots for Spatial Data Physicalization",
-      "summary": "Traditional data physicalization is often static and disconnected from real environments, limiting its ability to convey embodied spatial dynamics and engage users. To address this limitation, we present AcoustoBots, a mobile acoustophoretic data-phy...",
-      "url": "https://arxiv.org/abs/2607.06563v1",
-      "date": "2026-07-07",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.06563v1",
-      "authors": "Shiqi Liu, Narsimlu Kemsaram et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "RynnWorld-4D: 4D Embodied World Models for Robotic Manipulation",
-      "summary": "Robotic manipulation in the open world requires not only recognizing what a scene looks like, but also anticipating how its 3D structure moves under interaction. We argue that synchronized RGB, depth, and optical flow, namely RGB-DF, provide a physic...",
-      "url": "https://arxiv.org/abs/2607.06559v1",
-      "date": "2026-07-07",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.06559v1",
-      "authors": "Haoyu Zhao, Xingyue Zhao et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "RynnWorld-Teleop: An Action-Conditioned World Model for Digital Teleoperation",
-      "summary": "Scaling robot learning requires massive, diverse trajectory data, yet collection is currently bottlenecked by physical teleoperation, where every demonstration binds operator time to specific hardware and workspaces. We introduce digital teleoperatio...",
-      "url": "https://arxiv.org/abs/2607.06558v1",
-      "date": "2026-07-07",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.06558v1",
-      "authors": "Haoyu Zhao, Xingyue Zhao et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "UniLM-Nav: A Unified Framework for Zero-Shot Last-Mile Navigation",
-      "summary": "Mobile manipulation requires a robot to navigate to a target object or receptacle and then perform intended manipulation. However, reaching the vicinity of the target does not guarantee a manipulation-ready base pose, a problem known as last-mile nav...",
-      "url": "https://arxiv.org/abs/2607.06537v1",
-      "date": "2026-07-07",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.06537v1",
-      "authors": "Zhuofan Zhang, Tianxu Wang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "[具 身 智 能 和移动机器人，为什么今年都在工厂上强度",
-      "summary": "[具 身 智 能 和移动机器人，为什么今年都在工厂上强度",
-      "url": "http://36kr.com/p/3876567144706312",
-      "date": "2026-07-07",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
       ]
     }
   ]
