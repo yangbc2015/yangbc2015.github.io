@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-08-14",
+  "last_updated": "2026-08-15",
   "count": 200,
-  "history_count": 200,
+  "history_count": 205,
   "retention_days": 30,
   "items": [
     {
       "title": "少花一半成本，部署效率提升80%！机器人研发可以不用重复造轮子了。",
       "link": "https://www.qbitai.com/?s=少花一半成本，部署效",
       "summary": "少花一半成本，部署效率提升80%！机器人研发可以不用重复造轮子了。...",
-      "date": "2026-08-14",
+      "date": "2026-08-15",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -20,7 +20,7 @@
       "title": "马斯克版Workbuddy也来了",
       "link": "https://www.qbitai.com/?s=马斯克版Workbu",
       "summary": "马斯克版Workbuddy也来了...",
-      "date": "2026-08-14",
+      "date": "2026-08-15",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -32,7 +32,7 @@
       "title": "当季实现营收1834亿元人民币，同比猛增43%，创历史新高",
       "link": "https://www.qbitai.com/?s=当季实现营收1834",
       "summary": "当季实现营收1834亿元人民币，同比猛增43%，创历史新高...",
-      "date": "2026-08-14",
+      "date": "2026-08-15",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -44,7 +44,7 @@
       "title": "现在调用V4 Pro，能直接用上完全体",
       "link": "https://www.qbitai.com/?s=现在调用V4 Pro",
       "summary": "现在调用V4 Pro，能直接用上完全体...",
-      "date": "2026-08-14",
+      "date": "2026-08-15",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -56,7 +56,7 @@
       "title": "《知识就是力量》杂志社携手360科技集团举行“知力·纳米 科普科幻AI大片创作平台”发布暨AI创作交流活动",
       "link": "https://www.qbitai.com/?s=《知识就是力量》杂志",
       "summary": "《知识就是力量》杂志社携手360科技集团举行“知力·纳米 科普科幻AI大片创作平台”发布暨AI创作交流活动...",
-      "date": "2026-08-14",
+      "date": "2026-08-15",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -68,12 +68,84 @@
       "title": "Published Time: Thu, 08 May 2025 23:15:48 GMT",
       "link": "https://techcrunch.com/category/artificial-intelligence/",
       "summary": "Published Time: Thu, 08 May 2025 23:15:48 GMT...",
-      "date": "2026-08-14",
+      "date": "2026-08-15",
       "source": "TechCrunch",
       "type": "industry",
       "tags": [
         "AI",
         "Artificial Intelligence"
+      ]
+    },
+    {
+      "title": "Markdown Content:",
+      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+      "summary": "Markdown Content:...",
+      "date": "2026-08-14",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "鹿明发布MOS2：全球首个双臂负载50kg轮臂式机器人，加速AI Worker进入产业现",
+      "link": "https://www.jiqizhixin.com/search/articles/鹿明发布MOS2：全球首个双臂",
+      "summary": "鹿明发布MOS2：全球首个双臂负载50kg轮臂式机器人，加速AI Worker进入产业现...",
+      "date": "2026-08-14",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "具身智能仿真「竞技场」RoboColiseum来了：真机对齐度近90%，已有40+团队同场打擂",
+      "link": "https://www.jiqizhixin.com/search/articles/具身智能仿真「竞技场」Robo",
+      "summary": "具身智能仿真「竞技场」RoboColiseum来了：真机对齐度近90%，已有40+团队同场打擂...",
+      "date": "2026-08-14",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "百度文库网盘GenFlow官宣中文名「库库AI」，库库干活！",
+      "link": "https://www.jiqizhixin.com/search/articles/百度文库网盘GenFlow官宣",
+      "summary": "百度文库网盘GenFlow官宣中文名「库库AI」，库库干活！...",
+      "date": "2026-08-14",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "余家辉离职创业，Meta流失超200名顶级研究员",
+      "link": "https://www.jiqizhixin.com/search/articles/余家辉离职创业，Meta流失超",
+      "summary": "余家辉离职创业，Meta流失超200名顶级研究员...",
+      "date": "2026-08-14",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "德塔智能与舞肌科技达成战略合作，联合规范全身协同灵巧操作数据采集",
+      "link": "https://www.jiqizhixin.com/search/articles/德塔智能与舞肌科技达成战略合作",
+      "summary": "德塔智能与舞肌科技达成战略合作，联合规范全身协同灵巧操作数据采集...",
+      "date": "2026-08-14",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
       ]
     },
     {
@@ -104,18 +176,6 @@
       "title": "谢尔盖・布林再次进入「创始人模式」？Google押注「AI自我进化」",
       "link": "https://www.jiqizhixin.com/search/articles/谢尔盖・布林再次进入「创始人模",
       "summary": "谢尔盖・布林再次进入「创始人模式」？Google押注「AI自我进化」...",
-      "date": "2026-08-13",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Markdown Content:",
-      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-      "summary": "Markdown Content:...",
       "date": "2026-08-13",
       "source": "机器之心",
       "type": "industry",
@@ -2337,66 +2397,6 @@
       "link": "https://www.jiqizhixin.com/search/articles/Kimi K3太火，美国要禁中",
       "summary": "Kimi K3太火，美国要禁中国开放模型了？...",
       "date": "2026-07-21",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "面壁智能发布MiniCPM-Robot系列模型",
-      "link": "https://www.qbitai.com/?s=面壁智能发布Mini",
-      "summary": "面壁智能发布MiniCPM-Robot系列模型...",
-      "date": "2026-07-21",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "把张益唐坑苦的雅可比猜想，被Fable 5证伪了？",
-      "link": "https://www.jiqizhixin.com/search/articles/把张益唐坑苦的雅可比猜想，被F",
-      "summary": "把张益唐坑苦的雅可比猜想，被Fable 5证伪了？...",
-      "date": "2026-07-20",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "浙江人形亮相 WAIC：具身智能驱动 NAVIAI 与 AMR 实现集群调度作业",
-      "link": "https://www.jiqizhixin.com/search/articles/浙江人形亮相 WAIC：具身智",
-      "summary": "浙江人形亮相 WAIC：具身智能驱动 NAVIAI 与 AMR 实现集群调度作业...",
-      "date": "2026-07-20",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "跨集群异构PD分离WAIC首发，专访无问芯穹李秀红，探秘Token工厂「超级管线」的落地路径",
-      "link": "https://www.jiqizhixin.com/search/articles/跨集群异构PD分离WAIC首发",
-      "summary": "跨集群异构PD分离WAIC首发，专访无问芯穹李秀红，探秘Token工厂「超级管线」的落地路径...",
-      "date": "2026-07-20",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "GPU挤爆了！Kimi K3暂停新用户订阅，月之暗面准备IPO",
-      "link": "https://www.jiqizhixin.com/search/articles/GPU挤爆了！Kimi K3暂",
-      "summary": "GPU挤爆了！Kimi K3暂停新用户订阅，月之暗面准备IPO...",
-      "date": "2026-07-20",
       "source": "机器之心",
       "type": "industry",
       "tags": [

@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-08-14",
+  "last_updated": "2026-08-15",
   "count": 200,
   "items": [
     {
       "title": "[黎曼动力携手光轮智能与诺亦腾机器人，剑指2026年百万小时 具 身 智 能 数据建设",
       "summary": "[黎曼动力携手光轮智能与诺亦腾机器人，剑指2026年百万小时 具 身 智 能 数据建设",
       "url": "http://36kr.com/p/3929174402203014",
-      "date": "2026-08-14",
+      "date": "2026-08-15",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
@@ -92,6 +92,19 @@
         "机器人学习",
         "研究论文",
         "arXiv"
+      ]
+    },
+    {
+      "title": "4个月签约欧洲商超巨头：具身智能的出海“闪电战”",
+      "summary": "4个月签约欧洲商超巨头：具身智能的出海“闪电战”",
+      "url": "http://36kr.com/p/3936504864701830",
+      "date": "2026-08-13",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
       ]
     },
     {
@@ -3005,22 +3018,6 @@
       "type": "paper",
       "arxiv_id": "2607.07542v1",
       "authors": "Dean Zadok, Alon Wolf et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Lift3D-VLA: Lifting VLA Models to 3D Geometry and Dynamics-Aware Manipulation",
-      "summary": "Recently, Vision-Language-Action (VLA) models have demonstrated strong generalization across diverse tasks. However, effective robotic manipulation in physical environments fundamentally requires geometric understanding and spatial reasoning. While s...",
-      "url": "https://arxiv.org/abs/2607.06564v1",
-      "date": "2026-07-07",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.06564v1",
-      "authors": "Jiaming Liu, Qingpo Wuwu et al.",
       "tags": [
         "机器人学习",
         "研究论文",
