@@ -8,18 +8,6 @@
       "count": 5,
       "items": [
         {
-          "title": "Markdown Content:",
-          "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-          "summary": "Markdown Content:...",
-          "date": "2026-08-14",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
           "title": "鹿明发布MOS2：全球首个双臂负载50kg轮臂式机器人，加速AI Worker进入产业现",
           "link": "https://www.jiqizhixin.com/search/articles/鹿明发布MOS2：全球首个双臂",
           "summary": "鹿明发布MOS2：全球首个双臂负载50kg轮臂式机器人，加速AI Worker进入产业现...",
@@ -59,6 +47,18 @@
           "title": "余家辉离职创业，Meta流失超200名顶级研究员",
           "link": "https://www.jiqizhixin.com/search/articles/余家辉离职创业，Meta流失超",
           "summary": "余家辉离职创业，Meta流失超200名顶级研究员...",
+          "date": "2026-08-14",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "德塔智能与舞肌科技达成战略合作，联合规范全身协同灵巧操作数据采集",
+          "link": "https://www.jiqizhixin.com/search/articles/德塔智能与舞肌科技达成战略合作",
+          "summary": "德塔智能与舞肌科技达成战略合作，联合规范全身协同灵巧操作数据采集...",
           "date": "2026-08-14",
           "source": "机器之心",
           "type": "industry",
