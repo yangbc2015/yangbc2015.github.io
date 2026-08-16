@@ -8,18 +8,6 @@
       "count": 5,
       "items": [
         {
-          "title": "Markdown Content:",
-          "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-          "summary": "Markdown Content:...",
-          "date": "2026-08-15",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
           "title": "浙大团队开源AI科研智能体Polaris：让AI与你一起做研究",
           "link": "https://www.jiqizhixin.com/search/articles/浙大团队开源AI科研智能体Po",
           "summary": "浙大团队开源AI科研智能体Polaris：让AI与你一起做研究...",
@@ -32,11 +20,11 @@
           ]
         },
         {
-          "title": "ECCV 2026｜UniMotion：在统一多模态大模型中引入连续运动模态",
-          "link": "https://www.jiqizhixin.com/search/articles/ECCV 2026｜UniMo",
-          "summary": "ECCV 2026｜UniMotion：在统一多模态大模型中引入连续运动模态...",
-          "date": "2026-08-15",
-          "source": "机器之心",
+          "title": "AI不是替代者，而是个人能力的放大镜",
+          "link": "https://www.qbitai.com/?s=AI不是替代者，而是",
+          "summary": "AI不是替代者，而是个人能力的放大镜...",
+          "date": "2026-08-16",
+          "source": "量子位",
           "type": "industry",
           "tags": [
             "AI",
@@ -44,11 +32,11 @@
           ]
         },
         {
-          "title": "刚刚，Anthropic报告泄露Model 2，比Mythos 5更强的内部模型",
-          "link": "https://www.jiqizhixin.com/search/articles/刚刚，Anthropic报告泄",
-          "summary": "刚刚，Anthropic报告泄露Model 2，比Mythos 5更强的内部模型...",
-          "date": "2026-08-15",
-          "source": "机器之心",
+          "title": "将超越马斯克的SpaceX，成为史上上市估值最高的IPO。",
+          "link": "https://www.qbitai.com/?s=将超越马斯克的Spa",
+          "summary": "将超越马斯克的SpaceX，成为史上上市估值最高的IPO。...",
+          "date": "2026-08-16",
+          "source": "量子位",
           "type": "industry",
           "tags": [
             "AI",
@@ -56,11 +44,23 @@
           ]
         },
         {
-          "title": "DeepSeek Harness背后的论文：让Agent在运行中改写自己",
-          "link": "https://www.jiqizhixin.com/search/articles/DeepSeek Harnes",
-          "summary": "DeepSeek Harness背后的论文：让Agent在运行中改写自己...",
-          "date": "2026-08-15",
-          "source": "机器之心",
+          "title": "理解大模型，无需再训练一个替代网络",
+          "link": "https://www.qbitai.com/?s=理解大模型，无需再训",
+          "summary": "理解大模型，无需再训练一个替代网络...",
+          "date": "2026-08-16",
+          "source": "量子位",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "大家已经给DeepSeek装上了啥",
+          "link": "https://www.qbitai.com/?s=大家已经给DeepS",
+          "summary": "大家已经给DeepSeek装上了啥...",
+          "date": "2026-08-16",
+          "source": "量子位",
           "type": "industry",
           "tags": [
             "AI",
