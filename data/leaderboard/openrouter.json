@@ -63,8 +63,8 @@
       "rank": 8,
       "model": "deepseek-v4-pro-0813",
       "organization": "deepseek",
-      "price_prompt": "0.000000435",
-      "price_completion": "0.00000087",
+      "price_prompt": "0.00000066",
+      "price_completion": "0.00000198",
       "context_length": 1048576
     },
     {
@@ -87,8 +87,8 @@
       "rank": 11,
       "model": "nemotron-3.5-lightning",
       "organization": "nvidia",
-      "price_prompt": "0.0000001",
-      "price_completion": "0.00000025",
+      "price_prompt": "0.00000008",
+      "price_completion": "0.0000002",
       "context_length": 1000000
     },
     {
