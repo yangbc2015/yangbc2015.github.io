@@ -1,6 +1,6 @@
 ---
 title: 'Markdown Content:'
-date: '2026-08-14'
+date: '2026-08-15'
 type: industry
 source: 机器之心
 link: https://www.jiqizhixin.com/search/articles/Markdown Conten
