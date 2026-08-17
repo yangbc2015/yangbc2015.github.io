@@ -63,8 +63,8 @@
       "rank": 8,
       "model": "deepseek-v4-pro-0813",
       "organization": "deepseek",
-      "price_prompt": "0.00000066",
-      "price_completion": "0.00000198",
+      "price_prompt": "0.00000132",
+      "price_completion": "0.00000396",
       "context_length": 1048576
     },
     {

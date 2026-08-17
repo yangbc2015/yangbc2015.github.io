@@ -1,105 +1,87 @@
 {
   "last_updated": "2026-08-17",
-  "count": 7,
+  "count": 8,
   "items": [
     {
-      "title": "AutoDesign: Meta-Harness Optimization for Long-Horizon Agentic Design",
-      "authors": "Yaxin Luo, Haobin Jiang, Jialv Zou et al.",
-      "abstract": "Transforming multimodal sources into condensed and structured media outputs can be fundamentally conceptualized as a long-horizon agentic process centered on a model-harness system. While an ideal harness system should align with human design priors and accumulate reusable experience through empiric...",
+      "title": "Decoding the Past: An Uncertainty-Aware Deep Learning Framework for Sex Attribution in Prehistoric Hand Stencils",
+      "authors": "Karel Becerra, Boris Mederos, Dean Snow et al.",
+      "abstract": "Determining the biological sex of the individuals who created Upper Paleolithic hand stencils remains a challenging problem due to the absence of ground truth, population differences between contemporary and prehistoric groups, and the uncertainty introduced by image degradation. Traditional morphom...",
       "venue": "arXiv",
-      "date": "2026-08-13",
-      "arxiv_id": "2608.13560v1",
-      "url": "https://arxiv.org/abs/2608.13560v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.13560v1.pdf",
+      "date": "2026-08-14",
+      "arxiv_id": "2608.14539v1",
+      "url": "https://arxiv.org/abs/2608.14539v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.14539v1.pdf",
       "categories": [
         "cs.CV",
         "cs.AI",
-        "cs.CL"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "OmniScientist: An Omni-Modal Omni-Discipline AI Scientist",
-      "authors": "Bobo Li, Hao Fei, Tianjie Ju et al.",
-      "abstract": "Recent advances in foundation models have enabled AI scientists to automate increasingly complete research workflows, from hypothesis generation and code execution to manuscript preparation. Yet workflow coverage alone does not provide access to the full evidence on which scientific discovery depend...",
-      "venue": "arXiv",
-      "date": "2026-08-13",
-      "arxiv_id": "2608.13558v1",
-      "url": "https://arxiv.org/abs/2608.13558v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.13558v1.pdf",
-      "categories": [
-        "cs.AI",
-        "cs.CL"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "V-RAE: Rethinking Video Latent Spaces for Generation",
-      "authors": "Minghui Guo, Shengqiong Wu, Hao Fei",
-      "abstract": "Latent video generation relies on autoencoders to define a compact space in which generative models operate. Although video autoencoder architectures have evolved substantially, their latent spaces are still optimized primarily for pixel-level reconstruction and provide limited high-level semantic o...",
-      "venue": "arXiv",
-      "date": "2026-08-13",
-      "arxiv_id": "2608.13556v1",
-      "url": "https://arxiv.org/abs/2608.13556v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.13556v1.pdf",
-      "categories": [
-        "cs.CV"
+        "cs.LG"
       ],
       "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Defensive Boosting for Online Probabilistic Forecasting",
-      "authors": "Georgy Noarov, Aaron Roth",
-      "abstract": "We study online probabilistic forecasting of binary outcomes chosen by an adaptive adversary. Given an online learning algorithm for a weak hypothesis class $H$, we would like to efficiently obtain two incomparable guarantees that existing online boosting techniques provide separately. Online gradie...",
+      "title": "Marionette: Predicting World States, Rendering Geometry, Painting Appearance",
+      "authors": "Zian Meng, Zhen Li, Chuanhao Li et al.",
+      "abstract": "Interactive game world models typically autoregress visual observations directly in pixel or latent space, forcing structured properties such as pose, geometry, and occlusion to be implicitly maintained by the same generative sequence. Over long horizons, errors in these latent world properties accu...",
       "venue": "arXiv",
-      "date": "2026-08-13",
-      "arxiv_id": "2608.13554v1",
-      "url": "https://arxiv.org/abs/2608.13554v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.13554v1.pdf",
+      "date": "2026-08-14",
+      "arxiv_id": "2608.14530v1",
+      "url": "https://arxiv.org/abs/2608.14530v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.14530v1.pdf",
       "categories": [
-        "cs.LG",
-        "cs.CC",
-        "cs.DS"
+        "cs.CV",
+        "cs.AI"
       ],
-      "type": "ml",
+      "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Exponential Convex Calibration Dimension for the Multi-Label Jaccard Measure",
-      "authors": "Mingyuan Zhang",
-      "abstract": "The per-instance Jaccard score, or intersection over union (IoU), is standard in multi-label classification and binary segmentation. With $s$ labels, its loss matrix has $2^s$ outcomes and reports. Under the convention $\\mathrm{Jac}(\\varnothing,\\varnothing)=1$, we prove that the Jaccard score, shift...",
+      "title": "Split the Labor: Separating Evidence Interpretation from Decision Aggregation",
+      "authors": "Zhelun Wu",
+      "abstract": "Systems that ask a language model to reach a conclusion from many sources usually concatenate them into one prompt. This conflates two operations with different requirements. Interpreting a source rewards capacity and context. Combining interpretations rewards fixed arithmetic, comparability across ...",
       "venue": "arXiv",
-      "date": "2026-08-13",
-      "arxiv_id": "2608.13549v1",
-      "url": "https://arxiv.org/abs/2608.13549v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.13549v1.pdf",
+      "date": "2026-08-14",
+      "arxiv_id": "2608.14509v1",
+      "url": "https://arxiv.org/abs/2608.14509v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.14509v1.pdf",
       "categories": [
-        "cs.LG",
-        "stat.ML"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "HumanTracker: Towards Comprehensive and Human-Aligned Motion Tracking Benchmark",
-      "authors": "Dairu Liu, Zekun Qi, Jiayu Zeng et al.",
-      "abstract": "Humanoid motion tracking is central to teleoperation and whole-body imitation, yet evaluation often disagrees with what people perceive in videos. Kinematic errors average per-frame pose differences but miss the physical artifacts that matter most, particularly unstable support and incorrect contact...",
-      "venue": "arXiv",
-      "date": "2026-08-13",
-      "arxiv_id": "2608.13555v1",
-      "url": "https://arxiv.org/abs/2608.13555v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.13555v1.pdf",
-      "categories": [
-        "cs.RO",
         "cs.AI",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "You Only Pass Once: Answering and Abstaining Together in a Single Forward Pass of a Frozen Language Model",
+      "authors": "Ziyang Luo, Zhongyao Chu, Xinjie He et al.",
+      "abstract": "A frozen language model on reasoning tasks has two coupled weaknesses: it under-uses evidence its own residual stream already encodes, and it fails to detect when the input is insufficient to answer, so it confabulates. This paper consolidates two research lines that address these on the same residu...",
+      "venue": "arXiv",
+      "date": "2026-08-14",
+      "arxiv_id": "2608.14465v1",
+      "url": "https://arxiv.org/abs/2608.14465v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.14465v1.pdf",
+      "categories": [
+        "cs.CL",
+        "cs.LG"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "CPI-Bench: A Comprehensive,Practical and Intelligent Benchmark for Real-World Image Editing",
+      "authors": "Qinye Zhou, Jun Zheng, Yongchao Du et al.",
+      "abstract": "With the rapid advancement of image editing models and their widespread application across various domains, there is an increasingly urgent need to deploy these model capabilities directly into real-world scenarios. However, existing benchmarks remain confined to simple single-image tasks, suffering...",
+      "venue": "arXiv",
+      "date": "2026-08-14",
+      "arxiv_id": "2608.14546v1",
+      "url": "https://arxiv.org/abs/2608.14546v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.14546v1.pdf",
+      "categories": [
         "cs.CV"
       ],
       "type": "benchmark",
@@ -107,18 +89,52 @@
       "source": "arXiv"
     },
     {
-      "title": "A Browser-Native Digital Test Range for Benchmarking 4D Ocean-Glider Planning Algorithms",
-      "authors": "Edward Holmberg, Elias Ioup, Mahdi Abdelguerfi",
-      "abstract": "Repeated in-situ evaluation of ocean-glider planners requires scarce vehicles, operators, deployment and recovery resources, and ocean conditions that cannot be reset for competing algorithms. We present a guided, installation-free browser-native digital test range that transforms a selected region ...",
+      "title": "MagnifiQ: Patch-aware Text Guided Progressive Upscaling for High-Resolution Image Restoration",
+      "authors": "Mahesh Reddy, Yashesh Savani, Antoine Mercier et al.",
+      "abstract": "High-resolution image restoration from degraded inputs is challenging because it must preserve global structural consistency while recovering fine-grained local details, especially at 4K resolution where direct diffusion-based restoration is computationally expensive and prone to repeated or inconsi...",
       "venue": "arXiv",
-      "date": "2026-08-13",
-      "arxiv_id": "2608.13511v1",
-      "url": "https://arxiv.org/abs/2608.13511v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.13511v1.pdf",
+      "date": "2026-08-14",
+      "arxiv_id": "2608.14543v1",
+      "url": "https://arxiv.org/abs/2608.14543v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.14543v1.pdf",
       "categories": [
-        "cs.RO"
+        "cs.CV"
       ],
-      "type": "benchmark",
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Spatiotemporal Tube-Based Safety-Certificate for Autonomous Navigation of Articulated Vehicles",
+      "authors": "Mohd. Faizuddin Faruqui, Ratnangshu Das, Ravi Kumar L et al.",
+      "abstract": "Articulated vehicles are the workhorses of freight transportation, and their autonomous navigation is challenging. Their physical characteristics and motion constraints pose significant challenges in manoeuvring these vehicles on narrow routes. This paper presents a spatiotemporal tube-based approac...",
+      "venue": "arXiv",
+      "date": "2026-08-14",
+      "arxiv_id": "2608.14531v1",
+      "url": "https://arxiv.org/abs/2608.14531v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.14531v1.pdf",
+      "categories": [
+        "cs.RO",
+        "eess.SY"
+      ],
+      "type": "ai",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Ensuring Safe Physical AI in Urban Mobility via Hazard-Informed Synthesized Envelopes",
+      "authors": "Alexei Odinokov, Rostislav Yavorskiy",
+      "abstract": "As heterogeneous robotic systems deploy across diverse urban zones, maintaining safety amid complex human-robot interactions remains a critical challenge. We present a unified framework that bridges systematic hazard analysis and runtime enforcement using hazard-informed safety envelopes. Rather tha...",
+      "venue": "arXiv",
+      "date": "2026-08-14",
+      "arxiv_id": "2608.14481v1",
+      "url": "https://arxiv.org/abs/2608.14481v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.14481v1.pdf",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "type": "ai",
       "badge": "arxiv",
       "source": "arXiv"
     }

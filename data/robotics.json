@@ -101,6 +101,99 @@
       ]
     },
     {
+      "title": "Spatiotemporal Tube-Based Safety-Certificate for Autonomous Navigation of Articulated Vehicles",
+      "summary": "Articulated vehicles are the workhorses of freight transportation, and their autonomous navigation is challenging. Their physical characteristics and motion constraints pose significant challenges in manoeuvring these vehicles on narrow routes. This ...",
+      "url": "https://arxiv.org/abs/2608.14531v1",
+      "date": "2026-08-14",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.14531v1",
+      "authors": "Mohd. Faizuddin Faruqui, Ratnangshu Das et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Ensuring Safe Physical AI in Urban Mobility via Hazard-Informed Synthesized Envelopes",
+      "summary": "As heterogeneous robotic systems deploy across diverse urban zones, maintaining safety amid complex human-robot interactions remains a critical challenge. We present a unified framework that bridges systematic hazard analysis and runtime enforcement ...",
+      "url": "https://arxiv.org/abs/2608.14481v1",
+      "date": "2026-08-14",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.14481v1",
+      "authors": "Alexei Odinokov, Rostislav Yavorskiy",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Expected Free Energy-based Informative Path Planning for Robotic Mars Exploration",
+      "summary": "An autonomous robot efficiently exploring an unknown environment, such as looking for water sources on Mars, faces two simultaneous demands: building an accurate information map while quickly finding the regions of greatest value, and paying for ever...",
+      "url": "https://arxiv.org/abs/2608.14466v1",
+      "date": "2026-08-14",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.14466v1",
+      "authors": "Ajith Anil Meera, Pablo Lanillos et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "THRIVE: Therapeutic Humanoid Robot In Virtual Environment",
+      "summary": "This paper presents THRIVE (Therapeutic Humanoid Robot In Virtual Environment), an at-home rehabilitation platform that integrates a suite of virtual-reality upper-body rehabilitation games, a real-time camera-based motion-tracking system, and a soci...",
+      "url": "https://arxiv.org/abs/2608.14462v1",
+      "date": "2026-08-14",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.14462v1",
+      "authors": "Jin Xu, Yu-Ping Chen et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Control-Informed Constraint Adaptation in Minimum-Time Trajectory Planning for Autonomous Racing",
+      "summary": "Autonomous racecars operate at the limits of vehicle dynamics, where small control errors translate into safety-critical behavior and lost performance. Trajectory planners assume perfect tracking and remain blind to execution errors. To guarantee saf...",
+      "url": "https://arxiv.org/abs/2608.14448v1",
+      "date": "2026-08-14",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.14448v1",
+      "authors": "Ann-Kathrin Schwehn, Alexander Langmann et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "4个月签约欧洲商超巨头：具身智能的出海“闪电战”",
+      "summary": "4个月签约欧洲商超巨头：具身智能的出海“闪电战”",
+      "url": "http://36kr.com/p/3936504864701830",
+      "date": "2026-08-13",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
       "title": "HumanTracker: Towards Comprehensive and Human-Aligned Motion Tracking Benchmark",
       "summary": "Humanoid motion tracking is central to teleoperation and whole-body imitation, yet evaluation often disagrees with what people perceive in videos. Kinematic errors average per-frame pose differences but miss the physical artifacts that matter most, p...",
       "url": "https://arxiv.org/abs/2608.13555v1",
@@ -178,19 +271,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "4个月签约欧洲商超巨头：具身智能的出海“闪电战”",
-      "summary": "4个月签约欧洲商超巨头：具身智能的出海“闪电战”",
-      "url": "http://36kr.com/p/3936504864701830",
-      "date": "2026-08-13",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
       ]
     },
     {
@@ -2942,86 +3022,6 @@
       "tags": [
         "机器人",
         "具身智能"
-      ]
-    },
-    {
-      "title": "Continuous and large-scale: ELEANOR, the soft architected arm inspired by the elephant trunk",
-      "summary": "The elephant trunk is a dexterous and versatile manipulator whose performance is still unmatched in robotics. In previous works, modularity was prioritized and relatively small-scale continuum robots were built. We take the natural proboscis of the *...",
-      "url": "https://arxiv.org/abs/2607.07622v1",
-      "date": "2026-07-08",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.07622v1",
-      "authors": "Giovanna A. Naselli, Anderson B. Nardin et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Dual Latent Memory in Vision-Language-Action Models for Robotic Manipulation",
-      "summary": "Mainstream Vision-Language-Action (VLA) models predict actions primarily from the current observation under a Markovian assumption, thus struggling with long-horizon, temporally dependent tasks. Existing memory-augmented VLAs either expand the observ...",
-      "url": "https://arxiv.org/abs/2607.07608v1",
-      "date": "2026-07-08",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.07608v1",
-      "authors": "Hongyu Qu, Jianzhe Gao et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "CARLA-GS: Decoupling Representation, Reasoning, and Physics Simulation for Autonomous Driving Corner-Case Synthesis",
-      "summary": "Safety evaluation for autonomous driving is dominated by rare, safety-critical interactions, motivating simulators that can deliberately synthesize corner cases with photorealistic observations. Corner-case generation is inherently a multi-source pro...",
-      "url": "https://arxiv.org/abs/2607.07601v1",
-      "date": "2026-07-08",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.07601v1",
-      "authors": "Kaicong Huang, Meng Ma et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Context-Aware Force Estimation for Deformable Tool Manipulation in Robotic Environmental Swabbing via Few-Shot Continual Adaptation",
-      "summary": "Robotic surface swabbing requires sustained interaction between a compliant tool and heterogeneous environments, where accurate estimation of tip-level contact force is critical for consistent sampling performance. However, deformable tool dynamics i...",
-      "url": "https://arxiv.org/abs/2607.07574v1",
-      "date": "2026-07-08",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.07574v1",
-      "authors": "Siavash Mahmoudi, Chaitainya Kuppar Reddy et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "SonoRank: Towards Calibration-Free Real-Time Finger Flexion Detection from Forearm Ultrasound Sequences",
-      "summary": "Powered prosthetic hands are frequently abandoned, largely due to the limited functionality of current devices that rely on surface electromyography (sEMG). Sonomyography (ultrasound) has emerged as a promising alternative, owing to its ability to ob...",
-      "url": "https://arxiv.org/abs/2607.07542v1",
-      "date": "2026-07-08",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.07542v1",
-      "authors": "Dean Zadok, Alon Wolf et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
       ]
     }
   ]
