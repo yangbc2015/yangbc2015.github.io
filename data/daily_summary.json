@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-16",
-  "last_updated": "2026-08-16",
+  "date": "2026-08-17",
+  "last_updated": "2026-08-17",
   "categories": {
     "ai": {
       "name": "人工智能",
@@ -8,10 +8,10 @@
       "count": 5,
       "items": [
         {
-          "title": "浙大团队开源AI科研智能体Polaris：让AI与你一起做研究",
-          "link": "https://www.jiqizhixin.com/search/articles/浙大团队开源AI科研智能体Po",
-          "summary": "浙大团队开源AI科研智能体Polaris：让AI与你一起做研究...",
-          "date": "2026-08-15",
+          "title": "Markdown Content:",
+          "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+          "summary": "Markdown Content:...",
+          "date": "2026-08-16",
           "source": "机器之心",
           "type": "industry",
           "tags": [
@@ -20,11 +20,11 @@
           ]
         },
         {
-          "title": "AI不是替代者，而是个人能力的放大镜",
-          "link": "https://www.qbitai.com/?s=AI不是替代者，而是",
-          "summary": "AI不是替代者，而是个人能力的放大镜...",
+          "title": "AI宣布森多夫猜想告破！陶哲轩发现它隐藏的更强结果",
+          "link": "https://www.jiqizhixin.com/search/articles/AI宣布森多夫猜想告破！陶哲轩",
+          "summary": "AI宣布森多夫猜想告破！陶哲轩发现它隐藏的更强结果...",
           "date": "2026-08-16",
-          "source": "量子位",
+          "source": "机器之心",
           "type": "industry",
           "tags": [
             "AI",
@@ -32,11 +32,11 @@
           ]
         },
         {
-          "title": "将超越马斯克的SpaceX，成为史上上市估值最高的IPO。",
-          "link": "https://www.qbitai.com/?s=将超越马斯克的Spa",
-          "summary": "将超越马斯克的SpaceX，成为史上上市估值最高的IPO。...",
+          "title": "ScienceDiscovery发布：零科研幻觉的一站式AI工作台，BiomniBench-DA验证效果业界SOTA",
+          "link": "https://www.jiqizhixin.com/search/articles/ScienceDiscover",
+          "summary": "ScienceDiscovery发布：零科研幻觉的一站式AI工作台，BiomniBench-DA验证效果业界SOTA...",
           "date": "2026-08-16",
-          "source": "量子位",
+          "source": "机器之心",
           "type": "industry",
           "tags": [
             "AI",
@@ -44,11 +44,11 @@
           ]
         },
         {
-          "title": "理解大模型，无需再训练一个替代网络",
-          "link": "https://www.qbitai.com/?s=理解大模型，无需再训",
-          "summary": "理解大模型，无需再训练一个替代网络...",
+          "title": "「有些模型就是不想学？」循环模型为什么越想越错？",
+          "link": "https://www.jiqizhixin.com/search/articles/「有些模型就是不想学？」循环模",
+          "summary": "「有些模型就是不想学？」循环模型为什么越想越错？...",
           "date": "2026-08-16",
-          "source": "量子位",
+          "source": "机器之心",
           "type": "industry",
           "tags": [
             "AI",
@@ -56,11 +56,11 @@
           ]
         },
         {
-          "title": "大家已经给DeepSeek装上了啥",
-          "link": "https://www.qbitai.com/?s=大家已经给DeepS",
-          "summary": "大家已经给DeepSeek装上了啥...",
+          "title": "港中文联手中科大提出VideoCoCo，重新定义物理视频生成新范式",
+          "link": "https://www.jiqizhixin.com/search/articles/港中文联手中科大提出Video",
+          "summary": "港中文联手中科大提出VideoCoCo，重新定义物理视频生成新范式...",
           "date": "2026-08-16",
-          "source": "量子位",
+          "source": "机器之心",
           "type": "industry",
           "tags": [
             "AI",
