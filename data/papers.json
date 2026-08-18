@@ -1,102 +1,87 @@
 {
   "last_updated": "2026-08-18",
-  "count": 8,
+  "count": 7,
   "items": [
     {
-      "title": "Decoding the Past: An Uncertainty-Aware Deep Learning Framework for Sex Attribution in Prehistoric Hand Stencils",
-      "authors": "Karel Becerra, Boris Mederos, Dean Snow et al.",
-      "abstract": "Determining the biological sex of the individuals who created Upper Paleolithic hand stencils remains a challenging problem due to the absence of ground truth, population differences between contemporary and prehistoric groups, and the uncertainty introduced by image degradation. Traditional morphom...",
+      "title": "Don't Drop the BATON: Long-Horizon Robot Manipulation via Agentic Subtask Exploration and Transition-aware Memory",
+      "authors": "Bingxin Xu, Yuzhang Shang, Emilio Ferrara",
+      "abstract": "Long-horizon robot manipulation chains many contact-rich skills into one multi-stage task. Vision-language-action (VLA) models increasingly master the individual skills, yet the chain still fails: errors compound beyond the policy's ability to correct, and one subtask silently constrains the next. A...",
       "venue": "arXiv",
-      "date": "2026-08-14",
-      "arxiv_id": "2608.14539v1",
-      "url": "https://arxiv.org/abs/2608.14539v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.14539v1.pdf",
+      "date": "2026-08-17",
+      "arxiv_id": "2608.16889v1",
+      "url": "https://arxiv.org/abs/2608.16889v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.16889v1.pdf",
       "categories": [
-        "cs.CV",
+        "cs.RO",
         "cs.AI",
-        "cs.LG"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Marionette: Predicting World States, Rendering Geometry, Painting Appearance",
-      "authors": "Zian Meng, Zhen Li, Chuanhao Li et al.",
-      "abstract": "Interactive game world models typically autoregress visual observations directly in pixel or latent space, forcing structured properties such as pose, geometry, and occlusion to be implicitly maintained by the same generative sequence. Over long horizons, errors in these latent world properties accu...",
-      "venue": "arXiv",
-      "date": "2026-08-14",
-      "arxiv_id": "2608.14530v1",
-      "url": "https://arxiv.org/abs/2608.14530v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.14530v1.pdf",
-      "categories": [
-        "cs.CV",
-        "cs.AI"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Split the Labor: Separating Evidence Interpretation from Decision Aggregation",
-      "authors": "Zhelun Wu",
-      "abstract": "Systems that ask a language model to reach a conclusion from many sources usually concatenate them into one prompt. This conflates two operations with different requirements. Interpreting a source rewards capacity and context. Combining interpretations rewards fixed arithmetic, comparability across ...",
-      "venue": "arXiv",
-      "date": "2026-08-14",
-      "arxiv_id": "2608.14509v1",
-      "url": "https://arxiv.org/abs/2608.14509v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.14509v1.pdf",
-      "categories": [
-        "cs.AI",
-        "cs.CL",
-        "cs.LG"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "You Only Pass Once: Answering and Abstaining Together in a Single Forward Pass of a Frozen Language Model",
-      "authors": "Ziyang Luo, Zhongyao Chu, Xinjie He et al.",
-      "abstract": "A frozen language model on reasoning tasks has two coupled weaknesses: it under-uses evidence its own residual stream already encodes, and it fails to detect when the input is insufficient to answer, so it confabulates. This paper consolidates two research lines that address these on the same residu...",
-      "venue": "arXiv",
-      "date": "2026-08-14",
-      "arxiv_id": "2608.14465v1",
-      "url": "https://arxiv.org/abs/2608.14465v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.14465v1.pdf",
-      "categories": [
-        "cs.CL",
-        "cs.LG"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "CPI-Bench: A Comprehensive,Practical and Intelligent Benchmark for Real-World Image Editing",
-      "authors": "Qinye Zhou, Jun Zheng, Yongchao Du et al.",
-      "abstract": "With the rapid advancement of image editing models and their widespread application across various domains, there is an increasingly urgent need to deploy these model capabilities directly into real-world scenarios. However, existing benchmarks remain confined to simple single-image tasks, suffering...",
-      "venue": "arXiv",
-      "date": "2026-08-14",
-      "arxiv_id": "2608.14546v1",
-      "url": "https://arxiv.org/abs/2608.14546v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.14546v1.pdf",
-      "categories": [
         "cs.CV"
       ],
-      "type": "benchmark",
+      "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "MagnifiQ: Patch-aware Text Guided Progressive Upscaling for High-Resolution Image Restoration",
-      "authors": "Mahesh Reddy, Yashesh Savani, Antoine Mercier et al.",
-      "abstract": "High-resolution image restoration from degraded inputs is challenging because it must preserve global structural consistency while recovering fine-grained local details, especially at 4K resolution where direct diffusion-based restoration is computationally expensive and prone to repeated or inconsi...",
+      "title": "Improving the matrix multiplication exponent with modern optimization and AlphaEvolve",
+      "authors": "Emilien Dupont, Marvin Eisenberger, Borislav Kozlovskii et al.",
+      "abstract": "The current best bounds on the matrix multiplication exponent $ω$ are obtained through a refinement of the laser method called combination loss analysis (Duan et al., 2022; Williams et al., 2024; Alman et al., 2025). In this note, we address the optimization problem at the core of this approach and ...",
       "venue": "arXiv",
-      "date": "2026-08-14",
-      "arxiv_id": "2608.14543v1",
-      "url": "https://arxiv.org/abs/2608.14543v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.14543v1.pdf",
+      "date": "2026-08-17",
+      "arxiv_id": "2608.16884v1",
+      "url": "https://arxiv.org/abs/2608.16884v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.16884v1.pdf",
+      "categories": [
+        "cs.DS",
+        "cs.AI",
+        "cs.CC"
+      ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Towards Computational Provenance: Carrying Causal-State Evidence in Generated Text",
+      "authors": "Benjamin Belay",
+      "abstract": "A language model's output does not by itself provide verifiable evidence about the internal computation that produced it. We study computational provenance: whether generated text can carry detectable evidence of which causally relevant internal state occurred. We test a bounded form of this idea in...",
+      "venue": "arXiv",
+      "date": "2026-08-17",
+      "arxiv_id": "2608.16868v1",
+      "url": "https://arxiv.org/abs/2608.16868v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.16868v1.pdf",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Proteus: Incremental Memory Activation for Long-Context Sequence Modeling",
+      "authors": "Reza Bayat, Ali Behrouz, Vahab Mirrokni et al.",
+      "abstract": "The quadratic cost of attention-based sequence models for long contexts has motivated a growing line of research on memory-based models that can compress context into a compact state. However, most existing memory models expose a static memory throughout the entire sequence. Because early tokens fac...",
+      "venue": "arXiv",
+      "date": "2026-08-17",
+      "arxiv_id": "2608.16844v1",
+      "url": "https://arxiv.org/abs/2608.16844v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.16844v1.pdf",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "An Empirical Study of Training Pixel-Space Text-to-Image Diffusion Models",
+      "authors": "Dengyang Jiang, Ruoyi Du, Zhennan Chen et al.",
+      "abstract": "This paper investigates an increasingly important topic in generative modeling: pixel-space diffusion models. Although numerous studies have explored this topic, most focus on small-scale or class-conditional settings. Consequently, a practical recipe for training pixel-space models that rival or ex...",
+      "venue": "arXiv",
+      "date": "2026-08-17",
+      "arxiv_id": "2608.16887v1",
+      "url": "https://arxiv.org/abs/2608.16887v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.16887v1.pdf",
       "categories": [
         "cs.CV"
       ],
@@ -105,34 +90,32 @@
       "source": "arXiv"
     },
     {
-      "title": "Spatiotemporal Tube-Based Safety-Certificate for Autonomous Navigation of Articulated Vehicles",
-      "authors": "Mohd. Faizuddin Faruqui, Ratnangshu Das, Ravi Kumar L et al.",
-      "abstract": "Articulated vehicles are the workhorses of freight transportation, and their autonomous navigation is challenging. Their physical characteristics and motion constraints pose significant challenges in manoeuvring these vehicles on narrow routes. This paper presents a spatiotemporal tube-based approac...",
+      "title": "Q-based Variational Inverse Reinforcement Learning",
+      "authors": "Ondrej Bajgar, Peter Tisnikar, Alessandro Abate et al.",
+      "abstract": "The development of safe and beneficial AI requires that systems can learn and act in accordance with human preferences. However, explicitly specifying these preferences by hand is often infeasible. Inverse reinforcement learning (IRL) addresses this challenge by inferring preferences, represented as...",
       "venue": "arXiv",
-      "date": "2026-08-14",
-      "arxiv_id": "2608.14531v1",
-      "url": "https://arxiv.org/abs/2608.14531v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.14531v1.pdf",
+      "date": "2026-08-17",
+      "arxiv_id": "2608.16888v1",
+      "url": "https://arxiv.org/abs/2608.16888v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.16888v1.pdf",
       "categories": [
-        "cs.RO",
-        "eess.SY"
+        "cs.LG"
       ],
-      "type": "ai",
+      "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Ensuring Safe Physical AI in Urban Mobility via Hazard-Informed Synthesized Envelopes",
-      "authors": "Alexei Odinokov, Rostislav Yavorskiy",
-      "abstract": "As heterogeneous robotic systems deploy across diverse urban zones, maintaining safety amid complex human-robot interactions remains a critical challenge. We present a unified framework that bridges systematic hazard analysis and runtime enforcement using hazard-informed safety envelopes. Rather tha...",
+      "title": "$τ_0$-VLA: a Hierarchical Robot Foundation Model with World-Model-Guided Test-Time Computation",
+      "authors": "Xiaowei Cai, Yunuo Cai, Bingao Chen et al.",
+      "abstract": "Long-horizon robot manipulation requires a robot to both execute individual skills reliably and sequence them coherently over extended tasks. Most hierarchical vision-language-action (VLA) models make each such decision with a single forward pass, leaving no mechanism to allocate additional computat...",
       "venue": "arXiv",
-      "date": "2026-08-14",
-      "arxiv_id": "2608.14481v1",
-      "url": "https://arxiv.org/abs/2608.14481v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.14481v1.pdf",
+      "date": "2026-08-17",
+      "arxiv_id": "2608.16885v1",
+      "url": "https://arxiv.org/abs/2608.16885v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.16885v1.pdf",
       "categories": [
-        "cs.RO",
-        "cs.AI"
+        "cs.RO"
       ],
       "type": "ai",
       "badge": "arxiv",

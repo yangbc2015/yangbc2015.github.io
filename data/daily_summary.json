@@ -8,18 +8,6 @@
       "count": 5,
       "items": [
         {
-          "title": "Markdown Content:",
-          "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-          "summary": "Markdown Content:...",
-          "date": "2026-08-17",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
           "title": "全球首个跨本体、跨视角、多模态物理世界模型，CurrentWorld-0 来了！",
           "link": "https://www.jiqizhixin.com/search/articles/全球首个跨本体、跨视角、多模态",
           "summary": "全球首个跨本体、跨视角、多模态物理世界模型，CurrentWorld-0 来了！...",
@@ -61,6 +49,18 @@
           "summary": "Seedance 2.5 正式支持 1080P，API 同步开放...",
           "date": "2026-08-17",
           "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "8月17日，具身智能初创公司共生知行发布双足人形机器人驾驶卡丁车Demo",
+          "link": "https://www.qbitai.com/?s=8月17日，具身智能",
+          "summary": "8月17日，具身智能初创公司共生知行发布双足人形机器人驾驶卡丁车Demo...",
+          "date": "2026-08-18",
+          "source": "量子位",
           "type": "industry",
           "tags": [
             "AI",

@@ -3,6 +3,98 @@
   "count": 200,
   "items": [
     {
+      "title": "[嘉腾机器人完成数千万战略融资，卡位 具 身 智 能“物理基座”",
+      "summary": "[嘉腾机器人完成数千万战略融资，卡位 具 身 智 能“物理基座”",
+      "url": "http://36kr.com/p/3943366006521219",
+      "date": "2026-08-18",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
+      "title": "Don't Drop the BATON: Long-Horizon Robot Manipulation via Agentic Subtask Exploration and Transition-aware Memory",
+      "summary": "Long-horizon robot manipulation chains many contact-rich skills into one multi-stage task. Vision-language-action (VLA) models increasingly master the individual skills, yet the chain still fails: errors compound beyond the policy's ability to correc...",
+      "url": "https://arxiv.org/abs/2608.16889v1",
+      "date": "2026-08-17",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.16889v1",
+      "authors": "Bingxin Xu, Yuzhang Shang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "$τ0$-VLA: a Hierarchical Robot Foundation Model with World-Model-Guided Test-Time Computation",
+      "summary": "Long-horizon robot manipulation requires a robot to both execute individual skills reliably and sequence them coherently over extended tasks. Most hierarchical vision-language-action (VLA) models make each such decision with a single forward pass, le...",
+      "url": "https://arxiv.org/abs/2608.16885v1",
+      "date": "2026-08-17",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.16885v1",
+      "authors": "Xiaowei Cai, Yunuo Cai et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "FlexWorm: Primitive-augmented Hybrid Contact-motion Planning for Suction-based Multi-segment Deformable Robots",
+      "summary": "Multi-segment suction-based soft robots are promising for inspection and maintenance in confined or fragile environments, but existing approaches still depend heavily on manually designed gaits and environment-specific motion scripts. This work prese...",
+      "url": "https://arxiv.org/abs/2608.16853v1",
+      "date": "2026-08-17",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.16853v1",
+      "authors": "Zili Tang, Tiecheng Guo et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Security of Foundation-Model-Powered Embodied Agents: Attack Surfaces, Attacks, Defenses, and Evaluation",
+      "summary": "Foundation models are increasingly used for perception, reasoning, planning, and action generation in embodied agents, creating security risks that can propagate from digital inputs to physical behavior. Existing surveys often organize threats by mec...",
+      "url": "https://arxiv.org/abs/2608.16843v1",
+      "date": "2026-08-17",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.16843v1",
+      "authors": "Jiawei Liu, Jiacheng Guo et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "HAF: Adapting Generalist VLAs to Humanoid Whole-Body Loco-manipulation via Hierarchical Action Flow and Spectral Latent RL",
+      "summary": "Humanoid robots hold great promise as general-purpose agents in human-centered environments, yet generalist vision-language-action (VLA) foundation models are not readily applicable to humanoid whole-body loco-manipulation. The high dimensionality an...",
+      "url": "https://arxiv.org/abs/2608.16837v1",
+      "date": "2026-08-17",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.16837v1",
+      "authors": "Langzhe Gu, Chengkai Hou et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
       "title": "[黎曼动力携手光轮智能与诺亦腾机器人，剑指2026年百万小时 具 身 智 能 数据建设",
       "summary": "[黎曼动力携手光轮智能与诺亦腾机器人，剑指2026年百万小时 具 身 智 能 数据建设",
       "url": "http://36kr.com/p/3929174402203014",
@@ -2926,98 +3018,6 @@
       "type": "paper",
       "arxiv_id": "2607.09548v1",
       "authors": "Mengguang Li, Heinz Koeppl",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "[三年死磕 具 身 智 能 大脑，若愚科技把机器人送进危险角落",
-      "summary": "[三年死磕 具 身 智 能 大脑，若愚科技把机器人送进危险角落",
-      "url": "http://36kr.com/p/3879575583322370",
-      "date": "2026-07-10",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
-      ]
-    },
-    {
-      "title": "DexVerse: A Modular Benchmark for Multi-Task, Multi-Embodiment Dexterous Manipulation",
-      "summary": "Building general-purpose dexterous manipulation policies requires benchmarks that go beyond isolated tasks to systematically evaluate policies across diverse interaction modes, sensory conditions, and robot embodiments. However, existing benchmarks r...",
-      "url": "https://arxiv.org/abs/2607.08751v1",
-      "date": "2026-07-09",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.08751v1",
-      "authors": "Yunchao Yao, Zhuxiu Xu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "ContactMimic: Humanoid Object Interaction via Contact Control",
-      "summary": "Keypoint tracking alone is insufficient for object interaction tasks such as sitting on a chair, wiping a board, or pushing furniture, where the robot can reach the correct pose without making meaningful physical contact with the object. We present C...",
-      "url": "https://arxiv.org/abs/2607.08742v1",
-      "date": "2026-07-09",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.08742v1",
-      "authors": "Xinyao Li, Xialin He et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "ARDY: Autoregressive Diffusion with Hybrid Representation for Interactive Human Motion Generation",
-      "summary": "Generating realistic 3D human motions in real-time within interactive applications is key for animation, simulation, and humanoid robotics. While recent offline motion generation approaches offer precise control via text and kinematic constraints, th...",
-      "url": "https://arxiv.org/abs/2607.08741v1",
-      "date": "2026-07-09",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.08741v1",
-      "authors": "Kaifeng Zhao, Mathis Petrovich et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Learning Adaptive Solvers for Distributed Factor Graph Optimization on Matrix Lie Groups",
-      "summary": "Modern robotic perception increasingly involves large-scale geometric optimization problems distributed across multiple robots or sessions. However, existing distributed solvers often depend on brittle hand tuning and primarily target rigid body pose...",
-      "url": "https://arxiv.org/abs/2607.08735v1",
-      "date": "2026-07-09",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.08735v1",
-      "authors": "Jaeho Shin, Maani Ghaffari et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Latent Memory Palace: Reasoning for Control as Autoregressive Variational Inference",
-      "summary": "Human decision-making is highly flexible -- some actions are taken immediately; others require longer deliberation. Language models have exhibited a similar capacity for adaptive \"reasoning.\" However, transferring this capability to continuous contro...",
-      "url": "https://arxiv.org/abs/2607.08724v1",
-      "date": "2026-07-09",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.08724v1",
-      "authors": "Chuning Zhu, Eva Xu et al.",
       "tags": [
         "机器人学习",
         "研究论文",
