@@ -3,17 +3,66 @@
   "count": 7,
   "items": [
     {
-      "title": "Don't Drop the BATON: Long-Horizon Robot Manipulation via Agentic Subtask Exploration and Transition-aware Memory",
-      "authors": "Bingxin Xu, Yuzhang Shang, Emilio Ferrara",
-      "abstract": "Long-horizon robot manipulation chains many contact-rich skills into one multi-stage task. Vision-language-action (VLA) models increasingly master the individual skills, yet the chain still fails: errors compound beyond the policy's ability to correct, and one subtask silently constrains the next. A...",
+      "title": "From Corpora to Co-Evolving Capabilities: Capability-Centric Data Design for Generalist Image Generation",
+      "authors": "Xingjian Wang, Zhao Wang, Taihang Hu et al.",
+      "abstract": "Large-scale image generation has benefited from advances in data scale, quality, rebalancing, and recaptioning, yet conventional pipelines typically optimize task-specific datasets in isolation. A central challenge is not only how to curate each task-specific corpus, but also how to organize heterog...",
       "venue": "arXiv",
-      "date": "2026-08-17",
-      "arxiv_id": "2608.16889v1",
-      "url": "https://arxiv.org/abs/2608.16889v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.16889v1.pdf",
+      "date": "2026-08-18",
+      "arxiv_id": "2608.18076v1",
+      "url": "https://arxiv.org/abs/2608.18076v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.18076v1.pdf",
       "categories": [
-        "cs.RO",
+        "cs.CV",
+        "cs.AI"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "On the Fragility of Self-Improving Agents: Variance, Task Order, and Underspecification",
+      "authors": "Qinyuan Ye, Yu Li, Yada Pruksachatkun et al.",
+      "abstract": "Memory-based self-improving agents--those that learn from an online stream of tasks and improve over time by maintaining a textual memory bank--have shown great promise in recent literature. However, the reliability aspects of these methods have been critically overlooked. In this work, we conduct a...",
+      "venue": "arXiv",
+      "date": "2026-08-18",
+      "arxiv_id": "2608.18066v1",
+      "url": "https://arxiv.org/abs/2608.18066v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.18066v1.pdf",
+      "categories": [
         "cs.AI",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Multi-Agent AI System for Radiology Report Structuring and Quality Assurance with Independent Radiologist Evaluation",
+      "authors": "Iryna Hartsock, Cesar Lam, Christopher Otteni et al.",
+      "abstract": "Purpose: To develop and evaluate a locally deployed multi-agent AI system for radiology report structuring and quality assurance. Materials and Methods: This retrospective study included 638 radiology reports from CT examinations of the chest, abdomen, and pelvis dictated by 15 board-certified radio...",
+      "venue": "arXiv",
+      "date": "2026-08-18",
+      "arxiv_id": "2608.18072v1",
+      "url": "https://arxiv.org/abs/2608.18072v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.18072v1.pdf",
+      "categories": [
+        "cs.CL"
+      ],
+      "type": "benchmark",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "EDITBRIDGE: Towards Faithful and Efficient Ultra-High-Resolution Image Editing",
+      "authors": "Jiayi Song, Shijie Huang, Fangtai Wu et al.",
+      "abstract": "High-resolution image editing is increasingly demanded in professional workflows, yet existing diffusion-based models remain constrained to resolutions below 1K due to quadratic attention complexity and prohibitive memory requirements. A prevalent workaround employs a two-stage pipeline: editing at ...",
+      "venue": "arXiv",
+      "date": "2026-08-18",
+      "arxiv_id": "2608.18063v1",
+      "url": "https://arxiv.org/abs/2608.18063v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.18063v1.pdf",
+      "categories": [
         "cs.CV"
       ],
       "type": "vision",
@@ -21,103 +70,51 @@
       "source": "arXiv"
     },
     {
-      "title": "Improving the matrix multiplication exponent with modern optimization and AlphaEvolve",
-      "authors": "Emilien Dupont, Marvin Eisenberger, Borislav Kozlovskii et al.",
-      "abstract": "The current best bounds on the matrix multiplication exponent $ω$ are obtained through a refinement of the laser method called combination loss analysis (Duan et al., 2022; Williams et al., 2024; Alman et al., 2025). In this note, we address the optimization problem at the core of this approach and ...",
+      "title": "TokEval: A Tokenizer Evaluation Suite",
+      "authors": "Clara Meister",
+      "abstract": "Language model tokenizers are typically selected with minimal evaluation, despite the fact that their design choices directly impact model capabilities. This can be partly attributed to a limited understanding of which tokenizer properties affect which aspects of downstream performance. We introduce...",
       "venue": "arXiv",
-      "date": "2026-08-17",
-      "arxiv_id": "2608.16884v1",
-      "url": "https://arxiv.org/abs/2608.16884v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.16884v1.pdf",
-      "categories": [
-        "cs.DS",
-        "cs.AI",
-        "cs.CC"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Towards Computational Provenance: Carrying Causal-State Evidence in Generated Text",
-      "authors": "Benjamin Belay",
-      "abstract": "A language model's output does not by itself provide verifiable evidence about the internal computation that produced it. We study computational provenance: whether generated text can carry detectable evidence of which causally relevant internal state occurred. We test a bounded form of this idea in...",
-      "venue": "arXiv",
-      "date": "2026-08-17",
-      "arxiv_id": "2608.16868v1",
-      "url": "https://arxiv.org/abs/2608.16868v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.16868v1.pdf",
+      "date": "2026-08-18",
+      "arxiv_id": "2608.18062v1",
+      "url": "https://arxiv.org/abs/2608.18062v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.18062v1.pdf",
       "categories": [
         "cs.CL",
-        "cs.AI"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Proteus: Incremental Memory Activation for Long-Context Sequence Modeling",
-      "authors": "Reza Bayat, Ali Behrouz, Vahab Mirrokni et al.",
-      "abstract": "The quadratic cost of attention-based sequence models for long contexts has motivated a growing line of research on memory-based models that can compress context into a compact state. However, most existing memory models expose a static memory throughout the entire sequence. Because early tokens fac...",
-      "venue": "arXiv",
-      "date": "2026-08-17",
-      "arxiv_id": "2608.16844v1",
-      "url": "https://arxiv.org/abs/2608.16844v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.16844v1.pdf",
-      "categories": [
-        "cs.LG",
-        "cs.AI",
-        "cs.CL"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "An Empirical Study of Training Pixel-Space Text-to-Image Diffusion Models",
-      "authors": "Dengyang Jiang, Ruoyi Du, Zhennan Chen et al.",
-      "abstract": "This paper investigates an increasingly important topic in generative modeling: pixel-space diffusion models. Although numerous studies have explored this topic, most focus on small-scale or class-conditional settings. Consequently, a practical recipe for training pixel-space models that rival or ex...",
-      "venue": "arXiv",
-      "date": "2026-08-17",
-      "arxiv_id": "2608.16887v1",
-      "url": "https://arxiv.org/abs/2608.16887v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.16887v1.pdf",
-      "categories": [
-        "cs.CV"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Q-based Variational Inverse Reinforcement Learning",
-      "authors": "Ondrej Bajgar, Peter Tisnikar, Alessandro Abate et al.",
-      "abstract": "The development of safe and beneficial AI requires that systems can learn and act in accordance with human preferences. However, explicitly specifying these preferences by hand is often infeasible. Inverse reinforcement learning (IRL) addresses this challenge by inferring preferences, represented as...",
-      "venue": "arXiv",
-      "date": "2026-08-17",
-      "arxiv_id": "2608.16888v1",
-      "url": "https://arxiv.org/abs/2608.16888v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.16888v1.pdf",
-      "categories": [
         "cs.LG"
       ],
-      "type": "ml",
+      "type": "benchmark",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "$τ_0$-VLA: a Hierarchical Robot Foundation Model with World-Model-Guided Test-Time Computation",
-      "authors": "Xiaowei Cai, Yunuo Cai, Bingao Chen et al.",
-      "abstract": "Long-horizon robot manipulation requires a robot to both execute individual skills reliably and sequence them coherently over extended tasks. Most hierarchical vision-language-action (VLA) models make each such decision with a single forward pass, leaving no mechanism to allocate additional computat...",
+      "title": "Hydra-0: Action Flow for Generalist World Modeling and Control",
+      "authors": "Hongyu Li, Bowen Wen, Xinghao Zhu et al.",
+      "abstract": "We introduce Hydra-0, a generalist world model conditioned on action flow, which represents robot actions as pixel motion. This shared visual interface enables generalist world modeling and control by learning action consequences across embodiments, tasks, environments, and video-generation backbone...",
       "venue": "arXiv",
-      "date": "2026-08-17",
-      "arxiv_id": "2608.16885v1",
-      "url": "https://arxiv.org/abs/2608.16885v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.16885v1.pdf",
+      "date": "2026-08-18",
+      "arxiv_id": "2608.18077v1",
+      "url": "https://arxiv.org/abs/2608.18077v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.18077v1.pdf",
       "categories": [
         "cs.RO"
       ],
       "type": "ai",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "PRISM: Precision and contact-rich Real-world Industrial Skill dataset with Multimodal sensing",
+      "authors": "Tengbo Yu, Jiahao Wu, Hanning Wang et al.",
+      "abstract": "Recent progress in robotic learning has been fueled by large-scale datasets collected in everyday environments. However, most existing datasets emphasize short-horizon, low-contact tasks such as pick-and-place, and therefore do not capture the precision control, force/torque or tactile regulation, a...",
+      "venue": "arXiv",
+      "date": "2026-08-18",
+      "arxiv_id": "2608.17962v1",
+      "url": "https://arxiv.org/abs/2608.17962v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.17962v1.pdf",
+      "categories": [
+        "cs.RO"
+      ],
+      "type": "benchmark",
       "badge": "arxiv",
       "source": "arXiv"
     }

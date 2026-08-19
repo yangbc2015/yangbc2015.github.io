@@ -15,6 +15,86 @@
       ]
     },
     {
+      "title": "Hydra-0: Action Flow for Generalist World Modeling and Control",
+      "summary": "We introduce Hydra-0, a generalist world model conditioned on action flow, which represents robot actions as pixel motion. This shared visual interface enables generalist world modeling and control by learning action consequences across embodiments, ...",
+      "url": "https://arxiv.org/abs/2608.18077v1",
+      "date": "2026-08-18",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.18077v1",
+      "authors": "Hongyu Li, Bowen Wen et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "PRISM: Precision and contact-rich Real-world Industrial Skill dataset with Multimodal sensing",
+      "summary": "Recent progress in robotic learning has been fueled by large-scale datasets collected in everyday environments. However, most existing datasets emphasize short-horizon, low-contact tasks such as pick-and-place, and therefore do not capture the precis...",
+      "url": "https://arxiv.org/abs/2608.17962v1",
+      "date": "2026-08-18",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.17962v1",
+      "authors": "Tengbo Yu, Jiahao Wu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "A Theoretical Framework for Parallel Lifelong MAPF Using Group Decentralized Planning",
+      "summary": "In the Lifelong Multi-Agent Path Finding (L-MAPF) problem, agents must repeatedly move from one destination to another while avoiding obstacles and inter-agent collisions. Widely regarded as one of the highest-performing solutions to this problem is ...",
+      "url": "https://arxiv.org/abs/2608.17928v1",
+      "date": "2026-08-18",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.17928v1",
+      "authors": "Alex DeWeese, Jiaoyang Li et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "ControlledShifts: Towards Standardizing Robustness Evaluation in Trajectory Prediction Under Distribution Shifts",
+      "summary": "Trajectory prediction is central to safety in autonomous driving, yet learning-based predictors tend to degrade sharply when encountering scenarios poorly represented by their training data. Many methods attempt to mitigate distribution shift degrada...",
+      "url": "https://arxiv.org/abs/2608.17882v1",
+      "date": "2026-08-18",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.17882v1",
+      "authors": "Ingrid navarro, Pablo Ortega-Kral et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Jetson-ORB-SLAM3: Accuracy-Preserving GPU Implementation for Edge Computing Devices",
+      "summary": "Visual-inertial SLAM on low-power edge platforms is constrained by the cost of dense feature extraction and loop closure. Prior GPU ports of ORB-SLAM trade accuracy for speed by approximating the ORB detector, altering the feature set and therefore t...",
+      "url": "https://arxiv.org/abs/2608.17874v1",
+      "date": "2026-08-18",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.17874v1",
+      "authors": "Rajat Roy, Aditya Arun Kumar Yadav et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
       "title": "Don't Drop the BATON: Long-Horizon Robot Manipulation via Agentic Subtask Exploration and Transition-aware Memory",
       "summary": "Long-horizon robot manipulation chains many contact-rich skills into one multi-stage task. Vision-language-action (VLA) models increasingly master the individual skills, yet the chain still fails: errors compound beyond the policy's ability to correc...",
       "url": "https://arxiv.org/abs/2608.16889v1",
@@ -2942,86 +3022,6 @@
       "type": "news",
       "tags": [
         "机器人"
-      ]
-    },
-    {
-      "title": "B-spline Policy: Accelerating Manipulation Policies via B-spline Action Representations",
-      "summary": "In this work, we present B-spline Policy (BSP), an action representation designed for accelerating robot manipulation policies. Rather than predicting discrete-time action chunks, BSP parameterizes actions as continuous B-spline curves defined by a s...",
-      "url": "https://arxiv.org/abs/2607.09648v1",
-      "date": "2026-07-10",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.09648v1",
-      "authors": "Xiaoshen Han, Haoyu Xiong et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "PAC-ACT: Post-training Actor-Critic for Action Chunking Transformers",
-      "summary": "Precision industrial contact manipulation requires reliable robot policies under pose perturbations and contact-force constraints. Vision-language-action models offer broad generalization but often introduce high inference latency and GPU-memory cost...",
-      "url": "https://arxiv.org/abs/2607.09590v1",
-      "date": "2026-07-10",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.09590v1",
-      "authors": "Yujie Pang, Zudong Li",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "CoDiMAD: Diffusion-Based Privileged Distillation for Communication-Free Multi-Robot Coordination",
-      "summary": "Decentralized multi-robot coordination under partial observability remains challenging, especially in communication-free settings where agents must act solely from local sensor observations. Privileged policy distillation provides a promising approac...",
-      "url": "https://arxiv.org/abs/2607.09587v1",
-      "date": "2026-07-10",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.09587v1",
-      "authors": "Jiyue Tao, Shunheng Xin et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "CORAL-AUV: CFD Oriented Reinforcement Learning for Autonomous Underwater Vehicles",
-      "summary": "Fine grain control and positioning of autonomous underwater vehicles (AUVs) is critical for sampling, maintenance, and survey applications. Traditional control methods for AUVs are labor intensive and are not robust to changes in the vehicle configur...",
-      "url": "https://arxiv.org/abs/2607.09557v1",
-      "date": "2026-07-10",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.09557v1",
-      "authors": "Steven Roche, Milo Van Mooy et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Task-Adaptive Design of Modular Aerial Manipulators Under Airflow Exposure Constraints",
-      "summary": "Aerial manipulation with multirotor platforms enables physical interaction in complex environments, but rotor-induced airflow remains a critical limitation for tasks involving airflow-sensitive targets or surroundings. This paper presents an optimiza...",
-      "url": "https://arxiv.org/abs/2607.09548v1",
-      "date": "2026-07-10",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.09548v1",
-      "authors": "Mengguang Li, Heinz Koeppl",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
       ]
     }
   ]

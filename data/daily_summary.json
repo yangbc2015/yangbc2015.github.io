@@ -8,18 +8,6 @@
       "count": 5,
       "items": [
         {
-          "title": "Markdown Content:",
-          "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-          "summary": "Markdown Content:...",
-          "date": "2026-08-18",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
           "title": "开启Benchmark的Harness时代：15家学术机构联合发布HarnessEval",
           "link": "https://www.jiqizhixin.com/search/articles/开启Benchmark的Har",
           "summary": "开启Benchmark的Harness时代：15家学术机构联合发布HarnessEval...",
@@ -56,11 +44,23 @@
           ]
         },
         {
-          "title": "AI预测断裂的方向：一个统一离散与连续断裂力学的深度能量方法",
-          "link": "https://www.jiqizhixin.com/search/articles/AI预测断裂的方向：一个统一离",
-          "summary": "AI预测断裂的方向：一个统一离散与连续断裂力学的深度能量方法...",
-          "date": "2026-08-18",
-          "source": "机器之心",
+          "title": "8月13日，比亚迪秦MAX正式上市，推出EV与DM-i双动力版本",
+          "link": "https://www.qbitai.com/?s=8月13日，比亚迪秦",
+          "summary": "8月13日，比亚迪秦MAX正式上市，推出EV与DM-i双动力版本...",
+          "date": "2026-08-19",
+          "source": "量子位",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "8月14日，2026丝绸之路万里行·启迪之路国内段在深圳收官。",
+          "link": "https://www.qbitai.com/?s=8月14日，2026",
+          "summary": "8月14日，2026丝绸之路万里行·启迪之路国内段在深圳收官。...",
+          "date": "2026-08-19",
+          "source": "量子位",
           "type": "industry",
           "tags": [
             "AI",
