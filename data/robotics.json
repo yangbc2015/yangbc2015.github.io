@@ -3,6 +3,30 @@
   "count": 200,
   "items": [
     {
+      "title": "[具 身 智 能 展会最热的一年，肉眼难见机器人的进化？",
+      "summary": "[具 身 智 能 展会最热的一年，肉眼难见机器人的进化？",
+      "url": "http://36kr.com/p/3947647141920131",
+      "date": "2026-08-20",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
+      "title": "[当 具 身 智 能 走向真实场景，珞石机器人在WRC2026上展示了什么？",
+      "summary": "[当 具 身 智 能 走向真实场景，珞石机器人在WRC2026上展示了什么？",
+      "url": "http://36kr.com/p/3946327575969155",
+      "date": "2026-08-20",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
       "title": "[黑芝麻智能亮相2026世界机器人大会， SesameX全矩阵产品展现 具 身 智 能 硬核实力",
       "summary": "[黑芝麻智能亮相2026世界机器人大会， SesameX全矩阵产品展现 具 身 智 能 硬核实力",
       "url": "http://36kr.com/p/3946219775720576",
@@ -18,18 +42,6 @@
       "title": "[嘉腾机器人完成数千万战略融资，卡位 具 身 智 能“物理基座”",
       "summary": "[嘉腾机器人完成数千万战略融资，卡位 具 身 智 能“物理基座”",
       "url": "http://36kr.com/p/3943366006521219",
-      "date": "2026-08-20",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
-      ]
-    },
-    {
-      "title": "[当 具 身 智 能 走向真实场景，珞石机器人在WRC2026上展示了什么？",
-      "summary": "[当 具 身 智 能 走向真实场景，珞石机器人在WRC2026上展示了什么？",
-      "url": "http://36kr.com/p/3946327575969155",
       "date": "2026-08-20",
       "source": "36氪",
       "category": "机器人",
@@ -3006,22 +3018,6 @@
       "type": "paper",
       "arxiv_id": "2607.12965v1",
       "authors": "Ahaan Kotian, Shivani Subramanyan et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Mixture of Frames Policy: Multi-Frame Action Denoising for Bimanual Mobile Manipulation",
-      "summary": "Robotic manipulation is inherently multi-frame: local actions may be simple in an end-effector frame, while transport, upright-object handling, and whole-body coordination are better represented in a base-aligned frame. However, modern diffusion-base...",
-      "url": "https://arxiv.org/abs/2607.11884v1",
-      "date": "2026-07-13",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.11884v1",
-      "authors": "Dian Wang, Jisang Park et al.",
       "tags": [
         "机器人学习",
         "研究论文",
