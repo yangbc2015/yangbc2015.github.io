@@ -25,7 +25,7 @@
       "organization": "qwen",
       "price_prompt": "0.00000045",
       "price_completion": "0.0000032",
-      "context_length": 262144
+      "context_length": 1000000
     },
     {
       "rank": 4,
@@ -79,8 +79,8 @@
       "rank": 10,
       "model": "deepseek-v4-pro-0813",
       "organization": "deepseek",
-      "price_prompt": "0.00000066",
-      "price_completion": "0.00000198",
+      "price_prompt": "0.000001056",
+      "price_completion": "0.000003168",
       "context_length": 1048576
     },
     {

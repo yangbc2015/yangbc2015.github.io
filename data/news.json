@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-08-19",
+  "last_updated": "2026-08-20",
   "count": 200,
-  "history_count": 200,
+  "history_count": 205,
   "retention_days": 30,
   "items": [
     {
       "title": "超维动力KAI全栈具身智能硬核登场",
       "link": "https://www.qbitai.com/?s=超维动力KAI全栈具",
       "summary": "超维动力KAI全栈具身智能硬核登场...",
-      "date": "2026-08-19",
+      "date": "2026-08-20",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -20,7 +20,7 @@
       "title": "凭借企业级智能体与AI安全的全栈布局，360成为中国人工智能产业发展的代表企业之一。",
       "link": "https://www.qbitai.com/?s=凭借企业级智能体与A",
       "summary": "凭借企业级智能体与AI安全的全栈布局，360成为中国人工智能产业发展的代表企业之一。...",
-      "date": "2026-08-19",
+      "date": "2026-08-20",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -32,7 +32,7 @@
       "title": "从技术研发到开发者沟通，长期活跃在开发者一线",
       "link": "https://www.qbitai.com/?s=从技术研发到开发者沟",
       "summary": "从技术研发到开发者沟通，长期活跃在开发者一线...",
-      "date": "2026-08-19",
+      "date": "2026-08-20",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -44,7 +44,7 @@
       "title": "源络科技，推动AI for Science走进实验室3.0",
       "link": "https://www.qbitai.com/?s=源络科技，推动AI ",
       "summary": "源络科技，推动AI for Science走进实验室3.0...",
-      "date": "2026-08-19",
+      "date": "2026-08-20",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -56,7 +56,7 @@
       "title": "8月13日，比亚迪秦MAX正式上市，推出EV与DM-i双动力版本",
       "link": "https://www.qbitai.com/?s=8月13日，比亚迪秦",
       "summary": "8月13日，比亚迪秦MAX正式上市，推出EV与DM-i双动力版本...",
-      "date": "2026-08-19",
+      "date": "2026-08-20",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -68,12 +68,84 @@
       "title": "Published Time: Thu, 08 May 2025 23:15:48 GMT",
       "link": "https://techcrunch.com/category/artificial-intelligence/",
       "summary": "Published Time: Thu, 08 May 2025 23:15:48 GMT...",
-      "date": "2026-08-19",
+      "date": "2026-08-20",
       "source": "TechCrunch",
       "type": "industry",
       "tags": [
         "AI",
         "Artificial Intelligence"
+      ]
+    },
+    {
+      "title": "Markdown Content:",
+      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+      "summary": "Markdown Content:...",
+      "date": "2026-08-19",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "章鱼动力亮相WRC 2026， 携「脑-手-数据」技术体系探索具身智能未来范式",
+      "link": "https://www.jiqizhixin.com/search/articles/章鱼动力亮相WRC 2026，",
+      "summary": "章鱼动力亮相WRC 2026， 携「脑-手-数据」技术体系探索具身智能未来范式...",
+      "date": "2026-08-19",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "外滩大会AI艺术节报名启动：AI艺人线下首演、100余部AI影像、20余位艺术家参展",
+      "link": "https://www.jiqizhixin.com/search/articles/外滩大会AI艺术节报名启动：A",
+      "summary": "外滩大会AI艺术节报名启动：AI艺人线下首演、100余部AI影像、20余位艺术家参展...",
+      "date": "2026-08-19",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "Wiley选刊工具AI摘要匹配功能上线，邀您试用并填写问卷，有机会得精美定制礼！",
+      "link": "https://www.jiqizhixin.com/search/articles/Wiley选刊工具AI摘要匹配",
+      "summary": "Wiley选刊工具AI摘要匹配功能上线，邀您试用并填写问卷，有机会得精美定制礼！...",
+      "date": "2026-08-19",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "600万奖池尘埃落定，有人靠DeepSeek网页版拿下冠军",
+      "link": "https://www.jiqizhixin.com/search/articles/600万奖池尘埃落定，有人靠D",
+      "summary": "600万奖池尘埃落定，有人靠DeepSeek网页版拿下冠军...",
+      "date": "2026-08-19",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "一个Skill让DeepSeek V4 Pro超越Fable 5？热门插件被锤了",
+      "link": "https://www.jiqizhixin.com/search/articles/一个Skill让DeepSee",
+      "summary": "一个Skill让DeepSeek V4 Pro超越Fable 5？热门插件被锤了...",
+      "date": "2026-08-19",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
       ]
     },
     {
@@ -164,18 +236,6 @@
       "title": "豆包工作任务再升级，支持虚拟桌面操作Windows电脑",
       "link": "https://www.jiqizhixin.com/search/articles/豆包工作任务再升级，支持虚拟桌",
       "summary": "豆包工作任务再升级，支持虚拟桌面操作Windows电脑...",
-      "date": "2026-08-18",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Markdown Content:",
-      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-      "summary": "Markdown Content:...",
       "date": "2026-08-18",
       "source": "机器之心",
       "type": "industry",
@@ -2338,66 +2398,6 @@
       "summary": "AI抢跑期，我们看见了全球化新品牌的下一程...",
       "date": "2026-07-27",
       "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "“看得懂、定得准”的智能运维底座",
-      "link": "https://www.qbitai.com/?s=“看得懂、定得准”的",
-      "summary": "“看得懂、定得准”的智能运维底座...",
-      "date": "2026-07-27",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "菲尔兹奖得主王虹、邓煜创造中国历史！这是他们的故事。",
-      "link": "https://www.qbitai.com/?s=菲尔兹奖得主王虹、邓",
-      "summary": "菲尔兹奖得主王虹、邓煜创造中国历史！这是他们的故事。...",
-      "date": "2026-07-27",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "他的学生刚用Fable 5推翻87年悬案",
-      "link": "https://www.qbitai.com/?s=他的学生刚用Fabl",
-      "summary": "他的学生刚用Fable 5推翻87年悬案...",
-      "date": "2026-07-27",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "当「变大」不再是唯一的路，又一国产模型开源",
-      "link": "https://www.jiqizhixin.com/search/articles/当「变大」不再是唯一的路，又一",
-      "summary": "当「变大」不再是唯一的路，又一国产模型开源...",
-      "date": "2026-07-26",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "OpenAI挖到最新菲尔兹奖得主，字节刚出炉的科学家计划在瞄准谁？",
-      "link": "https://www.jiqizhixin.com/search/articles/OpenAI挖到最新菲尔兹奖得",
-      "summary": "OpenAI挖到最新菲尔兹奖得主，字节刚出炉的科学家计划在瞄准谁？...",
-      "date": "2026-07-26",
-      "source": "机器之心",
       "type": "industry",
       "tags": [
         "AI",
