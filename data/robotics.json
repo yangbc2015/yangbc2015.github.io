@@ -3,18 +3,6 @@
   "count": 200,
   "items": [
     {
-      "title": "[嘉腾机器人完成数千万战略融资，卡位 具 身 智 能“物理基座”",
-      "summary": "[嘉腾机器人完成数千万战略融资，卡位 具 身 智 能“物理基座”",
-      "url": "http://36kr.com/p/3943366006521219",
-      "date": "2026-08-20",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
-      ]
-    },
-    {
       "title": "[当 具 身 智 能 走向真实场景，珞石机器人在WRC2026上展示了什么？",
       "summary": "[当 具 身 智 能 走向真实场景，珞石机器人在WRC2026上展示了什么？",
       "url": "http://36kr.com/p/3946327575969155",
@@ -36,6 +24,124 @@
       "type": "news",
       "tags": [
         "机器人"
+      ]
+    },
+    {
+      "title": "[嘉腾机器人完成数千万战略融资，卡位 具 身 智 能“物理基座”",
+      "summary": "[嘉腾机器人完成数千万战略融资，卡位 具 身 智 能“物理基座”",
+      "url": "http://36kr.com/p/3943366006521219",
+      "date": "2026-08-20",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
+      "title": "PartialBiGrasp: Inferring Hidden Local Geometry for Bimanual Grasping from Partial Views",
+      "summary": "Dual-arm robotic grasping is essential for manipulating large, heavy, and geometrically complex objects that cannot be reliably handled using a single manipulator. These large objects often contain only sparse graspable regions determined by local ge...",
+      "url": "https://arxiv.org/abs/2608.19188v1",
+      "date": "2026-08-19",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.19188v1",
+      "authors": "Ayush Kaura, Vignesh Vembar et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "ADEPT: Accelerating Dexterity via Pre-Training and Post-Training using Reinforcement Learning",
+      "summary": "We introduce Accelerating Dexterity via Pre-Training (ADEPT), a large-scale reinforcement learning (RL) framework for learning sim-to-real transferable dexterity across high degree-of-freedom (DoF) robot embodiments that can solve long-horizon tasks ...",
+      "url": "https://arxiv.org/abs/2608.19182v1",
+      "date": "2026-08-19",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.19182v1",
+      "authors": "Jayjun Lee, Jessica Yin et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "DA-WAM: Decision-Aligned Future Latents for Driving World Models",
+      "summary": "Anticipating how scenes evolve under ego actions is fundamental to safe autonomous driving, yet the full potential of world models for decision-making remains unrealized. The critical challenge lies in ensuring that future modeling is not merely pred...",
+      "url": "https://arxiv.org/abs/2608.19085v1",
+      "date": "2026-08-19",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.19085v1",
+      "authors": "Ruiguo Zhong, Benshan Ma et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "LT-Mem: Volatility-Aware Spatio-Temporal Memory for Lifelong Scene Understanding",
+      "summary": "Long-term robot operation in evolving environments requires object-level understanding that persists across repeated revisits. Existing systems either overwrite history to maintain an up-to-date map or store semantic snapshots without consistent cros...",
+      "url": "https://arxiv.org/abs/2608.19059v1",
+      "date": "2026-08-19",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.19059v1",
+      "authors": "Yumin Lee, Hyoseok Ju et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Autonomous Agricultural Tractor: Integrated Weed Detection and LiDAR Navigation for Precision Paddy Farming",
+      "summary": "Site-specific weed management in paddy farming offers substantial reductions in herbicide use over conventional broadcast spraying, but field deployment has been limited by three persistent challenges: robust crop-row navigation under canopy where GN...",
+      "url": "https://arxiv.org/abs/2608.19004v1",
+      "date": "2026-08-19",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.19004v1",
+      "authors": "Benjamin Merryman-Smith, Tony Nguyen et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "嘉腾机器人获和而泰领投数千万战略融资，发力具身智能底盘。",
+      "summary": "嘉腾机器人获和而泰领投数千万战略融资，发力具身智能底盘。",
+      "url": "http://36kr.com/p/3943366006521219",
+      "date": "2026-08-18",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "原力无限获近10亿融资，具身智能资本向头部集中",
+      "summary": "原力无限获近10亿融资，具身智能资本向头部集中",
+      "url": "http://36kr.com/p/3943666758686339",
+      "date": "2026-08-18",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
       ]
     },
     {
@@ -116,32 +222,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "嘉腾机器人获和而泰领投数千万战略融资，发力具身智能底盘。",
-      "summary": "嘉腾机器人获和而泰领投数千万战略融资，发力具身智能底盘。",
-      "url": "http://36kr.com/p/3943366006521219",
-      "date": "2026-08-18",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "原力无限获近10亿融资，具身智能资本向头部集中",
-      "summary": "原力无限获近10亿融资，具身智能资本向头部集中",
-      "url": "http://36kr.com/p/3943666758686339",
-      "date": "2026-08-18",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
       ]
     },
     {
@@ -2946,82 +3026,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "A Minimalist Retargeting-Guided Reinforcement Learning Recipe for Dexterous Manipulation",
-      "summary": "Recent work in humanoid whole-body control has found success with a simple recipe: retarget human motion to robot kinematic references, then train policies via reinforcement learning (RL) to track them. But how does this recipe transfer to dexterous ...",
-      "url": "https://arxiv.org/abs/2607.11874v1",
-      "date": "2026-07-13",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.11874v1",
-      "authors": "Yunhai Feng, Natalie Leung et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Robust bipedal locomotion on flowable slopes via foot-driven terrain manipulation",
-      "summary": "Bipedal robots are challenging to control because they operate close to instability, where small variations in foot-terrain contact can rapidly destabilize locomotion. On rigid terrain, bipedal robots mitigate this fragility by using well-established...",
-      "url": "https://arxiv.org/abs/2607.11855v1",
-      "date": "2026-07-13",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.11855v1",
-      "authors": "Deniz Kerimoglu, Junnosuke Kamohara et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Active Noise Floor Estimation for Reliability-Optimal POMDPs: A Value-of-Noise-Information Approach",
-      "summary": "Finite Reliability Representations (FRR) certify when a cell-constant policy is sufficient for reliable decision-making in a partially observed system with a known physical noise floor. In practice, however, sensing and execution noise can be latent ...",
-      "url": "https://arxiv.org/abs/2607.11822v1",
-      "date": "2026-07-13",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.11822v1",
-      "authors": "Hyung-Jin Yoon",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Casting Everything to Online API Services? A Survey of Integrating Localized Speech Recognition Models in Robotic Systems",
-      "summary": "Automatic speech recognition (ASR) has become a critical component of modern robotic systems because it is one of the most natural and intuitive ways for humans to interact with robots. A commonly used method is to directly use API services online. B...",
-      "url": "https://arxiv.org/abs/2607.11792v1",
-      "date": "2026-07-13",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.11792v1",
-      "authors": "Sheng Li, Jing Li et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "让机器人实现从借助流体飞行到驾驭流体飞行",
-      "summary": "让机器人实现从借助流体飞行到驾驭流体飞行",
-      "url": "http://36kr.com/p/3889516712065799",
-      "date": "2026-07-11",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
       ]
     }
   ]
