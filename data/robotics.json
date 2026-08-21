@@ -27,6 +27,86 @@
       ]
     },
     {
+      "title": "Towards Surgical World-Action Modeling: A Preliminary Joint Visual-Trajectory Forecasting for Surgical Motion Planning",
+      "summary": "Reliable surgical planning requires models to anticipate not only how instruments will move, but also how the operative visual state will evolve together with such motion. Existing approaches typically treat future scene generation and instrument tra...",
+      "url": "https://arxiv.org/abs/2608.20284v1",
+      "date": "2026-08-20",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.20284v1",
+      "authors": "Weiliang Huang, Huanrong Liu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "DART-S: Reachability-Audited Active-Suspension Preconditioning for Off-Road Vehicle Jumps",
+      "summary": "Airborne torque reaction cannot recover takeoff errors beyond the wheel angular-momentum budget. DART-S applies ramp-face suspension preconditioning to change pitch, pitch rate, and wheel spin before liftoff, thereby shifting the queried state and al...",
+      "url": "https://arxiv.org/abs/2608.20275v1",
+      "date": "2026-08-20",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.20275v1",
+      "authors": "Yu Hu, Fangzhou Zhao et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Video2DoorTraversal: Push Door Traversal via Simulated Door Twins",
+      "summary": "Door opening and traversal is a long-horizon loco-manipulation task that requires precise handle interaction and coordinated base-arm control. We present Video2DoorTraversal, a single-video real-to-sim-to-real framework for wheel-legged mobile manipu...",
+      "url": "https://arxiv.org/abs/2608.20251v1",
+      "date": "2026-08-20",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.20251v1",
+      "authors": "Xincheng Tang, Yiji Chen et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "DECOWAM: Decoupled Whole-Body World-Action Model for Legged Mobile Manipulation",
+      "summary": "Mobile manipulation requires a robot to predict how locomotion and arm motion jointly alter future observations and control. Existing world-action models, developed largely for fixed-base platforms, do not explicitly distinguish camera ego-motion fro...",
+      "url": "https://arxiv.org/abs/2608.20114v1",
+      "date": "2026-08-20",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.20114v1",
+      "authors": "Siyuan Ma, Boshi Zhang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Planning-Oriented End-to-End Autonomous Driving: Architectures, Evaluation, and Emerging Paradigms",
+      "summary": "End-to-end autonomous driving has evolved from camera-to-control regression toward planning-oriented systems that use structured representations, trajectory-level outputs, and increasingly realistic evaluation protocols. This survey reviews this tran...",
+      "url": "https://arxiv.org/abs/2608.20111v1",
+      "date": "2026-08-20",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.20111v1",
+      "authors": "Yanchen Guan, Xingcheng Liu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
       "title": "[黑芝麻智能亮相2026世界机器人大会， SesameX全矩阵产品展现 具 身 智 能 硬核实力",
       "summary": "[黑芝麻智能亮相2026世界机器人大会， SesameX全矩阵产品展现 具 身 智 能 硬核实力",
       "url": "http://36kr.com/p/3946219775720576",
@@ -43,6 +123,69 @@
       "summary": "[嘉腾机器人完成数千万战略融资，卡位 具 身 智 能“物理基座”",
       "url": "http://36kr.com/p/3943366006521219",
       "date": "2026-08-20",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
+      "title": "大厂背景成具身融资放大器，九大派系的融资实力与代表人物全景对比",
+      "summary": "大厂背景成具身融资放大器，九大派系的融资实力与代表人物全景对比",
+      "url": "http://36kr.com/p/3946169602325888",
+      "date": "2026-08-19",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "具身智能融资趋理性，资本转向场景与落地能力",
+      "summary": "具身智能融资趋理性，资本转向场景与落地能力",
+      "url": "http://36kr.com/p/3946347305817737",
+      "date": "2026-08-19",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "驱动具身智能进入规模化部署时代。",
+      "summary": "驱动具身智能进入规模化部署时代。",
+      "url": "http://36kr.com/p/3946324792556672",
+      "date": "2026-08-19",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "珞石在WRC上的展示并不是一次简单的产品集中亮相，而更像是一次技术路线的集中呈现——从关节、本体、控制系统，到数据与生态，构建一套面向物理AI时代的机器人全栈技术底座。",
+      "summary": "珞石在WRC上的展示并不是一次简单的产品集中亮相，而更像是一次技术路线的集中呈现——从关节、本体、控制系统，到数据与生态，构建一套面向物理AI时代的机器人全栈技术底座。",
+      "url": "http://36kr.com/p/3946327575969155",
+      "date": "2026-08-19",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
+      "title": "8月19日，2026世界机器人大会正式开幕。",
+      "summary": "8月19日，2026世界机器人大会正式开幕。",
+      "url": "http://36kr.com/p/3946264412339335",
+      "date": "2026-08-19",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
@@ -128,69 +271,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "大厂背景成具身融资放大器，九大派系的融资实力与代表人物全景对比",
-      "summary": "大厂背景成具身融资放大器，九大派系的融资实力与代表人物全景对比",
-      "url": "http://36kr.com/p/3946169602325888",
-      "date": "2026-08-19",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "具身智能融资趋理性，资本转向场景与落地能力",
-      "summary": "具身智能融资趋理性，资本转向场景与落地能力",
-      "url": "http://36kr.com/p/3946347305817737",
-      "date": "2026-08-19",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "驱动具身智能进入规模化部署时代。",
-      "summary": "驱动具身智能进入规模化部署时代。",
-      "url": "http://36kr.com/p/3946324792556672",
-      "date": "2026-08-19",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "珞石在WRC上的展示并不是一次简单的产品集中亮相，而更像是一次技术路线的集中呈现——从关节、本体、控制系统，到数据与生态，构建一套面向物理AI时代的机器人全栈技术底座。",
-      "summary": "珞石在WRC上的展示并不是一次简单的产品集中亮相，而更像是一次技术路线的集中呈现——从关节、本体、控制系统，到数据与生态，构建一套面向物理AI时代的机器人全栈技术底座。",
-      "url": "http://36kr.com/p/3946327575969155",
-      "date": "2026-08-19",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
-      ]
-    },
-    {
-      "title": "8月19日，2026世界机器人大会正式开幕。",
-      "summary": "8月19日，2026世界机器人大会正式开幕。",
-      "url": "http://36kr.com/p/3946264412339335",
-      "date": "2026-08-19",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
       ]
     },
     {
@@ -2932,79 +3012,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "AeroMap3D: Anchoring Monocular UAV 6-DoF Localization to Visual-Geometric-Semantic Map Priors",
-      "summary": "We present AeroMap3D, a monocular 6-DoF UAV localization system that anchors onboard imagery to visual, geometric, and semantic map priors for GNSS-denied navigation. AeroMap3D addresses two fundamental challenges in map-referenced aerial localizatio...",
-      "url": "https://arxiv.org/abs/2607.14009v1",
-      "date": "2026-07-15",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.14009v1",
-      "authors": "Zhiyun Deng, Luis Sentis",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "M$^\\text{4}$World: A Multi-view Multimodal Driving World Model for Interactive Object Manipulation and Minute-long Streaming",
-      "summary": "Driving-world generation has emerged as a core capability for scalable autonomous-driving simulation, yet existing methods remain limited in object-level controllability and long-horizon stability. We present M$^\\text{4}$World, a Multi-view and Multi...",
-      "url": "https://arxiv.org/abs/2607.14005v1",
-      "date": "2026-07-15",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.14005v1",
-      "authors": "Ke Cheng, Hanqiao Ye et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "GigaWorld-Policy-0.5: A Faster and Stronger WAM Empowered by AutoResearch",
-      "summary": "World Action Models (WAMs) improve robot policy learning by jointly modeling actions and future visual observations, using future scene evolution as dense supervision for physically grounded action generation. However, a common design in existing WAM...",
-      "url": "https://arxiv.org/abs/2607.13960v1",
-      "date": "2026-07-15",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.13960v1",
-      "authors": "GigaWorld Team, Angen Ye et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "[他山科技联合图灵奖得主萨顿共建“机器人幼儿园”，具 身 智 能 从“模仿时代”迈向“经验时代”",
-      "summary": "[他山科技联合图灵奖得主萨顿共建“机器人幼儿园”，具 身 智 能 从“模仿时代”迈向“经验时代”",
-      "url": "http://36kr.com/p/3889294775958276",
-      "date": "2026-07-15",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
-      ]
-    },
-    {
-      "title": "具身智能，路漫漫其修远兮。",
-      "summary": "具身智能，路漫漫其修远兮。",
-      "url": "http://36kr.com/p/3893816015878664",
-      "date": "2026-07-14",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
       ]
     }
   ]

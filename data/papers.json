@@ -1,52 +1,35 @@
 {
   "last_updated": "2026-08-21",
-  "count": 7,
+  "count": 9,
   "items": [
     {
-      "title": "SPADE: Self-Play in Adaptive Synthetic Executable Environments",
-      "authors": "Bo Liu, Simon Yu, Yiding Jiang et al.",
-      "abstract": "Continuous self-improvement requires an ever-expanding pool of self-generated, diverse, adaptive goals. For language agents, existing training environment pools (hand-curated, statically synthesized, or frozen-verifier) keep the goal distribution fixed as the learner scales. We introduce SPADE (Self...",
+      "title": "G-CARL: Grounded Checklist-Aligned Reward Learning for Patient-Oriented Medical Report Interpretation",
+      "authors": "Shiao Xie, Siyu Chen, Jianwei Lv et al.",
+      "abstract": "Personalized interpretation of medical reports has emerged as an increasingly important need among patients. Addressing this need requires both evidence-grounded medical factuality and context-dependent patient communication, yet existing medical vision-language tasks do not adequately capture these...",
       "venue": "arXiv",
-      "date": "2026-08-19",
-      "arxiv_id": "2608.19197v1",
-      "url": "https://arxiv.org/abs/2608.19197v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.19197v1.pdf",
+      "date": "2026-08-20",
+      "arxiv_id": "2608.20331v1",
+      "url": "https://arxiv.org/abs/2608.20331v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.20331v1.pdf",
       "categories": [
         "cs.CL",
-        "cs.AI"
+        "cs.AI",
+        "cs.CV"
       ],
       "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "ADEPT: Accelerating Dexterity via Pre-Training and Post-Training using Reinforcement Learning",
-      "authors": "Jayjun Lee, Jessica Yin, Asif Rana et al.",
-      "abstract": "We introduce Accelerating Dexterity via Pre-Training (ADEPT), a large-scale reinforcement learning (RL) framework for learning sim-to-real transferable dexterity across high degree-of-freedom (DoF) robot embodiments that can solve long-horizon tasks directly from raw visuo-tactile perception. ADEPT ...",
+      "title": "An Agentic Approach for Active Data Collection, Travel Behavior Modeling, and Weather-Sensitive Demand Prediction",
+      "authors": "Narges Ahmadi, Yubo Jiao, Jônatas Augusto Manzolli et al.",
+      "abstract": "Travel behavior research increasingly combines digital data collection with predictive modeling, yet these stages are often developed and evaluated separately. This study proposes a three-agent workflow integrating conversational data collection, structured data processing, and behavioral prediction...",
       "venue": "arXiv",
-      "date": "2026-08-19",
-      "arxiv_id": "2608.19182v1",
-      "url": "https://arxiv.org/abs/2608.19182v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.19182v1.pdf",
+      "date": "2026-08-20",
+      "arxiv_id": "2608.20320v1",
+      "url": "https://arxiv.org/abs/2608.20320v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.20320v1.pdf",
       "categories": [
-        "cs.RO",
-        "cs.AI"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Beyond Teacher Likelihood: Group-Calibrated On-Policy Distillation for Long-Context Reasoning",
-      "authors": "Zhu Zhang, Jixun Wang, Xiaoang Xu et al.",
-      "abstract": "On-policy distillation (OPD) trains a student on its own responses using dense token-level guidance from a stronger teacher. In long-context tasks, however, token-level teacher support can favor locally plausible responses that omit evidence distributed across the input or violate global task constr...",
-      "venue": "arXiv",
-      "date": "2026-08-19",
-      "arxiv_id": "2608.19181v1",
-      "url": "https://arxiv.org/abs/2608.19181v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.19181v1.pdf",
-      "categories": [
-        "cs.LG",
         "cs.AI",
         "cs.CL"
       ],
@@ -55,14 +38,30 @@
       "source": "arXiv"
     },
     {
-      "title": "Image-Guided Pavement Defect Recognition in GPR Data with novel 3D Deep Learning Architecture",
-      "authors": "Yuandong Pan, Linjun Lu, Mudan Wang et al.",
-      "abstract": "Ground Penetrating Radar (GPR) is a widely adopted non-destructive sensing technology for subsurface inspection in civil and transportation engineering. Despite its potential for pavement condition assessment, the large-scale application of GPR in automated inspection has two key challenges: the sca...",
+      "title": "ConceptGuard: Benchmarking Context-Sensitive Unlearning in Large Language Models",
+      "authors": "Sahil Kale, Ian Harris",
+      "abstract": "Large Language Models (LLMs) increasingly require selective removal of harmful or sensitive knowledge, called unlearning, yet existing methods and benchmarks fail to evaluate this capability completely. Current approaches rely on disjoint forget and retain sets composed of independent facts, and mea...",
       "venue": "arXiv",
-      "date": "2026-08-19",
-      "arxiv_id": "2608.19177v1",
-      "url": "https://arxiv.org/abs/2608.19177v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.19177v1.pdf",
+      "date": "2026-08-20",
+      "arxiv_id": "2608.20338v1",
+      "url": "https://arxiv.org/abs/2608.20338v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.20338v1.pdf",
+      "categories": [
+        "cs.CL"
+      ],
+      "type": "benchmark",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "4DAnyone: Create Anyone in 4D from a Casual Monocular Video",
+      "authors": "Yudong Jin, Tao Xie, Qihang Zhang et al.",
+      "abstract": "We present 4DAnyone, a framework for reconstructing 4D humans from an uncalibrated monocular video by generating reconstruction-grade multiview-consistent videos and lifting them into 4D Gaussian Splatting (4DGS). Existing camera-controlled video diffusion models synthesize plausible novel-view vide...",
+      "venue": "arXiv",
+      "date": "2026-08-20",
+      "arxiv_id": "2608.20335v1",
+      "url": "https://arxiv.org/abs/2608.20335v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.20335v1.pdf",
       "categories": [
         "cs.CV"
       ],
@@ -71,32 +70,33 @@
       "source": "arXiv"
     },
     {
-      "title": "Detecting Backdoors in Object Detection via Pre-NMS Prediction Distribution Shift",
-      "authors": "Longtian Wang, Zhengyu Zhao, Chenhao Lin et al.",
-      "abstract": "Object detection models deployed in safety-critical applications remain vulnerable to backdoor attacks that cause targeted misbehaviors when a hidden trigger is present. Existing detection methods either rely on trigger inversion or exploit architecture-specific assumptions, and critically, represen...",
+      "title": "WithEveryone: Unified Planning and Identity Grounding for Group Image Generation",
+      "authors": "Hengyuan Xu, Qixun Wang, Yiji Cheng et al.",
+      "abstract": "Identity-preserving image generation becomes increasingly unreliable when a scene must contain many specified people. Beyond retaining each identity, the model must bind every reference to a distinct person and location, while training-time identity losses must establish correspondence among several...",
       "venue": "arXiv",
-      "date": "2026-08-19",
-      "arxiv_id": "2608.19088v1",
-      "url": "https://arxiv.org/abs/2608.19088v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.19088v1.pdf",
+      "date": "2026-08-20",
+      "arxiv_id": "2608.20336v1",
+      "url": "https://arxiv.org/abs/2608.20336v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.20336v1.pdf",
       "categories": [
-        "cs.CV",
-        "cs.AI"
+        "cs.CV"
       ],
       "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Lévy Attention: Single-Pass Predictive Uncertainty for Continuous-Time Attention",
-      "authors": "Sotirios P. Chatzis, Loukas Papadoulas",
-      "abstract": "Deep models for irregularly-sampled time series answer queries at arbitrary continuous timestamps, yet report nothing about how far each answer should be trusted. We show the attention layer itself can close that gap: with the right stochastic formulation, the pass that makes each prediction also re...",
+      "title": "Information on trajectories: martingales and random times",
+      "authors": "Akshay Balsubramani",
+      "abstract": "Accounting for information flow on the path space of trajectories of a nonnegative martingale yields exact variational identities for it, even at arbitrary random times. This recovers the widely used classical concentration inequalities, from Ville to PAC-Bayes, and measures what each one discards. ...",
       "venue": "arXiv",
-      "date": "2026-08-19",
-      "arxiv_id": "2608.19171v1",
-      "url": "https://arxiv.org/abs/2608.19171v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.19171v1.pdf",
+      "date": "2026-08-20",
+      "arxiv_id": "2608.20337v1",
+      "url": "https://arxiv.org/abs/2608.20337v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.20337v1.pdf",
       "categories": [
+        "math.PR",
+        "cs.IT",
         "cs.LG"
       ],
       "type": "ml",
@@ -104,14 +104,48 @@
       "source": "arXiv"
     },
     {
-      "title": "PartialBiGrasp: Inferring Hidden Local Geometry for Bimanual Grasping from Partial Views",
-      "authors": "Ayush Kaura, Vignesh Vembar, Md Faizal Karim et al.",
-      "abstract": "Dual-arm robotic grasping is essential for manipulating large, heavy, and geometrically complex objects that cannot be reliably handled using a single manipulator. These large objects often contain only sparse graspable regions determined by local geometric properties such as thickness, edge structu...",
+      "title": "$TCP_α$: Margin-Controlled Confidence estimation for reliable Music Information Retrieval",
+      "authors": "Parampreet Singh, Anushka Singh, Sumit Kumar et al.",
+      "abstract": "Deep neural networks are often overconfident, assigning high confidence even to incorrect predictions. Consequently, users lack a reliable signal for deciding when a prediction can be trusted. Post-hoc confidence estimation addresses this by training a lightweight auxiliary head over a frozen classi...",
       "venue": "arXiv",
-      "date": "2026-08-19",
-      "arxiv_id": "2608.19188v1",
-      "url": "https://arxiv.org/abs/2608.19188v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.19188v1.pdf",
+      "date": "2026-08-20",
+      "arxiv_id": "2608.20326v1",
+      "url": "https://arxiv.org/abs/2608.20326v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.20326v1.pdf",
+      "categories": [
+        "eess.AS",
+        "cs.LG"
+      ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Towards Surgical World-Action Modeling: A Preliminary Joint Visual-Trajectory Forecasting for Surgical Motion Planning",
+      "authors": "Weiliang Huang, Huanrong Liu, Bob Zhang et al.",
+      "abstract": "Reliable surgical planning requires models to anticipate not only how instruments will move, but also how the operative visual state will evolve together with such motion. Existing approaches typically treat future scene generation and instrument trajectory prediction as two separate tasks. Scene-on...",
+      "venue": "arXiv",
+      "date": "2026-08-20",
+      "arxiv_id": "2608.20284v1",
+      "url": "https://arxiv.org/abs/2608.20284v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.20284v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "DART-S: Reachability-Audited Active-Suspension Preconditioning for Off-Road Vehicle Jumps",
+      "authors": "Yu Hu, Fangzhou Zhao, Liang Chen et al.",
+      "abstract": "Airborne torque reaction cannot recover takeoff errors beyond the wheel angular-momentum budget. DART-S applies ramp-face suspension preconditioning to change pitch, pitch rate, and wheel spin before liftoff, thereby shifting the queried state and altering the remaining authority budget. To predict ...",
+      "venue": "arXiv",
+      "date": "2026-08-20",
+      "arxiv_id": "2608.20275v1",
+      "url": "https://arxiv.org/abs/2608.20275v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.20275v1.pdf",
       "categories": [
         "cs.RO"
       ],

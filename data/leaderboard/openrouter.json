@@ -121,7 +121,7 @@
       "organization": "liquid",
       "price_prompt": "0",
       "price_completion": "0",
-      "context_length": 128000
+      "context_length": 65536
     }
   ]
 }
