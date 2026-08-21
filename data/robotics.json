@@ -170,6 +170,30 @@
       ]
     },
     {
+      "title": "珞石在WRC上的展示并不是一次简单的产品集中亮相，而更像是一次技术路线的集中呈现——从关节、本体、控制系统，到数据与生态，构建一套面向物理AI时代的机器人全栈技术底座。",
+      "summary": "珞石在WRC上的展示并不是一次简单的产品集中亮相，而更像是一次技术路线的集中呈现——从关节、本体、控制系统，到数据与生态，构建一套面向物理AI时代的机器人全栈技术底座。",
+      "url": "http://36kr.com/p/3946327575969155",
+      "date": "2026-08-19",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
+      "title": "8月19日，2026世界机器人大会正式开幕。",
+      "summary": "8月19日，2026世界机器人大会正式开幕。",
+      "url": "http://36kr.com/p/3946264412339335",
+      "date": "2026-08-19",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
       "title": "嘉腾机器人获和而泰领投数千万战略融资，发力具身智能底盘。",
       "summary": "嘉腾机器人获和而泰领投数千万战略融资，发力具身智能底盘。",
       "url": "http://36kr.com/p/3943366006521219",
@@ -2981,38 +3005,6 @@
       "tags": [
         "机器人",
         "具身智能"
-      ]
-    },
-    {
-      "title": "DenseReward: Dense Reward Learning via Failure Synthesis for Robotic Manipulation",
-      "summary": "Reinforcement learning holds great promise for improving robot policies beyond the limits of imitation learning. However, its practical adoption remains bottlenecked by the lack of reliable vision-language reward models that provide dense and informa...",
-      "url": "https://arxiv.org/abs/2607.13033v1",
-      "date": "2026-07-14",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.13033v1",
-      "authors": "Yu Fang, Wanxi Dong et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "TerraZero: Procedural Driving Simulation for Zero-Demonstration Self-Play at Scale",
-      "summary": "Training robust autonomous driving agents requires a simulator that is fast enough for reinforcement learning at scale, realistic enough to ground behavior in real-world map structure, and diverse enough to cover the safety-critical long tail that lo...",
-      "url": "https://arxiv.org/abs/2607.13028v1",
-      "date": "2026-07-14",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.13028v1",
-      "authors": "Zhouchonghao Wu, Akshay Rangesh et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
       ]
     }
   ]
