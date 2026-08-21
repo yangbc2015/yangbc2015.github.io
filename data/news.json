@@ -1,9 +1,93 @@
 {
-  "last_updated": "2026-08-20",
+  "last_updated": "2026-08-21",
   "count": 200,
-  "history_count": 200,
+  "history_count": 205,
   "retention_days": 30,
   "items": [
+    {
+      "title": "*   [Latest](http://techcrunch.com/latest/)",
+      "link": "https://techcrunch.com/category/artificial-intelligence/",
+      "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
+      "date": "2026-08-21",
+      "source": "TechCrunch",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "Artificial Intelligence"
+      ]
+    },
+    {
+      "title": "Markdown Content:",
+      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+      "summary": "Markdown Content:...",
+      "date": "2026-08-20",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "浙江人形“协同进化论”，率先打通具身智能规模化路径",
+      "link": "https://www.jiqizhixin.com/search/articles/浙江人形“协同进化论”，率先打",
+      "summary": "浙江人形“协同进化论”，率先打通具身智能规模化路径...",
+      "date": "2026-08-20",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "机器人「通用」到，能给我铲猫砂了？",
+      "link": "https://www.jiqizhixin.com/search/articles/机器人「通用」到，能给我铲猫砂",
+      "summary": "机器人「通用」到，能给我铲猫砂了？...",
+      "date": "2026-08-20",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "垂直行业鸿蒙AI赛道龙头浮现：鸿元智通凭双技术底座与硬核团队，打开长期成长空间",
+      "link": "https://www.jiqizhixin.com/search/articles/垂直行业鸿蒙AI赛道龙头浮现：",
+      "summary": "垂直行业鸿蒙AI赛道龙头浮现：鸿元智通凭双技术底座与硬核团队，打开长期成长空间...",
+      "date": "2026-08-20",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "光帆 AI 技术正式落地韶音 OpenFit 2 AI 耳机，携手突破 AI 边界",
+      "link": "https://www.jiqizhixin.com/search/articles/光帆 AI 技术正式落地韶音 ",
+      "summary": "光帆 AI 技术正式落地韶音 OpenFit 2 AI 耳机，携手突破 AI 边界...",
+      "date": "2026-08-20",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "工业具身智能走进工厂，为什么还需要一层「底座」？",
+      "link": "https://www.jiqizhixin.com/search/articles/工业具身智能走进工厂，为什么还",
+      "summary": "工业具身智能走进工厂，为什么还需要一层「底座」？...",
+      "date": "2026-08-20",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
     {
       "title": "韶音宣布与光帆科技达成AI技术合作，将上线基于光帆自研AI OS的效率功能合集——”AI 实验室”",
       "link": "https://www.qbitai.com/?s=韶音宣布与光帆科技达",
@@ -62,18 +146,6 @@
       "tags": [
         "AI",
         "人工智能"
-      ]
-    },
-    {
-      "title": "*   [Latest](http://techcrunch.com/latest/)",
-      "link": "https://techcrunch.com/category/artificial-intelligence/",
-      "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
-      "date": "2026-08-20",
-      "source": "TechCrunch",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "Artificial Intelligence"
       ]
     },
     {
@@ -188,18 +260,6 @@
       "title": "鹿明发布NexCore：当机器人技能成为一种基础设施",
       "link": "https://www.jiqizhixin.com/search/articles/鹿明发布NexCore：当机器",
       "summary": "鹿明发布NexCore：当机器人技能成为一种基础设施...",
-      "date": "2026-08-19",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Markdown Content:",
-      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-      "summary": "Markdown Content:...",
       "date": "2026-08-19",
       "source": "机器之心",
       "type": "industry",
@@ -2338,66 +2398,6 @@
       "summary": "模型变强，Claude Code系统提示词都精简了...",
       "date": "2026-07-29",
       "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "开放K3权重、抢招全球大使，Kimi这次想干什么？",
-      "link": "https://www.jiqizhixin.com/search/articles/开放K3权重、抢招全球大使，K",
-      "summary": "开放K3权重、抢招全球大使，Kimi这次想干什么？...",
-      "date": "2026-07-28",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "他让GPT-5.6 Sol连跑33小时攻关费马大定理，被系统强制终止",
-      "link": "https://www.jiqizhixin.com/search/articles/他让GPT-5.6 Sol连跑",
-      "summary": "他让GPT-5.6 Sol连跑33小时攻关费马大定理，被系统强制终止...",
-      "date": "2026-07-28",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "两小时复现顶会网络系统！厦大团队让论文自动变成可运行代码｜SIGCOMM 2026",
-      "link": "https://www.jiqizhixin.com/search/articles/两小时复现顶会网络系统！厦大团",
-      "summary": "两小时复现顶会网络系统！厦大团队让论文自动变成可运行代码｜SIGCOMM 2026...",
-      "date": "2026-07-28",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "单卡突破10000 video tokens/s，Vivix打通实时多模态生成全链路",
-      "link": "https://www.qbitai.com/?s=单卡突破10000 ",
-      "summary": "单卡突破10000 video tokens/s，Vivix打通实时多模态生成全链路...",
-      "date": "2026-07-28",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "用AI重新设计赋予蛋白酶进化更高的起点，改造天然序列解锁超过79倍特异性提升",
-      "link": "https://www.jiqizhixin.com/search/articles/用AI重新设计赋予蛋白酶进化更",
-      "summary": "用AI重新设计赋予蛋白酶进化更高的起点，改造天然序列解锁超过79倍特异性提升...",
-      "date": "2026-07-27",
-      "source": "机器之心",
       "type": "industry",
       "tags": [
         "AI",
