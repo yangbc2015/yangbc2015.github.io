@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-08-21",
+  "last_updated": "2026-08-22",
   "count": 200,
   "items": [
     {
       "title": "[具 身 智 能 展会最热的一年，肉眼难见机器人的进化？",
       "summary": "[具 身 智 能 展会最热的一年，肉眼难见机器人的进化？",
       "url": "http://36kr.com/p/3947647141920131",
-      "date": "2026-08-21",
+      "date": "2026-08-22",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
@@ -104,6 +104,43 @@
         "机器人学习",
         "研究论文",
         "arXiv"
+      ]
+    },
+    {
+      "title": "机器人已经量产，智能还没落地",
+      "summary": "机器人已经量产，智能还没落地",
+      "url": "http://36kr.com/p/3947647141920131",
+      "date": "2026-08-20",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
+      "title": "8月19日，2026年世界机器人大会（简称WRC 2026）在北京亦庄北人亦创国际会展中心正式开幕。",
+      "summary": "8月19日，2026年世界机器人大会（简称WRC 2026）在北京亦庄北人亦创国际会展中心正式开幕。",
+      "url": "http://36kr.com/p/3947385157237893",
+      "date": "2026-08-20",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
+      "title": "通过“底座+整机+工艺”的全链路闭环，实证工业具身智能从单点技术验证向规模化产业落地的关键跨越。",
+      "summary": "通过“底座+整机+工艺”的全链路闭环，实证工业具身智能从单点技术验证向规模化产业落地的关键跨越。",
+      "url": "http://36kr.com/p/3947267147021698",
+      "date": "2026-08-20",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
       ]
     },
     {
@@ -2960,54 +2997,6 @@
       "type": "paper",
       "arxiv_id": "2607.15172v1",
       "authors": "Seok Joon Kim, Junho Lee et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Scaling Behavior Foundation Model for Humanoid Robots",
-      "summary": "Humanoid control requires natural whole-body coordination, precise real-time responses to control signals, and robust generalization across diverse environmental contexts, making it a cornerstone for generalist embodied agents. Behavior Foundation Mo...",
-      "url": "https://arxiv.org/abs/2607.15163v1",
-      "date": "2026-07-16",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.15163v1",
-      "authors": "Weishuai Zeng, Kangning Yin et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "PhysClaw-0: A Symbiotic Agentic System for Robot Autonomy via Language Corrections",
-      "summary": "Autonomous data collection governs the volume and quality of real-world trajectories for manipulation policy learning. Existing pipelines reduce human effort via self-resetting, VLM verification, or language-guided correction, yet episode-scoped fixe...",
-      "url": "https://arxiv.org/abs/2607.14047v1",
-      "date": "2026-07-15",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.14047v1",
-      "authors": "Boyuan Wang, Zhenyuan Zhang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Industrial Dexterity Benchmark: A Hardware-Software Benchmarking Platform for Industrial Dexterous Manipulation",
-      "summary": "Dexterous manipulation remains a critical bottleneck in industrial automation; tasks such as cable routing, connector insertion, and precision assembly still rely heavily on manual labor despite decades of robotics research. This work presents a prog...",
-      "url": "https://arxiv.org/abs/2607.14021v1",
-      "date": "2026-07-15",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.14021v1",
-      "authors": "Honglu He, Jacob Laufer et al.",
       "tags": [
         "机器人学习",
         "研究论文",
