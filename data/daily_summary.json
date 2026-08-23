@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-22",
-  "last_updated": "2026-08-22",
+  "date": "2026-08-23",
+  "last_updated": "2026-08-23",
   "categories": {
     "ai": {
       "name": "人工智能",
@@ -8,59 +8,59 @@
       "count": 5,
       "items": [
         {
-          "title": "极佳视界发布GigaBrain-0.7，开源第一！颠覆性首创System-3+双塔体系",
-          "link": "https://www.jiqizhixin.com/search/articles/极佳视界发布GigaBrain",
-          "summary": "极佳视界发布GigaBrain-0.7，开源第一！颠覆性首创System-3+双塔体系...",
-          "date": "2026-08-21",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
-          "title": "刚刚，DeepSeek多模态模型上线！",
-          "link": "https://www.jiqizhixin.com/search/articles/刚刚，DeepSeek多模态模",
-          "summary": "刚刚，DeepSeek多模态模型上线！...",
-          "date": "2026-08-21",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
-          "title": "浙江人形 NAVIAI 亮相 2026 世界机器人大会，落地多品类精准操作能力",
-          "link": "https://www.jiqizhixin.com/search/articles/浙江人形 NAVIAI 亮相 ",
-          "summary": "浙江人形 NAVIAI 亮相 2026 世界机器人大会，落地多品类精准操作能力...",
-          "date": "2026-08-21",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
-          "title": "全球首个人形机器人自主乒乓球完整对局亮相2026世界机器人大会，超维动力KAI全栈具身智能硬核登场",
-          "link": "https://www.jiqizhixin.com/search/articles/全球首个人形机器人自主乒乓球完",
-          "summary": "全球首个人形机器人自主乒乓球完整对局亮相2026世界机器人大会，超维动力KAI全栈具身智能硬核登场...",
-          "date": "2026-08-21",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
-          "title": "端侧部署解决了具身大脑能否装进身体的问题。那么，同一个「大脑」，如何快速适配工业、商用和家庭三类机器人呢？",
-          "link": "https://www.qbitai.com/?s=端侧部署解决了具身大",
-          "summary": "端侧部署解决了具身大脑能否装进身体的问题。那么，同一个「大脑」，如何快速适配工业、商用和家庭三类机器人呢？...",
+          "title": "Markdown Content:",
+          "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+          "summary": "Markdown Content:...",
           "date": "2026-08-22",
-          "source": "量子位",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "单卡5090跑满血DeepSeek V4Flash，已开源，Token自由了！",
+          "link": "https://www.jiqizhixin.com/search/articles/单卡5090跑满血DeepSe",
+          "summary": "单卡5090跑满血DeepSeek V4Flash，已开源，Token自由了！...",
+          "date": "2026-08-22",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "神秘「牛来」大模型刷屏，限时免费",
+          "link": "https://www.jiqizhixin.com/search/articles/神秘「牛来」大模型刷屏，限时免",
+          "summary": "神秘「牛来」大模型刷屏，限时免费...",
+          "date": "2026-08-22",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "WRC压轴：大模型要上天了，三家公司造「太空龙虾」，6个月挑战在轨抓取",
+          "link": "https://www.jiqizhixin.com/search/articles/WRC压轴：大模型要上天了，三",
+          "summary": "WRC压轴：大模型要上天了，三家公司造「太空龙虾」，6个月挑战在轨抓取...",
+          "date": "2026-08-22",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "LoopsBench：当Coding Agent开始长期工作，我们该如何重新评测它？",
+          "link": "https://www.jiqizhixin.com/search/articles/LoopsBench：当Cod",
+          "summary": "LoopsBench：当Coding Agent开始长期工作，我们该如何重新评测它？...",
+          "date": "2026-08-22",
+          "source": "机器之心",
           "type": "industry",
           "tags": [
             "AI",

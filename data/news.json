@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-08-22",
+  "last_updated": "2026-08-23",
   "count": 200,
-  "history_count": 201,
+  "history_count": 205,
   "retention_days": 30,
   "items": [
     {
       "title": "端侧部署解决了具身大脑能否装进身体的问题。那么，同一个「大脑」，如何快速适配工业、商用和家庭三类机器人呢？",
       "link": "https://www.qbitai.com/?s=端侧部署解决了具身大",
       "summary": "端侧部署解决了具身大脑能否装进身体的问题。那么，同一个「大脑」，如何快速适配工业、商用和家庭三类机器人呢？...",
-      "date": "2026-08-22",
+      "date": "2026-08-23",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -20,7 +20,7 @@
       "title": "将真实场景重建为持续更新、可计算的4D数字世界。",
       "link": "https://www.qbitai.com/?s=将真实场景重建为持续",
       "summary": "将真实场景重建为持续更新、可计算的4D数字世界。...",
-      "date": "2026-08-22",
+      "date": "2026-08-23",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -32,7 +32,7 @@
       "title": "让具身智能技术真正落地千行万业。",
       "link": "https://www.qbitai.com/?s=让具身智能技术真正落",
       "summary": "让具身智能技术真正落地千行万业。...",
-      "date": "2026-08-22",
+      "date": "2026-08-23",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -44,7 +44,7 @@
       "title": "载重4.2吨、容积19.32m³",
       "link": "https://www.qbitai.com/?s=载重4.2吨、容积1",
       "summary": "载重4.2吨、容积19.32m³...",
-      "date": "2026-08-22",
+      "date": "2026-08-23",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -56,7 +56,7 @@
       "title": "明略科技（2718.HK）与海康机器人联合参展2026WRC，聚焦商业服务领域展示具身智能落地进展。",
       "link": "https://www.qbitai.com/?s=明略科技（2718.",
       "summary": "明略科技（2718.HK）与海康机器人联合参展2026WRC，聚焦商业服务领域展示具身智能落地进展。...",
-      "date": "2026-08-22",
+      "date": "2026-08-23",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -68,12 +68,84 @@
       "title": "Published Time: Thu, 08 May 2025 23:15:48 GMT",
       "link": "https://techcrunch.com/category/artificial-intelligence/",
       "summary": "Published Time: Thu, 08 May 2025 23:15:48 GMT...",
-      "date": "2026-08-22",
+      "date": "2026-08-23",
       "source": "TechCrunch",
       "type": "industry",
       "tags": [
         "AI",
         "Artificial Intelligence"
+      ]
+    },
+    {
+      "title": "Markdown Content:",
+      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+      "summary": "Markdown Content:...",
+      "date": "2026-08-22",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "单卡5090跑满血DeepSeek V4Flash，已开源，Token自由了！",
+      "link": "https://www.jiqizhixin.com/search/articles/单卡5090跑满血DeepSe",
+      "summary": "单卡5090跑满血DeepSeek V4Flash，已开源，Token自由了！...",
+      "date": "2026-08-22",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "神秘「牛来」大模型刷屏，限时免费",
+      "link": "https://www.jiqizhixin.com/search/articles/神秘「牛来」大模型刷屏，限时免",
+      "summary": "神秘「牛来」大模型刷屏，限时免费...",
+      "date": "2026-08-22",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "WRC压轴：大模型要上天了，三家公司造「太空龙虾」，6个月挑战在轨抓取",
+      "link": "https://www.jiqizhixin.com/search/articles/WRC压轴：大模型要上天了，三",
+      "summary": "WRC压轴：大模型要上天了，三家公司造「太空龙虾」，6个月挑战在轨抓取...",
+      "date": "2026-08-22",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "LoopsBench：当Coding Agent开始长期工作，我们该如何重新评测它？",
+      "link": "https://www.jiqizhixin.com/search/articles/LoopsBench：当Cod",
+      "summary": "LoopsBench：当Coding Agent开始长期工作，我们该如何重新评测它？...",
+      "date": "2026-08-22",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "对话维他动力秦海龙：具身智能真正难题不是让机器人「学会」，而是跨本体「继承」",
+      "link": "https://www.jiqizhixin.com/search/articles/对话维他动力秦海龙：具身智能真",
+      "summary": "对话维他动力秦海龙：具身智能真正难题不是让机器人「学会」，而是跨本体「继承」...",
+      "date": "2026-08-22",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
       ]
     },
     {
@@ -176,18 +248,6 @@
       "title": "把时间还给科学创造，玻尔·科学空间在桌面接管了科研「体力活」",
       "link": "https://www.jiqizhixin.com/search/articles/把时间还给科学创造，玻尔·科学",
       "summary": "把时间还给科学创造，玻尔·科学空间在桌面接管了科研「体力活」...",
-      "date": "2026-08-21",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Markdown Content:",
-      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-      "summary": "Markdown Content:...",
       "date": "2026-08-21",
       "source": "机器之心",
       "type": "industry",
@@ -2338,66 +2398,6 @@
       "summary": "Claude Code到底有多费token？对比实验来了：三大框架最多差30倍...",
       "date": "2026-07-31",
       "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "A²-Edit：突破物体类别与掩码精度限制，实现精准参考图编辑",
-      "link": "https://www.jiqizhixin.com/search/articles/A²-Edit：突破物体类别与",
-      "summary": "A²-Edit：突破物体类别与掩码精度限制，实现精准参考图编辑...",
-      "date": "2026-07-31",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "MiniMax H3来了！花式「华强买瓜」不用愁 ，1秒仅需5毛钱",
-      "link": "https://www.jiqizhixin.com/search/articles/MiniMax H3来了！花式",
-      "summary": "MiniMax H3来了！花式「华强买瓜」不用愁 ，1秒仅需5毛钱...",
-      "date": "2026-07-31",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "DeepSeek-V4-Flash正式版来了！",
-      "link": "https://www.jiqizhixin.com/search/articles/DeepSeek-V4-Fla",
-      "summary": "DeepSeek-V4-Flash正式版来了！...",
-      "date": "2026-07-31",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "世界模型不再「盲搜」9000次：浙大、清华等团队提出INTACT，直接从意图生成动作",
-      "link": "https://www.jiqizhixin.com/search/articles/世界模型不再「盲搜」9000次",
-      "summary": "世界模型不再「盲搜」9000次：浙大、清华等团队提出INTACT，直接从意图生成动作...",
-      "date": "2026-07-31",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "从“工具效率”到“认知理解”，教育AI进入深水区",
-      "link": "https://www.qbitai.com/?s=从“工具效率”到“认",
-      "summary": "从“工具效率”到“认知理解”，教育AI进入深水区...",
-      "date": "2026-07-31",
-      "source": "量子位",
       "type": "industry",
       "tags": [
         "AI",

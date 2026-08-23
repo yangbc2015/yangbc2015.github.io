@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-22",
+  "last_updated": "2026-08-23",
   "count": 200,
   "items": [
     {
@@ -12,6 +12,19 @@
       "type": "news",
       "tags": [
         "机器人"
+      ]
+    },
+    {
+      "title": "祥峰投资六载陪伴宇树登陆科创板，布局具身智能赛道",
+      "summary": "祥峰投资六载陪伴宇树登陆科创板，布局具身智能赛道",
+      "url": "http://36kr.com/p/q/3947304770745992",
+      "date": "2026-08-21",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
       ]
     },
     {
@@ -2981,22 +2994,6 @@
       "type": "paper",
       "arxiv_id": "2607.15182v1",
       "authors": "Aditya Dutta, Joon-Seok Kim",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "AHEAD: Anticipatory Hand-Driven Teleoperation via Human Intent Prediction",
-      "summary": "Direct hand-driven teleoperation maps an operator's hand motion to robot end-effector commands at every frame, enabling precise control, but it requires constant monitoring and correction during approach, grasp, and placement, which can be slow and f...",
-      "url": "https://arxiv.org/abs/2607.15172v1",
-      "date": "2026-07-16",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.15172v1",
-      "authors": "Seok Joon Kim, Junho Lee et al.",
       "tags": [
         "机器人学习",
         "研究论文",
