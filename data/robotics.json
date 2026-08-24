@@ -3,10 +3,22 @@
   "count": 200,
   "items": [
     {
+      "title": "[DeepMind机器人团队创业，用后训练探索 具 身 智 能 落地路径",
+      "summary": "[DeepMind机器人团队创业，用后训练探索 具 身 智 能 落地路径",
+      "url": "http://36kr.com/p/3950478429322629",
+      "date": "2026-08-24",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
       "title": "[具 身 智 能 展会最热的一年，肉眼难见机器人的进化？",
       "summary": "[具 身 智 能 展会最热的一年，肉眼难见机器人的进化？",
       "url": "http://36kr.com/p/3947647141920131",
-      "date": "2026-08-23",
+      "date": "2026-08-24",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
@@ -2978,22 +2990,6 @@
       "type": "paper",
       "arxiv_id": "2607.16173v1",
       "authors": "Dibyendu Ghosh, Ayushi Shakya",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "VTLoc: Learning-based Tactile Contact Localization in Visual Point Clouds",
-      "summary": "Vision and touch are complementary modalities essential for robotic perception and manipulation. While vision provides global object context, touch offers precise local information at contact points. Integrating these modalities for contact localizat...",
-      "url": "https://arxiv.org/abs/2607.16146v1",
-      "date": "2026-07-17",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.16146v1",
-      "authors": "Zhiyuan Wu, Zhuo Chen et al.",
       "tags": [
         "机器人学习",
         "研究论文",
