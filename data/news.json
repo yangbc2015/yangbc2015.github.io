@@ -1,9 +1,57 @@
 {
   "last_updated": "2026-08-24",
   "count": 200,
-  "history_count": 202,
+  "history_count": 203,
   "retention_days": 30,
   "items": [
+    {
+      "title": "Markdown Content:",
+      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+      "summary": "Markdown Content:...",
+      "date": "2026-08-25",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "英伟达服务器涨价超15%！百亿AI基建的「内存难题」",
+      "link": "https://www.jiqizhixin.com/search/articles/英伟达服务器涨价超15%！百亿",
+      "summary": "英伟达服务器涨价超15%！百亿AI基建的「内存难题」...",
+      "date": "2026-08-25",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "斯坦福教授直播训练535B大模型，模型训练背后的「黑箱」正在被打开？",
+      "link": "https://www.jiqizhixin.com/search/articles/斯坦福教授直播训练535B大模",
+      "summary": "斯坦福教授直播训练535B大模型，模型训练背后的「黑箱」正在被打开？...",
+      "date": "2026-08-25",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "全球大厂开始押注的AI科研，终于有了统一标准",
+      "link": "https://www.qbitai.com/?s=全球大厂开始押注的A",
+      "summary": "全球大厂开始押注的AI科研，终于有了统一标准...",
+      "date": "2026-08-24",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
     {
       "title": "8月24日消息，阿里巴巴达摩院联合中国医科大学附属盛京医院等机构研发出肝癌诊断AI模型DAMO LiON",
       "link": "https://www.qbitai.com/?s=8月24日消息，阿里",
@@ -53,6 +101,18 @@
       ]
     },
     {
+      "title": "Published Time: Thu, 08 May 2025 23:15:48 GMT",
+      "link": "https://techcrunch.com/category/artificial-intelligence/",
+      "summary": "Published Time: Thu, 08 May 2025 23:15:48 GMT...",
+      "date": "2026-08-24",
+      "source": "TechCrunch",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "Artificial Intelligence"
+      ]
+    },
+    {
       "title": "香港的大学里冒出了一批很特别的人",
       "link": "https://www.qbitai.com/?s=香港的大学里冒出了一",
       "summary": "香港的大学里冒出了一批很特别的人...",
@@ -62,18 +122,6 @@
       "tags": [
         "AI",
         "人工智能"
-      ]
-    },
-    {
-      "title": "Published Time: Tue, 23 Jun 2026 02:06:19 GMT",
-      "link": "https://techcrunch.com/category/artificial-intelligence/",
-      "summary": "Published Time: Tue, 23 Jun 2026 02:06:19 GMT...",
-      "date": "2026-08-24",
-      "source": "TechCrunch",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "Artificial Intelligence"
       ]
     },
     {
@@ -164,18 +212,6 @@
       "title": "AstraTennis时刻来了！人形机器人全球首次挑战单打、混双",
       "link": "https://www.jiqizhixin.com/search/articles/AstraTennis时刻来了",
       "summary": "AstraTennis时刻来了！人形机器人全球首次挑战单打、混双...",
-      "date": "2026-08-23",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Markdown Content:",
-      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-      "summary": "Markdown Content:...",
       "date": "2026-08-23",
       "source": "机器之心",
       "type": "industry",
@@ -2362,42 +2398,6 @@
       "summary": "Claude code之父：大模型是有机生物，做好AI产品疏胜于堵...",
       "date": "2026-08-03",
       "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "靠“堆参数换销量”的逻辑，不再管用了",
-      "link": "https://www.qbitai.com/?s=靠“堆参数换销量”的",
-      "summary": "靠“堆参数换销量”的逻辑，不再管用了...",
-      "date": "2026-08-03",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "OpenAI的RSI焚诀，它来了！",
-      "link": "https://www.qbitai.com/?s=OpenAI的RSI",
-      "summary": "OpenAI的RSI焚诀，它来了！...",
-      "date": "2026-08-03",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "只用一张卡，做出了声称是100M参数以内最好的小模型？",
-      "link": "https://www.jiqizhixin.com/search/articles/只用一张卡，做出了声称是100",
-      "summary": "只用一张卡，做出了声称是100M参数以内最好的小模型？...",
-      "date": "2026-08-02",
-      "source": "机器之心",
       "type": "industry",
       "tags": [
         "AI",
