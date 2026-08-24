@@ -15,6 +15,86 @@
       ]
     },
     {
+      "title": "Mining beyond Earth with Space Robots: Exploration, Sampling, and Extraction",
+      "summary": "Space resource acquisition and utilization, commonly referred to as Space Mining, represent critical pathways for enabling sustained human exploration and unlocking commercial opportunities in space. These resources mainly include helium-3, water, mi...",
+      "url": "https://arxiv.org/abs/2608.21358v1",
+      "date": "2026-08-21",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.21358v1",
+      "authors": "Dong Li, Dujun Nie et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "ViTacPhys: Physical Property-Aware Grasping from Human Visual-Tactile Demonstrations",
+      "summary": "Recent vision-based action models have demonstrated strong capabilities in complex manipulation, but they rarely leverage explicit object physical properties to adapt their policies. We introduce ViTacPhys, a visual-tactile framework and data acquisi...",
+      "url": "https://arxiv.org/abs/2608.21355v1",
+      "date": "2026-08-21",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.21355v1",
+      "authors": "Yiwen Liu, Yujun Zhu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Anatomy-Informed Neural Networks: Encoding Anatomic Priors in Loss and Architecture, with an SE(3) Formulation of Guidewire-Induced Aortoiliac Deformation",
+      "summary": "Deep-learning models of anatomy can be numerically plausible yet anatomically impossible, and they generalize poorly when data are scarce. We introduce Anatomy-Informed Neural Networks (AINN), in which soft anatomic priors enter as penalty terms in t...",
+      "url": "https://arxiv.org/abs/2608.21332v1",
+      "date": "2026-08-21",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.21332v1",
+      "authors": "David P. Stonko",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "NeSAM: Neuro-Symbolic Kinodynamics with Soil Adaptation for Off-Road Mobility",
+      "summary": "Accurate prediction of off-road vehicle motion over deformable terrain remains challenging because sinkage, slip, and traction vary with local soil conditions. Existing learning-based kinodynamic models directly approximate vehicle-terrain interactio...",
+      "url": "https://arxiv.org/abs/2608.21330v1",
+      "date": "2026-08-21",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.21330v1",
+      "authors": "Chenhui Pan, Tong Xu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Unified Branch-and-Bound Search for the Steiner Traveling Salesman Problem on Graphs of Convex Sets",
+      "summary": "We formalize the Steiner Traveling Salesman Problem (Steiner-TSP) on Graphs of Convex Sets (GCS), which seeks a minimum-cost closed trajectory through required convex sets while allowing optional transit vertices and revisits. To explore the resultin...",
+      "url": "https://arxiv.org/abs/2608.21319v1",
+      "date": "2026-08-21",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.21319v1",
+      "authors": "Jingtao Tang, Hang Ma",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
       "title": "祥峰投资六载陪伴宇树登陆科创板，布局具身智能赛道",
       "summary": "祥峰投资六载陪伴宇树登陆科创板，布局具身智能赛道",
       "url": "http://36kr.com/p/q/3947304770745992",
@@ -37,6 +117,43 @@
       "type": "news",
       "tags": [
         "机器人"
+      ]
+    },
+    {
+      "title": "机器人已经量产，智能还没落地",
+      "summary": "机器人已经量产，智能还没落地",
+      "url": "http://36kr.com/p/3947647141920131",
+      "date": "2026-08-20",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
+      "title": "8月19日，2026年世界机器人大会（简称WRC 2026）在北京亦庄北人亦创国际会展中心正式开幕。",
+      "summary": "8月19日，2026年世界机器人大会（简称WRC 2026）在北京亦庄北人亦创国际会展中心正式开幕。",
+      "url": "http://36kr.com/p/3947385157237893",
+      "date": "2026-08-20",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
+      "title": "通过“底座+整机+工艺”的全链路闭环，实证工业具身智能从单点技术验证向规模化产业落地的关键跨越。",
+      "summary": "通过“底座+整机+工艺”的全链路闭环，实证工业具身智能从单点技术验证向规模化产业落地的关键跨越。",
+      "url": "http://36kr.com/p/3947267147021698",
+      "date": "2026-08-20",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
       ]
     },
     {
@@ -117,43 +234,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "机器人已经量产，智能还没落地",
-      "summary": "机器人已经量产，智能还没落地",
-      "url": "http://36kr.com/p/3947647141920131",
-      "date": "2026-08-20",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
-      ]
-    },
-    {
-      "title": "8月19日，2026年世界机器人大会（简称WRC 2026）在北京亦庄北人亦创国际会展中心正式开幕。",
-      "summary": "8月19日，2026年世界机器人大会（简称WRC 2026）在北京亦庄北人亦创国际会展中心正式开幕。",
-      "url": "http://36kr.com/p/3947385157237893",
-      "date": "2026-08-20",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
-      ]
-    },
-    {
-      "title": "通过“底座+整机+工艺”的全链路闭环，实证工业具身智能从单点技术验证向规模化产业落地的关键跨越。",
-      "summary": "通过“底座+整机+工艺”的全链路闭环，实证工业具身智能从单点技术验证向规模化产业落地的关键跨越。",
-      "url": "http://36kr.com/p/3947267147021698",
-      "date": "2026-08-20",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
       ]
     },
     {
@@ -2914,86 +2994,6 @@
       "type": "paper",
       "arxiv_id": "2607.16146v1",
       "authors": "Zhiyuan Wu, Zhuo Chen et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "A New Implementation of NeoSLAM and a Comparative Evaluation with RatSLAM",
-      "summary": "This paper presents a new implementation of the NeoSLAM algorithm. The proposed version is a complete rewrite of NeoSLAM into a modular architecture using modern frameworks that, together, enable real-time execution with minimal discarding of input d...",
-      "url": "https://arxiv.org/abs/2607.16143v1",
-      "date": "2026-07-17",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.16143v1",
-      "authors": "Joao Victor T. Borges, Fabio Coelho et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "BayesContact: Uncertain Pose Estimation via Visuo-Tactile Proposals and Simulation-based Inference",
-      "summary": "Contact-rich manipulation requires pose estimates that are often more accurate than what depth-only sensing provides. Existing methods, relying on vision and contact, employ costly offline training procedures that need to be retrained for new environ...",
-      "url": "https://arxiv.org/abs/2607.16123v1",
-      "date": "2026-07-17",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.16123v1",
-      "authors": "Aditya Kamireddypalli, Matias Mattamala et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "RoboTTT: Context Scaling for Robot Policies",
-      "summary": "Recent robot foundation models operate with single-step or short-history visuomotor context. We introduce Test-Time-Training Robot Policies (RoboTTT), a robot model and training recipe that scale visuomotor context to 8K timesteps, three orders of ma...",
-      "url": "https://arxiv.org/abs/2607.15275v1",
-      "date": "2026-07-16",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.15275v1",
-      "authors": "Yunfan Jiang, Yevgen Chebotar et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "BadWAM: When World-Action Models Dream Right but Act Wrong",
-      "summary": "World-action models (WAMs) are emerging as a promising foundation for embodied control: rather than predicting actions alone, they learn representations that couple action generation with future world prediction. This coupling is often viewed as a so...",
-      "url": "https://arxiv.org/abs/2607.15207v1",
-      "date": "2026-07-16",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.15207v1",
-      "authors": "Qi Li, Xingyi Yang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Stigmergic Graph Memory: An Environment-Aware Approach for Many-to-Many Multi-Agent Pickup and Delivery",
-      "summary": "Automated fulfillment warehouses must continuously assign and execute pickup-and-delivery work while avoiding congestion. In many-to-many Multi-Agent Pickup and Delivery (MAPD), a request specifies a stock-keeping unit rather than fixed endpoints, re...",
-      "url": "https://arxiv.org/abs/2607.15182v1",
-      "date": "2026-07-16",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.15182v1",
-      "authors": "Aditya Dutta, Joon-Seok Kim",
       "tags": [
         "机器人学习",
         "研究论文",

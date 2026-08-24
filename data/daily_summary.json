@@ -8,18 +8,6 @@
       "count": 5,
       "items": [
         {
-          "title": "Markdown Content:",
-          "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-          "summary": "Markdown Content:...",
-          "date": "2026-08-23",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
           "title": "2026 WRC：人形机器人告别跳舞炫技，进入「真干活」，谁跑通了落地？",
           "link": "https://www.jiqizhixin.com/search/articles/2026 WRC：人形机器人告",
           "summary": "2026 WRC：人形机器人告别跳舞炫技，进入「真干活」，谁跑通了落地？...",
@@ -61,6 +49,18 @@
           "summary": "AstraTennis时刻来了！人形机器人全球首次挑战单打、混双...",
           "date": "2026-08-23",
           "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "AFAC2026总决赛路演将于8月25-26日在上海阿纳迪酒店（长宁区临虹路7号）举办。",
+          "link": "https://www.qbitai.com/?s=AFAC2026总决",
+          "summary": "AFAC2026总决赛路演将于8月25-26日在上海阿纳迪酒店（长宁区临虹路7号）举办。...",
+          "date": "2026-08-24",
+          "source": "量子位",
           "type": "industry",
           "tags": [
             "AI",
