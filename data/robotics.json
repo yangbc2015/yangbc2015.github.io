@@ -6,7 +6,7 @@
       "title": "[DeepMind机器人团队创业，用后训练探索 具 身 智 能 落地路径",
       "summary": "[DeepMind机器人团队创业，用后训练探索 具 身 智 能 落地路径",
       "url": "http://36kr.com/p/3950478429322629",
-      "date": "2026-08-24",
+      "date": "2026-08-25",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
@@ -18,12 +18,105 @@
       "title": "[具 身 智 能 展会最热的一年，肉眼难见机器人的进化？",
       "summary": "[具 身 智 能 展会最热的一年，肉眼难见机器人的进化？",
       "url": "http://36kr.com/p/3947647141920131",
-      "date": "2026-08-24",
+      "date": "2026-08-25",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
       "tags": [
         "机器人"
+      ]
+    },
+    {
+      "title": "GeoWAM: Visual Geometry World Action Models for Autonomous Driving",
+      "summary": "World action models (WAMs) have recently gained increasing attention as a framework for jointly modeling scene evolution and ego actions in autonomous driving. Most existing WAMs learn scene dynamics in pixel space by combining a video-generation bac...",
+      "url": "https://arxiv.org/abs/2608.23486v1",
+      "date": "2026-08-24",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.23486v1",
+      "authors": "Yiren Lu, Xin Ye et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Act with Intent: Distilling Behavior Intent for Vision-Language-Action Models",
+      "summary": "Vision-Language-Action (VLA) models can turn multimodal context into robot actions, but their action decoders are still trained largely by behavior cloning. This supervises which motor command was demonstrated while leaving implicit the local objecti...",
+      "url": "https://arxiv.org/abs/2608.23478v1",
+      "date": "2026-08-24",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.23478v1",
+      "authors": "Sangoh Lee, Sangwoo Mo et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Reward-Free Continual Adaptation for Resilient Space Robots",
+      "summary": "Space robots operate in extreme environments where hardware degradation can critically compromise traditional control strategies. While continual reinforcement learning offers a promising mechanism for online adaptation, it inherently requires access...",
+      "url": "https://arxiv.org/abs/2608.23452v1",
+      "date": "2026-08-24",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.23452v1",
+      "authors": "Andrej Orsula, Miguel Olivares-Mendez et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "MomADv2: Reliable Temporal Memory for End-to-End Autonomous Driving",
+      "summary": "Long-horizon planning is critical for safe autonomous driving in complex scenarios. Existing methods improve planning continuity with temporal memory, but such memory may become invalid and mislead decisions when the driving command changes. Thus, se...",
+      "url": "https://arxiv.org/abs/2608.23405v1",
+      "date": "2026-08-24",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.23405v1",
+      "authors": "Ziying Song, Shengkai Zhang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "OptiSight: Bridging Semantic Reasoning and Geometric Control for Embodied Navigation",
+      "summary": "Autonomous indoor navigation requires both semantic understanding and precise geometric control. We propose OptiSight, a hybrid framework that combines Vision-Language Model reasoning with deterministic visual servoing through a finite-state Chain-of...",
+      "url": "https://arxiv.org/abs/2608.23354v1",
+      "date": "2026-08-24",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.23354v1",
+      "authors": "Alperen Avan, Jordi Sanchez-Riera",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "祥峰投资六载陪伴宇树登陆科创板，布局具身智能赛道",
+      "summary": "祥峰投资六载陪伴宇树登陆科创板，布局具身智能赛道",
+      "url": "http://36kr.com/p/q/3947304770745992",
+      "date": "2026-08-21",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
       ]
     },
     {
@@ -104,19 +197,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "祥峰投资六载陪伴宇树登陆科创板，布局具身智能赛道",
-      "summary": "祥峰投资六载陪伴宇树登陆科创板，布局具身智能赛道",
-      "url": "http://36kr.com/p/q/3947304770745992",
-      "date": "2026-08-21",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
       ]
     },
     {
@@ -2923,77 +3003,6 @@
       "tags": [
         "机器人",
         "具身智能"
-      ]
-    },
-    {
-      "title": "[自研焊接具身大脑模型，以“智能焊工”切入工业制造 具 身 智 能 赛道，「昇视唯盛」完成数亿元B轮融资｜36氪首发",
-      "summary": "[自研焊接具身大脑模型，以“智能焊工”切入工业制造 具 身 智 能 赛道，「昇视唯盛」完成数亿元B轮融资｜36氪首发",
-      "url": "http://36kr.com/p/3887871679347208",
-      "date": "2026-07-18",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "具身智能的下一个拐点，不在身体而在大脑。",
-      "summary": "具身智能的下一个拐点，不在身体而在大脑。",
-      "url": "http://36kr.com/p/3899248113158023",
-      "date": "2026-07-17",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "WAIC 2026多款新品抢先看：从具身智能到算力基础设施",
-      "summary": "WAIC 2026多款新品抢先看：从具身智能到算力基础设施",
-      "url": "http://36kr.com/p/3898343171687813",
-      "date": "2026-07-17",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "Handroid: Bridging Dexterous Hand and Humanoid",
-      "summary": "Dexterous hands and humanoid robots are typically developed as distinct embodiments: the former enable contact-rich manipulation at the object scale, whereas the latter provide mobility and whole-body interaction in human-centered environments. We in...",
-      "url": "https://arxiv.org/abs/2607.16187v1",
-      "date": "2026-07-17",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.16187v1",
-      "authors": "Ruogu Li, Chenyang Ma et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Vision-Language-Motion Maps: An Open-Vocabulary, Uncertainty-Aware, Queryable Motion Attribute for 3D Scene Maps",
-      "summary": "Open-vocabulary 3D maps let robots answer language queries about what and where, but they assume a static world and cannot answer queries about how scene elements behave. We introduce Vision-Language-Motion Maps (VLMM), an open-vocabulary, natural-la...",
-      "url": "https://arxiv.org/abs/2607.16173v1",
-      "date": "2026-07-17",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.16173v1",
-      "authors": "Dibyendu Ghosh, Ayushi Shakya",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
       ]
     }
   ]

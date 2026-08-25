@@ -1,102 +1,120 @@
 {
   "last_updated": "2026-08-25",
-  "count": 9,
+  "count": 8,
   "items": [
     {
-      "title": "Primal Acceleration of Newton's Method",
-      "authors": "Nikita Doikov",
-      "abstract": "We develop a new direct accelerated Newton method for minimizing convex functions with Lipschitz continuous Hessian. The algorithm uses only primal variables and performs just one linear solve per iteration. With a simple predetermined choice of parameters, it achieves the global convergence rate of...",
+      "title": "How to Train a Critic Stably and Efficiently",
+      "authors": "Penghui Qi, Xiangxin Zhou, Wee Sun Lee",
+      "abstract": "Group-based reinforcement learning methods such as GRPO for large language models avoid training a critic by sampling multiple responses for each prompt. A reliable critic could instead estimate token-level advantages from one response, but standard critic-based training recipes are often unstable. ...",
       "venue": "arXiv",
-      "date": "2026-08-21",
-      "arxiv_id": "2608.21359v1",
-      "url": "https://arxiv.org/abs/2608.21359v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.21359v1.pdf",
+      "date": "2026-08-24",
+      "arxiv_id": "2608.23566v1",
+      "url": "https://arxiv.org/abs/2608.23566v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.23566v1.pdf",
       "categories": [
-        "math.OC",
+        "cs.LG",
         "cs.AI",
-        "cs.LG"
+        "cs.CL"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "ReWorld: An Interactive World Model with Long-Horizon Memory",
+      "authors": "Zhifei Chen, Luozhou Wang, Guibao Shen et al.",
+      "abstract": "An interactive world model must follow the user's actions, remember the places it has shown, and stream in real time. The tension is structural: control wants a short horizon, memory wants an unbounded one. ReWorld separates the two during training and bounds them at inference. Mixed per-head attent...",
+      "venue": "arXiv",
+      "date": "2026-08-24",
+      "arxiv_id": "2608.23565v1",
+      "url": "https://arxiv.org/abs/2608.23565v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.23565v1.pdf",
+      "categories": [
+        "cs.AI"
+      ],
+      "type": "ai",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "SWE Refactor Bench: Can Coding Agents Complete a Long-Horizon, Whole-Repository Stack Migration?",
+      "authors": "Deyao Hong, Yizhe Chi, Wenyi Li et al.",
+      "abstract": "Modern software systems accumulate technical debt over decades of development, which makes migration expensive and largely manual. As coding agents become increasingly capable at bug fixing, can they autonomously perform such migrations? Existing benchmarks cannot answer this question because they e...",
+      "venue": "arXiv",
+      "date": "2026-08-24",
+      "arxiv_id": "2608.23564v1",
+      "url": "https://arxiv.org/abs/2608.23564v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.23564v1.pdf",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.SE"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "EG-ARSA: An Expert-Grounded Open Model for Visual Road Safety Auditing in Low-Resource Settings",
+      "authors": "Md Thamed Bin Zaman Chowdhury, Moazzem Hossain",
+      "abstract": "Road traffic injuries remain a major challenge in low- and middle-income countries, where proactive road safety auditing is limited by incomplete crash records, shortages of qualified auditors, and the high cost of large-scale field inspections. To address this problem, we propose Expert-Grounded Di...",
+      "venue": "arXiv",
+      "date": "2026-08-24",
+      "arxiv_id": "2608.23563v1",
+      "url": "https://arxiv.org/abs/2608.23563v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.23563v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "FixAnything: 3D-Consistent Rendering Refinement via Video Generative Priors",
+      "authors": "Khiem Vuong, Deva Ramanan, Srinivasa Narasimhan",
+      "abstract": "Rendering views using 3D scene representations such as Gaussian Splatting (3DGS), Neural Radiance Fields (NeRF), meshes, or even point clouds produces artifacts when input views are sparse or target views lie far from the input. Recent work mitigates these artifacts using diffusion-based generative ...",
+      "venue": "arXiv",
+      "date": "2026-08-24",
+      "arxiv_id": "2608.23549v1",
+      "url": "https://arxiv.org/abs/2608.23549v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.23549v1.pdf",
+      "categories": [
+        "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Provably adaptive sampling with uniform and remasking discrete diffusion models",
+      "authors": "Daniil Dmitriev, Zhihan Huang, Yuting Wei",
+      "abstract": "Discrete diffusion models offer a promising alternative to autoregressive generation by enabling parallel updates, but their sampling efficiency can depend strongly on the choice of the forward process and the sampler. For the uniform forward process, existing lower bounds for the standard $τ$-leapi...",
+      "venue": "arXiv",
+      "date": "2026-08-24",
+      "arxiv_id": "2608.23554v1",
+      "url": "https://arxiv.org/abs/2608.23554v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.23554v1.pdf",
+      "categories": [
+        "cs.LG",
+        "cs.IT",
+        "math.ST"
       ],
       "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "VIALS: A Benchmark for Visual Interpretation of Artifacts in the Life Sciences",
-      "authors": "Elaine Lau, Thanuka Udumulla, Lee Izhaki-Tavor et al.",
-      "abstract": "In professional life sciences workflows, scientists routinely interpret visual artifacts (gel blots, microscopy images, plasmid maps, flow cytometry plots, molecular structures, ...) to inform research decisions. We introduce VIALS, a visual question-answering benchmark with 161 such interpretation ...",
+      "title": "GeoWAM: Visual Geometry World Action Models for Autonomous Driving",
+      "authors": "Yiren Lu, Xin Ye, Jiaming Liu et al.",
+      "abstract": "World action models (WAMs) have recently gained increasing attention as a framework for jointly modeling scene evolution and ego actions in autonomous driving. Most existing WAMs learn scene dynamics in pixel space by combining a video-generation backbone for future-observation prediction with an ac...",
       "venue": "arXiv",
-      "date": "2026-08-21",
-      "arxiv_id": "2608.21357v1",
-      "url": "https://arxiv.org/abs/2608.21357v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.21357v1.pdf",
+      "date": "2026-08-24",
+      "arxiv_id": "2608.23486v1",
+      "url": "https://arxiv.org/abs/2608.23486v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.23486v1.pdf",
       "categories": [
-        "cs.AI"
-      ],
-      "type": "benchmark",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "TurboBias 2.0: Streaming Context-Biasing for Production-Efficient ASR Systems",
-      "authors": "Vladimir Bataev, Lilit Grigoryan, Andrei Andrusenko et al.",
-      "abstract": "Contextualization is essential for production automatic speech recognition (ASR) systems, where user-provided phrases must be recognized accurately under strict latency constraints. Although many context-biasing methods improve recognition accuracy, they often do not address the practical requiremen...",
-      "venue": "arXiv",
-      "date": "2026-08-21",
-      "arxiv_id": "2608.21343v1",
-      "url": "https://arxiv.org/abs/2608.21343v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.21343v1.pdf",
-      "categories": [
-        "eess.AS",
-        "cs.AI",
-        "cs.CL"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Move by Move: Measuring and Steering How LLMs Conduct Psychotherapy",
-      "authors": "Afonso Baldo, Hugo Pitorro, Areti Vassilopoulos et al.",
-      "abstract": "Users increasingly turn to large language models for emotional support, yet little is known about how these models actually conduct a psychotherapy interaction. We introduce an ontology of ten therapeutic moves: compact, function-based categories grounded in the MULTI-60 inventory, validated through...",
-      "venue": "arXiv",
-      "date": "2026-08-21",
-      "arxiv_id": "2608.21325v1",
-      "url": "https://arxiv.org/abs/2608.21325v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.21325v1.pdf",
-      "categories": [
-        "cs.CL"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "OmniAssistBench: Assistant-style Interaction Benchmark for Omni-LLMs",
-      "authors": "Xianyun Sun, Chaoyou Fu, Zhengye Zhang et al.",
-      "abstract": "Recent omni-modal large language models (Omni-LLMs) show great potential as real-time video assistants, which continuously perceive environments and guide users to achieve specific goals. Unlike traditional passive video understanding, interactive assistants should actively combine visual states, us...",
-      "venue": "arXiv",
-      "date": "2026-08-21",
-      "arxiv_id": "2608.21360v1",
-      "url": "https://arxiv.org/abs/2608.21360v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.21360v1.pdf",
-      "categories": [
-        "cs.CV"
-      ],
-      "type": "benchmark",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Anatomy-Informed Neural Networks: Encoding Anatomic Priors in Loss and Architecture, with an SE(3) Formulation of Guidewire-Induced Aortoiliac Deformation",
-      "authors": "David P. Stonko",
-      "abstract": "Deep-learning models of anatomy can be numerically plausible yet anatomically impossible, and they generalize poorly when data are scarce. We introduce Anatomy-Informed Neural Networks (AINN), in which soft anatomic priors enter as penalty terms in the loss (e.g., a branching penalty that treats a r...",
-      "venue": "arXiv",
-      "date": "2026-08-21",
-      "arxiv_id": "2608.21332v1",
-      "url": "https://arxiv.org/abs/2608.21332v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.21332v1.pdf",
-      "categories": [
-        "cs.AI",
         "cs.CV",
         "cs.RO"
       ],
@@ -105,51 +123,20 @@
       "source": "arXiv"
     },
     {
-      "title": "PerturbRx: Learning Treatment-Conditioned Latent Transitions for Patient Drug Response Prediction",
-      "authors": "Yoshitaka Inoue, Minoh Jeong, Alfred Hero et al.",
-      "abstract": "Scarce data and tumor heterogeneity limit patient-level cancer treatment-response prediction. Existing approaches predict response from pretreatment molecular profiles and drug representations, without explicitly modeling the molecular changes expected under treatment. We propose PerturbRx, a treatm...",
+      "title": "Act with Intent: Distilling Behavior Intent for Vision-Language-Action Models",
+      "authors": "Sangoh Lee, Sangwoo Mo, Wook-Shin Han",
+      "abstract": "Vision-Language-Action (VLA) models can turn multimodal context into robot actions, but their action decoders are still trained largely by behavior cloning. This supervises which motor command was demonstrated while leaving implicit the local objective served by the behavior under the instruction. F...",
       "venue": "arXiv",
-      "date": "2026-08-21",
-      "arxiv_id": "2608.21349v1",
-      "url": "https://arxiv.org/abs/2608.21349v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.21349v1.pdf",
+      "date": "2026-08-24",
+      "arxiv_id": "2608.23478v1",
+      "url": "https://arxiv.org/abs/2608.23478v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.23478v1.pdf",
       "categories": [
-        "q-bio.QM",
-        "cs.LG"
+        "cs.RO",
+        "cs.AI",
+        "cs.CV"
       ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Mining beyond Earth with Space Robots: Exploration, Sampling, and Extraction",
-      "authors": "Dong Li, Dujun Nie, Xiaotong Zhang et al.",
-      "abstract": "Space resource acquisition and utilization, commonly referred to as Space Mining, represent critical pathways for enabling sustained human exploration and unlocking commercial opportunities in space. These resources mainly include helium-3, water, mineral resources on the Moon and Mars, and abundant...",
-      "venue": "arXiv",
-      "date": "2026-08-21",
-      "arxiv_id": "2608.21358v1",
-      "url": "https://arxiv.org/abs/2608.21358v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.21358v1.pdf",
-      "categories": [
-        "cs.RO"
-      ],
-      "type": "ai",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "ViTacPhys: Physical Property-Aware Grasping from Human Visual-Tactile Demonstrations",
-      "authors": "Yiwen Liu, Yujun Zhu, Kui Jia et al.",
-      "abstract": "Recent vision-based action models have demonstrated strong capabilities in complex manipulation, but they rarely leverage explicit object physical properties to adapt their policies. We introduce ViTacPhys, a visual-tactile framework and data acquisition system that estimates object mass and frictio...",
-      "venue": "arXiv",
-      "date": "2026-08-21",
-      "arxiv_id": "2608.21355v1",
-      "url": "https://arxiv.org/abs/2608.21355v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.21355v1.pdf",
-      "categories": [
-        "cs.RO"
-      ],
-      "type": "ai",
+      "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     }
