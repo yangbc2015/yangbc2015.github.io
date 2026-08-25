@@ -15,8 +15,8 @@
       "rank": 2,
       "model": "deepseek-v4-flash-vision-exp",
       "organization": "deepseek",
-      "price_prompt": "0.00000044",
-      "price_completion": "0.00000132",
+      "price_prompt": "0.00000022",
+      "price_completion": "0.00000066",
       "context_length": 1048576
     },
     {
@@ -71,8 +71,8 @@
       "rank": 9,
       "model": "qwen3.8-27b",
       "organization": "qwen",
-      "price_prompt": "0.0000004",
-      "price_completion": "0.000003",
+      "price_prompt": "0.000000425",
+      "price_completion": "0.00000255",
       "context_length": 1000000
     },
     {
