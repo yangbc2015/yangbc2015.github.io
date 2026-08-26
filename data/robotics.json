@@ -3,6 +3,18 @@
   "count": 200,
   "items": [
     {
+      "title": "[DeepMind机器人团队创业，用后训练探索 具 身 智 能 落地路径",
+      "summary": "[DeepMind机器人团队创业，用后训练探索 具 身 智 能 落地路径",
+      "url": "http://36kr.com/p/3950478429322629",
+      "date": "2026-08-26",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
       "title": "[具 身 智 能 展会最热的一年，肉眼难见机器人的进化？",
       "summary": "[具 身 智 能 展会最热的一年，肉眼难见机器人的进化？",
       "url": "http://36kr.com/p/3947647141920131",
@@ -15,15 +27,122 @@
       ]
     },
     {
-      "title": "[DeepMind机器人团队创业，用后训练探索 具 身 智 能 落地路径",
-      "summary": "[DeepMind机器人团队创业，用后训练探索 具 身 智 能 落地路径",
-      "url": "http://36kr.com/p/3950478429322629",
+      "title": "Do Robotic World Models Really Follow Actions? Diagnosing and Aligning Action-Conditioned Generation for Policy Learning",
+      "summary": "Action-conditioned world models are increasingly used as learned simulators for policy evaluation and improvement, yet their effectiveness rests on an unverified assumption: generated futures faithfully reflect arbitrary valid actions. Existing bench...",
+      "url": "https://arxiv.org/abs/2608.24885v1",
       "date": "2026-08-25",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.24885v1",
+      "authors": "Sixiang Chen, Jiaming Liu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Latent Action as Intention Enables Efficient Future Imagination for World Action Models",
+      "summary": "World action models (WAMs) improve robot control by modeling how observations evolve, but generating future observations at test time incurs substantial latency. Fast-WAM removes this process for efficiency; however, our matched implementations show ...",
+      "url": "https://arxiv.org/abs/2608.24882v1",
+      "date": "2026-08-25",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.24882v1",
+      "authors": "Xiang Li, Yupeng Zheng et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "$(\\text{DNN})^2$: Doubly Non-Negative Relaxations for Deep Neural Networks",
+      "summary": "Existing linear program (LP) and semidefinite program (SDP) relaxations for rectified linear unit (ReLU) neural network (NN) verification yield overly-conservative safety guarantees due to significant relaxation gaps. While the completely positive pr...",
+      "url": "https://arxiv.org/abs/2608.24743v1",
+      "date": "2026-08-25",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.24743v1",
+      "authors": "Hanna Jiamei Zhang, Alan Papalia et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "One-Shot Learning from Demonstration of Contact-Rich Robotic Manipulation by Identifying Physical Interactions",
+      "summary": "Learning from Demonstration (LfD) allows robots to learn manipulation tasks directly from humans, thereby supporting the versatile application of robots. Most LfD methods do not explicitly model the physical interactions between a robot and its envir...",
+      "url": "https://arxiv.org/abs/2608.24741v1",
+      "date": "2026-08-25",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.24741v1",
+      "authors": "A. H. G. Overbeek, H. van der Kooij et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Fiber Bragg Grating Whiskers for Bioinspired Hydrodynamic Perception on Underwater Robots",
+      "summary": "Harbor seals track hydrodynamic trails with their vibrissae, enabling passive perception of moving targets in dark or turbid water. Inspired by this capability, we present compact fiber Bragg grating (FBG) whiskers for underwater robots. Like seal wh...",
+      "url": "https://arxiv.org/abs/2608.24724v1",
+      "date": "2026-08-25",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.24724v1",
+      "authors": "Hao Li, Tianyu Tu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "武伟谈以物理为中心的具身智能世界模型新范式",
+      "summary": "武伟谈以物理为中心的具身智能世界模型新范式",
+      "url": "http://36kr.com/p/3953160254717316",
+      "date": "2026-08-24",
       "source": "36氪",
-      "category": "机器人",
+      "category": "具身智能",
       "type": "news",
       "tags": [
-        "机器人"
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "后训练将成为具身智能在具体场景落地的重要新范式。",
+      "summary": "后训练将成为具身智能在具体场景落地的重要新范式。",
+      "url": "http://36kr.com/p/3950478429322629",
+      "date": "2026-08-24",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "具身智能，开始当消费品卖了",
+      "summary": "具身智能，开始当消费品卖了",
+      "url": "http://36kr.com/p/3952295622524040",
+      "date": "2026-08-24",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
       ]
     },
     {
@@ -104,45 +223,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "武伟谈以物理为中心的具身智能世界模型新范式",
-      "summary": "武伟谈以物理为中心的具身智能世界模型新范式",
-      "url": "http://36kr.com/p/3953160254717316",
-      "date": "2026-08-24",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "后训练将成为具身智能在具体场景落地的重要新范式。",
-      "summary": "后训练将成为具身智能在具体场景落地的重要新范式。",
-      "url": "http://36kr.com/p/3950478429322629",
-      "date": "2026-08-24",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "具身智能，开始当消费品卖了",
-      "summary": "具身智能，开始当消费品卖了",
-      "url": "http://36kr.com/p/3952295622524040",
-      "date": "2026-08-24",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
       ]
     },
     {
@@ -2924,79 +3004,6 @@
       "type": "news",
       "tags": [
         "机器人"
-      ]
-    },
-    {
-      "title": "机器人的视觉战争：一家中国公司的具身智能基建野心。",
-      "summary": "机器人的视觉战争：一家中国公司的具身智能基建野心。",
-      "url": "http://36kr.com/p/3903409360209799",
-      "date": "2026-07-20",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "数据墙，是高质量真实交互数据昂贵且稀缺；表征墙，是不同任务、场景和机器人本体之间，尚未形成足够统一的物理表征；闭环墙，则是真实世界中的试错速度慢、成本高，一次失败可能带来零部件损坏，甚至影响整台机器。",
-      "summary": "数据墙，是高质量真实交互数据昂贵且稀缺；表征墙，是不同任务、场景和机器人本体之间，尚未形成足够统一的物理表征；闭环墙，则是真实世界中的试错速度慢、成本高，一次失败可能带来零部件损坏，甚至影响整台机器。",
-      "url": "http://36kr.com/p/3902490934740101",
-      "date": "2026-07-20",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
-      ]
-    },
-    {
-      "title": "Patch Policy: Efficient Embodied Control via Dense Visual Representations",
-      "summary": "Pretrained dense visual features from Vision Transformers (ViTs) are powerful yet have been underutilized in robot learning. Modern robot policies either compress each observation into a single global token, or rely on visual backbones trained from s...",
-      "url": "https://arxiv.org/abs/2607.18236v1",
-      "date": "2026-07-20",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.18236v1",
-      "authors": "Gaoyue Zhou, Zichen Jeff Cui et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "FM-VLA: Force-based Memory for Vision-Language-Action Models in Contact-Rich Manipulation",
-      "summary": "Vision-language-action (VLA) models have achieved impressive generalization in robotic manipulation, and recent memory-augmented VLAs have relaxed the Markovian assumption by conditioning on past images or language summaries. Vision-based memory appr...",
-      "url": "https://arxiv.org/abs/2607.18231v1",
-      "date": "2026-07-20",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.18231v1",
-      "authors": "Ruicheng Li, Qixiu Li et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Optimization of sim-to-real transfer in the humanoid robot NICO",
-      "summary": "Robotic grasping requires accurate coordination between visual perception, object localization, inverse kinematics, and hand control. However, when movements planned in simulation are executed on a physical robot, the sim-to-real gap can cause small ...",
-      "url": "https://arxiv.org/abs/2607.18210v1",
-      "date": "2026-07-20",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.18210v1",
-      "authors": "Juraj Gavura, Igor Farkaš",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
       ]
     }
   ]
