@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-08-25",
+  "last_updated": "2026-08-26",
   "count": 200,
   "items": [
     {
-      "title": "[DeepMind机器人团队创业，用后训练探索 具 身 智 能 落地路径",
-      "summary": "[DeepMind机器人团队创业，用后训练探索 具 身 智 能 落地路径",
-      "url": "http://36kr.com/p/3950478429322629",
-      "date": "2026-08-25",
+      "title": "[具 身 智 能 展会最热的一年，肉眼难见机器人的进化？",
+      "summary": "[具 身 智 能 展会最热的一年，肉眼难见机器人的进化？",
+      "url": "http://36kr.com/p/3947647141920131",
+      "date": "2026-08-26",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
@@ -15,9 +15,9 @@
       ]
     },
     {
-      "title": "[具 身 智 能 展会最热的一年，肉眼难见机器人的进化？",
-      "summary": "[具 身 智 能 展会最热的一年，肉眼难见机器人的进化？",
-      "url": "http://36kr.com/p/3947647141920131",
+      "title": "[DeepMind机器人团队创业，用后训练探索 具 身 智 能 落地路径",
+      "summary": "[DeepMind机器人团队创业，用后训练探索 具 身 智 能 落地路径",
+      "url": "http://36kr.com/p/3950478429322629",
       "date": "2026-08-25",
       "source": "36氪",
       "category": "机器人",
@@ -104,6 +104,45 @@
         "机器人学习",
         "研究论文",
         "arXiv"
+      ]
+    },
+    {
+      "title": "武伟谈以物理为中心的具身智能世界模型新范式",
+      "summary": "武伟谈以物理为中心的具身智能世界模型新范式",
+      "url": "http://36kr.com/p/3953160254717316",
+      "date": "2026-08-24",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "后训练将成为具身智能在具体场景落地的重要新范式。",
+      "summary": "后训练将成为具身智能在具体场景落地的重要新范式。",
+      "url": "http://36kr.com/p/3950478429322629",
+      "date": "2026-08-24",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "具身智能，开始当消费品卖了",
+      "summary": "具身智能，开始当消费品卖了",
+      "url": "http://36kr.com/p/3952295622524040",
+      "date": "2026-08-24",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
       ]
     },
     {
@@ -2958,51 +2997,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "Learning Adaptive Safety Margins for Visual Navigation",
-      "summary": "Robots in cluttered indoor spaces often fail not because they cannot generate collision-free paths, but because a fixed safety margin is mis-calibrated: conservative margins cause detours and timeouts, while permissive margins lead to near-boundary s...",
-      "url": "https://arxiv.org/abs/2607.18200v1",
-      "date": "2026-07-20",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.18200v1",
-      "authors": "Junyi Hu, Shuaihang Yuan et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Imitation of Arm Gestures by the Semi-Humanoid Robot NICO",
-      "summary": "Seamless human-robot interaction (HRI) requires a number of perceptual and motor abilities from the robot, one of them being the imitation of human gestures. Humanoid robots have an advantage in HRI thanks to their anthropomorphic features. In this w...",
-      "url": "https://arxiv.org/abs/2607.18197v1",
-      "date": "2026-07-20",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.18197v1",
-      "authors": "Anastasiya Ihnatovich, Igor Farkaš",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "具身智能进入下半场，赢家拼的不再只是机器人。",
-      "summary": "具身智能进入下半场，赢家拼的不再只是机器人。",
-      "url": "http://36kr.com/p/3900610713175938",
-      "date": "2026-07-18",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
       ]
     }
   ]
