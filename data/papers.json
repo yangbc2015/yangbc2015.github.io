@@ -1,50 +1,72 @@
 {
-  "last_updated": "2026-08-26",
-  "count": 8,
+  "last_updated": "2026-08-27",
+  "count": 6,
   "items": [
     {
-      "title": "Recursive Experiential-Working Memory Evolution for Long-Horizon Agent Harnesses",
-      "authors": "Zhaochen Yu, Yingcheng Wu, Zhenfei Yin et al.",
-      "abstract": "Recursive self-improvement (RSI) remains hard in long-horizon tasks, where growing histories obscure the task state and misalign skill invocation. We introduce Recuris, a recursive Experiential-Working Memory architecture for long-horizon agent harnesses, in which Working Memory tracks task progress...",
+      "title": "VBVR-Pro: A Scalable and Verifiable Suite for Native Visual Reasoning",
+      "authors": "Junxiang Xu, Ruisi Wang, Fanyi Pu et al.",
+      "abstract": "Native visual reasoning treats visual generation as the medium of reasoning itself: visual states (i.e. images and videos) are not merely inputs to be understood or outputs to be rendered, but first-class substrates for problem solving beyond language. Yet progress remains bottlenecked by the lack o...",
       "venue": "arXiv",
-      "date": "2026-08-25",
-      "arxiv_id": "2608.24876v1",
-      "url": "https://arxiv.org/abs/2608.24876v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.24876v1.pdf",
+      "date": "2026-08-26",
+      "arxiv_id": "2608.26105v1",
+      "url": "https://arxiv.org/abs/2608.26105v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.26105v1.pdf",
       "categories": [
+        "cs.CV",
         "cs.AI",
-        "cs.CL"
+        "cs.LG"
       ],
-      "type": "nlp",
+      "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "SPO++: Stream-Aligned Policy Optimization for Asynchronous Agentic RL",
-      "authors": "Kai Ruan, Jinghao Lin, Qianshan Wei et al.",
-      "abstract": "Group-relative reinforcement learning waits for sibling rollouts of the same prompt, which is costly for long and variable tool-use trajectories. Single-stream Policy Optimization (SPO) removes this dependency with a persistent prompt-level value estimate, but its recipe whitens one advantage per tr...",
+      "title": "A Visual Dependence-Aware Framework for Multimodal Unsupervised Continual Post-Training",
+      "authors": "Kaichen Li, Zhilin Zhu, Jianhao Huang et al.",
+      "abstract": "In this paper, we explore a novel task of Multimodal Unsupervised Continual Post-Training (MU-CPT), enabling deployed MLLMs to continually evolve from streaming unlabeled data. Existing unsupervised post-training methods for MLLMs typically optimize target tokens uniformly, overlooking their heterog...",
       "venue": "arXiv",
-      "date": "2026-08-25",
-      "arxiv_id": "2608.24870v1",
-      "url": "https://arxiv.org/abs/2608.24870v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.24870v1.pdf",
+      "date": "2026-08-26",
+      "arxiv_id": "2608.26095v1",
+      "url": "https://arxiv.org/abs/2608.26095v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.26095v1.pdf",
       "categories": [
+        "cs.CV",
         "cs.AI"
       ],
-      "type": "ml",
+      "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "BrowserForge: Scaling Web Episode via Parallel Browser Sandboxes",
-      "authors": "Fei Tang, Huawen Shen, Zhiqiong Lu et al.",
-      "abstract": "Web agents that act from rendered pixels avoid the fragility and heavy token cost of reading a page's HTML or accessibility tree, but training them depends on large amounts of high-quality interaction trajectories, and how to produce such data at scale remains an open problem. Public datasets typica...",
+      "title": "PlanSightRAG: A Visual-First Multimodal RAG for Automating Question Answering and Compliance Checking for Civil Standard Plans",
+      "authors": "Nabaraj Subedi, Shuvo Dip Datta, Ahmed Abdelaty et al.",
+      "abstract": "Civil infrastructure compliance checking has long relied on engineers manually reading legacy 2D plans; however, OCR-based automation strips away the geometry and layout essential for interpreting these plans. We present a Visual-First Multimodal Retrieval-Augmented Generation (RAG) framework called...",
       "venue": "arXiv",
-      "date": "2026-08-25",
-      "arxiv_id": "2608.24848v1",
-      "url": "https://arxiv.org/abs/2608.24848v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.24848v1.pdf",
+      "date": "2026-08-26",
+      "arxiv_id": "2608.26091v1",
+      "url": "https://arxiv.org/abs/2608.26091v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.26091v1.pdf",
       "categories": [
+        "cs.IR",
+        "cs.CL",
+        "cs.CV"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "SwarmWorld: Stigmergic technological evolution in societies of language-model agents",
+      "authors": "Subhadeep Pal, Fiona Y. Wang, Markus J. Buehler",
+      "abstract": "Collective intelligence can emerge when individuals coordinate through a shared environment, allowing local actions to accumulate into durable social organization. Language-model agents offer a new substrate for this process, yet most multi-agent systems rely on direct conversation, predefined roles...",
+      "venue": "arXiv",
+      "date": "2026-08-26",
+      "arxiv_id": "2608.26081v1",
+      "url": "https://arxiv.org/abs/2608.26081v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.26081v1.pdf",
+      "categories": [
+        "cs.AI",
+        "cond-mat.mtrl-sci",
         "cs.CL"
       ],
       "type": "nlp",
@@ -52,86 +74,37 @@
       "source": "arXiv"
     },
     {
-      "title": "Do Robotic World Models Really Follow Actions? Diagnosing and Aligning Action-Conditioned Generation for Policy Learning",
-      "authors": "Sixiang Chen, Jiaming Liu, Jixian Wu et al.",
-      "abstract": "Action-conditioned world models are increasingly used as learned simulators for policy evaluation and improvement, yet their effectiveness rests on an unverified assumption: generated futures faithfully reflect arbitrary valid actions. Existing benchmarks are typically confined to expert demonstrati...",
+      "title": "Zero-WAM: In-Context World-Action Modeling from Human Videos for Open-Ended Task Generalization",
+      "authors": "Jiaming Zhou, Qihang Zhang, Gangwei Xu et al.",
+      "abstract": "Zero-shot cross-task generalization, where a policy must execute manipulation tasks never seen during training, remains a central challenge in robot learning. In large language models, a novel task can be performed simply by specifying it in the context, without any parameter update. This form of in...",
       "venue": "arXiv",
-      "date": "2026-08-25",
-      "arxiv_id": "2608.24885v1",
-      "url": "https://arxiv.org/abs/2608.24885v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.24885v1.pdf",
+      "date": "2026-08-26",
+      "arxiv_id": "2608.26103v1",
+      "url": "https://arxiv.org/abs/2608.26103v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.26103v1.pdf",
       "categories": [
         "cs.RO",
         "cs.CV"
       ],
-      "type": "vision",
+      "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "From Seeing to Acting: Smart Glasses as First-Person Intelligence Platforms",
-      "authors": "Jiangning Zhang, Haojun Chen, Yong Liu",
-      "abstract": "Smart glasses are evolving from capture and display accessories into first-person intelligence platforms that connect human perception, persistent context, and digital or physical action. Their on-body viewpoint aligns with the wearer's vision, audition, motion, and hand-object interaction, but must...",
+      "title": "MyoMechanix: Biomechanically-Grounded Compositional Skilled Activity Understanding and Coaching",
+      "authors": "Hao Yin, Paritosh Parmar, Lijun Gu et al.",
+      "abstract": "Existing action quality assessment (AQA) datasets and methods rely primarily on visual inputs such as RGB and pose, overlooking physiological dynamics such as muscle mechanics and often modeling actions as monolithic patterns. These limitations hinder fine-grained, biomechanically grounded feedback....",
       "venue": "arXiv",
-      "date": "2026-08-25",
-      "arxiv_id": "2608.24877v1",
-      "url": "https://arxiv.org/abs/2608.24877v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.24877v1.pdf",
+      "date": "2026-08-26",
+      "arxiv_id": "2608.26094v1",
+      "url": "https://arxiv.org/abs/2608.26094v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.26094v1.pdf",
       "categories": [
-        "cs.CV"
+        "cs.CV",
+        "cs.AI",
+        "cs.ET"
       ],
       "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "What FID Hides: Detecting, Ranking, and Diagnosing Deviations in Generative Evaluation",
-      "authors": "Hao Chen",
-      "abstract": "Generative models are commonly ranked by Fréchet Inception Distance (FID) and Kernel Inception Distance (KID), yet FID's first-two-moment summary can miss distributional differences, and a reported scalar gap alone is not a calibrated test against sampling variation. FID's moment restriction has con...",
-      "venue": "arXiv",
-      "date": "2026-08-25",
-      "arxiv_id": "2608.24881v1",
-      "url": "https://arxiv.org/abs/2608.24881v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.24881v1.pdf",
-      "categories": [
-        "stat.ML",
-        "cs.LG"
-      ],
-      "type": "benchmark",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Parameterized Complexity of $L_p$-Lipschitz Constants for Input Convex Neural Networks and $L_p$-Norm Maximization over Zonotopes",
-      "authors": "Aritra Das, Vincent Froese, Moritz Grillo et al.",
-      "abstract": "Lipschitz constants are a standard way to quantify the sensitivity of neural networks to small input perturbations, but computing them is difficult even for shallow ReLU networks. We study this problem for two-layer input-convex neural networks (ICNNs), a restricted architecture where nonnegative ou...",
-      "venue": "arXiv",
-      "date": "2026-08-25",
-      "arxiv_id": "2608.24865v1",
-      "url": "https://arxiv.org/abs/2608.24865v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.24865v1.pdf",
-      "categories": [
-        "cs.CC",
-        "cs.DM",
-        "cs.LG"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Latent Action as Intention Enables Efficient Future Imagination for World Action Models",
-      "authors": "Xiang Li, Yupeng Zheng, Songen Gu et al.",
-      "abstract": "World action models (WAMs) improve robot control by modeling how observations evolve, but generating future observations at test time incurs substantial latency. Fast-WAM removes this process for efficiency; however, our matched implementations show lower generalization for Fast-WAM than for future-...",
-      "venue": "arXiv",
-      "date": "2026-08-25",
-      "arxiv_id": "2608.24882v1",
-      "url": "https://arxiv.org/abs/2608.24882v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.24882v1.pdf",
-      "categories": [
-        "cs.RO"
-      ],
-      "type": "ai",
       "badge": "arxiv",
       "source": "arXiv"
     }

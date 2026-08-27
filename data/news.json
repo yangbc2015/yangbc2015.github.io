@@ -1,15 +1,123 @@
 {
-  "last_updated": "2026-08-26",
+  "last_updated": "2026-08-27",
   "count": 200,
-  "history_count": 200,
+  "history_count": 206,
   "retention_days": 30,
   "items": [
+    {
+      "title": "西门子Xcelerator与普通软件货架最本质的区别。货架解决的是「把产品卖出去」，西门子Xcelerator要解决的是「让产品在真实工业场景中持续生长」。",
+      "link": "https://www.qbitai.com/?s=西门子Xcelera",
+      "summary": "西门子Xcelerator与普通软件货架最本质的区别。货架解决的是「把产品卖出去」，西门子Xcelerator要解决的是「让产品在真实工业场景中持续生长」。...",
+      "date": "2026-08-27",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "8月26日晚，千问办公首发上线刚刚发布的Qwen3.8-Flash模型，同时推出标准模式。",
+      "link": "https://www.qbitai.com/?s=8月26日晚，千问办",
+      "summary": "8月26日晚，千问办公首发上线刚刚发布的Qwen3.8-Flash模型，同时推出标准模式。...",
+      "date": "2026-08-27",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
     {
       "title": "从图像到视频，美图找到了一门更赚钱的生意",
       "link": "https://www.qbitai.com/?s=从图像到视频，美图找",
       "summary": "从图像到视频，美图找到了一门更赚钱的生意...",
-      "date": "2026-08-26",
+      "date": "2026-08-27",
       "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "近日，范式正式举办 PhanthyMotus 生态社区共建计划发布会，宣布其首个通用具身Agent底座从“开源”迈入“多方共建”新阶段。",
+      "link": "https://www.qbitai.com/?s=近日，范式正式举办 ",
+      "summary": "近日，范式正式举办 PhanthyMotus 生态社区共建计划发布会，宣布其首个通用具身Agent底座从“开源”迈入“多方共建”新阶段。...",
+      "date": "2026-08-27",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "今年50位获奖人来自13个城市的30家高校、医院和科研机构",
+      "link": "https://www.qbitai.com/?s=今年50位获奖人来自",
+      "summary": "今年50位获奖人来自13个城市的30家高校、医院和科研机构...",
+      "date": "2026-08-27",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "*   [Latest](http://techcrunch.com/latest/)",
+      "link": "https://techcrunch.com/category/artificial-intelligence/",
+      "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
+      "date": "2026-08-27",
+      "source": "TechCrunch",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "Artificial Intelligence"
+      ]
+    },
+    {
+      "title": "刚刚，Qwen3.8-Flash震撼发布，我们看到了Qwen4的骨架",
+      "link": "https://www.jiqizhixin.com/search/articles/刚刚，Qwen3.8-Flas",
+      "summary": "刚刚，Qwen3.8-Flash震撼发布，我们看到了Qwen4的骨架...",
+      "date": "2026-08-26",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "Specula在67个开源系统中找到382个深层bug，数月形式化验证缩短到几小时",
+      "link": "https://www.jiqizhixin.com/search/articles/Specula在67个开源系统",
+      "summary": "Specula在67个开源系统中找到382个深层bug，数月形式化验证缩短到几小时...",
+      "date": "2026-08-26",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "十四年的「管家」局，科沃斯这回把应用定义权交了出来",
+      "link": "https://www.jiqizhixin.com/search/articles/十四年的「管家」局，科沃斯这回",
+      "summary": "十四年的「管家」局，科沃斯这回把应用定义权交了出来...",
+      "date": "2026-08-26",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "港科大（广州）联合腾讯AI平台部开源VibeWorlding，3D世界构建迎来Vibe Coding时刻？",
+      "link": "https://www.jiqizhixin.com/search/articles/港科大（广州）联合腾讯AI平台",
+      "summary": "港科大（广州）联合腾讯AI平台部开源VibeWorlding，3D世界构建迎来Vibe Coding时刻？...",
+      "date": "2026-08-26",
+      "source": "机器之心",
       "type": "industry",
       "tags": [
         "AI",
@@ -53,30 +161,6 @@
       ]
     },
     {
-      "title": "近日，范式正式举办 PhanthyMotus 生态社区共建计划发布会，宣布其首个通用具身Agent底座从“开源”迈入“多方共建”新阶段。",
-      "link": "https://www.qbitai.com/?s=近日，范式正式举办 ",
-      "summary": "近日，范式正式举办 PhanthyMotus 生态社区共建计划发布会，宣布其首个通用具身Agent底座从“开源”迈入“多方共建”新阶段。...",
-      "date": "2026-08-26",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Published Time: Thu, 08 May 2025 23:15:48 GMT",
-      "link": "https://techcrunch.com/category/artificial-intelligence/",
-      "summary": "Published Time: Thu, 08 May 2025 23:15:48 GMT...",
-      "date": "2026-08-26",
-      "source": "TechCrunch",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "Artificial Intelligence"
-      ]
-    },
-    {
       "title": "SenseNova U1.5 Lite",
       "link": "https://www.qbitai.com/?s=SenseNova ",
       "summary": "SenseNova U1.5 Lite...",
@@ -92,18 +176,6 @@
       "title": "下一代Agent天然会走向云端和更大规模的计算资源",
       "link": "https://www.qbitai.com/?s=下一代Agent天然",
       "summary": "下一代Agent天然会走向云端和更大规模的计算资源...",
-      "date": "2026-08-26",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "今年50位获奖人来自13个城市的30家高校、医院和科研机构",
-      "link": "https://www.qbitai.com/?s=今年50位获奖人来自",
-      "summary": "今年50位获奖人来自13个城市的30家高校、医院和科研机构...",
       "date": "2026-08-26",
       "source": "量子位",
       "type": "industry",
@@ -2326,78 +2398,6 @@
       "summary": "淘天开启2027届应届生招聘：AI技术类岗位占比超9成...",
       "date": "2026-08-05",
       "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "即梦上线多款Seedance2.5专业工具，携手上海电影、艾菲奖等探索AI视频应用场景",
-      "link": "https://www.jiqizhixin.com/search/articles/即梦上线多款Seedance2",
-      "summary": "即梦上线多款Seedance2.5专业工具，携手上海电影、艾菲奖等探索AI视频应用场景...",
-      "date": "2026-08-05",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Transformer开始构建三维世界：开源模型几张图片秒级生成可探索3D场景",
-      "link": "https://www.jiqizhixin.com/search/articles/Transformer开始构建",
-      "summary": "Transformer开始构建三维世界：开源模型几张图片秒级生成可探索3D场景...",
-      "date": "2026-08-05",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "第二天，就有一篇人类论文回应：AI提出的反例不成立",
-      "link": "https://www.qbitai.com/?s=第二天，就有一篇人类",
-      "summary": "第二天，就有一篇人类论文回应：AI提出的反例不成立...",
-      "date": "2026-08-05",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Skill和Agent也能被封装调用",
-      "link": "https://www.qbitai.com/?s=Skill和Agen",
-      "summary": "Skill和Agent也能被封装调用...",
-      "date": "2026-08-05",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "OpenAI+田园牧歌，画风属实太违和",
-      "link": "https://www.qbitai.com/?s=OpenAI+田园牧",
-      "summary": "OpenAI+田园牧歌，画风属实太违和...",
-      "date": "2026-08-05",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "那还说啥了梁圣，我订阅费全给你就是了呗",
-      "link": "https://www.qbitai.com/?s=那还说啥了梁圣，我订",
-      "summary": "那还说啥了梁圣，我订阅费全给你就是了呗...",
-      "date": "2026-08-05",
-      "source": "量子位",
       "type": "industry",
       "tags": [
         "AI",

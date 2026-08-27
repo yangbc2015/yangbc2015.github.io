@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-08-26",
+  "last_updated": "2026-08-27",
   "count": 200,
   "items": [
     {
-      "title": "[清华系 具 身 智 能 企业获数亿元融资，机器人已在京东超市规模化落地岗｜硬氪首发",
-      "summary": "[清华系 具 身 智 能 企业获数亿元融资，机器人已在京东超市规模化落地岗｜硬氪首发",
-      "url": "http://36kr.com/p/3948044825279621",
-      "date": "2026-08-26",
+      "title": "[DeepMind机器人团队创业，用后训练探索 具 身 智 能 落地路径",
+      "summary": "[DeepMind机器人团队创业，用后训练探索 具 身 智 能 落地路径",
+      "url": "http://36kr.com/p/3950478429322629",
+      "date": "2026-08-27",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
@@ -15,9 +15,89 @@
       ]
     },
     {
-      "title": "[DeepMind机器人团队创业，用后训练探索 具 身 智 能 落地路径",
-      "summary": "[DeepMind机器人团队创业，用后训练探索 具 身 智 能 落地路径",
-      "url": "http://36kr.com/p/3950478429322629",
+      "title": "VBVR-Pro: A Scalable and Verifiable Suite for Native Visual Reasoning",
+      "summary": "Native visual reasoning treats visual generation as the medium of reasoning itself: visual states (i.e. images and videos) are not merely inputs to be understood or outputs to be rendered, but first-class substrates for problem solving beyond languag...",
+      "url": "https://arxiv.org/abs/2608.26105v1",
+      "date": "2026-08-26",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.26105v1",
+      "authors": "Junxiang Xu, Ruisi Wang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Zero-WAM: In-Context World-Action Modeling from Human Videos for Open-Ended Task Generalization",
+      "summary": "Zero-shot cross-task generalization, where a policy must execute manipulation tasks never seen during training, remains a central challenge in robot learning. In large language models, a novel task can be performed simply by specifying it in the cont...",
+      "url": "https://arxiv.org/abs/2608.26103v1",
+      "date": "2026-08-26",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.26103v1",
+      "authors": "Jiaming Zhou, Qihang Zhang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Fast Generative Grasping via Lie Group-Constrained MeanFlow",
+      "summary": "Grasp synthesis is a core task in robotic manipulation, for which the solution typically forms a multimodal distribution rather than a point estimate. Generative robotic grasping aims to learn this distribution with deep generative models such as dif...",
+      "url": "https://arxiv.org/abs/2608.26076v1",
+      "date": "2026-08-26",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.26076v1",
+      "authors": "S. Talha Bukhari, Yi Wei et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Gating Before Commitment: Anticipating Intent Divergence to Prevent Post-Interaction Decision Failures in Autonomous Driving",
+      "summary": "Intent misinterpretation during vehicle interactions causes recurring planning failures. We study a decision layer in which a language-guided intent module reads structured descriptors, computes a smoothed intent-geometry divergence score, and gates ...",
+      "url": "https://arxiv.org/abs/2608.26074v1",
+      "date": "2026-08-26",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.26074v1",
+      "authors": "Cong Xu, Ravi Sankar",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "VirTooS: A ROS 2 - Unity Virtualization Toolkit for Fleet Management of Autonomous Mobile Robots",
+      "summary": "In this paper, we present VirTooS, a Python/C# toolkit designed to implement fleet-management tasks on teams of Autonomous Mobile Robots (AMRs). VirTooS leverages the Robot Operating System (ROS) 2 and Unity game engine to provide realistic, scalable...",
+      "url": "https://arxiv.org/abs/2608.26066v1",
+      "date": "2026-08-26",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.26066v1",
+      "authors": "Andrea Drudi, Lorenzo Pichierri et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "[清华系 具 身 智 能 企业获数亿元融资，机器人已在京东超市规模化落地岗｜硬氪首发",
+      "summary": "[清华系 具 身 智 能 企业获数亿元融资，机器人已在京东超市规模化落地岗｜硬氪首发",
+      "url": "http://36kr.com/p/3948044825279621",
       "date": "2026-08-26",
       "source": "36氪",
       "category": "机器人",
@@ -36,6 +116,31 @@
       "type": "news",
       "tags": [
         "机器人"
+      ]
+    },
+    {
+      "title": "璇玑动力携四足机器人亮相2026世界机器人大会，成果获认可",
+      "summary": "璇玑动力携四足机器人亮相2026世界机器人大会，成果获认可",
+      "url": "http://36kr.com/p/3954812788374664",
+      "date": "2026-08-25",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
+      "title": "具身智能走到哪了？425家公司和1245亿资本告诉你的答案",
+      "summary": "具身智能走到哪了？425家公司和1245亿资本告诉你的答案",
+      "url": "http://36kr.com/p/3954655180618883",
+      "date": "2026-08-25",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
       ]
     },
     {
@@ -2906,104 +3011,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "No Training, Better Flights: Test-Time Scaled VLMs for UAV Navigation",
-      "summary": "Test-time scaling offers a promising method to improve the inference performance of Vision-Language Models (VLMs) without additional training. Existing approaches to vision-language navigation (VLN) for Unmanned Aerial Vehicle (UAV) typically relies ...",
-      "url": "https://arxiv.org/abs/2607.19288v1",
-      "date": "2026-07-21",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.19288v1",
-      "authors": "Feinan Cheng, Dongliang Xu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Stochastic Multi-Objective Kinodynamic Planning Against Adversaries",
-      "summary": "This paper addresses multi-objective kinodynamic planning in environments with stochastic hybrid adversaries that probabilistically transition to adversarial modes based on the ego state. The goal is to construct the Pareto-front of paths that trade ...",
-      "url": "https://arxiv.org/abs/2607.19284v1",
-      "date": "2026-07-21",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.19284v1",
-      "authors": "Thomas Marshall Vielmetti, Daniel Cherenson et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Eversion-based robots can enable safe access,steering and endoscopic imaging within the spinal subarachnoid space",
-      "summary": "Safe navigation within the spinal subarachnoid space is constrained by its narrow, compliant, and delicate anatomy. Conventional catheters and continuum robots rely on proximal pushing, generating friction and shear along the tissue device interface ...",
-      "url": "https://arxiv.org/abs/2607.19274v1",
-      "date": "2026-07-21",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.19274v1",
-      "authors": "Zicong Wu, Panagiotis Kalozoumis et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "[科沃斯首款开源机器人线下空间揭牌，具 身 智 能 生态布局再进一步",
-      "summary": "[科沃斯首款开源机器人线下空间揭牌，具 身 智 能 生态布局再进一步",
-      "url": "http://36kr.com/p/3898008022877828",
-      "date": "2026-07-21",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
-      ]
-    },
-    {
-      "title": "[36氪首发 | 三个月融三轮，上交大00后博士让 具 身 智 能 仿生扑翼机器人理解并驾驭流体",
-      "summary": "[36氪首发 | 三个月融三轮，上交大00后博士让 具 身 智 能 仿生扑翼机器人理解并驾驭流体",
-      "url": "http://36kr.com/p/3889516712065799",
-      "date": "2026-07-21",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
-      ]
-    },
-    {
-      "title": "“具身智能夜话”在沪顺利举办。",
-      "summary": "“具身智能夜话”在沪顺利举办。",
-      "url": "http://36kr.com/p/3903909048321928",
-      "date": "2026-07-20",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "WAIC 2026简智展出Human Data方案，赋能具身智能。",
-      "summary": "WAIC 2026简智展出Human Data方案，赋能具身智能。",
-      "url": "http://36kr.com/p/3903858284086913",
-      "date": "2026-07-20",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
       ]
     }
   ]
