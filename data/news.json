@@ -1,9 +1,21 @@
 {
   "last_updated": "2026-08-27",
   "count": 200,
-  "history_count": 206,
+  "history_count": 201,
   "retention_days": 30,
   "items": [
+    {
+      "title": "近日，AI基础设施公司基元律动（TokenRhythm）宣布完成新一轮融资，融资额达数千万美元。",
+      "link": "https://www.qbitai.com/?s=近日，AI基础设施公",
+      "summary": "近日，AI基础设施公司基元律动（TokenRhythm）宣布完成新一轮融资，融资额达数千万美元。...",
+      "date": "2026-08-27",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
     {
       "title": "西门子Xcelerator与普通软件货架最本质的区别。货架解决的是「把产品卖出去」，西门子Xcelerator要解决的是「让产品在真实工业场景中持续生长」。",
       "link": "https://www.qbitai.com/?s=西门子Xcelera",
@@ -53,18 +65,6 @@
       ]
     },
     {
-      "title": "今年50位获奖人来自13个城市的30家高校、医院和科研机构",
-      "link": "https://www.qbitai.com/?s=今年50位获奖人来自",
-      "summary": "今年50位获奖人来自13个城市的30家高校、医院和科研机构...",
-      "date": "2026-08-27",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
       "title": "*   [Latest](http://techcrunch.com/latest/)",
       "link": "https://techcrunch.com/category/artificial-intelligence/",
       "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
@@ -74,6 +74,18 @@
       "tags": [
         "AI",
         "Artificial Intelligence"
+      ]
+    },
+    {
+      "title": "今年50位获奖人来自13个城市的30家高校、医院和科研机构",
+      "link": "https://www.qbitai.com/?s=今年50位获奖人来自",
+      "summary": "今年50位获奖人来自13个城市的30家高校、医院和科研机构...",
+      "date": "2026-08-27",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
       ]
     },
     {
@@ -2384,18 +2396,6 @@
       "title": "Transformer上限触顶，Mobius能否引发下一代模型架构的革命？",
       "link": "https://www.jiqizhixin.com/search/articles/Transformer上限触顶",
       "summary": "Transformer上限触顶，Mobius能否引发下一代模型架构的革命？...",
-      "date": "2026-08-05",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "淘天开启2027届应届生招聘：AI技术类岗位占比超9成",
-      "link": "https://www.jiqizhixin.com/search/articles/淘天开启2027届应届生招聘：",
-      "summary": "淘天开启2027届应届生招聘：AI技术类岗位占比超9成...",
       "date": "2026-08-05",
       "source": "机器之心",
       "type": "industry",

@@ -31,8 +31,8 @@
       "rank": 4,
       "model": "deepseek-v4-flash-vision-exp",
       "organization": "deepseek",
-      "price_prompt": "0.00000022",
-      "price_completion": "0.00000066",
+      "price_prompt": "0.00000044",
+      "price_completion": "0.00000132",
       "context_length": 1048576
     },
     {

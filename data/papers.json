@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-08-27",
-  "count": 6,
+  "count": 4,
   "items": [
     {
       "title": "VBVR-Pro: A Scalable and Verifiable Suite for Native Visual Reasoning",
@@ -38,38 +38,20 @@
       "source": "arXiv"
     },
     {
-      "title": "PlanSightRAG: A Visual-First Multimodal RAG for Automating Question Answering and Compliance Checking for Civil Standard Plans",
-      "authors": "Nabaraj Subedi, Shuvo Dip Datta, Ahmed Abdelaty et al.",
-      "abstract": "Civil infrastructure compliance checking has long relied on engineers manually reading legacy 2D plans; however, OCR-based automation strips away the geometry and layout essential for interpreting these plans. We present a Visual-First Multimodal Retrieval-Augmented Generation (RAG) framework called...",
+      "title": "MyoMechanix: Biomechanically-Grounded Compositional Skilled Activity Understanding and Coaching",
+      "authors": "Hao Yin, Paritosh Parmar, Lijun Gu et al.",
+      "abstract": "Existing action quality assessment (AQA) datasets and methods rely primarily on visual inputs such as RGB and pose, overlooking physiological dynamics such as muscle mechanics and often modeling actions as monolithic patterns. These limitations hinder fine-grained, biomechanically grounded feedback....",
       "venue": "arXiv",
       "date": "2026-08-26",
-      "arxiv_id": "2608.26091v1",
-      "url": "https://arxiv.org/abs/2608.26091v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.26091v1.pdf",
+      "arxiv_id": "2608.26094v1",
+      "url": "https://arxiv.org/abs/2608.26094v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.26094v1.pdf",
       "categories": [
-        "cs.IR",
-        "cs.CL",
-        "cs.CV"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "SwarmWorld: Stigmergic technological evolution in societies of language-model agents",
-      "authors": "Subhadeep Pal, Fiona Y. Wang, Markus J. Buehler",
-      "abstract": "Collective intelligence can emerge when individuals coordinate through a shared environment, allowing local actions to accumulate into durable social organization. Language-model agents offer a new substrate for this process, yet most multi-agent systems rely on direct conversation, predefined roles...",
-      "venue": "arXiv",
-      "date": "2026-08-26",
-      "arxiv_id": "2608.26081v1",
-      "url": "https://arxiv.org/abs/2608.26081v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.26081v1.pdf",
-      "categories": [
+        "cs.CV",
         "cs.AI",
-        "cond-mat.mtrl-sci",
-        "cs.CL"
+        "cs.ET"
       ],
-      "type": "nlp",
+      "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     },
@@ -87,24 +69,6 @@
         "cs.CV"
       ],
       "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "MyoMechanix: Biomechanically-Grounded Compositional Skilled Activity Understanding and Coaching",
-      "authors": "Hao Yin, Paritosh Parmar, Lijun Gu et al.",
-      "abstract": "Existing action quality assessment (AQA) datasets and methods rely primarily on visual inputs such as RGB and pose, overlooking physiological dynamics such as muscle mechanics and often modeling actions as monolithic patterns. These limitations hinder fine-grained, biomechanically grounded feedback....",
-      "venue": "arXiv",
-      "date": "2026-08-26",
-      "arxiv_id": "2608.26094v1",
-      "url": "https://arxiv.org/abs/2608.26094v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.26094v1.pdf",
-      "categories": [
-        "cs.CV",
-        "cs.AI",
-        "cs.ET"
-      ],
-      "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     }
