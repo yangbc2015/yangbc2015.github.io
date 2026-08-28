@@ -1,7 +1,123 @@
 {
-  "last_updated": "2026-08-27",
+  "last_updated": "2026-08-28",
   "count": 200,
   "items": [
+    {
+      "title": "[机器人从「量产」到「量销」，启智Openmind要补上工业 具 身 智 能 的中间层",
+      "summary": "[机器人从「量产」到「量销」，启智Openmind要补上工业 具 身 智 能 的中间层",
+      "url": "http://36kr.com/p/3957651086163077",
+      "date": "2026-08-28",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
+      "title": "[36氪首发 | 南洋理工院士团队做全域 具 身 智 能 系统，种子轮获同创伟业领投，卧安机器人、旭源资本跟投",
+      "summary": "[36氪首发 | 南洋理工院士团队做全域 具 身 智 能 系统，种子轮获同创伟业领投，卧安机器人、旭源资本跟投",
+      "url": "http://36kr.com/p/3957129659497600",
+      "date": "2026-08-28",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
+      "title": "[清华系 具 身 智 能 企业获数亿元融资，机器人已在京东超市规模化落地岗｜硬氪首发",
+      "summary": "[清华系 具 身 智 能 企业获数亿元融资，机器人已在京东超市规模化落地岗｜硬氪首发",
+      "url": "http://36kr.com/p/3948044825279621",
+      "date": "2026-08-28",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
+      "title": "CLAP: Cross-Embodiment Video World Models are Zero-Shot Physical Simulators",
+      "summary": "State-of-the-art action-conditioned video models are typically restricted to a single robot embodiment, preventing them from leveraging the vast corpus of heterogeneous video data that contains rich signals for learning generalizable physics. To brid...",
+      "url": "https://arxiv.org/abs/2608.27406v1",
+      "date": "2026-08-27",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.27406v1",
+      "authors": "Kechen Liu, Ola Shorinwa",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "FlashVLA: Streaming Action Decoding for Fast and Asynchronous VLA Inference",
+      "summary": "Vision-Language-Action (VLA) models are increasingly promising for robotic manipulation, yet their real-world deployment remains bottlenecked by high inference latency and unstable asynchronous execution. This challenge is particularly pronounced in ...",
+      "url": "https://arxiv.org/abs/2608.27384v1",
+      "date": "2026-08-27",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.27384v1",
+      "authors": "Zekai Li, Jiaming Tang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Embodied Scene Rearrangement Planning",
+      "summary": "This paper introduces Embodied Scene Rearrangement Planning (ESRP), a novel task requiring embodied agents to rearrange furniture in 3D scenes to match a target configuration using only egocentric observations and a top-down target layout. Unlike pri...",
+      "url": "https://arxiv.org/abs/2608.27371v1",
+      "date": "2026-08-27",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.27371v1",
+      "authors": "Canzhi Chen, Zan Wang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "TADP: Task-Aware Deformable Prediction for Single-Stage 3D Object Detection",
+      "summary": "Most single-stage 3D object detectors complete different tasks with the same extracted features. Nevertheless, it is impossible to project features into a common space that is adaptive for all the tasks. We present a novel task-aware deformable predi...",
+      "url": "https://arxiv.org/abs/2608.27282v1",
+      "date": "2026-08-27",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.27282v1",
+      "authors": "Su Wang, Yaochen Li et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Marine Autonomous Vehicle Fleet Scheduling to Maximise Scientific Impact",
+      "summary": "The marine science community increasingly relies on Marine Autonomous Vehicles (MAVs) to collect the critical environmental data required to understand global ocean systems. However, as these operations scale, manually routing and planning large auto...",
+      "url": "https://arxiv.org/abs/2608.27271v1",
+      "date": "2026-08-27",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.27271v1",
+      "authors": "Mehdi El Krari, Jonathan Smith et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
     {
       "title": "[DeepMind机器人团队创业，用后训练探索 具 身 智 能 落地路径",
       "summary": "[DeepMind机器人团队创业，用后训练探索 具 身 智 能 落地路径",
@@ -92,18 +208,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "[清华系 具 身 智 能 企业获数亿元融资，机器人已在京东超市规模化落地岗｜硬氪首发",
-      "summary": "[清华系 具 身 智 能 企业获数亿元融资，机器人已在京东超市规模化落地岗｜硬氪首发",
-      "url": "http://36kr.com/p/3948044825279621",
-      "date": "2026-08-26",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
       ]
     },
     {
@@ -2912,101 +3016,6 @@
       "type": "paper",
       "arxiv_id": "2607.20289v1",
       "authors": "Md Ridwan Hossain Talukder, Roshan Dhakal et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "[从第一视角到全身操作：简智机器人构建面向 具 身 智 能 的 Human Data 底座",
-      "summary": "[从第一视角到全身操作：简智机器人构建面向 具 身 智 能 的 Human Data 底座",
-      "url": "http://36kr.com/p/3903858284086913",
-      "date": "2026-07-22",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
-      ]
-    },
-    {
-      "title": "[WAIC现场直击：优理奇机器人多场景“上岗”，展现中国 具 身 智 能 硬实力",
-      "summary": "[WAIC现场直击：优理奇机器人多场景“上岗”，展现中国 具 身 智 能 硬实力",
-      "url": "http://36kr.com/p/3903859237341058",
-      "date": "2026-07-22",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
-      ]
-    },
-    {
-      "title": "在这波AI和具身智能的融资大潮中，最早的入场券，可能比任何轮次都值钱。",
-      "summary": "在这波AI和具身智能的融资大潮中，最早的入场券，可能比任何轮次都值钱。",
-      "url": "http://36kr.com/p/3905030384879234",
-      "date": "2026-07-21",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "凭借在电机、关节模组、伺服驱动器、运动控制算法等机器人核心技术领域20多年的技术积淀，完成从最底层电机/关节模组到协作机器人整机、再到具身智能机器人相关产品的全链路深度布局。",
-      "summary": "凭借在电机、关节模组、伺服驱动器、运动控制算法等机器人核心技术领域20多年的技术积淀，完成从最底层电机/关节模组到协作机器人整机、再到具身智能机器人相关产品的全链路深度布局。",
-      "url": "http://36kr.com/p/3903593981626240",
-      "date": "2026-07-21",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "西湖机器人携西湖o1亮相2026 WAIC，推国产具身智能落地",
-      "summary": "西湖机器人携西湖o1亮相2026 WAIC，推国产具身智能落地",
-      "url": "http://36kr.com/p/3904819424413313",
-      "date": "2026-07-21",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "Masked Visual Actions for Unified World Modeling",
-      "summary": "Video models absorb rich priors over how the visual world moves, interacts, and responds to contact, making them promising substrates for robotic world modeling. The central challenge is how to communicate action to such models in a form aligned with...",
-      "url": "https://arxiv.org/abs/2607.19343v1",
-      "date": "2026-07-21",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.19343v1",
-      "authors": "Hadi Alzayer, Wenlong Huang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "From Distances to Trajectories: Real-Time Signed Distance Function Mapping and Distance-Accelerated Motion Planning for UAVs",
-      "summary": "Autonomous flight in cluttered environments requires a robot to build a geometric map of its surroundings and plan safe, dynamically feasible trajectories, all onboard and in real time. Conventional approaches treat mapping and planning as separate s...",
-      "url": "https://arxiv.org/abs/2607.19306v1",
-      "date": "2026-07-21",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.19306v1",
-      "authors": "Jason Stanley, Zhirui Dai et al.",
       "tags": [
         "机器人学习",
         "研究论文",
