@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-08-29",
-  "count": 9,
+  "count": 7,
   "items": [
     {
       "title": "WikiSkill: Compiling Agent Experience into Persistent Knowledge for Skill Evolution",
@@ -82,41 +82,6 @@
         "cs.CV"
       ],
       "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Learning a Continuous Sepsis Severity Score Without Hour-by-Hour Supervision: A Two-Site Retrospective Study",
-      "authors": "Kevin Zhu, Ryan Zhang, Baraa Abed et al.",
-      "abstract": "Currently used sepsis severity indices rely on fixed variables and weights established decades ago, which are coarsely discretized and calibrated to a cohort that no longer reflects contemporary critical care. No alternative learned directly from patient trajectories is in routine use. We conducted ...",
-      "venue": "arXiv",
-      "date": "2026-08-27",
-      "arxiv_id": "2608.27421v1",
-      "url": "https://arxiv.org/abs/2608.27421v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.27421v1.pdf",
-      "categories": [
-        "cs.AI",
-        "cs.LG"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Scaling Graph Neural Networks for Friend Recommendation: Multi-Hash User Embeddings and Temporal Neighbor Sampling",
-      "authors": "Maksim Utushkin, Andrei Ovsiannikov, Alexander D'yakonov",
-      "abstract": "Friend recommendation is inherently graph-structured: the relevance of a potential connection depends on multi-hop social context rather than user attributes alone. However, deploying message-passing GNNs on a production-scale social graph with hundreds of millions of users and tens of billions of e...",
-      "venue": "arXiv",
-      "date": "2026-08-27",
-      "arxiv_id": "2608.27413v1",
-      "url": "https://arxiv.org/abs/2608.27413v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.27413v1.pdf",
-      "categories": [
-        "cs.IR",
-        "cs.LG",
-        "cs.SI"
-      ],
-      "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     },
