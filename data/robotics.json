@@ -163,32 +163,6 @@
       ]
     },
     {
-      "title": "具身智能如何进一步完成训练、部署和复用？",
-      "summary": "具身智能如何进一步完成训练、部署和复用？",
-      "url": "http://36kr.com/p/3957651086163077",
-      "date": "2026-08-27",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "具身智能“GPT时刻”降临：宇树智元共用“大脑”，10分钟零打断，一个粗糙视频炸出行业未来",
-      "summary": "具身智能“GPT时刻”降临：宇树智元共用“大脑”，10分钟零打断，一个粗糙视频炸出行业未来",
-      "url": "http://36kr.com/p/3957274543265664",
-      "date": "2026-08-27",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
       "title": "CLAP: Cross-Embodiment Video World Models are Zero-Shot Physical Simulators",
       "summary": "State-of-the-art action-conditioned video models are typically restricted to a single robot embodiment, preventing them from leveraging the vast corpus of heterogeneous video data that contains rich signals for learning generalizable physics. To brid...",
       "url": "https://arxiv.org/abs/2608.27406v1",
@@ -266,6 +240,32 @@
         "机器人学习",
         "研究论文",
         "arXiv"
+      ]
+    },
+    {
+      "title": "具身智能如何进一步完成训练、部署和复用？",
+      "summary": "具身智能如何进一步完成训练、部署和复用？",
+      "url": "http://36kr.com/p/3957651086163077",
+      "date": "2026-08-27",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "具身智能“GPT时刻”降临：宇树智元共用“大脑”，10分钟零打断，一个粗糙视频炸出行业未来",
+      "summary": "具身智能“GPT时刻”降临：宇树智元共用“大脑”，10分钟零打断，一个粗糙视频炸出行业未来",
+      "url": "http://36kr.com/p/3957274543265664",
+      "date": "2026-08-27",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
       ]
     },
     {
