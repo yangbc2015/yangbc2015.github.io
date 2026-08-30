@@ -1,12 +1,50 @@
 {
-  "last_updated": "2026-08-29",
+  "last_updated": "2026-08-30",
   "count": 200,
   "items": [
     {
       "title": "[机器人从「量产」到「量销」，启智Openmind要补上工业 具 身 智 能 的中间层",
       "summary": "[机器人从「量产」到「量销」，启智Openmind要补上工业 具 身 智 能 的中间层",
       "url": "http://36kr.com/p/3957651086163077",
-      "date": "2026-08-29",
+      "date": "2026-08-30",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
+      "title": "这可能是「具身智能」的下一个风口赛道。",
+      "summary": "这可能是「具身智能」的下一个风口赛道。",
+      "url": "http://36kr.com/p/3958988954401925",
+      "date": "2026-08-28",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "世界模型正成为具身智能的新风口，但围绕VLA与世界模型的关系、模型架构和训练数据，机器人究竟该如何理解世界并完成任务，行业仍远未形成共识。",
+      "summary": "世界模型正成为具身智能的新风口，但围绕VLA与世界模型的关系、模型架构和训练数据，机器人究竟该如何理解世界并完成任务，行业仍远未形成共识。",
+      "url": "http://36kr.com/p/3958818940648581",
+      "date": "2026-08-28",
+      "source": "36氪",
+      "category": "机器人学习",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "安努智能押注机器人大规模商用的“最后一公里”。",
+      "summary": "安努智能押注机器人大规模商用的“最后一公里”。",
+      "url": "http://36kr.com/p/3958835091635588",
+      "date": "2026-08-28",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
@@ -2953,54 +2991,6 @@
       "type": "paper",
       "arxiv_id": "2607.21582v1",
       "authors": "Yu Qi, Zhang Ye et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Beyond Episodic Evaluation: Memory Architectural Bottlenecks in Sequential Embodied Question Answering",
-      "summary": "Embodied question answering (EQA) is traditionally evaluated under an episodic formulation, where agents solve each task independently and reset internal state between episodes. However, real-world robots operate continuously and must accumulate, ret...",
-      "url": "https://arxiv.org/abs/2607.21571v1",
-      "date": "2026-07-23",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.21571v1",
-      "authors": "Zikui Cai, Kaushal Janga et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "GS-Agent: Creating 4D Physical Worlds With Generative Simulation",
-      "summary": "Creating dynamic and physically realistic 4D worlds from natural language descriptions is both fascinating and challenging. Traditional computer graphics methods rely on manual creation, requiring extensive human effort to fine-tune materials, motion...",
-      "url": "https://arxiv.org/abs/2607.21522v1",
-      "date": "2026-07-23",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.21522v1",
-      "authors": "Hongxin Zhang, Chunru Lin et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Compact Latent Coordination for Autonomous Vehicles at Unsignalized Intersections",
-      "summary": "Coordinating autonomous vehicles at unsignalized intersections remains a critical challenge for multi-agent reinforcement learning (MARL) systems, which typically struggle with combinatorial action spaces, reliance on privileged information, or rigid...",
-      "url": "https://arxiv.org/abs/2607.21488v1",
-      "date": "2026-07-23",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.21488v1",
-      "authors": "Gil Lifshits, Igal Bilik et al.",
       "tags": [
         "机器人学习",
         "研究论文",
