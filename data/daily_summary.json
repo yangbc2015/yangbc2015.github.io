@@ -8,18 +8,6 @@
       "count": 5,
       "items": [
         {
-          "title": "Markdown Content:",
-          "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-          "summary": "Markdown Content:...",
-          "date": "2026-08-29",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
           "title": "大脑并没有记住整个世界，它只是在不断预测我们将看到什么",
           "link": "https://www.jiqizhixin.com/search/articles/大脑并没有记住整个世界，它只是",
           "summary": "大脑并没有记住整个世界，它只是在不断预测我们将看到什么...",
@@ -61,6 +49,18 @@
           "summary": "突发！OpenAI宣布断供Cursor...",
           "date": "2026-08-29",
           "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "8月26日，2026年“数据要素×”大赛浙江赛区决赛落下帷幕。",
+          "link": "https://www.qbitai.com/?s=8月26日，2026",
+          "summary": "8月26日，2026年“数据要素×”大赛浙江赛区决赛落下帷幕。...",
+          "date": "2026-08-30",
+          "source": "量子位",
           "type": "industry",
           "tags": [
             "AI",
