@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-30",
+  "last_updated": "2026-08-31",
   "count": 200,
   "items": [
     {
@@ -12,6 +12,86 @@
       "type": "news",
       "tags": [
         "机器人"
+      ]
+    },
+    {
+      "title": "LUCID: An Agentic AI Framework on Digital-Twin in the Loop for QoS-Guaranteeing Robotic Control",
+      "summary": "Cloud robotics relies on the timely uplink of high-volume sensing streams, yet dynamic environments continually shift the feasible combinations of trajectories, active-robot count, and per-robot QoS. Because existing approaches formulate trajectory p...",
+      "url": "https://arxiv.org/abs/2608.28437v1",
+      "date": "2026-08-28",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.28437v1",
+      "authors": "Hyeonsu Lyu, Minwoo Kim et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Linear Temporal Logic Translation via Human-Inspired Self-Constrained Reasoning for Robot Task Specification",
+      "summary": "Many robotic tasks are temporally extended and demand precise specifications of subgoals, constraints, and their temporal ordering. Yet human operators typically communicate such tasks in natural language, which is inherently ambiguous, underspecifie...",
+      "url": "https://arxiv.org/abs/2608.28435v1",
+      "date": "2026-08-28",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.28435v1",
+      "authors": "Haofei Hou, Fanxu Meng et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Cooperative Risk-Aware Exploration in Heterogeneous Multi-Robot Systems Using Algorithmic Altruism",
+      "summary": "Multi-robot systems are well-positioned for exploration in hazardous environments, but effective deployment requires deciding not only where robots should gather information, but also how risk should be distributed across heterogeneous team members. ...",
+      "url": "https://arxiv.org/abs/2608.28409v1",
+      "date": "2026-08-28",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.28409v1",
+      "authors": "Brooks A. Butler, Jair Certório et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "PanelShield: Verifiable Closed-Loop Safe Planning for Robotic Industrial Panel Operation",
+      "summary": "Industrial panel operation is knowledge-intensive and safety-critical. Beyond control recognition and action generation, execution must satisfy constraints in operation manuals and safety regulations. While foundation-model-based planners show strong...",
+      "url": "https://arxiv.org/abs/2608.28305v1",
+      "date": "2026-08-28",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.28305v1",
+      "authors": "Guipeng Xin, Jiahe Xu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "MaCoPlanner: LLM-Assisted Manual-Compiled Task Planning with Proactive Safety Verification for Robotic Industrial Panel Operation",
+      "summary": "Robotic industrial panel operation requires not only accurate control localization but also compliance with operating procedures, safety rules, and device-state constraints distributed across heterogeneous manuals. This study presents MaCoPlanner, a ...",
+      "url": "https://arxiv.org/abs/2608.28300v1",
+      "date": "2026-08-28",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.28300v1",
+      "authors": "Guipeng Xin, Jiahe Xua et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
       ]
     },
     {
@@ -163,6 +243,32 @@
       ]
     },
     {
+      "title": "具身智能如何进一步完成训练、部署和复用？",
+      "summary": "具身智能如何进一步完成训练、部署和复用？",
+      "url": "http://36kr.com/p/3957651086163077",
+      "date": "2026-08-27",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "具身智能“GPT时刻”降临：宇树智元共用“大脑”，10分钟零打断，一个粗糙视频炸出行业未来",
+      "summary": "具身智能“GPT时刻”降临：宇树智元共用“大脑”，10分钟零打断，一个粗糙视频炸出行业未来",
+      "url": "http://36kr.com/p/3957274543265664",
+      "date": "2026-08-27",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
       "title": "CLAP: Cross-Embodiment Video World Models are Zero-Shot Physical Simulators",
       "summary": "State-of-the-art action-conditioned video models are typically restricted to a single robot embodiment, preventing them from leveraging the vast corpus of heterogeneous video data that contains rich signals for learning generalizable physics. To brid...",
       "url": "https://arxiv.org/abs/2608.27406v1",
@@ -240,32 +346,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "具身智能如何进一步完成训练、部署和复用？",
-      "summary": "具身智能如何进一步完成训练、部署和复用？",
-      "url": "http://36kr.com/p/3957651086163077",
-      "date": "2026-08-27",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "具身智能“GPT时刻”降临：宇树智元共用“大脑”，10分钟零打断，一个粗糙视频炸出行业未来",
-      "summary": "具身智能“GPT时刻”降临：宇树智元共用“大脑”，10分钟零打断，一个粗糙视频炸出行业未来",
-      "url": "http://36kr.com/p/3957274543265664",
-      "date": "2026-08-27",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
       ]
     },
     {
@@ -2914,83 +2994,6 @@
       "type": "paper",
       "arxiv_id": "2607.22530v1",
       "authors": "Yunao Huang, Shiyu Sang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Plug, Play, and Comply: A Modular Framework for Online Variable Impedance with Arbitrarily Oriented Compliance Axes",
-      "summary": "The paper proposes a robot-agnostic compliant-control framework that extends the ROS control ecosystem with standardized joint and Cartesian command interfaces. It addresses a key limitation of existing control software: no reusable infrastructure fo...",
-      "url": "https://arxiv.org/abs/2607.22483v1",
-      "date": "2026-07-24",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.22483v1",
-      "authors": "Mihael Simonič, Xiaocong Li",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Robot Learning to Communicate through Projected Visual Abstractions",
-      "summary": "Humans routinely communicate through abstractions of their bodies, including shadows, silhouettes, and reflections. Yet robots remain largely confined to expressing themselves through their physical morphology. Enabling robots to communicate through ...",
-      "url": "https://arxiv.org/abs/2607.22434v1",
-      "date": "2026-07-24",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.22434v1",
-      "authors": "Danyang Yan, Boyuan Wang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "制造业具身智能分工落地，补充柔性作业缺口，价值显现。",
-      "summary": "制造业具身智能分工落地，补充柔性作业缺口，价值显现。",
-      "url": "http://36kr.com/p/3907973263595394",
-      "date": "2026-07-23",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "AXIS: A Growable Community-Driven Data Engine for Scalable Robot Manipulation",
-      "summary": "Learning effective robot manipulation policies requires diverse, high-quality demonstrations, yet existing data pipelines are often difficult to scale because they rely on specialized hardware, centralized operators, or fixed task suites. We present ...",
-      "url": "https://arxiv.org/abs/2607.21588v1",
-      "date": "2026-07-23",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.21588v1",
-      "authors": "Mengfei Zhao, Dihong Huang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Scale Up Strategically: Learning Compositional Generalization via Bias-Aware Evaluation and Data Collection for Robotic Manipulation",
-      "summary": "Compositional generalization is essential for robot to follow diverse instructions. However, pretrained policies are known to take shortcuts, deferring to salient cues rather than grounding language. We introduce a diagnostic framework that localizes...",
-      "url": "https://arxiv.org/abs/2607.21582v1",
-      "date": "2026-07-23",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.21582v1",
-      "authors": "Yu Qi, Zhang Ye et al.",
       "tags": [
         "机器人学习",
         "研究论文",
