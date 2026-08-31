@@ -6,12 +6,92 @@
       "title": "[机器人从「量产」到「量销」，启智Openmind要补上工业 具 身 智 能 的中间层",
       "summary": "[机器人从「量产」到「量销」，启智Openmind要补上工业 具 身 智 能 的中间层",
       "url": "http://36kr.com/p/3957651086163077",
-      "date": "2026-08-30",
+      "date": "2026-08-31",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
       "tags": [
         "机器人"
+      ]
+    },
+    {
+      "title": "Aero Hand Open: A Simulation-Ready Tendon-Driven Hand for Dexterous Manipulation Learning",
+      "summary": "Tendon-driven hands are anthropomorphic, and moving the actuators off the joints is what makes a hand of this capability affordable to build. Two effects produce that saving. Routing force through a cable removes the requirement that a motor fit insi...",
+      "url": "https://arxiv.org/abs/2608.28578v1",
+      "date": "2026-08-28",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.28578v1",
+      "authors": "Nan Wang, Mohit Yadav et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "ChainSplat: A Physics-Inspired Screw-Theoretic Model for Learning Deformable Linear Object Dynamics from Multi-View RGB Videos",
+      "summary": "Identifying the underlying dynamics and 3D geometry of deformable linear objects (DLOs), such as cables, ropes, and hoses, is essential for accurate robotic manipulation, but remains challenging due to their high-dimensional configuration spaces and ...",
+      "url": "https://arxiv.org/abs/2608.28570v1",
+      "date": "2026-08-28",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.28570v1",
+      "authors": "Seungyeon Kim, Noémie Jaquier",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "When Robots Mishear Us: Mapping the Safety Risks of Voice-Controlled Embodied AI",
+      "summary": "We investigate whether automatic speech recognition (ASR) errors in user input can lead to unsafe outputs from Embodied AI (EAI) models. We find that ASR errors can lead to harmful instructions being accepted and executed by EAI models, thereby reduc...",
+      "url": "https://arxiv.org/abs/2608.28518v1",
+      "date": "2026-08-28",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.28518v1",
+      "authors": "Sihan Jia, Oliver Lemon",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "AcrossVAM1.0: Particle World Modeling for Text-Assisted Robot Video Prediction",
+      "summary": "Predicting robot videos requires both precise motion reasoning and preservation of high-frequency appearance, yet monolithic pixel models entangle these objectives and often conceal their progress behind a strong last-frame baseline. We present Acros...",
+      "url": "https://arxiv.org/abs/2608.28491v1",
+      "date": "2026-08-28",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.28491v1",
+      "authors": "Yafei Zhang, Nan Wu",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "LUCID: An Agentic AI Framework on Digital-Twin in the Loop for QoS-Guaranteeing Robotic Control",
+      "summary": "Cloud robotics relies on the timely uplink of high-volume sensing streams, yet dynamic environments continually shift the feasible combinations of trajectories, active-robot count, and per-robot QoS. Because existing approaches formulate trajectory p...",
+      "url": "https://arxiv.org/abs/2608.28437v1",
+      "date": "2026-08-28",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.28437v1",
+      "authors": "Hyeonsu Lyu, Minwoo Kim et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
       ]
     },
     {
@@ -50,22 +130,6 @@
       "type": "news",
       "tags": [
         "机器人"
-      ]
-    },
-    {
-      "title": "LUCID: An Agentic AI Framework on Digital-Twin in the Loop for QoS-Guaranteeing Robotic Control",
-      "summary": "Cloud robotics relies on the timely uplink of high-volume sensing streams, yet dynamic environments continually shift the feasible combinations of trajectories, active-robot count, and per-robot QoS. Because existing approaches formulate trajectory p...",
-      "url": "https://arxiv.org/abs/2608.28437v1",
-      "date": "2026-08-28",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.28437v1",
-      "authors": "Hyeonsu Lyu, Minwoo Kim et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
       ]
     },
     {
@@ -2930,70 +2994,6 @@
       "type": "paper",
       "arxiv_id": "2607.24493v1",
       "authors": "Yaping Li, Zhaxizhuoma et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "τ: Learning Touch-Augmented Vision-Language-Action Models from Future Visual Supervision",
-      "summary": "Learning the informative tactile representation while effectively adapting it to pretrained Vision-Language-Action (VLA) models remains challenging at both the data and modeling levels. At the data level, limited task-specific demonstrations constrai...",
-      "url": "https://arxiv.org/abs/2607.24485v1",
-      "date": "2026-07-27",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.24485v1",
-      "authors": "Ning Cheng, Jinan Xu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Robot-Factored World Models via Robot Rendering",
-      "summary": "Action-conditioned video world models predict future observations from an initial observation and an action signal. In robotics, actions influence future observations through two distinct processes: they are first realized into robot motion by the ro...",
-      "url": "https://arxiv.org/abs/2607.22535v1",
-      "date": "2026-07-24",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.22535v1",
-      "authors": "Byungjun Kim, Taeksoo Kim et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "SM4RT: Learning Structured Motion Geometry for 4D Reconstruction",
-      "summary": "Geometry Foundation Models (GFMs) have substantially advanced monocular 3D reconstruction, yet extending this capability to 4D dynamic understanding remains a fundamental challenge. Most existing motion perception methods (e.g., sparse tracking, dens...",
-      "url": "https://arxiv.org/abs/2607.22534v1",
-      "date": "2026-07-24",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.22534v1",
-      "authors": "Shing Ho J. Lin, Wenzhao Zheng et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "ViTacWorld: Scaling Visuo-Tactile World Models for Contact-Rich Robot Manipulation",
-      "summary": "Contact-rich robot manipulation requires physical interaction cues that are often invisible to cameras, making tactile sensing essential for robust control. However, scaling visuo-tactile robot learning remains difficult because real tactile interact...",
-      "url": "https://arxiv.org/abs/2607.22530v1",
-      "date": "2026-07-24",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.22530v1",
-      "authors": "Yunao Huang, Shiyu Sang et al.",
       "tags": [
         "机器人学习",
         "研究论文",
