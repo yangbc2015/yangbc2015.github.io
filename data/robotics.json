@@ -15,6 +15,44 @@
       ]
     },
     {
+      "title": "这可能是「具身智能」的下一个风口赛道。",
+      "summary": "这可能是「具身智能」的下一个风口赛道。",
+      "url": "http://36kr.com/p/3958988954401925",
+      "date": "2026-08-28",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "世界模型正成为具身智能的新风口，但围绕VLA与世界模型的关系、模型架构和训练数据，机器人究竟该如何理解世界并完成任务，行业仍远未形成共识。",
+      "summary": "世界模型正成为具身智能的新风口，但围绕VLA与世界模型的关系、模型架构和训练数据，机器人究竟该如何理解世界并完成任务，行业仍远未形成共识。",
+      "url": "http://36kr.com/p/3958818940648581",
+      "date": "2026-08-28",
+      "source": "36氪",
+      "category": "机器人学习",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "安努智能押注机器人大规模商用的“最后一公里”。",
+      "summary": "安努智能押注机器人大规模商用的“最后一公里”。",
+      "url": "http://36kr.com/p/3958835091635588",
+      "date": "2026-08-28",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
       "title": "LUCID: An Agentic AI Framework on Digital-Twin in the Loop for QoS-Guaranteeing Robotic Control",
       "summary": "Cloud robotics relies on the timely uplink of high-volume sensing streams, yet dynamic environments continually shift the feasible combinations of trajectories, active-robot count, and per-robot QoS. Because existing approaches formulate trajectory p...",
       "url": "https://arxiv.org/abs/2608.28437v1",
@@ -92,44 +130,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "这可能是「具身智能」的下一个风口赛道。",
-      "summary": "这可能是「具身智能」的下一个风口赛道。",
-      "url": "http://36kr.com/p/3958988954401925",
-      "date": "2026-08-28",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "世界模型正成为具身智能的新风口，但围绕VLA与世界模型的关系、模型架构和训练数据，机器人究竟该如何理解世界并完成任务，行业仍远未形成共识。",
-      "summary": "世界模型正成为具身智能的新风口，但围绕VLA与世界模型的关系、模型架构和训练数据，机器人究竟该如何理解世界并完成任务，行业仍远未形成共识。",
-      "url": "http://36kr.com/p/3958818940648581",
-      "date": "2026-08-28",
-      "source": "36氪",
-      "category": "机器人学习",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "安努智能押注机器人大规模商用的“最后一公里”。",
-      "summary": "安努智能押注机器人大规模商用的“最后一公里”。",
-      "url": "http://36kr.com/p/3958835091635588",
-      "date": "2026-08-28",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
       ]
     },
     {
