@@ -15,6 +15,86 @@
       ]
     },
     {
+      "title": "SUN: Persistent Programs For Language-Grounded Control-to-Learning-to-Real Policies",
+      "summary": "Bridging model-based control and learned policies in long-horizon manipulation has harbored a silent disagreement: control executes specified objectives, learning amortizes that behavior into a reactive policy, yet existing protocols discard task sem...",
+      "url": "https://arxiv.org/abs/2608.31167v1",
+      "date": "2026-08-31",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.31167v1",
+      "authors": "Weiqi Wang, Zhi Li et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Driving on Memory",
+      "summary": "End-to-end autonomous driving models plan future trajectories from raw sensor input. While earlier driving benchmarks often measured deviation from the human trajectory, current benchmarks such as NAVSIM and Bench2Drive evaluate models with richer si...",
+      "url": "https://arxiv.org/abs/2608.31029v1",
+      "date": "2026-08-31",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.31029v1",
+      "authors": "Christian Löwens, Thorben Funke et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "DARP: A Calibrated Dual-Arm RGB-D-IR Dataset for Multi-View Robotic Perception",
+      "summary": "Robotic perception from a single viewpoint is often limited by self-occlusion and incomplete surface visibility. This paper presents DARP(Dual-Arm Robotic Perception) a calibrated dual-arm RGB-D-IR dataset for obje...",
+      "url": "https://arxiv.org/abs/2608.31002v1",
+      "date": "2026-08-31",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.31002v1",
+      "authors": "Manish Kansana, Mohammed Yusuf Mujawar et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Autonomously Acquiring Robot Manipulation Skills with Language-Driven Quality-Diversity",
+      "summary": "Quality-diversity (QD) algorithms have been gaining traction in robot learning, where diverse motion primitive libraries allow robots to adapt zero-shot to constraints at deployment time. However, such methods typically require expert designers to wr...",
+      "url": "https://arxiv.org/abs/2608.30983v1",
+      "date": "2026-08-31",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.30983v1",
+      "authors": "Émiland Garrabé, Mahdi Khoramshahi et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "LightNav-0: Eliciting VLM Spatial Intelligence for Generalist Embodied Navigation",
+      "summary": "Embodied navigation requires agents to translate heterogeneous goals and visual observations into actions across tasks, environments, and robot embodiments. Modern vision-language models (VLMs) already encode spatial priors for visual grounding, spat...",
+      "url": "https://arxiv.org/abs/2608.30935v1",
+      "date": "2026-08-31",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.30935v1",
+      "authors": "Shaoan Wang, Aocheng Luo et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
       "title": "Temporal Forcing: 4D Representation Alignment for Vision-Language-Action Models",
       "summary": "Recent vision-language-action (VLA) methods improve manipulation performance by aligning their representations with 3D scene geometry. However, these methods often struggle with long-horizon manipulation and observation aliasing between visually simi...",
       "url": "https://arxiv.org/abs/2608.30643v1",
@@ -2924,83 +3004,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "$π\\mathbf{R}^2$: Reactive Real-time Flow Policies",
-      "summary": "Generalist manipulation policies increasingly take the form of action-chunking flow policies built on large pretrained backbones. Such chunks run open-loop, so the policy cannot react to sensory input arriving mid-execution, sacrificing \\emph{reactiv...",
-      "url": "https://arxiv.org/abs/2607.26055v1",
-      "date": "2026-07-28",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.26055v1",
-      "authors": "Sungjae Park, Shubham Tulsiani",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "S2A2: Audio-Visual Imitation Learning for Manipulation Tasks Using Acoustic Spatial Information",
-      "summary": "Acoustic information provides rich cues about object location, material properties, and changes caused by contact or motion. This paper introduces a new set of acoustic-aware manipulation tasks for imitation learning, in which robots must use auditor...",
-      "url": "https://arxiv.org/abs/2607.26047v1",
-      "date": "2026-07-28",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.26047v1",
-      "authors": "Kaneyoshi Hiratsuka, Benjamin Yen et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Pictura: Perspective-View Self-Play at Scale for Driving",
-      "summary": "Self-play in simulation produces robust driving policies at scale. Demonstrations of such behavior have been made using privileged vectorized observations such as exact poses and velocities, even for occluded agents. This assumes that perception is s...",
-      "url": "https://arxiv.org/abs/2607.26005v1",
-      "date": "2026-07-28",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.26005v1",
-      "authors": "Yuan Yin, Elias Ramzi et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Untangling Co-Drift: Proactive Multi-Intent Failure Prediction and Root-Cause Disambiguation for Self-Driving Networks",
-      "summary": "The vision of self-driving networks that monitor, reason, and act upon themselves with minimal human intervention relies on tightly coupled monitoring, analytics, and actuation functions. In this work, we treat these functions as three operational ma...",
-      "url": "https://arxiv.org/abs/2607.25989v1",
-      "date": "2026-07-28",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.25989v1",
-      "authors": "Md. Kamrul Hossain, Walid Aljoby",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "2026年7月人形机器人标委会会议在浙江绍兴召开",
-      "summary": "2026年7月人形机器人标委会会议在浙江绍兴召开",
-      "url": "http://36kr.com/p/3913754106516865",
-      "date": "2026-07-27",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "人形机器人"
       ]
     }
   ]

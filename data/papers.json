@@ -3,48 +3,49 @@
   "count": 9,
   "items": [
     {
-      "title": "Fine-Grained Multi Image Object Hallucination Benchmark",
-      "authors": "Joonki Min, Chaeyun Kim, Hyungwook Choi et al.",
-      "abstract": "Multimodal Large Language Models (MLLMs) are increasingly deployed in multi-image scenarios requiring complex reasoning across visual contexts. However, current MLLMs remain fundamentally limited by object hallucination-generating plausible yet factually inconsistent descriptions about objects. Exis...",
+      "title": "SUN: Persistent Programs For Language-Grounded Control-to-Learning-to-Real Policies",
+      "authors": "Weiqi Wang, Zhi Li, Yudong Lei et al.",
+      "abstract": "Bridging model-based control and learned policies in long-horizon manipulation has harbored a silent disagreement: control executes specified objectives, learning amortizes that behavior into a reactive policy, yet existing protocols discard task semantics, leaving rewards hand-crafted and behavior ...",
       "venue": "arXiv",
       "date": "2026-08-31",
-      "arxiv_id": "2608.30653v1",
-      "url": "https://arxiv.org/abs/2608.30653v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.30653v1.pdf",
+      "arxiv_id": "2608.31167v1",
+      "url": "https://arxiv.org/abs/2608.31167v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.31167v1.pdf",
       "categories": [
-        "cs.CV",
-        "cs.AI",
-        "cs.LG"
+        "cs.RO",
+        "cs.AI"
       ],
-      "type": "benchmark",
+      "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "PyKEEN-NSX: A Modular Framework for Static, Dynamic and Schema-Aware Negative Sampling in PyKEEN",
-      "authors": "Ivan Diliso, Nicola Fanizzi, Claudia d'Amato",
-      "abstract": "Embedding methods have become popular due to their scalability on link prediction and/or triple classification tasks on Knowledge Graphs (KGs). Embedding models are trained relying on both positive and negative samples of triples. However, since KGs generally contain only positive assertions, negati...",
+      "title": "Auditing Anonymous AI Models: A Four-Stage Protocol for Black-Box Identity Verification",
+      "authors": "Yisen Xi",
+      "abstract": "The 2025--2026 AI market has seen a wave of stealth releases: frontier models launched anonymously on developer platforms under codenames. For their users, identity determines data-handling terms, supply-chain risk, and capability expectations. No validated methodology exists for black-box identity ...",
       "venue": "arXiv",
       "date": "2026-08-31",
-      "arxiv_id": "2608.30652v1",
-      "url": "https://arxiv.org/abs/2608.30652v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.30652v1.pdf",
+      "arxiv_id": "2608.31142v1",
+      "url": "https://arxiv.org/abs/2608.31142v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.31142v1.pdf",
       "categories": [
-        "cs.AI"
+        "cs.SE",
+        "cs.AI",
+        "cs.CR"
       ],
       "type": "ai",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "MURANO: Design, Run, and Reproduce Mechanistic Interpretability Experiments as Composable Pipelines",
-      "authors": "Alireza Bayat Makou, Emirhan Böge, Phu Gia Hoang et al.",
-      "abstract": "This paper presents Murano, an open source framework for designing, running, and reproducing mechanistic interpretability studies of large language models, intended for researchers across disciplines. These studies often combine loading, recording, attribution, intervention, and evaluation, while ex...",
+      "title": "Context-Aware Interleaved Batching for WhisperX",
+      "authors": "Carlos Bain, Max Bain",
+      "abstract": "While WhisperX accelerates speech transcription via intra-audio batching, it isolates audio segments, losing the historical context needed for coherent punctuation and terminology transcription. Conversely, standard Whisper retains context sequentially but suffers from slow inference and hallucinati...",
       "venue": "arXiv",
       "date": "2026-08-31",
-      "arxiv_id": "2608.30662v1",
-      "url": "https://arxiv.org/abs/2608.30662v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.30662v1.pdf",
+      "arxiv_id": "2608.31170v1",
+      "url": "https://arxiv.org/abs/2608.31170v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.31170v1.pdf",
       "categories": [
         "cs.CL"
       ],
@@ -53,46 +54,31 @@
       "source": "arXiv"
     },
     {
-      "title": "SwarmBench: Can Large Language Models Act as Agent Swarm Orchestrators?",
-      "authors": "Jinshan Gao, Zhuoran Jin, Tianyi Men et al.",
-      "abstract": "Large language model-based multi-agent systems are evolving from fixed interaction topologies toward dynamically orchestrated Agent Swarms. However, existing benchmarks are still largely based on single-agent or general-purpose agent tasks, making it difficult to systematically evaluate key orchestr...",
+      "title": "Configurable Semantic Chunking for Biomedical Information Extraction in Retrieval-Augmented Generation",
+      "authors": "Riya Ahuja, Tim Kacprowski, Roya Shiasi Sardoabi",
+      "abstract": "BioMedRAG introduced retrieval-augmented generation with a learned chunk scorer for biomedical information extraction. However, it relies on fixed-size chunking which can fragment semantic evidence. We propose a configurable semantic chunking framework that addresses this limitation by combining ent...",
       "venue": "arXiv",
       "date": "2026-08-31",
-      "arxiv_id": "2608.30661v1",
-      "url": "https://arxiv.org/abs/2608.30661v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.30661v1.pdf",
+      "arxiv_id": "2608.31139v1",
+      "url": "https://arxiv.org/abs/2608.31139v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.31139v1.pdf",
       "categories": [
-        "cs.CL"
+        "cs.CL",
+        "cs.IR"
       ],
       "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "InfraOcc: An Infrastructure Occupancy Benchmark with Static-to-Dynamic Reasoning",
-      "authors": "Lei Yang, Xiaokai Bai, Boqi Li et al.",
-      "abstract": "Fixed-viewpoint infrastructure sensors repeatedly observe the same traffic space, making roadside 3D occupancy structurally different from ego-vehicle perception: a near-persistent static scaffold is overlaid with sparse, short-lived dynamic events. Existing occupancy benchmarks and methods, however...",
+      "title": "BRF-GS: Hyperspectral Bidirectional Reflectance Factor Modeling and Image Generation Based on 3D Gaussian Splatting",
+      "authors": "Yiling Yao, Wenjuan Zhang, Bowen Wang et al.",
+      "abstract": "The bidirectional reflectance factor (BRF) characterizes the directional radiative properties of terrestrial surfaces. However, existing three-dimensional (3D) radiative transfer models require complex scene construction and computationally intensive radiative transfer solvers, limiting efficient ge...",
       "venue": "arXiv",
       "date": "2026-08-31",
-      "arxiv_id": "2608.30657v1",
-      "url": "https://arxiv.org/abs/2608.30657v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.30657v1.pdf",
-      "categories": [
-        "cs.CV"
-      ],
-      "type": "benchmark",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "APT: Anchor-aligned Perturbations for Tamper Localization in Fully Regenerated Images",
-      "authors": "Suhyeon Ha, Woo Jae Kim, Joonsung Jeon et al.",
-      "abstract": "Proactive tamper localization embeds an imperceptible signal into an image prior to distribution, enabling pixel-level manipulation detection. Existing methods assume a spliced (SP) setting, where synthesized regions are composited onto the original background, leaving embedded signals intact. Howev...",
-      "venue": "arXiv",
-      "date": "2026-08-31",
-      "arxiv_id": "2608.30656v1",
-      "url": "https://arxiv.org/abs/2608.30656v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.30656v1.pdf",
+      "arxiv_id": "2608.31159v1",
+      "url": "https://arxiv.org/abs/2608.31159v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.31159v1.pdf",
       "categories": [
         "cs.CV"
       ],
@@ -101,50 +87,70 @@
       "source": "arXiv"
     },
     {
-      "title": "Season-Aware Hybrid Convolutional-Transformer for Antarctic Sea Ice Concentration Forecasting",
-      "authors": "Danyang Li, John Taylor, Thang Bui et al.",
-      "abstract": "Antarctic sea ice concentration (SIC) forecasting is an important yet challenging task due to the coexistence of complex spatial structure, long-range temporal dependencies, and strong seasonal variability. Conventional convolution-based models are effective at capturing local spatial patterns, but ...",
+      "title": "BLARM: Animating 3D Objects from Video via Blending Latent Rigid Motion Primitives",
+      "authors": "Pradyumn Goyal, Yizhak Ben-Shabat, Hsueh-Ti Derek Liu et al.",
+      "abstract": "We introduce BLARM, a feed-forward method for video-driven 3D mesh animation. Given a monocular video and a static object mesh, BLARM predicts a temporally coherent animated mesh whose motion follows the video. Rather than relying on explicit rigs or directly regressing high-dimensional vertex motio...",
       "venue": "arXiv",
       "date": "2026-08-31",
-      "arxiv_id": "2608.30654v1",
-      "url": "https://arxiv.org/abs/2608.30654v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.30654v1.pdf",
+      "arxiv_id": "2608.31113v1",
+      "url": "https://arxiv.org/abs/2608.31113v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.31113v1.pdf",
       "categories": [
-        "cs.LG"
+        "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Constant Individual Regret in General Games",
+      "authors": "Mingyang Liu, Gabriele Farina, Asuman Ozdaglar",
+      "abstract": "Uncoupled no-regret dynamics provide a decentralized route to equilibrium, but prior guarantees for individual regret retain a polylogarithmic dependence on the horizon. We remove this dependence for every finite $N$-player normal-form game under full-information feedback. We introduce \\emph{ECHO-OF...",
+      "venue": "arXiv",
+      "date": "2026-08-31",
+      "arxiv_id": "2608.31166v1",
+      "url": "https://arxiv.org/abs/2608.31166v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.31166v1.pdf",
+      "categories": [
+        "cs.LG",
+        "cs.GT"
       ],
       "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Temporal Forcing: 4D Representation Alignment for Vision-Language-Action Models",
-      "authors": "Xingyu Ding, Yuzhong Zhao, Chunhai Zhao et al.",
-      "abstract": "Recent vision-language-action (VLA) methods improve manipulation performance by aligning their representations with 3D scene geometry. However, these methods often struggle with long-horizon manipulation and observation aliasing between visually similar states due to a lack of temporal information: ...",
+      "title": "Sharp Approximation Rates for Neural Networks with Affine Latent Parameterizations",
+      "authors": "Shijun Zhang",
+      "abstract": "Many parameter-efficient methods generate the parameters of a large neural network from a low-dimensional latent representation. Given an architecture $Φ$ with $P_Φ$ parameter slots, we write $\\boldsymbolθ_f=\\mathcal{G}(\\boldsymbolξ_f)$, where $\\mathcal{G}\\colon\\mathbb{R}^M\\to\\mathbb{R}^{P_Φ}$ is a ...",
       "venue": "arXiv",
       "date": "2026-08-31",
-      "arxiv_id": "2608.30643v1",
-      "url": "https://arxiv.org/abs/2608.30643v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.30643v1.pdf",
+      "arxiv_id": "2608.31157v1",
+      "url": "https://arxiv.org/abs/2608.31157v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.31157v1.pdf",
       "categories": [
-        "cs.RO"
+        "cs.LG",
+        "stat.ML"
       ],
-      "type": "nlp",
+      "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Behavior-Skill: A Fine-Grained Benchmark for Evaluating Vision-Language-Action Policies in Long-Horizon Tasks",
-      "authors": "Chunyun Ma, Lun Luo, Xingjian Luo et al.",
-      "abstract": "Reliable execution of long-horizon mobile manipulation tasks remains challenging because overall task success depends on the successful completion of multiple constituent skills. Existing benchmarks, however, still rely primarily on full-task rollouts and aggregate task-level metrics, making interme...",
+      "title": "Driving on Memory",
+      "authors": "Christian Löwens, Thorben Funke, Alexandru Paul Condurache",
+      "abstract": "End-to-end autonomous driving models plan future trajectories from raw sensor input. While earlier driving benchmarks often measured deviation from the human trajectory, current benchmarks such as NAVSIM and Bench2Drive evaluate models with richer simulation-based metrics intended to capture safe an...",
       "venue": "arXiv",
       "date": "2026-08-31",
-      "arxiv_id": "2608.30536v1",
-      "url": "https://arxiv.org/abs/2608.30536v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.30536v1.pdf",
+      "arxiv_id": "2608.31029v1",
+      "url": "https://arxiv.org/abs/2608.31029v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.31029v1.pdf",
       "categories": [
+        "cs.CV",
+        "cs.LG",
         "cs.RO"
       ],
-      "type": "benchmark",
+      "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     }
