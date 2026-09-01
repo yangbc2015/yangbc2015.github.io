@@ -1,23 +1,11 @@
 {
-  "last_updated": "2026-09-01T15:56:41.978505+00:00",
+  "last_updated": "2026-09-01T20:24:32.531353+00:00",
   "source": "Artificial Analysis",
   "source_url": "https://artificialanalysis.ai/leaderboards/models",
   "description": "综合AI模型性能排行榜，基于智能指数、价格、输出速度、上下文窗口等多维度指标对模型进行评测。",
   "models": [
     {
-      "rank": 3,
-      "model": "Claude Opus 5",
-      "organization": "Anthropic",
-      "intelligence_index": 0,
-      "price_per_1m_tokens": 0,
-      "speed_tokens_per_sec": 0,
-      "context_window": 0,
-      "trend": "same",
-      "is_open_weights": false,
-      "icon": "⚡"
-    },
-    {
-      "rank": 4,
+      "rank": 5,
       "model": "Claude Opus 5",
       "organization": "Anthropic",
       "intelligence_index": 0,
@@ -41,7 +29,7 @@
       "icon": "⚡"
     },
     {
-      "rank": 14,
+      "rank": 9,
       "model": "Claude Opus 5",
       "organization": "Anthropic",
       "intelligence_index": 0,
@@ -53,7 +41,19 @@
       "icon": "⚡"
     },
     {
-      "rank": 15,
+      "rank": 18,
+      "model": "Claude Opus 5",
+      "organization": "Anthropic",
+      "intelligence_index": 0,
+      "price_per_1m_tokens": 0,
+      "speed_tokens_per_sec": 0,
+      "context_window": 0,
+      "trend": "same",
+      "is_open_weights": false,
+      "icon": "⚡"
+    },
+    {
+      "rank": 20,
       "model": "Qwen3.8 Max",
       "organization": "Alibaba",
       "intelligence_index": 0,
