@@ -5,6 +5,14 @@
   "models": [
     {
       "rank": 1,
+      "model": "mercury-2.5-preview",
+      "organization": "inception",
+      "price_prompt": "0.00000004",
+      "price_completion": "0.00000015",
+      "context_length": 260000
+    },
+    {
+      "rank": 2,
       "model": "granite-4.2-8b",
       "organization": "ibm-granite",
       "price_prompt": "0.0000001",
@@ -12,7 +20,7 @@
       "context_length": 131072
     },
     {
-      "rank": 2,
+      "rank": 3,
       "model": "hy4-preview",
       "organization": "tencent",
       "price_prompt": "0.000000834",
@@ -20,7 +28,7 @@
       "context_length": 1048576
     },
     {
-      "rank": 3,
+      "rank": 4,
       "model": "ling-3.0-flash-fin:free",
       "organization": "inclusionai",
       "price_prompt": "0",
@@ -28,7 +36,7 @@
       "context_length": 262144
     },
     {
-      "rank": 4,
+      "rank": 5,
       "model": "qwen3.8-flash",
       "organization": "qwen",
       "price_prompt": "0.00000015",
@@ -36,7 +44,7 @@
       "context_length": 1000000
     },
     {
-      "rank": 5,
+      "rank": 6,
       "model": "glm-5.3-flash",
       "organization": "z-ai",
       "price_prompt": "0.000000075",
@@ -44,7 +52,7 @@
       "context_length": 1310720
     },
     {
-      "rank": 6,
+      "rank": 7,
       "model": "glm-5.3-flash:batch",
       "organization": "z-ai",
       "price_prompt": "0.00000015",
@@ -52,7 +60,7 @@
       "context_length": 1048575
     },
     {
-      "rank": 7,
+      "rank": 8,
       "model": "muse-spark-1.2-contributor",
       "organization": "meta",
       "price_prompt": "0.0000001",
@@ -60,7 +68,7 @@
       "context_length": 1048576
     },
     {
-      "rank": 8,
+      "rank": 9,
       "model": "deepseek-v4-flash-vision-exp",
       "organization": "deepseek",
       "price_prompt": "0.00000022",
@@ -68,7 +76,7 @@
       "context_length": 1048576
     },
     {
-      "rank": 9,
+      "rank": 10,
       "model": "hy-mt2-1.8b",
       "organization": "tencent",
       "price_prompt": "0.000000044",
@@ -76,7 +84,7 @@
       "context_length": 8192
     },
     {
-      "rank": 10,
+      "rank": 11,
       "model": "hy-mt2-30b-a3b",
       "organization": "tencent",
       "price_prompt": "0.000000074",
@@ -84,7 +92,7 @@
       "context_length": 8192
     },
     {
-      "rank": 11,
+      "rank": 12,
       "model": "glm-latest",
       "organization": "~z-ai",
       "price_prompt": "0.00000117",
@@ -92,7 +100,7 @@
       "context_length": 1310720
     },
     {
-      "rank": 12,
+      "rank": 13,
       "model": "hy-mt2-7b",
       "organization": "tencent",
       "price_prompt": "0.000000074",
@@ -100,7 +108,7 @@
       "context_length": 8192
     },
     {
-      "rank": 13,
+      "rank": 14,
       "model": "glm-5.3",
       "organization": "z-ai",
       "price_prompt": "0.0000014",
@@ -108,20 +116,12 @@
       "context_length": 1310720
     },
     {
-      "rank": 14,
+      "rank": 15,
       "model": "qwen3.8-27b",
       "organization": "qwen",
       "price_prompt": "0.000000425",
       "price_completion": "0.00000255",
       "context_length": 1000000
-    },
-    {
-      "rank": 15,
-      "model": "dots-3-note-preview:free",
-      "organization": "dots-studio",
-      "price_prompt": "0",
-      "price_completion": "0",
-      "context_length": 512000
     }
   ]
 }
