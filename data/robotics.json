@@ -1,12 +1,130 @@
 {
-  "last_updated": "2026-08-31",
+  "last_updated": "2026-09-01",
   "count": 200,
   "items": [
     {
       "title": "[机器人从「量产」到「量销」，启智Openmind要补上工业 具 身 智 能 的中间层",
       "summary": "[机器人从「量产」到「量销」，启智Openmind要补上工业 具 身 智 能 的中间层",
       "url": "http://36kr.com/p/3957651086163077",
+      "date": "2026-09-01",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
+      "title": "Temporal Forcing: 4D Representation Alignment for Vision-Language-Action Models",
+      "summary": "Recent vision-language-action (VLA) methods improve manipulation performance by aligning their representations with 3D scene geometry. However, these methods often struggle with long-horizon manipulation and observation aliasing between visually simi...",
+      "url": "https://arxiv.org/abs/2608.30643v1",
       "date": "2026-08-31",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.30643v1",
+      "authors": "Xingyu Ding, Yuzhong Zhao et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Behavior-Skill: A Fine-Grained Benchmark for Evaluating Vision-Language-Action Policies in Long-Horizon Tasks",
+      "summary": "Reliable execution of long-horizon mobile manipulation tasks remains challenging because overall task success depends on the successful completion of multiple constituent skills. Existing benchmarks, however, still rely primarily on full-task rollout...",
+      "url": "https://arxiv.org/abs/2608.30536v1",
+      "date": "2026-08-31",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.30536v1",
+      "authors": "Chunyun Ma, Lun Luo et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Anomaly Detection on Small Industrial Components via Vision-Based Tactile Sensing",
+      "summary": "Automated inspection of small industrial components, including sub-centimetre-scale parts where defects are geometry-driven and poorly resolved by standard optical cameras, calls for sensing modalities that can directly capture fine surface geometry....",
+      "url": "https://arxiv.org/abs/2608.30506v1",
+      "date": "2026-08-31",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.30506v1",
+      "authors": "G. F. Preziosa, M. Casiglia et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "HorizonNet for visual terrain navigation",
+      "summary": "This paper investigates the problem of position estimation of unmanned surface vessels (USVs) operating in coastal areas or in the archipelago. We propose a position estimation method where the horizon line is extracted in a 360 degree panoramic imag...",
+      "url": "https://arxiv.org/abs/2608.30471v1",
+      "date": "2026-08-31",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.30471v1",
+      "authors": "Bertil Grelsson, Andreas Robinson et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "A Hybrid PEM-GP Framework for Uncertainty-Aware System Identification of Quadcopters",
+      "summary": "Accurate dynamic models play a central role in achieving reliable control of quadcopters. Classical system identification methods remain widely used, mainly because of their interpretability. However, they often fail to capture important nonlinear ef...",
+      "url": "https://arxiv.org/abs/2608.30433v1",
+      "date": "2026-08-31",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2608.30433v1",
+      "authors": "Abdallah Ghoul, Ismail Khalil Bousserhane et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "这可能是「具身智能」的下一个风口赛道。",
+      "summary": "这可能是「具身智能」的下一个风口赛道。",
+      "url": "http://36kr.com/p/3958988954401925",
+      "date": "2026-08-28",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "世界模型正成为具身智能的新风口，但围绕VLA与世界模型的关系、模型架构和训练数据，机器人究竟该如何理解世界并完成任务，行业仍远未形成共识。",
+      "summary": "世界模型正成为具身智能的新风口，但围绕VLA与世界模型的关系、模型架构和训练数据，机器人究竟该如何理解世界并完成任务，行业仍远未形成共识。",
+      "url": "http://36kr.com/p/3958818940648581",
+      "date": "2026-08-28",
+      "source": "36氪",
+      "category": "机器人学习",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "安努智能押注机器人大规模商用的“最后一公里”。",
+      "summary": "安努智能押注机器人大规模商用的“最后一公里”。",
+      "url": "http://36kr.com/p/3958835091635588",
+      "date": "2026-08-28",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
@@ -92,44 +210,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "这可能是「具身智能」的下一个风口赛道。",
-      "summary": "这可能是「具身智能」的下一个风口赛道。",
-      "url": "http://36kr.com/p/3958988954401925",
-      "date": "2026-08-28",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "世界模型正成为具身智能的新风口，但围绕VLA与世界模型的关系、模型架构和训练数据，机器人究竟该如何理解世界并完成任务，行业仍远未形成共识。",
-      "summary": "世界模型正成为具身智能的新风口，但围绕VLA与世界模型的关系、模型架构和训练数据，机器人究竟该如何理解世界并完成任务，行业仍远未形成共识。",
-      "url": "http://36kr.com/p/3958818940648581",
-      "date": "2026-08-28",
-      "source": "36氪",
-      "category": "机器人学习",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "安努智能押注机器人大规模商用的“最后一公里”。",
-      "summary": "安努智能押注机器人大规模商用的“最后一公里”。",
-      "url": "http://36kr.com/p/3958835091635588",
-      "date": "2026-08-28",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
       ]
     },
     {
@@ -2921,83 +3001,6 @@
       "tags": [
         "机器人",
         "人形机器人"
-      ]
-    },
-    {
-      "title": "2026具身智能50人夏季峰会7月29-30日北京举办",
-      "summary": "2026具身智能50人夏季峰会7月29-30日北京举办",
-      "url": "http://36kr.com/p/3913258529396098",
-      "date": "2026-07-27",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "Data Pyramid for Embodied Manipulation",
-      "summary": "Multimodal foundation models learned to see and to speak by consuming the whole internet. Embodied agents admit no such shortcut, since they require data that couple observations with physical states and actions. These signals can be provided, to var...",
-      "url": "https://arxiv.org/abs/2607.24744v1",
-      "date": "2026-07-27",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.24744v1",
-      "authors": "Yifan Ye, Yankai Fu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Development of a Handheld Actuation Mechanism for a Tendon-driven Robotically Steered Guidewire",
-      "summary": "An endovascular intervention begins with a skilled clinician manually navigating a long, slender wire, called a guidewire, to the target location within the vasculature. Due to factors, such as vessel tortuosity and lack of steerability at the guidew...",
-      "url": "https://arxiv.org/abs/2607.24629v1",
-      "date": "2026-07-27",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.24629v1",
-      "authors": "Saima Chavenet, Timothy A. Brumfiel et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "NEO: NeRF It Once, Edit It Many Times for Continuous Object Manipulation",
-      "summary": "In this paper, we present NEO, a unified framework providing language-guided NeRF editing for robotic manipulation. Our paper introduces (i) a language-guided object removal that combines neural field resampling with multiview-consistent progressive ...",
-      "url": "https://arxiv.org/abs/2607.24538v1",
-      "date": "2026-07-27",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.24538v1",
-      "authors": "Mikołaj Zieliński, David Hall et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "KAI: A Kinematic-Aware Interface for Data-Efficient Articulated Object Manipulation",
-      "summary": "Articulated object manipulation requires an understanding of kinematic structure that is difficult and costly to learn from robot demonstrations alone. We introduce the Kinematic-Aware Articulation Interface (KAI), a structured intermediate represent...",
-      "url": "https://arxiv.org/abs/2607.24493v1",
-      "date": "2026-07-27",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.24493v1",
-      "authors": "Yaping Li, Zhaxizhuoma et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
       ]
     }
   ]
