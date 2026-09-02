@@ -1,68 +1,19 @@
 {
   "last_updated": "2026-09-02",
-  "count": 9,
+  "count": 7,
   "items": [
     {
-      "title": "StainPresetNet: Stain Preset Network for Fast Multi-to-Multi Stain Normalization",
-      "authors": "Hongtao Kang, Die Luo, Li Chen et al.",
-      "abstract": "Stain normalization reduces color variations caused by variations in staining protocols and imaging conditions, thereby enhancing computer-aided diagnostic system performance. Traditional methods derive mapping relationships from individual or limited reference images through pixel-wise transformati...",
+      "title": "Efficient SWE Agent Benchmarking via Trajectory-Aware Evaluation",
+      "authors": "Kefeng Duan, Dewu Zheng, Yanlin Wang et al.",
+      "abstract": "Evaluating software engineering agents on realistic benchmarks is costly, since each task may require multi-step code exploration, modification, and test execution. Existing efficient evaluation methods select representative subsets to estimate full-benchmark performance, but are largely result-only...",
       "venue": "arXiv",
       "date": "2026-09-01",
-      "arxiv_id": "2609.01146v1",
-      "url": "https://arxiv.org/abs/2609.01146v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.01146v1.pdf",
+      "arxiv_id": "2609.01603v1",
+      "url": "https://arxiv.org/abs/2609.01603v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.01603v1.pdf",
       "categories": [
-        "cs.CV",
-        "cs.AI"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Revisiting Face Recognition for Monozygotic Twins: The Celeb Twins Test Set",
-      "authors": "Michael Zang, Haiyu Wu, Mrinal Sharma et al.",
-      "abstract": "Past literature on face recognition for monozygotic ((\"identical\") twins points to facial marks and mirror asymmetry as possible directions for improved accuracy of twins recognition. The Celeb Twins Test Set (CTTS) contains web-scraped image pairs for 80 sets of celebrity twins. It is the only twin...",
-      "venue": "arXiv",
-      "date": "2026-09-01",
-      "arxiv_id": "2609.01141v1",
-      "url": "https://arxiv.org/abs/2609.01141v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.01141v1.pdf",
-      "categories": [
-        "cs.CV",
-        "cs.AI"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "On the Design Fundamentals of Pixel Text Representation Learning",
-      "authors": "Chaohao Yuan, Ruifeng Yuan, Zhuoxu Huang et al.",
-      "abstract": "Text-rich visual inputs require models that can read, retrieve, and compress language directly in pixel space, yet existing pixel-text encoders struggle with fixed resolution pretraining, visual shortcut learning, weak visual grounding, and multilingual visual text understanding. In this work, we in...",
-      "venue": "arXiv",
-      "date": "2026-09-01",
-      "arxiv_id": "2609.01147v1",
-      "url": "https://arxiv.org/abs/2609.01147v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.01147v1.pdf",
-      "categories": [
-        "cs.CV",
-        "cs.CL"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Does task decomposition improve automatic NLG evaluation?",
-      "authors": "Sebastian Steindl, Nikos Voskarides, Alberto Gasparin et al.",
-      "abstract": "The LLM-as-a-judge (LLMaJ) framework has emerged as a promising solution for cheap, reproducible, reference-free Natural Language Generation (NLG) evaluation. Prior work seeks to improve LLMaJ by decomposing evaluation tasks into simpler sub-tasks. In this work, we systematically compare LLMaJ metho...",
-      "venue": "arXiv",
-      "date": "2026-09-01",
-      "arxiv_id": "2609.01139v1",
-      "url": "https://arxiv.org/abs/2609.01139v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.01139v1.pdf",
-      "categories": [
+        "cs.SE",
+        "cs.AI",
         "cs.CL"
       ],
       "type": "benchmark",
@@ -70,14 +21,49 @@
       "source": "arXiv"
     },
     {
-      "title": "Dotting the Eye: An Intent-Driven Image Retouching Agent for Visual Focus Enhancement",
-      "authors": "Chujie Qin, Zilong Zhang, Zewei Chang et al.",
-      "abstract": "Image retouching is commonly formulated as enhancing overall visual quality through color adjustment, but in practice, it also serves to emphasize visual focus by guiding viewers' attention toward a specific subject or region. Achieving such focus-oriented retouching is inherently challenging, as it...",
+      "title": "Adaptive Critical Token-Aware Retrieval for Repository-Level Code Generation",
+      "authors": "Kefeng Duan, Dewu Zheng, Yanlin Wang et al.",
+      "abstract": "The repository-level code generation task requires synthesizing code that satisfies task requirements while remaining consistent with the target repository context. Since real-world repositories often exceed the input length limits of LLMs, existing approaches commonly adopt retrieval-augmented gene...",
       "venue": "arXiv",
       "date": "2026-09-01",
-      "arxiv_id": "2609.01148v1",
-      "url": "https://arxiv.org/abs/2609.01148v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.01148v1.pdf",
+      "arxiv_id": "2609.01601v1",
+      "url": "https://arxiv.org/abs/2609.01601v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.01601v1.pdf",
+      "categories": [
+        "cs.SE",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Beyond Scores: Understanding LLM-as-a-Judge Mechanisms in Summarization Evaluation",
+      "authors": "Himil Vasava, Ming Jiang",
+      "abstract": "LLM-based evaluators of natural language generation (NLG) quality are widely deployed as scoring tools and as automated training signals, yet the internal procedure by which they assign a rating remains poorly understood. We investigate this procedure mechanistically through an eight-attack perturba...",
+      "venue": "arXiv",
+      "date": "2026-09-01",
+      "arxiv_id": "2609.01604v1",
+      "url": "https://arxiv.org/abs/2609.01604v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.01604v1.pdf",
+      "categories": [
+        "cs.CL",
+        "cs.LG"
+      ],
+      "type": "benchmark",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Uncovering Understanding-Generation Synergy in Native Unified Multimodal Models: From Representation, Task to System",
+      "authors": "Penghao Wu, Haiwen Diao, Weichen Fan et al.",
+      "abstract": "While unified multimodal models (UMMs) jointly perform visual understanding and generation within a single model, functional unification does not guarantee learning synergy: the two objectives may reinforce each other, compete for capacity, or merely coexist. We investigate their relationship at the...",
+      "venue": "arXiv",
+      "date": "2026-09-01",
+      "arxiv_id": "2609.01607v1",
+      "url": "https://arxiv.org/abs/2609.01607v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.01607v1.pdf",
       "categories": [
         "cs.CV"
       ],
@@ -86,15 +72,32 @@
       "source": "arXiv"
     },
     {
-      "title": "Scaled Idempotence in Transformer Attention: Paired OV Geometry and Shared-Value Algebras",
-      "authors": "Jiming Feng, Junliang Li",
-      "abstract": "We identify a recurrent algebraic regularity in Transformer attention: a sparse subset of effective OV operators $T=OV^\\top$ nearly closes under composition, $T^2\\approxαT$. Across six pretrained endpoints spanning 2.8B--235B parameters, 3.98--8.00% of heads reach squared closure alignment $\\mathcal...",
+      "title": "UI-VISA: U-Net Initialized Vascular Image Segmentation Architecture",
+      "authors": "Asees Kaur, Suzanne S. Sindi, Erica M. Rutter",
+      "abstract": "Accurate segmentation of vascular structures in digital subtraction angiography (DSA) images remains challenging due to the thin, elongated, and branching nature of blood vessels. Pixel-wise deep learning approaches such as U-Net achieve strong general-purpose segmentation performance but often prod...",
       "venue": "arXiv",
       "date": "2026-09-01",
-      "arxiv_id": "2609.01129v1",
-      "url": "https://arxiv.org/abs/2609.01129v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.01129v1.pdf",
+      "arxiv_id": "2609.01598v1",
+      "url": "https://arxiv.org/abs/2609.01598v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.01598v1.pdf",
       "categories": [
+        "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Facet-0: A Robotic Foundation Model for Contact-Rich Precise Manipulation",
+      "authors": "Haoyuan Deng, Haichao Liu, Wenkai Guo et al.",
+      "abstract": "Real-world robotic assembly at sub-millimeter tolerances demands spatial precision, compliant interaction, and robustness to contact failures. We present Facet-0, a robotic foundation model that predicts and values the contact consequences of its actions. Facet-0 unifies multimodal representation le...",
+      "venue": "arXiv",
+      "date": "2026-09-01",
+      "arxiv_id": "2609.01596v1",
+      "url": "https://arxiv.org/abs/2609.01596v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.01596v1.pdf",
+      "categories": [
+        "cs.RO",
         "cs.LG"
       ],
       "type": "ml",
@@ -102,47 +105,14 @@
       "source": "arXiv"
     },
     {
-      "title": "When Does Online Adaptation Pay on the Edge? A Leakage-Free Evaluation of Warmup, Learning-Rate Selection, and Resource Trade-offs for Time-Series Forecasting",
-      "authors": "Takumi Fujimoto, Hiroaki Nishi",
-      "abstract": "Online adaptation can help edge time-series forecasting under distribution drift, but its measured benefit is sensitive to evaluation choices. We study six public multivariate streams, including building-sensor and smart-meter data, under a leakage-free streaming protocol. We identify two additional...",
+      "title": "SG-AMP: Scene-Graph-Guided Active Perception and Semantics-Aware Motion Planning for Pepper Plants",
+      "authors": "Rohit Menon, Shiva Rudra Lolla, Niklas Mueller-Goldingen et al.",
+      "abstract": "We present SG-AMP, integrating robust depth completion with input-conditioned uncertainty, persistent panoptic mapping, plant scene-graph reasoning, and semantics-aware active view-motion planning. Beyond inspecting uncertain observed regions, the scene graph explicitly hypothesizes unobserved peppe...",
       "venue": "arXiv",
       "date": "2026-09-01",
-      "arxiv_id": "2609.01126v1",
-      "url": "https://arxiv.org/abs/2609.01126v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.01126v1.pdf",
-      "categories": [
-        "cs.LG"
-      ],
-      "type": "benchmark",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "DNC-IMM: Early Lane-Change Intention Recognition via Neural Calibration Based on Driving Context Information",
-      "authors": "Woong-Chan Byun, Seung-Hyun Kong",
-      "abstract": "Early recognition of lane-change intention is essential for proactive decision-making in autonomous driving and advanced driver assistance systems. This paper proposes a Dual Neural-Calibrated Interacting Multiple Model (DNC-IMM) that improves adaptability to driving context while preserving the pro...",
-      "venue": "arXiv",
-      "date": "2026-09-01",
-      "arxiv_id": "2609.01120v1",
-      "url": "https://arxiv.org/abs/2609.01120v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.01120v1.pdf",
-      "categories": [
-        "cs.RO",
-        "cs.AI"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Adaptive Depth-Map-Guided Bundle Adjustment for Correspondence-Free Multi-View Point Cloud Registration",
-      "authors": "Yiran Zhou, Yingyu Wang, Shoudong Huang et al.",
-      "abstract": "Robotic processing of irregular steel scrap requires dense 3-D measurement to replace manual visual assessment in hazardous cutting workcells. The reconstructed map is used to estimate piece dimensions, boundary geometry, feasible preheating and cutting regions, and collision-aware torch paths. The ...",
-      "venue": "arXiv",
-      "date": "2026-09-01",
-      "arxiv_id": "2609.01089v1",
-      "url": "https://arxiv.org/abs/2609.01089v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.01089v1.pdf",
+      "arxiv_id": "2609.01579v1",
+      "url": "https://arxiv.org/abs/2609.01579v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.01579v1.pdf",
       "categories": [
         "cs.RO"
       ],
