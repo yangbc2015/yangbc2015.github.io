@@ -1,16 +1,131 @@
 {
-  "last_updated": "2026-09-01",
+  "last_updated": "2026-09-02",
   "count": 9,
   "items": [
     {
-      "title": "SUN: Persistent Programs For Language-Grounded Control-to-Learning-to-Real Policies",
-      "authors": "Weiqi Wang, Zhi Li, Yudong Lei et al.",
-      "abstract": "Bridging model-based control and learned policies in long-horizon manipulation has harbored a silent disagreement: control executes specified objectives, learning amortizes that behavior into a reactive policy, yet existing protocols discard task semantics, leaving rewards hand-crafted and behavior ...",
+      "title": "StainPresetNet: Stain Preset Network for Fast Multi-to-Multi Stain Normalization",
+      "authors": "Hongtao Kang, Die Luo, Li Chen et al.",
+      "abstract": "Stain normalization reduces color variations caused by variations in staining protocols and imaging conditions, thereby enhancing computer-aided diagnostic system performance. Traditional methods derive mapping relationships from individual or limited reference images through pixel-wise transformati...",
       "venue": "arXiv",
-      "date": "2026-08-31",
-      "arxiv_id": "2608.31167v1",
-      "url": "https://arxiv.org/abs/2608.31167v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.31167v1.pdf",
+      "date": "2026-09-01",
+      "arxiv_id": "2609.01146v1",
+      "url": "https://arxiv.org/abs/2609.01146v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.01146v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Revisiting Face Recognition for Monozygotic Twins: The Celeb Twins Test Set",
+      "authors": "Michael Zang, Haiyu Wu, Mrinal Sharma et al.",
+      "abstract": "Past literature on face recognition for monozygotic ((\"identical\") twins points to facial marks and mirror asymmetry as possible directions for improved accuracy of twins recognition. The Celeb Twins Test Set (CTTS) contains web-scraped image pairs for 80 sets of celebrity twins. It is the only twin...",
+      "venue": "arXiv",
+      "date": "2026-09-01",
+      "arxiv_id": "2609.01141v1",
+      "url": "https://arxiv.org/abs/2609.01141v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.01141v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "On the Design Fundamentals of Pixel Text Representation Learning",
+      "authors": "Chaohao Yuan, Ruifeng Yuan, Zhuoxu Huang et al.",
+      "abstract": "Text-rich visual inputs require models that can read, retrieve, and compress language directly in pixel space, yet existing pixel-text encoders struggle with fixed resolution pretraining, visual shortcut learning, weak visual grounding, and multilingual visual text understanding. In this work, we in...",
+      "venue": "arXiv",
+      "date": "2026-09-01",
+      "arxiv_id": "2609.01147v1",
+      "url": "https://arxiv.org/abs/2609.01147v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.01147v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.CL"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Does task decomposition improve automatic NLG evaluation?",
+      "authors": "Sebastian Steindl, Nikos Voskarides, Alberto Gasparin et al.",
+      "abstract": "The LLM-as-a-judge (LLMaJ) framework has emerged as a promising solution for cheap, reproducible, reference-free Natural Language Generation (NLG) evaluation. Prior work seeks to improve LLMaJ by decomposing evaluation tasks into simpler sub-tasks. In this work, we systematically compare LLMaJ metho...",
+      "venue": "arXiv",
+      "date": "2026-09-01",
+      "arxiv_id": "2609.01139v1",
+      "url": "https://arxiv.org/abs/2609.01139v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.01139v1.pdf",
+      "categories": [
+        "cs.CL"
+      ],
+      "type": "benchmark",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Dotting the Eye: An Intent-Driven Image Retouching Agent for Visual Focus Enhancement",
+      "authors": "Chujie Qin, Zilong Zhang, Zewei Chang et al.",
+      "abstract": "Image retouching is commonly formulated as enhancing overall visual quality through color adjustment, but in practice, it also serves to emphasize visual focus by guiding viewers' attention toward a specific subject or region. Achieving such focus-oriented retouching is inherently challenging, as it...",
+      "venue": "arXiv",
+      "date": "2026-09-01",
+      "arxiv_id": "2609.01148v1",
+      "url": "https://arxiv.org/abs/2609.01148v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.01148v1.pdf",
+      "categories": [
+        "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Scaled Idempotence in Transformer Attention: Paired OV Geometry and Shared-Value Algebras",
+      "authors": "Jiming Feng, Junliang Li",
+      "abstract": "We identify a recurrent algebraic regularity in Transformer attention: a sparse subset of effective OV operators $T=OV^\\top$ nearly closes under composition, $T^2\\approxαT$. Across six pretrained endpoints spanning 2.8B--235B parameters, 3.98--8.00% of heads reach squared closure alignment $\\mathcal...",
+      "venue": "arXiv",
+      "date": "2026-09-01",
+      "arxiv_id": "2609.01129v1",
+      "url": "https://arxiv.org/abs/2609.01129v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.01129v1.pdf",
+      "categories": [
+        "cs.LG"
+      ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "When Does Online Adaptation Pay on the Edge? A Leakage-Free Evaluation of Warmup, Learning-Rate Selection, and Resource Trade-offs for Time-Series Forecasting",
+      "authors": "Takumi Fujimoto, Hiroaki Nishi",
+      "abstract": "Online adaptation can help edge time-series forecasting under distribution drift, but its measured benefit is sensitive to evaluation choices. We study six public multivariate streams, including building-sensor and smart-meter data, under a leakage-free streaming protocol. We identify two additional...",
+      "venue": "arXiv",
+      "date": "2026-09-01",
+      "arxiv_id": "2609.01126v1",
+      "url": "https://arxiv.org/abs/2609.01126v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.01126v1.pdf",
+      "categories": [
+        "cs.LG"
+      ],
+      "type": "benchmark",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "DNC-IMM: Early Lane-Change Intention Recognition via Neural Calibration Based on Driving Context Information",
+      "authors": "Woong-Chan Byun, Seung-Hyun Kong",
+      "abstract": "Early recognition of lane-change intention is essential for proactive decision-making in autonomous driving and advanced driver assistance systems. This paper proposes a Dual Neural-Calibrated Interacting Multiple Model (DNC-IMM) that improves adaptability to driving context while preserving the pro...",
+      "venue": "arXiv",
+      "date": "2026-09-01",
+      "arxiv_id": "2609.01120v1",
+      "url": "https://arxiv.org/abs/2609.01120v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.01120v1.pdf",
       "categories": [
         "cs.RO",
         "cs.AI"
@@ -20,137 +135,18 @@
       "source": "arXiv"
     },
     {
-      "title": "Auditing Anonymous AI Models: A Four-Stage Protocol for Black-Box Identity Verification",
-      "authors": "Yisen Xi",
-      "abstract": "The 2025--2026 AI market has seen a wave of stealth releases: frontier models launched anonymously on developer platforms under codenames. For their users, identity determines data-handling terms, supply-chain risk, and capability expectations. No validated methodology exists for black-box identity ...",
+      "title": "Adaptive Depth-Map-Guided Bundle Adjustment for Correspondence-Free Multi-View Point Cloud Registration",
+      "authors": "Yiran Zhou, Yingyu Wang, Shoudong Huang et al.",
+      "abstract": "Robotic processing of irregular steel scrap requires dense 3-D measurement to replace manual visual assessment in hazardous cutting workcells. The reconstructed map is used to estimate piece dimensions, boundary geometry, feasible preheating and cutting regions, and collision-aware torch paths. The ...",
       "venue": "arXiv",
-      "date": "2026-08-31",
-      "arxiv_id": "2608.31142v1",
-      "url": "https://arxiv.org/abs/2608.31142v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.31142v1.pdf",
+      "date": "2026-09-01",
+      "arxiv_id": "2609.01089v1",
+      "url": "https://arxiv.org/abs/2609.01089v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.01089v1.pdf",
       "categories": [
-        "cs.SE",
-        "cs.AI",
-        "cs.CR"
-      ],
-      "type": "ai",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Context-Aware Interleaved Batching for WhisperX",
-      "authors": "Carlos Bain, Max Bain",
-      "abstract": "While WhisperX accelerates speech transcription via intra-audio batching, it isolates audio segments, losing the historical context needed for coherent punctuation and terminology transcription. Conversely, standard Whisper retains context sequentially but suffers from slow inference and hallucinati...",
-      "venue": "arXiv",
-      "date": "2026-08-31",
-      "arxiv_id": "2608.31170v1",
-      "url": "https://arxiv.org/abs/2608.31170v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.31170v1.pdf",
-      "categories": [
-        "cs.CL"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Configurable Semantic Chunking for Biomedical Information Extraction in Retrieval-Augmented Generation",
-      "authors": "Riya Ahuja, Tim Kacprowski, Roya Shiasi Sardoabi",
-      "abstract": "BioMedRAG introduced retrieval-augmented generation with a learned chunk scorer for biomedical information extraction. However, it relies on fixed-size chunking which can fragment semantic evidence. We propose a configurable semantic chunking framework that addresses this limitation by combining ent...",
-      "venue": "arXiv",
-      "date": "2026-08-31",
-      "arxiv_id": "2608.31139v1",
-      "url": "https://arxiv.org/abs/2608.31139v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.31139v1.pdf",
-      "categories": [
-        "cs.CL",
-        "cs.IR"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "BRF-GS: Hyperspectral Bidirectional Reflectance Factor Modeling and Image Generation Based on 3D Gaussian Splatting",
-      "authors": "Yiling Yao, Wenjuan Zhang, Bowen Wang et al.",
-      "abstract": "The bidirectional reflectance factor (BRF) characterizes the directional radiative properties of terrestrial surfaces. However, existing three-dimensional (3D) radiative transfer models require complex scene construction and computationally intensive radiative transfer solvers, limiting efficient ge...",
-      "venue": "arXiv",
-      "date": "2026-08-31",
-      "arxiv_id": "2608.31159v1",
-      "url": "https://arxiv.org/abs/2608.31159v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.31159v1.pdf",
-      "categories": [
-        "cs.CV"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "BLARM: Animating 3D Objects from Video via Blending Latent Rigid Motion Primitives",
-      "authors": "Pradyumn Goyal, Yizhak Ben-Shabat, Hsueh-Ti Derek Liu et al.",
-      "abstract": "We introduce BLARM, a feed-forward method for video-driven 3D mesh animation. Given a monocular video and a static object mesh, BLARM predicts a temporally coherent animated mesh whose motion follows the video. Rather than relying on explicit rigs or directly regressing high-dimensional vertex motio...",
-      "venue": "arXiv",
-      "date": "2026-08-31",
-      "arxiv_id": "2608.31113v1",
-      "url": "https://arxiv.org/abs/2608.31113v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.31113v1.pdf",
-      "categories": [
-        "cs.CV"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Constant Individual Regret in General Games",
-      "authors": "Mingyang Liu, Gabriele Farina, Asuman Ozdaglar",
-      "abstract": "Uncoupled no-regret dynamics provide a decentralized route to equilibrium, but prior guarantees for individual regret retain a polylogarithmic dependence on the horizon. We remove this dependence for every finite $N$-player normal-form game under full-information feedback. We introduce \\emph{ECHO-OF...",
-      "venue": "arXiv",
-      "date": "2026-08-31",
-      "arxiv_id": "2608.31166v1",
-      "url": "https://arxiv.org/abs/2608.31166v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.31166v1.pdf",
-      "categories": [
-        "cs.LG",
-        "cs.GT"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Sharp Approximation Rates for Neural Networks with Affine Latent Parameterizations",
-      "authors": "Shijun Zhang",
-      "abstract": "Many parameter-efficient methods generate the parameters of a large neural network from a low-dimensional latent representation. Given an architecture $Φ$ with $P_Φ$ parameter slots, we write $\\boldsymbolθ_f=\\mathcal{G}(\\boldsymbolξ_f)$, where $\\mathcal{G}\\colon\\mathbb{R}^M\\to\\mathbb{R}^{P_Φ}$ is a ...",
-      "venue": "arXiv",
-      "date": "2026-08-31",
-      "arxiv_id": "2608.31157v1",
-      "url": "https://arxiv.org/abs/2608.31157v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.31157v1.pdf",
-      "categories": [
-        "cs.LG",
-        "stat.ML"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Driving on Memory",
-      "authors": "Christian Löwens, Thorben Funke, Alexandru Paul Condurache",
-      "abstract": "End-to-end autonomous driving models plan future trajectories from raw sensor input. While earlier driving benchmarks often measured deviation from the human trajectory, current benchmarks such as NAVSIM and Bench2Drive evaluate models with richer simulation-based metrics intended to capture safe an...",
-      "venue": "arXiv",
-      "date": "2026-08-31",
-      "arxiv_id": "2608.31029v1",
-      "url": "https://arxiv.org/abs/2608.31029v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.31029v1.pdf",
-      "categories": [
-        "cs.CV",
-        "cs.LG",
         "cs.RO"
       ],
-      "type": "vision",
+      "type": "ai",
       "badge": "arxiv",
       "source": "arXiv"
     }

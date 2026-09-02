@@ -1,7 +1,87 @@
 {
-  "last_updated": "2026-09-01",
+  "last_updated": "2026-09-02",
   "count": 200,
   "items": [
+    {
+      "title": "DNC-IMM: Early Lane-Change Intention Recognition via Neural Calibration Based on Driving Context Information",
+      "summary": "Early recognition of lane-change intention is essential for proactive decision-making in autonomous driving and advanced driver assistance systems. This paper proposes a Dual Neural-Calibrated Interacting Multiple Model (DNC-IMM) that improves adapta...",
+      "url": "https://arxiv.org/abs/2609.01120v1",
+      "date": "2026-09-01",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.01120v1",
+      "authors": "Woong-Chan Byun, Seung-Hyun Kong",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Adaptive Depth-Map-Guided Bundle Adjustment for Correspondence-Free Multi-View Point Cloud Registration",
+      "summary": "Robotic processing of irregular steel scrap requires dense 3-D measurement to replace manual visual assessment in hazardous cutting workcells. The reconstructed map is used to estimate piece dimensions, boundary geometry, feasible preheating and cutt...",
+      "url": "https://arxiv.org/abs/2609.01089v1",
+      "date": "2026-09-01",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.01089v1",
+      "authors": "Yiran Zhou, Yingyu Wang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Accelerating Reinforcement Learning via MPC Solver-Gradient Guidance for Weights-varying MPC",
+      "summary": "In Model Predictive Control (MPC), cost-function weights shape closed-loop behavior, yet changing conditions often make fixed parametrizations suboptimal and motivate context-dependent online adaptation. Learning such policies is difficult because be...",
+      "url": "https://arxiv.org/abs/2609.01061v1",
+      "date": "2026-09-01",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.01061v1",
+      "authors": "Baha Zarrouki, Arslan Thobani et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "HitMem: Hierarchical Temporal 3D Memory with Multi-Modal Context-Aware Retrieval for Dynamic Environments",
+      "summary": "Executing long-term tasks in dynamic environments requires embodied agents to maintain robust and adaptive 3D scene representations. However, most existing 3D memory frameworks rely on static world assumptions. When objects are displaced by human act...",
+      "url": "https://arxiv.org/abs/2609.00950v1",
+      "date": "2026-09-01",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.00950v1",
+      "authors": "Ruijie Tang, Chenye Zou et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "ProxPI: Proximal Prior Injection for Sampling-Based MPC under Learned-Prior Mismatch",
+      "summary": "Combining learned policies with model predictive control can leverage learned task priors while retaining online adaptation to new objectives and constraints, but performance degrades when the policy is out of distribution. In policy-guided model pre...",
+      "url": "https://arxiv.org/abs/2609.00941v1",
+      "date": "2026-09-01",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.00941v1",
+      "authors": "Euncheol Im, Myotaeg Lim et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
     {
       "title": "[机器人从「量产」到「量销」，启智Openmind要补上工业 具 身 智 能 的中间层",
       "summary": "[机器人从「量产」到「量销」，启智Openmind要补上工业 具 身 智 能 的中间层",
@@ -2920,86 +3000,6 @@
       "type": "paper",
       "arxiv_id": "2607.27205v1",
       "authors": "Hengyi Xie, Chenfei Yao et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "VidMap: Exploiting Temporal Structure for Video-Based Structure-from-Motion",
-      "summary": "Accurately recovering the camera's calibration and metric poses for any unconstrained video would unlock large-scale training data for navigation and scene understanding. The dominant approaches to this problem are severely limited: Simultaneous Loca...",
-      "url": "https://arxiv.org/abs/2607.27194v1",
-      "date": "2026-07-29",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.27194v1",
-      "authors": "Zador Pataki, Paul-Edouard Sarlin et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "HumanCLAW: Can Vision-Language Models Act Through a Body?",
-      "summary": "Evaluating whether a vision-language model (VLM) can act through a physical body is challenging. The outcome of an action couples the VLM's decision with motor control. When a task fails, it is hard to tell whether the VLM made a bad choice or the mo...",
-      "url": "https://arxiv.org/abs/2607.27180v1",
-      "date": "2026-07-29",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.27180v1",
-      "authors": "Siyao Li, Jiawei Gu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "DLAM: Distributional Latent Actions with Temporal Constraints",
-      "summary": "Vision-language-action (VLA) models remain constrained by scarce action-labeled robot data, whereas action-free videos offer abundant observations of physical change. Latent action models can extract such priors, but reconstruction-trained codes may ...",
-      "url": "https://arxiv.org/abs/2607.27138v1",
-      "date": "2026-07-29",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.27138v1",
-      "authors": "Zuojin Tang, Feifan Luo et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Controlled Experiments on Lane Changing by Transitional Autonomous Vehicle: Dataset and Behavioral Insights",
-      "summary": "This paper presents the North Carolina Transitional Autonomous Vehicle Lane-Changing (NC-tALC) dataset and uses it to characterize mandatory lane-changing behavior of transitional automated vehicles (tAVs). It quantifies the evolution of lead--lag ga...",
-      "url": "https://arxiv.org/abs/2607.27085v1",
-      "date": "2026-07-29",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.27085v1",
-      "authors": "Abhinav Sharma, Md Abdullah Al Hasan et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "INTACT: Isomorphic Intent-to-Action Learning for Search-Free World Models",
-      "summary": "Forward latent world models predict how actions change a scene, but recover actions for a desired change only through expensive test-time search. We introduce INTACT (INtent-To-ACTion), an end-to-end JEPA that turns action-labeled, reward-free trajec...",
-      "url": "https://arxiv.org/abs/2607.26056v1",
-      "date": "2026-07-28",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.26056v1",
-      "authors": "Junhan Sun, Hao Zhao et al.",
       "tags": [
         "机器人学习",
         "研究论文",
