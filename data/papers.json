@@ -1,41 +1,7 @@
 {
   "last_updated": "2026-09-03",
-  "count": 5,
+  "count": 4,
   "items": [
-    {
-      "title": "Scalable Direction-Following TTS via Voice Impression-Guided Pseudo Triplet Construction",
-      "authors": "Kenichi Fujita, Yusuke Ijima",
-      "abstract": "Voice actors often re-read the same script while modifying their delivery in response to performance directions. We study this setting as direction-following TTS, where a system generates a new utterance that reflects a given direction relative to a reference utterance while preserving speaker ident...",
-      "venue": "arXiv",
-      "date": "2026-09-02",
-      "arxiv_id": "2609.02623v1",
-      "url": "https://arxiv.org/abs/2609.02623v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.02623v1.pdf",
-      "categories": [
-        "cs.SD",
-        "cs.CL",
-        "cs.LG"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Predictors of Loneliness in Older Adults Using Multimodal Analysis of Speech and Language",
-      "authors": "Vinmay Khandode, Sai Karthik Kosuri, Neil K. R. Sehgal et al.",
-      "abstract": "Loneliness is a critical public health issue among older adults, linked to higher risks of depression, cognitive decline, and mortality. Scalable, objective methods for its detection remain limited, particularly in natural conversational contexts. We analyzed speech and language markers of lonelines...",
-      "venue": "arXiv",
-      "date": "2026-09-02",
-      "arxiv_id": "2609.02606v1",
-      "url": "https://arxiv.org/abs/2609.02606v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.02606v1.pdf",
-      "categories": [
-        "cs.CL"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
     {
       "title": "AffectDelta: Beyond Emotion Labels for Image Editing",
       "authors": "Xingzu Zhan, Lin Gu, Ruogu Fang",
@@ -65,6 +31,24 @@
         "cs.CV"
       ],
       "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Scalable Direction-Following TTS via Voice Impression-Guided Pseudo Triplet Construction",
+      "authors": "Kenichi Fujita, Yusuke Ijima",
+      "abstract": "Voice actors often re-read the same script while modifying their delivery in response to performance directions. We study this setting as direction-following TTS, where a system generates a new utterance that reflects a given direction relative to a reference utterance while preserving speaker ident...",
+      "venue": "arXiv",
+      "date": "2026-09-02",
+      "arxiv_id": "2609.02623v1",
+      "url": "https://arxiv.org/abs/2609.02623v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.02623v1.pdf",
+      "categories": [
+        "cs.SD",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
