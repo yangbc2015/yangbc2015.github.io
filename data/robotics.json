@@ -1,7 +1,87 @@
 {
-  "last_updated": "2026-09-02",
+  "last_updated": "2026-09-03",
   "count": 200,
   "items": [
+    {
+      "title": "Advancing Accessible Underwater Robotics: The Mini-Girona I-AUV at RAMI 2025",
+      "summary": "The Mini-Girona Intervention Autonomous Underwater Vehicle (I-AUV) represents an advancement in accessible underwater robotics, designed to bridge the gap between costly, specialized research AUVs and basic Remotely Operated Vehicles (ROVs). Develope...",
+      "url": "https://arxiv.org/abs/2609.02605v1",
+      "date": "2026-09-02",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.02605v1",
+      "authors": "Taqi Hamoda, Bilal Ahmed et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Pre-Lane-change Signal in Transitional Autonomous Vehicles: Results from Controlled Experiments",
+      "summary": "This paper investigates how a production transitional autonomous vehicle (tAV) develops and executes mandatory lane-change decisions. Using 150 controlled mandatory lane changes from the NC-tALC experiments, the study examines whether the eventual ta...",
+      "url": "https://arxiv.org/abs/2609.02575v1",
+      "date": "2026-09-02",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.02575v1",
+      "authors": "Zeyu Mu, Danjue Chen et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "ZETA: A Controlled Study of Zero-Shot Cross-Embodiment VLA Transfer for Tabletop Manipulation",
+      "summary": "Zero-shot generalization to unseen embodiments is important for generalizable vision-language-action (VLA) models as robot hardware evolves and task-specific data collection remains costly. However, a systematic understanding of this problem remains ...",
+      "url": "https://arxiv.org/abs/2609.02546v1",
+      "date": "2026-09-02",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.02546v1",
+      "authors": "Mi Yan, Wenhao Zhang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "World-Model-Augmented Visual Locomotion for Humanoids on Foothold-Constrained Terrain",
+      "summary": "Foothold-constrained terrain is characterized by sparse, discontinuous, or geometrically restricted feasible foot contacts, as encountered on stepping stones, across gaps, and on narrow stair treads. On such terrain, a single misstep often leaves lit...",
+      "url": "https://arxiv.org/abs/2609.02542v1",
+      "date": "2026-09-02",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.02542v1",
+      "authors": "Yuxi Liu, Lijun Han et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Spatially Aware World Action Model via Geometric Latent Diffusion",
+      "summary": "World Action Models (WAMs) leverage the capabilities of large-scale pretrained video diffusion models to jointly predict future observations and actions, inheriting rich visual and physical priors from internet-scale video. This has made them a promi...",
+      "url": "https://arxiv.org/abs/2609.02531v1",
+      "date": "2026-09-02",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.02531v1",
+      "authors": "Javier Alejandro Lopetegui Gonzalez, Paul Pacaud et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
     {
       "title": "[机器人从「量产」到「量销」，启智Openmind要补上工业 具 身 智 能 的中间层",
       "summary": "[机器人从「量产」到「量销」，启智Openmind要补上工业 具 身 智 能 的中间层",
@@ -12,6 +92,19 @@
       "type": "news",
       "tags": [
         "机器人"
+      ]
+    },
+    {
+      "title": "梅卡曼德登陆港交所，成港股具身智能眼脑手第一股",
+      "summary": "梅卡曼德登陆港交所，成港股具身智能眼脑手第一股",
+      "url": "http://36kr.com/p/3964347992612356",
+      "date": "2026-09-01",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
       ]
     },
     {
@@ -2914,92 +3007,6 @@
       "type": "paper",
       "arxiv_id": "2607.29625v1",
       "authors": "Hyunjong Song, William Z. Peng et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "RayViT: Ray-Conditioned Visual Representations for Viewpoint-Robust Imitation Learning",
-      "summary": "Visual imitation learning enables robots to acquire visuomotor skills directly from images, yet RGB observations lack explicit geometric cues, making learned policies brittle to camera perturbations. To address this, we propose \\textbf{Ray-conditione...",
-      "url": "https://arxiv.org/abs/2607.29622v1",
-      "date": "2026-07-31",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.29622v1",
-      "authors": "Qian Wang, Longrui Chen et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "WCM: A World Critic Model for Vision-Language-Action Reinforcement Learning",
-      "summary": "Reinforcement learning (RL) post-training of Vision-Language-Action (VLA) models has shown strong promise for robotic manipulation. Among RL methods, critic-based approaches rely on a value estimator that predominantly operates on single-frame observ...",
-      "url": "https://arxiv.org/abs/2607.29613v1",
-      "date": "2026-07-31",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.29613v1",
-      "authors": "Senyu Fei, Xiaopeng Yu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "[亮相WAIC2026：从核心部件到场景方案，华沿机器人秀出“具 身 智 能”硬实力",
-      "summary": "[亮相WAIC2026：从核心部件到场景方案，华沿机器人秀出“具 身 智 能”硬实力",
-      "url": "http://36kr.com/p/3903593981626240",
-      "date": "2026-07-31",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
-      ]
-    },
-    {
-      "title": "砍掉低毛率业务，押注具身智能。",
-      "summary": "砍掉低毛率业务，押注具身智能。",
-      "url": "http://36kr.com/p/3918034895957637",
-      "date": "2026-07-30",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "工业具身智能产业发展及落地路径分析",
-      "summary": "工业具身智能产业发展及落地路径分析",
-      "url": "http://36kr.com/p/3917382643330691",
-      "date": "2026-07-30",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "PAC-MAN: Perception-Aware CBF-RL for Whole-Body Safety in Humanoid Dodgeball",
-      "summary": "We present PAC-MAN, a perception-aware CBF-RL framework that couples control-barrier safety with deployment-realistic onboard sensing for whole-body humanoid dodgeball. The deployed policy sees the ball only as segmentation-masked depth from a head-m...",
-      "url": "https://arxiv.org/abs/2607.28623v1",
-      "date": "2026-07-30",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.28623v1",
-      "authors": "Lizhi Yang, Junheng Li et al.",
       "tags": [
         "机器人学习",
         "研究论文",

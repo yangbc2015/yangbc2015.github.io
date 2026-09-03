@@ -1,37 +1,35 @@
 {
-  "last_updated": "2026-09-02",
-  "count": 7,
+  "last_updated": "2026-09-03",
+  "count": 5,
   "items": [
     {
-      "title": "Efficient SWE Agent Benchmarking via Trajectory-Aware Evaluation",
-      "authors": "Kefeng Duan, Dewu Zheng, Yanlin Wang et al.",
-      "abstract": "Evaluating software engineering agents on realistic benchmarks is costly, since each task may require multi-step code exploration, modification, and test execution. Existing efficient evaluation methods select representative subsets to estimate full-benchmark performance, but are largely result-only...",
+      "title": "Scalable Direction-Following TTS via Voice Impression-Guided Pseudo Triplet Construction",
+      "authors": "Kenichi Fujita, Yusuke Ijima",
+      "abstract": "Voice actors often re-read the same script while modifying their delivery in response to performance directions. We study this setting as direction-following TTS, where a system generates a new utterance that reflects a given direction relative to a reference utterance while preserving speaker ident...",
       "venue": "arXiv",
-      "date": "2026-09-01",
-      "arxiv_id": "2609.01603v1",
-      "url": "https://arxiv.org/abs/2609.01603v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.01603v1.pdf",
+      "date": "2026-09-02",
+      "arxiv_id": "2609.02623v1",
+      "url": "https://arxiv.org/abs/2609.02623v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.02623v1.pdf",
       "categories": [
-        "cs.SE",
-        "cs.AI",
-        "cs.CL"
+        "cs.SD",
+        "cs.CL",
+        "cs.LG"
       ],
-      "type": "benchmark",
+      "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Adaptive Critical Token-Aware Retrieval for Repository-Level Code Generation",
-      "authors": "Kefeng Duan, Dewu Zheng, Yanlin Wang et al.",
-      "abstract": "The repository-level code generation task requires synthesizing code that satisfies task requirements while remaining consistent with the target repository context. Since real-world repositories often exceed the input length limits of LLMs, existing approaches commonly adopt retrieval-augmented gene...",
+      "title": "Predictors of Loneliness in Older Adults Using Multimodal Analysis of Speech and Language",
+      "authors": "Vinmay Khandode, Sai Karthik Kosuri, Neil K. R. Sehgal et al.",
+      "abstract": "Loneliness is a critical public health issue among older adults, linked to higher risks of depression, cognitive decline, and mortality. Scalable, objective methods for its detection remain limited, particularly in natural conversational contexts. We analyzed speech and language markers of lonelines...",
       "venue": "arXiv",
-      "date": "2026-09-01",
-      "arxiv_id": "2609.01601v1",
-      "url": "https://arxiv.org/abs/2609.01601v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.01601v1.pdf",
+      "date": "2026-09-02",
+      "arxiv_id": "2609.02606v1",
+      "url": "https://arxiv.org/abs/2609.02606v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.02606v1.pdf",
       "categories": [
-        "cs.SE",
-        "cs.AI",
         "cs.CL"
       ],
       "type": "nlp",
@@ -39,31 +37,14 @@
       "source": "arXiv"
     },
     {
-      "title": "Beyond Scores: Understanding LLM-as-a-Judge Mechanisms in Summarization Evaluation",
-      "authors": "Himil Vasava, Ming Jiang",
-      "abstract": "LLM-based evaluators of natural language generation (NLG) quality are widely deployed as scoring tools and as automated training signals, yet the internal procedure by which they assign a rating remains poorly understood. We investigate this procedure mechanistically through an eight-attack perturba...",
+      "title": "AffectDelta: Beyond Emotion Labels for Image Editing",
+      "authors": "Xingzu Zhan, Lin Gu, Ruogu Fang",
+      "abstract": "Emotion-driven image editing aims to evoke a specified target emotion by modifying emotion-relevant visual cues in a source image, while preserving the overall composition and semantic-structural coherence of the original scene. Existing scene-level editors typically specify the target with a single...",
       "venue": "arXiv",
-      "date": "2026-09-01",
-      "arxiv_id": "2609.01604v1",
-      "url": "https://arxiv.org/abs/2609.01604v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.01604v1.pdf",
-      "categories": [
-        "cs.CL",
-        "cs.LG"
-      ],
-      "type": "benchmark",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Uncovering Understanding-Generation Synergy in Native Unified Multimodal Models: From Representation, Task to System",
-      "authors": "Penghao Wu, Haiwen Diao, Weichen Fan et al.",
-      "abstract": "While unified multimodal models (UMMs) jointly perform visual understanding and generation within a single model, functional unification does not guarantee learning synergy: the two objectives may reinforce each other, compete for capacity, or merely coexist. We investigate their relationship at the...",
-      "venue": "arXiv",
-      "date": "2026-09-01",
-      "arxiv_id": "2609.01607v1",
-      "url": "https://arxiv.org/abs/2609.01607v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.01607v1.pdf",
+      "date": "2026-09-02",
+      "arxiv_id": "2609.02616v1",
+      "url": "https://arxiv.org/abs/2609.02616v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.02616v1.pdf",
       "categories": [
         "cs.CV"
       ],
@@ -72,14 +53,14 @@
       "source": "arXiv"
     },
     {
-      "title": "UI-VISA: U-Net Initialized Vascular Image Segmentation Architecture",
-      "authors": "Asees Kaur, Suzanne S. Sindi, Erica M. Rutter",
-      "abstract": "Accurate segmentation of vascular structures in digital subtraction angiography (DSA) images remains challenging due to the thin, elongated, and branching nature of blood vessels. Pixel-wise deep learning approaches such as U-Net achieve strong general-purpose segmentation performance but often prod...",
+      "title": "Generalizable Brain Tumor Segmentation with Self-Training and Tumor-Aware Deformations",
+      "authors": "Henrique Zan Grande, Jeovane Honorio Alves, Rayson Laroca et al.",
+      "abstract": "This work presents an approach to the Generalizability Across Tumors (BraTS-GoAT) task of the BraTS 2026 Challenge, which focuses on robust segmentation of brain tumor sub-regions across a heterogeneous patient population. The proposed method employs the nnU-Net framework with a large residual encod...",
       "venue": "arXiv",
-      "date": "2026-09-01",
-      "arxiv_id": "2609.01598v1",
-      "url": "https://arxiv.org/abs/2609.01598v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.01598v1.pdf",
+      "date": "2026-09-02",
+      "arxiv_id": "2609.02600v1",
+      "url": "https://arxiv.org/abs/2609.02600v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.02600v1.pdf",
       "categories": [
         "cs.CV"
       ],
@@ -88,35 +69,18 @@
       "source": "arXiv"
     },
     {
-      "title": "Facet-0: A Robotic Foundation Model for Contact-Rich Precise Manipulation",
-      "authors": "Haoyuan Deng, Haichao Liu, Wenkai Guo et al.",
-      "abstract": "Real-world robotic assembly at sub-millimeter tolerances demands spatial precision, compliant interaction, and robustness to contact failures. We present Facet-0, a robotic foundation model that predicts and values the contact consequences of its actions. Facet-0 unifies multimodal representation le...",
+      "title": "Source Distribution Estimation by Posterior Averaging",
+      "authors": "Trung-Dung Hoang, Lisa M. Koch",
+      "abstract": "Simulation-based science often requires a distribution over simulator parameters whose push-forward reproduces a set of real observations: this is the source distribution estimation (SDE) problem. Existing methods fit the source against a likelihood surrogate trained once from a fixed proposal prior...",
       "venue": "arXiv",
-      "date": "2026-09-01",
-      "arxiv_id": "2609.01596v1",
-      "url": "https://arxiv.org/abs/2609.01596v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.01596v1.pdf",
+      "date": "2026-09-02",
+      "arxiv_id": "2609.02622v1",
+      "url": "https://arxiv.org/abs/2609.02622v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.02622v1.pdf",
       "categories": [
-        "cs.RO",
         "cs.LG"
       ],
       "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "SG-AMP: Scene-Graph-Guided Active Perception and Semantics-Aware Motion Planning for Pepper Plants",
-      "authors": "Rohit Menon, Shiva Rudra Lolla, Niklas Mueller-Goldingen et al.",
-      "abstract": "We present SG-AMP, integrating robust depth completion with input-conditioned uncertainty, persistent panoptic mapping, plant scene-graph reasoning, and semantics-aware active view-motion planning. Beyond inspecting uncertain observed regions, the scene graph explicitly hypothesizes unobserved peppe...",
-      "venue": "arXiv",
-      "date": "2026-09-01",
-      "arxiv_id": "2609.01579v1",
-      "url": "https://arxiv.org/abs/2609.01579v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.01579v1.pdf",
-      "categories": [
-        "cs.RO"
-      ],
-      "type": "ai",
       "badge": "arxiv",
       "source": "arXiv"
     }
