@@ -3,6 +3,98 @@
   "count": 200,
   "items": [
     {
+      "title": "[立昂机器人完成千万级战略融资，加速构建轻工业 具 身 智 能“数据—模型—技能”闭环",
+      "summary": "[立昂机器人完成千万级战略融资，加速构建轻工业 具 身 智 能“数据—模型—技能”闭环",
+      "url": "http://36kr.com/p/3965678197710089",
+      "date": "2026-09-03",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
+      "title": "Towards Trustworthy Autonomous Robots: An Explainable AI-Based Decision Framework",
+      "summary": "Autonomous robots powered by deep learning face a fundamental auditability challenge: when incidents occur, investigators cannot reconstruct why the system made specific decisions. This paper presents TRACE (Transparent Reasoning Architecture for Cre...",
+      "url": "https://arxiv.org/abs/2609.02861v1",
+      "date": "2026-09-02",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.02861v1",
+      "authors": "Cagri Temel",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Toward Robust LiDAR Semantic Segmentation for Real-World Deployment: Evaluation under Coarse Labels, Adverse Conditions, and Domain Shifts",
+      "summary": "LiDAR-based semantic segmentation is a core perception module for autonomous vehicles and mobile robots. Despite the strong performance of recent state-of-the-art methods on standard benchmarks, existing evaluation protocols remain focused on clean, ...",
+      "url": "https://arxiv.org/abs/2609.02830v1",
+      "date": "2026-09-02",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.02830v1",
+      "authors": "Samir Abou Haidar, Alexandre Chariot et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Do Better Imagined Rollouts Mean Better Robot Control? A Controlled Study of World-Model Evaluation Under Feedback",
+      "summary": "Predictive models are increasingly used in robotics for state estimation, planning, control, and policy evaluation, yet they are often judged by open-loop prediction accuracy over a fixed horizon. In closed-loop operation, a robot repeatedly acts, re...",
+      "url": "https://arxiv.org/abs/2609.02811v1",
+      "date": "2026-09-02",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.02811v1",
+      "authors": "Dharini Raghavan, Amritpal Singh",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "MV-dVRK: A Multi-Viewpoint Benchmark for Spatial Surgical Perception",
+      "summary": "Large-scale training and refined optimization techniques have greatly improved sparse multi-view 3D reconstruction. Despite their relevance to surgery, such methods have never before been rigorously evaluated on real endoscopic images. Current clinic...",
+      "url": "https://arxiv.org/abs/2609.02717v1",
+      "date": "2026-09-02",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.02717v1",
+      "authors": "Guido Caccianiga, Sergey Prokudin et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "From Proxy Learning to Driving Decisions: A Transfer-Based Framework for Evaluating Future-Aware Autonomous Driving Planners",
+      "summary": "Future-aware representations and world models are increasingly used in proposal-based autonomous-driving planners to improve trajectory selection. However, improvements in proxy objectives or restricted subsets are often interpreted as planning gains...",
+      "url": "https://arxiv.org/abs/2609.02688v1",
+      "date": "2026-09-02",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.02688v1",
+      "authors": "Yikai Wu",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
       "title": "Advancing Accessible Underwater Robotics: The Mini-Girona I-AUV at RAMI 2025",
       "summary": "The Mini-Girona Intervention Autonomous Underwater Vehicle (I-AUV) represents an advancement in accessible underwater robotics, designed to bridge the gap between costly, specialized research AUVs and basic Remotely Operated Vehicles (ROVs). Develope...",
       "url": "https://arxiv.org/abs/2609.02605v1",
@@ -2918,95 +3010,6 @@
       "type": "paper",
       "arxiv_id": "2608.02547v1",
       "authors": "Filippo Lazzati, Kyle Stachowicz et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Probabilistic Reachable-Action Verification of Visuomotor Policies via Set-Based Training",
-      "summary": "Reachability analysis for visuomotor policies is difficult because large visual encoders make end-to-end set propagation computationally expensive and excessively conservative. We therefore freeze the visual encoder and confine set propagation to a l...",
-      "url": "https://arxiv.org/abs/2608.02545v1",
-      "date": "2026-08-03",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.02545v1",
-      "authors": "Yanliang Huang, Zhuocheng Zhang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "“可信赖”可能是具身最后的分水岭。",
-      "summary": "“可信赖”可能是具身最后的分水岭。",
-      "url": "http://36kr.com/p/3919211242575497",
-      "date": "2026-07-31",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "谁不想应聘机器人毛娘师？",
-      "summary": "谁不想应聘机器人毛娘师？",
-      "url": "http://36kr.com/p/3918365710276483",
-      "date": "2026-07-31",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
-      ]
-    },
-    {
-      "title": "Diagnosing Compositional Generalization in Sequential Robot Tasks",
-      "summary": "Sequential robot manipulation requires policies to execute novel combinations of familiar instruction components. However, collecting demonstrations for all possible instruction tuples is combinatorially expensive, while sparsely covered datasets oft...",
-      "url": "https://arxiv.org/abs/2607.29687v1",
-      "date": "2026-07-31",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.29687v1",
-      "authors": "Yixiao Wang, Cheng-En Wu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Bootstrapping Self-Supervised Learning of Binary Classification Using Error Bounds: A Case Study on a Robotic Insertion Task",
-      "summary": "Flexible manufacturing requires rapid deployment of solutions and minimal setup time to remain competitive. An essential attribute is the ability to control error levels, as failures can range from minor performance degradation to severe equipment da...",
-      "url": "https://arxiv.org/abs/2607.29640v1",
-      "date": "2026-07-31",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.29640v1",
-      "authors": "Zebin Duan, Norbert Krüger et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Balancing of Humanoid with Object Mass: Trade-off Analyses and Lifting Control",
-      "summary": "The demand for humanoid loco-manipulation tasks with an object has recently increased, and most existing control approaches for stability in such tasks rely on heuristics or machine-learning techniques. This study rigorously analyzes and exploits the...",
-      "url": "https://arxiv.org/abs/2607.29625v1",
-      "date": "2026-07-31",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2607.29625v1",
-      "authors": "Hyunjong Song, William Z. Peng et al.",
       "tags": [
         "机器人学习",
         "研究论文",
