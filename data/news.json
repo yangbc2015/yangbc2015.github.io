@@ -1,14 +1,26 @@
 {
-  "last_updated": "2026-09-03",
+  "last_updated": "2026-09-04",
   "count": 200,
-  "history_count": 200,
+  "history_count": 201,
   "retention_days": 30,
   "items": [
+    {
+      "title": "改进GPT Image 2的噪点问题",
+      "link": "https://www.qbitai.com/?s=改进GPT Imag",
+      "summary": "改进GPT Image 2的噪点问题...",
+      "date": "2026-09-04",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
     {
       "title": "SkyProduction（天工工作台）全新版本于8月31日正式上线",
       "link": "https://www.qbitai.com/?s=SkyProduct",
       "summary": "SkyProduction（天工工作台）全新版本于8月31日正式上线...",
-      "date": "2026-09-03",
+      "date": "2026-09-04",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -20,7 +32,7 @@
       "title": "蚂蚁集团推出统一宽表系统OmniTable，论文获评VLDB 2026工业赛道最佳论文",
       "link": "https://www.qbitai.com/?s=蚂蚁集团推出统一宽表",
       "summary": "蚂蚁集团推出统一宽表系统OmniTable，论文获评VLDB 2026工业赛道最佳论文...",
-      "date": "2026-09-03",
+      "date": "2026-09-04",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -32,7 +44,7 @@
       "title": "9月2日，前字节跳动强化学习专家、前腾讯Robotics X智能体中⼼负责⼈孙鹏博⼠正式加入星尘智能",
       "link": "https://www.qbitai.com/?s=9月2日，前字节跳动",
       "summary": "9月2日，前字节跳动强化学习专家、前腾讯Robotics X智能体中⼼负责⼈孙鹏博⼠正式加入星尘智能...",
-      "date": "2026-09-03",
+      "date": "2026-09-04",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -44,12 +56,24 @@
       "title": "无论你此前让Claude处理什么任务，Fable 5.1都能做更多，并且把最难的部分完成得更出色",
       "link": "https://www.qbitai.com/?s=无论你此前让Clau",
       "summary": "无论你此前让Claude处理什么任务，Fable 5.1都能做更多，并且把最难的部分完成得更出色...",
-      "date": "2026-09-03",
+      "date": "2026-09-04",
       "source": "量子位",
       "type": "industry",
       "tags": [
         "AI",
         "人工智能"
+      ]
+    },
+    {
+      "title": "*   [Latest](http://techcrunch.com/latest/)",
+      "link": "https://techcrunch.com/category/artificial-intelligence/",
+      "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
+      "date": "2026-09-04",
+      "source": "TechCrunch",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "Artificial Intelligence"
       ]
     },
     {
@@ -62,18 +86,6 @@
       "tags": [
         "AI",
         "人工智能"
-      ]
-    },
-    {
-      "title": "Published Time: Thu, 13 Mar 2025 04:28:00 GMT",
-      "link": "https://techcrunch.com/category/artificial-intelligence/",
-      "summary": "Published Time: Thu, 13 Mar 2025 04:28:00 GMT...",
-      "date": "2026-09-03",
-      "source": "TechCrunch",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "Artificial Intelligence"
       ]
     },
     {
@@ -2384,18 +2396,6 @@
       "title": "需求、资本和创业者正在快速推动，但从技术成熟、规模化量产到商业落地，中间仍隔着巨大的工程鸿沟。",
       "link": "https://www.qbitai.com/?s=需求、资本和创业者正",
       "summary": "需求、资本和创业者正在快速推动，但从技术成熟、规模化量产到商业落地，中间仍隔着巨大的工程鸿沟。...",
-      "date": "2026-08-12",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "从云计算到云原生，产业真正的跃迁从来不是简单堆算力，而是找到更适合新世界的架构。",
-      "link": "https://www.qbitai.com/?s=从云计算到云原生，产",
-      "summary": "从云计算到云原生，产业真正的跃迁从来不是简单堆算力，而是找到更适合新世界的架构。...",
       "date": "2026-08-12",
       "source": "量子位",
       "type": "industry",

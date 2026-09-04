@@ -1,66 +1,16 @@
 {
-  "last_updated": "2026-09-03",
+  "last_updated": "2026-09-04",
   "count": 8,
   "items": [
     {
-      "title": "Discriminative World Models for Web Agents",
-      "authors": "Kelvin Li, Dhruv Pendharkar, Anish Pahilajani et al.",
-      "abstract": "Recent web agents use world models for test-time action selection by sampling candidate actions, predicting the resulting web states, and ranking them with a ranker model or a Process Reward Model (PRM). These world models are typically trained via supervised next-state prediction to generate fixed ...",
+      "title": "Headroom-Drift Replay: A Primitive for Principled Replay Control in GRPO",
+      "authors": "Hyun Bin Park, Du-Seong Chang",
+      "abstract": "RL-based post-training for reasoning models is increasingly bottlenecked by repeated fresh rollout generation, particularly in agentic settings where environment interaction dominates wall-clock cost. Replay can reduce this burden by reusing past trajectories, but existing methods typically embed it...",
       "venue": "arXiv",
-      "date": "2026-09-02",
-      "arxiv_id": "2609.02885v1",
-      "url": "https://arxiv.org/abs/2609.02885v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.02885v1.pdf",
-      "categories": [
-        "cs.AI",
-        "cs.LG"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Towards Trustworthy Autonomous Robots: An Explainable AI-Based Decision Framework",
-      "authors": "Cagri Temel",
-      "abstract": "Autonomous robots powered by deep learning face a fundamental auditability challenge: when incidents occur, investigators cannot reconstruct why the system made specific decisions. This paper presents TRACE (Transparent Reasoning Architecture for Credible Execution), a decision framework that ensure...",
-      "venue": "arXiv",
-      "date": "2026-09-02",
-      "arxiv_id": "2609.02861v1",
-      "url": "https://arxiv.org/abs/2609.02861v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.02861v1.pdf",
-      "categories": [
-        "cs.RO",
-        "cs.AI"
-      ],
-      "type": "ai",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "User Feedback Provides a Unique Signal that LLMs Can not Detect",
-      "authors": "Shachar Don-Yehiya, Leshem Choshen, Omri Abend",
-      "abstract": "Harnessing naturally occurring feedback from user interactions offers a promising learning signal for Large Language Models (LLMs). However, recent studies suggest this feedback is inherently noisy and difficult to leverage effectively. We challenge this conception by demonstrating that user feedbac...",
-      "venue": "arXiv",
-      "date": "2026-09-02",
-      "arxiv_id": "2609.02859v1",
-      "url": "https://arxiv.org/abs/2609.02859v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.02859v1.pdf",
-      "categories": [
-        "cs.CL"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Post-Training Language Models for Gold-Medal Performance in Coding Competitions",
-      "authors": "Aleksander Ficek, Sean Narenthiran, Mehrzad Samadi et al.",
-      "abstract": "Competitive programming has become a key test of large language model reasoning, with international competitions such as IOI and ICPC representing its most challenging settings. We present an end-to-end specialization pipeline combining large-scale problem curation, synthetic reasoning traces, super...",
-      "venue": "arXiv",
-      "date": "2026-09-02",
-      "arxiv_id": "2609.02849v1",
-      "url": "https://arxiv.org/abs/2609.02849v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.02849v1.pdf",
+      "date": "2026-09-03",
+      "arxiv_id": "2609.03941v1",
+      "url": "https://arxiv.org/abs/2609.03941v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.03941v1.pdf",
       "categories": [
         "cs.LG",
         "cs.AI",
@@ -71,14 +21,64 @@
       "source": "arXiv"
     },
     {
-      "title": "SolarWM: Open Data and Scalable Training for Long-Horizon Video World Models",
-      "authors": "Junchao Huang, Guian Fang, Shengju Qian et al.",
-      "abstract": "We introduce SolarWM, a fully open foundation for building interactive video world models from data preparation through long-horizon inference. Training across heterogeneous data sources and video backbones is challenging: datasets differ in temporal scale, camera geometry, visual quality, motion, a...",
+      "title": "Masked Autoregressive Speech Enhancement with Continuous Neural Audio Codec Representations",
+      "authors": "Yoto Fujita, Simon Leglaive, Laurent Girin",
+      "abstract": "Most previous work on speech enhancement (SE) based on masked generative modeling relied on discrete token representations of audio signals, obtained using neural audio codecs (NACs). However, a recent study has shown that continuous latent representations of NACs can be advantageous for SE in terms...",
       "venue": "arXiv",
-      "date": "2026-09-02",
-      "arxiv_id": "2609.02886v1",
-      "url": "https://arxiv.org/abs/2609.02886v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.02886v1.pdf",
+      "date": "2026-09-03",
+      "arxiv_id": "2609.03940v1",
+      "url": "https://arxiv.org/abs/2609.03940v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.03940v1.pdf",
+      "categories": [
+        "cs.SD",
+        "cs.AI"
+      ],
+      "type": "ai",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Fixed Suffix Dependency Ratio: Quantifying the Dual-Track Mechanism of Gender Assignment in Latvian Loanwords",
+      "authors": "Yelingyun Zhang, Atis Kapenieks, Marina Platonova",
+      "abstract": "Existing research has repeatedly observed the tendency for English loanwords to cluster in the masculine gender across different recipient languages, yet the origin of this pattern remains difficult to determine, as fixed morphological rules and default assignments are frequently analysed together. ...",
+      "venue": "arXiv",
+      "date": "2026-09-03",
+      "arxiv_id": "2609.03930v1",
+      "url": "https://arxiv.org/abs/2609.03930v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.03930v1.pdf",
+      "categories": [
+        "cs.CL"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Sparse auto-regressive modeling for scene generation from multi-view images",
+      "authors": "Thomas Lucas, Maxime Pietrantoni, Philippe Weinzaepfel et al.",
+      "abstract": "Generating complete 3D scenes from sparse, unconstrained views is a fundamental challenge in 3D vision which requires reasoning beyond observed content while remaining computationally tractable. Existing feed-forward reconstruction methods are inherently limited to content visible in the input image...",
+      "venue": "arXiv",
+      "date": "2026-09-03",
+      "arxiv_id": "2609.03931v1",
+      "url": "https://arxiv.org/abs/2609.03931v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.03931v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "OctWorld: Long-Range World-Consistent Video Generation with Octree-Based 3D Mapping",
+      "authors": "Zelong Lv, Sicheng Xu, Jianfeng Xiang et al.",
+      "abstract": "We present OctWorld, a video diffusion framework with persistent 3D memory for generating explorable, world-consistent, and high-fidelity visual scenes. Given a single image, OctWorld performs stable autoregressive world generation along user-specified camera trajectories. We focus on long-range gen...",
+      "venue": "arXiv",
+      "date": "2026-09-03",
+      "arxiv_id": "2609.03919v1",
+      "url": "https://arxiv.org/abs/2609.03919v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.03919v1.pdf",
       "categories": [
         "cs.CV"
       ],
@@ -87,51 +87,51 @@
       "source": "arXiv"
     },
     {
-      "title": "Thinking in Pictures: A Systematic Benchmark for Reasoning-driven Image Generation",
-      "authors": "Yutong Liu, Nan Huang, Xu Cao et al.",
-      "abstract": "Recent advancements in unified generative models (UGMs) and world simulators have achieved unprecedented results in visual perception and synthesis. However, these models primarily rely on surface-level event alignment, leaving the capacity for high-level visual reasoning underexplored. True visual ...",
+      "title": "RATL: Learning from Retrieved Residuals for Robust Multivariate Time-Series Forecasting",
+      "authors": "Yuchen He, Yueyang Cang, Zhiyuan Ning et al.",
+      "abstract": "Retrieval-augmented generation (RAG) complements parametric models with retrieved external evidence. The same idea is attractive for continuous-output regression, but directly reusing retrieved target values is often not robust when samples differ in output level, numerical scale, or local dynamics....",
       "venue": "arXiv",
-      "date": "2026-09-02",
-      "arxiv_id": "2609.02864v1",
-      "url": "https://arxiv.org/abs/2609.02864v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.02864v1.pdf",
-      "categories": [
-        "cs.CV"
-      ],
-      "type": "benchmark",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "A Common Measure of Communication for Speech Brain-Computer Interfaces",
-      "authors": "Dulhan Jayalath, Benjamin Ballyk, Oiwi Parker Jones",
-      "abstract": "Speech brain-computer interfaces (speech BCIs) translate neural activity into language, offering a path towards restoring speech for people with paralysis and, more broadly, enabling new forms of natural human-computer interaction. Despite this promise, the field lacks a common measure of progress b...",
-      "venue": "arXiv",
-      "date": "2026-09-02",
-      "arxiv_id": "2609.02887v1",
-      "url": "https://arxiv.org/abs/2609.02887v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.02887v1.pdf",
+      "date": "2026-09-03",
+      "arxiv_id": "2609.03937v1",
+      "url": "https://arxiv.org/abs/2609.03937v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.03937v1.pdf",
       "categories": [
         "cs.LG",
-        "q-bio.NC"
+        "cs.AI"
       ],
       "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Toward Robust LiDAR Semantic Segmentation for Real-World Deployment: Evaluation under Coarse Labels, Adverse Conditions, and Domain Shifts",
-      "authors": "Samir Abou Haidar, Alexandre Chariot, Mehdi Darouich et al.",
-      "abstract": "LiDAR-based semantic segmentation is a core perception module for autonomous vehicles and mobile robots. Despite the strong performance of recent state-of-the-art methods on standard benchmarks, existing evaluation protocols remain focused on clean, single-domain settings and fine-grained label taxo...",
+      "title": "Toward Unified Robot Learning: Bridging Representation, Vision-Language-Action, and World Models",
+      "authors": "Shaunak A. Mehta, Ananya Hazarika, Haochen Zhang et al.",
+      "abstract": "For robots to operate reliably in real-world environments, they need to perceive their surroundings, act, and reason about the consequences of those actions. Rapid progress in the domains of representation learning, VLA models, and world models has significantly enhanced the capabilities of robot le...",
       "venue": "arXiv",
-      "date": "2026-09-02",
-      "arxiv_id": "2609.02830v1",
-      "url": "https://arxiv.org/abs/2609.02830v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.02830v1.pdf",
+      "date": "2026-09-03",
+      "arxiv_id": "2609.03927v1",
+      "url": "https://arxiv.org/abs/2609.03927v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.03927v1.pdf",
       "categories": [
         "cs.RO"
       ],
-      "type": "benchmark",
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Revisiting Topological Graphs for Macro Action based Closed-loop Reinforcement Learning of Vision Language Navigation in Continuous Environment",
+      "authors": "Shuhao Ye, Sitong Mao, Yuxiang Cui et al.",
+      "abstract": "Vision-Language Navigation in Continuous Environments (VLN-CE) requires an agent to follow natural language instructions through unseen environments. Existing imitation learning (IL) pipelines struggle in this closed-loop setting: behavior cloning suffers from distribution shift, and DAgger's expert...",
+      "venue": "arXiv",
+      "date": "2026-09-03",
+      "arxiv_id": "2609.03906v1",
+      "url": "https://arxiv.org/abs/2609.03906v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.03906v1.pdf",
+      "categories": [
+        "cs.RO"
+      ],
+      "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     }
