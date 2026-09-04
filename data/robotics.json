@@ -3,6 +3,18 @@
   "count": 200,
   "items": [
     {
+      "title": "[立昂机器人完成千万级战略融资，加速构建轻工业 具 身 智 能“数据—模型—技能”闭环",
+      "summary": "[立昂机器人完成千万级战略融资，加速构建轻工业 具 身 智 能“数据—模型—技能”闭环",
+      "url": "http://36kr.com/p/3965678197710089",
+      "date": "2026-09-04",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
       "title": "[机器人从「量产」到「量销」，启智Openmind要补上工业 具 身 智 能 的中间层",
       "summary": "[机器人从「量产」到「量销」，启智Openmind要补上工业 具 身 智 能 的中间层",
       "url": "http://36kr.com/p/3957651086163077",
@@ -15,15 +27,83 @@
       ]
     },
     {
-      "title": "[立昂机器人完成千万级战略融资，加速构建轻工业 具 身 智 能“数据—模型—技能”闭环",
-      "summary": "[立昂机器人完成千万级战略融资，加速构建轻工业 具 身 智 能“数据—模型—技能”闭环",
-      "url": "http://36kr.com/p/3965678197710089",
-      "date": "2026-09-04",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
+      "title": "GIFT: Guided Intermediate Feature Training via Action-Oriented Structural Supervision for Robotic Manipulation",
+      "summary": "Vision-language pre-training and predictive world modeling provide robot policies with rich semantic and dynamic visual features, but their native action and visual-prediction objectives may omit critical physical and task structure while retaining c...",
+      "url": "https://arxiv.org/abs/2609.04193v1",
+      "date": "2026-09-03",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.04193v1",
+      "authors": "Yupeng Zheng, Xiang Li et al.",
       "tags": [
-        "机器人"
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Formation Matrix and Energy-based Control of Multi-Agent Systems",
+      "summary": "This paper presents an energy-based controller for a multiagent robotic system designed to achieve and maintain a specific formation while moving on a plane and avoiding collisions between agents. The controller emulates a network of elementary sprin...",
+      "url": "https://arxiv.org/abs/2609.04158v1",
+      "date": "2026-09-03",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.04158v1",
+      "authors": "Martín Crespo, Sergio Junco et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "A Low-Cost, Open Platform for End-to-End Autonomous Driving on a Miniature Ackermann Vehicle",
+      "summary": "This paper presents a low-cost, open experimental platform for research in end-to-end autonomous driving with miniature Ackermann vehicles. The platform combines a physical vehicle, a printed urban track, data collection tools, trajectory registratio...",
+      "url": "https://arxiv.org/abs/2609.04147v1",
+      "date": "2026-09-03",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.04147v1",
+      "authors": "Gustavo Claudio Karl Couto, Eric Aislan Antonelo et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Corner Cases: Headland Coverage Path Planning for Autonomous Driving in Arable Farming",
+      "summary": "This paper presents a new method for headland coverage path planning for arable fields. Several earlier approaches suggest covering the headland with nested polygons and smooth turns, however, covering the field corners entirely requires manoeuvres w...",
+      "url": "https://arxiv.org/abs/2609.04103v1",
+      "date": "2026-09-03",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.04103v1",
+      "authors": "Riikka Soitinaho, Timo Oksanen",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Adaptive Vision-Language Grasping via Composable Foundation Priors and Generalizable Grasp Synthesis",
+      "summary": "This paper proposes AdaRoboVLG, a task-adaptive Vision-Language-Grasp (VLG) framework that supports generalizable grasp synthesis across different robotic hands. Unlike existing VLG methods that tightly couple foundation models with end-to-end grasp ...",
+      "url": "https://arxiv.org/abs/2609.04096v1",
+      "date": "2026-09-03",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.04096v1",
+      "authors": "Sixu Yan, Shikang Wang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
       ]
     },
     {
@@ -2937,83 +3017,6 @@
       "tags": [
         "机器人",
         "具身智能"
-      ]
-    },
-    {
-      "title": "2026具身智能50人夏季峰会在京举办，共探产业发展路径",
-      "summary": "2026具身智能50人夏季峰会在京举办，共探产业发展路径",
-      "url": "http://36kr.com/p/3923587449892229",
-      "date": "2026-08-03",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "Ego2Robot: Scalable Robot Data Synthesis from Egocentric Human Data",
-      "summary": "Learning generalizable robot manipulation policies requires large-scale and diverse demonstration data. Egocentric human manipulation videos offer rich scene and task diversity, and prior work has shown that retargeting and rendering such videos into...",
-      "url": "https://arxiv.org/abs/2608.02580v1",
-      "date": "2026-08-03",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.02580v1",
-      "authors": "Ye Wang, Pei Lin et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "CoWAM: Coordination Contracts for Selective Policy Intervention with WAMs",
-      "summary": "World Action Models (WAMs) augment robot policies with action-conditioned predicted futures, but a plausible future alone does not justify changing the action that a bimanual policy would execute. We present CoWAM, a selective intervention layer that...",
-      "url": "https://arxiv.org/abs/2608.02578v1",
-      "date": "2026-08-03",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.02578v1",
-      "authors": "Shuaijun Liu, Qifu Wen et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Situation Aware Frontier Prioritization for Quadruped Search and Rescue",
-      "summary": "Quadruped robots are a promising platform for search and rescue missions because they can navigate cluttered indoor environments that may be restrictive for wheeled systems. However, in unknown rescue scenarios, autonomous exploration must balance ma...",
-      "url": "https://arxiv.org/abs/2608.02571v1",
-      "date": "2026-08-03",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.02571v1",
-      "authors": "Kevin Farias, Santiago Martin et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Why Does Action Chunking Improve Behavioral Cloning Performance in Robotic Control?",
-      "summary": "Action chunking---predicting and executing multiple actions instead of a single action---has proven to be a critical component for learning effective robotic control policies. However, our precise understanding of why action chunking improves perform...",
-      "url": "https://arxiv.org/abs/2608.02547v1",
-      "date": "2026-08-03",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.02547v1",
-      "authors": "Filippo Lazzati, Kyle Stachowicz et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
       ]
     }
   ]

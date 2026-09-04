@@ -1,67 +1,68 @@
 {
   "last_updated": "2026-09-04",
-  "count": 6,
+  "count": 7,
   "items": [
     {
-      "title": "Headroom-Drift Replay: A Primitive for Principled Replay Control in GRPO",
-      "authors": "Hyun Bin Park, Du-Seong Chang",
-      "abstract": "RL-based post-training for reasoning models is increasingly bottlenecked by repeated fresh rollout generation, particularly in agentic settings where environment interaction dominates wall-clock cost. Replay can reduce this burden by reusing past trajectories, but existing methods typically embed it...",
+      "title": "Compile by Training: Turning Natural-Language Specifications into Local Neural Functions",
+      "authors": "Yuntian Deng, Pengyu Nie, Stuart Shieber",
+      "abstract": "Many recurring text functions are easy to describe but difficult to implement with rules, while calling a large remote model for every input introduces repeated cost, latency, and dependency on a provider. We present compile by training, which turns a natural-language specification into a reusable n...",
       "venue": "arXiv",
       "date": "2026-09-03",
-      "arxiv_id": "2609.03941v1",
-      "url": "https://arxiv.org/abs/2609.03941v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.03941v1.pdf",
+      "arxiv_id": "2609.04199v1",
+      "url": "https://arxiv.org/abs/2609.04199v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.04199v1.pdf",
       "categories": [
-        "cs.LG",
+        "cs.CL",
         "cs.AI",
-        "cs.CL"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Fixed Suffix Dependency Ratio: Quantifying the Dual-Track Mechanism of Gender Assignment in Latvian Loanwords",
-      "authors": "Yelingyun Zhang, Atis Kapenieks, Marina Platonova",
-      "abstract": "Existing research has repeatedly observed the tendency for English loanwords to cluster in the masculine gender across different recipient languages, yet the origin of this pattern remains difficult to determine, as fixed morphological rules and default assignments are frequently analysed together. ...",
-      "venue": "arXiv",
-      "date": "2026-09-03",
-      "arxiv_id": "2609.03930v1",
-      "url": "https://arxiv.org/abs/2609.03930v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.03930v1.pdf",
-      "categories": [
-        "cs.CL"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Sparse auto-regressive modeling for scene generation from multi-view images",
-      "authors": "Thomas Lucas, Maxime Pietrantoni, Philippe Weinzaepfel et al.",
-      "abstract": "Generating complete 3D scenes from sparse, unconstrained views is a fundamental challenge in 3D vision which requires reasoning beyond observed content while remaining computationally tractable. Existing feed-forward reconstruction methods are inherently limited to content visible in the input image...",
-      "venue": "arXiv",
-      "date": "2026-09-03",
-      "arxiv_id": "2609.03931v1",
-      "url": "https://arxiv.org/abs/2609.03931v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.03931v1.pdf",
-      "categories": [
-        "cs.CV",
         "cs.LG"
       ],
-      "type": "vision",
+      "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "OctWorld: Long-Range World-Consistent Video Generation with Octree-Based 3D Mapping",
-      "authors": "Zelong Lv, Sicheng Xu, Jianfeng Xiang et al.",
-      "abstract": "We present OctWorld, a video diffusion framework with persistent 3D memory for generating explorable, world-consistent, and high-fidelity visual scenes. Given a single image, OctWorld performs stable autoregressive world generation along user-specified camera trajectories. We focus on long-range gen...",
+      "title": "Clean Engineering, Unstable Measurement: A Preregistered Reliability Failure of Black-Box LLM Observers on Shared Endpoints",
+      "authors": "Haoyaun Zhu, Jie Zhang",
+      "abstract": "Language-model judges now gate training data, score generations, and drive leaderboards. The judge is then a measurement instrument, resting on one rarely stated assumption: the same request, sent to the same model name, reads the same tomorrow. We audited that assumption in two preregistered campai...",
       "venue": "arXiv",
       "date": "2026-09-03",
-      "arxiv_id": "2609.03919v1",
-      "url": "https://arxiv.org/abs/2609.03919v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.03919v1.pdf",
+      "arxiv_id": "2609.04198v1",
+      "url": "https://arxiv.org/abs/2609.04198v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.04198v1.pdf",
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "ESPO: Error-Structured Prompt Optimization via Diagnose, Diversify, and Stabilize",
+      "authors": "Lihao Liu, Peng Tang, Kunwar Yashraj Singh et al.",
+      "abstract": "Evolutionary prompt optimizers such as GEPA suffer from prompt bloat: each iteration appends rules and caveats, producing prompts up to 3$\\times$ longer yet no more accurate. We trace this to three deficiencies - incomplete error observation, limited search diversity, and unreliable selection - and ...",
+      "venue": "arXiv",
+      "date": "2026-09-03",
+      "arxiv_id": "2609.04197v1",
+      "url": "https://arxiv.org/abs/2609.04197v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.04197v1.pdf",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Temporal Self-Distillation: Learning Visual State Tracking in Videos Without Supervision",
+      "authors": "Shravan Venkatraman, Wenshuai Zhao, Mohammad Hassan Vali et al.",
+      "abstract": "We introduce S$^3$T (Self-Supervised Self-Distillation over Time), which, to the best of our knowledge, is the first fully self-contained framework for continuous video state tracking. Our method treats temporal sampling density as privileged information, based on the hypothesis that a denser view o...",
+      "venue": "arXiv",
+      "date": "2026-09-03",
+      "arxiv_id": "2609.04203v1",
+      "url": "https://arxiv.org/abs/2609.04203v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.04203v1.pdf",
       "categories": [
         "cs.CV"
       ],
@@ -70,34 +71,51 @@
       "source": "arXiv"
     },
     {
-      "title": "Toward Unified Robot Learning: Bridging Representation, Vision-Language-Action, and World Models",
-      "authors": "Shaunak A. Mehta, Ananya Hazarika, Haochen Zhang et al.",
-      "abstract": "For robots to operate reliably in real-world environments, they need to perceive their surroundings, act, and reason about the consequences of those actions. Rapid progress in the domains of representation learning, VLA models, and world models has significantly enhanced the capabilities of robot le...",
+      "title": "TokenMatch: 3D Mesh Correspondence Transformer with Curvature-Guided Tokenisation",
+      "authors": "Adeela Islam, Zorah Lähner, Vittorio Murino et al.",
+      "abstract": "While data-driven 3D shape correspondence estimation has recently seen substantial progress, robust matching under partial observations and strong non-isometric deformations remains challenging. Existing learning-based approaches often rely on hand-crafted descriptors or template-based representatio...",
       "venue": "arXiv",
       "date": "2026-09-03",
-      "arxiv_id": "2609.03927v1",
-      "url": "https://arxiv.org/abs/2609.03927v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.03927v1.pdf",
+      "arxiv_id": "2609.04202v1",
+      "url": "https://arxiv.org/abs/2609.04202v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.04202v1.pdf",
       "categories": [
-        "cs.RO"
+        "cs.CV"
       ],
-      "type": "nlp",
+      "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Revisiting Topological Graphs for Macro Action based Closed-loop Reinforcement Learning of Vision Language Navigation in Continuous Environment",
-      "authors": "Shuhao Ye, Sitong Mao, Yuxiang Cui et al.",
-      "abstract": "Vision-Language Navigation in Continuous Environments (VLN-CE) requires an agent to follow natural language instructions through unseen environments. Existing imitation learning (IL) pipelines struggle in this closed-loop setting: behavior cloning suffers from distribution shift, and DAgger's expert...",
+      "title": "GIFT: Guided Intermediate Feature Training via Action-Oriented Structural Supervision for Robotic Manipulation",
+      "authors": "Yupeng Zheng, Xiang Li, Songen Gu et al.",
+      "abstract": "Vision-language pre-training and predictive world modeling provide robot policies with rich semantic and dynamic visual features, but their native action and visual-prediction objectives may omit critical physical and task structure while retaining control-irrelevant visual redundancy. We call this ...",
       "venue": "arXiv",
       "date": "2026-09-03",
-      "arxiv_id": "2609.03906v1",
-      "url": "https://arxiv.org/abs/2609.03906v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.03906v1.pdf",
+      "arxiv_id": "2609.04193v1",
+      "url": "https://arxiv.org/abs/2609.04193v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.04193v1.pdf",
       "categories": [
         "cs.RO"
       ],
-      "type": "nlp",
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Formation Matrix and Energy-based Control of Multi-Agent Systems",
+      "authors": "Martín Crespo, Sergio Junco, Matías Nacusse",
+      "abstract": "This paper presents an energy-based controller for a multiagent robotic system designed to achieve and maintain a specific formation while moving on a plane and avoiding collisions between agents. The controller emulates a network of elementary spring-damper modules connecting pairs of agents. This ...",
+      "venue": "arXiv",
+      "date": "2026-09-03",
+      "arxiv_id": "2609.04158v1",
+      "url": "https://arxiv.org/abs/2609.04158v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.04158v1.pdf",
+      "categories": [
+        "eess.SY",
+        "cs.RO"
+      ],
+      "type": "ai",
       "badge": "arxiv",
       "source": "arXiv"
     }
