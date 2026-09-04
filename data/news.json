@@ -1,7 +1,7 @@
 {
   "last_updated": "2026-09-04",
   "count": 200,
-  "history_count": 201,
+  "history_count": 205,
   "retention_days": 30,
   "items": [
     {
@@ -65,15 +65,87 @@
       ]
     },
     {
-      "title": "*   [Latest](http://techcrunch.com/latest/)",
+      "title": "Published Time: Thu, 20 Aug 2026 15:12:23 GMT",
       "link": "https://techcrunch.com/category/artificial-intelligence/",
-      "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
+      "summary": "Published Time: Thu, 20 Aug 2026 15:12:23 GMT...",
       "date": "2026-09-04",
       "source": "TechCrunch",
       "type": "industry",
       "tags": [
         "AI",
         "Artificial Intelligence"
+      ]
+    },
+    {
+      "title": "Markdown Content:",
+      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+      "summary": "Markdown Content:...",
+      "date": "2026-09-03",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "机器人不能停下来等模型：星尘发布 SmoothRL，让在线强化学习跟上大模型的异步推理",
+      "link": "https://www.jiqizhixin.com/search/articles/机器人不能停下来等模型：星尘发",
+      "summary": "机器人不能停下来等模型：星尘发布 SmoothRL，让在线强化学习跟上大模型的异步推理...",
+      "date": "2026-09-03",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "不炫技，只搬砖，拟25亿美元上市，Agility戳破人形机器人泡沫",
+      "link": "https://www.jiqizhixin.com/search/articles/不炫技，只搬砖，拟25亿美元上",
+      "summary": "不炫技，只搬砖，拟25亿美元上市，Agility戳破人形机器人泡沫...",
+      "date": "2026-09-03",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "从1000通到1.5万通，百融智能的「硅基客服」真正开始「上岗」",
+      "link": "https://www.jiqizhixin.com/search/articles/从1000通到1.5万通，百融",
+      "summary": "从1000通到1.5万通，百融智能的「硅基客服」真正开始「上岗」...",
+      "date": "2026-09-03",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "苹果新作：内化视觉思考，推理提速 5 倍",
+      "link": "https://www.jiqizhixin.com/search/articles/苹果新作：内化视觉思考，推理提",
+      "summary": "苹果新作：内化视觉思考，推理提速 5 倍...",
+      "date": "2026-09-03",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "RSI离我们有多远？这家中国团队给出了第一梯队的工程解",
+      "link": "https://www.jiqizhixin.com/search/articles/RSI离我们有多远？这家中国团",
+      "summary": "RSI离我们有多远？这家中国团队给出了第一梯队的工程解...",
+      "date": "2026-09-03",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
       ]
     },
     {
@@ -128,18 +200,6 @@
       "title": "从模型到真实世界：具身智能落地面临哪些关键问题？",
       "link": "https://www.jiqizhixin.com/search/articles/从模型到真实世界：具身智能落地",
       "summary": "从模型到真实世界：具身智能落地面临哪些关键问题？...",
-      "date": "2026-09-02",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Markdown Content:",
-      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-      "summary": "Markdown Content:...",
       "date": "2026-09-02",
       "source": "机器之心",
       "type": "industry",
@@ -2338,66 +2398,6 @@
       "summary": "2026云程奖启动！我们要给「在校AI本硕博」发奖学金...",
       "date": "2026-08-12",
       "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "终于！Linux用户等来了官方ChatGPT桌面版",
-      "link": "https://www.jiqizhixin.com/search/articles/终于！Linux用户等来了官方",
-      "summary": "终于！Linux用户等来了官方ChatGPT桌面版...",
-      "date": "2026-08-12",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Agentic RL 后训练资源怎么分？港中文、恒生大学提出 Libra，吞吐最高提升 3 倍",
-      "link": "https://www.jiqizhixin.com/search/articles/Agentic RL 后训练资",
-      "summary": "Agentic RL 后训练资源怎么分？港中文、恒生大学提出 Libra，吞吐最高提升 3 倍...",
-      "date": "2026-08-12",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "从面向个人的AI创作工具，扩展为可供组织使用的生产力平台",
-      "link": "https://www.qbitai.com/?s=从面向个人的AI创作",
-      "summary": "从面向个人的AI创作工具，扩展为可供组织使用的生产力平台...",
-      "date": "2026-08-12",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "全球灵巧手企业约50%在中国，且绝大多数将筹码押在了「五指」上。",
-      "link": "https://www.qbitai.com/?s=全球灵巧手企业约50",
-      "summary": "全球灵巧手企业约50%在中国，且绝大多数将筹码押在了「五指」上。...",
-      "date": "2026-08-12",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "需求、资本和创业者正在快速推动，但从技术成熟、规模化量产到商业落地，中间仍隔着巨大的工程鸿沟。",
-      "link": "https://www.qbitai.com/?s=需求、资本和创业者正",
-      "summary": "需求、资本和创业者正在快速推动，但从技术成熟、规模化量产到商业落地，中间仍隔着巨大的工程鸿沟。...",
-      "date": "2026-08-12",
-      "source": "量子位",
       "type": "industry",
       "tags": [
         "AI",

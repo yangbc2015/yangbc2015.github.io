@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-09-04",
-  "count": 8,
+  "count": 6,
   "items": [
     {
       "title": "Headroom-Drift Replay: A Primitive for Principled Replay Control in GRPO",
@@ -17,23 +17,6 @@
         "cs.CL"
       ],
       "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Masked Autoregressive Speech Enhancement with Continuous Neural Audio Codec Representations",
-      "authors": "Yoto Fujita, Simon Leglaive, Laurent Girin",
-      "abstract": "Most previous work on speech enhancement (SE) based on masked generative modeling relied on discrete token representations of audio signals, obtained using neural audio codecs (NACs). However, a recent study has shown that continuous latent representations of NACs can be advantageous for SE in terms...",
-      "venue": "arXiv",
-      "date": "2026-09-03",
-      "arxiv_id": "2609.03940v1",
-      "url": "https://arxiv.org/abs/2609.03940v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.03940v1.pdf",
-      "categories": [
-        "cs.SD",
-        "cs.AI"
-      ],
-      "type": "ai",
       "badge": "arxiv",
       "source": "arXiv"
     },
@@ -83,23 +66,6 @@
         "cs.CV"
       ],
       "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "RATL: Learning from Retrieved Residuals for Robust Multivariate Time-Series Forecasting",
-      "authors": "Yuchen He, Yueyang Cang, Zhiyuan Ning et al.",
-      "abstract": "Retrieval-augmented generation (RAG) complements parametric models with retrieved external evidence. The same idea is attractive for continuous-output regression, but directly reusing retrieved target values is often not robust when samples differ in output level, numerical scale, or local dynamics....",
-      "venue": "arXiv",
-      "date": "2026-09-03",
-      "arxiv_id": "2609.03937v1",
-      "url": "https://arxiv.org/abs/2609.03937v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.03937v1.pdf",
-      "categories": [
-        "cs.LG",
-        "cs.AI"
-      ],
-      "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     },
