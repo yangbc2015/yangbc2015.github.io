@@ -8,18 +8,6 @@
       "count": 5,
       "items": [
         {
-          "title": "Markdown Content:",
-          "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-          "summary": "Markdown Content:...",
-          "date": "2026-09-04",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
           "title": "AI卷到物理世界，小米迎来自己的主场？",
           "link": "https://www.jiqizhixin.com/search/articles/AI卷到物理世界，小米迎来自己",
           "summary": "AI卷到物理世界，小米迎来自己的主场？...",
@@ -59,6 +47,18 @@
           "title": "T-RO综述重构Foundation Model时代机器人操作知识版图",
           "link": "https://www.jiqizhixin.com/search/articles/T-RO综述重构Foundat",
           "summary": "T-RO综述重构Foundation Model时代机器人操作知识版图...",
+          "date": "2026-09-04",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "谷歌发布WeatherNext3：每小时预报，5公里级别分辨率",
+          "link": "https://www.jiqizhixin.com/search/articles/谷歌发布WeatherNext",
+          "summary": "谷歌发布WeatherNext3：每小时预报，5公里级别分辨率...",
           "date": "2026-09-04",
           "source": "机器之心",
           "type": "industry",
