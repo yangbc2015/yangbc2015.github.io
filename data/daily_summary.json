@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-04",
-  "last_updated": "2026-09-04",
+  "date": "2026-09-05",
+  "last_updated": "2026-09-05",
   "categories": {
     "ai": {
       "name": "人工智能",
@@ -8,47 +8,11 @@
       "count": 5,
       "items": [
         {
-          "title": "机器人不能停下来等模型：星尘发布 SmoothRL，让在线强化学习跟上大模型的异步推理",
-          "link": "https://www.jiqizhixin.com/search/articles/机器人不能停下来等模型：星尘发",
-          "summary": "机器人不能停下来等模型：星尘发布 SmoothRL，让在线强化学习跟上大模型的异步推理...",
-          "date": "2026-09-03",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
-          "title": "不炫技，只搬砖，拟25亿美元上市，Agility戳破人形机器人泡沫",
-          "link": "https://www.jiqizhixin.com/search/articles/不炫技，只搬砖，拟25亿美元上",
-          "summary": "不炫技，只搬砖，拟25亿美元上市，Agility戳破人形机器人泡沫...",
-          "date": "2026-09-03",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
-          "title": "从1000通到1.5万通，百融智能的「硅基客服」真正开始「上岗」",
-          "link": "https://www.jiqizhixin.com/search/articles/从1000通到1.5万通，百融",
-          "summary": "从1000通到1.5万通，百融智能的「硅基客服」真正开始「上岗」...",
-          "date": "2026-09-03",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
-          "title": "国产卡跑出高品质 AI Token 生产级性能",
-          "link": "https://www.qbitai.com/?s=国产卡跑出高品质 A",
-          "summary": "国产卡跑出高品质 AI Token 生产级性能...",
+          "title": "Markdown Content:",
+          "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+          "summary": "Markdown Content:...",
           "date": "2026-09-04",
-          "source": "量子位",
+          "source": "机器之心",
           "type": "industry",
           "tags": [
             "AI",
@@ -56,11 +20,47 @@
           ]
         },
         {
-          "title": "星尘智能（Astribot） 基座模型团队发布能异步执行的在线强化学习框架 SmoothRL",
-          "link": "https://www.qbitai.com/?s=星尘智能（Astri",
-          "summary": "星尘智能（Astribot） 基座模型团队发布能异步执行的在线强化学习框架 SmoothRL...",
+          "title": "AI卷到物理世界，小米迎来自己的主场？",
+          "link": "https://www.jiqizhixin.com/search/articles/AI卷到物理世界，小米迎来自己",
+          "summary": "AI卷到物理世界，小米迎来自己的主场？...",
           "date": "2026-09-04",
-          "source": "量子位",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "Meta全开源HumanCLAW：基础模型正进入具身智能的决策层",
+          "link": "https://www.jiqizhixin.com/search/articles/Meta全开源HumanCLA",
+          "summary": "Meta全开源HumanCLAW：基础模型正进入具身智能的决策层...",
+          "date": "2026-09-04",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "GPT-6突破「素数间隔」纪录！这次是加入OpenAI的北大数院07级校友",
+          "link": "https://www.jiqizhixin.com/search/articles/GPT-6突破「素数间隔」纪录",
+          "summary": "GPT-6突破「素数间隔」纪录！这次是加入OpenAI的北大数院07级校友...",
+          "date": "2026-09-04",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "T-RO综述重构Foundation Model时代机器人操作知识版图",
+          "link": "https://www.jiqizhixin.com/search/articles/T-RO综述重构Foundat",
+          "summary": "T-RO综述重构Foundation Model时代机器人操作知识版图...",
+          "date": "2026-09-04",
+          "source": "机器之心",
           "type": "industry",
           "tags": [
             "AI",

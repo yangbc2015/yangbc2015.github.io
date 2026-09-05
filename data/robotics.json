@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-04",
+  "last_updated": "2026-09-05",
   "count": 200,
   "items": [
     {
@@ -104,6 +104,58 @@
         "机器人学习",
         "研究论文",
         "arXiv"
+      ]
+    },
+    {
+      "title": "卷了三年大模型，机器人为什么还是“站不起来”？",
+      "summary": "卷了三年大模型，机器人为什么还是“站不起来”？",
+      "url": "http://36kr.com/p/3967205548038022",
+      "date": "2026-09-03",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
+      "title": "天链机器人推出高性价比TCE605机械臂，助力具身智能落地",
+      "summary": "天链机器人推出高性价比TCE605机械臂，助力具身智能落地",
+      "url": "http://36kr.com/p/3967321548856832",
+      "date": "2026-09-03",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能",
+        "机械臂"
+      ]
+    },
+    {
+      "title": "姚期智搭了四年的台，正好赶上具身智能这阵风",
+      "summary": "姚期智搭了四年的台，正好赶上具身智能这阵风",
+      "url": "http://36kr.com/p/3966038087376393",
+      "date": "2026-09-03",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "推进具身数据采集与服务、空间/具身智能控制器、世界模型及机器人技能平台的研发，并重点在电子制造、食品、医药等轻工业领域拓展真实应用场景。",
+      "summary": "推进具身数据采集与服务、空间/具身智能控制器、世界模型及机器人技能平台的研发，并重点在电子制造、食品、医药等轻工业领域拓展真实应用场景。",
+      "url": "http://36kr.com/p/3965678197710089",
+      "date": "2026-09-03",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
       ]
     },
     {
@@ -2963,60 +3015,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "Active Stiffness Control of a Supportive Continuum Robot",
-      "summary": "Supportive continuum robots (SCRs) enhance the load-bearing capability of an operative continuum robot by mechanically coupling it with a supportive arm. However, their passive stiffness is determined by the mechanical configuration and cannot be adj...",
-      "url": "https://arxiv.org/abs/2608.03677v1",
-      "date": "2026-08-04",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.03677v1",
-      "authors": "Rana Danesh, Farrokh Janabi-Sharifi et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "[工业和信息化部人形机器人与 具 身 智 能 标准化技术委员会2026年度全体会议暨“标准周”活动在浙江绍兴召开",
-      "summary": "[工业和信息化部人形机器人与 具 身 智 能 标准化技术委员会2026年度全体会议暨“标准周”活动在浙江绍兴召开",
-      "url": "http://36kr.com/p/3913754106516865",
-      "date": "2026-08-04",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "人形机器人"
-      ]
-    },
-    {
-      "title": "[凯联资本出席36氪WAVES 2026大会：穿透 具 身 智 能 泡沫，探寻机器人商业化落地之锚",
-      "summary": "[凯联资本出席36氪WAVES 2026大会：穿透 具 身 智 能 泡沫，探寻机器人商业化落地之锚",
-      "url": "http://36kr.com/p/3917775654590345",
-      "date": "2026-08-04",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
-      ]
-    },
-    {
-      "title": "具身智能修路人，先迎来了淘汰赛。",
-      "summary": "具身智能修路人，先迎来了淘汰赛。",
-      "url": "http://36kr.com/p/3923585549031297",
-      "date": "2026-08-03",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
       ]
     }
   ]
