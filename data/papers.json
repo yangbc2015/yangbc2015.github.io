@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-09-06",
-  "count": 7,
+  "count": 6,
   "items": [
     {
       "title": "Compile by Training: Turning Natural-Language Specifications into Local Neural Functions",
@@ -34,23 +34,6 @@
         "cs.LG"
       ],
       "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "ESPO: Error-Structured Prompt Optimization via Diagnose, Diversify, and Stabilize",
-      "authors": "Lihao Liu, Peng Tang, Kunwar Yashraj Singh et al.",
-      "abstract": "Evolutionary prompt optimizers such as GEPA suffer from prompt bloat: each iteration appends rules and caveats, producing prompts up to 3$\\times$ longer yet no more accurate. We trace this to three deficiencies - incomplete error observation, limited search diversity, and unreliable selection - and ...",
-      "venue": "arXiv",
-      "date": "2026-09-03",
-      "arxiv_id": "2609.04197v1",
-      "url": "https://arxiv.org/abs/2609.04197v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.04197v1.pdf",
-      "categories": [
-        "cs.CL",
-        "cs.AI"
-      ],
-      "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
