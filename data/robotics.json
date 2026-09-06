@@ -1,17 +1,30 @@
 {
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-06",
   "count": 200,
   "items": [
     {
       "title": "[立昂机器人完成千万级战略融资，加速构建轻工业 具 身 智 能“数据—模型—技能”闭环",
       "summary": "[立昂机器人完成千万级战略融资，加速构建轻工业 具 身 智 能“数据—模型—技能”闭环",
       "url": "http://36kr.com/p/3965678197710089",
-      "date": "2026-09-05",
+      "date": "2026-09-06",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
       "tags": [
         "机器人"
+      ]
+    },
+    {
+      "title": "具身智能正从技术突破迈向规模化落地，但技术、场景与资本之间仍隔着信息差与信任门槛。",
+      "summary": "具身智能正从技术突破迈向规模化落地，但技术、场景与资本之间仍隔着信息差与信任门槛。",
+      "url": "http://36kr.com/p/3968476398367233",
+      "date": "2026-09-04",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
       ]
     },
     {
@@ -2995,22 +3008,6 @@
       "type": "paper",
       "arxiv_id": "2608.03701v1",
       "authors": "Fan Yang, Yuting Su et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "PhyAI: Real-Time Physical AI at the Edge, Scalable Rollouts in the Cloud",
-      "summary": "Physical AI policies require inference throughout their lifecycle, including model evaluation, cloud reinforcement learning rollout, edge GPU serving, and onboard deployment. Although these settings share the same checkpoint and action semantics, the...",
-      "url": "https://arxiv.org/abs/2608.03682v1",
-      "date": "2026-08-04",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.03682v1",
-      "authors": "Chenghua Wang, Daliang Xu et al.",
       "tags": [
         "机器人学习",
         "研究论文",
