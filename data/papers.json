@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-09-07",
-  "count": 4,
+  "count": 7,
   "items": [
     {
       "title": "Diffusion TV: Experiencing Diffusion Models through Tangible, Embodied Interaction",
@@ -37,6 +37,39 @@
       "source": "arXiv"
     },
     {
+      "title": "WearableQA: A Benchmark for Health Reasoning over Real-World Wearable Data",
+      "authors": "Ji Soo Lee, Xilun Chen, Pierce Chuang et al.",
+      "abstract": "Recent advances in wearable sensing enable continuous monitoring of physiological and behavioral signals, yet existing benchmarks rarely evaluate whether AI systems can reason over a real user's longitudinal wearable record. We introduce WearableQA, a benchmark comprising 4,084 10-option multiple-ch...",
+      "venue": "arXiv",
+      "date": "2026-09-04",
+      "arxiv_id": "2609.05405v1",
+      "url": "https://arxiv.org/abs/2609.05405v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.05405v1.pdf",
+      "categories": [
+        "cs.CL"
+      ],
+      "type": "benchmark",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Same Trajectory, Contradictory Rewards (ROBORMBENCH): Paraphrase Fragility in Vision Language Reward Models",
+      "authors": "Wonje Jeung, Sangyeon Yoon, Hyesoo Hong et al.",
+      "abstract": "Vision-language models are increasingly used as reward functions for robotic learning, but this role requires paraphrase invariance: the same trajectory should receive the same reward under semantically equivalent goal descriptions. We show that current VLM reward models often violate this property....",
+      "venue": "arXiv",
+      "date": "2026-09-04",
+      "arxiv_id": "2609.05401v1",
+      "url": "https://arxiv.org/abs/2609.05401v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.05401v1.pdf",
+      "categories": [
+        "cs.RO",
+        "cs.CL"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
       "title": "WorldSculpt: Generating Compositional Worlds from Grounded Videos",
       "authors": "Muyao Niu, Jixuan He, Ruihan Yu et al.",
       "abstract": "We study the problem of generating a compositional 3D representation of a cluttered scene containing hundreds of objects. The goal is to represent the scene as a collection of individual object meshes placed in a shared world frame, as required by downstream applications such as gaming, AR/VR, simul...",
@@ -65,6 +98,23 @@
         "cs.CV",
         "cs.GR",
         "cs.LG"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "CrossDepth: Geometry-Constrained Attention for Generalizable Multi-View Surround Depth Estimation",
+      "authors": "Samer Abualhanud, Max Mehltretter",
+      "abstract": "Reliable 3D understanding of the surrounding environment is a core requirement for autonomous driving. Multi-view surround camera rigs provide broad scene coverage, but the spatially adjacent images typically overlap only minimally. Consequently, the depth of most pixels must be inferred from monocu...",
+      "venue": "arXiv",
+      "date": "2026-09-04",
+      "arxiv_id": "2609.05397v1",
+      "url": "https://arxiv.org/abs/2609.05397v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.05397v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
       ],
       "type": "vision",
       "badge": "arxiv",

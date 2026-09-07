@@ -3,6 +3,18 @@
   "count": 200,
   "items": [
     {
+      "title": "[中国 具 身 智 能 学脉调查：李泽湘教授在造一支机器人军团",
+      "summary": "[中国 具 身 智 能 学脉调查：李泽湘教授在造一支机器人军团",
+      "url": "http://36kr.com/p/3973040623218947",
+      "date": "2026-09-07",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
       "title": "[立昂机器人完成千万级战略融资，加速构建轻工业 具 身 智 能“数据—模型—技能”闭环",
       "summary": "[立昂机器人完成千万级战略融资，加速构建轻工业 具 身 智 能“数据—模型—技能”闭环",
       "url": "http://36kr.com/p/3965678197710089",
@@ -2998,22 +3010,6 @@
       "type": "paper",
       "arxiv_id": "2608.05047v1",
       "authors": "Zetong Xuan, Yu Wang",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "BridgeVLA++: A Data-Efficient, Generalizable, and Memory-Augmented Vision-Language-Action Framework for 3D Manipulation",
-      "summary": "Leveraging pre-trained vision-language models (VLMs) to construct vision-language-action (VLA) models has emerged as a promising paradigm for 3D robot manipulation. However, existing 3D VLA methods remain data-hungry, exhibit limited generalization u...",
-      "url": "https://arxiv.org/abs/2608.05042v1",
-      "date": "2026-08-05",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.05042v1",
-      "authors": "Peiyan Li, Yuze Zhu et al.",
       "tags": [
         "机器人学习",
         "研究论文",
