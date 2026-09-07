@@ -1,7 +1,7 @@
 {
   "last_updated": "2026-09-07",
   "count": 200,
-  "history_count": 205,
+  "history_count": 201,
   "retention_days": 30,
   "items": [
     {
@@ -77,18 +77,6 @@
       ]
     },
     {
-      "title": "Markdown Content:",
-      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-      "summary": "Markdown Content:...",
-      "date": "2026-09-06",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
       "title": "1位菲尔兹奖得主+12位博士，这些俄罗斯数学家训出了顶级AI",
       "link": "https://www.jiqizhixin.com/search/articles/1位菲尔兹奖得主+12位博士，",
       "summary": "1位菲尔兹奖得主+12位博士，这些俄罗斯数学家训出了顶级AI...",
@@ -140,6 +128,30 @@
       "title": "Claude把千禧年难题做出来了？陶哲轩：我可没这么说",
       "link": "https://www.jiqizhixin.com/search/articles/Claude把千禧年难题做出来",
       "summary": "Claude把千禧年难题做出来了？陶哲轩：我可没这么说...",
+      "date": "2026-09-06",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "从「看见人」到「行动如人」：基础模型时代的Human-Centric AI全谱系综述",
+      "link": "https://www.jiqizhixin.com/search/articles/从「看见人」到「行动如人」：基",
+      "summary": "从「看见人」到「行动如人」：基础模型时代的Human-Centric AI全谱系综述...",
+      "date": "2026-09-06",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "Markdown Content:",
+      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+      "summary": "Markdown Content:...",
       "date": "2026-09-06",
       "source": "机器之心",
       "type": "industry",
@@ -2386,18 +2398,6 @@
       "summary": "当季实现营收1834亿元人民币，同比猛增43%，创历史新高...",
       "date": "2026-08-16",
       "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "浙大团队开源AI科研智能体Polaris：让AI与你一起做研究",
-      "link": "https://www.jiqizhixin.com/search/articles/浙大团队开源AI科研智能体Po",
-      "summary": "浙大团队开源AI科研智能体Polaris：让AI与你一起做研究...",
-      "date": "2026-08-15",
-      "source": "机器之心",
       "type": "industry",
       "tags": [
         "AI",

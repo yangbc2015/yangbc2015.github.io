@@ -159,6 +159,19 @@
       ]
     },
     {
+      "title": "推进具身数据采集与服务、空间/具身智能控制器、世界模型及机器人技能平台的研发，并重点在电子制造、食品、医药等轻工业领域拓展真实应用场景。",
+      "summary": "推进具身数据采集与服务、空间/具身智能控制器、世界模型及机器人技能平台的研发，并重点在电子制造、食品、医药等轻工业领域拓展真实应用场景。",
+      "url": "http://36kr.com/p/3965678197710089",
+      "date": "2026-09-03",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
       "title": "GIFT: Guided Intermediate Feature Training via Action-Oriented Structural Supervision for Robotic Manipulation",
       "summary": "Vision-language pre-training and predictive world modeling provide robot policies with rich semantic and dynamic visual features, but their native action and visual-prediction objectives may omit critical physical and task structure while retaining c...",
       "url": "https://arxiv.org/abs/2609.04193v1",
@@ -236,19 +249,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "推进具身数据采集与服务、空间/具身智能控制器、世界模型及机器人技能平台的研发，并重点在电子制造、食品、医药等轻工业领域拓展真实应用场景。",
-      "summary": "推进具身数据采集与服务、空间/具身智能控制器、世界模型及机器人技能平台的研发，并重点在电子制造、食品、医药等轻工业领域拓展真实应用场景。",
-      "url": "http://36kr.com/p/3965678197710089",
-      "date": "2026-09-03",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
       ]
     },
     {
