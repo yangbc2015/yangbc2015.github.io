@@ -1,124 +1,72 @@
 {
   "last_updated": "2026-09-07",
-  "count": 7,
+  "count": 4,
   "items": [
     {
-      "title": "RoboSPA: Can VLA Models Go Beyond Simple Scenes and Short-Horizon Tasks?",
-      "authors": "Zhenxuan Fan, Bo Zhang, Yutong Lin et al.",
-      "abstract": "Vision-Language-Action (VLA) models have shown promising progress in language-conditioned robotic manipulation. However, existing datasets and benchmarks mainly evaluate task completion under predefined settings, offering limited insight into model reasoning under increasing spatial and procedural c...",
+      "title": "Diffusion TV: Experiencing Diffusion Models through Tangible, Embodied Interaction",
+      "authors": "Sihwa Park",
+      "abstract": "Diffusion TV is an interactive AI art installation that offers a tangible and embodied experience of diffusion models through a modified CRT TV. By physically manipulating the TV's antenna, audiences control the clarity of AI-generated images and sounds, metaphorically enacting the denoising process...",
       "venue": "arXiv",
       "date": "2026-09-04",
-      "arxiv_id": "2609.05324v1",
-      "url": "https://arxiv.org/abs/2609.05324v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.05324v1.pdf",
+      "arxiv_id": "2609.05404v1",
+      "url": "https://arxiv.org/abs/2609.05404v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.05404v1.pdf",
       "categories": [
-        "cs.RO",
-        "cs.AI",
-        "cs.CV"
+        "cs.HC",
+        "cs.AI"
       ],
-      "type": "vision",
+      "type": "ai",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Large Language Models for HVAC Operations in Building Energy Systems: A Critical Review of Methods, Applications, and Deployment Readiness",
-      "authors": "Alexander Neubauer, Tianzhen Hong, Han Li et al.",
-      "abstract": "Building automation systems generate rich sensor data yet remain insight-poor because heterogeneous point naming, missing metadata, and fragmented documentation obstruct their operational use. This systematic review analyses and codes 66 peer-reviewed studies on large language models (LLMs) for HVAC...",
+      "title": "RegionFed: Federated Learning for Personalized Query Understanding in Heterogeneous Retail Environments",
+      "authors": "Quoc H. Nguyen, Ali Lafzi, Abhijeet Phatak et al.",
+      "abstract": "Retail search systems serve diverse geographic regions with distinct query patterns, vocabularies, and product preferences, creating significant data heterogeneity that challenges both privacy-preserving training and model personalization. Federated learning offers a natural solution for privacy, bu...",
       "venue": "arXiv",
       "date": "2026-09-04",
-      "arxiv_id": "2609.05314v1",
-      "url": "https://arxiv.org/abs/2609.05314v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.05314v1.pdf",
-      "categories": [
-        "cs.AI",
-        "cs.CL",
-        "eess.SY"
-      ],
-      "type": "survey",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "LexFlip: A Dissociation Diagnostic for Legal Meaning Preservation Metrics",
-      "authors": "Gaurab Baral",
-      "abstract": "Does a simplified legal clause still say what the original said? The checks in current use cannot establish that it does: requiring an identical pair to score highest and an unrelated pair lowest moves lexical overlap and legal force together, so any monotone function of token overlap satisfies both...",
-      "venue": "arXiv",
-      "date": "2026-09-04",
-      "arxiv_id": "2609.05296v1",
-      "url": "https://arxiv.org/abs/2609.05296v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.05296v1.pdf",
-      "categories": [
-        "cs.CL",
-        "cs.LG"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Scalable Detection of Fossil Palynomorphs in Multifocal Digital Microscopy Images",
-      "authors": "Abbas Shaikh, Praise Mayor, Patrick Ainlay-Vazquez et al.",
-      "abstract": "Palynomorphs (microscopic, organic-walled fossils such as pollen, spores, and dinoflagellates) are important high-resolution records of past climates and are critical to the study of ancient ecosystems. Existing methods rely on manual analysis of high-resolution, multifocal digital microscopy images...",
-      "venue": "arXiv",
-      "date": "2026-09-04",
-      "arxiv_id": "2609.05323v1",
-      "url": "https://arxiv.org/abs/2609.05323v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.05323v1.pdf",
-      "categories": [
-        "cs.CV"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Adaptive Gated Deepfake Detection for Low-Resolution and Resource-Constrained Environments",
-      "authors": "Vaishnavi Sen, Cody Laurie, Rashida Hasan",
-      "abstract": "Deepfake detection models often rely on high-quality inputs, fixed inference paths, and computationally expensive architectures, limiting their use in low-resolution and resource-constrained settings. This paper proposes AdaGate-DF, an adaptive gated deepfake detection framework that uses image-qual...",
-      "venue": "arXiv",
-      "date": "2026-09-04",
-      "arxiv_id": "2609.05320v1",
-      "url": "https://arxiv.org/abs/2609.05320v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.05320v1.pdf",
-      "categories": [
-        "cs.CV",
-        "cs.LG"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Optimal Rates for Agentic Networked Information Aggregation",
-      "authors": "MohammadHossein Bateni, Zahra Hadizadeh, MohammadTaghi Hajiaghayi et al.",
-      "abstract": "Building on the pioneering paper of Kearns, Roth, and Ryu (SODA'26), we study information aggregation in a networked learning model. The model captures a central pattern in agentic AI: each agent sees only part of the data and passes on only its own conclusion. Their model considers a linear regress...",
-      "venue": "arXiv",
-      "date": "2026-09-04",
-      "arxiv_id": "2609.05318v1",
-      "url": "https://arxiv.org/abs/2609.05318v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.05318v1.pdf",
+      "arxiv_id": "2609.05403v1",
+      "url": "https://arxiv.org/abs/2609.05403v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.05403v1.pdf",
       "categories": [
         "cs.LG",
-        "cs.GT",
-        "econ.TH"
+        "cs.AI"
       ],
       "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "FIRE-LIVWO: Robust LiDAR-Inertial-Visual-Wheel Odometry via Failure-Immune mmWave Radar Enhancement",
-      "authors": "Kun Hu, Menggang Li, Kaidi Wu et al.",
-      "abstract": "Achieving robust SLAM in large-scale underground coal mines with complex structures and severe degeneracies remains highly challenging. Dense smoke and dust cause substantial loss of visual information and degrade LiDAR point-cloud features, while long, self-similar corridors induce geometric degene...",
+      "title": "WorldSculpt: Generating Compositional Worlds from Grounded Videos",
+      "authors": "Muyao Niu, Jixuan He, Ruihan Yu et al.",
+      "abstract": "We study the problem of generating a compositional 3D representation of a cluttered scene containing hundreds of objects. The goal is to represent the scene as a collection of individual object meshes placed in a shared world frame, as required by downstream applications such as gaming, AR/VR, simul...",
       "venue": "arXiv",
       "date": "2026-09-04",
-      "arxiv_id": "2609.05325v1",
-      "url": "https://arxiv.org/abs/2609.05325v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.05325v1.pdf",
+      "arxiv_id": "2609.05416v1",
+      "url": "https://arxiv.org/abs/2609.05416v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.05416v1.pdf",
       "categories": [
-        "cs.RO"
+        "cs.CV"
       ],
-      "type": "ai",
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "UniMate: One Unified Model to Animate Diverse Skeletons",
+      "authors": "Linzhan Mou, Jiahui Lei, Zhiyang Dou et al.",
+      "abstract": "Recent advances in automatic rigging now deliver animation-ready 3D assets at scale, yet generating the motion to drive them remains a bottleneck. Existing learned animators are topology-constrained: they rely on category-specific templates or require per-skeleton fine-tuning and reference motions a...",
+      "venue": "arXiv",
+      "date": "2026-09-04",
+      "arxiv_id": "2609.05415v1",
+      "url": "https://arxiv.org/abs/2609.05415v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.05415v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.GR",
+        "cs.LG"
+      ],
+      "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     }

@@ -15,6 +15,99 @@
       ]
     },
     {
+      "title": "Same Trajectory, Contradictory Rewards (ROBORMBENCH): Paraphrase Fragility in Vision Language Reward Models",
+      "summary": "Vision-language models are increasingly used as reward functions for robotic learning, but this role requires paraphrase invariance: the same trajectory should receive the same reward under semantically equivalent goal descriptions. We show that curr...",
+      "url": "https://arxiv.org/abs/2609.05401v1",
+      "date": "2026-09-04",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.05401v1",
+      "authors": "Wonje Jeung, Sangyeon Yoon et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "CrossDepth: Geometry-Constrained Attention for Generalizable Multi-View Surround Depth Estimation",
+      "summary": "Reliable 3D understanding of the surrounding environment is a core requirement for autonomous driving. Multi-view surround camera rigs provide broad scene coverage, but the spatially adjacent images typically overlap only minimally. Consequently, the...",
+      "url": "https://arxiv.org/abs/2609.05397v1",
+      "date": "2026-09-04",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.05397v1",
+      "authors": "Samer Abualhanud, Max Mehltretter",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "What Matters, When? Diagnosing and Improving Conditional Visual Grounding in Visuomotor Imitation Policies",
+      "summary": "Visuomotor imitation policies can achieve high performance under in-distribution visual conditions yet fail when visually similar objects or receptacles are introduced. We study this behavior as a problem of conditional visual grounding: the visual t...",
+      "url": "https://arxiv.org/abs/2609.05376v1",
+      "date": "2026-09-04",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.05376v1",
+      "authors": "Vivek Chavan, Pengtao Xie et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Towards Neuro-Symbolic Procedural Reasoning for Long-Horizon Vision-Language-Action Manipulation",
+      "summary": "Vision-language-action (VLA) models can execute short manipulation skills, but remain brittle in long-horizon procedures requiring persistent task state, dependency-aware reasoning, conditional decisions, and reliable grounding. We investigate a neur...",
+      "url": "https://arxiv.org/abs/2609.05369v1",
+      "date": "2026-09-04",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.05369v1",
+      "authors": "Vivek Chavan, Yahuan Shi et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Development of a Humanoid Robot Prototype for Multimodal Human-Robot Interaction",
+      "summary": "Human-robot interaction (HRI) enables intuitive and intelligent collaboration between humans and robots in real-world environments. This paper introduces a humanoid robot prototype designed as a flexible testbed for developing and integrating artific...",
+      "url": "https://arxiv.org/abs/2609.05361v1",
+      "date": "2026-09-04",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.05361v1",
+      "authors": "Thang Tran Viet, Thanh Nguyen Canh et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "具身智能正从技术突破迈向规模化落地，但技术、场景与资本之间仍隔着信息差与信任门槛。",
+      "summary": "具身智能正从技术突破迈向规模化落地，但技术、场景与资本之间仍隔着信息差与信任门槛。",
+      "url": "http://36kr.com/p/3968476398367233",
+      "date": "2026-09-04",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
       "title": "FIRE-LIVWO: Robust LiDAR-Inertial-Visual-Wheel Odometry via Failure-Immune mmWave Radar Enhancement",
       "summary": "Achieving robust SLAM in large-scale underground coal mines with complex structures and severe degeneracies remains highly challenging. Dense smoke and dust cause substantial loss of visual information and degrade LiDAR point-cloud features, while lo...",
       "url": "https://arxiv.org/abs/2609.05325v1",
@@ -92,19 +185,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "具身智能正从技术突破迈向规模化落地，但技术、场景与资本之间仍隔着信息差与信任门槛。",
-      "summary": "具身智能正从技术突破迈向规模化落地，但技术、场景与资本之间仍隔着信息差与信任门槛。",
-      "url": "http://36kr.com/p/3968476398367233",
-      "date": "2026-09-04",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
       ]
     },
     {
@@ -2934,80 +3014,6 @@
       "type": "paper",
       "arxiv_id": "2608.05042v1",
       "authors": "Peiyan Li, Yuze Zhu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "具身智能仰望星空的AI梦想，终究需要AIoT在物理世界铺设的轨道来承载。",
-      "summary": "具身智能仰望星空的AI梦想，终究需要AIoT在物理世界铺设的轨道来承载。",
-      "url": "http://36kr.com/p/3924990112839813",
-      "date": "2026-08-04",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "风火轮萤图获3000万融资，研发主动交互具身大脑",
-      "summary": "风火轮萤图获3000万融资，研发主动交互具身大脑",
-      "url": "http://36kr.com/p/3923260535221634",
-      "date": "2026-08-04",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "Stochastic Multiple Shooting Trajectory Optimization via Sequential Local Policy Evaluation",
-      "summary": "Stochastic single shooting trajectory optimization methods such as Model Predictive Path Integral control (MPPI) have been widely adopted in robotics due to their ability to reason about probabilistic dynamics and provide solutions where model gradie...",
-      "url": "https://arxiv.org/abs/2608.03978v1",
-      "date": "2026-08-04",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.03978v1",
-      "authors": "Ashwin Gupta, Joseph Moore",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Bimanual Manipulation Within an 8 GB Budget: Zero-Copy Sensing and Quantized ACT on an Entry-Level Jetson",
-      "summary": "Bimanual manipulation policies trained with imitation learning are typically evaluated on workstation or datacenter-class GPUs, leaving the cost of deploying them on embedded hardware largely uncharacterized. We present a bimanual SO-101 system runni...",
-      "url": "https://arxiv.org/abs/2608.03938v1",
-      "date": "2026-08-04",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.03938v1",
-      "authors": "Ekansh Singh, Eva Samuel et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "ETA: A New Agentic Paradigm for Embodied Tasks",
-      "summary": "When will robots have their ChatGPT moment? Such a breakthrough requires a general-purpose robot that can handle unfamiliar tasks in unfamiliar environments, remain controllable over long interactions, and learn from experience. Today's embodied syst...",
-      "url": "https://arxiv.org/abs/2608.03924v1",
-      "date": "2026-08-04",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.03924v1",
-      "authors": "Yitong Chen, Zezheng Huai et al.",
       "tags": [
         "机器人学习",
         "研究论文",
