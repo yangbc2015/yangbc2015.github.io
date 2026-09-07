@@ -1,17 +1,97 @@
 {
-  "last_updated": "2026-09-06",
+  "last_updated": "2026-09-07",
   "count": 200,
   "items": [
     {
       "title": "[立昂机器人完成千万级战略融资，加速构建轻工业 具 身 智 能“数据—模型—技能”闭环",
       "summary": "[立昂机器人完成千万级战略融资，加速构建轻工业 具 身 智 能“数据—模型—技能”闭环",
       "url": "http://36kr.com/p/3965678197710089",
-      "date": "2026-09-06",
+      "date": "2026-09-07",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
       "tags": [
         "机器人"
+      ]
+    },
+    {
+      "title": "FIRE-LIVWO: Robust LiDAR-Inertial-Visual-Wheel Odometry via Failure-Immune mmWave Radar Enhancement",
+      "summary": "Achieving robust SLAM in large-scale underground coal mines with complex structures and severe degeneracies remains highly challenging. Dense smoke and dust cause substantial loss of visual information and degrade LiDAR point-cloud features, while lo...",
+      "url": "https://arxiv.org/abs/2609.05325v1",
+      "date": "2026-09-04",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.05325v1",
+      "authors": "Kun Hu, Menggang Li et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "RoboSPA: Can VLA Models Go Beyond Simple Scenes and Short-Horizon Tasks?",
+      "summary": "Vision-Language-Action (VLA) models have shown promising progress in language-conditioned robotic manipulation. However, existing datasets and benchmarks mainly evaluate task completion under predefined settings, offering limited insight into model r...",
+      "url": "https://arxiv.org/abs/2609.05324v1",
+      "date": "2026-09-04",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.05324v1",
+      "authors": "Zhenxuan Fan, Bo Zhang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Human-Human & Human-Robot Interaction Transformer (H2INT) for Robot Navigation in Dense and Uncertain Crowds",
+      "summary": "Safe robot navigation in dense crowds requires reasoning about pedestrian motion and how it may change in response to a robot. However, many learning-based approaches generate pedestrian motion independently of the robot or assume uniform reciprocity...",
+      "url": "https://arxiv.org/abs/2609.05300v1",
+      "date": "2026-09-04",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.05300v1",
+      "authors": "Ao Shen, Kaixi Chen et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Temporal Tactile Encoding and Compliance for Intent-Aware Robot-to-Human Bimanual Handover",
+      "summary": "Reliable robot-to-human handover requires the robot to infer when the person is ready to receive the object, and release it safely, comfortably, and at the right time. This is challenging because visual observations alone may not disambiguate clear t...",
+      "url": "https://arxiv.org/abs/2609.05282v1",
+      "date": "2026-09-04",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.05282v1",
+      "authors": "Pasquale Marra, Stefano Berti et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "TacPAC: Tactile Prediction and Real-Time Action Correction in World-Action Models for Contact-Rich Manipulation",
+      "summary": "World-action models guide action generation with predicted future observations, but vision-centric predictions miss the local contact cues that decide contact-rich manipulation. However, naively predicting future tactile observations as additional vi...",
+      "url": "https://arxiv.org/abs/2609.05266v1",
+      "date": "2026-09-04",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.05266v1",
+      "authors": "Zipei Ma, Xiaofei Wei et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
       ]
     },
     {
@@ -37,6 +117,45 @@
       "type": "news",
       "tags": [
         "机器人"
+      ]
+    },
+    {
+      "title": "卷了三年大模型，机器人为什么还是“站不起来”？",
+      "summary": "卷了三年大模型，机器人为什么还是“站不起来”？",
+      "url": "http://36kr.com/p/3967205548038022",
+      "date": "2026-09-03",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
+      "title": "天链机器人推出高性价比TCE605机械臂，助力具身智能落地",
+      "summary": "天链机器人推出高性价比TCE605机械臂，助力具身智能落地",
+      "url": "http://36kr.com/p/3967321548856832",
+      "date": "2026-09-03",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能",
+        "机械臂"
+      ]
+    },
+    {
+      "title": "姚期智搭了四年的台，正好赶上具身智能这阵风",
+      "summary": "姚期智搭了四年的台，正好赶上具身智能这阵风",
+      "url": "http://36kr.com/p/3966038087376393",
+      "date": "2026-09-03",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
       ]
     },
     {
@@ -117,45 +236,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "卷了三年大模型，机器人为什么还是“站不起来”？",
-      "summary": "卷了三年大模型，机器人为什么还是“站不起来”？",
-      "url": "http://36kr.com/p/3967205548038022",
-      "date": "2026-09-03",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
-      ]
-    },
-    {
-      "title": "天链机器人推出高性价比TCE605机械臂，助力具身智能落地",
-      "summary": "天链机器人推出高性价比TCE605机械臂，助力具身智能落地",
-      "url": "http://36kr.com/p/3967321548856832",
-      "date": "2026-09-03",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能",
-        "机械臂"
-      ]
-    },
-    {
-      "title": "姚期智搭了四年的台，正好赶上具身智能这阵风",
-      "summary": "姚期智搭了四年的台，正好赶上具身智能这阵风",
-      "url": "http://36kr.com/p/3966038087376393",
-      "date": "2026-09-03",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
       ]
     },
     {
@@ -2928,86 +3008,6 @@
       "type": "paper",
       "arxiv_id": "2608.03924v1",
       "authors": "Yitong Chen, Zezheng Huai et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "EvoHIL: Self-Evolving Reward and Flow-Matched Policy Optimization for Robust Human-in-the-Loop Reinforcement Learning",
-      "summary": "Human-in-the-loop reinforcement learning (HIL-RL) enables robots to learn contact-rich manipulation from limited real-world interaction, but deployment exposes three coupled limitations: static visual reward models fail under scene changes; independe...",
-      "url": "https://arxiv.org/abs/2608.03872v1",
-      "date": "2026-08-04",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.03872v1",
-      "authors": "Shuoqin Zhang, Tongtong Cheng et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Designing Social Robots for Inclusive Child Wellbeing Assessment: Insights from Communities Supporting Developmental Language Disorder and Forced Migration",
-      "summary": "Assessing children's wellbeing and mental health can be particularly challenging for children experiencing communication barriers, such as children with Developmental Language Disorder (DLD) and children with forced migration backgrounds. During the ...",
-      "url": "https://arxiv.org/abs/2608.03820v1",
-      "date": "2026-08-04",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.03820v1",
-      "authors": "Fethiye Irmak Dogan, Yue Lou et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "GORDON: Graph-based Object-centric Rewards for Decomposition of Long-Horizon Manipulation",
-      "summary": "Learning long-horizon manipulation skills with reinforcement learning remains challenging due to the complexity of reward design, the limited guidance of sparse rewards, and the high cost of manual subtask annotation. Visual demonstrations can provid...",
-      "url": "https://arxiv.org/abs/2608.03753v1",
-      "date": "2026-08-04",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.03753v1",
-      "authors": "Andrea Protopapa, Davide Buoso et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Track4Action: Distilling World-Centric 3D Tracker into Vision-Language-Action Policies",
-      "summary": "Action labels tell a vision-language-action (VLA) policy which robot commands to imitate, but not how those commands change the 3D world. The aligned demonstration clip contains this missing supervision because its $K$ frame transitions record the ge...",
-      "url": "https://arxiv.org/abs/2608.03727v1",
-      "date": "2026-08-04",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.03727v1",
-      "authors": "Chenyi Wang, Xinkai Wang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "LiLa-WAM: Lightweight Latent Reasoning World-Action Model for Robotic Manipulation",
-      "summary": "World-action modeling has emerged as a promising paradigm for robotic control, as it empowers models to go beyond reacting to observations and anticipate how a scene will evolve. However, existing WAMs often incur substantial computational overhead. ...",
-      "url": "https://arxiv.org/abs/2608.03701v1",
-      "date": "2026-08-04",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.03701v1",
-      "authors": "Fan Yang, Yuting Su et al.",
       "tags": [
         "机器人学习",
         "研究论文",

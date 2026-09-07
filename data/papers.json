@@ -1,19 +1,54 @@
 {
-  "last_updated": "2026-09-06",
+  "last_updated": "2026-09-07",
   "count": 7,
   "items": [
     {
-      "title": "Compile by Training: Turning Natural-Language Specifications into Local Neural Functions",
-      "authors": "Yuntian Deng, Pengyu Nie, Stuart Shieber",
-      "abstract": "Many recurring text functions are easy to describe but difficult to implement with rules, while calling a large remote model for every input introduces repeated cost, latency, and dependency on a provider. We present compile by training, which turns a natural-language specification into a reusable n...",
+      "title": "RoboSPA: Can VLA Models Go Beyond Simple Scenes and Short-Horizon Tasks?",
+      "authors": "Zhenxuan Fan, Bo Zhang, Yutong Lin et al.",
+      "abstract": "Vision-Language-Action (VLA) models have shown promising progress in language-conditioned robotic manipulation. However, existing datasets and benchmarks mainly evaluate task completion under predefined settings, offering limited insight into model reasoning under increasing spatial and procedural c...",
       "venue": "arXiv",
-      "date": "2026-09-03",
-      "arxiv_id": "2609.04199v1",
-      "url": "https://arxiv.org/abs/2609.04199v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.04199v1.pdf",
+      "date": "2026-09-04",
+      "arxiv_id": "2609.05324v1",
+      "url": "https://arxiv.org/abs/2609.05324v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.05324v1.pdf",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Large Language Models for HVAC Operations in Building Energy Systems: A Critical Review of Methods, Applications, and Deployment Readiness",
+      "authors": "Alexander Neubauer, Tianzhen Hong, Han Li et al.",
+      "abstract": "Building automation systems generate rich sensor data yet remain insight-poor because heterogeneous point naming, missing metadata, and fragmented documentation obstruct their operational use. This systematic review analyses and codes 66 peer-reviewed studies on large language models (LLMs) for HVAC...",
+      "venue": "arXiv",
+      "date": "2026-09-04",
+      "arxiv_id": "2609.05314v1",
+      "url": "https://arxiv.org/abs/2609.05314v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.05314v1.pdf",
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "eess.SY"
+      ],
+      "type": "survey",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "LexFlip: A Dissociation Diagnostic for Legal Meaning Preservation Metrics",
+      "authors": "Gaurab Baral",
+      "abstract": "Does a simplified legal clause still say what the original said? The checks in current use cannot establish that it does: requiring an identical pair to score highest and an unrelated pair lowest moves lexical overlap and legal force together, so any monotone function of token overlap satisfies both...",
+      "venue": "arXiv",
+      "date": "2026-09-04",
+      "arxiv_id": "2609.05296v1",
+      "url": "https://arxiv.org/abs/2609.05296v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.05296v1.pdf",
       "categories": [
         "cs.CL",
-        "cs.AI",
         "cs.LG"
       ],
       "type": "nlp",
@@ -21,98 +56,66 @@
       "source": "arXiv"
     },
     {
-      "title": "Clean Engineering, Unstable Measurement: A Preregistered Reliability Failure of Black-Box LLM Observers on Shared Endpoints",
-      "authors": "Haoyaun Zhu, Jie Zhang",
-      "abstract": "Language-model judges now gate training data, score generations, and drive leaderboards. The judge is then a measurement instrument, resting on one rarely stated assumption: the same request, sent to the same model name, reads the same tomorrow. We audited that assumption in two preregistered campai...",
+      "title": "Scalable Detection of Fossil Palynomorphs in Multifocal Digital Microscopy Images",
+      "authors": "Abbas Shaikh, Praise Mayor, Patrick Ainlay-Vazquez et al.",
+      "abstract": "Palynomorphs (microscopic, organic-walled fossils such as pollen, spores, and dinoflagellates) are important high-resolution records of past climates and are critical to the study of ancient ecosystems. Existing methods rely on manual analysis of high-resolution, multifocal digital microscopy images...",
       "venue": "arXiv",
-      "date": "2026-09-03",
-      "arxiv_id": "2609.04198v1",
-      "url": "https://arxiv.org/abs/2609.04198v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.04198v1.pdf",
+      "date": "2026-09-04",
+      "arxiv_id": "2609.05323v1",
+      "url": "https://arxiv.org/abs/2609.05323v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.05323v1.pdf",
       "categories": [
-        "cs.AI",
+        "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Adaptive Gated Deepfake Detection for Low-Resolution and Resource-Constrained Environments",
+      "authors": "Vaishnavi Sen, Cody Laurie, Rashida Hasan",
+      "abstract": "Deepfake detection models often rely on high-quality inputs, fixed inference paths, and computationally expensive architectures, limiting their use in low-resolution and resource-constrained settings. This paper proposes AdaGate-DF, an adaptive gated deepfake detection framework that uses image-qual...",
+      "venue": "arXiv",
+      "date": "2026-09-04",
+      "arxiv_id": "2609.05320v1",
+      "url": "https://arxiv.org/abs/2609.05320v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.05320v1.pdf",
+      "categories": [
+        "cs.CV",
         "cs.LG"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Optimal Rates for Agentic Networked Information Aggregation",
+      "authors": "MohammadHossein Bateni, Zahra Hadizadeh, MohammadTaghi Hajiaghayi et al.",
+      "abstract": "Building on the pioneering paper of Kearns, Roth, and Ryu (SODA'26), we study information aggregation in a networked learning model. The model captures a central pattern in agentic AI: each agent sees only part of the data and passes on only its own conclusion. Their model considers a linear regress...",
+      "venue": "arXiv",
+      "date": "2026-09-04",
+      "arxiv_id": "2609.05318v1",
+      "url": "https://arxiv.org/abs/2609.05318v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.05318v1.pdf",
+      "categories": [
+        "cs.LG",
+        "cs.GT",
+        "econ.TH"
       ],
       "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "ESPO: Error-Structured Prompt Optimization via Diagnose, Diversify, and Stabilize",
-      "authors": "Lihao Liu, Peng Tang, Kunwar Yashraj Singh et al.",
-      "abstract": "Evolutionary prompt optimizers such as GEPA suffer from prompt bloat: each iteration appends rules and caveats, producing prompts up to 3$\\times$ longer yet no more accurate. We trace this to three deficiencies - incomplete error observation, limited search diversity, and unreliable selection - and ...",
+      "title": "FIRE-LIVWO: Robust LiDAR-Inertial-Visual-Wheel Odometry via Failure-Immune mmWave Radar Enhancement",
+      "authors": "Kun Hu, Menggang Li, Kaidi Wu et al.",
+      "abstract": "Achieving robust SLAM in large-scale underground coal mines with complex structures and severe degeneracies remains highly challenging. Dense smoke and dust cause substantial loss of visual information and degrade LiDAR point-cloud features, while long, self-similar corridors induce geometric degene...",
       "venue": "arXiv",
-      "date": "2026-09-03",
-      "arxiv_id": "2609.04197v1",
-      "url": "https://arxiv.org/abs/2609.04197v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.04197v1.pdf",
+      "date": "2026-09-04",
+      "arxiv_id": "2609.05325v1",
+      "url": "https://arxiv.org/abs/2609.05325v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.05325v1.pdf",
       "categories": [
-        "cs.CL",
-        "cs.AI"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Temporal Self-Distillation: Learning Visual State Tracking in Videos Without Supervision",
-      "authors": "Shravan Venkatraman, Wenshuai Zhao, Mohammad Hassan Vali et al.",
-      "abstract": "We introduce S$^3$T (Self-Supervised Self-Distillation over Time), which, to the best of our knowledge, is the first fully self-contained framework for continuous video state tracking. Our method treats temporal sampling density as privileged information, based on the hypothesis that a denser view o...",
-      "venue": "arXiv",
-      "date": "2026-09-03",
-      "arxiv_id": "2609.04203v1",
-      "url": "https://arxiv.org/abs/2609.04203v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.04203v1.pdf",
-      "categories": [
-        "cs.CV"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "TokenMatch: 3D Mesh Correspondence Transformer with Curvature-Guided Tokenisation",
-      "authors": "Adeela Islam, Zorah Lähner, Vittorio Murino et al.",
-      "abstract": "While data-driven 3D shape correspondence estimation has recently seen substantial progress, robust matching under partial observations and strong non-isometric deformations remains challenging. Existing learning-based approaches often rely on hand-crafted descriptors or template-based representatio...",
-      "venue": "arXiv",
-      "date": "2026-09-03",
-      "arxiv_id": "2609.04202v1",
-      "url": "https://arxiv.org/abs/2609.04202v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.04202v1.pdf",
-      "categories": [
-        "cs.CV"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "GIFT: Guided Intermediate Feature Training via Action-Oriented Structural Supervision for Robotic Manipulation",
-      "authors": "Yupeng Zheng, Xiang Li, Songen Gu et al.",
-      "abstract": "Vision-language pre-training and predictive world modeling provide robot policies with rich semantic and dynamic visual features, but their native action and visual-prediction objectives may omit critical physical and task structure while retaining control-irrelevant visual redundancy. We call this ...",
-      "venue": "arXiv",
-      "date": "2026-09-03",
-      "arxiv_id": "2609.04193v1",
-      "url": "https://arxiv.org/abs/2609.04193v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.04193v1.pdf",
-      "categories": [
-        "cs.RO"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Formation Matrix and Energy-based Control of Multi-Agent Systems",
-      "authors": "Martín Crespo, Sergio Junco, Matías Nacusse",
-      "abstract": "This paper presents an energy-based controller for a multiagent robotic system designed to achieve and maintain a specific formation while moving on a plane and avoiding collisions between agents. The controller emulates a network of elementary spring-damper modules connecting pairs of agents. This ...",
-      "venue": "arXiv",
-      "date": "2026-09-03",
-      "arxiv_id": "2609.04158v1",
-      "url": "https://arxiv.org/abs/2609.04158v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.04158v1.pdf",
-      "categories": [
-        "eess.SY",
         "cs.RO"
       ],
       "type": "ai",
