@@ -27,6 +27,19 @@
       ]
     },
     {
+      "title": "具身智能正从技术突破迈向规模化落地，但技术、场景与资本之间仍隔着信息差与信任门槛。",
+      "summary": "具身智能正从技术突破迈向规模化落地，但技术、场景与资本之间仍隔着信息差与信任门槛。",
+      "url": "http://36kr.com/p/3968476398367233",
+      "date": "2026-09-04",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
       "title": "Same Trajectory, Contradictory Rewards (ROBORMBENCH): Paraphrase Fragility in Vision Language Reward Models",
       "summary": "Vision-language models are increasingly used as reward functions for robotic learning, but this role requires paraphrase invariance: the same trajectory should receive the same reward under semantically equivalent goal descriptions. We show that curr...",
       "url": "https://arxiv.org/abs/2609.05401v1",
@@ -104,19 +117,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "具身智能正从技术突破迈向规模化落地，但技术、场景与资本之间仍隔着信息差与信任门槛。",
-      "summary": "具身智能正从技术突破迈向规模化落地，但技术、场景与资本之间仍隔着信息差与信任门槛。",
-      "url": "http://36kr.com/p/3968476398367233",
-      "date": "2026-09-04",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
       ]
     },
     {
