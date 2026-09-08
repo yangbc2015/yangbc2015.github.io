@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-07",
-  "last_updated": "2026-09-07",
+  "date": "2026-09-08",
+  "last_updated": "2026-09-08",
   "categories": {
     "ai": {
       "name": "人工智能",
@@ -8,47 +8,11 @@
       "count": 5,
       "items": [
         {
-          "title": "1位菲尔兹奖得主+12位博士，这些俄罗斯数学家训出了顶级AI",
-          "link": "https://www.jiqizhixin.com/search/articles/1位菲尔兹奖得主+12位博士，",
-          "summary": "1位菲尔兹奖得主+12位博士，这些俄罗斯数学家训出了顶级AI...",
-          "date": "2026-09-06",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
-          "title": "GPT-6 Astra杀疯了：只要你学得够慢，就可以不用学了？",
-          "link": "https://www.jiqizhixin.com/search/articles/GPT-6 Astra杀疯了：",
-          "summary": "GPT-6 Astra杀疯了：只要你学得够慢，就可以不用学了？...",
-          "date": "2026-09-06",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
-          "title": "不会写代码的人，在B站造出了百万用户产品",
-          "link": "https://www.jiqizhixin.com/search/articles/不会写代码的人，在B站造出了百",
-          "summary": "不会写代码的人，在B站造出了百万用户产品...",
-          "date": "2026-09-06",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
-          "title": "OpenAI研究院人均带3个AI实习生",
-          "link": "https://www.qbitai.com/?s=OpenAI研究院人",
-          "summary": "OpenAI研究院人均带3个AI实习生...",
+          "title": "Markdown Content:",
+          "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+          "summary": "Markdown Content:...",
           "date": "2026-09-07",
-          "source": "量子位",
+          "source": "机器之心",
           "type": "industry",
           "tags": [
             "AI",
@@ -56,11 +20,47 @@
           ]
         },
         {
-          "title": "10 月 16–17 日，面向全球开发者的开源技术大会 GOSIM 将首次来到深圳，举办 GOSIM Shenzhen 2026。",
-          "link": "https://www.qbitai.com/?s=10 月 16–17",
-          "summary": "10 月 16–17 日，面向全球开发者的开源技术大会 GOSIM 将首次来到深圳，举办 GOSIM Shenzhen 2026。...",
+          "title": "全扩散架构、无需图文对预训练，LLaDA杀穿开源文生图",
+          "link": "https://www.jiqizhixin.com/search/articles/全扩散架构、无需图文对预训练，",
+          "summary": "全扩散架构、无需图文对预训练，LLaDA杀穿开源文生图...",
           "date": "2026-09-07",
-          "source": "量子位",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "超越CRISPR？基因调控新利器TIGRa：体积小、效率高，在体内发挥作用",
+          "link": "https://www.jiqizhixin.com/search/articles/超越CRISPR？基因调控新利",
+          "summary": "超越CRISPR？基因调控新利器TIGRa：体积小、效率高，在体内发挥作用...",
+          "date": "2026-09-07",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "不注册、不花钱，10秒出一条带声音的AI视频，这家公司要干啥？",
+          "link": "https://www.jiqizhixin.com/search/articles/不注册、不花钱，10秒出一条带",
+          "summary": "不注册、不花钱，10秒出一条带声音的AI视频，这家公司要干啥？...",
+          "date": "2026-09-07",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "颜水成团队重磅发布VoiceMem,提出「流式双脑架构」打造下一代实时交互基础设施",
+          "link": "https://www.jiqizhixin.com/search/articles/颜水成团队重磅发布VoiceM",
+          "summary": "颜水成团队重磅发布VoiceMem,提出「流式双脑架构」打造下一代实时交互基础设施...",
+          "date": "2026-09-07",
+          "source": "机器之心",
           "type": "industry",
           "tags": [
             "AI",
