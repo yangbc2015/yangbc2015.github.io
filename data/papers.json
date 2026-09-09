@@ -1,68 +1,37 @@
 {
-  "last_updated": "2026-09-08",
-  "count": 7,
+  "last_updated": "2026-09-09",
+  "count": 6,
   "items": [
     {
-      "title": "Diffusion TV: Experiencing Diffusion Models through Tangible, Embodied Interaction",
-      "authors": "Sihwa Park",
-      "abstract": "Diffusion TV is an interactive AI art installation that offers a tangible and embodied experience of diffusion models through a modified CRT TV. By physically manipulating the TV's antenna, audiences control the clarity of AI-generated images and sounds, metaphorically enacting the denoising process...",
+      "title": "ProcArena: A Multi-Scenario Benchmark for LLMs on Direct and Interactive PL/SQL Development from Natural Language",
+      "authors": "Hang Zhang, Chaokun Wang, Yuzhi Pan et al.",
+      "abstract": "Large language models (LLMs) have shown strong potential for translating natural-language (NL) requirements into PL/SQL programs, attracting increasing attention from the database community. However, existing NL-to-PL/SQL efforts primarily focus on directly generating PL/SQL from complete NL require...",
       "venue": "arXiv",
-      "date": "2026-09-04",
-      "arxiv_id": "2609.05404v1",
-      "url": "https://arxiv.org/abs/2609.05404v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.05404v1.pdf",
+      "date": "2026-09-06",
+      "arxiv_id": "2609.06527v1",
+      "url": "https://arxiv.org/abs/2609.06527v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.06527v1.pdf",
       "categories": [
-        "cs.HC",
-        "cs.AI"
-      ],
-      "type": "ai",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "RegionFed: Federated Learning for Personalized Query Understanding in Heterogeneous Retail Environments",
-      "authors": "Quoc H. Nguyen, Ali Lafzi, Abhijeet Phatak et al.",
-      "abstract": "Retail search systems serve diverse geographic regions with distinct query patterns, vocabularies, and product preferences, creating significant data heterogeneity that challenges both privacy-preserving training and model personalization. Federated learning offers a natural solution for privacy, bu...",
-      "venue": "arXiv",
-      "date": "2026-09-04",
-      "arxiv_id": "2609.05403v1",
-      "url": "https://arxiv.org/abs/2609.05403v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.05403v1.pdf",
-      "categories": [
-        "cs.LG",
-        "cs.AI"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "WearableQA: A Benchmark for Health Reasoning over Real-World Wearable Data",
-      "authors": "Ji Soo Lee, Xilun Chen, Pierce Chuang et al.",
-      "abstract": "Recent advances in wearable sensing enable continuous monitoring of physiological and behavioral signals, yet existing benchmarks rarely evaluate whether AI systems can reason over a real user's longitudinal wearable record. We introduce WearableQA, a benchmark comprising 4,084 10-option multiple-ch...",
-      "venue": "arXiv",
-      "date": "2026-09-04",
-      "arxiv_id": "2609.05405v1",
-      "url": "https://arxiv.org/abs/2609.05405v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.05405v1.pdf",
-      "categories": [
-        "cs.CL"
+        "cs.CL",
+        "cs.AI",
+        "cs.DB"
       ],
       "type": "benchmark",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Same Trajectory, Contradictory Rewards (ROBORMBENCH): Paraphrase Fragility in Vision Language Reward Models",
-      "authors": "Wonje Jeung, Sangyeon Yoon, Hyesoo Hong et al.",
-      "abstract": "Vision-language models are increasingly used as reward functions for robotic learning, but this role requires paraphrase invariance: the same trajectory should receive the same reward under semantically equivalent goal descriptions. We show that current VLM reward models often violate this property....",
+      "title": "OracleZoom: On-Policy Self-Distillation Inspired Reference-Constrained Recursive Image Super Resolution",
+      "authors": "Shubhashis Roy Dipta, Sourajit Saha, Shaswati Saha et al.",
+      "abstract": "Recursive Super-Resolution (SR) extends fixed-scale SR to extreme magnification by repeatedly feeding predictions back into the same model, analogous to zooming an image repeatedly. However, ground truth availability at every scale, especially at depth, remains challenging as the required source res...",
       "venue": "arXiv",
-      "date": "2026-09-04",
-      "arxiv_id": "2609.05401v1",
-      "url": "https://arxiv.org/abs/2609.05401v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.05401v1.pdf",
+      "date": "2026-09-06",
+      "arxiv_id": "2609.06490v1",
+      "url": "https://arxiv.org/abs/2609.06490v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.06490v1.pdf",
       "categories": [
-        "cs.RO",
+        "cs.CV",
+        "cs.AI",
         "cs.CL"
       ],
       "type": "nlp",
@@ -70,14 +39,14 @@
       "source": "arXiv"
     },
     {
-      "title": "WorldSculpt: Generating Compositional Worlds from Grounded Videos",
-      "authors": "Muyao Niu, Jixuan He, Ruihan Yu et al.",
-      "abstract": "We study the problem of generating a compositional 3D representation of a cluttered scene containing hundreds of objects. The goal is to represent the scene as a collection of individual object meshes placed in a shared world frame, as required by downstream applications such as gaming, AR/VR, simul...",
+      "title": "Selective Knowledge Control for Continual GUI Agent Learning over Application Streams",
+      "authors": "Zirui Shang, Xin Shu, Yang Liu et al.",
+      "abstract": "Continual learning is a crucial capability for Graphical User Interface (GUI) agents to adapt to evolving applications while retaining knowledge acquired from previous applications. Such application streams pose a challenging knowledge modeling problem: new applications often share underlying knowle...",
       "venue": "arXiv",
-      "date": "2026-09-04",
-      "arxiv_id": "2609.05416v1",
-      "url": "https://arxiv.org/abs/2609.05416v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.05416v1.pdf",
+      "date": "2026-09-06",
+      "arxiv_id": "2609.06530v1",
+      "url": "https://arxiv.org/abs/2609.06530v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.06530v1.pdf",
       "categories": [
         "cs.CV"
       ],
@@ -86,37 +55,50 @@
       "source": "arXiv"
     },
     {
-      "title": "UniMate: One Unified Model to Animate Diverse Skeletons",
-      "authors": "Linzhan Mou, Jiahui Lei, Zhiyang Dou et al.",
-      "abstract": "Recent advances in automatic rigging now deliver animation-ready 3D assets at scale, yet generating the motion to drive them remains a bottleneck. Existing learned animators are topology-constrained: they rely on category-specific templates or require per-skeleton fine-tuning and reference motions a...",
+      "title": "A Cloud-Based Hybrid Model for Real-Time Detection of BRTA-Approved Licence Plates Using YOLO Tiny and Haar Cascade",
+      "authors": "Debashis Kar Suvra, Tahsina Farah Sanam",
+      "abstract": "Accurate vehicle license plate detection is essential for applications such as intelligent transportation systems, toll collection, parking management, and law enforcement. In Bangladesh, this task presents distinct challenges due to the complexity of localized license plates and environmental facto...",
       "venue": "arXiv",
-      "date": "2026-09-04",
-      "arxiv_id": "2609.05415v1",
-      "url": "https://arxiv.org/abs/2609.05415v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.05415v1.pdf",
+      "date": "2026-09-06",
+      "arxiv_id": "2609.06507v1",
+      "url": "https://arxiv.org/abs/2609.06507v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.06507v1.pdf",
       "categories": [
-        "cs.CV",
-        "cs.GR",
-        "cs.LG"
+        "cs.CV"
       ],
       "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "CrossDepth: Geometry-Constrained Attention for Generalizable Multi-View Surround Depth Estimation",
-      "authors": "Samer Abualhanud, Max Mehltretter",
-      "abstract": "Reliable 3D understanding of the surrounding environment is a core requirement for autonomous driving. Multi-view surround camera rigs provide broad scene coverage, but the spatially adjacent images typically overlap only minimally. Consequently, the depth of most pixels must be inferred from monocu...",
+      "title": "Not Just Oversmoothing: Detecting the Echo Chamber Effect in Graph Neural Networks",
+      "authors": "Asela Hevapathige, Ahad N. Zehmakan, Asiri Wijesinghe et al.",
+      "abstract": "Oversmoothing is a well-known failure mode of Graph Neural Networks (GNNs). However, most existing diagnostics rely on global aggregation measures that fail to capture the heterogeneous dynamics of message passing. Real-world graphs exhibit pronounced community structure, and message passing operate...",
       "venue": "arXiv",
-      "date": "2026-09-04",
-      "arxiv_id": "2609.05397v1",
-      "url": "https://arxiv.org/abs/2609.05397v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.05397v1.pdf",
+      "date": "2026-09-06",
+      "arxiv_id": "2609.06521v1",
+      "url": "https://arxiv.org/abs/2609.06521v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.06521v1.pdf",
       "categories": [
-        "cs.CV",
-        "cs.RO"
+        "cs.LG"
       ],
-      "type": "vision",
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Role-Specific Predictive Geometries for Nonstationary Multivariate Graph-Signal Forecasting",
+      "authors": "Yanbo Chen, Anamitra Makur",
+      "abstract": "Forecasting multivariate graph signals is challenging when node-level trajectories are nonstationary but stable relations persist across nodes and features. In an error-correction representation, long-run equilibrium restoration and short-run transient propagation represent different predictive role...",
+      "venue": "arXiv",
+      "date": "2026-09-06",
+      "arxiv_id": "2609.06519v1",
+      "url": "https://arxiv.org/abs/2609.06519v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.06519v1.pdf",
+      "categories": [
+        "cs.LG"
+      ],
+      "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     }
