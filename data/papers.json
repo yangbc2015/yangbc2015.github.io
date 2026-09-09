@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-09-09",
-  "count": 6,
+  "count": 4,
   "items": [
     {
       "title": "ProcArena: A Multi-Scenario Benchmark for LLMs on Direct and Interactive PL/SQL Development from Natural Language",
@@ -67,38 +67,6 @@
         "cs.CV"
       ],
       "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Not Just Oversmoothing: Detecting the Echo Chamber Effect in Graph Neural Networks",
-      "authors": "Asela Hevapathige, Ahad N. Zehmakan, Asiri Wijesinghe et al.",
-      "abstract": "Oversmoothing is a well-known failure mode of Graph Neural Networks (GNNs). However, most existing diagnostics rely on global aggregation measures that fail to capture the heterogeneous dynamics of message passing. Real-world graphs exhibit pronounced community structure, and message passing operate...",
-      "venue": "arXiv",
-      "date": "2026-09-06",
-      "arxiv_id": "2609.06521v1",
-      "url": "https://arxiv.org/abs/2609.06521v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.06521v1.pdf",
-      "categories": [
-        "cs.LG"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Role-Specific Predictive Geometries for Nonstationary Multivariate Graph-Signal Forecasting",
-      "authors": "Yanbo Chen, Anamitra Makur",
-      "abstract": "Forecasting multivariate graph signals is challenging when node-level trajectories are nonstationary but stable relations persist across nodes and features. In an error-correction representation, long-run equilibrium restoration and short-run transient propagation represent different predictive role...",
-      "venue": "arXiv",
-      "date": "2026-09-06",
-      "arxiv_id": "2609.06519v1",
-      "url": "https://arxiv.org/abs/2609.06519v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.06519v1.pdf",
-      "categories": [
-        "cs.LG"
-      ],
-      "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     }
