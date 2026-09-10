@@ -1,39 +1,140 @@
 {
   "last_updated": "2026-09-10",
-  "count": 2,
+  "count": 8,
   "items": [
     {
-      "title": "Why Is Video Still So Expensive? A Survey of Inference-Efficiency Mechanisms in Video and Audiovisual LLMs",
-      "authors": "Killian Steunou, Yannis Tevissen, Mounîm A. El Yacoubi",
-      "abstract": "Video understanding has rapidly evolved toward video large language models (VideoLLMs): systems that couple video representations with pretrained large language models and condition generation on a textual prompt. Their strong performance on captioning, question answering, retrieval and temporal gro...",
+      "title": "Show-Harness: Just a VLM Agent Can Play Robots",
+      "authors": "Yanzhe Chen, Zechen Bai, Zhijun Cao et al.",
+      "abstract": "Foundation vision-language models (VLMs) exhibit broad intelligence about the world, yet translating this intelligence into robot control remains challenging. We present Show-Harness, an Embodied Harness that enables VLMs to \"play\" robots through a compact semantic interface linking intent to action...",
       "venue": "arXiv",
       "date": "2026-09-09",
-      "arxiv_id": "2609.10355v1",
-      "url": "https://arxiv.org/abs/2609.10355v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.10355v1.pdf",
+      "arxiv_id": "2609.10522v1",
+      "url": "https://arxiv.org/abs/2609.10522v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.10522v1.pdf",
       "categories": [
-        "cs.CV",
-        "cs.CL",
-        "cs.MM"
+        "cs.RO",
+        "cs.AI",
+        "cs.CV"
       ],
-      "type": "survey",
+      "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "From Symbolic Perception to Logical Deduction: A Framework for Guiding Language Models in Geometric Reasoning",
-      "authors": "Weichen Dai, Rafael Medeiros Cabral, Ziyi Shou et al.",
-      "abstract": "Plane geometry remains a significant challenge in AI, requiring the integration of visual perception and mathematical reasoning. While Large Multimodal Models (LMMs) naturally handle visuo-linguistic inputs, they are often computationally intensive and opaque. We demonstrate that a pure Large Langua...",
+      "title": "IBIB: A Protocol for Measuring Enterprise AI Systems by Serving Route, Not Model Identifier",
+      "authors": "Blake Stenstrom, Charangan Vasantharajan, Brian Sathianathan",
+      "abstract": "Enterprises deploy systems, not checkpoints. Usable capability depends jointly on weights, serving route, precision, output contract, and harness, yet all 18 audited benchmarks score advertised model identifiers. We treat this as measurement error and give a protocol that makes it reportable. It has...",
       "venue": "arXiv",
       "date": "2026-09-09",
-      "arxiv_id": "2609.10335v1",
-      "url": "https://arxiv.org/abs/2609.10335v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.10335v1.pdf",
+      "arxiv_id": "2609.10494v1",
+      "url": "https://arxiv.org/abs/2609.10494v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.10494v1.pdf",
       "categories": [
+        "cs.CL",
         "cs.AI",
-        "cs.CL"
+        "cs.LG"
       ],
       "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "IdeaAMBIG: Benchmarking Implementation-Critical Gaps in Research-Idea Specifications",
+      "authors": "Yiling Ma, Yilun Zhao, Sihong Wu et al.",
+      "abstract": "A research idea may be novel, coherent, and scientifically plausible, yet its proposed method may remain insufficiently specified for faithful implementation. We study the codification readiness of implementation-facing research-method specifications, defined by whether they provide sufficient metho...",
+      "venue": "arXiv",
+      "date": "2026-09-09",
+      "arxiv_id": "2609.10539v1",
+      "url": "https://arxiv.org/abs/2609.10539v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.10539v1.pdf",
+      "categories": [
+        "cs.CL"
+      ],
+      "type": "benchmark",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Programmable World Model",
+      "authors": "Zheng-Hui Huang, Guixu Lin, Jiacheng Lin et al.",
+      "abstract": "Recent video world models generate increasingly realistic and interactive visual experiences, yet lack reliable mechanisms for maintaining persistent world state and enforcing programmable rules over extended interactions. We introduce Programmable World Model, a framework that decouples world-state...",
+      "venue": "arXiv",
+      "date": "2026-09-09",
+      "arxiv_id": "2609.10540v1",
+      "url": "https://arxiv.org/abs/2609.10540v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.10540v1.pdf",
+      "categories": [
+        "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Guiding Image-to-3D Generation with Test-Time Partial Observations",
+      "authors": "Jerred Chen, Simon Weber, Ronald Clark",
+      "abstract": "Image-to-3D models can generate visually compelling 3D assets from a single RGB image, but their geometry is often only loosely constrained by the available observations, limiting their use in applications that require geometric fidelity. In many real-world settings, however, partial geometric obser...",
+      "venue": "arXiv",
+      "date": "2026-09-09",
+      "arxiv_id": "2609.10531v1",
+      "url": "https://arxiv.org/abs/2609.10531v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.10531v1.pdf",
+      "categories": [
+        "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Likelihood-free inference with nuisance parameters through normalizing flows",
+      "authors": "Phil Assheton",
+      "abstract": "We present a simple decomposition of a neural-network-based normalizing flow that naturally uncovers a pivotal statistic (or something close) in the presence of nuisance parameters, based only on a sample generator from the distribution of interest. We show that the statistic is near-pivotal in the ...",
+      "venue": "arXiv",
+      "date": "2026-09-09",
+      "arxiv_id": "2609.10534v1",
+      "url": "https://arxiv.org/abs/2609.10534v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.10534v1.pdf",
+      "categories": [
+        "stat.ME",
+        "cs.LG",
+        "stat.ML"
+      ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "A positive resolution of the gap-entropy conjecture",
+      "authors": "P. M. Aronow, Nathan Kallus, Patrick Lopatto",
+      "abstract": "We prove the gap-entropy conjecture for fixed-confidence best-arm identification with independent unit-variance Gaussian arms, means in $[0,1]$, and a unique optimal arm. For each suboptimal arm $i$, let $Δ_i=μ_*-μ_i$ be its gap from the optimal mean, and write $H=\\sum_{i\\ne *}Δ_i^{-2}$. Let $p_r$ b...",
+      "venue": "arXiv",
+      "date": "2026-09-09",
+      "arxiv_id": "2609.10529v1",
+      "url": "https://arxiv.org/abs/2609.10529v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.10529v1.pdf",
+      "categories": [
+        "cs.LG",
+        "stat.ML"
+      ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "DUET-DINO: Simultaneous Cross-View World Modeling for Latent Planning in Robot Manipulation",
+      "authors": "Nisarga Nilavadi, Ralf Römer, Moritz Reuss et al.",
+      "abstract": "Action-conditioned latent world models predict future visual representations, enabling zero-shot goal-conditioned robot planning and control. However, their predictions for fine-grained spatial and rotational actions are unreliable for full 7-DoF end-effector control. To address this gap, we introdu...",
+      "venue": "arXiv",
+      "date": "2026-09-09",
+      "arxiv_id": "2609.10506v1",
+      "url": "https://arxiv.org/abs/2609.10506v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.10506v1.pdf",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     }

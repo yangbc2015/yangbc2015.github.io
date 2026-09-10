@@ -8,18 +8,6 @@
       "count": 5,
       "items": [
         {
-          "title": "Markdown Content:",
-          "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-          "summary": "Markdown Content:...",
-          "date": "2026-09-09",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
           "title": "RoboPapers专访光轮智能谢晨：具身Scaling Law的两座金字塔",
           "link": "https://www.jiqizhixin.com/search/articles/RoboPapers专访光轮智",
           "summary": "RoboPapers专访光轮智能谢晨：具身Scaling Law的两座金字塔...",
@@ -61,6 +49,18 @@
           "summary": "Action Map Policy：从高维动作回归到像素分类，一种新的机器人操作学习范式...",
           "date": "2026-09-09",
           "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "9月10日，阿里巴巴集团旗下高德正式发布全球首个3D原生城市世界模型ABot-Earth 0.7。",
+          "link": "https://www.qbitai.com/?s=9月10日，阿里巴巴",
+          "summary": "9月10日，阿里巴巴集团旗下高德正式发布全球首个3D原生城市世界模型ABot-Earth 0.7。...",
+          "date": "2026-09-10",
+          "source": "量子位",
           "type": "industry",
           "tags": [
             "AI",

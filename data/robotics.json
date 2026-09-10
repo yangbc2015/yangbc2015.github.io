@@ -3,6 +3,135 @@
   "count": 200,
   "items": [
     {
+      "title": "[万勋科技发布NOVA2.0柔性具身大脑：稀缺跨行业极限工况淬炼，具 身 智 能 跃过开放世界应用分水岭",
+      "summary": "[万勋科技发布NOVA2.0柔性具身大脑：稀缺跨行业极限工况淬炼，具 身 智 能 跃过开放世界应用分水岭",
+      "url": "http://36kr.com/p/3975925620109575",
+      "date": "2026-09-10",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "[B面 具 身 智 能 ：机器人烧钱，数采公司躺赚？",
+      "summary": "[B面 具 身 智 能 ：机器人烧钱，数采公司躺赚？",
+      "url": "http://36kr.com/p/3974500052807942",
+      "date": "2026-09-10",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
+      "title": "[当机器人开始\"上班\"：具 身 智 能 正在跨过价值分水岭",
+      "summary": "[当机器人开始\"上班\"：具 身 智 能 正在跨过价值分水岭",
+      "url": "http://36kr.com/p/3974245149044999",
+      "date": "2026-09-10",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
+      "title": "[中国 具 身 智 能 学脉调查：李泽湘教授在造一支机器人军团",
+      "summary": "[中国 具 身 智 能 学脉调查：李泽湘教授在造一支机器人军团",
+      "url": "http://36kr.com/p/3973040623218947",
+      "date": "2026-09-10",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
+      "title": "Show-Harness: Just a VLM Agent Can Play Robots",
+      "summary": "Foundation vision-language models (VLMs) exhibit broad intelligence about the world, yet translating this intelligence into robot control remains challenging. We present Show-Harness, an Embodied Harness that enables VLMs to \"play\" robots through a c...",
+      "url": "https://arxiv.org/abs/2609.10522v1",
+      "date": "2026-09-09",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.10522v1",
+      "authors": "Yanzhe Chen, Zechen Bai et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "DUET-DINO: Simultaneous Cross-View World Modeling for Latent Planning in Robot Manipulation",
+      "summary": "Action-conditioned latent world models predict future visual representations, enabling zero-shot goal-conditioned robot planning and control. However, their predictions for fine-grained spatial and rotational actions are unreliable for full 7-DoF end...",
+      "url": "https://arxiv.org/abs/2609.10506v1",
+      "date": "2026-09-09",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.10506v1",
+      "authors": "Nisarga Nilavadi, Ralf Römer et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Coastal Environment Generation with HoloOcean",
+      "summary": "Marine robotic simulation provides a safe and inexpensive method of developing and testing algorithms for unmanned underwater vehicle (UUV) and unmanned surface vessel (USV) autonomy and perception before full field deployment. However, these simulat...",
+      "url": "https://arxiv.org/abs/2609.10484v1",
+      "date": "2026-09-09",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.10484v1",
+      "authors": "Abigail Austin, Brady Moon et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Multi-Agent Reinforcement Learning for Autonomous UAV Exploration in Wildfire Response",
+      "summary": "This study develops a deep reinforcement learning framework for training Unmanned Aerial Vehicle (UAV) agents to navigate and monitor simulated wildfire environments. Results show that agents learn increasingly stable and effective behaviors over tim...",
+      "url": "https://arxiv.org/abs/2609.10433v1",
+      "date": "2026-09-09",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.10433v1",
+      "authors": "Caden Chandra, Jerry Ng",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Frequency-Conditioned Flow Matching for Vision-Language-Action Models",
+      "summary": "Robot actions are temporally correlated trajectories whose frequency components encode motion at different scales with highly non-uniform energy distributions. Yet Flow Matching--based vision-language-action (VLA) models typically generate actions in...",
+      "url": "https://arxiv.org/abs/2609.10405v1",
+      "date": "2026-09-09",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.10405v1",
+      "authors": "Haochen Niu, Shengye Dong et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
       "title": "A Confidence-Aware Multimodal Fusion Framework for Industrial Human-Robot Collaboration",
       "summary": "A confidence-aware multimodal fusion framework (CAMF) is proposed to realize reliable human intention prediction for industrial human-robot collaboration. This framework fuses four heterogeneous modalities including object 6D pose, gaze, skeletal mot...",
       "url": "https://arxiv.org/abs/2609.10339v1",
@@ -80,42 +209,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "[B面 具 身 智 能 ：机器人烧钱，数采公司躺赚？",
-      "summary": "[B面 具 身 智 能 ：机器人烧钱，数采公司躺赚？",
-      "url": "http://36kr.com/p/3974500052807942",
-      "date": "2026-09-09",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
-      ]
-    },
-    {
-      "title": "[当机器人开始\"上班\"：具 身 智 能 正在跨过价值分水岭",
-      "summary": "[当机器人开始\"上班\"：具 身 智 能 正在跨过价值分水岭",
-      "url": "http://36kr.com/p/3974245149044999",
-      "date": "2026-09-09",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
-      ]
-    },
-    {
-      "title": "[中国 具 身 智 能 学脉调查：李泽湘教授在造一支机器人军团",
-      "summary": "[中国 具 身 智 能 学脉调查：李泽湘教授在造一支机器人军团",
-      "url": "http://36kr.com/p/3973040623218947",
-      "date": "2026-09-09",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
       ]
     },
     {
@@ -2912,99 +3005,6 @@
       "type": "paper",
       "arxiv_id": "2608.09891v1",
       "authors": "Dipankar Bhattacharya, Sherine Jesna V. A. et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Energy-Structured Latent World Models with Neural Time Fields for Physically Constistent Open-World Motion Planning",
-      "summary": "Physically consistent motion planning remains a fundamental challenge in embodied AI, as generated trajectories must strictly conform to real-world execution dynamics. While latent world models offer a promising approach by predicting these dynamics,...",
-      "url": "https://arxiv.org/abs/2608.09876v1",
-      "date": "2026-08-10",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.09876v1",
-      "authors": "Yapeng Liu, Yuanzhao Zhai et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Entanglement-Free Trajectory Planning for Tethered Mobile Robots with a Slack Tether",
-      "summary": "In motion planning algorithms for tethered mobile robots, the entanglement state of the tether is a critical aspect to consider during the planning phase. This is particularly important in case of a slack tether, where the shape of the tether is not ...",
-      "url": "https://arxiv.org/abs/2608.09860v1",
-      "date": "2026-08-10",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.09860v1",
-      "authors": "Gianpietro Battocletti, Dimitris Boskos et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Agentic Harnesses: LLM-Driven Verification Layers for Robot Autonomy",
-      "summary": "Advances in advanced artificial intelligence tools have sparked research in robot autonomy, but the development of such systems has largely focused on execution rather than verifying the feasibility actions planning models propose. Like general-purpo...",
-      "url": "https://arxiv.org/abs/2608.09857v1",
-      "date": "2026-08-10",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.09857v1",
-      "authors": "Rohan Bhagra, Mahantesh Halapannavar et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "黎曼动力联合两家企业，共建百万小时具身智能数据闭环",
-      "summary": "黎曼动力联合两家企业，共建百万小时具身智能数据闭环",
-      "url": "http://36kr.com/p/3929174402203014",
-      "date": "2026-08-07",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "Depth-Wise Probing and Pruning of the Planning Token in a Driving Vision-Language-Action Model",
-      "summary": "Vision-language-action (VLA) models route driving decisions through a deep language model, but it is unclear how much of that depth the action itself requires. We study a representative driving VLA whose entire plan is carried by a single planning to...",
-      "url": "https://arxiv.org/abs/2608.07361v1",
-      "date": "2026-08-07",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.07361v1",
-      "authors": "Harisankar Babu, Benjamin Coors et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Learning Fault-Tolerant Locomotion with Adaptive Gait Timing",
-      "summary": "Hardware failures require legged robots to rapidly reorganize coordination and gait timing to maintain stability and mobility. This is particularly challenging for larger quadrupeds, where increased mass and tighter actuation limits reduce the feasib...",
-      "url": "https://arxiv.org/abs/2608.07328v1",
-      "date": "2026-08-07",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.07328v1",
-      "authors": "Giovanbattista Gravina, Luca Rossini et al.",
       "tags": [
         "机器人学习",
         "研究论文",
