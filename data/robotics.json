@@ -1,7 +1,87 @@
 {
-  "last_updated": "2026-09-09",
+  "last_updated": "2026-09-10",
   "count": 200,
   "items": [
+    {
+      "title": "A Confidence-Aware Multimodal Fusion Framework for Industrial Human-Robot Collaboration",
+      "summary": "A confidence-aware multimodal fusion framework (CAMF) is proposed to realize reliable human intention prediction for industrial human-robot collaboration. This framework fuses four heterogeneous modalities including object 6D pose, gaze, skeletal mot...",
+      "url": "https://arxiv.org/abs/2609.10339v1",
+      "date": "2026-09-09",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.10339v1",
+      "authors": "Xinyu Liu, Qiqi Dong et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Odometer-Agnostic Drift Correction Using OpenStreetMap Lane Geometry",
+      "summary": "Despite significant progress in odometry estimation, long-term drift remains a fundamental limitation of incremental pose integration, especially in large-scale or loop-free environments. Existing map-assisted methods can reduce drift, but often depe...",
+      "url": "https://arxiv.org/abs/2609.10336v1",
+      "date": "2026-09-09",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.10336v1",
+      "authors": "Joaquin Caballero, Emilio Garcia-Fidalgo et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Deformable Object Manipulation under Partial Observability via Real-Time Full-Shape Estimation",
+      "summary": "Manipulating deformable objects (DOs) is challenging due to their high-dimensional state space, underactuated dynamics, and partial observability. In this paper, we propose cRVAE, a lightweight conditional recurrent variational autoencoder that estim...",
+      "url": "https://arxiv.org/abs/2609.10308v1",
+      "date": "2026-09-09",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.10308v1",
+      "authors": "Kosar Behnia, Ville Kyrki et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Learning Terrain-Adaptive Humanoid Locomotion on Granular Terrain",
+      "summary": "Humanoid locomotion on granular terrain remains a significant challenge due to its complex foot-terrain interaction dynamics that are difficult to model. Existing approaches either ignore granular contact dynamics or incorporate simplified normal for...",
+      "url": "https://arxiv.org/abs/2609.10286v1",
+      "date": "2026-09-09",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.10286v1",
+      "authors": "Junnosuke Kamohara, Feiyang Wu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "SwingBot: Learning Whole-Body Brachiation for Humanoid Robots",
+      "summary": "Brachiation enables primates to move across overhead supports when ground paths are blocked, suggesting a complementary locomotion mode for robots operating in cluttered or hazardous environments. Bringing this capabil?ity to high-DoF humanoid robots...",
+      "url": "https://arxiv.org/abs/2609.10283v1",
+      "date": "2026-09-09",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.10283v1",
+      "authors": "Yujie Xiong, Peng Zhai et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
     {
       "title": "[B面 具 身 智 能 ：机器人烧钱，数采公司躺赚？",
       "summary": "[B面 具 身 智 能 ：机器人烧钱，数采公司躺赚？",
@@ -36,6 +116,19 @@
       "type": "news",
       "tags": [
         "机器人"
+      ]
+    },
+    {
+      "title": "2026具身智能转向产业化，从炫技走向落地干活",
+      "summary": "2026具身智能转向产业化，从炫技走向落地干活",
+      "url": "http://36kr.com/p/3974245149044999",
+      "date": "2026-09-08",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
       ]
     },
     {
@@ -2912,96 +3005,6 @@
       "type": "paper",
       "arxiv_id": "2608.07328v1",
       "authors": "Giovanbattista Gravina, Luca Rossini et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "TEMPO: Semantic-Action Decoupled RL Post-Training for Vision-Language-Action Models",
-      "summary": "Vision-language-action (VLA) models are commonly adapted to downstream manipulation tasks via supervised fine-tuning (SFT) or online reinforcement learning (RL) post-training. SFT is prone to distribution mismatch, and existing RL approaches typicall...",
-      "url": "https://arxiv.org/abs/2608.07314v1",
-      "date": "2026-08-07",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.07314v1",
-      "authors": "Ziheng Liu, Quantao Yang",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "WNM-3D: A World Navigation Model with 3D Scene Conditioning for Closed-Loop VLN",
-      "summary": "Recent vision-language navigation (VLN) systems increasingly adapt pretrained vision-language models (VLMs) into vision-language-action (VLA) policies that map egocentric observations and language instructions directly to navigation actions. Although...",
-      "url": "https://arxiv.org/abs/2608.07267v1",
-      "date": "2026-08-07",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.07267v1",
-      "authors": "Yuehao Huang, Yunzi Wu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Representation Handoffs for OpenArm-Based Laboratory Mobile Manipulation",
-      "summary": "Open-source robotics and foundation models have lowered the barrier to embodied AI, yet language-guided laboratory automation still requires reliable alignment from instructions and observations to safe actions. This field report presents an OpenArm-...",
-      "url": "https://arxiv.org/abs/2608.07154v1",
-      "date": "2026-08-07",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.07154v1",
-      "authors": "Yang Shen, Chonghao Cheng et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "被投变投资：具身智能赛道浮现三层投资传导链",
-      "summary": "被投变投资：具身智能赛道浮现三层投资传导链",
-      "url": "http://36kr.com/p/3927800839436419",
-      "date": "2026-08-06",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "2026年真觉万象获天使轮融资，做具身智能物理数据基建",
-      "summary": "2026年真觉万象获天使轮融资，做具身智能物理数据基建",
-      "url": "http://36kr.com/p/3927737997457797",
-      "date": "2026-08-06",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "$ω$-0: A Latent Predictive World Action Model for Concurrent Humanoid Loco-Manipulation",
-      "summary": "Humanoid household tasks often require concurrent loco-manipulation, where the robot must move, adjust posture, maintain balance, and manipulate objects as a single coordinated behavior. Yet existing humanoid policies typically decompose locomotion a...",
-      "url": "https://arxiv.org/abs/2608.06375v1",
-      "date": "2026-08-06",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.06375v1",
-      "authors": "Zhe Li, Zhenzhe Zhang et al.",
       "tags": [
         "机器人学习",
         "研究论文",
