@@ -52,6 +52,86 @@
       ]
     },
     {
+      "title": "EVPeriscope: Extended Perception across Aerial and Ground Vehicles with Event-based Propeller Tracking",
+      "summary": "Reliable relative localization between aerial and ground robots is a key requirement for tightly coordinated heterogeneous teams. This can be difficult to do using conventional frame-based cameras and fiducial markers because they are sensitive to mo...",
+      "url": "https://arxiv.org/abs/2609.11920v1",
+      "date": "2026-09-10",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.11920v1",
+      "authors": "Dexter Ong, Vijay Kumar et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "UniMPA: A Unified Memory-Prediction-Action Model via Action-Grounded Transition Modeling",
+      "summary": "Recent advances in Vision-Language-Action (VLA) models have improved robotic manipulation, yet observation-to-action learning remains limited by a fundamental transition realizability gap, manifested in three tightly coupled problems: (i) Transition ...",
+      "url": "https://arxiv.org/abs/2609.11875v1",
+      "date": "2026-09-10",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.11875v1",
+      "authors": "Wei Li, Rui Shao et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Learning Agent-based Model Predictive Control for Holistic Vehicle Performance",
+      "summary": "Agent-based model predictive control (AMPC) has recently been proposed as a distributed scheme that collaborates with all agents to achieve optimal holistic performance. However, its optimality highly depends on the prediction accuracy that requires ...",
+      "url": "https://arxiv.org/abs/2609.11871v1",
+      "date": "2026-09-10",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.11871v1",
+      "authors": "Jiaming Zhong, Reza Valiollahi Mehrizi et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Rapid Learning of Dexterous In-Hand Pen Writing through Real-Time Jacobian Estimation",
+      "summary": "Dexterous in-hand manipulation of a grasped object with an anthropomorphic hand is an unsolved frontier for robot dexterity. The contact-richness and highly dynamic nature of object-hand interactions tend to require extensive modeling or data-collect...",
+      "url": "https://arxiv.org/abs/2609.11775v1",
+      "date": "2026-09-10",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.11775v1",
+      "authors": "Kai Stewart, Yasunori Toshimitsu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Visual-SLAM for the detection of hidden tomatoes in greenhouses by Hierarchical Localization and GLOMAPfor robotized harvesting",
+      "summary": "Advanced crop monitoring inside greenhouses is becoming one of the primary objectives of research centers. High-performance sensors, such as LiDAR or stereo cameras, have traditionally been employed for this purpose, though these often have a high co...",
+      "url": "https://arxiv.org/abs/2609.11766v1",
+      "date": "2026-09-10",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.11766v1",
+      "authors": "Fernando Cañadas-Aránega, José C. Moreno et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
       "title": "Show-Harness: Just a VLM Agent Can Play Robots",
       "summary": "Foundation vision-language models (VLMs) exhibit broad intelligence about the world, yet translating this intelligence into robot control remains challenging. We present Show-Harness, an Embodied Harness that enables VLMs to \"play\" robots through a c...",
       "url": "https://arxiv.org/abs/2609.10522v1",
@@ -2939,76 +3019,6 @@
       "tags": [
         "机器人",
         "具身智能"
-      ]
-    },
-    {
-      "title": "[融资首发｜获力鼎光电、卧安机器人两大上市公司押注，真觉万象要造 具 身 智 能“数据地基”",
-      "summary": "[融资首发｜获力鼎光电、卧安机器人两大上市公司押注，真觉万象要造 具 身 智 能“数据地基”",
-      "url": "http://36kr.com/p/3927737997457797",
-      "date": "2026-08-11",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
-      ]
-    },
-    {
-      "title": "从资本到市场，再到产业链、政策支持，这是具身智能厂商最好的时间窗口，也是弯道超车的机会。宇树科技的上市，是具身智能阶段性的高潮，也意味着行业竞争即将进入更残酷的阶段。",
-      "summary": "从资本到市场，再到产业链、政策支持，这是具身智能厂商最好的时间窗口，也是弯道超车的机会。宇树科技的上市，是具身智能阶段性的高潮，也意味着行业竞争即将进入更残酷的阶段。",
-      "url": "http://36kr.com/p/3933035851470470",
-      "date": "2026-08-10",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "具身智能200亿俱乐部，一文看懂5家公司",
-      "summary": "具身智能200亿俱乐部，一文看懂5家公司",
-      "url": "http://36kr.com/p/3932950970449027",
-      "date": "2026-08-10",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "XPolicyLab: A Unified Standard and Open Ecosystem for Robot Policy Evaluation and Deployment",
-      "summary": "Robot policy evaluation and deployment remain fragmented by model-specific software dependencies, data representations, and runtime interfaces, so that connecting N policies to M evaluation environments requires O(NM) separate integrations. We presen...",
-      "url": "https://arxiv.org/abs/2608.09892v1",
-      "date": "2026-08-10",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.09892v1",
-      "authors": "XPolicyLab Community, Tianxing Chen et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "RoSE: A Robotic Soft Esophagus for Endoprosthetic Stent Testing",
-      "summary": "Soft robotic systems are well suited for developing devices for biomedical applications. A bio-mimicking robotic soft esophagus (RoSE) is developed as an in vitro testing device of endoprosthetic stents for dysphagia management. Endoprosthetic stent ...",
-      "url": "https://arxiv.org/abs/2608.09891v1",
-      "date": "2026-08-10",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.09891v1",
-      "authors": "Dipankar Bhattacharya, Sherine Jesna V. A. et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
       ]
     }
   ]
