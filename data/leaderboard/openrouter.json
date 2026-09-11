@@ -15,8 +15,8 @@
       "rank": 2,
       "model": "deepseek-v4.1-flash",
       "organization": "deepseek",
-      "price_prompt": "0.00000015",
-      "price_completion": "0.0000006",
+      "price_prompt": "0.0000003",
+      "price_completion": "0.0000012",
       "context_length": 1048576
     },
     {

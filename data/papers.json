@@ -1,68 +1,85 @@
 {
-  "last_updated": "2026-09-10",
-  "count": 8,
+  "last_updated": "2026-09-11",
+  "count": 9,
   "items": [
     {
-      "title": "Show-Harness: Just a VLM Agent Can Play Robots",
-      "authors": "Yanzhe Chen, Zechen Bai, Zhijun Cao et al.",
-      "abstract": "Foundation vision-language models (VLMs) exhibit broad intelligence about the world, yet translating this intelligence into robot control remains challenging. We present Show-Harness, an Embodied Harness that enables VLMs to \"play\" robots through a compact semantic interface linking intent to action...",
+      "title": "ZipCodec: Ultra-Low-Frame-Rate Streaming Speech Coding",
+      "authors": "Luca Della Libera, Cem Subakan, Mirco Ravanelli",
+      "abstract": "Neural audio codecs are a fundamental component of modern speech generation systems. While recent codecs achieve increasingly low bitrates, reducing frame rate remains challenging, as each token must preserve more information while maintaining reconstruction quality. We present ZipCodec, a streaming...",
       "venue": "arXiv",
-      "date": "2026-09-09",
-      "arxiv_id": "2609.10522v1",
-      "url": "https://arxiv.org/abs/2609.10522v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.10522v1.pdf",
+      "date": "2026-09-10",
+      "arxiv_id": "2609.11642v1",
+      "url": "https://arxiv.org/abs/2609.11642v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.11642v1.pdf",
       "categories": [
-        "cs.RO",
+        "cs.SD",
         "cs.AI",
-        "cs.CV"
+        "cs.LG"
       ],
-      "type": "vision",
+      "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "IBIB: A Protocol for Measuring Enterprise AI Systems by Serving Route, Not Model Identifier",
-      "authors": "Blake Stenstrom, Charangan Vasantharajan, Brian Sathianathan",
-      "abstract": "Enterprises deploy systems, not checkpoints. Usable capability depends jointly on weights, serving route, precision, output contract, and harness, yet all 18 audited benchmarks score advertised model identifiers. We treat this as measurement error and give a protocol that makes it reportable. It has...",
+      "title": "LoaDiff: Conditional Generation of Electricity Consumption Time Series for Energy Analytics",
+      "authors": "Mariia Baranova, Adrien Petralia, Etienne Le Naour et al.",
+      "abstract": "The energy transition is reshaping residential electricity consumption through the increasing adoption of distributed generation, electrified appliances, and demand-response programs. Understanding these evolving behaviors requires access to granular smart-meter data for applications such as load fo...",
       "venue": "arXiv",
-      "date": "2026-09-09",
-      "arxiv_id": "2609.10494v1",
-      "url": "https://arxiv.org/abs/2609.10494v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.10494v1.pdf",
+      "date": "2026-09-10",
+      "arxiv_id": "2609.11639v1",
+      "url": "https://arxiv.org/abs/2609.11639v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.11639v1.pdf",
       "categories": [
-        "cs.CL",
+        "cs.LG",
         "cs.AI",
-        "cs.LG"
+        "eess.SP"
+      ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "A Training-Free, Alignment-Free Approach to Corporate Intelligence: Application to SEC Filings",
+      "authors": "Jean-François Delpech",
+      "abstract": "High-dimensional dense text embeddings and large language models face real obstacles in financial-disclosure analysis: context-window limits, hallucination risk, high computational cost, and the arbitrary rotation of vector spaces across independently trained models. We present a training-free, alig...",
+      "venue": "arXiv",
+      "date": "2026-09-10",
+      "arxiv_id": "2609.11620v1",
+      "url": "https://arxiv.org/abs/2609.11620v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.11620v1.pdf",
+      "categories": [
+        "cs.CL"
       ],
       "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "IdeaAMBIG: Benchmarking Implementation-Critical Gaps in Research-Idea Specifications",
-      "authors": "Yiling Ma, Yilun Zhao, Sihong Wu et al.",
-      "abstract": "A research idea may be novel, coherent, and scientifically plausible, yet its proposed method may remain insufficiently specified for faithful implementation. We study the codification readiness of implementation-facing research-method specifications, defined by whether they provide sufficient metho...",
+      "title": "Complex-Text Robustness Evaluation and Failure Diagnosis for Low-Resource Multilingual Text-to-Speech",
+      "authors": "Tianlun Zuo, Ziyu Zhang, Tingzhi Mao et al.",
+      "abstract": "Low-resource multilingual text-to-speech (TTS) systems have expanded language coverage, but their robustness under complex text inputs remains insufficiently diagnosed. Existing evaluations mainly focus on naturalness, speaker similarity, and content consistency using regular test sentences, while p...",
       "venue": "arXiv",
-      "date": "2026-09-09",
-      "arxiv_id": "2609.10539v1",
-      "url": "https://arxiv.org/abs/2609.10539v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.10539v1.pdf",
+      "date": "2026-09-10",
+      "arxiv_id": "2609.11545v1",
+      "url": "https://arxiv.org/abs/2609.11545v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.11545v1.pdf",
       "categories": [
-        "cs.CL"
+        "cs.CL",
+        "cs.SD"
       ],
       "type": "benchmark",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Programmable World Model",
-      "authors": "Zheng-Hui Huang, Guixu Lin, Jiacheng Lin et al.",
-      "abstract": "Recent video world models generate increasingly realistic and interactive visual experiences, yet lack reliable mechanisms for maintaining persistent world state and enforcing programmable rules over extended interactions. We introduce Programmable World Model, a framework that decouples world-state...",
+      "title": "Self-Supervised Cardiac Phase Detection via Single-Parameter Latent Orbits",
+      "authors": "John Bonnici, Matthew Baugh, Aleksandra Kulbaka et al.",
+      "abstract": "Accurate identification of end-diastole (ED) and end-systole (ES) in echocardiography underpins the quantification of ventricular function, yet manual selection of these key frames is subjective and introduces clinically significant inter-operator variability. Recent self-supervised methods either p...",
       "venue": "arXiv",
-      "date": "2026-09-09",
-      "arxiv_id": "2609.10540v1",
-      "url": "https://arxiv.org/abs/2609.10540v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.10540v1.pdf",
+      "date": "2026-09-10",
+      "arxiv_id": "2609.11650v1",
+      "url": "https://arxiv.org/abs/2609.11650v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.11650v1.pdf",
       "categories": [
         "cs.CV"
       ],
@@ -71,48 +88,31 @@
       "source": "arXiv"
     },
     {
-      "title": "Guiding Image-to-3D Generation with Test-Time Partial Observations",
-      "authors": "Jerred Chen, Simon Weber, Ronald Clark",
-      "abstract": "Image-to-3D models can generate visually compelling 3D assets from a single RGB image, but their geometry is often only loosely constrained by the available observations, limiting their use in applications that require geometric fidelity. In many real-world settings, however, partial geometric obser...",
+      "title": "Vidu S2: Real-Time Interactive, Editable, and Spatial Video Generation",
+      "authors": "Jintao Zhang, Kai Jiang, Jintao Chen et al.",
+      "abstract": "We present Vidu S2, which comprises Vidu S2-Avatar, a real-time interactive digital-character model, and Vidu S2-Editing, a real-time video editing model. Moreover, we explore the feasibility of real-time spatial video generation for both Vidu S2-Avatar and Vidu S2-Editing. Compared with Vidu S1, Vi...",
       "venue": "arXiv",
-      "date": "2026-09-09",
-      "arxiv_id": "2609.10531v1",
-      "url": "https://arxiv.org/abs/2609.10531v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.10531v1.pdf",
+      "date": "2026-09-10",
+      "arxiv_id": "2609.11638v1",
+      "url": "https://arxiv.org/abs/2609.11638v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.11638v1.pdf",
       "categories": [
-        "cs.CV"
+        "cs.CV",
+        "cs.LG"
       ],
       "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Likelihood-free inference with nuisance parameters through normalizing flows",
-      "authors": "Phil Assheton",
-      "abstract": "We present a simple decomposition of a neural-network-based normalizing flow that naturally uncovers a pivotal statistic (or something close) in the presence of nuisance parameters, based only on a sample generator from the distribution of interest. We show that the statistic is near-pivotal in the ...",
+      "title": "RDDMPI: Residual Denoising Diffusion Model for Probabilistic Multivariate Time Series Imputation",
+      "authors": "Ramiro Valdes Jara, David Chapman, Adam Meyers",
+      "abstract": "Multivariate time series imputation (MTSI) aims to recover missing values in temporal data composed of multiple interdependent variables. This problem is central to real-world applications such as healthcare monitoring, traffic networks, and energy systems. Recent diffusion-based approaches have sho...",
       "venue": "arXiv",
-      "date": "2026-09-09",
-      "arxiv_id": "2609.10534v1",
-      "url": "https://arxiv.org/abs/2609.10534v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.10534v1.pdf",
-      "categories": [
-        "stat.ME",
-        "cs.LG",
-        "stat.ML"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "A positive resolution of the gap-entropy conjecture",
-      "authors": "P. M. Aronow, Nathan Kallus, Patrick Lopatto",
-      "abstract": "We prove the gap-entropy conjecture for fixed-confidence best-arm identification with independent unit-variance Gaussian arms, means in $[0,1]$, and a unique optimal arm. For each suboptimal arm $i$, let $Δ_i=μ_*-μ_i$ be its gap from the optimal mean, and write $H=\\sum_{i\\ne *}Δ_i^{-2}$. Let $p_r$ b...",
-      "venue": "arXiv",
-      "date": "2026-09-09",
-      "arxiv_id": "2609.10529v1",
-      "url": "https://arxiv.org/abs/2609.10529v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.10529v1.pdf",
+      "date": "2026-09-10",
+      "arxiv_id": "2609.11648v1",
+      "url": "https://arxiv.org/abs/2609.11648v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.11648v1.pdf",
       "categories": [
         "cs.LG",
         "stat.ML"
@@ -122,19 +122,34 @@
       "source": "arXiv"
     },
     {
-      "title": "DUET-DINO: Simultaneous Cross-View World Modeling for Latent Planning in Robot Manipulation",
-      "authors": "Nisarga Nilavadi, Ralf Römer, Moritz Reuss et al.",
-      "abstract": "Action-conditioned latent world models predict future visual representations, enabling zero-shot goal-conditioned robot planning and control. However, their predictions for fine-grained spatial and rotational actions are unreliable for full 7-DoF end-effector control. To address this gap, we introdu...",
+      "title": "Quasi-static analysis of passive stability in a novel underactuated multi-finger hand",
+      "authors": "Léonie Plancoulaine, Sylvain Guégan, Franck Plestan et al.",
+      "abstract": "Underactuated robotic hands achieve adaptive and robust grasping with a reduced number of actuators, but predicting the stable equilibrium pose of the grasped object remains a significant challenge. This paper introduces a quasi-static analytical approach to assess passive stability in underactuated...",
       "venue": "arXiv",
-      "date": "2026-09-09",
-      "arxiv_id": "2609.10506v1",
-      "url": "https://arxiv.org/abs/2609.10506v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.10506v1.pdf",
+      "date": "2026-09-10",
+      "arxiv_id": "2609.11579v1",
+      "url": "https://arxiv.org/abs/2609.11579v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.11579v1.pdf",
       "categories": [
-        "cs.RO",
-        "cs.CV"
+        "cs.RO"
       ],
-      "type": "vision",
+      "type": "ai",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Memory as Plans: World-Action Modeling with Memory-Grounded Planning",
+      "authors": "Sizhe Zhao, Haozhe Xie, Weiyu Zhao et al.",
+      "abstract": "Mainstream robotic policies often adopt a Markovian formulation, but many complex real-world manipulation tasks are inherently non-Markovian, requiring long-horizon memory beyond the current observation. Existing memory mechanisms often rely on language summaries, growing visual windows, or their co...",
+      "venue": "arXiv",
+      "date": "2026-09-10",
+      "arxiv_id": "2609.11561v1",
+      "url": "https://arxiv.org/abs/2609.11561v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.11561v1.pdf",
+      "categories": [
+        "cs.RO"
+      ],
+      "type": "ai",
       "badge": "arxiv",
       "source": "arXiv"
     }
