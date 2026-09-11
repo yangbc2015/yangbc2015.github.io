@@ -1,7 +1,7 @@
 {
   "last_updated": "2026-09-11",
   "count": 200,
-  "history_count": 205,
+  "history_count": 200,
   "retention_days": 30,
   "items": [
     {
@@ -77,18 +77,6 @@
       ]
     },
     {
-      "title": "Markdown Content:",
-      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-      "summary": "Markdown Content:...",
-      "date": "2026-09-10",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
       "title": "世界模型到底是什么？李飞飞、朱军等如何解读？",
       "link": "https://www.jiqizhixin.com/search/articles/世界模型到底是什么？李飞飞、朱",
       "summary": "世界模型到底是什么？李飞飞、朱军等如何解读？...",
@@ -140,6 +128,30 @@
       "title": "IDC预测AI数据基础设施迈向万亿级市场，国产数据库迎来新增长空间",
       "link": "https://www.jiqizhixin.com/search/articles/IDC预测AI数据基础设施迈向",
       "summary": "IDC预测AI数据基础设施迈向万亿级市场，国产数据库迎来新增长空间...",
+      "date": "2026-09-10",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "刚刚，DeepSeek V4.1 Flash正式上线！已适配Harness",
+      "link": "https://www.jiqizhixin.com/search/articles/刚刚，DeepSeek V4.",
+      "summary": "刚刚，DeepSeek V4.1 Flash正式上线！已适配Harness...",
+      "date": "2026-09-10",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "Markdown Content:",
+      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+      "summary": "Markdown Content:...",
       "date": "2026-09-10",
       "source": "机器之心",
       "type": "industry",
@@ -284,18 +296,6 @@
       "title": "GPT-6 Astra为何如此惊艳？S-Space透视多模态模型内部的空间智能",
       "link": "https://www.jiqizhixin.com/search/articles/GPT-6 Astra为何如此",
       "summary": "GPT-6 Astra为何如此惊艳？S-Space透视多模态模型内部的空间智能...",
-      "date": "2026-09-08",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "刚刚，DeepSeek V4.1开启测试",
-      "link": "https://www.jiqizhixin.com/search/articles/刚刚，DeepSeek V4.",
-      "summary": "刚刚，DeepSeek V4.1开启测试...",
       "date": "2026-09-08",
       "source": "机器之心",
       "type": "industry",

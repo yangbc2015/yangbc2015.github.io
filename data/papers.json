@@ -1,43 +1,7 @@
 {
   "last_updated": "2026-09-11",
-  "count": 9,
+  "count": 8,
   "items": [
-    {
-      "title": "ZipCodec: Ultra-Low-Frame-Rate Streaming Speech Coding",
-      "authors": "Luca Della Libera, Cem Subakan, Mirco Ravanelli",
-      "abstract": "Neural audio codecs are a fundamental component of modern speech generation systems. While recent codecs achieve increasingly low bitrates, reducing frame rate remains challenging, as each token must preserve more information while maintaining reconstruction quality. We present ZipCodec, a streaming...",
-      "venue": "arXiv",
-      "date": "2026-09-10",
-      "arxiv_id": "2609.11642v1",
-      "url": "https://arxiv.org/abs/2609.11642v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.11642v1.pdf",
-      "categories": [
-        "cs.SD",
-        "cs.AI",
-        "cs.LG"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "LoaDiff: Conditional Generation of Electricity Consumption Time Series for Energy Analytics",
-      "authors": "Mariia Baranova, Adrien Petralia, Etienne Le Naour et al.",
-      "abstract": "The energy transition is reshaping residential electricity consumption through the increasing adoption of distributed generation, electrified appliances, and demand-response programs. Understanding these evolving behaviors requires access to granular smart-meter data for applications such as load fo...",
-      "venue": "arXiv",
-      "date": "2026-09-10",
-      "arxiv_id": "2609.11639v1",
-      "url": "https://arxiv.org/abs/2609.11639v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.11639v1.pdf",
-      "categories": [
-        "cs.LG",
-        "cs.AI",
-        "eess.SP"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
     {
       "title": "A Training-Free, Alignment-Free Approach to Corporate Intelligence: Application to SEC Filings",
       "authors": "Jean-François Delpech",
@@ -116,6 +80,24 @@
       "categories": [
         "cs.LG",
         "stat.ML"
+      ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "ZipCodec: Ultra-Low-Frame-Rate Streaming Speech Coding",
+      "authors": "Luca Della Libera, Cem Subakan, Mirco Ravanelli",
+      "abstract": "Neural audio codecs are a fundamental component of modern speech generation systems. While recent codecs achieve increasingly low bitrates, reducing frame rate remains challenging, as each token must preserve more information while maintaining reconstruction quality. We present ZipCodec, a streaming...",
+      "venue": "arXiv",
+      "date": "2026-09-10",
+      "arxiv_id": "2609.11642v1",
+      "url": "https://arxiv.org/abs/2609.11642v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.11642v1.pdf",
+      "categories": [
+        "cs.SD",
+        "cs.AI",
+        "cs.LG"
       ],
       "type": "ml",
       "badge": "arxiv",
