@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-09-12",
-  "count": 4,
+  "count": 3,
   "items": [
     {
       "title": "GPU-CFR: 80x Faster Counterfactual Regret Minimization by Compiling the Game to Static Dataflow and CUDA Graph Replay",
@@ -49,22 +49,6 @@
       "pdf_url": "https://arxiv.org/pdf/2609.11917v1.pdf",
       "categories": [
         "cs.LG",
-        "cs.CL"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Distance generalization in transformers: why bother with positional encoding?",
-      "authors": "Daniel Henrik Nevermann, Claudius Gros",
-      "abstract": "Out-of-distribution length generalization, namely to extrapolate a task from short to longer context, has been studied intensively for transformers. Here we focus on distance generalization, which probes performance when inter-token distances are changed between training and inference, while keeping...",
-      "venue": "arXiv",
-      "date": "2026-09-10",
-      "arxiv_id": "2609.11913v1",
-      "url": "https://arxiv.org/abs/2609.11913v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.11913v1.pdf",
-      "categories": [
         "cs.CL"
       ],
       "type": "nlp",
