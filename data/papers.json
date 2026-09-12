@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-09-11",
-  "count": 8,
+  "last_updated": "2026-09-12",
+  "count": 4,
   "items": [
     {
       "title": "GPU-CFR: 80x Faster Counterfactual Regret Minimization by Compiling the Game to Static Dataflow and CUDA Graph Replay",
@@ -68,72 +68,6 @@
         "cs.CL"
       ],
       "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "SenseNova-U1.5: Towards Native Unified Visual Intelligence",
-      "authors": "Haiwen Diao, Jiahao Wang, Chenjing Ding et al.",
-      "abstract": "We launch SenseNova-U1.5, an 8B-MoT native unified multimodal model that understands, reasons about, and generates visual content within an encoder-free and VAE-free architecture. We strengthen its visual interface through spatially coherent patch reconstruction and scale its training with carefully...",
-      "venue": "arXiv",
-      "date": "2026-09-10",
-      "arxiv_id": "2609.11929v1",
-      "url": "https://arxiv.org/abs/2609.11929v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.11929v1.pdf",
-      "categories": [
-        "cs.CV"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "MindTopo: Can Foundation Models Reason in Topological Space?",
-      "authors": "Yunfei Ge, Anbang Liu, Qineng Wang et al.",
-      "abstract": "Spatial reasoning depends not only on metric properties such as distance, angle, and shape, but also on topological relations that remain invariant under continuous deformation. Cognitive science identifies these relations as foundational to spatial understanding, yet foundation-model evaluations la...",
-      "venue": "arXiv",
-      "date": "2026-09-10",
-      "arxiv_id": "2609.11900v1",
-      "url": "https://arxiv.org/abs/2609.11900v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.11900v1.pdf",
-      "categories": [
-        "cs.AI",
-        "cs.CL",
-        "cs.CV"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "EVPeriscope: Extended Perception across Aerial and Ground Vehicles with Event-based Propeller Tracking",
-      "authors": "Dexter Ong, Vijay Kumar, Pratik Chaudhari",
-      "abstract": "Reliable relative localization between aerial and ground robots is a key requirement for tightly coordinated heterogeneous teams. This can be difficult to do using conventional frame-based cameras and fiducial markers because they are sensitive to motion blur, lighting variations, and payload constr...",
-      "venue": "arXiv",
-      "date": "2026-09-10",
-      "arxiv_id": "2609.11920v1",
-      "url": "https://arxiv.org/abs/2609.11920v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.11920v1.pdf",
-      "categories": [
-        "cs.RO"
-      ],
-      "type": "ai",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "UniMPA: A Unified Memory-Prediction-Action Model via Action-Grounded Transition Modeling",
-      "authors": "Wei Li, Rui Shao, Jie He et al.",
-      "abstract": "Recent advances in Vision-Language-Action (VLA) models have improved robotic manipulation, yet observation-to-action learning remains limited by a fundamental transition realizability gap, manifested in three tightly coupled problems: (i) Transition ambiguity. Visually similar current observations m...",
-      "venue": "arXiv",
-      "date": "2026-09-10",
-      "arxiv_id": "2609.11875v1",
-      "url": "https://arxiv.org/abs/2609.11875v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.11875v1.pdf",
-      "categories": [
-        "cs.RO"
-      ],
-      "type": "ai",
       "badge": "arxiv",
       "source": "arXiv"
     }

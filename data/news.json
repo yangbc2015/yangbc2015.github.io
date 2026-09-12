@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-09-11",
+  "last_updated": "2026-09-12",
   "count": 200,
-  "history_count": 200,
+  "history_count": 205,
   "retention_days": 30,
   "items": [
     {
       "title": "9月10日，阿里巴巴集团旗下高德正式发布全球首个3D原生城市世界模型ABot-Earth 0.7。",
       "link": "https://www.qbitai.com/?s=9月10日，阿里巴巴",
       "summary": "9月10日，阿里巴巴集团旗下高德正式发布全球首个3D原生城市世界模型ABot-Earth 0.7。...",
-      "date": "2026-09-11",
+      "date": "2026-09-12",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -20,7 +20,7 @@
       "title": "大晓机器人联合南洋理工大学 S-Lab、上海人工智能实验室发布全新人–场景交互重建研究 HSImul3R",
       "link": "https://www.qbitai.com/?s=大晓机器人联合南洋理",
       "summary": "大晓机器人联合南洋理工大学 S-Lab、上海人工智能实验室发布全新人–场景交互重建研究 HSImul3R...",
-      "date": "2026-09-11",
+      "date": "2026-09-12",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -32,7 +32,7 @@
       "title": "9月9日，以“JoyAI · 跃迁物理世界”为主题的JDDiscovery-2026京东全球科技探索者大会在北京举行",
       "link": "https://www.qbitai.com/?s=9月9日，以“Joy",
       "summary": "9月9日，以“JoyAI · 跃迁物理世界”为主题的JDDiscovery-2026京东全球科技探索者大会在北京举行...",
-      "date": "2026-09-11",
+      "date": "2026-09-12",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -44,7 +44,7 @@
       "title": "蚂蚁集团百灵首个金融增强开放模型 Ling-3.0-flash-Fin发布。",
       "link": "https://www.qbitai.com/?s=蚂蚁集团百灵首个金融",
       "summary": "蚂蚁集团百灵首个金融增强开放模型 Ling-3.0-flash-Fin发布。...",
-      "date": "2026-09-11",
+      "date": "2026-09-12",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -56,7 +56,7 @@
       "title": "8月28日-9月1日，SkyProduction（天工工作台）联合阿里巴巴通义万相，推出了Wan 3.0模型限时免费活动",
       "link": "https://www.qbitai.com/?s=8月28日-9月1日",
       "summary": "8月28日-9月1日，SkyProduction（天工工作台）联合阿里巴巴通义万相，推出了Wan 3.0模型限时免费活动...",
-      "date": "2026-09-11",
+      "date": "2026-09-12",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -65,15 +65,87 @@
       ]
     },
     {
-      "title": "Published Time: Thu, 08 May 2025 23:15:48 GMT",
+      "title": "![Image 1](https://ads.jetpackdigital.com/sites/_uploads/1788793040bg_1600x350.avif)",
       "link": "https://techcrunch.com/category/artificial-intelligence/",
-      "summary": "Published Time: Thu, 08 May 2025 23:15:48 GMT...",
-      "date": "2026-09-11",
+      "summary": "![Image 1](https://ads.jetpackdigital.com/sites/_uploads/1788793040bg_1600x350.a...",
+      "date": "2026-09-12",
       "source": "TechCrunch",
       "type": "industry",
       "tags": [
         "AI",
         "Artificial Intelligence"
+      ]
+    },
+    {
+      "title": "Markdown Content:",
+      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+      "summary": "Markdown Content:...",
+      "date": "2026-09-11",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "Nature封面 | 面向流体动力学的强化学习平台，华盛顿大学等提出HydroGym",
+      "link": "https://www.jiqizhixin.com/search/articles/Nature封面 | 面向流体",
+      "summary": "Nature封面 | 面向流体动力学的强化学习平台，华盛顿大学等提出HydroGym...",
+      "date": "2026-09-11",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "IIFAA智能体可信身份工作组成立，50余家机构参与生态共建",
+      "link": "https://www.jiqizhixin.com/search/articles/IIFAA智能体可信身份工作组",
+      "summary": "IIFAA智能体可信身份工作组成立，50余家机构参与生态共建...",
+      "date": "2026-09-11",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "从GitHub爆火到ECCV Oral，全球开发者把LingBot-Map玩出新高度",
+      "link": "https://www.jiqizhixin.com/search/articles/从GitHub爆火到ECCV ",
+      "summary": "从GitHub爆火到ECCV Oral，全球开发者把LingBot-Map玩出新高度...",
+      "date": "2026-09-11",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "《npj Robotics》：还在疯狂堆数据？北航、NTU联合提出PhyFilter，让机器人在有限数据下学会举一反三",
+      "link": "https://www.jiqizhixin.com/search/articles/《npj Robotics》：",
+      "summary": "《npj Robotics》：还在疯狂堆数据？北航、NTU联合提出PhyFilter，让机器人在有限数据下学会举一反三...",
+      "date": "2026-09-11",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "90后发Nature，10后进ICML，我在这场蚂蚁InTech论坛看见被AI折叠的科研",
+      "link": "https://www.jiqizhixin.com/search/articles/90后发Nature，10后进",
+      "summary": "90后发Nature，10后进ICML，我在这场蚂蚁InTech论坛看见被AI折叠的科研...",
+      "date": "2026-09-11",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
       ]
     },
     {
@@ -140,18 +212,6 @@
       "title": "刚刚，DeepSeek V4.1 Flash正式上线！已适配Harness",
       "link": "https://www.jiqizhixin.com/search/articles/刚刚，DeepSeek V4.",
       "summary": "刚刚，DeepSeek V4.1 Flash正式上线！已适配Harness...",
-      "date": "2026-09-10",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Markdown Content:",
-      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-      "summary": "Markdown Content:...",
       "date": "2026-09-10",
       "source": "机器之心",
       "type": "industry",
@@ -2338,66 +2398,6 @@
       "summary": "源络科技，推动AI for Science走进实验室3.0...",
       "date": "2026-08-20",
       "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "8月13日，比亚迪秦MAX正式上市，推出EV与DM-i双动力版本",
-      "link": "https://www.qbitai.com/?s=8月13日，比亚迪秦",
-      "summary": "8月13日，比亚迪秦MAX正式上市，推出EV与DM-i双动力版本...",
-      "date": "2026-08-20",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "章鱼动力亮相WRC 2026， 携「脑-手-数据」技术体系探索具身智能未来范式",
-      "link": "https://www.jiqizhixin.com/search/articles/章鱼动力亮相WRC 2026，",
-      "summary": "章鱼动力亮相WRC 2026， 携「脑-手-数据」技术体系探索具身智能未来范式...",
-      "date": "2026-08-19",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "外滩大会AI艺术节报名启动：AI艺人线下首演、100余部AI影像、20余位艺术家参展",
-      "link": "https://www.jiqizhixin.com/search/articles/外滩大会AI艺术节报名启动：A",
-      "summary": "外滩大会AI艺术节报名启动：AI艺人线下首演、100余部AI影像、20余位艺术家参展...",
-      "date": "2026-08-19",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Wiley选刊工具AI摘要匹配功能上线，邀您试用并填写问卷，有机会得精美定制礼！",
-      "link": "https://www.jiqizhixin.com/search/articles/Wiley选刊工具AI摘要匹配",
-      "summary": "Wiley选刊工具AI摘要匹配功能上线，邀您试用并填写问卷，有机会得精美定制礼！...",
-      "date": "2026-08-19",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "600万奖池尘埃落定，有人靠DeepSeek网页版拿下冠军",
-      "link": "https://www.jiqizhixin.com/search/articles/600万奖池尘埃落定，有人靠D",
-      "summary": "600万奖池尘埃落定，有人靠DeepSeek网页版拿下冠军...",
-      "date": "2026-08-19",
-      "source": "机器之心",
       "type": "industry",
       "tags": [
         "AI",

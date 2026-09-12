@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-11",
-  "last_updated": "2026-09-11",
+  "date": "2026-09-12",
+  "last_updated": "2026-09-12",
   "categories": {
     "ai": {
       "name": "人工智能",
@@ -8,10 +8,10 @@
       "count": 5,
       "items": [
         {
-          "title": "世界模型到底是什么？李飞飞、朱军等如何解读？",
-          "link": "https://www.jiqizhixin.com/search/articles/世界模型到底是什么？李飞飞、朱",
-          "summary": "世界模型到底是什么？李飞飞、朱军等如何解读？...",
-          "date": "2026-09-10",
+          "title": "Markdown Content:",
+          "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+          "summary": "Markdown Content:...",
+          "date": "2026-09-11",
           "source": "机器之心",
           "type": "industry",
           "tags": [
@@ -20,10 +20,10 @@
           ]
         },
         {
-          "title": "刚刚，ECCV最佳论文出炉，李飞飞获时间检验奖",
-          "link": "https://www.jiqizhixin.com/search/articles/刚刚，ECCV最佳论文出炉，李",
-          "summary": "刚刚，ECCV最佳论文出炉，李飞飞获时间检验奖...",
-          "date": "2026-09-10",
+          "title": "Nature封面 | 面向流体动力学的强化学习平台，华盛顿大学等提出HydroGym",
+          "link": "https://www.jiqizhixin.com/search/articles/Nature封面 | 面向流体",
+          "summary": "Nature封面 | 面向流体动力学的强化学习平台，华盛顿大学等提出HydroGym...",
+          "date": "2026-09-11",
           "source": "机器之心",
           "type": "industry",
           "tags": [
@@ -32,11 +32,11 @@
           ]
         },
         {
-          "title": "9月10日，阿里巴巴集团旗下高德正式发布全球首个3D原生城市世界模型ABot-Earth 0.7。",
-          "link": "https://www.qbitai.com/?s=9月10日，阿里巴巴",
-          "summary": "9月10日，阿里巴巴集团旗下高德正式发布全球首个3D原生城市世界模型ABot-Earth 0.7。...",
+          "title": "IIFAA智能体可信身份工作组成立，50余家机构参与生态共建",
+          "link": "https://www.jiqizhixin.com/search/articles/IIFAA智能体可信身份工作组",
+          "summary": "IIFAA智能体可信身份工作组成立，50余家机构参与生态共建...",
           "date": "2026-09-11",
-          "source": "量子位",
+          "source": "机器之心",
           "type": "industry",
           "tags": [
             "AI",
@@ -44,11 +44,11 @@
           ]
         },
         {
-          "title": "大晓机器人联合南洋理工大学 S-Lab、上海人工智能实验室发布全新人–场景交互重建研究 HSImul3R",
-          "link": "https://www.qbitai.com/?s=大晓机器人联合南洋理",
-          "summary": "大晓机器人联合南洋理工大学 S-Lab、上海人工智能实验室发布全新人–场景交互重建研究 HSImul3R...",
+          "title": "从GitHub爆火到ECCV Oral，全球开发者把LingBot-Map玩出新高度",
+          "link": "https://www.jiqizhixin.com/search/articles/从GitHub爆火到ECCV ",
+          "summary": "从GitHub爆火到ECCV Oral，全球开发者把LingBot-Map玩出新高度...",
           "date": "2026-09-11",
-          "source": "量子位",
+          "source": "机器之心",
           "type": "industry",
           "tags": [
             "AI",
@@ -56,11 +56,11 @@
           ]
         },
         {
-          "title": "9月9日，以“JoyAI · 跃迁物理世界”为主题的JDDiscovery-2026京东全球科技探索者大会在北京举行",
-          "link": "https://www.qbitai.com/?s=9月9日，以“Joy",
-          "summary": "9月9日，以“JoyAI · 跃迁物理世界”为主题的JDDiscovery-2026京东全球科技探索者大会在北京举行...",
+          "title": "《npj Robotics》：还在疯狂堆数据？北航、NTU联合提出PhyFilter，让机器人在有限数据下学会举一反三",
+          "link": "https://www.jiqizhixin.com/search/articles/《npj Robotics》：",
+          "summary": "《npj Robotics》：还在疯狂堆数据？北航、NTU联合提出PhyFilter，让机器人在有限数据下学会举一反三...",
           "date": "2026-09-11",
-          "source": "量子位",
+          "source": "机器之心",
           "type": "industry",
           "tags": [
             "AI",
