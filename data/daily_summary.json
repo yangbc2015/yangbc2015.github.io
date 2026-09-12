@@ -8,18 +8,6 @@
       "count": 5,
       "items": [
         {
-          "title": "Markdown Content:",
-          "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-          "summary": "Markdown Content:...",
-          "date": "2026-09-11",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
           "title": "Nature封面 | 面向流体动力学的强化学习平台，华盛顿大学等提出HydroGym",
           "link": "https://www.jiqizhixin.com/search/articles/Nature封面 | 面向流体",
           "summary": "Nature封面 | 面向流体动力学的强化学习平台，华盛顿大学等提出HydroGym...",
@@ -59,6 +47,18 @@
           "title": "《npj Robotics》：还在疯狂堆数据？北航、NTU联合提出PhyFilter，让机器人在有限数据下学会举一反三",
           "link": "https://www.jiqizhixin.com/search/articles/《npj Robotics》：",
           "summary": "《npj Robotics》：还在疯狂堆数据？北航、NTU联合提出PhyFilter，让机器人在有限数据下学会举一反三...",
+          "date": "2026-09-11",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "90后发Nature，10后进ICML，我在这场蚂蚁InTech论坛看见被AI折叠的科研",
+          "link": "https://www.jiqizhixin.com/search/articles/90后发Nature，10后进",
+          "summary": "90后发Nature，10后进ICML，我在这场蚂蚁InTech论坛看见被AI折叠的科研...",
           "date": "2026-09-11",
           "source": "机器之心",
           "type": "industry",
