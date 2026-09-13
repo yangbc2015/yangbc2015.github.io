@@ -1,7 +1,25 @@
 {
   "last_updated": "2026-09-13",
-  "count": 2,
+  "count": 3,
   "items": [
+    {
+      "title": "GPU-CFR: 80x Faster Counterfactual Regret Minimization by Compiling the Game to Static Dataflow and CUDA Graph Replay",
+      "authors": "Boning Li, Longbo Huang",
+      "abstract": "Counterfactual regret minimization (CFR) is one of the few large numerical workloads that still runs faster on CPUs than on GPUs. Each iteration sweeps a game tree with up to billions of states in millions of small, interdependent gather and scatter steps issued through a generic tree interface. On ...",
+      "venue": "arXiv",
+      "date": "2026-09-10",
+      "arxiv_id": "2609.11923v1",
+      "url": "https://arxiv.org/abs/2609.11923v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.11923v1.pdf",
+      "categories": [
+        "cs.DC",
+        "cs.AI",
+        "cs.GT"
+      ],
+      "type": "ai",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
     {
       "title": "General Quantification of Covariate and Concept Shifts",
       "authors": "Hongbo Chen, Li Charlie Xia",
