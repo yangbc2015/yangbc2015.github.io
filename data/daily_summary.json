@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-12",
-  "last_updated": "2026-09-12",
+  "date": "2026-09-13",
+  "last_updated": "2026-09-13",
   "categories": {
     "ai": {
       "name": "人工智能",
@@ -8,10 +8,10 @@
       "count": 5,
       "items": [
         {
-          "title": "Nature封面 | 面向流体动力学的强化学习平台，华盛顿大学等提出HydroGym",
-          "link": "https://www.jiqizhixin.com/search/articles/Nature封面 | 面向流体",
-          "summary": "Nature封面 | 面向流体动力学的强化学习平台，华盛顿大学等提出HydroGym...",
-          "date": "2026-09-11",
+          "title": "Markdown Content:",
+          "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+          "summary": "Markdown Content:...",
+          "date": "2026-09-12",
           "source": "机器之心",
           "type": "industry",
           "tags": [
@@ -20,10 +20,10 @@
           ]
         },
         {
-          "title": "IIFAA智能体可信身份工作组成立，50余家机构参与生态共建",
-          "link": "https://www.jiqizhixin.com/search/articles/IIFAA智能体可信身份工作组",
-          "summary": "IIFAA智能体可信身份工作组成立，50余家机构参与生态共建...",
-          "date": "2026-09-11",
+          "title": "GPT-5.6 Sol跑量子实验，AI直连实验室实现自主决策",
+          "link": "https://www.jiqizhixin.com/search/articles/GPT-5.6 Sol跑量子实",
+          "summary": "GPT-5.6 Sol跑量子实验，AI直连实验室实现自主决策...",
+          "date": "2026-09-12",
           "source": "机器之心",
           "type": "industry",
           "tags": [
@@ -32,11 +32,11 @@
           ]
         },
         {
-          "title": "太初（杭州）集成电路有限公司新一代超智融合计算系统元碁Hypertintellix入选“算力中国·年度卓越成就”。",
-          "link": "https://www.qbitai.com/?s=太初（杭州）集成电路",
-          "summary": "太初（杭州）集成电路有限公司新一代超智融合计算系统元碁Hypertintellix入选“算力中国·年度卓越成就”。...",
+          "title": "OpenAI智能体还攻击过Ruby生态？但选择当鸵鸟！",
+          "link": "https://www.jiqizhixin.com/search/articles/OpenAI智能体还攻击过Ru",
+          "summary": "OpenAI智能体还攻击过Ruby生态？但选择当鸵鸟！...",
           "date": "2026-09-12",
-          "source": "量子位",
+          "source": "机器之心",
           "type": "industry",
           "tags": [
             "AI",
@@ -44,11 +44,11 @@
           ]
         },
         {
-          "title": "Claude越界攻击真实系统，并非只是测试系统的设置问题，模型本身的安全问题也出了问题。",
-          "link": "https://www.qbitai.com/?s=Claude越界攻击",
-          "summary": "Claude越界攻击真实系统，并非只是测试系统的设置问题，模型本身的安全问题也出了问题。...",
+          "title": "DeepSeek V4.1 Flash用了哪些黑科技？竟让Flash（差点）逼退Pro",
+          "link": "https://www.jiqizhixin.com/search/articles/DeepSeek V4.1 F",
+          "summary": "DeepSeek V4.1 Flash用了哪些黑科技？竟让Flash（差点）逼退Pro...",
           "date": "2026-09-12",
-          "source": "量子位",
+          "source": "机器之心",
           "type": "industry",
           "tags": [
             "AI",
@@ -56,11 +56,11 @@
           ]
         },
         {
-          "title": "多模态AI大牛轮番登台，全球64支团队组团解题",
-          "link": "https://www.qbitai.com/?s=多模态AI大牛轮番登",
-          "summary": "多模态AI大牛轮番登台，全球64支团队组团解题...",
+          "title": "淘天自研编码器斩获MSU 6项冠军，视频编码技术支撑内容体验升级",
+          "link": "https://www.jiqizhixin.com/search/articles/淘天自研编码器斩获MSU 6项",
+          "summary": "淘天自研编码器斩获MSU 6项冠军，视频编码技术支撑内容体验升级...",
           "date": "2026-09-12",
-          "source": "量子位",
+          "source": "机器之心",
           "type": "industry",
           "tags": [
             "AI",
