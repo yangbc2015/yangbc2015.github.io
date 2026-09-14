@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-13",
-  "last_updated": "2026-09-13",
+  "date": "2026-09-14",
+  "last_updated": "2026-09-14",
   "categories": {
     "ai": {
       "name": "人工智能",
@@ -8,59 +8,59 @@
       "count": 5,
       "items": [
         {
-          "title": "GPT-5.6 Sol跑量子实验，AI直连实验室实现自主决策",
-          "link": "https://www.jiqizhixin.com/search/articles/GPT-5.6 Sol跑量子实",
-          "summary": "GPT-5.6 Sol跑量子实验，AI直连实验室实现自主决策...",
-          "date": "2026-09-12",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
-          "title": "OpenAI智能体还攻击过Ruby生态？但选择当鸵鸟！",
-          "link": "https://www.jiqizhixin.com/search/articles/OpenAI智能体还攻击过Ru",
-          "summary": "OpenAI智能体还攻击过Ruby生态？但选择当鸵鸟！...",
-          "date": "2026-09-12",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
-          "title": "DeepSeek V4.1 Flash用了哪些黑科技？竟让Flash（差点）逼退Pro",
-          "link": "https://www.jiqizhixin.com/search/articles/DeepSeek V4.1 F",
-          "summary": "DeepSeek V4.1 Flash用了哪些黑科技？竟让Flash（差点）逼退Pro...",
-          "date": "2026-09-12",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
-          "title": "淘天自研编码器斩获MSU 6项冠军，视频编码技术支撑内容体验升级",
-          "link": "https://www.jiqizhixin.com/search/articles/淘天自研编码器斩获MSU 6项",
-          "summary": "淘天自研编码器斩获MSU 6项冠军，视频编码技术支撑内容体验升级...",
-          "date": "2026-09-12",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
-          "title": "亮源新创的Physical Al路线清晰了",
-          "link": "https://www.qbitai.com/?s=亮源新创的Physi",
-          "summary": "亮源新创的Physical Al路线清晰了...",
+          "title": "Markdown Content:",
+          "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+          "summary": "Markdown Content:...",
           "date": "2026-09-13",
-          "source": "量子位",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "Astra写的代码，人类已经看不懂了",
+          "link": "https://www.jiqizhixin.com/search/articles/Astra写的代码，人类已经看",
+          "summary": "Astra写的代码，人类已经看不懂了...",
+          "date": "2026-09-13",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "vLLM-Omni 上的 MiniMax H3：从系统级优化到基于 FastVideo FastH3 的实时服务",
+          "link": "https://www.jiqizhixin.com/search/articles/vLLM-Omni 上的 Mi",
+          "summary": "vLLM-Omni 上的 MiniMax H3：从系统级优化到基于 FastVideo FastH3 的实时服务...",
+          "date": "2026-09-13",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "左手推理成本暴降96%，右手性能反超大模型！当小模型学会了何时求助",
+          "link": "https://www.jiqizhixin.com/search/articles/左手推理成本暴降96%，右手性",
+          "summary": "左手推理成本暴降96%，右手性能反超大模型！当小模型学会了何时求助...",
+          "date": "2026-09-13",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "算法工程师要失业了？阿里和浙大联手提出Astar，用AI指导AI系统进化",
+          "link": "https://www.jiqizhixin.com/search/articles/算法工程师要失业了？阿里和浙大",
+          "summary": "算法工程师要失业了？阿里和浙大联手提出Astar，用AI指导AI系统进化...",
+          "date": "2026-09-13",
+          "source": "机器之心",
           "type": "industry",
           "tags": [
             "AI",
