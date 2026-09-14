@@ -1,9 +1,81 @@
 {
   "last_updated": "2026-09-14",
   "count": 200,
-  "history_count": 205,
+  "history_count": 206,
   "retention_days": 30,
   "items": [
+    {
+      "title": "通过这场大赛，蚂蚁灵波希望将 LingBot-VLA 进一步推向更广泛的开发者社区和高校科研社区",
+      "link": "https://www.qbitai.com/?s=通过这场大赛，蚂蚁灵",
+      "summary": "通过这场大赛，蚂蚁灵波希望将 LingBot-VLA 进一步推向更广泛的开发者社区和高校科研社区...",
+      "date": "2026-09-14",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "AI 蛋白质设计迈入“动态时代”",
+      "link": "https://www.qbitai.com/?s=AI 蛋白质设计迈入",
+      "summary": "AI 蛋白质设计迈入“动态时代”...",
+      "date": "2026-09-14",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "共话AI时代的生活、影像与创造。",
+      "link": "https://www.qbitai.com/?s=共话AI时代的生活、",
+      "summary": "共话AI时代的生活、影像与创造。...",
+      "date": "2026-09-14",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "小模型突破瓶颈，旗舰模型打开新空间",
+      "link": "https://www.qbitai.com/?s=小模型突破瓶颈，旗舰",
+      "summary": "小模型突破瓶颈，旗舰模型打开新空间...",
+      "date": "2026-09-14",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "这家中国公司，刚跑完了物理闭环里最难的一段路",
+      "link": "https://www.qbitai.com/?s=这家中国公司，刚跑完",
+      "summary": "这家中国公司，刚跑完了物理闭环里最难的一段路...",
+      "date": "2026-09-14",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "Published Time: Thu, 08 May 2025 23:15:48 GMT",
+      "link": "https://techcrunch.com/category/artificial-intelligence/",
+      "summary": "Published Time: Thu, 08 May 2025 23:15:48 GMT...",
+      "date": "2026-09-14",
+      "source": "TechCrunch",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "Artificial Intelligence"
+      ]
+    },
     {
       "title": "模型、论文都还没出，没想到先从财务公告上剧透了",
       "link": "https://www.qbitai.com/?s=模型、论文都还没出，",
@@ -65,21 +137,9 @@
       ]
     },
     {
-      "title": "Published Time: Thu, 08 May 2025 23:15:48 GMT",
-      "link": "https://techcrunch.com/category/artificial-intelligence/",
-      "summary": "Published Time: Thu, 08 May 2025 23:15:48 GMT...",
-      "date": "2026-09-14",
-      "source": "TechCrunch",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "Artificial Intelligence"
-      ]
-    },
-    {
-      "title": "Markdown Content:",
-      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-      "summary": "Markdown Content:...",
+      "title": "从加油到高速服务，动口不动手：蚂蚁阿宝三大车载AI能力亮相2026外滩大会",
+      "link": "https://www.jiqizhixin.com/search/articles/从加油到高速服务，动口不动手：",
+      "summary": "从加油到高速服务，动口不动手：蚂蚁阿宝三大车载AI能力亮相2026外滩大会...",
       "date": "2026-09-13",
       "source": "机器之心",
       "type": "industry",
@@ -116,6 +176,18 @@
       "title": "左手推理成本暴降96%，右手性能反超大模型！当小模型学会了何时求助",
       "link": "https://www.jiqizhixin.com/search/articles/左手推理成本暴降96%，右手性",
       "summary": "左手推理成本暴降96%，右手性能反超大模型！当小模型学会了何时求助...",
+      "date": "2026-09-13",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "Markdown Content:",
+      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+      "summary": "Markdown Content:...",
       "date": "2026-09-13",
       "source": "机器之心",
       "type": "industry",
@@ -2326,78 +2398,6 @@
       "summary": "WRC压轴：大模型要上天了，三家公司造「太空龙虾」，6个月挑战在轨抓取...",
       "date": "2026-08-22",
       "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "LoopsBench：当Coding Agent开始长期工作，我们该如何重新评测它？",
-      "link": "https://www.jiqizhixin.com/search/articles/LoopsBench：当Cod",
-      "summary": "LoopsBench：当Coding Agent开始长期工作，我们该如何重新评测它？...",
-      "date": "2026-08-22",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "对话维他动力秦海龙：具身智能真正难题不是让机器人「学会」，而是跨本体「继承」",
-      "link": "https://www.jiqizhixin.com/search/articles/对话维他动力秦海龙：具身智能真",
-      "summary": "对话维他动力秦海龙：具身智能真正难题不是让机器人「学会」，而是跨本体「继承」...",
-      "date": "2026-08-22",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "谷歌TPU创始负责人加入Anthropic",
-      "link": "https://www.jiqizhixin.com/search/articles/谷歌TPU创始负责人加入Ant",
-      "summary": "谷歌TPU创始负责人加入Anthropic...",
-      "date": "2026-08-22",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "8月21日，全球领先的消费级AR品牌雷鸟创新（RayNeo）举办2026雷鸟AI眼镜新品发布会",
-      "link": "https://www.qbitai.com/?s=8月21日，全球领先",
-      "summary": "8月21日，全球领先的消费级AR品牌雷鸟创新（RayNeo）举办2026雷鸟AI眼镜新品发布会...",
-      "date": "2026-08-22",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "中坚科技（002779.SZ）旗下桦之坚携概念人形机器人ZERO亮相2026世界机器人大会。",
-      "link": "https://www.qbitai.com/?s=中坚科技（00277",
-      "summary": "中坚科技（002779.SZ）旗下桦之坚携概念人形机器人ZERO亮相2026世界机器人大会。...",
-      "date": "2026-08-22",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "8月20日，网易有道（NYSE：DAO）发布了2026年第二季度未经审计的财务业绩。",
-      "link": "https://www.qbitai.com/?s=8月20日，网易有道",
-      "summary": "8月20日，网易有道（NYSE：DAO）发布了2026年第二季度未经审计的财务业绩。...",
-      "date": "2026-08-22",
-      "source": "量子位",
       "type": "industry",
       "tags": [
         "AI",
