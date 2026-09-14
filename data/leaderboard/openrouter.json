@@ -5,6 +5,22 @@
   "models": [
     {
       "rank": 1,
+      "model": "deepseek-pro-latest",
+      "organization": "~deepseek",
+      "price_prompt": "0.00000057948",
+      "price_completion": "0.00000173844",
+      "context_length": 1048576
+    },
+    {
+      "rank": 2,
+      "model": "deepseek-flash-latest",
+      "organization": "~deepseek",
+      "price_prompt": "0.00000015",
+      "price_completion": "0.0000006",
+      "context_length": 1048576
+    },
+    {
+      "rank": 3,
       "model": "schematron-v2-turbo",
       "organization": "inference-net",
       "price_prompt": "0.00000003",
@@ -12,7 +28,7 @@
       "context_length": 128000
     },
     {
-      "rank": 2,
+      "rank": 4,
       "model": "schematron-v2-small",
       "organization": "inference-net",
       "price_prompt": "0.00000005",
@@ -20,7 +36,7 @@
       "context_length": 128000
     },
     {
-      "rank": 3,
+      "rank": 5,
       "model": "gpt-astra-latest",
       "organization": "~openai",
       "price_prompt": "0.00001",
@@ -28,7 +44,7 @@
       "context_length": 1050000
     },
     {
-      "rank": 4,
+      "rank": 6,
       "model": "gpt-sol-latest",
       "organization": "~openai",
       "price_prompt": "0.000002",
@@ -36,7 +52,7 @@
       "context_length": 1050000
     },
     {
-      "rank": 5,
+      "rank": 7,
       "model": "gpt-terra-latest",
       "organization": "~openai",
       "price_prompt": "0.000002",
@@ -44,7 +60,7 @@
       "context_length": 1050000
     },
     {
-      "rank": 6,
+      "rank": 8,
       "model": "gpt-luna-latest",
       "organization": "~openai",
       "price_prompt": "0.0000002",
@@ -52,7 +68,7 @@
       "context_length": 1050000
     },
     {
-      "rank": 7,
+      "rank": 9,
       "model": "fugu-ultra-v2",
       "organization": "sakana",
       "price_prompt": "0.000005",
@@ -60,7 +76,7 @@
       "context_length": 1000000
     },
     {
-      "rank": 8,
+      "rank": 10,
       "model": "fugu-max",
       "organization": "sakana",
       "price_prompt": "0.000002",
@@ -68,7 +84,7 @@
       "context_length": 1000000
     },
     {
-      "rank": 9,
+      "rank": 11,
       "model": "ling-3.0-flash-vl",
       "organization": "inclusionai",
       "price_prompt": "0.00000006",
@@ -76,7 +92,7 @@
       "context_length": 131072
     },
     {
-      "rank": 10,
+      "rank": 12,
       "model": "ling-3.0-flash-vl:free",
       "organization": "inclusionai",
       "price_prompt": "0",
@@ -84,7 +100,7 @@
       "context_length": 262144
     },
     {
-      "rank": 11,
+      "rank": 13,
       "model": "deepseek-v4.1-flash",
       "organization": "deepseek",
       "price_prompt": "0.00000015",
@@ -92,7 +108,7 @@
       "context_length": 1048576
     },
     {
-      "rank": 12,
+      "rank": 14,
       "model": "mercury-2.5",
       "organization": "inception",
       "price_prompt": "0.00000004",
@@ -100,28 +116,12 @@
       "context_length": 260000
     },
     {
-      "rank": 13,
+      "rank": 15,
       "model": "nex-n2.5-mini:free",
       "organization": "nex-agi",
       "price_prompt": "0",
       "price_completion": "0",
       "context_length": 262144
-    },
-    {
-      "rank": 14,
-      "model": "nex-n2.5-pro:free",
-      "organization": "nex-agi",
-      "price_prompt": "0",
-      "price_completion": "0",
-      "context_length": 262144
-    },
-    {
-      "rank": 15,
-      "model": "gpt-6-astra",
-      "organization": "openai",
-      "price_prompt": "0.00001",
-      "price_completion": "0.00005",
-      "context_length": 1050000
     }
   ]
 }
