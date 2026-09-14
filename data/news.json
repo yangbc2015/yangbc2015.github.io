@@ -1,7 +1,7 @@
 {
   "last_updated": "2026-09-14",
   "count": 200,
-  "history_count": 201,
+  "history_count": 205,
   "retention_days": 30,
   "items": [
     {
@@ -74,6 +74,78 @@
       "tags": [
         "AI",
         "Artificial Intelligence"
+      ]
+    },
+    {
+      "title": "Markdown Content:",
+      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+      "summary": "Markdown Content:...",
+      "date": "2026-09-13",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "Astra写的代码，人类已经看不懂了",
+      "link": "https://www.jiqizhixin.com/search/articles/Astra写的代码，人类已经看",
+      "summary": "Astra写的代码，人类已经看不懂了...",
+      "date": "2026-09-13",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "vLLM-Omni 上的 MiniMax H3：从系统级优化到基于 FastVideo FastH3 的实时服务",
+      "link": "https://www.jiqizhixin.com/search/articles/vLLM-Omni 上的 Mi",
+      "summary": "vLLM-Omni 上的 MiniMax H3：从系统级优化到基于 FastVideo FastH3 的实时服务...",
+      "date": "2026-09-13",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "左手推理成本暴降96%，右手性能反超大模型！当小模型学会了何时求助",
+      "link": "https://www.jiqizhixin.com/search/articles/左手推理成本暴降96%，右手性",
+      "summary": "左手推理成本暴降96%，右手性能反超大模型！当小模型学会了何时求助...",
+      "date": "2026-09-13",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "算法工程师要失业了？阿里和浙大联手提出Astar，用AI指导AI系统进化",
+      "link": "https://www.jiqizhixin.com/search/articles/算法工程师要失业了？阿里和浙大",
+      "summary": "算法工程师要失业了？阿里和浙大联手提出Astar，用AI指导AI系统进化...",
+      "date": "2026-09-13",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "AI真的跑太快？刚刚，Dario最新长文喊话AI限速，OpenAI今年也不IPO了",
+      "link": "https://www.jiqizhixin.com/search/articles/AI真的跑太快？刚刚，Dari",
+      "summary": "AI真的跑太快？刚刚，Dario最新长文喊话AI限速，OpenAI今年也不IPO了...",
+      "date": "2026-09-13",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
       ]
     },
     {
@@ -164,18 +236,6 @@
       "title": "淘天自研编码器斩获MSU 6项冠军，视频编码技术支撑内容体验升级",
       "link": "https://www.jiqizhixin.com/search/articles/淘天自研编码器斩获MSU 6项",
       "summary": "淘天自研编码器斩获MSU 6项冠军，视频编码技术支撑内容体验升级...",
-      "date": "2026-09-12",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Markdown Content:",
-      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-      "summary": "Markdown Content:...",
       "date": "2026-09-12",
       "source": "机器之心",
       "type": "industry",
@@ -2338,66 +2398,6 @@
       "summary": "8月20日，网易有道（NYSE：DAO）发布了2026年第二季度未经审计的财务业绩。...",
       "date": "2026-08-22",
       "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "极佳视界发布GigaBrain-0.7，开源第一！颠覆性首创System-3+双塔体系",
-      "link": "https://www.jiqizhixin.com/search/articles/极佳视界发布GigaBrain",
-      "summary": "极佳视界发布GigaBrain-0.7，开源第一！颠覆性首创System-3+双塔体系...",
-      "date": "2026-08-21",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "刚刚，DeepSeek多模态模型上线！",
-      "link": "https://www.jiqizhixin.com/search/articles/刚刚，DeepSeek多模态模",
-      "summary": "刚刚，DeepSeek多模态模型上线！...",
-      "date": "2026-08-21",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "浙江人形 NAVIAI 亮相 2026 世界机器人大会，落地多品类精准操作能力",
-      "link": "https://www.jiqizhixin.com/search/articles/浙江人形 NAVIAI 亮相 ",
-      "summary": "浙江人形 NAVIAI 亮相 2026 世界机器人大会，落地多品类精准操作能力...",
-      "date": "2026-08-21",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "全球首个人形机器人自主乒乓球完整对局亮相2026世界机器人大会，超维动力KAI全栈具身智能硬核登场",
-      "link": "https://www.jiqizhixin.com/search/articles/全球首个人形机器人自主乒乓球完",
-      "summary": "全球首个人形机器人自主乒乓球完整对局亮相2026世界机器人大会，超维动力KAI全栈具身智能硬核登场...",
-      "date": "2026-08-21",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "WRC交卷⎜机器人长程任务总断片？墨奇用Agentic-Native重构具身大脑",
-      "link": "https://www.jiqizhixin.com/search/articles/WRC交卷⎜机器人长程任务总断",
-      "summary": "WRC交卷⎜机器人长程任务总断片？墨奇用Agentic-Native重构具身大脑...",
-      "date": "2026-08-21",
-      "source": "机器之心",
       "type": "industry",
       "tags": [
         "AI",
