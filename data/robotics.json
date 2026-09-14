@@ -64,6 +64,86 @@
       ]
     },
     {
+      "title": "ASTRIL-MPC: Autonomous Traversal Framework of Articulated Tracked Robots with Language-Guided Neural-Kinematic MPC",
+      "summary": "In urban search and rescue, articulated tracked robots (ATRs) must traverse structured but contact-rich environments such as stairwells and cluttered building interiors. Reliable autonomy remains challenging because robot-terrain interaction (RTI) is...",
+      "url": "https://arxiv.org/abs/2609.13083v1",
+      "date": "2026-09-11",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.13083v1",
+      "authors": "Zhenfeng Gan, Yanbo Chen et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Dynin-Robotics: Omnimodal Unified Diffusion Vision-Language-Action Model",
+      "summary": "Visual goal and dynamics prediction can provide language-conditioned robot policies with both a target outcome and a representation of action-dependent scene changes. We bring these predictions into action generation and selection through a shared tr...",
+      "url": "https://arxiv.org/abs/2609.13053v1",
+      "date": "2026-09-11",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.13053v1",
+      "authors": "Hoeun Lee, Jaeik Kim et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Global Path Planner with Multi-Model Switching",
+      "summary": "This work enhances global path planning via a pure-pursuit controller with multi-model kinematic switching that sustains plan fidelity across diverse terrains. The system includes a traversability graph for terrain analysis, a Heading-Aware A* algori...",
+      "url": "https://arxiv.org/abs/2609.13015v1",
+      "date": "2026-09-11",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.13015v1",
+      "authors": "Pietro Gori, Francesco Iotti et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Comfort by Construction: Adaptive, Comfort-Bounded Action Spaces for Learned Driving Policies",
+      "summary": "Data-driven driving simulators command accelerations and steering rates from a fixed grid without constraining the realized accelerations and jerks. As a result, reinforcement-learning policies inflate safety metrics through abrupt, last-second maneu...",
+      "url": "https://arxiv.org/abs/2609.13011v1",
+      "date": "2026-09-11",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.13011v1",
+      "authors": "Anna Rothenhäusler, Daniel Jost et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Tuning ROS 2 for Energy-Efficient Navigation: Empirical Insights from Costmap 2D Configurations",
+      "summary": "Robots are increasingly used in diverse application areas, where autonomous navigation plays a central role. As these systems become more widespread, improving their energy efficiency is critical to extending operational time and reducing environment...",
+      "url": "https://arxiv.org/abs/2609.12971v1",
+      "date": "2026-09-11",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.12971v1",
+      "authors": "Michel Albonico, Andreas Wortmann et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
       "title": "万勋科技发布行业首个商用级NOVA2.0柔性具身大脑。",
       "summary": "万勋科技发布行业首个商用级NOVA2.0柔性具身大脑。",
       "url": "http://36kr.com/p/3975925620109575",
@@ -2931,82 +3011,6 @@
       "type": "paper",
       "arxiv_id": "2608.11901v1",
       "authors": "Zihao Xie, Pingrui Lai et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Scalable Multi-Agent Maze Traversal with Local Communication",
-      "summary": "Cave networks, pipe systems, and similar maze-like environments pose significant challenges for multi-agent navigation in unknown settings with limited communication. We propose a distributed algorithm that enables agents to collectively traverse an ...",
-      "url": "https://arxiv.org/abs/2608.11895v1",
-      "date": "2026-08-12",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.11895v1",
-      "authors": "Julian Rau, Jahir Argote-Gerald et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "离开地平线的人，都去造机器人了",
-      "summary": "离开地平线的人，都去造机器人了",
-      "url": "http://36kr.com/p/3933745971255168",
-      "date": "2026-08-11",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
-      ]
-    },
-    {
-      "title": "Surgical WAM: A World-Action Model for Data-Efficient Surgical Robot Learning",
-      "summary": "Learning reliable surgical manipulation policies is bottlenecked by the scarcity of action-labeled demonstrations: teleoperated surgical robot (e.g., dVRK) trajectories with synchronized kinematics are costly to collect, while surgical tasks demand p...",
-      "url": "https://arxiv.org/abs/2608.11204v1",
-      "date": "2026-08-11",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.11204v1",
-      "authors": "Wenrui Bao, Tianyun Jiang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Risk-Aware Kinodynamic Motion Planning Under Uncertainty For Safe Navigation on Planetary Environments",
-      "summary": "For autonomous space exploration, robotic agents need to perform motion planning in which environmental interactions may be unknown. Learning these interactions, such as terrain mechanics for wheeled robots, can introduce uncertainties that lead to r...",
-      "url": "https://arxiv.org/abs/2608.11175v1",
-      "date": "2026-08-11",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.11175v1",
-      "authors": "Sachin Sunil Kelkar, Tanmay Dokania et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "VIScore: Diagnosing Planning-Relevant Quality in Latent World Models",
-      "summary": "Regulating the latent space to an isotropic Gaussian distribution provides a stable and information-maximized landscape for world model planning. However, the latent space property and successful planning remain disconnected. We first study this by c...",
-      "url": "https://arxiv.org/abs/2608.11174v1",
-      "date": "2026-08-11",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.11174v1",
-      "authors": "Haiyu Wu, Randall Balestriero et al.",
       "tags": [
         "机器人学习",
         "研究论文",
