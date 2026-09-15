@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-09-15",
-  "count": 2,
+  "count": 7,
   "items": [
     {
       "title": "Corrupt Plans, Clean Traces: Evading Chain-of-Thought Monitoring with Plan Injection",
@@ -33,6 +33,90 @@
         "cs.LG"
       ],
       "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Bellman Policy Optimization",
+      "authors": "Zhuoqing Song, Haotian Xu, Xikun Zhang et al.",
+      "abstract": "Reinforcement learning with verifiable rewards (RLVR) improves the reasoning capabilities of large language models (LLMs). We introduce Bellman Policy Optimization (BPO), a critic-free method derived from Policy Mirror Descent (PMD). For autoregressive generation with terminal rewards, BPO uses the ...",
+      "venue": "arXiv",
+      "date": "2026-09-14",
+      "arxiv_id": "2609.15987v1",
+      "url": "https://arxiv.org/abs/2609.15987v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.15987v1.pdf",
+      "categories": [
+        "cs.LG",
+        "cs.CL",
+        "math.OC"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "A Chosen Future Can Still Be Rewritten: Causal Writability in Video Models",
+      "authors": "Xingyun Wang, Haomin Zheng, Man Yuan et al.",
+      "abstract": "When a video model generates physically incorrect motion, did it fail to learn the correct motion, or did it learn it but fail to use it? We show the latter: the correct motion remains available inside the model and can still be made to control the generated video. We train on videos where red masse...",
+      "venue": "arXiv",
+      "date": "2026-09-14",
+      "arxiv_id": "2609.15980v1",
+      "url": "https://arxiv.org/abs/2609.15980v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.15980v1.pdf",
+      "categories": [
+        "cs.LG",
+        "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Anatomical Grounding and Leakage-Aware Multimodal Contrastive Learning for Alzheimer's Disease Classification from Structural MRI",
+      "authors": "Paul-Gabriel Nicolae, Irina Georgiana Mocanu",
+      "abstract": "Deep networks trained on structural MRI for Alzheimer's disease (AD) staging often reach reasonable accuracy while attending to anatomically irrelevant regions, and multimodal models that add clinical tables frequently rely on variables that were used to assign the diagnostic label in the first plac...",
+      "venue": "arXiv",
+      "date": "2026-09-14",
+      "arxiv_id": "2609.15888v1",
+      "url": "https://arxiv.org/abs/2609.15888v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.15888v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "ResSafe: Learning Safety Filtering with Residual Reinforcement Learning for Humanoids",
+      "authors": "Gechen Qu, Tong Zhang, Bike Zhang et al.",
+      "abstract": "Safe control of humanoid robots remains challenging due to their high-dimensional dynamics, contact-rich interactions, and sensitivity to disturbances. Although reinforcement learning has enabled effective locomotion and motion tracking, learned policies can still generate unsafe actions that lead t...",
+      "venue": "arXiv",
+      "date": "2026-09-14",
+      "arxiv_id": "2609.15988v1",
+      "url": "https://arxiv.org/abs/2609.15988v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.15988v1.pdf",
+      "categories": [
+        "cs.RO"
+      ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "MessyMem: Learning-from-Doing Memory for Mobile Manipulation",
+      "authors": "Anuva Banwasi, William Muckelroy, Priya Sundaresan et al.",
+      "abstract": "Mobile manipulators deployed across many rooms and visits should improve with experience: after discovering that a cabinet is locked or finding an object in a drawer, the robot should reuse that knowledge rather than start each task from scratch. Yet today's robots often treat each task as new: comp...",
+      "venue": "arXiv",
+      "date": "2026-09-14",
+      "arxiv_id": "2609.15976v1",
+      "url": "https://arxiv.org/abs/2609.15976v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.15976v1.pdf",
+      "categories": [
+        "cs.RO"
+      ],
+      "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     }

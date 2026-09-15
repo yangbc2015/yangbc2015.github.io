@@ -3,6 +3,32 @@
   "count": 200,
   "items": [
     {
+      "title": "[从四足到人形，具 身 智 能 正走向人的生活空间",
+      "summary": "[从四足到人形，具 身 智 能 正走向人的生活空间",
+      "url": "http://36kr.com/p/3984525593459460",
+      "date": "2026-09-15",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "人形机器人"
+      ]
+    },
+    {
+      "title": "[万勋科技发布NOVA2.0柔性具身大脑：稀缺跨行业极限工况淬炼，具 身 智 能 跃过开放世界应用分水岭",
+      "summary": "[万勋科技发布NOVA2.0柔性具身大脑：稀缺跨行业极限工况淬炼，具 身 智 能 跃过开放世界应用分水岭",
+      "url": "http://36kr.com/p/3975925620109575",
+      "date": "2026-09-15",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
       "title": "[B面 具 身 智 能 ：机器人烧钱，数采公司躺赚？",
       "summary": "[B面 具 身 智 能 ：机器人烧钱，数采公司躺赚？",
       "url": "http://36kr.com/p/3974500052807942",
@@ -24,19 +50,6 @@
       "type": "news",
       "tags": [
         "机器人"
-      ]
-    },
-    {
-      "title": "[万勋科技发布NOVA2.0柔性具身大脑：稀缺跨行业极限工况淬炼，具 身 智 能 跃过开放世界应用分水岭",
-      "summary": "[万勋科技发布NOVA2.0柔性具身大脑：稀缺跨行业极限工况淬炼，具 身 智 能 跃过开放世界应用分水岭",
-      "url": "http://36kr.com/p/3975925620109575",
-      "date": "2026-09-15",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
       ]
     },
     {
@@ -2998,22 +3011,6 @@
       "type": "paper",
       "arxiv_id": "2608.14462v1",
       "authors": "Jin Xu, Yu-Ping Chen et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Control-Informed Constraint Adaptation in Minimum-Time Trajectory Planning for Autonomous Racing",
-      "summary": "Autonomous racecars operate at the limits of vehicle dynamics, where small control errors translate into safety-critical behavior and lost performance. Trajectory planners assume perfect tracking and remain blind to execution errors. To guarantee saf...",
-      "url": "https://arxiv.org/abs/2608.14448v1",
-      "date": "2026-08-14",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.14448v1",
-      "authors": "Ann-Kathrin Schwehn, Alexander Langmann et al.",
       "tags": [
         "机器人学习",
         "研究论文",
