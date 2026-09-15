@@ -1,5 +1,40 @@
 {
   "last_updated": "2026-09-15",
-  "count": 0,
-  "items": []
+  "count": 2,
+  "items": [
+    {
+      "title": "Corrupt Plans, Clean Traces: Evading Chain-of-Thought Monitoring with Plan Injection",
+      "authors": "Keertana Chidambaram, Andrew Ilyas, Vasilis Syrgkanis",
+      "abstract": "Chain-of-thought (CoT) monitoring is a safety strategy where the reasoning of a large language model \"actor\" is inspected by a \"monitor\" (often another language model) for signs of unsafe planning, deception, or misalignment. We find that planting harmful but benign-sounding reasoning in the actor's...",
+      "venue": "arXiv",
+      "date": "2026-09-14",
+      "arxiv_id": "2609.15989v1",
+      "url": "https://arxiv.org/abs/2609.15989v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.15989v1.pdf",
+      "categories": [
+        "cs.AI"
+      ],
+      "type": "ai",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Stellar Colosseum: A Many-Agent Harness for Long-Horizon Research in Mathematics and Theoretical Computer Science",
+      "authors": "Honghao Lin, David P. Woodruff, Yuan Deng et al.",
+      "abstract": "Language models can produce plausible short proofs, but may still be unreliable on long-horizon research problems, where progress depends on a sequence of uncertain and interdependent decisions. We introduce Stellar Colosseum, a model-agnostic harness for allocating inference across research in math...",
+      "venue": "arXiv",
+      "date": "2026-09-14",
+      "arxiv_id": "2609.15983v1",
+      "url": "https://arxiv.org/abs/2609.15983v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.15983v1.pdf",
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    }
+  ]
 }
