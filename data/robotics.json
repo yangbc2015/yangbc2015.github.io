@@ -3,18 +3,6 @@
   "count": 200,
   "items": [
     {
-      "title": "[当机器人开始\"上班\"：具 身 智 能 正在跨过价值分水岭",
-      "summary": "[当机器人开始\"上班\"：具 身 智 能 正在跨过价值分水岭",
-      "url": "http://36kr.com/p/3974245149044999",
-      "date": "2026-09-15",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
-      ]
-    },
-    {
       "title": "[万勋科技发布NOVA2.0柔性具身大脑：稀缺跨行业极限工况淬炼，具 身 智 能 跃过开放世界应用分水岭",
       "summary": "[万勋科技发布NOVA2.0柔性具身大脑：稀缺跨行业极限工况淬炼，具 身 智 能 跃过开放世界应用分水岭",
       "url": "http://36kr.com/p/3975925620109575",
@@ -37,6 +25,98 @@
       "type": "news",
       "tags": [
         "机器人"
+      ]
+    },
+    {
+      "title": "[当机器人开始\"上班\"：具 身 智 能 正在跨过价值分水岭",
+      "summary": "[当机器人开始\"上班\"：具 身 智 能 正在跨过价值分水岭",
+      "url": "http://36kr.com/p/3974245149044999",
+      "date": "2026-09-15",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
+      "title": "ResSafe: Learning Safety Filtering with Residual Reinforcement Learning for Humanoids",
+      "summary": "Safe control of humanoid robots remains challenging due to their high-dimensional dynamics, contact-rich interactions, and sensitivity to disturbances. Although reinforcement learning has enabled effective locomotion and motion tracking, learned poli...",
+      "url": "https://arxiv.org/abs/2609.15988v1",
+      "date": "2026-09-14",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.15988v1",
+      "authors": "Gechen Qu, Tong Zhang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "MessyMem: Learning-from-Doing Memory for Mobile Manipulation",
+      "summary": "Mobile manipulators deployed across many rooms and visits should improve with experience: after discovering that a cabinet is locked or finding an object in a drawer, the robot should reuse that knowledge rather than start each task from scratch. Yet...",
+      "url": "https://arxiv.org/abs/2609.15976v1",
+      "date": "2026-09-14",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.15976v1",
+      "authors": "Anuva Banwasi, William Muckelroy et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Beyond Single-Axis Testing: Paired Evaluation of Compound Robustness in Vision-Language-Action Policies",
+      "summary": "Vision-language-action policies are typically evaluated one perturbation at a time, providing a useful diagnosis of their sensitivity to individual distribution shifts. Real-world deployment, however, may involve several shifts simultaneously, and it...",
+      "url": "https://arxiv.org/abs/2609.15940v1",
+      "date": "2026-09-14",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.15940v1",
+      "authors": "Hiroki Sawada, Shunichi Kasahara",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Touch2Trace: Tactile-Driven Imitation Learning for Dexterous Cable Tracing",
+      "summary": "Dexterous manipulation of deformable objects demands continuous fingertip-level regulation of pressure, friction, and incipient slip. We study one of the most challenging cases: dexterous cable tracing, feeding a cable through the hand with repeated ...",
+      "url": "https://arxiv.org/abs/2609.15921v1",
+      "date": "2026-09-14",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.15921v1",
+      "authors": "Matteo Grimaldi, David Klee et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "SlipSense: Multimodal Tactile Learning for Low-Latency and Generalized Slip Detection",
+      "summary": "Slip detection is fundamental to dexterous manipulation, yet existing systems often lack precise characterization of detection latency and cross-platform generalization. We present SlipSense, a multimodal tactile slip-detection framework built on Tac...",
+      "url": "https://arxiv.org/abs/2609.15910v1",
+      "date": "2026-09-14",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.15910v1",
+      "authors": "Tong Jian, Aditya Thurvas Senthil Kumar et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
       ]
     },
     {
@@ -2934,83 +3014,6 @@
       "type": "paper",
       "arxiv_id": "2608.14448v1",
       "authors": "Ann-Kathrin Schwehn, Alexander Langmann et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "4个月签约欧洲商超巨头：具身智能的出海“闪电战”",
-      "summary": "4个月签约欧洲商超巨头：具身智能的出海“闪电战”",
-      "url": "http://36kr.com/p/3936504864701830",
-      "date": "2026-08-13",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "HumanTracker: Towards Comprehensive and Human-Aligned Motion Tracking Benchmark",
-      "summary": "Humanoid motion tracking is central to teleoperation and whole-body imitation, yet evaluation often disagrees with what people perceive in videos. Kinematic errors average per-frame pose differences but miss the physical artifacts that matter most, p...",
-      "url": "https://arxiv.org/abs/2608.13555v1",
-      "date": "2026-08-13",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.13555v1",
-      "authors": "Dairu Liu, Zekun Qi et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "A Browser-Native Digital Test Range for Benchmarking 4D Ocean-Glider Planning Algorithms",
-      "summary": "Repeated in-situ evaluation of ocean-glider planners requires scarce vehicles, operators, deployment and recovery resources, and ocean conditions that cannot be reset for competing algorithms. We present a guided, installation-free browser-native dig...",
-      "url": "https://arxiv.org/abs/2608.13511v1",
-      "date": "2026-08-13",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.13511v1",
-      "authors": "Edward Holmberg, Elias Ioup et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "DreamX-Phi 1.0: Action-Conditioned Video World Model for Robotic Manipulation",
-      "summary": "We present \\textbf{DreamX-Phi 1.0}, an action-conditioned video world model for robotic manipulation that, given an observed frame, a language instruction, and a prescribed action sequence comprising end-effector poses and gripper states, predicts th...",
-      "url": "https://arxiv.org/abs/2608.13489v1",
-      "date": "2026-08-13",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.13489v1",
-      "authors": "DreamX Team, Rui Chen et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Decoding Task Progress from VLA Representations",
-      "summary": "Vision-language-action models (VLAs) are moving rapidly towards deployment as general-purpose manipulation policies, but we currently lack basic tools for understanding what these models represent internally or for monitoring them at runtime. Leverag...",
-      "url": "https://arxiv.org/abs/2608.13474v1",
-      "date": "2026-08-13",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.13474v1",
-      "authors": "Atiksh Bhardwaj, Edward Weiyi Duan et al.",
       "tags": [
         "机器人学习",
         "研究论文",
