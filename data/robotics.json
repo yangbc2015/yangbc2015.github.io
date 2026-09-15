@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-09-14",
+  "last_updated": "2026-09-15",
   "count": 200,
   "items": [
     {
       "title": "[万勋科技发布NOVA2.0柔性具身大脑：稀缺跨行业极限工况淬炼，具 身 智 能 跃过开放世界应用分水岭",
       "summary": "[万勋科技发布NOVA2.0柔性具身大脑：稀缺跨行业极限工况淬炼，具 身 智 能 跃过开放世界应用分水岭",
       "url": "http://36kr.com/p/3975925620109575",
-      "date": "2026-09-14",
+      "date": "2026-09-15",
       "source": "36氪",
       "category": "具身智能",
       "type": "news",
@@ -19,12 +19,92 @@
       "title": "[B面 具 身 智 能 ：机器人烧钱，数采公司躺赚？",
       "summary": "[B面 具 身 智 能 ：机器人烧钱，数采公司躺赚？",
       "url": "http://36kr.com/p/3974500052807942",
-      "date": "2026-09-14",
+      "date": "2026-09-15",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
       "tags": [
         "机器人"
+      ]
+    },
+    {
+      "title": "P-POSEMEM: Projective Semantic Memory for Consistent Language Grounding under Pose-Graph Rewrites",
+      "summary": "A robot following language instructions needs its semantic memory to keep naming the same physical object while the SLAM pose graph underneath is optimized, loop-closed and compressed. Maps committing each detection to a world coordinate cannot: a cl...",
+      "url": "https://arxiv.org/abs/2609.15475v1",
+      "date": "2026-09-14",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.15475v1",
+      "authors": "Ha Sier, Ali Salmasi et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "InterSocialBench: Benchmarking Human and LLM Preferences for Companion-Robot Social Behavior",
+      "summary": "Companion robots face everyday situations in which several feasible behaviors may be appropriate, yet different people prefer different responses. We introduce InterSocialBench, a benchmark of 210 domestic scenarios and 18 high-level behaviors, pairi...",
+      "url": "https://arxiv.org/abs/2609.15455v1",
+      "date": "2026-09-14",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.15455v1",
+      "authors": "Yaodan Xu, Boyang Guo et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Learning to Exploit Passive Dynamics for Energy-Efficient Target Hopping of a Spring-Legged Quadcopter",
+      "summary": "Combining aerial thrust with spring-loaded hopping makes monopedal quadcopters promising for locomotion over complex terrain, but heuristic proportional-integral-derivative (PID) tuning limits coordination between active thrust and passive contact dy...",
+      "url": "https://arxiv.org/abs/2609.15447v1",
+      "date": "2026-09-14",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.15447v1",
+      "authors": "Ruigang Chen, Qi Zhang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Dynamics-Informed Reinforcement Learning for Agile and Energy-Efficient Locomotion of a Monopedal Hopping Quadcopter",
+      "summary": "Although aerial-legged robots offer combined agility and efficiency, controlling high-speed hopping under complex hybrid dynamics is challenging. Reinforcement Learning (RL) is promising but prone to energy-inefficient \"reward hacking\". We propose a ...",
+      "url": "https://arxiv.org/abs/2609.15399v1",
+      "date": "2026-09-14",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.15399v1",
+      "authors": "Ruigang Chen, Qi Zhang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "From Prediction to Decision: World-Model-Guided Action Selection for Continuous Pile Excavation",
+      "summary": "Wheel-loader excavation is a sequential decision problem in which every scoop changes the terrain available to subsequent actions. A practical world model must predict action consequences accurately, rank candidates in real time, and operate inside t...",
+      "url": "https://arxiv.org/abs/2609.15382v1",
+      "date": "2026-09-14",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.15382v1",
+      "authors": "Ailing Zhang, Fan Gao et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
       ]
     },
     {
@@ -2931,86 +3011,6 @@
       "type": "paper",
       "arxiv_id": "2608.13474v1",
       "authors": "Atiksh Bhardwaj, Edward Weiyi Duan et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Mind the Context: Continual Learning of Socially Appropriate Robot Actions via Environmental-Social Disentanglement",
-      "summary": "Social robots are expected to operate across diverse environments, where similar arrangements can imply different socially appropriate actions, e.g., starting a conversation may be acceptable in a crowded home but disruptive in an office meeting. Bec...",
-      "url": "https://arxiv.org/abs/2608.13448v1",
-      "date": "2026-08-13",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.13448v1",
-      "authors": "Rafal Robert Karpinski, Fethiye Irmak Dogan et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Learning-Based Behavior Planning for Automated Driving: Real-World Integration and Deployment",
-      "summary": "Recent research in machine and deep learning has shown the potential of learningbased motion planning approaches to improve the driving behavior of automated vehicles, especially in complex environments. However, their complex nature and lack of tran...",
-      "url": "https://arxiv.org/abs/2608.12198v1",
-      "date": "2026-08-12",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.12198v1",
-      "authors": "Jean-Pierre Busch, Guido Linden et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "HandEdit: A Unified Benchmark for Egocentric Human-to-Robot Dexterous Hand Image Editing",
-      "summary": "Robotic manipulation with dexterous hands is a cornerstone of Embodied AI, yet its progress is stifled by the high cost of collecting embodiment-aware teleoperation data. While abundant egocentric videos of human hands offer a scalable alternative, t...",
-      "url": "https://arxiv.org/abs/2608.12122v1",
-      "date": "2026-08-12",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.12122v1",
-      "authors": "Zhenjie Yang, Xingyu Jiao et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Learning Loco-Manipulation From SMPC Demonstrations With Sparse Offline-to-Online RL",
-      "summary": "Integrating locomotion and manipulation is essential for robot autonomy, but scaling standard Reinforcement Learning (RL) to complex tasks is severely bottlenecked by the slow, manual process of dense reward shaping. To bypass this limitation, we lev...",
-      "url": "https://arxiv.org/abs/2608.12063v1",
-      "date": "2026-08-12",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.12063v1",
-      "authors": "Martin Schuck, Maks Sorokin et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "DaViNCi: A Dataset Towards Outdoor Vision-and-Language Navigation with Continuous Actions and Dynamic Elements",
-      "summary": "Vision-and-Language Navigation (VLN) has progressively expanded from indoor to outdoor environments. However, existing outdoor VLN datasets still rely on fixed discrete topological graphs for construction. It fails to align with the rapidly changing ...",
-      "url": "https://arxiv.org/abs/2608.11901v1",
-      "date": "2026-08-12",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.11901v1",
-      "authors": "Zihao Xie, Pingrui Lai et al.",
       "tags": [
         "机器人学习",
         "研究论文",
