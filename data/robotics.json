@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-09-15",
+  "last_updated": "2026-09-16",
   "count": 200,
   "items": [
     {
       "title": "[从四足到人形，具 身 智 能 正走向人的生活空间",
       "summary": "[从四足到人形，具 身 智 能 正走向人的生活空间",
       "url": "http://36kr.com/p/3984525593459460",
-      "date": "2026-09-15",
+      "date": "2026-09-16",
       "source": "36氪",
       "category": "具身智能",
       "type": "news",
@@ -19,13 +19,93 @@
       "title": "[万勋科技发布NOVA2.0柔性具身大脑：稀缺跨行业极限工况淬炼，具 身 智 能 跃过开放世界应用分水岭",
       "summary": "[万勋科技发布NOVA2.0柔性具身大脑：稀缺跨行业极限工况淬炼，具 身 智 能 跃过开放世界应用分水岭",
       "url": "http://36kr.com/p/3975925620109575",
-      "date": "2026-09-15",
+      "date": "2026-09-16",
       "source": "36氪",
       "category": "具身智能",
       "type": "news",
       "tags": [
         "机器人",
         "具身智能"
+      ]
+    },
+    {
+      "title": "LOTUSim-Energy: A Maritime Simulator for Human-Drone Interaction in Autonomous Offshore Operation \\&amp; Maintenance",
+      "summary": "Offshore maintenance requires operations in the air, the surface, and the subsea domain and include human supervision. This paper presents LOTUSim-Energy, a real-time maritime simulator designed for multi-domain human--drone interaction for offshore ...",
+      "url": "https://arxiv.org/abs/2609.17124v1",
+      "date": "2026-09-15",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.17124v1",
+      "authors": "Juliette Grosset, Marie Dubromel et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Intrinsic Robot Rewarding: Reusing VLA Representations for Autonomous Evaluation and Policy Improvement",
+      "summary": "Vision-language-action (VLA) systems already bring together two valuable resources for robot learning: rich visual representations and demonstrations of successful task execution. Intrinsic Robot Rewarding (IRR) proposes to use these resources for a ...",
+      "url": "https://arxiv.org/abs/2609.17115v1",
+      "date": "2026-09-15",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.17115v1",
+      "authors": "Tobias Schaffer, Mohab Elkhayat et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "BRAVE-6D: Benchmark for Robotic Active Vision in 6DOF Pose Estimation",
+      "summary": "Detecting and grasping small objects remains a significant challenge in robotics. Active vision, where the robot moves closer to the object, is an intuitive solution, yet comparing approaches on common ground is difficult since identical physical sce...",
+      "url": "https://arxiv.org/abs/2609.17106v1",
+      "date": "2026-09-15",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.17106v1",
+      "authors": "Philipp Ausserlechner, Bernhard Neuberger et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "GeoLAM: Learning Geometry-Grounded Latent Actions from Unlabeled Human Videos",
+      "summary": "Human videos provide rich manipulation experience, but extracting action representations that preserve useful motion remains challenging. Visual reconstruction alone can entangle manipulation-related motion with appearance changes and camera movement...",
+      "url": "https://arxiv.org/abs/2609.17099v1",
+      "date": "2026-09-15",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.17099v1",
+      "authors": "Yifan Xie, Hekun Tian et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Learning Options for Compositional Motor Control with Adapter Banks",
+      "summary": "Learning flexible motor primitives is a hallmark of skilled motor control. Recent neuroscience theory proposes that motor primitives may be implemented as low-rank perturbations of a shared recurrent network, but leaves open how such a system is lear...",
+      "url": "https://arxiv.org/abs/2609.17042v1",
+      "date": "2026-09-15",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.17042v1",
+      "authors": "Sreejan Kumar, Marcelo Mattar et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
       ]
     },
     {
@@ -2938,83 +3018,6 @@
       "type": "news",
       "tags": [
         "机器人"
-      ]
-    },
-    {
-      "title": "梅卡曼德通过港交所聆讯，将成“具身智能眼脑手第一股”",
-      "summary": "梅卡曼德通过港交所聆讯，将成“具身智能眼脑手第一股”",
-      "url": "http://36kr.com/p/3942261074951557",
-      "date": "2026-08-16",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "Spatiotemporal Tube-Based Safety-Certificate for Autonomous Navigation of Articulated Vehicles",
-      "summary": "Articulated vehicles are the workhorses of freight transportation, and their autonomous navigation is challenging. Their physical characteristics and motion constraints pose significant challenges in manoeuvring these vehicles on narrow routes. This ...",
-      "url": "https://arxiv.org/abs/2608.14531v1",
-      "date": "2026-08-14",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.14531v1",
-      "authors": "Mohd. Faizuddin Faruqui, Ratnangshu Das et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Ensuring Safe Physical AI in Urban Mobility via Hazard-Informed Synthesized Envelopes",
-      "summary": "As heterogeneous robotic systems deploy across diverse urban zones, maintaining safety amid complex human-robot interactions remains a critical challenge. We present a unified framework that bridges systematic hazard analysis and runtime enforcement ...",
-      "url": "https://arxiv.org/abs/2608.14481v1",
-      "date": "2026-08-14",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.14481v1",
-      "authors": "Alexei Odinokov, Rostislav Yavorskiy",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Expected Free Energy-based Informative Path Planning for Robotic Mars Exploration",
-      "summary": "An autonomous robot efficiently exploring an unknown environment, such as looking for water sources on Mars, faces two simultaneous demands: building an accurate information map while quickly finding the regions of greatest value, and paying for ever...",
-      "url": "https://arxiv.org/abs/2608.14466v1",
-      "date": "2026-08-14",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.14466v1",
-      "authors": "Ajith Anil Meera, Pablo Lanillos et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "THRIVE: Therapeutic Humanoid Robot In Virtual Environment",
-      "summary": "This paper presents THRIVE (Therapeutic Humanoid Robot In Virtual Environment), an at-home rehabilitation platform that integrates a suite of virtual-reality upper-body rehabilitation games, a real-time camera-based motion-tracking system, and a soci...",
-      "url": "https://arxiv.org/abs/2608.14462v1",
-      "date": "2026-08-14",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.14462v1",
-      "authors": "Jin Xu, Yu-Ping Chen et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
       ]
     }
   ]

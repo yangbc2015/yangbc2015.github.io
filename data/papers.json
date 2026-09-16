@@ -1,85 +1,104 @@
 {
-  "last_updated": "2026-09-15",
-  "count": 7,
+  "last_updated": "2026-09-16",
+  "count": 9,
   "items": [
     {
-      "title": "Corrupt Plans, Clean Traces: Evading Chain-of-Thought Monitoring with Plan Injection",
-      "authors": "Keertana Chidambaram, Andrew Ilyas, Vasilis Syrgkanis",
-      "abstract": "Chain-of-thought (CoT) monitoring is a safety strategy where the reasoning of a large language model \"actor\" is inspected by a \"monitor\" (often another language model) for signs of unsafe planning, deception, or misalignment. We find that planting harmful but benign-sounding reasoning in the actor's...",
+      "title": "AI for Science with GPT-6 Astra: Thermal Design and Electrothermal Analysis of 2D CFET",
+      "authors": "Min-Hui Kim, Khushi Sharma, Sarah Zhang et al.",
+      "abstract": "Thermal optimization of 2D CFET inverters requires testing structural proposals against their electrical costs. We examine these research tasks using an AI agent workflow within a supplied electrothermal model. At 12 nm, Astra selects a redistributed source-interconnect geometry, while a coordinatin...",
       "venue": "arXiv",
-      "date": "2026-09-14",
-      "arxiv_id": "2609.15989v1",
-      "url": "https://arxiv.org/abs/2609.15989v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.15989v1.pdf",
+      "date": "2026-09-15",
+      "arxiv_id": "2609.17123v1",
+      "url": "https://arxiv.org/abs/2609.17123v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.17123v1.pdf",
       "categories": [
-        "cs.AI"
+        "cond-mat.mtrl-sci",
+        "cs.AI",
+        "cs.AR"
       ],
       "type": "ai",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Stellar Colosseum: A Many-Agent Harness for Long-Horizon Research in Mathematics and Theoretical Computer Science",
-      "authors": "Honghao Lin, David P. Woodruff, Yuan Deng et al.",
-      "abstract": "Language models can produce plausible short proofs, but may still be unreliable on long-horizon research problems, where progress depends on a sequence of uncertain and interdependent decisions. We introduce Stellar Colosseum, a model-agnostic harness for allocating inference across research in math...",
+      "title": "Finding Common Mistakes In Modelling With Mathematical Formalisms Using LLMs",
+      "authors": "Lilian Killich, Marko Schmellenkamp, Fabian Vehlken et al.",
+      "abstract": "Modelling with mathematical formalisms like logical formulas, mathematical equations, or regular expressions is an important yet challenging task for students of computer science and other STEM disciplines. Identifying common mistakes occurring in this context is an important step towards helping st...",
       "venue": "arXiv",
-      "date": "2026-09-14",
-      "arxiv_id": "2609.15983v1",
-      "url": "https://arxiv.org/abs/2609.15983v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.15983v1.pdf",
+      "date": "2026-09-15",
+      "arxiv_id": "2609.17111v1",
+      "url": "https://arxiv.org/abs/2609.17111v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.17111v1.pdf",
+      "categories": [
+        "cs.CY",
+        "cs.AI",
+        "cs.LO"
+      ],
+      "type": "ai",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "ScienceBuddy: Recursive-in-Recursive Self-Improvement for Interactive Scientific Agents",
+      "authors": "Shuhan Xue, Jianyuan Zhong, Ziyuan Nan et al.",
+      "abstract": "We introduce and release ScienceBuddy, an interactive scientific research workspace that brings continually improving scientific agents into researchers' everyday workflows. ScienceBuddy supports researchers in carrying out scientific tasks while transforming their requests, feedback, and execution ...",
+      "venue": "arXiv",
+      "date": "2026-09-15",
+      "arxiv_id": "2609.17523v1",
+      "url": "https://arxiv.org/abs/2609.17523v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.17523v1.pdf",
       "categories": [
         "cs.AI",
-        "cs.CL",
-        "cs.LG"
+        "cs.CL"
       ],
       "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Bellman Policy Optimization",
-      "authors": "Zhuoqing Song, Haotian Xu, Xikun Zhang et al.",
-      "abstract": "Reinforcement learning with verifiable rewards (RLVR) improves the reasoning capabilities of large language models (LLMs). We introduce Bellman Policy Optimization (BPO), a critic-free method derived from Policy Mirror Descent (PMD). For autoregressive generation with terminal rewards, BPO uses the ...",
+      "title": "When Should LLMs Abstain? Chain-of-Self-Questioning for Selective Risk Control",
+      "authors": "Ali Şenol",
+      "abstract": "Large language models can produce fluent answers when their factual support is weak. This paper introduces Chain-of-Self-Questioning (CoSQ), a prompt-only framework that makes answer commitment conditional on an explicit assessment of the information required to answer a question. We evaluate three ...",
       "venue": "arXiv",
-      "date": "2026-09-14",
-      "arxiv_id": "2609.15987v1",
-      "url": "https://arxiv.org/abs/2609.15987v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.15987v1.pdf",
+      "date": "2026-09-15",
+      "arxiv_id": "2609.17516v1",
+      "url": "https://arxiv.org/abs/2609.17516v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.17516v1.pdf",
       "categories": [
-        "cs.LG",
         "cs.CL",
-        "math.OC"
+        "cs.AI"
       ],
       "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "A Chosen Future Can Still Be Rewritten: Causal Writability in Video Models",
-      "authors": "Xingyun Wang, Haomin Zheng, Man Yuan et al.",
-      "abstract": "When a video model generates physically incorrect motion, did it fail to learn the correct motion, or did it learn it but fail to use it? We show the latter: the correct motion remains available inside the model and can still be made to control the generated video. We train on videos where red masse...",
+      "title": "PhysStream: Streaming Physics-Grounded Video Generation with Structured Scene Memory and Fine-Grained Motion Control",
+      "authors": "Chuhao Chen, Peter Wonka, Chaoyang Wang et al.",
+      "abstract": "Interactive control for video generation is moving from coarse prompts toward fine-grained, physically meaningful manipulation of dynamic scenes. Yet existing controllable methods either require the full control schedule before generation starts, or use pixel-space signals that dictate object positi...",
       "venue": "arXiv",
-      "date": "2026-09-14",
-      "arxiv_id": "2609.15980v1",
-      "url": "https://arxiv.org/abs/2609.15980v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.15980v1.pdf",
+      "date": "2026-09-15",
+      "arxiv_id": "2609.17521v1",
+      "url": "https://arxiv.org/abs/2609.17521v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.17521v1.pdf",
       "categories": [
-        "cs.LG",
-        "cs.CV"
+        "cs.CV",
+        "cs.AI",
+        "cs.GR"
       ],
       "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Anatomical Grounding and Leakage-Aware Multimodal Contrastive Learning for Alzheimer's Disease Classification from Structural MRI",
-      "authors": "Paul-Gabriel Nicolae, Irina Georgiana Mocanu",
-      "abstract": "Deep networks trained on structural MRI for Alzheimer's disease (AD) staging often reach reasonable accuracy while attending to anatomically irrelevant regions, and multimodal models that add clinical tables frequently rely on variables that were used to assign the diagnostic label in the first plac...",
+      "title": "Det-LIME: Detector-Aware, Multi-Instance Local Interpretable Model-Agnostic Explanations for Automated Marine Mammal Detection",
+      "authors": "Jiayi Zhou, David W. Johnston, Brinnae Bent",
+      "abstract": "Despite the rapid uptake of black-box object detectors in marine mammal research and monitoring, explainability techniques are rarely integrated into conservation workflows. Furthermore, most classification-oriented explainability tools are ill-suited to detection tasks involving imagery of social o...",
       "venue": "arXiv",
-      "date": "2026-09-14",
-      "arxiv_id": "2609.15888v1",
-      "url": "https://arxiv.org/abs/2609.15888v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.15888v1.pdf",
+      "date": "2026-09-15",
+      "arxiv_id": "2609.17479v1",
+      "url": "https://arxiv.org/abs/2609.17479v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.17479v1.pdf",
       "categories": [
         "cs.CV",
         "cs.AI"
@@ -89,34 +108,52 @@
       "source": "arXiv"
     },
     {
-      "title": "ResSafe: Learning Safety Filtering with Residual Reinforcement Learning for Humanoids",
-      "authors": "Gechen Qu, Tong Zhang, Bike Zhang et al.",
-      "abstract": "Safe control of humanoid robots remains challenging due to their high-dimensional dynamics, contact-rich interactions, and sensitivity to disturbances. Although reinforcement learning has enabled effective locomotion and motion tracking, learned policies can still generate unsafe actions that lead t...",
+      "title": "ENCP: Episode-Normalized Conformal Prediction for Vision-and-Language Navigation",
+      "authors": "Vicky Feliren, A. Taufiq Asyhari, Muhamad Risqi U. Saputra",
+      "abstract": "Uncertainty estimation for Vision-Language-Navigation (VLN) models is a critical task since it can help identify ambiguous and unreliable predictions, enabling agents to make safer navigation decisions. As one of the most advanced uncertainty estimation frameworks, conformal prediction (CP) offers a...",
       "venue": "arXiv",
-      "date": "2026-09-14",
-      "arxiv_id": "2609.15988v1",
-      "url": "https://arxiv.org/abs/2609.15988v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.15988v1.pdf",
+      "date": "2026-09-15",
+      "arxiv_id": "2609.17499v1",
+      "url": "https://arxiv.org/abs/2609.17499v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.17499v1.pdf",
       "categories": [
+        "cs.LG",
+        "cs.AI",
         "cs.RO"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "FreqSpaNet: Frequency and Spatial Learning of SFPF for Physical Layer Hardware Integrity Detection",
+      "authors": "Xiaoxuan Huang, Jinlong Xu, YiZhe Wang et al.",
+      "abstract": "Unauthorized hardware replacement can preserve a wireless device's logical identity while altering its physical implementation, posing a challenge to hardware integrity verification. Spatio-frequency polarization fingerprints (SFPFs) capture device-dependent responses across multiple frequencies and...",
+      "venue": "arXiv",
+      "date": "2026-09-15",
+      "arxiv_id": "2609.17491v1",
+      "url": "https://arxiv.org/abs/2609.17491v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.17491v1.pdf",
+      "categories": [
+        "cs.LG"
       ],
       "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "MessyMem: Learning-from-Doing Memory for Mobile Manipulation",
-      "authors": "Anuva Banwasi, William Muckelroy, Priya Sundaresan et al.",
-      "abstract": "Mobile manipulators deployed across many rooms and visits should improve with experience: after discovering that a cabinet is locked or finding an object in a drawer, the robot should reuse that knowledge rather than start each task from scratch. Yet today's robots often treat each task as new: comp...",
+      "title": "Modality-Autoregressive World-Action Models",
+      "authors": "Adam Hung, Bardienus P. Duisterhof, Deva Ramanan et al.",
+      "abstract": "World-action models (WAMs) jointly model future observations and actions, typically predicting the future as RGB images. Other visual modalities such as depth, pretrained visual features, and point tracks can more efficiently capture geometric, semantic, and motion features. However, how best to com...",
       "venue": "arXiv",
-      "date": "2026-09-14",
-      "arxiv_id": "2609.15976v1",
-      "url": "https://arxiv.org/abs/2609.15976v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.15976v1.pdf",
+      "date": "2026-09-15",
+      "arxiv_id": "2609.17524v1",
+      "url": "https://arxiv.org/abs/2609.17524v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.17524v1.pdf",
       "categories": [
         "cs.RO"
       ],
-      "type": "ml",
+      "type": "ai",
       "badge": "arxiv",
       "source": "arXiv"
     }
