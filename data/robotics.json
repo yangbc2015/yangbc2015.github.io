@@ -3,27 +3,16 @@
   "count": 200,
   "items": [
     {
-      "title": "[B面 具 身 智 能 ：机器人烧钱，数采公司躺赚？",
-      "summary": "[B面 具 身 智 能 ：机器人烧钱，数采公司躺赚？",
-      "url": "http://36kr.com/p/3974500052807942",
+      "title": "[重磅发现：GPT-6 Astra实现 具 身 智 能 突破，中国如何打具身防卫战？",
+      "summary": "[重磅发现：GPT-6 Astra实现 具 身 智 能 突破，中国如何打具身防卫战？",
+      "url": "http://36kr.com/p/3985769854974977",
       "date": "2026-09-16",
       "source": "36氪",
-      "category": "机器人",
+      "category": "具身智能",
       "type": "news",
       "tags": [
-        "机器人"
-      ]
-    },
-    {
-      "title": "[当机器人开始\"上班\"：具 身 智 能 正在跨过价值分水岭",
-      "summary": "[当机器人开始\"上班\"：具 身 智 能 正在跨过价值分水岭",
-      "url": "http://36kr.com/p/3974245149044999",
-      "date": "2026-09-16",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
+        "机器人",
+        "具身智能"
       ]
     },
     {
@@ -50,6 +39,30 @@
       "tags": [
         "机器人",
         "具身智能"
+      ]
+    },
+    {
+      "title": "[B面 具 身 智 能 ：机器人烧钱，数采公司躺赚？",
+      "summary": "[B面 具 身 智 能 ：机器人烧钱，数采公司躺赚？",
+      "url": "http://36kr.com/p/3974500052807942",
+      "date": "2026-09-16",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
+      "title": "[当机器人开始\"上班\"：具 身 智 能 正在跨过价值分水岭",
+      "summary": "[当机器人开始\"上班\"：具 身 智 能 正在跨过价值分水岭",
+      "url": "http://36kr.com/p/3974245149044999",
+      "date": "2026-09-16",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
       ]
     },
     {
@@ -3002,22 +3015,6 @@
       "type": "paper",
       "arxiv_id": "2608.17874v1",
       "authors": "Rajat Roy, Aditya Arun Kumar Yadav et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Don't Drop the BATON: Long-Horizon Robot Manipulation via Agentic Subtask Exploration and Transition-aware Memory",
-      "summary": "Long-horizon robot manipulation chains many contact-rich skills into one multi-stage task. Vision-language-action (VLA) models increasingly master the individual skills, yet the chain still fails: errors compound beyond the policy's ability to correc...",
-      "url": "https://arxiv.org/abs/2608.16889v1",
-      "date": "2026-08-17",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.16889v1",
-      "authors": "Bingxin Xu, Yuzhang Shang et al.",
       "tags": [
         "机器人学习",
         "研究论文",
