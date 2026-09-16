@@ -3,6 +3,30 @@
   "count": 200,
   "items": [
     {
+      "title": "[B面 具 身 智 能 ：机器人烧钱，数采公司躺赚？",
+      "summary": "[B面 具 身 智 能 ：机器人烧钱，数采公司躺赚？",
+      "url": "http://36kr.com/p/3974500052807942",
+      "date": "2026-09-16",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
+      "title": "[当机器人开始\"上班\"：具 身 智 能 正在跨过价值分水岭",
+      "summary": "[当机器人开始\"上班\"：具 身 智 能 正在跨过价值分水岭",
+      "url": "http://36kr.com/p/3974245149044999",
+      "date": "2026-09-16",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
       "title": "[从四足到人形，具 身 智 能 正走向人的生活空间",
       "summary": "[从四足到人形，具 身 智 能 正走向人的生活空间",
       "url": "http://36kr.com/p/3984525593459460",
@@ -26,6 +50,86 @@
       "tags": [
         "机器人",
         "具身智能"
+      ]
+    },
+    {
+      "title": "Modality-Autoregressive World-Action Models",
+      "summary": "World-action models (WAMs) jointly model future observations and actions, typically predicting the future as RGB images. Other visual modalities such as depth, pretrained visual features, and point tracks can more efficiently capture geometric, seman...",
+      "url": "https://arxiv.org/abs/2609.17524v1",
+      "date": "2026-09-15",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.17524v1",
+      "authors": "Adam Hung, Bardienus P. Duisterhof et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "ENCP: Episode-Normalized Conformal Prediction for Vision-and-Language Navigation",
+      "summary": "Uncertainty estimation for Vision-Language-Navigation (VLN) models is a critical task since it can help identify ambiguous and unreliable predictions, enabling agents to make safer navigation decisions. As one of the most advanced uncertainty estimat...",
+      "url": "https://arxiv.org/abs/2609.17499v1",
+      "date": "2026-09-15",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.17499v1",
+      "authors": "Vicky Feliren, A. Taufiq Asyhari et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Dissecting Motion-Prior Regularization for Data-Scarce Robotic Insertion",
+      "summary": "This study asks whether training-time motion-prior regularization can improve insertion success when a diffusion policy is learned from only 15 demonstrations. Minimum jerk discourages abrupt changes in predicted translational acceleration; speed-cur...",
+      "url": "https://arxiv.org/abs/2609.17484v1",
+      "date": "2026-09-15",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.17484v1",
+      "authors": "Ning Hu, Shuai Li et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Gaussian Processes for Modelling Spatial Fields with Robot Swarms",
+      "summary": "Robot swarms, by virtue of their decentralised architecture, are a natural tool for scalable, robust modelling of spatial fields, such as water temperature, wind velocity, or terrain elevation. However, existing methods rely on external positioning s...",
+      "url": "https://arxiv.org/abs/2609.17463v1",
+      "date": "2026-09-15",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.17463v1",
+      "authors": "Guillermo Legarda Herranz, Gianpiero Francesca et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Hamilton-Jacobi Reachability for Hybrid Systems: Unified Goal-Driven Control with Safety Guarantees",
+      "summary": "Hybrid dynamical systems provide a powerful modeling framework for robotic systems, particularly in contact-rich environments. However, ensuring safety and performance in such systems remains challenging due to the intricate coupling between continuo...",
+      "url": "https://arxiv.org/abs/2609.17430v1",
+      "date": "2026-09-15",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.17430v1",
+      "authors": "Javier Borquez, Shuang Peng et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
       ]
     },
     {
@@ -106,30 +210,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "[B面 具 身 智 能 ：机器人烧钱，数采公司躺赚？",
-      "summary": "[B面 具 身 智 能 ：机器人烧钱，数采公司躺赚？",
-      "url": "http://36kr.com/p/3974500052807942",
-      "date": "2026-09-15",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
-      ]
-    },
-    {
-      "title": "[当机器人开始\"上班\"：具 身 智 能 正在跨过价值分水岭",
-      "summary": "[当机器人开始\"上班\"：具 身 智 能 正在跨过价值分水岭",
-      "url": "http://36kr.com/p/3974245149044999",
-      "date": "2026-09-15",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
       ]
     },
     {
@@ -2942,82 +3022,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "$τ0$-VLA: a Hierarchical Robot Foundation Model with World-Model-Guided Test-Time Computation",
-      "summary": "Long-horizon robot manipulation requires a robot to both execute individual skills reliably and sequence them coherently over extended tasks. Most hierarchical vision-language-action (VLA) models make each such decision with a single forward pass, le...",
-      "url": "https://arxiv.org/abs/2608.16885v1",
-      "date": "2026-08-17",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.16885v1",
-      "authors": "Xiaowei Cai, Yunuo Cai et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "FlexWorm: Primitive-augmented Hybrid Contact-motion Planning for Suction-based Multi-segment Deformable Robots",
-      "summary": "Multi-segment suction-based soft robots are promising for inspection and maintenance in confined or fragile environments, but existing approaches still depend heavily on manually designed gaits and environment-specific motion scripts. This work prese...",
-      "url": "https://arxiv.org/abs/2608.16853v1",
-      "date": "2026-08-17",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.16853v1",
-      "authors": "Zili Tang, Tiecheng Guo et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Security of Foundation-Model-Powered Embodied Agents: Attack Surfaces, Attacks, Defenses, and Evaluation",
-      "summary": "Foundation models are increasingly used for perception, reasoning, planning, and action generation in embodied agents, creating security risks that can propagate from digital inputs to physical behavior. Existing surveys often organize threats by mec...",
-      "url": "https://arxiv.org/abs/2608.16843v1",
-      "date": "2026-08-17",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.16843v1",
-      "authors": "Jiawei Liu, Jiacheng Guo et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "HAF: Adapting Generalist VLAs to Humanoid Whole-Body Loco-manipulation via Hierarchical Action Flow and Spectral Latent RL",
-      "summary": "Humanoid robots hold great promise as general-purpose agents in human-centered environments, yet generalist vision-language-action (VLA) foundation models are not readily applicable to humanoid whole-body loco-manipulation. The high dimensionality an...",
-      "url": "https://arxiv.org/abs/2608.16837v1",
-      "date": "2026-08-17",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.16837v1",
-      "authors": "Langzhe Gu, Chengkai Hou et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "[黎曼动力携手光轮智能与诺亦腾机器人，剑指2026年百万小时 具 身 智 能 数据建设",
-      "summary": "[黎曼动力携手光轮智能与诺亦腾机器人，剑指2026年百万小时 具 身 智 能 数据建设",
-      "url": "http://36kr.com/p/3929174402203014",
-      "date": "2026-08-17",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
       ]
     }
   ]
