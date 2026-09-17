@@ -1,51 +1,51 @@
 {
-  "last_updated": "2026-09-16",
-  "count": 8,
+  "last_updated": "2026-09-17",
+  "count": 9,
   "items": [
     {
-      "title": "Agentic Societies Need a Social Harness",
-      "authors": "Tapan Chugh, Vidushi Singh, Krish Jain et al.",
-      "abstract": "An agentic society is a collection of AI agents that coordinate autonomously across trust boundaries, on behalf of different principals whose objectives may only partially align. We show experimentally that in agentic societies even honest, competent agents often fail to reach satisfactory outcomes ...",
+      "title": "CoRe-MARL: Cooperative Redistribution Under Unknown Dynamics Using Recurrent Multi-Agent Reinforcement Learning",
+      "authors": "Naimur Rahman Chowdhury, Shatabdi Sen Prapti, Md. Salehin Seyam et al.",
+      "abstract": "Emergency management assistance programs, such as relief distribution, are essential for delivering necessary supplies to affected communities. However, these programs operate in a decentralized network of local centers that face uncertain local demand and supply dynamics, resulting in inconsistent ...",
       "venue": "arXiv",
-      "date": "2026-09-15",
-      "arxiv_id": "2609.17527v1",
-      "url": "https://arxiv.org/abs/2609.17527v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.17527v1.pdf",
+      "date": "2026-09-16",
+      "arxiv_id": "2609.18639v1",
+      "url": "https://arxiv.org/abs/2609.18639v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.18639v1.pdf",
       "categories": [
-        "cs.MA",
-        "cs.AI",
-        "cs.NI"
+        "cs.LG",
+        "cs.AI"
       ],
-      "type": "ai",
+      "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "ScienceBuddy: Recursive-in-Recursive Self-Improvement for Interactive Scientific Agents",
-      "authors": "Shuhan Xue, Jianyuan Zhong, Ziyuan Nan et al.",
-      "abstract": "We introduce and release ScienceBuddy, an interactive scientific research workspace that brings continually improving scientific agents into researchers' everyday workflows. ScienceBuddy supports researchers in carrying out scientific tasks while transforming their requests, feedback, and execution ...",
+      "title": "GenStream: Semantic Streaming Framework for Generative Reconstruction of Human-centric Media",
+      "authors": "Emanuele Artioli, Daniele Lorenzi, Shivi Vats et al.",
+      "abstract": "Video streaming dominates global internet traffic, yet conventional pipelines remain inefficient for structured, human-centric content such as sports, performance, or interactive media. Standard codecs re-encode entire frames, foreground and background alike, treating all pixels uniformly and ignori...",
       "venue": "arXiv",
-      "date": "2026-09-15",
-      "arxiv_id": "2609.17523v1",
-      "url": "https://arxiv.org/abs/2609.17523v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.17523v1.pdf",
+      "date": "2026-09-16",
+      "arxiv_id": "2609.18634v1",
+      "url": "https://arxiv.org/abs/2609.18634v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.18634v1.pdf",
       "categories": [
+        "cs.CV",
         "cs.AI",
-        "cs.CL"
+        "cs.MM"
       ],
-      "type": "nlp",
+      "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "When Should LLMs Abstain? Chain-of-Self-Questioning for Selective Risk Control",
-      "authors": "Ali Şenol",
-      "abstract": "Large language models can produce fluent answers when their factual support is weak. This paper introduces Chain-of-Self-Questioning (CoSQ), a prompt-only framework that makes answer commitment conditional on an explicit assessment of the information required to answer a question. We evaluate three ...",
+      "title": "Objective vs. Search: Decomposing What Makes a Good Tokeniser",
+      "authors": "Ahmetcan Yavuz, Clara Meister, Tiago Pimentel",
+      "abstract": "Two dominant tokenisation algorithms are used by modern language models: byte-pair encoding (BPE) and UnigramLM. These differ along two orthogonal axes: their optimisation objective (compression vs. log-likelihood) and their search procedure (bottom-up merging vs. top-down pruning). Existing compari...",
       "venue": "arXiv",
-      "date": "2026-09-15",
-      "arxiv_id": "2609.17516v1",
-      "url": "https://arxiv.org/abs/2609.17516v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.17516v1.pdf",
+      "date": "2026-09-16",
+      "arxiv_id": "2609.19145v1",
+      "url": "https://arxiv.org/abs/2609.19145v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.19145v1.pdf",
       "categories": [
         "cs.CL",
         "cs.AI"
@@ -55,87 +55,106 @@
       "source": "arXiv"
     },
     {
-      "title": "PhysStream: Streaming Physics-Grounded Video Generation with Structured Scene Memory and Fine-Grained Motion Control",
-      "authors": "Chuhao Chen, Peter Wonka, Chaoyang Wang et al.",
-      "abstract": "Interactive control for video generation is moving from coarse prompts toward fine-grained, physically meaningful manipulation of dynamic scenes. Yet existing controllable methods either require the full control schedule before generation starts, or use pixel-space signals that dictate object positi...",
+      "title": "A Zeroth-Order Paradigm for LLM Preference Alignment",
+      "authors": "Peter Chen, Xi Chen, Wotao Yin et al.",
+      "abstract": "Direct preference alignment methods are widely used to align large language models (LLMs) with human preferences because of their computational and memory efficiency. However, likelihood displacement motivates alternative ways to extract information from preference pairs with small likelihood margin...",
       "venue": "arXiv",
-      "date": "2026-09-15",
-      "arxiv_id": "2609.17521v1",
-      "url": "https://arxiv.org/abs/2609.17521v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.17521v1.pdf",
+      "date": "2026-09-16",
+      "arxiv_id": "2609.19144v1",
+      "url": "https://arxiv.org/abs/2609.19144v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.19144v1.pdf",
       "categories": [
-        "cs.CV",
+        "cs.CL",
         "cs.AI",
-        "cs.GR"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Det-LIME: Detector-Aware, Multi-Instance Local Interpretable Model-Agnostic Explanations for Automated Marine Mammal Detection",
-      "authors": "Jiayi Zhou, David W. Johnston, Brinnae Bent",
-      "abstract": "Despite the rapid uptake of black-box object detectors in marine mammal research and monitoring, explainability techniques are rarely integrated into conservation workflows. Furthermore, most classification-oriented explainability tools are ill-suited to detection tasks involving imagery of social o...",
-      "venue": "arXiv",
-      "date": "2026-09-15",
-      "arxiv_id": "2609.17479v1",
-      "url": "https://arxiv.org/abs/2609.17479v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.17479v1.pdf",
-      "categories": [
-        "cs.CV",
-        "cs.AI"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "ENCP: Episode-Normalized Conformal Prediction for Vision-and-Language Navigation",
-      "authors": "Vicky Feliren, A. Taufiq Asyhari, Muhamad Risqi U. Saputra",
-      "abstract": "Uncertainty estimation for Vision-Language-Navigation (VLN) models is a critical task since it can help identify ambiguous and unreliable predictions, enabling agents to make safer navigation decisions. As one of the most advanced uncertainty estimation frameworks, conformal prediction (CP) offers a...",
-      "venue": "arXiv",
-      "date": "2026-09-15",
-      "arxiv_id": "2609.17499v1",
-      "url": "https://arxiv.org/abs/2609.17499v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.17499v1.pdf",
-      "categories": [
-        "cs.LG",
-        "cs.AI",
-        "cs.RO"
+        "cs.LG"
       ],
       "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "FreqSpaNet: Frequency and Spatial Learning of SFPF for Physical Layer Hardware Integrity Detection",
-      "authors": "Xiaoxuan Huang, Jinlong Xu, YiZhe Wang et al.",
-      "abstract": "Unauthorized hardware replacement can preserve a wireless device's logical identity while altering its physical implementation, posing a challenge to hardware integrity verification. Spatio-frequency polarization fingerprints (SFPFs) capture device-dependent responses across multiple frequencies and...",
+      "title": "PANORAMA: Panoptic Grounded Captioning via Mask Proposal Selection",
+      "authors": "Sara Pieri, Evangelos Kazakos, Shizhe Chen et al.",
+      "abstract": "Intelligent systems that act in the world require image understanding that is both comprehensive and spatially grounded. Current vision-language models (VLMs) can generate fluent and detailed image captions, but reliably associating them with image pixels remains challenging. Existing methods that c...",
       "venue": "arXiv",
-      "date": "2026-09-15",
-      "arxiv_id": "2609.17491v1",
-      "url": "https://arxiv.org/abs/2609.17491v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.17491v1.pdf",
+      "date": "2026-09-16",
+      "arxiv_id": "2609.19143v1",
+      "url": "https://arxiv.org/abs/2609.19143v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.19143v1.pdf",
       "categories": [
-        "cs.LG"
+        "cs.CV",
+        "cs.CL"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "PointZero: 3D Point Track Completion for Learning Transferable 3D Dynamics",
+      "authors": "Bardienus P. Duisterhof, Kaifeng Zhang, Adam Hung et al.",
+      "abstract": "World models endow perceptual systems with the ability to predict how scenes evolve under interaction. They are most beneficial when trained on diverse volumes of data, to instill a rich prior into downstream applications. Existing methods typically require robot action labels to learn action-condit...",
+      "venue": "arXiv",
+      "date": "2026-09-16",
+      "arxiv_id": "2609.19142v1",
+      "url": "https://arxiv.org/abs/2609.19142v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.19142v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Revisiting Distributed Sign-Based Variance Reduction",
+      "authors": "Wei Jiang, Zechao Li, Lijun Zhang",
+      "abstract": "Sign-based methods reduce communication costs in distributed environments, but aggregating local signs can introduce bias when data are heterogeneous. As a result, existing sign-based variance reduction methods fail to obtain the optimal convergence rates. In this paper, we solve this problem and ob...",
+      "venue": "arXiv",
+      "date": "2026-09-16",
+      "arxiv_id": "2609.18656v1",
+      "url": "https://arxiv.org/abs/2609.18656v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.18656v1.pdf",
+      "categories": [
+        "cs.LG",
+        "math.OC",
+        "stat.ML"
       ],
       "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Modality-Autoregressive World-Action Models",
-      "authors": "Adam Hung, Bardienus P. Duisterhof, Deva Ramanan et al.",
-      "abstract": "World-action models (WAMs) jointly model future observations and actions, typically predicting the future as RGB images. Other visual modalities such as depth, pretrained visual features, and point tracks can more efficiently capture geometric, semantic, and motion features. However, how best to com...",
+      "title": "Learning to Program Adaptive Non-Local Observables for Machine Learning",
+      "authors": "Yu-Ting Lee, Samuel Yen-Chi Chen, Huan-Hsin Tseng",
+      "abstract": "Quantum neural networks (QNNs) are typically built from variational quantum circuits (VQCs), which are limited by local measurements. Adaptive non-local observables (ANO) address this by jointly optimizing circuit parameters and multi-qubit measurements. However, existing ANO-based VQCs learn only a...",
       "venue": "arXiv",
-      "date": "2026-09-15",
-      "arxiv_id": "2609.17524v1",
-      "url": "https://arxiv.org/abs/2609.17524v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.17524v1.pdf",
+      "date": "2026-09-16",
+      "arxiv_id": "2609.18655v1",
+      "url": "https://arxiv.org/abs/2609.18655v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.18655v1.pdf",
       "categories": [
+        "cs.LG",
+        "quant-ph"
+      ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "In-Context Robot Learning with VLM Agents",
+      "authors": "Dongzhou Cheng, Taoran Yi, Ye Fang et al.",
+      "abstract": "Enabling robots to adapt to unfamiliar environments as readily as humans remains a moonshot goal of embodied AI. No finite collection of demonstrations can cover every task and situation a robot will encounter, making the ability to learn from context at deployment essential for generalization. Such...",
+      "venue": "arXiv",
+      "date": "2026-09-16",
+      "arxiv_id": "2609.19138v1",
+      "url": "https://arxiv.org/abs/2609.19138v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.19138v1.pdf",
+      "categories": [
+        "cs.CV",
         "cs.RO"
       ],
-      "type": "ai",
+      "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     }

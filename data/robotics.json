@@ -1,7 +1,100 @@
 {
-  "last_updated": "2026-09-16",
+  "last_updated": "2026-09-17",
   "count": 200,
   "items": [
+    {
+      "title": "[万勋科技发布NOVA2.0柔性具身大脑：稀缺跨行业极限工况淬炼，具 身 智 能 跃过开放世界应用分水岭",
+      "summary": "[万勋科技发布NOVA2.0柔性具身大脑：稀缺跨行业极限工况淬炼，具 身 智 能 跃过开放世界应用分水岭",
+      "url": "http://36kr.com/p/3975925620109575",
+      "date": "2026-09-17",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "FIERCE: From Generalist Robot Policies to Fast Specialists via Progress-Failure Feedback",
+      "summary": "Generalist robot policies offer useful initialization, but refining compact specialists through limited physical interaction requires informative learning feedback. We present FIERCE, a generalist-initialized reinforcement learning framework centered...",
+      "url": "https://arxiv.org/abs/2609.18651v1",
+      "date": "2026-09-16",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.18651v1",
+      "authors": "Runjia Tan, Yuang Tu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "From Gameplay to Policy: Towards Scalable Robot Data Collection via Gamified Robot-Free Interaction",
+      "summary": "Learning generalizable robot manipulation policies requires large-scale and diverse interaction data, yet collecting real-world demonstrations remains costly and difficult to scale. Existing approaches to data collection are either dependent on speci...",
+      "url": "https://arxiv.org/abs/2609.18650v1",
+      "date": "2026-09-16",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.18650v1",
+      "authors": "Zheng Li, Liang Zhu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Benchmarking Visual-Inertial Odometry in Subterranean Environments Under Sensor Degradation, Miscalibration, and Dynamic Occlusion",
+      "summary": "Visual-inertial odometry (VIO) is a core capability for autonomous operation in GPS-denied subterranean environments, yet its reliability can degrade sharply under sensor drift, calibration errors, and dynamic occlusion. Existing evaluations mainly e...",
+      "url": "https://arxiv.org/abs/2609.18628v1",
+      "date": "2026-09-16",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.18628v1",
+      "authors": "Yueying Zhu, Xiang Li et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "FIVE-VLA: Fast and EffectIVE Autonomous Driving with Recurrent Action Memory",
+      "summary": "State-of-the-art vision-language-action models (VLA) for autonomous driving face critical limitations: excessive parameter counts, inefficient high-resolution image processing, and lack of temporal memory. We introduce Fast and EffectIVE VLA (FIVE-VL...",
+      "url": "https://arxiv.org/abs/2609.18623v1",
+      "date": "2026-09-16",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.18623v1",
+      "authors": "Kemal Oksuz, Alexandru Buburuzan et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "DeformSmith: Physics Harness-Guided Hierarchical Generation of Deformable Assets for Robot Manipulation",
+      "summary": "Creating deformable assets for robot manipulation requires jointly specifying their geometry, appearance, and physical properties. This is especially challenging for deformable objects, since text and images provide limited evidence about how they de...",
+      "url": "https://arxiv.org/abs/2609.18620v1",
+      "date": "2026-09-16",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.18620v1",
+      "authors": "Can Li, Jie Gu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
     {
       "title": "[重磅发现：GPT-6 Astra实现 具 身 智 能 突破，中国如何打具身防卫战？",
       "summary": "[重磅发现：GPT-6 Astra实现 具 身 智 能 突破，中国如何打具身防卫战？",
@@ -29,19 +122,6 @@
       ]
     },
     {
-      "title": "[万勋科技发布NOVA2.0柔性具身大脑：稀缺跨行业极限工况淬炼，具 身 智 能 跃过开放世界应用分水岭",
-      "summary": "[万勋科技发布NOVA2.0柔性具身大脑：稀缺跨行业极限工况淬炼，具 身 智 能 跃过开放世界应用分水岭",
-      "url": "http://36kr.com/p/3975925620109575",
-      "date": "2026-09-16",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
       "title": "[B面 具 身 智 能 ：机器人烧钱，数采公司躺赚？",
       "summary": "[B面 具 身 智 能 ：机器人烧钱，数采公司躺赚？",
       "url": "http://36kr.com/p/3974500052807942",
@@ -58,6 +138,18 @@
       "summary": "[当机器人开始\"上班\"：具 身 智 能 正在跨过价值分水岭",
       "url": "http://36kr.com/p/3974245149044999",
       "date": "2026-09-16",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
+      "title": "未来的机器人，应该是什么样的？",
+      "summary": "未来的机器人，应该是什么样的？",
+      "url": "http://36kr.com/p/3984525593459460",
+      "date": "2026-09-15",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
@@ -2926,99 +3018,6 @@
       "tags": [
         "机器人",
         "具身智能"
-      ]
-    },
-    {
-      "title": "原力无限获近10亿融资，具身智能资本向头部集中",
-      "summary": "原力无限获近10亿融资，具身智能资本向头部集中",
-      "url": "http://36kr.com/p/3943666758686339",
-      "date": "2026-08-18",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "Hydra-0: Action Flow for Generalist World Modeling and Control",
-      "summary": "We introduce Hydra-0, a generalist world model conditioned on action flow, which represents robot actions as pixel motion. This shared visual interface enables generalist world modeling and control by learning action consequences across embodiments, ...",
-      "url": "https://arxiv.org/abs/2608.18077v1",
-      "date": "2026-08-18",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.18077v1",
-      "authors": "Hongyu Li, Bowen Wen et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "PRISM: Precision and contact-rich Real-world Industrial Skill dataset with Multimodal sensing",
-      "summary": "Recent progress in robotic learning has been fueled by large-scale datasets collected in everyday environments. However, most existing datasets emphasize short-horizon, low-contact tasks such as pick-and-place, and therefore do not capture the precis...",
-      "url": "https://arxiv.org/abs/2608.17962v1",
-      "date": "2026-08-18",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.17962v1",
-      "authors": "Tengbo Yu, Jiahao Wu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "A Theoretical Framework for Parallel Lifelong MAPF Using Group Decentralized Planning",
-      "summary": "In the Lifelong Multi-Agent Path Finding (L-MAPF) problem, agents must repeatedly move from one destination to another while avoiding obstacles and inter-agent collisions. Widely regarded as one of the highest-performing solutions to this problem is ...",
-      "url": "https://arxiv.org/abs/2608.17928v1",
-      "date": "2026-08-18",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.17928v1",
-      "authors": "Alex DeWeese, Jiaoyang Li et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "ControlledShifts: Towards Standardizing Robustness Evaluation in Trajectory Prediction Under Distribution Shifts",
-      "summary": "Trajectory prediction is central to safety in autonomous driving, yet learning-based predictors tend to degrade sharply when encountering scenarios poorly represented by their training data. Many methods attempt to mitigate distribution shift degrada...",
-      "url": "https://arxiv.org/abs/2608.17882v1",
-      "date": "2026-08-18",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.17882v1",
-      "authors": "Ingrid navarro, Pablo Ortega-Kral et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Jetson-ORB-SLAM3: Accuracy-Preserving GPU Implementation for Edge Computing Devices",
-      "summary": "Visual-inertial SLAM on low-power edge platforms is constrained by the cost of dense feature extraction and loop closure. Prior GPU ports of ORB-SLAM trade accuracy for speed by approximating the ORB detector, altering the feature set and therefore t...",
-      "url": "https://arxiv.org/abs/2608.17874v1",
-      "date": "2026-08-18",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.17874v1",
-      "authors": "Rajat Roy, Aditya Arun Kumar Yadav et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
       ]
     }
   ]
