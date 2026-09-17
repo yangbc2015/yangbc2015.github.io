@@ -3,6 +3,45 @@
   "count": 200,
   "items": [
     {
+      "title": "[重磅发现：GPT-6实现 具 身 智 能 突破，中国如何打具身防卫战？",
+      "summary": "[重磅发现：GPT-6实现 具 身 智 能 突破，中国如何打具身防卫战？",
+      "url": "http://36kr.com/p/3986303263390466",
+      "date": "2026-09-17",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "[重磅发现：GPT-6 Astra实现 具 身 智 能 突破，中国如何打具身防卫战？",
+      "summary": "[重磅发现：GPT-6 Astra实现 具 身 智 能 突破，中国如何打具身防卫战？",
+      "url": "http://36kr.com/p/3985769854974977",
+      "date": "2026-09-17",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "[从四足到人形，具 身 智 能 正走向人的生活空间",
+      "summary": "[从四足到人形，具 身 智 能 正走向人的生活空间",
+      "url": "http://36kr.com/p/3984525593459460",
+      "date": "2026-09-17",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "人形机器人"
+      ]
+    },
+    {
       "title": "[万勋科技发布NOVA2.0柔性具身大脑：稀缺跨行业极限工况淬炼，具 身 智 能 跃过开放世界应用分水岭",
       "summary": "[万勋科技发布NOVA2.0柔性具身大脑：稀缺跨行业极限工况淬炼，具 身 智 能 跃过开放世界应用分水岭",
       "url": "http://36kr.com/p/3975925620109575",
@@ -13,6 +52,86 @@
       "tags": [
         "机器人",
         "具身智能"
+      ]
+    },
+    {
+      "title": "PointZero: 3D Point Track Completion for Learning Transferable 3D Dynamics",
+      "summary": "World models endow perceptual systems with the ability to predict how scenes evolve under interaction. They are most beneficial when trained on diverse volumes of data, to instill a rich prior into downstream applications. Existing methods typically ...",
+      "url": "https://arxiv.org/abs/2609.19142v1",
+      "date": "2026-09-16",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.19142v1",
+      "authors": "Bardienus P. Duisterhof, Kaifeng Zhang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "In-Context Robot Learning with VLM Agents",
+      "summary": "Enabling robots to adapt to unfamiliar environments as readily as humans remains a moonshot goal of embodied AI. No finite collection of demonstrations can cover every task and situation a robot will encounter, making the ability to learn from contex...",
+      "url": "https://arxiv.org/abs/2609.19138v1",
+      "date": "2026-09-16",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.19138v1",
+      "authors": "Dongzhou Cheng, Taoran Yi et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Dreaming the Sound of Contact: Leveraging Video and Audio Generation for Zero-Shot Force-Aware Manipulation and Data Generation",
+      "summary": "Recent advances in video generation allow robots to learn manipulation trajectories from generated videos. However, these approaches produce purely kinematic trajectories that lack force information, causing failures in contact-rich tasks where appro...",
+      "url": "https://arxiv.org/abs/2609.19137v1",
+      "date": "2026-09-16",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.19137v1",
+      "authors": "Guanhua Ji, Tianyu Li et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "rMuscle: Robotic Muscle Memory for Efficient Vision-Language-Action Model Inference",
+      "summary": "Factory work is a promising early scenario for embodied AI: assigning repetitive manual jobs to robots has clear economic payoff, and a structured station keeps the jobs tractable for current policies. Vision-Language-Action (VLA) models now dominate...",
+      "url": "https://arxiv.org/abs/2609.19104v1",
+      "date": "2026-09-16",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.19104v1",
+      "authors": "Kaijun Zhou, Zhiyang Li et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "ElastiQP: An Always-Feasible QP Solver for Constrained Robot Control",
+      "summary": "As robot capabilities increase, quadratic programming (QP)-based controllers must account for a similarly increasing number of constraints to ensure safe, reliable operation. Yet, with each added constraint, this introduces more chances of momentary ...",
+      "url": "https://arxiv.org/abs/2609.19080v1",
+      "date": "2026-09-16",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.19080v1",
+      "authors": "Daniel Morton, Jon Arrizabalaga et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
       ]
     },
     {
@@ -93,32 +212,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "[重磅发现：GPT-6 Astra实现 具 身 智 能 突破，中国如何打具身防卫战？",
-      "summary": "[重磅发现：GPT-6 Astra实现 具 身 智 能 突破，中国如何打具身防卫战？",
-      "url": "http://36kr.com/p/3985769854974977",
-      "date": "2026-09-16",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "[从四足到人形，具 身 智 能 正走向人的生活空间",
-      "summary": "[从四足到人形，具 身 智 能 正走向人的生活空间",
-      "url": "http://36kr.com/p/3984525593459460",
-      "date": "2026-09-16",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "人形机器人"
       ]
     },
     {
@@ -2925,99 +3018,6 @@
       "type": "news",
       "tags": [
         "机器人"
-      ]
-    },
-    {
-      "title": "PartialBiGrasp: Inferring Hidden Local Geometry for Bimanual Grasping from Partial Views",
-      "summary": "Dual-arm robotic grasping is essential for manipulating large, heavy, and geometrically complex objects that cannot be reliably handled using a single manipulator. These large objects often contain only sparse graspable regions determined by local ge...",
-      "url": "https://arxiv.org/abs/2608.19188v1",
-      "date": "2026-08-19",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.19188v1",
-      "authors": "Ayush Kaura, Vignesh Vembar et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "ADEPT: Accelerating Dexterity via Pre-Training and Post-Training using Reinforcement Learning",
-      "summary": "We introduce Accelerating Dexterity via Pre-Training (ADEPT), a large-scale reinforcement learning (RL) framework for learning sim-to-real transferable dexterity across high degree-of-freedom (DoF) robot embodiments that can solve long-horizon tasks ...",
-      "url": "https://arxiv.org/abs/2608.19182v1",
-      "date": "2026-08-19",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.19182v1",
-      "authors": "Jayjun Lee, Jessica Yin et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "DA-WAM: Decision-Aligned Future Latents for Driving World Models",
-      "summary": "Anticipating how scenes evolve under ego actions is fundamental to safe autonomous driving, yet the full potential of world models for decision-making remains unrealized. The critical challenge lies in ensuring that future modeling is not merely pred...",
-      "url": "https://arxiv.org/abs/2608.19085v1",
-      "date": "2026-08-19",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.19085v1",
-      "authors": "Ruiguo Zhong, Benshan Ma et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "LT-Mem: Volatility-Aware Spatio-Temporal Memory for Lifelong Scene Understanding",
-      "summary": "Long-term robot operation in evolving environments requires object-level understanding that persists across repeated revisits. Existing systems either overwrite history to maintain an up-to-date map or store semantic snapshots without consistent cros...",
-      "url": "https://arxiv.org/abs/2608.19059v1",
-      "date": "2026-08-19",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.19059v1",
-      "authors": "Yumin Lee, Hyoseok Ju et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Autonomous Agricultural Tractor: Integrated Weed Detection and LiDAR Navigation for Precision Paddy Farming",
-      "summary": "Site-specific weed management in paddy farming offers substantial reductions in herbicide use over conventional broadcast spraying, but field deployment has been limited by three persistent challenges: robust crop-row navigation under canopy where GN...",
-      "url": "https://arxiv.org/abs/2608.19004v1",
-      "date": "2026-08-19",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.19004v1",
-      "authors": "Benjamin Merryman-Smith, Tony Nguyen et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "嘉腾机器人获和而泰领投数千万战略融资，发力具身智能底盘。",
-      "summary": "嘉腾机器人获和而泰领投数千万战略融资，发力具身智能底盘。",
-      "url": "http://36kr.com/p/3943366006521219",
-      "date": "2026-08-18",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
       ]
     }
   ]

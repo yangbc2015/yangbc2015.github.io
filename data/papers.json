@@ -1,42 +1,7 @@
 {
   "last_updated": "2026-09-17",
-  "count": 7,
+  "count": 6,
   "items": [
-    {
-      "title": "CoRe-MARL: Cooperative Redistribution Under Unknown Dynamics Using Recurrent Multi-Agent Reinforcement Learning",
-      "authors": "Naimur Rahman Chowdhury, Shatabdi Sen Prapti, Md. Salehin Seyam et al.",
-      "abstract": "Emergency management assistance programs, such as relief distribution, are essential for delivering necessary supplies to affected communities. However, these programs operate in a decentralized network of local centers that face uncertain local demand and supply dynamics, resulting in inconsistent ...",
-      "venue": "arXiv",
-      "date": "2026-09-16",
-      "arxiv_id": "2609.18639v1",
-      "url": "https://arxiv.org/abs/2609.18639v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.18639v1.pdf",
-      "categories": [
-        "cs.LG",
-        "cs.AI"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "GenStream: Semantic Streaming Framework for Generative Reconstruction of Human-centric Media",
-      "authors": "Emanuele Artioli, Daniele Lorenzi, Shivi Vats et al.",
-      "abstract": "Video streaming dominates global internet traffic, yet conventional pipelines remain inefficient for structured, human-centric content such as sports, performance, or interactive media. Standard codecs re-encode entire frames, foreground and background alike, treating all pixels uniformly and ignori...",
-      "venue": "arXiv",
-      "date": "2026-09-16",
-      "arxiv_id": "2609.18634v1",
-      "url": "https://arxiv.org/abs/2609.18634v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.18634v1.pdf",
-      "categories": [
-        "cs.CV",
-        "cs.AI",
-        "cs.MM"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
     {
       "title": "Objective vs. Search: Decomposing What Makes a Good Tokeniser",
       "authors": "Ahmetcan Yavuz, Clara Meister, Tiago Pimentel",
@@ -103,6 +68,22 @@
         "cs.RO"
       ],
       "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Exponential Hardness of Off-Policy Evaluation under History-Dependent Logging",
+      "authors": "Pranaya Jajoo",
+      "abstract": "Can a logged dataset visit every hidden state frequently and still be exponentially uninformative about a target policy's value? We show that it can when the logger depends on history. For every horizon $H \\ge 3$, we construct two POMDPs with at most two latent states per stage, three actions, and a...",
+      "venue": "arXiv",
+      "date": "2026-09-16",
+      "arxiv_id": "2609.19135v1",
+      "url": "https://arxiv.org/abs/2609.19135v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.19135v1.pdf",
+      "categories": [
+        "cs.LG"
+      ],
+      "type": "benchmark",
       "badge": "arxiv",
       "source": "arXiv"
     },
