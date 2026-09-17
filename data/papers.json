@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-09-17",
-  "count": 9,
+  "count": 7,
   "items": [
     {
       "title": "CoRe-MARL: Cooperative Redistribution Under Unknown Dynamics Using Recurrent Multi-Agent Reinforcement Learning",
@@ -103,41 +103,6 @@
         "cs.RO"
       ],
       "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Revisiting Distributed Sign-Based Variance Reduction",
-      "authors": "Wei Jiang, Zechao Li, Lijun Zhang",
-      "abstract": "Sign-based methods reduce communication costs in distributed environments, but aggregating local signs can introduce bias when data are heterogeneous. As a result, existing sign-based variance reduction methods fail to obtain the optimal convergence rates. In this paper, we solve this problem and ob...",
-      "venue": "arXiv",
-      "date": "2026-09-16",
-      "arxiv_id": "2609.18656v1",
-      "url": "https://arxiv.org/abs/2609.18656v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.18656v1.pdf",
-      "categories": [
-        "cs.LG",
-        "math.OC",
-        "stat.ML"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Learning to Program Adaptive Non-Local Observables for Machine Learning",
-      "authors": "Yu-Ting Lee, Samuel Yen-Chi Chen, Huan-Hsin Tseng",
-      "abstract": "Quantum neural networks (QNNs) are typically built from variational quantum circuits (VQCs), which are limited by local measurements. Adaptive non-local observables (ANO) address this by jointly optimizing circuit parameters and multi-qubit measurements. However, existing ANO-based VQCs learn only a...",
-      "venue": "arXiv",
-      "date": "2026-09-16",
-      "arxiv_id": "2609.18655v1",
-      "url": "https://arxiv.org/abs/2609.18655v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.18655v1.pdf",
-      "categories": [
-        "cs.LG",
-        "quant-ph"
-      ],
-      "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     },
