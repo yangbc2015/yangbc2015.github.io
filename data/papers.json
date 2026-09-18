@@ -1,53 +1,19 @@
 {
-  "last_updated": "2026-09-17",
+  "last_updated": "2026-09-18",
   "count": 6,
   "items": [
     {
-      "title": "Objective vs. Search: Decomposing What Makes a Good Tokeniser",
-      "authors": "Ahmetcan Yavuz, Clara Meister, Tiago Pimentel",
-      "abstract": "Two dominant tokenisation algorithms are used by modern language models: byte-pair encoding (BPE) and UnigramLM. These differ along two orthogonal axes: their optimisation objective (compression vs. log-likelihood) and their search procedure (bottom-up merging vs. top-down pruning). Existing compari...",
+      "title": "Coding Agents with an Obstacle-Aware Harness for Safe Robot Manipulation",
+      "authors": "Bingxin Xu, Yuzhang Shang, Zhen Dong et al.",
+      "abstract": "Coding agents have emerged as a promising paradigm for robot manipulation: a language model writes the robot controller as a program, and agents built in this way now operate robots without robot-specific training.Whether this paradigm is also safe, however, has not been asked. We evaluate coding ag...",
       "venue": "arXiv",
-      "date": "2026-09-16",
-      "arxiv_id": "2609.19145v1",
-      "url": "https://arxiv.org/abs/2609.19145v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.19145v1.pdf",
+      "date": "2026-09-17",
+      "arxiv_id": "2609.20822v1",
+      "url": "https://arxiv.org/abs/2609.20822v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.20822v1.pdf",
       "categories": [
-        "cs.CL",
-        "cs.AI"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "A Zeroth-Order Paradigm for LLM Preference Alignment",
-      "authors": "Peter Chen, Xi Chen, Wotao Yin et al.",
-      "abstract": "Direct preference alignment methods are widely used to align large language models (LLMs) with human preferences because of their computational and memory efficiency. However, likelihood displacement motivates alternative ways to extract information from preference pairs with small likelihood margin...",
-      "venue": "arXiv",
-      "date": "2026-09-16",
-      "arxiv_id": "2609.19144v1",
-      "url": "https://arxiv.org/abs/2609.19144v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.19144v1.pdf",
-      "categories": [
-        "cs.CL",
+        "cs.RO",
         "cs.AI",
-        "cs.LG"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "PANORAMA: Panoptic Grounded Captioning via Mask Proposal Selection",
-      "authors": "Sara Pieri, Evangelos Kazakos, Shizhe Chen et al.",
-      "abstract": "Intelligent systems that act in the world require image understanding that is both comprehensive and spatially grounded. Current vision-language models (VLMs) can generate fluent and detailed image captions, but reliably associating them with image pixels remains challenging. Existing methods that c...",
-      "venue": "arXiv",
-      "date": "2026-09-16",
-      "arxiv_id": "2609.19143v1",
-      "url": "https://arxiv.org/abs/2609.19143v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.19143v1.pdf",
-      "categories": [
-        "cs.CV",
         "cs.CL"
       ],
       "type": "nlp",
@@ -55,52 +21,84 @@
       "source": "arXiv"
     },
     {
-      "title": "PointZero: 3D Point Track Completion for Learning Transferable 3D Dynamics",
-      "authors": "Bardienus P. Duisterhof, Kaifeng Zhang, Adam Hung et al.",
-      "abstract": "World models endow perceptual systems with the ability to predict how scenes evolve under interaction. They are most beneficial when trained on diverse volumes of data, to instill a rich prior into downstream applications. Existing methods typically require robot action labels to learn action-condit...",
+      "title": "Workspace Models: Lightweight Robotic Memory via Saliency-Driven Supervision",
+      "authors": "Nitish Dashora, Douglas Chen, Idan Shenfeld et al.",
+      "abstract": "Complex robotic manipulation tasks frequently require a long-term memory of past events and actions. As conditioning on full histories renders policies prone to spurious correlations and degrades performance, many approaches to policy memory involve compressing historical information through expensi...",
       "venue": "arXiv",
-      "date": "2026-09-16",
-      "arxiv_id": "2609.19142v1",
-      "url": "https://arxiv.org/abs/2609.19142v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.19142v1.pdf",
+      "date": "2026-09-17",
+      "arxiv_id": "2609.20820v1",
+      "url": "https://arxiv.org/abs/2609.20820v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.20820v1.pdf",
       "categories": [
-        "cs.CV",
-        "cs.RO"
+        "cs.RO",
+        "cs.AI"
       ],
       "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Exponential Hardness of Off-Policy Evaluation under History-Dependent Logging",
-      "authors": "Pranaya Jajoo",
-      "abstract": "Can a logged dataset visit every hidden state frequently and still be exponentially uninformative about a target policy's value? We show that it can when the logger depends on history. For every horizon $H \\ge 3$, we construct two POMDPs with at most two latent states per stage, three actions, and a...",
+      "title": "Embedding Models Measure in Peculiar Ways",
+      "authors": "Juri Opitz, Andrianos Michail",
+      "abstract": "Embedding spaces define notions of semantic similarity and distance. We study whether those embeddings reflect physical measurements of mass, distance, time and volume, which admit a unique, objective notion of semantic equivalence and distance. We find that physical measurement is only weakly model...",
       "venue": "arXiv",
-      "date": "2026-09-16",
-      "arxiv_id": "2609.19135v1",
-      "url": "https://arxiv.org/abs/2609.19135v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.19135v1.pdf",
+      "date": "2026-09-17",
+      "arxiv_id": "2609.20821v1",
+      "url": "https://arxiv.org/abs/2609.20821v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.20821v1.pdf",
       "categories": [
+        "cs.CL",
         "cs.LG"
       ],
-      "type": "benchmark",
+      "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "In-Context Robot Learning with VLM Agents",
-      "authors": "Dongzhou Cheng, Taoran Yi, Ye Fang et al.",
-      "abstract": "Enabling robots to adapt to unfamiliar environments as readily as humans remains a moonshot goal of embodied AI. No finite collection of demonstrations can cover every task and situation a robot will encounter, making the ability to learn from context at deployment essential for generalization. Such...",
+      "title": "Can 4D Foundation Models Remember?",
+      "authors": "Guangzhao He, Hadar Averbuch-Elor, Wei-Chiu Ma",
+      "abstract": "Perceiving and remembering the visual world is fundamental to navigating and interacting with our environment. Current 4D foundation models, such as camera-controllable video models or 4D reconstruction models, can perceive and reconstruct dynamic environments, but how well they remember what they h...",
       "venue": "arXiv",
-      "date": "2026-09-16",
-      "arxiv_id": "2609.19138v1",
-      "url": "https://arxiv.org/abs/2609.19138v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.19138v1.pdf",
+      "date": "2026-09-17",
+      "arxiv_id": "2609.20819v1",
+      "url": "https://arxiv.org/abs/2609.20819v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.20819v1.pdf",
       "categories": [
-        "cs.CV",
-        "cs.RO"
+        "cs.CV"
       ],
-      "type": "nlp",
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Minimax-Optimal Online Contract Design with Unrestricted Bounded Contracts",
+      "authors": "Rui Ai, David Simchi-Levi, Han Zhong",
+      "abstract": "We study repeated contract design when a principal observes outcomes but not the actions that generate them. The principal may use any bounded outcome-contingent payment vector, and the agent's best response can make expected profit discontinuous in those payments. For every fixed number $m\\ge2$ of ...",
+      "venue": "arXiv",
+      "date": "2026-09-17",
+      "arxiv_id": "2609.20353v1",
+      "url": "https://arxiv.org/abs/2609.20353v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.20353v1.pdf",
+      "categories": [
+        "cs.LG"
+      ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "COMPASS: Ordered Clustered Routing at 100K Scale",
+      "authors": "Ido Greenberg, Hugo Linsenmaier, Piotr Sielski et al.",
+      "abstract": "Large-scale routing often requires visiting clusters of nodes in a prescribed order, giving rise to the Ordered Clustered Traveling Salesman Problem (OCTSP). Optimizing each cluster independently seems natural, but misses non-local dependencies. We introduce the COMPASS algorithm for OCTSP, which co...",
+      "venue": "arXiv",
+      "date": "2026-09-17",
+      "arxiv_id": "2609.20352v1",
+      "url": "https://arxiv.org/abs/2609.20352v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.20352v1.pdf",
+      "categories": [
+        "cs.LG"
+      ],
+      "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     }

@@ -5,18 +5,18 @@
   "models": [
     {
       "rank": 1,
-      "model": "union-alpha",
-      "organization": "stealth",
-      "price_prompt": "0",
-      "price_completion": "0",
+      "model": "pareto",
+      "organization": "unbiased",
+      "price_prompt": "0.0000025",
+      "price_completion": "0.0000075",
       "context_length": 262144
     },
     {
       "rank": 2,
       "model": "deepseek-pro-latest",
       "organization": "~deepseek",
-      "price_prompt": "0.00000057948",
-      "price_completion": "0.00000173844",
+      "price_prompt": "0.0000007",
+      "price_completion": "0.00000296",
       "context_length": 1048576
     },
     {
@@ -111,8 +111,8 @@
       "rank": 14,
       "model": "deepseek-v4.1-flash",
       "organization": "deepseek",
-      "price_prompt": "0.00000015",
-      "price_completion": "0.0000006",
+      "price_prompt": "0.0000003",
+      "price_completion": "0.0000012",
       "context_length": 1048576
     },
     {
