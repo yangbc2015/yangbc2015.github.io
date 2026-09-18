@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-09-18",
-  "count": 6,
+  "count": 5,
   "items": [
     {
       "title": "Coding Agents with an Obstacle-Aware Harness for Safe Robot Manipulation",
@@ -71,34 +71,20 @@
       "source": "arXiv"
     },
     {
-      "title": "Minimax-Optimal Online Contract Design with Unrestricted Bounded Contracts",
-      "authors": "Rui Ai, David Simchi-Levi, Han Zhong",
-      "abstract": "We study repeated contract design when a principal observes outcomes but not the actions that generate them. The principal may use any bounded outcome-contingent payment vector, and the agent's best response can make expected profit discontinuous in those payments. For every fixed number $m\\ge2$ of ...",
+      "title": "Paint-Anything: Unified Any-Color Control for Image Generation and Editing",
+      "authors": "Ji Xie, Dewei Zhou, Xinyu Huang et al.",
+      "abstract": "Professional design requires any-color control: the ability to specify an object's target color with any 24-bit hex value for image generation and editing. Prior work has explored color generation, editing, and colorization, but often relies on dedicated color representations or specialized inferenc...",
       "venue": "arXiv",
       "date": "2026-09-17",
-      "arxiv_id": "2609.20353v1",
-      "url": "https://arxiv.org/abs/2609.20353v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.20353v1.pdf",
+      "arxiv_id": "2609.20816v1",
+      "url": "https://arxiv.org/abs/2609.20816v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.20816v1.pdf",
       "categories": [
+        "cs.CV",
+        "cs.AI",
         "cs.LG"
       ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "COMPASS: Ordered Clustered Routing at 100K Scale",
-      "authors": "Ido Greenberg, Hugo Linsenmaier, Piotr Sielski et al.",
-      "abstract": "Large-scale routing often requires visiting clusters of nodes in a prescribed order, giving rise to the Ordered Clustered Traveling Salesman Problem (OCTSP). Optimizing each cluster independently seems natural, but misses non-local dependencies. We introduce the COMPASS algorithm for OCTSP, which co...",
-      "venue": "arXiv",
-      "date": "2026-09-17",
-      "arxiv_id": "2609.20352v1",
-      "url": "https://arxiv.org/abs/2609.20352v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.20352v1.pdf",
-      "categories": [
-        "cs.LG"
-      ],
-      "type": "ml",
+      "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     }

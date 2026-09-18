@@ -29,6 +29,86 @@
       ]
     },
     {
+      "title": "Coding Agents with an Obstacle-Aware Harness for Safe Robot Manipulation",
+      "summary": "Coding agents have emerged as a promising paradigm for robot manipulation: a language model writes the robot controller as a program, and agents built in this way now operate robots without robot-specific training.Whether this paradigm is also safe, ...",
+      "url": "https://arxiv.org/abs/2609.20822v1",
+      "date": "2026-09-17",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.20822v1",
+      "authors": "Bingxin Xu, Yuzhang Shang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Workspace Models: Lightweight Robotic Memory via Saliency-Driven Supervision",
+      "summary": "Complex robotic manipulation tasks frequently require a long-term memory of past events and actions. As conditioning on full histories renders policies prone to spurious correlations and degrades performance, many approaches to policy memory involve ...",
+      "url": "https://arxiv.org/abs/2609.20820v1",
+      "date": "2026-09-17",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.20820v1",
+      "authors": "Nitish Dashora, Douglas Chen et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "FAMOS: Feed-Forward 3D Articulation Modeling from Sparse Observations",
+      "summary": "Modeling articulated objects from sparse monocular views is challenging because each observation reveals only partial geometry and motion evidence. Most feed-forward methods infer articulation from a single observation and therefore rely heavily on l...",
+      "url": "https://arxiv.org/abs/2609.20817v1",
+      "date": "2026-09-17",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.20817v1",
+      "authors": "Kevin Qu, Tao Sun et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "StageGuard: Learning Stage Transitions for Long-Horizon Robot Tasks via Agentic Distillation",
+      "summary": "Hierarchical planning frameworks combine skills from multiple robot control policies for long-horizon task execution, where determining when to terminate the current skill and advance to the next subtask is essential. Existing approaches often rely o...",
+      "url": "https://arxiv.org/abs/2609.20791v1",
+      "date": "2026-09-17",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.20791v1",
+      "authors": "Jinbang Huang, Yuanzhao Hu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "GeoAAC: Geometry-Based Adaptive Action Chunking from Denoising Trajectories in VLA Policies",
+      "summary": "Action chunking is widely used for action generation and execution in Vision-Language-Action (VLA) policies, yet existing approaches commonly use a fixed action horizon. During a rollout, different task stages may require different levels of action c...",
+      "url": "https://arxiv.org/abs/2609.20776v1",
+      "date": "2026-09-17",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.20776v1",
+      "authors": "Xin Chen, Sen Chen et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
       "title": "EliGSiR: Continual RGB-D Mapping with Gaussian Splatting under Bounded Compute",
       "summary": "Conventional 3D Gaussian Splatting assumes a closed set of observations and long optimization schedules. Continual RGB-D mapping in contrast poses the problem that new observations arrive online, while previously reconstructed regions must be preserv...",
       "url": "https://arxiv.org/abs/2609.20348v1",
@@ -2957,83 +3037,6 @@
       "type": "news",
       "tags": [
         "机器人"
-      ]
-    },
-    {
-      "title": "通过“底座+整机+工艺”的全链路闭环，实证工业具身智能从单点技术验证向规模化产业落地的关键跨越。",
-      "summary": "通过“底座+整机+工艺”的全链路闭环，实证工业具身智能从单点技术验证向规模化产业落地的关键跨越。",
-      "url": "http://36kr.com/p/3947267147021698",
-      "date": "2026-08-20",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "Towards Surgical World-Action Modeling: A Preliminary Joint Visual-Trajectory Forecasting for Surgical Motion Planning",
-      "summary": "Reliable surgical planning requires models to anticipate not only how instruments will move, but also how the operative visual state will evolve together with such motion. Existing approaches typically treat future scene generation and instrument tra...",
-      "url": "https://arxiv.org/abs/2608.20284v1",
-      "date": "2026-08-20",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.20284v1",
-      "authors": "Weiliang Huang, Huanrong Liu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "DART-S: Reachability-Audited Active-Suspension Preconditioning for Off-Road Vehicle Jumps",
-      "summary": "Airborne torque reaction cannot recover takeoff errors beyond the wheel angular-momentum budget. DART-S applies ramp-face suspension preconditioning to change pitch, pitch rate, and wheel spin before liftoff, thereby shifting the queried state and al...",
-      "url": "https://arxiv.org/abs/2608.20275v1",
-      "date": "2026-08-20",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.20275v1",
-      "authors": "Yu Hu, Fangzhou Zhao et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Video2DoorTraversal: Push Door Traversal via Simulated Door Twins",
-      "summary": "Door opening and traversal is a long-horizon loco-manipulation task that requires precise handle interaction and coordinated base-arm control. We present Video2DoorTraversal, a single-video real-to-sim-to-real framework for wheel-legged mobile manipu...",
-      "url": "https://arxiv.org/abs/2608.20251v1",
-      "date": "2026-08-20",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.20251v1",
-      "authors": "Xincheng Tang, Yiji Chen et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "DECOWAM: Decoupled Whole-Body World-Action Model for Legged Mobile Manipulation",
-      "summary": "Mobile manipulation requires a robot to predict how locomotion and arm motion jointly alter future observations and control. Existing world-action models, developed largely for fixed-base platforms, do not explicitly distinguish camera ego-motion fro...",
-      "url": "https://arxiv.org/abs/2608.20114v1",
-      "date": "2026-08-20",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.20114v1",
-      "authors": "Siyuan Ma, Boshi Zhang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
       ]
     }
   ]
