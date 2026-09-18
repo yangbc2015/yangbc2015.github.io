@@ -15,16 +15,16 @@
       "rank": 2,
       "model": "deepseek-pro-latest",
       "organization": "~deepseek",
-      "price_prompt": "0.00000066",
-      "price_completion": "0.00000198",
+      "price_prompt": "0.00000057816",
+      "price_completion": "0.00000173448",
       "context_length": 1048576
     },
     {
       "rank": 3,
       "model": "deepseek-flash-latest",
       "organization": "~deepseek",
-      "price_prompt": "0.0000001485",
-      "price_completion": "0.000000594",
+      "price_prompt": "0.00000015",
+      "price_completion": "0.0000006",
       "context_length": 1048576
     },
     {
