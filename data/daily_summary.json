@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-19",
-  "last_updated": "2026-09-19",
+  "date": "2026-09-20",
+  "last_updated": "2026-09-20",
   "categories": {
     "ai": {
       "name": "人工智能",
@@ -8,59 +8,59 @@
       "count": 5,
       "items": [
         {
-          "title": "刚刚，Claude四周重写30个生物模型，ScienceIDE已规模化训练AI科学家",
-          "link": "https://www.jiqizhixin.com/search/articles/刚刚，Claude四周重写30",
-          "summary": "刚刚，Claude四周重写30个生物模型，ScienceIDE已规模化训练AI科学家...",
-          "date": "2026-09-18",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
-          "title": "Claude，黑进了OpenAI",
-          "link": "https://www.jiqizhixin.com/search/articles/Claude，黑进了OpenA",
-          "summary": "Claude，黑进了OpenAI...",
-          "date": "2026-09-18",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
-          "title": "火山引擎×AMD助力砹脉营销（A.M.A）以Seedance重塑汽车营销新范式",
-          "link": "https://www.jiqizhixin.com/search/articles/火山引擎×AMD助力砹脉营销（",
-          "summary": "火山引擎×AMD助力砹脉营销（A.M.A）以Seedance重塑汽车营销新范式...",
-          "date": "2026-09-18",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
-          "title": "中山大学、南洋理工大学、混沌摆实验室提出 ProSA 多模态文档解析评测框架｜EMNLP 2026",
-          "link": "https://www.jiqizhixin.com/search/articles/中山大学、南洋理工大学、混沌摆",
-          "summary": "中山大学、南洋理工大学、混沌摆实验室提出 ProSA 多模态文档解析评测框架｜EMNLP 2026...",
-          "date": "2026-09-18",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
-          "title": "设计、前端一口气全干了，结果后端没来上班",
-          "link": "https://www.qbitai.com/?s=设计、前端一口气全干",
-          "summary": "设计、前端一口气全干了，结果后端没来上班...",
+          "title": "Markdown Content:",
+          "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+          "summary": "Markdown Content:...",
           "date": "2026-09-19",
-          "source": "量子位",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "登顶单细胞与空间组学基准，无界进化开放科研Agent工作台Karl Workbench内测",
+          "link": "https://www.jiqizhixin.com/search/articles/登顶单细胞与空间组学基准，无界",
+          "summary": "登顶单细胞与空间组学基准，无界进化开放科研Agent工作台Karl Workbench内测...",
+          "date": "2026-09-19",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "KV Cache不用「精挑细选」？随机删除媲美最强基线，推理吞吐最高再提43%",
+          "link": "https://www.jiqizhixin.com/search/articles/KV Cache不用「精挑细选",
+          "summary": "KV Cache不用「精挑细选」？随机删除媲美最强基线，推理吞吐最高再提43%...",
+          "date": "2026-09-19",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "鸿蒙7发布后，手机里的App进入智能体时代了",
+          "link": "https://www.jiqizhixin.com/search/articles/鸿蒙7发布后，手机里的App进",
+          "summary": "鸿蒙7发布后，手机里的App进入智能体时代了...",
+          "date": "2026-09-19",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "Astra两周抢走13%份额，Anthropic或提前发新模型",
+          "link": "https://www.jiqizhixin.com/search/articles/Astra两周抢走13%份额，",
+          "summary": "Astra两周抢走13%份额，Anthropic或提前发新模型...",
+          "date": "2026-09-19",
+          "source": "机器之心",
           "type": "industry",
           "tags": [
             "AI",

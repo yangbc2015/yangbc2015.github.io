@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-09-19",
+  "last_updated": "2026-09-20",
   "count": 200,
-  "history_count": 200,
+  "history_count": 205,
   "retention_days": 30,
   "items": [
     {
       "title": "设计、前端一口气全干了，结果后端没来上班",
       "link": "https://www.qbitai.com/?s=设计、前端一口气全干",
       "summary": "设计、前端一口气全干了，结果后端没来上班...",
-      "date": "2026-09-19",
+      "date": "2026-09-20",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -20,7 +20,7 @@
       "title": "1000万，把才华送上真正的大舞台",
       "link": "https://www.qbitai.com/?s=1000万，把才华送",
       "summary": "1000万，把才华送上真正的大舞台...",
-      "date": "2026-09-19",
+      "date": "2026-09-20",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -32,7 +32,7 @@
       "title": "CANN跨过拐点，华为补上软件生态",
       "link": "https://www.qbitai.com/?s=CANN跨过拐点，华",
       "summary": "CANN跨过拐点，华为补上软件生态...",
-      "date": "2026-09-19",
+      "date": "2026-09-20",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -44,7 +44,7 @@
       "title": "让开放模型与可负担的算力成为数学研究的共享基石",
       "link": "https://www.qbitai.com/?s=让开放模型与可负担的",
       "summary": "让开放模型与可负担的算力成为数学研究的共享基石...",
-      "date": "2026-09-19",
+      "date": "2026-09-20",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -56,7 +56,7 @@
       "title": "成果中唯一聚焦算电协同全链路运营的AI技术产品",
       "link": "https://www.qbitai.com/?s=成果中唯一聚焦算电协",
       "summary": "成果中唯一聚焦算电协同全链路运营的AI技术产品...",
-      "date": "2026-09-19",
+      "date": "2026-09-20",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -68,12 +68,84 @@
       "title": "*   [Latest](http://techcrunch.com/latest/)",
       "link": "https://techcrunch.com/category/artificial-intelligence/",
       "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
-      "date": "2026-09-19",
+      "date": "2026-09-20",
       "source": "TechCrunch",
       "type": "industry",
       "tags": [
         "AI",
         "Artificial Intelligence"
+      ]
+    },
+    {
+      "title": "Markdown Content:",
+      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+      "summary": "Markdown Content:...",
+      "date": "2026-09-19",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "登顶单细胞与空间组学基准，无界进化开放科研Agent工作台Karl Workbench内测",
+      "link": "https://www.jiqizhixin.com/search/articles/登顶单细胞与空间组学基准，无界",
+      "summary": "登顶单细胞与空间组学基准，无界进化开放科研Agent工作台Karl Workbench内测...",
+      "date": "2026-09-19",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "KV Cache不用「精挑细选」？随机删除媲美最强基线，推理吞吐最高再提43%",
+      "link": "https://www.jiqizhixin.com/search/articles/KV Cache不用「精挑细选",
+      "summary": "KV Cache不用「精挑细选」？随机删除媲美最强基线，推理吞吐最高再提43%...",
+      "date": "2026-09-19",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "鸿蒙7发布后，手机里的App进入智能体时代了",
+      "link": "https://www.jiqizhixin.com/search/articles/鸿蒙7发布后，手机里的App进",
+      "summary": "鸿蒙7发布后，手机里的App进入智能体时代了...",
+      "date": "2026-09-19",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "Astra两周抢走13%份额，Anthropic或提前发新模型",
+      "link": "https://www.jiqizhixin.com/search/articles/Astra两周抢走13%份额，",
+      "summary": "Astra两周抢走13%份额，Anthropic或提前发新模型...",
+      "date": "2026-09-19",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "Anthropic接受OpenAI标准，智能体从此共用一份AGENTS.md",
+      "link": "https://www.jiqizhixin.com/search/articles/Anthropic接受Open",
+      "summary": "Anthropic接受OpenAI标准，智能体从此共用一份AGENTS.md...",
+      "date": "2026-09-19",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
       ]
     },
     {
@@ -164,18 +236,6 @@
       "title": "中山大学、南洋理工大学、混沌摆实验室提出 ProSA 多模态文档解析评测框架｜EMNLP 2026",
       "link": "https://www.jiqizhixin.com/search/articles/中山大学、南洋理工大学、混沌摆",
       "summary": "中山大学、南洋理工大学、混沌摆实验室提出 ProSA 多模态文档解析评测框架｜EMNLP 2026...",
-      "date": "2026-09-18",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Markdown Content:",
-      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-      "summary": "Markdown Content:...",
       "date": "2026-09-18",
       "source": "机器之心",
       "type": "industry",
@@ -2338,66 +2398,6 @@
       "summary": "智象未来×商汤大装置：国产算力跑通视频生成规模化应用...",
       "date": "2026-08-28",
       "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "跻身世界人形机器人运动会工业场景赛全国前三，ROSS Harness 以全自主模式突破工业具身智能落地瓶颈",
-      "link": "https://www.jiqizhixin.com/search/articles/跻身世界人形机器人运动会工业场",
-      "summary": "跻身世界人形机器人运动会工业场景赛全国前三，ROSS Harness 以全自主模式突破工业具身智能落地瓶颈...",
-      "date": "2026-08-27",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "具身导航大模型白训了？coding-agent裸接机器人，成功率78%反超工业级专用模型",
-      "link": "https://www.jiqizhixin.com/search/articles/具身导航大模型白训了？codi",
-      "summary": "具身导航大模型白训了？coding-agent裸接机器人，成功率78%反超工业级专用模型...",
-      "date": "2026-08-27",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "把20万行代码换一套技术栈，还要行为分毫不差，Claude、GPT全懵了",
-      "link": "https://www.jiqizhixin.com/search/articles/把20万行代码换一套技术栈，还",
-      "summary": "把20万行代码换一套技术栈，还要行为分毫不差，Claude、GPT全懵了...",
-      "date": "2026-08-27",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "8月26日晚，千问办公首发上线刚刚发布的Qwen3.8-Flash模型，同时推出标准模式。",
-      "link": "https://www.qbitai.com/?s=8月26日晚，千问办",
-      "summary": "8月26日晚，千问办公首发上线刚刚发布的Qwen3.8-Flash模型，同时推出标准模式。...",
-      "date": "2026-08-27",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "从图像到视频，美图找到了一门更赚钱的生意",
-      "link": "https://www.qbitai.com/?s=从图像到视频，美图找",
-      "summary": "从图像到视频，美图找到了一门更赚钱的生意...",
-      "date": "2026-08-27",
-      "source": "量子位",
       "type": "industry",
       "tags": [
         "AI",

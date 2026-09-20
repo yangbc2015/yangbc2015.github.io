@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-19T19:55:29.839822+00:00",
+  "last_updated": "2026-09-20T02:16:50.924716+00:00",
   "source": "Artificial Analysis",
   "source_url": "https://artificialanalysis.ai/leaderboards/models",
   "description": "综合AI模型性能排行榜，基于智能指数、价格、输出速度、上下文窗口等多维度指标对模型进行评测。",
@@ -17,7 +17,7 @@
       "icon": "⚡"
     },
     {
-      "rank": 11,
+      "rank": 10,
       "model": "Claude Opus 5",
       "organization": "Anthropic",
       "intelligence_index": 0,
