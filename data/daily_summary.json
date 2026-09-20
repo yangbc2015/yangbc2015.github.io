@@ -8,18 +8,6 @@
       "count": 5,
       "items": [
         {
-          "title": "Markdown Content:",
-          "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-          "summary": "Markdown Content:...",
-          "date": "2026-09-19",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
           "title": "登顶单细胞与空间组学基准，无界进化开放科研Agent工作台Karl Workbench内测",
           "link": "https://www.jiqizhixin.com/search/articles/登顶单细胞与空间组学基准，无界",
           "summary": "登顶单细胞与空间组学基准，无界进化开放科研Agent工作台Karl Workbench内测...",
@@ -61,6 +49,18 @@
           "summary": "Astra两周抢走13%份额，Anthropic或提前发新模型...",
           "date": "2026-09-19",
           "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "9月19日，中国人工智能企业APUS旗下 AI 实验室公布了全球最早一批针对Jev的独立开源复现成果",
+          "link": "https://www.qbitai.com/?s=9月19日，中国人工",
+          "summary": "9月19日，中国人工智能企业APUS旗下 AI 实验室公布了全球最早一批针对Jev的独立开源复现成果...",
+          "date": "2026-09-20",
+          "source": "量子位",
           "type": "industry",
           "tags": [
             "AI",

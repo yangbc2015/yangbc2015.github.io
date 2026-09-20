@@ -3,6 +3,18 @@
   "count": 200,
   "items": [
     {
+      "title": "[数据流架构进军 具 身 智 能：高光D35为何成为启元机器人的算力伙伴",
+      "summary": "[数据流架构进军 具 身 智 能：高光D35为何成为启元机器人的算力伙伴",
+      "url": "http://36kr.com/p/3991470804876288",
+      "date": "2026-09-20",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
       "title": "[重磅发现：GPT-6实现 具 身 智 能 突破，中国如何打具身防卫战？",
       "summary": "[重磅发现：GPT-6实现 具 身 智 能 突破，中国如何打具身防卫战？",
       "url": "http://36kr.com/p/3986303263390466",
@@ -3020,22 +3032,6 @@
       "type": "paper",
       "arxiv_id": "2608.21330v1",
       "authors": "Chenhui Pan, Tong Xu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Unified Branch-and-Bound Search for the Steiner Traveling Salesman Problem on Graphs of Convex Sets",
-      "summary": "We formalize the Steiner Traveling Salesman Problem (Steiner-TSP) on Graphs of Convex Sets (GCS), which seeks a minimum-cost closed trajectory through required convex sets while allowing optional transit vertices and revisits. To explore the resultin...",
-      "url": "https://arxiv.org/abs/2608.21319v1",
-      "date": "2026-08-21",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.21319v1",
-      "authors": "Jingtao Tang, Hang Ma",
       "tags": [
         "机器人学习",
         "研究论文",

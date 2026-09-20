@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-09-20",
-  "count": 2,
+  "count": 5,
   "items": [
     {
       "title": "Coding Agents with an Obstacle-Aware Harness for Safe Robot Manipulation",
@@ -21,6 +21,23 @@
       "source": "arXiv"
     },
     {
+      "title": "Workspace Models: Lightweight Robotic Memory via Saliency-Driven Supervision",
+      "authors": "Nitish Dashora, Douglas Chen, Idan Shenfeld et al.",
+      "abstract": "Complex robotic manipulation tasks frequently require a long-term memory of past events and actions. As conditioning on full histories renders policies prone to spurious correlations and degrades performance, many approaches to policy memory involve compressing historical information through expensi...",
+      "venue": "arXiv",
+      "date": "2026-09-17",
+      "arxiv_id": "2609.20820v1",
+      "url": "https://arxiv.org/abs/2609.20820v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.20820v1.pdf",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
       "title": "Embedding Models Measure in Peculiar Ways",
       "authors": "Juri Opitz, Andrianos Michail",
       "abstract": "Embedding spaces define notions of semantic similarity and distance. We study whether those embeddings reflect physical measurements of mass, distance, time and volume, which admit a unique, objective notion of semantic equivalence and distance. We find that physical measurement is only weakly model...",
@@ -34,6 +51,40 @@
         "cs.LG"
       ],
       "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Can 4D Foundation Models Remember?",
+      "authors": "Guangzhao He, Hadar Averbuch-Elor, Wei-Chiu Ma",
+      "abstract": "Perceiving and remembering the visual world is fundamental to navigating and interacting with our environment. Current 4D foundation models, such as camera-controllable video models or 4D reconstruction models, can perceive and reconstruct dynamic environments, but how well they remember what they h...",
+      "venue": "arXiv",
+      "date": "2026-09-17",
+      "arxiv_id": "2609.20819v1",
+      "url": "https://arxiv.org/abs/2609.20819v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.20819v1.pdf",
+      "categories": [
+        "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Paint-Anything: Unified Any-Color Control for Image Generation and Editing",
+      "authors": "Ji Xie, Dewei Zhou, Xinyu Huang et al.",
+      "abstract": "Professional design requires any-color control: the ability to specify an object's target color with any 24-bit hex value for image generation and editing. Prior work has explored color generation, editing, and colorization, but often relies on dedicated color representations or specialized inferenc...",
+      "venue": "arXiv",
+      "date": "2026-09-17",
+      "arxiv_id": "2609.20816v1",
+      "url": "https://arxiv.org/abs/2609.20816v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.20816v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     }

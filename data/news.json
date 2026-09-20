@@ -1,9 +1,45 @@
 {
   "last_updated": "2026-09-20",
   "count": 200,
-  "history_count": 200,
+  "history_count": 203,
   "retention_days": 30,
   "items": [
+    {
+      "title": "9月19日，中国人工智能企业APUS旗下 AI 实验室公布了全球最早一批针对Jev的独立开源复现成果",
+      "link": "https://www.qbitai.com/?s=9月19日，中国人工",
+      "summary": "9月19日，中国人工智能企业APUS旗下 AI 实验室公布了全球最早一批针对Jev的独立开源复现成果...",
+      "date": "2026-09-20",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "亚马逊云科技给企业安全用Agent打了个样",
+      "link": "https://www.qbitai.com/?s=亚马逊云科技给企业安",
+      "summary": "亚马逊云科技给企业安全用Agent打了个样...",
+      "date": "2026-09-20",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "9月18日，在第一届中国网络空间安全大会上，《网络安全人才实战能力报告—AI赋能篇》正式发布",
+      "link": "https://www.qbitai.com/?s=9月18日，在第一届",
+      "summary": "9月18日，在第一届中国网络空间安全大会上，《网络安全人才实战能力报告—AI赋能篇》正式发布...",
+      "date": "2026-09-20",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
     {
       "title": "设计、前端一口气全干了，结果后端没来上班",
       "link": "https://www.qbitai.com/?s=设计、前端一口气全干",
@@ -26,6 +62,18 @@
       "tags": [
         "AI",
         "人工智能"
+      ]
+    },
+    {
+      "title": "*   [Latest](http://techcrunch.com/latest/)",
+      "link": "https://techcrunch.com/category/artificial-intelligence/",
+      "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
+      "date": "2026-09-20",
+      "source": "TechCrunch",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "Artificial Intelligence"
       ]
     },
     {
@@ -58,30 +106,6 @@
       "summary": "成果中唯一聚焦算电协同全链路运营的AI技术产品...",
       "date": "2026-09-20",
       "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "*   [Latest](http://techcrunch.com/latest/)",
-      "link": "https://techcrunch.com/category/artificial-intelligence/",
-      "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
-      "date": "2026-09-20",
-      "source": "TechCrunch",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "Artificial Intelligence"
-      ]
-    },
-    {
-      "title": "Markdown Content:",
-      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-      "summary": "Markdown Content:...",
-      "date": "2026-09-19",
-      "source": "机器之心",
       "type": "industry",
       "tags": [
         "AI",
@@ -128,6 +152,18 @@
       "title": "Astra两周抢走13%份额，Anthropic或提前发新模型",
       "link": "https://www.jiqizhixin.com/search/articles/Astra两周抢走13%份额，",
       "summary": "Astra两周抢走13%份额，Anthropic或提前发新模型...",
+      "date": "2026-09-19",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "Markdown Content:",
+      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+      "summary": "Markdown Content:...",
       "date": "2026-09-19",
       "source": "机器之心",
       "type": "industry",
@@ -2360,42 +2396,6 @@
       "title": "2026年最被低估的具身赛道：让机器人先到得了现场",
       "link": "https://www.jiqizhixin.com/search/articles/2026年最被低估的具身赛道：",
       "summary": "2026年最被低估的具身赛道：让机器人先到得了现场...",
-      "date": "2026-08-28",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Code-as-World：从一段视频，逆推整个物理世界",
-      "link": "https://www.jiqizhixin.com/search/articles/Code-as-World：从",
-      "summary": "Code-as-World：从一段视频，逆推整个物理世界...",
-      "date": "2026-08-28",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Harness Continual Learning：持续学习，从模型参数走向Agent Harness",
-      "link": "https://www.jiqizhixin.com/search/articles/Harness Continu",
-      "summary": "Harness Continual Learning：持续学习，从模型参数走向Agent Harness...",
-      "date": "2026-08-28",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "智象未来×商汤大装置：国产算力跑通视频生成规模化应用",
-      "link": "https://www.jiqizhixin.com/search/articles/智象未来×商汤大装置：国产算力",
-      "summary": "智象未来×商汤大装置：国产算力跑通视频生成规模化应用...",
       "date": "2026-08-28",
       "source": "机器之心",
       "type": "industry",
