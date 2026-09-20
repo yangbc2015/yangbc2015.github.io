@@ -1,9 +1,21 @@
 {
   "last_updated": "2026-09-20",
   "count": 200,
-  "history_count": 203,
+  "history_count": 201,
   "retention_days": 30,
   "items": [
+    {
+      "title": "AI办公这块蛋糕，中国电信可能要先切走一块了。",
+      "link": "https://www.qbitai.com/?s=AI办公这块蛋糕，中",
+      "summary": "AI办公这块蛋糕，中国电信可能要先切走一块了。...",
+      "date": "2026-09-20",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
     {
       "title": "9月19日，中国人工智能企业APUS旗下 AI 实验室公布了全球最早一批针对Jev的独立开源复现成果",
       "link": "https://www.qbitai.com/?s=9月19日，中国人工",
@@ -53,18 +65,6 @@
       ]
     },
     {
-      "title": "1000万，把才华送上真正的大舞台",
-      "link": "https://www.qbitai.com/?s=1000万，把才华送",
-      "summary": "1000万，把才华送上真正的大舞台...",
-      "date": "2026-09-20",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
       "title": "*   [Latest](http://techcrunch.com/latest/)",
       "link": "https://techcrunch.com/category/artificial-intelligence/",
       "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
@@ -74,6 +74,18 @@
       "tags": [
         "AI",
         "Artificial Intelligence"
+      ]
+    },
+    {
+      "title": "1000万，把才华送上真正的大舞台",
+      "link": "https://www.qbitai.com/?s=1000万，把才华送",
+      "summary": "1000万，把才华送上真正的大舞台...",
+      "date": "2026-09-20",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
       ]
     },
     {
@@ -2384,18 +2396,6 @@
       "title": "智元把「上班用」的机器人拉去比赛，拿了双榜第一",
       "link": "https://www.jiqizhixin.com/search/articles/智元把「上班用」的机器人拉去比",
       "summary": "智元把「上班用」的机器人拉去比赛，拿了双榜第一...",
-      "date": "2026-08-28",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "2026年最被低估的具身赛道：让机器人先到得了现场",
-      "link": "https://www.jiqizhixin.com/search/articles/2026年最被低估的具身赛道：",
-      "summary": "2026年最被低估的具身赛道：让机器人先到得了现场...",
       "date": "2026-08-28",
       "source": "机器之心",
       "type": "industry",
