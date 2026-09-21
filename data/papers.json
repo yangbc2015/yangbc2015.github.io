@@ -1,19 +1,52 @@
 {
-  "last_updated": "2026-09-20",
-  "count": 5,
+  "last_updated": "2026-09-21",
+  "count": 8,
   "items": [
     {
-      "title": "Coding Agents with an Obstacle-Aware Harness for Safe Robot Manipulation",
-      "authors": "Bingxin Xu, Yuzhang Shang, Zhen Dong et al.",
-      "abstract": "Coding agents have emerged as a promising paradigm for robot manipulation: a language model writes the robot controller as a program, and agents built in this way now operate robots without robot-specific training.Whether this paradigm is also safe, however, has not been asked. We evaluate coding ag...",
+      "title": "AutoRecLab: Describe the Experiment, Get the Code!",
+      "authors": "Moritz Baumgart, Philipp Meister, Justus Krell et al.",
+      "abstract": "Empirical evaluation is central to recommender-systems (RecSys) research, but turning experimental designs into executable code remains a manual and error-prone task. We present AutoRecLab, a Python-based autonomous RecSys lab that automates RecSys experiments from natural-language prompts. Given a ...",
       "venue": "arXiv",
-      "date": "2026-09-17",
-      "arxiv_id": "2609.20822v1",
-      "url": "https://arxiv.org/abs/2609.20822v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.20822v1.pdf",
+      "date": "2026-09-18",
+      "arxiv_id": "2609.21863v1",
+      "url": "https://arxiv.org/abs/2609.21863v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.21863v1.pdf",
       "categories": [
-        "cs.RO",
         "cs.AI",
+        "cs.IR",
+        "cs.LG"
+      ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Do Personality-Tuned LLMs Make Better Social Agents?",
+      "authors": "Tim Krabbe, Xiaodan Shi",
+      "abstract": "LLMs are increasingly used in social simulations for socially interactive agents and robots, offering more flexibility than rule-based systems. However, even though they mimic human behaviour very well, there is a persistent alienness to them. This work investigates whether personality-aware fine-tu...",
+      "venue": "arXiv",
+      "date": "2026-09-18",
+      "arxiv_id": "2609.21857v1",
+      "url": "https://arxiv.org/abs/2609.21857v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.21857v1.pdf",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "TrialAtlas: Multi-Agent Research Organization for Clinical Trial Design and Optimization",
+      "authors": "Jiacheng Lin, Zifeng Wang, Zheng Chen et al.",
+      "abstract": "Nearly 90% of drugs entering clinical development ultimately fail, despite billions of dollars in investment. Pharmaceutical companies therefore rely on clinical development planning (CDP) and probability of technical and regulatory success assessment to anticipate development risks, yet these decis...",
+      "venue": "arXiv",
+      "date": "2026-09-18",
+      "arxiv_id": "2609.21859v1",
+      "url": "https://arxiv.org/abs/2609.21859v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.21859v1.pdf",
+      "categories": [
         "cs.CL"
       ],
       "type": "nlp",
@@ -21,48 +54,31 @@
       "source": "arXiv"
     },
     {
-      "title": "Workspace Models: Lightweight Robotic Memory via Saliency-Driven Supervision",
-      "authors": "Nitish Dashora, Douglas Chen, Idan Shenfeld et al.",
-      "abstract": "Complex robotic manipulation tasks frequently require a long-term memory of past events and actions. As conditioning on full histories renders policies prone to spurious correlations and degrades performance, many approaches to policy memory involve compressing historical information through expensi...",
+      "title": "Designer-RSI: Evolving Procedural Memory from User Traffic for Agentic Graphic Design",
+      "authors": "Hongyang Du, Lan Yan, Christian Flores et al.",
+      "abstract": "Professional graphic design is a long-horizon agentic task in which structured, editable artifacts emerge from many interdependent actions, yet outcomes admit no reliable programmatic oracle. We introduce a continual adaptation framework in which a frozen frontier model operates professional design ...",
       "venue": "arXiv",
-      "date": "2026-09-17",
-      "arxiv_id": "2609.20820v1",
-      "url": "https://arxiv.org/abs/2609.20820v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.20820v1.pdf",
+      "date": "2026-09-18",
+      "arxiv_id": "2609.22086v1",
+      "url": "https://arxiv.org/abs/2609.22086v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.22086v1.pdf",
       "categories": [
-        "cs.RO",
-        "cs.AI"
+        "cs.AI",
+        "cs.CV"
       ],
       "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Embedding Models Measure in Peculiar Ways",
-      "authors": "Juri Opitz, Andrianos Michail",
-      "abstract": "Embedding spaces define notions of semantic similarity and distance. We study whether those embeddings reflect physical measurements of mass, distance, time and volume, which admit a unique, objective notion of semantic equivalence and distance. We find that physical measurement is only weakly model...",
+      "title": "MintAct: A Unified Visual Agent for Digital Environments",
+      "authors": "Mingfei Gao, Rui Tian, Haiming Gang et al.",
+      "abstract": "We present MintAct, a family of vision-language models that unifies UI grounding, multi-step navigation across mobile, desktop, and web, and visual tool use, trained at 2B, 4B, and 8B scales. Through careful design of our environments, data, and training recipes, MintAct models match the performance...",
       "venue": "arXiv",
-      "date": "2026-09-17",
-      "arxiv_id": "2609.20821v1",
-      "url": "https://arxiv.org/abs/2609.20821v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.20821v1.pdf",
-      "categories": [
-        "cs.CL",
-        "cs.LG"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Can 4D Foundation Models Remember?",
-      "authors": "Guangzhao He, Hadar Averbuch-Elor, Wei-Chiu Ma",
-      "abstract": "Perceiving and remembering the visual world is fundamental to navigating and interacting with our environment. Current 4D foundation models, such as camera-controllable video models or 4D reconstruction models, can perceive and reconstruct dynamic environments, but how well they remember what they h...",
-      "venue": "arXiv",
-      "date": "2026-09-17",
-      "arxiv_id": "2609.20819v1",
-      "url": "https://arxiv.org/abs/2609.20819v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.20819v1.pdf",
+      "date": "2026-09-18",
+      "arxiv_id": "2609.22083v1",
+      "url": "https://arxiv.org/abs/2609.22083v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.22083v1.pdf",
       "categories": [
         "cs.CV"
       ],
@@ -71,20 +87,51 @@
       "source": "arXiv"
     },
     {
-      "title": "Paint-Anything: Unified Any-Color Control for Image Generation and Editing",
-      "authors": "Ji Xie, Dewei Zhou, Xinyu Huang et al.",
-      "abstract": "Professional design requires any-color control: the ability to specify an object's target color with any 24-bit hex value for image generation and editing. Prior work has explored color generation, editing, and colorization, but often relies on dedicated color representations or specialized inferenc...",
+      "title": "Watermarkable Multi-Draft Speculative Sampling via Poisson Processes",
+      "authors": "Yanxiao Liu, Sicheng Wan, Zhan Gao et al.",
+      "abstract": "Large language models (LLMs) have achieved state-of-the-art performance across a wide range of tasks, motivating two important aspects of deployment: inference efficiency and output provenance, which can be tackled by speculative sampling and watermarking, respectively. However, recent works have sh...",
       "venue": "arXiv",
-      "date": "2026-09-17",
-      "arxiv_id": "2609.20816v1",
-      "url": "https://arxiv.org/abs/2609.20816v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.20816v1.pdf",
+      "date": "2026-09-18",
+      "arxiv_id": "2609.21858v1",
+      "url": "https://arxiv.org/abs/2609.21858v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.21858v1.pdf",
       "categories": [
-        "cs.CV",
-        "cs.AI",
+        "cs.CR",
         "cs.LG"
       ],
-      "type": "vision",
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "SeeQ: Training Generalist Value Functions for Long-Horizon Robotic Manipulation",
+      "authors": "Saksham Singh, Zheyuan Hu, Max Sobol Mark et al.",
+      "abstract": "Despite rapid progress, generalist robot policies remain brittle on complex, long-horizon tasks that comprise multiple stages or require repeated attempts and deliberation on the same underlying stage before success. Q-value functions can improve these policies by ranking candidate actions or guidin...",
+      "venue": "arXiv",
+      "date": "2026-09-18",
+      "arxiv_id": "2609.22085v1",
+      "url": "https://arxiv.org/abs/2609.22085v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.22085v1.pdf",
+      "categories": [
+        "cs.RO"
+      ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "LIMBO: Learning and Internalizing Model-Free Barrier Objectives for Agile and Safe Whole-Body Control",
+      "authors": "Jake Gonzales, Arturo Flores Alvarez, Yu-Ming Chen et al.",
+      "abstract": "Safe whole-body control requires coordinating collision avoidance and balance under high-dimensional, nonlinear dynamics--making safety certificates difficult to design and reuse across behaviors. We present LIMBO, a framework for synthesizing a state-action control barrier function and distilling i...",
+      "venue": "arXiv",
+      "date": "2026-09-18",
+      "arxiv_id": "2609.22075v1",
+      "url": "https://arxiv.org/abs/2609.22075v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.22075v1.pdf",
+      "categories": [
+        "cs.RO"
+      ],
+      "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     }

@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-09-20",
+  "last_updated": "2026-09-21",
   "count": 200,
   "items": [
     {
       "title": "[数据流架构进军 具 身 智 能：高光D35为何成为启元机器人的算力伙伴",
       "summary": "[数据流架构进军 具 身 智 能：高光D35为何成为启元机器人的算力伙伴",
       "url": "http://36kr.com/p/3991470804876288",
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
@@ -18,13 +18,93 @@
       "title": "[重磅发现：GPT-6实现 具 身 智 能 突破，中国如何打具身防卫战？",
       "summary": "[重磅发现：GPT-6实现 具 身 智 能 突破，中国如何打具身防卫战？",
       "url": "http://36kr.com/p/3986303263390466",
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "source": "36氪",
       "category": "具身智能",
       "type": "news",
       "tags": [
         "机器人",
         "具身智能"
+      ]
+    },
+    {
+      "title": "PopNavShift: Stress-Testing Social Navigation under Behavioral Population Shift",
+      "summary": "Social-navigation algorithms are often evaluated under a fixed pedestrian-behavior distribution, despite substantial variation in pedestrian responses to robots across individuals and social contexts. We introduce PopNavShift, a matched simulation fr...",
+      "url": "https://arxiv.org/abs/2609.21838v1",
+      "date": "2026-09-18",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.21838v1",
+      "authors": "Kaizhen Tan, Diyu Zheng et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "LunaDrive: A Delay-Compensated High-Voltage GaN FET-Based Motor Driver for Dynamic Robots with Flat BLDC Motors",
+      "summary": "The performance improvement of high-power flat BLDC motors has accelerated the development of dynamic robots. However, many commercially available servo motors assume operating voltages of 48 V or lower, which limits the maximum rotational speed. Dyn...",
+      "url": "https://arxiv.org/abs/2609.21818v1",
+      "date": "2026-09-18",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.21818v1",
+      "authors": "Sota Yuzaki, Temma Suzuki et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "A Sim-to-Real Integration Pipeline for Training and Deployment of Chunk-Based VLA Manipulation Policies",
+      "summary": "Vision-Language-Action (VLA) models have become a prominent paradigm for mapping multimodal inputs, including semantic instructions, visual observations of the scene, and proprioceptive observations, to robot actions. Most state-of-the-art models pre...",
+      "url": "https://arxiv.org/abs/2609.21817v1",
+      "date": "2026-09-18",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.21817v1",
+      "authors": "Mathilde Kappel, Clémence Grislain et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Contact-Rich Motion Planning via GPU-Parallel Mode Evaluation",
+      "summary": "Contact-rich motion planning (CRMP) is essential for robotic manipulation and locomotion, yet remains computationally challenging due to combinatorial contact decisions. Existing methods typically avoid broad evaluation of contact-mode sequences thro...",
+      "url": "https://arxiv.org/abs/2609.21803v1",
+      "date": "2026-09-18",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.21803v1",
+      "authors": "Jiayun Li, Georgia Chalvatzaki",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "AcousticDiffusion: Semantically Conditioned Audio-Guided Diffusion Policy for Search-and-Rescue Assistance",
+      "summary": "Navigating toward human callers is an important capability for rescue robots operating where visual contact is degraded or occluded. We present AcousticDiffusion, a semantically conditioned, audio-guided diffusion policy for human-directed navigation...",
+      "url": "https://arxiv.org/abs/2609.21792v1",
+      "date": "2026-09-18",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.21792v1",
+      "authors": "Iana Zhura, Didar Seyidov et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
       ]
     },
     {
@@ -45,6 +125,32 @@
       "summary": "[重磅发现：GPT-6 Astra实现 具 身 智 能 突破，中国如何打具身防卫战？",
       "url": "http://36kr.com/p/3985769854974977",
       "date": "2026-09-18",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "GitHub仿真测评：GPT-6Astra混合架构具身智能领先",
+      "summary": "GitHub仿真测评：GPT-6Astra混合架构具身智能领先",
+      "url": "http://36kr.com/p/3986303263390466",
+      "date": "2026-09-17",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "2026年具身智能产业的痛点与机遇",
+      "summary": "2026年具身智能产业的痛点与机遇",
+      "url": "http://36kr.com/p/3986852938283785",
+      "date": "2026-09-17",
       "source": "36氪",
       "category": "具身智能",
       "type": "news",
@@ -131,32 +237,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "GitHub仿真测评：GPT-6Astra混合架构具身智能领先",
-      "summary": "GitHub仿真测评：GPT-6Astra混合架构具身智能领先",
-      "url": "http://36kr.com/p/3986303263390466",
-      "date": "2026-09-17",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "2026年具身智能产业的痛点与机遇",
-      "summary": "2026年具身智能产业的痛点与机遇",
-      "url": "http://36kr.com/p/3986852938283785",
-      "date": "2026-09-17",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
       ]
     },
     {
@@ -2955,83 +3035,6 @@
       "type": "paper",
       "arxiv_id": "2608.23354v1",
       "authors": "Alperen Avan, Jordi Sanchez-Riera",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "祥峰投资六载陪伴宇树登陆科创板，布局具身智能赛道",
-      "summary": "祥峰投资六载陪伴宇树登陆科创板，布局具身智能赛道",
-      "url": "http://36kr.com/p/q/3947304770745992",
-      "date": "2026-08-21",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "Mining beyond Earth with Space Robots: Exploration, Sampling, and Extraction",
-      "summary": "Space resource acquisition and utilization, commonly referred to as Space Mining, represent critical pathways for enabling sustained human exploration and unlocking commercial opportunities in space. These resources mainly include helium-3, water, mi...",
-      "url": "https://arxiv.org/abs/2608.21358v1",
-      "date": "2026-08-21",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.21358v1",
-      "authors": "Dong Li, Dujun Nie et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "ViTacPhys: Physical Property-Aware Grasping from Human Visual-Tactile Demonstrations",
-      "summary": "Recent vision-based action models have demonstrated strong capabilities in complex manipulation, but they rarely leverage explicit object physical properties to adapt their policies. We introduce ViTacPhys, a visual-tactile framework and data acquisi...",
-      "url": "https://arxiv.org/abs/2608.21355v1",
-      "date": "2026-08-21",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.21355v1",
-      "authors": "Yiwen Liu, Yujun Zhu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Anatomy-Informed Neural Networks: Encoding Anatomic Priors in Loss and Architecture, with an SE(3) Formulation of Guidewire-Induced Aortoiliac Deformation",
-      "summary": "Deep-learning models of anatomy can be numerically plausible yet anatomically impossible, and they generalize poorly when data are scarce. We introduce Anatomy-Informed Neural Networks (AINN), in which soft anatomic priors enter as penalty terms in t...",
-      "url": "https://arxiv.org/abs/2608.21332v1",
-      "date": "2026-08-21",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.21332v1",
-      "authors": "David P. Stonko",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "NeSAM: Neuro-Symbolic Kinodynamics with Soil Adaptation for Off-Road Mobility",
-      "summary": "Accurate prediction of off-road vehicle motion over deformable terrain remains challenging because sinkage, slip, and traction vary with local soil conditions. Existing learning-based kinodynamic models directly approximate vehicle-terrain interactio...",
-      "url": "https://arxiv.org/abs/2608.21330v1",
-      "date": "2026-08-21",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.21330v1",
-      "authors": "Chenhui Pan, Tong Xu et al.",
       "tags": [
         "机器人学习",
         "研究论文",
