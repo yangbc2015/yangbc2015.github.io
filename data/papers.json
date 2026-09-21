@@ -1,39 +1,37 @@
 {
   "last_updated": "2026-09-21",
-  "count": 9,
+  "count": 8,
   "items": [
     {
-      "title": "AutoRecLab: Describe the Experiment, Get the Code!",
-      "authors": "Moritz Baumgart, Philipp Meister, Justus Krell et al.",
-      "abstract": "Empirical evaluation is central to recommender-systems (RecSys) research, but turning experimental designs into executable code remains a manual and error-prone task. We present AutoRecLab, a Python-based autonomous RecSys lab that automates RecSys experiments from natural-language prompts. Given a ...",
+      "title": "Designer-RSI: Evolving Procedural Memory from User Traffic for Agentic Graphic Design",
+      "authors": "Hongyang Du, Lan Yan, Christian Flores et al.",
+      "abstract": "Professional graphic design is a long-horizon agentic task in which structured, editable artifacts emerge from many interdependent actions, yet outcomes admit no reliable programmatic oracle. We introduce a continual adaptation framework in which a frozen frontier model operates professional design ...",
       "venue": "arXiv",
       "date": "2026-09-18",
-      "arxiv_id": "2609.21863v1",
-      "url": "https://arxiv.org/abs/2609.21863v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.21863v1.pdf",
+      "arxiv_id": "2609.22086v1",
+      "url": "https://arxiv.org/abs/2609.22086v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.22086v1.pdf",
       "categories": [
         "cs.AI",
-        "cs.IR",
-        "cs.LG"
+        "cs.CV"
       ],
-      "type": "ml",
+      "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Do Personality-Tuned LLMs Make Better Social Agents?",
-      "authors": "Tim Krabbe, Xiaodan Shi",
-      "abstract": "LLMs are increasingly used in social simulations for socially interactive agents and robots, offering more flexibility than rule-based systems. However, even though they mimic human behaviour very well, there is a persistent alienness to them. This work investigates whether personality-aware fine-tu...",
+      "title": "CodeMidas: Scaling Agentic Coding RL Environments from Code Itself",
+      "authors": "Bowen Ye, Lei Li, Shicheng Li et al.",
+      "abstract": "Training capable coding agents via reinforcement learning (RL) requires diverse tasks with reliable verifiers. Open-source codebases offer a rich source of such tasks, while existing methods typically rely on development artifacts such as issues and commits, limiting the range of tasks that can be e...",
       "venue": "arXiv",
       "date": "2026-09-18",
-      "arxiv_id": "2609.21857v1",
-      "url": "https://arxiv.org/abs/2609.21857v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.21857v1.pdf",
+      "arxiv_id": "2609.22068v1",
+      "url": "https://arxiv.org/abs/2609.22068v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.22068v1.pdf",
       "categories": [
-        "cs.CL",
         "cs.AI"
       ],
-      "type": "nlp",
+      "type": "ai",
       "badge": "arxiv",
       "source": "arXiv"
     },
@@ -68,23 +66,6 @@
         "cs.LG"
       ],
       "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Designer-RSI: Evolving Procedural Memory from User Traffic for Agentic Graphic Design",
-      "authors": "Hongyang Du, Lan Yan, Christian Flores et al.",
-      "abstract": "Professional graphic design is a long-horizon agentic task in which structured, editable artifacts emerge from many interdependent actions, yet outcomes admit no reliable programmatic oracle. We introduce a continual adaptation framework in which a frozen frontier model operates professional design ...",
-      "venue": "arXiv",
-      "date": "2026-09-18",
-      "arxiv_id": "2609.22086v1",
-      "url": "https://arxiv.org/abs/2609.22086v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.22086v1.pdf",
-      "categories": [
-        "cs.AI",
-        "cs.CV"
-      ],
-      "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     },
