@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-21T17:41:41.423300+00:00",
+  "last_updated": "2026-09-21T21:35:23.442854+00:00",
   "source": "Artificial Analysis",
   "source_url": "https://artificialanalysis.ai/leaderboards/models",
   "description": "综合AI模型性能排行榜，基于智能指数、价格、输出速度、上下文窗口等多维度指标对模型进行评测。",
@@ -41,16 +41,16 @@
       "icon": "⚡"
     },
     {
-      "rank": 20,
-      "model": "Qwen3.8 Max",
-      "organization": "Alibaba",
+      "rank": 19,
+      "model": "MiMo-V2.6-Pro",
+      "organization": "Unknown",
       "intelligence_index": 0,
       "price_per_1m_tokens": 0,
       "speed_tokens_per_sec": 0,
       "context_window": 0,
       "trend": "same",
       "is_open_weights": false,
-      "icon": "🌟"
+      "icon": "🤖"
     }
   ]
 }
