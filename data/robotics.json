@@ -28,6 +28,99 @@
       ]
     },
     {
+      "title": "SeeQ: Training Generalist Value Functions for Long-Horizon Robotic Manipulation",
+      "summary": "Despite rapid progress, generalist robot policies remain brittle on complex, long-horizon tasks that comprise multiple stages or require repeated attempts and deliberation on the same underlying stage before success. Q-value functions can improve the...",
+      "url": "https://arxiv.org/abs/2609.22085v1",
+      "date": "2026-09-18",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.22085v1",
+      "authors": "Saksham Singh, Zheyuan Hu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "LIMBO: Learning and Internalizing Model-Free Barrier Objectives for Agile and Safe Whole-Body Control",
+      "summary": "Safe whole-body control requires coordinating collision avoidance and balance under high-dimensional, nonlinear dynamics--making safety certificates difficult to design and reuse across behaviors. We present LIMBO, a framework for synthesizing a stat...",
+      "url": "https://arxiv.org/abs/2609.22075v1",
+      "date": "2026-09-18",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.22075v1",
+      "authors": "Jake Gonzales, Arturo Flores Alvarez et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Duty Factor Predicts Robust Constrained Quadrupedal Locomotion Across Gait Types",
+      "summary": "Quadrupedal robots are increasingly deployed in environments where locomotion must remain robust to disturbances and constrained terrain. Gait type, such as walking or trotting, is commonly used to characterize quadrupedal locomotion. However, gait t...",
+      "url": "https://arxiv.org/abs/2609.22073v1",
+      "date": "2026-09-18",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.22073v1",
+      "authors": "James Zhu, David Ologan et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Gripper-Aware Automatic Dense Packing of Irregular Objects",
+      "summary": "Automatic dense packing is widely desired in warehouse operations but remains a fundamental challenge in robotic manipulation. Existing work on irregular-object packing largely targets simulation with idealized contact, treating the object as an isol...",
+      "url": "https://arxiv.org/abs/2609.22062v1",
+      "date": "2026-09-18",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.22062v1",
+      "authors": "Tianhao Qin, Connor McCann et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Benchmarking World Models for Continual Learning on Compositional Tasks",
+      "summary": "A desirable property of a world model is the ability to learn continually across tasks, adapting to new environments without forgetting what the agent has already learnt. In particular, the ability to retain and reuse knowledge obtained from prior ex...",
+      "url": "https://arxiv.org/abs/2609.22055v1",
+      "date": "2026-09-18",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.22055v1",
+      "authors": "Haoyu Zhou, Joe Watson et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "2026国际具身智能技能大赛全球高校赛队招募中，参赛即认证，优胜获创投对接。",
+      "summary": "2026国际具身智能技能大赛全球高校赛队招募中，参赛即认证，优胜获创投对接。",
+      "url": "http://36kr.com/p/3988391975009024",
+      "date": "2026-09-18",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
       "title": "PopNavShift: Stress-Testing Social Navigation under Behavioral Population Shift",
       "summary": "Social-navigation algorithms are often evaluated under a fixed pedestrian-behavior distribution, despite substantial variation in pedestrian responses to robots across individuals and social contexts. We introduce PopNavShift, a matched simulation fr...",
       "url": "https://arxiv.org/abs/2609.21838v1",
@@ -105,19 +198,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "2026国际具身智能技能大赛全球高校赛队招募中，参赛即认证，优胜获创投对接。",
-      "summary": "2026国际具身智能技能大赛全球高校赛队招募中，参赛即认证，优胜获创投对接。",
-      "url": "http://36kr.com/p/3988391975009024",
-      "date": "2026-09-18",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
       ]
     },
     {
@@ -2959,86 +3039,6 @@
       "tags": [
         "机器人",
         "具身智能"
-      ]
-    },
-    {
-      "title": "GeoWAM: Visual Geometry World Action Models for Autonomous Driving",
-      "summary": "World action models (WAMs) have recently gained increasing attention as a framework for jointly modeling scene evolution and ego actions in autonomous driving. Most existing WAMs learn scene dynamics in pixel space by combining a video-generation bac...",
-      "url": "https://arxiv.org/abs/2608.23486v1",
-      "date": "2026-08-24",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.23486v1",
-      "authors": "Yiren Lu, Xin Ye et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Act with Intent: Distilling Behavior Intent for Vision-Language-Action Models",
-      "summary": "Vision-Language-Action (VLA) models can turn multimodal context into robot actions, but their action decoders are still trained largely by behavior cloning. This supervises which motor command was demonstrated while leaving implicit the local objecti...",
-      "url": "https://arxiv.org/abs/2608.23478v1",
-      "date": "2026-08-24",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.23478v1",
-      "authors": "Sangoh Lee, Sangwoo Mo et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Reward-Free Continual Adaptation for Resilient Space Robots",
-      "summary": "Space robots operate in extreme environments where hardware degradation can critically compromise traditional control strategies. While continual reinforcement learning offers a promising mechanism for online adaptation, it inherently requires access...",
-      "url": "https://arxiv.org/abs/2608.23452v1",
-      "date": "2026-08-24",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.23452v1",
-      "authors": "Andrej Orsula, Miguel Olivares-Mendez et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "MomADv2: Reliable Temporal Memory for End-to-End Autonomous Driving",
-      "summary": "Long-horizon planning is critical for safe autonomous driving in complex scenarios. Existing methods improve planning continuity with temporal memory, but such memory may become invalid and mislead decisions when the driving command changes. Thus, se...",
-      "url": "https://arxiv.org/abs/2608.23405v1",
-      "date": "2026-08-24",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.23405v1",
-      "authors": "Ziying Song, Shengkai Zhang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "OptiSight: Bridging Semantic Reasoning and Geometric Control for Embodied Navigation",
-      "summary": "Autonomous indoor navigation requires both semantic understanding and precise geometric control. We propose OptiSight, a hybrid framework that combines Vision-Language Model reasoning with deterministic visual servoing through a finite-state Chain-of...",
-      "url": "https://arxiv.org/abs/2608.23354v1",
-      "date": "2026-08-24",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.23354v1",
-      "authors": "Alperen Avan, Jordi Sanchez-Riera",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
       ]
     }
   ]

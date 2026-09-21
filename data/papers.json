@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-09-21",
-  "count": 8,
+  "count": 9,
   "items": [
     {
       "title": "AutoRecLab: Describe the Experiment, Get the Code!",
@@ -38,16 +38,34 @@
       "source": "arXiv"
     },
     {
-      "title": "TrialAtlas: Multi-Agent Research Organization for Clinical Trial Design and Optimization",
-      "authors": "Jiacheng Lin, Zifeng Wang, Zheng Chen et al.",
-      "abstract": "Nearly 90% of drugs entering clinical development ultimately fail, despite billions of dollars in investment. Pharmaceutical companies therefore rely on clinical development planning (CDP) and probability of technical and regulatory success assessment to anticipate development risks, yet these decis...",
+      "title": "Cross-sector generalization of accident-process role classification in occupational accident narratives",
+      "authors": "Aho Yapi, Pierre Latouche, Arnaud Guillin et al.",
+      "abstract": "Occupational accident narratives contain valuable information about work situations, unfavourable conditions, accident events, and their consequences. Automatically structuring these narratives can facilitate large-scale accident analysis and support occupational risk prevention. However, the termin...",
       "venue": "arXiv",
       "date": "2026-09-18",
-      "arxiv_id": "2609.21859v1",
-      "url": "https://arxiv.org/abs/2609.21859v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.21859v1.pdf",
+      "arxiv_id": "2609.22081v1",
+      "url": "https://arxiv.org/abs/2609.22081v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.22081v1.pdf",
       "categories": [
         "cs.CL"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Predictable Failure in Multi-Hop Retrieval: Score-Distributional Confidence Scoring and Abstention",
+      "authors": "Andre Bacellar",
+      "abstract": "Multi-hop retrieval failures are not uniformly distributed across queries: they cluster in structurally predictable subpopulations. We prove two results formalizing this structure. First (CWAR Reducibility): confident-failure reduction is achievable if and only if retrieval features carry mutual inf...",
+      "venue": "arXiv",
+      "date": "2026-09-18",
+      "arxiv_id": "2609.22056v1",
+      "url": "https://arxiv.org/abs/2609.22056v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.22056v1.pdf",
+      "categories": [
+        "cs.IR",
+        "cs.CL",
+        "cs.LG"
       ],
       "type": "nlp",
       "badge": "arxiv",
@@ -87,19 +105,19 @@
       "source": "arXiv"
     },
     {
-      "title": "Watermarkable Multi-Draft Speculative Sampling via Poisson Processes",
-      "authors": "Yanxiao Liu, Sicheng Wan, Zhan Gao et al.",
-      "abstract": "Large language models (LLMs) have achieved state-of-the-art performance across a wide range of tasks, motivating two important aspects of deployment: inference efficiency and output provenance, which can be tackled by speculative sampling and watermarking, respectively. However, recent works have sh...",
+      "title": "BrainWideBench: Benchmarking large-scale pretraining and across-animal transfer in multi-region neural recordings",
+      "authors": "Alexandre Andre, Shivashriganesh P. Mahato, Vinam Arora et al.",
+      "abstract": "Advances in large-scale neural recording have made it possible to collect data across many animals and distributed brain regions, raising the question of whether this scale can be exploited to learn general-purpose neural representations transferable across diverse downstream tasks. Yet, progress to...",
       "venue": "arXiv",
       "date": "2026-09-18",
-      "arxiv_id": "2609.21858v1",
-      "url": "https://arxiv.org/abs/2609.21858v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.21858v1.pdf",
+      "arxiv_id": "2609.22064v1",
+      "url": "https://arxiv.org/abs/2609.22064v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.22064v1.pdf",
       "categories": [
-        "cs.CR",
-        "cs.LG"
+        "cs.LG",
+        "q-bio.NC"
       ],
-      "type": "ml",
+      "type": "benchmark",
       "badge": "arxiv",
       "source": "arXiv"
     },
