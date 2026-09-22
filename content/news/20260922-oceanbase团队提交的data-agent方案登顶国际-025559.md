@@ -1,6 +1,6 @@
 ---
 title: OceanBase团队提交的Data Agent方案登顶国际数据智能体基准Data Agent Benchmark
-date: '2026-09-21'
+date: '2026-09-22'
 type: industry
 source: 量子位
 link: https://www.qbitai.com/?s=OceanBase团

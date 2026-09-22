@@ -37,6 +37,39 @@
       "source": "arXiv"
     },
     {
+      "title": "Incentive Noise and Structural Prior Infusion for Multi-modal Object Re-Identification",
+      "authors": "Weixiang Zhou, Yuhao Wang, Xingguo Xu et al.",
+      "abstract": "Multi-modal object Re-Identification (ReID) benefits from complementary information across heterogeneous imaging modalities. To further enrich semantic representation, text descriptions have recently been incorporated as an additional modality. However, recent vision-language approaches often treat ...",
+      "venue": "arXiv",
+      "date": "2026-09-21",
+      "arxiv_id": "2609.24539v1",
+      "url": "https://arxiv.org/abs/2609.24539v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.24539v1.pdf",
+      "categories": [
+        "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "MIRAGE: Full-Body Bystander Privacy for Smart Glasses with Consent-Based Restoration",
+      "authors": "Muhammad Umair, Muhammad Danial Maqbool, Fatima Arshad Cheema et al.",
+      "abstract": "Video recording on smart glasses exposes more than faces. Continuous capture reveals full-body biometric signatures, including gait, posture, and silhouette, that enable person re-identification (ReID) even after conventional face sanitization. We present MIRAGE, a three-tier architecture for privac...",
+      "venue": "arXiv",
+      "date": "2026-09-21",
+      "arxiv_id": "2609.24537v1",
+      "url": "https://arxiv.org/abs/2609.24537v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.24537v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.CR"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
       "title": "Identifying Representational Biases in Datasets Using PCA: A Max-Disparity Partition Framework",
       "authors": "Arjun KM, Shashi Jain",
       "abstract": "Principal Component Analysis (PCA) minimises aggregate reconstruction error, which can inadvertently represent majority subgroups with substantially higher fidelity than minority subgroups. Fairness-aware extensions of PCA correct this disparity but require group labels as input. We address the logi...",
@@ -134,39 +167,6 @@
         "cs.LG"
       ],
       "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "ProxyBuild: Text-Guided Structured 3D Building Generation with Mesh-Anchored Procedural Proxies",
-      "authors": "Xiang Tang, Ruotong Li, Xiaopeng Fan",
-      "abstract": "Text-guided 3D building generation holds tremendous application potential, yet existing generative models typically output inseparable single meshes or non-interactive rendered representations. While procedural modeling can generate editable buildings with hierarchical structures, rule authoring is ...",
-      "venue": "arXiv",
-      "date": "2026-09-20",
-      "arxiv_id": "2609.23386v1",
-      "url": "https://arxiv.org/abs/2609.23386v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.23386v1.pdf",
-      "categories": [
-        "cs.CV",
-        "cs.GR"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "LiteTex-GS: Fast and Lightweight Texturing for Gaussian Splatting",
-      "authors": "Zhiwei Li, Yijia Guo, Yishi Lu et al.",
-      "abstract": "Gaussian Splatting has enabled real-time novel view synthesis, but its tightly coupled geometry and appearance representation often require a large number of primitives to reproduce high-frequency texture details, leading to substantial memory and optimization costs. Recent textured 2D Gaussian meth...",
-      "venue": "arXiv",
-      "date": "2026-09-20",
-      "arxiv_id": "2609.23380v1",
-      "url": "https://arxiv.org/abs/2609.23380v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.23380v1.pdf",
-      "categories": [
-        "cs.CV"
-      ],
-      "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     }
