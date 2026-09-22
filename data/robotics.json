@@ -6,7 +6,7 @@
       "title": "[数据流架构进军 具 身 智 能：高光D35为何成为启元机器人的算力伙伴",
       "summary": "[数据流架构进军 具 身 智 能：高光D35为何成为启元机器人的算力伙伴",
       "url": "http://36kr.com/p/3991470804876288",
-      "date": "2026-09-21",
+      "date": "2026-09-22",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
@@ -18,7 +18,100 @@
       "title": "[重磅发现：GPT-6实现 具 身 智 能 突破，中国如何打具身防卫战？",
       "summary": "[重磅发现：GPT-6实现 具 身 智 能 突破，中国如何打具身防卫战？",
       "url": "http://36kr.com/p/3986303263390466",
+      "date": "2026-09-22",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "Learning Beyond What Humans Can Demonstrate",
+      "summary": "Behavior cloning for robot manipulation relies on expert demonstrations. However, for tasks that require dynamic stability, precise contact timing, or dexterous coordination, human operators may find it hard or even impossible to collect data. We stu...",
+      "url": "https://arxiv.org/abs/2609.24996v1",
       "date": "2026-09-21",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.24996v1",
+      "authors": "Yuchen Song, Aditya Mittal et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "MIGU: Multimodal Instruction Grounding under Uncertainty for Manipulation Planning",
+      "summary": "Understanding natural human instructions is crucial for deploying robots in human-centric environments. We study multimodal instruction grounding, where language and gesture provide complementary but uncertain cues. We present MIGU, a modular framewo...",
+      "url": "https://arxiv.org/abs/2609.24995v1",
+      "date": "2026-09-21",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.24995v1",
+      "authors": "Mingke Lu, Anxing Xiao et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "DexTacWAM: A Visuo-Tactile World-Action Model for Dexterous Manipulation",
+      "summary": "Dexterous manipulation depends on contact dynamics that are often only partially observable from vision. Recent World-Action Models (WAMs) couple predictive video world modeling with action generation, but remain largely vision-centric and therefore ...",
+      "url": "https://arxiv.org/abs/2609.24976v1",
+      "date": "2026-09-21",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.24976v1",
+      "authors": "Haoran Yuan, Zekai Wang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Learning to Drive on Mars: Visual Multimodal Traversability Estimation for Off-World Navigation",
+      "summary": "Autonomous navigation on Mars requires vehicles to distinguish between traversable terrains across diverse and visually challenging environments. However, progress in learning-based navigation for off-world environments has been limited by the lack o...",
+      "url": "https://arxiv.org/abs/2609.24952v1",
+      "date": "2026-09-21",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.24952v1",
+      "authors": "Darren Chiu, Cole Wilson et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Visuomotor Robotic Pruning in Planar Orchards Using Hybrid Reinforcement Learning",
+      "summary": "Dormant tree pruning is labor-intensive yet essential for maintaining modern high-productivity fruit orchards. In this work, we focus on pruning of modern planar tree training systems - V-Trellis apples and UFO cherries - where trunks and primary bra...",
+      "url": "https://arxiv.org/abs/2609.24906v1",
+      "date": "2026-09-21",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.24906v1",
+      "authors": "Abhinav Jain, Cindy Grimm et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "启元机器人牵手苏州睿芯，具身智能算力进入拼架构时代",
+      "summary": "启元机器人牵手苏州睿芯，具身智能算力进入拼架构时代",
+      "url": "http://36kr.com/p/3991470804876288",
+      "date": "2026-09-20",
       "source": "36氪",
       "category": "具身智能",
       "type": "news",
@@ -105,19 +198,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "启元机器人牵手苏州睿芯，具身智能算力进入拼架构时代",
-      "summary": "启元机器人牵手苏州睿芯，具身智能算力进入拼架构时代",
-      "url": "http://36kr.com/p/3991470804876288",
-      "date": "2026-09-20",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
       ]
     },
     {
@@ -2972,75 +3052,6 @@
       "type": "paper",
       "arxiv_id": "2608.26066v1",
       "authors": "Andrea Drudi, Lorenzo Pichierri et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "[具 身 智 能 展会最热的一年，肉眼难见机器人的进化？",
-      "summary": "[具 身 智 能 展会最热的一年，肉眼难见机器人的进化？",
-      "url": "http://36kr.com/p/3947647141920131",
-      "date": "2026-08-26",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
-      ]
-    },
-    {
-      "title": "璇玑动力携四足机器人亮相2026世界机器人大会，成果获认可",
-      "summary": "璇玑动力携四足机器人亮相2026世界机器人大会，成果获认可",
-      "url": "http://36kr.com/p/3954812788374664",
-      "date": "2026-08-25",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
-      ]
-    },
-    {
-      "title": "具身智能走到哪了？425家公司和1245亿资本告诉你的答案",
-      "summary": "具身智能走到哪了？425家公司和1245亿资本告诉你的答案",
-      "url": "http://36kr.com/p/3954655180618883",
-      "date": "2026-08-25",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "Do Robotic World Models Really Follow Actions? Diagnosing and Aligning Action-Conditioned Generation for Policy Learning",
-      "summary": "Action-conditioned world models are increasingly used as learned simulators for policy evaluation and improvement, yet their effectiveness rests on an unverified assumption: generated futures faithfully reflect arbitrary valid actions. Existing bench...",
-      "url": "https://arxiv.org/abs/2608.24885v1",
-      "date": "2026-08-25",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.24885v1",
-      "authors": "Sixiang Chen, Jiaming Liu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Latent Action as Intention Enables Efficient Future Imagination for World Action Models",
-      "summary": "World action models (WAMs) improve robot control by modeling how observations evolve, but generating future observations at test time incurs substantial latency. Fast-WAM removes this process for efficiency; however, our matched implementations show ...",
-      "url": "https://arxiv.org/abs/2608.24882v1",
-      "date": "2026-08-25",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.24882v1",
-      "authors": "Xiang Li, Yupeng Zheng et al.",
       "tags": [
         "机器人学习",
         "研究论文",

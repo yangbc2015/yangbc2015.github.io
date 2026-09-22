@@ -1,17 +1,53 @@
 {
   "last_updated": "2026-09-22",
-  "count": 10,
+  "count": 7,
   "items": [
     {
-      "title": "Toward a Unified Mathematics of Concepts",
-      "authors": "Chen Shani",
-      "abstract": "Concepts are commonly defined as abstract, compact representations of knowledge and treated as basic units of intelligent behavior. Yet, cognition, psychology, and AI lack a shared mathematical language for them. Modern systems represent concepts as vectors, distributions, symbols, graphs, and other...",
+      "title": "GameHorizon Suite: Multi-Horizon Data and Evaluation in Gameplay",
+      "authors": "Yiran Wang, Xingyilang Yin, Junfu Pu et al.",
+      "abstract": "Modern video games provide a measurable testbed for AI models, combining abilities of visual understanding, instruction decomposition, goal planning, and precise action control over multiple temporal horizons. Existing datasets and benchmarks, however, either cover a narrow range of games, lack lang...",
       "venue": "arXiv",
       "date": "2026-09-21",
-      "arxiv_id": "2609.24554v1",
-      "url": "https://arxiv.org/abs/2609.24554v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.24554v1.pdf",
+      "arxiv_id": "2609.25001v1",
+      "url": "https://arxiv.org/abs/2609.25001v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.25001v1.pdf",
       "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "type": "benchmark",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "WorldCrafter: Consistent Video World Model with Implicit 3D-aware Memory",
+      "authors": "Wangbo Yu, Kunhao Liu, Wenbo Hu et al.",
+      "abstract": "Video world models enable interactive exploration of dynamic environments, yet struggle to respect prior observations over long horizons and across viewpoints. We present WorldCrafter, a video world model that learns a camera-queryable implicit 3D-aware memory for this purpose. The key insight is to...",
+      "venue": "arXiv",
+      "date": "2026-09-21",
+      "arxiv_id": "2609.24984v1",
+      "url": "https://arxiv.org/abs/2609.24984v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.24984v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.GR"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Critical-State RL: Diagnosing Trainable States for Multi-Turn Tool Use",
+      "authors": "Zixiang Chen, Wenting Zhao, Zhepeng Cen et al.",
+      "abstract": "Multi-turn tool-use failures can hinge on a single model call, yet reward variation alone does not reveal which call would benefit from training. When rewards depend on later interactions, their variation can reflect downstream randomness rather than differences between the current actions. We intro...",
+      "venue": "arXiv",
+      "date": "2026-09-21",
+      "arxiv_id": "2609.24985v1",
+      "url": "https://arxiv.org/abs/2609.24985v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.24985v1.pdf",
+      "categories": [
+        "cs.LG",
         "cs.CL"
       ],
       "type": "nlp",
@@ -19,32 +55,32 @@
       "source": "arXiv"
     },
     {
-      "title": "QLoRA Fine-Tuning of Ministral LLM for Sequence-to-Function Protein Annotation",
-      "authors": "Demian Pavlyshenko, Bohdan Pavlyshenko",
-      "abstract": "Functional annotation of newly sequenced proteins remains a bottleneck in molecular biology: the number of sequences in public repositories grows far faster than the capacity for manual curation. Most computational approaches consider annotation as multi-label classification over a fixed ontology, w...",
+      "title": "onPanda: Efficient Annotation of On-Policy Alignment Data for LLMs and Agents via Token-Level Correction",
+      "authors": "Lei Yang, Mengyin Liu, Jia Wang et al.",
+      "abstract": "We present onPanda, an interactive tool for efficiently annotating LLM alignment data and agent trajectories. onPanda adopts token-level correction as its core interaction: while reading a model response, the annotator locates the first inappropriate token and either picks a substitute from the mode...",
       "venue": "arXiv",
       "date": "2026-09-21",
-      "arxiv_id": "2609.24538v1",
-      "url": "https://arxiv.org/abs/2609.24538v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.24538v1.pdf",
+      "arxiv_id": "2609.24983v1",
+      "url": "https://arxiv.org/abs/2609.24983v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.24983v1.pdf",
       "categories": [
         "cs.CL",
-        "cs.AI",
-        "cs.NE"
+        "cs.HC",
+        "cs.LG"
       ],
       "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Incentive Noise and Structural Prior Infusion for Multi-modal Object Re-Identification",
-      "authors": "Weixiang Zhou, Yuhao Wang, Xingguo Xu et al.",
-      "abstract": "Multi-modal object Re-Identification (ReID) benefits from complementary information across heterogeneous imaging modalities. To further enrich semantic representation, text descriptions have recently been incorporated as an additional modality. However, recent vision-language approaches often treat ...",
+      "title": "VideoGen-Agent: Reinforcing Video Generation Agents",
+      "authors": "Binxu Li, Haoyi Duan, Yuhui Zhang et al.",
+      "abstract": "Recent advances in video generative models have enabled high-fidelity, temporally coherent video generation. However, these models often struggle to satisfy prompts requiring specialized knowledge, specific identities, physical consistency, or ordered events. In this paper, we present VideoGen-Agent...",
       "venue": "arXiv",
       "date": "2026-09-21",
-      "arxiv_id": "2609.24539v1",
-      "url": "https://arxiv.org/abs/2609.24539v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.24539v1.pdf",
+      "arxiv_id": "2609.24997v1",
+      "url": "https://arxiv.org/abs/2609.24997v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.24997v1.pdf",
       "categories": [
         "cs.CV"
       ],
@@ -53,120 +89,34 @@
       "source": "arXiv"
     },
     {
-      "title": "MIRAGE: Full-Body Bystander Privacy for Smart Glasses with Consent-Based Restoration",
-      "authors": "Muhammad Umair, Muhammad Danial Maqbool, Fatima Arshad Cheema et al.",
-      "abstract": "Video recording on smart glasses exposes more than faces. Continuous capture reveals full-body biometric signatures, including gait, posture, and silhouette, that enable person re-identification (ReID) even after conventional face sanitization. We present MIRAGE, a three-tier architecture for privac...",
+      "title": "Learning Beyond What Humans Can Demonstrate",
+      "authors": "Yuchen Song, Aditya Mittal, Unnat Jain",
+      "abstract": "Behavior cloning for robot manipulation relies on expert demonstrations. However, for tasks that require dynamic stability, precise contact timing, or dexterous coordination, human operators may find it hard or even impossible to collect data. We study this infeasible-demonstration regime and propos...",
       "venue": "arXiv",
       "date": "2026-09-21",
-      "arxiv_id": "2609.24537v1",
-      "url": "https://arxiv.org/abs/2609.24537v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.24537v1.pdf",
+      "arxiv_id": "2609.24996v1",
+      "url": "https://arxiv.org/abs/2609.24996v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.24996v1.pdf",
       "categories": [
-        "cs.CV",
-        "cs.CR"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Identifying Representational Biases in Datasets Using PCA: A Max-Disparity Partition Framework",
-      "authors": "Arjun KM, Shashi Jain",
-      "abstract": "Principal Component Analysis (PCA) minimises aggregate reconstruction error, which can inadvertently represent majority subgroups with substantially higher fidelity than minority subgroups. Fairness-aware extensions of PCA correct this disparity but require group labels as input. We address the logi...",
-      "venue": "arXiv",
-      "date": "2026-09-21",
-      "arxiv_id": "2609.24556v1",
-      "url": "https://arxiv.org/abs/2609.24556v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.24556v1.pdf",
-      "categories": [
-        "stat.ML",
-        "cs.LG"
-      ],
-      "type": "benchmark",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Beyond Point Prediction: Artificial Representative Trees with Uncertainty",
-      "authors": "Lea L. Mairhöfer, Silke Szymczak, Björn-Hergen Laabs et al.",
-      "abstract": "Random forests (RFs) predict well but are opaque, whereas single decision trees are interpretable but unstable. Artificial representative trees (ARTs) were developed as interpretable surrogate models for RFs, but their use as standalone prediction models with uncertainty quantification has not been ...",
-      "venue": "arXiv",
-      "date": "2026-09-21",
-      "arxiv_id": "2609.24528v1",
-      "url": "https://arxiv.org/abs/2609.24528v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.24528v1.pdf",
-      "categories": [
-        "stat.ML",
-        "cs.LG"
+        "cs.RO"
       ],
       "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Smoothness as a Constraint for Stable Humanoid Locomotion",
-      "authors": "Utsav Panchal, Denis Kleyko, Unal Artan et al.",
-      "abstract": "Embodied AI systems, particularly humanoid robots deployed in real world scenarios require whole-body control policies that are both task-responsive and physically smooth. However, smoothness is not uniform across the body: lower body must remain sufficiently reactive, while the upper body must be t...",
+      "title": "MIGU: Multimodal Instruction Grounding under Uncertainty for Manipulation Planning",
+      "authors": "Mingke Lu, Anxing Xiao, David Hsu",
+      "abstract": "Understanding natural human instructions is crucial for deploying robots in human-centric environments. We study multimodal instruction grounding, where language and gesture provide complementary but uncertain cues. We present MIGU, a modular framework that combines semantic and geometric evidence i...",
       "venue": "arXiv",
       "date": "2026-09-21",
-      "arxiv_id": "2609.24552v1",
-      "url": "https://arxiv.org/abs/2609.24552v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.24552v1.pdf",
+      "arxiv_id": "2609.24995v1",
+      "url": "https://arxiv.org/abs/2609.24995v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.24995v1.pdf",
       "categories": [
         "cs.RO"
       ],
       "type": "ai",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "MIRA: Real-Time Full-Duplex Human-Robot Interaction for Embodied Companions",
-      "authors": "Lijian Lin, Ye Zhu, Fan Zhang et al.",
-      "abstract": "Real-time embodied companion interaction requires a robot to infer user intent from streaming speech, generate timely responses, and execute expressive, interruptible motions. Existing systems typically decouple dialogue orchestration from gesture synthesis, relying on offline motion generation from...",
-      "venue": "arXiv",
-      "date": "2026-09-21",
-      "arxiv_id": "2609.24547v1",
-      "url": "https://arxiv.org/abs/2609.24547v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.24547v1.pdf",
-      "categories": [
-        "cs.RO"
-      ],
-      "type": "ai",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Blind Thermodynamic Ontology Discovery from Anonymous Experiments",
-      "authors": "Linzhe Zhang, Changming Xu",
-      "abstract": "Before a machine learning model can learn a thermodynamic equation of state, it must discover what its measurements represent: which channels scale with system size, which are intensive conjugates, how sectors pair through contact, and which potential governs stability. When sensors expose only an u...",
-      "venue": "arXiv",
-      "date": "2026-09-20",
-      "arxiv_id": "2609.23387v1",
-      "url": "https://arxiv.org/abs/2609.23387v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.23387v1.pdf",
-      "categories": [
-        "cs.LG",
-        "cs.AI"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Bayesian Filtering in Physical Systems via Test-time Trained Flow Matching",
-      "authors": "Ruiqi Feng, Chongyi Wang, Tao Zhang et al.",
-      "abstract": "Bayesian filtering provides a principled framework for online state estimation under uncertainty, yet its application to systems with high-dimensional states and complicated posterior distributions remains challenging. Recent generative models, such as flow matching, have shown potential in Bayesian...",
-      "venue": "arXiv",
-      "date": "2026-09-20",
-      "arxiv_id": "2609.23383v1",
-      "url": "https://arxiv.org/abs/2609.23383v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.23383v1.pdf",
-      "categories": [
-        "stat.ML",
-        "cs.AI",
-        "cs.LG"
-      ],
-      "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     }
