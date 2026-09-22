@@ -1,49 +1,16 @@
 {
-  "last_updated": "2026-09-21",
-  "count": 8,
+  "last_updated": "2026-09-22",
+  "count": 10,
   "items": [
     {
-      "title": "Designer-RSI: Evolving Procedural Memory from User Traffic for Agentic Graphic Design",
-      "authors": "Hongyang Du, Lan Yan, Christian Flores et al.",
-      "abstract": "Professional graphic design is a long-horizon agentic task in which structured, editable artifacts emerge from many interdependent actions, yet outcomes admit no reliable programmatic oracle. We introduce a continual adaptation framework in which a frozen frontier model operates professional design ...",
+      "title": "Toward a Unified Mathematics of Concepts",
+      "authors": "Chen Shani",
+      "abstract": "Concepts are commonly defined as abstract, compact representations of knowledge and treated as basic units of intelligent behavior. Yet, cognition, psychology, and AI lack a shared mathematical language for them. Modern systems represent concepts as vectors, distributions, symbols, graphs, and other...",
       "venue": "arXiv",
-      "date": "2026-09-18",
-      "arxiv_id": "2609.22086v1",
-      "url": "https://arxiv.org/abs/2609.22086v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.22086v1.pdf",
-      "categories": [
-        "cs.AI",
-        "cs.CV"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "CodeMidas: Scaling Agentic Coding RL Environments from Code Itself",
-      "authors": "Bowen Ye, Lei Li, Shicheng Li et al.",
-      "abstract": "Training capable coding agents via reinforcement learning (RL) requires diverse tasks with reliable verifiers. Open-source codebases offer a rich source of such tasks, while existing methods typically rely on development artifacts such as issues and commits, limiting the range of tasks that can be e...",
-      "venue": "arXiv",
-      "date": "2026-09-18",
-      "arxiv_id": "2609.22068v1",
-      "url": "https://arxiv.org/abs/2609.22068v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.22068v1.pdf",
-      "categories": [
-        "cs.AI"
-      ],
-      "type": "ai",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Cross-sector generalization of accident-process role classification in occupational accident narratives",
-      "authors": "Aho Yapi, Pierre Latouche, Arnaud Guillin et al.",
-      "abstract": "Occupational accident narratives contain valuable information about work situations, unfavourable conditions, accident events, and their consequences. Automatically structuring these narratives can facilitate large-scale accident analysis and support occupational risk prevention. However, the termin...",
-      "venue": "arXiv",
-      "date": "2026-09-18",
-      "arxiv_id": "2609.22081v1",
-      "url": "https://arxiv.org/abs/2609.22081v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.22081v1.pdf",
+      "date": "2026-09-21",
+      "arxiv_id": "2609.24554v1",
+      "url": "https://arxiv.org/abs/2609.24554v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.24554v1.pdf",
       "categories": [
         "cs.CL"
       ],
@@ -52,85 +19,154 @@
       "source": "arXiv"
     },
     {
-      "title": "Predictable Failure in Multi-Hop Retrieval: Score-Distributional Confidence Scoring and Abstention",
-      "authors": "Andre Bacellar",
-      "abstract": "Multi-hop retrieval failures are not uniformly distributed across queries: they cluster in structurally predictable subpopulations. We prove two results formalizing this structure. First (CWAR Reducibility): confident-failure reduction is achievable if and only if retrieval features carry mutual inf...",
+      "title": "QLoRA Fine-Tuning of Ministral LLM for Sequence-to-Function Protein Annotation",
+      "authors": "Demian Pavlyshenko, Bohdan Pavlyshenko",
+      "abstract": "Functional annotation of newly sequenced proteins remains a bottleneck in molecular biology: the number of sequences in public repositories grows far faster than the capacity for manual curation. Most computational approaches consider annotation as multi-label classification over a fixed ontology, w...",
       "venue": "arXiv",
-      "date": "2026-09-18",
-      "arxiv_id": "2609.22056v1",
-      "url": "https://arxiv.org/abs/2609.22056v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.22056v1.pdf",
+      "date": "2026-09-21",
+      "arxiv_id": "2609.24538v1",
+      "url": "https://arxiv.org/abs/2609.24538v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.24538v1.pdf",
       "categories": [
-        "cs.IR",
         "cs.CL",
-        "cs.LG"
+        "cs.AI",
+        "cs.NE"
       ],
       "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "MintAct: A Unified Visual Agent for Digital Environments",
-      "authors": "Mingfei Gao, Rui Tian, Haiming Gang et al.",
-      "abstract": "We present MintAct, a family of vision-language models that unifies UI grounding, multi-step navigation across mobile, desktop, and web, and visual tool use, trained at 2B, 4B, and 8B scales. Through careful design of our environments, data, and training recipes, MintAct models match the performance...",
+      "title": "Identifying Representational Biases in Datasets Using PCA: A Max-Disparity Partition Framework",
+      "authors": "Arjun KM, Shashi Jain",
+      "abstract": "Principal Component Analysis (PCA) minimises aggregate reconstruction error, which can inadvertently represent majority subgroups with substantially higher fidelity than minority subgroups. Fairness-aware extensions of PCA correct this disparity but require group labels as input. We address the logi...",
       "venue": "arXiv",
-      "date": "2026-09-18",
-      "arxiv_id": "2609.22083v1",
-      "url": "https://arxiv.org/abs/2609.22083v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.22083v1.pdf",
+      "date": "2026-09-21",
+      "arxiv_id": "2609.24556v1",
+      "url": "https://arxiv.org/abs/2609.24556v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.24556v1.pdf",
       "categories": [
-        "cs.CV"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "BrainWideBench: Benchmarking large-scale pretraining and across-animal transfer in multi-region neural recordings",
-      "authors": "Alexandre Andre, Shivashriganesh P. Mahato, Vinam Arora et al.",
-      "abstract": "Advances in large-scale neural recording have made it possible to collect data across many animals and distributed brain regions, raising the question of whether this scale can be exploited to learn general-purpose neural representations transferable across diverse downstream tasks. Yet, progress to...",
-      "venue": "arXiv",
-      "date": "2026-09-18",
-      "arxiv_id": "2609.22064v1",
-      "url": "https://arxiv.org/abs/2609.22064v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.22064v1.pdf",
-      "categories": [
-        "cs.LG",
-        "q-bio.NC"
+        "stat.ML",
+        "cs.LG"
       ],
       "type": "benchmark",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "SeeQ: Training Generalist Value Functions for Long-Horizon Robotic Manipulation",
-      "authors": "Saksham Singh, Zheyuan Hu, Max Sobol Mark et al.",
-      "abstract": "Despite rapid progress, generalist robot policies remain brittle on complex, long-horizon tasks that comprise multiple stages or require repeated attempts and deliberation on the same underlying stage before success. Q-value functions can improve these policies by ranking candidate actions or guidin...",
+      "title": "Beyond Point Prediction: Artificial Representative Trees with Uncertainty",
+      "authors": "Lea L. Mairhöfer, Silke Szymczak, Björn-Hergen Laabs et al.",
+      "abstract": "Random forests (RFs) predict well but are opaque, whereas single decision trees are interpretable but unstable. Artificial representative trees (ARTs) were developed as interpretable surrogate models for RFs, but their use as standalone prediction models with uncertainty quantification has not been ...",
       "venue": "arXiv",
-      "date": "2026-09-18",
-      "arxiv_id": "2609.22085v1",
-      "url": "https://arxiv.org/abs/2609.22085v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.22085v1.pdf",
+      "date": "2026-09-21",
+      "arxiv_id": "2609.24528v1",
+      "url": "https://arxiv.org/abs/2609.24528v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.24528v1.pdf",
       "categories": [
-        "cs.RO"
+        "stat.ML",
+        "cs.LG"
       ],
       "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "LIMBO: Learning and Internalizing Model-Free Barrier Objectives for Agile and Safe Whole-Body Control",
-      "authors": "Jake Gonzales, Arturo Flores Alvarez, Yu-Ming Chen et al.",
-      "abstract": "Safe whole-body control requires coordinating collision avoidance and balance under high-dimensional, nonlinear dynamics--making safety certificates difficult to design and reuse across behaviors. We present LIMBO, a framework for synthesizing a state-action control barrier function and distilling i...",
+      "title": "Smoothness as a Constraint for Stable Humanoid Locomotion",
+      "authors": "Utsav Panchal, Denis Kleyko, Unal Artan et al.",
+      "abstract": "Embodied AI systems, particularly humanoid robots deployed in real world scenarios require whole-body control policies that are both task-responsive and physically smooth. However, smoothness is not uniform across the body: lower body must remain sufficiently reactive, while the upper body must be t...",
       "venue": "arXiv",
-      "date": "2026-09-18",
-      "arxiv_id": "2609.22075v1",
-      "url": "https://arxiv.org/abs/2609.22075v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.22075v1.pdf",
+      "date": "2026-09-21",
+      "arxiv_id": "2609.24552v1",
+      "url": "https://arxiv.org/abs/2609.24552v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.24552v1.pdf",
       "categories": [
         "cs.RO"
       ],
+      "type": "ai",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "MIRA: Real-Time Full-Duplex Human-Robot Interaction for Embodied Companions",
+      "authors": "Lijian Lin, Ye Zhu, Fan Zhang et al.",
+      "abstract": "Real-time embodied companion interaction requires a robot to infer user intent from streaming speech, generate timely responses, and execute expressive, interruptible motions. Existing systems typically decouple dialogue orchestration from gesture synthesis, relying on offline motion generation from...",
+      "venue": "arXiv",
+      "date": "2026-09-21",
+      "arxiv_id": "2609.24547v1",
+      "url": "https://arxiv.org/abs/2609.24547v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.24547v1.pdf",
+      "categories": [
+        "cs.RO"
+      ],
+      "type": "ai",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Blind Thermodynamic Ontology Discovery from Anonymous Experiments",
+      "authors": "Linzhe Zhang, Changming Xu",
+      "abstract": "Before a machine learning model can learn a thermodynamic equation of state, it must discover what its measurements represent: which channels scale with system size, which are intensive conjugates, how sectors pair through contact, and which potential governs stability. When sensors expose only an u...",
+      "venue": "arXiv",
+      "date": "2026-09-20",
+      "arxiv_id": "2609.23387v1",
+      "url": "https://arxiv.org/abs/2609.23387v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.23387v1.pdf",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
       "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Bayesian Filtering in Physical Systems via Test-time Trained Flow Matching",
+      "authors": "Ruiqi Feng, Chongyi Wang, Tao Zhang et al.",
+      "abstract": "Bayesian filtering provides a principled framework for online state estimation under uncertainty, yet its application to systems with high-dimensional states and complicated posterior distributions remains challenging. Recent generative models, such as flow matching, have shown potential in Bayesian...",
+      "venue": "arXiv",
+      "date": "2026-09-20",
+      "arxiv_id": "2609.23383v1",
+      "url": "https://arxiv.org/abs/2609.23383v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.23383v1.pdf",
+      "categories": [
+        "stat.ML",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "ProxyBuild: Text-Guided Structured 3D Building Generation with Mesh-Anchored Procedural Proxies",
+      "authors": "Xiang Tang, Ruotong Li, Xiaopeng Fan",
+      "abstract": "Text-guided 3D building generation holds tremendous application potential, yet existing generative models typically output inseparable single meshes or non-interactive rendered representations. While procedural modeling can generate editable buildings with hierarchical structures, rule authoring is ...",
+      "venue": "arXiv",
+      "date": "2026-09-20",
+      "arxiv_id": "2609.23386v1",
+      "url": "https://arxiv.org/abs/2609.23386v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.23386v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.GR"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "LiteTex-GS: Fast and Lightweight Texturing for Gaussian Splatting",
+      "authors": "Zhiwei Li, Yijia Guo, Yishi Lu et al.",
+      "abstract": "Gaussian Splatting has enabled real-time novel view synthesis, but its tightly coupled geometry and appearance representation often require a large number of primitives to reproduce high-frequency texture details, leading to substantial memory and optimization costs. Recent textured 2D Gaussian meth...",
+      "venue": "arXiv",
+      "date": "2026-09-20",
+      "arxiv_id": "2609.23380v1",
+      "url": "https://arxiv.org/abs/2609.23380v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.23380v1.pdf",
+      "categories": [
+        "cs.CV"
+      ],
+      "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     }

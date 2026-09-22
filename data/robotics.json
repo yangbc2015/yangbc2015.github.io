@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-21",
+  "last_updated": "2026-09-22",
   "count": 200,
   "items": [
     {
@@ -19,6 +19,112 @@
       "summary": "[重磅发现：GPT-6实现 具 身 智 能 突破，中国如何打具身防卫战？",
       "url": "http://36kr.com/p/3986303263390466",
       "date": "2026-09-21",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "Identity Continuity in Long-Term Embodied AI Relationships: From Agent-Specific Identity Representation to Identity-Continuity Appraisal",
+      "summary": "Long-term embodied AI will undergo learning, model updates, memory compression, hardware repair, and migration across embodiments. For users who have formed sustained relationships with such systems, these changes raise not only a problem of product ...",
+      "url": "https://arxiv.org/abs/2609.23356v1",
+      "date": "2026-09-20",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.23356v1",
+      "authors": "Zijian Ru",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "BiView-Touch: Learning Bimanual Tactile Representations by Cross-Hand Completion",
+      "summary": "Bimanual interaction produces complementary tactile views of the same physical process, yet existing tactile representation learning largely models the two hands independently or combines them only for downstream prediction, leaving their cross-hand ...",
+      "url": "https://arxiv.org/abs/2609.23352v1",
+      "date": "2026-09-20",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.23352v1",
+      "authors": "Chenxin Liang, Youchen Lai et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Manipulation Feasible Navigation Among Movable Obstacles with Discrete Contact Pushing",
+      "summary": "In environments with large movable obstacles, detour-only navigation can be inefficient or even infeasible, while obstacle interaction requires reasoning about navigation benefit, feasible placement, and executable manipulation. We present a hierarch...",
+      "url": "https://arxiv.org/abs/2609.23312v1",
+      "date": "2026-09-20",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.23312v1",
+      "authors": "Shaohu Wang, Aiguo Song et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Shared Execution-Clock Drifting Policy for Dynamic Precision Manipulation",
+      "summary": "Manipulation under time constraints requires both accurate actions and an execution rhythm that matches the evolving scene. This becomes critical when a robot must intercept moving objects or complete a sequence of adjustments before a deadline. Alth...",
+      "url": "https://arxiv.org/abs/2609.23305v1",
+      "date": "2026-09-20",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.23305v1",
+      "authors": "Zhenchen Dong, Qingran Wu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Safety-Critical Control under Uncertainty via Adaptive Conformal Quantile Prediction Intervals",
+      "summary": "Safety-critical control under uncertainty requires uncertainty representations that are both statistically valid (for certifiable performance) and compatible with enforceable safety constraints. However, existing methods often assume particular distr...",
+      "url": "https://arxiv.org/abs/2609.23280v1",
+      "date": "2026-09-20",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.23280v1",
+      "authors": "Hao Zhou, Yanze Zhang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "启元机器人牵手苏州睿芯，具身智能算力进入拼架构时代",
+      "summary": "启元机器人牵手苏州睿芯，具身智能算力进入拼架构时代",
+      "url": "http://36kr.com/p/3991470804876288",
+      "date": "2026-09-20",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "2026国际具身智能技能大赛全球高校赛队招募中，参赛即认证，优胜获创投对接。",
+      "summary": "2026国际具身智能技能大赛全球高校赛队招募中，参赛即认证，优胜获创投对接。",
+      "url": "http://36kr.com/p/3988391975009024",
+      "date": "2026-09-18",
       "source": "36氪",
       "category": "具身智能",
       "type": "news",
@@ -105,19 +211,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "2026国际具身智能技能大赛全球高校赛队招募中，参赛即认证，优胜获创投对接。",
-      "summary": "2026国际具身智能技能大赛全球高校赛队招募中，参赛即认证，优胜获创投对接。",
-      "url": "http://36kr.com/p/3988391975009024",
-      "date": "2026-09-18",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
       ]
     },
     {
@@ -2952,93 +3045,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "$(\\text{DNN})^2$: Doubly Non-Negative Relaxations for Deep Neural Networks",
-      "summary": "Existing linear program (LP) and semidefinite program (SDP) relaxations for rectified linear unit (ReLU) neural network (NN) verification yield overly-conservative safety guarantees due to significant relaxation gaps. While the completely positive pr...",
-      "url": "https://arxiv.org/abs/2608.24743v1",
-      "date": "2026-08-25",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.24743v1",
-      "authors": "Hanna Jiamei Zhang, Alan Papalia et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "One-Shot Learning from Demonstration of Contact-Rich Robotic Manipulation by Identifying Physical Interactions",
-      "summary": "Learning from Demonstration (LfD) allows robots to learn manipulation tasks directly from humans, thereby supporting the versatile application of robots. Most LfD methods do not explicitly model the physical interactions between a robot and its envir...",
-      "url": "https://arxiv.org/abs/2608.24741v1",
-      "date": "2026-08-25",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.24741v1",
-      "authors": "A. H. G. Overbeek, H. van der Kooij et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Fiber Bragg Grating Whiskers for Bioinspired Hydrodynamic Perception on Underwater Robots",
-      "summary": "Harbor seals track hydrodynamic trails with their vibrissae, enabling passive perception of moving targets in dark or turbid water. Inspired by this capability, we present compact fiber Bragg grating (FBG) whiskers for underwater robots. Like seal wh...",
-      "url": "https://arxiv.org/abs/2608.24724v1",
-      "date": "2026-08-25",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.24724v1",
-      "authors": "Hao Li, Tianyu Tu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "武伟谈以物理为中心的具身智能世界模型新范式",
-      "summary": "武伟谈以物理为中心的具身智能世界模型新范式",
-      "url": "http://36kr.com/p/3953160254717316",
-      "date": "2026-08-24",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "后训练将成为具身智能在具体场景落地的重要新范式。",
-      "summary": "后训练将成为具身智能在具体场景落地的重要新范式。",
-      "url": "http://36kr.com/p/3950478429322629",
-      "date": "2026-08-24",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "具身智能，开始当消费品卖了",
-      "summary": "具身智能，开始当消费品卖了",
-      "url": "http://36kr.com/p/3952295622524040",
-      "date": "2026-08-24",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
       ]
     }
   ]
