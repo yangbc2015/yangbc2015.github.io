@@ -1,9 +1,33 @@
 {
   "last_updated": "2026-09-22",
   "count": 200,
-  "history_count": 204,
+  "history_count": 202,
   "retention_days": 30,
   "items": [
+    {
+      "title": "阿里：三年之内会出现一个原生的全模态统一生成模型，未来体验将不再受限于模态边界。",
+      "link": "https://www.qbitai.com/?s=阿里：三年之内会出现",
+      "summary": "阿里：三年之内会出现一个原生的全模态统一生成模型，未来体验将不再受限于模态边界。...",
+      "date": "2026-09-22",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "从真实工厂到产品复制，再到生态和下一批机会，两位嘉宾会把工业AI从「能用」走向「规模化」的关键问题一层层拆开。",
+      "link": "https://www.qbitai.com/?s=从真实工厂到产品复制",
+      "summary": "从真实工厂到产品复制，再到生态和下一批机会，两位嘉宾会把工业AI从「能用」走向「规模化」的关键问题一层层拆开。...",
+      "date": "2026-09-22",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
     {
       "title": "9月22日，在2026杭州云栖大会企业级Agent实践峰会上，基元律动联合创始人兼CTO韩凯发表演讲《从Harness到RSI飞轮》。",
       "link": "https://www.qbitai.com/?s=9月22日，在202",
@@ -29,6 +53,18 @@
       ]
     },
     {
+      "title": "*   [Latest](http://techcrunch.com/latest/)",
+      "link": "https://techcrunch.com/category/artificial-intelligence/",
+      "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
+      "date": "2026-09-22",
+      "source": "TechCrunch",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "Artificial Intelligence"
+      ]
+    },
+    {
       "title": "9月22日， 2026云栖大会开幕，阿里巴巴公布大模型最新进展。",
       "link": "https://www.qbitai.com/?s=9月22日， 202",
       "summary": "9月22日， 2026云栖大会开幕，阿里巴巴公布大模型最新进展。...",
@@ -50,18 +86,6 @@
       "tags": [
         "AI",
         "人工智能"
-      ]
-    },
-    {
-      "title": "Published Time: Thu, 08 May 2025 23:15:48 GMT",
-      "link": "https://techcrunch.com/category/artificial-intelligence/",
-      "summary": "Published Time: Thu, 08 May 2025 23:15:48 GMT...",
-      "date": "2026-09-22",
-      "source": "TechCrunch",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "Artificial Intelligence"
       ]
     },
     {
@@ -2374,30 +2398,6 @@
       "summary": "自主研究系统的上限，不只取决于模型有多聪明，也取决于系统能否分辨什么是新证据，什么只是一次偶然的高分。...",
       "date": "2026-09-01",
       "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "8月26日，2026年“数据要素×”大赛浙江赛区决赛落下帷幕。",
-      "link": "https://www.qbitai.com/?s=8月26日，2026",
-      "summary": "8月26日，2026年“数据要素×”大赛浙江赛区决赛落下帷幕。...",
-      "date": "2026-09-01",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "ECCV社交副本开启！来AI Talent Night，聊聊新技术、见见新老朋友",
-      "link": "https://www.jiqizhixin.com/search/articles/ECCV社交副本开启！来AI ",
-      "summary": "ECCV社交副本开启！来AI Talent Night，聊聊新技术、见见新老朋友...",
-      "date": "2026-08-31",
-      "source": "机器之心",
       "type": "industry",
       "tags": [
         "AI",
