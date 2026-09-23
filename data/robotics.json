@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-09-22",
+  "last_updated": "2026-09-23",
   "count": 200,
   "items": [
     {
       "title": "[数据流架构进军 具 身 智 能：高光D35为何成为启元机器人的算力伙伴",
       "summary": "[数据流架构进军 具 身 智 能：高光D35为何成为启元机器人的算力伙伴",
       "url": "http://36kr.com/p/3991470804876288",
-      "date": "2026-09-22",
+      "date": "2026-09-23",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
@@ -15,10 +15,116 @@
       ]
     },
     {
+      "title": "MAVP: Map-Aware Visuomotor Policies for Mobile Manipulation",
+      "summary": "Successful mobile manipulation requires coordinated base and arm motion while maintaining accurate spatial positioning. However, demonstration-trained policies can struggle to realise the intended base motion reliably, leading to spatial misalignment...",
+      "url": "https://arxiv.org/abs/2609.26378v1",
+      "date": "2026-09-22",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.26378v1",
+      "authors": "Jinhe Tang, Ruixiao Dai et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Hierarchical Floorplan-Guided Vision-Language Exploration for Embodied Question Answering",
+      "summary": "Embodied Question Answering (EQA) requires an agent to explore a previously unseen environment, gather relevant information, and answer questions about the scene. Recent approaches leverage Vision-Language Models (VLMs) together with semantic maps or...",
+      "url": "https://arxiv.org/abs/2609.26360v1",
+      "date": "2026-09-22",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.26360v1",
+      "authors": "Albert Gassol Puigjaner, Kostas Alexis",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Leveraging Vision-Based Point Cloud Map Priors for Camera-Based 3D Object Detection and Online Vectorized HD Mapping",
+      "summary": "Camera-based 3D object detection and online vectorized HD mapping provide compact scene representations for autonomous driving, but both depend on accurate metric geometry and remain limited by depth ambiguity. Over long-term deployment, observations...",
+      "url": "https://arxiv.org/abs/2609.26325v1",
+      "date": "2026-09-22",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.26325v1",
+      "authors": "Markus Käppeler, Rohit Mohan et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "ArborSplat: Online Semantic Gaussian Splatting SLAM for Orchards",
+      "summary": "Orchard robots need maps that preserve small but semantically important structures such as trunks, trellises, and fruit. 3D Gaussian Splatting (3DGS) SLAM achieves high photometric fidelity. However, its optimization remains appearance-driven, and tr...",
+      "url": "https://arxiv.org/abs/2609.26315v1",
+      "date": "2026-09-22",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.26315v1",
+      "authors": "Alessandro Masini, Matteo Frosi et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "TriWorldBench: A Tri-View Consistency Perspective on Embodied World Models",
+      "summary": "Embodied world models predict the outcomes of robot actions to support learning and planning. For robots equipped with head and wrist cameras, this requires complementary views: the head view captures the overall task, while wrist views reveal local ...",
+      "url": "https://arxiv.org/abs/2609.26314v1",
+      "date": "2026-09-22",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.26314v1",
+      "authors": "Xuanyi Liu, Haofeng Wang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
       "title": "[重磅发现：GPT-6实现 具 身 智 能 突破，中国如何打具身防卫战？",
       "summary": "[重磅发现：GPT-6实现 具 身 智 能 突破，中国如何打具身防卫战？",
       "url": "http://36kr.com/p/3986303263390466",
       "date": "2026-09-22",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "具身智能遇数据瓶颈，“造治用通”破局，多赛道存商机",
+      "summary": "具身智能遇数据瓶颈，“造治用通”破局，多赛道存商机",
+      "url": "http://36kr.com/p/3993043256514439",
+      "date": "2026-09-21",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "具身智能的竞争，正在从“机器人本体”进一步向“大脑”迁移”。",
+      "summary": "具身智能的竞争，正在从“机器人本体”进一步向“大脑”迁移”。",
+      "url": "http://36kr.com/p/3991407916137220",
+      "date": "2026-09-21",
       "source": "36氪",
       "category": "具身智能",
       "type": "news",
@@ -2951,111 +3057,6 @@
       "tags": [
         "机器人",
         "具身智能"
-      ]
-    },
-    {
-      "title": "他们今年狂揽150 亿元融资，扛起了具身智能“学院派”的大旗",
-      "summary": "他们今年狂揽150 亿元融资，扛起了具身智能“学院派”的大旗",
-      "url": "http://36kr.com/p/3957428318928264",
-      "date": "2026-08-27",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "[DeepMind机器人团队创业，用后训练探索 具 身 智 能 落地路径",
-      "summary": "[DeepMind机器人团队创业，用后训练探索 具 身 智 能 落地路径",
-      "url": "http://36kr.com/p/3950478429322629",
-      "date": "2026-08-27",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
-      ]
-    },
-    {
-      "title": "VBVR-Pro: A Scalable and Verifiable Suite for Native Visual Reasoning",
-      "summary": "Native visual reasoning treats visual generation as the medium of reasoning itself: visual states (i.e. images and videos) are not merely inputs to be understood or outputs to be rendered, but first-class substrates for problem solving beyond languag...",
-      "url": "https://arxiv.org/abs/2608.26105v1",
-      "date": "2026-08-26",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.26105v1",
-      "authors": "Junxiang Xu, Ruisi Wang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Zero-WAM: In-Context World-Action Modeling from Human Videos for Open-Ended Task Generalization",
-      "summary": "Zero-shot cross-task generalization, where a policy must execute manipulation tasks never seen during training, remains a central challenge in robot learning. In large language models, a novel task can be performed simply by specifying it in the cont...",
-      "url": "https://arxiv.org/abs/2608.26103v1",
-      "date": "2026-08-26",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.26103v1",
-      "authors": "Jiaming Zhou, Qihang Zhang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Fast Generative Grasping via Lie Group-Constrained MeanFlow",
-      "summary": "Grasp synthesis is a core task in robotic manipulation, for which the solution typically forms a multimodal distribution rather than a point estimate. Generative robotic grasping aims to learn this distribution with deep generative models such as dif...",
-      "url": "https://arxiv.org/abs/2608.26076v1",
-      "date": "2026-08-26",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.26076v1",
-      "authors": "S. Talha Bukhari, Yi Wei et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Gating Before Commitment: Anticipating Intent Divergence to Prevent Post-Interaction Decision Failures in Autonomous Driving",
-      "summary": "Intent misinterpretation during vehicle interactions causes recurring planning failures. We study a decision layer in which a language-guided intent module reads structured descriptors, computes a smoothed intent-geometry divergence score, and gates ...",
-      "url": "https://arxiv.org/abs/2608.26074v1",
-      "date": "2026-08-26",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.26074v1",
-      "authors": "Cong Xu, Ravi Sankar",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "VirTooS: A ROS 2 - Unity Virtualization Toolkit for Fleet Management of Autonomous Mobile Robots",
-      "summary": "In this paper, we present VirTooS, a Python/C# toolkit designed to implement fleet-management tasks on teams of Autonomous Mobile Robots (AMRs). VirTooS leverages the Robot Operating System (ROS) 2 and Unity game engine to provide realistic, scalable...",
-      "url": "https://arxiv.org/abs/2608.26066v1",
-      "date": "2026-08-26",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.26066v1",
-      "authors": "Andrea Drudi, Lorenzo Pichierri et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
       ]
     }
   ]

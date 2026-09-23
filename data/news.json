@@ -1,9 +1,93 @@
 {
-  "last_updated": "2026-09-22",
+  "last_updated": "2026-09-23",
   "count": 200,
-  "history_count": 200,
+  "history_count": 205,
   "retention_days": 30,
   "items": [
+    {
+      "title": "Published Time: Thu, 08 May 2025 23:15:48 GMT",
+      "link": "https://techcrunch.com/category/artificial-intelligence/",
+      "summary": "Published Time: Thu, 08 May 2025 23:15:48 GMT...",
+      "date": "2026-09-23",
+      "source": "TechCrunch",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "Artificial Intelligence"
+      ]
+    },
+    {
+      "title": "Markdown Content:",
+      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+      "summary": "Markdown Content:...",
+      "date": "2026-09-22",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "虎鲸文娱推出“鲸锐AI”影视制作与管理平台，打造文娱产业新基建",
+      "link": "https://www.jiqizhixin.com/search/articles/虎鲸文娱推出“鲸锐AI”影视制",
+      "summary": "虎鲸文娱推出“鲸锐AI”影视制作与管理平台，打造文娱产业新基建...",
+      "date": "2026-09-22",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "扫描全能王亮相2026云栖大会，一句话让“糊图”变高质量报告",
+      "link": "https://www.jiqizhixin.com/search/articles/扫描全能王亮相2026云栖大会",
+      "summary": "扫描全能王亮相2026云栖大会，一句话让“糊图”变高质量报告...",
+      "date": "2026-09-22",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "全球内存还在涨，合肥长鑫量产新一代DRAM",
+      "link": "https://www.jiqizhixin.com/search/articles/全球内存还在涨，合肥长鑫量产新",
+      "summary": "全球内存还在涨，合肥长鑫量产新一代DRAM...",
+      "date": "2026-09-22",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "清华与斯坦福团队在LLM内部发现两种神经元，定位奖励子系统",
+      "link": "https://www.jiqizhixin.com/search/articles/清华与斯坦福团队在LLM内部发",
+      "summary": "清华与斯坦福团队在LLM内部发现两种神经元，定位奖励子系统...",
+      "date": "2026-09-22",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "用GPT-6 Astra就能直接控制机器人？可具身真机没那么简单",
+      "link": "https://www.jiqizhixin.com/search/articles/用GPT-6 Astra就能直",
+      "summary": "用GPT-6 Astra就能直接控制机器人？可具身真机没那么简单...",
+      "date": "2026-09-22",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
     {
       "title": "阿里：三年之内会出现一个原生的全模态统一生成模型，未来体验将不再受限于模态边界。",
       "link": "https://www.qbitai.com/?s=阿里：三年之内会出现",
@@ -50,18 +134,6 @@
       "tags": [
         "AI",
         "人工智能"
-      ]
-    },
-    {
-      "title": "*   [Latest](http://techcrunch.com/latest/)",
-      "link": "https://techcrunch.com/category/artificial-intelligence/",
-      "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
-      "date": "2026-09-22",
-      "source": "TechCrunch",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "Artificial Intelligence"
       ]
     },
     {
@@ -262,18 +334,6 @@
       "summary": "9月18日，在第一届中国网络空间安全大会上，《网络安全人才实战能力报告—AI赋能篇》正式发布...",
       "date": "2026-09-21",
       "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Markdown Content:",
-      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-      "summary": "Markdown Content:...",
-      "date": "2026-09-20",
-      "source": "机器之心",
       "type": "industry",
       "tags": [
         "AI",
@@ -2338,66 +2398,6 @@
       "summary": "大模型的逐字生成模式，正在拖慢你的Agent，有人跑出了5倍提速...",
       "date": "2026-09-01",
       "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "AI到底能不能自己造AI？别吵了，有人做出来了",
-      "link": "https://www.jiqizhixin.com/search/articles/AI到底能不能自己造AI？别吵",
-      "summary": "AI到底能不能自己造AI？别吵了，有人做出来了...",
-      "date": "2026-09-01",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Nature子刊｜寻找化学反应最难捕捉的瞬间，上智院新框架生成复杂三维过渡态",
-      "link": "https://www.jiqizhixin.com/search/articles/Nature子刊｜寻找化学反应",
-      "summary": "Nature子刊｜寻找化学反应最难捕捉的瞬间，上智院新框架生成复杂三维过渡态...",
-      "date": "2026-09-01",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Kimi、WorkBuddy、MiniMax能力包，招行这张信用卡全包了，AI办公新入口来了！",
-      "link": "https://www.jiqizhixin.com/search/articles/Kimi、WorkBuddy、",
-      "summary": "Kimi、WorkBuddy、MiniMax能力包，招行这张信用卡全包了，AI办公新入口来了！...",
-      "date": "2026-09-01",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "灵犀智涌用一台由Demo级本体组装而成的机器人，成为工业场景赛除行业头部企业外唯一获奖的机器人公司。",
-      "link": "https://www.qbitai.com/?s=灵犀智涌用一台由De",
-      "summary": "灵犀智涌用一台由Demo级本体组装而成的机器人，成为工业场景赛除行业头部企业外唯一获奖的机器人公司。...",
-      "date": "2026-09-01",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "自主研究系统的上限，不只取决于模型有多聪明，也取决于系统能否分辨什么是新证据，什么只是一次偶然的高分。",
-      "link": "https://www.qbitai.com/?s=自主研究系统的上限，",
-      "summary": "自主研究系统的上限，不只取决于模型有多聪明，也取决于系统能否分辨什么是新证据，什么只是一次偶然的高分。...",
-      "date": "2026-09-01",
-      "source": "量子位",
       "type": "industry",
       "tags": [
         "AI",
