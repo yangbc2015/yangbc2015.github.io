@@ -3,6 +3,19 @@
   "count": 200,
   "items": [
     {
+      "title": "[重磅发现：GPT-6实现 具 身 智 能 突破，中国如何打具身防卫战？",
+      "summary": "[重磅发现：GPT-6实现 具 身 智 能 突破，中国如何打具身防卫战？",
+      "url": "http://36kr.com/p/3986303263390466",
+      "date": "2026-09-23",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
       "title": "[数据流架构进军 具 身 智 能：高光D35为何成为启元机器人的算力伙伴",
       "summary": "[数据流架构进军 具 身 智 能：高光D35为何成为启元机器人的算力伙伴",
       "url": "http://36kr.com/p/3991470804876288",
@@ -12,6 +25,86 @@
       "type": "news",
       "tags": [
         "机器人"
+      ]
+    },
+    {
+      "title": "φ-RIE: From Photorealistic Reconstruction to Interactive Environments",
+      "summary": "3D Gaussian Splatting (3DGS) can reconstruct a captured scene photorealistically, but the resulting representation does not by itself support physical interaction. Robot simulation instead requires object-level change, \\textit{i.e.}, objects must mov...",
+      "url": "https://arxiv.org/abs/2609.26795v1",
+      "date": "2026-09-22",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.26795v1",
+      "authors": "Runyi Yang, Deheng Zhang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "DreamStream: Towards Policy-Oriented Generative Simulation for End-to-End Driving",
+      "summary": "Faithfully evaluating end-to-end driving policies in simulation requires observations that are not merely photo-realistic, but preserve the scene features a policy relies on to make decisions. Existing platforms, however, exhibit a sim-to-real visual...",
+      "url": "https://arxiv.org/abs/2609.26792v1",
+      "date": "2026-09-22",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.26792v1",
+      "authors": "Ziyang Leng, Sicheng Mo et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "TM-APR: Thermal Temporal-Memory Localization via Analytic Online Adaptation",
+      "summary": "Thermal Visual Place Recognition (Thermal VPR) maps camera observations to metric poses within a mapped environment, serving as a prerequisite for autonomous navigation. However, thermal VPR suffers from severe environmental dependence, heavy online ...",
+      "url": "https://arxiv.org/abs/2609.26766v1",
+      "date": "2026-09-22",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.26766v1",
+      "authors": "Yanshuo Bai, Kanji Tanaka",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Underwater Navigation in Unsteady Flows Using Measurement Histories from a Single Sensing Unit",
+      "summary": "Spatial flow measurements support underwater navigation, but distributed sensing is constrained by robot size and sensor layout. We use a causal observer to estimate current lateral velocities from a finite history of measurements collected by a sing...",
+      "url": "https://arxiv.org/abs/2609.26753v1",
+      "date": "2026-09-22",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.26753v1",
+      "authors": "Linhao Jin, Qimin Feng et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Imperfection for Precision: Upcycling Imperfect Data for High-Precision Robotic Manipulation",
+      "summary": "Training vision-language-action (VLA) models for high-precision manipulation typically requires task-specific, high-quality data (e.g., teleoperation), which is slow and expensive to collect. To reduce this burden without compromising manipulation pr...",
+      "url": "https://arxiv.org/abs/2609.26672v1",
+      "date": "2026-09-22",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.26672v1",
+      "authors": "Hao Wei, Yang Liu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
       ]
     },
     {
@@ -92,19 +185,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "[重磅发现：GPT-6实现 具 身 智 能 突破，中国如何打具身防卫战？",
-      "summary": "[重磅发现：GPT-6实现 具 身 智 能 突破，中国如何打具身防卫战？",
-      "url": "http://36kr.com/p/3986303263390466",
-      "date": "2026-09-22",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
       ]
     },
     {
@@ -2983,80 +3063,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "Embodied Scene Rearrangement Planning",
-      "summary": "This paper introduces Embodied Scene Rearrangement Planning (ESRP), a novel task requiring embodied agents to rearrange furniture in 3D scenes to match a target configuration using only egocentric observations and a top-down target layout. Unlike pri...",
-      "url": "https://arxiv.org/abs/2608.27371v1",
-      "date": "2026-08-27",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.27371v1",
-      "authors": "Canzhi Chen, Zan Wang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "TADP: Task-Aware Deformable Prediction for Single-Stage 3D Object Detection",
-      "summary": "Most single-stage 3D object detectors complete different tasks with the same extracted features. Nevertheless, it is impossible to project features into a common space that is adaptive for all the tasks. We present a novel task-aware deformable predi...",
-      "url": "https://arxiv.org/abs/2608.27282v1",
-      "date": "2026-08-27",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.27282v1",
-      "authors": "Su Wang, Yaochen Li et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Marine Autonomous Vehicle Fleet Scheduling to Maximise Scientific Impact",
-      "summary": "The marine science community increasingly relies on Marine Autonomous Vehicles (MAVs) to collect the critical environmental data required to understand global ocean systems. However, as these operations scale, manually routing and planning large auto...",
-      "url": "https://arxiv.org/abs/2608.27271v1",
-      "date": "2026-08-27",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.27271v1",
-      "authors": "Mehdi El Krari, Jonathan Smith et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "资本市场已不再只为具身的“泛化想象力”直接付费。",
-      "summary": "资本市场已不再只为具身的“泛化想象力”直接付费。",
-      "url": "http://36kr.com/p/3957491259833481",
-      "date": "2026-08-27",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "没有哪个赛道比具身智能更喧嚣、也更矛盾。",
-      "summary": "没有哪个赛道比具身智能更喧嚣、也更矛盾。",
-      "url": "http://36kr.com/p/3957410176046981",
-      "date": "2026-08-27",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
       ]
     }
   ]
