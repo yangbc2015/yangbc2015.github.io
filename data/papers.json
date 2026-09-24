@@ -1,18 +1,35 @@
 {
   "last_updated": "2026-09-24",
-  "count": 8,
+  "count": 7,
   "items": [
     {
-      "title": "Controlled Attribute-Specific Summarization of Interrogative Dialogues",
-      "authors": "A Aditya Bhardwaj, Arjit Singh Arora, Md Shad Akhtar",
-      "abstract": "Effective summarization of interrogative dialogues is a critical task in forensic and investigative settings, requiring high factual accuracy, coherence, and attribute-specific relevance. In this work, we introduce CASPER, a novel Chain-of-Thought Attribute-Specific Prompting for Evaluative Summariz...",
+      "title": "StudentBench: AI and human tutoring yield equivalent GRE learning gains",
+      "authors": "Curtis Northcutt, Inaara Hasmani, Kevin Feng et al.",
+      "abstract": "Artificial intelligence offers an unprecedented opportunity to augment human capabilities, yet progress at the frontier has focused primarily on advancing model capabilities. We introduce StudentBench, a suite of AI teaching evaluations and a public platform that enables large-scale data collection ...",
       "venue": "arXiv",
       "date": "2026-09-23",
-      "arxiv_id": "2609.28004v1",
-      "url": "https://arxiv.org/abs/2609.28004v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.28004v1.pdf",
+      "arxiv_id": "2609.28470v1",
+      "url": "https://arxiv.org/abs/2609.28470v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.28470v1.pdf",
       "categories": [
-        "cs.CL",
+        "cs.AI",
+        "cs.CY"
+      ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Where Should I Join? Robot Group Joining via Language-Guided Goal Prediction",
+      "authors": "Zilin Fang, Zishuo Wang, Gim Hee Lee et al.",
+      "abstract": "Social navigation typically assumes a specified goal and focuses on reaching it while respecting social conventions, whereas robot group joining requires predicting where to join based on the group's real-time activity and formation. This is a highly semantic task, yet an important capability for ap...",
+      "venue": "arXiv",
+      "date": "2026-09-23",
+      "arxiv_id": "2609.28467v1",
+      "url": "https://arxiv.org/abs/2609.28467v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.28467v1.pdf",
+      "categories": [
+        "cs.RO",
         "cs.AI"
       ],
       "type": "nlp",
@@ -20,37 +37,37 @@
       "source": "arXiv"
     },
     {
-      "title": "Compliant with Local Controls, Collectively Discriminatory. A Governance Architecture for Multi-Agent AI in Regulated Finance",
-      "authors": "Jose Manuel de la Chica Rodriguez, Juan Manuel Vera Diaz, Pablo Delgado Romero",
-      "abstract": "Financial institutions are beginning to deploy agentic workflows in credit, fraud, collections, compliance, and operational control. Governance remains largely component-centric: each model or agent is specified, tested, authorized, and monitored locally. That is insufficient when institutional risk...",
+      "title": "Contrastive Learning for Authorship Verification",
+      "authors": "Peter Kirby",
+      "abstract": "Our results show that contrastive learning outperforms a classification-based approach to authorship verification under the tested settings. We identify loss function, batch size, training duration, pre-trained model, input context length, and random text span data augmentation as important factors ...",
       "venue": "arXiv",
       "date": "2026-09-23",
-      "arxiv_id": "2609.27994v1",
-      "url": "https://arxiv.org/abs/2609.27994v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.27994v1.pdf",
-      "categories": [
-        "cs.MA",
-        "cs.AI"
-      ],
-      "type": "ai",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Evaluating Open-Weight LLMs for Turkish Domain Documents Under Retrieval and Hardware Constraints",
-      "authors": "Imtiaz Ul Hassan, Öykü Akbulut, Onur Kaya et al.",
-      "abstract": "Most Turkish-capable large language models (LLMs) are evaluated using general-purpose benchmarks rather than long, structurally complex domain documents. This paper evaluates five open-weight 7B-8B models for Turkish document question answering under a resource-constrained local deployment setting. ...",
-      "venue": "arXiv",
-      "date": "2026-09-23",
-      "arxiv_id": "2609.28007v1",
-      "url": "https://arxiv.org/abs/2609.28007v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.28007v1.pdf",
+      "arxiv_id": "2609.28471v1",
+      "url": "https://arxiv.org/abs/2609.28471v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.28471v1.pdf",
       "categories": [
         "cs.CL",
-        "cs.IR",
         "cs.LG"
       ],
       "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Can LLMs Reason About Runtime Behavior? A Repository-Level Dynamic Benchmark",
+      "authors": "Hamed Taherkhani, Mohammad Abdollahi, Melika Sepidband et al.",
+      "abstract": "Large language models (LLMs) are increasingly used in coding tasks, but their ability to reason about code execution remains unclear. Existing repository-level QA benchmarks mainly evaluate static code understanding and often rely on LLM-based evaluation, while execution-reasoning benchmarks are mos...",
+      "venue": "arXiv",
+      "date": "2026-09-23",
+      "arxiv_id": "2609.28449v1",
+      "url": "https://arxiv.org/abs/2609.28449v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.28449v1.pdf",
+      "categories": [
+        "cs.SE",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "type": "benchmark",
       "badge": "arxiv",
       "source": "arXiv"
     },
@@ -84,40 +101,6 @@
         "cs.CV"
       ],
       "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Contrastive Learning for Authorship Verification",
-      "authors": "Peter Kirby",
-      "abstract": "Our results show that contrastive learning outperforms a classification-based approach to authorship verification under the tested settings. We identify loss function, batch size, training duration, pre-trained model, input context length, and random text span data augmentation as important factors ...",
-      "venue": "arXiv",
-      "date": "2026-09-23",
-      "arxiv_id": "2609.28471v1",
-      "url": "https://arxiv.org/abs/2609.28471v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.28471v1.pdf",
-      "categories": [
-        "cs.CL",
-        "cs.LG"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Where Should I Join? Robot Group Joining via Language-Guided Goal Prediction",
-      "authors": "Zilin Fang, Zishuo Wang, Gim Hee Lee et al.",
-      "abstract": "Social navigation typically assumes a specified goal and focuses on reaching it while respecting social conventions, whereas robot group joining requires predicting where to join based on the group's real-time activity and formation. This is a highly semantic task, yet an important capability for ap...",
-      "venue": "arXiv",
-      "date": "2026-09-23",
-      "arxiv_id": "2609.28467v1",
-      "url": "https://arxiv.org/abs/2609.28467v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.28467v1.pdf",
-      "categories": [
-        "cs.RO",
-        "cs.AI"
-      ],
-      "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
