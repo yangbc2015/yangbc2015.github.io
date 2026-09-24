@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-09-23",
+  "last_updated": "2026-09-24",
   "count": 200,
   "items": [
     {
       "title": "[数据流架构进军 具 身 智 能：高光D35为何成为启元机器人的算力伙伴",
       "summary": "[数据流架构进军 具 身 智 能：高光D35为何成为启元机器人的算力伙伴",
       "url": "http://36kr.com/p/3991470804876288",
-      "date": "2026-09-23",
+      "date": "2026-09-24",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
@@ -15,10 +15,103 @@
       ]
     },
     {
+      "title": "Less Language, More Latents: Annotation-Efficient VLAs for Driving",
+      "summary": "Vision-language-action models (VLA) promise human-steerable autonomous driving, but their training is bottlenecked by the scarcity of frames paired with natural-language instructions: while camera streams and expert trajectories are logged at scale, ...",
+      "url": "https://arxiv.org/abs/2609.27747v1",
+      "date": "2026-09-23",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.27747v1",
+      "authors": "Alexey Zakharov, Kemal Oksuz et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "InfiNoVA: Infinite Novel View Augmentation for Viewpoint Invariant Robot Policies",
+      "summary": "Vision-Language-Action (VLA) policies often rely strongly on the camera viewpoints seen during training, causing substantial performance degradation when deployed from unseen perspectives. Collecting demonstrations from sufficiently diverse physical ...",
+      "url": "https://arxiv.org/abs/2609.27734v1",
+      "date": "2026-09-23",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.27734v1",
+      "authors": "Sai Puneeth Reddy Gottam, Elmar Rueckert et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "CoRelNav: Collaborative Relational Navigation for Multi-Robot Spatially Constrained Semantic Navigation",
+      "summary": "Spatially constrained semantic navigation requires robots to identify targets specified not only by semantic categories but also by relations to surrounding objects. In unknown environments, resolving such goals requires efficient exploration togethe...",
+      "url": "https://arxiv.org/abs/2609.27720v1",
+      "date": "2026-09-23",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.27720v1",
+      "authors": "Jinyu He, Zihao Mao et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Wave-Robust Passive AUV Localization Using FP-MUSIC",
+      "summary": "Localizing an autonomous underwater vehicle without pre-deployed seabed transponders, or direct access to onboard vehicle sensors remains a core challenge. We present a receiver-passive 3-D localization and spatial mapping system utilizing a single f...",
+      "url": "https://arxiv.org/abs/2609.27712v1",
+      "date": "2026-09-23",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.27712v1",
+      "authors": "Usama Saqib, Ola Rønning et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "DAVIO: Dense Monocular-Inertial SLAM with Feed-Forward Initialization and Pose-Conditioned Mapping",
+      "summary": "A camera and an IMU are the minimal sensor setup for metric localization and dense mapping, yet classical visual--inertial filters must wait for parallax before they start and then retain only sparse landmarks. Feed-forward geometry models, in contra...",
+      "url": "https://arxiv.org/abs/2609.27702v1",
+      "date": "2026-09-23",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.27702v1",
+      "authors": "Jaafar Mahmoud, Arthur Movsesyan et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
       "title": "[重磅发现：GPT-6实现 具 身 智 能 突破，中国如何打具身防卫战？",
       "summary": "[重磅发现：GPT-6实现 具 身 智 能 突破，中国如何打具身防卫战？",
       "url": "http://36kr.com/p/3986303263390466",
       "date": "2026-09-23",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "中国移动开源Open-RAIL，填补具身智能部署工程短板。",
+      "summary": "中国移动开源Open-RAIL，填补具身智能部署工程短板。",
+      "url": "http://36kr.com/p/3991299633019906",
+      "date": "2026-09-22",
       "source": "36氪",
       "category": "具身智能",
       "type": "news",
@@ -2977,92 +3070,6 @@
         "具身智能",
         "英伟达",
         "GR00T"
-      ]
-    },
-    {
-      "title": "智元机器人发布远征A2人形机器人，进入工业场景实测",
-      "summary": "智元机器人发布远征A2人形机器人，已在汽车工厂进行实际生产任务测试，展示零部件装配能力。",
-      "url": "https://www.zhiyuanrobot.com",
-      "date": "2026-08-28",
-      "source": "行业动态",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "人形机器人",
-        "智元机器人"
-      ]
-    },
-    {
-      "title": "波士顿动力Atlas机器人全面升级，电动版展现更强运动能力",
-      "summary": "波士顿动力发布全电动版Atlas机器人，相比液压版本运动更加流畅，可完成后空翻等复杂动作。",
-      "url": "https://bostondynamics.com/atlas",
-      "date": "2026-08-28",
-      "source": "行业动态",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "人形机器人",
-        "波士顿动力"
-      ]
-    },
-    {
-      "title": "具身智能如何进一步完成训练、部署和复用？",
-      "summary": "具身智能如何进一步完成训练、部署和复用？",
-      "url": "http://36kr.com/p/3957651086163077",
-      "date": "2026-08-27",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "具身智能“GPT时刻”降临：宇树智元共用“大脑”，10分钟零打断，一个粗糙视频炸出行业未来",
-      "summary": "具身智能“GPT时刻”降临：宇树智元共用“大脑”，10分钟零打断，一个粗糙视频炸出行业未来",
-      "url": "http://36kr.com/p/3957274543265664",
-      "date": "2026-08-27",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "CLAP: Cross-Embodiment Video World Models are Zero-Shot Physical Simulators",
-      "summary": "State-of-the-art action-conditioned video models are typically restricted to a single robot embodiment, preventing them from leveraging the vast corpus of heterogeneous video data that contains rich signals for learning generalizable physics. To brid...",
-      "url": "https://arxiv.org/abs/2608.27406v1",
-      "date": "2026-08-27",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.27406v1",
-      "authors": "Kechen Liu, Ola Shorinwa",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "FlashVLA: Streaming Action Decoding for Fast and Asynchronous VLA Inference",
-      "summary": "Vision-Language-Action (VLA) models are increasingly promising for robotic manipulation, yet their real-world deployment remains bottlenecked by high inference latency and unstable asynchronous execution. This challenge is particularly pronounced in ...",
-      "url": "https://arxiv.org/abs/2608.27384v1",
-      "date": "2026-08-27",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.27384v1",
-      "authors": "Zekai Li, Jiaming Tang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
       ]
     }
   ]

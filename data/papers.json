@@ -1,103 +1,85 @@
 {
-  "last_updated": "2026-09-23",
+  "last_updated": "2026-09-24",
   "count": 8,
   "items": [
     {
-      "title": "SpeakerMem-R1: Speaker-Centered Dual-Track Memory for Multi-Party Dialogue",
-      "authors": "Haobo Zheng, Tan Tang, Yan Chen et al.",
-      "abstract": "Long-term conversational memory in multi-party settings requires more than retrieving relevant content from long-term conversations: it must distinguish who said what, whom each statement concerns, how individuals perceive one another, what information is shared by the group, and how states change o...",
+      "title": "Controlled Attribute-Specific Summarization of Interrogative Dialogues",
+      "authors": "A Aditya Bhardwaj, Arjit Singh Arora, Md Shad Akhtar",
+      "abstract": "Effective summarization of interrogative dialogues is a critical task in forensic and investigative settings, requiring high factual accuracy, coherence, and attribute-specific relevance. In this work, we introduce CASPER, a novel Chain-of-Thought Attribute-Specific Prompting for Evaluative Summariz...",
       "venue": "arXiv",
-      "date": "2026-09-22",
-      "arxiv_id": "2609.26780v1",
-      "url": "https://arxiv.org/abs/2609.26780v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.26780v1.pdf",
+      "date": "2026-09-23",
+      "arxiv_id": "2609.28004v1",
+      "url": "https://arxiv.org/abs/2609.28004v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.28004v1.pdf",
       "categories": [
         "cs.CL",
-        "cs.AI",
-        "cs.IR"
+        "cs.AI"
       ],
       "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "CliffCompaction: Cost-Efficient Compaction for Long-Horizon Coding Agents",
-      "authors": "Trang Nguyen, Eulrang Cho, Bingqing Chen et al.",
-      "abstract": "Agents often work on complex problems that require millions of tokens of context, which necessitates compacting across sessions due to limited context windows. We develop CliffCompaction, an autocompaction technique that reduces cost by up to 50% under a bounded context while maintaining or improvin...",
+      "title": "Compliant with Local Controls, Collectively Discriminatory. A Governance Architecture for Multi-Agent AI in Regulated Finance",
+      "authors": "Jose Manuel de la Chica Rodriguez, Juan Manuel Vera Diaz, Pablo Delgado Romero",
+      "abstract": "Financial institutions are beginning to deploy agentic workflows in credit, fraud, collections, compliance, and operational control. Governance remains largely component-centric: each model or agent is specified, tested, authorized, and monitored locally. That is insufficient when institutional risk...",
       "venue": "arXiv",
-      "date": "2026-09-22",
-      "arxiv_id": "2609.26779v1",
-      "url": "https://arxiv.org/abs/2609.26779v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.26779v1.pdf",
+      "date": "2026-09-23",
+      "arxiv_id": "2609.27994v1",
+      "url": "https://arxiv.org/abs/2609.27994v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.27994v1.pdf",
       "categories": [
-        "cs.AI",
-        "cs.LG",
-        "cs.SE"
+        "cs.MA",
+        "cs.AI"
       ],
-      "type": "ml",
+      "type": "ai",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Flash-dLLM: IO-Aware KV Caching and Parallel Decoding for Fast, Memory-Efficient Diffusion LLMs",
-      "authors": "Quan Nguyen-Tri, Mukul Ranjan, Zhiqiang Shen",
-      "abstract": "Diffusion Large Language Models (dLLMs) have recently emerged as a promising alternative to autoregressive LLMs by enabling non-autoregressive text generation. However, their practical deployment remains limited by inefficient inference, largely due to the absence of effective Key-Value (KV) caching...",
+      "title": "Evaluating Open-Weight LLMs for Turkish Domain Documents Under Retrieval and Hardware Constraints",
+      "authors": "Imtiaz Ul Hassan, Öykü Akbulut, Onur Kaya et al.",
+      "abstract": "Most Turkish-capable large language models (LLMs) are evaluated using general-purpose benchmarks rather than long, structurally complex domain documents. This paper evaluates five open-weight 7B-8B models for Turkish document question answering under a resource-constrained local deployment setting. ...",
       "venue": "arXiv",
-      "date": "2026-09-22",
-      "arxiv_id": "2609.26796v1",
-      "url": "https://arxiv.org/abs/2609.26796v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.26796v1.pdf",
-      "categories": [
-        "cs.CL"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Agensh: Scaling Organizational Intelligence to 1,024 Agents",
-      "authors": "Zhihao Zhan, Ting Song, Li Dong et al.",
-      "abstract": "A multi-agent system can reduce latency on complex tasks by executing work concurrently. Several pioneering harness frameworks support multi-agent systems. However, the scalability of current multi-agent harnesses is often constrained by a central orchestrator's capacity to allocate tasks and coordi...",
-      "venue": "arXiv",
-      "date": "2026-09-22",
-      "arxiv_id": "2609.26781v1",
-      "url": "https://arxiv.org/abs/2609.26781v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.26781v1.pdf",
+      "date": "2026-09-23",
+      "arxiv_id": "2609.28007v1",
+      "url": "https://arxiv.org/abs/2609.28007v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.28007v1.pdf",
       "categories": [
         "cs.CL",
-        "cs.MA"
+        "cs.IR",
+        "cs.LG"
       ],
       "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "φ-RIE: From Photorealistic Reconstruction to Interactive Environments",
-      "authors": "Runyi Yang, Deheng Zhang, Xiaoye Wang et al.",
-      "abstract": "3D Gaussian Splatting (3DGS) can reconstruct a captured scene photorealistically, but the resulting representation does not by itself support physical interaction. Robot simulation instead requires object-level change, \\textit{i.e.}, objects must move independently, make contact, and reveal previous...",
+      "title": "On the Diffusibility of High-Dimensional Latents",
+      "authors": "Chao Feng, Zhiyang Xu, Bowei Chen et al.",
+      "abstract": "Representation Autoencoders (RAEs) enable diffusion models to operate in the feature spaces of pretrained visual encoders. However, many off-the-shelf encoders are not optimized for faithful reconstruction, discarding fine-grained visual details. As expected, finetuning these encoders for image reco...",
       "venue": "arXiv",
-      "date": "2026-09-22",
-      "arxiv_id": "2609.26795v1",
-      "url": "https://arxiv.org/abs/2609.26795v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.26795v1.pdf",
+      "date": "2026-09-23",
+      "arxiv_id": "2609.28473v1",
+      "url": "https://arxiv.org/abs/2609.28473v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.28473v1.pdf",
       "categories": [
-        "cs.RO",
         "cs.CV",
-        "cs.GR"
+        "cs.LG"
       ],
       "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "HARMONY: Hierarchical Agentic Reasoning for MONocular Image-to-Scene Synthesis",
-      "authors": "Shufan Sun, Chen Wang, Enxin Song et al.",
-      "abstract": "Compositional 3D scene reconstruction has recently been explored from two directions: agentic reasoning that provides semantic understanding of spatial relationships but lacks precise alignment with input images; and visual geometry foundation models that predict dense point maps from input images b...",
+      "title": "The Past Frames the Future: Memory for Autoregressive Video Generation",
+      "authors": "Harold Haodong Chen, Rongjin Guo, Disen Lan et al.",
+      "abstract": "Advances in generative models have improved video fidelity, enabling long-horizon generation, interactive world modeling, and evolving visual environments. Autoregressive (AR) video generation extends visual sequences through causal rollouts. However, a fundamental bottleneck emerges: as the generat...",
       "venue": "arXiv",
-      "date": "2026-09-22",
-      "arxiv_id": "2609.26793v1",
-      "url": "https://arxiv.org/abs/2609.26793v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.26793v1.pdf",
+      "date": "2026-09-23",
+      "arxiv_id": "2609.28466v1",
+      "url": "https://arxiv.org/abs/2609.28466v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.28466v1.pdf",
       "categories": [
         "cs.CV"
       ],
@@ -106,37 +88,52 @@
       "source": "arXiv"
     },
     {
-      "title": "A Decentralized Partially Observable Team Decision Methodology with Delayed Information Sharing",
-      "authors": "Xiaoxing Ren, Thomas Parisini, Andreas A. Malikopoulos",
-      "abstract": "We study decentralized partially observable team decision problems with low-rank latent dynamics and unknown system models. The proposed framework combines team-theoretic equivalence with low-rank model representations to address cooperative decision-making in partially observable Markov decision pr...",
+      "title": "Contrastive Learning for Authorship Verification",
+      "authors": "Peter Kirby",
+      "abstract": "Our results show that contrastive learning outperforms a classification-based approach to authorship verification under the tested settings. We identify loss function, batch size, training duration, pre-trained model, input context length, and random text span data augmentation as important factors ...",
       "venue": "arXiv",
-      "date": "2026-09-22",
-      "arxiv_id": "2609.26783v1",
-      "url": "https://arxiv.org/abs/2609.26783v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.26783v1.pdf",
+      "date": "2026-09-23",
+      "arxiv_id": "2609.28471v1",
+      "url": "https://arxiv.org/abs/2609.28471v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.28471v1.pdf",
       "categories": [
-        "math.OC",
-        "cs.LG",
-        "eess.SY"
+        "cs.CL",
+        "cs.LG"
       ],
-      "type": "ml",
+      "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "DreamStream: Towards Policy-Oriented Generative Simulation for End-to-End Driving",
-      "authors": "Ziyang Leng, Sicheng Mo, Seth Z. Zhao et al.",
-      "abstract": "Faithfully evaluating end-to-end driving policies in simulation requires observations that are not merely photo-realistic, but preserve the scene features a policy relies on to make decisions. Existing platforms, however, exhibit a sim-to-real visual gap that corrupts policy perception, undermining ...",
+      "title": "Where Should I Join? Robot Group Joining via Language-Guided Goal Prediction",
+      "authors": "Zilin Fang, Zishuo Wang, Gim Hee Lee et al.",
+      "abstract": "Social navigation typically assumes a specified goal and focuses on reaching it while respecting social conventions, whereas robot group joining requires predicting where to join based on the group's real-time activity and formation. This is a highly semantic task, yet an important capability for ap...",
       "venue": "arXiv",
-      "date": "2026-09-22",
-      "arxiv_id": "2609.26792v1",
-      "url": "https://arxiv.org/abs/2609.26792v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.26792v1.pdf",
+      "date": "2026-09-23",
+      "arxiv_id": "2609.28467v1",
+      "url": "https://arxiv.org/abs/2609.28467v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.28467v1.pdf",
       "categories": [
         "cs.RO",
-        "cs.CV"
+        "cs.AI"
       ],
-      "type": "vision",
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "LiMA: Bridging Long-term Imagination to Real-time Dexterous Manipulation via Asynchronous Diffusion",
+      "authors": "Ning Chen, Yankai Fu, Junkai Zhao et al.",
+      "abstract": "Dexterous manipulation demands long-term foresight and rapid reactive control. Vision-Language-Action (VLA) models, while proficient in high-level reasoning, often lack a fine-grained understanding of physical dynamics and spatial perception. Conversely, World-Action Models (WAMs) typically suffer f...",
+      "venue": "arXiv",
+      "date": "2026-09-23",
+      "arxiv_id": "2609.28431v1",
+      "url": "https://arxiv.org/abs/2609.28431v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.28431v1.pdf",
+      "categories": [
+        "cs.RO"
+      ],
+      "type": "ai",
       "badge": "arxiv",
       "source": "arXiv"
     }
