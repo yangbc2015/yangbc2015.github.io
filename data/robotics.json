@@ -15,6 +15,86 @@
       ]
     },
     {
+      "title": "Where Should I Join? Robot Group Joining via Language-Guided Goal Prediction",
+      "summary": "Social navigation typically assumes a specified goal and focuses on reaching it while respecting social conventions, whereas robot group joining requires predicting where to join based on the group's real-time activity and formation. This is a highly...",
+      "url": "https://arxiv.org/abs/2609.28467v1",
+      "date": "2026-09-23",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.28467v1",
+      "authors": "Zilin Fang, Zishuo Wang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "LiMA: Bridging Long-term Imagination to Real-time Dexterous Manipulation via Asynchronous Diffusion",
+      "summary": "Dexterous manipulation demands long-term foresight and rapid reactive control. Vision-Language-Action (VLA) models, while proficient in high-level reasoning, often lack a fine-grained understanding of physical dynamics and spatial perception. Convers...",
+      "url": "https://arxiv.org/abs/2609.28431v1",
+      "date": "2026-09-23",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.28431v1",
+      "authors": "Ning Chen, Yankai Fu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Watch, Recall, Act: Always-On Robots in Concurrent Embodied Streams",
+      "summary": "An always-on robot faces an endless stream that never resets: instructions arrive and lapse, the scene changes, and its own past actions reshape what it must reason about. Today's action models are built for the opposite: a fixed instruction, no mid-...",
+      "url": "https://arxiv.org/abs/2609.28429v1",
+      "date": "2026-09-23",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.28429v1",
+      "authors": "Ding Yi, Peiwen Sun et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Context-Continuous Preference Learning for Exoskeleton Personalization",
+      "summary": "Personalizing exoskeleton assistance across operating conditions is constrained by the time and physical effort required to collect user feedback. We examined whether a user's preference landscape varies smoothly across operating conditions and when ...",
+      "url": "https://arxiv.org/abs/2609.28427v1",
+      "date": "2026-09-23",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.28427v1",
+      "authors": "Sunin Baek, Sungwoo Park et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Frozen Flows Forget: Diagnosing and Restoring Lost Motion in a Latent-flow World Model",
+      "summary": "Latent world models that integrate a flow in a frozen self supervised latent space train stably and cheaply, yet silently lose the property manipulation depends on most: motion. The pretrained flow never moves the manipulated object; retraining it wi...",
+      "url": "https://arxiv.org/abs/2609.28414v1",
+      "date": "2026-09-23",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.28414v1",
+      "authors": "Xiwen Chen, Rigaudiere Z. Li et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
       "title": "Less Language, More Latents: Annotation-Efficient VLAs for Driving",
       "summary": "Vision-language-action models (VLA) promise human-steerable autonomous driving, but their training is bottlenecked by the scarcity of frames paired with natural-language instructions: while camera streams and expert trajectories are logged at scale, ...",
       "url": "https://arxiv.org/abs/2609.27747v1",
@@ -3000,76 +3080,6 @@
       "type": "news",
       "tags": [
         "机器人"
-      ]
-    },
-    {
-      "title": "[清华系 具 身 智 能 企业获数亿元融资，机器人已在京东超市规模化落地岗｜硬氪首发",
-      "summary": "[清华系 具 身 智 能 企业获数亿元融资，机器人已在京东超市规模化落地岗｜硬氪首发",
-      "url": "http://36kr.com/p/3948044825279621",
-      "date": "2026-08-28",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
-      ]
-    },
-    {
-      "title": "Figure AI发布新一代人形机器人Figure 02，具备更强的自主学习能力",
-      "summary": "Figure AI发布新一代人形机器人Figure 02，搭载最新视觉-语言-动作(VLA)模型，在工厂和仓储场景实现更高水平的自主操作。",
-      "url": "https://www.figure.ai",
-      "date": "2026-08-28",
-      "source": "行业动态",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "人形机器人",
-        "Figure"
-      ]
-    },
-    {
-      "title": "特斯拉Optimus人形机器人量产计划加速，预计2025年交付首批产品",
-      "summary": "马斯克表示Optimus人形机器人量产计划正在加速，特斯拉工厂已开始测试机器人执行简单装配任务。",
-      "url": "https://www.tesla.com/optimus",
-      "date": "2026-08-28",
-      "source": "行业动态",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "人形机器人",
-        "Optimus",
-        "特斯拉"
-      ]
-    },
-    {
-      "title": "宇树科技发布Unitree G1人形机器人，价格9.9万元起",
-      "summary": "宇树科技发布新一代人形机器人G1，身高约127cm，体重约35kg，具备23个自由度，面向教育和科研市场。",
-      "url": "https://www.unitree.com",
-      "date": "2026-08-28",
-      "source": "行业动态",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "人形机器人",
-        "宇树科技"
-      ]
-    },
-    {
-      "title": "英伟达发布GR00T人形机器人基础模型，为机器人提供大脑",
-      "summary": "NVIDIA发布人形机器人通用基础模型GR00T，结合Isaac Sim仿真平台，加速人形机器人开发。",
-      "url": "https://developer.nvidia.com/isaac",
-      "date": "2026-08-28",
-      "source": "行业动态",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能",
-        "英伟达",
-        "GR00T"
       ]
     }
   ]
