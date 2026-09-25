@@ -1,50 +1,50 @@
 {
-  "last_updated": "2026-09-24",
+  "last_updated": "2026-09-25",
   "count": 7,
   "items": [
     {
-      "title": "StudentBench: AI and human tutoring yield equivalent GRE learning gains",
-      "authors": "Curtis Northcutt, Inaara Hasmani, Kevin Feng et al.",
-      "abstract": "Artificial intelligence offers an unprecedented opportunity to augment human capabilities, yet progress at the frontier has focused primarily on advancing model capabilities. We introduce StudentBench, a suite of AI teaching evaluations and a public platform that enables large-scale data collection ...",
+      "title": "LLM Agents Can Easily Tamper With Their Own Traces",
+      "authors": "Jeremy Qin, David Schmotz, Derck Prinzhorn et al.",
+      "abstract": "Asynchronous monitoring, incident investigations, and compliance audits primarily rely on agent traces to reconstruct what happened. These analyses assume that LLM agents cannot tamper with their own execution traces. We show that local LLM agents such as Claude Code, Codex, Antigravity, Open Code a...",
       "venue": "arXiv",
-      "date": "2026-09-23",
-      "arxiv_id": "2609.28470v1",
-      "url": "https://arxiv.org/abs/2609.28470v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.28470v1.pdf",
+      "date": "2026-09-24",
+      "arxiv_id": "2609.30266v1",
+      "url": "https://arxiv.org/abs/2609.30266v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.30266v1.pdf",
       "categories": [
-        "cs.AI",
-        "cs.CY"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Where Should I Join? Robot Group Joining via Language-Guided Goal Prediction",
-      "authors": "Zilin Fang, Zishuo Wang, Gim Hee Lee et al.",
-      "abstract": "Social navigation typically assumes a specified goal and focuses on reaching it while respecting social conventions, whereas robot group joining requires predicting where to join based on the group's real-time activity and formation. This is a highly semantic task, yet an important capability for ap...",
-      "venue": "arXiv",
-      "date": "2026-09-23",
-      "arxiv_id": "2609.28467v1",
-      "url": "https://arxiv.org/abs/2609.28467v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.28467v1.pdf",
-      "categories": [
-        "cs.RO",
+        "cs.CR",
         "cs.AI"
       ],
-      "type": "nlp",
+      "type": "ai",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Contrastive Learning for Authorship Verification",
-      "authors": "Peter Kirby",
-      "abstract": "Our results show that contrastive learning outperforms a classification-based approach to authorship verification under the tested settings. We identify loss function, batch size, training duration, pre-trained model, input context length, and random text span data augmentation as important factors ...",
+      "title": "AD-WM: Action-Discriminative World Models for Counterfactual Model Predictive Control",
+      "authors": "Jiabin Qiu, Zixuan Chen, Hongye Cao et al.",
+      "abstract": "Latent world models are typically trained to predict factual transitions, whereas model predictive control (MPC) must compare alternative actions from the same state. A model can therefore achieve low factual prediction error yet poorly distinguish candidate actions. We introduce AD-WM, an action-di...",
       "venue": "arXiv",
-      "date": "2026-09-23",
-      "arxiv_id": "2609.28471v1",
-      "url": "https://arxiv.org/abs/2609.28471v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.28471v1.pdf",
+      "date": "2026-09-24",
+      "arxiv_id": "2609.30264v1",
+      "url": "https://arxiv.org/abs/2609.30264v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.30264v1.pdf",
+      "categories": [
+        "cs.AI",
+        "cs.RO"
+      ],
+      "type": "ai",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Agentic Detection of Online Conspiracies",
+      "authors": "Lior Biton, Oren Tsur",
+      "abstract": "Conspiratorial discourse on social media is not always expressed through explicit claims or stable lexical markers. The same surface content may express endorsement, legitimate concerns, criticism, satire, or mockery. The main challenge is therefore not only recognizing conspiracy-related claims, bu...",
+      "venue": "arXiv",
+      "date": "2026-09-24",
+      "arxiv_id": "2609.30250v1",
+      "url": "https://arxiv.org/abs/2609.30250v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.30250v1.pdf",
       "categories": [
         "cs.CL",
         "cs.LG"
@@ -54,50 +54,33 @@
       "source": "arXiv"
     },
     {
-      "title": "Can LLMs Reason About Runtime Behavior? A Repository-Level Dynamic Benchmark",
-      "authors": "Hamed Taherkhani, Mohammad Abdollahi, Melika Sepidband et al.",
-      "abstract": "Large language models (LLMs) are increasingly used in coding tasks, but their ability to reason about code execution remains unclear. Existing repository-level QA benchmarks mainly evaluate static code understanding and often rely on LLM-based evaluation, while execution-reasoning benchmarks are mos...",
+      "title": "JevOut: Natural Context Can Flip Decision Models",
+      "authors": "Zixiang Xu",
+      "abstract": "Dedicated decision models such as Jev map unstructured language to probability distributions over finite choices, allowing their outputs to directly route requests, select tools, and trigger actions. Yet real-world inputs rarely arrive in isolation: they come with background details and surrounding ...",
       "venue": "arXiv",
-      "date": "2026-09-23",
-      "arxiv_id": "2609.28449v1",
-      "url": "https://arxiv.org/abs/2609.28449v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.28449v1.pdf",
+      "date": "2026-09-24",
+      "arxiv_id": "2609.30243v1",
+      "url": "https://arxiv.org/abs/2609.30243v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.30243v1.pdf",
       "categories": [
-        "cs.SE",
-        "cs.AI",
         "cs.CL"
       ],
-      "type": "benchmark",
+      "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "On the Diffusibility of High-Dimensional Latents",
-      "authors": "Chao Feng, Zhiyang Xu, Bowei Chen et al.",
-      "abstract": "Representation Autoencoders (RAEs) enable diffusion models to operate in the feature spaces of pretrained visual encoders. However, many off-the-shelf encoders are not optimized for faithful reconstruction, discarding fine-grained visual details. As expected, finetuning these encoders for image reco...",
+      "title": "RAPID: Robot Agentic Programming from Demonstrations",
+      "authors": "Yuyao Liu, Jiayuan Mao, David Hsu et al.",
+      "abstract": "Coding agents have demonstrated enormous success in solving complex programming problems. To leverage their potential for robot systems, this work introduces Robot Agentic Programming from Demonstrations (RAPID), which automatically generates, verifies, and refines robot programs, given a single vis...",
       "venue": "arXiv",
-      "date": "2026-09-23",
-      "arxiv_id": "2609.28473v1",
-      "url": "https://arxiv.org/abs/2609.28473v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.28473v1.pdf",
+      "date": "2026-09-24",
+      "arxiv_id": "2609.30249v1",
+      "url": "https://arxiv.org/abs/2609.30249v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.30249v1.pdf",
       "categories": [
-        "cs.CV",
-        "cs.LG"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "The Past Frames the Future: Memory for Autoregressive Video Generation",
-      "authors": "Harold Haodong Chen, Rongjin Guo, Disen Lan et al.",
-      "abstract": "Advances in generative models have improved video fidelity, enabling long-horizon generation, interactive world modeling, and evolving visual environments. Autoregressive (AR) video generation extends visual sequences through causal rollouts. However, a fundamental bottleneck emerges: as the generat...",
-      "venue": "arXiv",
-      "date": "2026-09-23",
-      "arxiv_id": "2609.28466v1",
-      "url": "https://arxiv.org/abs/2609.28466v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.28466v1.pdf",
-      "categories": [
+        "cs.RO",
+        "cs.AI",
         "cs.CV"
       ],
       "type": "vision",
@@ -105,18 +88,36 @@
       "source": "arXiv"
     },
     {
-      "title": "LiMA: Bridging Long-term Imagination to Real-time Dexterous Manipulation via Asynchronous Diffusion",
-      "authors": "Ning Chen, Yankai Fu, Junkai Zhao et al.",
-      "abstract": "Dexterous manipulation demands long-term foresight and rapid reactive control. Vision-Language-Action (VLA) models, while proficient in high-level reasoning, often lack a fine-grained understanding of physical dynamics and spatial perception. Conversely, World-Action Models (WAMs) typically suffer f...",
+      "title": "Rolling-WAM: World Action Models with Rolling Imagination",
+      "authors": "Yinghua Zhou, Junjie Ye, Yiqi Zhao et al.",
+      "abstract": "World Action Models (WAMs) couple action generation with future visual prediction for robotic manipulation. However, completing the joint video-action denoising process at each replanning cycle incurs substantial latency, delaying action updates and limiting closed-loop responsiveness. We present Ro...",
       "venue": "arXiv",
-      "date": "2026-09-23",
-      "arxiv_id": "2609.28431v1",
-      "url": "https://arxiv.org/abs/2609.28431v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.28431v1.pdf",
+      "date": "2026-09-24",
+      "arxiv_id": "2609.30247v1",
+      "url": "https://arxiv.org/abs/2609.30247v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.30247v1.pdf",
       "categories": [
-        "cs.RO"
+        "cs.RO",
+        "cs.AI",
+        "cs.CV"
       ],
-      "type": "ai",
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Temporal Gradient Inversion for Private Trajectory Reconstruction in Embodied Reinforcement Learning",
+      "authors": "Sudip Bhujel, Shanghao Shi, Ruiquan Huang et al.",
+      "abstract": "Distributed learning in embodied reinforcement-learning agents offers a degree of privacy by retaining raw sensor data on-device and transmitting only policy gradients to the server. Yet temporal structure can amplify this leakage beyond single-frame attacks. We introduce Temporal Reconstruction Att...",
+      "venue": "arXiv",
+      "date": "2026-09-24",
+      "arxiv_id": "2609.30258v1",
+      "url": "https://arxiv.org/abs/2609.30258v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.30258v1.pdf",
+      "categories": [
+        "cs.LG"
+      ],
+      "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     }
