@@ -1,9 +1,21 @@
 {
   "last_updated": "2026-09-26",
   "count": 200,
-  "history_count": 203,
+  "history_count": 201,
   "retention_days": 30,
   "items": [
+    {
+      "title": "“世界模型”开始成为具身智能跨越商业化“奇点”的新叙事。",
+      "link": "https://www.qbitai.com/?s=“世界模型”开始成为",
+      "summary": "“世界模型”开始成为具身智能跨越商业化“奇点”的新叙事。...",
+      "date": "2026-09-26",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
     {
       "title": "Simate将训练、推理与评测全流程接入自研Infra，通过极致的任务编排与资源调度，同时并行推进数十条相互独立的研究路线。",
       "link": "https://www.qbitai.com/?s=Simate将训练、",
@@ -53,18 +65,6 @@
       ]
     },
     {
-      "title": "人类演示一次，机器人即可实现跨场景任务复用",
-      "link": "https://www.qbitai.com/?s=人类演示一次，机器人",
-      "summary": "人类演示一次，机器人即可实现跨场景任务复用...",
-      "date": "2026-09-26",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
       "title": "*   [Latest](http://techcrunch.com/latest/)",
       "link": "https://techcrunch.com/category/artificial-intelligence/",
       "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
@@ -74,6 +74,18 @@
       "tags": [
         "AI",
         "Artificial Intelligence"
+      ]
+    },
+    {
+      "title": "人类演示一次，机器人即可实现跨场景任务复用",
+      "link": "https://www.qbitai.com/?s=人类演示一次，机器人",
+      "summary": "人类演示一次，机器人即可实现跨场景任务复用...",
+      "date": "2026-09-26",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
       ]
     },
     {
@@ -2384,18 +2396,6 @@
       "title": "Meta全开源HumanCLAW：基础模型正进入具身智能的决策层",
       "link": "https://www.jiqizhixin.com/search/articles/Meta全开源HumanCLA",
       "summary": "Meta全开源HumanCLAW：基础模型正进入具身智能的决策层...",
-      "date": "2026-09-04",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "GPT-6突破「素数间隔」纪录！这次是加入OpenAI的北大数院07级校友",
-      "link": "https://www.jiqizhixin.com/search/articles/GPT-6突破「素数间隔」纪录",
-      "summary": "GPT-6突破「素数间隔」纪录！这次是加入OpenAI的北大数院07级校友...",
       "date": "2026-09-04",
       "source": "机器之心",
       "type": "industry",
