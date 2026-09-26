@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-25",
-  "last_updated": "2026-09-25",
+  "date": "2026-09-26",
+  "last_updated": "2026-09-26",
   "categories": {
     "ai": {
       "name": "人工智能",
@@ -8,59 +8,59 @@
       "count": 5,
       "items": [
         {
-          "title": "高通这一代骁龙：手机芯片，开始为Agent重新设计",
-          "link": "https://www.jiqizhixin.com/search/articles/高通这一代骁龙：手机芯片，开始",
-          "summary": "高通这一代骁龙：手机芯片，开始为Agent重新设计...",
-          "date": "2026-09-24",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
-          "title": "七校联合开源OpenWAM：机器人的「世界模拟器」来了",
-          "link": "https://www.jiqizhixin.com/search/articles/七校联合开源OpenWAM：机",
-          "summary": "七校联合开源OpenWAM：机器人的「世界模拟器」来了...",
-          "date": "2026-09-24",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
-          "title": "代码生成越来越快，软件交付真正的瓶颈转向了哪里？",
-          "link": "https://www.jiqizhixin.com/search/articles/代码生成越来越快，软件交付真正",
-          "summary": "代码生成越来越快，软件交付真正的瓶颈转向了哪里？...",
-          "date": "2026-09-24",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
-          "title": "智能终端变成token工厂，这家公司要让AI真正被深度使用",
-          "link": "https://www.jiqizhixin.com/search/articles/智能终端变成token工厂，这",
-          "summary": "智能终端变成token工厂，这家公司要让AI真正被深度使用...",
-          "date": "2026-09-24",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
-          "title": "大厂造芯，正在从交付芯片，走向更广泛的开放共建阶段。",
-          "link": "https://www.qbitai.com/?s=大厂造芯，正在从交付",
-          "summary": "大厂造芯，正在从交付芯片，走向更广泛的开放共建阶段。...",
+          "title": "Markdown Content:",
+          "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+          "summary": "Markdown Content:...",
           "date": "2026-09-25",
-          "source": "量子位",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "从机器鸭乐高、宜家说明书到《塞尔达》，Opus 5.5正在重新定义vibe coding",
+          "link": "https://www.jiqizhixin.com/search/articles/从机器鸭乐高、宜家说明书到《塞",
+          "summary": "从机器鸭乐高、宜家说明书到《塞尔达》，Opus 5.5正在重新定义vibe coding...",
+          "date": "2026-09-25",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "Jev刷屏之后，竟然有人12个月前就提出了概率并行生成？",
+          "link": "https://www.jiqizhixin.com/search/articles/Jev刷屏之后，竟然有人12个",
+          "summary": "Jev刷屏之后，竟然有人12个月前就提出了概率并行生成？...",
+          "date": "2026-09-25",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "AI改图，终于懂点「用户心理学」了",
+          "link": "https://www.jiqizhixin.com/search/articles/AI改图，终于懂点「用户心理学",
+          "summary": "AI改图，终于懂点「用户心理学」了...",
+          "date": "2026-09-25",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "AdaRoboVLG：适用于不同机械手的任务自适应视觉语言抓取框架",
+          "link": "https://www.jiqizhixin.com/search/articles/AdaRoboVLG：适用于不",
+          "summary": "AdaRoboVLG：适用于不同机械手的任务自适应视觉语言抓取框架...",
+          "date": "2026-09-25",
+          "source": "机器之心",
           "type": "industry",
           "tags": [
             "AI",

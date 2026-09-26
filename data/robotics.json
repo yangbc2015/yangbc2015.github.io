@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-25",
+  "last_updated": "2026-09-26",
   "count": 200,
   "items": [
     {
@@ -92,6 +92,19 @@
         "机器人学习",
         "研究论文",
         "arXiv"
+      ]
+    },
+    {
+      "title": "国网南网先后绑定宇树，争夺电力具身智能标准权",
+      "summary": "国网南网先后绑定宇树，争夺电力具身智能标准权",
+      "url": "http://36kr.com/p/3996210299393671",
+      "date": "2026-09-24",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
       ]
     },
     {
@@ -3061,22 +3074,6 @@
       "type": "paper",
       "arxiv_id": "2608.28518v1",
       "authors": "Sihan Jia, Oliver Lemon",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "AcrossVAM1.0: Particle World Modeling for Text-Assisted Robot Video Prediction",
-      "summary": "Predicting robot videos requires both precise motion reasoning and preservation of high-frequency appearance, yet monolithic pixel models entangle these objectives and often conceal their progress behind a strong last-frame baseline. We present Acros...",
-      "url": "https://arxiv.org/abs/2608.28491v1",
-      "date": "2026-08-28",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.28491v1",
-      "authors": "Yafei Zhang, Nan Wu",
       "tags": [
         "机器人学习",
         "研究论文",
