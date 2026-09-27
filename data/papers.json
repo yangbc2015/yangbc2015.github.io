@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-09-27",
-  "count": 6,
+  "count": 4,
   "items": [
     {
       "title": "LLM Agents Can Easily Tamper With Their Own Traces",
@@ -66,42 +66,6 @@
         "cs.CL"
       ],
       "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "RAPID: Robot Agentic Programming from Demonstrations",
-      "authors": "Yuyao Liu, Jiayuan Mao, David Hsu et al.",
-      "abstract": "Coding agents have demonstrated enormous success in solving complex programming problems. To leverage their potential for robot systems, this work introduces Robot Agentic Programming from Demonstrations (RAPID), which automatically generates, verifies, and refines robot programs, given a single vis...",
-      "venue": "arXiv",
-      "date": "2026-09-24",
-      "arxiv_id": "2609.30249v1",
-      "url": "https://arxiv.org/abs/2609.30249v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.30249v1.pdf",
-      "categories": [
-        "cs.RO",
-        "cs.AI",
-        "cs.CV"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Rolling-WAM: World Action Models with Rolling Imagination",
-      "authors": "Yinghua Zhou, Junjie Ye, Yiqi Zhao et al.",
-      "abstract": "World Action Models (WAMs) couple action generation with future visual prediction for robotic manipulation. However, completing the joint video-action denoising process at each replanning cycle incurs substantial latency, delaying action updates and limiting closed-loop responsiveness. We present Ro...",
-      "venue": "arXiv",
-      "date": "2026-09-24",
-      "arxiv_id": "2609.30247v1",
-      "url": "https://arxiv.org/abs/2609.30247v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.30247v1.pdf",
-      "categories": [
-        "cs.RO",
-        "cs.AI",
-        "cs.CV"
-      ],
-      "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     }
