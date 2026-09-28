@@ -3,6 +3,86 @@
   "count": 200,
   "items": [
     {
+      "title": "Learning Robot Policies from Sparse Success Signals via STL-Guided Stein Variational Policy Gradient",
+      "summary": "Learning robot policies for tasks with sparse success signals is challenging when completion depends on coordinated actions, precise contact outcomes, or satisfying several conditions together. Intricate physical interactions with the world further c...",
+      "url": "https://arxiv.org/abs/2609.31606v1",
+      "date": "2026-09-25",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.31606v1",
+      "authors": "Hongrui Zheng, Cristian Ioan Vasile et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Generate, Track, Improve: Perceptive Multi-Skill Humanoid Locomotion with RL-Fine-Tuned Motion Generators",
+      "summary": "General purpose humanoids require locomotion controllers that are multi-skill, perceptive, dynamic, and robust enough to go anywhere humans can. In this work, we present a two layer locomotion architecture: (1) a perceptive flow matching motion gener...",
+      "url": "https://arxiv.org/abs/2609.31577v1",
+      "date": "2026-09-25",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.31577v1",
+      "authors": "Zachary Olkin, William D. Compton et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "SatNav: A Scalable Benchmark for Long-Horizon UAV Vision-Language Navigation from Satellite Imagery",
+      "summary": "Urban uncrewed aerial vehicle (UAV) vision-language navigation (VLN) requires agents to follow instructions across extended urban spaces, inherently demanding long-term memory and geospatial grounding. However, scaling existing benchmarks remains dif...",
+      "url": "https://arxiv.org/abs/2609.31507v1",
+      "date": "2026-09-25",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.31507v1",
+      "authors": "Jiajun Jiang, Chunliang Hua et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Vision-Based 6-DoF Grasp Pose Estimation for Robot Cloth Unfolding",
+      "summary": "Cloth manipulation is a challenging task due to the deformable and high-dimensional nature of cloth, which leads to complex interaction dynamics and perceptual ambiguity arising from frequent occlusions of critical visual cues such as folds, edges, a...",
+      "url": "https://arxiv.org/abs/2609.31452v1",
+      "date": "2026-09-25",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.31452v1",
+      "authors": "Domen Tabernik, Peter Nimac et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Learning to Leverage Compliance: A Policy-Admittance Learning Framework for Robotic Insertion",
+      "summary": "Policy learning and compliant control offer a promising route to reliable autonomous assembly under pose errors and contact uncertainty. However, combining them does not ensure coordination: the policy may continue pushing against contact while the c...",
+      "url": "https://arxiv.org/abs/2609.31439v1",
+      "date": "2026-09-25",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.31439v1",
+      "authors": "Chongren Wang, Minghe Li et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
       "title": "Transformer-based Monte Carlo Localization in Construction Meshes",
       "summary": "To be able to perform inspection or digitization tasks, mobile robots on construction sites must be able to localize themselves reliably with respect to a global reference frame that is shared with a building map. Similar room layouts and low-texture...",
       "url": "https://arxiv.org/abs/2609.31357v1",
@@ -3008,83 +3088,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "Behavior-Skill: A Fine-Grained Benchmark for Evaluating Vision-Language-Action Policies in Long-Horizon Tasks",
-      "summary": "Reliable execution of long-horizon mobile manipulation tasks remains challenging because overall task success depends on the successful completion of multiple constituent skills. Existing benchmarks, however, still rely primarily on full-task rollout...",
-      "url": "https://arxiv.org/abs/2608.30536v1",
-      "date": "2026-08-31",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.30536v1",
-      "authors": "Chunyun Ma, Lun Luo et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Anomaly Detection on Small Industrial Components via Vision-Based Tactile Sensing",
-      "summary": "Automated inspection of small industrial components, including sub-centimetre-scale parts where defects are geometry-driven and poorly resolved by standard optical cameras, calls for sensing modalities that can directly capture fine surface geometry....",
-      "url": "https://arxiv.org/abs/2608.30506v1",
-      "date": "2026-08-31",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.30506v1",
-      "authors": "G. F. Preziosa, M. Casiglia et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "HorizonNet for visual terrain navigation",
-      "summary": "This paper investigates the problem of position estimation of unmanned surface vessels (USVs) operating in coastal areas or in the archipelago. We propose a position estimation method where the horizon line is extracted in a 360 degree panoramic imag...",
-      "url": "https://arxiv.org/abs/2608.30471v1",
-      "date": "2026-08-31",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.30471v1",
-      "authors": "Bertil Grelsson, Andreas Robinson et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "A Hybrid PEM-GP Framework for Uncertainty-Aware System Identification of Quadcopters",
-      "summary": "Accurate dynamic models play a central role in achieving reliable control of quadcopters. Classical system identification methods remain widely used, mainly because of their interpretability. However, they often fail to capture important nonlinear ef...",
-      "url": "https://arxiv.org/abs/2608.30433v1",
-      "date": "2026-08-31",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.30433v1",
-      "authors": "Abdallah Ghoul, Ismail Khalil Bousserhane et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "这可能是「具身智能」的下一个风口赛道。",
-      "summary": "这可能是「具身智能」的下一个风口赛道。",
-      "url": "http://36kr.com/p/3958988954401925",
-      "date": "2026-08-28",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
       ]
     }
   ]

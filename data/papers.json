@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-09-28",
-  "count": 8,
+  "count": 6,
   "items": [
     {
       "title": "Learning to Stop without Learning to Stop: Self-Supervised Confidence Training Improves Reasoning Efficiency",
@@ -101,38 +101,6 @@
         "cs.LG"
       ],
       "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Learning Robot Policies from Sparse Success Signals via STL-Guided Stein Variational Policy Gradient",
-      "authors": "Hongrui Zheng, Cristian Ioan Vasile, Antonio Loquercio et al.",
-      "abstract": "Learning robot policies for tasks with sparse success signals is challenging when completion depends on coordinated actions, precise contact outcomes, or satisfying several conditions together. Intricate physical interactions with the world further complicate these requirements. Prior work using con...",
-      "venue": "arXiv",
-      "date": "2026-09-25",
-      "arxiv_id": "2609.31606v1",
-      "url": "https://arxiv.org/abs/2609.31606v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.31606v1.pdf",
-      "categories": [
-        "cs.RO"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Generate, Track, Improve: Perceptive Multi-Skill Humanoid Locomotion with RL-Fine-Tuned Motion Generators",
-      "authors": "Zachary Olkin, William D. Compton, Aaron D. Ames",
-      "abstract": "General purpose humanoids require locomotion controllers that are multi-skill, perceptive, dynamic, and robust enough to go anywhere humans can. In this work, we present a two layer locomotion architecture: (1) a perceptive flow matching motion generator plans whole body trajectories from raw depth ...",
-      "venue": "arXiv",
-      "date": "2026-09-25",
-      "arxiv_id": "2609.31577v1",
-      "url": "https://arxiv.org/abs/2609.31577v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.31577v1.pdf",
-      "categories": [
-        "cs.RO"
-      ],
-      "type": "ai",
       "badge": "arxiv",
       "source": "arXiv"
     }
