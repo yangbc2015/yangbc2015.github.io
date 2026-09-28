@@ -1,7 +1,87 @@
 {
-  "last_updated": "2026-09-27",
+  "last_updated": "2026-09-28",
   "count": 200,
   "items": [
+    {
+      "title": "Transformer-based Monte Carlo Localization in Construction Meshes",
+      "summary": "To be able to perform inspection or digitization tasks, mobile robots on construction sites must be able to localize themselves reliably with respect to a global reference frame that is shared with a building map. Similar room layouts and low-texture...",
+      "url": "https://arxiv.org/abs/2609.31357v1",
+      "date": "2026-09-25",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.31357v1",
+      "authors": "Linus Kramer, William Talbot et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Representation-Guided Generation and Integration of Executable Programs for Robot Manipulation",
+      "summary": "Building a robotic manipulation system requires connecting perception, planning, and control through carefully designed representations and interfaces. VLM code generation offers a way to automate this construction, but independently generated compon...",
+      "url": "https://arxiv.org/abs/2609.31337v1",
+      "date": "2026-09-25",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.31337v1",
+      "authors": "Ruixiao Yang, Mingxin Yu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "See to Reach, Feel to Grasp: Learning A Blind Grasp Reflex for Anthropomorphic Robotic Hands",
+      "summary": "In this work we study if a robotic hand using proprioception alone can grasp diverse objects with no visual observation. We present a modular dexterous grasping architecture that separates global arm motion from local contact control. An independentl...",
+      "url": "https://arxiv.org/abs/2609.31323v1",
+      "date": "2026-09-25",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.31323v1",
+      "authors": "Alexander Alexiev, Tzu-Yuan Lin et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Towards VLA-Dreamer: Refining VLA Behavior Using World Models",
+      "summary": "Vision-Language-Action models (VLAs), while showing strong potential for robot control, require massive amounts of high-quality imitation learning data. Moreover, the absence of an explicit world model casts further doubt on their control capabilitie...",
+      "url": "https://arxiv.org/abs/2609.31313v1",
+      "date": "2026-09-25",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.31313v1",
+      "authors": "Parsa Mastouri Kashani, Jan-Gerrit Habekost et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Cybflight: An Embedded Rust Autopilot for Aerial Robotics Research",
+      "summary": "Bringing an aerial robotics method from simulation to flight should not require rebuilding a mature autopilot or adding a companion computer. Cybflight is an open-source embedded Rust research autopilot whose typed, replaceable interfaces connect har...",
+      "url": "https://arxiv.org/abs/2609.31232v1",
+      "date": "2026-09-25",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.31232v1",
+      "authors": "Yifan Lin, Chao Qin et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
     {
       "title": "[数据流架构进军 具 身 智 能：高光D35为何成为启元机器人的算力伙伴",
       "summary": "[数据流架构进军 具 身 智 能：高光D35为何成为启元机器人的算力伙伴",
@@ -12,6 +92,19 @@
       "type": "news",
       "tags": [
         "机器人"
+      ]
+    },
+    {
+      "title": "国网南网先后绑定宇树，争夺电力具身智能标准权",
+      "summary": "国网南网先后绑定宇树，争夺电力具身智能标准权",
+      "url": "http://36kr.com/p/3996210299393671",
+      "date": "2026-09-24",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
       ]
     },
     {
@@ -92,19 +185,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "国网南网先后绑定宇树，争夺电力具身智能标准权",
-      "summary": "国网南网先后绑定宇树，争夺电力具身智能标准权",
-      "url": "http://36kr.com/p/3996210299393671",
-      "date": "2026-09-24",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
       ]
     },
     {
@@ -3005,79 +3085,6 @@
       "tags": [
         "机器人",
         "具身智能"
-      ]
-    },
-    {
-      "title": "世界模型正成为具身智能的新风口，但围绕VLA与世界模型的关系、模型架构和训练数据，机器人究竟该如何理解世界并完成任务，行业仍远未形成共识。",
-      "summary": "世界模型正成为具身智能的新风口，但围绕VLA与世界模型的关系、模型架构和训练数据，机器人究竟该如何理解世界并完成任务，行业仍远未形成共识。",
-      "url": "http://36kr.com/p/3958818940648581",
-      "date": "2026-08-28",
-      "source": "36氪",
-      "category": "机器人学习",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "安努智能押注机器人大规模商用的“最后一公里”。",
-      "summary": "安努智能押注机器人大规模商用的“最后一公里”。",
-      "url": "http://36kr.com/p/3958835091635588",
-      "date": "2026-08-28",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
-      ]
-    },
-    {
-      "title": "Aero Hand Open: A Simulation-Ready Tendon-Driven Hand for Dexterous Manipulation Learning",
-      "summary": "Tendon-driven hands are anthropomorphic, and moving the actuators off the joints is what makes a hand of this capability affordable to build. Two effects produce that saving. Routing force through a cable removes the requirement that a motor fit insi...",
-      "url": "https://arxiv.org/abs/2608.28578v1",
-      "date": "2026-08-28",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.28578v1",
-      "authors": "Nan Wang, Mohit Yadav et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "ChainSplat: A Physics-Inspired Screw-Theoretic Model for Learning Deformable Linear Object Dynamics from Multi-View RGB Videos",
-      "summary": "Identifying the underlying dynamics and 3D geometry of deformable linear objects (DLOs), such as cables, ropes, and hoses, is essential for accurate robotic manipulation, but remains challenging due to their high-dimensional configuration spaces and ...",
-      "url": "https://arxiv.org/abs/2608.28570v1",
-      "date": "2026-08-28",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.28570v1",
-      "authors": "Seungyeon Kim, Noémie Jaquier",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "When Robots Mishear Us: Mapping the Safety Risks of Voice-Controlled Embodied AI",
-      "summary": "We investigate whether automatic speech recognition (ASR) errors in user input can lead to unsafe outputs from Embodied AI (EAI) models. We find that ASR errors can lead to harmful instructions being accepted and executed by EAI models, thereby reduc...",
-      "url": "https://arxiv.org/abs/2608.28518v1",
-      "date": "2026-08-28",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.28518v1",
-      "authors": "Sihan Jia, Oliver Lemon",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
       ]
     }
   ]

@@ -1,51 +1,18 @@
 {
-  "last_updated": "2026-09-27",
-  "count": 7,
+  "last_updated": "2026-09-28",
+  "count": 8,
   "items": [
     {
-      "title": "LLM Agents Can Easily Tamper With Their Own Traces",
-      "authors": "Jeremy Qin, David Schmotz, Derck Prinzhorn et al.",
-      "abstract": "Asynchronous monitoring, incident investigations, and compliance audits primarily rely on agent traces to reconstruct what happened. These analyses assume that LLM agents cannot tamper with their own execution traces. We show that local LLM agents such as Claude Code, Codex, Antigravity, Open Code a...",
+      "title": "Learning to Stop without Learning to Stop: Self-Supervised Confidence Training Improves Reasoning Efficiency",
+      "authors": "Parsa Hosseini, Akasha Tigalappanavara, Sumit Nawathe et al.",
+      "abstract": "Reasoning models often generate very long reasoning traces, making inference computationally expensive. Existing approaches typically improve efficiency either through inference-time early-stopping mechanisms or by explicitly encouraging shorter reasoning during training, for example through reinfor...",
       "venue": "arXiv",
-      "date": "2026-09-24",
-      "arxiv_id": "2609.30266v1",
-      "url": "https://arxiv.org/abs/2609.30266v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.30266v1.pdf",
-      "categories": [
-        "cs.CR",
-        "cs.AI"
-      ],
-      "type": "ai",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "AD-WM: Action-Discriminative World Models for Counterfactual Model Predictive Control",
-      "authors": "Jiabin Qiu, Zixuan Chen, Hongye Cao et al.",
-      "abstract": "Latent world models are typically trained to predict factual transitions, whereas model predictive control (MPC) must compare alternative actions from the same state. A model can therefore achieve low factual prediction error yet poorly distinguish candidate actions. We introduce AD-WM, an action-di...",
-      "venue": "arXiv",
-      "date": "2026-09-24",
-      "arxiv_id": "2609.30264v1",
-      "url": "https://arxiv.org/abs/2609.30264v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.30264v1.pdf",
+      "date": "2026-09-25",
+      "arxiv_id": "2609.31619v1",
+      "url": "https://arxiv.org/abs/2609.31619v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.31619v1.pdf",
       "categories": [
         "cs.AI",
-        "cs.RO"
-      ],
-      "type": "ai",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Agentic Detection of Online Conspiracies",
-      "authors": "Lior Biton, Oren Tsur",
-      "abstract": "Conspiratorial discourse on social media is not always expressed through explicit claims or stable lexical markers. The same surface content may express endorsement, legitimate concerns, criticism, satire, or mockery. The main challenge is therefore not only recognizing conspiracy-related claims, bu...",
-      "venue": "arXiv",
-      "date": "2026-09-24",
-      "arxiv_id": "2609.30250v1",
-      "url": "https://arxiv.org/abs/2609.30250v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.30250v1.pdf",
-      "categories": [
         "cs.CL",
         "cs.LG"
       ],
@@ -54,15 +21,34 @@
       "source": "arXiv"
     },
     {
-      "title": "JevOut: Natural Context Can Flip Decision Models",
-      "authors": "Zixiang Xu",
-      "abstract": "Dedicated decision models such as Jev map unstructured language to probability distributions over finite choices, allowing their outputs to directly route requests, select tools, and trigger actions. Yet real-world inputs rarely arrive in isolation: they come with background details and surrounding ...",
+      "title": "Statistical attribute alignment for black-box generative AI via output post-processing",
+      "authors": "Kevin Jiang, Morgane Austern, Edgar Dobriban et al.",
+      "abstract": "Generative AI systems are increasingly used, but aligning their outputs with user requirements poses a continuing challenge. Here, we aim to ensure that the distribution of an attribute of an AI-generated output aligns with a user-specified target. This is motivated by examples such as fairness, whe...",
       "venue": "arXiv",
-      "date": "2026-09-24",
-      "arxiv_id": "2609.30243v1",
-      "url": "https://arxiv.org/abs/2609.30243v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.30243v1.pdf",
+      "date": "2026-09-25",
+      "arxiv_id": "2609.31607v1",
+      "url": "https://arxiv.org/abs/2609.31607v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.31607v1.pdf",
       "categories": [
+        "stat.ME",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "User Model Extraction via Belief Self-Distillation",
+      "authors": "Ali Holmov, Yiran Huang, Kirill Bykov et al.",
+      "abstract": "Large language models (LLMs) implicitly infer attributes of their users and adapt their behavior accordingly, yet these beliefs remain difficult to inspect and causally manipulate. We introduce Belief Self-Distillation (BSD), a unified read-write framework that bridges linear and causal probing by l...",
+      "venue": "arXiv",
+      "date": "2026-09-25",
+      "arxiv_id": "2609.31603v1",
+      "url": "https://arxiv.org/abs/2609.31603v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.31603v1.pdf",
+      "categories": [
+        "cs.LG",
         "cs.CL"
       ],
       "type": "nlp",
@@ -70,17 +56,15 @@
       "source": "arXiv"
     },
     {
-      "title": "RAPID: Robot Agentic Programming from Demonstrations",
-      "authors": "Yuyao Liu, Jiayuan Mao, David Hsu et al.",
-      "abstract": "Coding agents have demonstrated enormous success in solving complex programming problems. To leverage their potential for robot systems, this work introduces Robot Agentic Programming from Demonstrations (RAPID), which automatically generates, verifies, and refines robot programs, given a single vis...",
+      "title": "FuseReg: Regularizing Layer Fusion Mitigates the Reconstruction-Generation Gap in Representation Autoencoders",
+      "authors": "Hongyang Du, Yunfei Xie, Junjie Ye et al.",
+      "abstract": "Representation autoencoders (RAEs) reuse features from a pretrained visual encoder as reconstruction and diffusion latents, integrating strong visual representations into image generation. However, RAEs still need to decide which encoder layers form the shared latent space for the generator and pixe...",
       "venue": "arXiv",
-      "date": "2026-09-24",
-      "arxiv_id": "2609.30249v1",
-      "url": "https://arxiv.org/abs/2609.30249v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.30249v1.pdf",
+      "date": "2026-09-25",
+      "arxiv_id": "2609.31620v1",
+      "url": "https://arxiv.org/abs/2609.31620v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.31620v1.pdf",
       "categories": [
-        "cs.RO",
-        "cs.AI",
         "cs.CV"
       ],
       "type": "vision",
@@ -88,17 +72,15 @@
       "source": "arXiv"
     },
     {
-      "title": "Rolling-WAM: World Action Models with Rolling Imagination",
-      "authors": "Yinghua Zhou, Junjie Ye, Yiqi Zhao et al.",
-      "abstract": "World Action Models (WAMs) couple action generation with future visual prediction for robotic manipulation. However, completing the joint video-action denoising process at each replanning cycle incurs substantial latency, delaying action updates and limiting closed-loop responsiveness. We present Ro...",
+      "title": "GraphWrit3R: End-to-End 3D Scene Graph Writing",
+      "authors": "Luka Milivojevic, Nikola Popovic, Sayan Deb Sarkar et al.",
+      "abstract": "3D scene graphs provide a structured representation of complex environments by encoding objects, their semantic attributes, and the spatial and functional relationships between them. Current approaches for 3D scene graph generation suffer from several fundamental limitations. They rely on complex mu...",
       "venue": "arXiv",
-      "date": "2026-09-24",
-      "arxiv_id": "2609.30247v1",
-      "url": "https://arxiv.org/abs/2609.30247v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.30247v1.pdf",
+      "date": "2026-09-25",
+      "arxiv_id": "2609.31595v1",
+      "url": "https://arxiv.org/abs/2609.31595v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.31595v1.pdf",
       "categories": [
-        "cs.RO",
-        "cs.AI",
         "cs.CV"
       ],
       "type": "vision",
@@ -106,18 +88,51 @@
       "source": "arXiv"
     },
     {
-      "title": "Temporal Gradient Inversion for Private Trajectory Reconstruction in Embodied Reinforcement Learning",
-      "authors": "Sudip Bhujel, Shanghao Shi, Ruiquan Huang et al.",
-      "abstract": "Distributed learning in embodied reinforcement-learning agents offers a degree of privacy by retaining raw sensor data on-device and transmitting only policy gradients to the server. Yet temporal structure can amplify this leakage beyond single-frame attacks. We introduce Temporal Reconstruction Att...",
+      "title": "Gap-free Differentially Private PCA for Gaussian Data",
+      "authors": "Alina Ene, Huy L. Nguyen",
+      "abstract": "We give a gap-free differentially private algorithm for the principal component analysis (PCA) problem with Gaussian data.",
       "venue": "arXiv",
-      "date": "2026-09-24",
-      "arxiv_id": "2609.30258v1",
-      "url": "https://arxiv.org/abs/2609.30258v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.30258v1.pdf",
+      "date": "2026-09-25",
+      "arxiv_id": "2609.31614v1",
+      "url": "https://arxiv.org/abs/2609.31614v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.31614v1.pdf",
       "categories": [
+        "cs.DS",
         "cs.LG"
       ],
       "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Learning Robot Policies from Sparse Success Signals via STL-Guided Stein Variational Policy Gradient",
+      "authors": "Hongrui Zheng, Cristian Ioan Vasile, Antonio Loquercio et al.",
+      "abstract": "Learning robot policies for tasks with sparse success signals is challenging when completion depends on coordinated actions, precise contact outcomes, or satisfying several conditions together. Intricate physical interactions with the world further complicate these requirements. Prior work using con...",
+      "venue": "arXiv",
+      "date": "2026-09-25",
+      "arxiv_id": "2609.31606v1",
+      "url": "https://arxiv.org/abs/2609.31606v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.31606v1.pdf",
+      "categories": [
+        "cs.RO"
+      ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Generate, Track, Improve: Perceptive Multi-Skill Humanoid Locomotion with RL-Fine-Tuned Motion Generators",
+      "authors": "Zachary Olkin, William D. Compton, Aaron D. Ames",
+      "abstract": "General purpose humanoids require locomotion controllers that are multi-skill, perceptive, dynamic, and robust enough to go anywhere humans can. In this work, we present a two layer locomotion architecture: (1) a perceptive flow matching motion generator plans whole body trajectories from raw depth ...",
+      "venue": "arXiv",
+      "date": "2026-09-25",
+      "arxiv_id": "2609.31577v1",
+      "url": "https://arxiv.org/abs/2609.31577v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.31577v1.pdf",
+      "categories": [
+        "cs.RO"
+      ],
+      "type": "ai",
       "badge": "arxiv",
       "source": "arXiv"
     }

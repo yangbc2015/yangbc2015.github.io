@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-27",
-  "last_updated": "2026-09-27",
+  "date": "2026-09-28",
+  "last_updated": "2026-09-28",
   "categories": {
     "ai": {
       "name": "人工智能",
@@ -8,59 +8,59 @@
       "count": 5,
       "items": [
         {
-          "title": "NASA给月亮造了个AI：用月面数据训练可复用基础模型",
-          "link": "https://www.jiqizhixin.com/search/articles/NASA给月亮造了个AI：用月",
-          "summary": "NASA给月亮造了个AI：用月面数据训练可复用基础模型...",
-          "date": "2026-09-26",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
-          "title": "计算机科学学术界死了吗？AI博士生该何去何从",
-          "link": "https://www.jiqizhixin.com/search/articles/计算机科学学术界死了吗？AI博",
-          "summary": "计算机科学学术界死了吗？AI博士生该何去何从...",
-          "date": "2026-09-26",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
-          "title": "答对了，理由却错了：港科大提出LexAgentHallu，追踪智能体的「隐性幻觉」",
-          "link": "https://www.jiqizhixin.com/search/articles/答对了，理由却错了：港科大提出",
-          "summary": "答对了，理由却错了：港科大提出LexAgentHallu，追踪智能体的「隐性幻觉」...",
-          "date": "2026-09-26",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
-          "title": "OpenAI承认：AI把用户图片传到了网上，53个案例公开",
-          "link": "https://www.jiqizhixin.com/search/articles/OpenAI承认：AI把用户图",
-          "summary": "OpenAI承认：AI把用户图片传到了网上，53个案例公开...",
-          "date": "2026-09-26",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
-          "title": "想让开发者“说句话就能跑量子计算”",
-          "link": "https://www.qbitai.com/?s=想让开发者“说句话就",
-          "summary": "想让开发者“说句话就能跑量子计算”...",
+          "title": "Markdown Content:",
+          "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+          "summary": "Markdown Content:...",
           "date": "2026-09-27",
-          "source": "量子位",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "Plan Mode才成标配，就有人宣布它「已死」",
+          "link": "https://www.jiqizhixin.com/search/articles/Plan Mode才成标配，就",
+          "summary": "Plan Mode才成标配，就有人宣布它「已死」...",
+          "date": "2026-09-27",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "DeepSeek mHC多流残差坍塌失效了？",
+          "link": "https://www.jiqizhixin.com/search/articles/DeepSeek mHC多流残",
+          "summary": "DeepSeek mHC多流残差坍塌失效了？...",
+          "date": "2026-09-27",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "Claude Code、Codex组队干活，Raven新版本既做总调度，也让Harness持续进化",
+          "link": "https://www.jiqizhixin.com/search/articles/Claude Code、Cod",
+          "summary": "Claude Code、Codex组队干活，Raven新版本既做总调度，也让Harness持续进化...",
+          "date": "2026-09-27",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "CoRL 2026 | 0条带力数据预训练！上海交大卢策吾、汶川团队让VLA学会力",
+          "link": "https://www.jiqizhixin.com/search/articles/CoRL 2026 | 0条带",
+          "summary": "CoRL 2026 | 0条带力数据预训练！上海交大卢策吾、汶川团队让VLA学会力...",
+          "date": "2026-09-27",
+          "source": "机器之心",
           "type": "industry",
           "tags": [
             "AI",

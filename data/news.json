@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-09-27",
+  "last_updated": "2026-09-28",
   "count": 200,
-  "history_count": 200,
+  "history_count": 205,
   "retention_days": 30,
   "items": [
     {
       "title": "想让开发者“说句话就能跑量子计算”",
       "link": "https://www.qbitai.com/?s=想让开发者“说句话就",
       "summary": "想让开发者“说句话就能跑量子计算”...",
-      "date": "2026-09-27",
+      "date": "2026-09-28",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -20,7 +20,7 @@
       "title": "“世界模型”开始成为具身智能跨越商业化“奇点”的新叙事。",
       "link": "https://www.qbitai.com/?s=“世界模型”开始成为",
       "summary": "“世界模型”开始成为具身智能跨越商业化“奇点”的新叙事。...",
-      "date": "2026-09-27",
+      "date": "2026-09-28",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -32,7 +32,7 @@
       "title": "Simate将训练、推理与评测全流程接入自研Infra，通过极致的任务编排与资源调度，同时并行推进数十条相互独立的研究路线。",
       "link": "https://www.qbitai.com/?s=Simate将训练、",
       "summary": "Simate将训练、推理与评测全流程接入自研Infra，通过极致的任务编排与资源调度，同时并行推进数十条相互独立的研究路线。...",
-      "date": "2026-09-27",
+      "date": "2026-09-28",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -44,7 +44,7 @@
       "title": "GitHub现在最火热的大模型开源小蜂鸟Colibrì是个啥？",
       "link": "https://www.qbitai.com/?s=GitHub现在最火",
       "summary": "GitHub现在最火热的大模型开源小蜂鸟Colibrì是个啥？...",
-      "date": "2026-09-27",
+      "date": "2026-09-28",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -56,7 +56,7 @@
       "title": "大厂造芯，正在从交付芯片，走向更广泛的开放共建阶段。",
       "link": "https://www.qbitai.com/?s=大厂造芯，正在从交付",
       "summary": "大厂造芯，正在从交付芯片，走向更广泛的开放共建阶段。...",
-      "date": "2026-09-27",
+      "date": "2026-09-28",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -68,12 +68,84 @@
       "title": "*   [Latest](http://techcrunch.com/latest/)",
       "link": "https://techcrunch.com/category/artificial-intelligence/",
       "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
-      "date": "2026-09-27",
+      "date": "2026-09-28",
       "source": "TechCrunch",
       "type": "industry",
       "tags": [
         "AI",
         "Artificial Intelligence"
+      ]
+    },
+    {
+      "title": "Markdown Content:",
+      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+      "summary": "Markdown Content:...",
+      "date": "2026-09-27",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "Plan Mode才成标配，就有人宣布它「已死」",
+      "link": "https://www.jiqizhixin.com/search/articles/Plan Mode才成标配，就",
+      "summary": "Plan Mode才成标配，就有人宣布它「已死」...",
+      "date": "2026-09-27",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "DeepSeek mHC多流残差坍塌失效了？",
+      "link": "https://www.jiqizhixin.com/search/articles/DeepSeek mHC多流残",
+      "summary": "DeepSeek mHC多流残差坍塌失效了？...",
+      "date": "2026-09-27",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "Claude Code、Codex组队干活，Raven新版本既做总调度，也让Harness持续进化",
+      "link": "https://www.jiqizhixin.com/search/articles/Claude Code、Cod",
+      "summary": "Claude Code、Codex组队干活，Raven新版本既做总调度，也让Harness持续进化...",
+      "date": "2026-09-27",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "CoRL 2026 | 0条带力数据预训练！上海交大卢策吾、汶川团队让VLA学会力",
+      "link": "https://www.jiqizhixin.com/search/articles/CoRL 2026 | 0条带",
+      "summary": "CoRL 2026 | 0条带力数据预训练！上海交大卢策吾、汶川团队让VLA学会力...",
+      "date": "2026-09-27",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "模型越来越强，企业AI为什么还卡在「最后一公里」？",
+      "link": "https://www.jiqizhixin.com/search/articles/模型越来越强，企业AI为什么还",
+      "summary": "模型越来越强，企业AI为什么还卡在「最后一公里」？...",
+      "date": "2026-09-27",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
       ]
     },
     {
@@ -128,18 +200,6 @@
       "title": "OpenAI承认：AI把用户图片传到了网上，53个案例公开",
       "link": "https://www.jiqizhixin.com/search/articles/OpenAI承认：AI把用户图",
       "summary": "OpenAI承认：AI把用户图片传到了网上，53个案例公开...",
-      "date": "2026-09-26",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Markdown Content:",
-      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-      "summary": "Markdown Content:...",
       "date": "2026-09-26",
       "source": "机器之心",
       "type": "industry",
@@ -2337,66 +2397,6 @@
       "link": "https://www.jiqizhixin.com/search/articles/Claude把千禧年难题做出来",
       "summary": "Claude把千禧年难题做出来了？陶哲轩：我可没这么说...",
       "date": "2026-09-06",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "从「看见人」到「行动如人」：基础模型时代的Human-Centric AI全谱系综述",
-      "link": "https://www.jiqizhixin.com/search/articles/从「看见人」到「行动如人」：基",
-      "summary": "从「看见人」到「行动如人」：基础模型时代的Human-Centric AI全谱系综述...",
-      "date": "2026-09-06",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "雷鸟创新（RayNeo）包揽全球 AR 眼镜与中国智能眼镜市场出货量和销量第一。",
-      "link": "https://www.qbitai.com/?s=雷鸟创新（RayNe",
-      "summary": "雷鸟创新（RayNeo）包揽全球 AR 眼镜与中国智能眼镜市场出货量和销量第一。...",
-      "date": "2026-09-06",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "AI实现原子级自动化，逐原子创建定制功能的人造石墨烯",
-      "link": "https://www.jiqizhixin.com/search/articles/AI实现原子级自动化，逐原子创",
-      "summary": "AI实现原子级自动化，逐原子创建定制功能的人造石墨烯...",
-      "date": "2026-09-05",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "VLA开环盲区，终于被堵上了：40M Corrector让机器人边做边纠错",
-      "link": "https://www.jiqizhixin.com/search/articles/VLA开环盲区，终于被堵上了：",
-      "summary": "VLA开环盲区，终于被堵上了：40M Corrector让机器人边做边纠错...",
-      "date": "2026-09-05",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Alaya Lab：为AGI构建下一代游戏工程",
-      "link": "https://www.jiqizhixin.com/search/articles/Alaya Lab：为AGI构",
-      "summary": "Alaya Lab：为AGI构建下一代游戏工程...",
-      "date": "2026-09-05",
       "source": "机器之心",
       "type": "industry",
       "tags": [
