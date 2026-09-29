@@ -1,54 +1,68 @@
 {
-  "last_updated": "2026-09-28",
-  "count": 8,
+  "last_updated": "2026-09-29",
+  "count": 10,
   "items": [
     {
-      "title": "Learning to Stop without Learning to Stop: Self-Supervised Confidence Training Improves Reasoning Efficiency",
-      "authors": "Parsa Hosseini, Akasha Tigalappanavara, Sumit Nawathe et al.",
-      "abstract": "Reasoning models often generate very long reasoning traces, making inference computationally expensive. Existing approaches typically improve efficiency either through inference-time early-stopping mechanisms or by explicitly encouraging shorter reasoning during training, for example through reinfor...",
+      "title": "QAM: Quadratic-Accurate Checkpoint Merging via Sequential Consistency",
+      "authors": "Shihao Wang, Rui Kong, Xinran Chen et al.",
+      "abstract": "Saved checkpoints record states along a training trajectory, but generally do not determine the updates at states that would be visited under a different schedule. We study how accurately these checkpoints can reconstruct the endpoint of a sequential reference with prescribed update strengths. Under...",
       "venue": "arXiv",
-      "date": "2026-09-25",
-      "arxiv_id": "2609.31619v1",
-      "url": "https://arxiv.org/abs/2609.31619v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.31619v1.pdf",
+      "date": "2026-09-28",
+      "arxiv_id": "2609.35168v1",
+      "url": "https://arxiv.org/abs/2609.35168v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.35168v1.pdf",
       "categories": [
-        "cs.AI",
-        "cs.CL",
-        "cs.LG"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Statistical attribute alignment for black-box generative AI via output post-processing",
-      "authors": "Kevin Jiang, Morgane Austern, Edgar Dobriban et al.",
-      "abstract": "Generative AI systems are increasingly used, but aligning their outputs with user requirements poses a continuing challenge. Here, we aim to ensure that the distribution of an attribute of an AI-generated output aligns with a user-specified target. This is motivated by examples such as fairness, whe...",
-      "venue": "arXiv",
-      "date": "2026-09-25",
-      "arxiv_id": "2609.31607v1",
-      "url": "https://arxiv.org/abs/2609.31607v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.31607v1.pdf",
-      "categories": [
-        "stat.ME",
-        "cs.AI",
-        "cs.LG"
+        "cs.LG",
+        "cs.AI"
       ],
       "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "User Model Extraction via Belief Self-Distillation",
-      "authors": "Ali Holmov, Yiran Huang, Kirill Bykov et al.",
-      "abstract": "Large language models (LLMs) implicitly infer attributes of their users and adapt their behavior accordingly, yet these beliefs remain difficult to inspect and causally manipulate. We introduce Belief Self-Distillation (BSD), a unified read-write framework that bridges linear and causal probing by l...",
+      "title": "Learning to Re-Draft: A Variational Stackelberg Game for Discrete Diffusion",
+      "authors": "Dmitrii Moor, Federico Tomasi, Paul N. Bennett et al.",
+      "abstract": "Discrete diffusion models offer the ability to re-draft, revisiting and correcting earlier tokens throughout generation. This capability depends on the forward corruption process that defines what the denoiser learns to correct. Masked diffusion models fix tokens once they are unmasked, while unifor...",
       "venue": "arXiv",
-      "date": "2026-09-25",
-      "arxiv_id": "2609.31603v1",
-      "url": "https://arxiv.org/abs/2609.31603v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.31603v1.pdf",
+      "date": "2026-09-28",
+      "arxiv_id": "2609.35166v1",
+      "url": "https://arxiv.org/abs/2609.35166v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.35166v1.pdf",
       "categories": [
         "cs.LG",
+        "cs.AI"
+      ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "A mechanistic study of language model introspection",
+      "authors": "Jiahong Zou, Xiangkun Sun, Lingkai Kong et al.",
+      "abstract": "Large language models (LLMs) can sometimes report perturbations to their internal activations---even when the input provides no evidence that an intervention occurred. How do models detect and localize such internal changes? We study this question using a controlled task that keeps the input text fi...",
+      "venue": "arXiv",
+      "date": "2026-09-28",
+      "arxiv_id": "2609.35108v1",
+      "url": "https://arxiv.org/abs/2609.35108v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.35108v1.pdf",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "When Confidence Rises Too Early: Detecting Shortcut Reasoning via Premature Answer Commitment",
+      "authors": "Zhaohan Zhang, Junjie Liu, Chengzhengxu Li et al.",
+      "abstract": "The reasoning trajectory of a Large Language Model (LLM) is often treated as a verbalized description of its internal reasoning. However, such trajectories can be unfaithful: a model may rely on shortcuts to reach an answer and then post-rationalize the decision with a seemingly coherent chain of th...",
+      "venue": "arXiv",
+      "date": "2026-09-28",
+      "arxiv_id": "2609.35074v1",
+      "url": "https://arxiv.org/abs/2609.35074v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.35074v1.pdf",
+      "categories": [
         "cs.CL"
       ],
       "type": "nlp",
@@ -56,14 +70,32 @@
       "source": "arXiv"
     },
     {
-      "title": "FuseReg: Regularizing Layer Fusion Mitigates the Reconstruction-Generation Gap in Representation Autoencoders",
-      "authors": "Hongyang Du, Yunfei Xie, Junjie Ye et al.",
-      "abstract": "Representation autoencoders (RAEs) reuse features from a pretrained visual encoder as reconstruction and diffusion latents, integrating strong visual representations into image generation. However, RAEs still need to decide which encoder layers form the shared latent space for the generator and pixe...",
+      "title": "Timeline-Bench: Evaluating Agents on Realistic Video-Editing Tasks, from Raw Footage to Final Cut",
+      "authors": "Gunin Gupta, Nirmit Arora, Pavan Kalyan Tankala",
+      "abstract": "AI agents increasingly carry out long-horizon professional work, but their evaluations rarely require a finished creative deliverable. To this end, we introduce Timeline-Bench, a benchmark of 56 real video-editing tasks, each asking an agent to turn raw production material into a finished video. Tas...",
       "venue": "arXiv",
-      "date": "2026-09-25",
-      "arxiv_id": "2609.31620v1",
-      "url": "https://arxiv.org/abs/2609.31620v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.31620v1.pdf",
+      "date": "2026-09-28",
+      "arxiv_id": "2609.35143v1",
+      "url": "https://arxiv.org/abs/2609.35143v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.35143v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.MM"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "VideoPhysEdit: Physical Counterfactual Video Editing via Rigid-Body Physical Scene Reconstruction",
+      "authors": "Conghan Yue, Yuanjie Chen, Yue Han et al.",
+      "abstract": "Video editing has advanced substantially in recent years, with methods increasingly accounting for the visual consequences of edits, such as changes to shadows and occlusions. However, the physical consequences of edits, including changes to subsequent motion and interactions, remain less explored. ...",
+      "venue": "arXiv",
+      "date": "2026-09-28",
+      "arxiv_id": "2609.35134v1",
+      "url": "https://arxiv.org/abs/2609.35134v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.35134v1.pdf",
       "categories": [
         "cs.CV"
       ],
@@ -72,32 +104,15 @@
       "source": "arXiv"
     },
     {
-      "title": "GraphWrit3R: End-to-End 3D Scene Graph Writing",
-      "authors": "Luka Milivojevic, Nikola Popovic, Sayan Deb Sarkar et al.",
-      "abstract": "3D scene graphs provide a structured representation of complex environments by encoding objects, their semantic attributes, and the spatial and functional relationships between them. Current approaches for 3D scene graph generation suffer from several fundamental limitations. They rely on complex mu...",
+      "title": "Subgroup Rank-1 Lattice for Practical High-dimensional Black-box Integral Approximation",
+      "authors": "Yueming Lyu",
+      "abstract": "Estimating integrals of black-box, high-dimensional functions, from expectations and kernel mean embeddings to the softmax kernel in self-attention, is a basic subroutine in machine learning. Rank-1 lattice rules suit this setting: they query the integrand only at a fixed point set and need no gradi...",
       "venue": "arXiv",
-      "date": "2026-09-25",
-      "arxiv_id": "2609.31595v1",
-      "url": "https://arxiv.org/abs/2609.31595v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.31595v1.pdf",
+      "date": "2026-09-28",
+      "arxiv_id": "2609.35177v1",
+      "url": "https://arxiv.org/abs/2609.35177v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.35177v1.pdf",
       "categories": [
-        "cs.CV"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Gap-free Differentially Private PCA for Gaussian Data",
-      "authors": "Alina Ene, Huy L. Nguyen",
-      "abstract": "We give a gap-free differentially private algorithm for the principal component analysis (PCA) problem with Gaussian data.",
-      "venue": "arXiv",
-      "date": "2026-09-25",
-      "arxiv_id": "2609.31614v1",
-      "url": "https://arxiv.org/abs/2609.31614v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.31614v1.pdf",
-      "categories": [
-        "cs.DS",
         "cs.LG"
       ],
       "type": "ml",
@@ -105,30 +120,47 @@
       "source": "arXiv"
     },
     {
-      "title": "Learning Robot Policies from Sparse Success Signals via STL-Guided Stein Variational Policy Gradient",
-      "authors": "Hongrui Zheng, Cristian Ioan Vasile, Antonio Loquercio et al.",
-      "abstract": "Learning robot policies for tasks with sparse success signals is challenging when completion depends on coordinated actions, precise contact outcomes, or satisfying several conditions together. Intricate physical interactions with the world further complicate these requirements. Prior work using con...",
+      "title": "ProtoSeam: Lifting Classifier Training with Latent Gaussian Mixture Models",
+      "authors": "Robert Lampel, Timon Klein, Sebastian Sager",
+      "abstract": "We propose a lifted reformulation of supervised classification that improves the final accuracy of standard classifiers without changing the architecture at inference time. A network $N=N_2\\circ N_1$ is split at a single semantic interface and one learnable prototype per class is inserted there. Tra...",
       "venue": "arXiv",
-      "date": "2026-09-25",
-      "arxiv_id": "2609.31606v1",
-      "url": "https://arxiv.org/abs/2609.31606v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.31606v1.pdf",
+      "date": "2026-09-28",
+      "arxiv_id": "2609.35174v1",
+      "url": "https://arxiv.org/abs/2609.35174v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.35174v1.pdf",
       "categories": [
-        "cs.RO"
+        "cs.LG"
       ],
       "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Generate, Track, Improve: Perceptive Multi-Skill Humanoid Locomotion with RL-Fine-Tuned Motion Generators",
-      "authors": "Zachary Olkin, William D. Compton, Aaron D. Ames",
-      "abstract": "General purpose humanoids require locomotion controllers that are multi-skill, perceptive, dynamic, and robust enough to go anywhere humans can. In this work, we present a two layer locomotion architecture: (1) a perceptive flow matching motion generator plans whole body trajectories from raw depth ...",
+      "title": "Task-Oriented Communications for Edge-Assisted Multi-View Localization",
+      "authors": "Zhengru Fang, Huanhuan Lou, Senkang Hu et al.",
+      "abstract": "Unmanned aerial vehicles (UAVs) and unmanned ground vehicles (UGVs) often lose satellite positioning in urban canyons, indoor facilities, and jammed or spoofed environments, making vision-based matching with geo-tagged databases important for absolute positioning. However, limited onboard computatio...",
       "venue": "arXiv",
-      "date": "2026-09-25",
-      "arxiv_id": "2609.31577v1",
-      "url": "https://arxiv.org/abs/2609.31577v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.31577v1.pdf",
+      "date": "2026-09-28",
+      "arxiv_id": "2609.35173v1",
+      "url": "https://arxiv.org/abs/2609.35173v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.35173v1.pdf",
+      "categories": [
+        "cs.NI",
+        "cs.RO"
+      ],
+      "type": "ai",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "QuadHand: A Compact Quadrotor Aerial Manipulator with MRC-SDF-Based Whole-Body Motion Planning",
+      "authors": "Rui Jin, Ruiyang Liu, Xinhang Xu et al.",
+      "abstract": "Uncrewed aerial manipulators (UAMs) integrate robotic arms with aerial platforms for three-dimensional physical interaction. However, enlarging the workspace increases arm-induced disturbances, while existing geometric representations face a trade-off between geometric fidelity and computational eff...",
+      "venue": "arXiv",
+      "date": "2026-09-28",
+      "arxiv_id": "2609.35094v1",
+      "url": "https://arxiv.org/abs/2609.35094v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.35094v1.pdf",
       "categories": [
         "cs.RO"
       ],

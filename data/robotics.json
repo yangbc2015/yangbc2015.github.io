@@ -1,7 +1,87 @@
 {
-  "last_updated": "2026-09-28",
+  "last_updated": "2026-09-29",
   "count": 200,
   "items": [
+    {
+      "title": "3D Point Tracking with State Space Models",
+      "summary": "Tracking any point of a dynamic scene in metric 3D - in absolute meters, not up to an unknown scale - underpins 3D and 4D reconstruction, robot navigation, and autonomous driving, where decisions are made in meters, not pixels. Our objective is a 3D ...",
+      "url": "https://arxiv.org/abs/2609.34035v1",
+      "date": "2026-09-27",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.34035v1",
+      "authors": "Masahiro Ogawa, Qi An et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Estimate, Don't Imitate: Reusing Differentiable State-Based Policies for Visuomotor Control",
+      "summary": "Simulation-trained manipulation policies can exploit privileged state information to learn effective contact-rich behaviours, but deployment requires acting from partial observations such as noisy camera images. A common solution is teacher-student d...",
+      "url": "https://arxiv.org/abs/2609.34018v1",
+      "date": "2026-09-27",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.34018v1",
+      "authors": "Denis Shcherba, Adrian Abel et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "ZeroBot: Learning from Scratch in Minutes with Generative Real2Sim",
+      "summary": "We present ZeroBot, a real2sim framework for learning a robot manipulation task from scratch in minutes under challenging conditions: zero human demonstrations, zero policy pre-training, and zero known object models. Given only a single view of an ob...",
+      "url": "https://arxiv.org/abs/2609.34010v1",
+      "date": "2026-09-27",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.34010v1",
+      "authors": "Ivan Kapelyukh, Xiaohan Zhang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "TacGooseBumps (TacGB): Retrofitting Normal-Only Tactile Sensors with Shear Encoding for Learning Contact-Rich Manipulation",
+      "summary": "Contact-rich policies often fail because distinct physical states look alike yet require different actions. Cameras may not reveal whether a connector is aligned or fully seated, while many normal-only tactile sensors can miss the tangential interact...",
+      "url": "https://arxiv.org/abs/2609.34006v1",
+      "date": "2026-09-27",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.34006v1",
+      "authors": "Wenjie Li, Binyu Yang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Test-Time Spatial Reasoning for Robot Manipulation Using Generative Real-to-Sim",
+      "summary": "Spatial reasoning is fundamental to general robot intelligence, as it enables robots to complete long-horizon tasks involving multi-object interaction. We introduce Simify, a training-free, test-time framework that performs explicit spatial reasoning...",
+      "url": "https://arxiv.org/abs/2609.33982v1",
+      "date": "2026-09-27",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.33982v1",
+      "authors": "Ivan Kapelyukh, Yafei Hu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
     {
       "title": "Learning Robot Policies from Sparse Success Signals via STL-Guided Stein Variational Policy Gradient",
       "summary": "Learning robot policies for tasks with sparse success signals is challenging when completion depends on coordinated actions, precise contact outcomes, or satisfying several conditions together. Intricate physical interactions with the world further c...",
@@ -3004,86 +3084,6 @@
       "type": "paper",
       "arxiv_id": "2608.31167v1",
       "authors": "Weiqi Wang, Zhi Li et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Driving on Memory",
-      "summary": "End-to-end autonomous driving models plan future trajectories from raw sensor input. While earlier driving benchmarks often measured deviation from the human trajectory, current benchmarks such as NAVSIM and Bench2Drive evaluate models with richer si...",
-      "url": "https://arxiv.org/abs/2608.31029v1",
-      "date": "2026-08-31",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.31029v1",
-      "authors": "Christian Löwens, Thorben Funke et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "DARP: A Calibrated Dual-Arm RGB-D-IR Dataset for Multi-View Robotic Perception",
-      "summary": "Robotic perception from a single viewpoint is often limited by self-occlusion and incomplete surface visibility. This paper presents DARP(Dual-Arm Robotic Perception) a calibrated dual-arm RGB-D-IR dataset for obje...",
-      "url": "https://arxiv.org/abs/2608.31002v1",
-      "date": "2026-08-31",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.31002v1",
-      "authors": "Manish Kansana, Mohammed Yusuf Mujawar et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Autonomously Acquiring Robot Manipulation Skills with Language-Driven Quality-Diversity",
-      "summary": "Quality-diversity (QD) algorithms have been gaining traction in robot learning, where diverse motion primitive libraries allow robots to adapt zero-shot to constraints at deployment time. However, such methods typically require expert designers to wr...",
-      "url": "https://arxiv.org/abs/2608.30983v1",
-      "date": "2026-08-31",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.30983v1",
-      "authors": "Émiland Garrabé, Mahdi Khoramshahi et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "LightNav-0: Eliciting VLM Spatial Intelligence for Generalist Embodied Navigation",
-      "summary": "Embodied navigation requires agents to translate heterogeneous goals and visual observations into actions across tasks, environments, and robot embodiments. Modern vision-language models (VLMs) already encode spatial priors for visual grounding, spat...",
-      "url": "https://arxiv.org/abs/2608.30935v1",
-      "date": "2026-08-31",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.30935v1",
-      "authors": "Shaoan Wang, Aocheng Luo et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Temporal Forcing: 4D Representation Alignment for Vision-Language-Action Models",
-      "summary": "Recent vision-language-action (VLA) methods improve manipulation performance by aligning their representations with 3D scene geometry. However, these methods often struggle with long-horizon manipulation and observation aliasing between visually simi...",
-      "url": "https://arxiv.org/abs/2608.30643v1",
-      "date": "2026-08-31",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2608.30643v1",
-      "authors": "Xingyu Ding, Yuzhong Zhao et al.",
       "tags": [
         "机器人学习",
         "研究论文",

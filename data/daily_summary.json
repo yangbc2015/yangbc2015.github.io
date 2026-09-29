@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-28",
-  "last_updated": "2026-09-28",
+  "date": "2026-09-29",
+  "last_updated": "2026-09-29",
   "categories": {
     "ai": {
       "name": "人工智能",
@@ -8,10 +8,10 @@
       "count": 5,
       "items": [
         {
-          "title": "Plan Mode才成标配，就有人宣布它「已死」",
-          "link": "https://www.jiqizhixin.com/search/articles/Plan Mode才成标配，就",
-          "summary": "Plan Mode才成标配，就有人宣布它「已死」...",
-          "date": "2026-09-27",
+          "title": "给Agent一台可控的「云上计算机」：揭秘阿里云Agent Sandbox",
+          "link": "https://www.jiqizhixin.com/search/articles/给Agent一台可控的「云上计",
+          "summary": "给Agent一台可控的「云上计算机」：揭秘阿里云Agent Sandbox...",
+          "date": "2026-09-28",
           "source": "机器之心",
           "type": "industry",
           "tags": [
@@ -20,10 +20,10 @@
           ]
         },
         {
-          "title": "DeepSeek mHC多流残差坍塌失效了？",
-          "link": "https://www.jiqizhixin.com/search/articles/DeepSeek mHC多流残",
-          "summary": "DeepSeek mHC多流残差坍塌失效了？...",
-          "date": "2026-09-27",
+          "title": "SceneMosaic：让3D场景生成既快又「活」，一张图生成一屋子可仿真的多样布局",
+          "link": "https://www.jiqizhixin.com/search/articles/SceneMosaic：让3D",
+          "summary": "SceneMosaic：让3D场景生成既快又「活」，一张图生成一屋子可仿真的多样布局...",
+          "date": "2026-09-28",
           "source": "机器之心",
           "type": "industry",
           "tags": [
@@ -32,11 +32,11 @@
           ]
         },
         {
-          "title": "工业平台已经卷到帮伙伴拿线索、做Agent、出海了",
-          "link": "https://www.qbitai.com/?s=工业平台已经卷到帮伙",
-          "summary": "工业平台已经卷到帮伙伴拿线索、做Agent、出海了...",
+          "title": "工业大模型下一关：从「会分析」到「真干活」，合肥中科纪元押注 ERI",
+          "link": "https://www.jiqizhixin.com/search/articles/工业大模型下一关：从「会分析」",
+          "summary": "工业大模型下一关：从「会分析」到「真干活」，合肥中科纪元押注 ERI...",
           "date": "2026-09-28",
-          "source": "量子位",
+          "source": "机器之心",
           "type": "industry",
           "tags": [
             "AI",
@@ -44,11 +44,11 @@
           ]
         },
         {
-          "title": "想让开发者“说句话就能跑量子计算”",
-          "link": "https://www.qbitai.com/?s=想让开发者“说句话就",
-          "summary": "想让开发者“说句话就能跑量子计算”...",
+          "title": "IDC×浪潮信息最新报告！22亿Agent背后，AI算力正迎来一场重构",
+          "link": "https://www.jiqizhixin.com/search/articles/IDC×浪潮信息最新报告！22",
+          "summary": "IDC×浪潮信息最新报告！22亿Agent背后，AI算力正迎来一场重构...",
           "date": "2026-09-28",
-          "source": "量子位",
+          "source": "机器之心",
           "type": "industry",
           "tags": [
             "AI",
@@ -56,11 +56,11 @@
           ]
         },
         {
-          "title": "“世界模型”开始成为具身智能跨越商业化“奇点”的新叙事。",
-          "link": "https://www.qbitai.com/?s=“世界模型”开始成为",
-          "summary": "“世界模型”开始成为具身智能跨越商业化“奇点”的新叙事。...",
+          "title": "18秒出片、视频生成提速265倍！北大清华阿里提出SparkDiffusion",
+          "link": "https://www.jiqizhixin.com/search/articles/18秒出片、视频生成提速265",
+          "summary": "18秒出片、视频生成提速265倍！北大清华阿里提出SparkDiffusion...",
           "date": "2026-09-28",
-          "source": "量子位",
+          "source": "机器之心",
           "type": "industry",
           "tags": [
             "AI",
