@@ -1,50 +1,34 @@
 {
   "last_updated": "2026-09-29",
-  "count": 10,
+  "count": 7,
   "items": [
     {
-      "title": "QAM: Quadratic-Accurate Checkpoint Merging via Sequential Consistency",
-      "authors": "Shihao Wang, Rui Kong, Xinran Chen et al.",
-      "abstract": "Saved checkpoints record states along a training trajectory, but generally do not determine the updates at states that would be visited under a different schedule. We study how accurately these checkpoints can reconstruct the endpoint of a sequential reference with prescribed update strengths. Under...",
+      "title": "FurE: Efficient Instance-Specific 3D Fur Reconstruction without Animal-Fur Datasets",
+      "authors": "Srinjay Sarkar, Prakhar Kaushik, Soumava Paul et al.",
+      "abstract": "Realistic and editable animal fur reconstruction from multi-view images is challenging due to fine-scale detail, self-occlusion and obfuscation, and, unlike human hair, the lack of animal-fur datasets. Fur usually covers most of an animal's body, with large inter-species and intra-species variabilit...",
       "venue": "arXiv",
       "date": "2026-09-28",
-      "arxiv_id": "2609.35168v1",
-      "url": "https://arxiv.org/abs/2609.35168v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.35168v1.pdf",
+      "arxiv_id": "2609.35770v1",
+      "url": "https://arxiv.org/abs/2609.35770v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.35770v1.pdf",
       "categories": [
-        "cs.LG",
-        "cs.AI"
+        "cs.CV",
+        "cs.AI",
+        "cs.GR"
       ],
-      "type": "ml",
+      "type": "benchmark",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Learning to Re-Draft: A Variational Stackelberg Game for Discrete Diffusion",
-      "authors": "Dmitrii Moor, Federico Tomasi, Paul N. Bennett et al.",
-      "abstract": "Discrete diffusion models offer the ability to re-draft, revisiting and correcting earlier tokens throughout generation. This capability depends on the forward corruption process that defines what the denoiser learns to correct. Masked diffusion models fix tokens once they are unmasked, while unifor...",
+      "title": "Telescopic Language Models",
+      "authors": "Zhilin Guo, Boqiao Zhang, Hakan Aktas et al.",
+      "abstract": "One deployed language model must often serve many compute budgets, yet serving each budget still means a separate training or compression run per point. We train a Telescopic Language Model (TLM) to be that continuum: a nested-capacity Transformer supervised by stochastic prefix supervision with a f...",
       "venue": "arXiv",
       "date": "2026-09-28",
-      "arxiv_id": "2609.35166v1",
-      "url": "https://arxiv.org/abs/2609.35166v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.35166v1.pdf",
-      "categories": [
-        "cs.LG",
-        "cs.AI"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "A mechanistic study of language model introspection",
-      "authors": "Jiahong Zou, Xiangkun Sun, Lingkai Kong et al.",
-      "abstract": "Large language models (LLMs) can sometimes report perturbations to their internal activations---even when the input provides no evidence that an intervention occurred. How do models detect and localize such internal changes? We study this question using a controlled task that keeps the input text fi...",
-      "venue": "arXiv",
-      "date": "2026-09-28",
-      "arxiv_id": "2609.35108v1",
-      "url": "https://arxiv.org/abs/2609.35108v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.35108v1.pdf",
+      "arxiv_id": "2609.35769v1",
+      "url": "https://arxiv.org/abs/2609.35769v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.35769v1.pdf",
       "categories": [
         "cs.CL",
         "cs.AI"
@@ -54,14 +38,14 @@
       "source": "arXiv"
     },
     {
-      "title": "When Confidence Rises Too Early: Detecting Shortcut Reasoning via Premature Answer Commitment",
-      "authors": "Zhaohan Zhang, Junjie Liu, Chengzhengxu Li et al.",
-      "abstract": "The reasoning trajectory of a Large Language Model (LLM) is often treated as a verbalized description of its internal reasoning. However, such trajectories can be unfaithful: a model may rely on shortcuts to reach an answer and then post-rationalize the decision with a seemingly coherent chain of th...",
+      "title": "Retrieving Biblical Intertextual References in Karen Blixen's Seven Gothic Tales",
+      "authors": "András Kovács, Alexander Conroy, Daniel Hershcovich et al.",
+      "abstract": "Identifying intertextual references is central to literary scholarship, but computationally difficult when source material is transformed through paraphrase, allusion, historical language, and translation. We investigate this problem through biblical intertextuality in Karen Blixen's Seven Gothic Ta...",
       "venue": "arXiv",
       "date": "2026-09-28",
-      "arxiv_id": "2609.35074v1",
-      "url": "https://arxiv.org/abs/2609.35074v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.35074v1.pdf",
+      "arxiv_id": "2609.35765v1",
+      "url": "https://arxiv.org/abs/2609.35765v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.35765v1.pdf",
       "categories": [
         "cs.CL"
       ],
@@ -70,48 +54,31 @@
       "source": "arXiv"
     },
     {
-      "title": "Timeline-Bench: Evaluating Agents on Realistic Video-Editing Tasks, from Raw Footage to Final Cut",
-      "authors": "Gunin Gupta, Nirmit Arora, Pavan Kalyan Tankala",
-      "abstract": "AI agents increasingly carry out long-horizon professional work, but their evaluations rarely require a finished creative deliverable. To this end, we introduce Timeline-Bench, a benchmark of 56 real video-editing tasks, each asking an agent to turn raw production material into a finished video. Tas...",
+      "title": "PDMD: Projected Distribution Matching Distillation for Video Diffusion Models",
+      "authors": "Zimo Wang, Junkun Yuan, Angtian Wang et al.",
+      "abstract": "Modern video diffusion models require tens of denoising evaluations over long spatiotemporal token sequences. Distribution Matching Distillation (DMD) reduces the number of function evaluations (NFE) to just a few. However, DMD samples can degrade during training, exhibiting progressive oversaturati...",
       "venue": "arXiv",
       "date": "2026-09-28",
-      "arxiv_id": "2609.35143v1",
-      "url": "https://arxiv.org/abs/2609.35143v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.35143v1.pdf",
+      "arxiv_id": "2609.35768v1",
+      "url": "https://arxiv.org/abs/2609.35768v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.35768v1.pdf",
       "categories": [
         "cs.CV",
-        "cs.AI",
-        "cs.MM"
+        "cs.LG"
       ],
       "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "VideoPhysEdit: Physical Counterfactual Video Editing via Rigid-Body Physical Scene Reconstruction",
-      "authors": "Conghan Yue, Yuanjie Chen, Yue Han et al.",
-      "abstract": "Video editing has advanced substantially in recent years, with methods increasingly accounting for the visual consequences of edits, such as changes to shadows and occlusions. However, the physical consequences of edits, including changes to subsequent motion and interactions, remain less explored. ...",
+      "title": "Unifying Distributional Training for One-Step Visual Generation",
+      "authors": "Chi Zhang, Haoyang Shi, Yueyi Liu et al.",
+      "abstract": "\\emph{Distributional training} provides collective supervision for one-step visual generation by matching real and generated features in frozen representation spaces. We introduce \\emph{a unified theoretical framework} that separates distribution modeling from matching discrepancy and connects globa...",
       "venue": "arXiv",
       "date": "2026-09-28",
-      "arxiv_id": "2609.35134v1",
-      "url": "https://arxiv.org/abs/2609.35134v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.35134v1.pdf",
-      "categories": [
-        "cs.CV"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Subgroup Rank-1 Lattice for Practical High-dimensional Black-box Integral Approximation",
-      "authors": "Yueming Lyu",
-      "abstract": "Estimating integrals of black-box, high-dimensional functions, from expectations and kernel mean embeddings to the softmax kernel in self-attention, is a basic subroutine in machine learning. Rank-1 lattice rules suit this setting: they query the integrand only at a fixed point set and need no gradi...",
-      "venue": "arXiv",
-      "date": "2026-09-28",
-      "arxiv_id": "2609.35177v1",
-      "url": "https://arxiv.org/abs/2609.35177v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.35177v1.pdf",
+      "arxiv_id": "2609.35763v1",
+      "url": "https://arxiv.org/abs/2609.35763v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.35763v1.pdf",
       "categories": [
         "cs.LG"
       ],
@@ -120,51 +87,36 @@
       "source": "arXiv"
     },
     {
-      "title": "ProtoSeam: Lifting Classifier Training with Latent Gaussian Mixture Models",
-      "authors": "Robert Lampel, Timon Klein, Sebastian Sager",
-      "abstract": "We propose a lifted reformulation of supervised classification that improves the final accuracy of standard classifiers without changing the architecture at inference time. A network $N=N_2\\circ N_1$ is split at a single semantic interface and one learnable prototype per class is inserted there. Tra...",
+      "title": "DexRoam: Learning Mobile Bimanual Dexterous Manipulation from Egocentric Whole-Body Human Demonstrations",
+      "authors": "Rui Zhou, Yibo Yuan, Junkai Zhao et al.",
+      "abstract": "Mobile bimanual dexterous manipulation requires continuous coordination of locomotion, whole-body motion, and finger-level dexterity within a single trajectory, creating a severe robot demonstration bottleneck. Egocentric human demonstrations offer a scalable alternative, but prior approaches ease t...",
       "venue": "arXiv",
       "date": "2026-09-28",
-      "arxiv_id": "2609.35174v1",
-      "url": "https://arxiv.org/abs/2609.35174v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.35174v1.pdf",
+      "arxiv_id": "2609.35761v1",
+      "url": "https://arxiv.org/abs/2609.35761v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.35761v1.pdf",
       "categories": [
-        "cs.LG"
+        "cs.RO"
       ],
       "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Task-Oriented Communications for Edge-Assisted Multi-View Localization",
-      "authors": "Zhengru Fang, Huanhuan Lou, Senkang Hu et al.",
-      "abstract": "Unmanned aerial vehicles (UAVs) and unmanned ground vehicles (UGVs) often lose satellite positioning in urban canyons, indoor facilities, and jammed or spoofed environments, making vision-based matching with geo-tagged databases important for absolute positioning. However, limited onboard computatio...",
+      "title": "Statistical Learning of Contractive Dynamical Representations for Composite Adaptive Control",
+      "authors": "Min Kim, José Leonardo Brenes, Fred Hadaegh et al.",
+      "abstract": "We present a representation-learning framework for composite adaptive tracking control under dynamically coupled disturbances. The framework connects classical disturbance-accommodating control (DAC) to recent last-layer adaptive disturbance-rejection methods. Specifically, we introduce a statistica...",
       "venue": "arXiv",
       "date": "2026-09-28",
-      "arxiv_id": "2609.35173v1",
-      "url": "https://arxiv.org/abs/2609.35173v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.35173v1.pdf",
+      "arxiv_id": "2609.35758v1",
+      "url": "https://arxiv.org/abs/2609.35758v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.35758v1.pdf",
       "categories": [
-        "cs.NI",
+        "eess.SY",
+        "cs.LG",
         "cs.RO"
       ],
-      "type": "ai",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "QuadHand: A Compact Quadrotor Aerial Manipulator with MRC-SDF-Based Whole-Body Motion Planning",
-      "authors": "Rui Jin, Ruiyang Liu, Xinhang Xu et al.",
-      "abstract": "Uncrewed aerial manipulators (UAMs) integrate robotic arms with aerial platforms for three-dimensional physical interaction. However, enlarging the workspace increases arm-induced disturbances, while existing geometric representations face a trade-off between geometric fidelity and computational eff...",
-      "venue": "arXiv",
-      "date": "2026-09-28",
-      "arxiv_id": "2609.35094v1",
-      "url": "https://arxiv.org/abs/2609.35094v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.35094v1.pdf",
-      "categories": [
-        "cs.RO"
-      ],
-      "type": "ai",
+      "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     }
