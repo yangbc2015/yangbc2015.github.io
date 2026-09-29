@@ -3,6 +3,43 @@
   "count": 200,
   "items": [
     {
+      "title": "[GPT拆掉了「具身大脑」，Embodied PhyStack会是 具 身 智 能 的下一站吗？",
+      "summary": "[GPT拆掉了「具身大脑」，Embodied PhyStack会是 具 身 智 能 的下一站吗？",
+      "url": "http://36kr.com/p/4004465537519750",
+      "date": "2026-09-29",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "[具 身 智 能 卡住的不是算法，是 ' 数据荒 '：灵灵智能用 ' 无本体 + 真机 ' 双轨采集，把人类行为变成机器人训练数据",
+      "summary": "[具 身 智 能 卡住的不是算法，是 ' 数据荒 '：灵灵智能用 ' 无本体 + 真机 ' 双轨采集，把人类行为变成机器人训练数据",
+      "url": "http://36kr.com/p/3998358077214596",
+      "date": "2026-09-29",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
+      "title": "[仿真里行云流水、真实世界频繁 ' 手滑 '：美梦空间给 具 身 智 能 补上 ' 物理课 '，让机器人从模仿走向理解",
+      "summary": "[仿真里行云流水、真实世界频繁 ' 手滑 '：美梦空间给 具 身 智 能 补上 ' 物理课 '，让机器人从模仿走向理解",
+      "url": "http://36kr.com/p/4002916609183621",
+      "date": "2026-09-29",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
       "title": "DexRoam: Learning Mobile Bimanual Dexterous Manipulation from Egocentric Whole-Body Human Demonstrations",
       "summary": "Mobile bimanual dexterous manipulation requires continuous coordination of locomotion, whole-body motion, and finger-level dexterity within a single trajectory, creating a severe robot demonstration bottleneck. Egocentric human demonstrations offer a...",
       "url": "https://arxiv.org/abs/2609.35761v1",
@@ -3036,54 +3073,6 @@
       "type": "paper",
       "arxiv_id": "2609.01518v1",
       "authors": "Duncan Calvert, Luigi Penco et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Does Imitation Learning Preserve Temporal Robustness in Dexterous Manipulation? An Expert-Learner Comparison Across Task Execution Speeds",
-      "summary": "Dexterous manipulation policies learned by imitation are typically evaluated for robustness to variation in scenes, objects, or instructions, but their performance across task execution speeds is less often examined. This leaves open how much tempora...",
-      "url": "https://arxiv.org/abs/2609.01453v1",
-      "date": "2026-09-01",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.01453v1",
-      "authors": "Clinton Enwerem, John S. Baras et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Vision-Based Leader-Follower Formation Control for Cooperative UAVs in GPS-Degraded Environments",
-      "summary": "Cooperation in multi-UAV systems requires reliable relative perception so that follower vehicles can maintain formation and continue their mission safely even when absolute positioning sensors degrade or fail. This paper presents a vision-based coope...",
-      "url": "https://arxiv.org/abs/2609.01420v1",
-      "date": "2026-09-01",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.01420v1",
-      "authors": "Deekshitha Angadi, Naveena Budda et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "DNC-IMM: Early Lane-Change Intention Recognition via Neural Calibration Based on Driving Context Information",
-      "summary": "Early recognition of lane-change intention is essential for proactive decision-making in autonomous driving and advanced driver assistance systems. This paper proposes a Dual Neural-Calibrated Interacting Multiple Model (DNC-IMM) that improves adapta...",
-      "url": "https://arxiv.org/abs/2609.01120v1",
-      "date": "2026-09-01",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.01120v1",
-      "authors": "Woong-Chan Byun, Seung-Hyun Kong",
       "tags": [
         "机器人学习",
         "研究论文",
