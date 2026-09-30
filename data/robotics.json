@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-09-29",
+  "last_updated": "2026-09-30",
   "count": 200,
   "items": [
     {
       "title": "[GPT拆掉了「具身大脑」，Embodied PhyStack会是 具 身 智 能 的下一站吗？",
       "summary": "[GPT拆掉了「具身大脑」，Embodied PhyStack会是 具 身 智 能 的下一站吗？",
       "url": "http://36kr.com/p/4004465537519750",
-      "date": "2026-09-29",
+      "date": "2026-09-30",
       "source": "36氪",
       "category": "具身智能",
       "type": "news",
@@ -19,7 +19,7 @@
       "title": "[具 身 智 能 卡住的不是算法，是 ' 数据荒 '：灵灵智能用 ' 无本体 + 真机 ' 双轨采集，把人类行为变成机器人训练数据",
       "summary": "[具 身 智 能 卡住的不是算法，是 ' 数据荒 '：灵灵智能用 ' 无本体 + 真机 ' 双轨采集，把人类行为变成机器人训练数据",
       "url": "http://36kr.com/p/3998358077214596",
-      "date": "2026-09-29",
+      "date": "2026-09-30",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
@@ -31,12 +31,105 @@
       "title": "[仿真里行云流水、真实世界频繁 ' 手滑 '：美梦空间给 具 身 智 能 补上 ' 物理课 '，让机器人从模仿走向理解",
       "summary": "[仿真里行云流水、真实世界频繁 ' 手滑 '：美梦空间给 具 身 智 能 补上 ' 物理课 '，让机器人从模仿走向理解",
       "url": "http://36kr.com/p/4002916609183621",
-      "date": "2026-09-29",
+      "date": "2026-09-30",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
       "tags": [
         "机器人"
+      ]
+    },
+    {
+      "title": "Skill-Space Shooting for Autonomous Robot Policy Improvement",
+      "summary": "Robots deployed in the physical world must be able to improve beyond their initial training as they encounter new situations and failures. For this improvement to scale across tasks, it must make effective use of experience without requiring human de...",
+      "url": "https://arxiv.org/abs/2609.38178v1",
+      "date": "2026-09-29",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.38178v1",
+      "authors": "Zihang Rui, Renhao Wang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "In-context Robot Learning Made Simple: A Democratized Recipe for Manipulation Tasks",
+      "summary": "We study robotic in-context learning (ICL), an emerging paradigm that enables robots to infer and execute tasks from visual demonstrations. Despite its growing promise, the problem itself remains under-defined: a visual demonstration simultaneously c...",
+      "url": "https://arxiv.org/abs/2609.38173v1",
+      "date": "2026-09-29",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.38173v1",
+      "authors": "Minxing Li, Minghao Han et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Counterfactual Video Generation Enables Scalable Humanoid Loco-Manipulation",
+      "summary": "Teaching humanoids loco-manipulation skills, such as carrying diverse objects, via visual imitation is a promising path toward generalist robots. However, collecting diverse, high-quality interaction videos, such as clips that clearly show a person's...",
+      "url": "https://arxiv.org/abs/2609.38172v1",
+      "date": "2026-09-29",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.38172v1",
+      "authors": "Zihan Wang, Zhen Wu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Rho: A Foundation for Efficiently Adaptable VLA Models",
+      "summary": "General-purpose physical AI models must combine broad visual and linguistic capabilities with precise control across robot embodiments and efficient adaptation to downstream tasks. We introduce Rho, a family of open-weights VLA models for bimanual ma...",
+      "url": "https://arxiv.org/abs/2609.38164v1",
+      "date": "2026-09-29",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.38164v1",
+      "authors": "Rho Team, Simran Bagaria et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Rethinking Representations for World-Action Modeling",
+      "summary": "World-action models jointly learn robot policies and predict future observations, making the representation space an interface between control and prediction. We study the design of this space through controlled comparisons, finding that neither reco...",
+      "url": "https://arxiv.org/abs/2609.38163v1",
+      "date": "2026-09-29",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.38163v1",
+      "authors": "Haoyi Jiang, Liu Liu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "优必选占全球人形机器人两大赛道收入市占率第一。",
+      "summary": "优必选占全球人形机器人两大赛道收入市占率第一。",
+      "url": "http://36kr.com/p/4002928371748742",
+      "date": "2026-09-28",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "人形机器人"
       ]
     },
     {
@@ -2980,99 +3073,6 @@
       "type": "paper",
       "arxiv_id": "2609.02546v1",
       "authors": "Mi Yan, Wenhao Zhang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "World-Model-Augmented Visual Locomotion for Humanoids on Foothold-Constrained Terrain",
-      "summary": "Foothold-constrained terrain is characterized by sparse, discontinuous, or geometrically restricted feasible foot contacts, as encountered on stepping stones, across gaps, and on narrow stair treads. On such terrain, a single misstep often leaves lit...",
-      "url": "https://arxiv.org/abs/2609.02542v1",
-      "date": "2026-09-02",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.02542v1",
-      "authors": "Yuxi Liu, Lijun Han et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Spatially Aware World Action Model via Geometric Latent Diffusion",
-      "summary": "World Action Models (WAMs) leverage the capabilities of large-scale pretrained video diffusion models to jointly predict future observations and actions, inheriting rich visual and physical priors from internet-scale video. This has made them a promi...",
-      "url": "https://arxiv.org/abs/2609.02531v1",
-      "date": "2026-09-02",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.02531v1",
-      "authors": "Javier Alejandro Lopetegui Gonzalez, Paul Pacaud et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "梅卡曼德登陆港交所，成港股具身智能眼脑手第一股",
-      "summary": "梅卡曼德登陆港交所，成港股具身智能眼脑手第一股",
-      "url": "http://36kr.com/p/3964347992612356",
-      "date": "2026-09-01",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "Facet-0: A Robotic Foundation Model for Contact-Rich Precise Manipulation",
-      "summary": "Real-world robotic assembly at sub-millimeter tolerances demands spatial precision, compliant interaction, and robustness to contact failures. We present Facet-0, a robotic foundation model that predicts and values the contact consequences of its act...",
-      "url": "https://arxiv.org/abs/2609.01596v1",
-      "date": "2026-09-01",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.01596v1",
-      "authors": "Haoyuan Deng, Haichao Liu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "SG-AMP: Scene-Graph-Guided Active Perception and Semantics-Aware Motion Planning for Pepper Plants",
-      "summary": "We present SG-AMP, integrating robust depth completion with input-conditioned uncertainty, persistent panoptic mapping, plant scene-graph reasoning, and semantics-aware active view-motion planning. Beyond inspecting uncertain observed regions, the sc...",
-      "url": "https://arxiv.org/abs/2609.01579v1",
-      "date": "2026-09-01",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.01579v1",
-      "authors": "Rohit Menon, Shiva Rudra Lolla et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "A System for Fast, Resilient, and Adaptable Loco-Manipulation Behaviors on Humanoid Robots",
-      "summary": "There is tremendous value in humanoid robots taking on physically demanding, hazardous, and repetitive work in spaces built for humans. However, a useful robot for these spaces must coordinate locomotion, whole-body motion, perception, contact, and o...",
-      "url": "https://arxiv.org/abs/2609.01518v1",
-      "date": "2026-09-01",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.01518v1",
-      "authors": "Duncan Calvert, Luigi Penco et al.",
       "tags": [
         "机器人学习",
         "研究论文",

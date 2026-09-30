@@ -1,52 +1,54 @@
 {
-  "last_updated": "2026-09-29",
-  "count": 7,
+  "last_updated": "2026-09-30",
+  "count": 6,
   "items": [
     {
-      "title": "FurE: Efficient Instance-Specific 3D Fur Reconstruction without Animal-Fur Datasets",
-      "authors": "Srinjay Sarkar, Prakhar Kaushik, Soumava Paul et al.",
-      "abstract": "Realistic and editable animal fur reconstruction from multi-view images is challenging due to fine-scale detail, self-occlusion and obfuscation, and, unlike human hair, the lack of animal-fur datasets. Fur usually covers most of an animal's body, with large inter-species and intra-species variabilit...",
+      "title": "Skill-Space Shooting for Autonomous Robot Policy Improvement",
+      "authors": "Zihang Rui, Renhao Wang, Haoxu Huang et al.",
+      "abstract": "Robots deployed in the physical world must be able to improve beyond their initial training as they encounter new situations and failures. For this improvement to scale across tasks, it must make effective use of experience without requiring human demonstration of each correction. Recent agentic sys...",
       "venue": "arXiv",
-      "date": "2026-09-28",
-      "arxiv_id": "2609.35770v1",
-      "url": "https://arxiv.org/abs/2609.35770v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.35770v1.pdf",
+      "date": "2026-09-29",
+      "arxiv_id": "2609.38178v1",
+      "url": "https://arxiv.org/abs/2609.38178v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.38178v1.pdf",
       "categories": [
-        "cs.CV",
+        "cs.RO",
         "cs.AI",
-        "cs.GR"
+        "cs.LG"
       ],
-      "type": "benchmark",
+      "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Telescopic Language Models",
-      "authors": "Zhilin Guo, Boqiao Zhang, Hakan Aktas et al.",
-      "abstract": "One deployed language model must often serve many compute budgets, yet serving each budget still means a separate training or compression run per point. We train a Telescopic Language Model (TLM) to be that continuum: a nested-capacity Transformer supervised by stochastic prefix supervision with a f...",
+      "title": "STEPQuant: When and Where Errors Matter in Delta-Rule Recurrent State Quantization",
+      "authors": "Bingchen Yao, Haobo Xu, Haokun Lin et al.",
+      "abstract": "Linear attention replaces growing KV caches with fixed-size recurrent states, yet these persistent states can become a substantial memory bottleneck under concurrent serving. Directly quantizing recurrent states to low precision often leads to severe accuracy degradation, as quantization errors prop...",
       "venue": "arXiv",
-      "date": "2026-09-28",
-      "arxiv_id": "2609.35769v1",
-      "url": "https://arxiv.org/abs/2609.35769v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.35769v1.pdf",
+      "date": "2026-09-29",
+      "arxiv_id": "2609.38169v1",
+      "url": "https://arxiv.org/abs/2609.38169v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.38169v1.pdf",
       "categories": [
         "cs.CL",
-        "cs.AI"
+        "cs.AI",
+        "cs.LG"
       ],
       "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Retrieving Biblical Intertextual References in Karen Blixen's Seven Gothic Tales",
-      "authors": "András Kovács, Alexander Conroy, Daniel Hershcovich et al.",
-      "abstract": "Identifying intertextual references is central to literary scholarship, but computationally difficult when source material is transformed through paraphrase, allusion, historical language, and translation. We investigate this problem through biblical intertextuality in Karen Blixen's Seven Gothic Ta...",
+      "title": "Imagine3D-LLM: Teaching MLLMs to Imagine 3D Scenes Before Answering",
+      "authors": "Jaewoo Jung, Hyeonseo Yu, Honggyu An et al.",
+      "abstract": "Reasoning about the 3D world from multi-view images remains a fundamental challenge for Multimodal Large Language Models (MLLMs). While modern MLLMs handle single-image inputs effectively, they struggle to integrate evidence across viewpoints into a coherent 3D understanding. A growing body of work ...",
       "venue": "arXiv",
-      "date": "2026-09-28",
-      "arxiv_id": "2609.35765v1",
-      "url": "https://arxiv.org/abs/2609.35765v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.35765v1.pdf",
+      "date": "2026-09-29",
+      "arxiv_id": "2609.38177v1",
+      "url": "https://arxiv.org/abs/2609.38177v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.38177v1.pdf",
       "categories": [
+        "cs.CV",
         "cs.CL"
       ],
       "type": "nlp",
@@ -54,69 +56,52 @@
       "source": "arXiv"
     },
     {
-      "title": "PDMD: Projected Distribution Matching Distillation for Video Diffusion Models",
-      "authors": "Zimo Wang, Junkun Yuan, Angtian Wang et al.",
-      "abstract": "Modern video diffusion models require tens of denoising evaluations over long spatiotemporal token sequences. Distribution Matching Distillation (DMD) reduces the number of function evaluations (NFE) to just a few. However, DMD samples can degrade during training, exhibiting progressive oversaturati...",
+      "title": "Point2Part: Unified 3D Partitioning from Point Prompts",
+      "authors": "Hao-Tang Tsui, Yu-Rou Tuan, Xiaoxuan Ma et al.",
+      "abstract": "Existing 3D part decomposition methods do not necessarily partition the original shape into non-overlapping parts that collectively cover the entire shape, allowing overlaps or gaps that hinder downstream part-level applications. We instead formulate part decomposition as a joint partitioning of the...",
       "venue": "arXiv",
-      "date": "2026-09-28",
-      "arxiv_id": "2609.35768v1",
-      "url": "https://arxiv.org/abs/2609.35768v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.35768v1.pdf",
+      "date": "2026-09-29",
+      "arxiv_id": "2609.38180v1",
+      "url": "https://arxiv.org/abs/2609.38180v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.38180v1.pdf",
       "categories": [
-        "cs.CV",
-        "cs.LG"
+        "cs.CV"
       ],
       "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Unifying Distributional Training for One-Step Visual Generation",
-      "authors": "Chi Zhang, Haoyang Shi, Yueyi Liu et al.",
-      "abstract": "\\emph{Distributional training} provides collective supervision for one-step visual generation by matching real and generated features in frozen representation spaces. We introduce \\emph{a unified theoretical framework} that separates distribution modeling from matching discrepancy and connects globa...",
+      "title": "Breakdown of Local Denoising as Semantic Speciation",
+      "authors": "Guangkuo Liu, Mert Okyay, Yifan F. Zhang et al.",
+      "abstract": "The dynamics of generative models exhibit two apparently distinct temporal windows: a speciation window, in which a sample commits to a semantic class, and a nonlocality window, in which local context windows become insufficient for generation. Motivated by evidence of their near-concurrence in a va...",
       "venue": "arXiv",
-      "date": "2026-09-28",
-      "arxiv_id": "2609.35763v1",
-      "url": "https://arxiv.org/abs/2609.35763v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.35763v1.pdf",
+      "date": "2026-09-29",
+      "arxiv_id": "2609.38176v1",
+      "url": "https://arxiv.org/abs/2609.38176v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.38176v1.pdf",
       "categories": [
-        "cs.LG"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "DexRoam: Learning Mobile Bimanual Dexterous Manipulation from Egocentric Whole-Body Human Demonstrations",
-      "authors": "Rui Zhou, Yibo Yuan, Junkai Zhao et al.",
-      "abstract": "Mobile bimanual dexterous manipulation requires continuous coordination of locomotion, whole-body motion, and finger-level dexterity within a single trajectory, creating a severe robot demonstration bottleneck. Egocentric human demonstrations offer a scalable alternative, but prior approaches ease t...",
-      "venue": "arXiv",
-      "date": "2026-09-28",
-      "arxiv_id": "2609.35761v1",
-      "url": "https://arxiv.org/abs/2609.35761v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.35761v1.pdf",
-      "categories": [
-        "cs.RO"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Statistical Learning of Contractive Dynamical Representations for Composite Adaptive Control",
-      "authors": "Min Kim, José Leonardo Brenes, Fred Hadaegh et al.",
-      "abstract": "We present a representation-learning framework for composite adaptive tracking control under dynamically coupled disturbances. The framework connects classical disturbance-accommodating control (DAC) to recent last-layer adaptive disturbance-rejection methods. Specifically, we introduce a statistica...",
-      "venue": "arXiv",
-      "date": "2026-09-28",
-      "arxiv_id": "2609.35758v1",
-      "url": "https://arxiv.org/abs/2609.35758v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.35758v1.pdf",
-      "categories": [
-        "eess.SY",
         "cs.LG",
-        "cs.RO"
+        "cond-mat.dis-nn",
+        "cond-mat.stat-mech"
       ],
       "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "In-context Robot Learning Made Simple: A Democratized Recipe for Manipulation Tasks",
+      "authors": "Minxing Li, Minghao Han, Weizhi Zhao et al.",
+      "abstract": "We study robotic in-context learning (ICL), an emerging paradigm that enables robots to infer and execute tasks from visual demonstrations. Despite its growing promise, the problem itself remains under-defined: a visual demonstration simultaneously conveys action trajectories, object semantics, mani...",
+      "venue": "arXiv",
+      "date": "2026-09-29",
+      "arxiv_id": "2609.38173v1",
+      "url": "https://arxiv.org/abs/2609.38173v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.38173v1.pdf",
+      "categories": [
+        "cs.RO"
+      ],
+      "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     }
