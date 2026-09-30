@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-09-30",
-  "count": 5,
+  "count": 6,
   "items": [
     {
       "title": "Skill-Space Shooting for Autonomous Robot Policy Improvement",
@@ -52,6 +52,22 @@
         "cs.CL"
       ],
       "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Point2Part: Unified 3D Partitioning from Point Prompts",
+      "authors": "Hao-Tang Tsui, Yu-Rou Tuan, Xiaoxuan Ma et al.",
+      "abstract": "Existing 3D part decomposition methods do not necessarily partition the original shape into non-overlapping parts that collectively cover the entire shape, allowing overlaps or gaps that hinder downstream part-level applications. We instead formulate part decomposition as a joint partitioning of the...",
+      "venue": "arXiv",
+      "date": "2026-09-29",
+      "arxiv_id": "2609.38180v1",
+      "url": "https://arxiv.org/abs/2609.38180v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.38180v1.pdf",
+      "categories": [
+        "cs.CV"
+      ],
+      "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     },
