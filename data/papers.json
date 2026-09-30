@@ -3,19 +3,20 @@
   "count": 6,
   "items": [
     {
-      "title": "Imagine3D-LLM: Teaching MLLMs to Imagine 3D Scenes Before Answering",
-      "authors": "Jaewoo Jung, Hyeonseo Yu, Honggyu An et al.",
-      "abstract": "Reasoning about the 3D world from multi-view images remains a fundamental challenge for Multimodal Large Language Models (MLLMs). While modern MLLMs handle single-image inputs effectively, they struggle to integrate evidence across viewpoints into a coherent 3D understanding. A growing body of work ...",
+      "title": "Skill-Space Shooting for Autonomous Robot Policy Improvement",
+      "authors": "Zihang Rui, Renhao Wang, Haoxu Huang et al.",
+      "abstract": "Robots deployed in the physical world must be able to improve beyond their initial training as they encounter new situations and failures. For this improvement to scale across tasks, it must make effective use of experience without requiring human demonstration of each correction. Recent agentic sys...",
       "venue": "arXiv",
       "date": "2026-09-29",
-      "arxiv_id": "2609.38177v1",
-      "url": "https://arxiv.org/abs/2609.38177v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.38177v1.pdf",
+      "arxiv_id": "2609.38178v1",
+      "url": "https://arxiv.org/abs/2609.38178v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.38178v1.pdf",
       "categories": [
-        "cs.CV",
-        "cs.CL"
+        "cs.RO",
+        "cs.AI",
+        "cs.LG"
       ],
-      "type": "nlp",
+      "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     },
@@ -38,6 +39,23 @@
       "source": "arXiv"
     },
     {
+      "title": "Imagine3D-LLM: Teaching MLLMs to Imagine 3D Scenes Before Answering",
+      "authors": "Jaewoo Jung, Hyeonseo Yu, Honggyu An et al.",
+      "abstract": "Reasoning about the 3D world from multi-view images remains a fundamental challenge for Multimodal Large Language Models (MLLMs). While modern MLLMs handle single-image inputs effectively, they struggle to integrate evidence across viewpoints into a coherent 3D understanding. A growing body of work ...",
+      "venue": "arXiv",
+      "date": "2026-09-29",
+      "arxiv_id": "2609.38177v1",
+      "url": "https://arxiv.org/abs/2609.38177v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.38177v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.CL"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
       "title": "Point2Part: Unified 3D Partitioning from Point Prompts",
       "authors": "Hao-Tang Tsui, Yu-Rou Tuan, Xiaoxuan Ma et al.",
       "abstract": "Existing 3D part decomposition methods do not necessarily partition the original shape into non-overlapping parts that collectively cover the entire shape, allowing overlaps or gaps that hinder downstream part-level applications. We instead formulate part decomposition as a joint partitioning of the...",
@@ -50,24 +68,6 @@
         "cs.CV"
       ],
       "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Skill-Space Shooting for Autonomous Robot Policy Improvement",
-      "authors": "Zihang Rui, Renhao Wang, Haoxu Huang et al.",
-      "abstract": "Robots deployed in the physical world must be able to improve beyond their initial training as they encounter new situations and failures. For this improvement to scale across tasks, it must make effective use of experience without requiring human demonstration of each correction. Recent agentic sys...",
-      "venue": "arXiv",
-      "date": "2026-09-29",
-      "arxiv_id": "2609.38178v1",
-      "url": "https://arxiv.org/abs/2609.38178v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.38178v1.pdf",
-      "categories": [
-        "cs.RO",
-        "cs.AI",
-        "cs.LG"
-      ],
-      "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     },
