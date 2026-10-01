@@ -159,6 +159,19 @@
       ]
     },
     {
+      "title": "2026产业未来大会圆桌：热议具身智能产业发展",
+      "summary": "2026产业未来大会圆桌：热议具身智能产业发展",
+      "url": "http://36kr.com/p/4003813673865351",
+      "date": "2026-09-29",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
       "title": "Skill-Space Shooting for Autonomous Robot Policy Improvement",
       "summary": "Robots deployed in the physical world must be able to improve beyond their initial training as they encounter new situations and failures. For this improvement to scale across tasks, it must make effective use of experience without requiring human de...",
       "url": "https://arxiv.org/abs/2609.38178v1",
@@ -3048,22 +3061,6 @@
       "type": "paper",
       "arxiv_id": "2609.04103v1",
       "authors": "Riikka Soitinaho, Timo Oksanen",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Adaptive Vision-Language Grasping via Composable Foundation Priors and Generalizable Grasp Synthesis",
-      "summary": "This paper proposes AdaRoboVLG, a task-adaptive Vision-Language-Grasp (VLG) framework that supports generalizable grasp synthesis across different robotic hands. Unlike existing VLG methods that tightly couple foundation models with end-to-end grasp ...",
-      "url": "https://arxiv.org/abs/2609.04096v1",
-      "date": "2026-09-03",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.04096v1",
-      "authors": "Sixu Yan, Shikang Wang et al.",
       "tags": [
         "机器人学习",
         "研究论文",
