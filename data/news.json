@@ -1,9 +1,21 @@
 {
   "last_updated": "2026-10-01",
   "count": 200,
-  "history_count": 206,
+  "history_count": 201,
   "retention_days": 30,
   "items": [
+    {
+      "title": "用ImageNet训练encoder",
+      "link": "https://www.qbitai.com/?s=用ImageNet训",
+      "summary": "用ImageNet训练encoder...",
+      "date": "2026-10-01",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
     {
       "title": "千禧年难题的突破，10000个Agent最多占了10%的功劳。",
       "link": "https://www.qbitai.com/?s=千禧年难题的突破，1",
@@ -53,6 +65,18 @@
       ]
     },
     {
+      "title": "Published Time: Thu, 08 May 2025 23:15:48 GMT",
+      "link": "https://techcrunch.com/category/artificial-intelligence/",
+      "summary": "Published Time: Thu, 08 May 2025 23:15:48 GMT...",
+      "date": "2026-10-01",
+      "source": "TechCrunch",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "Artificial Intelligence"
+      ]
+    },
+    {
       "title": "推动公司具身模型、本体、软件等全栈能力进入更多真实场景",
       "link": "https://www.qbitai.com/?s=推动公司具身模型、本",
       "summary": "推动公司具身模型、本体、软件等全栈能力进入更多真实场景...",
@@ -62,18 +86,6 @@
       "tags": [
         "AI",
         "人工智能"
-      ]
-    },
-    {
-      "title": "*   [Latest](http://techcrunch.com/latest/)",
-      "link": "https://techcrunch.com/category/artificial-intelligence/",
-      "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
-      "date": "2026-10-01",
-      "source": "TechCrunch",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "Artificial Intelligence"
       ]
     },
     {
@@ -2384,18 +2396,6 @@
       "title": "离开自动驾驶量产一线，张颖创业做AI for Physical AI",
       "link": "https://www.jiqizhixin.com/search/articles/离开自动驾驶量产一线，张颖创业",
       "summary": "离开自动驾驶量产一线，张颖创业做AI for Physical AI...",
-      "date": "2026-09-09",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Action Map Policy：从高维动作回归到像素分类，一种新的机器人操作学习范式",
-      "link": "https://www.jiqizhixin.com/search/articles/Action Map Poli",
-      "summary": "Action Map Policy：从高维动作回归到像素分类，一种新的机器人操作学习范式...",
       "date": "2026-09-09",
       "source": "机器之心",
       "type": "industry",
