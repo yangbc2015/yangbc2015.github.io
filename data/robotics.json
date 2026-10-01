@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-09-30",
+  "last_updated": "2026-10-01",
   "count": 200,
   "items": [
     {
       "title": "[GPT拆掉了「具身大脑」，Embodied PhyStack会是 具 身 智 能 的下一站吗？",
       "summary": "[GPT拆掉了「具身大脑」，Embodied PhyStack会是 具 身 智 能 的下一站吗？",
       "url": "http://36kr.com/p/4004465537519750",
-      "date": "2026-09-30",
+      "date": "2026-10-01",
       "source": "36氪",
       "category": "具身智能",
       "type": "news",
@@ -19,12 +19,92 @@
       "title": "[具 身 智 能 卡住的不是算法，是 ' 数据荒 '：灵灵智能用 ' 无本体 + 真机 ' 双轨采集，把人类行为变成机器人训练数据",
       "summary": "[具 身 智 能 卡住的不是算法，是 ' 数据荒 '：灵灵智能用 ' 无本体 + 真机 ' 双轨采集，把人类行为变成机器人训练数据",
       "url": "http://36kr.com/p/3998358077214596",
-      "date": "2026-09-30",
+      "date": "2026-10-01",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
       "tags": [
         "机器人"
+      ]
+    },
+    {
+      "title": "AssemblyWorld: Rethinking 3D Assembly with General-Purpose Agents",
+      "summary": "The task of 3D assembly requires translating an understanding of parts and their relationships into precise spatial arrangements. Can pretrained general-purpose agents assemble objects through visual interaction without additional assembly-specific f...",
+      "url": "https://arxiv.org/abs/2609.40353v1",
+      "date": "2026-09-30",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.40353v1",
+      "authors": "Jiahao Zhang, Yeying Fan et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Ego4WAM: What Matters When Scaling Egocentric Human Data for Robot Learning?",
+      "summary": "Egocentric human data provides a scalable source of experience for robot learning, but varies substantially in human-robot alignment, behavioral coverage, and available supervision. Existing work shows favorable scaling with increasing human data, bu...",
+      "url": "https://arxiv.org/abs/2609.40341v1",
+      "date": "2026-09-30",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.40341v1",
+      "authors": "Zhihao Sun, Liu Liu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "DynaHarness: A Dynamic Physical Harness for Self-Evolving Robot Agents",
+      "summary": "Pretrained robot policies provide useful action priors, but long-horizon manipulation still requires coordination between semantic reasoning and physical execution. Semantic reasoning operates at a coarser timescale than physical interaction, while e...",
+      "url": "https://arxiv.org/abs/2609.40306v1",
+      "date": "2026-09-30",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.40306v1",
+      "authors": "Haoyuan Deng, Jiebin Liu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "GPU-Accelerated Path-Dependent Marginal Information Gain for Autonomous Exploration",
+      "summary": "Autonomous exploration demands that robots continuously evaluate candidate viewpoints based on their expected information gain and execution cost. Sampling-based planners estimate this gain by volumetric raycasting and, due to its computational cost,...",
+      "url": "https://arxiv.org/abs/2609.40297v1",
+      "date": "2026-09-30",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.40297v1",
+      "authors": "João Félix Mendes, Rodrigo Ventura et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Belief-Aware Multi-Agent Path Finding under Map Uncertainty",
+      "summary": "Multi-Agent Path Finding (MAPF) aims to find collision-free paths for multiple agents in a shared environment. Classical MAPF assumes that all static obstacles are known in advance, but real-world environments can change unexpectedly due to fallen ob...",
+      "url": "https://arxiv.org/abs/2609.40269v1",
+      "date": "2026-09-30",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2609.40269v1",
+      "authors": "Viraj Parimi, Shao-Hung Chan et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
       ]
     },
     {
@@ -37,6 +117,45 @@
       "type": "news",
       "tags": [
         "机器人"
+      ]
+    },
+    {
+      "title": "具身智能的技术栈或将被改写，让机器人少走十年弯路。",
+      "summary": "具身智能的技术栈或将被改写，让机器人少走十年弯路。",
+      "url": "http://36kr.com/p/4004465537519750",
+      "date": "2026-09-29",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "灵灵智能获天使轮，推具身智能数据供给方案",
+      "summary": "灵灵智能获天使轮，推具身智能数据供给方案",
+      "url": "http://36kr.com/p/3998358077214596",
+      "date": "2026-09-29",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "9月28日长治太初AI机器人公园开园，重点项目签约，构建具身智能生态",
+      "summary": "9月28日长治太初AI机器人公园开园，重点项目签约，构建具身智能生态",
+      "url": "http://36kr.com/p/4004117396148360",
+      "date": "2026-09-29",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
       ]
     },
     {
@@ -2945,134 +3064,6 @@
       "type": "paper",
       "arxiv_id": "2609.04096v1",
       "authors": "Sixu Yan, Shikang Wang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Towards Trustworthy Autonomous Robots: An Explainable AI-Based Decision Framework",
-      "summary": "Autonomous robots powered by deep learning face a fundamental auditability challenge: when incidents occur, investigators cannot reconstruct why the system made specific decisions. This paper presents TRACE (Transparent Reasoning Architecture for Cre...",
-      "url": "https://arxiv.org/abs/2609.02861v1",
-      "date": "2026-09-02",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.02861v1",
-      "authors": "Cagri Temel",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Toward Robust LiDAR Semantic Segmentation for Real-World Deployment: Evaluation under Coarse Labels, Adverse Conditions, and Domain Shifts",
-      "summary": "LiDAR-based semantic segmentation is a core perception module for autonomous vehicles and mobile robots. Despite the strong performance of recent state-of-the-art methods on standard benchmarks, existing evaluation protocols remain focused on clean, ...",
-      "url": "https://arxiv.org/abs/2609.02830v1",
-      "date": "2026-09-02",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.02830v1",
-      "authors": "Samir Abou Haidar, Alexandre Chariot et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Do Better Imagined Rollouts Mean Better Robot Control? A Controlled Study of World-Model Evaluation Under Feedback",
-      "summary": "Predictive models are increasingly used in robotics for state estimation, planning, control, and policy evaluation, yet they are often judged by open-loop prediction accuracy over a fixed horizon. In closed-loop operation, a robot repeatedly acts, re...",
-      "url": "https://arxiv.org/abs/2609.02811v1",
-      "date": "2026-09-02",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.02811v1",
-      "authors": "Dharini Raghavan, Amritpal Singh",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "MV-dVRK: A Multi-Viewpoint Benchmark for Spatial Surgical Perception",
-      "summary": "Large-scale training and refined optimization techniques have greatly improved sparse multi-view 3D reconstruction. Despite their relevance to surgery, such methods have never before been rigorously evaluated on real endoscopic images. Current clinic...",
-      "url": "https://arxiv.org/abs/2609.02717v1",
-      "date": "2026-09-02",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.02717v1",
-      "authors": "Guido Caccianiga, Sergey Prokudin et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "From Proxy Learning to Driving Decisions: A Transfer-Based Framework for Evaluating Future-Aware Autonomous Driving Planners",
-      "summary": "Future-aware representations and world models are increasingly used in proposal-based autonomous-driving planners to improve trajectory selection. However, improvements in proxy objectives or restricted subsets are often interpreted as planning gains...",
-      "url": "https://arxiv.org/abs/2609.02688v1",
-      "date": "2026-09-02",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.02688v1",
-      "authors": "Yikai Wu",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Advancing Accessible Underwater Robotics: The Mini-Girona I-AUV at RAMI 2025",
-      "summary": "The Mini-Girona Intervention Autonomous Underwater Vehicle (I-AUV) represents an advancement in accessible underwater robotics, designed to bridge the gap between costly, specialized research AUVs and basic Remotely Operated Vehicles (ROVs). Develope...",
-      "url": "https://arxiv.org/abs/2609.02605v1",
-      "date": "2026-09-02",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.02605v1",
-      "authors": "Taqi Hamoda, Bilal Ahmed et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Pre-Lane-change Signal in Transitional Autonomous Vehicles: Results from Controlled Experiments",
-      "summary": "This paper investigates how a production transitional autonomous vehicle (tAV) develops and executes mandatory lane-change decisions. Using 150 controlled mandatory lane changes from the NC-tALC experiments, the study examines whether the eventual ta...",
-      "url": "https://arxiv.org/abs/2609.02575v1",
-      "date": "2026-09-02",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.02575v1",
-      "authors": "Zeyu Mu, Danjue Chen et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "ZETA: A Controlled Study of Zero-Shot Cross-Embodiment VLA Transfer for Tabletop Manipulation",
-      "summary": "Zero-shot generalization to unseen embodiments is important for generalizable vision-language-action (VLA) models as robot hardware evolves and task-specific data collection remains costly. However, a systematic understanding of this problem remains ...",
-      "url": "https://arxiv.org/abs/2609.02546v1",
-      "date": "2026-09-02",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.02546v1",
-      "authors": "Mi Yan, Wenhao Zhang et al.",
       "tags": [
         "机器人学习",
         "研究论文",
