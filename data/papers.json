@@ -1,7 +1,42 @@
 {
   "last_updated": "2026-10-01",
-  "count": 2,
+  "count": 6,
   "items": [
+    {
+      "title": "Semifactual Credit-Augmented Policy Optimization",
+      "authors": "Junshu Pan, Zhizhang Fu, Shulin Huang et al.",
+      "abstract": "Reinforcement learning with verifiable rewards (RLVR) has improved the reasoning capabilities of large language models (LLMs), yet their predictions remain sensitive to task-irrelevant prompt features. We investigate this sensitivity through semifactual prompt interventions that preserve the underly...",
+      "venue": "arXiv",
+      "date": "2026-09-30",
+      "arxiv_id": "2609.40360v1",
+      "url": "https://arxiv.org/abs/2609.40360v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.40360v1.pdf",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "ViTeX-Bench: Benchmarking High-Fidelity Video Scene Text Editing",
+      "authors": "Xinghao Chen, Xiangbo Gao, Jiongze Yu et al.",
+      "abstract": "Recent video generation is increasingly realistic and controllable, yet video editing remains less developed, particularly for precise local edits that must preserve the original scene dynamics. Video scene text editing replaces text on scene surfaces, such as storefront signs, whiteboards, and prod...",
+      "venue": "arXiv",
+      "date": "2026-09-30",
+      "arxiv_id": "2609.40356v1",
+      "url": "https://arxiv.org/abs/2609.40356v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.40356v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "type": "benchmark",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
     {
       "title": "Ranking-Aware Prompt Optimization for Multimodal Clinical Diagnosis",
       "authors": "Tian Xia, Minghao Liu, Yiqing Liang et al.",
@@ -21,20 +56,52 @@
       "source": "arXiv"
     },
     {
-      "title": "Semifactual Credit-Augmented Policy Optimization",
-      "authors": "Junshu Pan, Zhizhang Fu, Shulin Huang et al.",
-      "abstract": "Reinforcement learning with verifiable rewards (RLVR) has improved the reasoning capabilities of large language models (LLMs), yet their predictions remain sensitive to task-irrelevant prompt features. We investigate this sensitivity through semifactual prompt interventions that preserve the underly...",
+      "title": "Multimodal Flow: Unified Flow Modeling of Language and Vision in Embedding Spaces",
+      "authors": "Hongyuan Tao, Xinggang Wang, Lianghui Zhu et al.",
+      "abstract": "We present Multimodal Flow, a fully continuous generative model of language and vision. Most unified multimodal models either model both language and quantized images as discrete tokens or combine discrete language prediction with continuous image generation. The former introduces a visual quantizat...",
       "venue": "arXiv",
       "date": "2026-09-30",
-      "arxiv_id": "2609.40360v1",
-      "url": "https://arxiv.org/abs/2609.40360v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.40360v1.pdf",
+      "arxiv_id": "2609.40362v1",
+      "url": "https://arxiv.org/abs/2609.40362v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.40362v1.pdf",
       "categories": [
-        "cs.LG",
-        "cs.AI",
-        "cs.CL"
+        "cs.CV"
       ],
       "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "AssemblyWorld: Rethinking 3D Assembly with General-Purpose Agents",
+      "authors": "Jiahao Zhang, Yeying Fan, Moitreya Chatterjee et al.",
+      "abstract": "The task of 3D assembly requires translating an understanding of parts and their relationships into precise spatial arrangements. Can pretrained general-purpose agents assemble objects through visual interaction without additional assembly-specific fine-tuning? To investigate this question, we intro...",
+      "venue": "arXiv",
+      "date": "2026-09-30",
+      "arxiv_id": "2609.40353v1",
+      "url": "https://arxiv.org/abs/2609.40353v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.40353v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Ego4WAM: What Matters When Scaling Egocentric Human Data for Robot Learning?",
+      "authors": "Zhihao Sun, Liu Liu, Xinjiang Wang et al.",
+      "abstract": "Egocentric human data provides a scalable source of experience for robot learning, but varies substantially in human-robot alignment, behavioral coverage, and available supervision. Existing work shows favorable scaling with increasing human data, but it remains unclear which data properties drive d...",
+      "venue": "arXiv",
+      "date": "2026-09-30",
+      "arxiv_id": "2609.40341v1",
+      "url": "https://arxiv.org/abs/2609.40341v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.40341v1.pdf",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     }
