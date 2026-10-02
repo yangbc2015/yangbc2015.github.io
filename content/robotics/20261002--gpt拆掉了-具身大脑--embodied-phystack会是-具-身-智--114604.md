@@ -1,6 +1,6 @@
 ---
 title: '[GPT拆掉了「具身大脑」，Embodied PhyStack会是 具 身 智 能 的下一站吗？'
-date: '2026-10-01'
+date: '2026-10-02'
 type: news
 source: 36氪
 category: 具身智能
