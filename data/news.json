@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-10-01",
+  "last_updated": "2026-10-02",
   "count": 200,
-  "history_count": 201,
+  "history_count": 205,
   "retention_days": 30,
   "items": [
     {
       "title": "用ImageNet训练encoder",
       "link": "https://www.qbitai.com/?s=用ImageNet训",
       "summary": "用ImageNet训练encoder...",
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -20,7 +20,7 @@
       "title": "千禧年难题的突破，10000个Agent最多占了10%的功劳。",
       "link": "https://www.qbitai.com/?s=千禧年难题的突破，1",
       "summary": "千禧年难题的突破，10000个Agent最多占了10%的功劳。...",
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -32,7 +32,7 @@
       "title": "什么样的AI才适合工业现场？企业真正开始做工业AI时，又该从哪里下手？",
       "link": "https://www.qbitai.com/?s=什么样的AI才适合工",
       "summary": "什么样的AI才适合工业现场？企业真正开始做工业AI时，又该从哪里下手？...",
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -44,7 +44,7 @@
       "title": "给Agent配上手机号，再拉个群",
       "link": "https://www.qbitai.com/?s=给Agent配上手机",
       "summary": "给Agent配上手机号，再拉个群...",
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -56,7 +56,7 @@
       "title": "DeepSeek在知乎独家发布技术长文，首次系统阐释了DeepSeek弹性计算（DeepSeek Elastic Compute，DSec）",
       "link": "https://www.qbitai.com/?s=DeepSeek在知",
       "summary": "DeepSeek在知乎独家发布技术长文，首次系统阐释了DeepSeek弹性计算（DeepSeek Elastic Compute，DSec）...",
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -65,15 +65,87 @@
       ]
     },
     {
-      "title": "Published Time: Thu, 08 May 2025 23:15:48 GMT",
+      "title": "*   [Latest](http://techcrunch.com/latest/)",
       "link": "https://techcrunch.com/category/artificial-intelligence/",
-      "summary": "Published Time: Thu, 08 May 2025 23:15:48 GMT...",
-      "date": "2026-10-01",
+      "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
+      "date": "2026-10-02",
       "source": "TechCrunch",
       "type": "industry",
       "tags": [
         "AI",
         "Artificial Intelligence"
+      ]
+    },
+    {
+      "title": "Markdown Content:",
+      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+      "summary": "Markdown Content:...",
+      "date": "2026-10-01",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "汽车之后，安徽开始让车企跨界「造人」",
+      "link": "https://www.jiqizhixin.com/search/articles/汽车之后，安徽开始让车企跨界「",
+      "summary": "汽车之后，安徽开始让车企跨界「造人」...",
+      "date": "2026-10-01",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "OpenAI们被嫌死贵，美国大厂转向开源模型，中国成最大赢家",
+      "link": "https://www.jiqizhixin.com/search/articles/OpenAI们被嫌死贵，美国大",
+      "summary": "OpenAI们被嫌死贵，美国大厂转向开源模型，中国成最大赢家...",
+      "date": "2026-10-01",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "首发！openJiuwen WorkSwarm全双工多模态 ，像聊天一样与Agent交互，昇腾算力原生亲和",
+      "link": "https://www.jiqizhixin.com/search/articles/首发！openJiuwen W",
+      "summary": "首发！openJiuwen WorkSwarm全双工多模态 ，像聊天一样与Agent交互，昇腾算力原生亲和...",
+      "date": "2026-10-01",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "EMNLP 2026｜「AI把数字说歪」，官方AI审稿现场演示了一遍",
+      "link": "https://www.jiqizhixin.com/search/articles/EMNLP 2026｜「AI把",
+      "summary": "EMNLP 2026｜「AI把数字说歪」，官方AI审稿现场演示了一遍...",
+      "date": "2026-10-01",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "刚刚，谷歌发布Gemini 4 Argon：单次输出上限达100万Token",
+      "link": "https://www.jiqizhixin.com/search/articles/刚刚，谷歌发布Gemini 4",
+      "summary": "刚刚，谷歌发布Gemini 4 Argon：单次输出上限达100万Token...",
+      "date": "2026-10-01",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
       ]
     },
     {
@@ -392,18 +464,6 @@
       "title": "DeepSeek mHC多流残差坍塌失效了？",
       "link": "https://www.jiqizhixin.com/search/articles/DeepSeek mHC多流残",
       "summary": "DeepSeek mHC多流残差坍塌失效了？...",
-      "date": "2026-09-27",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Markdown Content:",
-      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-      "summary": "Markdown Content:...",
       "date": "2026-09-27",
       "source": "机器之心",
       "type": "industry",
@@ -2338,66 +2398,6 @@
       "summary": "9月3日，宜宾国际会展中心，55支机器人团队正在完成一场特殊的“面试”。...",
       "date": "2026-09-10",
       "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "近日，物理AI企业深度智控（DeepCtrls）完成新一轮B+轮数亿元融资。",
-      "link": "https://www.qbitai.com/?s=近日，物理AI企业深",
-      "summary": "近日，物理AI企业深度智控（DeepCtrls）完成新一轮B+轮数亿元融资。...",
-      "date": "2026-09-10",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "从看市场，到见场景；从认识伙伴，到寻找合作。",
-      "link": "https://www.qbitai.com/?s=从看市场，到见场景；",
-      "summary": "从看市场，到见场景；从认识伙伴，到寻找合作。...",
-      "date": "2026-09-10",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "RoboPapers专访光轮智能谢晨：具身Scaling Law的两座金字塔",
-      "link": "https://www.jiqizhixin.com/search/articles/RoboPapers专访光轮智",
-      "summary": "RoboPapers专访光轮智能谢晨：具身Scaling Law的两座金字塔...",
-      "date": "2026-09-09",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "快去提问！沐神空降小红书，在线答疑",
-      "link": "https://www.jiqizhixin.com/search/articles/快去提问！沐神空降小红书，在线",
-      "summary": "快去提问！沐神空降小红书，在线答疑...",
-      "date": "2026-09-09",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "离开自动驾驶量产一线，张颖创业做AI for Physical AI",
-      "link": "https://www.jiqizhixin.com/search/articles/离开自动驾驶量产一线，张颖创业",
-      "summary": "离开自动驾驶量产一线，张颖创业做AI for Physical AI...",
-      "date": "2026-09-09",
-      "source": "机器之心",
       "type": "industry",
       "tags": [
         "AI",

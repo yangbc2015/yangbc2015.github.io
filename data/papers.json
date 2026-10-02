@@ -1,107 +1,143 @@
 {
-  "last_updated": "2026-10-01",
-  "count": 6,
+  "last_updated": "2026-10-02",
+  "count": 8,
   "items": [
     {
-      "title": "Semifactual Credit-Augmented Policy Optimization",
-      "authors": "Junshu Pan, Zhizhang Fu, Shulin Huang et al.",
-      "abstract": "Reinforcement learning with verifiable rewards (RLVR) has improved the reasoning capabilities of large language models (LLMs), yet their predictions remain sensitive to task-irrelevant prompt features. We investigate this sensitivity through semifactual prompt interventions that preserve the underly...",
+      "title": "One Basis to Animate Them All: Gaussian Blendshape Distillation for Real-Time Avatars",
+      "authors": "Ramazan Fazylov, Stamatis Lefkimmiatis, Ivan Laptev",
+      "abstract": "3D Gaussian avatars support fast rendering, however, their real-time animation is often challenged by the costly neural inference. We address this bottleneck and show that the animation of pretrained avatar models can be closely approximated by a linear combination of identity-independent blendshape...",
       "venue": "arXiv",
-      "date": "2026-09-30",
-      "arxiv_id": "2609.40360v1",
-      "url": "https://arxiv.org/abs/2609.40360v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.40360v1.pdf",
+      "date": "2026-10-01",
+      "arxiv_id": "2610.02207v1",
+      "url": "https://arxiv.org/abs/2610.02207v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.02207v1.pdf",
       "categories": [
-        "cs.LG",
+        "cs.CV",
         "cs.AI",
-        "cs.CL"
+        "cs.HC"
       ],
-      "type": "nlp",
+      "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "ViTeX-Bench: Benchmarking High-Fidelity Video Scene Text Editing",
-      "authors": "Xinghao Chen, Xiangbo Gao, Jiongze Yu et al.",
-      "abstract": "Recent video generation is increasingly realistic and controllable, yet video editing remains less developed, particularly for precise local edits that must preserve the original scene dynamics. Video scene text editing replaces text on scene surfaces, such as storefront signs, whiteboards, and prod...",
+      "title": "KaliBench: A Fine-Grained Benchmark for Cybersecurity Tool Use on Kali Linux with Runtime-Free Verifiable Rewards",
+      "authors": "Pengfei Li, Naufal Suryanto, Sicheng Zhang et al.",
+      "abstract": "LLMs are increasingly applied to cybersecurity workflows, where they are expected to translate analysts' intent into tool invocations. However, existing evaluations focus on knowledge-based assessments or end-to-end agentic tasks, and do not directly measure LLMs' ability to generate executable comm...",
       "venue": "arXiv",
-      "date": "2026-09-30",
-      "arxiv_id": "2609.40356v1",
-      "url": "https://arxiv.org/abs/2609.40356v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.40356v1.pdf",
+      "date": "2026-10-01",
+      "arxiv_id": "2610.02206v1",
+      "url": "https://arxiv.org/abs/2610.02206v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.02206v1.pdf",
       "categories": [
-        "cs.CV",
-        "cs.AI"
+        "cs.CL",
+        "cs.AI",
+        "cs.CR"
       ],
       "type": "benchmark",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Ranking-Aware Prompt Optimization for Multimodal Clinical Diagnosis",
-      "authors": "Tian Xia, Minghao Liu, Yiqing Liang et al.",
-      "abstract": "Multimodal large language models (MLLMs) are rapidly advancing clinical diagnosis, yet their adaptation pipelines remain anchored to accuracy-based objectives. Clinical data are heavily class-imbalanced: a constant-majority predictor can score above 90% accuracy while being clinically useless. We th...",
+      "title": "ScholarCatalyst: A Benchmark for Retrieving Papers That Inspire New Research",
+      "authors": "Sohyeon Kim, Yoonho Lee, Bo Liu et al.",
+      "abstract": "What makes great scientists great? Even as AI systems start to make progress on open problems, scientists remain far ahead of them at sensing which prior idea, buried in an ever-growing archive of research, a new problem needs. To study this skill, we draw on researchers who know firsthand which ear...",
       "venue": "arXiv",
-      "date": "2026-09-30",
-      "arxiv_id": "2609.40361v1",
-      "url": "https://arxiv.org/abs/2609.40361v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.40361v1.pdf",
+      "date": "2026-10-01",
+      "arxiv_id": "2610.02202v1",
+      "url": "https://arxiv.org/abs/2610.02202v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.02202v1.pdf",
       "categories": [
-        "cs.LG",
+        "cs.AI",
         "cs.CL",
-        "cs.CV"
+        "cs.IR"
       ],
-      "type": "nlp",
+      "type": "benchmark",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Multimodal Flow: Unified Flow Modeling of Language and Vision in Embedding Spaces",
-      "authors": "Hongyuan Tao, Xinggang Wang, Lianghui Zhu et al.",
-      "abstract": "We present Multimodal Flow, a fully continuous generative model of language and vision. Most unified multimodal models either model both language and quantized images as discrete tokens or combine discrete language prediction with continuous image generation. The former introduces a visual quantizat...",
+      "title": "Moore, Escher, Penrose: A Conformal Golden Braid",
+      "authors": "Sophia Feldman, Assaf Shocher",
+      "abstract": "I don't think I have ever done anything as peculiar in my life. Among other things, it shows a young man looking with interest at a print on the wall of an exhibition that features himself. How can this be? Perhaps I am not far removed from Einstein's curved universe.'' So wrote M.C. Escher about hi...",
       "venue": "arXiv",
-      "date": "2026-09-30",
-      "arxiv_id": "2609.40362v1",
-      "url": "https://arxiv.org/abs/2609.40362v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.40362v1.pdf",
+      "date": "2026-10-01",
+      "arxiv_id": "2610.02210v1",
+      "url": "https://arxiv.org/abs/2610.02210v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.02210v1.pdf",
       "categories": [
         "cs.CV"
       ],
-      "type": "nlp",
+      "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "AssemblyWorld: Rethinking 3D Assembly with General-Purpose Agents",
-      "authors": "Jiahao Zhang, Yeying Fan, Moitreya Chatterjee et al.",
-      "abstract": "The task of 3D assembly requires translating an understanding of parts and their relationships into precise spatial arrangements. Can pretrained general-purpose agents assemble objects through visual interaction without additional assembly-specific fine-tuning? To investigate this question, we intro...",
+      "title": "Sphere Encoder 2",
+      "authors": "Kaiyu Yue, Sean McLeish, Ruchit Rawal et al.",
+      "abstract": "Sphere Encoder is an autoencoder that generates images by decoding random points from a high-dimensional latent sphere. We identify two limitations of the original formulation that reduce its generation quality. First, random points concentrate near the equator relative to the pole on an encoded lat...",
       "venue": "arXiv",
-      "date": "2026-09-30",
-      "arxiv_id": "2609.40353v1",
-      "url": "https://arxiv.org/abs/2609.40353v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.40353v1.pdf",
+      "date": "2026-10-01",
+      "arxiv_id": "2610.02208v1",
+      "url": "https://arxiv.org/abs/2610.02208v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.02208v1.pdf",
+      "categories": [
+        "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Embedding Prediction Helps Image Generation",
+      "authors": "Sihan Xu, Ji Xie, Zilin Wang et al.",
+      "abstract": "In diffusion transformers, a class label or a text prompt is embedded once, and the same condition is reused at every denoising step. We ask whether predicted embeddings can serve as this condition instead. Next-Embedding Predictive Autoregression (NEPA) trains a Transformer to predict the next cont...",
+      "venue": "arXiv",
+      "date": "2026-10-01",
+      "arxiv_id": "2610.02203v1",
+      "url": "https://arxiv.org/abs/2610.02203v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.02203v1.pdf",
       "categories": [
         "cs.CV",
-        "cs.RO"
+        "cs.LG"
       ],
       "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Ego4WAM: What Matters When Scaling Egocentric Human Data for Robot Learning?",
-      "authors": "Zhihao Sun, Liu Liu, Xinjiang Wang et al.",
-      "abstract": "Egocentric human data provides a scalable source of experience for robot learning, but varies substantially in human-robot alignment, behavioral coverage, and available supervision. Existing work shows favorable scaling with increasing human data, but it remains unclear which data properties drive d...",
+      "title": "Reconstruct, Practice, Go Real: Guided Self-Improvement for Embodied Agents",
+      "authors": "Yen-Jen Wang, Haozhe Jiang, Shuying Deng et al.",
+      "abstract": "Building reliable robot capabilities across diverse tasks requires substantial human effort to develop and maintain skills, design rewards, and integrate perception with control. We present Reconstruct, Practice, Go Real (RPG), a framework for autonomous improvement of robot execution systems withou...",
       "venue": "arXiv",
-      "date": "2026-09-30",
-      "arxiv_id": "2609.40341v1",
-      "url": "https://arxiv.org/abs/2609.40341v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.40341v1.pdf",
+      "date": "2026-10-01",
+      "arxiv_id": "2610.02204v1",
+      "url": "https://arxiv.org/abs/2610.02204v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.02204v1.pdf",
       "categories": [
         "cs.RO",
-        "cs.CV"
+        "cs.AI",
+        "eess.SY"
       ],
-      "type": "vision",
+      "type": "ai",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "FERPO: Forward Entropy-Regularized Policy Optimization",
+      "authors": "Sebastian Sanokowski, Alireza Sarmadi, Majid Khadiv",
+      "abstract": "Several state-of-the-art methods for online reinforcement learning in continuous control improve policies using action gradients of a learned critic. However, critics are typically trained to predict returns, and accurate value predictions do not necessarily yield accurate action derivatives, potent...",
+      "venue": "arXiv",
+      "date": "2026-10-01",
+      "arxiv_id": "2610.02198v1",
+      "url": "https://arxiv.org/abs/2610.02198v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.02198v1.pdf",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.RO"
+      ],
+      "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     }

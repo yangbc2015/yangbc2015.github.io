@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-10-01",
+  "last_updated": "2026-10-02",
   "count": 200,
   "items": [
     {
       "title": "[GPT拆掉了「具身大脑」，Embodied PhyStack会是 具 身 智 能 的下一站吗？",
       "summary": "[GPT拆掉了「具身大脑」，Embodied PhyStack会是 具 身 智 能 的下一站吗？",
       "url": "http://36kr.com/p/4004465537519750",
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "source": "36氪",
       "category": "具身智能",
       "type": "news",
@@ -19,12 +19,105 @@
       "title": "[具 身 智 能 卡住的不是算法，是 ' 数据荒 '：灵灵智能用 ' 无本体 + 真机 ' 双轨采集，把人类行为变成机器人训练数据",
       "summary": "[具 身 智 能 卡住的不是算法，是 ' 数据荒 '：灵灵智能用 ' 无本体 + 真机 ' 双轨采集，把人类行为变成机器人训练数据",
       "url": "http://36kr.com/p/3998358077214596",
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
       "tags": [
         "机器人"
+      ]
+    },
+    {
+      "title": "Reconstruct, Practice, Go Real: Guided Self-Improvement for Embodied Agents",
+      "summary": "Building reliable robot capabilities across diverse tasks requires substantial human effort to develop and maintain skills, design rewards, and integrate perception with control. We present Reconstruct, Practice, Go Real (RPG), a framework for autono...",
+      "url": "https://arxiv.org/abs/2610.02204v1",
+      "date": "2026-10-01",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.02204v1",
+      "authors": "Yen-Jen Wang, Haozhe Jiang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "FERPO: Forward Entropy-Regularized Policy Optimization",
+      "summary": "Several state-of-the-art methods for online reinforcement learning in continuous control improve policies using action gradients of a learned critic. However, critics are typically trained to predict returns, and accurate value predictions do not nec...",
+      "url": "https://arxiv.org/abs/2610.02198v1",
+      "date": "2026-10-01",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.02198v1",
+      "authors": "Sebastian Sanokowski, Alireza Sarmadi et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "InterEvolve: Test-Time Evolution of Reward Programs for Humanoid Loco-Manipulation",
+      "summary": "We study test-time evolution for humanoid loco-manipulation: solving tasks that a controller was never trained for by repurposing its existing skills, improving from its own attempts, and retaining what it learns, without retraining. Our key insight ...",
+      "url": "https://arxiv.org/abs/2610.02196v1",
+      "date": "2026-10-01",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.02196v1",
+      "authors": "Zhuo Lin, Sirui Xu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Watch, Infer, Coordinate: Inferring Robot Partner Constraints for Zero-Shot Coordination",
+      "summary": "Robots operating in the physical world will increasingly need to coordinate with other robots, particularly in manipulation tasks where an object may be too large or heavy for a single robot to carry alone. Physical limitations caused by hardware deg...",
+      "url": "https://arxiv.org/abs/2610.02170v1",
+      "date": "2026-10-01",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.02170v1",
+      "authors": "Suyu Ye, Zheyuan Zhang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "DuoMind: Enabling Distributed Multi-Robot Coordination with Semantic Communication",
+      "summary": "Vision-language models (VLMs) and vision-language-action models (VLAs) have recently driven rapid progress in general-purpose robots, yet most progress has focused on single-robot settings. Extending these capabilities to multi-robot systems remains ...",
+      "url": "https://arxiv.org/abs/2610.02161v1",
+      "date": "2026-10-01",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.02161v1",
+      "authors": "Hanchu Zhou, Dechen Gao et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "一些具身智能企业大干快上的数采中心项目开始引发外界关注和争议。",
+      "summary": "一些具身智能企业大干快上的数采中心项目开始引发外界关注和争议。",
+      "url": "http://36kr.com/p/4005634581155970",
+      "date": "2026-09-30",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
       ]
     },
     {
@@ -2975,96 +3068,6 @@
         "机器人",
         "具身智能",
         "机械臂"
-      ]
-    },
-    {
-      "title": "姚期智搭了四年的台，正好赶上具身智能这阵风",
-      "summary": "姚期智搭了四年的台，正好赶上具身智能这阵风",
-      "url": "http://36kr.com/p/3966038087376393",
-      "date": "2026-09-03",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "推进具身数据采集与服务、空间/具身智能控制器、世界模型及机器人技能平台的研发，并重点在电子制造、食品、医药等轻工业领域拓展真实应用场景。",
-      "summary": "推进具身数据采集与服务、空间/具身智能控制器、世界模型及机器人技能平台的研发，并重点在电子制造、食品、医药等轻工业领域拓展真实应用场景。",
-      "url": "http://36kr.com/p/3965678197710089",
-      "date": "2026-09-03",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "GIFT: Guided Intermediate Feature Training via Action-Oriented Structural Supervision for Robotic Manipulation",
-      "summary": "Vision-language pre-training and predictive world modeling provide robot policies with rich semantic and dynamic visual features, but their native action and visual-prediction objectives may omit critical physical and task structure while retaining c...",
-      "url": "https://arxiv.org/abs/2609.04193v1",
-      "date": "2026-09-03",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.04193v1",
-      "authors": "Yupeng Zheng, Xiang Li et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Formation Matrix and Energy-based Control of Multi-Agent Systems",
-      "summary": "This paper presents an energy-based controller for a multiagent robotic system designed to achieve and maintain a specific formation while moving on a plane and avoiding collisions between agents. The controller emulates a network of elementary sprin...",
-      "url": "https://arxiv.org/abs/2609.04158v1",
-      "date": "2026-09-03",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.04158v1",
-      "authors": "Martín Crespo, Sergio Junco et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "A Low-Cost, Open Platform for End-to-End Autonomous Driving on a Miniature Ackermann Vehicle",
-      "summary": "This paper presents a low-cost, open experimental platform for research in end-to-end autonomous driving with miniature Ackermann vehicles. The platform combines a physical vehicle, a printed urban track, data collection tools, trajectory registratio...",
-      "url": "https://arxiv.org/abs/2609.04147v1",
-      "date": "2026-09-03",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.04147v1",
-      "authors": "Gustavo Claudio Karl Couto, Eric Aislan Antonelo et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Corner Cases: Headland Coverage Path Planning for Autonomous Driving in Arable Farming",
-      "summary": "This paper presents a new method for headland coverage path planning for arable fields. Several earlier approaches suggest covering the headland with nested polygons and smooth turns, however, covering the field corners entirely requires manoeuvres w...",
-      "url": "https://arxiv.org/abs/2609.04103v1",
-      "date": "2026-09-03",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.04103v1",
-      "authors": "Riikka Soitinaho, Timo Oksanen",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
       ]
     }
   ]
