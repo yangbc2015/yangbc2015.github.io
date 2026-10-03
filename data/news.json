@@ -1,7 +1,7 @@
 {
   "last_updated": "2026-10-03",
   "count": 200,
-  "history_count": 200,
+  "history_count": 201,
   "retention_days": 30,
   "items": [
     {
@@ -65,27 +65,15 @@
       ]
     },
     {
-      "title": "*   [Latest](http://techcrunch.com/latest/)",
+      "title": "Published Time: Thu, 08 May 2025 23:15:48 GMT",
       "link": "https://techcrunch.com/category/artificial-intelligence/",
-      "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
+      "summary": "Published Time: Thu, 08 May 2025 23:15:48 GMT...",
       "date": "2026-10-03",
       "source": "TechCrunch",
       "type": "industry",
       "tags": [
         "AI",
         "Artificial Intelligence"
-      ]
-    },
-    {
-      "title": "Markdown Content:",
-      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-      "summary": "Markdown Content:...",
-      "date": "2026-10-02",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
       ]
     },
     {
@@ -140,6 +128,30 @@
       "title": "LegoFlow：让智能体自主跑完代码数据构建+训练测评全流程",
       "link": "https://www.jiqizhixin.com/search/articles/LegoFlow：让智能体自主",
       "summary": "LegoFlow：让智能体自主跑完代码数据构建+训练测评全流程...",
+      "date": "2026-10-02",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "淘宝TaoMate-H3开源：三步生成「分钟级」音视频连续创作",
+      "link": "https://www.jiqizhixin.com/search/articles/淘宝TaoMate-H3开源：",
+      "summary": "淘宝TaoMate-H3开源：三步生成「分钟级」音视频连续创作...",
+      "date": "2026-10-02",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "Markdown Content:",
+      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+      "summary": "Markdown Content:...",
       "date": "2026-10-02",
       "source": "机器之心",
       "type": "industry",
@@ -2384,18 +2396,6 @@
       "title": "90后发Nature，10后进ICML，我在这场蚂蚁InTech论坛看见被AI折叠的科研",
       "link": "https://www.jiqizhixin.com/search/articles/90后发Nature，10后进",
       "summary": "90后发Nature，10后进ICML，我在这场蚂蚁InTech论坛看见被AI折叠的科研...",
-      "date": "2026-09-11",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "openJiuwen首发双维度RSI框架，AI自修改，落地办公智能体，算力亲和助力又快又省",
-      "link": "https://www.jiqizhixin.com/search/articles/openJiuwen首发双维度",
-      "summary": "openJiuwen首发双维度RSI框架，AI自修改，落地办公智能体，算力亲和助力又快又省...",
       "date": "2026-09-11",
       "source": "机器之心",
       "type": "industry",
