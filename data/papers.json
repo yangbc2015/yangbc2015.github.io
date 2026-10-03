@@ -3,24 +3,6 @@
   "count": 8,
   "items": [
     {
-      "title": "One Basis to Animate Them All: Gaussian Blendshape Distillation for Real-Time Avatars",
-      "authors": "Ramazan Fazylov, Stamatis Lefkimmiatis, Ivan Laptev",
-      "abstract": "3D Gaussian avatars support fast rendering, however, their real-time animation is often challenged by the costly neural inference. We address this bottleneck and show that the animation of pretrained avatar models can be closely approximated by a linear combination of identity-independent blendshape...",
-      "venue": "arXiv",
-      "date": "2026-10-01",
-      "arxiv_id": "2610.02207v1",
-      "url": "https://arxiv.org/abs/2610.02207v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.02207v1.pdf",
-      "categories": [
-        "cs.CV",
-        "cs.AI",
-        "cs.HC"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
       "title": "KaliBench: A Fine-Grained Benchmark for Cybersecurity Tool Use on Kali Linux with Runtime-Free Verifiable Rewards",
       "authors": "Pengfei Li, Naufal Suryanto, Sicheng Zhang et al.",
       "abstract": "LLMs are increasingly applied to cybersecurity workflows, where they are expected to translate analysts' intent into tool invocations. However, existing evaluations focus on knowledge-based assessments or end-to-end agentic tasks, and do not directly measure LLMs' ability to generate executable comm...",
@@ -83,6 +65,24 @@
       "pdf_url": "https://arxiv.org/pdf/2610.02208v1.pdf",
       "categories": [
         "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "One Basis to Animate Them All: Gaussian Blendshape Distillation for Real-Time Avatars",
+      "authors": "Ramazan Fazylov, Stamatis Lefkimmiatis, Ivan Laptev",
+      "abstract": "3D Gaussian avatars support fast rendering, however, their real-time animation is often challenged by the costly neural inference. We address this bottleneck and show that the animation of pretrained avatar models can be closely approximated by a linear combination of identity-independent blendshape...",
+      "venue": "arXiv",
+      "date": "2026-10-01",
+      "arxiv_id": "2610.02207v1",
+      "url": "https://arxiv.org/abs/2610.02207v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.02207v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.HC"
       ],
       "type": "vision",
       "badge": "arxiv",
