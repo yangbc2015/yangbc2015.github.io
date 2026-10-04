@@ -1,25 +1,7 @@
 {
   "last_updated": "2026-10-04",
-  "count": 8,
+  "count": 6,
   "items": [
-    {
-      "title": "One Basis to Animate Them All: Gaussian Blendshape Distillation for Real-Time Avatars",
-      "authors": "Ramazan Fazylov, Stamatis Lefkimmiatis, Ivan Laptev",
-      "abstract": "3D Gaussian avatars support fast rendering, however, their real-time animation is often challenged by the costly neural inference. We address this bottleneck and show that the animation of pretrained avatar models can be closely approximated by a linear combination of identity-independent blendshape...",
-      "venue": "arXiv",
-      "date": "2026-10-01",
-      "arxiv_id": "2610.02207v1",
-      "url": "https://arxiv.org/abs/2610.02207v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.02207v1.pdf",
-      "categories": [
-        "cs.CV",
-        "cs.AI",
-        "cs.HC"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
     {
       "title": "KaliBench: A Fine-Grained Benchmark for Cybersecurity Tool Use on Kali Linux with Runtime-Free Verifiable Rewards",
       "authors": "Pengfei Li, Naufal Suryanto, Sicheng Zhang et al.",
@@ -83,23 +65,6 @@
       "pdf_url": "https://arxiv.org/pdf/2610.02208v1.pdf",
       "categories": [
         "cs.CV"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Embedding Prediction Helps Image Generation",
-      "authors": "Sihan Xu, Ji Xie, Zilin Wang et al.",
-      "abstract": "In diffusion transformers, a class label or a text prompt is embedded once, and the same condition is reused at every denoising step. We ask whether predicted embeddings can serve as this condition instead. Next-Embedding Predictive Autoregression (NEPA) trains a Transformer to predict the next cont...",
-      "venue": "arXiv",
-      "date": "2026-10-01",
-      "arxiv_id": "2610.02203v1",
-      "url": "https://arxiv.org/abs/2610.02203v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.02203v1.pdf",
-      "categories": [
-        "cs.CV",
-        "cs.LG"
       ],
       "type": "vision",
       "badge": "arxiv",
