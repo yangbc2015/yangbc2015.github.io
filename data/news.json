@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-10-03",
+  "last_updated": "2026-10-04",
   "count": 200,
-  "history_count": 200,
+  "history_count": 205,
   "retention_days": 30,
   "items": [
     {
       "title": "让每一次请求选对模型，让每一次反馈都成为下一次更优、更省的选择",
       "link": "https://www.qbitai.com/?s=让每一次请求选对模型",
       "summary": "让每一次请求选对模型，让每一次反馈都成为下一次更优、更省的选择...",
-      "date": "2026-10-03",
+      "date": "2026-10-04",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -20,7 +20,7 @@
       "title": "用ImageNet训练encoder",
       "link": "https://www.qbitai.com/?s=用ImageNet训",
       "summary": "用ImageNet训练encoder...",
-      "date": "2026-10-03",
+      "date": "2026-10-04",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -32,7 +32,7 @@
       "title": "千禧年难题的突破，10000个Agent最多占了10%的功劳。",
       "link": "https://www.qbitai.com/?s=千禧年难题的突破，1",
       "summary": "千禧年难题的突破，10000个Agent最多占了10%的功劳。...",
-      "date": "2026-10-03",
+      "date": "2026-10-04",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -44,7 +44,7 @@
       "title": "什么样的AI才适合工业现场？企业真正开始做工业AI时，又该从哪里下手？",
       "link": "https://www.qbitai.com/?s=什么样的AI才适合工",
       "summary": "什么样的AI才适合工业现场？企业真正开始做工业AI时，又该从哪里下手？...",
-      "date": "2026-10-03",
+      "date": "2026-10-04",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -56,7 +56,7 @@
       "title": "给Agent配上手机号，再拉个群",
       "link": "https://www.qbitai.com/?s=给Agent配上手机",
       "summary": "给Agent配上手机号，再拉个群...",
-      "date": "2026-10-03",
+      "date": "2026-10-04",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -68,12 +68,84 @@
       "title": "*   [Latest](http://techcrunch.com/latest/)",
       "link": "https://techcrunch.com/category/artificial-intelligence/",
       "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
-      "date": "2026-10-03",
+      "date": "2026-10-04",
       "source": "TechCrunch",
       "type": "industry",
       "tags": [
         "AI",
         "Artificial Intelligence"
+      ]
+    },
+    {
+      "title": "Markdown Content:",
+      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+      "summary": "Markdown Content:...",
+      "date": "2026-10-03",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "Karpathy的新玩法！40年前的航空规范，救了爱说废话的AI",
+      "link": "https://www.jiqizhixin.com/search/articles/Karpathy的新玩法！40",
+      "summary": "Karpathy的新玩法！40年前的航空规范，救了爱说废话的AI...",
+      "date": "2026-10-03",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "CoRL 2026｜让机器人更会动，从学会「起步」开始",
+      "link": "https://www.jiqizhixin.com/search/articles/CoRL 2026｜让机器人更",
+      "summary": "CoRL 2026｜让机器人更会动，从学会「起步」开始...",
+      "date": "2026-10-03",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "Jev被请下王座，StartLux中国开源决策模型冲上第一",
+      "link": "https://www.jiqizhixin.com/search/articles/Jev被请下王座，StartL",
+      "summary": "Jev被请下王座，StartLux中国开源决策模型冲上第一...",
+      "date": "2026-10-03",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "万分之一——大模型后训练中的极端稀疏监督",
+      "link": "https://www.jiqizhixin.com/search/articles/万分之一——大模型后训练中的极",
+      "summary": "万分之一——大模型后训练中的极端稀疏监督...",
+      "date": "2026-10-03",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "刚刚，Meta开源Muse Gadgets，让全球开发者自己「造AI外设」",
+      "link": "https://www.jiqizhixin.com/search/articles/刚刚，Meta开源Muse G",
+      "summary": "刚刚，Meta开源Muse Gadgets，让全球开发者自己「造AI外设」...",
+      "date": "2026-10-03",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
       ]
     },
     {
@@ -140,18 +212,6 @@
       "title": "淘宝TaoMate-H3开源：三步生成「分钟级」音视频连续创作",
       "link": "https://www.jiqizhixin.com/search/articles/淘宝TaoMate-H3开源：",
       "summary": "淘宝TaoMate-H3开源：三步生成「分钟级」音视频连续创作...",
-      "date": "2026-10-02",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Markdown Content:",
-      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-      "summary": "Markdown Content:...",
       "date": "2026-10-02",
       "source": "机器之心",
       "type": "industry",
@@ -2338,66 +2398,6 @@
       "summary": "8月28日-9月1日，SkyProduction（天工工作台）联合阿里巴巴通义万相，推出了Wan 3.0模型限时免费活动...",
       "date": "2026-09-12",
       "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Nature封面 | 面向流体动力学的强化学习平台，华盛顿大学等提出HydroGym",
-      "link": "https://www.jiqizhixin.com/search/articles/Nature封面 | 面向流体",
-      "summary": "Nature封面 | 面向流体动力学的强化学习平台，华盛顿大学等提出HydroGym...",
-      "date": "2026-09-11",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "IIFAA智能体可信身份工作组成立，50余家机构参与生态共建",
-      "link": "https://www.jiqizhixin.com/search/articles/IIFAA智能体可信身份工作组",
-      "summary": "IIFAA智能体可信身份工作组成立，50余家机构参与生态共建...",
-      "date": "2026-09-11",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "从GitHub爆火到ECCV Oral，全球开发者把LingBot-Map玩出新高度",
-      "link": "https://www.jiqizhixin.com/search/articles/从GitHub爆火到ECCV ",
-      "summary": "从GitHub爆火到ECCV Oral，全球开发者把LingBot-Map玩出新高度...",
-      "date": "2026-09-11",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "《npj Robotics》：还在疯狂堆数据？北航、NTU联合提出PhyFilter，让机器人在有限数据下学会举一反三",
-      "link": "https://www.jiqizhixin.com/search/articles/《npj Robotics》：",
-      "summary": "《npj Robotics》：还在疯狂堆数据？北航、NTU联合提出PhyFilter，让机器人在有限数据下学会举一反三...",
-      "date": "2026-09-11",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "90后发Nature，10后进ICML，我在这场蚂蚁InTech论坛看见被AI折叠的科研",
-      "link": "https://www.jiqizhixin.com/search/articles/90后发Nature，10后进",
-      "summary": "90后发Nature，10后进ICML，我在这场蚂蚁InTech论坛看见被AI折叠的科研...",
-      "date": "2026-09-11",
-      "source": "机器之心",
       "type": "industry",
       "tags": [
         "AI",

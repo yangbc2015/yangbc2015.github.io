@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-03",
-  "last_updated": "2026-10-03",
+  "date": "2026-10-04",
+  "last_updated": "2026-10-04",
   "categories": {
     "ai": {
       "name": "人工智能",
@@ -8,10 +8,10 @@
       "count": 5,
       "items": [
         {
-          "title": "生物医学基础模型越来越强，但我们真的知道它学会了什么吗？",
-          "link": "https://www.jiqizhixin.com/search/articles/生物医学基础模型越来越强，但我",
-          "summary": "生物医学基础模型越来越强，但我们真的知道它学会了什么吗？...",
-          "date": "2026-10-02",
+          "title": "Markdown Content:",
+          "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+          "summary": "Markdown Content:...",
+          "date": "2026-10-03",
           "source": "机器之心",
           "type": "industry",
           "tags": [
@@ -20,10 +20,10 @@
           ]
         },
         {
-          "title": "MiniMax M3.1 Flash来了：Opus 5.5刷屏的绝活，它也能做",
-          "link": "https://www.jiqizhixin.com/search/articles/MiniMax M3.1 Fl",
-          "summary": "MiniMax M3.1 Flash来了：Opus 5.5刷屏的绝活，它也能做...",
-          "date": "2026-10-02",
+          "title": "Karpathy的新玩法！40年前的航空规范，救了爱说废话的AI",
+          "link": "https://www.jiqizhixin.com/search/articles/Karpathy的新玩法！40",
+          "summary": "Karpathy的新玩法！40年前的航空规范，救了爱说废话的AI...",
+          "date": "2026-10-03",
           "source": "机器之心",
           "type": "industry",
           "tags": [
@@ -32,10 +32,10 @@
           ]
         },
         {
-          "title": "让AI自己给大模型做后训练：AIBuildAI开源递归自进化PostTrain Agent，登顶PostTrainBench",
-          "link": "https://www.jiqizhixin.com/search/articles/让AI自己给大模型做后训练：A",
-          "summary": "让AI自己给大模型做后训练：AIBuildAI开源递归自进化PostTrain Agent，登顶PostTrainBench...",
-          "date": "2026-10-02",
+          "title": "CoRL 2026｜让机器人更会动，从学会「起步」开始",
+          "link": "https://www.jiqizhixin.com/search/articles/CoRL 2026｜让机器人更",
+          "summary": "CoRL 2026｜让机器人更会动，从学会「起步」开始...",
+          "date": "2026-10-03",
           "source": "机器之心",
           "type": "industry",
           "tags": [
@@ -44,10 +44,10 @@
           ]
         },
         {
-          "title": "比李飞飞World Labs早两年押注原生4D，影身智能这次是真走在前面了？",
-          "link": "https://www.jiqizhixin.com/search/articles/比李飞飞World Labs早",
-          "summary": "比李飞飞World Labs早两年押注原生4D，影身智能这次是真走在前面了？...",
-          "date": "2026-10-02",
+          "title": "Jev被请下王座，StartLux中国开源决策模型冲上第一",
+          "link": "https://www.jiqizhixin.com/search/articles/Jev被请下王座，StartL",
+          "summary": "Jev被请下王座，StartLux中国开源决策模型冲上第一...",
+          "date": "2026-10-03",
           "source": "机器之心",
           "type": "industry",
           "tags": [
@@ -56,10 +56,10 @@
           ]
         },
         {
-          "title": "LegoFlow：让智能体自主跑完代码数据构建+训练测评全流程",
-          "link": "https://www.jiqizhixin.com/search/articles/LegoFlow：让智能体自主",
-          "summary": "LegoFlow：让智能体自主跑完代码数据构建+训练测评全流程...",
-          "date": "2026-10-02",
+          "title": "万分之一——大模型后训练中的极端稀疏监督",
+          "link": "https://www.jiqizhixin.com/search/articles/万分之一——大模型后训练中的极",
+          "summary": "万分之一——大模型后训练中的极端稀疏监督...",
+          "date": "2026-10-03",
           "source": "机器之心",
           "type": "industry",
           "tags": [
