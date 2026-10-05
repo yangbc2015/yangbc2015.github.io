@@ -101,14 +101,6 @@
     },
     {
       "rank": 13,
-      "model": "space-bunny-alpha",
-      "organization": "stealth",
-      "price_prompt": "0",
-      "price_completion": "0",
-      "context_length": 1000000
-    },
-    {
-      "rank": 14,
       "model": "aion-3.5-mini",
       "organization": "aion-labs",
       "price_prompt": "0.0000007",
@@ -116,12 +108,20 @@
       "context_length": 262144
     },
     {
-      "rank": 15,
+      "rank": 14,
       "model": "aion-3.5",
       "organization": "aion-labs",
       "price_prompt": "0.000003",
       "price_completion": "0.000006",
       "context_length": 262144
+    },
+    {
+      "rank": 15,
+      "model": "solar-mini4",
+      "organization": "upstage",
+      "price_prompt": "0.00000005",
+      "price_completion": "0.0000002",
+      "context_length": 524288
     }
   ]
 }
