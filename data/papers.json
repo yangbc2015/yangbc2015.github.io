@@ -1,143 +1,141 @@
 {
-  "last_updated": "2026-10-04",
+  "last_updated": "2026-10-05",
   "count": 8,
   "items": [
     {
-      "title": "One Basis to Animate Them All: Gaussian Blendshape Distillation for Real-Time Avatars",
-      "authors": "Ramazan Fazylov, Stamatis Lefkimmiatis, Ivan Laptev",
-      "abstract": "3D Gaussian avatars support fast rendering, however, their real-time animation is often challenged by the costly neural inference. We address this bottleneck and show that the animation of pretrained avatar models can be closely approximated by a linear combination of identity-independent blendshape...",
+      "title": "Less Decoder is More Encoder: Geometric Representation Learning from Novel View Synthesis",
+      "authors": "Keerthi Kaashyap, Dennis Anthony, Akshay Krishnan et al.",
+      "abstract": "This paper examines the role of Novel View Synthesis (NVS) in geometric representation learning. In principle, NVS should reason about 3D scene structure, thereby enabling transferable multi-view geometric representations. Yet, existing encoder-based NVS methods yield poor representations. This is n...",
       "venue": "arXiv",
-      "date": "2026-10-01",
-      "arxiv_id": "2610.02207v1",
-      "url": "https://arxiv.org/abs/2610.02207v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.02207v1.pdf",
+      "date": "2026-10-02",
+      "arxiv_id": "2610.03717v1",
+      "url": "https://arxiv.org/abs/2610.03717v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.03717v1.pdf",
       "categories": [
         "cs.CV",
-        "cs.AI",
-        "cs.HC"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "KaliBench: A Fine-Grained Benchmark for Cybersecurity Tool Use on Kali Linux with Runtime-Free Verifiable Rewards",
-      "authors": "Pengfei Li, Naufal Suryanto, Sicheng Zhang et al.",
-      "abstract": "LLMs are increasingly applied to cybersecurity workflows, where they are expected to translate analysts' intent into tool invocations. However, existing evaluations focus on knowledge-based assessments or end-to-end agentic tasks, and do not directly measure LLMs' ability to generate executable comm...",
-      "venue": "arXiv",
-      "date": "2026-10-01",
-      "arxiv_id": "2610.02206v1",
-      "url": "https://arxiv.org/abs/2610.02206v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.02206v1.pdf",
-      "categories": [
-        "cs.CL",
-        "cs.AI",
-        "cs.CR"
-      ],
-      "type": "benchmark",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "ScholarCatalyst: A Benchmark for Retrieving Papers That Inspire New Research",
-      "authors": "Sohyeon Kim, Yoonho Lee, Bo Liu et al.",
-      "abstract": "What makes great scientists great? Even as AI systems start to make progress on open problems, scientists remain far ahead of them at sensing which prior idea, buried in an ever-growing archive of research, a new problem needs. To study this skill, we draw on researchers who know firsthand which ear...",
-      "venue": "arXiv",
-      "date": "2026-10-01",
-      "arxiv_id": "2610.02202v1",
-      "url": "https://arxiv.org/abs/2610.02202v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.02202v1.pdf",
-      "categories": [
-        "cs.AI",
-        "cs.CL",
-        "cs.IR"
-      ],
-      "type": "benchmark",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Moore, Escher, Penrose: A Conformal Golden Braid",
-      "authors": "Sophia Feldman, Assaf Shocher",
-      "abstract": "I don't think I have ever done anything as peculiar in my life. Among other things, it shows a young man looking with interest at a print on the wall of an exhibition that features himself. How can this be? Perhaps I am not far removed from Einstein's curved universe.'' So wrote M.C. Escher about hi...",
-      "venue": "arXiv",
-      "date": "2026-10-01",
-      "arxiv_id": "2610.02210v1",
-      "url": "https://arxiv.org/abs/2610.02210v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.02210v1.pdf",
-      "categories": [
-        "cs.CV"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Sphere Encoder 2",
-      "authors": "Kaiyu Yue, Sean McLeish, Ruchit Rawal et al.",
-      "abstract": "Sphere Encoder is an autoencoder that generates images by decoding random points from a high-dimensional latent sphere. We identify two limitations of the original formulation that reduce its generation quality. First, random points concentrate near the equator relative to the pole on an encoded lat...",
-      "venue": "arXiv",
-      "date": "2026-10-01",
-      "arxiv_id": "2610.02208v1",
-      "url": "https://arxiv.org/abs/2610.02208v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.02208v1.pdf",
-      "categories": [
-        "cs.CV"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Embedding Prediction Helps Image Generation",
-      "authors": "Sihan Xu, Ji Xie, Zilin Wang et al.",
-      "abstract": "In diffusion transformers, a class label or a text prompt is embedded once, and the same condition is reused at every denoising step. We ask whether predicted embeddings can serve as this condition instead. Next-Embedding Predictive Autoregression (NEPA) trains a Transformer to predict the next cont...",
-      "venue": "arXiv",
-      "date": "2026-10-01",
-      "arxiv_id": "2610.02203v1",
-      "url": "https://arxiv.org/abs/2610.02203v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.02203v1.pdf",
-      "categories": [
-        "cs.CV",
-        "cs.LG"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Reconstruct, Practice, Go Real: Guided Self-Improvement for Embodied Agents",
-      "authors": "Yen-Jen Wang, Haozhe Jiang, Shuying Deng et al.",
-      "abstract": "Building reliable robot capabilities across diverse tasks requires substantial human effort to develop and maintain skills, design rewards, and integrate perception with control. We present Reconstruct, Practice, Go Real (RPG), a framework for autonomous improvement of robot execution systems withou...",
-      "venue": "arXiv",
-      "date": "2026-10-01",
-      "arxiv_id": "2610.02204v1",
-      "url": "https://arxiv.org/abs/2610.02204v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.02204v1.pdf",
-      "categories": [
-        "cs.RO",
-        "cs.AI",
-        "eess.SY"
-      ],
-      "type": "ai",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "FERPO: Forward Entropy-Regularized Policy Optimization",
-      "authors": "Sebastian Sanokowski, Alireza Sarmadi, Majid Khadiv",
-      "abstract": "Several state-of-the-art methods for online reinforcement learning in continuous control improve policies using action gradients of a learned critic. However, critics are typically trained to predict returns, and accurate value predictions do not necessarily yield accurate action derivatives, potent...",
-      "venue": "arXiv",
-      "date": "2026-10-01",
-      "arxiv_id": "2610.02198v1",
-      "url": "https://arxiv.org/abs/2610.02198v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.02198v1.pdf",
-      "categories": [
-        "cs.LG",
         "cs.AI",
         "cs.RO"
       ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "4DCodeBench: Benchmarking Agents on Inverse Graphics of Dynamic Scenes",
+      "authors": "Ruihong Shen, Žiga Kovačič, Peter Kulits et al.",
+      "abstract": "We introduce 4DCodeBench, a benchmark for 4D inverse graphics through code generation, in which agents reconstruct dynamic scenes from video as executable graphics programs. To accomplish this, agents must translate visual observations into compact representations of scene structure and dynamics, by...",
+      "venue": "arXiv",
+      "date": "2026-10-02",
+      "arxiv_id": "2610.03715v1",
+      "url": "https://arxiv.org/abs/2610.03715v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.03715v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.GR"
+      ],
+      "type": "benchmark",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Language Models that Play Chess and Explain Their Moves",
+      "authors": "Adithya Bhaskar, Jeffrey Cheng, Danqi Chen",
+      "abstract": "Modern chess engines are silent experts: they play at a superhuman level, but do not offer explanations for their play. On the other hand, language models (LMs) can generate plausible-sounding explanations, but their weak playing strength limits the utility of their explanations. We introduce Queen,...",
+      "venue": "arXiv",
+      "date": "2026-10-02",
+      "arxiv_id": "2610.03695v1",
+      "url": "https://arxiv.org/abs/2610.03695v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.03695v1.pdf",
+      "categories": [
+        "cs.CL"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "FrugalEvo: Towards Cost-Aware LLM-Guided Program Evolution",
+      "authors": "Hui Chen, Xuan Qi, James Xu Zhao et al.",
+      "abstract": "LLM-guided evolutionary methods, such as AlphaEvolve, have emerged as powerful approaches for challenging computational optimization problems, such as circle packing. However, prior work typically optimizes performance gain over a fixed number of iterations. We argue that practical optimization shou...",
+      "venue": "arXiv",
+      "date": "2026-10-02",
+      "arxiv_id": "2610.03675v1",
+      "url": "https://arxiv.org/abs/2610.03675v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.03675v1.pdf",
+      "categories": [
+        "cs.NE",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "MoSE3: Learning World-Space SE(3) at Every Pixel",
+      "authors": "Jiahuan Cheng, Zhiyi Li, Tian Xia et al.",
+      "abstract": "Dense 3D point tracking has been a prominent paradigm for modeling motion in dynamic scenes, but a point track is just a 3-DoF translation curve per pixel: it captures where pixels go, not the rotation of the underlying part, nor which pixels move together as one body. We propose MoSE3, the first fe...",
+      "venue": "arXiv",
+      "date": "2026-10-02",
+      "arxiv_id": "2610.03716v1",
+      "url": "https://arxiv.org/abs/2610.03716v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.03716v1.pdf",
+      "categories": [
+        "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "S$^{2}$-PINN: Stochastic Separable Physics-Informed Neural Networks",
+      "authors": "Zhendong Li, Akwum Onwunta",
+      "abstract": "Uncertainty quantification (UQ) for random partial differential equations (PDEs) is ubiquitous in computational science and engineering. However, classical spectral solvers for this class of problems face the curse of dimensionality, and existing neural solvers often ignore the stochastic structure ...",
+      "venue": "arXiv",
+      "date": "2026-10-02",
+      "arxiv_id": "2610.03303v1",
+      "url": "https://arxiv.org/abs/2610.03303v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.03303v1.pdf",
+      "categories": [
+        "cs.LG",
+        "math-ph"
+      ],
       "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "JOVE: Joint Execution and Verification for Resource-Aware LLM Task Graphs",
+      "authors": "Haoran Zhang, Dongjun Kim, Seohyeon Cha et al.",
+      "abstract": "Complex reasoning queries can be decomposed into directed acyclic task graphs and distributed across heterogeneous LLMs, reducing latency through parallelism and enabling smaller models to solve complex tasks. In practice, however, the suitability of an LLM for a given subtask may be a priori unknow...",
+      "venue": "arXiv",
+      "date": "2026-10-02",
+      "arxiv_id": "2610.03296v1",
+      "url": "https://arxiv.org/abs/2610.03296v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.03296v1.pdf",
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "EyeRobot 2.0: Active Gaze for Precise Manipulation without Wrist Cameras",
+      "authors": "Kush Hari, Justin Kerr, Nidhya Shivakumar et al.",
+      "abstract": "Inspired by human vision, we introduce a framework using active gaze to enable fine-grained bimanual manipulation with only a single stereo camera. EyeRobot 2.0 physically attends to a 3D fixation point in the scene by swiveling two eye viewpoints to center their gaze on it. The resulting images are...",
+      "venue": "arXiv",
+      "date": "2026-10-02",
+      "arxiv_id": "2610.03710v1",
+      "url": "https://arxiv.org/abs/2610.03710v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.03710v1.pdf",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "type": "ai",
       "badge": "arxiv",
       "source": "arXiv"
     }

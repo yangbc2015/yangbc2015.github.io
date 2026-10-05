@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-10-04",
+  "last_updated": "2026-10-05",
   "count": 200,
   "items": [
     {
       "title": "[GPT拆掉了「具身大脑」，Embodied PhyStack会是 具 身 智 能 的下一站吗？",
       "summary": "[GPT拆掉了「具身大脑」，Embodied PhyStack会是 具 身 智 能 的下一站吗？",
       "url": "http://36kr.com/p/4004465537519750",
-      "date": "2026-10-04",
+      "date": "2026-10-05",
       "source": "36氪",
       "category": "具身智能",
       "type": "news",
@@ -19,12 +19,92 @@
       "title": "[具 身 智 能 卡住的不是算法，是 ' 数据荒 '：灵灵智能用 ' 无本体 + 真机 ' 双轨采集，把人类行为变成机器人训练数据",
       "summary": "[具 身 智 能 卡住的不是算法，是 ' 数据荒 '：灵灵智能用 ' 无本体 + 真机 ' 双轨采集，把人类行为变成机器人训练数据",
       "url": "http://36kr.com/p/3998358077214596",
-      "date": "2026-10-04",
+      "date": "2026-10-05",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
       "tags": [
         "机器人"
+      ]
+    },
+    {
+      "title": "Less Decoder is More Encoder: Geometric Representation Learning from Novel View Synthesis",
+      "summary": "This paper examines the role of Novel View Synthesis (NVS) in geometric representation learning. In principle, NVS should reason about 3D scene structure, thereby enabling transferable multi-view geometric representations. Yet, existing encoder-based...",
+      "url": "https://arxiv.org/abs/2610.03717v1",
+      "date": "2026-10-02",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.03717v1",
+      "authors": "Keerthi Kaashyap, Dennis Anthony et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "EyeRobot 2.0: Active Gaze for Precise Manipulation without Wrist Cameras",
+      "summary": "Inspired by human vision, we introduce a framework using active gaze to enable fine-grained bimanual manipulation with only a single stereo camera. EyeRobot 2.0 physically attends to a 3D fixation point in the scene by swiveling two eye viewpoints to...",
+      "url": "https://arxiv.org/abs/2610.03710v1",
+      "date": "2026-10-02",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.03710v1",
+      "authors": "Kush Hari, Justin Kerr et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "CORNAV: Construction-Aware Reasoning for Robot Navigation on Active Worksites",
+      "summary": "The construction industry faces persistent labor shortages, low productivity that costs the global economy over $1.6 trillion annually, and one of the highest injury rates among major industries. These factors motivate the use of autonomous robots to...",
+      "url": "https://arxiv.org/abs/2610.03622v1",
+      "date": "2026-10-02",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.03622v1",
+      "authors": "Parastoo Ali Pour, Deepak Prakash Kumar et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "UniIntervene++: An Adaptive Intervention Agent for Efficient Real-World Reinforcement Learning",
+      "summary": "Online reinforcement learning (RL) enables robot policies to improve through physical interaction, but the assistance they require changes as their competence evolves. Existing intervention strategies based on offline estimates or fixed decision rule...",
+      "url": "https://arxiv.org/abs/2610.03620v1",
+      "date": "2026-10-02",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.03620v1",
+      "authors": "Yudong Lin, Haoyuan Deng et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "LLA-MPC on Embedded Hardware: Rapid Adaptive Control with Thousands of Parallel Models",
+      "summary": "We present a generalized implementation of Look-Back and Look-Ahead Adaptive Model Predictive Control (LLA-MPC), a learning-free framework for real-time, rapid adaptive system identification and control. The original formulation was demonstrated only...",
+      "url": "https://arxiv.org/abs/2610.03616v1",
+      "date": "2026-10-02",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.03616v1",
+      "authors": "Henry Z. Liao, Maitham F. AL-Sunni et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
       ]
     },
     {
@@ -2998,76 +3078,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "Temporal Tactile Encoding and Compliance for Intent-Aware Robot-to-Human Bimanual Handover",
-      "summary": "Reliable robot-to-human handover requires the robot to infer when the person is ready to receive the object, and release it safely, comfortably, and at the right time. This is challenging because visual observations alone may not disambiguate clear t...",
-      "url": "https://arxiv.org/abs/2609.05282v1",
-      "date": "2026-09-04",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.05282v1",
-      "authors": "Pasquale Marra, Stefano Berti et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "TacPAC: Tactile Prediction and Real-Time Action Correction in World-Action Models for Contact-Rich Manipulation",
-      "summary": "World-action models guide action generation with predicted future observations, but vision-centric predictions miss the local contact cues that decide contact-rich manipulation. However, naively predicting future tactile observations as additional vi...",
-      "url": "https://arxiv.org/abs/2609.05266v1",
-      "date": "2026-09-04",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.05266v1",
-      "authors": "Zipei Ma, Xiaofei Wei et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "[机器人从「量产」到「量销」，启智Openmind要补上工业 具 身 智 能 的中间层",
-      "summary": "[机器人从「量产」到「量销」，启智Openmind要补上工业 具 身 智 能 的中间层",
-      "url": "http://36kr.com/p/3957651086163077",
-      "date": "2026-09-04",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
-      ]
-    },
-    {
-      "title": "卷了三年大模型，机器人为什么还是“站不起来”？",
-      "summary": "卷了三年大模型，机器人为什么还是“站不起来”？",
-      "url": "http://36kr.com/p/3967205548038022",
-      "date": "2026-09-03",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
-      ]
-    },
-    {
-      "title": "天链机器人推出高性价比TCE605机械臂，助力具身智能落地",
-      "summary": "天链机器人推出高性价比TCE605机械臂，助力具身智能落地",
-      "url": "http://36kr.com/p/3967321548856832",
-      "date": "2026-09-03",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能",
-        "机械臂"
       ]
     }
   ]

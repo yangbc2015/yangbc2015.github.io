@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-10-04",
+  "last_updated": "2026-10-05",
   "count": 200,
-  "history_count": 200,
+  "history_count": 205,
   "retention_days": 30,
   "items": [
     {
       "title": "一种混搭的可能：英特尔继续供先进工艺，即前端用14A；后端再接台积电，来补工厂运营、良率、封装这些能力。",
       "link": "https://www.qbitai.com/?s=一种混搭的可能：英特",
       "summary": "一种混搭的可能：英特尔继续供先进工艺，即前端用14A；后端再接台积电，来补工厂运营、良率、封装这些能力。...",
-      "date": "2026-10-04",
+      "date": "2026-10-05",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -20,7 +20,7 @@
       "title": "让每一次请求选对模型，让每一次反馈都成为下一次更优、更省的选择",
       "link": "https://www.qbitai.com/?s=让每一次请求选对模型",
       "summary": "让每一次请求选对模型，让每一次反馈都成为下一次更优、更省的选择...",
-      "date": "2026-10-04",
+      "date": "2026-10-05",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -32,7 +32,7 @@
       "title": "用ImageNet训练encoder",
       "link": "https://www.qbitai.com/?s=用ImageNet训",
       "summary": "用ImageNet训练encoder...",
-      "date": "2026-10-04",
+      "date": "2026-10-05",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -44,7 +44,7 @@
       "title": "千禧年难题的突破，10000个Agent最多占了10%的功劳。",
       "link": "https://www.qbitai.com/?s=千禧年难题的突破，1",
       "summary": "千禧年难题的突破，10000个Agent最多占了10%的功劳。...",
-      "date": "2026-10-04",
+      "date": "2026-10-05",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -56,7 +56,7 @@
       "title": "什么样的AI才适合工业现场？企业真正开始做工业AI时，又该从哪里下手？",
       "link": "https://www.qbitai.com/?s=什么样的AI才适合工",
       "summary": "什么样的AI才适合工业现场？企业真正开始做工业AI时，又该从哪里下手？...",
-      "date": "2026-10-04",
+      "date": "2026-10-05",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -68,12 +68,84 @@
       "title": "*   [Latest](http://techcrunch.com/latest/)",
       "link": "https://techcrunch.com/category/artificial-intelligence/",
       "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
-      "date": "2026-10-04",
+      "date": "2026-10-05",
       "source": "TechCrunch",
       "type": "industry",
       "tags": [
         "AI",
         "Artificial Intelligence"
+      ]
+    },
+    {
+      "title": "Markdown Content:",
+      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+      "summary": "Markdown Content:...",
+      "date": "2026-10-04",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "AlphaGo核心作者：十年了，LLM还没学到那场棋局「神之一手」的精华",
+      "link": "https://www.jiqizhixin.com/search/articles/AlphaGo核心作者：十年了",
+      "summary": "AlphaGo核心作者：十年了，LLM还没学到那场棋局「神之一手」的精华...",
+      "date": "2026-10-04",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "终于有人管管屎山代码了！Tibo预告，Astra 6.1要来了？",
+      "link": "https://www.jiqizhixin.com/search/articles/终于有人管管屎山代码了！Tib",
+      "summary": "终于有人管管屎山代码了！Tibo预告，Astra 6.1要来了？...",
+      "date": "2026-10-04",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "Agent Harness到底怎么选？南洋理工大学安波团队最新研究给出答案",
+      "link": "https://www.jiqizhixin.com/search/articles/Agent Harness到底",
+      "summary": "Agent Harness到底怎么选？南洋理工大学安波团队最新研究给出答案...",
+      "date": "2026-10-04",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "太卷了！DeepSeek假期更新，Harness有了新版本",
+      "link": "https://www.jiqizhixin.com/search/articles/太卷了！DeepSeek假期更",
+      "summary": "太卷了！DeepSeek假期更新，Harness有了新版本...",
+      "date": "2026-10-04",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "Jev火了，NeurIPS 2025的ConfTuner早已探索相似思路",
+      "link": "https://www.jiqizhixin.com/search/articles/Jev火了，NeurIPS 2",
+      "summary": "Jev火了，NeurIPS 2025的ConfTuner早已探索相似思路...",
+      "date": "2026-10-04",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
       ]
     },
     {
@@ -152,18 +224,6 @@
       "title": "把Depth Anything砍到6M，深度估计终于能跑进Jetson",
       "link": "https://www.jiqizhixin.com/search/articles/把Depth Anything",
       "summary": "把Depth Anything砍到6M，深度估计终于能跑进Jetson...",
-      "date": "2026-10-03",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Markdown Content:",
-      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-      "summary": "Markdown Content:...",
       "date": "2026-10-03",
       "source": "机器之心",
       "type": "industry",
@@ -2338,66 +2398,6 @@
       "summary": "OpenAI智能体还攻击过Ruby生态？但选择当鸵鸟！...",
       "date": "2026-09-12",
       "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "DeepSeek V4.1 Flash用了哪些黑科技？竟让Flash（差点）逼退Pro",
-      "link": "https://www.jiqizhixin.com/search/articles/DeepSeek V4.1 F",
-      "summary": "DeepSeek V4.1 Flash用了哪些黑科技？竟让Flash（差点）逼退Pro...",
-      "date": "2026-09-12",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "淘天自研编码器斩获MSU 6项冠军，视频编码技术支撑内容体验升级",
-      "link": "https://www.jiqizhixin.com/search/articles/淘天自研编码器斩获MSU 6项",
-      "summary": "淘天自研编码器斩获MSU 6项冠军，视频编码技术支撑内容体验升级...",
-      "date": "2026-09-12",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "从认路到「跌倒再战」，机器人也在重走大模型的Scaling之路？",
-      "link": "https://www.jiqizhixin.com/search/articles/从认路到「跌倒再战」，机器人也",
-      "summary": "从认路到「跌倒再战」，机器人也在重走大模型的Scaling之路？...",
-      "date": "2026-09-12",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "今年12月，北京，MEET2027智能未来大会！",
-      "link": "https://www.qbitai.com/?s=今年12月，北京，M",
-      "summary": "今年12月，北京，MEET2027智能未来大会！...",
-      "date": "2026-09-12",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "9月9日，以“JoyAI · 跃迁物理世界”为主题的JDDiscovery-2026京东全球科技探索者大会在北京举行",
-      "link": "https://www.qbitai.com/?s=9月9日，以“Joy",
-      "summary": "9月9日，以“JoyAI · 跃迁物理世界”为主题的JDDiscovery-2026京东全球科技探索者大会在北京举行...",
-      "date": "2026-09-12",
-      "source": "量子位",
       "type": "industry",
       "tags": [
         "AI",
