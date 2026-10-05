@@ -1,7 +1,43 @@
 {
   "last_updated": "2026-10-05",
-  "count": 4,
+  "count": 8,
   "items": [
+    {
+      "title": "Less Decoder is More Encoder: Geometric Representation Learning from Novel View Synthesis",
+      "authors": "Keerthi Kaashyap, Dennis Anthony, Akshay Krishnan et al.",
+      "abstract": "This paper examines the role of Novel View Synthesis (NVS) in geometric representation learning. In principle, NVS should reason about 3D scene structure, thereby enabling transferable multi-view geometric representations. Yet, existing encoder-based NVS methods yield poor representations. This is n...",
+      "venue": "arXiv",
+      "date": "2026-10-02",
+      "arxiv_id": "2610.03717v1",
+      "url": "https://arxiv.org/abs/2610.03717v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.03717v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.RO"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "4DCodeBench: Benchmarking Agents on Inverse Graphics of Dynamic Scenes",
+      "authors": "Ruihong Shen, Žiga Kovačič, Peter Kulits et al.",
+      "abstract": "We introduce 4DCodeBench, a benchmark for 4D inverse graphics through code generation, in which agents reconstruct dynamic scenes from video as executable graphics programs. To accomplish this, agents must translate visual observations into compact representations of scene structure and dynamics, by...",
+      "venue": "arXiv",
+      "date": "2026-10-02",
+      "arxiv_id": "2610.03715v1",
+      "url": "https://arxiv.org/abs/2610.03715v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.03715v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.GR"
+      ],
+      "type": "benchmark",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
     {
       "title": "Language Models that Play Chess and Explain Their Moves",
       "authors": "Adithya Bhaskar, Jeffrey Cheng, Danqi Chen",
@@ -37,20 +73,54 @@
       "source": "arXiv"
     },
     {
-      "title": "Less Decoder is More Encoder: Geometric Representation Learning from Novel View Synthesis",
-      "authors": "Keerthi Kaashyap, Dennis Anthony, Akshay Krishnan et al.",
-      "abstract": "This paper examines the role of Novel View Synthesis (NVS) in geometric representation learning. In principle, NVS should reason about 3D scene structure, thereby enabling transferable multi-view geometric representations. Yet, existing encoder-based NVS methods yield poor representations. This is n...",
+      "title": "MoSE3: Learning World-Space SE(3) at Every Pixel",
+      "authors": "Jiahuan Cheng, Zhiyi Li, Tian Xia et al.",
+      "abstract": "Dense 3D point tracking has been a prominent paradigm for modeling motion in dynamic scenes, but a point track is just a 3-DoF translation curve per pixel: it captures where pixels go, not the rotation of the underlying part, nor which pixels move together as one body. We propose MoSE3, the first fe...",
       "venue": "arXiv",
       "date": "2026-10-02",
-      "arxiv_id": "2610.03717v1",
-      "url": "https://arxiv.org/abs/2610.03717v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.03717v1.pdf",
+      "arxiv_id": "2610.03716v1",
+      "url": "https://arxiv.org/abs/2610.03716v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.03716v1.pdf",
       "categories": [
-        "cs.CV",
-        "cs.AI",
-        "cs.RO"
+        "cs.CV"
       ],
       "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "What Should World Models Forget? Stratified Retention for Continual Adaptation",
+      "authors": "Nishit Anand, Ramani Duraiswami, Dinesh Manocha",
+      "abstract": "Continual learning treats degradation on previously seen data as evidence of failure, a convention inherited from settings with a stationary prediction target, where a correct label remains correct indefinitely. World models do not satisfy this condition. Their prediction target is the environment, ...",
+      "venue": "arXiv",
+      "date": "2026-10-02",
+      "arxiv_id": "2610.03713v1",
+      "url": "https://arxiv.org/abs/2610.03713v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.03713v1.pdf",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "RNADyn: A Benchmark for Generating and Understanding RNA Dynamics",
+      "authors": "Yiming Huang, Lennart Bastian, Hanqun Cao et al.",
+      "abstract": "Ribonucleic acid (RNA) functions through conformational changes that are not fully captured by static structures. However, large-scale standardized RNA dynamics data remain limited, and existing approaches typically treat trajectory generation and dynamics understanding as separate objectives. Here,...",
+      "venue": "arXiv",
+      "date": "2026-10-02",
+      "arxiv_id": "2610.03712v1",
+      "url": "https://arxiv.org/abs/2610.03712v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.03712v1.pdf",
+      "categories": [
+        "cs.LG",
+        "physics.bio-ph",
+        "q-bio.BM"
+      ],
+      "type": "benchmark",
       "badge": "arxiv",
       "source": "arXiv"
     },

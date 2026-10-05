@@ -8,18 +8,6 @@
       "count": 5,
       "items": [
         {
-          "title": "Markdown Content:",
-          "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-          "summary": "Markdown Content:...",
-          "date": "2026-10-04",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
           "title": "AlphaGo核心作者：十年了，LLM还没学到那场棋局「神之一手」的精华",
           "link": "https://www.jiqizhixin.com/search/articles/AlphaGo核心作者：十年了",
           "summary": "AlphaGo核心作者：十年了，LLM还没学到那场棋局「神之一手」的精华...",
@@ -59,6 +47,18 @@
           "title": "太卷了！DeepSeek假期更新，Harness有了新版本",
           "link": "https://www.jiqizhixin.com/search/articles/太卷了！DeepSeek假期更",
           "summary": "太卷了！DeepSeek假期更新，Harness有了新版本...",
+          "date": "2026-10-04",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "Jev火了，NeurIPS 2025的ConfTuner早已探索相似思路",
+          "link": "https://www.jiqizhixin.com/search/articles/Jev火了，NeurIPS 2",
+          "summary": "Jev火了，NeurIPS 2025的ConfTuner早已探索相似思路...",
           "date": "2026-10-04",
           "source": "机器之心",
           "type": "industry",
