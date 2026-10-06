@@ -20,42 +20,6 @@
       "source": "arXiv"
     },
     {
-      "title": "Base Models Can Reason By Taking a Cue From Training Data",
-      "authors": "Sophie L. Wang, Amil Dravid, Rulin Shao et al.",
-      "abstract": "In this paper, we study how training data creates associations between the tokens at the start of a base model's response and the reasoning behavior that follows. First, we demonstrate that fixing particular starting token cues makes a base model's performance competitive with that of its reinforcem...",
-      "venue": "arXiv",
-      "date": "2026-10-05",
-      "arxiv_id": "2610.06851v1",
-      "url": "https://arxiv.org/abs/2610.06851v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.06851v1.pdf",
-      "categories": [
-        "cs.LG",
-        "cs.AI",
-        "cs.CL"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Recursive Video In-Context Learning for Agentic Robot",
-      "authors": "Wenrui Bao, Xinxin Liu, Bingxin Xu et al.",
-      "abstract": "LLM agents that orchestrate frozen vision-language-action (VLA) policies improve across episodes through text memory, which records what the agent did but not how the task is done. A demonstration video shows it, but fits poorly into an agent's context. The full video slows every turn, fixed keyfram...",
-      "venue": "arXiv",
-      "date": "2026-10-05",
-      "arxiv_id": "2610.06843v1",
-      "url": "https://arxiv.org/abs/2610.06843v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.06843v1.pdf",
-      "categories": [
-        "cs.RO",
-        "cs.AI",
-        "cs.CL"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
       "title": "InterMimicGen: Scaling Humanoid Loco-Manipulation through Self-Evolving Motion Imitation",
       "authors": "Yucheng Zhang, Sirui Xu, Jinhong Li et al.",
       "abstract": "Captured human-object interactions provide rich supervision for humanoid loco-manipulation, but they are sparse, heterogeneous, and not directly executable by robots. We introduce InterMimicGen, a self-evolving motion-imitation framework in which robot motion data and a tracking policy improve each ...",
@@ -74,6 +38,24 @@
       "source": "arXiv"
     },
     {
+      "title": "Base Models Can Reason By Taking a Cue From Training Data",
+      "authors": "Sophie L. Wang, Amil Dravid, Rulin Shao et al.",
+      "abstract": "In this paper, we study how training data creates associations between the tokens at the start of a base model's response and the reasoning behavior that follows. First, we demonstrate that fixing particular starting token cues makes a base model's performance competitive with that of its reinforcem...",
+      "venue": "arXiv",
+      "date": "2026-10-05",
+      "arxiv_id": "2610.06851v1",
+      "url": "https://arxiv.org/abs/2610.06851v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.06851v1.pdf",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
       "title": "Learning to Read the Contextual Tokens in Diffusion Transformers",
       "authors": "Omer Dahary, Etai Sella, Hadar Averbuch-Elor et al.",
       "abstract": "Multimodal Diffusion Transformers (MM-DiTs) jointly process visual and textual representations throughout generation. These models repeatedly update the text tokens through multimodal attention, forming dynamic contextual tokens whose function is not well understood. In this work, we introduce a fra...",
@@ -86,6 +68,24 @@
         "cs.CV",
         "cs.AI",
         "cs.GR"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Recursive Video In-Context Learning for Agentic Robot",
+      "authors": "Wenrui Bao, Xinxin Liu, Bingxin Xu et al.",
+      "abstract": "LLM agents that orchestrate frozen vision-language-action (VLA) policies improve across episodes through text memory, which records what the agent did but not how the task is done. A demonstration video shows it, but fits poorly into an agent's context. The full video slows every turn, fixed keyfram...",
+      "venue": "arXiv",
+      "date": "2026-10-05",
+      "arxiv_id": "2610.06843v1",
+      "url": "https://arxiv.org/abs/2610.06843v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.06843v1.pdf",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.CL"
       ],
       "type": "nlp",
       "badge": "arxiv",
