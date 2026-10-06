@@ -1,143 +1,93 @@
 {
-  "last_updated": "2026-10-05",
-  "count": 8,
+  "last_updated": "2026-10-06",
+  "count": 5,
   "items": [
     {
-      "title": "Less Decoder is More Encoder: Geometric Representation Learning from Novel View Synthesis",
-      "authors": "Keerthi Kaashyap, Dennis Anthony, Akshay Krishnan et al.",
-      "abstract": "This paper examines the role of Novel View Synthesis (NVS) in geometric representation learning. In principle, NVS should reason about 3D scene structure, thereby enabling transferable multi-view geometric representations. Yet, existing encoder-based NVS methods yield poor representations. This is n...",
+      "title": "One Figure, Every Canvas: Editable Flowchart Relayout via Agentic Pipeline",
+      "authors": "Shih-Chen Tseng, Chih-Hsuan Chen, Ryan Yang et al.",
+      "abstract": "Pipeline figures in ML papers must be repurposed across many canvases, including paper columns, 16:9 slides, portrait posters, 1:1 social teasers, 9:16 phone previews. Each format imposes a different aspect ratio on the same computational graph, where any silently broken connection misrepresents the...",
       "venue": "arXiv",
-      "date": "2026-10-02",
-      "arxiv_id": "2610.03717v1",
-      "url": "https://arxiv.org/abs/2610.03717v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.03717v1.pdf",
+      "date": "2026-10-05",
+      "arxiv_id": "2610.06852v1",
+      "url": "https://arxiv.org/abs/2610.06852v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.06852v1.pdf",
       "categories": [
         "cs.CV",
-        "cs.AI",
-        "cs.RO"
+        "cs.AI"
       ],
       "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "4DCodeBench: Benchmarking Agents on Inverse Graphics of Dynamic Scenes",
-      "authors": "Ruihong Shen, Žiga Kovačič, Peter Kulits et al.",
-      "abstract": "We introduce 4DCodeBench, a benchmark for 4D inverse graphics through code generation, in which agents reconstruct dynamic scenes from video as executable graphics programs. To accomplish this, agents must translate visual observations into compact representations of scene structure and dynamics, by...",
+      "title": "Base Models Can Reason By Taking a Cue From Training Data",
+      "authors": "Sophie L. Wang, Amil Dravid, Rulin Shao et al.",
+      "abstract": "In this paper, we study how training data creates associations between the tokens at the start of a base model's response and the reasoning behavior that follows. First, we demonstrate that fixing particular starting token cues makes a base model's performance competitive with that of its reinforcem...",
       "venue": "arXiv",
-      "date": "2026-10-02",
-      "arxiv_id": "2610.03715v1",
-      "url": "https://arxiv.org/abs/2610.03715v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.03715v1.pdf",
+      "date": "2026-10-05",
+      "arxiv_id": "2610.06851v1",
+      "url": "https://arxiv.org/abs/2610.06851v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.06851v1.pdf",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Recursive Video In-Context Learning for Agentic Robot",
+      "authors": "Wenrui Bao, Xinxin Liu, Bingxin Xu et al.",
+      "abstract": "LLM agents that orchestrate frozen vision-language-action (VLA) policies improve across episodes through text memory, which records what the agent did but not how the task is done. A demonstration video shows it, but fits poorly into an agent's context. The full video slows every turn, fixed keyfram...",
+      "venue": "arXiv",
+      "date": "2026-10-05",
+      "arxiv_id": "2610.06843v1",
+      "url": "https://arxiv.org/abs/2610.06843v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.06843v1.pdf",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "InterMimicGen: Scaling Humanoid Loco-Manipulation through Self-Evolving Motion Imitation",
+      "authors": "Yucheng Zhang, Sirui Xu, Jinhong Li et al.",
+      "abstract": "Captured human-object interactions provide rich supervision for humanoid loco-manipulation, but they are sparse, heterogeneous, and not directly executable by robots. We introduce InterMimicGen, a self-evolving motion-imitation framework in which robot motion data and a tracking policy improve each ...",
+      "venue": "arXiv",
+      "date": "2026-10-05",
+      "arxiv_id": "2610.06850v1",
+      "url": "https://arxiv.org/abs/2610.06850v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.06850v1.pdf",
+      "categories": [
+        "cs.RO",
+        "cs.CV",
+        "cs.GR"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Learning to Read the Contextual Tokens in Diffusion Transformers",
+      "authors": "Omer Dahary, Etai Sella, Hadar Averbuch-Elor et al.",
+      "abstract": "Multimodal Diffusion Transformers (MM-DiTs) jointly process visual and textual representations throughout generation. These models repeatedly update the text tokens through multimodal attention, forming dynamic contextual tokens whose function is not well understood. In this work, we introduce a fra...",
+      "venue": "arXiv",
+      "date": "2026-10-05",
+      "arxiv_id": "2610.06844v1",
+      "url": "https://arxiv.org/abs/2610.06844v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.06844v1.pdf",
       "categories": [
         "cs.CV",
         "cs.AI",
         "cs.GR"
       ],
-      "type": "benchmark",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Language Models that Play Chess and Explain Their Moves",
-      "authors": "Adithya Bhaskar, Jeffrey Cheng, Danqi Chen",
-      "abstract": "Modern chess engines are silent experts: they play at a superhuman level, but do not offer explanations for their play. On the other hand, language models (LMs) can generate plausible-sounding explanations, but their weak playing strength limits the utility of their explanations. We introduce Queen,...",
-      "venue": "arXiv",
-      "date": "2026-10-02",
-      "arxiv_id": "2610.03695v1",
-      "url": "https://arxiv.org/abs/2610.03695v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.03695v1.pdf",
-      "categories": [
-        "cs.CL"
-      ],
       "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "FrugalEvo: Towards Cost-Aware LLM-Guided Program Evolution",
-      "authors": "Hui Chen, Xuan Qi, James Xu Zhao et al.",
-      "abstract": "LLM-guided evolutionary methods, such as AlphaEvolve, have emerged as powerful approaches for challenging computational optimization problems, such as circle packing. However, prior work typically optimizes performance gain over a fixed number of iterations. We argue that practical optimization shou...",
-      "venue": "arXiv",
-      "date": "2026-10-02",
-      "arxiv_id": "2610.03675v1",
-      "url": "https://arxiv.org/abs/2610.03675v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.03675v1.pdf",
-      "categories": [
-        "cs.NE",
-        "cs.AI",
-        "cs.CL"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "MoSE3: Learning World-Space SE(3) at Every Pixel",
-      "authors": "Jiahuan Cheng, Zhiyi Li, Tian Xia et al.",
-      "abstract": "Dense 3D point tracking has been a prominent paradigm for modeling motion in dynamic scenes, but a point track is just a 3-DoF translation curve per pixel: it captures where pixels go, not the rotation of the underlying part, nor which pixels move together as one body. We propose MoSE3, the first fe...",
-      "venue": "arXiv",
-      "date": "2026-10-02",
-      "arxiv_id": "2610.03716v1",
-      "url": "https://arxiv.org/abs/2610.03716v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.03716v1.pdf",
-      "categories": [
-        "cs.CV"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "What Should World Models Forget? Stratified Retention for Continual Adaptation",
-      "authors": "Nishit Anand, Ramani Duraiswami, Dinesh Manocha",
-      "abstract": "Continual learning treats degradation on previously seen data as evidence of failure, a convention inherited from settings with a stationary prediction target, where a correct label remains correct indefinitely. World models do not satisfy this condition. Their prediction target is the environment, ...",
-      "venue": "arXiv",
-      "date": "2026-10-02",
-      "arxiv_id": "2610.03713v1",
-      "url": "https://arxiv.org/abs/2610.03713v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.03713v1.pdf",
-      "categories": [
-        "cs.LG",
-        "cs.AI",
-        "cs.CV"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "RNADyn: A Benchmark for Generating and Understanding RNA Dynamics",
-      "authors": "Yiming Huang, Lennart Bastian, Hanqun Cao et al.",
-      "abstract": "Ribonucleic acid (RNA) functions through conformational changes that are not fully captured by static structures. However, large-scale standardized RNA dynamics data remain limited, and existing approaches typically treat trajectory generation and dynamics understanding as separate objectives. Here,...",
-      "venue": "arXiv",
-      "date": "2026-10-02",
-      "arxiv_id": "2610.03712v1",
-      "url": "https://arxiv.org/abs/2610.03712v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.03712v1.pdf",
-      "categories": [
-        "cs.LG",
-        "physics.bio-ph",
-        "q-bio.BM"
-      ],
-      "type": "benchmark",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "EyeRobot 2.0: Active Gaze for Precise Manipulation without Wrist Cameras",
-      "authors": "Kush Hari, Justin Kerr, Nidhya Shivakumar et al.",
-      "abstract": "Inspired by human vision, we introduce a framework using active gaze to enable fine-grained bimanual manipulation with only a single stereo camera. EyeRobot 2.0 physically attends to a 3D fixation point in the scene by swiveling two eye viewpoints to center their gaze on it. The resulting images are...",
-      "venue": "arXiv",
-      "date": "2026-10-02",
-      "arxiv_id": "2610.03710v1",
-      "url": "https://arxiv.org/abs/2610.03710v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.03710v1.pdf",
-      "categories": [
-        "cs.RO",
-        "cs.AI"
-      ],
-      "type": "ai",
       "badge": "arxiv",
       "source": "arXiv"
     }
