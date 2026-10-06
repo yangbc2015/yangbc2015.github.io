@@ -8,18 +8,6 @@
       "count": 5,
       "items": [
         {
-          "title": "Markdown Content:",
-          "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-          "summary": "Markdown Content:...",
-          "date": "2026-10-05",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
           "title": "CMAME | 面向功能梯度超材料力学-声学协同逆向设计的兼容性感知形态学习方法",
           "link": "https://www.jiqizhixin.com/search/articles/CMAME | 面向功能梯度超",
           "summary": "CMAME | 面向功能梯度超材料力学-声学协同逆向设计的兼容性感知形态学习方法...",
@@ -59,6 +47,18 @@
           "title": "入职才4个月，宋晓冬团队被曝与Meta分道扬镳，理由：工作风格不合",
           "link": "https://www.jiqizhixin.com/search/articles/入职才4个月，宋晓冬团队被曝与",
           "summary": "入职才4个月，宋晓冬团队被曝与Meta分道扬镳，理由：工作风格不合...",
+          "date": "2026-10-05",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "看懂不等于做对：VA-Bench测出大模型空间智能的执行断层",
+          "link": "https://www.jiqizhixin.com/search/articles/看懂不等于做对：VA-Benc",
+          "summary": "看懂不等于做对：VA-Bench测出大模型空间智能的执行断层...",
           "date": "2026-10-05",
           "source": "机器之心",
           "type": "industry",

@@ -1,9 +1,21 @@
 {
   "last_updated": "2026-10-06",
   "count": 200,
-  "history_count": 200,
+  "history_count": 202,
   "retention_days": 30,
   "items": [
+    {
+      "title": "南极洲甚至有一座高地以他名字命名",
+      "link": "https://www.qbitai.com/?s=南极洲甚至有一座高地",
+      "summary": "南极洲甚至有一座高地以他名字命名...",
+      "date": "2026-10-06",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
     {
       "title": "有改进就体验，没改进就重置，横竖不亏。",
       "link": "https://www.qbitai.com/?s=有改进就体验，没改进",
@@ -53,21 +65,9 @@
       ]
     },
     {
-      "title": "千禧年难题的突破，10000个Agent最多占了10%的功劳。",
-      "link": "https://www.qbitai.com/?s=千禧年难题的突破，1",
-      "summary": "千禧年难题的突破，10000个Agent最多占了10%的功劳。...",
-      "date": "2026-10-06",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Published Time: Thu, 08 May 2025 23:15:48 GMT",
+      "title": "*   [Latest](http://techcrunch.com/latest/)",
       "link": "https://techcrunch.com/category/artificial-intelligence/",
-      "summary": "Published Time: Thu, 08 May 2025 23:15:48 GMT...",
+      "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
       "date": "2026-10-06",
       "source": "TechCrunch",
       "type": "industry",
@@ -77,11 +77,11 @@
       ]
     },
     {
-      "title": "Markdown Content:",
-      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-      "summary": "Markdown Content:...",
-      "date": "2026-10-05",
-      "source": "机器之心",
+      "title": "千禧年难题的突破，10000个Agent最多占了10%的功劳。",
+      "link": "https://www.qbitai.com/?s=千禧年难题的突破，1",
+      "summary": "千禧年难题的突破，10000个Agent最多占了10%的功劳。...",
+      "date": "2026-10-06",
+      "source": "量子位",
       "type": "industry",
       "tags": [
         "AI",
@@ -140,6 +140,30 @@
       "title": "看懂不等于做对：VA-Bench测出大模型空间智能的执行断层",
       "link": "https://www.jiqizhixin.com/search/articles/看懂不等于做对：VA-Benc",
       "summary": "看懂不等于做对：VA-Bench测出大模型空间智能的执行断层...",
+      "date": "2026-10-05",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "刚刚，Tibo承诺「连续28天发布或重置」，OpenAI遭遇信任危机",
+      "link": "https://www.jiqizhixin.com/search/articles/刚刚，Tibo承诺「连续28天",
+      "summary": "刚刚，Tibo承诺「连续28天发布或重置」，OpenAI遭遇信任危机...",
+      "date": "2026-10-05",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "Markdown Content:",
+      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+      "summary": "Markdown Content:...",
       "date": "2026-10-05",
       "source": "机器之心",
       "type": "industry",
@@ -2372,30 +2396,6 @@
       "title": "左手推理成本暴降96%，右手性能反超大模型！当小模型学会了何时求助",
       "link": "https://www.jiqizhixin.com/search/articles/左手推理成本暴降96%，右手性",
       "summary": "左手推理成本暴降96%，右手性能反超大模型！当小模型学会了何时求助...",
-      "date": "2026-09-13",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "算法工程师要失业了？阿里和浙大联手提出Astar，用AI指导AI系统进化",
-      "link": "https://www.jiqizhixin.com/search/articles/算法工程师要失业了？阿里和浙大",
-      "summary": "算法工程师要失业了？阿里和浙大联手提出Astar，用AI指导AI系统进化...",
-      "date": "2026-09-13",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "AI真的跑太快？刚刚，Dario最新长文喊话AI限速，OpenAI今年也不IPO了",
-      "link": "https://www.jiqizhixin.com/search/articles/AI真的跑太快？刚刚，Dari",
-      "summary": "AI真的跑太快？刚刚，Dario最新长文喊话AI限速，OpenAI今年也不IPO了...",
       "date": "2026-09-13",
       "source": "机器之心",
       "type": "industry",
