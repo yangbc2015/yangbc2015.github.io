@@ -8,18 +8,6 @@
       "count": 5,
       "items": [
         {
-          "title": "Markdown Content:",
-          "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-          "summary": "Markdown Content:...",
-          "date": "2026-10-06",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
           "title": "刚刚，诺贝尔物理学奖给到中微子天文学，IceCube之父Francis Halzen独享",
           "link": "https://www.jiqizhixin.com/search/articles/刚刚，诺贝尔物理学奖给到中微子",
           "summary": "刚刚，诺贝尔物理学奖给到中微子天文学，IceCube之父Francis Halzen独享...",
@@ -56,11 +44,23 @@
           ]
         },
         {
-          "title": "黎曼猜想临界线零点比例下界达67.35%：清华团队开源模型VeriLoop E2叩开可验证智能之门",
-          "link": "https://www.jiqizhixin.com/search/articles/黎曼猜想临界线零点比例下界达6",
-          "summary": "黎曼猜想临界线零点比例下界达67.35%：清华团队开源模型VeriLoop E2叩开可验证智能之门...",
-          "date": "2026-10-06",
-          "source": "机器之心",
+          "title": "在 a16z 首份消费级 AI 应用月收入榜单中，Meshy 位列第 31 名，与 OpenAI、Anthropic、Canva、Superhuman、Higgsfield 等共同上榜",
+          "link": "https://www.qbitai.com/?s=在 a16z 首份消",
+          "summary": "在 a16z 首份消费级 AI 应用月收入榜单中，Meshy 位列第 31 名，与 OpenAI、Anthropic、Canva、Superhuman、Higg...",
+          "date": "2026-10-07",
+          "source": "量子位",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "南极洲甚至有一座高地以他名字命名",
+          "link": "https://www.qbitai.com/?s=南极洲甚至有一座高地",
+          "summary": "南极洲甚至有一座高地以他名字命名...",
+          "date": "2026-10-07",
+          "source": "量子位",
           "type": "industry",
           "tags": [
             "AI",
