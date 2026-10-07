@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-06",
-  "last_updated": "2026-10-06",
+  "date": "2026-10-07",
+  "last_updated": "2026-10-07",
   "categories": {
     "ai": {
       "name": "人工智能",
@@ -8,59 +8,59 @@
       "count": 5,
       "items": [
         {
-          "title": "CMAME | 面向功能梯度超材料力学-声学协同逆向设计的兼容性感知形态学习方法",
-          "link": "https://www.jiqizhixin.com/search/articles/CMAME | 面向功能梯度超",
-          "summary": "CMAME | 面向功能梯度超材料力学-声学协同逆向设计的兼容性感知形态学习方法...",
-          "date": "2026-10-05",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
-          "title": "刚刚，2026诺奖生理学或医学奖颁给光遗传学",
-          "link": "https://www.jiqizhixin.com/search/articles/刚刚，2026诺奖生理学或医学",
-          "summary": "刚刚，2026诺奖生理学或医学奖颁给光遗传学...",
-          "date": "2026-10-05",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
-          "title": "宇树风波后，具身智能还值得相信吗？顶级机器人学者Sergey Levine指明方向",
-          "link": "https://www.jiqizhixin.com/search/articles/宇树风波后，具身智能还值得相信",
-          "summary": "宇树风波后，具身智能还值得相信吗？顶级机器人学者Sergey Levine指明方向...",
-          "date": "2026-10-05",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
-          "title": "入职才4个月，宋晓冬团队被曝与Meta分道扬镳，理由：工作风格不合",
-          "link": "https://www.jiqizhixin.com/search/articles/入职才4个月，宋晓冬团队被曝与",
-          "summary": "入职才4个月，宋晓冬团队被曝与Meta分道扬镳，理由：工作风格不合...",
-          "date": "2026-10-05",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
-          "title": "南极洲甚至有一座高地以他名字命名",
-          "link": "https://www.qbitai.com/?s=南极洲甚至有一座高地",
-          "summary": "南极洲甚至有一座高地以他名字命名...",
+          "title": "Markdown Content:",
+          "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+          "summary": "Markdown Content:...",
           "date": "2026-10-06",
-          "source": "量子位",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "刚刚，诺贝尔物理学奖给到中微子天文学，IceCube之父Francis Halzen独享",
+          "link": "https://www.jiqizhixin.com/search/articles/刚刚，诺贝尔物理学奖给到中微子",
+          "summary": "刚刚，诺贝尔物理学奖给到中微子天文学，IceCube之父Francis Halzen独享...",
+          "date": "2026-10-06",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "4B模型下棋比肩大师、还会讲棋，陈丹琦团队怎么做到的？",
+          "link": "https://www.jiqizhixin.com/search/articles/4B模型下棋比肩大师、还会讲棋",
+          "summary": "4B模型下棋比肩大师、还会讲棋，陈丹琦团队怎么做到的？...",
+          "date": "2026-10-06",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "给ChatGPT打水印的人，是「统计学诺奖」得主苏炜杰",
+          "link": "https://www.jiqizhixin.com/search/articles/给ChatGPT打水印的人，是",
+          "summary": "给ChatGPT打水印的人，是「统计学诺奖」得主苏炜杰...",
+          "date": "2026-10-06",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "黎曼猜想临界线零点比例下界达67.35%：清华团队开源模型VeriLoop E2叩开可验证智能之门",
+          "link": "https://www.jiqizhixin.com/search/articles/黎曼猜想临界线零点比例下界达6",
+          "summary": "黎曼猜想临界线零点比例下界达67.35%：清华团队开源模型VeriLoop E2叩开可验证智能之门...",
+          "date": "2026-10-06",
+          "source": "机器之心",
           "type": "industry",
           "tags": [
             "AI",
