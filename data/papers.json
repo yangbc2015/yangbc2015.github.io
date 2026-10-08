@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-10-08",
-  "count": 4,
+  "count": 6,
   "items": [
     {
       "title": "Never Look Back: Understanding Persistence in 3D Object Memory from Egocentric Videos",
@@ -39,6 +39,22 @@
       "source": "arXiv"
     },
     {
+      "title": "EngramEdit: Decoupled Knowledge Updates in LLMs through Conditional Memory",
+      "authors": "Hongru Cai, Ran Wei, Wenjie Wang et al.",
+      "abstract": "Conditional memory architectures such as DeepSeek Engram use input n-grams to look up learned embeddings, expanding the capacity of large language models (LLMs) with limited additional computation. Beyond model scaling, this architecture has demonstrated the potential to decouple factual knowledge s...",
+      "venue": "arXiv",
+      "date": "2026-10-07",
+      "arxiv_id": "2610.10533v1",
+      "url": "https://arxiv.org/abs/2610.10533v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.10533v1.pdf",
+      "categories": [
+        "cs.CL"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
       "title": "Tetris3D: 3D Scene Generation With Objects That Fit Together",
       "authors": "Jaeyeong Kim, Jinhyuk Jang, Jongmin Lee et al.",
       "abstract": "We propose Tetris3D, a generative framework for single-image 3D scene reconstruction that recovers objects which are physically and geometrically coherent as a scene. Existing methods often generate objects independently or couple them implicitly, providing limited guidance for ensuring fine-grained...",
@@ -51,6 +67,24 @@
         "cs.CV"
       ],
       "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Decentralized SGD under Heavy-Tailed Noise: Optimal Convergence Rates and the Role of Gradient Clipping",
+      "authors": "Aleksandar Armacki, Haoyuan Cai, Ali H. Sayed",
+      "abstract": "Heavy-tailed noise has been widely observed in modern machine learning, motivating the use of methods like gradient clipping and normalization. While these methods are well understood in centralized settings, much less is known in decentralized ones, where applying a nonlinearity to local gradients ...",
+      "venue": "arXiv",
+      "date": "2026-10-07",
+      "arxiv_id": "2610.10527v1",
+      "url": "https://arxiv.org/abs/2610.10527v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.10527v1.pdf",
+      "categories": [
+        "math.OC",
+        "cs.LG",
+        "cs.MA"
+      ],
+      "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     },
