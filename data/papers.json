@@ -1,52 +1,36 @@
 {
-  "last_updated": "2026-10-07",
-  "count": 8,
+  "last_updated": "2026-10-08",
+  "count": 6,
   "items": [
     {
-      "title": "4D-HOF: Hand-Object Flow Matching for Feed-Forward 4D Interaction Reconstruction",
-      "authors": "Shiqi Li, Sean Cho, Yijie Li et al.",
-      "abstract": "Existing methods for 4D hand-object reconstruction often rely on costly per-sequence optimization, while generative approaches typically synthesize interactions from random noise, which can lead to unstable interaction prediction. We introduce 4D-HOF, a feed-forward framework that reconstructs 4D ha...",
+      "title": "Never Look Back: Understanding Persistence in 3D Object Memory from Egocentric Videos",
+      "authors": "Shravan Chaudhari, William Paul, Suchi Saria et al.",
+      "abstract": "As we move through the world and carry out everyday tasks, we encounter objects that may become relevant only later. We are capable of recalling where we left something or what was inside a container, even without knowing we would need it later. Here, we study how an embodied assistant can build a s...",
       "venue": "arXiv",
-      "date": "2026-10-06",
-      "arxiv_id": "2610.08782v1",
-      "url": "https://arxiv.org/abs/2610.08782v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.08782v1.pdf",
+      "date": "2026-10-07",
+      "arxiv_id": "2610.10538v1",
+      "url": "https://arxiv.org/abs/2610.10538v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.10538v1.pdf",
       "categories": [
         "cs.CV",
         "cs.AI",
-        "cs.GR"
+        "cs.RO"
       ],
       "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "IdeaAnchor: Teaching LLMs to Turn Literature into Research Ideas",
-      "authors": "Ziyu Chen, Yilun Zhao, Jiashuo Sun et al.",
-      "abstract": "Scientific research often begins by synthesizing ideas from a set of related papers to identify gaps and formulate new directions. However, training language models to perform this form of literature-grounded ideation remains challenging, as existing approaches based on prompting or feedback lack st...",
+      "title": "Decoupling Exploration from Optimization in RLVR",
+      "authors": "Saif Punjwani, Micah Goldblum",
+      "abstract": "Modern language models undergo reinforcement learning with verifiable rewards (RLVR) on top of already-trained checkpoints. A key promise of RLVR is the discovery of new reasoning strategies. In principle, a model can sample novel ideas absent from its prior training data. In practice, however, augm...",
       "venue": "arXiv",
-      "date": "2026-10-06",
-      "arxiv_id": "2610.08781v1",
-      "url": "https://arxiv.org/abs/2610.08781v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.08781v1.pdf",
+      "date": "2026-10-07",
+      "arxiv_id": "2610.10536v1",
+      "url": "https://arxiv.org/abs/2610.10536v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.10536v1.pdf",
       "categories": [
-        "cs.CL",
-        "cs.AI"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Sherpa: Teaching LLMs to Teach Adaptively",
-      "authors": "Weixian Xu, Yanzhe Zhang, Zora Zhiruo Wang et al.",
-      "abstract": "Large language models (LLMs) have become increasingly capable problem solvers, but being able to solve a problem is not the same as being able to teach it. Existing approaches to training LLMs as teachers rely on demonstrations, preference data, or predefined pedagogical criteria that specify what g...",
-      "venue": "arXiv",
-      "date": "2026-10-06",
-      "arxiv_id": "2610.08778v1",
-      "url": "https://arxiv.org/abs/2610.08778v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.08778v1.pdf",
-      "categories": [
+        "cs.LG",
         "cs.AI",
         "cs.CL"
       ],
@@ -55,14 +39,30 @@
       "source": "arXiv"
     },
     {
-      "title": "World Models' Last Exam in Physics",
-      "authors": "Mingju Gao, Qingle Liu, Yuzhao Peng et al.",
-      "abstract": "Video world models can produce visually convincing yet physically inconsistent sequences, raising concerns about their reliability for prediction and planning in embodied AI systems. Existing evaluations often rely on model-based judgments or reference videos, while direct physical tests largely foc...",
+      "title": "EngramEdit: Decoupled Knowledge Updates in LLMs through Conditional Memory",
+      "authors": "Hongru Cai, Ran Wei, Wenjie Wang et al.",
+      "abstract": "Conditional memory architectures such as DeepSeek Engram use input n-grams to look up learned embeddings, expanding the capacity of large language models (LLMs) with limited additional computation. Beyond model scaling, this architecture has demonstrated the potential to decouple factual knowledge s...",
       "venue": "arXiv",
-      "date": "2026-10-06",
-      "arxiv_id": "2610.08791v1",
-      "url": "https://arxiv.org/abs/2610.08791v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.08791v1.pdf",
+      "date": "2026-10-07",
+      "arxiv_id": "2610.10533v1",
+      "url": "https://arxiv.org/abs/2610.10533v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.10533v1.pdf",
+      "categories": [
+        "cs.CL"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Tetris3D: 3D Scene Generation With Objects That Fit Together",
+      "authors": "Jaeyeong Kim, Jinhyuk Jang, Jongmin Lee et al.",
+      "abstract": "We propose Tetris3D, a generative framework for single-image 3D scene reconstruction that recovers objects which are physically and geometrically coherent as a scene. Existing methods often generate objects independently or couple them implicitly, providing limited guidance for ensuring fine-grained...",
+      "venue": "arXiv",
+      "date": "2026-10-07",
+      "arxiv_id": "2610.10539v1",
+      "url": "https://arxiv.org/abs/2610.10539v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.10539v1.pdf",
       "categories": [
         "cs.CV"
       ],
@@ -71,63 +71,32 @@
       "source": "arXiv"
     },
     {
-      "title": "Building Rome from a Single Image",
-      "authors": "Jiraphon Yenphraphai, Fang Li, Tianshuo Xu et al.",
-      "abstract": "Single-image scene generation aims to produce a complete 3D scene mesh from a single image, including surfaces the camera did not observe. While pretrained 3D object generators encode a strong shape prior, they are mainly designed for isolated objects in a fixed canonical volume and focus mostly on ...",
+      "title": "Decentralized SGD under Heavy-Tailed Noise: Optimal Convergence Rates and the Role of Gradient Clipping",
+      "authors": "Aleksandar Armacki, Haoyuan Cai, Ali H. Sayed",
+      "abstract": "Heavy-tailed noise has been widely observed in modern machine learning, motivating the use of methods like gradient clipping and normalization. While these methods are well understood in centralized settings, much less is known in decentralized ones, where applying a nonlinearity to local gradients ...",
       "venue": "arXiv",
-      "date": "2026-10-06",
-      "arxiv_id": "2610.08790v1",
-      "url": "https://arxiv.org/abs/2610.08790v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.08790v1.pdf",
+      "date": "2026-10-07",
+      "arxiv_id": "2610.10527v1",
+      "url": "https://arxiv.org/abs/2610.10527v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.10527v1.pdf",
       "categories": [
-        "cs.CV"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "QF3: Fast Flow RL with Filtered Q-Gradients",
-      "authors": "Chung Min Kim, Brent Yi, David McAllister et al.",
-      "abstract": "Flow policies have become a standard policy class for learning robot behaviors from demonstrations, but reinforcement learning is still critical for improving pre-trained flow policies or learning them from scratch through interaction. We introduce QF3 (Fast Flow RL with Filtered Q-Gradients), an on...",
-      "venue": "arXiv",
-      "date": "2026-10-06",
-      "arxiv_id": "2610.08789v1",
-      "url": "https://arxiv.org/abs/2610.08789v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.08789v1.pdf",
-      "categories": [
-        "cs.RO",
-        "cs.LG"
+        "math.OC",
+        "cs.LG",
+        "cs.MA"
       ],
       "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Conformal Prediction Sets Quantify Information Gain: A Theoretical Perspective",
-      "authors": "Kevin Zhang, Stephen Bates",
-      "abstract": "Conformal prediction is a popular tool for uncertainty quantification that outputs prediction sets with finite-sample coverage guarantees. While prediction set size is commonly used as a heuristic measure of uncertainty, the information-theoretic basis for this interpretation remains poorly understo...",
+      "title": "RoboPrompt: Intuitive Robot Policy Steering with Sparse Human Input",
+      "authors": "Yanwen Zou, Chenyang Shi, Guoxuan Xu et al.",
+      "abstract": "End-to-end robot policies trained through imitation learning remain constrained by limited data diversity, making reliable zero-shot deployment in real-world settings challenging. Shared-autonomy methods enable human correction through teleoperation, but specialized hardware and operator training hi...",
       "venue": "arXiv",
-      "date": "2026-10-06",
-      "arxiv_id": "2610.08785v1",
-      "url": "https://arxiv.org/abs/2610.08785v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.08785v1.pdf",
-      "categories": [
-        "cs.LG"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "PEARS: Physical-Prior-Guided Efficient Adaptation via Failure Reasoning and Diffusion Steering for Tactile Manipulation",
-      "authors": "Kun Song, Yiming Wang, Yilin Chen et al.",
-      "abstract": "Pretrained robotic policies can suffer substantial performance degradation under out-of-distribution (OOD) conditions encountered during deployment, motivating post-training through real-world interaction. However, reinforcement-learning (RL)-based post-training typically requires substantial enviro...",
-      "venue": "arXiv",
-      "date": "2026-10-06",
-      "arxiv_id": "2610.08784v1",
-      "url": "https://arxiv.org/abs/2610.08784v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.08784v1.pdf",
+      "date": "2026-10-07",
+      "arxiv_id": "2610.10534v1",
+      "url": "https://arxiv.org/abs/2610.10534v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.10534v1.pdf",
       "categories": [
         "cs.RO"
       ],

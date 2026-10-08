@@ -1,12 +1,25 @@
 {
-  "last_updated": "2026-10-07",
+  "last_updated": "2026-10-08",
   "count": 200,
   "items": [
+    {
+      "title": "[具身进实景，劳动最光荣！2026全球开发者先锋大会暨国际 具 身 智 能 技能大赛媒体通气会召开",
+      "summary": "[具身进实景，劳动最光荣！2026全球开发者先锋大会暨国际 具 身 智 能 技能大赛媒体通气会召开",
+      "url": "http://36kr.com/p/4016591460339584",
+      "date": "2026-10-08",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
     {
       "title": "[GPT拆掉了「具身大脑」，Embodied PhyStack会是 具 身 智 能 的下一站吗？",
       "summary": "[GPT拆掉了「具身大脑」，Embodied PhyStack会是 具 身 智 能 的下一站吗？",
       "url": "http://36kr.com/p/4004465537519750",
-      "date": "2026-10-07",
+      "date": "2026-10-08",
       "source": "36氪",
       "category": "具身智能",
       "type": "news",
@@ -19,12 +32,92 @@
       "title": "[具 身 智 能 卡住的不是算法，是 ' 数据荒 '：灵灵智能用 ' 无本体 + 真机 ' 双轨采集，把人类行为变成机器人训练数据",
       "summary": "[具 身 智 能 卡住的不是算法，是 ' 数据荒 '：灵灵智能用 ' 无本体 + 真机 ' 双轨采集，把人类行为变成机器人训练数据",
       "url": "http://36kr.com/p/3998358077214596",
-      "date": "2026-10-07",
+      "date": "2026-10-08",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
       "tags": [
         "机器人"
+      ]
+    },
+    {
+      "title": "Never Look Back: Understanding Persistence in 3D Object Memory from Egocentric Videos",
+      "summary": "As we move through the world and carry out everyday tasks, we encounter objects that may become relevant only later. We are capable of recalling where we left something or what was inside a container, even without knowing we would need it later. Here...",
+      "url": "https://arxiv.org/abs/2610.10538v1",
+      "date": "2026-10-07",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.10538v1",
+      "authors": "Shravan Chaudhari, William Paul et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "RoboPrompt: Intuitive Robot Policy Steering with Sparse Human Input",
+      "summary": "End-to-end robot policies trained through imitation learning remain constrained by limited data diversity, making reliable zero-shot deployment in real-world settings challenging. Shared-autonomy methods enable human correction through teleoperation,...",
+      "url": "https://arxiv.org/abs/2610.10534v1",
+      "date": "2026-10-07",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.10534v1",
+      "authors": "Yanwen Zou, Chenyang Shi et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Long-WAM: Scaling the Context of World-Action Models",
+      "summary": "Real-time robot control demands enough visual history to infer motion and task progress, but processing that history can delay action. We present Long-WAM, a model-system framework for scaling the context of causal world-action models under real-time...",
+      "url": "https://arxiv.org/abs/2610.10528v1",
+      "date": "2026-10-07",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.10528v1",
+      "authors": "Wei Huang, Bohan Zhang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Rephrase Before You Act: Characterizing and Mitigating Language Sensitivity in Vision-Language-Action Models",
+      "summary": "Vision-language-action models (VLAs) are strikingly sensitive to instruction phrasing and do not inherit the language robustness of the vision-language models they are built on. A one-word edit can move success by tens of points: $π{0.5}$ turns on a...",
+      "url": "https://arxiv.org/abs/2610.10526v1",
+      "date": "2026-10-07",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.10526v1",
+      "authors": "Mikey Watts, Yuchen Cui",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "RoboJEPA: Scaling Robotic Latent World Models",
+      "summary": "Latent world models have shown a remarkable ability to predict future states and to plan in the real world. In practice, however, we lack a principled way to estimate how their capabilities scale with model size, data, and compute, an open problem th...",
+      "url": "https://arxiv.org/abs/2610.10515v1",
+      "date": "2026-10-07",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.10515v1",
+      "authors": "Artem Zholus, Nicolas Beltran-Velez et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
       ]
     },
     {
@@ -2989,94 +3082,6 @@
       "type": "paper",
       "arxiv_id": "2609.09069v1",
       "authors": "Jiahui Zhang, Bonian Han et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "[立昂机器人完成千万级战略融资，加速构建轻工业 具 身 智 能“数据—模型—技能”闭环",
-      "summary": "[立昂机器人完成千万级战略融资，加速构建轻工业 具 身 智 能“数据—模型—技能”闭环",
-      "url": "http://36kr.com/p/3965678197710089",
-      "date": "2026-09-08",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
-      ]
-    },
-    {
-      "title": "机器人究竟需要怎样的“世界观”？",
-      "summary": "机器人究竟需要怎样的“世界观”？",
-      "url": "http://36kr.com/p/3972466032898563",
-      "date": "2026-09-07",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
-      ]
-    },
-    {
-      "title": "Knowledge-Guided Hierarchical Policy Learning for High-Precision Cylindrical Assembly under Tight Tolerances",
-      "summary": "A hybrid hierarchical learning framework is proposed to achieve high-precision assembly of 170mm cylindrical components with tolerance of 0.1mm. The lower-level network integrates expert experience through Behavior Cloning (BC), giving the robot huma...",
-      "url": "https://arxiv.org/abs/2609.06522v1",
-      "date": "2026-09-06",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.06522v1",
-      "authors": "Binbin Lian, Xinyu Liu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Dynamic System Emulation: Fixed Wing Dynamics on a Multicopter",
-      "summary": "This work presents a control framework that enables a multicopter equipped with a two-axis gimbal to emulate the flight dynamics of a fixed-wing aircraft. The goal is to provide an operationally simple platform for training and simulation that avoids...",
-      "url": "https://arxiv.org/abs/2609.06520v1",
-      "date": "2026-09-06",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.06520v1",
-      "authors": "Abdelhakim Amer, Andriy Sarabakha",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "VLA-Corrector: Stage-Aware Observable State Understanding for Prompt-Based Closed-Loop Recovery of Vision-Language-Action Policies",
-      "summary": "Long-horizon robot manipulation with Vision-Language-Action (VLA) policies remains vulnerable to execution-time deviations, as final task success provides little information for diagnosing and correcting failures caused by action noise, object displa...",
-      "url": "https://arxiv.org/abs/2609.06508v1",
-      "date": "2026-09-06",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.06508v1",
-      "authors": "Chang Song, Bin Qian et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "\\textbf{PLATO}: \\emph{Preintegration Learning from Accurate Trajectory Observations} for Neural Inertial Odometry",
-      "summary": "Neural inertial odometry has demonstrated strong potential for motion estimation in challenging environments, yet inertial-only preintegration remains sensitive to IMU bias and uncertainty. To this end, this paper introduces \\textbf{PLATO}:~\\emph{Pre...",
-      "url": "https://arxiv.org/abs/2609.06450v1",
-      "date": "2026-09-06",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.06450v1",
-      "authors": "Haoying Li, Qihang Liu et al.",
       "tags": [
         "机器人学习",
         "研究论文",
