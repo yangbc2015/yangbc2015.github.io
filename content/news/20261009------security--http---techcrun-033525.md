@@ -1,6 +1,6 @@
 ---
 title: '*   [Security](http://techcrunch.com/category/security/)'
-date: '2026-10-08'
+date: '2026-10-09'
 type: industry
 source: TechCrunch
 link: https://techcrunch.com/category/artificial-intelligence/

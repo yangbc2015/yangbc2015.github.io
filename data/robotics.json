@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-10-08",
+  "last_updated": "2026-10-09",
   "count": 200,
   "items": [
     {
       "title": "[具身进实景，劳动最光荣！2026全球开发者先锋大会暨国际 具 身 智 能 技能大赛媒体通气会召开",
       "summary": "[具身进实景，劳动最光荣！2026全球开发者先锋大会暨国际 具 身 智 能 技能大赛媒体通气会召开",
       "url": "http://36kr.com/p/4016591460339584",
-      "date": "2026-10-08",
+      "date": "2026-10-09",
       "source": "36氪",
       "category": "具身智能",
       "type": "news",
@@ -19,7 +19,7 @@
       "title": "[GPT拆掉了「具身大脑」，Embodied PhyStack会是 具 身 智 能 的下一站吗？",
       "summary": "[GPT拆掉了「具身大脑」，Embodied PhyStack会是 具 身 智 能 的下一站吗？",
       "url": "http://36kr.com/p/4004465537519750",
-      "date": "2026-10-08",
+      "date": "2026-10-09",
       "source": "36氪",
       "category": "具身智能",
       "type": "news",
@@ -32,12 +32,92 @@
       "title": "[具 身 智 能 卡住的不是算法，是 ' 数据荒 '：灵灵智能用 ' 无本体 + 真机 ' 双轨采集，把人类行为变成机器人训练数据",
       "summary": "[具 身 智 能 卡住的不是算法，是 ' 数据荒 '：灵灵智能用 ' 无本体 + 真机 ' 双轨采集，把人类行为变成机器人训练数据",
       "url": "http://36kr.com/p/3998358077214596",
-      "date": "2026-10-08",
+      "date": "2026-10-09",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
       "tags": [
         "机器人"
+      ]
+    },
+    {
+      "title": "Dex-One2Many: Learning Dexterous Manipulation from a Single Human Demonstration",
+      "summary": "While learning dexterous manipulation from a single human video offers a promising alternative to costly robot demonstrations, many recent methods predominantly imitate demonstrated motions. Such strict motion matching often limits generalization to ...",
+      "url": "https://arxiv.org/abs/2610.12470v1",
+      "date": "2026-10-08",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.12470v1",
+      "authors": "Jusuk Lee, Sungha Kim et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "DreamTrue: Action-Faithful Robot World Model with Counterfactual Post-Training",
+      "summary": "We present DreamTrue, a multi-view, cross-embodiment robot world model for action-faithful and physically plausible video prediction. Training such a model on existing robot datasets faces two obstacles: imprecise calibration can impair action follow...",
+      "url": "https://arxiv.org/abs/2610.12468v1",
+      "date": "2026-10-08",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.12468v1",
+      "authors": "Junyan Li, Ruizhi Li et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "CSF: Contextual Safety Filtering for Motion Generators",
+      "summary": "Text-conditioned motion generators produce trackable whole-body motion, but they have no notion of scene-dependent safety: the same action may target an object or a person. Existing safeguards either inspect the prompt, require labeled motion data, o...",
+      "url": "https://arxiv.org/abs/2610.12467v1",
+      "date": "2026-10-08",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.12467v1",
+      "authors": "Lizhi Yang, Yiling Hou et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "A Balanced Data Diet: Addressing the Exploration Bottleneck in Mega-Scale RL for Robot Control",
+      "summary": "General-purpose robots must perform a wide range of tasks from agile locomotion to dexterous manipulation. While sim-to-real reinforcement learning (RL) has proven to be a useful tool for this goal, current RL pipelines depend on engineering-heavy, p...",
+      "url": "https://arxiv.org/abs/2610.12465v1",
+      "date": "2026-10-08",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.12465v1",
+      "authors": "Octi Zhang, Mateo Guaman Castro et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "SpatialHarness: Test-Time Spatial Scaffolding for Fine Robotic Manipulation",
+      "summary": "Frontier multimodal foundation models (e.g., GPT-6 Astra) have recently shown strong potential for direct robotic control, yet their performance on fine manipulation remains limited. We argue that an important source of failure is not necessarily ins...",
+      "url": "https://arxiv.org/abs/2610.12457v1",
+      "date": "2026-10-08",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.12457v1",
+      "authors": "Jiayu Wang, Yue Yu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
       ]
     },
     {
@@ -3006,86 +3086,6 @@
       "tags": [
         "机器人",
         "具身智能"
-      ]
-    },
-    {
-      "title": "TANGO: Humanoid Navigation in Cluttered Environments with a Whole-Body Vision-Language-Action Model",
-      "summary": "We study the problem of navigating cluttered indoor environments with a humanoid robot. Unlike conventional methods that model navigation as a 2D path planning problem, humanoid traversal in cluttered environments requires continuous geometry-aware w...",
-      "url": "https://arxiv.org/abs/2609.09158v1",
-      "date": "2026-09-08",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.09158v1",
-      "authors": "Anqi Li, Yuxin Chen et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Proxy Policy Steering",
-      "summary": "Generalist robot policies carry broad manipulation priors from large-scale data, but specializing them to a new task remains the deployment bottleneck. This requires eliciting task-specific behavior from limited demonstrations without degrading their...",
-      "url": "https://arxiv.org/abs/2609.09148v1",
-      "date": "2026-09-08",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.09148v1",
-      "authors": "Chuanruo Ning, Tianrui Wang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "DeCAL: Towards Physically-Grounded Dexterous Vision-Language-Action Models via Contact-Aware Latent Co-Imagination",
-      "summary": "Dexterous manipulation involves contact-rich and fine-grained interactions with the physical world, posing significant challenges for existing vision-language-action (VLA) models due to severe visual occlusions and complex contact dynamics. While rec...",
-      "url": "https://arxiv.org/abs/2609.09119v1",
-      "date": "2026-09-08",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.09119v1",
-      "authors": "Yankai Fu, Ning Chen et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Online, Reachability-Aware, Sampling-Based Motion Planning",
-      "summary": "Sampling-Based Model-Predictive Control (MPC) algorithms are a flexible class of controllers used for navigation on a wide range of robotic systems. Historically, such approaches have lacked hard safety guarantees, a shortcoming which we remedy in th...",
-      "url": "https://arxiv.org/abs/2609.09073v1",
-      "date": "2026-09-08",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.09073v1",
-      "authors": "Brendan Gould, Zhiyuan Zhang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Rethinking Learned Occupancy in Autonomous Active Mapping with Observation-Gated Filtering",
-      "summary": "Autonomous 3D active mapping requires a space robot to choose where to sense while building the geometry needed for navigation. Learned occupancy completion extends spatial context beyond the current field of view, but one predicted map often serves ...",
-      "url": "https://arxiv.org/abs/2609.09069v1",
-      "date": "2026-09-08",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.09069v1",
-      "authors": "Jiahui Zhang, Bonian Han et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
       ]
     }
   ]
