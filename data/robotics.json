@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-10-09",
+  "last_updated": "2026-10-10",
   "count": 200,
   "items": [
     {
       "title": "[具身进实景，劳动最光荣！2026全球开发者先锋大会暨国际 具 身 智 能 技能大赛媒体通气会召开",
       "summary": "[具身进实景，劳动最光荣！2026全球开发者先锋大会暨国际 具 身 智 能 技能大赛媒体通气会召开",
       "url": "http://36kr.com/p/4016591460339584",
-      "date": "2026-10-09",
+      "date": "2026-10-10",
       "source": "36氪",
       "category": "具身智能",
       "type": "news",
@@ -19,7 +19,7 @@
       "title": "[GPT拆掉了「具身大脑」，Embodied PhyStack会是 具 身 智 能 的下一站吗？",
       "summary": "[GPT拆掉了「具身大脑」，Embodied PhyStack会是 具 身 智 能 的下一站吗？",
       "url": "http://36kr.com/p/4004465537519750",
-      "date": "2026-10-09",
+      "date": "2026-10-10",
       "source": "36氪",
       "category": "具身智能",
       "type": "news",
@@ -118,6 +118,31 @@
         "机器人学习",
         "研究论文",
         "arXiv"
+      ]
+    },
+    {
+      "title": "智元系的数据生意：时薪20块，喂不饱机器人。",
+      "summary": "智元系的数据生意：时薪20块，喂不饱机器人。",
+      "url": "http://36kr.com/p/4016534563884935",
+      "date": "2026-10-08",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
+      "title": "一家具身智能企业，到底值多少钱？",
+      "summary": "一家具身智能企业，到底值多少钱？",
+      "url": "http://36kr.com/p/4016412610498694",
+      "date": "2026-10-08",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
       ]
     },
     {
@@ -3057,35 +3082,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "SwingBot: Learning Whole-Body Brachiation for Humanoid Robots",
-      "summary": "Brachiation enables primates to move across overhead supports when ground paths are blocked, suggesting a complementary locomotion mode for robots operating in cluttered or hazardous environments. Bringing this capabil?ity to high-DoF humanoid robots...",
-      "url": "https://arxiv.org/abs/2609.10283v1",
-      "date": "2026-09-09",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.10283v1",
-      "authors": "Yujie Xiong, Peng Zhai et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "2026具身智能转向产业化，从炫技走向落地干活",
-      "summary": "2026具身智能转向产业化，从炫技走向落地干活",
-      "url": "http://36kr.com/p/3974245149044999",
-      "date": "2026-09-08",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
       ]
     }
   ]
