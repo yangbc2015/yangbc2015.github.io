@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-10-10",
+  "last_updated": "2026-10-11",
   "count": 200,
   "items": [
     {
       "title": "[具身进实景，劳动最光荣！2026全球开发者先锋大会暨国际 具 身 智 能 技能大赛媒体通气会召开",
       "summary": "[具身进实景，劳动最光荣！2026全球开发者先锋大会暨国际 具 身 智 能 技能大赛媒体通气会召开",
       "url": "http://36kr.com/p/4016591460339584",
-      "date": "2026-10-10",
+      "date": "2026-10-11",
       "source": "36氪",
       "category": "具身智能",
       "type": "news",
@@ -26,6 +26,32 @@
       "tags": [
         "机器人",
         "具身智能"
+      ]
+    },
+    {
+      "title": "具身智能亟需真实世界数据基础设施，博登智能给出解决方案",
+      "summary": "具身智能亟需真实世界数据基础设施，博登智能给出解决方案",
+      "url": "http://36kr.com/p/4018441350811781",
+      "date": "2026-10-09",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "国内近千家人形机器人企业，最终可能只留下10到20家。",
+      "summary": "国内近千家人形机器人企业，最终可能只留下10到20家。",
+      "url": "http://36kr.com/p/4017905608151174",
+      "date": "2026-10-09",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "人形机器人"
       ]
     },
     {
@@ -3046,38 +3072,6 @@
       "type": "paper",
       "arxiv_id": "2609.10336v1",
       "authors": "Joaquin Caballero, Emilio Garcia-Fidalgo et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Deformable Object Manipulation under Partial Observability via Real-Time Full-Shape Estimation",
-      "summary": "Manipulating deformable objects (DOs) is challenging due to their high-dimensional state space, underactuated dynamics, and partial observability. In this paper, we propose cRVAE, a lightweight conditional recurrent variational autoencoder that estim...",
-      "url": "https://arxiv.org/abs/2609.10308v1",
-      "date": "2026-09-09",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.10308v1",
-      "authors": "Kosar Behnia, Ville Kyrki et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Learning Terrain-Adaptive Humanoid Locomotion on Granular Terrain",
-      "summary": "Humanoid locomotion on granular terrain remains a significant challenge due to its complex foot-terrain interaction dynamics that are difficult to model. Existing approaches either ignore granular contact dynamics or incorporate simplified normal for...",
-      "url": "https://arxiv.org/abs/2609.10286v1",
-      "date": "2026-09-09",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.10286v1",
-      "authors": "Junnosuke Kamohara, Feiyang Wu et al.",
       "tags": [
         "机器人学习",
         "研究论文",
