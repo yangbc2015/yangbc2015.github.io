@@ -1,7 +1,75 @@
 {
   "last_updated": "2026-10-11",
-  "count": 3,
+  "count": 9,
   "items": [
+    {
+      "title": "On the estimation and validity of AI time horizons---a statistical look at the METR plot",
+      "authors": "Drew T. Nguyen, William Fithian",
+      "abstract": "METR's 50\\% time horizon measures the human completion time of software tasks that an AI solves with 50\\% probability, allowing AI capabilities to be expressed in interpretable units. On 228 tasks and 26 AIs, we recompute the time horizons using splines and item-response theory to relax the assumpti...",
+      "venue": "arXiv",
+      "date": "2026-10-08",
+      "arxiv_id": "2610.12466v1",
+      "url": "https://arxiv.org/abs/2610.12466v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.12466v1.pdf",
+      "categories": [
+        "cs.AI"
+      ],
+      "type": "ai",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "From Reactive Containment to Proactive Assurance: Lessons from OpenAI, Anthropic, and Google Agent Security Incidents",
+      "authors": "Abbas Raftari",
+      "abstract": "In 2026, cybersecurity evaluations involving OpenAI, Anthropic, and Google agents reached real systems outside their authorized test scope. The paths were different. OpenAI agents exploited research infrastructure, coordinated across runs, and compromised parts of Hugging Face's production environme...",
+      "venue": "arXiv",
+      "date": "2026-10-08",
+      "arxiv_id": "2610.12463v1",
+      "url": "https://arxiv.org/abs/2610.12463v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.12463v1.pdf",
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "type": "ai",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "FastBench: Can Streaming VLMs Perceive High-Dynamic Real-World Streams?",
+      "authors": "Yuxuan Hu, Weikang Shi, Yang Bo et al.",
+      "abstract": "Streaming Video Large Language Models (VLMs) enable continuous video understanding, yet existing benchmarks focus on low-dynamic scenarios. Under bounded context budgets, models must balance temporal history, spatial resolution, and temporal granularity; sparse sampling at 1--2 FPS misses fast event...",
+      "venue": "arXiv",
+      "date": "2026-10-08",
+      "arxiv_id": "2610.12427v1",
+      "url": "https://arxiv.org/abs/2610.12427v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.12427v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.CL"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "WOVEN: Weaving Visual World Modeling into Multimodal LLMs",
+      "authors": "Zheyu Fan, Yue Zhang, Mingkai Deng et al.",
+      "abstract": "Multimodal large language models (MLLMs) struggle with spatial, embodied, physical, and temporal reasoning. We hypothesize that these failures reflect a shared deficit in visual transition reasoning, and test whether this capability can serve as a shared training primitive, one that different models...",
+      "venue": "arXiv",
+      "date": "2026-10-08",
+      "arxiv_id": "2610.12417v1",
+      "url": "https://arxiv.org/abs/2610.12417v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.12417v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
     {
       "title": "Dex-One2Many: Learning Dexterous Manipulation from a Single Human Demonstration",
       "authors": "Jusuk Lee, Sungha Kim, Yeonsoo Park et al.",
@@ -32,6 +100,40 @@
         "cs.CV"
       ],
       "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "CSF: Contextual Safety Filtering for Motion Generators",
+      "authors": "Lizhi Yang, Yiling Hou, Yao Tang et al.",
+      "abstract": "Text-conditioned motion generators produce trackable whole-body motion, but they have no notion of scene-dependent safety: the same action may target an object or a person. Existing safeguards either inspect the prompt, require labeled motion data, or enforce geometric constraints; therefore, they d...",
+      "venue": "arXiv",
+      "date": "2026-10-08",
+      "arxiv_id": "2610.12467v1",
+      "url": "https://arxiv.org/abs/2610.12467v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.12467v1.pdf",
+      "categories": [
+        "cs.RO",
+        "cs.LG"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "A Balanced Data Diet: Addressing the Exploration Bottleneck in Mega-Scale RL for Robot Control",
+      "authors": "Octi Zhang, Mateo Guaman Castro, Patrick Yin et al.",
+      "abstract": "General-purpose robots must perform a wide range of tasks from agile locomotion to dexterous manipulation. While sim-to-real reinforcement learning (RL) has proven to be a useful tool for this goal, current RL pipelines depend on engineering-heavy, per-task structural priors such as shaped rewards a...",
+      "venue": "arXiv",
+      "date": "2026-10-08",
+      "arxiv_id": "2610.12465v1",
+      "url": "https://arxiv.org/abs/2610.12465v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.12465v1.pdf",
+      "categories": [
+        "cs.RO",
+        "cs.LG"
+      ],
+      "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     },
