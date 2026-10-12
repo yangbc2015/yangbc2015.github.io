@@ -1,51 +1,52 @@
 {
-  "last_updated": "2026-10-11",
-  "count": 9,
+  "last_updated": "2026-10-12",
+  "count": 8,
   "items": [
     {
-      "title": "On the estimation and validity of AI time horizons---a statistical look at the METR plot",
-      "authors": "Drew T. Nguyen, William Fithian",
-      "abstract": "METR's 50\\% time horizon measures the human completion time of software tasks that an AI solves with 50\\% probability, allowing AI capabilities to be expressed in interpretable units. On 228 tasks and 26 AIs, we recompute the time horizons using splines and item-response theory to relax the assumpti...",
+      "title": "Can Language Models Play the Wikipedia Game?",
+      "authors": "Alexander Hickey, Joanna Knight, James Bishop",
+      "abstract": "Language models increasingly support or automate information retrieval from document collections too large to index. This task is difficult when it requires specialist linguistic or scientific knowledge. We used the Wikipedia Game to test language models on an analogous information retrieval task. I...",
       "venue": "arXiv",
-      "date": "2026-10-08",
-      "arxiv_id": "2610.12466v1",
-      "url": "https://arxiv.org/abs/2610.12466v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.12466v1.pdf",
+      "date": "2026-10-09",
+      "arxiv_id": "2610.13948v1",
+      "url": "https://arxiv.org/abs/2610.13948v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.13948v1.pdf",
       "categories": [
-        "cs.AI"
+        "cs.AI",
+        "cs.IR"
       ],
-      "type": "ai",
+      "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "From Reactive Containment to Proactive Assurance: Lessons from OpenAI, Anthropic, and Google Agent Security Incidents",
-      "authors": "Abbas Raftari",
-      "abstract": "In 2026, cybersecurity evaluations involving OpenAI, Anthropic, and Google agents reached real systems outside their authorized test scope. The paths were different. OpenAI agents exploited research infrastructure, coordinated across runs, and compromised parts of Hugging Face's production environme...",
+      "title": "Hide and Seek: HIDE Concepts to SEEK explanations for black box models",
+      "authors": "Bhanu Tokas, Rahul Nair, Rockwell Jackson et al.",
+      "abstract": "Interpreting machine learning model predictions is a central challenge, particularly for black-box vision models. Concept-based attribution methods interpret models using human-understandable concepts. Existing concept-based methods can only interpret classification and regression models. They requi...",
       "venue": "arXiv",
-      "date": "2026-10-08",
-      "arxiv_id": "2610.12463v1",
-      "url": "https://arxiv.org/abs/2610.12463v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.12463v1.pdf",
-      "categories": [
-        "cs.CR",
-        "cs.AI"
-      ],
-      "type": "ai",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "FastBench: Can Streaming VLMs Perceive High-Dynamic Real-World Streams?",
-      "authors": "Yuxuan Hu, Weikang Shi, Yang Bo et al.",
-      "abstract": "Streaming Video Large Language Models (VLMs) enable continuous video understanding, yet existing benchmarks focus on low-dynamic scenarios. Under bounded context budgets, models must balance temporal history, spatial resolution, and temporal granularity; sparse sampling at 1--2 FPS misses fast event...",
-      "venue": "arXiv",
-      "date": "2026-10-08",
-      "arxiv_id": "2610.12427v1",
-      "url": "https://arxiv.org/abs/2610.12427v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.12427v1.pdf",
+      "date": "2026-10-09",
+      "arxiv_id": "2610.13935v1",
+      "url": "https://arxiv.org/abs/2610.13935v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.13935v1.pdf",
       "categories": [
         "cs.CV",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "RSI-Anything: Unlocking Recursive Self-Improvement with World Models",
+      "authors": "Taoyong Cui, Pinxian Zeng, Wanghan Xu et al.",
+      "abstract": "Recursive self-improvement (RSI) aims to transform interaction experience into persistent improvements, yet external feedback is costly and world-model predictions may become unreliable as policies evolve. We introduce RSI-Anything, a domain-general framework built on JEPA-Anything that uses predict...",
+      "venue": "arXiv",
+      "date": "2026-10-09",
+      "arxiv_id": "2610.13912v1",
+      "url": "https://arxiv.org/abs/2610.13912v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.13912v1.pdf",
+      "categories": [
         "cs.CL"
       ],
       "type": "nlp",
@@ -53,32 +54,46 @@
       "source": "arXiv"
     },
     {
-      "title": "WOVEN: Weaving Visual World Modeling into Multimodal LLMs",
-      "authors": "Zheyu Fan, Yue Zhang, Mingkai Deng et al.",
-      "abstract": "Multimodal large language models (MLLMs) struggle with spatial, embodied, physical, and temporal reasoning. We hypothesize that these failures reflect a shared deficit in visual transition reasoning, and test whether this capability can serve as a shared training primitive, one that different models...",
+      "title": "When VLMs Destroy What They Know: Spatial Representations Fall Below Lexical Priors",
+      "authors": "Shubh Garg, Chen Shani",
+      "abstract": "Vision-Language Models (VLMs) increasingly analyze and reason about images, yet it remains unclear whether their internal representations faithfully encode the structured relations required for such reasoning. We introduce EICS (Evaluation-Invariant Concept Stability), a metric for testing whether r...",
       "venue": "arXiv",
-      "date": "2026-10-08",
-      "arxiv_id": "2610.12417v1",
-      "url": "https://arxiv.org/abs/2610.12417v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.12417v1.pdf",
+      "date": "2026-10-09",
+      "arxiv_id": "2610.13910v1",
+      "url": "https://arxiv.org/abs/2610.13910v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.13910v1.pdf",
       "categories": [
-        "cs.CV",
-        "cs.CL",
-        "cs.LG"
+        "cs.CL"
       ],
       "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Dex-One2Many: Learning Dexterous Manipulation from a Single Human Demonstration",
-      "authors": "Jusuk Lee, Sungha Kim, Yeonsoo Park et al.",
-      "abstract": "While learning dexterous manipulation from a single human video offers a promising alternative to costly robot demonstrations, many recent methods predominantly imitate demonstrated motions. Such strict motion matching often limits generalization to initial object poses, goal poses, and grasps not s...",
+      "title": "Towards Physically Grounded Articulated 3D Assets: A Multi-Agent Pipeline and Benchmark",
+      "authors": "Xudong Cai, Ruijie Zhu, Haoliang Shang et al.",
+      "abstract": "In this paper, we study physically grounded articulated 3D asset generation---moving the goal from reproducing how objects look to capturing how they move and function. Inspired by the literature on procedural and agentic generation, we present Artisan, a system that extends the latest method Articr...",
       "venue": "arXiv",
-      "date": "2026-10-08",
-      "arxiv_id": "2610.12470v1",
-      "url": "https://arxiv.org/abs/2610.12470v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.12470v1.pdf",
+      "date": "2026-10-09",
+      "arxiv_id": "2610.13947v1",
+      "url": "https://arxiv.org/abs/2610.13947v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.13947v1.pdf",
+      "categories": [
+        "cs.CV"
+      ],
+      "type": "benchmark",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Splat2Act: From Captured Scenes to Personalized VLA Manipulation",
+      "authors": "Xiaomeng Ye, Krishna Jaganathan, Gyubeum Lim et al.",
+      "abstract": "A user who brings a generalist manipulation policy into their home or office wants it to pick up their objects from their shelves, counters, and tables. Yet even a strong generalist like $π_{0.5}$ achieves 0% pickup success in our captured deployment scenes without adaptation, and collecting real de...",
+      "venue": "arXiv",
+      "date": "2026-10-09",
+      "arxiv_id": "2610.13945v1",
+      "url": "https://arxiv.org/abs/2610.13945v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.13945v1.pdf",
       "categories": [
         "cs.RO",
         "cs.CV"
@@ -88,49 +103,16 @@
       "source": "arXiv"
     },
     {
-      "title": "Rubric-CEPR: Self-Evolving Image Editing via Reward-Verified Self-Distillation",
-      "authors": "Ritesh Thawkar, Shubham Patle, Shravan Venkatraman et al.",
-      "abstract": "Instruction-guided image editors have become highly capable, yet improving them further still depends on human-edited training pairs or external reward models. Such supervision is costly to obtain and can reward plausible failures: a realistic output may leave the requested change undone or alter co...",
+      "title": "Constructive Bounds for the Topological Expressivity of Neural Networks",
+      "authors": "Kosio Beshkov",
+      "abstract": "The expressivity of a neural network $Φ$ describes the class of functions that a network can express. The term topological expressivity refers to a family of measures particularly suited to understand binary classification and is often formulated in terms of the Betti numbers of a decision boundary ...",
       "venue": "arXiv",
-      "date": "2026-10-08",
-      "arxiv_id": "2610.12469v1",
-      "url": "https://arxiv.org/abs/2610.12469v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.12469v1.pdf",
+      "date": "2026-10-09",
+      "arxiv_id": "2610.13931v1",
+      "url": "https://arxiv.org/abs/2610.13931v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.13931v1.pdf",
       "categories": [
-        "cs.CV"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "CSF: Contextual Safety Filtering for Motion Generators",
-      "authors": "Lizhi Yang, Yiling Hou, Yao Tang et al.",
-      "abstract": "Text-conditioned motion generators produce trackable whole-body motion, but they have no notion of scene-dependent safety: the same action may target an object or a person. Existing safeguards either inspect the prompt, require labeled motion data, or enforce geometric constraints; therefore, they d...",
-      "venue": "arXiv",
-      "date": "2026-10-08",
-      "arxiv_id": "2610.12467v1",
-      "url": "https://arxiv.org/abs/2610.12467v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.12467v1.pdf",
-      "categories": [
-        "cs.RO",
-        "cs.LG"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "A Balanced Data Diet: Addressing the Exploration Bottleneck in Mega-Scale RL for Robot Control",
-      "authors": "Octi Zhang, Mateo Guaman Castro, Patrick Yin et al.",
-      "abstract": "General-purpose robots must perform a wide range of tasks from agile locomotion to dexterous manipulation. While sim-to-real reinforcement learning (RL) has proven to be a useful tool for this goal, current RL pipelines depend on engineering-heavy, per-task structural priors such as shaped rewards a...",
-      "venue": "arXiv",
-      "date": "2026-10-08",
-      "arxiv_id": "2610.12465v1",
-      "url": "https://arxiv.org/abs/2610.12465v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.12465v1.pdf",
-      "categories": [
-        "cs.RO",
+        "math.AT",
         "cs.LG"
       ],
       "type": "ml",
@@ -138,19 +120,18 @@
       "source": "arXiv"
     },
     {
-      "title": "DreamTrue: Action-Faithful Robot World Model with Counterfactual Post-Training",
-      "authors": "Junyan Li, Ruizhi Li, Yu Liu et al.",
-      "abstract": "We present DreamTrue, a multi-view, cross-embodiment robot world model for action-faithful and physically plausible video prediction. Training such a model on existing robot datasets faces two obstacles: imprecise calibration can impair action following, while limited coverage of unsuccessful intera...",
+      "title": "Noise Space Learning for VLA Adaptation",
+      "authors": "Junjie Lu, Chuheng Zhang, Yucen Wang et al.",
+      "abstract": "Pretrained vision-language-action (VLA) models encode broad manipulation priors, yet adapting them to specific tasks requires balancing limited robot interaction, computational resources, and safety constraints. Noise space learning (NSL) adapts flow-matching-based VLAs by learning a context-conditi...",
       "venue": "arXiv",
-      "date": "2026-10-08",
-      "arxiv_id": "2610.12468v1",
-      "url": "https://arxiv.org/abs/2610.12468v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.12468v1.pdf",
+      "date": "2026-10-09",
+      "arxiv_id": "2610.13943v1",
+      "url": "https://arxiv.org/abs/2610.13943v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.13943v1.pdf",
       "categories": [
-        "cs.RO",
-        "cs.CV"
+        "cs.RO"
       ],
-      "type": "vision",
+      "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     }
