@@ -3,10 +3,22 @@
   "count": 200,
   "items": [
     {
+      "title": "[机器人“打进”中网，一场关于 具 身 智 能 商业化的竞赛正在升温",
+      "summary": "[机器人“打进”中网，一场关于 具 身 智 能 商业化的竞赛正在升温",
+      "url": "http://36kr.com/p/4022296471670663",
+      "date": "2026-10-12",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
       "title": "[具身进实景，劳动最光荣！2026全球开发者先锋大会暨国际 具 身 智 能 技能大赛媒体通气会召开",
       "summary": "[具身进实景，劳动最光荣！2026全球开发者先锋大会暨国际 具 身 智 能 技能大赛媒体通气会召开",
       "url": "http://36kr.com/p/4016591460339584",
-      "date": "2026-10-11",
+      "date": "2026-10-12",
       "source": "36氪",
       "category": "具身智能",
       "type": "news",
@@ -3056,22 +3068,6 @@
       "type": "paper",
       "arxiv_id": "2609.10522v1",
       "authors": "Yanzhe Chen, Zechen Bai et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "DUET-DINO: Simultaneous Cross-View World Modeling for Latent Planning in Robot Manipulation",
-      "summary": "Action-conditioned latent world models predict future visual representations, enabling zero-shot goal-conditioned robot planning and control. However, their predictions for fine-grained spatial and rotational actions are unreliable for full 7-DoF end...",
-      "url": "https://arxiv.org/abs/2609.10506v1",
-      "date": "2026-09-09",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.10506v1",
-      "authors": "Nisarga Nilavadi, Ralf Römer et al.",
       "tags": [
         "机器人学习",
         "研究论文",
