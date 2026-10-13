@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-10-13",
-  "count": 7,
+  "count": 8,
   "items": [
     {
       "title": "Can Language Models Play the Wikipedia Game?",
@@ -114,6 +114,22 @@
       "categories": [
         "math.AT",
         "cs.LG"
+      ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Noise Space Learning for VLA Adaptation",
+      "authors": "Junjie Lu, Chuheng Zhang, Yucen Wang et al.",
+      "abstract": "Pretrained vision-language-action (VLA) models encode broad manipulation priors, yet adapting them to specific tasks requires balancing limited robot interaction, computational resources, and safety constraints. Noise space learning (NSL) adapts flow-matching-based VLAs by learning a context-conditi...",
+      "venue": "arXiv",
+      "date": "2026-10-09",
+      "arxiv_id": "2610.13943v1",
+      "url": "https://arxiv.org/abs/2610.13943v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.13943v1.pdf",
+      "categories": [
+        "cs.RO"
       ],
       "type": "ml",
       "badge": "arxiv",
