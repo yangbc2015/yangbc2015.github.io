@@ -1,7 +1,93 @@
 {
-  "last_updated": "2026-10-12",
+  "last_updated": "2026-10-13",
   "count": 200,
   "items": [
+    {
+      "title": "Figure AI发布新一代人形机器人Figure 02，具备更强的自主学习能力",
+      "summary": "Figure AI发布新一代人形机器人Figure 02，搭载最新视觉-语言-动作(VLA)模型，在工厂和仓储场景实现更高水平的自主操作。",
+      "url": "https://www.figure.ai",
+      "date": "2026-10-13",
+      "source": "行业动态",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "人形机器人",
+        "Figure"
+      ]
+    },
+    {
+      "title": "特斯拉Optimus人形机器人量产计划加速，预计2025年交付首批产品",
+      "summary": "马斯克表示Optimus人形机器人量产计划正在加速，特斯拉工厂已开始测试机器人执行简单装配任务。",
+      "url": "https://www.tesla.com/optimus",
+      "date": "2026-10-13",
+      "source": "行业动态",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "人形机器人",
+        "Optimus",
+        "特斯拉"
+      ]
+    },
+    {
+      "title": "宇树科技发布Unitree G1人形机器人，价格9.9万元起",
+      "summary": "宇树科技发布新一代人形机器人G1，身高约127cm，体重约35kg，具备23个自由度，面向教育和科研市场。",
+      "url": "https://www.unitree.com",
+      "date": "2026-10-13",
+      "source": "行业动态",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "人形机器人",
+        "宇树科技"
+      ]
+    },
+    {
+      "title": "英伟达发布GR00T人形机器人基础模型，为机器人提供大脑",
+      "summary": "NVIDIA发布人形机器人通用基础模型GR00T，结合Isaac Sim仿真平台，加速人形机器人开发。",
+      "url": "https://developer.nvidia.com/isaac",
+      "date": "2026-10-13",
+      "source": "行业动态",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能",
+        "英伟达",
+        "GR00T"
+      ]
+    },
+    {
+      "title": "智元机器人发布远征A2人形机器人，进入工业场景实测",
+      "summary": "智元机器人发布远征A2人形机器人，已在汽车工厂进行实际生产任务测试，展示零部件装配能力。",
+      "url": "https://www.zhiyuanrobot.com",
+      "date": "2026-10-13",
+      "source": "行业动态",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "人形机器人",
+        "智元机器人"
+      ]
+    },
+    {
+      "title": "波士顿动力Atlas机器人全面升级，电动版展现更强运动能力",
+      "summary": "波士顿动力发布全电动版Atlas机器人，相比液压版本运动更加流畅，可完成后空翻等复杂动作。",
+      "url": "https://bostondynamics.com/atlas",
+      "date": "2026-10-13",
+      "source": "行业动态",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "人形机器人",
+        "波士顿动力"
+      ]
+    },
     {
       "title": "[机器人“打进”中网，一场关于 具 身 智 能 商业化的竞赛正在升温",
       "summary": "[机器人“打进”中网，一场关于 具 身 智 能 商业化的竞赛正在升温",
@@ -2976,102 +3062,6 @@
       "type": "news",
       "tags": [
         "机器人"
-      ]
-    },
-    {
-      "title": "EVPeriscope: Extended Perception across Aerial and Ground Vehicles with Event-based Propeller Tracking",
-      "summary": "Reliable relative localization between aerial and ground robots is a key requirement for tightly coordinated heterogeneous teams. This can be difficult to do using conventional frame-based cameras and fiducial markers because they are sensitive to mo...",
-      "url": "https://arxiv.org/abs/2609.11920v1",
-      "date": "2026-09-10",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.11920v1",
-      "authors": "Dexter Ong, Vijay Kumar et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "UniMPA: A Unified Memory-Prediction-Action Model via Action-Grounded Transition Modeling",
-      "summary": "Recent advances in Vision-Language-Action (VLA) models have improved robotic manipulation, yet observation-to-action learning remains limited by a fundamental transition realizability gap, manifested in three tightly coupled problems: (i) Transition ...",
-      "url": "https://arxiv.org/abs/2609.11875v1",
-      "date": "2026-09-10",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.11875v1",
-      "authors": "Wei Li, Rui Shao et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Learning Agent-based Model Predictive Control for Holistic Vehicle Performance",
-      "summary": "Agent-based model predictive control (AMPC) has recently been proposed as a distributed scheme that collaborates with all agents to achieve optimal holistic performance. However, its optimality highly depends on the prediction accuracy that requires ...",
-      "url": "https://arxiv.org/abs/2609.11871v1",
-      "date": "2026-09-10",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.11871v1",
-      "authors": "Jiaming Zhong, Reza Valiollahi Mehrizi et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Rapid Learning of Dexterous In-Hand Pen Writing through Real-Time Jacobian Estimation",
-      "summary": "Dexterous in-hand manipulation of a grasped object with an anthropomorphic hand is an unsolved frontier for robot dexterity. The contact-richness and highly dynamic nature of object-hand interactions tend to require extensive modeling or data-collect...",
-      "url": "https://arxiv.org/abs/2609.11775v1",
-      "date": "2026-09-10",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.11775v1",
-      "authors": "Kai Stewart, Yasunori Toshimitsu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Visual-SLAM for the detection of hidden tomatoes in greenhouses by Hierarchical Localization and GLOMAPfor robotized harvesting",
-      "summary": "Advanced crop monitoring inside greenhouses is becoming one of the primary objectives of research centers. High-performance sensors, such as LiDAR or stereo cameras, have traditionally been employed for this purpose, though these often have a high co...",
-      "url": "https://arxiv.org/abs/2609.11766v1",
-      "date": "2026-09-10",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.11766v1",
-      "authors": "Fernando Cañadas-Aránega, José C. Moreno et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Show-Harness: Just a VLM Agent Can Play Robots",
-      "summary": "Foundation vision-language models (VLMs) exhibit broad intelligence about the world, yet translating this intelligence into robot control remains challenging. We present Show-Harness, an Embodied Harness that enables VLMs to \"play\" robots through a c...",
-      "url": "https://arxiv.org/abs/2609.10522v1",
-      "date": "2026-09-09",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.10522v1",
-      "authors": "Yanzhe Chen, Zechen Bai et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
       ]
     }
   ]
