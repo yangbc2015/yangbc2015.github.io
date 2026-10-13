@@ -5,6 +5,30 @@
   "models": [
     {
       "rank": 1,
+      "model": "lfm-2.5-24b-a2b",
+      "organization": "liquid",
+      "price_prompt": "0.00000005",
+      "price_completion": "0.0000007",
+      "context_length": 128000
+    },
+    {
+      "rank": 2,
+      "model": "gemini-4-argon",
+      "organization": "google",
+      "price_prompt": "0.000002",
+      "price_completion": "0.00001",
+      "context_length": 1048576
+    },
+    {
+      "rank": 3,
+      "model": "gemini-4-argon:batch",
+      "organization": "google",
+      "price_prompt": "0.000001",
+      "price_completion": "0.000005",
+      "context_length": 1048576
+    },
+    {
+      "rank": 4,
       "model": "summarize",
       "organization": "scaledown",
       "price_prompt": "0.00000004",
@@ -12,7 +36,7 @@
       "context_length": 1000000
     },
     {
-      "rank": 2,
+      "rank": 5,
       "model": "extract",
       "organization": "scaledown",
       "price_prompt": "0.00000004",
@@ -20,7 +44,7 @@
       "context_length": 1000000
     },
     {
-      "rank": 3,
+      "rank": 6,
       "model": "muse-wonder",
       "organization": "meta",
       "price_prompt": "0.000004",
@@ -28,7 +52,7 @@
       "context_length": 1048576
     },
     {
-      "rank": 4,
+      "rank": 7,
       "model": "step-5-preview",
       "organization": "stepfun",
       "price_prompt": "0.000001",
@@ -36,7 +60,7 @@
       "context_length": 1000000
     },
     {
-      "rank": 5,
+      "rank": 8,
       "model": "claude-haiku-5.5",
       "organization": "anthropic",
       "price_prompt": "0.0000001",
@@ -44,7 +68,7 @@
       "context_length": 1000000
     },
     {
-      "rank": 6,
+      "rank": 9,
       "model": "claude-haiku-5.5:batch",
       "organization": "anthropic",
       "price_prompt": "0.00000005",
@@ -52,7 +76,7 @@
       "context_length": 1000000
     },
     {
-      "rank": 7,
+      "rank": 10,
       "model": "gemini-nano-banana-2.1",
       "organization": "google",
       "price_prompt": "0.0000015",
@@ -60,7 +84,7 @@
       "context_length": 65536
     },
     {
-      "rank": 8,
+      "rank": 11,
       "model": "mistral-large-4-0",
       "organization": "mistralai",
       "price_prompt": "0.00000068",
@@ -68,23 +92,15 @@
       "context_length": 1048576
     },
     {
-      "rank": 9,
+      "rank": 12,
       "model": "ling-3.1-flash",
       "organization": "inclusionai",
-      "price_prompt": "0",
-      "price_completion": "0",
+      "price_prompt": "0.000000075",
+      "price_completion": "0.000000225",
       "context_length": 262144
     },
     {
-      "rank": 10,
-      "model": "apodex-1.1-mini:free",
-      "organization": "apodex",
-      "price_prompt": "0",
-      "price_completion": "0",
-      "context_length": 262144
-    },
-    {
-      "rank": 11,
+      "rank": 13,
       "model": "pareto-26.10-preview",
       "organization": "unbiased",
       "price_prompt": "0.0000008",
@@ -92,7 +108,7 @@
       "context_length": 1048576
     },
     {
-      "rank": 12,
+      "rank": 14,
       "model": "gpt-6.1-sol-pro",
       "organization": "openai",
       "price_prompt": "0.000002",
@@ -100,24 +116,8 @@
       "context_length": 1050000
     },
     {
-      "rank": 13,
-      "model": "gpt-6.1-sol-pro:batch",
-      "organization": "openai",
-      "price_prompt": "0.000001",
-      "price_completion": "0.000005",
-      "context_length": 1050000
-    },
-    {
-      "rank": 14,
-      "model": "gpt-6.1-sol",
-      "organization": "openai",
-      "price_prompt": "0.000002",
-      "price_completion": "0.00001",
-      "context_length": 1050000
-    },
-    {
       "rank": 15,
-      "model": "gpt-6.1-sol:batch",
+      "model": "gpt-6.1-sol-pro:batch",
       "organization": "openai",
       "price_prompt": "0.000001",
       "price_completion": "0.000005",
