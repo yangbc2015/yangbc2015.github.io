@@ -3,6 +3,156 @@
   "count": 200,
   "items": [
     {
+      "title": "Figure AI发布新一代人形机器人Figure 02，具备更强的自主学习能力",
+      "summary": "Figure AI发布新一代人形机器人Figure 02，搭载最新视觉-语言-动作(VLA)模型，在工厂和仓储场景实现更高水平的自主操作。",
+      "url": "https://www.figure.ai",
+      "date": "2026-10-14",
+      "source": "行业动态",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "人形机器人",
+        "Figure"
+      ]
+    },
+    {
+      "title": "特斯拉Optimus人形机器人量产计划加速，预计2025年交付首批产品",
+      "summary": "马斯克表示Optimus人形机器人量产计划正在加速，特斯拉工厂已开始测试机器人执行简单装配任务。",
+      "url": "https://www.tesla.com/optimus",
+      "date": "2026-10-14",
+      "source": "行业动态",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "人形机器人",
+        "Optimus",
+        "特斯拉"
+      ]
+    },
+    {
+      "title": "宇树科技发布Unitree G1人形机器人，价格9.9万元起",
+      "summary": "宇树科技发布新一代人形机器人G1，身高约127cm，体重约35kg，具备23个自由度，面向教育和科研市场。",
+      "url": "https://www.unitree.com",
+      "date": "2026-10-14",
+      "source": "行业动态",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "人形机器人",
+        "宇树科技"
+      ]
+    },
+    {
+      "title": "英伟达发布GR00T人形机器人基础模型，为机器人提供大脑",
+      "summary": "NVIDIA发布人形机器人通用基础模型GR00T，结合Isaac Sim仿真平台，加速人形机器人开发。",
+      "url": "https://developer.nvidia.com/isaac",
+      "date": "2026-10-14",
+      "source": "行业动态",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能",
+        "英伟达",
+        "GR00T"
+      ]
+    },
+    {
+      "title": "智元机器人发布远征A2人形机器人，进入工业场景实测",
+      "summary": "智元机器人发布远征A2人形机器人，已在汽车工厂进行实际生产任务测试，展示零部件装配能力。",
+      "url": "https://www.zhiyuanrobot.com",
+      "date": "2026-10-14",
+      "source": "行业动态",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "人形机器人",
+        "智元机器人"
+      ]
+    },
+    {
+      "title": "波士顿动力Atlas机器人全面升级，电动版展现更强运动能力",
+      "summary": "波士顿动力发布全电动版Atlas机器人，相比液压版本运动更加流畅，可完成后空翻等复杂动作。",
+      "url": "https://bostondynamics.com/atlas",
+      "date": "2026-10-14",
+      "source": "行业动态",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "人形机器人",
+        "波士顿动力"
+      ]
+    },
+    {
+      "title": "ChunkAct: Action Chunking for Agentic Robotics",
+      "summary": "Agentic robotics places a large language model (LLM) agent in the robot control loop, where it composes perception, motion, and vision-language-action (VLA) tools under the guidance of a memory and thereby generalizes to new tasks without retraining....",
+      "url": "https://arxiv.org/abs/2610.18874v1",
+      "date": "2026-10-13",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.18874v1",
+      "authors": "Bingxin Xu, Wenrui Bao et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "LoopWAM: Closed-Loop Generalist Policy Improvement from Deployment Rollouts",
+      "summary": "Scaling expert demonstrations alone does not enable generalist robot policies to improve from deployment. Real-world rollouts contain successes, suboptimal behavior, and failures: imitating every recorded action can reinforce poor behavior, while fil...",
+      "url": "https://arxiv.org/abs/2610.18873v1",
+      "date": "2026-10-13",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.18873v1",
+      "authors": "Wenxuan Guo, Yingping Liang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "EgoExplorer: A Vision-Motion-Touch Observatory for Human Loco-Manipulation In Situ",
+      "summary": "Learning humanoid loco-manipulation from human demonstrations rests on observing how locomotion, posture, and object interaction evolve together as tasks unfold. Scaling collection across diverse environments, in turn, favors lightweight, portable ca...",
+      "url": "https://arxiv.org/abs/2610.18872v1",
+      "date": "2026-10-13",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.18872v1",
+      "authors": "Yunsong Zhou, Xuekun Jiang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "What Matters in Quality-Aware VLA Pretraining: A Benchmark and Empirical Study",
+      "summary": "How should demonstration quality be used during vision-language-action (VLA) pretraining to improve performance after target-task fine-tuning? We compare weighting, filtering, and conditioning across reward definitions and label granularities using 5...",
+      "url": "https://arxiv.org/abs/2610.18869v1",
+      "date": "2026-10-13",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.18869v1",
+      "authors": "Mingxuan Yan, Litian Gong et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
       "title": "[机器人“打进”中网，一场关于 具 身 智 能 商业化的竞赛正在升温",
       "summary": "[机器人“打进”中网，一场关于 具 身 智 能 商业化的竞赛正在升温",
       "url": "http://36kr.com/p/4022296471670663",
@@ -25,92 +175,6 @@
       "tags": [
         "机器人",
         "具身智能"
-      ]
-    },
-    {
-      "title": "Figure AI发布新一代人形机器人Figure 02，具备更强的自主学习能力",
-      "summary": "Figure AI发布新一代人形机器人Figure 02，搭载最新视觉-语言-动作(VLA)模型，在工厂和仓储场景实现更高水平的自主操作。",
-      "url": "https://www.figure.ai",
-      "date": "2026-10-13",
-      "source": "行业动态",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "人形机器人",
-        "Figure"
-      ]
-    },
-    {
-      "title": "特斯拉Optimus人形机器人量产计划加速，预计2025年交付首批产品",
-      "summary": "马斯克表示Optimus人形机器人量产计划正在加速，特斯拉工厂已开始测试机器人执行简单装配任务。",
-      "url": "https://www.tesla.com/optimus",
-      "date": "2026-10-13",
-      "source": "行业动态",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "人形机器人",
-        "Optimus",
-        "特斯拉"
-      ]
-    },
-    {
-      "title": "宇树科技发布Unitree G1人形机器人，价格9.9万元起",
-      "summary": "宇树科技发布新一代人形机器人G1，身高约127cm，体重约35kg，具备23个自由度，面向教育和科研市场。",
-      "url": "https://www.unitree.com",
-      "date": "2026-10-13",
-      "source": "行业动态",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "人形机器人",
-        "宇树科技"
-      ]
-    },
-    {
-      "title": "英伟达发布GR00T人形机器人基础模型，为机器人提供大脑",
-      "summary": "NVIDIA发布人形机器人通用基础模型GR00T，结合Isaac Sim仿真平台，加速人形机器人开发。",
-      "url": "https://developer.nvidia.com/isaac",
-      "date": "2026-10-13",
-      "source": "行业动态",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能",
-        "英伟达",
-        "GR00T"
-      ]
-    },
-    {
-      "title": "智元机器人发布远征A2人形机器人，进入工业场景实测",
-      "summary": "智元机器人发布远征A2人形机器人，已在汽车工厂进行实际生产任务测试，展示零部件装配能力。",
-      "url": "https://www.zhiyuanrobot.com",
-      "date": "2026-10-13",
-      "source": "行业动态",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "人形机器人",
-        "智元机器人"
-      ]
-    },
-    {
-      "title": "波士顿动力Atlas机器人全面升级，电动版展现更强运动能力",
-      "summary": "波士顿动力发布全电动版Atlas机器人，相比液压版本运动更加流畅，可完成后空翻等复杂动作。",
-      "url": "https://bostondynamics.com/atlas",
-      "date": "2026-10-13",
-      "source": "行业动态",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "人形机器人",
-        "波士顿动力"
       ]
     },
     {
@@ -3007,62 +3071,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "Dynamics-Informed Reinforcement Learning for Agile and Energy-Efficient Locomotion of a Monopedal Hopping Quadcopter",
-      "summary": "Although aerial-legged robots offer combined agility and efficiency, controlling high-speed hopping under complex hybrid dynamics is challenging. Reinforcement Learning (RL) is promising but prone to energy-inefficient \"reward hacking\". We propose a ...",
-      "url": "https://arxiv.org/abs/2609.15399v1",
-      "date": "2026-09-14",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.15399v1",
-      "authors": "Ruigang Chen, Qi Zhang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "From Prediction to Decision: World-Model-Guided Action Selection for Continuous Pile Excavation",
-      "summary": "Wheel-loader excavation is a sequential decision problem in which every scoop changes the terrain available to subsequent actions. A practical world model must predict action consequences accurately, rank candidates in real time, and operate inside t...",
-      "url": "https://arxiv.org/abs/2609.15382v1",
-      "date": "2026-09-14",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.15382v1",
-      "authors": "Ailing Zhang, Fan Gao et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "[中国 具 身 智 能 学脉调查：李泽湘教授在造一支机器人军团",
-      "summary": "[中国 具 身 智 能 学脉调查：李泽湘教授在造一支机器人军团",
-      "url": "http://36kr.com/p/3973040623218947",
-      "date": "2026-09-14",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
-      ]
-    },
-    {
-      "title": "机器人到底需要怎样的通用大脑？",
-      "summary": "机器人到底需要怎样的通用大脑？",
-      "url": "http://36kr.com/p/3980048854678276",
-      "date": "2026-09-12",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
       ]
     }
   ]

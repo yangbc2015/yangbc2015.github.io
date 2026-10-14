@@ -1,9 +1,57 @@
 {
   "last_updated": "2026-10-14",
   "count": 200,
-  "history_count": 200,
+  "history_count": 204,
   "retention_days": 30,
   "items": [
+    {
+      "title": "从创意到成本，AI正在重写综艺的生产逻辑",
+      "link": "https://www.qbitai.com/?s=从创意到成本，AI正",
+      "summary": "从创意到成本，AI正在重写综艺的生产逻辑...",
+      "date": "2026-10-14",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "2026年10月13日，大模型原生AI终端品牌STEPX（阶跃终端）旗下首款大模型原生智能体手机STEPX Neo正式发布",
+      "link": "https://www.qbitai.com/?s=2026年10月13",
+      "summary": "2026年10月13日，大模型原生AI终端品牌STEPX（阶跃终端）旗下首款大模型原生智能体手机STEPX Neo正式发布...",
+      "date": "2026-10-14",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "CMOS标准工艺兼容的1TnR技术路线加速研发。",
+      "link": "https://www.qbitai.com/?s=CMOS标准工艺兼容",
+      "summary": "CMOS标准工艺兼容的1TnR技术路线加速研发。...",
+      "date": "2026-10-14",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "10月13日，APUS AI（麒麟合盛网络技术股份有限公司）宣布开源Personal Agent产品Reflex Agent",
+      "link": "https://www.qbitai.com/?s=10月13日，APU",
+      "summary": "10月13日，APUS AI（麒麟合盛网络技术股份有限公司）宣布开源Personal Agent产品Reflex Agent...",
+      "date": "2026-10-14",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
     {
       "title": "让VLA从“演示可用”逼近“产线可用”",
       "link": "https://www.qbitai.com/?s=让VLA从“演示可用",
@@ -14,6 +62,18 @@
       "tags": [
         "AI",
         "人工智能"
+      ]
+    },
+    {
+      "title": "*   [Latest](http://techcrunch.com/latest/)",
+      "link": "https://techcrunch.com/category/artificial-intelligence/",
+      "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
+      "date": "2026-10-14",
+      "source": "TechCrunch",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "Artificial Intelligence"
       ]
     },
     {
@@ -62,18 +122,6 @@
       "tags": [
         "AI",
         "人工智能"
-      ]
-    },
-    {
-      "title": "*   [Latest](http://techcrunch.com/latest/)",
-      "link": "https://techcrunch.com/category/artificial-intelligence/",
-      "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
-      "date": "2026-10-14",
-      "source": "TechCrunch",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "Artificial Intelligence"
       ]
     },
     {
@@ -2350,54 +2398,6 @@
       "summary": "9月16日，B站「AI无限竞技场」正式上线，首期大模型测评榜单同步公布。...",
       "date": "2026-09-17",
       "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "OpenAI百亿投入砸向具身，机器人竞争进入数据与算力时代",
-      "link": "https://www.jiqizhixin.com/search/articles/OpenAI百亿投入砸向具身，",
-      "summary": "OpenAI百亿投入砸向具身，机器人竞争进入数据与算力时代...",
-      "date": "2026-09-16",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "AI会做题，却未必能自进化：字节Seed等提出三项新基准",
-      "link": "https://www.jiqizhixin.com/search/articles/AI会做题，却未必能自进化：字",
-      "summary": "AI会做题，却未必能自进化：字节Seed等提出三项新基准...",
-      "date": "2026-09-16",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "全球首款AI智能体手机正式上市！努比亚NaviX Ultra 5499元起",
-      "link": "https://www.jiqizhixin.com/search/articles/全球首款AI智能体手机正式上市",
-      "summary": "全球首款AI智能体手机正式上市！努比亚NaviX Ultra 5499元起...",
-      "date": "2026-09-16",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "天玑9600 Pro发布：330亿晶体管、双超大核4.55GHz",
-      "link": "https://www.jiqizhixin.com/search/articles/天玑9600 Pro发布：33",
-      "summary": "天玑9600 Pro发布：330亿晶体管、双超大核4.55GHz...",
-      "date": "2026-09-16",
-      "source": "机器之心",
       "type": "industry",
       "tags": [
         "AI",

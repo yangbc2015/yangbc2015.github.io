@@ -1,17 +1,19 @@
 {
   "last_updated": "2026-10-14",
-  "count": 6,
+  "count": 5,
   "items": [
     {
-      "title": "Lüshi-1840: Building and Probing a Knowledge Cutoff for a Classical Chinese Language Model",
-      "authors": "Alex Liu",
-      "abstract": "Language models trained only on text from before a given year are useful for studying hindsight and historical language, but the open collections of pre-modern Chinese carry no publication dates and unreliable dynasty labels. We present Lüshi-1840, a 983M-parameter model trained from scratch on 12,2...",
+      "title": "ChunkAct: Action Chunking for Agentic Robotics",
+      "authors": "Bingxin Xu, Wenrui Bao, Xinxin Liu et al.",
+      "abstract": "Agentic robotics places a large language model (LLM) agent in the robot control loop, where it composes perception, motion, and vision-language-action (VLA) tools under the guidance of a memory and thereby generalizes to new tasks without retraining. This generality comes at a steep price in efficie...",
       "venue": "arXiv",
-      "date": "2026-10-12",
-      "arxiv_id": "2610.16201v1",
-      "url": "https://arxiv.org/abs/2610.16201v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.16201v1.pdf",
+      "date": "2026-10-13",
+      "arxiv_id": "2610.18874v1",
+      "url": "https://arxiv.org/abs/2610.18874v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.18874v1.pdf",
       "categories": [
+        "cs.RO",
+        "cs.AI",
         "cs.CL"
       ],
       "type": "nlp",
@@ -19,31 +21,52 @@
       "source": "arXiv"
     },
     {
-      "title": "DeepThink: A Conceptual Model for Knowledge-Addressable Recurrent Language Modeling",
-      "authors": "Weiguo Chen",
-      "abstract": "This manuscript presents DeepThink, a knowledge-addressable framework for recurrent language modeling. A Knowledge Bank stores typed Knowledge Units, a Knowledge Activator selects units from the current execution state, Knowledge Assembly produces an executable configuration, and a Shared Thinking O...",
+      "title": "What Matters in Quality-Aware VLA Pretraining: A Benchmark and Empirical Study",
+      "authors": "Mingxuan Yan, Litian Gong, Dihong Huang et al.",
+      "abstract": "How should demonstration quality be used during vision-language-action (VLA) pretraining to improve performance after target-task fine-tuning? We compare weighting, filtering, and conditioning across reward definitions and label granularities using 5,000 naturally suboptimal human demonstrations and...",
       "venue": "arXiv",
-      "date": "2026-10-12",
-      "arxiv_id": "2610.16171v1",
-      "url": "https://arxiv.org/abs/2610.16171v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.16171v1.pdf",
+      "date": "2026-10-13",
+      "arxiv_id": "2610.18869v1",
+      "url": "https://arxiv.org/abs/2610.18869v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.18869v1.pdf",
       "categories": [
-        "cs.CL"
+        "cs.RO",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "type": "benchmark",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Tev: Scaling Long-Horizon Agentic Environments with Dense Progress Rewards",
+      "authors": "Wenbo Hu, Shraman Pramanick, Krishna Kumar Singh et al.",
+      "abstract": "Long-horizon agents have drawn growing attention for their ability to work autonomously -- from hours to days -- on economically valuable tasks, a capability essential to automated discovery and recursive self-improvement (RSI). Yet open-source models still struggle on long-horizon tasks, largely fo...",
+      "venue": "arXiv",
+      "date": "2026-10-13",
+      "arxiv_id": "2610.18868v1",
+      "url": "https://arxiv.org/abs/2610.18868v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.18868v1.pdf",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.CV"
       ],
       "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Seg2Click: Learning Pixel-Level Action Masks for GUI Visual Grounding",
-      "authors": "Jingchao Wang, Dingjiang Huang",
-      "abstract": "Visual grounding is a central challenge for GUI agents, requiring an instruction to be mapped to a target within a crowded screenshot. Coordinate generation with single-point supervision reduces a spatially extended target to one position, despite the presence of many valid click locations. Region-b...",
+      "title": "LoopWAM: Closed-Loop Generalist Policy Improvement from Deployment Rollouts",
+      "authors": "Wenxuan Guo, Yingping Liang, Zhaoguo Wang et al.",
+      "abstract": "Scaling expert demonstrations alone does not enable generalist robot policies to improve from deployment. Real-world rollouts contain successes, suboptimal behavior, and failures: imitating every recorded action can reinforce poor behavior, while filtering out failures discards evidence of physical ...",
       "venue": "arXiv",
-      "date": "2026-10-12",
-      "arxiv_id": "2610.16234v1",
-      "url": "https://arxiv.org/abs/2610.16234v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.16234v1.pdf",
+      "date": "2026-10-13",
+      "arxiv_id": "2610.18873v1",
+      "url": "https://arxiv.org/abs/2610.18873v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.18873v1.pdf",
       "categories": [
+        "cs.RO",
         "cs.CV"
       ],
       "type": "vision",
@@ -51,54 +74,20 @@
       "source": "arXiv"
     },
     {
-      "title": "Look Back to Move Forward: Learning to Revisit for Agentic Compositional Image Generation",
-      "authors": "Zixu Wang, Xiaoran Zhao, Yahui Liu et al.",
-      "abstract": "Text-to-image models have made remarkable progress in visual fidelity and instruction following, yet complex compositional generation remains challenging. Existing agentic approaches address this limitation through iterative generation and editing, adapting their actions based on interaction history...",
+      "title": "Cepheid: Decoupling Scale from Structure for Cross-Family Motion Completion",
+      "authors": "Chih-Hai Su, Tsung-Wei Ke, Yu-Lun Liu",
+      "abstract": "Sparse-to-dense motion completion recovers dense mesh motion from sparse vertex displacements. Residual priors trained on one geometry family frequently fail to beat parameter-free harmonic extension off-family. Moreover, cross-family training meets a scaling barrier: residual amplitude varies by mo...",
       "venue": "arXiv",
-      "date": "2026-10-12",
-      "arxiv_id": "2610.16224v1",
-      "url": "https://arxiv.org/abs/2610.16224v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.16224v1.pdf",
+      "date": "2026-10-13",
+      "arxiv_id": "2610.18871v1",
+      "url": "https://arxiv.org/abs/2610.18871v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.18871v1.pdf",
       "categories": [
         "cs.CV",
-        "cs.AI"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "AutoNovo: Agentic Program Search Discovers Transferable Nucleic Acid Design Algorithms",
-      "authors": "Joel Shor, Subhashini Venugopalan",
-      "abstract": "In-silico optimization of nucleic acids relies on predictive oracles that imperfectly capture biological function, so sequences optimized against one model may exploit model-specific artifacts and fail to generalize to independent models. Recent studies have shown that not all designers generalize e...",
-      "venue": "arXiv",
-      "date": "2026-10-12",
-      "arxiv_id": "2610.16232v1",
-      "url": "https://arxiv.org/abs/2610.16232v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.16232v1.pdf",
-      "categories": [
-        "cs.LG",
-        "cs.AI",
-        "q-bio.QM"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "NetRL: Powering Network Decisions via NetGRPO-Driven Reinforcement Learning",
-      "authors": "Lingfeng Peng, Xiaohui Xie, Yang Bao et al.",
-      "abstract": "Network decision-making tasks, including adaptive bitrate streaming, load balancing, and congestion control, require policies to process heterogeneous states and actions while balancing near- and long-term consequences. Existing solutions generalize poorly across network tasks, require substantial t...",
-      "venue": "arXiv",
-      "date": "2026-10-12",
-      "arxiv_id": "2610.16226v1",
-      "url": "https://arxiv.org/abs/2610.16226v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.16226v1.pdf",
-      "categories": [
-        "cs.NI",
+        "cs.GR",
         "cs.LG"
       ],
-      "type": "ml",
+      "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     }
