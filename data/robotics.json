@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-13",
+  "last_updated": "2026-10-14",
   "count": 200,
   "items": [
     {
@@ -114,6 +114,112 @@
       ]
     },
     {
+      "title": "MSC: Multi-Stage Caster-aware Control Framework with Uncertainty-Aware NMPC and RL-based Execution Layer",
+      "summary": "Freely swiveling casters are widely adopted in industrial AMRs/SDVs for their mechanical simplicity and load capacity. However, caster misalignment during low-speed or high-curvature maneuvers induces strong contact nonlinearities, widening the plann...",
+      "url": "https://arxiv.org/abs/2610.16199v1",
+      "date": "2026-10-12",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.16199v1",
+      "authors": "Jinho Park, Jeongtae Lee et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "One-Shot Learning for Double-Shot Latte Art: Adapting Cobot Pouring Skills with Dynamic Movement Primitives",
+      "summary": "Latte art is a complex task requiring dexterity and precision, making it a challenging and commercially relevant task. A one-shot learning system is employed in which a single barista demonstration is segmented into five functionally distinct phases,...",
+      "url": "https://arxiv.org/abs/2610.16179v1",
+      "date": "2026-10-12",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.16179v1",
+      "authors": "Zain Khan, Victor Hernandez Moreno et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Extending Wire-Driven Parallel Robots to Multi-Floating-Link Systems with an Inter-Body Wire",
+      "summary": "Parallel wire-driven systems are a framework in which multiple wires are connected to an end effector, and the end effector is driven by the tensions of those wires. Because they can transmit large forces, up to the breaking strength of the wires, ov...",
+      "url": "https://arxiv.org/abs/2610.16173v1",
+      "date": "2026-10-12",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.16173v1",
+      "authors": "Shintaro Inoue, Kento Kawaharazuka et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "FlowVLA: Enabling World Dynamics Understanding through Pluggable 3D Flow Learning",
+      "summary": "Recent advances in 3D reconstruction enable the extraction of temporally consistent 3D motion from RGB observations; however, current Vision-Language-Action (VLA) models still predominantly rely on 2D image-text priors. Therefore, they do not accurat...",
+      "url": "https://arxiv.org/abs/2610.16160v1",
+      "date": "2026-10-12",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.16160v1",
+      "authors": "Junhyeong Go, Mingyu Jung et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Directional Pullback Regularization for Long-Horizon Rollout of Latent World Models in Autonomous Driving",
+      "summary": "Learned world models for autonomous driving operate in unconstrained latent spaces, yet the physical systems they represent are governed by strict non-holonomic constraints: ground vehicles cannot realize instantaneous pure lateral motion. We study l...",
+      "url": "https://arxiv.org/abs/2610.16139v1",
+      "date": "2026-10-12",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.16139v1",
+      "authors": "Shatadal Mishra, Ahmadreza Moradipari et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "从运动搭子到家务帮手——卧安机器人让具身智能走出实验室",
+      "summary": "从运动搭子到家务帮手——卧安机器人让具身智能走出实验室",
+      "url": "http://36kr.com/p/4022296471670663",
+      "date": "2026-10-12",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "具身智能业务营收占比5%",
+      "summary": "具身智能业务营收占比5%",
+      "url": "http://36kr.com/p/4021056223500163",
+      "date": "2026-10-12",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
       "title": "[GPT拆掉了「具身大脑」，Embodied PhyStack会是 具 身 智 能 的下一站吗？",
       "summary": "[GPT拆掉了「具身大脑」，Embodied PhyStack会是 具 身 智 能 的下一站吗？",
       "url": "http://36kr.com/p/4004465537519750",
@@ -124,6 +230,32 @@
       "tags": [
         "机器人",
         "具身智能"
+      ]
+    },
+    {
+      "title": "具身智能亟需真实世界数据基础设施，博登智能给出解决方案",
+      "summary": "具身智能亟需真实世界数据基础设施，博登智能给出解决方案",
+      "url": "http://36kr.com/p/4018441350811781",
+      "date": "2026-10-09",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "国内近千家人形机器人企业，最终可能只留下10到20家。",
+      "summary": "国内近千家人形机器人企业，最终可能只留下10到20家。",
+      "url": "http://36kr.com/p/4017905608151174",
+      "date": "2026-10-09",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "人形机器人"
       ]
     },
     {
@@ -204,32 +336,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "具身智能亟需真实世界数据基础设施，博登智能给出解决方案",
-      "summary": "具身智能亟需真实世界数据基础设施，博登智能给出解决方案",
-      "url": "http://36kr.com/p/4018441350811781",
-      "date": "2026-10-09",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "国内近千家人形机器人企业，最终可能只留下10到20家。",
-      "summary": "国内近千家人形机器人企业，最终可能只留下10到20家。",
-      "url": "http://36kr.com/p/4017905608151174",
-      "date": "2026-10-09",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "人形机器人"
       ]
     },
     {
@@ -2952,111 +3058,6 @@
       "summary": "机器人到底需要怎样的通用大脑？",
       "url": "http://36kr.com/p/3980048854678276",
       "date": "2026-09-12",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
-      ]
-    },
-    {
-      "title": "ASTRIL-MPC: Autonomous Traversal Framework of Articulated Tracked Robots with Language-Guided Neural-Kinematic MPC",
-      "summary": "In urban search and rescue, articulated tracked robots (ATRs) must traverse structured but contact-rich environments such as stairwells and cluttered building interiors. Reliable autonomy remains challenging because robot-terrain interaction (RTI) is...",
-      "url": "https://arxiv.org/abs/2609.13083v1",
-      "date": "2026-09-11",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.13083v1",
-      "authors": "Zhenfeng Gan, Yanbo Chen et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Dynin-Robotics: Omnimodal Unified Diffusion Vision-Language-Action Model",
-      "summary": "Visual goal and dynamics prediction can provide language-conditioned robot policies with both a target outcome and a representation of action-dependent scene changes. We bring these predictions into action generation and selection through a shared tr...",
-      "url": "https://arxiv.org/abs/2609.13053v1",
-      "date": "2026-09-11",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.13053v1",
-      "authors": "Hoeun Lee, Jaeik Kim et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Global Path Planner with Multi-Model Switching",
-      "summary": "This work enhances global path planning via a pure-pursuit controller with multi-model kinematic switching that sustains plan fidelity across diverse terrains. The system includes a traversability graph for terrain analysis, a Heading-Aware A* algori...",
-      "url": "https://arxiv.org/abs/2609.13015v1",
-      "date": "2026-09-11",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.13015v1",
-      "authors": "Pietro Gori, Francesco Iotti et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Comfort by Construction: Adaptive, Comfort-Bounded Action Spaces for Learned Driving Policies",
-      "summary": "Data-driven driving simulators command accelerations and steering rates from a fixed grid without constraining the realized accelerations and jerks. As a result, reinforcement-learning policies inflate safety metrics through abrupt, last-second maneu...",
-      "url": "https://arxiv.org/abs/2609.13011v1",
-      "date": "2026-09-11",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.13011v1",
-      "authors": "Anna Rothenhäusler, Daniel Jost et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Tuning ROS 2 for Energy-Efficient Navigation: Empirical Insights from Costmap 2D Configurations",
-      "summary": "Robots are increasingly used in diverse application areas, where autonomous navigation plays a central role. As these systems become more widespread, improving their energy efficiency is critical to extending operational time and reducing environment...",
-      "url": "https://arxiv.org/abs/2609.12971v1",
-      "date": "2026-09-11",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.12971v1",
-      "authors": "Michel Albonico, Andreas Wortmann et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "万勋科技发布行业首个商用级NOVA2.0柔性具身大脑。",
-      "summary": "万勋科技发布行业首个商用级NOVA2.0柔性具身大脑。",
-      "url": "http://36kr.com/p/3975925620109575",
-      "date": "2026-09-10",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "深入探讨人工智能与机器人技术的临床落地路径，推动全球医疗科技的进步与产业化发展。",
-      "summary": "深入探讨人工智能与机器人技术的临床落地路径，推动全球医疗科技的进步与产业化发展。",
-      "url": "http://36kr.com/p/3976932561236482",
-      "date": "2026-09-10",
       "source": "36氪",
       "category": "机器人",
       "type": "news",

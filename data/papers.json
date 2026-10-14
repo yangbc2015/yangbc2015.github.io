@@ -1,118 +1,101 @@
 {
-  "last_updated": "2026-10-13",
-  "count": 8,
+  "last_updated": "2026-10-14",
+  "count": 10,
   "items": [
     {
-      "title": "Can Language Models Play the Wikipedia Game?",
-      "authors": "Alexander Hickey, Joanna Knight, James Bishop",
-      "abstract": "Language models increasingly support or automate information retrieval from document collections too large to index. This task is difficult when it requires specialist linguistic or scientific knowledge. We used the Wikipedia Game to test language models on an analogous information retrieval task. I...",
+      "title": "Lüshi-1840: Building and Probing a Knowledge Cutoff for a Classical Chinese Language Model",
+      "authors": "Alex Liu",
+      "abstract": "Language models trained only on text from before a given year are useful for studying hindsight and historical language, but the open collections of pre-modern Chinese carry no publication dates and unreliable dynasty labels. We present Lüshi-1840, a 983M-parameter model trained from scratch on 12,2...",
       "venue": "arXiv",
-      "date": "2026-10-09",
-      "arxiv_id": "2610.13948v1",
-      "url": "https://arxiv.org/abs/2610.13948v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.13948v1.pdf",
+      "date": "2026-10-12",
+      "arxiv_id": "2610.16201v1",
+      "url": "https://arxiv.org/abs/2610.16201v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.16201v1.pdf",
       "categories": [
-        "cs.AI",
-        "cs.IR"
+        "cs.CL"
       ],
       "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Hide and Seek: HIDE Concepts to SEEK explanations for black box models",
-      "authors": "Bhanu Tokas, Rahul Nair, Rockwell Jackson et al.",
-      "abstract": "Interpreting machine learning model predictions is a central challenge, particularly for black-box vision models. Concept-based attribution methods interpret models using human-understandable concepts. Existing concept-based methods can only interpret classification and regression models. They requi...",
+      "title": "DeepThink: A Conceptual Model for Knowledge-Addressable Recurrent Language Modeling",
+      "authors": "Weiguo Chen",
+      "abstract": "This manuscript presents DeepThink, a knowledge-addressable framework for recurrent language modeling. A Knowledge Bank stores typed Knowledge Units, a Knowledge Activator selects units from the current execution state, Knowledge Assembly produces an executable configuration, and a Shared Thinking O...",
       "venue": "arXiv",
-      "date": "2026-10-09",
-      "arxiv_id": "2610.13935v1",
-      "url": "https://arxiv.org/abs/2610.13935v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.13935v1.pdf",
+      "date": "2026-10-12",
+      "arxiv_id": "2610.16171v1",
+      "url": "https://arxiv.org/abs/2610.16171v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.16171v1.pdf",
+      "categories": [
+        "cs.CL"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Seg2Click: Learning Pixel-Level Action Masks for GUI Visual Grounding",
+      "authors": "Jingchao Wang, Dingjiang Huang",
+      "abstract": "Visual grounding is a central challenge for GUI agents, requiring an instruction to be mapped to a target within a crowded screenshot. Coordinate generation with single-point supervision reduces a spatially extended target to one position, despite the presence of many valid click locations. Region-b...",
+      "venue": "arXiv",
+      "date": "2026-10-12",
+      "arxiv_id": "2610.16234v1",
+      "url": "https://arxiv.org/abs/2610.16234v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.16234v1.pdf",
+      "categories": [
+        "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Look Back to Move Forward: Learning to Revisit for Agentic Compositional Image Generation",
+      "authors": "Zixu Wang, Xiaoran Zhao, Yahui Liu et al.",
+      "abstract": "Text-to-image models have made remarkable progress in visual fidelity and instruction following, yet complex compositional generation remains challenging. Existing agentic approaches address this limitation through iterative generation and editing, adapting their actions based on interaction history...",
+      "venue": "arXiv",
+      "date": "2026-10-12",
+      "arxiv_id": "2610.16224v1",
+      "url": "https://arxiv.org/abs/2610.16224v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.16224v1.pdf",
       "categories": [
         "cs.CV",
+        "cs.AI"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "AutoNovo: Agentic Program Search Discovers Transferable Nucleic Acid Design Algorithms",
+      "authors": "Joel Shor, Subhashini Venugopalan",
+      "abstract": "In-silico optimization of nucleic acids relies on predictive oracles that imperfectly capture biological function, so sequences optimized against one model may exploit model-specific artifacts and fail to generalize to independent models. Recent studies have shown that not all designers generalize e...",
+      "venue": "arXiv",
+      "date": "2026-10-12",
+      "arxiv_id": "2610.16232v1",
+      "url": "https://arxiv.org/abs/2610.16232v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.16232v1.pdf",
+      "categories": [
+        "cs.LG",
         "cs.AI",
-        "cs.LG"
+        "q-bio.QM"
       ],
-      "type": "vision",
+      "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "RSI-Anything: Unlocking Recursive Self-Improvement with World Models",
-      "authors": "Taoyong Cui, Pinxian Zeng, Wanghan Xu et al.",
-      "abstract": "Recursive self-improvement (RSI) aims to transform interaction experience into persistent improvements, yet external feedback is costly and world-model predictions may become unreliable as policies evolve. We introduce RSI-Anything, a domain-general framework built on JEPA-Anything that uses predict...",
+      "title": "NetRL: Powering Network Decisions via NetGRPO-Driven Reinforcement Learning",
+      "authors": "Lingfeng Peng, Xiaohui Xie, Yang Bao et al.",
+      "abstract": "Network decision-making tasks, including adaptive bitrate streaming, load balancing, and congestion control, require policies to process heterogeneous states and actions while balancing near- and long-term consequences. Existing solutions generalize poorly across network tasks, require substantial t...",
       "venue": "arXiv",
-      "date": "2026-10-09",
-      "arxiv_id": "2610.13912v1",
-      "url": "https://arxiv.org/abs/2610.13912v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.13912v1.pdf",
+      "date": "2026-10-12",
+      "arxiv_id": "2610.16226v1",
+      "url": "https://arxiv.org/abs/2610.16226v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.16226v1.pdf",
       "categories": [
-        "cs.CL"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "When VLMs Destroy What They Know: Spatial Representations Fall Below Lexical Priors",
-      "authors": "Shubh Garg, Chen Shani",
-      "abstract": "Vision-Language Models (VLMs) increasingly analyze and reason about images, yet it remains unclear whether their internal representations faithfully encode the structured relations required for such reasoning. We introduce EICS (Evaluation-Invariant Concept Stability), a metric for testing whether r...",
-      "venue": "arXiv",
-      "date": "2026-10-09",
-      "arxiv_id": "2610.13910v1",
-      "url": "https://arxiv.org/abs/2610.13910v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.13910v1.pdf",
-      "categories": [
-        "cs.CL"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Towards Physically Grounded Articulated 3D Assets: A Multi-Agent Pipeline and Benchmark",
-      "authors": "Xudong Cai, Ruijie Zhu, Haoliang Shang et al.",
-      "abstract": "In this paper, we study physically grounded articulated 3D asset generation---moving the goal from reproducing how objects look to capturing how they move and function. Inspired by the literature on procedural and agentic generation, we present Artisan, a system that extends the latest method Articr...",
-      "venue": "arXiv",
-      "date": "2026-10-09",
-      "arxiv_id": "2610.13947v1",
-      "url": "https://arxiv.org/abs/2610.13947v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.13947v1.pdf",
-      "categories": [
-        "cs.CV"
-      ],
-      "type": "benchmark",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Splat2Act: From Captured Scenes to Personalized VLA Manipulation",
-      "authors": "Xiaomeng Ye, Krishna Jaganathan, Gyubeum Lim et al.",
-      "abstract": "A user who brings a generalist manipulation policy into their home or office wants it to pick up their objects from their shelves, counters, and tables. Yet even a strong generalist like $π_{0.5}$ achieves 0% pickup success in our captured deployment scenes without adaptation, and collecting real de...",
-      "venue": "arXiv",
-      "date": "2026-10-09",
-      "arxiv_id": "2610.13945v1",
-      "url": "https://arxiv.org/abs/2610.13945v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.13945v1.pdf",
-      "categories": [
-        "cs.RO",
-        "cs.CV"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Constructive Bounds for the Topological Expressivity of Neural Networks",
-      "authors": "Kosio Beshkov",
-      "abstract": "The expressivity of a neural network $Φ$ describes the class of functions that a network can express. The term topological expressivity refers to a family of measures particularly suited to understand binary classification and is often formulated in terms of the Betti numbers of a decision boundary ...",
-      "venue": "arXiv",
-      "date": "2026-10-09",
-      "arxiv_id": "2610.13931v1",
-      "url": "https://arxiv.org/abs/2610.13931v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.13931v1.pdf",
-      "categories": [
-        "math.AT",
+        "cs.NI",
         "cs.LG"
       ],
       "type": "ml",
@@ -120,16 +103,67 @@
       "source": "arXiv"
     },
     {
-      "title": "Noise Space Learning for VLA Adaptation",
-      "authors": "Junjie Lu, Chuheng Zhang, Yucen Wang et al.",
-      "abstract": "Pretrained vision-language-action (VLA) models encode broad manipulation priors, yet adapting them to specific tasks requires balancing limited robot interaction, computational resources, and safety constraints. Noise space learning (NSL) adapts flow-matching-based VLAs by learning a context-conditi...",
+      "title": "MSC: Multi-Stage Caster-aware Control Framework with Uncertainty-Aware NMPC and RL-based Execution Layer",
+      "authors": "Jinho Park, Jeongtae Lee, Jeonghyeok Lim et al.",
+      "abstract": "Freely swiveling casters are widely adopted in industrial AMRs/SDVs for their mechanical simplicity and load capacity. However, caster misalignment during low-speed or high-curvature maneuvers induces strong contact nonlinearities, widening the planning-execution gap between commanded $(v, ω)$ and r...",
       "venue": "arXiv",
-      "date": "2026-10-09",
-      "arxiv_id": "2610.13943v1",
-      "url": "https://arxiv.org/abs/2610.13943v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.13943v1.pdf",
+      "date": "2026-10-12",
+      "arxiv_id": "2610.16199v1",
+      "url": "https://arxiv.org/abs/2610.16199v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.16199v1.pdf",
+      "categories": [
+        "cs.RO",
+        "cs.LG"
+      ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "One-Shot Learning for Double-Shot Latte Art: Adapting Cobot Pouring Skills with Dynamic Movement Primitives",
+      "authors": "Zain Khan, Victor Hernandez Moreno, Dinh Tung Le",
+      "abstract": "Latte art is a complex task requiring dexterity and precision, making it a challenging and commercially relevant task. A one-shot learning system is employed in which a single barista demonstration is segmented into five functionally distinct phases, each encoded as an independent Cartesian Dynamic ...",
+      "venue": "arXiv",
+      "date": "2026-10-12",
+      "arxiv_id": "2610.16179v1",
+      "url": "https://arxiv.org/abs/2610.16179v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.16179v1.pdf",
       "categories": [
         "cs.RO"
+      ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Structural Chain-of-Thought: Reasoning with Executable Computational Graphs",
+      "authors": "Petr Senatorov, Karim Vafin, Elena Tutubalina et al.",
+      "abstract": "Chain-of-thought prompting enables reasoning in large language models but produces explanations that are difficult to verify, expensive to generate, and not always faithful. We introduce a Structural Chain-of-Thought framework where models generate executable computational graphs instead of free-for...",
+      "venue": "arXiv",
+      "date": "2026-10-10",
+      "arxiv_id": "2610.15107v1",
+      "url": "https://arxiv.org/abs/2610.15107v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.15107v1.pdf",
+      "categories": [
+        "cs.AI"
+      ],
+      "type": "ai",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "TurnCost: Turns, Not Observations: Cache-Aware Loop Engineering for Coding Agents",
+      "authors": "Pramod Kumar, Raj Kumar Pandey",
+      "abstract": "AI coding agents operate in iterative loops: they modify code, run tools, inspect the results, and decide what to do next. We call the design of this process loop engineering, which includes context management, model selection, compaction, and termination. Existing efficiency work mainly compresses ...",
+      "venue": "arXiv",
+      "date": "2026-10-10",
+      "arxiv_id": "2610.15093v1",
+      "url": "https://arxiv.org/abs/2610.15093v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.15093v1.pdf",
+      "categories": [
+        "cs.SE",
+        "cs.AI",
+        "cs.ET"
       ],
       "type": "ml",
       "badge": "arxiv",
