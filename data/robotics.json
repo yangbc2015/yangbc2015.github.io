@@ -3,6 +3,18 @@
   "count": 200,
   "items": [
     {
+      "title": "[机器人“打进”中网，一场关于 具 身 智 能 商业化的竞赛正在升温",
+      "summary": "[机器人“打进”中网，一场关于 具 身 智 能 商业化的竞赛正在升温",
+      "url": "http://36kr.com/p/4022296471670663",
+      "date": "2026-10-14",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
       "title": "Figure AI发布新一代人形机器人Figure 02，具备更强的自主学习能力",
       "summary": "Figure AI发布新一代人形机器人Figure 02，搭载最新视觉-语言-动作(VLA)模型，在工厂和仓储场景实现更高水平的自主操作。",
       "url": "https://www.figure.ai",
@@ -153,15 +165,19 @@
       ]
     },
     {
-      "title": "[机器人“打进”中网，一场关于 具 身 智 能 商业化的竞赛正在升温",
-      "summary": "[机器人“打进”中网，一场关于 具 身 智 能 商业化的竞赛正在升温",
-      "url": "http://36kr.com/p/4022296471670663",
+      "title": "EmbodiedEvo: Self-improving Coding Agents for Physical Intelligence",
+      "summary": "Bringing general-purpose agents into the physical world calls for an executable representation of physical intelligence. Compared with vision-language-action (VLA) models, which map observations and language instructions directly to actions, code mak...",
+      "url": "https://arxiv.org/abs/2610.18867v1",
       "date": "2026-10-13",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.18867v1",
+      "authors": "Wenyi Li, Yizhe Chi et al.",
       "tags": [
-        "机器人"
+        "机器人学习",
+        "研究论文",
+        "arXiv"
       ]
     },
     {
@@ -169,6 +185,32 @@
       "summary": "[具身进实景，劳动最光荣！2026全球开发者先锋大会暨国际 具 身 智 能 技能大赛媒体通气会召开",
       "url": "http://36kr.com/p/4016591460339584",
       "date": "2026-10-13",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "从运动搭子到家务帮手——卧安机器人让具身智能走出实验室",
+      "summary": "从运动搭子到家务帮手——卧安机器人让具身智能走出实验室",
+      "url": "http://36kr.com/p/4022296471670663",
+      "date": "2026-10-12",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "具身智能业务营收占比5%",
+      "summary": "具身智能业务营收占比5%",
+      "url": "http://36kr.com/p/4021056223500163",
+      "date": "2026-10-12",
       "source": "36氪",
       "category": "具身智能",
       "type": "news",
@@ -255,32 +297,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "从运动搭子到家务帮手——卧安机器人让具身智能走出实验室",
-      "summary": "从运动搭子到家务帮手——卧安机器人让具身智能走出实验室",
-      "url": "http://36kr.com/p/4022296471670663",
-      "date": "2026-10-12",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "具身智能业务营收占比5%",
-      "summary": "具身智能业务营收占比5%",
-      "url": "http://36kr.com/p/4021056223500163",
-      "date": "2026-10-12",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
       ]
     },
     {
@@ -3051,22 +3067,6 @@
       "type": "paper",
       "arxiv_id": "2609.15455v1",
       "authors": "Yaodan Xu, Boyang Guo et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Learning to Exploit Passive Dynamics for Energy-Efficient Target Hopping of a Spring-Legged Quadcopter",
-      "summary": "Combining aerial thrust with spring-loaded hopping makes monopedal quadcopters promising for locomotion over complex terrain, but heuristic proportional-integral-derivative (PID) tuning limits coordination between active thrust and passive contact dy...",
-      "url": "https://arxiv.org/abs/2609.15447v1",
-      "date": "2026-09-14",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.15447v1",
-      "authors": "Ruigang Chen, Qi Zhang et al.",
       "tags": [
         "机器人学习",
         "研究论文",
