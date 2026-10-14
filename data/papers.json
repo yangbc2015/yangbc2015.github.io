@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-10-14",
-  "count": 10,
+  "count": 6,
   "items": [
     {
       "title": "Lüshi-1840: Building and Probing a Knowledge Cutoff for a Classical Chinese Language Model",
@@ -97,73 +97,6 @@
       "categories": [
         "cs.NI",
         "cs.LG"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "MSC: Multi-Stage Caster-aware Control Framework with Uncertainty-Aware NMPC and RL-based Execution Layer",
-      "authors": "Jinho Park, Jeongtae Lee, Jeonghyeok Lim et al.",
-      "abstract": "Freely swiveling casters are widely adopted in industrial AMRs/SDVs for their mechanical simplicity and load capacity. However, caster misalignment during low-speed or high-curvature maneuvers induces strong contact nonlinearities, widening the planning-execution gap between commanded $(v, ω)$ and r...",
-      "venue": "arXiv",
-      "date": "2026-10-12",
-      "arxiv_id": "2610.16199v1",
-      "url": "https://arxiv.org/abs/2610.16199v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.16199v1.pdf",
-      "categories": [
-        "cs.RO",
-        "cs.LG"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "One-Shot Learning for Double-Shot Latte Art: Adapting Cobot Pouring Skills with Dynamic Movement Primitives",
-      "authors": "Zain Khan, Victor Hernandez Moreno, Dinh Tung Le",
-      "abstract": "Latte art is a complex task requiring dexterity and precision, making it a challenging and commercially relevant task. A one-shot learning system is employed in which a single barista demonstration is segmented into five functionally distinct phases, each encoded as an independent Cartesian Dynamic ...",
-      "venue": "arXiv",
-      "date": "2026-10-12",
-      "arxiv_id": "2610.16179v1",
-      "url": "https://arxiv.org/abs/2610.16179v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.16179v1.pdf",
-      "categories": [
-        "cs.RO"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Structural Chain-of-Thought: Reasoning with Executable Computational Graphs",
-      "authors": "Petr Senatorov, Karim Vafin, Elena Tutubalina et al.",
-      "abstract": "Chain-of-thought prompting enables reasoning in large language models but produces explanations that are difficult to verify, expensive to generate, and not always faithful. We introduce a Structural Chain-of-Thought framework where models generate executable computational graphs instead of free-for...",
-      "venue": "arXiv",
-      "date": "2026-10-10",
-      "arxiv_id": "2610.15107v1",
-      "url": "https://arxiv.org/abs/2610.15107v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.15107v1.pdf",
-      "categories": [
-        "cs.AI"
-      ],
-      "type": "ai",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "TurnCost: Turns, Not Observations: Cache-Aware Loop Engineering for Coding Agents",
-      "authors": "Pramod Kumar, Raj Kumar Pandey",
-      "abstract": "AI coding agents operate in iterative loops: they modify code, run tools, inspect the results, and decide what to do next. We call the design of this process loop engineering, which includes context management, model selection, compaction, and termination. Existing efficiency work mainly compresses ...",
-      "venue": "arXiv",
-      "date": "2026-10-10",
-      "arxiv_id": "2610.15093v1",
-      "url": "https://arxiv.org/abs/2610.15093v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.15093v1.pdf",
-      "categories": [
-        "cs.SE",
-        "cs.AI",
-        "cs.ET"
       ],
       "type": "ml",
       "badge": "arxiv",
