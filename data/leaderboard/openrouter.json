@@ -73,7 +73,7 @@
       "organization": "stepfun",
       "price_prompt": "0.000001",
       "price_completion": "0.0000027",
-      "context_length": 1000000
+      "context_length": 1048576
     },
     {
       "rank": 10,

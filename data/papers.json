@@ -1,66 +1,72 @@
 {
   "last_updated": "2026-10-15",
-  "count": 9,
+  "count": 7,
   "items": [
     {
-      "title": "Euler: Towards Human-Centered Multi-Agent Mathematical Discovery",
-      "authors": "Qiuyu Chen, Qi Wang, Liang Xu et al.",
-      "abstract": "Mathematical research drives scientific discovery, and recent advances in AI for mathematics have shown that language-model agents can solve challenging problems and develop substantial mathematical proofs. Yet much of today's AI-for-mathematics work centers on obtaining a final answer. This emphasi...",
+      "title": "Modeling and Understanding Neural Weights of Humanoid Policies with Diffusion",
+      "authors": "Huixuan Cheng, Bike Zhang, Shankar Sastry et al.",
+      "abstract": "Recent advances in robot learning have driven rapid progress in humanoid control, enabling increasingly agile behaviors in the real world. However, humanoid control networks are typically obtained through conventional training procedures, while comparatively little attention has been given to direct...",
       "venue": "arXiv",
       "date": "2026-10-14",
-      "arxiv_id": "2610.19864v1",
-      "url": "https://arxiv.org/abs/2610.19864v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.19864v1.pdf",
+      "arxiv_id": "2610.20606v1",
+      "url": "https://arxiv.org/abs/2610.20606v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.20606v1.pdf",
       "categories": [
-        "cs.AI"
+        "cs.RO",
+        "cs.AI",
+        "cs.LG"
       ],
-      "type": "ai",
+      "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Lost in the Fallback: How Reliably Do Typed Decision Models Use Fallback Options?",
-      "authors": "Yuanbo Xie, Mingli Zhu, Tianyun Liu et al.",
-      "abstract": "Typed decision models (TDMs) are increasingly used in applications such as request routing and model selection, making reliable decisions critical to system performance. Fallback options accommodate categories outside regular choices, enabling deferral to human experts or more capable models. While ...",
+      "title": "Hierarchical Residual Policy Learning for Real-World Mobile Manipulation with Sparse Human Guidance",
+      "authors": "Zhefei Gong, Hefeifei Jiang, Zehao Wang et al.",
+      "abstract": "Mobile Manipulation (MoMa) is a cornerstone of autonomous robotic systems, yet real-world fine-tuning remains a formidable challenge because of high-dimensional action spaces and intricate coupling between heterogeneous modules. In this paper, we propose HiRe-MoMa (Hierarchical Residual Mobile Manip...",
       "venue": "arXiv",
       "date": "2026-10-14",
-      "arxiv_id": "2610.19856v1",
-      "url": "https://arxiv.org/abs/2610.19856v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.19856v1.pdf",
+      "arxiv_id": "2610.20607v1",
+      "url": "https://arxiv.org/abs/2610.20607v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.20607v1.pdf",
       "categories": [
-        "cs.CR",
-        "cs.AI"
+        "cs.RO",
+        "cs.AI",
+        "cs.LG"
       ],
-      "type": "ai",
+      "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "OpenTWBench (Open Taiwan Benchmark): Taiwan-Domain Knowledge Evaluation for Large Language Models, and How the Measurement Apparatus Shapes the Score",
-      "authors": "Liang-Hsun Huang, Min-Yi Chen, Chao-Chun Chuang et al.",
-      "abstract": "We present OpenTWBench, an open evaluation suite for Taiwan-domain knowledge in large language models, built around two benchmarks. tw-exam-bench contains 255,854 four-option questions across 148 academic subjects, from fifteen years of Taiwan's national examinations published as open data by the Mi...",
+      "title": "Latent Compaction with Test-Time Training",
+      "authors": "Yingfa Chen, Xingyu Shen, Chaojun Xiao et al.",
+      "abstract": "Long contexts enlarge key--value (KV) caches, increasing memory use and attention costs during generation. Compressing these caches must preserve information for unseen questions. We introduce **Latent Compaction**, which learns a compact document-specific cache through test-time training. We initia...",
       "venue": "arXiv",
       "date": "2026-10-14",
-      "arxiv_id": "2610.19848v1",
-      "url": "https://arxiv.org/abs/2610.19848v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.19848v1.pdf",
+      "arxiv_id": "2610.20582v1",
+      "url": "https://arxiv.org/abs/2610.20582v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.20582v1.pdf",
       "categories": [
-        "cs.CL"
+        "cs.CL",
+        "cs.LG"
       ],
-      "type": "benchmark",
+      "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "EGCForest: Structured Agent Memory Organization for Enterprise Group Chats",
-      "authors": "Lingxi Cui, Jinhao Ruan, Wenqing Wei et al.",
-      "abstract": "Enterprise group chats record project progress, decisions, task ownership, and other organizational information valuable to enterprise agents. Reliable retrieval is challenging because evidence spans interleaved threads, channels, and time, with meaning and authority conditioned on the speaker. Neit...",
+      "title": "One Task, Many Interfaces: Simple Cross-Interface Consistency Training Improves LLM Agent Robustness",
+      "authors": "Artin Tajdini, Manpreet Kaur, Peng Qi",
+      "abstract": "Post-training binds the competence of an LLM agent to the interface it was trained on. Semantics-preserving perturbations of that interface, such as renaming an action or changing the notation, leave the underlying task unchanged yet make the agent worse at it. Scoring each sample independently mean...",
       "venue": "arXiv",
       "date": "2026-10-14",
-      "arxiv_id": "2610.19836v1",
-      "url": "https://arxiv.org/abs/2610.19836v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.19836v1.pdf",
+      "arxiv_id": "2610.20576v1",
+      "url": "https://arxiv.org/abs/2610.20576v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.20576v1.pdf",
       "categories": [
+        "cs.LG",
+        "cs.AI",
         "cs.CL"
       ],
       "type": "nlp",
@@ -96,42 +102,6 @@
         "cs.CV"
       ],
       "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Modeling and Understanding Neural Weights of Humanoid Policies with Diffusion",
-      "authors": "Huixuan Cheng, Bike Zhang, Shankar Sastry et al.",
-      "abstract": "Recent advances in robot learning have driven rapid progress in humanoid control, enabling increasingly agile behaviors in the real world. However, humanoid control networks are typically obtained through conventional training procedures, while comparatively little attention has been given to direct...",
-      "venue": "arXiv",
-      "date": "2026-10-14",
-      "arxiv_id": "2610.20606v1",
-      "url": "https://arxiv.org/abs/2610.20606v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.20606v1.pdf",
-      "categories": [
-        "cs.RO",
-        "cs.AI",
-        "cs.LG"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Hierarchical Residual Policy Learning for Real-World Mobile Manipulation with Sparse Human Guidance",
-      "authors": "Zhefei Gong, Hefeifei Jiang, Zehao Wang et al.",
-      "abstract": "Mobile Manipulation (MoMa) is a cornerstone of autonomous robotic systems, yet real-world fine-tuning remains a formidable challenge because of high-dimensional action spaces and intricate coupling between heterogeneous modules. In this paper, we propose HiRe-MoMa (Hierarchical Residual Mobile Manip...",
-      "venue": "arXiv",
-      "date": "2026-10-14",
-      "arxiv_id": "2610.20607v1",
-      "url": "https://arxiv.org/abs/2610.20607v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.20607v1.pdf",
-      "categories": [
-        "cs.RO",
-        "cs.AI",
-        "cs.LG"
-      ],
-      "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     },
