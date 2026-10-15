@@ -1,17 +1,97 @@
 {
-  "last_updated": "2026-10-14",
+  "last_updated": "2026-10-15",
   "count": 200,
   "items": [
     {
       "title": "[机器人“打进”中网，一场关于 具 身 智 能 商业化的竞赛正在升温",
       "summary": "[机器人“打进”中网，一场关于 具 身 智 能 商业化的竞赛正在升温",
       "url": "http://36kr.com/p/4022296471670663",
-      "date": "2026-10-14",
+      "date": "2026-10-15",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
       "tags": [
         "机器人"
+      ]
+    },
+    {
+      "title": "SafeDriveVLA: Navigation-Conditioned World Model Dreaming for Conflict-Aware End-to-End Autonomous Driving",
+      "summary": "Vision-Language-Action (VLA) models are gaining attention in autonomous driving, inheriting commonsense priors from large language models (LLMs) and widening the navigation interface from a fixed command set to free-form natural-language instructions...",
+      "url": "https://arxiv.org/abs/2610.20609v1",
+      "date": "2026-10-14",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.20609v1",
+      "authors": "Shaoyuan Xie, Zihan Zhang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Modeling and Understanding Neural Weights of Humanoid Policies with Diffusion",
+      "summary": "Recent advances in robot learning have driven rapid progress in humanoid control, enabling increasingly agile behaviors in the real world. However, humanoid control networks are typically obtained through conventional training procedures, while compa...",
+      "url": "https://arxiv.org/abs/2610.20606v1",
+      "date": "2026-10-14",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.20606v1",
+      "authors": "Huixuan Cheng, Bike Zhang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Hierarchical Residual Policy Learning for Real-World Mobile Manipulation with Sparse Human Guidance",
+      "summary": "Mobile Manipulation (MoMa) is a cornerstone of autonomous robotic systems, yet real-world fine-tuning remains a formidable challenge because of high-dimensional action spaces and intricate coupling between heterogeneous modules. In this paper, we pro...",
+      "url": "https://arxiv.org/abs/2610.20607v1",
+      "date": "2026-10-14",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.20607v1",
+      "authors": "Zhefei Gong, Hefeifei Jiang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "CoWear: Towards Collaborative Wearable Inertial Localization with Multiple Smart Devices",
+      "summary": "Consumer smart devices observe the same human motion from different body locations, yet existing inertial-localization benchmarks rarely provide synchronized heterogeneous wearables with device-specific motion ground truth. We present CoWear, a datas...",
+      "url": "https://arxiv.org/abs/2610.20596v1",
+      "date": "2026-10-14",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.20596v1",
+      "authors": "Zhuoyuan She, Zhanpeng Zhang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "PingpongDuo: Agile Humanoid Table Tennis Doubles with Safe Team Coordination",
+      "summary": "Unlike singles, humanoid table tennis doubles requires teammates to strike in strict alternation while sharing a confined workspace. Rapid repositioning can compromise striking accuracy, while uncoordinated teammate movements introduce collision risk...",
+      "url": "https://arxiv.org/abs/2610.20579v1",
+      "date": "2026-10-14",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.20579v1",
+      "authors": "Haoran Jiang, Yichao Zhong et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
       ]
     },
     {
@@ -98,6 +178,45 @@
         "机器人",
         "人形机器人",
         "波士顿动力"
+      ]
+    },
+    {
+      "title": "纪元灵脑解决智能能力如何学习与复用的问题，纪灵-S1拓展面向工业作业的产品形态，众机协同演示则展示不同机器人如何衔接完成连续任务。",
+      "summary": "纪元灵脑解决智能能力如何学习与复用的问题，纪灵-S1拓展面向工业作业的产品形态，众机协同演示则展示不同机器人如何衔接完成连续任务。",
+      "url": "http://36kr.com/p/4023703134965892",
+      "date": "2026-10-13",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
+      "title": "2026年10月上海将举办国际具身智能技能大赛检阅赛，正在报名",
+      "summary": "2026年10月上海将举办国际具身智能技能大赛检阅赛，正在报名",
+      "url": "http://36kr.com/p/4023679023566725",
+      "date": "2026-10-13",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "GPT-7或打穿具身智能，人形机器人商业化分场景落地",
+      "summary": "GPT-7或打穿具身智能，人形机器人商业化分场景落地",
+      "url": "http://36kr.com/p/4023570140829573",
+      "date": "2026-10-13",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能",
+        "人形机器人"
       ]
     },
     {
@@ -2939,134 +3058,6 @@
       "type": "paper",
       "arxiv_id": "2609.17099v1",
       "authors": "Yifan Xie, Hekun Tian et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Learning Options for Compositional Motor Control with Adapter Banks",
-      "summary": "Learning flexible motor primitives is a hallmark of skilled motor control. Recent neuroscience theory proposes that motor primitives may be implemented as low-rank perturbations of a shared recurrent network, but leaves open how such a system is lear...",
-      "url": "https://arxiv.org/abs/2609.17042v1",
-      "date": "2026-09-15",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.17042v1",
-      "authors": "Sreejan Kumar, Marcelo Mattar et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "ResSafe: Learning Safety Filtering with Residual Reinforcement Learning for Humanoids",
-      "summary": "Safe control of humanoid robots remains challenging due to their high-dimensional dynamics, contact-rich interactions, and sensitivity to disturbances. Although reinforcement learning has enabled effective locomotion and motion tracking, learned poli...",
-      "url": "https://arxiv.org/abs/2609.15988v1",
-      "date": "2026-09-14",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.15988v1",
-      "authors": "Gechen Qu, Tong Zhang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "MessyMem: Learning-from-Doing Memory for Mobile Manipulation",
-      "summary": "Mobile manipulators deployed across many rooms and visits should improve with experience: after discovering that a cabinet is locked or finding an object in a drawer, the robot should reuse that knowledge rather than start each task from scratch. Yet...",
-      "url": "https://arxiv.org/abs/2609.15976v1",
-      "date": "2026-09-14",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.15976v1",
-      "authors": "Anuva Banwasi, William Muckelroy et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Beyond Single-Axis Testing: Paired Evaluation of Compound Robustness in Vision-Language-Action Policies",
-      "summary": "Vision-language-action policies are typically evaluated one perturbation at a time, providing a useful diagnosis of their sensitivity to individual distribution shifts. Real-world deployment, however, may involve several shifts simultaneously, and it...",
-      "url": "https://arxiv.org/abs/2609.15940v1",
-      "date": "2026-09-14",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.15940v1",
-      "authors": "Hiroki Sawada, Shunichi Kasahara",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Touch2Trace: Tactile-Driven Imitation Learning for Dexterous Cable Tracing",
-      "summary": "Dexterous manipulation of deformable objects demands continuous fingertip-level regulation of pressure, friction, and incipient slip. We study one of the most challenging cases: dexterous cable tracing, feeding a cable through the hand with repeated ...",
-      "url": "https://arxiv.org/abs/2609.15921v1",
-      "date": "2026-09-14",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.15921v1",
-      "authors": "Matteo Grimaldi, David Klee et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "SlipSense: Multimodal Tactile Learning for Low-Latency and Generalized Slip Detection",
-      "summary": "Slip detection is fundamental to dexterous manipulation, yet existing systems often lack precise characterization of detection latency and cross-platform generalization. We present SlipSense, a multimodal tactile slip-detection framework built on Tac...",
-      "url": "https://arxiv.org/abs/2609.15910v1",
-      "date": "2026-09-14",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.15910v1",
-      "authors": "Tong Jian, Aditya Thurvas Senthil Kumar et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "P-POSEMEM: Projective Semantic Memory for Consistent Language Grounding under Pose-Graph Rewrites",
-      "summary": "A robot following language instructions needs its semantic memory to keep naming the same physical object while the SLAM pose graph underneath is optimized, loop-closed and compressed. Maps committing each detection to a world coordinate cannot: a cl...",
-      "url": "https://arxiv.org/abs/2609.15475v1",
-      "date": "2026-09-14",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.15475v1",
-      "authors": "Ha Sier, Ali Salmasi et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "InterSocialBench: Benchmarking Human and LLM Preferences for Companion-Robot Social Behavior",
-      "summary": "Companion robots face everyday situations in which several feasible behaviors may be appropriate, yet different people prefer different responses. We introduce InterSocialBench, a benchmark of 210 domestic scenarios and 18 high-level behaviors, pairi...",
-      "url": "https://arxiv.org/abs/2609.15455v1",
-      "date": "2026-09-14",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.15455v1",
-      "authors": "Yaodan Xu, Boyang Guo et al.",
       "tags": [
         "机器人学习",
         "研究论文",

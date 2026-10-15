@@ -1,19 +1,66 @@
 {
-  "last_updated": "2026-10-14",
-  "count": 5,
+  "last_updated": "2026-10-15",
+  "count": 9,
   "items": [
     {
-      "title": "ChunkAct: Action Chunking for Agentic Robotics",
-      "authors": "Bingxin Xu, Wenrui Bao, Xinxin Liu et al.",
-      "abstract": "Agentic robotics places a large language model (LLM) agent in the robot control loop, where it composes perception, motion, and vision-language-action (VLA) tools under the guidance of a memory and thereby generalizes to new tasks without retraining. This generality comes at a steep price in efficie...",
+      "title": "Euler: Towards Human-Centered Multi-Agent Mathematical Discovery",
+      "authors": "Qiuyu Chen, Qi Wang, Liang Xu et al.",
+      "abstract": "Mathematical research drives scientific discovery, and recent advances in AI for mathematics have shown that language-model agents can solve challenging problems and develop substantial mathematical proofs. Yet much of today's AI-for-mathematics work centers on obtaining a final answer. This emphasi...",
       "venue": "arXiv",
-      "date": "2026-10-13",
-      "arxiv_id": "2610.18874v1",
-      "url": "https://arxiv.org/abs/2610.18874v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.18874v1.pdf",
+      "date": "2026-10-14",
+      "arxiv_id": "2610.19864v1",
+      "url": "https://arxiv.org/abs/2610.19864v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.19864v1.pdf",
       "categories": [
-        "cs.RO",
-        "cs.AI",
+        "cs.AI"
+      ],
+      "type": "ai",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Lost in the Fallback: How Reliably Do Typed Decision Models Use Fallback Options?",
+      "authors": "Yuanbo Xie, Mingli Zhu, Tianyun Liu et al.",
+      "abstract": "Typed decision models (TDMs) are increasingly used in applications such as request routing and model selection, making reliable decisions critical to system performance. Fallback options accommodate categories outside regular choices, enabling deferral to human experts or more capable models. While ...",
+      "venue": "arXiv",
+      "date": "2026-10-14",
+      "arxiv_id": "2610.19856v1",
+      "url": "https://arxiv.org/abs/2610.19856v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.19856v1.pdf",
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "type": "ai",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "OpenTWBench (Open Taiwan Benchmark): Taiwan-Domain Knowledge Evaluation for Large Language Models, and How the Measurement Apparatus Shapes the Score",
+      "authors": "Liang-Hsun Huang, Min-Yi Chen, Chao-Chun Chuang et al.",
+      "abstract": "We present OpenTWBench, an open evaluation suite for Taiwan-domain knowledge in large language models, built around two benchmarks. tw-exam-bench contains 255,854 four-option questions across 148 academic subjects, from fifteen years of Taiwan's national examinations published as open data by the Mi...",
+      "venue": "arXiv",
+      "date": "2026-10-14",
+      "arxiv_id": "2610.19848v1",
+      "url": "https://arxiv.org/abs/2610.19848v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.19848v1.pdf",
+      "categories": [
+        "cs.CL"
+      ],
+      "type": "benchmark",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "EGCForest: Structured Agent Memory Organization for Enterprise Group Chats",
+      "authors": "Lingxi Cui, Jinhao Ruan, Wenqing Wei et al.",
+      "abstract": "Enterprise group chats record project progress, decisions, task ownership, and other organizational information valuable to enterprise agents. Reliable retrieval is challenging because evidence spans interleaved threads, channels, and time, with meaning and authority conditioned on the speaker. Neit...",
+      "venue": "arXiv",
+      "date": "2026-10-14",
+      "arxiv_id": "2610.19836v1",
+      "url": "https://arxiv.org/abs/2610.19836v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.19836v1.pdf",
+      "categories": [
         "cs.CL"
       ],
       "type": "nlp",
@@ -21,52 +68,15 @@
       "source": "arXiv"
     },
     {
-      "title": "What Matters in Quality-Aware VLA Pretraining: A Benchmark and Empirical Study",
-      "authors": "Mingxuan Yan, Litian Gong, Dihong Huang et al.",
-      "abstract": "How should demonstration quality be used during vision-language-action (VLA) pretraining to improve performance after target-task fine-tuning? We compare weighting, filtering, and conditioning across reward definitions and label granularities using 5,000 naturally suboptimal human demonstrations and...",
+      "title": "Can Learning to Answer Spatial Questions Improve Novel-View Generation?",
+      "authors": "Jahyeok Koo, Hyeonseo Yu, Seungho Jang et al.",
+      "abstract": "Generating novel views from limited observations requires preserving both the appearance and spatial structure of a scene. Although recent approaches exploit fine-grained geometric cues, they do not explicitly model high-level semantic and spatial properties such as object identity, attributes, and ...",
       "venue": "arXiv",
-      "date": "2026-10-13",
-      "arxiv_id": "2610.18869v1",
-      "url": "https://arxiv.org/abs/2610.18869v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.18869v1.pdf",
+      "date": "2026-10-14",
+      "arxiv_id": "2610.20610v1",
+      "url": "https://arxiv.org/abs/2610.20610v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.20610v1.pdf",
       "categories": [
-        "cs.RO",
-        "cs.AI",
-        "cs.LG"
-      ],
-      "type": "benchmark",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Tev: Scaling Long-Horizon Agentic Environments with Dense Progress Rewards",
-      "authors": "Wenbo Hu, Shraman Pramanick, Krishna Kumar Singh et al.",
-      "abstract": "Long-horizon agents have drawn growing attention for their ability to work autonomously -- from hours to days -- on economically valuable tasks, a capability essential to automated discovery and recursive self-improvement (RSI). Yet open-source models still struggle on long-horizon tasks, largely fo...",
-      "venue": "arXiv",
-      "date": "2026-10-13",
-      "arxiv_id": "2610.18868v1",
-      "url": "https://arxiv.org/abs/2610.18868v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.18868v1.pdf",
-      "categories": [
-        "cs.CL",
-        "cs.AI",
-        "cs.CV"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "LoopWAM: Closed-Loop Generalist Policy Improvement from Deployment Rollouts",
-      "authors": "Wenxuan Guo, Yingping Liang, Zhaoguo Wang et al.",
-      "abstract": "Scaling expert demonstrations alone does not enable generalist robot policies to improve from deployment. Real-world rollouts contain successes, suboptimal behavior, and failures: imitating every recorded action can reinforce poor behavior, while filtering out failures discards evidence of physical ...",
-      "venue": "arXiv",
-      "date": "2026-10-13",
-      "arxiv_id": "2610.18873v1",
-      "url": "https://arxiv.org/abs/2610.18873v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.18873v1.pdf",
-      "categories": [
-        "cs.RO",
         "cs.CV"
       ],
       "type": "vision",
@@ -74,20 +84,70 @@
       "source": "arXiv"
     },
     {
-      "title": "Cepheid: Decoupling Scale from Structure for Cross-Family Motion Completion",
-      "authors": "Chih-Hai Su, Tsung-Wei Ke, Yu-Lun Liu",
-      "abstract": "Sparse-to-dense motion completion recovers dense mesh motion from sparse vertex displacements. Residual priors trained on one geometry family frequently fail to beat parameter-free harmonic extension off-family. Moreover, cross-family training meets a scaling barrier: residual amplitude varies by mo...",
+      "title": "Representation Conditioning for Generation",
+      "authors": "Saeed Razavi, Xingjian Leng, Liang Zheng",
+      "abstract": "Representation-alignment methods effectively accelerate the diffusion transformer training. REPA, for example, uses a pretrained vision encoder to supervise an intermediate layer through an MLP projection head which is discarded after training. It aims to import semantics from the vision encoder to ...",
       "venue": "arXiv",
-      "date": "2026-10-13",
-      "arxiv_id": "2610.18871v1",
-      "url": "https://arxiv.org/abs/2610.18871v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.18871v1.pdf",
+      "date": "2026-10-14",
+      "arxiv_id": "2610.20608v1",
+      "url": "https://arxiv.org/abs/2610.20608v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.20608v1.pdf",
       "categories": [
-        "cs.CV",
-        "cs.GR",
-        "cs.LG"
+        "cs.CV"
       ],
       "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Modeling and Understanding Neural Weights of Humanoid Policies with Diffusion",
+      "authors": "Huixuan Cheng, Bike Zhang, Shankar Sastry et al.",
+      "abstract": "Recent advances in robot learning have driven rapid progress in humanoid control, enabling increasingly agile behaviors in the real world. However, humanoid control networks are typically obtained through conventional training procedures, while comparatively little attention has been given to direct...",
+      "venue": "arXiv",
+      "date": "2026-10-14",
+      "arxiv_id": "2610.20606v1",
+      "url": "https://arxiv.org/abs/2610.20606v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.20606v1.pdf",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Hierarchical Residual Policy Learning for Real-World Mobile Manipulation with Sparse Human Guidance",
+      "authors": "Zhefei Gong, Hefeifei Jiang, Zehao Wang et al.",
+      "abstract": "Mobile Manipulation (MoMa) is a cornerstone of autonomous robotic systems, yet real-world fine-tuning remains a formidable challenge because of high-dimensional action spaces and intricate coupling between heterogeneous modules. In this paper, we propose HiRe-MoMa (Hierarchical Residual Mobile Manip...",
+      "venue": "arXiv",
+      "date": "2026-10-14",
+      "arxiv_id": "2610.20607v1",
+      "url": "https://arxiv.org/abs/2610.20607v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.20607v1.pdf",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "SafeDriveVLA: Navigation-Conditioned World Model Dreaming for Conflict-Aware End-to-End Autonomous Driving",
+      "authors": "Shaoyuan Xie, Zihan Zhang, Jingxuan Wang et al.",
+      "abstract": "Vision-Language-Action (VLA) models are gaining attention in autonomous driving, inheriting commonsense priors from large language models (LLMs) and widening the navigation interface from a fixed command set to free-form natural-language instructions. However, this open-ended interface exposes a new...",
+      "venue": "arXiv",
+      "date": "2026-10-14",
+      "arxiv_id": "2610.20609v1",
+      "url": "https://arxiv.org/abs/2610.20609v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.20609v1.pdf",
+      "categories": [
+        "cs.RO"
+      ],
+      "type": "ai",
       "badge": "arxiv",
       "source": "arXiv"
     }
