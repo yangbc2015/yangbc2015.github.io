@@ -1,6 +1,6 @@
 ---
 title: '*   [Startups](http://techcrunch.com/category/startups/)'
-date: '2026-10-15'
+date: '2026-10-16'
 type: industry
 source: TechCrunch
 link: https://techcrunch.com/category/artificial-intelligence/

@@ -1,75 +1,37 @@
 {
-  "last_updated": "2026-10-15",
-  "count": 7,
+  "last_updated": "2026-10-16",
+  "count": 6,
   "items": [
     {
-      "title": "Modeling and Understanding Neural Weights of Humanoid Policies with Diffusion",
-      "authors": "Huixuan Cheng, Bike Zhang, Shankar Sastry et al.",
-      "abstract": "Recent advances in robot learning have driven rapid progress in humanoid control, enabling increasingly agile behaviors in the real world. However, humanoid control networks are typically obtained through conventional training procedures, while comparatively little attention has been given to direct...",
+      "title": "Qwen-Audio-Jev: A Unified Interface for Audio Decisions",
+      "authors": "Ying Fang, Zhifu Gao, Qing Gu et al.",
+      "abstract": "Large audio language models (LALMs) have made substantial progress in audio understanding. However, in high-throughput applications requiring frequent selection, judgment, and scoring, autoregressive text generation introduces additional computational overhead and response latency. To address this l...",
       "venue": "arXiv",
-      "date": "2026-10-14",
-      "arxiv_id": "2610.20606v1",
-      "url": "https://arxiv.org/abs/2610.20606v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.20606v1.pdf",
+      "date": "2026-10-15",
+      "arxiv_id": "2610.21614v1",
+      "url": "https://arxiv.org/abs/2610.21614v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.21614v1.pdf",
       "categories": [
-        "cs.RO",
-        "cs.AI",
-        "cs.LG"
+        "cs.SD",
+        "cs.AI"
+      ],
+      "type": "ai",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Learning Intrinsic Dynamics in Latent World Models",
+      "authors": "Jiamin Shi, Yuanhong Zhang, Zhiyang Liu et al.",
+      "abstract": "Learning intrinsic dynamics---the relationship between actions and their consequences---is essential for world models. However, visual variations unrelated to the underlying control process can obscure this relationship in learned representations. We investigate the connection between action predict...",
+      "venue": "arXiv",
+      "date": "2026-10-15",
+      "arxiv_id": "2610.21612v1",
+      "url": "https://arxiv.org/abs/2610.21612v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.21612v1.pdf",
+      "categories": [
+        "cs.AI"
       ],
       "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Hierarchical Residual Policy Learning for Real-World Mobile Manipulation with Sparse Human Guidance",
-      "authors": "Zhefei Gong, Hefeifei Jiang, Zehao Wang et al.",
-      "abstract": "Mobile Manipulation (MoMa) is a cornerstone of autonomous robotic systems, yet real-world fine-tuning remains a formidable challenge because of high-dimensional action spaces and intricate coupling between heterogeneous modules. In this paper, we propose HiRe-MoMa (Hierarchical Residual Mobile Manip...",
-      "venue": "arXiv",
-      "date": "2026-10-14",
-      "arxiv_id": "2610.20607v1",
-      "url": "https://arxiv.org/abs/2610.20607v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.20607v1.pdf",
-      "categories": [
-        "cs.RO",
-        "cs.AI",
-        "cs.LG"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Latent Compaction with Test-Time Training",
-      "authors": "Yingfa Chen, Xingyu Shen, Chaojun Xiao et al.",
-      "abstract": "Long contexts enlarge key--value (KV) caches, increasing memory use and attention costs during generation. Compressing these caches must preserve information for unseen questions. We introduce **Latent Compaction**, which learns a compact document-specific cache through test-time training. We initia...",
-      "venue": "arXiv",
-      "date": "2026-10-14",
-      "arxiv_id": "2610.20582v1",
-      "url": "https://arxiv.org/abs/2610.20582v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.20582v1.pdf",
-      "categories": [
-        "cs.CL",
-        "cs.LG"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "One Task, Many Interfaces: Simple Cross-Interface Consistency Training Improves LLM Agent Robustness",
-      "authors": "Artin Tajdini, Manpreet Kaur, Peng Qi",
-      "abstract": "Post-training binds the competence of an LLM agent to the interface it was trained on. Semantics-preserving perturbations of that interface, such as renaming an action or changing the notation, leave the underlying task unchanged yet make the agent worse at it. Scoring each sample independently mean...",
-      "venue": "arXiv",
-      "date": "2026-10-14",
-      "arxiv_id": "2610.20576v1",
-      "url": "https://arxiv.org/abs/2610.20576v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.20576v1.pdf",
-      "categories": [
-        "cs.LG",
-        "cs.AI",
-        "cs.CL"
-      ],
-      "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
@@ -106,18 +68,38 @@
       "source": "arXiv"
     },
     {
-      "title": "SafeDriveVLA: Navigation-Conditioned World Model Dreaming for Conflict-Aware End-to-End Autonomous Driving",
-      "authors": "Shaoyuan Xie, Zihan Zhang, Jingxuan Wang et al.",
-      "abstract": "Vision-Language-Action (VLA) models are gaining attention in autonomous driving, inheriting commonsense priors from large language models (LLMs) and widening the navigation interface from a fixed command set to free-form natural-language instructions. However, this open-ended interface exposes a new...",
+      "title": "Modeling and Understanding Neural Weights of Humanoid Policies with Diffusion",
+      "authors": "Huixuan Cheng, Bike Zhang, Shankar Sastry et al.",
+      "abstract": "Recent advances in robot learning have driven rapid progress in humanoid control, enabling increasingly agile behaviors in the real world. However, humanoid control networks are typically obtained through conventional training procedures, while comparatively little attention has been given to direct...",
       "venue": "arXiv",
       "date": "2026-10-14",
-      "arxiv_id": "2610.20609v1",
-      "url": "https://arxiv.org/abs/2610.20609v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.20609v1.pdf",
+      "arxiv_id": "2610.20606v1",
+      "url": "https://arxiv.org/abs/2610.20606v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.20606v1.pdf",
       "categories": [
-        "cs.RO"
+        "cs.RO",
+        "cs.AI",
+        "cs.LG"
       ],
-      "type": "ai",
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Hierarchical Residual Policy Learning for Real-World Mobile Manipulation with Sparse Human Guidance",
+      "authors": "Zhefei Gong, Hefeifei Jiang, Zehao Wang et al.",
+      "abstract": "Mobile Manipulation (MoMa) is a cornerstone of autonomous robotic systems, yet real-world fine-tuning remains a formidable challenge because of high-dimensional action spaces and intricate coupling between heterogeneous modules. In this paper, we propose HiRe-MoMa (Hierarchical Residual Mobile Manip...",
+      "venue": "arXiv",
+      "date": "2026-10-14",
+      "arxiv_id": "2610.20607v1",
+      "url": "https://arxiv.org/abs/2610.20607v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.20607v1.pdf",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     }

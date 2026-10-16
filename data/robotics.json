@@ -1,7 +1,87 @@
 {
-  "last_updated": "2026-10-15",
+  "last_updated": "2026-10-16",
   "count": 200,
   "items": [
+    {
+      "title": "A Flow-Theoretic Multimodal Control Framework Fusing Mental and Physical Engagement for Upper-Limb Rehabilitation",
+      "summary": "While Assist-as-Needed (AAN) control aims to maximize user participation in robot-assisted training, existing methods relying solely on physical metrics cannot distinguish muscular inability from mental disengagement, leading to suboptimal interventi...",
+      "url": "https://arxiv.org/abs/2610.21590v1",
+      "date": "2026-10-15",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.21590v1",
+      "authors": "Jun Leng, Pengcheng Li et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "AVALON: Zero-Shot Indoor Navigation with Human-Seeded Topological Memory",
+      "summary": "Indoor service robots often enter unmapped buildings whose layouts and task constraints are already familiar to users. We address this human-familiar, robot-unseen setting with AVALON, a topological navigation framework organized around human-seeded ...",
+      "url": "https://arxiv.org/abs/2610.21586v1",
+      "date": "2026-10-15",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.21586v1",
+      "authors": "Jing Xia, Changyan Li et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Attribution-Gated Joint Estimation of Intention and Capability for Assist-as-Needed Upper-Limb Robots",
+      "summary": "Assist-as-needed (AAN) control must distinguish between changes in intended motion and changes in effective voluntary torque capability, even though both can produce similar kinematic and interaction responses. A dual-measurand multimodal MHE-MPC arc...",
+      "url": "https://arxiv.org/abs/2610.21534v1",
+      "date": "2026-10-15",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.21534v1",
+      "authors": "Pengcheng Li, Shuxiang Guo et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Multi-Teacher On-Policy Distillation for Flow-Based Vision-Language-Action Models",
+      "summary": "Specialized vision-language-action (VLA) policies acquire strong domain-specific skills, yet consolidating these skills into one shared policy remains challenging. On-policy distillation (OPD) transfers teacher knowledge on inputs induced by the stud...",
+      "url": "https://arxiv.org/abs/2610.21522v1",
+      "date": "2026-10-15",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.21522v1",
+      "authors": "Lichao Ni, Yuhan Liu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "TRACE: Typed Reference-Aware Conversational Editing for Humanoid Motion Diffusion",
+      "summary": "Language-conditioned humanoid motion generation enables users to create and refine robot movements through natural language. The central challenge is to connect an underspecified request to concrete motion structure that can subsequently be revised r...",
+      "url": "https://arxiv.org/abs/2610.21515v1",
+      "date": "2026-10-15",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.21515v1",
+      "authors": "Zejian Kang, Yifu Luo et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
     {
       "title": "[机器人“打进”中网，一场关于 具 身 智 能 商业化的竞赛正在升温",
       "summary": "[机器人“打进”中网，一场关于 具 身 智 能 商业化的竞赛正在升温",
@@ -12,6 +92,32 @@
       "type": "news",
       "tags": [
         "机器人"
+      ]
+    },
+    {
+      "title": "中国具身数据产业链初步形成，五大板块藏机遇",
+      "summary": "中国具身数据产业链初步形成，五大板块藏机遇",
+      "url": "http://36kr.com/p/4025465633953671",
+      "date": "2026-10-14",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "星忆智能与元客视界达成战略合作，共建具身智能数据闭环",
+      "summary": "星忆智能与元客视界达成战略合作，共建具身智能数据闭环",
+      "url": "http://36kr.com/p/4025616896118664",
+      "date": "2026-10-14",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
       ]
     },
     {
@@ -2946,118 +3052,6 @@
       "type": "paper",
       "arxiv_id": "2609.17499v1",
       "authors": "Vicky Feliren, A. Taufiq Asyhari et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Dissecting Motion-Prior Regularization for Data-Scarce Robotic Insertion",
-      "summary": "This study asks whether training-time motion-prior regularization can improve insertion success when a diffusion policy is learned from only 15 demonstrations. Minimum jerk discourages abrupt changes in predicted translational acceleration; speed-cur...",
-      "url": "https://arxiv.org/abs/2609.17484v1",
-      "date": "2026-09-15",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.17484v1",
-      "authors": "Ning Hu, Shuai Li et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Gaussian Processes for Modelling Spatial Fields with Robot Swarms",
-      "summary": "Robot swarms, by virtue of their decentralised architecture, are a natural tool for scalable, robust modelling of spatial fields, such as water temperature, wind velocity, or terrain elevation. However, existing methods rely on external positioning s...",
-      "url": "https://arxiv.org/abs/2609.17463v1",
-      "date": "2026-09-15",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.17463v1",
-      "authors": "Guillermo Legarda Herranz, Gianpiero Francesca et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Hamilton-Jacobi Reachability for Hybrid Systems: Unified Goal-Driven Control with Safety Guarantees",
-      "summary": "Hybrid dynamical systems provide a powerful modeling framework for robotic systems, particularly in contact-rich environments. However, ensuring safety and performance in such systems remains challenging due to the intricate coupling between continuo...",
-      "url": "https://arxiv.org/abs/2609.17430v1",
-      "date": "2026-09-15",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.17430v1",
-      "authors": "Javier Borquez, Shuang Peng et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "LOTUSim-Energy: A Maritime Simulator for Human-Drone Interaction in Autonomous Offshore Operation \\&amp; Maintenance",
-      "summary": "Offshore maintenance requires operations in the air, the surface, and the subsea domain and include human supervision. This paper presents LOTUSim-Energy, a real-time maritime simulator designed for multi-domain human--drone interaction for offshore ...",
-      "url": "https://arxiv.org/abs/2609.17124v1",
-      "date": "2026-09-15",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.17124v1",
-      "authors": "Juliette Grosset, Marie Dubromel et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Intrinsic Robot Rewarding: Reusing VLA Representations for Autonomous Evaluation and Policy Improvement",
-      "summary": "Vision-language-action (VLA) systems already bring together two valuable resources for robot learning: rich visual representations and demonstrations of successful task execution. Intrinsic Robot Rewarding (IRR) proposes to use these resources for a ...",
-      "url": "https://arxiv.org/abs/2609.17115v1",
-      "date": "2026-09-15",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.17115v1",
-      "authors": "Tobias Schaffer, Mohab Elkhayat et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "BRAVE-6D: Benchmark for Robotic Active Vision in 6DOF Pose Estimation",
-      "summary": "Detecting and grasping small objects remains a significant challenge in robotics. Active vision, where the robot moves closer to the object, is an intuitive solution, yet comparing approaches on common ground is difficult since identical physical sce...",
-      "url": "https://arxiv.org/abs/2609.17106v1",
-      "date": "2026-09-15",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.17106v1",
-      "authors": "Philipp Ausserlechner, Bernhard Neuberger et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "GeoLAM: Learning Geometry-Grounded Latent Actions from Unlabeled Human Videos",
-      "summary": "Human videos provide rich manipulation experience, but extracting action representations that preserve useful motion remains challenging. Visual reconstruction alone can entangle manipulation-related motion with appearance changes and camera movement...",
-      "url": "https://arxiv.org/abs/2609.17099v1",
-      "date": "2026-09-15",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.17099v1",
-      "authors": "Yifan Xie, Hekun Tian et al.",
       "tags": [
         "机器人学习",
         "研究论文",
