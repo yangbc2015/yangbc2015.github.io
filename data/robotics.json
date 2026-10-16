@@ -3,6 +3,98 @@
   "count": 200,
   "items": [
     {
+      "title": "[具 身 智 能 淘金热里，华沿机器人选择做机器人通用物理底座",
+      "summary": "[具 身 智 能 淘金热里，华沿机器人选择做机器人通用物理底座",
+      "url": "http://36kr.com/p/4028012112335490",
+      "date": "2026-10-16",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
+      "title": "LIBERO-PeRM: Benchmarking Personalized Robotic Manipulation",
+      "summary": "Personalization is essential for general-purpose robots to transition into household environments and achieve true practicality. While general robotic manipulation has been extensively studied, personalized robotic manipulation (PeRM) lacks a control...",
+      "url": "https://arxiv.org/abs/2610.22372v1",
+      "date": "2026-10-15",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.22372v1",
+      "authors": "Zhixu Li, Keqian Tang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Value as Memory: Online Value-Guided Post-training for General Robot Policies",
+      "summary": "Real-world post-training of generalist robot policies faces two challenges: partial observability makes action selection ambiguous, while offline post-training methods delay feedback from deployment experience. We present Value as Memory (VaM), a fra...",
+      "url": "https://arxiv.org/abs/2610.22368v1",
+      "date": "2026-10-15",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.22368v1",
+      "authors": "Wenye Yu, Yijin Chen et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "T2-z: Test-Time Optimization of Environment Latents for Robotic World Models",
+      "summary": "Predicting how the world responds to an action requires more than what can be seen: robots must account for environmental factors that are neither directly observable nor explicitly specified, from physical properties such as friction and mass to hum...",
+      "url": "https://arxiv.org/abs/2610.22364v1",
+      "date": "2026-10-15",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.22364v1",
+      "authors": "Chenyuan Zhou, Yining Hong et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Perceive, Predict, and Plan: a Unified World Action Model for Egocentric Dexterous Manipulation",
+      "summary": "We introduce P$^{3}$-WAM, a unified world action model for egocentric dexterous manipulation that learns 3D perception, action-conditioned prediction, and goal-directed planning through three complementary modes: Perceive, which reconstructs articula...",
+      "url": "https://arxiv.org/abs/2610.22363v1",
+      "date": "2026-10-15",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.22363v1",
+      "authors": "Zirui Wu, Chen Guo et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "CoDA: Co-Evolution of Data Engines and Action Policies",
+      "summary": "Generative simulation can automate robot environment construction, but physically valid environments are not necessarily useful for training. The challenge is to identify environments that address a policy's failures and supervision that helps it ove...",
+      "url": "https://arxiv.org/abs/2610.22362v1",
+      "date": "2026-10-15",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.22362v1",
+      "authors": "Tianjiao Yu, Zhilin Ou et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
       "title": "A Flow-Theoretic Multimodal Control Framework Fusing Mental and Physical Engagement for Upper-Limb Rehabilitation",
       "summary": "While Assist-as-Needed (AAN) control aims to maximize user participation in robot-assisted training, existing methods relying solely on physical metrics cannot distinguish muscular inability from mental disengagement, leading to suboptimal interventi...",
       "url": "https://arxiv.org/abs/2610.21590v1",
@@ -2968,90 +3060,6 @@
       "type": "paper",
       "arxiv_id": "2609.18623v1",
       "authors": "Kemal Oksuz, Alexandru Buburuzan et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "DeformSmith: Physics Harness-Guided Hierarchical Generation of Deformable Assets for Robot Manipulation",
-      "summary": "Creating deformable assets for robot manipulation requires jointly specifying their geometry, appearance, and physical properties. This is especially challenging for deformable objects, since text and images provide limited evidence about how they de...",
-      "url": "https://arxiv.org/abs/2609.18620v1",
-      "date": "2026-09-16",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.18620v1",
-      "authors": "Can Li, Jie Gu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "[B面 具 身 智 能 ：机器人烧钱，数采公司躺赚？",
-      "summary": "[B面 具 身 智 能 ：机器人烧钱，数采公司躺赚？",
-      "url": "http://36kr.com/p/3974500052807942",
-      "date": "2026-09-16",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
-      ]
-    },
-    {
-      "title": "[当机器人开始\"上班\"：具 身 智 能 正在跨过价值分水岭",
-      "summary": "[当机器人开始\"上班\"：具 身 智 能 正在跨过价值分水岭",
-      "url": "http://36kr.com/p/3974245149044999",
-      "date": "2026-09-16",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
-      ]
-    },
-    {
-      "title": "未来的机器人，应该是什么样的？",
-      "summary": "未来的机器人，应该是什么样的？",
-      "url": "http://36kr.com/p/3984525593459460",
-      "date": "2026-09-15",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
-      ]
-    },
-    {
-      "title": "Modality-Autoregressive World-Action Models",
-      "summary": "World-action models (WAMs) jointly model future observations and actions, typically predicting the future as RGB images. Other visual modalities such as depth, pretrained visual features, and point tracks can more efficiently capture geometric, seman...",
-      "url": "https://arxiv.org/abs/2609.17524v1",
-      "date": "2026-09-15",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.17524v1",
-      "authors": "Adam Hung, Bardienus P. Duisterhof et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "ENCP: Episode-Normalized Conformal Prediction for Vision-and-Language Navigation",
-      "summary": "Uncertainty estimation for Vision-Language-Navigation (VLN) models is a critical task since it can help identify ambiguous and unreliable predictions, enabling agents to make safer navigation decisions. As one of the most advanced uncertainty estimat...",
-      "url": "https://arxiv.org/abs/2609.17499v1",
-      "date": "2026-09-15",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.17499v1",
-      "authors": "Vicky Feliren, A. Taufiq Asyhari et al.",
       "tags": [
         "机器人学习",
         "研究论文",
