@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-10-16",
-  "count": 6,
+  "count": 2,
   "items": [
     {
       "title": "Qwen-Audio-Jev: A Unified Interface for Audio Decisions",
@@ -30,74 +30,6 @@
       "pdf_url": "https://arxiv.org/pdf/2610.21612v1.pdf",
       "categories": [
         "cs.AI"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Can Learning to Answer Spatial Questions Improve Novel-View Generation?",
-      "authors": "Jahyeok Koo, Hyeonseo Yu, Seungho Jang et al.",
-      "abstract": "Generating novel views from limited observations requires preserving both the appearance and spatial structure of a scene. Although recent approaches exploit fine-grained geometric cues, they do not explicitly model high-level semantic and spatial properties such as object identity, attributes, and ...",
-      "venue": "arXiv",
-      "date": "2026-10-14",
-      "arxiv_id": "2610.20610v1",
-      "url": "https://arxiv.org/abs/2610.20610v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.20610v1.pdf",
-      "categories": [
-        "cs.CV"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Representation Conditioning for Generation",
-      "authors": "Saeed Razavi, Xingjian Leng, Liang Zheng",
-      "abstract": "Representation-alignment methods effectively accelerate the diffusion transformer training. REPA, for example, uses a pretrained vision encoder to supervise an intermediate layer through an MLP projection head which is discarded after training. It aims to import semantics from the vision encoder to ...",
-      "venue": "arXiv",
-      "date": "2026-10-14",
-      "arxiv_id": "2610.20608v1",
-      "url": "https://arxiv.org/abs/2610.20608v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.20608v1.pdf",
-      "categories": [
-        "cs.CV"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Modeling and Understanding Neural Weights of Humanoid Policies with Diffusion",
-      "authors": "Huixuan Cheng, Bike Zhang, Shankar Sastry et al.",
-      "abstract": "Recent advances in robot learning have driven rapid progress in humanoid control, enabling increasingly agile behaviors in the real world. However, humanoid control networks are typically obtained through conventional training procedures, while comparatively little attention has been given to direct...",
-      "venue": "arXiv",
-      "date": "2026-10-14",
-      "arxiv_id": "2610.20606v1",
-      "url": "https://arxiv.org/abs/2610.20606v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.20606v1.pdf",
-      "categories": [
-        "cs.RO",
-        "cs.AI",
-        "cs.LG"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Hierarchical Residual Policy Learning for Real-World Mobile Manipulation with Sparse Human Guidance",
-      "authors": "Zhefei Gong, Hefeifei Jiang, Zehao Wang et al.",
-      "abstract": "Mobile Manipulation (MoMa) is a cornerstone of autonomous robotic systems, yet real-world fine-tuning remains a formidable challenge because of high-dimensional action spaces and intricate coupling between heterogeneous modules. In this paper, we propose HiRe-MoMa (Hierarchical Residual Mobile Manip...",
-      "venue": "arXiv",
-      "date": "2026-10-14",
-      "arxiv_id": "2610.20607v1",
-      "url": "https://arxiv.org/abs/2610.20607v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.20607v1.pdf",
-      "categories": [
-        "cs.RO",
-        "cs.AI",
-        "cs.LG"
       ],
       "type": "ml",
       "badge": "arxiv",
