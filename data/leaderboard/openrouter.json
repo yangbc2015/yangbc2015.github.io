@@ -5,6 +5,22 @@
   "models": [
     {
       "rank": 1,
+      "model": "deepseek-v4.1-flash-1017",
+      "organization": "deepseek",
+      "price_prompt": "0.00000015",
+      "price_completion": "0.0000006",
+      "context_length": 1048576
+    },
+    {
+      "rank": 2,
+      "model": "glimpse",
+      "organization": "elorian",
+      "price_prompt": "0.0000006",
+      "price_completion": "0.000003",
+      "context_length": 262144
+    },
+    {
+      "rank": 3,
       "model": "xing4.0-29b-a4b:free",
       "organization": "xingchen-agi",
       "price_prompt": "0",
@@ -12,7 +28,7 @@
       "context_length": 262144
     },
     {
-      "rank": 2,
+      "rank": 4,
       "model": "beam-1.0-501b-a23b",
       "organization": "reflection",
       "price_prompt": "0.000001",
@@ -20,7 +36,7 @@
       "context_length": 1048576
     },
     {
-      "rank": 3,
+      "rank": 5,
       "model": "moondream3-preview",
       "organization": "moondream",
       "price_prompt": "0.0000003",
@@ -28,7 +44,7 @@
       "context_length": 32000
     },
     {
-      "rank": 4,
+      "rank": 6,
       "model": "moondream3.1-9b-a2b",
       "organization": "moondream",
       "price_prompt": "0.0000003",
@@ -36,7 +52,7 @@
       "context_length": 32000
     },
     {
-      "rank": 5,
+      "rank": 7,
       "model": "muse-spark-open",
       "organization": "meta",
       "price_prompt": "0.00000125",
@@ -44,7 +60,7 @@
       "context_length": 1048576
     },
     {
-      "rank": 6,
+      "rank": 8,
       "model": "nemotron-3.5-super-vl",
       "organization": "nvidia",
       "price_prompt": "0.0000001",
@@ -52,7 +68,7 @@
       "context_length": 1048576
     },
     {
-      "rank": 7,
+      "rank": 9,
       "model": "nemotron-3.5-super-vl:free",
       "organization": "nvidia",
       "price_prompt": "0",
@@ -60,7 +76,7 @@
       "context_length": 1000000
     },
     {
-      "rank": 8,
+      "rank": 10,
       "model": "pareto-latest",
       "organization": "~unbiased",
       "price_prompt": "0.0000025",
@@ -68,7 +84,7 @@
       "context_length": 262144
     },
     {
-      "rank": 9,
+      "rank": 11,
       "model": "pareto-26.9",
       "organization": "unbiased",
       "price_prompt": "0.0000025",
@@ -76,7 +92,7 @@
       "context_length": 262144
     },
     {
-      "rank": 10,
+      "rank": 12,
       "model": "lfm-2.5-24b-a2b",
       "organization": "liquid",
       "price_prompt": "0.00000005",
@@ -84,7 +100,7 @@
       "context_length": 128000
     },
     {
-      "rank": 11,
+      "rank": 13,
       "model": "gemini-4-argon",
       "organization": "google",
       "price_prompt": "0.000002",
@@ -92,7 +108,7 @@
       "context_length": 1048576
     },
     {
-      "rank": 12,
+      "rank": 14,
       "model": "gemini-4-argon:batch",
       "organization": "google",
       "price_prompt": "0.000001",
@@ -100,28 +116,12 @@
       "context_length": 1048576
     },
     {
-      "rank": 13,
+      "rank": 15,
       "model": "summarize",
       "organization": "scaledown",
       "price_prompt": "0.00000004",
       "price_completion": "0",
       "context_length": 1000000
-    },
-    {
-      "rank": 14,
-      "model": "extract",
-      "organization": "scaledown",
-      "price_prompt": "0.00000004",
-      "price_completion": "0",
-      "context_length": 1000000
-    },
-    {
-      "rank": 15,
-      "model": "muse-wonder",
-      "organization": "meta",
-      "price_prompt": "0.000004",
-      "price_completion": "0.00002",
-      "context_length": 1048576
     }
   ]
 }
