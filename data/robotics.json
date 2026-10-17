@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-16",
+  "last_updated": "2026-10-17",
   "count": 200,
   "items": [
     {
@@ -92,6 +92,32 @@
         "机器人学习",
         "研究论文",
         "arXiv"
+      ]
+    },
+    {
+      "title": "当大模型\"大脑\"遇上自主可控的机器人\"神经系统\"，具身智能底层能力迎来国产新底座",
+      "summary": "当大模型\"大脑\"遇上自主可控的机器人\"神经系统\"，具身智能底层能力迎来国产新底座",
+      "url": "http://36kr.com/p/4026704639119750",
+      "date": "2026-10-15",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "具身智能公司要被 GPT、Claude、Gemini 抢饭碗了？",
+      "summary": "具身智能公司要被 GPT、Claude、Gemini 抢饭碗了？",
+      "url": "http://36kr.com/p/4026630943592840",
+      "date": "2026-10-15",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
       ]
     },
     {
@@ -3028,38 +3054,6 @@
       "type": "paper",
       "arxiv_id": "2609.18650v1",
       "authors": "Zheng Li, Liang Zhu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Benchmarking Visual-Inertial Odometry in Subterranean Environments Under Sensor Degradation, Miscalibration, and Dynamic Occlusion",
-      "summary": "Visual-inertial odometry (VIO) is a core capability for autonomous operation in GPS-denied subterranean environments, yet its reliability can degrade sharply under sensor drift, calibration errors, and dynamic occlusion. Existing evaluations mainly e...",
-      "url": "https://arxiv.org/abs/2609.18628v1",
-      "date": "2026-09-16",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.18628v1",
-      "authors": "Yueying Zhu, Xiang Li et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "FIVE-VLA: Fast and EffectIVE Autonomous Driving with Recurrent Action Memory",
-      "summary": "State-of-the-art vision-language-action models (VLA) for autonomous driving face critical limitations: excessive parameter counts, inefficient high-resolution image processing, and lack of temporal memory. We introduce Fast and EffectIVE VLA (FIVE-VL...",
-      "url": "https://arxiv.org/abs/2609.18623v1",
-      "date": "2026-09-16",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.18623v1",
-      "authors": "Kemal Oksuz, Alexandru Buburuzan et al.",
       "tags": [
         "机器人学习",
         "研究论文",
