@@ -1,7 +1,7 @@
 {
   "last_updated": "2026-10-17",
   "count": 200,
-  "history_count": 200,
+  "history_count": 203,
   "retention_days": 30,
   "items": [
     {
@@ -58,6 +58,54 @@
       "summary": "基元律动（Token Rhythm）宣布已有超过30万名开发者入驻，同期推出双11预售限时福利。...",
       "date": "2026-10-17",
       "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "昆仑万维创始人周亚辉署名Matrix-Game 4.0 技术报告",
+      "link": "https://www.jiqizhixin.com/search/articles/昆仑万维创始人周亚辉署名Mat",
+      "summary": "昆仑万维创始人周亚辉署名Matrix-Game 4.0 技术报告...",
+      "date": "2026-10-16",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "硬件、数据到模型：Sharpa如何系统性推进灵巧操作",
+      "link": "https://www.jiqizhixin.com/search/articles/硬件、数据到模型：Sharpa",
+      "summary": "硬件、数据到模型：Sharpa如何系统性推进灵巧操作...",
+      "date": "2026-10-16",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "世界模型能不能上桌？WorldOracle给出了一场真实大考",
+      "link": "https://www.jiqizhixin.com/search/articles/世界模型能不能上桌？World",
+      "summary": "世界模型能不能上桌？WorldOracle给出了一场真实大考...",
+      "date": "2026-10-16",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "NeurIPS 2026 | FlowMAS：让AI团队自己学会「排兵布阵」",
+      "link": "https://www.jiqizhixin.com/search/articles/NeurIPS 2026 | ",
+      "summary": "NeurIPS 2026 | FlowMAS：让AI团队自己学会「排兵布阵」...",
+      "date": "2026-10-16",
+      "source": "机器之心",
       "type": "industry",
       "tags": [
         "AI",
@@ -476,18 +524,6 @@
       "title": "翻完OpenAI的722篇数学手稿，我们挑出了最重的30道名题",
       "link": "https://www.jiqizhixin.com/search/articles/翻完OpenAI的722篇数学",
       "summary": "翻完OpenAI的722篇数学手稿，我们挑出了最重的30道名题...",
-      "date": "2026-10-07",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "NeurIPS 2026 | 长推理为何总在中途走偏？SAGE用结构信号纠偏，AC实例验证通过率接近8倍",
-      "link": "https://www.jiqizhixin.com/search/articles/NeurIPS 2026 | ",
-      "summary": "NeurIPS 2026 | 长推理为何总在中途走偏？SAGE用结构信号纠偏，AC实例验证通过率接近8倍...",
       "date": "2026-10-07",
       "source": "机器之心",
       "type": "industry",
@@ -2362,42 +2398,6 @@
       "summary": "第五代骁龙8至尊版赋能全新AI智能体手机努比亚NaviX Ultra，加速智能体体验规模化落地...",
       "date": "2026-09-18",
       "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "2026年 9 月 15 日，AI基础设施公司基元律动（TokenRhythm）与无问芯穹（Infinigence AI）签署战略合作协议。",
-      "link": "https://www.qbitai.com/?s=2026年 9 月 ",
-      "summary": "2026年 9 月 15 日，AI基础设施公司基元律动（TokenRhythm）与无问芯穹（Infinigence AI）签署战略合作协议。...",
-      "date": "2026-09-18",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "安芯启程｜安芯724北京基地正式投产",
-      "link": "https://www.jiqizhixin.com/search/articles/安芯启程｜安芯724北京基地正",
-      "summary": "安芯启程｜安芯724北京基地正式投产...",
-      "date": "2026-09-17",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Nature封面 | 打破高分辨率限制，谷歌AI气象模型精准预测台风路径",
-      "link": "https://www.jiqizhixin.com/search/articles/Nature封面 | 打破高分",
-      "summary": "Nature封面 | 打破高分辨率限制，谷歌AI气象模型精准预测台风路径...",
-      "date": "2026-09-17",
-      "source": "机器之心",
       "type": "industry",
       "tags": [
         "AI",
