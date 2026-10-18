@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-17",
-  "count": 8,
+  "last_updated": "2026-10-18",
+  "count": 2,
   "items": [
     {
       "title": "LIBERO-PeRM: Benchmarking Personalized Robotic Manipulation",
@@ -21,89 +21,6 @@
       "source": "arXiv"
     },
     {
-      "title": "Discovering state-of-the-art quantum circuits with large language models",
-      "authors": "Andi Gu, Alek H. Kemeny, Susanne F. Yelin et al.",
-      "abstract": "Significant efforts are currently being directed toward the implementation of large-scale quantum information processors, but realizing useful quantum advantage also requires the development of efficient quantum algorithms. While for many practical problems the dominant resource costs are associated...",
-      "venue": "arXiv",
-      "date": "2026-10-15",
-      "arxiv_id": "2610.22367v1",
-      "url": "https://arxiv.org/abs/2610.22367v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.22367v1.pdf",
-      "categories": [
-        "quant-ph",
-        "cs.AI"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "OmniVerifier-C1: Decomposed Graded Verifier for Rule-Governed Generative World Modeling",
-      "authors": "Bowei Liu, Xinchen Zhang, Xuhuan Li et al.",
-      "abstract": "Generative visual verifiers play a crucial role in advancing multimodal intelligence. To enhance the robustness of visual verifiers in complex multimodal scenarios involving compositional requirements, we move beyond conventional binary verifiers that produce only True/False discrete judgments and i...",
-      "venue": "arXiv",
-      "date": "2026-10-15",
-      "arxiv_id": "2610.22355v1",
-      "url": "https://arxiv.org/abs/2610.22355v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.22355v1.pdf",
-      "categories": [
-        "cs.CL"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "FDE-Gym: The Last Mile of AI Delivery",
-      "authors": "Dongxu Yang, Hongda Yan, Renxin Wang et al.",
-      "abstract": "Existing agent benchmarks typically evaluate agents on well-specified tasks defined by issue reports, specifications, or task tickets. Real-world customer delivery is different: forward-deployed engineers (FDEs) must clarify ambiguous requirements, work in live systems, and uncover unstated constrai...",
-      "venue": "arXiv",
-      "date": "2026-10-15",
-      "arxiv_id": "2610.22350v1",
-      "url": "https://arxiv.org/abs/2610.22350v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.22350v1.pdf",
-      "categories": [
-        "cs.AI",
-        "cs.CL",
-        "cs.SE"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Gen4P: Video Generators are 4D Perceivers",
-      "authors": "Yitong Xia, Zeren Jiang, Chuanxia Zheng",
-      "abstract": "We introduce Gen4P, a unified framework for recovering 4D geometry and motion from monocular video. We show that a pretrained video generator can be repurposed into a feed-forward 4D perceiver without iterative denoising. Building on on-demand querying, Gen4P processes clean video latents in a singl...",
-      "venue": "arXiv",
-      "date": "2026-10-15",
-      "arxiv_id": "2610.22371v1",
-      "url": "https://arxiv.org/abs/2610.22371v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.22371v1.pdf",
-      "categories": [
-        "cs.CV"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Which Tokens to Merge? Diffusion Dynamics for Efficient Image Generation",
-      "authors": "SeungJu Cha, Ye-Chan Kim, HyunGee Kim et al.",
-      "abstract": "Token merging has emerged as an effective training-free strategy for accelerating diffusion models by reducing redundant token computation while minimizing generation degradation. A key challenge is determining which tokens can be safely merged and which should be preserved for subsequent computatio...",
-      "venue": "arXiv",
-      "date": "2026-10-15",
-      "arxiv_id": "2610.22370v1",
-      "url": "https://arxiv.org/abs/2610.22370v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.22370v1.pdf",
-      "categories": [
-        "cs.CV"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
       "title": "PathFM: Fast Generative Forecasting of Multivariate Trajectories",
       "authors": "Jiachen Yao, Xiyuan Zhang, Annan Yu et al.",
       "abstract": "Time series foundation models are becoming increasingly popular for general-purpose forecasting. However, most leading models predict marginal quantiles, leaving the dependence structure of future trajectories unspecified. This distinction matters for trajectory-dependent quantities such as cumulati...",
@@ -114,22 +31,6 @@
       "pdf_url": "https://arxiv.org/pdf/2610.22358v1.pdf",
       "categories": [
         "cs.LG"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Value as Memory: Online Value-Guided Post-training for General Robot Policies",
-      "authors": "Wenye Yu, Yijin Chen, Kaiyi Xiong et al.",
-      "abstract": "Real-world post-training of generalist robot policies faces two challenges: partial observability makes action selection ambiguous, while offline post-training methods delay feedback from deployment experience. We present Value as Memory (VaM), a framework that addresses these challenges through val...",
-      "venue": "arXiv",
-      "date": "2026-10-15",
-      "arxiv_id": "2610.22368v1",
-      "url": "https://arxiv.org/abs/2610.22368v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.22368v1.pdf",
-      "categories": [
-        "cs.RO"
       ],
       "type": "ml",
       "badge": "arxiv",

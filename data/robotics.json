@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-17",
+  "last_updated": "2026-10-18",
   "count": 200,
   "items": [
     {
@@ -12,6 +12,32 @@
       "type": "news",
       "tags": [
         "机器人"
+      ]
+    },
+    {
+      "title": "2026全球开发者先锋大会10月上海浦东举办，聚焦具身智能",
+      "summary": "2026全球开发者先锋大会10月上海浦东举办，聚焦具身智能",
+      "url": "http://36kr.com/p/4028273910911365",
+      "date": "2026-10-16",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "从工博会重磅发布具身智能运动基座，看这家机器人企业的具身答卷",
+      "summary": "从工博会重磅发布具身智能运动基座，看这家机器人企业的具身答卷",
+      "url": "http://36kr.com/p/4028012112335490",
+      "date": "2026-10-16",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
       ]
     },
     {
@@ -3022,38 +3048,6 @@
       "type": "paper",
       "arxiv_id": "2609.19080v1",
       "authors": "Daniel Morton, Jon Arrizabalaga et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "FIERCE: From Generalist Robot Policies to Fast Specialists via Progress-Failure Feedback",
-      "summary": "Generalist robot policies offer useful initialization, but refining compact specialists through limited physical interaction requires informative learning feedback. We present FIERCE, a generalist-initialized reinforcement learning framework centered...",
-      "url": "https://arxiv.org/abs/2609.18651v1",
-      "date": "2026-09-16",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.18651v1",
-      "authors": "Runjia Tan, Yuang Tu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "From Gameplay to Policy: Towards Scalable Robot Data Collection via Gamified Robot-Free Interaction",
-      "summary": "Learning generalizable robot manipulation policies requires large-scale and diverse interaction data, yet collecting real-world demonstrations remains costly and difficult to scale. Existing approaches to data collection are either dependent on speci...",
-      "url": "https://arxiv.org/abs/2609.18650v1",
-      "date": "2026-09-16",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.18650v1",
-      "authors": "Zheng Li, Liang Zhu et al.",
       "tags": [
         "机器人学习",
         "研究论文",
