@@ -1,6 +1,6 @@
 ---
 title: '[DeepSeek，千亿融资追踪，LP称仍在动态变化'
-date: '2026-10-17'
+date: '2026-10-18'
 type: news
 source: 36氪
 category: AI投资

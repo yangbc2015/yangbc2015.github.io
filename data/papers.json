@@ -21,16 +21,16 @@
       "source": "arXiv"
     },
     {
-      "title": "PathFM: Fast Generative Forecasting of Multivariate Trajectories",
-      "authors": "Jiachen Yao, Xiyuan Zhang, Annan Yu et al.",
-      "abstract": "Time series foundation models are becoming increasingly popular for general-purpose forecasting. However, most leading models predict marginal quantiles, leaving the dependence structure of future trajectories unspecified. This distinction matters for trajectory-dependent quantities such as cumulati...",
+      "title": "Value as Memory: Online Value-Guided Post-training for General Robot Policies",
+      "authors": "Wenye Yu, Yijin Chen, Kaiyi Xiong et al.",
+      "abstract": "Real-world post-training of generalist robot policies faces two challenges: partial observability makes action selection ambiguous, while offline post-training methods delay feedback from deployment experience. We present Value as Memory (VaM), a framework that addresses these challenges through val...",
       "venue": "arXiv",
       "date": "2026-10-15",
-      "arxiv_id": "2610.22358v1",
-      "url": "https://arxiv.org/abs/2610.22358v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.22358v1.pdf",
+      "arxiv_id": "2610.22368v1",
+      "url": "https://arxiv.org/abs/2610.22368v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.22368v1.pdf",
       "categories": [
-        "cs.LG"
+        "cs.RO"
       ],
       "type": "ml",
       "badge": "arxiv",
