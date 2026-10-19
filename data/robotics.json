@@ -15,6 +15,86 @@
       ]
     },
     {
+      "title": "LAW: Unifying Language, Action, and World Modeling for Agentic Physical Intelligence",
+      "summary": "World-action models jointly predict actions and future world states, but long-horizon manipulation further requires language reasoning to plan subtask objectives, assess execution progress, and guide action selection. We present LAW, a closed-loop VL...",
+      "url": "https://arxiv.org/abs/2610.23334v1",
+      "date": "2026-10-16",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.23334v1",
+      "authors": "Jiajun Cao, Kai Tang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "From Sliding Windows to Self-evolving Lifelong Memory: A Dual-perspective Survey of Memory Paradigms for Long-Horizon Robotics VLA Models",
+      "summary": "Long-horizon robotic tasks expose a fundamental limitation of current Vision-Language-Action (VLA) models because their restricted temporal context pre-vents effective accumulation and reuse of past experiences. As a result, memory has become a funda...",
+      "url": "https://arxiv.org/abs/2610.23319v1",
+      "date": "2026-10-16",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.23319v1",
+      "authors": "Yong Wang, Boyu Shen et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "SkyAgent: Revisable Target Memory for Continuous Aerial Search",
+      "summary": "Continuous aerial search builds target hypotheses from sparse, viewpoint-dependent observations. When later evidence contradicts a stored hypothesis, however, the candidate can remain available to the planner and continue triggering approach or verif...",
+      "url": "https://arxiv.org/abs/2610.23293v1",
+      "date": "2026-10-16",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.23293v1",
+      "authors": "Kaibo Yang, Xingyu Wu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "CoEvolve: Self-Evolving Code Policies from Skills to Strategies for Humanoid Robots",
+      "summary": "Recent advances in Vision-Language-Action (VLA) models and World Action Models (WAMs) have expanded the manipulation and whole body capabilities of individual robots. Yet a single robot remains limited by its embodiment, and many real world tasks req...",
+      "url": "https://arxiv.org/abs/2610.23288v1",
+      "date": "2026-10-16",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.23288v1",
+      "authors": "Zicheng Liu, Haochen Wu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "LY-GWM-RoboCasa-Human300: Prediction-Guided Action Selection with a Graph Dynamics Model",
+      "summary": "We present LY-GWM-RoboCasa-Human300, a policy that combines a Human300-fine-tuned GR00T-N1.5 action generator, an action-conditioned graph dynamics model, and a learned binary state-reward scorer. At inference, the policy samples four action chunks, ...",
+      "url": "https://arxiv.org/abs/2610.23274v1",
+      "date": "2026-10-16",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.23274v1",
+      "authors": "TianLiang Ma, Ting Ma et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
       "title": "2026全球开发者先锋大会10月上海浦东举办，聚焦具身智能",
       "summary": "2026全球开发者先锋大会10月上海浦东举办，聚焦具身智能",
       "url": "http://36kr.com/p/4028273910911365",
@@ -32,6 +112,32 @@
       "summary": "从工博会重磅发布具身智能运动基座，看这家机器人企业的具身答卷",
       "url": "http://36kr.com/p/4028012112335490",
       "date": "2026-10-16",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "当大模型\"大脑\"遇上自主可控的机器人\"神经系统\"，具身智能底层能力迎来国产新底座",
+      "summary": "当大模型\"大脑\"遇上自主可控的机器人\"神经系统\"，具身智能底层能力迎来国产新底座",
+      "url": "http://36kr.com/p/4026704639119750",
+      "date": "2026-10-15",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "具身智能公司要被 GPT、Claude、Gemini 抢饭碗了？",
+      "summary": "具身智能公司要被 GPT、Claude、Gemini 抢饭碗了？",
+      "url": "http://36kr.com/p/4026630943592840",
+      "date": "2026-10-15",
       "source": "36氪",
       "category": "具身智能",
       "type": "news",
@@ -118,32 +224,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "当大模型\"大脑\"遇上自主可控的机器人\"神经系统\"，具身智能底层能力迎来国产新底座",
-      "summary": "当大模型\"大脑\"遇上自主可控的机器人\"神经系统\"，具身智能底层能力迎来国产新底座",
-      "url": "http://36kr.com/p/4026704639119750",
-      "date": "2026-10-15",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "具身智能公司要被 GPT、Claude、Gemini 抢饭碗了？",
-      "summary": "具身智能公司要被 GPT、Claude、Gemini 抢饭碗了？",
-      "url": "http://36kr.com/p/4026630943592840",
-      "date": "2026-10-15",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
       ]
     },
     {
@@ -2972,86 +3052,6 @@
       "tags": [
         "机器人",
         "具身智能"
-      ]
-    },
-    {
-      "title": "PointZero: 3D Point Track Completion for Learning Transferable 3D Dynamics",
-      "summary": "World models endow perceptual systems with the ability to predict how scenes evolve under interaction. They are most beneficial when trained on diverse volumes of data, to instill a rich prior into downstream applications. Existing methods typically ...",
-      "url": "https://arxiv.org/abs/2609.19142v1",
-      "date": "2026-09-16",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.19142v1",
-      "authors": "Bardienus P. Duisterhof, Kaifeng Zhang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "In-Context Robot Learning with VLM Agents",
-      "summary": "Enabling robots to adapt to unfamiliar environments as readily as humans remains a moonshot goal of embodied AI. No finite collection of demonstrations can cover every task and situation a robot will encounter, making the ability to learn from contex...",
-      "url": "https://arxiv.org/abs/2609.19138v1",
-      "date": "2026-09-16",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.19138v1",
-      "authors": "Dongzhou Cheng, Taoran Yi et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Dreaming the Sound of Contact: Leveraging Video and Audio Generation for Zero-Shot Force-Aware Manipulation and Data Generation",
-      "summary": "Recent advances in video generation allow robots to learn manipulation trajectories from generated videos. However, these approaches produce purely kinematic trajectories that lack force information, causing failures in contact-rich tasks where appro...",
-      "url": "https://arxiv.org/abs/2609.19137v1",
-      "date": "2026-09-16",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.19137v1",
-      "authors": "Guanhua Ji, Tianyu Li et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "rMuscle: Robotic Muscle Memory for Efficient Vision-Language-Action Model Inference",
-      "summary": "Factory work is a promising early scenario for embodied AI: assigning repetitive manual jobs to robots has clear economic payoff, and a structured station keeps the jobs tractable for current policies. Vision-Language-Action (VLA) models now dominate...",
-      "url": "https://arxiv.org/abs/2609.19104v1",
-      "date": "2026-09-16",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.19104v1",
-      "authors": "Kaijun Zhou, Zhiyang Li et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "ElastiQP: An Always-Feasible QP Solver for Constrained Robot Control",
-      "summary": "As robot capabilities increase, quadratic programming (QP)-based controllers must account for a similarly increasing number of constraints to ensure safe, reliable operation. Yet, with each added constraint, this introduces more chances of momentary ...",
-      "url": "https://arxiv.org/abs/2609.19080v1",
-      "date": "2026-09-16",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.19080v1",
-      "authors": "Daniel Morton, Jon Arrizabalaga et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
       ]
     }
   ]
