@@ -15,6 +15,112 @@
       ]
     },
     {
+      "title": "Blind Precise Assembly: Proprioceptive Sim-to-Real Peg-in-Hole for Diverse Parts",
+      "summary": "Every robot already carries high-resolution contact sensors: its own joints. Legged robots and humanoids exploit them to walk, run, and track whole-body motions without vision, but there the contacts are large and forceful. Is joint sensing also enou...",
+      "url": "https://arxiv.org/abs/2610.23849v1",
+      "date": "2026-10-16",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.23849v1",
+      "authors": "Antonia Bronars, Younghyo Park et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "StopWatch: Goal Grounding for Object-goal Navigation",
+      "summary": "Pretrained VLMs bring rich world knowledge and semantic priors to object-goal navigation, and fine-tuning a VLM into a navigation policy has become a common recipe. Despite this progress, success rates remain low, and it is unclear which capability t...",
+      "url": "https://arxiv.org/abs/2610.23841v1",
+      "date": "2026-10-16",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.23841v1",
+      "authors": "Xinhao Liu, Yunsheng Tian et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "SparseMax-dSTL: Sound Robustness with Horizon-Independent Gradient Allocation for Temporal Logic Trajectory Optimization",
+      "summary": "A gradient-based solver that enforces a Signal Temporal Logic (STL) specification uses a smooth approximation of its quantitative semantics, the robustness. In safety-critical trajectory optimization, this approximation must have two properties. Firs...",
+      "url": "https://arxiv.org/abs/2610.23837v1",
+      "date": "2026-10-16",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.23837v1",
+      "authors": "Sai Sandeep Damera, Ryan Matheu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Self-Building Labs",
+      "summary": "Self-driving laboratories (SDLs) accelerate scientific discovery by automating experimental execution and optimization. AI agents can increasingly propose new experiments, but existing SDLs can only run the procedures they were built for. Adapting th...",
+      "url": "https://arxiv.org/abs/2610.23826v1",
+      "date": "2026-10-16",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.23826v1",
+      "authors": "Jiaru Bai, Yuchi Zhao et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "MOSS: Multimodal Origami Swamp Robot System",
+      "summary": "Robotic systems for environmental monitoring and ecological surveying in wetlands and swamps must operate across diverse terrestrial and aquatic conditions. Conventional fixed-geometry wheels cannot adapt their contact geometry to these varying condi...",
+      "url": "https://arxiv.org/abs/2610.23813v1",
+      "date": "2026-10-16",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.23813v1",
+      "authors": "T. Lan, A. Babgei et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "2026全球开发者先锋大会10月上海浦东举办，聚焦具身智能",
+      "summary": "2026全球开发者先锋大会10月上海浦东举办，聚焦具身智能",
+      "url": "http://36kr.com/p/4028273910911365",
+      "date": "2026-10-16",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "从工博会重磅发布具身智能运动基座，看这家机器人企业的具身答卷",
+      "summary": "从工博会重磅发布具身智能运动基座，看这家机器人企业的具身答卷",
+      "url": "http://36kr.com/p/4028012112335490",
+      "date": "2026-10-16",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
       "title": "LAW: Unifying Language, Action, and World Modeling for Agentic Physical Intelligence",
       "summary": "World-action models jointly predict actions and future world states, but long-horizon manipulation further requires language reasoning to plan subtask objectives, assess execution progress, and guide action selection. We present LAW, a closed-loop VL...",
       "url": "https://arxiv.org/abs/2610.23334v1",
@@ -92,32 +198,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "2026全球开发者先锋大会10月上海浦东举办，聚焦具身智能",
-      "summary": "2026全球开发者先锋大会10月上海浦东举办，聚焦具身智能",
-      "url": "http://36kr.com/p/4028273910911365",
-      "date": "2026-10-16",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "从工博会重磅发布具身智能运动基座，看这家机器人企业的具身答卷",
-      "summary": "从工博会重磅发布具身智能运动基座，看这家机器人企业的具身答卷",
-      "url": "http://36kr.com/p/4028012112335490",
-      "date": "2026-10-16",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
       ]
     },
     {
@@ -2987,71 +3067,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "[从四足到人形，具 身 智 能 正走向人的生活空间",
-      "summary": "[从四足到人形，具 身 智 能 正走向人的生活空间",
-      "url": "http://36kr.com/p/3984525593459460",
-      "date": "2026-09-17",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "人形机器人"
-      ]
-    },
-    {
-      "title": "[万勋科技发布NOVA2.0柔性具身大脑：稀缺跨行业极限工况淬炼，具 身 智 能 跃过开放世界应用分水岭",
-      "summary": "[万勋科技发布NOVA2.0柔性具身大脑：稀缺跨行业极限工况淬炼，具 身 智 能 跃过开放世界应用分水岭",
-      "url": "http://36kr.com/p/3975925620109575",
-      "date": "2026-09-17",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "具身智能被投下了一枚“重磅炸弹”。",
-      "summary": "具身智能被投下了一枚“重磅炸弹”。",
-      "url": "http://36kr.com/p/3985898834754309",
-      "date": "2026-09-16",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "灵灵智能寻求千万天使融资，做具身智能数据服务商",
-      "summary": "灵灵智能寻求千万天使融资，做具身智能数据服务商",
-      "url": "http://36kr.com/p/3984117446638598",
-      "date": "2026-09-16",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "中国具身智能，急需继续放大数据和算力",
-      "summary": "中国具身智能，急需继续放大数据和算力",
-      "url": "http://36kr.com/p/3985769854974977",
-      "date": "2026-09-16",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
       ]
     }
   ]
