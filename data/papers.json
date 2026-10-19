@@ -1,36 +1,53 @@
 {
-  "last_updated": "2026-10-18",
+  "last_updated": "2026-10-19",
   "count": 8,
   "items": [
     {
-      "title": "LIBERO-PeRM: Benchmarking Personalized Robotic Manipulation",
-      "authors": "Zhixu Li, Keqian Tang, Litian Gong et al.",
-      "abstract": "Personalization is essential for general-purpose robots to transition into household environments and achieve true practicality. While general robotic manipulation has been extensively studied, personalized robotic manipulation (PeRM) lacks a controlled benchmark for separating task completion from ...",
+      "title": "Rethinking the design space of Vanilla Pixel Diffusion Transformers",
+      "authors": "Soumik Mukhopadhyay, Long Mai, Abhinav Shrivastava et al.",
+      "abstract": "Pixel-space diffusion models have recently re-emerged as a compelling alternative to latent diffusion, avoiding the lossy latent bottleneck and separately trained autoencoder. JiT shows that a vanilla diffusion transformer can generate directly in pixel space by replacing the commonly used velocity ...",
       "venue": "arXiv",
-      "date": "2026-10-15",
-      "arxiv_id": "2610.22372v1",
-      "url": "https://arxiv.org/abs/2610.22372v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.22372v1.pdf",
+      "date": "2026-10-16",
+      "arxiv_id": "2610.23854v1",
+      "url": "https://arxiv.org/abs/2610.23854v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.23854v1.pdf",
       "categories": [
-        "cs.RO",
-        "cs.AI",
-        "cs.LG"
+        "cs.CV",
+        "cs.AI"
       ],
-      "type": "benchmark",
+      "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Discovering state-of-the-art quantum circuits with large language models",
-      "authors": "Andi Gu, Alek H. Kemeny, Susanne F. Yelin et al.",
-      "abstract": "Significant efforts are currently being directed toward the implementation of large-scale quantum information processors, but realizing useful quantum advantage also requires the development of efficient quantum algorithms. While for many practical problems the dominant resource costs are associated...",
+      "title": "Behavioral Couplings: From Formation to Behavioral Emergence in Language Models",
+      "authors": "Dongyoon Hahm, Woogyeol Jin, Dennis Wei et al.",
+      "abstract": "Fine-tuning large language models (LLMs) can induce behaviors beyond those explicitly targeted. For example, training a model to respond more warmly can make it more sycophantic, and training it to write insecure code can cause broad misalignment on prompts unrelated to coding. We refer to a relatio...",
       "venue": "arXiv",
-      "date": "2026-10-15",
-      "arxiv_id": "2610.22367v1",
-      "url": "https://arxiv.org/abs/2610.22367v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.22367v1.pdf",
+      "date": "2026-10-16",
+      "arxiv_id": "2610.23847v1",
+      "url": "https://arxiv.org/abs/2610.23847v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.23847v1.pdf",
       "categories": [
-        "quant-ph",
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Language Models Learn to Improve Language Models",
+      "authors": "Minhua Lin, Zijun Wang, Zewen Liu et al.",
+      "abstract": "Large language models (LLMs) are increasingly used to automate AI research, including language-model (LM) development, offering a potential path toward recursive self-improvement. However, turning experimental feedback into a learned ability to propose effective improvements across models faces two ...",
+      "venue": "arXiv",
+      "date": "2026-10-16",
+      "arxiv_id": "2610.23344v1",
+      "url": "https://arxiv.org/abs/2610.23344v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.23344v1.pdf",
+      "categories": [
+        "cs.CL",
         "cs.AI"
       ],
       "type": "nlp",
@@ -38,30 +55,14 @@
       "source": "arXiv"
     },
     {
-      "title": "OmniVerifier-C1: Decomposed Graded Verifier for Rule-Governed Generative World Modeling",
-      "authors": "Bowei Liu, Xinchen Zhang, Xuhuan Li et al.",
-      "abstract": "Generative visual verifiers play a crucial role in advancing multimodal intelligence. To enhance the robustness of visual verifiers in complex multimodal scenarios involving compositional requirements, we move beyond conventional binary verifiers that produce only True/False discrete judgments and i...",
+      "title": "Robust Function Calling for LLM Agents Under Interface Drift",
+      "authors": "Aniruddha Chattopadhyay, Kanishka Halder, Partha Sarathi Roy",
+      "abstract": "Tool-augmented language-model agents rely on interface text: tool descriptions, argument schemas, and the candidate tool list shown at inference time. These interfaces often change after deployment even when the underlying tool semantics remain fixed, creating a practical reliability problem for fun...",
       "venue": "arXiv",
-      "date": "2026-10-15",
-      "arxiv_id": "2610.22355v1",
-      "url": "https://arxiv.org/abs/2610.22355v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.22355v1.pdf",
-      "categories": [
-        "cs.CL"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "FDE-Gym: The Last Mile of AI Delivery",
-      "authors": "Dongxu Yang, Hongda Yan, Renxin Wang et al.",
-      "abstract": "Existing agent benchmarks typically evaluate agents on well-specified tasks defined by issue reports, specifications, or task tickets. Real-world customer delivery is different: forward-deployed engineers (FDEs) must clarify ambiguous requirements, work in live systems, and uncover unstated constrai...",
-      "venue": "arXiv",
-      "date": "2026-10-15",
-      "arxiv_id": "2610.22350v1",
-      "url": "https://arxiv.org/abs/2610.22350v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.22350v1.pdf",
+      "date": "2026-10-16",
+      "arxiv_id": "2610.23342v1",
+      "url": "https://arxiv.org/abs/2610.23342v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.23342v1.pdf",
       "categories": [
         "cs.AI",
         "cs.CL",
@@ -72,14 +73,14 @@
       "source": "arXiv"
     },
     {
-      "title": "Gen4P: Video Generators are 4D Perceivers",
-      "authors": "Yitong Xia, Zeren Jiang, Chuanxia Zheng",
-      "abstract": "We introduce Gen4P, a unified framework for recovering 4D geometry and motion from monocular video. We show that a pretrained video generator can be repurposed into a feed-forward 4D perceiver without iterative denoising. Building on on-demand querying, Gen4P processes clean video latents in a singl...",
+      "title": "Learning to Correct Geometry in Generated Videos",
+      "authors": "Weijie Lyu, Tiancheng Shen, Jason Li et al.",
+      "abstract": "Generated videos often lose geometric consistency under camera motion: structures warp under viewpoint change, parallax becomes inconsistent, and smooth camera movement may collapse into shot-like transitions. We argue that this failure is largely a data problem. In web-scale video corpora, most vis...",
       "venue": "arXiv",
-      "date": "2026-10-15",
-      "arxiv_id": "2610.22371v1",
-      "url": "https://arxiv.org/abs/2610.22371v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.22371v1.pdf",
+      "date": "2026-10-16",
+      "arxiv_id": "2610.23856v1",
+      "url": "https://arxiv.org/abs/2610.23856v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.23856v1.pdf",
       "categories": [
         "cs.CV"
       ],
@@ -88,31 +89,16 @@
       "source": "arXiv"
     },
     {
-      "title": "Which Tokens to Merge? Diffusion Dynamics for Efficient Image Generation",
-      "authors": "SeungJu Cha, Ye-Chan Kim, HyunGee Kim et al.",
-      "abstract": "Token merging has emerged as an effective training-free strategy for accelerating diffusion models by reducing redundant token computation while minimizing generation degradation. A key challenge is determining which tokens can be safely merged and which should be preserved for subsequent computatio...",
+      "title": "Task-aligned spectral inductive biases in parameterized quantum circuits",
+      "authors": "Felix Frohnert, Adrián Pérez-Salinas, Sebastian Lange et al.",
+      "abstract": "Parameterized quantum circuits are widely investigated in quantum machine learning, yet how their architecture can provide task-aligned inductive biases remains poorly understood. We study data reuploading quantum circuits with two distinct inputs: a signal that varies between samples and a fixed, t...",
       "venue": "arXiv",
-      "date": "2026-10-15",
-      "arxiv_id": "2610.22370v1",
-      "url": "https://arxiv.org/abs/2610.22370v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.22370v1.pdf",
+      "date": "2026-10-16",
+      "arxiv_id": "2610.23834v1",
+      "url": "https://arxiv.org/abs/2610.23834v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.23834v1.pdf",
       "categories": [
-        "cs.CV"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "PathFM: Fast Generative Forecasting of Multivariate Trajectories",
-      "authors": "Jiachen Yao, Xiyuan Zhang, Annan Yu et al.",
-      "abstract": "Time series foundation models are becoming increasingly popular for general-purpose forecasting. However, most leading models predict marginal quantiles, leaving the dependence structure of future trajectories unspecified. This distinction matters for trajectory-dependent quantities such as cumulati...",
-      "venue": "arXiv",
-      "date": "2026-10-15",
-      "arxiv_id": "2610.22358v1",
-      "url": "https://arxiv.org/abs/2610.22358v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.22358v1.pdf",
-      "categories": [
+        "quant-ph",
         "cs.LG"
       ],
       "type": "ml",
@@ -120,18 +106,35 @@
       "source": "arXiv"
     },
     {
-      "title": "Value as Memory: Online Value-Guided Post-training for General Robot Policies",
-      "authors": "Wenye Yu, Yijin Chen, Kaiyi Xiong et al.",
-      "abstract": "Real-world post-training of generalist robot policies faces two challenges: partial observability makes action selection ambiguous, while offline post-training methods delay feedback from deployment experience. We present Value as Memory (VaM), a framework that addresses these challenges through val...",
+      "title": "Blind Precise Assembly: Proprioceptive Sim-to-Real Peg-in-Hole for Diverse Parts",
+      "authors": "Antonia Bronars, Younghyo Park, Kushal Kedia et al.",
+      "abstract": "Every robot already carries high-resolution contact sensors: its own joints. Legged robots and humanoids exploit them to walk, run, and track whole-body motions without vision, but there the contacts are large and forceful. Is joint sensing also enough for precise, contact-rich assembly, where the r...",
       "venue": "arXiv",
-      "date": "2026-10-15",
-      "arxiv_id": "2610.22368v1",
-      "url": "https://arxiv.org/abs/2610.22368v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.22368v1.pdf",
+      "date": "2026-10-16",
+      "arxiv_id": "2610.23849v1",
+      "url": "https://arxiv.org/abs/2610.23849v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.23849v1.pdf",
       "categories": [
         "cs.RO"
       ],
-      "type": "ml",
+      "type": "ai",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "StopWatch: Goal Grounding for Object-goal Navigation",
+      "authors": "Xinhao Liu, Yunsheng Tian, Yuheng Qiu et al.",
+      "abstract": "Pretrained VLMs bring rich world knowledge and semantic priors to object-goal navigation, and fine-tuning a VLM into a navigation policy has become a common recipe. Despite this progress, success rates remain low, and it is unclear which capability these fine-tuned policies lack. Our diagnosis ident...",
+      "venue": "arXiv",
+      "date": "2026-10-16",
+      "arxiv_id": "2610.23841v1",
+      "url": "https://arxiv.org/abs/2610.23841v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.23841v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     }
