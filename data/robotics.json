@@ -1,7 +1,87 @@
 {
-  "last_updated": "2026-10-19",
+  "last_updated": "2026-10-20",
   "count": 200,
   "items": [
+    {
+      "title": "FR-VLA: Implicit Force Reasoning VLA for Contact-Rich Manipulation",
+      "summary": "Integrating force awareness into Vision-Language-Action (VLA) models involves not merely encoding wrench measurements as an additional modality, but determining when and how strongly physical interaction should influence robot action generation. Exis...",
+      "url": "https://arxiv.org/abs/2610.25981v1",
+      "date": "2026-10-19",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.25981v1",
+      "authors": "Jiaju He, Zhiyuan Yang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Reconstruction and Discrete-Event Simulation Assessment of an Analytical",
+      "summary": "This article presents an analytical-DES benchmark for intra-aisle robotic picking in automated warehousing. The investigated cycle combines horizontal shuttle travel, tote handling and item picking at storage locations. Simulation results are compare...",
+      "url": "https://arxiv.org/abs/2610.25967v1",
+      "date": "2026-10-19",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.25967v1",
+      "authors": "Mohsen Reda Mahmoud Moursi, Ahmed Stohy",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "SkateNav: Learning Energy-Efficient Navigation through Adaptive Skating on Passive-Wheel Quadrupedal Robots",
+      "summary": "Passive-wheel quadrupedal robots offer energy-efficient locomotion through leg-driven propulsion and momentum-driven gliding. However, navigation requires coordinating steering with intermittent propulsion and adapting push-glide timing to task deman...",
+      "url": "https://arxiv.org/abs/2610.25962v1",
+      "date": "2026-10-19",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.25962v1",
+      "authors": "Jeil Jeong, Taeyun Kim et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "PaceVLA: Adaptive Temporal Action Quantization in Vision-Language-Action Models",
+      "summary": "Fast and reliable manipulation is crucial for practical robot deployment. Although Vision-Language-Action (VLA) models have recently shown remarkable progress as generalist robot policies, their execution often remains temporally inefficient. A key s...",
+      "url": "https://arxiv.org/abs/2610.25961v1",
+      "date": "2026-10-19",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.25961v1",
+      "authors": "Hojin Jeon, Jimin Lee et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Policy Search in Code Space for Multi-Agent Pathfinding",
+      "summary": "Developing coordination policies for complex multi-agent systems relies on either labor-intensive algorithm design or opaque task-specific reinforcement learning. With recent advances in autonomous coding agents, we show that policy search directly i...",
+      "url": "https://arxiv.org/abs/2610.25946v1",
+      "date": "2026-10-19",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.25946v1",
+      "authors": "Matthias Eder, Pantelis Emmanouil et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
     {
       "title": "[具 身 智 能 淘金热里，华沿机器人选择做机器人通用物理底座",
       "summary": "[具 身 智 能 淘金热里，华沿机器人选择做机器人通用物理底座",
@@ -12,6 +92,32 @@
       "type": "news",
       "tags": [
         "机器人"
+      ]
+    },
+    {
+      "title": "2026全球开发者先锋大会10月上海浦东举办，聚焦具身智能",
+      "summary": "2026全球开发者先锋大会10月上海浦东举办，聚焦具身智能",
+      "url": "http://36kr.com/p/4028273910911365",
+      "date": "2026-10-16",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "从工博会重磅发布具身智能运动基座，看这家机器人企业的具身答卷",
+      "summary": "从工博会重磅发布具身智能运动基座，看这家机器人企业的具身答卷",
+      "url": "http://36kr.com/p/4028012112335490",
+      "date": "2026-10-16",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
       ]
     },
     {
@@ -92,32 +198,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "2026全球开发者先锋大会10月上海浦东举办，聚焦具身智能",
-      "summary": "2026全球开发者先锋大会10月上海浦东举办，聚焦具身智能",
-      "url": "http://36kr.com/p/4028273910911365",
-      "date": "2026-10-16",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "从工博会重磅发布具身智能运动基座，看这家机器人企业的具身答卷",
-      "summary": "从工博会重磅发布具身智能运动基座，看这家机器人企业的具身答卷",
-      "url": "http://36kr.com/p/4028012112335490",
-      "date": "2026-10-16",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
       ]
     },
     {
@@ -2983,86 +3063,6 @@
       "type": "paper",
       "arxiv_id": "2609.20776v1",
       "authors": "Xin Chen, Sen Chen et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "EliGSiR: Continual RGB-D Mapping with Gaussian Splatting under Bounded Compute",
-      "summary": "Conventional 3D Gaussian Splatting assumes a closed set of observations and long optimization schedules. Continual RGB-D mapping in contrast poses the problem that new observations arrive online, while previously reconstructed regions must be preserv...",
-      "url": "https://arxiv.org/abs/2609.20348v1",
-      "date": "2026-09-17",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.20348v1",
-      "authors": "Björn Ellensohn, Elmar Rueckert et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "RoboFind: Multi-Agent Personalized Object Search for People Who Are Blind or Have Low Vision",
-      "summary": "Blind and low-vision users often need to locate a specific personal object rather than an arbitrary instance of the same category. The task calls for a robot that can move through the space and reach viewpoints the user cannot, and for an accessible ...",
-      "url": "https://arxiv.org/abs/2609.20330v1",
-      "date": "2026-09-17",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.20330v1",
-      "authors": "Ruiping Liu, Shaofang Quan et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "GPT-6-Astra in a Navigation Workflow: Behavioral Analysis in Zero-Shot Vision-and-Language Navigation in Continuous Environments",
-      "summary": "We study GPT-6-Astra in a zero-shot Vision-and-Language Navigation in Continuous Environments (VLN-CE) system, where it interprets instructions, assesses its surroundings, and proposes actions. The system uses a common observation--decision--executio...",
-      "url": "https://arxiv.org/abs/2609.20116v1",
-      "date": "2026-09-17",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.20116v1",
-      "authors": "Guangzhao Dai, Qi Wu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Universal Navigation Interface: Robot-Free Data for Wheeled Robot Navigation",
-      "summary": "Collecting real-world navigation data for mobile robots typically requires platform-specific teleoperation, making large-scale collection expensive and difficult to scale. We introduce Universal Navigation Interface (UNI), a robot-free data collectio...",
-      "url": "https://arxiv.org/abs/2609.20114v1",
-      "date": "2026-09-17",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.20114v1",
-      "authors": "Sarvesh Prajapati, Ananya Trivedi et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "AnyViewDex: View-Invariant Dexterous Manipulation from RGB Observations",
-      "summary": "Visuomotor policies for multi-fingered dexterous manipulation are highly sensitive to camera viewpoint shifts. To achieve view invariance, recent methods increasingly rely on explicit 3D modalities like RGB-D or point clouds, which can introduce hard...",
-      "url": "https://arxiv.org/abs/2609.20107v1",
-      "date": "2026-09-17",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.20107v1",
-      "authors": "Soham Patil, Om Sanjay Gunjal et al.",
       "tags": [
         "机器人学习",
         "研究论文",

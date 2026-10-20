@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-19",
-  "last_updated": "2026-10-19",
+  "date": "2026-10-20",
+  "last_updated": "2026-10-20",
   "categories": {
     "ai": {
       "name": "人工智能",
@@ -8,10 +8,22 @@
       "count": 5,
       "items": [
         {
+          "title": "OpenAI只掏出一个6.1 Terra…",
+          "link": "https://www.qbitai.com/?s=OpenAI只掏出一",
+          "summary": "OpenAI只掏出一个6.1 Terra…...",
+          "date": "2026-10-20",
+          "source": "量子位",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
           "title": "同步搭建千比特规模量子算力云平台",
           "link": "https://www.qbitai.com/?s=同步搭建千比特规模量",
           "summary": "同步搭建千比特规模量子算力云平台...",
-          "date": "2026-10-19",
+          "date": "2026-10-20",
           "source": "量子位",
           "type": "industry",
           "tags": [
@@ -23,7 +35,7 @@
           "title": "当AI越来越懂你，如何让智能真正属于你？",
           "link": "https://www.qbitai.com/?s=当AI越来越懂你，如",
           "summary": "当AI越来越懂你，如何让智能真正属于你？...",
-          "date": "2026-10-19",
+          "date": "2026-10-20",
           "source": "量子位",
           "type": "industry",
           "tags": [
@@ -35,7 +47,7 @@
           "title": "2026年10月19日下午，医疗健康世界模型分会场在南京国际博览中心钟山厅举行",
           "link": "https://www.qbitai.com/?s=2026年10月19",
           "summary": "2026年10月19日下午，医疗健康世界模型分会场在南京国际博览中心钟山厅举行...",
-          "date": "2026-10-19",
+          "date": "2026-10-20",
           "source": "量子位",
           "type": "industry",
           "tags": [
@@ -47,19 +59,7 @@
           "title": "10 月 17 日，哲源科技发布 WHIRLPO 计算医学平台。",
           "link": "https://www.qbitai.com/?s=10 月 17 日，",
           "summary": "10 月 17 日，哲源科技发布 WHIRLPO 计算医学平台。...",
-          "date": "2026-10-19",
-          "source": "量子位",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
-          "title": "10月19日，RISC-V中国峰会在深圳举行。",
-          "link": "https://www.qbitai.com/?s=10月19日，RIS",
-          "summary": "10月19日，RISC-V中国峰会在深圳举行。...",
-          "date": "2026-10-19",
+          "date": "2026-10-20",
           "source": "量子位",
           "type": "industry",
           "tags": [

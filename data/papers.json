@@ -1,16 +1,67 @@
 {
-  "last_updated": "2026-10-19",
-  "count": 7,
+  "last_updated": "2026-10-20",
+  "count": 6,
   "items": [
     {
-      "title": "Rethinking the design space of Vanilla Pixel Diffusion Transformers",
-      "authors": "Soumik Mukhopadhyay, Long Mai, Abhinav Shrivastava et al.",
-      "abstract": "Pixel-space diffusion models have recently re-emerged as a compelling alternative to latent diffusion, avoiding the lossy latent bottleneck and separately trained autoencoder. JiT shows that a vanilla diffusion transformer can generate directly in pixel space by replacing the commonly used velocity ...",
+      "title": "Measuring Data Diversity with Embeddings: A Taxonomy and Benchmark for Diversity Measures",
+      "authors": "Cantao Su, Anna Wegmann, Esther Ploeger et al.",
+      "abstract": "Diversity is a critical property of text corpora, with direct implications for training data curation, test set design, and model generalization. However, its measurement remains fragmented and poorly understood. Existing embedding-based diversity measures vary widely in how they are computed and ca...",
       "venue": "arXiv",
-      "date": "2026-10-16",
-      "arxiv_id": "2610.23854v1",
-      "url": "https://arxiv.org/abs/2610.23854v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.23854v1.pdf",
+      "date": "2026-10-17",
+      "arxiv_id": "2610.24888v1",
+      "url": "https://arxiv.org/abs/2610.24888v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.24888v1.pdf",
+      "categories": [
+        "cs.CL",
+        "cs.LG"
+      ],
+      "type": "survey",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "The One-Pixel of Reasoning: One Truthful Relation Is Enough to Mislead LLM Agents",
+      "authors": "Jinwei Hu, Youcheng Sun, Yi Dong et al.",
+      "abstract": "Can one sentence manipulate an agent's belief by targeting a single implicit warrant linking evidence to a conclusion? In this paper, we introduce the one-relation attack (ORA), a novel cognitive attack on this inferential relation. ORA localizes a critical implicit warrant and performs a one-relati...",
+      "venue": "arXiv",
+      "date": "2026-10-17",
+      "arxiv_id": "2610.24873v1",
+      "url": "https://arxiv.org/abs/2610.24873v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.24873v1.pdf",
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.CR"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Goal Images Are Control Targets: Spatially-Grounded Goal-Image Synthesis for Robotic Manipulation",
+      "authors": "Riddhi Chatterjee, Ritish Shrirao, Kushagra Mehrotra et al.",
+      "abstract": "Goal-conditioned manipulation policies are steered by a goal image, a picture of the desired post-manipulation scene synthesized from the current observation and a language instruction. The prevailing assumption is that better image-editing quality yields better goals, so goal generators are built a...",
+      "venue": "arXiv",
+      "date": "2026-10-17",
+      "arxiv_id": "2610.24885v1",
+      "url": "https://arxiv.org/abs/2610.24885v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.24885v1.pdf",
+      "categories": [
+        "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "SpriteStage: Long Horizon Animation Generation via Progressive Scene Programming and Replay",
+      "authors": "Zhaoqi Wang, Zijian Zhang, Jiamou Liu",
+      "abstract": "Video generation models synthesize visual sequences from text and image inputs. Extending video generation to long animations requires actions, dialogue, camera coverage, and narrative developments to remain coordinated across scenes. Executable scene programs make these decisions available for insp...",
+      "venue": "arXiv",
+      "date": "2026-10-17",
+      "arxiv_id": "2610.24869v1",
+      "url": "https://arxiv.org/abs/2610.24869v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.24869v1.pdf",
       "categories": [
         "cs.CV",
         "cs.AI"
@@ -20,82 +71,14 @@
       "source": "arXiv"
     },
     {
-      "title": "Behavioral Couplings: From Formation to Behavioral Emergence in Language Models",
-      "authors": "Dongyoon Hahm, Woogyeol Jin, Dennis Wei et al.",
-      "abstract": "Fine-tuning large language models (LLMs) can induce behaviors beyond those explicitly targeted. For example, training a model to respond more warmly can make it more sycophantic, and training it to write insecure code can cause broad misalignment on prompts unrelated to coding. We refer to a relatio...",
+      "title": "DiPLO: Self-distilled Diffusion Planning for Loco-manipulation",
+      "authors": "Shafeef Omar, Sebastian Sanokowski, Elham Daneshmand et al.",
+      "abstract": "Humanoid loco-manipulation is particularly challenging because it requires coordinating locomotion, balance, and object interaction, making it difficult to learn from limited demonstrations or from scratch through Reinforcement Learning (RL). We introduce DiPLO (self-distilled Diffusion Planning for...",
       "venue": "arXiv",
-      "date": "2026-10-16",
-      "arxiv_id": "2610.23847v1",
-      "url": "https://arxiv.org/abs/2610.23847v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.23847v1.pdf",
-      "categories": [
-        "cs.CL",
-        "cs.AI",
-        "cs.LG"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "AI-Driven Reproducibility and Analytical Robustness in Scientific Discovery",
-      "authors": "Shicheng Liu, Krista Opsahl-Ong, Andrew Drozdov et al.",
-      "abstract": "Reproducible and analytically robust research findings are essential to scientific progress, but evaluating these properties typically requires costly manual effort. We investigate whether LLM agents can help automate reproduction and robustness analysis, using a medical case study grounded in the S...",
-      "venue": "arXiv",
-      "date": "2026-10-16",
-      "arxiv_id": "2610.23845v1",
-      "url": "https://arxiv.org/abs/2610.23845v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.23845v1.pdf",
-      "categories": [
-        "cs.AI",
-        "cs.CL"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Learning to Correct Geometry in Generated Videos",
-      "authors": "Weijie Lyu, Tiancheng Shen, Jason Li et al.",
-      "abstract": "Generated videos often lose geometric consistency under camera motion: structures warp under viewpoint change, parallax becomes inconsistent, and smooth camera movement may collapse into shot-like transitions. We argue that this failure is largely a data problem. In web-scale video corpora, most vis...",
-      "venue": "arXiv",
-      "date": "2026-10-16",
-      "arxiv_id": "2610.23856v1",
-      "url": "https://arxiv.org/abs/2610.23856v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.23856v1.pdf",
-      "categories": [
-        "cs.CV"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Task-aligned spectral inductive biases in parameterized quantum circuits",
-      "authors": "Felix Frohnert, Adrián Pérez-Salinas, Sebastian Lange et al.",
-      "abstract": "Parameterized quantum circuits are widely investigated in quantum machine learning, yet how their architecture can provide task-aligned inductive biases remains poorly understood. We study data reuploading quantum circuits with two distinct inputs: a signal that varies between samples and a fixed, t...",
-      "venue": "arXiv",
-      "date": "2026-10-16",
-      "arxiv_id": "2610.23834v1",
-      "url": "https://arxiv.org/abs/2610.23834v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.23834v1.pdf",
-      "categories": [
-        "quant-ph",
-        "cs.LG"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Blind Precise Assembly: Proprioceptive Sim-to-Real Peg-in-Hole for Diverse Parts",
-      "authors": "Antonia Bronars, Younghyo Park, Kushal Kedia et al.",
-      "abstract": "Every robot already carries high-resolution contact sensors: its own joints. Legged robots and humanoids exploit them to walk, run, and track whole-body motions without vision, but there the contacts are large and forceful. Is joint sensing also enough for precise, contact-rich assembly, where the r...",
-      "venue": "arXiv",
-      "date": "2026-10-16",
-      "arxiv_id": "2610.23849v1",
-      "url": "https://arxiv.org/abs/2610.23849v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.23849v1.pdf",
+      "date": "2026-10-17",
+      "arxiv_id": "2610.24847v1",
+      "url": "https://arxiv.org/abs/2610.24847v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.24847v1.pdf",
       "categories": [
         "cs.RO"
       ],
@@ -104,19 +87,18 @@
       "source": "arXiv"
     },
     {
-      "title": "StopWatch: Goal Grounding for Object-goal Navigation",
-      "authors": "Xinhao Liu, Yunsheng Tian, Yuheng Qiu et al.",
-      "abstract": "Pretrained VLMs bring rich world knowledge and semantic priors to object-goal navigation, and fine-tuning a VLM into a navigation policy has become a common recipe. Despite this progress, success rates remain low, and it is unclear which capability these fine-tuned policies lack. Our diagnosis ident...",
+      "title": "Escape Without a Recipe: Maneuver-Agnostic Mars Rover Recovery from Granular Entrapment",
+      "authors": "Meraj Hossain Promit, Chandak Chakma, Md Jubair Ahmed Sourov et al.",
+      "abstract": "Wheeled planetary rovers immobilised in loose regolith have no principled recovery controller: scripted maneuvers are terrain-specific, and naive driving deepens entrapment. We introduce a recurrent policy that learns to escape without a predefined maneuver. The framework rests on a verified trap: i...",
       "venue": "arXiv",
-      "date": "2026-10-16",
-      "arxiv_id": "2610.23841v1",
-      "url": "https://arxiv.org/abs/2610.23841v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.23841v1.pdf",
+      "date": "2026-10-17",
+      "arxiv_id": "2610.24827v1",
+      "url": "https://arxiv.org/abs/2610.24827v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.24827v1.pdf",
       "categories": [
-        "cs.CV",
         "cs.RO"
       ],
-      "type": "vision",
+      "type": "ai",
       "badge": "arxiv",
       "source": "arXiv"
     }
