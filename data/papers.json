@@ -1,39 +1,107 @@
 {
   "last_updated": "2026-10-20",
-  "count": 2,
+  "count": 6,
   "items": [
     {
-      "title": "Scalable and Adaptive Distribution Regression via Random Features",
-      "authors": "Yinsong Wang, Xiao Liu, Yu Ding",
-      "abstract": "Distribution regression seeks to learn mappings from probability distributions to response variables and has emerged as a unifying framework for kernel methods, multi-instance learning, and set-valued learning. Despite its success, kernel-based distribution regression remains computationally expensi...",
+      "title": "OpenVLHarness: Real World Visual Agentic Tool-Use with Multimodal Memory",
+      "authors": "Yu Zhou, Cheng-Fu Yang, Rui Sun et al.",
+      "abstract": "Multimodal large language models (MLLMs) have made rapid progress on visual reasoning, yet many tasks require evidence that is difficult to obtain through internal reasoning alone: our controlled study on 22 benchmarks shows that simply increasing the inference budget of the base model yields only m...",
       "venue": "arXiv",
-      "date": "2026-10-17",
-      "arxiv_id": "2610.24892v1",
-      "url": "https://arxiv.org/abs/2610.24892v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.24892v1.pdf",
+      "date": "2026-10-19",
+      "arxiv_id": "2610.26860v1",
+      "url": "https://arxiv.org/abs/2610.26860v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.26860v1.pdf",
       "categories": [
-        "stat.ML",
-        "cs.LG"
+        "cs.CL",
+        "cs.AI",
+        "cs.CV"
       ],
-      "type": "ml",
+      "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Query-Dependent Reading for Quantized Inner-Product Estimation: A Minimax Separation",
-      "authors": "Krishnakumar Balasubramanian, Siddharth Bhandari, Shiva Prasad Kasiviswanathan",
-      "abstract": "We study quantization for inner-product estimation when storage and reading have separate budgets. In the static bit-probe model [Yao, 1981], an encoder stores $w$ bits about $x$ before seeing a query $y$, and a reader probes at most $r<w$ bits to estimate $x^\\top y$. Both vectors lie in the $d$-dim...",
+      "title": "Reinforcement Learning with Visually Attributable On-Policy Self-Distillation",
+      "authors": "Shiao Xie, Siyu Chen, Jianwei Lv et al.",
+      "abstract": "Multimodal reinforcement learning with verifiable rewards (RLVR) provides reliable task-level supervision, yet offers limited guidance for localizing errors in visual reasoning. On-policy self-distillation (OPSD) complements this supervision with dense token-level corrections from a privileged teach...",
       "venue": "arXiv",
-      "date": "2026-10-17",
-      "arxiv_id": "2610.24890v1",
-      "url": "https://arxiv.org/abs/2610.24890v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.24890v1.pdf",
+      "date": "2026-10-19",
+      "arxiv_id": "2610.26856v1",
+      "url": "https://arxiv.org/abs/2610.26856v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.26856v1.pdf",
       "categories": [
-        "cs.IT",
-        "cs.DS",
-        "cs.LG"
+        "cs.CV",
+        "cs.AI"
       ],
-      "type": "ml",
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Can It Actually Work? Synthesizing Functional CAD Mechanisms",
+      "authors": "Wenqian Zhang, Yangyi Huang, Zigeng Xu et al.",
+      "abstract": "While LLM agents can generate visually plausible CAD assemblies, these designs often fail to fulfill their intended physical functions. We study functional CAD design, a setting where agents interpret underspecified requests to construct and iteratively revise mechanisms that satisfy functional requ...",
+      "venue": "arXiv",
+      "date": "2026-10-19",
+      "arxiv_id": "2610.26861v1",
+      "url": "https://arxiv.org/abs/2610.26861v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.26861v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.CL",
+        "cs.GR"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Text-to-Image Generative Modeling Without Language Pretraining",
+      "authors": "Keshigeyan Chandrasegaran, Yue Zhao, Armin W. Thomas et al.",
+      "abstract": "Modern text-to-image (T2I) systems use internet-scale language pretraining for text-conditioned image generation. We ask whether language pretraining is necessary for strong T2I generation. We introduce Halcyon, a family of early-fusion multimodal autoregressive models pretrained entirely from scrat...",
+      "venue": "arXiv",
+      "date": "2026-10-19",
+      "arxiv_id": "2610.26863v1",
+      "url": "https://arxiv.org/abs/2610.26863v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.26863v1.pdf",
+      "categories": [
+        "cs.LG",
+        "cs.CV"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Ropedia W0: Scaling Loco-Manipulation World Models across Embodiments with Human Experience",
+      "authors": "Tianqi Liu, Hanfei Zhao, Qifeng Liang et al.",
+      "abstract": "World models enable embodied agents to anticipate action consequences, yet jointly modeling locomotion and manipulation across diverse embodiments remains challenging due to heterogeneous action spaces and limited multimodal supervision. We present Ropedia W0, the first egocentric loco-manipulation ...",
+      "venue": "arXiv",
+      "date": "2026-10-19",
+      "arxiv_id": "2610.26855v1",
+      "url": "https://arxiv.org/abs/2610.26855v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.26855v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Physical Words: A Vocabulary for Structuring Latent Reasoning in Robot Manipulation",
+      "authors": "Jiaming Liu, Xinghao Zhu, Yiming Zhang et al.",
+      "abstract": "Multimodal reasoning provides robotic foundation models with predictive context needed for reliable action generation. However, language-based reasoning captures task semantics but struggles to express fine-grained physical dynamics, while latent reasoning models future state evolution but offers li...",
+      "venue": "arXiv",
+      "date": "2026-10-19",
+      "arxiv_id": "2610.26854v1",
+      "url": "https://arxiv.org/abs/2610.26854v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.26854v1.pdf",
+      "categories": [
+        "cs.RO"
+      ],
+      "type": "ai",
       "badge": "arxiv",
       "source": "arXiv"
     }
