@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-10-20",
+  "last_updated": "2026-10-21",
   "count": 200,
   "items": [
     {
       "title": "[大疆/影石/启元/寻影加码AI影像，不会拍照的机器人不是好 具 身 智 能？",
       "summary": "[大疆/影石/启元/寻影加码AI影像，不会拍照的机器人不是好 具 身 智 能？",
       "url": "http://36kr.com/p/4033889613796999",
-      "date": "2026-10-20",
+      "date": "2026-10-21",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
@@ -18,12 +18,105 @@
       "title": "[具 身 智 能 淘金热里，华沿机器人选择做机器人通用物理底座",
       "summary": "[具 身 智 能 淘金热里，华沿机器人选择做机器人通用物理底座",
       "url": "http://36kr.com/p/4028012112335490",
-      "date": "2026-10-20",
+      "date": "2026-10-21",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
       "tags": [
         "机器人"
+      ]
+    },
+    {
+      "title": "EventSync: Event-Driven Memory Updates for History-Dependent Manipulation",
+      "summary": "History-dependent robotic manipulation requires task context and interaction history, as the current observation alone is insufficient to determine the next action. Hierarchical frameworks use task memory for high-level subgoal reasoning and low-leve...",
+      "url": "https://arxiv.org/abs/2610.27917v1",
+      "date": "2026-10-20",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.27917v1",
+      "authors": "Jingjiao Zhao, Dong Jing et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "What Novice Operators See Changes What the Policy Learns: A User Study of Keypoint Hand Visual Representation for Teleoperated Demonstration",
+      "summary": "Imitation learning increasingly relies on novice operators, whose demonstrations fall short of experts' in number and inter-trial consistency. Operators act on what they are shown, yet how the rendering of the robot affects their demonstrations, and ...",
+      "url": "https://arxiv.org/abs/2610.27907v1",
+      "date": "2026-10-20",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.27907v1",
+      "authors": "Amane Yamaguchi, Shohei Kamiguchi et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "High-Precision RCM Motion for Ophthalmic Robotics via Hierarchical QP Control and Authority-Guided Recovery Planning",
+      "summary": "General-purpose manipulators can position ophthalmic instruments under a software Remote Centre of Motion (RCM). However, at some reachable configurations that are nonsingular for the tip task alone, the RCM and tip-tracking objectives conflict and t...",
+      "url": "https://arxiv.org/abs/2610.27905v1",
+      "date": "2026-10-20",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.27905v1",
+      "authors": "Huanyu Tian, Adriana Namour et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Enumeration-Guided Training of Neural Hamilton-Jacobi Safety Certificates",
+      "summary": "Hamilton-Jacobi (HJ) reachability analysis offers formal safety guarantees for control systems, but training accurate neural certificates remains difficult, particularly when unsafe regions are hard to characterize. We propose a verification-guided t...",
+      "url": "https://arxiv.org/abs/2610.27870v1",
+      "date": "2026-10-20",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.27870v1",
+      "authors": "Mihaela-Larisa Clement, Tosca Pierro et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Frontier LLMs Enter the World of Robotics: A Cross-Model Evaluation on RoboColiseum",
+      "summary": "Recent studies have explored the potential of multimodal large language models for robot control, yet the models' embodied capabilities remain insufficiently characterized across models, tasks, and execution settings. We conduct a multidimensional co...",
+      "url": "https://arxiv.org/abs/2610.27865v1",
+      "date": "2026-10-20",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.27865v1",
+      "authors": "Da Huang, Jichao Wang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "中美具身智能创投差异大，炒作泡沫需警惕真实落地。",
+      "summary": "中美具身智能创投差异大，炒作泡沫需警惕真实落地。",
+      "url": "http://36kr.com/p/4030864289026435",
+      "date": "2026-10-19",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
       ]
     },
     {
@@ -2976,96 +3069,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "LunaDrive: A Delay-Compensated High-Voltage GaN FET-Based Motor Driver for Dynamic Robots with Flat BLDC Motors",
-      "summary": "The performance improvement of high-power flat BLDC motors has accelerated the development of dynamic robots. However, many commercially available servo motors assume operating voltages of 48 V or lower, which limits the maximum rotational speed. Dyn...",
-      "url": "https://arxiv.org/abs/2609.21818v1",
-      "date": "2026-09-18",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.21818v1",
-      "authors": "Sota Yuzaki, Temma Suzuki et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "A Sim-to-Real Integration Pipeline for Training and Deployment of Chunk-Based VLA Manipulation Policies",
-      "summary": "Vision-Language-Action (VLA) models have become a prominent paradigm for mapping multimodal inputs, including semantic instructions, visual observations of the scene, and proprioceptive observations, to robot actions. Most state-of-the-art models pre...",
-      "url": "https://arxiv.org/abs/2609.21817v1",
-      "date": "2026-09-18",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.21817v1",
-      "authors": "Mathilde Kappel, Clémence Grislain et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Contact-Rich Motion Planning via GPU-Parallel Mode Evaluation",
-      "summary": "Contact-rich motion planning (CRMP) is essential for robotic manipulation and locomotion, yet remains computationally challenging due to combinatorial contact decisions. Existing methods typically avoid broad evaluation of contact-mode sequences thro...",
-      "url": "https://arxiv.org/abs/2609.21803v1",
-      "date": "2026-09-18",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.21803v1",
-      "authors": "Jiayun Li, Georgia Chalvatzaki",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "AcousticDiffusion: Semantically Conditioned Audio-Guided Diffusion Policy for Search-and-Rescue Assistance",
-      "summary": "Navigating toward human callers is an important capability for rescue robots operating where visual contact is degraded or occluded. We present AcousticDiffusion, a semantically conditioned, audio-guided diffusion policy for human-directed navigation...",
-      "url": "https://arxiv.org/abs/2609.21792v1",
-      "date": "2026-09-18",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.21792v1",
-      "authors": "Iana Zhura, Didar Seyidov et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "[重磅发现：GPT-6 Astra实现 具 身 智 能 突破，中国如何打具身防卫战？",
-      "summary": "[重磅发现：GPT-6 Astra实现 具 身 智 能 突破，中国如何打具身防卫战？",
-      "url": "http://36kr.com/p/3985769854974977",
-      "date": "2026-09-18",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "GitHub仿真测评：GPT-6Astra混合架构具身智能领先",
-      "summary": "GitHub仿真测评：GPT-6Astra混合架构具身智能领先",
-      "url": "http://36kr.com/p/3986303263390466",
-      "date": "2026-09-17",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
       ]
     }
   ]
