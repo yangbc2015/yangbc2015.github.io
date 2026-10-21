@@ -27,6 +27,86 @@
       ]
     },
     {
+      "title": "Joints, Camera, Action! Co-Generating 3D Motion and Video for Arbitrary Rigs",
+      "summary": "Video generation models can now depict remarkably realistic motion. Yet it is unclear how to use this motion beyond pixels: to animate a specific 3D asset and replay the animation in its 3D scene. For instance, a video model can show a monkey jumping...",
+      "url": "https://arxiv.org/abs/2610.28632v1",
+      "date": "2026-10-20",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.28632v1",
+      "authors": "Noam Rotstein, Yoad Tewel et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Learning Adaptable Dexterous Skills via Hybrid Dexterous Mimicking",
+      "summary": "Dexterous multi-finger hands hold promise to unlock diverse skills like functional grasps, in-hand reorientation, and dynamic handover that the human-designed world assumes, yet existing learning recipes force a trade-off. Goal-reaching reinforcement...",
+      "url": "https://arxiv.org/abs/2610.28628v1",
+      "date": "2026-10-20",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.28628v1",
+      "authors": "Yuxuan Kuang, Jiashun Wang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "UniWALM: Unified World Action Language Model for Embodied Robot Control",
+      "summary": "Motivated by the human ability to integrate experience across language, perception, and action, we introduce UniWALM, a unified world-action-language model that learns video, action, and language in a single shared representation, where each modality...",
+      "url": "https://arxiv.org/abs/2610.28626v1",
+      "date": "2026-10-20",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.28626v1",
+      "authors": "Rahul Sajnani, Diego Romeres et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Industrial ReMEmbR: Scaling Spatiotemporal Memory to Robot Fleets",
+      "summary": "Warehouse robot fleets continuously observe operational conditions, but preserving these observations as reusable semantic memory incurs substantial computation, communication, and storage costs. For example, explaining recurring aisle blockages can ...",
+      "url": "https://arxiv.org/abs/2610.28624v1",
+      "date": "2026-10-20",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.28624v1",
+      "authors": "Jad Yammine, Malek Wahidi et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Planning under Noise with Neural Operators",
+      "summary": "Planning under uncertain control execution noise requires reliable feedback policies across diverse environments. We introduce Planning Under Noise (PUN), a neural operator that learns noise-aware value fields for planning in unseen geometries. Build...",
+      "url": "https://arxiv.org/abs/2610.28623v1",
+      "date": "2026-10-20",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.28623v1",
+      "authors": "Michael Chen, Hong Chul Nam et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
       "title": "EventSync: Event-Driven Memory Updates for History-Dependent Manipulation",
       "summary": "History-dependent robotic manipulation requires task context and interaction history, as the current observation alone is insufficient to determine the next action. Hierarchical frameworks use task memory for high-level subgoal reasoning and low-leve...",
       "url": "https://arxiv.org/abs/2610.27917v1",
@@ -2985,86 +3065,6 @@
       "type": "paper",
       "arxiv_id": "2609.22085v1",
       "authors": "Saksham Singh, Zheyuan Hu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "LIMBO: Learning and Internalizing Model-Free Barrier Objectives for Agile and Safe Whole-Body Control",
-      "summary": "Safe whole-body control requires coordinating collision avoidance and balance under high-dimensional, nonlinear dynamics--making safety certificates difficult to design and reuse across behaviors. We present LIMBO, a framework for synthesizing a stat...",
-      "url": "https://arxiv.org/abs/2609.22075v1",
-      "date": "2026-09-18",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.22075v1",
-      "authors": "Jake Gonzales, Arturo Flores Alvarez et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Duty Factor Predicts Robust Constrained Quadrupedal Locomotion Across Gait Types",
-      "summary": "Quadrupedal robots are increasingly deployed in environments where locomotion must remain robust to disturbances and constrained terrain. Gait type, such as walking or trotting, is commonly used to characterize quadrupedal locomotion. However, gait t...",
-      "url": "https://arxiv.org/abs/2609.22073v1",
-      "date": "2026-09-18",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.22073v1",
-      "authors": "James Zhu, David Ologan et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Gripper-Aware Automatic Dense Packing of Irregular Objects",
-      "summary": "Automatic dense packing is widely desired in warehouse operations but remains a fundamental challenge in robotic manipulation. Existing work on irregular-object packing largely targets simulation with idealized contact, treating the object as an isol...",
-      "url": "https://arxiv.org/abs/2609.22062v1",
-      "date": "2026-09-18",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.22062v1",
-      "authors": "Tianhao Qin, Connor McCann et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Benchmarking World Models for Continual Learning on Compositional Tasks",
-      "summary": "A desirable property of a world model is the ability to learn continually across tasks, adapting to new environments without forgetting what the agent has already learnt. In particular, the ability to retain and reuse knowledge obtained from prior ex...",
-      "url": "https://arxiv.org/abs/2609.22055v1",
-      "date": "2026-09-18",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.22055v1",
-      "authors": "Haoyu Zhou, Joe Watson et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "PopNavShift: Stress-Testing Social Navigation under Behavioral Population Shift",
-      "summary": "Social-navigation algorithms are often evaluated under a fixed pedestrian-behavior distribution, despite substantial variation in pedestrian responses to robots across individuals and social contexts. We introduce PopNavShift, a matched simulation fr...",
-      "url": "https://arxiv.org/abs/2609.21838v1",
-      "date": "2026-09-18",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.21838v1",
-      "authors": "Kaizhen Tan, Diyu Zheng et al.",
       "tags": [
         "机器人学习",
         "研究论文",
