@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-10-21",
-  "count": 6,
+  "count": 4,
   "items": [
     {
       "title": "Joints, Camera, Action! Co-Generating 3D Motion and Video for Arbitrary Rigs",
@@ -68,40 +68,6 @@
         "cs.AI"
       ],
       "type": "benchmark",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "AEON: Unifying Video and 3D World Models",
-      "authors": "Weiqi Zhang, Wenyuan Zhang, Yu-Shen Liu et al.",
-      "abstract": "Current world models for explicit world simulation typically follow two distinct pathways: (1) video generative models (e.g., Sora), which simulate realistic appearances but fail to preserve 3D consistency; and (2) 3D generative models (e.g., Marble), which generate geometrically consistent scenes b...",
-      "venue": "arXiv",
-      "date": "2026-10-20",
-      "arxiv_id": "2610.28631v1",
-      "url": "https://arxiv.org/abs/2610.28631v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.28631v1.pdf",
-      "categories": [
-        "cs.CV"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Learning Adaptable Dexterous Skills via Hybrid Dexterous Mimicking",
-      "authors": "Yuxuan Kuang, Jiashun Wang, Yixuan Sun et al.",
-      "abstract": "Dexterous multi-finger hands hold promise to unlock diverse skills like functional grasps, in-hand reorientation, and dynamic handover that the human-designed world assumes, yet existing learning recipes force a trade-off. Goal-reaching reinforcement learning generalizes to arbitrary object poses bu...",
-      "venue": "arXiv",
-      "date": "2026-10-20",
-      "arxiv_id": "2610.28628v1",
-      "url": "https://arxiv.org/abs/2610.28628v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.28628v1.pdf",
-      "categories": [
-        "cs.RO",
-        "cs.CV",
-        "cs.GR"
-      ],
-      "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     }
