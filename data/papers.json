@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-10-21",
-  "count": 8,
+  "count": 6,
   "items": [
     {
       "title": "Joints, Camera, Action! Co-Generating 3D Motion and Video for Arbitrary Rigs",
@@ -102,39 +102,6 @@
         "cs.GR"
       ],
       "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "EventSync: Event-Driven Memory Updates for History-Dependent Manipulation",
-      "authors": "Jingjiao Zhao, Dong Jing, Mingyu Cao et al.",
-      "abstract": "History-dependent robotic manipulation requires task context and interaction history, as the current observation alone is insufficient to determine the next action. Hierarchical frameworks use task memory for high-level subgoal reasoning and low-level policies for execution. However, memory updates ...",
-      "venue": "arXiv",
-      "date": "2026-10-20",
-      "arxiv_id": "2610.27917v1",
-      "url": "https://arxiv.org/abs/2610.27917v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.27917v1.pdf",
-      "categories": [
-        "cs.RO"
-      ],
-      "type": "ai",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "What Novice Operators See Changes What the Policy Learns: A User Study of Keypoint Hand Visual Representation for Teleoperated Demonstration",
-      "authors": "Amane Yamaguchi, Shohei Kamiguchi, Masashi Hamaya et al.",
-      "abstract": "Imitation learning increasingly relies on novice operators, whose demonstrations fall short of experts' in number and inter-trial consistency. Operators act on what they are shown, yet how the rendering of the robot affects their demonstrations, and the policies trained on them, has not been examine...",
-      "venue": "arXiv",
-      "date": "2026-10-20",
-      "arxiv_id": "2610.27907v1",
-      "url": "https://arxiv.org/abs/2610.27907v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.27907v1.pdf",
-      "categories": [
-        "cs.RO",
-        "cs.HC"
-      ],
-      "type": "ai",
       "badge": "arxiv",
       "source": "arXiv"
     }
