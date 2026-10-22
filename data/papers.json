@@ -1,52 +1,67 @@
 {
-  "last_updated": "2026-10-21",
-  "count": 4,
+  "last_updated": "2026-10-22",
+  "count": 10,
   "items": [
     {
-      "title": "Joints, Camera, Action! Co-Generating 3D Motion and Video for Arbitrary Rigs",
-      "authors": "Noam Rotstein, Yoad Tewel, Chen Tessler et al.",
-      "abstract": "Video generation models can now depict remarkably realistic motion. Yet it is unclear how to use this motion beyond pixels: to animate a specific 3D asset and replay the animation in its 3D scene. For instance, a video model can show a monkey jumping over a crossbar, but it cannot return that jump a...",
+      "title": "The Reflexivity Threshold: A Phase Transition for Multi-Agent Performative Prediction",
+      "authors": "Ahmed Mahrous, Roberto Di Pietro",
+      "abstract": "Many learning systems are performative: once deployed, their predictions change the data distribution on which future models are trained. In multi-agent settings, this feedback is routed through a network of interacting learners, so stability depends not only on the strength of performativity but al...",
       "venue": "arXiv",
-      "date": "2026-10-20",
-      "arxiv_id": "2610.28632v1",
-      "url": "https://arxiv.org/abs/2610.28632v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.28632v1.pdf",
+      "date": "2026-10-21",
+      "arxiv_id": "2610.29577v1",
+      "url": "https://arxiv.org/abs/2610.29577v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.29577v1.pdf",
       "categories": [
-        "cs.CV",
-        "cs.AI",
-        "cs.GR"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "GBClaw: An agentic AI framework for atomistic grain boundary research and mechanistic discovery",
-      "authors": "Yazhuo Liu, Kunqing Ding, Xiaoguo Gong et al.",
-      "abstract": "Agentic artificial intelligence (AI) systems hold immense potential for automating complex workflows in materials discovery and design, but extending them to domain-intensive mechanistic investigations remains challenging. Here, we present GBClaw, an agentic AI framework for investigating the struct...",
-      "venue": "arXiv",
-      "date": "2026-10-20",
-      "arxiv_id": "2610.28629v1",
-      "url": "https://arxiv.org/abs/2610.28629v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.28629v1.pdf",
-      "categories": [
-        "cond-mat.mtrl-sci",
-        "cond-mat.mes-hall",
+        "cs.LG",
         "cs.AI"
       ],
-      "type": "ai",
+      "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "NarraSpace: Multimodal Scene-Grounded Evidence for Picture-Description Dementia Classification",
-      "authors": "Qingming Li, Ruiyan Sun, Satoshi Nakamura",
-      "abstract": "Picture-description dementia classification uses a shared visual scene, but a transcript-level prediction alone does not identify the scene evidence underlying its inputs. NarraSpace links words and speech times to named picture elements and retrieves utterances for predefined scene events. Narrativ...",
+      "title": "Stochastic Pruning of the DPO Computation Graph: 1.4x Faster Training and Lower Peak Memory",
+      "authors": "Yubing Wu, Wei Chen, Junmei Yang et al.",
+      "abstract": "Direct preference optimization (DPO) incurs training costs in output scoring, sequence execution, and backpropagation, so reducing supervision alone does not necessarily save computation. We introduce a unified framework for stochastic pruning of the DPO computation graph that independently samples ...",
       "venue": "arXiv",
-      "date": "2026-10-20",
-      "arxiv_id": "2610.28616v1",
-      "url": "https://arxiv.org/abs/2610.28616v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.28616v1.pdf",
+      "date": "2026-10-21",
+      "arxiv_id": "2610.29538v1",
+      "url": "https://arxiv.org/abs/2610.29538v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.29538v1.pdf",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "WRDO: Weighted Refusal Direction Optimization in Aligned Language Models",
+      "authors": "Grigoriy Evseev, Vladimir Solodkin, Dmitry Bylinkin et al.",
+      "abstract": "Aligned large language models are trained to comply with benign requests while refusing harmful ones. However, recent work shows that this refusal behavior is fragile and can often be disrupted by simple activation- or weight-space interventions. In particular, refusal has been shown to be largely m...",
+      "venue": "arXiv",
+      "date": "2026-10-21",
+      "arxiv_id": "2610.29555v1",
+      "url": "https://arxiv.org/abs/2610.29555v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.29555v1.pdf",
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "PACE: Periodic and Channel-Aligned Encoding of Four-Bit Recurrent States",
+      "authors": "Patrick Haller, Filipe Laitenberger, Alan Akbik",
+      "abstract": "Linear-attention language models keep their context in a recurrent state of fixed size, where an inference system stores one copy of this state for every sequence it decodes at the same time. Storing the state at lower precision therefore lets more sequences share an accelerator. Existing state quan...",
+      "venue": "arXiv",
+      "date": "2026-10-21",
+      "arxiv_id": "2610.29545v1",
+      "url": "https://arxiv.org/abs/2610.29545v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.29545v1.pdf",
       "categories": [
         "cs.CL"
       ],
@@ -55,19 +70,102 @@
       "source": "arXiv"
     },
     {
-      "title": "Benchmarking Arabic Dialects for Math Problems",
-      "authors": "Noor Abo Mokh, Teresa Lynn, Nizar Habash et al.",
-      "abstract": "Mathematical reasoning remains underexplored for low-resource languages, including Dialectal Arabic. To bridge this gap, we introduce the DAR-MGSM (Dialectal Arabic Multilingual Grade School Math) Benchmark, the first manually curated benchmark for evaluating mathematical reasoning in Dialectal Arab...",
+      "title": "Rethinking Video Autoencoders for Interactive World Models",
+      "authors": "Adrien Ramanana Rahary, Yutong Bai, Nicolas Dufour et al.",
+      "abstract": "Video world models predict future frames from past frames and actions. They serve as simulators in which agents train, plan or are evaluated, and that humans can control interactively. They generate in the latent space of a video autoencoder, whose compression sets their cost per frame and how long ...",
       "venue": "arXiv",
-      "date": "2026-10-20",
-      "arxiv_id": "2610.28607v1",
-      "url": "https://arxiv.org/abs/2610.28607v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.28607v1.pdf",
+      "date": "2026-10-21",
+      "arxiv_id": "2610.30129v1",
+      "url": "https://arxiv.org/abs/2610.30129v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.30129v1.pdf",
       "categories": [
-        "cs.CL",
-        "cs.AI"
+        "cs.CV"
       ],
-      "type": "benchmark",
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "VoxProg: 3D Spatial Reasoning through Voxel Programming",
+      "authors": "Zhichao Zhai, Menglei Zhao, Guikun Chen et al.",
+      "abstract": "Language models' abilities to interpret tasks and generate programs offer a promising basis for 3D spatial reasoning. Yet following spatial instructions in 3D scenes requires programs to construct geometric references that language leaves implicit. In this work, we introduce VoxProg, which formulate...",
+      "venue": "arXiv",
+      "date": "2026-10-21",
+      "arxiv_id": "2610.30127v1",
+      "url": "https://arxiv.org/abs/2610.30127v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.30127v1.pdf",
+      "categories": [
+        "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Near Minimax Rate for Quantile Distributional Reinforcement Learning",
+      "authors": "Zijie Cheng, Zhihua Zhang",
+      "abstract": "In this paper, we study quantile distributional policy evaluation, where the return distribution under a given policy is approximated by the quantile Bellman fixed point $\\bmη_m$. We investigate the statistical accuracy of estimating $\\bmη_m$ across quantile resolutions under Wasserstein distances. ...",
+      "venue": "arXiv",
+      "date": "2026-10-21",
+      "arxiv_id": "2610.29595v1",
+      "url": "https://arxiv.org/abs/2610.29595v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.29595v1.pdf",
+      "categories": [
+        "stat.ML",
+        "cs.LG"
+      ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "A Transfer Learning-Driven Methodology for Efficient and Sustainable Indoor Localization Using VLC",
+      "authors": "Masood Jan, Wafa Njima, Xun Zhang et al.",
+      "abstract": "The rapid expansion of the Internet of Things enables seamless collaboration among connected devices, making indoor localization a critical component of industrial automation. However, conventional localization techniques struggle in dynamic environments. These methods depend on extensive, frequent ...",
+      "venue": "arXiv",
+      "date": "2026-10-21",
+      "arxiv_id": "2610.29594v1",
+      "url": "https://arxiv.org/abs/2610.29594v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.29594v1.pdf",
+      "categories": [
+        "cs.LG",
+        "eess.SP"
+      ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Agentic World Action Models",
+      "authors": "Zhuoyang Liu, Dantong Niu, Botong Zhang et al.",
+      "abstract": "Recent world action models provide visual foresight and future prediction for robot manipulation, but lack explicit mechanisms for compositional skill reuse. Agentic robotics combines code-based planning and reasoning with reusable skills, but often lacks predictive grounding in physical dynamics. W...",
+      "venue": "arXiv",
+      "date": "2026-10-21",
+      "arxiv_id": "2610.30136v1",
+      "url": "https://arxiv.org/abs/2610.30136v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.30136v1.pdf",
+      "categories": [
+        "cs.RO"
+      ],
+      "type": "ai",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "PhysiCalWorld: In-Context Physics Calibration for World Models",
+      "authors": "Yunhao Luo, Wentao He, Yinpei Dai et al.",
+      "abstract": "Existing world models typically perceive a scene through current visual frame or a narrow history window. However, these observations may not reveal the physics properties that determine transition dynamics, such as an object's mass distribution, joint damping, or surface friction. Without calibrati...",
+      "venue": "arXiv",
+      "date": "2026-10-21",
+      "arxiv_id": "2610.30125v1",
+      "url": "https://arxiv.org/abs/2610.30125v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.30125v1.pdf",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.CV"
+      ],
+      "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     }

@@ -1,17 +1,97 @@
 {
-  "last_updated": "2026-10-21",
+  "last_updated": "2026-10-22",
   "count": 200,
   "items": [
     {
       "title": "[大疆/影石/启元/寻影加码AI影像，不会拍照的机器人不是好 具 身 智 能？",
       "summary": "[大疆/影石/启元/寻影加码AI影像，不会拍照的机器人不是好 具 身 智 能？",
       "url": "http://36kr.com/p/4033889613796999",
-      "date": "2026-10-21",
+      "date": "2026-10-22",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
       "tags": [
         "机器人"
+      ]
+    },
+    {
+      "title": "End-to-End Reinforcement Learning for Quadrupedal Jumping in Lunar Gravity",
+      "summary": "Legged robots can extend planetary exploration to rugged and discontinuous terrain that is inaccessible to conventional rovers. In lunar gravity, jumping further expands this mobility by enabling robots to cross obstacles and gaps that cannot be trav...",
+      "url": "https://arxiv.org/abs/2610.29586v1",
+      "date": "2026-10-21",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.29586v1",
+      "authors": "Levin Müller, Oliver Fischer et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Joint-Angle Invariance of Jacobian-Based Performance Indices for Serial Robotic Manipulators",
+      "summary": "This article investigates the joint-angle invariance (JAI) of Jacobian-based performance indices for serial robotic manipulators. We identify kinematic conditions under which representative performance indices, including manipulability, stiffness, an...",
+      "url": "https://arxiv.org/abs/2610.29570v1",
+      "date": "2026-10-21",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.29570v1",
+      "authors": "Yaohua Zhou, Mingdao Lin et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Mixture of Flow Matching and Particle Filter for Proprioception-Based Online Contact Estimation",
+      "summary": "In this article, we propose ContactFlowFilter, a novel approach for contact estimation that determines the number of active contacts, their locations, and the associated force vectors. We consider a robot manipulator equipped with joint torque sensor...",
+      "url": "https://arxiv.org/abs/2610.29568v1",
+      "date": "2026-10-21",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.29568v1",
+      "authors": "Seo Wook Han, Min Jun Kim",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Preserving Operator Intent Under Actuation Constraints: Teleoperation of Manipulators with Coupled Transmissions",
+      "summary": "Teleoperation enables intuitive control of remote engineering robots for precision tasks. Existing direct joint-mapping methods have two limitations: independent motor saturation disrupts pitch-roll coordination in differential wrists, while fixed ma...",
+      "url": "https://arxiv.org/abs/2610.29565v1",
+      "date": "2026-10-21",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.29565v1",
+      "authors": "Xuhan Miao, Zijin Han et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "From VLM Planners to Robotic Agents: Self-Evolving Harnesses for History-Dependent Manipulation",
+      "summary": "Vision-language-action (VLA) models achieve strong performance across embodied manipulation tasks by unifying visual understanding, language conditioning, and action generation. However, long-horizon tasks can involve non-Markovian dependencies: succ...",
+      "url": "https://arxiv.org/abs/2610.29560v1",
+      "date": "2026-10-21",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.29560v1",
+      "authors": "Tingwen Du, Haoyu Guo et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
       ]
     },
     {
@@ -24,6 +104,44 @@
       "type": "news",
       "tags": [
         "机器人"
+      ]
+    },
+    {
+      "title": "影像与机器人技术交汇的必然。",
+      "summary": "影像与机器人技术交汇的必然。",
+      "url": "http://36kr.com/p/4033889613796999",
+      "date": "2026-10-20",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
+      "title": "小派科技获智元觅蜂科技战略融资，将合力布局具身智能数据建设",
+      "summary": "小派科技获智元觅蜂科技战略融资，将合力布局具身智能数据建设",
+      "url": "http://36kr.com/p/4032443469976200",
+      "date": "2026-10-20",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "具身智能融资IPO收紧，降温待业绩估值验证。",
+      "summary": "具身智能融资IPO收紧，降温待业绩估值验证。",
+      "url": "http://36kr.com/p/4033011189733252",
+      "date": "2026-10-20",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
       ]
     },
     {
@@ -2943,128 +3061,6 @@
       "type": "paper",
       "arxiv_id": "2609.24906v1",
       "authors": "Abhinav Jain, Cindy Grimm et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "启元机器人牵手苏州睿芯，具身智能算力进入拼架构时代",
-      "summary": "启元机器人牵手苏州睿芯，具身智能算力进入拼架构时代",
-      "url": "http://36kr.com/p/3991470804876288",
-      "date": "2026-09-20",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "Identity Continuity in Long-Term Embodied AI Relationships: From Agent-Specific Identity Representation to Identity-Continuity Appraisal",
-      "summary": "Long-term embodied AI will undergo learning, model updates, memory compression, hardware repair, and migration across embodiments. For users who have formed sustained relationships with such systems, these changes raise not only a problem of product ...",
-      "url": "https://arxiv.org/abs/2609.23356v1",
-      "date": "2026-09-20",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.23356v1",
-      "authors": "Zijian Ru",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "BiView-Touch: Learning Bimanual Tactile Representations by Cross-Hand Completion",
-      "summary": "Bimanual interaction produces complementary tactile views of the same physical process, yet existing tactile representation learning largely models the two hands independently or combines them only for downstream prediction, leaving their cross-hand ...",
-      "url": "https://arxiv.org/abs/2609.23352v1",
-      "date": "2026-09-20",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.23352v1",
-      "authors": "Chenxin Liang, Youchen Lai et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Manipulation Feasible Navigation Among Movable Obstacles with Discrete Contact Pushing",
-      "summary": "In environments with large movable obstacles, detour-only navigation can be inefficient or even infeasible, while obstacle interaction requires reasoning about navigation benefit, feasible placement, and executable manipulation. We present a hierarch...",
-      "url": "https://arxiv.org/abs/2609.23312v1",
-      "date": "2026-09-20",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.23312v1",
-      "authors": "Shaohu Wang, Aiguo Song et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Shared Execution-Clock Drifting Policy for Dynamic Precision Manipulation",
-      "summary": "Manipulation under time constraints requires both accurate actions and an execution rhythm that matches the evolving scene. This becomes critical when a robot must intercept moving objects or complete a sequence of adjustments before a deadline. Alth...",
-      "url": "https://arxiv.org/abs/2609.23305v1",
-      "date": "2026-09-20",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.23305v1",
-      "authors": "Zhenchen Dong, Qingran Wu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Safety-Critical Control under Uncertainty via Adaptive Conformal Quantile Prediction Intervals",
-      "summary": "Safety-critical control under uncertainty requires uncertainty representations that are both statistically valid (for certifiable performance) and compatible with enforceable safety constraints. However, existing methods often assume particular distr...",
-      "url": "https://arxiv.org/abs/2609.23280v1",
-      "date": "2026-09-20",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.23280v1",
-      "authors": "Hao Zhou, Yanze Zhang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "2026国际具身智能技能大赛全球高校赛队招募中，参赛即认证，优胜获创投对接。",
-      "summary": "2026国际具身智能技能大赛全球高校赛队招募中，参赛即认证，优胜获创投对接。",
-      "url": "http://36kr.com/p/3988391975009024",
-      "date": "2026-09-18",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "SeeQ: Training Generalist Value Functions for Long-Horizon Robotic Manipulation",
-      "summary": "Despite rapid progress, generalist robot policies remain brittle on complex, long-horizon tasks that comprise multiple stages or require repeated attempts and deliberation on the same underlying stage before success. Q-value functions can improve the...",
-      "url": "https://arxiv.org/abs/2609.22085v1",
-      "date": "2026-09-18",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.22085v1",
-      "authors": "Saksham Singh, Zheyuan Hu et al.",
       "tags": [
         "机器人学习",
         "研究论文",
