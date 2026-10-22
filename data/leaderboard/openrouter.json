@@ -13,10 +13,10 @@
     },
     {
       "rank": 2,
-      "model": "minimax-m3.1-flash:free",
+      "model": "minimax-m3.1-flash",
       "organization": "minimax",
-      "price_prompt": "0",
-      "price_completion": "0",
+      "price_prompt": "0.00000015",
+      "price_completion": "0.0000006",
       "context_length": 1000000
     },
     {
@@ -47,7 +47,7 @@
       "rank": 6,
       "model": "beam-1.0-501b-a23b",
       "organization": "reflection",
-      "price_prompt": "0.0000003",
+      "price_prompt": "0.00000025",
       "price_completion": "0.000001",
       "context_length": 1048576
     },
