@@ -1,52 +1,19 @@
 {
   "last_updated": "2026-10-22",
-  "count": 10,
+  "count": 6,
   "items": [
     {
-      "title": "The Reflexivity Threshold: A Phase Transition for Multi-Agent Performative Prediction",
-      "authors": "Ahmed Mahrous, Roberto Di Pietro",
-      "abstract": "Many learning systems are performative: once deployed, their predictions change the data distribution on which future models are trained. In multi-agent settings, this feedback is routed through a network of interacting learners, so stability depends not only on the strength of performativity but al...",
+      "title": "Think Harder Where It Matters: Item-Level Adaptive Recursion for Sequential Recommendation",
+      "authors": "Zhanshuo Cao, Jiakai Tang, Yuqi Zhou et al.",
+      "abstract": "Existing sequential recommenders usually allocate a fixed computational budget to every item in a user's interaction history, regardless of the item's contribution to the final prediction. We challenge this de facto design with two diagnostic findings. (1) Non-uniform computational need: items withi...",
       "venue": "arXiv",
       "date": "2026-10-21",
-      "arxiv_id": "2610.29577v1",
-      "url": "https://arxiv.org/abs/2610.29577v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.29577v1.pdf",
+      "arxiv_id": "2610.30128v1",
+      "url": "https://arxiv.org/abs/2610.30128v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.30128v1.pdf",
       "categories": [
-        "cs.LG",
-        "cs.AI"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Stochastic Pruning of the DPO Computation Graph: 1.4x Faster Training and Lower Peak Memory",
-      "authors": "Yubing Wu, Wei Chen, Junmei Yang et al.",
-      "abstract": "Direct preference optimization (DPO) incurs training costs in output scoring, sequence execution, and backpropagation, so reducing supervision alone does not necessarily save computation. We introduce a unified framework for stochastic pruning of the DPO computation graph that independently samples ...",
-      "venue": "arXiv",
-      "date": "2026-10-21",
-      "arxiv_id": "2610.29538v1",
-      "url": "https://arxiv.org/abs/2610.29538v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.29538v1.pdf",
-      "categories": [
-        "cs.LG",
-        "cs.AI"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "WRDO: Weighted Refusal Direction Optimization in Aligned Language Models",
-      "authors": "Grigoriy Evseev, Vladimir Solodkin, Dmitry Bylinkin et al.",
-      "abstract": "Aligned large language models are trained to comply with benign requests while refusing harmful ones. However, recent work shows that this refusal behavior is fragile and can often be disrupted by simple activation- or weight-space interventions. In particular, refusal has been shown to be largely m...",
-      "venue": "arXiv",
-      "date": "2026-10-21",
-      "arxiv_id": "2610.29555v1",
-      "url": "https://arxiv.org/abs/2610.29555v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.29555v1.pdf",
-      "categories": [
-        "cs.LG",
+        "cs.IR",
+        "cs.AI",
         "cs.CL"
       ],
       "type": "nlp",
@@ -54,16 +21,35 @@
       "source": "arXiv"
     },
     {
-      "title": "PACE: Periodic and Channel-Aligned Encoding of Four-Bit Recurrent States",
-      "authors": "Patrick Haller, Filipe Laitenberger, Alan Akbik",
-      "abstract": "Linear-attention language models keep their context in a recurrent state of fixed size, where an inference system stores one copy of this state for every sequence it decodes at the same time. Storing the state at lower precision therefore lets more sequences share an accelerator. Existing state quan...",
+      "title": "PhysiCalWorld: In-Context Physics Calibration for World Models",
+      "authors": "Yunhao Luo, Wentao He, Yinpei Dai et al.",
+      "abstract": "Existing world models typically perceive a scene through current visual frame or a narrow history window. However, these observations may not reveal the physics properties that determine transition dynamics, such as an object's mass distribution, joint damping, or surface friction. Without calibrati...",
       "venue": "arXiv",
       "date": "2026-10-21",
-      "arxiv_id": "2610.29545v1",
-      "url": "https://arxiv.org/abs/2610.29545v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.29545v1.pdf",
+      "arxiv_id": "2610.30125v1",
+      "url": "https://arxiv.org/abs/2610.30125v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.30125v1.pdf",
       "categories": [
-        "cs.CL"
+        "cs.RO",
+        "cs.AI",
+        "cs.CV"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "LongZero: Enhancing Long-Context Reasoning in LLMs from Zero Data",
+      "authors": "Zhennan Wan, Jianfei Chen",
+      "abstract": "Reinforcement learning (RL) is an effective way to strengthen the long-context reasoning of large language models (LLMs), but it needs training data that are long, diverse, challenging, and verifiable. Human annotation of such data is expensive, naturally occurring data are too scarce to sustain RL,...",
+      "venue": "arXiv",
+      "date": "2026-10-21",
+      "arxiv_id": "2610.30132v1",
+      "url": "https://arxiv.org/abs/2610.30132v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.30132v1.pdf",
+      "categories": [
+        "cs.CL",
+        "cs.LG"
       ],
       "type": "nlp",
       "badge": "arxiv",
@@ -102,40 +88,6 @@
       "source": "arXiv"
     },
     {
-      "title": "Near Minimax Rate for Quantile Distributional Reinforcement Learning",
-      "authors": "Zijie Cheng, Zhihua Zhang",
-      "abstract": "In this paper, we study quantile distributional policy evaluation, where the return distribution under a given policy is approximated by the quantile Bellman fixed point $\\bmη_m$. We investigate the statistical accuracy of estimating $\\bmη_m$ across quantile resolutions under Wasserstein distances. ...",
-      "venue": "arXiv",
-      "date": "2026-10-21",
-      "arxiv_id": "2610.29595v1",
-      "url": "https://arxiv.org/abs/2610.29595v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.29595v1.pdf",
-      "categories": [
-        "stat.ML",
-        "cs.LG"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "A Transfer Learning-Driven Methodology for Efficient and Sustainable Indoor Localization Using VLC",
-      "authors": "Masood Jan, Wafa Njima, Xun Zhang et al.",
-      "abstract": "The rapid expansion of the Internet of Things enables seamless collaboration among connected devices, making indoor localization a critical component of industrial automation. However, conventional localization techniques struggle in dynamic environments. These methods depend on extensive, frequent ...",
-      "venue": "arXiv",
-      "date": "2026-10-21",
-      "arxiv_id": "2610.29594v1",
-      "url": "https://arxiv.org/abs/2610.29594v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.29594v1.pdf",
-      "categories": [
-        "cs.LG",
-        "eess.SP"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
       "title": "Agentic World Action Models",
       "authors": "Zhuoyang Liu, Dantong Niu, Botong Zhang et al.",
       "abstract": "Recent world action models provide visual foresight and future prediction for robot manipulation, but lack explicit mechanisms for compositional skill reuse. Agentic robotics combines code-based planning and reasoning with reusable skills, but often lacks predictive grounding in physical dynamics. W...",
@@ -148,24 +100,6 @@
         "cs.RO"
       ],
       "type": "ai",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "PhysiCalWorld: In-Context Physics Calibration for World Models",
-      "authors": "Yunhao Luo, Wentao He, Yinpei Dai et al.",
-      "abstract": "Existing world models typically perceive a scene through current visual frame or a narrow history window. However, these observations may not reveal the physics properties that determine transition dynamics, such as an object's mass distribution, joint damping, or surface friction. Without calibrati...",
-      "venue": "arXiv",
-      "date": "2026-10-21",
-      "arxiv_id": "2610.30125v1",
-      "url": "https://arxiv.org/abs/2610.30125v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.30125v1.pdf",
-      "categories": [
-        "cs.RO",
-        "cs.AI",
-        "cs.CV"
-      ],
-      "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     }
