@@ -1,17 +1,97 @@
 {
-  "last_updated": "2026-10-22",
+  "last_updated": "2026-10-23",
   "count": 200,
   "items": [
     {
       "title": "[大疆/影石/启元/寻影加码AI影像，不会拍照的机器人不是好 具 身 智 能？",
       "summary": "[大疆/影石/启元/寻影加码AI影像，不会拍照的机器人不是好 具 身 智 能？",
       "url": "http://36kr.com/p/4033889613796999",
-      "date": "2026-10-22",
+      "date": "2026-10-23",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
       "tags": [
         "机器人"
+      ]
+    },
+    {
+      "title": "Sensorimotor Alignment: A Platonic Proxy for Embodied Policy Success",
+      "summary": "Robotic foundation models are typically evaluated through costly closed-loop rollouts, which motivates cheap offline proxies for model capability. The Platonic Representation Hypothesis (PRH) suggests that as representations improve, different modali...",
+      "url": "https://arxiv.org/abs/2610.31670v1",
+      "date": "2026-10-22",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.31670v1",
+      "authors": "Yunfei Xie, Howard H. Qian et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "OpenTac: An Open Ecosystem for Customizable, Scalable, and Transferable 3D Tactile Sensing",
+      "summary": "We present OpenTac, a novel sensor and a full-stack ecosystem for tactile skins that are highly customizable, scalable, and readily deployed in downstream robot control and learning applications. Our core contribution is twofold. First, we develop a ...",
+      "url": "https://arxiv.org/abs/2610.31661v1",
+      "date": "2026-10-22",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.31661v1",
+      "authors": "Ariel Slepyan, Geeta Chandra Raju Bethala et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Extending Harmonic Function Methods via Root Locus for Coordinated Path Generation",
+      "summary": "We consider the offline generation of coordinated paths for N interchangeable robots and N goals in planar environments with polygonal obstacles. After a conformal map to a circular domain, starts and goals become the poles and zeros of a rational fu...",
+      "url": "https://arxiv.org/abs/2610.31625v1",
+      "date": "2026-10-22",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.31625v1",
+      "authors": "Matteo Frascarelli, Lucia Pallottino et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "DiffDreamer: Coupling World Models with Differentiable Simulation for Agile Quadrotor Control",
+      "summary": "Tasks such as quadrotor dynamic-gate racing require agents to anticipate external motion while maintaining precise high-frequency control. World-model-based reinforcement learning provides a natural solution by learning latent dynamics for future ima...",
+      "url": "https://arxiv.org/abs/2610.31617v1",
+      "date": "2026-10-22",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.31617v1",
+      "authors": "Fanxing Li, Yuxiang Huang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Progress Probes $P^2$: Lightweight Runtime Monitoring for Vision-Language-Action Models",
+      "summary": "Vision-Language-Action (VLA) models can perform diverse manipulation tasks directly from visual observations and natural language instructions, but they remain prone to mistakes and unpredictable failures. Deploying these policies without continuous ...",
+      "url": "https://arxiv.org/abs/2610.31613v1",
+      "date": "2026-10-22",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.31613v1",
+      "authors": "Atiksh Bhardwaj, Edward W. Duan et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
       ]
     },
     {
@@ -2991,80 +3071,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "Leveraging Vision-Based Point Cloud Map Priors for Camera-Based 3D Object Detection and Online Vectorized HD Mapping",
-      "summary": "Camera-based 3D object detection and online vectorized HD mapping provide compact scene representations for autonomous driving, but both depend on accurate metric geometry and remain limited by depth ambiguity. Over long-term deployment, observations...",
-      "url": "https://arxiv.org/abs/2609.26325v1",
-      "date": "2026-09-22",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.26325v1",
-      "authors": "Markus Käppeler, Rohit Mohan et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "ArborSplat: Online Semantic Gaussian Splatting SLAM for Orchards",
-      "summary": "Orchard robots need maps that preserve small but semantically important structures such as trunks, trellises, and fruit. 3D Gaussian Splatting (3DGS) SLAM achieves high photometric fidelity. However, its optimization remains appearance-driven, and tr...",
-      "url": "https://arxiv.org/abs/2609.26315v1",
-      "date": "2026-09-22",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.26315v1",
-      "authors": "Alessandro Masini, Matteo Frosi et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "TriWorldBench: A Tri-View Consistency Perspective on Embodied World Models",
-      "summary": "Embodied world models predict the outcomes of robot actions to support learning and planning. For robots equipped with head and wrist cameras, this requires complementary views: the head view captures the overall task, while wrist views reveal local ...",
-      "url": "https://arxiv.org/abs/2609.26314v1",
-      "date": "2026-09-22",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.26314v1",
-      "authors": "Xuanyi Liu, Haofeng Wang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "具身智能遇数据瓶颈，“造治用通”破局，多赛道存商机",
-      "summary": "具身智能遇数据瓶颈，“造治用通”破局，多赛道存商机",
-      "url": "http://36kr.com/p/3993043256514439",
-      "date": "2026-09-21",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "具身智能的竞争，正在从“机器人本体”进一步向“大脑”迁移”。",
-      "summary": "具身智能的竞争，正在从“机器人本体”进一步向“大脑”迁移”。",
-      "url": "http://36kr.com/p/3991407916137220",
-      "date": "2026-09-21",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
       ]
     }
   ]

@@ -1,18 +1,17 @@
 {
-  "last_updated": "2026-10-22",
+  "last_updated": "2026-10-23",
   "count": 6,
   "items": [
     {
-      "title": "Think Harder Where It Matters: Item-Level Adaptive Recursion for Sequential Recommendation",
-      "authors": "Zhanshuo Cao, Jiakai Tang, Yuqi Zhou et al.",
-      "abstract": "Existing sequential recommenders usually allocate a fixed computational budget to every item in a user's interaction history, regardless of the item's contribution to the final prediction. We challenge this de facto design with two diagnostic findings. (1) Non-uniform computational need: items withi...",
+      "title": "Direct Pass@$k$ Optimization for Thought Pruning: Balancing Quality and Diversity in Test-Time Reasoning",
+      "authors": "Mahdi Salmani, Adel Javanmard, Devansh Gupta et al.",
+      "abstract": "Test-time scaling has emerged as a key inference strategy for reasoning models, where a model generates a large number of candidate solutions in the hope of finding at least one correct solution. Running all candidate solutions to completion can be computationally demanding, so recent work prunes th...",
       "venue": "arXiv",
-      "date": "2026-10-21",
-      "arxiv_id": "2610.30128v1",
-      "url": "https://arxiv.org/abs/2610.30128v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.30128v1.pdf",
+      "date": "2026-10-22",
+      "arxiv_id": "2610.31667v1",
+      "url": "https://arxiv.org/abs/2610.31667v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.31667v1.pdf",
       "categories": [
-        "cs.IR",
         "cs.AI",
         "cs.CL"
       ],
@@ -21,83 +20,88 @@
       "source": "arXiv"
     },
     {
-      "title": "PhysiCalWorld: In-Context Physics Calibration for World Models",
-      "authors": "Yunhao Luo, Wentao He, Yinpei Dai et al.",
-      "abstract": "Existing world models typically perceive a scene through current visual frame or a narrow history window. However, these observations may not reveal the physics properties that determine transition dynamics, such as an object's mass distribution, joint damping, or surface friction. Without calibrati...",
+      "title": "Cost-Aware Abstention for LLM-Based IT Ticket Classification",
+      "authors": "Sachin Gupta",
+      "abstract": "Wrong automatic routing of an IT support ticket can cost more than human triage. We evaluate cost-aware abstention as an offline, cost-conditional readiness assessment: select a routing policy on calibration data under explicit costs, then evaluate that frozen policy once on held-out test data. On a...",
       "venue": "arXiv",
-      "date": "2026-10-21",
-      "arxiv_id": "2610.30125v1",
-      "url": "https://arxiv.org/abs/2610.30125v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.30125v1.pdf",
+      "date": "2026-10-22",
+      "arxiv_id": "2610.31657v1",
+      "url": "https://arxiv.org/abs/2610.31657v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.31657v1.pdf",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "A Unified Framework for Image-to-3D Part Generation via Variable Granularity",
+      "authors": "Qiwen Gu, Xin Zhou, Xiwu Chen et al.",
+      "abstract": "Controllable 3D part generation is pivotal for digital asset creation, yet existing methods lack the flexibility to accommodate diverse user workflows requiring varying levels of control. In this paper, we introduce FlexPart, a unified image-to-3D part generation framework that supports variable-gra...",
+      "venue": "arXiv",
+      "date": "2026-10-22",
+      "arxiv_id": "2610.31671v1",
+      "url": "https://arxiv.org/abs/2610.31671v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.31671v1.pdf",
+      "categories": [
+        "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Sensorimotor Alignment: A Platonic Proxy for Embodied Policy Success",
+      "authors": "Yunfei Xie, Howard H. Qian, Shiyi Lan et al.",
+      "abstract": "Robotic foundation models are typically evaluated through costly closed-loop rollouts, which motivates cheap offline proxies for model capability. The Platonic Representation Hypothesis (PRH) suggests that as representations improve, different modalities such as vision and language converge toward a...",
+      "venue": "arXiv",
+      "date": "2026-10-22",
+      "arxiv_id": "2610.31670v1",
+      "url": "https://arxiv.org/abs/2610.31670v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.31670v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.LG",
+        "cs.RO"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Phase Transition from Random Features to Fully Trainable Networks",
+      "authors": "Xin He, Huan Lao, Xiliang Lu et al.",
+      "abstract": "Constructing accurate and computationally tractable approximation spaces is a fundamental task in scientific computing. Partially trainable neural networks bridge fixed random features and fully adaptive representations. This paper quantifies a phase transition pattern in approximation bounds and ob...",
+      "venue": "arXiv",
+      "date": "2026-10-22",
+      "arxiv_id": "2610.31663v1",
+      "url": "https://arxiv.org/abs/2610.31663v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.31663v1.pdf",
+      "categories": [
+        "math.NA",
+        "cs.LG",
+        "math.ST"
+      ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "OpenTac: An Open Ecosystem for Customizable, Scalable, and Transferable 3D Tactile Sensing",
+      "authors": "Ariel Slepyan, Geeta Chandra Raju Bethala, Jiafeng Gu et al.",
+      "abstract": "We present OpenTac, a novel sensor and a full-stack ecosystem for tactile skins that are highly customizable, scalable, and readily deployed in downstream robot control and learning applications. Our core contribution is twofold. First, we develop a scalable resistive tactile skin with a structured ...",
+      "venue": "arXiv",
+      "date": "2026-10-22",
+      "arxiv_id": "2610.31661v1",
+      "url": "https://arxiv.org/abs/2610.31661v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.31661v1.pdf",
       "categories": [
         "cs.RO",
-        "cs.AI",
-        "cs.CV"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "LongZero: Enhancing Long-Context Reasoning in LLMs from Zero Data",
-      "authors": "Zhennan Wan, Jianfei Chen",
-      "abstract": "Reinforcement learning (RL) is an effective way to strengthen the long-context reasoning of large language models (LLMs), but it needs training data that are long, diverse, challenging, and verifiable. Human annotation of such data is expensive, naturally occurring data are too scarce to sustain RL,...",
-      "venue": "arXiv",
-      "date": "2026-10-21",
-      "arxiv_id": "2610.30132v1",
-      "url": "https://arxiv.org/abs/2610.30132v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.30132v1.pdf",
-      "categories": [
-        "cs.CL",
-        "cs.LG"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Rethinking Video Autoencoders for Interactive World Models",
-      "authors": "Adrien Ramanana Rahary, Yutong Bai, Nicolas Dufour et al.",
-      "abstract": "Video world models predict future frames from past frames and actions. They serve as simulators in which agents train, plan or are evaluated, and that humans can control interactively. They generate in the latent space of a video autoencoder, whose compression sets their cost per frame and how long ...",
-      "venue": "arXiv",
-      "date": "2026-10-21",
-      "arxiv_id": "2610.30129v1",
-      "url": "https://arxiv.org/abs/2610.30129v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.30129v1.pdf",
-      "categories": [
-        "cs.CV"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "VoxProg: 3D Spatial Reasoning through Voxel Programming",
-      "authors": "Zhichao Zhai, Menglei Zhao, Guikun Chen et al.",
-      "abstract": "Language models' abilities to interpret tasks and generate programs offer a promising basis for 3D spatial reasoning. Yet following spatial instructions in 3D scenes requires programs to construct geometric references that language leaves implicit. In this work, we introduce VoxProg, which formulate...",
-      "venue": "arXiv",
-      "date": "2026-10-21",
-      "arxiv_id": "2610.30127v1",
-      "url": "https://arxiv.org/abs/2610.30127v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.30127v1.pdf",
-      "categories": [
-        "cs.CV"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Agentic World Action Models",
-      "authors": "Zhuoyang Liu, Dantong Niu, Botong Zhang et al.",
-      "abstract": "Recent world action models provide visual foresight and future prediction for robot manipulation, but lack explicit mechanisms for compositional skill reuse. Agentic robotics combines code-based planning and reasoning with reusable skills, but often lacks predictive grounding in physical dynamics. W...",
-      "venue": "arXiv",
-      "date": "2026-10-21",
-      "arxiv_id": "2610.30136v1",
-      "url": "https://arxiv.org/abs/2610.30136v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.30136v1.pdf",
-      "categories": [
-        "cs.RO"
+        "eess.SP",
+        "eess.SY"
       ],
       "type": "ai",
       "badge": "arxiv",
