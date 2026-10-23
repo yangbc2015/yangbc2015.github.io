@@ -1,9 +1,33 @@
 {
   "last_updated": "2026-10-23",
   "count": 200,
-  "history_count": 200,
+  "history_count": 202,
   "retention_days": 30,
   "items": [
+    {
+      "title": "10月22日，2026科大讯飞全球1024开发者节在北京国家会议中心开幕",
+      "link": "https://www.qbitai.com/?s=10月22日，202",
+      "summary": "10月22日，2026科大讯飞全球1024开发者节在北京国家会议中心开幕...",
+      "date": "2026-10-23",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "特赞想让企业Agent真正懂业务",
+      "link": "https://www.qbitai.com/?s=特赞想让企业Agen",
+      "summary": "特赞想让企业Agent真正懂业务...",
+      "date": "2026-10-23",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
     {
       "title": "10月22日，蚂蚁数科正式发布决策模型 LingDT-Decision-1.0。",
       "link": "https://www.qbitai.com/?s=10月22日，蚂蚁数",
@@ -41,6 +65,18 @@
       ]
     },
     {
+      "title": "*   [Latest](http://techcrunch.com/latest/)",
+      "link": "https://techcrunch.com/category/artificial-intelligence/",
+      "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
+      "date": "2026-10-23",
+      "source": "TechCrunch",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "Artificial Intelligence"
+      ]
+    },
+    {
       "title": "10月21日，生数科技世界模型团队正式开启Motubrain 2.0训练全流程公开直播",
       "link": "https://www.qbitai.com/?s=10月21日，生数科",
       "summary": "10月21日，生数科技世界模型团队正式开启Motubrain 2.0训练全流程公开直播...",
@@ -62,18 +98,6 @@
       "tags": [
         "AI",
         "人工智能"
-      ]
-    },
-    {
-      "title": "*   [Latest](http://techcrunch.com/latest/)",
-      "link": "https://techcrunch.com/category/artificial-intelligence/",
-      "summary": "*   [Startups](http://techcrunch.com/category/startups/)",
-      "date": "2026-10-23",
-      "source": "TechCrunch",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "Artificial Intelligence"
       ]
     },
     {
@@ -2374,30 +2398,6 @@
       "summary": "9月18日，在第一届中国网络空间安全大会上，《网络安全人才实战能力报告—AI赋能篇》正式发布...",
       "date": "2026-09-21",
       "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "拿下开源生图第一，千问Qwen-Image-2.1把生图卷出新高度",
-      "link": "https://www.jiqizhixin.com/search/articles/拿下开源生图第一，千问Qwen",
-      "summary": "拿下开源生图第一，千问Qwen-Image-2.1把生图卷出新高度...",
-      "date": "2026-09-20",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "EMNLP 2026 | 通过分解生成与动态自反馈，构建工具调用合成数据",
-      "link": "https://www.jiqizhixin.com/search/articles/EMNLP 2026 | 通过",
-      "summary": "EMNLP 2026 | 通过分解生成与动态自反馈，构建工具调用合成数据...",
-      "date": "2026-09-20",
-      "source": "机器之心",
       "type": "industry",
       "tags": [
         "AI",
