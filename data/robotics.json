@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-10-23",
+  "last_updated": "2026-10-24",
   "count": 200,
   "items": [
     {
       "title": "[大疆/影石/启元/寻影加码AI影像，不会拍照的机器人不是好 具 身 智 能？",
       "summary": "[大疆/影石/启元/寻影加码AI影像，不会拍照的机器人不是好 具 身 智 能？",
       "url": "http://36kr.com/p/4033889613796999",
-      "date": "2026-10-23",
+      "date": "2026-10-24",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
@@ -92,6 +92,19 @@
         "机器人学习",
         "研究论文",
         "arXiv"
+      ]
+    },
+    {
+      "title": "辉羲智能完成超25亿融资，发力具身智能芯片研发与生态建设",
+      "summary": "辉羲智能完成超25亿融资，发力具身智能芯片研发与生态建设",
+      "url": "http://36kr.com/p/4036678855513736",
+      "date": "2026-10-22",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
       ]
     },
     {
@@ -3051,22 +3064,6 @@
       "type": "paper",
       "arxiv_id": "2609.26378v1",
       "authors": "Jinhe Tang, Ruixiao Dai et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Hierarchical Floorplan-Guided Vision-Language Exploration for Embodied Question Answering",
-      "summary": "Embodied Question Answering (EQA) requires an agent to explore a previously unseen environment, gather relevant information, and answer questions about the scene. Recent approaches leverage Vision-Language Models (VLMs) together with semantic maps or...",
-      "url": "https://arxiv.org/abs/2609.26360v1",
-      "date": "2026-09-22",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.26360v1",
-      "authors": "Albert Gassol Puigjaner, Kostas Alexis",
       "tags": [
         "机器人学习",
         "研究论文",
