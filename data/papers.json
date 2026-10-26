@@ -1,40 +1,7 @@
 {
   "last_updated": "2026-10-26",
-  "count": 10,
+  "count": 6,
   "items": [
-    {
-      "title": "Interpretable Singing Emotion Recognition Using Acoustic and Vocal Technique Features",
-      "authors": "Fotini Kiriakopoulou, Vassilis Lyberatos, Spyridon Kantarelis et al.",
-      "abstract": "Singing emotion recognition relies predominantly on deep learning models that achieve strong performance but offer limited insight into the vocal characteristics driving emotion, of- ten overlooking the singing voice as a distinct signal. We propose an interpretable singing emotion recognition frame...",
-      "venue": "arXiv",
-      "date": "2026-10-23",
-      "arxiv_id": "2610.32629v1",
-      "url": "https://arxiv.org/abs/2610.32629v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.32629v1.pdf",
-      "categories": [
-        "cs.SD",
-        "cs.AI"
-      ],
-      "type": "ai",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "LGMT: A Tool for Testing the Logical Reasoning Reliability of LLMs",
-      "authors": "Zenghui Zhou, Xiaoke Fang, Zheng Zheng",
-      "abstract": "Large Language Models (LLMs) increasingly serve as reasoning components in modern software systems, yet a model that answers a logical query correctly can contradict itself when the same problem is restated in an equivalent form. Static benchmarks evaluate queries in isolation and therefore fail to ...",
-      "venue": "arXiv",
-      "date": "2026-10-23",
-      "arxiv_id": "2610.32627v1",
-      "url": "https://arxiv.org/abs/2610.32627v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.32627v1.pdf",
-      "categories": [
-        "cs.AI"
-      ],
-      "type": "ai",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
     {
       "title": "The Language of Instruction: Genre and Generative AI",
       "authors": "James E. Dobson",
@@ -137,38 +104,6 @@
         "cs.LG"
       ],
       "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "OWLS: Open-world Language-conditioned Speed Fields for Zero-Shot Rover Navigation",
-      "authors": "Chahyon Ku, Erica Tevere, Georgios Georgakis et al.",
-      "abstract": "Semantics can provide a proxy for physical traversability. Terrain that looks like loose sand or a rock field is likely to have similar physical properties. Open-vocabulary vision-language models (VLMs) enable this physical reasoning over terrain outside any fixed label set. We present Open-world La...",
-      "venue": "arXiv",
-      "date": "2026-10-23",
-      "arxiv_id": "2610.32596v1",
-      "url": "https://arxiv.org/abs/2610.32596v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.32596v1.pdf",
-      "categories": [
-        "cs.RO"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "UAV-SwarmAgent: Scalable Multi-UAV Reconnaissance and Task Allocation via Code Generation and Vision-Language Reasoning",
-      "authors": "Oleg Sautenkov, Yasheerah Yaqoot, Muhammad Ahsan Mustafa et al.",
-      "abstract": "Supervising a multi-UAV reconnaissance mission usually means plotting waypoints and watching every drone. We present UAV SwarmAgent, a hierarchical multi-agent system in which an operator states the mission in one natural-language sentence and a ground-station agent writes and executes code that tur...",
-      "venue": "arXiv",
-      "date": "2026-10-23",
-      "arxiv_id": "2610.32559v1",
-      "url": "https://arxiv.org/abs/2610.32559v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.32559v1.pdf",
-      "categories": [
-        "cs.RO"
-      ],
-      "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     }
