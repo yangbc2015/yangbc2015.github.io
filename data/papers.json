@@ -3,6 +3,42 @@
   "count": 6,
   "items": [
     {
+      "title": "SceneBloom: Agentic Indoor Environment Generation with Realistic and Diverse Layouts for Embodied Learning",
+      "authors": "Yuhan Liu, Lianhui Qin, Shenji Wan",
+      "abstract": "Training generalizable embodied agents requires realistic, varied, and simulation-ready indoor environments. Language-guided methods support semantic planning and object-level reasoning, but precise spatial grounding remains difficult. Visual generative models offer rich priors over plausible arrang...",
+      "venue": "arXiv",
+      "date": "2026-10-23",
+      "arxiv_id": "2610.32978v1",
+      "url": "https://arxiv.org/abs/2610.32978v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.32978v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.RO"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "RobustRLlib: A Unified Library and Benchmark for Robust Reinforcement Learning Algorithms",
+      "authors": "Xi Chen, Fengqi Hu, Zeyu Shen et al.",
+      "abstract": "Robust reinforcement learning (RL) is critical for reliable real-world deployment, where policies may fail under diverse shifts and disruptions. Existing robust RL algorithms offer a rich set of mechanisms and principles, yet two major barriers limit their broader potential: limited algorithm reusab...",
+      "venue": "arXiv",
+      "date": "2026-10-23",
+      "arxiv_id": "2610.32971v1",
+      "url": "https://arxiv.org/abs/2610.32971v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.32971v1.pdf",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.RO"
+      ],
+      "type": "benchmark",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
       "title": "The Language of Instruction: Genre and Generative AI",
       "authors": "James E. Dobson",
       "abstract": "This article argues that instruction-fine-tuned language models should be understood as implementing a genre, what is proposed as the instructional-conversational genre. This genre is an amalgamation of discursive language from prior conversations between generative models and humans recursively run...",
@@ -38,24 +74,6 @@
       "source": "arXiv"
     },
     {
-      "title": "SceneBloom: Agentic Indoor Environment Generation with Realistic and Diverse Layouts for Embodied Learning",
-      "authors": "Yuhan Liu, Lianhui Qin, Shenji Wan",
-      "abstract": "Training generalizable embodied agents requires realistic, varied, and simulation-ready indoor environments. Language-guided methods support semantic planning and object-level reasoning, but precise spatial grounding remains difficult. Visual generative models offer rich priors over plausible arrang...",
-      "venue": "arXiv",
-      "date": "2026-10-23",
-      "arxiv_id": "2610.32978v1",
-      "url": "https://arxiv.org/abs/2610.32978v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.32978v1.pdf",
-      "categories": [
-        "cs.CV",
-        "cs.AI",
-        "cs.RO"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
       "title": "UniAction: Unified Action Conditioning for World Models",
       "authors": "Bowen Xue, Zizhang Li, Hong-Xing Yu et al.",
       "abstract": "Actions that condition world models are highly heterogeneous, and thus existing action-conditioned world models are typically built for individual action types, fragmenting already limited action-annotated data across separate models. We introduce UniAction, a unified action-conditioning framework t...",
@@ -68,24 +86,6 @@
         "cs.CV"
       ],
       "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "RobustRLlib: A Unified Library and Benchmark for Robust Reinforcement Learning Algorithms",
-      "authors": "Xi Chen, Fengqi Hu, Zeyu Shen et al.",
-      "abstract": "Robust reinforcement learning (RL) is critical for reliable real-world deployment, where policies may fail under diverse shifts and disruptions. Existing robust RL algorithms offer a rich set of mechanisms and principles, yet two major barriers limit their broader potential: limited algorithm reusab...",
-      "venue": "arXiv",
-      "date": "2026-10-23",
-      "arxiv_id": "2610.32971v1",
-      "url": "https://arxiv.org/abs/2610.32971v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.32971v1.pdf",
-      "categories": [
-        "cs.LG",
-        "cs.AI",
-        "cs.RO"
-      ],
-      "type": "benchmark",
       "badge": "arxiv",
       "source": "arXiv"
     },

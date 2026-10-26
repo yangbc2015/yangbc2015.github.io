@@ -1,6 +1,6 @@
 ---
 title: '[CoreWeave引爆 AI融资 恐慌'
-date: '2026-10-21'
+date: '2026-10-26'
 type: news
 source: 36氪
 category: AI投资
