@@ -1,51 +1,102 @@
 {
-  "last_updated": "2026-10-25",
-  "count": 6,
+  "last_updated": "2026-10-26",
+  "count": 10,
   "items": [
     {
-      "title": "Direct Pass@$k$ Optimization for Thought Pruning: Balancing Quality and Diversity in Test-Time Reasoning",
-      "authors": "Mahdi Salmani, Adel Javanmard, Devansh Gupta et al.",
-      "abstract": "Test-time scaling has emerged as a key inference strategy for reasoning models, where a model generates a large number of candidate solutions in the hope of finding at least one correct solution. Running all candidate solutions to completion can be computationally demanding, so recent work prunes th...",
+      "title": "Interpretable Singing Emotion Recognition Using Acoustic and Vocal Technique Features",
+      "authors": "Fotini Kiriakopoulou, Vassilis Lyberatos, Spyridon Kantarelis et al.",
+      "abstract": "Singing emotion recognition relies predominantly on deep learning models that achieve strong performance but offer limited insight into the vocal characteristics driving emotion, of- ten overlooking the singing voice as a distinct signal. We propose an interpretable singing emotion recognition frame...",
       "venue": "arXiv",
-      "date": "2026-10-22",
-      "arxiv_id": "2610.31667v1",
-      "url": "https://arxiv.org/abs/2610.31667v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.31667v1.pdf",
+      "date": "2026-10-23",
+      "arxiv_id": "2610.32629v1",
+      "url": "https://arxiv.org/abs/2610.32629v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.32629v1.pdf",
       "categories": [
-        "cs.AI",
-        "cs.CL"
+        "cs.SD",
+        "cs.AI"
+      ],
+      "type": "ai",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "LGMT: A Tool for Testing the Logical Reasoning Reliability of LLMs",
+      "authors": "Zenghui Zhou, Xiaoke Fang, Zheng Zheng",
+      "abstract": "Large Language Models (LLMs) increasingly serve as reasoning components in modern software systems, yet a model that answers a logical query correctly can contradict itself when the same problem is restated in an equivalent form. Static benchmarks evaluate queries in isolation and therefore fail to ...",
+      "venue": "arXiv",
+      "date": "2026-10-23",
+      "arxiv_id": "2610.32627v1",
+      "url": "https://arxiv.org/abs/2610.32627v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.32627v1.pdf",
+      "categories": [
+        "cs.AI"
+      ],
+      "type": "ai",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "The Language of Instruction: Genre and Generative AI",
+      "authors": "James E. Dobson",
+      "abstract": "This article argues that instruction-fine-tuned language models should be understood as implementing a genre, what is proposed as the instructional-conversational genre. This genre is an amalgamation of discursive language from prior conversations between generative models and humans recursively run...",
+      "venue": "arXiv",
+      "date": "2026-10-23",
+      "arxiv_id": "2610.32982v1",
+      "url": "https://arxiv.org/abs/2610.32982v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.32982v1.pdf",
+      "categories": [
+        "cs.CL",
+        "cs.CY"
       ],
       "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Cost-Aware Abstention for LLM-Based IT Ticket Classification",
-      "authors": "Sachin Gupta",
-      "abstract": "Wrong automatic routing of an IT support ticket can cost more than human triage. We evaluate cost-aware abstention as an offline, cost-conditional readiness assessment: select a routing policy on calibration data under explicit costs, then evaluate that frozen policy once on held-out test data. On a...",
+      "title": "Measure Before You Train: Typed Decision Models vs. a Classical Baseline vs. a Generative LLM for Routing a Personal Multilingual Inbox",
+      "authors": "Federico Lucca",
+      "abstract": "Personal email agents decide, for every message, what it is, whether it is urgent, whether to draft a reply, create a task, or ignore it. Their error rate is rarely measured: the stored labels were written by the system itself. We present Foyer, a self-hosted personal inbox agent in daily use, and a...",
       "venue": "arXiv",
-      "date": "2026-10-22",
-      "arxiv_id": "2610.31657v1",
-      "url": "https://arxiv.org/abs/2610.31657v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.31657v1.pdf",
+      "date": "2026-10-23",
+      "arxiv_id": "2610.32955v1",
+      "url": "https://arxiv.org/abs/2610.32955v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.32955v1.pdf",
       "categories": [
-        "cs.LG",
-        "cs.AI",
-        "cs.CL"
+        "cs.CL",
+        "cs.HC",
+        "cs.LG"
       ],
       "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "A Unified Framework for Image-to-3D Part Generation via Variable Granularity",
-      "authors": "Qiwen Gu, Xin Zhou, Xiwu Chen et al.",
-      "abstract": "Controllable 3D part generation is pivotal for digital asset creation, yet existing methods lack the flexibility to accommodate diverse user workflows requiring varying levels of control. In this paper, we introduce FlexPart, a unified image-to-3D part generation framework that supports variable-gra...",
+      "title": "SceneBloom: Agentic Indoor Environment Generation with Realistic and Diverse Layouts for Embodied Learning",
+      "authors": "Yuhan Liu, Lianhui Qin, Shenji Wan",
+      "abstract": "Training generalizable embodied agents requires realistic, varied, and simulation-ready indoor environments. Language-guided methods support semantic planning and object-level reasoning, but precise spatial grounding remains difficult. Visual generative models offer rich priors over plausible arrang...",
       "venue": "arXiv",
-      "date": "2026-10-22",
-      "arxiv_id": "2610.31671v1",
-      "url": "https://arxiv.org/abs/2610.31671v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.31671v1.pdf",
+      "date": "2026-10-23",
+      "arxiv_id": "2610.32978v1",
+      "url": "https://arxiv.org/abs/2610.32978v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.32978v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.RO"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "UniAction: Unified Action Conditioning for World Models",
+      "authors": "Bowen Xue, Zizhang Li, Hong-Xing Yu et al.",
+      "abstract": "Actions that condition world models are highly heterogeneous, and thus existing action-conditioned world models are typically built for individual action types, fragmenting already limited action-annotated data across separate models. We introduce UniAction, a unified action-conditioning framework t...",
+      "venue": "arXiv",
+      "date": "2026-10-23",
+      "arxiv_id": "2610.32977v1",
+      "url": "https://arxiv.org/abs/2610.32977v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.32977v1.pdf",
       "categories": [
         "cs.CV"
       ],
@@ -54,56 +105,70 @@
       "source": "arXiv"
     },
     {
-      "title": "Sensorimotor Alignment: A Platonic Proxy for Embodied Policy Success",
-      "authors": "Yunfei Xie, Howard H. Qian, Shiyi Lan et al.",
-      "abstract": "Robotic foundation models are typically evaluated through costly closed-loop rollouts, which motivates cheap offline proxies for model capability. The Platonic Representation Hypothesis (PRH) suggests that as representations improve, different modalities such as vision and language converge toward a...",
+      "title": "RobustRLlib: A Unified Library and Benchmark for Robust Reinforcement Learning Algorithms",
+      "authors": "Xi Chen, Fengqi Hu, Zeyu Shen et al.",
+      "abstract": "Robust reinforcement learning (RL) is critical for reliable real-world deployment, where policies may fail under diverse shifts and disruptions. Existing robust RL algorithms offer a rich set of mechanisms and principles, yet two major barriers limit their broader potential: limited algorithm reusab...",
       "venue": "arXiv",
-      "date": "2026-10-22",
-      "arxiv_id": "2610.31670v1",
-      "url": "https://arxiv.org/abs/2610.31670v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.31670v1.pdf",
+      "date": "2026-10-23",
+      "arxiv_id": "2610.32971v1",
+      "url": "https://arxiv.org/abs/2610.32971v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.32971v1.pdf",
       "categories": [
-        "cs.CV",
         "cs.LG",
+        "cs.AI",
         "cs.RO"
       ],
-      "type": "vision",
+      "type": "benchmark",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Phase Transition from Random Features to Fully Trainable Networks",
-      "authors": "Xin He, Huan Lao, Xiliang Lu et al.",
-      "abstract": "Constructing accurate and computationally tractable approximation spaces is a fundamental task in scientific computing. Partially trainable neural networks bridge fixed random features and fully adaptive representations. This paper quantifies a phase transition pattern in approximation bounds and ob...",
+      "title": "DexPort: A Hand-Held Skill Interface for Dexterous Hand Data Collection",
+      "authors": "Amber Xie, Jiawei Fu, Xiaofeng Guo et al.",
+      "abstract": "Collecting high-quality demonstrations remains a central bottleneck for learning dexterous manipulation. Teleoperation records executable robot actions, but it requires a complete robot setup and places the burden of coordinating many finger joints on the operator. Human demonstrations are easier to...",
       "venue": "arXiv",
-      "date": "2026-10-22",
-      "arxiv_id": "2610.31663v1",
-      "url": "https://arxiv.org/abs/2610.31663v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.31663v1.pdf",
+      "date": "2026-10-23",
+      "arxiv_id": "2610.32969v1",
+      "url": "https://arxiv.org/abs/2610.32969v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.32969v1.pdf",
       "categories": [
-        "math.NA",
-        "cs.LG",
-        "math.ST"
+        "cs.RO",
+        "cs.AI",
+        "cs.LG"
       ],
       "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "OpenTac: An Open Ecosystem for Customizable, Scalable, and Transferable 3D Tactile Sensing",
-      "authors": "Ariel Slepyan, Geeta Chandra Raju Bethala, Jiafeng Gu et al.",
-      "abstract": "We present OpenTac, a novel sensor and a full-stack ecosystem for tactile skins that are highly customizable, scalable, and readily deployed in downstream robot control and learning applications. Our core contribution is twofold. First, we develop a scalable resistive tactile skin with a structured ...",
+      "title": "OWLS: Open-world Language-conditioned Speed Fields for Zero-Shot Rover Navigation",
+      "authors": "Chahyon Ku, Erica Tevere, Georgios Georgakis et al.",
+      "abstract": "Semantics can provide a proxy for physical traversability. Terrain that looks like loose sand or a rock field is likely to have similar physical properties. Open-vocabulary vision-language models (VLMs) enable this physical reasoning over terrain outside any fixed label set. We present Open-world La...",
       "venue": "arXiv",
-      "date": "2026-10-22",
-      "arxiv_id": "2610.31661v1",
-      "url": "https://arxiv.org/abs/2610.31661v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.31661v1.pdf",
+      "date": "2026-10-23",
+      "arxiv_id": "2610.32596v1",
+      "url": "https://arxiv.org/abs/2610.32596v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.32596v1.pdf",
       "categories": [
-        "cs.RO",
-        "eess.SP",
-        "eess.SY"
+        "cs.RO"
       ],
-      "type": "ai",
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "UAV-SwarmAgent: Scalable Multi-UAV Reconnaissance and Task Allocation via Code Generation and Vision-Language Reasoning",
+      "authors": "Oleg Sautenkov, Yasheerah Yaqoot, Muhammad Ahsan Mustafa et al.",
+      "abstract": "Supervising a multi-UAV reconnaissance mission usually means plotting waypoints and watching every drone. We present UAV SwarmAgent, a hierarchical multi-agent system in which an operator states the mission in one natural-language sentence and a ground-station agent writes and executes code that tur...",
+      "venue": "arXiv",
+      "date": "2026-10-23",
+      "arxiv_id": "2610.32559v1",
+      "url": "https://arxiv.org/abs/2610.32559v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.32559v1.pdf",
+      "categories": [
+        "cs.RO"
+      ],
+      "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     }

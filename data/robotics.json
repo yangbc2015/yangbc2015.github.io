@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-10-25",
+  "last_updated": "2026-10-26",
   "count": 200,
   "items": [
     {
       "title": "[大疆/影石/启元/寻影加码AI影像，不会拍照的机器人不是好 具 身 智 能？",
       "summary": "[大疆/影石/启元/寻影加码AI影像，不会拍照的机器人不是好 具 身 智 能？",
       "url": "http://36kr.com/p/4033889613796999",
-      "date": "2026-10-25",
+      "date": "2026-10-26",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
@@ -15,10 +15,103 @@
       ]
     },
     {
+      "title": "OWLS: Open-world Language-conditioned Speed Fields for Zero-Shot Rover Navigation",
+      "summary": "Semantics can provide a proxy for physical traversability. Terrain that looks like loose sand or a rock field is likely to have similar physical properties. Open-vocabulary vision-language models (VLMs) enable this physical reasoning over terrain out...",
+      "url": "https://arxiv.org/abs/2610.32596v1",
+      "date": "2026-10-23",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.32596v1",
+      "authors": "Chahyon Ku, Erica Tevere et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "UAV-SwarmAgent: Scalable Multi-UAV Reconnaissance and Task Allocation via Code Generation and Vision-Language Reasoning",
+      "summary": "Supervising a multi-UAV reconnaissance mission usually means plotting waypoints and watching every drone. We present UAV SwarmAgent, a hierarchical multi-agent system in which an operator states the mission in one natural-language sentence and a grou...",
+      "url": "https://arxiv.org/abs/2610.32559v1",
+      "date": "2026-10-23",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.32559v1",
+      "authors": "Oleg Sautenkov, Yasheerah Yaqoot et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "HGWM: Hierarchical Graph-Guided World Model for Zero-Shot Object Navigation via Graph Matching",
+      "summary": "Zero-shot object navigation requires an embodied agent to choose where to search while retaining evidence from previous observations. HGWM couples an LLM-generated room-anchor prior with persistent spatial-semantic memory. A coarse stage assigns visu...",
+      "url": "https://arxiv.org/abs/2610.32554v1",
+      "date": "2026-10-23",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.32554v1",
+      "authors": "I-tak Ieong, Hao Tang",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Optimization, Optimal Control, and Reinforcement Learning for Robotics",
+      "summary": "These lecture notes provide an introduction to optimization, optimal control, and reinforcement learning for robotics, emphasizing their mathematical connections and practical relevance. They present established material compiled and edited by Yonghy...",
+      "url": "https://arxiv.org/abs/2610.32538v1",
+      "date": "2026-10-23",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.32538v1",
+      "authors": "Yonghyeon Lee",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Facultative Swarming: A Capability, Not a Category, for Multi-Robot Systems",
+      "summary": "Collective robotics is split by a long-standing but increasingly artificial boundary between centralised multi-robot systems that prioritise optimality and decentralised swarms that prioritise robustness and adaptivity. We propose a unified control f...",
+      "url": "https://arxiv.org/abs/2610.32526v1",
+      "date": "2026-10-23",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.32526v1",
+      "authors": "Ning Zhou, Edmund R. Hunt",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
       "title": "易观分析：具身智能全球市场仍处于早期商业化验证阶段，产业区域格局可概括为“美脑、中身、欧规、日韩精密”的多极分工。而中国的具身智能领域在完备供应链的加持下，在出货量、销售额、投融资规模、商业订单等方面都在全球占据榜首位置，且优势较为突出。但中国的核心技术和高端部件仍有提升空间，中国正由规模制造向全球技术与生态竞争迈进。",
       "summary": "易观分析：具身智能全球市场仍处于早期商业化验证阶段，产业区域格局可概括为“美脑、中身、欧规、日韩精密”的多极分工。而中国的具身智能领域在完备供应链的加持下，在出货量、销售额、投融资规模、商业订单等方面都在全球占据榜首位置，且优势较为突出。但中国的核心技术和高端部件仍有提升空间，中国正由规模制造向全球",
       "url": "http://36kr.com/p/4037944015853440",
       "date": "2026-10-23",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "辉羲智能完成超25亿融资，发力具身智能芯片研发与生态建设",
+      "summary": "辉羲智能完成超25亿融资，发力具身智能芯片研发与生态建设",
+      "url": "http://36kr.com/p/4036678855513736",
+      "date": "2026-10-22",
       "source": "36氪",
       "category": "具身智能",
       "type": "news",
@@ -105,19 +198,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "辉羲智能完成超25亿融资，发力具身智能芯片研发与生态建设",
-      "summary": "辉羲智能完成超25亿融资，发力具身智能芯片研发与生态建设",
-      "url": "http://36kr.com/p/4036678855513736",
-      "date": "2026-10-22",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
       ]
     },
     {
@@ -2985,86 +3065,6 @@
       "tags": [
         "机器人",
         "具身智能"
-      ]
-    },
-    {
-      "title": "φ-RIE: From Photorealistic Reconstruction to Interactive Environments",
-      "summary": "3D Gaussian Splatting (3DGS) can reconstruct a captured scene photorealistically, but the resulting representation does not by itself support physical interaction. Robot simulation instead requires object-level change, \\textit{i.e.}, objects must mov...",
-      "url": "https://arxiv.org/abs/2609.26795v1",
-      "date": "2026-09-22",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.26795v1",
-      "authors": "Runyi Yang, Deheng Zhang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "DreamStream: Towards Policy-Oriented Generative Simulation for End-to-End Driving",
-      "summary": "Faithfully evaluating end-to-end driving policies in simulation requires observations that are not merely photo-realistic, but preserve the scene features a policy relies on to make decisions. Existing platforms, however, exhibit a sim-to-real visual...",
-      "url": "https://arxiv.org/abs/2609.26792v1",
-      "date": "2026-09-22",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.26792v1",
-      "authors": "Ziyang Leng, Sicheng Mo et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "TM-APR: Thermal Temporal-Memory Localization via Analytic Online Adaptation",
-      "summary": "Thermal Visual Place Recognition (Thermal VPR) maps camera observations to metric poses within a mapped environment, serving as a prerequisite for autonomous navigation. However, thermal VPR suffers from severe environmental dependence, heavy online ...",
-      "url": "https://arxiv.org/abs/2609.26766v1",
-      "date": "2026-09-22",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.26766v1",
-      "authors": "Yanshuo Bai, Kanji Tanaka",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Underwater Navigation in Unsteady Flows Using Measurement Histories from a Single Sensing Unit",
-      "summary": "Spatial flow measurements support underwater navigation, but distributed sensing is constrained by robot size and sensor layout. We use a causal observer to estimate current lateral velocities from a finite history of measurements collected by a sing...",
-      "url": "https://arxiv.org/abs/2609.26753v1",
-      "date": "2026-09-22",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.26753v1",
-      "authors": "Linhao Jin, Qimin Feng et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Imperfection for Precision: Upcycling Imperfect Data for High-Precision Robotic Manipulation",
-      "summary": "Training vision-language-action (VLA) models for high-precision manipulation typically requires task-specific, high-quality data (e.g., teleoperation), which is slow and expensive to collect. To reduce this burden without compromising manipulation pr...",
-      "url": "https://arxiv.org/abs/2609.26672v1",
-      "date": "2026-09-22",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.26672v1",
-      "authors": "Hao Wei, Yang Liu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
       ]
     }
   ]
