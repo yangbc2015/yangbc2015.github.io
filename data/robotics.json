@@ -15,6 +15,86 @@
       ]
     },
     {
+      "title": "SceneBloom: Agentic Indoor Environment Generation with Realistic and Diverse Layouts for Embodied Learning",
+      "summary": "Training generalizable embodied agents requires realistic, varied, and simulation-ready indoor environments. Language-guided methods support semantic planning and object-level reasoning, but precise spatial grounding remains difficult. Visual generat...",
+      "url": "https://arxiv.org/abs/2610.32978v1",
+      "date": "2026-10-23",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.32978v1",
+      "authors": "Yuhan Liu, Lianhui Qin et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "RobustRLlib: A Unified Library and Benchmark for Robust Reinforcement Learning Algorithms",
+      "summary": "Robust reinforcement learning (RL) is critical for reliable real-world deployment, where policies may fail under diverse shifts and disruptions. Existing robust RL algorithms offer a rich set of mechanisms and principles, yet two major barriers limit...",
+      "url": "https://arxiv.org/abs/2610.32971v1",
+      "date": "2026-10-23",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.32971v1",
+      "authors": "Xi Chen, Fengqi Hu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "DexPort: A Hand-Held Skill Interface for Dexterous Hand Data Collection",
+      "summary": "Collecting high-quality demonstrations remains a central bottleneck for learning dexterous manipulation. Teleoperation records executable robot actions, but it requires a complete robot setup and places the burden of coordinating many finger joints o...",
+      "url": "https://arxiv.org/abs/2610.32969v1",
+      "date": "2026-10-23",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.32969v1",
+      "authors": "Amber Xie, Jiawei Fu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "ViT-H: Generative Video-To-Humanoid Control with Motion Tracking Feedback",
+      "summary": "Learning humanoid control from monocular human videos offers a scalable way to acquire diverse whole-body behaviors. Yet, existing reconstruction-retargeting-tracking pipelines are limited in system-level scalability by separately optimized intermedi...",
+      "url": "https://arxiv.org/abs/2610.32966v1",
+      "date": "2026-10-23",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.32966v1",
+      "authors": "Zimo He, Tianyi Bian et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "RynnUnify: Towards Unified Embodied Brain",
+      "summary": "We introduce RynnUnify, a 16B unified embodied model that combines strong embodied understanding with long-horizon visual planning through interleaved video--language reasoning. With capabilities spanning spatial reasoning, physical prediction, and g...",
+      "url": "https://arxiv.org/abs/2610.32965v1",
+      "date": "2026-10-23",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.32965v1",
+      "authors": "Minghao Zhu, Bohan Hou et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
       "title": "易观分析：具身智能全球市场仍处于早期商业化验证阶段，产业区域格局可概括为“美脑、中身、欧规、日韩精密”的多极分工。而中国的具身智能领域在完备供应链的加持下，在出货量、销售额、投融资规模、商业订单等方面都在全球占据榜首位置，且优势较为突出。但中国的核心技术和高端部件仍有提升空间，中国正由规模制造向全球技术与生态竞争迈进。",
       "summary": "易观分析：具身智能全球市场仍处于早期商业化验证阶段，产业区域格局可概括为“美脑、中身、欧规、日韩精密”的多极分工。而中国的具身智能领域在完备供应链的加持下，在出货量、销售额、投融资规模、商业订单等方面都在全球占据榜首位置，且优势较为突出。但中国的核心技术和高端部件仍有提升空间，中国正由规模制造向全球",
       "url": "http://36kr.com/p/4037944015853440",
@@ -2991,80 +3071,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "CoRelNav: Collaborative Relational Navigation for Multi-Robot Spatially Constrained Semantic Navigation",
-      "summary": "Spatially constrained semantic navigation requires robots to identify targets specified not only by semantic categories but also by relations to surrounding objects. In unknown environments, resolving such goals requires efficient exploration togethe...",
-      "url": "https://arxiv.org/abs/2609.27720v1",
-      "date": "2026-09-23",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.27720v1",
-      "authors": "Jinyu He, Zihao Mao et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Wave-Robust Passive AUV Localization Using FP-MUSIC",
-      "summary": "Localizing an autonomous underwater vehicle without pre-deployed seabed transponders, or direct access to onboard vehicle sensors remains a core challenge. We present a receiver-passive 3-D localization and spatial mapping system utilizing a single f...",
-      "url": "https://arxiv.org/abs/2609.27712v1",
-      "date": "2026-09-23",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.27712v1",
-      "authors": "Usama Saqib, Ola Rønning et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "DAVIO: Dense Monocular-Inertial SLAM with Feed-Forward Initialization and Pose-Conditioned Mapping",
-      "summary": "A camera and an IMU are the minimal sensor setup for metric localization and dense mapping, yet classical visual--inertial filters must wait for parallax before they start and then retain only sparse landmarks. Feed-forward geometry models, in contra...",
-      "url": "https://arxiv.org/abs/2609.27702v1",
-      "date": "2026-09-23",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.27702v1",
-      "authors": "Jaafar Mahmoud, Arthur Movsesyan et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "[重磅发现：GPT-6实现 具 身 智 能 突破，中国如何打具身防卫战？",
-      "summary": "[重磅发现：GPT-6实现 具 身 智 能 突破，中国如何打具身防卫战？",
-      "url": "http://36kr.com/p/3986303263390466",
-      "date": "2026-09-23",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "中国移动开源Open-RAIL，填补具身智能部署工程短板。",
-      "summary": "中国移动开源Open-RAIL，填补具身智能部署工程短板。",
-      "url": "http://36kr.com/p/3991299633019906",
-      "date": "2026-09-22",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
       ]
     }
   ]
