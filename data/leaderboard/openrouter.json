@@ -101,6 +101,14 @@
     },
     {
       "rank": 13,
+      "model": "ternary-bonsai-2-9b",
+      "organization": "prism-ml",
+      "price_prompt": "0.00000008",
+      "price_completion": "0.00000013",
+      "context_length": 262144
+    },
+    {
+      "rank": 14,
       "model": "moondream3-preview",
       "organization": "moondream",
       "price_prompt": "0.0000003",
@@ -108,20 +116,12 @@
       "context_length": 32000
     },
     {
-      "rank": 14,
+      "rank": 15,
       "model": "moondream3.1-9b-a2b",
       "organization": "moondream",
       "price_prompt": "0.0000003",
       "price_completion": "0.0000025",
       "context_length": 32000
-    },
-    {
-      "rank": 15,
-      "model": "muse-spark-open",
-      "organization": "meta",
-      "price_prompt": "0.00000125",
-      "price_completion": "0.00000425",
-      "context_length": 1048576
     }
   ]
 }
