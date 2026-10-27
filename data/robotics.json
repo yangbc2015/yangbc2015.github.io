@@ -15,6 +15,86 @@
       ]
     },
     {
+      "title": "Learning Force-Reactive Humanoid Loco-Manipulation",
+      "summary": "Many everyday tasks require controlling contact force as well as motion. On a humanoid, this force must often be coordinated across both hands and the whole body, and cannot be specified by kinematic trajectories alone. Therefore, we present FLORE, a...",
+      "url": "https://arxiv.org/abs/2610.35862v1",
+      "date": "2026-10-26",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.35862v1",
+      "authors": "Sihang Li, Xiaofeng Guo et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Differentiable Contact Dynamics for Legged Locomotion: Policy Learning and Contact-Implicit Trajectory Optimization",
+      "summary": "This paper proposes a smooth analytic gradient for frictional contact and applies it to policy learning and contact-implicit trajectory optimization for legged locomotion. The exact contact sensitivity is available in closed form but describes change...",
+      "url": "https://arxiv.org/abs/2610.35852v1",
+      "date": "2026-10-26",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.35852v1",
+      "authors": "Gijeong Kim, Seungbin Oh et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Nonprehensile Robotic Catching Using Virtual Constraints",
+      "summary": "The problem of nonprehensile robotic catching is addressed using virtual nonholonomic constraints (VNHCs); the motion of the robot end-effector is designed and controlled directly in terms of the states of the object before it is caught on the surfac...",
+      "url": "https://arxiv.org/abs/2610.35851v1",
+      "date": "2026-10-26",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.35851v1",
+      "authors": "Aakash Khandelwal, Ranjan Mukherjee",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "OSWAM: An Effective World Action Model with One-Step Action Generation",
+      "summary": "Direct-policy World Action Models (WAM) have demonstrated the benefits of decoupling action generation from explicit future visual prediction for efficient inference in autonomous driving and embodied control. However, they still require tens of deno...",
+      "url": "https://arxiv.org/abs/2610.35850v1",
+      "date": "2026-10-26",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.35850v1",
+      "authors": "Guowen Zhang, Liyi Chen et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Profiling a Frontier Agent with EBench: From Direct Control to Harness with Policy",
+      "summary": "Frontier multimodal large language models (MLLMs) can control robots without robot-specific training, but how their capabilities compare and interact with post-trained vision-language-action (VLA) and world action model (WAM) policies across manipula...",
+      "url": "https://arxiv.org/abs/2610.35832v1",
+      "date": "2026-10-26",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.35832v1",
+      "authors": "Yifei Yao, Yude Zou et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
       "title": "I Won't Know Until I Try: Interactive Information Gathering for Long-Horizon Manipulation",
       "summary": "Long-horizon manipulation often depends on object properties that cannot be reliably inferred from appearance alone. Physical interaction can reveal these properties, but it can also change the world in ways that invalidate subsequent actions. We pre...",
       "url": "https://arxiv.org/abs/2610.33959v1",
@@ -2990,83 +3070,6 @@
       "type": "paper",
       "arxiv_id": "2609.30247v1",
       "authors": "Yinghua Zhou, Junjie Ye et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Coding Agents for Generalized Task and Motion Planning Problems",
-      "summary": "Task and motion planning (TAMP) problems remain difficult even with full observability and object-centric states because discrete decisions are tightly coupled to geometric, kinematic, and dynamic constraints. Generalized TAMP addresses this difficul...",
-      "url": "https://arxiv.org/abs/2609.30233v1",
-      "date": "2026-09-24",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.30233v1",
-      "authors": "Matteo Merler, Bowen Li et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "TrackEverything: Long Horizon Dense Tracking via De-Duplicating 3D Scene Representations",
-      "summary": "Existing point tracking models face a fundamental tradeoff: they can either track a sparse set of query points over long horizons, or track all points across only short clips. We introduce TrackEverything, a 3D point tracker that breaks this trade-of...",
-      "url": "https://arxiv.org/abs/2609.30222v1",
-      "date": "2026-09-24",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.30222v1",
-      "authors": "Ayush Jain, Sreeharsha Paruchuri et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "它石智航以具身智能赋能全球工业转型。",
-      "summary": "它石智航以具身智能赋能全球工业转型。",
-      "url": "http://36kr.com/p/3995865081188225",
-      "date": "2026-09-23",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "Where Should I Join? Robot Group Joining via Language-Guided Goal Prediction",
-      "summary": "Social navigation typically assumes a specified goal and focuses on reaching it while respecting social conventions, whereas robot group joining requires predicting where to join based on the group's real-time activity and formation. This is a highly...",
-      "url": "https://arxiv.org/abs/2609.28467v1",
-      "date": "2026-09-23",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.28467v1",
-      "authors": "Zilin Fang, Zishuo Wang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "LiMA: Bridging Long-term Imagination to Real-time Dexterous Manipulation via Asynchronous Diffusion",
-      "summary": "Dexterous manipulation demands long-term foresight and rapid reactive control. Vision-Language-Action (VLA) models, while proficient in high-level reasoning, often lack a fine-grained understanding of physical dynamics and spatial perception. Convers...",
-      "url": "https://arxiv.org/abs/2609.28431v1",
-      "date": "2026-09-23",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.28431v1",
-      "authors": "Ning Chen, Yankai Fu et al.",
       "tags": [
         "机器人学习",
         "研究论文",

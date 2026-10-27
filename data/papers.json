@@ -1,39 +1,20 @@
 {
   "last_updated": "2026-10-27",
-  "count": 4,
+  "count": 8,
   "items": [
     {
-      "title": "Generative AI in Turbulence: Foundations, Applications, Validations and Benchmarks",
-      "authors": "Luca Biferale, Michele Buzzicotti",
-      "abstract": "Generative AI offers new approaches to turbulence problems in which incomplete observations or unresolved d.o.f. admit multiple physically plausible solutions. Potential applications include stochastic closures, super-resolution, data assimilation, uncertainty quantification, and the generation of E...",
+      "title": "Retriever-Free Retrieval: Navigating Documents with Decision Models",
+      "authors": "Chao Wan, Paul Jünger, Beixi Du et al.",
+      "abstract": "While language models have become dramatically more capable, retrieval still largely relies on lexical matching or similarity in fixed embedding spaces. This creates a capability asymmetry: what the retriever fails to find, even the strongest generator cannot recover. We propose DecisionRAG, which b...",
       "venue": "arXiv",
       "date": "2026-10-26",
-      "arxiv_id": "2610.35123v1",
-      "url": "https://arxiv.org/abs/2610.35123v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.35123v1.pdf",
+      "arxiv_id": "2610.35868v1",
+      "url": "https://arxiv.org/abs/2610.35868v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.35868v1.pdf",
       "categories": [
-        "physics.flu-dyn",
-        "cond-mat.stat-mech",
         "cs.AI"
       ],
-      "type": "benchmark",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "UTA: Universal Training Adaptive Learning Rate Decay",
-      "authors": "Anda Tang, Junjie Wang, Xuanlin Yang et al.",
-      "abstract": "Learning rate decay (LRD) is critical for training high-performance models, yet most designs remain empirically driven. Although the Universal Budget Aware (UBA) LRD offers a theoretical framework, its reliance on SGD dynamics limits its applicability to modern Adam-type optimizers and leaves its ke...",
-      "venue": "arXiv",
-      "date": "2026-10-26",
-      "arxiv_id": "2610.35113v1",
-      "url": "https://arxiv.org/abs/2610.35113v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.35113v1.pdf",
-      "categories": [
-        "cs.LG",
-        "cs.AI"
-      ],
-      "type": "ml",
+      "type": "ai",
       "badge": "arxiv",
       "source": "arXiv"
     },
@@ -67,6 +48,88 @@
         "cs.CL"
       ],
       "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "VibeVideoBench:Evaluating Multimodal Agents on Code-Driven Video Generation",
+      "authors": "Muxi Diao, Wenbin Xu, Lele Yang et al.",
+      "abstract": "Diffusion video models produce striking clips, but they cannot reliably render an exact formula, a correct chart, a ruleconsistent game or narration synchronized to on-screen events. A different route is emerging: multimodal agents that write code to render every frame and synthesize every sound. We...",
+      "venue": "arXiv",
+      "date": "2026-10-26",
+      "arxiv_id": "2610.35864v1",
+      "url": "https://arxiv.org/abs/2610.35864v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.35864v1.pdf",
+      "categories": [
+        "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Do vision models know that three is three?",
+      "authors": "Ankit Sonthalia, Arnas Uselis, Seong Joon Oh",
+      "abstract": "Do vision models encode the transition $2{\\to}3$ the same way whether it appears in handwritten digits or in hand gestures, and do they \"understand\" that clean${\\to}$dirty is the same transformation regardless of whether it is applied to a kitchen or a carpet? The linear representation hypothesis (L...",
+      "venue": "arXiv",
+      "date": "2026-10-26",
+      "arxiv_id": "2610.35857v1",
+      "url": "https://arxiv.org/abs/2610.35857v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.35857v1.pdf",
+      "categories": [
+        "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Auto-Research Arena: Benchmarking and Advancing Auto-Research in Language Modeling",
+      "authors": "Xi Chen, Chongjian Ge, Yiran Xu et al.",
+      "abstract": "As autonomous research systems become more capable, benchmarks must both evaluate their performance and support meaningful research progress. We introduce Auto-Research Arena, a multi-target benchmark for evaluating autonomous research systems and discovering ideas in language modeling. Arena suppor...",
+      "venue": "arXiv",
+      "date": "2026-10-26",
+      "arxiv_id": "2610.35866v1",
+      "url": "https://arxiv.org/abs/2610.35866v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.35866v1.pdf",
+      "categories": [
+        "cs.LG"
+      ],
+      "type": "benchmark",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Learning Force-Reactive Humanoid Loco-Manipulation",
+      "authors": "Sihang Li, Xiaofeng Guo, Jinkun Cao et al.",
+      "abstract": "Many everyday tasks require controlling contact force as well as motion. On a humanoid, this force must often be coordinated across both hands and the whole body, and cannot be specified by kinematic trajectories alone. Therefore, we present FLORE, a framework for learning force-reactive humanoid lo...",
+      "venue": "arXiv",
+      "date": "2026-10-26",
+      "arxiv_id": "2610.35862v1",
+      "url": "https://arxiv.org/abs/2610.35862v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.35862v1.pdf",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Differentiable Contact Dynamics for Legged Locomotion: Policy Learning and Contact-Implicit Trajectory Optimization",
+      "authors": "Gijeong Kim, Seungbin Oh, Dongyun Kang et al.",
+      "abstract": "This paper proposes a smooth analytic gradient for frictional contact and applies it to policy learning and contact-implicit trajectory optimization for legged locomotion. The exact contact sensitivity is available in closed form but describes changes within the current contact mode, providing no fi...",
+      "venue": "arXiv",
+      "date": "2026-10-26",
+      "arxiv_id": "2610.35852v1",
+      "url": "https://arxiv.org/abs/2610.35852v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.35852v1.pdf",
+      "categories": [
+        "cs.RO"
+      ],
+      "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     }
