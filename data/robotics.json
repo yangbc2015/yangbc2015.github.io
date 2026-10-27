@@ -1,17 +1,110 @@
 {
-  "last_updated": "2026-10-26",
+  "last_updated": "2026-10-27",
   "count": 200,
   "items": [
     {
       "title": "[大疆/影石/启元/寻影加码AI影像，不会拍照的机器人不是好 具 身 智 能？",
       "summary": "[大疆/影石/启元/寻影加码AI影像，不会拍照的机器人不是好 具 身 智 能？",
       "url": "http://36kr.com/p/4033889613796999",
-      "date": "2026-10-26",
+      "date": "2026-10-27",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
       "tags": [
         "机器人"
+      ]
+    },
+    {
+      "title": "I Won't Know Until I Try: Interactive Information Gathering for Long-Horizon Manipulation",
+      "summary": "Long-horizon manipulation often depends on object properties that cannot be reliably inferred from appearance alone. Physical interaction can reveal these properties, but it can also change the world in ways that invalidate subsequent actions. We pre...",
+      "url": "https://arxiv.org/abs/2610.33959v1",
+      "date": "2026-10-25",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.33959v1",
+      "authors": "Linfei Yuan, Rachel Holladay",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Learning Functional Specialisation for Bimanual Robotic Control",
+      "summary": "Bimanual robotic control requires simultaneous management of distinct functional demands under motor noise, energetic costs, and communication delays. We investigate how learning responsibility should be organised across modular controllers and the t...",
+      "url": "https://arxiv.org/abs/2610.33947v1",
+      "date": "2026-10-24",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.33947v1",
+      "authors": "Jingwen Li, Levin Kuhlmann et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Real-Time Human Trajectory Prediction from RGB-D for Mobile Robots Using Bi-Mamba",
+      "summary": "Predicting the short-term future trajectory of a person from RGB-D cameras is a key capability for mobile robots navigating in dynamic and human populated environment. The key challenge to deploying learned predictors on real robots is the train-depl...",
+      "url": "https://arxiv.org/abs/2610.33916v1",
+      "date": "2026-10-24",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.33916v1",
+      "authors": "Basheer Al-Tawil, Magnus Jung et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Sybil-Resilient Multi-Drone Exploration of Indoor and Confined Spaces",
+      "summary": "When a team of drones explores a building together, each drone tells the others which frontier it is going to and shares the map it has built. This avoids duplicated effort, but it also means that the team trusts every identity from which it receives...",
+      "url": "https://arxiv.org/abs/2610.33906v1",
+      "date": "2026-10-24",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.33906v1",
+      "authors": "Shyaam Mahesh, Aditya B Prakash et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "RoboLongR: Causally Consistent Rewards Teach Robots to Progressively Master Long-Horizon Manipulation",
+      "summary": "Long-horizon manipulation requires actions whose validity depends on earlier interactions, yet visual progress can conceal missing task prerequisites. We propose RoboLongR, an offline-to-online framework that learns history-dependent rewards to guide...",
+      "url": "https://arxiv.org/abs/2610.33863v1",
+      "date": "2026-10-24",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.33863v1",
+      "authors": "Zixuan Chen, Lin Cao et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "易观分析：具身智能全球市场仍处于早期商业化验证阶段，产业区域格局可概括为“美脑、中身、欧规、日韩精密”的多极分工。而中国的具身智能领域在完备供应链的加持下，在出货量、销售额、投融资规模、商业订单等方面都在全球占据榜首位置，且优势较为突出。但中国的核心技术和高端部件仍有提升空间，中国正由规模制造向全球技术与生态竞争迈进。",
+      "summary": "易观分析：具身智能全球市场仍处于早期商业化验证阶段，产业区域格局可概括为“美脑、中身、欧规、日韩精密”的多极分工。而中国的具身智能领域在完备供应链的加持下，在出货量、销售额、投融资规模、商业订单等方面都在全球占据榜首位置，且优势较为突出。但中国的核心技术和高端部件仍有提升空间，中国正由规模制造向全球",
+      "url": "http://36kr.com/p/4037944015853440",
+      "date": "2026-10-23",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
       ]
     },
     {
@@ -92,19 +185,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "易观分析：具身智能全球市场仍处于早期商业化验证阶段，产业区域格局可概括为“美脑、中身、欧规、日韩精密”的多极分工。而中国的具身智能领域在完备供应链的加持下，在出货量、销售额、投融资规模、商业订单等方面都在全球占据榜首位置，且优势较为突出。但中国的核心技术和高端部件仍有提升空间，中国正由规模制造向全球技术与生态竞争迈进。",
-      "summary": "易观分析：具身智能全球市场仍处于早期商业化验证阶段，产业区域格局可概括为“美脑、中身、欧规、日韩精密”的多极分工。而中国的具身智能领域在完备供应链的加持下，在出货量、销售额、投融资规模、商业订单等方面都在全球占据榜首位置，且优势较为突出。但中国的核心技术和高端部件仍有提升空间，中国正由规模制造向全球",
-      "url": "http://36kr.com/p/4037944015853440",
-      "date": "2026-10-23",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
       ]
     },
     {
@@ -2987,86 +3067,6 @@
       "type": "paper",
       "arxiv_id": "2609.28431v1",
       "authors": "Ning Chen, Yankai Fu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Watch, Recall, Act: Always-On Robots in Concurrent Embodied Streams",
-      "summary": "An always-on robot faces an endless stream that never resets: instructions arrive and lapse, the scene changes, and its own past actions reshape what it must reason about. Today's action models are built for the opposite: a fixed instruction, no mid-...",
-      "url": "https://arxiv.org/abs/2609.28429v1",
-      "date": "2026-09-23",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.28429v1",
-      "authors": "Ding Yi, Peiwen Sun et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Context-Continuous Preference Learning for Exoskeleton Personalization",
-      "summary": "Personalizing exoskeleton assistance across operating conditions is constrained by the time and physical effort required to collect user feedback. We examined whether a user's preference landscape varies smoothly across operating conditions and when ...",
-      "url": "https://arxiv.org/abs/2609.28427v1",
-      "date": "2026-09-23",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.28427v1",
-      "authors": "Sunin Baek, Sungwoo Park et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Frozen Flows Forget: Diagnosing and Restoring Lost Motion in a Latent-flow World Model",
-      "summary": "Latent world models that integrate a flow in a frozen self supervised latent space train stably and cheaply, yet silently lose the property manipulation depends on most: motion. The pretrained flow never moves the manipulated object; retraining it wi...",
-      "url": "https://arxiv.org/abs/2609.28414v1",
-      "date": "2026-09-23",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.28414v1",
-      "authors": "Xiwen Chen, Rigaudiere Z. Li et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Less Language, More Latents: Annotation-Efficient VLAs for Driving",
-      "summary": "Vision-language-action models (VLA) promise human-steerable autonomous driving, but their training is bottlenecked by the scarcity of frames paired with natural-language instructions: while camera streams and expert trajectories are logged at scale, ...",
-      "url": "https://arxiv.org/abs/2609.27747v1",
-      "date": "2026-09-23",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.27747v1",
-      "authors": "Alexey Zakharov, Kemal Oksuz et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "InfiNoVA: Infinite Novel View Augmentation for Viewpoint Invariant Robot Policies",
-      "summary": "Vision-Language-Action (VLA) policies often rely strongly on the camera viewpoints seen during training, causing substantial performance degradation when deployed from unseen perspectives. Collecting demonstrations from sufficiently diverse physical ...",
-      "url": "https://arxiv.org/abs/2609.27734v1",
-      "date": "2026-09-23",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.27734v1",
-      "authors": "Sai Puneeth Reddy Gottam, Elmar Rueckert et al.",
       "tags": [
         "机器人学习",
         "研究论文",

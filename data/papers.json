@@ -1,107 +1,37 @@
 {
-  "last_updated": "2026-10-26",
-  "count": 6,
+  "last_updated": "2026-10-27",
+  "count": 2,
   "items": [
     {
-      "title": "SceneBloom: Agentic Indoor Environment Generation with Realistic and Diverse Layouts for Embodied Learning",
-      "authors": "Yuhan Liu, Lianhui Qin, Shenji Wan",
-      "abstract": "Training generalizable embodied agents requires realistic, varied, and simulation-ready indoor environments. Language-guided methods support semantic planning and object-level reasoning, but precise spatial grounding remains difficult. Visual generative models offer rich priors over plausible arrang...",
+      "title": "Generative AI in Turbulence: Foundations, Applications, Validations and Benchmarks",
+      "authors": "Luca Biferale, Michele Buzzicotti",
+      "abstract": "Generative AI offers new approaches to turbulence problems in which incomplete observations or unresolved d.o.f. admit multiple physically plausible solutions. Potential applications include stochastic closures, super-resolution, data assimilation, uncertainty quantification, and the generation of E...",
       "venue": "arXiv",
-      "date": "2026-10-23",
-      "arxiv_id": "2610.32978v1",
-      "url": "https://arxiv.org/abs/2610.32978v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.32978v1.pdf",
+      "date": "2026-10-26",
+      "arxiv_id": "2610.35123v1",
+      "url": "https://arxiv.org/abs/2610.35123v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.35123v1.pdf",
       "categories": [
-        "cs.CV",
-        "cs.AI",
-        "cs.RO"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "RobustRLlib: A Unified Library and Benchmark for Robust Reinforcement Learning Algorithms",
-      "authors": "Xi Chen, Fengqi Hu, Zeyu Shen et al.",
-      "abstract": "Robust reinforcement learning (RL) is critical for reliable real-world deployment, where policies may fail under diverse shifts and disruptions. Existing robust RL algorithms offer a rich set of mechanisms and principles, yet two major barriers limit their broader potential: limited algorithm reusab...",
-      "venue": "arXiv",
-      "date": "2026-10-23",
-      "arxiv_id": "2610.32971v1",
-      "url": "https://arxiv.org/abs/2610.32971v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.32971v1.pdf",
-      "categories": [
-        "cs.LG",
-        "cs.AI",
-        "cs.RO"
+        "physics.flu-dyn",
+        "cond-mat.stat-mech",
+        "cs.AI"
       ],
       "type": "benchmark",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "The Language of Instruction: Genre and Generative AI",
-      "authors": "James E. Dobson",
-      "abstract": "This article argues that instruction-fine-tuned language models should be understood as implementing a genre, what is proposed as the instructional-conversational genre. This genre is an amalgamation of discursive language from prior conversations between generative models and humans recursively run...",
+      "title": "UTA: Universal Training Adaptive Learning Rate Decay",
+      "authors": "Anda Tang, Junjie Wang, Xuanlin Yang et al.",
+      "abstract": "Learning rate decay (LRD) is critical for training high-performance models, yet most designs remain empirically driven. Although the Universal Budget Aware (UBA) LRD offers a theoretical framework, its reliance on SGD dynamics limits its applicability to modern Adam-type optimizers and leaves its ke...",
       "venue": "arXiv",
-      "date": "2026-10-23",
-      "arxiv_id": "2610.32982v1",
-      "url": "https://arxiv.org/abs/2610.32982v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.32982v1.pdf",
+      "date": "2026-10-26",
+      "arxiv_id": "2610.35113v1",
+      "url": "https://arxiv.org/abs/2610.35113v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.35113v1.pdf",
       "categories": [
-        "cs.CL",
-        "cs.CY"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Measure Before You Train: Typed Decision Models vs. a Classical Baseline vs. a Generative LLM for Routing a Personal Multilingual Inbox",
-      "authors": "Federico Lucca",
-      "abstract": "Personal email agents decide, for every message, what it is, whether it is urgent, whether to draft a reply, create a task, or ignore it. Their error rate is rarely measured: the stored labels were written by the system itself. We present Foyer, a self-hosted personal inbox agent in daily use, and a...",
-      "venue": "arXiv",
-      "date": "2026-10-23",
-      "arxiv_id": "2610.32955v1",
-      "url": "https://arxiv.org/abs/2610.32955v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.32955v1.pdf",
-      "categories": [
-        "cs.CL",
-        "cs.HC",
-        "cs.LG"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "UniAction: Unified Action Conditioning for World Models",
-      "authors": "Bowen Xue, Zizhang Li, Hong-Xing Yu et al.",
-      "abstract": "Actions that condition world models are highly heterogeneous, and thus existing action-conditioned world models are typically built for individual action types, fragmenting already limited action-annotated data across separate models. We introduce UniAction, a unified action-conditioning framework t...",
-      "venue": "arXiv",
-      "date": "2026-10-23",
-      "arxiv_id": "2610.32977v1",
-      "url": "https://arxiv.org/abs/2610.32977v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.32977v1.pdf",
-      "categories": [
-        "cs.CV"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "DexPort: A Hand-Held Skill Interface for Dexterous Hand Data Collection",
-      "authors": "Amber Xie, Jiawei Fu, Xiaofeng Guo et al.",
-      "abstract": "Collecting high-quality demonstrations remains a central bottleneck for learning dexterous manipulation. Teleoperation records executable robot actions, but it requires a complete robot setup and places the burden of coordinating many finger joints on the operator. Human demonstrations are easier to...",
-      "venue": "arXiv",
-      "date": "2026-10-23",
-      "arxiv_id": "2610.32969v1",
-      "url": "https://arxiv.org/abs/2610.32969v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.32969v1.pdf",
-      "categories": [
-        "cs.RO",
-        "cs.AI",
-        "cs.LG"
+        "cs.LG",
+        "cs.AI"
       ],
       "type": "ml",
       "badge": "arxiv",
