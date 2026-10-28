@@ -1,17 +1,97 @@
 {
-  "last_updated": "2026-10-27",
+  "last_updated": "2026-10-28",
   "count": 200,
   "items": [
     {
       "title": "[大疆/影石/启元/寻影加码AI影像，不会拍照的机器人不是好 具 身 智 能？",
       "summary": "[大疆/影石/启元/寻影加码AI影像，不会拍照的机器人不是好 具 身 智 能？",
       "url": "http://36kr.com/p/4033889613796999",
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
       "tags": [
         "机器人"
+      ]
+    },
+    {
+      "title": "ThinkWorld: World Imagination Reinforces Chain-of-Dynamics Reasoning",
+      "summary": "Vision-Language-Action (VLA) models have made substantial progress in robotic manipulation, but their generalization remains constrained by the diversity and coverage of action-labeled robot demonstrations. Human videos provide much broader behaviora...",
+      "url": "https://arxiv.org/abs/2610.37666v1",
+      "date": "2026-10-27",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.37666v1",
+      "authors": "Chaehyun Kim, Chi-Pin Huang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Pushing Dexterity and Safety for In-Hand Object Pose Reaching That Works Remarkably Well",
+      "summary": "Dexterous manipulation with multi-fingered hands is the next frontier of robotics, yet learned hand skills remain limited to simple grasps or basic repeated motions, such as rotating an object. As robots attempt more demanding in-hand maneuvers, safe...",
+      "url": "https://arxiv.org/abs/2610.37652v1",
+      "date": "2026-10-27",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.37652v1",
+      "authors": "Ian Chuang, Hiya Shah et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Perceiving and Predicting Dynamic Sports: Spatiotemporal Intelligence in Vision Models for Egocentric Tennis Video",
+      "summary": "Agile robots require spatiotemporal intelligence to interpret scenes, reason about interactions, and anticipate future events. Yet it remains unclear how well foundation vision models support these capabilities, particularly from a moving egocentric ...",
+      "url": "https://arxiv.org/abs/2610.37619v1",
+      "date": "2026-10-27",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.37619v1",
+      "authors": "Tudor Braicu, Joseph DelPreto et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "RESPLE2: Inertial-Informed Recursive Non-Uniform Spline Estimation for Multi-Sensor Odometry with Global Refinement",
+      "summary": "We present RESPLE2, a recursive multi-sensor state estimation framework using non-uniform B-splines for 6-DoF motion representation. By exploiting the knot-clamping boundary property, we propose a theoretically grounded mechanism for exact control-po...",
+      "url": "https://arxiv.org/abs/2610.37602v1",
+      "date": "2026-10-27",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.37602v1",
+      "authors": "Ziyu Cao, William Talbot et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "EgoThumb: A Vision-Driven Supernumerary Robotic Thumb for Autonomous Grasp and Holding Assistance",
+      "summary": "Supernumerary robotic fingers augment human dexterity by enabling a single hand to perform complex \"hold-and-manipulate\" tasks that typically require bimanual coordination. However, existing devices are often hindered by bulky hardware that limits in...",
+      "url": "https://arxiv.org/abs/2610.37582v1",
+      "date": "2026-10-27",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.37582v1",
+      "authors": "Jianyu Hou, Jiawei Fu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
       ]
     },
     {
@@ -2997,79 +3077,6 @@
       "type": "paper",
       "arxiv_id": "2609.31232v1",
       "authors": "Yifan Lin, Chao Qin et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "[数据流架构进军 具 身 智 能：高光D35为何成为启元机器人的算力伙伴",
-      "summary": "[数据流架构进军 具 身 智 能：高光D35为何成为启元机器人的算力伙伴",
-      "url": "http://36kr.com/p/3991470804876288",
-      "date": "2026-09-25",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
-      ]
-    },
-    {
-      "title": "国网南网先后绑定宇树，争夺电力具身智能标准权",
-      "summary": "国网南网先后绑定宇树，争夺电力具身智能标准权",
-      "url": "http://36kr.com/p/3996210299393671",
-      "date": "2026-09-24",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "AD-WM: Action-Discriminative World Models for Counterfactual Model Predictive Control",
-      "summary": "Latent world models are typically trained to predict factual transitions, whereas model predictive control (MPC) must compare alternative actions from the same state. A model can therefore achieve low factual prediction error yet poorly distinguish c...",
-      "url": "https://arxiv.org/abs/2609.30264v1",
-      "date": "2026-09-24",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.30264v1",
-      "authors": "Jiabin Qiu, Zixuan Chen et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "RAPID: Robot Agentic Programming from Demonstrations",
-      "summary": "Coding agents have demonstrated enormous success in solving complex programming problems. To leverage their potential for robot systems, this work introduces Robot Agentic Programming from Demonstrations (RAPID), which automatically generates, verifi...",
-      "url": "https://arxiv.org/abs/2609.30249v1",
-      "date": "2026-09-24",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.30249v1",
-      "authors": "Yuyao Liu, Jiayuan Mao et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Rolling-WAM: World Action Models with Rolling Imagination",
-      "summary": "World Action Models (WAMs) couple action generation with future visual prediction for robotic manipulation. However, completing the joint video-action denoising process at each replanning cycle incurs substantial latency, delaying action updates and ...",
-      "url": "https://arxiv.org/abs/2609.30247v1",
-      "date": "2026-09-24",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.30247v1",
-      "authors": "Yinghua Zhou, Junjie Ye et al.",
       "tags": [
         "机器人学习",
         "研究论文",
