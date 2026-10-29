@@ -1,6 +1,6 @@
 ---
 title: '[CoreWeave违约概率超六成，黄仁勋“灭火”：融资成本在下降，无需英伟达兜底'
-date: '2026-10-26'
+date: '2026-10-29'
 type: news
 source: 36氪
 category: AI投资
