@@ -7,8 +7,8 @@
       "rank": 1,
       "model": "particle-1",
       "organization": "particle-ai",
-      "price_prompt": "0.00000025",
-      "price_completion": "0.000001",
+      "price_prompt": "0.00000005",
+      "price_completion": "0.0000005",
       "context_length": 1048576
     },
     {
@@ -63,8 +63,8 @@
       "rank": 8,
       "model": "minimax-m3.1-flash",
       "organization": "minimax",
-      "price_prompt": "0.00000015",
-      "price_completion": "0.0000006",
+      "price_prompt": "0.000000075",
+      "price_completion": "0.0000003",
       "context_length": 1048576
     },
     {
