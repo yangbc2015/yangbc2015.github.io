@@ -1,7 +1,113 @@
 {
-  "last_updated": "2026-10-29",
+  "last_updated": "2026-10-30",
   "count": 200,
   "items": [
+    {
+      "title": "AtomTree: A Hierarchical Framework for State-Aware Embodied Instruction Following with LLMs",
+      "summary": "Embodied instruction following in interactive environments requires agents to interpret natural language commands and complete long-horizon tasks. Existing planners either rely on large labeled trajectories, or use few-shot and zero-shot LLM promptin...",
+      "url": "https://arxiv.org/abs/2610.38744v1",
+      "date": "2026-10-28",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.38744v1",
+      "authors": "Haotian Zhai, Tianming Sha et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Value Function-Guided MPPI for Hierarchical Planning and Control in Off-Road Autonomous Navigation",
+      "summary": "Autonomous navigation in off-road terrain is commonly achieved using hierarchical control and planning architectures that rely on explicit cost maps and one-way information flow from a high-level planner to a low-level controller, decoupling planning...",
+      "url": "https://arxiv.org/abs/2610.38731v1",
+      "date": "2026-10-28",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.38731v1",
+      "authors": "Anoushka Alavilli, Raymond Song et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Quantize by Doing: Task-Guided Mixed-Precision Quantization of Vision-Language-Action Models",
+      "summary": "Post-training quantization (PTQ) reduces the memory footprint of vision-language-action (VLA) models, but lowering bit widths while maintaining task performance remains challenging. Existing work has used sensitivity estimates from calibration data t...",
+      "url": "https://arxiv.org/abs/2610.38661v1",
+      "date": "2026-10-28",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.38661v1",
+      "authors": "Jiuyi Xu, Xiao Hu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Explore Where It Matters: Targeted Exploration for Efficient Rover Adaptation",
+      "summary": "Future planetary rovers will traverse steep, deformable terrain where slip, sinkage, and terrain deformation can threaten mobility. Although simulation can capture some wheel-soil effects, unmodeled deformable-terrain phenomena create sim-to-real gap...",
+      "url": "https://arxiv.org/abs/2610.38657v1",
+      "date": "2026-10-28",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.38657v1",
+      "authors": "Jacob Levy, Arthur Bouton et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "The Reality Gap in Automated Driving Systems Testing: Landscape, Challenges, and Research Directions",
+      "summary": "Simulation is essential for testing automated driving systems (ADS), but discrepancies between simulation and reality can undermine testing conclusions. It remains unclear which discrepancies the literature addresses and what evidence supports corres...",
+      "url": "https://arxiv.org/abs/2610.38628v1",
+      "date": "2026-10-28",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.38628v1",
+      "authors": "Stefano Carlo Lambertenghi, Oliver Weissl et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "字节下场布局具身智能人形机器人",
+      "summary": "字节下场布局具身智能人形机器人",
+      "url": "http://36kr.com/p/4045515627468424",
+      "date": "2026-10-28",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能",
+        "人形机器人"
+      ]
+    },
+    {
+      "title": "机器人进产线，工程化能力成关键。",
+      "summary": "机器人进产线，工程化能力成关键。",
+      "url": "http://36kr.com/p/4044901858972807",
+      "date": "2026-10-28",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
     {
       "title": "[大疆/影石/启元/寻影加码AI影像，不会拍照的机器人不是好 具 身 智 能？",
       "summary": "[大疆/影石/启元/寻影加码AI影像，不会拍照的机器人不是好 具 身 智 能？",
@@ -12,6 +118,45 @@
       "type": "news",
       "tags": [
         "机器人"
+      ]
+    },
+    {
+      "title": "昂晟科技提具身智能“3+3+2”产业化框架",
+      "summary": "昂晟科技提具身智能“3+3+2”产业化框架",
+      "url": "http://36kr.com/p/4042178813006725",
+      "date": "2026-10-27",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "紫创智械完成数千万元融资，加速工程机械具身智能落地",
+      "summary": "紫创智械完成数千万元融资，加速工程机械具身智能落地",
+      "url": "http://36kr.com/p/4041277183529861",
+      "date": "2026-10-27",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "一个工位跑通之后，工业具身智能如何走向规模应用？",
+      "summary": "一个工位跑通之后，工业具身智能如何走向规模应用？",
+      "url": "http://36kr.com/p/4043370323432576",
+      "date": "2026-10-27",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
       ]
     },
     {
@@ -92,45 +237,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "昂晟科技提具身智能“3+3+2”产业化框架",
-      "summary": "昂晟科技提具身智能“3+3+2”产业化框架",
-      "url": "http://36kr.com/p/4042178813006725",
-      "date": "2026-10-27",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "紫创智械完成数千万元融资，加速工程机械具身智能落地",
-      "summary": "紫创智械完成数千万元融资，加速工程机械具身智能落地",
-      "url": "http://36kr.com/p/4041277183529861",
-      "date": "2026-10-27",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "一个工位跑通之后，工业具身智能如何走向规模应用？",
-      "summary": "一个工位跑通之后，工业具身智能如何走向规模应用？",
-      "url": "http://36kr.com/p/4043370323432576",
-      "date": "2026-10-27",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
       ]
     },
     {
@@ -2956,118 +3062,6 @@
       "type": "paper",
       "arxiv_id": "2609.33982v1",
       "authors": "Ivan Kapelyukh, Yafei Hu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Learning Robot Policies from Sparse Success Signals via STL-Guided Stein Variational Policy Gradient",
-      "summary": "Learning robot policies for tasks with sparse success signals is challenging when completion depends on coordinated actions, precise contact outcomes, or satisfying several conditions together. Intricate physical interactions with the world further c...",
-      "url": "https://arxiv.org/abs/2609.31606v1",
-      "date": "2026-09-25",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.31606v1",
-      "authors": "Hongrui Zheng, Cristian Ioan Vasile et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Generate, Track, Improve: Perceptive Multi-Skill Humanoid Locomotion with RL-Fine-Tuned Motion Generators",
-      "summary": "General purpose humanoids require locomotion controllers that are multi-skill, perceptive, dynamic, and robust enough to go anywhere humans can. In this work, we present a two layer locomotion architecture: (1) a perceptive flow matching motion gener...",
-      "url": "https://arxiv.org/abs/2609.31577v1",
-      "date": "2026-09-25",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.31577v1",
-      "authors": "Zachary Olkin, William D. Compton et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "SatNav: A Scalable Benchmark for Long-Horizon UAV Vision-Language Navigation from Satellite Imagery",
-      "summary": "Urban uncrewed aerial vehicle (UAV) vision-language navigation (VLN) requires agents to follow instructions across extended urban spaces, inherently demanding long-term memory and geospatial grounding. However, scaling existing benchmarks remains dif...",
-      "url": "https://arxiv.org/abs/2609.31507v1",
-      "date": "2026-09-25",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.31507v1",
-      "authors": "Jiajun Jiang, Chunliang Hua et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Vision-Based 6-DoF Grasp Pose Estimation for Robot Cloth Unfolding",
-      "summary": "Cloth manipulation is a challenging task due to the deformable and high-dimensional nature of cloth, which leads to complex interaction dynamics and perceptual ambiguity arising from frequent occlusions of critical visual cues such as folds, edges, a...",
-      "url": "https://arxiv.org/abs/2609.31452v1",
-      "date": "2026-09-25",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.31452v1",
-      "authors": "Domen Tabernik, Peter Nimac et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Learning to Leverage Compliance: A Policy-Admittance Learning Framework for Robotic Insertion",
-      "summary": "Policy learning and compliant control offer a promising route to reliable autonomous assembly under pose errors and contact uncertainty. However, combining them does not ensure coordination: the policy may continue pushing against contact while the c...",
-      "url": "https://arxiv.org/abs/2609.31439v1",
-      "date": "2026-09-25",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.31439v1",
-      "authors": "Chongren Wang, Minghe Li et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Transformer-based Monte Carlo Localization in Construction Meshes",
-      "summary": "To be able to perform inspection or digitization tasks, mobile robots on construction sites must be able to localize themselves reliably with respect to a global reference frame that is shared with a building map. Similar room layouts and low-texture...",
-      "url": "https://arxiv.org/abs/2609.31357v1",
-      "date": "2026-09-25",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.31357v1",
-      "authors": "Linus Kramer, William Talbot et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Representation-Guided Generation and Integration of Executable Programs for Robot Manipulation",
-      "summary": "Building a robotic manipulation system requires connecting perception, planning, and control through carefully designed representations and interfaces. VLM code generation offers a way to automate this construction, but independently generated compon...",
-      "url": "https://arxiv.org/abs/2609.31337v1",
-      "date": "2026-09-25",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.31337v1",
-      "authors": "Ruixiao Yang, Mingxin Yu et al.",
       "tags": [
         "机器人学习",
         "研究论文",

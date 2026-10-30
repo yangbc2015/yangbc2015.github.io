@@ -1,37 +1,19 @@
 {
-  "last_updated": "2026-10-29",
-  "count": 6,
+  "last_updated": "2026-10-30",
+  "count": 8,
   "items": [
     {
-      "title": "Honeycomb-Surfels: Compact Hexagonal Primitives for Efficient Scene Rendering and Reconstruction",
-      "authors": "Prakhar Kaushik, Soumava Paul, Alan Yuille",
-      "abstract": "Novel view synthesis and 3D reconstruction have advanced rapidly with radiance fields and splatting, yet their memory and computational demands limit their use in resource-constrained settings. We introduce Hexels: novel planar hexagonal surface elements with a first-order spatial color field for ef...",
+      "title": "Does Federated Training Degrade Explainability? A Comparative Analysis of Grad-CAM Faithfulness in Centralized vs. Federated Deepfake Detection",
+      "authors": "Muhammad Uzair Shahid, Muhammad Zabil Mehboob",
+      "abstract": "Automated detection has become the essential safeguard against realistic synthetic media, but deploying it at scale requires training on sensitive data from multiple organizations, putting privacy and the transparency demanded by forensic review in direct conflict. Federated learning resolves the pr...",
       "venue": "arXiv",
-      "date": "2026-10-27",
-      "arxiv_id": "2610.37668v1",
-      "url": "https://arxiv.org/abs/2610.37668v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.37668v1.pdf",
+      "date": "2026-10-29",
+      "arxiv_id": "2610.39483v1",
+      "url": "https://arxiv.org/abs/2610.39483v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.39483v1.pdf",
       "categories": [
-        "cs.CV",
         "cs.AI",
-        "cs.GR"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "ThinkWorld: World Imagination Reinforces Chain-of-Dynamics Reasoning",
-      "authors": "Chaehyun Kim, Chi-Pin Huang, Jisoo Kim et al.",
-      "abstract": "Vision-Language-Action (VLA) models have made substantial progress in robotic manipulation, but their generalization remains constrained by the diversity and coverage of action-labeled robot demonstrations. Human videos provide much broader behavioral and environmental experience, while learning fro...",
-      "venue": "arXiv",
-      "date": "2026-10-27",
-      "arxiv_id": "2610.37666v1",
-      "url": "https://arxiv.org/abs/2610.37666v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.37666v1.pdf",
-      "categories": [
-        "cs.RO",
-        "cs.AI",
+        "cs.CR",
         "cs.CV"
       ],
       "type": "vision",
@@ -39,33 +21,101 @@
       "source": "arXiv"
     },
     {
-      "title": "Heads of Security: Learned Attention Gates Improve Prompt Injection Robustness",
-      "authors": "Igor Shilov, Xiaoxue Yang, Alexander Panfilov et al.",
-      "abstract": "We introduce Heads of Security (HoS), a prompt injection defense that enforces instruction-data separation via a small set of learned per-head attention gates. HoS learns how each head should redistribute attention between trusted and untrusted tokens, enabling models to reason over untrusted conten...",
+      "title": "Soei: Structured Observability of Evidence and Intent for Multi-Agent AI Software Engineering",
+      "authors": "Mohammed Nayeem Khan, K S Sarun Kumar",
+      "abstract": "AI coding agents now do long, multi-step and multi-session software work with little supervision. When a developer comes back to that work, the useful question is not what the model said but what was actually done, by whom, and whether it is finished. We study this in three parts. First, we verify A...",
       "venue": "arXiv",
-      "date": "2026-10-27",
-      "arxiv_id": "2610.37657v1",
-      "url": "https://arxiv.org/abs/2610.37657v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.37657v1.pdf",
+      "date": "2026-10-29",
+      "arxiv_id": "2610.39468v1",
+      "url": "https://arxiv.org/abs/2610.39468v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.39468v1.pdf",
       "categories": [
-        "cs.LG",
-        "cs.CL",
-        "cs.CR"
+        "cs.SE",
+        "cs.AI",
+        "cs.MA"
+      ],
+      "type": "ai",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Regional Anchor Routing for Multi-Object Motion Transfer",
+      "authors": "Yuze Li, Fuchen Long, Xinlong Sun et al.",
+      "abstract": "Compositional motion transfer requires a model to extract motions from multiple reference videos, and apply each motion to a user-specified object in one target scene. Existing methods normally struggle to reliably assign different reference motions to the correct target objects, thus a motion inten...",
+      "venue": "arXiv",
+      "date": "2026-10-29",
+      "arxiv_id": "2610.39478v1",
+      "url": "https://arxiv.org/abs/2610.39478v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.39478v1.pdf",
+      "categories": [
+        "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Topology Survives Shuffling: Robust Long-Context Memory Access Prediction for Graph Analytics",
+      "authors": "Dongyan Sun, Neelesh Gupta, Rajgopal Kannan et al.",
+      "abstract": "Graph analytics generates irregular, topology-dependent memory-access streams via indirect traversals, limiting data prefetching. Accurate prediction enables timely prefetches that hide memory latency. However, ML predictors couple short histories with fixed horizons, fitting the training trace's no...",
+      "venue": "arXiv",
+      "date": "2026-10-29",
+      "arxiv_id": "2610.39477v1",
+      "url": "https://arxiv.org/abs/2610.39477v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.39477v1.pdf",
+      "categories": [
+        "cs.LG"
       ],
       "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "GEPA-Curator: Curated Learning for Self Improving Agents",
-      "authors": "Zack Yu, Nicholas Lee, Minjae Lee et al.",
-      "abstract": "Large Language Models (LLMs) are increasingly used in multi-turn agentic workloads that require sustained interaction with complex environments. Existing reflective prompt optimizers such as GEPA learn from failed rollouts, but agentic failures can also come from prompt weaknesses, harness limitatio...",
+      "title": "Kairos: Semantics-Aware Orchestration of Planning Engines across Classical, Numeric, Temporal and Hybrid PDDL",
+      "authors": "Francisco Martín Rico, Esther Aguado González, Francisco Miguel Moreno Olivo et al.",
+      "abstract": "Planning at run time, as in robots that re-plan while they act, needs a planner that reads the PDDL its users write (durative actions, numeric resources, time windows, continuous change), answers quickly, and delivers only validated plans. Specialised planners are strong on individual fragments of P...",
       "venue": "arXiv",
-      "date": "2026-10-27",
-      "arxiv_id": "2610.37651v1",
-      "url": "https://arxiv.org/abs/2610.37651v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.37651v1.pdf",
+      "date": "2026-10-29",
+      "arxiv_id": "2610.39454v1",
+      "url": "https://arxiv.org/abs/2610.39454v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.39454v1.pdf",
       "categories": [
+        "cs.AI",
+        "cs.RO"
+      ],
+      "type": "ai",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Smooth Action Chunking Via Movement-Primitive Representations for Imitation Learning",
+      "authors": "Shota Nomura, Takayuki Osa, Yasuhiro Kato et al.",
+      "abstract": "Imitation learning has become a widely adopted approach for vision-based robot policies, owing to its conceptual simplicity, scalability, and ability to leverage large-scale datasets. As these policies have grown more capable, action chunking has become their standard interface. At each decision ste...",
+      "venue": "arXiv",
+      "date": "2026-10-29",
+      "arxiv_id": "2610.39451v1",
+      "url": "https://arxiv.org/abs/2610.39451v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.39451v1.pdf",
+      "categories": [
+        "cs.LG",
+        "cs.RO"
+      ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "What to randomize matters: a controlled study of volume, axis and representation in low-data molecular generation",
+      "authors": "Neerav Kaushal, Alisa Teige, Ajay MNV Penmatsa",
+      "abstract": "Chemical language models can struggle to generate new molecules when trained on small datasets, where a model may reproduce training examples rather than learn a useful generative distribution. Randomized SMILES augmentation varies atom traversal, whereas Sequential Attachment-based Fragment Embeddi...",
+      "venue": "arXiv",
+      "date": "2026-10-28",
+      "arxiv_id": "2610.38835v1",
+      "url": "https://arxiv.org/abs/2610.38835v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.38835v1.pdf",
+      "categories": [
+        "cs.LG",
+        "cs.CE",
         "cs.CL"
       ],
       "type": "nlp",
@@ -73,36 +123,19 @@
       "source": "arXiv"
     },
     {
-      "title": "When Should We Intervene at Test Time?",
-      "authors": "Jiahao Zhang, Xinling Wen, Liangliang Li et al.",
-      "abstract": "Test-time adaptation helps a deployed model respond to changing inputs, but the same intervention can rescue one batch and damage the next. Updating normalization statistics, for example, can improve corrupted images yet fail when a batch contains mostly one class. Average accuracy hides these failu...",
+      "title": "CopyLoop: Fast Looped Transformer Decoding via Context Copying and Shallow Screening",
+      "authors": "Wenyu Du, Stephen Chung",
+      "abstract": "Looped Transformers increase computational capacity through the repeated application of shared blocks, but their recurrent depth makes conventional full-depth decoding expensive. While existing speculative pipelines accelerate generation by processing consecutive token positions at varying depths, t...",
       "venue": "arXiv",
-      "date": "2026-10-27",
-      "arxiv_id": "2610.37658v1",
-      "url": "https://arxiv.org/abs/2610.37658v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.37658v1.pdf",
+      "date": "2026-10-28",
+      "arxiv_id": "2610.38822v1",
+      "url": "https://arxiv.org/abs/2610.38822v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.38822v1.pdf",
       "categories": [
-        "cs.LG"
+        "cs.CL",
+        "cs.AI"
       ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Pushing Dexterity and Safety for In-Hand Object Pose Reaching That Works Remarkably Well",
-      "authors": "Ian Chuang, Hiya Shah, Vamsi Chilamkur et al.",
-      "abstract": "Dexterous manipulation with multi-fingered hands is the next frontier of robotics, yet learned hand skills remain limited to simple grasps or basic repeated motions, such as rotating an object. As robots attempt more demanding in-hand maneuvers, safety, such as not dropping the object, becomes criti...",
-      "venue": "arXiv",
-      "date": "2026-10-27",
-      "arxiv_id": "2610.37652v1",
-      "url": "https://arxiv.org/abs/2610.37652v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.37652v1.pdf",
-      "categories": [
-        "cs.RO",
-        "cs.LG",
-        "eess.SY"
-      ],
-      "type": "ml",
+      "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     }
