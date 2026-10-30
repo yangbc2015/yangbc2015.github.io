@@ -3,17 +3,17 @@
   "count": 8,
   "items": [
     {
-      "title": "Does Federated Training Degrade Explainability? A Comparative Analysis of Grad-CAM Faithfulness in Centralized vs. Federated Deepfake Detection",
-      "authors": "Muhammad Uzair Shahid, Muhammad Zabil Mehboob",
-      "abstract": "Automated detection has become the essential safeguard against realistic synthetic media, but deploying it at scale requires training on sensitive data from multiple organizations, putting privacy and the transparency demanded by forensic review in direct conflict. Federated learning resolves the pr...",
+      "title": "Rethinking Neural Thickets Without Weight Perturbations",
+      "authors": "Nicolas Dufour, Elouan Gardès, Amil Dravid et al.",
+      "abstract": "The Neural Thickets hypothesis posits that pretrained language models lie in dense neighborhoods of task-specific experts in weight space, which random Gaussian perturbations can uncover. We reproduce the reported gains, but show that they do not require this geometric explanation. Perturbing a sing...",
       "venue": "arXiv",
       "date": "2026-10-29",
-      "arxiv_id": "2610.39483v1",
-      "url": "https://arxiv.org/abs/2610.39483v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.39483v1.pdf",
+      "arxiv_id": "2610.40649v1",
+      "url": "https://arxiv.org/abs/2610.40649v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.40649v1.pdf",
       "categories": [
+        "cs.LG",
         "cs.AI",
-        "cs.CR",
         "cs.CV"
       ],
       "type": "vision",
@@ -21,101 +21,33 @@
       "source": "arXiv"
     },
     {
-      "title": "Soei: Structured Observability of Evidence and Intent for Multi-Agent AI Software Engineering",
-      "authors": "Mohammed Nayeem Khan, K S Sarun Kumar",
-      "abstract": "AI coding agents now do long, multi-step and multi-session software work with little supervision. When a developer comes back to that work, the useful question is not what the model said but what was actually done, by whom, and whether it is finished. We study this in three parts. First, we verify A...",
+      "title": "Read, Allocate, Route: Role-Coupled Tokenization for Pixel-Space Generative Transformers",
+      "authors": "Jiongfan Yang, Weichen Fan, Haiwen Diao et al.",
+      "abstract": "Pixel-space generative Transformers typically use one token per image patch, so capturing finer detail requires more tokens and makes global attention increasingly expensive. We observe that finer detail does not necessarily require more global communication: low-frequency structure benefits from gl...",
       "venue": "arXiv",
       "date": "2026-10-29",
-      "arxiv_id": "2610.39468v1",
-      "url": "https://arxiv.org/abs/2610.39468v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.39468v1.pdf",
+      "arxiv_id": "2610.40647v1",
+      "url": "https://arxiv.org/abs/2610.40647v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.40647v1.pdf",
       "categories": [
-        "cs.SE",
+        "cs.CV",
         "cs.AI",
-        "cs.MA"
-      ],
-      "type": "ai",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Regional Anchor Routing for Multi-Object Motion Transfer",
-      "authors": "Yuze Li, Fuchen Long, Xinlong Sun et al.",
-      "abstract": "Compositional motion transfer requires a model to extract motions from multiple reference videos, and apply each motion to a user-specified object in one target scene. Existing methods normally struggle to reliably assign different reference motions to the correct target objects, thus a motion inten...",
-      "venue": "arXiv",
-      "date": "2026-10-29",
-      "arxiv_id": "2610.39478v1",
-      "url": "https://arxiv.org/abs/2610.39478v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.39478v1.pdf",
-      "categories": [
-        "cs.CV"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Topology Survives Shuffling: Robust Long-Context Memory Access Prediction for Graph Analytics",
-      "authors": "Dongyan Sun, Neelesh Gupta, Rajgopal Kannan et al.",
-      "abstract": "Graph analytics generates irregular, topology-dependent memory-access streams via indirect traversals, limiting data prefetching. Accurate prediction enables timely prefetches that hide memory latency. However, ML predictors couple short histories with fixed horizons, fitting the training trace's no...",
-      "venue": "arXiv",
-      "date": "2026-10-29",
-      "arxiv_id": "2610.39477v1",
-      "url": "https://arxiv.org/abs/2610.39477v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.39477v1.pdf",
-      "categories": [
         "cs.LG"
       ],
-      "type": "nlp",
+      "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Kairos: Semantics-Aware Orchestration of Planning Engines across Classical, Numeric, Temporal and Hybrid PDDL",
-      "authors": "Francisco Martín Rico, Esther Aguado González, Francisco Miguel Moreno Olivo et al.",
-      "abstract": "Planning at run time, as in robots that re-plan while they act, needs a planner that reads the PDDL its users write (durative actions, numeric resources, time windows, continuous change), answers quickly, and delivers only validated plans. Specialised planners are strong on individual fragments of P...",
+      "title": "Elucidating the Design Space of LM Data Attribution",
+      "authors": "Steven Yu, Sheng-Yu Wang, Kimia Hamidieh et al.",
+      "abstract": "Data attribution methods for Language Models (LMs) are typically evaluated using downstream tasks like fact retrieval. However, existing evaluations vary multiple dataset properties simultaneously, making it impossible to isolate exactly why an attribution algorithm fails. To diagnose these failures...",
       "venue": "arXiv",
       "date": "2026-10-29",
-      "arxiv_id": "2610.39454v1",
-      "url": "https://arxiv.org/abs/2610.39454v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.39454v1.pdf",
+      "arxiv_id": "2610.40655v1",
+      "url": "https://arxiv.org/abs/2610.40655v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.40655v1.pdf",
       "categories": [
-        "cs.AI",
-        "cs.RO"
-      ],
-      "type": "ai",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Smooth Action Chunking Via Movement-Primitive Representations for Imitation Learning",
-      "authors": "Shota Nomura, Takayuki Osa, Yasuhiro Kato et al.",
-      "abstract": "Imitation learning has become a widely adopted approach for vision-based robot policies, owing to its conceptual simplicity, scalability, and ability to leverage large-scale datasets. As these policies have grown more capable, action chunking has become their standard interface. At each decision ste...",
-      "venue": "arXiv",
-      "date": "2026-10-29",
-      "arxiv_id": "2610.39451v1",
-      "url": "https://arxiv.org/abs/2610.39451v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.39451v1.pdf",
-      "categories": [
-        "cs.LG",
-        "cs.RO"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "What to randomize matters: a controlled study of volume, axis and representation in low-data molecular generation",
-      "authors": "Neerav Kaushal, Alisa Teige, Ajay MNV Penmatsa",
-      "abstract": "Chemical language models can struggle to generate new molecules when trained on small datasets, where a model may reproduce training examples rather than learn a useful generative distribution. Randomized SMILES augmentation varies atom traversal, whereas Sequential Attachment-based Fragment Embeddi...",
-      "venue": "arXiv",
-      "date": "2026-10-28",
-      "arxiv_id": "2610.38835v1",
-      "url": "https://arxiv.org/abs/2610.38835v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.38835v1.pdf",
-      "categories": [
-        "cs.LG",
-        "cs.CE",
         "cs.CL"
       ],
       "type": "nlp",
@@ -123,19 +55,84 @@
       "source": "arXiv"
     },
     {
-      "title": "CopyLoop: Fast Looped Transformer Decoding via Context Copying and Shallow Screening",
-      "authors": "Wenyu Du, Stephen Chung",
-      "abstract": "Looped Transformers increase computational capacity through the repeated application of shared blocks, but their recurrent depth makes conventional full-depth decoding expensive. While existing speculative pipelines accelerate generation by processing consecutive token positions at varying depths, t...",
+      "title": "ShallowDefend: Harnessing Shallow Safety Alignment for Multi-Turn Defender",
+      "authors": "Qiyao Ma, Xiaodong Liu, Weiwei Yang et al.",
+      "abstract": "Safety alignment has enabled large language models to reliably refuse harmful requests directly, yet the same request distributed across a multi-turn conversation still succeeds far too often. This brittleness has a mechanistic root: Alignment is shallow, with safety behavior concentrated in a model...",
       "venue": "arXiv",
-      "date": "2026-10-28",
-      "arxiv_id": "2610.38822v1",
-      "url": "https://arxiv.org/abs/2610.38822v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.38822v1.pdf",
+      "date": "2026-10-29",
+      "arxiv_id": "2610.40627v1",
+      "url": "https://arxiv.org/abs/2610.40627v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.40627v1.pdf",
       "categories": [
-        "cs.CL",
-        "cs.AI"
+        "cs.CL"
       ],
       "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Micro-Edits: Computational Support for Fine-Scale Edits in Film",
+      "authors": "Nhan Tran, Hijung Valentina Shin, Abe Davis et al.",
+      "abstract": "In film editing, every frame matters. While macro, content-level edits shape the high-level narrative of a film, small local edits often control timing and direct visual attention. For example, editors can adjust the precise timing of clips to control the length of a meaningful silence, or cut to sh...",
+      "venue": "arXiv",
+      "date": "2026-10-29",
+      "arxiv_id": "2610.40653v1",
+      "url": "https://arxiv.org/abs/2610.40653v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.40653v1.pdf",
+      "categories": [
+        "cs.HC",
+        "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Propose-Filter-Release: Scaling Noise to Typical Sensitivity via Private Filtering",
+      "authors": "Moshe Shenfeld, Eliad Tsfadia, Katrina Ligett",
+      "abstract": "An estimator can be accurate and stable on typical data, yet sensitive to a few possible records. Differentially private mechanisms commonly scale their noise to the worst-case influence of a single record, which lets these records dictate the noise even when the remaining data would allow far less....",
+      "venue": "arXiv",
+      "date": "2026-10-29",
+      "arxiv_id": "2610.40654v1",
+      "url": "https://arxiv.org/abs/2610.40654v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.40654v1.pdf",
+      "categories": [
+        "cs.LG"
+      ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "SwapBot: Tool-Centric Robot Manipulation via Interchangeable End-Effectors and Tactile Sensing",
+      "authors": "Yunchu Zhang, Ray Song, Junhan Jiao et al.",
+      "abstract": "Robot manipulation in everyday environments inherently involves substantial tool usage. Seemingly simple household tasks, such as cooking pan-fried tofu, require forceful cutting, delicate brushing, and precise placement using different tools under contact-rich interaction. Thus, the ability to auto...",
+      "venue": "arXiv",
+      "date": "2026-10-29",
+      "arxiv_id": "2610.40646v1",
+      "url": "https://arxiv.org/abs/2610.40646v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.40646v1.pdf",
+      "categories": [
+        "cs.RO"
+      ],
+      "type": "ai",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "SymAnt: Grounding Long-Horizon Action Anticipation with Adaptable Symbolic Priors",
+      "authors": "Fnu Aryan, Yaqi Xie, Joseph Campbell et al.",
+      "abstract": "As robots and intelligent systems increasingly interact with humans, they must anticipate long sequences of future actions from only brief observations. While purely neural models typically require extensive observations to predict future actions and remain difficult to interpret and adjust, symboli...",
+      "venue": "arXiv",
+      "date": "2026-10-29",
+      "arxiv_id": "2610.40632v1",
+      "url": "https://arxiv.org/abs/2610.40632v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.40632v1.pdf",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     }

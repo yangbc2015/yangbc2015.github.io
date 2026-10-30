@@ -3,6 +3,124 @@
   "count": 200,
   "items": [
     {
+      "title": "[桌面机器人火了，具 身 智 能 厂商发力新赛道，终局是物理Agent？",
+      "summary": "[桌面机器人火了，具 身 智 能 厂商发力新赛道，终局是物理Agent？",
+      "url": "https://36kr.com/p/4048166536812168",
+      "date": "2026-10-30",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
+      "title": "SwapBot: Tool-Centric Robot Manipulation via Interchangeable End-Effectors and Tactile Sensing",
+      "summary": "Robot manipulation in everyday environments inherently involves substantial tool usage. Seemingly simple household tasks, such as cooking pan-fried tofu, require forceful cutting, delicate brushing, and precise placement using different tools under c...",
+      "url": "https://arxiv.org/abs/2610.40646v1",
+      "date": "2026-10-29",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.40646v1",
+      "authors": "Yunchu Zhang, Ray Song et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "SymAnt: Grounding Long-Horizon Action Anticipation with Adaptable Symbolic Priors",
+      "summary": "As robots and intelligent systems increasingly interact with humans, they must anticipate long sequences of future actions from only brief observations. While purely neural models typically require extensive observations to predict future actions and...",
+      "url": "https://arxiv.org/abs/2610.40632v1",
+      "date": "2026-10-29",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.40632v1",
+      "authors": "Fnu Aryan, Yaqi Xie et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "A Conveyor Belt Mechanism for Repositionable Magnetic Coupling Between Continuum Robots",
+      "summary": "This work proposes a novel conveyor belt mechanism enabling continuous, active repositioning of functional elements along the body of a tendon-driven continuum robot. Up to three conveyor belt mechanisms are integrated within a 9 mm diameter continuu...",
+      "url": "https://arxiv.org/abs/2610.40600v1",
+      "date": "2026-10-29",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.40600v1",
+      "authors": "Ella Walsh, Eric Diller et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Gym-Anything for Robotics: Scaling physical simulations with digital agents",
+      "summary": "Realistic, fast robotics simulations could enable large-scale training of embodied AI models that transfer to the real world. However, despite decades of progress, available simulations cover only a narrow range of real-world tasks and physical pheno...",
+      "url": "https://arxiv.org/abs/2610.40565v1",
+      "date": "2026-10-29",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.40565v1",
+      "authors": "Pranjal Aggarwal, Sean Welleck",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "A Tutorial on Shape Servoing of Deformable Objects-Part I: Fundamentals",
+      "summary": "In robotics, shape control (or shape servoing) refers to the automatic manipulation of a deformable object to achieve a desired shape. It involves a feedback loop that exploits the relation between robot motion and changes in the measured shape. This...",
+      "url": "https://arxiv.org/abs/2610.40559v1",
+      "date": "2026-10-29",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.40559v1",
+      "authors": "Ignacio Cuiral-Zueco, Alessio Caporali et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "字节下场布局具身智能人形机器人",
+      "summary": "字节下场布局具身智能人形机器人",
+      "url": "https://36kr.com/p/4045515627468424",
+      "date": "2026-10-28",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能",
+        "人形机器人"
+      ]
+    },
+    {
+      "title": "机器人进产线，工程化能力成关键。",
+      "summary": "机器人进产线，工程化能力成关键。",
+      "url": "https://36kr.com/p/4044901858972807",
+      "date": "2026-10-28",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
       "title": "AtomTree: A Hierarchical Framework for State-Aware Embodied Instruction Following with LLMs",
       "summary": "Embodied instruction following in interactive environments requires agents to interpret natural language commands and complete long-horizon tasks. Existing planners either rely on large labeled trajectories, or use few-shot and zero-shot LLM promptin...",
       "url": "https://arxiv.org/abs/2610.38744v1",
@@ -83,32 +201,6 @@
       ]
     },
     {
-      "title": "字节下场布局具身智能人形机器人",
-      "summary": "字节下场布局具身智能人形机器人",
-      "url": "http://36kr.com/p/4045515627468424",
-      "date": "2026-10-28",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能",
-        "人形机器人"
-      ]
-    },
-    {
-      "title": "机器人进产线，工程化能力成关键。",
-      "summary": "机器人进产线，工程化能力成关键。",
-      "url": "http://36kr.com/p/4044901858972807",
-      "date": "2026-10-28",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
-      ]
-    },
-    {
       "title": "[大疆/影石/启元/寻影加码AI影像，不会拍照的机器人不是好 具 身 智 能？",
       "summary": "[大疆/影石/启元/寻影加码AI影像，不会拍照的机器人不是好 具 身 智 能？",
       "url": "http://36kr.com/p/4033889613796999",
@@ -123,7 +215,7 @@
     {
       "title": "昂晟科技提具身智能“3+3+2”产业化框架",
       "summary": "昂晟科技提具身智能“3+3+2”产业化框架",
-      "url": "http://36kr.com/p/4042178813006725",
+      "url": "https://36kr.com/p/4042178813006725",
       "date": "2026-10-27",
       "source": "36氪",
       "category": "具身智能",
@@ -136,7 +228,7 @@
     {
       "title": "紫创智械完成数千万元融资，加速工程机械具身智能落地",
       "summary": "紫创智械完成数千万元融资，加速工程机械具身智能落地",
-      "url": "http://36kr.com/p/4041277183529861",
+      "url": "https://36kr.com/p/4041277183529861",
       "date": "2026-10-27",
       "source": "36氪",
       "category": "具身智能",
@@ -2966,102 +3058,6 @@
       "type": "paper",
       "arxiv_id": "2609.35715v1",
       "authors": "Prithwish Dan, Chenyang Ma et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Humanoid Loco-Manipulation With Discrete VLA Model",
-      "summary": "Vision-language-action (VLA) models using discrete action tokens have proven effective for controling robotic arms on manipulation tasks. For a humanoid, however, the whole-body action space -- legs, torso, arms, and hands -- is far higher-dimensiona...",
-      "url": "https://arxiv.org/abs/2609.35709v1",
-      "date": "2026-09-28",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.35709v1",
-      "authors": "Wenxin Shao, Siqi Chai et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "3D Point Tracking with State Space Models",
-      "summary": "Tracking any point of a dynamic scene in metric 3D - in absolute meters, not up to an unknown scale - underpins 3D and 4D reconstruction, robot navigation, and autonomous driving, where decisions are made in meters, not pixels. Our objective is a 3D ...",
-      "url": "https://arxiv.org/abs/2609.34035v1",
-      "date": "2026-09-27",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.34035v1",
-      "authors": "Masahiro Ogawa, Qi An et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Estimate, Don't Imitate: Reusing Differentiable State-Based Policies for Visuomotor Control",
-      "summary": "Simulation-trained manipulation policies can exploit privileged state information to learn effective contact-rich behaviours, but deployment requires acting from partial observations such as noisy camera images. A common solution is teacher-student d...",
-      "url": "https://arxiv.org/abs/2609.34018v1",
-      "date": "2026-09-27",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.34018v1",
-      "authors": "Denis Shcherba, Adrian Abel et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "ZeroBot: Learning from Scratch in Minutes with Generative Real2Sim",
-      "summary": "We present ZeroBot, a real2sim framework for learning a robot manipulation task from scratch in minutes under challenging conditions: zero human demonstrations, zero policy pre-training, and zero known object models. Given only a single view of an ob...",
-      "url": "https://arxiv.org/abs/2609.34010v1",
-      "date": "2026-09-27",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.34010v1",
-      "authors": "Ivan Kapelyukh, Xiaohan Zhang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "TacGooseBumps (TacGB): Retrofitting Normal-Only Tactile Sensors with Shear Encoding for Learning Contact-Rich Manipulation",
-      "summary": "Contact-rich policies often fail because distinct physical states look alike yet require different actions. Cameras may not reveal whether a connector is aligned or fully seated, while many normal-only tactile sensors can miss the tangential interact...",
-      "url": "https://arxiv.org/abs/2609.34006v1",
-      "date": "2026-09-27",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.34006v1",
-      "authors": "Wenjie Li, Binyu Yang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Test-Time Spatial Reasoning for Robot Manipulation Using Generative Real-to-Sim",
-      "summary": "Spatial reasoning is fundamental to general robot intelligence, as it enables robots to complete long-horizon tasks involving multi-object interaction. We introduce Simify, a training-free, test-time framework that performs explicit spatial reasoning...",
-      "url": "https://arxiv.org/abs/2609.33982v1",
-      "date": "2026-09-27",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.33982v1",
-      "authors": "Ivan Kapelyukh, Yafei Hu et al.",
       "tags": [
         "机器人学习",
         "研究论文",
