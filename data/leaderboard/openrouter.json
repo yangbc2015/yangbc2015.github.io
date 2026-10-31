@@ -63,8 +63,8 @@
       "rank": 8,
       "model": "minimax-m3.1-flash",
       "organization": "minimax",
-      "price_prompt": "0.000000075",
-      "price_completion": "0.0000003",
+      "price_prompt": "0.00000015",
+      "price_completion": "0.0000006",
       "context_length": 1048576
     },
     {

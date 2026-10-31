@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-10-30",
+  "last_updated": "2026-10-31",
   "count": 200,
   "items": [
     {
       "title": "[桌面机器人火了，具 身 智 能 厂商发力新赛道，终局是物理Agent？",
       "summary": "[桌面机器人火了，具 身 智 能 厂商发力新赛道，终局是物理Agent？",
       "url": "https://36kr.com/p/4048166536812168",
-      "date": "2026-10-30",
+      "date": "2026-10-31",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
@@ -92,6 +92,19 @@
         "机器人学习",
         "研究论文",
         "arXiv"
+      ]
+    },
+    {
+      "title": "具身智能陷叙事内卷死局，需转向真实落地。",
+      "summary": "具身智能陷叙事内卷死局，需转向真实落地。",
+      "url": "https://36kr.com/p/4046438303372937",
+      "date": "2026-10-29",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
       ]
     },
     {
@@ -3042,22 +3055,6 @@
       "type": "paper",
       "arxiv_id": "2609.35717v1",
       "authors": "Mehdi Heydari Shahna, Joongheon Kim et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "X-Reset: Scaling Object-Centric Reinforcement Learning via Cross-Embodiment Resets",
-      "summary": "Reinforcement learning (RL) in simulation can train dexterous manipulation policies without robot demonstrations, but training a single generalist policy with task-agnostic rewards faces a severe exploration problem: approaching, grasping, and reorie...",
-      "url": "https://arxiv.org/abs/2609.35715v1",
-      "date": "2026-09-28",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.35715v1",
-      "authors": "Prithwish Dan, Chenyang Ma et al.",
       "tags": [
         "机器人学习",
         "研究论文",
