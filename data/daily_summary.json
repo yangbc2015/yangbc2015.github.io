@@ -8,18 +8,6 @@
       "count": 5,
       "items": [
         {
-          "title": "Markdown Content:",
-          "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-          "summary": "Markdown Content:...",
-          "date": "2026-10-30",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
           "title": "从LPDDR6首发量产到G6样片验证：长鑫高强度研发投入，驱动存储产品矩阵升级",
           "link": "https://www.jiqizhixin.com/search/articles/从LPDDR6首发量产到G6样",
           "summary": "从LPDDR6首发量产到G6样片验证：长鑫高强度研发投入，驱动存储产品矩阵升级...",
@@ -59,6 +47,18 @@
           "title": "Claude Code：别再给Claude过多提示词了...",
           "link": "https://www.jiqizhixin.com/search/articles/Claude Code：别再给",
           "summary": "Claude Code：别再给Claude过多提示词了......",
+          "date": "2026-10-30",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "最强模型准确率仅39%！当Deep Search真正进入复杂的真实互联网",
+          "link": "https://www.jiqizhixin.com/search/articles/最强模型准确率仅39%！当De",
+          "summary": "最强模型准确率仅39%！当Deep Search真正进入复杂的真实互联网...",
           "date": "2026-10-30",
           "source": "机器之心",
           "type": "industry",
