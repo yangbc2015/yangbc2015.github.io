@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-11-01",
-  "count": 8,
+  "count": 7,
   "items": [
     {
       "title": "Rethinking Neural Thickets Without Weight Perturbations",
@@ -84,22 +84,6 @@
         "cs.CV"
       ],
       "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Propose-Filter-Release: Scaling Noise to Typical Sensitivity via Private Filtering",
-      "authors": "Moshe Shenfeld, Eliad Tsfadia, Katrina Ligett",
-      "abstract": "An estimator can be accurate and stable on typical data, yet sensitive to a few possible records. Differentially private mechanisms commonly scale their noise to the worst-case influence of a single record, which lets these records dictate the noise even when the remaining data would allow far less....",
-      "venue": "arXiv",
-      "date": "2026-10-29",
-      "arxiv_id": "2610.40654v1",
-      "url": "https://arxiv.org/abs/2610.40654v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.40654v1.pdf",
-      "categories": [
-        "cs.LG"
-      ],
-      "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     },
