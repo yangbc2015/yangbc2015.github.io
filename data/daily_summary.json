@@ -8,18 +8,6 @@
       "count": 5,
       "items": [
         {
-          "title": "Markdown Content:",
-          "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-          "summary": "Markdown Content:...",
-          "date": "2026-10-31",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
           "title": "为什么别人家的芯片，能跑更大的模型？",
           "link": "https://www.jiqizhixin.com/search/articles/为什么别人家的芯片，能跑更大的",
           "summary": "为什么别人家的芯片，能跑更大的模型？...",
@@ -56,11 +44,23 @@
           ]
         },
         {
-          "title": "史上首次！谷歌TPU在轨运行Gemma 4",
-          "link": "https://www.jiqizhixin.com/search/articles/史上首次！谷歌TPU在轨运行G",
-          "summary": "史上首次！谷歌TPU在轨运行Gemma 4...",
-          "date": "2026-10-31",
-          "source": "机器之心",
+          "title": "AI已经自己找到Bug并提交PR",
+          "link": "https://www.qbitai.com/?s=AI已经自己找到Bu",
+          "summary": "AI已经自己找到Bug并提交PR...",
+          "date": "2026-11-01",
+          "source": "量子位",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "10月30日，联想天禧AI 4.5迎来AIPC端正式发布。",
+          "link": "https://www.qbitai.com/?s=10月30日，联想天",
+          "summary": "10月30日，联想天禧AI 4.5迎来AIPC端正式发布。...",
+          "date": "2026-11-01",
+          "source": "量子位",
           "type": "industry",
           "tags": [
             "AI",
