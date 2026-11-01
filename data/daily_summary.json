@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-31",
-  "last_updated": "2026-10-31",
+  "date": "2026-11-01",
+  "last_updated": "2026-11-01",
   "categories": {
     "ai": {
       "name": "人工智能",
@@ -8,11 +8,11 @@
       "count": 5,
       "items": [
         {
-          "title": "AI已经自己找到Bug并提交PR",
-          "link": "https://www.qbitai.com/?s=AI已经自己找到Bu",
-          "summary": "AI已经自己找到Bug并提交PR...",
+          "title": "Markdown Content:",
+          "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+          "summary": "Markdown Content:...",
           "date": "2026-10-31",
-          "source": "量子位",
+          "source": "机器之心",
           "type": "industry",
           "tags": [
             "AI",
@@ -20,11 +20,11 @@
           ]
         },
         {
-          "title": "10月30日，联想天禧AI 4.5迎来AIPC端正式发布。",
-          "link": "https://www.qbitai.com/?s=10月30日，联想天",
-          "summary": "10月30日，联想天禧AI 4.5迎来AIPC端正式发布。...",
+          "title": "为什么别人家的芯片，能跑更大的模型？",
+          "link": "https://www.jiqizhixin.com/search/articles/为什么别人家的芯片，能跑更大的",
+          "summary": "为什么别人家的芯片，能跑更大的模型？...",
           "date": "2026-10-31",
-          "source": "量子位",
+          "source": "机器之心",
           "type": "industry",
           "tags": [
             "AI",
@@ -32,11 +32,11 @@
           ]
         },
         {
-          "title": "创立 4 年，估值站上 10 亿美元——资本市场定价的不是一部电影，而是一套内容生产基础设施。",
-          "link": "https://www.qbitai.com/?s=创立 4 年，估值站",
-          "summary": "创立 4 年，估值站上 10 亿美元——资本市场定价的不是一部电影，而是一套内容生产基础设施。...",
+          "title": "整仓迁移交给Coding Agent，训练与推理行为还能对齐吗？谷歌团队发布T2J-Bench",
+          "link": "https://www.jiqizhixin.com/search/articles/整仓迁移交给Coding Ag",
+          "summary": "整仓迁移交给Coding Agent，训练与推理行为还能对齐吗？谷歌团队发布T2J-Bench...",
           "date": "2026-10-31",
-          "source": "量子位",
+          "source": "机器之心",
           "type": "industry",
           "tags": [
             "AI",
@@ -44,11 +44,11 @@
           ]
         },
         {
-          "title": "英伟达与麻省理工学院团队，在 Hugging Face 发布了视频增强项目 Open-H3-Regenerate-2K 的模型权重",
-          "link": "https://www.qbitai.com/?s=英伟达与麻省理工学院",
-          "summary": "英伟达与麻省理工学院团队，在 Hugging Face 发布了视频增强项目 Open-H3-Regenerate-2K 的模型权重...",
+          "title": "刚刚，DeepSeek公布下一代agent harness理念",
+          "link": "https://www.jiqizhixin.com/search/articles/刚刚，DeepSeek公布下一",
+          "summary": "刚刚，DeepSeek公布下一代agent harness理念...",
           "date": "2026-10-31",
-          "source": "量子位",
+          "source": "机器之心",
           "type": "industry",
           "tags": [
             "AI",
@@ -56,11 +56,11 @@
           ]
         },
         {
-          "title": "阶跃终端旗下大模型原生智能体手机 STEPX Neo 在发布两周后即迎来首次升级",
-          "link": "https://www.qbitai.com/?s=阶跃终端旗下大模型原",
-          "summary": "阶跃终端旗下大模型原生智能体手机 STEPX Neo 在发布两周后即迎来首次升级...",
+          "title": "史上首次！谷歌TPU在轨运行Gemma 4",
+          "link": "https://www.jiqizhixin.com/search/articles/史上首次！谷歌TPU在轨运行G",
+          "summary": "史上首次！谷歌TPU在轨运行Gemma 4...",
           "date": "2026-10-31",
-          "source": "量子位",
+          "source": "机器之心",
           "type": "industry",
           "tags": [
             "AI",

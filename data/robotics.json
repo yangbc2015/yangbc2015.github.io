@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-31",
+  "last_updated": "2026-11-01",
   "count": 200,
   "items": [
     {
@@ -12,6 +12,31 @@
       "type": "news",
       "tags": [
         "机器人"
+      ]
+    },
+    {
+      "title": "桌面机器人要替打工人干活？",
+      "summary": "桌面机器人要替打工人干活？",
+      "url": "https://36kr.com/p/4048166536812168",
+      "date": "2026-10-30",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
+      "title": "博银合创苏州总部启用，加速工业具身智能产业化",
+      "summary": "博银合创苏州总部启用，加速工业具身智能产业化",
+      "url": "https://36kr.com/p/4047773525063937",
+      "date": "2026-10-30",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
       ]
     },
     {
@@ -3023,38 +3048,6 @@
       "type": "paper",
       "arxiv_id": "2609.35761v1",
       "authors": "Rui Zhou, Yibo Yuan et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Statistical Learning of Contractive Dynamical Representations for Composite Adaptive Control",
-      "summary": "We present a representation-learning framework for composite adaptive tracking control under dynamically coupled disturbances. The framework connects classical disturbance-accommodating control (DAC) to recent last-layer adaptive disturbance-rejectio...",
-      "url": "https://arxiv.org/abs/2609.35758v1",
-      "date": "2026-09-28",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.35758v1",
-      "authors": "Min Kim, José Leonardo Brenes et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "RoboCompiler: Graph-Native Compilation of Closed-Chain Robots for Consistent Modeling, Control, and Simulation",
-      "summary": "Robots with kinematic loops, coupled actuators, and changing contacts require consistent models of configuration, motion, force, and dynamics. Yet these interfaces are often reconstructed separately for control and simulation, making closure and actu...",
-      "url": "https://arxiv.org/abs/2609.35717v1",
-      "date": "2026-09-28",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.35717v1",
-      "authors": "Mehdi Heydari Shahna, Joongheon Kim et al.",
       "tags": [
         "机器人学习",
         "研究论文",
