@@ -1,17 +1,109 @@
 {
-  "last_updated": "2026-11-01",
+  "last_updated": "2026-11-02",
   "count": 200,
   "items": [
     {
-      "title": "[桌面机器人火了，具 身 智 能 厂商发力新赛道，终局是物理Agent？",
-      "summary": "[桌面机器人火了，具 身 智 能 厂商发力新赛道，终局是物理Agent？",
-      "url": "https://36kr.com/p/4048166536812168",
-      "date": "2026-11-01",
+      "title": "[具 身 智 能 的钱，流向机器人的“皮肤”",
+      "summary": "[具 身 智 能 的钱，流向机器人的“皮肤”",
+      "url": "https://36kr.com/p/4049738516141696",
+      "date": "2026-11-02",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
       "tags": [
         "机器人"
+      ]
+    },
+    {
+      "title": "[桌面机器人火了，具 身 智 能 厂商发力新赛道，终局是物理Agent？",
+      "summary": "[桌面机器人火了，具 身 智 能 厂商发力新赛道，终局是物理Agent？",
+      "url": "https://36kr.com/p/4048166536812168",
+      "date": "2026-11-02",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
+      "title": "CONSORT: Uncertainty-Constrained Multi-Robot Planning for Cooperative Localization in GPS-Denied Environments",
+      "summary": "Centralized multi-agent path planning with cooperative localization in GPS-denied environments is generally computationally intractable when formulated in full belief space due to tightly coupled uncertainty dynamics. Prior work typically approximate...",
+      "url": "https://arxiv.org/abs/2610.41235v1",
+      "date": "2026-10-30",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.41235v1",
+      "authors": "Tony Zhang, Ryan Bartholomew et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "TinyAstral: Transferring Self-Evolving Harnesses to Tiny Generalist Manipulation Agents",
+      "summary": "Robot agents built on vision-language models depend on both the planner and its harness: the tools, feedback, memory, and recovery logic around it. Can improvements to a large teacher's harness be carried into a compact agent with lower inference com...",
+      "url": "https://arxiv.org/abs/2610.41216v1",
+      "date": "2026-10-30",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.41216v1",
+      "authors": "Kehong Gong, Xiaoxu Zheng et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Capability-Conditioned Graph Control Barrier Functions for Zero-Shot Safe Navigation of Heterogeneous Mobile Robot Teams",
+      "summary": "Multi-robot systems are increasingly deployed as heterogeneous fleets with diverse kinematic and actuation capabilities. While graph control barrier function (GCBF) methods provide a scalable framework for decentralized safe control, existing approac...",
+      "url": "https://arxiv.org/abs/2610.41214v1",
+      "date": "2026-10-30",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.41214v1",
+      "authors": "Joonkyung Kim, Janghyun Cho et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "A Capability-Aware Backup-Recoverability Filter for Heterogeneous Multi-Robot Navigation",
+      "summary": "Safe navigation in heterogeneous multi-robot teams faces two coupled challenges: differences in robots' braking and turning capabilities limit how each robot can respond to an approaching neighbor, while simultaneous interactions require a single con...",
+      "url": "https://arxiv.org/abs/2610.41188v1",
+      "date": "2026-10-30",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.41188v1",
+      "authors": "Joonkyung Kim, Yanze Zhang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Mechanistic Interpretability for End-to-End Self-Driving",
+      "summary": "End-to-end (E2E) autonomous driving models achieve strong planning performance but remain largely opaque, limiting observability and trust. We apply mechanistic interpretability to E2E driving by training Sparse Autoencoders (SAEs) on the internal ac...",
+      "url": "https://arxiv.org/abs/2610.41185v1",
+      "date": "2026-10-30",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.41185v1",
+      "authors": "Manav Gagvani, Benjamin Namikas et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
       ]
     },
     {
@@ -31,6 +123,19 @@
       "summary": "博银合创苏州总部启用，加速工业具身智能产业化",
       "url": "https://36kr.com/p/4047773525063937",
       "date": "2026-10-30",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "具身智能陷叙事内卷死局，需转向真实落地。",
+      "summary": "具身智能陷叙事内卷死局，需转向真实落地。",
+      "url": "https://36kr.com/p/4046438303372937",
+      "date": "2026-10-29",
       "source": "36氪",
       "category": "具身智能",
       "type": "news",
@@ -117,19 +222,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "具身智能陷叙事内卷死局，需转向真实落地。",
-      "summary": "具身智能陷叙事内卷死局，需转向真实落地。",
-      "url": "https://36kr.com/p/4046438303372937",
-      "date": "2026-10-29",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
       ]
     },
     {
@@ -2955,99 +3047,6 @@
       "type": "paper",
       "arxiv_id": "2609.38178v1",
       "authors": "Zihang Rui, Renhao Wang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "In-context Robot Learning Made Simple: A Democratized Recipe for Manipulation Tasks",
-      "summary": "We study robotic in-context learning (ICL), an emerging paradigm that enables robots to infer and execute tasks from visual demonstrations. Despite its growing promise, the problem itself remains under-defined: a visual demonstration simultaneously c...",
-      "url": "https://arxiv.org/abs/2609.38173v1",
-      "date": "2026-09-29",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.38173v1",
-      "authors": "Minxing Li, Minghao Han et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Counterfactual Video Generation Enables Scalable Humanoid Loco-Manipulation",
-      "summary": "Teaching humanoids loco-manipulation skills, such as carrying diverse objects, via visual imitation is a promising path toward generalist robots. However, collecting diverse, high-quality interaction videos, such as clips that clearly show a person's...",
-      "url": "https://arxiv.org/abs/2609.38172v1",
-      "date": "2026-09-29",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.38172v1",
-      "authors": "Zihan Wang, Zhen Wu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Rho: A Foundation for Efficiently Adaptable VLA Models",
-      "summary": "General-purpose physical AI models must combine broad visual and linguistic capabilities with precise control across robot embodiments and efficient adaptation to downstream tasks. We introduce Rho, a family of open-weights VLA models for bimanual ma...",
-      "url": "https://arxiv.org/abs/2609.38164v1",
-      "date": "2026-09-29",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.38164v1",
-      "authors": "Rho Team, Simran Bagaria et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Rethinking Representations for World-Action Modeling",
-      "summary": "World-action models jointly learn robot policies and predict future observations, making the representation space an interface between control and prediction. We study the design of this space through controlled comparisons, finding that neither reco...",
-      "url": "https://arxiv.org/abs/2609.38163v1",
-      "date": "2026-09-29",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.38163v1",
-      "authors": "Haoyi Jiang, Liu Liu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "优必选占全球人形机器人两大赛道收入市占率第一。",
-      "summary": "优必选占全球人形机器人两大赛道收入市占率第一。",
-      "url": "http://36kr.com/p/4002928371748742",
-      "date": "2026-09-28",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "人形机器人"
-      ]
-    },
-    {
-      "title": "DexRoam: Learning Mobile Bimanual Dexterous Manipulation from Egocentric Whole-Body Human Demonstrations",
-      "summary": "Mobile bimanual dexterous manipulation requires continuous coordination of locomotion, whole-body motion, and finger-level dexterity within a single trajectory, creating a severe robot demonstration bottleneck. Egocentric human demonstrations offer a...",
-      "url": "https://arxiv.org/abs/2609.35761v1",
-      "date": "2026-09-28",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.35761v1",
-      "authors": "Rui Zhou, Yibo Yuan et al.",
       "tags": [
         "机器人学习",
         "研究论文",

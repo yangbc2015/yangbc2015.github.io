@@ -1,117 +1,50 @@
 {
-  "last_updated": "2026-11-01",
-  "count": 8,
+  "last_updated": "2026-11-02",
+  "count": 4,
   "items": [
     {
-      "title": "Rethinking Neural Thickets Without Weight Perturbations",
-      "authors": "Nicolas Dufour, Elouan Gardès, Amil Dravid et al.",
-      "abstract": "The Neural Thickets hypothesis posits that pretrained language models lie in dense neighborhoods of task-specific experts in weight space, which random Gaussian perturbations can uncover. We reproduce the reported gains, but show that they do not require this geometric explanation. Perturbing a sing...",
+      "title": "A Unified Framework for Probability Estimation of Data-Dependent Events",
+      "authors": "Vitaly Feldman, Satyen Kale, Vinod Raman et al.",
+      "abstract": "We study the general problem of estimating $D(\\dde(S))$, the probability that an unknown distribution $D$ assigns to an event determined by a sample $S$ of $n$ i.i.d.\\ draws from $D$ through a known mapping $\\dde$. The estimation algorithm knows $\\dde$ and $S$ but does not have access to any additio...",
       "venue": "arXiv",
-      "date": "2026-10-29",
-      "arxiv_id": "2610.40649v1",
-      "url": "https://arxiv.org/abs/2610.40649v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.40649v1.pdf",
+      "date": "2026-10-30",
+      "arxiv_id": "2610.41244v1",
+      "url": "https://arxiv.org/abs/2610.41244v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.41244v1.pdf",
       "categories": [
         "cs.LG",
-        "cs.AI",
-        "cs.CV"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Read, Allocate, Route: Role-Coupled Tokenization for Pixel-Space Generative Transformers",
-      "authors": "Jiongfan Yang, Weichen Fan, Haiwen Diao et al.",
-      "abstract": "Pixel-space generative Transformers typically use one token per image patch, so capturing finer detail requires more tokens and makes global attention increasingly expensive. We observe that finer detail does not necessarily require more global communication: low-frequency structure benefits from gl...",
-      "venue": "arXiv",
-      "date": "2026-10-29",
-      "arxiv_id": "2610.40647v1",
-      "url": "https://arxiv.org/abs/2610.40647v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.40647v1.pdf",
-      "categories": [
-        "cs.CV",
-        "cs.AI",
-        "cs.LG"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Elucidating the Design Space of LM Data Attribution",
-      "authors": "Steven Yu, Sheng-Yu Wang, Kimia Hamidieh et al.",
-      "abstract": "Data attribution methods for Language Models (LMs) are typically evaluated using downstream tasks like fact retrieval. However, existing evaluations vary multiple dataset properties simultaneously, making it impossible to isolate exactly why an attribution algorithm fails. To diagnose these failures...",
-      "venue": "arXiv",
-      "date": "2026-10-29",
-      "arxiv_id": "2610.40655v1",
-      "url": "https://arxiv.org/abs/2610.40655v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.40655v1.pdf",
-      "categories": [
-        "cs.CL"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "ShallowDefend: Harnessing Shallow Safety Alignment for Multi-Turn Defender",
-      "authors": "Qiyao Ma, Xiaodong Liu, Weiwei Yang et al.",
-      "abstract": "Safety alignment has enabled large language models to reliably refuse harmful requests directly, yet the same request distributed across a multi-turn conversation still succeeds far too often. This brittleness has a mechanistic root: Alignment is shallow, with safety behavior concentrated in a model...",
-      "venue": "arXiv",
-      "date": "2026-10-29",
-      "arxiv_id": "2610.40627v1",
-      "url": "https://arxiv.org/abs/2610.40627v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.40627v1.pdf",
-      "categories": [
-        "cs.CL"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Micro-Edits: Computational Support for Fine-Scale Edits in Film",
-      "authors": "Nhan Tran, Hijung Valentina Shin, Abe Davis et al.",
-      "abstract": "In film editing, every frame matters. While macro, content-level edits shape the high-level narrative of a film, small local edits often control timing and direct visual attention. For example, editors can adjust the precise timing of clips to control the length of a meaningful silence, or cut to sh...",
-      "venue": "arXiv",
-      "date": "2026-10-29",
-      "arxiv_id": "2610.40653v1",
-      "url": "https://arxiv.org/abs/2610.40653v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.40653v1.pdf",
-      "categories": [
-        "cs.HC",
-        "cs.CV"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Propose-Filter-Release: Scaling Noise to Typical Sensitivity via Private Filtering",
-      "authors": "Moshe Shenfeld, Eliad Tsfadia, Katrina Ligett",
-      "abstract": "An estimator can be accurate and stable on typical data, yet sensitive to a few possible records. Differentially private mechanisms commonly scale their noise to the worst-case influence of a single record, which lets these records dictate the noise even when the remaining data would allow far less....",
-      "venue": "arXiv",
-      "date": "2026-10-29",
-      "arxiv_id": "2610.40654v1",
-      "url": "https://arxiv.org/abs/2610.40654v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.40654v1.pdf",
-      "categories": [
-        "cs.LG"
+        "stat.ML"
       ],
       "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "SwapBot: Tool-Centric Robot Manipulation via Interchangeable End-Effectors and Tactile Sensing",
-      "authors": "Yunchu Zhang, Ray Song, Junhan Jiao et al.",
-      "abstract": "Robot manipulation in everyday environments inherently involves substantial tool usage. Seemingly simple household tasks, such as cooking pan-fried tofu, require forceful cutting, delicate brushing, and precise placement using different tools under contact-rich interaction. Thus, the ability to auto...",
+      "title": "Generative SDEs with Trainable Diffusion and Density-Based Losses",
+      "authors": "Angxiu Ni",
+      "abstract": "We develop a divergence-kernel method for jointly optimizing neural SDE drift and diffusion fields and the initial Gaussian distribution, using losses that depend directly on the terminal density. In two- and eight-dimensional Gaussian-mixture experiments, we learn time-independent fields and obtain...",
       "venue": "arXiv",
-      "date": "2026-10-29",
-      "arxiv_id": "2610.40646v1",
-      "url": "https://arxiv.org/abs/2610.40646v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.40646v1.pdf",
+      "date": "2026-10-30",
+      "arxiv_id": "2610.41243v1",
+      "url": "https://arxiv.org/abs/2610.41243v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.41243v1.pdf",
+      "categories": [
+        "cs.LG",
+        "math.DS"
+      ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "CONSORT: Uncertainty-Constrained Multi-Robot Planning for Cooperative Localization in GPS-Denied Environments",
+      "authors": "Tony Zhang, Ryan Bartholomew, Kalliyan Velasco et al.",
+      "abstract": "Centralized multi-agent path planning with cooperative localization in GPS-denied environments is generally computationally intractable when formulated in full belief space due to tightly coupled uncertainty dynamics. Prior work typically approximates belief dynamics or restricts inter-agent couplin...",
+      "venue": "arXiv",
+      "date": "2026-10-30",
+      "arxiv_id": "2610.41235v1",
+      "url": "https://arxiv.org/abs/2610.41235v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.41235v1.pdf",
       "categories": [
         "cs.RO"
       ],
@@ -120,14 +53,14 @@
       "source": "arXiv"
     },
     {
-      "title": "SymAnt: Grounding Long-Horizon Action Anticipation with Adaptable Symbolic Priors",
-      "authors": "Fnu Aryan, Yaqi Xie, Joseph Campbell et al.",
-      "abstract": "As robots and intelligent systems increasingly interact with humans, they must anticipate long sequences of future actions from only brief observations. While purely neural models typically require extensive observations to predict future actions and remain difficult to interpret and adjust, symboli...",
+      "title": "TinyAstral: Transferring Self-Evolving Harnesses to Tiny Generalist Manipulation Agents",
+      "authors": "Kehong Gong, Xiaoxu Zheng, Guanli Hou et al.",
+      "abstract": "Robot agents built on vision-language models depend on both the planner and its harness: the tools, feedback, memory, and recovery logic around it. Can improvements to a large teacher's harness be carried into a compact agent with lower inference compute cost? We present TinyAstral, a two-stage appr...",
       "venue": "arXiv",
-      "date": "2026-10-29",
-      "arxiv_id": "2610.40632v1",
-      "url": "https://arxiv.org/abs/2610.40632v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.40632v1.pdf",
+      "date": "2026-10-30",
+      "arxiv_id": "2610.41216v1",
+      "url": "https://arxiv.org/abs/2610.41216v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.41216v1.pdf",
       "categories": [
         "cs.RO",
         "cs.CV"

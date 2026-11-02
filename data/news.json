@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-11-01",
+  "last_updated": "2026-11-02",
   "count": 200,
-  "history_count": 200,
+  "history_count": 206,
   "retention_days": 30,
   "items": [
     {
       "title": "AI已经自己找到Bug并提交PR",
       "link": "https://www.qbitai.com/?s=AI已经自己找到Bu",
       "summary": "AI已经自己找到Bug并提交PR...",
-      "date": "2026-11-01",
+      "date": "2026-11-02",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -20,7 +20,7 @@
       "title": "10月30日，联想天禧AI 4.5迎来AIPC端正式发布。",
       "link": "https://www.qbitai.com/?s=10月30日，联想天",
       "summary": "10月30日，联想天禧AI 4.5迎来AIPC端正式发布。...",
-      "date": "2026-11-01",
+      "date": "2026-11-02",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -32,7 +32,7 @@
       "title": "创立 4 年，估值站上 10 亿美元——资本市场定价的不是一部电影，而是一套内容生产基础设施。",
       "link": "https://www.qbitai.com/?s=创立 4 年，估值站",
       "summary": "创立 4 年，估值站上 10 亿美元——资本市场定价的不是一部电影，而是一套内容生产基础设施。...",
-      "date": "2026-11-01",
+      "date": "2026-11-02",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -44,7 +44,7 @@
       "title": "英伟达与麻省理工学院团队，在 Hugging Face 发布了视频增强项目 Open-H3-Regenerate-2K 的模型权重",
       "link": "https://www.qbitai.com/?s=英伟达与麻省理工学院",
       "summary": "英伟达与麻省理工学院团队，在 Hugging Face 发布了视频增强项目 Open-H3-Regenerate-2K 的模型权重...",
-      "date": "2026-11-01",
+      "date": "2026-11-02",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -56,7 +56,7 @@
       "title": "阶跃终端旗下大模型原生智能体手机 STEPX Neo 在发布两周后即迎来首次升级",
       "link": "https://www.qbitai.com/?s=阶跃终端旗下大模型原",
       "summary": "阶跃终端旗下大模型原生智能体手机 STEPX Neo 在发布两周后即迎来首次升级...",
-      "date": "2026-11-01",
+      "date": "2026-11-02",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -68,12 +68,84 @@
       "title": "Final URL: https://techcrunch.com/category/artificial-intelligence/",
       "link": "https://techcrunch.com/category/artificial-intelligence/",
       "summary": "Final URL: https://techcrunch.com/category/artificial-intelligence/...",
-      "date": "2026-11-01",
+      "date": "2026-11-02",
       "source": "TechCrunch",
       "type": "industry",
       "tags": [
         "AI",
         "Artificial Intelligence"
+      ]
+    },
+    {
+      "title": "让灾害预报更快转化为行动，浙大联合团队提出多智能体系统MAESTRO",
+      "link": "https://www.jiqizhixin.com/search/articles/让灾害预报更快转化为行动，浙大",
+      "summary": "让灾害预报更快转化为行动，浙大联合团队提出多智能体系统MAESTRO...",
+      "date": "2026-11-01",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "算力的尽头是电力？从第一性原理看AI基础设施",
+      "link": "https://www.jiqizhixin.com/search/articles/算力的尽头是电力？从第一性原理",
+      "summary": "算力的尽头是电力？从第一性原理看AI基础设施...",
+      "date": "2026-11-01",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "24项真机硬碰硬！不靠大规模机器人预训练，Fysiverse-UniWAM拿下导航、移动操作双第一",
+      "link": "https://www.jiqizhixin.com/search/articles/24项真机硬碰硬！不靠大规模机",
+      "summary": "24项真机硬碰硬！不靠大规模机器人预训练，Fysiverse-UniWAM拿下导航、移动操作双第一...",
+      "date": "2026-11-01",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "Tibo 28连更后，OpenAI合并额度池，计费聊天开始了",
+      "link": "https://www.jiqizhixin.com/search/articles/Tibo 28连更后，Open",
+      "summary": "Tibo 28连更后，OpenAI合并额度池，计费聊天开始了...",
+      "date": "2026-11-01",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "混合架构用线性注意力还是滑窗注意力？复旦创智OpenMOSS团队：我全都要",
+      "link": "https://www.jiqizhixin.com/search/articles/混合架构用线性注意力还是滑窗注",
+      "summary": "混合架构用线性注意力还是滑窗注意力？复旦创智OpenMOSS团队：我全都要...",
+      "date": "2026-11-01",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "具身RSI的真假之争：机器人是在自我进化，还是在反复刷题？",
+      "link": "https://www.jiqizhixin.com/search/articles/具身RSI的真假之争：机器人是",
+      "summary": "具身RSI的真假之争：机器人是在自我进化，还是在反复刷题？...",
+      "date": "2026-11-01",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
       ]
     },
     {
@@ -2325,78 +2397,6 @@
       "link": "https://www.qbitai.com/?s=联想天禧AI携全场景",
       "summary": "联想天禧AI携全场景多端产品矩阵亮相阿里云栖大会...",
       "date": "2026-09-25",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "高通这一代骁龙：手机芯片，开始为Agent重新设计",
-      "link": "https://www.jiqizhixin.com/search/articles/高通这一代骁龙：手机芯片，开始",
-      "summary": "高通这一代骁龙：手机芯片，开始为Agent重新设计...",
-      "date": "2026-09-24",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "七校联合开源OpenWAM：机器人的「世界模拟器」来了",
-      "link": "https://www.jiqizhixin.com/search/articles/七校联合开源OpenWAM：机",
-      "summary": "七校联合开源OpenWAM：机器人的「世界模拟器」来了...",
-      "date": "2026-09-24",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "代码生成越来越快，软件交付真正的瓶颈转向了哪里？",
-      "link": "https://www.jiqizhixin.com/search/articles/代码生成越来越快，软件交付真正",
-      "summary": "代码生成越来越快，软件交付真正的瓶颈转向了哪里？...",
-      "date": "2026-09-24",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "智能终端变成token工厂，这家公司要让AI真正被深度使用",
-      "link": "https://www.jiqizhixin.com/search/articles/智能终端变成token工厂，这",
-      "summary": "智能终端变成token工厂，这家公司要让AI真正被深度使用...",
-      "date": "2026-09-24",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "从数字AI到物理AI：英特尔全栈助力具身智能落地",
-      "link": "https://www.jiqizhixin.com/search/articles/从数字AI到物理AI：英特尔全",
-      "summary": "从数字AI到物理AI：英特尔全栈助力具身智能落地...",
-      "date": "2026-09-24",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "商汤大装置异构混推创新实践与技术演进",
-      "link": "https://www.qbitai.com/?s=商汤大装置异构混推创",
-      "summary": "商汤大装置异构混推创新实践与技术演进...",
-      "date": "2026-09-24",
       "source": "量子位",
       "type": "industry",
       "tags": [
