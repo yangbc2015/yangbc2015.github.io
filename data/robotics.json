@@ -3,6 +3,19 @@
   "count": 200,
   "items": [
     {
+      "title": "[实景实训推动应用落地 以赛促产赋能产业发展——人形机器人与 具 身 智 能 实景实训挑战赛新闻发布会在京召开",
+      "summary": "[实景实训推动应用落地 以赛促产赋能产业发展——人形机器人与 具 身 智 能 实景实训挑战赛新闻发布会在京召开",
+      "url": "https://36kr.com/p/4052511128638336",
+      "date": "2026-11-02",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "人形机器人"
+      ]
+    },
+    {
       "title": "[具 身 智 能 的钱，流向机器人的“皮肤”",
       "summary": "[具 身 智 能 的钱，流向机器人的“皮肤”",
       "url": "https://36kr.com/p/4049738516141696",
@@ -24,6 +37,111 @@
       "type": "news",
       "tags": [
         "机器人"
+      ]
+    },
+    {
+      "title": "Hierarchical World Models with Implicit Dynamics",
+      "summary": "Planning with world models enables test-time adaptation for embodied agents, offering superior generalization over direct policy learning. However, long-horizon tasks remain hindered by cumulative errors and search complexity. Existing hierarchical m...",
+      "url": "https://arxiv.org/abs/2610.42146v1",
+      "date": "2026-10-30",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.42146v1",
+      "authors": "Gaoyue Zhou, Yvonne Wu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "RoboArchitect: Automating the Design of Robotic Agents with Persistent Memory",
+      "summary": "Recent work shows that a frozen robot policy performs far better inside an agent harness, where control code decides when to query the policy, consult vision tools, or command the arm directly. Yet today these harnesses are built by hand and redesign...",
+      "url": "https://arxiv.org/abs/2610.42141v1",
+      "date": "2026-10-30",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.42141v1",
+      "authors": "Shengguang Wu, Suning Huang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "ROOF: Learning Humanoid Fall Recovery under Overhead Constraints",
+      "summary": "A fallen humanoid beneath an overhead obstacle faces a coupled recovery problem. It must create clearance while organizing support for a stable rise, since attempting to stand before making room can further increase obstruction. We introduce a reinfo...",
+      "url": "https://arxiv.org/abs/2610.42097v1",
+      "date": "2026-10-30",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.42097v1",
+      "authors": "Yidan Lu, Jiayuan Yu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "CausalWAM: Learning the Causes of Actions in World Action Models",
+      "summary": "World action models (WAMs) learn latent variables from observations and use these to both predict the evolution of the scene and to generate actions. The prediction has to be of the whole scene, whereas only a portion of the scene causes actions. WAM...",
+      "url": "https://arxiv.org/abs/2610.42096v1",
+      "date": "2026-10-30",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.42096v1",
+      "authors": "Juntao Cheng, Jinzhou Tang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "REA: A Routed Embodied Agent Runtime for Asynchronous Brain-Cerebellum Control",
+      "summary": "Foundation models are becoming remarkably reliable at high-level reasoning, yet they remain too slow and costly to serve as fine-grained controllers. Conversely, fast policies like VLAs and whole-body controllers offer more efficient reflexes, but st...",
+      "url": "https://arxiv.org/abs/2610.42053v1",
+      "date": "2026-10-30",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2610.42053v1",
+      "authors": "Pengfei Zhou, Yixing Ma et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "桌面机器人要替打工人干活？",
+      "summary": "桌面机器人要替打工人干活？",
+      "url": "https://36kr.com/p/4048166536812168",
+      "date": "2026-10-30",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
+      "title": "博银合创苏州总部启用，加速工业具身智能产业化",
+      "summary": "博银合创苏州总部启用，加速工业具身智能产业化",
+      "url": "https://36kr.com/p/4047773525063937",
+      "date": "2026-10-30",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
       ]
     },
     {
@@ -104,31 +222,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "桌面机器人要替打工人干活？",
-      "summary": "桌面机器人要替打工人干活？",
-      "url": "https://36kr.com/p/4048166536812168",
-      "date": "2026-10-30",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
-      ]
-    },
-    {
-      "title": "博银合创苏州总部启用，加速工业具身智能产业化",
-      "summary": "博银合创苏州总部启用，加速工业具身智能产业化",
-      "url": "https://36kr.com/p/4047773525063937",
-      "date": "2026-10-30",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
       ]
     },
     {
@@ -2967,86 +3060,6 @@
       "type": "paper",
       "arxiv_id": "2609.40269v1",
       "authors": "Viraj Parimi, Shao-Hung Chan et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "[仿真里行云流水、真实世界频繁 ' 手滑 '：美梦空间给 具 身 智 能 补上 ' 物理课 '，让机器人从模仿走向理解",
-      "summary": "[仿真里行云流水、真实世界频繁 ' 手滑 '：美梦空间给 具 身 智 能 补上 ' 物理课 '，让机器人从模仿走向理解",
-      "url": "http://36kr.com/p/4002916609183621",
-      "date": "2026-09-30",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
-      ]
-    },
-    {
-      "title": "具身智能的技术栈或将被改写，让机器人少走十年弯路。",
-      "summary": "具身智能的技术栈或将被改写，让机器人少走十年弯路。",
-      "url": "http://36kr.com/p/4004465537519750",
-      "date": "2026-09-29",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "灵灵智能获天使轮，推具身智能数据供给方案",
-      "summary": "灵灵智能获天使轮，推具身智能数据供给方案",
-      "url": "http://36kr.com/p/3998358077214596",
-      "date": "2026-09-29",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "9月28日长治太初AI机器人公园开园，重点项目签约，构建具身智能生态",
-      "summary": "9月28日长治太初AI机器人公园开园，重点项目签约，构建具身智能生态",
-      "url": "http://36kr.com/p/4004117396148360",
-      "date": "2026-09-29",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "2026产业未来大会圆桌：热议具身智能产业发展",
-      "summary": "2026产业未来大会圆桌：热议具身智能产业发展",
-      "url": "http://36kr.com/p/4003813673865351",
-      "date": "2026-09-29",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "Skill-Space Shooting for Autonomous Robot Policy Improvement",
-      "summary": "Robots deployed in the physical world must be able to improve beyond their initial training as they encounter new situations and failures. For this improvement to scale across tasks, it must make effective use of experience without requiring human de...",
-      "url": "https://arxiv.org/abs/2609.38178v1",
-      "date": "2026-09-29",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2609.38178v1",
-      "authors": "Zihang Rui, Renhao Wang et al.",
       "tags": [
         "机器人学习",
         "研究论文",

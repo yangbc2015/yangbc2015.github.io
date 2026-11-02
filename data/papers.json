@@ -1,34 +1,34 @@
 {
   "last_updated": "2026-11-02",
-  "count": 10,
+  "count": 7,
   "items": [
     {
-      "title": "From 1D Benchmarks to Complex 3D Geometries: Can Agents Reliably Specify Problems for Automated PDE Simulation?",
-      "authors": "Akshat Jani, Sakhinana Sagar Srinivas, Venkataramana Runkana",
-      "abstract": "Turning an engineering request into a simulation requires consistent geometry, physics, boundary conditions, and numerical settings. Recent agent-assisted systems automate simulation setup, but successful execution alone does not establish whether the specification preserves the intended problem or ...",
+      "title": "Latent Sparse Attention: Towards Subquadratic Ultra-Long Context Attention",
+      "authors": "Ales Kubicek, Andrea Caciolai, Liangzu Peng et al.",
+      "abstract": "Agentic workflows are increasingly shifting towards long-horizon tasks, such as open-ended scientific work, where models benefit from long context windows. However, at ultra-long context (above 1M tokens), full attention is prohibitively expensive. A promising approach is sparse attention, in which ...",
       "venue": "arXiv",
       "date": "2026-10-30",
-      "arxiv_id": "2610.41267v1",
-      "url": "https://arxiv.org/abs/2610.41267v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.41267v1.pdf",
+      "arxiv_id": "2610.42147v1",
+      "url": "https://arxiv.org/abs/2610.42147v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.42147v1.pdf",
       "categories": [
-        "cs.AI",
-        "cs.CE"
+        "cs.AI"
       ],
-      "type": "benchmark",
+      "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Rome Wasn't Built in One Turn: Replay-Grounded Reward Signals for Long-Horizon Freeciv Agents",
-      "authors": "Yanchen Liu, Xinyu Che, Brihi Joshi et al.",
-      "abstract": "Training language-model agents to play long-horizon strategy games is hard because deterministic feedback is sparse and often arrives only at the end of a game. In-game scores can offer dense signals, but they do not reliably predict future outcomes: in 8-68% of position pairs across eight strategy ...",
+      "title": "Hierarchical World Models with Implicit Dynamics",
+      "authors": "Gaoyue Zhou, Yvonne Wu, Zichen Jeff Cui et al.",
+      "abstract": "Planning with world models enables test-time adaptation for embodied agents, offering superior generalization over direct policy learning. However, long-horizon tasks remain hindered by cumulative errors and search complexity. Existing hierarchical methods often use rigid macro-actions or latent ski...",
       "venue": "arXiv",
       "date": "2026-10-30",
-      "arxiv_id": "2610.41264v1",
-      "url": "https://arxiv.org/abs/2610.41264v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.41264v1.pdf",
+      "arxiv_id": "2610.42146v1",
+      "url": "https://arxiv.org/abs/2610.42146v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.42146v1.pdf",
       "categories": [
+        "cs.RO",
         "cs.AI"
       ],
       "type": "ai",
@@ -36,17 +36,17 @@
       "source": "arXiv"
     },
     {
-      "title": "Peeling the Matryoshka: Extracting Ontological Structure from Retrieval Embeddings",
-      "authors": "Eunchan Kim, Inwhee Joe",
-      "abstract": "Taxonomy construction is essential for knowledge-intensive NLP yet remains costly: clustering-based methods (i) need careful per-corpus tuning and yield unstable hierarchies, while LLM-based pipelines (ii) depend on expensive task-specific training that does not transfer across domains. We report an...",
+      "title": "Latent Reasoning in Continuous Space for Unified Multimodal Models",
+      "authors": "Byungwoo Jeon, Yoonwoo Jeong, Hyunseok Lee et al.",
+      "abstract": "Unified Multimodal Models (UMMs) achieve remarkable success on diverse multimodal understanding and generation tasks, yet they still struggle to effectively leverage language-based chain-of-thought reasoning for image generation. As a result, existing reasoning-augmented UMMs often fail to inherit t...",
       "venue": "arXiv",
       "date": "2026-10-30",
-      "arxiv_id": "2610.41785v1",
-      "url": "https://arxiv.org/abs/2610.41785v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.41785v1.pdf",
+      "arxiv_id": "2610.42149v1",
+      "url": "https://arxiv.org/abs/2610.42149v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.42149v1.pdf",
       "categories": [
+        "cs.CV",
         "cs.CL",
-        "cs.IR",
         "cs.LG"
       ],
       "type": "nlp",
@@ -54,14 +54,14 @@
       "source": "arXiv"
     },
     {
-      "title": "Stepwise-Querying: Distilling Reasoning without Access to Teacher Chain-of-Thought",
-      "authors": "Dicong Yu, Wenhua Wang, Tian Wang",
-      "abstract": "Reasoning distillation is widely used to transfer the reasoning capabilities of large language models to smaller students through teacher-generated supervision. In the black-box setting, however, teachers may expose only final answers and brief solutions, leaving intermediate calculations and validi...",
+      "title": "Flide: Accelerating Decision Inference with Exact State Forking",
+      "authors": "Bobo Li, Jiajia Song, Hao Fei et al.",
+      "abstract": "Decision models such as Jev have emerged as a highly promising paradigm for LLM agent systems, providing lightweight and reliable categorical reasoning for rapid System One execution. However, existing generation-oriented inference engines fail to support these workloads effectively, suffering from ...",
       "venue": "arXiv",
       "date": "2026-10-30",
-      "arxiv_id": "2610.41769v1",
-      "url": "https://arxiv.org/abs/2610.41769v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.41769v1.pdf",
+      "arxiv_id": "2610.42148v1",
+      "url": "https://arxiv.org/abs/2610.42148v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.42148v1.pdf",
       "categories": [
         "cs.CL"
       ],
@@ -70,99 +70,52 @@
       "source": "arXiv"
     },
     {
-      "title": "SketchDirector: Complex Scene Sketching via Agentic Layout Reasoning and Detail Refinement",
-      "authors": "Yiqi Liang, Xiaodong Cun",
-      "abstract": "Existing sketch generation methods often rely on image guidance and are largely limited to individual objects or simplified scenes, leaving text-guided complex scene sketching underexplored. We present SketchDirector, an agentic framework that mimics the human sketching workflow for automatic multi-...",
+      "title": "GazeRIB: Systematic Evaluation of Multi-Reader Gaze-Guided Chest X-ray Learning",
+      "authors": "Nattakorn Kittisut, Roy M. Gabriel, Marly van Assen et al.",
+      "abstract": "Radiologists' visual attention can supervise medical image learning, but how reader panel composition affects its value remains untested. We evaluated GazeRIB (Gaze-guided Radiologist-Informed Blackout), which masks unviewed regions during training and uses unmasked images at inference. Eight expert...",
       "venue": "arXiv",
       "date": "2026-10-30",
-      "arxiv_id": "2610.41260v1",
-      "url": "https://arxiv.org/abs/2610.41260v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.41260v1.pdf",
+      "arxiv_id": "2610.42152v1",
+      "url": "https://arxiv.org/abs/2610.42152v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.42152v1.pdf",
       "categories": [
-        "cs.CV"
+        "cs.CV",
+        "cs.HC",
+        "eess.IV"
       ],
-      "type": "vision",
+      "type": "benchmark",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "PBSR: Pseudo-Burst Super-Resolution via Zero-Shot Novel View Synthesis",
-      "authors": "Yuki Kondo, Norimichi Ukita",
-      "abstract": "Burst super-resolution (BSR) achieves higher reconstruction fidelity than single-image super-resolution (SISR) by aggregating sub-pixel information from multiple frames. However, it requires a burst of frames captured under near-static conditions, and such frames are unavailable for single photograp...",
+      "title": "Counting on Dummies: Privacy Amplification with Observable Counts and Truncated Batches",
+      "authors": "Vitaly Feldman, Audra McMillan, Kunal Talwar",
+      "abstract": "In many practical deployments of Differentially Private Stochastic Gradient Descent (DP-SGD), the server processes data in batches. Randomly sampling these batches allows for better privacy bounds via privacy amplification results. Most sampling schemes with provable privacy amplification, including...",
       "venue": "arXiv",
       "date": "2026-10-30",
-      "arxiv_id": "2610.41258v1",
-      "url": "https://arxiv.org/abs/2610.41258v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.41258v1.pdf",
-      "categories": [
-        "eess.IV",
-        "cs.CV"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "A Unified Framework for Probability Estimation of Data-Dependent Events",
-      "authors": "Vitaly Feldman, Satyen Kale, Vinod Raman et al.",
-      "abstract": "We study the general problem of estimating $D(\\dde(S))$, the probability that an unknown distribution $D$ assigns to an event determined by a sample $S$ of $n$ i.i.d.\\ draws from $D$ through a known mapping $\\dde$. The estimation algorithm knows $\\dde$ and $S$ but does not have access to any additio...",
-      "venue": "arXiv",
-      "date": "2026-10-30",
-      "arxiv_id": "2610.41244v1",
-      "url": "https://arxiv.org/abs/2610.41244v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.41244v1.pdf",
+      "arxiv_id": "2610.42139v1",
+      "url": "https://arxiv.org/abs/2610.42139v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.42139v1.pdf",
       "categories": [
         "cs.LG",
-        "stat.ML"
+        "cs.CR"
       ],
       "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Generative SDEs with Trainable Diffusion and Density-Based Losses",
-      "authors": "Angxiu Ni",
-      "abstract": "We develop a divergence-kernel method for jointly optimizing neural SDE drift and diffusion fields and the initial Gaussian distribution, using losses that depend directly on the terminal density. In two- and eight-dimensional Gaussian-mixture experiments, we learn time-independent fields and obtain...",
+      "title": "RoboArchitect: Automating the Design of Robotic Agents with Persistent Memory",
+      "authors": "Shengguang Wu, Suning Huang, Cherie Ho et al.",
+      "abstract": "Recent work shows that a frozen robot policy performs far better inside an agent harness, where control code decides when to query the policy, consult vision tools, or command the arm directly. Yet today these harnesses are built by hand and redesigned for each new robot or benchmark. We show that h...",
       "venue": "arXiv",
       "date": "2026-10-30",
-      "arxiv_id": "2610.41243v1",
-      "url": "https://arxiv.org/abs/2610.41243v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.41243v1.pdf",
-      "categories": [
-        "cs.LG",
-        "math.DS"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "CONSORT: Uncertainty-Constrained Multi-Robot Planning for Cooperative Localization in GPS-Denied Environments",
-      "authors": "Tony Zhang, Ryan Bartholomew, Kalliyan Velasco et al.",
-      "abstract": "Centralized multi-agent path planning with cooperative localization in GPS-denied environments is generally computationally intractable when formulated in full belief space due to tightly coupled uncertainty dynamics. Prior work typically approximates belief dynamics or restricts inter-agent couplin...",
-      "venue": "arXiv",
-      "date": "2026-10-30",
-      "arxiv_id": "2610.41235v1",
-      "url": "https://arxiv.org/abs/2610.41235v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.41235v1.pdf",
-      "categories": [
-        "cs.RO"
-      ],
-      "type": "ai",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "TinyAstral: Transferring Self-Evolving Harnesses to Tiny Generalist Manipulation Agents",
-      "authors": "Kehong Gong, Xiaoxu Zheng, Guanli Hou et al.",
-      "abstract": "Robot agents built on vision-language models depend on both the planner and its harness: the tools, feedback, memory, and recovery logic around it. Can improvements to a large teacher's harness be carried into a compact agent with lower inference compute cost? We present TinyAstral, a two-stage appr...",
-      "venue": "arXiv",
-      "date": "2026-10-30",
-      "arxiv_id": "2610.41216v1",
-      "url": "https://arxiv.org/abs/2610.41216v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.41216v1.pdf",
+      "arxiv_id": "2610.42141v1",
+      "url": "https://arxiv.org/abs/2610.42141v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.42141v1.pdf",
       "categories": [
         "cs.RO",
+        "cs.AI",
         "cs.CV"
       ],
       "type": "vision",
