@@ -1,172 +1,76 @@
 {
   "last_updated": "2026-11-03",
-  "count": 10,
+  "count": 4,
   "items": [
     {
-      "title": "Cross-Dataset Generalization of Glaucoma Detection CNNs: Effects of Operating Threshold, Multi-Source Training, and Color Normalization",
-      "authors": "Al-Amin Rahman, Saifuddin Ahmed, Resalat Ahmed",
-      "abstract": "Deep learning models for glaucoma detection are usually tested on images from the same dataset used for training. That says little about how they will work at a new hospital or with a new camera. We fine-tuned five ImageNet-pretrained CNNs (ResNet50, DenseNet121, MobileNetV2, EfficientNet-B0, Incept...",
+      "title": "Pixel-UMI: Learning Environment-Aware Whole-Body Manipulation from Sensorized Human Demonstrations",
+      "authors": "Jason Jingzhou Liu, Tony Tao, Deepak Pathak et al.",
+      "abstract": "Sensorized human demonstrations offer scalable data for mobile manipulation, but embodiment differences complicate policy learning. We present Pixel-UMI, a pipeline for learning environment-aware whole-body policies from human data. We first introduce Environment-Aware Retargeting (EAR), which combi...",
       "venue": "arXiv",
-      "date": "2026-11-01",
-      "arxiv_id": "2611.01992v1",
-      "url": "https://arxiv.org/abs/2611.01992v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.01992v1.pdf",
+      "date": "2026-11-02",
+      "arxiv_id": "2611.03647v1",
+      "url": "https://arxiv.org/abs/2611.03647v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.03647v1.pdf",
       "categories": [
-        "eess.IV",
+        "cs.RO",
+        "cs.AI",
         "cs.CV"
-      ],
-      "type": "benchmark",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Synthetic Realities: Evaluating Human Ability to Distinguish AIGenerated Videos from Real Footage",
-      "authors": "Danyal Sarfraz, Raja Mubashar Karim, KwanMyung Kim",
-      "abstract": "Recent advances in generative AI have enabled multiple pathways for high-fidelity video synthesis: text-to-video, image-to-video animation, and video outpainting. Empirical side-by-side evaluations of how untrained viewers perceive and distinguish these outputs from real footage remain scarce. In th...",
-      "venue": "arXiv",
-      "date": "2026-11-01",
-      "arxiv_id": "2611.01990v1",
-      "url": "https://arxiv.org/abs/2611.01990v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.01990v1.pdf",
-      "categories": [
-        "cs.CV",
-        "cs.HC"
       ],
       "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Evidence-grounded large language models guide perovskite solar cell design and optimization",
-      "authors": "YanKai Chen, Zhi Wan, ZiHao Li et al.",
-      "abstract": "Using large language models to interpret experimental evidence, design discriminating experiments and formulate well-supported mechanistic explanations remains a central challenge in materials research. Here we establish PSM-Bench, an 800-question benchmark developed by perovskite researchers to eva...",
+      "title": "Pixel: A Co-Designed Full-Stack Robot System for Learning General-Purpose Mobile Manipulation",
+      "authors": "Tony Tao, Jason Jingzhou Liu, Ruslan Salakhutdinov et al.",
+      "abstract": "General-purpose mobile manipulation requires a combination of capable robot hardware, scalable demonstration collection, expressive whole-body control, and effective policy learning. Yet these components are often developed independently, creating mismatches that limit the capabilities of the comple...",
       "venue": "arXiv",
-      "date": "2026-10-31",
-      "arxiv_id": "2611.00633v1",
-      "url": "https://arxiv.org/abs/2611.00633v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.00633v1.pdf",
+      "date": "2026-11-02",
+      "arxiv_id": "2611.03648v1",
+      "url": "https://arxiv.org/abs/2611.03648v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.03648v1.pdf",
       "categories": [
-        "cs.AI"
+        "cs.RO",
+        "cs.AI",
+        "cs.CV"
       ],
-      "type": "nlp",
+      "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "TopoQuant: Topological Framework to Characterize Behavioral Shifts in Quantized Large Language Models",
-      "authors": "Baha Rababah, Shahzeb Qamar, Lorenz Sparrenberg et al.",
-      "abstract": "Post-training quantization (PTQ) reduces the com putational cost of large language models (LLMs), but it can introduce internal structural and behavioral changes that are not captured by traditional metrics such as accuracy and per plexity. We present TopoQuant, a topological framework that uses top...",
+      "title": "WebHarbor: Docking Real Websites for Evolving GUI Agent Environments",
+      "authors": "Zhaoyang Wang, Qianhui Wu, Boyu Gou et al.",
+      "abstract": "GUI web agents require realistic and interactive environments that remain stable during both evaluation and training. Live website evaluation suffers from changing content, access restrictions, and limited coverage of authenticated workflows, while existing synthetic environments for training often ...",
       "venue": "arXiv",
-      "date": "2026-10-31",
-      "arxiv_id": "2611.00631v1",
-      "url": "https://arxiv.org/abs/2611.00631v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.00631v1.pdf",
+      "date": "2026-11-02",
+      "arxiv_id": "2611.03634v1",
+      "url": "https://arxiv.org/abs/2611.03634v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.03634v1.pdf",
       "categories": [
-        "cs.AI"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Character-Name Concentration in LLM Fiction: Measuring Displacement and Mitigating Repetition",
-      "authors": "Alejandro Mozo Quesada, Sergio Gálvez Rojas, Francisco López Valverde",
-      "abstract": "Character names in large language model (LLM) fiction concentrate on a handful of recurrent names such as 'Elara' and 'Elias', a measurable face of AI slop. Existing fixes either require logit access or retraining, or operate per request and cannot control concentration across a corpus. How much pro...",
-      "venue": "arXiv",
-      "date": "2026-10-31",
-      "arxiv_id": "2611.01284v1",
-      "url": "https://arxiv.org/abs/2611.01284v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.01284v1.pdf",
-      "categories": [
+        "cs.AI",
         "cs.CL",
-        "cs.AI"
+        "cs.LG"
       ],
       "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Geometry of Confabulation and Refusal in Small Language Models",
-      "authors": "Vladimir Kazei",
-      "abstract": "Faced with an unanswerable question, small language models can either refuse or confabulate: confidently produce a wrong answer. Can the hidden state before the first generated token provide a clue? Can we flip confabulations into refusals? I introduce ConfabQA, a 784-item benchmark whose obscure-pr...",
+      "title": "D&A: Decoupling Description and Assessment Enables VLMs as Zero-Shot Robotic Reward Models",
+      "authors": "Marius Memmel, Shawn Yin, Urvi Rutia et al.",
+      "abstract": "Vision-Language Models (VLMs) hold promise for zero-shot video task-progress estimation in robot learning, yet existing frameworks frequently suffer from confirmation bias, hallucinating progress in failed executions due to implicit success assumptions or relative temporal ranking designs. Naive pro...",
       "venue": "arXiv",
-      "date": "2026-10-31",
-      "arxiv_id": "2611.01272v1",
-      "url": "https://arxiv.org/abs/2611.01272v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.01272v1.pdf",
+      "date": "2026-11-02",
+      "arxiv_id": "2611.03622v1",
+      "url": "https://arxiv.org/abs/2611.03622v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.03622v1.pdf",
       "categories": [
-        "cs.LG",
+        "cs.RO",
+        "cs.AI",
         "cs.CL"
       ],
       "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Accelerating posterior sampling in Bayesian inverse problems with diffusion models: an online-offline perspective",
-      "authors": "Duc-Lam Duong",
-      "abstract": "Bayesian inverse problems require both informative prior models and computationally feasible posterior inference. Score-based diffusion models provide expressive learned priors, but their use for inversion introduces a conditioning problem: the score of a noised posterior is generally unavailable fr...",
-      "venue": "arXiv",
-      "date": "2026-10-31",
-      "arxiv_id": "2611.01300v1",
-      "url": "https://arxiv.org/abs/2611.01300v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.01300v1.pdf",
-      "categories": [
-        "cs.LG",
-        "math.NA",
-        "math.ST"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Best-of-Both-Worlds FTRL for Linear Bandits: The Interplay of Information Acquisition, Corruption, and Geometry",
-      "authors": "Canzhe Zhao, Vincent Y. F. Tan",
-      "abstract": "We study \\textit{best-of-both-worlds} (BOBW) algorithms for linear bandits, which aim to simultaneously guarantee $\\gO(\\sqrt T)$ regret in the adversarial regime and $\\gO(\\log T)$ regret in the stochastic regime over $T$ rounds. For finite action sets, we introduce \\emph{information-acquisition foll...",
-      "venue": "arXiv",
-      "date": "2026-10-31",
-      "arxiv_id": "2611.01299v1",
-      "url": "https://arxiv.org/abs/2611.01299v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.01299v1.pdf",
-      "categories": [
-        "cs.LG"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "DriftingPlanner: Drifting Generative Models for One-Step Trajectory Planning in End-to-End Autonomous Driving",
-      "authors": "Ziming Liu, Yizhan Qu, Leichen Wang et al.",
-      "abstract": "End-to-end planners decode the ego trajectory either by coordinate regression, which is fast but blends plausible maneuvers into one trajectory that may follow none of them, or by diffusion and flow matching, which model the trajectory distribution but need several inference steps. Drifting models m...",
-      "venue": "arXiv",
-      "date": "2026-10-31",
-      "arxiv_id": "2611.01283v1",
-      "url": "https://arxiv.org/abs/2611.01283v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.01283v1.pdf",
-      "categories": [
-        "cs.CV",
-        "cs.RO"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Programmable Droplets as Active Matter in a Reconfigurable Environment",
-      "authors": "Ivan Shmarov, Abhishek Sharma, Michael Jirasek et al.",
-      "abstract": "Exploring systems that bridge the gap between non living and living matter requires a reconfigurable environment coupled to synthetic systems capable of autonomous motion, adaptive behaviour and persistent dynamics. Self propelled droplets provide a minimal platform for such life like behaviour, but...",
-      "venue": "arXiv",
-      "date": "2026-10-31",
-      "arxiv_id": "2611.01277v1",
-      "url": "https://arxiv.org/abs/2611.01277v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.01277v1.pdf",
-      "categories": [
-        "cs.RO",
-        "cond-mat.mtrl-sci"
-      ],
-      "type": "ai",
       "badge": "arxiv",
       "source": "arXiv"
     }

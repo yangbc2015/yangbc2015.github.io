@@ -3,10 +3,22 @@
   "count": 200,
   "items": [
     {
+      "title": "[这 20 家机器人公司，吃掉了 具 身 智 能 融资的半壁江山",
+      "summary": "[这 20 家机器人公司，吃掉了 具 身 智 能 融资的半壁江山",
+      "url": "https://36kr.com/p/4053825059574656",
+      "date": "2026-11-03",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
       "title": "[实景实训推动应用落地 以赛促产赋能产业发展——人形机器人与 具 身 智 能 实景实训挑战赛新闻发布会在京召开",
       "summary": "[实景实训推动应用落地 以赛促产赋能产业发展——人形机器人与 具 身 智 能 实景实训挑战赛新闻发布会在京召开",
       "url": "https://36kr.com/p/4052511128638336",
-      "date": "2026-11-02",
+      "date": "2026-11-03",
       "source": "36氪",
       "category": "具身智能",
       "type": "news",
@@ -19,7 +31,7 @@
       "title": "[具 身 智 能 的钱，流向机器人的“皮肤”",
       "summary": "[具 身 智 能 的钱，流向机器人的“皮肤”",
       "url": "https://36kr.com/p/4049738516141696",
-      "date": "2026-11-02",
+      "date": "2026-11-03",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
@@ -31,12 +43,92 @@
       "title": "[桌面机器人火了，具 身 智 能 厂商发力新赛道，终局是物理Agent？",
       "summary": "[桌面机器人火了，具 身 智 能 厂商发力新赛道，终局是物理Agent？",
       "url": "https://36kr.com/p/4048166536812168",
-      "date": "2026-11-02",
+      "date": "2026-11-03",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
       "tags": [
         "机器人"
+      ]
+    },
+    {
+      "title": "Pixel-UMI: Learning Environment-Aware Whole-Body Manipulation from Sensorized Human Demonstrations",
+      "summary": "Sensorized human demonstrations offer scalable data for mobile manipulation, but embodiment differences complicate policy learning. We present Pixel-UMI, a pipeline for learning environment-aware whole-body policies from human data. We first introduc...",
+      "url": "https://arxiv.org/abs/2611.03647v1",
+      "date": "2026-11-02",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.03647v1",
+      "authors": "Jason Jingzhou Liu, Tony Tao et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Pixel: A Co-Designed Full-Stack Robot System for Learning General-Purpose Mobile Manipulation",
+      "summary": "General-purpose mobile manipulation requires a combination of capable robot hardware, scalable demonstration collection, expressive whole-body control, and effective policy learning. Yet these components are often developed independently, creating mi...",
+      "url": "https://arxiv.org/abs/2611.03648v1",
+      "date": "2026-11-02",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.03648v1",
+      "authors": "Tony Tao, Jason Jingzhou Liu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "D&A: Decoupling Description and Assessment Enables VLMs as Zero-Shot Robotic Reward Models",
+      "summary": "Vision-Language Models (VLMs) hold promise for zero-shot video task-progress estimation in robot learning, yet existing frameworks frequently suffer from confirmation bias, hallucinating progress in failed executions due to implicit success assumptio...",
+      "url": "https://arxiv.org/abs/2611.03622v1",
+      "date": "2026-11-02",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.03622v1",
+      "authors": "Marius Memmel, Shawn Yin et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "3D-BBDA: Backpropagation-Free Black-Box Domain Adaptation for Robust 3D Point Cloud Recognition",
+      "summary": "Robust 3D point-cloud recognition is critical for robotics, mapping, and urban sensing, yet point-cloud classifiers often suffer performance drops under domain shifts caused by sensor changes, environmental variation, and acquisition artifacts. Many ...",
+      "url": "https://arxiv.org/abs/2611.03588v1",
+      "date": "2026-11-02",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.03588v1",
+      "authors": "Shivangi Rai, Kunal Jangid et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "TAMPAgent: Agentic Belief-Space Planning for Mobile Manipulation",
+      "summary": "Open-world robotic mobile manipulation requires acting in physical environments with only partial information. While recent Large Vision-Language Model (LVLM) agents show strong open-world reasoning capabilities, existing architectures that rely on d...",
+      "url": "https://arxiv.org/abs/2611.03584v1",
+      "date": "2026-11-02",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.03584v1",
+      "authors": "Utkarsh A. Mishra, Alperen Degirmenci et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
       ]
     },
     {
@@ -2971,99 +3063,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "Reconstruct, Practice, Go Real: Guided Self-Improvement for Embodied Agents",
-      "summary": "Building reliable robot capabilities across diverse tasks requires substantial human effort to develop and maintain skills, design rewards, and integrate perception with control. We present Reconstruct, Practice, Go Real (RPG), a framework for autono...",
-      "url": "https://arxiv.org/abs/2610.02204v1",
-      "date": "2026-10-01",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.02204v1",
-      "authors": "Yen-Jen Wang, Haozhe Jiang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "FERPO: Forward Entropy-Regularized Policy Optimization",
-      "summary": "Several state-of-the-art methods for online reinforcement learning in continuous control improve policies using action gradients of a learned critic. However, critics are typically trained to predict returns, and accurate value predictions do not nec...",
-      "url": "https://arxiv.org/abs/2610.02198v1",
-      "date": "2026-10-01",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.02198v1",
-      "authors": "Sebastian Sanokowski, Alireza Sarmadi et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "InterEvolve: Test-Time Evolution of Reward Programs for Humanoid Loco-Manipulation",
-      "summary": "We study test-time evolution for humanoid loco-manipulation: solving tasks that a controller was never trained for by repurposing its existing skills, improving from its own attempts, and retaining what it learns, without retraining. Our key insight ...",
-      "url": "https://arxiv.org/abs/2610.02196v1",
-      "date": "2026-10-01",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.02196v1",
-      "authors": "Zhuo Lin, Sirui Xu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Watch, Infer, Coordinate: Inferring Robot Partner Constraints for Zero-Shot Coordination",
-      "summary": "Robots operating in the physical world will increasingly need to coordinate with other robots, particularly in manipulation tasks where an object may be too large or heavy for a single robot to carry alone. Physical limitations caused by hardware deg...",
-      "url": "https://arxiv.org/abs/2610.02170v1",
-      "date": "2026-10-01",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.02170v1",
-      "authors": "Suyu Ye, Zheyuan Zhang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "DuoMind: Enabling Distributed Multi-Robot Coordination with Semantic Communication",
-      "summary": "Vision-language models (VLMs) and vision-language-action models (VLAs) have recently driven rapid progress in general-purpose robots, yet most progress has focused on single-robot settings. Extending these capabilities to multi-robot systems remains ...",
-      "url": "https://arxiv.org/abs/2610.02161v1",
-      "date": "2026-10-01",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.02161v1",
-      "authors": "Hanchu Zhou, Dechen Gao et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "一些具身智能企业大干快上的数采中心项目开始引发外界关注和争议。",
-      "summary": "一些具身智能企业大干快上的数采中心项目开始引发外界关注和争议。",
-      "url": "http://36kr.com/p/4005634581155970",
-      "date": "2026-09-30",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
       ]
     }
   ]
