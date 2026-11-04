@@ -1,13 +1,13 @@
 {
   "last_updated": "2026-11-04",
   "count": 200,
-  "history_count": 200,
+  "history_count": 201,
   "retention_days": 30,
   "items": [
     {
-      "title": "长视频记忆精度飙升，问答时延最高降97%",
-      "link": "https://www.qbitai.com/?s=长视频记忆精度飙升，",
-      "summary": "长视频记忆精度飙升，问答时延最高降97%...",
+      "title": "11月4日，虎鲸文娱集团打造的行业首个AI影视制作与管理平台“鲸锐AI”正式上线。",
+      "link": "https://www.qbitai.com/?s=11月4日，虎鲸文娱",
+      "summary": "11月4日，虎鲸文娱集团打造的行业首个AI影视制作与管理平台“鲸锐AI”正式上线。...",
       "date": "2026-11-04",
       "source": "量子位",
       "type": "industry",
@@ -41,9 +41,9 @@
       ]
     },
     {
-      "title": "GPU迭代一百次的事，它一步做完",
-      "link": "https://www.qbitai.com/?s=GPU迭代一百次的事",
-      "summary": "GPU迭代一百次的事，它一步做完...",
+      "title": "10月31日，2026年bilibili超级科学晚（以下简称“B站科学晚”）在北京如期举行。",
+      "link": "https://www.qbitai.com/?s=10月31日，202",
+      "summary": "10月31日，2026年bilibili超级科学晚（以下简称“B站科学晚”）在北京如期举行。...",
       "date": "2026-11-04",
       "source": "量子位",
       "type": "industry",
@@ -53,9 +53,9 @@
       ]
     },
     {
-      "title": "10月31日，2026年bilibili超级科学晚（以下简称“B站科学晚”）在北京如期举行。",
-      "link": "https://www.qbitai.com/?s=10月31日，202",
-      "summary": "10月31日，2026年bilibili超级科学晚（以下简称“B站科学晚”）在北京如期举行。...",
+      "title": "近日，爱诗科技（AIsphere）旗下模型和开放平台PixVerse 与 OpenAI 宣布开启深度合作",
+      "link": "https://www.qbitai.com/?s=近日，爱诗科技（AI",
+      "summary": "近日，爱诗科技（AIsphere）旗下模型和开放平台PixVerse 与 OpenAI 宣布开启深度合作...",
       "date": "2026-11-04",
       "source": "量子位",
       "type": "industry",
@@ -74,6 +74,30 @@
       "tags": [
         "AI",
         "Artificial Intelligence"
+      ]
+    },
+    {
+      "title": "长视频记忆精度飙升，问答时延最高降97%",
+      "link": "https://www.qbitai.com/?s=长视频记忆精度飙升，",
+      "summary": "长视频记忆精度飙升，问答时延最高降97%...",
+      "date": "2026-11-04",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "GPU迭代一百次的事，它一步做完",
+      "link": "https://www.qbitai.com/?s=GPU迭代一百次的事",
+      "summary": "GPU迭代一百次的事，它一步做完...",
+      "date": "2026-11-04",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
       ]
     },
     {
@@ -190,18 +214,6 @@
       "summary": "奥特曼预告下一代GPT！1万个Agent攻下千禧难题...",
       "date": "2026-11-03",
       "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "近日，爱诗科技（AIsphere）旗下模型和开放平台PixVerse 与 OpenAI 宣布开启深度合作",
-      "link": "https://www.qbitai.com/?s=近日，爱诗科技（AI",
-      "summary": "近日，爱诗科技（AIsphere）旗下模型和开放平台PixVerse 与 OpenAI 宣布开启深度合作...",
-      "date": "2026-11-03",
-      "source": "量子位",
       "type": "industry",
       "tags": [
         "AI",
@@ -2384,18 +2396,6 @@
       "title": "工业大模型下一关：从「会分析」到「真干活」，合肥中科纪元押注 ERI",
       "link": "https://www.jiqizhixin.com/search/articles/工业大模型下一关：从「会分析」",
       "summary": "工业大模型下一关：从「会分析」到「真干活」，合肥中科纪元押注 ERI...",
-      "date": "2026-09-28",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "IDC×浪潮信息最新报告！22亿Agent背后，AI算力正迎来一场重构",
-      "link": "https://www.jiqizhixin.com/search/articles/IDC×浪潮信息最新报告！22",
-      "summary": "IDC×浪潮信息最新报告！22亿Agent背后，AI算力正迎来一场重构...",
       "date": "2026-09-28",
       "source": "机器之心",
       "type": "industry",

@@ -1,101 +1,69 @@
 {
   "last_updated": "2026-11-04",
-  "count": 7,
+  "count": 5,
   "items": [
     {
-      "title": "Density-Aware Reward Scaling: A Reinforcement Learning Framework for Reward-Proportional Sampling",
-      "authors": "Ria Shekhawat, Abhijeet Sinha, Yingtao Zhu et al.",
-      "abstract": "Reinforcement learning objectives that maximize expected return can concentrate probability mass on a small subset of high-reward outcomes, limiting diversity when multiple distinct solutions are desirable. We introduce Density-Aware Reward Scaling (DARS), a simple reward-processing mechanism that p...",
+      "title": "DreamX: Video Diffusion Model is a Universal Latent Action Learner",
+      "authors": "Jisoo Kim, Chaehyun Kim, Junsu Kim et al.",
+      "abstract": "Learning a universal action representation from video requires modeling dynamics that are consistent across different executions of the same action yet invariant to changes in embodiment and appearance. Existing latent action models infer actions from visual transitions, but their representations of...",
       "venue": "arXiv",
       "date": "2026-11-03",
-      "arxiv_id": "2611.04792v1",
-      "url": "https://arxiv.org/abs/2611.04792v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.04792v1.pdf",
+      "arxiv_id": "2611.05377v1",
+      "url": "https://arxiv.org/abs/2611.05377v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.05377v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.RO"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "From Autonomous Agents to Cognitive Symbionts: Toward AI-Augmented Human Intelligence",
+      "authors": "Hao Fei",
+      "abstract": "For a decade, progress in artificial intelligence has been measured by how much a machine can do on its own. Large foundation models now write code and run multistep tasks, and personal agents act on a person's behalf. Yet people still forget what they once knew, miss what they are not looking at, f...",
+      "venue": "arXiv",
+      "date": "2026-11-03",
+      "arxiv_id": "2611.05376v1",
+      "url": "https://arxiv.org/abs/2611.05376v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.05376v1.pdf",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Aligning Language Models with General Preferences: An Empirical Study of Direct Nash Optimization",
+      "authors": "Austin Tsai, Saurav Nanda, Ganapathy Parthasarathy et al.",
+      "abstract": "Direct Nash Optimization (DNO) aligns a language model to a general preference function by approximating the Nash equilibrium of a two-player preference game. Its practical variant, DNO-Prct, iterates on-policy sampling, LLM-based rating of the samples together with a teacher's gold response, large-...",
+      "venue": "arXiv",
+      "date": "2026-11-03",
+      "arxiv_id": "2611.05373v1",
+      "url": "https://arxiv.org/abs/2611.05373v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.05373v1.pdf",
       "categories": [
         "cs.LG",
-        "cs.AI"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "ReSI-Math: Exploring Recoverable Capability Frontiers for Efficient Reasoning Improvement",
-      "authors": "Yao Cui, Zhen Yang, Yuandong Wang et al.",
-      "abstract": "Reinforcement learning with verifiable rewards (RLVR) has become an effective approach for improving mathematical reasoning in large language models. However, a fundamental question remains: when a model fails to solve a problem, does it truly lack the underlying capability? In this work, we reveal ...",
-      "venue": "arXiv",
-      "date": "2026-11-03",
-      "arxiv_id": "2611.04787v1",
-      "url": "https://arxiv.org/abs/2611.04787v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.04787v1.pdf",
-      "categories": [
-        "cs.CL",
-        "cs.AI"
+        "cs.AI",
+        "cs.CL"
       ],
       "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "When Ground Truth Is Not Ground Truth: Automatic Labeling for Hallucination Detection",
-      "authors": "Rounak Sen, Divya Kumari, Deeksha Varshney",
-      "abstract": "Hallucinations in Large Language Models (LLMs) remain a major challenge, as they can produce misleading, factually incorrect, or unverifiable information, thereby undermining their trustworthiness and reliability. However, reliable ground-truth labels remain a key challenge in evaluating hallucinati...",
+      "title": "Visibility-Aware Reference Generation for Benchmarking Visual 3D Reconstruction in Vegetation-Rich Environments",
+      "authors": "Zhipeng Zhong, Matthew Coombes, Cunjia Liu",
+      "abstract": "Reliable evaluation of visual 3D reconstruction and depth estimation in vegetation-rich outdoor environments is limited by the scarcity of geometric ground-truth data and the cost of complete scanner surveys. We present a LiDARbased reference-generation pipeline for evaluating the zero-shot performa...",
       "venue": "arXiv",
       "date": "2026-11-03",
-      "arxiv_id": "2611.04697v1",
-      "url": "https://arxiv.org/abs/2611.04697v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.04697v1.pdf",
-      "categories": [
-        "cs.CL",
-        "cs.AI"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "LIPS-PC: Learning Illumination Patterns for Single-Pixel Classification",
-      "authors": "Tomer Porat, Talya Eden, Eliahu Cohen",
-      "abstract": "In single-pixel (ghost) imaging, known illumination patterns probe an object and a detector with no spatial resolution returns one number per pattern. Each measurement costs acquisition time and photons and, for ionizing probes, contributes to delivered dose. Motivated by automated radiographic defe...",
-      "venue": "arXiv",
-      "date": "2026-11-03",
-      "arxiv_id": "2611.04780v1",
-      "url": "https://arxiv.org/abs/2611.04780v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.04780v1.pdf",
-      "categories": [
-        "physics.optics",
-        "cs.CV",
-        "cs.LG"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Pixel-space video generation with U-JiT",
-      "authors": "Théophane Vallaeys, Jakob Verbeek, Matthieu Cord",
-      "abstract": "Latent diffusion and flow matching models are ubiquitous in state-of-the-art generative video models. While highly effective, relying on pretrained autoencoders to compress the data into a lower-dimensional latent space also comes with drawbacks. First, training proceeds in two stages: autoencoder p...",
-      "venue": "arXiv",
-      "date": "2026-11-03",
-      "arxiv_id": "2611.04764v1",
-      "url": "https://arxiv.org/abs/2611.04764v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.04764v1.pdf",
-      "categories": [
-        "cs.CV"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "iMED: A Multi-Endoscope Dataset for Surgical 3D Perception",
-      "authors": "Sierra Bonilla, Fengyi Jiang, Chinedu Nwoye et al.",
-      "abstract": "We introduce iMED, the first synchronized multi-endoscope dataset for robot-assisted minimally invasive surgery (RAMIS), designed to address a fundamental limitation in surgical vision benchmarking: the absence of independent held-out viewpoints. Existing surgical datasets capture single-trajectory ...",
-      "venue": "arXiv",
-      "date": "2026-11-03",
-      "arxiv_id": "2611.04755v1",
-      "url": "https://arxiv.org/abs/2611.04755v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.04755v1.pdf",
+      "arxiv_id": "2611.05361v1",
+      "url": "https://arxiv.org/abs/2611.05361v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.05361v1.pdf",
       "categories": [
         "cs.CV",
         "cs.RO"
@@ -105,19 +73,19 @@
       "source": "arXiv"
     },
     {
-      "title": "Mass Scaling Laws for Energy-Optimal Horizontal Multirotor Flight",
-      "authors": "Ayush Patnaik, Nicolas Michel, Leonard Baursfeld et al.",
-      "abstract": "Multicopters are a type of aerial robot seeing extensive real-world applications but with range and endurance as critical bottlenecks. Optimization of its energy efficiency through energy-aware flight planning (e.g. cruise speed-scheduling) has hence been an important topic. The mass of the multicop...",
+      "title": "PolicyIK: High-Precision Inverse Kinematics for Robot Arms with Reinforcement Learning",
+      "authors": "Yuhan Liu, Xinqi Liu, Zixuan Dong et al.",
+      "abstract": "Inverse kinematics (IK) converts end-effector pose commands into joint motion, and many vision-language-action (VLA) policies rely on it to act on a given arm and to transfer across embodiments. Precise IK remains laborious: redundancy and singularities complicate the inverse mapping, execution depe...",
       "venue": "arXiv",
       "date": "2026-11-03",
-      "arxiv_id": "2611.04748v1",
-      "url": "https://arxiv.org/abs/2611.04748v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.04748v1.pdf",
+      "arxiv_id": "2611.05372v1",
+      "url": "https://arxiv.org/abs/2611.05372v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.05372v1.pdf",
       "categories": [
         "cs.RO",
-        "eess.SY"
+        "cs.LG"
       ],
-      "type": "ai",
+      "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     }

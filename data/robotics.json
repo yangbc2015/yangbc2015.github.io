@@ -3,6 +3,123 @@
   "count": 200,
   "items": [
     {
+      "title": "[机器人抄果蝇“作业”？清华团队用果蝇大脑“接线图”，让 具 身 智 能 学会了自适应",
+      "summary": "[机器人抄果蝇“作业”？清华团队用果蝇大脑“接线图”，让 具 身 智 能 学会了自适应",
+      "url": "https://36kr.com/p/4055087836091527",
+      "date": "2026-11-04",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
+      "title": "[这 20 家机器人公司，吃掉了 具 身 智 能 融资的半壁江山",
+      "summary": "[这 20 家机器人公司，吃掉了 具 身 智 能 融资的半壁江山",
+      "url": "https://36kr.com/p/4053825059574656",
+      "date": "2026-11-04",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
+      "title": "[实景实训推动应用落地 以赛促产赋能产业发展——人形机器人与 具 身 智 能 实景实训挑战赛新闻发布会在京召开",
+      "summary": "[实景实训推动应用落地 以赛促产赋能产业发展——人形机器人与 具 身 智 能 实景实训挑战赛新闻发布会在京召开",
+      "url": "https://36kr.com/p/4052511128638336",
+      "date": "2026-11-04",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "人形机器人"
+      ]
+    },
+    {
+      "title": "DreamX: Video Diffusion Model is a Universal Latent Action Learner",
+      "summary": "Learning a universal action representation from video requires modeling dynamics that are consistent across different executions of the same action yet invariant to changes in embodiment and appearance. Existing latent action models infer actions fro...",
+      "url": "https://arxiv.org/abs/2611.05377v1",
+      "date": "2026-11-03",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.05377v1",
+      "authors": "Jisoo Kim, Chaehyun Kim et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "PolicyIK: High-Precision Inverse Kinematics for Robot Arms with Reinforcement Learning",
+      "summary": "Inverse kinematics (IK) converts end-effector pose commands into joint motion, and many vision-language-action (VLA) policies rely on it to act on a given arm and to transfer across embodiments. Precise IK remains laborious: redundancy and singularit...",
+      "url": "https://arxiv.org/abs/2611.05372v1",
+      "date": "2026-11-03",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.05372v1",
+      "authors": "Yuhan Liu, Xinqi Liu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "GUILD: Guided Iterative Data Collection for Imitation Learning",
+      "summary": "Imitation learning policies in robotics are trained on datasets collected through costly real-world teleoperation. Often, the data-collection process is unguided, relying on the teleoperator's intuition, resulting in data that contributes little to o...",
+      "url": "https://arxiv.org/abs/2611.05368v1",
+      "date": "2026-11-03",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.05368v1",
+      "authors": "Shivin Dass, Kevin Nguyen et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Visibility-Aware Reference Generation for Benchmarking Visual 3D Reconstruction in Vegetation-Rich Environments",
+      "summary": "Reliable evaluation of visual 3D reconstruction and depth estimation in vegetation-rich outdoor environments is limited by the scarcity of geometric ground-truth data and the cost of complete scanner surveys. We present a LiDARbased reference-generat...",
+      "url": "https://arxiv.org/abs/2611.05361v1",
+      "date": "2026-11-03",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.05361v1",
+      "authors": "Zhipeng Zhong, Matthew Coombes et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "PyRUA-DataFarm: LLM Agent as a Cost-Efficient Teleoperator for Real-Ready Robot Data",
+      "summary": "Teleoperation remains the default way to collect robot demonstrations, but every episode costs robot and operator time, and every new task starts from scratch. We ask whether a coding agent can take over the teleoperator's job. In our DataFarm, the a...",
+      "url": "https://arxiv.org/abs/2611.05320v1",
+      "date": "2026-11-03",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.05320v1",
+      "authors": "Kewei Zhang, Juncheng Ma et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
       "title": "iMED: A Multi-Endoscope Dataset for Surgical 3D Perception",
       "summary": "We introduce iMED, the first synchronized multi-endoscope dataset for robot-assisted minimally invasive surgery (RAMIS), designed to address a fundamental limitation in surgical vision benchmarking: the absence of independent held-out viewpoints. Exi...",
       "url": "https://arxiv.org/abs/2611.04755v1",
@@ -80,31 +197,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "[这 20 家机器人公司，吃掉了 具 身 智 能 融资的半壁江山",
-      "summary": "[这 20 家机器人公司，吃掉了 具 身 智 能 融资的半壁江山",
-      "url": "https://36kr.com/p/4053825059574656",
-      "date": "2026-11-03",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
-      ]
-    },
-    {
-      "title": "[实景实训推动应用落地 以赛促产赋能产业发展——人形机器人与 具 身 智 能 实景实训挑战赛新闻发布会在京召开",
-      "summary": "[实景实训推动应用落地 以赛促产赋能产业发展——人形机器人与 具 身 智 能 实景实训挑战赛新闻发布会在京召开",
-      "url": "https://36kr.com/p/4052511128638336",
-      "date": "2026-11-03",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "人形机器人"
       ]
     },
     {
@@ -2955,102 +3047,6 @@
       "type": "paper",
       "arxiv_id": "2610.08789v1",
       "authors": "Chung Min Kim, Brent Yi et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "PEARS: Physical-Prior-Guided Efficient Adaptation via Failure Reasoning and Diffusion Steering for Tactile Manipulation",
-      "summary": "Pretrained robotic policies can suffer substantial performance degradation under out-of-distribution (OOD) conditions encountered during deployment, motivating post-training through real-world interaction. However, reinforcement-learning (RL)-based p...",
-      "url": "https://arxiv.org/abs/2610.08784v1",
-      "date": "2026-10-06",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.08784v1",
-      "authors": "Kun Song, Yiming Wang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "DepthWorld: 3D World Model for Robot Manipulation",
-      "summary": "World models offer a data-driven alternative to traditional simulators for robotics, with applications spanning policy evaluation, improvement, and planning. All of these uses depend on faithful 3D geometry, yet current video-based world models are t...",
-      "url": "https://arxiv.org/abs/2610.08780v1",
-      "date": "2026-10-06",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.08780v1",
-      "authors": "Jai Bardhan, Josef Sivic et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Mission-Aware Attestation Envelopes for Time-Critical Autonomous Action: A Hardware-in-the-Loop V2I Study",
-      "summary": "An autonomous system that asks for a privileged physical action is usually gated on integrity evidence: a platform proves what it is running, and the request is granted or refused on that basis. Such a gate is normally treated as a predicate, yet the...",
-      "url": "https://arxiv.org/abs/2610.08771v1",
-      "date": "2026-10-06",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.08771v1",
-      "authors": "Dimitrios Nikou, Nikolaos Kekatos et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "LBA-CBF: Rapidly Adaptive Safety Filters via Parallel Dynamics Inference",
-      "summary": "Control barrier functions (CBFs) certify commands through an assumed dynamics model, so an abrupt, unmeasured regime change can undermine the certificate exactly when safety matters most. We present Look-Back Adaptive Control Barrier Functions (LBA-C...",
-      "url": "https://arxiv.org/abs/2610.08765v1",
-      "date": "2026-10-06",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.08765v1",
-      "authors": "Maitham F. AL-Sunni, Timeea-Andreea Radu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "InterMimicGen: Scaling Humanoid Loco-Manipulation through Self-Evolving Motion Imitation",
-      "summary": "Captured human-object interactions provide rich supervision for humanoid loco-manipulation, but they are sparse, heterogeneous, and not directly executable by robots. We introduce InterMimicGen, a self-evolving motion-imitation framework in which rob...",
-      "url": "https://arxiv.org/abs/2610.06850v1",
-      "date": "2026-10-05",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.06850v1",
-      "authors": "Yucheng Zhang, Sirui Xu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Recursive Video In-Context Learning for Agentic Robot",
-      "summary": "LLM agents that orchestrate frozen vision-language-action (VLA) policies improve across episodes through text memory, which records what the agent did but not how the task is done. A demonstration video shows it, but fits poorly into an agent's conte...",
-      "url": "https://arxiv.org/abs/2610.06843v1",
-      "date": "2026-10-05",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.06843v1",
-      "authors": "Wenrui Bao, Xinxin Liu et al.",
       "tags": [
         "机器人学习",
         "研究论文",
