@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-11-04",
-  "count": 9,
+  "count": 7,
   "items": [
     {
       "title": "Density-Aware Reward Scaling: A Reinforcement Learning Framework for Reward-Proportional Sampling",
@@ -84,40 +84,6 @@
         "cs.CV"
       ],
       "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Training Specialist LLMs on Your Phone: Forward-Only Optimization via Block-Spectral Coordinates",
-      "authors": "Liyan Tan, Yequan Zhao, Ziyue Liu et al.",
-      "abstract": "Large language models (LLMs) on personal devices keep user data local, but limited memory restricts their general capability. Since most user-specific tasks do not require the breadth of frontier models, a practical solution is to adapt a shared on-device model into lightweight specialists. However,...",
-      "venue": "arXiv",
-      "date": "2026-11-03",
-      "arxiv_id": "2611.04797v1",
-      "url": "https://arxiv.org/abs/2611.04797v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.04797v1.pdf",
-      "categories": [
-        "cs.LG",
-        "eess.SY"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Accelerating Offloading-Based MoE Inference by Interleaving Concurrent Requests",
-      "authors": "Hongseung Yu, In Gim, Kyunghan Lee et al.",
-      "abstract": "Expert offloading enables large mixture-of-experts (MoE) language models to run locally, but conventional batching stalls the GPU while missing experts are fetched. A popular remedy, known as prefetching, is to predict what experts will be needed soon and fetch them using idle link bandwidth. Imprec...",
-      "venue": "arXiv",
-      "date": "2026-11-03",
-      "arxiv_id": "2611.04794v1",
-      "url": "https://arxiv.org/abs/2611.04794v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.04794v1.pdf",
-      "categories": [
-        "cs.DC",
-        "cs.LG"
-      ],
-      "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     },
