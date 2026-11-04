@@ -1,76 +1,157 @@
 {
-  "last_updated": "2026-11-03",
-  "count": 4,
+  "last_updated": "2026-11-04",
+  "count": 9,
   "items": [
     {
-      "title": "Pixel-UMI: Learning Environment-Aware Whole-Body Manipulation from Sensorized Human Demonstrations",
-      "authors": "Jason Jingzhou Liu, Tony Tao, Deepak Pathak et al.",
-      "abstract": "Sensorized human demonstrations offer scalable data for mobile manipulation, but embodiment differences complicate policy learning. We present Pixel-UMI, a pipeline for learning environment-aware whole-body policies from human data. We first introduce Environment-Aware Retargeting (EAR), which combi...",
+      "title": "Density-Aware Reward Scaling: A Reinforcement Learning Framework for Reward-Proportional Sampling",
+      "authors": "Ria Shekhawat, Abhijeet Sinha, Yingtao Zhu et al.",
+      "abstract": "Reinforcement learning objectives that maximize expected return can concentrate probability mass on a small subset of high-reward outcomes, limiting diversity when multiple distinct solutions are desirable. We introduce Density-Aware Reward Scaling (DARS), a simple reward-processing mechanism that p...",
       "venue": "arXiv",
-      "date": "2026-11-02",
-      "arxiv_id": "2611.03647v1",
-      "url": "https://arxiv.org/abs/2611.03647v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.03647v1.pdf",
+      "date": "2026-11-03",
+      "arxiv_id": "2611.04792v1",
+      "url": "https://arxiv.org/abs/2611.04792v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.04792v1.pdf",
       "categories": [
-        "cs.RO",
-        "cs.AI",
-        "cs.CV"
+        "cs.LG",
+        "cs.AI"
       ],
-      "type": "vision",
+      "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Pixel: A Co-Designed Full-Stack Robot System for Learning General-Purpose Mobile Manipulation",
-      "authors": "Tony Tao, Jason Jingzhou Liu, Ruslan Salakhutdinov et al.",
-      "abstract": "General-purpose mobile manipulation requires a combination of capable robot hardware, scalable demonstration collection, expressive whole-body control, and effective policy learning. Yet these components are often developed independently, creating mismatches that limit the capabilities of the comple...",
+      "title": "ReSI-Math: Exploring Recoverable Capability Frontiers for Efficient Reasoning Improvement",
+      "authors": "Yao Cui, Zhen Yang, Yuandong Wang et al.",
+      "abstract": "Reinforcement learning with verifiable rewards (RLVR) has become an effective approach for improving mathematical reasoning in large language models. However, a fundamental question remains: when a model fails to solve a problem, does it truly lack the underlying capability? In this work, we reveal ...",
       "venue": "arXiv",
-      "date": "2026-11-02",
-      "arxiv_id": "2611.03648v1",
-      "url": "https://arxiv.org/abs/2611.03648v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.03648v1.pdf",
+      "date": "2026-11-03",
+      "arxiv_id": "2611.04787v1",
+      "url": "https://arxiv.org/abs/2611.04787v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.04787v1.pdf",
       "categories": [
-        "cs.RO",
-        "cs.AI",
-        "cs.CV"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "WebHarbor: Docking Real Websites for Evolving GUI Agent Environments",
-      "authors": "Zhaoyang Wang, Qianhui Wu, Boyu Gou et al.",
-      "abstract": "GUI web agents require realistic and interactive environments that remain stable during both evaluation and training. Live website evaluation suffers from changing content, access restrictions, and limited coverage of authenticated workflows, while existing synthetic environments for training often ...",
-      "venue": "arXiv",
-      "date": "2026-11-02",
-      "arxiv_id": "2611.03634v1",
-      "url": "https://arxiv.org/abs/2611.03634v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.03634v1.pdf",
-      "categories": [
-        "cs.AI",
         "cs.CL",
+        "cs.AI"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "When Ground Truth Is Not Ground Truth: Automatic Labeling for Hallucination Detection",
+      "authors": "Rounak Sen, Divya Kumari, Deeksha Varshney",
+      "abstract": "Hallucinations in Large Language Models (LLMs) remain a major challenge, as they can produce misleading, factually incorrect, or unverifiable information, thereby undermining their trustworthiness and reliability. However, reliable ground-truth labels remain a key challenge in evaluating hallucinati...",
+      "venue": "arXiv",
+      "date": "2026-11-03",
+      "arxiv_id": "2611.04697v1",
+      "url": "https://arxiv.org/abs/2611.04697v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.04697v1.pdf",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "LIPS-PC: Learning Illumination Patterns for Single-Pixel Classification",
+      "authors": "Tomer Porat, Talya Eden, Eliahu Cohen",
+      "abstract": "In single-pixel (ghost) imaging, known illumination patterns probe an object and a detector with no spatial resolution returns one number per pattern. Each measurement costs acquisition time and photons and, for ionizing probes, contributes to delivered dose. Motivated by automated radiographic defe...",
+      "venue": "arXiv",
+      "date": "2026-11-03",
+      "arxiv_id": "2611.04780v1",
+      "url": "https://arxiv.org/abs/2611.04780v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.04780v1.pdf",
+      "categories": [
+        "physics.optics",
+        "cs.CV",
         "cs.LG"
       ],
-      "type": "nlp",
+      "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "D&A: Decoupling Description and Assessment Enables VLMs as Zero-Shot Robotic Reward Models",
-      "authors": "Marius Memmel, Shawn Yin, Urvi Rutia et al.",
-      "abstract": "Vision-Language Models (VLMs) hold promise for zero-shot video task-progress estimation in robot learning, yet existing frameworks frequently suffer from confirmation bias, hallucinating progress in failed executions due to implicit success assumptions or relative temporal ranking designs. Naive pro...",
+      "title": "Pixel-space video generation with U-JiT",
+      "authors": "Théophane Vallaeys, Jakob Verbeek, Matthieu Cord",
+      "abstract": "Latent diffusion and flow matching models are ubiquitous in state-of-the-art generative video models. While highly effective, relying on pretrained autoencoders to compress the data into a lower-dimensional latent space also comes with drawbacks. First, training proceeds in two stages: autoencoder p...",
       "venue": "arXiv",
-      "date": "2026-11-02",
-      "arxiv_id": "2611.03622v1",
-      "url": "https://arxiv.org/abs/2611.03622v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.03622v1.pdf",
+      "date": "2026-11-03",
+      "arxiv_id": "2611.04764v1",
+      "url": "https://arxiv.org/abs/2611.04764v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.04764v1.pdf",
+      "categories": [
+        "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Training Specialist LLMs on Your Phone: Forward-Only Optimization via Block-Spectral Coordinates",
+      "authors": "Liyan Tan, Yequan Zhao, Ziyue Liu et al.",
+      "abstract": "Large language models (LLMs) on personal devices keep user data local, but limited memory restricts their general capability. Since most user-specific tasks do not require the breadth of frontier models, a practical solution is to adapt a shared on-device model into lightweight specialists. However,...",
+      "venue": "arXiv",
+      "date": "2026-11-03",
+      "arxiv_id": "2611.04797v1",
+      "url": "https://arxiv.org/abs/2611.04797v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.04797v1.pdf",
+      "categories": [
+        "cs.LG",
+        "eess.SY"
+      ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Accelerating Offloading-Based MoE Inference by Interleaving Concurrent Requests",
+      "authors": "Hongseung Yu, In Gim, Kyunghan Lee et al.",
+      "abstract": "Expert offloading enables large mixture-of-experts (MoE) language models to run locally, but conventional batching stalls the GPU while missing experts are fetched. A popular remedy, known as prefetching, is to predict what experts will be needed soon and fetch them using idle link bandwidth. Imprec...",
+      "venue": "arXiv",
+      "date": "2026-11-03",
+      "arxiv_id": "2611.04794v1",
+      "url": "https://arxiv.org/abs/2611.04794v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.04794v1.pdf",
+      "categories": [
+        "cs.DC",
+        "cs.LG"
+      ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "iMED: A Multi-Endoscope Dataset for Surgical 3D Perception",
+      "authors": "Sierra Bonilla, Fengyi Jiang, Chinedu Nwoye et al.",
+      "abstract": "We introduce iMED, the first synchronized multi-endoscope dataset for robot-assisted minimally invasive surgery (RAMIS), designed to address a fundamental limitation in surgical vision benchmarking: the absence of independent held-out viewpoints. Existing surgical datasets capture single-trajectory ...",
+      "venue": "arXiv",
+      "date": "2026-11-03",
+      "arxiv_id": "2611.04755v1",
+      "url": "https://arxiv.org/abs/2611.04755v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.04755v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "type": "benchmark",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Mass Scaling Laws for Energy-Optimal Horizontal Multirotor Flight",
+      "authors": "Ayush Patnaik, Nicolas Michel, Leonard Baursfeld et al.",
+      "abstract": "Multicopters are a type of aerial robot seeing extensive real-world applications but with range and endurance as critical bottlenecks. Optimization of its energy efficiency through energy-aware flight planning (e.g. cruise speed-scheduling) has hence been an important topic. The mass of the multicop...",
+      "venue": "arXiv",
+      "date": "2026-11-03",
+      "arxiv_id": "2611.04748v1",
+      "url": "https://arxiv.org/abs/2611.04748v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.04748v1.pdf",
       "categories": [
         "cs.RO",
-        "cs.AI",
-        "cs.CL"
+        "eess.SY"
       ],
-      "type": "nlp",
+      "type": "ai",
       "badge": "arxiv",
       "source": "arXiv"
     }

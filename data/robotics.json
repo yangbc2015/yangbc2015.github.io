@@ -1,7 +1,87 @@
 {
-  "last_updated": "2026-11-03",
+  "last_updated": "2026-11-04",
   "count": 200,
   "items": [
+    {
+      "title": "iMED: A Multi-Endoscope Dataset for Surgical 3D Perception",
+      "summary": "We introduce iMED, the first synchronized multi-endoscope dataset for robot-assisted minimally invasive surgery (RAMIS), designed to address a fundamental limitation in surgical vision benchmarking: the absence of independent held-out viewpoints. Exi...",
+      "url": "https://arxiv.org/abs/2611.04755v1",
+      "date": "2026-11-03",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.04755v1",
+      "authors": "Sierra Bonilla, Fengyi Jiang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Mass Scaling Laws for Energy-Optimal Horizontal Multirotor Flight",
+      "summary": "Multicopters are a type of aerial robot seeing extensive real-world applications but with range and endurance as critical bottlenecks. Optimization of its energy efficiency through energy-aware flight planning (e.g. cruise speed-scheduling) has hence...",
+      "url": "https://arxiv.org/abs/2611.04748v1",
+      "date": "2026-11-03",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.04748v1",
+      "authors": "Ayush Patnaik, Nicolas Michel et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Cycle WAM: Coupling Action and Video through Cycle Consistency",
+      "summary": "Recent advances in video modeling have driven substantial progress in world action models (WAMs). Existing approaches exploit pretrained video priors by decoding actions from latent representations or inferring them from generated videos. The underly...",
+      "url": "https://arxiv.org/abs/2611.04711v1",
+      "date": "2026-11-03",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.04711v1",
+      "authors": "Qinglin Yang, Jiepeng Wang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "CLARA: A Cognitively-Driven Clarification Framework for Grounding Ambiguous Requests",
+      "summary": "Robotics and AI systems are increasingly deploying large vision-language models (LVLMs) to follow high-level instructions, from routine household chores to more complex organizational tasks. Yet, broad directives like \"clean the room\" or \"organize th...",
+      "url": "https://arxiv.org/abs/2611.04708v1",
+      "date": "2026-11-03",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.04708v1",
+      "authors": "Dimitrios Bekris, Marios Glytsos et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Just Between Us? Exploring a Wearable-Mediated Channel for Discreet Human-Agent Interaction in a Shared Game Setting",
+      "summary": "In shared settings, social robots may need to exchange information with an individual while limiting co-present others' access to or interpretation of that information. Publicly observable speech and gestures may not adequately support such exchanges...",
+      "url": "https://arxiv.org/abs/2611.04692v1",
+      "date": "2026-11-03",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.04692v1",
+      "authors": "Atikkhan Faridkhan Nilgar, Manuel Dietrich et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
     {
       "title": "[这 20 家机器人公司，吃掉了 具 身 智 能 融资的半壁江山",
       "summary": "[这 20 家机器人公司，吃掉了 具 身 智 能 融资的半壁江山",
@@ -49,6 +129,46 @@
       "type": "news",
       "tags": [
         "机器人"
+      ]
+    },
+    {
+      "title": "人形机器人具身智能实景实训挑战赛在京召开发布会",
+      "summary": "人形机器人具身智能实景实训挑战赛在京召开发布会",
+      "url": "https://36kr.com/p/4052511128638336",
+      "date": "2026-11-02",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能",
+        "人形机器人"
+      ]
+    },
+    {
+      "title": "具身智能投资热退潮，一级市场资本接力失灵",
+      "summary": "具身智能投资热退潮，一级市场资本接力失灵",
+      "url": "https://36kr.com/p/4052083834426248",
+      "date": "2026-11-02",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "商汤开源具身方案，称任务成本降至GPT-6的1/50",
+      "summary": "商汤开源具身方案，称任务成本降至GPT-6的1/50",
+      "url": "https://36kr.com/p/4051899808913032",
+      "date": "2026-11-02",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
       ]
     },
     {
@@ -2931,134 +3051,6 @@
       "type": "paper",
       "arxiv_id": "2610.06843v1",
       "authors": "Wenrui Bao, Xinxin Liu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "TAPDreamer: Transferable Adversarial Patches for World Action Models",
-      "summary": "World models learn to predict how their environment will evolve, making them an important foundation for general-purpose robotic control. Yet world action models depend on camera inputs whose manipulation can corrupt the visual representations used a...",
-      "url": "https://arxiv.org/abs/2610.06814v1",
-      "date": "2026-10-05",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.06814v1",
-      "authors": "Xuanyu Lu, Fengqing Jiang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "H-JEPA: End-to-End Learning of Hierarchical World Models for Visual Planning",
-      "summary": "Long-horizon planning with latent world models requires reasoning across timescales and levels of abstraction. Existing task-agnostic JEPA world models predict and plan at a single timescale or with multiple horizons in one shared latent space. We in...",
-      "url": "https://arxiv.org/abs/2610.06805v1",
-      "date": "2026-10-05",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.06805v1",
-      "authors": "Wancong Zhang, Basile Terver et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "On Learning Optimal Corners in Orthogonal Partially Observable Cooperative Guard Art Galleries",
-      "summary": "The CADENCE algorithm solves the Partially Observable Cooperative Guard Art Gallery Problem (POCGAGP) with formal coverage and connectivity guarantees, but leaves unspecified which valid corner each agent should be deployed to, a choice that strongly...",
-      "url": "https://arxiv.org/abs/2610.06777v1",
-      "date": "2026-10-05",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.06777v1",
-      "authors": "Yassin Ben Mansour, Edwin Meriaux",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Less Decoder is More Encoder: Geometric Representation Learning from Novel View Synthesis",
-      "summary": "This paper examines the role of Novel View Synthesis (NVS) in geometric representation learning. In principle, NVS should reason about 3D scene structure, thereby enabling transferable multi-view geometric representations. Yet, existing encoder-based...",
-      "url": "https://arxiv.org/abs/2610.03717v1",
-      "date": "2026-10-02",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.03717v1",
-      "authors": "Keerthi Kaashyap, Dennis Anthony et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "EyeRobot 2.0: Active Gaze for Precise Manipulation without Wrist Cameras",
-      "summary": "Inspired by human vision, we introduce a framework using active gaze to enable fine-grained bimanual manipulation with only a single stereo camera. EyeRobot 2.0 physically attends to a 3D fixation point in the scene by swiveling two eye viewpoints to...",
-      "url": "https://arxiv.org/abs/2610.03710v1",
-      "date": "2026-10-02",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.03710v1",
-      "authors": "Kush Hari, Justin Kerr et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "CORNAV: Construction-Aware Reasoning for Robot Navigation on Active Worksites",
-      "summary": "The construction industry faces persistent labor shortages, low productivity that costs the global economy over $1.6 trillion annually, and one of the highest injury rates among major industries. These factors motivate the use of autonomous robots to...",
-      "url": "https://arxiv.org/abs/2610.03622v1",
-      "date": "2026-10-02",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.03622v1",
-      "authors": "Parastoo Ali Pour, Deepak Prakash Kumar et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "UniIntervene++: An Adaptive Intervention Agent for Efficient Real-World Reinforcement Learning",
-      "summary": "Online reinforcement learning (RL) enables robot policies to improve through physical interaction, but the assistance they require changes as their competence evolves. Existing intervention strategies based on offline estimates or fixed decision rule...",
-      "url": "https://arxiv.org/abs/2610.03620v1",
-      "date": "2026-10-02",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.03620v1",
-      "authors": "Yudong Lin, Haoyuan Deng et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "LLA-MPC on Embedded Hardware: Rapid Adaptive Control with Thousands of Parallel Models",
-      "summary": "We present a generalized implementation of Look-Back and Look-Ahead Adaptive Model Predictive Control (LLA-MPC), a learning-free framework for real-time, rapid adaptive system identification and control. The original formulation was demonstrated only...",
-      "url": "https://arxiv.org/abs/2610.03616v1",
-      "date": "2026-10-02",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.03616v1",
-      "authors": "Henry Z. Liao, Maitham F. AL-Sunni et al.",
       "tags": [
         "机器人学习",
         "研究论文",
