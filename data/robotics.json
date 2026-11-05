@@ -1,7 +1,87 @@
 {
-  "last_updated": "2026-11-04",
+  "last_updated": "2026-11-05",
   "count": 200,
   "items": [
+    {
+      "title": "Robocasa-Mem: Benchmarking Environment and Process Memory in Long-Horizon Mobile Manipulation",
+      "summary": "In the real world, mobile manipulation robots must perform complex object interactions and make multi-step decisions, often relying on task-relevant information that is no longer observable. However, existing benchmarks provide limited evaluation of ...",
+      "url": "https://arxiv.org/abs/2611.06475v1",
+      "date": "2026-11-04",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.06475v1",
+      "authors": "Sihang Chen, Chen Ye et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Beyond Infraction Scores: Failure-Boundary Profiles for Closed-Loop Evaluation of Driving and Robot Navigation Agents",
+      "summary": "Closed-loop driving benchmarks in CARLA rank agents by a driving score that multiplies route completion by an infraction penalty. This score does not distinguish an agent that stops in front of an obstacle from one that pushes past it. In a corridor ...",
+      "url": "https://arxiv.org/abs/2611.06453v1",
+      "date": "2026-11-04",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.06453v1",
+      "authors": "Milan Bulat, Gino Ardelean et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "$A^3$-VLA: Automatic Perception-Guided Attention Alignment for Robot Manipulation",
+      "summary": "Vision-Language-Action Models (VLAs) enable robots to perform manipulation tasks by leveraging Vision-Language Models (VLMs) to process visual observations and language instructions. However, the action prediction objective itself lacks fine-grained ...",
+      "url": "https://arxiv.org/abs/2611.06447v1",
+      "date": "2026-11-04",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.06447v1",
+      "authors": "Shengzhe Zhang, Qi Zhang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "TwinBridge: Digital Twin-Driven Policy and Reward Transfer for Real-World Reinforcement Learning in Laboratory Robotics",
+      "summary": "Online reinforcement learning offers an effective approach to precise laboratory manipulation, yet costly real-world demonstrations and limited access to dense process rewards hinder its practical application. We present TwinBridge, a digital twin-dr...",
+      "url": "https://arxiv.org/abs/2611.06442v1",
+      "date": "2026-11-04",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.06442v1",
+      "authors": "Shu'ang Sun, Yibo Qiu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "UniLoop: Unified Loop Closure Detection from Retrieval to Geometric Verification and Relative Pose Estimation",
+      "summary": "Loop closure detection conventionally cascades separate models for global retrieval, geometric verification, and relative pose estimation, leading to redundant computation and disconnected visual representations. We propose UniLoop, a unified framewo...",
+      "url": "https://arxiv.org/abs/2611.06378v1",
+      "date": "2026-11-04",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.06378v1",
+      "authors": "Jingwen Yu, Pengyu Wang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
     {
       "title": "[机器人抄果蝇“作业”？清华团队用果蝇大脑“接线图”，让 具 身 智 能 学会了自适应",
       "summary": "[机器人抄果蝇“作业”？清华团队用果蝇大脑“接线图”，让 具 身 智 能 学会了自适应",
@@ -37,6 +117,57 @@
       "tags": [
         "机器人",
         "人形机器人"
+      ]
+    },
+    {
+      "title": "当全世界都在热议李飞飞Atlas时，石景山正悄悄建好机器人4D训练底座",
+      "summary": "当全世界都在热议李飞飞Atlas时，石景山正悄悄建好机器人4D训练底座",
+      "url": "https://36kr.com/p/4053913102947462",
+      "date": "2026-11-03",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
+      "title": "2026年20家代表性具身智能创业公司盘点",
+      "summary": "2026年20家代表性具身智能创业公司盘点",
+      "url": "https://36kr.com/p/4053825059574656",
+      "date": "2026-11-03",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "36氪等发起2026具身智能法律服务白皮书律所合作邀约",
+      "summary": "36氪等发起2026具身智能法律服务白皮书律所合作邀约",
+      "url": "https://36kr.com/p/4053481567622278",
+      "date": "2026-11-03",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "11月26日具身智能文商旅分会场将在北京举办",
+      "summary": "11月26日具身智能文商旅分会场将在北京举办",
+      "url": "https://36kr.com/p/4053466880775048",
+      "date": "2026-11-03",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
       ]
     },
     {
@@ -2903,150 +3034,6 @@
       "type": "paper",
       "arxiv_id": "2610.12468v1",
       "authors": "Junyan Li, Ruizhi Li et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "CSF: Contextual Safety Filtering for Motion Generators",
-      "summary": "Text-conditioned motion generators produce trackable whole-body motion, but they have no notion of scene-dependent safety: the same action may target an object or a person. Existing safeguards either inspect the prompt, require labeled motion data, o...",
-      "url": "https://arxiv.org/abs/2610.12467v1",
-      "date": "2026-10-08",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.12467v1",
-      "authors": "Lizhi Yang, Yiling Hou et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "A Balanced Data Diet: Addressing the Exploration Bottleneck in Mega-Scale RL for Robot Control",
-      "summary": "General-purpose robots must perform a wide range of tasks from agile locomotion to dexterous manipulation. While sim-to-real reinforcement learning (RL) has proven to be a useful tool for this goal, current RL pipelines depend on engineering-heavy, p...",
-      "url": "https://arxiv.org/abs/2610.12465v1",
-      "date": "2026-10-08",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.12465v1",
-      "authors": "Octi Zhang, Mateo Guaman Castro et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "SpatialHarness: Test-Time Spatial Scaffolding for Fine Robotic Manipulation",
-      "summary": "Frontier multimodal foundation models (e.g., GPT-6 Astra) have recently shown strong potential for direct robotic control, yet their performance on fine manipulation remains limited. We argue that an important source of failure is not necessarily ins...",
-      "url": "https://arxiv.org/abs/2610.12457v1",
-      "date": "2026-10-08",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.12457v1",
-      "authors": "Jiayu Wang, Yue Yu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Never Look Back: Understanding Persistence in 3D Object Memory from Egocentric Videos",
-      "summary": "As we move through the world and carry out everyday tasks, we encounter objects that may become relevant only later. We are capable of recalling where we left something or what was inside a container, even without knowing we would need it later. Here...",
-      "url": "https://arxiv.org/abs/2610.10538v1",
-      "date": "2026-10-07",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.10538v1",
-      "authors": "Shravan Chaudhari, William Paul et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "RoboPrompt: Intuitive Robot Policy Steering with Sparse Human Input",
-      "summary": "End-to-end robot policies trained through imitation learning remain constrained by limited data diversity, making reliable zero-shot deployment in real-world settings challenging. Shared-autonomy methods enable human correction through teleoperation,...",
-      "url": "https://arxiv.org/abs/2610.10534v1",
-      "date": "2026-10-07",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.10534v1",
-      "authors": "Yanwen Zou, Chenyang Shi et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Long-WAM: Scaling the Context of World-Action Models",
-      "summary": "Real-time robot control demands enough visual history to infer motion and task progress, but processing that history can delay action. We present Long-WAM, a model-system framework for scaling the context of causal world-action models under real-time...",
-      "url": "https://arxiv.org/abs/2610.10528v1",
-      "date": "2026-10-07",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.10528v1",
-      "authors": "Wei Huang, Bohan Zhang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Rephrase Before You Act: Characterizing and Mitigating Language Sensitivity in Vision-Language-Action Models",
-      "summary": "Vision-language-action models (VLAs) are strikingly sensitive to instruction phrasing and do not inherit the language robustness of the vision-language models they are built on. A one-word edit can move success by tens of points: $π{0.5}$ turns on a...",
-      "url": "https://arxiv.org/abs/2610.10526v1",
-      "date": "2026-10-07",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.10526v1",
-      "authors": "Mikey Watts, Yuchen Cui",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "RoboJEPA: Scaling Robotic Latent World Models",
-      "summary": "Latent world models have shown a remarkable ability to predict future states and to plan in the real world. In practice, however, we lack a principled way to estimate how their capabilities scale with model size, data, and compute, an open problem th...",
-      "url": "https://arxiv.org/abs/2610.10515v1",
-      "date": "2026-10-07",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.10515v1",
-      "authors": "Artem Zholus, Nicolas Beltran-Velez et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "QF3: Fast Flow RL with Filtered Q-Gradients",
-      "summary": "Flow policies have become a standard policy class for learning robot behaviors from demonstrations, but reinforcement learning is still critical for improving pre-trained flow policies or learning them from scratch through interaction. We introduce Q...",
-      "url": "https://arxiv.org/abs/2610.08789v1",
-      "date": "2026-10-06",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.08789v1",
-      "authors": "Chung Min Kim, Brent Yi et al.",
       "tags": [
         "机器人学习",
         "研究论文",
