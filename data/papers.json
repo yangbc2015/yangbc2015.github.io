@@ -1,42 +1,7 @@
 {
   "last_updated": "2026-11-05",
-  "count": 8,
+  "count": 6,
   "items": [
-    {
-      "title": "FPTR: Feasibility-Preserving Transactional Refinement for Deadline-Constrained Joint Beam and Resource Allocation",
-      "authors": "Minghao Kong, Zirong Liu, Jianhao Wu et al.",
-      "abstract": "Short-interval wireless schedulers must return a complete, feasible beam-and-resource allocation before each execution deadline, and a late or invalid output gives no utility in the current control cycle. Searching longer can increase transmitted traffic, but it may also miss the deadline or leave o...",
-      "venue": "arXiv",
-      "date": "2026-11-04",
-      "arxiv_id": "2611.06491v1",
-      "url": "https://arxiv.org/abs/2611.06491v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.06491v1.pdf",
-      "categories": [
-        "cs.AI",
-        "cs.AR",
-        "cs.PF"
-      ],
-      "type": "ai",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Model Merging Does Not Require Uniform LoRA Ranks",
-      "authors": "Zirong Xie, Zainab Afolabi, Nikita Kozodoi et al.",
-      "abstract": "Model merging combines separately fine-tuned experts into a single model without retraining. Standard practice trains every expert at the same LoRA rank, which couples the rank choice across experts even though each domain has its own best rank. We show this coupling is a property of the merge metho...",
-      "venue": "arXiv",
-      "date": "2026-11-04",
-      "arxiv_id": "2611.06486v1",
-      "url": "https://arxiv.org/abs/2611.06486v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.06486v1.pdf",
-      "categories": [
-        "cs.LG",
-        "cs.AI"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
     {
       "title": "A Framework for Context Enrichment and Selective Robustness in LLM Social Agents",
       "authors": "Mattia Greiche, Reihaneh Rabbany, Maximilian Puelma Touzel",
