@@ -3,6 +3,30 @@
   "count": 200,
   "items": [
     {
+      "title": "[机器人抄果蝇“作业”？清华团队用果蝇大脑“接线图”，让 具 身 智 能 学会了自适应",
+      "summary": "[机器人抄果蝇“作业”？清华团队用果蝇大脑“接线图”，让 具 身 智 能 学会了自适应",
+      "url": "https://36kr.com/p/4055087836091527",
+      "date": "2026-11-05",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
+      "title": "[这 20 家机器人公司，吃掉了 具 身 智 能 融资的半壁江山",
+      "summary": "[这 20 家机器人公司，吃掉了 具 身 智 能 融资的半壁江山",
+      "url": "https://36kr.com/p/4053825059574656",
+      "date": "2026-11-05",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
       "title": "cuRoboV2-Fast: Fast Torque-Limited Collision-Free Motion Planning",
       "summary": "We present cuRoboV2-Fast, a GPU-accelerated planner that reduces both planning latency and execution time for collision-free, payload-aware, torque-limited motions. B-spline trajectory optimization reduces the required iterations, while accelerated r...",
       "url": "https://arxiv.org/abs/2611.06913v1",
@@ -160,30 +184,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "[机器人抄果蝇“作业”？清华团队用果蝇大脑“接线图”，让 具 身 智 能 学会了自适应",
-      "summary": "[机器人抄果蝇“作业”？清华团队用果蝇大脑“接线图”，让 具 身 智 能 学会了自适应",
-      "url": "https://36kr.com/p/4055087836091527",
-      "date": "2026-11-04",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
-      ]
-    },
-    {
-      "title": "[这 20 家机器人公司，吃掉了 具 身 智 能 融资的半壁江山",
-      "summary": "[这 20 家机器人公司，吃掉了 具 身 智 能 融资的半壁江山",
-      "url": "https://36kr.com/p/4053825059574656",
-      "date": "2026-11-04",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
       ]
     },
     {
