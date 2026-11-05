@@ -1,7 +1,39 @@
 {
   "last_updated": "2026-11-05",
-  "count": 6,
+  "count": 8,
   "items": [
+    {
+      "title": "BEAKER: An Expert-Curated Benchmark for Embodied Brains in Self-Driving Chemical Laboratories",
+      "authors": "Fei Lin, Tengchao Zhang, Ziyang Gong et al.",
+      "abstract": "Self-Driving Chemical Laboratories (SDCLs) are moving chemical experimentation toward embodied automation, where machines must perceive laboratory scenes, reason about experimental states, and act under physical, procedural, and safety constraints. Although Multimodal Large Language Models (MLLMs) a...",
+      "venue": "arXiv",
+      "date": "2026-11-04",
+      "arxiv_id": "2611.06911v1",
+      "url": "https://arxiv.org/abs/2611.06911v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.06911v1.pdf",
+      "categories": [
+        "cs.AI"
+      ],
+      "type": "benchmark",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "FrontierPhysics: Evaluating Agents for End-to-End Physics Research",
+      "authors": "Bingran You, Wenjun Ke, Ria Rosenauer et al.",
+      "abstract": "AI agents are playing an increasingly important role in physics research. However, existing physics benchmarks only evaluate fixed questions, isolated sub-tasks, or paper reproduction with given solutions, and rarely check research quality alongside correctness. We introduce FrontierPhysics, an end-...",
+      "venue": "arXiv",
+      "date": "2026-11-04",
+      "arxiv_id": "2611.06910v1",
+      "url": "https://arxiv.org/abs/2611.06910v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.06910v1.pdf",
+      "categories": [
+        "cs.AI"
+      ],
+      "type": "ai",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
     {
       "title": "A Framework for Context Enrichment and Selective Robustness in LLM Social Agents",
       "authors": "Mattia Greiche, Reihaneh Rabbany, Maximilian Puelma Touzel",

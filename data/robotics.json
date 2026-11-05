@@ -3,6 +3,86 @@
   "count": 200,
   "items": [
     {
+      "title": "cuRoboV2-Fast: Fast Torque-Limited Collision-Free Motion Planning",
+      "summary": "We present cuRoboV2-Fast, a GPU-accelerated planner that reduces both planning latency and execution time for collision-free, payload-aware, torque-limited motions. B-spline trajectory optimization reduces the required iterations, while accelerated r...",
+      "url": "https://arxiv.org/abs/2611.06913v1",
+      "date": "2026-11-04",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.06913v1",
+      "authors": "Balakumar Sundaralingam, Adithyavairavan Murali et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Perceptive Humanoid Motion from Simulation",
+      "summary": "Humanoid robots have the potential to automate a wide range of physical tasks. Progress toward generalist humanoid autonomy, however, remains constrained by a data bottleneck: mapping pixels and free-form language to low-level joint commands requires...",
+      "url": "https://arxiv.org/abs/2611.06908v1",
+      "date": "2026-11-04",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.06908v1",
+      "authors": "Siyuan Hu, Abulikemu Abuduweili et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Reinforcement Learning Enables Scaling Generalist Robot Policy Improvement",
+      "summary": "The introduction of generalist robot policies has enabled a single, large model to learn to perform a variety of tasks from a vast pre-training corpus. While these models often exhibit powerful zero-shot generalization capabilities, they typically re...",
+      "url": "https://arxiv.org/abs/2611.06905v1",
+      "date": "2026-11-04",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.06905v1",
+      "authors": "Michal Korniak, Marco Bagatella et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "VABAR: A Variational Automation Benchmark for Agentic Robotics",
+      "summary": "For robots to operate reliably in commercial and industrial applications, they must persistently perform specific tasks with known variations in object shape and pose. We call this Variational Automation (VA) to differentiate these settings from fixe...",
+      "url": "https://arxiv.org/abs/2611.06881v1",
+      "date": "2026-11-04",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.06881v1",
+      "authors": "Shuangyu Xie, Kaiyuan Chen et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Rethinking Self-Repair in Code-as-Policy Agents: What Drives Retry Success?",
+      "summary": "Code-as-policy agents often use execution feedback to retry failed programs. Additional sampling and task guidance can also improve success, leaving the contribution of failure-specific feedback unclear. We study this question in simulated robot mani...",
+      "url": "https://arxiv.org/abs/2611.06863v1",
+      "date": "2026-11-04",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.06863v1",
+      "authors": "Siddharth Aphale, Ayushman Singh",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
       "title": "Robocasa-Mem: Benchmarking Environment and Process Memory in Long-Horizon Mobile Manipulation",
       "summary": "In the real world, mobile manipulation robots must perform complex object interactions and make multi-step decisions, often relying on task-relevant information that is no longer observable. However, existing benchmarks provide limited evaluation of ...",
       "url": "https://arxiv.org/abs/2611.06475v1",
@@ -2965,75 +3045,6 @@
       "type": "paper",
       "arxiv_id": "2610.13872v1",
       "authors": "Yiming Yang, Jeremy P. Bos",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "[具 身 智 能 卡住的不是算法，是 ' 数据荒 '：灵灵智能用 ' 无本体 + 真机 ' 双轨采集，把人类行为变成机器人训练数据",
-      "summary": "[具 身 智 能 卡住的不是算法，是 ' 数据荒 '：灵灵智能用 ' 无本体 + 真机 ' 双轨采集，把人类行为变成机器人训练数据",
-      "url": "http://36kr.com/p/3998358077214596",
-      "date": "2026-10-09",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
-      ]
-    },
-    {
-      "title": "智元系的数据生意：时薪20块，喂不饱机器人。",
-      "summary": "智元系的数据生意：时薪20块，喂不饱机器人。",
-      "url": "http://36kr.com/p/4016534563884935",
-      "date": "2026-10-08",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
-      ]
-    },
-    {
-      "title": "一家具身智能企业，到底值多少钱？",
-      "summary": "一家具身智能企业，到底值多少钱？",
-      "url": "http://36kr.com/p/4016412610498694",
-      "date": "2026-10-08",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "Dex-One2Many: Learning Dexterous Manipulation from a Single Human Demonstration",
-      "summary": "While learning dexterous manipulation from a single human video offers a promising alternative to costly robot demonstrations, many recent methods predominantly imitate demonstrated motions. Such strict motion matching often limits generalization to ...",
-      "url": "https://arxiv.org/abs/2610.12470v1",
-      "date": "2026-10-08",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.12470v1",
-      "authors": "Jusuk Lee, Sungha Kim et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "DreamTrue: Action-Faithful Robot World Model with Counterfactual Post-Training",
-      "summary": "We present DreamTrue, a multi-view, cross-embodiment robot world model for action-faithful and physically plausible video prediction. Training such a model on existing robot datasets faces two obstacles: imprecise calibration can impair action follow...",
-      "url": "https://arxiv.org/abs/2610.12468v1",
-      "date": "2026-10-08",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.12468v1",
-      "authors": "Junyan Li, Ruizhi Li et al.",
       "tags": [
         "机器人学习",
         "研究论文",
