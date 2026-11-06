@@ -1,50 +1,35 @@
 {
-  "last_updated": "2026-11-05",
-  "count": 8,
+  "last_updated": "2026-11-06",
+  "count": 10,
   "items": [
     {
-      "title": "BEAKER: An Expert-Curated Benchmark for Embodied Brains in Self-Driving Chemical Laboratories",
-      "authors": "Fei Lin, Tengchao Zhang, Ziyang Gong et al.",
-      "abstract": "Self-Driving Chemical Laboratories (SDCLs) are moving chemical experimentation toward embodied automation, where machines must perceive laboratory scenes, reason about experimental states, and act under physical, procedural, and safety constraints. Although Multimodal Large Language Models (MLLMs) a...",
+      "title": "SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimization",
+      "authors": "Qile Jiang, George Em Karniadakis",
+      "abstract": "LLM-guided evolutionary search uses AI agents to improve programs for mathematical and computational problems by iteratively refining solutions and combining high-scoring methods. However, the process is often slow because the LLM generates a long textual chain of thought for each round and must rep...",
       "venue": "arXiv",
-      "date": "2026-11-04",
-      "arxiv_id": "2611.06911v1",
-      "url": "https://arxiv.org/abs/2611.06911v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.06911v1.pdf",
+      "date": "2026-11-05",
+      "arxiv_id": "2611.08483v1",
+      "url": "https://arxiv.org/abs/2611.08483v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.08483v1.pdf",
       "categories": [
-        "cs.AI"
+        "cs.AI",
+        "cs.NE"
       ],
-      "type": "benchmark",
+      "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "FrontierPhysics: Evaluating Agents for End-to-End Physics Research",
-      "authors": "Bingran You, Wenjun Ke, Ria Rosenauer et al.",
-      "abstract": "AI agents are playing an increasingly important role in physics research. However, existing physics benchmarks only evaluate fixed questions, isolated sub-tasks, or paper reproduction with given solutions, and rarely check research quality alongside correctness. We introduce FrontierPhysics, an end-...",
+      "title": "Scientist World: Grow a Research World for AI-Scientists",
+      "authors": "Taiming Lu, Sachin Konan, Zhuang Liu",
+      "abstract": "AI-Scientists arrived, but a world for them to grow in did not. Human scientists take theirs for granted $-$ centuries of open problems and shared ideas, waiting in the scientific literature. To AI-Scientists, that world is readable but not runnable, so we build Scientist World for them: every resea...",
       "venue": "arXiv",
-      "date": "2026-11-04",
-      "arxiv_id": "2611.06910v1",
-      "url": "https://arxiv.org/abs/2611.06910v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.06910v1.pdf",
+      "date": "2026-11-05",
+      "arxiv_id": "2611.08478v1",
+      "url": "https://arxiv.org/abs/2611.08478v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.08478v1.pdf",
       "categories": [
-        "cs.AI"
-      ],
-      "type": "ai",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "A Framework for Context Enrichment and Selective Robustness in LLM Social Agents",
-      "authors": "Mattia Greiche, Reihaneh Rabbany, Maximilian Puelma Touzel",
-      "abstract": "Researchers use large language models as agents in social simulations, where agents are prompted with observations and background information intended to shape their actions. Yet LLM agents have been shown to substantially change their behavior under meaning-preserving prompt variations, creating a ...",
-      "venue": "arXiv",
-      "date": "2026-11-04",
-      "arxiv_id": "2611.06914v1",
-      "url": "https://arxiv.org/abs/2611.06914v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.06914v1.pdf",
-      "categories": [
-        "cs.MA",
+        "cs.AI",
         "cs.CL",
         "cs.LG"
       ],
@@ -53,14 +38,31 @@
       "source": "arXiv"
     },
     {
-      "title": "SpecCompact: Accelerating LLM Agent Context Compaction with Slot-Parallel Semantic Speculative Verification",
-      "authors": "Yulu An, Yifei Feng, Xiangyang Yin",
-      "abstract": "LLM agents use context compaction to manage growing interaction histories, but summarizing long histories with large models can introduce substantial delays. Compaction therefore requires balancing information retention against latency. We observe that structured summary slots can retain information...",
+      "title": "Automatic keyphrase extraction and annotation: modern theoretical approaches and practical solutions for text and speech",
+      "authors": "Daria Guseva, Olga Mitrofanova",
+      "abstract": "The exponential growth of textual and audiovisual information has made the task of automatic keyphrase extraction (KE) increasingly significant. This article provides a comprehensive analysis of contemporary theoretical approaches and practical solutions for KE across both text and speech modalities...",
       "venue": "arXiv",
-      "date": "2026-11-04",
-      "arxiv_id": "2611.06876v1",
-      "url": "https://arxiv.org/abs/2611.06876v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.06876v1.pdf",
+      "date": "2026-11-05",
+      "arxiv_id": "2611.08006v1",
+      "url": "https://arxiv.org/abs/2611.08006v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.08006v1.pdf",
+      "categories": [
+        "cs.CL",
+        "cs.HC"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Compression Through a Context Lens: Evaluating Adaptation, Quantization, and Distillation in Arabic Legal LLMs",
+      "authors": "Md. Rafiul Biswas, George Mikros, Wajdi Zaghouani",
+      "abstract": "Model compression can facilitate the deployment of large language models in resource-constrained legal settings, but its effects on domain-specific performance may depend on the evaluation protocol. We investigate this issue using ArabLegalEval, a Saudi Arabic legal benchmark, under both with-contex...",
+      "venue": "arXiv",
+      "date": "2026-11-05",
+      "arxiv_id": "2611.07988v1",
+      "url": "https://arxiv.org/abs/2611.07988v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.07988v1.pdf",
       "categories": [
         "cs.CL"
       ],
@@ -69,33 +71,15 @@
       "source": "arXiv"
     },
     {
-      "title": "From Pixels to Actions - Towards Native Vision-Language-Action Policies",
-      "authors": "Weichen Fan, Haiwen Diao, Penghao Wu et al.",
-      "abstract": "Vision-language-action models are typically built on a simple premise: perception is first compressed by visual encoders, and action reasoning begins only afterwards. Yet manipulation often hinges on precisely the visual signals most vulnerable to this abstraction, e.g., local geometry, boundaries, ...",
+      "title": "Do You Miss the Nights We Spent Crafting Figures? Rethinking Teaser and Framework Figures in the Age of Generative AI",
+      "authors": "Xiaoqi Zhao, Youwei Pang, Kailai Zhou",
+      "abstract": "Scientific figures give research ideas a visual form through choices of abstraction, composition, and emphasis. Generative AI offers new ways to realize these choices, raising questions about explanatory clarity and purposeful visual expression. We examine these questions through a visual retrospect...",
       "venue": "arXiv",
-      "date": "2026-11-04",
-      "arxiv_id": "2611.06918v1",
-      "url": "https://arxiv.org/abs/2611.06918v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.06918v1.pdf",
+      "date": "2026-11-05",
+      "arxiv_id": "2611.08486v1",
+      "url": "https://arxiv.org/abs/2611.08486v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.08486v1.pdf",
       "categories": [
-        "cs.CV"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Perceptive Humanoid Motion from Simulation",
-      "authors": "Siyuan Hu, Abulikemu Abuduweili, Yue Meng et al.",
-      "abstract": "Humanoid robots have the potential to automate a wide range of physical tasks. Progress toward generalist humanoid autonomy, however, remains constrained by a data bottleneck: mapping pixels and free-form language to low-level joint commands requires paired supervision, and no corpus of such data ex...",
-      "venue": "arXiv",
-      "date": "2026-11-04",
-      "arxiv_id": "2611.06908v1",
-      "url": "https://arxiv.org/abs/2611.06908v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.06908v1.pdf",
-      "categories": [
-        "cs.RO",
-        "cs.AI",
         "cs.CV"
       ],
       "type": "vision",
@@ -103,31 +87,82 @@
       "source": "arXiv"
     },
     {
-      "title": "FlowReconBench: Accuracy, calibration and cost of learned and classical flow reconstruction from sparse sensors",
-      "authors": "Nicolas Tricard, Linzheng Wang, Jason Chen et al.",
-      "abstract": "Reconstructing full flow fields from sparse sensors requires prior assumptions about unmeasured regions and physical variables. Yet it remains unclear when learned models outperform classical estimators and which aspects of their predictions can be trusted. FlowReconBench evaluates ten learned and f...",
+      "title": "Where and Why is Grounded Reasoning Useful?",
+      "authors": "David Yan, Le Xue, Forrest Huang et al.",
+      "abstract": "Grounded reasoning, where a model outputs text coordinates of relevant locations in chain-of-thought reasoning, is a common strategy for solving complex visual reasoning problems. However, the benefits and limitations of grounded reasoning are understudied. We study where and why grounded reasoning ...",
       "venue": "arXiv",
-      "date": "2026-11-04",
-      "arxiv_id": "2611.06912v1",
-      "url": "https://arxiv.org/abs/2611.06912v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.06912v1.pdf",
+      "date": "2026-11-05",
+      "arxiv_id": "2611.08485v1",
+      "url": "https://arxiv.org/abs/2611.08485v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.08485v1.pdf",
       "categories": [
-        "physics.flu-dyn",
-        "cs.LG"
+        "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Towards Multiscale Molecular Representation Learning through Geometry-Based Fragmentation for Polymer Property Prediction",
+      "authors": "Makoto Takamoto, Chaitanya Sampara, Viktor Zaverkin et al.",
+      "abstract": "It is well established that molecular substructures can contribute unequally to chemical and physical properties, with specific motifs or side chains often playing dominant roles. Fragment-based representations have therefore emerged as an effective strategy for incorporating chemically meaningful i...",
+      "venue": "arXiv",
+      "date": "2026-11-05",
+      "arxiv_id": "2611.07998v1",
+      "url": "https://arxiv.org/abs/2611.07998v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.07998v1.pdf",
+      "categories": [
+        "cs.LG",
+        "cond-mat.mtrl-sci",
+        "physics.chem-ph"
       ],
       "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "cuRoboV2-Fast: Fast Torque-Limited Collision-Free Motion Planning",
-      "authors": "Balakumar Sundaralingam, Adithyavairavan Murali, Stan Birchfield",
-      "abstract": "We present cuRoboV2-Fast, a GPU-accelerated planner that reduces both planning latency and execution time for collision-free, payload-aware, torque-limited motions. B-spline trajectory optimization reduces the required iterations, while accelerated robot computations and differentiable inverse dynam...",
+      "title": "QRAE: Query-Relevant Attention Entropy for Context Compression in DeepSearch Agents",
+      "authors": "Yingjie Tan, Haiquan Qiu, Quanming Yao et al.",
+      "abstract": "DeepSearch LLM agents repeatedly search and carry retrieved sources into subsequent reasoning steps. This expanding context increases token consumption and latency, although many results do not contribute to later reasoning. We propose Query-Relevant Attention Entropy (QRAE), an online context compr...",
       "venue": "arXiv",
-      "date": "2026-11-04",
-      "arxiv_id": "2611.06913v1",
-      "url": "https://arxiv.org/abs/2611.06913v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.06913v1.pdf",
+      "date": "2026-11-05",
+      "arxiv_id": "2611.07976v1",
+      "url": "https://arxiv.org/abs/2611.07976v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.07976v1.pdf",
+      "categories": [
+        "cs.LG"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Reversible Dynamics, Asymmetric Actions: Parking as a Trajectory-Level Affordance",
+      "authors": "Adam Y. Shavit",
+      "abstract": "Drivers are often told to back into a tight parking space, not drive in nose first. The advice looks paradoxical, because a slow car is dynamically reversible: reverse its speed and replay the steering backward, and it retraces a feasible path. Played backward, though, reverse-in shows a car driving...",
+      "venue": "arXiv",
+      "date": "2026-11-05",
+      "arxiv_id": "2611.07965v1",
+      "url": "https://arxiv.org/abs/2611.07965v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.07965v1.pdf",
+      "categories": [
+        "q-bio.NC",
+        "cs.RO",
+        "math.OC"
+      ],
+      "type": "ai",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Time-Indexed Skill Success Models for Latency-Aware Skill Selection and Timing in Dynamic Manipulation",
+      "authors": "Mohsen Omidi, Maria Chiara Leva, Brian Vaughan",
+      "abstract": "Robots that manipulate moving objects act on observations that are outdated when the chosen skill starts, and the best skill can change within a few hundred milliseconds. Skill competence models, however, predict success for a launch at the moment of observation. We propose time-indexed skill succes...",
+      "venue": "arXiv",
+      "date": "2026-11-05",
+      "arxiv_id": "2611.07964v1",
+      "url": "https://arxiv.org/abs/2611.07964v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.07964v1.pdf",
       "categories": [
         "cs.RO"
       ],

@@ -1,7 +1,87 @@
 {
-  "last_updated": "2026-11-05",
+  "last_updated": "2026-11-06",
   "count": 200,
   "items": [
+    {
+      "title": "Reversible Dynamics, Asymmetric Actions: Parking as a Trajectory-Level Affordance",
+      "summary": "Drivers are often told to back into a tight parking space, not drive in nose first. The advice looks paradoxical, because a slow car is dynamically reversible: reverse its speed and replay the steering backward, and it retraces a feasible path. Playe...",
+      "url": "https://arxiv.org/abs/2611.07965v1",
+      "date": "2026-11-05",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.07965v1",
+      "authors": "Adam Y. Shavit",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Time-Indexed Skill Success Models for Latency-Aware Skill Selection and Timing in Dynamic Manipulation",
+      "summary": "Robots that manipulate moving objects act on observations that are outdated when the chosen skill starts, and the best skill can change within a few hundred milliseconds. Skill competence models, however, predict success for a launch at the moment of...",
+      "url": "https://arxiv.org/abs/2611.07964v1",
+      "date": "2026-11-05",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.07964v1",
+      "authors": "Mohsen Omidi, Maria Chiara Leva et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "GuidedWAM: Training-Free Energy Guidance for World Action Models in Autonomous Driving",
+      "summary": "World action models (WAMs) for autonomous driving couple the driving policy and the visual world model in a single generative network whose objectives are fixed post-training. Conditioning on a new driving objective requires retraining. We study ener...",
+      "url": "https://arxiv.org/abs/2611.07912v1",
+      "date": "2026-11-05",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.07912v1",
+      "authors": "Xiyan Su, Finn Rasmus Schäfer et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "XM4D: 4D Reconstruction through Certifiable Geometric Optimization",
+      "summary": "Accurate 4D reconstruction remains challenging: jointly estimating camera motion, scene geometry, and non-rigid deformation entails highly nonconvex optimization, making global optimality difficult to guarantee. We present XM4D, a framework for accur...",
+      "url": "https://arxiv.org/abs/2611.07902v1",
+      "date": "2026-11-05",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.07902v1",
+      "authors": "Haoyu Han, Jack Benarroch Jedlicki et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Structure from Collision via Hypothesis-Space Reasoning",
+      "summary": "Knowledge of the hidden interior structure of an object, including the presence and location of cavities, is essential for predictive simulation, robotic manipulation, and nondestructive inspection. However, such cavities leave no direct signature on...",
+      "url": "https://arxiv.org/abs/2611.07900v1",
+      "date": "2026-11-05",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.07900v1",
+      "authors": "Takuhiro Kaneko",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
     {
       "title": "[机器人抄果蝇“作业”？清华团队用果蝇大脑“接线图”，让 具 身 智 能 学会了自适应",
       "summary": "[机器人抄果蝇“作业”？清华团队用果蝇大脑“接线图”，让 具 身 智 能 学会了自适应",
@@ -19,6 +99,18 @@
       "summary": "[这 20 家机器人公司，吃掉了 具 身 智 能 融资的半壁江山",
       "url": "https://36kr.com/p/4053825059574656",
       "date": "2026-11-05",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
+      "title": "机器人大脑开始分道扬镳。",
+      "summary": "机器人大脑开始分道扬镳。",
+      "url": "https://36kr.com/p/4054216159958662",
+      "date": "2026-11-04",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
@@ -2956,99 +3048,6 @@
       "tags": [
         "机器人",
         "具身智能"
-      ]
-    },
-    {
-      "title": "国内近千家人形机器人企业，最终可能只留下10到20家。",
-      "summary": "国内近千家人形机器人企业，最终可能只留下10到20家。",
-      "url": "http://36kr.com/p/4017905608151174",
-      "date": "2026-10-09",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "人形机器人"
-      ]
-    },
-    {
-      "title": "Splat2Act: From Captured Scenes to Personalized VLA Manipulation",
-      "summary": "A user who brings a generalist manipulation policy into their home or office wants it to pick up their objects from their shelves, counters, and tables. Yet even a strong generalist like $π{0.5}$ achieves 0% pickup success in our captured deployment...",
-      "url": "https://arxiv.org/abs/2610.13945v1",
-      "date": "2026-10-09",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.13945v1",
-      "authors": "Xiaomeng Ye, Krishna Jaganathan et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Noise Space Learning for VLA Adaptation",
-      "summary": "Pretrained vision-language-action (VLA) models encode broad manipulation priors, yet adapting them to specific tasks requires balancing limited robot interaction, computational resources, and safety constraints. Noise space learning (NSL) adapts flow...",
-      "url": "https://arxiv.org/abs/2610.13943v1",
-      "date": "2026-10-09",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.13943v1",
-      "authors": "Junjie Lu, Chuheng Zhang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Chronos Policy: Learning Robot Policies on Physical Time",
-      "summary": "Robot policies often convert sensing and control into fixed-rate observation-action sequences, leaving physical time implicit in sequence position. This assumption breaks when observation rates or delays vary, or when inference latency changes. We in...",
-      "url": "https://arxiv.org/abs/2610.13929v1",
-      "date": "2026-10-09",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.13929v1",
-      "authors": "Changhao Wang, Jaden Clark et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Beyond the Snowflakes: Disentangling Weather Effects from Confounding Meta-Factors in LiDAR Object Detection",
-      "summary": "Light Detection and Ranging (LiDAR) is critical for autonomous perception, yet its performance is known to degrade in adverse weather. While existing literature models snow as atmospheric noise that degrades performance, our granular evaluation on th...",
-      "url": "https://arxiv.org/abs/2610.13891v1",
-      "date": "2026-10-09",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.13891v1",
-      "authors": "Yiming Yang, Jeremy P. Bos",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Tracking the Invisible: Self-Supervised Wheel Track Detection with Thermal-RGB Fusion",
-      "summary": "Accurate detection of drivable area is essential for autonomous driving and advanced driver assistance systems. While state-of-the-art methods focus on general traversability estimation, they prove inadequate for snow-covered roads where following ex...",
-      "url": "https://arxiv.org/abs/2610.13872v1",
-      "date": "2026-10-09",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.13872v1",
-      "authors": "Yiming Yang, Jeremy P. Bos",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
       ]
     }
   ]
