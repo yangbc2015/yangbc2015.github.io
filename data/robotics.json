@@ -3,6 +3,110 @@
   "count": 200,
   "items": [
     {
+      "title": "[机器人抄果蝇“作业”？清华团队用果蝇大脑“接线图”，让 具 身 智 能 学会了自适应",
+      "summary": "[机器人抄果蝇“作业”？清华团队用果蝇大脑“接线图”，让 具 身 智 能 学会了自适应",
+      "url": "https://36kr.com/p/4055087836091527",
+      "date": "2026-11-06",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
+      "title": "[这 20 家机器人公司，吃掉了 具 身 智 能 融资的半壁江山",
+      "summary": "[这 20 家机器人公司，吃掉了 具 身 智 能 融资的半壁江山",
+      "url": "https://36kr.com/p/4053825059574656",
+      "date": "2026-11-06",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
+      "title": "OopsieRecover: Learning Transferable VLA Corrections from Semantic Interventions",
+      "summary": "Vision-Language-Action (VLA) models can perform a wide range of robotic manipulation tasks, but often fail during deployment. Teaching them to recover from these failures requires substantial corrective data: existing approaches learn to recover from...",
+      "url": "https://arxiv.org/abs/2611.08462v1",
+      "date": "2026-11-05",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.08462v1",
+      "authors": "Arpit Bahety, Skand Peri et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Latent RL Priors for Data-Efficient Dexterous Manipulation",
+      "summary": "Learning dexterous manipulation from limited visual demonstrations is challenging because policies must acquire both perceptual grounding and precise control, while reinforcement learning (RL) in simulation can acquire rich control behaviors from lar...",
+      "url": "https://arxiv.org/abs/2611.08458v1",
+      "date": "2026-11-05",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.08458v1",
+      "authors": "Yixiao Wang, Peiyi Chen et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding",
+      "summary": "Models for physical AI tasks, such as robotics and autonomous driving, need not reason solely in language. They can use visual plans--points, bounding boxes, and trajectories--to represent spatial goals and anticipate motion. However, autoregressive ...",
+      "url": "https://arxiv.org/abs/2611.08449v1",
+      "date": "2026-11-05",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.08449v1",
+      "authors": "Yu-Cheng Chou, Shihao Wang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Failure Prediction and Classification in Vision-Language-Action Models Via Calibrated Latent Probing",
+      "summary": "Vision-Language-Action models (VLAs) enable general-purpose embodied intelligence, but their performance is brittle under distribution shift, where unanticipated failures can damage equipment or endanger people. Deploying VLAs in real-world systems t...",
+      "url": "https://arxiv.org/abs/2611.08425v1",
+      "date": "2026-11-05",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.08425v1",
+      "authors": "Michal P. Podolinsky, Yunhao Yang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "T3R: Training-Free Two-Stage Token Refinement Towards Efficient and Robust VLA Models",
+      "summary": "Vision-Language-Action (VLA) models enable end-to-end robot control, but inference is increasingly expensive. Each decision processes hundreds of visual tokens, often across multiple cameras, leading to substantial computation while allowing irreleva...",
+      "url": "https://arxiv.org/abs/2611.08413v1",
+      "date": "2026-11-05",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.08413v1",
+      "authors": "Mohammed Hassan, Zhenyang Chen et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
       "title": "Reversible Dynamics, Asymmetric Actions: Parking as a Trajectory-Level Affordance",
       "summary": "Drivers are often told to back into a tight parking space, not drive in nose first. The advice looks paradoxical, because a slow car is dynamically reversible: reverse its speed and replay the steering backward, and it retraces a feasible path. Playe...",
       "url": "https://arxiv.org/abs/2611.07965v1",
@@ -80,30 +184,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "[机器人抄果蝇“作业”？清华团队用果蝇大脑“接线图”，让 具 身 智 能 学会了自适应",
-      "summary": "[机器人抄果蝇“作业”？清华团队用果蝇大脑“接线图”，让 具 身 智 能 学会了自适应",
-      "url": "https://36kr.com/p/4055087836091527",
-      "date": "2026-11-05",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
-      ]
-    },
-    {
-      "title": "[这 20 家机器人公司，吃掉了 具 身 智 能 融资的半壁江山",
-      "summary": "[这 20 家机器人公司，吃掉了 具 身 智 能 融资的半壁江山",
-      "url": "https://36kr.com/p/4053825059574656",
-      "date": "2026-11-05",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
       ]
     },
     {
@@ -2974,80 +3054,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "Extending Wire-Driven Parallel Robots to Multi-Floating-Link Systems with an Inter-Body Wire",
-      "summary": "Parallel wire-driven systems are a framework in which multiple wires are connected to an end effector, and the end effector is driven by the tensions of those wires. Because they can transmit large forces, up to the breaking strength of the wires, ov...",
-      "url": "https://arxiv.org/abs/2610.16173v1",
-      "date": "2026-10-12",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.16173v1",
-      "authors": "Shintaro Inoue, Kento Kawaharazuka et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "FlowVLA: Enabling World Dynamics Understanding through Pluggable 3D Flow Learning",
-      "summary": "Recent advances in 3D reconstruction enable the extraction of temporally consistent 3D motion from RGB observations; however, current Vision-Language-Action (VLA) models still predominantly rely on 2D image-text priors. Therefore, they do not accurat...",
-      "url": "https://arxiv.org/abs/2610.16160v1",
-      "date": "2026-10-12",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.16160v1",
-      "authors": "Junhyeong Go, Mingyu Jung et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Directional Pullback Regularization for Long-Horizon Rollout of Latent World Models in Autonomous Driving",
-      "summary": "Learned world models for autonomous driving operate in unconstrained latent spaces, yet the physical systems they represent are governed by strict non-holonomic constraints: ground vehicles cannot realize instantaneous pure lateral motion. We study l...",
-      "url": "https://arxiv.org/abs/2610.16139v1",
-      "date": "2026-10-12",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.16139v1",
-      "authors": "Shatadal Mishra, Ahmadreza Moradipari et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "[GPT拆掉了「具身大脑」，Embodied PhyStack会是 具 身 智 能 的下一站吗？",
-      "summary": "[GPT拆掉了「具身大脑」，Embodied PhyStack会是 具 身 智 能 的下一站吗？",
-      "url": "http://36kr.com/p/4004465537519750",
-      "date": "2026-10-10",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "具身智能亟需真实世界数据基础设施，博登智能给出解决方案",
-      "summary": "具身智能亟需真实世界数据基础设施，博登智能给出解决方案",
-      "url": "http://36kr.com/p/4018441350811781",
-      "date": "2026-10-09",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
       ]
     }
   ]

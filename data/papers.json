@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-11-06",
-  "count": 10,
+  "count": 8,
   "items": [
     {
       "title": "SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimization",
@@ -38,32 +38,16 @@
       "source": "arXiv"
     },
     {
-      "title": "Automatic keyphrase extraction and annotation: modern theoretical approaches and practical solutions for text and speech",
-      "authors": "Daria Guseva, Olga Mitrofanova",
-      "abstract": "The exponential growth of textual and audiovisual information has made the task of automatic keyphrase extraction (KE) increasingly significant. This article provides a comprehensive analysis of contemporary theoretical approaches and practical solutions for KE across both text and speech modalities...",
+      "title": "Unpacking the Compute Efficiency of Strong-to-Weak OPD against GRPO",
+      "authors": "Zeyu Leo Liu, Yang Li, Bo Pang et al.",
+      "abstract": "On-policy distillation (OPD) trains a student on its own rollouts under a frozen teacher's per-token supervision. Does this dense signal reduce the training FLOPs needed to reach a target accuracy compared with reinforcement learning? We systematically compare vanilla reverse-KL OPD with Group Relat...",
       "venue": "arXiv",
       "date": "2026-11-05",
-      "arxiv_id": "2611.08006v1",
-      "url": "https://arxiv.org/abs/2611.08006v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.08006v1.pdf",
+      "arxiv_id": "2611.08453v1",
+      "url": "https://arxiv.org/abs/2611.08453v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.08453v1.pdf",
       "categories": [
-        "cs.CL",
-        "cs.HC"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Compression Through a Context Lens: Evaluating Adaptation, Quantization, and Distillation in Arabic Legal LLMs",
-      "authors": "Md. Rafiul Biswas, George Mikros, Wajdi Zaghouani",
-      "abstract": "Model compression can facilitate the deployment of large language models in resource-constrained legal settings, but its effects on domain-specific performance may depend on the evaluation protocol. We investigate this issue using ArabLegalEval, a Saudi Arabic legal benchmark, under both with-contex...",
-      "venue": "arXiv",
-      "date": "2026-11-05",
-      "arxiv_id": "2611.07988v1",
-      "url": "https://arxiv.org/abs/2611.07988v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.07988v1.pdf",
-      "categories": [
+        "cs.LG",
         "cs.CL"
       ],
       "type": "nlp",
@@ -103,66 +87,46 @@
       "source": "arXiv"
     },
     {
-      "title": "Towards Multiscale Molecular Representation Learning through Geometry-Based Fragmentation for Polymer Property Prediction",
-      "authors": "Makoto Takamoto, Chaitanya Sampara, Viktor Zaverkin et al.",
-      "abstract": "It is well established that molecular substructures can contribute unequally to chemical and physical properties, with specific motifs or side chains often playing dominant roles. Fragment-based representations have therefore emerged as an effective strategy for incorporating chemically meaningful i...",
+      "title": "User Embeddings are Superpositions of Interpretable Behavioral Modes",
+      "authors": "Jonathan Kozaczuk, Zheng Dong, Noyan Evirgen et al.",
+      "abstract": "User embeddings are central components of modern recommendation, personalization, and behavioral modeling systems. Though these embeddings can compactly encode rich behavioral information, they are inherently dense and opaque, limiting interpretability. To address this gap, we argue that user embedd...",
       "venue": "arXiv",
       "date": "2026-11-05",
-      "arxiv_id": "2611.07998v1",
-      "url": "https://arxiv.org/abs/2611.07998v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.07998v1.pdf",
+      "arxiv_id": "2611.08487v1",
+      "url": "https://arxiv.org/abs/2611.08487v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.08487v1.pdf",
       "categories": [
-        "cs.LG",
-        "cond-mat.mtrl-sci",
-        "physics.chem-ph"
+        "cs.LG"
       ],
       "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "QRAE: Query-Relevant Attention Entropy for Context Compression in DeepSearch Agents",
-      "authors": "Yingjie Tan, Haiquan Qiu, Quanming Yao et al.",
-      "abstract": "DeepSearch LLM agents repeatedly search and carry retrieved sources into subsequent reasoning steps. This expanding context increases token consumption and latency, although many results do not contribute to later reasoning. We propose Query-Relevant Attention Entropy (QRAE), an online context compr...",
+      "title": "OopsieRecover: Learning Transferable VLA Corrections from Semantic Interventions",
+      "authors": "Arpit Bahety, Skand Peri, Sriniket Ambatipudi et al.",
+      "abstract": "Vision-Language-Action (VLA) models can perform a wide range of robotic manipulation tasks, but often fail during deployment. Teaching them to recover from these failures requires substantial corrective data: existing approaches learn to recover from failures by directly associating corrective actio...",
       "venue": "arXiv",
       "date": "2026-11-05",
-      "arxiv_id": "2611.07976v1",
-      "url": "https://arxiv.org/abs/2611.07976v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.07976v1.pdf",
+      "arxiv_id": "2611.08462v1",
+      "url": "https://arxiv.org/abs/2611.08462v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.08462v1.pdf",
       "categories": [
-        "cs.LG"
+        "cs.RO"
       ],
-      "type": "nlp",
+      "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Reversible Dynamics, Asymmetric Actions: Parking as a Trajectory-Level Affordance",
-      "authors": "Adam Y. Shavit",
-      "abstract": "Drivers are often told to back into a tight parking space, not drive in nose first. The advice looks paradoxical, because a slow car is dynamically reversible: reverse its speed and replay the steering backward, and it retraces a feasible path. Played backward, though, reverse-in shows a car driving...",
+      "title": "Latent RL Priors for Data-Efficient Dexterous Manipulation",
+      "authors": "Yixiao Wang, Peiyi Chen, Mustafa Mukadam et al.",
+      "abstract": "Learning dexterous manipulation from limited visual demonstrations is challenging because policies must acquire both perceptual grounding and precise control, while reinforcement learning (RL) in simulation can acquire rich control behaviors from large-scale interaction with privileged information. ...",
       "venue": "arXiv",
       "date": "2026-11-05",
-      "arxiv_id": "2611.07965v1",
-      "url": "https://arxiv.org/abs/2611.07965v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.07965v1.pdf",
-      "categories": [
-        "q-bio.NC",
-        "cs.RO",
-        "math.OC"
-      ],
-      "type": "ai",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Time-Indexed Skill Success Models for Latency-Aware Skill Selection and Timing in Dynamic Manipulation",
-      "authors": "Mohsen Omidi, Maria Chiara Leva, Brian Vaughan",
-      "abstract": "Robots that manipulate moving objects act on observations that are outdated when the chosen skill starts, and the best skill can change within a few hundred milliseconds. Skill competence models, however, predict success for a launch at the moment of observation. We propose time-indexed skill succes...",
-      "venue": "arXiv",
-      "date": "2026-11-05",
-      "arxiv_id": "2611.07964v1",
-      "url": "https://arxiv.org/abs/2611.07964v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.07964v1.pdf",
+      "arxiv_id": "2611.08458v1",
+      "url": "https://arxiv.org/abs/2611.08458v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.08458v1.pdf",
       "categories": [
         "cs.RO"
       ],
