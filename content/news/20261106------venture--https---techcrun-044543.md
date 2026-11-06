@@ -1,6 +1,6 @@
 ---
 title: '*   [Venture](https://techcrunch.com/category/venture/)'
-date: '2026-10-31'
+date: '2026-11-06'
 type: industry
 source: TechCrunch
 link: https://techcrunch.com/category/artificial-intelligence/
