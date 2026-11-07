@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-11-07",
-  "count": 8,
+  "count": 6,
   "items": [
     {
       "title": "SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimization",
@@ -99,38 +99,6 @@
         "cs.LG"
       ],
       "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "OopsieRecover: Learning Transferable VLA Corrections from Semantic Interventions",
-      "authors": "Arpit Bahety, Skand Peri, Sriniket Ambatipudi et al.",
-      "abstract": "Vision-Language-Action (VLA) models can perform a wide range of robotic manipulation tasks, but often fail during deployment. Teaching them to recover from these failures requires substantial corrective data: existing approaches learn to recover from failures by directly associating corrective actio...",
-      "venue": "arXiv",
-      "date": "2026-11-05",
-      "arxiv_id": "2611.08462v1",
-      "url": "https://arxiv.org/abs/2611.08462v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.08462v1.pdf",
-      "categories": [
-        "cs.RO"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Latent RL Priors for Data-Efficient Dexterous Manipulation",
-      "authors": "Yixiao Wang, Peiyi Chen, Mustafa Mukadam et al.",
-      "abstract": "Learning dexterous manipulation from limited visual demonstrations is challenging because policies must acquire both perceptual grounding and precise control, while reinforcement learning (RL) in simulation can acquire rich control behaviors from large-scale interaction with privileged information. ...",
-      "venue": "arXiv",
-      "date": "2026-11-05",
-      "arxiv_id": "2611.08458v1",
-      "url": "https://arxiv.org/abs/2611.08458v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.08458v1.pdf",
-      "categories": [
-        "cs.RO"
-      ],
-      "type": "ai",
       "badge": "arxiv",
       "source": "arXiv"
     }
