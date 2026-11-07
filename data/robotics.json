@@ -1,12 +1,24 @@
 {
-  "last_updated": "2026-11-06",
+  "last_updated": "2026-11-07",
   "count": 200,
   "items": [
+    {
+      "title": "[成都 具 身 智 能 公司获千万级天使轮融资，基于开源鸿蒙开发机器人大脑｜硬氪首发",
+      "summary": "[成都 具 身 智 能 公司获千万级天使轮融资，基于开源鸿蒙开发机器人大脑｜硬氪首发",
+      "url": "https://36kr.com/p/4052696726328452",
+      "date": "2026-11-07",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
     {
       "title": "[机器人抄果蝇“作业”？清华团队用果蝇大脑“接线图”，让 具 身 智 能 学会了自适应",
       "summary": "[机器人抄果蝇“作业”？清华团队用果蝇大脑“接线图”，让 具 身 智 能 学会了自适应",
       "url": "https://36kr.com/p/4055087836091527",
-      "date": "2026-11-06",
+      "date": "2026-11-07",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
@@ -104,6 +116,32 @@
         "机器人学习",
         "研究论文",
         "arXiv"
+      ]
+    },
+    {
+      "title": "2026Q3具身智能观察：行业阶段性调整，需深挖价值",
+      "summary": "2026Q3具身智能观察：行业阶段性调整，需深挖价值",
+      "url": "https://36kr.com/p/4056615759680648",
+      "date": "2026-11-05",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "数采爆单，具身大脑公司慌了。",
+      "summary": "数采爆单，具身大脑公司慌了。",
+      "url": "https://36kr.com/p/4056188657275785",
+      "date": "2026-11-05",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
       ]
     },
     {
@@ -3009,51 +3047,6 @@
       "tags": [
         "机器人",
         "具身智能"
-      ]
-    },
-    {
-      "title": "具身智能业务营收占比5%",
-      "summary": "具身智能业务营收占比5%",
-      "url": "http://36kr.com/p/4021056223500163",
-      "date": "2026-10-12",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "MSC: Multi-Stage Caster-aware Control Framework with Uncertainty-Aware NMPC and RL-based Execution Layer",
-      "summary": "Freely swiveling casters are widely adopted in industrial AMRs/SDVs for their mechanical simplicity and load capacity. However, caster misalignment during low-speed or high-curvature maneuvers induces strong contact nonlinearities, widening the plann...",
-      "url": "https://arxiv.org/abs/2610.16199v1",
-      "date": "2026-10-12",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.16199v1",
-      "authors": "Jinho Park, Jeongtae Lee et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "One-Shot Learning for Double-Shot Latte Art: Adapting Cobot Pouring Skills with Dynamic Movement Primitives",
-      "summary": "Latte art is a complex task requiring dexterity and precision, making it a challenging and commercially relevant task. A one-shot learning system is employed in which a single barista demonstration is segmented into five functionally distinct phases,...",
-      "url": "https://arxiv.org/abs/2610.16179v1",
-      "date": "2026-10-12",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.16179v1",
-      "authors": "Zain Khan, Victor Hernandez Moreno et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
       ]
     }
   ]
