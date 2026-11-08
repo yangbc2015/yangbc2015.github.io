@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-11-08",
-  "count": 8,
+  "count": 7,
   "items": [
     {
       "title": "SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimization",
@@ -32,23 +32,6 @@
         "cs.AI",
         "cs.CL",
         "cs.LG"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Unpacking the Compute Efficiency of Strong-to-Weak OPD against GRPO",
-      "authors": "Zeyu Leo Liu, Yang Li, Bo Pang et al.",
-      "abstract": "On-policy distillation (OPD) trains a student on its own rollouts under a frozen teacher's per-token supervision. Does this dense signal reduce the training FLOPs needed to reach a target accuracy compared with reinforcement learning? We systematically compare vanilla reverse-KL OPD with Group Relat...",
-      "venue": "arXiv",
-      "date": "2026-11-05",
-      "arxiv_id": "2611.08453v1",
-      "url": "https://arxiv.org/abs/2611.08453v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.08453v1.pdf",
-      "categories": [
-        "cs.LG",
-        "cs.CL"
       ],
       "type": "nlp",
       "badge": "arxiv",
