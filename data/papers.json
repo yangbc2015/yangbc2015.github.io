@@ -1,5 +1,123 @@
 {
   "last_updated": "2026-11-09",
-  "count": 0,
-  "items": []
+  "count": 7,
+  "items": [
+    {
+      "title": "On Agentic Manipulation Policies",
+      "authors": "Chen Chen, Omid Bagherieh, Naveen Nikamanth Appiah Balaji et al.",
+      "abstract": "Recent work on robot manipulation has focused on specialist policies trained on demonstrations. We show that generalist AI models can control manipulators more reliably than specialist policies such as vision-language-action models (VLAs) and world-action models (WAMs). We systematically analyze age...",
+      "venue": "arXiv",
+      "date": "2026-11-06",
+      "arxiv_id": "2611.09892v1",
+      "url": "https://arxiv.org/abs/2611.09892v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.09892v1.pdf",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "CPU-ARC: Agentic Reasoning Caching for on-CPU Reasoning Reuse",
+      "authors": "Peter Belcak, Greg Heinrich, Saurav Muralidharan et al.",
+      "abstract": "Large language models reinvent the wheel all the time. They conflate task-solving with the execution of the solutions, which forces them to solve every problem from scratch. We show that once a task has been reasoned through, the application of its solution to a new problem instance can be done very...",
+      "venue": "arXiv",
+      "date": "2026-11-06",
+      "arxiv_id": "2611.09891v1",
+      "url": "https://arxiv.org/abs/2611.09891v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.09891v1.pdf",
+      "categories": [
+        "cs.AI"
+      ],
+      "type": "ai",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "CodeQuant2: Enhanced Outlier Mitigation and Adaptive Clustering for Low-Precision LRMs",
+      "authors": "Xingyu Liu, Xiangyang Yin, Tianhua Xia et al.",
+      "abstract": "Large reasoning models (LRMs) improve task performance by generating longer intermediate reasoning traces, but this substantially increases inference costs and makes low-precision quantization increasingly important. However, aggressively quantized models often perform poorly on reasoning tasks. We ...",
+      "venue": "arXiv",
+      "date": "2026-11-06",
+      "arxiv_id": "2611.09868v1",
+      "url": "https://arxiv.org/abs/2611.09868v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.09868v1.pdf",
+      "categories": [
+        "cs.CL"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "How far does a hash-only sender go? A pre-registered map of sender memory versus bits for short text messages",
+      "authors": "Marcelo Samoilenko",
+      "abstract": "Can a sender that only computes hashes, with a language model only at the receiver, transmit short human text more cheaply than a classical sender trained on the same domain? We answer with one pre-registered run on 1,000 English user utterances from Taskmaster-1. The primary endpoint is the cost pe...",
+      "venue": "arXiv",
+      "date": "2026-11-06",
+      "arxiv_id": "2611.09848v1",
+      "url": "https://arxiv.org/abs/2611.09848v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.09848v1.pdf",
+      "categories": [
+        "cs.IT",
+        "cs.CL"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Video-Coder: Reinforcing Agentic Coding for Video Generation",
+      "authors": "Chaoyang Wang, Sicheng Gao, Junan Hu et al.",
+      "abstract": "Recent years have witnessed remarkable progress in video generation in terms of visual quality and temporal consistency. However, generating videos with precise spatial structure, coherent motion dynamics, and controllable scene composition remains challenging. In this paper, we introduce Video-Code...",
+      "venue": "arXiv",
+      "date": "2026-11-06",
+      "arxiv_id": "2611.09894v1",
+      "url": "https://arxiv.org/abs/2611.09894v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.09894v1.pdf",
+      "categories": [
+        "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "On the (non-)closedness of the set of ReLU networks",
+      "authors": "Eloi Martinet, Leon Bungert",
+      "abstract": "We prove that the set $\\mathcal{N}_N$ of ReLU networks with one hidden layer and at most $N\\in\\mathbb N$ neurons is weakly closed in $W^{1,p}(Ω)$, for a bounded connected open set $Ω\\subset\\mathbb R^d$. Consequently, every coercive, weakly lower semicontinuous energy on this space attains its minimu...",
+      "venue": "arXiv",
+      "date": "2026-11-06",
+      "arxiv_id": "2611.09887v1",
+      "url": "https://arxiv.org/abs/2611.09887v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.09887v1.pdf",
+      "categories": [
+        "cs.LG",
+        "math.CA",
+        "math.FA"
+      ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Scenario Orchestration for Closed-loop Policy Evaluation of Autonomous Driving",
+      "authors": "Frieda Rong, Zhaoyue Wang, Veer Kapadia et al.",
+      "abstract": "Scenario-based simulation is central to evaluating autonomous-driving policies, but a scenario scripted before execution (i.e., with predetermined, fixed actor routes and speeds) may not preserve its intended interaction once the tested ego policy responds in closed loop. Scripted scenarios cannot a...",
+      "venue": "arXiv",
+      "date": "2026-11-06",
+      "arxiv_id": "2611.09888v1",
+      "url": "https://arxiv.org/abs/2611.09888v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.09888v1.pdf",
+      "categories": [
+        "cs.RO"
+      ],
+      "type": "benchmark",
+      "badge": "arxiv",
+      "source": "arXiv"
+    }
+  ]
 }
