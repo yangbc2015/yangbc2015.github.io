@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-11-08",
+  "last_updated": "2026-11-09",
   "count": 200,
   "items": [
     {
       "title": "[成都 具 身 智 能 公司获千万级天使轮融资，基于开源鸿蒙开发机器人大脑｜硬氪首发",
       "summary": "[成都 具 身 智 能 公司获千万级天使轮融资，基于开源鸿蒙开发机器人大脑｜硬氪首发",
       "url": "https://36kr.com/p/4052696726328452",
-      "date": "2026-11-07",
+      "date": "2026-11-09",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
@@ -18,12 +18,92 @@
       "title": "[机器人抄果蝇“作业”？清华团队用果蝇大脑“接线图”，让 具 身 智 能 学会了自适应",
       "summary": "[机器人抄果蝇“作业”？清华团队用果蝇大脑“接线图”，让 具 身 智 能 学会了自适应",
       "url": "https://36kr.com/p/4055087836091527",
-      "date": "2026-11-07",
+      "date": "2026-11-09",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
       "tags": [
         "机器人"
+      ]
+    },
+    {
+      "title": "Mechanical Interaction Sensing for Robotic Kiwifruit Handling with an Optoelectronic Soft Suction Cup",
+      "summary": "Robotic handling of delicate fruit benefits from compliant contact and quantitative sensing of the mechanical interaction at the end-effector. This study investigates an optoelectronic soft suction cup with a kiwifruit-specific bicomponent design for...",
+      "url": "https://arxiv.org/abs/2611.09468v1",
+      "date": "2026-11-06",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.09468v1",
+      "authors": "Romina Adhami, Ebrahim Shahabi et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Can LLMs Debug Robots by Editing Their Weights?",
+      "summary": "A language model can repair a robot policy's lexical instruction grounding by editing just 65 token-embedding rows. We bring weight-space programming to robot foundation policies: GPT-6 Astra reads weights and uses a CPU workspace and budgeted simula...",
+      "url": "https://arxiv.org/abs/2611.09376v1",
+      "date": "2026-11-06",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.09376v1",
+      "authors": "Jusheng Zhang, Keze Wang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Horizon-Coupled Obstacle Guidance for Relative-Action Diffusion Policies",
+      "summary": "Real-world robot deployment requires adapting learned policies to unseen obstacles without collecting new demonstrations or retraining. Existing policy-level guidance often applies obstacle corrections independently at individual horizon steps, which...",
+      "url": "https://arxiv.org/abs/2611.09340v1",
+      "date": "2026-11-06",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.09340v1",
+      "authors": "Guangyuan Wang, Haishan Xia et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "MDF++: Visuo-Tactile World Action Model with End-to-end Representation Learning",
+      "summary": "Recently, world-action models (WAMs) have emerged as a powerful framework for robot manipulation. By jointly modeling action generation and future observation prediction, WAMs can act and anticipate the outcomes of the actions. However, existing WAMs...",
+      "url": "https://arxiv.org/abs/2611.09293v1",
+      "date": "2026-11-06",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.09293v1",
+      "authors": "Zixuan Huang, Jinhao Yu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Task-Driven Closed-Loop Design Optimization of Passively Morphing Quadrotors for Contact-Mediated Narrow Gap Traversal",
+      "summary": "Aerial robots operating in cluttered environments may encounter openings narrower than their nominal width. Existing passively morphing drones reduce their width upon traversal, but they typically involve human-made designs, which can struggle to fin...",
+      "url": "https://arxiv.org/abs/2611.09272v1",
+      "date": "2026-11-06",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.09272v1",
+      "authors": "Etor Arza, Luca Girardi et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
       ]
     },
     {
@@ -48,6 +128,32 @@
       "type": "news",
       "tags": [
         "机器人"
+      ]
+    },
+    {
+      "title": "2026Q3具身智能观察：行业阶段性调整，需深挖价值",
+      "summary": "2026Q3具身智能观察：行业阶段性调整，需深挖价值",
+      "url": "https://36kr.com/p/4056615759680648",
+      "date": "2026-11-05",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "数采爆单，具身大脑公司慌了。",
+      "summary": "数采爆单，具身大脑公司慌了。",
+      "url": "https://36kr.com/p/4056188657275785",
+      "date": "2026-11-05",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
       ]
     },
     {
@@ -128,32 +234,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "2026Q3具身智能观察：行业阶段性调整，需深挖价值",
-      "summary": "2026Q3具身智能观察：行业阶段性调整，需深挖价值",
-      "url": "https://36kr.com/p/4056615759680648",
-      "date": "2026-11-05",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "数采爆单，具身大脑公司慌了。",
-      "summary": "数采爆单，具身大脑公司慌了。",
-      "url": "https://36kr.com/p/4056188657275785",
-      "date": "2026-11-05",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
       ]
     },
     {
@@ -2969,83 +3049,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "LoopWAM: Closed-Loop Generalist Policy Improvement from Deployment Rollouts",
-      "summary": "Scaling expert demonstrations alone does not enable generalist robot policies to improve from deployment. Real-world rollouts contain successes, suboptimal behavior, and failures: imitating every recorded action can reinforce poor behavior, while fil...",
-      "url": "https://arxiv.org/abs/2610.18873v1",
-      "date": "2026-10-13",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.18873v1",
-      "authors": "Wenxuan Guo, Yingping Liang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "EgoExplorer: A Vision-Motion-Touch Observatory for Human Loco-Manipulation In Situ",
-      "summary": "Learning humanoid loco-manipulation from human demonstrations rests on observing how locomotion, posture, and object interaction evolve together as tasks unfold. Scaling collection across diverse environments, in turn, favors lightweight, portable ca...",
-      "url": "https://arxiv.org/abs/2610.18872v1",
-      "date": "2026-10-13",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.18872v1",
-      "authors": "Yunsong Zhou, Xuekun Jiang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "What Matters in Quality-Aware VLA Pretraining: A Benchmark and Empirical Study",
-      "summary": "How should demonstration quality be used during vision-language-action (VLA) pretraining to improve performance after target-task fine-tuning? We compare weighting, filtering, and conditioning across reward definitions and label granularities using 5...",
-      "url": "https://arxiv.org/abs/2610.18869v1",
-      "date": "2026-10-13",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.18869v1",
-      "authors": "Mingxuan Yan, Litian Gong et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "EmbodiedEvo: Self-improving Coding Agents for Physical Intelligence",
-      "summary": "Bringing general-purpose agents into the physical world calls for an executable representation of physical intelligence. Compared with vision-language-action (VLA) models, which map observations and language instructions directly to actions, code mak...",
-      "url": "https://arxiv.org/abs/2610.18867v1",
-      "date": "2026-10-13",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.18867v1",
-      "authors": "Wenyi Li, Yizhe Chi et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "[具身进实景，劳动最光荣！2026全球开发者先锋大会暨国际 具 身 智 能 技能大赛媒体通气会召开",
-      "summary": "[具身进实景，劳动最光荣！2026全球开发者先锋大会暨国际 具 身 智 能 技能大赛媒体通气会召开",
-      "url": "http://36kr.com/p/4016591460339584",
-      "date": "2026-10-13",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
       ]
     }
   ]
