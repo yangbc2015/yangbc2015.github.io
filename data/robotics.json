@@ -27,6 +27,98 @@
       ]
     },
     {
+      "title": "Beyond Memory Limits: A Hierarchical Spatio-Temporal Map Representation for Large-Scale 3D Autonomous Exploration",
+      "summary": "Autonomous UAV exploration is increasingly used for large-scale surveying and inspection in inaccessible or disaster-affected environments, where onboard memory and computational resources are often severely constrained. Most existing UAV exploration...",
+      "url": "https://arxiv.org/abs/2611.11489v1",
+      "date": "2026-11-08",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.11489v1",
+      "authors": "Yizhe Zhang, Jianping Li et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Off-Policy RL with Online Inference Tuning: My Solution to the CoRL 2026 RoboEval Challenge",
+      "summary": "The CoRL 2026 RoboEval challenge has eight bimanual tasks, and it ranks a policy not only on whether it succeeds but on how: every stage of the task, done safely, efficiently and with both arms in coordination, scored against human demonstrations. My...",
+      "url": "https://arxiv.org/abs/2611.11464v1",
+      "date": "2026-11-08",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.11464v1",
+      "authors": "Ilia Larchenko",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "When Coding Agents Get Arms: Safety Risks Across the Digital-Physical Boundary",
+      "summary": "Advances in spatial understanding have enabled frontier models to power coding agents that control a real robot arm zero-shot and end-to-end, without task-specific demonstrations or retraining. This brings two new safety challenges. First, the extens...",
+      "url": "https://arxiv.org/abs/2611.11438v1",
+      "date": "2026-11-08",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.11438v1",
+      "authors": "Yiming Sun, Mi Zhang",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Single-Radar Bilateral 3D Near-Field Imaging for Mobile Robots",
+      "summary": "Mobile robots operating in homes need reliable 3D perception of nearby furniture and surrounding structures, yet recovering this information on both sides of the robot's path with a single forward-mounted millimeter-wave radar remains challenging bec...",
+      "url": "https://arxiv.org/abs/2611.11296v1",
+      "date": "2026-11-08",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.11296v1",
+      "authors": "Yingqi Wang, Tingwei Chen et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Cable construction effects on the lateral forces and wakes of helically stranded cables under oblique inflow",
+      "summary": "Helically stranded cables in aerial towing systems experience oblique inflow, but are often modeled as smooth cylinders, neglecting three-dimensional cross-stream coupling and surface texture. We perform large-eddy simulations and spectral proper ort...",
+      "url": "https://arxiv.org/abs/2611.11286v1",
+      "date": "2026-11-08",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.11286v1",
+      "authors": "Tielin Ma, Junlin Zhang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "从课程开发到实验室共建，机器人企业如何布局教育市场？",
+      "summary": "从课程开发到实验室共建，机器人企业如何布局教育市场？",
+      "url": "https://36kr.com/p/4056842741027714",
+      "date": "2026-11-06",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
       "title": "On Agentic Manipulation Policies",
       "summary": "Recent work on robot manipulation has focused on specialist policies trained on demonstrations. We show that generalist AI models can control manipulators more reliably than specialist policies such as vision-language-action models (VLAs) and world-a...",
       "url": "https://arxiv.org/abs/2611.09892v1",
@@ -104,18 +196,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "从课程开发到实验室共建，机器人企业如何布局教育市场？",
-      "summary": "从课程开发到实验室共建，机器人企业如何布局教育市场？",
-      "url": "https://36kr.com/p/4056842741027714",
-      "date": "2026-11-06",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
       ]
     },
     {
@@ -2988,78 +3068,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "Figure AI发布新一代人形机器人Figure 02，具备更强的自主学习能力",
-      "summary": "Figure AI发布新一代人形机器人Figure 02，搭载最新视觉-语言-动作(VLA)模型，在工厂和仓储场景实现更高水平的自主操作。",
-      "url": "https://www.figure.ai",
-      "date": "2026-10-14",
-      "source": "行业动态",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "人形机器人",
-        "Figure"
-      ]
-    },
-    {
-      "title": "特斯拉Optimus人形机器人量产计划加速，预计2025年交付首批产品",
-      "summary": "马斯克表示Optimus人形机器人量产计划正在加速，特斯拉工厂已开始测试机器人执行简单装配任务。",
-      "url": "https://www.tesla.com/optimus",
-      "date": "2026-10-14",
-      "source": "行业动态",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "人形机器人",
-        "Optimus",
-        "特斯拉"
-      ]
-    },
-    {
-      "title": "宇树科技发布Unitree G1人形机器人，价格9.9万元起",
-      "summary": "宇树科技发布新一代人形机器人G1，身高约127cm，体重约35kg，具备23个自由度，面向教育和科研市场。",
-      "url": "https://www.unitree.com",
-      "date": "2026-10-14",
-      "source": "行业动态",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "人形机器人",
-        "宇树科技"
-      ]
-    },
-    {
-      "title": "英伟达发布GR00T人形机器人基础模型，为机器人提供大脑",
-      "summary": "NVIDIA发布人形机器人通用基础模型GR00T，结合Isaac Sim仿真平台，加速人形机器人开发。",
-      "url": "https://developer.nvidia.com/isaac",
-      "date": "2026-10-14",
-      "source": "行业动态",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能",
-        "英伟达",
-        "GR00T"
-      ]
-    },
-    {
-      "title": "智元机器人发布远征A2人形机器人，进入工业场景实测",
-      "summary": "智元机器人发布远征A2人形机器人，已在汽车工厂进行实际生产任务测试，展示零部件装配能力。",
-      "url": "https://www.zhiyuanrobot.com",
-      "date": "2026-10-14",
-      "source": "行业动态",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "人形机器人",
-        "智元机器人"
       ]
     }
   ]

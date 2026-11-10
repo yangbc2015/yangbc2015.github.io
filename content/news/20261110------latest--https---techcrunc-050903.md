@@ -1,6 +1,6 @@
 ---
 title: '*   [Latest](https://techcrunch.com/latest/)'
-date: '2026-11-04'
+date: '2026-11-10'
 type: industry
 source: TechCrunch
 link: https://techcrunch.com/category/artificial-intelligence/
