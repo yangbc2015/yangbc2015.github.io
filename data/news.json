@@ -1,14 +1,38 @@
 {
-  "last_updated": "2026-11-09",
+  "last_updated": "2026-11-10",
   "count": 200,
-  "history_count": 204,
+  "history_count": 202,
   "retention_days": 30,
   "items": [
+    {
+      "title": "投毒 → 耗尽预算 → 诱导误判",
+      "link": "https://www.qbitai.com/?s=投毒 → 耗尽预算 ",
+      "summary": "投毒 → 耗尽预算 → 诱导误判...",
+      "date": "2026-11-10",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "在训练阶段主动锁死了新模型RSI能力",
+      "link": "https://www.qbitai.com/?s=在训练阶段主动锁死了",
+      "summary": "在训练阶段主动锁死了新模型RSI能力...",
+      "date": "2026-11-10",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
     {
       "title": "香港金融科技周 x StartmeupHK 2026十一月六日圆满结束。",
       "link": "https://www.qbitai.com/?s=香港金融科技周 x ",
       "summary": "香港金融科技周 x StartmeupHK 2026十一月六日圆满结束。...",
-      "date": "2026-11-09",
+      "date": "2026-11-10",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -20,7 +44,7 @@
       "title": "11月9日，百度文心首次披露 RSI 最新进展",
       "link": "https://www.qbitai.com/?s=11月9日，百度文心",
       "summary": "11月9日，百度文心首次披露 RSI 最新进展...",
-      "date": "2026-11-09",
+      "date": "2026-11-10",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -32,12 +56,24 @@
       "title": "11月9日，千问办公发布2.0版本",
       "link": "https://www.qbitai.com/?s=11月9日，千问办公",
       "summary": "11月9日，千问办公发布2.0版本...",
-      "date": "2026-11-09",
+      "date": "2026-11-10",
       "source": "量子位",
       "type": "industry",
       "tags": [
         "AI",
         "人工智能"
+      ]
+    },
+    {
+      "title": "Final URL: https://techcrunch.com/category/artificial-intelligence/",
+      "link": "https://techcrunch.com/category/artificial-intelligence/",
+      "summary": "Final URL: https://techcrunch.com/category/artificial-intelligence/...",
+      "date": "2026-11-10",
+      "source": "TechCrunch",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "Artificial Intelligence"
       ]
     },
     {
@@ -62,18 +98,6 @@
       "tags": [
         "AI",
         "人工智能"
-      ]
-    },
-    {
-      "title": "Final URL: https://techcrunch.com/category/artificial-intelligence/",
-      "link": "https://techcrunch.com/category/artificial-intelligence/",
-      "summary": "Final URL: https://techcrunch.com/category/artificial-intelligence/...",
-      "date": "2026-11-09",
-      "source": "TechCrunch",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "Artificial Intelligence"
       ]
     },
     {
@@ -2374,30 +2398,6 @@
       "summary": "刚刚，谷歌发布Gemini 4 Argon：单次输出上限达100万Token...",
       "date": "2026-10-01",
       "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "看一遍就会，三星&上交提出RoboICL新方法，GPT-6 Astra多项机器人操控评测全面领先",
-      "link": "https://www.jiqizhixin.com/search/articles/看一遍就会，三星&上交提出Ro",
-      "summary": "看一遍就会，三星&上交提出RoboICL新方法，GPT-6 Astra多项机器人操控评测全面领先...",
-      "date": "2026-10-01",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "推动公司具身模型、本体、软件等全栈能力进入更多真实场景",
-      "link": "https://www.qbitai.com/?s=推动公司具身模型、本",
-      "summary": "推动公司具身模型、本体、软件等全栈能力进入更多真实场景...",
-      "date": "2026-10-01",
-      "source": "量子位",
       "type": "industry",
       "tags": [
         "AI",

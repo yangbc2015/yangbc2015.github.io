@@ -1,11 +1,11 @@
 {
-  "last_updated": "2026-11-09T14:56:18.409344+00:00",
+  "last_updated": "2026-11-10T01:04:35.852745+00:00",
   "source": "Artificial Analysis",
   "source_url": "https://artificialanalysis.ai/leaderboards/models",
   "description": "综合AI模型性能排行榜，基于智能指数、价格、输出速度、上下文窗口等多维度指标对模型进行评测。",
   "models": [
     {
-      "rank": 4,
+      "rank": 7,
       "model": "Claude Opus 5.5",
       "organization": "Anthropic",
       "intelligence_index": 0,
@@ -17,7 +17,7 @@
       "icon": "⚡"
     },
     {
-      "rank": 6,
+      "rank": 9,
       "model": "Claude Opus 5.5",
       "organization": "Anthropic",
       "intelligence_index": 0,
@@ -29,7 +29,7 @@
       "icon": "⚡"
     },
     {
-      "rank": 11,
+      "rank": 15,
       "model": "Claude Sonnet 5.5",
       "organization": "Anthropic",
       "intelligence_index": 0,
@@ -41,7 +41,7 @@
       "icon": "⚡"
     },
     {
-      "rank": 14,
+      "rank": 19,
       "model": "Claude Opus 5.5",
       "organization": "Anthropic",
       "intelligence_index": 0,
