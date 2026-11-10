@@ -3,6 +3,18 @@
   "count": 200,
   "items": [
     {
+      "title": "[机器人抄果蝇“作业”？清华团队用果蝇大脑“接线图”，让 具 身 智 能 学会了自适应",
+      "summary": "[机器人抄果蝇“作业”？清华团队用果蝇大脑“接线图”，让 具 身 智 能 学会了自适应",
+      "url": "https://36kr.com/p/4055087836091527",
+      "date": "2026-11-10",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
       "title": "[成都 具 身 智 能 公司获千万级天使轮融资，基于开源鸿蒙开发机器人大脑｜硬氪首发",
       "summary": "[成都 具 身 智 能 公司获千万级天使轮融资，基于开源鸿蒙开发机器人大脑｜硬氪首发",
       "url": "https://36kr.com/p/4052696726328452",
@@ -15,15 +27,83 @@
       ]
     },
     {
-      "title": "[机器人抄果蝇“作业”？清华团队用果蝇大脑“接线图”，让 具 身 智 能 学会了自适应",
-      "summary": "[机器人抄果蝇“作业”？清华团队用果蝇大脑“接线图”，让 具 身 智 能 学会了自适应",
-      "url": "https://36kr.com/p/4055087836091527",
-      "date": "2026-11-10",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
+      "title": "World In-Context Learning for Agentic Robot Manipulation",
+      "summary": "Trained action policies write manipulation skill into network weights, tying what is learned to the distribution it is learned from. In-context learning (ICL) avoids this coupling but has not matched trained policies, because a demonstration recorded...",
+      "url": "https://arxiv.org/abs/2611.12885v1",
+      "date": "2026-11-09",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.12885v1",
+      "authors": "Heng Fang, Zehui Guo et al.",
       "tags": [
-        "机器人"
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "SWAM: Scaling World Action Models with Cross-Modal Alignment",
+      "summary": "World action models jointly predict video and actions conditioned on language. Existing studies focus primarily on architectures and training mechanisms, typically treating language-video alignment acquired through video pretraining as an established...",
+      "url": "https://arxiv.org/abs/2611.12870v1",
+      "date": "2026-11-09",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.12870v1",
+      "authors": "Yu Zhou, Xinyuan Xia et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "DreamLander: A 6-DOF World Model based Reinforcement Learning Planetary Lander",
+      "summary": "Soft powered descent landings are becoming evermore important in the field of space exploration and scientific advancement, because of their ability to deliver mission critical payloads, both highly accurately and safely. The high efficiency restrict...",
+      "url": "https://arxiv.org/abs/2611.12824v1",
+      "date": "2026-11-09",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.12824v1",
+      "authors": "George Nehma, Patrick Quinn et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Simulating Vein Compressibility for Ultrasound-Guided Femoral Access: Speed, Accuracy, and Phantom Validation",
+      "summary": "In ultrasound-guided femoral access, probe pressure deforms the tissue and changes the vascular anatomy a robot observes. A simulator must reproduce these mechanics fast enough for robotic interaction, yet the computational effort needed for a clinic...",
+      "url": "https://arxiv.org/abs/2611.12818v1",
+      "date": "2026-11-09",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.12818v1",
+      "authors": "Amit Manicka, Laurent Coulon et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Learning Heterogeneous Tactile Representation for General Dexterous Manipulation",
+      "summary": "Tactile sensing is an indispensable modality for contact-rich dexterous manipulation, a capability that hints at the ultimate frontiers of embodied intelligence. However, commercially available tactile sensors are still at a relatively early stage of...",
+      "url": "https://arxiv.org/abs/2611.12806v1",
+      "date": "2026-11-09",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.12806v1",
+      "authors": "Bing Han, Yichuan Peng et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
       ]
     },
     {
@@ -2988,86 +3068,6 @@
       "tags": [
         "机器人",
         "具身智能"
-      ]
-    },
-    {
-      "title": "SafeDriveVLA: Navigation-Conditioned World Model Dreaming for Conflict-Aware End-to-End Autonomous Driving",
-      "summary": "Vision-Language-Action (VLA) models are gaining attention in autonomous driving, inheriting commonsense priors from large language models (LLMs) and widening the navigation interface from a fixed command set to free-form natural-language instructions...",
-      "url": "https://arxiv.org/abs/2610.20609v1",
-      "date": "2026-10-14",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.20609v1",
-      "authors": "Shaoyuan Xie, Zihan Zhang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Modeling and Understanding Neural Weights of Humanoid Policies with Diffusion",
-      "summary": "Recent advances in robot learning have driven rapid progress in humanoid control, enabling increasingly agile behaviors in the real world. However, humanoid control networks are typically obtained through conventional training procedures, while compa...",
-      "url": "https://arxiv.org/abs/2610.20606v1",
-      "date": "2026-10-14",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.20606v1",
-      "authors": "Huixuan Cheng, Bike Zhang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Hierarchical Residual Policy Learning for Real-World Mobile Manipulation with Sparse Human Guidance",
-      "summary": "Mobile Manipulation (MoMa) is a cornerstone of autonomous robotic systems, yet real-world fine-tuning remains a formidable challenge because of high-dimensional action spaces and intricate coupling between heterogeneous modules. In this paper, we pro...",
-      "url": "https://arxiv.org/abs/2610.20607v1",
-      "date": "2026-10-14",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.20607v1",
-      "authors": "Zhefei Gong, Hefeifei Jiang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "CoWear: Towards Collaborative Wearable Inertial Localization with Multiple Smart Devices",
-      "summary": "Consumer smart devices observe the same human motion from different body locations, yet existing inertial-localization benchmarks rarely provide synchronized heterogeneous wearables with device-specific motion ground truth. We present CoWear, a datas...",
-      "url": "https://arxiv.org/abs/2610.20596v1",
-      "date": "2026-10-14",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.20596v1",
-      "authors": "Zhuoyuan She, Zhanpeng Zhang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "PingpongDuo: Agile Humanoid Table Tennis Doubles with Safe Team Coordination",
-      "summary": "Unlike singles, humanoid table tennis doubles requires teammates to strike in strict alternation while sharing a confined workspace. Rapid repositioning can compromise striking accuracy, while uncoordinated teammate movements introduce collision risk...",
-      "url": "https://arxiv.org/abs/2610.20579v1",
-      "date": "2026-10-14",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.20579v1",
-      "authors": "Haoran Jiang, Yichao Zhong et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
       ]
     }
   ]

@@ -1,50 +1,53 @@
 {
   "last_updated": "2026-11-10",
-  "count": 10,
+  "count": 4,
   "items": [
     {
-      "title": "SMO: Compiling Natural Language Skills into Graphs of Reusable State-Move-Outcome Bricks",
-      "authors": "Chao Chen, Jiashuo Zhang, Yunhang Shen et al.",
-      "abstract": "Large language model agents increasingly rely on reusable natural-language skills, yet growing skill collections remain accumulations of isolated text artifacts that are difficult to compare, deduplicate, and compose. We argue that the reusable content of a skill lies not in its surface wording but ...",
+      "title": "HiVe-Mem: Interleaving Horizontal Memory Expansion and Vertical Evidence Composition for Multimodal Agents",
+      "authors": "Haozhen Zhang, Bohan Liu, Jianzhu Bao et al.",
+      "abstract": "As multimodal agents accumulate increasingly long interaction histories, effectively retrieving and utilizing past information becomes critical for long-term interaction. Existing memory systems typically rely on semantic retrieval over compressed memories and expose predefined representations, whic...",
       "venue": "arXiv",
       "date": "2026-11-09",
-      "arxiv_id": "2611.12041v1",
-      "url": "https://arxiv.org/abs/2611.12041v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.12041v1.pdf",
+      "arxiv_id": "2611.12872v1",
+      "url": "https://arxiv.org/abs/2611.12872v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.12872v1.pdf",
       "categories": [
-        "cs.CL"
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
       ],
       "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "A generalized transition framework for identifying reduction domains in non-binary constituency parsing",
-      "authors": "Jungyeul Park, Zihao Huang, Eunkyul Leah Jo",
-      "abstract": "Direct non-binary constituency parsing must identify an ordered sequence of children at each phrase-level reduction. We extend our earlier delimiter-guided bottom-up construction to a common calculus for top-down, in-order, and bottom-up parsing. At reduction, the rightmost delimiter marks the left ...",
+      "title": "Is Persona Generalization Predictable?",
+      "authors": "Olina Mukherjee, Arnav Goel, Aditi Raghunathan et al.",
+      "abstract": "Persona generalization occurs when fine-tuning a language model in one domain induces behavioral changes in others -- for example, the broadly unsafe behavior observed in emergent misalignment. We discover a surprising \"on-the-line\" phenomenon in persona generalization: in-domain and out-of-domain p...",
       "venue": "arXiv",
       "date": "2026-11-09",
-      "arxiv_id": "2611.12020v1",
-      "url": "https://arxiv.org/abs/2611.12020v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.12020v1.pdf",
+      "arxiv_id": "2611.12864v1",
+      "url": "https://arxiv.org/abs/2611.12864v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.12864v1.pdf",
       "categories": [
-        "cs.CL"
+        "cs.CL",
+        "cs.LG"
       ],
       "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "DPGS-SLAM: Diffusion-Prior and Provenance-Aware Monocular Gaussian Splatting SLAM for Dynamic Visual Sensing",
-      "authors": "Yifan Luo, Takafumi Matsumaru, Vibekananda Dutta et al.",
-      "abstract": "This paper presents DPGS-SLAM (Diffusion-Prior and Provenance-Aware Monocular Gaussian Splatting SLAM) for dense mapping in environments containing dynamic objects. Dynamic observations can contaminate camera tracking and scene reconstruction in visual SLAM (simultaneous localization and mapping). A...",
+      "title": "Guiding Data Allocation for Robust Subpopulation Generalization",
+      "authors": "Zhaoying Pan, Yipei Wang, Shenyu Lu et al.",
+      "abstract": "Machine learning models often achieve high average accuracy in the training data while performing poorly on test data due to subpopulation shift. A common data-centric solution is to enforce balanced subgroup proportions, but full balance can be costly, infeasible, and not always necessary. In this ...",
       "venue": "arXiv",
       "date": "2026-11-09",
-      "arxiv_id": "2611.12038v1",
-      "url": "https://arxiv.org/abs/2611.12038v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.12038v1.pdf",
+      "arxiv_id": "2611.12884v1",
+      "url": "https://arxiv.org/abs/2611.12884v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.12884v1.pdf",
       "categories": [
-        "cs.RO",
+        "cs.LG",
         "cs.CV"
       ],
       "type": "vision",
@@ -52,121 +55,16 @@
       "source": "arXiv"
     },
     {
-      "title": "Grasp-Taxonomy Conditioning as a Mode Switch for Dexterous Grasping of Climbing Holds",
-      "authors": "Rumi Loghmani, Abraham George, Amir Barati Farimani",
-      "abstract": "Dexterous grasping in robotics relies on distinct hand configurations depending on object geometry. We introduce BetaGrasp, a 3D diffusion policy that conditions a DP3-style point-cloud policy on a four-class grasp label (crimp, sloper, pinch, and jug), running on a Franka arm with a 16-DoF LEAP han...",
+      "title": "Kolmogorov-Chapman Maps: Trajectory-Free Learning for Simulating Molecular Dynamics",
+      "authors": "Majdi Hassan, Marta Skreta, Dominique Beaini et al.",
+      "abstract": "Stochastic differential equations (SDEs) describe stochastic processes across a wide range of scientific domains, including physics, biology, and finance. Although individual numerical integration steps are inexpensive, observing meaningful events or transitions can require millions of sequential st...",
       "venue": "arXiv",
       "date": "2026-11-09",
-      "arxiv_id": "2611.12017v1",
-      "url": "https://arxiv.org/abs/2611.12017v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.12017v1.pdf",
-      "categories": [
-        "cs.RO",
-        "cs.AI"
-      ],
-      "type": "survey",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "TID System for Speech-COSER Challenge 2026: ASR Track",
-      "authors": "Fernando López, Jordi Luque",
-      "abstract": "We describe the system submitted by Telefónica Innovación Digital to the Speech-COSER Challenge 2026, which features spontaneous speech from elderly speakers recorded in rural Spain. For ASR, we perform CTC-based pseudo-forced alignment scores audio-text match quality to guide a two-stage LoRA curri...",
-      "venue": "arXiv",
-      "date": "2026-11-08",
-      "arxiv_id": "2611.11497v1",
-      "url": "https://arxiv.org/abs/2611.11497v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.11497v1.pdf",
-      "categories": [
-        "cs.CL",
-        "cs.AI"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Robust and Private Swarm Learning via Zero-Knowledge Validator Admission and Consensus Aggregation",
-      "authors": "Marco Arazzi, Mert Cihangiroglu, Antonino Nocera",
-      "abstract": "Swarm Learning improves resilience and removes the need for a single trusted coordinator by distributing model aggregation and validation across participating nodes. However, it also delegates the validation of model updates to peers whose private data may be biased, unrepresentative, or adversarial...",
-      "venue": "arXiv",
-      "date": "2026-11-08",
-      "arxiv_id": "2611.11477v1",
-      "url": "https://arxiv.org/abs/2611.11477v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.11477v1.pdf",
-      "categories": [
-        "cs.CR",
-        "cs.AI",
-        "cs.LG"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Off-Policy RL with Online Inference Tuning: My Solution to the CoRL 2026 RoboEval Challenge",
-      "authors": "Ilia Larchenko",
-      "abstract": "The CoRL 2026 RoboEval challenge has eight bimanual tasks, and it ranks a policy not only on whether it succeeds but on how: every stage of the task, done safely, efficiently and with both arms in coordination, scored against human demonstrations. My solution has two parts. The generic part, carried...",
-      "venue": "arXiv",
-      "date": "2026-11-08",
-      "arxiv_id": "2611.11464v1",
-      "url": "https://arxiv.org/abs/2611.11464v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.11464v1.pdf",
-      "categories": [
-        "cs.RO",
-        "cs.CV",
-        "cs.LG"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Semantically Aligned KV Cache Compression for Efficient Agentic Autoregressive Video Generation",
-      "authors": "Weizhong Huang, Huaijia Kou, Tianyu Xie et al.",
-      "abstract": "Agentic autoregressive video generation combines semantic planning, sequential generation, and visual verification for controllable synthesis. Growing visual histories enlarge the key-value (KV) cache, increasing memory use and attention costs across candidate rollouts. Existing compression methods ...",
-      "venue": "arXiv",
-      "date": "2026-11-08",
-      "arxiv_id": "2611.11452v1",
-      "url": "https://arxiv.org/abs/2611.11452v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.11452v1.pdf",
-      "categories": [
-        "cs.CV",
-        "cs.LG"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Regret without Optimal-Arm Feedback under Reward-Dependent Delays",
-      "authors": "Zhong Han",
-      "abstract": "We study stochastic bandits with reward-dependent delays, possibly infinite, whose reports omit the originating round. For each $c\\in[0,1)$, Balanced Historical Optimism (BHO) has a delay term controlled by the largest suboptimal-arm quantile at level $1-cΔ_i$, without requiring optimal-arm reports....",
-      "venue": "arXiv",
-      "date": "2026-11-08",
-      "arxiv_id": "2611.11494v1",
-      "url": "https://arxiv.org/abs/2611.11494v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.11494v1.pdf",
+      "arxiv_id": "2611.12880v1",
+      "url": "https://arxiv.org/abs/2611.12880v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.12880v1.pdf",
       "categories": [
         "cs.LG"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Learning through Capacity Awareness to Minimize Hospital Readmissions",
-      "authors": "Lydia T. Liu, Kara Schechtman, Pengyi Shi et al.",
-      "abstract": "Predictive algorithms are increasingly used to guide hospital discharge decisions, yet these models can exhibit censoring bias for vulnerable patients due to insufficient historical data or past discharge decisions. When biased readmission risk predictors are used to inform discharges, the training ...",
-      "venue": "arXiv",
-      "date": "2026-11-08",
-      "arxiv_id": "2611.11493v1",
-      "url": "https://arxiv.org/abs/2611.11493v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.11493v1.pdf",
-      "categories": [
-        "cs.LG",
-        "cs.CY",
-        "stat.AP"
       ],
       "type": "ml",
       "badge": "arxiv",
