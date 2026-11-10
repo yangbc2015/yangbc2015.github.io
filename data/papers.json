@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-11-10",
-  "count": 4,
+  "count": 8,
   "items": [
     {
       "title": "HiVe-Mem: Interleaving Horizontal Memory Expansion and Vertical Evidence Composition for Multimodal Agents",
@@ -21,6 +21,23 @@
       "source": "arXiv"
     },
     {
+      "title": "Shortcuts and Boundaries: Verifiable RL Misalignment and Contextual Safety Learning",
+      "authors": "Xinjie Shen",
+      "abstract": "Reinforcement learning (RL) can improve an agent's task capability while reinforcing behavior that violates contextual execution requirements. We study this reward-driven misalignment, including reward hacking, through verifiable reward--context conflicts, where compliant task completion remains fea...",
+      "venue": "arXiv",
+      "date": "2026-11-09",
+      "arxiv_id": "2611.12865v1",
+      "url": "https://arxiv.org/abs/2611.12865v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.12865v1.pdf",
+      "categories": [
+        "cs.AI",
+        "cs.CR"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
       "title": "Is Persona Generalization Predictable?",
       "authors": "Olina Mukherjee, Arnav Goel, Aditi Raghunathan et al.",
       "abstract": "Persona generalization occurs when fine-tuning a language model in one domain induces behavioral changes in others -- for example, the broadly unsafe behavior observed in emergent misalignment. We discover a surprising \"on-the-line\" phenomenon in persona generalization: in-domain and out-of-domain p...",
@@ -32,6 +49,39 @@
       "categories": [
         "cs.CL",
         "cs.LG"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Reframe: Observation-Aligned Multi-Teacher On-Policy Distillation for Agentic Visual Reasoning",
+      "authors": "Haozhi Yuan, Handong Li, Yifan Zhang et al.",
+      "abstract": "Agentic reinforcement learning (RL) and multi-teacher on-policy distillation (MOPD) offer complementary routes to post-training. For visual agents, however, tool use presents two related challenges. Models may overlook useful tool-returned observations, while poorly grounded actions can limit the ev...",
+      "venue": "arXiv",
+      "date": "2026-11-09",
+      "arxiv_id": "2611.12886v1",
+      "url": "https://arxiv.org/abs/2611.12886v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.12886v1.pdf",
+      "categories": [
+        "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "World In-Context Learning for Agentic Robot Manipulation",
+      "authors": "Heng Fang, Zehui Guo, Yuehan Zhang et al.",
+      "abstract": "Trained action policies write manipulation skill into network weights, tying what is learned to the distribution it is learned from. In-context learning (ICL) avoids this coupling but has not matched trained policies, because a demonstration recorded in another scene carries no feedback from the wor...",
+      "venue": "arXiv",
+      "date": "2026-11-09",
+      "arxiv_id": "2611.12885v1",
+      "url": "https://arxiv.org/abs/2611.12885v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.12885v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
       ],
       "type": "nlp",
       "badge": "arxiv",
@@ -67,6 +117,23 @@
         "cs.LG"
       ],
       "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "SWAM: Scaling World Action Models with Cross-Modal Alignment",
+      "authors": "Yu Zhou, Xinyuan Xia, Xuankun Yang et al.",
+      "abstract": "World action models jointly predict video and actions conditioned on language. Existing studies focus primarily on architectures and training mechanisms, typically treating language-video alignment acquired through video pretraining as an established foundation. However, introducing action learning ...",
+      "venue": "arXiv",
+      "date": "2026-11-09",
+      "arxiv_id": "2611.12870v1",
+      "url": "https://arxiv.org/abs/2611.12870v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.12870v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     }
