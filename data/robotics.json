@@ -104,22 +104,6 @@
       ]
     },
     {
-      "title": "Discrete Model-Based Diffusion for Combinatorial Optimization in Multi-Robot Task Allocation",
-      "summary": "Decision making in multi-agent and multi-robot systems often involves discrete decision variables, leading to NP-hard combinatorial optimization problems that must be solved within seconds for near real-time implementation. Denoising diffusion has em...",
-      "url": "https://arxiv.org/abs/2611.13382v1",
-      "date": "2026-11-09",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2611.13382v1",
-      "authors": "Haejoon Lee, Thomas Marshall Vielmetti et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
       "title": "告别“故事融资”，具身智能进入“造血”残酷大考。",
       "summary": "告别“故事融资”，具身智能进入“造血”残酷大考。",
       "url": "https://36kr.com/p/4062205334344834",
@@ -142,6 +126,22 @@
       "type": "news",
       "tags": [
         "机器人"
+      ]
+    },
+    {
+      "title": "Discrete Model-Based Diffusion for Combinatorial Optimization in Multi-Robot Task Allocation",
+      "summary": "Decision making in multi-agent and multi-robot systems often involves discrete decision variables, leading to NP-hard combinatorial optimization problems that must be solved within seconds for near real-time implementation. Denoising diffusion has em...",
+      "url": "https://arxiv.org/abs/2611.13382v1",
+      "date": "2026-11-09",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.13382v1",
+      "authors": "Haejoon Lee, Thomas Marshall Vielmetti et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
       ]
     },
     {
