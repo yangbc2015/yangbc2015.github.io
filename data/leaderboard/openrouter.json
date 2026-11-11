@@ -5,10 +5,10 @@
   "models": [
     {
       "rank": 1,
-      "model": "ernie-5.5-flash-preview",
+      "model": "ernie-5.5-flash-preview:free",
       "organization": "baidu",
-      "price_prompt": "0.00000028",
-      "price_completion": "0.00000113",
+      "price_prompt": "0",
+      "price_completion": "0",
       "context_length": 1024000
     },
     {
