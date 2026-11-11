@@ -101,6 +101,14 @@
     },
     {
       "rank": 13,
+      "model": "midm-k-3.0-pro",
+      "organization": "kt",
+      "price_prompt": "0.0000002",
+      "price_completion": "0.0000008",
+      "context_length": 261795
+    },
+    {
+      "rank": 14,
       "model": "gemini-omni-1.1-flash",
       "organization": "google",
       "price_prompt": "0.0000015",
@@ -108,19 +116,11 @@
       "context_length": 131072
     },
     {
-      "rank": 14,
+      "rank": 15,
       "model": "ripple-65b-preview",
       "organization": "ricursiveai",
       "price_prompt": "0.0000002",
       "price_completion": "0.0000006",
-      "context_length": 1048576
-    },
-    {
-      "rank": 15,
-      "model": "hy4",
-      "organization": "tencent",
-      "price_prompt": "0.000000417",
-      "price_completion": "0.0000012505",
       "context_length": 1048576
     }
   ]

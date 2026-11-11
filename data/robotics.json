@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-11-10",
+  "last_updated": "2026-11-11",
   "count": 200,
   "items": [
     {
       "title": "[香港国际 具 身 智 能 领袖峰会重磅来袭｜全球视野，具身远航",
       "summary": "[香港国际 具 身 智 能 领袖峰会重磅来袭｜全球视野，具身远航",
       "url": "https://36kr.com/p/4063344189297545",
-      "date": "2026-11-10",
+      "date": "2026-11-11",
       "source": "36氪",
       "category": "具身智能",
       "type": "news",
@@ -19,6 +19,82 @@
       "title": "[成都 具 身 智 能 公司获千万级天使轮融资，基于开源鸿蒙开发机器人大脑｜硬氪首发",
       "summary": "[成都 具 身 智 能 公司获千万级天使轮融资，基于开源鸿蒙开发机器人大脑｜硬氪首发",
       "url": "https://36kr.com/p/4052696726328452",
+      "date": "2026-11-11",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
+      "title": "DeRep: Learning Depth Representations for End-to-End Navigation in Cluttered Environments",
+      "summary": "End-to-end navigation in cluttered environments relies on compact visual representations to support collision avoidance and goal-directed motion. Existing methods typically learn these representations jointly with the policy or through observation re...",
+      "url": "https://arxiv.org/abs/2611.13499v1",
+      "date": "2026-11-10",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.13499v1",
+      "authors": "Hanyu Jin, Kenji Shimada",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Route-Time Conflict Maps for Cooperative End-to-End Autonomous Driving",
+      "summary": "Existing cooperative end-to-end driving works at Class A (status-sharing) of the SAE J3216 classes of cooperative driving automation (CDA): vehicles exchange what they perceive, not what they intend, so each plans alone when to go, which limits coope...",
+      "url": "https://arxiv.org/abs/2611.13494v1",
+      "date": "2026-11-10",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.13494v1",
+      "authors": "Haohua Que, Mingkai Liu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "ExRL: Sample-Efficient Online Adaptation of Long-Chunk Policies via Execution Length Control",
+      "summary": "Predicting long action chunks, often spanning dozens of timesteps, has become a key ingredient in increasingly capable robot policies. In this paper, we find that adapting these long-chunk policies with existing reinforcement learning (RL) methods ca...",
+      "url": "https://arxiv.org/abs/2611.13482v1",
+      "date": "2026-11-10",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.13482v1",
+      "authors": "Xu Luo, Jiaying Yang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Rhythmic-Semantic Co-Speech Gestures for Emotional Dialogue in Robots",
+      "summary": "Co-speech gestures can increase engagement and improve speech understanding. Yet, most data-driven robot systems generate either rhythmic beat-like motion or semantically meaningful iconic gestures, but not both. We present an emotion-aware rhythmic-...",
+      "url": "https://arxiv.org/abs/2611.13472v1",
+      "date": "2026-11-10",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.13472v1",
+      "authors": "Christian Arzate Cruz, Edwin C. Montiel-Vázquez et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "[机器人抄果蝇“作业”？清华团队用果蝇大脑“接线图”，让 具 身 智 能 学会了自适应",
+      "summary": "[机器人抄果蝇“作业”？清华团队用果蝇大脑“接线图”，让 具 身 智 能 学会了自适应",
+      "url": "https://36kr.com/p/4055087836091527",
       "date": "2026-11-10",
       "source": "36氪",
       "category": "机器人",
@@ -28,10 +104,39 @@
       ]
     },
     {
-      "title": "[机器人抄果蝇“作业”？清华团队用果蝇大脑“接线图”，让 具 身 智 能 学会了自适应",
-      "summary": "[机器人抄果蝇“作业”？清华团队用果蝇大脑“接线图”，让 具 身 智 能 学会了自适应",
-      "url": "https://36kr.com/p/4055087836091527",
-      "date": "2026-11-10",
+      "title": "Discrete Model-Based Diffusion for Combinatorial Optimization in Multi-Robot Task Allocation",
+      "summary": "Decision making in multi-agent and multi-robot systems often involves discrete decision variables, leading to NP-hard combinatorial optimization problems that must be solved within seconds for near real-time implementation. Denoising diffusion has em...",
+      "url": "https://arxiv.org/abs/2611.13382v1",
+      "date": "2026-11-09",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.13382v1",
+      "authors": "Haejoon Lee, Thomas Marshall Vielmetti et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "告别“故事融资”，具身智能进入“造血”残酷大考。",
+      "summary": "告别“故事融资”，具身智能进入“造血”残酷大考。",
+      "url": "https://36kr.com/p/4062205334344834",
+      "date": "2026-11-09",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "统一世界模型，驱动多形态机器人",
+      "summary": "统一世界模型，驱动多形态机器人",
+      "url": "https://36kr.com/p/4062142574662531",
+      "date": "2026-11-09",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
@@ -2963,111 +3068,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "A Flow-Theoretic Multimodal Control Framework Fusing Mental and Physical Engagement for Upper-Limb Rehabilitation",
-      "summary": "While Assist-as-Needed (AAN) control aims to maximize user participation in robot-assisted training, existing methods relying solely on physical metrics cannot distinguish muscular inability from mental disengagement, leading to suboptimal interventi...",
-      "url": "https://arxiv.org/abs/2610.21590v1",
-      "date": "2026-10-15",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.21590v1",
-      "authors": "Jun Leng, Pengcheng Li et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "AVALON: Zero-Shot Indoor Navigation with Human-Seeded Topological Memory",
-      "summary": "Indoor service robots often enter unmapped buildings whose layouts and task constraints are already familiar to users. We address this human-familiar, robot-unseen setting with AVALON, a topological navigation framework organized around human-seeded ...",
-      "url": "https://arxiv.org/abs/2610.21586v1",
-      "date": "2026-10-15",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.21586v1",
-      "authors": "Jing Xia, Changyan Li et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Attribution-Gated Joint Estimation of Intention and Capability for Assist-as-Needed Upper-Limb Robots",
-      "summary": "Assist-as-needed (AAN) control must distinguish between changes in intended motion and changes in effective voluntary torque capability, even though both can produce similar kinematic and interaction responses. A dual-measurand multimodal MHE-MPC arc...",
-      "url": "https://arxiv.org/abs/2610.21534v1",
-      "date": "2026-10-15",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.21534v1",
-      "authors": "Pengcheng Li, Shuxiang Guo et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Multi-Teacher On-Policy Distillation for Flow-Based Vision-Language-Action Models",
-      "summary": "Specialized vision-language-action (VLA) policies acquire strong domain-specific skills, yet consolidating these skills into one shared policy remains challenging. On-policy distillation (OPD) transfers teacher knowledge on inputs induced by the stud...",
-      "url": "https://arxiv.org/abs/2610.21522v1",
-      "date": "2026-10-15",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.21522v1",
-      "authors": "Lichao Ni, Yuhan Liu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "TRACE: Typed Reference-Aware Conversational Editing for Humanoid Motion Diffusion",
-      "summary": "Language-conditioned humanoid motion generation enables users to create and refine robot movements through natural language. The central challenge is to connect an underspecified request to concrete motion structure that can subsequently be revised r...",
-      "url": "https://arxiv.org/abs/2610.21515v1",
-      "date": "2026-10-15",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.21515v1",
-      "authors": "Zejian Kang, Yifu Luo et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "[机器人“打进”中网，一场关于 具 身 智 能 商业化的竞赛正在升温",
-      "summary": "[机器人“打进”中网，一场关于 具 身 智 能 商业化的竞赛正在升温",
-      "url": "http://36kr.com/p/4022296471670663",
-      "date": "2026-10-15",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
-      ]
-    },
-    {
-      "title": "中国具身数据产业链初步形成，五大板块藏机遇",
-      "summary": "中国具身数据产业链初步形成，五大板块藏机遇",
-      "url": "http://36kr.com/p/4025465633953671",
-      "date": "2026-10-14",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
       ]
     }
   ]

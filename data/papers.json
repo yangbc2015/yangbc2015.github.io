@@ -1,16 +1,16 @@
 {
-  "last_updated": "2026-11-10",
-  "count": 8,
+  "last_updated": "2026-11-11",
+  "count": 9,
   "items": [
     {
-      "title": "HiVe-Mem: Interleaving Horizontal Memory Expansion and Vertical Evidence Composition for Multimodal Agents",
-      "authors": "Haozhen Zhang, Bohan Liu, Jianzhu Bao et al.",
-      "abstract": "As multimodal agents accumulate increasingly long interaction histories, effectively retrieving and utilizing past information becomes critical for long-term interaction. Existing memory systems typically rely on semantic retrieval over compressed memories and expose predefined representations, whic...",
+      "title": "HandsOnAid: Building and Evaluating an Offline First-Aid Assistant for Emergency Response Scenarios",
+      "authors": "Rezwan Islam Salvi, Saiyma Sittul Muna, Mushfiqur Rahman Mushfique",
+      "abstract": "Emergencies can occur where there is no phone signal and no ambulance nearby. A small language model on a phone can be helpful in such situations, but its advice needs to be safe and accurate. We built HandsOnAid, a 4-bit Gemma 2B model fine-tuned with QLoRA on FirstAidQA dataset, a corpus of 5,550 ...",
       "venue": "arXiv",
-      "date": "2026-11-09",
-      "arxiv_id": "2611.12872v1",
-      "url": "https://arxiv.org/abs/2611.12872v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.12872v1.pdf",
+      "date": "2026-11-10",
+      "arxiv_id": "2611.14059v1",
+      "url": "https://arxiv.org/abs/2611.14059v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.14059v1.pdf",
       "categories": [
         "cs.CL",
         "cs.AI",
@@ -21,98 +21,98 @@
       "source": "arXiv"
     },
     {
-      "title": "Shortcuts and Boundaries: Verifiable RL Misalignment and Contextual Safety Learning",
-      "authors": "Xinjie Shen",
-      "abstract": "Reinforcement learning (RL) can improve an agent's task capability while reinforcing behavior that violates contextual execution requirements. We study this reward-driven misalignment, including reward hacking, through verifiable reward--context conflicts, where compliant task completion remains fea...",
+      "title": "Can KV Cache Be Reused Across Model Updates? A DeepSeek-V4-Flash Case Study",
+      "authors": "Zhikun Tao, Fangyong Jin, Junping Zhao",
+      "abstract": "Reusing key--value (KV) caches across language model updates could avoid repeated computation of shared context, but changes in model weights raise a fundamental question about what these caches preserve. We investigate direct cache reuse across four model updates, with a detailed study of DeepSeek-...",
       "venue": "arXiv",
-      "date": "2026-11-09",
-      "arxiv_id": "2611.12865v1",
-      "url": "https://arxiv.org/abs/2611.12865v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.12865v1.pdf",
+      "date": "2026-11-10",
+      "arxiv_id": "2611.14051v1",
+      "url": "https://arxiv.org/abs/2611.14051v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.14051v1.pdf",
       "categories": [
-        "cs.AI",
-        "cs.CR"
+        "cs.DC",
+        "cs.AI"
+      ],
+      "type": "ai",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Mobile AI Factory: Building Specialized Language Models for Your Mobile Device",
+      "authors": "Evan Li, Krishna Deshpande, Wen Cheng et al.",
+      "abstract": "Small language models (SLMs) running on mobile devices can keep user data private and work without connectivity. But they perform well only when fine-tuned for the target task and sized for the target device, a process that today requires repeated expert tuning. We present {\\it Mobile AI Factory}, a...",
+      "venue": "arXiv",
+      "date": "2026-11-10",
+      "arxiv_id": "2611.13509v1",
+      "url": "https://arxiv.org/abs/2611.13509v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.13509v1.pdf",
+      "categories": [
+        "cs.CL"
       ],
       "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Is Persona Generalization Predictable?",
-      "authors": "Olina Mukherjee, Arnav Goel, Aditi Raghunathan et al.",
-      "abstract": "Persona generalization occurs when fine-tuning a language model in one domain induces behavioral changes in others -- for example, the broadly unsafe behavior observed in emergent misalignment. We discover a surprising \"on-the-line\" phenomenon in persona generalization: in-domain and out-of-domain p...",
+      "title": "Evaluating Compositional Generalization in Transformers: The Role of Composition Equivalence and Module Coverage",
+      "authors": "Purva Pruthi, Andrew Yuan, Alexander D'Amour et al.",
+      "abstract": "Compositional generalization is an important form of out-of-distribution generalization, defined as the ability to train on some combinations of modules (e.g., functions such as sort, filter) and then generalize to unseen combinations. Despite substantial empirical work evaluating compositional gene...",
       "venue": "arXiv",
-      "date": "2026-11-09",
-      "arxiv_id": "2611.12864v1",
-      "url": "https://arxiv.org/abs/2611.12864v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.12864v1.pdf",
-      "categories": [
-        "cs.CL",
-        "cs.LG"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Reframe: Observation-Aligned Multi-Teacher On-Policy Distillation for Agentic Visual Reasoning",
-      "authors": "Haozhi Yuan, Handong Li, Yifan Zhang et al.",
-      "abstract": "Agentic reinforcement learning (RL) and multi-teacher on-policy distillation (MOPD) offer complementary routes to post-training. For visual agents, however, tool use presents two related challenges. Models may overlook useful tool-returned observations, while poorly grounded actions can limit the ev...",
-      "venue": "arXiv",
-      "date": "2026-11-09",
-      "arxiv_id": "2611.12886v1",
-      "url": "https://arxiv.org/abs/2611.12886v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.12886v1.pdf",
-      "categories": [
-        "cs.CV"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "World In-Context Learning for Agentic Robot Manipulation",
-      "authors": "Heng Fang, Zehui Guo, Yuehan Zhang et al.",
-      "abstract": "Trained action policies write manipulation skill into network weights, tying what is learned to the distribution it is learned from. In-context learning (ICL) avoids this coupling but has not matched trained policies, because a demonstration recorded in another scene carries no feedback from the wor...",
-      "venue": "arXiv",
-      "date": "2026-11-09",
-      "arxiv_id": "2611.12885v1",
-      "url": "https://arxiv.org/abs/2611.12885v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.12885v1.pdf",
-      "categories": [
-        "cs.CV",
-        "cs.RO"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Guiding Data Allocation for Robust Subpopulation Generalization",
-      "authors": "Zhaoying Pan, Yipei Wang, Shenyu Lu et al.",
-      "abstract": "Machine learning models often achieve high average accuracy in the training data while performing poorly on test data due to subpopulation shift. A common data-centric solution is to enforce balanced subgroup proportions, but full balance can be costly, infeasible, and not always necessary. In this ...",
-      "venue": "arXiv",
-      "date": "2026-11-09",
-      "arxiv_id": "2611.12884v1",
-      "url": "https://arxiv.org/abs/2611.12884v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.12884v1.pdf",
+      "date": "2026-11-10",
+      "arxiv_id": "2611.13498v1",
+      "url": "https://arxiv.org/abs/2611.13498v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.13498v1.pdf",
       "categories": [
         "cs.LG",
-        "cs.CV"
+        "cs.CL"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Where Do Vision-Language Models Get Left and Right? Position-Code Counterfactuals in Qwen2.5-VL, Qwen3-VL and InternVL3",
+      "authors": "Enhao Cui, Junzhi Yang, Yaoshun Lin et al.",
+      "abstract": "A vision-language model may take left-right direction from the orientation of image content within patches, its vision transformer's (ViT) position code, or token positions and order in its language model (LLM). Ablations show the ViT code is necessary; we test sufficiency by mirroring only a positi...",
+      "venue": "arXiv",
+      "date": "2026-11-10",
+      "arxiv_id": "2611.14060v1",
+      "url": "https://arxiv.org/abs/2611.14060v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.14060v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "CURRENT: A Recurrent Neural Network for Concurrent Spatial and Temporal Super-Resolution of 4D Flow MRI",
+      "authors": "Luuk Jacobs, Pietro Dirix, Sebastian Kozerke",
+      "abstract": "Objective: To improve the spatial and temporal resolution of aortic 4D flow MRI through a unified deep learning framework for post-acquisition super-resolution (SR) of reconstructed velocity vector fields. Methods: We propose CURRENT, a recurrent neural network that performs spatial and temporal SR ...",
+      "venue": "arXiv",
+      "date": "2026-11-10",
+      "arxiv_id": "2611.14058v1",
+      "url": "https://arxiv.org/abs/2611.14058v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.14058v1.pdf",
+      "categories": [
+        "cs.CV",
+        "physics.med-ph"
       ],
       "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Kolmogorov-Chapman Maps: Trajectory-Free Learning for Simulating Molecular Dynamics",
-      "authors": "Majdi Hassan, Marta Skreta, Dominique Beaini et al.",
-      "abstract": "Stochastic differential equations (SDEs) describe stochastic processes across a wide range of scientific domains, including physics, biology, and finance. Although individual numerical integration steps are inexpensive, observing meaningful events or transitions can require millions of sequential st...",
+      "title": "Generalizing Causal Decision-Making: Markov Equivalence, Transportability and Counterfactuals",
+      "authors": "Min Woo Park, Sanghack Lee",
+      "abstract": "Structural causal bandits use causal knowledge to guide exploration when reward mechanisms are unknown. This paper extends the approach to partially known causal structure, information from other environments, and realizable counterfactual actions. First, we develop graphical criteria for minimal in...",
       "venue": "arXiv",
-      "date": "2026-11-09",
-      "arxiv_id": "2611.12880v1",
-      "url": "https://arxiv.org/abs/2611.12880v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.12880v1.pdf",
+      "date": "2026-11-10",
+      "arxiv_id": "2611.14066v1",
+      "url": "https://arxiv.org/abs/2611.14066v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.14066v1.pdf",
       "categories": [
         "cs.LG"
       ],
@@ -121,19 +121,34 @@
       "source": "arXiv"
     },
     {
-      "title": "SWAM: Scaling World Action Models with Cross-Modal Alignment",
-      "authors": "Yu Zhou, Xinyuan Xia, Xuankun Yang et al.",
-      "abstract": "World action models jointly predict video and actions conditioned on language. Existing studies focus primarily on architectures and training mechanisms, typically treating language-video alignment acquired through video pretraining as an established foundation. However, introducing action learning ...",
+      "title": "A human-in-the-loop Control Paradigm for Construction Robotics: From VR-Guided Teleoperation to Semi-Autonomous Dual-Arm Operation",
+      "authors": "Jinhua Chen, Xiaoji Xu, Zhongyuan Liao et al.",
+      "abstract": "Construction tasks in hazardous and unstructured environments require both human adaptability and robotic precision, yet existing approaches often treat teleoperation and autonomy as separate control modes. This paper presents a human-in-the-loop control paradigm that enables structured transitions ...",
       "venue": "arXiv",
-      "date": "2026-11-09",
-      "arxiv_id": "2611.12870v1",
-      "url": "https://arxiv.org/abs/2611.12870v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.12870v1.pdf",
+      "date": "2026-11-10",
+      "arxiv_id": "2611.14062v1",
+      "url": "https://arxiv.org/abs/2611.14062v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.14062v1.pdf",
       "categories": [
-        "cs.CV",
         "cs.RO"
       ],
-      "type": "vision",
+      "type": "ai",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "RedirectMimic: Local Motion Content Redaction for Humanoid Whole-Body Control",
+      "authors": "Zepeng Wang, Xiaochuan Shi",
+      "abstract": "Humanoid motion interfaces should accommodate application-specific movement constraints while retaining useful reference behavior. Local content redaction requires a controller to replace selected movements even when it continues to receive the original reference. Removing the tracking incentive for...",
+      "venue": "arXiv",
+      "date": "2026-11-10",
+      "arxiv_id": "2611.14049v1",
+      "url": "https://arxiv.org/abs/2611.14049v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.14049v1.pdf",
+      "categories": [
+        "cs.RO"
+      ],
+      "type": "ai",
       "badge": "arxiv",
       "source": "arXiv"
     }
