@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-11-12",
-  "count": 5,
+  "count": 7,
   "items": [
     {
       "title": "Medical Image Segmentation: Foundation Model Adaptation versus Task-Specific Training",
@@ -85,6 +85,39 @@
         "stat.ML"
       ],
       "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Is Your Robot's Memory Just a Clock? Temporal Shortcuts in Memory-Augmented VLA Policies",
+      "authors": "Chubin Zhang, Bo An",
+      "abstract": "Memory-augmented vision-language-action (VLA) policies are meant to remember what happened. Many of them, however, fill memory by time: they sample frames uniformly across the episode and stamp each frame with its time step. Because time passes even when nothing happens, such a memory may not tell w...",
+      "venue": "arXiv",
+      "date": "2026-11-10",
+      "arxiv_id": "2611.14488v1",
+      "url": "https://arxiv.org/abs/2611.14488v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.14488v1.pdf",
+      "categories": [
+        "cs.RO"
+      ],
+      "type": "ai",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "TanCRAFT: Context-Reasoned Anticipatory Feedback for Assembly Tasks",
+      "authors": "Sassan Mokhtar, Lars Doorenbos, Marius Bock et al.",
+      "abstract": "Preventing human error in physical assembly tasks requires assistance systems that can intervene before mistakes are made. This is especially challenging in settings where users are free to choose the construction order and correctness depends on the evolving assembly rather than a fixed next step. ...",
+      "venue": "arXiv",
+      "date": "2026-11-10",
+      "arxiv_id": "2611.14470v1",
+      "url": "https://arxiv.org/abs/2611.14470v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.14470v1.pdf",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     }
