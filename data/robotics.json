@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-11",
+  "last_updated": "2026-11-12",
   "count": 200,
   "items": [
     {
@@ -117,6 +117,43 @@
         "机器人学习",
         "研究论文",
         "arXiv"
+      ]
+    },
+    {
+      "title": "投资人仍在观望下半场，一群人已经给机器人写起了App。",
+      "summary": "投资人仍在观望下半场，一群人已经给机器人写起了App。",
+      "url": "https://36kr.com/p/4063520236196736",
+      "date": "2026-11-10",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
+      "title": "机器人进校园，关键在课程和开发生态。",
+      "summary": "机器人进校园，关键在课程和开发生态。",
+      "url": "https://36kr.com/p/4062282739078025",
+      "date": "2026-11-10",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
+      "title": "11月23-24日香港国际具身智能领袖峰会将在港启幕",
+      "summary": "11月23-24日香港国际具身智能领袖峰会将在港启幕",
+      "url": "https://36kr.com/p/4063344189297545",
+      "date": "2026-11-10",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
       ]
     },
     {
@@ -3022,51 +3059,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "CoEvolve: Self-Evolving Code Policies from Skills to Strategies for Humanoid Robots",
-      "summary": "Recent advances in Vision-Language-Action (VLA) models and World Action Models (WAMs) have expanded the manipulation and whole body capabilities of individual robots. Yet a single robot remains limited by its embodiment, and many real world tasks req...",
-      "url": "https://arxiv.org/abs/2610.23288v1",
-      "date": "2026-10-16",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.23288v1",
-      "authors": "Zicheng Liu, Haochen Wu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "LY-GWM-RoboCasa-Human300: Prediction-Guided Action Selection with a Graph Dynamics Model",
-      "summary": "We present LY-GWM-RoboCasa-Human300, a policy that combines a Human300-fine-tuned GR00T-N1.5 action generator, an action-conditioned graph dynamics model, and a learned binary state-reward scorer. At inference, the policy samples four action chunks, ...",
-      "url": "https://arxiv.org/abs/2610.23274v1",
-      "date": "2026-10-16",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.23274v1",
-      "authors": "TianLiang Ma, Ting Ma et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "当大模型\"大脑\"遇上自主可控的机器人\"神经系统\"，具身智能底层能力迎来国产新底座",
-      "summary": "当大模型\"大脑\"遇上自主可控的机器人\"神经系统\"，具身智能底层能力迎来国产新底座",
-      "url": "http://36kr.com/p/4026704639119750",
-      "date": "2026-10-15",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
       ]
     }
   ]
