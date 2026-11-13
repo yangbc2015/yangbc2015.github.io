@@ -1,50 +1,51 @@
 {
-  "last_updated": "2026-11-12",
+  "last_updated": "2026-11-13",
   "count": 7,
   "items": [
     {
-      "title": "Medical Image Segmentation: Foundation Model Adaptation versus Task-Specific Training",
-      "authors": "Emre Kutlusan, Yongmin Li",
-      "abstract": "Foundation models pretrained on large natural-image collections are increasingly adapted for medical image segmentation, in the expectation that they will replace models trained for each task. Most comparisons, however, use data from the training distribution and a single task-specific baseline whos...",
+      "title": "TraceKV: Policy-Preserving Low-Rank KV Cache Compression for Reasoning Vision-Language Models",
+      "authors": "Ke Li, Zishan Shao, Yiran Chen",
+      "abstract": "Reasoning vision-language models (VLMs) impose substantial KV cache demands from both large multimodal contexts and growing reasoning traces. Low-rank KV compression has emerged as a promising paradigm that stores low-dimensional latents of KV states and can be combined with quantization. However, e...",
       "venue": "arXiv",
-      "date": "2026-11-10",
-      "arxiv_id": "2611.14519v1",
-      "url": "https://arxiv.org/abs/2611.14519v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.14519v1.pdf",
+      "date": "2026-11-11",
+      "arxiv_id": "2611.15569v1",
+      "url": "https://arxiv.org/abs/2611.15569v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.15569v1.pdf",
       "categories": [
         "cs.CV",
-        "cs.AI"
+        "cs.AI",
+        "cs.LG"
       ],
-      "type": "vision",
+      "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Toward Foundation Detection Models via Example-Based Grounding in EM-DETR",
-      "authors": "Sheethal Bhat, Bogdan Georgescu, Awais Mansoor et al.",
-      "abstract": "DeepLearning (DL)-based Computer-Aided Diagnostic (CAD) systems have shown great promise in supporting clinicians, but their performance heavily depends on the availability of large, well-annotated datasets. In medical lesion detection, the scarcity of comprehensive, stan dardized annotations and th...",
+      "title": "Testing Conversation Preservation Across LLM APIs: A Rule-Based Oracle for Detecting Silent Information Loss",
+      "authors": "Xin Liu, Xu Han, Yuxin Wang et al.",
+      "abstract": "LLM applications increasingly rely on translators and compatibility layers to move conversations across APIs. Yet a translated request can be accepted by the target API while silently losing information about instruction roles, tool interactions, error states, or generation controls. We introduce is...",
       "venue": "arXiv",
-      "date": "2026-11-10",
-      "arxiv_id": "2611.14518v1",
-      "url": "https://arxiv.org/abs/2611.14518v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.14518v1.pdf",
+      "date": "2026-11-11",
+      "arxiv_id": "2611.15543v1",
+      "url": "https://arxiv.org/abs/2611.15543v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.15543v1.pdf",
       "categories": [
-        "cs.CV",
+        "cs.SE",
         "cs.AI"
       ],
-      "type": "vision",
+      "type": "ai",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "AutoScaffold: AI-Guided Scaffolding for Reinforcement Learning of Language Models",
-      "authors": "Zijian Zhang, Rizhen Hu, Jiangweizhi Peng et al.",
-      "abstract": "Reinforcement learning with verifiable rewards (RLVR) produces rich training experience, yet outcome rewards reduce each attempt to a single number and leave most of this information unused. Training-time scaffolds, such as strategies or hints added to the prompt during training, offer a natural way...",
+      "title": "Learning a calibrated decision head from logged bandit feedback",
+      "authors": "Ye Yuan",
+      "abstract": "A decision head reads a state and a list of options and returns a probability per option in one forward pass. Once deployed, it usually observes only whether the option it chose was right: logged bandit feedback. We adapt such a head, LoRA on Qwen3-0.6B-Base and 1.7B-Base, from that feedback and rep...",
       "venue": "arXiv",
-      "date": "2026-11-10",
-      "arxiv_id": "2611.14515v1",
-      "url": "https://arxiv.org/abs/2611.14515v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.14515v1.pdf",
+      "date": "2026-11-11",
+      "arxiv_id": "2611.15572v1",
+      "url": "https://arxiv.org/abs/2611.15572v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.15572v1.pdf",
       "categories": [
         "cs.LG",
         "cs.CL"
@@ -54,49 +55,47 @@
       "source": "arXiv"
     },
     {
-      "title": "Contrastive Discovery: Open-Ended Scientific Discovery over Competing Explanations",
-      "authors": "Ziang Liu, James J. Kim, Yijia Dai et al.",
-      "abstract": "LLM agents are increasingly used for open-ended, data-driven scientific discovery, yet most of them evaluate hypotheses pointwise, testing an empirical claim $h$ only against its complement $\\neg h$. When evidence rejects $h$, the agent learns that one explanation is unlikely but not which alternati...",
+      "title": "Can We Make an LLM Dumber, or Is It Just Playing Dumb? An Empirical Study of Believable Performance Throttling",
+      "authors": "Chengguang Gan, Yunhao Liang, Hanjun Wei et al.",
+      "abstract": "A benchmark score is commonly read as a proxy for model capability. We study the inverse problem: can a model be driven to a target score, and do its failures resemble those of a naturally weaker model? We operationalize believable performance reduction along three axes: target calibration, item-dif...",
       "venue": "arXiv",
-      "date": "2026-11-10",
-      "arxiv_id": "2611.14514v1",
-      "url": "https://arxiv.org/abs/2611.14514v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.14514v1.pdf",
+      "date": "2026-11-11",
+      "arxiv_id": "2611.15568v1",
+      "url": "https://arxiv.org/abs/2611.15568v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.15568v1.pdf",
       "categories": [
-        "cs.AI",
-        "cs.CL",
-        "cs.LG"
+        "cs.CL"
       ],
       "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "TorchCurves: Differentiable Parametric Curves",
-      "authors": "Alex Shtoff",
-      "abstract": "We present TorchCurves, a PyTorch library that treats vector-valued parametric curves as learnable primitives. Its central operation maps batches of scalar inputs to points on curves represented in B-spline or Legendre polynomial bases, with differentiation through both inputs and coefficients. Curv...",
+      "title": "MAGIC: Modality-Aware Gini Inspection for Clinical Hallucination Detection in LMMs",
+      "authors": "Sachin Acharya, Niyoj Oli, Shishir Adhikari et al.",
+      "abstract": "Recent advances in medical large multimodal models (LMMs) have brought promising progress to clinical decision support, yet hallucination, the generation of confident but clinically unverifiable outputs, poses a critical threat to the reliability demanded in high-stakes medical settings. Existing ha...",
       "venue": "arXiv",
-      "date": "2026-11-10",
-      "arxiv_id": "2611.14516v1",
-      "url": "https://arxiv.org/abs/2611.14516v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.14516v1.pdf",
+      "date": "2026-11-11",
+      "arxiv_id": "2611.15530v1",
+      "url": "https://arxiv.org/abs/2611.15530v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.15530v1.pdf",
       "categories": [
-        "cs.LG",
-        "stat.ML"
+        "cs.CV",
+        "cs.AI"
       ],
-      "type": "ml",
+      "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Is Your Robot's Memory Just a Clock? Temporal Shortcuts in Memory-Augmented VLA Policies",
-      "authors": "Chubin Zhang, Bo An",
-      "abstract": "Memory-augmented vision-language-action (VLA) policies are meant to remember what happened. Many of them, however, fill memory by time: they sample frames uniformly across the episode and stamp each frame with its time step. Because time passes even when nothing happens, such a memory may not tell w...",
+      "title": "Generalized Inverse Kinematics via Conditional Flow",
+      "authors": "Kaitlyn Zhang, Tomás Lozano-Pérez, Leslie Pack Kaelbling",
+      "abstract": "Inverse kinematics (IK) is a foundational primitive in robotics, mapping the task-space objectives expressed by higher-level planners to robot configurations that realize them. Traditional IK methods generally treat each query as an isolated pose-to-configuration problem, but planners often need a d...",
       "venue": "arXiv",
-      "date": "2026-11-10",
-      "arxiv_id": "2611.14488v1",
-      "url": "https://arxiv.org/abs/2611.14488v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.14488v1.pdf",
+      "date": "2026-11-11",
+      "arxiv_id": "2611.15565v1",
+      "url": "https://arxiv.org/abs/2611.15565v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.15565v1.pdf",
       "categories": [
         "cs.RO"
       ],
@@ -105,19 +104,19 @@
       "source": "arXiv"
     },
     {
-      "title": "TanCRAFT: Context-Reasoned Anticipatory Feedback for Assembly Tasks",
-      "authors": "Sassan Mokhtar, Lars Doorenbos, Marius Bock et al.",
-      "abstract": "Preventing human error in physical assembly tasks requires assistance systems that can intervene before mistakes are made. This is especially challenging in settings where users are free to choose the construction order and correctness depends on the evolving assembly rather than a fixed next step. ...",
+      "title": "Reading the Table: Sim-to-Real Game State Detection for the Chef's Hat Card Game",
+      "authors": "Connor Gäde, Matthias Kerzel, Hauke Bünning et al.",
+      "abstract": "Tabletop games offer a compelling scenario to study the interaction between artificial and human agents, combining social interaction with game state tracking and physical manipulation. To assess the game state, a robot needs to precisely detect closely related game objects, such as different card d...",
       "venue": "arXiv",
-      "date": "2026-11-10",
-      "arxiv_id": "2611.14470v1",
-      "url": "https://arxiv.org/abs/2611.14470v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.14470v1.pdf",
+      "date": "2026-11-11",
+      "arxiv_id": "2611.15524v1",
+      "url": "https://arxiv.org/abs/2611.15524v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.15524v1.pdf",
       "categories": [
         "cs.RO",
         "cs.CV"
       ],
-      "type": "nlp",
+      "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     }
