@@ -28,6 +28,98 @@
       ]
     },
     {
+      "title": "Generalized Inverse Kinematics via Conditional Flow",
+      "summary": "Inverse kinematics (IK) is a foundational primitive in robotics, mapping the task-space objectives expressed by higher-level planners to robot configurations that realize them. Traditional IK methods generally treat each query as an isolated pose-to-...",
+      "url": "https://arxiv.org/abs/2611.15565v1",
+      "date": "2026-11-11",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.15565v1",
+      "authors": "Kaitlyn Zhang, Tomás Lozano-Pérez et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Reading the Table: Sim-to-Real Game State Detection for the Chef's Hat Card Game",
+      "summary": "Tabletop games offer a compelling scenario to study the interaction between artificial and human agents, combining social interaction with game state tracking and physical manipulation. To assess the game state, a robot needs to precisely detect clos...",
+      "url": "https://arxiv.org/abs/2611.15524v1",
+      "date": "2026-11-11",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.15524v1",
+      "authors": "Connor Gäde, Matthias Kerzel et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "What Makes a VLA Reactive? A Study of Execution Strategies for Dynamic Manipulation",
+      "summary": "Vision-language-action (VLA) models predict chunks of future actions, and when objects move, those chunks go stale before they are executed. We study what makes a pretrained VLA reactive, using \\pihalf{} on two dynamic simulation benchmarks and three...",
+      "url": "https://arxiv.org/abs/2611.15491v1",
+      "date": "2026-11-11",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.15491v1",
+      "authors": "Zhuoyue Li, Zhendong Han et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "ActionCodec2: A Streaming Action Tokenizer",
+      "summary": "Most action tokenizers for autoregressive vision language action (VLA) models compress motion into chunks that must be decoded in full before their actions become executable. We introduce ActionCodec2, a non-neural streaming tokenizer that releases a...",
+      "url": "https://arxiv.org/abs/2611.15490v1",
+      "date": "2026-11-11",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.15490v1",
+      "authors": "Zibin Dong, Yicheng Liu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "FloCOS: Predicting Compact Forward Occupancy Sets of Surrounding Vehicles via Conditional Flow Matching",
+      "summary": "Existing methods for predicting surrounding vehicles' forward occupancy may under-approximate the ground-truth occupancy, exposing the ego vehicle to collision risk, or produce overly conservative regions that unnecessarily restrict feasible space an...",
+      "url": "https://arxiv.org/abs/2611.15488v1",
+      "date": "2026-11-11",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.15488v1",
+      "authors": "Chuansheng Dong, Yinxiao Zhan et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "跨境称重量方等场景完成PMF验证并出现客户复购，新一代构型机器人计划12月底发布",
+      "summary": "跨境称重量方等场景完成PMF验证并出现客户复购，新一代构型机器人计划12月底发布",
+      "url": "https://36kr.com/p/4065235763581828",
+      "date": "2026-11-11",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
       "title": "Genie Sim Benchmark: Real-to-Sim Fidelity and Evaluation",
       "summary": "We evaluate Genie Sim Benchmark through paired real-simulation tasks and complementary system-identification studies. Across 22 robot-task pairs spanning 16 task names, task-specific pi0.5 policies fine-tuned on real-robot data achieve a descriptive ...",
       "url": "https://arxiv.org/abs/2611.15020v1",
@@ -108,18 +200,6 @@
       ]
     },
     {
-      "title": "跨境称重量方等场景完成PMF验证并出现客户复购，新一代构型机器人计划12月底发布",
-      "summary": "跨境称重量方等场景完成PMF验证并出现客户复购，新一代构型机器人计划12月底发布",
-      "url": "https://36kr.com/p/4065235763581828",
-      "date": "2026-11-11",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
-      ]
-    },
-    {
       "title": "[成都 具 身 智 能 公司获千万级天使轮融资，基于开源鸿蒙开发机器人大脑｜硬氪首发",
       "summary": "[成都 具 身 智 能 公司获千万级天使轮融资，基于开源鸿蒙开发机器人大脑｜硬氪首发",
       "url": "https://36kr.com/p/4052696726328452",
@@ -153,6 +233,19 @@
       "type": "news",
       "tags": [
         "机器人"
+      ]
+    },
+    {
+      "title": "11月23-24日香港国际具身智能领袖峰会将在港启幕",
+      "summary": "11月23-24日香港国际具身智能领袖峰会将在港启幕",
+      "url": "https://36kr.com/p/4063344189297545",
+      "date": "2026-11-10",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
       ]
     },
     {
@@ -233,19 +326,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "11月23-24日香港国际具身智能领袖峰会将在港启幕",
-      "summary": "11月23-24日香港国际具身智能领袖峰会将在港启幕",
-      "url": "https://36kr.com/p/4063344189297545",
-      "date": "2026-11-10",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
       ]
     },
     {
@@ -2977,80 +3057,6 @@
       "type": "paper",
       "arxiv_id": "2610.25961v1",
       "authors": "Hojin Jeon, Jimin Lee et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Policy Search in Code Space for Multi-Agent Pathfinding",
-      "summary": "Developing coordination policies for complex multi-agent systems relies on either labor-intensive algorithm design or opaque task-specific reinforcement learning. With recent advances in autonomous coding agents, we show that policy search directly i...",
-      "url": "https://arxiv.org/abs/2610.25946v1",
-      "date": "2026-10-19",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.25946v1",
-      "authors": "Matthias Eder, Pantelis Emmanouil et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "2026全球开发者先锋大会10月上海浦东举办，聚焦具身智能",
-      "summary": "2026全球开发者先锋大会10月上海浦东举办，聚焦具身智能",
-      "url": "http://36kr.com/p/4028273910911365",
-      "date": "2026-10-16",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "从工博会重磅发布具身智能运动基座，看这家机器人企业的具身答卷",
-      "summary": "从工博会重磅发布具身智能运动基座，看这家机器人企业的具身答卷",
-      "url": "http://36kr.com/p/4028012112335490",
-      "date": "2026-10-16",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "Blind Precise Assembly: Proprioceptive Sim-to-Real Peg-in-Hole for Diverse Parts",
-      "summary": "Every robot already carries high-resolution contact sensors: its own joints. Legged robots and humanoids exploit them to walk, run, and track whole-body motions without vision, but there the contacts are large and forceful. Is joint sensing also enou...",
-      "url": "https://arxiv.org/abs/2610.23849v1",
-      "date": "2026-10-16",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.23849v1",
-      "authors": "Antonia Bronars, Younghyo Park et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "StopWatch: Goal Grounding for Object-goal Navigation",
-      "summary": "Pretrained VLMs bring rich world knowledge and semantic priors to object-goal navigation, and fine-tuning a VLM into a navigation policy has become a common recipe. Despite this progress, success rates remain low, and it is unclear which capability t...",
-      "url": "https://arxiv.org/abs/2610.23841v1",
-      "date": "2026-10-16",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.23841v1",
-      "authors": "Xinhao Liu, Yunsheng Tian et al.",
       "tags": [
         "机器人学习",
         "研究论文",
