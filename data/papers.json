@@ -1,53 +1,69 @@
 {
   "last_updated": "2026-11-13",
-  "count": 7,
+  "count": 8,
   "items": [
     {
-      "title": "TraceKV: Policy-Preserving Low-Rank KV Cache Compression for Reasoning Vision-Language Models",
-      "authors": "Ke Li, Zishan Shao, Yiran Chen",
-      "abstract": "Reasoning vision-language models (VLMs) impose substantial KV cache demands from both large multimodal contexts and growing reasoning traces. Low-rank KV compression has emerged as a promising paradigm that stores low-dimensional latents of KV states and can be combined with quantization. However, e...",
+      "title": "AgentSSL: Can MLE Agents Leverage Unlabeled Data?",
+      "authors": "Ethan Lin, Akanksha Sarkar, Ziang Liu et al.",
+      "abstract": "Applying machine learning systems to new domains introduces bottlenecks in both labeled data acquisition and manual pipeline engineering. While recent MLE agents show promise in automating pipeline design, they have been studied almost exclusively in fully supervised settings, leaving them untested ...",
       "venue": "arXiv",
-      "date": "2026-11-11",
-      "arxiv_id": "2611.15569v1",
-      "url": "https://arxiv.org/abs/2611.15569v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.15569v1.pdf",
+      "date": "2026-11-12",
+      "arxiv_id": "2611.17323v1",
+      "url": "https://arxiv.org/abs/2611.17323v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.17323v1.pdf",
       "categories": [
-        "cs.CV",
         "cs.AI",
         "cs.LG"
       ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "CoReMem: Cost-Internalizing Memory for Successive Coding Tasks with Prospective Valuation",
+      "authors": "Peiwen Li, Harshit Verma, Sophia Zhou et al.",
+      "abstract": "Coding agents tackle successive tasks on an evolving repository, carrying forward edits and writing memory before the next task is known. Selecting memory for unknown next tasks requires balancing future usefulness against the costs of writing and reading it. The actor must also decide when acting o...",
+      "venue": "arXiv",
+      "date": "2026-11-12",
+      "arxiv_id": "2611.17316v1",
+      "url": "https://arxiv.org/abs/2611.17316v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.17316v1.pdf",
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.SE"
+      ],
       "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Testing Conversation Preservation Across LLM APIs: A Rule-Based Oracle for Detecting Silent Information Loss",
-      "authors": "Xin Liu, Xu Han, Yuxin Wang et al.",
-      "abstract": "LLM applications increasingly rely on translators and compatibility layers to move conversations across APIs. Yet a translated request can be accepted by the target API while silently losing information about instruction roles, tool interactions, error states, or generation controls. We introduce is...",
+      "title": "ArchSpace: Recording, Reviewing, and Referencing LLM Architecture Research",
+      "authors": "Jie Wang, Tong Zhu, JiaHao Kuang et al.",
+      "abstract": "Model architecture shapes the scaling behavior, training efficiency, and inference cost of LLMs, making it a central focus of both industry and academia. In industry, teams such as those behind DeepSeek, Qwen, and Kimi routinely introduce architectural innovations, yet public reports rarely document...",
       "venue": "arXiv",
-      "date": "2026-11-11",
-      "arxiv_id": "2611.15543v1",
-      "url": "https://arxiv.org/abs/2611.15543v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.15543v1.pdf",
+      "date": "2026-11-12",
+      "arxiv_id": "2611.17332v1",
+      "url": "https://arxiv.org/abs/2611.17332v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.17332v1.pdf",
       "categories": [
-        "cs.SE",
-        "cs.AI"
+        "cs.CL",
+        "cs.LG"
       ],
-      "type": "ai",
+      "type": "survey",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Learning a calibrated decision head from logged bandit feedback",
-      "authors": "Ye Yuan",
-      "abstract": "A decision head reads a state and a list of options and returns a probability per option in one forward pass. Once deployed, it usually observes only whether the option it chose was right: logged bandit feedback. We adapt such a head, LoRA on Qwen3-0.6B-Base and 1.7B-Base, from that feedback and rep...",
+      "title": "Learning When Diffusion Language Models Should Regenerate",
+      "authors": "Minhae Oh, Jeonghye Kim, Jinwoo Koo et al.",
+      "abstract": "Remasking allows diffusion language models to revisit generated text, but effective correction requires knowing when and what to revise. Our diagnosis on Sudoku reveals two gaps. Hidden states contain error information that token confidence does not reliably expose, and remasking an isolated error u...",
       "venue": "arXiv",
-      "date": "2026-11-11",
-      "arxiv_id": "2611.15572v1",
-      "url": "https://arxiv.org/abs/2611.15572v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.15572v1.pdf",
+      "date": "2026-11-12",
+      "arxiv_id": "2611.17320v1",
+      "url": "https://arxiv.org/abs/2611.17320v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.17320v1.pdf",
       "categories": [
-        "cs.LG",
         "cs.CL"
       ],
       "type": "nlp",
@@ -55,68 +71,68 @@
       "source": "arXiv"
     },
     {
-      "title": "Can We Make an LLM Dumber, or Is It Just Playing Dumb? An Empirical Study of Believable Performance Throttling",
-      "authors": "Chengguang Gan, Yunhao Liang, Hanjun Wei et al.",
-      "abstract": "A benchmark score is commonly read as a proxy for model capability. We study the inverse problem: can a model be driven to a target score, and do its failures resemble those of a naturally weaker model? We operationalize believable performance reduction along three axes: target calibration, item-dif...",
+      "title": "Back to Pixels: Lifting Latent Video Diffusion into Pixel Space",
+      "authors": "Yanke Song, Shuo Chen, Chris Rockwell et al.",
+      "abstract": "Frontier video generation models work in a VAE latent space that compresses video in both space and time. This compression made training tractable, but now limits high-resolution, controllable, and interactive generation -- doubling resolution quadruples token count, conditions apply to groups of fr...",
       "venue": "arXiv",
-      "date": "2026-11-11",
-      "arxiv_id": "2611.15568v1",
-      "url": "https://arxiv.org/abs/2611.15568v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.15568v1.pdf",
+      "date": "2026-11-12",
+      "arxiv_id": "2611.17336v1",
+      "url": "https://arxiv.org/abs/2611.17336v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.17336v1.pdf",
       "categories": [
-        "cs.CL"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "MAGIC: Modality-Aware Gini Inspection for Clinical Hallucination Detection in LMMs",
-      "authors": "Sachin Acharya, Niyoj Oli, Shishir Adhikari et al.",
-      "abstract": "Recent advances in medical large multimodal models (LMMs) have brought promising progress to clinical decision support, yet hallucination, the generation of confident but clinically unverifiable outputs, poses a critical threat to the reliability demanded in high-stakes medical settings. Existing ha...",
-      "venue": "arXiv",
-      "date": "2026-11-11",
-      "arxiv_id": "2611.15530v1",
-      "url": "https://arxiv.org/abs/2611.15530v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.15530v1.pdf",
-      "categories": [
-        "cs.CV",
-        "cs.AI"
+        "cs.CV"
       ],
       "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Generalized Inverse Kinematics via Conditional Flow",
-      "authors": "Kaitlyn Zhang, Tomás Lozano-Pérez, Leslie Pack Kaelbling",
-      "abstract": "Inverse kinematics (IK) is a foundational primitive in robotics, mapping the task-space objectives expressed by higher-level planners to robot configurations that realize them. Traditional IK methods generally treat each query as an isolated pose-to-configuration problem, but planners often need a d...",
+      "title": "Unbundling Multimodal Vision Encoding",
+      "authors": "Ellis Brown, Chris Hoang, Shengyi Qian et al.",
+      "abstract": "How multimodal language models should encode visual input remains up for debate. Most models use a pretrained vision encoder, while some recent recipes train the encoder from scratch with the language model or remove it entirely. Vision encoders bundle together three design choices: a visual prior f...",
       "venue": "arXiv",
-      "date": "2026-11-11",
-      "arxiv_id": "2611.15565v1",
-      "url": "https://arxiv.org/abs/2611.15565v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.15565v1.pdf",
+      "date": "2026-11-12",
+      "arxiv_id": "2611.17334v1",
+      "url": "https://arxiv.org/abs/2611.17334v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.17334v1.pdf",
       "categories": [
-        "cs.RO"
+        "cs.CV",
+        "cs.LG"
       ],
-      "type": "ai",
+      "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Reading the Table: Sim-to-Real Game State Detection for the Chef's Hat Card Game",
-      "authors": "Connor Gäde, Matthias Kerzel, Hauke Bünning et al.",
-      "abstract": "Tabletop games offer a compelling scenario to study the interaction between artificial and human agents, combining social interaction with game state tracking and physical manipulation. To assess the game state, a robot needs to precisely detect closely related game objects, such as different card d...",
+      "title": "ProtoVis-Nav: Prototypical Visual Imagination for Visual-Spatial Aligned UAV Navigation",
+      "authors": "Guangyuan Sui, Yunzhong Hou, Chi Harold Liu",
+      "abstract": "Vision language navigation (VLN) is very challenging for Unmanned Aerial Vehicles (UAVs) since small errors in 3D motion prediction can lead to navigation errors and collisions. Unable to fathom execution outcomes in 3D environments, existing methods often struggle to predict accurate navigation way...",
       "venue": "arXiv",
-      "date": "2026-11-11",
-      "arxiv_id": "2611.15524v1",
-      "url": "https://arxiv.org/abs/2611.15524v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.15524v1.pdf",
+      "date": "2026-11-12",
+      "arxiv_id": "2611.17330v1",
+      "url": "https://arxiv.org/abs/2611.17330v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.17330v1.pdf",
       "categories": [
         "cs.RO",
         "cs.CV"
       ],
       "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "HEIR: Harness Egocentric Intent for Human-Robot Interactions",
+      "authors": "Yichi Zhang, Bo Wang, Zhenghan Zhu et al.",
+      "abstract": "For robots to assist, serve, and collaborate with humans, they must not only interpret human requests conveyed through language and multimodal intentional cues, but also execute long-horizon tasks that interleave navigation and manipulation. In this paper, we introduce HEIR, a resource for studying ...",
+      "venue": "arXiv",
+      "date": "2026-11-12",
+      "arxiv_id": "2611.17238v1",
+      "url": "https://arxiv.org/abs/2611.17238v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.17238v1.pdf",
+      "categories": [
+        "cs.RO"
+      ],
+      "type": "ai",
       "badge": "arxiv",
       "source": "arXiv"
     }
