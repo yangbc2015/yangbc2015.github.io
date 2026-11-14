@@ -1,11 +1,11 @@
 {
-  "last_updated": "2026-11-14T04:36:53.631357+00:00",
+  "last_updated": "2026-11-14T12:51:30.181843+00:00",
   "source": "Artificial Analysis",
   "source_url": "https://artificialanalysis.ai/leaderboards/models",
   "description": "综合AI模型性能排行榜，基于智能指数、价格、输出速度、上下文窗口等多维度指标对模型进行评测。",
   "models": [
     {
-      "rank": 7,
+      "rank": 5,
       "model": "Claude Opus 5.5",
       "organization": "Anthropic",
       "intelligence_index": 0,
@@ -17,19 +17,7 @@
       "icon": "⚡"
     },
     {
-      "rank": 9,
-      "model": "Claude Opus 5.5",
-      "organization": "Anthropic",
-      "intelligence_index": 0,
-      "price_per_1m_tokens": 0,
-      "speed_tokens_per_sec": 0,
-      "context_window": 0,
-      "trend": "same",
-      "is_open_weights": false,
-      "icon": "⚡"
-    },
-    {
-      "rank": 15,
+      "rank": 8,
       "model": "Claude Sonnet 5.5",
       "organization": "Anthropic",
       "intelligence_index": 0,
@@ -41,16 +29,28 @@
       "icon": "⚡"
     },
     {
-      "rank": 20,
-      "model": "Claude Opus 5.5",
-      "organization": "Anthropic",
+      "rank": 13,
+      "model": "Kimi K3.1 Pro",
+      "organization": "Moonshot",
       "intelligence_index": 0,
       "price_per_1m_tokens": 0,
       "speed_tokens_per_sec": 0,
       "context_window": 0,
       "trend": "same",
       "is_open_weights": false,
-      "icon": "⚡"
+      "icon": "🎯"
+    },
+    {
+      "rank": 19,
+      "model": "Qwen3.8 Max",
+      "organization": "Alibaba",
+      "intelligence_index": 0,
+      "price_per_1m_tokens": 0,
+      "speed_tokens_per_sec": 0,
+      "context_window": 0,
+      "trend": "same",
+      "is_open_weights": false,
+      "icon": "🌟"
     }
   ]
 }
