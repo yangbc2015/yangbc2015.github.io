@@ -1,7 +1,7 @@
 {
   "last_updated": "2026-11-14",
   "count": 200,
-  "history_count": 200,
+  "history_count": 205,
   "retention_days": 30,
   "items": [
     {
@@ -74,6 +74,78 @@
       "tags": [
         "AI",
         "Artificial Intelligence"
+      ]
+    },
+    {
+      "title": "Markdown Content:",
+      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+      "summary": "Markdown Content:...",
+      "date": "2026-11-13",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "AI自进化不止刷榜！百度智能云把RSI带进产业一线",
+      "link": "https://www.jiqizhixin.com/search/articles/AI自进化不止刷榜！百度智能云",
+      "summary": "AI自进化不止刷榜！百度智能云把RSI带进产业一线...",
+      "date": "2026-11-13",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "最火、最全的时序预测综述：一个视角读懂十年进展｜TPAMI-26",
+      "link": "https://www.jiqizhixin.com/search/articles/最火、最全的时序预测综述：一个",
+      "summary": "最火、最全的时序预测综述：一个视角读懂十年进展｜TPAMI-26...",
+      "date": "2026-11-13",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "行业首款云端具身智能体Visics-Agent：懂人话、能教会、可进化，来自RoboScience机器科学",
+      "link": "https://www.jiqizhixin.com/search/articles/行业首款云端具身智能体Visi",
+      "summary": "行业首款云端具身智能体Visics-Agent：懂人话、能教会、可进化，来自RoboScience机器科学...",
+      "date": "2026-11-13",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "Real2Sim2Real走向人形机器人：仿真训练还缺哪两块拼图？",
+      "link": "https://www.jiqizhixin.com/search/articles/Real2Sim2Real走向",
+      "summary": "Real2Sim2Real走向人形机器人：仿真训练还缺哪两块拼图？...",
+      "date": "2026-11-13",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "5000万美元A轮融资首关，合肥这家药企要在体内「制造」CAR-T",
+      "link": "https://www.jiqizhixin.com/search/articles/5000万美元A轮融资首关，合",
+      "summary": "5000万美元A轮融资首关，合肥这家药企要在体内「制造」CAR-T...",
+      "date": "2026-11-13",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
       ]
     },
     {
@@ -598,18 +670,6 @@
       "summary": "GPU迭代一百次的事，它一步做完...",
       "date": "2026-11-04",
       "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Markdown Content:",
-      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-      "summary": "Markdown Content:...",
-      "date": "2026-11-04",
-      "source": "机器之心",
       "type": "industry",
       "tags": [
         "AI",
@@ -2337,66 +2397,6 @@
       "link": "https://www.jiqizhixin.com/search/articles/刚刚，Tibo承诺「连续28天",
       "summary": "刚刚，Tibo承诺「连续28天发布或重置」，OpenAI遭遇信任危机...",
       "date": "2026-10-05",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "什么样的AI才适合工业现场？企业真正开始做工业AI时，又该从哪里下手？",
-      "link": "https://www.qbitai.com/?s=什么样的AI才适合工",
-      "summary": "什么样的AI才适合工业现场？企业真正开始做工业AI时，又该从哪里下手？...",
-      "date": "2026-10-05",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "AlphaGo核心作者：十年了，LLM还没学到那场棋局「神之一手」的精华",
-      "link": "https://www.jiqizhixin.com/search/articles/AlphaGo核心作者：十年了",
-      "summary": "AlphaGo核心作者：十年了，LLM还没学到那场棋局「神之一手」的精华...",
-      "date": "2026-10-04",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "终于有人管管屎山代码了！Tibo预告，Astra 6.1要来了？",
-      "link": "https://www.jiqizhixin.com/search/articles/终于有人管管屎山代码了！Tib",
-      "summary": "终于有人管管屎山代码了！Tibo预告，Astra 6.1要来了？...",
-      "date": "2026-10-04",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Agent Harness到底怎么选？南洋理工大学安波团队最新研究给出答案",
-      "link": "https://www.jiqizhixin.com/search/articles/Agent Harness到底",
-      "summary": "Agent Harness到底怎么选？南洋理工大学安波团队最新研究给出答案...",
-      "date": "2026-10-04",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "太卷了！DeepSeek假期更新，Harness有了新版本",
-      "link": "https://www.jiqizhixin.com/search/articles/太卷了！DeepSeek假期更",
-      "summary": "太卷了！DeepSeek假期更新，Harness有了新版本...",
-      "date": "2026-10-04",
       "source": "机器之心",
       "type": "industry",
       "tags": [

@@ -1,42 +1,7 @@
 {
   "last_updated": "2026-11-14",
-  "count": 8,
+  "count": 4,
   "items": [
-    {
-      "title": "AgentSSL: Can MLE Agents Leverage Unlabeled Data?",
-      "authors": "Ethan Lin, Akanksha Sarkar, Ziang Liu et al.",
-      "abstract": "Applying machine learning systems to new domains introduces bottlenecks in both labeled data acquisition and manual pipeline engineering. While recent MLE agents show promise in automating pipeline design, they have been studied almost exclusively in fully supervised settings, leaving them untested ...",
-      "venue": "arXiv",
-      "date": "2026-11-12",
-      "arxiv_id": "2611.17323v1",
-      "url": "https://arxiv.org/abs/2611.17323v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.17323v1.pdf",
-      "categories": [
-        "cs.AI",
-        "cs.LG"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "CoReMem: Cost-Internalizing Memory for Successive Coding Tasks with Prospective Valuation",
-      "authors": "Peiwen Li, Harshit Verma, Sophia Zhou et al.",
-      "abstract": "Coding agents tackle successive tasks on an evolving repository, carrying forward edits and writing memory before the next task is known. Selecting memory for unknown next tasks requires balancing future usefulness against the costs of writing and reading it. The actor must also decide when acting o...",
-      "venue": "arXiv",
-      "date": "2026-11-12",
-      "arxiv_id": "2611.17316v1",
-      "url": "https://arxiv.org/abs/2611.17316v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.17316v1.pdf",
-      "categories": [
-        "cs.AI",
-        "cs.CL",
-        "cs.SE"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
     {
       "title": "ArchSpace: Recording, Reviewing, and Referencing LLM Architecture Research",
       "authors": "Jie Wang, Tong Zhu, JiaHao Kuang et al.",
@@ -100,39 +65,6 @@
         "cs.LG"
       ],
       "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "ProtoVis-Nav: Prototypical Visual Imagination for Visual-Spatial Aligned UAV Navigation",
-      "authors": "Guangyuan Sui, Yunzhong Hou, Chi Harold Liu",
-      "abstract": "Vision language navigation (VLN) is very challenging for Unmanned Aerial Vehicles (UAVs) since small errors in 3D motion prediction can lead to navigation errors and collisions. Unable to fathom execution outcomes in 3D environments, existing methods often struggle to predict accurate navigation way...",
-      "venue": "arXiv",
-      "date": "2026-11-12",
-      "arxiv_id": "2611.17330v1",
-      "url": "https://arxiv.org/abs/2611.17330v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.17330v1.pdf",
-      "categories": [
-        "cs.RO",
-        "cs.CV"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "HEIR: Harness Egocentric Intent for Human-Robot Interactions",
-      "authors": "Yichi Zhang, Bo Wang, Zhenghan Zhu et al.",
-      "abstract": "For robots to assist, serve, and collaborate with humans, they must not only interpret human requests conveyed through language and multimodal intentional cues, but also execute long-horizon tasks that interleave navigation and manipulation. In this paper, we introduce HEIR, a resource for studying ...",
-      "venue": "arXiv",
-      "date": "2026-11-12",
-      "arxiv_id": "2611.17238v1",
-      "url": "https://arxiv.org/abs/2611.17238v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.17238v1.pdf",
-      "categories": [
-        "cs.RO"
-      ],
-      "type": "ai",
       "badge": "arxiv",
       "source": "arXiv"
     }
