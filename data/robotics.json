@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-13",
+  "last_updated": "2026-11-14",
   "count": 200,
   "items": [
     {
@@ -105,6 +105,19 @@
         "机器人学习",
         "研究论文",
         "arXiv"
+      ]
+    },
+    {
+      "title": "具身智能市场开始分化了。",
+      "summary": "具身智能市场开始分化了。",
+      "url": "https://36kr.com/p/4066763399190146",
+      "date": "2026-11-12",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
       ]
     },
     {
@@ -3041,22 +3054,6 @@
       "type": "paper",
       "arxiv_id": "2610.26852v1",
       "authors": "Zehao Wang, Jianpeng Yao et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Where is Physical RSI capability from? An Observational Scaling Law of LLM-as-policy",
-      "summary": "In this paper, we systematically investigate the mechanisms, scaling behavior, and generalization of physical Recursive self-improvement. We introduce PhysRSI-eval to quantify physical RSI through a five-axis metric: First-Attempt Performance, Effici...",
-      "url": "https://arxiv.org/abs/2610.26848v1",
-      "date": "2026-10-19",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.26848v1",
-      "authors": "Zekai Li, Jiayi Yu et al.",
       "tags": [
         "机器人学习",
         "研究论文",
