@@ -1,19 +1,20 @@
 ---
-title: 全球AI估值重估，国内大模型公司面临现实考验
-date: '2026-11-11'
+title: '[Anthropic估值缩水，压力给到国内大模型公司'
+date: '2026-11-15'
 type: news
 source: 36氪
 category: AI投资
 link: https://36kr.com/p/4064775459001223
-summary: 全球AI估值重估，国内大模型公司面临现实考验
+summary: '[Anthropic估值缩水，压力给到国内大模型公司'
 tags:
 - AI投资
+- Anthropic
 - 大模型
 ---
 
 ## 📊 投资摘要
 
-全球AI估值重估，国内大模型公司面临现实考验
+[Anthropic估值缩水，压力给到国内大模型公司
 
 ## 🔗 原文链接
 
