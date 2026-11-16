@@ -3,6 +3,98 @@
   "count": 200,
   "items": [
     {
+      "title": "The State Is Not the Bottleneck: A Paged-State Gated-DeltaNet Tile on a Tri-Mode Multicast Mesh, Bit-Exact from RTL to Silicon",
+      "summary": "Linear-attention language models replace a growing key-value cache with a recurrent state of fixed size. On an edge FPGA, this state can exceed the on-chip memory and must be paged to external memory. This paper asks whether such paging dominates the...",
+      "url": "https://arxiv.org/abs/2611.18422v1",
+      "date": "2026-11-13",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.18422v1",
+      "authors": "Cong Xu, Ravi Sankar",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "CS-MPC: Contraction-Certified Sampling-Based MPC for Nonlinear Systems Under Uncertainty",
+      "summary": "We present contraction-certified sampling-based model predictive control (CS-MPC) for tracking and safety of nonlinear robotic systems under parametric uncertainty, disturbances, and safety constraints that are revealed online. CS-MPC uses a contract...",
+      "url": "https://arxiv.org/abs/2611.18390v1",
+      "date": "2026-11-13",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.18390v1",
+      "authors": "Yashwanth Kumar Nakka",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Vision-Language-Action Models: A Life-Cycle Survey of Design, Training and Deployment",
+      "summary": "Vision-language-action (VLA) models adapt web-pretrained vision-language models to output robot actions, so that web knowledge carries over to physical control. In under 4 years the field has moved from RT-2, the first VLA, to open models that fine-t...",
+      "url": "https://arxiv.org/abs/2611.18372v1",
+      "date": "2026-11-13",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.18372v1",
+      "authors": "Suvarna Kadam, Soran Parsa",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Heavy Metal Acrobatics: Learning Dynamic Control for Skid-Steer Loaders",
+      "summary": "Automation of heavy machinery offers the opportunity to improve productivity in mechanized industries such as construction, mining, and material handling. Yet, automation of such machines is challenged by their complex dynamics, in part because of hy...",
+      "url": "https://arxiv.org/abs/2611.18365v1",
+      "date": "2026-11-13",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.18365v1",
+      "authors": "Pierre-Jean Lorentz, Pascal Egli et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Envisioning Agentic Robotics: A New Era of Robotic Systems",
+      "summary": "The release of GPT-6 Astra marks the emergence of a new paradigm in robotics: agentic robotics. Within weeks, frontier models with agentic harnesses matched or exceeded task-specific policies on many embodied benchmarks. Instead of training a dedicat...",
+      "url": "https://arxiv.org/abs/2611.18359v1",
+      "date": "2026-11-13",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.18359v1",
+      "authors": "Grid Robotics, : et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "机器人想上岗？先补数据课！",
+      "summary": "机器人想上岗？先补数据课！",
+      "url": "https://36kr.com/p/4067487054484612",
+      "date": "2026-11-13",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
       "title": "Per-Agent-Safe Navigation of Globally Driven Robot Collectives via Affine Field Design",
       "summary": "Safe navigation of robot collectives requires coordinating motion and deformation so that the collective can traverse constrained environments while ensuring each robot's safety. Existing controllers for swarmalator collectives largely rely on local ...",
       "url": "https://arxiv.org/abs/2611.17859v1",
@@ -80,18 +172,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "机器人想上岗？先补数据课！",
-      "summary": "机器人想上岗？先补数据课！",
-      "url": "https://36kr.com/p/4067487054484612",
-      "date": "2026-11-13",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
       ]
     },
     {
@@ -2973,86 +3053,6 @@
       "type": "paper",
       "arxiv_id": "2610.28626v1",
       "authors": "Rahul Sajnani, Diego Romeres et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Industrial ReMEmbR: Scaling Spatiotemporal Memory to Robot Fleets",
-      "summary": "Warehouse robot fleets continuously observe operational conditions, but preserving these observations as reusable semantic memory incurs substantial computation, communication, and storage costs. For example, explaining recurring aisle blockages can ...",
-      "url": "https://arxiv.org/abs/2610.28624v1",
-      "date": "2026-10-20",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.28624v1",
-      "authors": "Jad Yammine, Malek Wahidi et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Planning under Noise with Neural Operators",
-      "summary": "Planning under uncertain control execution noise requires reliable feedback policies across diverse environments. We introduce Planning Under Noise (PUN), a neural operator that learns noise-aware value fields for planning in unseen geometries. Build...",
-      "url": "https://arxiv.org/abs/2610.28623v1",
-      "date": "2026-10-20",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.28623v1",
-      "authors": "Michael Chen, Hong Chul Nam et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "EventSync: Event-Driven Memory Updates for History-Dependent Manipulation",
-      "summary": "History-dependent robotic manipulation requires task context and interaction history, as the current observation alone is insufficient to determine the next action. Hierarchical frameworks use task memory for high-level subgoal reasoning and low-leve...",
-      "url": "https://arxiv.org/abs/2610.27917v1",
-      "date": "2026-10-20",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.27917v1",
-      "authors": "Jingjiao Zhao, Dong Jing et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "What Novice Operators See Changes What the Policy Learns: A User Study of Keypoint Hand Visual Representation for Teleoperated Demonstration",
-      "summary": "Imitation learning increasingly relies on novice operators, whose demonstrations fall short of experts' in number and inter-trial consistency. Operators act on what they are shown, yet how the rendering of the robot affects their demonstrations, and ...",
-      "url": "https://arxiv.org/abs/2610.27907v1",
-      "date": "2026-10-20",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.27907v1",
-      "authors": "Amane Yamaguchi, Shohei Kamiguchi et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "High-Precision RCM Motion for Ophthalmic Robotics via Hierarchical QP Control and Authority-Guided Recovery Planning",
-      "summary": "General-purpose manipulators can position ophthalmic instruments under a software Remote Centre of Motion (RCM). However, at some reachable configurations that are nonsingular for the tip task alone, the RCM and tip-tracking objectives conflict and t...",
-      "url": "https://arxiv.org/abs/2610.27905v1",
-      "date": "2026-10-20",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.27905v1",
-      "authors": "Huanyu Tian, Adriana Namour et al.",
       "tags": [
         "机器人学习",
         "研究论文",

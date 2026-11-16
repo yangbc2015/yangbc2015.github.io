@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-11-16",
-  "count": 10,
+  "count": 8,
   "items": [
     {
       "title": "When to Trust Simulated Patient Responses:Support-Gated World Models for Vasopressor Decision Support",
@@ -66,38 +66,6 @@
         "cs.CV"
       ],
       "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Cracks in Embeddings: Robustness and Stability of JEPA-Based Chest X-Ray Representations",
-      "authors": "Zahid Mansur, Kalpana Yadav, Deepak Mishra",
-      "abstract": "Self-supervised Joint Embedding Predictive Architecture (JEPA) models are increasingly used for medical imaging, however there is a limited understanding about robustness of these models toward real-world image changes. We test four JEPA-based chest X-ray encoders, trained on 78,468 NIH ChestX-ray14...",
-      "venue": "arXiv",
-      "date": "2026-11-13",
-      "arxiv_id": "2611.17905v1",
-      "url": "https://arxiv.org/abs/2611.17905v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.17905v1.pdf",
-      "categories": [
-        "cs.CV"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Zoom In, Scale Out: Metric Depth Models Mistake Digital Zoom for Moving Closer",
-      "authors": "Rabeya Noor, Khandoker Nosiba Arifin",
-      "abstract": "Many new AI models estimate how far away things are, in metres, from a single photo. To do this they must also work out what camera took the photo. We check whether they really do with a simple test: digital zoom, that is, cropping a photo and enlarging the crop back to full size. Zooming moves noth...",
-      "venue": "arXiv",
-      "date": "2026-11-13",
-      "arxiv_id": "2611.17903v1",
-      "url": "https://arxiv.org/abs/2611.17903v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.17903v1.pdf",
-      "categories": [
-        "cs.CV"
-      ],
-      "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     },
