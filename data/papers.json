@@ -1,68 +1,49 @@
 {
-  "last_updated": "2026-11-15",
-  "count": 8,
+  "last_updated": "2026-11-16",
+  "count": 10,
   "items": [
     {
-      "title": "AgentSSL: Can MLE Agents Leverage Unlabeled Data?",
-      "authors": "Ethan Lin, Akanksha Sarkar, Ziang Liu et al.",
-      "abstract": "Applying machine learning systems to new domains introduces bottlenecks in both labeled data acquisition and manual pipeline engineering. While recent MLE agents show promise in automating pipeline design, they have been studied almost exclusively in fully supervised settings, leaving them untested ...",
+      "title": "When to Trust Simulated Patient Responses:Support-Gated World Models for Vasopressor Decision Support",
+      "authors": "Yifan Jin, Tao Liu",
+      "abstract": "Clinical world models expose language-model agents to predicted patient responses, but simulations can be unreliable for poorly supported treatments or unfamiliar hospitals. We introduce Support-Gated World-Model decision support, a lightweight extension of a propose--simulate--refine agent. A recur...",
       "venue": "arXiv",
-      "date": "2026-11-12",
-      "arxiv_id": "2611.17323v1",
-      "url": "https://arxiv.org/abs/2611.17323v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.17323v1.pdf",
+      "date": "2026-11-13",
+      "arxiv_id": "2611.18458v1",
+      "url": "https://arxiv.org/abs/2611.18458v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.18458v1.pdf",
       "categories": [
-        "cs.AI",
-        "cs.LG"
+        "cs.AI"
       ],
-      "type": "ml",
+      "type": "ai",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "CoReMem: Cost-Internalizing Memory for Successive Coding Tasks with Prospective Valuation",
-      "authors": "Peiwen Li, Harshit Verma, Sophia Zhou et al.",
-      "abstract": "Coding agents tackle successive tasks on an evolving repository, carrying forward edits and writing memory before the next task is known. Selecting memory for unknown next tasks requires balancing future usefulness against the costs of writing and reading it. The actor must also decide when acting o...",
+      "title": "Black-Box Uncertainty Quantification for Large Language Models via Ensemble-of-Ensembles",
+      "authors": "Wang Ma, Debarun Bhattacharjya, Junkyu Lee et al.",
+      "abstract": "Reliable use of large language models (LLMs) requires uncertainty estimates that separate ambiguity intrinsic to a prompt from genuine knowledge gaps. Bayesian and deep-ensemble methods deliver this aleatoric/epistemic decomposition in principle, but are computationally prohibitive at LLM scale and ...",
       "venue": "arXiv",
-      "date": "2026-11-12",
-      "arxiv_id": "2611.17316v1",
-      "url": "https://arxiv.org/abs/2611.17316v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.17316v1.pdf",
+      "date": "2026-11-13",
+      "arxiv_id": "2611.18453v1",
+      "url": "https://arxiv.org/abs/2611.18453v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.18453v1.pdf",
       "categories": [
-        "cs.AI",
-        "cs.CL",
-        "cs.SE"
+        "cs.LG",
+        "cs.AI"
       ],
       "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "ArchSpace: Recording, Reviewing, and Referencing LLM Architecture Research",
-      "authors": "Jie Wang, Tong Zhu, JiaHao Kuang et al.",
-      "abstract": "Model architecture shapes the scaling behavior, training efficiency, and inference cost of LLMs, making it a central focus of both industry and academia. In industry, teams such as those behind DeepSeek, Qwen, and Kimi routinely introduce architectural innovations, yet public reports rarely document...",
+      "title": "LitArc-Bench: Disentangling Text-Specific Reader-Response Dynamics from Position and Lexical Affect",
+      "authors": "Mingming Su, Yushan Wei, Sen Song et al.",
+      "abstract": "When model predictions track an unfolding human affect trajectory, alignment may reflect narrative position, affective words, or text-specific reader-response dynamics. We introduce LitArc-Bench to separate these explanations: 39 Chinese-language literary excerpts segmented into seven checkpoints, w...",
       "venue": "arXiv",
-      "date": "2026-11-12",
-      "arxiv_id": "2611.17332v1",
-      "url": "https://arxiv.org/abs/2611.17332v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.17332v1.pdf",
-      "categories": [
-        "cs.CL",
-        "cs.LG"
-      ],
-      "type": "survey",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Learning When Diffusion Language Models Should Regenerate",
-      "authors": "Minhae Oh, Jeonghye Kim, Jinwoo Koo et al.",
-      "abstract": "Remasking allows diffusion language models to revisit generated text, but effective correction requires knowing when and what to revise. Our diagnosis on Sudoku reveals two gaps. Hidden states contain error information that token confidence does not reliably expose, and remasking an isolated error u...",
-      "venue": "arXiv",
-      "date": "2026-11-12",
-      "arxiv_id": "2611.17320v1",
-      "url": "https://arxiv.org/abs/2611.17320v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.17320v1.pdf",
+      "date": "2026-11-13",
+      "arxiv_id": "2611.18412v1",
+      "url": "https://arxiv.org/abs/2611.18412v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.18412v1.pdf",
       "categories": [
         "cs.CL"
       ],
@@ -71,14 +52,32 @@
       "source": "arXiv"
     },
     {
-      "title": "Back to Pixels: Lifting Latent Video Diffusion into Pixel Space",
-      "authors": "Yanke Song, Shuo Chen, Chris Rockwell et al.",
-      "abstract": "Frontier video generation models work in a VAE latent space that compresses video in both space and time. This compression made training tractable, but now limits high-resolution, controllable, and interactive generation -- doubling resolution quadruples token count, conditions apply to groups of fr...",
+      "title": "Gamer: A Generalist Vision-Language-Action Foundation Model for Long-Horizon Real-Time Game Agent",
+      "authors": "Run Luo, Kuan Zhang, Qi Deng et al.",
+      "abstract": "We introduce Gamer, a generalist agent framework built for long-horizon tasks in complex interactive environments. Its end-to-end architecture combines perception, memory management, and multi-step reasoning. A shared training and deployment pipeline supports interaction with both conventional 2D gr...",
       "venue": "arXiv",
-      "date": "2026-11-12",
-      "arxiv_id": "2611.17336v1",
-      "url": "https://arxiv.org/abs/2611.17336v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.17336v1.pdf",
+      "date": "2026-11-13",
+      "arxiv_id": "2611.18397v1",
+      "url": "https://arxiv.org/abs/2611.18397v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.18397v1.pdf",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.CV"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Cracks in Embeddings: Robustness and Stability of JEPA-Based Chest X-Ray Representations",
+      "authors": "Zahid Mansur, Kalpana Yadav, Deepak Mishra",
+      "abstract": "Self-supervised Joint Embedding Predictive Architecture (JEPA) models are increasingly used for medical imaging, however there is a limited understanding about robustness of these models toward real-world image changes. We test four JEPA-based chest X-ray encoders, trained on 78,468 NIH ChestX-ray14...",
+      "venue": "arXiv",
+      "date": "2026-11-13",
+      "arxiv_id": "2611.17905v1",
+      "url": "https://arxiv.org/abs/2611.17905v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.17905v1.pdf",
       "categories": [
         "cs.CV"
       ],
@@ -87,49 +86,83 @@
       "source": "arXiv"
     },
     {
-      "title": "Unbundling Multimodal Vision Encoding",
-      "authors": "Ellis Brown, Chris Hoang, Shengyi Qian et al.",
-      "abstract": "How multimodal language models should encode visual input remains up for debate. Most models use a pretrained vision encoder, while some recent recipes train the encoder from scratch with the language model or remove it entirely. Vision encoders bundle together three design choices: a visual prior f...",
+      "title": "Zoom In, Scale Out: Metric Depth Models Mistake Digital Zoom for Moving Closer",
+      "authors": "Rabeya Noor, Khandoker Nosiba Arifin",
+      "abstract": "Many new AI models estimate how far away things are, in metres, from a single photo. To do this they must also work out what camera took the photo. We check whether they really do with a simple test: digital zoom, that is, cropping a photo and enlarging the crop back to full size. Zooming moves noth...",
       "venue": "arXiv",
-      "date": "2026-11-12",
-      "arxiv_id": "2611.17334v1",
-      "url": "https://arxiv.org/abs/2611.17334v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.17334v1.pdf",
+      "date": "2026-11-13",
+      "arxiv_id": "2611.17903v1",
+      "url": "https://arxiv.org/abs/2611.17903v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.17903v1.pdf",
       "categories": [
-        "cs.CV",
+        "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Sample-efficient prediction of high-entropy alloy strength through outcome-aware robust sequential learning",
+      "authors": "Ahmed Shoyeb Raihan, Md Habibor Rahman, Ashish Nimbarte et al.",
+      "abstract": "Accurate prediction of high-entropy alloy (HEA) strength can guide composition and processing decisions; however, obtaining tensile-test data for HEAs can be costly and experimentally demanding. This study proposes Robust Outcome-aware Sequential Experimentation for High-Entropy Alloys (ROSE-HEA), a...",
+      "venue": "arXiv",
+      "date": "2026-11-13",
+      "arxiv_id": "2611.18462v1",
+      "url": "https://arxiv.org/abs/2611.18462v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.18462v1.pdf",
+      "categories": [
         "cs.LG"
       ],
-      "type": "vision",
+      "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "ProtoVis-Nav: Prototypical Visual Imagination for Visual-Spatial Aligned UAV Navigation",
-      "authors": "Guangyuan Sui, Yunzhong Hou, Chi Harold Liu",
-      "abstract": "Vision language navigation (VLN) is very challenging for Unmanned Aerial Vehicles (UAVs) since small errors in 3D motion prediction can lead to navigation errors and collisions. Unable to fathom execution outcomes in 3D environments, existing methods often struggle to predict accurate navigation way...",
+      "title": "Callo: Serving Cache-Miss Requests with Speculative Decoding on Invalidated KV under Prefill-Decode Disaggregation",
+      "authors": "Jianjun Ou, Matthew Lentz",
+      "abstract": "Agent sessions may involve frequent context edits, which effectively invalidate cached KV state and force requests to wait for re-prefill before decoding. We present Callo, a disaggregated serving system that leverages invalidated KV for speculative drafts to reduce this latency, while verifying dra...",
       "venue": "arXiv",
-      "date": "2026-11-12",
-      "arxiv_id": "2611.17330v1",
-      "url": "https://arxiv.org/abs/2611.17330v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.17330v1.pdf",
+      "date": "2026-11-13",
+      "arxiv_id": "2611.18459v1",
+      "url": "https://arxiv.org/abs/2611.18459v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.18459v1.pdf",
+      "categories": [
+        "cs.DC",
+        "cs.LG"
+      ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "The State Is Not the Bottleneck: A Paged-State Gated-DeltaNet Tile on a Tri-Mode Multicast Mesh, Bit-Exact from RTL to Silicon",
+      "authors": "Cong Xu, Ravi Sankar",
+      "abstract": "Linear-attention language models replace a growing key-value cache with a recurrent state of fixed size. On an edge FPGA, this state can exceed the on-chip memory and must be paged to external memory. This paper asks whether such paging dominates the cost of decoding (generating tokens). We built a ...",
+      "venue": "arXiv",
+      "date": "2026-11-13",
+      "arxiv_id": "2611.18422v1",
+      "url": "https://arxiv.org/abs/2611.18422v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.18422v1.pdf",
       "categories": [
         "cs.RO",
-        "cs.CV"
+        "cs.AR",
+        "cs.LG"
       ],
-      "type": "vision",
+      "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "HEIR: Harness Egocentric Intent for Human-Robot Interactions",
-      "authors": "Yichi Zhang, Bo Wang, Zhenghan Zhu et al.",
-      "abstract": "For robots to assist, serve, and collaborate with humans, they must not only interpret human requests conveyed through language and multimodal intentional cues, but also execute long-horizon tasks that interleave navigation and manipulation. In this paper, we introduce HEIR, a resource for studying ...",
+      "title": "CS-MPC: Contraction-Certified Sampling-Based MPC for Nonlinear Systems Under Uncertainty",
+      "authors": "Yashwanth Kumar Nakka",
+      "abstract": "We present contraction-certified sampling-based model predictive control (CS-MPC) for tracking and safety of nonlinear robotic systems under parametric uncertainty, disturbances, and safety constraints that are revealed online. CS-MPC uses a contraction-certified tracking feedback inside every sampl...",
       "venue": "arXiv",
-      "date": "2026-11-12",
-      "arxiv_id": "2611.17238v1",
-      "url": "https://arxiv.org/abs/2611.17238v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.17238v1.pdf",
+      "date": "2026-11-13",
+      "arxiv_id": "2611.18390v1",
+      "url": "https://arxiv.org/abs/2611.18390v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.18390v1.pdf",
       "categories": [
+        "eess.SY",
         "cs.RO"
       ],
       "type": "ai",

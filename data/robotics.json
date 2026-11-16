@@ -1,7 +1,87 @@
 {
-  "last_updated": "2026-11-15",
+  "last_updated": "2026-11-16",
   "count": 200,
   "items": [
+    {
+      "title": "Per-Agent-Safe Navigation of Globally Driven Robot Collectives via Affine Field Design",
+      "summary": "Safe navigation of robot collectives requires coordinating motion and deformation so that the collective can traverse constrained environments while ensuring each robot's safety. Existing controllers for swarmalator collectives largely rely on local ...",
+      "url": "https://arxiv.org/abs/2611.17859v1",
+      "date": "2026-11-13",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.17859v1",
+      "authors": "Seunghwan Jang, Steven Ceron et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Multimodal Person Concept Model for Person Identification under Varying Observation Conditions",
+      "summary": "Service robots in domestic and office environments must identify users to provide personalized services based on their preferences and previous interactions. This is challenging because only a few observations may be available for learning, while obs...",
+      "url": "https://arxiv.org/abs/2611.17802v1",
+      "date": "2026-11-13",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.17802v1",
+      "authors": "Mizuho Okitani, Yoshinobu Hagiwara",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Beyond Prediction Gain: LASR as a Metric for Action-Grounded Latents in World Models",
+      "summary": "World models that support planning, control, and interpretable reasoning require latent representations that genuinely encode action. Yet the large-scale video data from which such models are learned overwhelmingly lack action annotations. Latent-act...",
+      "url": "https://arxiv.org/abs/2611.17775v1",
+      "date": "2026-11-13",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.17775v1",
+      "authors": "Yu Zhou, Changsong Lei et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "When Does Cross-View Consistency Matter in Multi-View Appearance Augmentation? A Controlled Study for Visuomotor Policies",
+      "summary": "Multi-view visual augmentation often seeks consistency across cameras, but it is unclear which forms of consistency matter for downstream control. We use simulation-state replay to manipulate cross-view coupling while preserving the per-camera pertur...",
+      "url": "https://arxiv.org/abs/2611.17751v1",
+      "date": "2026-11-13",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.17751v1",
+      "authors": "Zixuan Jiang",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "ERA: Error-Resistant Autonomous Object Navigation with Predicted Depth",
+      "summary": "Depth and 3D foundation models can predict geometry from RGB images, allowing zero-shot object navigation without a depth sensor. However, when predicted depth is mapped as if it came from a sensor, view-dependent errors accumulate in the map, remove...",
+      "url": "https://arxiv.org/abs/2611.17730v1",
+      "date": "2026-11-13",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.17730v1",
+      "authors": "Shunyang Huang, Shuo Wang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
     {
       "title": "机器人想上岗？先补数据课！",
       "summary": "机器人想上岗？先补数据课！",
@@ -31,6 +111,19 @@
       "summary": "[香港国际 具 身 智 能 领袖峰会重磅来袭｜全球视野，具身远航",
       "url": "https://36kr.com/p/4063344189297545",
       "date": "2026-11-13",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "具身智能市场开始分化了。",
+      "summary": "具身智能市场开始分化了。",
+      "url": "https://36kr.com/p/4066763399190146",
+      "date": "2026-11-12",
       "source": "36氪",
       "category": "具身智能",
       "type": "news",
@@ -117,19 +210,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "具身智能市场开始分化了。",
-      "summary": "具身智能市场开始分化了。",
-      "url": "https://36kr.com/p/4066763399190146",
-      "date": "2026-11-12",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
       ]
     },
     {
@@ -2973,83 +3053,6 @@
       "type": "paper",
       "arxiv_id": "2610.27905v1",
       "authors": "Huanyu Tian, Adriana Namour et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Enumeration-Guided Training of Neural Hamilton-Jacobi Safety Certificates",
-      "summary": "Hamilton-Jacobi (HJ) reachability analysis offers formal safety guarantees for control systems, but training accurate neural certificates remains difficult, particularly when unsafe regions are hard to characterize. We propose a verification-guided t...",
-      "url": "https://arxiv.org/abs/2610.27870v1",
-      "date": "2026-10-20",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.27870v1",
-      "authors": "Mihaela-Larisa Clement, Tosca Pierro et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Frontier LLMs Enter the World of Robotics: A Cross-Model Evaluation on RoboColiseum",
-      "summary": "Recent studies have explored the potential of multimodal large language models for robot control, yet the models' embodied capabilities remain insufficiently characterized across models, tasks, and execution settings. We conduct a multidimensional co...",
-      "url": "https://arxiv.org/abs/2610.27865v1",
-      "date": "2026-10-20",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.27865v1",
-      "authors": "Da Huang, Jichao Wang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "中美具身智能创投差异大，炒作泡沫需警惕真实落地。",
-      "summary": "中美具身智能创投差异大，炒作泡沫需警惕真实落地。",
-      "url": "http://36kr.com/p/4030864289026435",
-      "date": "2026-10-19",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "Ropedia W0: Scaling Loco-Manipulation World Models across Embodiments with Human Experience",
-      "summary": "World models enable embodied agents to anticipate action consequences, yet jointly modeling locomotion and manipulation across diverse embodiments remains challenging due to heterogeneous action spaces and limited multimodal supervision. We present R...",
-      "url": "https://arxiv.org/abs/2610.26855v1",
-      "date": "2026-10-19",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.26855v1",
-      "authors": "Tianqi Liu, Hanfei Zhao et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Physical Words: A Vocabulary for Structuring Latent Reasoning in Robot Manipulation",
-      "summary": "Multimodal reasoning provides robotic foundation models with predictive context needed for reliable action generation. However, language-based reasoning captures task semantics but struggles to express fine-grained physical dynamics, while latent rea...",
-      "url": "https://arxiv.org/abs/2610.26854v1",
-      "date": "2026-10-19",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.26854v1",
-      "authors": "Jiaming Liu, Xinghao Zhu et al.",
       "tags": [
         "机器人学习",
         "研究论文",

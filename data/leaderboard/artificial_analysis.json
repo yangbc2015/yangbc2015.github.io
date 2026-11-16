@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-15T22:23:39.190439+00:00",
+  "last_updated": "2026-11-16T03:44:52.134410+00:00",
   "source": "Artificial Analysis",
   "source_url": "https://artificialanalysis.ai/leaderboards/models",
   "description": "综合AI模型性能排行榜，基于智能指数、价格、输出速度、上下文窗口等多维度指标对模型进行评测。",
@@ -41,8 +41,8 @@
       "icon": "🎯"
     },
     {
-      "rank": 19,
-      "model": "Qwen3.8 Max",
+      "rank": 15,
+      "model": "Qwen4 Max",
       "organization": "Alibaba",
       "intelligence_index": 0,
       "price_per_1m_tokens": 0,
