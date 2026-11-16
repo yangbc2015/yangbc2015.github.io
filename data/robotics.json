@@ -3,6 +3,98 @@
   "count": 200,
   "items": [
     {
+      "title": "Training Reasoning Models in Simulation to Natively Use Real Robots",
+      "summary": "Robot-use agents (RUAs) have emerged as a promising approach to general-purpose robot control. However, strong performance has so far been achieved only by frontier proprietary models such as GPT-6 Astra and Claude Fable 5.2, whereas open-weight mode...",
+      "url": "https://arxiv.org/abs/2611.18562v1",
+      "date": "2026-11-13",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.18562v1",
+      "authors": "Jiaming Tang, Zhuoyang Zhang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Modeling the Frictional Contact of Continuum Robots with Environments through Linear Complementarity Problem",
+      "summary": "Accurate friction modeling in continuum robots is essential for precise motion control and path planning. However, current approaches make predictions only for the mechanism's internal friction that is limited by the boundary forces of the Coulomb fr...",
+      "url": "https://arxiv.org/abs/2611.18546v1",
+      "date": "2026-11-13",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.18546v1",
+      "authors": "Jia Shen, Junhyoung Ha et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Disturbance-Aware Informative Planning in Spatiotemporal Environments",
+      "summary": "Autonomous robots are widely used for persistent monitoring of spatiotemporal environments, where quantities of interest (QoI) change across space and time and require repeated measurements. In practice, robot motion can be affected by external distu...",
+      "url": "https://arxiv.org/abs/2611.18505v1",
+      "date": "2026-11-13",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.18505v1",
+      "authors": "Kaleb Ben Naveed, Haejoon Lee et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "In Situ Monitoring and Predictive Modeling of Harmful Algal Blooms with Autonomous Surface Vehicles",
+      "summary": "Harmful Algal Blooms (HABs) pose significant environmental, economic, and public-health challenges in coastal and inland water bodies, creating a need for scalable methods to collect spatially distributed water-quality data. This paper presents an au...",
+      "url": "https://arxiv.org/abs/2611.18501v1",
+      "date": "2026-11-13",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.18501v1",
+      "authors": "Nenyi Kweku Nkensen Dadson, Jean Paul Gonzalez et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Toward Resilient Self-Driving Laboratories through Telerobotic Interventions",
+      "summary": "Self-driving laboratories (SDLs) accelerate scientific research by integrating robotics, automated experimentation, and machine learning to execute experiments autonomously. Biology and chemistry have adopted these systems. However, increasing SDL co...",
+      "url": "https://arxiv.org/abs/2611.18496v1",
+      "date": "2026-11-13",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.18496v1",
+      "authors": "Ziheng Wu, Adrian Vecina Tercero et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "机器人想上岗？先补数据课！",
+      "summary": "机器人想上岗？先补数据课！",
+      "url": "https://36kr.com/p/4067487054484612",
+      "date": "2026-11-13",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
       "title": "The State Is Not the Bottleneck: A Paged-State Gated-DeltaNet Tile on a Tri-Mode Multicast Mesh, Bit-Exact from RTL to Silicon",
       "summary": "Linear-attention language models replace a growing key-value cache with a recurrent state of fixed size. On an edge FPGA, this state can exceed the on-chip memory and must be paged to external memory. This paper asks whether such paging dominates the...",
       "url": "https://arxiv.org/abs/2611.18422v1",
@@ -80,18 +172,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "机器人想上岗？先补数据课！",
-      "summary": "机器人想上岗？先补数据课！",
-      "url": "https://36kr.com/p/4067487054484612",
-      "date": "2026-11-13",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
       ]
     },
     {
@@ -2983,80 +3063,6 @@
       "type": "news",
       "tags": [
         "机器人"
-      ]
-    },
-    {
-      "title": "小派科技获智元觅蜂科技战略融资，将合力布局具身智能数据建设",
-      "summary": "小派科技获智元觅蜂科技战略融资，将合力布局具身智能数据建设",
-      "url": "http://36kr.com/p/4032443469976200",
-      "date": "2026-10-20",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "具身智能融资IPO收紧，降温待业绩估值验证。",
-      "summary": "具身智能融资IPO收紧，降温待业绩估值验证。",
-      "url": "http://36kr.com/p/4033011189733252",
-      "date": "2026-10-20",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "Joints, Camera, Action! Co-Generating 3D Motion and Video for Arbitrary Rigs",
-      "summary": "Video generation models can now depict remarkably realistic motion. Yet it is unclear how to use this motion beyond pixels: to animate a specific 3D asset and replay the animation in its 3D scene. For instance, a video model can show a monkey jumping...",
-      "url": "https://arxiv.org/abs/2610.28632v1",
-      "date": "2026-10-20",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.28632v1",
-      "authors": "Noam Rotstein, Yoad Tewel et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Learning Adaptable Dexterous Skills via Hybrid Dexterous Mimicking",
-      "summary": "Dexterous multi-finger hands hold promise to unlock diverse skills like functional grasps, in-hand reorientation, and dynamic handover that the human-designed world assumes, yet existing learning recipes force a trade-off. Goal-reaching reinforcement...",
-      "url": "https://arxiv.org/abs/2610.28628v1",
-      "date": "2026-10-20",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.28628v1",
-      "authors": "Yuxuan Kuang, Jiashun Wang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "UniWALM: Unified World Action Language Model for Embodied Robot Control",
-      "summary": "Motivated by the human ability to integrate experience across language, perception, and action, we introduce UniWALM, a unified world-action-language model that learns video, action, and language in a single shared representation, where each modality...",
-      "url": "https://arxiv.org/abs/2610.28626v1",
-      "date": "2026-10-20",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.28626v1",
-      "authors": "Rahul Sajnani, Diego Romeres et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
       ]
     }
   ]

@@ -1,32 +1,16 @@
 {
   "last_updated": "2026-11-16",
-  "count": 8,
+  "count": 10,
   "items": [
     {
-      "title": "When to Trust Simulated Patient Responses:Support-Gated World Models for Vasopressor Decision Support",
-      "authors": "Yifan Jin, Tao Liu",
-      "abstract": "Clinical world models expose language-model agents to predicted patient responses, but simulations can be unreliable for poorly supported treatments or unfamiliar hospitals. We introduce Support-Gated World-Model decision support, a lightweight extension of a propose--simulate--refine agent. A recur...",
+      "title": "WeightBench: Evaluating Language Models as Weight-Space Programmers",
+      "authors": "Aayush Marasini, Barsat Khadka, Nick Rahimi",
+      "abstract": "Recent work shows that large language models (LLMs) can operate directly on the parameters of other neural networks. They can read what a network was trained to do, fix a network that fails, and write working networks from scratch, all without gradient descent. This capability has been termed Weight...",
       "venue": "arXiv",
       "date": "2026-11-13",
-      "arxiv_id": "2611.18458v1",
-      "url": "https://arxiv.org/abs/2611.18458v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.18458v1.pdf",
-      "categories": [
-        "cs.AI"
-      ],
-      "type": "ai",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Black-Box Uncertainty Quantification for Large Language Models via Ensemble-of-Ensembles",
-      "authors": "Wang Ma, Debarun Bhattacharjya, Junkyu Lee et al.",
-      "abstract": "Reliable use of large language models (LLMs) requires uncertainty estimates that separate ambiguity intrinsic to a prompt from genuine knowledge gaps. Bayesian and deep-ensemble methods deliver this aleatoric/epistemic decomposition in principle, but are computationally prohibitive at LLM scale and ...",
-      "venue": "arXiv",
-      "date": "2026-11-13",
-      "arxiv_id": "2611.18453v1",
-      "url": "https://arxiv.org/abs/2611.18453v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.18453v1.pdf",
+      "arxiv_id": "2611.18553v1",
+      "url": "https://arxiv.org/abs/2611.18553v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.18553v1.pdf",
       "categories": [
         "cs.LG",
         "cs.AI"
@@ -36,15 +20,51 @@
       "source": "arXiv"
     },
     {
-      "title": "LitArc-Bench: Disentangling Text-Specific Reader-Response Dynamics from Position and Lexical Affect",
-      "authors": "Mingming Su, Yushan Wei, Sen Song et al.",
-      "abstract": "When model predictions track an unfolding human affect trajectory, alignment may reflect narrative position, affective words, or text-specific reader-response dynamics. We introduce LitArc-Bench to separate these explanations: 39 Chinese-language literary excerpts segmented into seven checkpoints, w...",
+      "title": "Imitation Bootstrapped Multi-Agent Reinforcement Learning",
+      "authors": "Tony H. Zhang, Connor Mattson, Daniel S. Brown",
+      "abstract": "Demonstrations are an effective way to accelerate single-agent reinforcement learning (RL), but extending this idea to multi-agent reinforcement learning (MARL) is non-trivial as it is difficult and often impossible for a single person to teleoperate multiple agents simultaneously. Round-Robin Behav...",
       "venue": "arXiv",
       "date": "2026-11-13",
-      "arxiv_id": "2611.18412v1",
-      "url": "https://arxiv.org/abs/2611.18412v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.18412v1.pdf",
+      "arxiv_id": "2611.18543v1",
+      "url": "https://arxiv.org/abs/2611.18543v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.18543v1.pdf",
       "categories": [
+        "cs.AI",
+        "cs.MA"
+      ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "ModHarness-RL: Recasting Harnesses as Learnable and Evolving Programs for Agentic RL",
+      "authors": "Zelin He, Siyu Zhu, Jacob Helwig et al.",
+      "abstract": "Agentic reinforcement learning (RL) increasingly relies on a harness, the scaffold around the model that decides what it sees of its own interaction and what guidance it receives. Most existing approaches train under a hand-written harness that stays fixed throughout. However, an effective harness d...",
+      "venue": "arXiv",
+      "date": "2026-11-13",
+      "arxiv_id": "2611.18533v1",
+      "url": "https://arxiv.org/abs/2611.18533v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.18533v1.pdf",
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "WaferTetris: Efficient Freeform Mapping on Wafer-Scale Accelerators",
+      "authors": "Dayou Du, Congjie He, Andrew Boutros et al.",
+      "abstract": "Wafer-scale accelerators offer massive compute capacity through hundreds of thousands of processing elements (PEs) interconnected across a single wafer, but realizing this potential requires efficient application mapping. Their scale makes programming these systems and mapping applications onto them...",
+      "venue": "arXiv",
+      "date": "2026-11-13",
+      "arxiv_id": "2611.18527v1",
+      "url": "https://arxiv.org/abs/2611.18527v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.18527v1.pdf",
+      "categories": [
+        "cs.AR",
         "cs.CL"
       ],
       "type": "nlp",
@@ -52,68 +72,83 @@
       "source": "arXiv"
     },
     {
-      "title": "Gamer: A Generalist Vision-Language-Action Foundation Model for Long-Horizon Real-Time Game Agent",
-      "authors": "Run Luo, Kuan Zhang, Qi Deng et al.",
-      "abstract": "We introduce Gamer, a generalist agent framework built for long-horizon tasks in complex interactive environments. Its end-to-end architecture combines perception, memory management, and multi-step reasoning. A shared training and deployment pipeline supports interaction with both conventional 2D gr...",
+      "title": "BAL: Bidirectional Autoregression in Latent Space for Learning Human Movement Representations",
+      "authors": "Genki Kinoshita, Ko Nishino",
+      "abstract": "Learning semantically meaningful human movement representations from 3D pose sequences is essential for human behavior modeling. Existing self-supervised methods derive supervision from artificial assumptions, e.g., invariance to augmentation within a certain range or recoverability of masked region...",
       "venue": "arXiv",
       "date": "2026-11-13",
-      "arxiv_id": "2611.18397v1",
-      "url": "https://arxiv.org/abs/2611.18397v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.18397v1.pdf",
+      "arxiv_id": "2611.18559v1",
+      "url": "https://arxiv.org/abs/2611.18559v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.18559v1.pdf",
       "categories": [
-        "cs.CL",
-        "cs.AI",
+        "cs.CV",
+        "cs.LG"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Restoring Diversity in Distilled Image and Video Generators by Probing Activations",
+      "authors": "Furkan Horoz, Ozgur Kara, Kaan Oktay et al.",
+      "abstract": "Distilling diffusion models into few-step student models substantially reduces sampling latency, but induces severe diversity collapse: samples generated from different random seeds show minimal variation. In this work, we investigate the root cause of this failure by probing the internal representa...",
+      "venue": "arXiv",
+      "date": "2026-11-13",
+      "arxiv_id": "2611.18550v1",
+      "url": "https://arxiv.org/abs/2611.18550v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.18550v1.pdf",
+      "categories": [
         "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Pairing AIS with RF: Analysis of a Markovian Approach for Maritime Data Fusion",
+      "authors": "Daniel Grimm, Kyra Jongman, Renato Cordeiro Ferreira et al.",
+      "abstract": "Monitoring maritime activities is important for safety and security, particularly for detecting illegal activities, but remains challenging due to the size and complexity of the maritime domain. The Automatic Identification System (AIS) is commonly used for this purpose, despite its known vulnerabil...",
+      "venue": "arXiv",
+      "date": "2026-11-13",
+      "arxiv_id": "2611.18563v1",
+      "url": "https://arxiv.org/abs/2611.18563v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.18563v1.pdf",
+      "categories": [
+        "cs.LG",
+        "cs.CR"
+      ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "FETTUCCINE: Fast and efficient brain-to-text decoding on mobile devices",
+      "authors": "Jonathan D. McCart, Pranav I. Deevi, Mehdi Azabou et al.",
+      "abstract": "Recent advances in speech neuroprostheses have enabled new communication avenues for people who have lost the ability to speak due to neurological illness or injury. These systems can decode neural activity during attempted speech into text by relying on language priors to achieve high decoding accu...",
+      "venue": "arXiv",
+      "date": "2026-11-13",
+      "arxiv_id": "2611.18561v1",
+      "url": "https://arxiv.org/abs/2611.18561v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.18561v1.pdf",
+      "categories": [
+        "q-bio.NC",
+        "cs.LG"
       ],
       "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Sample-efficient prediction of high-entropy alloy strength through outcome-aware robust sequential learning",
-      "authors": "Ahmed Shoyeb Raihan, Md Habibor Rahman, Ashish Nimbarte et al.",
-      "abstract": "Accurate prediction of high-entropy alloy (HEA) strength can guide composition and processing decisions; however, obtaining tensile-test data for HEAs can be costly and experimentally demanding. This study proposes Robust Outcome-aware Sequential Experimentation for High-Entropy Alloys (ROSE-HEA), a...",
+      "title": "Training Reasoning Models in Simulation to Natively Use Real Robots",
+      "authors": "Jiaming Tang, Zhuoyang Zhang, Junxian Guo et al.",
+      "abstract": "Robot-use agents (RUAs) have emerged as a promising approach to general-purpose robot control. However, strong performance has so far been achieved only by frontier proprietary models such as GPT-6 Astra and Claude Fable 5.2, whereas open-weight models remain substantially less capable. We show that...",
       "venue": "arXiv",
       "date": "2026-11-13",
-      "arxiv_id": "2611.18462v1",
-      "url": "https://arxiv.org/abs/2611.18462v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.18462v1.pdf",
-      "categories": [
-        "cs.LG"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Callo: Serving Cache-Miss Requests with Speculative Decoding on Invalidated KV under Prefill-Decode Disaggregation",
-      "authors": "Jianjun Ou, Matthew Lentz",
-      "abstract": "Agent sessions may involve frequent context edits, which effectively invalidate cached KV state and force requests to wait for re-prefill before decoding. We present Callo, a disaggregated serving system that leverages invalidated KV for speculative drafts to reduce this latency, while verifying dra...",
-      "venue": "arXiv",
-      "date": "2026-11-13",
-      "arxiv_id": "2611.18459v1",
-      "url": "https://arxiv.org/abs/2611.18459v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.18459v1.pdf",
-      "categories": [
-        "cs.DC",
-        "cs.LG"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "The State Is Not the Bottleneck: A Paged-State Gated-DeltaNet Tile on a Tri-Mode Multicast Mesh, Bit-Exact from RTL to Silicon",
-      "authors": "Cong Xu, Ravi Sankar",
-      "abstract": "Linear-attention language models replace a growing key-value cache with a recurrent state of fixed size. On an edge FPGA, this state can exceed the on-chip memory and must be paged to external memory. This paper asks whether such paging dominates the cost of decoding (generating tokens). We built a ...",
-      "venue": "arXiv",
-      "date": "2026-11-13",
-      "arxiv_id": "2611.18422v1",
-      "url": "https://arxiv.org/abs/2611.18422v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.18422v1.pdf",
+      "arxiv_id": "2611.18562v1",
+      "url": "https://arxiv.org/abs/2611.18562v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.18562v1.pdf",
       "categories": [
         "cs.RO",
-        "cs.AR",
         "cs.LG"
       ],
       "type": "ml",
@@ -121,16 +156,15 @@
       "source": "arXiv"
     },
     {
-      "title": "CS-MPC: Contraction-Certified Sampling-Based MPC for Nonlinear Systems Under Uncertainty",
-      "authors": "Yashwanth Kumar Nakka",
-      "abstract": "We present contraction-certified sampling-based model predictive control (CS-MPC) for tracking and safety of nonlinear robotic systems under parametric uncertainty, disturbances, and safety constraints that are revealed online. CS-MPC uses a contraction-certified tracking feedback inside every sampl...",
+      "title": "Modeling the Frictional Contact of Continuum Robots with Environments through Linear Complementarity Problem",
+      "authors": "Jia Shen, Junhyoung Ha, Yue Chen",
+      "abstract": "Accurate friction modeling in continuum robots is essential for precise motion control and path planning. However, current approaches make predictions only for the mechanism's internal friction that is limited by the boundary forces of the Coulomb friction cone, which fail to characterize the static...",
       "venue": "arXiv",
       "date": "2026-11-13",
-      "arxiv_id": "2611.18390v1",
-      "url": "https://arxiv.org/abs/2611.18390v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.18390v1.pdf",
+      "arxiv_id": "2611.18546v1",
+      "url": "https://arxiv.org/abs/2611.18546v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.18546v1.pdf",
       "categories": [
-        "eess.SY",
         "cs.RO"
       ],
       "type": "ai",
