@@ -1,155 +1,105 @@
 {
   "last_updated": "2026-11-17",
-  "count": 9,
+  "count": 6,
   "items": [
     {
-      "title": "Instant Weight-Space Consolidation for Long-Term Memory in LLMs",
-      "authors": "Manan Suri, Dinesh Manocha",
-      "abstract": "Agentic memory systems give LLMs persistent memory by extracting experience into text and retrieving it at query time, but the model itself does not evolve: however many interactions it has had, it starts each query the same. Extraction errors compound, implicit cross-session patterns that no single...",
+      "title": "Latent Lattice Language Models",
+      "authors": "Shivam Duggal, Zongze Wu, William T. Freeman et al.",
+      "abstract": "Language models typically increase per-token computation through deeper or looped layers and latent reasoning steps, while richer residual connections improve information flow across layers. We instead increase computational capacity: the number of active computational states a model maintains. We i...",
       "venue": "arXiv",
       "date": "2026-11-16",
-      "arxiv_id": "2611.20759v1",
-      "url": "https://arxiv.org/abs/2611.20759v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.20759v1.pdf",
+      "arxiv_id": "2611.21608v1",
+      "url": "https://arxiv.org/abs/2611.21608v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.21608v1.pdf",
       "categories": [
-        "cs.CL"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "GPRM: Global Perspective Process Reward Model",
-      "authors": "Zifan Zhang, Zhengbo Jiao, Shaobo Wang et al.",
-      "abstract": "Process Reward Models (PRMs) are widely used for step-level evaluation of multi-step reasoning in large language models, but existing methods are often limited by weak historical dependency modeling and insufficient global awareness. They typically fail to leverage prior step evaluations for coheren...",
-      "venue": "arXiv",
-      "date": "2026-11-16",
-      "arxiv_id": "2611.20755v1",
-      "url": "https://arxiv.org/abs/2611.20755v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.20755v1.pdf",
-      "categories": [
-        "cs.CL"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "A Seismic Foundation Model for Dense Feature Extraction",
-      "authors": "Zhixiang Guo, Xinming Wu, Yimin Dou et al.",
-      "abstract": "Deep-learning-based seismic interpretation is constrained by scarce high-quality annotations, and most existing models are trained separately for individual tasks. We present SeisDFE, a 7B-parameter seismic foundation model for dense feature extraction, pretrained on 5.34 million 2D images derived f...",
-      "venue": "arXiv",
-      "date": "2026-11-16",
-      "arxiv_id": "2611.20745v1",
-      "url": "https://arxiv.org/abs/2611.20745v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.20745v1.pdf",
-      "categories": [
-        "cs.CV"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Robotic Reward Models in the Foundation-Model Era",
-      "authors": "Guoqiang Liang, Yiqi Lin, Shangchen Zhou et al.",
-      "abstract": "Robotic reward models (RRMs) use foundation models to replace per-task reward engineering with reusable, task-conditioned evaluation. Yet under one name, their outputs answer different questions, from whether a task succeeded to which execution is better. This survey organizes 114 methods into five ...",
-      "venue": "arXiv",
-      "date": "2026-11-16",
-      "arxiv_id": "2611.20741v1",
-      "url": "https://arxiv.org/abs/2611.20741v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.20741v1.pdf",
-      "categories": [
-        "cs.RO",
-        "cs.CV"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "STA: A Split Temporal Adversary Method for Evaluating Robustness of Multimodal RL-based Driving Policies",
-      "authors": "Shenghao Xiong, Xiaolin Chang",
-      "abstract": "Multimodal reinforcement learning (MRL) offers a promising paradigm for autonomous driving by jointly leveraging complementary sensor observations to learn effective decision-making policies. However, its effectiveness critically depends on temporal alignment across modalities, making temporal incon...",
-      "venue": "arXiv",
-      "date": "2026-11-16",
-      "arxiv_id": "2611.20765v1",
-      "url": "https://arxiv.org/abs/2611.20765v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.20765v1.pdf",
-      "categories": [
-        "cs.CR",
         "cs.LG",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "ViRA: Toward Ultra-High-Resolution Visual Agents via Cross-Input Relative Policy Optimization",
+      "authors": "Huawei Lin, Jinting Liu, Tongyan Wang et al.",
+      "abstract": "Visual agents answer questions about ultra-high-resolution photos by zooming into the relevant regions. However, existing agents often answer from common sense instead of reading the evidence. Reinforcement learning (RL) on the final answer cannot correct this, because a guess earns the same reward ...",
+      "venue": "arXiv",
+      "date": "2026-11-16",
+      "arxiv_id": "2611.21605v1",
+      "url": "https://arxiv.org/abs/2611.21605v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.21605v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Quantifying the added value of human forecaster discussions for tropical cyclone intensity prediction",
+      "authors": "Ilia Azizi, Frederick Iat-Hin Tam, Marc-Olivier Boldi et al.",
+      "abstract": "The National Hurricane Center routinely releases Tropical Cyclone Discussions that offer insights into its tropical cyclone forecasts. This study examines the added value of these discussions for intensity forecasting beyond a set of numerical predictors. For 637 Atlantic and eastern North Pacific t...",
+      "venue": "arXiv",
+      "date": "2026-11-16",
+      "arxiv_id": "2611.21602v1",
+      "url": "https://arxiv.org/abs/2611.21602v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.21602v1.pdf",
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "FaceJev: Direct Visual Decisions for Face Forgery Detection",
+      "authors": "Siran Peng, Tianshuo Zhang, Yibo Xue et al.",
+      "abstract": "Face forgery detection methods often perform well on seen manipulations but generalize poorly to unseen ones. Multimodal Large Language Models (MLLMs) can recognize facial parts and assess their visual plausibility. Existing MLLM-based methods typically express these judgments through textual explan...",
+      "venue": "arXiv",
+      "date": "2026-11-16",
+      "arxiv_id": "2611.21604v1",
+      "url": "https://arxiv.org/abs/2611.21604v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.21604v1.pdf",
+      "categories": [
+        "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "ScaleVLA: Scaling Vision-Language-Action Models to 552 Billion Parameters",
+      "authors": "Ruixi Yu, Dairu Liu, Xuchuan Chen et al.",
+      "abstract": "Frontier Vision-Language Models (VLMs) such as GPT-6 Astra have demonstrated remarkable capabilities in robot control, suggesting that broad pretraining provides knowledge valuable for physical action. Yet most Vision-Language-Action (VLA) policies still rely on much smaller VLM backbones, leaving t...",
+      "venue": "arXiv",
+      "date": "2026-11-16",
+      "arxiv_id": "2611.21607v1",
+      "url": "https://arxiv.org/abs/2611.21607v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.21607v1.pdf",
+      "categories": [
         "cs.RO"
       ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "SADL: On the Demand-Supply Geometry of Representation Collapse",
+      "authors": "Junhan Sun, Yigui Feng, Mingzhe Liu et al.",
+      "abstract": "In Joint-Embedding Predictive Architectures (JEPAs), a well-constrained projector output does not by itself prevent representation collapse. We find that, from initialization, the encoder representation is dominated by a component shared by different inputs. A batch-normalized projector removes this...",
+      "venue": "arXiv",
+      "date": "2026-11-16",
+      "arxiv_id": "2611.21596v1",
+      "url": "https://arxiv.org/abs/2611.21596v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.21596v1.pdf",
+      "categories": [
+        "cs.RO",
+        "cs.LG"
+      ],
       "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "A Matrix with Steps: An Episodic and Procedural Memory Method for Tool-Using Agents and Robots",
-      "authors": "Jürgen Paulhart, Peter Schüller",
-      "abstract": "Agents that call tools and robots that execute tasks are challenged by two shortcomings: they repeat what failed before, and they learn from runs that they only believe succeeded. We describe the construction of a memory that addresses both, built for a production agent platform. Every run is record...",
-      "venue": "arXiv",
-      "date": "2026-11-15",
-      "arxiv_id": "2611.20230v1",
-      "url": "https://arxiv.org/abs/2611.20230v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.20230v1.pdf",
-      "categories": [
-        "cs.AI"
-      ],
-      "type": "ai",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "SWE-CoWork: Benchmarking Coding Agents as Digital Employees in Organizations",
-      "authors": "Xinping Lei, Minghao Liu, Ruijie Zhu et al.",
-      "abstract": "A coding agent working within a software organization must establish what to build, collaborate with colleagues, and verify what it delivers. We introduce SWE-CoWork, a benchmark comprising 101 development assignments across 101 real repositories, 11 programming languages, and 12 application domains...",
-      "venue": "arXiv",
-      "date": "2026-11-15",
-      "arxiv_id": "2611.20218v1",
-      "url": "https://arxiv.org/abs/2611.20218v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.20218v1.pdf",
-      "categories": [
-        "cs.SE",
-        "cs.AI"
-      ],
-      "type": "benchmark",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Radar Panoptic Transformer: Semantic-Guided Mask Queries for Dynamic Scene Understanding",
-      "authors": "Mayank Mayank, Bharanidhar Duraisamy, Rohit Mohan et al.",
-      "abstract": "Automotive radar provides long-range sensing and direct Doppler velocity measurements, but its sparse and non-uniformly sampled point clouds pose significant challenges for panoptic segmentation. Dynamic objects often yield only a few detections amid a dominant static background, providing limiting ...",
-      "venue": "arXiv",
-      "date": "2026-11-15",
-      "arxiv_id": "2611.20203v1",
-      "url": "https://arxiv.org/abs/2611.20203v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.20203v1.pdf",
-      "categories": [
-        "cs.CV",
-        "cs.LG"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "DoF-Query Transformer for Adaptive Fusion of Egocentric Vision and Forearm HD-sEMG in Continuous Hand Kinematics",
-      "authors": "Jiahang Liu, Wenbo Zhang, Junsong Wang et al.",
-      "abstract": "Continuous and accurate estimation of human hand kinematics is important not only for intuitive human-machine interaction, but also for capturing fine-grained human manipulation demonstrations that can provide action supervision for embodied-intelligence datasets and dexterous robot learning. Howeve...",
-      "venue": "arXiv",
-      "date": "2026-11-15",
-      "arxiv_id": "2611.20196v1",
-      "url": "https://arxiv.org/abs/2611.20196v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.20196v1.pdf",
-      "categories": [
-        "cs.CV",
-        "cs.HC",
-        "cs.LG"
-      ],
-      "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     }

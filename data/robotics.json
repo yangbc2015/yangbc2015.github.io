@@ -27,6 +27,98 @@
       ]
     },
     {
+      "title": "ScaleVLA: Scaling Vision-Language-Action Models to 552 Billion Parameters",
+      "summary": "Frontier Vision-Language Models (VLMs) such as GPT-6 Astra have demonstrated remarkable capabilities in robot control, suggesting that broad pretraining provides knowledge valuable for physical action. Yet most Vision-Language-Action (VLA) policies s...",
+      "url": "https://arxiv.org/abs/2611.21607v1",
+      "date": "2026-11-16",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.21607v1",
+      "authors": "Ruixi Yu, Dairu Liu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "SADL: On the Demand-Supply Geometry of Representation Collapse",
+      "summary": "In Joint-Embedding Predictive Architectures (JEPAs), a well-constrained projector output does not by itself prevent representation collapse. We find that, from initialization, the encoder representation is dominated by a component shared by different...",
+      "url": "https://arxiv.org/abs/2611.21596v1",
+      "date": "2026-11-16",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.21596v1",
+      "authors": "Junhan Sun, Yigui Feng et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Lazy-MOSAIC: Accelerating Skill-Centric Manipulation Planning with Learned Skill-Effect World Models",
+      "summary": "Long-horizon manipulation tasks require a robot to perform a sequence of physical interactions with its environment, typically combining several different skills. Planning such behaviors efficiently is challenging: given a library of parameterized sk...",
+      "url": "https://arxiv.org/abs/2611.21517v1",
+      "date": "2026-11-16",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.21517v1",
+      "authors": "Itamar Mishani, Mukund Krishnakumar et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "GHySSeg: Real-Time Geometric Ground and Road Segmentation for Hybrid Solid-State LiDAR",
+      "summary": "Hybrid solid-state LiDAR sensors are making their way into production vehicles, yet the data they produce differs structurally from that of the established spinning mechanical sensors behind today's autonomous-driving datasets: it is ring-free, dense...",
+      "url": "https://arxiv.org/abs/2611.21507v1",
+      "date": "2026-11-16",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.21507v1",
+      "authors": "Martín Palos, Fernando García",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Data-Driven Predictive Control for Autonomous Vehicle Racing under Varying Friction",
+      "summary": "Data-driven predictive control (DPC) predicts future outputs by combining recorded input-output trajectory data such that the combined trajectory approximately matches a measured initial trajectory and tracks a provided reference. This paper investig...",
+      "url": "https://arxiv.org/abs/2611.21378v1",
+      "date": "2026-11-16",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.21378v1",
+      "authors": "Julius Beerwerth, Julius Tischbein et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "建筑机器人下一阶段竞争焦点将转向运营效率",
+      "summary": "建筑机器人下一阶段竞争焦点将转向运营效率",
+      "url": "https://36kr.com/p/4070571639067782",
+      "date": "2026-11-15",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
       "title": "DAPPT: Domain-Aware Policies from Procedural Trajectories for Sim-to-Real Dexterous Tool Use",
       "summary": "Sim-to-real RL has achieved impressive results in dexterous manipulation but remains limited to tasks with accurate rigid-body simulation. However, these methods cannot be applied to skills that involve deformable and particles, with which the simula...",
       "url": "https://arxiv.org/abs/2611.20202v1",
@@ -104,18 +196,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "建筑机器人下一阶段竞争焦点将转向运营效率",
-      "summary": "建筑机器人下一阶段竞争焦点将转向运营效率",
-      "url": "https://36kr.com/p/4070571639067782",
-      "date": "2026-11-15",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
       ]
     },
     {
@@ -2979,86 +3059,6 @@
       "type": "paper",
       "arxiv_id": "2610.31613v1",
       "authors": "Atiksh Bhardwaj, Edward W. Duan et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Agentic World Action Models",
-      "summary": "Recent world action models provide visual foresight and future prediction for robot manipulation, but lack explicit mechanisms for compositional skill reuse. Agentic robotics combines code-based planning and reasoning with reusable skills, but often ...",
-      "url": "https://arxiv.org/abs/2610.30136v1",
-      "date": "2026-10-21",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.30136v1",
-      "authors": "Zhuoyang Liu, Dantong Niu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "PhysiCalWorld: In-Context Physics Calibration for World Models",
-      "summary": "Existing world models typically perceive a scene through current visual frame or a narrow history window. However, these observations may not reveal the physics properties that determine transition dynamics, such as an object's mass distribution, joi...",
-      "url": "https://arxiv.org/abs/2610.30125v1",
-      "date": "2026-10-21",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.30125v1",
-      "authors": "Yunhao Luo, Wentao He et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "CW-WAM: A Structured Contact-Wrench World Action Model for Force-Sensitive Manipulation",
-      "summary": "Force-sensitive manipulation requires contact and load information that is not provided explicitly by visual observations. We present CW-WAM, a world action model that jointly predicts video, motion, and contact wrench. Inspired by hybrid motion-forc...",
-      "url": "https://arxiv.org/abs/2610.30117v1",
-      "date": "2026-10-21",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.30117v1",
-      "authors": "Houzhu Ding, Xinda Qi et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Multimodal Embodied Agents: A Unified Capability-centric Perspective from Computer-Use to Robot-Use",
-      "summary": "Multimodal agents (MMAs) sustain interaction through reasoning, memory, tools, and feedback, most visibly as computer-use agents, while robotic systems (RSs) couple sensing and actuation under physical dynamics. We define multimodal embodied agents (...",
-      "url": "https://arxiv.org/abs/2610.30108v1",
-      "date": "2026-10-21",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.30108v1",
-      "authors": "Yanzhe Chen, Ziyi Yang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Asymmetric On-Policy Distillation Learns In-Context Exploration",
-      "summary": "Sequential decision-making under partial observability is difficult because agents must explore to infer hidden, task-relevant information before acting effectively. Learning such information-gathering behaviors tabula rasa via online reinforcement l...",
-      "url": "https://arxiv.org/abs/2610.30105v1",
-      "date": "2026-10-21",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.30105v1",
-      "authors": "Sriyash Poddar, Yanda Bao et al.",
       "tags": [
         "机器人学习",
         "研究论文",
