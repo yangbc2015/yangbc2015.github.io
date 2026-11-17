@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-16",
-  "count": 10,
+  "last_updated": "2026-11-17",
+  "count": 6,
   "items": [
     {
       "title": "WeightBench: Evaluating Language Models as Weight-Space Programmers",
@@ -37,41 +37,6 @@
       "source": "arXiv"
     },
     {
-      "title": "ModHarness-RL: Recasting Harnesses as Learnable and Evolving Programs for Agentic RL",
-      "authors": "Zelin He, Siyu Zhu, Jacob Helwig et al.",
-      "abstract": "Agentic reinforcement learning (RL) increasingly relies on a harness, the scaffold around the model that decides what it sees of its own interaction and what guidance it receives. Most existing approaches train under a hand-written harness that stays fixed throughout. However, an effective harness d...",
-      "venue": "arXiv",
-      "date": "2026-11-13",
-      "arxiv_id": "2611.18533v1",
-      "url": "https://arxiv.org/abs/2611.18533v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.18533v1.pdf",
-      "categories": [
-        "cs.AI",
-        "cs.CL",
-        "cs.LG"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "WaferTetris: Efficient Freeform Mapping on Wafer-Scale Accelerators",
-      "authors": "Dayou Du, Congjie He, Andrew Boutros et al.",
-      "abstract": "Wafer-scale accelerators offer massive compute capacity through hundreds of thousands of processing elements (PEs) interconnected across a single wafer, but realizing this potential requires efficient application mapping. Their scale makes programming these systems and mapping applications onto them...",
-      "venue": "arXiv",
-      "date": "2026-11-13",
-      "arxiv_id": "2611.18527v1",
-      "url": "https://arxiv.org/abs/2611.18527v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.18527v1.pdf",
-      "categories": [
-        "cs.AR",
-        "cs.CL"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
       "title": "BAL: Bidirectional Autoregression in Latent Space for Learning Human Movement Representations",
       "authors": "Genki Kinoshita, Ko Nishino",
       "abstract": "Learning semantically meaningful human movement representations from 3D pose sequences is essential for human behavior modeling. Existing self-supervised methods derive supervision from artificial assumptions, e.g., invariance to augmentation within a certain range or recoverability of masked region...",
@@ -101,40 +66,6 @@
         "cs.CV"
       ],
       "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Pairing AIS with RF: Analysis of a Markovian Approach for Maritime Data Fusion",
-      "authors": "Daniel Grimm, Kyra Jongman, Renato Cordeiro Ferreira et al.",
-      "abstract": "Monitoring maritime activities is important for safety and security, particularly for detecting illegal activities, but remains challenging due to the size and complexity of the maritime domain. The Automatic Identification System (AIS) is commonly used for this purpose, despite its known vulnerabil...",
-      "venue": "arXiv",
-      "date": "2026-11-13",
-      "arxiv_id": "2611.18563v1",
-      "url": "https://arxiv.org/abs/2611.18563v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.18563v1.pdf",
-      "categories": [
-        "cs.LG",
-        "cs.CR"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "FETTUCCINE: Fast and efficient brain-to-text decoding on mobile devices",
-      "authors": "Jonathan D. McCart, Pranav I. Deevi, Mehdi Azabou et al.",
-      "abstract": "Recent advances in speech neuroprostheses have enabled new communication avenues for people who have lost the ability to speak due to neurological illness or injury. These systems can decode neural activity during attempted speech into text by relying on language priors to achieve high decoding accu...",
-      "venue": "arXiv",
-      "date": "2026-11-13",
-      "arxiv_id": "2611.18561v1",
-      "url": "https://arxiv.org/abs/2611.18561v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.18561v1.pdf",
-      "categories": [
-        "q-bio.NC",
-        "cs.LG"
-      ],
-      "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
