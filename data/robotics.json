@@ -27,10 +27,102 @@
       ]
     },
     {
+      "title": "DAPPT: Domain-Aware Policies from Procedural Trajectories for Sim-to-Real Dexterous Tool Use",
+      "summary": "Sim-to-real RL has achieved impressive results in dexterous manipulation but remains limited to tasks with accurate rigid-body simulation. However, these methods cannot be applied to skills that involve deformable and particles, with which the simula...",
+      "url": "https://arxiv.org/abs/2611.20202v1",
+      "date": "2026-11-15",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.20202v1",
+      "authors": "Beining Han, Jia Deng",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "RoboKit: Accelerating Parallel Differentiable Optimization for Robot Learning",
+      "summary": "We present RoboKit, a high-performance, general-purpose toolkit for parallel differentiable optimization in robotics, built on three principles: (i) Performance and flexibility: GPU-parallel multi-seed solvers pair sampling with versatile optimizers,...",
+      "url": "https://arxiv.org/abs/2611.20185v1",
+      "date": "2026-11-15",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.20185v1",
+      "authors": "Jianglong Ye, Xuanbin Peng et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Cleanly-DINO: Efficiently Learning Visual Task Spaces for Robotics",
+      "summary": "Learning manipulation tasks from few demonstrations requires abstractions that capture the changes relevant to task completion, such as object poses in rigid-body manipulation. However, tasks such as cleaning are defined by changes in visual state ra...",
+      "url": "https://arxiv.org/abs/2611.20137v1",
+      "date": "2026-11-15",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.20137v1",
+      "authors": "Adrian Röfer, Melika Shekarriz et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Aerial Person Detection under Edge Constraints: Held-Out Evaluation and Edge-Ground Verification",
+      "summary": "A search drone sees a missing person as a few pixels, carries a small computer, and shares a narrow radio link. We study person detection under those limits; the primary evaluations were declared before they ran, and later analyses are marked explora...",
+      "url": "https://arxiv.org/abs/2611.20127v1",
+      "date": "2026-11-15",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.20127v1",
+      "authors": "Raghu Venkat, Tricha Anjali",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "SAFER: Navigating the Exploration-Exploitation Dilemma in World-Model-Based Planning for Autonomous Driving",
+      "summary": "An autonomous vehicle must foresee the consequences of its actions, especially in the rare, time-critical situations where crashes happen. A world model offers this foresight, but only within the coverage of its training data, which poses an explorat...",
+      "url": "https://arxiv.org/abs/2611.20107v1",
+      "date": "2026-11-15",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.20107v1",
+      "authors": "Yansong Qu, Zilin Huang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
       "title": "建筑机器人下一阶段竞争焦点将转向运营效率",
       "summary": "建筑机器人下一阶段竞争焦点将转向运营效率",
       "url": "https://36kr.com/p/4070571639067782",
       "date": "2026-11-15",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
+      "title": "机器人想上岗？先补数据课！",
+      "summary": "机器人想上岗？先补数据课！",
+      "url": "https://36kr.com/p/4067487054484612",
+      "date": "2026-11-13",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
@@ -116,18 +208,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "机器人想上岗？先补数据课！",
-      "summary": "机器人想上岗？先补数据课！",
-      "url": "https://36kr.com/p/4067487054484612",
-      "date": "2026-11-13",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
       ]
     },
     {
@@ -2979,86 +3059,6 @@
       "type": "paper",
       "arxiv_id": "2610.30105v1",
       "authors": "Sriyash Poddar, Yanda Bao et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "End-to-End Reinforcement Learning for Quadrupedal Jumping in Lunar Gravity",
-      "summary": "Legged robots can extend planetary exploration to rugged and discontinuous terrain that is inaccessible to conventional rovers. In lunar gravity, jumping further expands this mobility by enabling robots to cross obstacles and gaps that cannot be trav...",
-      "url": "https://arxiv.org/abs/2610.29586v1",
-      "date": "2026-10-21",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.29586v1",
-      "authors": "Levin Müller, Oliver Fischer et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Joint-Angle Invariance of Jacobian-Based Performance Indices for Serial Robotic Manipulators",
-      "summary": "This article investigates the joint-angle invariance (JAI) of Jacobian-based performance indices for serial robotic manipulators. We identify kinematic conditions under which representative performance indices, including manipulability, stiffness, an...",
-      "url": "https://arxiv.org/abs/2610.29570v1",
-      "date": "2026-10-21",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.29570v1",
-      "authors": "Yaohua Zhou, Mingdao Lin et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Mixture of Flow Matching and Particle Filter for Proprioception-Based Online Contact Estimation",
-      "summary": "In this article, we propose ContactFlowFilter, a novel approach for contact estimation that determines the number of active contacts, their locations, and the associated force vectors. We consider a robot manipulator equipped with joint torque sensor...",
-      "url": "https://arxiv.org/abs/2610.29568v1",
-      "date": "2026-10-21",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.29568v1",
-      "authors": "Seo Wook Han, Min Jun Kim",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Preserving Operator Intent Under Actuation Constraints: Teleoperation of Manipulators with Coupled Transmissions",
-      "summary": "Teleoperation enables intuitive control of remote engineering robots for precision tasks. Existing direct joint-mapping methods have two limitations: independent motor saturation disrupts pitch-roll coordination in differential wrists, while fixed ma...",
-      "url": "https://arxiv.org/abs/2610.29565v1",
-      "date": "2026-10-21",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.29565v1",
-      "authors": "Xuhan Miao, Zijin Han et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "From VLM Planners to Robotic Agents: Self-Evolving Harnesses for History-Dependent Manipulation",
-      "summary": "Vision-language-action (VLA) models achieve strong performance across embodied manipulation tasks by unifying visual understanding, language conditioning, and action generation. However, long-horizon tasks can involve non-Markovian dependencies: succ...",
-      "url": "https://arxiv.org/abs/2610.29560v1",
-      "date": "2026-10-21",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.29560v1",
-      "authors": "Tingwen Du, Haoyu Guo et al.",
       "tags": [
         "机器人学习",
         "研究论文",

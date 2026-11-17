@@ -8,18 +8,6 @@
       "count": 5,
       "items": [
         {
-          "title": "Markdown Content:",
-          "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-          "summary": "Markdown Content:...",
-          "date": "2026-11-16",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
           "title": "让AI成为自主进化的科学家！书生-S2.1 Flash登顶机器学习工程基准",
           "link": "https://www.jiqizhixin.com/search/articles/让AI成为自主进化的科学家！书",
           "summary": "让AI成为自主进化的科学家！书生-S2.1 Flash登顶机器学习工程基准...",
@@ -59,6 +47,18 @@
           "title": "豆包工作独家上线“工作台”功能，首批覆盖金融、医疗、教育等21个专业场景",
           "link": "https://www.jiqizhixin.com/search/articles/豆包工作独家上线“工作台”功能",
           "summary": "豆包工作独家上线“工作台”功能，首批覆盖金融、医疗、教育等21个专业场景...",
+          "date": "2026-11-16",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "华为云「行业AI梦工厂」发布并开源昇腾原生具身世界模型CloudRobo-WM1.2",
+          "link": "https://www.jiqizhixin.com/search/articles/华为云「行业AI梦工厂」发布并",
+          "summary": "华为云「行业AI梦工厂」发布并开源昇腾原生具身世界模型CloudRobo-WM1.2...",
           "date": "2026-11-16",
           "source": "机器之心",
           "type": "industry",

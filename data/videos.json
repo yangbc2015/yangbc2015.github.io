@@ -5,6 +5,20 @@
   "retention_count": 200,
   "items": [
     {
+      "title": "Transformer 注意力机制详解",
+      "speaker": "Yannic Kilcher",
+      "description": "深入解析 Transformer 架构的核心机制",
+      "duration": "32:15",
+      "views": "1.2M",
+      "platform": "youtube",
+      "video_id": "iDulhoQ2pro",
+      "url": "https://www.youtube.com/watch?v=iDulhoQ2pro",
+      "thumbnail": "https://img.youtube.com/vi/iDulhoQ2pro/mqdefault.jpg",
+      "type": "lecture",
+      "category": "技术讲座",
+      "date": "2026-11-16"
+    },
+    {
       "title": "Andrej Karpathy: 神经网络入门到精通",
       "speaker": "Andrej Karpathy",
       "description": "前 Tesla AI 总监的经典教程，从零开始构建神经网络",
@@ -31,34 +45,20 @@
       "thumbnail": "https://img.youtube.com/vi/K5Vxf8rVGWk/mqdefault.jpg",
       "type": "lecture",
       "category": "前沿技术",
-      "date": "2026-11-16"
-    },
-    {
-      "title": "Stanford CS231n: 卷积神经网络",
-      "speaker": "Stanford",
-      "description": "斯坦福经典计算机视觉课程",
-      "duration": "8:45:20",
-      "views": "567K",
-      "platform": "youtube",
-      "video_id": "vT1JzLTH4G4",
-      "url": "https://www.youtube.com/watch?v=vT1JzLTH4G4",
-      "thumbnail": "https://img.youtube.com/vi/vT1JzLTH4G4/mqdefault.jpg",
-      "type": "course",
-      "category": "精品课程",
       "date": "2026-11-15"
     },
     {
-      "title": "GPT-4 技术原理解析",
-      "speaker": "OpenAI",
-      "description": "深入理解 GPT-4 的架构和训练方法",
-      "duration": "45:20",
-      "views": "890K",
+      "title": "强化学习入门: Q-Learning",
+      "speaker": "Sentdex",
+      "description": "从零开始学习强化学习基础",
+      "duration": "15:30",
+      "views": "456K",
       "platform": "youtube",
-      "video_id": "SxHRQvJ7P6Y",
-      "url": "https://www.youtube.com/watch?v=SxHRQvJ7P6Y",
-      "thumbnail": "https://img.youtube.com/vi/SxHRQvJ7P6Y/mqdefault.jpg",
-      "type": "lecture",
-      "category": "技术讲座",
+      "video_id": "yMk_XtIEzH8",
+      "url": "https://www.youtube.com/watch?v=yMk_XtIEzH8",
+      "thumbnail": "https://img.youtube.com/vi/yMk_XtIEzH8/mqdefault.jpg",
+      "type": "tutorial",
+      "category": "AI教程",
       "date": "2026-11-15"
     },
     {
@@ -104,18 +104,32 @@
       "date": "2026-11-14"
     },
     {
-      "title": "Transformer 注意力机制详解",
-      "speaker": "Yannic Kilcher",
-      "description": "深入解析 Transformer 架构的核心机制",
-      "duration": "32:15",
-      "views": "1.2M",
+      "title": "3Blue1Brown: 深度学习之神经网络",
+      "speaker": "3Blue1Brown",
+      "description": "用精美动画解释神经网络的工作原理",
+      "duration": "19:15",
+      "views": "3.1M",
       "platform": "youtube",
-      "video_id": "iDulhoQ2pro",
-      "url": "https://www.youtube.com/watch?v=iDulhoQ2pro",
-      "thumbnail": "https://img.youtube.com/vi/iDulhoQ2pro/mqdefault.jpg",
+      "video_id": "aircAruvnKk",
+      "url": "https://www.youtube.com/watch?v=aircAruvnKk",
+      "thumbnail": "https://img.youtube.com/vi/aircAruvnKk/mqdefault.jpg",
       "type": "lecture",
       "category": "技术讲座",
       "date": "2026-11-14"
+    },
+    {
+      "title": "Stanford CS231n: 卷积神经网络",
+      "speaker": "Stanford",
+      "description": "斯坦福经典计算机视觉课程",
+      "duration": "8:45:20",
+      "views": "567K",
+      "platform": "youtube",
+      "video_id": "vT1JzLTH4G4",
+      "url": "https://www.youtube.com/watch?v=vT1JzLTH4G4",
+      "thumbnail": "https://img.youtube.com/vi/vT1JzLTH4G4/mqdefault.jpg",
+      "type": "course",
+      "category": "精品课程",
+      "date": "2026-11-13"
     },
     {
       "title": "Diffusion 模型工作原理",
@@ -146,6 +160,20 @@
       "date": "2026-11-13"
     },
     {
+      "title": "BERT 模型详解与应用",
+      "speaker": "Yannic Kilcher",
+      "description": "深入理解 BERT 预训练模型及其应用",
+      "duration": "28:45",
+      "views": "890K",
+      "platform": "youtube",
+      "video_id": "xI0HHN5XKDo",
+      "url": "https://www.youtube.com/watch?v=xI0HHN5XKDo",
+      "thumbnail": "https://img.youtube.com/vi/xI0HHN5XKDo/mqdefault.jpg",
+      "type": "lecture",
+      "category": "技术讲座",
+      "date": "2026-11-12"
+    },
+    {
       "title": "LoRA: 大模型高效微调技术",
       "speaker": "Edward Hu",
       "description": "低秩适应技术在 LLM 微调中的应用",
@@ -171,20 +199,6 @@
       "thumbnail": "https://img.youtube.com/vi/oHJwJsaWQgE/mqdefault.jpg",
       "type": "lecture",
       "category": "前沿技术",
-      "date": "2026-11-12"
-    },
-    {
-      "title": "3Blue1Brown: 深度学习之神经网络",
-      "speaker": "3Blue1Brown",
-      "description": "用精美动画解释神经网络的工作原理",
-      "duration": "19:15",
-      "views": "3.1M",
-      "platform": "youtube",
-      "video_id": "aircAruvnKk",
-      "url": "https://www.youtube.com/watch?v=aircAruvnKk",
-      "thumbnail": "https://img.youtube.com/vi/aircAruvnKk/mqdefault.jpg",
-      "type": "lecture",
-      "category": "技术讲座",
       "date": "2026-11-12"
     },
     {
@@ -230,15 +244,15 @@
       "category": "技术讲座"
     },
     {
-      "title": "BERT 模型详解与应用",
-      "speaker": "Yannic Kilcher",
-      "description": "深入理解 BERT 预训练模型及其应用",
-      "duration": "28:45",
+      "title": "GPT-4 技术原理解析",
+      "speaker": "OpenAI",
+      "description": "深入理解 GPT-4 的架构和训练方法",
+      "duration": "45:20",
       "views": "890K",
       "platform": "youtube",
-      "video_id": "xI0HHN5XKDo",
-      "url": "https://www.youtube.com/watch?v=xI0HHN5XKDo",
-      "thumbnail": "https://img.youtube.com/vi/xI0HHN5XKDo/mqdefault.jpg",
+      "video_id": "SxHRQvJ7P6Y",
+      "url": "https://www.youtube.com/watch?v=SxHRQvJ7P6Y",
+      "thumbnail": "https://img.youtube.com/vi/SxHRQvJ7P6Y/mqdefault.jpg",
       "type": "lecture",
       "category": "技术讲座",
       "date": "2026-11-10"
@@ -271,20 +285,6 @@
       "thumbnail": "https://img.youtube.com/vi/g-xa75k3ILg/mqdefault.jpg",
       "type": "lecture",
       "category": "技术讲座"
-    },
-    {
-      "title": "强化学习入门: Q-Learning",
-      "speaker": "Sentdex",
-      "description": "从零开始学习强化学习基础",
-      "duration": "15:30",
-      "views": "456K",
-      "platform": "youtube",
-      "video_id": "yMk_XtIEzH8",
-      "url": "https://www.youtube.com/watch?v=yMk_XtIEzH8",
-      "thumbnail": "https://img.youtube.com/vi/yMk_XtIEzH8/mqdefault.jpg",
-      "type": "tutorial",
-      "category": "AI教程",
-      "date": "2026-11-09"
     },
     {
       "title": "动手学深度学习 PyTorch版",
