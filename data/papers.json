@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-11-18",
-  "count": 9,
+  "count": 7,
   "items": [
     {
       "title": "Ambient LLMs: Data-Efficient Supervised Fine-tuning via Temperature Matching",
@@ -84,41 +84,6 @@
         "cs.CV"
       ],
       "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Social Signal Bench: Evidence-Weighted Evaluation of Co-occurring Social Signals in Video and Audio",
-      "authors": "Siddharth Ravi, Anders R. Bargum, Hugo Anselme et al.",
-      "abstract": "Recognizing social signals such as interest and hesitation requires interpreting context-dependent behaviors that may co-occur in conversation. Existing affective computing benchmarks rarely evaluate such co-occurring signals, and conventional multi-label F1 overlooks semantic relationships and anno...",
-      "venue": "arXiv",
-      "date": "2026-11-17",
-      "arxiv_id": "2611.22704v1",
-      "url": "https://arxiv.org/abs/2611.22704v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.22704v1.pdf",
-      "categories": [
-        "cs.CV",
-        "cs.LG"
-      ],
-      "type": "benchmark",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "CULypso: A Clustered Federated Unlearning paradigm for Vehicular Ad-Hoc Networks",
-      "authors": "Eleftheria Chini, George Margaritis, Dimitrios Katsaros",
-      "abstract": "Unlearning has emerged as an essential security and privacy-preserving solution in Machine Learning, enabling networks to support their clients' rights for data erasure, as mandated by data protection regulations. Introducing such a non-trivial task to an edge, highly mobile and time-sensitive vehic...",
-      "venue": "arXiv",
-      "date": "2026-11-17",
-      "arxiv_id": "2611.22682v1",
-      "url": "https://arxiv.org/abs/2611.22682v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.22682v1.pdf",
-      "categories": [
-        "cs.LG",
-        "cs.AI",
-        "cs.NI"
-      ],
-      "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     },
