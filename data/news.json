@@ -1,7 +1,7 @@
 {
   "last_updated": "2026-11-18",
   "count": 200,
-  "history_count": 205,
+  "history_count": 201,
   "retention_days": 30,
   "items": [
     {
@@ -38,18 +38,6 @@
       "tags": [
         "AI",
         "Artificial Intelligence"
-      ]
-    },
-    {
-      "title": "Markdown Content:",
-      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-      "summary": "Markdown Content:...",
-      "date": "2026-11-17",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
       ]
     },
     {
@@ -104,6 +92,30 @@
       "title": "744B模型追平Claude Opus 5，人大复旦提出ToolSpace探索环境合成新范式",
       "link": "https://www.jiqizhixin.com/search/articles/744B模型追平Claude ",
       "summary": "744B模型追平Claude Opus 5，人大复旦提出ToolSpace探索环境合成新范式...",
+      "date": "2026-11-17",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "OpenAI进入医疗工作流，拓展Healthcare应用边界",
+      "link": "https://www.jiqizhixin.com/search/articles/OpenAI进入医疗工作流，拓",
+      "summary": "OpenAI进入医疗工作流，拓展Healthcare应用边界...",
+      "date": "2026-11-17",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "Markdown Content:",
+      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+      "summary": "Markdown Content:...",
       "date": "2026-11-17",
       "source": "机器之心",
       "type": "industry",
@@ -2384,18 +2396,6 @@
       "title": "这是一台机器人正在关闭微波炉门时，因人手突然插进来而紧急悬停的时间",
       "link": "https://www.qbitai.com/?s=这是一台机器人正在关",
       "summary": "这是一台机器人正在关闭微波炉门时，因人手突然插进来而紧急悬停的时间...",
-      "date": "2026-10-11",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Google 研究成果首次登上《柳叶刀》主刊",
-      "link": "https://www.qbitai.com/?s=Google 研究成",
-      "summary": "Google 研究成果首次登上《柳叶刀》主刊...",
       "date": "2026-10-11",
       "source": "量子位",
       "type": "industry",
