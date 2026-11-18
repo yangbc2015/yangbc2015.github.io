@@ -5,6 +5,70 @@
   "models": [
     {
       "rank": 1,
+      "model": "gpt-6.2-astra-pro",
+      "organization": "openai",
+      "price_prompt": "0.000008",
+      "price_completion": "0.00004",
+      "context_length": 1050000
+    },
+    {
+      "rank": 2,
+      "model": "gpt-6.2-astra-pro:batch",
+      "organization": "openai",
+      "price_prompt": "0.000004",
+      "price_completion": "0.00002",
+      "context_length": 1050000
+    },
+    {
+      "rank": 3,
+      "model": "gpt-6.2-astra",
+      "organization": "openai",
+      "price_prompt": "0.000008",
+      "price_completion": "0.00004",
+      "context_length": 1050000
+    },
+    {
+      "rank": 4,
+      "model": "gpt-6.2-astra:batch",
+      "organization": "openai",
+      "price_prompt": "0.000004",
+      "price_completion": "0.00002",
+      "context_length": 1050000
+    },
+    {
+      "rank": 5,
+      "model": "gpt-6.2-sol-pro",
+      "organization": "openai",
+      "price_prompt": "0.000002",
+      "price_completion": "0.00001",
+      "context_length": 1050000
+    },
+    {
+      "rank": 6,
+      "model": "gpt-6.2-sol-pro:batch",
+      "organization": "openai",
+      "price_prompt": "0.000001",
+      "price_completion": "0.000005",
+      "context_length": 1050000
+    },
+    {
+      "rank": 7,
+      "model": "gpt-6.2-sol",
+      "organization": "openai",
+      "price_prompt": "0.000002",
+      "price_completion": "0.00001",
+      "context_length": 1050000
+    },
+    {
+      "rank": 8,
+      "model": "gpt-6.2-sol:batch",
+      "organization": "openai",
+      "price_prompt": "0.000001",
+      "price_completion": "0.000005",
+      "context_length": 1050000
+    },
+    {
+      "rank": 9,
       "model": "hy4-flash",
       "organization": "tencent",
       "price_prompt": "0.000000035",
@@ -12,7 +76,7 @@
       "context_length": 1048576
     },
     {
-      "rank": 2,
+      "rank": 10,
       "model": "qwen4-max",
       "organization": "qwen",
       "price_prompt": "0.000001425",
@@ -20,7 +84,7 @@
       "context_length": 1000000
     },
     {
-      "rank": 3,
+      "rank": 11,
       "model": "ling-3.2-flash:free",
       "organization": "inclusionai",
       "price_prompt": "0",
@@ -28,7 +92,7 @@
       "context_length": 1048576
     },
     {
-      "rank": 4,
+      "rank": 12,
       "model": "gemini-4-hydrogen",
       "organization": "google",
       "price_prompt": "0.0000015",
@@ -36,7 +100,7 @@
       "context_length": 1048576
     },
     {
-      "rank": 5,
+      "rank": 13,
       "model": "gemini-4-hydrogen:batch",
       "organization": "google",
       "price_prompt": "0.00000075",
@@ -44,7 +108,7 @@
       "context_length": 1048576
     },
     {
-      "rank": 6,
+      "rank": 14,
       "model": "ernie-5.5-flash-preview:free",
       "organization": "baidu",
       "price_prompt": "0",
@@ -52,76 +116,12 @@
       "context_length": 1024000
     },
     {
-      "rank": 7,
+      "rank": 15,
       "model": "ernie-light-dt-1.0-intl",
       "organization": "baidu",
       "price_prompt": "0.00000113",
       "price_completion": "0.00000394",
       "context_length": 1024000
-    },
-    {
-      "rank": 8,
-      "model": "gemini-4-carbon",
-      "organization": "google",
-      "price_prompt": "0.000002",
-      "price_completion": "0.00001",
-      "context_length": 1048576
-    },
-    {
-      "rank": 9,
-      "model": "gemini-4-carbon:batch",
-      "organization": "google",
-      "price_prompt": "0.000001",
-      "price_completion": "0.000005",
-      "context_length": 1048576
-    },
-    {
-      "rank": 10,
-      "model": "nex-n2.6",
-      "organization": "nex-agi",
-      "price_prompt": "0.00000012",
-      "price_completion": "0.0000004",
-      "context_length": 262144
-    },
-    {
-      "rank": 11,
-      "model": "inkling-2-small",
-      "organization": "thinkingmachines",
-      "price_prompt": "0.0000003",
-      "price_completion": "0.000001",
-      "context_length": 1048576
-    },
-    {
-      "rank": 12,
-      "model": "inkling-2-small:free",
-      "organization": "thinkingmachines",
-      "price_prompt": "0",
-      "price_completion": "0",
-      "context_length": 1048576
-    },
-    {
-      "rank": 13,
-      "model": "claude-fable-5.2",
-      "organization": "anthropic",
-      "price_prompt": "0.000008",
-      "price_completion": "0.00004",
-      "context_length": 1000000
-    },
-    {
-      "rank": 14,
-      "model": "claude-fable-5.2:batch",
-      "organization": "anthropic",
-      "price_prompt": "0.000004",
-      "price_completion": "0.00002",
-      "context_length": 1000000
-    },
-    {
-      "rank": 15,
-      "model": "muse-ember",
-      "organization": "meta",
-      "price_prompt": "0.0000001",
-      "price_completion": "0.0000005",
-      "context_length": 1048576
     }
   ]
 }
