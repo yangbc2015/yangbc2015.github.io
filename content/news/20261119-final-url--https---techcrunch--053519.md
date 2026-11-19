@@ -1,6 +1,6 @@
 ---
 title: 'Final URL: https://techcrunch.com/category/artificial-intelligence/'
-date: '2026-11-14'
+date: '2026-11-19'
 type: industry
 source: TechCrunch
 link: https://techcrunch.com/category/artificial-intelligence/
