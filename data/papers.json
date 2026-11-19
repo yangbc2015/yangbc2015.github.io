@@ -1,18 +1,69 @@
 {
-  "last_updated": "2026-11-18",
-  "count": 7,
+  "last_updated": "2026-11-19",
+  "count": 8,
   "items": [
     {
-      "title": "Ambient LLMs: Data-Efficient Supervised Fine-tuning via Temperature Matching",
-      "authors": "Giannis Daras, Marios Papachristou, Adam Klivans et al.",
-      "abstract": "Collecting large-scale, diverse, and high-quality post-training datasets for autoregressive language models is challenging. Consequently, Supervised Fine-Tuning (SFT) is typically applied to datasets significantly smaller than those used for pre-training, which leads to overfitting and the catastrop...",
+      "title": "Knowing What You Know: A Trait Theory of Reviewer Value in Human-AI Cognitive Systems",
+      "authors": "Priyanka Sinha, Sugam Pandey",
+      "abstract": "When a capable model and a human reviewer cooperate on the same decision, which human still adds value? We argue this is a question about a single cognitive trait, metacognitive calibration: the alignment between a reviewer's behavioral confidence and the actual correctness of their judgments. We de...",
       "venue": "arXiv",
-      "date": "2026-11-17",
-      "arxiv_id": "2611.23229v1",
-      "url": "https://arxiv.org/abs/2611.23229v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.23229v1.pdf",
+      "date": "2026-11-18",
+      "arxiv_id": "2611.24932v1",
+      "url": "https://arxiv.org/abs/2611.24932v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.24932v1.pdf",
       "categories": [
-        "cs.LG",
+        "cs.AI",
+        "cs.CE",
+        "cs.HC"
+      ],
+      "type": "survey",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Mapping the AI Supply Chain: Dependencies, Vulnerabilities, and Market Concentration in the AI Ecosystem",
+      "authors": "Sarah H. Cen, Lindsey A. Gailmard, Joohan Kim et al.",
+      "abstract": "AI systems are built across many organizations that contribute models, data, compute, capital, talent, and other assets. While the layers of the AI stack are relatively well understood, the relationships between actors and components across layers remains sparsely documented. In this work, we focus ...",
+      "venue": "arXiv",
+      "date": "2026-11-18",
+      "arxiv_id": "2611.24927v1",
+      "url": "https://arxiv.org/abs/2611.24927v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.24927v1.pdf",
+      "categories": [
+        "cs.CY",
+        "cs.AI"
+      ],
+      "type": "ai",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Jailbreak Detection on Large Language Models via Contrastive Prototype Structures",
+      "authors": "Yan Qiu, Yuanyuan Li",
+      "abstract": "Jailbreak attempts and harmful prompts remain a challenge for the safe deployment of large language models. We study whether contrastively learned representations can support safety detection without training an additional downstream classifier. We propose Jailbreak Detection with Prototype Inferenc...",
+      "venue": "arXiv",
+      "date": "2026-11-18",
+      "arxiv_id": "2611.24936v1",
+      "url": "https://arxiv.org/abs/2611.24936v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.24936v1.pdf",
+      "categories": [
+        "cs.CL"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Who are you? The Personal Imitation Game",
+      "authors": "Muhammad Rizky Wellyanto, Hajara-Yasmin Isa, Kexin Xue et al.",
+      "abstract": "Large Language Models (LLMs) now perform strongly on Alan Turing's 1950 Imitation Game, so we propose a harder challenge, the Personal Imitation Game, which asks whether a machine can replicate a specific individual in conversation rather than a generic human. Testing with 30 participants, we establ...",
+      "venue": "arXiv",
+      "date": "2026-11-18",
+      "arxiv_id": "2611.24888v1",
+      "url": "https://arxiv.org/abs/2611.24888v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.24888v1.pdf",
+      "categories": [
+        "cs.HC",
         "cs.AI",
         "cs.CL"
       ],
@@ -21,104 +72,68 @@
       "source": "arXiv"
     },
     {
-      "title": "StringQFT: A Multiuse Textbook Resource for AI-Assisted Theoretical Physics",
-      "authors": "Xingyang Yu",
-      "abstract": "We present StringQFT as a textbook collection for string constructions of quantum field theory and as infrastructure for AI-assisted theoretical physics. The collection comprises 18 volumes, 190 chapters and 3,795 pages, covering brane probes, brane webs, geometric engineering, F-theory construction...",
+      "title": "UltraTex: Aligning Physical Knowledge for High-Fidelity PBR Texture Generation",
+      "authors": "Jingzhi Bao, Xiaohe Ma, Hong Li et al.",
+      "abstract": "Generating physically based rendering (PBR) texture maps for a 3D mesh from a single reference image is highly ambiguous, as the observed appearance entangles material identity, surface reflectance, and illumination. While current generative methods produce realistic albedo maps, they still struggle...",
       "venue": "arXiv",
-      "date": "2026-11-17",
-      "arxiv_id": "2611.23225v1",
-      "url": "https://arxiv.org/abs/2611.23225v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.23225v1.pdf",
-      "categories": [
-        "hep-th",
-        "cs.AI"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "What Does a Bias Head Measure? Non-Identifiability in Head-Level Bias Attribution",
-      "authors": "S. M Seefat Alam",
-      "abstract": "Methods that localise social bias in large language models to individual attention heads and remove it by ablation are validated by their effect on a fairness metric, never by evidence that the statistic selecting the heads measures bias. We audit this on Qwen-2.5-7B-Instruct and Llama-3.1-8B-Instru...",
-      "venue": "arXiv",
-      "date": "2026-11-17",
-      "arxiv_id": "2611.23218v1",
-      "url": "https://arxiv.org/abs/2611.23218v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.23218v1.pdf",
-      "categories": [
-        "cs.CL",
-        "cs.LG"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Spool: Low-Latency Streaming Inference for Hybrid Vision-Language Models",
-      "authors": "Rui Ning, Om Chabra, Hari Balakrishnan",
-      "abstract": "Applications such as visual accessibility agents and robotics require answering questions about recent video content promptly, over a bounded window of past frames (e.g., the last two minutes). Hybrid vision-language models (VLMs), which interleave attention with linear recurrent layers such as Gate...",
-      "venue": "arXiv",
-      "date": "2026-11-17",
-      "arxiv_id": "2611.23228v1",
-      "url": "https://arxiv.org/abs/2611.23228v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.23228v1.pdf",
-      "categories": [
-        "cs.CV",
-        "cs.LG"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "FastFrames: Video Generation at Interactive Latency",
-      "authors": "Gene Chou, Guandao Yang, Fujun Luan et al.",
-      "abstract": "Autoregressive video diffusion models generate frames based on new observations and inputs, making them a promising medium for interactive visual experiences. However, existing models are orders of magnitude too slow for fluid interaction. This paper introduces FastFrames, a family of fast autoregre...",
-      "venue": "arXiv",
-      "date": "2026-11-17",
-      "arxiv_id": "2611.23226v1",
-      "url": "https://arxiv.org/abs/2611.23226v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.23226v1.pdf",
+      "date": "2026-11-18",
+      "arxiv_id": "2611.24941v1",
+      "url": "https://arxiv.org/abs/2611.24941v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.24941v1.pdf",
       "categories": [
         "cs.CV"
       ],
-      "type": "vision",
+      "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Feedback-Linearised Trajectory Tracking via Model-Informed Robust Geometric DDPC",
-      "authors": "Pranav Gupta, Deepan Muthirayan, Ravi Banavar",
-      "abstract": "Data-driven predictive control (DDPC) predicts system responses from recorded trajectories, but nonlinear dynamics can limit the accuracy of fixed linear predictors. This paper studies geometric robust DDPC for trajectory tracking of a fully actuated manipulator using model-based feedback linearisat...",
+      "title": "$Z$-sight: Unifying Vision-Language-Action and Latent World Modeling",
+      "authors": "Junjie Ye, Yiqi Zhao, Muchen Xu et al.",
+      "abstract": "We introduce $Z$-sight, a unified robot foundation model that couples vision-language-action (VLA) and generative latent world modeling. Video-based world action models (WAMs) show the value of joint future-and-action generation for control, yet inherit the heavy cost of video generators. Recent lat...",
       "venue": "arXiv",
-      "date": "2026-11-17",
-      "arxiv_id": "2611.23215v1",
-      "url": "https://arxiv.org/abs/2611.23215v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.23215v1.pdf",
+      "date": "2026-11-18",
+      "arxiv_id": "2611.24940v1",
+      "url": "https://arxiv.org/abs/2611.24940v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.24940v1.pdf",
       "categories": [
         "cs.RO",
-        "eess.SY"
+        "cs.CV"
       ],
-      "type": "ai",
+      "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Multimodal Masked Diffusion Autoencoder for Modeling Impaired Driving",
-      "authors": "John Gideon, Anshul Gupta, Megan Applegate-Kenton et al.",
-      "abstract": "Human cognitive state (e.g., distraction, stress), gaze, and behavior interact with the driving environment in subtle ways that AI could use to assist drivers, but ground-truth labels for human cognitive state levels are costly to obtain at scale. We propose a multimodal masked-diffusion autoencoder...",
+      "title": "Decomposing SGD Dynamics in Neural Networks: Teacher-Induced Spikes and Variance Inflation",
+      "authors": "Samet Demir, Zafer Dogan",
+      "abstract": "We study two-layer neural networks trained by stochastic gradient descent (SGD) on a multi-index teacher model, focusing on how first-layer parameters orthogonal to the teacher subspace affect generalization. We decompose the first-layer weights into a signal component aligned with the teacher and a...",
       "venue": "arXiv",
-      "date": "2026-11-17",
-      "arxiv_id": "2611.23211v1",
-      "url": "https://arxiv.org/abs/2611.23211v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.23211v1.pdf",
+      "date": "2026-11-18",
+      "arxiv_id": "2611.24908v1",
+      "url": "https://arxiv.org/abs/2611.24908v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.24908v1.pdf",
       "categories": [
-        "cs.CV",
-        "cs.LG",
+        "stat.ML",
+        "cs.LG"
+      ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Phoenix: Learning Scene Structure Representations for Generalizable World-Action Models",
+      "authors": "Yupeng Zheng, Chaoyue Li, Linbo Wang et al.",
+      "abstract": "World-action models jointly predict future observations and actions, yet reconstruction-oriented visual representations do not explicitly emphasize the spatial relationships and object-state changes needed for manipulation. We introduce Phoenix, which learns representations of scene structure for wo...",
+      "venue": "arXiv",
+      "date": "2026-11-18",
+      "arxiv_id": "2611.24938v1",
+      "url": "https://arxiv.org/abs/2611.24938v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.24938v1.pdf",
+      "categories": [
         "cs.RO"
       ],
-      "type": "vision",
+      "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     }

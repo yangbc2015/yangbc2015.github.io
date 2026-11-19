@@ -1,6 +1,6 @@
 ---
 title: '[Anthropic估值缩水，压力给到国内大模型公司'
-date: '2026-11-17'
+date: '2026-11-19'
 type: news
 source: 36氪
 category: AI投资

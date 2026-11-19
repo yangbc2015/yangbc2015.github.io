@@ -1,11 +1,103 @@
 {
-  "last_updated": "2026-11-18",
+  "last_updated": "2026-11-19",
   "count": 200,
   "items": [
     {
       "title": "[36氪首发丨 具 身 智 能 建筑机器人企业完成超亿级融资，连续三年订单复合增长率超100%",
       "summary": "[36氪首发丨 具 身 智 能 建筑机器人企业完成超亿级融资，连续三年订单复合增长率超100%",
       "url": "https://36kr.com/p/4070571639067782",
+      "date": "2026-11-19",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
+      "title": "Teaching VLMs What to Say, Not How to Reason: Rethinking Counterfactual Reasoning in Autonomous Driving",
+      "summary": "End-to-end autonomous driving systems have been shown to suffer from shortcut learning and causal confusion, limiting their ability to generalize robustly under distribution shift. To mitigate these limitations, recent works based on Vision-Language ...",
+      "url": "https://arxiv.org/abs/2611.24376v1",
+      "date": "2026-11-18",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.24376v1",
+      "authors": "Hayeon Oh, Donghwan Lee",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "SearchDiffusion: Information-Guided Diffusion Planning for Object Search",
+      "summary": "Object search in unknown environments requires robots to gather useful observations while avoiding obstacles and accounting for limited sensor visibility. We present SearchDiffusion, a diffusion-based planner that generates position and heading traje...",
+      "url": "https://arxiv.org/abs/2611.24375v1",
+      "date": "2026-11-18",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.24375v1",
+      "authors": "Sausar Karaf, Dmitrii Plotnikov et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Towards Pose-Robust Few-Shot Vision-Language-Action Models",
+      "summary": "Fine-tuning a vision-language-action (VLA) model on a few dozen demonstrations is the standard way to put a manipulation policy on a robot, yet the resulting policy silently assumes that the camera and the robot base stay exactly where they were duri...",
+      "url": "https://arxiv.org/abs/2611.24360v1",
+      "date": "2026-11-18",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.24360v1",
+      "authors": "Wenhao Li, Zhongyi Han et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Proprioceptive Simultaneous Base and Terrain Elevation Estimation for Legged Robot Locomotion",
+      "summary": "Legged robots in visually degraded environments must rely exclusively on proprioceptive sensing, under which global position and yaw are unobservable. Vertical drift is particularly detrimental, as it corrupts the height reference required by swing-l...",
+      "url": "https://arxiv.org/abs/2611.24310v1",
+      "date": "2026-11-18",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.24310v1",
+      "authors": "Michael Maravgakis, Stylianos Piperakis et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Remote Teleoperation of Endovascular Robots: A Network Emulation Framework for Systematic Performance Evaluation",
+      "summary": "Remote endovascular teleoperation requires network performance to be evaluated in relation to physical navigation and operator experience, while the effects of network degradation on the usability of remote endovascular systems remain insufficiently ...",
+      "url": "https://arxiv.org/abs/2611.24280v1",
+      "date": "2026-11-18",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.24280v1",
+      "authors": "Xingyu Chen, Nikola Fischer et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "[“双十一”机器人在物流仓“埋头苦干” 昆腾动力开启 具 身 智 能 规模化获客与交付阶段",
+      "summary": "[“双十一”机器人在物流仓“埋头苦干” 昆腾动力开启 具 身 智 能 规模化获客与交付阶段",
+      "url": "https://36kr.com/p/4065235763581828",
       "date": "2026-11-18",
       "source": "36氪",
       "category": "机器人",
@@ -15,10 +107,23 @@
       ]
     },
     {
-      "title": "[“双十一”机器人在物流仓“埋头苦干” 昆腾动力开启 具 身 智 能 规模化获客与交付阶段",
-      "summary": "[“双十一”机器人在物流仓“埋头苦干” 昆腾动力开启 具 身 智 能 规模化获客与交付阶段",
-      "url": "https://36kr.com/p/4065235763581828",
-      "date": "2026-11-18",
+      "title": "老黄走了的具身智能，不再看“卡”，而是看中国！",
+      "summary": "老黄走了的具身智能，不再看“卡”，而是看中国！",
+      "url": "https://36kr.com/p/4073721624368260",
+      "date": "2026-11-17",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "从鞋业规模化量产到机器人零部件制造，博理科技正将高分子材料与超高速3D打印技术拓展至更多工业场景。",
+      "summary": "从鞋业规模化量产到机器人零部件制造，博理科技正将高分子材料与超高速3D打印技术拓展至更多工业场景。",
+      "url": "https://36kr.com/p/4072516740797318",
+      "date": "2026-11-17",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
@@ -2954,115 +3059,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "RynnUnify: Towards Unified Embodied Brain",
-      "summary": "We introduce RynnUnify, a 16B unified embodied model that combines strong embodied understanding with long-horizon visual planning through interleaved video--language reasoning. With capabilities spanning spatial reasoning, physical prediction, and g...",
-      "url": "https://arxiv.org/abs/2610.32965v1",
-      "date": "2026-10-23",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.32965v1",
-      "authors": "Minghao Zhu, Bohan Hou et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "OWLS: Open-world Language-conditioned Speed Fields for Zero-Shot Rover Navigation",
-      "summary": "Semantics can provide a proxy for physical traversability. Terrain that looks like loose sand or a rock field is likely to have similar physical properties. Open-vocabulary vision-language models (VLMs) enable this physical reasoning over terrain out...",
-      "url": "https://arxiv.org/abs/2610.32596v1",
-      "date": "2026-10-23",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.32596v1",
-      "authors": "Chahyon Ku, Erica Tevere et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "UAV-SwarmAgent: Scalable Multi-UAV Reconnaissance and Task Allocation via Code Generation and Vision-Language Reasoning",
-      "summary": "Supervising a multi-UAV reconnaissance mission usually means plotting waypoints and watching every drone. We present UAV SwarmAgent, a hierarchical multi-agent system in which an operator states the mission in one natural-language sentence and a grou...",
-      "url": "https://arxiv.org/abs/2610.32559v1",
-      "date": "2026-10-23",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.32559v1",
-      "authors": "Oleg Sautenkov, Yasheerah Yaqoot et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "HGWM: Hierarchical Graph-Guided World Model for Zero-Shot Object Navigation via Graph Matching",
-      "summary": "Zero-shot object navigation requires an embodied agent to choose where to search while retaining evidence from previous observations. HGWM couples an LLM-generated room-anchor prior with persistent spatial-semantic memory. A coarse stage assigns visu...",
-      "url": "https://arxiv.org/abs/2610.32554v1",
-      "date": "2026-10-23",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.32554v1",
-      "authors": "I-tak Ieong, Hao Tang",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Optimization, Optimal Control, and Reinforcement Learning for Robotics",
-      "summary": "These lecture notes provide an introduction to optimization, optimal control, and reinforcement learning for robotics, emphasizing their mathematical connections and practical relevance. They present established material compiled and edited by Yonghy...",
-      "url": "https://arxiv.org/abs/2610.32538v1",
-      "date": "2026-10-23",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.32538v1",
-      "authors": "Yonghyeon Lee",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Facultative Swarming: A Capability, Not a Category, for Multi-Robot Systems",
-      "summary": "Collective robotics is split by a long-standing but increasingly artificial boundary between centralised multi-robot systems that prioritise optimality and decentralised swarms that prioritise robustness and adaptivity. We propose a unified control f...",
-      "url": "https://arxiv.org/abs/2610.32526v1",
-      "date": "2026-10-23",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.32526v1",
-      "authors": "Ning Zhou, Edmund R. Hunt",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "辉羲智能完成超25亿融资，发力具身智能芯片研发与生态建设",
-      "summary": "辉羲智能完成超25亿融资，发力具身智能芯片研发与生态建设",
-      "url": "http://36kr.com/p/4036678855513736",
-      "date": "2026-10-22",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
       ]
     }
   ]
