@@ -15,6 +15,86 @@
       ]
     },
     {
+      "title": "$Z$-sight: Unifying Vision-Language-Action and Latent World Modeling",
+      "summary": "We introduce $Z$-sight, a unified robot foundation model that couples vision-language-action (VLA) and generative latent world modeling. Video-based world action models (WAMs) show the value of joint future-and-action generation for control, yet inhe...",
+      "url": "https://arxiv.org/abs/2611.24940v1",
+      "date": "2026-11-18",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.24940v1",
+      "authors": "Junjie Ye, Yiqi Zhao et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Phoenix: Learning Scene Structure Representations for Generalizable World-Action Models",
+      "summary": "World-action models jointly predict future observations and actions, yet reconstruction-oriented visual representations do not explicitly emphasize the spatial relationships and object-state changes needed for manipulation. We introduce Phoenix, whic...",
+      "url": "https://arxiv.org/abs/2611.24938v1",
+      "date": "2026-11-18",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.24938v1",
+      "authors": "Yupeng Zheng, Chaoyue Li et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Grana: Compositional Reward Modeling for Long-Horizon Robot Manipulation",
+      "summary": "Robot reward modeling faces two challenges: generalizing across tasks and accurately tracking progress in long-horizon manipulation. General-purpose reward models demonstrate broad task transfer, but transfer from short-task pretraining to long-horiz...",
+      "url": "https://arxiv.org/abs/2611.24926v1",
+      "date": "2026-11-18",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.24926v1",
+      "authors": "Zi-ang Cao, Kaiyuan Zheng et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Render the Robot, Generate the World: One Video World Model Across Embodiments",
+      "summary": "Predicting the consequences of an agent's actions requires modeling both the body's motion and the environment's response. Most video world models attempt to learn both from numerical actions, even though geometry and kinematics already specify the i...",
+      "url": "https://arxiv.org/abs/2611.24925v1",
+      "date": "2026-11-18",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.24925v1",
+      "authors": "Yash Jangir, Karan Mirakhor et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Teleoperated Haircutting with Delay Compensation and Passivity-Based Control for Unilateral Internet Teleoperation under Real Communication Uncertainties",
+      "summary": "Robotic haircutting requires accurate motion execution and reliable communication to safely reproduce the operator's commands. Internet-based teleoperation is a key enabling technology to remotely perform precise manipulation tasks such as haircuttin...",
+      "url": "https://arxiv.org/abs/2611.24883v1",
+      "date": "2026-11-18",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.24883v1",
+      "authors": "Viridiana Luna-Zempoalteca, Zhendai Huang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
       "title": "Teaching VLMs What to Say, Not How to Reason: Rethinking Counterfactual Reasoning in Autonomous Driving",
       "summary": "End-to-end autonomous driving systems have been shown to suffer from shortcut learning and causal confusion, limiting their ability to generalize robustly under distribution shift. To mitigate these limitations, recent works based on Vision-Language ...",
       "url": "https://arxiv.org/abs/2611.24376v1",
@@ -2978,83 +3058,6 @@
       "type": "paper",
       "arxiv_id": "2610.33863v1",
       "authors": "Zixuan Chen, Lin Cao et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "易观分析：具身智能全球市场仍处于早期商业化验证阶段，产业区域格局可概括为“美脑、中身、欧规、日韩精密”的多极分工。而中国的具身智能领域在完备供应链的加持下，在出货量、销售额、投融资规模、商业订单等方面都在全球占据榜首位置，且优势较为突出。但中国的核心技术和高端部件仍有提升空间，中国正由规模制造向全球技术与生态竞争迈进。",
-      "summary": "易观分析：具身智能全球市场仍处于早期商业化验证阶段，产业区域格局可概括为“美脑、中身、欧规、日韩精密”的多极分工。而中国的具身智能领域在完备供应链的加持下，在出货量、销售额、投融资规模、商业订单等方面都在全球占据榜首位置，且优势较为突出。但中国的核心技术和高端部件仍有提升空间，中国正由规模制造向全球",
-      "url": "http://36kr.com/p/4037944015853440",
-      "date": "2026-10-23",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "SceneBloom: Agentic Indoor Environment Generation with Realistic and Diverse Layouts for Embodied Learning",
-      "summary": "Training generalizable embodied agents requires realistic, varied, and simulation-ready indoor environments. Language-guided methods support semantic planning and object-level reasoning, but precise spatial grounding remains difficult. Visual generat...",
-      "url": "https://arxiv.org/abs/2610.32978v1",
-      "date": "2026-10-23",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.32978v1",
-      "authors": "Yuhan Liu, Lianhui Qin et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "RobustRLlib: A Unified Library and Benchmark for Robust Reinforcement Learning Algorithms",
-      "summary": "Robust reinforcement learning (RL) is critical for reliable real-world deployment, where policies may fail under diverse shifts and disruptions. Existing robust RL algorithms offer a rich set of mechanisms and principles, yet two major barriers limit...",
-      "url": "https://arxiv.org/abs/2610.32971v1",
-      "date": "2026-10-23",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.32971v1",
-      "authors": "Xi Chen, Fengqi Hu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "DexPort: A Hand-Held Skill Interface for Dexterous Hand Data Collection",
-      "summary": "Collecting high-quality demonstrations remains a central bottleneck for learning dexterous manipulation. Teleoperation records executable robot actions, but it requires a complete robot setup and places the burden of coordinating many finger joints o...",
-      "url": "https://arxiv.org/abs/2610.32969v1",
-      "date": "2026-10-23",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.32969v1",
-      "authors": "Amber Xie, Jiawei Fu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "ViT-H: Generative Video-To-Humanoid Control with Motion Tracking Feedback",
-      "summary": "Learning humanoid control from monocular human videos offers a scalable way to acquire diverse whole-body behaviors. Yet, existing reconstruction-retargeting-tracking pipelines are limited in system-level scalability by separately optimized intermedi...",
-      "url": "https://arxiv.org/abs/2610.32966v1",
-      "date": "2026-10-23",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.32966v1",
-      "authors": "Zimo He, Tianyi Bian et al.",
       "tags": [
         "机器人学习",
         "研究论文",
