@@ -3,6 +3,86 @@
   "count": 200,
   "items": [
     {
+      "title": "Reference-Free Humanoid Skateboarding via Termination-Shaped Reinforcement Learning",
+      "summary": "Humanoid locomotion research has advanced rapidly on walking and running, but \\emph {object-mediated} locomotion, in which a robot must coordinate its body with a passive external object, remains difficult. One challenging task is skateboarding, whic...",
+      "url": "https://arxiv.org/abs/2611.26054v1",
+      "date": "2026-11-19",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.26054v1",
+      "authors": "Ganeshvar Soenessardien, Michael Przystupa et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "AGE-Capture: Autonomous, General, and Efficient UAV Capture for High-Fidelity Scene Reconstruction",
+      "summary": "High-fidelity scene reconstruction with an unmanned aerial vehicle (UAV) requires more than identifying valuable viewpoints: the system must autonomously acquire informative observations and determine task completion under different sensing configura...",
+      "url": "https://arxiv.org/abs/2611.26048v1",
+      "date": "2026-11-19",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.26048v1",
+      "authors": "Xiaofeng Jin, Ningbo Bu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Agentic Scaling of Embodied Tasks in Simulation for Synthetic Data Collection and Policy Evaluation",
+      "summary": "Scaling embodied interaction data requires a broad collection of usable tasks, yet specifying and validating each task instance remains costly. We present AgenticTask, an agent-based framework that expands existing task collections under human intent...",
+      "url": "https://arxiv.org/abs/2611.26046v1",
+      "date": "2026-11-19",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.26046v1",
+      "authors": "Kang Wang, Xiaolei Zhou et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Close&Safe: Maximal Task Preservation for Redundant Manipulators via C-Space Boundary Detour",
+      "summary": "Contact-rich manipulation such as wiping, polishing and surface inspection specifies the task as a continuous end-effector trajectory rather than a goal pose. When an obstacle absent from the planning model intersects it, conventional planners return...",
+      "url": "https://arxiv.org/abs/2611.26031v1",
+      "date": "2026-11-19",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.26031v1",
+      "authors": "Abhigyan Singh, Manthan Goyal et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Learning What Actions Change: Action Effect Matching for Dynamics-Faithful World Models",
+      "summary": "World models aim to predict environment dynamics under actions, enabling the prediction of action consequences without executing them in the real world. Yet despite producing increasingly realistic videos, current world models often fail to capture h...",
+      "url": "https://arxiv.org/abs/2611.25980v1",
+      "date": "2026-11-19",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.25980v1",
+      "authors": "John Won, Yonghoon Dong et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
       "title": "[36氪首发丨 具 身 智 能 建筑机器人企业完成超亿级融资，连续三年订单复合增长率超100%",
       "summary": "[36氪首发丨 具 身 智 能 建筑机器人企业完成超亿级融资，连续三年订单复合增长率超100%",
       "url": "https://36kr.com/p/4070571639067782",
@@ -12,6 +92,19 @@
       "type": "news",
       "tags": [
         "机器人"
+      ]
+    },
+    {
+      "title": "不搞炫技扎进服务业，具身智能要具备自我造血的能力。",
+      "summary": "不搞炫技扎进服务业，具身智能要具备自我造血的能力。",
+      "url": "https://36kr.com/p/4073722831508612",
+      "date": "2026-11-18",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
       ]
     },
     {
@@ -92,19 +185,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "不搞炫技扎进服务业，具身智能要具备自我造血的能力。",
-      "summary": "不搞炫技扎进服务业，具身智能要具备自我造血的能力。",
-      "url": "https://36kr.com/p/4073722831508612",
-      "date": "2026-11-18",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
       ]
     },
     {
@@ -2975,86 +3055,6 @@
       "type": "paper",
       "arxiv_id": "2610.35850v1",
       "authors": "Guowen Zhang, Liyi Chen et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Profiling a Frontier Agent with EBench: From Direct Control to Harness with Policy",
-      "summary": "Frontier multimodal large language models (MLLMs) can control robots without robot-specific training, but how their capabilities compare and interact with post-trained vision-language-action (VLA) and world action model (WAM) policies across manipula...",
-      "url": "https://arxiv.org/abs/2610.35832v1",
-      "date": "2026-10-26",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.35832v1",
-      "authors": "Yifei Yao, Yude Zou et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "I Won't Know Until I Try: Interactive Information Gathering for Long-Horizon Manipulation",
-      "summary": "Long-horizon manipulation often depends on object properties that cannot be reliably inferred from appearance alone. Physical interaction can reveal these properties, but it can also change the world in ways that invalidate subsequent actions. We pre...",
-      "url": "https://arxiv.org/abs/2610.33959v1",
-      "date": "2026-10-25",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.33959v1",
-      "authors": "Linfei Yuan, Rachel Holladay",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Learning Functional Specialisation for Bimanual Robotic Control",
-      "summary": "Bimanual robotic control requires simultaneous management of distinct functional demands under motor noise, energetic costs, and communication delays. We investigate how learning responsibility should be organised across modular controllers and the t...",
-      "url": "https://arxiv.org/abs/2610.33947v1",
-      "date": "2026-10-24",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.33947v1",
-      "authors": "Jingwen Li, Levin Kuhlmann et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Real-Time Human Trajectory Prediction from RGB-D for Mobile Robots Using Bi-Mamba",
-      "summary": "Predicting the short-term future trajectory of a person from RGB-D cameras is a key capability for mobile robots navigating in dynamic and human populated environment. The key challenge to deploying learned predictors on real robots is the train-depl...",
-      "url": "https://arxiv.org/abs/2610.33916v1",
-      "date": "2026-10-24",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.33916v1",
-      "authors": "Basheer Al-Tawil, Magnus Jung et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Sybil-Resilient Multi-Drone Exploration of Indoor and Confined Spaces",
-      "summary": "When a team of drones explores a building together, each drone tells the others which frontier it is going to and shares the map it has built. This avoids duplicated effort, but it also means that the team trusts every identity from which it receives...",
-      "url": "https://arxiv.org/abs/2610.33906v1",
-      "date": "2026-10-24",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.33906v1",
-      "authors": "Shyaam Mahesh, Aditya B Prakash et al.",
       "tags": [
         "机器人学习",
         "研究论文",

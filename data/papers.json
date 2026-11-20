@@ -1,137 +1,122 @@
 {
   "last_updated": "2026-11-20",
-  "count": 8,
+  "count": 7,
   "items": [
     {
-      "title": "Knowing What You Know: A Trait Theory of Reviewer Value in Human-AI Cognitive Systems",
-      "authors": "Priyanka Sinha, Sugam Pandey",
-      "abstract": "When a capable model and a human reviewer cooperate on the same decision, which human still adds value? We argue this is a question about a single cognitive trait, metacognitive calibration: the alignment between a reviewer's behavioral confidence and the actual correctness of their judgments. We de...",
+      "title": "PlayCraft: Designing Engaging Games from Agent Play Experience",
+      "authors": "Weihao Cheng",
+      "abstract": "Recent AI agents can generate playable games, but these games are not necessarily engaging. Mastery is a key source of engagement, yet designing for it requires extensive human play and tuning. We propose PlayCraft, an automated framework that uses a vision-based agent to play games and draws on its...",
       "venue": "arXiv",
-      "date": "2026-11-18",
-      "arxiv_id": "2611.24932v1",
-      "url": "https://arxiv.org/abs/2611.24932v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.24932v1.pdf",
+      "date": "2026-11-19",
+      "arxiv_id": "2611.26624v1",
+      "url": "https://arxiv.org/abs/2611.26624v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.26624v1.pdf",
       "categories": [
         "cs.AI",
-        "cs.CE",
-        "cs.HC"
+        "cs.CV"
       ],
-      "type": "survey",
+      "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Mapping the AI Supply Chain: Dependencies, Vulnerabilities, and Market Concentration in the AI Ecosystem",
-      "authors": "Sarah H. Cen, Lindsey A. Gailmard, Joohan Kim et al.",
-      "abstract": "AI systems are built across many organizations that contribute models, data, compute, capital, talent, and other assets. While the layers of the AI stack are relatively well understood, the relationships between actors and components across layers remains sparsely documented. In this work, we focus ...",
+      "title": "One Prior, Two Dynamics: Repurposing Video Diffusion Transformers for Self-Supervised Latent Action Learning",
+      "authors": "Yuxin Jiang, Wenqiang Sun, Jiaqi Li et al.",
+      "abstract": "Videos reveal how the world changes, but rarely the actions that cause those changes. Latent action learning recovers such supervision from visual transitions, yet often learns the underlying dynamics largely from scratch. We ask whether a pretrained video generator can instead provide the prior for...",
       "venue": "arXiv",
-      "date": "2026-11-18",
-      "arxiv_id": "2611.24927v1",
-      "url": "https://arxiv.org/abs/2611.24927v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.24927v1.pdf",
+      "date": "2026-11-19",
+      "arxiv_id": "2611.26617v1",
+      "url": "https://arxiv.org/abs/2611.26617v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.26617v1.pdf",
       "categories": [
-        "cs.CY",
-        "cs.AI"
-      ],
-      "type": "ai",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Jailbreak Detection on Large Language Models via Contrastive Prototype Structures",
-      "authors": "Yan Qiu, Yuanyuan Li",
-      "abstract": "Jailbreak attempts and harmful prompts remain a challenge for the safe deployment of large language models. We study whether contrastively learned representations can support safety detection without training an additional downstream classifier. We propose Jailbreak Detection with Prototype Inferenc...",
-      "venue": "arXiv",
-      "date": "2026-11-18",
-      "arxiv_id": "2611.24936v1",
-      "url": "https://arxiv.org/abs/2611.24936v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.24936v1.pdf",
-      "categories": [
-        "cs.CL"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Who are you? The Personal Imitation Game",
-      "authors": "Muhammad Rizky Wellyanto, Hajara-Yasmin Isa, Kexin Xue et al.",
-      "abstract": "Large Language Models (LLMs) now perform strongly on Alan Turing's 1950 Imitation Game, so we propose a harder challenge, the Personal Imitation Game, which asks whether a machine can replicate a specific individual in conversation rather than a generic human. Testing with 30 participants, we establ...",
-      "venue": "arXiv",
-      "date": "2026-11-18",
-      "arxiv_id": "2611.24888v1",
-      "url": "https://arxiv.org/abs/2611.24888v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.24888v1.pdf",
-      "categories": [
-        "cs.HC",
+        "cs.CV",
         "cs.AI",
-        "cs.CL"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "UltraTex: Aligning Physical Knowledge for High-Fidelity PBR Texture Generation",
-      "authors": "Jingzhi Bao, Xiaohe Ma, Hong Li et al.",
-      "abstract": "Generating physically based rendering (PBR) texture maps for a 3D mesh from a single reference image is highly ambiguous, as the observed appearance entangles material identity, surface reflectance, and illumination. While current generative methods produce realistic albedo maps, they still struggle...",
-      "venue": "arXiv",
-      "date": "2026-11-18",
-      "arxiv_id": "2611.24941v1",
-      "url": "https://arxiv.org/abs/2611.24941v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.24941v1.pdf",
-      "categories": [
-        "cs.CV"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "$Z$-sight: Unifying Vision-Language-Action and Latent World Modeling",
-      "authors": "Junjie Ye, Yiqi Zhao, Muchen Xu et al.",
-      "abstract": "We introduce $Z$-sight, a unified robot foundation model that couples vision-language-action (VLA) and generative latent world modeling. Video-based world action models (WAMs) show the value of joint future-and-action generation for control, yet inherit the heavy cost of video generators. Recent lat...",
-      "venue": "arXiv",
-      "date": "2026-11-18",
-      "arxiv_id": "2611.24940v1",
-      "url": "https://arxiv.org/abs/2611.24940v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.24940v1.pdf",
-      "categories": [
-        "cs.RO",
-        "cs.CV"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Decomposing SGD Dynamics in Neural Networks: Teacher-Induced Spikes and Variance Inflation",
-      "authors": "Samet Demir, Zafer Dogan",
-      "abstract": "We study two-layer neural networks trained by stochastic gradient descent (SGD) on a multi-index teacher model, focusing on how first-layer parameters orthogonal to the teacher subspace affect generalization. We decompose the first-layer weights into a signal component aligned with the teacher and a...",
-      "venue": "arXiv",
-      "date": "2026-11-18",
-      "arxiv_id": "2611.24908v1",
-      "url": "https://arxiv.org/abs/2611.24908v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.24908v1.pdf",
-      "categories": [
-        "stat.ML",
         "cs.LG"
       ],
-      "type": "ml",
+      "type": "vision",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Phoenix: Learning Scene Structure Representations for Generalizable World-Action Models",
-      "authors": "Yupeng Zheng, Chaoyue Li, Linbo Wang et al.",
-      "abstract": "World-action models jointly predict future observations and actions, yet reconstruction-oriented visual representations do not explicitly emphasize the spatial relationships and object-state changes needed for manipulation. We introduce Phoenix, which learns representations of scene structure for wo...",
+      "title": "AgentRoboCritic: Understanding the Capability of Frontier Agents on Direct Robot Control",
+      "authors": "Yiyang Du, Yuxuan Kuang, Qitao Zhao et al.",
+      "abstract": "Frontier multimodal language agents such as GPT-6 Astra have demonstrated strong capabilities in controlling robots directly via low-level numerical actions without high-level primitives. However, existing benchmarks report only episode-level success rates, which show neither how these agents succee...",
       "venue": "arXiv",
-      "date": "2026-11-18",
-      "arxiv_id": "2611.24938v1",
-      "url": "https://arxiv.org/abs/2611.24938v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.24938v1.pdf",
+      "date": "2026-11-19",
+      "arxiv_id": "2611.26613v1",
+      "url": "https://arxiv.org/abs/2611.26613v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.26613v1.pdf",
       "categories": [
-        "cs.RO"
+        "cs.RO",
+        "cs.CL",
+        "cs.CV"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Represented but misread: Post-training changes how language models read out what they represent",
+      "authors": "Jochen Laubrock",
+      "abstract": "Does post-training change what a language model represents, or how this representation is read out into an answer? We compared linear probes with the models' own answers, analyzed with signal detection theory, in six open-weight base models and their post-trained versions. For judgments of whether G...",
+      "venue": "arXiv",
+      "date": "2026-11-19",
+      "arxiv_id": "2611.26584v1",
+      "url": "https://arxiv.org/abs/2611.26584v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.26584v1.pdf",
+      "categories": [
+        "cs.CL",
+        "cs.LG"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Posterior Matching Distillation",
+      "authors": "Hidir Yesiltepe, Julius Berner, Arash Vahdat et al.",
+      "abstract": "Diffusion distillation accelerates image and video generation by compressing a pretrained teacher's iterative sampling process into a few network evaluations. Distribution-based methods achieve this by matching the student's output distribution to the teacher's. This matching is often driven by reve...",
+      "venue": "arXiv",
+      "date": "2026-11-19",
+      "arxiv_id": "2611.26629v1",
+      "url": "https://arxiv.org/abs/2611.26629v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.26629v1.pdf",
+      "categories": [
+        "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "RL Post-Training in Diffusion Transformers Is Activation Steering",
+      "authors": "Tuna Han Salih Meral, Kaan Oktay, Alec Helbling et al.",
+      "abstract": "Reinforcement learning (RL) post-training substantially improves the visual quality, text rendering, and compositional accuracy of diffusion transformers. Because capabilities such as rendering requested text or composing multiple objects are inherently prompt-dependent, a natural hypothesis is that...",
+      "venue": "arXiv",
+      "date": "2026-11-19",
+      "arxiv_id": "2611.26627v1",
+      "url": "https://arxiv.org/abs/2611.26627v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.26627v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "TideCache: Efficient Hybrid LLM Serving with Transparent Cache Management and Layer-Wise Streaming",
+      "authors": "Jinbin Luo, Xiaozhe Yao, Shang Yang et al.",
+      "abstract": "Hybrid architectures have become mainstream among open-weight language models. Their global-attention and bounded-state layers maintain heterogeneous caches whose demands vary with context length and concurrency. We present TideCache, a serving system on CPU--GPU superchips with three components for...",
+      "venue": "arXiv",
+      "date": "2026-11-19",
+      "arxiv_id": "2611.26619v1",
+      "url": "https://arxiv.org/abs/2611.26619v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.26619v1.pdf",
+      "categories": [
+        "cs.DC",
+        "cs.LG"
       ],
       "type": "ml",
       "badge": "arxiv",
