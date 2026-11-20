@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-19",
+  "last_updated": "2026-11-20",
   "count": 200,
   "items": [
     {
@@ -92,6 +92,19 @@
         "机器人学习",
         "研究论文",
         "arXiv"
+      ]
+    },
+    {
+      "title": "不搞炫技扎进服务业，具身智能要具备自我造血的能力。",
+      "summary": "不搞炫技扎进服务业，具身智能要具备自我造血的能力。",
+      "url": "https://36kr.com/p/4073722831508612",
+      "date": "2026-11-18",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
       ]
     },
     {
@@ -3042,22 +3055,6 @@
       "type": "paper",
       "arxiv_id": "2610.33906v1",
       "authors": "Shyaam Mahesh, Aditya B Prakash et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "RoboLongR: Causally Consistent Rewards Teach Robots to Progressively Master Long-Horizon Manipulation",
-      "summary": "Long-horizon manipulation requires actions whose validity depends on earlier interactions, yet visual progress can conceal missing task prerequisites. We propose RoboLongR, an offline-to-online framework that learns history-dependent rewards to guide...",
-      "url": "https://arxiv.org/abs/2610.33863v1",
-      "date": "2026-10-24",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.33863v1",
-      "authors": "Zixuan Chen, Lin Cao et al.",
       "tags": [
         "机器人学习",
         "研究论文",

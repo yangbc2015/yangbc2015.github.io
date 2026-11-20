@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-11-19",
+  "last_updated": "2026-11-20",
   "count": 200,
-  "history_count": 204,
+  "history_count": 205,
   "retention_days": 30,
   "items": [
     {
       "title": "「Revaluation 价值，另有答案」",
       "link": "https://www.qbitai.com/?s=「Revaluati",
       "summary": "「Revaluation 价值，另有答案」...",
-      "date": "2026-11-19",
+      "date": "2026-11-20",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -20,7 +20,7 @@
       "title": "商汤科技日日新 SenseNova U1 Pro 在图片生成与图片编辑两大榜单中均登顶中国第一",
       "link": "https://www.qbitai.com/?s=商汤科技日日新 Se",
       "summary": "商汤科技日日新 SenseNova U1 Pro 在图片生成与图片编辑两大榜单中均登顶中国第一...",
-      "date": "2026-11-19",
+      "date": "2026-11-20",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -32,7 +32,7 @@
       "title": "全球AI生态链领先企业联想集团今日公布截至2026/27财年第二季度业绩",
       "link": "https://www.qbitai.com/?s=全球AI生态链领先企",
       "summary": "全球AI生态链领先企业联想集团今日公布截至2026/27财年第二季度业绩...",
-      "date": "2026-11-19",
+      "date": "2026-11-20",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -44,7 +44,7 @@
       "title": "11月18日，安谋科技（中国）有限公司举办Arm® Cortex®-M CPU新品说明会",
       "link": "https://www.qbitai.com/?s=11月18日，安谋科",
       "summary": "11月18日，安谋科技（中国）有限公司举办Arm® Cortex®-M CPU新品说明会...",
-      "date": "2026-11-19",
+      "date": "2026-11-20",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -56,7 +56,7 @@
       "title": "国产AI工具实现「一个人就是一个剧组」",
       "link": "https://www.qbitai.com/?s=国产AI工具实现「一",
       "summary": "国产AI工具实现「一个人就是一个剧组」...",
-      "date": "2026-11-19",
+      "date": "2026-11-20",
       "source": "量子位",
       "type": "industry",
       "tags": [
@@ -68,12 +68,84 @@
       "title": "Final URL: https://techcrunch.com/category/artificial-intelligence/",
       "link": "https://techcrunch.com/category/artificial-intelligence/",
       "summary": "Final URL: https://techcrunch.com/category/artificial-intelligence/...",
-      "date": "2026-11-19",
+      "date": "2026-11-20",
       "source": "TechCrunch",
       "type": "industry",
       "tags": [
         "AI",
         "Artificial Intelligence"
+      ]
+    },
+    {
+      "title": "Markdown Content:",
+      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+      "summary": "Markdown Content:...",
+      "date": "2026-11-19",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "Claude交出两篇黑洞物理学论文，突破数十年未解难题",
+      "link": "https://www.jiqizhixin.com/search/articles/Claude交出两篇黑洞物理学",
+      "summary": "Claude交出两篇黑洞物理学论文，突破数十年未解难题...",
+      "date": "2026-11-19",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "推理成本砍到1/20：混元Hy4 flash调用数据登顶，性价比拉满了（已开源）",
+      "link": "https://www.jiqizhixin.com/search/articles/推理成本砍到1/20：混元Hy",
+      "summary": "推理成本砍到1/20：混元Hy4 flash调用数据登顶，性价比拉满了（已开源）...",
+      "date": "2026-11-19",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "年度压轴之作｜2027 AI 进化峰会官宣，为下一轮智能跃迁写下序章",
+      "link": "https://www.jiqizhixin.com/search/articles/年度压轴之作｜2027 AI ",
+      "summary": "年度压轴之作｜2027 AI 进化峰会官宣，为下一轮智能跃迁写下序章...",
+      "date": "2026-11-19",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "让量子计算机「组队」：合肥发布中国首款可互联中性原子原型机",
+      "link": "https://www.jiqizhixin.com/search/articles/让量子计算机「组队」：合肥发布",
+      "summary": "让量子计算机「组队」：合肥发布中国首款可互联中性原子原型机...",
+      "date": "2026-11-19",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "语言模型推理折叠蛋白质？把3D结构塞进思维链，超越AlphaFold3、IsoDDE与Claude Opus",
+      "link": "https://www.jiqizhixin.com/search/articles/语言模型推理折叠蛋白质？把3D",
+      "summary": "语言模型推理折叠蛋白质？把3D结构塞进思维链，超越AlphaFold3、IsoDDE与Claude Opus...",
+      "date": "2026-11-19",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
       ]
     },
     {
@@ -260,18 +332,6 @@
       "title": "OpenAI进入医疗工作流，拓展Healthcare应用边界",
       "link": "https://www.jiqizhixin.com/search/articles/OpenAI进入医疗工作流，拓",
       "summary": "OpenAI进入医疗工作流，拓展Healthcare应用边界...",
-      "date": "2026-11-17",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Markdown Content:",
-      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-      "summary": "Markdown Content:...",
       "date": "2026-11-17",
       "source": "机器之心",
       "type": "industry",
@@ -2337,66 +2397,6 @@
       "link": "https://www.qbitai.com/?s=CMOS标准工艺兼容",
       "summary": "CMOS标准工艺兼容的1TnR技术路线加速研发。...",
       "date": "2026-10-15",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "10月13日，APUS AI（麒麟合盛网络技术股份有限公司）宣布开源Personal Agent产品Reflex Agent",
-      "link": "https://www.qbitai.com/?s=10月13日，APU",
-      "summary": "10月13日，APUS AI（麒麟合盛网络技术股份有限公司）宣布开源Personal Agent产品Reflex Agent...",
-      "date": "2026-10-15",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "让VLA从“演示可用”逼近“产线可用”",
-      "link": "https://www.qbitai.com/?s=让VLA从“演示可用",
-      "summary": "让VLA从“演示可用”逼近“产线可用”...",
-      "date": "2026-10-15",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "让材料感知压力，造出超薄高密度电子皮肤",
-      "link": "https://www.qbitai.com/?s=让材料感知压力，造出",
-      "summary": "让材料感知压力，造出超薄高密度电子皮肤...",
-      "date": "2026-10-14",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "由亿邦动力主办的“2026第八届亿邦产业互联网年会暨首届产业智能体大会”正式定档",
-      "link": "https://www.qbitai.com/?s=由亿邦动力主办的“2",
-      "summary": "由亿邦动力主办的“2026第八届亿邦产业互联网年会暨首届产业智能体大会”正式定档...",
-      "date": "2026-10-14",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "算力、模型、行业，三层生意一起做",
-      "link": "https://www.qbitai.com/?s=算力、模型、行业，三",
-      "summary": "算力、模型、行业，三层生意一起做...",
-      "date": "2026-10-14",
       "source": "量子位",
       "type": "industry",
       "tags": [
