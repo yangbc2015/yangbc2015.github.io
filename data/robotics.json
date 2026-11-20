@@ -3,6 +3,98 @@
   "count": 200,
   "items": [
     {
+      "title": "[36氪首发丨 具 身 智 能 建筑机器人企业完成超亿级融资，连续三年订单复合增长率超100%",
+      "summary": "[36氪首发丨 具 身 智 能 建筑机器人企业完成超亿级融资，连续三年订单复合增长率超100%",
+      "url": "https://36kr.com/p/4070571639067782",
+      "date": "2026-11-20",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
+      "title": "One Prior, Two Dynamics: Repurposing Video Diffusion Transformers for Self-Supervised Latent Action Learning",
+      "summary": "Videos reveal how the world changes, but rarely the actions that cause those changes. Latent action learning recovers such supervision from visual transitions, yet often learns the underlying dynamics largely from scratch. We ask whether a pretrained...",
+      "url": "https://arxiv.org/abs/2611.26617v1",
+      "date": "2026-11-19",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.26617v1",
+      "authors": "Yuxin Jiang, Wenqiang Sun et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "AgentRoboCritic: Understanding the Capability of Frontier Agents on Direct Robot Control",
+      "summary": "Frontier multimodal language agents such as GPT-6 Astra have demonstrated strong capabilities in controlling robots directly via low-level numerical actions without high-level primitives. However, existing benchmarks report only episode-level success...",
+      "url": "https://arxiv.org/abs/2611.26613v1",
+      "date": "2026-11-19",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.26613v1",
+      "authors": "Yiyang Du, Yuxuan Kuang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "A Tutorial on Complementarity-Based Contact Models for Robotics",
+      "summary": "Simulating rigid-body dynamics with contact is fundamental to robotics, from motion synthesis and control to mechanism design. Many widely used simulators rely on cone complementarity formulations, whose physical assumptions and numerical solution re...",
+      "url": "https://arxiv.org/abs/2611.26600v1",
+      "date": "2026-11-19",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.26600v1",
+      "authors": "Onur Beker, A. René Geist et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "PGX: Physically Grounded Execution for Long-Horizon Humanoid Loco-Manipulation",
+      "summary": "Robotic vision-language-action (VLA) models can execute diverse individual manipulation skills, yet they still struggle with long-horizon loco-manipulation tasks, where temporal structure, skills, and precision are tightly coupled within a monolithic...",
+      "url": "https://arxiv.org/abs/2611.26596v1",
+      "date": "2026-11-19",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.26596v1",
+      "authors": "Kai Lu, Chenyang Ma et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "PhyDEX: A Benchmark for Physical Reasoning in Vision-Language-Action Models via Dynamic Extrinsic Dexterity",
+      "summary": "Vision-Language-Action (VLA) models have advanced rapidly in language-conditioned robotic manipulation, yet existing benchmarks mainly evaluate gripper--object contact and largely ignore how objects interact with the environment through gravity, fric...",
+      "url": "https://arxiv.org/abs/2611.26565v1",
+      "date": "2026-11-19",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.26565v1",
+      "authors": "Hao Vo, Taisei Hanyu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
       "title": "Reference-Free Humanoid Skateboarding via Termination-Shaped Reinforcement Learning",
       "summary": "Humanoid locomotion research has advanced rapidly on walking and running, but \\emph {object-mediated} locomotion, in which a robot must coordinate its body with a passive external object, remains difficult. One challenging task is skateboarding, whic...",
       "url": "https://arxiv.org/abs/2611.26054v1",
@@ -80,18 +172,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "[36氪首发丨 具 身 智 能 建筑机器人企业完成超亿级融资，连续三年订单复合增长率超100%",
-      "summary": "[36氪首发丨 具 身 智 能 建筑机器人企业完成超亿级融资，连续三年订单复合增长率超100%",
-      "url": "https://36kr.com/p/4070571639067782",
-      "date": "2026-11-19",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
       ]
     },
     {
@@ -2975,86 +3055,6 @@
       "type": "paper",
       "arxiv_id": "2610.37602v1",
       "authors": "Ziyu Cao, William Talbot et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "EgoThumb: A Vision-Driven Supernumerary Robotic Thumb for Autonomous Grasp and Holding Assistance",
-      "summary": "Supernumerary robotic fingers augment human dexterity by enabling a single hand to perform complex \"hold-and-manipulate\" tasks that typically require bimanual coordination. However, existing devices are often hindered by bulky hardware that limits in...",
-      "url": "https://arxiv.org/abs/2610.37582v1",
-      "date": "2026-10-27",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.37582v1",
-      "authors": "Jianyu Hou, Jiawei Fu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Learning Force-Reactive Humanoid Loco-Manipulation",
-      "summary": "Many everyday tasks require controlling contact force as well as motion. On a humanoid, this force must often be coordinated across both hands and the whole body, and cannot be specified by kinematic trajectories alone. Therefore, we present FLORE, a...",
-      "url": "https://arxiv.org/abs/2610.35862v1",
-      "date": "2026-10-26",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.35862v1",
-      "authors": "Sihang Li, Xiaofeng Guo et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Differentiable Contact Dynamics for Legged Locomotion: Policy Learning and Contact-Implicit Trajectory Optimization",
-      "summary": "This paper proposes a smooth analytic gradient for frictional contact and applies it to policy learning and contact-implicit trajectory optimization for legged locomotion. The exact contact sensitivity is available in closed form but describes change...",
-      "url": "https://arxiv.org/abs/2610.35852v1",
-      "date": "2026-10-26",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.35852v1",
-      "authors": "Gijeong Kim, Seungbin Oh et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Nonprehensile Robotic Catching Using Virtual Constraints",
-      "summary": "The problem of nonprehensile robotic catching is addressed using virtual nonholonomic constraints (VNHCs); the motion of the robot end-effector is designed and controlled directly in terms of the states of the object before it is caught on the surfac...",
-      "url": "https://arxiv.org/abs/2610.35851v1",
-      "date": "2026-10-26",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.35851v1",
-      "authors": "Aakash Khandelwal, Ranjan Mukherjee",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "OSWAM: An Effective World Action Model with One-Step Action Generation",
-      "summary": "Direct-policy World Action Models (WAM) have demonstrated the benefits of decoupling action generation from explicit future visual prediction for efficient inference in autonomous driving and embodied control. However, they still require tens of deno...",
-      "url": "https://arxiv.org/abs/2610.35850v1",
-      "date": "2026-10-26",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.35850v1",
-      "authors": "Guowen Zhang, Liyi Chen et al.",
       "tags": [
         "机器人学习",
         "研究论文",
