@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-11-21",
-  "count": 4,
+  "count": 2,
   "items": [
     {
       "title": "PlayCraft: Designing Engaging Games from Agent Play Experience",
@@ -34,41 +34,6 @@
         "cs.LG"
       ],
       "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "AgentRoboCritic: Understanding the Capability of Frontier Agents on Direct Robot Control",
-      "authors": "Yiyang Du, Yuxuan Kuang, Qitao Zhao et al.",
-      "abstract": "Frontier multimodal language agents such as GPT-6 Astra have demonstrated strong capabilities in controlling robots directly via low-level numerical actions without high-level primitives. However, existing benchmarks report only episode-level success rates, which show neither how these agents succee...",
-      "venue": "arXiv",
-      "date": "2026-11-19",
-      "arxiv_id": "2611.26613v1",
-      "url": "https://arxiv.org/abs/2611.26613v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.26613v1.pdf",
-      "categories": [
-        "cs.RO",
-        "cs.CL",
-        "cs.CV"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Represented but misread: Post-training changes how language models read out what they represent",
-      "authors": "Jochen Laubrock",
-      "abstract": "Does post-training change what a language model represents, or how this representation is read out into an answer? We compared linear probes with the models' own answers, analyzed with signal detection theory, in six open-weight base models and their post-trained versions. For judgments of whether G...",
-      "venue": "arXiv",
-      "date": "2026-11-19",
-      "arxiv_id": "2611.26584v1",
-      "url": "https://arxiv.org/abs/2611.26584v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.26584v1.pdf",
-      "categories": [
-        "cs.CL",
-        "cs.LG"
-      ],
-      "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     }
