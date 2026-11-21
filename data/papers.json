@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-11-21",
-  "count": 2,
+  "count": 6,
   "items": [
     {
       "title": "PlayCraft: Designing Engaging Games from Agent Play Experience",
@@ -34,6 +34,75 @@
         "cs.LG"
       ],
       "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "AgentRoboCritic: Understanding the Capability of Frontier Agents on Direct Robot Control",
+      "authors": "Yiyang Du, Yuxuan Kuang, Qitao Zhao et al.",
+      "abstract": "Frontier multimodal language agents such as GPT-6 Astra have demonstrated strong capabilities in controlling robots directly via low-level numerical actions without high-level primitives. However, existing benchmarks report only episode-level success rates, which show neither how these agents succee...",
+      "venue": "arXiv",
+      "date": "2026-11-19",
+      "arxiv_id": "2611.26613v1",
+      "url": "https://arxiv.org/abs/2611.26613v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.26613v1.pdf",
+      "categories": [
+        "cs.RO",
+        "cs.CL",
+        "cs.CV"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Represented but misread: Post-training changes how language models read out what they represent",
+      "authors": "Jochen Laubrock",
+      "abstract": "Does post-training change what a language model represents, or how this representation is read out into an answer? We compared linear probes with the models' own answers, analyzed with signal detection theory, in six open-weight base models and their post-trained versions. For judgments of whether G...",
+      "venue": "arXiv",
+      "date": "2026-11-19",
+      "arxiv_id": "2611.26584v1",
+      "url": "https://arxiv.org/abs/2611.26584v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.26584v1.pdf",
+      "categories": [
+        "cs.CL",
+        "cs.LG"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "RL Post-Training in Diffusion Transformers Is Activation Steering",
+      "authors": "Tuna Han Salih Meral, Kaan Oktay, Alec Helbling et al.",
+      "abstract": "Reinforcement learning (RL) post-training substantially improves the visual quality, text rendering, and compositional accuracy of diffusion transformers. Because capabilities such as rendering requested text or composing multiple objects are inherently prompt-dependent, a natural hypothesis is that...",
+      "venue": "arXiv",
+      "date": "2026-11-19",
+      "arxiv_id": "2611.26627v1",
+      "url": "https://arxiv.org/abs/2611.26627v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.26627v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "TideCache: Efficient Hybrid LLM Serving with Transparent Cache Management and Layer-Wise Streaming",
+      "authors": "Jinbin Luo, Xiaozhe Yao, Shang Yang et al.",
+      "abstract": "Hybrid architectures have become mainstream among open-weight language models. Their global-attention and bounded-state layers maintain heterogeneous caches whose demands vary with context length and concurrency. We present TideCache, a serving system on CPU--GPU superchips with three components for...",
+      "venue": "arXiv",
+      "date": "2026-11-19",
+      "arxiv_id": "2611.26619v1",
+      "url": "https://arxiv.org/abs/2611.26619v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.26619v1.pdf",
+      "categories": [
+        "cs.DC",
+        "cs.LG"
+      ],
+      "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     }
