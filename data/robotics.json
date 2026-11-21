@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-20",
+  "last_updated": "2026-11-21",
   "count": 200,
   "items": [
     {
@@ -92,6 +92,33 @@
         "机器人学习",
         "研究论文",
         "arXiv"
+      ]
+    },
+    {
+      "title": "人形降温，具身智能之路还很长久",
+      "summary": "人形降温，具身智能之路还很长久",
+      "url": "https://36kr.com/p/4076355647525767",
+      "date": "2026-11-19",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能",
+        "人形机器人"
+      ]
+    },
+    {
+      "title": "星辰智算获融资，研发AI认知调度层赋能具身智能",
+      "summary": "星辰智算获融资，研发AI认知调度层赋能具身智能",
+      "url": "https://36kr.com/p/4066495189849221",
+      "date": "2026-11-19",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
       ]
     },
     {
@@ -3023,38 +3050,6 @@
       "type": "paper",
       "arxiv_id": "2610.37652v1",
       "authors": "Ian Chuang, Hiya Shah et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Perceiving and Predicting Dynamic Sports: Spatiotemporal Intelligence in Vision Models for Egocentric Tennis Video",
-      "summary": "Agile robots require spatiotemporal intelligence to interpret scenes, reason about interactions, and anticipate future events. Yet it remains unclear how well foundation vision models support these capabilities, particularly from a moving egocentric ...",
-      "url": "https://arxiv.org/abs/2610.37619v1",
-      "date": "2026-10-27",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.37619v1",
-      "authors": "Tudor Braicu, Joseph DelPreto et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "RESPLE2: Inertial-Informed Recursive Non-Uniform Spline Estimation for Multi-Sensor Odometry with Global Refinement",
-      "summary": "We present RESPLE2, a recursive multi-sensor state estimation framework using non-uniform B-splines for 6-DoF motion representation. By exploiting the knot-clamping boundary property, we propose a theoretically grounded mechanism for exact control-po...",
-      "url": "https://arxiv.org/abs/2610.37602v1",
-      "date": "2026-10-27",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.37602v1",
-      "authors": "Ziyu Cao, William Talbot et al.",
       "tags": [
         "机器人学习",
         "研究论文",
