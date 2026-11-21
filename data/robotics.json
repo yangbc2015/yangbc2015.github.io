@@ -165,6 +165,22 @@
       ]
     },
     {
+      "title": "PhyDEX: A Benchmark for Physical Reasoning in Vision-Language-Action Models via Dynamic Extrinsic Dexterity",
+      "summary": "Vision-Language-Action (VLA) models have advanced rapidly in language-conditioned robotic manipulation, yet existing benchmarks mainly evaluate gripper--object contact and largely ignore how objects interact with the environment through gravity, fric...",
+      "url": "https://arxiv.org/abs/2611.26565v1",
+      "date": "2026-11-19",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.26565v1",
+      "authors": "Hao Vo, Taisei Hanyu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
       "title": "人形降温，具身智能之路还很长久",
       "summary": "人形降温，具身智能之路还很长久",
       "url": "https://36kr.com/p/4076355647525767",
@@ -189,22 +205,6 @@
       "tags": [
         "机器人",
         "具身智能"
-      ]
-    },
-    {
-      "title": "PhyDEX: A Benchmark for Physical Reasoning in Vision-Language-Action Models via Dynamic Extrinsic Dexterity",
-      "summary": "Vision-Language-Action (VLA) models have advanced rapidly in language-conditioned robotic manipulation, yet existing benchmarks mainly evaluate gripper--object contact and largely ignore how objects interact with the environment through gravity, fric...",
-      "url": "https://arxiv.org/abs/2611.26565v1",
-      "date": "2026-11-19",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2611.26565v1",
-      "authors": "Hao Vo, Taisei Hanyu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
       ]
     },
     {
