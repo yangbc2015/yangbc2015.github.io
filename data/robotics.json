@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-21",
+  "last_updated": "2026-11-22",
   "count": 200,
   "items": [
     {
@@ -86,6 +86,19 @@
         "机器人",
         "人形机器人",
         "波士顿动力"
+      ]
+    },
+    {
+      "title": "WISE2026具身智能文商旅分会场首批嘉宾官宣",
+      "summary": "WISE2026具身智能文商旅分会场首批嘉宾官宣",
+      "url": "https://36kr.com/p/4077464212542596",
+      "date": "2026-11-20",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
       ]
     },
     {
@@ -3037,22 +3050,6 @@
       "type": "paper",
       "arxiv_id": "2610.38657v1",
       "authors": "Jacob Levy, Arthur Bouton et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "The Reality Gap in Automated Driving Systems Testing: Landscape, Challenges, and Research Directions",
-      "summary": "Simulation is essential for testing automated driving systems (ADS), but discrepancies between simulation and reality can undermine testing conclusions. It remains unclear which discrepancies the literature addresses and what evidence supports corres...",
-      "url": "https://arxiv.org/abs/2610.38628v1",
-      "date": "2026-10-28",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.38628v1",
-      "authors": "Stefano Carlo Lambertenghi, Oliver Weissl et al.",
       "tags": [
         "机器人学习",
         "研究论文",

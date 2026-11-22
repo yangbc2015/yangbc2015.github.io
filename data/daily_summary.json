@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-21",
-  "last_updated": "2026-11-21",
+  "date": "2026-11-22",
+  "last_updated": "2026-11-22",
   "categories": {
     "ai": {
       "name": "人工智能",
@@ -8,47 +8,11 @@
       "count": 5,
       "items": [
         {
-          "title": "当蛋白质设计有了自己的「Claude Code」，AI Native生物科技公司开始交付「真实成果」",
-          "link": "https://www.jiqizhixin.com/search/articles/当蛋白质设计有了自己的「Cla",
-          "summary": "当蛋白质设计有了自己的「Claude Code」，AI Native生物科技公司开始交付「真实成果」...",
-          "date": "2026-11-20",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
-          "title": "NeurIPS 2026 | 如何让LLM在推理中不断进化",
-          "link": "https://www.jiqizhixin.com/search/articles/NeurIPS 2026 | ",
-          "summary": "NeurIPS 2026 | 如何让LLM在推理中不断进化...",
-          "date": "2026-11-20",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
-          "title": "APEC 时刻，PHAIN 登上央视新闻，展现中国自研实力",
-          "link": "https://www.jiqizhixin.com/search/articles/APEC 时刻，PHAIN 登",
-          "summary": "APEC 时刻，PHAIN 登上央视新闻，展现中国自研实力...",
-          "date": "2026-11-20",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
-          "title": "美国AI音乐平台Suno宣布推出视觉创作工具Visuals",
-          "link": "https://www.qbitai.com/?s=美国AI音乐平台Su",
-          "summary": "美国AI音乐平台Suno宣布推出视觉创作工具Visuals...",
+          "title": "Markdown Content:",
+          "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+          "summary": "Markdown Content:...",
           "date": "2026-11-21",
-          "source": "量子位",
+          "source": "机器之心",
           "type": "industry",
           "tags": [
             "AI",
@@ -56,11 +20,47 @@
           ]
         },
         {
-          "title": "国产算力的成熟，把具身竞争维度从「芯片有多强」，拉入了一个比拼训练效率、数据规模、部署成本和场景落地速度的多维战场。",
-          "link": "https://www.qbitai.com/?s=国产算力的成熟，把具",
-          "summary": "国产算力的成熟，把具身竞争维度从「芯片有多强」，拉入了一个比拼训练效率、数据规模、部署成本和场景落地速度的多维战场。...",
+          "title": "Flagship布局伦敦，打造AI原生科学创业平台",
+          "link": "https://www.jiqizhixin.com/search/articles/Flagship布局伦敦，打造",
+          "summary": "Flagship布局伦敦，打造AI原生科学创业平台...",
           "date": "2026-11-21",
-          "source": "量子位",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "OpenAI与Anthropic围攻千禧年难题，七道题进展如何？",
+          "link": "https://www.jiqizhixin.com/search/articles/OpenAI与Anthropi",
+          "summary": "OpenAI与Anthropic围攻千禧年难题，七道题进展如何？...",
+          "date": "2026-11-21",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "Claude Opus 5拿到45.7分，25个大模型视频记忆大考",
+          "link": "https://www.jiqizhixin.com/search/articles/Claude Opus 5拿到",
+          "summary": "Claude Opus 5拿到45.7分，25个大模型视频记忆大考...",
+          "date": "2026-11-21",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "没有AI，12年潜心研究！人类数学家紧急公开广义黎曼猜想证明",
+          "link": "https://www.jiqizhixin.com/search/articles/没有AI，12年潜心研究！人类",
+          "summary": "没有AI，12年潜心研究！人类数学家紧急公开广义黎曼猜想证明...",
+          "date": "2026-11-21",
+          "source": "机器之心",
           "type": "industry",
           "tags": [
             "AI",
