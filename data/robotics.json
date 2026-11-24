@@ -1,7 +1,87 @@
 {
-  "last_updated": "2026-11-23",
+  "last_updated": "2026-11-24",
   "count": 200,
   "items": [
+    {
+      "title": "Tacinf: A Unified Tactile Infrastructure for Robot Manipulation",
+      "summary": "Force-aware manipulation requires robots to infer appropriate interaction forces from task context and tactile feedback. We present Tacinf, a low-cost, modular infrastructure that enables policies to predict robot actions and fingertip forces from ta...",
+      "url": "https://arxiv.org/abs/2611.29240v1",
+      "date": "2026-11-22",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.29240v1",
+      "authors": "Qiwei Wu, Xiangyu Chen et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "InfoField3D: Differentiable Information Field for Embodied Task-Oriented View Planning",
+      "summary": "Effective task execution requires embodied agents to select observation positions that provide sufficient task-relevant information. Existing approaches typically predict viewpoints with learned models or score discrete candidates, but they either st...",
+      "url": "https://arxiv.org/abs/2611.29230v1",
+      "date": "2026-11-22",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.29230v1",
+      "authors": "Huan Lyu, Yawei Luo",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Force2Act: A Force-Aware Visuomotor Policy for Generalizable Compliant Robot Manipulation",
+      "summary": "Contact-rich manipulation requires a robot to regulate the force it applies, not only where it moves. Existing force-aware policies learn this force from demonstrations and therefore reproduce the force levels they were trained on, which fails once t...",
+      "url": "https://arxiv.org/abs/2611.29208v1",
+      "date": "2026-11-22",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.29208v1",
+      "authors": "Keerthi Vasan Murugan, Fangguo Zhao et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "DriveTTO: Understanding Search and Selection in Test-Time Trajectory Optimization for End-to-End Driving",
+      "summary": "In difficult driving scenes, a learned scorer can select a poor trajectory from a fixed pool even when a better candidate is available. Nearby vehicles and road boundaries can also leave only a narrow range of high-scoring maneuvers. These constraint...",
+      "url": "https://arxiv.org/abs/2611.29205v1",
+      "date": "2026-11-22",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.29205v1",
+      "authors": "Xinyao Rao, Zecheng Tang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "FunGrasp-Zero: Field-Conditioned Graph Attention Policy for Zero-Shot Cross-Embodiment Dexterous Functional Grasping",
+      "summary": "Dexterous functional grasping is critical for robotic tool use, yet current dexterous hands exhibit substantial morphological diversity. This hardware heterogeneity makes cross-embodiment functional grasping a fundamental but largely unexplored probl...",
+      "url": "https://arxiv.org/abs/2611.29195v1",
+      "date": "2026-11-22",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.29195v1",
+      "authors": "Yanhan Lin, Yuliang Wu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
     {
       "title": "Figure AI发布新一代人形机器人Figure 02，具备更强的自主学习能力",
       "summary": "Figure AI发布新一代人形机器人Figure 02，搭载最新视觉-语言-动作(VLA)模型，在工厂和仓储场景实现更高水平的自主操作。",
@@ -89,6 +169,19 @@
       ]
     },
     {
+      "title": "WISE2026具身智能文商旅分会场首批嘉宾官宣",
+      "summary": "WISE2026具身智能文商旅分会场首批嘉宾官宣",
+      "url": "https://36kr.com/p/4077464212542596",
+      "date": "2026-11-20",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
       "title": "Task2Hand: A Contact-Grounded Skill for Parametric Dexterous-Hand Morphology Design",
       "summary": "Dexterous hand design demands repeated expert work across geometry, robot-description code, collision debugging, grasp initialization, and policy training. We present Task2Hand, a Skill: a specification package that turns a functional manipulation br...",
       "url": "https://arxiv.org/abs/2611.27967v1",
@@ -166,19 +259,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "WISE2026具身智能文商旅分会场首批嘉宾官宣",
-      "summary": "WISE2026具身智能文商旅分会场首批嘉宾官宣",
-      "url": "https://36kr.com/p/4077464212542596",
-      "date": "2026-11-20",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
       ]
     },
     {
@@ -2979,83 +3059,6 @@
       "type": "paper",
       "arxiv_id": "2610.41216v1",
       "authors": "Kehong Gong, Xiaoxu Zheng et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Capability-Conditioned Graph Control Barrier Functions for Zero-Shot Safe Navigation of Heterogeneous Mobile Robot Teams",
-      "summary": "Multi-robot systems are increasingly deployed as heterogeneous fleets with diverse kinematic and actuation capabilities. While graph control barrier function (GCBF) methods provide a scalable framework for decentralized safe control, existing approac...",
-      "url": "https://arxiv.org/abs/2610.41214v1",
-      "date": "2026-10-30",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.41214v1",
-      "authors": "Joonkyung Kim, Janghyun Cho et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "A Capability-Aware Backup-Recoverability Filter for Heterogeneous Multi-Robot Navigation",
-      "summary": "Safe navigation in heterogeneous multi-robot teams faces two coupled challenges: differences in robots' braking and turning capabilities limit how each robot can respond to an approaching neighbor, while simultaneous interactions require a single con...",
-      "url": "https://arxiv.org/abs/2610.41188v1",
-      "date": "2026-10-30",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.41188v1",
-      "authors": "Joonkyung Kim, Yanze Zhang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Mechanistic Interpretability for End-to-End Self-Driving",
-      "summary": "End-to-end (E2E) autonomous driving models achieve strong planning performance but remain largely opaque, limiting observability and trust. We apply mechanistic interpretability to E2E driving by training Sparse Autoencoders (SAEs) on the internal ac...",
-      "url": "https://arxiv.org/abs/2610.41185v1",
-      "date": "2026-10-30",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.41185v1",
-      "authors": "Manav Gagvani, Benjamin Namikas et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "具身智能陷叙事内卷死局，需转向真实落地。",
-      "summary": "具身智能陷叙事内卷死局，需转向真实落地。",
-      "url": "https://36kr.com/p/4046438303372937",
-      "date": "2026-10-29",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "SwapBot: Tool-Centric Robot Manipulation via Interchangeable End-Effectors and Tactile Sensing",
-      "summary": "Robot manipulation in everyday environments inherently involves substantial tool usage. Seemingly simple household tasks, such as cooking pan-fried tofu, require forceful cutting, delicate brushing, and precise placement using different tools under c...",
-      "url": "https://arxiv.org/abs/2610.40646v1",
-      "date": "2026-10-29",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.40646v1",
-      "authors": "Yunchu Zhang, Ray Song et al.",
       "tags": [
         "机器人学习",
         "研究论文",

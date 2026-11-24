@@ -1,103 +1,87 @@
 {
-  "last_updated": "2026-11-23",
-  "count": 8,
+  "last_updated": "2026-11-24",
+  "count": 10,
   "items": [
     {
-      "title": "Optimal Linear Regression Without a Variance",
-      "authors": "Artin Tajdini, Jasper C. H. Lee, Jonathan Scarlett et al.",
-      "abstract": "We study high-probability linear regression in the infinite variance regime, wherecthe regression noise has only a finite conditional $α$-moment $ν$ for some unknown $α\\in(1,2)$, and the covariates may only have finite moments up to a given order (e.g., 4th moment). We give a black-box reduction tha...",
+      "title": "Complementary Geometry in Gaussian Splatting",
+      "authors": "Mingle Jiang, Jikui Zhou, Chenghan Lyu et al.",
+      "abstract": "Gaussian Splatting has achieved high visual quality in novel view synthesis, but the accuracy of its rendered geometry remains a challenge. In particular, the rendered depth is computed as an opacity-weighted average along each ray, which may not correspond to the actual scene surface. In this paper...",
       "venue": "arXiv",
-      "date": "2026-11-20",
-      "arxiv_id": "2611.27983v1",
-      "url": "https://arxiv.org/abs/2611.27983v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.27983v1.pdf",
+      "date": "2026-11-22",
+      "arxiv_id": "2611.29236v1",
+      "url": "https://arxiv.org/abs/2611.29236v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.29236v1.pdf",
       "categories": [
-        "stat.ML",
-        "cs.AI",
-        "cs.IT"
+        "cs.CV"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Why Adaptive Optimizers Struggle with Large Convolution Kernels",
+      "authors": "Tianyu Ding, Jiachen Jiang, Jinxin Zhou et al.",
+      "abstract": "Large convolution kernels enlarge the receptive fields of ConvNets at a modest computational cost, but they are notoriously difficult to train. Existing large-kernel networks therefore rely on costly training techniques, such as parallel small-kernel branches with batch normalization. In this paper,...",
+      "venue": "arXiv",
+      "date": "2026-11-22",
+      "arxiv_id": "2611.29232v1",
+      "url": "https://arxiv.org/abs/2611.29232v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.29232v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Fuzzy e-Means: Fuzzy c-Means on Large Data with Moving-Average Mini-Batch Updates",
+      "authors": "Paritosh Tiwari, Punit Rathore",
+      "abstract": "Fuzzy c-means (FCM) gives every point a degree of membership in every cluster. Its standard solver, alternating optimization (AO), needs a full pass over the data per iteration and often many iterations, while methods built for large data stop at a worse objective or still need tens of passes. We ru...",
+      "venue": "arXiv",
+      "date": "2026-11-22",
+      "arxiv_id": "2611.29241v1",
+      "url": "https://arxiv.org/abs/2611.29241v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.29241v1.pdf",
+      "categories": [
+        "cs.LG",
+        "stat.ML"
       ],
       "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "Non-penetrating World Models",
-      "authors": "Yuhang Dai, Yinwei Wu, Ziyue Lin et al.",
-      "abstract": "We study a new problem of preventing object penetration in interactive video world models. To understand how existing models handle this, we introduce NoPeBench, a benchmark that evaluates how world models respond to physical obstacles. Our evaluation reveals that none of the open-source models can ...",
+      "title": "GameAnything: From Any Inspirations to Playable Game Worlds",
+      "authors": "Wenyi Wu, Siqi Liu, Yuru Feng et al.",
+      "abstract": "AI-driven game development holds the potential to transform diverse human inspirations into interactive experiences. However, existing systems and benchmarks primarily focus on explicit development specifications, with limited support for adapting multimodal references and evaluating actual gameplay...",
       "venue": "arXiv",
-      "date": "2026-11-20",
-      "arxiv_id": "2611.27963v1",
-      "url": "https://arxiv.org/abs/2611.27963v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.27963v1.pdf",
+      "date": "2026-11-22",
+      "arxiv_id": "2611.29238v1",
+      "url": "https://arxiv.org/abs/2611.29238v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.29238v1.pdf",
       "categories": [
-        "cs.CV",
-        "cs.AI"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "MemOnce: A Scalable Memory Architecture for Large Language Models",
-      "authors": "Chang Nie, Chaoyou Fu, Songlin Liu et al.",
-      "abstract": "Deploying large language models (LLMs) in long-horizon and continual interactions requires maintaining reusable memory states for future inference, posing challenges for existing architectures. Standard Transformers accumulate layer-wise, token-level KV caches, incurring linear GPU memory growth and...",
-      "venue": "arXiv",
-      "date": "2026-11-20",
-      "arxiv_id": "2611.27973v1",
-      "url": "https://arxiv.org/abs/2611.27973v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.27973v1.pdf",
-      "categories": [
-        "cs.CL"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "TEA-Bench-BR: Can Coding Agents Turn a Branching Clinical Specification into Correct Code?",
-      "authors": "Marcio Andre de Souza Estevam",
-      "abstract": "Coding agents increasingly implement rules written by domain experts, and bugs in such code are silent: it runs and returns a plausible answer. We introduce TEA-Bench-BR, a benchmark built on the Brazilian pathway for early autism (TEA) screening: three fictitious instruments with the structure of r...",
-      "venue": "arXiv",
-      "date": "2026-11-20",
-      "arxiv_id": "2611.27895v1",
-      "url": "https://arxiv.org/abs/2611.27895v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.27895v1.pdf",
-      "categories": [
-        "cs.SE",
         "cs.AI",
-        "cs.CL"
+        "cs.CL",
+        "cs.LG"
       ],
       "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "DiTraR: Diverse Scorers and Transcript-Guided Re-ranking for Video Corpus Moment Retrieval",
-      "authors": "Mohammad Alijanpour Shalmani, Alale Rezvani Boroujeni, Ali Amini",
-      "abstract": "Video corpus moment retrieval asks a system to find, in a large collection of untrimmed videos with subtitles, the video and the time interval that a natural-language query describes. We find that most top-ranked errors of a strong corpus-level scorer come from choosing the wrong video, not from imp...",
+      "title": "The Evaluation Substrate Matters: Benchmarking Multi-Agent Serving Substrates",
+      "authors": "Haoyuan Zheng, Dongting Li, Hancheng Ye et al.",
+      "abstract": "Multi-agent systems (MAS) usually coordinate heterogeneous models and tools to solve complex tasks, creating a growing need for reliable evaluation. However, a multi-agent workflow that is fastest in one serving environment can lose its advantage in another, even when its models, prompts, and task r...",
       "venue": "arXiv",
-      "date": "2026-11-20",
-      "arxiv_id": "2611.27931v1",
-      "url": "https://arxiv.org/abs/2611.27931v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.27931v1.pdf",
+      "date": "2026-11-21",
+      "arxiv_id": "2611.28671v1",
+      "url": "https://arxiv.org/abs/2611.28671v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.28671v1.pdf",
       "categories": [
-        "cs.CV",
-        "cs.IR"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "A Methodologically Rigorous Benchmark of Linear Regression,RNN, and LSTM for S&P 500 Forecasting:Identifying Sources of Performance Inflation in Financial DeepLearning",
-      "authors": "Hari Sitaula, Joseph Opitz",
-      "abstract": "This study examines one-day-ahead forecasting of the S&P 500 closing level using a 2006-2025 dataset that includes fundamental price data, macroeconomic indicators, and engineered technical features. We benchmark three model families, namely linear regression, vanilla recurrent neural networks (RNN)...",
-      "venue": "arXiv",
-      "date": "2026-11-20",
-      "arxiv_id": "2611.27978v1",
-      "url": "https://arxiv.org/abs/2611.27978v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.27978v1.pdf",
-      "categories": [
+        "cs.MA",
+        "cs.AI",
         "cs.LG"
       ],
       "type": "benchmark",
@@ -105,14 +89,65 @@
       "source": "arXiv"
     },
     {
-      "title": "Task2Hand: A Contact-Grounded Skill for Parametric Dexterous-Hand Morphology Design",
-      "authors": "Haoyang Wang, Weibo Gao, Zhengxiong Li et al.",
-      "abstract": "Dexterous hand design demands repeated expert work across geometry, robot-description code, collision debugging, grasp initialization, and policy training. We present Task2Hand, a Skill: a specification package that turns a functional manipulation brief into a parameterized hand model and routes eve...",
+      "title": "Persuasion from Within: Model-Based Insider Attacks in Multi-Agent LLM Debate and Consensus",
+      "authors": "Bangyan Ju, Xiaolin Sun, Yibin Hu et al.",
+      "abstract": "Large language models (LLMs) are increasingly deployed in multi-agent systems for collective decision-making, such as multi-agent debate and consensus games, in which agents exchange messages and update their answers over multiple rounds and a resolution mechanism aggregates them into a final outcom...",
       "venue": "arXiv",
-      "date": "2026-11-20",
-      "arxiv_id": "2611.27967v1",
-      "url": "https://arxiv.org/abs/2611.27967v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.27967v1.pdf",
+      "date": "2026-11-21",
+      "arxiv_id": "2611.28660v1",
+      "url": "https://arxiv.org/abs/2611.28660v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.28660v1.pdf",
+      "categories": [
+        "cs.AI",
+        "cs.MA"
+      ],
+      "type": "ai",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Physical regime changes expose formula misuse in large language models",
+      "authors": "Maohao Ran, Yanting Zhang, Chendong Ma et al.",
+      "abstract": "Large language models (LLMs) are increasingly employed for scientific computing across the Earth and environmental sciences, but problems in these fields often involve distinct physical regimes. LLMs may fail to recognize these regime-dependent constraints, applying formulas outside their domains of...",
+      "venue": "arXiv",
+      "date": "2026-11-21",
+      "arxiv_id": "2611.28669v1",
+      "url": "https://arxiv.org/abs/2611.28669v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.28669v1.pdf",
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Seeing Right, Writing Wrong: Where Short Chain-of-Thought Breaks Spatial VQA",
+      "authors": "Chenhao Zhang",
+      "abstract": "Asking a vision-language model (VLM) to think step by step often makes it worse at spatial questions, even though the image stays in context. We show that short chain-of-thought (CoT) turns a perception problem into a transcription problem. Once a VLM writes a spatial relation, its answer follows th...",
+      "venue": "arXiv",
+      "date": "2026-11-21",
+      "arxiv_id": "2611.28665v1",
+      "url": "https://arxiv.org/abs/2611.28665v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.28665v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.CL"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Doing More with Less: Complex Manipulation with a Contact-Adaptive Robotic Hand",
+      "authors": "Hyung Gon Shin, Sanghoon Jung",
+      "abstract": "Anthropomorphic robotic hands offer the potential to manipulate objects designed for human hands in environments adapted to human use. However, developing a robotic hand that replicates the human hand in terms of morphology, degrees of freedom, force output, durability, and sensing capabilities rema...",
+      "venue": "arXiv",
+      "date": "2026-11-21",
+      "arxiv_id": "2611.28675v1",
+      "url": "https://arxiv.org/abs/2611.28675v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.28675v1.pdf",
       "categories": [
         "cs.RO"
       ],
@@ -121,18 +156,20 @@
       "source": "arXiv"
     },
     {
-      "title": "Real-time neuromorphic audio and vision perception for autonomous robotic applications: Integration and experimental evaluation on a rover platform",
-      "authors": "Guillem Fustier-Castillo, Ruben Ribes-Serrano, Javier Naranjo-Alcazar et al.",
-      "abstract": "Neuromorphic sensing and computing offer a promising alternative to conventional deep learning pipelines for mobile robots, where perception must run continuously under tight latency and energy constraints. However, most neuromorphic solutions are still evaluated offline or on isolated benchmarks, a...",
+      "title": "Fast World Planner: Advantage-Aware Action-Chunk Policy for Online Planning",
+      "authors": "Jiangtao Kong, Yuchen Wang, Yandong Luo et al.",
+      "abstract": "Model Predictive Path Integral (MPPI) control is central to online planning for model-based reinforcement learning (MBRL), but its iterative refinement incurs planning latency. Reducing refinement iterations often degrades performance, motivating stronger policy guidance learned from the planner. Ho...",
       "venue": "arXiv",
-      "date": "2026-11-20",
-      "arxiv_id": "2611.27953v1",
-      "url": "https://arxiv.org/abs/2611.27953v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.27953v1.pdf",
+      "date": "2026-11-21",
+      "arxiv_id": "2611.28616v1",
+      "url": "https://arxiv.org/abs/2611.28616v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.28616v1.pdf",
       "categories": [
-        "cs.RO"
+        "cs.RO",
+        "cs.AI",
+        "cs.LG"
       ],
-      "type": "benchmark",
+      "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     }
