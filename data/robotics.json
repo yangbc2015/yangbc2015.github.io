@@ -3,6 +3,86 @@
   "count": 200,
   "items": [
     {
+      "title": "Pruning Autonomous Driving VLAs: What to Preserve for Reasoning and Action",
+      "summary": "Reasoning vision-language-action (VLA) models for autonomous driving use chain-of-thought (CoT) reasoning to guide action generation, but incur substantial memory and computational costs. We study structured pruning for these models, focusing on pres...",
+      "url": "https://arxiv.org/abs/2611.31240v1",
+      "date": "2026-11-23",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.31240v1",
+      "authors": "Seongchan Kim, Soowon Son et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "ACAP: Asynchronous Coding Agents for Efficient Robot Control",
+      "summary": "Coding agents can construct and revise robot behavior during execution, but using one agent for the whole robot can delay otherwise independent work. We introduce Asynchronous Coding Agents as Policy (ACAP), an asynchronous framework that organizes o...",
+      "url": "https://arxiv.org/abs/2611.31205v1",
+      "date": "2026-11-23",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.31205v1",
+      "authors": "Zexin He, Rui Li et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Embo-Harness: Towards Understanding Frontier-Model-as-Policy Harness",
+      "summary": "Frontier multimodal models exhibit extraordinary generalization in generating robot actions from observations and instructions, enabling a new paradigm in which they serve directly as policies within closed-loop robotic harnesses. However, the design...",
+      "url": "https://arxiv.org/abs/2611.31201v1",
+      "date": "2026-11-23",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.31201v1",
+      "authors": "Xiao-Ming Wu, Kang Liao et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "VITA-WAM: Manifold-Aligned World-Action Modeling for Real-Time Robot Control",
+      "summary": "World action model (WAM) is a promising paradigm for visuomotor control by jointly modeling world dynamics and actions. Notably, existing WAMs often rely on large generative models and iterative sampling which incur substantial latency for action gen...",
+      "url": "https://arxiv.org/abs/2611.31195v1",
+      "date": "2026-11-23",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.31195v1",
+      "authors": "Boqi Zhao, Dechen Gao et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "EmboEagle: An Efficient Agentic Embodied Framework for Long-horizon Robotic Manipulation",
+      "summary": "Long-horizon robotic manipulation demands reliable execution across interdependent stages, yet standalone World-Action Models (WAMs) suffer from compounding physical errors, while stateless Vision-Language Model (VLM) supervision incurs prohibitive c...",
+      "url": "https://arxiv.org/abs/2611.31173v1",
+      "date": "2026-11-23",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.31173v1",
+      "authors": "Fan Xu, Zhongtao Wang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
       "title": "Tacinf: A Unified Tactile Infrastructure for Robot Manipulation",
       "summary": "Force-aware manipulation requires robots to infer appropriate interaction forces from task context and tactile feedback. We present Tacinf, a low-cost, modular infrastructure that enables policies to predict robot actions and fingertip forces from ta...",
       "url": "https://arxiv.org/abs/2611.29240v1",
@@ -2979,86 +3059,6 @@
       "type": "paper",
       "arxiv_id": "2610.42141v1",
       "authors": "Shengguang Wu, Suning Huang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "ROOF: Learning Humanoid Fall Recovery under Overhead Constraints",
-      "summary": "A fallen humanoid beneath an overhead obstacle faces a coupled recovery problem. It must create clearance while organizing support for a stable rise, since attempting to stand before making room can further increase obstruction. We introduce a reinfo...",
-      "url": "https://arxiv.org/abs/2610.42097v1",
-      "date": "2026-10-30",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.42097v1",
-      "authors": "Yidan Lu, Jiayuan Yu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "CausalWAM: Learning the Causes of Actions in World Action Models",
-      "summary": "World action models (WAMs) learn latent variables from observations and use these to both predict the evolution of the scene and to generate actions. The prediction has to be of the whole scene, whereas only a portion of the scene causes actions. WAM...",
-      "url": "https://arxiv.org/abs/2610.42096v1",
-      "date": "2026-10-30",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.42096v1",
-      "authors": "Juntao Cheng, Jinzhou Tang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "REA: A Routed Embodied Agent Runtime for Asynchronous Brain-Cerebellum Control",
-      "summary": "Foundation models are becoming remarkably reliable at high-level reasoning, yet they remain too slow and costly to serve as fine-grained controllers. Conversely, fast policies like VLAs and whole-body controllers offer more efficient reflexes, but st...",
-      "url": "https://arxiv.org/abs/2610.42053v1",
-      "date": "2026-10-30",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.42053v1",
-      "authors": "Pengfei Zhou, Yixing Ma et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "CONSORT: Uncertainty-Constrained Multi-Robot Planning for Cooperative Localization in GPS-Denied Environments",
-      "summary": "Centralized multi-agent path planning with cooperative localization in GPS-denied environments is generally computationally intractable when formulated in full belief space due to tightly coupled uncertainty dynamics. Prior work typically approximate...",
-      "url": "https://arxiv.org/abs/2610.41235v1",
-      "date": "2026-10-30",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.41235v1",
-      "authors": "Tony Zhang, Ryan Bartholomew et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "TinyAstral: Transferring Self-Evolving Harnesses to Tiny Generalist Manipulation Agents",
-      "summary": "Robot agents built on vision-language models depend on both the planner and its harness: the tools, feedback, memory, and recovery logic around it. Can improvements to a large teacher's harness be carried into a compact agent with lower inference com...",
-      "url": "https://arxiv.org/abs/2610.41216v1",
-      "date": "2026-10-30",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.41216v1",
-      "authors": "Kehong Gong, Xiaoxu Zheng et al.",
       "tags": [
         "机器人学习",
         "研究论文",

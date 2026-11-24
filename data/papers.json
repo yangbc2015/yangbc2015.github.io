@@ -1,16 +1,101 @@
 {
   "last_updated": "2026-11-24",
-  "count": 10,
+  "count": 8,
   "items": [
     {
-      "title": "Complementary Geometry in Gaussian Splatting",
-      "authors": "Mingle Jiang, Jikui Zhou, Chenghan Lyu et al.",
-      "abstract": "Gaussian Splatting has achieved high visual quality in novel view synthesis, but the accuracy of its rendered geometry remains a challenge. In particular, the rendered depth is computed as an opacity-weighted average along each ray, which may not correspond to the actual scene surface. In this paper...",
+      "title": "TrialAgentBench: Evaluating AI Agents for Clinical-Trial Analysis and Long-Horizon Drug-Development Decisions",
+      "authors": "Bradley Segal, William Bolton, Philip Torr et al.",
+      "abstract": "Clinical drug development is a long-horizon, high-stakes process requiring sequential decisions based on information that costs money and time to acquire. AI agents have demonstrated capabilities for scientific analysis, but there is no established way to evaluate them on these decisions, as real tr...",
       "venue": "arXiv",
-      "date": "2026-11-22",
-      "arxiv_id": "2611.29236v1",
-      "url": "https://arxiv.org/abs/2611.29236v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.29236v1.pdf",
+      "date": "2026-11-23",
+      "arxiv_id": "2611.30916v1",
+      "url": "https://arxiv.org/abs/2611.30916v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.30916v1.pdf",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Replay Before You Reply: Second-Look Prompting for Unified Multimodal Encoding",
+      "authors": "Yicheng Zhang, Xun Zhang, Jingyuan Ma et al.",
+      "abstract": "Solving multimodal tasks requires Vision-Language Models (VLMs) to form a unified understanding of the image and the question text. However, under causal attention in current VLMs, a token can attend only to what precedes it. Whichever modality comes first is therefore encoded under partial observat...",
+      "venue": "arXiv",
+      "date": "2026-11-23",
+      "arxiv_id": "2611.30909v1",
+      "url": "https://arxiv.org/abs/2611.30909v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.30909v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Semantic-aware Decoding for Diverse Text-to-SQL under Schema Ambiguity",
+      "authors": "Yuxuan Jiang, Anna Mitsopoulou, Apostolos Koukouvinis et al.",
+      "abstract": "Real-world text-to-SQL systems often face schema ambiguity, where a question can map to multiple plausible schema elements. To support downstream disambiguation, SQL generation systems should include diverse interpretations among their top-k predictions. However, large language models (LLMs) typical...",
+      "venue": "arXiv",
+      "date": "2026-11-23",
+      "arxiv_id": "2611.30873v1",
+      "url": "https://arxiv.org/abs/2611.30873v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.30873v1.pdf",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "SARA: An Auditor-in-the-Loop LLM Recommender for Sustainability Reports",
+      "authors": "Lars Hillebrand, Thiago B. F. de Oliveira, Tim Dilmaghani et al.",
+      "abstract": "Auditing corporate sustainability reports requires assurance professionals to map a company-specific checklist drawn from roughly 1,700 regulatory requirements onto the relevant passages of lengthy, repeatedly revised draft reports and to judge compliance. We present SARA (Sustainability Reporting A...",
+      "venue": "arXiv",
+      "date": "2026-11-23",
+      "arxiv_id": "2611.30839v1",
+      "url": "https://arxiv.org/abs/2611.30839v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.30839v1.pdf",
+      "categories": [
+        "cs.CL"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Pruning Autonomous Driving VLAs: What to Preserve for Reasoning and Action",
+      "authors": "Seongchan Kim, Soowon Son, Sangoh Kim et al.",
+      "abstract": "Reasoning vision-language-action (VLA) models for autonomous driving use chain-of-thought (CoT) reasoning to guide action generation, but incur substantial memory and computational costs. We study structured pruning for these models, focusing on preserving both scene understanding and trajectory pre...",
+      "venue": "arXiv",
+      "date": "2026-11-23",
+      "arxiv_id": "2611.31240v1",
+      "url": "https://arxiv.org/abs/2611.31240v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.31240v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.LG",
+        "cs.RO"
+      ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "Lyris: Layout-Guided Long Video Generation with Persistent 3D Memory",
+      "authors": "Chen Wang, Jiahui Huang, Riccardo de Lutio et al.",
+      "abstract": "Exploring a scene from as little as a single photo requires generating a long, camera-controlled walkthrough that extends far beyond what was captured, yet remains consistent upon return. Memory-based video generation methods preserve what they have already seen, but have no anchor beyond it, where ...",
+      "venue": "arXiv",
+      "date": "2026-11-23",
+      "arxiv_id": "2611.31239v1",
+      "url": "https://arxiv.org/abs/2611.31239v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.31239v1.pdf",
       "categories": [
         "cs.CV"
       ],
@@ -19,51 +104,16 @@
       "source": "arXiv"
     },
     {
-      "title": "Why Adaptive Optimizers Struggle with Large Convolution Kernels",
-      "authors": "Tianyu Ding, Jiachen Jiang, Jinxin Zhou et al.",
-      "abstract": "Large convolution kernels enlarge the receptive fields of ConvNets at a modest computational cost, but they are notoriously difficult to train. Existing large-kernel networks therefore rely on costly training techniques, such as parallel small-kernel branches with batch normalization. In this paper,...",
+      "title": "Let Vision-Language Models Generate Images through Their Representations",
+      "authors": "JB Kim, Byungwoo Jeon, Kyungmin Lee et al.",
+      "abstract": "Recent unified multimodal models aim to combine visual understanding and generation within a single model, yet effectively integrating the two capabilities remains challenging. Leveraging pretrained vision-language models offers a way to build on already learned multimodal knowledge, but making this...",
       "venue": "arXiv",
-      "date": "2026-11-22",
-      "arxiv_id": "2611.29232v1",
-      "url": "https://arxiv.org/abs/2611.29232v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.29232v1.pdf",
+      "date": "2026-11-23",
+      "arxiv_id": "2611.31237v1",
+      "url": "https://arxiv.org/abs/2611.31237v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.31237v1.pdf",
       "categories": [
         "cs.CV",
-        "cs.LG"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Fuzzy e-Means: Fuzzy c-Means on Large Data with Moving-Average Mini-Batch Updates",
-      "authors": "Paritosh Tiwari, Punit Rathore",
-      "abstract": "Fuzzy c-means (FCM) gives every point a degree of membership in every cluster. Its standard solver, alternating optimization (AO), needs a full pass over the data per iteration and often many iterations, while methods built for large data stop at a worse objective or still need tens of passes. We ru...",
-      "venue": "arXiv",
-      "date": "2026-11-22",
-      "arxiv_id": "2611.29241v1",
-      "url": "https://arxiv.org/abs/2611.29241v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.29241v1.pdf",
-      "categories": [
-        "cs.LG",
-        "stat.ML"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "GameAnything: From Any Inspirations to Playable Game Worlds",
-      "authors": "Wenyi Wu, Siqi Liu, Yuru Feng et al.",
-      "abstract": "AI-driven game development holds the potential to transform diverse human inspirations into interactive experiences. However, existing systems and benchmarks primarily focus on explicit development specifications, with limited support for adapting multimodal references and evaluating actual gameplay...",
-      "venue": "arXiv",
-      "date": "2026-11-22",
-      "arxiv_id": "2611.29238v1",
-      "url": "https://arxiv.org/abs/2611.29238v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.29238v1.pdf",
-      "categories": [
-        "cs.AI",
-        "cs.CL",
         "cs.LG"
       ],
       "type": "nlp",
@@ -71,105 +121,19 @@
       "source": "arXiv"
     },
     {
-      "title": "The Evaluation Substrate Matters: Benchmarking Multi-Agent Serving Substrates",
-      "authors": "Haoyuan Zheng, Dongting Li, Hancheng Ye et al.",
-      "abstract": "Multi-agent systems (MAS) usually coordinate heterogeneous models and tools to solve complex tasks, creating a growing need for reliable evaluation. However, a multi-agent workflow that is fastest in one serving environment can lose its advantage in another, even when its models, prompts, and task r...",
+      "title": "ACAP: Asynchronous Coding Agents for Efficient Robot Control",
+      "authors": "Zexin He, Rui Li, Yushi Lan et al.",
+      "abstract": "Coding agents can construct and revise robot behavior during execution, but using one agent for the whole robot can delay otherwise independent work. We introduce Asynchronous Coding Agents as Policy (ACAP), an asynchronous framework that organizes one robot as a team of persistent agents. Each memb...",
       "venue": "arXiv",
-      "date": "2026-11-21",
-      "arxiv_id": "2611.28671v1",
-      "url": "https://arxiv.org/abs/2611.28671v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.28671v1.pdf",
+      "date": "2026-11-23",
+      "arxiv_id": "2611.31205v1",
+      "url": "https://arxiv.org/abs/2611.31205v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.31205v1.pdf",
       "categories": [
-        "cs.MA",
-        "cs.AI",
-        "cs.LG"
-      ],
-      "type": "benchmark",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Persuasion from Within: Model-Based Insider Attacks in Multi-Agent LLM Debate and Consensus",
-      "authors": "Bangyan Ju, Xiaolin Sun, Yibin Hu et al.",
-      "abstract": "Large language models (LLMs) are increasingly deployed in multi-agent systems for collective decision-making, such as multi-agent debate and consensus games, in which agents exchange messages and update their answers over multiple rounds and a resolution mechanism aggregates them into a final outcom...",
-      "venue": "arXiv",
-      "date": "2026-11-21",
-      "arxiv_id": "2611.28660v1",
-      "url": "https://arxiv.org/abs/2611.28660v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.28660v1.pdf",
-      "categories": [
-        "cs.AI",
+        "cs.RO",
         "cs.MA"
       ],
       "type": "ai",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Physical regime changes expose formula misuse in large language models",
-      "authors": "Maohao Ran, Yanting Zhang, Chendong Ma et al.",
-      "abstract": "Large language models (LLMs) are increasingly employed for scientific computing across the Earth and environmental sciences, but problems in these fields often involve distinct physical regimes. LLMs may fail to recognize these regime-dependent constraints, applying formulas outside their domains of...",
-      "venue": "arXiv",
-      "date": "2026-11-21",
-      "arxiv_id": "2611.28669v1",
-      "url": "https://arxiv.org/abs/2611.28669v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.28669v1.pdf",
-      "categories": [
-        "cs.LG",
-        "cs.CL"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Seeing Right, Writing Wrong: Where Short Chain-of-Thought Breaks Spatial VQA",
-      "authors": "Chenhao Zhang",
-      "abstract": "Asking a vision-language model (VLM) to think step by step often makes it worse at spatial questions, even though the image stays in context. We show that short chain-of-thought (CoT) turns a perception problem into a transcription problem. Once a VLM writes a spatial relation, its answer follows th...",
-      "venue": "arXiv",
-      "date": "2026-11-21",
-      "arxiv_id": "2611.28665v1",
-      "url": "https://arxiv.org/abs/2611.28665v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.28665v1.pdf",
-      "categories": [
-        "cs.CV",
-        "cs.CL"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Doing More with Less: Complex Manipulation with a Contact-Adaptive Robotic Hand",
-      "authors": "Hyung Gon Shin, Sanghoon Jung",
-      "abstract": "Anthropomorphic robotic hands offer the potential to manipulate objects designed for human hands in environments adapted to human use. However, developing a robotic hand that replicates the human hand in terms of morphology, degrees of freedom, force output, durability, and sensing capabilities rema...",
-      "venue": "arXiv",
-      "date": "2026-11-21",
-      "arxiv_id": "2611.28675v1",
-      "url": "https://arxiv.org/abs/2611.28675v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.28675v1.pdf",
-      "categories": [
-        "cs.RO"
-      ],
-      "type": "ai",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Fast World Planner: Advantage-Aware Action-Chunk Policy for Online Planning",
-      "authors": "Jiangtao Kong, Yuchen Wang, Yandong Luo et al.",
-      "abstract": "Model Predictive Path Integral (MPPI) control is central to online planning for model-based reinforcement learning (MBRL), but its iterative refinement incurs planning latency. Reducing refinement iterations often degrades performance, motivating stronger policy guidance learned from the planner. Ho...",
-      "venue": "arXiv",
-      "date": "2026-11-21",
-      "arxiv_id": "2611.28616v1",
-      "url": "https://arxiv.org/abs/2611.28616v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.28616v1.pdf",
-      "categories": [
-        "cs.RO",
-        "cs.AI",
-        "cs.LG"
-      ],
-      "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     }
