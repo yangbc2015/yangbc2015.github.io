@@ -3,50 +3,15 @@
   "count": 8,
   "items": [
     {
-      "title": "TrialAgentBench: Evaluating AI Agents for Clinical-Trial Analysis and Long-Horizon Drug-Development Decisions",
-      "authors": "Bradley Segal, William Bolton, Philip Torr et al.",
-      "abstract": "Clinical drug development is a long-horizon, high-stakes process requiring sequential decisions based on information that costs money and time to acquire. AI agents have demonstrated capabilities for scientific analysis, but there is no established way to evaluate them on these decisions, as real tr...",
+      "title": "Language Models Steer on Injected Uncertainty Tokens, but Fail to Self-Monitor In Situ",
+      "authors": "Daniel Theron",
+      "abstract": "Prompting language models to verbalize stepwise numerical confidence during generation is an increasingly popular approach for triggering backtracking and error correction in agentic reasoning. This strategy presupposes two capabilities: (1) in-situ monitoring fidelity (does confidence drop when an ...",
       "venue": "arXiv",
       "date": "2026-11-23",
-      "arxiv_id": "2611.30916v1",
-      "url": "https://arxiv.org/abs/2611.30916v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.30916v1.pdf",
+      "arxiv_id": "2611.31228v1",
+      "url": "https://arxiv.org/abs/2611.31228v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.31228v1.pdf",
       "categories": [
-        "cs.LG",
-        "cs.AI"
-      ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Replay Before You Reply: Second-Look Prompting for Unified Multimodal Encoding",
-      "authors": "Yicheng Zhang, Xun Zhang, Jingyuan Ma et al.",
-      "abstract": "Solving multimodal tasks requires Vision-Language Models (VLMs) to form a unified understanding of the image and the question text. However, under causal attention in current VLMs, a token can attend only to what precedes it. Whichever modality comes first is therefore encoded under partial observat...",
-      "venue": "arXiv",
-      "date": "2026-11-23",
-      "arxiv_id": "2611.30909v1",
-      "url": "https://arxiv.org/abs/2611.30909v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.30909v1.pdf",
-      "categories": [
-        "cs.CV",
-        "cs.AI"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Semantic-aware Decoding for Diverse Text-to-SQL under Schema Ambiguity",
-      "authors": "Yuxuan Jiang, Anna Mitsopoulou, Apostolos Koukouvinis et al.",
-      "abstract": "Real-world text-to-SQL systems often face schema ambiguity, where a question can map to multiple plausible schema elements. To support downstream disambiguation, SQL generation systems should include diverse interpretations among their top-k predictions. However, large language models (LLMs) typical...",
-      "venue": "arXiv",
-      "date": "2026-11-23",
-      "arxiv_id": "2611.30873v1",
-      "url": "https://arxiv.org/abs/2611.30873v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.30873v1.pdf",
-      "categories": [
-        "cs.CL",
         "cs.AI"
       ],
       "type": "nlp",
@@ -54,15 +19,52 @@
       "source": "arXiv"
     },
     {
-      "title": "SARA: An Auditor-in-the-Loop LLM Recommender for Sustainability Reports",
-      "authors": "Lars Hillebrand, Thiago B. F. de Oliveira, Tim Dilmaghani et al.",
-      "abstract": "Auditing corporate sustainability reports requires assurance professionals to map a company-specific checklist drawn from roughly 1,700 regulatory requirements onto the relevant passages of lengthy, repeatedly revised draft reports and to judge compliance. We present SARA (Sustainability Reporting A...",
+      "title": "CTLink: A Text-Prompted Segmentation Model for Linking Radiology Report Findings to 3D Chest CT Scans",
+      "authors": "Mohammed Baharoon, Sung Eun Kim, Mahmoud Hussain Alabbad et al.",
+      "abstract": "Radiology reports describe findings in text only, without visually marking them on the scan, so readers cannot directly see which abnormality each reported finding refers to. We introduce CTLink, a text-prompted 3D segmentation model that segments findings described in a chest CT report. CTLink was ...",
       "venue": "arXiv",
       "date": "2026-11-23",
-      "arxiv_id": "2611.30839v1",
-      "url": "https://arxiv.org/abs/2611.30839v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.30839v1.pdf",
+      "arxiv_id": "2611.31222v1",
+      "url": "https://arxiv.org/abs/2611.31222v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.31222v1.pdf",
       "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "ToolSmith: An Automatic Tool-Generation Framework for Multimodal Search Agents",
+      "authors": "Rui Sun, Junhua Huang, Luca Zancato et al.",
+      "abstract": "Recent multimodal search agents use reasoning, vision, and live web search across many turns to answer questions beyond parametric knowledge by orchestrating a small library of hand-crafted search and visual tools. However, the library is laborious to create and maintain, and frozen when new query t...",
+      "venue": "arXiv",
+      "date": "2026-11-23",
+      "arxiv_id": "2611.31198v1",
+      "url": "https://arxiv.org/abs/2611.31198v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.31198v1.pdf",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.CV"
+      ],
+      "type": "nlp",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "CO-GRAFT: Attributing Reinforcement Learning Gains in Search Agents via Role-Level Policy Grafting",
+      "authors": "Ramraj Chandradevan, Sayontan Ghosh, Vinoth Selvendran",
+      "abstract": "Reinforcement learning (RL) improves large language model search agents by up to 32 exact-match (EM) points over their pre-RL initializations, yet overall accuracy gains do not identify which underlying functional capabilities improve or interact during training. We introduce CO-GRAFT, a reward-agno...",
+      "venue": "arXiv",
+      "date": "2026-11-23",
+      "arxiv_id": "2611.31185v1",
+      "url": "https://arxiv.org/abs/2611.31185v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.31185v1.pdf",
+      "categories": [
+        "cs.IR",
+        "cs.AI",
         "cs.CL"
       ],
       "type": "nlp",
