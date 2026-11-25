@@ -89,6 +89,70 @@
       ]
     },
     {
+      "title": "VidForce: Predicting Force-Aware Articulation by Observing Humans",
+      "summary": "People can anticipate how an object moves and the effort an interaction may require by watching others. How can embodied agents acquire this understanding from video? Force measurements provide direct sensory supervision, but require specialized equi...",
+      "url": "https://arxiv.org/abs/2611.32967v1",
+      "date": "2026-11-24",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.32967v1",
+      "authors": "Rafay Mohiuddin, Jiaqi Chen et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "From Safety-Driven Redundancy to Value-Driven Architecture: An ODD-Based Rationalization Framework for Level 4 Autonomous Vehicles",
+      "summary": "Level 4 autonomous vehicles require fault-tolerant architectures that preserve critical driving functions under sensing, computing, communication, power, and actuation failures. As these systems progress toward industrial scalability, architectural c...",
+      "url": "https://arxiv.org/abs/2611.32960v1",
+      "date": "2026-11-24",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.32960v1",
+      "authors": "Tiago Simão Ferreira, Farzad Fallahi",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "DynaMimic: A Physics-Informed World Model for Humanoid Motion Tracking",
+      "summary": "Whole-body motion tracking enables humanoid robots to reproduce diverse skills from human demonstrations. Existing model-free reinforcement learning methods either distill motion specialists into a single policy at the cost of performance or train a ...",
+      "url": "https://arxiv.org/abs/2611.32944v1",
+      "date": "2026-11-24",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.32944v1",
+      "authors": "Chaoyue Xing, Linyi Huang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Self-Sensing Compliant Anthropomorphic Hand for Speed-Dictated Shared Force Control in Teleoperation",
+      "summary": "In vision-based teleoperation of robotic hands, the operator receives no haptic feedback and therefore struggles to regulate the grasp force, while adding tactile sensors to the fingers increases wiring, cost and integration complexity. Compliant han...",
+      "url": "https://arxiv.org/abs/2611.32937v1",
+      "date": "2026-11-24",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.32937v1",
+      "authors": "Huijiang Wang, Yu Zhang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
       "title": "Pruning Autonomous Driving VLAs: What to Preserve for Reasoning and Action",
       "summary": "Reasoning vision-language-action (VLA) models for autonomous driving use chain-of-thought (CoT) reasoning to guide action generation, but incur substantial memory and computational costs. We study structured pruning for these models, focusing on pres...",
       "url": "https://arxiv.org/abs/2611.31240v1",
@@ -3002,63 +3066,6 @@
       "type": "paper",
       "arxiv_id": "2611.01215v1",
       "authors": "Xicheng Gong, Wenxuan Song et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "桌面机器人要替打工人干活？",
-      "summary": "桌面机器人要替打工人干活？",
-      "url": "https://36kr.com/p/4048166536812168",
-      "date": "2026-10-30",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
-      ]
-    },
-    {
-      "title": "博银合创苏州总部启用，加速工业具身智能产业化",
-      "summary": "博银合创苏州总部启用，加速工业具身智能产业化",
-      "url": "https://36kr.com/p/4047773525063937",
-      "date": "2026-10-30",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "Hierarchical World Models with Implicit Dynamics",
-      "summary": "Planning with world models enables test-time adaptation for embodied agents, offering superior generalization over direct policy learning. However, long-horizon tasks remain hindered by cumulative errors and search complexity. Existing hierarchical m...",
-      "url": "https://arxiv.org/abs/2610.42146v1",
-      "date": "2026-10-30",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.42146v1",
-      "authors": "Gaoyue Zhou, Yvonne Wu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "RoboArchitect: Automating the Design of Robotic Agents with Persistent Memory",
-      "summary": "Recent work shows that a frozen robot policy performs far better inside an agent harness, where control code decides when to query the policy, consult vision tools, or command the arm directly. Yet today these harnesses are built by hand and redesign...",
-      "url": "https://arxiv.org/abs/2610.42141v1",
-      "date": "2026-10-30",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2610.42141v1",
-      "authors": "Shengguang Wu, Suning Huang et al.",
       "tags": [
         "机器人学习",
         "研究论文",

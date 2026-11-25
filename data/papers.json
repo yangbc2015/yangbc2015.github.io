@@ -3,68 +3,67 @@
   "count": 8,
   "items": [
     {
-      "title": "Language Models Steer on Injected Uncertainty Tokens, but Fail to Self-Monitor In Situ",
-      "authors": "Daniel Theron",
-      "abstract": "Prompting language models to verbalize stepwise numerical confidence during generation is an increasingly popular approach for triggering backtracking and error correction in agentic reasoning. This strategy presupposes two capabilities: (1) in-situ monitoring fidelity (does confidence drop when an ...",
+      "title": "OmniAct: One Policy, One Million Embodiments",
+      "authors": "Xiang Fan, Yuheng Wang, Jiayuan Yan et al.",
+      "abstract": "A single policy that controls diverse robots must not only transfer task knowledge across embodiments, but also adapt its behavior to each robot's capabilities. Existing approaches facilitate transfer through shared action representations, but these representations do not necessarily capture how dif...",
       "venue": "arXiv",
-      "date": "2026-11-23",
-      "arxiv_id": "2611.31228v1",
-      "url": "https://arxiv.org/abs/2611.31228v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.31228v1.pdf",
+      "date": "2026-11-24",
+      "arxiv_id": "2611.33158v1",
+      "url": "https://arxiv.org/abs/2611.33158v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.33158v1.pdf",
       "categories": [
-        "cs.AI"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "CTLink: A Text-Prompted Segmentation Model for Linking Radiology Report Findings to 3D Chest CT Scans",
-      "authors": "Mohammed Baharoon, Sung Eun Kim, Mahmoud Hussain Alabbad et al.",
-      "abstract": "Radiology reports describe findings in text only, without visually marking them on the scan, so readers cannot directly see which abnormality each reported finding refers to. We introduce CTLink, a text-prompted 3D segmentation model that segments findings described in a chest CT report. CTLink was ...",
-      "venue": "arXiv",
-      "date": "2026-11-23",
-      "arxiv_id": "2611.31222v1",
-      "url": "https://arxiv.org/abs/2611.31222v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.31222v1.pdf",
-      "categories": [
-        "cs.CV",
-        "cs.AI"
-      ],
-      "type": "nlp",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "ToolSmith: An Automatic Tool-Generation Framework for Multimodal Search Agents",
-      "authors": "Rui Sun, Junhua Huang, Luca Zancato et al.",
-      "abstract": "Recent multimodal search agents use reasoning, vision, and live web search across many turns to answer questions beyond parametric knowledge by orchestrating a small library of hand-crafted search and visual tools. However, the library is laborious to create and maintain, and frozen when new query t...",
-      "venue": "arXiv",
-      "date": "2026-11-23",
-      "arxiv_id": "2611.31198v1",
-      "url": "https://arxiv.org/abs/2611.31198v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.31198v1.pdf",
-      "categories": [
-        "cs.CL",
+        "cs.RO",
         "cs.AI",
         "cs.CV"
       ],
+      "type": "vision",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "MetaFORGE: A Meta-Learning Framework for Harness Optimization in Automated Code Generation for Parallel Computing",
+      "authors": "Scott Piersall, Yang Gao, Shenyang Liu et al.",
+      "abstract": "Large language models (LLMs) can generate parallel programs, but their correctness and performance depend strongly on the instructions that guide generation. We present \\textsc{MetaFORGE}, an execution-grounded meta-learning framework that iteratively optimizes persistent natural-language skill spec...",
+      "venue": "arXiv",
+      "date": "2026-11-24",
+      "arxiv_id": "2611.33119v1",
+      "url": "https://arxiv.org/abs/2611.33119v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.33119v1.pdf",
+      "categories": [
+        "cs.AI"
+      ],
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "DiaCap: Jointly Learning Who Speaks When for Audiovisual Dialogue Captioning",
+      "authors": "Binfei Ji, Zhiwen Cao, Anqi Yang et al.",
+      "abstract": "We present DiaCap, an audiovisual LLM for comprehensive dialogue captioning, which produces the transcript, timestamps, and a visual description of the speaker for every utterance in a video. Considering that utterance timing and audiovisual diarization are tightly coupled, DiaCap unifies the tasks ...",
+      "venue": "arXiv",
+      "date": "2026-11-24",
+      "arxiv_id": "2611.33153v1",
+      "url": "https://arxiv.org/abs/2611.33153v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.33153v1.pdf",
+      "categories": [
+        "cs.CV",
+        "cs.CL",
+        "cs.MM"
+      ],
       "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "CO-GRAFT: Attributing Reinforcement Learning Gains in Search Agents via Role-Level Policy Grafting",
-      "authors": "Ramraj Chandradevan, Sayontan Ghosh, Vinoth Selvendran",
-      "abstract": "Reinforcement learning (RL) improves large language model search agents by up to 32 exact-match (EM) points over their pre-RL initializations, yet overall accuracy gains do not identify which underlying functional capabilities improve or interact during training. We introduce CO-GRAFT, a reward-agno...",
+      "title": "CoT-Proxy: Cross-Format Transfer for Distilling Long-Horizon Policies",
+      "authors": "Dawid J. Kopiczko, Tijmen Blankevoort, Yuki M. Asano",
+      "abstract": "Reasoning models become long-horizon agents through reinforcement learning or, more cheaply, through fine-tuning on a stronger teacher's trajectories, which contain the teacher's chain-of-thought as well as its actions. The standard fine-tuning approach imitates both, yet the strongest teachers are ...",
       "venue": "arXiv",
-      "date": "2026-11-23",
-      "arxiv_id": "2611.31185v1",
-      "url": "https://arxiv.org/abs/2611.31185v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.31185v1.pdf",
+      "date": "2026-11-24",
+      "arxiv_id": "2611.33148v1",
+      "url": "https://arxiv.org/abs/2611.33148v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.33148v1.pdf",
       "categories": [
-        "cs.IR",
-        "cs.AI",
         "cs.CL"
       ],
       "type": "nlp",
@@ -72,32 +71,14 @@
       "source": "arXiv"
     },
     {
-      "title": "Pruning Autonomous Driving VLAs: What to Preserve for Reasoning and Action",
-      "authors": "Seongchan Kim, Soowon Son, Sangoh Kim et al.",
-      "abstract": "Reasoning vision-language-action (VLA) models for autonomous driving use chain-of-thought (CoT) reasoning to guide action generation, but incur substantial memory and computational costs. We study structured pruning for these models, focusing on preserving both scene understanding and trajectory pre...",
+      "title": "PointX: Multi-View Consistent Intrinsics by Querying Surface Points",
+      "authors": "Miguel Farinha, Sam Sartor, Iliyan Georgiev et al.",
+      "abstract": "The appearance of a scene is determined by the albedo, roughness, metallicity and normal of every point on its surface, and by the light that reaches it, its irradiance. Recovering these intrinsics from images is ambiguous, and methods that predict them per pixel give the same surface point a differ...",
       "venue": "arXiv",
-      "date": "2026-11-23",
-      "arxiv_id": "2611.31240v1",
-      "url": "https://arxiv.org/abs/2611.31240v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.31240v1.pdf",
-      "categories": [
-        "cs.CV",
-        "cs.LG",
-        "cs.RO"
-      ],
-      "type": "vision",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Lyris: Layout-Guided Long Video Generation with Persistent 3D Memory",
-      "authors": "Chen Wang, Jiahui Huang, Riccardo de Lutio et al.",
-      "abstract": "Exploring a scene from as little as a single photo requires generating a long, camera-controlled walkthrough that extends far beyond what was captured, yet remains consistent upon return. Memory-based video generation methods preserve what they have already seen, but have no anchor beyond it, where ...",
-      "venue": "arXiv",
-      "date": "2026-11-23",
-      "arxiv_id": "2611.31239v1",
-      "url": "https://arxiv.org/abs/2611.31239v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.31239v1.pdf",
+      "date": "2026-11-24",
+      "arxiv_id": "2611.33157v1",
+      "url": "https://arxiv.org/abs/2611.33157v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.33157v1.pdf",
       "categories": [
         "cs.CV"
       ],
@@ -106,36 +87,51 @@
       "source": "arXiv"
     },
     {
-      "title": "Let Vision-Language Models Generate Images through Their Representations",
-      "authors": "JB Kim, Byungwoo Jeon, Kyungmin Lee et al.",
-      "abstract": "Recent unified multimodal models aim to combine visual understanding and generation within a single model, yet effectively integrating the two capabilities remains challenging. Leveraging pretrained vision-language models offers a way to build on already learned multimodal knowledge, but making this...",
+      "title": "Eliciting the Recall Capacity of Linear Attention",
+      "authors": "Johan Lindqvist, Antonio Orvieto",
+      "abstract": "Linear attention models exhibit a disproportionate deficit relative to softmax attention in associative recall (AR) in language modeling. We investigate this gap through natural language evaluations, synthetic recall tasks, and targeted training interventions. Using a synthetic setting, we quantify ...",
       "venue": "arXiv",
-      "date": "2026-11-23",
-      "arxiv_id": "2611.31237v1",
-      "url": "https://arxiv.org/abs/2611.31237v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.31237v1.pdf",
+      "date": "2026-11-24",
+      "arxiv_id": "2611.32969v1",
+      "url": "https://arxiv.org/abs/2611.32969v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.32969v1.pdf",
       "categories": [
-        "cs.CV",
         "cs.LG"
       ],
-      "type": "nlp",
+      "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     },
     {
-      "title": "ACAP: Asynchronous Coding Agents for Efficient Robot Control",
-      "authors": "Zexin He, Rui Li, Yushi Lan et al.",
-      "abstract": "Coding agents can construct and revise robot behavior during execution, but using one agent for the whole robot can delay otherwise independent work. We introduce Asynchronous Coding Agents as Policy (ACAP), an asynchronous framework that organizes one robot as a team of persistent agents. Each memb...",
+      "title": "Polynomial-Time Learning of Random Automata from One Label per Word",
+      "authors": "Yilin Cheng",
+      "abstract": "We study a binary deterministic finite automaton whose $2n$ transitions are chosen independently and uniformly from its $n$ states. The learner observes independent uniform words of length $m$, each labeled with a single bit indicating acceptance. For every fixed $β>0$ we give a polynomial-time algo...",
       "venue": "arXiv",
-      "date": "2026-11-23",
-      "arxiv_id": "2611.31205v1",
-      "url": "https://arxiv.org/abs/2611.31205v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.31205v1.pdf",
+      "date": "2026-11-24",
+      "arxiv_id": "2611.32959v1",
+      "url": "https://arxiv.org/abs/2611.32959v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.32959v1.pdf",
       "categories": [
-        "cs.RO",
-        "cs.MA"
+        "cs.LG",
+        "cs.FL"
       ],
-      "type": "ai",
+      "type": "ml",
+      "badge": "arxiv",
+      "source": "arXiv"
+    },
+    {
+      "title": "PyRUA-Dex: Learning Programmatic Policies for Dexterous Bimanual Manipulation with Coding Agents",
+      "authors": "Feixiang Ruan, Guodong Lv, Kewei Zhang et al.",
+      "abstract": "Learning for dexterous manipulation is limited by the scarcity of high-quality demonstrations: retargeting from human video is imprecise, teleoperation gives no force feedback to the operator, and exoskeleton-based collection is hard to scale up. We present PyRUA-Dex, a framework that enables coding...",
+      "venue": "arXiv",
+      "date": "2026-11-24",
+      "arxiv_id": "2611.33144v1",
+      "url": "https://arxiv.org/abs/2611.33144v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.33144v1.pdf",
+      "categories": [
+        "cs.RO"
+      ],
+      "type": "ml",
       "badge": "arxiv",
       "source": "arXiv"
     }
