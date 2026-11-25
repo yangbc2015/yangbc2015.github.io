@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-11-25",
-  "count": 8,
+  "count": 7,
   "items": [
     {
       "title": "OmniAct: One Policy, One Million Embodiments",
@@ -87,35 +87,19 @@
       "source": "arXiv"
     },
     {
-      "title": "Eliciting the Recall Capacity of Linear Attention",
-      "authors": "Johan Lindqvist, Antonio Orvieto",
-      "abstract": "Linear attention models exhibit a disproportionate deficit relative to softmax attention in associative recall (AR) in language modeling. We investigate this gap through natural language evaluations, synthetic recall tasks, and targeted training interventions. Using a synthetic setting, we quantify ...",
+      "title": "BioLoom: Scaling Biomedical Vision-Language Models by Learning from the Structure of Scientific Articles",
+      "authors": "Yuwei Yang, Xiaoxiao Sun, Alejandro Lozano et al.",
+      "abstract": "The development of biomedical vision-language models (VLMs) with contrastive image-text pretraining has been driven by scaling to increasingly large and diverse image-text datasets. Beyond scaling, further progress can come from learning richer representations from existing data. We hypothesize that...",
       "venue": "arXiv",
       "date": "2026-11-24",
-      "arxiv_id": "2611.32969v1",
-      "url": "https://arxiv.org/abs/2611.32969v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.32969v1.pdf",
+      "arxiv_id": "2611.33151v1",
+      "url": "https://arxiv.org/abs/2611.33151v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.33151v1.pdf",
       "categories": [
+        "cs.CV",
         "cs.LG"
       ],
-      "type": "ml",
-      "badge": "arxiv",
-      "source": "arXiv"
-    },
-    {
-      "title": "Polynomial-Time Learning of Random Automata from One Label per Word",
-      "authors": "Yilin Cheng",
-      "abstract": "We study a binary deterministic finite automaton whose $2n$ transitions are chosen independently and uniformly from its $n$ states. The learner observes independent uniform words of length $m$, each labeled with a single bit indicating acceptance. For every fixed $β>0$ we give a polynomial-time algo...",
-      "venue": "arXiv",
-      "date": "2026-11-24",
-      "arxiv_id": "2611.32959v1",
-      "url": "https://arxiv.org/abs/2611.32959v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.32959v1.pdf",
-      "categories": [
-        "cs.LG",
-        "cs.FL"
-      ],
-      "type": "ml",
+      "type": "nlp",
       "badge": "arxiv",
       "source": "arXiv"
     },

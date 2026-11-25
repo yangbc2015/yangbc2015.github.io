@@ -89,6 +89,86 @@
       ]
     },
     {
+      "title": "OmniAct: One Policy, One Million Embodiments",
+      "summary": "A single policy that controls diverse robots must not only transfer task knowledge across embodiments, but also adapt its behavior to each robot's capabilities. Existing approaches facilitate transfer through shared action representations, but these ...",
+      "url": "https://arxiv.org/abs/2611.33158v1",
+      "date": "2026-11-24",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.33158v1",
+      "authors": "Xiang Fan, Yuheng Wang et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "PyRUA-Dex: Learning Programmatic Policies for Dexterous Bimanual Manipulation with Coding Agents",
+      "summary": "Learning for dexterous manipulation is limited by the scarcity of high-quality demonstrations: retargeting from human video is imprecise, teleoperation gives no force feedback to the operator, and exoskeleton-based collection is hard to scale up. We ...",
+      "url": "https://arxiv.org/abs/2611.33144v1",
+      "date": "2026-11-24",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.33144v1",
+      "authors": "Feixiang Ruan, Guodong Lv et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "ROAM-Bench: Evaluating Embodied Active Spatial Intelligence through Evidence Verification",
+      "summary": "Embodied spatial intelligence requires agents to gather information through exploration and interaction, then use it to reason and act. Existing benchmarks insufficiently distinguish correct outcomes from completion of these task requirements. We int...",
+      "url": "https://arxiv.org/abs/2611.33143v1",
+      "date": "2026-11-24",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.33143v1",
+      "authors": "Xingjian Ran, Xiaoye Mo et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "iWAM: Efficient Action Prediction from World Models without Explicit Future Prediction",
+      "summary": "World-action models (WAMs) build policies on pretrained video-generation models, on the premise that predicting how a scene evolves helps determine how to act. However, generating future scenes is expensive for real-time control. This motivates effic...",
+      "url": "https://arxiv.org/abs/2611.33141v1",
+      "date": "2026-11-24",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.33141v1",
+      "authors": "Vansh Kapoor, Max Sobol Mark et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Exploratory Midtraining for Robot Policies",
+      "summary": "Robot policies predominantly learn from human-collected data emphasizing competent behavior, limiting coverage of the low-level behaviors needed to support autonomous improvement. We study how a form of midtraining can be used to build coverage over ...",
+      "url": "https://arxiv.org/abs/2611.33130v1",
+      "date": "2026-11-24",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.33130v1",
+      "authors": "Kshitiz, Zheyuan Hu et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
       "title": "VidForce: Predicting Force-Aware Articulation by Observing Humans",
       "summary": "People can anticipate how an object moves and the effort an interaction may require by watching others. How can embodied agents acquire this understanding from video? Force measurements provide direct sensory supervision, but require specialized equi...",
       "url": "https://arxiv.org/abs/2611.32967v1",
@@ -150,6 +230,19 @@
         "机器人学习",
         "研究论文",
         "arXiv"
+      ]
+    },
+    {
+      "title": "WISE2026具身智能文商旅分会场邀你共探产业落地",
+      "summary": "WISE2026具身智能文商旅分会场邀你共探产业落地",
+      "url": "https://36kr.com/p/4082051861451648",
+      "date": "2026-11-23",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
       ]
     },
     {
@@ -2970,102 +3063,6 @@
       "type": "paper",
       "arxiv_id": "2611.03588v1",
       "authors": "Shivangi Rai, Kunal Jangid et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "TAMPAgent: Agentic Belief-Space Planning for Mobile Manipulation",
-      "summary": "Open-world robotic mobile manipulation requires acting in physical environments with only partial information. While recent Large Vision-Language Model (LVLM) agents show strong open-world reasoning capabilities, existing architectures that rely on d...",
-      "url": "https://arxiv.org/abs/2611.03584v1",
-      "date": "2026-11-02",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2611.03584v1",
-      "authors": "Utkarsh A. Mishra, Alperen Degirmenci et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "DriftingPlanner: Drifting Generative Models for One-Step Trajectory Planning in End-to-End Autonomous Driving",
-      "summary": "End-to-end planners decode the ego trajectory either by coordinate regression, which is fast but blends plausible maneuvers into one trajectory that may follow none of them, or by diffusion and flow matching, which model the trajectory distribution b...",
-      "url": "https://arxiv.org/abs/2611.01283v1",
-      "date": "2026-10-31",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2611.01283v1",
-      "authors": "Ziming Liu, Yizhan Qu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Programmable Droplets as Active Matter in a Reconfigurable Environment",
-      "summary": "Exploring systems that bridge the gap between non living and living matter requires a reconfigurable environment coupled to synthetic systems capable of autonomous motion, adaptive behaviour and persistent dynamics. Self propelled droplets provide a ...",
-      "url": "https://arxiv.org/abs/2611.01277v1",
-      "date": "2026-10-31",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2611.01277v1",
-      "authors": "Ivan Shmarov, Abhishek Sharma et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Shades of Success: Evaluating Manipulation Quality from Object-Centric Constraints",
-      "summary": "As learned manipulation policies become increasingly capable of solving practical manipulation tasks, assessing how well a task is performed becomes a fundamental challenge. While binary labels confirm task success, they cannot distinguish successful...",
-      "url": "https://arxiv.org/abs/2611.01250v1",
-      "date": "2026-10-31",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2611.01250v1",
-      "authors": "Lorena Maria Genua, Sarvesh Prajapati et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Differentiable Iterative Learning Control for Black-Box Position-Commanded Manipulators",
-      "summary": "High-accuracy repetitive tracking is challenging for position-commanded manipulators whose low-level controllers are inaccessible, while constrained model-based iterative learning control (ILC) can require substantial manual parameter tuning. We pres...",
-      "url": "https://arxiv.org/abs/2611.01220v1",
-      "date": "2026-10-31",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2611.01220v1",
-      "authors": "Mohammed Al-Ghaili, Yakoop Qasim et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Vision-Language Models Are Joint Denoisers in Robotic Action Generation",
-      "summary": "Diffusion-based vision-language-action (VLA) models cascade pretrained vision-language models (VLMs) with diffusion action experts, but typically restrict the VLM to providing static conditioning. This separation limits how much pretrained perception...",
-      "url": "https://arxiv.org/abs/2611.01215v1",
-      "date": "2026-10-31",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2611.01215v1",
-      "authors": "Xicheng Gong, Wenxuan Song et al.",
       "tags": [
         "机器人学习",
         "研究论文",
