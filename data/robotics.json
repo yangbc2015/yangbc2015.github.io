@@ -89,6 +89,113 @@
       ]
     },
     {
+      "title": "DexLink: Synthesizing Dexterous Behaviors from Chained Hand-object Poses",
+      "summary": "Synthesizing diverse dexterous manipulation policies is challenging: existing simulation-based approaches rely on human demonstrations which are difficult to scale, or use generic reward functions, which provide limited control over the hand-object i...",
+      "url": "https://arxiv.org/abs/2611.34936v1",
+      "date": "2026-11-25",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.34936v1",
+      "authors": "Meenal Parakh, Deep Patel et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "MERLoc: Robust Robot Localization in Dynamic Environments with Pose-Based Retrieval over 3D Gaussian Splatting References",
+      "summary": "Robots operating in previously mapped spaces must localize accurately despite moving people and rearranged objects. Most localization pipelines match the query against a sparse set of captured reference images retrieved by appearance, which is brittl...",
+      "url": "https://arxiv.org/abs/2611.34932v1",
+      "date": "2026-11-25",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.34932v1",
+      "authors": "Michael Baumgartner, Dario Mylonopoulos et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "One Ocean, Many Tasks: A Data-Grounded Simulation Suite and Benchmark for Marine Robotics",
+      "summary": "Simulation is essential for marine robotics, yet existing platforms often trade off between visually realistic worlds, high-throughput experimentation, and ocean-condition realism grounded in real data. We present OneOcean, a data-grounded simulation...",
+      "url": "https://arxiv.org/abs/2611.34925v1",
+      "date": "2026-11-25",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.34925v1",
+      "authors": "Shuaijun Liu, Qifu Wen et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Memory Is Not Ground Truth: Revising Navigation Authority under Unreliable VLM Evidence for Persistent Semantic Navigation",
+      "summary": "Vision-language models (VLMs) enable robots to reason about semantic and spatio-temporal context, verify task-relevant objects, and guide sensing and navigation. Persistent memory can reduce redundant search for field robots, but when should a memory...",
+      "url": "https://arxiv.org/abs/2611.34915v1",
+      "date": "2026-11-25",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.34915v1",
+      "authors": "Sumukh Shrote, Shenbagaraj Kannapiran et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "Cairn: Object-Centric 3D Trajectory Priors for Steering Frozen VLAs",
+      "summary": "Vision-language-action models (VLAs) are capable low-level controllers, but they tie where objects go to the layouts they were trained on: when objects are moved or obstacles block the way, they carry them to the wrong place or into collisions. Fine-...",
+      "url": "https://arxiv.org/abs/2611.34914v1",
+      "date": "2026-11-25",
+      "source": "arXiv",
+      "category": "机器人学习",
+      "type": "paper",
+      "arxiv_id": "2611.34914v1",
+      "authors": "Agelos Kratimenos, Kostas Daniilidis et al.",
+      "tags": [
+        "机器人学习",
+        "研究论文",
+        "arXiv"
+      ]
+    },
+    {
+      "title": "2026年末具身智能热钱逃离整机，转向务实赛道",
+      "summary": "2026年末具身智能热钱逃离整机，转向务实赛道",
+      "url": "https://36kr.com/p/4083520759600768",
+      "date": "2026-11-24",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "具身智能的落地场景，正在从桌面和仓库，走向矿山与工地。当机械臂走出结构化实验室，面对的是粉尘、振动、极端温差与不断变化的作业面——这既是对模型泛化能力的真实考验，也是具身智能从技术演示迈向产业价值的必经之路。",
+      "summary": "具身智能的落地场景，正在从桌面和仓库，走向矿山与工地。当机械臂走出结构化实验室，面对的是粉尘、振动、极端温差与不断变化的作业面——这既是对模型泛化能力的真实考验，也是具身智能从技术演示迈向产业价值的必经之路。",
+      "url": "https://36kr.com/p/4083447796296326",
+      "date": "2026-11-24",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能",
+        "机械臂"
+      ]
+    },
+    {
       "title": "OmniAct: One Policy, One Million Embodiments",
       "summary": "A single policy that controls diverse robots must not only transfer task knowledge across embodiments, but also adapt its behavior to each robot's capabilities. Existing approaches facilitate transfer through shared action representations, but these ...",
       "url": "https://arxiv.org/abs/2611.33158v1",
@@ -2963,110 +3070,6 @@
       "type": "news",
       "tags": [
         "机器人"
-      ]
-    },
-    {
-      "title": "人形机器人具身智能实景实训挑战赛在京召开发布会",
-      "summary": "人形机器人具身智能实景实训挑战赛在京召开发布会",
-      "url": "https://36kr.com/p/4052511128638336",
-      "date": "2026-11-02",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能",
-        "人形机器人"
-      ]
-    },
-    {
-      "title": "具身智能投资热退潮，一级市场资本接力失灵",
-      "summary": "具身智能投资热退潮，一级市场资本接力失灵",
-      "url": "https://36kr.com/p/4052083834426248",
-      "date": "2026-11-02",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "商汤开源具身方案，称任务成本降至GPT-6的1/50",
-      "summary": "商汤开源具身方案，称任务成本降至GPT-6的1/50",
-      "url": "https://36kr.com/p/4051899808913032",
-      "date": "2026-11-02",
-      "source": "36氪",
-      "category": "具身智能",
-      "type": "news",
-      "tags": [
-        "机器人",
-        "具身智能"
-      ]
-    },
-    {
-      "title": "Pixel-UMI: Learning Environment-Aware Whole-Body Manipulation from Sensorized Human Demonstrations",
-      "summary": "Sensorized human demonstrations offer scalable data for mobile manipulation, but embodiment differences complicate policy learning. We present Pixel-UMI, a pipeline for learning environment-aware whole-body policies from human data. We first introduc...",
-      "url": "https://arxiv.org/abs/2611.03647v1",
-      "date": "2026-11-02",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2611.03647v1",
-      "authors": "Jason Jingzhou Liu, Tony Tao et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Pixel: A Co-Designed Full-Stack Robot System for Learning General-Purpose Mobile Manipulation",
-      "summary": "General-purpose mobile manipulation requires a combination of capable robot hardware, scalable demonstration collection, expressive whole-body control, and effective policy learning. Yet these components are often developed independently, creating mi...",
-      "url": "https://arxiv.org/abs/2611.03648v1",
-      "date": "2026-11-02",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2611.03648v1",
-      "authors": "Tony Tao, Jason Jingzhou Liu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "D&A: Decoupling Description and Assessment Enables VLMs as Zero-Shot Robotic Reward Models",
-      "summary": "Vision-Language Models (VLMs) hold promise for zero-shot video task-progress estimation in robot learning, yet existing frameworks frequently suffer from confirmation bias, hallucinating progress in failed executions due to implicit success assumptio...",
-      "url": "https://arxiv.org/abs/2611.03622v1",
-      "date": "2026-11-02",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2611.03622v1",
-      "authors": "Marius Memmel, Shawn Yin et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "3D-BBDA: Backpropagation-Free Black-Box Domain Adaptation for Robust 3D Point Cloud Recognition",
-      "summary": "Robust 3D point-cloud recognition is critical for robotics, mapping, and urban sensing, yet point-cloud classifiers often suffer performance drops under domain shifts caused by sensor changes, environmental variation, and acquisition artifacts. Many ...",
-      "url": "https://arxiv.org/abs/2611.03588v1",
-      "date": "2026-11-02",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2611.03588v1",
-      "authors": "Shivangi Rai, Kunal Jangid et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
       ]
     }
   ]

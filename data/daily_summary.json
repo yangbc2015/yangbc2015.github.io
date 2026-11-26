@@ -5,8 +5,69 @@
     "ai": {
       "name": "人工智能",
       "icon": "🤖",
-      "count": 0,
-      "items": []
+      "count": 5,
+      "items": [
+        {
+          "title": "全链路任务对齐，浙江人形升级 NAVIAI 工业作业能力",
+          "link": "https://www.jiqizhixin.com/search/articles/全链路任务对齐，浙江人形升级 ",
+          "summary": "全链路任务对齐，浙江人形升级 NAVIAI 工业作业能力...",
+          "date": "2026-11-25",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "Karpathy提出的LLM Wiki，中国公司做出来了！lumimax八项公开基准测试全线领先",
+          "link": "https://www.jiqizhixin.com/search/articles/Karpathy提出的LLM ",
+          "summary": "Karpathy提出的LLM Wiki，中国公司做出来了！lumimax八项公开基准测试全线领先...",
+          "date": "2026-11-25",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "北大唐浩团队提出PanDWM：把六个相机拼成一张全景，驾驶世界模型直接生成可换视角的4D场景",
+          "link": "https://www.jiqizhixin.com/search/articles/北大唐浩团队提出PanDWM：",
+          "summary": "北大唐浩团队提出PanDWM：把六个相机拼成一张全景，驾驶世界模型直接生成可换视角的4D场景...",
+          "date": "2026-11-25",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "OceanBase AI数据大会共识：AI要进核心业务，先盘活企业私有数据",
+          "link": "https://www.jiqizhixin.com/search/articles/OceanBase AI数据大",
+          "summary": "OceanBase AI数据大会共识：AI要进核心业务，先盘活企业私有数据...",
+          "date": "2026-11-25",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "华人计算机视觉泰斗、港科大权龙再创业！携手马尔奖得主与数十位00后海内外名校博士生，押注空间物理AI",
+          "link": "https://www.jiqizhixin.com/search/articles/华人计算机视觉泰斗、港科大权龙",
+          "summary": "华人计算机视觉泰斗、港科大权龙再创业！携手马尔奖得主与数十位00后海内外名校博士生，押注空间物理AI...",
+          "date": "2026-11-25",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        }
+      ]
     },
     "economy": {
       "name": "宏观经济",
