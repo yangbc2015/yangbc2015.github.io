@@ -1,73 +1,12 @@
 {
-  "date": "2026-11-25",
-  "last_updated": "2026-11-25",
+  "date": "2026-11-26",
+  "last_updated": "2026-11-26",
   "categories": {
     "ai": {
       "name": "人工智能",
       "icon": "🤖",
-      "count": 5,
-      "items": [
-        {
-          "title": "看一遍就会，60ms出手，最强生产力模型来了",
-          "link": "https://www.jiqizhixin.com/search/articles/看一遍就会，60ms出手，最强",
-          "summary": "看一遍就会，60ms出手，最强生产力模型来了...",
-          "date": "2026-11-24",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
-          "title": "智元推出行业首个开放且完整的具身智能生态技术体系AIMA",
-          "link": "https://www.qbitai.com/?s=智元推出行业首个开放",
-          "summary": "智元推出行业首个开放且完整的具身智能生态技术体系AIMA...",
-          "date": "2026-11-25",
-          "source": "量子位",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
-          "title": "11月25日，以“算力唤醒真实世界”为主题的2026物理AI行业峰会暨九章云极智算生态大会在深圳举行。",
-          "link": "https://www.qbitai.com/?s=11月25日，以“算",
-          "summary": "11月25日，以“算力唤醒真实世界”为主题的2026物理AI行业峰会暨九章云极智算生态大会在深圳举行。...",
-          "date": "2026-11-25",
-          "source": "量子位",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
-          "title": "第二十一届中国IDC产业年度大典（IDCC2026）暨2026全球数字基础设施科技展即将举办",
-          "link": "https://www.qbitai.com/?s=第二十一届中国IDC",
-          "summary": "第二十一届中国IDC产业年度大典（IDCC2026）暨2026全球数字基础设施科技展即将举办...",
-          "date": "2026-11-25",
-          "source": "量子位",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
-          "title": "整体效率大约是此前Opus版本的2到3倍。",
-          "link": "https://www.qbitai.com/?s=整体效率大约是此前O",
-          "summary": "整体效率大约是此前Opus版本的2到3倍。...",
-          "date": "2026-11-25",
-          "source": "量子位",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        }
-      ]
+      "count": 0,
+      "items": []
     },
     "economy": {
       "name": "宏观经济",
