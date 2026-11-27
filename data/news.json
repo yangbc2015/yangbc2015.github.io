@@ -1,9 +1,33 @@
 {
   "last_updated": "2026-11-27",
   "count": 200,
-  "history_count": 206,
+  "history_count": 202,
   "retention_days": 30,
   "items": [
+    {
+      "title": "一支团队在真机上验证的成果，可以成为下一支团队继续开发的起点。",
+      "link": "https://www.qbitai.com/?s=一支团队在真机上验证",
+      "summary": "一支团队在真机上验证的成果，可以成为下一支团队继续开发的起点。...",
+      "date": "2026-11-27",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "商汤大装置Token工厂获得中国信通院Token工厂智算能力评估“全栈服务型·领先级”评级认证",
+      "link": "https://www.qbitai.com/?s=商汤大装置Token",
+      "summary": "商汤大装置Token工厂获得中国信通院Token工厂智算能力评估“全栈服务型·领先级”评级认证...",
+      "date": "2026-11-27",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
     {
       "title": "11 月 27 日，蚂蚁灵波科技发布流式三维重建模型 LingBot-Map 2.0",
       "link": "https://www.qbitai.com/?s=11 月 27 日，",
@@ -41,6 +65,18 @@
       ]
     },
     {
+      "title": "Final URL: https://techcrunch.com/category/artificial-intelligence/",
+      "link": "https://techcrunch.com/category/artificial-intelligence/",
+      "summary": "Final URL: https://techcrunch.com/category/artificial-intelligence/...",
+      "date": "2026-11-27",
+      "source": "TechCrunch",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "Artificial Intelligence"
+      ]
+    },
+    {
       "title": "11月26日，“乾崑生态 共赴热爱”华为乾崑生态大会在广州南沙体育馆举行。",
       "link": "https://www.qbitai.com/?s=11月26日，“乾崑",
       "summary": "11月26日，“乾崑生态 共赴热爱”华为乾崑生态大会在广州南沙体育馆举行。...",
@@ -62,18 +98,6 @@
       "tags": [
         "AI",
         "人工智能"
-      ]
-    },
-    {
-      "title": "Final URL: https://techcrunch.com/category/artificial-intelligence/",
-      "link": "https://techcrunch.com/category/artificial-intelligence/",
-      "summary": "Final URL: https://techcrunch.com/category/artificial-intelligence/...",
-      "date": "2026-11-27",
-      "source": "TechCrunch",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "Artificial Intelligence"
       ]
     },
     {
@@ -2374,30 +2398,6 @@
       "summary": "在大模型私有化市场，商汤大装置以9.4%的市场份额，再次稳居第二位...",
       "date": "2026-10-31",
       "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "AI安全不是AI发展的“刹车片”，而是AI高质量发展的“加速器”。",
-      "link": "https://www.qbitai.com/?s=AI安全不是AI发展",
-      "summary": "AI安全不是AI发展的“刹车片”，而是AI高质量发展的“加速器”。...",
-      "date": "2026-10-31",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "从LPDDR6首发量产到G6样片验证：长鑫高强度研发投入，驱动存储产品矩阵升级",
-      "link": "https://www.jiqizhixin.com/search/articles/从LPDDR6首发量产到G6样",
-      "summary": "从LPDDR6首发量产到G6样片验证：长鑫高强度研发投入，驱动存储产品矩阵升级...",
-      "date": "2026-10-30",
-      "source": "机器之心",
       "type": "industry",
       "tags": [
         "AI",

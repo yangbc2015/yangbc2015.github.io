@@ -3,6 +3,43 @@
   "count": 200,
   "items": [
     {
+      "title": "[扎根国家网安基地，帕西尼武汉具身超级数据工厂打造 具 身 智 能 数据生产新支点",
+      "summary": "[扎根国家网安基地，帕西尼武汉具身超级数据工厂打造 具 身 智 能 数据生产新支点",
+      "url": "https://36kr.com/p/4087845245581955",
+      "date": "2026-11-27",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "[800多家工厂等待机器人入驻，杭州临平集结硬核 具 身 智 能 玩家",
+      "summary": "[800多家工厂等待机器人入驻，杭州临平集结硬核 具 身 智 能 玩家",
+      "url": "https://36kr.com/p/4087797302606209",
+      "date": "2026-11-27",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
+      "title": "[36氪首发丨 具 身 智 能 公司获清科产投等数亿投资，机器人已投入真实商业作业",
+      "summary": "[36氪首发丨 具 身 智 能 公司获清科产投等数亿投资，机器人已投入真实商业作业",
+      "url": "https://36kr.com/p/4087361074575753",
+      "date": "2026-11-27",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
       "title": "[具 身 智 能 48小时三笔亿元级融资：热钱全绕开了“人形整机”",
       "summary": "[具 身 智 能 48小时三笔亿元级融资：热钱全绕开了“人形整机”",
       "url": "https://36kr.com/p/4083520759600768",
@@ -3005,54 +3042,6 @@
       "type": "paper",
       "arxiv_id": "2611.05368v1",
       "authors": "Shivin Dass, Kevin Nguyen et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Visibility-Aware Reference Generation for Benchmarking Visual 3D Reconstruction in Vegetation-Rich Environments",
-      "summary": "Reliable evaluation of visual 3D reconstruction and depth estimation in vegetation-rich outdoor environments is limited by the scarcity of geometric ground-truth data and the cost of complete scanner surveys. We present a LiDARbased reference-generat...",
-      "url": "https://arxiv.org/abs/2611.05361v1",
-      "date": "2026-11-03",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2611.05361v1",
-      "authors": "Zhipeng Zhong, Matthew Coombes et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "PyRUA-DataFarm: LLM Agent as a Cost-Efficient Teleoperator for Real-Ready Robot Data",
-      "summary": "Teleoperation remains the default way to collect robot demonstrations, but every episode costs robot and operator time, and every new task starts from scratch. We ask whether a coding agent can take over the teleoperator's job. In our DataFarm, the a...",
-      "url": "https://arxiv.org/abs/2611.05320v1",
-      "date": "2026-11-03",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2611.05320v1",
-      "authors": "Kewei Zhang, Juncheng Ma et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "iMED: A Multi-Endoscope Dataset for Surgical 3D Perception",
-      "summary": "We introduce iMED, the first synchronized multi-endoscope dataset for robot-assisted minimally invasive surgery (RAMIS), designed to address a fundamental limitation in surgical vision benchmarking: the absence of independent held-out viewpoints. Exi...",
-      "url": "https://arxiv.org/abs/2611.04755v1",
-      "date": "2026-11-03",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2611.04755v1",
-      "authors": "Sierra Bonilla, Fengyi Jiang et al.",
       "tags": [
         "机器人学习",
         "研究论文",

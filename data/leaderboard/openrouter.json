@@ -39,8 +39,8 @@
       "rank": 5,
       "model": "inkling-2-mini",
       "organization": "thinkingmachines",
-      "price_prompt": "0.000000075",
-      "price_completion": "0.0000003",
+      "price_prompt": "0.00000006",
+      "price_completion": "0.00000024",
       "context_length": 1048576
     },
     {
