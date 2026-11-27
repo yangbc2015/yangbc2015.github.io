@@ -1,7 +1,32 @@
 {
-  "last_updated": "2026-11-26",
+  "last_updated": "2026-11-27",
   "count": 200,
   "items": [
+    {
+      "title": "[Einsia AI 联合六所高校开源业内首个万级具身 RL 环境，具 身 智 能 迈向GPT时刻",
+      "summary": "[Einsia AI 联合六所高校开源业内首个万级具身 RL 环境，具 身 智 能 迈向GPT时刻",
+      "url": "https://36kr.com/p/4084882519796352",
+      "date": "2026-11-27",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "[具 身 智 能 迎来商业化拐点：机器人进厂，告别“手搓”时代",
+      "summary": "[具 身 智 能 迎来商业化拐点：机器人进厂，告别“手搓”时代",
+      "url": "https://36kr.com/p/4084600525073030",
+      "date": "2026-11-27",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
     {
       "title": "Figure AI发布新一代人形机器人Figure 02，具备更强的自主学习能力",
       "summary": "Figure AI发布新一代人形机器人Figure 02，搭载最新视觉-语言-动作(VLA)模型，在工厂和仓储场景实现更高水平的自主操作。",
@@ -166,6 +191,43 @@
         "机器人学习",
         "研究论文",
         "arXiv"
+      ]
+    },
+    {
+      "title": "“泡沫论”之下，具身智能的技术进步和商业困境同时存在，行业走到了拼交付、算细账的时刻。",
+      "summary": "“泡沫论”之下，具身智能的技术进步和商业困境同时存在，行业走到了拼交付、算细账的时刻。",
+      "url": "https://36kr.com/p/4085020019632775",
+      "date": "2026-11-25",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "从1407条投资事件里筛出的33笔投资，12家外资大厂投过中国机器人",
+      "summary": "从1407条投资事件里筛出的33笔投资，12家外资大厂投过中国机器人",
+      "url": "https://36kr.com/p/4084865144826246",
+      "date": "2026-11-25",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
+      "title": "机器人，正走向可复制的生产力。",
+      "summary": "机器人，正走向可复制的生产力。",
+      "url": "https://36kr.com/p/4084600525073030",
+      "date": "2026-11-25",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
       ]
     },
     {
@@ -2998,78 +3060,6 @@
         "机器人学习",
         "研究论文",
         "arXiv"
-      ]
-    },
-    {
-      "title": "Cycle WAM: Coupling Action and Video through Cycle Consistency",
-      "summary": "Recent advances in video modeling have driven substantial progress in world action models (WAMs). Existing approaches exploit pretrained video priors by decoding actions from latent representations or inferring them from generated videos. The underly...",
-      "url": "https://arxiv.org/abs/2611.04711v1",
-      "date": "2026-11-03",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2611.04711v1",
-      "authors": "Qinglin Yang, Jiepeng Wang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "CLARA: A Cognitively-Driven Clarification Framework for Grounding Ambiguous Requests",
-      "summary": "Robotics and AI systems are increasingly deploying large vision-language models (LVLMs) to follow high-level instructions, from routine household chores to more complex organizational tasks. Yet, broad directives like \"clean the room\" or \"organize th...",
-      "url": "https://arxiv.org/abs/2611.04708v1",
-      "date": "2026-11-03",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2611.04708v1",
-      "authors": "Dimitrios Bekris, Marios Glytsos et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Just Between Us? Exploring a Wearable-Mediated Channel for Discreet Human-Agent Interaction in a Shared Game Setting",
-      "summary": "In shared settings, social robots may need to exchange information with an individual while limiting co-present others' access to or interpretation of that information. Publicly observable speech and gestures may not adequately support such exchanges...",
-      "url": "https://arxiv.org/abs/2611.04692v1",
-      "date": "2026-11-03",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2611.04692v1",
-      "authors": "Atikkhan Faridkhan Nilgar, Manuel Dietrich et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "[具 身 智 能 的钱，流向机器人的“皮肤”",
-      "summary": "[具 身 智 能 的钱，流向机器人的“皮肤”",
-      "url": "https://36kr.com/p/4049738516141696",
-      "date": "2026-11-03",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
-      ]
-    },
-    {
-      "title": "[桌面机器人火了，具 身 智 能 厂商发力新赛道，终局是物理Agent？",
-      "summary": "[桌面机器人火了，具 身 智 能 厂商发力新赛道，终局是物理Agent？",
-      "url": "https://36kr.com/p/4048166536812168",
-      "date": "2026-11-03",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
       ]
     }
   ]
