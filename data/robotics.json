@@ -3,6 +3,19 @@
   "count": 200,
   "items": [
     {
+      "title": "[具 身 智 能 48小时三笔亿元级融资：热钱全绕开了“人形整机”",
+      "summary": "[具 身 智 能 48小时三笔亿元级融资：热钱全绕开了“人形整机”",
+      "url": "https://36kr.com/p/4083520759600768",
+      "date": "2026-11-27",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "人形机器人"
+      ]
+    },
+    {
       "title": "[Einsia AI 联合六所高校开源业内首个万级具身 RL 环境，具 身 智 能 迈向GPT时刻",
       "summary": "[Einsia AI 联合六所高校开源业内首个万级具身 RL 环境，具 身 智 能 迈向GPT时刻",
       "url": "https://36kr.com/p/4084882519796352",
@@ -3040,22 +3053,6 @@
       "type": "paper",
       "arxiv_id": "2611.04755v1",
       "authors": "Sierra Bonilla, Fengyi Jiang et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "Mass Scaling Laws for Energy-Optimal Horizontal Multirotor Flight",
-      "summary": "Multicopters are a type of aerial robot seeing extensive real-world applications but with range and endurance as critical bottlenecks. Optimization of its energy efficiency through energy-aware flight planning (e.g. cruise speed-scheduling) has hence...",
-      "url": "https://arxiv.org/abs/2611.04748v1",
-      "date": "2026-11-03",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2611.04748v1",
-      "authors": "Ayush Patnaik, Nicolas Michel et al.",
       "tags": [
         "机器人学习",
         "研究论文",

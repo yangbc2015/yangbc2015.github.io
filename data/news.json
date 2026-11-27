@@ -1,9 +1,81 @@
 {
   "last_updated": "2026-11-27",
   "count": 200,
-  "history_count": 205,
+  "history_count": 206,
   "retention_days": 30,
   "items": [
+    {
+      "title": "11 月 27 日，蚂蚁灵波科技发布流式三维重建模型 LingBot-Map 2.0",
+      "link": "https://www.qbitai.com/?s=11 月 27 日，",
+      "summary": "11 月 27 日，蚂蚁灵波科技发布流式三维重建模型 LingBot-Map 2.0...",
+      "date": "2026-11-27",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "Quickwit查询总耗时降31%，最高降87%",
+      "link": "https://www.qbitai.com/?s=Quickwit查询",
+      "summary": "Quickwit查询总耗时降31%，最高降87%...",
+      "date": "2026-11-27",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "3D生成的竞争重点正在从“能看”转向“能用”",
+      "link": "https://www.qbitai.com/?s=3D生成的竞争重点正",
+      "summary": "3D生成的竞争重点正在从“能看”转向“能用”...",
+      "date": "2026-11-27",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "11月26日，“乾崑生态 共赴热爱”华为乾崑生态大会在广州南沙体育馆举行。",
+      "link": "https://www.qbitai.com/?s=11月26日，“乾崑",
+      "summary": "11月26日，“乾崑生态 共赴热爱”华为乾崑生态大会在广州南沙体育馆举行。...",
+      "date": "2026-11-27",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "全栈方案破解工业机器人连续作业难题",
+      "link": "https://www.qbitai.com/?s=全栈方案破解工业机器",
+      "summary": "全栈方案破解工业机器人连续作业难题...",
+      "date": "2026-11-27",
+      "source": "量子位",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "Final URL: https://techcrunch.com/category/artificial-intelligence/",
+      "link": "https://techcrunch.com/category/artificial-intelligence/",
+      "summary": "Final URL: https://techcrunch.com/category/artificial-intelligence/...",
+      "date": "2026-11-27",
+      "source": "TechCrunch",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "Artificial Intelligence"
+      ]
+    },
     {
       "title": "已跑了超过一万次会话，在Lean4里验证通过了2400多条引理",
       "link": "https://www.qbitai.com/?s=已跑了超过一万次会话",
@@ -65,30 +137,6 @@
       ]
     },
     {
-      "title": "Final URL: https://techcrunch.com/category/artificial-intelligence/",
-      "link": "https://techcrunch.com/category/artificial-intelligence/",
-      "summary": "Final URL: https://techcrunch.com/category/artificial-intelligence/...",
-      "date": "2026-11-27",
-      "source": "TechCrunch",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "Artificial Intelligence"
-      ]
-    },
-    {
-      "title": "Markdown Content:",
-      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-      "summary": "Markdown Content:...",
-      "date": "2026-11-26",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
       "title": "告别「假精细」！VAST发布Tripo H3.5 Preview，AI建模开始较真了",
       "link": "https://www.jiqizhixin.com/search/articles/告别「假精细」！VAST发布T",
       "summary": "告别「假精细」！VAST发布Tripo H3.5 Preview，AI建模开始较真了...",
@@ -140,6 +188,30 @@
       "title": "GPT-6 Astra或已发现大一统理论？斯坦福物理论文引热议",
       "link": "https://www.jiqizhixin.com/search/articles/GPT-6 Astra或已发现",
       "summary": "GPT-6 Astra或已发现大一统理论？斯坦福物理论文引热议...",
+      "date": "2026-11-26",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "用代码拓展视频生成的能力边界，可灵联合北大南大提出Coda-DaVinci，重新思考 AI 视频生成中的控制与创造",
+      "link": "https://www.jiqizhixin.com/search/articles/用代码拓展视频生成的能力边界，",
+      "summary": "用代码拓展视频生成的能力边界，可灵联合北大南大提出Coda-DaVinci，重新思考 AI 视频生成中的控制与创造...",
+      "date": "2026-11-26",
+      "source": "机器之心",
+      "type": "industry",
+      "tags": [
+        "AI",
+        "人工智能"
+      ]
+    },
+    {
+      "title": "Markdown Content:",
+      "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
+      "summary": "Markdown Content:...",
       "date": "2026-11-26",
       "source": "机器之心",
       "type": "industry",
@@ -2326,78 +2398,6 @@
       "summary": "从LPDDR6首发量产到G6样片验证：长鑫高强度研发投入，驱动存储产品矩阵升级...",
       "date": "2026-10-30",
       "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "80岁变20岁？波恩大学研究逆转60年细胞衰老",
-      "link": "https://www.jiqizhixin.com/search/articles/80岁变20岁？波恩大学研究逆",
-      "summary": "80岁变20岁？波恩大学研究逆转60年细胞衰老...",
-      "date": "2026-10-30",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "独家｜刚刚，启元PrimeSim世界模型，登顶两大机器人权威榜单",
-      "link": "https://www.jiqizhixin.com/search/articles/独家｜刚刚，启元PrimeSi",
-      "summary": "独家｜刚刚，启元PrimeSim世界模型，登顶两大机器人权威榜单...",
-      "date": "2026-10-30",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "Claude Code：别再给Claude过多提示词了...",
-      "link": "https://www.jiqizhixin.com/search/articles/Claude Code：别再给",
-      "summary": "Claude Code：别再给Claude过多提示词了......",
-      "date": "2026-10-30",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "最强模型准确率仅39%！当Deep Search真正进入复杂的真实互联网",
-      "link": "https://www.jiqizhixin.com/search/articles/最强模型准确率仅39%！当De",
-      "summary": "最强模型准确率仅39%！当Deep Search真正进入复杂的真实互联网...",
-      "date": "2026-10-30",
-      "source": "机器之心",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "10月29日，文远知行披露旗下子公司景烁科技首次融资进展",
-      "link": "https://www.qbitai.com/?s=10月29日，文远知",
-      "summary": "10月29日，文远知行披露旗下子公司景烁科技首次融资进展...",
-      "date": "2026-10-30",
-      "source": "量子位",
-      "type": "industry",
-      "tags": [
-        "AI",
-        "人工智能"
-      ]
-    },
-    {
-      "title": "2026年10月27日，“工业具身智能焊接与检测技术联合实验室”正式揭牌成立。",
-      "link": "https://www.qbitai.com/?s=2026年10月27",
-      "summary": "2026年10月27日，“工业具身智能焊接与检测技术联合实验室”正式揭牌成立。...",
-      "date": "2026-10-30",
-      "source": "量子位",
       "type": "industry",
       "tags": [
         "AI",

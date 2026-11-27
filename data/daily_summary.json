@@ -8,18 +8,6 @@
       "count": 5,
       "items": [
         {
-          "title": "Markdown Content:",
-          "link": "https://www.jiqizhixin.com/search/articles/Markdown Conten",
-          "summary": "Markdown Content:...",
-          "date": "2026-11-26",
-          "source": "机器之心",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
           "title": "告别「假精细」！VAST发布Tripo H3.5 Preview，AI建模开始较真了",
           "link": "https://www.jiqizhixin.com/search/articles/告别「假精细」！VAST发布T",
           "summary": "告别「假精细」！VAST发布Tripo H3.5 Preview，AI建模开始较真了...",
@@ -59,6 +47,18 @@
           "title": "钛虎机器人推出轻量化关节模组 Lite-1系列，为人形机器人量产释放设计空间",
           "link": "https://www.jiqizhixin.com/search/articles/钛虎机器人推出轻量化关节模组 ",
           "summary": "钛虎机器人推出轻量化关节模组 Lite-1系列，为人形机器人量产释放设计空间...",
+          "date": "2026-11-26",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "GPT-6 Astra或已发现大一统理论？斯坦福物理论文引热议",
+          "link": "https://www.jiqizhixin.com/search/articles/GPT-6 Astra或已发现",
+          "summary": "GPT-6 Astra或已发现大一统理论？斯坦福物理论文引热议...",
           "date": "2026-11-26",
           "source": "机器之心",
           "type": "industry",
