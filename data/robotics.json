@@ -1,7 +1,19 @@
 {
-  "last_updated": "2026-11-27",
+  "last_updated": "2026-11-28",
   "count": 200,
   "items": [
+    {
+      "title": "[具 身 智 能 迎来商业化拐点：机器人进厂，告别“手搓”时代",
+      "summary": "[具 身 智 能 迎来商业化拐点：机器人进厂，告别“手搓”时代",
+      "url": "https://36kr.com/p/4084600525073030",
+      "date": "2026-11-28",
+      "source": "36氪",
+      "category": "机器人",
+      "type": "news",
+      "tags": [
+        "机器人"
+      ]
+    },
     {
       "title": "[扎根国家网安基地，帕西尼武汉具身超级数据工厂打造 具 身 智 能 数据生产新支点",
       "summary": "[扎根国家网安基地，帕西尼武汉具身超级数据工厂打造 具 身 智 能 数据生产新支点",
@@ -63,18 +75,6 @@
       "tags": [
         "机器人",
         "具身智能"
-      ]
-    },
-    {
-      "title": "[具 身 智 能 迎来商业化拐点：机器人进厂，告别“手搓”时代",
-      "summary": "[具 身 智 能 迎来商业化拐点：机器人进厂，告别“手搓”时代",
-      "url": "https://36kr.com/p/4084600525073030",
-      "date": "2026-11-27",
-      "source": "36氪",
-      "category": "机器人",
-      "type": "news",
-      "tags": [
-        "机器人"
       ]
     },
     {
@@ -244,6 +244,19 @@
       ]
     },
     {
+      "title": "中美具身智能数采产业，呈现两套截然不同发展逻辑",
+      "summary": "中美具身智能数采产业，呈现两套截然不同发展逻辑",
+      "url": "https://36kr.com/p/4085276211943303",
+      "date": "2026-11-25",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
       "title": "“泡沫论”之下，具身智能的技术进步和商业困境同时存在，行业走到了拼交付、算细账的时刻。",
       "summary": "“泡沫论”之下，具身智能的技术进步和商业困境同时存在，行业走到了拼交付、算细账的时刻。",
       "url": "https://36kr.com/p/4085020019632775",
@@ -272,7 +285,7 @@
       "title": "机器人，正走向可复制的生产力。",
       "summary": "机器人，正走向可复制的生产力。",
       "url": "https://36kr.com/p/4084600525073030",
-      "date": "2026-11-25",
+      "date": "2026-11-24",
       "source": "36氪",
       "category": "机器人",
       "type": "news",
@@ -3026,22 +3039,6 @@
       "type": "paper",
       "arxiv_id": "2611.05372v1",
       "authors": "Yuhan Liu, Xinqi Liu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "GUILD: Guided Iterative Data Collection for Imitation Learning",
-      "summary": "Imitation learning policies in robotics are trained on datasets collected through costly real-world teleoperation. Often, the data-collection process is unguided, relying on the teleoperator's intuition, resulting in data that contributes little to o...",
-      "url": "https://arxiv.org/abs/2611.05368v1",
-      "date": "2026-11-03",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2611.05368v1",
-      "authors": "Shivin Dass, Kevin Nguyen et al.",
       "tags": [
         "机器人学习",
         "研究论文",
