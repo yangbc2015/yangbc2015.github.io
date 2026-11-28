@@ -5,69 +5,8 @@
     "ai": {
       "name": "人工智能",
       "icon": "🤖",
-      "count": 5,
-      "items": [
-        {
-          "title": "一支团队在真机上验证的成果，可以成为下一支团队继续开发的起点。",
-          "link": "https://www.qbitai.com/?s=一支团队在真机上验证",
-          "summary": "一支团队在真机上验证的成果，可以成为下一支团队继续开发的起点。...",
-          "date": "2026-11-28",
-          "source": "量子位",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
-          "title": "商汤大装置Token工厂获得中国信通院Token工厂智算能力评估“全栈服务型·领先级”评级认证",
-          "link": "https://www.qbitai.com/?s=商汤大装置Token",
-          "summary": "商汤大装置Token工厂获得中国信通院Token工厂智算能力评估“全栈服务型·领先级”评级认证...",
-          "date": "2026-11-28",
-          "source": "量子位",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
-          "title": "11 月 27 日，蚂蚁灵波科技发布流式三维重建模型 LingBot-Map 2.0",
-          "link": "https://www.qbitai.com/?s=11 月 27 日，",
-          "summary": "11 月 27 日，蚂蚁灵波科技发布流式三维重建模型 LingBot-Map 2.0...",
-          "date": "2026-11-28",
-          "source": "量子位",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
-          "title": "Quickwit查询总耗时降31%，最高降87%",
-          "link": "https://www.qbitai.com/?s=Quickwit查询",
-          "summary": "Quickwit查询总耗时降31%，最高降87%...",
-          "date": "2026-11-28",
-          "source": "量子位",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        },
-        {
-          "title": "3D生成的竞争重点正在从“能看”转向“能用”",
-          "link": "https://www.qbitai.com/?s=3D生成的竞争重点正",
-          "summary": "3D生成的竞争重点正在从“能看”转向“能用”...",
-          "date": "2026-11-28",
-          "source": "量子位",
-          "type": "industry",
-          "tags": [
-            "AI",
-            "人工智能"
-          ]
-        }
-      ]
+      "count": 0,
+      "items": []
     },
     "economy": {
       "name": "宏观经济",
