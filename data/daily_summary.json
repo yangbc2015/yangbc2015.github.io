@@ -5,8 +5,69 @@
     "ai": {
       "name": "人工智能",
       "icon": "🤖",
-      "count": 0,
-      "items": []
+      "count": 5,
+      "items": [
+        {
+          "title": "Sharpa与上海交通大学联合提出WiTac，让灵巧手借腕部视角读懂指尖触觉",
+          "link": "https://www.jiqizhixin.com/search/articles/Sharpa与上海交通大学联合",
+          "summary": "Sharpa与上海交通大学联合提出WiTac，让灵巧手借腕部视角读懂指尖触觉...",
+          "date": "2026-11-27",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "大神Karpathy又整活！Claude 7小时把真实美国搬进《文明》",
+          "link": "https://www.jiqizhixin.com/search/articles/大神Karpathy又整活！C",
+          "summary": "大神Karpathy又整活！Claude 7小时把真实美国搬进《文明》...",
+          "date": "2026-11-27",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "具身智能新一局，这家公司「出手」了",
+          "link": "https://www.jiqizhixin.com/search/articles/具身智能新一局，这家公司「出手",
+          "summary": "具身智能新一局，这家公司「出手」了...",
+          "date": "2026-11-27",
+          "source": "机器之心",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "这可能是有史以来，ROI（投资回报率）最高的个人博客。",
+          "link": "https://www.qbitai.com/?s=这可能是有史以来，R",
+          "summary": "这可能是有史以来，ROI（投资回报率）最高的个人博客。...",
+          "date": "2026-11-28",
+          "source": "量子位",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        },
+        {
+          "title": "这两天转投Gemini的有福了！",
+          "link": "https://www.qbitai.com/?s=这两天转投Gemin",
+          "summary": "这两天转投Gemini的有福了！...",
+          "date": "2026-11-28",
+          "source": "量子位",
+          "type": "industry",
+          "tags": [
+            "AI",
+            "人工智能"
+          ]
+        }
+      ]
     },
     "economy": {
       "name": "宏观经济",

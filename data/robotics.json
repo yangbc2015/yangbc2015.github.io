@@ -164,6 +164,32 @@
       ]
     },
     {
+      "title": "具身你玩生态，你玩它有啥用？",
+      "summary": "具身你玩生态，你玩它有啥用？",
+      "url": "https://36kr.com/p/4086496959638149",
+      "date": "2026-11-26",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
+      "title": "具身智能真正的ChatGPT时刻，或许不在于外形有多么像人，而在于能不能在真实工况里理解环境、判断变化、把活干完。",
+      "summary": "具身智能真正的ChatGPT时刻，或许不在于外形有多么像人，而在于能不能在真实工况里理解环境、判断变化、把活干完。",
+      "url": "https://36kr.com/p/4086034359511425",
+      "date": "2026-11-26",
+      "source": "36氪",
+      "category": "具身智能",
+      "type": "news",
+      "tags": [
+        "机器人",
+        "具身智能"
+      ]
+    },
+    {
       "title": "DexLink: Synthesizing Dexterous Behaviors from Chained Hand-object Poses",
       "summary": "Synthesizing diverse dexterous manipulation policies is challenging: existing simulation-based approaches rely on human demonstrations which are difficult to scale, or use generic reward functions, which provide limited control over the hand-object i...",
       "url": "https://arxiv.org/abs/2611.34936v1",
@@ -3011,38 +3037,6 @@
       "tags": [
         "机器人",
         "具身智能"
-      ]
-    },
-    {
-      "title": "DreamX: Video Diffusion Model is a Universal Latent Action Learner",
-      "summary": "Learning a universal action representation from video requires modeling dynamics that are consistent across different executions of the same action yet invariant to changes in embodiment and appearance. Existing latent action models infer actions fro...",
-      "url": "https://arxiv.org/abs/2611.05377v1",
-      "date": "2026-11-03",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2611.05377v1",
-      "authors": "Jisoo Kim, Chaehyun Kim et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
-      ]
-    },
-    {
-      "title": "PolicyIK: High-Precision Inverse Kinematics for Robot Arms with Reinforcement Learning",
-      "summary": "Inverse kinematics (IK) converts end-effector pose commands into joint motion, and many vision-language-action (VLA) policies rely on it to act on a given arm and to transfer across embodiments. Precise IK remains laborious: redundancy and singularit...",
-      "url": "https://arxiv.org/abs/2611.05372v1",
-      "date": "2026-11-03",
-      "source": "arXiv",
-      "category": "机器人学习",
-      "type": "paper",
-      "arxiv_id": "2611.05372v1",
-      "authors": "Yuhan Liu, Xinqi Liu et al.",
-      "tags": [
-        "机器人学习",
-        "研究论文",
-        "arXiv"
       ]
     }
   ]
